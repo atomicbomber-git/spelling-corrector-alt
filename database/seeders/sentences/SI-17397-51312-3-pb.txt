@@ -1,0 +1,90 @@
+kebutuhan akan rasa aman adalah kebutuhan pokok yang harus dipenuhi
+tanpa adanya rasa aman kehidupan masyarakat tidak akan berjalan dengan baik
+oleh karena itu banyak cara yang telah ditempuh untuk memenuhi kebutuhan akan rasa aman tersebut seperti instalasi cctv, penjadwalan ronda hingga pendirian pos- pos polisi dan satpam
+upaya yang telah dilakukan sebelumnya dirasa kurang cukup memberikan rasa aman karena sulitnya mencari pertolongan dalam keadaan darurat saat malam hari dan kondisi daerah sekitar sepi
+pada penelitian ini, dibuat sebuah aplikasi berbasis android menggunakan location based service yang diharapkan dapat membantu masyarakat memperoleh rasa aman
+pengguna dapat mendaftarkan keluarga dan kerabat dalam daftar kontak darurat pada aplikasi
+aplikasi juga dilengkapi dengan fitur push notification ke pengguna aplikasi terdekat dan petugas keamanan dalam keadaan darurat
+dengan adanya fitur ini, pengguna dapat memberitahukan lokasinya lewat aplikasi dan menyebarkan informasi tersebut dengan rata-rata 1, 53 detik pada ruang terbuka dan 1, 56 pada ruang tertutup serta 1, 57 detik pada kondisi cuaca cerah dan 2, 62 detik pada kondisi cuaca hujan berdasarkan hasil pengujian response time
+bersasarkan hasil pengujian akurasi, aplikasi dapat menerima dan menyebarkan lokasi pengguna dengan rata-rata akurasi 4, 6 hingga 14, 2 meter sehingga dapat dikatakan cukup akurat
+aplikasi juga dapat berjalan dengan baik pada perangkat mobile android versi 4.4 hingga 6.0.1 
+dalam hierarki kebutuhan maslow yang harus dipenuhi
+konsep dasar keamanan keselamatan terkait dengan kemampuan seseorang menghindari bahaya yang ditentukan oleh pengetahuan dan kesadaran serta motivasi orang tersebut untuk melakukan tindak pencegahan
+ada tiga faktor penting yang terkait dengan keamanan dan keselamatan, yaitu tingkat pengetahuan dan kesadaran individu, kemampuan fisik dan mental dalam melakukan tindak pencegahan, serta lingkungan fisik yang membahayakan atau berpotensi menimbulkan bahaya
+maupun pemerintah melakukan upaya-upaya pencegahan seperti pendirian pos-pos polisi dan satpam, pengadaan ronda atau siskamling pada kampung-kampung dan instalasi cctv pada rumah, pertokoan maupun titik-titik rawan
+namun, upaya pencegahan paling tepat adalah kesadaran individu itu sendiri untuk menciptakan rasa aman
+supresif berarti korban sedang mengalami tindak kejahatan
+upaya paling mudah yang dapat ditempuh adalah meminta pertolongan pada orang sekitar
+masalah yang ditemui adalah sulitnya meminta pertolongan saat korban berada dalam kondisi jalanan gelap dan sepi seperti malam hari serta jauh dari pos keamanan terdekat
+hal itu membuat upaya-upaya sebelumnya menjadi tidak berarti
+tindak kejahatan kejahatan berarti mempunyai sifat yang jahat atau perbuatan yang jahat
+secara yuridis, kejahatan diartikan sebagai suatu perbuatan melanggar hukum atau undang-undang
+pengertian kejahatan dari sudut pandang hukum adalah setiap tingkah laku manusia yang melanggar aturan hukum pidana
+kartini kartono menjelaskan bahwa crime atau kejahatan adalah tingkah laku yang melanggar hukum dan norma-norma sosial sehingga masyarakat menentangnya
+bereaksi aktif terhadap perubahan entitas posisi sehingga mampu mendeteksi lokasi objek dan memberikan layanan sesuai dengan letak objek yang telah diketahui tersebut
+lbs memiliki dua unsur utama yaitu location manager dan location provider 
+piranti mobile, sebagai tools bagi pengguna untuk melakukan request informasi
+jaringan komunikasi, sebagai penghubung dari pengguna kepada penyedia layanan
+komponen positioning, sebagai layanan yang diberikan oleh penyedia layanan biasanya berdasarkan lokasi pengguna
+penyedia layanan dan aplikasi, sebagai penyedia berbagai layanan dan fitur untuk digunakan pengguna
+penyedia data dan konten, sebagai penyimpan data
+dapat berupa penyedia layanan ataupun pihak ketiga
+haversine formula navigasi, memberikan jarak lingkaran besar antara dua titik pada permukaan bumi bedasarkan bujur dan lintang
+rumus haversine yang digunakan adalah rumus untuk mencari lingkaran atau radius sebesar variabel yang diberikan
+berikut bentuk haversine formula untuk menghitung jarak antara dua titik pada permukaan bumi dengan nilai lintang atau latitude dan bujur atau longitude dalam bentuk radian serta selisih bujur δλ = λ2 – λ1: d
+unified modelling language unified modeling language adalah standar permodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem melaui internet, aplikasi android pengguna akan melakuan komunikasi data dengan web server
+aplikasi menerima informasi lokasi dari smartphone android user melalui gps, selanjutnya data tersebut disimpan kedalam database
+aplikasi kemudian mengirimkan data yang telah diterima ke user lain dan petugas keamanan
+aplikasi petugas keamanan akan menerima lokasi dari petugas keamanan dan membandingkannya dengan lokasi dari user agar dapat melakukan verifikasi
+pengujian aplikasi posisi, response time dan kompatibilitas aplikasi
+hasil aplikasi aplikasi sos broadcast berbasis android ini dibangun untuk menerima lokasi user dan mengirimkannya kepada kontak darurat yang telah didaftarkan user via short message service, pengguna aplikasi terdekat dan petugas keamanan
+aplikasi pada petugas keamanan dibuat untuk menerima informasi laporan sos dari user dan melakukan verifikasi laporan
+berikut beberapa tampilan hasil perancangan aplikasi yang diperlihatkan pada gambar 3 hingga gambar 8
+tampilan menu utama pada gambar 4, merupakan tampilan menu utama pada aplikasi ini
+menu utama memiliki satu buah tombol berupa tombol sos dan sebuah menu overview dengan empat pilihan navigasi menu dan satu fungsi logout aplikasi
+tampilan kontak darurat gambar 5 merupakan tampilan daftar kontak darurat yang telah didaftarkan user sebelumnya
+gambar 6 merupakan tampilan untuk tambah untuk kontak darurat
+gambar 7 merupakan tampilan tombol sos saat ditekan
+tampilan notifikasi sms ke kontak darurat gambar 8 merupakan tampilan notifikasi berupa sms kepada kontak darurat
+gambar 9 merupakan tampilan notifikasi kepada pengguna aplikasi terdekat
+tampilan laporan sos pada pengguna aplikasi terdekat gambar 10 merupakan tampilan laporan sos kepada pengguna aplikasi terdekat
+gambar 11 merupakan tampilan laporan sos kepada petugas keamanan
+gambar 12 merupakan tampilan verifikasi laporan sos user pada petugas keamanan
+gambar 13 merupakan tampilan laporan sos pada petugas keamanan
+gambar 14 merupakan tampilan detail laporan darurat pada petugas keamanan
+robustness testing robustness testing adalah pengujian dengan data input dipilih diluar spesifikasi yang telah didefinisikan
+tujuan dari pengujian ini adalah membuktikan bahwa tidak ada kesalahan jika masukan tidak valid
+pengujian ini dilakukan pada proses input data seperti daftar akun dan penambahan data kontak darurat
+pada tabel 1 memperlihatkan pengujian pada proses daftar akun dengan masukan berupa data kosong, email telah didaftarkan sebelumnya dan seluruh data terisi
+dalam pengujian ini dilakukan dengan data kosong, salah satu data tidak terisi dan data lengkap
+tabel 2 masukan contoh data hasil status kerabat koordinat yang diperoleh beberapa smartphone, untuk selanjutnya dibandingkan dengan gps receiver yaitu garmin 78s
+hasil pengujian pada smartphone sony xperia m4 aqua dapat dilihat pada tabel 3 berikut
+tabel 3 tabel hasil pengujian perbandingan ketepatan posisi pada sony xperia m4 aqua 3
+response time pengujian ini dilakukan untuk mengetahui seberapa cepat aplikasi dapat mengirimkan laporan sos kepada user terdekat maupun petugas keamanan
+hasil pengujian pengiriman laporan sos untuk petugas keamanan dapat dilihat pada tabel 4 berikut
+tabel 4 no lokasi hasil pengukuran ke- selisih 1 2 3 4 5 6 7 8 9 10 1 ruang terbuka 2 beberapa perangkat android yang berbeda
+hasil robustness testing menyatakan aplikasi dapat meng- handle proses input dengan baik, terutama pada proses input data yang tidak sesuai dan kosong
+berdasarkan hasil hasil pengukuran yang diperoleh pada pengujian ketepatan posisi terdapat selisih antara koordinat yang diperoleh menggunakan smartphone dan gps receiver
+selisih rata-rata koordinat dari sepuluh lokasi pengujian berbeda antar perangkat yang digunakan mulai dari 4, 4 meter hingga 14, 2 meter
+selisih tersebut masih berada dalam jangkauan akurasi gps yang mencapai 15 meter dari lokasi sebenarnya
+berdasarkan hasil pengukuran waktu pada pengujian response time diperoleh waktu rata-rata setiap pengujian yaitu 1, 53 detik pada kondisi ruangan terbuka, 1, 65 detik pada kondisi ruangan tertutup, 1, 57 detik pada kondisi cuaca cerah dan 2, 62 detik pada kondisi cuaca hujan
+dapat dilihat bahwa terdapat perbedaan waktu pada lokasi dan cuaca yang berbeda sehingga dapat disimpulkan bahwa waktu respon aplikasi akan dipengaruhi oleh kondisi lokasi dan cuaca
+smartphone android dengan sistem operasi versi 4.3, versi 4.4 dan 4.4.2, versi 5.0, 5.0.2 dan 5.1 serta versi 6.0.1 
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa tampilan pada setiap perangkat akan berbeda
+hal ini disebabkan oleh perbedaan ukuran dan resolusi layar pada tiap smartphone android
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa pengiriman notifikasi baik berupa sms maupun langsung ke aplikasi user lain dan petugas keamanan tidak selalu berjalan dengan baik
+kurang stabilnya koneksi internet dan kurangnya kekuatan sinyal dari masing-masing provider menyebabkan hal ini terjadi
+kesimpulan/ringkasan disimpulkan bahwa: mulai dari versi 4.3, versi 4.4 dan 4.4.2, versi 5.0, 5.0.2 dan 5.1 serta versi 6.0.1 
+aplikasi berhasil mengirimkan sms pada kontak darurat yang didaftarkan user serta notifikasi berisi informasi user dan lokasi sos kepada pengguna aplikasi terdekat dan petugas keamanan
+perbedaan akurasi koordinat yang didapatkan dengan jangkauan rata-rata 4, 6 meter hingga 14, 2 meter
+waktu yang diperlukan aplikasi untuk mengirimkan lokasi user ke petugas keamanan dipengaruhi oleh lokasi dan kondisi cuaca
+kondisi terbaik adalah pada lokasi ruang terbuka dan saat kondisi cuaca cerah

@@ -1,0 +1,19 @@
+ang salah satunya membahas struktur penyusun rangka tubuh manusia
+selama ini siswa mempelajarinya hanya melalui buku sehingga memberikan efek jenuh serta mengurangi ketertarikan
+untuk menambah minat belajar dibutuhkan suatu media pembelajaran alternatif
+tujuan dari penelitian ini adalah membangun aplikasi pembelajaran tulang penyusun rangka tubuh manusia, sehingga dapat menambah ketertarikan siswa untuk belajar
+dengan beberapa tahapan yang akan dilakukan meliputi: studi literatur, analisis kebutuhan, pembuatan 3d, perancangan sistem, implementasi, pengujian sistem, analisis hasil pengujian dan penarikan kesimpulan
+alat perancangan dalam penelitian ini menggunakan unified modeling language dari pengujian kusioner didapati hasil berdasarkan aspek fungsional yaitu 20% sangat baik, 55% baik dan 25% cukup baik
+berdasarkan aspek visual yaitu 35.71% sangat baik, 48.57% baik, 15.71% cukup baik
+berdasarkan aspek audio yaitu 10% sangat baik, 50% baik dan 40% cukup baik
+berdasarkan pengoperasian yaitu 46.66% sangat baik, 46.66% baik dan 6.66% cukup baik
+hasil perhitungan pengujian menggunakan skala likert’s summated rating memiliki skor 579 berada pada range sangat positif menunjukkan bahwa aplikasi pembelajaran tulang penyusun rangka tubuh manusia dapat menambah daya tarik siswa untuk belajar
+pengaruh globalisasi yang sangat cepat dan dinamis menimbulkan berbagai dampak yang signifikan diberbagai bidang diantaranya bidang ekonomi, perindustrian, pertahanan, pertanian, dan pendidikan
+dampak perubahan tersebut sangat dirasakan oleh masyarakat khususnya dibidang pendidikan, dimana saat ini sistem pembelajaran telah berkembang menjadi sistem pembelajaran yang terkomputerisasi
+salah satu materi ilmu yang diajarkan di sekolah yaitu anatomi tubuh manusia
+membahas tentang struktur tubuh pada manusia, salah satunya yaitu rangka manusia yang berfungsi menyokong, melindungi, memberi bentuk tubuh dan sebagai alat ungkit pada gerakan serta menyediakan permukaan untuk kaitan otot-otot
+selama ini dalam mempelajari rangka manusia lebih banyak melalui buku sehingga memberikan efek jenuh serta mengurangi ketertarikan siswa untuk mempelajari tulang manusia
+untuk menambah minat belajar siswa dalam mempelajari anatomi tubuh manusia ini, dibutuhkan suatu media pembelajaran alternatif agar kegiatan belajar mengajar menjadi lebih menyenangkan
+mengatasi permasalahan tersebut sehingga siswa akan belajar mengenai tulang penyusun rangka tubuh manusia yang dikemas secara menarik
+didalam aplikasi berisikan materi penjelasan tentang bagian-bagian rangka tubuh manusia beserta fungsi dan penjelasannya, serta kuis untuk melatih ingatan siswa tentang materi yang sudah diberikan
+oleh karena itu, media dapat diartikan sebagai perantara atau pengantar pesan dari pengirim ke penerima pesan

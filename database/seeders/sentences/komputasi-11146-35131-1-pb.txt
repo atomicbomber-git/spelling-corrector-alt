@@ -1,0 +1,59 @@
+badan yang mengelola saat ini adalah suatu unit pengembangan sertifikasi benih tanaman pangan dan hortikultura yang berada dibawah naungan dinas pertanian provinsi kalimantan barat
+adapun pemetaan yang dilakukan saat ini hanya menggunakan mapinfo dan data statistik dimana sistem pemetaan yang menunjang dalam perancangan sebuah pemetaan persebaran tanaman pangan dan hortikultura kebutuhan informasi secara periodik oleh pemerintah dan stake holder terkait sangat tinggi untuk dapat mengetahui kondisi yang terjadi pada wilayah penghasil tanaman pangan tersebut
+pemanfaatan metode cluster observation yang digunakan dalam sistem informasi pemetaan berguna sebagai metode pemetaan menjadi metode yang dapat membantu dalam mengelompokkan data tersebut
+badan yang mengelola saat ini adalah suatu unit pengembangan sertifikasi benih tanaman pangan dan hortikultura yang berada dibawah naungan dinas pertanian provinsi kalimantan barat
+adapun pemetaan yang dilakukan saat ini menggunakan mapinfo sebagai perwujudan data statistik yang ada didalam pemetaan
+pemetaan tersebut diharapkan dapat menunjang dalam perencanaan dan perancangan sebuah pemetaan persebaran tanaman pangan dan hortikultura
+sedangkan kebutuhan informasi secara periodik oleh pemerintah dan stake holder terkait sangat tinggi untuk dapat mengetahui kondisi yang terjadi pada wilayah penghasil tanaman pangan tersebut
+keadaan tersebut menuntut adanya sebuah sistem pemetaan yang dapat memetakan hasil dari analisis sebagai metode pemetaan dari lingkup terkecil sebuah lokus penelitian dan cluster observation sebagai metode yang berguna dalam mengklasifikasikan serta mengkategorikan jenis produktifitas unggulan suatu subjek penelitian
+sistem tersebut dapat menghasilkan sampel terkecil dan pengelompokan data yang sama dan dapat diperbarui setiap periode bulan atau tahun dimana sumber data itu berasal, karena kecenderungan saat ini adalah pemerintah melalui upsbtph hanya memetakan pada peta statis yang berupa informasi statistik yang ditampilkan pada peta tersebut
+oleh karena itu diperlukan perancangan sistem baru yang diharapkan dapat menunjang dan membantu pemerintah dalam memetakan persebaran tanaman pangan dan hortikultura secara periodik dapat diperbarui oleh admin yang berada di upsbtph untuk perancangan laporan kepada pihak pemerintah yang dilakukan setiap bulannya
+landasan teori visualisasi adalah pengungkapan suatu gagasan atau perasaan dengan menggunakan gambar, tulisan, peta, dan grafik
+sementara itu spasser, mengatakan bahwa “peta adalah alat relasi yang menyediakan informasi antarhubungan entitas yang dipetakan
+dalam studi area aplikasi yang dipilih dengan cara mereduksi sejumlah kompleksitas yang ada
+jika model dunia nyata ini akan digunakan, model ini harus diimplementasikan di dalam basis data
+bentuk representasi entity spasial adalah konsep vektor dan raster
+dengan demikian, data spasial direpresentasikan di dalam basis data sebagai vektor atau raster
+2.3 digitasi berasal dari data raster menjadi data vektor
+dalam sistem informasi geografis dan pemetaan digital, data vektor banyak digunakan sebagai dasar analisis dan berbagai proses
+digitasi pada arcview dilakukan pada aplikasi basis data varietas tanaman pangan dan holtikultura kalimantan barat program studi teknik informatika universitas tanjungpura 1, 2, 3 1rahmat.baginda17@gmail.com, 2 heripriyanto.stmt@gmail.com, 3stmt@gmail.com grafis harus disimpan di dalam sebuah shapefile 
+oleh karena itu, proses digitasi didahului dengan pembuatan sebuah shapefile kosong
+peta hasil digitasi selanjutnya dapat digunakan dalam proses overlay
+2.4 overlay yang menghasilkan satu unit peta analisis baru
+overlay peta sering dilakukan bersamaan dengan proses skoring
+namun tidak setiap proses tumpang- susun peta selalu menggunakan skoring
+dalam beberapa hal, overlay juga dilakukan antara suatu peta dengan citra satelit atau foto udara
+overlay digunakan sebagai pemadu berbagai indikator yang berasal dari peta tematik hingga menjadi satu peta analisis
+peta analisis ini pada akhirnya digunakan sebagai dasar penarikan kesimpulan untuk suatu kasus
+2.5 cluster observation analisa gerombol adalah salah satu teknik statistik yang bertujuan untuk mengelompokkan objek kedalam suatu kelompok sehingga objek akan memiliki kesamaan maksimal jika mereka dikelompokkan ke dalam suatu kelompok 
+analisa gerombol bertujuan untuk meminimumkan variance antar grup dan memaksimalkan variance di antara grup
+dikembangkan oleh environment science & research institute yang merupakan kompilasi fungsi- fungsi dari berbagai macam software gis yang berbeda seperti gis desktop, server, dan gis berbasis web
+software ini mulai dirilis oleh esri pada tahun 2000
+komponen yang fokus ke penggunaan data yang komprehensif, pemetaan dan analisis
+lebih fokus ke arah editing data spasial
+lebih lengkap dalam menyajikan fungsi- fungsi si termasuk untuk keperluan analisis geoprosesing
+produk utama dari arcgis adalah arcgis desktop, dimana arcgis desktop merupakan perangkat lunak sig profesional yang komprehensif dan dikelompokkan atas tiga komponen yaitu : arcview, arceditor dan arcinfo 
+bahasa pemrograman delphi memiliki cakupan kemampuan yang luas dan sangat canggih
+berbagai jenis aplikasi dapat dihasilkan dengan delphi, termasuk aplikasi untuk mengolah teks, grafik, angka, basis data, dan aplikasi web 
+secara umum, kemampuan delphi adalah menyediakan komponen-komponen dan bahasa pemrograman yang handal sehingga memungkinkan untuk membuat program aplikasi yang canggih sesuai dengan kebutuhan
+untuk mempermudah dalam pembuatan program aplikasi, delphi menyediakan fasilitas pemrograman yang sangat lengkap yaitu object dan bahasa pemrograman
+m a n ip u la s i p e t a aktor yang terlibar dan daftar kegiatan yang dapat dilakukan dalam sistem yang dirancang
+use case diagram aplikasi dapat dilhat pada gambar 3
+yang bertujuan memberikan informasi produk unggulan di suatu kabupaten per periode
+gambar 5 antarmuka beranda 4.2 pengujian blackbox apakah data telah masuk ke dalam aplikasi
+pengujian blackbox dalam aplikasi dapat lihat pada gambar 7 berikut: an semua field kosong nama tidak berhas il muncul pesan : passwor d salah satu field kosong userna dari gambar 8 terlihat pengujian blackbox di menu pilihan login apabila salah satu data masuk login tidak berhasil dan muncul data tidak boleh kosong, sudah terlihat jelas pada gambar 7, 8, 9 4.3 pengujian hasil borang tabel 1 hasil borang berdasarkan hasil borang pada aspek fungsionalitas tersebut dapat diketahui informasi bahwa sebagian besar responden menanggapi aplikasi sangat penting dengan total tanggapan 4 dengan persentase 34, 1%
+• skor maksimal = 44 • skor minimal = 0 • skor median = 22 • skor kuartil i = 11 • skor kuartil iii = 33 b) jumlah skor untuk seluruh responden: • maksimal = 176 input contoh data hasil keterang an password salah userna me passwo rd user user tidak berhas il muncul pesan : “usernam 1 pencarian data 2 pencarian data 3 input data indikator 0 1 1 2 0 4 4 input edit data 5 input hapus data 6 7 rekap laporan per 8 cetak laporan per 9 rekap laporan per 10 cetak laporan per 11 grafik varietas tph jumlah 0 1 14 14 15 44 persentase 0 2, 27 31, 8 31, 8 34, 1 100 keterangan:0=tidakperlu 1=biasa saja 2 = cukup penting 3 = penting 4 = sangat penting input contoh data hasil keterang an semua field atau salah satu field kosong tidak berhas il muncul pesan : “data belum lengkap
+berada di antara skor 132-176 yang artinya, hasil borang menandakan responden menilai aplikasi sangat positif dan dinilai berhasil
+dalam jumlah produktivitas terdiri atas kabupaten bengkayang dengan jumlah 13302 ton/tahun, sekadau berjumlah 9102 ton/tahun, landak berjumlah 6471 ton/tahun, sintang berjumlah 5873 ton/tahun, sanggau berjumlah 2596 ton/tahun, kabupaten pontianak berjumlah 981 ton/tahun, sambas berjumlah 807 ton/tahun, ketapang berjumlah 784 ton/tahun, melawi berjumlah 689 ton/tahun, kota pontianak berjumlah 19 ton/tahun, kota singkawang berjumlah 0 produksi, kayong utara berjumlah 0 produksi, kuburaya berjumlah 0 produksi, kapuas hulu berjumlah 0 produksi
+bengkayang, sekadau, landak, sintang, sanggau, kabupaten pontianak, sambas, ketapang, melawi, kota pontianak, kota singkawang, kayong utara, kuburaya, kapuas hulu
+mengkategorikan empat kabupaten yang belum dilengkapi dengan data hasil produksi tanaman pangan dan hortikultura diantaranya adalah kabupaten kapuas hulu, kabupaten kayong utara, kuburaya, kota singkawang
+produktivitas tiap kabupaten menunjukkan produktivitas unggulan masing-masing indikator mengenai aplikasi basis data tanaman pangan dan hortikultura kalimantan barat, maka dapat diambil kesimpulan sebagai berikut: berdasarkan jumlah produksi unggulan tanaman pangan dan hortikultura yang menghasilkan berupa pemetaan penyebaran tanaman pangan dan hortikultura kalimantan barat dengan kalimantan barat
+upsbtph dalam menentukan hasil dari produktivitas unggulan di setiap kawasan yang berupa peta persebaran pada provinsi kalimantan barat berdasarkan parameter kabupaten / kota dan periode bulan dan tahun
+produktif hingga kurang produktif adalah bengkayang, sekadau, landak
+sintang, kapuas hulu, sambas, kab pontianak, ketapang, melawi, kapuas hulu, sambas, bengkayang, kota singkawang, sanggau, kab
+pontianak, kayong utara, ketapang dan kota pontianak, sambas, kubu raya, sanggau, kapuas hulu, kab pontianak, bengkayang, kota singkawang, kayong utara dan ketapang 
+kebaikan pengembangan sistem lebih lanjut, maka perlu diperhatikan beberapa hal, diantaranya: 1
+data spasial dan data tabular yang digunakan untuk pengembangan dari sistem ini diharapkan dapat diperbaharui oleh dinas upsbtph dan big, sehingga tidak ada terjadi ketimpangan data setiap periode yang dapat berdampak pada keluaran yang dihasilkan
+176 132 88 44 0 132 lebih mendetail mengenai profil kawasan kabupaten / kota yang digunakan misalnya kontur muka bumi dan peta tata guna lahan sebagai bahan perbandingan dalam memberikan informasi dan analisis yang lebih baik
+web, sehingga data-data yang ada pada sistem ini berikut hasil analisisnya dapat dilihat oleh masyarakat luas
+penjualan retail dengan google map berbasis web

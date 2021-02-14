@@ -1,0 +1,146 @@
+communications and information technology is rapidly grows and provides a major influence on people's lives
+the rapid development of information technology is currently supported by the importance of the need for information
+it can be seen from the development of today's internet network is rapidly increasing
+informations that transmitted is not meant for everyone
+along with the development of these technologies, security threats becomes more and more powerful, particularly for the undisclosed information
+various threats in cyberspace such as hacker, cracker, carder makes people worry about the security of the information they sends
+this concern that make the development of information hiding techniques
+one of the well known information hiding technique is steganography
+in general, steganography means a technique and art of hiding a fact to communicate
+by using steganography, secret message can be inserted into an unsuspicious information and send it without being aware of the existence of the secret message
+there are several criteria that must be considered in steganography is fidelity, robustness, and recovery
+fidelity means that stegomedium quality has not changed much due to the insertion
+the changes can not be perceived by the senses
+keywords: computer answer sheet, smart scanning techniques, image preprocessing, scanline, computer answer sheet correction 1
+pendahuluan teknologi komunikasi dan informasi berkembang dengan sangat pesat dan memberikan pengaruh besar terhadap kehidupan manusia
+cepatnya perkembangan teknologi informasi saat ini didukung dengan pentingnya kebutuhan akan mendapatkan informasi
+hal ini dapat dilihat dari berkembangnya jaringan internet saat ini yang semakin pesat
+informasi yang dikirimkan tidak hanya informasi untuk semua orang
+seiring dengan perkembangan teknologi tersebut, ancaman terhadap keamanan informasi yang dibutuhkan semakin besar, terutama untuk informasi yang dirahasiakan tersebut
+berbagai ancaman di dunia maya seperti hacker, cracker, carder membuat orang khawatir akan keamanan informasi yang dikirimnya
+kekhawatiran inilah yang membuat berkembangnya teknik penyembunyian informasi yang akan dikirimkan
+teknik penyembunyian informasi yang cukup terkenal adalah steganografi
+steganografi berasal dari bahasa yunani yaitu kata stegos yang berarti sembunyi dan graphia yang berarti tulisan
+steganografi secara umum memiliki arti ilmu dan seni menyembunyikan suatu fakta untuk berkomunikasi
+dengan menggunakan steganografi, pesan rahasia dapat disisipkan ke dalam sebuah informasi yang tidak mencurigakan dan mengirimkannya tanpa ada yang mengetahui keberadaan dari pesan rahasia tersebut.beberapa kriteria yang harus diperhatikan dalam steganografi adalah fidelity, robustness, dan recovery
+fidelity berarti mutu stegomedium tidak berubah banyak akibat penyisipan
+perubahan tersebut tidak dapat dipersepsi oleh inderawi
+misalnya, jika covertext berupa citra, maka penyisipan pesan membuat citra stegotext sukar dibedakan oleh mata dengan citra covertext-nya
+seperti pengubahan kontras, penajaman, pemampatan, rotasi, perbesaran gambar, pemotongan (cropping
+untuk kriteria robustness berarti data yang disembunyikan harus tahan terhadap manipulasi yang dilakukan pada citra penampung, dan sebagainya)
+bila pada citra dilakukan operasi pengolahan citra, maka data yang disembunyikan tidak rusak
+kriteria recovery sendiri berarti bahwa pesan yang disembunyikan harus dapat diungkapkan kembali
+karena tujuan steganografi adalah data hiding, maka sewaktu-waktu pesan rahasia di dalam stegotext harus dapat diambil kembali untuk digunakan lebih lanjut.teknik steganografi memiliki beberapa metode yang dapat digunakan, seperti metode least significant bit dan metode end of file 
+kedua metode ini memiliki ciri tersendiri dalam proses enkripsi dan dekripsi data, selain itu metode ini sendiri masih digunakan dalam pengembangan ilmu steganografi ini sendiri untuk menciptakan metode-metode baru dalam dunia steganografi.berdasarkan hal di atas, maka penulis akan mengkaji beberapa algoritma steganografi, yaitu algoritma lsb dan eof kemudian membandingkan kedua metode tersebut dengan tujuan memudahkan pengguna dalam memilih algoritma yang tepat sesuai dengan kebutuhan
+teori dasar 2.1 gambar digital gambar digital merupakan dokumen berbentuk file yang dihasilkan melalui perangkat elektronik atau media digital 
+sebuah gambar digital terdiri atas piksel-piksel
+piksel adalah akronim dari picture element
+setiap piksel mengandung informasi mengenai warna piksel tersebut
+warnanya bisa dalam susunan merah, hijau, biru, atau bisa juga dalam sistem warna yang lain, misal hue saturation value dan cyan magenta yellow key 
+biasanya, setiap warna direpresentasikan oleh bilangan biner sebanyak 8 bit
+dengan demikian, setiap piksel mengandung minimal 3 x 8 bit = 24 bit data, yaitu 8 bit untuk merah, 8 bit untuk hijau, dan 8 bit untuk biru
+ukuran sebuah gambar biasanya dinamakan resolusi
+resolusi berarti dimensi gambar dalam piksel
+misalnya, sebuah gambar berukuran 800 x 600 piksel berarti memiliki panjang 800 piksel dan lebar 600 piksel
+total piksel dalam gambar tersebut adalah 480.000 piksel
+jika setiap piksel mengandung informasi warna sebanyak 24 bit, ukuran digital gambar tersebut adalah 480.000 x 24 bit = 11.520.000 bit = 11.250 kbit = 10, 99 mbit = 1, 37 mbyte ini adalah ukuran minimal, karena biasanya gambar digital juga mengandung meta-data mengenai gambar tersebut
+meta-data gambar menambah ukuran file digital meskipun biasanya ukurannya tidak terlalu besar
+meta-data diantaranya mengandung waktu pembuatan gambar, resolusi, jenis pemampatan dan pembuat gambar
+ada beberapa tipe gambar digital yang sering digunakan yaitu: 1
+bitmap tipe file bmp umum digunakan pada sistem operasi windows dan os/2
+kelebihan tipe file bmp adalah dapat dibuka oleh hampir semua aplikasi pengolah gambar
+baik file bmp yang terkompresi maupun tidak terkompresi, file bmp memiliki ukuran yang lebih besar daripada tipe-tipe yang lain
+joint photographic experts group tipe file jpg sangat sering digunakan untuk web atau blog
+file jpg menggunakan teknik kompresi yang menyebabkan kualitas gambar turun 
+setiap kali menyimpan ke tipe jpg dari tipe lain, ukuran gambar biasanya mengecil, tetapi kualitasnya turun dan tidak dapat dikembalikan lagi
+ukuran file bmp dapat turun menjadi sepersepuluhnya setelah dikonversi menjadi jpg
+meskipun dengan penurunan kualitas gambar, pada gambar-gambar tertentu, penurunan kualitas gambar hampir tidak terlihat mata
+graphics interchange format tipe file gif memungkinkan penambahan warna transparan dan dapat digunakan untuk membuat animasi sederhana, tetapi saat ini standar gif hanya maksimal 256 warna saja
+file ini menggunakan kompresi yang tidak menghilangkan data tetapi penurunan jumlah warna menjadi 256 sering membuat gambar yang kaya warna seperti pemandangan menjadi tidak realistis
+pada program microsoft paint, tidak ada fasilitas penyesuaian warna yang digunakan sehingga menyimpan file gif di microsoft paint seringkali menghasilkan gambar yang terlihat rusak atau berubah warna
+pada program pengolah gambar yang lebih baik, seperti adobe photoshop, color table bisa diatur otomatis atau manual sehingga gambar tidak berubah warna atau rusak
+portable network graphics tipe file png merupakan solusi kompresi yang kuat dengan warna yang lebih banyak 
+berbeda dengan jpg yang menggunakan teknik kompresi yang menghilangkan data, file png menggunakan kompresi yang tidak menghilangkan data 
+kelebihan file png adalah adanya warna transparan dan alpha
+warna alpha memungkinkan sebuah gambar transparan, tetapi gambar tersebut masih dapat dilihat mata seperti samar-samar atau bening
+file png dapat diatur jumlah warnanya 64 bit sampai indexed color 1 bit
+dengan jumlah warna yang sama, kompresi file png lebih baik daripada gif, tetapi memiliki ukuran file yang lebih besar daripada jpg
+kekurangan tipe png adalah belum populer sehingga sebagian browser tidak mendukungnya
+2.2 rgb warna pada dasarnya adalah hasil persepsi cahaya dalam spektrum wilayah yang terlihat oleh retina mata, dan memiliki panjang gelombang antara 400 nm sampai dengan 700 nm
+ruang warna rgb dapat divisualisasikan sebagai sebuah kubus seperti pada gambar 2.1, dengan tiga sumbunya yang mewakili komponen warna merah r, hijau g, biru b
+sistem warna 8 bit bagi setiap komponennya
+salah satu pojok alasnya yang berlawanan menyatakan warna hitam ketika r = g = b = 0, sedangkan pojok atasnya yang berlawanan menyatakan warna putih ketika r = g = b = 255 
+gambar 2.1 komponen warna rgb sumber: ahmad, 2005 rgb sering digunakan di dalam sebagian besar aplikasi komputer karena dengan ruang warna ini tidak diperlukan transformasi untuk menampilkan informasi di layar monitor
+alasan ini juga yang menyebabkan rgb banyak dimanfaatkan sebagai ruang warna dasar bagi sebagian besar aplikasi
+2.3 steganografi menurut krenn, j.r, steganografi berasal dari bahasa yunani yaitu stegos yang berarti atap atau tertutup dan graphia yang berarti tulisan, jadi steganografi adalah ilmu dan seni menyembunyikan keberadaan komunikasi
+dengan menggunakan steganografi pesan rahasia dapat disisipkan ke dalam sebuah media yang tidak mencurigakan dan mengirimnya tanpa ada seorangpun yang mengetahui keberadaan pesan tersebut
+steganografi berbeda dengan kriptografi yaitu terletak pada hasil keluarannya
+hasil dari kriptografi memiliki bentuk yang berbeda dengan data asli, sehingga informasi yang ada pada data tersebut diketahui tetapi tidak dimengerti karena informasi tersebut dikodekan terlebih dahulu
+sedangkan hasil dari keluaran steganografi memiliki bentuk yang sama dengan data aslinya, sehingga keberadaan informasi yang disembunyikan tidak terlihat menurut persepsi indra manusia tetapi tidak oleh komputer atau pengolah data digital lainnya
+secara umum steganografi dan kriftografi mempunyai tujuan yang sama yaitu menyembunyikan informasi supaya tidak dapat dibaca, dimengerti atau diketahui secara langsung
+steganografi memanfaatkan keterbatasan yang ada pada indra manusia seperti mata dan telinga
+dengan keterbatasan inilah maka steganografi dapat diterapkan dalam berbagai media digitalkualitas dari kriptografi terletak pada informasi kunci rahasia, sedangkan pada steganografi terletak pada ada-tidaknya pesan rahasia
+keamanan kriptografi menjadi patah jika kunci rahasia diketahui, sedangkan keamanan dari steganografi menjadi patah jika keberadaan pesan rahasia diketahui meskipun isi pesan belum diketahui.menyisipkan data yang ingin disembunyikan ke dalam sebuah media membutuhkan dua buah arsip
+pertama adalah arsip media penampung seperti citra, suara, video dan sebagainya yang terlihat tidak mencurigakan untuk menyimpan pesan rahasia
+arsip kedua adalah arsip pesan yang ingin disembunyikan, dapat berupa plaintext, chipertext, citra lain, atau apapun yang dapat disembunyikan dalam bit stream
+terdapat beberapa istilah yang berkaitan dengan steganografi, yaitu: 1.embedded message atau hiddentext: pesan rahasia yang disembunyikan 2.cover-object atau covertext: media yang digunakan untuk menyembunyikan hiddentext
+media ini disebut juga media pembawa, citra penutup, cover-image, dan cover medium
+stego-object atau stegotext: media yang sudah berisi hiddentext
+untuk media yang berupa citra sering disebut stego-image atau stegogram
+4.stego-key: kunci yang digunakan untuk mengacak posisi pesan pada saat penyisipan pesan dan mengekstraksi pesan dari stego-object
+5.steganografer: orang yang merancang metode steganografi
+6.steganalisis: seni dan ilmu dalam mendeteksi ada-tidaknya pesan tesembunyi dalam sebuah objek
+7.steganalis: orang yang berusaha untuk memecahkan metode steganografi dengan menggunakan berbagai metode steganalisis
+2.3.2 least significant bit metode ini banyak digunakan karena komputasinya tidak terlalu kompleks dan pesan yang disembunyikan cukup aman
+metode ini memodifikasi nilai yang paling kurang signifikan dari jumlah bit dalam 1 byte file carrier
+bit yang memiliki signifikansi paling tinggi adalah numerik yang memiliki nilai tertinggi, artinya bila terjadi perubahan pada bit ini akan menghasilkan perubahan yang sangat signifikan
+bit yang memiliki signifikansi paling rendah adalah numerik yang memiliki nilai terendah, artinya bila terjadi perubahan pada bit ini akan menghasilkan perubahan yang tidak terlalu signifikan.untuk menjelaskan metode ini, digunakan citra digital sebagai coverimage
+setiap pixel dalam citra digital berukuran 1 sampai 3 byte
+pada susunan bit dalam byte, terdapat bit yang paling kanan atau disebut juga least significant bit
+misalnya pada 00011001, maka bit lsb adalah bit yang terletak paling kanan yaitu 1
+untuk melakukan penyisipan pesan, bit yang paling cocok untuk diganti dengan bit pesan adalah bit lsb, sebab pengubahan bit tersebut hanya akan mengubah nilai byte-nya menjadi satu bit lebih tinggi atau satu bit lebih rendah .besar pesan yang dapat disisipkan menggunakan metode lsb sangat bergantung dari ukuran citra carrier, yaitu besar ukuran citra carrier dibagi dengan delapan, hal ini disebabkan diperlukan delapan buah byte untuk setiap penyisipan satu buah karakter dari pesan yang akan disisipkan
+2.3.3 end of file teknik eof merupakan salah satu teknik yang digunakan dalam steganografi
+teknik ini berbeda dengan teknik lsb yang mengubah nilai warna dari setiap pixel dari gambar, teknik ini menyisipkan pesan menggunakan cara dengan menyisipkan pesan langsung pada akhir file
+teknik ini tidak seperti metode lsb yang memiliki batasan ukuran pesan sehingga teknik ini dapat digunakan untuk menyisipkan data yang ukurannya sesuai dengan kebutuhan
+dalam teknik ini, pesan yang disisipkan pada akhir file akan memliki tanda khusus sebagai pengenal start dari pesan tersebut dan pengenal akhir dari pesan tersebut
+proses yang terjadi dalam penyisipan pesan dengan metode eof adalah dengan mengubah pesan menjadi kode desimal, dapatkan nilai atau letak piksel terakhir dari citra, berikan sebuah tanda pengenal start dari pesan dan tambahkan kode desimal dari pesan
+sedangkan pada proses pengungkapan pesan, maka proses yang diperlukan adalah mengenali letak tanda pengenal dan mengambil nilai desimal dari pesan rahasia serta terakhir mengubah nilai desimal menjadi sebuah pesan
+proses penyisipan pesan dengan metode eof dapat dilihat pada gambar 2.2
+gambar 2.2 diagram alir proses penyisipan pesan metode eof proses pengungkapan pesan dengan metode eof dapat dilihat pada gambar 2.3
+gambar 2.3 diagram alir proses pengungkapan pesan metode eof 2.4 steganalisis secara statistik ide yang mendasari metode ini adalah membandingkan distribusi frekuensi pada gambar dengan suatu contoh distribusi lain yang secara teori adalah gambar yang telah disisipi pesan
+metode yang dibahas adalah teknik perhitungan peak signal to noise ratio 
+psnr adalah perbandingan antara nilai maksimum dari sinyal yang diukur dengan besarnya derau yang berpengaruh pada sinyal tersebut
+psnr biasanya diukur dalam satuan desibel
+pada penelitian ini, psnr digunakan untuk mengetahui perbandingan kualitas citra sebelum dan sesudah disisipkan pesan
+untuk menentukan psnr, terlebih dahulu harus ditentukan nilai rata- rata kuadrat dari error atau mean square error 
+cara perhitungan mse seperti yang digambarkan dalam persamaan 2.1
+: dimana: m dan n = dimensi dari gambar i = piksel dari gambar asli k = piksel dari gambar yang mengandung pesan psnr sangat berkaitan erat dengan mse
+hubungan antara mse dan psnr berbanding terbalik
+semakin kecil nilai mse berarti nilai error semakin kecil
+semakin tinggi nilai psnr berarti semakin bagus karena rasio signal-to-noise akan semakin tinggi
+psnr adalah ukuran kesamaan gambar dengan mengukur perbedaan piksel antara gambar asli dan gambar yang mengandung pesan
+cara perhitungan psnr digambarkan dalam persamaan 2.2
+ dimana: maxi = nilai piksel maksimum dari gambar asli mse = nilai mse 3
+hasil eksperimen secara garis besar, alur kerja aplikasi yang dirancang seperti yang digambarkan pada flowchart gambar 3.1 gambar 3.1 flowchart diagram alir system 3.1 analisis perbandingan waktu hasil dari analisis perbandingan waktu yang telah dilakukan dapat diketahui bahwa waktu yang diperlukan dalam penyembunyian dan pengambilan pesan dipengaruhi oleh file rahasia yang akan disembunyikan
+hasil pengujian perbandingan waktu dapat dilihat pada gambar 3.2 gambar 3.2 grafik waktu penyembunyian pesan 3.2 analisis ukuran data hasil dari analisis ukuran data yang telah dilakukan dapat diketahui bahwa pengaruh ukuran data terhadap citra yang akan disembunyikan
+hasil pengujian ukuran data dapat dilihat pada gambar 3.3
+gambar 3.3 grafik perubahan ukuran file 3.3 analisis keamanan hasil dari analisis keamanan yang telah dilakukan dapat diketahui bahwa kemanan dari metode berdasarkan perhitungan psnr
+gambar 3.4 grafik perhitungan psnr 3.3 analisis ketahanan hasil dari analisis ketahanan yang telah dilakukan dapat diketahui dengan melakukan percobaan sebanyak 60 kali dimana setiap percobaan dilakukan manipulasi terhadap citra stegaimage
+dari percobaan yang dilakukan diketahui kedua metode gagal dalam pengujian ketahanan 4
+metode eof memerlukan waktu yang lebih sedikit dibandingkan dengan metode lsb dalam penyisipan pesan
+waktu yang dibutuhkan dalam proses penyisipan pesan akan semakin besar seiring bertambahnya ukuran file pesan yang disembunyikan
+stegaimage dari steganografi metode lsb memiliki ukuran data yang sama dengan file cover, sedangkan stegaimage dari steganografi metode eof memiliki ukuran data yang lebih besar dari file cover
+berdasarkan hasil analisis keamanan, metode eof lebih baik dibandingkan dengan metode lsb dalam pendeteksian secara statistik perhitungan peak to signal ratio 
+metode lsb dan eof gagal mengambil pesan yang telah disisipkan ke dalam stegaimage yang telah dilakukan proses manipulasi gambar
+perbedaan tipe file pesan rahasia tidak mempengaruhi waktu, ukuran, serta pengukuran psnr
+studi pustaka untuk steganografi dengan beberapa metode
+pengolahan citra digital dan teknik pemrogramannya
+diakses pada tanggal 10 januari 2013 dari http://cs.utsa.edu/~jortiz/techniques%20f or%20data%20hiding-p.pdf
+diakses pada tanggal 24 januari 2013 dari http://www.cenadep.org/2012/05/18/stega nography-dengan-metode-eof/
+studi dan analisis mengenai teknik steganalisis terhadap pengubahan lsb pada gambar: enhanced lsb dan chi-square
+departemen teknik informatika, institut teknologi bandung
+studi dan perbandingan steganografi metode eof dengan dcs 
+perancangan aplikasi pengiriman attachment e-mail berbasis desktop menggunakan metode steganografi least significant bit pada citra bitmap 24 bit
+diakses pada tanggal 4 januari 2013 dari http://www.krenn.nl/univ/cry/steg/article.p df
+biography harianto antonio, lahir di pontianak, kalimantan barat, 20 november 1991
+memperoleh gelar sarjana teknik dari fakultas teknik universitas tanjungpura, pontianak, indonesia pada tahun 2013

@@ -1,0 +1,130 @@
+handphone is mobile device and as a media that is able to do various communications data which users are able to acces internet anytime and anywhere
+based on this condition, comes the will to develop a spesific application in mobiles device which needs a lot of mobiling
+collage students has needs for academic informations and it is very important to them
+application that can make students access their academic information through handphone has to be developed
+therefore, a technology that can make collage student access their academic informations through handphone is highly needed and java 2 micro edition can do it
+this application can hopefully help and make collage students access their academic informations easier through their handphones with general packet radio services as it’s network
+the applications is made based on mobile from handphone that supports java
+client-server application which is called midlet, is installed into the handphone
+to be connected to the server, this application is using gprs as a connection
+the test result shows that this application can access academic information online with gprs network, so collage students can use this application anywhere and everywhere as far as the operator mobile can be reach
+pendahuluan handphone adalah perangkat mobile yang telah menjadi media untuk melakukan berbagai komunikasi data yang memungkinkan pengguna untuk mengakses internet secara mobile dimanapun dan kapanpun
+wikipedia dan the insight research corporation
+menurut dua sumber, pada tahun 2008 pengguna yang mengakses internet melalui perangkat mobile telah melebihi jumlah pengguna yang mengakses internet melalui pc
+fenomena ini dipicu oleh koneksi internet dari perangkat mobile yang mudah dan cepat
+perkembangan teknologi informasi dan komunikasi data ini membuat handphone menjadi media komunikasi yang sangat dibutuhkan masyarakat dari semua kalangan, termasuk mahasiswa
+bahkan, di kalangan mahasiswa, handphone sudah menjadi suatu benda yang lumrah karena peredarannya yang sangat luas dan mudah digunakan, karena itulah handphone menjadi suatu media komunikasi yang sangat digemari
+kondisi ini memicu keinginan untuk mengembangkan aplikasi khusus pada perangkat mobile bagi yang menginginkan mobilitas tinggi
+sehingga memicu terciptanya aplikasi yang dapat membantu pekerjaan menjadi lebih mudah dan efisien, terutama yang erat kaitannya dengan kebutuhan mahasiswa
+kebutuhan mahasiswa yang berhubungan dengan informasi akademik adalah hal yang penting
+maka aplikasi yang dapat mengakses informasi akademik lewat handphone menjadi hal yang perlu dikembangkan
+oleh sebab itu dibutuhkan suatu teknologi yang bisa mengakses informasi akademik tersebut dalam sebuah perangkat mobile
+teknologi java 2 micro edition (j2me) memungkinkan pengembangan aplikasi java pada perangkat mobile ataupun personal digital assistence (pda) dan pocket pc
+said menyatakan bahwa 
+teknologi tersebut juga memungkinkan untuk membuat aplikasi yang multiplatform yang bisa diimplementasikan pada handphone yang mendukung aplikasi java
+aplikasi tersebut diharapkan dapat membantu mahasiswa untuk mendapatkan informasi akademik secara online lewat handphone dengan menggunakan general packet radio services 
+dengan adanya pengembangan sistem informasi akademik dalam bentuk aplikasi yang dapat diakses di handphone, maka akan memudahkan dan memberikan alternatif tambahan bagi mahasiswa untuk mengakses informasi akademik secara langsung dari handphone masing-masing yang telah terinstal aplikasi tersebut dengan baik
+berdasarkan permasalahan yang telah diuraikan dia tas maka dibutuhkan aplikasi yang berbasis mobile application dengan teknologi java 2 micro edition untuk mengakses informasi akademik secara online dengan jaringan gprs di perangkat handphone
+sehingga dapat memberikan alternatif kepada mahasiswa untuk mengakses informasi akademik
+2.1 teknologi java java merupakan bahasa pemrograman yang dikembangkan dengan menggunakan bahasa c
+java diciptakan oleh james gosling dan patrick naughton dalam suatu projek dari sun microsystem sekitar tahun 1991
+java adalah teknologi untuk membuat dan menjalankan perangkat lunak pada komputer tunggal maupun lingkungan jaringan 
+java berdiri di atas mesin interpreter yang diberi nama java virtual machine, berfungsi untuk menjalankan program java supaya dapat dimengerti oleh komputer
+kode program java ditulis menggunakan editor teks seperti notepad, jcreator, eclipse, netbeans dan lainnya
+bahasa pemrograman java dapat dijalankan di lebih dari satu sistem operasi atau biasa disebut dengan teknologi yang multiplatform, dengan syarat di dalam sistem operasi perangkat tersebut harus ada jvm
+java memiliki empat edisi platform, yaitu java2 enterprise edition, java2 standard edition, java2 micro edition dan javacard application programming interface 
+java edition 2.2 java 2 micro edition java 2 micro edition merupakaan edisi khusus dari java dan merupakan subset dari j2se
+edisi ini untuk pemrograman dengan peralatan- peralatan dengan sumber daya kecil atau terbatas, seperti handphone, pda dan sejenisnya 
+jadi j2me adalah satu set spesifikasi dan teknologi yang fokus kepada perangkat konsumen
+perangkat ini memiliki jumlah memori yang terbatas, menghabiskan sedikit daya dari baterai dan layar yang kecil
+java 2 micro edition dibuat pertama kali oleh sun microsystems pada tahun 1998
+tujuan awalnya adalah untuk menyelidiki kemungkinan dijalankannya java pada perangkat dengan sumber daya terbatas
+j2me meningkatkan kapabilitas perangkat mobile dari yang hanya berkemampuan melakukan komunikasi suara menjadi perangkat yang mampu mengakses internet dan memiliki fungsionalitas lebih dinamis
+inti dari j2me terletak pada configuration dan profile
+suatu configuration menggambarkan lingkungan runtime dasar dari suatu sistem j2me
+sedangkan sebuah profile memberikan library tambahan untuk suatu kelas tertentu pada sebuah perangkat
+arsitektur perangkat pendukung j2me 2.2.1 konfigurasi konfigurasi merupakan bagian yang berisi jvm dan beberapa library kelas
+sebuah konfigurasi mendefinisikan satu set library minimum dan kemampuan virtual machine minimum yang dimiliki sebuah device
+konfigurasi menggambarkan fitur minimum dari lingkungan lengkap java runtime
+berarti device yang memiliki kemampuan pemrosesan dan batasan memori yang sama memiliki konfigurasi yang sama
+j2me mempunyai dua konfigurasi yaitu connected limited device configuration untuk perangkat dengan sumber daya kecil seperti handphone dan connected device configuration untuk perangkat dengan sumber daya yang lebih besar
+2.2.2 profil profil menyediakan kelas-kelas yang tidak terdapat pada bagian konfigurasi
+profil menggambarkan set-set tambahan dari application program interface, fitur pada suatu perangkat dan library yang penting untuk membuat aplikasi-aplikasi efektif sehingga dapat mengatur hal-hal yang spesifik untuk sebuah device
+jcp mengkategorikan profil dalam lima jenis, salah satunya midp yang digunakan pada banyak mobile devices
+2.2.3 connected limited device configuration cldc didesain untuk perangkat mobile terkecil dengan memori 128-512 kb dan prosesor 16-32 bit
+ada dua versi cldc yaitu cldc 1.0 dan cldc 1.1
+vendor perangkat mobile yang menentukan versi mana yang ingin diimplementasikan
+cldc yang diperuntukkan untuk beberapa perangkat membuatnya kesulitan mengeksploitasi kemampuan lebih yang dimiliki
+untuk memberikan kemampuan mengeksploitasi kemampuan terpendam dari perangkat ini maka sun microsystems mengeluarkan satu standard lagi yang diberi nama mobile information device profile 
+aplikasi yang dapat dijalankan di browser web
+java edition fungsi enterprise edition java2 standard edition aplikasi desktop dan applet 
+java2 micro edition kumpulan library 2.2.4 mobile information device profile mobile information device profile adalah profil yang berjalan di atas cldc
+midp merupakan profil yang popular dari j2me dan banyak digunakan pada mobile devices
+2.2.5 midlet midlet merupakan aplikasi-aplikasi yang dibuat di dalam handphone menggunakan profil midp
+2.3 pemodelan unified modelling laguage unified modelling language adalah bahasa pemodelan yang berdasarkan grafik/gambar untuk menspesifikasi, memvisualisasi, membangun dan mendokumentasikan sebuah sistem pengembangan software berbasis oo 
+uml memberikan standar penulisan yang meliputi konsep bisnis proses, penulisan kelas-kelas dalam bahasa program yang spesifik, skema database, dan komponen- komponen yang diperlukan dalam sistem software
+uml dibuat oleh grady booch, james rumbaugh, dan ivar jacobson di bawah bendera rational software corp
+uml memiliki beberapa diagram, diantaranya use case diagram, activity diagram, class diagram, sequence diagram, state diagram, component diagram
+2.4 netbeans ide netbeans ide adalah sebuah software yang dapat digunakan untuk pemrograman dengan platform java
+pengembangan netbeans diawali dari xelfi, sebuah proyek mahasiswa tahun 1997 di bawah bimbingan fakultas matematika dan fisika universitas charles, praha
+sebuah perusahaan kemudian dibentuk untuk proyek tersebut dan menghasilkan versi komersial netbeans ide hingga kemudian dibeli oleh sun microsystem pada tahun 1999
+sun kemudian menjadikan netbeans open source pada bulan juni tahun 2000
+2.5 mysql mysql merupakan perangkat lunak yang tergolong sebagai dbms yang bersifat open source
+mysql awalnya dibuat oleh perusahaan konsultan bernama tcx yang berlokasi di swedia
+saat ini pengembangan mysql berada di bawah naungan perusahaan mysql ab
+2.6 hypertext transfer protokol http menggunakan urutan request/response: sebuah http client membuka koneksi dan mengirim sebuah pesan permintaan pada http server; server kemudian mengirimkan pesan respon, biasanya berisikan perintah yang diminta
+setelah mengirimkan respon, server menutup koneksi.permintaan-permintaan dari client ke server berisikan informasi tentang macam- macam data yang user inginkan
+salah satu item informasi yang dienkapsulasi pada permintaan http adalah sebuah nama method
+method tersebut menginformasikan pada server apabila client melakukan permintaan
+2.7 sistem jaringan gprs general packet radio service adalah suatu teknologi yang dapat digunakan dalam jaringan gsm untuk menangani komunikasi data
+gprs memungkinkan pengiriman dan penerimaan data lebih cepat dibandingkan dengan penggunaan teknologi koneksi internet melalui dial-up dengan circuit switch data 
+dari segi biaya, harga mengacu pada volume penggunaan
+pengguna ditarik biaya dalam kaitannya dengan banyaknya byte yang dikirim atau diterima, tanpa memperdulikan panggilan, dengan demikian dimungkinkan gprs akan menjadi lebih cenderung dipilih oleh pelanggan untuk mengaksesnya daripada layanan-layanan ip
+gprs telah memiliki beberapa generasi, mulai dari generasi 1g, 2g, 2.5g, 2.75g, 3g, 3.5g 2.8 sistem informasi akademik sistem informasi akademik adalah sebuah sistem informasi yang dibangun dengan tujuan mengorganisasi data-data akademik di sebuah instansi pendidikan seperti universitas
+data-data yang dikelola seperti lembar isian rencana studi yang merupakan rencana studi mahasiswa terhadap pengajuan mata kuliah tiap semester
+banyaknya mata kuliah yang diambil berdasarkan jumlah maksimal sks yang dimiliki
+selain itu lembar isian hasil studi yang merupakan hasil studi mahasiswa berupa nilai terhadap mata kuliah yang diambil tiap semester
+setiap semester mahasiswa akan menghasilkan ip dari hasil perhitungan bobot nilai mata kuliah yang dikalikan dengan sks mata kuliah yang diambil tersebut, selain itu lihs juga menghasilkan ipk dari hasil perhitungan kumulatif semua semester yang telah diambil
+hasil eksperimen aplikasi mobile ini diberi nama simob
+aplikasi ini berisi layanan akademik yang diperuntukkan bagi mahasiswa
+aplikasi yang dibuat memiliki spesifikasi dan fitur sebagai berikut: 1
+aplikasi simob ini terdiri dari 2 bagian, yaitu sisi client dan sisi server
+client dibuat dengan pemrograman j2me, sedangkan sisi server dibuat menggunakan pemrograman php
+aplikasi client nantinya akan di-install ke handphone dalam bentuk midlet, sedangkan aplikasi server berada pada server online 
+seperti yang terlihat pada gambar 2 yang merupakan modul server dan client-server simob
+server dan client-server pada simob simob application koneksi http thread interface 2
+aplikasi yang dibangun ini menggunakan koneksi http
+mahasiswa selaku user menjalankan midlet pada client dan mengakses menu-menu yang tersedia, kemudian client akan mengirimkan http request ke server
+setelah request diterima, maka server akan melakukan pemrosesan, seperti akses ke database
+aplikasi simob merupakan aplikasi online yang berinteraksi dengan webserver internet menggunakan layanan gprs operator selular, gprs digunakan sebagai jembatan pada proses permintaan dan pengiriman data dari client ke server maupun sebaliknya
+aplikasi simob memiliki fitur dapat mengakses rencana studi mahasiswa, menampilkan nilai hasil studi mahasiswa, menampilkan transkrip nilai mahasiswa, menampilkan biodata mahasiswa dan dapat mengganti password mahasiswa
+secara garis besar, alur kerja aplikasi simob yang dirancang ditunjukkan dengan use case diagram pada gambar 4
+use case diagram simob mahasiswa selaku pengguna melakukan aktivitas login yang kemudian diikuti dengan validasi login oleh server
+setelah login user baru dapat melakukan layanan akademik seperti aktivitas lihat biodata, isi lirs, lihat lirs, lihat lihs, lihat transkrip nilai dan edit password aktivitas layanan akademik dapat diakses setelah server mengirimkan output ke client
+berikut adalah antarmuka dari aplikasi simob: gambar 5
+antarmuka aktivitas lihat lihs pengujian dilakukan pada sistem menggunakan metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+adapun teknik ujicoba yang digunakan dalam pengujian black box pada aplikasi ini, yaitu menggunakan teknik sample testing
+pengujian ini dilakukan pada proses input data
+selain itu, dilakukan pengujian kompatibilitas aplikasi dengan melakukan pemasangan aplikasi pada perangkat tertentu
+dilakukan juga pengujian bandwith, waktu akses dan biaya akses pada jaringan 2, 5g dan jaringan 3g
+berikut ini adalah analisis hasil perancangan dan pengujian aplikasi sistem informasi akademik berbasis mobile application dengan teknologi java 2 micro edition : 1
+pengguna dapat melakukan akses informasi akademik berupa lihat biodata, isi lirs, lihat lirs, lihat lihs, lihat transkrip nilai dan dapat mengganti password setelah melakukan login
+sistem akan menghalangi pengguna yang memasukkan nim dan password yang salah ketika proses login sehingga aktivitas layanan akademik hanya dapat diakses oleh pengguna yang memiliki hak akses
+berdasarkan hasil pengujian black box, sistem akan menampilkan pesan kepada pengguna apabila data yang diinputkan salah atau tidak sesuai dengan database
+pada saat implementasi aplikasi pada handphone nokia 6300, tampilan antarmuka sama dengan hasil perancangan pada emulator netbeans 6.9.1
+aplikasi dapat melakukan koneksi data ke server online dengan jaringan gprs pada perangkat handphone
+hasil pengujian kompatibilitas menunjukkan bahwa aplikasi simob dapat terinstal pada perangkat handphone yang mendukung aplikasi java
+aplikasi dapat berjalan dengan baik pada perangkat symbian, dimana aplikasi terinstal sempurna sesuai perancangan dan dapat melakukan akses data ke database dengan jaringan gprs
+pada perangkat blackberry, aplikasi dapat terinstal dengan baik tetapi tidak dapat melakukan akses data ke database dengan gprs maupun jaringan wifi
+sedangkan pada perangkat android, ios dan windows phone aplikasi tidak berhasil diinstal karena tidak mendukung aplikasi java 
+hasil pengujian bandwidth dan waktu akses menunjukkan bahwa semakin besar bandwidth maka semakin sedikit waktu yang diperlukan untuk akses
+hasil pengujian bandwidth dan biaya akses menunjukkan semakin besar bandwidth maka semakin besar biaya yang diperlukan untuk akses
+layanan data untuk akses login, isi lirs dan ganti password memiliki bandwidth data paling kecil namun memerlukan waktu akses yang lebih banyak
+waktu untuk akses data pada jaringan 3g lebih sedikit daripada jaringan 2, 5g namun memerlukan biaya akses yang lebih besar
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap aplikasi sistem informasi akademik berbasis mobile application dengan teknologi java 2 micro edition, dapat disimpulkan bahwa: 1
+aplikasi dapat digunakan oleh mahasiswa untuk mengakses informasi akademik di perangkat handphone secara online dengan jaringan gprs, sehingga dapat digunakan kapan pun dan dimana pun selama dalam jangkauan operator selular
+berdasarkan hasil pengujian kompatibilitas, aplikasi dapat terinstal pada perangkat handphone yang mendukung aplikasi java
+aplikasi dapat berjalan dengan baik pada perangkat handphone yang berbasis symbian
+pada perangkat blackberry aplikasi dapat terinstal dengan baik namun tidak dapat melakukan akses data ke database dengan jaringan gprs maupun jaringan wifi
+sedangkan pada perangkat android, ios dan windows phone aplikasi tidak dapat terinstal karena perangkat tidak mendukung aplikasi java 
+waktu untuk akses data pada jaringan 3g lebih sedikit daripada jaringan 2, 5g namun memerlukan biaya akses yang lebih besar

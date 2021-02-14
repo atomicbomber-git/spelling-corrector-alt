@@ -1,0 +1,93 @@
+millennium development goals internasional dan telah disepakati sejak tahun 1990 hingga 2015 yang mana bertujuan untuk meningkatkan indeks pembangunan manusia dan pengentasan kemiskinan yang ada di dunia
+salah satu target dalam millennium development goals adalah penurunan angka buta aksara
+penduduk buta aksara yang ada saat ini disajikan berupa data statistik yang direkap setiap tahun oleh bps
+dinas pendidikan provinsi kalimantan barat merupakan dinas yang bertanggung jawab dalam urusan pendataan mengenai penduduk buta aksara
+dalam model pemetaan, sistem yang dirancang menggunakan pendekatan small area estimation
+pendekatan small area estimation mengarah kepada lingkup terkecil daripada objek penelitian sebagaimana pengujian sebelumnya dalam penginputan data
+informasi yang dimunculkan berdasarkan perhitungan akan disesuaikan dengan metode pemetaan sae yang menjadi acuan utama dan diselaraskan sebagaimana perhitungan cluster dan filtering sehingga memunculkan pewarnaan pada tampilan utama aplikasi dan informasi by name by address pada panel identifikasi yang terdapat pada aplikasi
+berdasarkan hasil analisis dengan kabupaten sambas sebagai sumber data yang paling memenuhi syarat dari level kabupaten hingga kecamatan, terdapat beberapa kecamatan yang memiliki level buta aksara >15%, level buta aksara 5-15% dan level buta aksara <5% dari jumlah penduduk yang ada di masing-masing kecamatan dan keseluruhan kabupaten
+informasi tersebut dapat dilihat dengan jelas pada sistem pemetaan yang dirancang dan dapat dilihat data detail pada menu tabular
+pendahuluan singkat sebagai ketidakmampuan seseorang dalam mengenal dan memahami pemaknaan mengenai keaksaraan
+hal itu secara sederhana meliputi tiga hal yaitu: membaca, menulis dan menghitung
+aksara merupakan sistem penulisan suatu bahasa dengan menggunakan tanda-tanda simbol, bukan hanya sebagai huruf atau rangkaian abjad
+aksara merupakan suatu sarana yang menghantar cakrawala pengetahuan dan peradaban suatu bangsa karena aksara membentuk wacana yang dapat dikenali, dipahami, diterapkan, dan diwariskan dari satu generasi ke generasi berikutnya
+untuk mewujudkan aksara yang membangun peradaban diperlukan kemampuan ragam keaksaraan yang memberdayakan
+tersebut belum cukup informatif dalam menekan angka buta aksara yang ada
+hal ini disebabkan karena dinas pendidikan sebagai dinas yang paling berkepentingan dengan informasi mengenai angka buta aksara tidak dapat mengetahui dengan tepat dimana lokasi penduduk dengan buta aksara itu berada jika hanya disajikan dalam bentuk data statistik
+yang semakin modern, pengolahan data statistik penduduk dengan buta aksara tersebut dapat menggunakan sebuah sistem informasi yang berbasis geospasial penggunaan sistem informasi digunakan untuk mendata jumlah penduduk dengan buta aksara secara tabular dan memetakan lokasi yang ada secara spasial disini pengguna dapat memasukkan data statistik dan lokasi yang bersumber dari bps dan sistem secara langsung akan memetakan secara geospasial data tersebut juga akan direkap secara otomatis oleh sistem sehingga menghasilkan nilai-nilai tertentu pada setiap kecamatan dimana terdapat penduduk dengan buta aksara
+keluaran berupa informasi statistik dilengkapi pemetaan persebaran penduduk akan dapat dihasilkan oleh sistem pada akhirnya
+pemanfaatan tersebut ditujukan untuk memetakan persebaran penduduk dengan buta aksara yang ada di kalimantan barat
+metode informatif yang dikehendaki oleh dinas pendidikan secara by name by address dimaksudkan agar pihak pembuat keputusan dan stake penduduk dengan buta aksara yang ada di kalimantan barat
+tujuan akhir dari pemetaan persebaran penduduk dengan buta aksara ini adalah sebagai tolak ukur bagi pihak pemerintah dalam memberikan tindakan pengentasan buta aksara di kalimantan barat diantaranya program keaksaraan fungsional dan pembentukan pusat kegiatan belajar masyarakat di lokasi penduduk dengan buta aksara
+buta aksara secara umum buta aksara atau lebih dikenal huruf dalam arti buta bahasa indonesia, buta pengetahuan dasar yang dapat menunjang kehidupan sehari-hari, buta aksara dan angka, buta akan informasi kemajuan teknologi, merupakan beban berat untuk mengembangkan sumber daya manusia yang berkualitas dalam arti mampu menggali dan memanfaatkan peluang yang ada di lingkungannyaprogram pendidikan pada jalur non-formal yang saat ini sedang dilaksanakan menjadi bagian integral dari upaya pemerintah untuk mengentaskan masyarakat dari kebodohan, kemiskinan, keterbelakangan dan penyandang buta aksara memperoleh keterampilan dasar untuk baca, tulis, hitung serta mampu berbahasa indonesia, memperoleh keterampilan- keterampilan b
+program pendidikan keaksaraan program pendidikan keaksaraan yang paling didengungkan oleh dinas penidikan dan kebudayaan kalimantan barat adalah program pendidikan keaksaraan keluarga
+program pendidikan keaksaraan keluarga merupakan upaya pemberdayaan keluarga dengan melatihkan kemampuan berkomunikasi melalui teks lisan, tulis, dan angka dalam bahasa indonesia agar mereka dapat memperoleh, mencari, dan mengelola informasi untuk memecahkan masalah keluarga dan berperan serta dalam pembangunan
+secara khusus, program pendidikan keaksaraan keluarga ini bertujuan untuk: keluarga yang melek aksara parsial yang cenderung buta aksara
+meningkatkan pengetahuan dan keterampilan c) meningkatkan kecakapan hidup anggota keluarga yang dapat memperkuat keberdayaan ekonomi keluarga
+sistem informasi geografis sistem informasi geografis atau geographic information system adalah suatu sistem informasi yang dirancang untuk bekerja dengan data yang bereferensi spasial atau berkoordinat geografi atau dengan kata lain suatu sig adalah suatu sistem basis data dengan kemampuan khusus untuk menangani data yang bereferensi keruangan bersamaan dengan seperangkat operasi kerja
+sig juga merupakan sistem informasi yang didasarkan pada kerja komputer yang memasukkan, mengelola, memanipulasi dan menganalisa data serta memberi uraian
+sae small area estimation adalah suatu teknik statistika untuk menduga parameter-parameter sub populasi yang ukuran sampelnya kecil
+sedangkan, area kecil didefinisikan sebagai himpunan bagian dari populasi yang ukuran contohnya kecil dengan suatu peubah menjadi perhatian
+area kecil tersebut dapat berupa kota, kabupaten, kecamatan, desa/kelurahan, kelompok suku, kelompok jenis kelamin atau kelompok umur
+dalam pendugaan parameter di suatu area yang relatif kecil dalam percontohan survey 
+pendugaan langsung pada sub- populasi tidak memiliki presisi yang memadai karena kecilnya jumlah contoh yang digunakan untuk memperoleh dugaan tersebut
+adakalanya kita memiliki informasi tambahan yang dapat digunakan untuk pendugaan pada area kecil
+perangkat lunak mendapatkan serangkaian kondisi input yang sepenuhnya menggunakan semua persyaratan fungsional untuk suatu program
+fungsi-fungsi yang tidak benar atau hilang 2
+kesalahan dalam strutur data atau akses basisdata eksternal 4
+kesensitifan sistem terhadap nilai input tertentu 7
+diagram alir sistem diagram alir sistem merupakan diagram yang menggambarkan sistem yang akan dibangun
+adapun diagram alir sistem yang akan dibangun dapat dilihat pada gambar berikut: b
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+sistem informasi data buta aksara c
+perhitungan persentase buta aksara dalam melakukan perhitungan dan clustering data, sistem dirancang sebagaimana pendekatan yang diberikan oleh dinas pendidikan provinsi kalimantan barat
+dalam perhitungan yang dilakukan adalah dengan mengacu kepada 3 variabel utama diantaranya : perempuan) perhitungan yang dilakukan menjadi bahan acuan kepada sistem untuk dapat memisahkan data menjadi beberapa jenis cluster
+cluster tersebut diindikasikan dalam peta yang menjadi petunjuk kepada pihak dinas pendidikan provinsi kalimantan barat sehingga memungkinkan bagi pengguna untuk dapat menentukan prosentase dengan hanya melihat cluster yang ditunjukkan pada pemetaan yang dibuat
+dalam hal ini cluster tersebut dipisahkan dengan pewarnaan yang dibagi menjadi 4 yaitu: 1
+putih, mengindikasikan tidak ada data yang dientri
+merah, mengindikasikan terdapat >15% penduduk dengan buta aksara dari total jumlah penduduk
+kuning, mengindikasikan terdapat 5-15% penduduk dengan buta aksara dari total jumlah penduduk
+hijau, mengindikasikan terdapat <5% penduduk dengan buta aksara dari total jumlah penduduk
+% 𝑩𝒖𝒕𝒂 𝑨𝒌𝒔𝒂𝒓𝒂 = 𝑠𝑢𝑚 𝑠𝑢𝑚 𝑥100 d
+hasil perancangan desain program dibuat dengan mengikuti kriteria – kriteria yang ada, yaitu mudah dioperasikan, dan tampilan menarik 
+diharapkan sistem aplikasi yang dikembangkan ini mampu menjawab segala permasalahan yang telah ada
+di bawah ini adalah hasil rancang bangun aplikasi yang telah dirancang sebagai berikut
+pada saat kita masuk ke dalam menu utama
+pada halaman ini hanya menggunakan 1 tingkatan user
+gambar 3 tampilan halaman login gambar 4 halaman utama dan mengakses form-form lain pada sistem serta menampilkan hasil analisis data tabular ke dalam data spasial yang digambarkan dalam bentuk peta tematik 
+4 form ini digunakan untuk melakukan manajemen data buta aksara yang ada di kalimantan barat
+sebagaimana data tersebut dalam tiap periode tertentu setiap tahunnya oleh skpd yang khusus menanganinya yaitu diknas provinsi kalimantan barat
+fungsi dari halaman ini adalah memanajemen jumlah penduduk buta aksara yang ada pada tiap-tiap kabupaten sebagai sampel terkecil yang digunakan
+penggunaan by name by address sebagai fitur yang dikehendaki diknas provinsi kalimantan barat ditujukan untuk menunjang metode small area estimation yang dimanfaatkan dalam aplikasi yang dirancang
+dimana pada aplikasi, manajemen data menggunakan lingkup kabupaten, kecamatan dan kelurahan
+halaman detail peta ini berfungsi untuk melihat data-data di dalam data spasial data ini berisi data lengket, dari umur, alamat, jenis kelamin, dan lain-lain
+pengujian manipulasi data 1 pada form manajemen data ada fungsi yang akan diuji yaitu fungsi penambahan data dengan meng-upload data dengan ekstensi .xls
+hasil pengujian tersebut dapat dilihat pada tabel berikut ini : data ini sangatlah penting
+hal tersebut disebabkan karena pengguna yang awam akan diarahkan untuk dapat memilih jenis file apa yang akan ditambahkan kedalam peta
+jika mereka belum memilih jenis file yang akan di-upload dengan benar dan sesuai dengan aturan yang telah dibuat pengguna
+penjelasan mengenai pengujian tersebut dapat dilihat pada gambar di bawah ini
+gambar 7 pengujian upload file berhasil gambar 8 pengujian upload file gagal 2
+pengujian manipulasi data ii pada form manajemen data ada fungsi yang akan diuji yaitu fungsi penambahan data dengan meng-upload data dengan ekstensi .xls
+hasil pengujian tersebut dapat dilihat pada tabel berikut ini 5 random data ini sangatlah penting
+hal tersebut disebabkan karena pengguna diarahkan untuk menggunakan file .xls dengan susunan tabel yang sesuai
+jika mereka belum memilih jenis file yang akan di upload dengan benar dan sesuai dengan aturan yang telah dibuat pengguna
+pengujian hasil perhitungan perhitungan yang digunakan dalam sistem ini sebagaimana telah dijelaskan sebelumnya mengacu kepada 3 variabel yaitu lokasi, jumlah penduduk di lokasi dan, jumlah penduduk dengan buta aksara 
+adapun simulasi hasil pengujian perhitungan dapat dijelaskan sebagaimana terlihat pada data berikut ini pada sampel data i, menggunakan lokasi yang terdapat di kabupaten sekadau, di kecamatan belitang hulu memiliki beberapa variabel yang dapat di gunakan dalam menghasilkan informasi
+pada sampel data ii, menggunakan lokasi yang terdapat di kabupaten sambas di kecamatan sajingan besar memiliki beberapa variabel yang dapat di gunakan dalam menghasilkan informasi
+pada sampel data iii, menggunakan lokasi yang terdapat di kabupaten sambas di kecamatan sejangkung memiliki beberapa variabel yang dapat di gunakan dalam menghasilkan informasi
+pada sampel data iv, menggunakan lokasi yang terdapat di kabupaten sambas di kecamatan subah memiliki beberapa variabel yang dapat di gunakan dalam menghasilkan informasi
+analisis hasil pengujian berikut ini adalah analisis hasil dari hasil pengujian sistem yang telah dibuat : 1
+untuk keamanan data, sistem tidak menggunakan autentifikasi pengguna, sehingga pengguna dengan status administrator yang dapat mengakses aplikasi yaitu pihak dinas pendidikan provinsi kalimantan barat
+sistem yang dibangun memberikan output dalam dua level objek penelitian yaitu kabupaten dan kecamatan yang digambarkan dengan pemetaan yang berbasis geospasial menggunakan komponen mapobjects pada borland delphi 7.0 yang dipadankan dengan peta dan basis data 
+proses pemetaan menggunakan metode small area estimation sehingga menggunakan level objek paling kecil yaitu kecamatan yang merupakan turunan dari objek penelitian kabupaten yang ada di provinsi kalimantan barat
+metode perhitungan menggunakan metode cluster and filtering dilakukan dengan penulisan baris koding yang terdapat pada aplikasi yang dirancang back-end yang mengacu kepada kaidah yang diberikan oleh dinas pendidikan provinsi kalimantan barat
+pengujian hasil perhitungan menggunakan pengujian black box yang hanya melihat dari data masukkan dan informasi keluaran berdasarkan syarat dan standar pemetaan sae dan perhitungan cluster dan filtering
+pengguna untuk melakukan manipulasi terhadap data yang telah ada
+data dimungkinkan untuk dapat diunggah kedalam aplikasi menggunakan format excel sehingga diharapkan dapat mempermudah pengguna dalam pemasukkan data baru setiap periode tahun
+informasi yang dimunculkan berdasarkan perhitungan akan disesuaikan dengan metode sae yang menjadi acuan utama dan diselaraskan sebagaimana perhitungan cluster dan filtering sehingga memunculkan pewarnaan pada tampilan utama aplikasi dan informasi by name by address pada panel identifikasi yang terdapat pada aplikasi
+berdasarkan hasil analisis dengan kabupaten sambas sebagai sumber data yang paling memenuhi syarat dari level kabupaten hingga kecamatan
+kesimpulan / ringkasan setelah dilakukan analisis dan pengujian terhadap rancang bangun pemetaan persebaran penduduk buta aksara di kalimantan barat dengan metode sae, dapat disimpulkan bahwa: a
+sistem menghasilkan sebuah rancang bangun aplikasi pemetaan buta aksara di provinsi kalimantan barat yang dalam hal ini menggunakan beberapa kabupaten sebagai sampel utama dalam penelitian sebagaimana sumber data dari dinas pendidikan provinsi kalimantan barat
+sistem yang dirancang dapat memberikan gambaran situasi dan kondisi yang ada keaksaraan di provinsi kalimantan barat pada tahun 2013 dengan metode small area estimation
+adapun metode yang dijadikan acuan terletak pada analisis data yang menggunakan sampel penelitian dari level kabupaten dan kemudian di lakukan break down data hingga level kecamatan
+keluaran yang dihasilkan sistem dapat menghasilkan pengelompokkan data secara by name by address sebagaimana telah di bangun pada sistem informasi geografis pemetaan penduduk buta aksara di kalimantan barat

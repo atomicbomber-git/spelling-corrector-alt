@@ -1,0 +1,153 @@
+eee paper template in a4 vol 5 no 3 analisis performa algoritma segmentasi pembuluh darah pada citra fundus retina bella wahmilyana asril#1, maison*2, andreo yudertha#3 # program studi teknik elektro, fakultas teknik, universitas jambi 1bellawahmilyanas@gmail.com 3andreo.y@unja.ac.id 2maison@unja.ac.id pembuluh darah, seperti hipertensi, jantung, dan retinopati diabetes
+namun, pendeteksian penyakit melalui retina tidak mudah
+dokter harus mengamati struktur pembuluh darah pada citra fundus retina
+pengamatan secara langsung pada citra fundus membutuhkan waktu yang lama dan juga beresiko terjadi kesalahan
+dalam mengatasi hal ini, maka pengolahan citra digital diperlukan sebagai upaya untuk mempermudah pendeteksian kelainan pada retina mata
+penelitian ini bertujuan untuk melakukan analisis terhadap algoritma yang digunakan pada proses segmentasi citra fundus retina, karena hasil segmentasi dari citra akan berpengaruh besar dalam proses klasifikasi jenis penyakit pada retina
+kesalahan dalam pengklasifikasian jenis kelainan pada retina bisa menyebabkan kesalahan diagnosis dan kesalahan pemberian terapi yang tepat bagi pasien
+pengolahan citra dilakukan mulai tahap pra-pengolahan hingga segmentasi
+pengujian algoritma dilakukan pada tahap segmentasi
+hasil pengujian terhadap tiga algoritma menunjukkan bahwa metode pertama yaitu morfologi rekonstruksi memiliki rata-rata akurasi sebesar 94, 46% dengan standard deviasi 2, 94, coye filter memiliki rata-rata akurasi sebesar 94, 97% dengan standard deviasi 4, 99 dan kirsch and fuzzy c-means dengan rata-rata akurasi 88, 73% dan standar deviasi 2, 74
+performa algoritma yang paling baik tidak hanya ditentukan dari tingkat akurasi tetapi juga dari aspek lain yaitu standar deviasi
+pendahuluan mata berfungsi sebagai indra pengelihatan yang sangat sensitif
+terjadinya ketidaknormalan pada mata akan sangat mengganggu manusia dalam menjalankan aktivitas sehari-hari
+saat ini, penyakit dan gangguan mata berjumlah lebih dari 200 jenis
+sebagian besar menimpa kaum berusia 65 tahun keatas
+hampir semua penyakit mata tersebut masih memungkinkan untuk dicegah
+beberapa penyakit mata dapat diatasi dengan diagnosa awal yang tepat sehingga akan memudahkan dalam proses penyembuhannya
+satu tanda seseorang menderita penyakit tertentu
+penyakit yang dapat dideteksi dari karakteristik pembuluh darah retina seseorang antara lain penyakit jantung, diabetic retinopathy, stroke, penyempitan pembuluh nadi dan hipertensi
+deteksi awal dari perubahan ini sangat penting untuk melakukan intervensi dini dan mencegah pasien dari kehilangan penglihatan
+pada umumnya dokter spesialis mata mendeteksi tanda- tanda tersebut dengan mengamati langsung dari citra retina yang diambil dengan menggunakan kamera fundus, cara ini kurang efektif karena membutuhkan waktu yang lama dan memungkinkan terjadi kesalahan dalam pengamatan
+hal ini menyulitkan dokter spesialis mata untuk menentukan dengan cepat terapi apa yang tepat diberikan pada pasien
+diperlukan sebagai upaya untuk mempermudah pendeteksian kelainan pada retina mata
+pemrosesan citra secara digital bertujuan untuk meningkatkan kualitas gambar sehingga mudah ditafsirkan oleh manusia atau mesin
+pengolahan citra merupakan suatu metode yang digunakan untuk mengolah gambar sehingga menghasilkan gambar yang sesuai dengan yang diinginkan
+pengambilan gambar dalam pengolahan citra ini dapat dilakukan dengan menggunakan gambar dari berkas yang sudah ada, ataupun dengan menggunakan kamera
+pengolahan citra digital merupakan suatu proses untuk memisahkan antara objek yang ingin diamati dengan latar belakang atau objek lain yang tidak diinginkan
+dengan menerapkan proses segmentasi pada citra retina, maka pembuluh darah dari retina mata dapat dipisahkan dari latar belakang atau objek lain yang tidak diinginkan sehingga bisa mempermudah dalam mendeteksi kelainan yang ada pada pembuluh darah retina tersebut
+ada banyak teknik segmentasi yang bisa digunakan
+perkembangan teknik-teknik segmentasi citra ini dilakukan untuk memperoleh hasil yang lebih bagus dan berkualitas
+namun, terkadang segmentasi citra korespondensi : maison 273 citra tertentu
+hal ini dapat dipengaruhi oleh beberapa faktor variasi yang terdapat pada citra itu sendiri seperti pencahayaan, citra yang mengalami degradasi atau citra yang warna nya kabur, dan citra yang berisi noise
+hasil segmentasi dari citra akan berpengaruh besar dalam proses klasifikasi citra
+proses klasifikasi adalah proses dalam menentukan jenis penyakit atau kelainan pada suatu retina
+ada banyak algoritma yang bisa digunakan dalam proses segmentasi citra
+pada penelitian ini akan dilakukan suatu analisis terhadap tiga algoritma segmentasi yaitu morfologi rekonstruksi, coye filter, dan kirsch and fuzzy c-means
+ketiga algoritma tersebut dipilih karena untuk membandingkan hasil performa antara algoritma yang sudah banyak digunakan oleh penelitian-penelitian sebelumnya yaitu morfologi merupakan kombinasi dari dua metode yaitu kirsch and fuzzy c-means
+bahkan satu buah citra dan satu buah structuring element
+morfologi rekonstruksi buah citra dan sebuah structuring element 
+algoritma yang kedua adalah coye filter
+coye filter merupakan suatu algoritma yang bisa digunakan pada proses segmentasi yang dikembangkan oleh tyler l
+pada coye filter, penggunaan metode contrast limited adaptive histogram untuk meningkatkan kontras gray image, pemeriksaan arcade utama dari pembuluh darah dengan detail bagus melalui pencahayaan yang bagus dan juga menggunakan metode isodata untuk menemukan global threshold untuk mengkonversi biner menuju ekstraksi pembuluh darah terus menerus maupun tidak dengan arcade utama
+algoritma terakhir yaitu kirsch and fuzzy c-means
+detektor tepi kirsch mendeteksi tepi menggunakan delapan filter yang diterapkan pada gambar dengan nilai maksimum yang dipertahankan untuk gambar akhir
+fuzzy clustering adalah proses menentukan derajat keanggotaan, dan kemudian menggunakannya dengan memasukkannya kedalam elemen data kedalam satu kelompok cluster atau lebih
+analisis cluster merupakan teknik multivariat yang mempunyai tujuan utama untuk mengelompokkan objek-objek berdasarkan karakteristik yang dimilikinya
+proses segmentasi penting dilakukan karena hasil dari segmentasi sangat berpengaruh terhadap proses pendeteksian penyakit
+kesalahan dalam proses klasifikasi jenis kelainan pada retina dapat menyebabkan terjadinya kesalahan diagnosis dan kesalahan pemberian terapi yang tepat bagi pasien
+hal itu menyebabkan analisis mendalam mengenai algoritma segmentasi ini diperlukan untuk mengetahui jenis algoritma yang memiliki performa terbaik
+paling baik diantara ketiganya sehingga dapat membantu para peneliti yang ingin melakukan penelitian lebih lanjut seperti untuk mengklasifikasikan jenis penyakit pada retina mata maka dengan adanya penilitian ini bisa mempermudah dalam pemilihan metode segmentasi yang lebih tepat dalam penelitiannya sehingga bisa menghasilkan tingkat akurasi yang lebih baik
+selain itu, penelitian ini juga bertujuan untuk mempermudah dan mempercepat para medis dalam mendiagnosis penyakit pasien melalui pembuluh darah retina mata
+penelitian ini tidak hanya menampilkan hasil akurasi dari masing-masing algoritma seperti yang telah dilakukan pada penelitian-penelitian sebelumnya, tetapi juga mengangkat aspek lain yang bisa membantu dalam menganalisa performa algoritma agar didapatkan suatu algoritma yang memiliki performa paling baik
+metode penelitian tahapan, yaitu akuisisi citra, pra-pengolahan, segmentasi, dan validasi
+tahapan penelitian dapat dilihat pada gambar 1
+pada penelitian ini digunakan citra fundus retina mata sebanyak 20 citra yang disimpan dalam database digital retinal images for vessel extraction 
+dalam database drive ini juga disimpan data hasil analisis para ahli yang dijadikan sebagai gold standard dan digunakan sebagai acuan untuk memvalidasi keakuratan hasil segmentasi dari algoritma yang digunakan
+populasi screening terdiri dari 400 subyek diabetes antara 25-90 tahun
+pra-pengolahan pada citra retina dan untuk meningkatkan nilai kontras citra pada citra fundus
+menurut yuwono indro atmojopra-pengolahan bertujuan untuk memperbaiki kualitas citra sehingga sesuai dengan penyajian data yang diinginkan
+selain itu, pra-pengolahan juga digunakan untuk koreksi normalisasi dan kecerahan citra dalam meningkatkan akurasi di proses selanjutnya
+beberapa proses yang dilakukan dalam proses pra-pengolahan yaitu green chanel, grey scaling, contras limited adaptive histogram equalization, dan filter
+citra berwarna biasanya memiliki dua dimensi
+dimensi ini dinyatakan dalam bentuk jumlah pixel dalam baris dikalikan dengan jumlah pixel dalam kolom
+artinya setiap citra memiliki jumlah pixel sebanyak hasil perkalian jumlah pixel di baris dan di kolom
+setiap pixel mengandung informasi komponen warna merah, hijau, dan biru 
+green chanel merupakan proses merubah citra berwarna menjadi citra dengan kanal hijau saja dan grey scaling digunakan untuk merubah citra menjadi skala keabuan
+keduanya berujuan untuk memperjelas citra pembuluh darah
+sedangkan tujuan penggunaan metode clahe adalah untuk menajamkan kualitas citra
+proses terakhir pada pra- pengolahan yaitu filter yang digunakan untuk menghapus noise pada citra
+variasi kontras sehingga meyulitkan ektraksi pembuluh
+dalam mengatasi hal tersebut maka diperlukan adanya pra-pengolahan yang efisien
+setelah hasil dari pra- pengolahan didapatkan, kemudian citra diolah pada tahap segmentasi
+segmentasi adalah sebuah proses pemisahan antara objek yang akan diteliti dengan latar belakang yang tidak diinginkan
+pengenalan citra dari suatu inputan tertentu
+fungsi dari segmentasi citra yaitu membagi citra kedalam wilayah- wilayahnya berdasarkan kesamaan yang dimilikinya baik berupa tekstur, warna, bentuk, dan lain sebagainya
+pada penelitian ini, ada satu teknik yang digunakan pada proses segmentasi yaitu thresholding
+thresholding merupakan teknik utama dalam analisis similaritas
+dengan menentukan ambang batas yang tepat untuk setiap pengolahan citra yang dapat menghasilkan suatu citra dengan level biner
+setiap piksel yang memiliki nilai diatas nilai ambang adalah objek yang diinginkan dan yang berada dibawah nilai ambang menjadi latar belakang
+kemudian proses segmentasi dilanjutkan dengan menggunakan algoritma segmentasi
+pada penelitian ini algoritma yang digunakan adalah morfologi rekonstruksi, coye filter, dan kirsch and fuzzy c- means
+proses segmentasi dapat dilihat pada gambar 2
+2 proses segmentasi maka diperlukan validasi dengan menggunakan ground truth dari segmentasi pembuluh darah citra retina
+pada database telah disimpan data hasil analisis para ahli yang dijadikan sebagai gold standard yang bisa digunakan sebagai acuan untuk memvalidasi keakuratan hasil segmentasi dari metode yang digunakan
+validasi hasil penelitian digunakan untuk menunjukkan kemampuan metode yang digunakan
+dalam evaluasi ini, persentase nilai akurasi dihitung dengan menggunakan data hasil segmentasi
+persentase akurasi dapat dihitung dengan persamaan 
+sedangkan fp merupakan nilai yang sebenarnya negative namun diprediksi positive dan yang terakhir fn merupakan nilai yang sebenarnya positive namun diprediksi negative
+proses dalam menentukan akurasi yaitu dengan cara matching atau mencocokkan pixel dari citra hasil segmentasi yang diperoleh saat ini dengan gold standard yang sudah ada pada database sehingga didapatkan hasil tp, tn, fp, dan fn
+dalam proses matching ini kedua citra yang akan dicocokan harus memiliki ukuran yang sama agar hasil akurasi dapat diperoleh dengan tepat
+selain akurasi, standar deviasi juga digunakan dalam proses analisis untuk menentukan algoritma mana yang memiliki kemampuan terbaik
+nilai standar deviasi juga dapat dihitung dengan persamaan 
+pra-pengolahan dan segmentasi adalah citra fundus retina mata yang terdapat pada database drive
+pada tahap ini dilakukan proses peningkatan nilai kontras antara pembuluh darah dengan latar belakang agar mempermudah pada proses segmentasi
+sistem dimulai dari masukan citra fundus rgb, kemudian dilakukan proses pemilihan komponen warna
+tujuan dari proses ini adalah untuk mendapatkan kontras yang terbaik dari masing-masing channel rgb
+kanal hijau atau green chanel dipilih karena pada kanal ini pembuluh darah terlihat lebih jelas dibandingkan dengan kanal lainnya
+proses ini digunakan pada morfologi rekonstruksi dan kirsch and fuzzy c-means
+tahapan selanjutnya ialah proses gray scaling
+proses gray scaling ini digunakan dalam metode coye filter dan kirsch and fuzzy c-means
+pada kirsch and fuzzy c- means, setelah citra dirubah ke green chanel citra fundus tersebut kemudian dirubah lagi ke skala keabuan
+sedangkan pada coye filter tidak menggunakan green chanel melainkan langsung dirubah ke gray scaling
+tahapan ini bertujuan untuk menambahkan nilai kontras antara pembuluh darah dengan latar belakangnya agar pembuluh darah terlihat lebih jelas
+tahap pra-pengolahan berikutnya adalah contras limited adaptive histogram equalization atau disingkat dengan clahe
+proses ini juga digunakan untuk meningkatkan kontras antara pembuluh darah dengan latar belakangnya
+clahe digunakan setelah citra dirubah ke green chanel ataupun gray scaling
+hasil dari proses clahe akan menimbulkan noise-noise pada citra retina
+dalam upaya untuk menghapus noise tersebut maka digunakan suatu filter yang berfungsi untuk menghilangkan noise tersebut
+selanjutnya citra diolah lagi dengan menggunakan algoritma segmentasi yang akan diuji
+citra asli dan hasil segmentasi dapat dilihat pada gambar
+mengetahui seberapa baik suatu metode itu dalam melakukan proses segmentasi
+validasi dilakukan dengan menggunakan persamaan sehingga diperoleh hasil nilai persentase akurasi
+3 citra asli morfologi rekonstruksi coye filter kirsch and fuzzy c-means menganalisis metode mana yang memiliki performa terbaik adalah dengan mengetahui nilai standar deviasi
+tabel i citra rekonstruksi dalam melakukan proses segmentasi pada setiap citra akan menghasilkan nilai akurasi yang berbeda
+hal ini dikarenakan setiap citra memiliki serat dan percabangan pembuluh darah yang berbeda-beda
+semakin kompleks bentuk pembuluh darah suatu citra maka akan semakin sulit untuk melakukan proses segmentasi sehingga akan menghasilkan nilai akurasi yang lebih rendah dibandingkan dengan citra yang memiliki percabangan pembuluh darah sederhana
+rata-rata akurasi dari morfologi rekonstruksi adalah 94, 46% dan standar deviasi sebesar 2, 944445
+nilai dari standar deviasi ini menunjukkan seberapa besar sebaran data dari nilai akurasi masing-masing citra
+semakin kecil nilai standar deviasi maka semakin bagus sebaran data antara masing-masing citra, bahkan jika nilai standar deviasi bisa mencapai 0 berarti menunjukkan nilai semua data sama dengan nilai rata-rata
+tabel iiiii citra filter adalah 94, 97% dengan standar deviasi sebesar 4, 9901583
+nilai dari standar deviasi ini menunjukkan seberapa besar sebaran data dari nilai akurasi masing- masing citra
+nilai standar deviasi dari coye filter adalah yang tertinggi dari ketiga algoritma yang ada
+hal ini dikarenakan ada beberapa citra yang memiliki nilai akurasi berkisar pada angka delapan puluh, sedangkan banyak citra yang lain memiliki akurasi diatas sembilan puluh persen
+hal ini juga dikarenakan setiap citra memiliki serat dan percabangan pembuluh darah yang berbeda-beda
+namun nilai rata-rata akurasi pada coye filter lebih tinggi dibandingkan dengan dua metode yang lain, meskipun antara coye filter dengan morfologi rekonstruksi hanya berbeda 0, 51%
+morfologi rekonstruksi merupakan algoritma yang memiliki performa paling bagus dibandingkan dua algoritma lainnya
+hal ini dapat dilihat dari hasil akurasi dan standard deviasi pada tabel 1, 2 dan 3
+morfologi rekonstruksi memiliki standard deviasi yang paling rendah sehingga menunjukkan bahwa algoritma ini cenderung stabil dalam melakukan proses segmentasinya dilihat dari hasil akurasi tiap-tiap citra yang tidak jauh berbeda antara satu citra dengan yang lainnya
+sedangkan pada coye filter, walaupun memiliki rata-rata akurasi yang tinggi, namun algoritma ini juga memiliki nilai standar deviasi yang tinggi yang berarti bahwa tingkat akurasi antara citra yang satu dengan yang lainnya mempunyai perbedaan yang cukup besar sehingga menunjukkan bahwa algoritma ini tidak cukup stabil dalam melakukan proses segmentasi
+kemudian algoritma kirsch and fuzzy c-means yang mempunyai nilai standar deviasi yang paling rendah karena sebaran data dari hasil akurasi masing-masing citra yang bagus, tetapi algoritma ini tidak dapat dijadikan sebagai algoritma yang memiliki performa terbaik karena memiliki nilai rata-rata akurasi yang paling rendah
+citra pembuluh darah yang terlihat besar dan tebal adalah vena
+sedangkan pembuluh darah yang terlihat tipis dan halus adalah arteri
+gambar asli dari citra fundus retina sebelum dilakukan proses segmentasi dapat dilihat pada gambar 4
+ketiga algoritma yang telah dilakukan, ketiganya tidak ada yang berhasil mensegmentasikan arteri secara sempurna, dapat dilihat dari hasil segmentasi yang berbeda dengan gold standard yang memiliki banyak pembuluh darah halus
+nilai akurasi yang paling rendah adalah pada algoritma kirsch and fuzzy c-means terlihat pada hasil citra yang tidak terlalu baik dibandingkan dengan hasil citra pada morfologi rekonstruksi dan coye filter yang lebih mendekati gold standard
+5 gold standard morfologi rekonstruksi coye filter kirsch and fuzzy c-means citra pada gambar 6 merupakan citra ke-14 dari 20 citra yang ada
+nilai akurasi berurutan dari hingga adalah 87, 35%; 90, 23%; 80, 43%
+nilai ini berbeda dari nilai akurasi pada citra sebelumnya karena citra ini memiliki percabangan pembuluh darah yang lebih kompleks dibandingkan pada citra sebelumnya
+arteri dan vena pada citra ini memiliki pola yang lebih rumit
+hal itu menyebabkan proses segmentasi menjadi semakin sulit
+6 bahwa kirsch and fuzzy c- means memiliki hasil segmentasi dengan pola yang sangat tidak beraturan dan berbeda jauh dari gold standard sehingga menyebabkan nilai akurasinya sangat rendah
+akurasi tertinggi diperoleh coye filter, hasil segmentasi memperlihatkan bahwa pola yang dibentuk oleh algoritma coye filter lebih mendekati hasil gold standard sehingga tingkat akurasinya lebih tinggi
+selanjutnya disusul oleh morfologi rekonstruksi dengan hasil segmentasi dan akurasi yang tidak jauh berbeda dari coye filter
+dari dua sample citra diatas maka dapat diketahui bahwa suatu algoritma dalam melakukan proses segmentasi akan menghasilkan nilai akurasi yang berbeda- beda pada setiap citra yang diolah karena struktur pembuluh darah pada setiap retina yang berbeda-beda
+setiap orang memiliki pola pembuluh darah yang berbeda-beda pada retina mata, mulai dari pola yang sederhana sampai pola yang sangat kompleks sehingga tingkat kesulitan dalam melakukan segmentasi juga berbeda-beda
+semakin sederhana pola pembuluh darah maka proses segmentasi akan semakin mudah dan bisa menghasilkan tingkat akurasi yang tinggi, tetapi semakin kompleks pola pembuluh darah maka proses segmentasi akan menjadi semakin sulit dan tingkat akurasi akan berkurang
+rata-rata ketiga algoritma mampu mensegmentasikan vena dengan baik, namun kurang berhasil dalam mensegmentasikan arteri dengan baik
+6 gold standard morfologi rekonstruksi coye filter kirsch and fuzzy c-means iv
+kesimpulan dan saran dapat diambil kesimpulan yaitu: 1
+dalam melakukan proses segmentasi maka diperlukan tahap pra-pengolahan citra yang meliputi green chanel, gray scaling, contras limited adaptive histogram equalization, dan filter untuk meningkatkan kontras antara pembuluh darah dengan latar belakangnya agar mempermudah proses segmentasi
+performa algoritma yang paling baik tidak hanya ditentukan dari tingkat akurasi tetapi juga dari aspek lain yaitu standar deviasi
+algoritma yang memiliki performa paling baik adalah morfologi rekonstruksi dengan berdasarkan hasil pertimbangan nilai rata-rata tingkat akurasi yang tinggi dan nilai rata-rata standar deviasi yang rendah
+saran berdasarkan penelitian yang telah dilakukan maka saran yang dapat diberikan yaitu diharapkan penelitian selanjutnya dapat mengkombinasikan diantara ketiga algoritma ini agar dapat menghasilkan nilai akurasi yang lebih tinggi dan standar deviasi yang lebih rendah

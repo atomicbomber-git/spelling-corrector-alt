@@ -1,0 +1,110 @@
+korpus paralel merupakan dua dokumen text yang saling berhubungan dimana dokumen text pertama berisi kumpulan kalimat sumber dan dokumen kedua berisi kumpulan kalimat terjemahan
+korpus paralel berfungsi sebagai sumber utama dalam mengembangkan mesin penerjemah statistik
+pengumpulan korpus paralel secara manual memerlukan waktu yang lama dan biaya yang tidak sedikit
+web scraping adalah suatu teknik penggalian informasi dari situs web
+pembuatan aplikasi web scraping dapat dikombinasikan dengan berbagai metode, dalam penelitian ini metode yang digunakan adalah html dom
+sistem ini dibangun untuk mengumpulkan korpus paralel bahasa indonesia dan inggris
+pengujian dari aplikasi ini adalah menggunakan metode blackbox, serta beberapa rangkaian pengujian secara manual untuk mengetahui tingkat keberhasilan aplikasi ini dalam mengumpulkan data korpus paralel dan kecepatan sistem dalam mengumpulkan korpus paralel
+hasil implementasi dan pengujian akhir dari aplikasi web scraping dengan metode html dom adalah proses yang berjalan dalam aplikasi web scraping dengan metode html dom adalah proses scraping, tokenisasi, cleaning, dan lowercased, semua proses tersebut berjalan secara otomatis sehingga sangat menghemat waktu dan biaya dan menghasilkan korpus paralel bahasa indonesia dan inggris
+pendahuluan orpus paralel adalah dua buah kumpulan dokumen yang memiliki isi sama dan ditulis dalam bahasa yang berbeda
+korpus paralel berguna bagi para peneliti khususnya dalam bidang pemrosesan bahasa alami untuk pengembangan mesin penerjemah statistik
+hasil terjemahan dari sebuah sistem penerjemah statistik tergantung pada jumlah dari paralel korpus yang tersedia, karena jika semakin banyak jumlah paralel korpus yang dimiliki, maka akan semakin baik pula hasil terjemahannya
+korpus paralel banyak tersimpan dalam para peneliti, tapi sangat sedikit yang di- share
+korpus identic sudah menggabungkan isi dari korpus lembaga pengkajian dan penelitian
+korpus paralel yang dipublikasikan saat ini oleh septina dian larasati identic corpus: morphologically enriched indonesian-english parallel corpus berjumlah 27.326 kalimat 
+secara umum tahap pertama untuk membuat korpus paralel adalah mengumpulkan data berupa text atau dokumen dari berbagai sumber yang telah ada seperti dari situs berita, kamus, subtitle film dan masih banyak sumber-sumber lainnya
+setelah data mentah korpus paralel telah terkumpul maka data tersebut akan melalui beberapa proses yaitu cleaning, tokenisasi, dan lowercased
+fungsi dari proses cleaning yaitu menyaring data, seperti menghilangkan kata yang terlalu panjang sesuai dengan batas yang ditentukan
+selanjutnya proses tokenisasi adalah proses pemisahan suatu karakter spasi dan mungkin pada waktu yang bersamaan dilakukan proses penghapusan karakter tertentu, seperti tanda baca
+lowercase adalah untuk mengubah huruf dalam dokumen menjadi huruf kecil
+setelah menyelesaikan ketiga proses tersebut maka korpus paralel yang dihasilkan sudah siap untuk digunakan dalam mesin penerjemah
+setelah menganalisis beberapa tahapan di atas maka pembuatan korpus paralel khususnya bahasa indonesia – inggris secara manual sangat memakan waktu yang lama, biaya yang tidak sedikit dan terbatasnya jumlah korpus paralel yang didapatkan
+oleh karena itu diperlukan suatu sistem otomatis yang dapat membuat sebuah paralel korpus dengan cepat dan efektif agar dapat menambah perbendaharaan korpus yang sudah ada
+web scraping adalah aplikasi yang secara khusus dikembangkan untuk mengekstraksi informasi dari berbagai situs
+aplikasi ini berguna untuk mengumpulkan beberapa bentuk data dari internet dalam penelitian ini web scraping dapat digunakan untuk mengambil dokumen text dari sebuah website yang berisi dokumen dua bahasa
+berdasarkan permasalahan di atas, penelitian ini melakukan analisis, perancangan dan pembuatan aplikasi web scraping dengan metode html dom yang difokuskan untuk menghasilkan korpus paralel bahasa indonesia - inggris
+situs yang akan diambil data kalimatnya adalah sebuah situs berita dua bahasa 
+adanya aplikasi ini diharapkan dapat memperkaya perbendaharaan korpus dalam bahasa indonesia - inggris
+web scraping web scraping adalah proses pengambilan sebuah dokumen semi - terstruktur dari internet, umumnya berupa halaman - halaman web dalam bahasa markup seperti html atau xhtml, dan menganalisis dokumen tersebut untuk diambil data tertentu dari halaman tersebut untuk digunakan bagi kepentingan lain
+web scraping sering dikenal sebagai screen scraping
+web scraping tidak dapat dimasukkan dalam bidang data mining karena data mining menyiratkan upaya untuk memahami pola semantik atau tren dari sejumlah besar data yang telah diperoleh
+juga disebut intelligent, automated, or autonomous agents
+aplikasi web scraping hanya fokus pada cara memperoleh data melalui pengambilan dan ekstraksi data dengan ukuran data yang bervariasi
+web scrapping berhubungan dengan pengindeksan web yang merupakan suatu teknik universal yang dipakai hampir semua search engine
+perbedaannya web scraping lebih berfokus pada transformasi dari suatu web yang tidak terstruktur, umumnya dalam format html menjadi suatu format data terstruktur yang dapat disimpan dan dianalisa pada database atau lembar kerja
+html dom html dom adalah standar untuk bagaimana untuk mendapatkan, mengubah, menambah, atau menghapus elemen html 
+dengan dom, javascript dapat mengakses semua elemen didalam dokumen html
+dom adalah interface yang bersifat netral terhadap platform dan bahasa yang membuat program dan script dapat mengakses secara dinamis dan mengupdate struktur, style, dan konten dokumen
+html dom menggunakan bahasa pemrograman untuk mengakses obyek- obyeknya, biasanya javascript semua elemen html diperlakukan sebagai obyek
+antarmuka pemrogramannya adalah metode dan properti dari setiap obyek
+cleaning dan lowercase cleaning adalah tahapan menyaring data, seperti menghilangkan kata yang terlalu panjang sesuai dengan batas yang ditentukan
+lowercase adalah proses penyeragaman semua huruf menjadi huruf kecil semua
+tokenisasi tokenisasi adalah tahap pemrosesan dimana teks input dibagi menjadi unit-unit kecil yang disebut token, yang dapat berupa suatu kata, suatu angka, atau suatu tanda baca 
+proses ini cukup rumit untuk sebuat program komputer karena beberapa karakter dapat dijadikan sebagai pembatas dari token-token itu sendiri
+pembatas dari token tersebut antara lain spasi, tab dan baris baru, sedangkan karakter < > ! ? “
+, terkadang dianggap sebagai pembatas dan juga bukan pembatas tergantung pada kondisi pemakainya
+korpus korpus merupakan kumpulan teks berupa kata atau kalimat dalam ukuran besar dan terstruktur
+korpus dapat berisi text dalam satu bahasa atau berbagai macam bahasa dan dapat disimpan dalam bentuk file text
+salah satu kegunaan korpus yaitu sebagai data training untuk mendukung probabilistic translation model yang dibutuhkan oleh cross language information retrieval dan machine translation 
+gambar 2.1 adalah contoh beberapa korpus paralel bahasa indonesia dan bahasa inggris : gambar 2.1 korpus paralel bahasa indonesia dan bahasa inggris iii
+peracnganan flowchart sistem flowcart sistem dalam aplikasi ini adalah sistem berjalan secara otomatis mulai dari pengambilan sitemap pada website sasaran sampai secara terus menerus sampai selesai mendapatkan semua data berupa korpus paralel bahasa indonesia - inggris
+gambar 3.1 ini adalah cara kerja sistem dari aplikasi web scraping dengan metode html dom dalam berjalan : mulai b
+perancangan diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 3.2 menunjukan diagram konteks dari sistem
+seperti pada gambar 3.3, sistem ini dibagi menjadi empat dua
+perancangan diagram rinci sistem diagram rinci level 2 diagram rinci menguraikan lebih lanjut mengenai proses dari diagram overview yang memperlihatkan arus data masuk dan arus data keluar
+berdasarkan diagram overview di atas, maka model diagram rinci dapat dilihat pada gambar 3.4 dan 3.5 : gambar 3.4 diagram rinci level 2 proses 1.0 grab otomatis gambar 3.5 diagram rinci level 2 proses 2.0 pengelolaan data e
+perancangan basis data peracangan tabel data tabel link_auto merupakan tabel yang digunakan untuk menyimpan data url yang diperoleh dari sitemap situs berita dua bahasa
+spesifikasi tabel link_auto dapat dilihat pada tabel 3.1
+tabel 3.1 spesifikasi tabel link_auto peracangan realasi antar tabel perancangan diagram relasi antar tabel menggambarkan adanya relasi antar tabel yang terdapat dalam aplikasi web scraping untuk korpus paralel indonesia - inggris dengan metode html dom
+relasi antar tabel ini berfungsi untuk meminimalisir resiko data redundancy dan pemborosan memory
+relasi antar tabel ditunjukkan pada gambar 3.6
+perancangan antar muka halaman grab otomatis adalah halam utama dalam aplikasi ini, pada halaman ini user dapat memulai melakukan proses mengambil data korpus paralel pada website sasaran
+rancangan halaman grab otomatis dapat dilihat pada gambar 3.7
+gambar 3.7 perancangan antarmuka halaman dasbor halaman grab otomatis adalah halam utama dalam aplikasi ini, pada halaman ini user dapat memulai melakukan proses mengambil data korpus paralel pada website sasaran
+rancangan halaman grab otomatis dapat dilihat pada gambar 3.10
+hasil perancanga antarmuka halaman dasbor halaman dasbor adalah halaman pertama yang terbuka ketika user mengakses aplikasi web scraping untuk korpus paralel indonesia - inggris dengan metode html dom
+dalam halaman dasbor terdapat 2 buah box yang masing-masing menampilkan gambar bendera indonesia dan inggris untuk menandakan posisi bahasa dan di bawahnya terdapat jumlah kalimat dari masing-masih bahasa yang tersimpan di dalam database, serta 2 buah button yang berfungsi untuk mengunduh data korpus paralel dari database
+tampilan dari halaman dasbors dapat dilihat pada gambar 4.1
+nama file : index.php gambar 4.1 antarmuka halaman dasbor penjelasan : 1
+kolom dengan bedera indonesia menampilkan jumlah kalimat bahasa indonesia yang dihasilkan oleh aplikasi
+button download txt yang terdapat dibawah kolom dengan bendera indonesia berfungsi untuk mengunduh kalimat bahsa indonesia ke dalam komputer
+kolom dengan bedera inggris menampilkan jumlah kalimat bahasa inggris yang dihasilkan oleh aplikasi
+button download txt yang terdapat dibawah kolom dengan bendera inggris berfungsi untuk mengunduh kalimat bahsa inggris ke dalam komputer
+halaman grab otomatis halaman grab otomatis adalalah halaman dimana semua proses yang berjalan pada sistem
+tampilan dari halaman grab otomatis terdapat pada gambar 4.2
+gambar 4.2 antarmuka halaman grab otomatis penjelasan : 1
+button mulai grab : berfungsi untuk menjalankan perintah web scraping yang diawali pengambilan data sitemap, pengambilan data kalimat pada setiap berita dan mejalankan proses tokenisasi, cleaning serta lowercased kemudian menyimpan hasilnya ke dalam database secara bersamaan pada website berita 2 bahasa secara otomatis
+button grab data : berfungsi untuk melanjutkan grab data jika proses tersebut terhenti karena adanya gangguan koneksi pada internet 3
+button hapus semua link : berfungsi untuk menghapus semua link yang terdapat di dalam database
+button hapus semua data : berfungsi untuk menghapus semua data kalimat yang terdapat di dalam database
+bentuk output akhir dari aplikasi web scraping untuk korpus paralel indonesia - inggris dengan metode html dom yang dihasilkan seperti pada gambar 4.3
+gambar 4.3 hasil output akhir dalam bentuk file dengan format .txt b
+analisis pengujian hasil pengujian blackbox pengujian sistem merupakan bagian yang penting dalam siklus pembangunan perangkat lunak
+pengujian dilakukan untuk menjamin kualitas dan untuk mengetahui kelemahan dari perangkat lunak
+tujuan dari pengujian ini adalah untuk menjamin bahwa perangkat lunak yang memiliki kualitas yang baik yaitu mampu untuk mempersentasikan kajian pokok dari spesifikasi, analisis, perancangan, dan implementasi dari perangkat lunak itu sendiri
+pengujian kalimat hasil output berguna untuk mengetahui apakah sistem yang dibangun dalam penelitian ini sudah mencapai tujuan atau tidak
+pengujian diambil dari hasil output yang dihasilkan oleh aplikasi web scraping berupa pasangan kalimat bahasa indonesia dan bahasa inggris yang menghasilkan korpus paralel
+proses pengambilan data menggunakan nilai perbandingan kata rentang 0 - 2 pada website berita dua bahasa dengan menggunakan aplikasi web scraping memakan waktu 12 jam dan menghasilkan 38.712 pasang korpus paralel bahasa indonesia - inggris yang dapat digunakan untuk kebutuhan mesin penerjemah
+ n : jumlah sampel n : jumlah populasi e : batas toleransi kesalahan, pada kasus ini nilai e = 10%(0, 1
+penentuan ukuran sampel yang akan dalam penelitian ini dilakukan dengan menggunakan rumus slovin sebagai berikut : 𝑛 = 𝑁 1 + 𝑁𝑒 dari rumus di atas, maka besar jumlah sampel korpus paralel yang digunakan adalah sebagai berikut : 𝑛 = 38712 1 + 38712 ( = 99, 74 dibulatkan keatas menjadi 100 tingkat persentase data tingkat persentase data yang dihasilkan oleh aplikasi web scraping dengan metode html dom yang mengambil sumber data dari situs berita dua bahasa
+keseluruhan link url yang diambil didalam situs berita dua bahasa adalah sebanyak 8.951 buah dan data yang berhasil diambil sebagai korpus paralel sebanyak 4.175 buah
+untuk lebih jelas dapat dilihat dalam perhitungan berikut
+𝑛 = 4.175 8.951 x 100 = 46, 6 % berdasarkan perhitungan tersebut maka total artikel yang berhasil diambil oleh aplikasi web scraping dengan metode html dom sebesar 46, 6% dan sebesar 53.4 % gagal diproses
+aplikasi ini hanya mengambil sesuai dengan algoritma yang dirancang hanya untuk kalimat yang paralel dan penulisan kalimat yang sejajar antara bahasa indonesia dan bahasa inggris
+penyaringan kalimat yang sangat rinci menyebabkan data yang diambil tidak banyak dan salah satu faktor yang mempengaruhi data yang ditidak diambil karena penulisan yang dilakukan oleh pihak pengelola situs berita dua bahasa tidak paralel antara bahasa indonesia sebagai sumber dan bahasa inggris sebagai terjemahannya
+hasil pengujian kecepatan pada pengujian kecepatan dalam pengumpulan paralel korpus ini tools yang digunakan sebagai pengukur kecepatannya adalah sebuah stopwatch pada sebuah perangkat smartphone apple
+internet service provider yang digunakan adalah indihome dengan kecepatan 10 mbps dan 20 mbps dan browser yang digunakan adalah mozila firefox
+perangkat keras yang digunakan adalah macbook dengan sistem operasi ios, prosesor intel core m3, ram 8 gb, ssd 256 dan pc dell dengan sistem opersi windows 7, prosesor core i3, ram 2gb, hdd 128
+pengujian ini dilakukan untuk melihat kecepatan aplikasi dalam pengumpulan korpus paralel pada dapa situs berita dua bahasa dengan perangkat keras yang berbeda dan kecepatan internet yang berbeda
+hasil pengujian ini dijabarkan pada tabel 4.2
+tabel 4.2 hasil pengujian kecepatan pengumpulan korpus paralel dari hasil pengujian kecepatan aplikasi dalam mengumpulkan data korpus paralel pada tabel 4.2, spesifikasi perangat keras dan kecepatan internet yang digunakan sangat mempengaruhi waktu yang dibutuhkan oleh aplikasi dalam mengumpulkan korpus pararalel dari situs berita dua bahasa
+dapat dilihat pada tabel perangkat keras macbook lebih cepat dibandingkan pc dell
+kesimpulan berdasarkan hasil dari pengujian dan analisis terhadap sistem aplikasi web scraping untuk korpus paralel indonesia - inggris dengan metode html dom, maka ditarik kesimpulan sebagai berikut : 1
+sistem mampu menghasilkan dokumen korpus paralel melalui proses scraping dengan metode html dom dari website berita dua bahasa dengan alamat url dan mampu menghasilkan dokumen yang berisi kumpulan berita dan artikel bahasa indonesia sebagai sumber dan bahasa inggris sebagai terjemahan
+sistem dapat menjalankan proses cleaning, lowercased, tokenisasi dan menyimpan data korpus paralel bahasa indonesia - inggris secara otomatis tanpa melalui tahapan manual 3
+aplikasi web scraping untuk korpus paralel indonesia - inggris dengan metode html dom, telah menghasilkan korpus paralel bahasa indonesia - inggri sebanyak 38.712 pasang korpus paralel
+pengumpulan korpus paralel dengan aplikasi web scraping dengan metode html dom sangat berpengaruh pada spesifikasi perangkat keras dan kecepatan internet yang digunakan, perbandingan ini telah dibuktikan sesuai pada tabel 4.2, meskipun waktu yang dibutuhkan cukup lama namun sesuai pada jumlah korpus paralel yang diperoleh, dan sistem ini jauh lebih praktis dibandingkan dengan proses manual dalam pengumpulan korpus paralel
+saran berdasarkan dari hasil analisis, implementasi dan pengujian sistem aplikasi web scraping untuk korpus paralel indonesia - inggris dengan metode html dom, maka peneliti menyarankan beberapa hal sebagai berikut : 1
+banyaknya presentase data yang gagal diproses membuka peluang bagi para peneliti untuk mengembangkan algoritma yang lebih baik untuk meningkatkan persentase data yang didapatkan dan artikel yang dapat diambil tanpa mengurangi kualitas korpus
+kepada pihak pengelola situs berita dua bahasa agar lebih memperhatikan penulisan artikel, karena masih terdapat banyak artikel yang tidak sesuai antara artikel bahasa indonesia dan artikel bahasa inggris

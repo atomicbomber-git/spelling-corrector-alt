@@ -1,0 +1,66 @@
+eknik elektro fakultas teknik universitas tanjungpura pontianak dinilai dari empat kriteria yaitu nilai mata kuliah, referensi, lapangan pekerjaan, minat dan bakat
+demi efesiensi dan efektifitas mahasiswa maka pengambilan keputusan yang tepat dalam menentukan mata kuliah pilihan sangat diperlukan
+tujuan dari penelitian ini adalah untuk menghasilkan sebuah sistem pendukung keputusan dengan metode ahp berbasis desktop yang dapat membantu mahasiswa dalam memilih mata kuliah pilihan
+langkah penelitian dimulai dengan menganalisis sistem pemilihan mata kuliah pilihan yang digunakan di jurusan elektro fakultas teknik universitas tanjungpura pontianak
+langkah selanjutnya adalah melakukan analisis kebutuhan sistem dan perancangan sistem
+perancangan sistem dilakukan dalam 4 tingkatan proses
+proses pertama, perancangan alir informasi berupa diagram aliran data yang memuat aliran kerja sistem yang dirancang
+proses kedua, perancangan subsistem model berupa perancangan model pemilihan mata kuliah pilihan dengan metode ahp
+proses ketiga, perancangan subsistem basisdata yang terdiri dari 4 tingkatan proses yaitu tahap analisis, tahap perancangan logik, tahap perancangan fisik dan tahap implementasi
+dan proses terakhir, perancangan subsistem antarmuka berupa perancangan struktur menu dan layout antarmuka sistem yang dibangun
+pendahuluan adalah metode sistem pendukung keputusan 
+kolaborasi antara pembuatan keputusan dengan pemanfaatan kemajuan teknologi informasi berupa sistem pendukung keputusan berbasis komputer merupakan pilihan yang paling tepat untuk menghasilkan sistem pengambilan keputusan yang benar-benar lebih baik dibandingkan dengan hanya memanfaatkan intuisi dan peraturan-peraturan normatif belaka
+universitas tanjungpura mata kuliah yang ada sekarang ini dibagi dalam dua jenis kategori yaitu mata kuliah wajib dan mata kuliah pilihan
+untuk mata kuliah wajib setiap mahasiswa wajib mengambil mata kuliah tersebut sesuai paket yang sudah ditentukan per semesternya
+sedangkan untuk mata kuliah pilihan mahasiswa bebas memilih sesuai dengan keinginan tanpa harus mengikuti paket yang sudah ditentukan oleh pihak jurusan
+salah satu masalah yang sering terjadi di dalam lingkungan mahasiswa selama ini adalah pemilihan mata kuliah pilihan
+mata kuliah pilihan merupakan masalah yang tidak terstruktur, sehingga perlu dijadikan masalah yang terstruktur
+selama ini pemilihan mata kuliah pilihan dilakukan oleh mahasiswa itu sendiri, dan dalam pengambilan keputusan itu mahasiswa tidak mengetahui secara pasti berapa nilai dari kepentingan yang satu dengan kepentingan yang lainnya
+misalnya mengenai kesesuaian ipk mahasiswa dengan paket mata kuliah yang sudah ditentukan per semesternya
+kemudian mengenai prasyarat pengambilan mata kuliah dengan yang akan diambil juga menjadi kepentingan didalamnya disamping ada hal lain seperti banyaknya mata kuliah yang harus diulang
+dikembangkan sistem pendukung keputusan pemilihan mata kuliah pilihan jurusan teknik elektro fakultas teknik di universitas tanjungpura
+spk ini merupakan alat bantu bagi mahasiswa untuk memudahkan dalam melakukan pemilihan mata kuliah pilihan yang paling cocok dengan mahasiswa tersebut
+selain itu sistem ini juga nantinya akan memberikan hasil berupa rangking mata kuliah pilihan yang akan diambil oleh mahasiswa itu sendiri
+studi kasus: jurusan teknik elektro fakultas teknik universitas tanjungpura
+analytic hierarchy process abang m
+zaid wahyu#1, novi safriadi#2, helen sasty pratiwi#3 #program studi teknik informatika universitas tanjungpura 1zaidwahyu@yahoo.com, 2bangnops@gmail.com, 3helensastypratiwi @gmail.com jl
+sistem pendukung keputusan sistem pendukung keputusan merupakan suatu system yang dimaksudkan untuk mendukung para pengambil keputusan manajerial dalam situasi keputusan semiterstruktur
+spk dimaksudkan untuk menjadi alat bantu bagi para pengambil keputusan untuk memperluas kapabilitas mereka, namun tidak untuk menggantikan penilaian mereka
+spk ditujukan untuk keputusan- keputusan yang memerlukan penilaian atau keputusan- keputusan yang sama sekali tidak dapat didukung oleh algoritma
+analytic hierarchy process ahp umumnya digunakan dengan tujuan untuk menyusun prioritas dari berbagai alternatif/pilihan yang ada dan pilihan-pilihan tersebut bersifat kompleks atau multi kriteria
+secara umum, dengan menggunakan ahp, prioritas yang dihasilkan akan bersifat konsisten dengan teori, logis, transparan, dan partisipatif
+dengan tuntutan yang semakin tinggi berkaitan dengan transparansi dan partisipasi, ahp akan sangat cocok digunakan untuk penyusunan prioritas kebijakan publik yang menuntut transparansi dan partisipasi
+pengujian perangkat lunak pengujian adalah proses menjalankan program dengan maksud menemukan kesalahan
+pengujian adalah proses sistem operasi atau komponen menurut kondisi tertentu, pengamatan atau pencatatan hasil dan mengevaluasi beberapa aspek sistem atau komponen untuk mendeteksi perbedaan antara kondisi yang ada dengan yang diinginkan dan mengevaluasi fitur item perangkat lunak
+hanya mengamati hasil eksekusi melalui data uji dan memeriksa fungsional dari perangkat lunak
+jadi dianalogikan seperti kita melihat suatu kotak hitam, kita hanya bisa melihat penampilan luarnya saja, tanpa tahu ada apa dibalik bungkus hitamnya
+sama seperti pengujian blackbox, mengevaluasi hanya dari tampilan luarnya, fungsionalitasnya tanpa mengetahui apa sesungguhnya yang terjadi dalam proses detilnya 
+pengujian blackbox adalah metode pengujian perangkat lunak yang menguji fungsionalitas aplikasi yang bertentangan dengan struktur internal atau kerja
+pengetahuan khusus dari kode aplikasi/struktur internal dan pengetahuan pemrograman pada umumnya tidak diperlukan
+uji kasus dibangun di sekitar spesifikasi dan persyaratan, yakni, aplikasi apa yang seharusnya dilakukan
+menggunakan deskripsi eksternal perangkat lunak, termasuk spesifikasi, persyaratan, dan desain untuk menurunkan uji kasus
+tes ini dapat menjadi fungsional atau non-fungsional, meskipun biasanya fungsional perancang uji memilih input yang valid dan tidak valid dan menentukan output yang benar
+tidak ada pengetahuan tentang struktur internal benda uji itu
+metode uji dapat diterapkan pada semua tingkat pengujian perangkat lunak: unit, integrasi, fungsional, sistem dan penerimaan
+ini biasanya terdiri dari kebanyakan jika tidak semua pengujian pada tingkat yang lebih tinggi, tetapi juga bisa mendominasi unit testing juga iii
+metedologi penelitian elektro fakultas teknik universitas tanjungpura
+data yang didapat dari jurusan teknik elektro fakultas teknik universitas tanjungpura merupakan data mata kuliah pokok dan mata kuliah pilihan dari masing-masing prodi
+hasil dan analisis dengan sistem operasi minimal windows xp
+pada komputer juga harus terpasang mysql dan mysql odbc connector
+sistem yang telah dirancang dapat dijelaskan sebagai berikut
+tambah operator, edit password operator, mata kuliah pilihan, dan kriteria
+form utama antarmuka operator dapat dilihat pada gambar 2
+gambar 2 form utama antarmuka operator sebelum memulai perhitungan dengan motode ahp, maka operator harus mengatur mata kuliah pilihan yang akan ditampilkan nantinya
+adapun antarmuka form mata kuliah pilihan dapat dilihat pada gambar 3
+gambar 3 antarmuka form mata kuliah pilihan antarmuka form kriteria berisi pengaturan untuk nilai dari setiap kriteria yang akan dihitung nantinya
+antarmuka form kriteria dapat dilihat pada gambar 4
+gambar 4 antarmuka form kriteria antarmuka form utama mahasiswa berisi mata kuliah yang sudah pernah diambil beserta dengan nilainya
+selain itu di halaman utama ini juga terdapat tombol bantuan spk pemilihan mata kuliah pilihan
+form utama antarmuka mahasiswa dapat dilihat pada gambar 5
+gambar 5 antarmuka form utama mahasiswa antarmuka form bobot mata kuliah pilihan berfungsi untuk melakukan perhitungan bobot mata kuliah pilihan dengan matriks perbandingan berpasangan metode ahp, sehingga didapat calon mata kuliah pilihan yang sesuai dengan kriteria mahasiswa
+antarmuka form bobot mata kuliah pilihan dapat dilihat pada gambar 6
+gambar 6 antarmuka form bobot mata kuliah pilihan b
+pengujian sistem form input data tambah operator semua field di isi dengan data yang salah kemudian data disimpan
+dari pengujian ini muncul pesan seperti pada gambar 7
+spk pemilihan mata kuliah pilihan dapat membantu mahasiswa dalam memilih mata kuliah pilihan berdasarkan bobot yang didapat melalui perhitungan dengan metode ahp
+model ahp pemilihan mata kuliah pilihan yang digunakan untuk tiap tingkatan atau level yaitu tingkat kritieria, telah sesuai dengan kebutuhan yang diperlukan mahasiswa

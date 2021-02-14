@@ -1,0 +1,66 @@
+medical treatment of digestive diseases that experienced by infants is useful as an early warning of disease experienced in toddlers
+digestive diseases are caused by viruses and bacteria, digestive disease also can influence children's intelligence
+it is closely related to the intelligence of the child when the child is eating a healthy diet it will be absorbed by the body as a process of growth and development, but if the child has a disorder of the digestive function of nutrients in the body will become imbalanced
+the imbalancing of the nutrients in the body will interfere with child growth and intelligence of children
+expert system is one of the solution to diagnose the disease at an early stage by infants digestive symptoms that felt by the patient
+in this research an expert system created by applying certainty factor 
+applications developed for determining the digestive diseases in children only concerned to the symptoms experienced by the child
+by applying the method of certainty factor, we may obtained values ​ ​ possible interference illnesses experienced by the patient
+system generated may handle the data management and diagnosis of disease with a level of confidence 85%
+symptom data entered will be processed to obtain diagnostic results are in accordance with the calculation of the value of certainty factor that exist
+keyword : certainty factor, diagnose, expert system, toddlers digestive disease 1
+pendahuluan kesehatan anak merupakan hal terpenting bagi orangtua dalam melakukan pantauan terhadap makanan dan lingkungan yang terjadi disekitar anak
+anak berumur 1 sampai kurang dari 5 tahun merupakan kondisi anak yang rentan kesehatannya yang disebabkan oleh bakteri atau virus pada makanan dan lingkungan
+kesehatan pencernaan sering diabaikan oleh orangtua sehingga penting jika anak memiliki saluran pencernaan yang sehat, tubuhnya memiliki stamina yang baik dan bisa kuat melawan berbagai penyakit
+pada balita faktornya karena disebabkan oleh asupan makanan yang salah sehingga menyebabkan penyakit pencernaan yang merupakan penyakit yang menyerang pada gigi, kerongkongan, lambung dan usus
+dari berbagai macam penyakit tersebut penderita mengalami beberapa gejala penyakit yang berbeda-beda
+dengan adanya kemajuan teknologi pada saat ini, suatu penyakit akan terdeteksi dengan mengetahui gejala penyakit yang dialami pasien secara pasti
+salah satu implementasi yang akan diterapkan sistem pakar dalam bidang kesehatan yaitu sistem pakar penanganan penyakit balita dengan metode certainty factor
+untuk menghasilkan diagnosa penyakit secara pasti, maka dibutuhkan perhitungan certainty factor pada sistem
+certainty factor merupakan perhitungan ketidakpastian, dalam perhitungan certainty factor dapat membuktikan suatu fakta itu pasti atau tidak pasti
+dalam analisa informasi yang ada dokter sering kali mengungkapkan seperti misalnya mungkin, kemungkinan besar, dan hampir pasti sehingga dengan certainty factor dapat membantu dalam menggambarkan tingkat keyakinan
+perhitungan yang dilakukan certainty factor dapat mengolah 2 bobot dalam sekali perhitungan
+untuk perhitungan yang lebih dari 2 banyaknya, dalam melakukan perhitungan tidak terjadi suatu masalah apabila bobot yang dihitung teracak, artinya tidak ada aturan untuk 2
+teori dasar 2.1 kecerdasan buatan kecerdasan buatan atau artificial intelligence merupakan bagian dari ilmu komputer yang mempelajari bagaimana membuat mesin dapat melakukan pekerjaan seperti dan sebaik yang dilakukan oleh manusia bahkan bisa lebih baik daripada yang dilakukan manusia
+untuk mengetahui dan memodelkan proses-proses berpikir manusia dan mendesain mesin agar dapat menirukan prilaku manusia 
+dari definisi tersebut kecerdasan buatan diterapkan pada sistem pakar, pengolahan bahasa alami, pengenalan ucapan, jaringan saraf tiruan, penglihatan komputer 
+2.2 sistem pakar sistem pakar merupakan sistem yang berusaha mengadopsi pengetahuan manusia ke komputer, agar komputer dapat menyelesaikan masalah seperti yang biasa dilakukan para ahli
+beberapa definisi tentang sistem pakar antara lain : a
+menurut efraim turban, sistem pakar harus mengandung keahlian, ahli, pengalihan keahlian, inferensi, aturan dan kemampuan menjelaskan
+menurut jackson, sistem pakar adalah suatu program komputer yang mempresentasikan dan melakukan penalaran dengan pengetahuan beberapa pakar untuk memecahkan masalah atau memberikan saran
+menurut luger stubblefield, sistem pakar adalah program yang berbasiskan pengetahuan yang menyediakan solusi ‘kualitas pakar’ kepada masalah-masalah dalam bidang yang spesifik
+2.2 faktor kepastian certainty factor didefinisikan sebagai persamaan berikut : cf = mb – md keterangan : cf : certainty factor dari hipotesis h yang dipengaruhi oleh gejala e
+nilai -1 menunjukkan ketidakpercayaan mutlak sedangkan nilai 1 menunjukkan kepercayaan mutlak
+mb : ukuran kenaikan kepercayaan terhadap hipotesis h yang dipengaruhi oleh gejala e
+md : ukuran kenaikan ketidakpercayaan terhadap hipotesis h yang dipengaruhi oleh gejala e
+2.5 dfd dfd yang merupakan singkatan dari data flow diagram adalah suatu model proses yang digunakan untuk menggambarkan aliran data dalam sebuah sistem serta pemrosesan data yang dilakukan oleh sistem tersebut 
+3 perancangan sistem 3.2 perancangan arsitektur sistem arsitektur sistem secara umum dapat dilihat pada gambar 3.1 gambar 3.1 arsitektur sistem pakar sistem yang dibangun adalah sebuah sistem yang dapat menerapkan sistem pakar pada bisang kesehatan dengan metode certainty factor sebagai penarik nilai kepastian sistem pakar
+3.3 perancangan diagram konteks sistem pakar penanganan penyakit balita yang dirancang memiliki dua level pengguna, yaitu admin dan user
+admin yaitu pakar atau dokter anak yang mengetahui pengetahuan tentang penyakit dan obat
+user yaitu orangtua yang akan memasukkan data pribadi dan gejala anaknya
+gambar 3.2 diagram konteks sistem pakar 3.3 perancangan diagram overview proses alur sistem secara umum dapat dilihat pada gambar 3.4
+pada gambar 3.3 menunjukkan diagram overview melakukan proses yaitu login, manajemen data, daftar pasien dan diagnosa
+3.5 perancangan entity relationship diagram berikut ini adalah entity relationship diagram untuk sistem pakar penanganan penyakit balita : gambar 3.4 entity relationship diagram pada gambar 3.4 menunjukkan entity relationship diagram antara gejala, penyakit, pasien dan diagnosa
+3.6 perancangan struktur antarmuka antarmuka aplikasi dirancang dalam bentuk halaman yang memiliki fungsi yang berbeda sesuai dengan proses yang ada
+struktur antarmuka sistem dapat dilihat pada gambar 3.5 gambar 3.5 struktur antarmuka website 4
+hasil dan pengujian 4.1 hasil perancangan sistem pakar penanganan penyakit balita dengan metode certainty factor merupakan sistem yang bertujuan mendiagnosa penyakit pencernaan pada balita berdasarkan gejala yang dirasakan penderita penyakit, tidak dilakoukan pemeriksaan langsung pada fisik balita dan memberikan penanganan berupa informasi obat untuk masing-masing penyakit
+halaman utama merupakan tampilan awal dari sistem pakar penanganan penyakit balita dengan metode certainty factor
+halaman utama terdiri dari enam menu yaitu home, pakar, konsultasi, penyakit, bantuan dan tentang
+halaman utama dapat dilihat pada gambar 4.1
+gambar 4.1 halaman home halaman login pakar digunakan pakar untuk mengakses halaman pengelola data pengetahuan yang dilakukan oleh pakar
+antarmuka hasil perancangan halaman login pakar dapat dilihat pada gambar 4.2
+gambar 4.2 halaman login pakar halaman pengelolaan data pakar digunakan untuk melakukan pengelolaan data yang akan dijadikan bahan basis pengetahuan
+halaman ini terdiri dari input, edit, laporan dan daftar pasien
+antarmuka hasil perancangan halaman input penyakit dapat dilihat pada gambar 4.3
+gambar 4.3 halaman manajemen pakar menu konsultasi merupakan menu yang disediakan untuk menampilkan hasil diagnose yang dilakukan pengguna
+pengguna akan melakukan pengisian data pribadi pasien
+antarmuka menu konsultasi dapat dilihat pada gambar 4.4
+gambar 4.4 halaman data pribadi gambar 4.5 halaman pilih gejala setelah menampilkan hasil analisa penyakit, pengguna dapat melihat hasil diagnosa yang telah diproses oleh sistem
+antarmuka menu konsultasi untuk hasil diagnosa dapat dilihat pada gambar 4.6
+gambar 4.6 halaman hasil diagnosa 4.2 pengujian sistem pengujian dengan pengujian tingkat akurasi sistem yang dilakukan untuk mengetahui hasil akhir atau ouput yang berupa kemungkinan jenis penyakit yang dihasilkan oleh sistem pakar dengan yang dihasilkan oleh pakar
+untuk mengetahuinya kesesuaian hasil sistem pakar dengan pakar maka dapat dilihat pada tabel 4.1
+table 4.1 penilaian multimedia interaktif untuk mengetahui hasil tingkat akurasi sistem pada kasus diatas, maka perhitungannya sebagai berikut : nilai keakuratan=jumlah yang sesuai x 100% jumlah kasus nilai keakuratan = 17 x 100% 20 = 85 % terhadap sistem pakar penanganan penyakit balita dengan metode certainty factor, maka dapat disimpulkan bahwa: 1
+sistem ini dapat menganalisis jenis penyakit pencernaan pada anak dengan metode certainty factor berdasarkan pengujian tingkat keakuratan yang telah dilakukan dengan seorang pakar menghasilkan tingkat keakuratan sebesar 85%
+tingkat keakuratan diperoleh dari kesesuaian antara hasil diagnosa sistem pakar dengan basis pengetahuan seorang pakar yang dapat dilihat pada lampiran
+hasil dari perhitungan secara manual dengan perhitungan pada sistem pakar memiliki hasil diagnosa berupa nilai kepercayaan yang sesuai
+sistem ini dapat menampilkan nilai kepercayaan sebagai tingkat keyakinan pengguna saat melihat hasil diagnosa penyakit

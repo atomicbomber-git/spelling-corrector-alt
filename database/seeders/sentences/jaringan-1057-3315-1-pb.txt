@@ -1,0 +1,67 @@
+studi kasus : fakultas kedokteran universitas tanjungpura
+ada jaringan internet 1 wahyu.mv@gmail.com, 2 bangnops@gmail.com, 3 irwansyah.azhar@gmail.com ability of a network to provide better service to serve network traffic that passing through it
+from the results of a survey conducted by taking a sample of the 2040 quality of service for 16 days, the internet network at the faculty of medicine, university of tanjungpura get value of 2.33 at ssid hotspot_fk and 2.53 at ssid hotspot_fk2 with a standard category fair in telecommunications and internet protocol harmonization over networks speed on ssid hotspot_fk amounted to 252.53 mbps and 871.71 mbps for ssid hotspot_fk2
+as for the average upload speed on ssid hotspot_fk amounted to 99.19 mbps and 372.55 mbps for ssid hotspot_fk2
+applications that used in the measurement is the command prompt, wireshark, and google chrome which refers to the site speedtest.biznetworks.com and www.pingtest.net and the measurement values consists of packet loss, delay, jitter, throughput, and mean opinion source
+factors that could influence the network qos is attenuation, distortion, noise and bandwidth capacity distortion, noise
+dengan adanya standar-standar ini, oleh karena itu komunikasi data juga mengalami akselerasi
+memonitoring qos sistem jaringan seiring dengan meningkatnya kepercayaan komputer yang baik dan handal untuk menunjang kinerja/performance baik dari untuk memberi layanan kepada dosen dan mahasiswa dalam bentuk dukungan kegiatan belajar mengajar dengan menggunakan teknologi informasi
+untuk mewujudkan berdasarkan latar belakang dihasilkan rumusan masalah yaitu menganalisis jaringan dalam lingkungan yang dapat meningkatkan layanan jaringan internet di fakultas kedokteran universitas tanjungpura
+beberapa faktor yang perlu diperhatikan dalam menganalisis jaringan b) kondisi ruangan dan gedung
+c) medium transmisi yang akan digunakan, apakah kabel atau nirkabel
+e) topologi yang digunakan atau protokol yang akan dipakai
+j) sumber daya manusia sebagai sebagai berikut : terutama pada analisis pengukuran ete qm trafik business critical atau jaringan internet pada fakultas jaringan internet, sehingga dapat pengembangan sistem serta qos adalah kemampuan suatu baik dengan menyediakan bandwith, adalah latency, jitter, packet loss, throughput, mos, echo cancellation dan pdd
+qos sangat ditentukan oleh kualitas jaringan yang digunakan
+terdapat beberapa faktor yang dapat menurunkan nilai qos, seperti : redaman, distorsi, dan noise 
+menggambarkan suatu kondisi yang dan congestion pada jaringan dan hal ini berpengaruh pada semua aplikasi karena retransmisi akan mengurangi efisiensi jaringan secara keseluruhan meskipun aplikasi aplikasi tersebut
+untuk menempuh jarak dari asal ke tujuan
+delay dapat dipengaruhi oleh jarak, media fisik, kongesti atau juga waktu proses yang lama
+bagus 150 s/d, berhubungan erat dengan latency, yang menunjukkan banyaknya variasi delay menyebabkan jitter
+ efektif, yang diukur dalam bps
+throughput merupakan jumlah total interval waktu tersebut
+mean opin ion source kualitas sinyal yang diterima biasanya diukur secara subjektif dan objektif
+metoda pengukuran subjektif yang umum dipergunakan dalam pengukuran 3 acr meminta pengamat untuk tanpa membandingkannya dengan mempergunakan penilaian yaitu poor dan bad dengan nilai mos berturut – turut: 5, 4, 3, 2 dan 1
+kualitas suara minimum mempunyai nilai setara mos 4.0 3.1.hasil analisis berdasarkan rata-rata hasil pengamatan menggunakan aplikasi wireshark
+parameter pengamatan menggunakan aplikasi browser www.pingtest.net no parameter 2 delay 4 s.bagus 3 jitter 1.67 jelek 4 throughput 1 jelek 5 mos 2 sedang no parameter 2 delay 4 s.bagus 3 jitter 2.33 sedang 4 throughput 1 jelek 5 mos 2 sedang menggunakan aplikasi browser google speedtest.biznetworks.com jaringan internet di fakultas kedokteran untan
+internet di fakultas kedokteran untan yang menggunakan topologi wireless, terdapat beberapa daerah mendapatkan 1 sampai 2 buah balok sinyal wireless, bahkan ada yang tidak mendapat kan sinyal sama sekali
+ini dikarenakan sinyal wireless yang tidak dapat menembus dinding beton apalagi gedung fakultas kedokteran merupakan 2
+distorsi pembagian bandwidth dari puskom untan ke fakultas kedokteran untan maupun dari fakultas - up to 3 mbps untuk ssid hotspot_fk o up to 256 kbps untuk masing- masing user sebanyak 1226 user, o up to 512 kbps untuk masing- masing user sebanyak 2 user, o up to 1 mbps untuk user sebanyak 1 user, o default untuk user sebanyak 1 user
+up to 3 mbps untuk ssid hotspot_fk2 o 1 mbps untuk masing-masing user sebanyak 106 user, o 2 mbps untuk masing-masing user sebanyak 5 user, o default untuk user sebanyak 2 user
+jika user yang aktif melebihi kuota bandwidth, maka pengurangan alokasi selanjutnya ingin login, maka dari jumlah pemakaian user maka user biasa diminta me-reload page browser, bahkan ada yang sampai gagal login
+di fakultas kedokteran sangat rentan terhadap cuaca
+pada saat sebelum dan sesudah hujan maka akan terjadi perubahan suhu yang signifikan dan menyebabkan noise yang mengganggu spektrum sinyal wireless 
+bahkan jika yang menjadi penghalang tersebut sangat kuat sehingga menyebabkan 3.2.rekomendasi dibutuhkan bandwidth transmisi yang dari medan listrik dan menggunakan kabel yang terisolasi untuk menghindari dari noise
+mengurangi beban trafik dalam jaringan, karena jaringan yang telah terbebani lebih dari 50 % alokasi total seluruh bandwidth yang telah tersedia akan mengakibatkan pengaruh yang cukup dan delay
+pemakaian jaringan melebihi total bandwidth akan mengakibatkan integrated service merupakan memenuhi berbagai macam kebutuhan aplikasi dalam sebuah jaringan yang peka terhadap delay dan keterbatasan bandwidth
+jurnal dikategorikan baik, maka dapat 58.33 95 63.33 95 dengan tidak mengirimkan silence packet (terutama dalam network dengan header, yaitu paket (n-1
+dan berdasarkan hasil analisis qos pada fakultas kedokteran universitas tanjungpura dengan alokasi bandwidth hotspot_fk dan hotspot_fk2), dengan memperhatikan standar tiphon dengan stream audio yang resolusinya lebih rendah dari paket n sebagai informasi redudant), teknik interleaving (pada interleaving terjadi pembagian masing-masing paket gabungan dari potongan masing-masing jarak, media fisik, kongesti atau juga waktu proses yang lama
+media fisik jaringan yang sesuai dengan client, sehingga penentuan media jarak dapat mengatasi delay
+tentu saja delay dipengaruhi oleh throughput, delay semakin kecil
+buffer priority, bandwidth reservation connections dapat mereduksi memperbaiki topologi jaringan dan pengukurannya, tetapi dapat ditingkatkan dengan mengontrol untuk ssid hotspot_fk dimulai dari fiber optic yang berasal dari upt puskom kemudian diteruskan ke inverter, switch kemudian router yang berada di ruangan server di lantai i
+kemudian ditransmisikan oleh access point 1 yaitu antena omni yang berada di hall, lantai ii bagian belakang
+kemudian dikuatkan lagi oleh penerima nano station pada ap 2 yaitu en-genius yang berada di lorong lantai 2 di dekat ruang kdd, nano station pada ap 3 yaitu en-genius yang berada di lorong lantai 2 di dekat perpustakaan, nano station pada ap 4 yaitu en-genius yang berada di lorong lantai 2 di dekat lab.kimia
+selanjutnya dibutuhkan ap 5 yaitu en-genius di lorong lantai 2 di dekat ruang dosen 
+panjang kabel pertama yang adalah ± 15 meter
+jarak dari ap 1 ke ap 2 maupun ke ap 3 adalah ± 50 meter
+jarak antara ap 2 ke ap 4 adalah ± 50 meter
+jarak dari kabel dari router ke ap 5 adalah ± 25 meter
+sinyal wireless ap 1 sampai ap 4 dapat diterima oleh laptop, ap 5 dapat diterima oleh pc di ruang ict
+fiber optik internet hotspot_fk2 untuk ssid hotspot_fk2 dimulai dari fiber optic yang berasal dari upt puskom kemudian diteruskan ke inverter, switch kemudian ditransmisikan oleh ap 6 yaitu router wireless yang berada di lantai 2 ruang ktu
+selanjutnya dari router ke switch yang mengalirkan transmisi melalui media kabel lan ke perangkat pc di ruangan akademik panjang kabel pertama yang adalah ± 2 meter
+jarak dari router ke switch adalah ± 2 meter
+jarak antara switch ke masing-masing pc akademik sebanyak 5 pc adalah ± 10 meter
+sinyal ap 6 dapat diterima oleh laptop
+menyamakan traffic bandwidth secara di dalam mikrotik pcq sudah terinstal default dan merupakan program untuk mengatur traffic jaringan quality of service 
+mahasiswa yang memiliki bandwidth maka max bandwidth yang diterima pengguna tersebut adalah full 3mbps
+jika pengguna = 10, maka maximal bandwith yang diterima masing-masing adalah 3mbps / 10 user = 307.2 kbps
+pengukuran terhadap parameter qos yang telah dilakukan pada ssid hotspot_fk didapatkan nilai 2, 33 dengan kategori cukup, dan ssid hotspot_fk2 demikian dapat disimpulkan bahwa jaringan internet fakultas kedokteran universitas tanjungpura tergolong dalam standar yang kurang memuaskan fatoni, joesman 2008) dengan rating < 2
+beberapa hal yang mempengaruhi qos pada fakultas kedokteran universitas tanjungpura redaman, distorsi dan noise seperti kurangnya bandwidth dan manajemen alokasi bandwidth, media infrastruktur dan faktor cuaca yang tentu tak bisa dihindarkan
+gunakan 9 parameter qos untuk hasil penelitian yang lebih akurat, yaitu latency, jitter, packet loss, throughput, mos, echo cancellation, error, out of delivery, dan pdd
+waktu pengamatan harus sesuai dengan kondisi lalu lintas jaringan internet fakultas kedokteran untan
+jadwal pengamatan harus sesuai dengan jadwal kegiatan di fakultas kedokteran untan
+jaringan intranet (studi kasus : http://blog.binadarma.ac.id/fatoni/wp- content/uploads/2011/04/jurnal- qos.pdf
+implementasi algoritma per layanan pada sistem telekomunikasi
+studi kasus : pemerintah kabupaten kubu raya
+dan perancangan sistem jaringan komputer 
+pontianak : penerapan qos pada jaringan frame relay menggunakan cisco router
+jakarta : teknik informatika indonusa esa quality of service 

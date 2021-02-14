@@ -1,0 +1,24 @@
+, hengky anra e-mail: rbenzsiregar@gmail.com 1, heripriyanto.stmt@gmail.com menggunakan game engine sangat diperlukan
+mereka perlu menguasai pemrograman visual novel, yaitu sebuah metode bercerita dalam bentuk ilustrasi visual baik konten dan medianya disajikan pada media digital salah satu engine tersebut yaitu ren’py
+dengan menggunakan aplikasi engine ren’py, game yang dibuat khusus untuk anak-anak berusia 6-12 tahun akan lebih mudah dalam mempelajari vocabulary bahasa inggris
+hal ini dikarenakan dalam dunia yang modern seperti ini, pembelajaran bahasa inggris lebih diutamakan dalam prospek dunia kerja di masa yang akan datang
+pengujian pembuatan game ini dilakukan dengan menggunakan metode blackbox dan untuk kuisioner telah diuji validitasnya menggunakan likert’s summated rating dilihat dari nilai akhir pre-test dan post-test
+berdasarkan pengujian yang sudah dilakukan, game ini dinilai cukup berhasil dalam memenuhi kebutuhan anak- anak dalam mempelajari bahasa inggris
+pendahuluan kehidupan kita, ini berarti setiap manusia berhak mendapat dan berharap untuk selalu berkembang dalam pendidikan
+dalam dunia pendidikan dikenal istilah yang dicapai siswa dalam menyerap pelajaran
+ada yang menyatakan hasil, potensi, nilai, dan ada pula yang menggunakan istilah prestasi
+anak cenderung malas untuk mempelajari bahasa asing
+salah satu faktor terbesar yang mempengaruhi hal tersebut adalah kurangnya rasa ingin tahu dan kesadaran untuk mengetahui lebih jauh
+faktor lain yang menyebabkan seseorang khususnya anak-anak malas dalam mempelajari bahasa inggris adalah sikap mudah menyerah
+di dalam diri mereka belum timbul adanya rasa kepercayaan diri yang kuat sehingga secara sadar atau tidak sadar mereka selalu bergantung pada orang lain
+hal ini terjadi karena banyaknya faktor yang mempengaruhi prestasi belajar yaitu intelegensi, bakat, minat, motivasi, dan lingkungan siswa yang terdiri dari lingkungan sekolah dan rumah
+dalam upaya meningkatkan efisiensi penyediaan aplikasi yang mengandung unsur pendidikan diperlukan berbagai alternatif dan inovasi baru dalam hal pemrograman untuk bisa diterapkan sebagai alat untuk mempermudah proses pembelajaran
+salah satu media pembelajaran bisa berupa game, karena game adalah bagian mutlak dari kehidupan anak dan permainan merupakan bagian integral dari proses pembentukan kepribadian anak
+game merupakan salah satu produk teknologi informasi yang cukup digemari saat ini, game juga merupakan bentuk aplikasi yang edukatif, artinya bisa dijadikan sebagai media pembelajaran dimana prosesnya bisa dilakukan dengan konsep belajar sambil bermain
+salah satu media pembelajaran yang bisa digunakan sebagai media pembelajaran adalah dengan menggunakan game edukasi
+yang mengandung unsur pendidikan tersebut maka penelitian ini akan dibangun sebuah game berkonsep edukasi berbahasa inggris untuk mempermudah proses pembelajaran dengan judul “perancangan game edukasi menggunakan model dgbl-id sebagai media alternatif dalam pembelajaran vocabulary bahasa inggris
+” penelitian ini diharapkan bisa memberikan kontribusi kepada anak-anak sebagai media alternatif dalam memberikan pembelajaran tentang pembelajaran bahasa inggris sehingga setelah memainkan game ini seorang anak dapat mengetahui serta menimbulkan semangat untuk mempelajari pelajaran bahasa inggris
+permainan dalam hal ini merujuk pada pengertian kelincahan intelektual 
+pada tingkat tertentu, merupakan ukuran sejauh mana game itu menarik untuk dimainkan secara maksimal dengan kata lain, segala bentuk kegiatan yang memerlukan pemikiran, kelincahan intelektual dan pencapaian terhadap target tertentu dapat dikatakan sebagai game
+terdapat dua pengertian dari game atau permainan yaitu pertama, permainan adalah sebuah aktifitas bermain yang murni mencari kesenangan tanpa mencari menang atau kalah
+dan kedua, permainan diartikan perancangan game edukasi menang-kalah

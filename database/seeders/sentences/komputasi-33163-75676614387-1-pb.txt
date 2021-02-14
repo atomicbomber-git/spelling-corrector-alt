@@ -1,0 +1,99 @@
+masa studi mahasiswa merupakan tolak ukur penilaian keberhasilan program studi, karena masa studi merupakan salah satu elemen penilaian akreditasi
+permasalahan mahasiswa lulus tidak tepat waktu dan mahasiswa drop out masih menjadi masalah yang sering dialamai oleh program studi saat ini
+tujuan penelitian ini adalah membangun sebuah model untuk prediksi awal masa studi mahasiswa pada program studi informatika universitas tanjungpura
+keterlambatan mahasiswa dalam menempuh masa studi disebabkan karena kesulitan pengetahuan tentang prediksi masa studi dari awal prediksi adalah suatu kegiatan untuk memperkirakan kejadian yang akan terjadi dimasa depan dengan menggunakan data yang sudah ada
+proses prediksi masa studi mahasiswa sebenarnya bisa dilakukan secara manual dengan melihat pola nilai akademik mahasiswa
+tetapi sulit jika dilakukan untuk mengolah data mahasiswa yang lumayan banyak, karena memakan waktu lama dan rawan kesalahan prediksi
+penggunakan model untuk melakukan prediksi masa studi bisa digunakan untuk menangani masalah kerumitan dan ketepatan hasil prediksi, dengan menggunakan metode pendekatan yang cocok untuk prediksi salah satunya adalah algoritma decision tree c4.5
+model adalah abstrak dari kenyataan yang digunakan untuk mengurangi kompleksitas dari suatu permasalahan
+pengujian sistem yang dilakukan menggunakan cofusion matrix menunjukan bahwa model prediksi yang dibangun menggunakan decision tree c4.5 baik dalam melakukan prediksi disebabkan karena hasil perhitungan rata-rata nilai precision, recall dan accuracy diatas 50% dan rata-rata nilai error rate berada dibawah 20%
+pendahuluan waktu merupakan salah satu elemen penilaian akreditasi universitas
+sesuai peraturan permendikbud no 49 tahun tentang standar nasional pendidikan tinggi menegaskan bahwa, beban belajar minimal mahasiswa s1/d- iv adalah 144 sks untuk menuntaskan seluruh beban sks mahasiswa s1/d-iv diberi batas waktu 4-5 tahun 
+tetapi tidak semua mahasiswa bisa selesai tepat waktu sesuai jangka waktu yang telah ditentukan, tidak sedikit mahasiswa yang menempuh studi s1 lebih dari batas waktu maksimal yang telah ditentukan atau bahkan sampai terancam drop out
+permasalahan keterlambatan kelulusan mahasiswa saat ini masih menjadi beban program studi, disebabkan karena keterbatasan pihak program studi untuk melakukan prediksi masa studi mahasiswa dari awal dengan adanya prediksi dari dini pihak program studi bisa melakukan, perencanaan, pengawalan studi dan bimbingan lebih intensif kepada mahasiswa yang terindikasi lulus tidak tepat waktu dan terancam drop out
+menurut herdianto prediksi adalah suatu proses memperkirakan secara sistematis tentang sesuatu yang paling mungkin terjadi di masa depan berdasarkan informasi masa lalu dan sekarang yang dimiliki
+masa studi mahasiswa yang berkaitan dengan kelulusan adalah salah satu kejadian di masa depan yang bisa diprediksi dengan menggunakan data masa lalu riwayat akademik mahasiswa
+berdasarkan permasalahan yang telah dipaparkan diatas, maka perlu dibangun sebuah model untuk prediksi masa studi mahasiswa, dengan adanya model tersebut bisa membantu pihak program studi dalam memprediksi masa studi mahasiswa
+proses prediksi dilakukan pada pertengahan studi mahasiswa atau bertepatan dengan evaluasi studi dua tahun pertama 
+berdasarkan peraturan evaluasi maka data yang digunakan sebagai atribut penelitian adalah data akademik mahasiswa dari semester 1-4
+atribut yang akan digunakan adalah indek prestasi semester 1-4, indek prestasi komulatif, sks tempuh, sks lulus, dan kelulusan
+untuk prediksi studi hasil prediksi diklasifikasikan menjadi 4 klasifikasi yaitu cepat, tepat, terlambat dan do
+dengan adanya model prediksi masa studi mahasiswa maka bisa membantu pihak program studi dan dosen pembimbing akademik untuk memprediksi masa studi mahasiswa bimbinganya sehingga penanganan bisa di lakukan lebih awal dan meminimalisir kemungkinan mahasiswa drop out
+model matematika yang digunakan untuk mendukung prediksi masa studi mahasiswa adalah algoritma decision tree c4.5
+algoritma decision tree c4.5 merupakan pengembangan dari algoritma id3, algoritma ini merupakan salah satu algoritma klasifikasi dan prediksi
+metode decision tree bekerja dengan cara mengubah fakta yang sangat besar menjadi pohon keputusan yang merepresentasikan aturan yang dapat dengan mudah dipahami dengan bahasa alami, dan beberapa penelitian menggunakan algoritma c4.5 untuk mengklasifikasi dan memprediksi ipk dan kelulusan mahasiswa[12, 13, 14, 15] tujuan utama dibangunya model prediksi masa studi mahasiswa adalah untuk membantu pihak program studi melakukan prediksi awal pada masa pertengahan studi mahasiswa dengan menerapkan model decision tree c4.5
+model yang diterapkan diharapkan bisa membantu dalam mengurangi kompleksitas proses prediksi dan hasil prediksi yang lebih baik dengan menggunakan variabel-variabel yang berpengaruh terhadap masa studi
+uraian penelitian menurut simarmata model merupakan penyajian abstrak dari kenyataan yang digunakan untuk mengurangi kompleksitas dari pemahaman atau untuk saling berinteraksi dengan peristiwa yang dimodelkan dengan pengurangan detail yang tidak mempengaruhi perilaku peristiwa yang relevan
+sommerville model proses perangkat lunak merupakan deskripsi yang disederhanakan dari proses perangkat lunak yang dipresentasikan dengan sudut pandang tertentu, sehingga model proses perangkat lunak merupakan abstraksi dari proses sebenarnya yang dideskripsikan
+berdasarkan defenisi model tersebut dapat disimpulkan bahwa model adalah suatu abstrak dari suatu sistem yang digunakan untuk mengurangi kompleksitas system
+selisih antara sesuatu yang terjadi dengan hasil perkiraan
+prediksi prediksi adalah suatu proses memperkirakan secara sistematis tentang sesuatu yang paling mungkin terjadi di masa depan berdasarkan informasi masa lalu dan sekarang yang dimiliki, agar kesalahannya dapat diperkecil
+prediksi tidak harus memberikan jawaban secara pasti kejadian yang akan terjadi, melainkan berusaha untuk mencari jawaban sedekat mungkin yang akan terjadi 
+pohon keputusan menurut pohon keputusan merupakan metode klasifikasi dan prediksi yang sangat kuat dan terkenal metode pohon keputusan mengubah fakta yang sangat besar menjadi pohon keputusan yang merepresentasikan aturan
+menurut sebuah pohon keputusan adalah sebuah struktur yang dapat digunakan untuk membagi kumpulan data yang besar menjadi himpunan- himpunan record yang lebih kecil dengan menerapkan serangkaian aturan keputusan
+dengan masing-masing rangkaian pembagian, anggota himpunan hasil menjadi mirip satu dengan yang lain
+algoritma decision tree c4.5 algoritma c4.5 merupakan pengembangan dari algoritma id3 
+beberapa pengembangan yang dilakukan pada c4.5 adalah sebagai antara lain bisa mengatasi missing value, bisa mengatasi continue data, dan pruning
+secara umum algoritma c4.5 digunakan untuk membangun pohon keputusan adalah sebagai berikut :  pilih atribut sebagai akar
+ ulangi proses untuk setiap cabang sampai semua kasus pada cabang memiliki kelas yang sama
+untuk memilih atribut sebagai akar, didasarkan pada nilai gain tertinggi dari atribut-atribut yang ada
+untuk menghitung gain digunakan rumus seperti tertera dalam persamaan berikut: keterangan: s : himpunan kasus a : atribut n : jumlah partisi atribut a | si | : jumlah kasus pada partisi ke-i | s | : jumlah kasus dalam s setelah mendapatkan nilai gain, ada satu hal lagi yang perlu dilakukan perhitungan yaitu mencari nilai entropy
+entropy digunakan untuk menentukan seberapa informatif sebuah input atribut untuk menhasilkan output atribut
+pengujian confusion matrix confusion matrix menurut (gorunescu, f
+adalah sebuah metode yang biasa digunakan untuk perhitungan akurasi pada bidang data mining
+proporsi kasus positif yang diidentifikasi dengan benar
+proporsi kasus dengan hasil positif yang benar
+perbandingan kasus yang diidentifikasi benar dengan jumlah seluruh kasus
+kasus yang diidentifikasi salah dengan jumlah seluruh kasus
+confusion matrix ini nantinya akan melakukan perhitungan yang melakukan 4 keluaran, yaitu recall, precision, accuracy dan error rate 
+tabel i confusion matrix class = yes a b class = no c d rumus untuk menghitung tingkat akurasi pada matrik adalah sebagai berikut:  recall= tp /  precision= tp /  accuracy= /  error rate= / iii
+analisis kebutuhan model yang dibangun digambarkan dalam bentuk tipe model arsitektur seperti pada gambar 2
+analisis model model proses prediksi awal masa studi pada penelitian ini mengunakan model air terjun 
+tahapan yang dilakukan pada model waterfall adalah analisis yang telah dilakukan pada tahap analisis kebutuhan, perancangan dilakukan pada tahap analisis model dan perancangan model, implementasi membangun model yang telah dirancang sebelumnya menjadi sebuah sistem berbasis web, dan pengujian dilakukan untuk melakukan menguji keakuratan hasil prediksi yang dihasilkan
+tahapan- tahapan analisis model adalah sebagai berikut: 1
+preprocesing tahap preprocessing data yang merupakan proses persiapan data sebelum data tersebut digunakan pada proses prediksi
+untuk membuat hasil prediksi yang baik, maka harus menggunakan data yang baik pula 
+metode prediksi setelah melakukan studi literatur dari berbagai jurnal tentang proses prediksi maka dipilihlah algoritma decision tree c4.5, algoritma ini merupakan salah satu algoritma yang sering digunakan untuk proses prediksi dan klasifikasi
+decision tree c4.5 berkerja dengan cara membentuk sebuah pohon keputusan untuk membentuk sekumpulan rule yang diperoleh dari kumpulan data yang sebelumnya telah ditentukan terlebih dahulu atribut yang akan digunakan
+proses prediksi  siapkan data latih 
+ hitung data latih menggunakan algoritma decision tree c4.5
+perancangan antarmuka perancangan antarmuka bertujuan untuk memberi gambaran awal model yang akan dibangun menggunakan algoritma decision tree c4.5
+pengguna pada model yang akan dibangun terdiri dari 3 pengguna yaitu pihak prodi, dosen dan mahasiswa
+struktur antarmuka system digambarkan seperti pada gambar 3
+perancangan pengujian pengujian yang digunakan pada penelitian ini adalah pengujian confusion matrix, untuk melakukan evaluasi terhadap hasil prediksi yang terdiri dari 4 klasifikasi yaitu cepat, tepat, terlambat, dan do
+untuk mengukur kinerja hasil prediksi yang dihasilkan maka dilakukan pengujian terhadap nilai precision, recall, acuraccy, dan error rate
+data latih yang digunakan untuk membentuk rule pohon keputusan menggunakan 100 data mahasiswa angkatan 2009- 2012 regular a dan ppapk
+untuk pengujian akan dilakukan 5 kali pengujian terhadap rule yang telah dibentuk data latih, dengan jumlah data uji yang berbeda-beda
+data uji yang akan dipilih menggunakan data mahasiswa angkatan 2012-2013
+berikut ini adalah rancangan pengujian yang akan dilakukan: 1
+bentuk tabel hasil 4 klasifikasi seperti contoh pada tabel 2
+cepat a b c d tepat e f g h terlambat i j k l do m n o p 2
+bentuk tabel confusion matrix dan isi nilai true positif, false positif, false negative, dan true negative berdasarkan tabel hasil klasifikasi seperti pada tabel 3
+setelah nilai tp, fp, fn, dan tn ditentukan maka selanjutnya hitung nilai precision, recall, accucary dan error rate
+masukan hasil kedalam tabel hasil dan hitung rata-rata setiap pengujian seperti pada tabel 4
+setelah melakukan studi literatur maka tahap selanjutnya yang dilakukan pada langkah pengumpulan data adalah melakukan wawancara kepada pihak program studi informatika untan yaitu kaprodi untuk mengetahui bisnis proses data akademik mahasiswa dan untuk mendapatkan data penelitian yaitu data dpna dan data monev
+analisis sistem prediksi terdiri dari 2 tahap yaitu analisis kebutuhan dan analisis model
+pada tahap analisis kebutuhan menghasilkan data yang akan digunakan pada penelitian yaitu data ip semester 1-4, ipk, sks total, sks lulus dan kelulusan
+analisis model yaitu terdiri dari 3 langkah proses didalamnya yaitu preprocesing data, pemilihan metode dan prediksi
+peracangan sistem prediksi dilakukan setelah melakukan tahapan pengumpulan data dan analisis sistem prediksi, karena melihat proses yang telah dilakukan akan sulit jika prediksi dilakukan secara manual dan memerlukan waktu lama serta rawan kesalahan maka diperlukan sebuah sistem secara komputerisasi yang mengadopsi proses manual kedalam sebuah sistem
+hasil perancangan sistem prediksi yang dilakukan dengan menggunakan model waterfall yaitu metode sdlc dengan tools yang digunakan yaitu dfd, flowchart, dan erd
+pengujian dan evaluasi adalah tahapan untuk menguji model prediksi yang dibangun untuk menguji tingkat keakuratan sistem dalam memprediksi masa studi mahasiswa, pengujian dilakukan yaitu dengan menggunakan pengujian confusion matrix
+hasil perancangan hasil perancangan yang telah dilakukan sebelumnya menghasilkan sebuah model prediksi masa studi mahasiswa berbasis web
+antarmuka model prediksi masa studi mahasiswa terdiri dari 4 antarmuka yaitu, antarmuka login, antarmuka prodi, antarmuka dosen, dan antarmuka mahasiswa
+antarmuka prodi import data latih gambar
+antarmuka prodi hitung gain dan entropy gambar
+antarmuka prodi import data mahasiswa gambar
+hasil pengujian pengujian model prediksi masa studi mahasiswa dilakukan untuk mengukur seberapa tepatnya sistem dalam melakukan prediksi dengan hasil yang dikeluarkan sesuai dengan yang diinginkan
+berdasarkan karakteristik hasil prediksi yang berupa klasifikasi maka pengujian yang digunakan adalah pengujian confusion matrix
+pengujian confusion matrix adalah tools yang digunakan untuk evaluasi model klasifikasi untuk memperkirakan objek yang benar atau salah pada hasil yang dikeluarkan
+hasil dari pengolahan 100 data latih menggunakan algoritma decision tree c4.5 menghasilkan 30 rule
+data rule tersebut digunakan sebagai landasan untuk melakukan prediksi data mahasiswa
+pengujian confusion matrix yang dilakukan sebanyak 5 kali dengan jumlah data uji yang berbeda-beda yaitu, dimulai dengan 20, 25, 30, 35, dan 40 data
+yang diambil dari data mahasiswa secara acak, berikut hasil pengujian berdasarkan hasil 5 kali pengujian yang digambarkan pada tabel 5: tabel 5 hasil pengujian confusion matrix kategori jum lah uji kategori jum lah uji terlamb at cepat 25 terlamb at cepat 30 terlamb at cepat 35 terlamb at cepat 40 terlamb at v
+kesimpulan pengujian dengan menggunakan confusion matrix yaitu untuk menguji kinerja dari sistem yang dibangun
+nilai yang diuji adalah nilai precision, recall, acuuracy, dan error rate
+dari hasil pengujian yang dilakukan dapat disimpulkan bahwa model prediksi yang dibangun menggunakan algoritma decision tree c4.5 sudah berhasih dan layak digunakan untuk prediksi masa studi mahasiswa
+karena nilai precision, recall, dan accuracy yang dihasilkan menunjukan angka rata-rata diatas 50%
+sedangkan nilai error rate rata-rata pengujian dibawah 20% menunjukan bahwa kesalahan prediksi yang dilakukan rendah
+adapun kesalahan prediksi yang terjadi disebabkan oleh perbandingan jumlah data latih dan data uji yang tidak seimbang
+hasil tersebut menunjukan bahwa jumlah data uji yang terlalu banyak akan membuat keakuratan menjadi rendah

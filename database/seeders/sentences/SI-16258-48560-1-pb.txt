@@ -1,0 +1,22 @@
+masjid, panti asuhan, dan pesantren adalah fasiltas penting bagi umat islam yang dimanfaatkan sebagai tempat beribadah, belajar, dan memelihara anak-anak yatim, anak yatim piatu dan anak-anak terlantar
+penyampaian informasi dari masjid, panti asuhan, dan pesantren harusnya dapat dilakukan secara online dan terstruktur agar informasi yang di sampaikan dapat akses dan di kelola melalui jaringan internet dan diterima dengan baik oleh jemaah
+sebuah sistem informasi masjid, panti asuhan, dan pesantren sangat diperlukan agar penyampaian informasi dapat tersebar dengan baik
+penyampaian informasi dari masjid, panti asuhan, dan pesantren di kota singkawang pada umumnya masih belum dapat di akses secara online sehingga sulit untuk melakukan pencarian informasi yang di sampaikan oleh masjid, panti asuhan, dan pesantren melalui jaringan internet penelitian ini bertujuan untuk mengatasi masalah penyampaian informasi pada masjid, panti asuhan, dan pesantren di kota singkawang
+sistem ini dibangun berbasis website dan perancangan sistem mencakup perancangan arsitektur sistem, perancangan diagram alir sistem perancangan data flow diagram, perancangan database dan perancangan antarmuka sistem
+pertama dengan metode black box untuk pengujian sistem dan uat untuk pengujian penggunaan aplikasi
+berdasarkan hasil pengujian black box, sistem dapat berjalan dengan baik
+pengujian uat penggunaan aplikasi dilakukan terhadap 15 responden dan dihitung menggunakan metode mencari interval nilai persentase likert
+hasil perhitungan pengujian uat pengguna aplikasi adalah 97, 7%
+berdasarkan hasil pengujian uat pengguna aplikasi, maka sistem informasi yang dibangun dapat mengatasi masalah dalam penyampaian informasi masjid, panti asuhan, dan pesantren di kota singkawang
+masjid adalah tempat di mana umat islam berkumpul untuk melakukan ibadah sholat ataupun kegiatan islam yang lainya berdasarkan syariat dan adab di dalamnya, panti asuhan merupakan tempat atau rumah mememlihara dan merawat anak yatim atau yatim piatu, dan pesantren adalah sebuah pendidikan tradisional yang para siswanya tinggal bersama dan belajar di bawah bimbingan guru yang lebih dikenal dengan sebutan kiai dan mempunyai asrama untuk tempat menginap santri
+selain memiliki fungsi utama sebagai tempat sholat, rumah tingal anak yatim atau yatim piatu, dan tempat belajar, ketiga sarana ini juga mengadakan kegiatan ibadah lainya berdasarkan syariat dan adab di dalamnya
+di kota singkawang, kegiatan-kegiatan tersebut tidak lepas dari adanya pengurus dari setiap masjid, panti asuhan, atau pesantren yang bertugas dalam penyampaian informasi tentang adanya kegiatan di masjid, panti asuhan, atau pesantren mereka
+pada umumnya di kota singkawang informasi kegiatan masjid, panti asuhan, atau pesantren disebar dari mulut ke mulut sehingga informasi kegiatan hanya diketahui sebatas pada umat islam yang aktif di masjid, panti asuhan, dan pesantren tersebut atau yang berada dekat dengan daerah tersebut
+sarana ini juga memerlukan bantuan dalam perawatan atau pemeliharannya baik berupa dana ataupun jasa
+selama ini di kota singkawang dalam meminta bantuan para pengurus sarana menyampaikan permohonanya selain dari pemkot juga dari ke mulut ke mulut dan meminta sumbangan dari rumah ke rumah sehingga yang dapat memberi bantuan hanya sebatas pada umat islam yang berada di sekitar sarana tersebut ataupun yang aktif pada sarana tersebut
+begitu juga sebaliknya bagi umat islam yang ingin memberi bantuan berupa dana ataupun jasa hanya dapat membantu sarana di sekitar mereka karena informasi dari daerah luar sangat jarang di dapatkan
+maka dari itu diperlukannya sebuah sistem yang dapat memberikan sarana bagi pengurus masjid, panti asuhan, dan pesantren di kota singkawang yang berguna untuk memberikan informasi data profil beserta lokasi, kegiatan, ataupun bantuan pada masjid, panti asuhan, dan pesantren mereka sehinga dapat di sebarkan kepada masyarakat umum dan menjadi informasi bagi mereka
+uraian penelitian sebelumnya sudah pernah dilakukan oleh penelitian lain
+rancang bangun sistem informasi spasial berbasis web pada lokasi masjid dan musholla (studi kasus: kecamatan serpong)
+salah satunya adalah aliah agustina pada tahun 2011, yang merupakan mahasiswa program studi sistem informasi fakultas sains dan teknologi universitas islam negeri syarif hidayatullah jakarta dengan judul 
+penelitian aliah agustina ini bertujuan untuk membantu dalam mencari lokasi suatu masjid dan mushola yang ada di kecamatan serpong kota tangerang selatan

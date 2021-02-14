@@ -1,0 +1,46 @@
+niversitas tanjungpura mel sandra melsandramilanisti@gmail.com the media in generating information to people around the world
+this the information portal is also implemented in the faculty of engineering, university of tanjungpura in order to fulfill the information needs of its academic community
+various types of information systems that owned by the faculty of engineering, university of tanjungpura necessary as a campus information center
+the media that used to inform the information would be better if it provides two-way communication facilities so that the result of the information is not only of by the managers but also of the public, especially the academic community of the faculty of engineering, university communication media and this feature can also be applied in the information portal designed for web-based similarity
+the amount of resources that required the information needs to be maintained, it is becoming a basic necessity of a mirror system that can be used to anticipate interference with the resources so that the information can still be used even if resources are experiencing interference
+yang terus berubah secara dinamis seperti saat ini, mengharuskan manusia untuk memanfaatkan sumber daya yang ada agar dapat memperoleh informasi sesegera proses pertukaran informasi, terutama peranannya sebagai sarana komunikasi, informasi adalah dengan menggunakan banyaknya organisasi, instansi, dan memanfaatkan teknologi informasi guna menyampaikan informasi yang dimiliki
+tanjungpura yang memiliki berbagai kalangan yang membutuhkan informasi akademik ataupun non-akademik
+melihat sebuah peluang bagi pihak fakultas agar dapat menjalankan fungsi dan peranan secara lebih optimal, yaitu dengan memiliki sebuah portal digital yang dapat berfungsi sebagai media komunikasi dan penyebaran informasi secara meluas
+penyampaian memberikan kenyamanan bagi mahasiswa, memperoleh informasi
+yang dimiliki fakultas teknik universitas tanjungpura difasilitasi sebuah server host tanpa sistem yang dapat mem-backup sistem informasi tersebut ketika server host yang digunakan mengalami gangguan
+hal ini juga menjadi salah satu latar belakang permasalahan pada penelitian ini, maka dari itu diperlukan suatu media penyimpanan yang secara khusus digunakan sebagai mirror system dari server host tersebut
+pengembangan sistem yang dapat dilakukan yaitu dengan merancang portal digital yang diintegrasikan dengan mirror system dan mail service
+menurut rahmadi wijaya, portal informasi adalah sekumpulan aplikasi yang melibatkan data yang telah diproses atau diolah, sehingga data-data tersebut dapat saling melengkapi guna dihasilkan bahan informasi baru yang bermanfaat
+portal informasi tidak selalu melibatkan komputer, portal informasi yang menggunakan dirancang untuk mengumpulkan, backup otomatis server sumber sehingga ketika mirror dapat langsung dipublikasikan ketika diperlukan
+server mirror akan resync otomatis terhadap server sumbernya
+sebuah bentuk server yang khusus digunakan untuk menyimpan halaman permintaan suatu halaman pada suatu situs web, browser melakukan koneksi ke suatu server dengan protokol http
+server akan menanggapi koneksi tersebut dengan memutuskan koneksi
+menangani penghantaran e-mail yang terdiri dari tiga bagian, yaitu protokol pengirim, protokol penerima/pengunduh data dan penggunaan mail server tidak terlepas dari dukungan web server yang menyediakan antarmuka email
+juga dikenal sebagai mta atau mail transport agent
+saat ini email menjadi salah satu bagian yang tidak terpisahkan dari para pengguna internet sedangkan mail server berfungsi sebagai server yang melayani beberapa komputer dalam sebuah jaringan komputer dalam pengiriman dan penerimaan email
+mta membutuhkan beberapa protokol yang memiliki fungsi berbeda-beda untuk mengirimkan dan mail transfer protocol) dan esmtp untuk mengirim e-mail serta pop3 dan imap untuk mengirim email
+aplikasi yang biasanya digunakan dalam mail service adalah squirrelmail, postfix, dan courrier imap
+object access protocol adalah sebuah standarisasi dasar dari protokol komunikasi untuk saling bertukar informasi terstruktur di antara aplikasi-aplikasi yang berjalan
+soap adalah sebuah aplikasi pesan xml yang sangat bergantung pada skema xml dan xml namespaces untuk mendifinisikannya
+soap juga sangat lainnya seperti http, jms, rpc untuk transmisi pesan
+soap sangat efektif untuk berbabagai macam aplikasi untuk berkomunikasi walaupun berjalan pada berbeda-beda pula
+2.5 php data objects pdo biasa juga disebut php-mysql
+pdo adalah salah satu ekstensi yang disupport oleh php5 untuk mendefinisikan lightweight dbms dengan berbagai macam database yang di dukung oleh php
+mysql berfungsi sebagai media pemyimpanan data, tersebut dengan mengirimkan perintah memusatkan informasi digital yang dimiliki fakultas teknik universitas tanjungpura ke dalam suatu portal digital yang terintegrasi dengan stand alone server sebagai mirror system dan mail service dari sistem informasi yang dimiliki fakultas teknik universitas tanjungpura
+berdasarkan hasil dapat dilihat pada gambar 1 berikut
+arsitektur sistem portal digital dan mirror system fakultas teknik antarmuka sistem portal digital administrator dalam bentuk halaman yang memiliki fungsi tertentu sesuai dengan proses-proses yang ada
+halaman-halaman hasil perancangan antarmuka sistem portal digital yang dirancang sebagai berikut
+halaman utama portal digital fakultas teknik universitas tanjungpura digital fakultas teknik universitas fakultas teknik universitas tanjungpura arsitektur implementasi mirror system gambar 5
+arsitektur implementasi mirror system menggunakan metode black box dan metode uat 
+metode black box digunakan untuk memeriksa kesesuaian sistem dengan yang diharapkan
+teknik yang digunakan pada metode ini yaitu teknik sample testing pada input data
+pengujian ini melibatkan data real yang didapat secara langsung melalui kuesioner yang diisi oleh 30 responden yang merupakan pengguna sistem
+captcha sesuai captcha sesuai metode black box soal no pilihan total ya tidak metode user acceptance test informasi antara lain : 1
+pilihan yang dipilih responden berjumlah 272 jawaban dan memiliki persentase x 100 % = 90, 67 %
+pilihan yang dipilih responden berjumlah 28 jawaban dan memiliki persentase x 100 % = 9, 33 %
+data yang diperoleh dari hasil pengujian dengan kuesioner kemudian pengukuran dengan metode lsr
+jumlah skor untuk setiap responden: - skor maksimal = 20 - skor minimal = 10 2
+jumlah skor untuk seluruh responden: - maksimal = 600 - minimal = 300 3
+interpretasi jumlah skor tersebut adalah: - 450 < skor < = 600, artinya positif pengujian terhadap portal digital dan mirror system fakultas teknik universitas tanjungpura, dapat disimpulkan bahwa: tanjungpura dapat dipenuhi dengan cara menyatukan informasi yang tersebar pada sistem informasi yang dimiliki fakultas teknik ke dalam suatu wadah portal digital yang diintegrasikan dengan mail service fakultas teknik
+mirror system sangat dibutuhkan oleh fakultas teknik untuk mengantisipasi gangguan pada server utama yang menampung sistem informasi yang dimiliki oleh fakultas teknik
+test yang diukur dengan skala likert’s summated rating menghasilkan tingkat keberhasilan limitationsof e-mail security protocols

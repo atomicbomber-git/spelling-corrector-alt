@@ -1,0 +1,66 @@
+work experience is important thing for someone to do a job with better result
+the company trust toward him or her will increase
+for students or graduated students, compability of work experience and study make more impact in their quality which they can implement their knowledge into real world
+this research aim to design and build a job sharing system that connects students or graduated ones with the common people and get work experience based on their skill and interest in professional work environment
+each of technique for order of preference by similarity to ideal solution and weighted arithmetic mean are implemented in team build and tracking progress of a work process in system
+black box method is used in system testing with sample testing technique that release the test result
+the test result will be analyzed
+based on the test result, the average of responders note that this system is very needed by percentage of 65, 6%
+keywords: work experience, job sharing system, topsis, weighted arithmetic mean, informatic engineering of tanjungpura university 1
+pendahuluan pengalaman dalam bekerja merupakan suatu modal penting bagi seseorang untuk dapat melakukan suatu pekerjaan dengan lebih baik dan berkualitas
+tingkat kepercayaan perusahaan atau tempat seseorang yang berpengalaman tersebut bekerja terhadap dirinya akan bertambah
+bagi seorang mahasiswa khususnya, memiliki pengalaman kerja yang sesuai dengan bidang studi yang dipelajarinya merupakan suatu nilai lebih dengan pengertian bahwa mahasiswa tersebut telah mampu menerapkan ilmu pengetahuan yang didapat saat perkuliahan dalam sebuah studi kasus nyata
+sehingga dalam dunia pekerjaan, dengan pengalaman kerja yang dimilikinya, mahasiswa dapat lebih mudah untuk memperoleh pekerjaan yang sesuai dengan bidang studinya
+seperti yang telah diketahui, dalam penyeleksian calon pegawai baru pada perusahaan manapun, peluang seseorang yang berpengalaman dalam bekerja akan memiliki kemungkinan lebih besar untuk dapat diterima daripada seseorang yang minim akan pengalaman
+hal ini selaras dengan pernyataan sutomo dengan memiliki pengalaman kerja didukung tingkat pendidikan yang tinggi, maka tenaga kerja akan mempunyai lebih banyak kesempatan untuk mendapatkan pekerjaan
+bahkan untuk seorang wiraswasta sekalipun pengalaman kerja memegang peran penting dalam kemajuan usaha yang dimilikinya
+akan tetapi tidak semua mahasiswa dapat dengan mudah mencari dan mendapatkan pengalaman kerja tersebut, hal ini disebabkan minimnya lapangan kerja yang berkenan menerima seorang mahasiswa yang belum menyelesaikan studinya, dengan demikian pengalaman kerja hanya dapat diperoleh pada saat setelah lulus dari bangku perkuliahan
+sehingga secara otomatis potensi jumlah pilihan pekerjaan akan menurun dikarenakan telah diisi oleh orang-orang yang berpengalaman kerja
+oleh karena itu dibutuhkan sebuah wadah yang dapat memberikan mahasiswa pengalaman dalam bekerja dalam suasana profesional walaupun belum menyelesaikan studinya
+wadah tersebut adalah job sharing system pada program studi teknik informatika universitas tanjungpura
+job sharing system pada program studi teknik informatika universitas tanjungpura merupakan sebuah sistem berbasis web yang berperan sebagai perantara antara pemberi tugas/ 1 pekerjaan dengan mahasiswa atau alumni sebagai pengambil tugas/ pekerjaan
+dalam hal ini klien dapat berstatus dosen, alumni, mahasiswa, maupun masyarakat umum
+diharapkan dengan menggunakan sistem ini dapat memenuhi mahasiswa seperti yang telah disebutkan sebelumnya, yaitu kebutuhan akan pengalaman kerja yang sesuai dengan bidang studinya dan kebutuhan terhadap suatu studi kasus yang nyata sebagai sarana penerapan ilmu pengetahuan yang telah diperolehnya selama perkuliahan
+dasar teori 2.1 pengertian sistem sistem dapat diartikan sebagai kumpulan komponen-komponen fungsi yang menyatu dalam suatu lingkup dengan tujuan untuk menyelesaikan suatu permasalahan
+pada dasarnya sistem memiliki beberapa sifat dasar, diantranya adalah adanya tujuan yang akan dicapai, adanya kesatuan usaha, adanya suatu kontrol, mempunyai input berupa data, adanya suatu proses, mempunyai input berupa informasi, adanya umpan balik 
+pengertian sistem menurut beberapa ahli sebagai berikut: 1
+menurut davis g.b sistem secara fisik adalah kumpulan dari elemen-elemen yang beroperasi bersama-sama untuk menyelesaikan suatu sasaran
+menurut harijono djojodihardjo suatu sistem adalah sekumpulan objek yang mencakup hubungan fungsional antara tiap- tiap objek dan hubungan antara ciri tiap objek, dan yang secara keseluruhan merupakan suatu kesatuan secara fungsional 3
+ suatu sistem adalah seperangkat elemen yang membentuk kumpulan atau prosedur- prosedur/ bagan-bagan pengolahan yang mencari suatu tujuan bagian atau tujuan bersama dengan mengoperasikan data dan/ atau barang pada waktu rujukan tertentu untuk menghasilkan informasi dan/ atau energi dan/ atau barang
+2.2 weighted arithmetic mean weighted arithmetic mean pada dasarnya adalah sebuah perhitungan rata-rata dari sebuah kumpulan data
+hal yang membedakan algoritma ini dari perhitungan rata-rata pada umumnya adalah terdapat pembobotan pada tiap data
+pada perhitungan rata-rata biasa, tiap data dianggap memiliki bobot yang sama, namun pada weighted arithmetic mean, tiap-tiap data memiliki bobot masing-masing yang dapat bernilai sama maupun berbeda antara satu dan lainnya
+notasi untuk weighted arithmetic mean dapat dilihat pada persamaan 1 yang dikutip dari situs www.math.info
++wn = sebagai contoh, dalam sebuah penilaian, nilai ujian akhir berbobot empat kali lipat dari skor kuis
+jika nilai ujian akhir adalah 82, dan masing-masing skor kuis adalah 94, 89, 92 dan 85, tentukan nilai rata-ratanya
+dengan menggunakan notasi pada persamaan 1 maka perhitungan dapat dilakukan seperti pada contoh di bawah ini
+2.3 technique for order or preference by similiarty to ideal solution technique for order of preference by similarity to ideal solution sebuah turunan dari multi criteria decision making 
+topsis memiliki prinsip dasar bahwa alternatif yang terpilih seharusnya memiliki jarak terpendek dari solusi ideal dan jarak terjauh dari solusi non-ideal berikut adalah langkah-langkah proses dari metode topsis berdasarkan presentasi yang ditulis oleh dr saleh duffuaa : 1
+bentuk sebuah matriks evaluasi yang terdiri dari m alternatif dan n kriteria, dengan perpotongan tiap alternatif dan kriteria diberikan xij
+sehingga didapatlah matriks seperti pada persamaan 2
+normalisasi matriks persamaan 2 sehingga memberntuk matriks persamaan 3
+kalkulasi matriks keputusan ternormalisasi berbobot menggunakan persamaan 5
+tentukan alternatif terburuk dengan persamaan 6 dan alternatif terbaik dengan persamaan 7
+kalkulasi jarak target alternatif terhadap alternatif terburuk 
+kalkulasi jarak target alternatif terhadap alternatif terbaik 
+kalkulasi kemiripan dengan kondisi terburuk menggunakan persamaan 2.1.0 s iw=d ib /, 0≤siw≤1, i=1, 2,
+perancangan sistem 3.1 arsitektur sistem job sharing system memiliki empat pengguna yang terbagi menjadi dua kelompok, yaitu admin, member, dan klien dalam kelompok pengguna terdaftar dan pengguna umum dalam kelompok pengguna tidak terdaftar
+sistem informasi akademis teknik informatika universitas tanjungpura
+sistem dalam beroperasi menggunakan tiga basis data, yaitu basis data siakad ti untan, basis data utama sistem, dan basis data pengguna
+basis data siakad digunakan sebagai validasi dalam proses login sistem bagi pengguna dengan status alumni atau mahasiswa aktif 
+basis data pengguna berfungsi sebagai penyimpanan data member, data dan akun klien, dan akun admin
+basis data sistem berfungsi sebagai penyimpan dan penyedia transaksi data yang diperlukan oleh sistem
+baik basis data sistem and basis data user merupakan basis data internal sistem
+rancangan arsitektur sistem dapat dilihat pada gambar 1
+3.2 diagram alir sistem diagram alir sistem terbagi menjadi empat bagian, diagram alir utama, diagram alir klien, diagram alir halaman kerja, dan diagram alir admin
+diagram alir utama membahas dari proses login, bagian sistem untuk member, dan connector-connector baik off-page maupun on- page
+diagram alir halaman kerja berisikan input, output, maupun proses yang terjadi pada halaman kerja, terutama dalam hal implementasi metode topsis dan weighted arithmatic mean
+perancangan diagram alir sistem dapat dilihat pada gambar 2, 3, 4 dan 5
+3 job sharing system internet service provider basis data sistem siakad jarkom jarkomjarkom jarkom jarkomjarkom gambar 4
+diagram sistem admin 4 mulai username, password, verifikasi password agenda, statistik kerja, notifikasi lamaran diagram yang memperlihatkan aktor-aktor yang terlibat dalam sistem beserta daftar kegiatan yang dapat dilakukan olehnya
+terdapat lima aktor dalam diagram, yaitu admin, klien, tim kerja, member dan umum
+3.4 entity relationship diagram pada diagram terdapat empat belas entitas, yaitu admin, konfigurasi sistem, statistik kerja, ageda, histori kerja lainnya, member, klien, pekerjaan, testimoni, rentang waktu, progress, dan chat
+hasil perancangan secara garis besar antarmuka sistem terbagi menjadi empat bagian, halaman mahasiswa / alumni, halaman klien, halaman kerja, dan halaman admin
+job sharing system dirancang dapat menyediakan studi kasus nyata sehingga dapat memberikan kontribusi pengalaman kerja yang sesuai dengan bidang teknik informatika bagi mahasiswa maupun alumni
+hasil pengujian dengan menggunakan teknik sample testing dari metode black box menunjukkan bahwa penginputan data kosong, baik sebagian maupun keseluruhan pada proses registrasi, login, publikasi pekerjaan baru, progress tracking, dan pelaporan pelanggaran, akan ditanggapi sistem dengan memberikan notifikasi yang berisikan pemberitahuan untuk mengisi data secara lengkap
+berdasarkan hasil pengujian dengan borang yang diukur dengan metode likert’s summated rating, skor yang diperoleh sebesar 688 menunjukkan bahwa responden menilai sistem sangat positif dan dinilai berhasil

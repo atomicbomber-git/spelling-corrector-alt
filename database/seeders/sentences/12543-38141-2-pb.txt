@@ -1,0 +1,150 @@
+penelitian ini membahas tentang ekstraksi akumulasi voting pada accumulator array yang dihasilkan algoritma invariant generalized hough transform untuk menemukan posisi kemunculan motif pada citra batik yang telah mengalami perubahan skala dan atau rotasi
+proses ekstraksi accumulator array dilakukan dengan 4 metode yaitu hill climbing clustering, kombinasi tresholding dan density based spatial clustering of application with noise, kombinasi hill climbing dan dbscan serta kombinasi tresholding, hill climbing dan dbscan
+untuk setiap metode yang diusulkan, dihitung nilai precision dan recall
+precision dan recall tertinggi diperoleh oleh kombinasi tresholding, hill climbing dan dbscan, yaitu sebesar 23% untuk precision dan 35% untuk recall
+clustering of application with noise, invariant generalized hough transform, motif, hill climbing i
+pendahuluan aset yang sangat berharga karena berangkat dari kemajemukan tersebut lahirlah keanekaragaman budaya yang mencirikan bangsa indonesia
+salah satu aset budaya sekaligus cerminan peradaban bangsa indonesia di masa yang lalu dan terus terpelihara sampai sekarang adalah batik
+hal ini tidak terlepas dari kebijakan pemerintah indonesia yang menjadikan batik sebagai pakaian nasional codebook, log gabordan generalised hough tansformmerupakan beberapa metode yang telah dilakukan dan hasil yang diperoleh memperlihatkan bahwa sistem perolehan citra berbasis konten sangat layak untuk diterapkan pada citra batik
+namun, dalam citra batik, fitur yang sangat signifikan adalah fitur bentuk
+hal ini dapat dimaklumi mengingat fitur bentuk sering muncul dan menjadi ciri utama dari citra batikseperti yang diperlihatkan oleh gambar 1
+fitur bentuk tersebut di dalam citra batik dikenal sebagai motif
+generalised hough transform, walaupun motif yang ingin dikenali tersebut berada di antara motif yang lain
+ght mentransformasikan titik-titik pada tepi motif batik ke dalam besaran vector yang diwakili oleh jarak dan arah titik tepi tersebut terhadap titik rujukan yang telah ditentukan
+besaran vector yang mewakili titik-titik tepi kemudian disimpan ke dalam r-tabel dengan menggunakan arah gradient titik tepi sebagai indeksnya
+posisi kemunculan motif pada citra penguji serta tidak mengikut-sertakan faktor rotasi dan skala
+penemuan lokasi kemunculan motif pada citra batik yang telah mengalami rotasi dan atauperubahan skala merupakan motivasi bagi peneliti melakukan penelitian ini
+namun, proses transformasi titik tepi yang dilakukan oleh invariant ght menghasilkan kumpulan titik yang tersebar di seluruh ruang accumulator array dan menjadi noise yang dapat megakibatkan kegagalan pada proses penemuan motif retrieval) pertama kali diperkenalkan oleh t
+dalam eksperimen yang dilakukannya, kato menggunakan perolehan citra berbasis konten untuk mengambil citra secara otomatis dari database berdasarkan fitur warna dan bentuk
+sejak saat itu istilah tersebut banyak digunakan untuk menggambarkan proses pengambilan gambar yang diinginkan dari sebuah koleksi besar berdasarkan fitur akurasi algoritma density based spatial clustering of application with noise dan hill climbing pada accumulator array invariant generalized hough transform pada citra batik m
+namun secara sederhana dapat dideskripsikan kembali bahwa perolehan citra adalah sebuah aplikasi yang menggunakan metode-metode dari image processing dan computer vision pada permasalahan perolehan citra digital
+aplikasi perolehan citra berbasis konten biasanya dibangun untuk mengaturjumlah data citra yang kian hari kian besar sehingga memudahkan pengguna mencari data yang diinginkannya
+pada aplikasi tertentu, perolehan citra dibangun dengan dasar karakteristik dari citra kueri yang dimasukan kedalam aplikasi
+misalnya, pada bidang remote sensing, aplikasi perolehan citra dibangun untuk mengetahui informasi perubahan penggunaan lahan dan tutupan lahan, sedangkan pada bidang kesehatan aplikasi dibangun untuk mendeteksi adanya kelainan pada sel- sel tertentu dari tubuh makhluk hidup termasuk manusia
+beberapa cara yang digunakan dalam diskripsi warna adalah: color histogram, color coherence vector, color correlogram, dan color moment
+setiap piksel dalam citra berwarna terdiri atas vektor warna tiga dimensi
+histogram warna merepresentasikan isi warna dalam suatu citra
+warna suatu citra dapat direpresentasikan dalam beberapa model seperti red, green, and blue atau rgb dan hue, saturation, and value atau hsv
+tekstur berisi informasi penting tentang susunan struktur dari permukaan citra
+walau mudah bagi manusia untuk membedakannya, namun sangat sulit bagi komputer digital untuk mendefinisikannya
+bentuk dari citra dapat dijadikan kueri untuk mendapatkan citra yang sesuai dengan kueri
+ada beberapa metode yang dapat digunakan untuk melakukan perhitungan fitur citra berdasarkan bentuk, diantaranya: moment invariants, turning angles, dan fourier descriptors
+hough transformdigunakan untuk menemukan bentuk dalam sebuah gambar, khususnya bentuk garis, bentuk lingkaran dan bentuk elips
+ht memberikan hasil yang sama baiknya dengan teknik template matching yang sudah ada namun dengan proses komputasi yang lebih cepat
+hal ini dapat dicapai dengan melakukan perbaikan pada proses pencocokan template dengan melakukan pengumpulan bukti yang disajikan dalam suatu wadah yang dikenal sebagai accumulator array
+lebih jauh, implementasi ht dapat dipandang sebagai suatu proses pemetaan titik-titik pada gambar ke dalam ruang accumulator 
+proses pemetaan ini menghasilkan komputasi yang lebih efisien dan mengacu pada fungsi yang merefleksikan bentuk yang ingin kita cari
+namun di sisi lain, ht masih memerlukan storage yang sangat besar dan proses komputasi yang tinggi ide dasar generalised hough transform berasal dari kemampuan hough trnsform mendefinisikan garis, lingkaran maupun elips ke dalam suatu persamaan analitik yang mewakili lokasi garis tersebut di dalam gambar
+dengan kata lain, keberadaan titik-titik pada garis, lingkaran maupun elips di dalam gambar ditransformasikan ke dalam parameter yang memenuhi persamaan analitik tertentu
+karena r-table dapat dipandang sebagai penterjemahan gambar ke dalam formula analitik yang merefresentasikan parameter-parameter yang mewakili titik-titik pada gambar tersebut
+proses pembentukan r-table itu sendiri dapat dituliskan dalam beberapa langkah berikut ini: 1
+tentukan titik rujukan y =, di sebarang titik di dalam gambar motif pada setiap titik yang terdapat pada tepi motif tersebut, hitung parameter- parameter berikut: 2
+masukkan nilai parameter-parameter dari titik rujukan ke dalam r-table sebagai fungsi gradient masalah yang ditemui dalam penerapan generalized hough transform dan pengembangan hough transform lainnya adalah pendekatan yang dilakukan sangat general, terutama dalam hal melakukan pembuktian terhadap tiap titik yang terdapat pada gambar
+hal ini dipandang sebagai suatu hal yang kurang tepat mengingat informasi yang disajikan oleh titik tersebut tidak begitu signifikan
+dilandasi pertimbangan tersebut perlu dipertimbangkan untuk menyajikan suatu parameter yang lebih baik untuk dapat mewakili titik-titik pada gambar dalam upaya merepresentasikan shape yang diinginkan
+ght memperbaiki proses pembuktian dengan memperhatikan sudut dan arah gradient titik
+pendekatan yang dapat dilakukan adalah dengan cara mengganti arah gradient dengan fitur yang lain
+fitur yang dimaksud di sini adalah suatu ftur tidak berubah terhadap proses rotasi
+lebih jauh dapat dijelaskan bahwa batasan yang diberikan oleh persamaan bertujuan untuk mengintegrasikan arah gradient sebagai indeks untuk mengurangi jumlah titik yang harus diinspeksi pada proses voting pada tahap pembentukan accumulator array
+ pengganti untuk titik tersebut dapat diperoleh dari r- table
+namun pendekatan ini masih dipandang kurang tepat karena apabila gambar mengalami rotasi, arah gradient titik akan mengalami perubahan pula
+untuk itu perlu diberikan batasan yang lebih tepat seperti yang dituangkan dalam persamaan berikut: dimaksud ini dapat berupa warna titik ataupun property lain yang tidak akan berubah baik itu pada template maupun pada gambar
+salah satu pendekatan yang paling sering digunakan dalam menyajikan fitur yang invariant adalah pendekatan geometris
+dalam kasus rotasi dan skala, konsep yang sangat fundamental adalah mengenai sudut
+sebuah sudut pada dasarnya terbentuk dari tiga buah titik yang saling terhubung antara satu dengan yang lainnya dan besarnya tidak akan berubah baik itu karena proses rotasi maupun perubahan skala
+oleh karena itu apabila kita hubungkan dua titik pada setiap titik ωi maka kita akan mendapatkan fitur geometri yang invariant tingkat kepadatan data yang tinggi
+kepadatan yang dimaksud dalam dbscan untuk suatu titik, adalah kumpulan titik x yang berada dalam daerah dimensi-l di sekitar x
+selanjutnya, daerah yang dimaksud di atas dapat dipandang sebagai suatu hypersphere v yang berpusat pada titik x dengan radius sebesar 
+radius  merupakan suatu parameter yang nilainya ditentukan sebelumnya
+parameter lain yang terdapat pada dbscan adalah n, yang merepresentasikan jumlah titik x yang berada pada daerah v 
+parameter lain yang harus ditentukan oleh user adalah q, yang mewakili jumlah minimum titik-titik yang menjadi tetangga titik x untuk dianggap sebagai core dari suatu cluster
+untuk memudahkan pemahaman mengenai dbscan, perlu diperhatikan beberapa pengertian berikut ini: 1
+suatu titik y disebut directly density reachable dari titik x (gambar 3
+suatu titik y disebut density reachable dari satu titik x yang berada di dalam x jika terdapat rangkaian core yang menghubungkan x1, x2, ………
+, xp x, dengan x1=x, xp = y, sehingga xi+1 adalah titik yang directly density reachable dari xi (gambar3
+hill climbing untuk menemukan solusi terbaik
+jika suatu titik lebih baik dari parentsnya maka titik tersebut akan menggantikan posisi parent yang sebelumnya menggunakan hill climbing berawal dari penentuan titik awal di sebarang lokasi / bin pada perspektif histogram yang kemudian mencari nilai-nilai yang lebih besar darinya hingga menemukan puncak 
+proses penemuan puncak tersebut terdiri dari langkah-langkah berikut ini: 1
+bandingkan jumlah piksel dari histogram bin sekarang dengan bin-bin tetangganya
+dalam perspektif histogram, setiap bin dalam gambar 1 dimensi memiliki 2 tetangga
+namun dalam kartesius, tiap titik akan memiliki 8 tetangga
+jika bin tetangga memiliki jumlah piksel yang berbeda, algorithma akan bergerak naik menuju titik tetangga yang memiliki jumlah piksel yang lebih banyak
+jika bin tetangga yang sekarang memiliki jumlah piksel yang sama, algoritma akan mengecek bin tetangga selanjutnya sampai ditemukan sekumpulan bin tetangga yang memiliki jumlah piksel yang berbeda
+uphill climbing diteruskan sampai ditemukan puncak 
+precision dan recallefektifitas sebuah sistem perolehan citra berbasis konten biasanya diekspresikan dengan istilah precision dan recall
+berdasarkan teori perolehan informasi, precision didefinisikan sebagai jumlah dokumen relevan yang diperoleh hasil suatu kueri dibagi seluruh dokumen yang diperoleh, sedangkan recall didefinisikan sebagai jumlah dokumen yang relevan yang diperoleh hasil suatu kueri dibagi dengan total dokumen relevan yang ada
+untuk lebih tepatnya, asumsikanhimpunan yang diperoleh sebagai himpunan citra yang diperoleh sebagai jawaban suatu kueri, dan himpunan yang relevan sebagai himpunan citra pada basis data yang telah ditentukan sebagai jawaban relevan bagi suatu kueri, maka diperoleh rumus precision dan recall berikut ini: iii
+pembentukan invariant r-table pada invariant ght diawali dengan penentuan titik rujukan motif
+titik rujukan motif diperoleh melalui proses pembobotan berdasarkan deteksi tepi pada citra template
+setelah titik rujukan ditentukan, setiap titik pada tepi motif ditransformasikan ke dalam besaran yang invariant terhadap skala dan rotasi
+pendekatan geometri digunakan pada tahap ini
+berdasarkan titik wi pada tepi motif akan ditentukan titik kedua 
+titik kedua merupakan titik yang arah gradient tepinya membentuk sudut sebesar  terhadap garis yang menghubungkan titik tersebut terhadap titik wi
+kedua garis gradient tepi yang melalui titik wi dan wj akan berpotongan pada titik ketiga yang dinotasikan sebagai wt
+sudut yang terbentuk pada titik ini dinotasikan sebagai β dan akan difungsikan sebagai indeks pada invariant r-table
+entris pada invariant r-table adalah nilai k, yaitu besarnya sudut yang terbentuk antara garis yang menghubungkan titik rujukan dengan titik witerhadap garis gradient tepi yang melalui titik wi
+perhitungan nilai β dan k dilakukan untuk setiap titik tepi yang terdapat pada motif, kemudian nilai-nilai tersebut di simpan ke dalam invariant r-table
+hal sebaliknya dilakukan pada saat proses penemuan posisi kemunculan motif pada citra penguji
+melalui proses invariant ght, untuk setiap titik pada tepi motif akan ditentukan titik kedua
+setelah titik kedua diperoleh, maka sudut β yang terbentuk pada titik ketiga dapat dihitung
+berdasarkan sudut β yang dihasilkan, akan diretrieve nilai k dari r-table
+kemudian akan diperoleh gradient garis yang diasumsikan melalui titik rujukan
+setiap titik yang dilalui oleh persamaan aris ini merupakan kandidat posisi kemunculan motif pada citra penguji
+dalam perspektif invariant ght, langkah ini disebut sebagai proses voting
+proses voting dilakukan dalam suatu ruang yang dikenal sebagai accumulator array
+kemudian, ekstraksi accumulator array, yang merupakan inti dari penelitian ini, dilakukan untuk menemukan kandidat posisi titik rujukan motif
+berdasarkan groundtruth citra penguji yang telah ditentukan sebelumnya, dihitung precision dan recall
+kawung beton, kawung picis, parang barong dan truntum
+data yang digunakan dalam penelitian ini terdiri dari 4 buah citra motif batik primitif sebagai template dan 20 citra batik penguji yang dihasilkan dari proses perlakuan rotasi dan atau perubahan skala serta penambahan noise yang masing-masing berukuran 300x300 piksel
+setiap citra batik penguji terdiri dari 10 motif yang 4 diantaranya merupakan motif template yang telah mengalami rotasi dan atau perubahan skala serta enam motif lain
+kb_an : motif kawung beton asli di antara motif lain 2
+kb_rn : motif kawung beton yang telah mengalami sebarang rotasi di antara motif lain 3
+kb_sn : motif kawung beton yang mengalami sebarang perubahan skala di antara motif lain 4
+kb_srn : motif kawung beton yang telah mengalami sebarang rotasi dan perubahan skala di antara motif lain 5
+kb_t : motif kawung beton asli yang disebar di seluruh citra batik keterangan: 1
+kp_an : motif kawung picis asli di antara motif lain 2
+kp_rn : motif kawung picis yang telah mengalami sebarang rotasi di antara motif lain 3
+kp_sn : motif kawung picis yang mengalami sebarang perubahan skala di antara motif lain 4
+kp_srn : motif kawung picis yang telah mengalami sebarang rotasi dan perubahan skala di antara motif lain 5
+kp_t : motif kawung picis asli yang disebar di seluruh citra batik keterangan: 1
+pb_an : motif parang barong asli di antara motif lain 2
+pb _rn : motif parang barong yang telah mengalami sebarang rotasi di antara motif lain 3
+pb _sn : motif parang barong yang mengalami sebarang perubahan skala di antara motif lain 4
+pb _srn : motif parang barong yang telah mengalami sebarang rotasi dan perubahan skala di antara motif lain 5
+pb _t : motif parang barong asli yang disebar di seluruh citra batik keterangan: rotasi di antara motif lain 3
+t _sn : motif truntum yang mengalami sebarang perubahan skala di antara motif lain 4
+t _srn : motif truntum yang telah mengalami sebarang rotasi dan perubahan skala di antara motif lain 5
+hasil pengujian merepresentasikan kemunculan motif pada citra penguji
+precision dan recall untuk citra penguji kb_an dan citra penguji lainnya dapat dilihat pada tabel berikut: tabel 1
+precision dan recall untuk n=5 template citra penguji precision recall kawung beton tertinggi yang menjadi kandidat titik rujukan
+precision dan recall untuk eksperimen ini dapat dilihat pada tabel berikut ini: tabel 2
+precision dan recall untuk n = 10 template citra penguji precision recall kawung beton tertinggi yang menjadi kandidat titik rujukan
+precision dan recall untuk eksperimen ini dapat dilihat pada tabel berikut ini: tabel 3
+precision dan recall untuk n = 15 template citra penguji precision recall kawung beton eksperimen ini menghasilkan kandidat titik rujukan yang merupakan lokal maksimal dari setiap cluster yang terbentuk
+precision dan recall setiap citra penguji diperihatkan oleh tabel berikut: tabel 4
+kandidat titik rujukan yang diperoleh untuk th = 30%, q = 2,  = 3% template citra penguji precision recall kawung beton penguji kb_an melalui pengaturan parameter yang dimaksud
+kandidat titik rujukan yang diperoleh untuk th = 20%, q = 2,  = 3% template citra penguji precision recall kawung beton penguji kb_an
+eksperimen ini dapat dilihat pada tabel berikut ini: tabel 6
+kandidat titik rujukan yang diperoleh untuk th = 10%, q = 2,  = 3% template citra penguji precision recall kawung beton dbscan dan hill climbing akan mendapatkan sebaran lokal maksima yang merupakan kandidat titik rujukan motif yang ingin ditemukan
+eksperimen ini dapat dilihat pada tabel berikut: tabel 7
+template citra penguji precision recall kawung beton thresholding dilakukan untuk mengeliminasi noise, sehingga lokal maksimal yang sebelumnya berada dalam satu cluster akibat kondisi density connected pada dbscan dapat dipisahkan antara satu dengan yang lainnya dan membentuk clusternya sendiri
+metode thresholding, hill climbing dan dbscan untuk setiap citra penguji dapat dilihat pada tabel berikut ini: tabel 8
+analisis hasil pengujian menggunakan ke empat metode yang diusulkan, terdapat dua kondisi yang memungkinkan kegagalan proses penemuan motif pada citra penguji
+kondisi yang pertama adalah nilai lokal maksimal titik rujukan jauh lebih tinggi dibandingkan akumulasi noise yang ada dalam radius yang diatur pada dbscan, sehingga titik rujukan tersebut tidak memenuhi syarat untuk menjadi core dan membentuk satu cluster
+hal ini dapat dilihat pada precision dan recall yang dihasilkan oleh metode hill climbing untuk pengaturan n = 5
+citra penguji tr_an memiliki precision dan recall sebesar 100%, yang mengindikasikan titik rujukan motif memiliki nilai lokal maksimal tertinggi
+namun kondisi sebaliknya terjadi hampir pada seluruh eksperimen, precision dan recall yang dihasilkan untuk citra penguji tr_an adalah nol karena terdeteksi sebagai outlayer oleh dbscan
+hal serupa juga terjadi untuk citra penguji pb_an
+yang terlalu rendah sehingga keberadaan titik rujukan direduksi oleh lokal maksimal noise yang ada di dekatnya
+sebagai contoh adalah citra penguji tr_rn dan kb_srn
+untuk metode hill climbing dengan n = 5, precision dan recall yang dihasilkan adalah 0
+nilai ini hampir terjaga untuk seluruh eksperimen
+namun secara keseluruhan, mengacu pada hasil precision dan recall yang diperoleh untuk setiap citra penguji, bisa dikatakan keberadaan motif pada citra penguji yang telah mengalami perubahan skala dan atau rotasi dapat ditemukan
+tabel di atas memperlihatkan rata-rata precision dan recall yang dihasilkan oleh setiap metode yang diusulkan
+recall 92% yang dimiliki oleh kombinasi hill climbing dan dbscan menjadi kurang berarti jika melihat precision dan jumlah cluster yang dihasilkannya
+di sisi lain, keterbatasan hill climbing memenuhi kebutuhan suatu sistem yang unsupervised, membuat hill climbing kurang optimal sehingga, dapat dikatakan kondisi yang paling optimal untuk menggali informasi kemunculan motif pada accumulator array yang dihasilkan oleh invariant ght dicapai oleh kombinasi thresholding, hill climbing dan dbscan
+kesimpulan / saran ekstraksi terhadap accumulator array yang dihasilkan invariant ght, lokasi kemunculan motif batik yang telah mengalami perubahan skala dan atau rotasi pada citra batik dapat ditemukan dengan rata-rata precision dan recall terbaik adalah 23% dan 35%
+metode yang paling optimal untuk menganalisis accumulator array dalam upaya menemukan posisi kemunculan motif pada citra batik yang dilakukan pada penelitian ini adalah kombinasi thresholding, hill climbing dan density based spatial custering of application with noise 
+untuk itu perlu dilakukan kajian yang lebih mendalam mengenai upaya penanggulangan noise sehingga akurasi penemuan posisi kemunculan motif pada citra batik semakin baik
+smoothing terhadap accumulator array dapat dijadikan sebagai salah satu kandidat solusi
+dengan mengalihkan domain ruang akumulasi ke domain frekwensi, dapat dilakukan low pass filter untuk menghasilkan kandidat titik rujukan motif yang ingin ditemukan

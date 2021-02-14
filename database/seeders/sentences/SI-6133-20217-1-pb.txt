@@ -1,0 +1,80 @@
+information of an educational institution is a need for the general public, in order to improve and broaden their horizons
+nowadays, the developments in technology interactive multimedia is often utilizing the delivery of information
+the creating of interactive multimedia presentations are dynamic, presentable and attractive
+implementation of interactive multimedia courses on the website is an advance techniques to deliver information by visual communications so people can easily understand the contain of information
+to describe the design of interactive multimedia, it requires response experts through expert judgment test and some user feedback through user acceptance test 
+3 validation sheet are performed by experts that consists of content, technical, and presentation with the aim of improving the application while the uat is done by 10 users by testing the effectiveness of interactive multimedia
+from the ideal score very valid criteria
+expert validation results showed that the average scores of the content, technical and presentation are 88.82 % 
+the response to the interactive multimedia profile informatics engineering are 90.54 % of the ideal score
+it can be concluded from this study that the interactive multimedia profile of informatics engineering untan are very practical and feasible to implement on the untan website
+keyword : interactive multiemdia, expert judgement, user acceptance test, informatic engineering untan 1
+pendahuluan pada saat ini sektor informasi memegang peranan penting bagi masyarakat umum dalam kehidupan sehari-hari
+sejalan dengan perkembangan teknologi, informasi sering memanfaatkan teknologi multimedia untuk mengolah data menjadi suatu informasi yang menarik dan berguna bagi masyarakat umum
+besarnya kebutuhan informasi dalam internet menyebabkan teknologi multimedia berkembang pesat seiring dengan perkembangan teknologi dan informasi
+contohnya game online, virtual online tour, video conference, media pembelajaran, dan lain-lain
+multimedia terdiri dari dua jenis, yaitu multimedia non-interaktif dan multimedia interaktif
+pada multimedia non- interaktif, pengguna bertindak pasif dan menyaksikan adegan demi adegan secara berurutan
+sementara pada multimedia interaktif ditambah satu elemen lagi yaitu aspek interaktif sehingga pengguna dapat memilih secara aktif adegan yang diinginkan dan juga dapat berperan pada fitur yang disediakan
+perlunya interaksi antara manusia dan komputer agar manusia dapat mengontrol suatu tindakan yang dilakukan oleh komputer
+multimedia yang interaktif menciptakan presentasi yang dinamis, interaktif dan interface yang menarik mampu memberikan nilai tambah bagi user dalam mengeksplorasi informasi yang ada didalamnya
+dalam perkembangannya multimedia interaktif sudah banyak dimanfaatkan dari berbagai bidang yaitu di dunia pendidikan, hiburan, periklanan, company profile dan lain-lain untuk berbagai tujuan
+begitu pula jika teknologi multimedia interaktif ini diimplementasikan pada sebuah website institusi pendidikan
+informasi yang dikemas dari perpaduan aspek multimedia akan menghasilkan komunikasi visual yang menarik, membantu menyampaikan dan menggambarkan informasi yang mudah dimengerti
+dengan adanya website program studi teknik informatika universitas tanjungpura berbasis multimedia interaktif dapat mempresentasikan profil dan keunggulan program studi teknik informatika dengan halaman yang tampak menarik, aktraktif dan mudah dimengerti oleh pengunjung website
+perancangan multimedia interaktif ini menggunakan metode multimedia development life cycle yang terdiri dari 6 tahap yaitu concept, design, material collecting, assembly, testing, dan distribution
+teori dasar 2.1 multimedia multimedia adalah penggunaan komputer untuk menampilkan dan mengkombinasikan teks, grafik, audio, dan video dengan links dan tools sehingga pengguna dapat bernavigasi, berinteraksi, menciptakan, dan berkomunikasi ( fred t
+beberapa pengertian lain dari multimdia menurut para ahli : 1
+multimedia adalah kombinasi dari dua atau lebih media yang dapat dijabarkan pada satu komputer untuk menyalurkan informasi sesuai keinginan pengguna 2
+multimedia adalah kombinasi dari teks dengan dokumen image
+multimedia adalah kombinasi dari berbagai bentuk channel komunikasi menjadi sebuah pengalaman komunikatif yang terkoordinasi
+jadi, dapat disimpulkan multimedia adalah penggunaan komputer untuk menyajikan dan menggabungkan teks, grafik, audio, gambar bergerak 
+2.2 interaktif interaktif adalah proses komunikasi yang melibatkan dua komponen yang terdiri dari komunikator yang dapat dikenal sebagai nara sumber informasi dan komunikan yaitu penerima informasi 
+sebuah media yang interaktif dapat mempermudah penyerapan informasi dari sumber pesan dengan penerima pesan
+maka dari itu interaktif juga dipilih untuk lebih memudahkan penyampaian informasi kepada masyarakat
+2.3 multimedia interaktif multimedia interaktif merupakan sebuah aplikasi dalam proses penyampaian informasi yang bersifat memberikan kemudahan umpan balik, kebebasan menentukan topik informasi dan kontrol yang sistematis dalam proses eksplorasi informasi
+multimedia interaktif mengintegrasikan media digital termasuk kombinasi teks, grafik, gambar bergerak, video dan suara, menjadi terstruktur memungkinkan orang untuk berinteraksi dengan data untuk tujuan tertentu 
+2.4 metodologi multimedia development life cycle metode yang digunakan dalam pengembangan multimedia interaktif ini adalah multimedia development life cycle yang memiliki 6 tahap yaitu, concept, design, collecting content material, assembly, testing dan distribution
+gambar 2.1 multimedia development life cycle sumber : sutopo, 2003 2.5 uml uml yang merupakan singkatan dari unified modelling language adalah bahasa pemodelan umum yang digunaan untuk melakukan spesifikasi, visualisasi, konstruksi dan dokumentasi artifak dari software system 
+uml dapat juga diartikan sebuah bahasa grafik standar yang digunakan untuk memodelkan perangkat lunak berbasis objek
+perancangan sistem 3.1 perancangan arsitektur sistem arsitektur sistem secara umum dapat dilihat pada gambar 3.1 gambar 3.1 arsitektur sistem sistem yang dibangun adalah sebuah sistem yang dapat membuat, mengatur, mendistribusikan, mempublikasikan, dan menjaga informasi perusahaan atau institusi, dimana admin tidak harus mengetahui tag html untuk menjalankannya
+3.2 perancangan diagram usecase pada perancangan diagram use case terdapat front end system dan back end system
+super admin dan admin merupakan user yang memiliki akses dengan tingkat akses yang berbeda yaitu dapat mengakses front end system dan back end system, super admin memiliki hak akses paling tinggi yaitu dapat mengakses semua sistem yang ada dan admin dapat mengakses semua sistem terkecuali pada manajemen admin
+sementara pengunjung website merupakan semua pengguna yang hanya memiliki hak untuk mengakses bagian front end system yaitu mendapatkan informasi terbatas dan mengisi buku tamu, sehingga tidak perlu melakukan pendaftaran atau login untuk mengakses aplikasi
+gambar 3.2 diagram use case 3.3 perancangan sequence diagram proses manajemen website secara umum dapat dilihat pada gambar 3.4
+gambar 3.3 sequence diagram manajemen admin pada gambar 3.4 menunjukkan sequence diagram ketika super admin melakukan proses manajemen admin
+3.5 perancangan struktur antarmuka antarmuka aplikasi dirancang dalam bentuk halaman yang memiliki fungsi yang berbeda sesuai dengan proses yang ada
+struktur antarmuka sistem dapat dilihat pada gambar 3.5 gambar 3.4 struktur antarmuka website 4
+hasil dan pengujian 4.1 hasil perancangan website program studi teknik informatika merupakan website yang menampilkan informasi program studi teknik informatika dengan implementasi multimedia interaktif
+multimedia interaktif dibangun dengan software adobe flash sehingga menghasilkan aplikasi bereksentsi .swf yang kemudian diimplementasikan ke halaman profil website program studi teknik informatika
+halaman profil merupakan halaman utama website prodi teknik informatika
+halaman ini dirancang terdiri konten flash yang menyajikan informasi profil program studi teknik informatika dalam bentuk multimedia interaktif
+halaman utama dari halaman profil adalah halaman home gambar 4.1 halaman home halaman tentang teknik informatika menampilkan informasi tentang sejarah dan prospek lulusan dari teknik informatika untan
+komponen yang digunakan pada halaman ini yaitu berupa audio, teks dan video profile
+halaman tentang teknik informatika dapat dilihat pada gambar 4.2 gambar 4.2 halaman tentang ti bidang keahlian terdiri pemrograman, komputasi, multimedia, sistem informasi geografis, dan jaringan komputer
+dari masing-masing bidang keahlian ini dijadikan sebuah tombol navigasi dimana setiap tombolnya digunakan untuk menampilkan keterangan yang mempresentasikan bidang keahlian yang dipilih oleh user
+gambar 4.3 halaman bidang keahlian halaman infomatics club terdiri dari komponen teks, animasi, audio dan tombol navigasi
+informatics club yang ditampilkan terdiri dari androidclub, animation club, graphic designclub dan research group
+antarmuka informatics club dapat dilihat pada gambar 4.4 gambar 4.4 halaman informatics club halaman lokasi menampilkan lokasi gedung program studi teknik informatika berupa google apis
+antarmuka halaman lokasi dapat dilihat pada gambar 4.5 gambar 4.5 halaman lokasi halaman virtual campus tour menampilkan suasana di sekitar baik di dalam dan di luar gedung teknik informatika untan berbasis virtual tour
+antarmuka halaman lokasi dapat dilihat pada gambar 4.7 gambar 4.6 halaman virtual campus tour 4.2 pengujian sistem pengujian sistem akan dilakukan dengan menggunakan metode black box, uji validitas dan metode uat 
+pemilihan cara pengujian dilakukan dengan menggunakan data yang kosong, data sebagian kosong, data yang salah dan data yang benar
+teknik yang akan digunakan dalam pengujian adalah teknik robustness testing
+menjamin sistem dengan memasukan data-data yang abnormal
+robustness testing bertujuan untuk menguji kekuatan sistem yang ada 
+uji validitas multimedia interaktif profil program studi teknik informatika dilakukan dengan uji validasi dengan bantuan dari dosen universitas tanjungpura, ceo multiple intelligence product dan guru multimedia smk n 6 pontianak
+instrumen pengumpul data untuk uji validitas oleh pakar ini menggunakan tabel penilaian
+penilaian terbagi menjadi 3 aspek yaitu isi, teknis dan penyajian
+penilaian hasil uji validitas dapat dilihat pada tabel penilaian berikut: table 4.1 penilaian multimedia interaktif no aspek kritreria % dari skor ideal 1 isi kesesuaian konsep 95 keluasan konsep 80 struktur penyajian 100 aliran penyajian 95 kebahasaan tulis 100 2 teknis tautan menu dan sub-menu 90 bantuan 90 elemen media 95 keinteraktifan 95 keadaptifan 90 kemudahan 95 3 penyajian kejelasan 80 relevansi 82 kemenarikan 75 keyakinan 79 kepuasan 80 tindak lanjut 89 jumlah 1510 rata-rata nilai 88, 82 metode uat yaitu pengujian dilakukan oleh pengguna secara langsung untuk memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan oleh pengguna
+pengujian ini melibatkan data real yang didapat secara langsung melalui kuesioner tanpa memperhatikan detail internal dari sistem
+kuesioner disebarkan kepada 10 orang responden yang merupakan pengguna sistem
+hasil uat dapat dilihat pada tabel berikut: table 4.2 penilaian multimedia interaktif no aspek rata- rata 2 tombol navigasi berfungsi dengan baik 93, 2 89 mudah dipahami 87, 3 94, 6 88, 7 93, 7 88, 5 93, 7 88, 7 jumlah 1086, 5 rata-rata 90, 54 berdasarkan hasil penelitian dan pembahasan yang telah dilakukan dapat dikemukakan beberapa kesimpulan sebagai berikut : 1
+validitas desain multimedia interaktif dianalisis oleh ahli multimedia melalui uji validasi dengan 3 aspek yaitu isi, teknis, dan penyajian
+nilai validitas rata-rata 88, 82% dengan kriteria multimedia interaktif sangat valid
+namun perlu dilakukan revisi sesuai dengan saran dan masukkan dari validator tersebut
+multimedia interaktif yang dihasilkan terdiri dari komponen text, gambar, animasi, video, audio, google maps dan tombol navigasi
+sehingga menciptakan kesatuan media yang menarik dan sangat praktis dalam penyampaian informasi profil program studi teknik informatika untan
+kesimpulan ini berdasarkan hasil uat dengan penilaian rata-rata 90, 54% dan kriteria penilaian sangat praktis
+hasil pengujian menunjukkan bahwa saat dilakukan input data dengan menggunakan metode robustness testing, input data dengan keseluruhan data kosong akan menimbulkan kesalahan pada program dan saat dilakukan input data dengan salah satu data yang bernilai kosong akan menyebabkan kesalahan apabila data tersebut tidak diperbolehkan kosong di dalam basis data
+pada sistem ini, kesalahan sudah ditangani pada kode program sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan

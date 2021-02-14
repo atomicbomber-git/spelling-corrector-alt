@@ -1,0 +1,138 @@
+eee paper template in a4 vol 5 no 2 designing android-based mobile application for language learning for the national exam simulation pikir wisnu wijayanto#1, elis hernawati#2 #fakultas ilmu terapan, universitas telkom jalan telekomunikasi no 1 terusan buah batu bandung, jawa barat - indonesia 1pikirwisnu@tass.telkomuniversity.ac.id 2elishernawati@tass.telkomuniversity.ac.id mobile application for language learning for the final exam simulation of english subject to junior high school students
+the method used in building the application is the software development life cycle with the waterfall model
+the name of this application is soun that stands for or the national examination questions
+based on the implementation of user design and testing, the android device request to the server via the internet then the web server process the request from android and query the database
+the computer then sends data to the android device via javascript object notation 
+it is as an intermediary between the server and the android application
+therefore, the user also can do a test by using the simulation application that runs on the android platform
+the teacher can manage the questions and see the scores that the students have achieved
+while the students can practice answering the questions of english exercises independently, anytime and anywhere both online and offline
+they can also see the score immediately based on the questions that they answered
+they also know the solution, tricks, and tips on doing the exercises by choosing the menu provided
+then, admin plays a role as a server manager, who is in charge to manage the system and questions consisting of crud 
+it can be concluded that the use of mall as the learning media can become one of the alternative english learning models in order to prepare the students for practicing the simulations of the national examination
+introduction the computer assisted language learning concept has developed into the mobile assisted language learning 
+mall related to the use of mobile technology in language learning where students do not need to sit in the classroom or in front of their computers to learn languages
+in addition, it allows users to become more motivated to learn english independently whenever and wherever they are
+mall also has several characteristics that are not owned by call, including portability, mobility, social connectivity, context sensitivity, and individuality
+in short, by using a mobile application such as the smartphone, the users can find information anywhere and anytime, including information about learning foreign languages, especially english
+most of the junior high schools in indonesia still use a paper-based concept for implementing the simulation of the national examination
+most of the students use the answer sheets for filling the answer of the exercises given
+the implementation of the final exam simulation for the students only conducted based on the schedule set by the school
+the teacher must re-type the question, then sort them out, and give them to the students in each class
+after the students have finished doing the simulation, the teacher must checks the students’ work and give the score for each student
+based on the explanation above, that will take a long time
+the students cannot see the results that they obtained directly
+they also only can do the simulations of the national examination at school and cannot practice the simulation repeatedly
+therefore, it is necessary to make an application to facilitate the students and teachers
+the researchers will design an android-based mobile application on the smartphone to be functioned as media in the learning process so that the students can do the simulation of national examination repeatedly and know the score obtained directly
+we do hope that the application will give benefits to the students and teachers, especially in doing the simulation of the national examination for english subject
+media with smartphone applications becomes one of the alternative english learning models
+in addition, the students can use it in doing the exercise in order to prepare them for the final examination
+as the additional information, the english subject is one of the four subjects listed in the national final examination to junior high schools in indonesia
+the other subjects are the indonesian language, mathematics, and natural sciences
+therefore, it will be more effective and easy if the students can practice some questions on their smartphone and find out the tips and tricks when they are doing these exercises
+language learning for the final exam simulation of the english subject to junior high school students
+this application will facilitate the teacher to manage the questions and the students can answer them into their smartphone
+they can do the simulations of national examination both online and offline practices
+by designing this application, the junior high school students can practice answering the questions of english exercises independently, anytime and anywhere in order to prepare the national final examination
+in addition, they can see the mark immediately based on the questions they answered
+in addition, the students can check the material achievements and discussion of each question that exists
+last, they also know the tricks and tips on doing the exercises
+in order to make this research in line with the development of science and technology, the researchers took several previous studies that closely related to the topic of this research, as reference material for application design
+this research focused on designing and developing a mobile application for language learning and its use to junior high school students and teachers
+several similar studies used as references for researchers in conducting this research
+android-based interactive mobile learning application developed with the personal extreme programming method
+this service created to integrate resources in client applications with e-learning servers
+the m-learning client application has a feature to display course information taken, material information for each course, material information on file downloads, information on assignments, and forum information and add to forum discussions
+for further development of android-based m-learning interactive, they still need additional features in the android-based m-learning client application for users so they can use it with other clients
+for example, the addition of quiz features with the format questioner on the android-based m-learning client application
+also adjusting methods to m-learning services in order to serve the requests from clients with more perfect features of mobile technology to enable the field of works or duties
+another researchersaid that the use of android- based smartphones could support learners of english in accelerating the achievement of english language skills
+the use of android-based mobile smartphones can also develop the skills of learners to adjust the segmentation of skills achievement
+they can choose the applications they want such as speaking, listening, reading, writing, understanding language content, vocabulary, and even construction of english sentences
+therefore, people can use that smartphones mobile as the learning resources to help them in developing their english language skills
+a mobile learning application in one of the courses to help students for doing the exercises in the learning process
+he also introduced the operating system that is practical and flexible, namely learning that is wherever and whenever
+a mobile learning application could be used for the simulation of the english test of such as the test of english for international communication 
+it aimed at smartphone users with the android operating system
+the design of the toeic simulation application on android-based smartphones can help users learn toeic offline through mobile devices and increase the use of smartphones as learning media
+the application could summarize various types of toeic questions from several books into an application that users can use it anywhere and anytime
+mobile devices also could make students become more motivated to learn english independently
+most of them feel happy in mastering aspects of learning english, such as listening or listening skills, reading, speaking, writing, adding vocabulary, and understanding grammar
+the students could use the applications on android-based mobile devices as a tool that can help them understand the material given in class
+this is also because there are multimedia support such as images; audio, video in the content of lessons on applications [11, 12, and 13]
+based on the previous review, the researchers made novelty and technology breakthrough application
+the mobile application would be equipped with various features, including features to display questions in accordance with the scope of a selected material such as expression, reading, and grammar
+then the feature to set the try-out question with a random system, a feature to display the mark or score of the results of answering the questions, and the discussion of questions for the wrong answer
+in addition, this application would also be equipped with some tricks and tips or strategies for answering the questions
+cycle method with the waterfall model in building the android-based mobile application for language learning for the final exam simulation of the english subject to the junior high school students
+the reason for using this waterfall model in the construction of this application is that the users have already known the needs; therefore, the researchers could do the work- process immediately
+this model has the characteristic that each stage must be completed before it can proceed to the next stage
+therefore, the execution of each stage must be done in a focused and completed method so that it can continue to the next stage
+this model includes several stages of the process, including figure
+1 the sequential phases in the waterfall modelthere were three stages conducted for this research
+the first stage was the requirement
+in this stage, the definition of needs was carried out by conducting interviews with english teachers as the subject
+therefore, the information obtained was carried out on ongoing system analysis
+then, the second stage was the design
+the students and teachers conducted it after the researchers got the data needed
+the design that was carried out was such as database design, display design, and the flow of the system to be designed
+the tools used at this stage was yed
+the third stage was the implementation
+at this stage, the changing design has been made into a coding program that used the java programming language, and the tools used were android studio, firebase
+teachers, there are some weaknesses in the system that are currently running: 1
+management of the questions exercise by the teacher still takes a very long time
+the process of evaluating the results examinations by teachers also takes a long time, so students cannot see the score immediately
+the student can only take the simulation exercises at school, and cannot practice the simulation repeatedly
+therefore, based on its weaknesses of the system, the requirements of the new system requirements can be determined, namely: 1
+the application provides features in the form of multiple-choice questions randomly and students can do the exercises repeatedly so that the teacher does not have to print multiple simulations of the final examination
+the application also provides a feature for viewing scores obtained so that it can make it easier for students to see their score immediately
+in addition, students and teachers can see the discussion of the problems they are working on
+the android-based application so students can practice this simulation anytime and everywhere
+client-server overview design as a first step in the design, the android-based mobile application for language learning question concept would be made for english subjects to junior high school level as shown in the following figure: figure
+2 client-server architecture figure 2 explains that in this case, the user can do a test by using an application that runs on the android platform
+the android device will request to the server via the internet then the web server, will process the request from android and will query the database
+the computer then sends data to the android device via javascript object notation 
+it is an intermediary between the server and the android application
+the name of this application is soun that stands for or the national examination questions
+this application in its use only involves three types of actors namely teacher, student, and admin
+the user acts as a user in this simulation application
+these activities include working on the questions that are available in the application, inputting the answers to the questions, seeing the scores, reading the discussion about the national exams, and reading the discussion of the problem
+then, admin plays a role as a server manager, who is in charge to manage the system and questions consisting of crud 
+use case diagram the use case diagram of the application of the simulation of national examination for english subject can be seen in figure 3 below: figure 3 explains when a user opens an application; the user can choose a menu that includes tricks and tips, instructions for answering the questions, simulation of the national examination for english subject, solution and about the national exam
+if the student chooses the tricks menu, tips, and instructions for answering the questions, it will display tricks and tips on answering the questions and types of the national exams
+if the student selects the simulation menu, simulation 1, and simulation 2 will appear
+likewise, if the student selects a solution menu, solution 1, and solution 2 will appear
+at the end of the test, the user can see the score after clicking the finish button
+similarly, when a user selects a menu about, it will display the description of the application
+student do exam question figure 4 describes the design of the application database using the entity relationship diagram
+user entity is a generalization of student and teacher entities
+some students’ entities can do many choices on the exam questions, including features to display questions in accordance with the scope of a selected material such as expression, reading, and grammar
+while the teacher can make various exam questions
+the entity question exam consists of many solutions and simulations
+the implementation of user interface the implementation of a user interface for the application of the simulation of the national examination for english subject can be seen in figure 5 below: 1) main page the main page of the user to enter into the login menu for teacher or student
+if the user is a teacher, click the button and if as a student, click the button
+6 login menu for student and teacher 3) login menu for the student if the user is a student, the user clicks on the student button
+7 login menu for student 4) login menu for the teacher if the user is a teacher, the user clicks on the teacher button
+8 login menu for teacher 5) input the question the page for the teacher could be used for inputting the questions
+on this page, the teacher can add, edit, update and delete the questions
+9 input question menu 6) questions after the teacher clicks the input questions button, then a form will be available for the teacher to input the questions figure
+10 question menu 7) score or mark when the student has finished on answering the questions, then he/she could click ‘submit’ button, then the student's score will appear
+the number of the correct and incorrect answer then would become the score of students
+in addition, on the student's score page, it also displays a discussion of the wrong answers by the student
+10 score at the testing stage, this application uses the black box testing method
+tests are carried out to ensure the suitability of the application for the initial purpose of making the application and ensure that all functionality is running accordingly
+can appear on the student page which will later be used by students to do the simulation of the national examination practices
+table ii field a-z)  description : the student score will appear in the application when the student has finished answering the questions
+table iii field application for language learning for the final exam simulation of the english subject for junior high school students
+this application facilitates the teacher to manage the questions to be simulated by the students both online and offline practices
+on the design overview, the user can do a test simulation by using an application that runs on the android platform
+the android device will request to the server via the internet then the web server will process the request from android and will query the database
+the name of this application is soun that stands for or the national examination questions
+based on the implementation of user design and testing, the user acts as a user in this simulation application
+these activities include working on the questions that are available in the application, inputting the answers to the questions, seeing the scores, reading the discussion about the national exams, and reading the discussion of the problem
+they can practice answering the questions of english exercises independently, anytime and anywhere both online and offline
+then, admin plays a role as a server manager, who is in charge to manage the system and questions consisting of crud 
+the teacher can manage the questions to be simulated by the students and see the scores that the students have achieved
+therefore the use of mall as the learning media can give the benefits to the students and teachers and become one of the alternative english learning models in order to prepare the students for the practicing the simulations of the national examination

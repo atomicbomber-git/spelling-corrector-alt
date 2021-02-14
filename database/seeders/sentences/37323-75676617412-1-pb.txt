@@ -1,0 +1,131 @@
+upaya monitoring dan evaluasi terhadap suatu proyek pekerjaan pada dinas di pemerintahan merupakan hal penting untuk mengetahui proses serta status kemajuan pekerjaan dengan cepat dan akurat
+proses ini menjadi indikator utama keberhasilan suatu pekerjaan
+sistem informasi yang dibangun ini mencakup monitoring dan evaluasi pada pekerjaan fisik serta pada proses pembayaran keuangan pekerjaan
+indikator kemajuan pekerjaan fisik menggunakan kurva s yang dapat menggambarkan kemajuan volume pekerjaan yang diselesaikan
+sementara monitoring dan evaluasi keuangan dilakukan pencatatan secara mendetail
+penelitian menghasilkan aplikasi sistem monitoring dan evaluasi pekerjaan yang memberikan informasi mengenai kemajuan pekerjaan baik pada bagian pengerjaan fisik maupun proses keuangan
+sistem ini telah diujicobakan di bidang sda dinas pekerjaan umum kabupaten kuburaya menggunakan 2 pengujian yaitu blackbox dan user acceptance test 
+hasil pengujian blackbox menunjukkan bahwa semua fitur yang dibangun dapat bekerja dengan baik
+user acceptance test sebesar 75% menunjukkan user sangat menyetujui bahwa sistem ini sesuai kebutuhan bisnis dan layak untuk digunakan
+responden terdiri dari 4 orang asn dari bidang sda pada dinas pupr kabupaten kuburaya
+pendahuluan di antaranya adalah dinas pekerjaan umum di kabupaten kuburaya
+kabupaten kuburaya memiliki luas wilayah 6.958 km2 dan memiliki 9 kecamatan
+pada dinas pekerjaan umum kabupaten kuburaya terdapat bidang sumber daya air
+bidang ini menyediakan sarana prasarana seperti drainase, pengairan, saluran irigasi dan fisik umum lainnya yang terkait
+selama ini kendala yang dihadapi oleh bidang sda dinas pu kabupaten kuburaya adalah melakukan monitoring dan evaluasi terhadap pekerjaan yang sedang dilaksanakan
+kendala ini terjadi disebabkan luasnya wilayah, penyebaran pekerjaan ke berbagai wilayah dan volume pekerjaan yang besar
+monitoring dan evaluasi pekerjaan merupakan indikator utama keberhasilan suatu pekerjaan
+penerapan teknologi pada sistem pelaporan elektornik yang disebut dengan istilah e-monitoring merupakan pemantauan dan pelaporan melalui media internet yang dapat dilihat dan diketahui dari mana saja dan kapan saja
+aplikasi e-monitoring sudah banyak digunakan di instansi pemerintahan pemerintahan di antaranya e-monitoring dana alokasi khusus kementrian pupr dan monitoring dan evaluasi program kerja kementerian perhubungan
+proses monitoring dan evaluasi yang dilakukan pada awalnya dilakukan dengan cara penyampaian laporan mingguan oleh para konsultan pengawas berupa hasil cetak laporan atau email kepada pejabat pengawas
+dengan proses ini muncul kendala yang dihadapi seperti bentuk laporan yang tidak memiliki format yang seragam, keterlambatan penyampaian laporan, sulitnya akses ke lokasi pekerjaan yang berada di pelosok daerah, perbedaan antara data laporan yang diterima dengan kondisi di lapangan, serta data yang sulit dikumpulkan ataupun dicari
+pekerjaan yang dimiliki bidang sda pada dinas pupr kabupaten kuburaya pada tahun 2018 dan 2019
+tabel i tahun pekerjaan nilai pekerjaan 2018 127 rp
+selain permasalahan yang telah disebutkan proses monitoring dan evaluasi ini juga terkait pada dalam rangka pelaksanaan peraturan pemerintah nomor 8 tahun 2008 tentang tahapan, tata cara penyusunan, pengendalian dan evaluasi pelaksanaan perencanaan pembangunan daerah
+rencana dan kemajuan pekerjaan yang dapat di perbaharui oleh tim pejabat pengawas lapangan dari laporan yang diterima
+sistem ini juga dirancang untuk memuat pelaporan penyerapan keuangan, melampirkan foto fisik pembangunan dengan persentase pencapaiannya yang mengacu kepada rencana yang menggunakan mekanisme kurva s
+data tersebut akan dikelola ke dalam database mysql
+bahasa pemrograman yang digunakan pada penelitian ini menggunakan pemrograman php dengan menggunakan framework laravel
+telah banyak dilakukan, berikut contoh penelitian terkait yang pernah dikembangkan dalam berbagai kasus termasuk dalam tatanan pemerintahan
+monitoring dan evaluasi proyek dinas pekerjaan umum kota kotamobagu yang dilakukan oleh dadang h
+rindengan dan rizal sengkeymembahas mengenai permasalahan kesulitan dinas pu dalam pemantauan dan mengevaluasi proyek yang sedang proses pengerjaan maupun sudah selesai pengerjaannya
+pengawasan proyek yang dilakukan sebelumnya adalah mengawasi proyek satu persatu secara manual, dikarenakan dinas pekerjaan umum belum memiliki sistem yang bisa memantau, mengevaluasi kegiatan proyek secara bersamaan dan memberikan gambaran lokasi geografis proyek
+pada setiap proyek yang dikerjakan juga memiliki kendala dan tingkat keberhasilan yang berbeda–beda
+solusi yang dilakukan adalah dengan membangun sistem informasi geografis untuk monitoring dan evaluasi proyek dinas
+dengan adanya sistem informasi geografis ini dapat mempermudah dinas pekerjaan umum kota kotamobagu melakukan monitoring serta mengevaluasi proyek yang ada
+pada artikel peneliti lis suryadiyang berjudul rancang bangun sistem informasi monitoring pelaksanaan pekerjaan studi kasus: suku dinas pekerjaan umum tata air kota administrasi jakarta selatan dengan metodologi berorintasi obyek telah membahas mengenai permasalahan mengenai proses monitoring pelaksanaan pekerjaan
+permasalahan yang terjadi adalah pengolahan data masih manual dan terkadang kekurangan sumber informasi yang tepat
+kebutuhan laporan yang cepat dan akurat terhambat proses pembuatan laporan tersebut masih dengan cara manual, kurangnya sumber daya manusia yang memadai untuk mengawasi pelaksanaan pekerjaan yang ada, lokasi pekerjaan yang terpencar dan jauh dari lokasi kantor sehingga waktu terbuang hanya untuk meninjau pelaksaan pekerjaan
+solusi yang dilakukan adalah dengan merancang dan membangun sistem informasi monitoring pelaksanaan pekerjaan berbasis pada web untuk dinas tersebut
+maghroh, adiwarman p paputungan dan yaulie deo y rindengan, m
+manan, chrisantus tristianto, amborowati, armadyah dan robert marcodan muhammad irsanmerupakan penelitian yang melakukan monitoring dan evaluasi pada kegiatan yang dilaksanakan oleh pemerintah
+literatur terkait pemanfaat kurva s sebagai indikator kemajuan pada suatu pekerjaan telah dibahas pada sebuah penelitian yang berjudul perbandingan penjadwalan proyek menggunakan kurva dan cpm network pada proyek di surabaya
+penelitian lain yang membahas terkait dengan kurva s diantaranya penelitian yang ditulis oleh amani, wahyu, beni irawan, helmi, sugoro, pandu, m
+hamzah hasyim dan saifoe el unas, agustiar, irawan, dan ryan handriantodan aritomo, hendricus
+tulisan a design science research methodology for information systems research
+pada gambar 1 merupakan alur penelitian yang digunakan sebagai acuan penelitian
+systems research pada tahap mengumpulkan data dan mewawancarai para pemangku keputusan untuk mengetahui permasalahan yang ada
+merujuk pada permasalahan yang ada maka dilakukan analisa mengenai permasalahan yang terjadi
+objective of the solution penentuan tujuan dan solusi akan dilakukan secara bersama-sama dengan pemangku keputusan sehigga diharapkan dapat menemukan tujuan dan solusi yang disepakati
+design and development dikembangkan akan dilakukan pada tahap ini
+analisis sistem akan ditulis dalam bentuk dokumen analisis dapat bentuk diagram uml
+setelah proses analisis selesai maka diakukan proses pembangunan sistem dengan bahasa pemrograman yang sudah ditentukan
+evalution pengujian metode blackbox digunakan untuk melakukan pengujian pada semua proses yang ada pada sistem
+pengujian dilakukan pada proses input data dan menampilkan laporan yang dibutuhkan
+pengujian tahap berikutnya menggunakan metode user acceptance test
+pengujian ini dilakukan bersama para pemangku keputusan untuk mengetahui akan sistem yang dikembangkan sudah sesuai dengan alur bisnis yang dibutuhkan
+hasil dan pengujian usecase, rancangan database, dan tampilan antarmuka
+untuk pengujian akan berbentuk tabel dari hasil pengujian menggunakan metode blackbox
+diagram usecase akan dikembangkan pada sebuah sistem
+satu buah usecase merupakan penggambaran interaksi antara sistem dengan aktor
+aktor merupakan entitas berupa manusia atau mesin yang melakukan interaksi dengan sistem untuk melakukan fungsi tertentu
+pada gambar 2 terlihat ada 3 orang aktor yaitu guest, admin dan superman
+semua aktor pada sistem ini diharuskan melakukan login
+namun pada diagram tidak digambarkan usecase login
+ketiga aktor tersebut melakukan inheritance, sehingga hak akses guest juga dimiliki oleh admin dan hak akses admin dimiliki oleh superman
+tempat mengelola data dari sistem yang akan dikembang- kan
+pada gambar 3 terlihat rancangan diagram database yang telah dibuat
+2 diagram usecase monitoring dan evaluasi pekerjaan gambar
+3 rancangan database monitoring dan evaluasi pekerjaan
+rancangan tampilan antarmuka usecase yang telah dibuat sebelumnya
+rancangan yang dikembangkan berupa purwa rupa sistem
+purwarupa sistem ini sudah dapat digunakan layak sistem yang sudah jadi
+purwarupa sudah terkoneksi dengan database dan memiliki fitur untuk menambahkan, mengedit, menghapus serta sudah dapat menampilkan laporan-laporan yang diperlukan
+sistem akan melakukan pengecekan kebenaran dari username dan password yang dimasukkan lalu menentukan level aktor dari username tersebut
+pada gambar 5 merupakan tampilan ringkasan dari pekerjaan yang dilaksanakan yang berkaitan dengan status pekerjaan tersebut
+pekeraan yang dilaksanakan yang berkaitan dengan pembiayaan pekerjaan tersebut
+data pekerjaan yang terdapat di dalam sistem
+proses pencarian ini dilakukan dengan menuliskan kata yang dicari pada kolom isian pencarian data
+11 tampilan program kegiatan pekerjaan pada gambar 8 merupakan tampilan laporan dari status pekerjaan
+halaman ini memberikan informasi nama pekerjaan, kapan pekerjaan selesai, presentase rencana dan kemajuaan pertanggal halaman ditampilkan
+sistem akan mengecek pada tanggal halaman dibuka berapa persentase kemajuan pekerjaan
+persentase ini kemudian dibandingkan dengan kemajuan yang harus dicapai
+jika deviasi bernilai negatif maka baris akan berwarna merah pada gambar 10 merupakan tampilan halaman yang memberikan informasi mengenai berapa nilai dana yang telah dikeluarkan untuk pekerjaan sampai dengan tanggal halaman dibuka
+memberikan informasi program, kegiatan dan pekerjaan yang dilaksanakan pada tahun berjalan
+terlihat pula kolom nilai pagu dan nilai kontrak
+nilai pagu adalah nilai yang dianggarakan oleh pemerintah sedangkan nilai kontrak adalah nilai sesungguhnya pekerjaan ini dilaksanakan oleh pihak ke-3
+pada gambar 12 merupakan tampilan halaman yang memberikan informasi mengenai hasil pekerjaan yang terkait pada pembangunan tertentu
+kelengkapan data yang dikelola pada form pekerjaan ini dapat di lihat tabel tb_pekerjaan pada gambar 3
+17 tampilan mengelola presentase kemajuan pekerjaan gambar 14, gambar 15, gambar 16, gambar 17, gambar 18 dan gambar 19 merupakan bagian proses monitoring dana evaluasi terhadap pekerjaan yang dilaksanakan
+fungsi dari masing-masing form sesuai dengan judul pada setiap gambar
+detail untuk setiap detail form dapat dilihat pada tabel yang sesuai pada gambar 3
+18 tampilan mengelola pencairan dana keuangan pekerjaan gambar
+19 tampilan mengelola dokumen terkait pekerjaan gambar 20 merupakan form untuk mengelola data kecamatan sedangkan gambar 21 merupakan form untuk mengelola data desa
+perancangan antarmuka ini sudah dikembangkan dengan menggunakan teknologi web sehingga dapat diakses dari mana saja baik dengan media computer atau smartphone
+tingkatan guest merupakan tingkatan terendah yang dapat berinteraksi dengan sistem ini
+guest hanya bisa melihat laporan dan data saja
+tingkatan guest diberikan kepada para pejabat dinas seperti kepala dinas, kepala bidang, dan staf asn bidang sda
+operator pada sistem ini adalah pegawai honor di bidang sumber daya air dinas pu kabupaten kuburaya yang berjumlah 4 orang
+operator memiliki tanggung jawab yang besar terhadap sistem ini
+tugas utama operator adalah memasukkan data yang diberikan oleh konsultan pengawas ke dalam sistem
+adapun tingkatan superman pada sistem ini adalah kepala seksi perencanaan
+tugas utama superman adalah mengelola pengguna sistem ini dan menentukan tingkatan dari setiap pengguna
+dilakukan pengujian dengan 2 metode yaitu blackbox dan user acceptance test 
+metode yang digunakan metode blackbox bertujuan untuk melakukan pengujian pada semua proses yang ada pada sistem
+pengujian ini dilakukan pada beragam jenis komputer dan smartphone dengan berbagai speksifikasi mesin yang berbeda-beda untuk menguji performa sistem
+macbook pro 2011, macbook pro 2018, thinkpad x230, lenovo ideapad
+hasil pengujian teknis menunjukkan semua fungsi berjalan dengan baik pada berbagai laptop, komputer dan smartphone 
+pada tabel 2 menujukkan hasil dari pengujian blackbox
+pengujian ini mendapatkan hasil 100%, apabila ditemukan bug pada sistem maka langsung dilakukan perbaikan dan pengujian ulang
+data yang dimasukkan meliputi data pekerjaan, data alat yang digunakan, data laporan fisik berupa persentase pekerjaan serta photo, data laporan keuangan dan data dokumen terkait pada pekerjaan
+tabel iii no item uji hasil uji 1
+mengelola data pengguna berhasil metode pengujian berikutnya adalah pengujian tingkat penerimaan pengguna / user acceptance test 
+pengguna yang dimaksud dalam hal ini adalah para pemangku keputusan di dinas ini
+pemangku keputusan telah memahami alur bisnis yang telah dilakukan saat tidak menggunakan sistem
+kepahaman inilah yang menjadi dasar melakukan uat dengan para pemangku keputusan
+adapun tujuan pengujian ini adalah sebagai berikut: 1
+untuk mengkonfirmasi bahwa sistem telah melakukan alur bisnis sesuai dengan kebutuhan
+untuk mengkonfirmasi bahwa sistem telah dapat digunakan oleh para pengguna sistem
+untuk mengkonfimasi bahwa sistem telah sesuai dengan persyaratan peraturan yang berlaku
+untuk menjamin bahwa sistem telah dianggap layak untuk digunakan
+pengujian pada sistem dilakukan dengan menggunakan metode pengukuran skala likert menggunakan kuesioner
+keempat responden tersebut adalah kepada bidang, kepala seksi dan 2 orang staf asn di bidang sumber daya air
+pada tabel 3 menunjukkan rekapitulasi dari responden
+tabel iiiii responden sangat setuju bahwa sistem sudah sesuai dengan alur bisnis, seluruh responden sangat setuju sistem telah dapat digunakan oleh para pengguna, seluruh responden sangat setuju sistem telah sesuai dengan peraturan yang berlaku dan sebagian besar responden sangat setuju sistem telah dianggap layak untuk digunakan
+kesimpulan evaluasi pekerjaan ini dapat memberikan informasi terbaru dan cepat kepada pihak bidang sda dinas pu kabupaten kuburaya
+para pemangku jabatan dapat mengakses informasi yang diperlukan tanpa harus bertanya kepada bawahannya
+pengumpulan data pada sistem ini tentu saja menambah kecepatan dalam penyajian data
+bahkan pekerjaan yang di pelosok kabupaten dapat diketahui dengan akurat kemajuannya berkat pelaporan dalam bentuk foto pada sistem ini
+yang telah dirancang bisa berjalan dengan baik untuk perangkat dengan berbagai spesifikasi mesin
+hasil pengujian user acceptance test menunjukkan 75% responden menyatakan sistem sesuai dengan alur bisnis dan 75% sangat setuju bahwa sistem layak untuk digunakan
+unsur penilaian lain yaitu sistem telah dapat digunakan dan telah sesuai dengan persyaratan yang berlaku mendapat respon dari responden senilai 100%

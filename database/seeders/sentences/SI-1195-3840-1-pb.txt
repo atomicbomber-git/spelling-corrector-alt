@@ -1,0 +1,44 @@
+dimana data tersimpan atau dimana terdapat data
+relationship adalah hubungan alamiah yang terjadi antara entitas
+relationship degree atau derajat relationship adalah jumlah entitas yang berpartisipasi dalam satu relationship
+atribut adalah sesuatu yang menjelaskan apa sebenarnya yang dimaksud entitas maupun relationship, sehingga dapat dikatakan atribut adalah elemen dari setiap entitas dan relationship
+kardinalitas menunjukkan jumlah maksimum entitas yang dapat berelasi dengan entitas pada entitas yang lain
+hubungan yang terjadi dapat berbentuk : hubungan satu ke satu, hubungan satu ke banyak atau banyak ke satu, dan hubungan banyak ke banyak 
+memiliki 4 hak akses sistem yaitu mahasiswa, dosen, operator dan akademik
+mahasiswa dapat mengubah biodata, input data lembar isian rencana studi, lihat lembar isian hasil studi, transkrip nilai, history nilai, jadwal kuliah, jadwal ujian tengah semester, jadwal ujian akhir semester, pengisian kuesioner, lihat pengumuman, unduh, ubah password dan melihat panduan melalui internet b
+dosen dapat mengubah biodata dosen, melihat jadwal program studi, jadwal ajar pribadi, mengisi nilai mahasiswa yang diajar, meilhat mahasiswa bimbingan akademik, termasuk lirs mahasiswa bimbingan, lihs mahasiswa aktif, ubah password dan melihat panduan melalui internet, c
+operator dapat melakukan manajemen prodi, manajemen jabatan, manajemen dosen, manajemen mahasiswa, manajemen matakuliah, manajemen manajemen skripsi, manajemen kelulusan, manajemen kuesioner, manajemen jadwal, user, laporan, droping nilai, data lirs, data lihs, data transkrip nilai, registrasi akademik, registrasi ulang mahasiswa, manajemen absen kuliah, cetak data perkuliahan, laporan data akademik dan melihat panduan melalui internet d
+operator akademik hanya dapat melihat dan mencetak lirs, lihs, transkrip nilai, ubah password dan panduan melalui internet server online database mysql informasi akademik fakultas teknik univeristas tanjungpura
+metode blackbox yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+data pengujian dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari sistem
+menggunakan data yang tidak diperbolehkan, data yang kosong dan data yang benar
+berikut ini adalah analisis hasil perancangan dan pengujian aplikasi siakad: 1
+saat pengguna ingin login, pengguna harus memasukkan nip / nim dan password serta memilih level yang sesuai
+jika tidak, maka pengguna tidak akan bisa masuk ke dalam siakad
+pada bagian ini sistem benar- benar melakukan pengecekan agar tidak terjadi kesalahan dan hal-hal yang tidak diinginkan
+pengguna sistem ini dibedakan menjadi empat level yaitu mahasiswa, dosen, operator dan akademik
+saat pengguna melakukan input data, pengguna mungkin memasukkan data yang tidak diperbolehkan 
+pengujian input data dengan data yang tidak diperbolehkan, sistem akan menampilkan pesan kesalahan
+pesan kesalahan berisi informasi data yang tidak diperbolehkan
+saat pengguna melakukan input data, ada isian yang harus diisi dan ada isian yang boleh kosong 
+pengujian menunjukkan bahwa jika pengguna melakukan input data dengan keseluruhan data kosong atau terdapat data kosong pada isian yang harus diisi, sistem akan menampilkan pesan kesalahan
+pesan kesalahan berisi informasi data-data yang wajib diisi
+saat pengguna melakukan input data dengan data yang benar, sistem akan mengeksekusi input data tersebut
+sistem akan langsung menyimpan dalam basis data dan akan menampilkan pesan berhasil
+sistem dapat melakukan fungsi pertukaran informasi diantara pengguna sistem
+dengan demikian pengguna sistem dapat mengetahui informasi antara pengguna yang satu dengan yang lainnya sesuai dengan tingkat kebutuhan, 6
+sistem dapat membantu dan meringankan kerja pihak operator terutama dalam hal mencetak transkrip nilai dan hasil study serta rencana study mahasiswa dikarekan sistem yang dirancang mahasiswa sebagai pengguna sudah bisa mencetak transkrip nilai dan hasil study serta rencana study- nya sendiri
+sistem dapat membantu dosen membuat pengumuman yang berhubungan dengan mahasiswa bimbingannya tanpa harus mencetak pengumuman tersebut dan menempelnya di papan pengumuman
+sistem dapat membantu mempermudah konsultasi rencana study mahasiswa dengan dosen
+hal ini dikarenakan sistem yang dirancang sudah terdapat fungsi validasi rencana study dari dosen pembimbing jika matakuliah yang diambil telah disetujui
+sistem mampu menangani data history mahasiswa baik mahasiswa aktif maupun mahasiswa drop out dan mahasiswa yang telah lulus
+untuk meningkatkan mutu dan kualitas pembelajaran, sistem mengharuskan mahasiswa mengisi kuesioner pada setiap akhir semester sebagai penilaian untuk tolak ukur peningkatan kualitas belajar mengajar
+penilaian ini berdasarkan matakuliah yang diambil oleh mahasiswa yang bersangkutan
+selain itu, penilian ini juga sebagai bahan evalusi pihak akademik dan jurusan untuk dosen yang mengajar matakuliah tertentu
+dari hasil perancangan dan pengujian sistem menunjukkan bahwa, sistem ini dapat menjadi sistem informasi akademik yang membantu dan meringankan kerja dosen, operator, mahasiswa dan akademik dalam mengelola data mahasiswa, dosen dan data perkuliahan
+dengan kata lain, sistem yang dibangun dapat menjadi solusi dan diimplemantasikan dalam upaya peningkatan dan mempermudah segala urusan yang berhubungan dengan perkuliahan
+terhadap sistem informasi akademik, dapat disimpulkan bahwa : 1
+sistem yang dikembangkan berbasis web mampu memadukan fitur-fitur pada dua sistem sebelumnya yang berbeda platform
+siakad berbasis web ini dapat digunakan oleh mahasiswa, dosen, operator dan akademik, dengan masing-masing memiliki hak akses dan fitur yang berbeda, sehingga operasional dalam komunikasi dan pertukaran data akademik berjalan lancar
+yogyakarta: lokomedia dan desain sistem informasi
+yogyakarta: graha ilmu yogyakarta: andi yogyakarta: lokomedia desain sistem informasi: pendekatan yogyakarta: andi 2012

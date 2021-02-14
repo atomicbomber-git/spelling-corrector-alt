@@ -1,0 +1,108 @@
+eee paper template in a4 vol 4 no 2 aplikasi web tryout uji kompetensi kebidanan berbasis intranet muhammad sony maulana#1, muhammad qadafi khairuzzaman#2, muhamad nasihin#3 # universitas bina sarana informatika program studi sistem informasi kampus kota pontianak jl
+abdurahman saleh no18a, kota pontianak, indonesia 1 muhammad.sony.mom@bsi.ac.id 2muhammad.mqk@bsi.ac.id 3muhamad.mhn@bsi.ac.id akhir bagi seorang tenaga kebidanan yang telah lulus dari d3 untuk mendapatkan kualifikasi sebagai bidan yang kompeten
+mahasiswa yang pintar belum tentu lulus secara otomatis, jika mereka tidak memiliki kesiapan mental dan waktu belajar latihan soal-soal ukom yang cukup
+penelitian ini bertujuan untuk mengembangkan sebuah aplikasi web yang dapat mendukung latihan try out uji kompetensi kebidanan yang dijalankan secara intranet aplikasi web ini dikembangkan dengan beberapa fitur diantaranya mengelola data soal, data mahasiswa, data modul dan data ujian yang dapat meningkatkan persiapan dan proses latihan persiapan tenaga kebidanan dalam menghadapi ukom
+adapun tahapan-tahapan metode pengembangan aplikasi web ini berbasis rup merupakan pendekatan pengembangan perangkat lunak yang dilakukan berulang-ulang
+hasil yang didapat dari pengembangan dan pengujian aplikasi web ini bahwa aplikasi dapat berjalan secara client-server dalam jaringan intranet untuk manajemen pengelolaan aplikasi try out berbasis web ini sudah sesuai dengan kebutuhan pengguna, seperti mengelola soal, mengelola waktu ujian dan juga mengelola pengguna maupun peserta
+sedangkan untuk proses pelaksanaan ujian penampilan soal dan jawaban dapat dilakukan secara random sehingga mencegah peserta ujian untuk tidak saling mencontek, selain itu setiap sesi ujian telah dibatasi dengan waktu yang ditentukan oleh operator
+pendahuluan bagi seorang bidan yang telah menempuh masa pendidikan d3 untuk mendapatkan kualifikasi sebagai bidan yang profesional dan kompeten
+terkadang ukom menjadi momok yang sangat menakutkan bagi setiap peserta yang akan menghadapinya terutama bagi mahasiswa yang tidak memiliki persiapan baik mental maupun keterbatasan dalam belajar
+berdasarkan peraturan menteri riset, teknologi, dan pendidikan tinggi republik indonesia nomor 12 tahun 2016 menjelaskan bahwa uji kompetensi adalah proses pengukuran pengetahuan, keterampilan, dan perilaku peserta didik pada perguruan tinggi yang menyelenggarakan pendidikan tinggi bidang kesehatan
+permenkes no1796 tentang registrasi tenaga kesehatan, dimana seorang bidan harus memiliki str sebagai modal utama dalam memberikan pelayanan kesehatan sebagai tenaga bidan yang professional dan mengutamakan keselamatan pasien
+dan hebat, kelulusan mahasiswa di ukom bukanlah persoalan besar, karena pada dasarnya mereka telah memiliki standar kualitas perkuliahan teori maupun praktek yang sangat baik
+sehingga hasilnya berupa mahasiswa memiliki tingkat kelulusan 100%
+kebalikannya bagi pts yang tidak memiliki qualifikasi sebaik pts yang besar dan hebat, ukom diibaratkan sebagai monster yang menakutkan, sehingga ada pts yang kelulusannya cuma 0%
+uji kompetensi saat ini menggunakan sistem computerized based test, dimana peserta mengerjakan 180 soal pilihan ganda dalam waktu 180 menit
+berangkat dari hal ini maka banyak bermunculan strategi-strategi untuk mempersiapkan para tenaga perawat menghadapi uji kompetensi, salah satu strateginya adalah dengan metode try out 
+try out adalah suatu mekanisme yang digunakan sebagai sebuah latihan bagi siswa sebelum melaksanakan ujian yang sesungguhnya
+sedangkan try out pada ukom kebidanan adalah suatu mekanisme yang dapat mempermudah mahasiswa kebidanan untuk memperoleh kesiapan dan nilai kelulusan yang baik
+sistem client-server ini ditujukan untuk mengatasi kelemahan kelemahan yang terdapat pada sistem sebelumnya
+sistem client server terdiri dari dua komponen utama yaitu client dan server
+client berisi aplikasi basis data dan server berisi dbms dan basis data
+selain mendukung sistem client-server juga harus dapat mendukung kemudahan dalam manajemen soal, manajemen modul, manajemen pengelola, manajemen peserta dan manajemen ujian serta mudah digunakan bahkan sampai tahap pengguna yang belum terbiasa mengoperasikan komputer
+hal ini dapat dipenuhi dengan aplikasi try out berbasis web
+aplikasi berbasis web ini dapat dijalankan secara client-server sehingga membutuhkan dua teknologi yaitu teknologi untuk server dan teknologi untuk client
+kedua teknologi ini kemudian dapat disatukan dalam satu jaringan baik itu jaringan intranet maupun jaringan internet tergantung kebutuhan penggunaan aplikasi web
+untuk itu maka penulis merancang dan mengembangkan aplikasi web try out uji kompetensi tenaga kebidanan yang kemudian akan diuji cobakan pada salah satu pendidikan tinggi swasta yang ada di kota pontianak yaitu akademi kebidanan aisyiyah, guna mendapatkan hasil dan masukan secara nyata
+metode penelitian kebutuhan-kebutuhan apa saja yang diperlukan oleh sistem meliputi kebutuhan perangkat lunak maupun kebutuhan perangkat keras
+adapun kebutuhan aplikasi perangkat lunak adalah: 1) dapat mengatur hak akses dan mengamankan aplikasi dari tindakan yang tidak bertanggung jawab
+2) dapat mengatur soal, dimana soal dapat dimasukkan secara manual hingga upload dalam jumlah tertentu sesuai dengan format file csv yang ditentukan
+3) dapat menampilkan dan mengelompokkan soal secara acak untuk mencegah proses mencontek diantara peserta
+4) dapat memasukkan dan menampilkan modul dalam bentuk pdf untuk proses belajar peserta
+5) dapat melakukan pengelolaan data peserta try out
+7) dapat melakukan manajemen kelas untuk proses try out
+sedangkan kebutuhan perangkat kerasnya meliputi: 1) server, dengan spesifikasi minimum: prosesor intel core i5 generasi ke-4, ram 8gb, hardisk ssd 128gb sata ii dan sistem operasi windows 10 profesional 2) client, dengan spesifikasi minimum: prosesor intel dual core, ram 2gb, hardisk 250gb sata ii dan sistem operasi windows 7 profesional dan browser terbaru
+metode pengembangan perangkat lunak metode pengembangan perangkat lunak rup merupakan pendekatan pengembangan perangkat lunak yang dilakukan berulang- ulang, fokus pada arsitektur, lebih diarahkan berdasarkan penggunaan kasus 
+metode rup cocok untuk pengembangan aplikasi berbasis objek dan telah menerapkan konsep mvc 
+rup sendiri memiliki empat fase pendefinisian yang baik untuk siklus pengembangan perangkat lunak, yaitu: inception, elaboration, construction dan transition
+bisnis perangkat lunak dan mendefinisikan kebutuhan perangkat lunak yang akan dibuat/dikembangkan
+kegiatan ini merupakan awal analisa dan perancangan perangkat lunak yang dapat didefinikan dalam bentuk usecase diagram
+2) elaboration fase ini merupakan proses desain dari perangkat lunak yang akan dikembangkan
+biasanya perangkat lunak sudah dirilis dalam bentuk betha
+3) construction fase ini merupakan tahapan untuk melakukan implementasi dari perangkat lunak yang telah dikembangkan
+biasanya tahap akhir dari fase ini perangkat lunak sudah dalam bentuk alfa dan siap untuk diinstalasikan
+sosialisasi penggunaan perangkat lunak kepada pengguna iii
+hasil dan pembahasan beberapa tahapan pengumpulan data untuk mendukung pembuatan aplikasi web try out uji kompetensi kebidanan ini, diantaranya: maupun kebutuhan dari perangkat lunak, pertanyaan yang diajukan seputar kebutuhan fungsional dan kebutuhan non fungsional dari aplikasi yang akan di buat
+mencatat secara sistematis kebutuhan perangkat lunak yang dapat mempermudah dalam melakukan simulasi uji kompetensi kebidanan yang berlokasi di akbid aisyiyah pontianak
+analisa masalah tahapan-tahapan dalam melakukan analisa masalah adalah sebagai berikut: yang semakin berkembang dan pola uji kompetensi kebidanan yang mengarah kepada cbt maka diperlukan sebuah aplikasi komputer yang dapat mendukung simulasi uji kompetensi kebidanan
+tujuannnya adalah untuk mempersiapkan kemampuan mahasiswa kebidanan ukom berbasis cbt
+tentunya aplikasi komputer ini juga harus dapat mendukung: 1) aplikasi ini bisa dijalankan secara client-server baik didalam jaringan intranet maupun di jaringan internet seperti cbt pada umumnya
+2) mengelola soal dengan mudah, salah satunya dapat memasukkan data soal secara otomatis dengan mengupload file sesuai format yang disajikan dan mendukung gambar maupun video
+3) mudah dalam mengelola kelas try out uji kompetensi, sehingga dapat menyesuaikan antara kelas yang dibentuk dengan mahasiswa yang ikutserta
+4) mengelola data mahasiswa/peserta ujian dengan mudah berdasarkan kelas yang dibuat dengan cara dapat memasukkan data mahasiswa peserta uji kompetensi berdasarkan kelas berdasarkan format yang disajikan
+tersebut maka dapat disimpulkan bahwa perlu untuk dibangunnya sebuah aplikasi try out uji kompetensi kebidanan yang flexible dan nyaman digunakan sebagai sarana simulasi dan latihan bagi mahasiswa kebidanan dalam mempersiapkan diri menghadapi ukom kebidanan berbasis cbt
+use case kebutuhan sistem sumber: hasil penelitian 2018 gambar 1
+use case diagram aplikasi try out ukom gambar 1 merupakan hasil gambaran kebutuhan sistem yang dirancang dalam bentuk use case diagram
+berdasarkan use case yang ada pada aplikasi web try out uji kompetensi kebidanan diketahui bahwa ada tiga aktor yang saling berinteraksi pada aplikasi ini
+ketiga aktor ini adalah super admin, operator dan mahasiswa
+interaksi ketiga aktor ini mewajibkan untuk login terlebih dahulu
+aktor operator merupakan turunan dari super admin dimana apa yang dapat dikerjakan oleh operator dapat pula dikerjakan oleh super admin bedanya super admin dapat mengelola pengguna, profil aplikasi dan melihat log login dari aplikasi
+untuk aktor mahasiswa selaku peserta lebih diperuntukkan mengakses aplikasi untuk mengikuti simulasi try out ukom kebidanan dengan cara mengerjakan soal dan mengakses serta mendownload modul yang disediakan oleh aplikasi
+logical relastional diagram sumber: hasil penelitian 2018 gambar diatas merupakan representasi dari struktur record-record pada tabel-tabel yang ada pada basis data aplikasi web try out ukom yang terbentuk dari hasil relasi antar himpunan entitas
+lrs dibentuk dengan nomor dan tipe record
+adapun dua puluh satu tabel dalam nama basis data bank_soal ini dirancang dan berelasi satu dan lainnya sesuai dengan kebutuhan aplikasi yang akan dikembangkan
+termasuk memasukkan username dan password secara default berdasarkan nim
+out ukom out ukom adalah proses mengelola soal dimana sebelum soal dimasukkan terlebih dahulu membuat kelas dan memasukkan data mahasiswa setelah itu baru memasukkan data soal-soal try out, kemudian dilanjutkan dengan membuat aturan pelaksaan ujian di aplikasi untuk waktu mulai dan waktu selesai try out ujian
+setelah itu baru try out ujian dapat dilakukan di sisi mahasiswa
+untuk memasukkan data soal try out sendiri bias dilakukan dengan 2 metode yaitu secara manual dan secara upload file csv
+deployment diagram aplikasi try out ukom aplikasi bekerja dengan sistem client-server dimana server harus sudah terinstal apache sebagai server web berbasis php dan mysql server sebagai server basis data
+sedangkan di komputer client selain sistem operasi hanya membutuhkan browser terbaru yang sudah terinstal dikarenakan aplikasi web ini hanya dapat dijalankan didalam browser yang merujuk kepad alamat server baik server intranet maupun internet sumber: hasil penelitian 2018 gambar 5
+gambar diatas menampilkan halaman dashboard aplikasi try out uji kompetensi kebidanan setelah login sebagai admin
+adapun menu yang tersedia pada halaman admin, diantaranya: a
+menu kelas, didalamnya terdapat pengelolaan kelas baik itu penambahan kelas maupun penghapusan kelas yang dapat dilakukan oleh operator atau super admin
+selain itu untuk memasukkan data modul, data ujian dan data mahasiswa/peserta ujian juga dapat dilakukan didalam menu ini
+baik penambahan, edit ataupun penghapusan data soal
+menu paket soal, didalamnya terdapat pengelolaan paket soal yang dapat dilakukan oleh operator maupun super admin
+untuk soal sendiri bisa ditambahkan link gambar ataupun video agar dapat menampilkan soal bergambar atau soal dengan video
+menu panduan, bertujuan sebagai help desk aplikasi sehingga pengguna dapat belajar secara manual penggunaal aplikasi melalui menu ini
+menu pengaturan, dapat mengatur kategori soal, skala nilai, setting durasi soal, manajemen staff, dan pengaturan instansi 
+menu kirim masukan, gunanya untuk membantu pengembang aplikasi maupun super admin dalam mengembangkan aplikasi dengan lebih baik dengan menerima masukan dari pengguna aplikasi
+tampilan dashboard mahasiswa/peserta sumber: hasil penelitian 2018 try out uji kompetensi kebidanan setelah login sebagai mahasiswa atau peserta
+adapaun halaman dashboard mahasiswa yang terdiri dari dua menu, yaitu: menu daftar kelas, yang berisikan lokasi kelas dimana mahasiswa/peserta tersebut tergabung
+di menu ini mahasiswa/peserta dapat melihat modul ataupun hasil ujian yang pernah diikuti, jika belum pernah maka hanya akan tampil halaman kosong
+dengan begitu untuk mengikuti try out atau uji kompetensi kebidanan yang sedang aktif mahasiswa/peserta tinggal masuk ke dalam menu ini seperti yang ditampilkan
+adapun tampilan ketika menampilkan soal saat try out uji kompetensi adalah seperti gambar diatas
+dimana soal akan dibatasi waktu sesuai dengan yang diterapkan oleh operator dan aktif sesuai dengan tanggal ujian
+soal akan tampil secara acak dengan query pada basis data mysql
+dan apabila terjadi gangguan koneksi selama waktu belum habis maka dapat melanjutkan pengerjaan soal hingga batas waktu yang ditentukan
+pengujian perangkat lunak metode pengujian yang digunakan dalam penelitian ini adalah black-box
+fokus metode ini adalah pengujian pada seluruh aspek bagian aplikasi yang berinteraksi langsung dengan pengguna aplikasi yaitu mulai dari antarmuka, masukan dan keluaran yang dihasilkan oleh aplikasi
+pengujian ini dijadikan sebagai dasar perbaikan aplikasi apabila menemui kendala
+hasil pengujian use questionnaire pengukuran usability perlu dilakukan untuk mendapatkan hasil berupa respon dari pengguna
+respon yang disampaikan dari pengukuran usability sistem dapat digunakan sebagai prioritas masukan dalam pengembangan dan perbaikan sistem
+hasil pengujian usability dengan evaluasi heuristik menunjukkan bahwa, , serta memiliki masalah usability yang lebih tinggi dibanding poin yang lain
+1 mengukur tingkat usefullness aplikasi 6.14 4 mengukur tingkat satisfaction 5, 97 sumber: hasil penelitian 2018 berdasarkan hasil pengolahan data kuisioner diatas menunjukkan bahwa dari penilaian keseluruhan aspek use questionnaire mencapai angka rata-rata 5.98 sehingga dapat ditarik kesimpulan bahwa secara keseluruhan aplikasi try out uji kompetensi kebidanan dapat diterima secara baik oleh pengguna aplikasi
+namun, beberapa masukan dari pengguna perlu menjadi bahan pertimbangan sebagai langkah untuk lebih meningkatkan kualitas aplikasi yang lebih baik lagi dan sesuai dengan kebutuhan akademi kebidanan
+kelebihan dan kekurangan setiap sistem yang dibangun pasti memiliki kelebihan dan kekurangan termasuklah aplikasi web try out uji kompetensi kebidanan ini
+aplikasi mampu mengelola kelas dimana operator maupun super admin dapat dengan mudah memasukkan data kelas berikut dengan modul, kelas dan mahasiswa yang akan diikutsertakan dalam kelas simulasi try out uji kompetensi kebidanan
+hasil try out uji kompetensi kebidanan yang telah terlaksana dapat diperiksa oleh operator dan super admin
+mahasiswa/peserta dapat melihat hasil ujian di sub menu hasil ujian
+soal dan jawaban tampil secara acak sehingga mencegah kemungkinan soal tampil berbarengan di komputer satu dan lainnya selama proses ujian
+data soal dan mahasiswa dapat diinput dengan excel sehingga sangat memudahkan operator
+ketika diujikan secara online internet loading aplikasi terasa berat ketika dijalankan
+sistem menampilkan acak soal masih menggunakan query dari basis data dan belum merujuk ke algoritma tertentu
+dengan baik sehingga masih perlu perbaikan
+kesimpulan kompetensi kebidanan hingga kepada pengujian blackbox testing memberikan hasil berupa fitur-fitur seperti pengelolaan kelas, paket soal dan pengaturan dapat berjalan dengan lancar
+setiap masukan dapat diproses dengan hasil yang sesuai sehingga aplikasi dapat diimplementasikan baik secara intranet maupun internet 2
+hasil pengukuran usability website aplikasi try out uji kompetensi kebidanan menunjukkan bahwa secara umum aplikasi ini sudah dapat diterima dan sudah bekerja dengan baik, bermanfaat, dapat membantu pekerjaan, dan tingkat kepuasan pengguna yang cukup puas yang dinyatakan dalam bentuk skala 6, berdasarkan pendapat koresponden
+pengelolaan data soal juga mendukung masukan secara manual dan upload file dengan format excel yang telah disediakan pada aplikasi serta didalamnya terdapat manajemen soal yang mempermudah pilihan soal yang akan disajikan kepada peserta

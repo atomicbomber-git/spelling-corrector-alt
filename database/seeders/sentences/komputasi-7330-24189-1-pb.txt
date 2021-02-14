@@ -1,0 +1,87 @@
+this study describes the design of the pauses predictor application of speech sentences in bahasa indonesia with hidden markov model 
+this application serves to determine the pauses event that occur in bahasa indonesia sentences
+there are two main processes in this application which is train to train the corpus, and prediction to predict pause
+on the train, the input text is produced from sound files, and the output is training corpus for hmm engine
+in the prediction process, inputs are words of bahasa, and outputs are pause prediction that occurred earlier in the input sentence
+the results of this study is the sentence that has been predicted in each pause events
+testing is done using precision and recall of training corpus and tagging pause prediction results
+the results of precision and recall is calculated back to the f-score
+based on the testing that has been done, showed that the designed applications can already predict a pause in the indonesian sentences with precision of 0.364, recall of 0.132, and f-score of 0.194 keywords: pause prediction, hidden markov model, precision & recall, f-score
+dapat membangkitkan ucapan buatan yang mirip ucapan manusia
+dalam intonasi, jeda antar kata, nada, penekanan, dan irama
+kemampuan prosodi sistem sering menghasilkan pengucapan aplikasi, hal ini lebih menimbulkan masalah dalam pengucapan teks-teks yang panjang seperti audio book atau robot
+untuk mengatasi masalah tersebut, sintesa suara adalah pause prediction 
+penentuan jeda dalam kalimat sangatlah penting, sebab jeda yang terjadi dapat membentuk frase prosodi
+selain itu jeda juga dapat memperjelas informasi dari makna atau maksud pada suatu teks kalimat dapat tersampaikan dengan benar
+durasi jeda antar kata dalam suatu kalimat dapat mempengaruhi makna dari kalimat yang diucapkan
+bahasa indonesia menjadi bahasa yang menjembatani masyarakat indonesia dari banyaknya bahasa daerah masing-masing
+sumber daya untuk penelitian yang terkait dengan bahasa indonesia masihlah sedikit
+telah ada penelitian sebelumnya dalam part-of-speech tagging untuk bahasa indonesia dengan menggunakan hidden wicaksono yang menghasilkan pos indonesia, namun korpus yang ada masih sedikit
+untuk itu diperlukan penelitian lebih lanjut dalam menggunakan pos tagger dengan hmm agar hasil yang didapat lebih akurat
+part of speech tagging adalah suatu proses penandaan kata-kata dalam suatu teks atau korpus sesuai dengan kelas katanya
+kelas kata terdiri dari kata sifat, kata benda, kata kerja, kata keterangan, kata depan, kata kepunyaan, kata penghubung, kelas kata yang berbeda
+solusi untuk mengatasi masalah ambiguitas ini adalah dengan melihat kelas kata dari kata sebelumnya
+ketidakpastian yang menggunakan data-data salah satu parameter yang tidak dapat diobservasi (hidden
+adalah suatu proses stokastik ganda 
+proses yang tidak dapat diobservasi ini hanya dapat diobservasi melalui proses yang dapat diobservasi
+diketahui oleh seorang ahli matematika dan insinyur sekitar tahun 1980, tetapi hanya dalam dekade terkahir yang telah diterapkan secara eksplisit untuk masalah dalam speech processing
+salah satu alasan utama mengapa speech model berdasarkan pada markov chains atau rantai markov belum dikembangkan sampai saat ini adalah kurangnya metode untuk mengoptimalkan telah dikembangkan dan ditingkatkan, recognition satu rantai yang terdiri dari state yang dapat diobservasi dan rantai lainnya membentuk state yang tidak dapat diobservasi, yang mempengaruhi hasil dari state yang dapat diobservasi
+yang terbatas, yang ditentukan pada perkembangannya oleh analisis semacam kesemenaan, bersifat sehomogen mungkin beralasan bahwa unsu-unsurnya dapat data yang dikumpulkan berwujud file suara yang kemudian nantinya diolah menjadi teks
+dua proses utama yakni proses train dan prediksi
+mengumpulkan file suara yang didapat dari lembaga penyiaran publik tvri kalimantan barat
+proses penandaan kejadian jeda file suara yang telah dikumpulkan kemudian diolah menggunakan selanjutnya, file-file suara tersebut kejadian jeda menggunakan aplikasi wavesurfer
+pada setiap kejadian dapat memudahkan dalam proses setiap kata beserta durasinya
+proses pemberian indeks jeda proses pemberian indeks jeda adalah proses untuk menentukan jeda yang akan diberikan pada teks sebagai korpus
+setelah semua file suara selesai ditandai, selanjutnya setiap dikelompokkan dan dianalisa
+proses mengurutkan kejadian jeda dari rentang nilai tersebut
+selanjutnya, dan raata-rata tersebut dijadikan dan batas atas dari nilai indeks jeda yang akan dibentuk
+proses ini menggunakan bantuan spreadsheet ini nantinya akan dibatasi menjadi 4 kategori yaitu sebagai indeks yang menyatakan tidak terjadi jeda pada kata, sebagai indeks yan menyatakan ada jeda tetapi kecil, sebagai indeks yang menyatakan ada jeda yang cukup besar pada kata, dan “
+”sebagai indeks yang menyatakan dilihat pada tabel 1
+indeks tag jeda keterangan 0 tidak ada jeda besar menghasilkan jenis kata dari setiap kata yang ada di dalam teks
+teks yang berasal dari proses penandaan kejadian jeda kemudian dipisahkan yang ada di dalamnya
+teks kata kemudian dijadikan masukan dalam hmm ipostagger untuk selanjutnya tagging pos ini disimpan dalam teks berformat *.txt
+proses ini menggunakan program dalam delphi
+gabungan dari nantinya menjadi korpus sebagai korpus latih pada iposjeda
+dimana suatu teks kalimat dapat diprediksi jeda yang terjadi pada setiap katanya
+proses ini dilakukan oleh iposjeda dengan menggunakan proses train sebelumnya
+dengan ipostagger untuk selanjutnya disimpan menjadi b
+proses tagging indeks jeda teks yang telah di-tag kemudian dipisah antara teks kata dan tipe katanya yang kemudian keduanya berbeda
+teks yang berisi tipe kata selanjutnya diproses lagi tipe kata
+proses pemberian jeda pada teks teks keluaran dari iposjeda yang berformat ini selanjutnya dipisahkan lagi antara jeda dari proses ini kemudian digabungkan lagi dengan teks kalimat masukan awal berdasarkan jedanya
+berdasarkan perhitungan modus, terjadi, didapat nilai yang paling sering muncul adalah 0.055 sekon
+nilai tengah dari rentang kejadian jeda adalah 0.176 sekon
+nilai rerata dari seluruh kejadian jeda adalah 0.186 sekon
+sementara nilai kejadian jeda terendah adalah sebesar 0.019 sekon dan nilai kejadian jeda terbesar adalah sebesar 0.825 sekon
+nilai kejadian jeda yang terjadi, maka jumlah indeks jeda yang akan dibentuk adalah sebanyak 4 kategori indeks jeda, yaitu sebagai indeks yang menyatakan tidak terjadi jeda pada kata, sebagai indeks yan menyatakan ada jeda tetapi kecil, sebagai indeks yang menyatakan ada jeda yang cukup besar pada kata, dan “
+”sebagai indeks yang menyatakan akhir kalimat
+hal ini diharapkan dapat mempermudaha sistem dalam pemberian indeks jeda nantinya, dan agar sistem bisa memrediksi jeda secara lebih tepat dengan rentang nilai indeks jeda yang hanya 4 kategori ini
+berdasarkan analisis dan perhitungan di atas, dapat ditentukan bawah atas untuk indeks jeda adalah 0.055 sekon karena nilai tersebut merupakan nilai yang paling banyak muncul dan batas atasnya adalah 0.19 sekon
+sedangkan untuk indeks jeda digunakan 0.19 sekon sebagai batas bawah karena nilai tersebut merupakan nilai rata-rata dari nilai keseluruhan kejadian jeda, dan batas atas tidak terhingga
+untuk lebih jelasnya dapat dilihat pada tabel 2
+kode tag jeda keterangan 1 ada jeda tetapi kecil 
+akhir kalimat aplikasi kemudian disimpan kedalam file berekstensi *.tag untuk dapat dilakukan proses tagging dalam java
+file keluaran hasil tagging kemudian ditampilkan kembali ke dalam memo pada aplikasi untuk proses selanjutnya kata pada teks keluaran hasil tagging mesin hmm ipostagger
+jenis kata yang telah terpisah disimpan sementara dalam list untuk kemudian disisipkan indeks jeda
+indeks jeda yang ditambahkan adalah indeks jeda berdasarkan perhitungan kejadian jeda pada teks kata sumber di awal proses dan sesuai dengan indeks jeda yang telah ditetapkan
+4.2 prediksi proses prediksi merupakan proses dimana suatu teks kalimat dapat diprediksi jeda yang terjadi pada setiap katanya
+proses ini dilakukan oleh iposjeda dengan menggunakan korpus yang telah dibentuk pada proses train sebelumnya
+kalimat, kemudian teks pada memo tersebut di-tag dengan ipostagger
+hasil keluaran tagging ipostagger ini disimpan pada memo sebelahnya
+dalam memo kemudian dipisah antara teks kata dan tipe katanya
+tipe kata hasil pemisahan ini kemudian dimasukkan ke dalam iposjeda untuk mendapatkan indeks jeda pada tipe kata tersebut
+teks keluaran dari iposjeda yang berformat ini selanjutnya dipisahkan lagi antara tipe kata dengan indeks jedanya
+indeks jeda yang telah terpisah ini kemudian digabungkan lagi dengan teks kalimat masukan awal berdasarkan posisi perkatanya
+terhadap korpus latih mesin hidden markov model 
+nilai yang diuji adalah nilai indeks jeda keluaran aplikasi, yakni indeks jeda dan saja
+hal ini untuk memudahkan dalam penilaian karena indeks jeda dan “
+uji coba akan difokuskan pada seberapa relevan hasil prediksi jeda yaitu perhitungan precision dan recall sebagaimana formula 4.1 dan 4.2
+tabel jumlah kemunculan jeda pada korpus prediksi jeda hasil prediksi jeda bahwa jumlah kemunculan jeda berindeks dan adalah sebanyak 518 dan 475 kejadian
+maka jumlah dokumen dalam koleksi untuk perhitungan recall adalah sebanyak 993
+dari hasil prediksi jeda, ditemukan sebanyak 1 kejadian jeda berindeks, dan 361 kejadian jeda berindeks 
+maka jumlah dokumen ditemukan untuk perhitungan precision adalah sebanyak 362
+maka berdasarkan perhitungan dalam perhitungan precision sebesar 0.364 dan recall sebesar 0.132
+terhadap aplikasi prediksi jeda kalimat bahasa indonesia dengan hidden markov model, dapat disimpulkan bahwa : 1
+sistem mampu membentuk korpus jeda berdasarkan jenis kata pada setiap kata dalam kalimat dan melatih korpus bentukan ke dalam hidden markov model 
+sistem belum mampu melakukan proses pemrediksian jeda pada kalimat bahasa indonesia
+data hasil pengujian menunjukkan bahwa sebagian besar belum dapat ditemukan sistem dan nilai precision antara 0.364 yang hasil relevan yang ikut ditemukan oleh sistem
+sistem belum mampu melakukan proses pemrediksian jeda pada kalimat bahasa indonesia secara akurat karena hasil perhitungan f-score yang dihasilkan text to speech agar lebih manusiawi dalam mensintesa ucapan berbahasa

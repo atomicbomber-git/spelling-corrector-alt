@@ -1,0 +1,12 @@
+database computer cosmo3metal@gmail.com the people has started to change the old system into the computerized system in order to create more effective and efficient works, that’s why the company needs an information system that can support attendance and salary system well
+here, there is a solution that will be given by designing and applying an attendance and salary information system that’s computerized, integrated with fingerprinting, and interfacing for the database and application according to the company’s needs
+the research methodology that’s used is pieces method, this method identifies the problem by doing an analysis to the performances, economy, control, efficiency, and services at the old system
+then, we can finally find the problems from the analysis
+the result that’s achieved is an attendance and salary’s information system that is useful for the company and also gives the services to the administrator and employee well
+the conclusions from this research are this system becomes a solution for the company for giving the great services to the owner and general manager in managing the attendance and salary datas, this system also gives the service to employees for the personal attendance and salary informations in real time and transparent, with the pieces method the writer can find the answers for the existing problems in the company
+in the respondent’s testing results for the new system by using likert’s summated rating method, the writer gets 2576 score from the rating’s result and by the rating’s scale, the score 2576 is between the scale 2520 < score < 3150 and it indicates that the new system is successful rated
+menjual peralatan maupun jasa di bidang komputer
+pada perusahaan, terdapat sulit dalam mengelola penggajiannya
+ada masih bersifat semi manual sistem semi manual memungkinkan banyaknya yang tidak tepat akibat kelalaian manusia yang berakibat pada kesalahan perhitungan penggajian mulai merubah sistem menjadi terkomputerisasi agar pekerjaan yang dapat mengotomasi data penggajian bagi perusahaan
+dalam penulisan ini, terdapat solusi yang akan diberikan yaitu dengan merancang dan mengaplikasikan basis data dan aplikasi
+digunakan untuk melakukan analisis dengan metode analisis performance, sebagai berikut : segera tercapai

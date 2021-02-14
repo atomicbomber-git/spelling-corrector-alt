@@ -1,0 +1,73 @@
+untuk mewujudkan suasana belajar dan proses pembelajaran agar peserta didik secara aktif mengembangkan potensi dirinya untuk memiliki kecerdasan ataupun keterampilan yang dibutuhkan
+metode belajar konvensional digunakan pada pelajaran biologi untuk kelas xi sma ipa materi sistem pernapasan
+dalam materi sistem pernapasan bagian- bagian materi yang dipelajari kebanyakan membahas bagaimana sistem pernapasan itu berjalan didalam tubuh, sedangkan siswa mempelajari materi sistem pernapasan melalui gambar didalam buku, ini membuat siswa kesulitan dalam memvisualisasikan sistem dan organ pernapasan tersebut berjalan sesungguhnya
+augmented reality adalah teknologi yang dapat menggabungkan objek 3d ke dalam lingkungan nyata tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+pada kasus ini materi sistem pernapasan yang dipelajari akan divisualisasikan dalam bentuk 3d
+metode yang digunakan pada penelitian tentang augmented reality ini adalah metode marker based tracking
+pada penelitian ini digunakan blender, unity 3d, vuforia untuk membangun aplikasi
+berdasarkan hasil pengujian user acceptance test diketahui persentase nilai acceptance mencapai 100%, ini berarti aplikasi dapat diterima
+dari pre test ke post test yang dilakukan aplikasi yang diimplementasikan teknologi augmented reality kepada 2 kelas siswa sma xi ipa semester 2, kelas yang menggunakan bantuan aplikasi memperoleh peningkatan persentase nilai lebih tinggi dari kelas yang tidak menggunakan aplikasi
+yaitu 66% untuk kelas yang menggunakan aplikasi, dan 62% untuk kelas yang tidak menggunakan aplikasi
+dapat disimpulkan bahwa aplikasi dapat menampilkan objek 3d, dan dapat membantu siswa untuk meningkatkan pemahaman siswa pada materi sistem pernapasan
+pendahuluan untuk memiliki kecerdasan ataupun keterampilan yang dibutuhkan
+dalam upaya meningkatkan mutu pendidikan tersebut, maka perlu adanya suatu terobosan baru yang dibuat dalam hal ini terobosan dalam metode pembelajaran
+seperti yang kita tahu bahwa metode belajar mengajar di indonesia khususnya pontianak masih menggunakan metode belajar mengajar konvensional, dalam hal ini pelajar membawa buku pelajaran, dan guru menjelaskan materi yang ada didalam buku tersebut untuk disampaikan ke siswa
+metode belajar konvensional juga masih digunakan pada pelajaran biologi untuk kelas xi sma ipa materi sistem pernapasan
+dalam materi sistem pernapasan bagian-bagian materi yang dipelajari kebanyakan membahas bagaimana sistem pernapasan itu berjalan didalam tubuh, sedangkan siswa mempelajari materi sistem pernapasan melalui gambar didalam buku, ini membuat siswa kesulitan dalam memvisualisasikan sistem dan organ pernapasan tersebut berjalan sesungguhnya didalam tubuh
+oleh karena itu dibutuhkan suatu metode pembelajaran baru yang dapat membantu siswa untuk lebih dapat memahami materi khususnya materi sistem pernapasan
+metode pembelajaran yang berbasis teknologi dan informasi, untuk menghasilkan koleksi alat peraga berbasis komputer
+penyajian materi berbasis komputer ini bertujuan untuk meningkatkan kemampuan siswa dalam memahami materi yang dipelajari, sehingga dapat meningkatkan prestasi siswa
+penyajian materi yang akan dilakukan dengan memanfaatkan teknologi augmented reality 
+menggabungkan objek 3d ke dalam lingkungan nyata tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+pada kasus ini materi sistem pernapasan yang dipelajari akan di visualisasikan dalam bentuk 3d
+sehingga dapat memberikan pengalaman secara nyata bagaimana sistem pernapasan itu berjalan didalam tubuh
+penelitian untuk membuat aplikasi augmented reality sistem pernapasan
+diharapkan aplikasi ini dapat menjadi alternatif dalam metode pembelajaran yang dapat menyajikan materi sistem pernapasan dengan lebih nyata sehingga dapat meningkatkan pemahaman siswa dalam materi yang di pelajari
+sistem pernapasan untuk sma kelas xi semester 2”, bernapas merupakan salah satu ciri makhluk hidup, istilah pernapasan sering disamakan dengan istilah respirasi
+walaupun sebenarnya kedua istilah tersebut secara harfiah berbeda
+bernapas berarti menghirup dan menghembuskan napas
+augmented reality dapat menggabungkan objek 3d ke dalam lingkungan nyata menggunakan media webcam
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+objek maya yang digabungkan ke dalam lingkungan nyata berfungsi menampilkan informasi yang tidak dapat di terima oleh manusia secara langsung
+hal ini membuat augmented reality berguna sebagai alat untuk membantu persepsi dan interaksi penggunanya dengan dunia nyatarosa a.s dan m
+shalahudin menyatakan, unified modeling language adalah standar pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+desain arsitektur sistem desain arsitektur sistem akan dijelaskan sebagai berikut : aplikasi yang sudah dibangun di install di perangkat android
+aplikasi yang sudah dijalankan akan mengakses kamera pada perangkat android yang bertujuan untuk mendetaksi marker
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika marker valid aplikasi akan menampilkan objek 3d animasi, suara, serta teks ke layar android
+pengujian aplikasi pengujian user acceptance test kepada guru, pre test dan post test kepada 66 siswa dan kompatibilitas aplikasi
+aplikasi ini dibangun untuk membantu siswa dalam memahami sistem pernapasan dan organ yang berjalan didalam tubuh
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 7
+tampilan menu ar mode gambar 4 merupakan tampilan menu ar mode dimana didalam menu ini akan ditampilkan objek 3d
+tampilan menu ar mode menampilkan teks penjelasan gambar 5 merupakan tampilan tampilan menu ar mode dimana di dalam menu ini akan ditampilkan teks penjelasan dari objek 3d yang ditampilkan
+tampilan menu kuis mode gambar 6 merupakan tampilan menu kuis mode saat menampilkan soal gambar 7
+tampilan menu kuis mode menampilkan skor dan jawaban gambar 7 merupakan tampilan tampilan menu kuis mode saat menampilkan skor dan jawaban
+hasil pengujian pengujian user acceptance test dilakukan untuk mengetahui persentase nilai daya terima pada aplikasi augmented reality sistem pernapasan yang gambarnya berasal dari buku biologi kelas x sma
+dengan nilai persentase acceptance ≥ 70% maka aplikasi augmented reality sistem pernapasan dapat diterima sebagai alternatif dalam metode pembelajaran
+pengujian dilakukan dengan cara memberikan pre test kepada 66 siswa yang terdapat didalam 2 kelas
+kelas xi ipa 4, dan xi ipa 5 dimana jumlah siswa pada masing-masing kelas berjumlah 33 orang
+pre test berjumlah 20 soal, dengan hanya 13 soal yang dilakukan penilaian
+masing-masing soal yang benar bernilai 8 poin, dan soal yang salah bernilai 0 poin, skor maksimum yang dapat diraih siswa adalah 100
+setelah pre test dilakukan, akan dihitung nilai rata-rata pre test dari 2 kelas yang diujikan
+kelas, kelas xi ipa 5 diarahkan untuk belajar menggunakan bantuan aplikasi dan kelas xi ipa 4 diarahkan untuk belajar tidak menggunakan bantuan aplikasi
+post test 20 soal dengan hanya 13 soal yang dilakukan penilaian
+bantuan aplikasi, dan kelas xi ipa 4 kelas yang tidak menggunakan bantuan aplikasi
+maka akan dibandingkan persentase kenaikan prestasi siswa dari perbandingan nilai rata-rata siswa saat pre test ke post test antara kelas yang menggunakan aplikasi augmented reality sistem pernapasan, dan kelas yang tidak menggunakan aplikasi berikut beberapa grafik rata - rata nilai dan grafik persentase kenaikan nilai, yang diperlihatkan pada gambar 8 dan gambar 9
+grafik nilai rata – rata pre test dan post test gambar 9
+kompatibilitas aplikasi beberapa perangkat android yang berbeda
+tabel 2 kamera versi 13 megapixels 13 megapixel 13 megapixel 8 megapixel 13 megapixel 2 megapixel 5 megapixel 5 megapixel 13 megapixel beberapa hal yang menjadi pengukuran sistem berhasil diinstal dan hasil pengujian kompabilitas yang ditunjukan pada tabel 4.5
+eksekusi file installer berhasil dilakukan pada perangkat smartphone android dengan sistem operasi versi 4.4 hingga versi 6.0 b
+pengujuan eksekusi menu dan fitur yang ada berjalan pada setiap perangkat smartphone android yang di ujikan
+tampilan sistem tidak sesuai dengan perancangan yang diinginkan jika sistem di install diperangkat yang memiliki layar kurang dari 4.0 inci
+analisis hasil pengujian dari tiga pengujian yang sudah dilakukan, dapat dianalisis beberapa poin hasil pengujian dari aplikasi augmented reality yang akan dijelaskan sebagai berikut
+dari hasi pengujian user acceptance test yang dilakukan nilai persentase yang didapatkan adalah 100%
+ini berarti aplikasi augmeted reality sistem pernapasan dapat diterima dengan persentase nilai acceptance ≥ 70%
+berdasarkan hasil pengujian pre test dan post test, untuk siswa kelas xi ipa 4, dan xi ipa 5 mempunyai nilai pre test 54, 18
+dan dari post test yang diberikan kelas xi ipa 4, kelas yang tidak menggunakan aplikasi mempunyai nilai rata-rata 87, 81
+sedangkan nilai post test untuk kelas xi ipa 5, kelas yang menggunakan aplikasi mempunyai nilai rata-rata 90, 18
+untuk persentase kenaikan nilai dari pre test ke post test, siswa kelas xi ipa 4, mempunyai persentase kenaikan nilai 62%
+sedangkan untuk siswa kelas xi ipa 5 mendapat kenaikan sebesar 66%
+jadi siswa yang belajar dengan bantuan aplikasi augmented reality sistem pernapasan nilai persentase kenaikannya lebih tinggi dari kelas yang hanya menggunakan buku, dengan selisih persentase kenaikan nilai sebesar 4%
+berdasarkan pengujian kompabilitas dapat diketahui bahwa aplikasi dapat di install diperangkat android dengan sistem operasi 4.4 sampai sistem operasi 6.0, dengan ukuran layar minal 4 inci
+kesimpulan/ringkasan penjelasan, dan menampilkan teks penjelasan berdasarkan marker dengan baik
+dari hasil pangujian user acceptance test aplikasi augmented reality sistem pernapasan dapat diterima dengan persentasi acceptance ≥ 70% dari hasil pengujian pre test dan post test aplikasi augmented reality sistem pernapan dapat membantu siswa untuk dapat lebih memahami materi sistem pernapasan, aplikasi dapat berjalan dengan lancar diberbagai jenis versi android mulai dari versi 4.4 hingga 6.0.1 berdasarkan pengujian kompatibilitas aplikasi

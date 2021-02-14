@@ -1,0 +1,5 @@
+di kota pontianak, mayoritas pelayanan wedding organizer masih bersifat konvensional, dan adanya keterbatasan dalam paket pernikahan dengan harga yang sudah baku
+sehingga diperlukan aplikasi wedding organizer di kota pontianak yang dapat berfungsi sebagai media yang memfasilitasi calon pengantin menemukan layanan jasa / produk sesuai dengan kriteria yang diinginkan
+sistem yang dibangun pada alur fitur pencarian menggunakan penalaran forward chaining
+hasil keluaran dari sistem ini adalah kisaran total biaya yang sesuai dengan layanan yang diinginkan
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 1830 yang berarti aplikasi ini dirancang dan dibangun dengan sangat baik

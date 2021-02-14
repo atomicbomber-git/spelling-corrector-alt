@@ -1,0 +1,90 @@
+kota pontianak merupakan ibu kota provinsi kalimantan barat yang terbagi atas enam kecamatan salah satunya adalah wilayah kecamatan pontianak barat
+wilayah pontianak barat dengan luas 16, 94 km² dikelola oleh seorang camat
+camat mempunyai fungsi pengkoordinasian upaya penyelenggaraan ketentraman penegakkan peraturan perundangundangan, masyarakat yang menjadi ruang lingkup tugasnya
+dengan wilayah yang cukup luas dan fungsi camat seperti diuraikan sebelumnya, camat memerlukan sebuah sistem penyampaian laporan seperti pengaduan, kritik dan saran ke pihak camat
+penyampaian pengaduan, informasi, kritik, dan saran lebih mudah diakses jika disajikan dalam sebuah perangkat lunak yang bisa dibawa kemana saja
+sehingga proses pengaduan, pemberian informasi, kritik dan saran dapat dilakukan di mana saja dan kapan saja
+tujuan penelitian ini adalah membuat sistem berbasis android yang dapat menjembatani penyampaian pengaduan, pemberian informasi, kritik dan saran kepada pihak camat
+sistem ini dibuat dengan dua platform yaitu untuk pengguna android yang menangani penyampaian pengaduan berupa foto dan isi dari pengaduan berupa lokasi, waktu, keterangan laporan dan pengguna web admin yang menangani pengelolaan laporan yang masuk dengan mencetak lembar pengaduan masyarakat dan dikoordinasikan penindakannya dengan pihak yang terkait dengan laporan
+berdasarkan hasil pengujian, fitur laporkan dan lihat laporan dapat berjalan dengan baik pada perangkat mobile android dengan minimal sistem operasi android 5.0 dan dapat beradaptasi dengan ukuran layar 4 inci hingga 5, 7 inci
+berdasarkan hasil kuisioner menggunakan skala likert’s summated rating diperoleh nilai total 585 yang berada antara 400 – 600, artinya positif 
+sistem yang dibuat terdiri dari aplikasi android dan web admin dapat diterima oleh pengguna, baik itu pengguna aplikasi android maupun admin
+sistem penyampaian laporan dalam pelayanan publik terdapat hak masyarakat untuk menyampaikan keluhan atau masukan atas pelayanan yang diterima apabila terdapat ketidaksesuaian dalam standar pelayanan
+selain itu, masyarakat juga berhak untuk memperoleh tanggapan atas pengaduannya
+hal ini sebagaimana yang diatur dalam uu nomor 25 tahun 2009 tentang pelayanan publik pasal 18 ayat bahwa masyarakat berhak mendapatkan tanggapan terhadap pengaduan yang diajukan
+kondisi ini tentu memerlukan perhatian serius dalam upaya memperbaiki manajemen pelayanan pengaduan pelayanan publik
+kalimantan barat yang terbagi atas enam kecamatan salah satunya adalah wilayah kecamatan pontianak barat
+wilayah pontianak barat yang terdiri atas empat kelurahan, dengan batas wilayah utara berbatasan dengan sungai kapuas, timur berbatasan dengan kecamatan pontianak kota, selatan berbatasan dengan desa pal sembilan kecamatan sungai kakap, barat berbatasan dengan desa sungai rengas, kecamatan sungai kakap dikelola oleh seorang camat
+camat mempunyai fungsi pengkoordinasian kegiatan pemberdayaan masyarakat, pengkoordinasian pengkoordinasian penerapan dan penegakkan peraturan perundangundangan, pengkoordinasian pemeliharaan rancang bangun aplikasi pelaporan tamat untuk wilayah kecamatan pontianak barat muhammad iqbal asyrafi#1, arif bijaksana putra negara#2, rudy dwi nyoto#3 #program studi informatika universitas tanjungpura jl
+laporan seperti pengaduan, kritik dan saran ke pihak camat yang dilakukan secara manual yang mengharuskan masyarakat datang langsung ke kantor camat akan memakan waktu sehingga masyarakat akan kesulitan dalam menyampaikannya
+dalam pengelolaan laporan pun dibutuhkan sistem yang memudahkan admin dari pihak camat, sehingga laporan dapat terkelola dengan baik
+hal tersebut berpengaruh pada penindakan dari pihak camat, karena pihak camat pun harus membuat surat pengantar ke dinas terkait untuk menindak laporan tersebut
+penanganan pengaduan berbasis aplikasi web yang saat ini berlangsung adalah pertama, operator menerima laporan lewat web kemudian memberikan respon kepada pelapor bahwa laporan akan segera di proses, selanjutnya mencetak lembar pengaduan yang akan di verifikasi oleh bagian perencanaan, kemudian diserahkan ke sekretaris camat untuk dapat di disposisikan oleh camat yang selanjutnya akan diberikan kembali pada bagian perencanaan dan di tangani sesuai instruksi camat
+pelayanan pengaduan, informasi, kritik, dan saran lebih mudah diakses jika disajikan dalam sebuah perangkat lunak yang bisa dibawa kemana saja
+sistem operasi android saat ini semakin menjadi pilihan utama pengguna smartphone, selain dapat dimodifikasi bebas dan didistribusikan oleh para pembuat perangkat, juga memiliki aplikasi dalam jumlah sangat besar
+android merupakan platform paling populer bagi para pengembang, dan digunakan oleh 71% pengembang aplikasi seluler
+android juga menjadi sistem operasi telepon pintar paling teratas yang paling banyak digunakan di dunia, mengalahkan posisi berturut-turut symbian, blackberry, ios, dan windows
+dengan aplikasi berbasis android yang dapat menampilkan seluruh laporan yang masuk beserta status dan respon dari pihak camat tentang perkembangan laporan yang dapat dilihat oleh pelapor
+selain itu juga mudah diakses untuk mempermudah pelayanan
+masyarakat dalam menyampaikan keluhan, kritik dan saran ke pihak camat pontianak barat
+sistem yang akan dirancang dan dibangun adalah sebuah aplikasi berbasis android dan sistem pengelolaan laporan berbasis web
+penyampaian pelaporan dari masyarakat menggunakan perangkat elektronik berupa smartphone android yang terkoneksi dengan internet ii
+pelayanan publik nomor 25 tahun 2009 tentang pelayanan publik, pelayanan publik adalah kegiatan atau rangkaian kegiatan dalam rangka pemenuhan kebutuhan pelayanan sesuai dengan peraturan perundang-undangan bagi setiap warga negara dan penduduk atas barang, jasa, dan/atau pelayanan administratif yang disediakan oleh penyelenggara pelayanan publik
+android dan google merilisnya dibawah lisensi apache
+kode dengan sumber terbuka dan lisensi perizinan pada android memungkinkan perangkat lunak untuk dimodifikasi secara bebas dan didistribusikan oleh pengembang aplikasi
+sistem operasi android menawarkan sebuah lingkungan yang berbeda untuk pengembang, setiap aplikasi memiliki tingkatan yang sama
+android tidak membedakan antara aplikasi inti dengan aplikasi pihak ketiga
+api yang disediakan menawarkan akses ke hardware, maupun data- data ponsel sekalipun, atau data sistem sendiri
+android studio terpadu – integrated development environment untuk pengembangan aplikasi android
+android studio menyediakan alat untuk membuat aplikasi di setiap tipe perangkat android
+pengeditan kode kelas tinggi, debug, alat pengukur kinerja dan sistem buat/terapkan seketika, semua memungkinkan untuk membuat aplikasi unik dan berkualitas tinggi
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+ menyatakan bahwa, diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+arsitektur sistem dari pengguna untuk melakukan laporan, aplikasi melakukan request layanan gps untuk mendapatkan titik lokasi laporan yang kemudian ditampilkan pada form laporan
+web service untuk mendapatkan sms validasi laporan
+kemudian data yang di unggah ditampilkan pada web admin untuk diverifikasi agar bisa ditampilkan pada smartphone pengguna
+pengujian aplikasi mobile yang menguji 3 aspek yaitu, aspek functional, compatibility dan usability
+pada web admin dilakukan dua pengujian yaitu, blackbox-requirement testing dan kuisioner untuk admin
+melaporkan kejadian dan web admin untuk pengelolaan penerimaan laporan
+adapun hasil perancangan aplikasi adalah sebagai berikut
+sudah masuk ke sistem dengan tiga kategori laporan yaitu, laporan baru, laporan ditindaklanjuti dan laporan ditolak
+tampilan menu navigasi gambar 8 merupakan menu navigasi untuk memilih jenis laporan
+gambar 9 merupakan tampilan detail dari laporan sarana
+gambar 11 merupakan tampilan tambah laporan pada menu laporan sarana
+gambar 12 merupakan tampilan tambah laporan pada menu laporan pelayanan
+gambar 13 merupakan tampilan halaman tentang aplikasi
+tampilan web admin pada tab sarana
+gambar 14 merupakan tampilan halaman admin dalam mengelola laporan sarana
+hasil pengujian requirement testing, tiga halaman yang dilakukan pengujian yaitu timeline, tambah laporan dan validasi pelapor
+hasil pengujian ditunjukkan pada tabel 1, 2 dan 3
+pengujian aspek functional halaman timeline jenis pengujian hasil yang diharapkan hasil uji memilih menu laporan sarana
+menampilkan tab menekan tombol saat memilih menu navigasi laporan sarana aplikasi berhasil menampilkan tab laporan sarana yang berisi tiga klasifikasi laporan yaitu, laporan baru, laporan ditindaklanjuti dan laporan ditolak begitu juga dengan laporan pelayanan
+setelah itu pengujian dilanjutkan dengan memilih salah satu laporan, aplikasi berhasil menampilkan detail dari laporan yang dipilih
+kemudian pada saat menekan tombol tambah laporan aplikasi berhasil menampilkan halaman buat laporan dan menangkap titik lokasi laporan berupa teks alamat dari tempat laporan dibuat
+didalam halaman tambah laporan aplikasi juga mendeteksi waktu dari laporan yang dibuat dan dapat diketik ulang
+jenis pengujian hasil yang diharapkan hasil uji menekan tombol ambil gambar
+sistem memberikan menekan tombol ambil gambar aplikasi berhasil menampilkan dua pilihan dalam memasukkan gambar yaitu ambil dari galeri dan ambil dari kamera
+setelah mengisi seluruh kolom yang ada pada halaman buat laporan dan menekan tombol laporkan, aplikasi berhasil mengunggah laporan dan mengirimkan nomor validasi pelapor ke nomor telepon yang dimasukkan pada kolom buat laporan
+pengujian aspek functional halaman validasi pelapor mengisikan kode validasi laporan berhasil berpindah ke halaman timeline dan pelapor dapat melaporkan pengaduan yang lain
+menginstal aplikasi pada versi sistem operasi android dan resolusi layar yang berbeda
+pengujian aplikasi android aspek usability pengujian aspek usability dilakukan dengan kuisioner yang dibagikan kepada 25 responden untuk menguji seberapa mudah tampilan dimengerti pengguna
+pengujian requirement testing web admin jenis menekan tab admin, pada saat menekan tab laporan sarana data laporan yang sudah masuk tampil dalam bentuk tabel begitu juga pada tab laporan pelayanan
+pada saat menekan tombol cetak, aplikasi berhasil membuat lembar pengaduan masyarakat dalam format pdf dan siap dicetak
+untuk memperbaharui laporan, pengguna menekan tombol kemajuan laporan, aplikasi berhasil menampilkan form yang berisi detail laporan yang dipilih beserta kolom respon yang harus diisi oleh admin, pada saat menekan tombol simpan untuk menyimpan perubahan pada data
+kemudian pada saat menekan tombol hapus, aplikasi berhasil menampilkan warning box dengan pilihan ―ok‖ untuk menghapus dan batal untuk membatalkan
+setelah menekan tombol ―ok‖ data laporan berhasil dihapus
+pengujian kuisioner web admin no pertanyaan tanggapan 1 2 3 2
+detail laporan sarana dapat terlihat ? 1 terlihat ? 1 dicetak? 1 saran mudah dimengerti? 1 pelayanan mudah dimengerti? 1 hasil dari kuisioner menunjukkan bahwa admin dapat membedakan jenis laporan yaitu laporan sarana dan laporan pelayanan dari halaman yang dibuat
+detail laporan sarana dan pelayanan dapat terlihat dengan mudah
+lembar pengaduan masyarakat baik itu laporan sarana maupun pelayanan dapat dicetak dengan mudah
+admin juga dapat mengerti maksud dari form kemajuan laporan yang ditampilkan dari laporan sarana maupun pelayanan
+kesimpulan laporan tamat untuk wilayah kecamatan pontianak barat berbasis android dapat disimpulkan bahwa: 1
+berhasil merancang dan membangun aplikasi pelaporan tamat untuk wilayah kecamatan pontianak barat berbasis android
+pengujian kualitas aplikasi mobile yang menguji tiga aspek yaitu functional, compatibility¸ dan usability menunjukkan bahwa aplikasi yang telah dibuat berhasil menjalankan fungsi sesuai dengan perancangan, aplikasi dapat berjalan pada setiap perangkat smartphone dimulai dari versi android 5.0 dan berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 585 yang berarti aplikasi ini diimplementasikan dengan sangat baik
+begitu juga pada pengujian blackbox dan kuisioner pada halaman admin, dari pengujian tersebut menunjukkan bahwa admin mudah memahami tampilan dari halaman
+sistem yang dibuat terdiri dari aplikasi android dan web admin dapat diterima oleh pengguna, baik itu pengguna aplikasi android maupun admin

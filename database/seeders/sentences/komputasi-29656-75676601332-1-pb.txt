@@ -1,0 +1,131 @@
+beasiswa merupakan bentuk penghargaan yang ditujukan kepada pelajar
+berbagai pertimbangan dilakukan untuk menemukan sasaran secara tepat dan cepat
+sistem pendukung keputusan merupakan sistem berbasis komputer yang membantu proses pengambilan keputusan untuk menghasilkan alternatif pilihan terbaik dengan cepat dan mengurangi terjadinya human error
+tujuan penelitian ini adalah membangun sebuah sistem pengambilan keputusan yang dapat digunakan untuk penyeleksian mahasiswa penerima beasiswa bbp-ppa yang akan diterapkan pada fakultas teknik universitas tanjungpura
+topsis merupakan metode yang diimplemtasikan pada spk seleksi mahasiswa penerima beasiswa ini
+model pengembangan sistem menggunakan konsep system development life cycle 
+pengujian sistem dilakukan dengan tiga cara, yaitu pengujian black box, user acceptance test dan pengujian metode
+dari pengujian yang telah dilakukan, pengimplementasian metode topsis cocok untuk digunakan pada kasus ini
+secara keseluruhan, spk yang menerapkan metode topsis dapat membantu pihak yang bersangkutan dengan mengatasi permasalahan human error dan mempercepat proses penyeleksian mahasiswa penerima beasiswa bbp-ppa
+pendahuluan sistem pendukung keputusan atau decision support system adalah suatu proses pengambilan keputusan yang menggunakan komputer untuk membantu pengambilan keputusan dengan menggunakan beberapa data dan model tertentu untuk menyelesaikan beberapa masalah yang tidak terstruktur
+spk telah digunakan secara luas untuk membantu pengambilan keputusan di bidang perbankan, kesehatan begitupun di bidang pendidikan
+salah satu contoh spk bekerja pada bidang pendidikan yaitu beasiswa
+seperti yang diketahui bahwa beasiswa merupakan bentuk apresiasi kepada pelajar agar dapat melanjutkan pendidikan ke jenjang yang lebih tinggi
+beasiswa merepresentasikan penghargaan atas prestasi yang dicapai oleh pelajar, disamping itu beasiswa juga dapat diberikan atas unsur ketidaksanggupan mahasiswa dalam segi ekonomi
+bantuan biaya pendidikan- peningkatan prestasi akademik
+beasiswa bbp-ppa adalah salah satu beasiswa yang diberikan kepada mahasiswa berdasarkan kedua faktor tersebut
+beasiswa ini diselenggarakan oleh kementerian riset, teknologi dan pendidikan tinggi
+dalam penyeleksian mahasiswa penerima beasiswa bbp- ppa, human error merupakan faktor yang dapat menyebabkan beasiswa menjadi tidak tepat sasaran
+selain itu dapat pula dikarenakan tercecernya data mahasiswa yang dikumpulkan berupa lembaran kertas dan pendataan mahasiswa ke dalam excel satu per satu yang dilakukan oleh admin memakan waktu lebih lama
+sistem pendukung keputusan yang didefinisikan sebagai sebuah sistem cerdas yang mengikutsertakan sistem berbasis pengetahuan untuk mendukung aktifitas pembuatan keputusan dengan cepat dan tepat, diharapkan mampu membantu proses penyeleksian mahasiswa dengan dukungan metode didalamnya
+technique for order preference by similarity to ideal solution
+metode topsis merupakan salah satu metode yang banyak digunakan untuk menyelesaikan pengambilan keputusan secara praktis
+berdasarkan latar belakang yang telah diuraikan diatas, maka diperlukannya sebuah sistem yang mampu membantu proses penyeleksian mahasiswa dengan kriteria yang telah ditetapkan sehingga objektifitas penyeleksian dapat dijaga
+dengan adanya dukungan spk yang menerapkan metode topsis, tentu dapat mengatasi beberapa persoalan yang terjadi pada penyeleksian mahasiswa penerima beasiswa bbp- ppa
+spk yang terkomputerisasi akan dibangun dalam penelitian ini dan diterapkan pada fakultas teknik universitas tanjungpura, dimana hingga saat ini masih melakukan pemberkasan fisik dan penyortiran dengan microsoftt excel
+literature review penelitian terkait yang dijadikan sebagai dasar dari penelitian yang dilakukan saat ini yaitu dari septiana yang mengemukakan permasalahan banyaknya berkas pengajuan diri mahasiswa untuk mendapatkan beasiswa dengan bantuan microsoft office excel
+indikator penilaiannya adalah penghasilan orangtua, jumlah tanggungan, ipk dan semester
+metode yang digunakan adalah elimination et choix traduisant la realite 
+sistem pendukung keputusan sistem pendukung keputusan atau decision support sistem merupakan sebuah sistem untuk mendukung para pengambil keputusan manajerial dalam situasi keputusan semi terstruktur
+dss dimaksudkan untuk menjadi alat bantu bagi para pengambil keputusan untuk memperluas kapabilitas mereka, namun tidak untuk menggantikan penilaian mereka
+sedangkan menurut kusrini, sistem pendukung keputusan merupakan suatu sistem informasi yang menyediakan informasi, pemodelan dan pemanipulasian data
+dari pengertian diatas dapat disimpulkan bahwa spk dijadikan sebagai alat bantu bagi para pengambil keputusan untuk memecahkan masalah menggunakan sebuah sistem yang menyediakan informasi, namun tidak untuk menggantikan penilaian mereka sebagai pengambil keputusan
+system development life cycle sdlc atau siklus hidup perkembangan sistem adalah suatu proses berkelanjutan dari perencanaan, analisis, desain dan implementasi yang pada setiap prosesnya dilakukan perbaikan secara bertahap
+sedangkan menurut satzinger et al, pada umumnya sdlc memiliki 5 fase utama yaitu fase perencanaan, fase analisis, fase desain, fase implementasi dan fase dukungan 
+waterfall waterfall merupakan metode pendekatan yang menggambarkan siklus secara sistematis dan berurutan pada pengembangan perangkat lunak, dimulai dengan spesifikasi kebutuhan pengguna berlanjut pada tahapan perencanaan, permodelan, konstruksi, serta penyerahan sistem pada para pengguna, yang diakhiri dengan dukungan pada perangkat lunak lengkap yang dihasilkan
+tahapan-tahapan model waterfall dapat dilihat pada gambar 1
+tahapan metode waterfall adapun penjelasan dari tahapan-tahapan metode waterfall menurut sommerville sebagai berikut
+requirement analysis and definition tahapan penerapan fitur, kendala, dan tujuan sistem melalui konsultasi dengan pengguna sistem
+semua hal tersebut akan ditetapkan secara rinci dan berfungsi sebagai spesifikasi sistem
+system and software design pada tahap system and software design ini akan dibentuk suatu arsitektur sistem berdasarkann persyaratan yang telah ditetapkan
+implementation and unit testing pada tahapan ini, hasil dari desain perangkat lunak akan direalisasikan sebagai satu set program
+setiap unit akan diuji apakah sudah memenuhi spesifikasinya
+integration and system testing dalam tahapan ini, setiap unit program akan diintegrasikan satu sama lain dan diuji sebagai satu sistem utuh untuk memastikan sistem sudah memenuhi persyaratan yang ada
+setelah itu sistem akan dikirim ke pengguna sistem
+operation and maintenance dalam tahapan ini, sistem mulai digunakan selain itu juga memperbaiki error dan menambah fitur yang diperlukan
+pengembangan diperlukan ketika adanya perubahan dari pengguna seperti pergantian dari sistem operasi, atau perangkat lainnya
+pengujian perangkat lunak pengujian perangkat lunak adalah proses formal yang ditentukan oleh tim pengujian yang meliputi unit perangkat lunak, beberapa unit perangkat lunak terintegrasi atau seluruh package perangkat lunak yang ditentukan oleh program yang berjalan di komputer
+seluruh tes saling terkait dan adanya pengujian dan kasus pengujian
+terdapat 3 pengujian yang dilakukan terhadap aplikasi spk yang dibangun ini, yaitu: 1
+pengujian black box pengujian fungsional atau black box merupakan pendekatan pengujian yang ujinya diturunkan dari spesifikasi program atau komponen
+sistem merupakan ‘kotak hitam’ yang perilakunya hanya dapat ditentukan dengan mempelajari input dan output yang berkaitan
+nama lain untuk cara ini adalah pengujian fungsional karena penguji hanya berkepentingan dengan fungsionalitas dan bukan implementasi perangkat lunak
+pengujian user acceptance test pengujian user acceptance test menurut perry merupakan pengujian yang dilakukan oleh end-user dimana user tersebut adalah karyawan perusahaan yang langsung berinteraksi dengan sistem dan dilakukan verifikasi apakah fungsi yang ada telah berjalan sesuai dengan kebutuhan/fungsinya
+pada tahap pengujian uat dilakukan dengan menggunakan in-depth interview, dimana keterangan diperoleh untuk tujuan penelitan dengan cara tanya jawab antara pewawancara dengan responden dengan atau tanpa menggunakan pedoman wawancara dimana pewawancara dan informan terlibat dalam kehidupa sosial yang relatif lama
+pengujian metode pengujian metode dilakukan dengan mengambil beberapa sampel data mahasiswa yang telah mendapatkan status beasiswa oleh wakil dekan iii pada penerimaan beasiswa sebelumnya, kemudian dari sampel tersebut dilakukan perhitungan pada sistem yang telah menerapkan metode topsis
+dari hasi perhitungan pada sistem dilakukan perbandingan dengan status mahasiswa
+kemudian dilakukan analisis bagi data yang memiliki ketidakcocokan antara perhitungan dan status mahasiswa
+diagram alir penelitian langkah-langkah penelitian yang dilakukan dapat dilihat pada gambar 2 sebagai berikut
+diagram alir penelitian berikut penjelasan dari langkah-langkah diagram alir penelitian: 1
+pengumpulan data pengumpulan data dilakukan dengan wawancara kepada pihak yang bersangkutan yaitu wakil dekan bidang kemahasiswaan dan alumni serta staff yang ikut terlibat dalam penyeleksian beasiswa ini untuk mendapatkan informasi tentang penerimaan beasiswa yang dilakukan sebelumnya
+adapun pertanyaan yang diajukan kepada pihak pengambil keputusan seputar kriteria apa saja yang digunakan untuk menyeleksi mahasiswa, tingkat prioritas kriteria, dimulai dan hingga semester berapa mahasiswa dapat mendaftarkan diri sebagai calon penerima beasiswa, persyaratan apa saja yang dibutuhkan untuk dijadikan bahan pertimbangan serta data diri yang dibutuhkan untuk keperluan pendaftaran
+analisis kebutuhan sistem menjabarkan permasalahan yang ada dan mencari solusi untuk mengatasi permasalahan dengan menganalisis kebutuhannya, contohnya seperti kriteria apa saja yang dibutuhkan untuk mendapatkan mahasiswa yang berhak mendapatkan beasiswa sesuai dengan kriteria yang telah ditentukan
+perancangan sistem perancangan sistem diawali dengan melakukan perancanga arsitektur sistem, perancangan diagram arus data, perancangan basis data sistem, perancangan antarmuka sistem, dan perancangan pengujian sistem
+pembuatan sistem pada tahap ini sistem akan dibuat berdasarkan perancangan yang telah dilakukan sebelumnya
+pengimplementasiannya dengan membangun sebuah spk berbantuan komputer yang sudah memiliki tampilan dan menghasilkan alternatif mahasiswa yang telah melewati perhitungan
+pengujian sistem tahap ini adalah tahap dimana suatu aplikasi dinilai apakah sudah menghasilkan alternatif dengan sangat bijak dan sesuai dengan kebutuhan dari permasalah yang ada
+analisis hasil pengujian dilakukan analisis terhadap sistem secara menyeluruh dan hasil pengujian pada tahap sebelumnya
+penarik kesimpulan kesimpulan dirumuskan berdasarkan pengujian yang telah dilakukan apakah sistem yang dirancang sesuai dengan tujuan yang ingin dicapai dan mampu memberikan informasi sesuai dengan kebutuhan pengguna sistem
+arsitektur sistem arsitektur sistem merupakan cara yang digunakan untuk menggambarkan sistem yang berjalan sekarang ini yang didapatkan dari wawancara
+perancangan arsitektur sistem dapat dilihat pada gambar 3 berikut
+arsitektur spk seleksi mahasiswa penerima beasiswa bbp-ppa c
+perancangan diagram arus data diagram arus data menggambarkan arus data di dalam sistem dengan struktur yang jelas agar lebih mudah untuk dipahami
+dalam diagram arus data juga terdapat proses yang mentransformasikan data, aliran data yang menggerakan data, serta store yang menjadi tempat penyimpanan data
+diagram konteks sistem diagram konteks merupakan level tertinggi dari dfd yang menggambarkan seluruh input atau output dari sistem dan hanya terdapat satu proses yang menunjukan sistem secara keseluruhan
+pada diagram konteks spk seleksi mahasiswa penerima beasiswa bbp-ppa terdapat 3 entitas yaitu mahasiswa, admin dan wd iii
+diagram konteks dapat dilihat pada gambar 4 berikut
+diagram overview sistem diagram overview dikenal juga sebagai diagram nol dimana diagram ini memberikan gambaran secara menyeluruh mengenai sistem yang ditangani, menunjukkan tentang fungsi- fungsi utama atau proses yang ada, aliran data, dan entitas luar
+diagram overview sistem pada sistem dapat dilihat pada gambar 5
+berikut penjelasan mengenai diagram overview pada sistem yang sedang berlangsung: a
+proses 1.0 adalah daftar, yaitu proses yang dilakukan oleh mahasiswa yang belum terdaftar, identitas diri seperti nama, nim dan password akan otomatis tersimpan didalam tabel user
+proses 2.0 adalah log in, yaitu proses yang harus dilakukan oleh pengguna dengan memasukkan username dan password, kemudian sistem akan mengakses database berupa tabel user dan mengecek apakah valid, jika sudah maka pengguna dapat mengakses sistem sesuai dengan haknya
+proses 3.0 adalah manajemen mahasiswa, yaitu proses dimana mahasiswa mengisikan data diri yang dibutuhkan oleh sistem serta meng-upload beberapa berkas penting seperti bukti prestasi akademik berupa transkip nilai, bukti prestasi non akademik berupa piagam, bukti penghasilan orangtua dan surat keterangan tidak mampu yang nantinya data tersebut akan diverifikasi oleh admin untuk dilanjutkan pada proses perhitungan untuk dilakukan penyeleksian mahasiswa
+proses 4.0 adalah perhitungan, yaitu proses yang dilakukan oleh wd iii untuk melakukan penyeleksian diikuti dengan kebijakan fakultas sehingga menghasilkan alternatif mahasiswa yang berhak menerima beasiswa sesuai dengan kuota yang telah ditentukan
+diagram rinci sistem diagram rinci menguraikan lebih lanjut mengenai proses dari diagram overview yang memperlihatkan arus data, masuk dan arus data keluar
+diagram rinci dari setiap proses dapat dilihat pada gambar berikut
+proses 1.0 yaitu proses daftar awal bagi mahasiswa yang belum memiliki akun sebelumnya
+dalam proses ini hanya terdapat 1 proses rinci yang dapat dilihat pada gambar 6
+proses 2.0 yaitu proses log in yang harus dilakukan oleh pengguna dengan memasukkan username dan password, kemudian sistem akan mengakses data pada tabel user unuk mengecek kebenaran data input tersebut
+jika data yang dimasukkan valid, maka pengguna dapat mengakses sistem sesuai dengan haknya
+proses log in terbagi menjadi 2 proses rinci yang ditunjukkan pada gambar 7
+proses 3.0 merupakan proses manajemen mahasiswa yang dapat diakses oleh mahasiswa dan admin, dimana mahasiswa menginputkan berbagai data yang diminta oleh sistem sedangkan admin dapat melakukan verifikasi atas data-data mahasiswa yang telah terdaftar
+proses ini terbagi menjadi 3 proses rinci yang dapat dilihat pada gambar 8 berikut dan dijabarkan sebagai berikut: a
+proses 3.1 input data mahasiswa pada proses ini mahasiswa harus mengisi sejumlah data diri mulai dari formulir hingga meng-upload bukti prestasi non akademik yang didapatkan oleh mahasiswa yang bersangkutan
+proses 3.2 periksa data merupakan proses yang dapat dilakukan oleh mahasiswa untuk memeriksa kembali data yang telah di-input sehingga meminimalisir kesalahan penginputan data
+proses ini juga dapat dilakukan oleh admin sebelum akhirnya memasuki proses verifikasi
+proses 3.3 verifikasi data mahasiswa proses verifikasi ini hanya dapat dilakukan oleh admin setelah data mahasiswa diperiksa dan dianggap layak untuk direkomendasikan menjadi alternatif mahasiswa yang berhak menerima beasiswa sesuai dengan ketentuan dari pihak penyelenggara beasiswa
+proses 4.0 merupakan proses perhitungan yang dapat dilakukan oleh satu pengguna saja yaitu wd iii
+proses ini terbagi menjadi 3 proses rinci yang dapat dilihat pada gambar 9 dan dijabarkan sebagai berikut: a
+proses 4.1 cek data terverifikasi setelah data mahasiswa diverifikasi oleh admin, dilanjutkan oleh wd iii untuk mengecek data yang telah masuk
+wd iii dapat melihat mahasiswa yang telah diverifikasi berasal dari prodi apa saja hingga ipk dan jumlah semester yang telah ditempuh
+proses 4.2 perhitungan pada proses ini sistem akan menghitung sesuai dengan metode yang telah ditetapkan yaitu topsis dengan kriteria yang sudah ditentukan oleh pihak penyelenggara beasiswa, dimana nantinya kriteria tersebut yang menjadi tolak ukur penilaian seluruh mahasiswa tervalidasi
+proses 4.3 hasil pada proses hasil ini, sistem menampilkan tingkat seberapa layak mahasiswa tersebut menerima beasiswa dengan menghitung antara data diri mahasiswa dengan kriteria yang ditampilkan dalam bentuk urutan mahasiswa dengan perhitungan tertinggi
+perancangan antarmuka sistem perancangan antarmuka sistem merupakan gambaran awal yang dibuat untuk mempermudah dalam memahami suatu sistem yang akan dibangun
+terdapat beberapa pengguna yang terlibat didalamnya, yaitu mahasiswa, admin dan wakil dekan iii
+struktur perancangan dapat dilihat pada gambar 10
+hasil dan pembahasan perancangan yang telah dilewati untuk membangun sebuah spk seleksi mahasiswa penerima beasiswa bbp-ppa yaitu perancangan arsitektur sistem, diagram arus data, diagram alir sistem, basis data dan antarmuka sistem
+adapun perancangan antarmuka dari spk diantaranya antarmuka mahasiswa, antarmuka admin dan antarmuka wd iii
+berikut salah satu contoh antarmuka mahasiswa yang dapat dilihat pada gambar 11
+hasil pengujian pengujian yang dilakukan pada spk seleksi mahasiswa penerima beasiswa menggunakan black box testing, uat dan pengujian metode untuk mengetahui tingkat keberhasilan dari spk yang dibangun
+pengujian black box pengujian black box digunakan untuk mengecek fungsionalitas dan output yang dihasilkan apakah sudah sesuai dengan yang diharapkan
+pengecekan fungsionalitas memastikan bahwa semua kebutuhan telah dipernuhi dalam sistem
+berdasarkan pengujian black box yang dilakukan terhadap aspek input data yang berupa name, user id, email dan password pada aplikasi spk seleksi mahasiswa penerima beasiswa, saat dilakukan input dengan salah satu atau keseluruhan data kosong, data yang tidak sesuai, maka muncul pemberitahuan bahwa terjadi kesalahan pada saat input data dilakukan
+dengan begitu, sistem sudah dapat menangani pengisian data sesuai dengan yang diharapkan
+pengujian user acceptance test pada pengujian user acceptance test dilakukan dengan teknik in-depth interview dimana tanggapan dan umpan balik didapatkan melalui beberapa hal yang menjadi poin utama dalam wawancara, dimulai dari presentasi dengan memperkenalkan sistem yang dibuat, berdiskusi dengan melakukan tanya jawab dan melakukan uji coba sistem yang ditujukan kepada pihak yang terlibat dalam penyeleksian beasiswa bbp-ppa
+adapun profil dari responden dalam pembangunan spk ini yaitu wd iii dan admin
+berdasarkan hasil wawancara, dari aspek kemudahan dan kegunaan yang ditawarkan dari aplikasi sudah dapat dirasakan oleh 2 responden yang terlibat didalam penyeleksian beasiswa bbp-ppa ini
+secara keseluruhan sistem sudah layak untuk digunakan dibuktikan dengan tanggapan yang diberikan oleh responden 1 dan responden 2, hanya perlu sedikit tambahan untuk meningkatkan kegunaan aplikasi spk seleksi mahasiswa penerima beasiswa bbp-ppa agar mampu diimplementasikan pada fakultas teknik untan
+ : “sudah bisa digunakan, segala tampilan tidak menjadi masalah
+” : “sudah bisa dipakai, membantu sekali
+saya sebagai admin sudah merasa puas karena sudah lama belum ada yang seperti ini
+setidaknya untuk penyeleksian beasiswa bbp-ppa saya sudah terbantu
+hanya saja perlu menambahkan kolom untuk mahasiswa mengisikan tahun pertama kali masuk kuliah dan jumlah uang semester
+pengujian metode pengujian metode dilakukan dengan mengumpulkan beberapa data mahasiswa secara acak baik yang diterima maupun ditolak pada beasiswa bbp-ppa 2018
+dari hasil perhitungan yang dilakukan, aplikasi menampilkan data mahasiswa dengan mengurutkan nama-nama yang berpeluang besar mendapatkan beasiswa, kemudian ditulis kembali pada tabel pengujian metode dengan keterangan hasil yang menampilkan angka perhitungan dari sistem yang telah diubah kedalam bentuk persentase
+berikut tabel metode mahasiswa dapat dilihat pada tabel 1
+tabel 1 g d10911 71030 ridha nadea putri 3, 12 - - - 4.592.000 ditolak 0% keterangan: pn = piagam nasional pr = piagam regional pi = piagam internasional po = penghasilan orangtua berdasarkan dari hasil perhitungan pada spk seleksi mahasiswa penerima beasiswa dengan metode topsis dapat disimpulkan bahwa sistem mampu menentukan status beasiswa mahasiswa yang ditentukan oleh wd iii
+dari 9 sampel data mahasiswa, hanya terdapat 1 alternatif mahasiswa yang kurang cocok antara status yang diberikan oleh wd iii dan hasil perhitungan aplikasi spk
+berdasarkan penyeleksian yang dilakukan wd iii, alternatif h diterima dalam pengajuan beasiswa namun pada penyeleksian yang dilakukan dengan perhitungan aplikasi, alternatif h berpeluang kecil untuk mendapatkan beasiswa dikarenakan angka perhitungan yang didapat hanya 29, 89% namum dengan kebijakan dari fakultas, wd iii mampu mempertimbangkan semester yang telah ditempuh yaitu semester 6 dan memberikan beasiswa kepada yang bersangkutan
+berdasarkan pengujian black box yang dilakukan memberikan hasil bahwa input/output data sudah sesuai harapan dan pada pengujian user acceptance test yang dilakukan terhadap 2 responden, didapatkan kesimpulan bahwa sistem yang dibangun sudah membantu menghasilkan keputusan, hanya perlu penambahan untuk meningkatkan sistem kearah yang lebih baik
+berdasarkan pengujian metode yang dilakukan dengan membandingkan data mahasiswa dan hasil perhitungan aplikasi spk, dapat dikatakan sistem sudah layak untuk diterapkan pada kasus penyeleksian beasiswa bbp-ppa karena dari 9 sampel hanya terdapat 1 data mahasiswa yang kurang cocok
+aplikasi spk memberikan hasil bahwa mahasiswa tersebut berpeluang kecil untuk bisa diterima pada pemberian beasiswa ini, namun wd iii memberikan kesempatan kepada mahasiswa yang bersangkutan untuk dapat menerima beasiswa dikarena terdapat kebijakan dari fakultas untuk mempertimbangkan semester yang ditempuh mahasiswa tersebut

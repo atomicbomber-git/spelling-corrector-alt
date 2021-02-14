@@ -1,0 +1,101 @@
+teknologi augmented reality dapat dimanfaatkan sebagai alat bantu belajar termasuk pembelajaran kimia struktur molekul
+hal ini dikarenakan praktik dalam pembelajaran stuktur molekul pada mata pelajaran kimia masih menggunakan buku paket dan akan lebih baik jika ditambahkan informasi didalamnya
+kelebihan dari augmented reality adalah tampilan visual yang menarik, karena dapat menampilkan objek 3 dimensi beserta animasinya yang seakan-akan ada pada lingkungan nyata sehingga augmented reality diharapkan dapat digunakan sebagai salah satu alternatif media pembelajaran untuk mengenalkan yang terkait dengan materi struktur molekul sehingga dapat membuat pengguna tertarik
+untuk membangun aplikasi berbasis android digunakan game engine unity serta menggunakan vuforia sdk agar aplikasi yang dibangun memungkinkan menjadi aplikasi berteknologi augmented reality, disertai dengan sebuah buku yang berisi marker yang apabila diarahkan ke aplikasi dapat menampilkan visualisasi objek 3d
+aplikasi android dan ios yang dibangun dengan menerapkan teknologi augmented reality bertujuan sebagai alat bantu belajar dalam mata pelajaran kimia struktur molekul yang dapat menambahkan visualisasi objek 3d ke dalam lingkungan nyata
+berdasarkan hasil pengujian marker, semua marker dapat terdeteksi dengan baik, namun perlu diperhatikan ukuran minimal dan texture dari marker tersebut
+ukuran minimal marker yang dapat terdeteksi adalah 1, 2cm x 1, 2cm dengan jarak maksimal 5cm
+fitur virtual button berjalan dengan baik pada setiap objek yang berarti teknologi augmented reality dapat diterapkan sebagai alat bantu belajar dalam mata pelajaran kimia struktur molekul
+  pendahuluan augmented reality adalah teknologi yang menggabungkan benda maya 2 dimensi dan ataupun 3 dimensi ke dalam sebuah lingkungan nyata 3 dimensi lalu memproyeksikan benda-benda maya tersebut secara real-time menggunakan media kamera
+aplikasi augmented reality dapat dijalankan pada perangkat mobile dengan sistem operasi android minimal android versi 4.1 atau dengan sistem operasi ios minimal versi 9.2.1
+augmented reality pada awalnya digunakan dalam bidang militer, kesehatan, dan juga hiburan, selain pada bidang tersebut augmented reality juga dapat digunakan dalam bidang pendidikan
+seperti penelitian yang pernah dilakukan oleh apri santoso yang membuat sebuah aplikasi pembelajaran organ tubuh berbasis augmented reality dengan metode marker yang dimuat kedalam sebuah buku ensiklopedia
+aplikasi ini tidak hanya dapat diterapkan dalam pelajaran biologi, namun augmented reality ini dapat diaplikasikan pula dalam mata pelajaran lain, salah satunya pada mata pelajaran kimia
+terdapat banyak materi yang diajarkan dalam pelajaran kimia, salah satunya mengenai struktur molekul
+struktur molekul adalah penggambaran ikatan-ikatan unsur atau atom yang membentuk molekul
+molekul terdiri dari sejumlah atom yang bergabung melalui ikatan kimia, baik itu ikatan kovalen, ikatan hidrogen dan ikatan ion, serta ikatan- ikatan kimia lainnya
+dari atom tunggal, seperti gas mulia
+seperti pada polimer, protein atau bahkan dna
+dan atom tersebut berkisar dari jumlah yang sangat sedikit sampai jumlah yang sangat banyak 
+pada saat ini pembelajaran struktur molekul dalam mata pelajaran kimia dilakukan dengan menggunakan buku paket selain menggunakan buku paket pembelajaran struktur molekul biasanya dilakukan dengan pemutaran video mengenai molekul tersebut
+saat praktiknya pembelajaran struktur molekul menggunakan bahan peragaan 
+molymod adalah suatu alat peraga untuk menggambarkan bentuk suatu molekul
+molymod biasanya terbuat dari plastik berupa bulatan-bulatan yang dihubungkan oleh suatu batangan
+bulatan tersebut bertindak sebagai suatu atom sedangkan batangannya sebagai ikatan
+bulatan mempunyai warna-warna yang berbeda untuk membedakan mana yang bertindak sebagai atom pusat dan yang bertindak sebagai atom yang terikat pada atom pusat
+molymod tersebut dapat dibongkar pasang sesuai dengan bentuk molekul yang diinginkan
+peragaan dalam pembelajaran mempunyai peran besar dalam kegiatan belajar mengajar karena dapat membantu siswa dalam mengingat dan memahami cara kerja atau prilaku sesuatu menjadi lebih jelas
+sekarang ini teknologi augmented reality dapat digunakan untuk mempelajari struktur molekul, selain terdapat tambahan informasi dengan menggunakan teknologi augmented reality siswa dapat melihat visualisasi dari animasi molekul yang saling terhubung dalam bentuk 3 dimensi, selain itu terdapat pula fitur virtual button yang digunakan untuk menjalankan animasi 3 dimensi dan memutar suara penjelasan tentang molekul yang sedang dilihat
+aplikasi augmented reality untuk pelajaran kimia tentang struktur molekul ini dibuat dengan metode marker
+aplikasi yang telah dibuat akan di instal pada perangkat mobile dengan sistem operasi android minimal android 4.1 atau jelly beans dan sistem operasi ios dengan versi minimal 9.2.1, kemudian aplikasi akan membuka kamera dan diarahkan ke modul atau buku yang berisi marker, setelah itu objek tiga dimensi akan muncul dilayar smartphone beserta informasi dan animasi mengenai molekul tersebut
+  struktur molekul struktur molekul adalah penggambaran ikatan-ikatan unsur atau atom yang membentuk molekul
+molekul terdiri dari sejumlah atom yang bergabung melalui ikatan kimia, baik itu ikatan kovalen, ikatan hidrogen dan ikatan ion, serta ikatan-ikatan kimia lainnya
+  augmented reality teknologi augmented reality dapat menggabungkan objek 3d ke dalam lingkungan nyata menggunakan media webcam
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+objek maya yang digabungkan ke dalam lingkungan nyata berfungsi menampilkan informasi yang tidak dapat di terima oleh manusia secara langsung
+hal ini membuat augmented reality berguna sebagai alat untuk membantu persepsi dan interaksi penggunanya dengan dunia nyata
+informasi yang ditampilkan oleh objek yang ditampilkan membantu pengguna melaksanakan kegiatan-kegiatan dalam dunia nyata
+ada tiga prinsip dari augmented reality, yang pertama yaitu ar merupakan penggabungan dunia nyata dan vitual, yang kedua berjalan secara interaktif dalam waktu nyata, dan yang ketiga terdapat integrasi antar benda dalam tiga dimensi, yaitu benda maya terintegrasi dalam dunia nyata
+  virtual button virtual button merupakan bagian dari teknologi augmented reality dimana penempatan tombol dalam keadaan dunia nyata menggunakan media marker dan mendeteksi dimana tombol tersebut disentuh dengan media teknologi mobile maupun pc 
+ketika sebuah tombol disentuh akan melakukan suatu reaksi balik pada marker yang telah disediakan
+  unified modelling language unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+  use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+  class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+  activity diagram activity diagram adalah sebuah diagram alur kerja yang menjelaskan berbagai kegiatan pengguna atau sistem, orang yang melakukan masing-masing aktivitas dan aliran sekuensial dari aktivitas-aktivitas tersebut
+  sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+  arsitektur sistem desain arsitektur sistem akan ditunjukan pada gambar 1, gambar 1
+desain arsitektur sistem aplikasi dibangun dengan menggunakan software unity dan vuforia sdk
+didalam unity terdapat marker yang dibuat dengan aplikasi photoshop
+objek 3d dari molekul dibuat dengan menggunakan aplikasi blender
+aplikasi yang sudah dibangun pada unity dapat langsung dipasangkan ke dalam android
+untuk aplikasi ios setelah dibangun dari unity harus melewati software yang bernama xcode setelah itu akan langsung dipasang pada smartphone dengan sistem operasi ios
+aplikasi yang dijalankan kemudian akan mengakses kamera yang ada di android maupun ios
+kemudian tempatkan kamera smartphone di atas marker
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika valid aplikasi akan menampilkan objek 3d dari gambar ke layar smartphone
+  use case diagram use case diagram aplikasi diperlihatkan pada gambar 2, gambar 2
+  pengujian aplikasi pengujian aplikasi dilakukan dengan menggunakan pengujian marker, virtual button, jarak dan ukuran marker, cross platform android ios dan kompatibilitas
+  hasil aplikasi aplikasi ar`sm yang dibangun merupakan penerapan dari teknologi augmented reality berbasis android dan ios
+dibangunnya aplikasi ar`sm bertujuan untuk menghasilkan sebuah aplikasi android dan ios yang menerapkan augmented reality sebagai media pembelajaran kimia struktur molekul yang dapat menambahkan visualisasi objek 3d ke dalam lingkungan nyata
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 6
+tampilan menu utama gambar 3 merupakan tampilan dari menu utama aplikasi gambar 4
+tampilan menu ar`sm menampilkan objek 3 dimensi gambar 4 merupakan tampilan menu ar`sgm dimana di dalam menu ini akan ditampilkan objek 3 dimensi
+tampilan menu ar`sm menampilkan animasi objek 3 dimensi gambar 5 merupakan tampilan menu ar`sm saat menampilkan animasi objek 3 dimensi
+tampilan menu ar`sm menampilkan informasi dan narasi gambar 6 merupakan tampilan tampilan menu ar`sm saat menampilkan informasi dan narasi
+  pengujian marker pengujian marker dilakukan untuk melihat berapa banyak rating bintang yang didapat dari website vuforia dan apakah objek 3d dapat tampil
+pada tabel 1, memperlihatkan hasil pengujian marker yang gambarnya berasal dari buku kimia kelas xi sma yang telah diedit dengan aplikasi photoshop
+tabel 1 tabel hasil pengujian marker no marker rating 1 2 3 2
+  pengujian virtual button pengujian virtual button dilakukan untuk memeriksa apakah virtual button berjalan dengan baik dan sesuai dengan yang direncanakan
+prinsip kerja virtual button adalah dengan mendeteksi bayangan yang menghalangi bidang virtual button
+pada tabel 2, dapat dilihat bahwa virtual button lebih mudah mendeteksi penekanan tombol saat marker memiliki texture dibelakangnya
+tabel 2 tabel hasil pengujian virtual button no marker polos marker kompleks saat ditekan saat tidak ditekan saat ditekan saat tidak ditekan 1 2 3 3
+  pengujian jarak dan ukuran marker pengujian jarak dilakukan untuk mendapatkan posisi yang optimal antara marker dan smartphone
+pengujian jarak dan ukuran marker dipengaruhi oleh ukuran layar smartphone yang digunakan
+proses pengukuran jarak menggunakan penggaris sepajang 50 cm dan dilakukan sebanyak 9 kali
+pengujian pertama dilakukan dengan marker berukuran 1, 2 cm dan layar smartphone sebesar 5 inci
+pada tabel 3, dapat dilihat bahwa semua percobaan tersebut berhasil memunculkan objek 3d
+tabel 3 tabel hasil pengujian jarak dan ukuran marker 4
+  pengujian cross platform android ios pengujian cross platform bertujuan untuk mengetahui aplikasi dapat digunakan pada smartphone selain android
+untuk build project ke ios platform diperlukan module ios yang telah terinstal dan terpasang pada software unity
+pada tabel 4, dapat dilihat perbedaan yang paling jelas antara platform ios dan android ada pada saat menampilkan objek 3 dimensi
+  analisis hasil pengujian dari pengujian yang sudah dilakukan, analisis pengujian yang di peroleh dari aplikasi augmented reality struktur molekul sebagai berikut
+  berdasarkan pengujian marker dapat disimpulkan bahwa semua objek marker tidak terdeteksi oleh kamera aplikasi, hal ini di karenakan gambar yang kurang memberikan texture yang baik sehingga marker yang terdapat di buku paket tidak mendapatkan bintang pada website vuforia yang mengakibatkan proses kamera augmented reality tidak bisa bekerja
+marker yang dapat dideteksi oleh aplikasi adalah marker yang memiliki rating bintang minimal satu dan maksimal lima
+marker dari buku paket kimia kelas xi tidak memiliki rating bintang, oleh sebab itu tidak dapat terdeteksi oleh aplikasi
+agar marker memiliki rating bintang yang tinggi diperlukan marker yang memiliki komposisi warna yang banyak dan tegas
+  berdasarkan pengujian virtual button dapat disimpulkan bahwa virtual button tidak dapat berfungsi dengan baik pada latar belakang yang polos, oleh karena itu perlu diberikan texture tepat dibelakang dimana virtual button diletakkan agar virtual button dapat berfungsi sebagaimana mestinya
+texture dapat berupa warna selain putih dengan bentuk persegi panjang
+  berdasarkan pengujian jarak dan ukuran marker dapat disimpulkan bahwa ukuran marker yang optimal adalah berkisar antara 2 – 10 cm
+pada ukuran kurang dari 2 cm maka marker yang ditangkap kamera sudah kurang mendapatkan fokus
+jarak optimal marker dipengaruhi oleh ukuran marker dan ukuran layar smartphone, semakin besar layar smartphone dan ukuran marker maka semakin jauh pula jarak deteksi marker oleh smartphone, jarak optimal untuk ukuran marker sebesar 10 cm dengan layar 4 inci adalah sekitar 20 cm
+  berdasarkan pengujian cross platform antara android dan ios dapat disimpulkan bahwa aplikasi arsm dapat diinstal pada perangkat ios
+perbedaan dengan android adalah pada file extensi aplikasi ios yang berformat .ipa sedangkan pada smartphone android berformat .apk yang dapat di transfer ke smartphone berbasis android lain untuk dapat langsung dipasang
+berbeda dengan android, platform ios memiliki file extensi .ipa yang diperoleh dari hasil export unity yang kemudian di load kedalam sebuah software yang bernama xcode setelah itu di export secara langsung ke smartphone berbasis ios
+untuk perangkat dengan sistem operasi android aplikasi dapat langsung dipasang setelah dibangun pada software unity
+  berdasarkan pengujian kompatibilitas aplikasi dapat disimpulkan bahwa aplikasi arsm dapat berjalan pada smartphone dengan platform android maupun ios
+  kesimpulan/ringkasan setelah dilakukan pengujian dan analisis terhadap aplikasi, dapat disimpulkan bahwa aplikasi dapat di pasang pada smartphone dengan sistem operasi ios dan terlihat lebih bagus namun proses pemasangan pada smartphone dengan sistem operasi ios lebih rumit dari pada pemasangan di smartphone dengan sistem operasi android

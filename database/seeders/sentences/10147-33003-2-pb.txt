@@ -1,0 +1,86 @@
+urnal edukasi dan penelitian informatika vol 1, no 1, issn 2460-7041 45 obat
+saat ini, belum ada sebuah sistem informasi untuk memantau penyebaran dan pendistribusian obat secara nasional di indonesia
+sistem informasi tersebut dapat dibangun dengan menggunakan teknologi internet ataupun sms gateway
+identifikasi dan analisis masalah yang dilakukan dengan menggunakan metode wawancara, observasi lapangan, dan studi literatur
+dari hasil identifikasi dan analisis masalah, diperoleh bagaimana keadaan penyebaran dan distribusi obat di indonesia dan requirement apa saja yang dibutuhkan dalam merancang sistem informasi berskala nasional untuk memantau penyebaran dan pendistribusian obat di indonesia
+hasil yang diperoleh berupa sistem interaksi mengenai data distribusi obat di indonesia antara sarana pelayanan kesehatan dan sarana distribusi obat dengan kementrian kesehatan dan dinas kesehatan provinsi, dinas kesehatan kota/kabupaten, serta masyarakat
+hasil yang diharapkan adalah agar rancangan ini dapat berguna dalam membangun sistem informasi yang sebenarnya dan berskala nasional untuk mengontrol dan mengatur penyebaran obat di indonesia
+selain jumlah penduduk yang banyak dan wilayah yang luas, indonesia pun termasuk negara yang memiliki potensi penyakit yang beragam
+penyakit merupakan kegagalan dari mekanisme adaptasi suatu organisme untuk bereaksi secara tepat terhadap rangsangan/tekanan sehingga timbul gangguan pada sistem atau fungsi dari tubuh
+hal yang paling dibutuhkan untuk memberi pertolongan kepada penderita penyakit adalah ketersediaan obat yang memadai pada setiap tempat pendistribusian dan penjualan obat
+amandemen, dalam pasal 28 h ayat dikatakan bahwa setiap orang berhak hidup sejahtera lahir dan batin, bertempat tinggal, dan mendapatkan lingkungan hidup yang baik dan sehat serta berhak memperoleh pelayanan kesehatan
+di sini secara jelas diatur bahwa hidup secara sehat dan memperoleh pelayanan kesehatan merupakan hak setiap warga negara dan hal ini menjadi kewajiban bagi negara untuk merealisasikannya
+indonesia saat ini yaitu masih bebasnya peredaran obat-obatan di indonesia
+masih ada saja masyarakat yang berani membeli obat-obatan jenis keras tanpa saran dari tenaga kefarmasian
+hal ini akan sangat berbahaya jika obat yang dibeli tidak sesuai dengan penyakit yang diderita oleh masyarakat tersebut
+pabrik obat, sarana distribusi, dan juga sarana pelayanan 
+hal ini tentu menyebabkan pemerintah sulit mengontrol dan memantau bagaimana keberjalanan proses distribusi obat di seluruh indonesia
+informasi untuk monitoring data terkait distribusi obat di indonesia
+sistem informasi yang dirancang dapat memberikan warning kepada dinas kesehatan pada aplikasi desktop terhadap pelanggaran-pelanggaran yang terjadi pada setiap proses bisnis yang dirancang
+informasi untuk monitoring distribusi obat adalah menentukan kebutuhan sistem dengan mencari permasalahan yang ada pada saat ini
+dalam mencari solusi sistem informasi, dilakukan dengan tahapan umum seperti inisiasi sistem, analisis sistem, dan desain sistem
+pada tahap pertama ini, terdapat identifikasi masalah dan pemetaan masalah yang berhubungan dengan proses distribusi obat di indonesia
+pemetaan masalah dilakukan pada empat stakeholder, yaitu pemerintah, sarana distribusi, sarana pelayanan, dan masyarakat
+berbagai macam jenis, kategori, dan fungsi
+tabel 1 berikut menunjukkan kategori obat berdasarkan tingkat kebebasan dalam memperolehnya
+no kategori penjelasan pasaran dan dapat dibeli tanpa resep dokter
+penurunan atau perubahan kesadaran, serta mengurangi sampai menghilangkan rasa nyeri dan menimbulkan pembagian obat ke dalam kategori obat generik dan obat paten
+obat generik lebih murah dari obat paten karena biaya pembuatannya disubsidi oleh pemerintah
+dalam perancangan sistem informasi monitoring distribusi obat ini, diambil sampel dalam jenis obat generik karena dalam praktik sehari-hari, banyak ditemukan pelanggaran dalam pendistribusian dan penggunaan obat generik
+kesehatan provinsi, dan dinas kesehatan kabupaten/ kota) kesehatan kabupaten/kota memiliki peran yang berbeda dalam proses distribusi obat
+dinas kesehatan provinsi menerima pelaporan distribusi dan ketersediaan obat yang berasal dari sarana distribusi, yaitu pedagang besar farmasi
+sedangkan dinas kesehatan kabupaten/kota, menerima pelaporan distribusi dan ketersediaan obat yang berasal dari sarana pelayanan, seperti apotek, puskesmas dan rumah sakit.beberapa masalah yang terjadi pada pemerintah terkait dengan proses distribusi obat di indonesiaadalah sebagai berikut: informasi yang berisi database mengenai pendistribusian obat berskala nasional time
+beberapa permasalahan yang ada pada sarana distribusi atau pbf pada proses distribusi obat adalah sebagai berikut:  masih ada pbf yang tidak memenuhi persyaratan mutu dalam melakukan pengadaan, penyimpanan, dan menyalurkan obat seperti yang sudah ditetapkan pada peraturan kementrian kesehatan no1148 tahun 2011 pasal 13
+ beberapa pbf tidak melaksanakan pengadaan, penyimpanan, dan penyaluran obat sesuai dengan cdob yang ditetapkan oleh menteri kesehatan
+kepada kementrian kesehatan dan dinas kesehatan provinsi selama 3 bulan sekali
+ tidak ada batasan jumlah order yang dapat dilakukan oleh sebuah pbf kepada pabrik obat ataupun pbf lainnya
+puskesmas, dan apotek) mendistribusikan obat adalah: yang tidak menyediakan obat generik untuk pasiennya
+hal ini bertentangan dengan peraturan menteri kesehatan ri no 068 tahun 2010 pasal 2
+ masih banyak sarana pelayanan yang tidak melaksanakan semua kegiatan tersebut sesuai dengan rencana, dilihat dari tidak meratanya persebaran obat pada sarana pelayanan
+ masih ditemukannya pihak nakal yang menjual obat generik melebihi harga jual tertinggi yang telah ditentukan
+masalah pada masyarakat berikut: sehingga belum semua masyarakat mengetahui bagaimana kualitas obat generik yang sebenarnya sama saja dengan obat paten
+ masyarakat yang tidak mengetahui berapa harga eceran obat generik yang seharusnya, sehingga mudah dikelabui oleh sarana pelayanan kesehatan yang nakal dengan menjual obat generik melebihi harga yang sudah ditetapkan
+analisis sistem pemahaman lebih lanjut terhadap masalah yang ada serta menghasilkan requirement dari solusi yang dirancang
+domain-domain tersebut adalah perencanaan, pengawasan, sosialisasi, dan pelaporan
+domain permasalahan serta akar dari masalah ditunjukkan pada gambar 1
+memenuhi persyaratan mutu yang menjual harga obat generik melebihi het masih kurangnya pengetahuan database pendistribusian obat berskala nasional belum ada sistem informasi distribusi obat secara real time dan detail masih adanya pbf yang tidak melaporkan update stok selama 3 bulan sekali tidak adanya peraturan mengenai perencanaan order persediaan obat yang dilakukan oleh pbf ketidaksesuaian pelaksanaan kegiatan sarana pelayanan kesehatan dengan rencana yang tidak menyediakan obat generik masih ada pihak yang menjual obat generik jenis keras tanpa menggunakan resep dari dokter gambar 9: diagram ishikawa masalah pendistribusian obat di indonesia analisis permasalahan dari gambar tersebut menunjukkan bahwa dibutuhkan sistem informasi untuk memonitoring antara perencanaan dan pelaksanaan proses distribusi obat di indonesia yang belum ada saat ini
+identifikasi requirement sistem nasional ini, dapat dilakukan dengan merancang sebuah sistem pelaporan data dengan menggunakan sms dan dipantau oleh pemerintah melalui aplikasi desktop
+kebutuhan sistem informasi monitoring distribusi obat berskala nasional ini adalah sebagai berikut: kesehatan, serta pemerintah yang bersangkutan
+ sistem memiliki database nama pbf di masing-masing provinsi di indonesia, nama sarana pelayanan kesehatan di masing-masing kabupaten/kota di indonesia, stok obat pada masing-masing sarana distribusi dan pelayanan kesehatan, het dari obat generik, obat generik jenis keras yang memerlukan resep, serta informasi lainnya yang dibutuhkan pada sistem
+dengan menggunakan sms dengan format yang telah ditentukan
+sms yang benar kepada pengirim sms apabila sms yang dikirimkan formatnya tidak benar
+ sistem dapat menampilkan notifikasi apabila terdapat ketidaksesuaian rencana dengan pelaksanaan kegiatan distribusi obat di sarana pelayanan
+ sistem dapat memperlihatkan jumlah obat yang dipesan oleh masing-masing pbf dan menampilkan notifikasi apabila jumlah tersebut melebihi batas yang ditentukan
+ sistem dapat menampilkan informasi kegiatan distribusi obat se-real time mungkin
+ sistem dapat menampilkan notifikasi apabila terdapat sarana pelayanan kesehatan yang menjual obat generik melebihi het yang telah ditentukan
+ masyarakat dapat mengakses data het dan harga eceran obat generik pada setiap sarana pelayanan
+ sistem dapat menampilkan notifikasi jika terdapat ketidaksesuaian antara jumlah resep obat generik yang seharusnya dengan jumlah resep yang dikeluarkan oleh dokter pada sarana pelayanan
+desain sistem yaitu mengidentifikasi alternatif solusi dan menentukan pilihan terbaik serta mendesain solusi yang dipilih
+identifikasi alternatif solusi dan alternatif teknologi terdapat dua buah alternatif solusi untuk merancang sistem informasi monitoring distribusi obat, yaitu:  pembuatan sistem informasi monitoring distribusi obat
+maksud dari monitoring disini adalah memantau dan mengawasi apakah pelaksanaan kegiatan distribusi obat sesuai dengan perencanaan yang telah dibuat atau tidak
+ pembuatan sistem informasi pendataan stok obat dengan memperlihatkan stok awal obat, jumlah obat yang didistribusikan, serta stok akhir obat pada masing- masing pemangku kepentingan yang berperan pada proses distribusi obat, yaitu pemerintah, sarana distribusi, serta sarana pelayanan
+f in a n c ia pemangku kepentingan
+monitoring lebih banyak kelebihannya dibandingkan dengan sistem pendataan stok obat
+maka, dipilihlah sistem informasi monitoring distribusi obat untuk mengatasi permasalahan dalam kegiatan distribusi obat di indonesia
+selanjutnya, juga diperlukan alternatif teknologi yang sesuai dengan kondisi calon pengguna sistem ini
+teknologi yang dapat digunakan adalah sms gatewaydan juga web-based
+perbandingan kedua teknologi tersebut dapat dilihat pada tabel 3 berikut
+tabel 3 perbandingan teknologi menjangkau seluruh wilayah di indonesia
+walaupun teknologi web-based lebih banyak memiliki kelebihan dibandingkan dengan teknologi sms gateway, untuk pengiriman data, teknologi sms gateway lah yang paling tepat dan sesuai untuk dipilih dalam pembuatan solusi sistem informasi monitoring ini
+desain solusi monitoring distribusi obat, terdapat empat buah proses bisnis sesuai dengan tujuan dan fungsinya masing-masing
+masing- masing proses bisnis tersebut adalah pelaporan data stok obat dari pbf, pelaporan data stok obat dari sarana pelayanan, pelaporan harga obat generik pada sarana pelayanan, dan pelaporan jumlah resep pada sarana pelayanan
+gambar 2 berikut merupakan diagram hubungan antara keenam stakeholder dalam sistem informasi monitoring distribusi obat dengan menggunakan sms gateway
+kesehatan provinsi bertanggung jawab untuk pelaporan dari pbf, sedangkan dinas kesehatan kota/kabupaten bertanggung jawab untuk pelaporan dari sarana pelayanan
+gambar 4 berikut menunjukkan perancangan proses bisnis pelaporan stok obat dari sarana pelayanan
+dalam proses bisnis pelaporan harga obat generik, masyarakat juga dapat turut serta dalam melihat data yang dikirimkan oleh sarana pelayanan karena sebagai konsumen, masyarakat dapat menjadi pengawas memastikan kebenaran data yang dikirimkan oleh sarana pelayanan
+perancangan proses bisnis pelaporan harga obat generik yang dijual pada sarana pelayanan ditunjukkan pada gambar 5 berikut
+proses bisnis baru pelaporan stok obat pada sarana pelayanan d in real time dengan proses bisnis pelaporan harga eceran obat generik pada sarana pelayanan d in k e s k o ta /k a gambar 13: proses bisnis pelaporan harga obat generik sarana pelayanan proses bisnis terakhir yang dirancang adalah dalam pelaporan jumlah resep yang keluar untuk obat generik keras pada sarana pelayanan
+gambar 6 berikut menunjukkan proses bisnis pelaporan jumlah resep yang keluar untuk obat generik keras dari sarana pelayanan
+database server terdapat pada kementrian kesehatan sebagai penanggung jawab atas proses distribusi obat di seluruh indonesia
+notifikasi pada setiap pelanggaran, ditandai dengan munculnya warning dalam bentuk perubahan warna tampilan pada layar aplikasi desktop
+gambar 6 berikut menunjukkan dfd level 0 yang dirancang untuk sistem informasi monitoring distribusi obat
+dfd level 0 ini menunjukkan data apa saja yang keluar dan masuk pada setiap stakeholder
+data ini belum sempurna dan hanya menampilkan data yang secara umum harus ada serta sangat mungkin untuk ditambahkan saat pembangunan sistem yang sebenarnya
+mengakomodasi berbagai kebutuhan stakeholder dalam pelaporan dan pemantauan data distribusi obat sehingga dapat dilanjutkan ke tahap perancangan sistem yang lebihrinci
+notifikasi sehingga dapat mengurangi terjadinya kesalahan dan kecurangan yang terjadi dalam proses distribusi obat
+pengelolaan data distribusi obat ini dapat menjadidatabase berskala nasional untuk keperluan lebih lanjut, databaseini dapat digunakan oleh lembaga lain yang mengurus segala hal mengenai obat seperti bpom

@@ -1,0 +1,84 @@
+studi kasus : cv mitra surbakti pontianak ) meryline pinlisa.surbakti1, anggi srimurdianti2, yulianti3 program studi teknik informatika e-mail : merysurbakti90@gmail.com informasi disuatu organisasi, kelompok, sekolah dan perusahaan sangat memberikan dampak baik positif maupun negatif
+cv mitra surbakti salah satu perusahaan yang bergerak di bidang perkebunan kelapa sawit dan sangat memerlukan sistem yang dapat membantu dalam memasarkan dan mempublikasikan akan keberadaan dari cv mitra surbakti serta yang dapat membantu dalam proses bisnis yang ada pada cv mitra surbakti
+untuk itu dirancang dan dibangunlah suatu sistem informasi berbasis web sebagai sarana untuk memasarkan ke pihak luar dan sistem informasi pengelolaan data perusahaan sebagai suatu kebutuhan dalam menunjang kegiatan operasional dan proses bisnis yang ada
+sistem ini juga dapat menyimpan data master karyawan dan mitra, mencatat dan merekam transaksi penggajian dan penjualan produk kepada mitra bisnis cv mitra surbakti
+sistem ini mampu memberikan berbagai macam dan bentuk laporan dari kegiatan bisnis pada pihak manajemen untuk mengambil langkah yang tepat dalam rangka memajukan perusahaan
+pengujian dilakukan dengan dua metode yaitu metode black box dan borang kuesioner
+pengujian black box digunakan untuk melakukan pengujian terhadap kinerja sistem dan borang kuesioner digunakan untuk melakukan pengujian terhadap kualitas web ini
+dari hasil borang kuesioner menyatakan bahwa sistem informasi yang dirancang berhasil mencapai tujuan sesuai dengan kebutuhan di perusahaan cv mitra surbakti
+pendahuluan beberapa dasawarsa ini telah mengalami kemajuan yang begitu cepat
+pada zaman dahulu kala, komputer hanyalah dipandang manusia tidak lebih daripada sebuah mesin hitung
+tetapi sekarang komputer tidak lagi dipandang sebagai sebuah mesin untuk menghitung saja, melainkan lebih dari itu
+berbagai macam perangkat keras dan perangkat lunak mengalami degradasi yang cukup tinggi di kalangan pengembang teknologi informasi yang mana manfaatnya bisa langsung dirasakan di berbagai pihak, baik itu perusahaan, organisasi, instansi bahkan ke masyarakat secara individual proses bisnisnya telah mengikuti perkembangan teknologi, terutama teknologi informasi guna menunjang kegiatan operasional dan menjalankan kebijakan- kebijakan perusahaan
+penerapan ti tidak terlepas dari permasalahan-permasalahan yang timbul seperti adanya keinginan perusahaan untuk memperluas jaringan kerja, meningkatkan pelayanan terhadap mitra kerja, meningkatkan promosi untuk meraih pangsa pasar, mengatur kinerja karyawan dan lain sebagainya
+semua permasalahan ti yang timbul pada cv mitra surbakti memerlukan penanganan yang serius sehingga diperlukan sebuah sistem pengelolaan layanan ti yang lebih dikenal dengan website untuk mengelola berbagai macam kegiatan bisnis perusahaan
+sistem informasi ini sebagai pusat layanan untuk memenuhi kebutuhan informasi baik dari internal maupun eksternal perusahaan yang diharapkan dapat memberikan informasi yang tepat kepada mitra bisnis perusahaan
+terbatasnya sumber daya yang ada, baik itu dari sisi pengguna maupun perangkat lunaknya, berdampak pada arus lajunya kegiatan perusahaan di lingkungan cv mitra surbakti dalam melakukan proses-proses bisnis perusahaan dan berbagai layanan informasi baik kepada pihak luar yang dalam hal ini mitra bisnis maupun kepada pihak dalam perusahaan seperti karyawan dengan sistem penggajian yang masih manual yang terdiri dari 2 sistem
+yang pertama dengan sistem penggajian perbulan dan yang kedua sistem penggajian secara borongan yang mana ini sangat memerlukan kehati-hatian dalam melakukan pengolahan data tersebut dan berbagai tingkatan level manajemennya
+suatu aplikasi untuk penanganan kebutuhan – kebutuhan tersebut yang berbasis web
+aplikasi ini mampu memberikan pelayanan terhadap kebutuhan – kebutuhan yang ada di lingkungan cv mitra surbakti dan sekaligus untuk memberikan informasi yang tepat kepada mitra bisnis yang selama ini telah terjalin hubungannya yang sangat erat pada perusahaan
+dengan web merupakan salah satu sumber daya internet yang berkembang pesat
+informasi web didistribusikan melalui pendekatan hyperlink yang memungkinkan suatu teks, gambar ataupun objek yang lain menjadi acuan untuk membuka halaman-halaman orang lain
+dengan pendekatan hyperlink ini, seseorang dapat memperoleh informasi dari berbagai negara
+teknik pengujian perangkat lunak white-box testing adalah metode desain test case yang menggunakan struktur kontrol desain prosedural untuk memperoleh test case
+dengan menggunakan metode pengujian ini akan didapatkan test case yang : a
+black-box-testing dengan demikian pengujian black-box memungkinkan perekayasa perangkat lunak mendapatkan serangkaian kondisi input yang sepenuhnya menggunakan semua persyaratan fungsional untuk suatu program
+hypertext preprocessor hypertext preprocessor merupakan bahasa berbentuk skrip yang ditempatkan dalam server dan diproses deserver
+hasilnyalah yang dikirim ke klien, tempat pemakai menggunakan browser
+secara khusus, php dirancang untuk membentuk web dinamis
+artinya, ia dapat membentuk suatu tampilan berdasarkan permintaan terkini
+misalnya, anda bisa menampilkan isi database ke halaman web
+pada prinsipnya, php mempunyai fungsi yang sama dengan skrip-skrip seperti asp, cold fusion, ataupun perl
+ management server yang sangat cepat dan kokoh
+dengan menggunakan mysql server maka data dapat diakses oleh banyak pemakai secara bersamaan sekaligus dapat membatasi akses para pemakai berdasarkan privilege yang diberikan
+mysql menggunakan bahasa sql yaitu bahasa standar yang digunakan untuk pemrograman database
+mysql dipublikasikan sejak 1996, tetapi sebenarnya dikembangkan sejak 1979
+mysql telah memenangkan penghargaan linux journal reader’s choice award selama tiga tahun
+ profesional untuk perancangan, pengkodean, dan pengembangan situs web, halaman web, dan aplikasi web
+bekerja pada lingkungan visual editing, dreamweaver menyediakan suatu tool yang sangat membantu dalam pembuatan web
+fitur-fitur visual editing di dalam dreweaver mengijinkan pembuatan halaman web dengan cepat tanpa menulis baris kode
+dreamweaver membantu dalam membangun aplikasi web database backed dinamis dengan menggunakan bahasa server seperti asp, asp.net, coldfusion markup language, jsp, dan php
+sehingga mempermudah dan mempercepat kita dalam membuat kode javascript secara standar, apabila kita membuat kode javascript, maka diperlukan kode yang cukup panjang, bahkan terkadang sangat sulit dipahami
+kesimpulannya, jquery menyederhanakan kode – kode javascript, dan hal ini sesuai dengan slogannya cukup tulis sedikit, tetapi bisa melakukan banyak hal yang siap membuat suatu web sangat informatif dan renponsif
+yang artinya untuk melakukan suatu proses, maka proses tersebut tidak harus dikerjakan di sisi server melainkan sudah bisa dijalankan dari sisi klien
+cascading style sheet cascading style sheet merupakan suatu bahasa pemrograman web untuk mengendalikan beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam
+sama halnya dengan style aplikasi pengolahan kata seperti microsoft word yang dapat mengatur beberapa style, misalnya heading, subbab, bodytext, footer, images dan style lainnya
+perancangan sistem pembuatan aplikasi mulai gambar 1 diagram alir penelitian 2
+diagram konteks sistem diagram konteks berfungsi untuk menjelaskan hubungan sistem yang akan dibangun serta untuk memudahkan pembuatan sistem
+hasil perancangan surbakti inimerupakan sebagai tampilan awal dari halaman web
+pada halaman utama ini terdapat menu- menu seperti menu home, about us, contact us, picture gallery, produk dan login
+login ini admin cukup mengetikkan keyword di url web cv mitra surbakti
+surbaktu ini.pada antarmuka halamanutama ini terdapat beberapa menu yang berfungsi untuk melakukan update data dan sistem informasi untuk proses penggajian dan penerimaan pemesanan produk dari mitra
+form antarmuka data karyawan ini berfungsi untuk memanajemen data – data karyawan cv mitra surbakti seperti input data karyawan baru, edit data karyawan, hapus data karyawan serta aktif tidaknya karyawan tersebut
+berikut ini tampilan data form data karyawan : gambar 9 antarmuka data karyawan form antarmuka penggajian ini berfungsi untuk melakukan pemrosesan data gaji karyawan tetap dan harian
+administrator hanya memasukkan data nik, secara otomatis nama, status dan lama bekerja karyawan tersebut akan tampil pada form tersebut
+form antarmuka ini berfungsi untuk memasukkan data produk yang di order oleh mitra cv mitra surbakti
+administrator tinggal memasukkan data id mitra, secara otomatis nama dan alamat mitra tersebut akan tampil untuk kemudian diproses orderannya sesuai produk yang diorder oleh mitra cv mitra surbakti
+gambar 11 form antarmuka order produk a
+pengujian sistem pengujian dilakukan pada sistem menggunakan metode blackbox yang akan memeriksa apakah aplikasi sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+data pengujian dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari sistem
+pemilihan cara pengujian dilakukan dengan menggunakan data yang tidak diperbolehkan, data yang kosong dan data yang benar .berikut ini pengujian yang telah dilakukan dan hasilnya telah sesuai dengan apa yang diharapkan
+pengujian yang telah dilakukan antara lain
+tabel 1 kasus dan hasil uji data masukan yang di tabel master data masukan yang kasus dan hasil uji data masukan yang data masukan yang kasus dan hasil uji data masukan yang data masukan yang b
+pengujian hasil keputusan berdasarkan hasil borang pada aspek fungsional tersebut dapat diketahui informasi bahwa sebagian besar responden pada borang evaluasi admin menanggapi aplikasi sangat baik dengan total tanggapan 48 dengan persentase 48% serta dari hasil borang evaluasi pada user responden menanggapi aplikasi sangat baik dengan total tanggapan 77 dengan persentase 51, 33%
+hal ini menunjukan bahwa rata-rata responden menggapi sistem ini sangat baik
+gambar 12 chart persebaran hasil pengujian gambar 13 chart persebaran hasil pengujian 3
+analisis hasil pengujian berikut ini adalah analisis hasil perancangan dan pengujian aplikasi web cv mitra surbakti dan sistem informasi pengajian dan orderdan : a
+saat admin atau user ingin login, pengguna harus memasukkan username dan password yang sesuai
+jika tidak, maka admin tidak akan bisa masuk ke dalam sistem
+pada bagian ini sistem benar-benar melakukan pengecekan agar tidak terjadi kesalahan dan hal-hal yang tidak diinginkan
+saat admin melakukan input data, ada isian yang harus diisi dan ada isian yang boleh kosong 
+pengujian menunjukkan bahwa jika admin melakukan input data dengan keseluruhan data kosong atau terdapat data kosong pada isian yang harus diisi, sistem akan menampilkan pesan kesalahan
+pesan kesalahan berisi informasi data- data yang wajib diisi
+saat admin melakukan input data dengan data yang benar, sistem akan mengeksekusi input data tersebut
+sistem akan langsung menyimpan dalam basis data dan akan menampilkan pesan berhasil
+hasil rancangan dan pengujian menunjukkan bahwa aplikasi ini dapat digunakan untuk membantu administrator dalam pengelolaan data manajemen data web, manajemen data karyawan, gaji karyawan dan menangani orderan dari para mitra bisnis serta mencetak laporan
+berdasarkan hasil pengujian borangdapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil dan dapat diterima oleh user dengan baik
+web cv mitra surbakti dan aplikasi penggajian dan penerimaan order dapat disimpulkan bahwa : a
+sistem ini mampu memberikan informasi ke publik tentang company profile cv mitra surbakti
+sistem penggajian, dan penerimaan order dari mitra dapat menjadikan proses bisnis di lingkungan cv mitra surbakti menjadi lebih tepat dan data atau informasi dapat diberikan sewaktu – waktu jika diperlukan
+berdasarkan hasil penilaian oleh responden melalui pengujian borang, aplikasi yang dibangun ini dinilai cukup berhasil membantu dalam menangani kerja administator dalam mengelola manajemen data di cv mitra surbakti
+saran pertimbangan untuk pengembangan aplikasi ke depannya agar menjadi lebih baik lagi adalah sebagai berikut : a
+web dapat di kembangkan lebih baik lagi dengan menambah fitur-fitur seperti berita online, pemesanan secara online dan template yang lebih menarik lagi, sehingga pengunjung lebih tertarik untuk mengunjungi web tersebut
+web dapat diganti templatenya oleh administrator, dari halaman administrator, sehingga terlihat dinamis dan tidak membosankan pengungjung
+aplikasi penggajian dan penerimaan order untuk outputnya dapat berupa file ms-excel, agar lebih mudah merekap data dan dapat dilihat langsung tanpa harus membuka aplikasi jika sewaktu waktu diperlukan untuk melihat periode bulan sebelum

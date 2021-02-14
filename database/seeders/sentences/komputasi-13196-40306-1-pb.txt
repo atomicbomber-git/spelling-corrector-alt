@@ -1,0 +1,98 @@
+bahasa merupakan alat komunikasi yang penting bagi manusia, karena dengan menggunakan bahasa kita dapat mengetahui dan mengetahui informasi yang dibutuhkan, dengan bahasa juga manusia dapat mengekspresikan diri, menyampaikan kritik dan pendapat, pikiran serta keinginannya
+namun tidak semua orang memiliki bahasa yang sama, sehingga hal ini dapat menghalangi dalam melakukan pertukaran informasi
+oleh karena itu, saat ini salah satu teknologi yang sedang dikembangkan yaitu mesin penerjemah untuk mengatasi masalah penerjemahan bahasa
+namun kualitas dari hasil terjemahan yang dihasilkan masih mengandung keterbatasan
+hasil terjemahan yang optimal dapat diperoleh dengan menggunakan konsep penerjemahan statistik
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+tujuan yang ingin dicapai dalam penelitian ini adalah melakukan proses tuning pada mesin penerjemah statistik bahasa indonesia ke bahasa dayak kanayatn untuk mengetahui pengaruh proses tuning terhadap hasil terjemahan
+pengujian dilakukan dengan membandingkan skor akurasi hasil terjemahan sebelum dan setelah proses tuning
+pengujian dilakukan secara otomatis menggunakan bilingual evaluation understudy 
+hasil dari pengujian adalah terdapat peningkatan skor bleu sebesar 3, 04%
+berdasarkan hasil pengujian, tingkat akurasi terjemahan setelah proses tuning pada mesin penerjemah statistik bahasa indonesia ke bahasa dayak kanayatn dengan mengubah bobot parameter-parameter phrase dapat meningkatkan nilai akurasi hasil terjemahan
+dengan bahasa juga manusia dapat mengekspresikan diri, menyampaikan kritik dan pendapat, pikiran serta keinginannya
+bahasa juga merupakan alat yang digunakan untuk sosialisasi dan adaptasi sosial antara manusia satu dengan manusia lainnya agar kehidupannya semakin berkembang
+pada tahun 2012, penelitian berlanjut dengan mengambil sampel di 70 lokasi di wilayah maluku dan papua
+hasil dari penelitian itu, jumlah bahasa dan sub bahasa di seluruh indonesia mencapai 546 bahasa dan kemungkinan jumlahnya akan terus bertambah karena penelitian yang dilakukan belum selesai
+lambang kebanggaan daerah, lambang identitas daerah dan alat penghubung antarwarga masyarakat daerah
+namun fungsi dari bahasa daerah tersebut saat ini mengalami banyak penurunan
+salahsatu upaya yang dilakukan untuk mempertahankan penggunaan bahasa daerah, yaitu dengan menjadikan salah satu mata pelajaran muatan lokal pada tingkat sekolah dasar
+namun belum memadai untuk menjadi solusi dari permasalahan
+ada beberapa faktor yang menjadi penyebab
+faktor kedwibahasaan atau kemultibahasaan yang berkembang di masyarakat, perbedaan kelompok umur, pendidikan, wilayah permukiman, jenis kelamin
+tidak menutup kemungkinan penyebab pergeseran bahasa tidak hanya dipengaruhi oleh faktor diatas, akan tetapi juga dapat disebabkan oleh adanya perbedaan etnis atau adat istiadat penutur bahasa dari mana mereka berasal
+berdasarkan faktor-faktor yang telah dijabarkan, untuk menghindari terjadinya kepunahan bahasa daerah, salah satu caranya adalah dengan mesin penerjemah statistik
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+penerjemahan statistik juga belum sepenuhnya baik, banyak cara yang dapat dilakukan untuk meningkatkan kualitas hasil terjemahan dari sebuah mesin penerjemah statistik, salah satu cara yang dapat dilakukan adalah dengan proses tuning for quality
+penelitian untuk membangun dan mengimplementasikan mesin penerjemah statistik bahasa indonesia ke bahasa dayak kanayatn
+selanjutnya, akan dilakukan proses tuning for quality untuk mengetahui pengaruh proses tuning for quality tersebut terhadap kualitas hasil terjemahan
+uraian penelitian mesin penerjemah dengan menggunakan pendekatan statistik
+terdapat 3 komponen yang terlibat dalam proses penerjemahan dari satu bahasa ke bahasa lain pada mesin penerjemah statistik, yaitu language model, translation tuning for quality untuk uji akurasi mesin penerjemah statistik program studi teknik informatika fakultas teknik universitas tanjungpura123 e-mail: m.hasbiansyah@gmail.com1, herry_sujaini@yahoo.com2, bangnops@gmail.com3 jurnal sistem dan teknologiinformasi vol 1, no 1, 2 model, dan decoder
+arsitektur mesin pnerjemah statistik mosessumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus
+proses training terhadap parallel corpus menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada parallel corpus ditambah dengan monolingual corpus bahasa target menggunakan srilm menghasilkan language model, sedangkan pos model dihasilkan dari bahasa target pada parallel corpus yang setiap katanya sudah ditandai dengan pos
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+memungkinkan untuk menerjemahkan secara otomatis setiap pasangan bahasa
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa sasaran
+saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa sasaran
+moses dirilis di bawah lisensi lgpl dan tersedia sebagai kode sumber dan binari untuk windows dan linux
+perkembangannya didukung oleh proyek euromatrix, dengan pendanaan oleh european commission
+contoh teks tulis atau lisan dalam bentuk data yang dapat dibaca dengan menggunakan seperangkat mesin dan dapat diberi catatan berupa berbagai bentuk informasi linguistik
+kriteria korpus yang telah menjadi kesepakatan banyak ahli, yakni: dapat dibaca dengan menggunakan seperangkat mesin, berupa teks otentik, digunakan sebagai sampel dan mewakili bahasa atau variasi bahasa tertentu
+automatic evaluation bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan tejemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+nilai bleu didapat dari hasil perkalian antara brevity penalty dengan rata-rata geometri dari modified precision score
+semakin tinggi nilai bleu, maka semakin akurat dengan rujukan
+sangat penting untuk diketahui bahwa semakin banyak terjemahan rujukan per kalimatnya, maka akan semakin tinggi nilainya
+rumus bleu sebagai berikut: 𝐵𝑃𝐵𝐿𝐸𝑈= { 1 bleu = 𝐵𝑃𝐵𝐿𝐸𝑈
+standar nilai n untuk bleu adalah 4
+𝑒 ∑ 𝑤𝑛 𝑁 𝑛−1 log 𝑝𝑛 keterangan: r = jumlah kata rujukan 𝑃𝑛 = modified precission score 𝑤𝑛 = 1/n 𝑝𝑛 = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n-gram hasil terjemahan iii
+hasil dan diskusi chairul tanjung si anak singkong
+buku biografi tersebut selanjutnya diolah menjadi korpus teks paralel bahasa indonesia dan bahasa dayak kanayatn
+adapun jumlahnya yaitu 3667 pasangan kalimat korpus paralel bahasa indonesia dan bahasa dayak kanayatn
+dengan jumlah 7495 token untuk korpus bahasa indonesia dan 8886 token untuk bahasa dayak kanayatn
+implementasi srilm berbasis teks dengan nilai-nilai probabilistik
+penelitian ini menggunakan n-gram sebagai language model
+model bahasa dibangun dengan tools srilm
+model bahasa akan menghasilkan output dengan format file *.lm
+berikut merupakan tabel model bahasa yang dihasilkan oleh srilm pada mesin penerjemah statistik bahasa indonesia-bahasa dayak kanayatn
+tabel model bahasa dengan bahasa dayak kanayatn sebagai bahasa target 2
+implementasi giza++ untuk pemodelan translasi model translasi digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan tabel model translasi
+dokumen-dokumen tersebut terdapat dalam folder yang didalamnya terdapat 4 file yaitu 
+dokumen vocabulary corpus bahasa dayak kanayatn angka 1 sampai 5 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+vocabulary corpus yang dihasilkan mesin penerjemah bahasa indonesia – bahasa dayak kanayatn terdiri dari 7495 token untuk korpus bahasa indonesia dan 8886 token untuk bahasa dayak kanayatn
+# sentence pair source length 17 target length 17 alignment score : 1.91958e-07 perusahaan di bawah naungan ct corp yang saya cintai dan banggakan null saudara-saudaraku, pimpinan man samua karyawan parusahaan ka’ babah naungan ct corp nang aku nyintai’ man mangga’atn gambar 5
+dokument alignment bahasa indonesia - bahasa dayak kanayatn dokumen alignment bahasa jawa–bahasa indonesia terdapat tiga baris kalimat
+baris pertama berisi letak kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target dan skor alignment
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap kalimat bahasa sumber
+kata memiliki makna bahwa kata pada kalimat bahasa target, di-align ke kata kelima pada kalimat bahasa sumber yaitu 
+tabel model translasi mesin penerjemah bahsasa indonesia- bahasa dayak kanayatn menghasilkan tabel model translasi yang terdiri dari tabel kata yang berisi sekumpulan kata-kata yang telah dipadankan antara bahasa sumber dengan bahasa target yang memiliki nilai probabilitas
+pengujian hasil translasi dilakukan dengan cara pengujian otomatis dari mesin penerjemah
+pengujian otomatis dari mesin penerjemah menghasilkan keluaran berupa nilai akurasi yang dihasilkan oleh bleu 
+hasil pengujian ini nantinya akan menjadi parameter untuk membandingkannya dengan hasil pengujian setelah dilakukan proses tuning
+setelah membuat output berupa hasil translasi otomatis dari mesin penerjemah, langkah selanjutnya adalah mendapatkan skor dari output dengan cara membandingkan output tersebut dengan korpus manual bahasa target yang telah dibuat sebelumnya
+setelah mendapatkan skor bleu awal dari korpus uji, maka langkah selanjutnya adalah melakukan proses tuning for quality
+proses tuning for quality yang dilakukan pada file moses.ini yang terdapat pada folder train dan subfolder model
+berikut proses yang dilakukan, meliputi: jurnal sistem dan teknologiinformasi vol 1, no 1, 4  mengubah bobot dari parameter-parameter,  membuat output setelah mengubah parameter-parameter gambar 8
+pengujian ulang hasil terjemahan mesin translasi langkah berikutnya adalah menguji kembali hasil terjemahan mesin translasi bahasa indonesia-bahasa dayak kanayatn yang telah melewati proses tuning
+langkah pengujian dilakukan dengan cara melakukan pengujian otomatis yang akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin
+pengujian dilakukan dengan cara membandingkan nilai bleu hasil terjemahan otomatis dari mesin penerjemah bahasa indonesia-bahasa dayak kanayatn sebelum dan setelah melewati proses tuning
+pengujian pertama menghasilkan skor bleu sebesar 89, 47 dan dijadikan baseline
+pengujian kedua menghasilkan skor bleu sebesar 90, 37
+pengujian ketiga menghasilkan skor bleu sebesar 91, 86
+pengujian keempat menghasilkan skor bleu sebesar 92, 10
+pengujian kelima menghasilkan skor bleu sebesar 92, 11 dan pengujian keenam menghasilkan skor bleu sebesar 92, 19
+tampilan nilai bleu setelah proses tuning berdasarkan gambar 9 diketahui sebelum dilakukan proses tuning, skor bleu pada korpus uji 3667 sebesar 89, 47 dan setelah dilakukan proses tuning didapat skor bleu sebesar 92, 19
+terdapat peningkatan nilai bleu sebesar 3, 04% dilihat dari perbandingan sebelum dan sesudah dilakukan proses tuning
+mesin penerjemah statistik dapat diimplementasikan untuk menerjemahkan bahasa indonesia-bahasa dayak kanayatn
+meningkatkan nilai akurasi terjemahan mesin penerjemah bahasa indonesia-bahasa dayak kanayatn
+sebelum dilakukan proses tuning, skor bleu pada korpus uji 3667 sebesar 89, 47 dan setelah dilakukan proses tuning didapat skor bleu sebesar 92, 19
+terdapat peningkatan nilai bleu sebesar 3, 04% dilihat dari perbandingan sebelum dan sesudah dilakukan proses tuning
+saran dari penelitian ini adalah sebagai berikut
+perlu dilakukan penelitian lanjutan untuk melakukan analisis dalam menghasilkan terjemahan bahasa indonesia-bahasa dayak kanayatn dengan 2
+perlu adanya teknik penanganan oov untuk menerjemahkan kata-kata yang tidak terdapat dalam korpus sehingga dapat meningkatkan kualitas terjemahan mesin penerjemah statistik
+perlu dilakukan pengecekan ulang terhadap korpus teks paralel untuk mencegah kesalahan penulisan
+perlu penambahan jumlah korpus untuk meningkatkan kualitas terjemahan mesin penerjemah statistik
+pada proses pengujian perlu dilakukan kombinasi antara empat parameter dengan bobot dua angka di belakang koma sejak awal pengujian

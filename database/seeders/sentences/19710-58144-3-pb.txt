@@ -1,0 +1,56 @@
+evaluasi ini dilakukan untuk mengetahui penerimaan masyarakat terhadap teknologi aplikasi bpjs online
+penelitian ini hanya fokus pada model penerimaan teknologi aplikasi bpjs online yaitu tahap penggunaan berdasarkan kegunaan, kemudahan, serta niat menggunakan teknologi aplikasi bpjs online yang masyarakan rasakan
+analisis model yang peneliti gunakan adalah analisis jalur yaitu pengembangan langsung bentuk regresi ganda supaya tingkat kepentingan yang signifikan hubungan sebab akibat variabel
+metode yang digunakan untuk menguji pola hubungan korelasi variabel yaitu structure equation modeling dengan menggunakan sofware amos 16.0
+pendahuluan sekarang ini maka banyak sekali teknologi yang dibuat untuk mempermudah melakukan transaksi yaitu pada user atau pengguna teknologi
+perkembangan sistem informasi yang masih dilakukan secara manual sehingga terjadi perubahan menjadi berbasis teknologi bertbasis online dengan menggunakan teknologi mobile dan fasilitas internet, alat komunikasi seperti telepon seluler yang dapat mempermudah melakukan transaksi dan cara kerjanya sangat mudah dengan efisiensi dengan jarak dan waktu
+dengan adanya teknologi tersebut maka akan mempermudah pengguna melakukan transaksi terutama pengguna aplikasi bpjs online
+perubahan dan perkembangan teknologi khususnya teknologi informasi akan memberikan dampak bagi pengguna teknologi
+salah satu contoh pengguna pada tik adalah penyedia jasa keuangan dan perbankkan
+fungsi tik pada aplikasi bpjs online adalah sebagai penunjang pelayanan yang akan memberikan jasa prima dan merupakan determinan dari keunggulan bersain perusahaan dalam menjaga serta meningkatkan kepuasan pengguna aplikasi
+respon dan kesiapan masyarak untuk menggunaka teknologi merupakan kunci bagi pengguna aplikasi dalam mengambil keputusan untuk memenuhi keinginan masyarakat
+merekommendasikan lembaga untuk mesurvei atau mengukur kebutuhan dan keinginan masyarakat secara teratur sebelum membuat strategi terhadapa aplikasi yang digunakan.terutama pada aplikasi bpjs online
+terlebih lagi ekspetasi pengguna dan kemampuan mereka menggunaka serta menerima teknologi baru secara langsung akan mempengaruhi kebutuhan mereka untuk niat menggunakan aplikasi teknologi
+dari pokok permasalahan maka diperlukan pengukuran yang dilakukan masyarakat yang sudah menggunakan aplikasi berbasis teknologi informasi seperti internet dan telepon serta alat komunikasi lainnya
+pengumpulan data dilakukuan menyebarkan kuisioner dengan menggunakan structure aquation modeling dan pengolahan data mengunakan software amos 16.0 dan software spss
+tahapan ini dilakukan bertujuan untuk melakukan implemetasi perancangan baik dilakukan secara langsung maupun tidak langsung
+untuk mengumpulkan data penelitian ini dengan cara survey dan wawancara kepada masyarakat
+metode pemilihan sampel menggunakan teknik pengambilan secara acak dengan menggunakan teknik snow ball sampling
+teknik snow ball sampling yaitu teknik pengumpulan data yang dimulai dari beberapa orang yang memenuhi kreteria untuk dijadikan subyek, yang kemudian sample tersebut dijadikan sumber informasi
+responden di bagi menjadi 2 bagian yaitu kelompok masyarakat dan perusahaan atau instansi
+pengolahan data dan tahapan analisis menggunakan metode sem antara 100-200 responden
+untuk menganalisis data maka dalam penelitian ini menggunakan variabel eksogen dan indogen dilakukan menggunakan terhadap 7 variabel laten yang terdiri dari subjective norm, image, result demontrability, perceived risk, perceived usefullness, perceived ease of use, terhadap intention teknologi layanan iuran bpjs online
+teknik pengujian struktural equation model metode statistik multivariat dependensi structural equation model dengan menggunakan perangkat software amos dengan tahapan sebagai berikut yaitu : 1
+memilih matrik input dan estimasi model
+tujuan dilakukan menggunakan metode sem untuk mengetahui hubungan klausal antar variable dependen dan independen pada model yang dibangun pada penelitian ini
+dengan menggunakan model dalam penelitian ini dipakai software amos 16.0
+berikut ini analisis jalur untuk menganalisa faktor faktor yang digunakan
+pu intent peou prisk gambar 1 diatas menunjukkan diagram jalur kedalam persamaan struktural setalah mengembangkan model
+bentuk persamaan yang akan dipakai dalam persamaan struktural ini adalah sebagai berikut : keseluruhan yang ditunjukkan untuk mengukur kesesuaian matrik kovarian sampel dengan matrik kovarian estimasi berdasarkan model yang diajukan
+batas nilai kritis pada tabel ii
+tabel ii uji kesesuaian model batas nilai kritis  gfi > 0.90 [diamontopaulus200] range adalah data tertinggi dikurangi data terendah, standard deviation adalah suatu nilai yang menunjukkan tingkat variasi kelompok atau ukuran standar penyimpangan dari rata-rata, variance adalah kuadrat dari simpangan baku, maximum, minimum, kurtusis, , dan skewness
+untuk pengujian ini dlakukan menggunakan software spps versi 14
+untuk uji statistik deskriptif dapat dilihat pada tabel iii
+uji sampel dan standarisasi normal sampel yang akan dipakai dalam pengolahan responden adalah sebanyak 200 orang penduduk
+dalam penyebaran kuisioner yang terdata adalah 170 orang dan yang data yang tidak kembali sebanyak 30 kuisioner
+untuk melihat data sampel yang dipakai bisa dilihat pada tabel iv
+uji normalitas variabel hasil uji normalitas disajikan pada tabel assesment of normality yang dapat dilihat pada tabel v dibawah nilai yang direkomendasi yaitu -2.58 sampai 2.58
+pengolahan dalam model persamaan struktural penelitian ini dilakukan untuk menganalisis tujuh variabel laten, satu diantaranya merupakan variabel eksogen dan dua variabel lainnya merupakan variabel endogen
+variabel – variabel laten tersebut diukur melalui indikator yang tertera pada tabel vi
+pengujian model awal model awal penelitian ini diolah dengan menggunakan software amos versi 16
+untuk hasil pengolahan model awal dari penelitian bisa dilihat pada hasil gambar 2
+model penelitian setelah uji setelah dilakukan pengujian maka hasil model dengan menggunakan analisis jalur
+pada pengujian model ini digambarkan dengan menggunakan software amos
+untuk hasil uji model dapat dilihat pada gambar
+berdasarkan gambar 3 dari hasil estimasi dan regression wieght, maka model diestimasi, residual kovariannya haruslah kecil atau mendekati nol dan distribusi frekuensi dari residual kovarian harus bersifat simetrik
+maka dilakukan modifikasi dengan menghapus hubungan dari peou ke intent dengan nilai p >0.05
+model awal penelitian nilai standar hipotesis yang digunakan adalah sebagai berikut : h1 : hipotesis diterima apabila p ≥ 0.05)
+hasil pengujian model hasil modifikasi analisis jalur uji signifikansi pada gambar 4 maka supaya nilai probabilitas dikatakan normal maka variabel snorm dihubungkan dengan pu
+kemudian variabel peou dihubungkan dengan pu dan pu dihubungkan dengan intent
+dari hasil modifikasi menunjukkan secara menyeluruh yang ditunjukkan dengan nilai probabilitas sebesar 0.130 sehingga nilai probabilitas yang dihasilkan lebih tinggi dari nilai probabilitas model sebelumnya
+percieved terbukti signifikan berpengaruh terhadap (perceived usefulness/pu
+pengujian hipotesis dan interpretasi hasil uji hipotesis terhadap penelitian ini dilakukan dua kali pengujian yaitu uji hipotesis statistik dan deskriptif yaitu h1 : diduga berpengaruh terhadap persepsi kemanfaatan 
+terhadap terbukti signifikan h3 : diduga berpengaruh terhadap 
+h2 0.000 tolak h0 h3 0.000 tolak h0 iv penutup dilakukan terhadap penelitian ini dapat disimpulkan sebagai berikut : a
+model tam yang digunakan pada penelitian ini adalah bagian teknologi khususnya teknologi informasi
+model akhir yang memenuhi kreteria fit – model penelitian adalah dapat memberikan implikasi mendasar pada persamaan antar variabel eksogen dengan variabel endogen menggunakan tam dapat dikembang lebih lanjut dengan mengkombinasikan teori lain dibidang ilmu sosial, ekonomi dan bidang lainnya

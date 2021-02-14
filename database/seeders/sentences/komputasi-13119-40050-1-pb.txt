@@ -1,0 +1,88 @@
+ada dua jenis data clustering yang sering dipergunakan dalam proses pengelompokan data yaitu hierarchical data clustering dan non-hierarchical data clustering
+k- means clustering merupakan salah satu metode data clustering non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih cluster/kelompok
+salah satu ciri clustering yang baik atau optimal adalah jika menghasilkan cluster yang berisi data dengan tingkat kemiripan yang tinggi pada cluster yang sama dan tingkat kemiripan rendah pada cluster yang berbeda
+distance measure digunakan untuk mengukur kemiripan data dalam suatu cluster
+hasil dari proses clustering akan menghasilkan hasil yang berbeda apabila distance measure yang digunakan berbeda
+fitness atau kebugaran didefinisikan sebagai keberhasilan seseorang dalam beradaptasi dengan tekanan fisik dan mental yang ditemui dalam hidupnya
+fitness secara umum didefinisikan sebagai program latihan yang disusun secara ilmiah dan sistematis untuk membantu atlet dalam beradaptasi dengan beban fisik yang dihadapinya dalam suatu latihan yang terkontrol
+peminat fitness yang semakin bertambah membuat member di setiap fitness centre ikut bertambah
+pengelompokkan terhadap member tersebut dibutuhkan oleh setiap fitness centre
+member fitness tersebut dapat dikelompokkan dengan cara clustering
+alvaro fitness merupakan salah satu fitness centre yang berkembang saat ini
+pengujian pada penelitian ini dilakukan dengan pengujian silhouette coefficient
+hasil pengujian silhouette coefficient setiap distance measure nya, antara lain euclidean distance bernilai 0, 232149, manhattan distance bernilai 0, 240016, dan chebyshev distance bernilai 0.242821
+berdasarkan hasil dari pengujian silhouette coefficient yang dilakukan, distance measure paling optimal untuk kasus ini adalah chebyshev distance, yaitu dengan nilai silhouette coefficient paling mendekati 1 adalah 0.242821
+distance, silhouette coefficient yang bersifat tanpa arahan 
+ada dua jenis data clustering yang sering dipergunakan dalam proses pengelompokan data yaitu hierarchical data clustering dan non-hierarchical data clustering
+tujuan dari proses clustering yaitu untuk mengelompokkan data ke dalam suatu cluster, sehingga objek pada suatu cluster memiliki kemiripan yang sangat besar dengan objek lain pada cluster yang sama, tetapi sangat tidak mirip dengan objek pada cluster yang lain
+k-means clustering merupakan salah satu metode data clustering non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih cluster/kelompok
+penelitian mengenai clustering menggunakan metode k- means clustering sudah pernah dilakukan oleh silvi agustina dengan judul clustering kualitas beras berdasarkan ciri fisik menggunakan metode k-means
+metode ini juga dapat digunakan dalam mengelompokkan member fitness yang merupakan kasus berbeda
+salah satu ciri clustering yang baik atau optimal adalah jika menghasilkan cluster yang berisi data dengan tingkat kemiripan yang tinggi pada cluster yang sama dan tingkat kemiripan rendah pada cluster yang berbeda
+distance measure digunakan untuk mengukur kemiripan data dalam suatu cluster
+hasil dari proses clustering akan menghasilkan hasil yang berbeda apabila distance measure yang digunakan berbeda
+keberhasilan seseorang dalam beradaptasi dengan tekanan fisik dan mental yang ditemui dalam hidupnya
+fitness secara umum didefinisikan sebagai program latihan yang disusun secara ilmiah dan sistematis untuk membantu atlet dalam beradaptasi dengan beban fisik yang dihadapinya dalam suatu latihan yang terkontrol
+fitness centre saat ini seperti menjadi kebutuhan sekarang ini dimana seseorang tidak perlu mencari waktu libur untuk berolahraga, sebab dari jam operasional dan jadwal yang ditawarkan dari manajemen fitness centre sangat membantu mereka dalam menentukan jadwal fitness mereka
+peminat fitness yang semakin bertambah membuat member di setiap fitness centre ikut bertambah
+pengelompokkan terhadap member tersebut dibutuhkan oleh setiap fitness centre
+member fitness tersebut dapat dikelompokkan dengan cara clustering
+masing-masing member di alvaro fitness memiliki ukuran fisik dan umur yang berbeda
+kebutuhan masing-masing member fitness tentunya dapat berbeda-beda, dilihat dari ukuran fisik dan umurnya
+contoh kebutuhan tersebut, antara lain jenis latihan, jenis suplemen yang cocok, tingkatan beban, dan lain-lain
+distance measure pada k-means clustering untuk pengelompokkan member di alvaro fitness penelitian ini diharapkan dapat menentukan jenis distance measure yang paling baik dalam proses clustering
+menemukan hubungan yang berarti, pola dan kecenderungan dengan memeriksa dalam sekumpulan besar data yang tersimpan dalam penyimpanan, dengan menggunakan teknik pengenalan pola seperti teknik statistik dan matematika
+clustering mencari dan mengelompokkan data yang memiliki kemiripan karakteriktik antara satu data dengan data yang lain
+clustering merupakan salah satu metode data mining yang bersifat tanpa arahan, maksudnya metode ini diterapkan tanpa adanya latihan dan tanpa ada guru serta tidak memerlukan target output
+dalam data mining ada dua jenis metode clustering yang digunakan dalam pengelompokan data, yaitu hierarchical clustering dan non-hierarchical clustering
+pengelompokan data yang dimulai dengan mengelompokkan dua atau lebih objek yang memiliki kesamaan paling dekat
+kemudian proses diteruskan ke objek lain yang memiliki kedekatan kedua
+demikian seterusnya sehingga cluster akan membentuk semacam pohon dimana ada hierarki yang jelas antar objek, dari yang paling mirip sampai yang paling tidak mirip
+secara logika semua objek pada akhirnya hanya akan membentuk sebuah cluster
+dua cluster, tiga cluster, atau lain sebagainya
+dendogram biasanya digunakan untuk membantu memperjelas proses hierarki tersebutberbeda dengan metode hierarchical clustering, metode non-hierarchical clustering justru dimulai dengan menentukan terlebih dahulu jumlah cluster yang diinginkan 
+setelah jumlah cluster diketahui, baru proses cluster dilakukan tanpa mengikuti proses hierarki
+metode ini biasa disebut dengan k-means clustering
+non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih cluster/kelompok
+metode ini mempartisi data ke dalam cluster/kelompok sehingga data yang memiliki karakteristik yang sama dikelompokkan ke dalam satu cluster yang sama dan data yang mempunyai karakteristik berbeda dikelompokkan ke dalam kelompok yang lain
+adapun tujuan dari data clustering ini adalah untuk meminimalisasikan objective function yang diset dalam proses clustering, yang pada umumnya berusaha meminimalisasikan variasi di dalam suatu cluster dan memaksimalisasikan variasi antar cluster
+data clustering menggunakan metode k-means ini secara umum dilakukan dengan algoritma dasar sebagai berikut : 1
+alokasikan data ke dalam cluster secara random 3
+hitung centroid/rata-rata dari data yang ada di masing-masing cluster 4
+alokasikan masing-masing data ke centroid/rata- rata terdekat 5
+kembali ke step 3, apabila masih ada data yang berpindah cluster atau apabila perubahan nilai centroid, ada yang di atas nilai threshold yang ditentukan atau apabila perubahan nilai pada objective function yang digunakan di atas nilai threshold yang ditentukan
+distance measure menentukan dua objek mirip atau tidak mirip
+untuk menentukan kemiripan tersebut dapat digunakan pengukuran yang disebut dengan distance measure
+berikut adalah beberapa cara perhitungan jarak yang dapat dilihat pada persamaan 1, 2dan 3: 1
+euclidean distance 𝑗=1 keterangan : 𝑝 = dimensi data 𝑋1 = posisi titik 1 𝑋2 = posisi titik 2 2
+manhattan distance 𝐷𝐿1 = ‖𝑋2 − 𝑋1‖ 1 = ∑ |𝑋2𝑗 − 𝑋1𝑗| 𝑝 𝑗=1 keterangan : 𝑝 = dimensi data |
+| = nilai absolut 𝑋1 = posisi titik 1 𝑋2 = posisi titik 2 3
+chebyshev distance dan kekuatan cluster, seberapa baik suatu objek ditempatkan dalam suatu cluster
+metode ini merupakan gabungan dari metode cohesion dan separation
+tahapan perhitungan silhouette coefficient adalah sebagai berikut: 1
+hitung rata-rata jarak dari suatu dokumen misalkan i dengan semua dokumen lain yang berada dalam satu cluster dengan j adalah dokumen lain dalam satu cluster a dan d adalah jarak antara dokumen i dengan j
+hitung rata-rata jarak dari dokumen i tersebut dengan semua dokumen di cluster lain, dan diambil nilai terkecilnya
+dengan d adalah jarak rata-rata dokumen i dengan semua objek pada cluster lain c dimana a ≠ c
+hasil clustering menggunakan euclidean distance berikut ini adalah hasil clustering akhir dari euclidean distance
+adapun total member yang terkelompok ke dalam masing-masing cluster adalah cluster 1 20 member, cluster 2 23 member, cluster 3 12 member
+member yang terkelompok dapat dilihat pada tabel 1
+hasil clustering dengan manhattan distance berikut ini adalah hasil clustering akhir dari manhattan distance
+adapun total member yang terkelompok ke dalam masing-masing cluster adalah cluster 1 20 member, cluster 2 25 member, cluster 3 10 member
+member yang terkelompok dapat dilihat pada tabel 2
+hasil clustering dengan chebyshev distance berikut ini adalah hasil clustering akhir dari euclidean distance
+pengujian dilakukan pada hasil clustering setiap distance measure pada metode k-means clustering
+berikut akan dipaparkan contoh dari perhitungan untuk mendapatkan nilai silhouette coeficient, dengan menggunakan chebyshev distance sebagai contoh
+hitung rata-rata jarak dari suatu dokumen misalkan i dengan semua dokumen lain yang berada dalam satu cluster pada tabel 4
+hitung rata-rata jarak dari dokumen i tersebut dengan semua dokumen di cluster lain, dan diambil nilai terkecilnya
+dengan d adalah jarak rata-rata dokumen i dengan semua objek pada cluster lain c dimana a ≠ c
+nilai d yang dihasilkan akan memiliki 2 nilai dikarenakan jumlah cluster pada penelitian ini yang berjumlah 3
+setelah itu akan diambil nilai minimum dari 2 nilai d yang dihasilkan untuk mendapatkan nilai b 
+hasil perhitungannya dapat dilihat pada tabel 5
+nilai silhouette coefficient nya adalah : 𝑠 = 𝑏 − 𝑎 yang dapat dilihat pada tabel 6
+maka, nilai silhouette coefficient chebyshev distance pada metode k-means clusering adalah 0.242821
+pengujian silhouette coefficient clustering menggunakan metode k-means clustering pada setiap distance measure adalah sebagai berikut
+euclidean distance nilai silhouette coefficient-nya adalah 0, 232149
+manhattan distance nilai silhouette coefficient-nya adalah 0, 240016
+chebyshev distance nilai silhouette coefficient-nya adalah 0.242821
+distance measure paling optimal untuk digunakan dalam kasus pengelompokkan member di alvaro fitness adalah chebyshev distance
+aplikasi clustering member di alvaro fitness menggunakan metode k-means clustering telah berjalan dengan baik

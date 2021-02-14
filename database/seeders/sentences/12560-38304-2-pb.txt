@@ -1,0 +1,13 @@
+universitas tanjungpura merupakan universitas negeri yang berada di kota pontianak
+untan memiliki banyak gedung yang tersebar pada lahan dengan luas areal 12.135 m 2
+banyaknya gedung ini membuat sebagian orang akan kesulitan dalam mengenali dan mendapatkan informasi mengenai gedung yang berada dalam lingkungan untan
+interaktivitas menjadi salah satu poin yang penting dalam pengembangan sebuah aplikasi
+teknologi augmented reality adalah salah satu teknologi interaksi yang dapat mengintegrasikan obyek virtual dengan lingkungan nyata secara real-time
+ar memungkinkan user untuk berinteraksi dengan obyek virtual secara natural ar yang diimplementasikan pada aplikasi bekerja dengan cara memberikan label pada gedung yang ditampilkan oleh layar smartphone
+teknik tracking ar yang digunakan pada penelitian ini adalah gps based tracking, dimana teknik ini memanfaatkan data koordinat yang dimiliki oleh gedung untuk memberikan label pada gedung
+pengujian pada penelitian ini dilakukan dengan pengujian akurasi dan kuesioner
+berdasarkan hasil dari pengujian akurasi yang dilakukan, aplikasi yang diimplementasikan dengan teknologi ar ini dapat mengenali gedung dari depan, sisi belakang, sisi kiri maupun sisi kanan gedung dan dari jarak dekat, sedang maupun jauh
+berdasarkan kuesioner yang dibagikan kepada 100 responden, didapatkan bahwa aplikasi yang diimplementasikan dengan teknologi ar dapat mempermudah masyarakat kota pontianak untuk mengenali gedung yang berada di lingkungan untan, sebesar 89% responden yang merasa dimudahkan oleh teknologi ar
+masyarakat kota pontianak lebih dimudahkan dengan fitur teknologi ar untuk mengenali gedung di untan daripada menggunakan fitur peta digital, dimana persentase pemilih teknologi ar sebesar 96%
+pendahuluan negeri yang berada di kota pontianak
+untan memiliki banyak gedung yang tersebar pada lahan dengan luas areal 12.135 m 2

@@ -1,0 +1,12 @@
+eee paper template in a4 vol 5 no 3 perancangan knowledge management system #1, julend gatc jl
+pulomas selatan kav.22 rt.4/rw.9, kota jakarta timur, dki jakarta 1harfebi.fryonanda@kalbis.ac.id 2jullend.gatc@kalbis.ac.id dalam meningkatkan perekonomian sebuah negara, daerah dan terutama masyarakat sekitar
+sumatera barat merupakan salah satu provinsi yang menjadi tujuan wisatawan lokal maupun mancanegara
+sumatera barat memiliki banyak jenis objek wisata seperti: laut, pantai, gunung, lembah dan lainnya
+sampai saat ini sudah terdata ±829 tujuan wisata yang ada di sumatera barat
+maka dari itu pemerintah sumatera barat menginginkan adanya pemetaan/mapping pariwisata dan koordinasi stakeholder
+pada penelitian ini dilakukan sistem inventarisasi pengetahuan yang tersedia dan menghubungkan semua stakeholder yang ada dengan menggunakan pendekatan knowledge management life cycle 
+sistem yang dirancang merupakan sharing knowledge management system sehingga setiap user dapat berbagi pengetahuan baik itu pengetahuan tacit maupun ekplisit
+penelitian ini menghasilkan sebuah knowledge management system pariwisata yang akan mengakomodasi kebutuhan wisatawan, selain itu, sistem ini juga memungkinkan user dapat berinteraksi satu sama lain, mendapatkan informasi dan pengetahuan baik itu pengalaman, info wisata dalam bentuk artikel maupun event dan lainnya
+sehingga pengetahuan yang diperoleh oleh user khususnya wisatawan dapat membantu mereka dalam pengambilan keputusan seperti pemilihan rute perjalananan atau tujuan wisata, dan juga mendapatkan informasi pendukung lainnya
+pendahuluan provinsi sumatera barat merupakan salah satu provinsi yang ada di indonesia tepatnya di pulau sumatera
+secara geografis, sumbar memiliki daratan seluas 42.297, 30km dan garis pantai sepanjang 2.420.357km yang bersentuhan langsung dengan samudera hindia

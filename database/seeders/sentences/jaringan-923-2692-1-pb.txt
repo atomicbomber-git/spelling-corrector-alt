@@ -1,0 +1,13 @@
+enggunakan neural network backpropagation rizqia.lestika@yahoo.com to convey information in writing by one party to the other party
+it functions include five things: means notices, requests, thoughts and ideas
+a formal letter is a letter that contain the official or a particular business problem
+along with the increasing demand for the current document digitalization, ocr (optical character identify the image of characters then will be converted into text files
+furthermore, artificial neural network is one kind of technology approach that promising can increase the computer's ability to recognize and represent pattern
+meanwhile, backpropagation is one kind of neural network algorithm which common used
+therefore, a character recognition application using neural network backpropagation will be designed
+application need a data image of document letter as an input, it’s obtained from scanning, then continued by pre-processing, segmentation, characters text as an output
+result of the test had been showed that, the best recognition accuracy rate on the characters trained, font arial, with learning rate 0.2, momentum 0.5 and 15 epoch is 71.95% and for the characters without trained, font times new roman and courier new, the recognition accuracy rate is 40.24%
+overall, the result of percentage success the recognition of 790 characters in 15 document letter is 84.56%
+keywords-- character recognition, neural menyampaikan informasi tertulis oleh suatu pihak ke pihak lain
+fungsinya mencakup lima hal: sarana pemberitahuan, permintaan, buah pikiran dan gagasan
+sedangkan menurut jatiningsih, surat merupakan bentuk tulisan untuk menjelaskan pikiran dan perasaan seseorang

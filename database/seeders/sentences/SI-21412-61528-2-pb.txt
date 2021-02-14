@@ -1,0 +1,65 @@
+kucing merupakan satu diantara binatang yang paling diminati oleh sebagian masyarakat sebagai hewan peliharaan
+akan tetapi, kesulitan yang dihadapi oleh pemilik kucing adalah kurangnya pengetahuan dan kesadaran tentang cara merawat kucing
+dokter hewan dapat menjadi solusi namun, untuk melakukan konsultasi dan perawatan, diperlukan biaya yang tidak sedikit
+oleh karena itu, diperlukan sebuah sistem yang dapat membantu masyarakat dalam melakukan perawatan untuk kucingnya
+sistem yang akan dibangun tidak untuk menggaantikan peran dokter hewan, namun untuk memberikan informasi tentang cara merawat kucing
+sistem ini dibangun berdasarkan aturan yang didapat dari pakar yaitu dokter hewan
+salah satu sistem yang menggunakan aturan sebagai dasar untuk menyelesaikan masalah adalah sistem berbasis aturan dengan penalaran forward chaining
+pengujian sistem untuk tangal vaksinasi dan tanggal pemberian obat cacing terdapat selisih waktu
+selisih waktu ini disebabkan sistem menghitung umur berdasarkan minggu
+berdasarkan keterangan dari dokter, keterlambatan memberikan vaksin atau obat cacing dapat ditolerir apabila dalam kurun waktu 1 minggu sampai 1 bulan
+oleh sebab itu, jika selisih hasil kurang dari 1 bulan dianggap sesuai
+hasil pengujian dengan membandingkan hasil pakar dan hasil sistem dari 20 kasus yang diuji, terdapat 19 kasus yang menunjukkan hasil sesuai
+pendahuluan beda sesuai dengan kebutuhan jenis hewan itu sendiri
+pemeliharaan, pengamanan, perawatan, dan pengayoman hewan dilakukan dengan sebaik-baiknya sehingga hewan bebas dari rasa lapar dan haus, rasa sakit, penganiayaan dan penyalahgunaan, serta rasa takut dan tertekan
+menurut pasal 66 ayat huruf c uu 18/2009 
+namun tidak semua masyarakat memiliki pengetahuan tentang kebutuhan hewan peliharaan mereka
+sebagai contoh kucing merupakan satu diantara binatang yang paling diminati oleh sebagian masyarakat sebagai hewan peliharaan
+akan tetapi, kesulitan yang dihadapi oleh pemilik kucing adalah kurangnya pengetahuan dan kesadaran tentang cara merawat kucing
+dokter hewan dapat menjadi solusi namun, untuk melakukan konsultasi dan perawatan diperlukan biaya yang tidak sedikit
+oleh karena itu, diperlukan sebuah sistem yang dapat membantu masyarakat dalam melakukan perawatan untuk kucingnya
+didapat dari pakar yaitu dokter hewan
+salah satu sistem yang menggunakan aturan sebagai dasar untuk menyelesaikan masalah adalah sistem berbasis aturan
+sistem berbasis aturan atau rule based system merupakan suatu sistem pakar yang menggunakan aturan-aturan untuk menyajikan pengetahuannya
+dengan kata lain, bahwa sistem berbasis aturan adalah suatu perangkat lunak yang menyajikan keahlian pakar dalam bentuk aturan-atuan pada suatu domain tertentu untuk menyelesaikan suatu permasalahan
+dilakukan penelitian untuk membangun sistem perawatan kucing berbasis aturan yang diharapkan dapat memberikan solusi bagi pemilik kucing dalam memilih cara merawat kucingnya
+sistem yang akan dibangun berbasis web agar dapat diakses oleh siapa saja dengan menggunakan sistem operasi apa saja dan tanpa perlu melakukan penginstalan
+uraian penelitian program komputer yang memproses informasi yang terdapat di dalam working memory dengan sekumpulan aturan yang terdapat di dalam basis pengetahuan menggunakan mesin inferensi untuk menghasilkan informasi baru
+dengan kata lain bahwa sistem berbasis aturan adalah suatu perangkat lunak yang menyajikan keahlian pakar dalam bentuk aturan- atuan pada suatu domain tertentu untuk menyelesaikan suatu permasalahan
+dengan mengolah data yang ada dan menggunakan aturan- aturan penalaran untuk mendapatkan data selanjutnya hingga tujuan tercapai
+inference engine yang menggunakan forward chaining akan mencari aturan penalaran dalam knowledge base hingga ditemukan bahwa data tersebut bernilai true
+ketika aturan tersebut ditemukan, inference engine dapat menarik kesimpulan atau melakukan pencarian berikutnya sesuai dengan informasi yang baru didapatkan
+sistem perawatan kucing berbasis aturan anisa#1, tursina#2, helen sasty pratiwi#3 #program studi teknik informatika universitas tanjungpura jl
+unified modelling language unified modeling language merupakan bahasa visual untuk pemodelan dan komunikasi mengenai sistem dengan menggunakan diagram dan teks-teks pendukung
+unified modeling language terdiri atas banyak elemen- elemen grafis yang digabungkan menbentuk diagram
+use case diagram antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+class diagram memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+dari sebuah sistem atau proses bisnis
+activity diagram menggambarkan aktivitas sistem bukan apa yang dilakukan aktor, jadi aktivitas yang dapat dilakukan oleh sistem
+pengujian aplikasi pengujian validasi dengan membandingkan hasil pakar dan hasil sistem dengan menggunakan 20 kasus
+dibangunnya aplikasi ini bertujuan untuk membantu para pemilik kucing untuk merawat kucingnya
+berikut beberapa tampilan hasil perancangan sistem, yang diperlihatkan pada gambar 2 sampai dengan gambar 6
+tampilan halaman utama gambar 2 merupakan tampilan dari halaman utama sistem gambar 3
+tampilan halaman kucing gambar 3 merupakan tampilan halaman kucing
+pada halaman ini terdapat data kucing yang akan melakukan perawatan
+gambar 4 merupakan tampilan halaman perawatan kucing
+pada halaman in i terdapat 4 menu perawatan yaitu, kebutuhan makan, vaksinasi, obat cacing dan perawatan bulu kucing
+tampilan halaman riwayat perawatan gambar 5 merupakan tampilan halaman riwayat perawatan
+pada halaman ini terdapat riwayat-riwayat kucing yang pernah melakukan perawatan
+pada halaman ini terdapat menu untuk mengaktifkan notifikasi vaksinasi dan obat cacing
+hasil yang dilakukan oleh pakar yaitu dokter hewan dan hasil oleh sistem
+analisis hasil pengujian aturan dapat disimpulkan sebagai berikut: sistem berhasil dibangun dengan menggunakan basis aturan
+sistem memberikan solusi berupa jumlah kebutuhan makan dan minum pada kucing, serta jadwal vaksinasi dan pemberian obat cacing pada kucing
+hasil sistem dari 20 kasus yang diuji, terdapat 19 kasus yang menunjukkan hasil sesuai
+pengujian sistem untuk tangal vaksinasi dan tanggal pemberian obat cacing terdapat selisih waktu
+memberikan vaksin atau obat cacing dapat ditolerir apabila dalam kurun waktu 1 minggu sampai 1 bulan
+oleh sebab itu, jika selisih hasil kurang dari 1 bulan dianggap sesuai
+keberhasilan sistem dapat diketahui dengan rumus jumlah kasus yang sesuai dibagi jumlah kasus dikali dengan 100%
+keberhasilan sistem diukur sebagai berikut: disimpulkan bahwa : notifikasi sebagai pengingat untuk jadwal vaksinasi dan obat cacing pada kucing
+sistem perawatan kucing berbasis aturan dengan menggunakan metode forward chaining berhasil dibangun dengan tingkat validitas antara hasil pakar dan hasil sistem untuk kebutuhan makan, kebutuhan minum, vaksinasi dan obatcacing sebesar 95%
+terdapat selisih waktu dalam menentukan hasil vaksinasi selanjutnya dan obat cacing selanjutnya yang disebabkan oleh sistem menghitung berdasarkan minggu
+adapun jika dirata-ratakan terdapat perbedaan 4 hari untuk vaksinasi dan obat cacing

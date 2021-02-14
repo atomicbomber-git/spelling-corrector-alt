@@ -1,0 +1,147 @@
+eee paper template in a4 vol 4 no 2 perancangan sistem pendukung keputusan dalam pemilihan dosen pembimbing skripsi berdasarkan minat mahasiswa dengan metode ahp di universitas muhammadiyah pontianak asrul abdullah#1, menur wahyu pangestika#2 #program studi teknik informatika universitas muhammadiyah pontianak jln ahmad yani no 111 bangka belitung laut, pontianak tenggara, kota pontianak, kalimantan barat 78123 1asrul.abdullah@unmuhpnk.ac.id 2menur.wahyu@unmuhpnk.ac.id untuk memperoleh gelar sarjana strata satu
+oleh sebab itu, pemilihan dosen pembimbing skripsi yang sesuai dengan minat mahasiswa sangat diperlukan
+hal ini tidak lain agar dapat memacu mahasiswa untuk terus bersemangat mengerjakan skripsinya
+umumnya, pemilihan dosen pembimbing skripsi diputuskan oleh pihak program studi lewat rapat para dosen untuk menentukan dosen mana yang sesuai dengan judul dan deskripsi dari mahasiswa yang mengambil mata kuliah skripsi tersebut
+guna menanggulangi masalah di atas, maka diperlukan sebuah sistem yang mampu memberikan keputusan yang tepat dan cepat dalam memilih dosen pembimbing skripsi sesuai dengan minat mahasiswa
+tahapan-tahapan dalam penelitian ini dimulai dari analisa masalah, analisa kebutuhan, desain sistem, implementasi, pengujian dan perawatan sistem
+penentuan kriteria didasarkan kepada jumlah minat yang ada di program studi teknik informatika um pontianak sedangkan penentuan alternatif didasarkan kepada jumlah dosen tetap yang ada di program studi teknik informatika
+hasil dari penelitian ini adalah sistem memberikan rangking tiap alternatif
+rangking pertama menjadi prioritas pertama sistem menentukan keputusan dengan melihat kecocokan minat mahasiswa
+dari hasil perhitungan didapatkan bobot paling besar ada pada kriteria jaringan komputer sebesar 63.3 % dan kriteria alternatif berdasarkan prioritas global yang merupakan gabungan dari tiga kriteria ada pada alternatif a5 sebesar 24.2 %
+pendahuluan dipengaruhi oleh kualitas anak didiknya, dalam hal ini mahasiswa
+agar tercapai harapan tersebut peran sejumlah stakeholder sangat diperlukan
+mulai dari pemilihan dosen pembimbing akademik, pemilihan dosen pembimbing skripsi dan pemilihan dosen penguji
+dalam proses belajar mengajar, beban yang dipikul oleh seorang mahasiswa tidak sama dengan beban sewaktu duduk di bangku sekolahan
+selain beban yang berbeda, para mahasiswa ini juga harus pandai mengatur strategi agar bisa lulus kuliah tepat waktu
+peran program studi amat penting terutama dalam pemilihan dosen pembimbing skripsi yang merupakan pintu gerbang kelulusan
+skripsi merupakan salah satu syarat kelulusan untuk memperoleh gelar sarjana strata satu
+oleh sebab itu, pemilihan dosen pembimbing skripsi yang sesuai dengan minat mahasiswa sangat diperlukan
+hal ini tidak lain agar dapat memacu mahasiswa untuk terus bersemangat mengerjakan skripsinya
+umumnya, pemilihan dosen pembimbing skripsi diputuskan oleh pihak program studi lewat rapat para dosen untuk menentukan dosen mana yang sesuai dengan judul dan deskripsi dari mahasiswa yang mengambil mata kuliah skripsi tersebut
+hasil keputusan program studi memakan waktu paling cepat sehari atau seminggu paling lama setelah submit judul skripsi
+mekanisme demikian tentunya sangat tidak efisien
+tepat dan cepat dalam memilih dosen pembimbing skripsi sesuai dengan minat mahasiswa
+penelitian ini menggunakan metode analytical hierarchy process yang cukup ampuh untuk menentukan keputusan yang disesuaikan dengan minat mahasiswa, judul skripsi, konsentrasi dosen tetap yang ada di program studi teknik informatika um pontianak
+adanya sistem ini diharapkan dapat membantu pihak program studi dalam menentukan keputusan pemilihan dosen pembimbing skripsi berdasarkan minat mahasiswa
+korespondensi : asrul abdullah 185 beberapa mekanisme yaitu dilihat pada konsistensi
+analytic hierarchy process merupakan metode yang dapat mengatasi kelemahan ini yang mengatasi masalah konsistensi
+ahp digunakan untuk menetukan skala rasio dari perhitungan perbandingan berpasangan
+perhitungan ahp dilihat dari nilai konsistensi, dan pengukuran disetiap kriteria
+untuk memodelkan masalah, ahp membutuhkan sebuah struktur hirarki dan perbandingan berpasangan untuk melihat hubungan antara kriteria dengan alternatif
+teori penilaian pada pengukuran ahp bergantung pada penilaian para ahli untuk dapat memperoleh skala prioritas
+penerapan metode ahp digunakan untuk mengumpulkan preferensi dari hasil keputusan dengan menggunakan pohon keputusan atau hirarki proses
+metode perbandingan berpasangan digunakan untuk mendapatkan skala kepentingan relatif
+metode ahp untuk mengetahui dampak menggunakan skala penilaian pada prioritas yang dihasilkan dan konsistensi terhadap skala utama dengan menerapkan contoh praktis yang digunakan dalam makalah sebelumnya oleh saaty pada tahun 2003
+hasil dari penelitian ini membuktikan bahwa terdapat dampak yang besar terhadap skala penilaian yang digunakan pada prioritas kriteria tetapi tidak pada peringkat kriteria
+metode ahp digunakan dalam kasus menilai kinerja lembaga diploma untuk mengidentifikasi lembaga yang bekerja dengan baik
+ahp dapat menguraikan masalah menjadi hirarki sub kriteria yang dapat lebih mudah untuk dipahami
+penelitian ini menggunakan 6 kriteria dan 5 alternatif
+kriteria yang digunakan yaitu academic environment and freedom, affiliation and belongingness, strategic, student guidance and counselling, system openness and stakeholders interactions dan support and structure
+alternatif yang digunakan yaitu polytechnic 1, polytechnic 2, polytechnic 3, polytechnic 4, dan polytechnic 5
+hasil pada penelitian ini masih bersifat pendahuluan dan eksplorasi yang memberikan saran untuk penelitian pada studi serupa yang dapat memberikan pemahaman mengenai lingkungan kelembagaan untuk dapat meningkatkan kinerja
+pada penelitian lain, metode ahp digunakan untuk pemilihan mahasiswa yang mendapatkan penghargaan pada kegiatan all round excellence award dari sebuah perguruan tinggi teknik
+dalam penelitian ini menggunakan 7 kriteria dan 5 alternatif yang digunakan untuk memilih mahasiswa yang mendapatkan penghargaan
+metode ahp dalam penelitian ini dapat memberikan hasil yaitu siswa dari ece mendapatkan all round excellence award dengan prioritas tertinggi yaitu nilai akademis dan perilaku umum
+adapun penelitian lain mengenai ahp pada pengembangan sumber daya manusia dan ekonomi berbasis pengetahuan
+pada penelitian ini mengusulkan pendekatan analitik yang digunakan untuk mengintegrasikan prefensi multi aspek dengan 5 kriteria yang digunakan yaitu sumber daya manusia untuk menentukan 4 alternatif
+hasil dari penelitian ini menunjukkan bahwa crbuk menjadi indikator yang paling penting, sedangkan usi menjadi indikator yang paling rendah
+peringkat alternatif yang didapatkan dari hasil perhitungan dengan beberapa kriteria dapat menjadi rujukan dalam mengarahkan malaysia untuk menjadi investasi modal manusia yang layak
+metode ahp juga digunakan dalam pemilihan dosen berprestasi di lingkungan fakultas teknologi informasi universitas islam balitar
+penelitian ini menggunakan kriteria yaitu prestasi unggul dan karya tridarma
+sub kriteria yang digunakan adalah penelitian, pendidikan, pengabdian dan penunjang lainnya
+hasil dari penelitian ini adalah sistem pemilihan dosen dan secara fungsional memberikan hasil yang sesuai dengan yang diharapkan
+penelitian lain yang menggunakan metode ahp dilakukan olehyang meneliti tentang pemilihan network monitoring system dengan menggunakan metode ahp
+hasil dari penelitian ini software monitoring system untuk sistem informasi yang handal adalah prtg dengan nilai bobot 0, 360 atau sebanding dengan 36, 0% dari total alternatif yang ditetapkan
+hasil nilai bobot alternatif ini ternyata sesuai dengan hipotesa yang dibuat pada perumusan masalah di bab sebelumnya
+kemudian peringkat prioritas alternatif berikutnya adalah cacti, nagios, dude, dan peringkat prioritas terendah adalah opennms 
+pembimbing dengan menggunakan metode logika fuzzy di stmik amikom yogyakarta
+metode fuzzy yang digunakan adalah metode pelacakan fuzzy logic metode mamdani serta menggunakan metode pendekatan berbasis aturan
+penilaian yang digunakan dalam penelitian ini berdasarkan bidang kompetensi dosen, ipk mahasiswa, beban bimbingan dosen, nilai skripsi mahasiswa yang telah maju sidang skripsi dan durasi mahasiswa dalam menyelesaikan skripsi serta kondisi khusus sebagai aspek pertimbangan
+hasil dari penelitian ini memberikan saran dan solusi dalam penunjukkan dosen pembimbing dengan tingkat keakuratan sistem pendukung keputusan sebesar 87%
+penelitian yang dilakukan olehadalah merancang sebuah aplikasi daring untuk bimbingan tugas akhir
+hasil dari penelitian ini aplikasi dapat membantu proses bimbingan tugas akhir antara dosen dan mahasiswa bimbingannya, karena proses bimbingan dapat dilakukan secara online serta dilengkapi dengan pemberitahuan secara realtime melalui pesan elektronik atau email
+terdapat 5 kriteria dan 13 sub kriteria dengan 13 alternatif yaitu dosen pembimbing kerja praktek
+hasil dari penelitian ini yaitu metode ahp dapat menentukan dosen pembimbing kerja praktek untuk mahasiswa yang mengusulkan yang dihitung berdasarkan kriteria dan sub kriteria
+adapun penelitian lain pada penentuan dosen pembimbing tugas akhir dengan menggunakan metode pengembangan sistem web-engineering dan algoritma rabin-karp
+algoritma rabin-karp merupakan algoritma yang digunakan untuk pencocokan pola string yang dalam penelitian ini digunakan untuk pencocokan pola antara topik tugas akhir mahasiswa dengan judul penelitian yang telah dilakukan oleh setiap pembimbing
+hal ini dilakukan untuk memberikan rekomendasi kepada mahasiswa mengenai dosen pembimbing tugas akhir
+hasil dari penelitian ini yaitu memberikan rekomendasi kepada mahasiswa mengenai dosen pembimbing tugas akhir
+sistem pendukung keputusan penentuan dosen penguji dan pembimbing tugas akhir dilakukan dengan menggunakan metode fuzzy multiple attribute decision making dengan simple additive weighting
+penelitian ini dilaksanakan di jurusan teknik informatika uin sgd bandung
+langkah dari penelitian ini dimulai dari mencari alternatif terbaik berdasarkan kriteria yang telah ditentukan dengan metode sample additive weighting dan selanjutnya dilakukan proses perangkingan yang memberikan alternatif yang optimal kriteria yang digunakan dalam penelitian ini adalah rekayasa perangkat lunak, kecerdasan buatan, jaringan komputer, animasi dan multimedia
+sedangkan alternatif yang digunakan adalah dosen pembimbing dan penguji skripsi
+hasil dari penelitian ini adalah rekomendasi dosen penguji dan pembimbing
+penelitian terdahulu telah berhasil memberikan rekomendasi dosen pembimbing dan penguji, tetapi memiliki kekurangan yakni tidak menjadikan minat/konsentrasi dari mahasiswa sebagai dasar penentuan dosen pembimbing atau pun dosen penguji
+oleh sebab itu, terdapat perbedaan penelitian yang dilakukan oleh peneliti dengan penelitian sebelumnya adalah lebih spesifik menyasar kepada minat mahasiswa yakni memberikan keputusan dengan melihat minat atau konsentrasi mahasiswa yang telah mengambil mata kuliah skripsi/tugas akhir
+karena bersesuaian dengan harapan dari penelitian yakni membuat mahasiswa menjadi lulus tepat waktu
+kelebihan dari sistem yang dibangun oleh peneliti adalah mahasiswa boleh memilih dosen pembimbing menurut keinginannya meskipun tidak semua dosen pembimbing yang diinginkan mahasiswa sesuai dengan hasil keputusan yang dibuat oleh sistem
+tahapan penelitian penting yang dikerjakan dengan berorientasikan kepada indikator keberhasilan dalam menggunakan metode analytical hierarchy process sehingga dapat digunakan untuk menyelesaikan permasalahan multi kriteria
+untuk dapat mencapai indikator tersebut, maka tahapan-tahapan penelitian ini adalah sebagai berikut : 1
+analisa masalah, kebutuhan menganalisa permasalahan yang akan diteliti dengan menggunakan metode analytical hierarchy process 
+analisa kebutuhan, segala kebutuhan dalam proses penelitian baik dari jurnal, buku, literatur-literatur, alat dan bahan
+menggunakan metode analytical hierarchy process dalam pemilihan dosen pembimbing skripsi berdasarkan minat mahasiswa
+bahasa pemrograman preprocessor hypertext dengan menerjemahkan hasil dari desain sistem 5
+menguji perangkat lunak pada permasalahan multi kriteria dalam pemilihan dosen pembimbing skripsi berdasarkan minat mahasiswa
+parameter penelitian permasalahan pemilihan dosen pembimbing skripsi berdasarkan minat mahasiswa
+pada penelitian awal ini akan diujikan data-data yang telah dimasukkan oleh mahasiswa yang telah mengambil mata kuliah skripsi seperti judul penelitian, kategori judul, minat berupa multimedia, rekayasa perangkat lunak dan jaringan komputer, dosen pembimbing yang diinginkan
+model penentuan informan menentukan sumber data primer atau informan adalah purposive sampling melalui key person
+untuk memudahkan penentuan informan di lapangan, peneliti menargetkan informan kunci yang berasal dari mahasiswa teknik informatika um pontianak yang telah mengambil mata kuliah skripsi
+ketersediaan data akan sangat menentukan dalam proses pengolahan dan analisa selanjutnya
+karenanya, dalam pengumpulan data harus dilakukan teknik yang menjamin bahwa data diperoleh itu benar, akurat dan bisa dipertanggungjawabkan sehingga hasil pengolahan dan analisa data tidak bias
+proses pengumpulan data dilakukan dengan 2 cara yaitu : 1
+data-data akan tersebut akan dikelompokkan menjadi dua yakni data testing dan data training 
+kedua data tersebut dilakukan pengujian dengan menggunakan metode analytical hierarchy process multi kriteria yakni judul penelitian, kategori judul, minat berupa multimedia, rekayasa perangkat lunak dan jaringan komputer, dosen pembimbing yang diinginkan
+analis data akan dilihat keakuratan dalam menentukan keputusan atau memberikan solusi dan kecepatan waktu yang dibutuhkan dalam penentuan keputusan
+program studi teknik informatika um pontianak memperhatikan kriteria konsentrasi dari dosen tetap yang ada di program studi teknik informatika um pontianak dan konsentrasi atau peminatan dari mahasiswa yang telah mengambil mata kuliah skripsi / tugas akhir
+hasil dari keputusan penentuan dosen pembimbing skripsi berdasarkan rangking/urutan
+urutan pertama peminatan dari mahasiswa dan berlaku untuk urutan berikutnya
+untuk membuktikan metode ahp dapat memberikan keputusan yang tepat dalam pemilihan dosen pembimbing skripsi, ada beberapa langkah – langkah yang dapat dilakukan
+langkah pertama : menentukan bobot dari masing- masing kriteria
+kriteria yang digunakan dalam penentuan keputusan dosen pembimbing ada tiga yakni rpl, jaringan komputer dan multimedia 
+bobot untuk tiap – tiap kriteria sebagai berikut : adapun bobot tersebut dapat dibuat pairwise comparation matrix seperti yang ditunjukkan pada tabel 1
+kriteria rpl jaringan multimedia total 4.3 1.53 9 perhitungan nilai eigen dan vektor eigen dengan cara normalisasi matriks yaitu nilai – nilai pada tiap kolom dibagi dengan jumlah kolom yang bersangkutan, akan diperoleh bobot relatif yang dinormalkan
+nilai vektor eigen yang dinormalkan dihasilkan dari rata-rata bobot relatif untuk setiap baris
+hasil perhitungannya dapat dilihat pada tabel 2
+comparison c1 0.231 0.217 0.333 0.260 c2 0.692 0.652 0.556 0.633 c3 0.077 0.130 0.111 0.107 perhitungan berikutnya adalah menghitung weighted sum vector dengan cara hasil perkalian antara matriks yang ada pada tabel 1 dengan vektor eigen yang dinormalkan
+langkah ketiga : uji consistency vector setelah mendapatkan nilai weighted sum vector, maka berikutnya adalah menguji consistency vector dengan cara membagi nilai tiap baris dengan nilai vektor yang bersangkutan
+karena matriks berordo 3 maka nilai indeks konsistensi diperoleh cr =
+karena cr < 0.10 maka preferensi responden konsisten
+perhitungan faktor evaluasi untuk kriteria rekayasa perangkat lunak dengan langkah yang sama kemudian disusun matriks perbandingan berpasangan
+perbandingan berpasangan untuk kriteria c1 pada 8 dosen tetap yang ada di program studi teknik informatika um pontianak yaitu nor, bry, ptr, acs, asr, whd, mnr, cpt 
+dari hasil analisis preferensi gabungan untuk kriteria rekayasa perangkat lunak disajikan dalam matriks resiprokal seperti yang ditunjukkan pada tabel 3
+hasilnya seperti yang ditunjukkan pada tabel 4
+tabel iv yang dinormalkan eige n dengan ci = 0.079 dan ri = 1.41, sehingga didapat cr sebesar 0.055 < 0.10 yang berarti preferensi responden konsisten
+dari hasil perhitungan pada tabel 4 maka diperoleh urutan prioritas untuk kriteria rpl yakni a6 sebesar 26 %, menempati prioritas pertama, prioritas kedua yakni a7 dan a1 sebesar 19%, prioritas keempat sampai kedelapan berturut – turut adalah a2 sebesar 12%, a3 sebesar 10%, a6 sebesar 6%, a8 sebesar 5% dan a5 sebesar 3%
+perhitungan faktor evaluasi untuk kriteria jaringan komputer dengan langkah yang sama seperti yang dilakukan pada perhitungan faktor evaluasi untuk kriteria c1, maka didapat matriks perbandingan berpasangan seperti yang ditunjukkan pada tabel 5
+hasilnya seperti yang ditunjukkan pada tabel 6
+dari hasil perhitungan pada tabel 6 maka diperoleh urutan prioritas untuk kriteria jaringan komputer yakni a5 sebesar 36 %, menempati prioritas pertama, prioritas kedua yakni a8 sebesar 15%, prioritas ketiga sampai kedelapan berturut – turut adalah a6 sebesar 13%, a1 sebesar 12%, a3 sebesar 10%, a2 sebesar 7%, a4 sebesar 4% dan a7 sebesar 3%
+perhitungan faktor evaluasi untuk kriteria multimedia dengan langkah yang sama seperti yang dilakukan pada perhitungan faktor evaluasi untuk kriteria c2, maka didapat matriks perbandingan berpasangan seperti yang ditunjukkan pada tabel 7
+hasilnya seperti yang ditunjukkan pada tabel 8
+tabel viii matriks faktor evaluasi untuk kriteria multimedia dan vektor eigen yang dinormalkan eige n a 1 0.0 6 0.0 5 0.0 7 0.0 5 0.0 7 0.0 3 0.0 8 0.0 dengan ci = 0.034 dan ri = 1.41, sehingga didapat cr sebesar 0.026 < 0.10 yang berarti preferensi responden konsisten
+dari hasil perhitungan pada tabel 8 maka diperoleh urutan prioritas untuk kriteria multimedia yakni a8 sebesar 32 %, menempati prioritas pertama, prioritas kedua yakni a6 sebesar 21%, prioritas ketiga sampai kedelapan berturut- turut adalah a2 sebesar 18%, a3 sebesar 7%, a5 sebesar 7%, a1 sebesar 6%, a4 sebesar 5% dan a7 sebesar 4%
+sintesis prioritas penjumlahan bobot yang diperoleh dari setiap pilihan pada masing-masing kriteria : rekayasa perangkat lunak, jaringan komputer, dan multimedia 
+nilai sintesis prioritas ditunjukkan pada tabel 9
+untuk mencari prioritas global dengan cara mengalikan faktor evaluasi masing-masing alternatif dengan faktor bobot tiap kriteria
+hasil prioritas global dapat dilihat pada tabel 10
+tabel x agar lebih mudah dalam menentukan urutan/rangking tiap alternatif dapat dilihat pada gambar 1
+1 hasil pemrosesan ahp dari gambar 1 adalah sebuah grafik yang data-datanya berdasarkan hasil prioritas global, artinya bobot tiap kriteria untuk masing-masing alternatif dijumlah sehingga menghasilkan urutan prioritas alternatif nama dosen yang paling tepat dijadikan pilihan
+namun karena setiap judul skripsi yang telah di-submit mahasiswa memiliki konsentrasi/minat, maka pilihan yang tepat adalah mengambil urutan prioritas alternatif tiap kriteria
+2 hasil pemrosesan ahp untuk kriteria rpl dari gambar 2 terlihat a4 menempati urutan pertama disusul a1, a7, a2, a3, a6, a8, dan a5
+hasil pemrosesan ahp untuk c2 dapat dilihat pada gambar 3
+dari gambar 3 terlihat a5 menempati urutan pertama disusul a8, a6, a1, a3, a2, a4, dan a7
+hasil pemrosesan ahp untuk c3 dapat dilihat pada gambar 4
+4 hasil pemrosesan ahp untuk kriteria multimedia dari gambar 4 terlihat a8 menempati urutan pertama disusul a6, a2, a5, a3, a1, a4, dan a7
+urutan prioritas untuk tiap kriteria menjadi acuan sistem sipendamping dalam memberikan keputusan yang tepat dalam memilih dosen pembimbing berdasarkan minat / konsentrasi bagi mahasiswa
+berdasarkan data yang telah di-submit oleh mahasiswa melalui sistem dapat dilihat pada tabel 11
+tabel xi kode nama minat dosen b0000003 tarso c2 a1 a5 b0000005 syahru r c2 a6 a8 b0000008 anwar f c1 a7 a7 b0000009 syafaat p c3 a3 a8 pada tabel 11, kolom minat dan dosen pilihan merupakan pilihan yang dibuat oleh mahasiswa yang telah mengambil mata kuliah skripsi seperti yang dilihat pada gambar 5, tetapi untuk kolom hasil keputusan merupakan hasil keputusan yang dibuat oleh sistem
+5 pilihan dosen pembimbing dan minat oleh mahasiswa yang telah submit judul skripsi pada gambar 5, mahasiswa yang telah submit judul skripsi, minat dan pilihan dosen pembimbing akan berubah menjadi status on process
+selanjutkan kaprodi teknik informatika um pontianak, tinggal menekan tombol keputusan yang ada di dalam sistem, sehingga hasilnya seperti yang dapat dilihat pada gambar 6
+6 hasil keputusan oleh sistem pada gambar 6 merupakan hasil keputusan yang telah dibuat oleh sistem, dan langsung bisa dilihat oleh mahasiswa melalui menu pengguna pada sistem
+secara umum sistem mampu memberikan keputusan yang tepat dalam pemilihan dosen pembimbing skripsi kepada tiap- tiap mahasiswa berdasarkan minat mahasiswa
+hal ini akan berimbas pada hasil skripsi/tugas akhir yang dibuat oleh mahasiswa, karena dibimbing oleh dosen yang tidak kompeten pada bidangnya
+upaya untuk mengatasi subjektivitas kriteria adalah dengan menggunakan skala fuzzy
+kesimpulan studi teknik informatika um pontianak dalam memberikan keputusan sesuai dengan minat mahasiswa
+penentuan kriteria didasarkan kepada jumlah minat yang ada di program studi teknik informatika um pontianak sedangkan penentuan alternatif didasarkan kepada jumlah dosen tetap yang ada di program studi teknik informatika
+penentuan matriks perbandingan berpasangan masing- masing kriteria dan alternatif menjadi penentu ketepatan sistem dalam memberikan keputusan pemilihan dosen pembimbing skripsi
+bobot paling besar yang merupakan prioritas ada pada kriteria jaringan komputer sebesar 63.3 % dan kriteria alternatif berdasarkan prioritas global yang merupakan gabungan dari tiga kriteria ada pada alternatif a5 sebesar 24.2 %
+kemenristekdikti yang telah memberi dukungan finansial terhadap penelitian ini berupa hibah penelitian dosen pemula tahun 2017 pendanaan tahun 2018

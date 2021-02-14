@@ -1,0 +1,130 @@
+itur nilai rekomendasi pemberian manual dan konvensional dengan menggunakan kalkulator, perangkat lunak microsoft excel dan kerta-kertas
+dalam pengolahan data pengajuan pinjaman terdapat data-data yang menghasilkan variabel samar/fuzzy
+maka dari itu diperlukan sistem informasi simpan pinjam pada koperasi bahtera yang dapat membantu proses pengerjaannya
+sistem informasi simpan pinjam pada koperasi bahtera akan mengolah data simpanan, pinjaman dan angsuran anggota yang dapat menjadi sebagian nilai untuk pemberian rekomendasi peminjaman dengan metode fuzzy mamdani
+dalam sistem ini terbagi menjadi 3 hak akses dengan fungsi- fungsi khusus yang berbeda, yaitu admin, super admin, dan kredit
+dari hasil pengujian dapat didapatkan sistem informasi simpan pinjam dengan hak akses admin dengan penilaian 71% responden mengatakan baik dan 29% responden mengatakan sangat baik, hak akses super admin dengan penilaian 100% responden mengatakan baik, dan hak akses kredit dengan 100% responden mengatakan sangat baik
+sehingga dapat disimpulkan bahwa rancang bangun sistem informasi simpan pinjam pada credit union koperasi simpan pinjam bahtera dengan nilai rekomendasi pemberian pinjaman berbasis fuzzy ini baik untuk diimplementasikan
+pendahuluan adalah lembaga keuangan mikro yang diketuai oleh p
+florus dan bertempat di jalan palapa iiic no 3
+didirikan pada tanggal 22 november 2008 dalam diskusi intensif oleh 31 orang pendirinya dan berbadan hukum koperasi no: 1323/bh/x
+bahtera adalah singkatan dari 
+ menunjuk pada pengertian kawan akrab yang saling tolong menolong, setia, menjaga keharmonisan, dan perdamaian
+ adalah kondisi hidup layak manusiawi karena terpenuhinya keperluan-keperluan hidup secara dinamis
+saat ini pengerjaan dalam pengelolaan data masih konvensional dengan bantuan microsoft excel, kalkulator dan kertas-kertas
+seperti pencatatan transaksi keuangan ditulis secara manual di kartu simpan pinjam anggota yang kemudian ditulis kembali di microsoft excel
+perhitungan-perhitungan pada keuangan transaksi menggunakan kalkulator sehingga memerlukan waktu dalam pengerjaannya
+dahulu seorang pengurus pada bagian kredit akan meneliti kondisi calon peminjam yang diperkirakan dapat mempengaruhi kemampuan mereka dalam memenuhi kewajiban kepada koperasi
+untuk meneliti kondisi tersebut, perlu dilakukan pengumpulan data secara kuantitatif seperti data simpanan calon peminjam dan kualitatif seperti wawancara dan survey kemampuan angsuran calon peminjam
+kemudian data-data ini akan diproses sesuai prosedur pada koperasi sebelum akhirnya diberi keputusan apakah layak atau tidak untuk diberi pinjaman
+dari proses pengolahan data calon peminjam ini akan muncul variabel-variabel yang samar atau fuzzy
+salah satu cara untuk mengatasi variabel yang samar ini adalah dengan menggunakan logika fuzzy
+untuk itu diperlukan penelitian untuk mengembangkan sebuah sistem informasi simpan pinjam agar pengelolaan data dilakukan dengan efektif dan efisien serta membantu bagian kredit dalam memberikan keputusan layak atau tidak layaknya pengajuan pinjaman oleh calon peminjam dengan logika fuzzy
+sistem informasi simpan pinjam dengan fitur logika fuzzy ini dibangun dengan menggunakan beberapa subsistem yang diakses menggunakan browser
+data-data tersebut tersimpan di basis data mysql
+e-mail: kristanto_wijaya@yahoo.co.id penghidupan ekonomi berdasarkan tolong menolong
+semangat tolong menolong tersebut didorong oleh keinginan memberi jasa kepada kawan berdasarkan „seorang buat semua dan semua buat seorang‟
+suatu sistem yang dibuat oleh manusia yang terdiri dari komponen-komponen dalam organisasi untuk mencapai suatu tujuan yaitu menyajikan informasi
+dilaksanakan akan memberikan informasi bagi pengambil keputusan dan atau untuk mengendalikan organisasi
+mempertemukan kebutuhan pengolahan transaksi, strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan-laporan yang diperlukan
+” merupakan kumpulan dari data yang saling berhubungan satu dengan yang lainnya, tersimpan di perangkat keras komputer dan digunakan perangkat lunak untuk memanipulasinya”
+ adalah skrip yang berjalan dalam server side yang ditambahkan dalam html“
+php itu sendiri merupakan singkatan dari personal home page tools
+skrip ini akan membuat suatu aplikasi dapat diintegrasikan ke dalam html sehingga suatu halaman html tidak lagi bersifat statis, namun menjadi bersifat dinamis
+sifat server side ini membuat pengerjaan skrip tersebut dikerjakan di server sedangkan yang dikirimkan kepada browser adalah hasil proses dari skrip tersebut yang sudah menjadi html
+mysql merupakan sistem manajemen database yang bersifat relasional artinya data-data yang dikelola dalam database akan diletakkan pada beberapa tabel yang terpisah sehingga manipulasi data akan menjadi lebih cepat
+operasi himpunan fuzzy inferensi atau penalaran
+dalam hal ini yang dioperasikan adalah derajat keanggotaanya
+derajat keanggotaan sebagai hasil dari operasi dua buah himpunan fuzzy disebut sebagai fire strength atau α-predikat
+ metode mamdani paling sering digunakan dalam aplikasi-aplikasi karena strukturnya yang sederhana, yaitu menggunakan operasi min-max atau max-product
+untuk mendapatkan output, diperlukan empat tahapan berikut: 1
+pembentukan basis pengetahuan fuzzy 
+aplikasi fungsi implikasi menggunakan fungsi min dan komposisi antar-rule menggunakan fungsi max 
+ riduwan menyatakan bahwa, “skala likert digunakan untuk mengukur sikap, pendapat, dan persepsi seseorang atau sekelompok tentang kejadian atau gejala sosial dalam penelitian gejala sosial ini telah ditetapkan secara spesifik oleh peneliti, yang selanjutnya disebut sebagai variabel penelitian
+pengguna seperti super admin, admin dan kredit mengakses website melalui browser dan website akan berinteraksi dengan web server
+web server akan mengembalikan hasil-hasil pemanggilan fungsi dan ditampilkan kembali ke browser pengguna
+tiap level pengguna mempunyai hak akses tersendiri
+hal ini akan dipilah oleh sistem di web server
+pada web server inilah terdapat kelas-kelas rancangan sistem yang dapat mengakses basis data, melakukan perhitungan data dan menampilkannya di browser
+antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang 3 terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+, 2013)terdapat tiga actor dalam use case yaitu admin, super admin dan pengurus bagian kredit
+admin adalah orang yang berhak untuk mengelola data anggota, mengelola simpanan, mengelola pembayaran angsuran
+super admin adalah orang yang berhak untuk memanajemen pengguna sistem, dan child dari aktor admin
+pengurus bagian kredit adalah orang yang hanya mengelola data untuk calon-calon peminjam termasuk variabel fuzzy-nya
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+” atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+pinjaman, digunakan metode fuzzy mamdani atau sering juga dikenal dengan nama metode min - max
+dalam metode ini, pada setiap aturan yang berbentuk implikasi anteseden yang berbentuk konjungsi mempunyai nilai keanggotaan berbentuk minimum, sedangkan konsekuen gabungannya berbentuk maksimum 
+fuzzy digunakan untuk mengubah input dengan nama simpanan dan survey menjadi output dengan nama nilai rekomendasi 
+nilai simpanan didapat dari jumlah nilai kekonsistenan, jumlah tiap menabung, dan total tabungan yang didapat dari basis data simpanan anggota
+nilai survey didapat dari jumlah nilai tujuan pinjaman, penghasilan per bulan, dan jaminan yang diberikan yang didapat dari data-data yang diberikan oleh calon peminjam
+input yang berada dalam interval antara 0 dan 1
+derajat keanggotaan sebuah variabel x dilambangkan dengan simbol ì 
+rules menggunakan nilai keanggotaan sebagai faktor bobot untuk menentukan pengaruhnya pada saat melakukan inferensi untuk menarik kesimpulan
+ fungsi keanggotaan representasi linear suatu garis lurus untuk himpunan fuzzy tidak sesuai dan sesuai 
+sedangkan untuk himpunan fuzzy sedang digunakan fungsi keanggotaan segitiga
+garis lurus untuk himpunan fuzzy tidak memenuhi dan memenuhi 
+sedangkan untuk himpunan fuzzy sedang digunakan fungsi keanggota segitiga
+linier suatu garis lurus untuk himpunan fuzzy tidak layak dan layak 
+sedangkan untuk himpunan fuzzy sedang digunakan fungsi keanggotaan segitiga
+penegasan himpunan fuzzy yang diperoleh dari komposisi aturan fuzzy, sedangkan output yang dihasilkan merupakan suatu bilangan tegas pada domain himpunan fuzzy tersebut
+sehingga jika diberikan suatu himpunan fuzzy dalam range tertentu, maka harus dapat diambil suatu nilai crisp tertentu sebagai output
+defuzzyfikasi yang digunakan dalam menentukan nilai rekomendasi peminjaman adalah metode centroid
+pada metode ini, solusi crisp diperoleh dengan cara mengambil titik pusat daerah fuzzy
+∫ ∫ halaman login adalah halaman yang berfungi untuk pengguna masuk ke dalam sistem informasi simpan pinjam
+ketika pengguna/semua hak akses telah login makan akan diarahkan ke halaman awal yang berisi ucapan selamat datang dan visi misi koperasi bahtera
+di dalam sistem informasi simpan pinjam terdapat halaman utama yang hanya menampilkan ucapan serta visi misi koperasi
+selain itu terdapat menu-menu tambahan tergantung tingkat hak akses pengguna
+tingkat hak akses pengguna terbagi menjadi 3 yaitu: 1
+seorang administrator dapat melakukan manajemen data anggota dan manajemen transaksi anggota berupa transaksi simpanan maupun angsuran pinjaman
+seorang pengurus bagian kredit dapat menambah pengajuan pinjaman seorang anggota dan memprosesnya dalam perhitungan dengan metode fuzzy
+seorang super admin dapat melakukan kegiatan yang dilakukan oleh hak akses admin namun kelebihannya dapat melakukan manajemen data admin serta melihat informasi statistik koperasi
+4 gambar 3 tampilan antarmuka hak akses kredit dalam melakukan proses perhitungan pengajuan pinjaman dengan metode mamdani pada halaman proses pengajuan pinjaman menampilkan data-data anggota yang mengajukan pinjaman
+halaman ini berfungsi untuk meng-update data keterangan dan nilai fuzzy
+pada inputan nilai fuzzy jika kursor aktif pada inputan maka form panduan akan tampil yang berfungsi untuk memandu hak akses kredit dalam menginput nilai fuzzy
+perhitungan yang dilakukan oleh sistem pada halaman ini hak akses kredit dapat melakukan proses pada pengajuan pinjaman, menolak maupun menyetujui pengajuan pinjaman
+gambar 5 tampilan antarmuka hak akses admin dalam manajemen data anggota pada halaman ini berfungsi untuk menampilkan data- data anggota
+pada halaman ini terdapat menu tambah anggota, edit data anggota, cetak data anggota serta tutup buku anggota
+terdapat juga fitur pencarian data anggota dan penampilan semua data anggota
+gambar 6 tampilan antarmuka hak akses admin dalam manajemen data simpanan anggota halaman ini menampilkan sebagian data anggota yang digunakan untuk transaksi simpanan serta rincian transaksi
+pada halaman ini terdapat menu simpanan, penarikan dan rincian serta fitur pencarian data anggota
+gambar 7 tampilan antarmuka hak akses admin dalam manajemen data pinjaman anggota dan lihat transaksi angsuran
+terdapat menu pinjaman status untuk menerima pengajuan pinjaman yang sudah disetujui oleh hak akses kredit serta fitur lihat semua data, pencarian nomor pinjaman dan melihat rincian jaminan
+gambar 8 tampilan antarmuka hak akses super admin dalam melihat data statistik sistem anggota, transaksi simpanan, pinjaman, transaksi angsuran, pengajuan, dan tunggakan dalam bentuk grafik garis
+terdapat input untuk menampilkan jumlah bulan yang diinginkan
+menggunakan metode pengukuran skala likert dimana input berupa suatu set data yang didapat menggunakan borang
+borang diisi oleh 12 responden yang merupakan pengurus koperasi dengan pembagian 3 responden/pengurus mengisi borang dengan hak akses super admin, 2 responden/pengurus mengisi borang 5 dengan hak akses kredit, dan 7 responden/pengurus mengisi borang dengan hak akses admin
+pengujian sistem dengan hak akses admin tabel 1
+rekapitulasi nilai pengujian hak akses admin berdasarkan fungsi fungsi rekap nilai manajemen data anggota 0 0 1 4 2 29 manajemen simpanan input angsuran pinjaman lihat transaksi angsuran lihat data proses pengajuan penerimaan dan penolakan lihat tunggakan angsuran 0 0 1 5 1 28 lihat detail data anggota 0 0 1 3 3 30 ubah password pengguna 0 0 2 3 2 28 tabel 2
+pengujian sistem dengan hak akses super admin tabel 3
+fungsi rekap nilai manajemen data anggota 0 0 0 2 1 13 manajemen simpanan input angsuran pinjaman 0 0 1 2 0 11 anggota lihat data proses penerimaan dan penolakan lihat tunggakan lihat detail data anggota 0 0 1 2 0 11 lihat data statistik 0 0 3 0 0 9 manajemen data tabel 4
+pengujian sistem dengan hak akses kredit tabel 5
+rekapitulasi nilai pengujian hak akses kredit berdasarkan fungsi fungsi rekap nilai tambah pengajuan 8 lihat data anggota 0 0 0 0 2 10 lihat jaminan anggota 0 0 1 0 1 8 lihat data pengajuan untuk perhitungan fuzzy untuk perubahan status pengajuan ubah password pengguna 0 0 0 0 2 10 tabel 6
+analisis pengujian sistem informasi simpan pinjam yang telah dilakukan adalah sebagai berikut: 1
+pada hak akses admin, fungsi manajemen data anggota, lihat transaksi angsuran anggota, dan lihat detail data anggota bernilai sangat baik untuk 6 baik untuk diimplementasikan
+pada fungsi sistem input angsuran pinjaman anggota sebagian besar responden menyatakan cukup baik untuk diimplementasikan
+sehingga fungsi sistem ini dapat menjadi perhatian khusus bagi pengembang untuk mengembangkannya
+hasil pengujian fungsi sistem pada hak akses admin adalah sebagai berikut: a
+29% responden menyatakan sistem sangat baik diimplementasikan
+71% responden menyatakan sistem baik diimplementasikan
+nilai rata-rata hasil pengujian pada hak akses admin adalah 35.42 dengan interpretasi sistem bernilai baik diimplementasikan
+pada hak akses super admin, manajemen data anggota, dan manajemen simpanan anggota bernilai sangat baik
+fungsi lihat statistik bernilai kurang baik dan fungsi sistem lainnya bernilai baik
+pada fungsi lihat statistik seluruh responden menyatakan sistem cukup baik untuk diimplementasikan
+sehingga fungsi ini dapat menjadi perhatian khusus bagi pengembang untuk mengembangkannya
+fungsi lihat statistik memiliki nilai 9 dengan interpretasi kurang baik karena tidak menampilkan data dalam versi lain seperti tabel, diagram batang dan diagram lingkaran
+hasil pengujian fungsi sistem pada hak akses super admin adalah 100% responden menyatakan sistem bernilai baik untuk diimplementasikan dengan nilai rata-rata 37.33
+pada hak akses kredit, fungsi tambah pengajuan pinjaman dan lihat jaminan anggota bernilai baik dan fungsi lainnya bernilai sangat baik
+pada fungsi lihat jaminan satu dari dua responden menyatakan sistem cukup baik untuk diimplementasikan
+sehingga fungsi ini dapat menjadi perhatian khusus bagi pengembang untuk mengembangkannya
+fungsi utama dari sistem ini yaitu perhitungan fuzzy untuk nilai rekomendasi bernilai 9 dengan interpretasi sistem sangat baik untuk diimplemantasikan
+hasil pengujian fungsi sistem pada hak akses kredit adalah 100% responden menyatakan sistem bernilai sangat baik untuk diimplementasikan dengan nilai rata-rata 36.5
+kesimpulan rancang bangun sistem informasi simpan pinjam pada credit union koperasi simpan pinjam bahtera dengan fitur nilai rekomendasi pemberian pinjaman berbasis fuzzy dengan metode skala likert, maka disimpulkan bahwa: admin memiliki nilai rata-rata 35.42 dengan interpretasi nilai baik untuk diimplementasikan, pada hak akses super admin memiliki nilai rata-rata 37.33 dengan interpretasi nilai baik untuk diimplementasikan, dan pada hak akses kredit memiliki nilai rata-rata 36.5 dengan interpretasi nilai sangat baik untuk diimplementasikan
+bahtera dengan fitur nilai rekomendasi pengajuan pinjaman telah dirancang dan dibangun dengan interpretasi nilai baik untuk diimplementasikan
+saran didapat saran-saran untuk mengembangkan sistem informasi simpan pinjam ini antara lain: 1
+fungsi pemberitahuan atau notifikasi diperjelas mengenai adanya tunggakan yang baru maupun bertambah
+bentuk, seperti tabel, diagram batang, dan diagram lingkaran
+hak akses admin, lihat statistik pada hak akses super admin dan lihat jaminan pada hak akses kredit dapat dikembangkan menjadi lebih baik lagi oleh pengembang
+yang ada di koperasi simpan pinjam bahtera, oleh sebab itu pengembang dapat mengembangkan sistem informasi ini dengan cakupan yang lebih luas

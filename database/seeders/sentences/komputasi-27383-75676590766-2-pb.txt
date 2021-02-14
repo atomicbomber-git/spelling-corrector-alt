@@ -1,0 +1,130 @@
+hadari nawawi, kota pontianak, 78115 1 khamsahakbar@gmail.com 2 hs@untan.ac.id 3 rudydn@informatika.untan.ac.id pembuatan mesin penerjemah statistik sehingga korpus yang dihasilkan dapat akurat dan memiliki persentase yang tinggi pada saat melakukan penerjemahan
+beberapa kriteria dari suatu korpus yang baik adalah orientasi ke bahasa atau variasi untuk dijadikan sampel, kriteria yang akan kita pilih yang meliputi mode teks, jenis teks, domain teks, bahasa, lokasi teks, tanggal teks serta sifat dan dimensi sampel
+tujuan yang ingin dicapai dalam penelitian ini adalah untuk mengetahui seberapa besar pengaruh domain teks pada korpus terhadap nilai akurasi hasil terjemahan pada mesin penerjemah statistik bahasa inggris ke bahasa indonesia
+pengujian untuk mendapatkan nilai akurasi dilakukan dengan dua cara, yaitu pengujian otomatis menggunakan bilingual evaluation understudy dan pengujian manual oleh ahli bahasa inggris
+untuk pengujian otomatis dilakukan pada setiap mesin penerjemah yang sudah dibangun dengan pembagian fold pada korpus
+pengujian manual dilakukan oleh seorang ahli bahasa inggris dengan korpus uji sebanyak 100 kalimat
+berdasarkan hasil pengujian, domain teks pada korpus memiliki perbedaan nilai akurasi terjemahan dari mesin penerjemah statistik bahasa inggris – bahasa indonesia yaitu sebesar 7, 6409% pada pengujian dengan bleu dan 1, 01% untuk pengujian oleh ahli bahasa
+korpus digunakan untuk melakukan analisis statistik dan pengujian hipotesis, memeriksa kejadian atau memvalidasi aturan linguistik dalam wilayah bahasa tertentu
+multilingual korpus yang telah diformat secara khusus untuk perbandingan side by side disebut korpus paralel sejajar
+ada dua tipe utama korpus paralel yang berisi teks dalam dua bahasa
+dalam terjemahan korpus, teks dalam satu bahasa adalah terjemahan teks dalam bahasa lain
+dalam korpus yang sebanding, teksnya sama dan mencakup konten yang sama, namun terjemahannya sama sekali tidak saling terkait
+untuk mengeksploitasi teks paralel, beberapa jenis alignment teks yang mengidentifikasi segmen teks setara adalah prasyarat untuk analisis
+algoritma terjemahan mesin untuk menerjemahkan antara dua bahasa sering dilatih menggunakan fragmen paralel yang terdiri dari korpus bahasa pertama dan korpus bahasa kedua yang merupakan elemen untuk terjemahan elemen korpus bahasa pertama
+analisis dan pengolahan berbagai jenis korpus juga menjadi subyek banyak pekerjaan dalam bahasa linguistik komputasi, pengenalan ucapan dan terjemahan mesin
+korpus dan daftar frekuensi yang berasal darinya berguna untuk pengajaran bahasa
+korpus dapat dianggap sebagai jenis bantuan penulisan bahasa asing karena pengetahuan gramatikal kontekstual yang diperoleh oleh pengguna bahasa non-asli melalui pemaparan teks asli
+salah satu faktor yang mempengaruhi tingkat akurasi suatu mesin penerjemah statistik adalah adanya suatu korpus yang baik sebagai sumber data yang digunakan untuk pembuatan mesin penerjemah statistik sehingga korpus yang dihasilkan dapat akurat dan memiliki persentase yang tinggi pada saat melakukan penerjemahan
+adapun beberapa kriteria dari suatu korpus yang baik adalah orientasi ke bahasa atau variasi untuk dijadikan sampel, kriteria yang akan kita pilih yang meliputi mode teks, jenis teks, domain teks, bahasa, lokasi teks, tanggal teks serta sifat dan dimensi sampel
+penelitian untuk melihat sejauh mana pengaruh domain teks terhadap akurasi mesin penerjemah statistik
+uraian penelitian contoh teks tulis atau lisan dalam bentuk data yang dapat dibaca dengan menggunakan seperangkat mesin dan dapat diberi catatan berupa berbagai bentuk informasi linguistik
+korpus dapat diklasifikasikan ke dalam beberapa jenis tergantung tujuan penggunaannya
+ada delapan jenis yakni korpus khusus, korpus umum, korpus komparatif, korpus paralel, korpuspemelajar, korpus pedagogis, korpushistoris atau diakronis, dan korpus monitor 
+selain itu, penerjemahan adalah kegiatan mengalihkan secara tertulis pesan dari teks suatu bahasa ke dalam teks bahasa lain 
+penerjemahan adalah pengalihan pikiran atau gagasan dari suatu bahasa sumber ke dalam bahasa yang lain
+penerjemahan adalah mengubah teks bahasa sumber ke dalam teks bahasa sasaran dengan mempertimbangkan makna kedua bahasa sehingga diusahakan semirip-miripnya, yang tak kalah pentingnya adalah terjemahan harus mengikuti kaidah-kaidah yang berlaku dalam bahasa sasaran
+dalam proses analysis, penerjemah menganalisis isi pesan bahasa sumber berdasarkan gramatika dan makna
+pada tahap ini kalimat-kalimat bahasa sumber dipecah-pecah menjadi satuan-satuan gramatikal berstruktur kalimat-kalimat dasar, kata-kata dan frase-frase untuk menangkap makna yang ada dengan teknik analisis komponen
+tahap kedua, transfer, yaitu proses pengalihan materi-materi yang telah dianalisis dari bahasa sumber ke dalam bahasa sasaran
+tahap terakhir yaitu restructuring, bahwa penerjemah menyusun materi-materi yang telah dialihkan dan bertujuan untuk membuat pesan yang secara keseluruhan dapat diterima
+mesin penerjemah dengan menggunakan pendekatan statistik
+pendekatan statistik yang digunakan adalah konsep probabilitas
+setiap pasangan kalimat akan diberikan sebuah p yang diinterpretasikan sebagai distribusi probabilitas dimana sebuah penerjemah akan menghasilkan t dalam bahasa sasaran ketika diberikan s dalam bahasa sumber
+statistik dengan parameter-parameter yang diturunkan dari analisis paralel korpus
+machine translation), pendekatan dengan menggunakan contoh, dan pendekatan dengan menggunakan model statistik 
+dalam mesin penerjemah statistik, terdapat 3 komponen yang terlibat dalam proses penerjemahan dari satu bahasa ke bahasa lain yaitu : language model, translation model, dan decoder
+sumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus 
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+moses implementasi dari mesin penerjemah statistik
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa target saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa target
+moses dirilis di bawah lisensi lgpl dan tersedia sebagai kode sumber dan binari untuk windows dan linux
+perkembangannya didukung oleh proyek euro matrix, dengan pendanaan oleh european commission
+automatic evaluation bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah mesin terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+semakin dekat terjemahan sebuah mesin dengan terjemahan manusia, maka akan semakin baik
+ide utama dibalik ini adalah 
+tokenizing berdasarkan tiap kata yang menyusunnya
+berita tersebut selanjutnya diolah menjadi korpus teks paralel bahasa indonesia dan bahasa inggris
+adapun jumlahnya yaitu 5500 pasangan kalimat korpus paralel bahasa inggris dan bahasa indonesia masing- masing untuk domain teks spesifik dan domain teks campuran
+pada domain teks spesifik korpus yang digunakan yaitu korpus ekonomi, sedangkan untuk domain teks campuran terdiri dari gabungan korpus ekonomi, olahraga, internasional dan sains
+pada korpus uji menggunakan korpus spesifik ekonomi berjumlah 500 kalimat
+terdiri dari perangkat keras dan perangkat lunak
+perangkat keras menggunakan laptop asus x450cc dengan spesifikasi processor intel core i3, graphic processor nvidia geforce gt 720m, memory 2048, hdd 500 gb
+perangkat lunak terdiri dari sistem operasi linux ubuntu 16.04 lts, srilm untuk pemodelan bahasa, giza++ untuk pemodelan translasi, moses untuk decoding, bleu untuk pengujian akurasi, dan sublime text 2 untuk teks editor
+penelitian ini akan menggunakan beberapa metode
+metode yang akan digunakan dalam penelitian ini antara lain
+pengumpulan data mengumpulkan data-data yang akan digunakan untuk penelitian
+data berupa korpus bahasa indonesia dan bahasa inggris yang nantinya akan dibuat menjadi korpus teks paralel
+domain teks yang dipakai adalah domain teks spesifik dan domain teks campuran
+proses pengumpulan korpus diambil dari antara news, national geography indonesia berita iptek dan situs-situs berita lainnya yang akan diolah menjadi teks korpus
+analisis kebutuhan kalimat dari korpus bahasa indonesia dan bahasa inggris yang sudah dikelompokkan berdasarkan domain teks pada korpus
+kesetaraan korpus pada korpus spesifik dan campuran, dilihat dari jumlah kuantitas pada setiap korpus yang memiliki kuantitas kalimat yang sama dan memiliki token yang kurang lebih sama
+adapun jumlahnya yaitu 5500 pasangan kalimat korpus paralel bahasa inggris dan bahasa indonesia masing- masing untuk domain teks spesifik dan domain teks campuran
+pada domain teks spesifik korpus yang digunakan yaitu korpus ekonomi, sedangkan untuk domain teks campuran terdiri dari gabungan korpus ekonomi, olahraga, internasional dan sains
+pada korpus uji menggunakan korpus spesifik ekonomi berjumlah 500 kalimat
+implementasi dilakukan dengan cara melakukan pemodelan bahasa, pemodelan translasi dan decoding pada mesin penerjemah statistik bahasa inggris ke bahasa indonesia
+proses selanjutnya akan dilakukan pemodelan translasi oleh giza++ yang akan menghasilkan 3 folder yaitu vocabulary corpus, word alignment, dan lexical translation table
+proses decoding telah dapat dilakukan dengan melakukan input bahasa sumber yaitu bahasa inggris dan menghasilkan output bahasa target yaitu bahasa indonesia 4
+pengujian dan evaluasi hasil terjemahan mesin translasi terjemahan mesin translasi dari domain teks pada korpus yang sudah dibuat sebelumnya
+pengujian dilakukan secara otomatis menggunakan bleu dan oleh ahli bahasa pada setiap mesin penerjemah yang telah dibuat sehingga didapatkan persentase akurasi hasil terjemahan dan didapat hasil tabel dari uji akurasi yang telah dilakukan
+dari persentase tersebut juga dapat diperoleh grafik perubahan nilai akurasi dari setiap penambahan kalimat pada domain teks spesifik dan domain teks campuran
+sehingga dapat dilihat perubahan persentase dari setiap mesin yang telah di uji baik pengujian menggunakan bleu maupun oleh ahli bahasa
+analisis hasil pengujian dan bahasa indonesia dan mengidentifikasi apakah sudah sesuai dengan kebutuhan atau tidak berdasarkan dengan uji akurasi mesin penerjemah statistik yang telah dilakukan pada setiap domain teks yaitu domain teks spesifik dan domain teks campuran
+penarikan kesimpulan hasil pengujian dan sesuai dengan tujuan penelitian, sehingga mampu memberikan solusi berdasarkan rumusan masalah dilakukannya penelitian
+penerjemah statistik terdiri dari beberapa proses yaitu pemodelan bahasa, decoding dan evaluasi hasil terjemahan
+arsitektur mesin penerjemah statistik dari bahasa inggris ke bahasa indonesia diperlihatkan pada gambar 3
+pemodelan translasi oleh giza ++ tabel model bahasa evaluasi hasil terjemahan pengujian secara otomatis menggunakan bleu dan pengujian manual yang dilakukan oleh ahli bahasa inggris
+proses pengujian otomatis dengan bleu dilakukan untuk mendapatkan nilai akurasi terjemahan mesin penerjemah statistik bahasa inggris ke bahasa indonesia terhadap kuantitas korpus dengan jumlah kalimat uji berdasarkan korpus maksimal modified n-gram precision score antara hasil terjemahan otomatis dengan terjemahan rujukan dan menggunakan konstanta yang disebut brevity penalty
+nilai bleu didapat dari hasil perkalian antara brevity penalty dengan rata-rata geometri dari modified precision score
+adapun perancangan mesin penerjemah statistik dapat dilihat pada gambar 4
+masukan: kalimat pada penelitian ini digunakan 5500 kalimat yang dibagi atas 11 fold yang masing-masing berjumlah 500 kalimat seperti yang diperlihatkan pada tabel 1
+untuk sebuah percobaan diambil 1 buah fold untuk testing dan 10 buah fold sisanya untuk training
+dengan kata lain, dari 5500 kalimat korpus paralel dibagi menjadi 500 kalimat untuk testing dan 5000 kalimat untuk training seperti yang terlihat pada tabel 1
+pembagian fold dapat dilihat pada tabel 1 dan jumlah pembagian fold pada tabel 2
+tahap pertama akan dibuat mesin translasi bahasa inggris ke bahasa indonesia untuk domain teks spesifik
+tahap kedua akan dibuat mesin translasi bahasa inggris ke bahasa indonesia untuk domain teks campuran
+terlebih dahulu melalui langkah translasi otomatis
+translasi otomatis akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin, setelah membuat output berupa hasil translasi otomatis dari mesin penerjemah, langkah selanjutnya adalah mendapatkan nilai bleu dari output dengan cara membandingkan output tersebut dengan korpus bahasa target yang telah dibuat sebelumnya
+inggris yaitu oleh antonius yonathan seorang mahasiswa program studi informatika, universitas tanjungpura
+data yang digunakan dalam pengujian yaitu 100 kalimat bahasa inggris sebagai kalimat bahasa sumber dan bahasa indonesia sebagai kalimat bahasa target, masing-masing untuk domain teks spesifik dan domain teks campuran yang kemudian akan dinilai ketepatannya berdasarkan pemahaman dan pengetahuan ahli bahasa
+adapun perancangan proses penilaian secara manual baik untuk domain teks spesifik maupun domain teks campuran dapat di lihat pada gambar 5
+hasil dan analisis tahapan implementasi mesin penerjemah statistik bahasa inggris ke bahasa indonesia terlebih dahulu korpus teks paralel yang telah dibuat dilakukan proses cleaning, tokenizing, dan lowercase baik untuk domain teks spesifik maupun untuk domain teks campuran
+berikut merupakan perintah untuk melakukan cleaning, tokenizing dan lowercase yang dapat dilihat pada gambar 6
+perintah proses cleaning, tokenizing, dan lowercase bahasa dari bahasa target yaitu bahasa indonesia
+model bahasa yang digunakan dalam penelitian ini yaitu n-gram data
+model bahasa dibangun dengan tools srilm
+berikut merupakan perintah untuk membangun model bahasa pada gambar 7
+berikut merupakan perintah untuk membangun model translasi yang dapat dilihat pada gambar 8
+perintah membangun model translasi berdasarkan gambar 8 proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan tabel model translasi
+dokumen-dokumen tersebut terdapat dalam folder yang didalamnya terdapat 4 file yaitu 
+decoding bahasa target yang memiliki probabilitas paling besar dengan pertimbangan faktor translation model dan language model
+tools yang digunakan untuk proses decoding adalah moses
+berikut merupakan perintah untuk melakukan decoding dengan moses pada gambar 9
+pengujian hasil terjemahan secara otomatis evaluasi secara otomatis dilakukan dengan bleu 
+pengujian hasil terjemahan mesin penerjemah bahasa inggris ke bahasa indonesia terhadap kuantitas korpus menggunakan kalimat uji dengan jumlah korpus maksimal gambar 10 merupakan perintah membuat output dalam bahasa target gambar 10
+perintah membuat output setelah membuat output berupa hasil terjemahan otomatis dari mesin penerjemah, langkah selanjutnya adalah mendapatkan skor dari output dengan cara membandingkan output tersebut dengan korpus manual bahasa target yang telah dibuat sebelumnya
+perintah untuk menghitung skor terdapat pada gambar 11
+untuk pengujian otomatis dilakukan pada setiap mesin penerjemah yang sudah dibangun dengan pembagian fold pada korpus
+pengujian yang dilakukan terhadap kuantitas korpus terdiri dari 5500 korpus diantaranya 500 untuk korpus uji dan 5000 untuk korpus mesin spesifik dan mesin campuran
+mesin yang dibangun berjumlah 11 mesin yang terdiri dari 500 korpus uji inggris-indonesia berdasarkan korpus spesifik
+setiap mesin menghasilkan nilai bleu yang berbeda
+setelah membuat output berupa hasil terjemahan otomatis dari mesin penerjemah statistik, langkah selanjutnya adalah mendapatkan nilai bleu dari output dengan cara membandingkan output tersebut dengan korpus bahasa target yang telah dibuat sebelumnya
+secara umum hasil pengujian terjemahan terhadap kuantitas korpus diperlihatkan pada tabel 3
+nilai rata-rata bleu pada mesin penerjemah statistik bahasa inggris- indonesia pada korpus campuran adalah 7, 6409%
+berikut merupakan perhitungan perbandingan nilai bleu dari mesin penerjemah statistik bahasa inggris-indonesia pada korpus spesifik dan campuran
+pengujian secara manual dilakukan oleh ahli bahasa inggris
+dalam penelitian ini ahli bahasa dilakukan oleh antonius yonathan seorang mahasiswa program studi informatika, universitas tanjungpura
+pengujian secara manual menggunakan kalimat dari kalimat uji yang diambil dari setiap pembagian fold
+jumlah kalimat uji 200 kalimat diambil dari 100 kalimat dari korpus spesifik dan diambil dari 100 kalimat dari korpus campuran dimana bahasa inggris sebagai kalimat bahasa sumber dan bahasa indonesia sebagai kalimat bahasa target berdasarkan hasil penilaian dari ahli bahasa, maka dapat dilakukan perhitungan akurasi manual sebagai berikut
+dengan: = banyaknya data dengan range nilai skala peringkat untuk setiap kalimat uji yaitu 1-5 dimana : 1 = sangat buruk domain teks jumlah kalimat pada nilai skala 1 2 3 4 5 spesifik 0 2 72 21 5 campuran 7 60 31 2 0 pada tabel 4 terlihat hasil pengujian ahli bahasa pertama pada mesin penerjemah statistik bahasa inggris – indonesia untuk domain teks spesifik diperoleh 0 kalimat pada nilai skala satu, 2 kalimat pada nilai skala dua, 72 kalimat pada nilai skala tiga, 21 kalimat pada nilai skala empat, dan 5 kalimat pada nilai skala lima
+sedangkan mesin penerjemah statistik bahasa inggris – indonesia pada domain teks campuran diperoleh nilai skala satu 7 kalimat, nilai skala dua 60 kalimat, nilai skala tiga 31 kalimat, nilai skala empat 2 kalimat, dan nilai skala lima 0 kalimat
+berdasarkan persamaan perhitungan sehingga total nilai skala untuk mesin penerjemah statistik bahasa inggris – indonesia pada domain teks spesifik adalah 329 dan mesin penerjemah statistik bahasa inggris – indonesia pada domain teks campuran adalah 228
+tabel 5 pengujian manual mesin penerjemah statistik bahasa inggris ke bahasa indonesia, yaitu 3, 29 untuk mesin penerjemah statistik pada korpus spesifik dan 2, 28 untuk mesin penerjemah statistik pada korpus campuran
+pengujian manual oleh ahli bahasa dari mesin penerjemah statistik untuk domain teks korpus spesifik dan korpus campuran
+uji pada mesin penerjemah statistik untuk korpus spesifik dan 100 kalimat uji pada mesin penerjemah statistik untuk korpus campuran memiliki perbandingan sebesar 1, 01%
+analisis hasil pengujian terjemahan pada mesin penerjemah statistik bahasa inggris-indonesia pada domain teks korpus spesifik diperoleh nilai bleu rata-rata sebesar 17, 1245%
+sedangkan pada mesin penerjemah statistik bahasa inggris-indonesia pada domain teks korpus campuran, diperoleh akurasi terjemahan rata-rata sebesar 7, 6409%
+dengan demikian, tampak bahwa terlihat perbandingan akurasi terjemahan sebesar 9, 4836%
+dari kedua pengujian, yaitu pengujian otomatis dan pengujian manual terlihat pada domain teks spesifik memiliki tingkat akurasi yang lebih tinggi daripada domain teks campuran, penulis menyimpulkan bahwa adanya pengaruh penggunaan domain teks pada korpus dikarenakan menggunakan domain teks spesifik sebagai korpus uji pada mesin penerjemah statistik bahasa inggris-indonesia, yang menyebabkan domain teks spesifik memiliki nilai bleu yang lebih baik dari nilai bleu pada domain teks campuran

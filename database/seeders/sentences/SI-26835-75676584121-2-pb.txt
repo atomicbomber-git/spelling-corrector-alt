@@ -1,0 +1,22 @@
+ubmitted 26-07-2018; revised 30-07-2018; accepted 31-07-2018 139 penerapan fitur 3d maps pada aplikasi virtual tour sebagai media promosi wisata qubu resort nanda tamara ananraytama#1, novi safriadi#2, helen sasty pratiwi#3 #program studi informatika universitas tangjungpura jl
+hadari nawawi, kota pontianak, 78115 1ntananrayatama@gmail.com 2safriadi@informatics.untan.ac.id 3helensastypratiwi@informatics.untan.ac.id kabupaten kubu raya
+tempat wisata ini telah diliput oleh berbagai media, baik media cetak maupun situs berita online
+namun, dari sekian banyak hasil liputan media, sebagian besar ditampilkan dalam bentuk teks dan gambar
+hal ini membatasi pengunjung untuk lebih mengenal lingkungan tempat wisata
+berdasarkan kondisi dan permasalahan yang ada, maka diperlukan pengembangan teknologi, yaitu dengan menggunakan virtual tour dengan fitur 3d maps
+tujuan dari aplikasi adalah untuk membantu pengunjung dalam memperoleh informasi mengenai tempat wisata di qubu resort
+virtual tour yang dimuat menampilkan foto panorama dengan sudut pandang 360° x 180°, sedangkan bangun 3d berfungsi untuk merepresentasikan denah lokasi qubu resort
+penelitian ini menggunakan metode pengembangan aplikasi multimedia mdlc yang terdiri atas 6 tahap, yaitu concept, design, material collecting, assembly, testing, dan distribution
+pengujian aplikasi terdiri dari beberapa aspek
+pada pengujian aspek compatibility, aplikasi berhasil diakses pada tiga perangkat komputer berbeda dan komponen pada website dapat ditampilkan dengan baik
+pada pengujian aspek usability, aplikasi dinilai sangat positif dengan total persentase 85, 1%
+serta pada pengujian aspek portability, yang menunjukan aplikasi lebih baik jika diakses menggunakan browser berbasis desktop
+pendahuluan berbasis pada lingkungan, budaya, dan pemberdayaan masyarakat bertempat di kabupaten kubu raya
+qubu resort dilengkapi dengan berbagai objek wisata, misalnya paradisq waterpark yang merupakan wahana air terbesar di kalimantan barat, serta berbagai fasilitas penunjang lainnya
+qubu resort telah diliput oleh berbagai media, baik media cetak maupun situs berita online
+namun, dari berbagai hasil liputan media yang ada, informasi yang ditampilkan masih berupada teks dan gambar
+aplikasi dibangun berbasis website, agar dapat lebih mudah diakses oleh pengguna
+aplikasi juga memuat fitur 3d maps, yaitu berupa bangun 3d yang berfungsi untuk merepresentasikan denah lokasi qubu resort
+melalui aplikasi yang akan dibuat, pengunjung dapat melihat lingkungan yang ada secara lebih nyata, melalui dunia maya
+virtual tour biasanya terdiri dari kumpulan foto-foto panorama, kumpulan gambar yang terhubung oleh hyperlink, ataupun video, dan/atau virtual model dari lokasi yang sebenarnya
+bisa juga menggunakan unsur-unsur multimedia lainnya seperti efek suara, musik, narasi, dan tulisan

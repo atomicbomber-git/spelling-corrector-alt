@@ -1,0 +1,120 @@
+istana kadriah saat ini dijadikan museum yang dibuka untuk umum
+penyampaian informasi tentang barang- barang peninggalan yang ada di istana kadriah masih dilakukan secara manual, yaitu pemandu wisata masih memberikan informasi secara lisan dikarenakan belum adanya informasi yang tertera pada setiap barang peninggalan yang ada
+kurangnya pemandu wisata pada saat pengunjung ramai membuat wisatawan kesulitan dalam mendapatkan informasi
+satu diantaranya wisatawan asing yang datang masih membawa kamus pribadi untuk mendapatkan informasi secara jelas, dan terdapat barang yang tidak dapat dilihat secara langsung dikarenakan terkunci didalam sebuah ruangan
+penelitian ini menghasilkan sebuah aplikasi yang mampu membantu wisatawan mendapatkan informasi melalui perangkat android berdasarakan user acceptance test, dimana aplikasi mendapatkan nilai 1.427 yang berarti aplikasi berhasil dan aplikasi dapat berjalan pada smartphone android dengan sistem operasi 4.4 hingga versi 8.0 berdasarkan pengujian kompatibilitas
+aplikasi augmented reality telah dapat membantu wisatawan mendapatkan informasi tentang barang sejarah istana kadriah berdasarkan uji user acceptance test dengan nilai 1.427 dan memenuhi aspek visual serta aspek fungsionalitas
+pendahuluan istana kadriah adalah istana kesultanan pontianak yang dibangun pada tahun 1771 sampai tahun 1778 masehi
+istana kadriah merupakan salah satu daya tarik wisata di kota pontianak yang banyak dikunjungi wisatawan dari dalam maupun dari luar daerah bahkan luar negeri
+didalam istana kadriah terdapat benda berharga yang tersimpan didalamnya sebagai peninggalan sultan-sultan terdahulu
+istana kadriah dijadikan museum yang dibuka untuk umum, dengan tujuan memberi pengetahuan sejarah pada generasi saat ini
+penyampaian informasi tentang barang-barang peninggalan yang ada di istana kadriah masih dilakukan secara manual, yaitu pemandu wisata masih memberikan informasi secara lisan dikarenakan belum adanya informasi yang tertera pada setiap barang peninggalan yang ada
+kurangnya pemandu wisata pada saat pengunjung ramai membuat wisatawan kesulitan dalam mendapatkan informasi, satu diantaranya wisatawan asing yang datang masih membawa kamus pribadi untuk mendapatkan informasi secara jelas, dan terdapat barang yang tidak dapat dilihat secara langsung dikarenakan terkunci didalam sebuah ruangan
+dewasa ini, berbagai teknologi dapat digunakan sebagai penunjang pengenalan barang-barang bersejarah dengan menampilkan informasi objek berupa animasi, tulisan, maupun suara
+adapun salah satu contoh dari penerapan teknologi itu adalah augmented reality
+augmented reality adalah teknologi yang dapat menggabungkan objek 3d ke dalam lingkungan nyata
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+pada kasus ini penyampaian informasi akan divisualisasikan dalam bentuk 3d sebagai penunjang pengenalan barang- barang bersejarah dengan menampilkan informasi objek
+augmented reality juga memiliki kelebihan dari sisi interaktif karena menggunakan marker untuk menampilkan objek 3d tertentu yang diarahkan ke kamera
+berdasarkan permasalahan diatas akan dibangun sebuah aplikasi augmented reality dengan menggunakan marker yang dapat membantu wisatawan untuk mendapatkan informasi melalui perangkat android yang dimilikinya dan membantu wisatawan asing mendapatkan informasi dalam bahasa inggris
+nuning ditya putri #1 # program studi informatika universitas tanjungpura jl
+augmented reality augmented reality dapat menggabungkan objek 3d ke dalam lingkungan nyata
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+objek maya yang digabungkan ke dalam lingkungan nyata berfungsi menampilkan informasi yang tidak dapat di terima oleh manusia secara langsung
+hal ini membuat augmented reality berguna sebagai alat untuk membantu persepsi dan interaksi penggunanya dengan dunia nyata
+kelebihan dari augmented reality adalah tampilan visual yang menarik, karena dapat menampilkan objek 3d beserta animasinya yang seakan-akan ada pada lingkungan nyata dan disandingkan dengan informasi tentang objek 3d yang berupa suara
+informasi yang ditampilkan oleh objek yang ditampilkan membantu pengguna melaksanakan kegiatan-kegiatan dalam dunia nyata
+ada tiga prinsip dari augmented reality, yang pertama yaitu augmented reality merupakan penggabungan dunia nyata dan virtual, yang kedua berjalan secara interaktif dalam waktu nyata, dan yang ketiga terdapat integrasi antar benda dalam tiga dimensi, yaitu benda maya terintegrasi dalam dunia nyata
+beberapa komponen yang diperlukan dalam pembuatan dan pengembangan aplikasi augmented reality adalah sebagai berikut : 1
+komputer merupakan perangkat yang digunakan untuk mengendalikan semua proses yang akan terjadi dalam sebuah aplikasi
+penggunaan komputer ini disesuaikan dengan kondisi dari aplikasi yang akan digunakan
+kemudian untuk output aplikasi akan ditampilkan melalui monitor
+marker merupakan gambar dengan warna hitam dan putih dengan bentuk persegi
+dengan menggunakan marker ini maka proses tracking pada saat aplikasi digunakan
+kamera merupakan perangkat yang berfungsi sebagai recording sensor
+kamera tersebut terhubung ke komputer yang akan memproses image yang ditangkap oleh kamera
+apabila kamera menangkap image yang mengandung marker, maka aplikasi yang ada di komputer tersebut mampu mengenali marker tersebut
+selanjutnya, komputer akan mengkalkulasi posisi dan jarak marker tersebut
+lalu, komputer akan menampilkan objek 3d di atas marker tersebut
+metode yang dikembangkan pada augmented reality saat ini terbagi menjadi dua metode, yaitu marker based tracking dan markerless augmented reality
+marker augmented reality 
+objek 2d, 3d, teks, video maupun suara diproses di aplikasi dengan bantuan input dari kamera yang kemudian ditampilkan dalam layar maupun peralatan display khusus melalui pengenalan sebuah marker 
+setelah marker dikenali oleh komputer kemudian objek yang sudah terdapat dalam library komputer ditampilkan di atas marker tersebut
+marker biasanya merupakan ilustrasi hitam dan putih persegi dengan batas hitam tebal dan latar belakang putih
+komputer akan mengenali posisi dan orientasi marker dan menciptakan dunia virtual 3d yaitu titik dan tiga sumbu yaitu x, y, dan z
+android android adalah sekumpulan program untuk perangkat mobile yang meliputi sistem operasi, middleware, dan aplikasi pentingandroid adalah sistem operasi untuk telepon seluler yang berbasis linux
+android menyediakan platform terbuka bagi para pengembang buat menciptakan aplikasi mereka sendiri untuk digunakan oleh bermacam peranti bergerak
+, pendatang baru yang membuat peranti lunak untuk ponsel
+kemudian untuk mengembangkan android, dibentuklah open handset alliance, konsorsium dari 34 perusahaan peranti keras, peranti lunak, dan telekomunikasi, termasuk google, htc, intel, motorola, qualcomm, t-mobile dan nvidia
+pada saat perilisan perdana android, 5 november 2007, android bersama open handset alliance menyatakan mendukung pengembangan standar terbuka pada perangkat seluler
+di lain pihak, google merilis kode–kode android di bawah lisensi apache, sebuah lisensi perangkat lunak dan standar terbuka perangkat seluler
+di dunia ini terdapat dua jenis distributor sistem operasi android
+pertama yang mendapat dukungan penuh dari google atau google mail services dan kedua adalah yang benar–benar bebas distribusinya tanpa dukungan langsung google atau dikenal sebagai open handset distribution 
+fitur yang tersedia di android adalah: 1
+dalvik mesin virtual: mesin virtual dioptimalkan untuk perangkat mobile
+grafik: grafik di 2d dan grafis 3d berdasarkan pustaka opengl
+mendukung media: audio, video, dan berbagai format gambar 4
+kamera, global positioning system, kompas, dan accelerometer 
+unity unity adalah sebuah game engine yang memungkinkan seseorang mau pun tim, untuk membuat sebuah games 3d dengan mudah dan cepat
+unity berbasis cross-platform, unity dapat digunakan untuk membuat sebuah game yang bisa digunakan pada perangkat komputer, smartphone android, iphone, ps3, dan bahkan x-box
+unity adalah sebuah sebuah tool yang terintegrasi untuk membuat game, arsitektur bangunan dan simulasi
+unity bisa untuk games pc dan games online
+jika ingin mendesain, dapat digunakan 3d editor lain seperti 3ds max atau blender
+banyak hal yang bisa dilakukan dengan unity, ada fitur audio reverb zone, particle effect, dan sky box
+selain itu unity 3d jika digabung dengan vuforia sdk dapat digunakan untuk membuat aplikasi atau game berbasis augmented reality
+unified modelling language uml adalah salah satu standar bahasa yang banyak digunakan di dunia industri untuk mendefinisikan requirement, membuat analisis & desain, serta menggambarkan arsitektur dalam pemrograman berorientasi objek
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram memperlihatkan sekumpulan objek yang berinteraksi dan urutannya
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode-metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+komponen blender adalah komponen untuk membangun objek 3d yang akan diimport kedalam unity
+komponen qr code generator adalah komponen yang digunakan untuk membuat marker berupa qr code
+qr code kemudian di-upload ke vuforia database
+komponen vuforia adalah komponen yang berisi library dan database marker yang diimport ke unity untuk membangun aplikasi ar
+komponen unity adalah komponen yang digunakan untuk membangun aplikasi ar
+setelah proses pembangunan aplikasi selesai, maka aplikasi di export ke dalam format file apk agar dapat diinstal pada android
+setelah aplikasi diinstall, user menggunakan aplikasi augmented reality pengenalan barang sejarah
+hasil aplikasi aplikasi yang dibangun merupakan aplikasi augmented reality pengenalan barang sejarah berbasis android
+berikut adalah beberapa tampilan hasil perancangan aplikasi
+gambar 3 merupakan tampilan dari menu utama yang berisi mulai, tentang, keluar dan pilihan bahasa
+tampilan mulai ar barang sejarah gambar 4 merupakan tampilan dari mulai ar barang sejarah yang berisi teks informasi, tombol putar objek dan tombol audio
+tampilan tentang peneliti gambar 5 merupakan tampilan tentang peneliti yang berisi profil peneliti
+hasil pengujian perangkat saat menjalankan aplikasi
+pengujian ini dilakukan dengan menginstall aplikasi pada beberapa perangkat yang berbeda
+hasil pengujian kompatibilitas dapat dilihat pada tabel 1
+tabel 1 hasil pengujian kompatibilitas no merek tipe layar diinstal dan diinstal dan tombol tidak sesuai dengan ukuran layar diinstal dan diinstal dan diinstal dan 2
+pengujian marker pengujian marker dilakukan dengan memindai marker berupa qr code
+pengujian ini dilakukan untuk melihat apakah objek 3d dapat tampil
+hasil pengujian dapat dilihat pada tabel 2
+pengujian jarak marker pengujian marker terhadap jarak dilakukan untuk menguji marker terhadap jarak menggunakan aplikasi augmented reality pengenalan barang sejarah istana kadriah kota pontianak
+pengujian ini dilakukan dengan memindai marker menggunakan smartphone android dengan jarak 10cm, 20cm, 30cm, 40cm, dan 50cm dengan ukuran marker 6 x 6 cm
+pengujian marker terhadap cahaya pengujian marker terhadap cahaya dilakukan untuk menguji marker terhadap cahaya
+marker tepat berada dibawah lampu led dengan daya 10 watt
+marker berada 6 meter dari lampu led dengan daya 10 watt
+marker berada di bawah bayangan dengan lampu led berdaya 10 watt
+pengujian ini dilakukan dengan memindai marker dalam tiga kondisi cahaya yaitu terang, redup, dan dibawah bayangan 
+berikut hasil pengujian marker terhadap cahaya pada tabel 4
+user acceptance test user acceptance test adalah pengujian dimana klien memvalidasi perangkat lunak untuk mengetahui apakah solusi yang disediakan sesuai untuk penggunaannya dan memenuhi kebutuhan bisnis mereka
+nilai tersebut akan digunakan dalam penghitungan likert’s
+penghitungan likert’s adalah cara untuk menghitung hasil respon dari sebuah kuesioner
+gambar 7 adalah total skor dari kuesioner yang telah dibagikan kepada 15 responden
+tabel 4 no marker terang redup dibawah bayangan 1 o – 1 terdeteksi terdeteksi terdeteksi 2 o – 2 terdeteksi terdeteksi terdeteksi 3 o – 3 terdeteksi terdeteksi terdeteksi 4 o – 4 terdeteksi terdeteksi terdeteksi 5 o – 5 terdeteksi terdeteksi terdeteksi 6 o – 6 terdeteksi terdeteksi terdeteksi 7 o – 7 terdeteksi terdeteksi terdeteksi 8 o – 8 terdeteksi terdeteksi terdeteksi 9 o – 9 terdeteksi terdeteksi terdeteksi 10 o – 10 terdeteksi terdeteksi terdeteksi 11 o – 11 terdeteksi terdeteksi terdeteksi 12 o – 12 terdeteksi terdeteksi terdeteksi gambar 7
+pada hasil kompatibilitas aplikasi, diperoleh hasil bahwa aplikasi dapat berjalan pada smartphone android dengan sistem operasi versi 4.4 hingga versi 8.0 
+aplikasi menunjukkan perbedaan pada setiap perangkat smartphone android, yaitu pada kesesuaian letak tombol
+perbedaan ini dipengaruhi oleh perbedaan aspek ratio pada setiap perangkat smartphone android yang diujikan
+aplikasi diujikan pada perangkat smartphone android dengan ukuran layar 4, 5 inch hingga 10.1 inch
+pengujian marker terbagi menjadi dua, yaitu pengujian marker terhadap jarak dan pengujian marker terhadap cahaya
+pada pengujian marker terhadap jarak didapat hasil bahwa semua marker dapat dipindai dan memunculkan objek 3d pada layar smartphone pada jarak 10 cm, 20 cm, 30 cm, 40 cm, dan jarak maksimum 50cm
+pada pengujian marker terhadap cahaya, marker dapat dideteksi dalam semua kondisi cahaya yaitu terang, redup, dan dibawah bayangan
+dalam keadaan terang marker dapat dideteksi secara maksimal c
+hasil intrepretasi skor dari likert’s summated rating menunjukkan user rata-rata memberikan nilai 4 dan 5
+dua user memberikan nilai 2 dalam dua aspek penilaian, yaitu pada kombinasi warna pada aplikasi dan kesesuaian letak tombol pada aplikasi
+aplikasi mendapatkan skor 1427 dengan nilai sangat positif yang berarti aplikasi dinilai berhasil dan berfungsi sebagaimana mestinya
+kesimpulan wisatawan memberikan informasi tentang barang sejarah istana kadriah, berdasarkan pada hasil uji user acceptance test dengan nilai 1.427 yang memenuhi aspek visual dan berfungsi sebagaimana mestinya 2
+kompatibilitas aplikasi pada perangkat platform android dinyatakan baik berdasarkan uji kompatibilitas pada 10 perangkat dengan sistem operasi minimal 4.4 dan maksimal 8.0 
+menambah fitur subtitle untuk penyandang tuna-rungu
+kompatibilitas aplikasi pada perangkat platform android dinyatakan baik berdasarkan uji kompatibilitas pada 10 perangkat dengan sistem operasi minimal 4.4 dan maksimal 8.0 

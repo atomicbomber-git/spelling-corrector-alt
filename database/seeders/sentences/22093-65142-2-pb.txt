@@ -1,0 +1,75 @@
+sudirman selindung lama pangkalpinang provinsi kepulauan bangka belitung elly@atmaluhur.ac.id tugas belajar pada badan kepegawaian daerah masih dilakukan secara manual, dimana teknologi informasi belum dimanfaatan secara optimal untuk mendukung kelancaran kegiatan tersebut maka diperlukan sebuah sistem informasi yang dapat melakukan pengolahan data seleksi penerimaan pegawai tugas belajar secara lebih efektif dan efisien
+metode yang digunakan dalam menganalisis dan merancang sistem adalah dengan metode analisis dan perancangan berorientasi objek menggunakan uml
+dengan adanya sistem informasi seleksi penerimaan pegawai tugas belajar maka pengolahan data serta penyajian informasi tentang seleksi penerimaan pegawai tugas belajar menjadi lebih cepat
+manusia aparatur negara mempunyai peran sebagai perencana, pelaksana, dan pengawas penyelenggaraan tugas umum pemerintahan dan pembangunan nasional melalui pelaksanaan kebijakan dan pelayanan publik yang profesional, bebas dari intervensi politik serta bersih dari praktik korupsi, kolusi dan nepotisme
+dalam rangka meningkatkan kemampuan dan profesionalisme pegawai negeri sipil berbasis kompetensi, pemerintah provinsi kepulauan bangka belitung melakukan pengembangan pegawai negeri sipil melalui pendidikan berkelanjutan dalam bentuk pemberian tugas belajar
+pemberian tugas belajar bagi pegawai negeri sipil bertujuan agar tersedianya aparatur di lingkungan pemerintah provinsi kepulauan bangka belitung yang memiliki pengetahuan, keahlian, keterampilan dan profesional melalui jenjang pendidikan formal sesuai kebutuhan organisasi
+tugas belajar diberikan secara selektif kepada pegawai yang menunjukkan prestasi kerja, loyalitas dan dedikasi yang baik melalui mekanisme seleksi tugas belajar
+tidak semua pegawai yang telah mendaftar mendapatkan izin belajar
+pegawai yang mendaftar haruslah mengikuti seleksi penerimaan pegawai tugas belajar
+penyaringan calon peserta seleksi tugas belajar dari sumber pendanaan apbd dan beasiswa dilakukan berdasarkan pada formasi dan proyeksi kebutuhan aparatur melalui badan kepegawaian daerah provinsi kepulauan bangka belitung
+masing – masing instansi mengusulkan pegawai yang akan mengikuti seleksi
+saat ini kegiatan pengolahan data dan informasi seleksi penerimaan pegawai tugas belajar masih dilakukan secara manual sehingga dirasakan belum efektif
+di era sekarang ini sudah menjadi suatu keharusan dalam suatu organisasi/perusahaan menggunakan perangkat komputer demi untuk meningkatkan daya saing, efisiensi dan keakuratan informasi
+untuk itu dirasakan perlu untuk membangun sistem informasi seleksi penerimaan pegawai tugas belajar yang dapat mendukung kelancaran dalam pengolahan data maupun dalam penyajian informasi
+tinjauan pustaka perangkat lunak yang secara langsung mendemonstrasikan bagaimana sebuah perangkat lunak atau komponen- komponen perangkat lunak akan bekerja dalam lingkungannya sebelum tahapan konstruksi aktual dilakukan
+gambaran yang akan dibuat pada masa yang akan datang dan membedakan dua fungsi eksplorasi dan demonstrasi
+model prototipe 2) throwaway prototype : prototipe yang akan dibuang begitu selesai menjalankan maksudnya
+3) input/output prototype : prototipe yang terbatas pada antar muka pengguna 
+4) processing prototype : prototipe yang meliputi perawatan file dasar dan proses-proses transaksi
+5) system prototype : prototipe yang merupakan model lengkap dari perangkat lunak
+2) perancangan : perancangan dilakukan cepat dan rancangan memiliki semua aspek software yang diketahui, dan rancangan ini menjadi dasar pembuatan prototipe
+3) evaluasi prototipe : klien mengevaluasi prototipe yang dibuat dan digunakan, memperjelas kebutuhan sistem
+kelemahan model prototipe1) pelanggan dapat sering mengubah-ubah atau menambah-nambah spesifikasi kebutuhan karena mengganggap aplikasi sudah dengan cepat dikembangkan, karena dengan iterasi ini dapat menyebabkan pengembang banyak mengalah 2) pengembang lebih sering mengambil kompromi dengan pelanggan untuk mendapatkan prototipe dengan waktu yang cepat sehingga pengembang lebih sering melakukan segala cara guna menghasilkan prototipe untuk menganalisis spesifikasi atau kebutuhan akan sistem yang akan dibangun dengan konsep berorientasi objek, apakah benar kebutuhan yang ada dapat diimplementasikan menjadi sebuah sistem berorientasi objek
+desain berorientasi objek adalah tahapan perantara untuk memetakan spesifikasi atau kebutuhan sistem yang akan dibangun dengan konsep berorientasi objek ke desain pemodelan agar lebih mudah diimplementasikan dengan pemrograman berorientasi objek
+kepada pegawai negeri sipil yang mempunyai potensi dan berprestasi berdasarkan pada kebutuhan organisasi untuk melanjutkan pendidikan ke jenjang pendidikan formal yang lebih tinggi pada perguruan tinggi baik dalam maupun luar negeri
+pendidikan : a) diploma iv b) strata satu c) strata dua atau program profesi d) program spesialis e) strata tiga dan setara persyaratan seleksi calon mahasiswa/karyasiswa yang bersumber dari apbd ditetapkan berdasarkan kriteria : a) penilaian administrasi b) penilaian akademik c) penilaian toefl d) penilaian lain-lain g
+pembangunan prototype sistem informasi administrasi kependudukan berbasis data terdistribusi
+penelitian terkait beta noranita, djalal er riyanto dan adi wibowo dengan judul 
+penelitian ini menghasilkan sebuah prototipe yang digunakan untuk melakukan manajemen data kependudukan seperti menambah, mengubah, dan menampilkan data kependudukan dari berbagai lokasi yang berbeda serta ketersediaan data
+pengujian terhadap prototipe siak bdt dilakukan dengan metode simulasi
+penelitian lainnya adalah penelitian yang dilakukan oleh indah ayu septriyaningrum, dodon t
+perancangan dan pengembangan prototype sistem parkir
+nugrahadi, ichsan ridwan dengan judul 
+penelitian ini menghasilkan sistem yang dapat menampilkan aktifitas parkir pada aplikasi web seperti kondisi lahan parkir kosong, lahan terisi, waktu masuk, waktu keluar, lama parkir, dan kapasitas parkir tersedia serta grafik pemakaian lahan parkir
+sistem perangkat lunak, sistem informasi, atau sistem lainnya
+pendekatan berorientasi objek adalah suatu teknik atau cara pendekatan dalam melihat permasalahan dan sistem 
+pendekatan berorientasi objek akan memandang sistem yang akan dikembangkan sebagai suatu kumpulan objek yang berkorespondensi dengan objek-objek dunia nyata
+metode pengembangan sistem dengan menggunakan metode pendekatan prototipe
+prototyping merupakan salah satu metode pengembangan perangat lunak yang banyak digunakan
+kunci agar model prototipe ini berhasil dengan baik adalah dengan mendefinisikan aturan-aturan main pada saat awal, yaitu user dan pengembang harus setuju bahwa prototipe dibangun untuk mendefinisikan kebutuhan
+prototipe akan dihilangkan sebagian atau seluruhnya dan perangkat lunak aktual aktual direkayasa dengan kualitas dan implementasi yang sudah ditentukan
+pengumpulan data kepala bkd dan panitia seleksi tugas belajar
+selain itu penulis juga menggunakan teknik observasi yaitu melakukan pengamatan langsung terhadap objek penelitian untuk mempelajari dokumen dan proses bisnis yang ada
+teknik analisis dan perancangan teknik analisis dalam penelitian ini menggunakan analisis berorientasi objek dengan uml
+proses analisis dilakukan berdasarkan hasil tahapan pengumpulan data antara lain : ini dilakukan analisis terhadap prosedur, dokumen, dan hasil cetakan dari sistem yang sudah berjalan
+2) analisis kebutuhan fungsional dan pengguna: pada tahap ini dilakukan pemodelan kebutuhan fungsional untuk menggambarkan fungsi sistem dan pengguna yang terlibat yang dimodelkan dengan use case diagram
+3) analisis perilaku sistem: pada tahap ini dilakukan analisis perilaku sistem yang dikembangkan dan dimodelkan dengan activity diagram
+activity diagram digunakan untuk memodelkan proses use case yang berjalan di dalam sistem
+adalah: 1) perancangan struktur statis program atau spesifikasi sistem akan dimodelkan dengan class diagram
+2) perancangan antarmuka pengguna yang meliputi perancangan form input dan form output
+untuk memodelkan struktur data dan hubungan antar data akan dimodelkan dengan entity relationship diagram
+analisa proses bisnis sistem berjalan saat ini badan kepegawaian daerah provinsi kepulauan bangka belitung dalam mengelola data seleksi pegawai tugas belajar sudah menggunakan komputer tapi hanya sebatas pengetikan laporan di microsoft word bahkan masih ada pencatatan yang dilakukan secara manual seperti pencatatan verifikasi penyerahan berkas
+berikut ini adalah kegiatan dalam mengelola data seleksi pegawai tugas belajar yang ada di badan kepegawaian daerah provinsi kepulauan bangka belitung : 1) pegawai atau calon peserta mengisi formulir pendaftaran
+formulir pendaftaran diserahkan ke panitia secara kolektif dan ditandatangani oleh kepala dinas/biro yang disertai dengan penyerahan berkas persyaratan
+2) panitia memeriksa kelayakan administrasi dan membuat bukti verifikasi berkas persyaratan
+3) panitia membuat daftar peserta yang lulus seleksi administrasi untuk diumumkan di website
+4) panitia membuat kartu peserta bagi peserta yang lulus seleksi administrasi sebagai bukti bahwa peserta tersebut berhak mengikuti tes tertulis
+5) pada tahap akhir panitia membuat daftar peserta yang lulus seleksi penerimaan pegawai tugas belajar dan mengirimkannya ke masing-masing instansi
+adapun rincian data yang berkaitan dengan sistem yang sedang berjalan adalah sebagai terlihat pada tabel i
+tabel i panitia seleksi panitia seleksi belajar b
+analisis kebutuhan pengguna gambar 1 memperlihatkan usecase diagram yang digunakan untuk menggambarkan hubungan antara internal sistem dan eksternal sistem atau hubungan antara sistem dan actor
+analisis perilaku sistem activity diagram merupakan model analisis yang digunakan atau menggambarkan sebuah proses aktivitas
+diagram ini dipakai untuk menggambarkan logika dari sebuah proses atau operasi
+2 activity diagram sirkulasi pendaftaran 2) activity diagram sirkulasi laporan gambar 3 adalah gambaran sirkulasi kegiatan penyajian informasi peserta lulus seleksi administrasi dan peserta lulus seleksi penerimaan pegawai tugas belajar : gambar
+3 activity diagram sirkulasi laporan 3) class diagram class diagram digunakan untuk menampilkan beberapa class yang ada pada sistem ini dan menggambarkan tentang sistem dan relasi-relasi didalamnya
+berdasarkan analisa proses dan use case diagram, berikut ini adalah class diagram yang penulis usulkan : 4) struktur tampilan gambar 5 merupakan struktur tampilan dari sistem informasi seleksi penerimaan pegawai tugas belajar yang dirancang : cetak bukti verifikasi gambar
+tampilan form input sistem seleksi penerimaan pegawai tugas belajar sebagai berikut : form input data pegawai/peserta tugas belajar form ini digunakan untuk mengelola data pegawai/peserta tugas belajar 
+6 tampilan form input data pegawai/peserta tugas belajar form pendaftaran form ini digunakan untuk menginput data pegawai/peserta yang diusulkan oleh instansi untuk mengikuti seleksi tugas belajar 
+7 tampilan form pendaftaran form input verifikasi kelengkapan berkas persyaratan form ini digunakan untuk menginput data hasil verifikasi kelengkapan berkas persyaratan oleh panitia sekaligus untuk mencetak bukti verifikasi kelengkapan berkas bagi calon peserta 
+8 tampilan form input verifikasi kelengkapan berkas persyaratan gambar
+9 tampilan form input hasil seleksi tes tertulis b) output sistem output dari sistem yang diusulkan pada sistem seleksi penerimaan pegawai tugas belajar antara lain daftar peserta lulus seleksi administrasi dan daftar peserta lulus seleksi penerimaan pegawai tugas belajar
+10 tampilan output daftar peserta lulus seleksi administrasi daftar peserta lulus seleksi penerimaan pegawai tugas belajar gambar
+11 tampilan output daftar peserta lulus seleksi penerimaan pegawai tugas belajar bahwa prototipe sistem informasi seleksi penerimaan pegawai tugas belajar yang dikembangkan sesuai dengan kebutuhan akan informasi sehingga dapat mendukung dan memberikan kemudahan bagi pengguna didalam melakukan pengolahan data pegawai tugas belajar
+desain antar muka dibuat sederhana sehingga memudahkan pengguna dalam memahami pengoperasian sistem infomasi
+output yang disajikan sesuai dengan informasi yang ingin disampaikan serta dapat disajikan lebih cepat

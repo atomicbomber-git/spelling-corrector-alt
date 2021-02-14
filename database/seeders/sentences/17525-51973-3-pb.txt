@@ -1,0 +1,106 @@
+ganesha 10 bandung 40132 alamat universitas 1ismail.a.shobar@gmail.com bertujuan untuk membantu anggota masyarakat yang membutuhkan darah
+kegiatan donor darah diselenggarakan dan dikelola oleh palang merah indonesia
+menurut catatan palang merah indonesia, secara keseluruhan kebutuhan kantung darah yang tidak terpenuhi melebihi satu juta kantung darah
+untuk itu dibutuhkan peningkatan produksi kantung darah
+salah satu solusi yang dapat dilakukan adalah perancangan suatu sistem informasi geografis yang memudahkan pendonor untuk mendonorkan darahnya kembali dengan reminder donor darah dan membantu pmi mendapatkan kantung darah
+mendonorkan darahnya kembali sehingga memberikan motivasi bagi pendonor untuk lebih giat dalam mendonorkan darahnya
+sistem ini berpotensi meningkatkan produktivitas pmi dalam mengumpulkan kantong darah sehingga pemenuhan kebutuhan kantung darah masyarakat dapat meningkat yang pada akhirnya dapat menyelamatkan lebih banyak nyawa manusia khususnya di indonesia
+pendahuluan penting untuk keberlangsungan hidup manusia
+kekurangan darah yang cukup banyak dapat menyebabkan kematian
+palang merah indonesia merupakan organisasi yang bertugas untuk mengumpulkan kantung darah diseluruh indonesia yang kemudian disimpan di bank darah pmi
+pmi mensuplai kebutuhan darah untuk pusat-pusat kesehatan dan rumah sakit diseluruh indonesia
+pmi juga mencatat kebutuhan kantung darah di seluruh indonesia
+menurut situs berita antaranews.com memberitakan bahwa setiap tahunnya indonesia masih kekurangan 1, 3 juta kantung darah sehingga ada manusia yang tak mendapatkan darah mati sia- sia
+oleh karena itu, peningkatan penambahan persediaan kantung darah pada pmi sangat penting untuk dilaksanakan
+teknologi ponsel telah berkembang begitu pesatnya hingga kini ponsel telah menjelma menjadi asisten pribadi yang multifungsi dengan memiliki berbagai teknologi didalamnya yang kini sering disebut ponsel pintar
+ponsel pintar sudah menjadi pegangan hampir setiap orang
+salah satu teknologi yang dimiliki oleh ponsel pintar adalah geolocation yaitu teknologi identifikasi lokasi geografis yang memungkinkan layanan berbasis lokasi
+komersial dan bersifat suka rela, oleh karena itu solusi permasalahan tak dapat diselesaikan dengan cara komersial sehingga tercetus sebuah solusi yaitu perancangan sebuah sistem yang dapat membantu pendonor untuk dapat lebih mudah menjalankan misi kemanusiaan yaitu mendonorkan darahnya di kegiatan donor darah selain itu membantu pmi untuk menemukan pendonor
+beberapa permasalahan yang biasa dirasakan pendonor untuk terus mendonorkan darahnya secara berkala adalah faktor lupa terhadap waktu kemampuan pendonor untuk dapat mendonor kembali setelah masa jeda donor darah, selain itu adalah faktor lokasi tempat mendonor yang terlalu jauh atau tidak diketahui
+tindakan pmi dalam mendapatkan kantung darah bergantung pada kesukarelaan para pendonor
+disebutkan adalah sebuah sistem reminder donor darah dengan memanfaatkan teknologi location based service yaitu sebuah sistem yang dapat mengingatkan pendonor bahwa ia dapat mendonor kembali setelah masa jeda donor darah, melayani pendonor untuk menuju lokasi kegiatan donor darah terdekat untuk melakukan donasi, memberi efektifitas bagi pmi untuk menemukan pendonor
+solusi ini diharapkan dapat meningkatkan kuantitas pendonor pada tiap kegiatan donor darah yang diadakan pmi dan menambah produktivitas pmi dalam mengumpulkan kantung darah sehingga pada akhirnya dapat menambah jumlah kantung darah pada bank darah
+masalah tersebut memunculkan usulan solusi yaitu perancangan sebuah sistem informasi yang dapat mengingatkan pendonor untuk dapat mendonorkan kembali, menampilkan informasi berita kebutuhan darah, berita mengenai donor darah, dan memberi penunjuk lokasi dan waktu bagi pendonor yang ingin mendonorkan darahnya menuju kegiatan donor darah yang sesuai
+selain itu dengan menggunakan teknologi location based service, sistem dapat memberikan pmi persebaran potensi pendonor yang mampu mendonorkan darahnya pada suatu lokasi di suatu waktu yang kemudian pmi dapat mengadakan kegiatan donor darah pada lokasi tersebut sehingga pmi dapat mengadakan kegiatan donor darah yang efektif
+sistem reminder donor darah diharapkan dapat menambah produktivitas pmi dalam mengumpulkan kantung darah
+sistem reminder akan membuat sebuah hitung mundur bagi pendonor setelah mendonorkan darahnya
+kemudian ketika hitung mundur selesai sistem akan memberikan notifikasi bagi pendonor untuk mendonorkan darahnya kembali dalam kegiatan donor darah
+perhitungan mundur memiliki formula perhitungan sebagai berikut : hari wt : waktu terakhir donor segera setelah masa pemulihan tubuh berakhir
+maka waktu diingatkan adalah pada hari ke 70 setelah waktu terakhir donor
+self-checking dapat menambah hitung mundur reminder donor darah
+wd2 = wd + wsf waktu penambah dari self-checking disesuaikan dengan ketentuan yang berstandar pada peraturan yang dikeluarkan who (world health organizationdengan poin pengecekan kesehatan yang beracu pada syarat donor darah yang dikeluarkan oleh pmi bandung
+sistem juga dapat mengingatkan pendonor untuk melakukan aktivitas yang dibutuhkan agar pendonor dapat mendonorkan darahnya ketika waktu donor datang
+misal, pengguna diingatkan untuk tidur cukup minimal 5 jam sebelum hari mendonorkan darahnya 
+wd3 = wd – ws wd3 : waktu diingatkan sebelum siap donor ws : waktu pengurang dari syarat donor waktu pengurang dari syarat donor mengacu pada syarat donor darah yang dikeluarkan oleh pmi bandung
+berita kebutuhan darah kebutuhan khusus yang tidak dapat terpenuhi karena tidak terdapat stok darah yang memenuhi kriteria kebutuhan resipien
+sehingga dibutuhkan donasi darah khusus menurut kriteria yang dibutuhkan resipien, maka sistem akan menampilkan informasi berita darurat kebutuhan darah yang dibutuhkan resipien tersebut
+hal-hal yang tidak diinginkan dapat terjadi kapan saja, seperti bencana alam, kecelakaan, dan lain sebagainya
+hal- hal tersebut dapat memberikan efek dimana kebutuhan darah meningkat seketika
+oleh karena itu, sistem akan menampilkan berita tersebut untuk memotivasi pendonor mendonorkan darahnya
+selain itu terdapat berita-berita lain yang dapat memotivasi pendonor untuk mendonorkan darahnya yang dapat ditampilkan
+sering kali kesulitan untuk mencari tempat kegiatan donor darah diselenggarakan sehingga pendonor mengurungkan niatnya untuk mendonorkan darahnya
+untuk itu dibutuhkan sebuah sistem yang dapat menampilkan lokasi dan waktu kegiatan donor darah terdekat sehingga pendonor dapat menyesuaikan waktu dan lokasi yang sesuai untuk mendonorkan darah
+sistem ini akan menampilkan lokasi terdekat pada saat pendonor diingatkan melalui notifikasi pada telepon selular
+sistem juga menampilkan daftar kegiatan donor darah beserta lokasi dan waktu
+pencarian pendonor sistem dapat memperlihatkan persebaran potensi pendonor yang akan siap mendonorkan darahnya sehingga pmi dapat mengadakan kegiatan donor darah pada lokasi atau kdd yang memiliki potensi pendonor darah yang tinggi
+solusi ini akan memberikan efektifitas pmi dalam mengadakan kegiatan donor darah dan juga memberi efisiensi bagi pendonor pada lokasi atau anggota kdd tersebut untuk mendonorkan darahnya di tempat terdekat
+bagian ini menjelaskan mengenai proses bisnis yang lama dan perubahannya oleh sistem menjadi proses bisnis yang baru
+dua diantara proses bisnis yang akan terpengaruh oleh sistem adalah proses bisnis donor darah pendonor dan proses bisnis pengadaan kegiatan donor darah
+proses bisnis donor darah pendonor pendonor mendonorkan darahnya di kegiatan donor darah kemudian pmi akan memberi tanggal untuk donor kembali pada pendonor
+jika pendonor ingat pada tanggal tersebut, maka pada tanggal tersebut pendonor akan mencari kegiatan donor
+jika pendonor menemukan kegiatan donor darah yang cocok dengan agendanya, maka pendonor akan segera mencoba mendonorkan darahnya dan jika pendonor lolos seleksi donor darah, barulah pendonor dapat diambil darahnya oleh pmi
+proses bisnis donor darah pendonor tergambar pada gambar 1
+hitung mundur berakhir? proses seperti ini memiliki kelemahan pada pendonor yang kemungkinan akan lupa pada tanggal untuk mendonor darah kembali, pendonor yang belum tentu menemukan kegiatan donor darah pada saat untuk mendonor darah kembali, dan apabila pendonor telah menemukan donor darah namun ternyata tidak lolos cek kesehatan sehingga donor darah pendonor dibatalkan
+kumpulan pendonor sukarela mengusulkan kegiatan donor darah dengan mengajukan daftar potensi pendonor yang dapat mendonorkan darahnya pada kegiatan donor darah yang direncanakan
+pmi bersifat pasif dalam mendapatkan potensi pendonor untuk menyumbangkan darah
+proses bisnis pengadaan kegiatan donor darah tergambar pada gambar 2
+proses pengadaan kegiatan donor darah pmi keluarga donor darah potensi pendonor b.2
+proses bisnis baru lama yang dipengaruhi oleh sistem yaitu proses bisnis donor darah pendonor dan proses bisnis pengadaan kegiatan donor darah
+sehingga sistem akan memberi efisiensi bagi pendonor dalam mendonorkan darahnya kembali
+proses bisnis baru mengenai donor darah pendonor tergambar pada gambar 3
+proses donor darah pendonor menampilkan reminder dan self- menambah hitung mundur lolos self- checking? b.2.2
+proses bisnis pengadaan kegiatan donor darah sistem dapat menampilkan persebaran potensi pendonor darah pada suatu lokasi atau kdd di suatu waktu sehingga pmi dapat secara aktif meminta usulan bagi kdd di lokasi atau kdd yang berpotensi pendonor darah yang tinggi
+dengan proses seperti itu pmi dapat mengadakan kegiatan donor darah secara efektif di lokasi yang memiliki potensi pendonor yang tinggi
+selain itu kegiatan donor yang diadakan dengan proses seperti ini memberi efisiensi bagi pendonor untuk mendonorkan darahnya
+proses bisnis baru mengenai pengadaan kegiatan donor darah tergambar pada gambar 4
+pmi keluarga donor darah potensi pendonor teknologi location based service melibatkan berbagai pihak yaitu pendonor, pmi, resipien, keluarga donor darah, dan admin
+pendonor menggunakan ponsel untuk memperhitungkan posisi dan mengakses sistem
+pmi menggunakan ponsel untuk mengakses sistem, melihat sebaran potensi pendonor, dan meng-input data pada sistem
+admin menggunakan pc/desktop untuk mengatur dan merawat sistem
+sistem menyimpan data dan informasi di database server yang diakses menggunakan jaringan internet sistem menggunakan google maps sebagai penyedia sistem informasi geografis yang diakses melalui jaringan internet secara umum arsitektur sistem tergambar pada gambar 5
+mengingatkan pendonor untuk mendonorkan darahnya kembali dan memberi kemudahan bagi pendonor dalam mendonorkan darahnya kembali melalui ponsel yang memiliki teknologi location based service
+sedangkan bagi pmi, sistem dapat menampilkan informasi persebaran potensi pendonor sehingga pmi dapat mengadakan kegiatan donor darah yang lebih efektif dan efisien
+selain itu sistem dapat menyebarkan informasi kebutuhan darah resipien dari pmi
+pengujian kuesioner dan prototype dipresentasikan pada responden
+didapatkan 23 responden dengan latar belakang mahasiswa
+pengujian yang dilakukan terbagi menjadi empat bagian pengujian
+dilakukan untuk melihat sebaran keteraturan donasi darah calon pengguna
+hasil pengujian bagian pertama ditunjukan oleh gambar 6
+keterangan grafik nomor 1 : 1 untuk sekali, 2 untuk dua kali, 3 untuk tiga kali, dan 4 untuk empat kali, dan grafik nomor 2 : t untuk tidak dan y untuk ya
+gambar 6 hasil pengujian bagian pertama bagian pertama menunjukkan bahwa mayoritas pendonor memiliki aktifitas donor darah yang tidak teratur
+bagian kedua untuk melihat relevansi permasalahan yang telah dirumuskan dan melihat kebutuhan terhadap solusi yang dirumuskan
+hasil pengujian bagian kedua dapat dilihat pada gambar 7
+gambar 7 hasil pengujian bagian dua hasil pengujian bagian dua yaitu permasalahan pendonor menunjukkan 74% menyatakan sering lupa waktu terakhir kali mendonor dan 35% kesulitan mencari lokasi donor darah yang artinya masalah yang dirumuskan cukup relevan sebagai salah satu permasalahan pendonor untuk dicari solusinya
+selain itu rata-rata 93% responden menyatakan belum pernah menggunakan sistem aplikasi untuk membantu mereka donor darah dan rata-rata 94% responden menyatakan tertarik untuk menggunakan sebuah sistem yang dapat mengingatkan, menunjukan lokasi, dan mengecek kesehatan untuk donor darah
+bagian dua menunjukan solusi permasalahan pendonor yaitu perancangan sistem reminder donor darah dibutuhkan oleh pendonor
+untuk melihat pengalaman pengguna terhadap penggunaan prototype sistem yang telah dibangun
+hasil pengujian bagian tiga ditunjukkan pada gambar 8
+gambar 8 hasil pengujian bagian tiga hasil pengujian bagian tiga yaitu tes sistem pada pengguna, menunjukkan rata-rata setiap fitur 89% responden menyatakan rancangan prototype sistem mudah digunakan
+dengan kata lain, mayoritas pendonor yang menjadi responden telah mengerti konsep sistem yang telah dirancang untuk menjadi solusi permasalahan
+kemudian skala pada grafik nomor 2 dan 4, 1 untuk ‘tidak termudahkan’, 2 untuk ‘termudahkan’, 3 untuk ‘sangat termudahkan’, dan 4 untuk ‘sangat termudahkan sekali’
+lalu skala pada grafik nomor 6, 1 untuk ‘tidak berguna, 2 untuk ‘berguna, 3 untuk ‘sangat berguna, dan 4 untuk ‘sangat berguna sekali’
+donor darah dengan memanfaatkan teknologi location based service telah berhasil memberikan kemudahan bagi pendonor sehingga memotivasi pendonor untuk mendonorkan darahnya lebih rutin
+selain itu, sistem juga memberikan pendonor efisiensi waktu dalam mencari kegiatan donor darah yang sesuai dengan pendonor
+bagian satu dan bagian dua menunjukkan permasalahan mengingat waktu donor darah dan mencari lokasi kegiatan donor darah menjadi penyebab ketidakteraturan pendonor dalam mendonorkan darahnya dan mereka membutuhkan solusi sistem reminder donor darah yang dapat mengingatkan pendonor dan menunjukkan lokasi kegiatan donor darah terdekat
+kemudian bagian tiga dan bagian empat menunjukkan bahwa pendonor telah mengerti konsep sistem reminder donor darah yang dirancang dan menunjukkan sistem dapat memberikan motivasi bagi pendonor untuk menjadi lebih teratur dalam mendonorkan darah, sistem dapat memberi efisiensi dalam mencari lokasi kegiatan donor darah, dan sistem dapat memudahkan pendonor dalam memonitor kesehatan pendonor sebelum mendonorkan darahnya
+secara keseluruhan pengujian pengguna mengungkapkan hal-hal berikut : 1
+sistem reminder donor darah dapat memberi pendonor motivasi dalam mendonorkan darahnya kembali sehingga pendonor yang tidak teratur dalam mendonor dapat menjadi lebih teratur
+pendonor darah membutuhkan sistem reminder donor darah sebagai solusi permasalahan pendonor yang sering lupa dengan waktu untuk mendonor kembali dan permasalahan mencari lokasi kegiatan donor darah yang dekat dengan pendonor
+sistem reminder donor darah mampu memberi efisiensi bagi pendonor dalam menemukan lokasi kegiatan donor darah terdekat sehingga pendonor dapat segera mendonorkan darahnya
+kesimpulan memanfaatkan teknologi location based service ini adalah sebagai berikut : 1
+sistem reminder donor darah mampu membantu pendonor dalam mendonorkan darahnya kembali setelah masa penundaan dengan mengingatkan waktu donor darah, menunjukkan lokasi kegiatan donor darah, dan memeriksa kesehatan pendonor
+sehingga pendonor mendapatkan efisiensi dalam melakukan donor darah
+sistem reminder donor darah yang menggunakan teknologi location based service dapat memberikan pmi petunjuk terhadap persebaran potensi pendonor pada lokasi dan waktu tertentu sehingga dapat membantu pmi untuk mengadakan kegiatan donor darah yang lebih efektif
+sistem reminder donor darah dapat menjadi solusi permasalahan pendonor darah yang sering lupa, kesulitan mencari kegiatan donor darah, dan ditolak donor darah karena tidak lolos pemeriksaan kesehatan donor darah
+sistem reminder donor darah yang dirancang dibutuhkan oleh calon pengguna yang merupakan pendonor
+sistem reminder donor darah berpotensi meningkatkan produktivitas pmi dalam mengumpulkan kantung darah

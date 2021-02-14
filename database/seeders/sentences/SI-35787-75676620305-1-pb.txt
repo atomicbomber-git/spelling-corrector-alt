@@ -1,0 +1,44 @@
+eee paper template in a4 submitted 24-09-2019; revised 08-10-2019; accepted 10-10-2019 41 aplikasi computer assisted instruction pengenalan hewan berdasarkan klasifikasi makanan untuk anak berkebutuhan khusus hubertus cahyo argo#1, rudi dwi nyoto#2, hafiz muhardi#3 #program studi sarjana informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, pontianak 78124 hubertuscahyoargo@gmail.com 2rudydn@informatika.untan.ac.id 3hafizm@informatika.untan.ac.id anak abnormal yang menyandang ketunaan
+computer assisted instruction adalah media bantu pembelajaran yang menempatkan komputer sebagai piranti sistem pembelajaran individual, siswa dapat berinteraksi langsung dengan sistem komputer yang dirancang
+dalam proses pembelajaran di sekolah berkebutuhan khusus, salah satu pembelajaran yang diajarkan adalah pengenalan tentang hewan dalam mata pelajaran ipa
+materi pengenalan hewan juga diajarkan dalam terapi wicara untuk anak berkebutuhan khusus
+pada proses materi pengenalan hewan terkadang anak berkebutuhan khusus mengalami kesulitan untuk memahami materi tersebut
+beberapa anak berkebutuhan khusus juga terkadang mengalami kesulitan dalam mengeja dan melafalkan nama hewan yang akan mereka pelajari
+selama ini alat penunjang yang guru gunakan hanya buku lembar kerja siswa dan buku yang khusus memuat materi tentang pengenalan hewan
+untuk kasus tertentu, para terapis untuk anak berkebutuhan khusus menggunakan alat bantu berupa kartu bergambar untuk mengenalkan hewan-hewan yang akan dipelajari anak berkebutuhan khusus
+tujuan dari penelitian ini adalah untuk membantu anak berkebutuhan khusus lebih mudah belajar dan mengenali hewan, serta mengenalkan pelafalan nama hewan dan suara hewan tersebut dengan memanfaatkan konsep cai dengan model tutorial dan instructional games
+pengujian aplikasi menggunakan uji validasi yaitu ahli materi, serta pengujian angket pada siswa sbk bina anak bangsa dari kelas vi sd sampai xii sma
+hasil yang didapat dari validasi aplikasi menggunakan skala pengukuran guttman ini mendapatkan nilai 90% untuk sisi ahli materi, dan 88, 9% untuk siswa sbk bina anak bangsa, sehingga aplikasi cai pengenalan hewan berdasarkan klasifikasi makanan untuk anak berkebutuhan khusus dirasa telah sesuai dengan tujuan dalam memenuhi target pembelajaran
+berkebutuhan khusus, tutorial, games, pengenalan hewan, klasifikasi makanan
+hal; ciri-ciri mental, kemampuan-kemampuan sensorik, fisik dan neuromaskular, perilaku sosial dan emosional, kemampuan berkomunikasi, maupun kombinasi dua atau lebih dari hal yang sudah disebutkan; sejauh ia memerlukan modifikasi dari tugas-tugas sekolah, metode belajar atau pelayanan terkait lainnya, yang ditunjukkan untuk pengembangan potensi atau kapasitasnya secara maksimal
+anak berkebutuhan khusus juga bisa didefinisikan sebagai anak-anak yang tergolong abnormal yang menyandang ketunaan
+anak berkebutuhan khusus juga bisa tergolong sebagai anak yang berbakat
+dalam proses pembelajaran di sekolah berkebutuhan khusus, salah satu pembelajaran yang diajarkan adalah pengenalan tentang hewan dalam mata pelajaran ipa
+materi pengenalan hewan juga diajarkan dalam terapi wicara untuk anak berkebutuhan khusus
+pada proses materi pengenalan hewan terkadang anak berkebutuhan khusus mengalami kesulitan untuk memahami materi tersebut
+beberapa anak berkebutuhan khusus juga terkadang mengalami kesulitan dalam mengeja dan melafalkan nama hewan yang akan mereka pelajari
+selama ini alat penunjang yang guru gunakan hanya buku lembar kerja siswa dan buku yang khusus memuat materi tentang pengenalan hewan
+untuk kasus tertentu, para terapis untuk anak berkebutuhan khusus menggunakan alat bantu berupa kartu bergambar untuk mengenalkan hewan- korespondensi : hubertus cahyo argo 42 hewan yang akan dipelajari anak berkebutuhan khusus
+membawakan materi pengenalan hewan pada anak berkebutuhan khusus tidak bisa menggunakan metode yang monoton
+karena metode penyampaian yang monoton mengakibatkan anak malas bahkan sampai tidak tertarik untuk belajar
+berkebutuhan khusus agar menjadi menarik, dibutuhkan sebuah media dalam proses pembelajaran
+media pembelajaran ini cenderung diartikan sebagai alat-alat grafis, photografis, atau elektronis untuk menangkap, memproses, dan menyusun kembali informasi visual atau verbal suatu proses pembelajaran yang baik dan berkualitas
+ada beberapa komponen yang sangat menentukan, antara lain tujuan pembelajaran, bahan belajar, metodologi pembelajaran, dan evaluasi pembelajaran
+ada dua aspek yang amat penting dalam metodologi pembelajaran
+yaitu model pembelajaran dan media pembelajaran
+kedua aspek ini saling berkaitan satu sama lainnya
+pemilihan salah satu model pembelajaran tertentu akan mempengaruhi jenis media pembelajaran yang sesuai
+piranti sistem pembelajaran individual, di mana siswa dapat berinteraksi langsung dengan sistem komputer yang sengaja dirancang atau dimanfaatkan oleh guru
+proses pembelajaran berupa sofware komputer yang meliputi: judul, tujuan, materi pembelajaran dan evaluasi pembelajaran
+model cai yang dikembangkan yaitu drill and practice, tutorial, simulasi dan instructional games harus berorientasi pada tujuan pembelajaran bagi kepada standar kompetensi, kompetensi dasar dan indikator yang dicapai pada setiap kegiatan pembelajaran
+pembelajaran cai dalam pembelajaran dapat meningkatkan pemahaman konsep dan movitivasi belajar
+selain itu juga dapat menghubungkan dan memperkuat teori, meningkatkan antusiasme belajar anak melalui interaktivitas, meningkatkan kemampuan teknologi berdasarkan latar belakang tersebut maka muncul gagasan untuk membuat aplikasi cai pembelajaran interaktif dalam pengenalan hewan pada anak berkebutuhan khusus
+model pembelajaran yang akan disampaikan ini adalah model tutorial dan game sehingga anak berkebutuhan khusus dapat belajar tentang pengenalan hewan dan dapat bermain dengan sebuah game selingan
+individu-individu yang mempunyai karakteristik yang berbeda dari individu lainnya yang dipandang normal oleh masyarakat pada umumnya
+secara lebih khusus anak berkebutuhan khusus menunjukkan karakteristik fisik, intelektual, dan emosional yang lebih rendah atau lebih tinggi dari anak normal sebayanya atau berada di luar standar normal yang berlaku di masyarakat
+sehingga mengalami kesulitan dalam meraih sukses baik dari segi sosial, personal, maupun aktivitas pendidikan
+abk juga didefinisikan sebagai anak dengan karakteristik khusus yang berbeda dengan anak pada umumnya tanpa selalu menunjukkan pada ketidak mampuan mental, emosi, atau fisik
+abk adalah anak yang secara signifikan berbeda dalam beberapa dimensi yang penting dari fungsi kemanusiaannya
+mereka yang secara fisik, psikologis, kognitif, atau sosial terlambat dalam mencapai tujuan- tujuan atau kebutuhan dan potensinya secara maksimal, meliputi mereka yang tuli, buta, gangguan bicara, cacat tubuh, retardasi mental, gangguan emosional, juga anak- anak berbakat dengan inteligensi tinggi termasuk kedalam kategori anak berkebutuhan khusus karena memerlukan penanganan dari tenaga profesional terlatih
+penyimpangan yang menyebabkan abk berbeda terletak pada perbedaan ciri mental, kemampuan sensori, fisik dan neuromoskuler, perilaku sosial dan emosional, kemampuan berkomunikasi, maupun kombinasi dua atau tiga dari hal- hal tersebut

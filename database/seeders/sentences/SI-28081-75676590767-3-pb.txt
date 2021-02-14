@@ -1,0 +1,6 @@
+zakat sebagaimana kebutuhan pokok bagi umat islam yang harus dipenuhi agar harta yang dimiliki bersih dan berkah
+zakat profesi merupakan salah satu dari jenis zakat yang wajib dikeluarkan oleh pegawai apabila telah mencapai nishabnya
+bogor adalah lembaga yang mengelola zakat bagi masyarakat bogor yang saat ini masih menerima secara langsung dana dari para muzakki dan petugas masih melakukan pencatatan secara manual sehingga data yang ada menumpuk dan kurang terorganisir dengan baik, selain itu para muzaki harus menyempatkan waktunya untuk melakukan zakat profesi ini dibuat dengan metode waterfall dan pengujian web menggunakan metode blackbox testing
+pembuatan system informasi ini bertujuan agar memudahkan muzaki dan pengelola serta meningkatkan kepercayaan mereka terhadap baznas
+dengan penerapan system informasi ini muzaki menjadi mudah untuk menyalurkan zakat profesinya, dan menambah kepercayaan karena adanya transparansi dari laporan penyaluran zakat
+pembayaran zakat dipandang sebagai salah satu upaya dalam mengurangi angka kemiskinan

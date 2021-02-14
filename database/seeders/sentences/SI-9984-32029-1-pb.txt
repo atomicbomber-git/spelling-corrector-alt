@@ -1,0 +1,97 @@
+: employee performance of government agencies greatly effects their good or bad service and the performance of their work
+surely any government agency will expect all employees to perform well in their work
+within this paper, an application will be made that is expected to help and support their performance
+this application is functioned to send notifications of information in real time, to monitor, take action and to send an alert notification to the desired employees and is also in realtime
+information sent is in the form of announcements of events, meetings, and other activities while monitoring, and warnings will be made to employees from their work on the report in order to complete the task on time and to employees that have a lot of work absencies
+in addition, this application also has a function that allows the head office dispose of his subordinates
+this application uses google cloud messaging to send notifications of information and warnings
+in order so the notification and warning information is sent in real time can be easily accessed, the application is made on android-based mobile devices with the information and warnings sent is done by the webservice-based application as an application server, so the notification and warning information will be sent as soon as there is internet connection
+based on test results, the application is already running well on android based mobile devices with information and warnings sent by the server can either be sent in real time manually or automatically
+keywords: performance, android, webservice, google cloud messaging, government agency
+pendahuluan pada setiap instansi pemerintahan, baik atau buruknya pelayanan mereka salah satunya ditentukan oleh kinerja para pegawainya
+jika kinerja para pegawai tersebut baik maka pekerjaan yang mereka kerjakan akan baik pula sebaliknya jika kinerja mereka buruk maka hal ini akan berdampak pada buruknya juga kualitas pekerjaan mereka
+tentunya hal ini tidak bisa dibiarkan begitu saja, karena setiap instansi pemerintahan sangat mengharapkan para pegawainya menunjukkan kinerja yang baik
+oleh karena itu, diperlukan suatu sistem yang mampu menjangkau semua pegawai pada instansi tersebut dan diharapkan akan berguna untuk mendukung kinerja mereka
+dalam pengoperasiannya sistem ini dapat menjadi media penyampaian informasi dan dapat mengawasi serta memberikan peringatan kepada semua pegawai secara otomatis
+seiring dengan perkembangan zaman, saat ini kita telah memasuki era dimana perangkat seluler merupakan kebutuhan yang wajib dimiliki oleh setiap orang untuk melakukan berbagai hal seperti komunikasi, bertukar informasi dan melakukan hal-hal lainnya
+salah satu sistem operasi perangkat seluler yang banyak digunakan dan perkembangannya sangat pesat saat ini adalah android
+android merupakan sebuah sistem operasi yang bersifat open source
+artinya programmer diizinkan oleh pengembang sistem operasi untuk membuat, mengubah, mengembangkan dan menyebarluaskan aplikasi
+dengan memanfaatkan teknologi telepon seluler yang menggunakan sistem operasi android, sangat memungkinkan dibuat sebuah aplikasi yang dapat mengerjakan proses yang telah diceritakan di atas dan harusnya memenuhi harapan mampu menjangkau semua pegawai dan dapat mendukung kinerja mereka
+kinerja instansi pemerintahan konsep kinerja pada dasarnya dapat dilihat dari dua segi, yaitu kinerja pegawai dan kinerja organisasi
+kinerja adalah gambaran mengenai tingkat pencapaian pelaksanaan tugas dalam suatu organisasi, dalam upaya mewujudkan sasaran, tujuan, misi, dan visi organisasi tersebut 
+definisi kinerja instansi pemerintah sendiri menurut keputusan kepala lembaga administrasi negara no : 239/ix/6/8/2003adalah gambaran mengenai tingkat pencapaian sasaran ataupun tujuan instansi pemerintah sebagai penjabaran dari visi, misi dan strategi instansi pemerintah yang mengindikasikan tingkat keberhasilan dan kegagalan pelaksanaan kegiatan-kegiatan sesuai dengan program dan kebijakan yang ditetapkan
+pengertian aplikasi mobile aplikasi mobile adalah perangkat lunak yang berjalan pada perangkat mobile seperti smartphone atau tablet pc
+aplikasi mobile juga dikenal sebagai aplikasi yang dapat diunduh dan memiliki fungsi tertentu sehingga menambah fungsionalitas dari perangkat mobile itu sendiri
+untuk mendapatkan mobile application yang diinginkan, user dapat mengunduhnya melalui situs tertentu sesuai dengan sistem operasi yang dimiliki
+google play dan itunes merupakan beberapa contoh dari situs yang menyediakan beragam aplikasi bagi pengguna android dan ios untuk mengunduh aplikasi yang diinginkan
+google cloud messaging google cloud messaging untuk android adalah layanan yang membantu pengembang mengirim data dari server untuk aplikasi mereka android pada perangkat android
+misalnya, film diunggah oleh seorang teman
+sehingga aplikasi seperti instant messaging dapat mengkonsumsi pesan langsung
+ini bisa menjadi pesan ringan memberitahu aplikasi android bahwa ada data baru yang akan diambil dari server, atau bisa juga pesan yang berisi sampai dengan 4kb data payload 
+layanan gcm menangani semua aspek antrian pesan dan pengiriman ke aplikasi target android berjalan pada perangkat target gcm memungkinkan aplikasi android untuk mngirimkan pesan kepada server untuk membroadcast sebuah notifikasi kepada seluruh client yang ada
+hanya membutuhkan sebuah account gmail maka akan langsung dapat menggunakan fasilitas gcm ini
+php script php adalah bahasa pemrograman yang berjalan pada sebuah webserver, atau sering disebut server-side
+oleh karena itu, php dapat melakukan apa saja yang bisa dilakukan program cgi lain, yaitu mengolah data dengan tipe apapun, menciptakan halaman web yang dinamis, serta menerima dan menciptakan cookies, dan bahkan php bisa melakukan lebih dari itu
+dapat berupa iis dari windows atau apache
+pengertian script server-side adalah, agar dapat menjalankan script ini dibutuhkan tiga program utama, yaitu webserver, modul php dan juga web browser
+php dapat berjalan pada semua jenis sistem operasi, antara lain pada linux dan varian unix, pada ms windows, mac dan masih banyak lagi
+selain itu php juga dapat berjalan pada beberapa jenis webserver antara lain apache, microsoft iis, personal webserver, netscape dan iplanet server, caudium, xitami, omnihttpd dan masih banyak lagi
+mysql mysql adalah sebuah server database open source yang terkenal yang digunakan berbagai aplikasi terutama untuk server atau membuat webservice
+mysql berfungsi sebagai structured query language yang dimiliki sendiri dan sudah diperluas oleh mysql yang umumnya digunakan bersamaan dengan php untuk membuat aplikasi server yang dinamis dan powerfull
+kehandalan suatu sistem basisdata dapat diketahui dari cara kerja dalam melakukan proses perintah- perintah sql yang dibuat oleh pengguna maupun program-program aplikasi yang memanfaatkannya
+sebagai pengoperasi basis data, mysql mendukung operasi basisdata transaksional maupun operasi basisdata non- transaksional pada modus operasi non- transaksional, mysql dapat dikatakan unggul dalam hal unjuk kerja dibandingkan perangkat lunak pengoperasi basisdata kompetitor lainnya
+namun demikian pada modus non- transaksional tidak ada jaminan atas reliabilitas terhadap data yang tersimpan, karenanya modus non-transaksional hanya cocok untuk jenis aplikasi yang tidak membutuhkan reliabilitas data seperti aplikasi blogging berbasis web, cms, dan sejenisnya
+untuk kebutuhan sistem yang ditujukan untuk bisnis sangat disarankan untuk menggunakan modus basisdata transaksional, hanya saja sebagai konsekuensinya unjuk kerja mysql pada modus transaksional tidak secepat unjuk kerja pada modus non- transaksional 
+pemrograman aplikasi mobile smartphone dan tablet pc berbasis android (2012:1
+android menurut safaat android merupakan suatu software yang digunakan pada mobile device yang meliputi sistem operasi, middleware, dan aplikasi inti
+android standart development kit menyediakan alat dan application programming interface yang diperlukan untuk memulai pengembangan aplikasi pada platform android menggunakan bahasa pemrograman java, yaitu kode java yang terkompilasi dengan data dan file resources yang dibutuhkan aplikasi dan digabungkan oleh app tools menjadi paket android
+file inilah yang didistribusikan sebagai aplikasi dan diinstal pada perangkat mobile
+java se java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam
+bahasa ini awalnya dibuat oleh james gosling saat masih bergabung di sun microsystems saat ini merupakan bagian dari oracle dan dirilis tahun 1995
+bahasa ini banyak mengadopsi sintaksis yang terdapat pada c dan c++ namun dengan sintaksis model objek yang lebih sederhana serta dukungan rutin-rutin aras bawah yang minimal aplikasi- aplikasi berbasis java umumnya dikompilasi ke dalam p-code dan dapat dijalankan pada berbagai mesin virtual java 
+java merupakan bahasa pemrograman yang bersifat umum/non-spesifik, dan secara khusus didisain untuk memanfaatkan dependensi implementasi seminimal mungkin
+tulis sekali, jalankan di mana pun
+karena fungsionalitasnya yang memungkinkan aplikasi java mampu berjalan di beberapa platform sistem operasi yang berbeda, java dikenal pula dengan slogannya, 
+saat ini java merupakan bahasa pemrograman yang paling populer digunakan, dan secara luas dimanfaatkan dalam pengembangan berbagai jenis perangkat lunak aplikasi ataupun aplikasi berbasis web
+java adalah bahasa pemrograman yang multiplatform dan multidevice
+sekali anda menuliskan sebuah program dengan menggunakan java, anda dapat menjalankannya hampir di semua komputer dan perangkat lain yang support java, dengan sedikit perubahan atau tanpa perubahan sama sekali dalam kodenya
+aplikasi dengan berbasis java ini dikompulasikan ke dalam p- code dan bisa dijalankan dengan java virtual machine
+fungsionalitas dari java ini dapat berjalan dengan platform sistem operasi yang berbeda karena sifatnya yang umum dan non- spesifik
+kelebihan java yang pertama tentu saja multiplatform
+java dapat dijalankan dalam beberapa platform komputer dan sistem operasi yang berbeda
+hal ini sesuai dengan slogannya yangs udah dibahas sebelumnya
+yang kedua adalah oop atau object oriented programming
+library disini adalah sebuah kumpulan dari program yang disertakan dalam java
+hal ini akan memudahkan pemrograman menjadi lebih mudah
+kelengkapan library semakin beragam jika ditambah dengan karya komunitas java
+setiap hal pasti memiliki kelebihan dan kekurangan
+arsitektur sistem gambar 1 arsitektur sistem perancangan arsitektur sistem berisi tentang arsitektur dari sistem yang akan diterapkan pada aplikasi
+relasi antara aplikasi dengan google cloud messaging adalah mengirimkan akun untuk digenerate oleh gcm menjadi sebuah registration id
+kemudian relasi antara gcm dengan aplikasi adalah gcm mengirimkan registration id
+setelah aplikasi memiliki registration id dan registration id sudah tersimpan dalam database, maka aplikasi sudah dapat menerima private dan broadcast message secara push dari gcm
+ketika aplikasi server melakukan melakukan pengiriman pesan, notifikasi tersebut akan dikirimkan ke gcm
+kemudian gcm akan mengirimkan pesan ke user yang telah terdaftar dan telah memiliki registration id dalam bentuk json sehingga user akan mendapatkan notifikasi yang dikirimkan ke aplikasinya
+use case diagram use case diagram berikut memperlihatkan aktor-aktor yang terlibat dan daftar kegiatan yang dapat dilakukan dalam sistem yang dirancang
+use case diagram pada aplikasi ini dapat dilihat pada gambar 2
+class diagram aplikasi ini dibangun oleh beberapa class yang saling membentuk relasi
+class diagram memberikan gambaran pemodelan elemen- elemen class serta fungsi dan relasinya dengan class lain dalam sebuah sistem yang dibangun
+class diagram pada aplikasi ini dapat dilihat pada gambar 3
+studi kasus dinas perhubungan, komunikasi dan informatika provinsi kalimantan barat
+implementasi dan hasil aplikasi yang dirancang merupakan aplikasi mobile notifikasi berbasis android untuk mendukung kinerja di instansi pemerintahan yang bertujuan untuk memberikan kemudahan bagi para pegawai dalam mendapatkan informasi dan dapat dengan otomatis memberikan peringatan kepada para pegawai yang lalai dalam pekerjaannya
+antarmuka sistem yang dirancang terdiri dari dua bagian yaitu bagian yang dapat diakses oleh pengguna yang berupa aplikasi android dan bagian yang diakses oleh admin yang berupa aplikasi website
+gambaran aplikasi android dapat dilihat pada gambar 4
+gambar 4 hasil aplikasi yang berupa aplikasi android sedangkan gambaran aplikasi website dapat dilihat pada gambar 5
+gambar 5 hasil aplikasi yang berupa aplikasi website aplikasi web hanya digunakan sebagai master saja, sehingga hanya memiliki fitur add, edit, delete data yang ada di database dan mengirim pesan notifikasi kepada aplikasi android baik secara manual maupun otomatis
+sedangkan aplikasi android memiliki fungsi sebagai aplikasi penerima pesan notifikasi dan juga dapat digunakan untuk melakukan pengiriman memo jika user login sebagai kepala dinas
+aplikasi ini merupakan hasil dari pengaplikasian gcm sehingga dapat menerima informasi secara realtime dan update ketika memiliki koneksi internet 4.1
+proses menerima notifikasi pesan proses ini memperlihatkan tampilan ketika aplikasi menerima notifikasi pesan
+tampilan proses menerima notifikasi pesan yang dapat dilihat pada gambar 5
+gambar 6 hasil pengujian menerima notifikasi pesan 4.1
+proses menampilkan notifikasi pesan proses ini memperlihatkan tampilan ketika aplikasi menampilkan notifikasi pesan
+tampilan proses menampilkan notifikasi pesan dapat dilihat pada gambar 7
+proses mengirim memo proses ini memperlihatkan tampilan ketika aplikasi melakukan proses pengiriman memo
+tampilan proses mengirim memo dapat dilihat pada gambar 8
+kesimpulan setelah dilakukan analisis dan pengujian terhadap aplikasi mobile notifikasi berbasis android untuk mendukung kinerja di instansi pemerintahan, dapat disimpulkan bahwa:aplikasi dapat memberitahukan informasi- informasi perkantoran seperti acara, kegiatan maupun rapat.kepada para user atau pegawai yang dikirim melalui webserver ke aplikasi client
+aplikasi dapat memberitahukan secara otomatis kepada user atau pegawai yang sedang mengerjakan laporan mengenai tenggat penggerjaan laporan tinggal tersisa beberapa hari lagi agar pengumpulan laporan dapat tepat waktu
+aplikasi dapat memberitahukan secara otomatis kepada user atau pegawai apabila mereka sering tidak masuk kerja tanpa alasan yang jelas agar tidak lagi mengulanginyaaplikasi dapat membantu user atau pegawai dapat melakukan proses disposisi kegiatan atau acara dengan mengirim memo dari aplikasi ke user atau pegawai yang diberi tugas disposisi

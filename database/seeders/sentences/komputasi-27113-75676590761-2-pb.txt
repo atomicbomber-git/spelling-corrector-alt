@@ -1,0 +1,99 @@
+sistem pendukung keputusan merupakan sistem berbasis komputer yang berkemampuan mendukung analisis data dan pemodelan keputusan, dengan tujuan untuk meningkatkan efektivitas keputusan yang diambil
+pada penelitian ini spk diperlukan untuk proses pemilihan mahasiswa berprestasi 
+mekanisme dalam pengambilan keputusan yang melibatkan multikriteria memerlukan suatu metode untuk menghasilkan alternatif keputusan, salah satunya adalah metode profile matching
+tujuan penelitian ini adalah membangun sebuah sistem pengambilan keputusan yang dapat digunakan untuk pemilihan mahasiswa berprestasi khususnya fakultas teknik universitas tanjungpura
+metodologi penelitian yang dilakukan yaitu studi literatur, analisis kebutuhan, perancangan konseptual, perancangan aplikasi, pengujian dan evaluasi
+model pengembangan sistem menggunakan konsep system development life cycle untuk melakukan perancangan
+pengujian sistem dilakukan dengan dua cara, yaitu pengujian black box dan user acceptance test 
+hasil pengujian black box adalah sistem dapat bekerja dengan baik dalam menangani suatu kemungkinan kesalahan, dan pada pengujian uat sistem dinilai sudah memberikan hasil yang baik, bahwa keputusan yang dihasilkan sudah membantu
+secara keseluruhan, spk bisa membantu proses pengambilan keputusan dan mengatasi permasalahan pemberkasan, pengolahan data, dan proses penilaian pada pilmapres
+pendahuluan untuk membantu pembuat keputusan dalam menyelesaikan masalah dan bukan mengganti posisi manusia sebagai pembuat keputusan 
+spk telah diterapkan dalam beberapa bidang, diantaranya bidang pemetaan/geografis, penerapan di dalam perusahaan seperti penentuan karyawan terbaik dan kenaikan jabatan, bidang pendidikan seperti pemilihan program studi, penentuan beasiswa, dan bidang ekonomi
+spk juga dapat dikaitkan dalam ranah ilmu komputer lain, seperti artificial intelligence, human-computer interaction, simulation, dan software engineering 
+spk yang dibangun dari beberapa penelitian dalam pemecahan masalahnya memerlukan suatu metode pendekatan dalam pengambilan keputusan, salah satunya adalah metode profile matching
+profile matching atau pencocokan profil adalah metode yang sering dipakai sebagai mekanisme dalam pengambilan keputusan dengan mengasumsikan bahwa terdapat tingkat variabel prediktor yang ideal yang harus dipenuhi oleh subyek yang diteliti, bukannya tingkat minimal yang harus dipenuhi atau dilewati 
+metode profile matching akan menghasilkan rangking yang sesuai dan merekomendasikan
+beberapa kasus yang telah ditemukan, metode profile matching dalam pengambilan keputusan digunakan pada kasus diantaranya pemilihan mitra jasa, kenaikan jabatan, pemilihan program studi, penilaian sertifikasi guru, penentuan potensi kelayakan lokasi pendirian tower, dan kelayakan penerimaan pengajar
+standar penilaian dalam penentuan mahasiswa berprestasi di dikti itu sendiri sudah ada, namun dalam mekanismenya dikembalikan lagi kepada universitas/perguruan tinggi masing-masing dan bisa berbeda-beda, maka sistem pendukung keputusan yang akan menstandarkannya
+spk yang akan dibangun dalam penelitian ini akan diterapkan pada fakultas teknik universitas tanjungpura yang setiap tahunnya mengadakan pemilihan mahasiswa berprestasi
+proses pilmapres pada ft untan masih menggunakan seleksi pemberkesan kemudian dikumpulkan, dan belum ada bantuan komputer dalam pengambilan keputusan
+penelitian ini menjadi penting karena dapat mendukung proses pilmapres dengan spk yang terintegrasi
+berdasarkan latar belakang yang telah diuraikan, maka sebuah spk pemilihan mahasiswa berprestasi dengan menerapkan metode profile matching akan dapat membantu proses pengambilan keputusan di ft untan terkait pemilihan mahasiswa berprestasi
+uraian penelitian sistem pendukung keputusan merupakan suatu sistem yang dapat menunjang pembuatan keputusan dalam menangani masalah yang bersifat semi terstruktur, memiliki kemampuan untuk melakukan adaptasi setiap saat dan fleksibel 
+menurut wibisono, spk adalah sistem berbasis komputer yang membantu para pengambil keputusan mengatasi berbagai masalah melalui interaksi langsung dengan sejumlah database dan perangkat lunak
+tujuan dari sistem adalah untuk menyimpan data dan mengubahnya ke informasi terorganisir yang dapat diakses dengan mudah, sehingga keputusan-keputusan yang diambil dapat dilakukan dengan cepat, akurat, dan mudah
+berdasarkan definisi tersebut, dapat disimpulkan bahwa spk merupakan sistem yang dapat membantu proses pengambilan keputusan dalam mengatasi masalah semi terstruktur, spk yang terkomputerisasi akan lebih mudah digunakan untuk melakukan proses keputusan namun tidak menggantikan peran para pengambil keputusan
+multicriteria decision making multiple criteria decision making adalah suatu metode pengambilan keputusan untuk menetapkan alternatif terbaik dari sejumlah alternatif berdasarkan kriteria tertentu, kriteria biasanya berupa ukuran-ukuran, aturan-aturan atau standar yang digunakan dalam pengambilan keputusan 
+menurut zimmermann berdasarkan tujuannya mcdm dapat dibagi menjadi 2 model yaitu multi attribute decision making dan multi objective decision making 
+seringkali madm dan modm digunakan untuk menerangkan kelas atau kategori yang sama
+madm digunakan untuk menyelesaikan masalah-masalah dalam ruang diskrit, oleh karena itu pada madm biasanya digunakan untuk melakukan penilaian atau seleksi terhadap beberapa alternatif dalam jumlah yang terbatas
+sedangkan modm digunakan untuk menyelesaikan masalah-masalah pada ruang kontinyu, menyangkut masalah perancangan, karena teknik-teknik matematika digunakan untuk jumlah alternatif yang sangat besar dan tak terhingga
+profile matching menurut kusrini metode profile matching atau pencocokan profil adalah metode yang sering digunakan sebagai mekanisme dalam pengambilan keputusan dengan mengasumsikan bahwa terdapat tingkat variabel prediktor yang ideal yang harus dipenuhi oleh subjek yang diteliti, bukannya tingkat minimal yang harus dipenuhi atau dilewati
+proses profile matching secara garis besar merupakan proses membandingkan antara nilai data aktual dari suatu profil yang akan dinilai dengan nilai profil yang diharapkan, sehingga dapat diketahui perbedaan kompetensinya, semakin kecil gap yang dihasilkan maka bobot nilainya semakin besar
+system development life cycle menurut sdlc merupakan salah satu model dalam perancangan piranti lunak oleh pengguna melalui beberapa tahapan agar mendapatkan hasil output yang sesuai 
+menurut kendall dan kendall, sdlc merupakan pendekatan bertahap atau fase untuk melakukan analisa dan membangun rancangan sistem dengan menggunakan siklus yang spesifik terhadap kegiatan pengguna
+sdlc juga merupakan pola yang diambil untuk mengembangkan sistem perangkat lunak, yang terdiri dari tahapan: analisa, desain, implementasi, dan uji coba 
+konsep sdlc mendasari berbagai jenis metodologi pengembangan perangkat lunak yang membentuk suatu kerangka kerja untuk perencanaan dan pengendalian pembuatan sistem informasi, yaitu proses pengembangan perangkat lunak
+pengujian black box metode pengujian black box merupakan pengujian yang dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari program, pengujian dilakukan untuk memeriksa apakah program dapat berjalan dengan benar 
+blackbox testing berusaha untuk menemukan kesalahan dalam kategori sebagai berikut
+1) fungsi-fungsi yang tidak benar atau fungsi yang hilang 2) kesalahan antarmuka 3) kesalahan dalam struktur data atau akses database eksternal 4) kesalahan perilaku atau kesalahan kinerja 5) inisialisasi dan pemutusan kesalahan
+pengujian black box terdapat beberapa teknik uji coba, yaitu equivalence partitioning, comparison testing, sample testing, robustness testing, behavior testing, performance testing, requirement testing, cause-effect relationship testing, boundary value analysis, dan edurance testing
+teknik uji coba pada black box yang digunakan adalah robustness testing yang merupakan pengujian dengan data input dipilih diluar spesifikasi yang telah didefinisikan untuk membuktikan bahwa tidak ada kesalahan walaupun masukannya tidak valid, teknik ini dilakukan pada uji coba proses input data
+pengujian user acceptance test user acceptance test merupakan pengujian yang dilakukan oleh end-user, pihak yang langsung berinteraksi dengan sistem dan dilakukan verifikasi apakah fungsi yang ada telah berjalan sesuai dengan kebutuhan
+pengujian uat dilakukan dengan menggunakan in-depth interview, yang hal tersebut dilakukan wawancara terhadap responden
+wawancara yang efektif dapat dilakukan dengan instrumen yang terencana, seperti menggunakan struktur dan agenda yang mduah dipahami
+beberapa tahapan in-depth interview adalah menginterpretasikan hasil wawancara, mengkodekan dan mengkategorikan atau mengelompokkan data-data
+interpretasi secara umum menafsirkan maksud dari setiap jawaban untuk setiap pertanyaan atau pernyataan
+pengkodean dan pengkategorian digunakan untuk mengelompokkan jawaban-jawaban yang diberikan responden dan dinilai berdasarkan kategori penilaian
+melalui cara tersebut, analisis akan dilakukan untuk memberikan kesimpulan dari hasil wawancara, ,
+arsitektur spk pilmapres arsitektur sistem merupakan cara yang digunakan untuk menggambarkan sistem secara umum, gambaran arsitektur tersebut dibangun berdasarkan informasi yang didapatkan dari wawancara dan sistem yang berjalanan sekarang ini
+skenario perhitungan skenario perhitungan yang dapat dilakukan adalah sebagai berikut: 1
+menentukan nilai profile kandidat berdasarkan sub kriteria yang sudah ditentukan nilai atributnya
+kriteria kepribadian tidak diikutsertakan dalam perhitungan karena hanya sebagai syarat tambahan dan merupakan secondary factor
+nilai atribut dari sub kriteria dapat dilihat pada tabel 1
+jika setiap profile kandidat sudah diberikan nilai atribut, selanjutnya adalah membandingkannya dengan nilai profile ideal membandingkan nilai profile yang dimaksud gunanya untuk mencari nilai gap/sesilih
+tahapan analisis gap merupakan bagian dari tahapan metode profile matching yang skenarionya adalah sebagai berikut: a
+pembobotan gap menentukan nilai gap dan bobot nilai masing-masing gap
+penentuan gap yang dilakukan dapat dilihat pada tabel 2
+tabel ii penentuan nilai gap bobot masing-masing gap dapat dilihat pada tabel 3 berikut: tabel iii nilai bobot setiap gap b
+pengelompokkan core factor dan secondary factor tahapan ini dilakukan setelah diketahui bobot dari masing- masing alternatif kandidat, kemudian mengelompokkan dan menghitung core factor dan secondary factor
+menghitung nilai total perhitungan cf dan sf yang sudah dilakukan maka selanjutnya menghitung total nilai keduanya dari cf dan sf dengan masing-masing prosentase yaitu 60% untuk cf dan 40% untuk sf
+nilai total dapat dilihat pada kolom total tabel 4
+tabel iv pengelompokkan cf/sf dan nilai total d
+perhitungan ranking tahapan ini adalah perhitungan akhir dari semua nilai total yang didapat pada tabel 4
+nilai total tersebut akan dihitung dengan nilai prosentase yang sudah ditentukan, yaitu 30% untuk kti, 25% untuk bi, 20% untuk ipk, dan 25% untuk pu
+ranking yang telah dihitung dapat dilihat pada tabel 5
+hasil penelitian penelitian yang telah dilakukan berdasarkan 4 tahapan pada metodologi penelitian memberikan hasil pada setiap tahapan tersebut
+hasil penelitian dapat dilihat pada gambar 4 berikut: gambar 4
+hasil penelitian hasil dari studi literatur yang dilakukan adalah pemahaman terkait komponen-komponen yang membentuk sistem pendukung keputusan yaitu database management system, user interface system, serta metode pendekatan yang diterapkan yaitu profile matching
+berikutnya yaitu analisis kebutuhan sistem, menganalisa data- data yang diperlukan untuk kepentingan penelitian yaitu data kriteria/penilaian seperti karya tulis ilmiah, bahasa inggris, prestasi/kemampuan yang diunggulkan, dan indeks prestasi kumulatif, serta ketentuan pilmapres atau syarat-syarat untuk mengikuti pilmapres yang terkumpul dari hasil wawancara dan observasi
+tahapan perancangan konseptual dan perancangan aplikasi memberikan hasil berupa konsep rancangan awal yang terdiri dari arsitektur sistem secara umum, diagram arus data, diagram alir sistem, dan pemodelan basis data
+perancangan konseptual tersebut dijadikan sebagai contoh pada saat mengimplementasikannya, yaitu saat melakukan perancangan aplikasi model pengambilan keputusan berbasis aplikasi komputer yang dibuat melalui kode program
+tahapan akhir yaitu pengujian dan evaluasi sistem yang telah dibuat untuk mengecek kelayakan sistem sehingga dapat digunakan dalam mengatasi masalah pada pemilihan mahasiswa berprestasi, pengujian yang dilakukan yaitu pengujian black box dan pengujian uat
+hasil perancangan perancangan yang telah dilakukan terdiri dari perancangan arsitektur sistem, diagram arus data, diagram alir sistem, dan basis data
+perancangan tersebut menghasilkan sebuah model pengambilan keputusan yaitu spk pilmapres
+antarmuka dari spk pilmapres diantaranya adalah antarmuka mahasiswa, antarmuka juri, ketua dan antarmuka administrator
+hasil pengujian pengujian pada spk pilmapres dilakukan dengan 2 jenis pengujian, yaitu pengujian black box untuk mengetahui hasil output sistem dan memeriksa fungsional dari sistem, serta pengujian uat untuk mengetahui kelayakan sistem yang diuji oleh tim juri secara langsung dan berinteraksi dengan sistem untuk melihat fungsi yang ada jika telah berjalan sesuai dengan kebutuhan
+pengujian black box pengujian ini berfokus pada spesifikasi fungsional dari software
+pengujian ini perlu dilakukan untuk melihat respon yang diberikan oleh sistem saat melakukan proses input data
+kesalahan yang terjadi sudah ditangani pada kode program sistem ini, sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan demikian, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+pengujian user acceptance test pengujian user acceptance test dilakukan dengan teknik in-depth interview yaitu dengan memperkenalkan sistem yang dibuat, berdisikusi, mengajukan pertanyaan, melakukan uji coba sistem, sehingga dari wawancara tersebut mendapatkan tanggapan atau umpan balik
+hal-hal yang dilakukan pada wawancara dibagi menjadi 3 bagian utama, yaitu presentasi; diskusi; dan uji coba
+wawancara melibatkan beberapa responden yang kualifikasinya telah ditentukan berdasarkan kebutuhan pengujian sistem
+profil responden yaitu adalah juri yang merupakan dosen atau akademia
+jumlah responden ditentukan berdasarkan populasi dosen yang pernah terlibat dalam proses penjurian pemilihan mahasiswa berprestasi di lingkungan fakultas teknik untan
+kisaran populasi juri yang dilibatkan secara keseluruhan dalam pilmapres tidak diketahui, sehingga sebagai sampelnya diambil sebanyak 4 orang
+hasil wawancara yang dapat dilanjutkan ke tahap penulisan transkip wawancara hanya 3 responden saja, sedangkan 1 responden terjadi kesalahan rekaman sehingga dinyatakan gagal gambar 8
+masing-masing responden memberikan penilaian yang berbeda, namun ada beberapa kategori penilaian yang mendapatkan respon yang sama
+berdasarkan gambar 8, gambar 9, dan gambar 10, pada gambar tersebut setiap jawaban yang diberikan responden ditulis secara umum hanya poin-poin jawaban yang didapat dari pertanyaan-pertanyaan terkait kemudahan, kegunaan, dan pertanyaan tambahan lainnya
+hasil wawancara dari responden yang berdasarkan kategori kemudahan dan kegunaan, dapat dijadikan bukti untuk mengkonfirmasi bahwa spk pilmapres yang diujikan sudah membantu, hanya saja perlu peningkatan didalamnya untuk mampu diterapkan di fakultas
+kesimpulan penelitian ini menggunakan pengujian black box untuk menguji saat melakukan input data, kemudian sistem merespon hasil dari input data yang dilakukan jika sudah benar atau terjadi kesalahan
+pengujian black box yang dilakukan memberikan hasil bahwa input/output data sudah sesuai harapan
+kesalahan pada input data yang diujikan sudah ditangani oleh sistem dengan menampilkan pesan kesalahan/error
+saat responden menguji sistemnya, input/output yang dihasilkan sudah berhasil dan sesuai perintah dari sistem
+selain itu, pengujian uat juga dilakukan dan memberikan hasil bahwa spk pilmapres sudah membantu dalam memberikan keputusan, hanya saja perlu penambahan dan peningkatan agar sistem lebih baik lagi
+dummy data digunakan sebagai cara untuk melakukan skenario perhitungan pada profile matching
+dari pengujian black box dan uat, hasil keputusan dari dummy data dapat menghasilkan ranking dan sudah sesuai terhadap proses pilmapres
+melalui penelitian ini, dapat diketahui bahwa spk bisa membantu proses pengambilan keputusan dan mengatasi permasalahan pada pilmapres
+proses pilmapres yang terkomputerisasi dapat meningkatkan efektivitas keputusan yang diambil dan fleksibel dalam penggunaannya

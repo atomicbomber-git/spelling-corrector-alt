@@ -1,0 +1,38 @@
+, helfi nasution e-mail : 1 eric_herman121188@yahoo.com, perusahaan jasa di bidang pembangunan dan infrastruktur 
+proses pelayanan jasa dengan penyampaian informasi terkait perusahaan masih dilakukan secara konvensional oleh karena itu diperlukanlah konsep teknologi berbasis computer dalam sistem informasi manajemen untuk membantu pt kapuas jaya anugerah dalam melaksanakan proses bisnis perusahaan
+sistem dibangun dengan menerapkan teknik responsive design sehingga tampilan web dapat menyesuaikan dengan besarnya luasan area browser yang digunakan oleh user
+pendekatan yang digunakan dalam penelitian adalah pendekatan terstruktur yang menggunakan beberapa alat bantu dan teknik pengerjaan, seperti flowchart, diagram arus data, diagram relasi dan perancangan antarmuka sistem
+sistem informasi manajemen pt kapuas jaya anugerah mampu mengelola data yang berkaitan dengan permintaan barang, permintaan dana, persetujuan permintaan barang, persetujuan permintaan dana, pengiriman barang, pengiriman dana, hingga pada laporan permintaan barang dan dana
+hasil dari sistem informasi manajemen pt kapuas jaya anugerah, diharapkan mampu membantu dalam pengolahan informasi perusahaan
+pendahuluan menjalankan suatu organisasi, perusahaan, maupun institusi
+penggunaan teknologi informasi diharapkan dapat menciptakan akurasi, kecepatan dan kelengkapan dalam sebuah system dalam perusahaan
+selain itu terdapat juga kemudahan dalam penyimpanan, pengorganisasian dan pengambilan terhadap berbagai data
+di dukung dengan perangkat lunak dan perangkat keras yang tepat, maka perusahaan dapat membangun system informasi manajemen yang handal dan berpengaruh terhadap kinerja perusahaan dalam menjalankan usahanya
+perusahaan jasa di bidang pembangunan dan infrastuktur 
+dalam menjalankan usaha jasanya, proses administrasi perusahaan belum menggunakan perangkat lunak khususnya berupa sistem informasi manajemen
+proses pelayanan jasa dengan penyampaian informasi terkait perusahaan, masih dilakukan secara konvensional yaitu perusahaan menyediakan staff di bagian pelayanan konsumen front-liner, yang bertugas memberikan informasi kepada konsumen baik melalui telepon maupun konsumen yang secara langsung mengunjungi perusahaan
+selain dengan front-liner, media informasi lainnya yang digunakan yaitu dengan membuat buku profil perusahaan dan brosur pelayanan jasa, dimana informasi ini hanya akan didapat jika konsumen berkunjung ke kantor
+dalam era teknologi informasi yang berkembang sangat pesat, proses administrasi perusahaan dan pelayanan informasi bagi konsumen dapat dilakukan cepat, mudah dan akurat
+untuk itu dinilai perlu bagi pt kapuas jaya anugerah untuk membangun suatu sistem informasi dan manajemen perusahaannya
+proses administrasi pada perusahaan kapuas jaya anugerah ini ditangani oleh staf dan dilakukan secara rutin pada setiap akhir bulan
+proses pengelolaan data pada perusahaan ini masih terkomputerisasi secara sederhana, dimana semua file pekerjaan disimpan dalam folder-folder yang dibuat sendiri oleh staf perusahaan dalam format excel dan word, dan belum menunjukan kepada database management system .dengan kondisi seperti ini, staf administrasi harus membuat surat-surat, rekapitulasi data, dan member informasi tentang perusahaan secara manual ini dirasakan tidak efisien dalam menjalankan bisnis perusahaan karena diperlukan waktu yang lama dalam pengerjaannya
+penyimpanan dan pengolahan data pada database dengan menggunakan dbms
+dbms yang dimaksud yaitu sebuah program yang dibuat agar mempermudah dan mengefisienkan pekerjaan dalam pemasukan, pengeditan, penghapusan, serta pengambilan data – data perusahaan pada database
+sistem ini berisikan bagaimana perusahaan ini akan melakukan proses pengiriman dokumen, sehingga pihak perusahaan dapat melaksanakan pekerjaannya dengan cepat
+pada sistem ini pun mencakup tanda tangan digital sehingga pihak direksi tidak diwajibkan menandatangani setiap surat dengan cara manual pada proses penandatangan digital ini kesahan tanda tangan tersebut dapat dibuktikan dengan cara mengarsipkan dokumen tersebut
+gambaran umum institusi pt kapuas jaya anugerah, merupakan perusahaan swasta nasional yang bergerak dalam bidang konstruksi, khususnya dalam bidang perkebunan
+perusahaan konstruksi ini kendati relative baru dan didirikan pada tahun 2012
+namun dengan dukungan tenaga yang professional, handal, dan berpengalaman dalam mengerjakan berbagai proyek, pt kja bertekad akan memberikan mutu pelayanan yang prima dan dapat bersaing dengan perusahaan konstruksi lainnya
+kja sampai saat ini antara lain land clearing mekanik dengan menggunakan excavator, pembuatan lubang tanam secara mekanik, penanaman kelapa sawit, pembuatan parit, peninggian dan pengerasan jalan primer dan sekunder, penyiapan pondasi untuk pks, pembuatan gorong-gorong dan jembatan, pembangunan perumahan karyawan, dan lain sebagainya
+pt kapuas jaya anugerah memiliki motto 
+dengan motto tersebut, maka pt kja berkomitmen untuk memberikan mutu pekerjaan yang prima kepada konsumen
+hal ini selain bertujuan menjaga citra perusahaan
+guna mencapai maksud tersebut, perusahaan senantiasa menggunakan tenaga-tenaga kerja professional yang handal dan berpengalaman dibidangnya, memberikan pelatihan yang berkesinambungan, serta menyediakan alat- alat kerja yang berkualitas baik dan berkondisi prima
+untuk meraih hasil maksimal dan terus mengembangkan perusahaan, maka kami mengaplikasikan nilai-nilai seperti mutu, komitmen, kebersamaan, loyalitas, dan keseimbangan
+selama terkoneksi dengan jaringan internet website merupakan sebuah komponen yang terdiri dari text, gambar, suara animasi sehingga menjadi sebuah media informasi yang menarik untuk dikunjungi oleh orang lain.secara umum, situs web digolongkan menjadi 3 jenis yaitu: website statis, website dinamis, website interaktif
+html hypertext markup language, adalah bahasa untuk merepresentasikan dokumen dalam sebuah halaman web
+html ini ditemukan oleh tim berners-lee pada tahun 1980
+kemudian dikembangkan oleh world wide web consontrium sebuah organisasi standar internasional untuk world wide web 
+w3c ini sendiri ditemukan dan dipimpin oleh tim berners-lee
+php php adalah singkatan dari, yang merupakan sebuah bahasa scripting yang terpasang pada html
+sebagian besar sintaks nya mirip dengan bahasa c, java, dan perl ditambah dengan beberapa fungsi php yang spesifik.tujuan utama penggunaan bahasa ini adalah untuk memungkinkan perancang web menulis halaman web dinamik dengan cepat

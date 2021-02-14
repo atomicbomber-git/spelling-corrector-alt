@@ -1,0 +1,36 @@
+administrasi merupakan pengelolaan data atau arsip terutama di kelurahan air itam yang mana termasuk dalam salah satu pelayanan masyarakat
+rekapitulasi arsip perubahan penduduk sangat penting
+pelaksanaan pelayanan masyarakat yang sebelumnya masih dilakukan secara manual dengan perancangan sistem pendataan penduduk ini akan mempermudah pengguna di kelurahan air itam dalam mengarsip data kependudukan
+tujuan dari penelitian ini adalah untuk menyediakan sistem administrasi terkomputerisasi dalam database
+pengolahan data yang dihasilkan dari sistem akan digunakan untuk pendataan penduduk di kelurahan air itam
+dokumen arsip yang berkaitan dengan tujuan peningkatan mutu administrasi kelurahan air itam dan meningkatkan pelayanan publik
+hal ini berbeda dengan sistem manual yang telah digunakan, dengan sistem terkomputerisasi ini risiko kehilangan data dan kerusakan serta untuk menyajikan hasil data lebih rapi
+selain itu, dengan sistem ini, sekertaris akan lebih nyaman dan efisien dalam bekerja karena dapat dengan mudah mengakses informasi tentang perkembangan masyarakat di daerah tanpa kebutuhan untuk menemukan informasi dalam tumpukan kertas
+pendahuluan perkembangan ilmu pengetahuan dan teknologi yang semakin pesat, khususnya ilmu komputer
+dalam hal ini, komputer memegang peranan yang sangat penting sebagai alat bantu dalam pengolahan data
+penggunaan komputer yang dilengkapi dengan program aplikasi yang menunjang akan menghemat waktu, biaya, dan tenaga serta memudahkan dalam menghasilkan informasi berkualitas seperti yang dibutuhkan
+komputer merupakan serangkaian alat elektronika yang disusun sedemikan rupa sehingga dapat mengolah data menjadi informasi secara cepat dan tepat menurut yogiyanto
+komputer diciptakan oleh manusia dengan demikian manusialah yang mengoperasikannya, demikian ini komputer merupakan hal yang dapat membantu segala aktifitas di semua perusahaan atau instansi pemerintah
+adapun sarana yang dimanfaatkan tersebut salah satunya adalah ―komputer‖ yang terdiri dari tiga komponen yang saling terkait antar lain : perangkat keras, perangkat lunak serta manusia 
+ merupakan sebuah rangkaian proses untuk menghubungkan beberapa sistem-sistem komputerisasi dan software aplikasi baik secara fisik maupun secara fungsional sistem terintegrasi akan menggabungkan komponen sub-sub sistem ke dalam satu sistem dan menjamin fungsi-fungsi dari sub sistem tersebut sebagai satu kesatuan sistem
+sistem terintegrasi merupakan tantangan menarik dalam software development karena pengembangannya harus terus mengacu pada konsistensi sistem, agar sub-sub sistem yang sudah ada dan tetap dimanfaatkan secara operasional masih tetap berfungsi sebagaimana mestinya baik ketika proses mengintegrasikan sistem maupun setelah terintegrasi
+tantangannya adalah bagaimana merancang sebuah mekanisme mengintegrasikan sistem-sistem tersebut dengan paling minimal bahkan jika diperlukan, tidak harus melakukan refactoring atau re-developing lagi sistem-sistem yang sudah ada
+seperti pencatatan data penduduk, pendaftaran data penduduk, proses data penduduk yang tidak didokumentasi dengan baik dan dapat mengakibatkan data menjadi tidak vailid, yang dalam pembuatannya mempunyai tingkat efektifitas serta efisiensi yang tergolong lemah
+maka akan sangat berpengaruh dalam produktivitas kerja perusahaan itu sendiri
+tahap perancangan sistem adalah merancang sistem secara rinci berdasarkan hasil analisa sistem yang ada, sehingga menghasilkan model yang ada, sehingga menghasilkan model sistem baru yang diusulkan, dengan disertai rancangan database dan spesifikasi program
+informasi ini antara lain sebagai berikut : a
+logical record structure lrs terdiri dari link-link diantara tipe record
+link ini menunjukkan arah dari satu tipe record lainnya
+urutan waktu yang dimaksud adalah urutan kejadian yang dilakukan oleh seorang aktor dalam menjalankan suatu system
+uraian penelitian pendekatan didalam pendefinisian sistem, yaitu kelompok yang menekankan pada prosedur dan kelompok yang menekankan pada elemen atau komponennya
+pendekatan yang menekankan pada prosedur mendefinisikan sistem sebagai suatu jaringan kerja prosedur-prosedur yang saling berhubungan, berkumpul bersama-sama untuk melakukan suatu kegiatan atau untuk menyelesaikan suatu sasaran tertentu
+sedangkan pendekatan sistem yang lebih menekankan pada elemen atau komponen medefinisikan sistem sebagai kumpulan elemen yang berintraksi untuk mencapai suatu tujuan tertentu
+kedua kelompok definisi ini adalah benar dan tidak bertentangan
+activity diagram aliran kerja dalam banyak kasus
+activity diagram mempunyai peran seperti halnya flowchat, akan tetapi perbedaannya dengan 3 0 flowchat tidak bias menurut munawar
+use case diagram sudut pandang user
+digunakan untuk menggambarkan hubungan antara internal sistem dan eksternal sistem atau hubungan antara use case dan actor
+logical record struktur lrs digambarkan oleh kotak persegi panjang dan dengan nama yang unik
+file record pada lrs ditempatkan dalam kotak
+lrs terdiri dari link-link diantara tipe record lainnya, banyak link dar lrs yang diberi nama oleh field-field yang kelihatan pada kedua link tipe record
+sepesifikasi basis data komputer serta digunakan perangkat lunak tertentu untuk memanipulasinya menurut imam

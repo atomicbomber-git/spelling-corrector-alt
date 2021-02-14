@@ -1,0 +1,107 @@
+untuk mencapai hasil terjemahan yang optimal mesin penerjemah statistik membutuhkan korpus paralel dalam jumlah yang besar dimana korpus tersebut berisi salinan teks bahasa sumber dan bahasa target yang sejajar
+ketersediaan korpus paralel menjadi salah satu permasalahan karena sumber yang menyediakan dokumen korpus paralel sulit ditemukan
+tidak seperti data paralel, korpus monolingual yang berisi teks hanya dalam satu bahasa dapat mempermudah pembuatan korpus, karena dokumen teks monolingual tersedia secara luas sehingga tidak diperlukan usaha lebih untuk menerjemahkan teks korpus bilingual tujuan yang ingin dicapai dalam penelitian ini adalah untuk mengetahui seberapa besar pengaruh kuantitas korpus monolingual terhadap nilai akurasi hasil terjemahan pada mesin penerjemah statistik bahasa inggris ke bahasa indonesia
+pengujian otomatis menggunakan bleu dilakukan secara bertahap terhadap 2000 kalimat uji dengan menambahkan korpus monolingual bahasa target dengan jumlah yang sama pada setiap mesinnya yaitu sebanyak 6000 hingga mencapai jumlah 60000 kalimat dan didapatkan peningkatan akurasi sebesar 10, 13%
+pengujian manual dilakukan oleh seorang ahli bahasa inggris dengan korpus uji sebanyak 100 kalimat dengan peningkatan akurasi sebesar 10, 07%
+penggunaan korpus monolingual dapat mempermudah penyediaan sumber data pada mesin penerjemah statistik namun karena peningkatan akurasinya yang terbilang cukup kecil maka dibutuhkan jumlah korpus yang sangat besar sehingga penambahan korpus monolingual ini kurang efisien untuk meningkatkan akurasi terjemahan di atas 30%
+pendahuluan hasil terjemahan yang optimal dapat diperoleh dengan menggunakan konsep penerjemahan statistik
+mesin penerjemah statistik adalah salah satu jenis mesin penerjemah dimana hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+sumber data utama yang digunakan dalam mesin penerjemah statistik adalah korpus paralel dan korpus monolingual
+korpus paralel merupakan dua dokumen teks yang saling berhubungan dimana dokumen teks pertama berisi kumpulan kalimat sumber dan dokumen teks kedua berisi kumpulan kalimat terjemahannya, sedangkan korpus monolingual adalah kumpulan teks korpus yang hanya terdiri dari satu bahasa saja
+model mesin penerjemah statistik biasanya membutuhkan sumber data korpus paralel yang cukup besar dimana korpus tersebut berisi salinan teks bahasa sumber dan bahasa target tidak seperti data paralel, korpus monolingual yang berisi teks hanya dalam satu bahasa dapat mempermudah pembuatan korpus, karena dokumen teks monolingual tersedia secara luas sehingga tidak diperlukan usaha lebih untuk menerjemahkan teks korpus bilingual selain itu, aksesibilitas dari korpus monolingual khusus yang memiliki beberapa sub-korpus berbeda yang mengandung sejumlah besar kumpulan teks alami dalam berbagai topik dapat memperbaiki kinerja sebuah mesin penerjemah ke tingkat yang lebih tinggi
+berdasarkan uraian tersebut, maka akan dilakukan penelitian untuk mengetahui seberapa besar pengaruh kuantitas korpus monolingual terhadap akurasi hasil terjemahan pada mps bahasa inggris – bahasa indonesia
+tinjauan pustaka mesin penerjemah statistik merupakan salah satu jenis mesin penerjemah dengan menggunakan pendekatan statistik
+pendekatan statistik yang digunakan adalah konsep probabilitas
+setiap pasangan kalimat akan diberikan sebuah p yang diinterpretasikan sebagai distribusi probabilitas dimana sebuah penerjemah akan menghasilkan t dalam bahasa sasaran ketika diberikan s dalam bahasa sumber
+sedangkan decoder mencari kalimat bahasa t’ yang paling mungkin yang telah menimbulkan kalimat s
+secara umum, arsitektur mesin penerjemah statistik moses ditunjukkan pada gambar 2
+arsitektur mesin penerjemah statistiksumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus
+proses training terhadap parallel corpus menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada parallel corpus ditambah dengan monolingual corpus bahasa target menggunakan srilm menghasilkan language model, sedangkan pos model dihasilkan dari bahasa target pada parallel corpus yang setiap katanya sudah ditandai dengan pos
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+korpus korpus didefinisikan sebagai koleksi atau sekumpulan contoh teks tulis atau lisan dalam bentuk data yang dapat dibaca dengan menggunakan seperangkat mesin dan dapat diberi catatan berupa berbagai bentuk informasi linguistik
+untuk memperbaiki korpus dapat dilakukan dengan memfilter kalimat-kalimat yang berkualitas dari sebuah korpus parallel, menambah kuantitas kalimat pada korpus, atau perbaikan proses cleaning
+korpus monolingual adalah kumpulan teks korpus yang hanya terdiri dalam satu bahasa saja, biasanya disimpan dan diproses secara elektronik
+korpus monolingual merupakan salah satu komponen penting dalam sistem mesin penerjemah statistik untuk membangun language model dalam menetapkan probabilitas untuk menargetkan urutan kata
+sedangkan korpus paralel adalah dua atau lebih korpus yang sama dalam bahasa yang berbeda
+masing-masing korpus memuat teks yang telah diterjemahkan dari satu bahasa ke bahasa lain
+korpus ini dapat digunakan penerjemah untuk melihat adanya persamaan ekspresi di masing-masing bahasa atau melihat perbedaan yang ada di antara dua bahasa
+language model language model adalah sumber pengetahuan yang penting dalam mesin penerjemah statistik
+dalam language model statistik, bagian-bagian yang merupakan elemen kunci adalah probabilitas dari rangkaian-rangkaian kata yang dituliskan sebagai p atau p 
+language model menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+rangkaian- rangkaian tersebut bisa berupa frase-frase atau kalimat- kalimat dan probabilitasnya dapat diperkirakan dari korpus dokumen-dokumen yang besar
+salah satu contoh pendekatan language model adalah n-gram model
+model bahasa n-gram merupakan jenis probalilistik language model untuk memprediksi item berikutnya dalam urutan tersebut dalam bentuk 
+dalam mesin penerjemah statistik terdapat dua model penerjemahan, yaitu word-based translation model dan pharase-based translation model 
+automatic evaluation bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah mesin terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+semakin dekat terjemahan sebuah mesin dengan terjemahan manusia, maka akan semakin baik
+ide utama dibalik ini adalah 
+nilai bleu didapat dari hasil perkalian antara brevity penalty dengan rata-rata geometri dari modified precision score
+semakin tinggi nilai bleu, maka semakin akurat dengan rujukan
+nilai dari bleu berada pada rentang 0 sampai 1
+suatu terjemahan akan mencapai nilai 1 jika terjemahan tersebut identik dengan terjemahan rujukan
+sangat semakin banyak terjemahan rujukan per kalimatnya, maka akan semakin tinggi nilainya
+rumus bleu dapat dilihat pada persamaan berikut
+standar nilai n untuk bleu adalah 4
+ keterangan: bp = brevity penalty c = jumlah kata dari hasil terjemahan otomatis r = jumlah kata rujukan � = modified precission score �� = 1/n �� = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n-gram hasil terjemahan
+pengumpulan data data yang digunakan dalam penelitian ini berupa dokumen teks bahasa inggris dan bahasa indonesia yang bersumber dari situs berita dua bahasa dan sumber lainnya yang kemudian akan diolah menjadi teks korpus
+pembuatan teks korpus dokumen teks yang telah dikumpulkan selanjutnya dibuat menjadi korpus paralel dan monolingual, yang terdiri dari 6000 pasang teks korpus paralel bahasa inggris – bahasa indonesia dan 54000 kalimat korpus monolingual bahasa indonesia
+korpus tersebut kemudian disimpan dengan format .en untuk korpus bahasa inggris dan .id untuk korpus bahasa indonesia
+implementasi mesin penerjemah statistik arsitektur sistem mesin penerjemah statistik bahasa inggris ke bahasa indonesia diperlihatkan pada gambar 4
+pemodelan translasi oleh giza ++ training training tabel model bahasa evaluasi hasil terjemahan gambar 4 merupakan perancangan arsitektur sistem mesin penerjemah statistik bahasa inggris ke bahasa indonesia yang terdiri dari beberapa tahapan, yaitu tahap awal persiapan korpus paralel, pemodelan bahasa, pemodelan translasi, proses decoding, dan tahap evaluasi hasil terjemahan
+pengujian dan evaluasi hasil terjemahan pengujian dilakukan untuk mendapatkan nilai akurasi terjemahan mesin translasi antara mesin penerjemah statistik sebelum ditambah korpus monolingual dengan mesin penerjemah statistik setelah ditambah dengan korpus monolingual pengujian dan evaluasi ini akan dilakukan dengan dua cara yaitu secara manual oleh ahli bahasa inggris dan secara otomatis menggunakan bleu
+pengujian mesin penerjemah statistik tahap pertama dilakukan dengan membangun mesin penerjemah dengan menggunakan pasangan korpus paralel bahasa inggris dan bahasa indonesia dengan masing-masing jumlah korpus sebanyak 6000 kalimat yang kemudian akan diuji akurasinya dengan menggunakan bleu dan pengujian manual dengan ahli bahasa
+adapun perancangan mesin penerjemah statistik dapat dilihat pada gambar 5
+model translasi model bahasa korpus bahasa indonesia gambar 5
+penambahan korpus monolingual akan dilakukan secara bertahap dengan jumlah kelipatan korpus yang sama pada setiap mesinnya yaitu sebanyak 6000 kalimat
+setiap penambahan korpus monolingual tersebut akan dibangun mesin penerjemah baru dan akan dilakukan pengujian secara otomatis dengan menggunakan bleu
+perancangan mesin penerjemah statistik dengan menambahkan korpus monolingual dapat dilihat pada gambar 6
+model translasi model bahasa indoneisa menambahkan korpus monolingual pada bahasa target pada pengujian dengan menggunakan bleu, akan digunakan 2000 pasang korpus uji yang kemudian akan diterjemahkan secara otomatis oleh mesin translasi dan akan menghasilkan output berupa dokumen korpus dalam bahasa target pengujian manual akan dilakukan oleh ahli bahasa inggris dengan menggunakan 100 kalimat sampel bahasa inggris dari 2000 korpus uji otomatis dengan bleu sebagai bahasa sumber dan bahasa indonesia sebagai bahasa target perancangan proses penilaian secara manual dapat di lihat pada gambar 7
+implementasi mesin penerjemah statistik bahasa inggris – bahasa indonesia tahapan implementasi mesin penerjemah statistik bahasa inggris - bahasa indonesia terlebih dahulu korpus teks paralel yang telah dibuat dilakukan proses cleaning, tokenizing, dan lowercase
+proses cleaning adalah proses pencarian dan perbaikan kata atau kalimat yang salah ataupun tidak sesuai
+proses cleaning yang disediakan oleh mosesdecoder hanya menghapus kalimat yang terlalu panjang, serta yang kalimat kosong
+fungsi dari proses cleaning adalah untuk menyaring data, seperti menghilangkan kata yang terlalu panjang sesuai batas yang ditentukan, menghilangkan spasi ganda, dan menghapus tanda baca titik di akhir kalimat
+sedangkan proses tokenisasi berfungsi untuk memotong string input berdasarkan tiap kata yang menyusunnyadan menyisipkan spasi antara kata dan tanda baca
+sedangkan lowercase merupakan proses untuk mengubah huruf kapital yang terdapat di dalam korpus menjadi huruf kecil 
+implementasi srilm untuk pemodelan bahasa pemodelan bahasa dilakukan untuk mendapatkan model bahasa dari bahasa target yaitu bahasa indonesia
+model bahasa digunakan sebagai sumber pengetahuan berbasis teks dengan nilai-nilai probabilistik
+model bahasa yang digunakan dalam penelitian ini yaitu n-gram data
+model bahasa dibangun dengan tools srilm dan menghasilkan output dengan format file *.lm
+tabel model bahasa yang dihasilkan oleh srilm dapat dilihat pada gambar 8
+tabel model bahasa dengan bahasa indonesia sebagai bahasa target c
+implementasi giza++ untuk pemodelan translasi pemodelan translasi digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan tabel model translasi
+dokumen vocabulary corpus bahasa inggris gambar 10
+dokumen vocabulary corpus bahasa indonesia angka 1 sampai 10 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+pada proses word alignment akan dihasilkan dokumen korpus alignment yaitu kalimat bahasa target dipetakan pada kalimat bahasa sumber
+dokumen alignment yang dihasilkan dapat dilihat pada gambar 11
+dokumen alignment bahasa inggris-bahasa indonesia pada dokumen hasil alignment bahasa inggris sebagai bahasa sumber dan bahasa indonesia sebagai bahasa target menghasilkan tiap pasangan kalimat yang disimpan dalam tiga baris
+baris pertama pada gambar 11 berisi posisi kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target, dan skor alignment 
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap kalimat bahasa sumber
+proses pemodelan translasi oleh giza++ akan menghasilkan tabel model translasi yang terdiri dari tabel kata yang berisi sekumpulan kata-kata yang telah dipadankan antara bahasa sumber dengan bahasa target yang memiliki nilai probabilitas
+tabel model translasi frasa yang dihasilkan dapat dilihat pada gambar 12
+decoding proses decoding digunakan untuk menemukan teks dalam bahasa target yang memiliki probabilitas paling besar dengan pertimbangan faktor translation model dan language model
+tools yang digunakan untuk proses decoding adalah moses
+decoder moses akan menerjemahkan kalimat masukan berupa kalimat sumber 
+selanjutnya kalimat masukan tersebut akan diproses oleh decoder moses dan akan menghasilkan kalimat keluaran berupa kalimat hasil terjemahan ke dalam bahasa target 
+pengujian hasil terjemahan secara otomatis pengujian hasil terjemahan otomatis pertama dilakukan dengan membangun mesin penerjemah dengan menggunakan pasangan korpus paralel bahasa inggris dan bahasa indonesia dengan masing-masing jumlah korpus sebanyak 6000 kalimat yang kemudian akan diuji akurasinya dengan menggunakan bleu
+korpus uji yang digunakan pada tahap ini berjumlah 2000 kalimat
+tabel i hasil pengujian penerjemahan terhadap kuantitas korpus monolingual grafik hasil pengujian terjemahan terhadap kuantitas korpus monolingual terdapat pada gambar 13
+selanjutnya dibangun mesin penerjemah baru dengan sumber data berupa korpus paralel dan translation model yang diambil dari mesin pertama sebagai baseline dan kemudian ditambah dengan korpus monolingual bahasa target yaitu bahasa indonesia
+penambahan korpus monolingual akan dilakukan secara bertahap dengan jumlah kelipatan korpus yang sama pada setiap mesinnya yaitu berjumlah 6000 kalimat
+setiap mesin menghasilkan nilai bleu yang berbeda
+secara umum hasil pengujian terjemahan terhadap kuantitas korpus monolingual diperlihatkan pada tabel 1
+grafik hasil pengujian terjemahan terhadap kuantitas korpus monolingual �����������= ����� ���� ������ − ����� ���� �������� mesin peningkatan 2 4, 1 3 2, 45 4 1, 07 5 0, 38 6 0, 92 7 0, 34 8 0, 28 9 0, 19 10 0, 10 rata-rata 1, 10 berdasarkan hasil perhitungan pada tabel 2, terjadi perubahan nilai akurasi terjemahan pada mesin penerjemah statistik dengan rata-rata peningkatan sebesar 1, 10% terhadap penambahan korpus monolingual sebanyak 6000 kalimat
+peningkatan nilai akurasi dari mesin 1 ke mesin 10 dapat dilihat pada perhitungan berikut ini
+pengujian hasil terjemahan secara manual pengujian manual dilakukan pada hasil terjemahan dari dua mesin penerjemah statistik yang berbeda yaitu mesin pertama dengan jumlah korpus paralel sebanyak 6000 pasang kalimat dan mesin terakhir yang dibangun dengan sumber data berupa korpus paralel dan translation model yang diambil dari mesin pertama sebagai baseline dan kemudian ditambah dengan korpus monolingual bahasa target sebanyak 54000 kalimat
+penilaian oleh ahli bahasa dilakukan dengan metode skoring dimana pembobotan ini diberikan pada setiap kalimat uji dengan menggunakan sampel kalimat dari korpus uji dengan jumlah 100 kalimat bahasa inggris sebagai kalimat bahasa sumber dan bahasa indonesia sebagai kalimat bahasa target berikut merupakan skor pembobotan untuk setiap kalimat uji: 5 = sangat baik 4 = baik 3 = cukup baik 2 = kurang baik 1 = tidak baik tabel 3 hasil penilaian manual oleh ahli bahasa mesin bobot jumlah kalimat 1 2 3 4 5 6000 0 45 34 19 2 100 60000 0 33 35 25 7 100 berdasarkan hasil penilaian yang diberikan sesuai dengan pengetahuan dan pemahaman ahli bahasa, maka dilakukan perhitungan akurasi manual dengan persamaan berikut: � =̅ ∑ ������ dengan: � ̅ = nilai rata-rata akurasi terjemahan ∑ � = total skor dari bobot penilaian � = banyaknya data secara umum, hasil perhitungan penilaian manual terjemahan bahasa inggris ke bahasa indonesia berdasarkan persamaan 5 dapat dilihat pada tabel 4
+tabel 4 hasil perhitungan pengujian manual oleh ahli bahasa pengujian secara manual 60000 306, 100 3, 06 dari tabel di atas diperoleh nilai akurasi hasil pengujian manual mesin penerjemah statistik bahasa inggris ke bahasa indonesia, yaitu 2, 78 untuk mesin penerjemah statistik pertama dengan jumlah korpus paralel 6000 pasang kalimat dan 3, 06 untuk mesin penerjemah statistik dengan jumlah korpus paralel dan monolingual sebanyak 60000 kalimat
+berikut merupakan perhitungan untuk perbandingan hasil pengujian manual oleh ahli bahasa dari mesin penerjemah statistik 1 dengan jumlah korpus paralel 6000 dan mesin penerjemah statistik 10 dengan jumlah korpus paralel dan monolingual sebanyak 60000
+penambahan korpus monolingual secara bertahap dengan kelipatan 6000 kalimat pada tiap mesin dapat mempengaruhi nilai akurasi terjemahan dimana diperoleh peningkatan rata-rata sebesar 1, 10% untuk setiap mesin, sedangkan untuk mesin 1 dan 10 terjadi peningkatan sebesar 10, 13% pada pengujian otomatis dengan bleu
+pada pengujian manual yang dilakukan oleh ahli bahasa, diperoleh nilai akurasi sebesar 2, 78 untuk mesin 1 dan 3, 06 untuk mesin 10 
+dengan demikian, terjadi peningkatan akurasi terjemahan sebesar 10, 07%
+perkiraan jumlah korpus monolingual pada mesin penerjemah statistik bahasa inggris ke bahasa indonesia dapat dihitung berdasarkan fungsi logaritma dimana nilai tersebut diperoleh dari dari grafik hasil uji akurasi mesin penerjemah statistik terhadap kuantitas korpus monolingual tabel 5 perkiraan jumlah korpus monolingual pada mesin penerjemah statistik bahasa inggris ke bahasa indonesia y berdasarkan hasil analisis dan pengujian, maka kesimpulan yang dapat diambil adalah sebagai berikut
+proses penambahan kuantitas korpus monolingual bahasa target dapat meningkatkan nilai akurasi terjemahan sebesar 10, 13% pada pengujian otomatis oleh bleu
+sedangkan pada pengujian manual oleh ahli bahasa diperoleh peningkatan sebesar 10, 07%
+penggunaan korpus monolingual dapat mempermudah penyediaan sumber data pada mesin penerjemah statistik namun karena peningkatan akurasinya yang terbilang cukup kecil maka dibutuhkan jumlah korpus yang besar sehingga penambahan korpus monolingual ini kurang efisien untuk meningkatkan akurasi terjemahan di atas 30%

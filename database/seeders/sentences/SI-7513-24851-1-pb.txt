@@ -1,0 +1,84 @@
+the data encoding of meteorology observation that is still done manually by the observer often create the wrong result of the code
+on the other hand, the unstructurized database makes the presentation of data quickly and accurately be constrained
+therefore the aplication that able to manage the data of observation structurally and show it into information that is easy to understand is needed
+test results have shown that the application is capable to encode the weather data automatically and generate output like monthly reports and other reports as required of stasiun meteorologi maritim pontianak
+it can be concluded that the system had been running according to the purpose of fieldwork
+keywords: data encoding, weather, observation, stasiun meteorologi maritim pontianak 1
+pendahuluan stamar pontianak merupakan unit kerja yang berfungsi memberikan pelayanan berupa informasi cuaca kelautan
+sebagai stasiun observasi, stamar pontianak melakukan kegiatan pengamatan cuaca yang dilakukan oleh seorang observer 
+pengamatan ini dilakukan tiap 1 jam sekali dari 12 jam operasional stamar pontianak
+beberapa unsur yang diamati antara lain suhu, tekanan udara, arah dan kecepatan angin, jenis dan ketinggian awan dan jumlah curah hujan
+pada awal masa operasioanal stamar pontianak yaitu pada tahun 2006, data hasil pengamatan hanya disalin dan disandi ke dalam buku sinop me 48 dan me 45 saja
+konversi data hasil pengamatan kedalam bentuk angka
+namun sejak tahun 2008 stasiun meteorologi maritim tidak hanya melakukan penyalinan dan penyandian ke dalam buku sinop me 48 dan me 45 saja, tetapi juga meng-input-kan data tersebut ke dalam aplikasi microsoft excel sebagai alternatif lain penyimpanan data pengamatan atau sebagai softcopy
+aplikasi microsoft excel yang memuat data pengamatan berisi beberapa perhitungan yang biasanya dilakukan secara manual oleh seorang observer sudah dapat dilakukan secara otomatis dengan bantuan formula yang ada di aplikasi microsoft excel, penggunaan microsoft excel masih memiliki beberapa kelemahan
+penyandian data hasil pengamatan belum bisa dilakukan secara otomatis dengan aplikasi microsoft excel, tetapi masih dilakukan secara manual oleh observer dengan bantuan beberapa tabel bantu sandi
+selain memakan waktu yang cukup lama, terkadang juga mengakibatkan terjadinya kesalahan penyandian yang diakibatkan human error
+sedangkan hasil penyandian data tersebut harus dikirim ke server bmkg pusat melalui cmss tiap 3 jam sekali sebagai salah satu data rujukan untuk membuat prakiraan cuaca
+permasalahan yang terjadi di stamar pontianak tidak hanya sebatas masalah penyandian saja, tetapi juga meliputi ketersediaan dan penyajian data yang cepat dan tepat
+seringkali permasalahan penyajian data secara cepat menjadi kendala dalam pelayanan kepada para pengguna jasa
+aplikasi microsoft excel yang digunakan saat ini belum bisa digunakan sebagai suatu basis data yang baik
+hal ini dikarenakan data cuaca masih tersebar pada dokumen yang disimpan perbulan pada satu komputer
+tidak tersedianya basis data yang terstruktur pada stamar pontianak sering sekali mengakibatkan lambannya penyajian data cuaca baik dalam pembuatan laporan bulanan, maupun pada saat melayani permintaan data dari pengguna jasa
+permasalahan akan semakin besar ketika ada dua atau lebih pengguna jasa yang meminta data yang berbeda dan dalam jangka waktu yang panjang, sedangkan data tersebut berada dalam dokumen yang terpisah perbulan dan tersimpan pada satu komputer
+untuk mengatasai permasalahan- permasalahan yang terjadi di stamar pontianak, maka perlu dilakukan pengembangan dari aplikasi microsoft excel yang sudah ada menjadi suatu aplikasi pengolahan data yang terintegrasi yang tidak hanya berfungsi sebagai softcopy dan untuk melakukan perhitungan data hasil pengamatan saja, namun juga mampu melakukan penyandian secara otomatis dan memanajemen basis data menjadi informasi yang mudah dimengerti masyarakat sehingga permasalahan-permasalahan yang sering terjadi di stamar pontianak bisa segera diatasi
+landasan teori 2.1 cuaca cuaca adalah keadaan udara pada saat tertentu dan di wilayah tertentu yang relatif sempit dan pada jangka waktu yang singkat
+cuaca terbentuk dari gabungan unsur cuaca dan jangka waktu cuaca bisa hanya beberapa jam saja
+iklim adalah keadaan cuaca rata- rata dalam waktu satu tahun yang penyelidikannya dilakukan dalam waktu yang lama dan meliputi wilayah yang luas 
+pada umumnya ada unsur-unsur yang mempengaruhi keadaan cuaca dan iklim suatu daerah atau wilayah
+unsur cuaca tersebut yaitu: suhu udara, angin, tekanan udara, kelembaban udara, awan, curah hujan, dan visibility/jarak pandang
+2.2 meteorologi meteorologi, yang merupakan salah satu ilmu pengetahuan alam adalah ilmu yang mempelajari atmosfer, khususnya bagian bawah, dimana gejala cuaca dan iklim terjadi 
+stasiun meteorologi adalah tempat kedudukan dimana alat-alat meteorologi dipasang, sekaligus pengamatan dan pelaporan unsur-unsur meteorologi 
+pengamatan meteorologi adalah kegiatan penilaian satu jenis atau beberapa unsur meteorologi yang menggambarkan keadaan udara baik di permukaan maupun di udara atas
+pengamatan meteorologi meliputi pengamatan suhu udara, kelembaban udara, awan, arah dan kecepatan angin, keadaan cuaca, penglihatan mendatar, tekanan udara, suhu muka laut dan pasang surut
+pengamatan meteorologi permukaan dilaksanakan setiap jam selama 24 jam sehari bagi stasiun meteorologi basic, sedangkan pada stasiun meteorologi non basic ditetapkan dengan peraturan tersendiri 
+pengamatan meteorologi permukaan yang dilaksanakan secara serempak di seluruh dunia pada jam yang yang sudah ditetapkan secara konvensional berdasarkan standar waktu internasional dinamakan pengamatan sinoptik
+data hasil pengamatan sinoptik yang dilakukan oleh stasiun meteorologi di berbagai daerah selanjutnya dilaporkan ke kantor pusat pada jam-jam utama: 00.00, 06.00, 12.00, 18.00 dan jam antara: 03.00, 09.00, 15.00, 21.00 dalam bentuk kode-kode angka 
+2.3 tata cara penyandian meteorologi pengisian buku sinop tiap-tiap jam dan buku sandi sinop tiap-tiap jam wajib dilaksanakan pada setiap jam pengamatan, mulai dari perolehan data dasar/mentah hingga penyandian
+tabel pengenal data angin tabel pengenal data angin merupakan tabel yang berisi sandi alat yang digunakan dalam menentukan arah dan kecepatan angin
+tabel 1 - pengenal data angin angka sandi keterangan 0 kecepatan angin diperkirakan 1 kecepatan angin dibaca dari anemometer 3 kecepatan angin diperkirakan 4 kecepatan angin dibaca dari anemometer 2
+tabel data cuaca tabel ix merupakan tabel pengenal macam operasi stasiun dan data cuaca pada waktu pengamatan cuaca yang lalu 
+tabel 2 - pengenal operasi stasiun dan data cuaca angka sandi keterangan 1 pengamatan oleh observer dan 7www1w2 dilaporkan dalam berita synop 2 pengamatan oleh observer dan 7www1w2 tidak dilaporkan karena data cuaca tidak bermakna 3 pengamatan oleh observer dan 7www1w2 tidak dilaporkan karena sesuatu hal data cuaca tidak diamati/data tidak ada 4 stasiun otomatik dan 7www1w2 diaporkan dalam berita synop 5 stasiun otomatik dan 7www1w2 tidak dilaporkan karena data cuaca tidak bermakna 6 stasiun otomatik dan 7www1w2 tidak dilaporkan karena tidak diamati / dan tidak ada
+tabel pengenal data hujan tabel ir merupakan tabel sandi pengenal data hujan yang menjelaskan pelaporan hujan pada buku me.48 tabel 3 - pengenal data hujan angka sandi keterangan 0 kelompok 6rrrtr dilaporkan dalam seksi 1 dan seksi 3 1 kelompok 6rrrtr dilaporkan dalam seksi 1 2 kelompok 6rrrtr dilaporkan dalam seksi 3 3 kelompok 6rrrtr tidak dilaporkan dalam seksi 1 maupun 3 karena curah hujan = 0 4 kelompok 6rrrtr tidak dilaporkan dalam seksi 1 maupun seksi 3 karena sesuatu hal tidak ada pengukuran curah hujan/data curah hujan tidak ada 4
+tabel jenis awan tabel jenis awan merupakan tabel yang menjelaskan angka sandi yang digunakan untuk setiap jenis awan
+tabel 4 - jenis awan angka sandi keterangan angka sandi keterangan 2 cirrostratus 3 altocumulus 4 altostratus 5 nimbostratus 6 stratocumulus 7 stratus 8 cumulus 9 cumulunimbus / awan tidak dapat dilihat karena kegelapan, kabut, badai debu atau lainnya 3
+studi kasus : stasiun meteorologi maritim pontianak
+hasil perancangan aplikasi yang dirancang merupakan aplikasi pengolahan data cuaca yang bertujuan untuk mengelola data secara terstruktur sehingga dapat membantu stamar pontianak dalam mengelola data hasil pengamatan serta menyajikannya kembali dalam bentuk informasi yang mudah dimengerti
+aplikasi yang dirancang dapat diakses oleh dua pengguna yaitu administrator dan observer
+untuk dapat mengakses aplikasi, observer harus mendapatkan izin masuk berupa nama pengguna dan sandi yang diberikan oleh administror
+3.1 antarmuka halaman utama antarmuka halaman utama dibedakan menjadi 2 kelompok, yaitu halaman administrator dan observer
+setiap halaman memiliki menu yang berbeda dan terdapat sub menu yang berbeda pula
+gambar 1 antarmuka halaman utama observer 3.2 antarmuka halaman konfigurasi antarmuka halaman konfigurasi merupakan halaman khusus administrator yang tidak bisa diakses oleh observer
+halaman ini terdiri dari 2 tab, yaitu tab data dan tab list
+tab data berfungi sebagai form tambah data, sedangkan tab list berfungsi untuk menampilkan data yang sudah ditambahkan
+gambar 2 antarmuka halaman konfigurasi observer 3.3 antarmuka halaman input me48 halaman input me48 merupakan halaman khusus bagi observer untuk menambahkan data hasil pengamatan unsur cuaca per jam
+antarmuka halaman input me48 terdiri dari 2 tab, yaitu tab data dan tab list
+pada halaman ini data tidak hanya disimpan ke dalam basisdata, tetapi sebelum disimpan data harus diubah kedalam bentuk sandi yang nantinya akan dikirim ke server bmkg pusat setiap 3 jam sekali
+gambar 3 antarmuka halaman input me48 3.4 antarmuka halaman input pias barograph gambar 4 halaman input pias barograph pada halaman input pias barograph, observer bisa menambahkan data harian tekanan udara yang tercatat pada pias barograph
+pada saat menambahkan data pasang surut observer terlebih dahulu memilih tanggal data pias yang akan ditambahkan
+pada saat data pias barograph disimpan, maka sistem secara otomatis menyimpan atribut idsta kedalam tabel sesuai session dari observer yang sedang login
+observer tidak diperkenankan menambahkan data pias barograph yang idsta, tanggal dan jam pengamatannya sama
+apabila observer menambahkan data yang sama maka akan muncul pesan kesalahan
+3.5 antarmuka halaman cetak laporan me48 halaman cetak laporan me.48 berfungsi untuk menampilkan data hasil pengamatan sesuai dengan format me.48
+data yang ditampilkan merupakan data harian yang dipilih oleh observer pada halaman laporan me.48
+observer bisa mencetak laporan dengan menu print yang ada pada browser
+gambar 5 halaman cetak laporan me.48 3.6 antarmuka halaman cetak laporan me.45 gambar 6 halaman cetak laporan me.45 halaman cetak laporan me.45 berfungsi untuk menampilkan data hasil pengamatan dalam bentuk sandi sesuai dengan format me.45
+data yang ditampilkan merupakan data harian yang dipilih oleh observer pada halaman laporan me.45
+3.7 antarmuka halaman kirim halaman kirim merupakan halaman khusus bagi observer untuk melakukan pengiriman sandi hasil pengolahan data pengamatan ke server bmkg pusat
+menu kirim terdiri dari 2 sub menu, yaitu kirim sandi synop dan kirim wxrev
+halaman kirim sandi synop merupakan halaman pengiriman sandi hasil pengolahan data pengamatan yang sebelumnya telah ditambahkan pada halaman input me.48
+halaman kirim wxrev merupakan halaman pengiriman sandi wxrev harian yang juga merupakan hasil pengolahan data pengamatan cuaca yang telah ditambahkan pada halaman input me.48
+halaman kirim sandi synop berfungsi untuk memilih tanggal dan jam data synop yang akan dikirim sesuai standar waktu u.t.c
+setelah tanggal dan jam dipilih dan tombol pratinjau ditekan, maka aplikasi akan membuka tab baru pada browser yang berisi sandi sesuai format pengiriman sandi synop yang sudah siap dikirim
+setelah data dikirim maka data akan masuk ke server bmkg pusat
+gambar 7 halaman kirim sandi synop halaman kirim wxrev berfungsi untuk memilih tanggal data wxrev yang akan dikirim sesuai standar waktu u.t.c
+berbeda dengan pengiriman sandi synop, pengiriman wxrev hanya dilakukan 1 kali sehari
+oleh karena itu jam yang dipilih pada halaman ini bukan jam pengamatan, melainkan jam pengiriman data
+setelah tanggal dan jam dipilih dan tombol pratinjau ditekan, maka aplikasi akan membuka tab baru pada browser yang berisi sandi sesuai format pengiriman wxrev yang sudah siap dikirim
+setelah data dikirim maka data akan masuk ke server bmkg pusat
+kesimpulan dan saran setelah dilakukan analisis dan pengujian terhadap aplikasi pengolahan data cuaca pada stasiun meteorologi maritim pontianak, dapat disimpulkan bahwa: 1
+aplikasi basis data cuaca yang dirancang sudah dapat melakukan penyandian synop dan wxrev secara otomatis, sehingga human error dalam proses penyandian dan pengiriman data tidak akan terjadi lagi
+proses pembuatan laporan bulanan dan penyajian data menjadi lebih mudah, cepat dan tepat karena proses pembuatan dan perhitungan pada laporan bulanan sudah tersedia dalam aplikasi basis data cuaca
+adapun beberapa hal yang dapat dilakukan untuk pengembangan sistem adalah sebagai berikut: 1
+sistem yang dirancang kedepannya dapat dihubungkan dengan automatic weather station sehingga lebih memudahkan observer dalam melalukan proses pengamatan atau pengumpulan data
+sistem dapat dikembangkan dengan menggabungkan beberapa sistem yang telah ada di stasiun meteorologi maritim pontianak sehingga memudahkan dalam penyebaran informasi ke masyarakat

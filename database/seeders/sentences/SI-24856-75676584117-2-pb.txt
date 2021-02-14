@@ -1,0 +1,35 @@
+ubmitted 05-04-2018; revised 28-05-2018; accepted 04-07-2018 111 rancang bangun sistem informasi konferensi nasional aptikom provinsi kalimantan barat berbasis web leonardus fernando#1, novi safriadi#2, rudy dwi nyoto#3 #program studi informatika universitas tanjungpura jl
+hadari nawawi, bansir laut, pontianak tenggara, kota pontianak, kalimantan barat 78115 1 leociffer@gmail.com 2 safriadi@informatics.untan.ac.id 3 rudydn@informatika.untan.ac.id komputer provinsi kalimantan barat adalah asosiasi yang didirikan oleh dan beranggotakan seluruh program studi informatika dan komputer di wilayah provinsi kalimantan barat
+aptikom kalbar merupakan salah satu organisasi yang mengadakan konferensi nasional setiap tahunnya
+konferensi merupakan ajang pertemuan dan berbagi antara pemakalah yang mengirimkan makalah
+ragamnya peserta atau pemakalah yang mengikuti konferensi nasional menyebabkan diperlukannya suatu media atau sistem yang mengelola proses pendaftaran hingga pembayaran dalam konferensi
+tujuan dari penelitian ini adalah untuk menghasilkan sebuah sistem yang mampu mengatasi semua proses mulai dari pendaftaran peserta, unggah makalah, penilaian makalah sampai pembayaran
+sistem informasi konferensi dirancang untuk digunakan oleh beberapa pengguna, seperti peserta, reviewer, dan admin
+pengujian sistem dilakukan dengan pengujian black box
+jenis dari pengujian black box yang digunakan dalam pengujian sistem ini adalah robustness testing
+hasil pengujian black box robustness telah berjalan dengan fungsinya sesuai kebutuhan fungsional yang telah didefinisikan
+hasil akhir pada penelitian ini menghasilkan sebuah sistem informasi yang mampu mengatasi masalah pengelolaan konferensi
+demikian sistem informasi konferensi nasional aptikom kalbar berbasis web layak untuk diimplementasikan
+pendahuluan asosiasi yang didirikan oleh dan beranggotakan seluruh program studi informatika dan komputer di wilayah provinsi kalimantan barat
+aptikom sebagai sebuah asosiasi yang merupakan kerjasama antara perguruan tinggi di bidang it diharapkan dapat menjadi wadah untuk dapat meningkatkan kerjasama baik antar perguruan tinggi, maupun antar perguruan tinggi dengan pemerintah dan pelaku usaha
+seminar dan konferensi merupakan salah satu kegiatan yang sering dilakukan oleh suatu institut atau lembaga pendidikan
+pertemuan atau persidangan dalam seminar biasanya menampilkan satu atau beberapa pembicaraan dengan makalah atau kertas kerja masing-masing
+seminar biasanya diadakan untuk membahas suatu masalah secara ilmiah, yang berpartisipasi pun orang yang ahli dalam bidangnya
+aptikom provinsi kalimantan barat ialah melaksanakan konferensi nasional di bidang informatika dan komputer
+konferensi ini akan diikuti oleh dosen maupun mahasiswa dari berbagai perguruan tinggi di indonesia
+dalam kegiatan ini pihak peserta konferensi perlu mendaftarkan diri kepada penyelenggara konferensi, yang dapat dilakukan melalui email, maupun aplikasi sistem informasi
+calon peserta terdiri dari peserta pemakalah dan peserta non pemakalah
+bagi peserta pemakalah wajib mengirimkan makalah yang akan diikutsertakan pada konferensi tersebut
+selain itu, mekanisme selanjutnya setelah pendaftaran adalah peserta melakukan pembayaran biaya pendaftaran
+pendaftaran dan pembayaran ini kemudian dikonfirmasi oleh pihak penyelenggara
+jika komunikasi terkait pengiriman atau submit paper dan proses lainnya dilakukan melalui email maka hal ini dirasakan kurang efisien karena akan terjadi penumpukan pada email
+terkait dengan hal itu, maka diperlukan sistem yang dapat mengakomodir registrasi peserta, seperti pendaftaran calon peserta, unggah makalah, konfirmasi pembayaran dan kehadiran bagi peserta, menerima dan review makalah oleh reviewer, unggah hasil review, serta penetapan peserta konferensi
+seminar berarti pertemuan atau persidangan untuk membahas suatu masalah di bawah pimpinan ahli 
+sistem informasi semuanya bekerja menuju suatu tujuan
+sistem terdiri dari tiga elemen utama yaitu input, pengolahan data dan output
+sistem juga dapat dibagi menjadi beberapa sistem ataupun sub sistem, yang masing-masing bagian mempunyai bagian umum seperti perangkat lunak, perangkat keras, manusia, basis data, prosedur dan dokumentasi
+data dalam suatu bentuk yang lebih berguna dan lebih berarti bagi penerimanya yang menggambarkan suatu kejadian- kejadian yang nyata yang digunakan untuk pengambilan keputusan
+sama untuk mengolah data dan prosedur informasi
+komponen sistem informasi terdiri dari unsur-unsur seperti masukan, pengolahan, keluaran serta umpan balik 
+asosiasi pendidikan tinggi informatika dan komputer asosiasi pendidikan tinggi informatika dan komputer provinsi kalimantan barat adalah asosiasi yang didirikan oleh dan beranggotakan seluruh program studi informatika dan komputer di wilayah provinsi kalimantan barat
+aptikom sebagai sebuah asosiasi yang merupakan kerjasama antara perguruan tinggi di bidang it diharapkan dapat menjadi wadah untuk dapat meningkatkan kerjasama baik antar perguruan tinggi, maupun antar perguruan tinggi dengan pemerintah dan pelaku usaha

@@ -1,0 +1,11 @@
+proses pembelajaran yang berlangsung di man 1 kubu raya memiliki beberapa kendala yaitu adanya keterbatasan waktu dalam penyampaian materi, evaluasi, dan pemahaman siswa yang berpengaruh terhadap hasil belajar siswa
+learning management system sebagai alternatif media pembelajaran untuk keperluan administrasi, dokumentasi, pencarian materi, laporan sebuah kegiatan, pemberian materi-materi pelatihan kegiatan belajar mengajar secara online yang terhubung ke internet lms berfungsi mengelola desain pembelajaran yakni membuat materi pembelajaran online berbasis web dan mengelola kegiatan pembelajaran serta hasil-hasilnya
+tujuan penelitian ini adalah untuk menghasilkan aplikasi learning management system pada jenjang madrasah aliyah serta mengetahui peningkatan hasil belajar siswa menggunakan media pembelajaran yang telah dikembangkan
+metode pengembangan sistem menggunakan konsep model sdlc air terjun, konsep tersebut digunakan untuk perancangan sistem
+penelitian ini menggunakan pengujian user acceptance test dan pre test – post test
+pengujian uat dilakukan oleh ahli materi, pengajar, dan siswa untuk mengetahui kelayakan media pembelajaran yang telah dikembangkan
+sedangkan pre test – post test dilakukan menggunakan dua kelas untuk mengetahui adanya peningkatan hasil belajar siswa
+hasil penelitian menunjukkan bahwa media pembelajaran yang dikembangkan dinyatakan sangat layak berdasarkan hasil pengujian uat oleh ahli materi dengan skor 91.42%, pengajar dengan skor 84.95%, dan siswa dengan skor 84.29%
+hasil analisis data pre test – post test menggunakan skor n-gain terjadi peningkatan belajar siswa yang menggunakan media pembelajaran lms yakni persentase peningkatan nilai sebesar 40.79% dengan kriteria sedang dimana skor g ≥ 0.3, sedangkan siswa yang menggunakan media pembelajaran tradisional yakni 15.93% dengan kriteria rendah dimana skor g ˂ 0.3
+pendahuluan interaksi antara guru dengan peserta didik dan timbal balik yang berlangsung dalam situasi edukatif untuk mencapai tujuan belajar
+proses pembelajaran dalam sistem pendidikan merupakan suatu sistem yang utuh dan tidak terpisahkan dengan komponen pembelajaran yaitu input dan dengan bantuan instrumental input, output dan outcome

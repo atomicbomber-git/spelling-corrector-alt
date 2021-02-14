@@ -1,0 +1,61 @@
+mesin pencarian yang telah tersedia, misalnya google, yahoo, bing, duckduckgo dan lain sebagainya
+untuk memudahkan pengambilan informasi yang tersebar dan selalu berubah-ubah di internet dalam jumlah besar diperlukan sebuah web crawler
+fungsi utama web crawler adalah melakukan penjelajahan dan pengambilan halaman-halaman web yang ada di internet tujuan penelitian ini adalah menghasilkan aplikasi web crawler untuk menghasilkan dokumen teks pada domain tertentu dalam bidang teknik informatika atau komputer dan sejenisnya
+pengujian dilakukan dengan metode black box dengan teknik robustness testing, pengujian precision and recall serta pengujian f-measure
+berdasarkan hasil pengujian, didapatkan nilai recall sebesar 0, 99 dan precision sebesar 0, 61 serta f-measure sebesar 0, 74
+pengguna internet di seluruh dunia mempublikasikan sumber daya yang mereka miliki di internet sehingga memudahkan persebaran dan akses informasi dari mana saja
+untuk mendapatkan dan menyaring informasi yang dibutuhkan, pengguna internet dapat menggunakan mesin pencarian yang telah tersedia, misalnya google, yahoo, bing, duckduckgo dan lain sebagainya
+dan selalu berubah-ubah di internet dalam jumlah besar diperlukan sebuah web crawler
+web crawler atau dengan kata lain web spider ataupun web robot merupakan salah satu komponen penting dalam sebuah mesin pencari modern
+fungsi utama web crawler adalah melakukan penjelajahan dan pengambilan halaman-halaman web yang ada di internet hasil pengumpulan situs web selanjutnya akan di indeks oleh mesin pencari sehingga mempermudah pencarian informasi di internet
+kesulitan merancang sebuah web crawler dibagi menjadi dua, yaitu kesulitan secara internal dan kesulitan secara eksternal secara internal, crawler harus dapat mengatasi besarnya volume data
+sedangkan secara eksternal, crawler harus mengatasi besar dan cepatnya perubahan situs web dan link jaringan yang ada
+data - data yang disimpan merupakan metadata yang ada pada web tersebut, misalnya header, content, footer, dan sebagainya
+dalam implementasi selanjutnya diharapkan data- data yang sudah tersimpan tersebut dapat diakses secara offline untuk berbagai keperluan, salah satunya dapat digunakan sebagai repositori dokumen pembanding pada aplikasi pendeteksian plagiarisme tugas kuliah mahasiswa
+web crawler web dengan cara yang metodis, otomatis dan teratur
+istilah lain untuk web crawler adalah ant, automatic indexer, bots, web spiders atau web robots
+web crawler adalah salah satu jenis bot atau agen perangkat lunak
+secara umum, proses crawling dimulai dengan list url yang akan dikunjungi, disebut seeds
+kemudian web crawler akan mengunjungi url tersebut satu per satu
+setiap page url yang dikunjungi akan diidentifikasi apakah ada hyperlink di dalamnya
+jika ada maka akan ditambahkan ke dalam list url yang akan dikunjungi
+url yang didapat dari crawl frontier ajab dikunjungi secara rekursif dengan beberapa kebijakan tertentu
+uniform resource locator world wide web
+di internet url menggabungkan informasi mengenai jenis protokol yang digunakan, alamat situs dimana resource ditempatkan, lokasi sub directory dan nama file yang digunakan
+agustino halim#1, rudy dwi nyoto#2, novi safriadi#3 #program studi perancangan aplikasi web crawler untuk menghasilkan dokumen teks pada domain tertentu jl
+http: tipe internet protokol yang digunakan untuk menyimpan dan mengirim informasi
+www.microsoft.com: nama domain situs dimana resources disimpan
+di komputer yang jauh 
+url menyediakan sebuah daftar metode yang konsisten dan mudah dimengerti dari berbagai macam situs internet, terutama pada situs world wide web
+desain arsitektur sistem aplikasi web crawler yang dibangun memanfaatkan sitemap untuk mengambil link – link yang ada pada website yang akan dicrawling
+fungsi utama aplikasi ini adalah melakukan pengambilan metadata yang ada pada link dengan masukan berupa sitemap website tersebut
+hasil crawling yang diharapkan berupa dokumen berbentuk plaintext sehingga dapat disimpan pada database untuk digunakan pada repositori dokumen atau pada aplikasi plagiarisme
+secara garis besar, sistem terdiri dari lima komponen utama, yaitu terdiri dari pengguna, pc, internet, website dan crawler
+flowchart crawling metode recall, precision dan f-measure
+pengujian recall dan precision merupakan pengujian untuk mendapatkan informasi hasil pencarian yang didapatkan oleh sistem temu kembali informasi 
+hasil pencarian stki bisa dinilai tingkat recall dan precision nya
+precision dapat dianggap sebagai ukuran ketepatan atau ketelitian, sedangkan recall adalah kesempurnaan
+rumus recall dapat dilihat sebagai berikut
+𝑅 = jumlah dokumen relevan yang terpanggil jumlah dokumen relevan yang ada di dalam database dengan r adalah recall, maka nilai r didapatkan dengan membandingkan jumlah dokumen relevan yang terpanggil dengan jumlah dokumen relevan yang ada di dalam database
+rumus precision dapat dilihat sebagai berikut
+𝑃 = jumlah dokumen relevan yang terpanggil jumlah dokumen yang terpanggil dalam pencarian dengan p adalah precision
+maka nilai p didapatkan dengan membandingkan jumlah dokumen relevan yang terpanggil dengan jumlah dokumen yang terpanggil dalam pencarian
+rumus f-measure dapat dilihat sebagai berikut
+precison + recall didapatkan dengan membandingkan precision kali recall dengan precision ditambah recall kemudian dikali dua
+hasil aplikasi aplikasi ini mengambil link yang ada pada sitemap dan mengambil metadata yang terdapat pada link
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 5
+tampilan halaman dashboard gambar 3 merupakan tampilan dari menu utama
+tampilan hasil crawling gambar 5 merupakan tampilan halaman hasil dari crawler e
+pengujian recall dan precision tujuan pengujian recall dan precision adalah untuk mendapatkan informasi hasil pencarian yang didapat oleh sistem temu kembali informasi 
+pada pengujian proses ini digunakan data website yang telah disediakan sebanyak 30 website blogspot yang mengandung materi di bidang teknik informatika
+berikut adalah hasil perhitungan pengujian recall dan precision
+𝐽𝑢𝑚𝑙𝑎ℎ 𝑑𝑜𝑘𝑢𝑚𝑒𝑛 𝑦𝑎𝑛𝑔 𝑟𝑒𝑙𝑒𝑣𝑎𝑛 𝑦𝑎𝑛𝑔 𝑎𝑑𝑎 𝑑𝑎𝑙𝑎𝑚 𝑑𝑎𝑡𝑎𝑏𝑎𝑠𝑒 = 3037 = 3037 sebesar 0.99, nilai precision sebesar 0.61 dan nilai f-measure sebesar 0.74
+hal ini menunjukkan bahwa aplikasi dapat mengambil url dari sitemap dan metadata yang diharapkan dengan cukup baik
+berbeda dengan dan sistem belum dapat menghilangkan link yang tidak terdapat artikel didalamnya
+analisis hasil pengujian dilakukan adalah sebagai berikut: 1 berdasarkan hasil pengujian black box menggunakan metode robustness testing, aplikasi web crawler yang dibangun belum dapat menghilangkan konten iklan dari google yang terdapat pada artikel disebabkan iklan tersebut disisipkan pada awal dan akhir artikel
+2 berdasarkan hasil pengujian recall dan precision diperoleh nilai recall yang relatif besar disebabkan oleh aplikasi web crawler yang dibuat dapat mengambil metadata dengan baik
+3 berdasarkan hasil pengujian recall dan precision diperoleh hasil precision yang relatif kecil, dikarenakan website yang diambil kontennya bercampur dengan materi – materi lainnya, tidak hanya materi di bidang teknik informatika
+kesimpulan/ringkasan aplikasi web crawler dapat mengambil link yang terdapat pada sitemap dan mengambil isi metadata yang terdapat pada link tersebut
+dan berdasarkan hasil pengujian black box dengan metode robustness testing, aplikasi belum dapat menghilangkan konten iklan dari google yang terdapat pada artikel
+sedangkan berdasarkan hasil pengujian recall dan precision, diperoleh nilai recall sebesar 0.99 dan precision sebesar 0.61 serta f-measure sebesar 0.74
+hasil precision yang relatif kecil, dikarenakan website yang diambil kontennya bercampur dengan materi – materi lainnya, tidak hanya materi di bidang teknik informatika

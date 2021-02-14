@@ -1,0 +1,34 @@
+si karakteristik esensial masukan bahkan untuk data yang tidak relevan
+model struktur neuron jaringan saraf tiruan dijelaskan pada gambar 1 berikut: b
+analisis sensitivitas analisis sensitivitas bertujuan untuk melihat perubahan output dari model yang didapatkan serta mengetahui variabel mana yang lebih berpengaruh untuk mencapai output akurat dari model yang dikembangkan
+kerangka penelitian pada bagian ini kerangka penelitian kerja yang digunakan dalam menyelesaikan masalah penelitian seperti yang ditunjukkan pada gambar berikut: berdasarkan gambar masing-masing langkah dapat diuraikan sebagai berikut : a) mengumpulkan data b) studi pustaka c) mengidentifikasi masalah d) praproses e) menentukan model f) menguji hasil pengolahan data g) memprediksi mengevaluasi akhir d
+penetapan input dan output data indikator terpenting perusahaan listrik diolah dengan jaringan saraf tiruan metode backpropagation
+data bersumber dari badan pusat statistik dengan sampel data tahun 2002-2015
+variabel input adalah 6 indikator terpenting perusahaan listrik yakni: jumlah tenaga kerja, daya terpasang, produksi listrik, tenaga listrik yang terjual, biaya input dan biaya output 
+variabel output adalah hasil prediksi indikator terpenting perusahaan listrik dengan menggunakan analisis sensitivitas yang diperoleh dari model arsitektur terbaik dari backpropagation
+data penelitian diubah ke dalam bentuk numerik antara 0-1 dengan menggunakan rumus yang telah ditentukan sebelum dilakukan pemilihan model arsitektur terbaik dengan tahap training dan testing
+hal ini dikarenakan jaringan menggunakan fungsi aktivasi sigmoid biner yang berkisar 0-1 
+hasil dan pemabahasan perusahaan listrik: x1 = jumlah tenaga kerja x2 = daya terpasang x3 = produksi listrik x5 = biaya input x6 = biaya output b
+penetapan output variabel output adalah penetapan model arsitektur terbaik berupa prediksi nilai indikator terpenting perusahaan listrik
+adapun penetapan model arsitektur terbaik dengan menentukan tingkat error minimum dari suatu target semakin kecil error minimun maka pola arsitektur terbaik semakin bagus 
+pengolahan data pengolahan data yang akan dilakukan adalah mengubah data indikator terpenting perusahaan listrik dengan cara menormalisasi data ke range 0-1 dengan rumus : 0.8 ' 0.1 x1 = hasil konversi data, x = nilai yang akan dikonversi, a = nilai minimum dari suatu data dan b= nilai maksimum dari suatu data pelatihan dan data pengujian seperti yang ditunjukkan pada tabel berikut: tabel i
+data input =6 dan output=1 seperti yang ditunjukkan pada tabel berikut: tabel ii
+model arsitektur yang digunakan pada penelitian ini adalah adalah 6-10-1; 6-45-1; 6-45-10-1; 6-75-10-1 dan 6-100-75-1 dengan bantuan software matlab dengan script kode dan optimasi parameter seperti berikut: net=newff, [hidden, targe], >> netb{1}; optimasi pembagian dataset neuron jumlah neuron di input dan hidden layer sesuai dengan jumlah input dataset dengan satu neuron di output layer learning rate 0, 1 target error 0, 09 s/d 0, 001 d
+model jst pelatihan dan pengujian 6-10-1 hasil pelatihan jst model 6-10-1 menggunakan software matlab dengan epoch 55.678, mse pelatihan 0, 0008687282 seperti yang ditunjukkan pada gambar berikut: gambar 3
+model 6-10-1 mencapai goal berikut hasil data pelatihan dan pengujian untuk model jst 6-10-1 seperti pada tabel vii dan viii berikut: tabel vii
+model jst pelatihan dan pengujian 6-45-1 hasil pelatihan jst model 6-45-1 menggunakan software matlab dengan epoch 6549, mse pelatihan 0, 0009840370 seperti yang ditunjukkan pada gambar berikut: gambar 4
+model 6-45-1 mencapai goal berikut hasil data pelatihan dan pengujian untuk model jst 6-45-1 seperti pada tabel ix dan x berikut: tabel ix
+model jst pelatihan dan pengujian 6-45-10-1 hasil pelatihan jst model 6-45-10-1 menggunakan software matlab dengan epoch 74936, mse pelatihan 0, 0009886441 seperti yang ditunjukkan pada gambar berikut: gambar 5
+model 6-45-10-1 mencapai goal berikut hasil data pelatihan dan pengujian untuk model jst 6-45-10-1 seperti pada tabel xi dan xii berikut: tabel xi
+output error sse hasil total 1, 0473694919 67 berdasarkan tabel xii, tingkat akurasi kebenaran 67% dengan mse pengujian 0, 1745615820
+model 6-75-10-1 mencapai goal berikut hasil data pelatihan dan pengujian untuk model jst 6-75-10-1 seperti pada tabel xiii dan xiv berikut: tabel xiii
+model jst pelatihan dan pengujian 6-100-75-1 hasil pelatihan jst model 6-100-75-1 menggunakan software matlab dengan epoch 1976, mse pelatihan 0, 0006076423 seperti yang ditunjukkan pada gambar berikut: gambar 7
+model 6-100-75-1 mencapai goal berikut hasil data pelatihan dan pengujian untuk model jst 6- 100-75-1 seperti pada tabel xv dan xvi berikut: tabel xv
+pemilihan model arsitektur jst terbaik berdasarkan hasil pelatihan dan pengujian dari pemilihan arsitektur terbaik dari 5 model dengan menggunakan software aplikasi matlab 6.1 memiliki hasil yang berbeda baik dari segi epoch, akurasi, mse pelatihan dan mse pengujian
+model terbaik tersebut digunakan untuk memprediksi indikator terpenting perusahaan listrik dengan menggunakan analisis sensitivitas yang diperoleh dari model arsitektur terbaik dari backpropagation
+penilaian model arsitektur terbaik dilihat dari beberapa aspek seperti epoch, error minimum dan akurasi kebenaran
+model digunakan untuk menentukan indikator terpenting perusahaan listrik yang paling berpengaruh dengan menggunakan analisis sensitivitas
+analisis sensitivitas berdasarkan pemilihan model jst terbaik pada tabel xvii yakni 6-100-75-1, maka akan dihitung nilai sensitivitas setiap variabel input seperti yang ditunjukkan pada tabel berikut: tabel xviii
+kesimpulan beberapa kesimpulan: dapat dilakukan dengan menggunakan 6 variabel input yakni 6 indikator penting perusahaan listik yaitu: jumlah tenaga kerja, daya terpasang, produksi listrik, tenaga listrik yang terjual, biaya input dan biaya output 
+hasil dari pemilihan model arsitektur jst didapat model arsitektur terbaik adalah 6-100-75-1 dengan tingkat akurasi 83%, mse pelatihan 0, 0006076423, mse pengujian 0, 0946866667 dan epoch 1976
+hasil dari pemilihan model jst terbaik pada tabel 6- 100-75-1, menghasilkan 2 varibel yang paling berpengaruh pada indikator terpenting perusahaan listrik yakni: biaya output sebagai peringkat pertama dengan nilai error rata-rata 0, 13670 dan daya terpasang nilai error rata-rata 0, 08778

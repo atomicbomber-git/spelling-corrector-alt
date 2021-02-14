@@ -1,0 +1,100 @@
+salah satu penyelesaian dari masalah optimasi kombinatorial yang cukup popular dalam dunia nyata adalah dengan menggunakan algoritma shuffling, seperti algoritma brute force dan algoritma fisher yates
+dari studi yang pernah dilakukan dari kedua algoritma tersebut dapat menghasilkan solusi yang optimal kedua algoritma dapat memberikan hasil nilai yang terbaik
+pada studi ini dilakukan untuk mengetahui seberapa cepat diantara kedua algoritma tersebut mendapatkan nilai optimal dengan cara menghitung jumlah looping yang dilakukan oleh setiap algoritma setelah proses pengacakan data
+sampling data random yang sama akan tetapi jika diacak dengan cara yang berbeda akan memberikan hasil looping berbeda
+looping yang rendah akan menghasilkan nilai yang lebih capat dari looping yang tinggi
+pada penelitian ini, algoritma brute force memberikan hasil 24% lebih capat dari pada algoritma fiser yates
+prototipe dari algoritma brute force dan algoritma fisher yates untuk mendapatkan nilai maksimal di implementasikan pada games permainan kartu 24
+permainan kartu 24 merupakan permainan kartu yang ideal dalam menyimpan dan mengacak kartu
+penelitian ini menunjukan bahwa algoritma brute force memberikan hasil looping yang lebih baik dari pada algoritma fisher yates
+implementasi penelitian ini menggunakan algoritma shuffling berbasis objek dengan menggunakan bahasa pemprograman java se 8u221 dan diuji dengan menggunakan simulasi data aktual dari permainan kartu 24
+pendahuluan science), algoritma merupakan salah satu topik yang menarik untuk diteliti lebih dalam
+banyak solusi yang sudah dipecahkan dalam dunia cs khususnya pembuatan dan penerapan algoritma untuk memecahkan permasalahan yang ada
+permasalahan yang sering dihadapi pada hampir setiap aplikasi profesional dan aplikasi standar yang menggunakan data untuk diolah adalah permasalahan pengacakan 
+dalam pengelolaan data, data dapat diacak dengan tujuan yang berbeda pada setiap perangkat lunak akan memberikan hasil yang berbeda pula
+walaupun jumlah, nilai, dan isi data sama sebelum dan sesudah pengacakan, hasil yang ditampilkan terlebih dahulu akan menjadikan algoritma tersebut berbeda antara satu dengan yang lainnya
+banyak algoritma yang sering digunakan dalam langkah melakukan pengacakan antara lain fisher yates, hash, lcm, backtracking, dan algoritma shufling lainnya
+metode pengacakan yang digunakan dalam penelitian ini adalah fisher yates, diterapkan dalam perangkat lunak permainan kartu 24, dibandingkan dengan algoritma brute force
+ini banyak digunakan oleh guru-guru sekolah dasar untuk membantu peserta didiknya dalam mengasah logika matematikanya
+permainan kartu 24 atau biasa dikenal sebagai 24 ® game dibuat oleh robert sun pada tahun 1988 sebagai salah satu media pembelajaran
+permainan ini mulai berkembang di tahun 1990 an bahkan telah dilakukan turnamen antar siswa khusus nya di afrika selatan
+force dapat menyelesaikan masalah dalam pencarian data kebudayaan, pengembangan aplikasi menterjemahkan sandi morse, menemukan solusi rubrik, algoritma brute force dapat digunakan untuk salah satu pemecahan masalah dari semua kemungkinan yang ada, serta pencarian data operator pada permainan kartu 24, pengacakan dengan menggunakan fisher yates dalam implementasi aplikasi multimedia interaktif pembelajaran tenses bahasa ingrisdan aplikasi game quiz tebak nada sunda, pengenalan kosakata bahasa ingris, dan aplikasi pembelajaran trigonometri memberikan hasil pengacakan yang tidak dapat ditebak data selanjutnya
+dalam dengan demikian kedua algoritma baik itu brute force dan fisher yates realible untuk diterapkan pada permainan kartu 24
+seperti pada umumnya yang terdiri atas 52 kartu yang terbagi atas empat suit 
+masing masing suit terdiri atas 13 kartu 
+as bernilai 1, jack bernilai 11, queen bernilai 12, dan king bernilai 13
+permainan berakhir jika salah satu dari peserta dapat menebak bagaimana membuat nilai-nilai dari 4 kartu yang diberikan menjadi 24
+pemain yang paling cepat menebak bagaimana urutan kartu dan operasinya dinyatakan sebagai pemenangnya
+metode brute force dan dengan metode pengacakan fisher yates dalam memberikan hasil dengan nilai terbaik dalam waktu yang cepat
+kecepatan didapat dengan cara melihat dari kumpulan data operator aritmatika yang disimpan dalam generik list, digunakan dan dihitung hasilnya berdasarkan kartu yang dibagikan
+jika ditemukan nilai yang maksimal maka akan mengembalikan index dari kumpulan data sersebut
+paling kecil index maka akan semakin cepat hasil ditemukan dalam data operator baik itu menggunakan algoritma brute force atau juga menggunakan algoritma fisher yates
+nilai yang yang digunakan antara 0 sampai dengan 24
+nilai yang terbaik adalah nilai yang sama dengan 24
+apabila nilai melebihi 24 maka peserta dianggap gugur
+kedua metode ini biasa digunakan dalam pencarian untuk mendapatkan nilai secara optimal pada peneliatian ini, kedua metode diatas digunakan untuk mencari operator dan mendapatkan hasil nilai 24
+adalah 4 kartu dari populasi satu dek kartu dengan jumlah total 52 kartu
+simulasi yang dilakukan adalah dengan menggunakan bahasa pemprograman berbasis objek java se 8u221 dalam bentuk model permainan game kartu 24
+untuk merancang dan menganalisis sistem yang baik, diperlukan suatu metode yang sering digunakan
+penulismenggunakan metode rad 
+model rad memiliki empat fase yaitu faseperencanaan syarat-syarat, fase perancangan, fase konstruksi, dan fase pelaksanaan
+berikut adalah penjelasan masing-masing fase dalam penelitian ini
+fase perencanaan syarat-syarat permainan secara umum sama seperti permainan kartu 24 dimana yang dapat menebak nilai 24 terlebih dahulu adalah pemenangnya
+pada penelitian ini, yang bermain adalah kedua algoritma yaitu brute force dan fisher yates yang masing-masing diberikan 4 kartu yang sama dan masing-masing mempunyai larik operator yang sama
+oleh sebab itu, mungkin saja ke dua algoritma dapat menghasilkan nilai yang sama akan tetapi posisi index lariknya berbeda
+pemain yang memiliki index terkecil adalah pemenangnya
+strategi permainan kartu permainan kartu 24 ini, yaitu:  menentukan posisi ke empat kartu yang didapatkan posisi kartu sangat menentukan hasil
+untuk menentukan posisi kartu dibutuhkan permutasi heap
+kartu a dan kartu b memiliki kombinasi = {ab, ba}
+jika nilai a sama dengan 5 dan b sama dengan 4 maka dengan menggunakan operator pengurangan memberikan hasil yang berbeda untuk posisi kartu yang berbeda
+jika operator yang digunakan untuk menghitung adalah tidak mendapatkan hasil 24, maka akan diganti dengan operator yang lainnya seperti “ + + - “ atau “ + + x “ atau operator lainnya dalam koleksi larik operator
+data yang digunakan tidak disimpan dalam database akan tetapi disimpan dalam koleksi dari larik yang berupa object
+data operator disimpan dalam larik operator
+pembuatan program yang dilakukan menggunakan bahasa pemrograman java sdk 1.8.0
+fase konstruksi membuat sistem yang melingkupi input, proses, dan output
+input data yang digunakan adalah koleksi larik, prosess yang dilakukan adalah menggunakan algoritma brute force atau algoritma fisher yates untuk memasukan semua kemungkinan operasi yang digunakan
+output adalah hasil dari perhitungan, operasi yang digunakan, dan berapa cepat algoritma tersebut menampilkan hasil yang terbaik
+fase pelaksanaan pada fase pelaksanaan, sistem diuji cobakan, dijalankan, dan direkam index dari kedua algoritma agar diketahui nilai yang tercepat mendapatkan hasil dari kedua algoritma tersebut
+1 flow diagram pada gambar 1 antara lain: 1) kartu : objek kartu yang sudah ada dalam sistem sudah ditetapkan sebanyak 52 kartu
+2) acak kartu: kartu diacak atau di shuffle dengan menggunakan algoritma fisher yates
+3) bagikan 4 kartu: koleksi kartu membagikan 4 kartu, kemudian kartu melakukan permutasi dengan menggunakan heap permutasiseperti pada persamaan di bawah ini: ini : data yang diberikan adalah 4 kartu yang diumpamakan sebagai kartu pertama adalah a, kedua adalah b, ketiga adalah c, dan keempat adalah d
+permutasi yang dihasilkan seperti pada gambar 3 berikut ini: gambar
+3 hasil permutation 4) get operator: get operator merupakan proses untuk mendapatkaan data operator
+operator yang terdaftar dalam larik operator adalah seperti pada gambar 4 berikut ini: gambar
+4 operator 5) penerapan algoritma: algoritma yang digunakan dalam menggunakan dua metode ini adalah brute force dan fisher yates
+ algoritma brute force memecahkan permasalahan dengan sederhana, langsung, dan jelas
+algoritma brute frorce melakukan pendekatan yang lempang dalam memecahkan suatu masalah oleh sebab itu algoritma brute force sering sekali disebut dengan algoritma naïf 
+algoritma brute force dapat digunakan untuk memecahkan hampir sebagian besar permasalahan yang ada karena memasukan dan mencoba semua isi dalam suatu data koleksi tanpa menggunakan cara-cara khusus
+teratur, sederhana dan mudah dimengerti adalah salah satu kelebihan dari algoritma brute force
+5 psudocode algoritma brute force  algoritma fisher yates tahun 1938 dan mulai dipopulerkan pada tahun 1948
+sejak itu banyak varian dari implementasi algoritma fisher yates untuk memperbarui algoritma tersebut
+algoritma fisher yates merupakan salah satu algoritma pengacakan yang mengacak data dalam koleksi larik atau array kartu ataupun larik operator
+algoritma dapat di narasikan sebagai berikut koleksi larik yang berisi objek kartu atau objek operator akan di looping dari awal data sampai akhir data
+selanjutnya mendapatkan nilai random diantara 0 sampai dengan panjang koleksi larik
+nilai random n yang didapat akan dijadikan index yang akan ditukar dengan index pada posisi i,
+tampilan pada gambar 6 berikut ini adalah psudocode algoritma fisher yates: gambar
+6 psudocode algoritma fisher yates 6) hitung hasil: hasil yang didapat dari operator berupa looping yang diperoleh dari masing-masing algoritma diatas
+nilai perhitungan dan operator yang memberikan hasil maximal akan ditampilkan
+7) record: proses record merupakan suatu proses penyimpanan nilai index hasil dari algoritma brute force dan algoritma fisher yates
+untuk penerapan algoritma, penulis melakukan pengujian untuk satu dek kartu sebanyak 13x percobaan dan diulang sebanyak 10x mendapatkan hasil seperti pada tabel berikut ini: iii
+hasil dan pembahasan kartu yang diambil dari proses 3 diatas kemudian diterapkan pada operator pada proses 4
+misalkan 4 buah kartu yang diambil adalah a, b, c, d, dan operator yang digunakan adalah + - x, maka menghubungkan kartu dan operator seperti pada persamaan berikut: menjadi bentuk : a + b – c x d a
+hasil penerapan algoritma brute force brute force mencoba semua operator dari yang pertama sampai yang terakhir, apabila nilai sudah mencapai 24, maka looping akan memberikan return kartu beserta operatornya
+gambar 7 menampilkan contoh hasil perhitungan yang dilakukan oleh algoritma brute force
+operator yang sudah diacak oleh algoritma fisher yates
+looping juga akan memerikan return kartu beserta operator jika nilai sudah mencapai hasil 24
+gambar 8 menampilkan contoh hasil perhitungan yang dilakukan oleh algoritma fisher yates
+tampilan aplikasi dapat dilihat pada gambar 9
+dicoba dengan cara yang sama kemudian didapat hasil seperti pada gambar 10
+dilakukan oleh fy sedangkan bf berwarna biru
+satu dari sepuluh kali percobaan memberikan hasil bf lebih baik, akan tetapi sembilan dari sepuluh kali percobaan menghasilkan fy yang lebih baik
+operator yang diacak oleh fy ternyata tidak selalu memberikan solusi yang langsung tepat sasaran
+tidak semua operator memberikan nilai 24, 95% operator memberikan nilai yang kurang dari 24
+algoritma bf selalu memberikan nilai yang berurutan dimulai dari operator yang termudah, yaitu +++ sampai dengan perator terakhir 
+operator terakhir tidak selalu memberikan nilai terbaik bahkan seringkali memberikan nilai yang semakin buruk
+10 hasil pengujian rata-rata dari empat kartu yang diberikan secara random, diasumsikan operator yang memberikan nilai 24 adalah operator yang ke 25, algoritma bf sudah jelas memberikan nilai looping ke 25, akan tetapi algoritma yf tidak selalu memberikan nilai yang kurang dari 25
+sering kali algoritma yf memberikan nilai looping yang lebih dari 25
+dengan demikian yf selalu memberikan nilai looping yang lebih kecil dari pada bf
+kesimpulan dan menemukan solusi yang tepat pada permainan 24
+brute force mampu memberikan solusi yang lebih cepat dari pada fisher yates
+force pada pengujian ini memberikan 24% lebih cepat dari pada fisher yates

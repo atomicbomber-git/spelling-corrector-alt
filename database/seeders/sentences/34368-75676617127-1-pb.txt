@@ -1,0 +1,129 @@
+eee paper template in a4 vol 5 no 3 analisis sentimen calon presiden indonesia 2019 dari media sosial twitter menggunakan metode naive bayes sitti nurul jannah fitriyyah#1, novi safriadi#2, enda esyudha pratama#3 #jurusan informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, kota pontianak, 78115 1sittinurull@gmail.com 2safriadi@informatics.untan.ac.id 3endaesyudha@gmail.com tokoh politik yang dicalonkan menjadi kepala negara akan mempertimbangkan popularitas mereka berdasarkan opini masyarakat
+sejak diumumkan nama calon presiden indonesia 2019 oleh komisi pemilihan umum nama- nama tersebut mulai banyak diperbincangkan, terutama di media sosial salah satunya adalah twitter
+terdapat berbagai opini pengguna twitter yang bersentimen negatif positif dan netral namun untuk menentukan sentimen dari pengguna twitter membutuhkan usaha dan waktu yang cukup banyak dikarenakan banyaknya jumlah tweet yang digunakan
+dibutuhkan pembelajaran mesin yang dengan cepat dalam pengklasisifikasian tweet tersebut dalam kelas negatif, positif dan netral naive bayes classifier adalah metode klasifikasi text yang memiliki kecepatan pemrosesan dan akurasi yang cukup tinggi apabila diterapkan pada data yang banyak, besar, dan beragam
+sebelum data tweet diklasifikasikan, data tersebut harus melalui beberapa proses, seperti prepocessing, pembobotan kata dan pemecahan data
+tujuan dari penelitian ini adalah mengetahui bagimana penerapan metode naive bayes pada sentimen pengguna twiter di 2 kelas dan 3 kelas 
+hasil dari penelitian ini diperoleh bahwa dilakukan pengujian 3 kelas dan 2 kelas untuk setiap pasangan calon 
+pada pengujian 3 kelas paslon 01 dan paslon 02 didapat hasil akurasi berturut-turut sebagai berikut 64, 6% dan 58%
+sedangkan pada pengujian 2 kelas paslon 01 dan paslon 02 didapat hasil akurasi berturut-turut sebagai berikut 77, 7% dan 88%
+performansi tertinggi terdapat pada calon presiden nomor urut dua dengan nilai f-measure sebesar 0, 88
+pendahuluan tokoh politik yang dicalonkan menjadi kepala negara akan mempertimbangkan popularitas mereka berdasarkan opini masyarakat
+sejak diumumkan nama calon presiden indonesia 2019 oleh setiap partai politik nama-nama calonnya mulai banyak diperbincangkan, terutama pada media sosial masyarakat untuk beropini adalah twitter
+twitter dianggap dapat mencurahkan segala pemikiran atau opini pengguna karena akses yang mudah, jumlah follower yang tidak terbatas, jumlah karakter yang singkat yaitu hanya 280 karakter sehingga dapat menyampaikan maksud dan tujuan pengguna twitter dengan jelas, singkat dan padat
+twitter sebagai salah satu media sosial populer dimana penggunanya dapat mengekspresikan opini yang objektif tentang topik yang berbeda
+twitter merupakan media sosial dengan pengguna terbanyak diantara beberapa media sosial dengan jumlah pengguna 328 juta
+banyaknya pengguna twitter dapat dimanfaatkan untuk mengetahui sentimen masyarakat mengenai calon presiden indonesia 2019
+suatu tweet dapat dikerjakan secara manual, namun dilihat dari jumlah pengguna yang banyak maka opini yang dihasilkan juga semakin banyak
+sehingga membutuhkan waktu dan usaha yang semakin banyak pula
+oleh karena itu dibutuhkan sebuah mesin yang dapat menganalisis tweet dan mengklasifikasi tweet yang banyak tersebut kedalam sentimen negatif, positif, dan netral secara otomatis karena menganalisis tweet secara manual sudah tidak efektif lagi
+untuk membuat mesin yang dapat menganalisis tweet, dapat menerapkan salah satu fungsi dari text mining, yaitu klasifikasi text algoritma pengklasifikasian yang diterapkan pada penelitian ini adalah algoritma naive bayes
+algoritma naive bayes dipilih karena memiliki kecepatan dalam pemprosesan dan akurasi yang cukup tinggi bila digunakan pada data yang banyak, besar, dan beragam
+analisis sentimen ini akan di klasifikasikan menjadi 3 kelas yaitu negatif, positif, dan netral dan 2 kelas yaitu negatif, positif
+terdapat banyak penelitian sebelumnya terkait analisis
+pertama, penelitian yang dilakukan olehtentang analisis sentimen yang mengambil dataset dari media sosial twitter
+pada penelitian tersebut dilakukan prediksi kecenderungan politik menggunakan support vector machine studi kasus pemilihan kandidat calon presiden di amerika serikat
+ia melakukan klasifikasi sentimen pengguna twitter bakal calon gubernur jawa barat menggunakan metode naive bayes
+pada penelitian ini ia melakukan analisis sentimen dengan menggunakan metode naive bayes dan support vector machine pada sentimen twitter untuk calon gubernur dki jakarta 2017
+hasil penelitiannya yaitu nilai akurasi dan performansi yang cukup tinggi dari penggunaan metode naive bayes dibanding metode support vector mmachine 
+sehingga penulis bermaksud melakukan penelitian dengan menerapkan metode naive bayes untuk melihat kecenderungan sentimen masyarakat di media sosial twitter terhadap calon presiden indonesia 2019
+tinjauan pustaka komputasi dari sentimen, emosi, dan opini yang diluapkan kedalam teks
+jika diberikan suatu set dokumen teks yang berisi sentimen mengenai suatu objek, maka opinion mining bertujuan untuk mengekstrak atribut dan komponen dari objek yang telah dikomentasi pada setiap dokumen dan untuk menentukan apakah komentar tersebut bermakna positif atau negatif
+tujuan dari analisa sentimen adalah untuk menentukan perilaku atau opini dari seorang penulis dengan memperhatikan suatu topik tertentu
+bagaimana si penulis ingin mempengaruhi pembaca
+perilaku bisa mengindikasikan alasan, opini atau penilaian, kondisi kecenderungan 
+twitter adalah layanan komunikasi daring yang menyediakan teks yang singkat sehingga pengguna dapat menuliskan opininya secara jelas, singkat, dan padat serta dapat dipublikasikan ke semua orang atau kelompok tertentu
+kelebihan twitter diantaranya adalah komunikasi terjadi sangat cepat, publikasinya luas, dan
+twitter membantu penyebaran informasi secara lebih cepat yang kemudian akan menjadi sebuah topik yang dibahas oleh para penggunanya
+kelebihan twitter juga terletak pada jumlah pengikutnya yang tidak terbatas dan tidak ada timbal balik, seperti seorang pengguna a mengikuti akun twitter pengguna b meskipun pengguna b tidak mengikuti kembali akun pengguna a
+twitter banyak digunakan sebagai sumber data text mining
+hal ini karena pencarian pada twitter tidak hanya berdasarkan nama akun tetapi juga dapat berdasarkan teks status tertentu
+kemudian twitter menyediakan layanan api untuk pengambilan data, dan setiap tweet yang diambil dianggap 1 data
+misalnya, ketika si a membuat tweet kemudian si b membalas tweet si a maka ketika di crawl tweet si a dan si b juga terambil tanpa melihat id string status si a
+selain itu twitter juga memiliki pengikut yang tidak terbatas, jumlah karakter yang singkat pada tweet sehingga maksud dan tujuan tersampaikan dengan baik
+berikut adalah istilah yang dikenal di twitter: shout box yang berisikan informasi, gambar, jejak pendapat, dan utasan
+untuk pesan atau informasi yang ingin ditulis hanya diberikan batasan karakter dan huruf yaitu 280
+lain pada sebuah tweet mention dituliskan dengan ‘@’ diikuti dengan nama pengguna lain  replay replay atau balasan digunakan untuk membalas tweet pengguna lain
+kita setuju dengan isi dari tweet orang lain kemudian dibagikan ke pengikut twitter kita
+ like like digunakan untuk menandakan tweet yang disukai lain tanpa ada pengikut twitter kita yang mengetahuinya
+penulisan hashtag yaitu dimulai dengan ‘#’ diikuti dengan nama topik yang dibahas
+hashtag juga berguna untuk meningkatkan visibilitas tweet suatu pengguna ramai dibicarakan oleh warga twitter
+twitter menyediakan api twitter untuk menyimpan tweet tersebut agar mempermudah seseorang untuk mengakses informasi yang ada didalamnya untuk tujuan pengembangan aplikasi
+untuk dapat mengakses api twitter dibutuhkan consumer key dan consumer secret yang dapat diakses pada laman http://dev.twitter.com
+keduanya berfungsi agar twitter mengetahui aplikasi yang kita buat
+penyederhanaan teks agar dapat diproses lebih lanjut
+berikut adalah tahapan dalam proses ini
+ case folding adalah mengubah huruf kapital pada semua ulasan yang terdapat pada dokumen data latih dan data test diubah menjadi huruf kecil
+kata-kata dibersihkan adalah kata-kata yang mengandung tweet entity seperti mention, retweet, hashtag, dan link url serta simbol atau kode karakter numeric seperti: ;’) tokenization merupakan pemotongan kata potongan tunggal yang salah dalam teks berdasarkan korpus yang dibuat
+yang tidak sesuai dengan topik dokumen, dikarenakan kata tersebut tidak mempengaruhi akurasi dalam klasifikasi sentimen
+yang terdapat dalam sistem ir yang mentransformasi kata-kata yang terdapat dalam suatu dokumen ke kata-kata akarnya dengan menggunakan tahapan sebagai berikut:1) cek kata apakah ada di kamus, jika ada maka kata ditemukan
+namun jika tidak, maka lanjut ke tahap berikutnya
+pada tahap pembobotan kata, metode term frequency – inverse document frequency digunakan untuk mendapatkan nilai bobot setiap kata pada data yang digunakan
+nilai tf-idf diperoleh setelah nilai tf dan idf dihitung terlebih dahulu
+kemudian kedua nilai tersebut dikalikan untuk mendapatkan nilai tf-idf
+klasifikasi naive bayes adalah metode klasifikasi yang menggunakan teorema bayes
+metode statistik dan probabilitas yang dibawa oleh ilmuwan inggris thomas bayes yaitu dengan melihat kejadian dimasa depan berdasarkan kejadian dimasa lalu
+klasifikasi naive bayes adalah konsep probabilitas yang bisa digunakan untuk penentuan kelompok kelas dokumen teks dan dapat mengoah data pada jumlah yang besar dengan nilai akurasi yang tinggi
+metode naïve bayes dalam proses pengklasifikasian memilik dua tahapan yaitu tahap pelatihan dan tahap klasifikasi
+tahapan-tahapan pada proses pengklasifikasian naive bayes adalah pertama pembuatan bag of words
+bag of words untuk mengumpulkan term pada masing-masing tweet pasangan calon presiden berdasarkan frekuensi kemunculan di tweet tersebut
+setelah bag of words dibuat kemudian adalah training
+hal ini dilakukan untuk mendapatkan model klasifikasi dalam bentuk probabilitas
+untuk menghindari peluang 0 yang terjadi pada training dan akan menghancurkan hasil testing nantinya, sehingga diperlukan laplace smoothing
+laplace smoothing adalah menambahkan angka 1 dibagi jumlah semua fitur yang ditambahkan ke semua fitur sehingga tidak ada yang nilainya 0
+persamaan naive bayes yang digunakan untuk menentukan kelas dari komentar ditunjukan dalam persamaan berikut
+vj= kelas ke-j v = himpunan kelas target confusion matrix adalah tool yang digunakan sebagai evaluasi model klasifikasi untuk memperkirakan objek yang benar atau salah
+sebuah matrix yang digunakan untuk membandingkan hasil klasifikasi dengan data asli
+tabel confussion matrix dapat dilihat pada tabel 1
+tabel i confusion matrix rumus untuk menghitung akurasi, spesifisitas, dan sensitivitas pada confusion matrix adalah sebagai berikut total jumlah prediksi yang benar
+ini ditentukan dengan menggunakan persamaan berikut: yang diprediksi true secara tepat dengan seluruh jumlah kelas yang diprediksi true
+perhitungan precision dapat dilihat pada persamaan 
+kemudian dibagi menjadi 2 secara seimbang untuk setiap paslon
+kemudian data tweet disimpan dalam file csv dari bulan 17 januari 2019 hingga 30 maret 2019
+sebuah tweet terdiri dari beberapa elemen yaitu seperti pada gambar 1
+gambaran umum sistem penelitian olehdandimulai dari melakukan pengumpulan data, pemisahan data training, data testing, kemudian pelabelan manual, preprocessing, klasifikasi, dan pengujian dilihat pada gambar 2
+skenario pengujian training dan data testing dengan mengunakan persentase data latih dan data uji
+skema pemecahan data dapat dilihat pada tabel 3
+pengujian akurasi pemecahan data hasil dari pengujian pemecahan data dilakukan dengan metode confusion matrix dengan skenario pemecahan data seperti pada tabel 4
+training dan 20% data testing memiliki akurasi yang tertinggi sebesar 72%
+pada data latih setiap kelas positif, negatif, dan netral mengandung 160 data
+pengujian tiga kelas yaitu kelas negatif, positif, dan netral dilakukan pada masing-masing paslon
+untuk pengujian tiga kelas dataset setiap paslon adalah 750 dengan masing-masing kelas data latih adalah 200 data dan 50 data uji
+jokowi-ma’ruf klasifikasi tiga kelas memperoleh akurasi sebesar 64, 6%
+confusion matrix paslon 01 dapat dilihat pada tabel 5
+akurasi :64, 8% actual actual pada pasangan calon presiden nomor urut dua yaitu prabowo-sandi klasifikasi tiga kelas memperoleh akurasi sebesar 58%
+confussion matrix paslon 02 dapat dilihat pada tabel 6
+pengujian 2 kelas dilakukan pada masing-masing paslon
+jokowi-ma’ruf klasifikasi tiga kelas memperoleh akurasi sebesar 77, 7%
+confusion matrix paslon 01 dapat dilihat pada tabel 7
+tabel vii pengujian dua kelas paslon 01 akurasi: 77, 7% actual pada pasangan calon presiden nomor urut dua yaitu prabowo-sandi klasifikasi tiga kelas memperoleh akurasi sebesar 84%
+confusion matrix paslon 02 dapat dilihat pada tabel 8
+tabel viii pengujian dua kelas paslon 02 akurasi : 84% actual d
+analisis hasil pengujian didapatkan bahwa pada pemecahan data latih dan data uji akurasi paling tinggi terdapat pada 80% data latih dan 20% data uji dengan akurasi 72 % dari dataset 600 tweets
+untuk pengujian klasifikasi naïve bayes pengujian pada 3 kelas yaitu negatif, positif, netral paslon 01 jokowi-ma’ruf mendapatkan akurasi lebih tinggi yaitu sebesar 64, 6% dan paslon 02 prabowo-sandi 58%
+perbedaan nilai akurasi karena jumlah true negative, true positive, dan true neutral yang berbeda
+berikut perbandingan jumlah tneg, tpos, dan tnet pada tabel 9
+penghapusan kelas netral dapat menaikkan hasil akurasi kedua paslon
+ini terjadi karena pada kelas netral jumlah data netral yang sedikit sehingga kelas netral berisi tweet yang mengandung berita, yang apabila di processing url berita akan hilang dan yang tersisa adalah headline berita
+headline berita ini lebih mengandung kelas negatif atau positif dibanding kelas netral hal ini membuat false neutral menjadi tinggi karena seharusnya data termasuk kelas negatif atau kelas positif malah diprediksi kelas netral sehingga kelas netral mengganggu sistem untuk mengenali label kelas data lain
+contoh kelas netral dapat diliat pada tabel 10
+tabel x preprocessing kelas netral pesta demokrasi untuk memilih pemimpin kita yang terbaik
+https://t.co/toomnvt0pa\n#jppi presiden sudah beri semua tools, tinggal kepala daerah mau sambut atau tidak\xe2\x80\x9d - azwar anas, bupati banyuwangi #pilih01bajuputih https://t.co/zrhj7ydvio' jawatimurtotalbersatu tinggal kepala daerah sambut azwar anas bupati banyuwangi ilihbajuputih measure kelas negatif yang lebih banyak dari paslon 02 yaitu sebesar 0, 78 untuk paslon 01 dan sebesar 0, 76 untuk paslon 02
+sedangkan f-measure kelas positif paslon 02 lebih tinggi dibandingkan dengan paslon 01 yaitu sebesar 0, 88 untuk paslon 02 dan 0, 76 untuk paslon 01
+dilihat dari nilai f-measure tiap paslon, menunjukan bahwa opini atau sentimen pengguna twitter untuk paslon 01 adalah negatif dan untuk paslon 02 adalah positif
+dari 1500 tweet dataset, kemunculan tweet untuk keyword calon wakil presiden indonesia 2019 hanya 25 %
+hal ini karena sosok calon presiden lebih dominan dibicarakan dari pada wakilnya
+namun untuk calon wakil presiden nomor urut 2 yaitu memiliki perbincangan yang lumayan yaitu 40% dari dataset paslon 02
+sandi memiliki daya tarik yang lebih besar dibanding kyai ma’ruf amin di media sosial twitter, karena memiliki program yang pro kepada kaum emak-emak
+maret lebih banyak membicarakan paslon 02 dan dari klasifikasi 2 kelas naïve bayes paslon 02 memperoleh sentimen yang positif, pada kenyataannya paslon 02 kalah dalam perhitungan resmi kpu
+ini membuktikan bahwa analisis sentimen dari media sosial twitter belum dapat memprediksi pemenangan pemilihan presiden indonesia 2019
+kesimpulan dan saran analisis sentimen calon presiden indonesia 2019 dari media sosial twitter menggunakan metode naive bayes, adalah sebagai berikut: sentimen calon presiden indonesia 2019 dari media sosial twitter 2) pemecahan data training dan data testing yang paling baik adalah 80%:20% yaitu sebesar 72% dengan distribusi data latih pada setiap kelas negatif, positif, netral mengandung 160 data
+3) analisis sentimen calon presiden indonesia 2019 dari media sosial twitter menggunakan metode naive bayes mendapatkan nilai akurasi yaitu 64, 6% untuk paslon 01, dan 58% untuk paslon 02 pada pengujian 3 kelas
+sedangkan pengujian 2 kelas 77, 7% untuk paslon 01 dan 84% untuk paslon 02
+4) kelas netral mempengaruhi prediksi kelas lain sehingga akurasi menjadi rendah
+5) performansi metode naive bayes terbaik pada pengujian 2 kelas pasangan calon presiden nomor urut dua dengan nilai f-measure sebesar 0, 88 untuk kelas positif terkait analisis sentimen calon presiden indonesia 2019 dari media sosial twitter menggunakan metode naive bayes ini adalah sebagai berikut: 1) analisis sentimen calon presiden indonesia 2019 dari media sosial twitter dapat menggunakan metode lain agar dapat memprediksi lebih akurat
+2) analisis ini dapat dikembangkan lagi dengan membuat labelisasi secara otomatis
+3) meningkatkan koleksi data latih, koleksi korpus stopwords, dan koleksi korpus stemming sehingga dapat meningkatkan akurasi analisis sentimen
+4) menambahkan proses pada tahapan preprocessing sepeti n-gram, dan negation agar meningkatkan akurasi klasifikasi
+5) penelitian ini dapat diimplementasikan ke sebuah aplikasi sehingga proses dilakukan secara otomatis

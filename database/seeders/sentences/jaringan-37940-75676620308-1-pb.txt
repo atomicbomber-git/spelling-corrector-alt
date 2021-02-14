@@ -1,0 +1,55 @@
+ubmitted 13-12-2019; revised 21-01-2020; accepted 28-01-2020 121 perancangan aplikasi smart indicator lecturer berbasis android menggunakan microcontroller mohamad dimas radityatama#1, fauziah#2, nur hayati#3 #program studi informatika, universitas nasional jl
+minggu, jakarta 12520 mdimasradityatama@gmail.com fauziah@civitas.unas.ac.id nurhayati@civitas.unas.ac.id telah meningkat 500 juta pengguna sejak dua tahun lalu
+disisi lain, kehadiran dosen di universitas masih belum bisa dipantau secara realtime sebab hanya menggunakan papan geser manual jika dosen telah sampai ditujuan dan papan tersebut hanya dapat dilihat jika kita berada di universitas, contohnya yang berada di fakultas teknologi komunikasi dan informasi universitas nasional, dengan memanfaatkan pesatnya perkembangan smartphone berbasis android, maka dapat dibuat aplikasi indikator informasi dosen berbasis android
+berdasarkan penelitian terdahulu pemanfaatan microcontroller menggunakan fingerprint menggunakan microcontroller untuk perancangan smart indicator lecturer berbasis android dengan menggunakan fingerprint dosen
+aplikasi dirancang dengan menggunakan modul fingerprint r307 dan nodemcu yang akan di kirim pada database firebase dan akan mengubah indicator kehadiran dosen pada smartphone
+berdasarkan hasil pengujian didapat rata – rata keberhasilan fingerprint sebesar 88, 6% dan rata – rata 87% user menyatakan sangat setuju bahwa aplikasi mudah dipahami dan dioperasikan
+pendahuluan 500 juta pengguna sejak dua tahun lalu yang telah mencapai total 2 miliar pengguna
+disisi lain kehadiran dosen di universitas masih belum bisa dipantau secara realtime sebab hanya menggunakan papan geser manual jika dosen telah sampai ditujuan dan papan tersebut hanya dapat dilihat jika kita berada di universitas, contohnya yang berada di fakultas teknologi komunikasi dan informasi universitas nasional berdasarkan permasalahan yang ada, memanfaatkan perkembangan android sebagai media perantara berupa aplikasi dinilai lebih fleksibel sebab sifat smartphone yang memiliki mobilitas tinggi, maka akan dirancang aplikasi untuk memantau kehadiran dosen berbasis android agar mahasiswa dapat melihat kehadiran dosen dengan memanfaatkan aplikasi yang dirancang
+menghasilkan rata-rata waktu 43.6 second, sebagai waktu sampling untuk mengenali pola sidik jari pada sistem presensi
+penelitian yang dilakukan salita dan handoko dengan menggunakan fingerprint berbasis mikrocontroller menghasilkan pengujian untuk record fingerprint yaitu sebesar 86, 67% dengan skenario pengujian adalah proses pendaftaran sebanyak 6 kali untuk 10 fingerprint yang berbeda
+penelitian yang dilakukan baiq rizki, arimbawa dan fitri dengan mengimplementasikan iot menggunaka sensor fingerprint menghasilkan nilai waktu tersingkat 1, 036 detik dan waktu terlama 1, 408 detik dengan waktu rata-rata yang didapatkan sebesar 1, 1241 detik
+berdasarkan penelitian terdahulu, penerapan sensor fingerprint dinilai berhasil dan cepat dalam prosesnya, maka penelitian ini merancang smart indicator lecturer dengan microcontroller berbasis android menggunakan fingerprint dosen
+metode penelitian waterfall dapat juga disebut metode air terjun
+metode ini terdapat 5 tahapan, yaitu: 1) analisis : tahapan ini adalah tahapan pertama pada metode waterfall untuk melakukan analisis pada sistem yang akan dirancang dengan detail
+pada tahapan ini menganalisis sistem secara keseluruhan baik dalam kebutuhan oleh pengguna dan batasannya mulai dari konsep prototype smart indicator lecturer, cara kerja sistem smart indicator lecturer, halangan yang akan muncul dalam melakukan perancangan smart indicator lecturer, tujuan yang dicapai serta kegunaan dan spesifikasi smart indicator lecturer
+maka tahapan ini akan menentukan spesifikasi yang lebih rinci dari tahapan analisis
+pada penelitian ini dibuat aplikasi smart indicator lecturer perangkat lunak berbasis android untuk monitoring dan perangkat keras berbasis microcontroller
+penerapan keseluruhan yang sudah disiapkan pada tahapan sebelumnya dimana desain sistem akan diubah menjadi program yang sesuai dengan kesepakatan sebelumnya
+program untuk perangkat lunak maupun program untuk perangkat kerasnya
+selanjutnya bagian uji sistem akan melakukan verifikasi apakah sistem sudah sesuai dengan keperluan atau tidak
+4) pengujian : pada tahapan ini melanjutkan sistem yang sudah dibuat pada tahap implementasi untuk mengintegrasikan dan diuji untuk mengetahui kesesuaian sistem yang telah dirancang sebelumnya
+5) pemeliharaan : ini adalah tahapan akhir dalam metode waterfall dimana sistem akan dijalankan serta dilakukan pemeliharaan guna memperbaiki kesalan sistem jika ada kesalahan sistem yang tidak ditemukan sebelumnya
+dibutuhkan dalam merancang sistem yang akan dibuat
+didapatkan kebutuhan sistem perangkat lunak dan perangkat keras 
+ kebutuhan hardware: nodemcu esp8266 wifi, fingerprint r307, smartphone android
+perancangan perangkat keras pada perancangan hardware pada gambar 2 terdiri dari:  1 nodemcu esp8266  1 fingerprint r307 merealisasikan sistem agar mudah dipahami
+alur dalam blok diagram dimulai dari dosen scan fingerprint pada sensor fingerprint selanjutnya microcontroller akan melakukan pengecekan status kehadiran
+microcontroller akan melakukan perubahan status kehadiran dosen
+semua data dikirim ke dalam database firebase
+pada microcontroller akan mendapatkan informasi dari database bahwa status kehadiran dosen berubah sesuai dengan tindakan yang dilakukan
+flowchart sistem dari setiap proses pada sistem yang dirancang
+4 flowchart sistem awal persiapan modul fingerprint r307 sampai dengan mendapatkan identitas fingerprint kemudian pada smartphone mengalami perubahan seiring kehadiran dosen
+computer, sekarang dipindahkan ke rangkaian microcontroller
+dosen melakukan scan pada fingerprint yang kemudian akan dilakukan proses selanjutnya pada microcontroller
+dihasilkan swimlane diagram yang menggambarkan interaksi pada setiap subset dari sebuah proses
+5 swimlane diagram scanning fingerprint, kemudian sistem akan mencocokan dengan database dan jika dinyatakan cocok maka akan muncul notifikasi kesuksesan dari indikator led yang menyala, kemudian sistem akan meneruskan notifikasi kehadiran dosen dengan mengubah lampu indikator yang ada pada aplikasi android yang dirancang
+tampilan aplikasi kehadiran dosen yang telah melakukan absensi di universitas, dengan indikator warna hijau yang menandakan hadir dan indikator warna merah yang menandakan ketidakhadiran dosen di tempat
+7 informasi fakultas merupakan tambahan fitur yang diimplementasikan pada aplikasi smart indicator lecturer yang difungsikan untuk menginformasikan berita – berita terkait informasi penting dari universitas
+pada fitur yang ada untuk mengetahui keberhasilan dari aplikasi yang telah dibangun
+adapun pengujian langsung dilakukan dengan menguji pada sidik jari dosen fakultas teknologi komunikasi dan informatika universitas nasional proses sampling dari proses pencocokan citra ditunjukkan pada gambar dibawah ini
+kemudian dilakukan pengujian sebanyak 220 kali dari 11 dosen dengan 2 posisi berbeda, yaitu normal dan miring, masing – masing posisi diujikan sebanyak 10 kali dan menghasilkan grafik yang ditunjukkan oleh gambar 8
+mengetahui fingerprint dosen dengan satuan milisecond 
+pengujian ini mendapatkan hasil tercepat yaitu sebesar 125, 7ms pada keadaan normal dan terlambat sebesar 326, 7ms pada keadaan miring
+jari tegak lurus sesuai dengan sensor
+bagaimana data tersebut mendapatkan rata – rata sebesar 198, 5ms dalam keadaan scan fingerprint secara normal, pada keadaan miring nilai lebih besar dari keadaan normal mendapatkan rata – rata waktu sebesar 225, 7ms dikarenakan pada saat scan jari melebihi dari sensor yang ada
+maka rata-rata yang didapat sebesar 227, 1ms secara keseluruhan data yang diuji
+keberhasilan pengujian selama proses scanning fingerprint diterangkan pada gambar 10 dibawah ini
+average of fingerprint success pada gambar 10 ditunjukkan hasil rata – rata pengujian pengenalan fingerprint dengan database yang ada, berdasarkan hasil tersebut, tingkat keberhasilan rata – rata terbaca sebesar 88, 6% dan rata – rata kegagalan tidak terbaca yaitu 11, 4%
+kegagalan pengujian didasari dari tipisnya gerutan yang ada pada masing – masing dosen, semakin tipis gerutan jari akan menyulitkan proses identifikasi
+pengujian dilakukan dengan skala likert yang digunakan untuk mengukur pendapat user mengenai keberhasilan aplikasi smart indicator lecturer berdasarkan penilaian yang telah ditetapkan oleh peneliti
+pengujian dilakukan dengan menyebarkan kuesioner kepada 30 mahasiswa selaku user dengan menggunakan 5 skala penilaian yaitu nilai 1 untuk sangat tidak setuju, nilai 2 untuk tidak setuju, nilai 3 untuk ragu - ragu, nilai 4 untuk setuju dan nilai 5 untuk sangat setuju 
+adapun nilai interpretasi dikategorikan sebagai berikut: 60% - 79, 9% setuju 4 0% - 19, 9% sangat tidak setuju 1 kuesioner dilakukan dengan mengajukan 9 pertanyaan yang telah disusun peneliti terkait dengan tujuan penelitian, kemudahan akses, tampilan dan fungsionalitas
+dari total 30 responden yang merupakan mahasiswa universitas nasional, didapatkan hasil yang ditunjukkan pada tabel 3
+sistem yang dirancang merupakan sistem presensi dosen dengan rata – rata waktu yang dibutuhkan yaitu 227, 1ms dan didapatkan rata – rata keberhasilan terbaca yaitu 88, 6%
+dinilai dari hasil kuesioner didapatkan nilai 87% dengan interpretasi sangat setuju yang mengartikan bahwa user dapat dengan mudah memahami dan mengoperasikan aplikasi yang dirancang

@@ -1,0 +1,84 @@
+ontologi terdiri atas konsep dan relasi yang masing-masing dapat diekstrak dengan berbagai macam metode
+salah satu metode yang dapat digunakan untuk ekstraksi relasi adalah metode berdasarkan lexico-syntactic patterns
+secara sederhana, ekstraksi relasi dilakukan dengan mendapatkan sebuah pola yang menunjukkan sebuah relasi
+kemudian dilakukan percobaan untuk menguji apakah pola yang didapatkan mampu memprediksi relasi dengan tepat
+pada penelitian ini dilakukan percobaan untuk menguji pola relasi meronymy yang didapatkan dari dataset penelitian terdahulu
+evaluasi dilakukan dengan menggunakan nilai recall dan precision
+dari penelitian ini, ditemukan bahwa banyaknya variasi dalam sekumpulan pola yang menunjukkan suatu relasi dapat mempengaruhi kemampuan kumpulan pola tersebut untuk memprediksi relasi dengan tepat
+semakin banyak variasi pola dalam satu relasi, maka ketepatan prediksi cenderung menurun
+pendahuluan sebuah domain yang saling terhubung melalui relasi antar konsep
+dalam pembelajaran ontologi terdapat dua proses, yaitu ekstraksi konsep dan ekstraksi relasi
+menemukan kata atau frasa benda yang menunjukkan sebuah entitas, sedangkan ekstraksi relasi ialah proses untuk menemukan hubungan antara konsep
+ekstraksi relasi bertujuan untuk membangun sebuah pengetahuan yang terstruktur dari teks yang tidak terstruktur
+terdapat beberapa kategorisasi tipe relasi yang biasanya didasarkan pada konteks di mana relasi tersebut ditemukan
+sebagai contoh, beberapa tipe relasi yang berbeda didefinisikan menurut: - ace 2003: role, part, at, social - geographical: geographical entity, natural ge, inhabited ge mempertimbangkan konteks dalam menentukan relasi apa yang dicari
+selain itu, pada konteks yang berbeda, relasi dapat memiliki makna atau definisi yang berbeda
+dengan demikian, evaluasi hasil ekstraksi relasi menjadi aspek yang signifikan dalam pembangunan ontologi
+terdapat beberapa metode ekstraksi relasi yang didefinisikan oleh
+beberapa metode tersebut adalah sebagai berikut: ekstraksi relasi berbasis lexico-syntactic patterns menginferensikan relasi dari berbagai pola yang ada, yang ditemukan merujuk kepada jenis relasi tertentu
+sedangkan metode berdasarkan head-modifier detection, menentukan relasi dengan melihat kepala dari sebuah kata dan imbuhan atau kata apa yang menempel pada kepala tersebut
+metode distributional analysis mencari relasi berdasarkan kemiripan pada konteks di mana sebuah kata ditemukan
+dari kata-kata yang muncul di sekitarnya
+kemiripan ini bisa berdasarkan atribut atau kemiripan relasi 
+lalu metode distributional inclusion menemukan relasi berdasarkan hirarki semantik
+ini berarti bahwa dalam satu hirarki, maka kata yang pangkatnya lebih tinggi akan menurunkan makna umumnya kepada kata di bawahnya
+basis penelitian ini adalah ekstraksi relasi berdasarkan lexico-syntactic patterns yang akan dijelaskan lebih lanjut pada bagian ii
+selanjutnya akan dijabarkan pula dataset dan metode yang digunakan pada bagian iii
+terakhir, akan diberikan hasil dari percobaan yang sudah dilakukan beserta diskusi mengenai hasil tersebut pada bagian iv dan kesimpulan dari penelitian ini pada bagian v
+kalimat tersebut mempunyai pola frasa benda diikuti dengan kata lalu frasa benda lainnya
+dari kalimat tersebut, dapat diduga bahwa adalah sejenis sekalipun kata tidak pernah ditemukan sebelumnya
+sebuah kalimat yang mengandung kata bisa menunjukkan bahwa kalimat tersebut digunakan untuk memberikan contoh
+ada berbagai metode untuk mendapatkan relasi berdasarkan lexico-syntactic patterns
+beberapa metode telah dipublikasikan oleh peneliti berikut: - hearst- pantel dan pennacchiotti- ponzetto dan strube- cederberg dan widdowspada penelitian ini, secara spesifik akan dibahas mengenai relasi meronymy atau part-whole
+relasi meronymy adalah relasi antar komponen penyusun dengan kesatuan sebuah entitas
+relasi ini berbeda dengan relasi hyponymy, yaitu relasi antara entitas dengan subsetnya
+sebagai contoh, meronim dari adalah atau ; sedangkan hiponim dari adalah atau 
+kategori yang dapat digunakan adalah bedasarkan penelitian terdahulu oleh
+berikut adalah sub-tipe tersebut dan definisinya: - member-of menunjukkan relasi antara objek fisik atau peran dengan sebuah agregasi, contohnya: pemain dan tim
+portion-of atau sub-quantity-of menunjukkan relasi antara jumlah materi atau unit, contohnya: oksigen dan air
+located-in menunjukkan relasi antar konsep dengan region dua dimensi, contohnya: jakarta dan indonesia
+contained-in menunjukkan relasi antar konsep dengan region tiga dimensi, contohnya: chip dan prosesor
+phase-of atau involved-in atau feature-activity menunjukkan relasi antara sebuah fase dengan sebuah proses, contohnya: mengunyah dan makan
+participates-in menunjukkan relasi antara konsep dan proses, contohnya: enzim dan reaksi
+evaluasi akurasi relasi yang ditemukan dapat dilakukan dengan berbagai cara
+cara yang umum adalah dengan melakukan pengecekan secara manual seperti pada penelitian
+evaluasi juga dapat dilakukan dengan menggunakan pengukuran seperti precision, recall, dan sebagainya, seperti yang dijabarkan oleh
+metode penelitian eksperimen yang dilakukan oleh
+secara garis besar, peneliti mencari pola yang menunjukkan sebuah relasi dari dataset yang ada, kemudian peneliti memprediksi relasi dari dataset lain berdasarkan pola yang sudah ditemukan
+dataset yang digunakan bersumber dari penelitian yang dilakukan oleh
+pada penelitian tersebut, data yang digunakan dihimpun dari berbagai sumber dan diolah sehingga sudah diidentifikasikan konsep dan jenis relasi meronymy terkait
+berikut: - 1stentity: konsep pertama - pattern: frasa atau kata yang menunjukkan relasi - 2ndentity: konsep kedua - 1stentity normalized: normalisasi konsep pertama - pattern normalized: normalisasi frasa atau kata yang menunjukkan relasi - 2ndentity normalized: normalisasi konsep kedua - kalimat sumber - url sumber artikel atau paragraf - subtipe relasi part-whole - urutan yang menunjukkan hubungan 1stentity dan 2ndentity: part-whole atau whole-part baris data sesuai dengan format yang dijelaskan
+percobaan dilakukan dengan pengaturan berikut: sebanyak 4000 baris data akan digunakan untuk training sementara sisanya digunakan untuk testing
+pada halaman berikut, gambar 3 adalah tahapan dalam penelitian ini
+selanjutnya akan dijabarkan masing-masing tahapan pada penelitian ini
+semua pola yang menunjukkan sebuah relasi
+field yang diambil adalah pattern normalized karena pada field ini, semua kata dikembalikan ke dalam bentuk dasarnya sehingga meminimalkan duplikasi kata atau frasa yang sebenarnya merujuk pada hal yang sama
+pada tahapan ini, data training yang digunakan murni berasal dari penelitian sebelumnya
+sesuai dengan relasi yang didefinisikan pada, didapatkan semua kata atau frasa yang mengindikasikan adanya sebuah relasi antar entitas di dalam kalimat, beserta dengan jenis relasi yang diindikasikan tersebut
+1st entity eight member the committee is made up of eight members, appointed by the board of voluntary planning http://www.dominionpaper.ca/ articles/2147 c
+penghapusan duplikat pola menghilangkan duplikat kata atau frasa
+dalam hal ini, digunakan data testing yang bersumber dari penelitian yang sama, namun diasumsikan jenis relasinya belum diketahui
+deteksi relasi dilakukan dengan cara membandingkan apakah pola yang ditemukan pada kalimat juga ditemukan pada daftar pola yang disimpan menurut kategori jenis relasi
+jika pola ditemukan pada daftar, maka dapat dikatakan bahwa jenis relasi pada kalimat bersangkutan adalah sama dengan jenis relasi pada daftar tersebut
+evaluasi recall dan precision evaluasi hasil percobaan dilakukan menggunakan perhitungan precision dan recall untuk masing-masing sub-tipe relasi
+jenis relasi yang ditemukan pada data testing berdasarkan hasil percobaan dibandingkan dengan jenis relasi sesuai label awal data training ekstraksi pola pengelompokan pola ditemukan pola untuk masing-msing sub-tipe relasi dengan jumlah seperti pada gambar 4: gambar 4 jumlah pola awal setelah duplikasi pola dihilangkan, jumlah sisa pola yang dimasukkan ke dalam daftar pola dapat dilihat pada gambar 5: gambar 5
+demikian dapat disimpulkan bahwa variasi pola untuk relasi located-in dan contained-in jauh lebih sedikit dibandingkan dengan relasi lain, seperti participates-in dan phase-of
+selanjutnya, percobaan dilakukan menggunakan sisa baris data untuk memprediksi sub-tipe relasi
+gambar 6 menunjukkan jumlah data dan perhitungan untuk recall dan precision pada masing-masing sub-tipe relasi
+hasil percobaan semuanya di bawah 50 persen
+recall yang paling rendah adalah untuk relasi stuff-of, sementara yang tertinggi adalah untuk relasi located-in
+lalu precision yang terendah adalah untuk relasi phase-of, dan yang tertinggi adalah untuk relasi member-of
+diurutkan dari yang tertinggi berdasarkan sub-tipe relasi, maka didapatkan hasil berikut seperti pada tabel 1
+tabel i component-of 5 5 6 contained-in 2 2 8 located-in 1 1 2 member-of 3 3 1 participates-in 6 6 3 phase-of 8 7 7 portion-of 4 4 5 stuff-of 7 8 4 polanya memiliki banyak duplikasi—dengan kata lain, variasi polanya sedikit, menghasilkan nilai recall yang tinggi
+hal ini mungkin terjadi karena variasi pola yang sedikit menyebabkan prediksi relasi yang benar lebih mudah
+lain halnya jika ada banyak variasi pola dalam satu sub-tipe
+banyaknya variasi pola dapat meningkatkan kemungkinan terjadinya overlap dengan pola pada sub-tipe relasi lain
+dengan kata lain, satu pola yang sama bisa ada pada beberapa sub-tipe relasi
+terdapat sub-tipe relasi yang duplikasinya banyak, namun memiliki precision yang tinggi dan sebaliknya
+secara umum, precision yang rendah ini dapat disebabkan oleh banyaknya overlap antara pola pada sub- tipe relasi yang berbeda
+demikian, ada banyak relasi yang diprediksi sebagai salah satu sub-tipe, namun kenyataannya bukan termasuk ke dalam sub-tipe tersebut
+kesimpulan untuk mengekstrak relasi berdasarkan lexico-syntactic patterns
+relasi yang diekstrak adalah relasi meronymy dengan evaluasi memakai nilai recall dan precision
+disimpulkan bahwa relasi yang memiliki banyak variasi pola lebih mampu memprediksi dengan benar sub-tipe relasi tertentu
+sedangkan untuk hasil prediksi yang benar sesuai sub-tipenya tidak dapat diamati hanya dari variasi pola
+diperlukan evaluasi lain, seperti seberapa besar overlap pola antar sub-tipe relasi

@@ -1,0 +1,58 @@
+comparison of neural network and fuzzy clustering techniques in segmenting magnetic resonance images of the brain (20 point, randhie akbar mula putra program studi teknik informatika fakultas teknik universitas tanjungpura been done often assessed sluggish, causing students and faculty not to a strict schedule so that construction consultation thesis thesis students become protracted and even abandoned
+therefore, for the sake of time efficiency and performance of lecturers and students, we need a system that can monitor and report on progress of thesis students to students, faculty and parents of students
+the purpose of this study was to produce a system of monitoring the development of information and early warning of thesis-based sms gateway that can assist in the completion of the thesis writing process to run smoothly and optimally
+information systems are built to provide student progress reports skirpsi, recapitulation students mentored by faculty, students report past its guidance and early warning in the form of sms messages automatically sent to the mobile phones of students, faculty and parents of students if there are students who do not do counseling thesis within the allotted time
+methods shows that an information system monitoring and early warning of thesis-based sms gateway can run well and help facilitate communication between faculty and students in the process of ongoing counseling thesis
+pendahuluan penyusunan tugas akhir yang terdiri dari tiga tahap yaitu praoutline, tugas akhir 1 dan tugas akhir 2 
+untuk proses praoutline menuju ta1 program studi teknik informatika fakultas teknik universitas tanjungpura sudah didukung oleh sistem pendukung outline tugas akhir sedangkan untuk memantau dan mengevaluasi perkembangan ta2 mahasiswa menggunakan kartu kemajuan penulisan skripsi yang berfungsi untuk mengukur kemajuan penulisan skripsi
+perkembangan konsultasi baik pada ta1 dan ta2 yang dituliskan pada kartu kemajuan penulisan skripsi, saat ini masih berupa lembaran kertas yang memiliki beberapa kelemahan diantaranya adalah pada saat melakukan konsultasi skripsi, kartu kemajuan penulisan skripsi tersebut terkadang tidak dibawa oleh mahasiswa atau masih dipegang oleh dosen pembimbing yang lainnya
+dengan demikian maka dosen tidak akan mengetahui siapa saja mahasiswa bimbingan yang telah mengajukan skripsi dan jadwal terakhir mahasiswa bimbingan melakukan konsultasi
+memberikan peringatan langsung terhadap para mahasiswa dan orang tua mahasiswa yang sudah sampai pada tahap pengerjaan ta2 juga menjadi kendala karena batas waktu penulisan skripsi yang diberikan adalah paling lambat dua semester terhitung sejak ditetapkan oleh pihak fakultas
+penyampaian informasi perkembangan skripsi mahasiswa sangatlah penting dalam hal meningkatkan jumlah lulusan yang ingin dicapai oleh pihak program studi teknik informatika
+namun kendala yang dihadapi dalam memberikan pemberitahuan terhadap perkembangan penulisan skripsi kepada mahasiswa dan orang tua mahasiswa adalah dosen pembimbing yang tidak menyimpan informasi database mahasiswa bimbingannya
+sehingga dosen tidak dapat mengetahui data mahasiswa dan melakukan proses bimbingan langsung dalam hal memberitahukan peringatan kemajuan penulisan skripsi mahasiswa tersebut
+mampu mendeteksi perkembangan penulisan skripsi mahasiswa baik oleh dosen pembimbing, maupun dari pihak yang melakukan evaluasi seperti program studi dan jurusan mengenai perkembangan penulisan tugas akhir serta early warning yang berbasis sms gateway sebagai sarana pemantauan bagi dosen program studi teknik informatika dan memberikan peringatan kepada mahasiswa bimbingannya beserta orang tua mahasiswa yang bersangkutan dalam mengetahui perkembangan skripsi mahasiswa yang dibimbingnya
+teori dasar 2.1 sistem informasi sistem informasi adalah suatu sistem yang dibuat oleh manusia yang terdiri dari komponen-komponen dalam organisasi untuk mencapai suatu tujuan yaitu menyajikan informasi untuk mengolah transaksi-transaksi, salah satu produk atau pelayanan mereka 
+dilakukan dan bagaimana data berpindah di dalam sistem
+untuk menggambarkan permodelan proses maka digunakan data flow diagram
+diagram dapat di lihat pada gambar 1 dibawah
+elemen-elemen dari dfd dan lambangnya 2.3 pemodelan data data yang digunakan dalam suatu sistem 
+permodelan data menunjukkan orang, tempat, atau benda dimana data tersebut diambil dan menggambarkan hubungan antar data tersebut
+salah satu cara permodelan data adalah dengan erd 
+2.4 sms gateway yang mengandung informasi berupa nomor telepon seluler pengirim, penerima, waktu dan pesan 
+informasi tersebut dapat diolah dan bisa melakukan aktivasi transaksi tergantung kode-kode yang sudah disepakati
+untuk dapat mengelola semua transaksi yang masuk dibutuhkan sebuah sistem yang mampu menerima kode sms dengan jumlah tertentu, mengolah informasi yang terkandung dalam pesan sms dan melakukan transaksi yang dibutuhkan
+aplikasi sms gateway adalah sebuah perangkat lunak yang menggunakan bantuan komputer dan memanfaatkan teknologi seluler yang diintegrasikan guna mendistribusikan pesan-pesan yang dipadukan lewat sistem informasi melalui media sms yang ditangani oleh jaringan seluler
+perkembangan skripsi dan early warning berbasis sms gateway terbagi menjadi tiga yaitu: 1
+pada aplikasi ini, admin dapat melakukan proses manajemen data, diantaranya adalah: data dosen, data mahasiswa, data user password
+pada aplikasi ini, mahasiswa dapat melakukan proses input pertanyaan yang berkaitan dengan skripsi yang dikerjakan
+pada aplikasi ini, dosen dapat menanggapi pertanyaan yang diinputkan oleh mahasiswa, dan juga dapat melakukan close bimbingan apabila bimbingan dirasa sudah cukup dan layak untuk dipersiapkan ke tahapan sidang skripsi
+berikut ini antar muka hasil perancangan sistem informasi monitoring perkembangan skripsi dan early warning berbasis sms gateway
+antarmuka sms warning lewat dari masa bimbingan yang ditentukan sesuai dengan yang diharapkan
+pengujian dilakukan dengan memasukkan data yang bernilai null pada semua field atau pada salah satu field, dilanjutkan dengan memasukkan data yang tidak sesuai, data yang sama lebih dari satu kali, dan yang terakhir adalah data yang benar sesuai dengan sampel
+perincian hasil analisis sistem informasi monitoring perkembangan skripsi dan early warning sistem berbasis sms gateway adalah sebagai berikut : 1
+sistem menampilkan data mahasiswa yang seminar proposal skripsi yang telah disetujui oleh dosen pembimbing masing-masing
+sistem dapat menampilkan batas maksimal konsultasi mahasiswa berikutnya ke masing-masing dosen pembimbing
+perhitungan batas lama konsultasi berikutnya ditentukan oleh sistem yaitu selama 14 hari, namun dosen pembimbing dapat menentukan batas lama konsultasi sesuai kesepakatan dengan mahasiswa
+sistem akan mengirimkan sms notifikasi kepada setiap akun dosen atau mahasiswa yang baru terdaftar
+sms notifikasi berisi username dan password yang dapat digunakan untuk login ke dalam sistem
+sistem akan melakukan pengecekan data mahasiswa yang sudah lewat dari masa bimbingan setiap hari pada pukul 10.00 wib, jika data ditemukan maka sistem akan mengirimkan sms warning kepada dosen, mahasiswa, dan orangtua mahasiswa yang bersangkutan
+sistem akan terus mengirimkan sms warning kepada mahasiswa, dosen, dan orangtua mahasiswa hingga dilakukan tindak lanjut oleh yang bersangkutan
+melalui hasil uji coba menggunakan gammu diketahui sistem dapat melakukan pengiriman sms warning dan sms notifikasi dengan baik kepada mahasiswa, dosen, dan orang tua mahasiswa
+mahasiswa tidak dapat melakukan bimbingan kembali sebelum dosen pembimbing menyetujui bimbingan yang telah dilakukan sebelumnya
+status bimbingan yang terdapat pada sistem dapat diketahui sebegai berikut: - open : berarti mahasiswa sedang aktif melakukan proses bimbingan dengan dosen pembimbing masing- masing
+pending : berarti mahasiswa telah melakukan proses request close bimbingan, namun belum ditanggapi oleh dosen
+close : berarti dosen telah menyetujui mengakhiri bimbingan dan mahasiswa dapat mempersiapkan tugas akhir ke tahap sidang skripsi
+pengujian pada input data dengan menggunakan metode black-box menunjukkan bahwa input data kosong pada sistem menyebabkan eksekusi tidak berhasil dan muncul pesan kesalahan atau instruksi pengisian data
+pengujian dengan input data yang tidak sesuai pada sistem menyebabkan eksekusi tidak berhasil dan muncul pesan kesalahan
+sistem akan mengeksekusi data yang dimasukkan dengan benar dan sesuai
+data akan langsung disimpan dalam basis data
+pada sistem input data yang sama akan mengalami dua kemungkinan
+pertama, data tidak akan dieksekusi karena data yang sama sudah ada sebelumnya
+hal ini dikarenakan dalam basisdata, data unik yang sama tidak diperkenankan lebih dari satu kali masuk ke dalam basisdata
+kedua, basis data memperkenankan data tersebut dimasukkan lebih dari satu kali
+kesimpulan early warning berbasis sms gateway, maka dapat dihasilkan bebrapa hal diantaranya adalah: 1
+sistem informasi monitoring perkembangan skripsi dapat membantu mahasiswa dalam proses konsultasi kepada dosen pembimbing sehingga proses penyelesaian tugas khir mahasiswa dapat selesai dengan lebih cepat
+yang bermasalah dalam penyelesaian skripsi, sehingga dosen lebih cepat untuk melakukan tindak lanjut
+sistem informasi monitoring perkembangan skripsi berbasis online sehingga dapat mempermudah komunikasi/konsultasi antara dosen dan mahasiswa
+sistem dapat mengirimkan sms notifikasi dan sms warning dengan baik kepada dosen, mahasiswa, dan orangtua mahasiswa

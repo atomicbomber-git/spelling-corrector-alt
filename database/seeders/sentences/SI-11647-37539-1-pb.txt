@@ -1,0 +1,24 @@
+maju yang ditempuh untuk perbaikan guna ruang secara terstruktur dengan hasil yang mendekati optimal pengaturan tata letak barang-barang tersebut masih menggunakan cara manual sehingga barang-barang tersebut tidak tersusun secara baik dan bisa mengakibatkan kontaminasi silang antara bahan makanan basah dan kering
+dalam tulisan ini dilakukan percobaan penggunaan metode algoritma genetika untuk mengetahui fitness function dari setiap letak barang untuk menghasikan optimasi penentuan tata letak barang pada rak
+fitness function adalah nilai yang menyatakan baik tidaknya suatu solusi
+fitness function ini yang dijadikan acuan dalam mencapai nilai optimal dalam algoritma genetika
+terdapat beberapa data yang harus dikelola sistem yaitu data pengguna, data barang, data rak, dan perhitungan algoritma genetika untuk menghasilkan fitness function
+aplikasi optimasi tata letak barang ini dapat membantu pihak staff minimarket dalam menentukan posisi barang pada rak
+tujuan dari penelitian ini adalah menghasilkan aplikasi optimasi tata letak barang dengan menggunakan algoritma genetika
+output dari aplikasi ini berupa posisi barang pada rak, urutan barang pada rak dengan fitness function ≥ 95% dinyatakan optimal berdasarkan hasil pengujian pengguna menggunakan skala likert pada aspek penilaian aplikasi hak akses admin memiliki nilai rata-rata 23, 2 dengan interpretasi nilai baik untuk diimplementasikan, pada penilaian visual hak akses admin memiliki nilai rata-rata 24, 5 dengan interpretasi nilai sangat baik untuk diimplementasikan, dan pada penilaian hak akses manager memiliki nilai rata-rata 27 dengan interpretasi nilai sangat baik untuk diimplementasikan
+nilai ini menunjukkan bahwa aplikasi tata letak barang dengan algoritma genetika baik untuk diimplementasikan
+terstruktur dengan hasil yang mendekati optimal hal ini dilakukan agar masalah yang terjadi selama ini dapat terselesaikan dengan satu solusi terbaik guna membangkitkan keselarasan dari masing-masing ruang yang ada dalam satu denah
+akan tetapi permasalahan yang terjadi saat ini adalah terjadinya ketidakteraturan tata ruang, adanya beberapa pengaturan luas ruang, perkiraan kebutuhan dan penurunan kualitas ruang
+penataan ruangan dalam rumah haruslah menguntungkan penghuninya
+kota pontianak yang menjual berbagai macam bahan-bahan makanan yang berupa sayur-sayuran segar, daging, bumbu dapur yang kering maupun basah, roti, snack, dan minuman
+pengaturan tata letak barang-barang tersebut masih menggunakan cara manual sehingga barang-barang tersebut tidak tersusun secara baik dan bisa mengakibatkan kontaminasi silang antara bahan makanan basah dan kering
+berdasarkan latar belakang masalah tersebut, maka perlu dibuat sebuah program aplikasi optimasi penentuan tata letak barang dengan menggunakan algoritma genetika yang dapat memberikan suatu cara penyusunan/tata letak penyimpanan barang pada suatu tempat penyimpanan dengan memasukkan data tempat penyimpanan dan data barang-barang yang akan disimpan akan diperoleh posisi-posisi barang dan gambar tata letaknya pada tempat penyimpanan, dimana solusi yang dihasilkan sudah bisa dikatakan optimal program aplikasi yang dihasilkan diharapkan dapat dimanfaatkan sebaik- baiknya untuk memaksimalkan tempat penyimpanan barang di freshmart pontianak
+potensi, lokasi, nilai, jumlah atau volume, legal dan ekonomi yang dimiliki letak tersebut
+secara umum tujuan optimalisasi tata letak dimaksudkan untuk mengidentifikasi dan inventarisasi semua aset yang meliputi bentuk, ukuran, fisik, legal, sekaligus mengetahui nilai optimal masing-masing tata letak tersebut yang mencerminkan manfaat efisiennya
+tata letak barang membentuk konsep, merancang, dan mewujudkan sistem bagi pembuatan barang atau jasa
+kegiatan perancangan fasilitas berhubungan dengan perancangan susunan unsur fisik suatu lingkungan
+pemodelan evolusi yang dikembangkan oleh john holland pada dekade 1960 dan 1970-an dengan tujuan memodelkan perkembangan optimasi tata letak barang dengan menggunakan algoritma genetika studi kasus freshmart pontianak andini novia e-mail: andini.novia21@gmail.com 1, tursina15@yahoo.com diimplementasikan sebagai simulasi yang berawal dari sebuah populasi yang dihasilkan secara random dan terdiri dari kromosom-kromosom, seperti halnya anggota tubuh makhluk hidup dan merepresentasikan solusi dari masalah
+populasi tersebut akan menghasilkan keturunan populasi yang baru dan diharapkan lebih baik dari populasi sebelumnya
+semakin baik kondisi suatu populasi, semakin besar kemungkinan populasi itu untuk dikembangkan menjadi populasi selanjutnya
+kondisi ini diulangi sampai mendapatkan kondisi yang diharapkan, dengan kata lain solusi terbaik sudah diperoleh
+yang digunakan untuk mengukur nilai kecocokan atau derajat optimalitas suatu kromosom disebut dengan fitness function

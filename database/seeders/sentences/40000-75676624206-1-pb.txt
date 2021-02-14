@@ -1,0 +1,146 @@
+user experience is a term for the experience of users in having an easiness and efficiency in the interaction between humans and computers
+codesaya is an easy, fun, and free place to learn about coding
+there are some programming languages which can be learned
+this research aimed to analyze the effectiveness of the codesaya.com website to learn the basics of programming by using a measurement method of the user experience questionnaire 
+there are six examined scales, namely attractiveness, perspicuity, efficiency, dependability, those six scales positively affected the students' attentions to use the programming framework with 1.722 of attractiveness score, 1.456 of perspicuity score, 1.718 of efficiency score, 1.46 of dependability score, and 1.44 of stimulation score, these scores showed that the five scales were at a high level, while novelty was at a moderate level with 1.147 of the score
+according to the whole data processing and analysis were done in this study, it can be concluded that codesaya website can improve the learning effectiveness of programming languages
+codesaya.com network that is designed for learning purposes
+at present, almost every academy or high school has used e-learning in their learning process
+in a simple term, e-learning is a teaching and learning process done through a computer connected to the internet at a high education level, every university that offers computer science, major, has a subject that teaches students to create programs
+the programming subject is an essential component to learn
+however, programming subject is considered as difficult, complex, and included in the category of seven big challenges in computational education
+one of the difficulties in learning the programming subject is caused by a lack of skills by students in performing the tracing of program codes, breakdown the programming tasks, lack of problem-solving, and debugging skills
+therefore, this issue affects the motivation of students to learn to program
+programming is one of the primary skills that should be owned by every computer science student
+learning the programming language is a complex challenge, so it requires proper instruments as the learning media
+at present, many programming frameworks can be used to create programs or applications, including scratch, trinket, and el-goritma
+trinketis an open-source learning medium built by trinket’s team
+this program can be downloaded at https://trinketio/
+this application can emerge 79% of interest toward the learning of programming
+el-goritmais an e-learning web that is based on html, css, php, mysql
+it users wish that el-goritma can be improved, and the errors that exist within it can be fixed
+scratch is a visual programming for children that available freely at http://scratch.mit.edu/
+scratch is designed to be attractive, educative, and easy to be learned by children
+however, it is not much appealing for students in universities who study programming subjects
+associated with the world of programming, coding, and the procedure to the fathom information technology field
+it is present to support novice programmers to fathom the programming world
+this website has complete features for programming languages such as python, php, java, and many others
+however, the impact of the site itself is a challenge for platform owners to understand what is wanted and needed by the users for the development of their site based on those two elements
+one of the methods to discover user perception is through the user experience approach
+user experience is the perception and response of users as the reaction of the utilization of a product, system, or service
+user experience is about how users experience pleasure and satisfaction by using, seeing, or holding the product
+computer standards & interfaces developing a ux kpi based on the user experience questionnaire
+perancangan dan evaluasi user interface aplikasi smart grid berbasis mobile application
+pengukuran user experience pada e-learning di lingkungan universitas menggunakan user experience questionnaire (ueq)
+procedia - procedia computer science”, ,, 
+learning for programming languages has yet to be done
+therefore, the author was interested to conduct research by taking the title of "analyzing user experience at codesaya.com website for the learning of python programming language
+" it is expected that this research will help the development of the codesaya website to design a better user interface based on the rating of users
+literature review programming language easily without having to conduct any installation on their computers
+ganis, with his team as the developer codesaya, created this platform as a form of response toward a current assumption that at present, coders are highly required, and the number of coders in indonesia is still minimum
+codesaya was built from several other technologies, such as: 1
+django is a framework in creating web apps that use python programming language in it
+bootstrap is a framework for html and css
+jquery is a de facto javascript framework for website developments
+postgree sql is a type of database used in this codesaya platform
+nginx is useful as a web proxy server that will manage requests from the internet while gunicorn is a useful service to run python code to serve the request of http
+1 the page display of codesaya.com website b
+ueq “ueq or user experience questionnaireis one of the questionnaires that can be used in the usability test to measure the rating of user experience of a product"
+the purpose of ueq is to allow a quick measurement done by end-users that includes a more comprehensive impression of user experience
+this instrument should allow the users to express their feeling, impression, and attitude that occur when they experience the studied product in a direct and simple manner
+ueq can be downloaded in ww.ueq- online.com
+six scales are available with 26 total elements that being categorized based on measurement scales available in ueq
+each item can be measured on a 7- point likert scale
+the range of the scale is between -3, and +3 
+the user experience scales in the questionnaire are : a) attractiveness; how attractive a product is
+b) perspicuity; how perspicuous a product is
+c) efficiency; how many users can finish their tasks efficiently without much effort
+, fast or slow, practical or impractical d) dependability; how much the accuracy is experienced by users through the control they have
+, predictable or unpredictable, supportive, or obstructive
+e) stimulation; how much the motivation to use a product is
+, useful or less useful, interesting or uninteresting
+f) novelty; how much the novelty of a product is
+, creative or uncreative, conservative or inventive
+perspicuity, efficiency, and dependability are categorized in pragmatic quality aspects orientating on purposes
+therefore, users have to conduct tasks in achieving purposes
+while stimulation and novelty are hedonic quality aspects that are not orientating on purposes, therefore, users only conduct tasks without having to achieve purposes
+ueq data will be processed automatically if the data are entered into the ueq data analysis tool, which is created through microsoft excel and can be downloaded along with the questionnaire file
+the entered data will have data transformation, mean value calculation, variance, and standard of deviation calculation, as well as the calculation of confidence interval and the comparison with benchmark data set
+benchmark data set was a set of data of 18, 483 respondents from 401 studies on various products, such as business application, webpage, web store, and social network
+the validity and reliability of the instrument can also be analyzed by inspecting the calculation results of correlation and cronbach's alpha
+in that order, the researcher can see whether the acquired data are feasible and reliable as the basis of measurement of user experience rating
+perspective of the data analysis tool, namely: 1
+data transformation tool experience data transformation process such as order of values (i.e
+, whether the positive term is left or right in an item) randomized within the questionnaire to minimize the trend of the answer
+respondents rated every item in a 7-point likert scale
+completely agree with the negative term
+completely agree with the positive term
+the answers were scaled from -3 to +3 
+half of the items started with a positive term; the rest started with a negative term 
+the transformed data will generate individual mean values with respective grouping based on the pre-determined scales, namely attractiveness, perspicuity, efficiency, dependability, follows:  personx = total value of item scale item = number of items per scale 2
+main outcome acquire the main outcome i.e
+results are the main outcome of ueq, which will become the guideline for the next measurement, namely benchmark dataset at this stage, all scales and assumption scales were determined through mean and variance calculations of the mean of per-scale data conversion results
+per-scale mean results were determined with standards, namely mean impression value, which was ranged between -0.8 and 0.8— categorized as normal evaluation score, >0.8 scores as positive evaluation, and <-0.8 scores as negative evaluation
+the calculation of results' mean is as follows:   item  personx = total value of item scale item = total respondents c
+benchmark dataset data of 246 products done through ueq 
+the benchmark calculation was used to describe the difference of quality between dimans's site and 246 products from ueq's evaluation data
+of the comparison values that is used, the mean results of the analysis of results were acquired
+the standard of benchmark classifies a product into five categories : • bad: mean result <0, 7 platform then continued by designing the questionnaire, collecting and processing data that will be acquired from the questionnaire
+the processed data will eventually be analyzed to gain final conclusions
+the research methodology is performed through the steps presented in figure 3
+questionnaire designing the format established in the questionnaire that is used was in the form of ueq, which will be performed on computer system students, especially those who take programming languages subject
+first of all, the filling will be done by students through handphones, tablets, or computers in which the link for the questionnaire filling will be widely distributed toward every participant
+besides, in the form of a link, the participants will also fill the questionnaire in the form of a print questionnaire that'll be used as the comparator toward the data available within the link
+the measurement scales will be performed by answering 26 question items that have 1-7 of scale
+consisted of four people from the class of '15, eight people from the class of '16, six people from the class of '17, and 54 people from the class of '18; all in bachelor's degree and amounted to 170 respondents
+the given scenario toward each respondent was they attempt to learn the basic programming of python from codesaya.com website, and then fill their impression about the platform on ueq
+respondents will be provided with the opportunity to answer spontaneously in a period of 5 to 10 minutes
+provided were collected; thus, the questionnaire data will be processed through the steps as follows: 1
+re-checking to see if there are any data loss, missing, or inconsistent with the measurement
+after the data were cleaned, thus, the frequency can be acquired from the data
+recalculating the answers of the respondent and performing data processing
+benchmark was acquired from measurement results
+next, the data of questionnaire testing results were elucidated
+the data processing results will be discussed within the next chapter i.e
+this stage will describe the data processing results of field survey testing results by applying ueq
+then, the results of data processing will be used as the reference to create recommendations for improvement based on a good user experience
+points were referring to the list of ueq which available online
+the testing was done for several days toward the students of the computer system of universitas andalas, who take programming languages subject, so the respondents will be more varied
+table i ueq scales attractiveness 1.722 0.56 perspicuity 1.456 0.91 efficiency 1.718 0.72 dependability 1.488 0.66 stimulation 1.684 0.81 novelty 1.147 0.80 attractiveness score, 1.456 of perspicuity score, 1.718 of efficiency score, 1.46 of dependability score, and 1.44 of stimulation score, these scores show that those five scales are at a high level, whereas the novelty scale is at a moderate level with 1.147 of the score
+figure 4 is the results of value transformation from measurement results of each individual that have been collected in a sequence of value (i.e
+, whether the positive term is left or right in an item) randomized in the questionnaire to minimize the trend of the answer
+the respondents rated every item on a 7-point scale
+completely agree with the negative term
+completely agree with the positive term
+the answers were scaled from -3 to +3 
+half of the items started with a positive term; the rest started with a negative term 
+because of the testing results are above the scale of 0
+thus, the testing results can be determined as having a positive quality aspect
+conversely, if the values are less than 0; thus, the results represent negative outcomes
+figure 5 shows the benchmark of the measurement results in which attractiveness, efficiency, dependability, and novelty are at a good scale
+whereas perspicuity is at an above-average scale, and stimulation is at an excellent scale
+5 the benchmark of measurement results the novelty scale included creative/monotonous, inventive/conventional, usual/leading-edge, be considered and prioritized to be improved
+meanwhile, on the other scale, the user-friendly and innovative were the points to be considered
+on the scale of perspicuity, the points that should be put into consideration for improvement were easy-to-learn and confusing
+the efficiency scale rate quite high
+the scale of dependability was rated quite high because the application can be predicted and fulfilled the expectation
+the stimulation scale was considered as boring and unattractive
+feedbacks toward the application that has been accessed and measured
+the obtained feedbacks were: a) most of the respondents want the change to the display, so it would not look rigid, and it can follow the current trend of applications
+b) codesaya page should be more organized
+currently, all subject-based materials are displayed on one page
+therefore, they are less comfortable and confusing for respondents
+c) some improvements are required during the coding because some bugs have been found, wrong coding read by system as correct, and so thus the opposite
+d) most of the respondents also request a video feature for material discussion, so the users will have more understanding in learning the desired materials
+e) codesaya should add a feature of error detection in the coding so that the users will find the mistake should they make one
+f) because most of the respondents conduct website evaluation via their mobile, thus, they ask the mobile version to be more friendly to make it comfortable to use
+can be used to complete the improvement suggestion on the learning platform of codesaya
+conclusion after the measurement was done to reveal the rating of user experience on codesaya toward students who take programming languages subject in computer system department of universitas andalas, padang, some conclusions are acquired as follows
+the mean scale on attractiveness was 1.722, 1.456 on perspicuity, 1.718 on efficiency, 1.488 on dependability, and 1.684 on stimulation; these scores show that those five scales are at a high level, whereas the novelty scale is at a moderate level with 1.147 of the score
+the novelty scale has been rated as low because it was not user-friendly and conservative
+perspicuity scale needs to be improved
+therefore, the application will be clear and easy to learn
+on the efficiency scale, the level of access speed became a consideration while on stimulation, the application was considered as boring and unattractive
+for the novelty scale, the entire points need to be improved
+according to the results of the entire data processing and analysis done in this study, thus, a conclusion can be taken, which showed that the effectiveness of learning could be enhanced through a medium of codesaya website
+the feedback from the respondents demand an improvement of ux in codesaya, so this website can provide new and more unique learning from the previous because respondents perceived that the conducted method was too monotonous

@@ -1,0 +1,107 @@
+meningkatnya pengguna internet membuat semakin meningkat pula pembelian barang secara online
+untuk memenuhi kebutuhan pengiriman barang, saat ini banyak lahirperusahaan jasa pengiriman barang yang terus berkembang dan bersaing untuk merebut pasar
+dan sebagai pengguna online shop juga pastinya akan sangat bingung dan kesulitan dalam memilih jasa pengiriman barang sehingga mempertimbangkan faktor lain dalam memilih jasa pengiriman barang
+mulai dari harga, pengemasan barang, lama pengiriman barang, banyaknya cabang, layanan sistem hingga pelayanan membuat pengguna online shop bingung dalam memilih jasa pengiriman barang terbaik sesuai kebutuhan pengguna
+oleh karenanya tujuan dari penelitian ini adalah untuk memberikan informasi kepada pengguna dalam memilih jasa pengiriman yang terbaik dengan menerapkan metode simple additive weighting untuk melakukan perhitungan pada kasus pemilihan jenis pengiriman barang terbaik
+berdasarkan data hasil perhitungan maka jasa pengiriman barang alternatif j&t menjadi alternatif terbaik disusul dengan tiki di peringkat kedua kemudian berada di urutan berikutnya adalah jne di peringkat ketiga sedangkan wahana berada diperingkat terakhir
+pendahuluan meningkat pula pembelian barang secara online
+baik pembeli, maupun penjual yang menggunakan transaksi secara online dalam pengiriman barangnya dapat menggunakan 2 metode pengiriman barang, yaitu bertemu secara langsung, atau mengunakan jasa pengiriman barang
+setiap individu membutuhkan pengiriman barang yang cepat dan aman untuk memastikan barang yang dikirimkan sampai pada waktu dan tempat yang tepat
+karena pengguna pengiriman barang semakin meningkat
+untuk memenuhi kebutuhan pengiriman barang, saat ini banyak lahir perusahaan jasa pengiriman barang yang terus berkembang dan bersaing untuk merebut pasar
+dan sebagai pengguna online shop juga pastinya akan sangat bingung dan kesulitan dalam memilih jasa pengiriman barang sehingga mempertimbangkan faktor lain dalam memilih jasa pengiriman barang
+mulai dari harga, pengemasan barang, lama pengiriman barang, banyaknya cabang, layanan sistem hingga pelayanan membuat pengguna online shop bingung dalam memilih jasa pengiriman barang terbaik sesuai kebutuhan pengguna
+karena itu diperlukan data yang lengkap dan metode penilaian untuk mengetahui jasa pengiriman barang yang sesuai dengan keingingan pengguna
+bagaimana pengguna online shop membuat keputusan untuk memilih jasa pengiriman mana yang terbaik
+bagaimana menerapkan metode simple additive weighting untuk pemilihan jasa pengiriman terbaik sebagai solusi dari permasalahan tersebut
+mempermudah para pengguna online shop dalam memilih jasa pengiriman
+menerapkan metode simple additive weighting untuk pemilihan jasa pengiriman terbaik
+dalam penelitian ini alasan penulis menggunakan metode simple additive weighting adalah keunggulan dari metode simple additive weighting dibandingkan dengan metode sistem keputusan yang lain terletak pada kemampuannya dalam melakukan penilaian secara lebih tepat karena didasarkan pada nilai kriteria dan bobot tingkat kepentingan yang dibutuhkan
+dalam metode simple additive weighting juga dapat menyeleksi alternatif terbaik dari sejumlah alternatif yang ada kemudian dilakukannya proses perangkingan yang jumlah nilai bobot dari semua kriteria dijumlahkan setelah menentukan nilai bobot dari setiap kriteria
+pengambilan keputusan merupakan suatu pendekatan yang sistematis terhadap suatu masalah yang dihadapi
+definisi pengambilan keputusan menurut siagian dalam s.as 
+dari penjelasan pengambilan keputusan diatas, dapat disimpulkan bahwa pengambilan keputusan merupakan suatu proses pemilihan alternatif terbaik dari beberapa alternatif
+menurut davis dalam frieyadie mengemukakan bahwa terdapat dua model pengambilan keputusan, yaitu model sistem tertutup dan model sistem terbuka
+model sistem tertutup dapat diambil tanpa campur tangan dari lingkungan sistem, karena sistem pengambilan keputusan tidak dipengaruhi oleh lingkungan
+dalam hal ini sistem pengambilan keputusan dianggap:  memiliki metode untuk menyusun alternatif-alternatif sesuai prioritasnya
+ dapat memilih/menetapkan alternatif yang paling menguntungkan, misalnya dari segi laba, manfaat, dan lain-lain
+pengambilan keputusan dan lingkungan memiliki hubungan saling pengaruh
+keputusan yang diambil akan berdampak terhadap lingkungan dan sebaliknya lingkungan juga berpengaruh terhadap sistem pengambilan keputusan
+dalam hal ini sistem pengambilan keputusan dianggap:  hanya mengetahui sebagian saja dari alternatif-alternatif untuk menangani permasalahan dengan segala konsekuensinya
+sistem pendukung keputusan atau yang biasa disebut decision support system(dss) adalah sebuah sistem yang ditujukan untuk mendukung para pengambil keputusan manajerial untuk masalah semiterstruktur
+system) mengemukakan bahwa 
+merupakan sistem informasi interaktif yang menyediakan informasi, pemodelan, dan pemanipulasian data
+sistem itu digunakan untuk membantu pengambilan keputusan dalam situasi yang semi terstruktur dan situasi yang tidak terstruktur, dimana tak seorang pun tahu secara pasti bagaimana keputusan seharusnya dibuat
+dss biasanya dibangun untuk mendukung solusi atau suatu masalah untuk mengevaluasi suatu peluang
+dss yang seperti itu disebut aplikasi dss
+aplikasi dss digunakan dalam pengambilan keputusan
+aplikasi dss menggunakan cbis yang fleksibel, interaktif, dan dapat diadaptasi, yang dikembangkan untuk mendukung solusi atas masalah manajemen spesifik yang tidak terstruktur
+tujuan dari sistem pendukung keputusan menurutturban dalam rusman yaitu: 1
+membantu manajer dalam mengambil keputusan atas masalah semi terstuktur
+memberikan dukungan atas pertimbangan manajer dan bukan dimaksudkan untuk menggantikan manajer
+karakteristik sistem pendukung keputusan menurut nofriansyah dalam ilham & bahri karakteristik dari sistem pendukung keputusan yaitu: 1
+mendukung proses pengambilan keputusan suatu organisasi atau perusahaan
+adanya interface manusia/mesin dimana manusia tetap memegang kontrol proses pengambilan keputusan
+mendukung pengambilan keputusan untuk membahas masalah terstruktur, semi terstruktur, serta mendukung beberapa keputusan yang berinteraksi
+memiliki kapasitas dialog untuk memperoleh informasi sesuai dengan kebutuhan
+memiliki subsistem yang terintegrasi sedemikian rupa sehingga dapat berfungsi sebagai kesatuan sistem
+memiliki dua komponen utama yaitu data dan model
+tujuan dari keputusan adalah untuk mencapai target atau aksi tertentu yang harus dilakukan
+adapun kriteria atau ciri-ciri dari keputusan adalah sebagai berikut:  banyak pilihan/alternatif
+skala yang digunakan untuk mengukur persepsi, sikap atau pendapat seseorang atau kelompok mengenai sebuah peristiwa atau fenomena sosial, berdasarkan definisi operasional yang telah ditetapkan oleh peneliti”
+metode saw sering juga dikenal istilah metode penjumlahan terbobot
+metode simple additive weighting menurut sitompul 
+konsep dasar metode saw adalah mencari penjumlahan terbobot dari rating kinerja pada setiap alternatif pada semua atribut
+metode saw membutuhkan proses normalisasi matriks keputusan ke suatu skala yang dapat diperbandingkan dengan semua rating alternatif yang ada
+metode penelitian adapun langkah - langkah penelitian ini adalah sebagai berikut: gambar
+1 langkah – langkah penelitian sumber : emzir adapun langkah-langkah penelitian yang dilakukan adalah sebagai berikut: kerja atau fondasi untuk penelitian adalah identifikasi masalah yang berhubungan dengan masalah penelitian
+tahap ini dibangun berdasarkan rumusan masalah yang didasari atas latar belakang masalah
+masalah yang ditemukan adalah bagaimana melakukan penilaian pemilihan jasa pengiriman barang terbaik menggunakan metode simple additive weighting
+literatur penelitian merupakan sumber dari informasi demikian
+maupun jurnal sehingga akan didapatkan alternatif terbaik
+data yang sudah dikumpulkan kemudian diolah dan dianalisis
+penarikan kesimpulan berdasarkan hasil pengolahan data
+yang diperlukan atau yang dipergunakan untuk mengumpulkan data
+yang digunakan dalam penelitian ini adalah menggunakan kuesioner
+kuesioner disusun dalam bentuk pernyataan atau pertanyaan yang akan dijawab oleh responden
+dengan memberikan kuesioner tentang penilaian jasa pengiriman barang dan data dari kuesioner tersebut dapat dengan cepat dianalisis
+data tersebut meliputi skor penilaian jenis pengiriman barang berdasarkan kriteria harga, pengemasan barang, lama pengiriman barang, banyaknya cabang, layanan sistem, dan pelayanan
+adapun alat yang digunakan dalam penelitian ini adalah sebagai berikut : yaitu intel® celeron® cpu 1000m @1.80ghz 1.80ghz, memory 2.00 gb ram excel 2013 untuk mengolah data kuesioner
+metode pengumpulan data teknik pengumpulan data merupakan langkah yang paling utama dalam penelitian, karena tujuan penelitian adalah untuk mendapatkan data pada penelitian
+maka peneliti akan mengggunakan teknik dan alat pengumpulan data sehingga diperoleh data yang objektif
+menggunakan 2 sumber data yaitu data primer dan data sekunder
+data primer adalah data yang didapatkan dari sumber pertama
+menurut 
+data primer yang digunakan dalam penelitian ini adalah melakukan wawancara terhadap pengguna jasa pengiriman barang terkait dengan penelitian dan menyebarkan kuesioner dan membaca jurnal-jurnal penelitian
+data sekunder adalah data yang didapatkan dari pustaka serta arsip yang berkaitan dengan penelitian
+menurut 
+data sekunder yang digunakan dalam penelitian ini adalah mengumpulkan data- data yang diperoleh melalui buku-buku referensi, jurnal dan informasi lainnya yang ada hubunganya dengan masalah yang diteliti
+sebagian unsur populasi yang dijadikan objek penelitian”
+metode analisis data dalam pemilihan jasa pengiriman barang terbaik ini akan menggunakan metode simple additive weighting diperlukan kriteria-kriteria dan bobot untuk melakukan perhitungannya sehingga akan mendapatkan alternatif terbaik
+perhitungan bisa dilakukan secara manual dengan menggunakan microsoft excel
+metode simple additive weighting merupakan metode penjumlahan terbobot
+konsep dasar metode saw adalah mencari penjumlahan terbobot dari rating kinerja pada setiap alternatif pada semua atribut
+metode saw membutuhkan proses normalisasi matriks keputusan ke suatu skala yang dapat diperbandingkan dengan semua rating alternatif yang ada.dari sekian banyak jasa pengiriman barang, akan diambil empat jasa pengiriman sebagai contoh untuk penerapan metode simple additive weighting dalam pemilihan jasa pengiriman barang terbaik
+ada empat jasa pengiriman barang yang menjadi alternatif yaitu: pengambilan keputusan
+setelah selesai dalam penentuan kriteria, maka akan ada nilai bobot untuk masingmasing kriteria
+dimana pemberian nilai bobot diukur berdasarkan kriteria terpenting dalam proses keputusan pemilihan jasa pengiriman barang
+untuk pembobotan kriteria dapat dilihat pada table dibawah ini: penilaian keputusan pemilihan jasa pengiriman barang
+tabel iii kriteria keterangan c6 pelayanan 15 0, 15 iii
+menentukan data alternatif pada penelitian ini, penulis mengambil 4 jasa pengiriman barang yang sudah ada yang dijadikan alternatif dalam proses pemilihan
+setelah selesai dalam penentuan kriteria, maka akan ada nilai bobot untuk masing-masing kriteria
+dimana pemberian nilai bobot diukur berdasarkan kriteria terpenting dalam proses keputusan pemilihan jasa pengiriman barang
+untuk pembobotan kriteria dapat dilihat pada table dibawah ini: tabel v bobot penilaian tabel vi tabel vii e
+membuat matriks keputusan membuat matriks keputusan berdasarkan kriteria ci, kemudian melakukan normalisasi matriks berdasarkan persamaan yang disesuaikan dengan jenis atribut sehingga diperoleh matriks ternormalisasi r
+melakukan normalisasi matriks keputusan berikut ini adalah rumus untuk melakukan normalisasi matriks: pengelompokan atribut kriteria yang terdiri dari dua atribut yaitu benefit dan cost, dan untuk kriteria c1 dan c3 merupakan atribut cost dikarenakan nilai terkecil adalah terbaik sedangkan c2, c4, c5, dan c6 merupakan atribut benefit dikarenakan nilai terbesar adalah terbaik
+berikut ini merupakan tabel pengelompokan atribut kriteria: tabel viii dapat melakukan normalisasi matriks keputusan menggunakan rumus yang sudah ada
+membuat matriks ternormalisasi dari hasil perhitungan di atas, maka didapat matriks ternormalisasi sebagai berikut : h
+menghitung nilai preferensi nilai preferensi diperoleh dari menjumlahkan hasil kali antara matriks ternormalisasi dengan nilai bobot
+nilai preferensi untuk setiap alternatif diberikan rumus sebagai berikut: telah diberikan oleh pengambil keputusan: hasil perhitungan nilai preferensi dari proses perhitungan diatas dapat dilihat pada tabel
+dapat dikatakan bahwa j&t mendapatkan nilai tertinggi disusul dengan tiki kemudian berada di urutan berikutnya adalah jne sedangkan wahana berada diposisi terakhir 
+dengan demikian alternatif a2 merupakan alternatif jasa pengiriman barang terbaik dengan bobot nilai paling tinggi
+dengan kata lain j&t merupakan jasa pengiriman barang terbaik
+kesimpulan dan saran berdasarkan penelitian yang penulis lakukan melalui analisis dan kuesioner yang disebarkan dan diolah maka dapat disimpulkan bahwa : 1
+pemilihan kriteria dalam menentukan jasa pengiriman barang terbaik dan penentuan atribut kriteria mempengaruhi hasil perhitungan pada metode simple additive weighting 
+melalui analisis dan kuesioner yang disebarkan menunjukan bahwa kriteria harga merupakan kriteria yang tertinggi dalam jasa pengiriman barang yaitu dengan bobot 25%, selanjutnya kriteria lama pengiriman sebesar 20% dan pengemasan barang, layanan sistem & pelayanan sebesar 15% dan selanjutnya banyaknya cabang sebesar 10%
+berdasarkan data hasil perhitungan dengan menggunakan metode simple additive weighting dan dari hasil kuesioner yang terdiri dari kriteria harga, pengemasan barang, lama pengiriman, banyaknya cabang, layanan sistem dan pelayanan, alternatif j&t menjadi alternatif terbaik disusul dengan tiki di peringkat kedua kemudian berada di urutan berikutnya adalah jne di peringkat ketiga sedangkan wahana berada diperingkat terakhir
+ucapan terima kasih / acknowledgment mahasiswa dan staf dari stmik nusa mandiri yang terlibat dalam penelitian ini, semoga penelitian ini dapat membantu membuat suatu sistem keputusan dalam pemilihan jasa pengiriman terbaik untuk masyarakat luas

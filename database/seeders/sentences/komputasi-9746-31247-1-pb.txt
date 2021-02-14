@@ -1,0 +1,83 @@
+web service is a software system designed to support machine to machine interaction over a network
+advantages offered in the web service is the ability to perform communication between different systems of database and servers
+in a university course, there are a variety of web-based services
+by using web services, data synchronization between the service will be easy to do
+therefore web service implemented as a supporting media content management tanjungpura university portal web service is implemented in terms of news management and implementation of sso 
+in the news management, with the implementation of web service, the news contained in the tanjungpura university portal not only from the portal database itself but also can be derived from the database of faculty websites and websites that are in the tanjungpura university environment
+while the sso implementation, with the implementation of web service users can use the tanjungpura university services simply by doing one-time login process
+from the analysis of the test results it can be concluded that the web service has been successfully applied as supporting media news management, web services has been successfully applied as a supporting media single sign-on system, and the whole system has been implemented properly
+keywords: web service, single sign on, news, portal, media supporting system 1
+pendahuluan pada dasarnya penerapan web service dapat sangat beragam, tergantung dari kebutuhan penggunanya
+keunggulan yang ditawarkan di dalam web service adalah kemampuan untuk melakukan komunikasi antar sistem yang berbeda server dan database
+salah satu contoh penerapan web service yang cukup diminati pada saat ini adalah fasilitas sinkronisasi berita yang terdapat didalam website, dan single sign on 
+sso adalah teknologi yang mengizinkan pengguna jaringan agar dapat mengakses sumber daya jaringan hanya dengan menggunakan satu akun pengguna saja
+dengan menggunakan single sign on, seorang pengguna hanya cukup melakukan proses autentikasi sekali saja untuk mendapatkan izin akses terhadap semua layanan yang terdapat di dalam jaringan
+salah satu peran dari website universitas adalah menjadi portal atau gerbang bagi pengunjung untuk mengakses seluruh atau sebagian isi dari website – website pendukung yang disediakan oleh universitas tersebut
+proses ini dapat berjalan dengan baik apabila website universitas dan website – website pendukungnya telah terhubung dan terdapat sinkronisasi data yang akurat, baik yang dilakukan secara manual maupun otomatis
+mengingat banyaknya website – website pendukung yang dimiliki oleh sebuah universitas, tentu saja setiap website akan memiliki database-nya masing – masing, walaupun dalam sebuah server yang sama
+dengan bantuan web service, sinkronisasi data yang diperlukan dalam sebuah website universitas akan lebih mudah dilakukan
+portal web portal web adalah sebuah situs web atau laman di jaringan internet yang dirancang sedemikian rupa untuk memenuhi semua kebutuhan dan keinginan pengunjung
+portal biasanya menjadi titik starting point bagi pengunjung ketika memulai aktivitas penjelajahan mereka di internet 
+portal web pertama kali populer pada awal tahun 1990-an
+banyak perusahaan, lembaga, dan komunitas yang membangun portal web sebagai sarana promosi dan memperkenalkan institusi mereka kepada masyarakat
+perkembangan portal web semakin populer setelah perkembangan dan kehadiran web browser pada pertengahan tahun 1990-an
+informasi dan layanan yang disediakan oleh sebuah portal web sangat penting untuk menciptakan dan memberikan kenyamanan serta kemudahan bagi pengunjung
+sehingga pengunjung merasa betah, tergantung dengan fasilitas portal dan memiliki keinginan untuk kembali mengunjungi website tersebut secara reguler
+jika pengunjung merasa puas dengan manfaat layanan yang disediakan oleh portal, maka mereka dengan sukarela akan menjadikan portal tersebut sebagai halaman pertama pada browser internet mereka
+bahkan lama kelamaan mereka dengan sukarela mendaftar sebagai member portal tersebut
+web service menurut world wide web cobsortium web service adalah suatu sistem perangkat lunak yang didisain untuk mendukung interaksi mesin ke mesin pada suatu jaringan
+sebagai contoh, antara java dan python, atau microsoft windows dan aplikasi linux
+perangkat lunak aplikasi yang ditulis dalam berbagai bahasa pemrograman dan berjalan pada berbagai platform dapat menggunakan web service untuk pertukaran data pada jaringan komputer seperti internet dalam cara yang serupa dengan komunikasi inter- process pada komputer tunggal interoperabilitas ini adalah dalam kaitan dengan penggunaan dari open standard
+daconta, web service adalah aplikasi perangkat lunak yang dapat ditemukan, diuraikan, dan diakses berdasarkan pada xml dan protokol standard web pada intranet, extranet, dan internetw3c mendefinisikan web service sebagai sebuah sistem perangkat lunak yang dirancang untuk mendukung komunikasi dan interaksi antar mesin ke mesin melalui sebuah network 
+web service juga termasuk web apis yang dapat diakses melalui jaringan seperti misalnya internet, dan dieksekusi melalui sebuah sistem jarak jauh sesusai dengan layanan yang diminta
+definisi web service menurut w3c juga meliputi banyak sistem berbeda, tetapi pada umumnya lebih menyangkut pada client dan server yang berkomunikasi menggunakan xml yang memenuhi standard soap 
+asumsi secara umum adalah pada terminologi terdapat deskripsi dari mesin yang layanannya disediakan oleh server, atau sama seperti konsep dari wsdl
+wsdl bukan termasuk standard dari soap tetapi merupakan syarat mutlak untuk client-side otomatis pada framework java dan .net soap
+beberapa organisasi industri seperti ws-i mengklaim baik soap dan wsdl sebagai definisi sari web service.pada sistem ini akan digunakan json sebagai bahasa web service nya
+json json adalah format pertukaran data, mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan dan dibuat oleh komputer.format ini dibuat berdasarkan bagian dari bahasa pemprograman javascript, standar ecma-262 edisi ke-3 – desember 1999
+json merupakan format teks yang tidak bergantung pada bahasa pemprograman apapun karena menggunakan gaya bahasa yang umum digunakan oleh programmer keluarga c termasuk c, c++, c#, java, javascript, perl, python dll
+oleh karena sifat-sifat tersebut, menjadikan json ideal sebagai bahasa pertukaran-data
+sso teknologi single sign on adalah teknologi yang mengizinkan pengguna jaringan agar dapat mengakses sumber daya dalam jaringan hanya dengan menggunakan satu akun pengguna saja
+di saat sistem operasi serta aplikasi yang digunakan oleh komputer adalah berasal dari banyak vendor, dan pengguna dimintai untuk mengisi informasi dirinya ke dalam setiap platform yang berbeda tersebut yang hendak diakses oleh pengguna
+teknologi ini sangat diminati, khususnya dalam jaringan yang sangat besar dan bersifat heterogen 
+dengan menggunakan sso, seorang pengguna hanya cukup melakukan proses autentikasi sekali saja untuk mendapatkan izin akses terhadap semua layanan yang terdapat di dalam jaringan 
+sistem single sign-on menghindari login ganda dengan cara mengidentifikasi subjek secara ketat dan memperkenankan informasi otentikasi untuk digunakan dalam sistem atau kelompok sistem yang terpercaya
+sistem sso dapat meningkatkan kegunaan jaringan secara keseluruhan dan pada saat yang sama dapat memusatkan pengelolaan dari parameter sistem yang relevan
+secara umum gambaran perbedaan sistem single sign-on dan sistem sign-on dapat dilihat pada gambar 1
+gambar 1 gambaran sistem sign-on dan gambaran sistem single sign-on
+national institute of standards and technology
+aes aes dipublikasikan oleh nist pada tahun 2001
+aes merupakan simetri block cipher untuk menggantikan des 
+des adalah sebuah algoritma kriptografi simetri dengan panjang kunci 56 bit dan blok data 64 bit 
+pada tahun 1990 panjang kunci des dianggap terlalu pendek dan pada tahun 1998 algoritma des sudah berhasil dipecahkan dalam 96 hari hingga akhirnya dibuatlah mesin khusus untuk memecahkan algoritma des 
+dengan alasan tersebut maka, nist mengadakan kompetisi untuk standar kriptografi yang terbaru, yang dinamakan aes 
+dari hasil seleksi tahap pertama nist memilih 15 algoritma, dan pada tahap kedua memilih 5 algoritma
+nist akhirnya mengumumkan standar baru pada november 2001
+nist memilih algoritma rijndael yang dibuat oleh dr vincent rijmen dan dr joan daemen kriptografer dari belgia sebagai algoritma aes 
+rijndael cipher dapat dikategorikan sebagai iterated block cipher dengan panjang blok variable dan panjang kunci yang dapat dipilih secara independen sebagai 128, 192, atau 256 bit
+dalam desimal ada kira-kira 3.4 x 1038 kemungkinan kunci 128 bit, 6.2 x 1057 kemungkinan kunci 192 bit, dan 1.1 x 1077 kemungkinan kunci 256 bit
+aes menspesifikasikan tiga ukuran kunci, 128, 192, dan 256 bit dengan ukuran blok tetap 128 bit
+kunci round diturunkan dari kunci cipher melalui jadwal kunci, yang terdiri dari ekspansi kunci dan pemilihan kunci round
+perancangan arsitektur sistem gambar 2 perancangan arsitektur sistem pada gambar 2 dapat dilihat bahwa web service diimplementasikan sebagai media pendukung manajemen berita dan media pendukung sistem sso 
+implementasi pada manajemen berita memungkinkan admin untuk menambah berita yang berasal dari website fakultas
+sedangkan implementasi pada sistem sso memungkinkan sistem untuk menggunakan database dari service
+diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 3 berikut ini menunjukkan diagram konteks dari sistem
+diagram overview sistem diagram overview adalah diagram yang menjelaskan urutan-urutan proses dari diagram konteks
+diagram hubungan antar tabel hubungan antar tabel portal universitas tanjungpura dapat dilihat pada gambar 6 berikut
+gambar 6 diagram hubungan antar tabel halaman depan portal untan halaman depan portal untan berfungsi sebagai halaman utama yang diakses oleh pengunjung portal untan
+pada halaman ini terdapat berita yang berasal dari database portal dan berasal dari hasil service website fakultas
+gambar 8 tampilan antar muka halaman login admin portal untan halaman login admin portal untan berfungsi sebagai halaman awal untuk mengakses halaman admin panel portal untan
+pada halaman ini terdapat form untuk melakukan login admin
+gambar 9 tampilan antar muka halaman daftar berita halaman antar muka daftar berita admin panel berisi daftar berita yang tampil pada portal untan
+pada halaman ini admin portal dapat memilih berita mana yang akan di edit atau dihapus dari portal untan
+gambar 10 tampilan antar muka halaman daftar berita terbaru pada halaman daftar berita terbaru, admin dapat melihat daftar berita hasil dari service yang didapat dari website fakultas lain
+disamping setiap judul berita terdapat tombol tambahkan ke database yang berfungsi untuk menambahkan berita hasil service tersebut kedalam database portal untuk kemudian dipublikasikan pada portal untan
+gambar 11 tampilan antar muka form tambah berita terbaru form tambah berita terbaru memiliki proses yang hampir sama dengan form tambah berita
+namun pada form ini admin portal tidak menuliskan berita dari awal, namun hanya mengedit berita yang telah dipilih dari halaman daftar berita terbaru untuk kemudian dimasukkan ke database portal gambar 12 tampilan antar muka login single sign on halaman login single sign on digunakan oleh pengguna untuk mendapatkan akses ke sistem single sign on untan
+syaratnya adalah pengguna harus mengisikan username dan password yang dimilikinya kedalam form login single sign on
+username dan password ini harus cocok dengan yang berapa pada database untan, jika tidak, maka pengguna tidak akan mendapatkan hak aksesnye ke dalam sistem single sign on untan
+kesimpulan berdasarkan hasil analisis dan pengujian terhaadap implementasi web service pada portal universitas tanjungpura sebagai media pendukung manajemen content, dapat disimpulkan bahwa: 1
+web service berhasil diterapkan sebagai media pendukung manajemen berita
+web service berhasil diterapkan sebagai media pendukung sistem single sign on
+skenario pengujian blackbox memiliki hasil valid yang artinya sistem telah diimplementasikan dengan baik

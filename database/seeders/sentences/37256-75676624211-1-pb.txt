@@ -1,0 +1,88 @@
+petani karet di wilayah kabupaten tulang bawang sering menemukan masalah seperti penyakit dan hama tanaman karet yang dapat mengakibatkan kematian pada tanaman karet, antara lain penyakit pada bidang sadap, dan hama penggangu seperti rayap dan kutu tanaman
+penyakit tersebut dapat dideteksi melalui gejala- gejala yang ditimbulkan
+akan tetapi untuk mengetahui jenis penyakit yang menyerang tanaman karet diperlukan seorang pakar pertanian dan perkebunan
+namun, saat ini petani di tulang bawang masih memliki kekurangan dalam hal pengetahuan untuk pencegehan dan penanganan penyakit tanaman karet untuk itu, diperlukan suatu sistem yang berisikan pengetahuan tertentu dalam hal kepakaran melalui pendekatan kemampuan manusia di salah satu bidang
+berbagai metode telah diterapkan untuk membangun sistem pakar, diantaranya adalah metode case base reasoning dan k- nearest neighbor
+metode ini digunakan untuk mencari solusi dari permasalahan berdasarkan pengalaman kasus masa lalu dan pendekatan untuk mencari kasus dengan menghitung kedekatan antara kasus baru dengan kasus lama
+hasil pengujian keakuratan kesesuaian antara data testing yang diperoleh dari pakar dengan hasil pengolahan sistem adalah sebesar 80%
+pendahuluan lingkup internasional di indonesia karet merupakan salah satu penghasil devisa yang besar karena mampu memberikan kontribusi sebagai komoditi ekspor
+pendapatan devisa dari komoditi ini pada tahun 2014 produksi karet alam indonesia sebesar 2, 6 juta ton memberikan kontribusi devisa senilai us$ 4, 7 juta
+namun dalam pengelolaan karet, petani sering menemukan masalah seperti penyakit dan hama pada tanaman karet yang dapat mengakibatkan kematian pada tanaman karet berdasarkan wawancara yang dilakukan kepada petani karet yang ada di wilayah kabupaten tulang bawang bahwa sering ditemukan penyakit dan hama berupa penyakit pada akar, penyakit pada bidang sadap, dan hama penggangu seperti rayap dan kutu tanaman
+menyebabkan kerusakan dan kerugian dalam hal biaya untuk penanggulangannya
+upaya-upaya pencegahan dan pengamatan secara dini perlu dilakukan secara terus menerus
+namun, petani karet masih memiliki pengetahuan yang kurang untuk proses penanganan penyakit dan hama karet tersebut
+seiring dengan perkembangan teknologi di berbagai bidang menjadikan para pengembang teknologi mampu membuat aplikasi yang lebih memudahkan masyarakat dalam memperoleh informasi
+pakar dalam mendeteksi gejala penyakit dan hama pada tanaman karet sistem tersebut dapat berupa sistem pakar
+sistem pakar merupakan sebuah sistem yang mengadopsi pengetahuan manusia ke komputer yang menggabungkan dasar pengetahuan dengan sistem inferensi untuk menggantikan fungsi seorang pakar dalam menyelesaikan suatu masalah
+sistem pakar juga dapat diartikan sebagai kumpulan fakta-fakta yang telah dikumpulkan guna menunjukkan gejala penyakit tertentu dan dapat memberikan penjelasan berdasarkan konsultasi dengan pakar yang pernah dilakukan
+dalam pengembangan sistem pakar, banyak metode yang sudah digunakan oleh para peneliti
+seperti metode certainty factor yang menyatakan kepercayaan dalam korespondensi : heni sulistiani 24 bukanlah probabilitas
+metode lainnya yaitu case based reasoning yang bertujuan untuk menyelesaikan suatu kasus baru dengan cara mengadaptasi solusi-solusi yang terdapat pada kasus- kasus sebelumnya yang mirip dengan kasus baru tersebut
+dalam cbr terdapat beberapa proses yaitu retrieve, reuse, revise dan retain
+dan masih banyak lagi metode yang dapat digunakan untuk sistem pakar seperti forward chaining, backward chaining, dempster shafer
+dengan adanya penerapan metode dalam sistem pakar diharapkan dapat membantu para petani untuk mendeteksi penyakit dan hama pada tanaman karet berdasarkan gejala-gejalanya
+mengimplementasikan metode cbr dan knn dalam perangkat lunak berbasis website untuk mendeteksi penyakit dan hama tanaman karet sedangkan batasan masalah yaitu sistem diagnosa penyakit dan hama yang dibangun hanya dapat menentukan penyakit dan hama pada tanaman karet tujuan penelitian yaitu mengimplementasikan metode cbr dan knn dalam perangkat lunak berbasis website untuk mendeteksi penyakit dan hama pada tanaman karet dan manfaat dari penelitian ini yaitu memberikan kemudahan bagi petani karet untuk melakukan diagnosa penyakit dan hama pada tanaman karet serta cara penanganannya
+tinjauan pustaka penyakit tanaman karet pernah dikembangkan sebelumnya oleh para peneliti terdahulu, antara lain mendeteksi penyakit pada tanaman karet dengan menggunakan metode certainty factor
+penelitian ini menekankan pada dua aspek utama yaitu gejala-gejala dan jenis penyakit tanaman karet hasil penelitian menunjukkan bahwa penerapan metode certainty factor pada penelitian ini, memiliki akurasi sebesar 100% dari hasil diagnosa sistem pakar
+penelitian lainnya yaitu menggunakan metode dempster-shafer untuk mendeteksi penyakit tanaman karet
+dengan adanya sistem pakar ini dapat membantu atau mempermudah pekerjaan para pakar kerena memindahkan pengetahuan para pakar ke aplikasi yang disertai dengan pengendalian penyakit
+dalam penelitian ini juga melakukan perbandingan metode case based reasoning dan k-nearest neighbor
+yang bertujuan untuk mencari solusi dari permasalahan deteksi penyakit tanaman karet berdasarkan pengalaman kasus masa lalu dan pendekatan untuk mencari kasus
+sistem pakar sistem pakar adalah sistem berbasis komputer yang menggunakan pengetahuan, fakta, dan teknik penalaran dalam memecahkan masalah yang biasanya hanya dapat dipecahkan oleh seorang pakar dalam bidang tertentu
+terdapat beberapa metode yang dapat diterapkan untuk pengembangan sistem pakar, salah satunya adalah metode case based reasoning
+case based reasoning adalah salah satu metode untuk membangun sistem pakar dengan pengambilan keputusan dari kasus yang baru dengan berdasarkan solusi dari kasus-kasus sebelumnya
+konsep dari metode case based reasoning ditemukan dari ide dengan menggunakan pengalaman-pengalaman yang
+secara keseluruhan model cbr cycle dapat digambarkan dengan proses pada gambar 1
+1 cbr cycle terdapat 4 proses yang dilakukan, antara lain retrieve, reuse, revise dan retain
+kembali kasus terdahulu yang serupa dengan kasus yang sedang dihadapi
+reuse merupakan proses untuk menggunakan kembali informasi dan pengetahuan dalam kasus terdahulu untuk menyelesaikan masalah yang dihadapi
+revise merupakan proses memperbaiki solusi yang telah ada sebelumnya
+retain merupakan proses penyimpanan kasus baru dan solusinya untuk digunakan dalam menyelesaikan kasus berikutnya
+keempat proses di atas akan terus dilakukan ketika menghadapi kasus baru
+algoritma nearest neighbor mencari kasus dengan menghitung kedekatan antara kasus baru dengan kasus lama, yaitu berdasarkan pada pencocokan bobot dari sejumlah fitur-fitur yang ada
+fungsi similarity untuk fitur i dalam kasus t dan kasus s
+n), f, w 
+penyakit dan hama tanaman yang dapat di diagnosa dalam sistem pakar ini sebanyak 7 kasus yaitu, penyakit jamur akar putih, penyakit jamur akar merah, penyakit bidang sadap kanker garis, penyakit bidang sadap mouldy rot, penyakit bidang sadap brown blast, hama rayap, dan hama kutu
+metodologi suatu hipotesis, argumentasi kerangka berpikir menggunakan logika deduktif dengan memakai pengetahuan ilmiah sebagai premis dasarnya
+2 kerangka pemikiran karet sistem penentuan pendekatan merupakan tahapan untuk menentukan penyakit tanaman karet dengan menggunakan metode case based reasoning dan metode algoritma k-nearest neighbor 
+hasil diagnosa berupa hasil penyakit dan hama yang diderita oleh tanaman karet penyimpanan kasus baru proses ini dilakukan apabila ada gejala atau penentuan baru yang belum terinputkan atau belum ada pada sistem yang telah berjalan
+dalam sistem pakar untuk diagnosa penyakit dan hama pada tanaman karet yang dilakukan dalam penelitian ini antara lain: analisis sistem
+masalah dapat didefinisikan sebagai suatu gejala yang diinginkan untuk dipecahkan
+hasil pengumpulan data dari seorang pakar, diperoleh data tentang gejala dan bobot yang sering menyerang tanaman karet yang dapat dilihat pada tabel 1
+tabel i daftar gejala penyakit dan hama tanaman karet no gejala bobot 1 daunya menguning 6, 25 2 akar membusuk 6, 25 4 terbentuk badan buah berwarna orange di pangkal batang 6, 25 6 akar yang terserang ditumbuhi jamur berwarna merah dengan ujung berwarna putih 2, 5 7 hifa jamur menempel kuat dan mengikat butiran-butiran tanah 2, 5 keras dan keriput 2, 5 berwarna putih 5 11 permukaan kulit pulihan dekat irisan sadap bercak-bercak mengendap 3, 33 kapang seperti beledu ke abu-abuan 3, 33 13 kulit pulihan tidak terbentuk sempurna 3, 33 14 tanaman yang disadap tidak mengeluarkan lateks 5 berwarna coklat 5 dari beratnya serangan kas 5 17 menggerogoti bibit yang baru saja ditanam dilahan 6, 67 akar 6, 67 20 menusuk pucuk batang dan daun muda 3, 33 21 ranting lemah dan daun berguguran 3, 33 22 terdapat jelaga hitam dipermukaan daun 3, 34 2) planning: dalam tahap ini, pengumpulan kebutuhan dilakukan melalui 4 tahapan guna menunjang pengembangan sistem deteksi penyakit dan hama tanaman karet sub tahap tersebut antara lain, objek penelitian, observasi, wawancara, penyusunan kebutuhan sofware dan hardware
+3) modeling: dalam tahap ini terdapat 3 tahap proses yaitu rule base dari 7 kasus, sampel perhitungan menggunakan algoritma nearest neighbor, dan merancang desain sistem menggunakan use case diagram, activity diagram, dan class diagram yang bertujuan untuk mempermudah proses pembuatan sistem
+badan buah jamur berwarna merah coklat keras dan keriput
+hifa jamur menempel kuat dan mengikat butiran- butiran tanah
+perhitungan untuk menghitung apakah tanaman karet tersebut terkena penyakit penyakit jamur akar putih adalah sebagai berikut, similarity, : w1 + w2 +
+perhitungan mencari nilai kedekatan antara kasus baru dengan kasus lama dilakukan hingga sampai 7 tahapan dari semua penyakit dan hama
+dari 7 kasus dicari nilai rata-rata yang mendekati antara kasus baru dengan kasus lama tersebut
+setelah proses mencari nilai kedekatan selesai kemudian metode case based reasoning mengambil sebuah keputusan yaitu mencocokan gejala baru yang di inputkan dengan gejala kasus lama dari pengalaman pakar
+setelah itu, untuk mengembangkan sistem pakar perlu dirancang dalam bentuk use case diagram agar memudahkan dalam pembuatan aplikasi
+tampilan use case diagram dapat dilihat pada gambar 3
+blackbox testing merupakan penjelasan sistem secara terstruktur setelah sistem tersebut selesai
+dengan memerhatikan kesalahan- kesalahan yang tidak sesuai dan diperlukan suatu perbaikan
+setelah sistem selesai sesuai dengan keinginan, maka sistem dapat diimplementasikan oleh user
+hasil pakar untuk mendeteksi penyakit dan hama pada tanaman karet tampilan beranda dari sistem pakar dalam penelitian ini dapat dilihat pada gambar 4
+4 tampilan halaman beranda proses identifikasi penyakit pada tanaman karet dapat dilakukan dengan memilih secara benar gejala-gejala yang dialami tanaman karet agar hasilnya sesuai dengan pakar
+tampilan halaman penentuan penyakit pada tanaman karet dapat dilihat pada gambar 5
+5 tampilan halaman penentuan penyakit karet setelah sistem melakukan perhitungan berdasarkan kasus-kasus lama yang telah user inputkan sebelumnya maka sistem akan menentukan apa penyakit atau hama yang di alami tanaman karet sesuai dengan gejala atau rule yang sudah di berikan oleh pakar
+tampilan hasil diagnosa penyakit pada tanaman karet dapat dilihat pada gambar 6
+setelah sistem berhasil dikembangkan, tahapan selanjutnya yaitu melakukan pengujian sistem
+pengujian sistem perlu dilakukan untuk menemukan kesalahan atau kelemahan yang mungkin masih terjadi, sehingga perlu dilakukan perbaikan sistem
+dalam penelitian ini, pengujian perangkat lunak dilakukan dengan metode black box testing, yang dapat dilihat pada tabel 2
+tabel ii dan alamat dengan menggunakan metode black box, dalam penelitian ini juga dilakukan pengujian dengan membandingkan hasil perhitungan secara manual dan hasil perhitungan dengan menggunakan sistem
+sebagai contoh, uji coba perhitungan manual untuk perhitungan nilai similarity dengan algoritma knn
+untuk melakukan perhitungan, misalkan diketahui kasus baru memiliki gejala sebagai berikut: a
+pangkal batang permukaanya ditumbuhi meselium jamur berwarna putih berdasarkan hasil perhitungan menggunakan sistem diperoleh bahwa dengan memilih gejala penyakit tanaman karet sesuai dengan kasus di atas, makapenyakit atau hama yang menyerang tanaman karet anda adalah penyakit jamur
+pangkal batang permukaanya ditumbuhi meselium jamur berwarna putih = 6, 25 d
+terbentuk badan buah berwarna orange di pangkal batang = 6, 25 baru dengan gejala yang dimiliki oleh salah satu data tanaman karet di dalam knowledge base sehingga perhitungannya adalah sebagai berikut : hitung persentase: 1 x 100% = 100% setelah itu akan dilakukan pengujian dengan melakukan uji coba pada sejumlah data masukan
+pengujian yang dilakukan diantaranya adalah pengujian satu gejala satu jenis penyakit, satu gejala beberapa jenis penyakit, beberapa gejala satu jenis penyakit dan beberapa gejala dengan beberapa penyakit
+selain itu, dilakukan juga pengujian keakuratan atau kesesuaian dari data testing yang diperoleh dari pakar dengan hasil keluaran sistem
+dalam pengujian ini dilakukan percobaan sebanyak 20 kali dengan masukan yang sesuai dengan data testing
+dari percobaan tersebut diperoleh informasi sebagai berikut: a
+jumlah hasil diagnosa yang sesuai dengan pakar = 16 c
+jumlah hasil diagnosa salah = 4 akurasi = jumlah data diagnosa sesuai x 100% jumlah data masukan 20 = 80 % akurasi kesesuaian dari data testing yang didapatkan oleh pakar dengan hasil keluaran sistem adalah sebesar 80%
+aplikasi yang dibuat dapat menentukan kerusakan pada tanaman karet yang di sebabkan oleh penyakit dan hama dengan menggunakan metode cbr dan knn
+aplikasi ini di peruntukan untuk para petani karet khususnya yang ada di wilayah tulang bawang agar masyarakat ataupun petani setempat mengetahui apakah tanaman karet yang mereka tanam terserang penyakit dan hama atau tidak
+selain itu aplikasi juga dapat memberikan saran penanganan pertama serta edukasi bagaimana cara menanggulanginya
+dari hasil pengujian yang dilakukan, tingkat akurasi kesesuaian dari data testing yang didapatkan oleh pakar dengan hasil keluaran sistem adalah sebesar 80%

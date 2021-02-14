@@ -1,0 +1,94 @@
+pt telekomunikasi indonesia tbk, yang saat ini lebih dikenal dengan nama telkom group sedang mengembangkan terobosan baru dalam hal inovasi kecepatan akses internet telkom group meluncurkan wifi.id corner yang menyediakan layanan internet dengan kecepatan tinggi hingga 100 mbps
+wifi.id corner merupakan tempat hangout yang nyaman yang dibangun untuk memenuhi kebutuhan masyarakat untuk berinternet dengan kecepatan tinggi dan berbayar dengan harga yang terjangkau
+sistem pendukung keputusan adalah salah satu metode komputasi yang cukup berkembang saat ini
+banyak metode dalam sistem pendukung keputusan yang dapat digunakan untuk membantu menentukan lokasi pemasangan wifi.id corner telkom group ini
+salah satu metode yang bisa digunakan adalah profile matching, yaitu sistem pendukung keputusan yang dilakukan dengan cara membandingkan antara kriteria calon lokasi wifi.id corner dengan kriteria lokasi wifi.id corner yang ditentukan oleh telkom group, sehingga dapat diketahui perbedaan kompetensinya 
+studi kasus : divisi wireless broadband telkom kalimantan barat
+sistem yang dirancang merupakan sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom dengan profile matching yang bertujuan untuk membantu kinerja pengambil keputusan yaitu pt telkom dalam menentukan lokasi mana yang lebih diprioritaskan lokasi wifi.id corner
+pendahuluan pt telekomunikasi indonesia tbk, yang saat ini lebih dikenal dengan nama telkom group adalah satu-satunya bumn telekomunikasi serta penyelenggara layanan telekomunikasi dan jaringan terbesar di indonesia
+telkom group melayani jutaan pelanggan di seluruh indonesia dengan rangkaian lengkap layanan telekomunikasi yang mencakup sambungan telepon kabel tidak bergerak dan telepon nirkabel tidak bergerak, komunikasi seluler, layanan jaringan dan interkoneksi serta layanan internet dan komunikasi data
+dalam hal layanan internet itu sendiri, saat ini telkom group sedang mengembangkan terobosan baru dalam hal inovasi kecepatan akses internet telkom group meluncurkan wifi.id corner yang menyediakan layanan internet dengan kecepatan tinggi hingga 100 mbps
+wifi.id corner merupakan tempat hangout yang nyaman yang dibangun untuk memenuhi kebutuhan masyarakat untuk berinternet dengan kecepatan tinggi dan berbayar dengan harga yang terjangkau
+dengan adanya wifi.id corner ini, selain agar dapat memenuhi kebutuhan masyarakat, tentunya juga diharapkan dapat meningkatkan pendapatan dari telkom group itu sendiri
+oleh karena itu, dalam menentukan lokasi pemasangan wifi.id corner ini diperlukan pertimbangan-pertimbangan yang matang
+dengan tujuan agar wifi.id corner yang terpasang bisa memberikan manfaat yang maksimal saat ini penentuan lokasi pemasangan wifi.id corner dilakukan berdasarkan pertimbangan dan intuisi dari manajer divisi wireless broadband 
+sehingga dalam hal ini sering kali mengalami kesulitan dalam menentukan lokasi pemasangan wifi.id corner ini dari beberapa alternatif lokasi, dikarenakan sulitnya untuk memprediksi alternatif lokasi mana yang dapat memberikan manfaat yang maksimal bagi masyarakat dan bagi telkom group
+oleh karena itu, diperlukan suatu sistem pendukung keputusan yang dapat membantu pihak manajer dwb dalam menentukan lokasi pemasangan wifi.id corner tersebut
+dengan adanya sistem pendukung keputusan tersebut, diharapkan bisa membantu manajer dalam mengambil keputusan secara cepat
+dengan begitu, diharapkan masyarakat bisa dengan cepat pula menikmati layanan internet berkecepatan tinggi tersebut dan dengan begitu juga dapat meningkatkan pendapatan dari telkom group sendiri
+sistem pendukung keputusan adalah salah satu metode komputasi yang cukup berkembang saat ini
+banyak metode dalam sistem pendukung keputusan yang dapat digunakan untuk membantu menentukan lokasi pemasangan wifi.id corner telkom group ini
+salah satu metode yang bisa digunakan adalah profile matching, yaitu sistem pendukung keputusan yang dilakukan dengan cara membandingkan antara kriteria calon lokasi wifi.id corner dengan kriteria lokasi wifi.id corner yang ditentukan oleh telkom group, sehingga dapat diketahui perbedaan kompetensinya 
+sistem pendukung keputusan konsep sistem pendukung keputusan atau decision support system pertama kali diungkapkan pada awal tahun 1970-an oleh michael s
+scott morton dengan istilah management decision sistem
+sistem tersebut adalah suatu sistem yang berbasis komputer yang bertujuan untuk membantu pengambil keputusan dengan memanfaatkan data dan model tertentu untuk memecahkan berbagai persoalan yang semi terstruktur.istilah spk mengacu pada suatu sistem yang memanfaatkan dukungan komputer dalam proses pengambilan keputusan
+selain itu, spk didefinisikan sebagai sekumpulan prosedur berbasis model untuk data pemrosesan dan penilaian guna membantu para manajer mengambil keputusan
+spk harus sederhana, cepat, mudah dikontrol, adaptif, lengkap dengan isu- isu penting, dan mudah berkomunikasi
+sistem pendukung keputusan memiliki tujuan sebagai berikut: 1
+membantu manajer membuat keputusan untuk memecahkan masalah
+mendukung penilaian manajer bukan mencoba menggantikannya
+proses pengambilan keputusan melibatkan empat tahap utama yaitu tahap intelegensi, tahap perencanaan, tahap pilihan, dan tahap implementasi 
+seperti tampak pada gambar 1 tahap-tahap dalam proses pengambilan keputusan dibawah ini
+profile matching metode profile matching atau pencocokan profil adalah metode yang sering sebagai mekanisme dalam pengambilan keputusan dengan mengasumsikan bahwa terdapat tingkat variabel prediktor yang ideal yang harus dipenuhi oleh subyek yang diteliti, bukannya tingkat minimal yang harus dipenuhi atau dilewati
+borland dhelpi delphi merupakan paket data pemograman yang bekerja dalam operasi windows
+sebagai bahasa pemograman, delphi memiliki cakupan kemampuan yang luas dan sangat canggih
+berbagai jenis aplikasi dapat dihasilkan dengan delphi, termasuk aplikasi untuk mengolah teks, grafik, angka, basisdata dan aplikasi web
+secara umum, kemampuan delphi adalah menyediakan komponen-komponen dan bahasa pemograman yang handal sehingga memungkinkan membuat program aplikasi yang canggih sesuai dengan kebutuhan
+untuk mempermudah dalam pembuatan aplikasi, delphi menyediakan bahasa pemograman yang sangat lengkap yaitu object dan bahasa pemograman
+secara singkat, object adalah suatu komponen yang mempunyai bentuk fisik dan biasanya dapat dilihat 
+object biasanya digunakan untuk melakukan tugas tertentu dalam pembuatan aplikasi
+sehingga bahasa pemograman secara singkat dapat disebut sebagai kumpulan teks yang mempunyai arti disusun berdasarkan aturan serta untuk menjalankan tugas tertentu
+komponen utama dari delphi terdiri dari:1
+project project adalah sekumpulan form, unit dan beberapa hal lain dalam program aplikasi
+pada saat dijalankan, file project selalu dikompilasi menjadi file yang dapat dilaksanakan, berakhiran .exe atau .dll
+form form adalah suatu object yang digunakan sebagai tempat bekerja program aplikasi
+setiap form mengandung unit yang digunakan untuk mengatur dan mengendalikan form serta untuk berinteraksi dengan komponen lain
+unit unit adalah modul kode program
+unit dapat berisi kumpulan function atau procedure yang digunakan project
+unit juga dapat dikompilasi terpisah dari program aplikasi
+program program dibangun dari satu unit atau lebih
+program digunakan untuk mengolah project dengan mengatur dan menjalankan form dan unit secara otomatis
+property property digunakan untuk mendefinisikan atribut atau setting suatu project
+setting property akan menentukan cara kerja dari suatu object saat project dijalankan
+suatu object biasanya memiliki beberapa property yang dapat diatur langsung dari page properties maupun lewat kode program
+event event merupakan suatu kejadian yang diterima suatu object, misalnya klik, drag, tunjuk dan lain-lain
+event yang diterima object akan memicu delphi untuk memeriksa apakah ada kode program yang didefinisikan dalam event
+method method adalah perintah yang melekat pada suatu object
+cara penulisan method sama seperti property, bedanya adalah property digunakan untuk menampung dan mengambil suatu nilai, sedangan method untuk melakukan suatu aksi
+perancangan diagram arus data diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 2 berikut ini menunjukkan diagram konteks dari sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom dengan profile matching gambar 2
+diagaram konteks system perancangan sistem diagram overview adalah diagram yang menjelaskan urutan-urutan proses dari diagram konteks
+seperti pada gambar 3 berikut admin 1.0 berikut adalah penjelasan dari overview sistem pendukung keputusan untuk menetukan lokasi wifi.id corner pt telkom pada gambar 3.3 di atas: 1
+proses 1.0 login yaitu proses yang dilakukan agar dapat mengakses ke dalam sistem dengan cara mengisi username dan password pada halaman login
+proses 2.0 manajemen admin yaitu proses pengelolaan data admin
+pada proses ini admin dapat melakukan proses tambah data admin, ubah data admin, dan hapus data admin
+proses 3.0 manajemen wico, yaitu proses untuk mengelola data lokasi wifi.id corner
+pada proses ini admin dapat melakukan proses tambah, ubah, dan hapus data lokasi wifi.id corner
+proses 4.0 analisis dan hasil, yaitu proses anilisis data lokasi wifi.id corner dengan menggunakan metode profile matching
+pada proses ini juga dihasilkan prangkingan kandidat lokasi wifi.id corner
+perancangan basis data pada sistem yang akan dirancang terdiri dari tiga entitas yang saling berhubungan adalah : 1
+hasil berikut adalah hubungan tersebut digambarkan melalui entity relational diagram seperti terlihat pada gambar 4 gambar 4
+perancangan relasi antar tabel diagram hubungan antar tabel merupakan gambaran hubungan antar tabel yang digunakan dalam membangun sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom dengan profile matching
+diagram hubungan antar table ditunjukan pada gambar 5 berikut
+perhitungan penentuan lokasi wifi.id corner dengan metode profile matching dalam sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom ini, terdapat empat kriteria yang digunakan
+sub kriteria potensi netter sub kriteria nilai antara 50 sampai 100 orang 3 kurang dari 50 orang 1 tabel 2 sub kriteria jarak dengan wico lain sub kriteria nilai antara 1 sampai 1 km 3 kurang dari 1 km 1 tabel 3 sub kriteria tingkat kesulitan maintenance sub kriteria nilai mudah 6 sulit 3 sangat sulit 1 tabel 4 sub kriteria jenis lokasi sub kriteria nilai café & resto 6 sarana pendidikan 3 kantor pelayanan 1 penentuan nilai dari profil kriteria lokasi yang dikehendaki, akan ditentukan oleh manajer selaku pengambil keputusan tabel 5 nilai profil kriteria lokasi kriteria nilai profil lokasi jenis potensi netter 3 cf jarak dengan wico lain 3 sf tingkat kesulitan maintenance 6 sf jenis lokasi 6 cf setelah didapat nilai profil dari setiap kandidat lokasi, maka tahap selanjutnya yaitu melakukan penghitungan pemetaan gap kompetensi tabel 6 pemetaan nilai gap no kandida t lokasi n il 3 lokasi 3 6 3 6 6 4 lokasi 4 6 1 3 6 5 lokasi 5 3 1 1 6 profil kriteria lokasi 3 3 6 6 g ap setelah diperoleh nilai gap, maka diperoleh nilai bobot masing-masing lokasi tabel 7 nilai bobot setiap lokasi no kandidat jeni s lok asi 1 lokasi 1 4 3, 5 3 1 2 lokasi 2 6 6 6 1 3 lokasi 3 3, 5 6 6 6 4 lokasi 4 3, 5 4 3 6 5 lokasi 5 6 4 1 6 setelah diketahui bobot dari masing-masing lokasi, untuk tahapan selanjutnya adalah menghitung core factor dan secondary factor tabel 8 nilai core factor dan secondary factor no kandidat lokasi cf sf 1 lokasi 1 2, 5 3, 25 2 lokasi 2 3, 5 6 3 lokasi 3 4, 75 6 4 lokasi 4 4, 75 3, 5 5 lokasi 5 6 2, 5 setelah mendapatkan nilai dari core factor dan secondary factor, tahapan selanjutnya adalah menghitung nilai total tabel 9 nilai total no kandidat nilai total 1 lokasi 1 2, 5 3, 25 2, 8 2 lokasi 2 3, 5 6 4, 5 3 lokasi 3 4, 75 6 5, 25 4 lokasi 4 4, 75 3, 5 4, 25 5 lokasi 5 6 2, 5 4, 6 setelah didapatkan nilai total, tahapan terakhir yaitu perangkingan
+perangkingan diurutkan berdasarkan nilai total yang paling tinggi tabel 10 perangkingan no kandidat nilai total 1 lokasi 3 4, 75 6 5, 25 2 lokasi 5 6 2, 5 4, 6 3 lokasi 2 3, 5 6 4, 5 4 lokasi 4 4, 75 3, 5 4, 25 5 lokasi 1 2, 5 3, 25 2, 8 iv
+studi kasus : divisi wireless broadband telkom kalimantan barat
+hasil perancangan sistem yang dirancang merupakan sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom dengan profile matching yang bertujuan untuk membantu kinerja pengambil keputusan yaitu pt telkom dalam menentukan lokasi mana yang lebih diprioritaskan lokasi wifi.id corner
+antarmuka form login form analisis merupakan form untuk melakukan analisis kecocokan kandidat lokasi wifi.id corner dengan menggunakan metode profile matching gambar 7
+antarmuka form analisis form rangking merupakan form yang berfungsi untuk menampilkan hasil penghitungan dari profil kandidat lokasi wifi.id corner dengan profil lokasi yang dikehendaki oleh manajer divisi wireless broadband telkom
+penghitungan yang dilakukan adalah dengan menggunakan metode profile matching gambar 8 antarmuka form rangking b
+hasil pengujian aplikasi pengujian ini dilakukan pada sistem menggunakan metode black box yang akan memeriksa apakah sistem pada aplikasi berjalan dengan benar sesuai dengan yang diharapkan
+teknik ujicoba yang digunakan dalam pengujian black box pada aplikasi ini, yaitu menggunakan teknik sample testing
+selain itu pengujian akan dilakukan dengan metode pengujian input data, pengujian kompatibilitas aplikasi, pengujian penggunaan memori aplikasi tabel 11 pengujianpemilihan jawaban pada soal input contoh data hasil keterangan input data kosong potensi netter - jarak dengan wico lain - potensi netter - jarak dengan wico lain - potensi netter >100 orang jarak dengan wico lain <1 km perangkat lunak berikut ini merupakan analisis hasil perancangan dan pengujian sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom dengan profile matching
+pengujian input data dengan menggunakan metode black box menunjukan bahwa input data kosong pada system menyebabkan eksekusi tidak berhasil
+sistem akan mengeksekusi data yang terisi sesuai kolom yang disediakan dan data akan langsung disimpan di dalam database
+proses pengurutan prioritas pemilihan lokasi wifi.id corner yang tadinya memiliki kesulitan karena kriteria yang mengandung unsur subjektif sekarang dapat dipetakan secara matematis sehingga dapat dilakukan lebih objektif
+dari hasil pengujian, didapatkan bahwa sistem masih memiliki kelemahan yaitu belum bisa mengantisipasi perubahan core faktor dan secondary faktor, penentuan core faktor dan secondary faktor berdasarkan pada ketentuan awal dari manajer divisi wireless broadband telkom kalimantan barat
+kesimpulan terhadap sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom dengan profile matching, dapat disimpulkan bahwa : 1
+metode profile matching dapat digunakan untuk mengurutkan prioritas penentuan lokasi wifi.id corner pt telkom 2
+sistem pendukung keputusan yang dibangun mampu menampilkan pengurutan prioritas lokasi wifi.id corner dari nilai tertinggi ke nilai terendah yang berguna sebagai bahan pertimbangan bagi manajer dalam memilih lokasi wifi.id corner
+berdasarkan pengujian yang telah dilakukan menggunakan metode black box, sistem yang dibangun dapat mengeksekusi data lengkap dan tidak mengeksekusi data masukan yang kosong
+saran adapun beberapa hal yang perlu ditambahkan dalam pengembangan sistem pendukung keputusan untuk menentukan lokasi wifi.id corner pt telkom dengan profile matching ini diantaranya adalah sebagai berikut: 1
+sistem pendukung keputusan dengan metode profile matching ini dapat dikembangkan dengan metode lain, sehingga dapat dibandingkan hasil perhitungannya
+penambahan sistem informasi geografis sehingga dapat memberikan nilai tambah dan dapat mempernudah dalam memperoleh informasi persebaran lokasi wifi.id corner di pontianak

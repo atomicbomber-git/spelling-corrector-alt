@@ -1,0 +1,66 @@
+anak -anak merupakan generasi penerus bangsa yang harus mendapatkan perhatian lebih, terutama saat masa balita
+pertumbuhan dan perkembangan balita memerlukan perhatian serius, gangguan tumbuh kembang pada balita dapat menyebabkan berbagai macam kendala berupa keterlambatan pertumbuhan dan perkembangan
+penyimpangan pertumbuhan disebabkan karena gizi buruk, sedangkan keterlambatan perkembangan penyebabnya sebagian besar karena kurangnya stimulasi yang berdampak pada kurangnya rangsangan otak sehingga berakibat pada kurang optimalnya perkembangan
+penelitian ini bertujuan merancang aplikasi berbasis android untuk melakukan deteksi perkembangan anak balita
+hasil penelitian menunjukkan bahwa aplikasi kpsp berbasis android ini mampu meningkatkan pemahaman user sehingga dapat melakukan skrining perkembangan dengan lebih akurat
+perolehan data pengujian didapatkan hasil secara keseluruhan 87 – 92 %
+hasil pengujian black box menunjukkan hasil pada setiap bentuk pengujian aplikasi, yang berarti bahwa semua fungsi pada aplikasi kpsp berbasis android ini telah bekerja dengan baik dan dapat digunakan serta tampilan aplikasi yang cukup menarik, mudah digunakan
+masa lima tahun pertama kehidupan merupakan masa yang sangat peka terhadap lingkungan dan masa ini berlangsung sangat pendek serta tidak dapat diulang lagi
+pertumbuhan dan perkembangan balita memerlukan perhatian serius, gangguan tumbuh kembang pada balita dapat menyebabkan berbagai macam kendala
+hasil penelitian di indonesia menyebutkan bahwa terdapat 16 % balita yang mengalami gangguan perkembangan, baik perkembangan motorik halus dan kasar, gangguan pendengaran, kecerdasan kurang serta keterlambatan bicara
+balita yang mengalami keterlambatan perkembangan di daerah sebesar 30 % sedangkan di perkotaan 19 %
+keterlambatan perkembangan tersebut sebagian besar dikarenakan kurangnya stimulasi yang berdampak pada kurangnya rangsangan pada otak sehingga berakibat pada kurang optimalnya perkembangan kemampuan gerak, bicara dan bahasa, sosialisasi serta kemandirian,
+kasus penyimpangan pertumbuhan pada balita disebabkan karena kejadian gizi buruk yang bermunculan diseluruh wilayah, salah satunya disebabkan rendahnya kesadaran orangtua untuk melakukan pemantauan korespondensi : nelly apriningrum tempat pelayanan kesehatan masyarakat
+beberapa alasan diantaranya rasa malas dan sibuk dengan pekerjaannya juga menjadi penyebab lainnya 
+stimulasi yang kurang akan mengakibatkan kurangnya rangsangan otak pada balita sehingga perkembangan kemampuan gerak, bicara dan bahasa, sosialisasi dan kemandirian pada balita berlangsung tidak optimal maka dari itu, diperlukan stimulasi secara terus menurus pada setiap kesempatan, selain itu deteksi dini penyimpangan tumbuh kembang balita perlu dilakukan agar penyimpangan pada balita sedini mungkin dapat terdeteksi
+melalui kerjasama dengan ikatan dokter anak indonesia telah menyusun instrument stimulasi, deteksi dan intervensi dini tumbuh kembang untuk anak sampai dengan usia 6 tahun dalam buku pedoman pelaksanaan stimulasi, deteksi dan intervensi dini tumbuh kembang termasuk didalamnya adalah kuesioner praskrining perkembangan yang bertujuan untuk mengidentifikasi dini perkembangan anak di tingkat pelayanan kesehatan dasar yang dapat dilakukan oleh tenaga kesehatan, keluarga, masyarakat dengan tenaga profesional lainnya agar memudahkan pelayanan
+dengan demikian seluruh anak sampai dengan usia 6 tahun mendapatkan pelayanan sdidtk
+tenaga kesehatan melakukan pelayanan deteksi dini serta intervensi terhadap penyimpangan serta menentukan keberhasilan pencapaian cakupan deteksi dini dan stimulasi perkembangan anak balita, namun dalam pelaksanaannya terkadang mengalami berbagai kendala
+berbagai kendala yang sering ditemui di lapangan adalah beban kerja bidan/ tenaga kesehatan yang sangat banyak, format penilaian kpsp dan sistem pelaporan yang kurang mudah digunakan berupa beberapa lembaran kertas yang cukup banyak sehingga menyebabkan keengganan petugas dalam melaksanakan dan membuat laporan pelayanan deteksi dini penyimpangan perkembangan balita
+yang mengalami kendala tersebut, orang tua yang merupakan lingkungan utama bagi balita terkadang bingung, tidak paham dengan perkembangan yang dialami anaknya apakah normal atau mengalami gangguan perkembangan
+oleh karena itu, kadang orang tua membutuhkan tenaga kesehatan untuk berkonsultasi
+namun jam kerja yang terbatas dan minimnya informasi seputar perkembangan balita menjadi kendala bagi orang tua untuk berkonsultasi
+solusi dari permasalahan tersebut telah dilakukan penelitian yang dilakukan widodo tentang system pakar deteksi tumbuh kembang anak berbasis multimedia
+berdasarkan uraian diatas, maka diperlukan aplikasi kpsp yang mudah digunakan, tanpa harus selalu membawa beberapa lembaran kertas penilaian
+seiring dengan perkembangan iptek, saat ini smartphone merupakan suatu kebutuhan bagi masyarakat, dengan cerdas dalam penggunaan android maka dapat mengatasi salah satu permasalahan yang dihadapi
+rancang bangun aplikasi kpsp berbasis android bagi anak balita sampai prasekolah di kabupaten karawang
+berdasarkan kajian tersebut peneliti tertarik untuk melakukan penelitian dengan tema 
+yaitu pendekatan perangkat lunak yang sistematik dan sequential yang dimulai dari tahapan analisis, desain, kode dan tes
+desain yang digunakan dalam penelitian ini adalah forward chaining, yaitu suatu proses perunutan yang dimulai dengan menampilkan kumpulan data atau fakta yang meyakinkan menuju konklusi akhir
+pencarian yang dimotori data, jadi dimulai dari premis-premis atau informasi masukan dahulu kemudian menuju konklusi atau drived information 
+metode forward chaining ini merupakan rule program yang diinputkan gejala/ tanda anak balita, kemudian dicocokan dengan skor standar untuk menentukan ada tidaknya penyimpangan perkembangan anak balita sesuai dengan usianya
+gambaran langkah metode penelitian ini dapat dilihat pada gambar 1 berikut : pemodelan sistem informasi meliputi beberapa tahapan diantaranya: analisis, desain, kode dan test
+pada tahapan analisis peneliti melakukan identifikasi masalah untuk menjawab pertanyaan yang sering terjadi dalam penggunaan kpsp based paper, tahap selanjutnya mencari solusi dari permasalahan yang ada menggunakan pendekatan sistem berbasis objek yaitu dengan menggunakan usecase untuk dibuat kebutuhan aplikasi, tahapan ini merancang lingkungan dari sebuah sistem yang akan dibangun seperti penggunaan software, hardware dan operating sistem yang digunakan
+bahasa pemrograman pada penelitian ini menggunakan java dengan menggunakan tools android studio
+mengkonstruksi, menguji, memasang dan memberikan pelayanan kepada user
+setelah pengkodean sistem dan sudah menjadi aplikasi, aplikasi ini diuji dengan menggunakan black box testing
+populasi penelitian menggunakan convenience sampling b
+analisis data analisis inferensial dengan menggunakan pendekatan model yang meliputi langkah spesifikasi model, identifikasi, estimasi, uji kecocokan dan respesifikasi
+user atau pengguna akhir dari perangkat lunak yang telah dibangun
+dalam pengujian beta ini peneliti menggunakan kuesioner yang berisi 4 pertanyaan mengenai usability dari aplikasi kpsp yng diberikan kepada responden
+jawaban hasil kuesioner kemudian dihitung dengan rumus skala likert berikut ini untuk mendapatkan kesimpulan
+keterangan : responden) bangun aplikasi kpsp berbasis android bagi anak balita : a
+use case diagram digunakan untuk menggambarkan hubungan user/ aktor ekternal dengan aplikasi
+use case diagram dapat dilihat pada gambar 2
+implementasi interface petunjuk penggunaan aplikasi, menu stimulasi, deteksi dan intervensi
+gambar 3 merupakan hasil rancangan implementasi interface
+aplikasi ini menampilkan petunjuk penggunaan yang menjelaskan cara penggunaan untuk mengetahui perkembangan balita apakah dalam keadaan normal atau tidak berdasarkan umur balita
+gambar 3 tampilan menu aplikasi implementasi interface sebagaimana gambar 3 menunjukkan bahwa aplikasi ini berisi tentang umur balita sesuai dengan pilihan/ umur saat balita diperiksa
+interface ini dilengkapi dengan gambar dan tulisan sebagai keterangan fungsinya
+petunjuk penggunaan aplikasi berisi tentang panduan penggunaan dan tata cara pengisian kuesioner dari setiap indikator
+pengguna memberikan tanda ceklist apabila menjawab pada setiap komponen pertanyaan, sedangkan apabila jawabannya maka kolom pertanyaan tersebut dibiarkan kosong
+pada akhir pertanyaan setiap komponen umur terdapat kolom tulisan deteksi yang selanjutnya akan menampilkan jumlah dan rekapitulasi jawaban, serta sehingga pengguna akan dapat mengetahui keterlambatan yang dialami responden berdasarkan umur yang sesuai
+penilaian skrining akan menghasilkan status perkembangan, atau pada menu ini juga dilengkapi dengan tampilan intervensi/ tindakan yang dibutuhkan sesuai dengan hasil berdasarkan umur balita
+gambar 7 ini merupakan contoh tampilan yang menunjukkan hasil skrining perkembangan dengan predikat 
+gambar 8 tampilan deteksi hasil meragukan hasil deteksi lainnya adalah status dengan intervensi dini yang harus dilakukan seperti pada gambar 9 berikut : c
+pengujian black box pengujian yang telah dilakukan terhadap sistem
+pengujian black box pada aplikasi ini adalah pengujian untuk memeriksa secara fungsi dari tools menu aplikasi kpsp
+tabel 1 memperlihatkan hasil pengujian black box aplikasi kpsp
+pilih dan klik deteksi pertumbuha n aplikasi kpsp sudah sesuai dengan yang diharapkan
+hasil penelitian dengan menggunakan pengujian black box ini sejalan dengan penelitian sebelumnya yang melakukan penelitian sistem monitoring berbasis android mengenai tumbuh kembang anak menggunakan buku kia dan ddst
+uji coba responden, didapatkan nilai persentase dari setiap pertanyaan yang telah diajukan dengan rumus
+tabel 2 menunjukkan hasil perolehan data dari beberapa pertanyaan kuesioner yang diajukan ke responden
+hasil perolehan data pengujian no asepk penilaian persentase 1 aplikasi kpsp mudah digunakan 92% 2 aplikasi mudah dipelajari 90% 3 aplikasi memiliki tampilan yang menarik 90% 4 aplikasi membantu orangtua dan tenaga kesehatan dalam mendeteksi penyimpangan perkembangan 87% kementerian kesehatan ri tahun 2014 ini mampu meningkatkan pemahaman pengguna/ user sehingga dapat digunakan untuk melakukan skrining perkembangan anak balita dengan akurat
+hasil pengujian black box menunjukkan hasil pada setiap bentuk pengujian aplikasi, artinya bahwa semua fungsi pada aplikasi kpsp berbasis android ini telah bekerja dengan baik dan dapat digunakan
+berdasarkan pengujian aplikasi kepada user diperoleh bahwa aplikasi kpsp ini memiliki beberapa kelebihan diantaranya tampilan yang menarik, mudah digunakan, serta dapat membantu dalam menentukan status perkembangan anak balita
+ucapan terima kasih / acknowledgment pengabdian kepada masyarakat, direktorat jenderal penguatan riset dan pengembangan kementerian riset, teknologi dan pendidikan tinggi dengan nomor perjanjian kerjasama : 092/sp2h/lt/drpm/2018

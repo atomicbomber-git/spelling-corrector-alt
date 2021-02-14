@@ -1,0 +1,8 @@
+eee paper template in a4 vol 4 no 1 juni 2018 penerapan aplikasi power business intelligence dalam menganalisis prioritas pekerjaan di indonesia ricky akbar jln.limau manis, pauh 25163, padang, sumatera barat 1 rickyakbar1998@gmail.com 2 dinirasyiddah1@gmail.com 3 marchellaanrisya@gmail.com 4 nadyafritanita@gmail.com 5 silviasyaputri22@gmail.com beragam memungkinkan masyarakat untuk bisa memilih pekerjaan yang diinginkan
+data mengenai jenis-jenis pekerjaan yang ada di indonesia sangat banyak
+maka dibutuhkan teknologi dalam mengelola data tersebut seperti business intelligence 
+business intelligence meliputi proses pengumpulan data dan informasi, nantinya data dan informasi tersebut akan diolah sehingga memudahkan dalam mengambil keputusan
+pada penelitian ini menggunakan aplikasi power bi, dapat membantu masyarakat dalam menemukan jenis pekerjaan dari berbagai provinsi di indonesia
+pendahuluan sangatlah penting untuk dipelajari atau sekedar diketahui
+karena diera yang serba canggih saat ini hampir semua aspek kehidupan berhubungan dengan teknologi dan informasi
+seiring dengan perkembangan teknologi informasi membuat segala aspek pekerjaan menjadi lebih mudah

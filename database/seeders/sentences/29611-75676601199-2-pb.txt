@@ -1,0 +1,57 @@
+eee paper template in a4 vol 5 no 1 april 2019 klasterisasi menggunakan algoritma k-means mahasiswa jl
+hadary nawawi, pontianak 1 hendro.priyatman@ee.untan.ac.id * jurusan informatika, universitas tanjungpura 3 dpriyatman@student.untan.ac.id lulus mahasiswa dengan melihat mahasiswa-mahasiswa mana saja yang masuk kedalam suatu cluster tertentu berdasarkan parameter ipk dan kehadiran
+penelitian ini menerapkan algoritma k-means.algoritma k-means means merupakan salah satu metode clustering non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih cluster
+metode ini mempartisi data ke dalam cluster sehingga data yang memiliki karakteristik yang sama dikelompokkan ke dalam satu cluster yang sama dan data yang mempunyai karateristik yang berbeda dikelompokan ke dalam cluster yang lain
+penelitian ini diharapkan dapat membantu pihak kampus maupun mahasiswa untuk memprediksi tingkat kelulusan tepat waktu dan untuk meningkatkan reputasi bagi pihak kampus itu sendiri dan kelulusan tepat waktu bagi mahasiswa supaya kelulusan mereka tidak terlambat, selain itu pihak kampus bisa melakukan hal-hal yang perlu dilakukan apabila mereka di prediksi lulus tidak tepat waktu seperti dengan melakukan bimbingan dan hal lainnya
+pendahuluan dinanti-nanti oleh setiap mahasiswa dan lulus tepat pada waktunya adalah suatu hal yang diharapkan.selain itu setiap kampus juga pasti menginginkan mahasiswa nya untuk lulus tepat waktu, karena hal ini bermanfaat bagi pihak kampus untuk meningkatkan reputasi dan akreditasinya
+tapi pada kenyataannya para mahasiswa tidak bisa memprediksinya, mereka hanya mengikuti alur perkuliahan, sehingga akhirnya waktu kelulusan mereka menjadi terlambat
+hal ini dapat diketahui dari tidak seimbangnya presentase kelulusan mahasiswa dari tahun ke tahun ataupun perbandingan jumlah yang sudah lulus dan belum lulus pada beberapa angkatan
+salah satu metode yang digunakan untuk memprediksi waktu kelulusan mahasiswa ini adalah dengan menggunakan metode k-means clustering, yaitu dengan mengelompokan ‗n‘ buah objek kedalam ‗k‘ kelas berdasarkan jarak nya dengan pusat cluster
+analisis cluster merupakan teknik multivariat yang mempunyai tujuan utama untuk mengelompokkan objek-objek berdasarkan karakteristik yang dimilikinya
+analisis cluster mengklasifikasi objek sehingga setiap objek yang paling dekat kesamaannya dengan objek lain berada dalam cluster yang sama
+analisis cluster merupakan salah satu alat analisis yang berguna sebagai peringkas data
+dalam meringkas data ini dapat dilakukan dengan cara mengelompokkan objek-objek berdasarkan kesamaan karakteristik tertentu diantara objek-objek yang hendak diteliti
+melakukan pengelompokan dengan menggunakan yang mengimplementasikan algoritma k-means untuk menklaster kinerja akademik mahasiswa, dimana hasil clustering menunjukkan bahwa pendapatan orang tua tidak mempengaruhi tingkat kinerja akademik mahasiswa
+sulistyowati dkkmenganalisis segmentasi konsumen menggunakan algoritma k-means clustering, dari hasil perbandingan aplikasi dengan menggunakan software spss diperoleh hasil selisih dari masing-masing cluster dengan jumlah rata-rata 7%
+hal ini disebabkan karena centroid awal yang dipilih secara acak
+bastianmengkaji bagaimana penggunaan algoritma k-means cluster analysis dalam studi kasus penyakit menular manusia pada suatu objek berdasarkan set variabel yang dibentuk per kecamatan tiap puskesmas yang jumlahnya ada 32 kantor puskesmas di kabupaten majalengka
+rendy dkkmenganalisis perbandingan metode clustering menggunakan metode single linkage dan k- means pada pengelompokan dokumen, dari hasil perbandingan dapat disimpulkan metode single likage memiliki perfomansi yang lebih baik dibandingkan dengan metode k-means
+khotimahmenggunakan algoritma kmeans untuk mengelompokkan surat dalam al-qur'an berdasarkan jumlah ayat, jumlah ruku‘ dan lama waktu membaca surat
+dari percobaan yang dilakukan, nilai optimal diperoleh pada iterasi ke-14 dengan nilai k sebanyak 4 cluster
+irfiani dan ranimenggunakan algoritma kmeans untuk membantu para kader posyandu dan orang tua balita dalam penanganan dini kondisi gizi balita dengan kategori obesitas, gizi lebih, gizi baik, gizi kurang dan gizi buruk
+pengklasteran mahasiswa untuk kepentingan akademis juga pernah dilakukan oleh peneliti-peneliti sebelumnya
+penelitian ini fokus kepada penggunaan algoritma k- means untuk memprediski kelulusan mahasiswa
+diharapkan dengan adanya prediksi waktu kelulusan mahasiswa ini, apabila mereka diprediksi lulus tidak tepat pada waktunya, pihak kampus dapat melakukan kegiatan- kegiatan yang dapat meminimisasi jumlah mahasiswa yang diprediksi lulus tidak tepat waktu, seperti dengan mengadakan bimbingan belajar, mengadakan semester pendek ataupun kegiatan-kegiatan bermanfaat yang dapat membantu meningkatkan prestasi belajar mahasiswa
+pada dasarnya penelitian ini mempunyai tujuan untuk : mengklasterisasi mahasiswa dengan algoritma k- means, mengklaster data-data mahasiswa berdasarkan parameter yang ada yaitu ipk dan kehadiran, dan mengetahui kemampuan algoritma k-means clustering dalam memprediksi waktu kelulusan mahasiswa serta memberikan sarana untuk mengetahui perkiraan waktu lulus
+pengorganisasian data ke dalam suatu kluster merupakan suatu model yang paling mendasar untuk pemahaman dan pembelajaran
+analisis kluster adalah studi formal untuk mengelompokkan, atau clustering benda-benda sesuai dengan karakteristik yang diukur berdasarkan kemiripan satu sama lain
+clustering adalah pengelompokan menggunakan teknik learning serta tidak menggunakan pelabelan pada setiap kelompok
+dikelompokkan ke dalam satu cluster yang sama 
+tujuan dari clustering ini adalah untuk meminimalisasi fungsi tujuan yang ditetapkan dalam proses clustering, yang umumnya berusaha meminimalisasi variasi dalam suatu cluster dan memaksimalisasi variasi antar cluster
+clustering atau analisis cluster adalah proses pembentukan kelompok data dari himpunan data yang tidak diketahui kelompok-kelompok atau kelas- kelasnya dan proses menentukan data-data termasuk ke dalam cluster yang mana
+clustering merupakan proses untuk mengetahui kelas-kelas taksonomi atau batryologi, atau analisis topologi dari data-data yang ada
+dilihat dari kacamata data mining, clustering bukanlah proses klarifikasi
+karena dalam proses klarifikasi, data dikelompokkan ke dalam kelas-kelas yang telah diketahui sebelumnya
+analisis kebutuhan penganalisisan predikisi kelulusan mahasiswa
+input diantaranya nim, nama, jenis kelamin, jurusan, ipk dan kehadiran sebagai data akademik atau data mahasiswa
+dan untuk kebutuhan proses, proses yang digunakan untuk mengolah data input adalah teknik clustering menggunakan algoritma k-means
+yang terakhir adalah kebutuhan output yang diharapkan adalah analisis dari hasil clustering sehingga dapat diketahui informasi yang dibutuhkan
+berikut adalah istilah-istilah didalam algoritma k-means clustering : 1
+cluster : cluster adalah kelompok atau grup 2
+cendroid : cendroid adalah titik tengah atau pusat 3
+iterasi : iterasi adalah pengulangan analisis data pengclusteran menggunakan algoritma k-means
+data-data yang dibutuhkan untuk membangun aplikasi ini berupa parameter yang kita ambil sebagai acuan prediksi kelulusan mahasiswa yaitu ipk dan kehadiran
+dari dua parameter tersebut data diubah menjadi tipe data yang memudahkan untuk diproses
+tingkat kelulusan diukur dari ipk dan kehadiran
+ipk dengan pujian dengan ipk 3.51 – 4.00 berdasarkan kehadiran : 71-85 % b rajin 41-55 % d malas a
+prosedur kerja sistem gambar 1 memperlihatkan flowchar dari algoritma k- means, sedangkan gambar 2 adalah diagram konteks dari aplikasi data mining dalam memprediksi kelulusan mahasiswa menggunakan algortma k-means clustering
+aplikasi data mining - informasi data tingkat keberhasilan - informasi data hasil prediksi gambar 2 diagram konteks 1
+pengesetan nilai awal titik tengah untuk menentukan nilai awal cendroid dilakukan secara acak
+pusat cluster yang baru ditentukan berdasarkan pengelompokan anggota masing-masing cluster
+kehadiran mahasiswa memiliki 13 anggota, maka perhitungan cluster menjadi : anggota maka cluster baru menjadi : c2 = maka cluster baru menjadi : maka cluster baru menjadi : pusat cluster yang baru pada iterasi ke 1 dapat dilihat pada tabel ii
+pengulangan langkah ke 2 hingga posisi data tidak mengalami perubahan
+perhitungan jarak dari data ke 1 terhadap pusat cluster, dilakukan seperti perhitungan jarak pada iterasi 1 dengan pusat cluster ipk dan kehadiran sesuai dengan hasil pusat cluster pada iterasi 1
+dan hasil dari penghitungan pusat cluster pada iterasi ke 2 dapat dilihat pada tabel iii
+tabel iii pusat cluster pada iterasi ke 2 cluster ke maka dapat diperoleh kesimpulan bahwa pada kasus ini implementasi algoritma k-means dalam data mining sudah berhasil, dan bisa menampilkan informasi prediksi kelulusan mahasiswa, namun untuk melihat tingkat kemampuan real k-means clustering dalam memprediksi waktu kelulusan tergantung pada mahasiswa itu sendiri b
+saran dapat dikemukakan saran-saran yang akan sangat membantu untuk pengembangan aplikasi ini selanjutnya 1
+untuk mengetahui pengembangan analisis dan aplikasi data mining yang lainnya serta untuk mendapat keputusan yang beragam, kita juga bisa menggunakan algoritma lain dalam data mining didalam melakukan penelitian seperti c4.5, algoritma apriori, naive bayes dan algoritma lainnya untuk mengetahui perbedaan dan cara kerja dari setiap masing-masing algoritma dalam data mining tersebut

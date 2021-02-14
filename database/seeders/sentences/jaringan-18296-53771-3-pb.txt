@@ -1,0 +1,124 @@
+penyediaan layanan berbasis web di program studi teknik informatika universitas tanjungpura berupa sistem yang multi user menimbulkan kerentanan pada sistem
+misalnya, terjadi intrusi-intrusi keamanan yang dilakukan oleh sebagian user dalam upaya penyerangan terhadap sistem
+upaya pengamanan terhadap sistem informasi telah dilakukan melalui penelitian tentang monitoring keamanan jaringan menggunakan snort oleh asep fauzi mutaqin tahun 2015 yang menghasilkan saran untuk dikembangkan dengan menambahkan fungsi intrusion prevension system pada snort
+berdasarkan saran tersebut dilakukan penelitian dengan mengembangkan sistem keamanan jaringan menggunakan snort mode inline untuk dapat menjalankan fungsi ips
+kemudian agar dapat diketahui performa snort mode inline diperlukan analisis perbandingan dengan sistem keamanan jaringan lain
+netfilter menggunakan advanced policy firewall dan mod evasive sebagai sistem keamanan jaringan yang digunakan dalam perbandingan performa snort mode inline sebagai upaya mengetahui sistem keamanan jaringan yang sesuai untuk diimplementasikan di prodi teknik informatika
+berdasarkan penelitian analisis perbandingan yang telah dilakukan menghasilkan sebagai berikut : perangkat keras yang digunakan oleh netfilter yaitu sebuah server netfilter sedangkan pada snort menggunakan pc snort dan server snort
+ server snort menggunakan memory sebesar 330668 kib dan pc snort menggunakan memory sebesar 175488 kib sedangkan server netfilter menggunakan memory yang lebih besar yaitu 457968 kib
+ 2 komponen sistem dan 5 tahap konfigurasi merupakan kebutuhan perangkat lunak pada netfilter sedangkan pada snort membutuhkan 8 komponen sistem dan 10 tahap konfigurasi
+ persentase pencegahan serangan antara lain : snort 100, 00 % lebih baik saat serangan ping attack dari pada netfilter, netfilter 50, 32 % lebih baik saat serangan dos dari pada snort, dan netfilter 91, 95 % lebih baik saat serangan port scanning dari pada snort
+pendahuluan perkembangan dan pemanfaatan teknologi komputer semakin meningkat berdasarkan kebutuhan dalam pertukaran informasi
+di program studi teknik informatika universitas tanjungpura telah mengembangkan teknologi komputer dalam pertukaran informasi
+pemanfaatan teknologi komputer pada sistem tersebut digunakan sebagai manajemen informasi, salah satunya yaitu pada sistem repositori
+kemudian teknologi komputer berbasis web merupakan teknologi yang digunakan pada sistem repositori tersebut dalam mengembangkan pertukaran informasi di prodi teknik informatika untan
+perkembangan website yang semakin cepat dengan berbagai macam fungsi dan kebutuhan, menuntut peningkatan pada keamanan jaringan web server
+website prodi teknik informatika untan yang dapat diakses oleh banyak user melalui jaringan local area network berbasis wired maupun wireless fidelity 
+memungkinkan recources website tersebut dapat diakses oleh banyak user
+sedangkan user yang dapat mengakses website secara bebas merupakan kerentanan bagi web server apabila keamanannya tidak diperhatikan dan tidak dikembangkan
+oleh sebab itu keamanan pada web server diperlukan untuk mengatasi user yang melakukan serangan sehingga terjaminnya ketersedian layanan bagi user lain
+pada penelitian sistem monitoring keamanan jaringan prodi teknik informatika melalui sms alert dengan snort yang dilaksanakan oleh asep fauzi mutaqin pada tahun 2015 telah diterapkan dan telah berhasil
+sistem monitoring tersebut mendeteksi serangan-serangan yang masuk di jaringan dengan hasil deteksi pada protokol icmp berjumlah 567, udp berjumlah 9.817 dan tcp berjumlah 339.109 
+saran dalam penelitian tersebut untuk ditambahkan iptables sebagai intrussion prevention system 
+inline mode merupakan fitur yang dapat digunakan sesuai dengan saran pada penelitian sebelumnya yaitu agar dapat menjalankan iptables sebagai firewall
+peneliti membandingkan snort dalam inline mode dengan netfilter untuk mengetahui kebutuhan dan performa snort sebagai pencegah serangan-serangan pada web server
+konsep dasar keamanan jaringan keamanan jaringan adalah proses untuk mencegah dan mengidentifikasi penggunaan yang tidak sah dari jaringan komputer
+langkah-langkah pencegahan membantu menghentikan pengguna yang tidak sah untuk mengakses setiap bagian dari sistem jaringan komputer
+keamanan jaringan komputer sendiri bertujuan untuk mengantisipasi resiko pada jaringan komputer berupa bentuk ancaman fisik maupun logic baik langsung ataupun tidak langsung mengganggu aktivitas yang sedang berlangsung dalam jaringan komputer
+secara umum terdapat 3 hal dalam konsep keamanan jaringan, yaitu: 1
+resiko atau tingkat bahaya analisis perbandingan sistemkeamanan jaringanmenggunakan snort dan netfilter muhammad suyuti ma’sum#1, m
+azhar irwansyah#2, heri priyanto#3 #program studi teknik informatika universitas tanjungpura 1muhammadsuyutimasum@yahoo.co.id, 2irwansyah.azhar@untan.ac.id, 3heripriyanto.stmt@untan.ac.id jl
+ancaman menyatakan sebuah ancaman yang datang dari seseorang yang mempunyai keinginan untuk memperoleh akses ilegal ke dalam suatu jaringan komputer seolah-olah mempunyai otoritas terhadap jaringan tersebut
+kerapuhan sistem menyatakan seberapa kuat sistem keamanan suatu jaringan komputer yang dimiliki dari seseorang dari luar sistem yang berusaha memperoleh akses ilegal terhadap jaringan komputer tersebut
+keamanan sendiri menyangkut 3 elemen dasar yaitu : 1
+firewall firewall adalah suatu cara atau mekanisme yang diterapkan baik terhadap hardware, software, ataupun sistem dengan tujuan untuk melindungi
+perlindungan dapat dilakukan dengan menyaring, membatasi, atau bahkan menolak suatu atau semua hubungan/kegiatan dari suatu segmen pada jaringan pribadi dengan jaringan luar yang bukan merupakan ruang lingkupnya
+segmen tersebut dapat merupakan sebuah workstation, server, router, atau local area network
+firewall secara umum diperuntukkan untuk melayani : 1
+mesin/komputer setiap mesin komputer yang terhubung langsung ke jaringan luar atau internet dan menginginkan semua yang terdapat pada komputernya terlindungi
+jaringan jaringan komputer yang terdiri lebih dari satu buah komputer dan berbagai jenis topologi jaringan yang digunakan, baik yang dimiliki oleh perusahaan, organisasi dsb
+mengimplementasikan kebijakan security di jaringan : jika aksi tertentu tidak diperbolehkan oleh kebijakan ini, maka firewall harus meyakinkan bahwa semua usaha yang mewakili operasi tersebut harus gagal atau digagalkan
+dengan demikian, semua akses ilegal antar jaringan akan ditolak
+melakukan filtering : mewajibkan semua traffic yang ada untuk dilewatkan melalui firewall bagi semua proses pemberian dan pemanfaatan layanan informasi
+dalam konteks ini, aliran paket data dari/menuju firewall, diseleksi berdasarkan ip address, nomor port, atau arahnya, dan disesuaikan dengan kebijakan security
+firewall juga harus dapat merekam/mencatat even-even mencurigakan serta memberitahu administrator terhadap segala usaha-usaha menembus kebijakan security
+netfilter netfilter.org adalah home bagi perangkat lunak framework packet filtering dalam linux 2.4.x dan seri kernel selanjutnya
+software umumnya terkait dengan netfilter.org adalah iptables
+software dalam kerangka ini memungkinkan penyaringan paket, network address translation dan paket mangling lainnya
+ini telah dirancang ulang dan sangat ditingkatkan dari penerus sebelumnya yaitu ipchains 2.2.x linux dan sistem linux 2.0.x ipfwadm
+netfilter adalah suatu pengaturan dari hooks di dalam kernel linux yang memungkinkan kernel modul untuk mendaftar fungsi callback dengan stack jaringan
+sebuah fungsi callback terdaftar kemudian dipanggil kembali untuk setiap paket yang melintasi hook dalam stack jaringan
+iptables adalah struktur tabel generik untuk mendefinisikan seperangkat pengaturan
+setiap aturan dalam sebuah tabel ip terdiri dari sejumlah pengklasifikasi dan satu tindakan yang terhubung 
+penyusupan, penyerangan, pemindaian, dan beragam bentuk ancaman lainnya
+d.snort snort merupakan sebuah aplikasi atau tool sekuriti yang berfungsi untuk mendeteksi intrusi-intrusi jaringan, sekaligus juga melakukan pencegahan
+dalam praktiknya, snort sangat andal untuk membentuk logging paket-paket dan analisis trafik-trafik secara real-time dalam jaringan berbasis tcp/ip
+snort dapat dikonfigurasi untuk mengawasi jaringan dari jenis serangan tertentu, dan menghubungi anggota tim penanggulangan insiden saat serangan benar-benar dilancarkan oleh penyerang
+fitur-fitur inilah yang menjadikan snort sebuah sistem pendeteksi gangguan dan serangan jaringan, yang sangat berguna bagi tim penanggulangan insiden
+secara prinsip, snort memerankan tiga fungsi utama : 1
+sebagai penangkal program-program sniffer paket-paket 
+sebagai packet logger 
+sebagai sistem pencegah intrusi untuk sistem-sistem jaringan
+snort dapat dikonfigurasikan untuk berjalan pada mode-mode berikut ini : 1
+sniffer mode bertugas membaca paket-paket dari jaringan dan menampilkan tampilan dalam bentuk aliran tak terputus pada konsol 
+packet logger mode bertugas mencatat log dari paket-paket ke dalam disk
+nids mode memiliki konfigurasi kompleks, namun bisa dimodifikasi, yang membuat snort bisa menganalisis arus jaringan untuk dibandingkan dengan rangkaian ruleset yang dibuat oleh user, sekaligus melakukan beberapa tindakan berdasarkan hal yang diamatinya
+inline mode bertugas mengambil paket dari iptable dan menginstruksikan iptables untuk menolak atau meneruskan paket tersebut berdasarkan jenis rule dari snort yang digunakan
+konfigurasi apf dirancang untuk menjadi lebih informatif dan menyajikan kemudahan kepada pengguna untuk mengikuti proses, dari atas ke bawah dari file konfigurasi
+sisi teknis apf adalah seperti pemanfaatan fitur stabil terbaru dari iptables proyek untuk menyediakan firewall yang sangat kokoh dan kuat
+penyaringan yang dilakukan oleh apf antara lain sebagai berikut :  static rule base policies  connection based sateful policies  sanity based policies f.mod evasive mod evasive adalah evasive maneuvers module untuk apache web server sebagai aksi evasive pada saat terjadi http dos atau serangan ddos atau serangan brute force
+mod evasive juga dirancang sebagai pendeteksi dan network management tools, dan bisa secara mudah dikonfigurasi agar terdeksi dengan ipchains, firewalls, routers, dan etcetera
+mod evasive dapat menghasilkan laporan abuses melalui e-mail dan fasilitas syslog
+pendeteksian dilakukan dengan membuat sebuah internal dynamic hash table dari alamat ip dan urls, dan menolak alamat ip mana saja yang berasal dari :  request halaman yang sama secara berulang kali pada selang waktu tertentu per detik
+ membuat lebih dari 50 concurrent request pada child yang sama per detik
+ mebuat permintaan-permintaan sewaktu di-blacklist secara temporer 
+perancangan sistem dan arsitektur jaringan perancangan pada penelitian ini menggunakan network 192.168.10.0/24 pada routerboard di jaringan teknik informatika
+adapun perancangan yang dilakukan, yaitu antara lain sebagai berikut : 1
+perancangan sistem dan arsitektur jaringan snort snort yang dirancang adalah sebagai router yang terhubung pada routerboard
+pengembangan arsitektur jaringan snort yang akan diterapkan dijelaskan pada gambar 1
+perancangan sistem dan arsitektur jaringan netfilter server netfilter yang dikonfigurasi selain menjalankan web service juga menjalankan netfilter dan dihubungkan pada routerboard
+pengembangan arsitektur jaringan netfilter yang akan diterapkan dijelaskan pada gambar 2
+implementasi pengembangan arsitektur jaringan implementasi yang akan dilakukan yaitu dengan menerapkan sistem snort dan sistem netfilter seperti pada gambar 1 dan gambar 2
+implementasi sistem dengan menggunakan snort yang dilakukan antara lain update dan upgrade kernel, instalasi paket pedukung snort, konfigurasi daq, konfigurasi snort, konfigurasi rules snort, konfigurasi database snort, konfigurasi barnyard2, konfigurasi adodb, dan konfigurasi snorby
+kemudian implementase sistem dengan menggunakan netfilter yang dilakukan adalah konfigurasi advance policy firewall dan konfigurasi mod evasive
+pengujian sistem snort dan netfilter pada tahap ini dilakukan pengujian terhadap sistem keamanaan yang menggunakan snort dan sistem keamanaan yang menggunakan netfilter untuk memastikan bahwa sistem keamanaan yang telah dikonfigurasi dapat berjalan sesuai dengan perancangan
+berikut pengujian sistem yang akan dilakukan yaitu :  pengujian sistem snort pengujian fungsional snort dilakukan dengan perintah, apabila snort telah berjalan maka akan menampilkan notifikasi seperti pada gambar 3
+pengujian snort mode inline snort yang menjalankan mode inline kemudian dilakukan pengamatan penggunaan memory yaitu dengan menjalankan perintah pada pc snort dan server netfilter
+hasil dari pengamatan ini yaitu penggunaan memory pada pc snort sebesar 175488 kib dan penggunaan memory pada server snort sebesar 330668 kib
+pengujian apf pengujian yang dilakukan pada apf dengan cara menjalankan perintah pada terminal untuk dapat diketahui bahwa apf telah aktif
+notifikasi yang akan tampil bahwa apf dalam keadaan berjalan seperti pada gambar 5
+pengujianmod evasive pengujian mod evasive setalah ter-install pada server netfilter dilakukan dengan memverifikasi bahwa mod evasive telah enable dengan menjalankan perintah 
+notifikasi menandakan mod evasive telah aktif dengan tampilan seperti pada gambar 6
+verifikasi mod evasive kemudian menjalankan script test.pl untuk membuat 100 requests pada server netfilter agar dapat diketahui berjalan atau tidaknya sistem keamanan yang terlah ter-install
+perintah yang digunakan yaitu maka akan terdapat notifikasi 403 yang berarti server dapat menolak requests
+tampilan pengujian mod evasive pada gambar 7
+penggunaan memory pada server netfilter server netfilter yang telah menjalankan netfilter dilakukan pengamatan penggunaan memory yaitu dengan menjalankan perintah 
+dari pengamatan tersebut dapat diketahui bahwa penggunaan memory pada server netfilter yaitu sebesar 457968 kib
+pengujian menggunakan ping attack pengujian dilakukan dengan cara menyerang server snort dan server netfilter oleh intrudermenggunakan hping3
+proses penyerangan yang dilakukan adalah dengan melakukan ping menggunakan hping3 dengan jumlah count 1000 oleh intruder sebanyak 20 kali ke ip address pada server snort dan server netfilter
+hasil yang diperoleh berupa rata-rata persentase pencegahan dengan besaran pada snort adalah 100, 00 % dan pada netfilter 0, 05 %
+pengujian menggunakan dos/ddos pengujian dilakukan dengan cara menyerang server snort dan server netfilter oleh intruder menggunakan apachebench 
+proses penyerangan yang dilakukan adalah dengan mengirim 1000 permintaan menggunakan ab sebanyak 20 kali ke ip address pada server snort dan server netfilter
+hasil yang diperoleh berupa rata-rata persentase pencegahan dengan besaran pada snort adalah 49, 45 % dan pada netfilter 98, 77 %
+pengujian menggunakan port scanning pengujian dilakukan dengan cara menyerang server snort dan server netfilter oleh intruder menggunakan zenmap
+proses penyerangan yang dilakukan adalah dengan scanning pada port dengan interval 1 - 1000 sebanyak 20 kali ke ip address pada server snort dan server netfilter
+hasil yang diperoleh berupa rata-rata persentase filtered ports dengan besaran pada snort adalah 0.00 % dan pada netfilter 92, 00 %
+perangkat keras lebih banyak digunakan oleh sistem keamanan jaringan snort karena selain server, sistem juga membutuhkan pc snort
+sedangkan pada sistem keamanan jaringan netfilter hanya menggunakan server dimana web service dan netfilter dijalankan
+tabel 1 perbandingan kebutuhan perangkat lunak sistem 2
+berdasarkan pengamatan pada pengujian sistem snort dan netfitler dapat diketahui bahwa penggunaan memory pada server snort lebih sedikit dari pada server netfilter
+oleh karena itu snort lebih baik digunakan dalam mengoptimalkan memory pada server
+penggunaan memory sistem keamanan jaringan snort dan netfilter ditampilkan pada tabel 2
+berdasarkan kebutuhan perangkat lunak pada perancangan dan implementasi dapat diketahui bahwa sistem keamanan jaringan snort lebih banyak membutuhkan perangkat lunak dari pada netfilter
+kebutuhan perangkat lunak pada sistem terdiri dari komponen sistem dan tahap konfigurasi sistem
+perbandingan kebutuhan perangkat lunak sistem ditampilkan pada tabel 1
+berdasarkan pengujian menggunakan ping attack, dos, dan port scanning netfilter memiliki hasil keamanan yang lebih baik dengan persentase rata-rata 63, 92% dari pada snort dengan persentase rata-rata 49, 83%
+perbandingan hasil pengujian keamanan sistem ditampilkan pada tabel 3
+tabel 3 perbandingan hasil pengujian keamanan sistem no serangan persentase rata-rata hasil pengujian sistem keamanan jaringan snort netfilter 1 ping attack 100, 00% 0, 00% 2 dos 49, 45% 99, 77% iv
+kesimpulan/ringkasan setelah dilakukan analisis perbandingan sistem keamanan jaringan menggunakan snort dan netfilter dapat disimpulkan bahwa antara lain sebagai berikut : 1
+perangkat keras yang digunakan oleh netfilter yaitu sebuah server netfilter sedangkan pada snort menggunakan pc snort dan server snort
+server snort menggunakan memory sebesar 330668 kib dan pc snort menggunakan memory sebesar 175488 kib sedangkan server netfilter menggunakan memory lebih besar yaitu 457968 kib
+2 komponen sistem dan 5 tahap konfigurasi merupakan kebutuhan perangkat lunak pada netfilter sedangkan pada snort membutuhkan 8 komponen sistem dan 10 tahap konfigurasi
+persentase pencegahan serangan sebagai berikut :  snort 100, 00 % lebih baik saat serangan ping attack dari pada netfilter
+ netfilter 50, 32 % lebih baik saat serangan dos dari pada snort
+ netfilter 91, 95 % lebih baik saat serangan port scanning dari pada snort

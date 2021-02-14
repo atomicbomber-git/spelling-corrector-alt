@@ -1,0 +1,131 @@
+tingginya motivasi masyarakat pengguna kendaraan roda empat pribadi, menyebabkan semakin meningkat pula kebutuhan terhadap bengkel mobil
+usaha bengkel ini tumbuh dan berkembang pada titik-titik strategis hamper di semua kota-kotabesar di indonesia
+akibatnya timbul kesulitan dalam mengetahui letak/ alamat bengkel yang hendak dituju secara cepat dari posisi terdekat
+penelitian ini bertujuan utuk menentukan jalur terpendek menuju lokasi bengkel mobil menggunakan algoritma djikstra melalui aplikasi berbasis web
+hal ini dapat mempermudah masyarakat ketika mengalami kerusakan mobil dimanapun
+algoritma djikstra bekerja menggunakan graph dengan prinsip greedy yaitu mencari nilai minimum setiap simpul yang dilalui dengan teknik penelusuran mengunakan best fisrt search 
+bfs yaitu dengan menelusuri simpul yang tertinggi kemudian penelusuran ke simpul dibawahnya
+aplikasi selanjutnya diuji dengan evaluasi usability
+5 komponen usability yang digunakan adalah learnability, effesiency, memorability, error, dan saticfaction yang disusun menggunakan kuisoner
+respondennya terdiri dari masyarakat umum yang dipilih secara acak yang terdiri dari 30 responden
+uji usability menggunakan skala likert yang terdiri dari 14 pertanyaan, dengan teknik perhitunggan menggunakan rata-rata sederhana
+hasil dari pengujian menunjukan bahwa nilai usability dari aplikasi jalur terpendek adalah 78, 5%, hal ini menujukan bahwa aplikasi jalur terpendek bernilai baik
+artinya bahwa responden merasa puas dengan adanya aplikasi ini dan terbantu dalam menentukan bengkel terdekat
+pendahuluan meningkat juga kebutuhan terhadap bengkel mobil
+jika mobil mereka mengalami kerusakan, mereka akan mencari bengkel mobil yang sesuai dengan kebutuhan, dan tentunya sebagian besar dari masyarakat ingin cepat sampai ke tujuan dengan memilih alternative jalan terdekat atau jalan pintas
+dengan alasan untuk menghemat waktu, biaya dan tenaga
+dengan luas tersebut masyarakat kesulitan mencari lokasi / alamat bengkel yang dicari secara cepat
+berdasarkan wawancara dari salah satu pegawai samsat kota pekanbaru
+setiap tahun pembelian mobil baru, rata-rata peningkatannya kurang lebih 13 % - 15 %, dilihat dari penerbitan stnk dan bpkb baru
+data yang diambil adalah bengkel mobil dalam skala menengah ke atas
+peneliti juga melakukan observasi ke lapangan dengan mewawancarai calon konsumen umum dan pemilik bengkel
+hasil dari wawancara tersebut dapat ditarik kesimpulan bahwa calon konsumen mengalami kesulitan untuk mengetahui alamat bengkel mobil yang mereka inginkan walaupun sudah ada kartu nama
+disebabkan sebagian besar calon konsumen kurang mengetahui rute-rute dikota pekanbaru, serta dikota pekanbaru banyak jalan persimpangan dan jalan tikus dan juga terdapat beberapa lokasi bengkel masuk kedalam dan jauh dari jalan besar
+apalagi untuk masyarakat yang baru berkunjung ke kota pekanbaru
+terkadang calon konsumen sering berhenti dijalan untuk menanyakan alamat ke penduduk sekitar, oleh sebab itu calon konsumen memerlukan biaya tambahan dan waktu tambahan untuk mencari lokasi bengkel yang dituju
+dalam mencari lokasi bengkel menggunakan metode algoritma djikstra untuk menentukan rute terpendek
+algoritma djikstra merupakan salah satu algoritma greedy dengan bobot terendah
+algoritma djikstra merupakan salah satu bentuk algoritma yang banyak digunakan dalam menentukan rute terdekat
+prinsipnya adalah mencari dua atau lebih lintasan dengan nilai bobot terkecil
+syaratnya adalah bobotnya harus bernilai positif
+jika korespondensi : yulvia nora marlim 55 bobotnya bernilai negatif maka proses perhitungannya tidak bisa di lakukan
+penelitian yang dilakukan olehtentang pencarian spbu terdekat menjelaskan bahwa algoritma djikstra merekomendasikan jarak tempuh terdekat untuk menghemat penggunaan bahan bakar kendaraan
+menginginkan sebuah sistem mempunyai user interface
+maka aplikasi jalur terpendek ini akan diuji
+pengujiannnya berdasarkan human computer interaction 
+human computer interaction memiliki prinsip usability ada 3 syarat untuk memenuhi prinsip usability, yaitu sistem itu harus useful yaitu website sesuai dengan kebutuhan pengunjung, usable yaitu mudah dipelajari dan digunakan
+user freindly yaitu sistem ini mempunyai tampilan yang menarik, dan pengunujung senang dan nyaman menggunakannya sehingga nantinya sistem ini banyak diakses oleh pengujung
+dengan kata lain prinsip usability atau pendayagunaan ini juga berhubungan dengan tingkat kepuasan pengujung
+usability juga mengacu kepada bagaimana user memahami dan menggunakan produk untuk memperoleh tujuan dan menilai tingkat kepuasan dari pengguna
+penilaian dari usability oleh pengunjung akan menjadi evaluasi untuk memperbaiki atau mengembangkan sistem menjadi lebih baik
+komponen usability yang digunakan pada penelitian ini adalah learnability, effeciensci, memorability, error, dan saticfation
+berdasarkan uraian permasalahan diatas, dibutuhkanlah sebuah sistem informasi yang akan menjadi petunjuk jalan bagi pengunjung dengan menampilkan rute terpendek ketempat bengkel yang dituju
+diharapkan sistem yang dibuat memiliki prinsip usability yang sesuai dengan kebutuhan pengunjung
+diharapkan dengan adanya sistem informasi pencarian bengkel mobil dengan rute terpendek dapat membantuk calon konsumen/pengunjung cepat sampai di tempat tujuan dan menghemat waktu, biaya, dan tenaga
+perancangan sistem dalam bentuk kerangka penelitian
+dapat dilihat pada gambar 1 yang tediri dari 5 tahap yaitu 1) identifikasi kebutuhan, 2) analisa data, 3) pelaksanaan, 4) pengolahan data, 5) implementasi, 6) pengujian
+pada tahap identifikasi kebutuhan langkah yang diterapan adalah dengan terun langsung kelapangan
+mewawancari beberapa masyarakat dan pemilik bengkel
+kemudian merumuskan masalah yang didapat dari hasil wawancara
+kemudian dilakukan pengumpulkan data, yaitu data bengkel di kota pekanbaru dan menentukan titik koordinat sebanyak 20 bengkel
+berikut titik koordinat bengkel dapat dilihat pada tabel 1
+yang kemudian dirancang sebuah sistem untuk diimplementasikan
+pengujian sistem menggunakan evaluasi usability, dengan cara menyebarkan angket ke 30 orang responden, yang terdiri dari pegawai negeri sipil, ibu rumah tangga, mahasiswa, karyawan swasta.dan sopir a
+jalur terpendek simpul awal ke simpul tujuan dengan jalur terdekat dan tercepat, untuk mencari jalur tependek menggunakan graph
+bobotnya diambil berdasarkan jarak tempuh dan waktu tempuh atau disebut weighted graph
+bobot pada graph merupakan jarak yang ditempuh, untuk menentukan jalur tependek menuju bengkel mobil
+untuk menentukan jalur terpendek menggunakan algoritma djikstra dimana bobot yang digunakan hanya yang bernilai positif, jika bobotnya bernilai negatif maka tidak bisa
+pada gambar 2 dapat dilihat contoh dari graph algoritma djikstra
+pada gambar 2 merupakan contoh kasus dimana simpul a merupakan simpul awal atau bisa diilustrasikan sebagai alamt awal dan simpul f merupakan simpul alamat atau tujuan
+untuk mengetahui jalur/rute terpendek dari simpul a menuju f maka dicari bobot dengan nilai terkecil menggunakan algoritma djikstra
+lebih lengkapnya tahapan dari algoritma djikstra yang dilakukan adalah
+a b d c e f 5 7 3 6 7 8 8 6 langkah pertama tentukan simpul awal atau sumber dan simpul tujuan
+gambar 2 terlihat simpul awal adalah a dan simpul tujuan adalah f
+kedua beri bobot untuk semua simpul, cara menentukan bobot berdasarkan jarak tempuh antara simpul
+selanjutnya langka ketiga dari simpul awal yaitu simpul a, di lihat simpul yang terhubung dengan a adalah simpul b dan d, dari simpul b dan d, dilihat bobot yang bernilai terkecil, yaitu a-b bernilai 5
+tahap keempat tetapkan bahwa simpul terpilih, dan pada simpul yang dipilih dapat dilihat ada node yang terbuhung yaitu d dan c, , a- b-c bernilai 5+8 = 13, a-b-d bernilai 5+3 = 8, a-b-e bernilai 5+7=12, dari hasil yang didapat, terlihat nilai terkecil dilalui oleh simpul a-b-d bernilai 8
+selanjutnya lakukan hal yang sama sehingga simpul akhir atau tujuan di temukan
+teknik bfs dilakukan dengan menelusuri titik awal dikarenakan simpul awal terletak pada tingkat tertinggi kemudian penelusuran akan dilakukan ke titik dibawahnya
+best first search merupakan kombinaasi dari teknik depth first search dan breadth first search
+pada algoritma djikstra titik yang akan ditelusuri adalah simpul yang memiliki bobot terkecil
+sistem informasi geografis sig dapat membantu dalam mengambilan keputusan, karena sig lebih mudah dan cepat dalam mengolah data spasial
+sig banyak digunakan dalam mentukan masalah-masalah jalur terpendek yang dikolaborasi dengan algoritma djikstra, beberapa contohnya masalah menemukan objek wisata, peta rumah sakit, dan jalur-jalur untuk angkutan umum trans metro
+sistem informasi geografis dapat mengatasi masalah-masalah
+pertama memberikan ilustrasi dengan melakukan komputasi
+kedua menenentukan tempat tertentu yang akan dituju
+dan ketiga data dan informasi diorganisasikan
+rekayasa kebutuhan fungsional harus disediakan oleh sistem untuk memenuhi kebutuhan dari user
+kebutuhan fungsional menggunakan use case diagram
+pada gambar 3 merupakan bentuk use case diagram dari aplikasi jalur/rute terpendek
+use case adalah menggambarkan dinteraksi beberapa aktor didalam sebuah sistem
+dapat dijelaskan pada gambar 2 use case sistem hanya di gunakan atau dipakai oleh 2 user yaitu admin dan pengunjung
+admin bertugas untuk mengupdate informasi tentang bengkel
+pengunjung dapat melihat informasi tentang bengkel berupa alamat bengkel, jasa-jasa yang disediakan, bengkel yang terdekat dengan pengujung serta informasi rute atau jalur terpendek menuju bengkel yang diinginkan
+halaman awal kebutuhan non fungsional adalah keterbatasan yang dimiliki oleh sistem
+pada penelitian ini kebutuhan non fungsional yang di teliti adalah usability
+usability merupakan analisa kualitatif yang dugunakan untuk menentukan kepuasan dai pemakai, usability maksudnya agar sistem yang di gunakan dapat dipakai dengan baik
+usability terdiri dari 5 komponen dapat dilihat pada gambar 4
+hasil dan pembahasan dipelajari, sehingga jika tidak gunakan dalam jangka lama, user masih bisa dengan mudah mengoperasikan
+ketiga efficiency merujuk kepada seberapa cepat sistem dapat membantu user
+keempat error maksudnya sistem memiliki tingkat error minimal kelima saticfation maksudnya user puas menggunakannya dan merasa terbantu dengan adanya sistem ini
+analisa dengan algoritma djikstra gambar 5 adalah contoh kasus analisis algoritma djikstra dalam bentuk graph
+contoh kasus yang diambil dari jalan ahmad yani no 78 menuju bengkel mobil 3 r jala sm
+amin pekanbaru sehingga didapatlah bentuk graph seperti gambar 5
+keterangan : dari jalan ahmad yani menuju simpul j, yaitu simpul tujuan bengkel 3r pekanbaru jalan sm amin no 77
+kemudian beri bobot untuk semua simpul, untuk simpul awal yaitu a bobot dinilai dengan 0
+langkah selanjutnya dari simpul awal keberangkatan simpul a yang terhubung yaitu simpul b, c, d dari ketiga simpul yang dipilih jumlah bobot terkecil yaitu a-b dengan bobot 0+4=4
+selanjutnya dilihat simpul yang terhubung dengan simpul b yaitu simpul c dan e, dan pilih bobot yang terkicil a-b-c= 0+4+4=8, a- b-e=0+4+7=11, maka ditetap simpul a-b-c yang terpilih dengan nilai 8, kemudian lakukan langkah yang sama, untuk menuju simpul a ke j yang dilalui adalah simpul a- b-c-f-i-j = 0+4+4+5+4+3=20
+cara pehitungan ini berlaku untuk semua jalur menuju bengkel mobil.sampai simpul tujuan didapati
+dari langkah diatas maka didapat hasil untuk menuju simpul a ke j yang dilalui adalah simpul a-b-c-f-i-j = 0+4+4+5+4+3=20
+cara pehitungan ini berlaku untuk semua jalur menuju bengkel mobil
+pada gambar 6 dapat dilihat dimana pengujung dapat mengetahui informasi tentang bengkel dan informasi rute atau jalur terpendek menuju jasa bengkel yang pengunjung inginkan dan bengkel yang terdekat dengan posisi pengunjung
+admin bertugas megelola data data bengkel
+implementasi halaman utama pada halaman utama terdiri dari home, dan sistem pencarian, serta informasi tentang bengkel dapat dilihat pada gambar 7 berikut
+7 halaman utama pada implementasi halaman sistem pencarian terdapat menu rute dan info bengkel
+implementasi halaman penelusuran dengan menuliskan tujuan/alamat bengkel
+yang dapat dilihat pada gambar 9 dibawah ini
+pengujian usability mengetahui seberapa mudah sistem di operasikan
+pada penelitiantingkat efisiensi dan dan efektifitas usability diukur menggunakan user’s succsess rate atau tingkat keberhasilan pengguna ditentukan presentasi tugas yang benar oleh pengguna
+pengujian ini dilakukan dengan cara menyebarkan angket ke respoden
+responden terdiri dari masyarakat umum dipilih secara acak yang berpropersi sebagai supir, karyawan swasta, ibu rumah tangga, pegawai negri sipil
+pertanyaan yang berikan disesuai dengan kebutuhan usability yaitu, berdasarkan learnability, memoribility, efficiency, error, dan saticfation
+penyebaran angket diberikan untuk 30 orang responden
+kuisoner yang di sebarkan dalam bentuk skala likert
+dilihat pada table 2, tabel 2 merupakan interval dari pengujian usability dengan menggunakan skala likert
+9 halaman penelusuran kuisoner, responden terlebih dahulu disuruh mencoba website
+sesuai dengan panduan, kemudian dipersilahkan untuk mengisi kuisoner
+error pertanyaan berupa pertanyaan negarif yang artinya setiap skor yang diisikan nantinya merupakan kebalikannya
+rumus digunakan untuk menentukan nilai awal pada setiap komponen usability skor angket yang diisi oleh responden dibagi jumlah responden
+tabel ivv jumlah skor responden dikali skor tertinggi yaitu 30 * 5 = 150 sehingga dengan menggunakan rumus untuk mencari nilai persentase didapatlah hasil dapat dilihat pada tabel v
+tabel v merupakan nilai tiap komponen usability dalam bentuk persentae
+setelah hasil perkomponen usability didapat, yang kemudian diukur tingkat penilaian usability perkomponen berdasarkan skala likert dengan pembagian persentase maksimal 100 %
+tabel vi merupakan tabel interval persentase penilaian
+langkah selanjutnya adalah mencari nilai usability dari aplikasi jalur terpendek dengan menggunakam rumus 
+dilihat pada rumus untuk mencari nilai persentase usability dari aplikasi jalur terpendek ini yaitu dengan menjumlahkan nilai semua komponen dibagi total komponen
+didapat nilai akhir dari usability website pencarian bengkel mobil dengan jalur terpendek adalah 78, 5 %
+di lihat dari tabel 6 persentase usability menggunakan skala likert maka 78, 5 dikategorikan dengan penilaian baik
+kesimpulan diterapkan pada website pencarian rute terpendek yang mudah diakses dan digunakan oleh pengguna
+keunggulan dari sistem ini dapat terlihat dari pengujian non fungsional usability yang melibatkan 5 komponen, yaitu learnability dengan nilai 77, 3 % kategori penilaian baik, effeciency dengan nilai 74, 7 % dengan peneliaan baik
+memorability persentase 82 % dengan kategori penilaian sangat baik
+dapat disimpulkan bahwa nilai usability yang diuji dengan 30 responden, untuk seluruh komponen adalah 78, 5 %, artinya adalah bahwa website pencarian bengkel mobil dengan rute terpendek dengan nilai baik
+sehingga dapat dikatakan bahwa website ini user friendly yaitu pengunjung merasa senang menggunakannya, useful yaitu website ini bermanfaat untuk yang menggunakan dan useble artinya mudah dipelajari

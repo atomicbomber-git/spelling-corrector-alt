@@ -1,0 +1,74 @@
+6 no 1 april 2020 reduksi atribut menggunakan information gain untuk optimasi cluster algoritma k-means rozzi kesuma dinata#1, haried novriando*2, novia hasdyna+3, sujacka retno+4 #program studi teknik informatika universitas malikussaleh jl
+medan-banda aceh, cot teungku nie, reuleut, krueng geukueh, kab
+aceh utara- aceh 1rozzi@unimalac.id *jurusan informatika universitas tanjungpura +program studi teknik informatika universitas islam kebangsaan indonesia jl
+alue awe, lhokseumawe, aceh, indonesia 3noviahasdyna@gmail.com 4sujackaretno@gmail.com information gain digunakan untuk mereduksi atribut dataset dataset yang telah direduksi atribut akan dilanjutkan proses clustering dengan k-means
+dataset yang dianalisis pada penelitian ini adalah data hepatitis c virus yang diperoleh dari uci machine learning repository, dengan 29 atribut dan 1385 jumlah data
+hasil penelitian ini menunjukkan bahwa rata-rata jumlah iterasi yang diperoleh dari 10 kali pengujian dengan menggunakan k-means konvensional diperoleh rata-rata sebesar 32 iterasi, sedangkan k-means dengan reduksi atribut diperoleh rata- rata sebesar 27.7 iterasi
+nilai validitas cluster dihitung menggunakan davies-bouldin index 
+nilai dbi pada k- means konvensional sebesar 2.1972, sedangkan dbi pada k- means yang telah direduksi 1 atribut sampai 5 atribut diperoleh nilai rata-rata dbi masing-masing sebesar 2.0290, 1.8771, 1.8641, 1.8389, dan 1.8117
+pendahuluan menjadi beberapa cluster yang terpisah sehingga data yang ada di dalam masing-masing cluster tersebut menjadi sebuah kelompok data yang memiliki kemiripan yang relatif sama
+ada banyak teknik yang dapat digunakan untuk proses clustering seperti single linkage, complete linkage, average linkage, fuzzy c-means, kohonen som, lvq dan k-means
+salah satu permasalahan pada proses clustering dengan algoritma k-means adalah banyaknya atribut dataset yang menyebabkan bertambahnya jumlah iterasi
+metode seleksi fitur dapat digunakan untuk mereduksi atribut dataset
+pada penelitian ini, metode seleksi fitur yang digunakan adalah informatin gain
+metode ini digunakan untuk mereduksi atribut dataset, yaitu satu atribut, dua atribut, tiga atribut, empat atribut dan lima atribut
+setelah direduksi atribut dataset, akan dilanjutkan proses clustering dengan algoritma k-means dan selanjutnya akan dianalisis hasil validasi dengan menggunakan davies-bouldin index
+davies-bouldin index merupakan salah satu metode yang bertujuan untuk menganalisis peningkatan hasil clustering dengan mengevaluasi besarnya nilai kohesi dan separasi
+dataset yang direduksi atribut akan dianalisis pengaruhnya terhadap jumlah iterasi dan optimasi hasil evaluasi clustering pada algoritma k- means
+mengidentifikasi dan menghilangkan atribut dengan nilai yang tidak relevan atau berlebihan
+pada penelitian ini dilakukan seleksi atribut dengan menggunakan information gain, selanjutnya dilakukan proses clustering dengan algoritma k-means
+information gain information gain merupakan salah satu metode seleksi fitur yang banyak dipakai oleh peneliti untuk menentukan batas dari kepentingan sebuah atribut
+nilai information gain diperoleh dari nilai entropy sebelum pemisahan dikurangi dengan nilai entropy setelah pemisahan
+atribut yang memenuhi kriteria pembobotan yang nantinya akan digunakan dalam proses klasifikasi sebuah algoritma
+pemilihan fitur dengan information gain dilakukan dalam 3 tahapan, yaitu: 1
+menghitung nilai information gain untuk setiap atribut dalam dataset original 2
+hal ini akan memungkinkan atribut yang berbobot sama dengan batas atau lebih besar akan dipertahankan serta membuang atribut yang berada dibawah batas
+pengukuran atribut ini pertama kali dipelopori oleh claude shannon didalam teori informasi serta dituliskan sebagai berikut: 𝐸𝑛𝑡𝑟𝑜𝑝𝑦 = ∑ − 𝑝𝑖 𝑐 𝑖 𝑙𝑜𝑔2 𝑝𝑖 𝐼𝑛𝑓𝑜𝐴 = − ∑ 𝐷𝑗 keterangan: gain = information atribut a i = total entropy i = entropy a c
+algoritma k-means salah satu metode dalam teknik data mining yang dapat digunakan untuk mengelompokkan data atau clustering sebuah data kedalam bentuk satu cluster atau lebih cluster adalah k-means
+sarwono mengemukakan secara detail, algoritma k-means adalah sebagai berikut yaitu : 1
+tentukan nilai k sebagai jumlah cluster yang diinginkan
+tentukan nilai acak atau random untuk pusat cluster awal centroid sebanyak k, dengan menggunakan rumus jarak untuk menghitung jarak euclidean distance yaitu : i=1 3
+kelompokkan data berdasarakan nilai jarak terkecil setiap data
+perbaharui centroid baru dari rata-rata cluster dengan persamaan: 𝜇𝑗 = 1 keterangan : µj = centroid baru pada iterasi nsj = data pada cluster sj 5
+lakukan perulangan dari langkah 2 hingga 5, sampai anggota tiap cluster tidak ada yang berubah
+davies-bouldin index untuk mengevaluasi hasil cluster pada suatu metode clustering dapat menggunakan metode davies-bouldin index
+landasan dari metode ini adalah nilai kohesi dan separasi
+kedekatan data terhadap centroid dari cluster yang diikuti
+sedangkan separasi didasarkan pada jarak antar centroid dari cluster tersebut
+bouldin index adalah sebagai berikut: 1) sum of square within cluster : rumus yang digunakan untuk mencari matriks kohesi dalam sebuah cluster ke-i seperti persamaan berikut : 𝑠𝑠𝑤𝑖 = 1 2) sum of square between cluster : sebuah persamaan untuk mengenali fungsi pemisah antar cluster, seperti persamaan berikut: 3) ratio : memabandingkan nilai cluster i dan cluster j, seperti pada persamaan dibawah ini: 𝑅𝑖𝑗 = 𝑆𝑆𝑊𝑖+𝑆𝑆𝑊𝑗 nilai rasio, akan diguunakan untuk mencari nilai davies- bouldin index dengan rumus berikut: 𝐷𝐵𝐼 = 1 negatif >= 0), maka akan semakin baik cluster algoritma k- means
+proses reduksi dilakukan sebanyak 5 kali pereduksian
+masing-masing reduksi satu atribut, dua atribut, tiga atribut, empat atribut, sampai lima atribut
+selanjutnya, dianalisis hasil evaluasi clustering dengan dbi untuk mengetahui reduksi atribut data yang paling optimal adalah sebagai berikut: dalam penelitian ini yaitu: 1
+proses reduksi atribut dengan information gain
+evaluasi hasil clustering dengan davies bouldin index
+optimasi cluster k-means 
+hail berdasarkan persamaan, , dan diperoleh hasil perhitungan information gain seperti pada tabel 1
+3 diagram hasil information gain pada hepatitis c virus dataset nilai information gain terkecil adalah atribut ke-6, kedua adalah atribut ke-11, ketiga adalah atribut ke-20, reduksi keempat adalah atribut ke-19, dan reduksi kelima adalah atribut ke-18
+proses pereduksian dengan reduksi satu atribut, dua atribut, tiga atribut, dan empat atribut
+selanjutnya akan di analisis hasil komparasinya dengan dbi
+proses clustering dengan k-means hasil perhitungan clustering dengan algoritma k-means dengan reduksi atribut dapat dilihat pada tabel 1, atribut headache direduksi karena memperoleh nilai information gain terkecil sebesar 0.0000891
+pada pengujian kali ini dilakukan sebanyak 10x pengujian yang diperlihatkan pada tabel 2 berikut: tabel iii pengujian iterasi konvensional k-means k-means 2 32 26 3 29 33 4 33 32 5 25 28 6 38 30 7 33 30 8 30 31 9 35 30 10 28 35 rata-rata 32 30, 5 proses clustering sebesar 38 iterasi, pada pengujian ke 5 diperoleh jumlah iterasi terendah sebesar 25 iterasi
+sedangkan menggunakan k-means dengan mereduksi satu atribut diperoleh jumlah iterasi terbesar pada pengujian ke 10 sebesar 35 iterasi, pada pengujian ke 2 diperoleh jumlah iterasi terendah sebesar 26 iterasi
+rata-rata jumlah iterasi yang diperoleh dari masing- masing 10x pengujian dengan menggunakan k-means konvensional diperoleh rata-rata sebesar 32 iterasi, sedangkan dengan k-means dengan reduksi satu atribut diperoleh rata-rata sebesar 30.5 iterasi
+4 grafik hasil clustering k-means dengan reduksi satu atribut atribut headache dan wbc white blood cell direduksi karena memperoleh nilai information gain 2 terkecil masing-masing sebesar 0.0000891 dan 0.0000943
+pada pengujian kali ini dilakukan sebanyak 10x pengujian yang diperlihatkan pada tabel 3 berikut: tabel iiiii pengujian iterasi konvensional k-means k-means + 2 32 25 3 29 30 4 33 37 5 25 29 6 38 30 7 33 25 8 30 30 9 35 31 10 28 31 rata-rata 32 29, 9 menyelesaikan proses clustering sebesar 38 iterasi, pada pengujian ke 5 diperoleh jumlah iterasi terendah sebesar 25 iterasi
+sedangkan menggunakan k-means dengan mereduksi dua atribut diperoleh jumlah iterasi terbesar pada pengujian ke 4 sebesar 37 iterasi, pada pengujian ke 2 dan ke 7 diperoleh jumlah iterasi terendah sebesar 25 iterasi
+rata-rata jumlah iterasi yang diperoleh dari masing- masing 10x pengujian dengan menggunakan k-means konvensional diperoleh rata-rata sebesar 32 iterasi, sedangkan dengan k-means dengan reduksi dua atribut diperoleh rata-rata sebesar 29.9 iterasi
+5 grafik hasil clustering k-means dengan reduksi dua atribut atribut headache, wbc white blood cell dan alt 36 direduksi karena memperoleh nilai information gain 3 terkecil masing-masing sebesar 0.0000891, 0.0000943 dan 0.0001732
+menyelesaikan proses clustering sebesar 38 iterasi, pada pengujian ke 5 diperoleh jumlah iterasi terendah sebesar 25 iterasi
+sedangkan menggunakan k-means dengan mereduksi tiga atribut diperoleh jumlah iterasi terbesar pada pengujian ke 8 sebesar 33 iterasi, pada pengujian ke 6 diperoleh jumlah iterasi terendah sebesar 25 iterasi
+rata-rata jumlah iterasi yang diperoleh dari masing- masing 10x pengujian dengan menggunakan k-means konvensional diperoleh rata-rata sebesar 32 iterasi, sedangkan dengan k-means reduksi tiga atribut diperoleh rata-rata sebesar 29.1 iterasi
+6 grafik hasil clustering k-means dengan reduksi tiga atribut atribut headache, wbc white blood cell, alt 36 dan alt 24 direduksi karena memperoleh nilai information gain 4 terkecil masing-masing sebesar 0.0000891, 0.0000943, 0.0001732 dan 0.0002474
+pengujian kali ini dilakukan sebanyak 10x pengujian diperlihatkan pada tabel 5 berikut: tabel v pengujian iterasi konvensional k-means k-means + 2 32 26 3 29 24 4 33 31 5 25 27 6 38 30 7 33 25 8 30 30 9 35 30 10 28 27 rata-rata 32 28 proses clustering sebesar 38 iterasi, pada pengujian ke 5 diperoleh jumlah iterasi terendah sebesar 25 iterasi, sedangkan menggunakan k-means dengan mereduksi empat atribut diperoleh jumlah iterasi terbesar pada pengujian ke 4 sebesar 31 iterasi, pada pengujian ke 3 diperoleh jumlah iterasi terendah sebesar 24 iterasi
+rata-rata jumlah iterasi yang diperoleh dari masing- masing 10x pengujian dengan menggunakan k-means konvensional diperoleh rata-rata sebesar 32 iterasi, sedangkan dengan k-means reduksi empat diperoleh rata- rata sebesar 28 iterasi
+7 grafik hasil clustering k-means dengan reduksi empat atribut atribut headache, wbc white blood cell, alt 36, alt 24 dan alt 12 direduksi karena memperoleh nilai information gain 5 terkecil masing- masing sebesar 0.0000891, 0.0000943, 0.0001732, 0.0002474 dan 0.0004240
+pada pengujian kali ini dilakukan sebanyak 10x pengujian diperlihatkan pada tabel 6 berikut: tabel vi pengujian iterasi konvensional k-means k-means + 2 32 29 3 29 28 4 33 25 5 25 30 6 38 25 7 33 28 8 30 25 9 35 26 10 28 33 rata-rata 32 27, 7 menyelesaikan proses clustering sebesar 38 iterasi, pada pengujian ke 5 diperoleh jumlah iterasi terendah sebesar 25 iterasi
+sedangkan menggunakan k-means dengan mereduksi lima atribut diperoleh jumlah iterasi terbesar pada pengujian ke 10 sebesar 33 iterasi, pada pengujian ke 4, 6 dan 8 diperoleh jumlah iterasi terendah sebesar 25 iterasi
+masing 10x pengujian dengan menggunakan k-means konvensional diperoleh rata-rata sebesar 32 iterasi, sedangkan dengan k-means reduksi lima atribut iperoleh rata-rata sebesar 27.7 iterasi, seperti grafik dibawah ini
+8 grafik hasil clustering k-means dengan reduksi lima atribut c
+nilai davies-bouldin index hasil perhitungan nilai dbi pada k-means konvensional dengan k-means yang direduksi atribut dapat dilihat pada tabel komparasi berikut: tabel vii 2.1972 2.0290 1.8771 1.8641 1.8389 1.8117 berdasarkan tabel 7, nilai dbi pada k-means konvensional sebesar 2.1972, sedangkan dbi pada k-means yang telah direduksi 1 atribut sampai 5 atribut diperoleh nilai dbi masing- masing sebesar 2.0290, 1.8771, 1.8641, 1.8389, dan 1.8117, seperti pada grafik dibawah ini
+kesimpulan clustering davies bouldin index terbaik adalah pada reduksi atribut ke lima sebesar 1, 8117
+adapun nilai dbi pada k-means sebelum direduksi atribut adalah sebesar 2, 1972
+hasil penelitian ini juga menunjukkan bahwa metode information gain dapat mengurangi jumlah iterasi pada proses clustering k-means
+, dengan rata-rata jumlah iterasi pada k-means sebelum direduksi adalah 32 iterasi
+rata-rata jumlah iterasi pada k-means dengan reduksi satu sampai lima atribut adalah sebesar 27, 7 iterasi

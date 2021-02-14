@@ -1,0 +1,153 @@
+eee paper template in a4 vol 5 no 2 rancang bangun sistem informasi pengolah nilai sekolah dasar untuk kurikulum 2013 aris budianto #1, rosyid esanudin #2, puspanda hatta # pendidikan teknik informatika dan komputer, universitas sebelas maret, jl ahmad yani, no 200, pabelan, kartasura, surakarta, 57169, indonesia 1 arisbudianto@staff.uns.ac.id 2 rosyidesanudin@gmail.com 3 hatta.puspanda@gmail.com satuan pendidikan ke kurikulum 2013 berdampak pada sistem penilaian siswa
+penilaian pada kurikulum 2013 terdiri dari beberapa komponen, yaitu komponen sikap, pengetahuan dan ketrampilan
+pada saat penelitian dilakukan, pencetakan laporan studi atau rapor di sekolah dasar dilakukan dengan cara manual, sehingga membutuhkan waktu yang lama dan tidak efisien
+penelitian ini bertujuan untuk membuat sistem informasi pengolah nilai untuk kurikulum 2013 yang diimplementasikan untuk sekolah dasar
+metode penelitian yang digunakan adalah model research and development 
+sedangkan model pengembangan aplikasi menggunakan model waterfall
+kelayakan sistem diuji berdasarkan standar iso 9126
+aspek yang digunakan yaitu antara lain functionality, usability, maintainability, dan portability
+pengujian tingkat kelayakan sistem informasi dilakukan oleh ahli sistem, ahli substansi, dan pengguna sistem
+pengguna dari sistem ini adalah guru mata pelajaran, guru kelas dan wakil kepala sekolah bidang kurikulum
+hasil pengujian aspek functionality menghasilkan nilai 89, 22%, aspek usability menghasilkan nilai 88, 75%, aspek maintainability menghasilkan nilai 90%, dan untuk aspek portability menghasilkan nilai 81, 66%
+pendahuluan sangat diperlukan, karena akan meningkatkan efektifitas proses pendidikan
+penelitian yang dilakukan olehmenyatakan bahwa pengurus administrasi sekolah memang memerlukan sistem informasi yang terkomputerisasi, terutama dalam pemantauan program sekolah dan pencatatan informasi tentang peserta didik
+jadi sistem informasi berbasis komputer memang benar- benar mampu untuk membantu dalam penyampaian informasi dengan lebih efektif dan efisien
+komputerisasi dalam pengelolahan nilai juga membantu menekan biaya
+penelitian yang dilakukan oleh, mengembangan sistem pengolah nilai
+sistem yang dikembangkan dapat menghemat waktu dan biaya serta mengurangi beban guru dalam menyiapkan laporan hasil belajar
+sehingga memungkinkan guru lebih banyak waktu untuk mengajar dan menyiapkan pengajaran yang lebih baik
+kurikulum tingkat satuan pendidikan, beberapa peneliti mengembangkan sistem untuk memudahkan dalam pengolahan nilai
+setiap jenjang pendidikan baik sekolah dasar, sekolah menengah baik smp atau sma dan smk memiliki karakteristik yang berbeda dalam sistem penilaian
+sebuah sistem pengolah nilai yang diimplementasikan di sma muhammadiyah pacitan
+sistem membantu guru dalam mengolah nilai hingga bisa menghasilkan output berupa rapor
+sistem yang dikembangkan dapat membantu sekolah dalam meningkatkan kinerja dan penyelesaian tugas dengan baik
+penelitian dan pengembangan sistem pengolah nilai dilakukan olehdilakukan di smk 1 kudus
+sistem pengolah nilai membantu dalam menyimpan data-data ulangan dan ujian tengah semester dan ujian kenaikan kelas
+data tersimpan dalam basis data terpusat dan dilengkapi dengan fasilitas backup dan restore
+mengembangkan sistem pengolahan nilai di sekolah dasar sakagalih v
+nilai ulangan harian, nilai pr, nilai portfolio, nilai praktek
+sistem digunakan untuk mengolah nilai harian yang terdiri dari, nilai uts, nilai uas, nilai ukk, nilai rata- rata rapor, nilai ujian sekolah dan nilai sekolah yang akan menghasilkan simulasi rapor dan simulasi hasil ujian sekolah
+menggunakan microsoft word dan microsoft excel menjadi dasar penelitian yang dilakukan oleh
+beberapa masalah muncul seperti hilanganya suatu data korespondensi : aris budianto 126 siswa yang sangat banyak dan tersimpan pada beberapa file dokumen, bahkan adanya gangguan komputer sekolah
+penelitian dilakukan dengan menggunakan metode waterfall dengan menggunakan bahasa pemrograman php framework codeigniter dan database mysql
+aplikasi ini diuji menggunakan metode black box testing, dan didapatkan hasil bahwa aplikasi ini mampu berjalan sesuai dengan fungsi dan tujuannya
+menuruttentang sistem pendidikan nasional, pasal 1 angka 19 ―kurikulum adalah seperangkat rencana dan pengaturan mengenai tujuan, isi, dan bahan pelajaran serta cara yang digunakan sebagai pedoman penyelenggaraan kegiatan pembelajaran untuk mencapai tujuan pendidikan tertentu‖
+kurikulum 2013 menggantikan kurikulum ktsp diberlakukan pada tahun 2015
+komponen penilaian kurikulum 2013 terdapat tiga komponen utama, yaitu sikap, pengetahuan dan ketrampilan
+penilaian sendiri menurutbertujuan untuk memantau dan mengevaluasi proses, kemajuan belajar, dan perbaikan hasil belajar peserta didik secara berkesinambungan
+pendidik yang bertujuan untuk memperoleh informasi mengenai perilaku peserta didik di dalam dan di luar pembelajaran
+penilaian pengetahuan merupakan pendidik, dan pemerintah untuk mengukur penguasaan pengetahuan peserta didik
+penilaian keterampilan merupakan kegiatan yang dilakukan untuk mengukur kemampuan peserta didik dalam mengaplikasikan menerapkan pengetahuan untuk dalam melakukan tugas tertentu sesuai dengan indikator pencapaian kompetensi
+penilaian pengetahuan dan keterampilan dilakukan oleh pendidik, satuan pendidik, dan/atau pemerintah
+ujian, tugas, harian, semester pertengahan ujian, dan nilai ujian akhir
+penilaian aspek pengetahuan dilakukan dengan memberikan 
+penilaian harian dilakukan setelah peserta didik menyelesaikan satu kompetensi dasar atau lebih
+sedangkan penilaian tengah semester dilakukan setelah melaksanakan 8-9 minggu kegiatan pembelajaran dan penilaian akhir semester dilakukan di akhir semester
+sedangkan penilaian aspek keterampilan dilakukan dengan memberikan tugas berupa pekerjaan, proyek, dan portofolio
+sedangkan penilaian aspek sikap dilakukan dengan observasi siswa, penilaian diri, dan penilaian teman oleh teman
+penelitian yang dilakukan olehdan, mengembangkan sistem penilaian di sekolah menengah kejuruan untuk kurikulum 2013
+mengembangkan sistem pengolah nilai untuk smk
+pengguna sistem informasi yang dikembangkan adalah administrator, guru, kepala sekolah, siswa, dan orang tua masuk
+tujuan dari sistem akademik ini adalah memfasilitasi guru untuk mengevaluasi siswa mereka, siswa mengevaluasi yang lain siswa, menyimpan makalah dan dokumen penilaian, dan sistem penilaian diintegrasikan dengan laporan siswa
+diterapkan di sekolah dasar juga dikembangkan oleh
+sistem dikembangkan berbasis aplikasi desktop, yang harus diinstal pada masing-masing pengguna
+aplikasi pengolahan nilai rapor kurikulum 2013 sdn indrasari 1 martapura mampu mempermudah kerja admin dalam menyimpan nilai-nilai siswa hingga menghasilkan output berupa rapor siswa
+sistem mendapatkan tanggapan penerimaan yang baik dari siswa berdasarkan hasil kuisioner user acceptance
+4 tahap yaitu define, design, develop, dan validasi ahli pengembang penilaian dapat disimpulkan bahwa sistem penilaian berbasis ict yang dikembangkan memenuhi kriteria kevalidan yaitu cukup valid dengan banyak revisi dan persentase akhir 76, 1%
+berdasarkan analisis hasil validasi praktisi memenuhi kriteria kevalidan dengan kategori sangat valid tanpa revisi dan persentase akhir adalah 90.33%
+sebuah sistem informasi pengolah nilai siswa berbasis web untuk siswa sekolah dasar yang disesuaikan dengan kurikulum 2013
+sistem bisa diakses di jaringan lokal tanpa harus di-install di masing-masing komputer pengguna
+sistem ini memiliki fitur menyimpan data, mengimport data dan juga dapat mencetak data nilai dengan format berbentuk rapor untuk laporan hasil belajar peserta didik
+penelitian diharapkan dapat membantu mempercepat proses pengolahan nilai yang lebih efektif serta meningkatkan kinerja guru dalam proses penyelenggaraan pendidikan yang lebih baik
+penelitian dilakukan di sdit al-kautsar, gumpang, kartasura
+berdasarkan penelitian awal didapatkan hasil mengenai alur sistem pengolahan nilai yang berlaku, sebagai berikut: a
+nilai siswa adalah data nilai yang diberikan oleh guru mata pelajaran selanjutnya dikumpulkan kepada guru wali kelas dengan cara menyalin file dari suatu komputer menggunakan flashdisk
+kurikulum untuk disimpan ke dalam komputer sekolah
+pencetakan nilai akhir oleh wali kelas, setelah semua nilai terkumpul
+dalam pengolahan nilai yang menghambat pelaporan nilai kepada wali peserta didik karena lambatnya distribusi nilai
+maka dari itu, perlunya dibuat sistem pengolah nilai yang dibuat berdasarkan kurikulum 2013 yang diharapkan dapat membantu guru dalam pengolahan dan penyaluran data nilai
+penelitian dan pengembangan adalah metode penelitian yang bertujuan untuk menghasilkan sebuah produk tertentu
+menurut, untuk menghasilkan produk tertentu digunakan penelitian yang bersifat analisis kebutuhan dan untuk menguji keefektifan produk tersebut supaya dapat berfungsi di masyarakat luas
+tahapan pengembangan sistem dalam penelitian ini adalah sebagai berikut: a
+komunikasi kebutuhan pengguna dengan melakukan metode wawancara, observasi, dan metode literatur
+tujuan dalam penelitian ini adalah menciptakan sebuah sistem baru yang lebih efektif dan efisien untuk menganti sistem sudah ada
+pengolahan nilai siswa yang berjalan saat ini adalah dimulai dari nilai diberikan oleh guru mata pelajaran dibuat melalui file microsoft excel atau word
+dan selanjutnya nilai disalurkan kepada guru wali kelas untuk dicek ulang sebelum akhirnya menjadi nilai akhir dan dikumpulkan kepada wakil kepala sekolah bidang kurikulum
+untuk penyaluran nilai tersebut dilakukan menggunakan flashdisk, disalin file dari suatu komputer ke komputer lainnya
+dari uraian alur pengolahan nilai tersebut terjadi banyak kendala seperti harus bertemu untuk berbagi file dan data bisa terkena virus yang ada pada komputer sebelumnya yang menyebabkan data rusak
+sehingga harus mengulang menyalin file dan akhirnya membutuhkan waktu yang banyak dan mengakibatkan penyerahan laporan nilai kepada wali peserta didik menjadi terlambat
+dari analisis di atas, diperlukan suatu sistem baru yang dapat mengatasi masalah-masalah yang ada dan berusaha menciptakan sistem yang lebih efektif dan efisien
+pada tahap ini dilakukan perancangan kebutuhan sistem, jadwal pengerjaan serta tujuan dari sistem ini dibuat
+pada tahap perencanaan dilakukan analisis kebutuhan untuk pengembangan sistem pengolah nilai yang akan dikembangkan
+kebutuhan sistem pengolah nilai ini antara lain yaitu sistem pengolah nilai dapat digunakan oleh guru mata pelajaran, guru wali kelas, dan wakil kepala sekolah bidang kurikulum sebagai koordinator atau admin
+untuk pengoperasian sistem, guru mata pelajaran memiliki akses untuk melakukan input nilai siswa dan deskripsi penilaian sesuai kompetensi dasar
+guru wali kelas memiliki hak akses untuk memasukkan nilai siswa dan mencetak hasil nilai siswa serta memilih siswa yang naik kelas
+wakil kepala sekolah bidang kurikulum memiliki akses untuk megelola data sistem secara keseluruhan seperti data siswa, data guru, data mata pelajaran, dan mencetak data nilai
+serta memiliki akses tambahan yakni mengatur semester aktif pada sistem
+yang akan diwujudkan menjadi sistem informasi
+rancangan yang dibuat antara lain membuat rancangan usecase diagram, rancangan flowchart, rancangan dfd, rancangan erd, rancangan basis data, serta pembuatan desain tampilan
+informasi pengolah nilai ini terdapat tiga pengguna sistem, antara lain koordinator atau admin, guru wali kelas, dan guru mata pelajaran
+usecase diagram sistem dapat dilihat pada gambar 1
+gambar 1 rancangan usecase diagram 2) rancangan flowchart: flowchart merupakan sebuah bagan alir yang menunjukkan proses aliran kerja atau data di dalam sistem terhadap produk yang ingin dihasilkan
+berikut adalah flowchart sistem secara rinci termasuk dengan pengguna sistem dan hak akses yang dapat dilakukan masing-masing pengguna ditunjukkan pada gambar 2
+diagram, merupakan gambaran konseptual struktur dan relasi data yang terdapat pada sistem informasi pengolah nilai
+erd sistem yang dikembangkan ditunjukkan pada gambar 3
+menggambarkan aliran data yang terjadi di dalam sistem informasi pengolah nilai seperti yang ditunjukkan pada gambar 4
+dalam mendesain tampilan sebuah sistem, pengembang perlu memperhatikan beberapa digunakan, tingkat kenyamanan dan tingkat kedinamisan tampilan
+tampilan untuk halaman admin ditunjukkan pada gambar 5
+gambar 5 tampilan dashboard data siswa, data mata pelajaran dan mengatur status semester aktif
+admin juga memiliki akses untuk mencetak nilai
+tampilan untuk halaman input kompetensi dan nilai ditunjukkan pada gambar 6 dan gambar 7
+guru mata pelajaran di dalam sistem memiliki akses untuk mengelola data deskripsi nilai mata pelajaran dan input nilai siswa sesuai dengan mata pelajaran yang diampu
+guru wali kelas memiliki akses untuk mencetak nilai siswa dalam bentuk rapor sabagai laporan kepada orang tua wali peserta didik
+tampilan dari output laporan belajar ditunjukkan pada gambar 9
+gambar 9 tampilan cetak rapor siswa a
+konstruksi pengembangan waterfall, seperti yang ditunjukkan pada gambar 10
+model waterfall adalah model klasik yang bersifat sistematis, berurutan dalam membangun software
+langkah-langkah penelitian pengembangan planning, modelling, construction, dan deployment
+implementasi dan pemeliharaan pada tahap ini sistem disajikan kepada pengguna yang kemudian akan mengevaluasi sistem serta memberikan tanggapan mengenai sistem ini
+jadi setelah tahapan ini selesai dapat dipastikan sistem layak untuk digunakan
+menggunakan metode blackbox dan mengacu pada kesesuaian sistem yang dibuat dengan kebutuhan yang telah dirancang
+pengujian dilakukan untuk mengetahui tingkat kelayakan sistem yang telah dirancang
+pengujian tingkat kelayakan sistem informasi menggunakan instrument penilaian berdasarkan standar iso 9126, dengan aspek penilaian functionality, usability, maintainability, dan portability
+skor uji kelayakan menggunakan skala likert, dengan rentang nilai 1-5 mulai dari sangat tidak setuju, tidak setuju, ragu-ragu, setuju, dan sangat setuju
+pengujian ahli sistem berdasarkan tabel 1 aspek yang dinilai oleh ahli sistem antara lain ketepatan pemilihan jenis software untuk pengembangan, kemudahan akses, proses dan aliran data, tampilan program, keberlanjutan program, kompabilitas program, dan kestabilan program
+aspek pertama yang dinilai adalah ketepatan pemilihan jenis software untuk pengembangan yang terdiri dari lima pernyataan dimana ahli sistem memberikan nilai sebesar 92%
+dari lima pernyataan yang diajukan ahli sistem memberikan jawaban ―sangat setuju‖ pada tiga pernyataan antara lain, ―penggunaan model sistem informasi berbasis web tepat untuk sistem informasi pengolah nilai‖, ―penggunaan software apache sebagai web server tepat untuk pengembangan sistem‖, ―sistem informasi sudah memenuhi kebutuhan sesuai dengan standar kurikulum 2013‖, dan dua pernyataan dengan jawaban ―setuju‖
+aspek ini diajukan lima pernyataan dan ahli sistem memberikan nilai rata-rata sebesar 92%
+dari kelima pernyataan terdapat dua pernyataan yang mendapatkan jawaban ―setuju‖ dan tiga pernyataan mendapat jawaban ―sangat setuju‖, salah satunya yakni pernyataan ―tombol navigasi dapat berjalan dengan baik dan sesuai dengan fungsinya‖
+kesesuaian proses yang dijalankan pada sistem informasi serta proses pengolahan data pada basis data
+dari delapan pernyataan yang diajukan, ahli sistem informasi memberikan jawaban ―sangat setuju‖ pada empat pernyataan dan empat pernyataan lainnya ―setuju‖ dan menghasilkan nilai rata-rata sebesar 90%
+aspek keempat yang dinilai adalah tampilan program
+pada aspek ini terdapat enam pernyataan untuk menilai desain dan tampilan sistem informasi yang dikembangkan
+dari enam pernyataan yang diajukan lima diberikan jawaban ―setuju‖ dan satu diberikan jawaban ―sangat setuju‖ yakni pada pernyataan ―form input mudah dimengerti‖, sehingga menghasilkan nilai rata-rata sebesar 83, 3%
+ini diajukan dua pernyataan untuk menilai apakah sistem informasi dapat dikembangkan dan disesuaikan lebih lanjut
+dari dua pernyataan yang diajukan, ahli sistem memberikan jawaban ―sangat setuju‖ pada semua pernyataan dengan nilai rata-rata sebesar 100%
+dari dua pernyataan yang diajukan, ahli sistem memberikan jawaban ―setuju‖ pada semua pernyataan sehingga menghasilkan nilai rata-rata sebesar 80%
+aspek terakhir yang dinilai adalah kestabilan program
+pada aspek ini diajukan dua pernyataan untuk menilai apakah sistem informasi yang dikembangkan dapat berjalan dengan baik dan lancar saat digunakan bersamaan dan saat memiliki data yang banyak
+dari dua pernyataan yang diajukan, ahli sistem memberikan jawaban ―setuju‖ pada semua pernyataan sehingga menghasilkan nilai rata- rata sebesar 80%
+untuk pengembangan 4 tampilan program 83, 33% 5 keberlanjutan program 100% 6 kompabilitas program 80% 7 kestabilan program 80% rata-rata 88, 19% b
+pengujian ahli substansi berdasarkan pada tabel 2 diketahui hasil penilaian dari ahli substansi administrasi dilihat dari berbagai aspek
+aspek yang dinilai oleh ahli substansi antara lain kesesuaian sistem, kelengkapan data/rekap data yang dihasilkan, dan kemudahan pengumpulan data
+aspek pertama yang dinilai adalah kesesuaian sistem
+pada aspek ini diajukan empat pernyataan untuk menilai proses dalam sistem yang dikembangkan sesuai dengan alur pelaksanaan pengolahan nilai yang ada
+dari empat pernyataan yang diajukan ada dua pernyataan yang diberikan jawaban ―sangat setuju‖ oleh ahli substansi administrasi dan dua lainnya diberikan jawaban ―setuju‖
+jadi aspek kesesuaian sistem mendapatkan nilai rata-rata sebesar 90%
+pada aspek ini diajukan empat untuk menilai apakah sistem informasi yang dikembangkan menghasilkan data yang lengkap dan sesuai kebutuhan
+dari empat pernyataan yang diajukan, ahli substansi administrasi memberikan dua nilai ―setuju‖ dan dua nilai ―sangat setuju‖ sehingga menghasilkan nilai rata-rata sebesar 90%
+dikembangkan dapat digunakan dengan mudah untuk mengolah data nilai
+pada aspek ini diajukan empat pernyataan dan ahli substansi memberikan jawaban ―setuju‖ pada dua pernyataan dan ―sangat setuju‖ pada dua pernyataan yang lainnya sehingga menghasilkan nilai rata-rata sebesar 90%
+no aspek yang dinilai nilai 1 kesesuaian sistem 90% dihasilkan 90% rata-rata 90% c
+pengujian pengguna pengguna dari sistem ini adalah guru mata pelajaran, guru kelas dan wakil kepala sekolah bidang kurikulum
+berdasarkan tabel 3 diketahui hasil penilaian dari guru dilihat dari berbagai aspek antara lain yaitu kesesuaian sistem, kemudahan akses, kemudahan pengumpulan data, dan tampilan program
+berdasarkan hasil penilaian oleh pengguna dari berbagai aspek diperoleh nilai untuk aspek functionality adalah 86, 67% dan nilai untuk aspek usability adalah 84, 28%
+serta hasil rata-rata penilaian dari pengguna adalah sebesar 84, 87% sehingga masuk dalam kategori sangat layak karena berada pada rentang nilai 81% – 100%
+1 kesesuaian sistem 86, 67% 2 kemudahan akses 82, 67% 4 tampilan program 85, 5% pengolah nilai siswa sekolah dasar berbasis web untuk kurikulum 2013
+sistem mampu meningkatkan efisiensi dalam menyimpan nilai, mencetak nilai dan menyajikan dalam bentuk rapor berdasarkan kurikulum 2013
+sistem informasi telah diuji untuk mengetahui tingkat kelayakan sistem menggunakan standar iso 9126
+setiap fungsi dari sistem telah diuji dan dapat berjalan dengan baik
+uji kelayakan sistem dilakukan oleh ahli sistem informasi, ahli substansi administrasi, dan pengguna
+sistem informasi yang dikembangkan mendapatkan penilaian diatas 81% sehingga dapat disimpulkan bahwa sistem informasi pengolah nilai ini sangat layak untuk digunakan dalam pelaksanaan pengolahan nilai di sdit muhammadiyah al-kautsar
+sistem informasi pengolah nilai yang dikembangkan dapat terintegrasi dengan data sistem informasi yang lain sehingga dapat menjadi sistem yang terintegrasi
+pengembangan sistem informasi agar dapat menambahkan mode pengaturan ―customize” untuk masing-masing sekolah, sehingga dapat digunakan di sekolah dasar manapun

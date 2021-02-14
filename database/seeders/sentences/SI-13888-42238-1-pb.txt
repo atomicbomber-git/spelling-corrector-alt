@@ -1,0 +1,12 @@
+tertib administrasi pelayanan rekam medis harus dilakukan dengan baik agar proses pelayanan administrasi terhadap pasien dapat berjalan dengan baik
+sebuah sistem informasi pengolahan data rekam medis yang baik diperlukan agar tercapai tertib administrasi rekam medis yang baik
+rumah sakit umum daerah sultan syarif mohamad alkadrie sudah memiliki sistem informasi rekam medis sendiri yang merupakan bagian dari sistem informasi manajemen rumah sakit, namun memiliki kesalahan dalam pengolahan data input dan output rekam medis
+penelitian ini bertujuan untuk memperbaiki permasalahan pada pengolahan input dan output rekam medis dengan cara membangun sistem informasi rekam medis
+sistem dibangun berbasis website dan perancangan sistem mencakup perancangan arsitektur sistem, perancangan diagram alir sistem, perancangan data flow diagram, perancangan basis data dan perancangan antarmuka sistem
+pengujian sistem dilakukan dengan menggunakan metode black box, sedangkan pengujian kuesioner terbagi menjadi dua jenis, yaitu pengujian kuesioner penggunaan aplikasi dan pengujian kuesioner perbandingan
+berdasarkan hasil pengujian black box, sistem dapat berjalan dengan baik dalam menampilkan output yang sesuai dengan input pengguna
+pengujian kuesioner penggunaan aplikasi dan pengujian kuesioner perbandingan yang dilakukan terhadap 12 responden dihitung menggunakan metode mencari interval nilai persentase likert
+hasil perhitungan pengujian kuesioner penggunaan aplikasi adalah 78%, sedangkan hasil perhitungan pengujian kuesioner perbandingan adalah 90, 8%
+berdasarkan hasil pengujian kuesioner penggunaan aplikasi dan kuesioner perbandingan, sistem informasi rekam medis yang dibangun dapat memperbaiki permasalahan input dan output pada pengolahan data rekam medis pasien di rsud sultan syarif mohamad alkadrie
+alkadrie berupaya meningkatkan mutu pelayanannya kepada pasien, salah satunya adalah peningkatan pelayanan dalam bidang penertiban administrasi rekam medis
+berdasarkan permenkes no: 269/menkes/per/iii/2008, rekam medis adalah berkas yang berisi catatan dan dokumen antara lain identitas pasien, hasil pemeriksaan, pengobatan yang telah diberikan, serta tindakan dan pelayanan lain yang telah diberikan kepada pasien

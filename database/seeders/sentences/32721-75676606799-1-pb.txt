@@ -1,0 +1,10 @@
+penelitian ini dirancang untuk mendeteksi keaslian mata uang rupiah dengan mengimplementasikan metode local binary pattern 
+metode ini memberikan tingkat keakuratan yang cukup tinggi
+ekstraksi lbp mengenalkan fitur-fitur pada tekstur permukaan uang kertas
+proses ekstraksi ciri dilakukan berdasarkan pada hasil perbaikan citra dan grayscaling dari proses akuisisi data citra uang dengan kamera smartphone
+sampel yang digunakan pada penelitian ini adalah pecahan 50.000 dan 100.000 rupiah
+dari hasil penelitian ini, metode lbp memperoleh akurasi tertinggi yaitu sebesar 100% bervariasi tergantung dari jumlah data pelatihan yang dilakukan
+sedangkan rata-rata akurasi dari total 120 data uji dengan masing – masing 30 set data pecahan 50k asli, 30 set data pecahan 50k palsu dan 30 set data pecahan 100k asli dan 30 set data pecahan 100k palsu adalah sebesar 95% dengan nilai k=1
+dimana 95% terdeteksi benar dan 5% terdeteksi salah
+penelitian ini menunjukkan bahwa metode local binary pattern berpotensi untuk mendeteksi keaslian uang kertas rupiah
+pendahuluan dilaporkan dari media online hingga juni 2017 tahun lalu

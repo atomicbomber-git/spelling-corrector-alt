@@ -1,0 +1,105 @@
+apabila anjing tidak dirawat dengan baik, maka akan berdampak buruk bagi kondisi kesehatan anjing dan dapat terserang penyakit menular sehingga dapat menyebabkan kematian, baik terhadap anjing yang menularkan maupun yang ditularkan
+dibutuhkan suatu alternatif untuk mengatasi hal tersebut yang dapat memberikan kemudahan kepada pemilik anjing untuk dapat mengetahui penyakit menular yang diderita oleh anjing peliharaannya
+salah satu alternatif tersebut adalah sistem pakar
+sistem pakar merupakan sistem yang berusaha mengadopsi pengetahuan manusia ke komputer yang dirancang untuk menyelesaikan masalah seperti layaknya seorang pakar
+penelitian ini bertujuan untuk mendiagnosa penyakit menular pada anjing dengan menerapkan metode dempster shafer
+nilai kepercayaan pada metode dempster shafer yang didapat dari probabilitas kemunculan setiap gejala terhadap masing- masing penyakit pada data sampel kasus akan digunakan dalam proses perhitungan untuk mendapatkan hasil berupa persentase penyakit menular yang diderita oleh anjing
+hasil keluaran dari sistem ini adalah jenis penyakit yang dialami dan informasi mengenai jenis penyakit yang dialami
+berdasarkan pengujian terhadap 30 data kasus didapat bahwa sistem dapat mendiagnosa penyakit menular pada anjing dengan tingkat keakuratan sebesar 100% berdasarkan 45 data sampel kasus yang digunakan dalam menentukan nilai belief pada metode dempster shafer
+pendahuluan bermain, tinggal bersama manusia dan diajak bersosialisasi dengan manusia
+tidak sedikit masyarakat yang tertarik memilih anjing sebagai hewan peliharaan
+anjing dapat dilatih untuk berbagai hal yang bermanfaat seperti menuntun orang tua atau tuna netra, menjaga rumah, serta membantu polisi dalam penyelidikan suatu kasus
+sebagai hewan peliharaan, anjing memiliki keistimewaan tersendiri bagi setiap pemilik anjing
+apabila anjing tidak dirawat dengan baik, maka akan berdampak buruk bagi kondisi kesehatan anjing dan dapat terserang penyakit menular sehingga dapat menyebabkan kematian, baik terhadap anjing yang menularkan maupun yang ditularkan
+pemilik anjing membutuhkan bantuan seorang pakar untuk mengatasi masalah tersebut yaitu dokter hewan
+dikarenakan keberadaan dokter hewan yang terbatas dan tidak selalu ada setiap saat, maka diperlukan suatu alternatif yang dapat memberikan kemudahan dan memiliki kemampuan layaknya seorang dokter hewan dalam mendiagnosa penyakit menular yang diderita oleh anjing peliharaannya
+dempster shafer adalah suatu teori matematika untuk pembuktian berdasarkan belief functions dan plausible reasoning, yang digunakan untuk mengkombinasikan potongan informasi yang terpisah untuk mengkalkulasi kemungkinan dari suatu peristiwa
+nilai kepercayaan pada metode dempster shafer yang didapat dari probabilitas kemunculan setiap gejala terhadap masing-masing penyakit pada data sampel kasus akan digunakan dalam proses perhitungan untuk mendapatkan hasil berupa persentase penyakit menular yang diderita oleh anjing
+sistem pakar ini diharapkan mampu mendiagnosa penyakit menular pada anjing dengan memasukkan gejala-gejala yang tampak pada anjing sehingga dapat dilakukan upaya penanganan terhadap penyakit tersebut
+berikut ini adalah beberapa penyakit menular yang umum diderita oleh anjing peliharaan
+rabies bersifat zoonosis yaitu dapat menulari manusia melalui gigitan anjing yang mengidap rabies
+rabies merupakan penyakit yang sangat menakutkan dan sangat ganas
+rabies langsung menyerang susunan syaraf pusat 
+distemper susunan syaraf sehingga menyebabkan radang selaput otak yang menyebabkan kematian
+anjing menggunakan metode dempster shafer niken candra ningrum1, hengky anra2, helfi nasution3
+program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 e-mail: 1nikencn@gmail.com, 2stmkom@gmail.com, 3helfi_nasution@yahoo.com 2 yang termasuk golongan adenovirus
+angka kematian akibat penyakit ini sangat tinggi
+penyakit hepatitis menyerang anjing semua umur tanpa terkecuali
+leptospirosis penyakit leptospirosis biasanya disebut dengan penyakit kuning, merupakan penyakit yang sangat jahat
+pembawa penyakit ini adalah parasit yang biasanya terdapat pada air kencing tikus
+penyakit muntah berak merupakan penyakit yang sangat ganas menyerang anak anjing
+penyakit ini sangat menular dan menjadi penyebab kematian paling tinggi terutama bila menyerang anak anjing umur 1 sampai 3 bulan
+coccidiosis penyakit coccidiosis disebabkan oleh parasit atau protozoa yang menyerang usus halus
+anjing biasanya terinfeksi lewat tertelannya oocyt infektif yang telah mencemari makanan, minuman, di kandang, dan alat – alat yang dijilat oleh anak anjing yang terkena penyakit ini
+scabiosis penyakit scabiosis disebabkan oleh tungau atau kutu golongan sarcoptes scabiei canis yang merupakan parasit yang sangat kecil, sulit dilihat dengan mata telanjang
+kutu atau tungau ini berkembang dengan bertelur di dalam pori- pori kulit atau dengan membuat terowongan di dalam kulit
+demodexcosis penyakit demodexcosis disebabkan oleh demodectic mange atau disebut demodex yang hanya dapat dilihat melalui mikroskop saja karena sangat kecil
+parasit ini menyerang sampai dibawah kulit dan terutama di akar rambut
+sistem pakar kemampuan pengambilan keputusan dari seorang pakar
+istilah emulasi berarti bahwa sistem pakar diharapkan dapat bekerja dalam semua hal seperti seorang pakar
+suatu emulasi jauh lebih kuat daripada suatu simulasi yang hanya membutuhkan sesuatu yang bersifat nyata dalam beberapa bidang atau hal
+teori dempster shafer pembuktian berdasarkan belief functions dan plausible reasoning, yang digunakan untuk mengkombinasikan potongan informasi yang terpisah untuk mengkalkulasi kemungkinan dari suatu peristiwa
+teori ini dikembangkan oleh arthur p
+teori tersebut dapat memberikan sebuah cara untuk menggabungkan evidence dari beberapa sumber dan mendatangkan atau memberikan tingkat kepercayaan dimana mengambil dari seluruh evidence yang tersedia
+secara umum teori dempster shafer ditulis dalam suatu interval
+belief adalah ukuran kekuatan evidence dalam mendukung suatu himpunan proposisi
+jika bernilai 0 maka mengindikasikan bahwa tidak ada evidence, dan jika bernilai 1 menunjukkan adanya kepastian
+plausibility akan mengurangi tingkat kepastian dari evidence
+plausibility dinotasikan seperti pada persamaan 2.2 sebagai berikut: pls =1 - bel plausibility bernilai 0 sampai 1
+jika yakin akan x, maka dapat dikatakan bahwa bel = 1, sehingga berdasarkan rumus di atas nilai dari pls = 0
+pada teori dempster shafer dikenal adanya frame of discrement yang dinotasikan dengan θ
+frame ini merupakan semesta pembicaraan dari sekumpulan hipotesis
+tujuannya adalah mengaitkan ukuran kepercayaan elemen-elemen θ
+tidak semua evidence secara langsung mendukung tiap-tiap elemen
+untuk itu perlu adanya probabilitas fungsi densitas 
+nilai m tidak hanya mendefinisikan elemen-elemen θ saja, namun juga semua subsetnya
+jumlah semua m dalam subset θ sama dengan 1
+apabila tidak ada informasi apapun untuk memilih hipotesis, maka nilai : m{θ} = 1, 0
+apabila diketahui x adalah subset dari θ, dengan m1 sebagai fungsi densitasnya, dan y juga merupakan subset dari θ dengan m2 sebagai fungsi densitasnya, maka dapat dibentuk fungsi kombinasi m1 dan m2 sebagai m3 pada persamaan 2.3 sebagai berikut
+arsitektur sistem yang terhubung untuk menggambarkan sifat dasar dari sebuah sistem
+berikut merupakan arsistektur sistem yang dibuat
+setelah itu, pengguna dapat melakukan interaksi dengan sistem melalui antarmuka sistem
+data yang dimasukkan oleh pengguna melalui aksi yang direkomendasikan akan diolah oleh mesin inferensi berdasarkan pada basis pengetahuan yang telah dimasukkan oleh pakar
+kemudian, sistem akan menampilkan hasil kepada pengguna melalui fasilitas penjelasan.perancangan diagram overview sistem
+dengan simbol-simbol tertentu yang menyatakan urutan langkah-langkah proses secara sistematis
+diagram konteks sistem gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+relasi antar tabel antar tabel yang dipergunakan dalam perancangan sistem pakar diagnosa penyakit menular pada anjing
+pada sistem pakar ini terdapat 11 buah tabel
+gejala admin m m m dokter_hewan m i i i i iii
+antarmuka halaman utama pengguna, pakar dan admin antarmuka halaman utama pengguna merupakan halaman pertama yang muncul saat pengguna mengakses web
+antarmuka halaman utama pengguna terdiri dari 6 menu yaitu beranda, info penyakit, login, daftar, bantuan dan about us
+antarmuka admin terdiri dari 4 menu yaitu menu profil, anjing peliharaan, hasil konsultasi dan manajemen data
+antarmuka halaman login pengguna, pakar dan admin proses login diperlukan untuk mengarahkan pengguna dalam mengakses hak akses sebagai member
+pengguna dapat masuk sebagai member dengan mengisikan username dan password yang telah didaftarkan sebelumnya
+proses login pakar dan admin digunakan sebagai proses verifikasi bagi pakar dan admin untuk melakukan proses manajemen data pada sistem
+antarmuka halaman konsultasi halaman konsultasi berupa form yang berisi pilihan nama anjing dan gejala-gejala
+member cukup memilih nama anjing peliharaannya yang sakit dan memilih gejala yang tampak dialami oleh anjingnya
+kemudian, sistem akan menampilkan hasil diagnosa berupa penyakit yang kemungkinan diderita oleh anjing peliharaan member tersebut
+antarmuka halaman riwayat konsultasi halaman ini menampilkan daftar riwayat konsultasi yang sudah pernah dilakukan oleh member
+jumlah data sampel kasus yang digunakan dalam pengujian terdiri dari 45 data sampel kasus, 16 data sampel kasus, dan 8 data sampel kasus terhadap 30 data kasus yang diuji
+8 data sampel kasus terdiri dari dua jenis kasus yang dipilih yaitu 8 data sampel kasus yang masing-masing kasus memiliki gejala paling sedikit dan 8 data sampel kasus yang masing-masing kasus memiliki gejala paling banyak
+16 data sampel kasus terdiri dari gabungan 8 data sampel kasus tersebut
+semua data sampel kasus yang digunakan berasal dari 45 data sampel kasus yang ada
+berikut ini adalah hasil pengujian validitas sistem pakar berdasarkan masing-masing jumlah data sampel kasus yang telah dilakukan
+hasil diagnosa sistem dengan 45 data sampel kasus, yang sesuai dengan diagnosa pakar terhadap 30 data kasus berjumlah 30 data kasus
+hasil diagnosa sistem dengan 16 data sampel kasus yang sesuai dengan diagnosa pakar terhadap 30 data kasus berjumlah 28 data kasus
+hasil diagnosa sistem dengan 8 data sampel kasus yang memiliki gejala paling banyak yang sesuai dengan diagnosa pakar terhadap 30 data kasus berjumlah 20 data kasus
+hasil diagnosa sistem dengan 8 data sampel kasus yang memiliki gejala paling sedikit yang sesuai dengan diagnosa pakar terhadap 30 data kasus berjumlah 11 data kasus
+berdasarkan hasil pengujian validitas sistem, maka nilai keakuratan masing-masing adalah sebagai berikut : 1
+30 data sampel kasus terhadap 30 data kasus nilai keakuratan = jumlah yang sesuai jumlah kasus × 100% nilai keakuratan = jumlah yang sesuai jumlah kasus × 100% = 93.33 % 3
+8 data sampel kasus dengan gejala yang paling banyak terhadap 30 data kasus nilai keakuratan = jumlah yang sesuai jumlah kasus × 100% = 66.67 % 4
+hasil perhitungan sistem pakar penentuan jenis kulit wajah wanita : 1
+pengguna hanya dapat mengakses sistem untuk konsultasi setelah mendaftarkan diri menjadi member
+hasil pengujian black box menunjukkan saat dilakukan input data dengan keseluruhan data kosong atau salah satu data kosong akan menimbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan dapat diatasi dengan dimunculkan pesan kesalahan atau instruksi pengisian data sehingga sistem dapat menangani data sesuai dengan apa yang diharapkan
+hasil pengujian validitas sistem menunjukkan dari 30 data kasus yang diuji berdasarkan 45 data sampel kasus yang digunakan dalam menentukan nilai belief pada sistem, terdapat 30 kasus yang sesuai dengan hasil diagnosa pakar
+pada 16 data sampel kasus, terdapat 28 kasus sesuai dan 2 kasus yang tidak sesuai
+pada 8 data sampel kasus yang masing-masing kasus memiliki gejala paling banyak, terdapat 20 kasus sesuai dan 10 kasus yang tidak sesuai
+sedangkan pada 8 data sampel kasus yang masing-masing kasus memiliki gejala paling sedikit, terdapat 11 kasus sesuai dan 19 kasus yang tidak sesuai
+dari hasil tersebut, dapat dilihat bahwa semakin banyak dan bervariasi jumlah data sampel kasus yang digunakan dalam menentukan nilai belief pada perhitungan dempster shafer, maka akan semakin akurat sistem dalam mendiagnosa penyakit menular pada anjing menggunakan metode dempster shafer
+metode dempster shafer dapat disimpulkan bahwa : 1
+sistem dapat mendiagnosa penyakit menular pada anjing berdasarkan gejala-gejala yang tampak pada anjing dengan menerapkan metode dempster shafer dengan tingkat keakuratan sebesar 100% berdasarkan 45 data sampel kasus yang digunakan dalam menentukan nilai belief pada metode dempster shafer
+berdasarkan hasil pengujian dengan metode black box, sistem dapat menangani kesalahan saat melakukan pengisian data dengan menampilkan pesan kesalahan atau intruksi pengisian data
+berdasarkan hasil pengujian validitas sistem pakar, didapat bahwa dengan menggunakan 45 data sampel kasus yang bervariasi dalam menentukan nilai belief didapat akurasi sebesar 100 %, sedangkan dengan 16 data sampel kasus yang digunakan didapat akurasi sebesar 93.33%, dengan 8 data sampel kasus yang masing-masing kasus memiliki gejala paling banyak didapat akurasi sebesar 66.67% dan dengan 8 data sampel kasus yang masing-masing kasus memiliki gejala paling sedikit didapat akurasi sebesar 36.67%
+semakin banyak dan bervariasi data sampel kasus yang digunakan dalam menentukan nilai belief pada perhitungan dempster shafer, maka akan semakin akurat sistem dalam mendiagnosa penyakit menular pada anjing menggunakan metode dempster shafer
+tingkat akurasi diperoleh dari kesesuaian antara hasil diagnosa sistem dengan hasil diagnosa pakar

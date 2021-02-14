@@ -1,0 +1,157 @@
+studi kasus dinas pertanian dan peternakan kayong utara
+ubmitted 01-10-2019; revised 09-10-2019; accepted 10-10-2019 58 sistem informasi lalu lintas ternak sania#1, heri priyanto #2, yulianti #3 #program studi informatika universitas tanjungpura jl
+hadari nawawi, pontianak 78124 1sania199516@gmail.com 2heripriyanto@informatika.untan.ac.id 3yulianti@informatika.untan.ac.id pengujian dan penyidikan penyakit hewan merupakan bagian dari dinas peternakan kayong utara
+pada balai pengujian dan penyidikan penyakit hewan sistem informasi sangat berpengaruh dalam mendukung peningkatan pembangunan peternakan dan pelayanan veteriner nasional pelaksaan pelayanan pengawasan veteriner perlu dilakukan identifikasi dan pengawasan terhadap lalulintas ternak
+peraturan bupati pasal 1 no 16 tahun 2018, lalu lintas ternak adalah keluar- masuk antar daerah/pulau, mutasi dan keluar-masuk daerah produk peternakan
+pelaksanaan pengawasan lalu lintas ternak antar kabupaten dilakukan di pos pemeriksaan ternak atau ppt oleh dinas yang membidangi fungsi peternakan dan kesehatan hewan di kabupaten/kota
+tujuan dari penelitian adalah membangun sebuah sistem informasi yang dapat membantu kepala bidang peternakan dan kesehatan hewan dalam membuat kebijakan, evaluasi dan administrasi peternakan dan kesehatan hewan
+kepala bidang peternakan dan kesehatan hewan memiliki tugas dan fungsi melakukan kontrol dan koordinasi terhadap lalu lintas ternak, meliputi jumlah dan kondisi hewan ternak pada dinas pertanian dan peternakan kayong utara
+metodologi penelitian yang dilakukan yaitu studi literatur, analisis kebutuhan, pengumpulan data, perancangan, implementasi, pengujian dan penarikan kesimpulan
+model pengembangan sistem menggunakan konsep system development life cycle 
+pengujian sistem dilakukan dengan pengujian black box dan aspek usability
+hasil pengujian black box adalah sistem dapat bekerja dengan baik dan hasil dari pengujian usability dengan 3 orang responden dari 8 pertanyaan, 6 diantaranya memiliki nilai diatas 80%
+sehingga disimpulkan sistem dapat membantu kepala bidang peternakan dan kesehatan hewan dalam membuat kebijakan, evaluasi dan administrasi peternakan dan kesehatan hewan
+maka harus dilakukan perubahan kearah perbaikan disegala bidang
+hal ini diakibatkan karena terus berkembang pesatnya ilmu pengetahuan
+salah satunya adalah di bidang teknologi dan informasi
+perkembangan pengetahuan teknologi dan informasi sangat dirasakan dengan diciptakannya alat elektronik yang disebut dengan komputer
+komputer didefinisikan sebagai sebuah mesin penghitung elektronik yang cepat dapat menerima informasi input digital, memprosesnya sesuai dengan suatu program yang tersimpan di memorinya dan menghasilkan output informasi
+unit pelaksana teknis daerah balai pengujian dan penyidikan penyakit hewan merupakan bagian dari dinas peternakan kayong utara
+pada balai pengujian dan penyidikan penyakit hewan sistem informasi sangat berpengaruh dalam mendukung peningkatan nasional dalam pelaksaan pelayanan pengawasan veteriner perlu dilakukan identifikasi dan pengawasan terhadap lalu lintas ternak
+lalu lintas ternak adalah keluar-masuk antar daerah/pulau, mutasi dan keluar- masuk daerah produk peternakan
+pelaksanaan pengawasan lalu lintas ternak antar kabupaten dilakukan di pos pemeriksaan ternak atau ppt oleh dinas yang membidangi fungsi peternakan dan kesehatan hewan di kabupaten/kota
+pelayan izin pengeluaran ternak adalah segala kegiatan pelayanan izin pengeluaran ternak yang akan di kirim atau dikeluarkan dari kabupaten kayong utara atas milik perusahaan atau masyarakat pengirim ternak
+berdasarkan uraian diatas, maka diperlukan suatu sistem informasi yang dapat membantu dalam pelaksaan pelayan pengawasan veteriner pada proses lalulintas ternak, yang dapat mengelola data lalu lintas ternak, menyiapkan laporan lalu lintas ternak, menerbitkan surat keterangan kesehatan hewan, memberikan informasi populasi/pertumbuhan ternak serta informasi stok hewan potong dan non potong
+penelitian terkait tentang aplikasi pendataan berbasis web, salah satunya adalah penelitian berjudul “rancang bangun sistem informasi pengolahan data ternak di perusahaan dagang perusahaan pengembangan usaha ternak indonesia (pd
+tujuan penelitian tersebut adalah untuk merancang dan membuat suatu model sistem informasi pengolahan data ternak, sehingga dapat menghasilkan laporan yang tepat, cepat, dan akurat
+metode pengumpulan data yang digunakan adalah metode kepustakaan dan lapangan
+hasil yang telah dicapai adalah dengan adanya aplikasi pengolahan data ternak, dapat mempermudah pengolahan data transaksi dan persediaan produk maupun barang serta mempercepat dalam pembuatan laporan transaksi dan stok
+perancangan sistem informasi pendataan ternak menggunakan php dan mysql
+kemudian penelitian berjudul penelitian ini menghasilkan sebuah aplikasi yang dapat mengintegrasikan data yang ada di kecamatan dan kabupaten, sehingga konsistensi data dapat terjamin serta mempercepat proses pendistribusian data, pencarian data, dan mempermudah proses pembuatan laporan peternakan yang mampu memberi sajian yang lengkap
+aplikasi ini dibangun dengan php dan mysql
+sistem informasi berbasis web pada dinas peternakan dan perikanan kabupaten tanah datar
+kemudian penelitian yang berjudul 
+adapun tujuan dari penulisan ini adalah merancang sistem informasi berbasis web berdasarkan penerima bantuan yang disalurkan oleh dinas peternakan dan perikanan kabupaten tanah datar
+sehingga peng-input-kan data, pengeditan data serta penyimpanan data bisa berjalan secara efektif dan efisien dan pembuatan laporan akan lebih cepat pengolahannya
+berdasarkan beberapa penelitian tersebut, penelitian yang akan dilalukan berikutnya yaitu berfokus pada sistem informasi lalu lintas ternak pada dinas pertanian dan peternakan kayong utara yang berbasis website
+tujuan dari penelitian ini adalah menghasilkan sistem informasi lalu lintas ternak yang mengelola data hewan ternak yang masuk dan keluar sehingga memudahkan dalam proses pencarian data lalu lintas ternak, populasi ternak dan stok hewan potong dan non potong pada dinas pertanian dan peternakan kayong utara dan dapat membantu kepala bidang peternakan dan kesehatan hewan dalam membuat kebijakan, evaluasi dan administrasi peternakan dan kesehatan hewan
+kepala bidang peternakan dan kesehatan hewan memiliki tugas dan fungsi melakukan kontrol dan koordinasi terhadap lalu lintas ternak, meliputi jumlah dan kondisi hewan ternak pada dinas pertanian dan peternakan kayong utara
+sedang berjalan oleh beberapa ahli, yaitu: sistem adalah sekumpulan dari elemen-elemen yang berinteraksi untuk mencapai suatu tujuan tertentu
+sistem adalah sekumpulan atau group dari subsistem/bagian/komponen apapun baik fisik yang saling berhubungan satu sama lain dan bekerja sama secara harmonis untuk mencapai suatu tujuan tertentu
+disimpulkan bahwa definisi sistem adalah sekumpulan dari beberapa elemen tertentu yang saling berhubungan/berinteraksi satu sama lain sehingga membentruk suatu kesatuan untuk mencapai tujuan tertentu
+menjadi sebuah bentuk yang berarti bagi penerimanya dan bermanfaat bagi pengambilan keputusan saat ini atau mendatang
+informasi adalah data yang diolah sehingga dapat dijadikan dasar untuk mengambil keputusan yang tepat
+dapat diartikan sebagai bebrapa data telah diolah menjadi suatu bentuk yang penting sehingga dapat memberikan nilai yang bermanfaat bagi si penerima
+definisi sistem informasi apapun dari people, hardware, software, computer networks and data communications, dan database yang mengumpulkan, mengubah dan menyebarkan informasi di dalam suatu bentuk organisasi
+sdlc merupakan pendekatan bertahap atau fase untuk melakukan analisa dan membangun rancangan sistem dengan menggunakan siklus yang spesifik terhadap kegiatan pengguna
+sdlc juga merupakan pola yang diambil untuk mengembangkan sistem perangkat lunak, yang terdiri dari tahapan: analisa, desain, implementasi, dan uji coba 
+konsep sdlc mendasari berbagai jenis metodologi pengembangan perangkat lunak yang membentuk suatu kerangka kerja untuk perencanaan dan pengendalian pembuatan sistem informasi, yaitu proses pengembangan perangkat lunak
+dalam perancangan piranti lunak oleh pengguna melalui beberapa tahapan agar mendapatkan hasil output yang sesuai
+waterfall model yang bersifat sistematis dan termasuk dalam model klasik, nama lainnya adalah linear sequential model
+tahapan-tahapan model waterfall dapat dilihat pada gambar 1
+linear sequential model penjelasan tahapan-tahapan waterfall tersebut yaitu: 1) analysis : fase ini merupakan proses analisa terhadap sistem yang sedang berjalan dengan tujuan untuk mendapatkan jawaban mengenai pengguna sistem, cara kerja sistem dan waktu penggunaan sistem, sehingga kebutuhan yang diperlukan untuk sistem baru akan didapatkan
+antarmuka, database, dan perancangan alur program
+perancangan diperlukan untuk menggambarkan sistem baru dengan tujuan memenuhi kebutuhan pengguna
+3) implementation : tahapan implementasi yaitu tahap rancangan sistem yang dibentuk menjadi suatu kode program untuk pembuatan sistem
+4) testing : pengujian program dilakukan untuk mengetahui kesesuaian sistem berjalan sesuai prosedur atau tidak dan memastikan sistem terhindar dari error yang terjadi
+testing juga dilakukan untuk memastikan kevalidan dalam proses input sehingga dapat menghasilkan output yang sesuai
+5) maintenance : fase ini yaitu pemeliharaan dan pengembangan sistem yang berguna untuk melihat kemampuannya, mengecek jika masih ada ditemukan error atau ada penambahan fitur-fitur yang belum ada pada sistem tersebut
+pengembangan diperlukan ketika adanya perubahan dari pengguna seperti ketika ada pergantian sistem operasi, atau perangkat lainnya
+pelayan izin pengeluaran ternak adalah segala kegiatan pelayanan izin pengeluaran ternak yang akan dikirim atau dikeluarkan dari kabupaten kayong utara atas milik perusahaan atau masyarakat pengirim ternak
+surat keterangan pengeluaran ternak surat keterangan pengeluaran ternak adalah surat keterangan yang diterbitkan oleh dinas pertanian dan peternakan dan ditandatangani oleh pejabat yang berwenang setelah melalui proses pemeriksaan kesehatan ternak
+yang digunakan menguji apakah sebuah perangkat lunak yang dihasilkan telah sesuai dengan yang diharapkan atau belum
+pengujian adalah proses eksekusi suatu program untuk menemukan kesalahan sebelum digunakan oleh pengguna akhir 
+pengujian aspek usability produk atau sistem dapat digunakan oleh pengguna tertentu untuk mencapai tujuan tertentu dengan efektif, efisien dan kepuasan dalam konteks tertentu
+usability adalah atribut kualitas yang menilai betapa mudahnya user interface dari perangkat yang digunakan
+ada banyak aspek untuk melakukannya, yang pada akhirnya juga sangat menguntungkan pengguna: keputusan desain diinformasikan oleh data yang dikumpulkan dari perwakilan pengguna untuk mengekspos masalah desain sehingga mereka dapat diperbaiki, sehingga meminimalkan atau menghilangkan rasa frustrasi bagi pengguna
+skala likert digunakan untuk mengukur sikap, pendapat, dan persepsi seseorang atau sekelompok orang tentang fenomena sosial jawaban setiap item instrumen yang menggunakan skala likert mempunyai gradasi dari sangat setuju sampai sangat tidak setuju
+untuk mencari interval nilai persentase dari masing- masing jawaban dengan metode mencari interval nilai persentase likert sebagai berikut: keterangan: i = interval nilai persentase likert jumlah skor likert yang dipakai ada 5, yaitu 5, 4, 3, 2, dan 1
+perhitungan untuk mencari nilai total adalah dengan cara mengalikan setiap poin instrumen dengan poin yang telah ditentukan sebelumnya kemudian menjumlahkan hasilnya
+5x dengan cara membagi nilai total dengan hasil perkalian antara poin tertinggi jawaban dengan banyaknya responden kemudian dikalikan 100% keterangan: nilai total = jumlah dari poin instrumen dikalikan dengan poin jawaban
+mendapatkan tingkat persetujuan, rumusnya adalah dengan menjumlahkan semua nilai persentase lalu membaginya dengan jumlah total pertanyaan
+total persentase atas akan diketahui apakah penelitian yang dilakukan oleh penulis sudah mampu untuk memenuhi tujuan dari penelitian yang dilakukan
+fungsi-fungsi yang tidak benar atau fungsi yang hilang 2
+kesalahan dalam struktur data atau akses database eksternal 4
+pengujian black box terdapat beberapa teknik uji coba, yaitu equivalence partitioning, comparison testing, sample testing, robustness testing, behavior testing, performance testing, requirement testing, cause-effect relationship testing, boundary value analysis, dan edurance testing
+adalah robustness testing yang merupakan pengujian dengan data input dipilih di luar spesifikasi yang telah didefinisikan untuk membuktikan bahwa tidak ada kesalahan walaupun masukannya tidak valid, teknik ini dilakukan pada uji coba proses input data
+metodologi penelitian penelitian yang akan dilakukan secara sistematis dan ilmiah
+pada penelitian ini, dibangun dengan mendesain perencanaan penelitian sehingga mudah untuk dilakukan
+metodologi penelitian tersebut diilustrasikan pada gambar 2
+analisis sistem yang sedang berjalan sistem yang berjalan pada dinas pertanian dan peternakan kayong utara masih dilakukan secara konvensional atau belum terkomputerisasi dengan baik
+bulannya harus di laporkan pada kabid peternakan
+kabid akan melakukan kontrol dan evaluasi dari data laporan yang dilaporkan tiap bulannya
+ternak yang sudah dicek kondisi kesehatannya akan didata dan diterbitkan surat keteranagn kesehatannya
+sebagai surat keterangan izin pengeluaran ternak ternak akan di cek kondisi kesehatannya oleh petugas kesehatan c
+adapun data yang diperlukan ialah data ternak, proses lalu lintas ternak, data pemotongan hewan, data populasi, data jenis ternak, dan pelaksanaan lalu lintas ternak sesuai dengan peraturan bupati kayong utara
+1) studi literatur: mencari jurnal terkait yang mendukung kebutuhan pembuatan sistem, mempelajari peraturan perundang-undangan bupati kayong utara tentang lalu lintas ternak dan atau bahan asal ternak 2) wawancara: melakukan tanya jawab dengan kabid dinas peternakan mengenai proses pelaksanaan lalu lintas ternak yang ada di dinas pertanian dan peternakan kayong utara, yang akan dijadikan acuan dalam sistem yang akan dibangun
+kuisioner yang akan diberikan kepada subjek penelitian berupa pertanyaan tentang sistem informasi yang akan dibuat
+hasil dari tanggapan pengguna sistem informasi akan menjadi hasil dari penelitian berhasil atau tidak
+perancangan arsitektur sistem didapatkan dari wawancara dan sistem yang berjalan sekarang ini
+komponen sistem terdiri dari data dan informasi atau proses, seperti pada gambar 4, sistem informasi yang akan dibangun ini berbasis web, yang dapat diakses oleh staff admin, staff kecamatan, staff lantas dan pimpinan
+staff admin harus login terlebih dahulu agar dapat mengaksses sistem informasi dan mengolah data lalu lintas ternak mulai dari data hewan ternak, data pemilik ternak, penerima ternak, jumlah ternak, kondisi ternak, jenis ternak dan manajemen data pengguna, staff kecamatan harus login terlebih dahulu agar dapat mengolah data populasi ternak dan pemotongan ternak dan melihat informasi hewan ternak
+staff lantas harus login terlebih dahulu untuk mengakses halaman sistem informasi dan mengolah data lalu lintas ternak
+pimpinan harus login terlebih dahulu agar dapat melihat informasi dan data yang ada pada pada sistem
+semua data yang telah diproses pada sistem nanti akan menjadi acuan laporan
+kepala dinas peternakan staff lantas e
+diagram konteks diagram konteks terdiri dari suatu proses dan menggambarkan ruang lingkup suatu sistem
+diagram konteks ini merupakan bagian tingkatan tertinggi dari dfd yang menggambarkan seluruh input ke suatu sistem atau output dari sistem dan hanya memuat satu proses
+diagram konteks siatem informasi lalu lintas ternak terdiri dari 4 entitas yaitu staff admin, staff lantas, staff kecamatan, dan pimpinan/kepala dinas pertanian dan peternakan kayong utara
+diagram konteks dari sistem infirmasi lalu lintas ternak dapat dilihat pada gambar 5 berikut menunjukkan diagram konteks dari sistem yang dibuat
+perancangan antarmuka sistem meliputi beberapa pengguna diantaranya staff admin, staff kecamatan, staff lantas, pimpinan
+struktur antarmuka sistem dapat dilihat pada gambar 6
+hasil penelitian perancangan arsitektur sistem, diagram alir sistem, dan basis data
+perancangan tersebut menghasilkan sebuah sistem informasi lalu lintas ternak
+antarmuka dari sistem diantaranya adalah antarmuka staff admin, antarmuka staff kecamatan, antarmuka staff lantas dan antarmuka pimpinan/kepala dinas peternakan
+antarmuka halaman login yang diakses oleh pengguna
+pada halaman ini terdapat form login yang digunakan oleh pengguna ketika ingin menggunakan sistem
+antarmuka staff admin adalah antarmuka staff admin
+terdiri beberapamenu yaitu dashboard, manajemen data, lalu lintas ternak, manajemen stok, data populasi ternak, laporan, pengaturan
+pada halaman ini ditampilkan informasi grafik populasi ternak, grafik pemotongan ternak, grafik pemasukan ternak dan grafik pengeluaran ternak
+dan terdapat juga informasi jumlah desa yang di-input-kan, jumlah kecamatan, jenis hewan dan pengguna yang telah diberi hak akses
+tampilan halaman dashboard dapat dilihat pada gambar 8
+pada halaman ini ditampilkan informasi grafik populasi ternak dan grafik pemotongan ternak
+dan terdapat juga informasi jumlah desa yang di-inpu-tkan, jumlah kecamatan, jenis hewan dan pengguna yang telah diberi hak akses
+tampilan halaman menu dashboard ternak dapat dilihat pada gambar 9
+antarmuka staff lantas adalah antarmuka staff lantas
+terdiri beberapa 4 menu yaitu dashboard, manajemen data, lalu lintas ternak, laporan
+pada halaman ini ditampilkan informasi grafik pemasukan ternak dan grafik pengeluaran ternak
+dan terdapat juga informasi jumlah desa yang di-input- kan, jumlah kecamatan, jenis hewan dan pengguna yang telah diberi hak akses
+tampilan halaman menu dashboard ternak dapat dilihat pada gambar 10
+antar muka pimpinan adalah antarmuka pimpinan
+terdiri beberapa 8 menu yaitu dashboard, manajemen data, lalu lintas ternak, manajemen stok, data populasi ternak, laporan, pengaturan
+pada halaman ini ditampilkan informasi grafik populasi ternak, grafik pemotongan ternak, grafik pemasukan ternak dan pengeluaran ternak
+dan terdapat juga informasi jumlah desa yang di-input-kan, jumlah kecamatan, jenis hewan dan pengguna yang telah diberi hak akses
+tampilan halaman menu dashboard dapat dilihat pada gambar 11
+1) pengujian black box black box pada perangkat lunak dilakukan untuk menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada sistem
+pengujian ini berfokus pada spesifikasi fungsional dari software, menguji kondisi input program berdasarkan apa yang dilihat, hanya fokus terhadap fungsionalitas dan output
+pengujian ini perlu dilakukan untuk melihat respon yang diberikan oleh sistem saat melakukan proses input data
+pengujian input data dilakukan pada data login, input manajement data, input data lalu lintas input data populasi ternak, input pemotongan ternak, input data pengaturan sistem, input data bulan aktif dan pencarian data ternak
+pengujian login pengujian input data dilakukan pada halaman login
+input data yang diuji adalah saat memasukkan username dan password
+pengujian manajemen data pengujian input data dilakukan pada halaman administrator oleh staff admin
+input data yang diuji adalah saat memasukkan data kecamatan, desa, pengguna, pemilik dan penerima
+proses pengujian data lainnya juga dilakukan sama dan menghasilkan perilaku sistem yang juga sama
+tabel ii manajemen data kosong tidak menampilkan pesan 3 input semua data menampilkan pada tabel
+pengujian lalu lintas ternak pengujian input data lalu lintas ternak pada halaman administrator oleh staff admin
+input data yang diuji adalah saat memasukkan data status lintas, kategori ternak, jumlah, umur, kondisi, pemilik, penerima, bulan input, petugas kesehatan yang bertanggung jawab
+proses pengujian data lainnya juga dilakukan sama dan menghasilkan perilaku sistem yang juga sama lihat tabel.3 skenario pengujian hasil uji kosong tidak berhasil dan menampilkan pada tabel
+input data yang diuji adalah saat memasukkan data nama sistem, url, web title, alamat, telp dan pejabat yang bertanda tangan dan input bulan
+proses pengujian data lainnya juga dilakukan sama dan menghasilkan perilaku sistem yang juga sama
+skenario pengujian hasil uji kosong disimpan, dan menampilkan berhasil sistem akan menyimpan data
+pengujian data populasi ternak pengujian input data populasi ternak dilakukan pada halaman sistem informasi lalu lintas ternak oleh staff kecamatan
+input data yang diuji adalah saat memasukkan data populasi tiap desa dan kecamatan
+proses pengujian data lainnya juga dilakukan sama dan menghasilkan perilaku sistem yang juga sama
+pengujian data pemotongan ternak pengujian input data pemotongan ternak dilakukan pada halaman sistem informasi lalu lintas ternak oleh staff kecamatan
+input data yang diuji adalah saat memasukkan data pemotongan ternak tiap desa dan kecamatan
+proses pengujian data lainnya juga dilakukan sama dan menghasilkan perilaku sistem yang juga sama
+pengujian ini dilakukan untuk menguji sejauh mana pengguna dapat menggunakan sistem ini
+jumlah responden pada penelitian ini adalah 3 orang yang terdiri dari staff lantas, staff kecamatan dan pimpinan/kepala dinas pertanian dan peternakan kayong utara
+hasil pengujian ini dihitung dengan skala likert
+hasil perhitungan dapat dilihat pada tabel 7 dengan perhitungan sebagai berikut : tabel vii 1
+0 0 1 2 0 73, 4 berdasarkan hasil pengujian usability oleh 3 responden dari 8 pertanyaan, 6 diantaranya memiliki nilai diatas 80% dan hanya 2 pertanyaan yang memberikan presentase penilaian di bawah 80%
+sehingga disimpulkan sistem dapat diterima dan digunakan oleh staff dinas pertanian dan peternakan kayong utara
+kesimpulan informasi lalu lintas ternak pada dinas pertanian dan peternakan kayong utara, maka didapat kesimpulan yang ada adalah sebagai berikut: beroperasi dengan baik dan hasil dari pengujian usability dengan 3 oleh 3 responden dari 8 pertanyaan, 6 diantaranya memiliki nilai diatas 80% dan hanya 2 pertanyaan yang memberikan presentase penilaian di bawah 80% maka disimpulkan sistem dapat diterima dan digunakan oleh staff dinas pertanian dan peternakan kayong utara
+dibangun dan dapat membantu kepala bidang peternakan dan kesehatan hewan dalam membuat kebijakan, evaluasi dan administrasi peternakan dan kesehatan hewan
+kepala bidang peternakan dan kesehatan hewan memiliki tugas dan fungsi melakukan kontrol dan koordinasi terhadap lalu lintas ternak, meliputi jumlah dan kondisi hewan ternak pada dinas pertanian dan peternakan kayong utara
+menggantikan proses pendataan yang konvensional dimana pada sistem ini, setiap data yang di-input oleh staff akan terekap langsung pada data laporan untuk kabid sehingga tidak perlu ng-input-kan data berulang dan dapat mencegah terlambatnya pendistribusian laporan
+pertimbangan dan masukan untuk pengembangan yaitu membangun sistem informasi lalu lintas ternak yang dapat menangani bisnis proses dari lalu lintas ternak secara keseluruhan mulai dari kemungkinan yang dapat terjadi saat proses lalu lintas ternak berlangsung

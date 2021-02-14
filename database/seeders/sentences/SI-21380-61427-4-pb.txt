@@ -1,0 +1,27 @@
+bagian pembinaan operasional direktorat reserse kriminal umum polda kalbar memiliki tugas yang salah satunya adalah membuat laporan bulanan tentang tindak pidana yang ditangani ditreskrimum polda kalbar dan satuan reserse kirminal kepolisan resort jajaran polda kalbar
+laporan bulanan yang dibuat memuat informasi analisis kriminal berbentuk rekapitulasi data
+proses rekapitulasi data dilakukan secara manual menggunakan aplikasi office dan berjenjang dari sat reskrim polres jajaran sampai bagbinopsnal ditreskrimum polda kalbar
+tujuan penelitian mengembangkan sistem informasi pengolahan data kriminal berbasis web
+pengolahan data kriminal meliputi manajemen data dasar yang berkaitan, manajemen data perkara, pengisian data laporan polisi dan menyajikan informasi analisis kriminal dalam bentuk tabel dan grafik
+pengujian dilakukan dengan metode blackbox dan kuisioner
+pengujian kusioner dibagi dua yaitu kusioner penggunaan aplikasi dan kuisioner perbandingan
+perhitungan hasil kusioner menggunakan metode skala likert
+hasil pengujian blackbox, menunjukan bahwa aplikasi sudah berjalan seperti yang diharapkan, dimana aplikasi mampu menampilkan keluaran yang sesuai dengan masukan pengguna
+hasil pengujian kusioner penggunaan aplikasi adalah 87, 49%, pengujian perbandingan adalah 100%
+hal ini berarti responden menyatakan setuju bahwa sistem informasi pengolahan data kriminal berbasis website yang dibangun dapat membantu, mempermudah, mendukung dan dapat mengatasi masalah penyajian informasi analisis kriminal berdasarkan hasil pengujian, disimpulkan bahwa sistem yang dibangun dapat mengatasi permasalahan pengumpulan data, pengolahan data, penyimpanan data dan penyajian infomasi analisis kriminal pada bagbinopsnal ditreskrimum polda kalbar
+pendahuluan sistem informasi merupakan sekumpulan komponen yang saling berhubungan, mengumpulkan, memproses, menyimpan dan mendistribusikan informasi untuk menunjang pengambilan keputusan dan pengawasan dalam suatu organisasi
+selain menunjang proses pengambilan keputusan, kordinasi dan pengawasan sistem informasi juga dapat membantu manusia dalam menganalisis permasalahan, menggambarkan hal-hal yang rumit dan menciptakan produk baru
+bagbinopsnal ditreskrimum polda kalbar merupakan bagian dari ditreskrium polda kalbar yang dipimpin oleh kepala bagian pembinaan operasional 
+kabag binopsnal bertanggung jawab kepada direktur reserse kriminal umum atau wakil direktur reserse kriminal umum
+mengumpulkan dan mengolah data, serta menyajikan informasi dan dokumentasi program kegiatan ditreskrimum
+bagbinopsnal memiliki tugas yang salah satunya disebutkan pada pasal 132 ayat huruf d peraturan kapolri nomor 22 tahun 2010, yaitu 
+data yang dikumpulkan oleh bagbinopsnal polda kalbar diantaranya adalah data tindak pidana yang ditangani ditreskrimum polda kalbar dan (sat reskrim polres jajaran polda kalbar
+data yang sudah dikumpulkan kemudian diolah menjadi laporan kepada pimpinan
+laporan dibuat memuat analisa dan evaluasi penanganan tindak pidana yang dilaporkan ke ditreskrimum polda kalbar dan sat reskrim pada setiap polres
+analisa dan evaluasi berupa analisis kriminal yang berisikan data penangan tindak pidana yang telah diolah, berupa rekapitulasi kemajuan penangan tindak pidana yang di laporkan, rekapitulasi tindak pidana yang dilaporkan berdasarkan jenis kejahatan dan rekapitulasi anatomi kejahatan yang dilaporkan
+proses pengumpulan dan pengolahan data belum memanfaatkan sistem informasi berbasis web, masih dilakukan secara manual dengan menggunakan aplikasi officedan memafaatkan surat elektronik sebagai media pengiriman data kriminal dari sat reskrim pada setiap polres ke bagbinopsnal ditrekrimum polda kalbar
+data yang telah terkumpul dan telah diolah tersimpan di beberapa file berbeda bahkan di komputer berbeda yang tidak saling terintegrasi serta tidak tersusun secara rancang bangun sistem informasi pengolahan data kriminal berbasis web pada bagian pembinaan operasional direktorat reserse kriminal umum polda kalimantan barat dimitri indastri putra#1, arif bijaksana putra negara#2, rudy dwi nyoto#3 #program studi informatika universitas tanjungpura jl
+proses pengumpulan dan pengolahan data yang dilakukan tidak memiliki sumber data yang terpusat
+dalam pencarian data, sangat bergantung kepada personil yang bertanggung jawab dan akan menimbulkan suatu permasalahan saat personil tersebut berhalangan dalam melaksanakan tugasnya
+berdasarkan latar belakang masalah yang dihadapi, maka diperlukan sebuah sistem informasi pengolahan data kriminal pada bagbinopsnal ditreskrimum polda kalbar yang dapat menyajikan informasi laporan analisis kriminal terhadap tindak pidana yang dilaporkan kepada kepolisian daerah kalimantan barat beserta jajarannya
+analisis kriminal analisis kriminal adalah suatu set proses yang diaplikasikan terhadap pola kriminal personel administrasi dan operasional dapat menggunakan hasil dari analisis kriminal ini untuk mencegah dan menekan aktifitas kriminal dan investigasi atas suatu tindakan kriminal 

@@ -1,0 +1,12 @@
+eee paper template in a4 vol 4 no 2 #1, latifah jl
+abdurahman saleh no18a, kota pontianak 1 agung.ako@bsi.ac.id 2 latifah.lat@bsi.ac.id 3 rabiatul.rba@bsi.ac.id sisi kuantitas pengguna serta waktu
+rata-rata lama waktu yang digunakan para pengguna mengakses internet berkisar 4 jam sehari, hal ini sebagai acuan dasar penyebaran dakwah harus memanfaatkan internet sebagai medianya
+tadzkirah sebagai upaya pengingat kebaikan dalam ajaran agama islam kepada para pemeluknya sudah dipandang perlu memanfaatkan aplikasi mobile berbasis internet sebagai asisten pribadi bagi untuk mengingatkan dalam hal kebaikan
+pada penelitian ini membahas mengenai perancangan prototipe aplikasi mobile tadzkirah berbasis android yang terintegrasi dengan website tadzkirah.org
+aplikasi mobile ini memiliki fitur menampilkan masjid terdekat serta kegiatan-kegiatan yang akan dilaksanakan di lokasi terdekat dengan menunjukkan lokasi kegiatan berupa peta google map
+perhitungan lokasi terdekat menggunakan euclidean distance, yaitu menghitung derajat kedekatan antara dua titik vektor
+nilai derajat yang digunakan kurang dari 0.6, atau radius sekitar 6-7km dari titik lokasi pengguna
+aplikasi juga menyuguhkan nasehat-nasehat singkat kebaikan sehari-sehari
+bentuk data untuk komunikasi antara aplikasi mobile dengan web menggunakan format json
+dari hasil pengujian rata-rata waktu yang dibutuhkan menyuguhkan informasi 0.9 detik diluar pengambilan gambar, hal itu disebabkan format json lebih sederhana dari html pada website
+pendahuluan juli 2018 mengungkapkan bahwa penggunaan internet menunjukkan bahwa prosentase pengguna internet di dunia mencapai 54%, serta trafik penggunaan pada perangkat telepon genggam sebesar 52.6%

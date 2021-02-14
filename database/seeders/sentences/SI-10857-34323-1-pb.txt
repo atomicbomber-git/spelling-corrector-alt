@@ -1,0 +1,78 @@
+pusat penjaminan mutu universitas tanjungpura adalah lembaga yang bertugas melakukan monitoring dan evaluasi 
+saat ini ppm dalam melakukan monev masih dengan cara memberikan lembaran indikator kepada tiap–tiap unit universitas tanjungpura yang wajib dipantau terus kualitasnya
+atas dasar permasalahan tersebut, maka dibuatlah sebuah aplikasi standar pelayanan minimum universitas tanjungpura dengan mengimplementasikan analisis lembaga ppm
+berdasarkan hasil pengujian dengan metode pieces dapat disimpulkan bahwa secara umum aplikasi yang dirancang bernilai baik
+adalah lembaga yang bertugas melakukan monitoring dan evaluasi atas bantuan direktorat jendral pendidikan tinggi departemen pendidikan nasional dengan monev, indikator performance suatu kegiatan dapat dievaluasi dengan tolok ukur yang jelas
+kegiatan monev dilakukan untuk mencapai hasil dengan standar kualitas yang telah ditentukan
+memberikan lembaran indikator kepada tiap–tiap pengguna atau unit universitas tanjungpura yang wajib dipantau terus kualitasnya
+setelah selesai diisi tim ppm untan akan datang kembali dan melakukan validasi apakah semua yang diisikan telah benar dengan melihat bukti–bukti tertulis
+setelah semua indikator telah valid maka tim ppm membawa kembali lembar–lembar indikator tersebut ke ppm
+jawaban valid dari tersebut tiap indikator dihitung oleh tim ppm dan dimasukkan ke dalam aplikasi spreadsheet kendala yang dihadapi dalam monev yaitu masih dilakukan dengan sistem yang belum terintegrasi
+penggunaan aplikasi spreadsheet menurut mereka dirasa kurang efisien dari sisi waktu dan tenaga karena membutuhkan waktu yang lama dimulai dari perhitungan hingga perekapan dan selalu lewat dari tenggat waktu yang diberikan
+banyaknya perhitungan yang harus dilakukan, terbatasnya tim ppm untan selain itu juga terbatasnya waktu yang dimiliki tim pusat penjaminan mutu universitas tanjungpura juga merupakan dosen aktif yang memiliki tanggung jawab utama mengajar
+jadi dalam melakukan monev tim ppm untan diluar jam perkuliahan
+dalam merancang dan membangun aplikasi ini digunakan analisis metode pieces
+analisis metode pieces digunakan untuk membandingkan sistem lama dengan sistem baru yang telah dibuat
+aplikasi yang mampu membantu tugas tim dalam menyebarkan indikator secara tepat dan cepat, perhitungan dengan akurasi yang tinggi dan cepat dan perekapan secara total berdasarkan program studi, fakultas dan universitas
+landasan teori meningkatkan standar kualitas secara berkelanjutan, universitas tanjungpura membentuk pusat penjaminan mutu pada tanggal 1 mei 2003 dengan sk rektor nomor 179c/j22/kl/2003 dengan nama unit penjamin mutu 
+pembentukan ini merupakan usaha dalam merespon kebutuhan untuk melakukan monitoring dan evaluasi internal berbagai program hibah kompetisi yang dimenangkan untan seperti sp4, a1, a2, peralatan lab, semi-que, due-like dan tpsdp sekaligus atas anjuran badan akreditasi nasional perguruan tinggi sebagai bagian dari prosedur evaluasi eksternal ban pt selanjutnya, ppm untan dikembangkan untuk lebih memenuhi kebutuhan internal terhadap peningkatan mutu untan secara berkesinambungan
+kebutuhan internal terhadap mutu mau tidak mau harus dikembangkan karena lingkungan eksternal yang semakin menuntut lulusan yang bermutu karena hanya lulusan yang bermutu yang mampu menciptakan pekerjaan sendiri atau mampu bersaing di pasar kerja lokal, nasional dan internasional ppm untan dibentuk untuk mengoptimalkan upaya peningkatan mutu universitas
+pihak pimpinan pada semua tingkatan dari universitas sampai program studi, dan unit lembaga lainnya tetap bertanggung jawab terhadap pelaksanaan, perbaikan dan peningkatan mutu pada unit kerjanya masing-masing
+keanggotaan tim ppm masih bersifat ad-hoc
+pada awalnya, keanggotaan ini diusulkan oleh pimpinan perguruan tinggi dan diberikan sk untuk melaksanakan penjaminan rancang bangun aplikasi standar pelayanan minimum universitas tanjungpura 2, anggi srimurdianti s 2 stmkom@gmail.com 3 anggidianti@gmail.com mutu untan dengan perioda kepengurusan satu tahun
+namun sejak tahun 2007 sesuai dengan sk rektor nomor 70/j22/kp/2007 tanggal 30 januari 2007, keanggotaan ppm diperpanjang untuk dua tahun agar perencanaan dan pelaksanaan kegiatan lebih terjamin
+status dan kedudukan ppm untan belum tercantum dalam statuta untan dan tugas ppm didefinisikan dalam sk rektor tersebut
+dari performance, information/data, economic, masing – masing kategori tersebut dapat dibagi bagi menjadi beberapa kriteria analisis performance, analisis information, analisis economy, analisis control, analisis effiency, analisis servce
+pembangunan perangkat lunak yang mengorganisasikan perangkat lunak sebagai kumpulan objek yang berisi data dan operasi yang diberlakukan terhadapnya
+metodologi berorientasi objek didasarkan pada penerapan prinsip-prinsip pengelolaan kompleksitas
+metode berorientasi objek meliputi rangkaian aktifitas analisis berorientasi objek, perancangan berorientasi objek, pemrograman berorientasi objek dan pengujian berorientasi objek
+2.4 pengenalan unified modeling language unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996 
+dalam uml terdapat 13 diagram yang dikelompokkan dalam 3 kategori yaitu : structure diagrams, behavior diagrams, interaction diagram
+2.4.1 use case use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut 
+yang perlu diperhatikan adalah bahwa diagram aktivitas menggambarkan aktivitas sistem, bukan apa yang dilakukan oleh aktor 
+2.4.3 sequence diagram message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu 
+2.4.4 class diagram aliran kerja atau aktivitas dari sebuah sistem atau menu yang ada pada perangkat lunak
+yang perlu diperhatikan adalah bahwa diagram aktivitas menggambarkan aktivitas sistem, bukan apa yang dilakukan oleh aktor 
+framework potongan – potongan program yang disusun atau diorganisasikan sedemikian rupa sehingga dapat digunakan untuk membantu membuat aplikasi utuh tanpa harus membuat semua kodenya dari awal kelebihan dan kekurangannya masing – masing
+framework yang penulis gunakan disini adalah codeigniter
+dengan mvc, memungkinan pemisahan antara layer application-logic dan presentation
+sehingga, dalam sebuah tim pengembangan web, seorang programmer bisa berkonsentrasi pada core- system
+sedangkan web designer bisa berkonsentrasi pada tampilan web
+menariknya, skrip php, query mysql, javascript dan css bisa saling terpisah–pisah, tidak dibuat dalam satu skrip berukuran besar yang membutuhkan resource besar pula untuk mengeksekusinya
+dengan demikian, aplikasi yang anda buat mudah untuk dimaintenance dan dikembang lebih lanjut
+penerapan konsep mcv mengakibatkan kode program dapat dibagi menjadi tiga kategori, yaitu : model, view dan controller
+admin adalah semua anggota ppm yang berjumlah 9 orang
+actor pengguna adalah semua program studi yang ada di universitas tanjungpura
+3.3 class diagram bangun aplikasi standar pelayanan minimum universitas tanjungpura dengan analisis metode pieces yang menggambarkan hubungan antar kelas yang ada pada aplikasi
+3.4 activity diagram dalam sistem yang sedang dirancang, bagaimana masing- masing aliran berawal, tujuan yang mungkin terjadi dan bagaimana mereka berakhir
+activity diagram juga dapat menggambarkan proses pararel yang mungkin terjadi pada beberapa eksekusi
+berikut ini adalah activity diagram dari aplikasi standar pelayanan minimum universitas tanjungpura
+aplikasi standar pelayanan minimum universitas tanjungpura
+yang bertujuan untuk membantu pusat penjaminan mutu universitas tanjungpura dalam melakukan monitoring dan evaluasi
+4.1 hasil perancangan pelayanan minimum universitas tanjungpura
+bertujuan untuk antarmuka aplikasi yang dirancang terdiri dari beberapa menu dan submenu yang dapat diakses pengguna dan admin aplikasi
+antarmuka disini terbagi dua yaitu antarmuka sisi admin dan antarmuka sisi pengguna
+antara admin dan pengguna tidak dapat saling mengakses
+menu-menu admin dan pengguna juga berbeda
+adapun bentuk antarmuka tersebut sebagai berikut
+yang paling penting di aplikasi ini, lewat antarmuka ini user akan mengisi data berdasarkan fakta yang ada
+4.2 pengujian aplikasi sesuai dengan kriteria masing-masing yang terlihat di tabel 1 berikut
+seusai dengan kriteria masing-masing yang terlihat di tabel 2 berikut
+1 tingkat 2 3 informasi jumlah 0 0 1 13 1 15 persentase 0% 0% 6, 7% 87% 6, 7% 100% berdasarkan hasil kuesioner, maka didapatkan hasil untuk analisis informasi dengan total tanggapan sebesar 87% responden menganggap bahwa kinerja sistem ini berjalan dengan baik
+seusai dengan kriteria masing-masing yang terlihat di tabel 3 berikut
+1 2 jumlah 0 0 0 7 3 10 persentase 0% 0% 0% 70% 30% 100% berdasarkan hasil kuesioner, maka didapatkan hasil untuk analisa ekonomi dengan total tanggapan sebesar 70% responden menganggap bahwa kinerja sistem ini berjalan dengan baik
+seusai dengan kriteria masing-masing yang terlihat di tabel 4 berikut
+1 2 bagaimana kinerja 3 menu jumlah 0 0 2 12 1 15 persentase 0% 0% 13% 80% 6, 7% 100% berdasarkan hasil kuesioner, maka didapatkan hasil untuk analisa kontrol dengan total tanggapan sebesar 80% responden menganggap bahwa kinerja sistem ini berjalan dengan baik
+1 kemudahan dalam 2 kemudahan 3 keefesienan jumlah 0 0 0 12 3 15 persentase 0% 0% 0% 80% 20% 100% berdasarkan hasil kuesioner, maka didapatkan hasil untuk analisa efisiensi dengan total tanggapan sebesar 80% responden menganggap bahwa kinerja sistem ini berjalan dengan baik
+seusai dengan kriteria masing-masing yang terlihat di table 6 berikut
+1 bagaimana 2 3 secara 4 jumlah 0 0 0 18 2 20 persentase 0% 0% 0% 90% 10% 100% berdasarkan hasil kuesioner, maka didapatkan hasil untuk analisa pelayan dengan total tanggapan sebesar 90% responden menganggap bahwa kinerja sistem ini berjalan dengan baik
+bangun aplikasi standar pelayanan minimum universitas tanjungpura maka disimpulkan bahwa: 1
+berdasarkan analisis metode pieces aplikasi dinilai baik disemua kriteria dan dapat diterima oleh user
+sistem ini sudah bisa digunakan secara online
+sistem bisa menambah indikator baru bila diperlukan
+6 saran hal-hal yang menjadi saran dalam pengembangan sistem ini agar menjadi baik adalah sebagai berikut: 1
+terintegrasi dengan website tracerstudi.com milik ppm
+ditinjau dari aspek persepsi pengguna dalam mendukung proses manajemen di rumah sakit pku muhammadiyah yogyakarta
+program pasca sarjana universitas diponegoro semarang

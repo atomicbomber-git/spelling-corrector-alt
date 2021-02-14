@@ -1,0 +1,72 @@
+ubmitted 24-07-2018; revised 30-07-2018; accepted 31-07-2018 128 nahel al fath ichida#1, helfi nasution#2, anggi perwitasari#3 #program studi informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, kota pontianak, 78115 1 alfathichida96@gmail.com sungai
+selain itu juga sebagai sarana transportasi dan rekreasi dengan sungai kapuas telah tercemar oleh berbagai macam limbah dan sampah
+cai menyampaikan materi pelajaran menggunakan komputer yang pelajarannya dirancang dan diprogram ke dalam sistem
+penelitian ini menghasilkan aplikasi game edukasi jaga sungai kapuas berbasis android yang mampu menjadi media edukasi dan sosialisasi kebersihan sungai
+hasil yang diperoleh berdasarkan pada pengujian alpha adalah, aspek functionality dengan nilai sebesar 77, 00%, aspek efficiency sebesar 75, 00%, dan usability sebesar 73, 00% 
+hasil keseluruhan dari tiga aspek yang menjadi fokus pada uji alpha sebesar 75, 00 % 
+pengujian selanjutnya yaitu pengujian beta diperoleh hasil untuk aspek functionality sebesar 93, 00%, aspek efficiency sebesar 85, 00%, aspek usability sebesar 88, 00%, dan aspek portability sebesar 89, 00% 
+hasil keseluruhan dari empat aspek kualitas perangkat lunak yang menjadi fokus pada uji beta adalah 89, 44% 
+pendahuluan karakteristik sungai kapuas sebagai ruang lingkup pemukiman menyebabkan masyarakat sering membuang sampah di badan sungai yang mengakibatkan sungai menjadi tercemar
+kondisi air sungai kapuas saat ini telah tercemar dan tidak memenuhi baku mutu air berdasarkan pp no 82 th 2001
+sampah tersebut sangat mengganggu estetika kawasan tepian sungai
+tingkat pendidikan yang rendah mempengaruhi perilaku membuang sampah
+masyarakat perlu diberikan pemahaman tentang tata cara pengelolaan sampah yang baik, dan menghasilkan tambahan pendapatan masyarakat
+materi pelajaran menggunakan komputer yang pelajarannya dirancang dan diprogram ke dalam sistem tersebut
+penelitian ini bertujuan untuk membangun aplikasi berupa game edukasi yang bernama 
+game ini diharapkan mampu memberikan edukasi tentang jenis-jenis sampah, dampak dan manfaatnya serta lokasi persebaran tps terdekat
+penelitian tentang pembuatan game edukasi sebelumnya sudah pernah dilakukan oleh peneliti lain
+pada peneletian sebelumnya game tentang edukasi sudah pernah di buat oleh mahasiswa universitas tanjungpura yang menggangkat game edukasi pembelajaran matematika menggunakan construct 2, untuk memberikan pelajaran matematika pada anak-anak
+computer assisted instruction computer assisted instruction adalah suatu sistem penyampaian materi pelajaran yang berbasis komputer yang pelajarannya dirancang dan diprogram ke dalam sistem tersebut
+komputer bisa menampilkan pembelajaran, menggunakan berbagai jenis media 
+model educational games tipe educational games merupakan program yang menciptakan kemampuan pada lingkungan permainan
+permainan diberikan sebagai alat untuk memotivasi dan membuat siswa untuk melalui prosedur permainan secara teliti untuk mengembangkan kemampuan mereka
+merupakan sungai terpanjang di indonesia dengan panjang 1086 km
+sebagai sarana transportasi antar daerah, sumber air baku dan tempat wisata
+sungai kapuas telah tercemar logam berat, berbagai jenis bahan kimia serta sampah yang ada di badan sungai
+walaupun telah tercemar, sungai kapuas tetap menjadi urat nadi bagi kehidupan masyarakat bantaran sungai
+android android dipermudah dengan banyaknya tools yang disediakan untuk mengembangkan aplikasi dengan platform ini
+permainan komputer html5, hanya dengan menggunakan lingkungan pengembangan ”drag and drop” yang intuitif
+program bisa digunakan tanpa harus menulis kode yang rumit
+construct 2 memiliki unsur-unsur seperti sprite, latar belakang, dan efek suara
+perancangan uml mereprensentasikan interaksi antara aktor dengan system
+berikut merupakan use case diagram yang telah dirancang pada gambar berikut
+pengguna atau user dapat memilih menu mulai bermain, cara bermain, about, stage permainan yang terdiri dari stage tugu khatulistiwa, stage masjid jami dan stage taman alun kapuas
+activity diagram activity diagram menggambarkan alir aktivitas sistem yang sedang dirancang, bagaimana alir berawal, decision yang mungkin terjadi dan bagaimana alir berakhir
+berikut merupakan gambar activity diagram yang telah dirancang pada gambar berikut
+gambar 2 activity diagram pada gambar berikut
+korespondensi : nahel al fath ichida 130 gambar 3 class diagram menampilkan class menu bermain, yang dapat menampilkan class stage_perrmainancontroller, diagram yang telah dirancang
+pada game ini terdiri dari menu utama, menu mulai bermain, cara bermain, about dan keluar
+struktur antar muka game yang dibangun dapat dilihat pada gambar 4 berikut : gambar 4 struktur antarmuka aplikasi iv
+antarmuka menu utama jaga sungai kapuas ini dapat dilihat pada gambar
+gambar 5 menu utama jaga sungai kapuas menu utama yang terdiri dari menu bermain yang ketika dipilih akan mengarahkan ke menu pilih stage, cara bermain, dan about 
+gambar 6 stage permainan masjid jami dan stage taman alun
+gambar 7 cara bermain bermain, arah panah dapat ditekan untuk menavigasi ke halaman berikutnya pada cara bermain
+pengujian alpha dibuat dan berfokus pada persyaratan fungsional perangkat lunak
+pengujian ini dilakukan untuk mengoreksi kesalahan-kesalahan dan kekurangan pada aplikasi
+game menampilkan skor di setiap stage
+menu yang ada menarik 3 4 tabel 1 data pengujian alpha penguji ahli perangkat lunak yang juga memberikan saran dan rekomendasi untuk memperbaiki bug dan kekurangan pada aplikasi
+bagian-bagian aplikasi yang perlu diperbaiki dijelaskan pada tabel 4.18
+setiap stage harus diberikan rintangan yang berbeda agar user lebih tertantang 3
+disisipkan tampilan yang berisi slogan untuk menjaga kebersihan sungai instruksi yang lebih lengkap agar memudahkan user setiap gameplay tabel 2 saran pengujian alpha c
+pengujian beta dari pengguna akhir sebelum persiapan rilis produk akhir
+pengujian ini dilakukan dengan melibatkan 20 pengguna aplikasi yang telah ditentukan sebelumnya
+pengguna aplikasi tersebut akan menguji perangkat lunak untuk mengetahui kualitas perangkat lunak pada aspek functionality, efficiency, usability dan portability
+hasil pengujian beta dapat dilihat dari tabel berikut
+tabel 3 data hasil pengujian beta dari hasil pengujian didapatkan bahwa aplikasi game jaga sungai kapuas mendapatkan nilai fungsionalitas sebesar 93%, efficiency 85%, usability 88% dan portability 89%
+kemudian hasil evaluasi dibandingkan persetanse likert
+analisis hasil pengujian telah memiliki bahwa menu-menu yang terdapat dalam aplikasi sudah memiliki fungsi yang sesuai dengan analisis kebutuhan yang telah ditetapkan sebelumnya
+namun, terdapat beberapa kekurangan seperti kurang lengkapnya menu operasi dan tampilan per menu/fitur yang kurang mudah untuk dipelajari
+sehingga perlu diadakan beberapa perbaikan sektoral sesuai dengan pendapat penguji ahli
+dari hasil pengujian beta pada 20 orang pengguna awam, aplikasi mendapatkan persentase yang cukup tinggi untuk dari aspek functionality, efficiency, usability dan portability dengan persentase kelayakan sebesar 89, 44%
+dari hasil pengujian ini, dapat disimpulkan bahwa revisi pada pengujian alpha di bagian menu dan fitur aplikasi telah berhasil
+sehingga pengguna awam pada pengujian beta bisa memahami setiap fitur/menu dan mendapatkan kelengkapan menu operasi serta instruksi pada setiap stage dapat dengan mudah dipahami
+aplikasi game jaga sungai kapuas telah mampu mengedukasi masyarakat tentang jenis-jenis sampah dan persebaran lokasi tps terdekat dari sungai kapuas
+hasil unjuk kerja aplikasi masuk dalam kategori 
+hasil pengujian unjuk kerja ini didukung oleh hasil pengujian alpha dan beta perangkat lunak
+nilai persentase hasil pengujian alpha perangkat lunak untuk setiap faktor, yaitu: functionality sebesar 77, 00%, efficiency sebesar 75, 00%, dan usability sebesar 73%%
+persentase total dari pengujian alpha untuk kualitas perangkat lunak adalah 75% 
+nilai persentase hasil pengujian beta perangkat lunak untuk setiap faktor, yaitu functionality sebesar 93%, efficiency sebesar 85%, usability sebesar 88%, dan portability sebesar 89%
+persentase total dari pengujian beta untuk kualitas dari pengujian beta adalah 89, 44% 
+pengembangan aplikasi untuk jumlah stage permainan dan jenis permainan yang lebih menantang dan beragam
+aplikasi juga dapat digunakan untuk perangkat yang menggunakan sistem operasi ios

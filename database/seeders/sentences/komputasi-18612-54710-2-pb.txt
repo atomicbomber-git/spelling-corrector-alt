@@ -1,0 +1,111 @@
+mengalokasikan waktu, mata kuliah, dosen, ruangan kelas, dengan memperhatikan sejumlah aturan yang berhubungan dengan kapasitas dan lokasi ruangan yang tersedia, waktu bebas yang diperlukan dan sejumlah aturan lain yang berkaitan
+berdasarkan karakteristik permasalahan yang terjadi, algoritma genetika cocok untuk menyelesaikannya dengan merepresentasikan komponen- berdasarkan constraint penjadwalan yang telah dibuat sehingga menghasilkan jadwal kuliah yang optimal aplikasi dibangun berbasis web dengan menggunakan bahasa pemrograman php dan database mysql
+proses optimasi penjadwalan dengan menggunakan algoritma genetika akan melalui proses representasi kromosom, inisialisasi populasi, menghitung fitness, seleksi, crossover dan mutasi
+pengujian dilakukan dengan metode black box untuk menguji komponen-komponen yang ada didalam sistem penjadwalan dan pengujian performansi untuk mengukur parameter-parameter yang optimal untuk proses penjadwalan
+berdasarkan hasil pengujian, karakteristik bentrok yang sering terjadi dalam proses algoritma genetika adalah karakteristik bentrok persimpangan waktu, banyak generasi yang optimal yaitu 200 sampai dengan 250, ukuran populasi yang optimal 100 dan nilai probabilitas crossover rate 0.7 dan mutation rate 0.3, serta dengan diimplementasikannya soft constraint penggunaan kapasitas ruangan mempengaruhi tingkat keberhasilan hard constraint
+dengan maka tingkat keberhasilan soft constraint-nya meningkat mencapai 93% dari 75%, tetapi dengan diimplementasikannya soft constraint tersebut maka waktu yang dibutuhkan untuk komputasi meningkat dari 2, 8 menit menjadi 38 menit
+hal ini terjadi karena pada proses komputasi harus melakukan pengecekan terhadap jumlah peserta dan kapasitas ruangan pada setiap kromosom
+tujuan dari penjadwalan agar kegiatan tersebut dapat berlangsung secara lancar
+penyusunan jadwal kegiatan berkaitan dengan berbagai batasan yang harus dipenuhi sehingga memerlukan banyak pertimbangan dalam pembuatan jadwal tersebut
+ada berbagai masalah penjadwalan yang sering dihadapi seperti alokasi kegiatan, orang, kejadian dan kendaraan
+sebagian besar masalah pada penjadwalan sangat rumit dilakukan karena keterbatasan sumber daya 
+jadi penentuan jadwal yang baik menjadi masalah penting dalam suatu kegiatan
+penjadwalan akademik merupakan penjadwalan terjadi adalah masalah mengalokasikan waktu, mata kuliah, dosen, ruangan kelas, dengan memperhatikan sejumlah aturan yang berhubungan dengan kapasitas dan lokasi ruangan yang tersedia, waktu bebas yang diperlukan dan sejumlah aturan lain yang berkaitan
+adalah dosen, mahasiswa, mata kuliah, waktu dan ruangan kelas
+hasil dari proses penjadwalan mata kuliah merupakan pengelompokan komponen-komponen utama secara bersama- sama dengan memperhatikan aturan-aturan dalam penyusunan jadwal yang bersifat harus dipenuhi dan tidak harus terpenuhi, meskipun soft constraint tidak harus terpenuhi tetapi tetap menjadi acuan dalam proses pembuatan jadwal kombinasi yang cukup rumit antara dosen, mata kuliah, ruang, waktu dan kelas
+masalah tersebut dapat diselesaikan dengan mengkombinasikan secara manual untuk mendapatkan jadwal yang baik
+namun cara tersebut membutuhkan waktu yang relatif lama dan harus dikerjakan secara cermat serta teliti agar tidak terjadi konflik pada pembuatan jadwal metode optimasi dibutuhkan untuk mengerjakan masalah penjadwalan ini
+persoalan optimasi adalah persoalan yang menuntut pencarian solusi optimum
+penelitian- penelitian terbaru menyarankan bahwa algoritma genetika merupakan metode yang layak dan efektif dalam mengatasi masalah penjadwalan
+algortima genetika merupakan pendekatan komputasional untuk menyelesaikan masalah yang dimodelkan dengan proses biologi dari evolusi
+diharapkan dengan digunakannya algoritma genetika akan diperoleh optimasi penjadwalan terbaik dari kombinasi antara dosen, mata kuliah, ruang, waktu dan kelas
+berdasarkan pada latar belakang tersebut, maka dilakukan penelitian mengenai masalah penjadwalan dengan implementasi sistem penjadwalan akademik fakultas teknik universitas tanjungpura menggunakan metode algoritma genetika p andreas christian#1, herry sujaini#2, arif bijaksana putra negara#3 #program studi teknik informatika universitas tanjungpura 1andreaschristian40@gmail.com1, 2hs@untan.ac.id, 3arifbpn@gmail.com jl
+adapun judul yang ingin diteliti adalah implementasi sistem penjadawlan akademik di fakultas teknik universitas tanjungpura dengan algoritma genetika
+yang didasarkan atas mekanisme seleksi alam dan evolusi biologis
+adaption in natural and artificial system
+adaption of the behaviour of a class of genetic adaptive systems
+algoritma genetika pertama kali diperkenalkan oleh john holland dalam bukunya yang berjudul, dan oleh de jong dalam bukunya, yang keduanya diterbitkan pada tahun 1975, yang merupakan dasar dari algoritma genetika
+teknik pencarian yang dilakukan oleh algoritma genetika bersamaan dengan solusi yang mungkin yang dikenal dengan istilah populasi
+individu yang terdapat dalam satu populasi disebut dengan isitilah kromosom
+kromosom ini merupakan suatu solusi yang masih berbentuk simbol
+populasi awal dibangun secara acak, sedangkan populasi berikutnya merupakan hasil evolusi kromosom-kromosom melalui proses iterasi yang disebut dengan istilah generasi
+pada setiap generasi, kromosom akan melalui proses evaluasi dengan menggunakan alat ukur yang disebut dengan fungsi fitness
+nilai fitness dari suatu kromosom akan menunjukkan kualitas kromosom dalam populasi tersebut
+generasi berikutnya dikenal dengan istilah anak yang terbentuk dari gabungan dua kromosom generasi sekarang yang bertindak sebagai induk dengan menggunakan operator penyilangan, suatu kromosom dapat juga dimodifikasi dengan menggunakan operator mutasi
+populasi generasi yang baru dibentuk dengan cara menyeleksi nilai fitness dari kromosom induk dan nilai fitness dari kromosom anak, serta menolak kromosom-kromosom yang lainnya sehingga ukuran populasi konstan
+setelah melalui beberapa generasi, maka algoritma ini akan konvergen ke kromosom terbaik
+struktur umum algoritma genetika algoritma genetika memberikan suatu pilihan bagi penentuan nilai parameter dengan meniru cara reproduksi genetik, pembentukan kromosom baru serta seleksi alami seperti yang terjadi pada mahluk hidup
+inisialisasi populasi awal dilakukan untuk menghasilkan solusi awal dari suatu permasalahan algoritma genetika
+inisialisasi ini dilakukan secara acak sebanyak jumlah kromosom yang diinginkan
+selanjutnya dihitung nilai fitness dan seterusnya dilakukan seleksi dengan menggunakan metode roda roullete, tournament atau ranking
+kemudian dilakukan perkawinan silang dan mutasi
+setelah melalui beberapa generasi maka algoritma ini akan berhenti sebanyak generasi yang diinginkan
+sebagaimana halnya proses evolusi di alam, suatu algoritma genetika yang sederhana umumnya terdiri dari tiga operator yaitu: operator reproduksi, operator crossover dan operator mutasi
+ada dua hal penting yang harus dilakukan pada awal proses algoritma genetika
+pertama, pendefinisian atau pengkodean kromosom yang merupakan solusi yang masih berbentuk simbol
+kedua, penentuan fungsi fitness atau fungsi obyektif
+dua hal ini berperan penting dalam algoritma genetika untuk menyelesaikan suatu masalah
+dalam mempelajari algoritma genetika ada beberapa istilah yang harus dipahami, yaitu: - genotype : sebuah nilai yang menyatakan satuan dasar yang membentuk suatu arti tertentu dalam satu kesatuan yang dinamakan kromosom
+nilai fitness: menyatakan seberapa baik nilai dari suatu individu atau solusi yang didapatkan
+generasi, merupakan satu siklus proses evolusi atau satu iterasi di dalam algoritma genetika
+dalam algoritma genetika nilai fitness dijadikan acuan dalam mencapai nilai optimal, dimana untuk masalah pencarian nilai maksimum maka yang dicari adalah nilai fitness tertinggi
+diagram konteks sistem dilihat pada gambar 2
+gambaran umum sistem menggunakan algoritma genetika dapat dilihat pada gambar 3
+gambaran umum sistem merupakan gambaran langkah- langkah penjadwalan dengan menggunakan algoritma genetika
+sistem penjadwalan yang dibangun memiliki beberapa proses berupa data masukkan, proses utama dan keluaran
+data masukkan membutuhkan data dosen, data mata kuliah, data pengajar, data ruangan, data waktu serta parameter- parameter yang diperlukan untuk proses algoritma genetika seperti parameter populasi, probabilitas crossover, probabilitas mutasi dan jumlah generasi
+representasi kromosom dan inisialisasi populasi awal, evaluasi fitness dan seleksi ranking, pindah silang dilakukan dengan penyilangan dua titik berdasarkan probabilitas crossover yang telah ditentukan dan mutase berdasarkan probabilitas mutase yang telah ditentukan
+setelah melalui beberapa generasi, maka algoritma ini akan menghasilkan kromosom terbaik yang merupkan solusi optimal terjadi pada sistem
+keluaran dari sistem berupa jadwal perkuliahan
+pengujian black box untuk memeriksa kinerja antar komponen yang telah dibangun dan pengujian performansi untuk mengetahui parameter-parameter algoritma genetika yang optmal agar menghasilkan penjadwalan optimal dan mengetahui karakteristik bentrok dalam penggunaan metode algoritma genetika
+ini dibangun untuk membuat jadwal kuliah secara otomatis dengan waktu yang relatif cepat dibandingkan cara konvensional berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihat pada gambar 4 sampai dengan gambar 9
+genetika, dimana input dari parameter ini akan digunakan untuk proses algoritma genetika
+gambar 9 merupakan tampilan export jadwal dalam bentuk excel
+black box yang akan memeriksa kinerja antar komponen yang telah dibangun dan juga pengujian performansi untuk menguji parameter-parameter algoritma genetika sehingga menghasilkan penjadwalan yang optimal pengujian dengan black box dilakukan untuk menguji kesesuaian antara masukkan dengan hasil yang ditampilkan pada aplikasi
+hasil pengujian black box dapat dilihat pada tabel 1
+1 fungsi login berhasil 8 manajemen data mata kuliah berhasil 9 manajemen data ruangan berhasil 10 proses penjadwalan berhasil e.2 hasil pengujian performansi parameter-parameter algoritma genetika yang optmal agar menghasilkan penjadwalan optimal pertama akan menggunakan 40 mata kuliah, 40 jumlah kelas dan 2 ruangan
+skenario kedua akan menggunakan 40 mata kuliah, 40 jumlah kelas dan 3 ruangan
+skenario ketiga akan menggunakan 40 mata kuliah dan 60 jumlah kelas dan 3 ruangan
+skenario yang keempat akan menggunakan 40 mata kuliah, 60 jumlah kelas dan 4 ruangan dan skenario kelima akan menggunakan 60 jumlah kelas dan 3 ruangan serta mengimplementasikan kapasitas ruangan terhadap jumlah peserta
+pengujian dilakukan dengan menggunakan data jadwal teknik sipil fakultas teknik universitas tanjungpura pada semester genap tahun ajaran 2015/2016
+e.2.1 skenario pertama dilakukan sebanyak 5 kali percobaan dan di ambil nilai rata- ratanya
+tampilan input parameter algoritma genetika gambar
+populasi maka persentase keberhasilannya semakin meningkat tetapi mengalami grafik naik turun karena terjadi konvergensi dimana kromosom mempunyai nilai yang berdekatan
+berdasarkan gambar 12, persentase rata-rata terbaik adalah 92.20% pada kombinasi crossover rate 0.7 dan mutation rate 0.3
+terhadap proses pada algoritma genetika yang terlihat pada persentasenya
+secara umum semakin banyak jumlah generasi maka persentase keberhasilannya semakin meningkat
+berdasarkan gambar 14, secara umum semakin besar ukuran populasi maka persentase keberhasilannya semakin meningkat
+terlihat pada grafik dengan penambahan jumlah ruangan tingkat keberhasilannya mencapai 100%
+berdasarkan gambar 15, persentase terbaik terdapat pada crossover rate 0.9, 0.8, dan 0.7 dan mutation rate 0.1, 0.2 dan 0.3
+berdasarkan gambar 16, secara umum banyaknya jumlah generasi berpengaruh terhadap persentase keberhasilannya
+semakin banyak jumlah generasi maka persentase keberhasilannya semakin meningkat
+tetapi waktu yang diperlukan juga semakin lama
+uji coba perbandingan crossover dan mutasi skenario pertama gambar
+uji coba perbandingan crossover dan mutasi skenario kedua gambar
+berdasarkan gambar 18, persentase rata-rata terbaik pada kombinasi crossover rate 0.8 dan 0.7 dan mutation rate pada 0.2 dan 0.3
+e.2.4 skenario keempat algoritma genetika dengan penambahan data perkuliahan dan data ruangan
+secara umum semakin banyaknya generasi maka persentase keberhasilannya semakin meningkat
+kondisi ini yang disebut konvergenasi, artinya hampir semua kromosom mempunyai nilai yang berdekatan
+berdasarkan gambar 20, secara umum semakin besar ukuran populasi maka persentase keberhasilannya semakin meningkat
+tetapi ukuran populasi lainnya yang berdekatan mengalami naik turun, tetapi dengan selisih yang tidak signifikan
+98.00% pada kombinasi crossover rate dan mutation rate 0.3
+rata-rata persentase terendah adalah 81% pada kombinasi crossover 0.1 dan mutation rate 0.9
+e.2.5 skenario kelima banyak generasi 225 dan kombinasi crossover rate dan mutation rate adalah 0.7 dan 0.3
+parameter tersebut diambil karena pada skenario ketiga parameter tersebut dinilai menghasilkan solusi yang optimal dalam pengujian dilakukan sebanyak 5 kali dan dihitung rata-ratanya
+tabel 2 pengujian skenario kelima sebelum implementasi soft constraint kapasitas kaungan sesudah implementasi soft constraint kapasitas ruangan ruangan pada komputasi algoritma genetika mempengaruhi tingkat keberhasilan hard constraint
+meskipun perbedaan persentase keberhasilannya tidak terlalu signifikan
+dengan diimplementasikannya soft constraint kapasitas ruangan maka tingkat keberhasilan soft constraint-nya meningkat mencapai 93% dari 75%
+uji coba populasi skenario ketiga gambar
+uji coba perbandingan crossover dan mutasi skenario ketiga gambar
+uji coba generasi skenario keempat gambar
+uji coba populasi skenario keempat gambar
+hal ini terjadi karena proses komputasi harus melakukan pengecekan terhadap jumlah peserta dan kapasitas ruangan pada setiap kromosom
+penjadwalan akademik dengan algoritma genetika adalah sebagai berikut : diharapkan
+disimpulkan bahwa nilai parameter algoritma genetika berpengaruh terhadap hasil optimasi yang dihasilkan
+ukuran parameter yang kecil menyebabkan area pencarian algoritma genetika semakin sempit
+tetapi, ukuran parameter yang terlalu besar menyebabkan waktu komputasi semakin lama
+total sks terhadap rasio ruangan dan waktu sangat berpengaruh terhadap tingkat keberhasilan penjadwalan
+dari keempat skenario tersebut dapat disimpulkan pelanggaran/bentrok yang sering terjadi pada komputasi algoritma ada pada bentrok penyimpangan waktu, dimana masih terjadi overlapping time pada hari dan ruangan yang sama
+algoritma genetika pada sistem penjadwalan akademik di fakultas teknik universitas tanjungpura, dapat disimpulkan bahwa : karena proses komputasi algoritma genetika berdasarkan nilai acak yang dibangkitkan pada masing-masing kromosom
+komputasi algoritma genetika adalah karakteristik bentrok penyimpangan waktu
+genetika sangat bergantung pada rasio ruangan dan waktu terhadap rasio total jumlah sks

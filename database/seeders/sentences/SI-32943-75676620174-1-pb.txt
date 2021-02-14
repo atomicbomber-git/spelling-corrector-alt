@@ -1,0 +1,12 @@
+ubmitted 14-05-2019; revised 10-09-2019; accepted 26-09-2019 1 sistem rekomendasi layanan harga produk terendah berbasis partisipasi masyarakat fany ayu anggreany#1, yus sholva*2, helen sasty pratiwi#3 #program studi informatika universitas universitas tanjungpura jl
+hadari nawawi, pontianak, kalimantan barat 78115 1ayuanggreany@gmail.com 2sholvariza@untan.ac.id 3helensastypratiwi@gmail.com dijangkau membuat perubahan pada perilaku belanja konsumen
+menurut couponrani.com sebanyak 54% konsumen memanfaatkan internet untuk membandingkan harga saat berada di dalam toko konvensional namun dalam membandingkan harga ditemui kendala yaitu sulitnya mendapatkan informasi harga produk pada toko konvensional meskipun toko konvensional ada beberapa yang menyediakan katalog harga produknya, tidak semua produk ditampilkan dalam katalog
+oleh karena itu, perlu dibuat aplikasi dengan sistem rekomendasi harga produk terendah menggunakan partisipasi masyarakat
+partisipasi masyarakat digunakan karena tidak adanya sumber yang memberikan data harga produk yang selalu terupdate sehingga diperlukan dukungan dari masyarakat yang memberikan data secara sukarela
+pada penelitian ini untuk membuat masyarakat ikut berpartisipasi memberikan data harga produk yaitu dengan membangun sistem rekomendasi ini dalam bentuk sebuah aplikasi catatan belanja
+catatan belanja yang dimasukkan oleh pengguna ke aplikasi akan disimpan dalam sebuah basis data sehingga dapat diakses oleh pengguna lain dalam bentuk rekomendasi harga terendah
+rekomendasi dihasilkan dengan memilah data harga produk terbaru dan terendah untuk kemudian diurutkan berdasarkan jumlah produk yang tersedia, total harga, dan jarak toko terdekat yang dihasilkan dengan melakukan perhitungan jarak antara pengguna dan toko menggunakan formula haversine
+berdasarkan hasil pengujian, aplikasi ini sudah berjalan dengan baik pada perangkat smartphone android
+hasil perhitungan likert’s summated rating diperoleh nilai 1701 yang menerangkan bahwa aplikasi ini dapat dikategorikan dengan kriteria 
+pendahuluan dijangkau seiring dengan semakin meningkatnya pengguna internet dan smartphone di indonesia
+berbagai aspek kehidupan tidak terlepas dari internet membuat perubahan pada perilaku belanja konsumen

@@ -1,0 +1,98 @@
+pemanfaatan internet dekade terakhir ini mengalami perkembangan yang sangat pesat
+media internet tidak lagi hanya sekedar menjadi media berkomunikasi semata, namun juga sebagai bagian tak terpisahkan dari dunia bisnis, industri, pendidikan dan pergaulan sosial khusus mengenai jejaring sosial atau dikenal dengan sosial media, pertumbuhannya cukup mencengangkan
+namun sebaliknya, pemanfaatan e-learning yang kita ketahui selama ini kurang begitu menarik
+disisi lain terbukanya api dari beberapa sosial media, memberikan kesempatan untuk mengembangkan sebuah aplikasi e-learning yang terhubung dengan sosial media
+sistem yang dikembangkan menggunakan bahasa pemrograman php
+dengan menggunakan php-sdk dan javasript-sdk sebagai library untuk menghubungkan antara sistem e-learning dengan facebook sebagai sosial media
+metode perancangan sistem menggunakan pendekatan oop, sehingga arsitektur program yang digunakan menggunakan konsep uml 
+dengan adanya aplikasi facebook, user dapat menerima notifikasi dari e-learning melalui akun facebook
+berdasarkan hasil pengujian menggunakan blackbox, sistem integrasi sosial media facebook dengan e-learning berhasil dilakukan
+media internet tidak hanya sekedar menjadi media komunikasi semata, namun juga sebagai bagian tak terpisahkan dari dunia bisnis, industry, pendidikan dan pergaulan sosial khusus mengenai jejaring sosial atau dikenal dengan sosial media, pertumbuhannya cukup mencengangkan
+sebagai contoh, situs facebook kini memiliki 71 juta pengguna berasal dari indonesia
+disisi lain, pemanfaatan internet di dunia pendidikan bukan hal yang baru, kita lihat saja contohnya e-learning, sistem ini dimanfaatkan para pendidik untuk memberikan materi dan tugas pada mahasiswa dengan cara mengupload dan download ke ststem e-learning
+tidak banyak lembaga pendidikan yang menjalankannya dengan efektif yang salah satunya disebabkan oleh kurangnya partisipasi pata pendidik dan peserta didik, serta kesulitan untuk mendapatkan informasi tersebut dalam satu waktu yang munkin dikarenakan oleh tidak menariknya konten atau fasilitasyang disajikan
+memanfaatkan teknologi informasi tanpa menghilangkan sistem yang telah berjalan sebelumnya
+keunggulan yang ditawarkan didalam web service adalah kemampuan untuk melakukan komunikasi antar sistem yang berbeda website dan database
+salah satu contoh penerapan web service memberikan kemudahan upaya integrasi antar sistem dengan latar belakang yang sama
+dengan adanya web service dan juga dengan tersedianya api dari facebook dapat mempermudah bagi developer untuk mengintegrasikan sistemnya
+mengintegrasikan e-learning untuk menggunakan e-learning tanpa meninggalkan aktifitas di sosial media
+web service juga dapat membantu sinkronisasi data yang diperlukan dalam sebuah website akan lebih mudah dilakukan
+integrasi sistem sistem informasi dari komponen-komponen perangkat lunak, perangkat keras dan jaringan yang berbeda
+konsep integrasi sistem adalah suatu konsep sistem yang dapat saling berhubungan satu dengan yang lain dengan berbagai cara yang sesuai dengan keperluan
+hal ini sangat bermanfaat bila data atau file suatu sistem diperlukan juga oleh sistem yang lainnya atau output suatu sistem menjadi input sistem lainnya
+e-learning luas, sehingga banyak pakar yang menguraikan tentang definisi e-learning dari berbagai sudut pandang
+salah satu definisi yang cukup dapat diterima oleh banyak pihak menyatakan bahwa e-learning merupakan suatu jenis belajar mengajar yang memungkinkan tersampaikannya bahan ajar ke mahasiswa dengan menggunakan media internet atau media jaringan komputer lain
+penggunanya bisa dengan mudah berpartisipasi, berbagi, dan menciptakan isi meliputi blog, jejaring sosial, wiki, forum dan dunia virtual pendapat lain mengatakan bahwa media sosial adalah media online yang mendukung interaksi sosial dan media sosial menggunakan teknologi berbasis web yang mengubah komunikasi menjadi dialog interaktif
+integrasi sosial media dengan e-learning teknik informatika universitas tanjungpura program studi teknik informatika fakultas teknik universitas tanjungpura123
+facebook api sebuah aplikasi dengan facebook
+facebook telah menyediakan api untuk developer yang dapat digunakan secara gratis
+aplikasi yang dikembangkan dapat diintegrasikan dari banyak aspek, seperti news feed, notification, informasi tentang user, registrasi atau login dengan facebook dan masih terdapat beberapa fasilitas yang ditawarkan
+untuk mempermudah pengembangannya, aplikasi yang dikembangkan tidak perlu dihosting di server facebook, melainkan cukup di server kita sendiri
+untuk memulai membuat aplikasi facebook, developer harus mendaftarkan aplikasinya di halaman https://developer.facebook.com/apps
+adalah sebuah software yang dirancang untuk mendukung interoperabilitas interaksi mesin-ke-mesin melalui sebuah jaringan
+web service adalah aplikasi perangkat lunak yang dapat ditemukan, diuraikan, dan diakses berdasarkan pada xml dan protokol standard web pada intranet, extranet, dan internet
+json interchange format), mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan dan dibuat oleh komputer
+oleh karena sifat-sifat tersebut, menjadikan json ideal sebagai bahasa pertukaran-data
+curl mentransfer data melalui berbagai protokol
+curl ini banyak digunakan untuk mengirim atau meminta data dari satu atau beberapa situs, termasuk didalamnya seperti interaksi api
+teknik curl adalah teknik untuk mengambil teks atau secara umum obyek yang ada di suatu situs lain kemudian diletakkan ke web kita
+pertama dilakukan yaitu masuk ke facebook developer untuk mendapatkan informasi app id dan app secret id
+informasi tersebut digunakan agar sistem dikenali oleh facebook
+integrasi yang dilakukan oleh sistem ini yaitu mengintegrasikan nip / nim pengguna dengan akun id facebook pengguna
+proses integrasi dilakukan pada saat login dengan facebook, dimana sistem akan mengambil data id dan nama facebook pengguna kemudian disimpan di session
+jika id facebook tersebut telah terdaftar maka pengguna akan langsung masuk kehalaman home sistem
+jika belum terdaftar maka akan dilanjutkan ke proses login register
+dihalaman login register pengguna akan menginputkan nim atau nip dan password akun e-learningnya, sistem akan memeriksa apakah akun e-learning yang diinputkan benar atau tidak, jika data yang diinputkan tersebut benar maka sistem akan memeriksa data tersebut sudah terdaftar atau belum jika sudah terdaftar maka pengguna akan kembali ke halaman login register, jika belum terdaftar maka sistem akan mengintegrasikan id dan nama facebook yang telah di session dengan nip / nim pengguna yang telah diinputkan
+data id facebook, nama facebook dan nip / nim pengguna disimpan kedalam database
+data id facebook dan nip / nim pengguna yang telah disimpan di database digunakan untuk mengintegrasikan akun
+pada saat pengguna akan mengirimkan notifikasi, nip / nim digunakan untuk mencari siapa-siapa saja yang berhak untuk menerima notifikasi tersebut
+setelah itu, id facebook akan digunakan untuk mengirimkan notifikasi tersebut ke akun facebook penerima
+arsitektur sistem mahasiswa dan dosen login dengan akun facebook
+dosen dapat mengirimkan notifikasi materi dan tugas
+sedangkan mahasiswa dapat mengirimkan notifkasi mengumpulkan tugas
+notifikasi terkirim keakun facebook mahasiswa atau dosen yang mengambil mata kuliah tersebut
+data mahasiswa, dosen, mata kuliah, jadwal, lirs diambil dari service e-learning menggunakan json sebagai pengirim data dan curl berperan mengambil data yang dikirimkan oleh json
+data tersebut akan disimpan di database
+blackbox menemukan kesalahan dan mendemonstrasikan fungsional aplikasi saat dioperasikan, apakah input diterima dengan benar dan output yang dihasilkan telah sesuai dengan yang diharapkan
+login dengan facebook dan password akun facebook
+tampilan antar muka halaman login facebook dapat dilihat pada gambar 3 berikut
+halaman persetujuan web integrasi mengambil informasi tentang profil atas nama akun facebooknya
+tampilan halaman persetujuan web integrasi dengan facebook pada gambar 4 berikut
+setelah berhasil memberikan app id sebagai id aplikasi dan app secret sebagai password dari aplikasi
+tampilan halaman registrasi facebook pada gambar 5 berikut
+buat notifikasi notifikasi berupa tugas dan materi dari dosen kepada mahasiswa dan mengumpulkan tugas dari mahasiswa ke dosen
+untuk bisa mengirimkan notifikasi pengguna harus menekan tombol buat notifikasi
+pada halaman jika status pengguna tersebut dosen maka pada tombol select akan keluar mata kuliah yang diajar oleh pengguna, demikian juga jika status sebagai mahasiswa maka akan keluar mata kuliah yang diambil, pada form ini juga pengguna dapat mengupload file
+halaman buat notifikasi dapat dilihat pada gambar 6
+halaman lihat notifikasi dapat dilihat pada gambar 7
+halaman ini dosen dan mahasiswa harus memilih forum apa yang akan dikomentari, dengan cara mengklik judul forum pada halaman forum
+pada halaman ini juga dosen dan mahasiswa dapat memberikan komentar
+mahasiswa dan dosen dapat menghapus komentarnya sendiri
+halaman buat forum dapat dilihat pada gambar 7
+buat forum halaman ini dosen dan mahasiswa harus memilih forum apa yang akan dikomentari, dengan cara mengklik judul forum pada halaman forum
+pada halaman ini juga dosen dan mahasiswa dapat memberikan komentar
+mahasiswa dan dosen dapat menghapus komentarnya sendiri.tampilan antar muka komentar
+halaman mengomentari forum dapat dilihat pada gambar 8
+didalam database web integrasi dengan service e-learning
+cara pengambilan data yaitu response yang dikirim berbentuk json, kemudian menggunakan curl untuk mengambil data tersebut
+response ini kemudian akan dibaca oleh sistem dan disajikan dalam bentuk data array dan ditampilkan di dalam tabel
+data tersebut kemudian disimpan pada database web integrasi
+data tersebut akan disimpan secara otomatis
+jika data tidak dapat ditampilkan, maka pengujian ini dapat dikatakan gagal menyajikan data hasil dari service e-learning
+jika data tidak dapat ditampilkan, maka pengujian ini dapat dikatakan gagal gambar 9
+hasil pengujian ambil data mahasiswa berikut ini lampiran kode json : 1
+$query = ; 4
+}else{ echo ;}?> berikut ini lampiran kode curl : 1
+pengujian login register memasukkan data akun e-learning dihalaman login register kemudian sistem akan mengecek data ada atau tidak di database web integrasi
+pengujian dikatakan berhasil jika response bernilai true ketika data yang dimasukkan oleh pengguna terdaftar di database, dan bernilai false ketika data yang dimasukkan yang digunakan tidak terdaftar didalam database web integrasi
+adapan hasil dari pengujian ini dapat dilihat pada tabel 2 berikut
+pengujian kirim notifikasi pengguna akan memilih siapa - siapa saja penerima notifikasi tersebut melalui tombol select
+dalam tombol select tersebut berisi nama-nama mata kuliah yang diambil oleh pengguna
+request ke alamat request ke alamat kuliah dari service e- learning
+request ke alamat http://webelearning.esy.es/ser vice/lirs.php dari service e-learning
+request ke alamat http://webelearning.esy.es/ser vice/jadwalphp dalam database
+notifikasi tersebut akan akan disimpan di database web integrasi kemudian dikirim ke facebook penerima dan pada menu lihat notifikasi penerima pengujian ini dapat dikatakan berhasil karena sistem dapat mengirimkan notifikasi ke facebook penerima
+hasil pengujian kirim notifikasi berikut ini lampiran kode kirim notifikasi ke facebook : 1
+kesimpulan/ringkasan media facebook dengan e-learning, maka dapat diambil kesimpulan sebagai berikut: 1
+pembangunan sistem integrasi sosial media facebook dengan e-learning telah berhasil dilakukan
+dari hasil pengujian dengan black box dapat diketahui bahwa event-event yang disediakan oleh aplikasi web integrasi berjalan dengan baik dan sesuai dengan yang diharapkan

@@ -1,0 +1,87 @@
+jaringan komputer adalah sesuatu yang kompleks
+kompleksitas tersebut bukan hanya sebatas banyaknya device atau perangkat, tetapi juga begitu bervariasinya sistem dan teknologi yang ada di dalamnya, serta cakupan area jaringan yang yang luas
+infrastruktur yang handal sekalipun tidak bisa dijadikan jaminan bahwa fungsi jaringan dapat bekerja secara optimal tanpa didukung oleh monitoring atau pengelolaan yang baik
+semua kebutuhan tersebut dapat dipenuhi dengan program yang menyebut dirinya sebagai network monitoring system .nms merupakan perangkat lunak yang fungsi utamanya adalah memonitor dan mengelola perangkat- perangkat jaringan dengan tujuan agar reliability dan availability terjaga dan dapat secara dini diketahui anomaly atau terputusnya jaringan tersebut
+saat ini banyak sekali perangkat lunak yang handal serta mudah dalam penggunaannya sebut saja misalnya ciscowork, hp openview, dan ibm tivoli netview
+hanya saja perangkat lunak tersebut cukup mahal, karena memang tergolong produk commercial untungnya ketersediaan produk nms tidak sebatas commercial, tetapi juga banyak alternatif lain yaitu produk-produk yang tergolong mudah digunakan
+sayangnya, kebanyakan produk susah dalam implementasi, baik dari segi instalasi maupun konfigurasi, tetapi juga keterbatasan dalam jumlah node serta jenis yang dimonitor, meliputi perangkat jaringan, server, dan aplikasi
+metode pemilihan perangkat lunak nms berdasarkan efektifitas sistem informasi ini didasarkan pada metode penelitian oyku alanbay melalui pendekatan ahp dengan software expert choice 2000
+penelitian ini diharapkan dapat menghasilkan metode yang tepat dalam menentukan perangkat lunak nms berdasarkan efektifitas sistem informasi yang handal untuk digunakan sebagai tool monitoring jaringan, server, dan aplikasi untuk digunakan pada pttuv
+dengan menggunakan alat network monitoring system yang tepat akan sangat memudahkan pekerjaan seorang administrator atau pengguna dalam memantau dan merawat jaringan dilingkungannya
+pt tuv mempunyai penyempurnaan sistem informasi secara terpadu antara bidang pemasaran dengan produksi dan administrasi keuangan.sistem pencatatan transaksi berbasis komputer dilengkapi fasilitas network dalam area kerja namun jaringan sistem informasi yang ada sering kali terjadi gangguan yang mengakibatkan tersendatnya pelayanan yang optimal dan membuat pihak perusahaan merasa memerlukan monitoring untuk memantau sistem informasi yang berjalan
+network monitoring system merupakan sebuah sub sistem dalam manajemen jaringan yang melibatkan penggunaan perangkat lunak dan perangkat keras
+berdasarkan international standards organtations, aplikasi network monitoring system memiliki lima kriteria yaitu performance, managament, accounting managament, configuration managament, fault managament dan security managament
+berdasarkan metode penelitian oyku alanbay dalam pengambil keputusan untuk menentukan software yang terbaik, maka penulis mengadopsi model yang telah dikembang kan oyku alanbaydengan pendekatan metode ahp seperti pengembangan model saaty
+pengambilan keputusan dapat dilakukan dengan dua kerangka kerja, meliputi pengambilan keputusan tanpa berdasarkan eksperimen, dilakukan dengan cara menyusun secara sistematis cara kerja umum sebelum mencari solusi bagi masalah yang diharapkan
+teori ini dikembangkan sejalan dengan pendekatan statistik di mana secara sederhana, keputusan yang dihasilkan diupayakan mempunyai pengaruh kesalahan seminimum mungkin
+setelah itu dilakukan penetapan nilai untuk mengukur tingkat kepentingan variabel – variabel tersebut tanpa memperhatikan unsur – unsur ketidakpastian
+keputusan ini akan menguraikan masalah multi faktor atau multi kriteria yang kompleks menjadi suatu hirarki
+gambar 2 .representasi hirarki keputusan menurut saaty, hirarki pada gambar 2 dapat didefinisikan sebagai suatu representasi dari sebuah permasalahan yang kompleks dalam suatu struktur multi level dimana level pertama adalah tujuan, yang diikuti level faktor, kriteria, sub kriteria
+fungsi utama ahp sistem informasi menyebabkan perlunya satu model untuk mengambil keputusan untuk mengetahui software network monitoring system mana yang paling handal berdasarkan kebutuhan pada pttuv maka software monitoring yang akan diuji akan ditentukan oleh pihak perusahaan
+berikut adalah beberapa kelebihan dari software monitoring yang akan diuji yaitu software cacti, nagios, paessler router traffic graph, opennms dan dude
+yang mudah dimengerti, luwes untuk aneka ragam persoalan tidak terstruktur dalam memecahkan persoalan kompleks ketergantungan elemen – elemen penyusunan hierarki ahp mencerminkan kecenderungan alami pikiran untuk memilah-milah elemen – elemen suatu sisatem dalam berbagai tingkat berlainan dan mengelompokkan unsur yang serupa dalam setiap tingkat pengukuran ahp memberi suatu skala untuk mengukur hal – hal dan terwujud suatu metode untuk menetapkan prioritas pertimbangan – pertimbangan yang digunakan untuk menetapkan berbagai prioritas
+menyeluruh tentang kebaikan setiap alternatif tawar menawar ahp mempertimbangkan prioritas – prioritas relatif dari berbagai faktor sistem dan memungkinkan organisasi memilih alternatif terbaik berdasarkan representatif dari berbagai penilaian yang berbeda pengulangan proses ahp memungkinkan organisasi memperhalus definisi mereka pada melalui pengulangan
+cacti menyimpan informasi kedalam database mysql dan membuat grafik berdasarkan informasi tersebut
+proses pengambilan data sampai kepada pembuatan grafik dilakukan menggunakan bahasa pemrograman php.cacti dapat digunakan untuk menyimpan graph, data sources, dan round robin archives ke dalam sebuah database
+aplikasi ini juga mendukung protocol snmp, sehingga dapat digunakan untuk membuat traffic graph menggunakan mrtg
+aplikasi ini sudah memiliki banyak fitur
+nagios host, dan service yang terdapat pada suatu jaringan
+aplikasi ini dapat menginformasikan kepada penggunanya, sebelum terjadi problem network di client atau end-user
+meski aplikasi ini didesain untuk berjalan pada sistem operasi linux, tapi secara umum, aplikasi ini dapat berjalan pada kebanyakan varian nix dengan sama baiknya
+untuk proses kerjanya, monitoring daemon memeriksa secara berkala pada komputer host dan service yang telah didefinisikan dengan menggunakan eksternal ―plugin‖, yang akan mengirim status informasi ke nagios
+ketika terjadi suatu problem, daemon akan secara otomatis mengirimkan pesan ke administrator dengan menggunakan beragam cara yang dipilih 
+status informasi saat ini, log kejadian dan laporan, selanjutnya dapat diakses sepenuhnya dengan menggunakan web browser
+pihak nagios sendiri, sudah menghasilkan beberapa produk hardware jaringan yang menggunakan nagios sebagai aplikasinya
+beberapa produk seperti perangkat monitoring lingkungan, perangkat monitoring jaringan berbentuk router, perangkat mobile untuk menyampaikan pesan notifikasi, dan beberapa perangkat lainnya, telah di hasilkan oleh pihak nagios
+beragam layanan support mulai dari dokumentasi, faq, mailing list, dan forum, sudah disediakan dengan baik oleh pihak nagios
+prtg merupakan perangkat lunak yang mudah digunakan untuk memantau penggunaan bandwidth dan banyak parameter jaringan lain melalui snmp, packet sniffing, atau cisco netflow yang memungkinkan untuk pengukuran traffic berdasarkan alamat ip dan atau protokol
+pengukuran berbasis simple network management protocol hanya berbasis pada port
+mempersiapkan dan menjalankan sebuah proses pemantauan untuk sebuah jaringan tertentu
+dengan paessler router traffic grapher ini maka dengan mudah dapat mengetahui sejumlah data yang mengalir melalui perangkat seperti router dan memamntau penggunaan pc serta menganalisa traffic yang dapat dikategorikan ke dalam beberapa jenis protokol
+berjalan pada mesin windows di dalam jaringan selama 24 jam setiap hari dan terus-menerus mencatat penggunaan parameter jaringan
+dengan prtg traffic grapher ini dapat memonitor semua aspek jenis protokol mulai dari jenis jaringan protokol ftp, http, https, smtp, icmp, dns, pop3, snmp dan lainnya
+disini dapat dilihat seberapa banyak penggunaan bandwith pada masing-masing protokol yang telah ada
+dua edisi, open source dan enterprise 
+kendati coverage area service meliputi infrastruktur jaringan, server dan aplikasi, perbedaannya opennms lebih fokus kepada monitoring device jaringan, sementara hyperic hq fokus utamanya pada monitoring aplikasi 
+sebagaimana umumnya sebuah network management system, opennms dibangun menggunakan fcaps network management model, yaitu sesuai dengan standarisasi yang dikeluarkan iso/iec 7498-4
+adapun fitur yang dimiliki oleh opennms, diantaranya service polling untuk layanan informasi ketersediaan data dan latensi serta pengukurannya adapun data collection untuk pengumpulan, penyimpanan dan reporting data yang berasal dari nodes yang dimonitor melalaui protocol, antara lain: snmp, jmx, http, wmi dan fitur lain
+pengaturan kejadian baik internal maupun eksternal events, termasuk di dalamnya snmp traps dan fitur lainya yaitu alarms and automations – dilengkapi dengan alarm dengan pengaturan yang outomatis secara terpusat
+dan fitur lain yang mendukung yaitu notifications – pengiriman pesan berdasarkan kejadian melalui emial, sms serta media lainnya
+untuk memonitor aktifitas system dan network infrastruktur, dan secara real-time akan mencatat setiap aktifitas yang terjadi pada perangkat dilingkungan tersebut
+dengan adanya tools ini akan membantu team fault handling dalam hal menganalisa dan menentukan action atau langkah selanjutnya
+metodologi terjun kelapangan atau survey langsung, untuk mendapatkan data dalam menentukan kriteria-kriteria yang telah digunakan di perusahaan tersebut, kemudian di kelompokan dan di bentuk kedalam sebuah kuesioner yang digunakan untuk mengumpulkan data sampel dalam waktu tertentu dari beberapa responden untuk memilih promosi jabatan karyawan pada ―pt tuv‖
+kegiatan penelitian ini melalui beberapa tahap dalam pengembangannya yaitu: studi pendahuluan yaitu mengumpulkan materi-materi kepustakaan yang berhubungan dengan pengambilan judul
+kemudian langkah selanjutnya yaitu survey langsung ke tempat penelitian yaitu ―pttuv‖, hasil dari survey ini adalah berupa trouble koneksi yang sering terjadi pada perusahaan dan melihat beberapa kriteria yang digunakan untuk penelitian lebih lanjut
+dibutuhkan beberapa responden ahli yang expert dibidang jaringan yang terdapat didalam perusahaan tersebut
+langkah selanjutnya adalah menyebarkan kueisoner kepada responden penilai yaitu dengan metode penilaian 360 derajat
+maka data diolah menggunakan metode ahp, yaitu pertama kali menggunakan software excel untuk memperhitungkan secara manual gabungan dari beberapa responden untuk dibandingkan dengan penggunaan software
+baru kemudian data yang diperoleh dari perhitungan tersebut dientri kedalam software expert choice untuk memperoleh hasil akhir berupa alternative terpilih dan bobot penilaian masing-masing kriteria maupun subkriteria
+pttuv pengetahuan, dan pengalaman untuk memperoleh prioritas
+prinsip ini berarti membuat penilaian berkenaan dengan pertimbangan relatif pentingnya satu elemen terhadap yang lain
+untuk itu diperlukan suatu skala perbandingan antar dua elemen, baik secara kualitatif maupun kuantitatif
+dalam penyusunan skala kepentingan atau kesukaan digunakan pedoman dasar sebagai berikut: 3 elemen yang satu ketimbang elemen yang lainnya lain memiliki tingkat penegasan tertinggi yang dibandingkan dengan suatu aktivitas j, maka j mempunyai nilai kebalikannya bila dibandingkan dengan aktivitas i
+network monitoring system ini seluruhnya merupakan responden ahli yang berjumlah 5 responden
+pengertian responden ahli dalam hal ini adalah seluruh responden sangat memahami networking
+yaitu manager, it staff dan it support yang terdapat pada perusahaan, baik dikantor pusat maupun dikantor cabang
+1) technology related, yaitu aspek-aspek yang terkait dengan teknologi 2) user related, yaitu aspek-aspek yang berhubungan dengan pengguna 3) vendor related, yaitu aspek-aspek yang berhubungan dengan penyedia perangkat lunak
+rincian sub kriteria yang dianggap penting yang melandasi ditentukannya perangkat lunak nms yaitu: 1) sub kriteria untuk kriteria technology related a) flexibility, yaitu fleksibilitas dalam penggunaannya web based application, yaitu perangkat lunak tersebut dapat berjalan dengan tampilan web
+b) back-up system, yaitu berkaitan dengan backup data c) fault management, yaitu kemampuan dalam mengelola dan mendeteksi kesalahan 
+sehingga semua versi perangkat keras, lunak, dan konfigurasi dapat dilacak
+untuk keperluan akunting dan hasil pengukurannya dapat digunakan untuk mendapatkan pola penggunaan jaringan untuk keperluan penjaminan sla 
+f) performance management, yaitu kinerja sistem dalam dalam memonitor dan pengelolaan seluruh perangkat jaringan, server, dan aplikasi
+g) security management, yaitu pengaturan akses terhadap sumber jaringan sesuai dengan aturan yang telah disetujui, sehingga tidak ada user yang tidak memiliki hak akses dapat masuk ke sistem
+2) sub kriteria untuk kriteria user related a) customization, yaitu kemudahan dalam kustomisasi yang disesuaikan dengan kebutuhan pengguna
+b) user friendliness, yaitu kemudahan dalam penggunaan bagi user
+c) reporting, yaitu kemampuan menampilakan report yang mudah dibaca oleh pengguna d) integration with other plugin, yaitu kemampuan integrasi dengan plugin lain untuk memperkaya atau tambahan fitur
+3) sub kriteria untuk kriteria vendor related a) support, yaitu terkait dari support dari penyedia software yang dalam hal ini biasanya berupa kelompok komunitas pengguna
+solusi dengan expert choice 2000 hasil perhitungan dengan geometric mean tiap responden, akhirnya digabungkan dan nilai hasil penggabungan tersebut akan dihitung tingkat consistency ratio-nya menggunakan tool expert choice 2000
+berikut hasil yang didapat efektifitas sistem informasi dari hasil yang tertera di gambar 4, telah terlihat bahwa software monitoring system untuk sistem informasi yang handal adalah prtg dengan nilai bobot 0, 360 atau sebanding dengan 36, 0% dari total alternatif yang ditetapkan
+hasil nilai bobot alternatif ini ternyata sesuai dengan hipotesa yang dibuat pada perumusan masalah di bab sebelumnya
+kemudian peringkat prioritas alternatif berikutnya adalah cacti, nagios, dude, dan peringkat prioritas terendah adalah opennms 
+rasio inkonsistensi data dianggap baik jika nilai cr-nya ≤ 0.1
+untuk mengecek rasio inkonsistensi data responden, berikut ini ditampilkan nilai rasio inkonsistensi pada masing-masing matriks perbandingan berdasarkan tabel 3 berikut
+dengan demikian hasil perhitungan geometrik gabungan data responden cukup konsisten
+oleh karena itu metodologi ini, sesuai untuk proses seleksi perangkat lunak, yang merupakan masalah pengambilan keputusan terstruktur, terutama untuk sistem software yang mempunyai banyak variasi dan versi seperti software monitoring jaringan
+dalam tulisan ini, perangkat lunak expert choice 2000 digunakan untuk struktur dan memecahkan masalah
+menggunakan fungsi perangkat lunak untuk mengukur dan menganalisa sensitivitas cr menunjukkan bahwa pendekatan sistematis ahp berlaku untuk apapun pengambilan keputusan masalah
+hal ini praktis dan mudah belajar dan metodologi yang dapat meyakinkan pengguna tentang hasil yang wajar

@@ -1,0 +1,78 @@
+teknologi penyebaran berita dilakukan dengan dua cara yakni melalui media online dan media offline, namun perkembangan banyak dilakukan pada media online
+media offline tidak banyak mengalami perkembangan dikarenakan penggunaan media offline dinilai terbatas pada ruang lingkup tertentu
+namun pada ruang lingkup tertentu seperti perkantoran sangat efektif menyebarkan berita melalui media offline
+sehingga perlu adanya pengembangan teknologi media offline, salah satunya yakni dengan pemanfaatan internet content adaptation protocol 
+maka penelitian ini bertujuan untuk melakukan pengembangan icap sebagai media penyisipan berita
+pengembangan metode icap dimaksudkan untuk mempermudah penyebaran informasi di suatu tempat yang memiliki jaringan area lokal penyisipan berita dilakukan dengan menginterupsi paket data yang akan dikirimkan ke klien, sehingga klien menerima tampilan yang sudah dimanipulasi dengan tambahan berita
+format berita yang ditampilkan di klien berupa banner yang berada pada bawah halaman yang diakses klien melalui jaringan internet aplikasi web dinamakan web integrated system e- announcement dibuat untuk pengaturan berita yang ditampilkan di klien
+aplikasi wise merupakan aplikasi berbasis web yang dibuat dengan pemograman php, sehingga admin dapat melakukan perubahan berita yang akan ditampilkan pada klien
+standar iso 9126 diterapkan untuk melakukan pengujian sistem yang melingkupi pengujian functionality, reliability, usability, efficiency, maintainability, dan portability
+dari hasil pengujian di dapatlah hasil penelitian yang menunjukan bahwa aplikasi berjalan dengan baik dengan keamanan yang cukup tinggi dan berita berhasil tampil dengan baik pada browser yang berbeda lintas platform, namun dengan mengimplementasikan icap memakan waktu akses lebih lama dibandingkan tidak mengimplementasikan icap
+pendahuluan penyebaran berita dilakukan dengan dua cara yakni melalui media online dan media offline, namun perkembangan banyak dilakukan pada media online
+media offline tidak banyak mengalami perkembangan dikarenakan penggunaan media offline dinilai terbatas pada ruang lingkup tertentu
+walaupun dinilai terbatas pada ruang lingkup tertentu seperti perkantoran, media offline dinilai sangat efektif untuk media penyebaran berita dilingkungan tersebut
+namun penyampaian berita secara offline tidak secepat media online, dikarenakan media online didukung oleh teknologi yang paling efektif yakni jaringan komputer
+pada ruang lingkup perkantoran umumnya sudah banyak menggunakan jaringan komputer sebagai teknologi pendukung pekerjaan dan sebagai media penyampaian informasi
+jaringan komputer pada saat sekarang sangat berkembang dan menjadi kebutuhan
+salah satu fitur keamanan pada jaringan komputer adalah firewall yang berbasis proxy server untuk menutup celah keamanan yang dapat dimanfaatkan oleh para hacker
+fungsi proxy server sendiri memiliki tiga fungsi utama yakni: connection sharing, filtering, dan caching
+pengembangan proxy server sebagai media filtering juga dimanfaatkan untuk filter antivirus yang menggunakan metode internet content adaptation protocol 
+penelitian ini mengembangkan metode icap tersebut untuk media penyisipan berita
+pengembangan metode icap dimaksudkan untuk mempermudah penyebaran informasi di suatu tempat yang memiliki jaringan area lokal dengan metode icap tersebut diharapkan dapat menjadi media baru sebagai media penyebaran informasi selain menggunakan media-media yang lainnya
+jaringan komputer bahasan dalam bidang telekomunikasi, ilmu komputer, teknologi informasi, dan teknik komputer
+sifat dari jaringan komputer adalah memungkinkan adanya transfer data antar komputer atau perangkat yang terhubung di dalamnya
+contoh jaringan yang lazim digunakan adalah lan, wan, wireless lan dan wan 
+sebuah jaringan komputer dihubungkan menggunakan berbagai medium, seperti kabel twisted pair, kabel tembaga, kabel koaksial, kabel serat optik, dan berbagai macam teknologi wireless
+proxy server dalam jurnalnya, proxy server adalah sebuah komputer atau kumpulan komputer yang diletakan sebagai pelayanan pelanggan yang meminta pelayanan data baik dari pusat komputer ataupun dokumen web
+proxy server melayani komunikasi antara klien dan server yang dituju tanpa merubah permintaan ataupun balasan
+adaptation/transcoding adalah proses konversi sumber daya multimedia dari satu bentuk ke bentuk lainnya untuk mencocokkan karakteristik perangkat
+misal, mengubah ukuran dan kedalaman warna dari suatu gambar, dan mengkonversi dari kualitas tinggi ke kualitas rendah
+hal ini biasa diterapkan untuk transofmasi dalam jenis media, dalam media yang berbeda 
+proses transcoding harus mempertahankan atribut asli dan menghasilkan versi yang dapat dikonsumsi oleh perangkat klien
+cerpa, internet content adaptation protocol adalah protocol yang bertujuan menyediakan objek sederhana berbasis konten untuk layanan http
+pada dasarnya icap sebuah protokol ringan untuk melaksanakan pada pesan http
+hal ini memungkinkan icap klien untuk melawati pesan http ke server icap untuk mentransformasikan atau pengolahan lainnya 
+design arsitektur sistem bangun arsitektur sistem klien yang terlibat dalam aplikasi
+dalam aplikasi ini user dapat melakukan beberapa perlikau meliput pengaturan berita yang akan disisipkan mulai dari jenis tampilan, isi, dan jadwal serta melakukan administrasi pengguna
+class diagram dalam class diagram pada gambar 3
+dalam diagram tersebut terdapat class yang dibuat meliputi class mask, menuutama, pengaturanpublikasi, tambahpublikasi, menggambarkan interaksi antar objek dan mengindikasikan komunikasi diantara objek-objek tersebut
+diagram ini menunjukan serangkaian pesan yang saling bertukar oleh objek-objek yang melakukan suatu tugas atau aksi tertentu
+sequence diagram berikut menggambarkan interaksi saat menggunakan aplikasi wise
+gambar 4 merupakan sequence diagram untuk fungsi tambah publikasi, fungsi ini digunakan jika pengguna melakukan tambah publikasi maka halaman akan memerintahkan untuk menjalankan class insertpublication ke addpublication controller sehingga data akan di tambahkan pada tabel publication_temp
+gambar 6 merupakan sequence diagram untuk fungsi hapus publikasi, fungsi ini digunakan jika pengguna melakukan hapus publikasi maka halaman akan memerintahkan untuk menjalankan class delete yang di ikuti dengan id publikasi yang di hapus ke deletepublication controller sehingga data pada tabel publication_temp akan di hapus untuk id publikasi yang ditentukan
+gambar 7 sequence diagram batalkan pengaturan gambar 7 merupakan sequence diagram untuk fungsi batalkan pegaturan, fungsi ini digunakan jika pengguna ingin membatalkan semua perubahan yang sebelumnya dilakukan
+pada aplikasi jika pengguna memilih batalkan pengaturan maka aplikasi akan memerintahkan class undoall sehingga data pada tabel publication_temp akan dihapus dan data pada tabel publication akan disalin ke publication_temp
+gambar 8 sequence diagram publikasikan pengaturan gambar 8 merupakan sequence diagram untuk fungsi publikasikan pegaturan, fungsi ini digunakan jika pengguna ingin mempublikasikan semua perubahan yang sebelumnya dilakukan
+pada aplikasi jika pengguna memilih publikasikan pengaturan maka aplikasi akan memerintahkan class publishall sehingga data pada tabel publication akan dihapus dan data pada tabel publication_temp akan disalin ke publication
+segarkan tabel, fungsi ini digunakan jika pengguna ingin memuat ulang tabel list publikasi yang ada pada halaman pengaturan publikasi
+fungsi ini akan berjalan setelah ada perintah dari pengguna dan aplikasi akan menjalankan class getpublication dan diteruskan ke refresh controller yang akan mengambil data pada tabel publication_temp
+activity diagram dalam sistem yang sedang dirancang, bagaimana masing- masing alir berawal, decision yang mungkin terjadi, dan bagaimana mereka berakhir
+dalam activity diagram berikut terlihat alur aktivitas user saat menggunakan aplikasi ini
+aktivitas yang dilakukan mulai dari masuk menu utama, memilih menu pengaturan aplikasi, pengaturan koneksi, manajemen sms dan kontak, menampilkan monitoring, serta memilih tentang dan bantuan aplikasi
+perancangan struktur antarmuka sistem antarmuka sistem dinamakan aplikasi web integrated system e-announcement 
+penamaan aplikasi didasarkan oleh fungsi aplikasi tersebut yakni sebagai pengatur dari sistem yang dinamakan web integrated system e-announcement dimana sistem menyajikan pengumuman dalam bentuk elektronik yang terintegrasi pada web klien
+aplikasi web integrated system e- announcement ini dibuat dengan aplikasi berbasis web
+struktur antarmuka dari aplikasi dapat dilihat pada gambar berikut: tambah publikasi edit publikasi hapus publikasi gambar 11 struktur antarmuka sistem iv
+antarmuka aplikasi antarmuka halaman pengaturan publikasi merupakan halaman yang dapat diakses pengguna untuk melakukan manajemen publikasi mulai dari merubah teks berjalan, unggah gambar, pengaturan waktu, melakukan edit, publikasikan/batalkan publikasi, dan hapus publikasi
+gambar 12 berisikan tabel dan beberapa tombol fungsi yakni tombol penambaan publikasi, simpan, edit, batalkan, dan hapus
+gambar 12 antarmuka pengaturan publikasi gambar 13 tampilan publikasi pada halaman web yang di akses klien gambar 13 merupakan tampilan publikasi dapat dilihat pada komputer client pada saat membuka halaman web dengan protokol http
+adapun yang ditampilkan adalah sesuai dengan pengaturan publikasi pada menu pengaturan publikasi
+black box pada perangkat lunak dilakukan untuk menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi
+berikut ini adalah hasil dari pengujian perangkat lunak dengan metode black box yang telah dilakukan
+tabel 1 masukan aksi perilaku aplikasi keterangan mengklik tombol tambah publikasi muncul menu mengklik tombol edit semua pengujian yang dilakukan berjalan sesuai dengan hasil yang diharapkan
+tidak ditemukan celah keamanan dari serangan cross-site scripting dan sql injection
+dari hal tersebut maka kualitas perangkat lunak yang dikembangkan dari sisi security telah sesuai dengan kualitas security yang baik karena mempunyai skala yang cukup tinggi
+kuesioner yang dilakukan pada tanggal enam dan tujuh maret 2017 di pt pln area pontianak
+pengujian dilakukan terhadap 30 responden yang merupakan pengguna internet pt pln area pontianak dengan menggunakan penilaian angket 
+angket terdiri dari sembilan pertanyaan yang terdiri dari tiga aspek yakni: - aspek perangkat lunak - aspek komunikasi visual - aspek fungsional berdasarkan hasil perhitungan dengan menggunakan metode mencari interval nilai presentasi likert maka didapatkan hasil jawaban dari seluruh responden seperti pada tabel 4
+tabel 4 tabel hasil pengujian angket a
+aspek perangkat lunak 2 dapat diakses dari b
+aspek komunikasi visual 4 5 penempatan letak n 6 kombinasi warna c
+aspek fungsional 8 9 tingkat kontribusi 11 15 4 0 0 85, 0% rata-rata total persentase = 86, 3% g
+pengujian aspek efficiency halaman web saat dimuat oleh browser dengan menggunakan icap dan tidak menggunakan icap
+pada pengujian diukur menggunakan fitur debug pada browser, sedangkan browser yang digunakan yakni mozilla firefox, google chrome, opera dan internet explorer
+tabel 5 metode browser tanpa icap internet explorer www.kompas.com 28.56 dengan icap internet explorer menggunakan icap pada tabel 5 didapat perhitungan waktu bahwa hasil rata-rata waktu dengan menggunakan icap lebih besar dibanding tidak menggunakan icap
+consistency penggunaan satu satu bentuk yang sama
+hal ini dapat dilihat pada bagian implementasi sistem, dimana tampilan halaman kemiripan, bentuk yang serupa, dan konsisten
+simplicity kemudahan dalam menjalankan sistem pada browser berbasis desktop dan pada browser berbasis mobile
+penyisipan berita dengan internet content adaptation protocol, dapat ditarik kesimpulan bahwa sistem yang dibangun dapat berjalan dengan baik serta dapat menjawab masalah pada penelitian ini yakni dengan memanipulasi trafik web dengan icap dapat menjadi media penyisipan berita, juga dengan aplikasi wise dapat mengatur sisipan yang akan ditampilkan dengan baik

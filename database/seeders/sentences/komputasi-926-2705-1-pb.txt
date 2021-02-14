@@ -1,0 +1,38 @@
+advanced encryption standard) berbasis mobile pada platform android development in mobile phone technology
+one is the development of smart phone with many features and also complex operating system that similar to a computer
+although smart phones have many features that included in the operating system, but long or short messaging service known as sms is still popular in use
+sms feature that still exist till today, bring out the question about the safety of information if someone wants to send a confidential information via sms facility
+the ease of exchanging information via sms is misused by some people
+some people with a variety of ways to try to steal information that's illegal therefore, we need a way to secure the information that is confidential and important
+encryption process can be used to improve the sms text message levels of information security
+currently, aes is used as a standard for cryptographic algorithms
+therefore, it can be developed an sms application with a text encryption using aes algorithm
+mobile-based applications built on the android platform
+the test results showed that the application can perform encryption of short messages with text to a particular destination number and can not decrypt the encrypted message
+application can help users to send short messages in a secure, fast, and easy
+dikembangkan pada tahun 1991, dan sekarang sms ini telah diterima secara global sebagai wireless service yang memungkinkan transmisi atau pengiriman pesan alphanumeric antar telepon selular
+meskipun sms dibatasi hanya sampai 160 karakter saja, sms ini adalah metode komunikasi non-voice yang tidak mahal namun dengan fitur sms yang telah ada, timbul pertanyaan mengenai keamanan informasi jika seseorang ingin mengirimkan suatu informasi rahasia melalui fasilitas sms
+permasalahan keamanan data muncul disini mengingat beberapa fasilitas transaksi dilakukan menggunakan media ini
+sms pada awalnya dirancang untuk komunikasi tidak sinkron dimana konten yang dikirimkan adalah plain text
+bagaimanapun data plain text seperti ini dapat dicegat di jalan oleh siapa saja yang memiliki akses ke sistem sms
+server sms milik operator merupakan salah satu pihak yang dapat mengambil data ini, walaupun dalam setiap perjanjian terdapat klausul tentang kerahasiaan data, akan tetapi data plain text yang terkirim dan berkasnya tersimpan di berbagai tempat baik di server milik operator maupun milik content provider membawa satu potensi bahaya yang besar
+kelemahan itu dikarenakan sms menggunakan standar pengkodingan yang universal, sms dibangun dengan sistem bahasa program yang sejenis dengan bahasa program hardware seperti komputer dan telepon selular dapat menerjemahkan semua data dalam frekuensi tertentu yang terbuka yang sangat rentan akan ancaman seperti penyadapan pihak yang tak bertanggung jawab
+kemudahan dalam bertukar informasi melalui sms ini disalahgunakan oleh beberapa pihak
+beberapa orang dengan berbagai cara mencoba mencuri informasi yang bukan hak mereka
+hal ini tentunya akan sangat berbahaya untuk pengguna, terutama bagi mereka yang sering mengirimkan data dan informasi rahasia melalui sms
+karena itu, dibutuhkan suatu cara untuk mengamankan informasi yang sifatnya penting atau rahasia
+dengan melakukan enkripsi terhadap teks sms, maka tingkat keamanan informasi dari pesan tersebut dapat ditingkatkan
+saat ini, aes digunakan sebagai standar algoritma kriptografi terbaru
+dengan memanfaatkan algoritma aes ini, maka dapat dikembangkan suatu aplikasi sms yang memungkinkan pengguna untuk mengirimkan pesan singkat dengan enkripsi teks dan dapat melakukan dekripsi terhadap pesan terenkripsi
+aplikasi sms ini akan dibangun berbasis mobile pada platform android
+bahasa inggris: short message service disingkat sms
+layanan pesan singkat atau surat masa singkat adalah sebuah layanan yang dilaksanakan dengan sebuah telepon genggam untuk mengirim atau menerima pesan-pesan pendek 
+pada mulanya sms dirancang sebagai bagian dari gsm, tetapi sekarang sudah didapatkan pada jaringan bergerak lainnya termasuk jaringan umts
+bytes, dengan kata lain sebuah pesan bisa memuat 140 karakter 8-bit, 160 karakter 7-bit atau 70 karakter 16- bit untuk bahasa jepang, bahasa mandarin dan bahasa korea yang memakai hanzi 
+selain 140 bytes ini ada data-data lain yang termasuk
+adapula beberapa metode untuk mengirim pesan yang lebih dari 140 bytes, tetapi seorang pengguna harus membayar lebih dari sekali
+sms bisa pula untuk mengirim gambar, suara dan film
+algoritma kriptografi yang dapat digunakan untuk mengamakan data
+menurut ariyana, algoritma aes adalah blok chipertext simetrik yang dapat mengenkripsi dan dekripsi informasi
+enkripsi merubah data yang tidak dapat lagi dibaca disebut ciphertext; sebaliknya dekripsi adalah merubah ciphertext data menjadi bentuk semula yang kita kenal sebagai plaintext
+algoritma aes ini mengunakan kunci kriptografi 128, 192, dan 256 bits untuk mengenkripsi dan dekripsi data pada blok 128 bits

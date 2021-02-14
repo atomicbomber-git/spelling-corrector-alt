@@ -1,0 +1,97 @@
+eee paper template in a4 vol 5 no 1 april 2019 reverse engineering untuk #1, nur widiyasono jln
+siliwangi no 24, kota tasikmalaya, 46115, indonesia 1 aldy@unsil.ac.id 2 nur.widiyasono@unsil.ac.id 3 tesa.paja14@student.unsil.ac.id access trojan untuk merusak sistem kemudian mencuri data para korbannya
+diperlukan analisis mendalam mengenai malware baru-baru ini karena malware dapat berkamuflase seperti sistem tidak dicurigai
+penggunaan teknik basic analysis sangat tergantung pada perilaku malware yang dianalisis, analisis akan sulit ketika ditemukan malware baru yang menggunakan suatu teknik baru
+reverse engineering merupakan salah satu solusi untuk melakukan analisis malware karena menggunakan teknik reverse engineering kode pada malware dapat diketahui
+malware flawed ammyy ini merupakan software yang disalahgunakan dari ammyy admin versi 3 oleh hacker ta505
+penelitian ini bertujuan untuk bagaimana alur untuk melakukkan identikasi malware kususnya malware rat dengan teknik reverse engineering dan tools yang bias digunakan
+hasil dari penelitian menunjukan bahwa alur untuk melakukan reverse engineering dan tools yang dapat digunakan
+pendahuluan banyak layanan hanya dengan bantuan beberapa klik, dengan internet system yang begitu rumit menjadi lebih praktis, murah dan lain-lain
+meningkatnya pengguna internet membuat kejahatan merambah ke dunia maya yang sering disebut sebagai cybercrime
+cybercrime yang digunakan oleh penyerang semakin beragam dan kompleks
+serangan tersebut diantranya melibatkan malicious software atau yang biasa disebut malware yang merupakan suatu program jahat
+beragam tujuan yang dimiliki para pelaku ini beberapa diantaranya adalah untuk melakukan aktifitas berbahaya yang berdampak sangat merugikan bagi para korbannya, antara lain seperti penyadapan serta pencurian informasi pribadi
+beberapa malware berbahaya seperti virus, worm, trojan horse, juga bisa membuat back door yang dapat melakukan pencurian informasi pribadi atau mengambil kendali sistem yang telah terinfeksi
+malware sering masuk ke sistem melalui file yang diunduh
+malware yang telah memasuki sistem, malware akan melakukan aktivitas dan merusak seluruh system
+seorang investigator harus memiliki kemampuan untuk melakukan analisa malware dalam setiap melakukan investigasi
+meningkatnya sejumlah malware yang dapat berevolusi dan mampu beradaptasinya terhadap perangkat analisis yang selama ini digunakan sehingga sulit untuk dilakukan ananlisis
+analisa malware dengan menggunakan reverse engineering merupakan salah satu solusi yang bisa digunakan saat ini
+reverse engineering dalam analisis malware berguna untuk ekstraksi data yang memuat informasi yang ada didalam malware
+para peneliti proofpoint telah menemukan malware trojan akses jarak jauh yang sebelumnya tidak terdokumentasi yang disebut flawed ammyy rat
+malware flawed ammyy rat dibuat dari kode ammyy admin versi versi 3 yang disalah gunakan
+ammyy admin merupakan perangkat lunak desktop jarak jauh yang digunakan jutaan konsumen dan bisnis untuk menangani remote control dan diagnosis pada platfom windows
+penyerang yang melakukan penyebaran malware flawed ammyy rat merupakan kelompok peretas ta505 yang terkenal karena menyebarkan spam malware seperti trojan dridex perbankan, locky ransomware, dan jaff ransomware
+ini diantaranya peneltiantelah dilakukan analisis statis dan analisis dinamis pada malware drakcomet hasil dari penelitian tersebut menguraikan metodologi yang efektif dan efisien yang dapat meningkatkan kinerja deteksi dan penghapusan malware yang dikumpulkan
+analisis dinamis merupakan cara terbaik untuk melakkan analisis sample sebuah malware
+peneliti telah melakukan ekstraksi 11 vektor kelompok kecil untuk 600 malware, dan berhasil melakukan klasifikasi lebih dari setengah kode kedalam kelompok yang sesuai menggunakan vektor
+pemeriksaan yang cermat pada kode biner juga korespondensi : tesa pajar setia 41 menegaskan bahwa vektor bit telah mengklasifikasikannya dengan cara yang benar
+hasil dari eksperimen menunjukkan bahwa bit vektor dapat digunakan secara efektif untuk melakukan analisis malware statis, dan vektor bit grup dapat membantu diklasifikasikan malwares kedalam kelompok yang sesuai
+penelitiantelah melakukan proses reverse engineering pada malware biscuit
+cara kerja malware tersebut adalah adanya auto request untuk koneksi ke ip address tertentu yaitu ip address 114.101.115.115
+selanjutnya proses reverse engineering melalui penulusuran perintah: bdkzt, ckzjqk, download, exe, exit dan lists telah dapat memetakan bagaimana cara kerja dari malware biscuit
+hasil dari penelitian tersebut menunjukkan meskipun penggunaan enkripsi tangguh, seperti ransomware lain yang menggunakan serangan dengan struktur dan kriptografi primitif
+analisis ini telah menuntun pada kesimpulan bahwa strain ransomware tidak serumit dilaporkan sebelumnya
+analisis praktis dan terperinci ini mencoba memberi kesadaran kepada komunitas bisnis tentang realitas dan pentingnya keamanan ti, pencegahan, pemulihan dan keterbatasannya
+meupakan untuk menentukan pendekatan yang paling memadai sebagai pencegahan dari insiden botnet gangguan jaringan pada proses ini merupakan aktivitas online ilegal dan pencurian data organisasi, ini dapat dicegah dan bahkan bot sistem intrusion prevention spesifik dapat dikembangkan
+penelitian menjamin aliran data yang dikonfirmasi dalam ruang digital oleh komunikasi e-governance yang diasuransikan untuk setiap negara dari terorisme cyber
+hasil dari penelitian dengan analisis dinamis dan reverse engineering dengan menggunakan tahap disassembly menunjukkan pergerakan dari malware dimana malware ini tidak dapat berjalan pada sistem dalam kedaan mode dos
+malware ini memanipulasi system dengan cara menjalankan aplikasi ammyy admin 3, karena amyy admin merupakan aplikasi yang aman maka memberi akses pada malware tersebut, kemudian malware menyimpan data korban dan melakukan singkron dengan ip address 103.208.86.69
+malware rat ini tidak cukup hanya dilakukan dengan teknik basic analysis malware karena tidak semua malware rat ini berjalan pada system
+malware rat ini harus terkoneksi dengan attacker sebagai tuan yang melakukan perintah selanjutnya, seperti mengaktifkan keyloger, menggerakkan pointer korban, bahkan dapat mengaktifkan webcam korban tanpa sepengtahuan
+melakukan hal tersebut system mesti terhubung dengan suatu jaringan, namun untuk melakukan basic analysis malware diperlukan system yang steril, tidak terhubung dengan internet karena dapat menyebabkan penyebaran malware melalui jaringan
+beda halnya dengan malware bonet virus worm ransomware dan lain-lain yang dapat melakukan eksekusi sesuai dengan arsitektur yang telah dibuat
+tahap reverse engineering disassembly, untuk penelitian kali ini akan menggunakaan tahapan lainnyan seperti identifikasi sample malware untuk mengetahui type file malware, hitung nilai hash untuk megetahui nilai hash pada malware, dan string analysis untuk mengetahui apakah function yang didapat dari teknik disassembly itu sesuai atau ada function lain yang tidak terdefinisi dengan teknik disassembly
+kemudian menguraikan alur untuk melakukan reverse engineering khususnya malware remote access trojan dan rekomendasi tools yang dapat digunakan untuk melakukann reverse engineering malware rat
+metodologi menggunakan metodologi deskriptif untuk menjelaskan bagaimana proses penelitian
+melakukan reverse engineering dilakukan beberapa tahapan seperti pada gambar 1: a
+kenali sample malware tahap setelah mendapatkan sample malware identifikasi type file seperti apa malware tersebut
+ini diperlukan untuk menetukan sistem yang bagaimana digunakan nanti dalam melakukan analisis dinamis
+hitung nilai hash sample malware hash dari sebuah program memiliki identitas seperti halnya sidik jari pada manusia, maka perlu dihitung sebagai bukti digital c
+sistem yang digunakan tahap setelah mengetahui type file system yang akan dibangun disesuaikan dengan type file
+seperti type file sample malware executable sistem yang akan digunakan adalah windows
+pergerakan malware ketika dijalankan pada sistem
+string analysis tahap string analisis menampilkan nilai yang akan dilakukan proses load oleh sample malware ketika dieksekusi
+hal ini yang menjadikan dalam proses reverse engineering harus dilakukan string analisis untuk mendapatkan bukti kuat dari sample malware
+disassembly atau debugging tahap ini malware akan dibuka source kode yang terdapat pada malware tersebut
+teknik disassembly merupakan teknik reverse engineering untuk menerjemahkan dari bahasa mesin ke bahasa yang mudah dimengerti manusia
+debugging digunakan untuk melakukan pengujian dari setiap proses inti yang ada didalam malware
+penelitian kali ini cukup menggunakan disassembly
+tools keterangan hash bintext digunakan untuk string analysis ida pro digunakan untuk disassembly atau debugging a
+kenali sample malware tahap ini menggunakan tools virustotal untuk mendaptakan informasi mengenai sample malware yang didapat
+sample malware yang didapat diunggah pada website virustotal hasil unggahan malware pada website virustotal dapat dilihat pada gambar 2
+gambar 2 informasi dari virustotal informasi yang didapat mengenai sample malware adalah type file malware merupakan file executable dengan size file 836kb kemudian dari 67 anti virus 50 diantaranya menaytakan bahwa sample malware berbahaya dengan kategori trojan
+hitung nilai hash sample malware melakukan penghitungan hash sample malware yang didapat gunakan tools hashmyfile
+buka aplikasi hashmyfile klik file, kemudian klik add file, lalu pilih file sample malware, setelah itu open file
+hasil dari perhitungan hash sample malware dapat dilihat pada gambar 3 gambar 3 menunjukan nilai hash dari sample malware sama dengan nilai hash md5 malware flawed ammy rat adalah 475ca868dcb812939b888704933e2f58 dengan asli
+sistem yang digunakan type file sample malware merupakan executable untuk melakukan analisis dinamis menggunakan system operasi windows, untuk memudahkan pergerakan malware dipilih windows 7 32bit dengan jaringan tor ini digunakan untuk menghindari celah perekaman sidik jari pada jaringan eksternal tabel ii spesifikasi virtual aplikasi vm sandbox online melakukan analisis dinamis malware
+tools yang digunakan adalah hybrid analysis
+sample malware diunggah ke website hybrid analysis, kemudian pilih sistem yang ingin digunakan setelah itu buka hasil report hybrid analysis
+5 file import malware flawed ammyy rat merujuk pada gambar 5 malware melakukan beberapa import beberapa file pada sistem yang telah terinfeksi
+file gdi32.dll untuk mengaktifkan function getbrushorgex
+file kernel32.dll untuk mengaktifkan function arefileapisaansi, getbinarytypea, mengaktifkan function rasrenameentrya
+file user32.dll untuk mengaktifkan function loadmenuw
+6 network analysis pada hybrid analysis merujuk gambar 6 hasil analisis jaringan dengan mengaktifkan tor analysis menunjukkan bahwa malware melakukan koneksi dengan jaringan eksternal dengan ip address 172.217.16.174 dengan menggunakan port 443 dimana server tersebut berada di amerika serikat
+string analysis proses string analisis dilakukan pada karakter ascii yang ada didalam program malware
+untuk melakukan string analisis digunakan program bintext, seperti pada gambar 7 gambar 7 menunjukkan bahwa hasil dari string analysis menggunakan bintext
+sring yang digunakan oleh malware flawed ammyy rat diantaranya getbrushorgex, getcompressedfilesizea, arefileapisansi, setfileapistoansi, setfileapistooem, getmodulehandlea, getmodulefilenamea, f
+disassembly atau debugging proses disassembly ini menggunakan tools idapro setelah malware terbuka selanjutnya adalah melakukan analisa command yang ada didalam malware yang telah dilist di atas hasil dari dissaembly di tunjukan pada gambar 8
+bool _stdcall get getbrushorgex extrn getbrushorgex:dword mengambil alih fungsi pointer agar dapat mempermudah pencurian data
+dword _stdcall getcompressedfilesizea (lpcstr lpfilename, lpdword proceses compress file tertentu kemudian menyimpannya
+bool _stdcall arefileapisansi extrn arefileapisansi:dword menentukan apakah fungsi file i / o menggunakan halaman kode karakter ansi atau oem
+fungsi ini berguna untuk operasi input dan output masukan 8-bit
+void _stdcall setfileapistooem extrn setfileapistooem:dword untuk proses untuk menggunakan halaman kode karakter set oem
+fungsi ini berguna untuk operasi input dan output masukan 8-bit
+hmdule _stdcall getmodulehandlea memenuhi syarat yang mengandung modul tertentu
+hmodule hmodule, meneangani modul yang telah ditentukan bool _stdcall getbinarytypea(lpcstr lpapplictionname, lpdword lpbinarytype
+dowrd _stdcall getmodulefilenamea file dapat di eksekusi, jika subsistem mana yang menjalankan file yang dapat dieksekusi dword _stdcall rasrenameentrya extrn rasrenameentrya:dword mengubah nama entri di buku telepon
+extrn strcmpncw:dword malware dapat membandingkan nomor spesifik sejumlah karakter dari awal dua string menggunakan c run-time hmenu _stdcall loadmenuw spesifik dari file yang dapat executable yang terkait dengan instance aplikasi
+void _cdecl memset extrn _imp_memset:dword ditentukan malware ternyata melakukan koneksi dengan jaringan eksternal dengan ip address 172.217.16.174
+malware memiliki beberapa file section 4zt_r#, .qdata, .crt4, dan .reloc kemdian malware meliki file import file gdi32.dll untuk mengaktifkan function getbrushorgex
+file kernel32.dll untuk mengaktifkan function mengaktifkan function rasrenameentrya
+file user32.dll untuk mengaktifkan function loadmenuw
+kesimpulan berdasarkan penelitian sebelumnya yang telah di lakukan, sehingga dapat disimpulkan sebagai berikut: tahapan untuk melakukan reverse engineering pada suatu malware kususnya malware rat adalah sebagai berikut: kenali sample malware menggunakan tools virustotal, hitung nilai hash sample malware menggunakan tools hashmyfile, tentukan sistem yang digunakan untuk melakukan analisis dinamis, monitoring pergerakan malware dengan menggunakan metode analisis dinamis basic atau dapat menggunakan sandbox untuk sandbox online dapat menggunakan tool hybrid analysis, string analysis malware tersebut untuk memperkuat bukti dengan menggunakan tools bintext, terkhir lakukan disassembly atau debugging pada sample malware untuk membuka source malware tersebut gunakan tools ida pro
+analysis berhasil menunjukkan 12 function yang terdapat pada sample malware flawed ammyy rat ini menunjukkan bahwa penelitain sebelumnya telah menunjukkan hasil reverse engineering dengan disassembly telah terindentifikasi tidak ada function yang terlewat, jadi sebaiknya untuk melakukan reverse engineering sebaiknya dilakukan terlebih dahulu string analysis untuk mengetahui function atau mengetahui proses load dari malware kemedian dilakukan disassembly untuk mengetahui source kode yang terdapat pada malware
+metode sandbox online menunjukkan file section dan file import dari malware tersebut
+swt, karena berkat rahmat dan barokahnya penulis dapat menyelesaikan penelitian ini
+penulis mengucapkan terimakasih kepada para pembimbing yang sabar mengajarkan dan membimbing penulis, kepada orang tua atas segala dukungan dalam bentuk apapun serta pada pihak-pihak yang terkait yang telah membantu penulis dalam menyelesaikan penelitian ini

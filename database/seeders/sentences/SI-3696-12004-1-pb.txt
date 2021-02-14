@@ -1,0 +1,13 @@
+ilayah industri di kabupaten kubu raya priskha caroline priskha09023@gmail.com not regular and net appearance make invanted ideas software deal with decision support system that can help user to choose regional planning of industry in kabupaten kubu raya
+by using decision support system based geographic information system, thus it will be no difficulties for a derivator decision in analyzing the existed data
+because of gis, it will drawn the actual position of spreading data
+gis is used ti visualize a result from alternative location used for regional planning of industry in kabupaten kubu raya
+principal component analysis and cluster observation are the methode that use to make a new linier combination variable from the real variable
+to give an accurate result, variabel will reduce and produce a new variable that called principal component
+it also use cluster observation to analyzing a pattern, grouping the object into the group that has the similarity and classification the pattern
+pca use to reduce variable and cluster will find the pattern and grouping the object to support the analysis result
+pembangunan dan kemajuan ekonomi bertujuan untuk meningkatkan nilai satu sama lain dengan industri pengolahan
+industrialisasi dianggap sebagai suatu keharusan karena menjamin kelangsungan proses pembangunan ekonomi jangka panjang yang menghasilkan peningkatan teratur dan tidak sesuai alokasi tata ruang menimbulkan masalah baru yang cukup kompleks
+pembangunan yang menjamur tata ruang yang tidak tepat fungsi
+untuk memberikan solusi pada masalah tersebut, dibutuhkan suatu sistem yang dapat menyediakan keterpaduan data untuk mengolah data spasial sekaligus membantu memberikan keputusan untuk 1.2 rumusan masalah berdasarkan permasalahan tersebut informasi geografis untuk penentuan menghasilkan suatu sistem informasi geografis yang dapat menentukan memiliki karakteristik lokasi dan industri
+menurut shunji murai dalam yang digunakan untuk memasukkan, geospatial, untuk mendukung pengambilan keputusan dalam perencanaan dan pengelolaan penggunaan lahan, sumber daya alam, lingkungan transportasi, lainnya

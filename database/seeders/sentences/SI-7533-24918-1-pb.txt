@@ -1,0 +1,61 @@
+atau elemental contohnya api, asap, gelembung, awan, dan lain-lain
+padahal, penggunaan teknik ini dapat memberikan nuansa dan style yang sangat berbeda dengan animasi grafis secara digital pada dasarnya, terdapat banyak teknik yang dapat digunakan untuk membuat animasi, selain teknik stop motion, teknik lain untuk membuat animasi adalah teknik particle system
+teknik ini adalah teknik digital yang secara khusus digunakan untuk membuat animasi dengan gerakan halus dan abstrak maupun kejadian alam yang, pada hakikatnya, merupakan kelemahan dari teknik animasi stop motion
+maka daripada itu, dibuatlah suatu penelitian yang dirancang agar kelemahan dalam pembuatan animasi dengan teknik stop motion dapat ditutupi dengan teknik animasi digital, yaitu particle system
+sehingga didapatlah suatu animasi 3d yang menggunakan teknik stop motion yang disempurnakan dengan teknik particle system
+teori dasar 2.1 multimedia istilah multimedia pertama kali dicetuskan oleh bob goldstein, seorang musisi dan seniman, pada akhir tahun 1960 dalam rangka mempertunjukkan di southhampton, long island
+dalam pertunjukkan tersebut, bob goldstein mencampurkan beberapa seni pertunjukkan dan menggunakan istilah multimedia untuk pertama kali 
+pada dasarnya, multimedia dapat diartikan sebagai kombinasi antara teks, foto, seni grafis, suara, animasi atau elemen- elemen video yang dapat dimanipulasi secara digital dan disampaikan melalui perangkat komputer
+2.2 animasi istilah animasi berasal dari bahasa latin, animātiō, yang berarti seni menghidupkan 
+yang berasal dari kata animō, memberikan hidup, dan - ātiō yang berarti seni
+alat atau mesin untuk memproyeksi animasi pertama kali dibuat di prancis oleh seorang guru sains bernama charles-émile reynaud
+ia menciptakan sebuah alat bernama praxinoscope pada tahun 1877 dan théâtre optique pada desember 1888
+pada tanggal 28 oktober 1892, ia memproyeksikan animasi pertama di public, pauvre pierrot, di musée grévin, paris
+film ini terkenal sebagai perforasi film pertama yang digunakan
+film ini tidak menggunakan teknik fotografi, melainkan digambar langsung ke dalam strip film
+pada tahun 1900, lebih dari 500.000 orang telah mendatangi pertunjukkan animasi ini 
+gambar 2.1 praxinoscope 2.3 stop motion stop motion adalah salah satu metode pembuatan animasi tradisional dimana suatu objek diam dimanipulasi sehingga nampak seolah-olah hidup
+metode ini menggunakan teknik fotografi dimana gambar objek diambil
+kemudian objek tadi digerakkan sedikit dan fotonya diambil lagi
+demikian seterusnya sampai saat gambar tersebut digerakkan dengan cepat
+objek tadi akan terlihat seolah-olah bergerak
+seni dari animasi stop motion membutuhkan seseorang untuk meletakkan boneka di tangan mereka secara harfiah dan membuatnya hidup, frame by frame
+ 2.4 particle system istilah particle system digunakan dalam salah satu metode grafika komputer
+dimana metode ini menggunakan sprites berukuran kecil atau objek grafis lainnya untuk mensimulasikan sejenis gerakan kabur
+seiring berjalannya waktu, partikel- partikel tersebut akan membentuk suatu sistem, bergerak dan berubah dalam sistem, dan mati di dalam sistem 
+perancangan animasi tahapan perancangan art concept terdiri atas perancangan character dan set design
+perancangan cerita tahapan perancangan ide dan tema cerita terdiri dari perancangan tema, loglines, dan sinopsis
+perancangan storyboard pada tahapan ini dirancang storyboard untuk menjelaskan secara detail setiap adegan di dalam animasi yang dibuat
+selain itu juga terdapat tabel untuk memberikan spesifikasi efek-efek yang diberikan pada setiap adegan
+3.1 perancangan art concept 3.1.1 character design character design adalah konsep karakterisasi tokoh dalam bentuk penampilan fisik secara visual konsep inilah yang menjadi acuan dalam pembuatan boneka clay yang dibuat sebagai media animasi
+dalam animasi yang telah dibuat, terdapat dua karakter sentral yaitu orca dan ibu
+adapun character design dari dua tokoh tersebut adalah sebagai berikut: gambar 3.1 character design untuk tokoh orca dan ibu
+3.1.2 set design set design adalah visualisasi dari stage yang dibangun
+gambar di dalam set design juga menunjukkan secara detail lingkungan dan properti apa saja yang harus dibuat dalam pembangunan stage
+dalam perancangan animasi ini, terdapat dua lokasi besar
+yaitu kamar anak kecil sebagai reality sequence dan padang gurun sebagai dream sequence
+3.2 perancangan cerita 3.2.1 tema tema yang mendasari animasi orca adalah tentang bagaimana usaha keras seorang anak untuk membuat api sebagai upaya untuk mengusir ketakutan akan kegelapan
+3.2.2 logline logline dalam animasi orca adalah “usaha seorang anak kecil dalam membuat api yang berujung pada satu hal yang tak terduga
+” 3.2.3 sinopsis animasi ini dibuka dengan seorang anak kecil bernama orca
+ia berpakaian bulu binatang dan tengah duduk di tengah padang gurun
+suara auman binatang liar dari kejauhan menyadarkannya kalau ia harus segera membuat api untuk mengusir binatang tersebut ketika gelap datang
+ketika usahanya tak kunjung berhasil dan malam terlanjur datang
+di tengah kegelapan ia melihat sosok-sosok dari mata binatang
+ketika ibunya datang dan menyalakan lampu, bayangan binatang tadi menghilang dan ternyata orca sedang duduk di ranjangnya
+ibu orca pun pergi setelah menyuruh orca untuk kembali tidur dan mematikan lampu kamarnya
+hasil dan pengujian 4.1 hasil perancangan orca merupakan sebuah animasi yang diproduksi dengan menggunakan teknik stop motion yang dipadukan dengan menggunakan teknik particle system sehingga salah satu kekurangan dalam teknik stop motion dapat tertutupi
+yakni tidak dapatnya gerakan partikel kecil dianimasikan dengan sempurna
+4.1.1 stop motion dalam produksi animasi orca, sebanyak 2.483 foto diambil untuk menghasilkan animasi berdurasi 4 menit 37 detik
+contoh foto yang diambil dapat dilihat di bawah ini
+4.1.2 particle system teknik particle system dipakai untuk membuat efek dalam pasca produksi
+dengan menggunakan metode chroma key, computer generated image, dan match moving
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap animasi orca, maka dapat disimpulkan bahwa: 1
+animasi yang diproduksi memakai efek yang dibuat dengan menggunakan teknik particle system
+teknik tersebut berperan dalam pembuatan enam jenis efek yakni retakan tanah, debu, awan, bintang, bayangan, dan fractal 2.483 foto diambil untuk membuat satu animasi berdurasi 4 menit 37 detik
+pengujian animasi juga dilakukan dengan melakukan perhitungan terhadap jumlah partikel yang dikeluarkan
+dengan cara melihat hasil dari perhitungan 4 efek yang menggunakan plug in trapcode particular yang ada di after effects menunjukkan besarnya jumlah emitter atau partikel yang dikeluarkan untuk membuktikan bahwa animasi dengan menggunakan teknik particle system telah ditambahkan ke dalam animasi dalam proses pasca produksi
+pengujian dengan perhitungan jumlah pixel dan tingkat velositas dilakukan demi mengetahui peningkatan kualitas animasi dan tingkat kehalusan gerakan partikel
+dimana jumlah pixel meningkat dari adegan sebelum dan sesudah pemberian efek particle system
+dilakukan juga pengujian dengan pengukuran tingkat velositas animasi yang memperlihatkan peningkatan tingkat kehalusan gerakan animasi partikel dengan jumlah kenaikan rata-rata sebanyak 5497, 67 dari 0, jumlah sebelum pemberian efek particle system
+yang menunjukkan bahwa teknik particle system mampu menutupi kelemahan dalam teknik stop motion dalam menganimasikan gerakan objek yang halus dan tak beraturan
+dilampirkan juga review dari dua orang ahli di bidang film dan animasi sebagai bahan rujukan

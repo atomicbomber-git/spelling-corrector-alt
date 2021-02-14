@@ -1,0 +1,161 @@
+janturan yogyakarta 55164 imam.riadi@is.uad.ac.id sendiri, semakin maju kehidupan masyarakat, maka kejahatan juga ikut semakin maju
+smartphone merupakan salah satu bentuk teknologi yang digunakan untuk melakukan penipuan melalui fasilitas short message service 
+pada saat smartphone yang digunakan untuk melakukan kejahatan maka smartphone tersebut dapat disita oleh aparat penegak hukum sebagai salah satu barang bukti
+cara pembuktian untuk mendapatkan bukti yang valid adalah dengan melakukan investigasi menggunakan pendekatan penanganan bukti digital yang dikenal dengan istilah framework
+integrated digital forensics investigation framework versi 2 merupakan framework terbaru yang telah dikembangkan sehingga dapat digunakan untuk proses investigasi smartphone
+pendahuluan sendiri, semakin maju kehidupan masyarakat, maka kejahatan juga ikut semakin maju
+kejahatan juga menjadi sebagian dari hasil budaya itu sendiri, ini berarti bahwa semakin tinggi tingkat budaya dan semakin modern suatu bangsa, maka semakin modern pula kejahatan itu dalam bentuk, sifat dan cara pelaksanaannya, hal tersebut dapat dilihat dari aplikasi yang ada pada smartphone
+smartphone merupakan salah satu bentuk teknologi utama yang digunakan oleh orang untuk berkomunikasi dengan sesamanya dan tidak perlu menghabiskan waktu untuk bertemu secara fisik, salah satu teknologi komunikasi yang murah, mudah dan cepat yang digemari masyarakat sebagai layanan publik adalah short message service 
+maraknya penipuan melalui sms dapat menyebabkan terjadinya kejahatan berupa spamming sms, dari berbagai laporan kejadian yang terjadi, baik yang diberitakan media maupun tidak, sudah banyak korban dari spamming sms
+pada saat smartphone yang digunakan seseorang sebagai alat untuk mengorganisasikan kejahatan maka smartphone tersebut dapat disita oleh aparat penegak hukum sebagai salah satu barang bukti
+sehingga ketika ada barang bukti smartphone yang disita dari pelaku kejahatan, maka dapat diperiksa secara benar sesuai dengan prinsip-prinsip dasar digital forensic
+dan korbannya atau kejahatan dan pelakunya
+elemen yang paling penting dalam digital forensic adalah kredibilitas dari barang bukti digital tersebut
+cara pembuktian untuk mendapatkan bukti yang valid adalah dengan melakukan investigasi menggunakan pendekatan prosedur pemeriksaan digital forensic
+sejumlah tahapan pendekatan ini dalam penanganan bukti digital dikenal dengan istilah framework
+integrated digital forensics investigation framework versi 2 merupakan framework terbaru yang telah dikembangkan sehingga diharapkan dapat menjadi standar metode penyelidikan oleh para penyidik karena idfif v2 ini memiliki fleksibilitas dalam menangani berbagai jenis barang bukti digital
+namun idfif v2 ini belum pernah diterapkan pada proses investigasi smarphone sehingga idfif v2 ini menarik untuk diteliti lebih lanjut dalam proses investigasi smartphone
+teknologi komputer untuk melakukan pemeriksaan dan analisa terhadap barang bukti elektronik dan barang bukti digital dalam melihat keterkaitannya dengan kejahatan
+ilmu forensika digital memiliki 4 prinsip dasar, yaitu:  sebuah lembaga hukum dan atau petugasnya dilarang mengubah data digital yang tersimpan dalam media penyimpanan yang akan dibawa ke pengadilan
+ harus ada catatan teknis dan praktis mengenai langkah-langkah yang dilakukan terhadap media penyimpanan selama proses pemeriksaan sehingga ketika ada pihak ketiga yang melakukan investigasi terhadap media penyimpanan tersebut akan mendapatkan hasil yang sama
+ setiap orang yang terlibat dalam proses investigasi memiliki seluruh tanggung jawab dari keseluruhan proses pemeriksaan dan analisa untuk memastikan bahwa keseluruhan proses berlangsung sesuai dengan hukum yang berlaku
+investigasi forensika cabang ilmu forensika yang ada saat ini begitu luas sesuai perkembangan bidang ilmu pengetahuan
+ilmu forensika saat ini merupakan bidang yang sedang berkembang terutama terkait dengan teknologi informasi
+forensika itu sendiri adalah suatu proses ilmiah dalam mengumpulkan, menganalisis, dan menghadirkan berbagai bukti dalam sidang pengadilan terkait adanya suatu kasus hukum
+bidang forensika tersebut juga berkembang terhadap komputer
+forensika komputer adalah suatu proses mengidentifikasi, memelihara, menganalisis, dan menggunakan bukti digital menurut hukum yang berlaku
+ruang lingkup dari komputer forensik merupakan aktivitas yang berhubungan dengan pemeliharaan, identifikasi, pengambilan, penyaringan dan dokumentasi bukti komputer dalam kejahatan komputer
+dari prosesproses tersebut dapat dilakukan analisis dan penyelidikan untuk menentukan potensi bukti-bukti yang legal
+daya komputer diantaranya terdapat pada sistem komputer, jaringan komputer, jalur komunikasi, media penyimpanan, aplikasi komputer dan lain-lain
+data tersebut dapat diolah sesuai dengan prosedur yang berlaku sehingga dapat dijadikan sebagai bukti yang legal dan sah
+barang bukti dalam sebuah kasus kejahatan
+dari barang bukti ini tim investigasi dan analis forensik dapat mengungkap kasus dengan kronologis yang lengkap
+adapun barang bukti diklasifikasikan menjadi 2 bagian, yaitu: 1)
+barang bukti elektronik merupakan barang bukti yang bersifat fisik dan dapat dikenali secara visual sehingga tim investigasi dan tim analisis dapat memahami dan mengenali masing barang bukti tersebut
+jenis barang bukti tersebut antara lain:  komputer, laptop  kamera, dan lain-lain 2)
+barang bukti digital barang bukti digital merupakan barang bukti yang di ekstrak ataupun direcovery dari barang bukti elektronik
+jenis barang bukti ini yang harus dicari oleh analis forensik yang kemudian akan diteliti keterkaitan barang bukti tersebut dengan kasus kejahatan
+contoh-contoh barang bukti digital antara lain :  logical file  deleted file  lost file  file slack  log file  encrypted file  steganography file  office file  email menyediakan fungsi personal digital assistant seperti fungsi kalender, buku agenda, buku alamat, kalkulator dan catatan
+smartphone mempunyai fungsi yang menyerupai komputer sehingga kedepannya teknologi smartphone akan menyingkirkan teknologi komputer desktop terutama dalam hal pengaksesan data dari internet setiap smartphone memiliki sistem operasi yang berbeda-beda, sama halnya dengan sistem operasi pada komputer desktop
+perbedaan computer forensic dan smartphone forensic saat ini perangkat smartphone memiliki fungsi yang sama dengan computer namun ada beberapa perbedaan dalam proses penanganan digital forensic diantara perangkat komputer dan smartphone
+perbedaan tersebut dapat dilihat pada tabel i
+potensi bukti digital pada smartphone informasi-informasi yang tersimpan pada smartphone tersebut berada pada beberapa media penyimpanan yang berbeda
+adapun jenis media penyimpanan tersebut adalah: 1)
+sim card memiliki fungsi hanya untuk menyimpan data-data tertentu yang sifatnya terbatas yaitu sebagai berikut:  phonebook: merupakan contact yang berisi nomor telepon yang berasosiasikan dengan nama tertentu yang dibuat oleh pemilik smartphone secara manual pada smartphone, phonebook tidak hanya menyimpan nama dan nomor saja namun juga dapat menyimpan beberapa informasi lainnya seperti alamat rumah, alamat perusahaan dan alamat e-mail
+ call log: berisi catatan panggilan yang pernah terjadi seperti panggilan masuk, panggilan keluar dan panggilan tak terjawab termasuk waktu dan durasi percakapan
+ short message service: pesan singkat baik pesan masuk, pesan keluar dan pesan tersimpan
+penyimpanan sms di sim card bersifat terbatas dan hanya dapat menyimpan 40 sms
+ integrated circuit card identifier : merupakan angka unik yang merupakan identitas dari provider untuk setiap sim card guna keperluan yang bersifat administratif
+yang diberikan oleh provider ketika subscriber menggunakan jaringannya setelah melalui proses otentifikasi sebelumnya
+merupakan tempat penyimpanan data-data default seperti:  international mobile equipment identity : merupakan identitas yang unik bagi masing- masing smartphone/smartphone gsm yang division multiple access 
+random acces memory berfungsi untuk menyimpan data yang bersifat temporer yang berasal dari berbagai aplikasi
+data-data yang tersimpan bersifat volatile, yaitu hanya ada selama smartphone/smartphone tersebut hidup dan akan hilang ketika smartphone/smartphone itu dimatikan 
+flash read-only memory sama dengan eeprom sering kali dikenal dan disebut sebagai memori internal smartphone/smartphone
+flash rom ini memiliki ukuran yang cukup besar untuk smartphone sehingga flash rom dapat menyimpan data-data berupa phonebook, call log, sms/mms, file-file audio, file-file video, file-file gambar, calendar, data-data penggunaan internet dan aplikasi tambahan
+memori eksternal merupakan media penyimpanan data yang bersifat eksternal dengan menggunakan memory card
+memori eksternal juga menyimpan banyak data seperti file-file audio, file-file video, file-file gambar, file-file office dan aplikasi tambahan
+adapun cakupan network data tersebut adalah:  call data record: berisi catatan panggilan dan pesan sms yang dibuat oleh masing-masing subscriber
+penyimpanan cdr di jaringan provider ini dibatasi oleh rentan waktu
+untuk itu, semakin cepat forensic analys dan investigator datang ke provider untuk meminta cdr dari nomor subscriber tertentu semakin baik
+ voice mails: dikenal juga sebagai kotak suara yang merupakan pesan dari caller yang tidak terjawab oleh recipient kemudian tersambung dengan recorder dari provider untuk merekam pesan dari caller dan provider akan memberikan pemberitahuan akan adanya voice mail ke recipient
+selanjutnya ketika recipient memegang dan mengakses smartphone, maka recipient akan mengetahui bahwa ada voice mails dan selanjutnya recipient akan mengakses nomor tertentu yang telah disediakan oleh provider untuk mendapatkan/mengetahui voice mails tersebut
+msisdn ini tidak tersimpan di sim card
+di indonesia, msisdn ini diawali dengan digit +62xx dimana xx merupakan digit unik yang diberikan oleh otorisasi telekomunikasi untuk masing- masing provider setiap produknya
+ cloud storage: merupakan media penyimpanan data yang dapat diakses dimana saja dan kapan saja melalui perantara jaringan yang terintegrasi dan tersinkronisasi melalui internet integrated digital forensics investigation framework versi 2 merupakan framework terbaru yang telah dikembangkan sehingga diharapkan dapat menjadi standar metode penyelidikan para penyidik karena idfif v2 ini memiliki fleksibilitas dalam menangani berbagai jenis barang bukti digital
+adapun tahapan-tahapan pada idfif v2 ini dapat dilihat pada gambar 1
+preparation merupakan persiapan yang harus dilakukan untuk melakukan proses investigasi dalam penanganan barang bukti digital dimulai dari olah tempat kejadian perkara hingga pembuatan laporan akhir
+ authorization: tahapan untuk mendapatkan hak akses terhadap barang bukti dan status hukum proses penyelidikan
+inciden response merupakan kegiatan yang dilakukan di tempat kejadian perkara dengan tujuan untuk mengamankan barang bukti digital yang ada sehingga tidak terkontaminasi oleh hal-hal lain
+ securing the scene: melakukan sebuah mekanisme untuk mengamankan tkp dan melindungi integritas barang bukti
+ documentation the scene: tujuan pokok dari tahapan ini adalah mengolah tempat kejadian perkara, mencari sumber pemicu kejadian, mencari sambungan komunikasi atau jaringan dan mendokumentasikan tempat kejadian dengan mengambil gambar setiap detail tkp
+ event trigering: melakukan analisa awal terhadap sebuah proses kejadian yang terjadi
+ proactive preservation: memiliki 5 sub tahapan yaitu network trace melakukan pencarian jejak melalui jaringan yang digunakan oleh barang bukti digital plug in portable power supply merupakan proses pengamanan barang bukti digital dengan kondisi sehingga daya yang terdapat pada barang bukti digital tersebut dapat terjaga selama diperjalanan hingga ke laboratorium forensik
+communication shielding perubahan data dari luar
+volatile dan non-volatile evidence merupakan proses pengamanan barang bukti digital di akhir tahap proactive preservation terdapat decision process
+tahapan ini memang tidak disebut secara langsung menjadi tahapan, namun output dari decision ini juga penting untuk keberlangsungan proses penyelidikan
+dari tahapan ini diputuskan barang bukti digital tersebut harus langsung disita dan dilakukan pemeriksaan lebih lanjut di laboratorium forensik atau dilakukan pemeriksaan di tempat untuk mendapatkan laporan awal kejadian
+ proactive analysis: tahapan live analysis terhadap barang temuan dan membangun hipotesa awal dari sebuah kejadian
+detection of incident / crime, di tahap ini adalah tahap untuk memastikan bahwa telah terjadi pelanggaran hukum
+acquicition merupakan proses akuisisi data terhadap barang temuan sehingga meringankan beban kerja digital forensic analys di laboratorium
+preliminary report, merupakan proaktif yang telah dilakukan
+laboratorium process setelah penangan barang bukti digital di tempat kejadian pekara, maka pada tahapan ini adalah melakukan proses analisa data terhadap barang bukti yang telah didapatkan sebelumnya sehingga dapat ditemukan jenis kejahatan yang telah terjadi
+ preservation: menjaga integritas temuan dengan menggunakan chain of custody dan fungsi hashing
+ examinitation: pengolahan barang bukti untuk menemukan keterkaitanya dengan kejadian
+ analysis: merupakan kajian teknis dan merangkai keterkaitan antara temuan-temuan yang ada
+ documentation: melakukan dokumentasi terhadap seluruh kegiatan yang telah dilakukan dari awal proses penyelidikan hingga akhir proses analisa di laboratorium forensik
+pada tahap ini merupakan proses pembuatan laporan terkait hasil analisa yang dilakukan pada tahap sebelumnya dan memastikan bahwa setiap proses yang dilakukan tersebut telah sesuai dengan aturan hukum yang berlaku
+ conclution: menyimpulkan hasil dari investigasi yang telah dilakukan
+ recontruction: proses analisa dan evaluasi keseluruhan terhadap hasil investigasi
+ dissemination: pencatatan proses penyelidikan dan catatan tersebut dapat disebarluaskan pada penyelidik lain yang melakukan penyedikan pada kasus serupa
+metodologi penelitian research problem literature review case study dilakukan untuk memperoleh dan menentukan topik penelitian yang akan diteliti lebih lanjut
+pada tahapan ini dimulai dengan melihat berbagai fenomena, kejadian dan informasi yang didapatkan dengan berbagai cara
+literature review diharapkan mampu menggali seluruh informasi yang terkait dengan permasalahan yang akan diteliti dan obyek yang menjadi tujuan penelitian serta memberikan dasar bagi arah penelitian yang akan dilakukan serta menjadi awal pemikiran bagi setiap peneliti sehingga penelitian yang dilakukan dapat dijadikan acuan kembali dikemudian hari
+case study merupakan proses penerapan idfif v2 terhadap proses investigasi smartphone
+conclution merupakan kesimpulan dari seluruh tahapan yang telah dilakukan dalam proses penelitian ini
+disesuaikan dengan kasus penipuan melalui pesan singkat yang mengadopsi dari kasus yang telah terjadi beberapa waktu yang lalu
+kasus tersebut adalah penipuan undian berhadiah
+perangkat mobile yang digunakan untuk mengirimkan sms ke korban adalah lenovo s860
+pelaku mengirimkan sms ke korban dengan isi pesan bahwasanya korban telah memenangkan undian berhadiah dari pt x berupa satu unit mobil y senilai 400 juta rupiah dan korban diperintahkan untuk mengubungi nomor yang telah ditentukan oleh pelaku
+korban melakukan apa yang diperintahkan oleh pelaku tanpa memperhatikan nomor pengirim sms
+setelah korban menghubungi pelaku, korban diperintahkan untuk mengirimkan uang ke rekening pelaku sebesar 10% dari nilai hadiah tersebut untuk biaya administrasi dan biaya pengiriman hadiah tersebut
+tanpa berpikir panjang, akhirnya korban melakukan transfer uang sebesar 10% dari nilai hadiah yang akan diterima
+namun, setelah melakukan pengiriman sejumlah uang ke rekening yang telah di tentukan pelaku, korban merasa tertipu terhadap sms yang diterimanya sehingga korban melaporkan kejadian ini kepada pihak yang berwajib
+menerapkan model idfif v2 untuk menyelesaikan kasus ini
+secara umum, tahapan proses investigasi terhadap barang bukti digital baik itu komputer ataupun smartphone memiliki 4 tahapan utama, yaitu persiapan, olah tkp, pemeriksaan barang bukti di laboratorium digital forensics dan laporan hasil pemeriksaan barang bukti digital 
+tahapan yang digunakan dalam investigasi smartphone ini dapat dilihat pada gambar 3
+investigasi barang bukti digital terutama pada investigasi smartphone
+pada tahap ini dilakukan berbagai persiapan dalam proses investigasi baik peralatan dan juga dokumen- dokumen yang diperlukan
+tahapan ini dibagi menjadi 3 sub tahapan yaitu: dilakukan proses penyelidikan
+lembaga penegak hukum yang bertanggung jawab dapat ditentukan oleh kriteria geografis atau sifat insiden kejahatan
+pemberitahuan ini sangat penting, karena informasi yang dikumpulkan di sini dapat menentukan langkah berikutnya dalam penyelidikan
+tahapan idfif v2 yang digunakan dalam investigasi smartphone  authorization: penegak hukum melaksanakan kerjasama dan mengurus proses perizinan kepada operator seluler untuk mendapatkan hak akses dalam proses pelacakan terhadap pelaku penipuan
+setelah mendapatkan nomor smartphone dan nomor iccid pelaku penipuan, investigator melakukan pelacakan untuk mendapatkan lokasi keberadaan pelaku penipuan tersebut
+personil, peralatan penyelidikan, perangkat keras hingga perangkat lunak
+peralatan yang digunakan dalam proses investigasi smartphone dapat dilihat pada tabel 2
+tabel iii smartphone bukti digital yang telah diperoleh selama penyelidikan
+tkp sebagai bukti bahwa telah terjadi suatu kejahatan mengamankan smartphone dari baterai smartphone dan digunakan untuk menjaga kondisi smartphone smartphone ke komputer untuk mendapatkan akses penuh terhadap untuk melakukan proses analisa tkp
+perangkat komputer dilakukan dalam proses investigasi
+ketika keberadaan pelaku penipuan telah diketahui, investigator bergegas menuju tempat persembunyiannya untuk melakukan proses penangkapan terhadap pelaku penipuan tersebut
+tempat yang digunakan pelaku penipuan untuk melakukan aksi penipuannya itu disebut dengan tkp
+adapun sub tahapannya adalah sebagai berikut:  securing the scene: investigator melakukan suatu proses untuk menjaga agar tkp berada dalam keadaan sebagaimana pada saat dilihat dan diketemukan petugas yang melakukan tindakan pertama di tkp sehingga barang bukti yang diperlukan tidak hilang, rusak, tidak ada penambahan atau pengurangan dan tidak berbeda letaknya yang berakibat menyulitkan atau mengaburkan pengolahan tkp dan pemeriksaan secara teknis ilmiah
+termasuk perangkat smartphone ataupun barang bukti yang dapat menyimpan data bersama dengan semua peripheral kabel, konektor daya, removable media dan konektifitas tanpa menyentuh perangkat tersebut saat memotret pada lingkungan di mana perangkat itu ditemukan
+jika layar perangkat dalam keadaan dapat dilihat, isi layar harus difoto dan jika perlu direkam secara manual untuk mendapatkan informasi waktu, status layanan, kondisi baterai, dan ikon yang ditampilkan
+adapun barang bukti digital yang ditemukan adalah satu unit smartphone lenovo s860 yang digunakan pelaku untuk melakukan aksi penipuannya ditemukan di tempat kejadian perkara sehingga integritas data yang berada pada barang bukti smartphone tetap terjaga hingga proses analisa di laboratorium digital forensic
+ plug in portable power supply: investigator melakukan pengamanan barang bukti digital dalam hal ini smarphone dengan cara melakukan proses charging terhadap barang bukti smartphone menggunakan portable power supply karena kondisi daya baterai pada smartpone yang di temukan tidak selalu dalam keadaan penuh sehingga diperlukan proses charging menggunakan portable power supply untuk menjaga kondisi smartphone tersebut dalam kondisi hingga ke laboratorium digital forensic
+ketika kondisi smartphone dalam kondisi terisolasi, kerja smartphone tersebut akan menjadi lebih berat dan akan menggunakan sumberdaya baterai yang maksimal untuk mencari jaringan komunikasi sehingga sumberdaya baterai akan cepat habis
+ communication shielding: investigator melakukan pengamanan barang bukti smartphone dengan cara melakukan isolasi terhadap komunikasi data menggunakan faraday bag sehingga tidak akan terjadi pertukaran data ataupun proses pengendalian jarak jauh melalui jaringan yang tersedia
+perangkat smartphone dari tkp menjuju ke laboratorium untuk proses pemeriksaan lebih lanjut
+dalam proses tersebut, smartphone harus disimpan dalam keadaan yang sangat aman sehingga ketika sampai di laboratorium, smartphone tersebut tetap dalam kondisi yang baik
+tahapan ini dibagi menjadi beberapa tahapan yaitu: smartphone ketika dalam proses akuisisi harus dalam keadaan terputus dari komunikasi data yang ada
+ acquicition: investigator melakukan pengambilan bukti digital dari perangkat smarphone yang ditemukan di tkp
+adapun proses aquisisi terhadap smartphone tersebut dapat dilihat pada gambar 4
+proses akuisisi smartphone hasil akuisisi smartphone terlihat secara detail informasi yang terdapat pada smartphone yaitu jenis platform, imei, merk dan model smartphone, data phonebook, data panggilan, data pesan, data aplikasi dan data simcard
+adapun tampilan awal ketika proses akuisisi selesai dapat dilihat pada gambar 5
+tampilan awal hasil akuisisi smartphone proses akuisisi data pada smartphone ini menggunakan tool mobiledit 7.5, waktu yang diperlukan dalam proses akuisisi data pada smartphone ini tidak kurang dari 3 jam
+setelah proses akuisisi selesai, tahapan selanjutnya dalam preservation adalah storage
+ storage: investigator melakukan proses penyimpanan barang bukti smartphone ke tempat yang telah ditentukan
+bentuk dan isi bukti digital harus disimpan dalam tempat yang steril
+untuk benar-benar memastikan tidak ada perubahan-perubahan, hal ini sangat perlu diperhatikan karena sedikit perubahan saja dalam bukti digital, akan merubah juga hasil penyelidikan
+termasuk yang mungkin tersembunyi atau dihilangkan dalam perangkat smartphone
+hasilnya diperoleh melalui penerapan metode ilmiah dan harus menjelaskan isi dan keadaan data sepenuhnya
+proses pemeriksaan barang bukti digital harus dilakukan oleh seorang ahli forensik sedangkan untuk proses analisis dapat dilakukan dengan peran selain analis forensik, seperti penyidik atau pemeriksa forensik
+ analysis: setelah melakukan proses pemeriksaan terhadap smartphone tersebut, investigator melakukan kajian teknis dan merangkai keterkaitan antara temuan- temuan yang ada baik antara pelaku dengan smartphone yang di dapat, smartphone yang didapat dengan korban dan pelaku dengan korban
+dalam beberapa kasus, terkadang memerlukan pengumpulan bukti fisik dan logis berupa ekstaksi data, namun dalam kasus ini, bukti-bukti yang diperlukan hanyalah catatan panggilan keluar dan panggilan masuk serta sms keluar dan sms masuk yang terletak di penyimpanan internal smartphone
+pelaku memberitahukan ke calon korban bahwa telah memenangkan hadiah satu unit mobil
+adapun pesan yang dikirimkan pelaku dapat dilihat pada gambar 6
+selanjutnya, karena korban merasa gembira atas hadiah yang didapatkan, maka korban menghubungi nomor yang telah ditentukan pelaku untuk melakukan konfirmasi
+adapun bukti korban telah melakukan percakapan dengan pelaku dapat dilihat pada gambar 7
+bukti panggilan masuk dari korban ke pelaku penipuan selanjutnya selain catatan panggilan keluar dan panggilan masuk serta sms keluar dan sms masuk, hal yang diketahui adalah informasi yang terdapat pada simcard yaitu iccid dan imsi 
+kedua id yang berupa kombinasi karakter dan angka tersebut ditanam kedalam simcard dan akan digunakan untuk autentifikasi jika pelanggan ingin menggunakan layanan komunikasi seluler
+iccid merupakan iccid merupakan nomor registrasi manufaktur dari simcard yang terdiri dari 19 digit nomor dan dicetak di belakang simcard
+imsi sama seperti iccid, imsi melekat pada simcard
+namun, untuk alasan keamanan, imsi tidak bisa dilihat dari perspektif pengguna
+imsi merupakan 15 digit nomer identifikasi pelanggan yang berlaku unik secara global tiga digit pertama merupakan kode negara, diikuti dengan 2 atau 3 digit kode operator 
+informasi yang terdapat pada simcard dapat dilihat pada gambar 8
+informasi iccid dan imsi  documentation: setelah melakukan proses analisa terhadap smartphone yang telah ditemukan, tahapan selanjutnya adalah merangkai temuan pada tahap analysis untuk disampaikan pada pihak yang memiliki otoritas
+temuan disajikan dalam bentuk yang mudah di pahami dan di dukung dengan barang bukti yang cukup dan dapat diterima
+tahapan ini mengolah barang bukti yang telah digunakan sebelumnya
+tahapan ini meliputi mengembalikan barang bukti pada pemiliknya, menyimpan barang bukti di tempat yang aman dan melakukan review pada investigasi yang telah dilaksanakan sebagai perbaikan pada penyelidikan berikutnya
+ conclusion: bukti dan informasi yang ditemukan oleh investigator sudah cukup untuk tim investigasi untuk menuntut tersangka sms penipuan undian berhadiah dan dapat memasukkan pelaku ke dalam tahanan
+ recontruction: selanjutnya investigator harus melakukan rekontruksi ulang berdasarkan hasil temuan dari analisa yang telah dilakukan sehingga proses kegiatan pelaku dapat diketahui lebih jelas dalam melakukan proses penipuan undian berhadiah
+ dissemination: selanjutnya, tahapan terakhir adalah melakukan pencatatan terhadap proses investigasi sehingga apabila investigator lain mendapatkan kasus serupa, proses ini dapat dijadikan sebagai rujukan dalam proses investigasi smartphone

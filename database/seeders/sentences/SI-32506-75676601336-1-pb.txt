@@ -1,0 +1,114 @@
+proses akreditasi perguruan tinggi yang dimulai dari pembentukan tim persiapan akreditasi, pengisian borang, pengumpulan dokumen-dokumen terkait akreditasi, serta simulasi penilaian yang dilakukan dengan menginput komponen penilaian satu persatu kedalam aplikasi pengolah data microsoft excel yang umum digunakan
+karena data borang biasanya berbentuk file microsoft excel dan di input kan dengan cara manual, maka pada penelitian kali ini akan menggunakan pendekatan lain yaitu dibuat sistem yang bernama sistem informasi akreditasi perguruan tinggi yang akan membantu mengisi tabel-tabel pada borang standar 3 ban-pt dengan proses import data, dan juga dibuat simulasi penilaian instrumen aipt untuk standar 3 ban- pt dengan menerapkan metode pengembangan extreme programming yang merupakan salah satu pengembangan aplikasi object oriented
+nilai yang diberikan dari aplikasi ini yaitu dapat membantu pengisian tabel borang secara otomatis dengan proses import
+data daya tampung mahasiswa baru, data pendaftaran mahasiswa baru, data prestasi, data lulusan, dan data layanan perguruan tinggi
+data yang di import kan disini yaitu data standar 3 ban-pt yang meliputi, serta dapat melakukan simulasi penilaian instrumen akreditasi perguruan tinggi berdasarkan standar 3 ban-pt, data normative dan data yang bersifat kuantitatif menerapkan penilaian intrumen akreditasi sarjana sesuai dengan buku 6 matriks penilaian intrumen akreditasi
+hasil riset pada penelitian ini yaitu berhasil membuat aplikasi web untuk akreditasi kampus yang dapat membantu admin penginput data borang dengan memberikan solusi yaitu pengisian tabel data borang secara otomatis dengan proses import data
+pendahuluan di indonesia penentuan mutu perguruan tinggi serta program studi ditentukan berdasarkan akreditasi perguruan tinggi oleh ban-pt untuk mencapai nilai akreditasi agar sesuai dengan yang diinginkan maka perguruan tinggi ataupun program studi harus menyesesuaikan kondisi internal dengan standar yang telah ditentuakan oleh ban-pt layak tidaknya suatu insitusi baik negeri atau swasta dalam meluluskan mahasiswa yang kompeten baik dari segi teori maupun praktikum dapat dilihat dari sudah terakreditasi atau belumnya suatu perguruan tinggi ataupun program studi
+status akreditasi perguruan tinggi menjadi perhatian masyarakat dalam menggambarkan mutu, relevansi dan efisiensi
+sebuah perguruan tinggi harus mampu mengatur dirinya sendiri dengan upaya untuk meningkatkan dan memastikan program akademik dan layanan yang akan diberikan kepada masyarakat
+proses akreditasi perguruan tinggi yang dilakukan saat ini secara umum menggunakan microshoft excel untuk menginput komponen penilaian yang dilakukan
+karena data borang biasanya di input kan dengan cara manual pada file berbentuk microsoft excel, maka pada penelitian kali ini akan menggunakan pendekatan yang lain yaitu dibuat sistem yang bernama sistem informasi akreditasi perguruan tinggi yang akan mengisi tabel-tabel pada borang standar 3 ban-pt secara otomatis dengan proses import data mentah, data mentah disini merupakan data yang termasuk standar 3 ban-pt atau data mahasiswa dan lulusan, dan juga dibuat simulasi penilaian berdasarkan buku 6 matriks penilaian akreditasi untuk standar 3 ban-pt
+data daya tampung mahasiswa baru, data pendaftaran mahasiswa baru, data prestasi, data lulusan, dan data layanan perguruan tinggi
+standar 3 disini meliputi data disini masih berupa data dummy
+untuk rancangan perangkat lunaknya, menggunakan mysql sebagai database nya, basis data sql, dan menggunakan xampp sebagai server nya
+pentingnya aplikasi ini bagi perguruan tinggi yaitu dapat memberikan manfaat dengan cara dapat membantu admin penginput data borang dalam mengisikan tabel borang secara otomatis dengan proses import data dibandingkan dengan pengisian tabel borang pada ms excel yang diisikan secara manual, serta menyediakan simulasi penilaian berdasarkan buku 6 matriks penilaian akreditasi program studi sarjana untuk standar 3 ban-pt ii
+akreditasi merupakan proses yang dilakukan untuk menentukan kelayakan program dan satuan pendidikan pada jalur pendidikan formal dan nonformal setiap jenjang dan jenis pendidikan
+keputusan mengenai mutu didasarkan pada evaluasi dan penilaian terhadap berbagai bukti yang terkait dengan standar yang ditetapkan
+adapun tujuan dan manfaat akreditasi program studi adalah memberi jaminan bahwa program studi yang terakreditasi telah memenuhi standar mutu yang ditetapkan, mendorong program studi untuk terus menerus melakukan perbaikan dan mempertahankan mutu yang tinggi, dan hasil akreditasi dapat dimanfaatkan sebagai dasar pertimbangan dalam transfer kredit perguruan tinggi, pemberian bantuan dan alokasi dana, serta pengakuan dari badan atau instansi yang lain
+sedangkan aspek yang perlu diperhatikan dalam pelaksanaan akreditasi program studi yaitu, standar akreditasi, prosedur akreditasi, instrument akreditasi dan kode etik akreditasi
+terdapat 7 standar yang menjelaskan komitmen program studi sarjana terhadap kapasitas institusional dan komitmen terhadap efektivitas program pendidikan
+visi, misi, tujuan dan sasaran, serta strategi pencapaian 2
+pembiayaan, sarana dan prasarana, serta sistem informasi 7
+penelitian dan pelayanan/pengabdian kepada masyarakat, dan kerjasama penilaian kriteria tersebut dinilai dari 3 instrumen, yaitu borang program studi, evaluasi diri program studi, dan borang yang diisi oleh fakultas/sekolah tinggi
+instrumen akreditasi dinilai kualitatif dan kuantitatif
+untuk menetapkan peringkat akreditasi, maka penilaian kualitatif dibuat menjadi skor kuantitatif dengan rincian sebagai berikut: skor 4, jika semua kinerja mutu setiap standar atau elemen yang diukur sangat baik
+skor 3, jika semua kinerja mutu setiap standar atau elemen yang diukur baik dan tidak ada kekurangan yang berarti
+skor 2, jika semua kinerja mutu setiap standar atau elemen yang diukur cukup, namun tidak ada yang menonjol
+skor 1, jika semua kinerja mutu setiap standar atau elemen yang diukur kurang
+skor 0, jika semua kinerja mutu setiap standar atau elemen yang diukur sangat kurang atau tidak ada
+hasil akhir penilaian instrumen akan menghasilkan pernyataan program studi tersebut terakreditasi atau tidak terakreditasi
+peringkat bagi program studi yang dinyatakan terakreditasi yaitu: a, b, c, dan tidak terakreditasi
+dashboard sebagai sebuah alat penyajian informasi, dashboard digunakan pula untuk memonitor organisasi dalam segala kegiatan dan keadaan sehari-hari serta sebagai alat penghubung tunggal dalam membuat keputusan dan mempunyai akses untuk mengunci indikator kinerja, dashboard sendiri dianalogikan seperti dashboard sebuah mobil yang mudah dipelajari, sama halnya dengan data yang di visualisasikan dalam suatu model antarmuka sistem informasi yang memudahkan pengguna dalam mempelajari informasi yang disampaiakan
+dashboard dapat mengkomunikasikan informasi penting dengan cepat, sebuah desain yang baik dalam penyajian dan visualisasi data akan memberikan kejelasan mengenai informasi penting yang disampaikan bagi pengguna
+sehingga dashboard yang dibuat akan dapat membantu dalam mengidentifikasi tren, pola dan anomali pada data yang pada akhirnya dapat membantu dalam pengambilan keputusan yang efektif dan efisien
+tahapan pembangunan dashboard berdasarkan pekerjaan seorang analisis sistem yang terdiri dari kegiatan : 1
+menganalisa output yang sudah ada d
+analisa sistem dan prosedur yang berjalan e
+membuat desain tampilan, database dan program yang akan digunakan 3
+membuat desain awal dalam bentuk prototype dari desain yang diajukan sebenarnya 4
+penyajian infornasi tidak terlalu detail dan tidak memerlukan data yang real-time
+dtrategy dashboard mendukung manajemen level strategis untuk memberikan informasi untuk membuat keputusan bisnis, memprediksi peluang, dan memberikan arahan pencapaian tujuan strategis
+tactical dashboard berfokus pada proses analisis dalam menentukan penyebab dari suatu kondisi atau kejadian tertentu
+content informasi yang disajikan lebih banyak, dengan desain interaksi dan data seperti drill-down serta tidak memerlukan data real-time
+tactical dashboard mendukung manajemen level taktikal untuk memberikan informasi yang diperlukan oleh analisis dengan tujuan untuk mengetahui penyebab suatu kejadian
+operational dashboard mendukung manajemen level operasional dengan cara memberikan informasi mengenai aktifitas-aktivitas yang sedang terjadi beserta perubahan secara real-time untuk memberikan kewaspadaan terhadap hal-hal yang perlu direspon secara cepat
+operational dashboard berfokus pada monitoring aktifitas dan kejadian yang berubah secara konstan
+informasi disajikan sangat spesifik dan sangat detail, dinamis dan memerlukan data real-time
+extreme programming metode extreme programming terdapat empat tahapan, yaitu: planning, design, coding dan testing
+planning tahapan perencanaan ini difokuskan untuk mendapatkan gambaran fitur dan fungsi dari sistem yang akan dibangun
+perencanaan dari pengembangan sistem ini akan dilakukan mulai dari teknik pengumpulan data, identifikasi masalah, analisis sistem, serta analisis kebutuhan
+design tahap perancangan dilakukan untuk mengatur pola logika dari sebuah aplikasi atau perangkat lunak yang akan dibangun
+pola logika yang dibuat mengacu pada hasil tahapan perencanaan
+coding konsep utama dari tahapan pengkodean pada extreme programming adalah pair programming yang merupakan sebuah metode untuk melakukan pemrograman dengan melibatkan lebih dari satu orang untuk menyusun kode
+testing pada tahap ini, aplikasi akan langsung diuji coba oleh semua aktor yang terlibat untuk mendapatkan tanggapan langsung mengenai penerapan gambaran yang telah dilakukan sebelumnya
+pengertian simulasi sistem yang digunakan untuk menguraikan dan memecahkan persoalan-persoalan dalam kehidupan nyata yang yang penuh dengan ketidakpastian dengan menggunakan atau tanpa model tertentu dan penekanannya lebih ditekankan pada pemakaian komputer untuk mendapatkan solusinya merupakan pengertian simulasi menurut
+kemampuan didalam mengehemat waktu ini dapat dilihat dari pekerjaan yang bila dikerjakan akan memakan waktu yang panjang, tetapi kemudian dapat disimulasikan hanya dalam waktu yang singkat
+expand time 
+hal ini terlihat terutama dalam dunia statistic dimana hasil yang diinginkan dapat tersaji dengan cepat
+simulasi dapat digunakan untuk menunjukan perubahan struktur dari suatu sistem nyata, yang sebenarnya tidak dapat diteliti pada waktu yang seharusnya 
+stop simulation and restart 
+simulasi komputer dapat dihentikan untuk kepentingan peninjauan ataupun pencatatan semua keadaan yang relevan tanpa berakibat buruk terhadap program simulasi tersebut
+metode penelitian alur metode peneletian yang digunakan dalam penelitian ini dimulai dari pengamatan, studi pustaka, dan pengembangan sistem
+diagram alur penelitian bisa dilihat pada gambar 1
+dimulai dari tahap pengamatan, untuk menunjang penelitian ini, telah dilakukan pengamatan secara langsung, dengan cara melihat dan mempelajari permasalahan yang ada terkait implementasi dashboard pada matriks penilaian instrumen akreditasi institusi perguruan tinggi berdasarkan standar ban- pt tahap studi pustaka yaitu dilakukan dengan cara membaca dan mempelajari buku-buku yang berhubungan dengan judul penelitian selain itu mengunjungi atau browsing situs-situs internet yang berhubungan dengan topik penelitian
+selanjutnya tahap pengembangan sistem untuk merancang dashboard matriks penilaian instrumen akreditasi institusi perguruan tinggi berdasarkan standar ban-pt ini menggunakan metode extreme programming 
+tahap terakhir yaitu setelah melakukan penelitian maka langkah yang terakhir yaitu penarikan kesimpulan, selain sebagai landasan pengambilan keputusan bagi pihak peneliti juga digunakan sebagai bahan acuan penelitian selanjutnya
+hasil dan pembahasan jadwal penelitian dan pelaksanaan pengamatan yang dilakukan selama dua minggu terhitung saat menyerahkan berkas proposal ke sbap
+bulan juni sampai seterusnya, yaitu mulai membangun pengembangan sistem dengan mengacu pada tabel data borang akreditasi perguruan tinggi
+bulan desember yaitu diharapkan sudah dilakukan penarikan kesimpulan hasil penelitian yang akan dijadikan landasan pengampilan keputusan dan sebagai bahan acuan penelitian selanjutnya
+import data pelayanan perguruan tinggi b) kebutuhan keluaran 1
+informasi data profil mahasiswa dan lulusan 3
+informasi data masa studi dan ipk lulusan 5
+informasi grafik perbandingan mahasiswa pendaftar, grafik rata-rata ipk, grafik rata-rata kualitas layanan
+informasi skor akhir penilaian berdasarkan instrumen akreditasi institusi perguruan tinggi 
+proses tampil grafik perbandingan mahasiswa pendaftar, grafik rata-rata ipk, grafik rata-rata kualitas layanan
+proses download grafik d) kebutuhan non-fungsional tabel kebutuhan non fungsional seperti kebutuhan perangkat keras dan perangkat lunak komputer
+kebutuhan perangkat keras komputer processor : 2.40 ghz, memory : 512 mb, harddisk: 80 gb, keyboard/mouse/monitor: standard 2
+kebutuhan perangkat lunak komputer web server: apache, basis data: mysql, text editor: atom, bahasa: php
+use case diagram use case diagram sistem informasi akreditasi perguruan tinggi digambarkan pada gambar 3 dengan aktor admin, use case login, dashboard, data perguruan tinggi, data mahasiswa, data jurusan, super user, dan logout
+use case diagram bisa dilihat pada gambar 2
+use case diagram penjelasan untuk gambar.2 pertama-tama admin login terlebih dahulu, ada 6 menu yang terdapat pada aplikasi siap ini diantaranya, menu dashbboard, menu data perguruan tinggi, menu data mahasiswa, menu data jurusan, menu super user, dan menu logout
+squence diagram a) sequence diagram login sequence diagram login terlihat pada gambar 3
+dashboard admin validasi user password gambar 3
+squence diagram login penjelasan untuk gambar.3 sequence diagram login, setelah admin memasukkan address siap pada address bar, maka admin akan masuk ke halaman login, admin akan memasukkan username dan password, username dan password termasuk data user, setelah validasi selesai maka admin akan masuk halaman utama 
+activity diagram activity diagram terlihat pada gambar 4
+activity diagram penjelasan untuk gambar.4 activity diagram siap, setelah admin login maka sistem akan mengolah laporan data, selanjutnya akan masuk halaman utama, dan tersedia menu- menu yang ada pada halaman utama, selanjutnya admin keluar dari sistem dan selesai
+state machine diagram penjelasan untuk gambar.5 state machine diagram siap, setelah admin login maka sistem akan memverifikasi username dan password, selanjutnya admin akan memilih menu yang tersedia, jika sudah selesai admin akan keluar sistem dan selesai
+tampilan aplikasi a) tampilan halaman dashboard tampilan halaman dashboard terlihat pada gambar 6 dan gambar 7
+tampilan halaman dashboard penjelasan untuk gambar.6 dan gambar 7, tampilan halaman utama dan halaman menu dashboard, pada menu dashboard admin bisa meng-import data yang termasuk data standar 3 ban-pt, yaitu data pendaftar, data daya tampung, data lulusan, data prestasi dan data layanan kepada mahasiswa dan lulusan
+b) tampilan halaman menu data perguruan tinggi pt tampilan halaman menu data pt terlihat pada gambar 8 sampai gambar 12
+tampilan halaman menu data pt penjelasan untuk gambar.8 yaitu tampilan halaman menu data pt yang terdiri dari nama universitas yang terdaftar, tahun referensi, rating layanan, tombol view tabel, tombol export tabel, tombol view grafik, dan tombol delete universitas
+tampilan halaman menu data pt penjelasan untuk gambar.9 yaitu tampilan dari view tabel dan pada bagian bawah tabel terlihat rumus yang sesuasi dengan range penilaian buku 6 matriks penilaian instrumen akreditasi pt gambar 10
+tampilan halaman menu data pt penjelasan untuk gambar.10 yaitu tampilan dari tombol tabel export tabel, tabel yang akan di export diantaranya, tabel profil mahasiswa, tabel prestasi, tabel mahasiswa dan lulusan, tabel masa studi dan ipk lulusan, tabel studi pelacakan lulusan
+tampilan halaman menu data pt penjelasan untuk gambar.11 yaitu tampilan dari tombol view grafik, grafik yang tersedia diantaranya grafik data mahasiswa pendaftar, grafik data rata-rata ipk, grafik data rata-rata kualitas layanan
+tampilan halaman menu data pt penjelasan untuk gambar.12 yaitu tampilan dari tombol delete universitas, jika data universitas di hapus maka data tidak akan bisa dikembalikan
+c) tampilan halaman menu data mahasiswa tampilan halaman menu data mahasiswa terlihat pada gambar 13 dan gambar 14
+tampilan halaman menu data mahasiswa penjelasan untuk gambar.13 yaitu tampilan dari menu data mahasiswa, yang berisi daftar seluruh mahasiswa dari universitas yang terdaftar
+tampilan halaman menu data mahasiswa penjelasan untuk gambar.14 yaitu tampilan dari tombol delete data mahasiswa, jika data mahasiswa di hapus maka data tidak akan bisa dikembalikan
+d) tampilan halaman menu data jurusan gambar 15
+tampilan halaman menu data jurusan penjelasan untuk gambar.15 yaitu tampilan dari menu data jurusan, yang berisi daftar nama-nama jurusan dari universitas terdaftar
+e) tampilan halaman menu super user gambar 16
+tampilan halaman menu super user penjelasan untuk gambar.16 yaitu tampilan dari menu data super user, yang berisi data user/admin, seperti username dan password
+testing pada tahapan pengujian ini menggunakan pengujian blackbox untuk memeriksa kesesuaian fungsi aplikasi yang telah dibuat
+tabel pengujian black box bisa dilihat pada tabel 1
+hasil kelebihan dari sistem informasi akreditasi perguruan tinggi ini yaitu: 1
+aplikasi siap ini membantu mengisi data tabel-tabel pada borang standar 3 ban-pt dengan cara import data 2
+nilai yang diberikan dari aplikasi ini yaitu pengisian tabel borang secara otomatis dengan proses import data, dibandingkan dengan tabel borang pada ms.excel yang diisikan secara manual 3
+menu import and save data only dan menu import and export data
+menu import and save data only dan menu import and export data
+terpenuhi admin mengklik menu dashboard menampilkan pilihan tampil menu pilihan terpenuhi menu hapus perguruan tinggi
+dan menu hapus perguruan menampilkan daftar mahasiswa dari perguruan tinggi terdaftar perguruan tinggi terdaftar tampil daftar jurusan - jurusan dari perguruan menampilkan data admin yaitu akan masuk ke sistem admin keluar dari sistem terpenuhi adapun kekurangan dari aplikasi siap ini yaitu: 1
+dalam menjalankan aplikasi siap ini, untuk pengujian aplikasinya masih menggunakan data dummy 2
+aplikasi siap ini belum ditujukkan untuk semua standar yang ada pada ban-pt v
+kesimpulan berdasarkan hasil penelitian yang telah dilakukan dapat diambil kesimpulan dengan adanya aplikasi siap, telah berhasil memberikan kemudahan dan kecepatan dalam mengisi borang akreditasi dengan proses import data standar 3 ban-pt selain itu hasil pengujian menunjukan bahwa simulasi penilaian instrumen akreditasi perguruan tinggi berfungsi dengan baik dan dapat melakukan range penilaian data normative dan data yang bersifat kuantitatif sesuai dengan buku 6 matriks peniliaian instrumen akreditasi sarjana 

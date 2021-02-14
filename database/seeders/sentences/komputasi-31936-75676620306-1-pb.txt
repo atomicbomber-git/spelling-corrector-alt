@@ -1,0 +1,34 @@
+ubmitted 18-03-2019; revised 26-07-2019; accepted 06-01-2020 78 analisa perbandingan performa openstack dan apache cloudstack dalam model cloud computing berbasis infrastructure as a service hari triyanto#1, arif bijaksana putra negara#2, muhammad azhar irwansyah#3 #program studi informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, kota pontianak, 78115 hari.triyanto22@gmail.com arifbpn@gmail.com irwansyah.azhar@gmail.com dapat di lakukan dengan melakukan virtualisasi pada mesin fisik komputer
+pada cloud computing, sumber daya seperti cpu, memori, storage dan jaringan dapat dipandang sebagai suatu layanan dengan virtualisasi sebagai jantungnya
+openstack dan cloudstack merupakan salah satu opensource untuk membangun cloud computing dengan model iaas
+penelitian ini bertujuan untuk membandingkan openstack dan cloudstack dalam perancangan private cloud computing dengan aspek pengujian web server, komputasi, oltp database dan jaringan
+pengujian menggunakan metrik skalabilitas dengan metode pengujian overhead dan linearity
+implementasi dilakukan pada satu server dengan menggunakan satu router dan satu laptop sebagai client
+client bertugas untuk menjalankan pengujian menggunakan tools seperti httperf, sysbench dan iperf
+sejumlah beban pengujian diberikan untuk tiap tiap instance berdasarkan skenario pengujian yang telah di buat
+hasil pengujian menunjukan bahwa waktu eksekusi yang diperlukan untuk mengakses web server dan komputasi pada instance openstack lebih rendah daripada instance cloudstack
+sedangkan pada pengujian oltp database dan jaringan, hasil pengujian menunjukan bahwa instance pada cloudstack lebih unggul dengan waktu eksekusi oltp database yang lebih rendah, throughput yang lebih tinggi serta jitter yang lebih rendah
+oleh karena itu, openstack unggul dalam penggunaan aplikasi berbasis web dan komputasi sedangkan cloudstack unggul dalam aplikasi dengan transaksi database yang tinggi serta membutuhkan jaringan yang baik
+komputasi awan adalah sebuah model komputasi baru yang membawa disiplin, teknologi dan model bisnis untuk menyajikan informasi teknologi sesuai permintaan
+cloud computing merupakan perkembangan dari komputasi tradisional pada komputasi tradisional, seluruh sumber daya seperti cpu, memori, penyimpanan dan jaringan digabung menjadi satu untuk menghasilkan daya komputasi yang besar
+sedangkan pada cloud computing, sumber daya yang besar tersebut dipecah menjadi beberapa mesin virtual agar penggunaannya lebih efisien
+pada cloud computing terdapat model pengembangan public cloud dan private cloud
+public cloud memberikan kemudahan pada pengguna, organisai ataupun perusahaan untuk mengeluarkan biaya sesuai dengan sumber daya yang digunakan serta terbebas dari biaya perancangan infrastruktur
+pengguna tersebut dapat mengatur jumlah pembiayaan yang dikeluarkan agar proses bisnis tetap berjalan
+akan tetapi semakin berkembangnya kebutuhan dari pengguna maka diperlukan sumber daya yang lebih besar pula
+selain itu, permasalahan seperti keamanan data, kontrol dan perawatan menjadi salah satu poin yang diperhitungkan dalam menggunakan public cloud
+penggunaan private cloud merupakan salah satu solusi dalam menjaga keamanan data vital pengguna
+selain itu, model private cloud memungkinkan pengguna untuk melacak permasalahan dalam menjalankan sistem
+dalam perancangan private cloud terdapat beberapa perangkat lunak opensource yang dapat digunakan untuk perancangan private cloud seperti eucalyptus, opennebula, openstack dan cloudstack
+perangkat lunak tersebut melakukan manajemen terhadap pengelolaan cpu, memori, penyimpanan dan jaringan
+openstack dan apache cloudstack merupakan perangkat lunak yang dapat digunakan untuk membangun private cloud computing berbasis iaas
+openstack dan apache cloudstack digunakan oleh organisasi, perusahaan, pemerintah dan akademisi
+openstack dan apache cloudstack dapat digunakan pada sistem operasi ubuntu, centos, redhat serta berbagai hypervisor seperti kvm dan xen sebagai jantung virtualisasinya
+ubuntu memiliki dukungan komunitas yang besar sehingga memudahkan korespondensi : hari triyanto 79 sebagai hypervisor yang lebih stabil pada i/o dan jaringan sedangkan kvm unggul pada daya komputasinya
+kemunculan opensource cloud computing yang berbeda memerlukan keputusan untuk memilih perangkat lunak cloud computing yang paling cocok dengan kebutuhan pengguna
+perbedaan komponen dan arsiktektur perangkat lunak cloud computing mengakibatkan perbedaan performa pada cpu, memori, r/w hard disk dan qos jaringan yang diberikan
+diperlukan suatu analisa untuk mengetahui perbandingan performa cloud computing yang digunakan
+analisa dilakukan menggunakan metrik skalabilitas dengan metode overhead dan linearity untuk mengukur performa sesuai dengan aspek yang akan diuji
+diharapkan dengan adanya analisa perbandingan performa tersebut dapat membantu pengguna dalam pemilihan perangkat lunak berbasis iaas
+resource seperti server, storage, network dan software dapat dipandang sebagai layanan yang dapat diakses oleh pengguna secara remote dan setiap saat

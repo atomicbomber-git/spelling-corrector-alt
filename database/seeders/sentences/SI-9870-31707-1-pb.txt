@@ -1,0 +1,45 @@
+the rapid growth of education and competitive create conditions for each college to continue to improve the quality especially with college accreditation assessment of ban-pt informatics which is one of the undergraduate program at the university of tanjungpura pontianak in regular class on 2010 batch was graduating only 3 of 35 students in 8 semesters
+this shows that there is still a lot of informatics students who took over the study period of 8 semesters of the scheduled 8 semesters
+one way to achieve the highest quality quality of higher education system is to collect data as attributes of the main learning experiences that affect student achievement
+analysis prediction graduate student more than 8 semesters is to conduct case-based reasoning is to find the degree of similarity between the cases base with new cases 
+the main source of knowledge is a case-based reasoning system based on the cases that have been or are already stored in the cases base
+cases are obtained to support this research was obtained from the results of interviews with graduates from 2003 to 2010 generation
+using the same solution in the cases base
+case-based reasoning process through four stages: retrieve, reuse, revise, and retain 
+case similarity calculation was conducted using the jaccard coefficient
+if the similarity value = 1 then the new cases are not stored in the cases base, but if the similarity value <1 then a new case can be saved in the cases base
+testing the system with the jaccard coefficient to the 31 new cases have a value of 80.65% accuracy
+keywords: prediction, period of study, case- based reasoning and jaccard coefficient 1
+pendahuluan pertumbuhan pendidikan yang pesat dan penuh persaingan secara global menciptakan kondisi bagi setiap perguruan tinggi khususnya program studi di indonesia terus meningkatkan kualitas kualitas tersebut diukur elemen penilaian/parameter, salah satunya masa studi dan ipk
+fakultas teknik universitas tanjungpura adalah program pendidikan akademik setelah pendidikan menengah, yang memiliki beban studi sekurang-kurangnya dan dapat ditempuh dalam waktu kurang dari 8 semester dan paling lama 14 semester berdasarkan kurikulum 2008
+teknik informatika, hanya 3 dari 35 mahasiswa angkatan 2010 kelas reguler yang lulus dalam 8 semester
+hal ini menunjukkan bahwa masih banyak menempuh lama studi lebih dari 8 semester
+jika masa studi mahasiswa dapat diketahui lebih dini, pihak program studi informatika dapat memberikan saran/rekomendasi sehingga mahasiswa 2003-2010 sebagai atribut pembelajaran utama yang mempengaruhi pencapaian adalah mencari tingkat kemiripan yang akan diprediksi dengan metode jaccard coefficient 
+jc merupakan metode dalam perhitungan similaritas yang digunakan untuk menghasilkan nilai apakah ada kemiripan atau tidak antara kasus baru dengan kasus yang telah ada di basis kasus
+teori dasar 2.1 case based reasoning penalaran berbasis kasus (case based reasoning/cbr adalah teknik untuk 4 tahapan yaitu: keterangan : 1
+reuse, menggunakan kembali kasus- kasus yang ada dan dicoba untuk menyelesaikan suatu masalah sekarang
+revise, merubah dan mengadopsi solusi yang ditawarkan jika perlu 4
+retain, memakai solusi baru sebagai bagian dari kasus baru, kemudian kasus baru di-update kedalam basis kasus
+2.2 penelusuran dan perhitungan similaritas dengan metode jaccard coefficient similaritas dua objek yang bersifat biner adalah dengan menggunakan metode jaccard coefficient
+formula untuk dan b adalah sebagai berikut : 𝐽𝐶 a, b = m11 2.3 unified modeling language menurut m
+salahuddin dan rosa a.s uml merupakan bahasa visual untuk pemodelan dan komunikasi mengenai sistem dengan menggunakan muncul karena adanya kebutuhan pemodelan visual untuk menspesifikasikan, 2.3.1 use case diagram diagram use case merupakan pemodelan untuk kegiatan case mendeskripsikan sebuah interaksi informasi yang akan dibuat
+ada dua hal utama dalam use case yaitu : a) aktor merupakan orang, proses atau sistem lain yang berinteraksi dengan sistem yang akan dibuat
+b) use case merupakan fungsionalitas yang disediakan sistem sebagai unit – unit yang saling bertukar pesan antar unit atau aktor
+perlu diperhatikan disini adalah bahwa diagram aktivitas menggambarkan aktivitas aktivitas yang dapat dilakukan oleh sistem 2.3.3 sequence diagram diagram sekuen menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki atribut dan metode atau operasi
+ atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+ operasi atau metode adalah fungsi- fungsi yang dimiliki oleh suatu kelas
+susunan struktur kelas yang baik pada diagram kelas sebaiknya memiliki jenis- jenis kelas berikut : d) kelas yang diambil dari pendefinisian data 3
+perancangan sistem 3.1 diagram use case terdapat dua aktor yang berinteraksi pada sistem penentuan daerah berpotensi rawan demam berdarah, yaitu: mahasiswa teknik informatika universitas tanjungpura yang administrator) yang berinteraksi keterangan:  prediksi diri : proses yang didalamnya terdapat proses prediksi dan simpan
+ kelola kasus : proses yang didalamnya terdapat proses tambah kasus, ubah kasus dan hapus kasus
+data pengguna, ubah data pengguna, dan hapus data pengguna
+dirancang untuk bagian admin adalah sebagai berikut: sistem admin tahapan retrieve adalah untuk menelusuri dan mendapatkan kasus-kasus tahapa pada retrieve yaitu : melakukan inputan data dan merupakan proses prediksi kasus baru
+antarmuka halaman uji sampel basis pengetahuan ditunjukkan pada dengan kasus lama untuk menyelesaikan suatu masalah berikut : sebagai solusi ditawarkan jika perlu
+jika similaritas < 1 maka menampilkan button “update/revisi gambar 7
+tampilan hasil prediksi jika similaritas < 1 maka sistem tidak akan menampilkan button seperti similaritas = 1 terakhir sebagai bagian dari kasus baru
+pada tahap ini terjadi suatu proses penggabungan dari solusi kasus yang baru yang benar ke basis kasus yang telah ada
+tampilan hasil retain kasus baru yang dilakukan oleh sistem terhadap data- data hasil wawancara para alumni
+hasil pengujian metode jaccard coefficient perhitungannya sebagai berikut : jumlah sampel 31 pengujian terhadap program aplikasi bahwa: program studi teknik informatika universitas tanjungpura
+digunakan untuk menghasilkan reasoning mulai dari tahap retrieve, reuse, revise hingga retain
+d) berdasarkan pengujian dengan metode jaccard coefficient bahwa dari total 31 sampel uji hanya 6 sampel yang memberikan hasil yang tidak lainnya memberikan hasil yang sesuai/valid

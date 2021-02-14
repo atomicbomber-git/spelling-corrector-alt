@@ -1,0 +1,72 @@
+yang beragam yang tersebar diseluruh kota pontianak
+banyaknya jenis kuliner dan tempat wisata kuliner memungkinkan para wisatawan pendatang maupun penduduk lokal sulit dalam memilih suatu santapan kuliner dan rute menuju lokasi kuliner tersebut, khusunya wisatawan
+atas dasar permasalahan tersebut, penulis akan mencoba untuk membuat suatu aplikasi pencarian wisata kuliner berbasis android yang diharapkan dapat memberikan informasi wisata kuliner dan jalur terpendek, serta dilengkapi dengan peta lokasi tempat wisata kuliner
+algoritma yang digunakan untuk mencari jalur terpendek adalah algoritma dijkstra
+algoritma dijkstra merupakan algoritma pencarian rute terpendek yang menemukan rute terpendek berdasarkan rute terkecil dari lokasi user ke lokasi wisata kuliner tujuan
+data tempat wisata kuliner dan data jalan diperoleh dari google earth dan google maps
+dari hasil percobaan kasus yang telah dilakukan dapat diketaui bahwa aplikasi berhasil menerapkan algoritma dijkstra ke dalam pencarian rute terpendek menuju tempat wisata kuliner
+pendahuluan perkembangan pesat adalah bidang kuliner yaitu yang berkaitan dengan penyediaan makanan dan minuman
+ada sebuah tren di masyarakat dimana penduduk lokal maupun wisatawan datang kesuatu daerah wisata untuk mencari atau berburu makanan dan tidak segan-segan membayar mahal untuk menikmati suatu hidangan
+perubahan gaya hidup masyarakat juga telah terjadi, meraka makan tidak hanya untuk mengenyangkan perut saja, tetapi juga mencari suasana dan pelayanan sebagai bagian dari sajian makanan yang dipesan
+banyak restoran dan lokasi kuliner baru yang didirkan dengan kualifikasi dan ciri khas masing-masing
+beragam sajian ditawarkan mulai dari makanan khas daerah yang sifatnya tradisional dan unik hingga makanan cepat saji yang bersifat modern
+akibat tren tersebut, kota pontianak yang terkenal akan wisata kulinernya menjadi salah satu sasaran wisata para wisatawan
+minimnya pengetahuan akan lokasi geografis kota pontianak membuat mereka kesulitan dalam menemukan lokasi wisata kuliner dengan cepat dan efisien
+salah satu solusi yang dapat digunakan adalah menggunakan suatu teknologi yang memanfaatkan layanan berbasis lokasi yang dapat memberikan informasi geografis wisata kuliner dan rute terpendek menuju lokasi wisata kuliner
+di era teknologi dan informasi seperti sekarang ini banyak cara yang dapat dilakukan untuk mengakses informasi baik itu informasi wisata maupun informasi geografis menggunakan perangkat teknologi
+salah satu perangkat teknologi yang dapat digunakan adalah perangkat ponsel cerdas
+lbs ini, dari yang bersistem operasi symbian, java, windows mobile, ataupun sistem operasi lainnya
+namun aplikasi yang ada pada android memiliki keuntungan yaitu open source, gratis, dan merupakan ponsel cerdas paling banyak digunakan di indonesia
+dengan teknologi lbs yang dimiliki android pencarian informasi geografis suatu wisata kuliner dan rute terpendek dapat dilakukan kapanpun dan dimanapun
+pencarian rute terpendek tentunya membutuhkan suatu algoritma sehingga didapat rute paling efisien menuju lokasi wisata kuliner tersebut
+algoritma dijkstra merupakan salah satu greedy algorithm yang mencari rute terpendek berdasarkan bobot terkecil dari satu titik ke titik lainnya
+hasil pencarian rute terpendek kemudian ditampilkan didalam peta agar mempermudah wisatawan dalam mencari dan menemukan lokasi suatu wisata kuliner
+landasan teori 2.1 definisi wisata kuliner menurut kamus besar bahasa indonesia edisi ketiga tahun 2003wisata adalah “bepergian bersama-sama (untuk memperluas pengetahuan, bersenang-senang, dalam definisi wisata adalah tidak kurang dari 24 jam dan tidak lebih dari tiga bulan, serta tidak dalam rangka mencari pekerjaan
+sedangkan kuliner berati masakan atau makanan
+jadi dapat disimpulkan bahwa wisata kuliner ialah perjalanan yang dilakukan tidak kurang rancang bangun aplikasi pencarian rute terpendek lokasi wisata kuliner kota pontianak berbasis mobile program studi teknik informatika universitas tanjungpura 1, 2, 3 1muhinsankamil@gmail.com, 2 stmkom@gmail.com, 3helensastypratiwi@gmail.com memanfaatkan masakan serta suasana lingkungannya sebagai objek tujuan wisata
+2.2 sistem informasi geografis grafis dengan menggunakan peta sebagai antar muka
+aplikasi sig saat ini banyak digunakan untuk perencanaan, pelaksanaan, dan pengendalian yang berkaitan dengan wilayah geografis
+kesalahan oleh manusia dan menghilangkan tugas-tugas pemetaan dan penggambaran, lebih cepat dan efisien dalam memberikan informasi spasial termasuk beberapa jenis peta
+sistem ini, walaupun dalam pengoperasiannya lebih mudah, tapi memerlukan keperluan yang mendasar yang membuatnya mahal, seperti pembuatan data dasarnya karena biasanya data spasial yang siap dipakai tidak tersedia
+penggunaan setiap sistem informasi geografis akan tergantung terutama pada jenis, ketelitian dan detail masukan data yang dimiliki
+2.3 android smartphone dan tablet pc berbasis android android merupakan suatu software yang digunakan pada mobile device yang meliputi sistem operasi, middleware, dan aplikasi inti
+android standard development kit menyediakan alat dan application programming interface yang diperlukan untuk memulai pengembangan aplikasi pada platform android menggunakan bahasa pemrograman java, yaitu kode java yang terkompilasi dengan data dan file resources yang dibutuhkan aplikasi dan digabungkan oleh app tools menjadi paket android
+file inilah yang didistribusikan sebagai aplikasi dan diinstal pada perangkat mobile
+2.4 location based service ardiansyah menyatakan “lbs merupakan layanan ip nirkabel yang menggunakan informasi geografis untuk memberikan layanan informasi lokasi kepada pengguna
+beberapa layanan aplikasi yang memberikan petunjuk posisi/lokasi piranti mobile berada”
+lbs memberikan layanan personalisasi kepada pengguna perangkat bergerak yang disesuaikan dengan lokasi mereka saat ini
+lbs adalah layanan informasi yang dapat diakses melalui mobile device dengan mengunakan mobile network, yang dilengkapi kemampuan untuk memanfaatkan lokasi dari mobile device tersebut
+lbs memberikan kemungkinan komunikasi dan interaksi dua arah
+2.5 harversine formula memberikan jarak lingkaran besar antara dua titik pada bola/bumi dari garis bujur dan garis lintang mereka
+sehingga dengan mengetahui garis lintang dan bujur 2 titik di permukaan bumi maka jarak antara kedua titik itu dapat diketahui
+bentuk bumi yang bulat dengan menghilangkan faktor bahwa bumi itu sedikit elips 
+ini merupakan kasus khusus dari formula umum dalam trigonometri bola, hukum haversines, yang berkaitan dengan sisi dan sudut segitiga bola
+formula ini tidak dapat digunakan pada pentuk bumi yang tidak berbentuk bola dengan mengasumsikan bahwa bumi berbentuk bulat sempurna dengan jari-jari r 6.367, 45 km, dan lokasi dari 2 titik di koordinant bola masing-masing adalah lon1, lat1, dan lon2, lat2, maka rumus haversine dapat ditulis dengan persamaan berikut: y = ; 3 yang berfungsi menentukan rute terpendek berdasarkan bobot terkecil dari satu titik ke titik lain nya
+karena merukpaan greedy algorithm atau algoritma rakus maka makan algortima ini hanya memberikan solusi terbaik tanpa memberikan alternatifnya
+wybe dijkstra yang menemukan algoritma ini pada tahun 1959
+algoritma ini digunakan untuk menyelesaikan permasalahan rute terpendek pada sebuah graf yang berarah 
+dimana graph dengan bobot-bobot sisi yang tidak bernilai negatif
+dengan mengasusmsi vertices di dalam graph sebagai suatu tempat, dan edge sebagai jalan maka dengan menggunakan algoritma dijkstra
+for each v ∈ v : insert v with key d into priority queue
+the priority queue is not empty
+while u ← delete-min from priority queue
+for each edge ∈ e leaving u: if d > d + ℓ decrease-key of v to d + ℓ in priority queue
+beri nilai bobot untuk setiap titik ke titik lainnya, lalu set nilai 0 pada node awal dan nilai tak hingga terhadap node lain 3
+set semua node dan set node awal sebagai tetangga yang belum terjamah dan hitung jaraknya dari titik keberangkatan terjamah sebagai 
+node terjamah tidak akan pernah di cek kembali, jarak yang disimpan adalah jarak terakhir dan yang paling minimal bobotnya
+ sebagai selanjutnya dan lanjutkan dengan kembali ke step 3
+gambar 2 arsitektur sistem 3.2 use case diagram aktor yang terlibar dan daftar kegiatan yang dapat dilakukan dalam sistem yang dirancang
+use case diagram aplikasi dapat dilhat pada gambar 3
+4 3.3 activity diagram aktivitas dalam sistem yang sedang dirancang, bagaimana masing-masing aliran berawal, tujuan yang mungkin terjadi dan bagaimana mereka berakhir
+activity diagram juga dapat menggambarkan proses pararel yang mungkin terjadi pada beberapa eksekusi.activity diagram aplikasi dapat dilahat pada gambar 5 berikut
+rute terpendek lokasi wisata kuliner kota pontianak berbasis mobile
+yang bertujuan memberikan informasi wisata kuliner dan rute terpendek kepada wisatawan maupun penduduk lokal aplikasi untuk petama kali
+gambar 6 antarmuka beranda lokasi wisata kuliner yang tersebar di kota pontianak
+gambar 7 antarmuka peta kuliner antarmuka rute tampil ketika tombol jalur kesini dipilih
+menu ini berisikan peta dan visualisasi rute terpendek menuju lokasi wisata kuliner
+kesimpulan mengenai rancang bangun aplikasi pencarian rute terpendek lokasi wisata kuliner kota pontianak berbasis mobile, maka dapat diambil kesimpulan sebagai berikut: mampu mencari rute terpendek menuju wisata kuliner di kota pontianak dan memvisualisasikan dalam bentuk peta
+wisata kuliner di kota pontianak yang dapat membantu pengguna untuk menuju tempat wisata kuliner
+implementasi dari algoritma dijkstra yang digunakan dalam aplikasi sejauh ini tidak ditemukan masalah dalam jumlah simpul jalan
+aplikasi ini dapat menemukan simpul terdekat dari lokasi user dengan menggunakan formula trigonometri bola harversine
+diperhatikan beberapa hal, diantaranya: dikarenakan data jalan yang digunakan belum sepenuhnya, hanya jalan-jalan besar sehingga perlu penambahan data secara detail untuk mendapatkan hasil visualisasi yang optimum
+perlu dilakukan pengembangan lebih lanjut untuk proses penambahan simpul agar dinamis

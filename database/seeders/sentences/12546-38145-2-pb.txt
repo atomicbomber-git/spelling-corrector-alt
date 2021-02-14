@@ -1,0 +1,13 @@
+meningkatnya taraf hidup masyarakat dimana ditandai dengan aktifitas dan pergerakan masyarakatnya yang selalu meningkat tiap tahunnya
+selama ini masyarakat cenderung mengontrol listrik secara manual menggunakan saklar yang harus dioperasikan dengan bantuan manusia dimana pengendalian tersebut terbentur oleh jarak
+salah satu solusi agar suatu perangkat dapat dikontrol secara maksimal dan cakupan jarak kontrolnya semakin luas adalah menggunakan mikontroler yang terhubung dengan internet sehingga bisa diakses dari jarak jauh.didukung oleh sistem yang berbasis website membuat sistem dapat menampung pengguna dalam jumlah banyak atau biasa disebut multi pengguna
+untuk memaksimalkan kerja dari sistem sendiri digunakan basis data sebagai penyimpanan log informasi baik data monitoring, pengaturan perangkat keras, maupun status terakhir dari relay.pada simulasi yang dilakukan pada jaringan lokal, sistem yang dibangun sudah mampu melakukan fungsi kontrol dan monitoring dengan maksimal relay yang mampu diakomodir adalah 8 buah dan sensor sebanyak 4 buah
+kemudian pada simulasi yang dilakukan terhadap dua buah perangkat arduino, sistem yang dibangun sudah mendukung multi pengguna
+meski untuk fungsi kontrol peralatan listrik tidak ada masalah, penggunaan beberapa sensor masih menjadi kendala karena diperlukannya library tambahan agar dapat bekerja dengan baik pada sistem
+pendahuluan dimana masyarakat sibuk akan pekerjaannya yang memakan waktu dari pagi hingga sore bahkan hingga malam hari
+akibatnya membuat beberapa aktifitas rumah tangga seperti menghidupkan lampu pada malam hari menjadi terbengkalai
+selama ini masyarakat cenderung mengontrol lisrtik secara manual menggunakan saklar yang harus dioperasikan dengan bantuan manusia dimana pengendalian tersebut terbentur oleh jarak
+agar suatu perangkat dapat dikontrol secara maksimal dan cakupan jarak kontrolnya semakin luas salah satu solusinya adalah menggunakan mikontroler yang terhubung dengan internet sehingga bisa diakses dari jarak jauh
+selain itu diperlukan monitoring keadaan dengan bantuan sensor agar kinerja dari sistem ini lebih maksimal, contohnya untuk memutus arus listrik pada lampu diperlukan sensor cahaya untuk memberikan gambaran apakah sudah tepat dalam menghidupkan atau mematikan lampu
+kontrol salah satu diantaranya adalah arya lazuardiyang mencoba mengontrol switch breaker melalui sebuah sms yang telah diterjemahkan menjadi command control
+selain sebagai media kontrol, sms juga dapat memberikan laporan dari feed back device yang dikendalikan oleh mikrokontroller sehingga dapat mengetahui status proses kontrol suatu switch breakersudah berjalan dengan benar atau tidak

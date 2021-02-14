@@ -1,0 +1,79 @@
+rural electric distribution program is one of the steps that taken by the pt pln to divide the electricity to all the remote areas in indonesia
+rural electrification program was also conducted in the area sintang, so that all rural areas in sintang can be electrified
+in rural electric distribution we calculated the group of villages that should become a list of priorities
+determination of the villages should be prioritized based on several indicators, namely indicators of the number of potential customers, power demand, power demand projections, as well as the distance to the village which will supply power to villages
+mapping and geographic distribution of management power is needed to map the distribution of village with rural electric into a form of spatial data, and analysis needed in the process of determining the priority of rural electric distribution
+this research aims to map and manage the distribution of electricity in villages sintang into spatial data and analyze it so it can produce a priority list of villages in the rural electric widening
+analysis of composite prioritization is done by using pca and the analysis of clustering to reduce the variables / indicators determining priorities and grouping the results of pca analysis that can determine the priority of the village
+this system can manage tabular and spatial data of rural electric that exist in sintang, and display them in the form of maps 
+the system can analyze and generate electricity distribution priorities based on rural electric in the selected villages
+the priority result of rural electric is calculated based on indicators of potential customers, power demand, power demand projections and also the distance to rural electric in the selected villages, as well as priority by all indicators are displayed in tabular and spatial data
+keywords: rural electric, mapping, spatial data, analysis, pca, clustering, composite, reduction, indicators, identification, priority
+dan sumber energi dalam segala bentuk usaha dan aktifitas sehari-hari, oleh karena itu listrik sudah menjadi salah satu kebutuhan pokok bagi masyarakat dalam melaksanakan segala bentuk aktifitas operasional dalam pengendalian sarana komunikasi, informasi, maupun kegiatan rumah tangga
+saat ini rasio elektrifikasi masih sekitar 75%, dan masih 25% lagi rumah tangga di seluruh indonesia yang belum teraliri listrik 
+pedalaman di seluruh indonesia, termasuk juga desa-desa yang berada di daerah provinsi kalimantan barat
+pt pln sudah menyiapkan beberapa konsep dan program untuk mewujudkan 100% daerah di seluruh indonesia sudah teraliri listrik tahun 2020, salah satunya dengan menyiapkan program lisdes yang akan memfasilitasi kebutuhan listrik di daerah pedesaan yang belum teraliri listrik
+program lisdes dilaksanakan dengan berdasarkan daerah/desa yang diprioritaskan untuk dialiri listrik
+penentuan desa prioritas pengaliran lisdes membutuhkan beberapa pengukuran diantaranya jarak desa dari sumber tegangan, kemungkinan kondisi geografis desa jika dipasang tiang listrik, sampai dengan tingkat kemampuan ekonomi masyarakat desa untuk pembayaran tagihan rekening litrik
+untuk mengetahui sebaran desa yang memiliki kemungkinan terbaik dalam pemasangan instalasi dan pengaliran listrik tersebut dapat dilakukan melalui analisis multivariant yang diantaranya didasarkan pada analisis komponen utama atau biasa dikenal dengan analisis komponen utama 
+teknik analisis tersebut banyak diterapkan dalam analisis multivariat (soemartini
+2008), diamati, untuk evaluasi hubungan antar variabel dan untuk mengungkap faktor-faktor yang menyebabkan perbedaan dalam variabel bebas
+kabupaten sintang adalah salah satu daerah tingkat ii di provinsi kalimantan barat, dimana ibu kota kabupaten ini terletak di kota sintang
+kebutuhan listrik di kabupaten sintang terbilang sangat mendesak karena kekurangan 6 mega watt dari kebutuhan total 20 mega watt
+penentuan perlu dilakukan demi tercapainya elektrifikasi yang efektif di kabupaten sintang
+berdasarkan kebutuhan tersebut, diharapkan sistem informasi geografis yang akan dibuat ini dapat memberikan informasi beberapa alternatif desa di kabupaten sintang yang memiliki kemungkinan terbaik untuk dijadikan sebagai prioritas pengaliran listrik dari data spasial yang digambarkan oleh aplikasi
+dari informasi tersebut, diharapkan dapat membantu pihak pln kabupaten sintang dalam pengambilan keputusan desa yang akan terlebih dahulu dialiri oleh lisdes
+sifat benda yang muncul dari adanya muatan listrik
+listrik, dapat juga diartikan sebagai berikut (arismunandar
+1982) listrik adalah kondisi dari partikel subatomik tertentu, seperti elektron dan proton, yang menyebabkan penarikan dan penolakan gaya di antaranya
+ listrik adalah sumber energi yang disalurkan melalui kabel
+arus listrik timbul karena muatan listrik mengalir dari saluran positif ke saluran negatif
+2.2 energi listrik di kabupaten sintang kabupaten sintang adalah salah satu daerah tingkat ii di provinsi kalimantan barat, dan ibu kota kabupaten ini terletak di kota sintang
+berdasarkan data pln kabupaten sintang, kebutuhan listrik di kabupaten sintang terbilang sangat mendesak karena kekurangan 6 mega watt dari kebutuhan total 20 mega watt, dan terdapat 58.218 calon pelanggan yang belum dialirkan tenaga listrik
+calon pelanggan tersebut tersebar di beberapa desa dalam 14 kecamatan yang ada di kabupaten sintang, dimana setiap pemasangan intalasi listrik, daya yang akan diberikan sebesar 450 watt per pelanggan
+2.3 sistem informaai geografis menurut damers dalam prahasta, eddy, sig adalah sistem komputer yang digunakan untuk mengumpulkan, memeriksa, mengintegrasikan, dan menganalisa informasi- data dan data atribut
+sedangkan data atribut misalnya data sensus penduduk, catatan survei, data statistik lainnya
+kumpulan data dalam jumlah besar dapat disusun menjadi sebuah basisdata
+jadi dalam sig juga dikenal adanya basisdata yang lazim disebut sebagai basisdata spasial 
+2.4 perangkat lunak arcgis 10 arcgis adalah salah satu software yang dikembangkan oleh esri yang merupakan kompilasi fungsi-fungsi dari berbagai macam software gis yang berbeda seperti gis desktop, server, dan gis berbasis web
+software ini mulai dirilis oleh esri pada tahun 2000 (budiyanto, eko
+komponen yang fokus ke penggunaan data yang komprehensif, pemetaan dan analisis
+lebih fokus ke arah editing data spasial
+lebih lengkap dalam menyajikan fungsi- fungsi si termasuk untuk keperluan analisis geoprosesing
+produk arcgis desktop merupakan perangkat lunak sig profesional yang komprehensif dan dikelompokkan atas tiga komponen yaitu : arcview, arceditor dan arcinfo 
+pca adalah sebuah teknik untuk membangun variabel-variabel baru yang asli 
+jumlah maximum dari pca pada dasarnya adalah bertujuan untuk menyederhanakan variabel yang diamati dengan cara menyusutkan dimensinya
+hal ini dilakukan dengan cara menghilangkan korelasi diantara variabel bebas melalui transformasi variabel bebas asal ke variabel baru yang tidak berkorelasi sama sekali atau yang biasa disebut dengan principal component
+setelah beberapa komponen hasil pca yang bebas multikolinearitas diperoleh, maka komponen-komponen tersebut atau dianalisa pengaruhnya terhadap variabel tak bebas dengan menggunakan analisis regresi
+2.6 analisis gerombol analisis gerombol adalah suatu metode yang digunakan untuk mengelompokan sampling unit menjadi beberapa kemiripan sampling unit dalam kelompok yang sama dibandingkan antar sampling unit dan kelompok yang bebeda (santoso, singgih
+gerombol dengan k < n bedasarkan q komponen yang diperoleh dalam pca
+sehingga unit-unit objek dalam satu gerombol mempunyai sifat-sifat yang lebih mirip dibandingkan dengan unit objek lain yang terdapat dalam gerombol yang berbeda
+penggerombolan pada umumnya kemiripan antar unit pengamatan
+konsep-konsep jarak yang digunakan dalam analisis gerombol adalah jarak euclidean, jarak mahalanobis, jarak manhattan, jarak pearson, jarak kuasa dan jarak chebycev
+dalam penggerombolan desa ini digunakan jarak euclidean, yaitu jika antar variabel memiliki satuan yang sama dan tidak saling memperoleh daftar desa yang menjadi prioritas dalam persebaran lisdes di kabupaten sintang: 1
+persiapan analisis data: pada proses ini sistem akan melakukan pemisahan data masing-masing indikator, serta melakukan normalisasi terhadap data tersebut
+proses pengolahan data untuk menentukan range indikator: pada proses ini sistem akan menentukan range masing-masing indikator persebaran lisdes kabupaten sintang berdasarkan indikator yang dipilih
+analisis komposit dengan bantuan software minitab: proses ini dilakukan di dalam minitab dengan melakukan standarisasi data, analisis pca, serta clustering
+hasil dari proses analisis komposit ini adalah nilai cluster centroid masing- masing cluster serta daftar desa yang sudah dikelompokkan ke dalam kelasnya masing- masing
+menentukan urutan prioritas: proses ini dilakukan oleh sistem dengan mengolah data cluster centroid dan cluster desa hasil analisis komposit 
+pada penentuan cluster mana yang masuk ke dalam prioritas 1, 2, dan seterusnya adalah dengan mengurutkan nilai cluster centroid dari nilai tertinggi sampai nilai terkecil
+cluster desa yang memiliki nilai cluser centroid paling tinggi masuk ke dalam prioritas 1, begitu juga seterusnya
+menghasilkan suatu sistem informasi geografis yang dapat memetakan persebaran lisdes di kabupaten sintang, serta menentukan desa yang akan dijadikan prioritas dalam persebaran lisdes berdasarkan indikator jumlah calon pelanggan, kebutuhan daya, proyeksi kebutuhan daya, dan jarak desa terhadap lisdes yang akan mengalirkan lisdes
+berdasarkan hasil analisis tersebut, sistem bisa memberikan beberapa alternatif desa yang akan dijadikan sebagai prioritas dalam pengaliran lisdes
+desain penentuan prioritas sebaran lisdes di kabupaten sintang dapat dilihat pada gambar 1 berikut: indikator jumlah calon pelanggan lisdes kabupaten sintang form-form yang memiliki fungsi tertentu sesuai dengan proses-proses yang ada
+form-form tersebut diakses melalui menu pada form utama
+struktur antarmuka sistem yang dirancang sebagai berikut
+form utama prioritas desa berdasarkan masing-masing prioritas desa yang ditampilkan oleh aplikasi ke dalam bentuk data spasial : gambar 5
+hasil analisis prioritas desa berdasarkan jumlah calon pelanggan berdasarkan kebutuhan daya berdasarkan proyeksi kebutuhan daya berdasarkan jarak desa terhadap lisdes gambar 9
+hasil analisis prioritas desa berdasarkan semua indikator menggunakan metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+data pengujian dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari sistem
+pengujian dilakukan dengan menyamakan hasil perhitungan yang dilakukan oleh sistem terhadap hasil perhitungan secara manual sesuai dengan masing-masing proses yang dilakukan oleh sistem
+pengujian dilakukan terhadap proses manajemen data dengan menyamakan pengujian hasil perhitungan data kebutuhan daya, proyeksi kebutuhan daya, serta jarak pada setiap desa yang dilakukan oleh sistem dengan hasil perhitungan secara manual pengujian terhadap proses penentuan prioritas dilakukan dengan menyamakan hasil analisis penentuan prioritas yang dilakukan oleh sistem dengan hasil analisis prioritas yang dilakukan secara manual pada proses analisis komposit, dilakukan perhitungan persentase oleh minitab
+hasil analisis pca dalam minitab penjelasan dari analisis pca di atas adalah sebagai berikut: 1
+presentase informasi yang bisa dijelaskan oleh masing-masing komponen pca
+besarnya kumulatif persen yang dijelaskan komponen pc1 – pc3 dalam hal ini sebesar 0.997 atau 99.7% tingkat kepercayaan
+bobot indikator pada masing-masing komponen pca 3.1.2 cluster centroid dari hasil analisis gerombol yang dilakukan di dalam minitab proses penentuan urutan prioritas desa diperoleh dari nilai masing-masing cluster pada c11, dimana nilai cluster paling tinggi merupakan cluster yang masuk ke dalam prioritas satu
+berdasarkan cluster centoid yang dihasilkan dalam analisis gerombol, nilai cluster 1, cluster 2, dan cluster 3 diurutkan dari yang terbesar hingga yang terkecil sebagai berikut: 4 kesimpulan berdasarkan hasil analisis dan pengujian terhadap sistem informasi geografis penentuan prioritas sebaran listrik desa kab
+sistem informasi geografis yang dirancang dapat menampilkan daftar desa yang menjadi prioritas dalam persebaran lisdes di kabupaten sintang berdasarkan indikator yang ada, baik itu prioritas berdasarkan masing-masing indikator maupun prioritas berdasarkan semua indikator yang ditampilkan dalam bentuk data tabular dan data spasial 
+sistem yang dirancang menggunakan metode principal component analysis dan cluster observation dapat menghubungkan data spasial dan tabular lisdes kabupaten sintang, sehingga dapat menentukan desa yang dijadikan prioritas dalam persebaran lisdes di kabupaten sintang
+hasil perhitungan dengan menggunakan metode pca dan cluster observation menunjukkan bahwa data karakteristik lisdes yang dianalisis menghasilkan tingkat kepercayaan sebesar 99, 7% dan dari nilai cluster tertinggi dapat diketahui bahwa indikator yang paling mempengaruhi dalam penentuan prioritas lisdes adalah indikator kebutuhan daya dan proyeksi kebutuhan daya

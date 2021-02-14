@@ -1,0 +1,9 @@
+oint berbasis android 2, heri priyanto pelayanan dan penyediaan air minum / air bersih
+pemenuhan kebutuhan tersebut erat kaitannya dengan kualitas pelayanan yang dapat diukur dengan melihat keluhan dan umpan balik dari masyarakat, diantaranya kualitas air, distribusi dan pelayanan
+metode cut-off point digunakan dengan maksud memastikan derajat kebutuhan kriteria
+kuesioner yang berisi kriteria-kriteria yang ada dibagikan ke sejumlah responden yang memiliki pengalaman dan keahlian di bidang terkait untuk memberikan penilaian
+hasil uji terhadap pemilihan jawaban yang terdiri atas 48 soal untuk kemudian dibandingkan dengan nilai cut-off sebesar 2, 5 untuk menghasilkan indeks kepuasan pelanggan
+hasil uji kompatibilitas menunjukkan aplikasi dapat berjalan pada sistem operasi android v4.1 hingga android v5.1 
+aplikasi juga tidak menguras memori karena hasil pengujian penggunaan memori mengindikasikan pdam tirta khatulistiwa mengenai kepuasan pelanggan terhadap pelayanan dengan melihat indeks kepuasan pelanggan yang merupakan rekapitulasi dari pilihan pengguna terhadap aplikasi yang dirancang dalam bentuk mobile dan web
+dengan kepuasa atau ketidakpuasan pelangga sebagaimana respon pelanggan terhadap evaluasi ketidak sesuaian atau diskonfirmasi yang dirasakan antara harapan sebelumnya dan kinerja aktual produk yang dirasakan setelah pemakaian
+artinya bahwa pelanggan akan merasa puas bila hasilnya sesuai dengan yang diharapkan dan sebaliknya pelanggan akan merasa tidak puas bila hasilnya tidak sesuai dengan harapan juga 

@@ -1,0 +1,144 @@
+eee paper template in a4 vol 4 no 2 perbandingan akurasi regresi logistik dengan regresi multinomial untuk prediksi kategori ip mahasiswa jalur prestasi r
+gunawan santosa#1, antonius rachmat chrismanto#2 #fakultas teknologi informasi, program studi informatika, universitas kristen duta wacana yogyakarta jl
+dr wahidin sudirohusodo no 5-25 yogyakarta 1gunawan@staff.ukdw.ac.id 2anton@ti.ukdw.ac.id antara model regresi logistik dengan model regresi multinomial terhadap kategori indeks prestasi semester pertama mahasiswa jalur prestasi di fakultas teknologi informasi ukdw untuk mengetahui akurasi yang terbaik
+pada kedua model tersebut yang digunakan sebagai variabel dependen adalah indeks prestasi semester pertama dan sebagai variabel independen yang digunakan adalah lokasi, kategori, dan status sma serta level kemampuan bahasa inggris
+dataset untuk membuat model regresi logistik maupun regresi multinomial digunakan data mahasiswa fti angkatan 2008 sampai dengan angkatan 2015 secara kumulatif, sedangkan data ujinya menggunakan data ips1 mahasiswa angkatan 2016
+akurasi kedua model diukur dengan menggunakan tabel crosstab
+tabel crosstab menunjukkan nilai akurasi antara kategori data hasil prediksi dengan kategori data ips1 mahasiswa fti angkatan 2016 yang sebenarnya
+rata-rata akurasi prediksi kategori ips1 mahasiswa angkatan 2016 melalui jalur prestasi dengan dengan model regresi logistik adalah 67, 80125%, sedangkan rata-rata akurasi hasil prediksi dengan model regresi multinomial adalah 67, 175 %
+selisih akurasi dari kedua metode tersebut ternyata tidak jauh berbeda
+pendahuluan keberhasilan belajar di perguruan tinggi
+ada beberapa mahasiswa yang mendapat indeks prestasi tinggi, namun ada pula mahasiswa-mahasiswa yang memperoleh indeks prestasi yang sangat rendah
+pada pengamatan yang terjadi di universitas kristen duta wacana terutama di fakultas teknologi informasi, ternyata di tahun pertama ada beberapa mahasiswa yang pindah ke fakultas lain
+selain itu ada beberapa mahasiswa yang sudah tidak melakukan registrasi pada semester-semester berikutnya yaitu sudah tidak aktif dalam perkuliahan atau mengundurkan diri sebagai mahasiswa fti ukdw
+ada banyak faktor internal yang mempengaruhi nilai indeks prestasi mahasiswa, misalnya minat, bakat, kemampuan, kerajinan, motivasi diri dalam mahasiswa
+selain faktor internal, terdapat juga faktor eksternal yang akan menjadi perhatian: 1) lokasi sekolah menengah atas, yang dapat dikategorikan menjadi sma di jawa dan sma di luar jawa, 2) kategori sekolah menengah atas yaitu sma dan smk, 3) status sma, yaitu sma dengan negeri atau swasta, dan 4) level bahasa inggris dari calon mahasiswa 
+pada penelitiantelah diselidiki tentang faktor-faktor yang mempengaruhi ipk mahasiswa secara signifikan, namun belum melihat hubungan yang jelas antara ipk dan faktor-faktor tersebut
+ternyata terdapat korelasi antara indeks prestasi semester 1 dengan indeks prestasi kumulatif mahasiswa
+terbukti bahwa ips1 paling berpengaruh pada indeks prestasi semester semester sesudahnya
+pada penelitian, santosa & chrismanto telah menyelidiki tentang prediksi kategori ip semester 1 dengan menggunakan model regresi logistik
+dan hasilnya ternyata rata-rata akurasi prediksi kategori ip semester 1 mahasiswa angkatan tahun 2016 jalur prestasi adalah 67, 8013%
+hasil ini tidak terlalu berbeda dengan penelitian sebelumnya
+sebelumnya yang pada hakikatnya mencoba membandingkan akurasi model regresi multinomial dengan model regresi logistik untuk memprediksi kategori ips 1 mahasiswa fti ukdw
+penelitian ini diharapkan dapat meningkatkan akurasi prediksi terhadap kategori ips1 mahasiswa angkatan 2016
+educational data mining penelitian ini pada hakikatnya termasuk dalam bidang data mining
+data mining mempunyai akar pada ilmu pembelajaran mesin, kecerdasan buatan, ilmu komputer, dan statistik
+berbagai pendekatan metode dalam data mining yang berbeda adalah pengelompokan, klasifikasi, dan pembangunan aturan asosiasi
+masing-masing pendekatan ini dapat digunakan untuk menganalisis secara kuantitatif sekumpulan data besar untuk mendapatkan makna tersembunyi pada suatu sistem
+data mining biasanya adalah proses eksplorasi, tetapi ia dapat juga digunakan untuk penyelidikan konfirmasi
+pada penelitiandata mining adalah suatu ilmu yang sedang berkembang pesat sebagai bagian dari ilmu komputer dan teknik informatika
+data mining yang diterapkan dalam pendidikan atau pengajaran adalah suatu penelitian yang menyangkut berbagai bidang ilmu interdisipliner yang saat ini berkembang sangat pesat
+bagian data mining ini, juga dikenal dengan istilah educational data mining 
+hal ini berkaitan dengan pengembangan berbagai metode untuk mengeksploitasi jenis data unik yang berasal dari lingkungan pendidikan
+tujuannya adalah untuk memahami lebih baik bagaimana proses belajar dari siswa dan mengidentifikasi keadaan atau kondisi dimana mereka dapat meningkatkan hasil pendidikan serta untuk mendapatkan wawasan dan mendapatkan kejelasan pada fenomena pendidikan yang sedang terjadi
+menurut penelitian, ada beberapa metode populer yang ada dalam edm, yaitu: prediksi, clustering, deteksi outlier, relationship mining, social network analysis, process mining, dan text mining
+pada penelitiandilakukan penelitian yang berhubungan dengan data mining dalam konteks pendidikan dengan menawarkan model untuk sistem pendidikan tinggi di universitas
+dalam penelitian ini, metode klasifikasi digunakan untuk mengevaluasi kinerja siswa dan karena ada banyak pendekatan yang digunakan untuk klasifikasi data, metode pohon keputusan digunakan pada penelitian ini
+dengan menggunakan klasifikasi data maka dapat mengekstrak pengetahuan yang menggambarkan kinerja siswa dalam ujian akhir semester
+hal ini membantu dalam mengidentifikasi siswa putus sekolah dan siswa yang membutuhkan perhatian khusus serta memungkinkan pengajar untuk memberikan bimbingan atau konseling yang sesuai
+najmi ghani haidermengadakan penelitian menggunakan metode data mining untuk mempelajari dan mengamati kinerja mahasiswa
+ada dua aspek kinerja siswa telah diamati dan dipelajari
+pertama, adalah memprediksi pencapaian akademik siswa pada akhir empat tahun program studi
+kedua, mempelajari perkembangan khusus dan menggabungkannya dengan hasil prediksi tersebut
+dua kelompok siswa telah diidentifikasi yaitu: siswa berprestasi tinggi dan rendah
+hasilnya menunjukkan bahwa dengan berfokus pada sejumlah mata kuliah khusus yang merupakan indikator kinerja yang sangat baik atau buruk, maka adalah mungkin untuk menyediakan peringatan atau pesan yang tepat waktu bagi siswa
+dengan adanya pesan tersebut, maka dapat diberikan peringatan do dan dukungan untuk siswa berprestasi rendah sedangkan untuk siswa yang berprestasi tinggi dapat diberikan peluang dan nasehat lebih lanjut yang berguna untuk karir mereka
+terakhir, institusi pendidikan mulai menggunakan teknik data mining untuk meningkatkan layanan yang mereka sediakan dan untuk meningkatkan nilai dan pengetahuan siswa, oleh karena itu s
+mohamed shanavasmelakukan penelitian yang membahas tentang aplikasi educational data mining yang dapat membuat prediksi dan rekomendasi tindakan berdasarkan peningkatan pengetahuan ke dalam tindakan siswa
+pengajar mendapatkan pemahaman dan pandangan terhadap kinerja siswa yang akan membantu mereka dalam menyesuaikan pengajaran, tutorial dan tugas yang akan diberikan kepada siswa
+dengan menggunakan data yang ada, maka institusi dapat membuat kebijakan, melaksanakan program, dan menyesuaikan kebijakan dan program untuk kemajuan pengajaran dan pembelajaran
+regresi logistik dan multinomial regresi logistik mulai digunakan pada riset epidemiologi
+regresi ini membuat atau membentuk hubungan antara satu atau lebih variabel independen terhadap kondisi penyakit yang diderita
+dalam hal ini penyakit yang diderita merupakan variabel dependen yang bernilai dikotomi yaitu 0 mewakili dan 1 mewakili 
+bentuk regresi logistik sederhana dan regresi multinomial sederhana dapat digambarkan secara mudah pada keterangan berikut ini
+untuk bentuk regresi logistik : y = 1 1+e− atau y = e 1+e 
+data yang mempunyai titik cut off yang tajam antara nilai y=0 dan y=1 akan mempunyai nilai  yang cenderung besar, seperti pada gambar 1 
+data yang mempunyai transisi yang panjang dari y=0 dan y=1 akan mempunyai nilai  yang cenderung kecil, seperti pada gambar 1 
+untuk melakukan proses klasifikasi data, secara umum gambar 1 lebih baik karena lebih tegas
+data yang mempunyai gradien atau kemiringan yang besar akan mempunyai nilai  yang cenderung besar, seperti pada gambar 2 
+data yang mempunyai gradien atau kemiringan yang kecil akan mempunyai nilai  yang cenderung kecil, seperti pada gambar 2 
+untuk melakukan proses klasifikasi data, secara umum gambar 2 lebih baik karena jarak antara titik tertinggi dan terendah lebih terdeteksi
+penelitian yang dilakukan pada tulisan ini difokuskan pada analisis mengenai prediksi data
+prediksi indeks prestasi mahasiswa semester satu di suatu perguruan tinggi perlu dilakukan secara dini untuk menanggulangi masalah-masalah yang mungkin akan ditimbulkan oleh mahasiswa di kemudian hari
+penelitian yang berhubungan dengan prediksi ip semester satu mahasiswa telah dilakukan, diantaranya adalah: 1
+telah dilakukan penelitian perbandingan akurasi algoritma c4.5 dan cart dalam memprediksi kategori ip mahasiswa, hasilnya algoritma c4.5 dan cart memiliki akurasi yang sama untuk memprediksi kategori ip mahasiswa baru angkatan 2016 pada jalur prestasi, yaitu sebesar 86, 86%
+untuk memprediksi kategori ip mahasiswa baru angkatan 2016 pada jalur non-prestasi, algoritma cart memberikan akurasi lebih baik daripada c4.5, yaitu 63, 16% berbanding 61, 54%
+kategori ip mahasiswa jalur prestasi dengan non jalur prestasi, hasilnya hasil rata-rata akurasi model prediksi kategori ips1 mahasiswa angkatan 2016 jalur prestasi setelah uji signifikansi adalah 70, 94% sedangkan hasil akurasi rata-rata model prediksi kategori ips1 mahasiswa angkatan 2016 non jalur prestasi setelah uji signifikansi adalah 65, 8%
+jadi rata- rata persentase akurasi model regresi logistik dalam memprediksi kategori ips1 mahasiswa baru angkatan 2016 melalui jalur prestasi lebih tinggi daripada persentase akurasi model regresi logistik dalam memprediksi kategori ips1 mahasiswa baru melalui non jalur prestasi
+pada penelitian ini dibuat model regresi logistik dan model regresi multinomial untuk memprediksi kategori ips1 mahasiswa fti ukdw
+pada model regresi logistik variabel independennya adalah status sma, lokasi sma, kategori sma, level bahasa inggris 
+sedangkan variabel dependennya adalah kategori ips1 yaitu variabel dikotomi yang berupa status subjek yang diklasifikasikan sebagai 0 dan 1 
+gambar 3 menggambarkan skema model regresi logistik pada penelitian ini
+skema model regresi logistik gambar 4 menggambarkan skema model regresi multinomial pada penelitian ini
+regresi logistik adalah pendekatan model yang dapat digunakan untuk menggambarkan relasi beberapa variabel independen x terhadap variabel dependen d yang bernilai dikotomi
+regresi logistik didasarkan pada fungsi logistik yang dapat dilihat pada persamaan 
+𝑓 = 1 bentuk grafik fungsi logistik dengan variabel independen z adalah seperti pada gambar 3
+grafik fungsi logistik dari gambar 5 terlihat sifat-sifat fungsi logistik sebagai berikut: 1
+range nilai f terletak di antara 0 sampai dengan 1 tanpa memandang nilai z
+alasan lain mengapa model logistik menjadi populer adalah karena bentuk dari fungsi logistik
+bentuk fungsi ini menggambarkan bentuk kurva s, sehingga sering disebut termasuk fungsi sigmoid
+karena nilai f terletak di antara 0 sampai dengan 1 inilah maka alasan regresi logistik adalah populer
+model ini dirancang untuk menggambarkan probabilitas yang selalu terletak antara 0 sampai dengan 1
+dalam istilah epidemiologi probabilitas seperti ini memberikan nilai resiko dari seorang individu untuk mendapatkan penyakit tertentu
+adalah f dan sebagai fokus utama adalah z yang dapat dituliskan sebagai kombinasi linier dari x1, x2, x3, …, xk, yang dapat dilihat pada persamaan dan 
+z =  + 1x1 + 2x2 + … + kxk … sehingga 𝑓 = 1 diketahui dan akan diestimasi dari dataset yang berupa sampel dengan menggunakan maksimum likelihood estimator 
+sehingga parameter  dan i akan diestimasi oleh �̂� dan 𝛽�̂�
+sedangkan, regresi multinomial merupakan pengembangan dari regresi linier sederhana
+regresi multinomial mempunyai bentuk model pada formula : y =  + 1x1 + 2x2 + … + kxk … dengan y adalah variabel dependen dan x1, x2, x3, x4, … xk adalah variabel independen
+dengan menggunakan estimasi lse maka akan didapat nilai �̂� dalam bentuk persamaan normal pada persamaan 5: �̂� = −1 … nilai y pada formula akan berbentuk skala rasio sehingga perlu ditransformasikan menjadi bentuk nominal atau ordinal supaya dapat dibandingkan dengan regresi logistik yang outputnya berbentuk variabel kategori 
+transformasi untuk mengubah skala rasio menjadi skala nominal atau ordinal menggunakan pengkodean ulang, yaitu bila �̂� < rata-rata ips1 maka dikodekan dengan sedangkan bila �̂�  rata-rata ips1 akan dikodekan dengan 
+sehingga hasil prediksi dari regresi logistik dan regresi multinomial ini mempunyai tipe skala yang sama yaitu berskala nominal atau ordinal pada penelitian ini, untuk mengukur ketepatan hasil prediksi dengan model regresi logistik dan regresi multinomial dapat digunakan tabel crosstab antara data hasil prediksi dan nilai data observasi sebenarnya seperti dapat dilihat pada tabel i
+tabel i crosstab antara nilai data observasi sebenarnya dan nilai data hasil prediksi nilai data hasil ketepatan hasil prediksi diukur dengan persamaan 6
+presentasi kecocokan = / n … persamaan 6 tersebut yang merupakan ukuran akurasi untuk kedua model tersebut
+peneliti mengambil data mahasiswa ukdw dari puspindika yang meliputi data mahasiswa fakultas teknologi informasi yang terdiri dari prodi si dan prodi ti
+sebagai batasan hanya akan diambil data mahasiswa si dan ti sebanyak 8 tahun akademik yang berurutan yaitu dari angkatan 2008 sampai dengan angkatan 2015
+data yang dari puspindika ini meliputi kategori sma, status sma, lokasi sma dan indeks prestasi semester 1
+setelah itu peneliti juga mengambil data level kemampuan bahasa inggris calon mahasiswa fti ukdw dari puspindika 
+setelah itu peneliti memilih data mahasiswa fti tersebut yang diterima melalui jalur prestasi
+kenyataan saat ini proses penerimaan mahasiswa baru di ukdw ada dua jalur yaitu jalur prestasi dan non jalur prestasi 
+tes kemampuan numerik, verbal, spasial dan analogi
+perbedaan antara dua jalur ini adalah pada proses penerimaannya, pada jalur prestasi tidak mengikuti tes kemampuan akademik sedangkan pada non jalur prestasi harus mengikuti empat tes kemampuan akademik tersebut
+kemudian setelah dibersihkan data tersebut diolah dengan menggunakan regresi logistik
+model regresi logistik sebagai fokus utama adalah z yang dapat dituliskan sebagai kombinasi linier dari x1, x2, x3, …, xk, yang dapat dilihat pada persamaan 2 dan 3, yaitu: z =  + 1x1 + 2x2 + … + kxk dengan menggunakan maksimum likelihood diestimasi oleh �̂� dan 𝛽�̂�
+peneliti kemudian menggunakan model regresi multinomial mempunyai bentuk model pada persamaan 4
+variabel dependen dan x1, x2, x3, x4, … xk adalah variabel independen
+dengan menggunakan akan didapat nilai �̂� dalam bentuk persamaan normal pada persamaan 5
+mencari 7 model regresi logistik dan 7 model regresi multinomial untuk kasus penerimaan mahasiswa baru melalui jalur prestasi adalah:  model a adalah model regresi logistik dengan menggunakan data mahasiswa angkatan 2008  model b adalah model regresi logistik dengan menggunakan data mahasiswa angkatan 2008 sampai dengan angkatan 2009  model c adalah model regresi logistik dengan menggunakan data mahasiswa angkatan 2008 sampai dengan angkatan 2010  model d adalah model regresi logistik dengan menggunakan data mahasiswa angkatan 2008 sampai dengan angkatan 2011  model e adalah model regresi logistik dengan menggunakan data mahasiswa angkatan 2008 sampai dengan angkatan 2012  model f adalah model regresi logistik dengan menggunakan data mahasisiwa angkatan 2008 sampai dengan angkatan 2013  model g adalah model regresi logistik dengan menggunakan data mahasiswa angkatan 2008 sampai dengan angkatan 2014  model h adalah model regresi logistik dengan menggunakan data mahasiswa angkatan 2008 sampai dengan angkatan 2015 7
+menggunakan 8 model regresi logistik untuk memprediksi kategori ips 1 mahasiswa baru angkatan 2016 yang penerimaannya melalui jalur prestasi
+menggunakan 8 model regresi multinomial untuk memprediksi kategori ips 1 mahasiswa baru angkatan 2016 yang penerimaannya melalui jalur prestasi
+mengukur akurasi hasil prediksi regresi logistik dan regresi multinomial dari ke tujuh model tersebut terhadap data observasi sebenarnya dengan menggunakan crosstab ( tabulasi iv
+hasil dan pembahasan pada tabel ii dan iii
+tabel iii jumlah mahasiswa fakultas teknologi informasi dari tahun 2008 sampai dengan tahun 2016 no angkatan total jalur tabel iiiii dari tahun 2008 sampai dengan tahun 2015 no angkatan total jalur 2 2008 sampai terdapat sedikit perubahan data, sehingga data yang digunakan agak berbeda dengan jumlah data pada tulisan sebelumnya
+karena data variabel dependen harus data dikotomi d maka indeks prestasi semester 1 dijadikan data biner yaitu : 0 < ips1 < rata-rata ips1 dikodekan menjadi dan < ips1 < 4, 000 dikodekan menjadi, dalam hal ini rata-rata diambil berdasarkan seluruh sampel
+jadi kode berarti ips1 yang dibawah rata-rata dan kode berarti ips1 di atas rata-rata
+ data ditransformasikan atau diubah menjadi bentuk yang cocok untuk diolah atau dianalisis
+tahap berikutnya adalah data transformation 
+melibatkan variabel status sma, lokasi sma, kategori sma, level bahasa inggris 
+sehingga model jalur prestasi hanya mempunyai empat variabel independen x1, x2, x3 dan x4
+seperti pada kasus regresi biasa model regresi yang sudah ada dapat disederhanakan dengan uji signifikansi koefisien beta
+berikut ini merupakan bentuk model regresi logistik dan regresi multinomial sebelum dan sesudah disederhanakan
+dari tabel 4 juga dapat terlihat bahwa : - untuk model a ternyata yang berpengaruh adalah level bahasa inggris
+untuk model b ternyata yang berpengaruh adalah variabel level bahasa inggris
+untuk model c ternyata yang berpengaruh adalah lokasi sma
+untuk model d ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model e ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model f ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model g ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model h ternyata yang berpengaruh adalah kategori sma dan level bahasa inggris tabel v tabel rangkuman koefisien regresi multinomial untuk jalur prestasi setelah uji signifikansi cocok 2008 2008 sd 2008 sd 2008 sd 2008 sd 2008 sd 2013 2008 sd 2008 sd 2015 kecocokanya adalah 65, 21%
+dari tabel v juga dapat terlihat bahwa: - untuk model a ternyata yang berpengaruh adalah level bahasa inggris
+untuk model b ternyata yang berpengaruh adalah variabel level bahasa inggris
+untuk model c ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model d ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model e ternyata yang berpengaruh adalah lokasi sma, kategori sma dan level bahasa inggris
+untuk model f ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model g ternyata yang berpengaruh adalah lokasi sma dan level bahasa inggris
+untuk model h ternyata yang berpengaruh adalah lokasi sma, kategori sma dan level bahasa inggris
+model pada tabel ii tersebut untuk memprediksi kategori indeks prestasi semester 1 mahasiswa fti pada penerimaan mahasiswa angkatan 2016 melalui jalur prestasi dan persentase kebenarannya dengan tabel crosstab pada tabel vi
+angkatan 2016 melalui jalur prestasi dengan menggunakan regresi multinomial model a sampai model h tabel viii mahasiswa angkatan 2016 jalur prestasi dengan menggunakan regresi logistik model a sampai dengan model h
+dari tabel viii terlihat bahwa rata-rata persentase kebenaran untuk prediksi kategori ip semester 1 mahasiswa angkatan 2016 melalui jalur prestasi dengan menggunakan model a sampai dengan model h adalah 67, 80125 % tabel ix mahasiswa angkatan 2016 jalur prestasi dengan menggunakan regresi multinomial model a sampai dengan model h dari tabel ix terlihat bahwa rata-rata persentase kebenaran untuk prediksi kategori ip semester 1 mahasiswa angkatan 2016 melalui non jalur prestasi dengan menggunakan model a sampai dengan model h adalah 67, 175 %
+hasil rata-rata akurasi pemodelan kategori ip semester 1 mahasiswa jalur prestasi dengan menggunakan regresi logistik adalah 70, 94%, sedangkan bila menggunakan regresi multinomial adalah 65, 21%
+hasil rata-rata akurasi prediksi kategori ip semester 1 mahasiswa angkatan tahun 2016 jalur prestasi dengan menggunakan regresi logistik adalah 67.80125%, sedangkan bila menggunakan regresi multinomial adalah 67, 175%
+dapat disimpulkan bahwa untuk rata-rata akurasi pemodelan lebih tinggi menggunakan regresi logistik
+tetapi untuk kestabilan model prediksi terlihat bahwa model regresi multinomial lebih stabil daripada model regresi logistik, hal ini dapat dilihat dari standar deviasi model regresi multinomial sebesar 3, 93 yang lebih rendah dari standar deviasi model regresi logistik yang sebesar 6, 1373
+dari dua model regresi tersebut apabila digunakan untuk memprediksi kategori ip semester 1 mahasiswa fti angkatan 2016 mempunyai akurasi hampir sama yaitu sekitar 67%
+ucapan terima kasih yogyakarta atas bantuan dana dan infrastruktur sehingga penelitian ini dapat berjalan dengan baik dan lancar

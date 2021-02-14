@@ -1,0 +1,12 @@
+eee paper template in a4 vol 6 no 1 april 2020 diagnosis tahapan pengguna narkoba menggunakan metode k-nearest neighbor tursina#1, hafiz muhardi#2, dian aulia sari#3 #program studi informatika, fakultas teknik, universitas tanjungpura jl
+hadari nawawi, pontianak 78124 1tursina@informatika.untan.ac.id 2hafiz.muhardi@informatika.untan.ac.id 3diianauliasarii@gmail.com akan memberikan dampak buruk yang luar biasa seperti gangguan kesehatan, gangguan kejiwaan hingga kematian
+seorang pengguna narkoba cenderung tertutup dan tidak ingin berkonsultasi langsung ke dokter maupun rehabilitasi dikarenakan pengguna malu dengan kondisinya, biaya yang relatif mahal, jarak dan waktu yang ditempuh, takut dilaporkan dan tanggapan negatif dari masyarakat
+tujuan dilakukannya penelitian ini adalah untuk membantu seorang pengguna narkoba ataupun bagi seseorang yang dicurigai sebagai pengguna narkoba dalam mendiagnosis tahapan pengguna narkoba dan memberikan solusi serta saran terhadap pengguna narkoba tersebut
+case based reasoning merupakan penalaran yang digunakan untuk menyelesaikan kasus baru dengan cara mengadaptasi solusi yang terdapat pada kasus-kasus sebelumnya, yang mempunyai permasalahan yang mirip dengan kasus baru
+pada tahapan retrieve, terjadi proses menghitung similaritas antara kasus baru dan kasus lama
+perhitungan similaritas kasus pada penelitian ini menggunakan metode k-nearest neighbor
+pengujian hasil akhir sistem menggunakan pengujian tahapan cbr dan pengujian kinerja metode k- nearest neighbor
+hasil pengujian mengukur kinerja dari metode k-nearest neighbor dengan nilai k=7, tingkat akurasi untuk 10-fold cross validation sebesar 98, 333%, confusion matrix sebesar 100% dan termasuk excellent classification karena memiliki nilai auc 1, 000
+narkoba merupakan singkatan dari narkotika, psikotropika dan bahan adiktif lainnya
+angka prevalensi penyalahgunaan narkoba di indonesia pada tahun 2016 secara umum sebesar 2, 21% atau setara dengan 4.173.633 orang
+jenis narkoba yang paling banyak disalahgunakan adalah sabu, ganja dan ekstasi

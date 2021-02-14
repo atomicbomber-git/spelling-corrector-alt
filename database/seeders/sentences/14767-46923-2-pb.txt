@@ -1,0 +1,122 @@
+perkembangan teknologi saat ini begitu pesat, terutama dibidang teknologi informasi
+salah satu cabang dari teknologi informasi yang paling berkembang ialah penggunaan biometrik dalam bidang keamanan
+penelitian ini berfokus pada perancangan aplikasi pengenalan wajah sebagai media akses kontrol terhadap ruangan riset dan pengembangan organisasi xyz
+pengenalan wajah yang dirancangkan menggunakan metode principal component analysis untuk mendapatkan tingkat akurasi yang tinggi, sehingga keamanan ruangan riset bertambah
+hasil pengujian dari aplikasi ini menunjukkan bahwa media akses kontrol berbasis pengenalan wajah telah berhasil membatasi pihak yang tidak memiliki hak akses untuk masuk kedalam ruangan riset selain itu tingkat akurasi pengenalan wajah dalam mengenali wajah seseorang yang telah tersimpan pada database mencapai 87%
+pendahuluan yang terkenal di kawasan asean dan telah beroperasi selama kurang lebih 15 tahun
+saat ini xyz memiliki pegawai sebanyak 253 orang, dimana 20 diantaranya bekerja pada divisi research and development 
+pada divisi ini, seluruh produk riset, baik untuk pengembangan produk perangkat lunak yang akan dikomersilkan maupun yang ditujukan khusus kepada pemerintah tersimpan pada ruangan r&d
+sayangnya, metode akses kontrol untuk mengakses ruangan tersebut masih minim dengan menggunakan sistem card reader
+salah satu masalah yang paling banyak ditemukan adalah mesin pembaca kartu yang digunakan sering mengalami kerusakan sehingga tidak mampu mendeteksi kartu id milik pegawai r&d
+selain itu, masalah lain yang ditimbulkan akibat akses kontrol yang saat ini digunakan adalah seringnya ditemui para pegawai r&d lupa membawa kartu id mereka sehingga para pegawai saling meminjam kartu id
+adapun kartu id yang digunakan untuk dapat masuk kedalam ruangan r&d berbeda dengan kartu id organisasi, sehingga adanya peluang kartu id tersebut tercecer maupun lupa untuk dibawa
+disamping itu, didapati pula bahwa telah terjadi setidaknya lebih dari tiga kali didapati pegawai yang tidak bekerja pada divisi r&d memasuki ruangan tersebut
+setelah dilakukan penyelidikan lebih mendalam didapati bahwa salah seorang pegawai r&d meminjamkan kartu id miliknya
+padahal ruangan r&d merupakan ruangan yang menyimpan informasi-informasi penting terkait penelitian-penelitian yang sedang dilakukan oleh organisasi
+hal inilah yang membuat organisasi xyz memutuskan untuk mengganti media akses kontrol yang saat ini digunakan dengan sebuah media akses kontrol yang sulit untuk ditiru, dipindah-tangankan, cepat, dan juga akurat
+oleh sebab itu, penelitian ini diarahkan untuk mengembangkan sebuah media akses kontrol yang mampu menyelesaikan permasalahan yang terjadi pada organisasi xyz dengan menggunakan teknik pengenalan wajah
+pertama, pengenalan wajah dapat bekerja lebih cepat dan lebih efisien
+hal ini dapat dicapai karena pengenalan wajah dapat melakukan proses identifikasi wajah dalam kurun waktu kurang dari 3 detik
+kedua, pengguna tidak perlu kuatir terhadap masalah sanitasi, misalnya pada biometric berbasis sidik jari dimana pengguna harus meletakkan jarinya pada alat pembaca agar teridentifikasi oleh sistem, melainkan cukup dengan menghadap kearah alat pembaca dalam kurun waktu yang telah disebutkan diatas
+penelitian sejenis untuk mengembangkan aplikasi pengenalan wajah yang dirancangkan antara lain: penelitian ini berjudul: pembuatan perangkat lunak pengenalan wajah menggunakan principal component analysis
+penelitian ini membahas tentang penggunaan algoritma principal component analysis pada perangkat lunak pengenalan wajah
+tujuan dari penelitian ini adalah untuk membuktikan hasil pengenalan wajah dengan menggunakan principal component analysis memiliki tingkat akurasi identifikasi wajah yang cukup tinggi
+penelitian ini membahas tentang penggunaan pengenalan wajah pada sistem absensi dan menggantikan sistem absensi yang lama berbasis smart card
+tujuan dari penelitian ini adalah untuk menguji tingkat keberhasilan sistem absensi berbasis pengenalan wajah dalam mengenali wajah seseorang dengan menggunakan jarak sebagai parameter dalam mengukur tingkat akurasinya
+heri pratikno webcam dengan metode pca
+penelitian ini membahas mengenai pembuatan sistem absensi berbasis pengenalan wajah menggunakan webcam untuk menangkap gambar secara realtime
+hasil dari penelitian ini menunjukkan sistem pengenalan wajah secara realtime menggunakan webcam memiliki tingkat akurasi melebihi 80% dalam mengenali wajah seorang pengguna
+rizal isnanto penelitian ini berjudul: pengenalan wajah manusia menggunakan analisis komponen utama dan jaringan syaraf tiruan perambatan-balik
+penelitian ini membahas mengenai penggunaan gabungan metode pca dan backpropagation jaringan syaraf tiruan pada sistem pengenalan wajah
+tujuan dari penelitian ini adalah untuk menguji tingkat keberhasilan sistem pengenalan wajah dengan menggabungkan kedua metode tersebut
+hasil dari penelitian ini menunjukkan bahwa dengan menggabungkan kedua metode tersebut tingkat akurasi dari sistem pengenalan wajah yang dihasilkan mencapai 85%
+penelitian ini berjudul: face recognitionusing eigenfaces
+penelitian ini membahas mengenai penggunaan teknik eigenfaces pada sebuah sistem pengenalan wajah
+tujuan dari penelitian ini adalah untuk memperkenalkan sebuah pendekatan baru mengenai proses deteksi dan identifikasi wajah seseorang, kemudian membandingkan karakteristik wajah tersebut dengan individu-individu yang telah dikenali oleh sistem
+penelitian ini membahas mengenai penggunaan video rekaman maupun real-time footage pada pengenalan wajah
+tujuan dari penelitian ini adalah untuk menguji pengaruh kualitas video terhadap tingkat akurasi pengenalan wajah dalam mendeteksi, mengenali, dan mengikuti sebuah wajah yang telah tersimpan pada database
+development dalam mengembangkan aplikasi yang direncanakan
+rad merupakan metode pengembangan software yang lebih cepat dibandingkan metode pengembangan software tradisional karena rad menerapkan penggunaan teknik yang berulang seperti yang dinyatakan oleh murch
+selain itu, james martin berpendapat bahwa rad tidak hanya membutuhkan waktu yang singkat dalam mengembangkan sebuah software tetapi juga memberikan kualitas end-product yang lebih baik bila dibandingkan metodologi tradisional seperti metode waterfall
+menurut watkins, rad memiliki kerangka waktu yang tetap dalam mengembangkan sebuah aplikasi ataupun sistem, mulai dari 30, 60, hingga 90 hari
+dengan demikian, apabila peneliti ingin mengembangkan suatu software yang ternyata waktu penyelesaiannya melebihi kerangka waktu terlama yang dimiliki rad maka proyek tersebut dipastikan tidak akan selesai dengan hasil yang diharapkan
+gambar 1 bagan metode rapid application development gambar 1 menunjukkan fase-fase pengembangan yang terdapat dalam rad, antara lain: a) analisa diperlukan dalam mengembangkan aplikasi yang dirancangkan
+observasi dan wawancara merupakan instrumen penelitian yang dipilih untuk digunakan dalam mengumpulkan data
+dari kegiatan observasi peneliti melihat langsung kondisi ruangan dan metode akses kontrol yang saat ini digunakan oleh organisasi, serta memeriksa adanya sistem yang telah ada dan dapat digunakan dalam pengembangan aplikasi yang dirancang
+sementara dari kegiatan wawancara peneliti bertemu langsung dengan calon pengguna guna mengidentifikasi tujuan-tujuan serta syarat-syarat dari aplikasi yang dirancang
+setelah data-data telah dikumpulkan, kemudian dilakukan proses analisa untuk memperkirakan dengan akurat apakah proyek tersebut dapat dilakukan dalam jangka waktu yang telah disepakati
+dari hasil observasi menunjukkan bahwa akses kontrol yang saat ini digunakan berupa card reader yang telah digunakan selama kurang lebih 15 tahun dan tidak pernah diperbaharui sehingga terkadang beberapa kartu sulit untuk dikenali oleh mesin
+hal lain yang didapati adalah tidak terdapat kamera pengawas yang terletak dekat dengan card reader sehingga ada kemungkinan pengguna yang tidak memiliki akses untuk masuk ke r&d dengan cara ―paksa‖
+sementaraitu, darihasil kuesioner yang dibagikan diperoleh data sebagaiberikut: 1
+jumlah pegawai tetap dan berstatus senior researcher berjumlah 8 orang
+jumlah pegawai tetap dan berstatus junior researcher berjumlah 4 orang
+jumlah pegawai tetap dan berstatus assistant berjumlah 6 orang
+jumlah pegawai tidak tetap berjumlah 2 orang
+senior researcher adalah pengguna yang memiliki hak akses sebagai admin, sementara pegawai lain hanyamemilikiaksesumum
+dari 20 pegawai yang bekerja pada divisi r&d, didapati 10 responden mengaku bahwa mereka sering lupa untuk membawa kartu id mereka, sehingga tak jarang mereka meminjam kartu id milikrekanmereka
+lebih dari separuh dari total responden menginginkan perubahan terhadap metode akses kontrol yang saat ini mereka gunakan, dan mengusulkan untuk memanfaatkan teknologi berbasis biometric untuk mengatasi beberapa kendala yang sering hadapi
+8 dari 10 senior researcher berpendapat bahwa tidak sulit untuk melakukan migrasi akses kontrol, namun semuanya sepakat bahwa proses migrasi paling lama sekitar 2 minggu
+seluruh responden menginginkan akses kontrol yang tidak hanya mudah untuk digunakan, namun harus cepat dan dengan tingkat akurasi yang jauh lebih baik bila dibandingkan menggunakan metode kartu id
+seluruh responden juga sepakat bahwa akses kontrol nantinya harus aman dan unik sehingga dapat mengurangi potensi adanya pegawai yang meminjamkan hak akses mereka kepada pihak yang tidak memiliki hak untuk masuk kedalam ruangan r&d
+b) siklus prototyping yang telah dikumpulkan
+proses pengembangan dimulai dengan pemodelan terhadap fitur yang didukung oleh aplikasi yang dirancangkan menggunakan diagram use case maupun diagram aktivitas
+selanjutnya, dengan menggunakan sistem yang telah ada sebagai pedoman dasar dalam merancang aplikasi yang diinginkan, peneliti kemudian mengubah atau menambahkan beberapa fitur baru ke dalam sistem yang akan menghasilkan sebuah prototipe
+dengan menggunakan prototipe sebagai acuan dalam pengembangan aplikasi proses pengembangan dapat berjalan lebih singkat
+hal ini dikarenakan peneliti hanya melakukan perubahan maupun perbaikan pada prototipe sehingga tidak perlu merubah rancangan desain aplikasi secara keseluruhan
+setelah peneliti selesai membangun dan menyempurnakan prototipe, maka selanjutnya prototipe tersebut akan didemonstrasikan kepada calon pengguna
+pada tahapan ini, calon pengguna akan memberikan evaluasi terhadap prototipe, dengan memberikan beberapa masukan berupa perbaikan-perbaikan kecil maupun besar
+namun, jika calon pengguna berpendapat bahwa prototipe tidak memenuhi ekspektasi calon pengguna, maka peneliti harus mengulang proses mengembangkan prototipe hingga memenuhi kriteria minimum yang telah ditentukan oleh calon pengguna
+ditetapkan, maka prototipe akan masuk dalam fase pengujian
+pada fase ini, prototipe akan diuji dengan serangkaian uji kelayakan yang telah ditentukan oleh peneliti untuk mengetahui apakah masih terdapat kecacatan yang mungkin tidak nampak pada saat proses pengembangan
+hasil dari setiap uji kelayakan akan dicatat dan dirangkum sehingga dapat digunakan untuk pengembangan prototipe yang serupa dikemudian hari
+d) implementasi pengembangan sebuah aplikasi menggunakan metode rad
+setelah prototipe berhasil melewati fase pengujian maka prototipe telah siap sepenuhnya untuk digunakan atau dioperasikan sebagai media akses kontrol pada organisasi xyz
+memodelkan fungsionalitas aplikasi yang dirancang berdasarkan analisa dari hasil pengumpulan data yang secara umum dapat dilihat pada gambar 2
+aplikasi dirancang agar dapat melakukan proses identifikasi dan verifikasi wajah pengguna sehingga dapat bertindak sebagai media akses kontrol
+proses identifikasi dan verifikasi sebuah wajah membutuhkan set gambar wajah pengguna yang sah yang didapat ketika pengguna melakukan pendaftaran pada aplikasi
+set gambar wajah tersebut nantinyadigunakan oleh admin untuk membuat sebuah file pelatihan pengenalan wajah sehingga aplikasi bias mengenali wajah penggunadari berbagaisudut
+padaaplikasiini, admin merupakan actor atau pengguna dengan hak tertinggi dimana admin mampu mengelola pengguna; mulai dari menambah, mengubah, hingga menghilangkan pengguna dari sistem
+selain itu, admin juga berhak untuk melihat riwayat log file yang berisikan daftar wajah pengguna yang terdeteksi oleh aplikasi; baik wajah pengguna yang telah terdaftar pada sistem maupun tidak
+diagram aktivitas menggambarkan alur kerja aplikasi yang dirancangkan
+diagram aktivitas secara umum dapat dilihat pada gambar 3
+diagram aktifitas dirancang untuk menggambarkan langkah- langkah aliran kerja aplikasi
+padapenelitianberbasisbiometriktentunyatidakterlepasdari proses identifikasi menggunakan perhitungan sederhana, yakni membandingkan nilai false positive identification rate, dan false negative identification rate
+secara umum, false positive identification rate merupakan peluang pengguna yang tidak terdaftar dalam database akan tetapi terdeteksi oleh sistem sebagai salah satu pengguna yang valid
+nilai false positive identification rate bergantungpadabesarnyaukuran false negative identification rate merupakan peluang pengguna yang sah dan terdaftar dalam database namun identitasnya tidak dikenali oleh sistem
+nilai false negative identification ratebergantungpadabesarnyaukuran database pencocokan, dan jumlah identitas yang dikembalikan oleh system identifikasi
+adapun tidak digunakannya euclidean distance dalam perhitungan eigenvalue dikarenakan mahalanobis distance memiliki hasil yang lebih baik
+secara umum dapat dirumuskan sebagai berikut: 𝑃𝑚𝑑 = 𝑝𝑖 − 𝜇 𝑇𝑉−1 𝑝𝑖 − 𝜇gambar 3 diagram aktivitas metode mahalanbis distance dalam mencocokkan set points adalah sebagaiberikut: pertama menghitung nilai mahalanobis distance darisetiaptitikuntuksetiappoin lain dalampoin set p dan q sebagai pmd danqmd .maka menurut nilai mahalanobis, dapatkan perbedaan matriks kovarians dan mengambil nilai absolute dari perbedaan tersebutd
+tampilan antar muka pengguna tampilan antar muka aplikasi yang diimplementasikan memiliki tampilan antar muka yang sederhana seperti yang terlihat pada gambar 4
+dapat dilihat pada gambar 4 bahwa terdapat tiga pilihan yang dapat digunakan oleh pengguna; menambah pengguna baru, menghentikan proses registrasi wajah pengguna baru kedalam aplikasi, dan melakukan proses verifikasi terhadap hasil latihan pengenalan wajah
+pada saat pertama kali dijalankan, aplikasi akan mencari file bernama ―facedata.xml‖ yang berisi set gambar wajah pengguna yang telah terdaftar kedalam aplikasi
+jika file facedata.xml tidak ditemukan, maka dapat dipastikan tidak ada pengguna yang telah terdaftar didalam aplikasi
+apabila kamera telah terbaca oleh aplikasi maka akan muncul layar baru yang berisi tampilan real-time yang didapat melalui kamera seperti yang terlihat pada gambar 5
+pada gambar 5 terdapat kotak merah yang menandakan area range of interest dan berperan sebagai penanda daerah yang saat itu dipindai oleh kamera
+apabila pada saat itu tidak ada wajah yang terdeteksi maka kotak akan berwarna merah
+perlu diketahui bahwa area roi akan terus berpindah dengan sangat cepat dan berpola acak guna memindai dan mendeteksi ada tidaknya wajah yang terdapat pada jangkauan kamera
+prosesnya dapat dijabarkan secara rinci sebaga iberikut: 1
+pengguna baru akan memposisikan diri tegak lurus terhadap kamera
+maksimum 45 derajat dari posisi tegak lurus terhadap kamera
+pada saat proses registrasi wajah dimulai, pengguna diminta untuk menolehkan wajahnya dari arah kiri, dan perlahan-lahan kearah kanan
+proses tersebut akan memindai fitur-fitur wajah yang dimiliki oleh pengguna, kemudian disimpan kedalam format hitam-putih 
+gambar-gambar inilah yang nantinya akan dikemas menjadi sebuah set gambar wajah seorang pengguna yang akan digunakan oleh aplikasi pada proses pelatihan pengenalan wajah seperti yang terlihat pada gambar 7
+gambar 7 sampel gambar eigenfaces dari calon pengguna semakin detail sebuah wajah dipindai, tentunya akan menghasilkan semakin banyak gambar dalam set gambar wajah, dan akan meningkatkan akurasi aplikasi dalam mengenali wajah seseorang
+tentunya, untuk memindai wajah pengguna dengan amat detail diperlukan waktu yang lebih lama guna membuat file pelatihan yang semakin akurat bagi aplikasi untuk melakukan proses pengenalan wajah
+aplikasi dirancang untuk melakukan proses registrasi wajah dengan ketentuan 24 frames per second atau sekitar 24 gambar akan dihasilkan untuk setiap 1 detik
+dengan ketentuan tersebut, penulis melakukan serangkaian percobaan dengan mengubah durasi tiap-tiap proses registrasi untuk mendapatkan jumlah gambar wajah pengguna seperti yang terlihat pada tabel 1
+gambar 8 menampilkan proses ketika aplikasi berhasil untuk mengenali wajah pengguna
+mengenali wajah pengguna roi akan digambarkan berupa kotak berwarna hijau disertai nama pengguna
+disaat yang bersamaan, log file akan diperbaharui dengan menambahkan data pengguna yang berhasil dikenali olehaplikasibesertawaktu
+aplikasi terhadap bertambahnya jumlah pengguna dengan jumlah frame yang berbeda untuk setiap pengguna seperti yang terlihat padatabel 2
+tabel 2 data deteksivwajah tiap pengguna dengan jumlah frame yang berbeda no nama jumlah setelah mendapatkan hasil deteksi wajah pada setiap pengguna, kemudian dilakukan pengujian terhadap akurasi terhadap dataset yang telah ada seperti yang terlihat padatabel 3
+tabel 3 data akurasi tiap wajah pengguna no nama image konfi pengujian kepada calon pengguna untuk mengetahui respon mereka terhadap performa aplikasi seperti yang terlihat pada tabel 4
+aplikasi berhasil menggantikan penggunaan card reader sebagai media akses kontrol
+para pengguna menyatakan bahwa aplikasi tergolong mudah untuk dioperasikan
+aplikasi dirasa cukup akurat dan cepat dalam mengenali wajah pengguna
+pengguna tidak dipusingkan jika terjadi kehilangan atau lupa membawa kartu akses
+meskipun terdapat beberapa kelebihan dari hasil penelitian yang diperoleh, penulis merasa bahwa masih terdapat beberapa kelemahan yang terdapat pada aplikasi ini: 1
+minimnya fitur yang tersedia pada aplikasi; dan 3
+tidak adanya pengamanan yang cukup terhadap data set gambar wajah pengguna
+penelitian ini dapat diarahkan dengan menggunakan algoritma yang berbeda, seperti penggunaan linear discriminant analysis untuk mempercepat proses pengenalan wajah
+disamping itu, penelitian dapat juga dapat diarahkan untuk diintegrasikan dengan berbagai macam sistem, misalnya sistem absensi
+kepada seluruh pihak yang telah membantu dalam kegiatan penelitian ini, mulai dari rekan dosen, keluarga, dan yang terakhir yakni kepada tuhan yang maha esa atas segala perlindungan dan penyertaan-nya

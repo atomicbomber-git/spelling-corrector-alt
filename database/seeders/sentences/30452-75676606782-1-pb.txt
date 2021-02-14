@@ -1,0 +1,13 @@
+eee paper template in a4 vol 5 no 2 sobathuni : aplikasi rumah sewa #teknik informatika, fakultas ilmu komputer, universitas mercu buana jalan meruya selatan, kebun jeruk, jakarta barat 11650 1muh.sholeh.bathin@gmail.com 2desi.ramayanti@mercubuana.ac.id dan komunikasi semakin maju sehingga memiliki dampak terhadap kemudahan manusia dalam menyelesaikan setiap pekerjaan termasuk kegiatan pendataan
+pendataan yang akurat, aman serta efisien merupakan syarat mutlak bagi pemilik rumah sewa dalam mencatat data pengguna rumah sewa
+semakin banyak peminat rumah sewa maka kegiatan pendataan harus mendapatkan perhatian yang serius mengingat hasil pendataan sangatlah penting bagi pemilik rumah sewa untuk proses kalkulasi biaya pengeluaran serta pemasukan dalam usahanya
+contoh kasus pada sistem pendataan pengguna rumah sewa sobathuni, kegiatan pendataan masih menggunakan sistem manual dimana masih menggunakan buku sebagai media penyimpanan data
+hal ini dinilai tidak efisien terhadap waktu, biaya, keamanan data serta tenaga yang dikeluarkan pemilik rumah sewa dalam kegiatan pendataan
+serta menyebabkan pengguna rumah sewa sobathuni pun mengalami kesulitan dalam mendapatkan informasi pribadi terkait rumah sewa yang dihuni
+permasalahan tersebut memberikan gambaran jelas mengapa dibutuhkan sistem pendataan pengguna rumah sewa yang memadai dan terkomputerisasi
+perancangan sistem ini menggunakan operasi dasar create, read, update, delete php serta menggunakan metode pengumpulan data dan pengembangan sistem waterfall
+hasil penelitian ini berupa aplikasi sobathuni yaitu aplikasi rumah sewa berbasis web yang memberikan fungsionalitas kepada pemilik rumah sewa dalam hal memonitoring serta pengolahan data pengguna rumah sewa
+fungsionalitas kepada pengguna rumah sewa dalam hal mendapatkan informasi pribadi terkait rumah sewa sobathuni yang dihuni
+serta fungsionalitas kepada pengunjung dalam hal mencari dan melakukan booking rumah sewa sobathuni sesuai dengan keinginan mereka
+semua itu dapat mereka lakukan melalui media internet dengan menggunakan website
+pendahuluan kemudahan akses, jarak dan waktu

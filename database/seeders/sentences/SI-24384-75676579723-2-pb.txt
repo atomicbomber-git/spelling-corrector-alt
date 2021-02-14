@@ -1,0 +1,65 @@
+sistem informasi dalam pelaksanaan proses pembelajaran yang baik akan tercapai apabila didukung dengan kehadiran yang dapat dimonitoring dan dapat diolah secara otomatis
+proses presensi yang sudah ada di program studi informatika universitas tanjungpura belum dapat dimonitoring atau masih secara manual khususnya seperti presensi mahasiswa
+presensi dalam proses perkuliahan dapat didukung dengan menggunakan alat presensi kehadiran berupa fingerprint scanner agar proses presensi dapat diolah secara otomatis
+fingerprint scanner adalah perangkat otentikasi yang menggunakan identitas biometric dari penggunanya
+alat yang digunakan dapat dihubungkan dengan antar muka website terhadap data yang telah disimpan dari fingerprint scanner
+dokumen pada website disebut dengan web page dan link dalam website memungkinkan pengguna bisa berpindah dari satu page ke page lain dan terkoneksi dalam satu jaringan
+website yang digunakan untuk menampilkan informasi kehadiran mahasiswa dan dosen terhadap jadwal matakuliah
+penelitian ini menghasilkan sistem informasi yang dapat membantu program studi dalam pelaksanaan monitoring perkuliahan serta membantu dosen dalam mengevaluasi kehadiran mahasiswa
+penelitian ini menggunakan tiga pengujian yaitu black box, kuisoner validitas dan kuisoner reabilitas
+pengujian kuisoner bertujuan untuk mengetahui tingkat keberhasilan dari sistem yang dibuat
+pengujian validitas kuesioner pada penelitian ini menggunakan koefisien korelasi pearson
+pertanyaan dinyatakan valid jika nilai korelasi pearson lebih besar dari nilai rtabel, dan jika sebaliknya maka pertanyaan dinyatakan tidak valid
+pengujian reliabilitas kuesioner ini menggunakan metode cronbach’s alpha untuk mengukur kestabilan dan konsistensi responden dalam menjawab pertanyaan
+berdasarkan hasil pengujian disimpulkan bahwa pengujian yang dilakukan aplikasi dapat dimonitring dengan baik dan pengujian kusioner dinilai positif dan berhasil
+pendahuluan yang baik akan tercapai apabila didukung dengan kehadiran yang dapat dimonitoring dan dapat diolah secara otomatis
+proses monitoring presensi dalam pelaksanaan perkuliahan mempunyai peranan penting dalam memandu mahasiswa maupun dosen agar pelaksanaan perkuliahan tersebut berjalan dengan baik
+oleh karena itu, mahasiswa maupun dosen harus mengisi data presensi masing-masing agar proses pembelajaran dapat berlangsung.proses presensi yang sudah ada di program studi informatika universitas tanjungpura belum dapat dimonitoring atau masih secara manual khususnya seperti presensi mahasiswa
+presensi yang dilakukan saat ini ditandai dengan paraf menggunakan bolpoin oleh mahasiswa yang menyatakan kehadirannya selain itu dapat dimanipulasi oleh mahasiswa yang tidak hadir dengan cara memalsukan parafnya dan presensi yang dilakukan oleh dosen sudah ada tetapi pengambilan data belum secara otomatis
+presensi dalam proses perkuliahan yang ada saat ini dapat didukung dengan menggunakan alat presensi kehadiran berupa fingerprint scanner agar proses presensi dapat diolah secara otomatis dengan namanya, fingerprint scanner juga disebut sebagai alat khusus untuk mendeteksi sidik jari penggunanya
+fingerprint scanner mulai banyak digunakan secara terintegrasi dengan notebook dan beberapa perangkat pendukung lainnya
+fingerprint scanner berperan penting dalam memudahkan pengolahan data presensi
+alat yang digunakan dapat dihubungkan dengan antar muka website terhadap data yang telah disimpan dari fingerprint scanner
+sistem informasi kehadiran dosen dan mahasiswa menggunakan sidik jari pada program studi informatika universitas tanjungpura agus prasetyo raharjo# 1, drarif bijaksana putra negara, s.t
+#3 #program studi informatika universitas tanjungpura jl
+dokumen pada website disebut dengan web page dan link dalam website memungkinkan pengguna bisa berpindah dari satu page ke page lain dan terkoneksi dalam satu jaringan
+website yang digunakan untuk menampilkan informasi kehadiran mahasiswa dan dosen terhadap jadwal matakuliah
+berdasarkan permasalahan yang ditemukan, seperti presensi kehadiran mahasiswa data dosen belum dapat dimonitoring dan masih secara manual, maka penelitian ini mengembangkan aplikasi berbasis web yang dapat memonitoring dan mengolah data presensi dalam proses perkuliahan
+sedangkan menurut who monitoring adalah suatu proses pengumpulan dan menganalisis informasi dari penerapan suatu program termasuk mengecek secara reguler untuk melihat apakah kegiatan itu berjalan sesuai rencana sehingga masalah yang dilihat dapat diatasi
+entity relationship diagram erd merupakan suatu model untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antar relasi
+erd memodelkan struktur data dan hubungan antar data, untuk menggambarkannya digunakan notasi dan simbol
+flowchart menjelaskan urutan-urutan dari prosedurprosedur yang ada didalam system
+yang dapat berjalan diberbagai platform operating system dengan menggunakan teknologi phyton api
+sublime text mendukung berbagai bahasa pemrograman dan mampu menyajikan fitur syntax highlight hampir di semua bahasa pemrogramman yang didukung ataupun dikembangkan oleh komunitas seperti; c, c++, c#, css, d, dylan, erlang, html, groovy, haskell, java, javascript, latex, lisp, lua, markdown, matlab, ocaml, perl, php, python, r, ruby, sql, tcl, textile and xml
+biasanya bagi bahasa pemrograman yang didukung ataupun belum terdukung secara default dapat lebih dimaksimalkan atau didukung dengan menggunakan add-ons yang bisa didownload sesuai kebutuhan user
+xampp yang paling popular dikalangan pengembang web dengan menggunakan php dan mysql sebagai databasenya
+php ditanamkan atau disisipkan ke dalam html
+php banyak dipakai untuk memprogram situs web dinamis
+php dapat digunakan untuk membangun sebuah cms
+mysql terkenal dan banyak digunakan untuk membangun aplikasi yang menggunakan database sebagai sumber dan pengolahan datanya”
+mysql adalah salah satu jenis server yang ada diantara banyak server database
+data penelitian informatika untan, baik berupa data dosen beserta sidik jari, mahasiswa beserta sidik jari, jadwal perkuliahan, daftar kehadiran dosen, dan daftar kehadiran mahasiswa
+perangkat penelitian terdiri dari perangkat keras dan perangkat lunak
+adapun perangkat yang digunakan diantaranya, yaitu perangkat keras laptop asus a455l dengan spesifikasi posesor intel core i3- 4030u, 1, 90 ghz, ram 6072mb, vga nvidia geforce 820m, hdd 500gb dan fingerspot tipe revo d-152nb
+perangkat lunak yang digunakan dalam penelitian ini adalah, sistem operasi windows 7 ultimate 64 bit, sublime text, xampp, corel draw 7, microsoft office visio 2010, dan kitaserver v.1.0.1.1
+metode penelitian diawali dengan analisa kebutuhan, kebutuhan sistem, desain sistem, implementasi sistem, pengujian sistem, analisa hasil pengujian, dan penarikan kesimpulan
+arsitektur sistem komputer /pc access point laptop 1 laptop 2 10.144.5.194/ aplikasi skenario inti/ringkas dari proses sistem informasi yang diusulkan adalah sebagai berikut :  komputer/pc menerima data dari alat finferprint scanner tipe revo d-152nb
+ komputer/pc sebagai server local dan dihubungkan kedalam 1 jaringan dengan ip static 192.168.1.28 agar ip tersebut menuju ke server local  perangkat lainnya dapat mengakses ke server local dengan alamat 192.168.1.28/presensi
+diagram alir sistem absensi mahasiswa gambar 3
+diagram alir sistem presensi kehadiran f
+tahapan ini dilakukan setelah perancangan sistem selesai dan selanjutnya akan diimplementasikan kemudian dilakukan pengujian terhadap aplikasi
+implementasi dan hasil pengujian yang dilakukan untuk mengetahui aplikasi tersebut dapat berjalan sesuai dengan tujuannya atau tidak
+aplikasi monitoring dosen dan mahasiswa prodi informatika universitas tanjungpura dapat dilihat pada gambar berikut : gambar 8
+pengujian black box absen, import data, dan pengujian tambah data
+hasil pengujian pengambilan data fingerprint input contoh data hasil eksekusi keterangan data kosong kosong tidak berhasil gambar 4.10 data berhasil input contoh data hasil acceptance test yang diukur dengan likert’s summated rating 
+pengujian ini dilakukan terhadap dosen program studi teknik informatika universitas tanjungpura, total populasi dosen berjumlah 10 orang, kuisioner disebarkan ke 10 orang responden, kuisioner pengujian aplikasi dilampirkan pada lampiran f, hasil dari kuisioner tersebut dapat dilihat pada tabel berikat : tabel 4
+berikut perhitungan untuk mengukur uat dosen terhadap aplikasi dengan menggunakan metode likert’s summated rating pada pengujian dosen
+jumlah skor untuk setiap responden:  skor maksimal = 5 x 5 item = 25  skor minimal = 1 x 5 item = 5  skor median = 3 x 5 item = 15  skor kuartil i = 2 x 5 item = 10  skor kuartil iii = 4 x 5 item = 20 b
+intepretasi jumlah skor tersebut adalah:  250 < skor ≤ 200, artinya sangat positif  200 < skor ≤ 170, artinya positif  170 < skor ≤ 100, artinya negatif  100 ≤ skor ≤ 50, artinya sangat negatif v
+kesimpulan/ringkasan studi teknik informatika universitas tanjungpura, dapat disimpulkan sebagai berikut
+sistem informasi ini dapat mendata absensi dan me monitoring kehadiran serta mengevaluasi kehadiran mahasiswa pada program studi teknik informatika universitas tanjungpura
+hasil pengujian black box menunjukkan bahwa sistem dapat bekerja dengan baik dalam menangani suatu kemungkinan kesalahan input-an
+berdasarkan hasil user acceptace test, sistem dinilai sangat positif dan berhasil
+adapun beberapa hal yang menjadi saran dalam pengembangan sistem informasi yang baru dirancang ini agar menjadi lebih baik yaitu sebagai berikut : 1
+sistem informasi kehadiran pada program studi teknik informatika dapat dikembangkan dengan menghubungkan siakad untan terhadap kehadiran .mahasiswa dan dosen
+pengambilan data sidik jari mahasiswa dapat dilaksanakan langsung pada saat pendaftaran ulang mahasiswa

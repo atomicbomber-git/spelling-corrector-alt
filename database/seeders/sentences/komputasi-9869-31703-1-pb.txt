@@ -1,0 +1,56 @@
+anaman anggrek dengan metode certainty factor rosmala eka wahyuni program studi teknik informatika jurusan teknik elektro fakultas teknik universitas tanjungpura rosmalaekawahyuni@gmail.com obstacles in plant cultivating, especially orchids
+disease infection and pests can damage the cultivation of orchids and effecting the beauty of orchids
+problems that occur around the orchid plant diseases and pests that are often experienced by orchid farmers itself is they cant tell between orchid diseases and pests due to thee lack of knowledge about the disease and pest itself
+diseases mistaken pests and pest mistaken diseases
+orchid disease is the cause of orchids becoming ill, usually caused by the infection of microorganisms such as fungi, bacteria and viruses
+to differ between orchid diseases and pests, identification is needed to be done so the cultivators of orchids can easily know if it is the disease or pest that is experienced by orchids
+another problem is the lack of an expert or expertees in diseases and pests of ornamental plants, especially orchids, making cultivators having difficulty in overcoming diseases and pests of orchids
+an expert system is one solution in identifying orchid diseases and pests based on symptoms experienced by orchids
+in this study an expert system is made by applying certainty factor, the application is developed to determine the diseases or pests on orchids with only paying attention to the symptoms experienced by orchids
+by applying the method certainty factor possible values are obtained for the infection of the disease or pest attack suffered orchids
+the system produce can proses data management and identify disease or pest with a accurate level of 80 %
+the symptoms data inputed will be processed until there are identification results that are accordance to the certainty factor
+pendahuluan tanaman anggrek adalah salah satu tanaman hortikultura yang memiliki nilai estetika dan ekonomi yang sangat tinggi
+keindahan bunganya, serta bentuk tanamannya yang artistik menjadikan tanaman ini bernilai jual tinggi, baik sebagai tanaman hias maupun bunga potong, sehingga potensial untuk dikembangkan dalam usaha agribisnis
+apapun pada tanaman anggrek tidak boleh diremehkan karena tuntutan pembeli akan kualitas tanamana anggrek yang dijual atau dipamerkan adalah keindahannya
+dengan sedikit infeksi penyakit dan serangan hama, keindahannya pun akan berubah, tentunya harga jual pun akan jatuh
+permasalahan yang terjadi seputar penyakit dan hama tanaman anggrek yang sering dialami oleh pembudidaya tanaman anggrek itu sendiri adalah belum bisa membedakan antara penyakit dan hama tanaman anggrek disebabkan karena kurangnya pengetahuan tentang penyakit dan hama tanaman anggrek disebabkan karena kurangnya pengetahuan tentang penyakit dan hama tanaman anggrek itu sendiri
+oleh karena itu, sering terjadi kekeliruan saat pengendalian penyakit dan hama
+misalnya, penyakit diberantas dengan obat untuk hama
+sebaliknya, pada waktu mengendalikan hama, pembudidaya tanaman anggrek adalah penyakit dan hama tanaman anggrek tidak terkendali dan tetap merajalela sehingga banyak menghabiskan biaya dan tenaga, serta tanaman anggrek menjadi hancur, rusak bahkan mati
+penyakit tanaman anggrek ialah penyebab tanaman anggrek menjadi sakit, umumnya disebabkan oleh infeksi mikroorganisme seperti jamur, bakteri dan virus
+hama tanaman anggrek ialah binatang perusak tanaman anggrek
+identifikasi untuk membedakan antara dapat dilakukan dengan memperhatikan gejala- gejala yang terlihat pada tanaman anggrek
+hasil identifikasi dapat digunakan untuk menentukan tindakan pengendalian penyakit dan hama yang kurangnya ahli atau pakar penyakit dan hama tanaman hias khususnya tanaman anggrek, sehingga pembudidaya tanaman anggrek yang belum memiliki pengetahuan seputar penyakit dan hama tanaman anggrek mengalami kesulitan dalam mengatasi penyakit dan hama tanaman anggrek 
+sistem pakar dipilih sebagai solusi terhadap permasalahan yang terjadi karena menerapkan teknik kecerdasan buatan, sistem pakar dapat menirukan apa yang dikerjakan oleh seorang ahli atau pakar ketika mengatasi permasalahan yang terjadi berdasarkan pakar ini menggunakan metode certainty factor
+desain sistem yang dibuat ini diharapkan dapat membantu pembudidaya tanaman anggrek untuk mengetahui jenis penyakit atau hama yang dialami tanaman anggrek berdasarkan nilai persentase kepastian tertinggi, deskripsi beserta solusi pengendalian penyakit atau hama tanaman anggrek yang telah diidentifikasi
+teori dasar 2.1 kecerdasan buatan kecerdasan buatan adalah kecerdasan yang ditunjukkan oleh suatu entitas buatan
+kecerdasan diciptakan dan dimasukkan ke dalam suatu mesin agar dapat melakukan pekerjaan seperti yang dapat dilakukan manusia
+kecerdasan buatan ini merupakan cabang dari ilmu komputer yang khusus ditujukan dalam perancangan otomatisasi tingkah laku cerdas dalam sistem kecerdasan komputer 
+sistem pakar adalah sistem berbasis komputer yang menggunakan pengetahuan, fakta dan teknik penalaran dalam memecahkan masalah yang biasanya hanya dapat dipecahkan oleh seorang pakar dalam bidang tersebut 
+kepastian terhadap suatu fakta atau aturan
+notasi faktor kepastian adalah sebagai berikut : mb[h, e1^e2] = 0 md[h, e1^e2] =1 ……
+ lainnya keterangan : h yang dipengaruhi sampai 1
+nilai -1 menunjukkan ketidakpercayaan mutlak, merupakan ukuran kepercayaan merupakan ukuran kepercayaan e = evidence h = hipotesis serangkaian proses yang saling berhubungan
+dfd merupakan alat yang cukup popular sekarang ini, karena dapat menggambarkan arus data didalam sistem dengan terstruktur dan jelas
+lebih lanjut dfd juga merupakan dokumentasi yang baik 
+perancangan sistem 3.1 arsitektur sistem perancangan arsitektur sistem pakar anggrek dapat dilihat pada gambar 1 berikut
+user 3.2 perancangan diagram arus data 3.2.1 perancangan entity relationship diagram perancangan erd meliputi tahap penentuan entitas, penentuan relasi antar-entitas, tingkat relasi yang terjadi dan konektivitas antar- entitas
+perancangan erd dapat dilihat pada gambar 2 berikut
+3.2.2 perancangan hubungan antar tabel diagram hubungan antar tabel merupakan hubungan yang terjadi pada suatu tabel dengan tabel lainnya yang berfungsi untuk mengatur operasi suatu basis data
+pada sistem pakar identifikasi penyakit dan hama tanaman anggrek terdapat 10 tabel
+dari semua tabel terdapat 1 buah tabel yang tidak berkaitan dengan tabel lainnya
+tabel ini tidak berkaitan karena berisi username dan password sebagai login
+perancangan erd dapat dilihat pada gambar 3 berikut
+hasil dan pengujian 4.1 hasil perancangan sistem pakar identifikasi penyakit dan hama tanaman anggrek dengan metode certainty factor merupakan sistem yang bertujuan tanaman anggrek berdasarkan gejala yang dialami tanaman anggrek
+hasil identifikasi berupa jenis penyakit atau hama yang dialami tanaman anggrek berdasarkan persentase nilai kepastian tertinggi, deskripsi beserta solusi pengendalian penyakit atau hama yang telah diidentifikasi
+pilih gejala pada tanaman secara umum dapat dilihat pada gambar 4 berikut
+tanaman secara umum antarmuka hasil perancangan halaman hasil analisa dapat dilihat pada gambar 5 berikut
+gambar 5 antarmuka halaman hasil analisa kemudian dihasilkanlah jenis penyakit atau hama yang dialami tanaman anggrek berdasarkan persentase nilai kepastian tertinggi, deskripsi beserta solusi pengendalian penyakit atau hama tanaman anggrek yang telah diidentifikasi
+antarmuka halaman hasil identifikasi dapat dilihat pada gambar 6 berikut
+gambar 6 antarmuka halaman hasil identifikasi 4.2 hasil pengujian pengujian akurasi sistem dilakukan untuk mengetahui hasil akhir atau output yang berupa kemungkinan jenis penyakit atau jenis hama yang dihasilkan oleh sistem pakar dengan yang dihasilkan oleh pakar dapat dilihat pada tabel 1 berikut
+untuk mengetahui hasil tingkat akurasi sistem pada kasus diatas, maka perhitungannya sebagai berikut: jumlah kasus 20 = 80 % pakar diatas, maka hasil akurasi sistem tersebut bernilai 80 % tingkat keakuratan dalam menentukan kemungkinan jenis penyakit atau hama berdasarkan pengetahuan seorang pakar
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap sistem pakar identifikasi penyakit dan hama tanaman anggrek dengan metode certainty factor, maka dapat disimpulkan bahwa: 1
+sistem ini dapat menganalisis jenis penyakit atau hama tanaman anggrek dengan metode certainty factor berdasarkan pengujian tingkat keakuratan yang telah dilakukan dengan seorang pakar menghasilkan tingkat pengetahuan seorang pakar yang dapat dilihat pada lampiran
+hasil dari perhitungan secara manual dengan perhitungan pada sistem pakar memiliki hasil identifikasi berupa nilai kepastian yang sesuai
+sistem ini dapat menampilkan nilai kepastian sebagai tingkat keyakinan pengguna saat melihat hasil identifikasi penyakit atau hama

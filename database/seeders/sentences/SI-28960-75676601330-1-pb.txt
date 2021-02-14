@@ -1,0 +1,133 @@
+guru kontrak adalah karyawan non-asn yang diangkat oleh pemerintah daerah setempat guna melengkapi kebutuhan guru yang dinyatakan kurang di suatu sekolah
+selama ini pengadaan guru kontrak khususnya di kabupaten ketapang kalimantan barat masih dilaksanakan dengan sistem manual sehingga dirasa kurang efektif jika dilihat dari proses pelaksanaannya, yang mana mulai dari proses penyebaran informasi, proses pelamaran serta verifikasi berkas masih cukup menyulitkan berbegai pihak yang terlibat
+selain itu terdapat pula masalah kerap terjadi terkait guru kontrak yang mengajar namun tidak mentaati aturan, sehingga dirasa sulit dalam proses pengambilan tindakan
+oleh karena itu, untuk mengatasi masalah tersebut, maka dibutuhkan suatu media atau sistem informasi yang dapat membantu dalam proses pengadaan guru kontrak dan pengawasan yang bersifat pelaporan dari sekolah untuk dinas pendidikan selaku penanggungjawab guru kontrak di kabupaten ketapang
+tujuan dari penelitian ini adalah untuk membangun sebuah sistem informasi untuk penerimaan dan melakukan pengawasan terhadap guru kontrak yang ada di kabupaten ketapang berbasis web dengan bahasa pemrograman php dan database mysql sebagai penyimpan data terkait pelamar, guru kontrak, sekolah, dinas pendidikan dan pemerintahan kabupaten ketapang selaku penyelenggara proses penerimaan guru kontrak
+pengujian dilakukan dengan metode black box dan aspek funcional suitability
+dari hasil pengujian black box menyatakan bahwa aplikasi sudah berjalan seperti yang diharapkan, dimana aplikasi mempu menampilkan keluaran yang sesuai dengan masukan pengguna
+dari hasil aspek functional suitability didapat nilai mendekati 1 yang berarti seluruh halaman yang dinyatakan baik
+dengan hasil dari dua pengujian tersebut dapat ditarik kesimpulan bahwa sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang yang dibangun dapat berjalan sesuai perancanangan dengan baik
+pendahuluan guru kontrak adalah karyawan non-asn yang diangkat oleh pemerintah daerah setempat guna melengkapi kebutuhan guru yang dinyatakan kurang di suatu sekolah
+guru kontrak memiliki jam kerja full 8 jam seperti karyawan pada umumnya
+mekanisme penerimaan guru kontrak dilakukan sesuai kebutuhan dan dilaksanakan dengan aturan yang ditetapkan oleh pemerintah daerah yang mana pada umumnya proses tersebut mengacu pada sistem penerimaan casn 
+namun karena memang masih dikelola oleh pemerintah daerah, maka sampai saat ini sistem penerimaan guru kontrak yang dijalankan masih secara manual atau konvensional, hal tersebut dirasa tidak sesuai jika pelaksaannya mengacu dengan sistem penerimaan casn pada saat sekarang
+sering terjadinya kekeliruan dalam melakukan verifikasi data dan berkas pelamar adalah salah satu masalah yang ada pada sistem saat ini
+selain itu kurang efektif dalam penyajian data atau proses pengumuman hasil verifikasi data pelamar dan hasil tes tertulis juga menjadi masalah yang sering dikeluhkan oleh para pelamar dimana para pelamar harus bersusah payah memperoleh hasil pengumuman dengan datang dan melihatnya langsung pada papan informasi yang ada di bkd 
+maka dari itu dibutuhkan suatu sistem atau aplikasi komputer guna membantu kinerja pemerintah daerah dalam malaksanakan proses penerimaan guru kontrak serta membantu para pelamar guru kontrak untuk melakukan pendaftaran dan memperoleh informasi
+berdasarkan data yang dikeluarkan oleh pemerintahan kabupaten ketpang pada tahun 2017 jumlah guru kontrak yang diterima pada pengadaan guru kontrak di tahun tersebut sebanyak 2183 orang
+namun dalam pengaplikasiaan di lapangan tidak jarang adanya guru kontrak yang kurang memiliki disiplin dan kinerja yang kurang baik sehingga membuat pihak sekolah merasa kesulitan dalam menyikapinya
+maka dari itu dibutuhkan pula sistem yang bisa membantu pihak sekolah dalam pemberian laporan terkait guru kontrak bermasalah yang dibuat oleh kepala sekolah untuk disampaikan kepada kepala dinas pendidikan selaku penanggung jawab guru kontrak agar dapat ditindak lanjuti
+sistem laporan tersebut akan mengacu kepada petunjuk teknis guru kontrak dan monitoring kehadiran guru tersebut per bulannya
+dari permasalahan yang dipaparkan di atas, sistem informasi penerimaan dan pengawasan guru kontrak ini diharapkan mampu menjadi solusi terbaik untuk pengadaan guru kontrak di daerah kabupaten ketapang dan memecahkan beberapa masalah yang ada
+dari sistem penerimaan guru kontrak yang sebelumnya masih manual atau konvensional dibuat menjadi proses kompeterisasi dengan memanfaatkan media internet dan website serta membuat sistem penghubung untuk sekolah ke dinas pendidikan guna melakukan laporan masalah guru kontrak yang dibuat dalam satu sistem tersebut
+secara garis besar, diharapkan sistem yang dikembangkan akan mampu memuat berbagai macam informasi dan memberikan fasilitas bagi pemerintahan daerah kabupaten ketapang dalam hal ini panitia penerimaan guru kontrak dan pelamar untuk melakukan proses penerimaan serta penghubung antara sekolah dan dinas pendidikan dan budaya kabupaten ketapang dalam upaya pelaporan guru kontrak yang bermasalah
+ulya rahman melakukan penelitian membuat sistem informasi manajemen penerimaan karyawan kontrak di pt infomedia solusi humanika yang bertujuan untuk membantu para pelamar dalam melakukan proses input data dan mempermudah hrd dalam menindak lanjut pelamar tersebut sehingga proses penentuan lulus atau tidaknya pelamar tersebut lebih efisien
+begitu juga penelitian yang dilakukan oleh sigit nur cahyono membuat sistem penerimaan karyawan baru yang bertujuan untuk membantu para pelamar dalam memperoleh informasi terkait lowongan kerja yang ada di perusahaan tersebut melalui jaringan internet yang dapat diakses dimana saja serta mempermudah perusahaan dalam menyeleksi para calon pelamar
+dari kedua penelitian yang telah dipaparkan, penulis melakukan penelitian yang menghasilkan sebuah sistem informasi berbasis web untuk penerimaan sekaligus pengawasan guru kontrak di daerah pemerintahan kabupaten ketapang yang bertujuan untuk memberikan fasilitas demi kemudahan setiap stakeholder yang terkait
+definisi sistem informasisistem informasi juga merupakan sekumpulan data yang dikelompokkan dan diproses sedemikian rupa hingga menjadi satu kesatuan informasi yang saling berkaitan dan saling mendukung hingga menjadi sebuah informasi yang bernilai untuk penerima
+berdasarkan pemaparan tersebut maka dapat disimpulkan bahwa sistem informasi itu ialah suatu kombinasi antara prosedur kerja, informasi, orang atau pengguna dan teknologi untuk mengumpulkan, memproses, menyimpan, menganalisis dan menyebarkan informasi untuk tujuan tertentu bagi penerima informasi
+penerimaan karyawan atau rekrutmen secara sederhana rekrutmen adalah proses mencari, menemukan, mengajak dan menetapkan sejumlah orang dari dalam maupun dari luar perusahaan sebagai calon tenaga kerja dengan karakteristik tertentu seperti yang telah ditetapkan dalam perencanaan sumber daya manusia
+hasil yang didapatkan dari proses rekrutmen adalah sejumlah tenaga kerja yang akan memasuki proses seleksi, yakni proses untuk menentukan kandidat yang paling layak untuk mengisi jabatan tertentu di suatu perusahaan
+berikut beberapa pengertian rekrutmen menurut para ahli
+ rekrutmen adalah proses mendapatkan sejumlah calon tenaga kerja yang kualifaid untuk jabatan atau pekerjaan utama di lingkungan atau organisasi atau perusahaan
+berdasarkan beberapa pengertian tersebut dapat disimpulkan bahwa penerimaan karyawan atau rekrutmen merupakan suatu sistem yang dibuat oleh perusahaan atau organisasi demi memperoleh karyawan baru yang memenuhi syarat dan kualifikasi untuk menempati posisi yang lowong
+pengawasan dan fungsi pengawasan sebagai mendeterminasi apa yang telah dilaksanakan, maksudnya mengevaluasi prestasi kerja dan apabila perlu, menerapkan tidankan-tindakan korektif sehingga hasil pekerjaan sesuai dengan rencana yang telah ditetapkan
+jadi pengawasan adalah sebagai suatu usaha sistematis oleh manajemen untuk membandingkan kinerja standar, rencana, atau tujuan yang telah ditentukan terlebih dahulu untuk menentukan apakah kinerja sejalan dengan standar tersebut dan untuk mengambil tindakan penyembuhan yang diperlukan untuk melihat bahwa sumber daya manusia digunakan dengan seefektif dan seefisien mungkin didalam mencapai tujuan
+yang diserahi tugas dan wewenang dalam melaksanakan pekerjaan
+ mendidik para pejabat agar mereka melaksanakan pekerjaan sesuai dengan prosedur yang telah ditentukan
+ untuk mencegah terjadinya penyimpangan, penyelewengan, kelalaian, dan kelemahan agar tidak terjadi kerugian yang tidak diinginkan
+perancangan sistem bagian perancangan sistem merupakan tahap awal dari membangun sistem yang akan dikembangkan
+perancangan sistem adalah sebuah kegiatan merancang dan menentukan cara mengolah sistem sehingga dapat memenuhi kebutuhan dari pengguna termasuk diantaranya perancangan user interface, data dan aktifitas proses
+bagian ini terdapat tiga tahapan yaitu diagram alir, data flow diagram dan entity relationship diagram 
+dalam hal ini, implementasi sistem mempunyai empat tahap, yaitu : 1) membuat dan menguji basis data dan jaringan: penerapan sistem yang baru atau perbaikan sistem yang dibuat pada basis data dan jaringan yang telah ada
+jika penerapan sistem yang baru memerlukan basis data dan jaringan yang baru atau dimodifikasi, maka sistem yang baru ini biasanya harus diimplementasi sebelum pemasangan program komputer
+2) membuat dan menguji program: merupakan tahap pertama untuk siklus pengembangan sistem yang spesifik bagi programer
+bertujuan untuk mengembangkan rencana yang lebih rinci dalam pengembangan dan pengujian program komputer yang baru
+3) memasang dan menguji sistem baru: tahap ini dilakukan untuk menyaksikan bahwa kebutuhan integrasi sistem baru terpenuhi
+4) menguji sistem baru kedalam sistem operasi: tujuan tahap ini adalah untuk mengubah secara perlahan-lahan sistem lama menjadi baru sehingga perlu dilakukan pemasangan basis data yang akan digunakan pada sistem baru
+dalam implementasi sistem hal pertama yang dilakukan yaitu instalasi perangkat lunak yaitu xampp yang berperan sebagai server, selanjutnya melakukan pengcodean atau menuliskan bahasa pemrograman seperti php dan sql pada teks editor
+pengujian sistem pengujian sistem merupakan bagian penting dalam pembangunan suatu sistem, tanpa adanya pengujian maka suatu sistem tidak bisa dinyatakan berhasil atau gagal maka dari itu digunakanlah metode pengujian black box testing yang berfokus pada persyaratan fungisional perangkat lunak yang memungkinkan enginers untuk memperoleh set kondisi input yang sepenuhnya akan melaksanakan persyaratan fungisional untuk sebuah programdan pengujian dan pengujian aspek functional suitability untuk mempresentasikan tentang sejauh mana suatu sistem menyediakan fungsi-fungsi yang telah ditetapkan dan memenuhi kebutuhan yang mana karakteristik ini terdiri dari sub-karakteristik, yaitu functional complateness, funcional correctness dan funcional appropriateness
+1 analisis sistem berjalan berikut penjelasan gambar 1 pada tabel 1
+2 para pelamar menyiapkan berkas dan persyaratan untuk disampaikan ke bupati kab
+3 pelamar memenuhi syarat administrasi akan diumumkan kembali sebagai pelamar yang lulus administrasi dan selanjutnya akan diberikan kartu nomor peserta
+4 pelamar mengikuti tes pada tempat dan waktu yang ditentukan
+5 pelamar menerima hasil tes yang diumumkan oleh pemkab ketapang
+6 bagi yang lulus mendapatkan surat tugas yang dikeluarkan dinas pendidikan ketapang
+7 kurang lebih satu bulan berikutnya mendapatkan surat perjanjian kerja 
+8 guru kontrak melakukan perpanjangan kontrak per 1 tahun sekali
+analisis sistem yang dibutuhkan selanjutnya dilakukan analis sistem yang akan dikembang yaitu berupa sistem informasi berbasis web berkaitan dengan penerimaan serta pengawasan guru kontrak, yang mana proses secara umum yang akan dirancang lebih kurangnya seperti berikut :  admin pemkab memuat berita di sistem terkait pembukaan guru kontrak
+ berita mencantumkan syarat dan ketentuan pelamar dan formasi
+ para pelamar melakukan pendaftaran dengan mengisikan data diri, upload file yang menjadi persyaratan dan menentukan formasi yang dipilih serta membuat password guna proses selanjutnya
+ panitia login ke sistem untuk melakukan verifikasi data dan berkas pelamar
+ admin pemkab memuat berita terkait hasil verifikasi dan tes kompetensi
+ pelamar mengakses berita hasil verifikasi dan login untuk mengecek hasil verifikasi data dan berkas pelamar
+ pelamar yang dinyatakan lolos verifikasi mengikuti tes kompetensi
+ setelah tes kompetensi dilaksanakan panitia mengoreksi lembar jawaban dari tes tertulis secara manual, kemudian hasil/nilai dari tes dimasukkan kedalam sistem oleh admin pemkab
+ admin pemkab menentukan pelamar yang diterima berdasarkan hasil nilai akhir yang didapat oleh setiap pelamar
+ bagi pelamar yang dinyatakan diterima maka admin pemkab memindahkan datanya kedalam database guru kontrak yang akan digunakan untuk proses pengawasan
+ admin pemkab post informasi terkait nilai hasil tes kompetensi pelamar guna diketahui oleh setiap pelamar
+ bagi pelamar yang dinyatakan diterima diwajibkan secepatnya melengkapi berkas dan melaporkan diri ke dinas pendidikan guna mendapatkan surat tugas
+ setelah aktif dalam kegiatan mengajar, maka data absensi setiap guru kontrak harus diinputkan setiap harinya oleh admin sekolah
+ ketika terjadi pelanggaran yang dilakukan oleh guru kontrak, maka kepala sekolah terkait berhak melaporkan guru kontrak tersebut ke dinas pendidikan melalui sistem
+ dinas pendidikan akan menindak setiap laporan yang disampaikan kepala sekolah terhadap guru kontrak
+perancangan arsitekstur sistem desain arsitektur sistem merupakan sekumpulan dari model-model terhubung yang menggambarkan sifat dasar dari sebuah sistem
+banyak model arsitektur sistem yang ada, dapat menggambarkan bagian berbeda dan aspek atau pandangan yang berbeda dari suatu sistem
+setiap komponen terdiri dari blok pembangun sistem yang dapat dibangun dengan cara menyatukan sekumpulan komponen berdasarkan aturan tertentu
+adapun arsitektur yang dikembang di dalam sistem dapat ditunjukkan pada gambar 3
+3 arsitekstur sistem  user merupakan pengguna yang melakukan akses terhadap suatu data tertuntu
+adapun user yang terlibat didalam sistem ini ialah kepala dinas pendidikan, admin pemkab, panitia, pelamar guru kontrak, guru kontrak, admin sekolah dan kepala sekolah
+para user akan mengakses sistem informasi peneriamaan dan pengawasan guru kontrak berdasarkan tugas dan kebutuhan masing-masing yang telah diatur oleh sistem
+ client merupakan media atau perangkat yang terhubung ke internet dan melakukan akses ke data yang dituju
+ internet ialah penghubung antara client dan server guna mengakses sistem
+ketika client menginputkan alamat sistem, maka internet akan memproses dengan menyaring alamat tersebut dan meneruskannya ke server
+ketika server telah menemukan data dari sistem maka internet mengirimkannya kembali kepada client dengan sebuah tampilan web sistem informasi tersebut
+ server adalah tempat penyimpanan web tersebut
+sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang akan di hosting ke server guna dapat diakses oleh berbagai pengguna atau user
+disinilah tempat penyimpanan berbagai macam data yang diinputkan dan dibutuhkan
+diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram overviewpada diagram tersebut dibagi menjadi 4 proses yaitu :  proses 1.0 login adalah proses memasukkan username dan password yang dilakukan oleh pengguna untuk mengakses informasi dan data yang ada pada sistem
+ proses 2.0 manajemen data adalah adalah proses pengolahan data yang ada pada sistem
+ proses 3.0 manajemen pelamaran adalah alur proses perekrutan guru kontak dari awal hingga akhir
+ proses 4.0 pengawasan adalah proses yang dilakukan oleh sekolah dan dinas pendidikan terhadap guru kontrak terkait absen, pelaporan dan pemberian sanksi
+5 diagram overview adapun entity relationship diagram untuk sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang dapat dilihat pada gambar 3.23
+6 entity relationship diagram iv implementasi dan hasil pengujian a
+implementasi aplikasi yang dibuat akan diimplementasikan pada pemerintah daerah ketapang dan dinas pendidikan kabupaten ketapang
+aplikasi ini memiliki 8 kriteria pengguna, yaitu :  admin pemkab dapat melakukan manajemen berita, manajemen user dan sekolah
+ panitia dapat melakukan verifikasi data pelamar guru kontrak
+ pelamar dapat melakukan pendaftaran, login kedalam sistem untuk mengecek hasil vefikasi data pelamar, mencetak kartu tes tertulis dan mengecek hasil tes tertulis
+ guru kontrak dapat melakukan login untuk melihat info diri berupa biodata umum, status kontrak, absensi dan laporan
+ sekolah dapat cek profil guru kontrak dan melaporkan masalah terkait guru kontrak ke dinas pendidikan
+ admin sekolah dapat melakukan manajemen absensi guru kontrak terkait
+ dinas pendidikan dapat melakukan pemutusan kontrak, penindakan guru kontrak terkait laporan yang ada dan cek profil guru kontrak
+pengujian black box pengujian dengan metode black box pada perangkat lunak dilakukan untuk menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi
+berikut ini adalah hasil dari pengujian perangkat lunak dengan metode black box yang telah dilakukan
+1) pengujian proses login: hasil pengujian ini, proses login tidak akan berhasil jika kolom username dan atau kolom password tidak diisi atau salah serta salah dalam pemilihan jenis user
+proses login akan berhasil jika username dan password diisi dengan benar serta pemilihan jenis user yang tepat
+2) pengujian proses daftar: hasil dari pengujian ini, proses daftar tidak akan berhasil jika ada kolom inputan ada yang dikosongkan atau tidak diisi serta berkas persyaratan tidak diunggah maka akan memberikan pesan kesalahan
+proses daftar berhasil jika seluruh kolon inputan diisi dan berkas persyaratan diunggah sesuai ketentuan, maka akan memberikan pesan data berhasil tersimpan
+3) pengujian tambah berita: hasil dari pengujian ini adalah, berita tidak akan berhasil ditambahkan jika ada kolom inputan yang dikosongkan, maka akan memberikan pesan kesalahan
+4) pengujian tambah formasi: hasil dari pengujian ini adalah, formasi tidak akan bertambah jika ada kolom inputan yang dikosongkan
+jika semua kolom inputan diisi dengan benar maka data formasi akan bertambah
+5) pengujian proses verifikasi: hasil dari pengujian ini adalah, proses verifikasi tidak akan berhasil jika ada kolom inputan yang dikosongkan, maka akan memberikan pesan kesalahan
+proses ini akan berhasil jika mengisi semua kolom yang ada dengan benar, maka data pelamar akan berubah warna 
+6) pengujian input nilai tes: hasil dari pengujian ini adalah, proses input nilai tes tidak akan berhasil jika nilai peserta tes belum diinputkan dan tidak dikirim
+proses ini akan berhasil jika nilai diinputkan dengan benar, memberi statment atau dan mengirim hasil nilai tersebut, maka hasil dari inputan tersebut akan tampil dihalaman pelamar
+7) pengujian tambah user dinas: hasil dari pengujian ini adalah, proses tambah user dinas tidak akan berhasil jika semua atau salah satu kolom inputan ada yang dikosongkan dan tidak melakukan penyimpanan, maka data user dinas tidak akan bertambah
+proses ini akan berhasil jika semua kolom inputan diisi dan melakukan penyinpanan, maka list daka user dinas akan bertambah
+8) pengujian tambah user sekolah: hasil dari pengujian ini adalah, proses tambah user sekolah tidak akan berhasil jika semua atau salah satu kolom inputan ada yang dikosongkan dan tidak melakukan penyimpanan, maka data user sekolah tidak akan bertambah
+proses ini akan berhasil jika semua kolom inputan diisi dan melakukan penyinpanan, maka list daka user sekolah akan bertambah
+9) pengujian buat laporan: hasil dari pengujian ini adalah, proses buat laporan tidak berhasil jika ada inputan data terkait laporan ada yang dikosongkan, maka akan memberikan pesan kesalahan
+proses ini akan berhasil jika seluruh data diinputkan dengan benar, maka list data laporan akan bertambah
+pengujian aspek functional suitability pengujian functional suitability dilakukan oleh responden ahli dibidang pemograman dalam pengembangan aplikasi berbasis website
+pengujian dengan memberikan angket yang berisi fungsi-fungsi pada aplikasi yang telah dibuat
+pengujian dibagi menjadi 8, yaitu pengujian pada halaman websete utama, halaman admin pemkab, halaman panitia, halaman dinas pendidikan, halaman guru kontrak, halaman pelamar guru kontrak, halaman kepala sekolah dan halaman admin sekolah.adapun hasil pengujian dapat dilihat dapat tabel 2
+tabel iii pengujian functional suitability no halaman uji jumlah hasil sukses gagal 1
+halaman admin sekolah 7 7 0 1 jumlah/jawaban sukses 74 74 0 1 berdasarkan hasil tersebut didapat bahwa seluruh halaman pengguna pada sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang dinyatakan baik, karena nilai x mendekati 1
+sehingga dapat disimpulkan bahwa sistem yang dibangun telah memenuhi aspek functional suitability
+rancang bangun sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang
+kesimpulan dan saran adapun kesimpulan dari hasil penelitian yang berjudul yang telah dilakukan adalah sebagai berikut:  sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang yang berhasil dibangun dapat dimanfaatkan sebagai sarana penyajian informasi terkait guru kontrak dan menjadi media untuk melakukan penyimpanan serta pengolahan data guru kontrak di daerah pemerintahan kabupaten ketapang
+ berdasarkan hasil pengujian dengan black box sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang yang dibangun dapat berjalan dengan baik
+ berdasarkan hasil pengujian aspek functional suitability didapat bahwa halaman website utama, halaman admin pemkab, halaman panitia, halaman dinas pendidikan, halaman guru kontrak, halaman pelamar, halaman kepala sekolah dan halaman admin sekolah pada sistem informasi penerimaan dan pengawasan guru kontrak kabupaten ketapang dinyatakan baik, karena nilai x mendekati 1
+sehingga dapat disimpulkan bahwa sistem yang dibangun telah memenuhi aspek functional suitability
+saran adapun beberapa hal yang menjadi saran dalam pengembangan sistem selanjutnya adalah sebagai berikut:  adanya tes kompetensi untuk para pelamar guru kontrak secara online
+ mengembangkan sistem informasi penerimaan dan pengawasan guru kontrak yang dibangun menjadi sistem informasi penerimaan dan pengwasan untuk seluruh karyawan kontrak yang berkerja di wilayah pemerintahan kabupaten ketapang

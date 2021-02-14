@@ -1,0 +1,44 @@
+penyakit kulit akibat dari kelebihan produksi kelenjar minyak yang menyebabkan terjadinya infeksi dan radang pada kulit manusia
+jerawat sering timbul pada bagian wajah, jerawat juga dapat menimbulkan jaringan parut dan meninggalkan bekas luka jika tidak diatasi
+pada umumnya, jerawat timbul pada masa pubertas dan dewasa muda
+jerawat memiliki berbagai macam jenis, yaitu blackhead, whitehead, papula, postula, nodul kista, conglobata dan fulminans
+berdasarkan dari jenis jerawat tersebut memiliki tingkat kelompoknya masing-masing, yaitu dari tingkat ringan, sedang dan parah
+akan tetapi, masih banyak masyarakat yang belum mengetahui tentang jenis jerawat tersebut
+bentuk dari pemanfaatan teknologi komputer dalam dunia medis adalah sistem pakar
+sistem pakar merupakan sebuah sistem yang dapat berperan seperti pakar dalam melakukan analisis dan konsultasi
+sehingga dapat digunakan untuk membantu dalam memperoleh informasi pengetahuan mengenai jenis dan tingkat jerawat kepada penderita jerawat atau pengguna sistem, berdasarkan dari gejala dan letak jerawat pengguna dapat melakukan konsultasi dengan sistem tersebut
+pengetahuan dari seorang pakar atau dokter akan di formulasikan ke dalam sistem menggunakan suatu metode
+metode yang dituangkan dalam sistem ini adalah metode k- means clustering
+metode ini merupakan proses analisis data menjadi kelompok-kelompok dimana data pada satu kelompok memiliki karakteristik yang sama dan memiliki karakteristik yang berbeda dari kelompok lain
+berdasarkan hasil analisa, sistem ini dapat membantu proses konsultasi pengguna dengan tingkat keberhasilan 100% untuk menentukan jenis jerawat sesuai letaknya dan 90, 56% untuk menentukan jenis jerawat pada wajah sesuai tingkat kelompoknya
+hasil dari penelitian yang telah dilakukan oleh para peneliti, menemukan berberapa jenis jerawat, antara lain yaitu jerawat blackhead, whitehead, papula, pustula, nodul kista, conglobata dan fulminans
+berdasarkan dari jenis jerawat tersebut pula memiliki tingkat kelompoknya masing-masing, yaitu dari tingkat ringan, sedang hingga parah
+namun, kebanyakan penderita jerawat masih banyak yang belum mengetahui jenis-jenis jerawat tersebut, dan jika mengalami jenis jerawat dari tingkat ringan, yang tidak langsung ditangani akan berkembang menjadi parah, sehingga menyebabkan kerusakan pada kulit berupa jaringan parut dan meninggalkan bekas luka
+dan juga keterbatasan waktu maupun biaya untuk konsultasi ke dokter
+oleh sebab itu, perlu adanya sebuah media informasi kepada penderita jerawat yang bertujuan untuk memberikan pemahaman mengenai jenis jerawat, tingkat kelompok jerawat, saran mengatasi jerawat, dan informasi umum mengenai jerawat
+kelompok jerawat dimiliki oleh dokter sebagai pakarnya
+semakin berkembangnya teknologi yang sangat pesat, hasil dari pemikiran dan pelatihan pakar dapat diadopsi dengan menggunakan teknologi kecerdasan buatan, khususnya sistem pakar
+komputer dapat bertindak sebagai konsultan yang cerdas dalam lingkungan keahlian tertentu sebagai hasil dari himpunan pengetahuan dari seorang pakar
+dengan adanya sistem pakar yang dapat berperan seperti pakar dalam melakukan konsultasi
+metode yang digunakan dalam kasus ini adalah metode k-means clustering
+metode ini merupakan proses analisis data menjadi kelompok-kelompok dimana data pada satu kelompok memiliki karakteristik yang sama dan memiliki karakteristik yang berbeda dari kelompok lain
+data sampel yang digunakan dalam metode ini yaitu berdasarkan gejala dan letak jerawat dari hasil penelitian yang sudah ditentukan jenis dan tingkat jerawat terlebih dahulu oleh dokter
+data sampel dari hasil penelitian tersebut selanjutnya digunakan dalam proses perhitungan untuk penentuan tingkat jerawat penderita atau disebut user di dalam sistem pakar
+berdasarkan latar belakang tersebut, dilakukan pembuatan sistem pakar diagnosis jenis jerawat pada wajah, dan menentukan tingkat kelompok jerawat pada wajah menggunakan metode k-means clustering berbasis web
+sehingga mudah digunakan serta memiliki tingkat keakuratan hasil analisa yang tinggi
+sistem yang dibangun tidak hanya menampilkan hasil diagnosis jenis jerawat dan tingkat jerawat saja, tetapi juga memberikan saran mengatasi jerawat sesuai hasil diagnosis tingkat jerawat pada wajah user
+uraian penelitian bagian dari ilmu komputer yang mempelajari tentang bagaimana sebuah komputer bisa dibuat dengan sedemikian rupa agar dapat melakukan pekerjaan seperti dan sebaik yang dilakukan oleh manusia
+kecerdasan buatan adalah suatu sistem komputer yang terbentuk untuk mengetahui dan memodelkan proses-proses berfikir manusia dan mendesain sistem pakar diagnosis jenis jerawat pada wajah menggunakan metode k-means clustering 2, anggi srimurdianti sukamto 1 dian.hadianti@gmail.com, 2 helensastypratiwi@gmail.com, 3 anggidianti@gmail.com salah satu bidang dari sekian banyak bidang yang dimiliki kecerdasan buatan yang merupakan penyelesaian pendekatan yang sangat bagus untuk permasalahan kecerdasan buatan klasik dari pemrograman intelligent 
+pengertian sistem pakar adalah salah satu cabang dari kecerdasan buatan yang membuat penggunaan secara luas knowledge yang khusus untuk penyelesaian masalah tingkat manusia pakar
+sistem pakar merupakan sistem yang berusaha mengadopsi pengetahuan manusia ke komputer, agar komputer dapat menyelesaikan masalah seperti yang biasa dilakukan oleh para ahli, yang dimaksudkan pakar di sini adalah orang yang mempunyai keahlian dalam bidang tertentu
+terdapat pendekatan untuk mengontrol inferensi dalam sistem pakar berbasis aturan, yaitu pelacakan ke depan yang sering disebut sebagai runut maju 
+forward chaining mencari fakta yang sesuai dengan bagian if dari aturan if-then
+metode k-means clustering data menjadi beberapa kelompok sehingga objek di dalam satu kelompok memiliki banyak kesamaan dan memiliki banyak perbedaan dengan objek dikelompok lain
+perbedaan dan persamaannya biasanya berdasarkan nilai atribut dari objek tersebut dan dapat juga berupa perhitungan jarak
+clustering sendiri juga disebut unsupervised classification, karena clustering lebih bersifat untuk dipelajari dan diperhatikan
+clustering dipakai ketika tidak diketahuinya bagaimana data harus dikelompokkan
+clustering juga dikenal sebagai unsupervised learning yang membagi data menjadi kelompok-kelompok atau clusters berdasarkan suatu kemiripan atribut-atribut diantara data tersebut
+k-means merupakan algoritma dari metode clustering yang paling sederhana dan umum
+hal ini dikarenakan k- means mempunyai kemampuan mengelompokkan data dalam jumlah yang cukup besar dengan waktu komputasi yang cepat dan efisien
+k-means merupakan salah satu metode data clustering non hirarki yang berusaha mempartisi data yang ada ke dalam bentuk satu atau lebih kelompok
+metode ini mempartisi data ke dalam cluster sehingga data yang memiliki karakteristik yang sama dikelompokkan ke dalam satu cluster yang sama dan data yang mempunyai karakteristik yang berbeda dikelompokkan ke dalam kelompok yang lain

@@ -1,0 +1,74 @@
+load testing adalah teknik performance testing yang mana respon sistem diukur dalam berbagai load condition
+penelitian ini membantu menentukan bagaimana software berperilaku ketika beberapa user mengakses software secara bersamaan
+pengujian menggunakan metoda black box testing dan gorilla testing sebagai test case sampling
+black box testing adalah pengujian fungsional software tanpa mengetahui struktur internal program 
+gorilla testing adalah teknik pengujian dimana modul program berulang kali diuji untuk memastikan bahwa modul tersebut berfungsi dengan benar dan tidak ada bug
+modul dapat diuji lebih dari seratus kali, dan dengan cara yang sama
+jadi, gorilla testing juga dikenal sebagai 
+pada penelitian ini target pengujian aplikasi adalah loading time tidak >3 second, process memory tidak >400mb, dan data dapat masuk kedalam fungsi
+hasil pengujian load testing menunjukkan dengan menggunakan apache jmeter bahwa target pengujian loading time dan process memory sudah terpenuhi
+pendahuluan aplikasi metani adalah aplikasi yang memiliki fungsi inventarisasi dan pemetaan produksi hasil dan infrastruktur pertanian
+aplikasi ini mendata seluruh produk hasil pertanian di daerah dan mencatat data infrastruktur pertanian di daerah
+diantaranya adalah hasil pertanian baik sawah, perkebunan, maupun peternakan
+juga terdapat infrastruktur yang terdiri dari kondisi lahan dan luas lahan pertanian
+aplikasi metani berguna untuk inventarisasi dan mengetahui rasio produksi pertanian di daerah tiap tahunnya
+pada aplikasi ini terdapat beberapa modul, antara lain modul pengelolaan jenis tani, pengelolaan jenis tanah, modul hasil tani, modul tanah, modul lokasi, dan lain-lain
+setelah aplikasi metani selesai dibuat, maka perlu dilakukan pengujian untuk menguji modul sudah berjalan sesuai dengan requirement
+pengujian adalah suatu proses pelaksanaan suatu program dengan tujuan menemukan suatu kesalahan
+suatu kasus test yang baik adalah apabila test tersebut mempunyai kemungkinan menemukan sebuah kesalahan yang tidak terungkap
+suatu test yang sukses adalah bila test tersebut membongkar suatu kesalahan yang awalnya tidak ditemukan
+tujuan utama dari pengujian adalah untuk mendesain test yang secara sistematik membongkar jenis kesalahan dengan usaha dan waktu minimum
+load testing adalah teknik performance testing yang mana respon sistem diukur dalam berbagai load condition
+paper ini membantu menentukan bagaimana software berperilaku ketika beberapa user mengakses software secara bersamaan
+pengujian menggunakan method black box testing dan gorilla testing sebagai test case sampling
+black box testing adalah pengujian fungsional software tanpa mengetahui struktur internal program 
+gorilla testing adalah teknik pengujian dimana modul program berulang kali diuji untuk memastikan bahwa modul tersebut berfungsi dengan benar dan tidak ada bug
+jadi, gorilla testing juga dikenal sebagai 
+pengujian software pengujian software sangat diperlukan untuk memastikan software/aplikasi yang sudah/sedang dibuat dapat berjalan sesuai dengan fungsionalitas yang diharapkan
+pengembang atau penguji software harus menyiapkan sesi khusus untuk menguji program yang sudah dibuat agar kesalahan ataupun kekurangan dapat dideteksi sejak awal dan dikoreksi secepatnya
+pengujian atau testing sendiri merupakan elemen kritis dari jaminan kualitas perangkat lunak dan merupakan bagian yang tidak terpisah dari siklus hidup pengembangan software seperti halnya analisis, desain, dan pengkodean
+ pengujian software haruslah dilakukan dalam proses rekayasa perangkat lunak atau software engineering
+sejumlah strategi pengujian software telah diusulkan dalam literatur
+semuanya menyediakan template untuk pengujian bagi pembuat software
+dalam hal ini, semuanya harus memiliki karakteristik umum berupa : b
+performance testing performance testing adalah jenis pengujian untuk memastikan perangkat lunak akan bekerja dengan baik di bawah beban kerja yang diharapkan.tujuan utamanya bukan untuk mencari bug, tapi untuk mengeliminasi performance bottleneck
+fokus dari performance testing, yaitu : ● speed - menentukan apakah aplikasi merespon dengan cepat ● scalability - menentukan apakah jumlah maksimum user load dapat ditangani ● stability - menentukan apakah aplikasi stabil dengan berbagai beban c
+load testing load testing adalah teknik performance testing yang mana respon sistem diukur dalam berbagai load condition
+pengujian ini membantu menentuka bagaimana software berperilaku ketika beberapa user mengakses software secara bersamaan
+load testing diperlukan untuk membuat simulasi akses aplikasi web / website secara simultan
+cara ini lebih baik dibandingkan dengan harus mengundang sekian belas, atau puluh orang sekaligus untuk mengakses sebuah website
+unit testing-testing per unit yaitu mencoba alur yang spesifik pada struktur modul kontrol untuk memastikan pelengkapan secara penuh dan pendeteksian error secara maksimum 2
+integration testing – testing per penggabungan unit yaitu pengalamatan dari isu-isu yang diasosiasikan dengan masalah ganda pada verifikasi dan konstruksi program 3
+high-order test yaitu terjadi ketika software telah selesai diintegrasikan atau dibangun menjadi satu –tidak terpisah-pisah 4
+validation test yaitu menyediakan jaminan akhir bahwa software memenuhi semua kebutuhan fungsional, kepribadian dan performa
+apache jmeter aplikasi apache jmeter adalah perangkat lunak open source, 100% aplikasi java murni dirancang untuk memuat tes perilaku fungsional dan mengukur kinerja
+ini pada awalnya dirancang untuk pengujian aplikasi web tetapi sejak diperluas untuk fungsi tes lainnya
+apache jmeter adalah aplikasi open source berbasis java yang dapat dipergunakan untuk performance test
+bagi seorang qa engineer jmeter bisa digunakan untuk melakukan load/stress testing web application, ftp application dan database server test
+apache jmeter dapat digunakan untuk menguji kinerja baik pada sumber daya statis dan dinamis, web bahasa dinamis - php, java, asp.net, file, dll -, jawa objects, pangkalan data dan pertanyaan, ftp server dll)
+hal ini dapat digunakan untuk mensimulasikan beban berat pada server, sekelompok server, jaringan atau objek untuk menguji kekuatan atau untuk menganalisa kinerja secara keseluruhan di bawah jenis beban yang berbeda
+tampilan awal aplikasi jmeter sebagai berikut: gambar
+pengujian aplikasi dengan load testing gambar
+pengujian dengan load testingr user dapat melakukan input data dari aplikasi metani berdasarkan fitur yang disediakan pada aplikasi pengujian
+menentukan test plan dan target pengujian langkah pertama adalah membuat test plan dan selanjutnya dilakukan testing terhadap aplikasi
+target pengujian aplikasi adalah:  loading time tidak >3 second  process memory tidak >400mb 2
+thread login thread login dibagi menjadi 2 yaitu konfigurasi get login dan konfigurasi post login
+mengkonfigurasikan get login dalam aplikasi apache jmeter dengan memasukkan detail web server dan detail http request
+mengkonfigurasikan post method dalam aplikasi apache jmeter dengan detail yang dibutuhkan dan hampir sama dengan cara sebelumnya
+konfigurasi tread group testing berdasarkan data yang sudah kita inputkan maka dapat kita lakukan testing dengan load testing menggunakan metode black box dan gorilla testing
+pertama, testing yang dapat kita lakukan adalah 100 user dengan 1 request baru tiap 0, 1 second
+hasil testing pertama menghasilkan data sebagai berikut: gambar
+diagnostic session pengujian pertama data yang ditampilkan diatas dapat dianalisa bahwa dengan 100 user dengan 1 request baru tiap 0, 1 second
+minimum adalah 195 mb dan maximum adalah 245 mb
+test plan 1000 user untuk 1 request tiap 0.1 second gambar
+konfigurasi pengujian 1000 user setelah diinputkan detail thread group termasuk thread properties untuk 1000 user dengan 1 request tiap 0, 1 second maka dapat di lihat hasil testing sebagai berikut: gambar
+data hasil pengujian 1000 user proses yang terjadi mengalami delay sebesar 23435ms dalam 1 request tiap 0, 1 second untuk jumlah user sebanyak 1000
+diagnostic session pengujian 1000 user berdasarkan diagnostics session, dihasilkan process memory minimal 195mb dan maximum sebesar 259mb
+process time dari hasil pengujian, dapat dianalisa bahwa process memory tidak lebih dari 400mb
+loading time dari hasil pengujian, dapat dianalisa bahwa loading time tidak lebih dari 3 second
+kesimpulan load testing merupakan jenis performance testing yang dapat mengukur respon sistem dalam berbagai load condition
+hasil pengujian ini membantu menentukan bagaimana software berperilaku ketika beberapa user mengakses software secara bersamaan
+teknik pengujian gorilla testing diterapkan pada pengujian di bagian 3
+teknik ini memastikan bahwa modul tersebut berfungsi dengan benar dan tidak ada bug
+modul dapat diuji lebih dari seratus kali, dan dengan cara yang sama
+gorilla testing sangat bermanfaat untuk menguji robustness dari aplikasi

@@ -1,0 +1,23 @@
+bahasa isyarat tersebut digunakan dan dibutuhkan oleh anak tunarungu
+anak tunarungu menderita gangguan pendengaran yang menyebabkan mereka kesulitan dalam berkomunikasi
+bahasa isyarat memberikan peranan yang sangat penting dalam kehidupan anak tunarungu untuk berkomunikasi, namun media pembelajaran yang dibutuhkan untuk anak tunarungu tidak banyak terutama media pembelajaran elektronik yang ada pada smartphone
+penelitian ini bertujuan untuk menghasilkan aplikasi pembelajaran multimedia untuk pengenalan bahasa isyarat bagi anak tunarungu berbasis android sebagai media pembelajaran alternatif bahasa isyarat
+aplikasi ini ditujukan untuk anak tunarungu yang sudah dapat membaca dengan tingkat gangguan pendengaran ringan dan sedang
+metode penelitian yang digunakan adalah research and development 
+metode research and development pada penelitian ini terdiri dari delapan tahapan mulai dari analisa permasalahan, analisis kebutuhan, pengumpulan data, pembuatan aplikasi, pengujian aplikasi, analisis hasil pengujian, revisi aplikasi dan penarikan kesimpulan
+berdasarkan hasil validasi oleh ahli cai, ahli materi dan ahli media, aplikasi multimedia untuk pengenalan bahasa isyarat bagi anak tunarungu berbasis android dikategorikan valid dengan rtvtk 3, 59, sehingga dapat disimpulkan bahwa aplikasi multimedia pengenalan bahasa isyarat layak digunakan sebagai media pengenalan bahasa isyarat untuk anak tunarungu
+dapat memiliki gangguan dalam berbicara, sehingga anak tunarungu biasa disebut juga tunawicara
+anak tunarungu memiliki gangguan pendengaran yang bervariasi antara 27 db –40 db dikatakan sangat ringan 41 db – 55 db dikatakan ringan, 56 db – 70 db dikatakan sedang, 71 db – 90 db dikatakan berat, dan 91 ke atas dikatakan tuli
+akibat dari gangguan pendengaran yang dimiliki oleh anak tunarungu ialah kesulitan dalam berkomunikasi
+biro pusat statistik pada tahun 2015jumlah penduduk yang memiliki gangguan pendengaran di indonesia adalah sebesar 2, 7% dari jumlah penduduk sebesar 255.182.144 jiwa atau sebanyak 6.952.797 jiwa
+dari jumlah tersebut 49.860 diantaranya adalah anak-anak usia 10-14 tahun dan 49.968 anak merupakan anak cacat usia 15-19 tahun
+jumlah tersebut lebih besar dari jumlah penduduk yang memiliki gangguan perilaku dan atau emosional 
+jumlah penduduk yang memiliki gangguan perilaku dan atau emosional di indonesia adalah sebesar 1, 15% dari jumlah penduduk atau sebanyak 2.927.532 jiwa
+dari data pengguna ponsel di indonesia, diketahui bahwa jumlah pengguna ponsel di indonesia sudah melampaui jumlah penduduk indonesia, dimana dari data us cencus bureau pada januari 2014 indonesia memiliki sekitar 251 juta penduduk, berbanding dengan 281 juta pengguna ponsel
+dari data tersebut dapat dilihat bahwa penggunaan ponsel dalam kehidupan keseharian masyarakat indonesia sudah sangatlah populer, sulit tergantikan bahkan dapat dikatakan kebutuhan primer
+pada tahun 2014, sebanyak 7, 3 juta unit smartphone di indonesia yang menjadikan indonesia sebagai pasar penjualan smartphone terbesar di asia tenggara dengan pertumbuhan pasar sebesar 68%
+dari seluruh smartphone yang ada di indonesia, smartphone dengan sistem operasi android berada di posisi nomor satu, diikuti dengan sistem operasi blackberry, windows phone dan ios
+dari paparan diatas maka muncul sebuah ide untuk merancang sebuah aplikasi multimedia untuk pengenalan bahasa isyarat bagi anak tuna rungu
+aplikasi yang dapat mengenalkan bahasa isyarat mengenai kata-kata dasar, abjad dan angka pada anak tunarungu dengan menampilkan video, gambar, teks dan suara
+tinjauan pustaka mengkombinasi atau menggabungkan teks, gambar, seni grafis, suara, animasi, dan video dengan bantuan links dan tools sehingga pengguna dapat bernavigasi, berinteraksi, menciptakan, dan berkomunikasi
+sebagai berikut: tutorial, drill and practice, simulasi, percobaan atau eksperimen, dan permainan

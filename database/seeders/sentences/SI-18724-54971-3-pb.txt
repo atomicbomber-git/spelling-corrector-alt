@@ -1,0 +1,17 @@
+kegiatan sehari-hari, baik itu untuk memasak, mandi, mencuci dan banyak lagi kegunaan air untuk kehidupan sehari-hari
+air bersih tanpa pengolahan terlebih dahulu saat ini sulit ditemukan, apalagi diperkotaan, hampir semua air permukaan sudah terkontaminasi dengan limbah industri maupun limbah rumah tangga
+oleh karena itu penelitian ini bertujuan memberikan informasi penanganan masalah air kepada masyarakat
+sistem informasi ini dibangun dengan pendekatan terstruktur yang menggunakan beberapa alat bantu dan teknik pengerjaan, seperti diagram arus data, perancangan basis data dan perancangan struktur antarmuka sistem
+pengujian sistem menggunakan metode blackbox dan kuesioner
+hasil pengujian blackbox pada sistem informasi menunjukkan bahwa proses masukan dan keluaran yang dilakukan berjalan dengan semestinya dan hasil pengujian menggunakan likert’s summated rating mengenai tanggapan dari responden terhadap sistem informasi sebesar 417 dari total skor tertinggi 500 dapat disimpulkan bahwa sistem informasi ini cukup layak digunakan dan diimplementasikan
+pendahuluan sudah agak sulit ditemukan, apalagi diperkotaan, hampir semua sumber air sudah terkontaminasi dengan limbah industri dan limbah rumah tangga
+mengingat air adalah merupakan komponen pokok dari kebutuhan manusia, maka sumber air bersih ini sangatlah diperlukan
+melihat kondisi air saat ini sangat memprihatinkan, bagaimana tidak, sungai yang dulunya airnya bersih sekarang sudah banyak tercemar
+padahal tempo dulu air sungai sering dimanfaatkan untuk mencuci baju, memasak, untuk mandi dan bahkan sebagai air minum yang segar
+tetapi sekarang banyak sungai atau kali yang ada diperdesaan apalagi diperkotaan yang airnya kotor dan berbau kurang sedap
+jadi air bersih di indonesia sekarang mengalami penurunan kualitas yang sangat signifikan
+air merupakan bagian dari kehidupan yang tak dapat dipisahkan, terutama air dimanfaatkan sebagai air minum untuk memenuhi asupan cairan tubuh, fungsi utama lainnya air layaknya digunakan untuk memasak, mandi, mencuci dan banyak lagi kegunaan air untuk kehidupan
+oleh sebab itu, ketersediaan air bersih harus diprioritaskan mulai dari perdesaan hingga perkotaan
+tetapi upaya pemerintah terhadap ketersediaan air bersih masih belum dirasakan oleh seluruh penduduk indonesia
+tercatat hingga pada tahun 2011, dari sekitar dua ratus jutaan penduduk indonesia, baru 20% saja yang memiliki akses terhadap air bersih
+itu pun kebanyakan di daerah perkotaaan, sedangkan sisanya atau sekitar 80% rakyat indonesia masih mengkonsumsi air yang tak layak untuk kesehatan

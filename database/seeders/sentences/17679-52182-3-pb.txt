@@ -1,0 +1,93 @@
+rancangan dan perawatannya sederhana, dapat disesuaikan pada berbagai aplikasi di lapangan dan pengoperasiannya ekonomis
+paper ini membahas tentang penentuan spesifikasi komponen-komponen jika motor induksi tiga fasa diasut secara langsung ke jala-jala dan jika diasut dengan hubungan bintang-segitiga 
+penentuan spesifikasi komponen dilakukan dengan bantuan program lv motor solution guide yang dirilis oleh pihak schneider
+dari 4 sampel motor yang diuji yakni motor bertegangan 380 – 415 v dan dengan daya masing-masing adalah 4 kw, 7, 5 kw, 11 kw, dan 15 kw diperoleh bahwa spesifikasi komponen-komponen yang dihasilkan melalui program tersebut bersesuaian dengan spesifikasi komponen yang terdapat pada katalog 2016 yang diterbitkan oleh pihak schneider
+dengan demikian dapat disimpulkan bahwa spesifikasi komponen-komponen ini dapat langsung diaplikasikan di lapangan sesuai dengan sistem pengasutan yang digunakan
+motor induksi yang umum dipakai adalah motor induksi tiga fasa dan motor induksi satu fasa
+motor induksi tiga fasa dioperasikan pada sistem tiga fasa dan banyak digunakan di berbagai bidang industri, sedangkan motor induksi satu fasa dioperasikan pada sistem satu fasa yang banyak digunakan terutama pada penggunaan untuk peralatan rumah tangga seperti kipas angin, lemari es, pompa air, mesin cuci, dan sebagainya
+pengasutan tegangan penuh mengandung arti bahwa tegangan jala-jala dihubungkan secara langsung ke terminal-terminal motor
+sedangkan pengasutan tegangan dikurangi mengandung arti bahwa motor diasut pada tegangan di bawah tegangan nominal dengan tujuan untuk membatasi arus yang masuk ke motor / mencegah pemanasan berlebih pada motor, khususnya untuk motor-motor berukuran besar
+beberapa metode yang digunakan pada pengasutan tegangan dikurangi dapat berupa pengasutan dengan menggunakan impedansi di sisi stator, pengasutan dengan menggunakan ototransformator, atau wye-delta / star-delta 
+khusus untuk pengasutan motor induksi rotor belitan digunakan tahanan luar atau tahanan sekunder yang terhubung pada rangkaian rotor
+dengan berkembangnya teknologi, pengasutan motor induksi dengan menggunakan piranti elektronika daya telah banyak dilakukan, berupa pengasutan dengan menggunakan variable speed drive / inverter dan soft starter
+beberapa penelitian sebelumnya diantaranya adalah yang pernah dilakukan oleh h.h
+kok dimana membahas tentang perbandingan metode pengasutan motor induksi antara sistem dol, bintang-segitiga, dan ototransformator, namun hanya sekedar menentukan metode pengasutan yang paling handal dan praktis ditinjau dari persoalan kualitas daya yang paling minim
+selanjutnya adalah penelitian yusnan badruzzaman, yang membahas tentang pengasutan konvensional motor induksi tiga fasa rotor sangkar tupai
+penelitian ini bertujuan untuk mengetahui karakteristik sistem pengasutan yang terdiri dari sistem dol, bintang-segitiga, tahanan primer, dan dengan transformator dan lebih memfokuskan pemilihan metode pengasutan ditinjau dari besarnya arus asut dan torsi asut
+sultan, i made ari nrartha, dan agung budi muljono juga melakukan penelitian tentang unjuk kerja motor induksi tiga fase rotor sangkar dengan berbagai pengasutan
+penelitian ini membuat sistem pengukuran arus, tegangan, dan kecepatan secara real time untuk melihat unjuk kerja pengasutan sistem dol dan 143 arus asut antara sistem dol dan bintang-segitiga
+berbeda dengan penelitian yang akan penulis lakukan yakni lebih menitikberatkan pada penentuan spesifikasi komponen- komponen jika motor induksi tiga fasa diasut dengan sistem dol dan jika diasut dengan sistem bintang-segitiga
+dengan demikian spesifikasi yang diperoleh nantinya dapat langsung diaplikasikan di lapangan
+motor induksi dilakukan secara manual melalui perhitungan dan merujuk pada aturan yang berlaku
+puil merupakan sandaran utama dalam kegiatan instalasi listrik, termasuk dalam hal perencanaannya
+melalui cara ini hanya diperoleh besarnya kapasitas tiap komponen, namun tidak mengikutsertakan spesifikasi secara lengkap komponen yang dibutuhkan
+spesifikasi komponen-komponen yang dibutuhkan untuk mengasut motor induksi, baik satu fasa maupun tiga fasa
+beberapa diantaranya adalah motor induksi tiga fasa yang diasut secara langsung ke jala-jala maupun yang diasut dengan sistem hubungan bintang-segitiga 
+perangkat lunak lv motor starter solution guide merupakan program yang dirilis oleh pihak schneider
+komponen-komponen untuk perlengkapan pengasut motor induksi di indonesia umumnya menggunakan produk schneider dengan merk dagang merlin gerin dan telemecanique
+perangkat lunak lv motor starter solution guide untuk menentukan komponen-komponen yang dibutuhkan jika motor diasut dengan menggunakan sistem pengasutan langsung ke jala-jala dan jika diasut dengan sistem hubungan bintang-segitiga dengan menggunakan produk dari schneider bermerk dagang merlin gerin dan telemecanique
+mesin sinkron, hanya berbeda pada konstruksi rotornya
+ada 2 tipe rotor motor induksi yakni rotor sangkar tupai / rotor sangkar dan rotor belitan / gelang seret 
+gambar 1 menunjukkan motor induksi rotor sangkar, sedangkan 1, 1, dan 1 berturut-turut merupakan stator, rotor sangkar dan rotor belitan
+pengasutan dengan metode ini menggunakan tegangan jala- jala / line penuh yang dihubungkan langsung ke terminal motor melalui pengendali mekanik atau dengan kontaktor magnet pengasutan dengan cara ini biasanya diaplikasikan untuk motor induksi dengan daya di bawah 5 kw
+gambar 2 memperlihatkan rangkaian daya dan rangkaian kontrol untuk pengasutan secara langsung ke jala-jala 
+ motor induksi rotor sangkar stator rotor sangkar rotor belitan gambar 2
+untuk menjalankan motor dapat dipilih starter yang umum dipakai antara lain saklar rotari y-δ, saklar khusus y-δ, atau dapat juga menggunakan beberapa kontaktor magnet beserta kelengkapannya yang dirancang khusus untuk rangkaian starter y-δ
+saat motor terhubung bintang, arus asutnya hanya sepertiga dari arus asut dalam hubungan segitiga 
+gambar 3 memperlihatkan rangkaian daya dan rangkaian kontrol untuk pengasutan bintang-segitiga 
+ rangkaian daya dan rangkaian kontrol pengasutan bintang- segitiga memilih kombinasi komponen untuk melindungi dan mengendalikan motor induksi / motor asinkron
+hasil seleksi yang dilakukan akan menampilkan daftar produk yang harus dipilih, beserta kombinasi untuk pengasut motornya
+hingga saat ini versi yang terbaru dari perangkat lunak ini adalah versi 3.4 
+gambar 4 menunjukkan tampilan program lv motor starter solution guide versi 3.4
+diagram alir lv motor starter solution guide
+diagram alir penggunaan program lv motor starter solution guide versi 3.4 motor starter solution guide adalah sebagai berikut :  besaran tegangan untuk pengasut motor : 220 – 240 v satu fasa serta 380 – 415 v, 440 v dan 660 – 690 v tiga fasa
+ daya nominal motor : 0, 06 kw hingga 710 kw
+ tipe pengasut : direct on line, reversing, star-delta, drive ip5x, drive ip2x, soft starter in line, dan soft starter inside delta
+ tipe pengasutan : normal start, long start, start / no stop standard, start / stop standard, dan start / stop severe 
+miniature circuit breaker, moulded case circuit breaker, blade am switch-fuse, blade gg switch-fuse, cylindrical am switch-fuse, cylindrical gg switch-fuse, cylindrical am fuse- holder, cylindrical gg fuse-holder, dan bs switch-fuse
+ proteksi beban lebih : circuit breaker, comb
+motor starter, separate relay, ats, dan atv
+circuit breaker yang digunakan menggunakan tipe pemutus tenaga termal-magnetik
+ tipe proteksi beban lebih : classic, advanced, dan multifunction
+classic merupakan tipe rele termal klasik jenis bimetal yang dapat diaplikasikan untuk tiap jenis motor
+advanced merupakan tipe rele termal yang diperuntukkan pada mesin yang lebih modern yang membutuhkan perlakuan khusus
+sedangkan multifunction merupakan tipe rele termal yang diperuntukkan pada mesin yang memerlukan proteksi tingkat tinggi dan biasanya digunakan untuk motor berkapasitas besar atau motor untuk proses produksi yang sangat vital  tipe koordinasi : tipe 1, tipe 2, dan total tipe 1 berupa penurunan kemampuan pada kontaktor dan rele dimana masih dalam kondisi yang diizinkan asalkan tidak menimbulkan bahaya bagi petugas operasi dan tidak menimbulkan bahaya bagi komponen-komponen yang lain selain kontaktor dan rele
+tipe 2 tidak menimbulkan bahaya bagi petugas operasi dan bagi komponen apapun
+sedangkan total merupakan level ketiga dimana tidak terdapat sambungan minor pada kontak kontaktor dan kontak pengasut
+setelah gangguan dieliminir, pengasut harus mampu untuk diasut kembali tanpa dilakukannya perawatan 
+ tipe operasi manual : push button, rotary handle, dan toggle
+adapun yang menjadi obyek dalam penelitian ini adalah sebagai berikut :  spesifikasi motor induki tiga fasa yang dijadikan sampel terdiri dari 4 buah motor yakni yang bertegangan 380 – 415 v, dengan daya masing-masing adalah 4 kw, 7, 5 kw, 11 kw, dan 15 kw
+ tipe pengasut yang akan dibandingkan adalah sistem dol dengan sistem bintang-segitiga 
+ proteksi hubung singkat menggunakan komponen manual motor starter 
+ proteksi beban lebih menggunakan circuit breaker
+ tipe proteksi beban lebih menggunakan tipe classic
+ tipe operasi manual menggunakan push button
+hasil eksekusi program program untuk motor induksi tiga fasa berturut-turut untuk daya 4 kw, 7, 5 kw, 11 kw, dan 15 kw, tegangan 380 – 415 v, dengan sistem dol starting sedangkan gambar 7, 9, 11, dan 13 memperlihatkan hasil eksekusi program untuk sistem y-δ starting
+hasil eksekusi program untuk motor induksi 3 fasa, 4 kw, 380 – 415 v, sistem dol starting, operasinya menggunakan tombol tekan, manual motor starter, dan koordinasi tipe 1 gambar 7
+hasil eksekusi program untuk motor induksi 3 fasa, 7, 5 kw, 380 – 415 v, sistem dol starting, operasinya menggunakan tombol tekan, manual motor starter, dan koordinasi tipe 1 gambar 9
+hasil eksekusi program untuk motor induksi 3 fasa, 11 kw, 380 – 415 v, sistem dol starting, operasinya menggunakan tombol tekan, manual motor starter, dan koordinasi tipe 1 gambar 11
+hasil eksekusi program untuk motor induksi 3 fasa, 15 kw, 380 – 415 v, sistem dol starting, operasinya menggunakan tombol tekan, manual motor starter, dan koordinasi tipe 1 gambar 13
+dengan sistem pengasutan secara langsung ke jala- jala dan pengasutan bintang-segitiga daya 1 x lc1k09●● 4 kw y-δ 1 x lc3k06●● 7, 5 kw dol 1 x lc1d18●● 7, 5 kw y-δ 1 x lc3k09●● 11 kw dol 1 x lc1d25●● 11 kw y-δ 1 x lc3d12●● 15 kw dol 1 x lc1d32●● 15 kw y-δ 1 x lc3d18●● dari tabel i terlihat bahwa untuk motor induksi 3 fasa, 4 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me14 dan 1 buah kontaktor tipe lc1k09●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me14 dan 1 buah pengasut bintang – segitiga tipe lc3k06●●
+untuk motor induksi 3 fasa, 7, 5 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me20 dan 1 buah kontaktor tipe lc1d18●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal- magnetik tipe gv2 me20 dan 1 buah pengasut bintang – segitiga tipe lc3k09●●
+untuk motor induksi 3 fasa, 11 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me22 dan 1 buah kontaktor tipe lc1d25●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal- magnetik tipe gv2 me22 dan 1 buah pengasut bintang – segitiga tipe lc3d12●●
+terakhir untuk motor induksi 3 fasa, 15 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me32 dan 1 buah kontaktor tipe lc1d32●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal- magnetik tipe gv2 me32 dan 1 buah pengasut bintang – segitiga tipe lc3d18●●
+daftar harga 2016 yang diterbitkan oleh schneider
+tabel ii dan kontaktor motor induksi tiga fasa dengan sistem pengasutan langsung ke jala-jala, koordinasi tipe 1 untuk pengasutan motor induksi secara langsung ke jala- jala terdapat kesesuaian komponen yang diperoleh dari hasil eksekusi program lv motor starter solution guide dengan komponen yang direkomendasikan berdasarkan katalog harga 2016, demikian juga halnya untuk pengasutan bintang-segitiga seperti terlihat pada tabel iii
+demikian juga untuk tipe-tipe kontaktor yang lainnya
+kesimpulan dan saran digunakan dapat disimpulkan bahwa : 1
+untuk motor induksi 3 fasa, 4 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me14 dan 1 buah kontaktor tipe lc1k09●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me14 dan 1 buah pengasut bintang – segitiga tipe lc3k06●●
+untuk motor induksi 3 fasa, 7, 5 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me20 dan 1 buah kontaktor tipe lc1d18●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me20 dan 1 buah pengasut bintang – segitiga tipe lc3k09●●
+untuk motor induksi 3 fasa, 11 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me22 dan 1 buah kontaktor tipe lc1d25●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me22 dan 1 buah pengasut bintang – segitiga tipe lc3d12●●
+untuk motor induksi 3 fasa, 15 kw, 380 – 415 v dengan sistem pengasutan secara langsung ke jala-jala membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me32 dan 1 buah kontaktor tipe lc1d32●●
+sedangkan jika menggunakan sistem pengasutan bintang – segitiga membutuhkan 1 buah pemutus tenaga termal-magnetik tipe gv2 me32 dan 1 buah pengasut bintang – segitiga tipe lc3d18●●
+terdapat kesesuaian komponen yang diperoleh dari hasil eksekusi program lv motor starter solution guide dengan komponen yang direkomendasikan berdasarkan katalog harga 2016, baik untuk pengasutan motor induksi secara langsung ke jala-jala maupun untuk pengasutan bintang-segitiga 
+masih banyak variasi yang dapat dilakukan dengan menggunakan program lv motor starter solution guide
+variasi dapat berupa sistem fasa, tegangan kerja motor, daya mekanik motor, tipe pengasutan, jenis driver, lama pengasutan, proteksi hubung singkat, proteksi beban lebih, tipe koordinasi, dan tipe operasi manual yang digunakan
+spesifikasi komponen-komponen yang ditentukan melalui program lv motor starter solution guide dapat diterapkan langsung di lapangan

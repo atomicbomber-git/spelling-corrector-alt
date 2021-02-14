@@ -1,0 +1,163 @@
+autisme merupakan gangguan perkembangan yang dapat dideteksi sejak dini
+setiap tahunnya anak yang mengidap spektrum autisme jumlahnya semakin meningkat
+oleh karena itu, penting bagi orang tua untuk peka terhadap adanya kelainan yang ditunjukkan anak dalam masa perkembangannya agar dapat segera ditangani dan mengurangi resiko yang mengganggu pada perkembangan selanjutnya
+dengan dasar tersebut maka diperlukan sebuah sistem pakar yang dapat membantu orang tua untuk mendeteksi indikasi autisme pada anaknya
+adapun sistem pakar yang dibangun menggunakan metode fuzzy tsukamoto sebagai metode penalaran untuk menentukan hasil deteksi berdasarkan gejala yang ditunjukkan
+sistem pakar ini dibangun berbasis android agar dapat digunakan oleh orang tua maupun instansi/lembaga yang membutuhkan
+berdasarkan pengujian yang dilakukan, sistem pakar ini valid dengan tingkat akurasi sebesar 73, 33% dalam memberikan hasil deteksi yang sesuai dengan pakar
+aplikasi ini dinilai berhasil dengan skor 1608 pada skala likert penilaian pengguna
+selain itu sistem dapat beroperasi baik di smartphone dan tablet dengan minimum os android versi jelly bean 
+gangguan ini ditunjukkan dengan adanya ciri perkembangan yang terlambat atau yang abnormal dari hubungan sosial dan bahasa
+gejala autis timbul sebelum anak mencapai usia 3 tahun
+pada sebagian anak, gejala gangguan perkembangan ini sudah terlihat sejak lahir
+kelainan ini bagi orang awam, khususnya orang tua, mungkin sulit diketahui dengan cermat apakah anaknya mengalami autisme atau tidak, untuk mendapatkan diagnosa yang pasti, mereka harus memeriksakan anaknya ke dokter ataupun psikiater anak
+hal ini tentu tidak sulit, namun tidak semua orang tua mampu menyanggupinya
+saat ini, sebagian besar orang tua dapat menggunakan perangkat mobile, seperti smartphone
+umumnya, untuk mendapatkan informasi autisme dan perkembangan anak, orang tua cenderung mendapatkannya melalui media sosial maupun situs-situs web
+oleh karena itu, untuk membantu ditahap pemeriksaan dini gangguan autisme pada anak, diperlukan perangkat lunak yang dapat mendiagnosa autisme berdasarkan kondisi gejala yang ditunjukkan anak
+perangkat lunak tersebut dapat berupa sistem pakar yang memiliki pengetahuan layaknya pakar dan mampu bekerja sesuai proses diagnosa berprosedur dalam mendiagnosa autisme anak
+adapun sistem pakar yang dibuat dalam penelitian ini menggunakan kuisioner asd assessment scale yang disesuaikan dengan pengetahuan pakar dan metode fuzzy tsukamoto yang diimplementasikan
+fuzzy tsukamoto merupakan salah satu jenis penalaran logika fuzzy yang digunakan untuk menangani kesamaran dalam menghasilkan keputusan
+pada sistem pakar yang dibangun, metode fuzzy tsukamoto digunakan untuk menghasilkan keputusan status kondisi anak, sedangkan asd assessment scale dan pengetahuan pakar, digunakan sebagai dasar dalam pemeriksaan autisme pada anak
+sistem pakar digunakan untuk menyelesaikan masalah sebagaimana yang dipikirkan oleh pakar
+pakar yang dimaksud di sini adalah orang yang mempunyai keahlian khusus yang dapat menyelesaikan masalah yang tidak dapat diselesaikan oleh orang awam
+sistem pakar dipandang berhasil ketika mampu mengambil keputusan seperti yang dilakukan oleh pakar aslinya baik dari sisi proses pengambilan keputusan maupun hasil keputusan yang diperoleh
+mengambil kesimpulan meskipun fakta yang diberikan oleh user tidak lengkap
+maka dari itu, sistem pakar harus mampu bekerja dalam ketidakpastian
+sejumlah teori telah ditemukan untuk menyelesaikan ketidakpastian, diantaranya probabilitas klasik, probabilitas bayes, teori hartley berdasarkan himpunan klasik, teori dempster-shafer, teori fuzzy zadeh dan faktor kepastian 
+metode fuzzy tsukamoto yang didasarkan pada teori himpunan fuzzy, aturan fuzzy yang berbentuk if-then, dan penalaran fuzzy
+sistem inferensi fuzzy menerima input crisp
+input ini kemudian dikirim ke basis pengetahuan yang berisi n aturan fuzzy dalam bentuk if- then
+fire strength akan dicari pada setiap aturan
+apabila aturan lebih dari satu, maka akan dilakukan agregasi semua aturan
+salah satu metode fis yang dapat digunakan untuk pengambilan keputusan adalah metode tsukamoto
+pada metode tsukamoto, implikasi setiap aturan berbentuk implikasi atau implikasi dimana antara anteseden dan konsekuen harus ada hubungannya
+setiap aturan direpresentasikan menggunakan himpunan-himpunan fuzzy, dengan fungsi keanggotaan yang monoton
+kemudian untuk menentukan hasil tegas digunakan rumus penegasan yang disebut atau 
+berikut adalah tahap-tahap dalam metode fuzzy tsukamoto
+akan digunakan untuk mencari nilai derajat keanggotaan setiap parameter pada variabel tersebut
+pada penelitian ini, digunakan tiga variabel input dan satu variabel output dengan fungsi keanggotaan kurva segitiga dan kurva trapesium
+variabel input tersebut adalah kesulitan dalam interaksi sosial, keterlambatan kemampuan berbicara dan berbahasa, dan kesulitan dalam berperilaku 
+sedangkan variabel output fuzzy yakni golongan asd 
+masing-masing variabel terdiri dari empat parameter, yaitu normal, ringan, sedang, dan berat
+aturan yang dibentuk yakni untuk menentukan parameter gasd mana yang sesuai dengan kondisi input semua variabel, adapun aturan yang terbentuk berjumlah 33 aturan
+mesin inferensi agregasi terhadap setiap aturan untuk mendapatkan masing-masing nilai α-predikat dan nilai z
+sehubungan dengan fungsi implikasi dan operator and yang digunakan pada aturan fuzzy, maka pencarian nilai α- predikat menggunakan fungsi min
+pada setiap aturan, nilai keanggotaan anteseden akan dibandingkan dan nilai yang terkecil akan diambil sebagai α-predikat aturan tersebut
+setelah itu, α-predikat tersebut akan digunakan untuk menghitung nilai z aturan tersebut
+perhitungan nilai z berdasarkan fungsi keanggotaan variabel output
+fuzzy tsukamoto menggunakan metode defuzzifikasi rata-rata terpusat, dengan rumus sebagai berikut
+ keterangan: α : nilai/derajat keanggotaan z : nilai output aturan-n pertama kali dikemukakan oleh dr leo kanner 1943, seorang psikiatris amerika
+istilah autisme dipergunakan untuk menunjukkan suatu gejala psikosis pada anak-anak yang unik dan menonjol yang sering disebut sindrom kanner
+ciri yang menonjol pada sindrom kanner antara lain ekspresi wajah yang kosong seolah-olah sedang melamun, kehilangan pikiran dan sulit sekali bagi orang lain untuk menarik perhatian mereka atau mengajak mereka berkomunikasi
+seperti faktor genetik, pre-natal, zat aditif yang mencemari otak anak, neurobiologis, dan gangguan sistem pencernaan
+rujukanmenjelaskan bahwa berdasarkan penelitian beberapa pakar, terdapat beberapa faktor yang dapat menjadi penyebab timbulnya autis, yakni faktor psikologis dan keluarga, faktor sosio-kultural, dan faktor biologis 
+selain itu, ciri-ciri autisme dapat ditunjukkan dengan adanya gangguan berikut
+pervasive developmental disorder not otherwise specified
+gangguan dalam perilaku asd terdiri dari lima jenis gangguan, yakni autisme infantil, sindrom asperger, sindrom rett, gangguan disintegrasi masa kanak-kanak, dan gangguan perkembangan pervasive yang tidak termasuk kelompok sebelumnya atau biasa disebut pdd-nos 
+klasifikasi autisme dikelompokkan menjadi tiga, antara lain : 1
+ketidakmapuan anak berbahasa termasuk pada penyimpangan reaksi terhadap rangsangan dari luar, begitu juga ketidakmampuan anak bekerjasama dengan orang lain, sehingga anak bersikap masa bodoh
+autisme reaksi kecemasan seperti orangtua meninggal, sakit berat, pindah rumah/sekolah dan sebagainya
+autisme ini akan memunculkan gerakan-gerakan tertentu berulang-ulang pada usia lebih besar yakni 6-7 tahun saat anak belum memasuki tahapan berpikir logis
+terjadi setelah anak agak besar, dikarenakan kelainan jaringan otak yang terjadi setelah anak lahir
+hal akan mempersulit dalam hal pemberian pelatihan dan pelayanan pendidikan untuk mengubah perilakunya yang sudah melekat
+android bersifat open-source, terus berkembang dan selalu terbuka untuk digunakan dan dikembangkan siapa saja
+sejak dirilis versi beta pada november 2007, versi android hingga saat ini adalah sebagai berikut
+perancangan sistem melalui aplikasi yang terinstal akan mengakses server untuk proses pengambilan data, dan data tersebut akan ditampilkan pada sisi client melalui antarmuka aplikasi
+berikut pada gambar 1 menunjukkan arsitektur sistem yang dibangun
+kontak mata kurang atau menatap dari sisi yang tidak biasa
+anak cenderung tidak menatap saat dipanggil, diajak berbicara, ataupun saat berhadapan
+mengabaikan saat dipanggil, acuh, dan tidak menoleh ke sumber suara
+ketakutan yang berlebihan pada suara ribut atau sering menutup telinga
+menyendiri atau seolah-olah berada dalam dunianya sendiri
+kurangnya rasa ingin tahu terhadap lingkungan sekitarnya
+ekspresi/mimik wajah tidak sesuai dengan situasi
+menangis dan tertawa dengan tidak wajar
+temper tantrum, bereaksi berlebih ketika tidak mendapatkan yang diinginkannya atau tidak sesuai dengan keinginannya
+misalnya mengalami benjolan di kepala tanpa bereaksi
+mengabaikan rasa sakit/nyeri 
+merasa tidak suka atau risih saat disentuh/dipegang, digendong, ataupun dipeluk
+tidak suka pada keramaian, misalnya di restoran atau pasar
+memiliki rasa cemas ataupun rasa takut yang berlebih/tidak wajar
+ekspresi sukacita atau kegembiraan yang abnormal ketika melihat orang tua
+mengeluarkan suara lebih keras dari yang semestinya
+sering berbicara meracau atau omong kosong maupun jargon
+sulit untuk mampu memahami hal-hal dasar
+menarik orang tua menuju hal yang dia inginkan
+sulit mengekspresikan, mengungkapkan, ataupun menunjukkan keinginannya dengan gerakan
+tidak spontan berinisiatif dalam berbicara atau berkomunikasi
+mengulang kata yang didengarkannya 
+tidak mampu bertahan dalam sebuah percakapan
+berbicara secara monoton/datar maupun berbicara dengan jedah yang tidak tepat
+berbicara dengan cara yang sama pada orang dewasa, anak-anak, dan benda
+cara berbicara terhadap objek apapun tidak tampak berbeda
+ 
+menggunakan kata-kata/bahasa dengan tidak tepat, misalnya menggunakan kata/istilah yang tidak sesuai
+berjalan menjinjit dan badan berpostur kaku
+mencium, memukul, menjilati, ataupun memperlakukan mainan/benda dengan tidak wajar
+tertarik pada bagian mainan, seperti roda mobil-mobilan
+terobsesi pada benda/objek maupun topik 
+senang dan tertarik dengan objek yang berputar
+misalnya menonton video yang sama berulang-ulang
+memiliki ketertarikan yang terbatas 
+mengalami kesulitan untuk menghentikan aktivitas dan percakapan yang berulang-ulang dan terkesan membosankan
+merasa terikat dengan objek yang tidak biasa 
+keras kepala terhadap rutinitas/kebiasaan dan menolak terhadap perubahan
+terbatas dalam hal selera, yang dipengaruhi oleh konsistensi, bentuk, maupun wujud
+memiliki kemampuan akademis tinggi, keterampilan jauh melampaui pada umumnya
+misalnya mampu membaca atau menghapal lebih awal dari batasan usia normalnya
+adapun dalam penelitian ini unit program yang akan diuji menggunakan metode white box adalah penerapan algoritma fuzzy tsukamoto dan algoritma kondisi yang digunakan dalam menghasilkan hasil deteksi pada aplikasi
+operasi aplikasi di berbagai jenis perangkat android yang memenuhi syarat perangkat lunak
+aspek-aspek yang ditinjau dalam pengujian ini adalah versi os, resolusi layar/display, dan hasil eksekusi/operasional aplikasi
+adapun ketentuan perangkat yang diuji yakni minimum memiliki sistem operasi android versi 4.1, hal ini dikarenakan saat ini sebagian besar perangkat yang digunakan telah menggunakan sistem operasi yang terbaru
+pengujian akurasi sistem pakar dilakukan pada sisi sistem pakar
+pengujian ini dilakukan dengan membandingkan keputusan hasil deteksi yang dibuat oleh pakar dan keputusan hasil deteksi yang dibuat oleh sistem
+pengujian ini menggunakan total 15 sampel kasus anak yang diperoleh dari autis center dan pusat terapi autis bina anak bangsa
+pengujian ini ditujukan untuk mengetahui seberapa besar tingkat akurasi sistem dalam menghasilkan keputusan hasil deteksi layaknya pakar
+user acceptance testing atau pengujian daya terima pengguna dilakukan pada untuk mengetahui tingkat keberhasilan aplikasi berdasarkan penilaian pengguna
+pada penelitian ini, sampel pengguna yang digunakan untuk memberikan penilaian terhadap aplikasi berjumlah 40 orang yang merupakan orang tua dari anak yang terdaftar di autis center pontianak
+adapun aspek yang dinilai yakni tampilan aplikasi, kinerja aplikasi, dan manfaat aplikasi bagi pengguna
+hasil dan diskusi mengenai autisme dan perkembangan anak, serta sebagai alat bantu dalam mendeteksi indikasi autisme anak
+sistem yang dibangun ditujukan untuk penggunaan pada sisi end-user yakni orang tua maupun pakar atau terapis yang berkaitan dengan autisme anak
+oleh karena itu, aplikasi dibangun berbasis android dan antarmuka dirancang sederhana dan terstruktur alur operasionalnya
+anak, info autisme, dan deteksi autisme, selain itu pengguna juga dapat mengakses informasi mengenai aplikasi melalui tombol info yang terletak pada bagian bawah halaman
+berikut gambar 2 merupakan tampilan halaman utama aplikasi
+pada menu info perkembangan anak, terdapat submenu aspek perkembangan anak dan tahap perkembangan anak
+sedangkan pada menu info autisme, berisi submenu penyebab asd, jenis asd, perkembangan anak autistik, dan jenis terapi
+pada menu deteksi autisme, berisi sesi tanya jawab gejala autisme dan setelah sesi selesai, akan ditampilkan hasil deteksi oleh sistem
+terakhir pada menu info, berisi submenu tentang aplikasi, sumber & referensi, dan tata cara penggunaan
+operasional aplikasi pada berbagai jenis perangkat android, baik smartphone ataupun tablet pada pengujian kompatibilitas ini, aplikasi diuji mulai dari tahap instalasi hingga saat dioperasikan pada perangkat
+pada penelitian ini, digunakan 15 perangkat android dengan minimum os versi 4.1 
+berikut pada tabel 4 menunjukkan hasil pengujian kompatibilitas
+pengujian akurasi sistem pakar pengujian validitas melalui perbandingan akurasi sistem pakar yang dilakukan bertujuan untuk mengetahui seberapa besar tingkat keakuratan hasil deteksi autisme yang dihasilkan oleh sistem dibandingkan dengan hasil deteksi oleh pakar
+pakar yang membantu dalam memberikan hasil deteksi yakni ismi ardhini, m.psi, psikolog yang juga merupakan kepala uptd autis center kota pontianak, dan sudarwati, s.pd.i yang merupakan terapis dan juga guru pada lp2 bab
+berikut pada tabel 5, ditunjukkan perbandingan hasil deteksi oleh sistem terhadap hasil deteksi pakar
+hasil pengujian akurasi sistem pakar menunjukkan bahwa berdasarkan data yang diuji, terdapat empat kasus yang menunjukkan hasil deteksi sistem berbeda dengan hasil deteksi oleh pakar
+berikut pada tabel 6 ditunjukkan skor yang diperoleh dari 40 responden terhadap sepuluh item pertanyaan
+berikut perhitungan untuk mengukur tingkat keberhasilan aplikasi dengan menggunakan metode lsr terhadap data pada tabel 6
+skor kuatril i = 2 x 10 item = 20 e
+jumlah skor untuk seluruh responden: a
+interpretasi jumlah skor tersebut adalah: a
+1600 < skor < 2000, artinya sangat positif cukup berhasil) kurang berhasil) dinilai tidak berhasil) total skor penilaian yang diperoleh dari 40 responden yakni 1608 dan berada di antara titik kuartil iii dan titik maksimal 
+sebagai berikut: fuzzy tsukamoto menunjukkan bahwa dalam penerapan setiap tahap fuzzy tsukamoto telah berhasil dengan error nol, dimana setiap satu rangkaian pernyataan proses pada program telah dieksekusi paling tidak satu kali selama tabel 4
+hasil pengujian kompatibilitas no merek perangkat jenis* versi os 1
+xiaomi redmi note 4g lte s 4.4.2 ok 2
+samsung galaxy core duos s 4.1.2 ok 11
+samsung galaxy s iii mini s 4.1.2 ok 12
+samsung galaxy tab 2 10.1 t 4.1.2 ok a jenis  s = smartphone tabel 5
+hasil pengujian akurasi sistem pakar no hasil deteksi keakuratan pakar sistem 1
+autisme ringan autisme sedang tidak sesuai 4
+autisme ringan autisme sedang tidak sesuai 7
+autisme ringan autisme ringan sesuai tabel 6
+berdasarkan hasil pengujian kompatibilitas, pada 15 perangkat yang diuji, tahap instalasi dan operasi fitur-fitur aplikasi berjalan dengan benar
+selain itu, tampilan aplikasi tidak mengalami masalah pada berbagai ukuran dan resolusi perangkat
+namun koneksi internet yang terbatas dapat menyebabkan aplikasi mengalami error
+berdasarkan hasil pengujian akurasi sistem pakar, dapat disimpulkan dalam penelitian ini akurasi sistem pakar yang dibangun adalah: oleh sistem tidak sesuai dengan hasil oleh pakar, yakni: a
+perbedaan pengalaman pakar dalam menangani kasus anak autistik
+sehingga tidak menutup kemungkinan adanya perbedaan persepsi dalam proses pemeriksaan dan penilaian kondisi anak
+sehingga tidak menutup kemungkinan adanya keterbatasan sistem dalam menangani kondisi di luar dari aturan yang digunakan
+diperoleh dari 40 responden dengan sepuluh item pertanyaan yakni 1608
+nilai ini berada pada cakupan interpretasi sangat positif, yang berarti, penilaian pengguna terhadap aplikasi yang dibangun adalah sangat positif dan dinilai berhasil
+metode fuzzy tsukamoto, dapat disimpulkan bahwa: 1
+sistem pakar yang dibangun dapat memberikan hasil deteksi autisme berdasarkan kondisi anak yang sesuai dengan aturan asd assessment scale yang direpresentasikan dari pakar dan perhitungan dengan metode fuzzy tsukamoto
+beroperasi dengan benar pada semua perangkat android yang diuji

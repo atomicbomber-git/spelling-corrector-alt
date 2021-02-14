@@ -1,0 +1,13 @@
+eee paper template in a4 vol 5 no 2 impelementasi multimedia development live cycle pada pengembangan game edukasi pengenalan bahaya sampah pada anak rohmat indra borman#1, yogi purwanto#2 #fakultas teknik dan ilmu komputer, universitas teknokrat indonesia jl
+zainal abidin pagaralam no 9 – 11 labuhan ratu, bandar lampung 1rohmat_indra@teknokrat.ac.id 2yogipurwanto@gmail.com merupakan permaianan dalam bentuk digital yang dirancang untuk membantu pengguna dalam mempelajari sesuatu sehingga dapat meningkatkan pemahaman pengguna dalam melatih kemampuan dan motivasi belajar
+sampah merupakan masalah yang belum bisa diselesaikan karena masih kurangnya kesadaran akan cinta lingkungan dari masyarakat khususnya anak usia dini
+untuk mempermudah anak mencerna dan menumbuhkan rasa cinta lingkungan, dibutuhkan media yang interaktif dan menarik
+game edukasi pengenalan bahaya sampah memberikan materi bahaya dan praktik membuang sampah kepada anak-anak dengan model game berbasis multimedia
+untuk mengembangkan game edukasi pada penelitian ini menerapkan metode pengembangan sistem multimedia development live cycle 
+mdlc terdiri dari enam tahap yaitu concept, design, material collecting, assembly, testing, dan ditribution
+pada game edukasi ini terdiri dari beberap level tingkat kesulitan
+hal ini bertujuan agar game lebih menarik dan menantang, sehingga tujuan game menumbuhkan kesadaran terhadap anak-anak dapat tercapai
+hasil pengujian berdasarkan tanggapan guru taman kanak-kanak menunujukan nilai rata-rata keseluruhan sebesar 87, 18% dan termasuk dalam kategori baik
+pendahuluan mencapai 1, 3 miliar ton pada setiap tahunnya, dan diperhitungkan akan bertambah hingga 2, 2 miliar ton pada tahun 2025
+di indonesia fakta tentang sampah pun sudah cukup meresahkan
+ini terlihat berdasarkan data yang ada, indonesia masuk dalam peringkat kedua dunia setelah cina, yang menghasilkan sampah plastik di perairan mencapai 187, 2 juta ton

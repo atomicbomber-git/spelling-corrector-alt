@@ -1,0 +1,87 @@
+nangka no 58 c, tanjung barat, jagakarsa, jakarta selatan, daerah khusus ibukota jakarta 12530 irfandot@gmail.com sugeng.unindra@gmail.com kemajuan e-commerce
+bank sampah merupakan sumber daya bahan sampah yang dapat didaur ulang dan dijadikan produk layak pakai yang keberadaannya hingga saat ini telah berlangsung namun belum memiliki media promosi online yang sesuai dengan kebutuhan
+pembuatan website yang sesuai dengan alur kebutuhan dimaksud agar website bisa memberikan kemudahan bagi pengelola bank sampah dalam memasarkan secara luas produk hasil daur ulang dan dapat menjangkau konsumen secara nasional website ini hanya kumpulan file yang terletak pada komputer yang terhubung ke internet konsep inti dari penerapan model e- commerce ini meliputi: kebutuhan, permintaan, informasi produksi, utilitas, pertukaran, konsumen dan transaksi penjual metode pendekatan yang digunakan adalah metode object-oriented design atau perancangan berorientasi obyek menggunakan unified modelling language 
+website e-commerce yang dirancang diuji validitasnya sehingga menghasilakan linieritas pengaruhnya
+pendahuluan jelas terlihat diberbagai tempat, dari skala global seperti pemanasan global hingga skala lokal seperti banjir
+masalah-masalah tersebut sangat mendesak kita untuk peduli agar lingkungan kita tidak menjadi sumber bencana bagi kita sendiri
+salah satu cara untuk peduli dengan lingkungan adalah dengan melakukan daur ulang sampah
+daur ulang bahan dapat menghemat energi dan membantu kita menjaga lingkungan
+berikut adalah informasi tentang daur ulang dan beberapa fakta-fakta tentang daur ulang dan apa yang dapat anda lakukan untuk membantu menyelamatkan lingkungan
+kita dapat membantu menyelamatkan lingkungan kita dengan daur ulang bahan seperti kertas, plastik, karet, kaca, dan kaleng aluminium
+seiring dengan perkembangan teknologi informasi yang semakin pesat, konsep dan mekanisme upaya dalam mensosialisasikan produk produk sangat terbantu sekali
+di bantu dengan media internet sebagai konektifitas tanpa batas, tanpa memandang jarak dapat meningkatkan upaya kita dalam merealisasikan tujuan
+sebagai media informasi pada pasar tradisional kota metro, maka penyampaian informasi dari pihak pasar tradisional kepada masyarakat akan lebih cepat tersampaikan dan tidak terbatas pada jam kerja
+dan untuk mendapatkan manfaat dari sistem informasi website dinamis sebagai media informasi pada pasar tradisional kota metro ini secara optimal, maka penulis memberikan arahan kepada pihak pengelolah pasar tradisional kota metro diharapkan dapat segera terkoneksi dengan jaringan internet, supaya memudahkan pengontrolan dan proses manajemen data
+penelitiannya menyimpulkan bahwa website travel yang dibuat jelas akan bisa mengatasi permasalahan layanan pelanggan yang selama ini dikeluhkan
+dampaknya adalah meningkatnya tingkat kepuasan pelanggan terhadap kemudhan dalam melihat paket promo
+kemudahan memesan layanan dan lebih penting lagi kemudahan proses pembayaran
+dengan website yang baru tersebut kerja dari cs menjadi lebih ringan karena tidak perlu menghandle semua pekerjaan karena hal hal detail lainnya sudah tertera di website
+kajian pustaka membantu perusahaan dalam mengembangkan perusahaan dan menghadapi tekanan bisnis
+tingginya tekanan bisnis akibat tingginya tingkat persaingan
+penggunaan e- commerce dapat meningkatkan efisiensi biaya dan produktifitas perusahaan, sehingga dapat meningkatkan kemampuan perusahaan dalam bersaing
+pemasaran barang dan jasa yang dilakukan oleh konsumen melalui sistem elektronik seperti internet, www, atau jaringan komputer lainnya
+sampah pengelolaan sampah adalah sisa kegiatan sehari-hari manusia dan/atau proses alam yang berbentuk padat
+pengelolaan sampah : adalah kegiatan yang sistematis, menyeluruh, dan berkesinambungan yang meliputi pengurangan dan penanganan sampah
+penghasil sampah : setiap orang atau kelompok orang atau badan hukum yang menghasilkan timbulan sampah
+uml terdiri atas banyak elemen-elemen grafis yang digabungkan membentuk diagram
+tujuan representasi elemen- elemen grafis ke dalam diagram adalah untuk menyajikan beragam sudut pandang dari sebuah sistem berdasarkan fungsi masing-masing diagram tersebut
+kumpulan dari beragam sudut pandang inilah yang kita sebut sebuah model[ 6] mengambil responden yang terpilih betul oleh peneliti menurut ciri-ciri spesifik yang dimiliki oleh sampel tersebut
+dari teknik sampling ini diharapkan dapat memberikan masukan yang menyeluruh dan menggambarkan kondisi yang selama ini dilakukan sehingga akan menggambarkan tingkat kepuasan terhadap pelayanan
+teknik analisi dan perancangan yang digunakan adalah pendekatan object oriented analysis atau analisis berorientasi obyek dengan uml
+pada tahap ini dilakukan analisis pengumpulan kebutuhan elemen- elemen di tingkat aplikasi
+dengan analisis ini, akan ditentukan domain-domain data atau informasi, fungsi, proses atau prosedur yang diperlukan beserta unjuk kerja dan antar muka 
+permasalahan saat ini ke mulut; saat ini belum tersedia sistem yang dapat membantu mempromosikan produk secara online; banyak produk sisa pameran yang tidak dapat di pasarkan kembali setelah pameran; pengelola sering diundang menjadi narasumber namun tidak memiliki media online untuk menampung katalog agar dapat diakses secara online dari manapun; kegiatan kegiatan produksi, kunjungan kkn mahasiswa, even, dan kunjungan dari pihak pihak tertentu tidak dapat dipublikasi untuk mempromosikan keberadaan produksi produk daur ulang bank sampah
+database sehingga data dapat di update; dapat menyimpan dan menghapus produk online; diakses secara front end untuk pengunjung, dan diakses secara back end untuk pengelola; dapat melakukan pemesanan secara online; dapat meng akumulasi pemesanan beserta ongkos kirim otomatis untuk wilayah indonesia; dapat mengecek nomor resi, sehingga pelanggan dapat memantau status barang; dapat menyertakan konten edukatif dan atraktif tentang lingkungan, sampah, dan daur ulang
+use case pada sistem yang dikembangkan pada langkah ini yang pertama sekali yang akan dilakukan adalah memodelkan sistem/perangkat lunak yang akan dibuat dengan menggunakan use case diagram
+use case diagram menawarkan cara yang sistematik dan intuitif untuk menangkap spesifikasi kebutuhan dengan fokus
+aktor yang terlibat dalam penggunaan sistem adalah pelanggan dan admin gambar
+use case register merupakan langkah bagi para pelanggan yang belum mempunyai username dan password untuk dapat melakukan register terlebih dahulu sebelum melakukan transaksi
+use case browse/lihat produk merupakan langkah awal yang dilakukan actor atau pengguna system untuk
+use case pilih produk merupakan langkah kedua yang dilakukan setelah user melihat produk yang diinginkan
+dalam menu pilih produk akan ditampilkan detail produk
+use case pengiriman produk merupakan proses yang dilakukan untuk menentukan tujuan produk yang akan dikirim dengan cara mengisi form pengiriman barang
+use case pembayaran merupakan langkah yang dilakukan oleh sistem untuk menampilkan cara pembayaran produk dan total seluruh biaya yang akan dibayar oleh pelanggan biaya produk biaya pengiriman serta mendapatkan nomor transaksi pelanggan
+pelangggan yang telah memiliki username dan password dapat langsung login ke sistem 2
+pelanggan yang belum memiliki username dan password terlebih dahulu melakukan registrasi atau pendaftaran
+server akan me record dan menyimpan data new user kedalam database sistem
+pelanggan yang telah sukses melakukan login dapat melakukan proses transaksi seperti tujuan pengiriman dan mendapatkan proses cara
+pelanggan memasukkan user name dan password melalui menu login 2
+server sistem akan memproses user name dan password 3
+pelanggan yang belum memiliki username dapat mendaftarkan diri pada layar pendaftaran new user, setelah itu dapat langsung masuk ke proses berikutnya tampa harus login lagi, karna pada saat registrasi berhasil maka pelanggan secara otomatis login ke sistem
+ulang bank sampah di sisi halaman login administrator, sebagaimana diperlihatkan pada gambar
+4 tampilan halaman administrator gambar 5 menunjukan halaman utama website e- commerce yang dapat diakses melalui pengguna atau pelanggan
+gambar 7 merupakan tampilan ecatalog yang dapat di unduh dan di cetak oleh pengunjung website
+7 laman e-catalog barang ke kota tujuan yang sudah di sesuaikan dengan data ongkos kirim dari ekspedisi agar memudahkan penjumlahan harga belanja dengan ongkos kirim dan sebagai informasi bagi pengunjung
+gambar 9 merupakan halaman form detil informasi pengiriman bagi pelanggan dan dapat mengakumulasi biaya ongkos kirim dengan jumlah belanja produk
+9 laman data pengiriman dan detil pesanan gambar 10 merupakan halaman admin untuk mengatur tampilan muka website e-commerce sesuai dengan informs yang akan tampil dihalaman muka website
+10 laman pengaturan tampilan laman web d
+deskripsi data pengaruh website skor data pengaruh website yang diperoleh dari para responden mempunyai rata-rata 85, 67 dengan simpangan baku 6, 925, median 87, 00, skor minimum 72 dan skor maksimum 96
+dari deskripsi tersebut juga dapat dilihat bahwa nilai rata-rata dan median hamper sama, yaitu 85, 67 dan 87, 00
+hal ini menunjukkan bahwa data skor pengaruh website pada penelitian ini cukup representatif
+deskripsi data dapat dilihat dari histogram pada gambar 11
+histogram pengaruh website dari histogram dan poligon frekuensi diatas dapat disimpulkan bahwa data tingkat pengaruh website dalam penelitian ini memiliki sebaran yang cendrung normal karena bentuk dari kurva mendekati bentuk normal f
+deskripsi data pemasaran produk daur ulang sampah data pemasaran produk daur ulang sampah yang diperoleh dari para responden mempunyai rata-rata 80, 47 dengan simpangan baku 9, 413, median 81, 00, skor minimum 62 dan skor maksimum 100
+dari deskripsi tersebut juga dapat dilihat bahwa nilai rata-rata dan median hampir mendekati, yaitu 80, 47 dan 81, 00
+hal ini menunjukkan bahwa data pemasaran produk daur ulang sampah pada penelitian ini cukup representatif
+deskripsi data dapat dilihat dari histogram pada gambar 12
+dari histogram dan poligon frekuensi tersebut dapat disimpulkan bahwa pemasara produk daur ulang sampah dalam penelitian ini memiliki sebaran yang cendrung normal karena bentuk dari kurva mendekati bentuk normal g
+uji normalitas maka hipotesis yang digunakan adalah: hipotesis kriteria pengujian hipotesis: 0, 05 berdasarkan pengujian dengan menggunakan kolmogorof smirnov pada spss 20
+tolak ho dan terima h1 jika nilai probabilitas < 0, 05 berdasarkan pengujian dengan menggunakan kolmogorof smirnov pada spss 20
+uji normalitas dilakukan untuk mengetahui apakah data yang diperoleh peneliti berasal dari populasi berdistribusi normal atau tidak
+hal ini dilakukan sebagai syarat jika pengujian dilakukan dengan menggunakan statistik parametrik
+dalam melakukan uji normalitas peneliti menggunakan spss 20 sebagai alat bantu
+dalam hal ini peneliti melakukan pengujian dengan menggunakan kolmogorov- smirnov
+hasil penggujian dengan menggunakan spss 20 diperoleh hasil seperti pada tabel ii
+terhadap variabel y tabel iv koefisien regresi pengaruh variabel x terhadap variabel y ulang sampah dari deskripsi data setelah dilakukan analisis korelasi diperoleh koefisien korelasi sebesar 0, 678 dan koefisien determinasi sebesaar 46%, setelah dilakukan pengujian dengan program spss 20 terbukti bahwa koefisien korelasi tersebut signifikan
+hal ini berarti bahwa terdapat pengaruh variabel bebas x terhadap variabel terikat y 
+dari perhitungan hipotesis diperoleh bahwa nilai sig = 0.000 dan fhitung = 23, 824 sedangkan ftabel = 4, 21
+karena nilai sig = 0, 000 < 0, 05 dan fhitung = 71, 640 > ftabel = 4, 21 maka h0 di tolak yang berarti bahwa koefisien regresi tersebut signifikan
+nilai konstanta = 1, 515 menunjukkan bahwa pengaruh website terpenuhi, maka pemasaran produk daur ulang sampah dapat dilakukan dengan baik, sedangkan nilai koefisien regresi sebesar 0, 922 menunjukkan bahwa terdapat pengaruh positif variabel bebas x terhadap variabel terikat y 
+angka koefisien regresi tersebut juga menunjukkan bahwa setiap ada kenaikan satu nilai pengaruh website maka akan terdapat kenaikan pemasaran produk daur ulang sampah sebesar 0, 922
+dari pengujian hipotesis diperoleh bahwa nilai sig = 0, 000 dan thitung = 4, 881; sedangkan ttabel = 1, 701
+maka h0 di tolak yang berarti terdapat pengaruh yang signifikan variabel bebas x terhadap variabel terikat y 
+bahwa terdapat pengaruh yang signifikan pengaruh website terhadap pemasaran produk daur ulang sampah 
+website ecommerce daur ulang bank sampah yang dibuat akan bisa mengatasi permasalahan layanan pelanggan yang selama ini dikeluhkan
+dampaknya adalah meningkatnya tingkat kepuasan pelanggan terhadap kemudahan dalam melihat informasi produk, kemudahan pemesanan, hingga proses pembayaran
+hal ini terlihat dari hasil pengujian yang telah dilaksanakan dengan peserta, semua menyatakan bahwa spesifikasi kebutuhan fungsional secara keseluruhan dapat diterima
+dengan website yang baru ini, proses kerja menjadi lebih mudah karena fitur website mewakili memberikan informasi mengenai produk dan tahapan pembelian hingga pembayaran

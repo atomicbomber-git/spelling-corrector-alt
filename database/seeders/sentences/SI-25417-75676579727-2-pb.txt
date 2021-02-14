@@ -1,0 +1,112 @@
+– berdasarkan survei yang dilakukan pada juli 2017 bahwa data yang dimiliki oleh kantor wilayah kementerian agama sumatera barat, pondok pesantren yang ada di sumatera barat tahun pengajaran 2016/2017 berjumlah 211 lembaga
+saat ini informasi mengenai pondok pesantren terdapat pada website education management informasion system dengan akses http://emispendis.kemenag.go.id
+namun dari website tersebut masyarakat hanya dapat informasi mengenai jumlah pondok pesantrennya saja sehingga masyarakat tidak mengetahui bagaimana situasi lingkungan yang ada pada pondok pesantren baik itu berupa peta, nama, nomor telepon, foto dan informasi-informasi lainnya
+untuk itu dilakukan penelitian guna memberikan solusi bagi masyarakat dan juga pihak kantor wilayah kementerian agama sumatera barat dalam melayani masyarakat terkait informasi pondok pesantren
+penelitian ini menghasilkan sistem informasi geografis pondok pesantren
+metode penelitian yang dilakukan yaitu pengamatan, mewawancarai dan memberikan beberapa pertanyaan kepada kepala sub bagian informasi dan humas kantor wilayah kementerian agama sumatera barat, penelitian laboratorium, dan penerapan object oriented development life cycle 
+sig yang akan dibangun ini dikembangkan dengan kerangka website html, dengan bahasa pemrograman, mysql sebagai basis data dan google maps api
+pendahuluan masyarakat menjadikan teknologi informasi sebagai media mencari informasi di dalam kehidupan sehari-hari, salah satunya mencari suatu lokasi pondok pesantren
+salah satu contoh teknologi informasi untuk mencari lokasi adalah dengan menggunakan google map
+namun google map hanya memberikan informasi mengenai lokasi pondok pesantren saja
+agar masyarakat dapat mengetahui lingkungan dan informasi mengenai tempat yang diinginkan tersebut maka masyarakat dapat menggunakan teknologi yang dinamakan sistem informasi geografis, dimana sistem ini dapat memberikan informasi yang dibutuhkan oleh masyarakat
+sistem informasi geografis merupakan gabungan dari tiga unsur pokok, yaitu sistem, informasi dan geografis
+sig merupakan sejenis perangkat lunak, perangkat keras, manusia, prosedur, basis data, dan fasilitas jaringan komunikasi yang digunakan untuk memfasilitasi proses-proses pemasukan, penyimpanan, manipulasi, menampilkan dan keluaran data atau informasi geografis berikut atribut-atributnya
+informasi yang dibutuhkan masyarakat seperti letak lokasi pesantren, nama, alamat, nomor telepon, email, foto tempat dan informasi-informasi lainnya yang dimiliki oleh tempat yang diinginkan tersebut
+seperti halnya masyarakat juga membutuhkan informasi geografis pondok pesantren yang ada di sumatera barat
+peneliti melakukan survei pada juli 2017 di kantor wilayah kementerian agama provinsi sumatera barat menunjukkan belum ada informasi tentang geografis pondok pesantren
+berdasarkan data yang dimiliki oleh kantor wilayah kementerian agama sumatera barat, pondok pesantren yang ada di sumatera barat tahun pengajaran 2016/2017 berjumlah 211 lembaga
+banyaknya jumlah pondok pesantren ini membuat para orang tua atau masyarakat umum kesulitan dalam mendapatkan informasi tentang pondok pesantren, baik informasi umum maupun informasi detail
+informasi umum seperti peta, nama, alamat, nomor telepon, foto dan informasi-informasi lainnya yang dimiliki oleh pondok pesantren tersebut
+sedangkan untuk informasi detail mengenai profil, sarana, kategori, status, serta website resmi dari setiap pondok pesantren
+salah satu tujuan para orang tua atau masyarakat umum memasukkan anaknya ke pondok pesantren adalah untuk mengembangkan minat dan keinginan dalam mempelajari tentang agama serta kemandirian terhadap tingkah laku si anak
+tetapi karena kurangnya informasi mengenai peta, nama, alamat, nomor telepon, foto dan informasi-informasi lainnya mengenai pondok pesantren sehingga para orang tua harus mendatangi langsung pondok pesantren yang diinginkan
+oleh karena itu para orang tua atau masyarakat umum membutuhkan sistem informasi geografis yang menyediakan informasi mengenai lokasi geografis pondok pesantren yang ada di sumatera barat dan jalur menuju pondok pesantren yang ada di sumatera barat
+berdasarkan latar belakang di atas, maka peneliti membangun sistem informasi geografis pondok pesantren di sumatera barat”
+dengan adanya website ini, diharapkan dapat membantu para orang tua atau masyarakat umum serta kantor wilayah kementrian agama provinsi sumatera barat dalam mencari dan memberikan lokasi pondok pesantren beserta informasi lainnya mengenai pondok pesantren yang ada di sumatera barat
+uraian penelitian pondok pesantren berbasis website sebelumnya sudah pernah dilakukan oleh peneliti lain, salah satunya adalah sistem informasi geografis lokasi lembaga pendidikan berbasis islam di kabupaten cilacap
+hasil penelitian ini adalah sig sekolah islam dapat menampilkan peta penunjuk lokasi dan data sekolah rahimullaily#1, heru saputra#2, mustika putri yani#3 #program studi sistem informasi stmik indonesia padang jl
+pondok pesantren menurutpondok merupakan bangunan untuk tempat sementara dapat berupa asrama
+sedangkan pesantren yaitu asrama atau tempat santri belajar mengaji dan mendalami tentang agama
+dari pengertian diatas pondok pesantren dapat diartikan merupakan tempat belajar mengaji dan mendalami agama pada sebuah asrama atau pondok dimana siswanya dipanggil dengan santri
+menurutsecara umum untuk lulus dari tingkatan pondok pesantren dapat dibedakan menjadi 2 yaitu: a
+pondok pesantren salaf atau salafiyah yaitu pondok pesantren yang menggunakan sistem pendidikan yang bersifat tradisional yang murni mengajarkan ilmu agama dan kitab
+pondok pesantren khalafi atau khalafiyah yaitu pondok pesantren ynag sistem pendidikannya mengikuti perkembangan zaman
+pondok pesantren ini biasa disebut dengan pondok pesanten modern
+sub sistem informasi geografis menurutsub sistem sig digambarkan sesuai dengan gambar 1
+data input mengumpulkan, mempersiapkan, dan menyimpan data spasial dan atributnya
+sub- sistem ini bertanggung jawab dalam mengonversikan format data aslinya ke dalam format sistem informasi geografisnya
+data output menampilkan dan menghasilkan keluaran basisdata spasial softcopy dan hardcopy seperti halnya tabel, grafik, repot, peta, dan lain sebagainya
+data management mengorganisasikan data spasial dan tabel atribut ke dalam sistem basis data hingga mudah untuk dipanggil kembali, diupdate dan diedit
+data manipulation dan analysis menentukan informasi yang dihasilkan oleh sistem informasi geografis
+selain itu, sub- sistem ini memanipulasi dan memodelkan data untuk menghasilkan informasi yang diharapkan
+sistem yang sedang berjalan adapun data penelitian yang digunakan pada penelitian ini adalah data yang didapatkan dari kantor wilyah kementerian agama provinsi sumatera barat dan hasil wawancara serta kuesioner yang didapatkan oleh peneliti
+sistem yang diperlukan berdasarkan permasalahan yang terjadi, maka diperlukan suatu sistem informasi geografis pondok pesantren di sumatera barat untuk menjadi bahan acuan bagi para orang tua dan masyarakat umum agar dapat mencari pondok pesantren yang ada di sumatera barat
+use case diagram use case diagram penelitian ini ditunjukkan pada gambar 2, terdapat 3 aktor yaitu pengunjung, operator dan admin
+pengunjung merupakan orang tua atau masyarakat umum, dapat mengakses sig ini
+operator adalah pegawai dari masing-masing pondok pesantren yang dapat mengolah data pondok pesantren, sehingga lebih menjamin dalam hal kelengkapan dan kekinian informasi pondok pesantrennya
+admin merupakan pegawai dari kantor kemnterian agama khususnya sub bagian informasi dan humas yang memiliki hak akses lebih dibandingkan dengan operator atau pengunjung yang nantinya akan bertugas mengolah data pondok pesantren dari data yang dimasukkan oleh operator masing-masing pondok pesantren yang telah terdaftar di sistem informasi geografis ini
+selain terdapat 3 aktor juga terdapat 4 lifeline yaitu login, halaman admin, halaman operator, halaman pengunjung, dan logout
+terdapat 21 message yang masing-masing 8 message dilakukan oleh admin, 9 message dilakukan oleh operator pondok pesantren, dan 5 message dilakukan oleh pengunjung
+pengunjung tampil data pondok pesantren <<include>> gambar 2
+activity diagram admin activity diagram admin menggambarkan segala aktifitas yang bisa dilakukan oleh admin terhadap pilihan menu yang ada pada halaman admin, ditunjukkan pada gambar 3
+admin mengakses website sistem informasi geografis pondok pesantren sumatera barat admin sistem melihat hasil laporan data pesantren true false melihat hasil laporan data operator gambar 3
+activity diagram admin sistem informasi geografis pondok pesantren di sumatera barat 2
+activity diagram operator activity diagram operator menggambarkan segala aktifitas yang bisa dilakukan oleh operator terhadap pilihan menu yang ada pada halaman operator, ditunjukkan pada gambar 4
+operator mengakses website sitem informasi geografis pondok pesantren di sumatera barat operator sistem login true false gambar 4
+activity diagram operator sistem informasi geografis pondok pesantren di sumatera barat gambar 4 menjelaskan bahwa ketika operator ingin login ke dalam sistem maka sebelumnya harus mendaftar dulu untuk mendapatkan persetujuan dari admin
+jika berhasil login, maka tampil halaman menu operator dimana terdapat menu input pondok pesantren
+activity diagram pengunjung activity diagram pengunjung menggambarkan segala aktifitas yang bisa dilakukan oleh pengunjung terhadap pilihan menu yang ada pada halaman pengunjung, ditunjukkan pada gambar 5
+operator mengakses website sitem informasi geografis pondok pesantren di sumatera barat pengunjung sistem tampil informasi detail pondok pesantren yang diinginkan gambar 5
+activity diagram pengunjung sistem informasi geografis pondok pesantren di sumatera barat gambar 5 menjelaskan bahwa pengunjung dapat langsung mencari pondok pesantren yang diinginkan dengan menu info pondok pesantren
+pengunjung dapat memilih pondok pesantren dengan cara memasukkan nama pondok pesantren yang diinginkan, selanjutnya pengunjung dapat melihat secara detail tentang pondok pesantren dengan mengklik tulisan detail yang terdapat di samping nama pondok pesantren yang telah dicari
+setelah mengklik detail maka peengunjung dapat melihat secara rinci tentang pondok pesantren tersebut
+class diagram class diagram merupakan atribut-atribut, fungsi- fungsi yang terdapat dalam sebuah sistem dan menggambarkan struktur, deskripsi sistem dari segi pendefenisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa saja yang disebut atribut dan metode atau operasi
+class diagram yang diusulkan dapat dilihat pada gambar 6
+pengajar +id_pesantren sarana +id pesantren +id +nspp +nama +alamat +telpon +email +tgl_masuk +situs_web +lat +lng +foto +id_operator +kota +kecamatan +pimpinan +kategori +simpan +edit +hapus operator +id +tahun_berdiri +luas_tanah +luas_bangunan +status bangunan +bidang_ilmu +jmlh_kamarlk +jmlh_kamarpr +jmlh_ruangbelajar +jmlh_mesjid +jmlh_ruangpimpinan +jmlh_ruangustad +jmlh_ruangadmin +jmlh_ruangperpustakaan +jmlh_toiletpegawai +jmlh_toiletsantri +k1 +k2 +k3 +k4 +k5 +k6 +k7 +k8 +k9 +k10 +keunggulan +status +jabatan gambar 6
+hasil implementasi dari beberapa kegiatan implementasi, maka dapat dilihat pada tampilan halaman utama sistem informasi geografis pondok pesantren sumatera barat yang dapat diakses oleh para orang tua serta masyarakat umum 
+berikut ini merupakan input dari tahapan implementasi sistem yang telah dirancang sebelumnya
+form entri pendaftaran operator halaman ini merupakan tampilan interface dari menu operator yang dapat digunakan untuk registrasi akun operator untuk login juga berfungsi untuk mencatat data operator pondok pesantren yang ada di sumatera barat sehingga admin dapat melihat data pondok pesantren yang terdaftar di kantor wilayah kementerian agama provinsi sumatera barat sub bagian informasi dan humas berdasarkan nama operator
+setelah operator melakukan pendaftaran maka akan tampil meminta konfirmasi pendaftaran
+tampilan pesan jika registrasi operator berhasil ditunjukkan pada gambar 8
+operator harus menunggu konfirmasi dari admin
+jika admin telah memberikan konfirmasi pendaftaran maka operator pondok pesantren dapat melakukan login
+menu registrasi operator pondok pesantren gambar 8
+pesan jika registrasi operator berhasil b
+form login operator dan admin halaman ini merupakan tampilan interface antara menu operator yang dapat digunakan untuk login ke halaman yang utama dari operator dan admin
+gambar 9 merupakan tampilan dari menu form login operator dan admin yang hanya dapat diakses oleh operator dan admin
+form login operator dan admin c
+form konfirmasi operator setelah melakukan login, admin melakukan dapat melakukan konfirmasi untuk operator pada form konfirmasi operator 
+konfirmasi ini dilakukan agar operator yang terdaftar saja yang dapat melakukan penginputan data pesantren, data jumlah tenaga pengajar, data jumlah santri, dan data jumlah sarana yang ada pada pondok pesantren yang ia kelola
+form entri data pesantren form entri data pesantren merupakan form yang digunakan oleh operator untuk melakukan penginputan data pesantren
+form entri data jumlah tenaga pengajar form entri data pengajar merupakan form yang digunakan oleh operator untuk melakukan penginputan data jumlah pengajar yang terdaftar pada pondok pesantren tersebut
+form entri data jumlah tenaga pengajar f
+form entri data jumlah santri form entri data jumlah santri merupakan form yang digunakan oleh operator untuk melakukan penginputan data jumlah santri yang terdaftar pada pondok pesantren tersebut
+form entri data jumlah santri g
+form entri data jumlah sarana form entri data jumlah sarana merupakan form yang digunakan oleh operator untuk melakukan penginputan data jumlah sarana yang ada pada pondok pesantren tersebut
+halaman utama pengunjung halaman utama pengunjung merupakan tampilan halaman utama dari sistem informasi geografis pondok pesantren sumatera barat yang dapat diakses oleh para orang tua maupun masryarakat umum
+halaman utama menu pengunjung pada gambar 15 terdapat marker berwarna merah yang menandakan sebaran lokasi pondok pesantren yang ada di sumatera barat
+marker tersebut mewakili 211 sebaran lokasi pondok pesantren yang ada disumatera barat
+dengan adanya marker tersebut, para orang tua, masyarakat umum serta kementrian agama provinsi sumatera barat khususnya inmas dapat memperoleh manfaat sebagai berikut: 1
+masyarakat dapat mengetahui alamat pondok pesantren yang ada di sumatera barat
+memudahkan masyarakat dalam mencari lokasi pondok pesantren yanga ada di sumatera barat
+info pondok pesantren info pondok pesantren merupakan bentuk proses yang dihasilkan dari data pesantren pada menu info pondok pesantren
+saat pengunjung mengklik menu info pondok pesantren terdapat informasi pesantren seperti nspp, nama pesantren, alamat dan detail
+halaman info pondok pesantren pada menu detail, terdapat tulisan detail yang berisi tentang data-data yang berhubungan dengan pesantren, yaitu pimpinan, situs web, kategoori pondok pesantren, alamat, telepon, jumlah pengajar, jumlah santri, jmlah sarana dan juga peta lokasi dari setiap pesantren yang ada disumatera barat dengan mengklik tracking ke lokasi
+untuk lebih jelasnya, informasi detail pondok pesantren dapat dilihat pada gambar 19 dan gambar 20
+gambar peta menjelaskan jalur peta lokasi pondok pesantren
+jalur pada simbol a dimulai dari mana masyarakat berada mengakses, sedangkan jalur pada simbol b disertai dengan marker berwarna merah merupakan lokasi pondok pesantren yang dituju
+informasi khusus tentang pondok pesantren juga dijelaskan secara rinci
+selain itu gambar 18 juga menjelaskan tentang informasi jalur yang dapat digunakan untuk menentukan jarak lokasi pondok pesantren yang dituju
+adapun manfaat yang diperoleh dari adanya informasi detail pondok pesantren pada gambar 18 adalah: 1) masyarakat dapat mencari lokasi pondok pesantren yang ada di sumatera barat dengan mudah
+2) masyarakat dapat menentukan pondok pesantren mana yang dianggap pilihan dengan mudah
+laporan pondok pesantren gambar 19 merupakan laporan pondok pesantren dari setiap pesantren yang ada di sumatera barat laporan data pesantren ini berasal dari data-data pesantren yang telah diinputkan pada form entri pesantren oleh operator setiap pondok pesantren
+laporan pondok pesantren dan santri gambar 20 merupakan laporan pondok pesantren dan santri yang ada di sumatera barat
+laporan data pesantren dan santri ini berasal dari data-data pesantren dan santri yang telah diinputkan pada form entri pesantren dan santri oleh operator
+laporan operator gambar 21 merupakan laporan data operator dari setiap pesantren yang ada di sumatera barat
+laporan data operator ini berasal dari data operator yang telah diinputkan pada form entri pendaftaran operator oleh operator dan di konfirmasi oleh admin
+laporan operator berdasarkan analisis dan pembahasan yang telah dilakukan, peneliti membangun suatu website sistem informasi geografis lokasi pondok pesantren sumatera barat yang dapat membantu kantor wilayah kementerian agama provinsi sumatera barat dalam memberikan: 1
+kemudahan kepada para orang tua serta masyarakat umum dalam mencari informasi yang berkaitan dengan pondok pesantren dan informasi lainnya yang dimiliki setia pondok pesantren yang ada di sumatera barat dari mana ia mengakses
+penyajian informasi dalam bentuk website khusus, sehingga penyampaian informasi mengenai lokasi pemetaan geografis dan jalur menuju pondok yang ada disumatera barat oleh kantor wilayah kementerian agama provinsi sumatera barat khususnya bagian informasi dan humas mudah diakses para orang tua serta masyarakat umum dalam cakupan yang luas
+ucapan terima kasih pada kesempatan ini dan dengan selesainya penyusunan artikel penelitian ini, maka kami sebagai penulis mengucapkan terima kasih kepada yayasan amal bakti mukmin yang telah memberikan dana dan fasilitas dalam penulisan artikel ini hingga selesai
+selain itu juga kami mengucapkan terima kasih kepada ketua stmik indonesia padang dan ketua lppm stmik indonesia padang yang telah mendorong dan terus memberikan semangat serta motivasi kepada dosen-dosen agar terus maju dan berinovasi dalam melakukan penelitian

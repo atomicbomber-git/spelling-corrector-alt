@@ -1,0 +1,99 @@
+malware merupakan salah satu bentuk dari kejahatan komputer yang terjadi pada sebuah sistem jaringan komputer, malware njrat termasuk jenis trojan horse
+trojan adalah salah satu jenis malware yang ikut berkembang di dalamnya, yang memungkinkan attacker masuk ke dalam sistem tanpa diketahui oleh pemilik
+penggunaan trojan saat ini lebih ke arah kejahatan dunia maya, salah satu dari malware yang sangat berbahaya karena besarnya dampak kerugian yang ditimbulkan, mulai dari pencurian data penting sampai mengubah hak akses pada pc korban
+sasaran terbanyak penybaran trojan adalah pengguna sistem operasi windows
+penyebaran trojan ini dilakukan dengan metode social engineering, yaitu teknik yang menggunakan kelemahan manusia, sehingga user tanpa curiga langsung mengeksekusi sebuah program yang tidak dikenal aktivitas malware berkaitan erat dengan performa pc dan juga aktifitas network pada system computer
+penelitian ini bertujuan untuk mengetahui cara kerja malware njrat dan melakukan investigasi terhadap performa pada system computer
+metodologi yang digunakan dynamic analysis dengan melakukan analisa malware pada suatu sistem dan melihat aktivitas atau proses yang diaktifkan oleh malware tersebut
+dampak perubahan yang terjadi pada pc target terlihat pada performa masing-masing pc yang telah disisipkan malware
+pendahuluan peningkatan yang sangat pesat, hal ini dikarenakan semakin berkembangnya teknologi komputer yang berdampak pada kehidupan manusia
+segala kemudahan yang didapat dari teknologi komputer pada kenyataannya tidak hanya berdampak baik bagi kehidupan manusia karena beberapa diantaranya ternyata juga ikut memberikan dampak yang buruk
+banyak orang yang memanfaatkan teknologi komputer sebagai media untuk melakukan tindak kejahatan yang bertentangan dengan hukum
+beragam tujuan yang dimiliki para pelaku ini beberapa diantaranya adalah untuk mencari kesenangan mencari keuntungan
+banyak cara yang dilakukan untuk mempermudah kegiatan kejahatan yang melibatkan teknologi komputer ini salah satunya adalah memanfaatkan kelemahan sistem jaringan komputer dengan menyusupkan program yang digunakan sebagai media untuk mencuri informasi dari sebuah sistem komputer, program ini disebut sebagai malware
+seperti virus, trojans, spyware, dan worm
+virus komputer bekerja dengan cara menempel pada suatu file komputer yang biasanya berupa file executable, trojan bekerja dengan cara melakukan social engineering files berbahaya dengan menampilkannya seperti files yang terlihat tidak berbahaya, spyware adalah perangkat lunak yang disisipi kode untuk mendapatkan informasi penting dari pengguna seperti akun bank, password, dan informasi lainnya yang diinginkan oleh pembuatnya, sedangkan worm adalah perangkat lunak jahat yang dibuat dengan memanfaatkan celah lubang keamanan pada sistem operasi untuk tujuan tertentu
+dampak yang terjadi apabila pc terinfeksi malware yaitu pc akan berjalan semakin lambat mesikpun menggunakan spesifikasi pc dengan processor bagus dan ram dengan jumlah banyak, akan tetapi jika pc terinfeksi malware akan berjalan lambat dan pada performa network tidak stabil
+terbaru yang sangat bagus untuk mendeteksi berbagai jenis malware
+malicious software, yang berarti perangkat lunak yang mencurigakan) adalah program komputer yang diciptakan dengan maksud dan tujuan tertentu dari penciptanya dan merupakan program yang mencari kelemahan dari software
+umumnya malware diciptakan untuk membobol atau merusak suatu software atau sistem operasi melalui script yang disisipkan secara tersembunyi oleh pembuatnya
+hingga saat ini biasanya masyarakat lebih populer dengan kata virus komputer dibandingkan dengan istilah malware sendiri
+biasanya virus berbentuk file eksekusi yang baru akan beraktivitas bila user mengaktifkannya
+setelah diaktifkan virus akan menyerang file yang juga bertipe executable atau juga tipe file lainnya sesuai dengan perintah yang dituliskan pembuatnya
+worm jaringan komputer tanpa harus tereksekusi sebelumnya
+setelah masuk ke dalam sistem komputer, worm memiliki kemampuan untuk mereplikasi diri sehingga mampu memperbanyak jumlahnya di dalam sistem komputer
+hal yang diakibatkan dari aktivitas worm adalah merusak data dan memenuhi memory dengan worm lainnya hasil dari penggandaan diri yang dilakukannya
+replikasi ini membuat memory akan menjadi penuh dan dapat menngakibatkan aktivitas komputer menjadi macet 
+kebiasaan komputer menjadi hang dapat menjadi gejala awal terdapatnya worm pada komputer tersebut
+contoh worm yang populer akhir-akhir ini adalah conficker
+trojan horse kerajaan yunani kuno yang juga diangkat ke hollywood dalam film berjudul ‘troy’
+modus dari trojan horse ini adalah menumpangi file biasa yang bila sudah dieksekusi akan menjalankan aktivitas lain yang merugikan sekalipun tidak menghilangkan fungsi utama file yang ditumpanginya
+trojan horse merupakan malware berbahaya, lebih dari sekedar keberadaannya tidak diketahui oleh pengguna komputer
+trojan dapat melakukan aktivitas tak terbatas bila sudah masuk ke dalam sistem komputer
+kegiatan yang biasa dilakukan adalah merusak sistem dan file, mencuri data, melihat aktivitas user, mengetahui apa saja yang diketikkan oleh user termasuk password bahkan menguasai sepenuhnya komputer yang telah terinfeksi trojan horse
+untuk mengumpulkan segala informasi dari komputer yang telah dijangkitinya
+kegiatan spyware jelas sangat merugikan user karena segala aktivitasnya yang mungkin menyangkut privasi telah diketahui oleh orang lain tanpa mendapat izin sebelumnya
+aktivitas spyware terasa sangat berbahaya karena rentan terhadap pencurian password
+dari kegiatan ini juga akhirnya lahir istilah adware yang merupakan iklan yang mampu muncul secara tiba-tiba di komputer korban hasil dari mempelajari aktivitas korban dalam kegiatan berkomputer
+spam yang muncul secara tak terduga di komputer juga merupakan salah satu dampak aktivitas spyware yang dirasa sangat menjengkelkan
+backdoor untuk melewati autentifikasi normal dan berusaha tidak terdeteksi
+backdoor sendiri sering kali disusupkan bersama dengan trojan dan worm
+dapat diartikan secara singkat backdoor berarti masuk ke sistem komputer melalui jalur pintu belakang secara tidak sah
+dengan metode backdoor maka akan sangat mudah untuk mengambil alih kendali dari komputer yang telah berhasil disusupi
+setelah berhasil masuk maka aktivitas yang dilakukan oleh backdoor antara lain adalah mengacaukan lalu lintas jaringan, melakukan brute force attack untuk mengcrack password dan enkripsi dan mendistribusikan serangan distributed denial of service 
+data statistic penyebaran malware di indonesia tiap tahun berubah persentasenya, dan berubah juga tahapan virus yang tersebarnya
+dapat dilihat pada gambar dibawah ini data statistic malware berbeda dengan tahun-tahun sebelumnya
+sekarang ini adalah jenis trojan yang menguasai 24, 30% serangan malware di indonesia
+setelah trojan, 23, 8% jenis adware menyerang pengguna computer
+selanjutnya diikuti oleh jenis lainnya seperti mobogen, exploit, worm, kazy, dan lainnya yang memiliki hasil prsentase masing – masing yang dapat dilihat pada gambar 1 diatas
+njrat malware yang digunakan untuk meremote pc orang lain dengan jarak jauh
+rat digunakan untuk menghubungkan dan mengatur satu atau lebih komputer dengan berbagai kemampuan
+aspek utama dari rat ini popularitasnya dengan sistem domain name system layanan seperti no-ip.com
+memperbarui server nama di dns, sering secara real time, dengan konfigurasi dns aktif hostname dikonfigurasi, alamat, atau informasi lainnya
+adapun metodologi yang digunakan dalam penelitian ini adalah sebagai sebagai berikut : gambar 2 metodologi penelitian behavior malware analysis
+dynamic analisis malware adalah teknik melakukan analisa malware pada suatu sistem dan melihat aktivitas atau proses yang diaktifkan oleh malware tersebut
+hasil dan pembahasan mendapatkan jawaban atas semua permasalahan dari tema yang diangkat didalam penelitian
+proses analisis ini disusun dengan terstruktur untuk mendapatkan skema investigasi pada performance pc yang terinfeksi malware
+analisis dalam penelitian ini menggunakan hardware 3 pc dengan spesifikasi yang berbeda dan menggunakan software vmware sebagai alat untuk pengujian malware tersebut
+gambar 3 skema penyebaran malware proses penyebaran malware njrat dilakukan oleh attacker dengan cara menyebarkan virus melalui usb ataupun file sharing
+pada pc satu tidak disisipkan malware njrat tersebut dan untuk pc korban disisipkan malware, dengan cara menjalankan malware pada pc tersebut maka attacker atau pc server dapat mengtahui aktifitas apa saja yang sedang dilakukan oleh pc korban dan juga untuk server bisa melakukan hak akses apapun terhadap pc korban tanpa diketahui oleh koban tersebut
+jenis malware njrat ini dijalankan secara manual untuk mengambil alih hak akses pc target sistem yang digunakan dengan cara double klik file sisipan malware, setelah malware njrat berhasil menyerang pc target attacker langsung bisa melakukan hak akses apa saja terhadap pc target 2 memiliki kemampuan untuk melakukan file duplication registry pada sistem registry remote terhadap folder korban screen viewer shell komputer korban menyebarkan software bajakan
+korban tidak mengetahui software tersebut berisi malware karena tidak ada perbedaan yang signifikan dari software tersebut
+malware njrat ini dapat meremote pc target, dapat merusak file dan mencuri file penting pada pc target, dapat mengetahui aktivitas user target dengan menggunakan remote camera attacker dapat melihat user target social engineering yaitu teknik yang menggunakan kelemahan manusia, sehingga user tanpa curiga langsung mengeksekusi sebuah program yang dianggapnya baik-baik saja
+yaitu untuk pencurian data pada komputer tanpa sepengetahuan dari pemiliknya
+banyak efek negatif yang ditimbulakan oleh virus komputer diantaranya rusaknya data dan program pada komputer sehingga data tersebut tidak dapat dibuka, ataupun program yang ada pada komputer tidak dapat berjalan
+pc yang tidak terinfeksi malware njrat dapat dilihat performa seperti pada gambar 6, maka trafik yang terjadi pada system computer tersebut akan lemah
+sama seperti trafik yang terjadi apabila semua pc belum terinfeksi malware njrat
+tabel ii njrat dari menit ke menit, penggunaan memory sebelum terinfeksi secara dinamis berjalan rata-rata 45% penggunaan untuk aplikasi yang sedang berjalan saja
+gambar 7 tampilan performa pc korban performa pc yang disispkan malware njrat, grafik yang terjadi pada cpu terus meningkat tinggi dibandingkan dengan sebelum dan yang tidak ternfeksi malware, sama seperti grafik pada memory semakin lama semakin tinggi jumlahnya
+no waktu penggunaa perubahan yang terjadi setelah terinfeksi malware cukup meningkat menit demi menit, berjalan secara dinamis rata – rata penggunaan memory setelah terinfeksi malware menghabiskan sekitar 50%
+peningkatan trafik yang terjadi mengakibatkan pc dan jaringan menjadi lambat
+performa network menjelaskan kinerja dari jaringan ketika proses pencurian data berlangsung
+perubahan trafik yang terjadi sebelum diinfeksi malware njrat dapat dilihat dari task manager
+performa networking sebelum terinfeksi malware njrat
+penyerangan dilakukan melalui wireless adapter dengan kecepatan 65mbps
+network utilization dengan penggunaan jaringan sebesar 1, 03% secara dinamis
+network utilization dengan penggunaan jaringan sebesar 3, 26% secara dinamis
+network setelah terinfeksi malware njrat berjalan menjadi lambat gambar 8 proses pencurian file pencurian file pada pc target dilakukan tanpa diketahui oleh user, pencurian file, mengganti nama file dan menghapus file dapat dilakukan oleh attacker
+dengan menggunakan teknik social engineering memanfaatkan kelemahan user dengan menjalankan aplikasi yang telah disisipkan malware njrat
+file yang dicuri oleh attacker akan tersimpan otomatis pada pc server, melalui perintah download, file akan pindah ke pc attacker
+pencurian file dapat terjadi berdasarkan kondisi jaringan
+malware njrat dapat mengetahui segala aktifitas target yang sedang berjalan
+gambar 9 menjelaskan tentang aktifitas target yang sedang mendownload aplikasi yaitu skype for windows, facebook for windows dan gmail for windows melalui google chrome diakses pada tanggal 23 oktober 2016
+perintah keylogger untuk dapat mengetahui aplikasi apa yang sedang dijalankan oleh target dan password yang telah tersimpan sebelumnya pada history pc target, dengan teknik social engineering, memanfaatkan teknik trojan horse, yaitu memanfaatkan rasa ingin tahu seseorang dan memberikan malware untuk keperluan apa saja
+username dan password diketahui oleh attacker setelah njrat disisipkan melalui keylogger, attacker dapat mengetahui segala aktifitas yang sedang dilakukan termasuk mengetahui username dan password
+keylogger dapat mengetahui username dan password pc target jika kondisi jaringan baik
+cara untuk mendapatkan username dan password ini dengan cara teknik social engineering
+pemanfaatan social engineering dengan cara attacker memanfaatkan celah user target dengan menyisipkan software bajakan yang berisi malware
+gambar 10 command line pc korban virus yang masuk ke dalam pc target, virus masuk dengan menggunakan port asing yaitu :1177, 192.168.1.2:1177 adalah ip address penyerang menggunakan port :1177 menyerang pc target, dengan perintah netstat-n pada command line
+perintah netstat -n untuk memunculkan daftar ip address mana saja yang masuk ke dalam system
+tentang ip address dan port yang sedang berjalan pada pc target, pc target dengan ip 192.168.1.3
+forgein address menujukan koneksi yang sedang dituju oleh pc target, 192.168.1.2 adalah ip address attacker dengan port :1177 masuk ke system pc target, dengan status established maksudnya terhubung dengan pc lain yaitu pc attacker
+menghilangkan semua malware njrat yang ada pada system komputer dengan menghapus virusbaru.exe, parampaa.exe pada registry, task manager, dan pada semua system yang ada pada komputer
+penanganan melalaui anti virus juga digunakan untuk membantu pc mendeteksi keadaan system, mendeteksi semua isi yang ada pada komputer
+mengetahui keadaan komputer tersebut aman atau tidaknya dari serangan virus
+hasil scanning dengan menggunakan 4 anti virus yang berbeda
+percobaan yang dilakukan menghasilkan hasil yang berbeda
+dengan menggunakan anti virus avast dan avg, file yang dibuat dengan nama parampaa.exe berhasil terdeteksi sebagai virus dengan tingkat keparahan yang tinggi, terdeteksi sebagai malware yang berjenis kuda troya 
+tabel iv malware njrat nama virus dua anti virus lainnya yaitu smadav dan avira file parampaa.exe tidak terdeteksi sebagai malware, karena oleh anti virus ini tidak terjadi kesamaan signature malware, maka hasilnya file ini baik-baik saja
+yang disisipkan malware semakin lama semakin cepat tetapi pada performance di network semakin melemah sebaiknya penelitian selanjutnya lebih mendalami cara kerja dan pola serangan malware dengan berbagai jenis malware lainnya lebih dari satu jenis malware

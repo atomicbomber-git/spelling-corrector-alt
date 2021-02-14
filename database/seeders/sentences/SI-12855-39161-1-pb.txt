@@ -1,0 +1,27 @@
+tugas akhir merupakan mata kuliah yang berisi kegiatan berupa penyusunan karya ilmiah oleh mahasiswa di setiap program studi berdasarkan hasil penelitian yang dilakukan secara seksama dengan bimbingan dosen pembimbing
+pelaksanaan ta di program studi teknik informatika universitas tanjungpura terdiri dari empat tahap, yaitu pengajuan judul, seminar proposal, seminar hasil dan sidang skripsi
+tahap pengajuan judul telah dilaksanakan melalui sistem pendukung outline tugas akhir 
+mahasiswa yang telah menyelesaikan tahap pengajuan judul dapat melanjutkan ke tahap seminar
+mahasiswa harus melakukan proses administrasi terlebih dahulu sebelum melaksanakan seminar dan sidang untuk pendataan pelaksanaan ta
+pendataan ta mahasiswa saat ini masih dilakukan secara manual dan belum ada dokumentasi digital sehingga menyulitkan proses monitoring perkembangan pelaksanaan tahapan ta yang dilakukan mahasiswa
+penelitian ini bertujuan untuk memudahkan monitoring perkembangan ta dan membantu proses pelaksanaan seminar atau sidang dengan cara membangun sistem informasi seminar dan sidang ta yang dapat mendata setiap tahapan ta secara digital sistem dibangun berbasis web dan perancangan sistem mencakup perancangan arsitektur sistem, perancangan diagram alir sistem, perancangan unified modelling language, perancangan basis data dan perancangan antarmuka sistem
+pengujian sistem menggunakan metode black box
+berdasarkan hasil pengujian black box, sistem dapat bekerja dengan baik dalam menangani suatu kemungkinan kesalahan, sehingga sistem informasi seminar dan sidang tugas akhir ini dapat digunakan untuk membantu proses monitoring tugas akhir mahasiswa dan mendukung pelaksanaan seminar dan sidang tugas akhir
+pendahuluan kegiatan berupa penyusunan karya ilmiah oleh mahasiswa di setiap program studi berdasarkan hasil penelitian yang dilakukan secara seksama dengan bimbingan dosen pembimbing
+karya ilmiah yang telah disusun tersebut harus dipertanggungjawabkan secara ilmiah melalui pelaksanaan seminar dan sidang ta
+pelaksanaan ta ini disesuaikan dengan prosedur yang telah ditentukan oleh masing-masing program studi
+tanjungpura dilaksanakan dalam beberapa tahap, yaitu pengajuan judul, seminar proposal, seminar hasil dan sidang skripsi
+pengajuan judul saat ini telah dilaksanakan melalui sistem pendukung outline tugas akhir 
+proses pengajuan judul disertai dengan proses review berupa tanya jawab antara dosen dan mahasiswa
+proses pada spota ditutup jika judul telah diterima dan dosen pembimbing telah ditentukan, kemudian mahasiswa dapat langsung melakukan bimbingan ta untuk melanjutkan ke tahap seminar
+mahasiswa harus melakukan proses administrasi terlebih dahulu sebelum melaksanakan seminar dan sidang untuk pendataan pelaksanaan ta
+berkas-berkas pendataan ta saat ini masih dilakukan secara manual, termasuk berkas berita acara dan penilaian yang digunakan ketika seminar dan sidang ta sedang berlangsung
+berkas berita acara digunakan untuk mencatat hasil review seminar dan sidang sebagai arahan penulisan ta dan bahan evaluasi pada tahap selanjutnya
+catatan review pada tahap sebelumnya penting untuk dilampirkan dalam pelaksanaan seminar dan sidang ta, sehingga evaluasi penulisan ta dapat merujuk pada catatan review tersebut
+hal ini bertujuan untuk membuat ta yang dihasilkan oleh mahasiswa dapat lebih fokus
+catatan review dalam tahap pengajuan judul saat ini sudah terdata pada spota, sedangkan catatan review pada tahap seminar dan sidang masih dituliskan secara manual pada berkas berita acara
+berita acara dan penilaian seminar atau sidang penting untuk didata secara digital sebagai pendukung proses evaluasi penulisan dan pelaksanaan ta
+pelaksanaan tahapan ta yang tidak terdata secara digital ini juga dapat menyulitkan proses monitoring perkembangan pelaksanaan tahapan ta yang dilakukan oleh mahasiswa
+program studi teknik informatika universitas tanjungpura saat ini, perlu dibangun sistem informasi yang dapat mendata pelaksanaan setiap tahapan ta secara digital, sehingga memudahkan monitoring perkembangan pelaksanaan tahapan ta dan mendukung proses pelaksanaan seminar dan sidang ta
+terdiri dari dua atau lebih komponen atau subsistem yang berinteraksi untuk mencapai suatu tujuan
+sistem juga dapat sistem informasi seminar dan sidang tugas akhir program studi teknik informatika program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 e-mail: muftimuftia@gmail.com1, arifbpn@gmail.com2, bangnops@gmail.com3 diartikan sejumlah komponen yang saling bekerja sama dalam suatu kesatuan untuk melakukan fungsi yang sama informasi dapat didefinisikan sebagai hasil dari pengolahan data dalam suatu bentuk yang lebih berguna dan lebih berarti bagi penerimanya yang menggambarkan suatu kejadian- kejadian yang nyata yang digunakan untuk pengambilan keputusan

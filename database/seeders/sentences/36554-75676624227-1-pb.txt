@@ -1,0 +1,125 @@
+eee paper template in a4 vol 6 no 1 april 2020 analisis teknoekonomi implementasi radio frequency identification dalam distribusi daging ayam abdul rahim#1, imam santoso#2, retno astuti*3 sucipto sucipto*4 #departement of agroindustrial technology, faculty of agriculture technology, universitas brawijaya 2imamsantoso@ub.ac.id 4ciptotip@ub.ac.id ke konsumen perusahaan pengolah daging ayam
+tujuan penelitian ini menguji kelayakan teknoekonomi sistem traceability berbasis rfid meliputi tiga aspek yaitu teknologi, pemasaran, dan finansial metode analisis teknologi adalah pemantauan posisi dengan global positioning system, suhu, dan kelembaban box mobil selama distribusi
+analisis teknoekonomi implementasi aplikasi rfid meliputi pemasaran dan kelayakan finasial npv, irr, b/c ratio, dan pp
+berdasar aspek teknologi, posisi mobil selama distribusi dapat dipantau dengan tepat dengan gps yang terintegrasi aplikasi rfid
+aplikasi juga secara real time akurat memantau suhu dan kelembaban box mobil sehingga dapat mempertahankan kualitas daging selama distribusi
+aspek pemasaran terdapat target pasar 13 rpa di jawa timur
+aplikasi rfid akan dijual ke perusahaan rpa dengan harga rp
+7.296.860 per unit dan layanan jasa operasional alat dan sistem rp.510.780 per unit per bulan
+aspek finansial menunjukkan nilai npv adalah rp.259.996.894, irr sebesar 32, 14 %, nilai b/c ratio 2, 27%, pp 3 tahun 2 bulan
+secara umum, hasil analisis teknoekonomi aplikasi rfid pada distribusi daging ayam layak direalisasikan
+pendahuluan radio frequensi identification merupakan istilah umum pada teknologi yang menggunakan gelombang radio untuk mengidentifikasi secara otomatis barang fisik
+setelah barang dipasang tag rfid, posisinya dapat dilacak otomatis oleh gelombang radio, memberikan visibilitas inventaris lebih besar, proses bisnis dan pemantauan lebih baik
+penerapan sistem rfid dalam distribusi dapat mengoptimalkan pemantauan posisi dan mengurangi biaya
+menurut sarma, teknologi terkini meliputi setiap aspek yang digunakan masyarakat modern
+rfid banyak digunakan untuk aplikasi komersial, pemerintah, dan penggunaan pribadi
+aplikasi komersial dan industri, rfid sering digunakan untuk melacak objek seperti kontrol inventaris
+jumlah item di titik kumpul informasi kemudian dibuat jadwal kendaraan distribusi ke pelanggan
+distribusi merupakan integrasi pengguna akhir melalui pemasok agar produk dapat dinikmati dalam waktu cepat dan tepat sasaran selama pemasaran produk
+data rfid terkirim ke server komputer melalui koneksi gelombang radio dan dimodelkan sebagai basis data produk yang disimulasikan secara sederhana
+perubahan status produk dan ada jaminan data produk yang didistribusikan
+aplikasi rfid telah digunakan untuk mengontrol keamanan rantai pasok pangan di taiwan, memantau kualitas dan keamanan pangan di sektor pertanian,
+rfid membatu membuat keputusan dalam memantau produk melalui data atau antarmuka dalam program komputer
+kemampuan sensor rfid untuk mengontrol produk dengan uji akurasi sistem rfid sehingga output rfid adalah data identifikasi produk untuk memenuhi standar dan meminimalkan kerusakan produk
+rpa karena relatif dianggap mahal, khususnya di jawa timur
+penelitian rfid ini digunakan sebagai pemantau posisi mobil, suhu, dan kelembaban selama distribusi korespondensi : abdul rahim robinson 80 daging ayam
+kelebihan aplikasi rfid yang dikembangkan ini dibanding teknologi sebelumnya adalah aplikasi rfid ini dapat memantau suhu, kelembaban, posisi mobil, dan tag status kehalalan produk selama distribusi secara real time
+biaya pembuatan alat rfid untuk merancang rfid dengan komponen alat komputer, interface system, input system rfid, dan pengkondisi sinyal biaya perawatan dikeluarkan selama aplikasi rfid beroperasi
+bhattacharyamengeksplorasi pendapat para ahli tentang faktor-faktor yang mempengaruhi adopsi rfid yaitu pengetahuan, desain, dan keputusan penggunaannya
+analisis teknoekonomi menggabungkan aspek teknologi dan aspek ekonomi, yang terdiri dari tiga aspek kelayakan yaitu teknologi, pemasaran, dan finansial tujuan penelitian ini untuk melakukan analisis kelayakan teknologi sistem traceability berbasis rfid dalam distribusi daging ayam dan mengetahui kelayakan ekonominya
+pada penelitian ini dikaji 3 aspek yaitu aspek teknologi, pemasaran, dan finansial 
+dengan 3 aspek di atas penilaian kelayakan implementasi dapat dipertimbangkan secara komprehensip
+teknoekonomi komputer dan analisis sistem, serta penerapannya di pt rpa kraton indonesia pasuruan bulan februari – mei 2019
+analisis ekonomi di laboratorium manajemen agroindustri jurusan teknologi industri pertanian fakultas teknologi pertanian universitas brawijaya
+data dan sumber data data penelitian ini berupa data primer dan data sekunder, sebagai berikut: 1) data primer: data primer terkait pengukuran kinerja aplikasi rfid dalam memantau posisi mobil, suhu, kelembaban, dan tag kehalalan produk diperoleh dengan simulasi penerapan di perusahaan rpa kraton indonesia pasuruan
+syarat penerimaan dan penjualan produk, data pemasaran, dan logistik diperoleh dari wawancara, observasi, dan dokumentasi dari perusahaan rpa dan penyedia alat untuk membuat rfid
+2) data sekunder: data sekunder didapat dari berbagai pustaka tentang analisis teknoekonomi sistem rfid dari buku, jurnal, laporan ilmiah, dan lain-lain
+analisis data rpa kraton indonesia dianalisis terkait akurasi pemantauan posisi, suhu, kelembaban dalam box mobil selama distribusi
+data tersebut menjadi dasar analisis kelayakan implemtasi teknologi aplikasi rfid dalam distribusi daging ayam
+data sekunder dari studi literatur berupa informasi aplikasi rfid meliputi aspek teknologi dan ekonomi
+aspek pemasaran aplikasi rfid pada perusahaan rpa perlu studi kelayakan pemasaran untuk meningkatkan permintaan di pasar
+aspek finansial menganalisis perhitungan dengan asumsi biaya, permintaan, dan pendapatan usaha aplikasi rfid, pada gambar 2
+kemampuannya untuk memberikan informasi kondisi distribusi dan operasi aplikasi rfid
+1) penerapan aplikasi rfid selama distribusi: perusahaan jasa teknologi rfid memproduksi aplikasi rfid dan menawarkannya ke perusahaan rpa
+aplikasi rfid dapat membantu perusahaan rpa memantau kualitas daging ayam dan mengurangi resiko kerusakannya selama distribusi
+rfid dapat memantau suhu dan kelembaban dalam box mobil selama distribusi
+posisi mobil juga dapat dipantau selama distribusi melalui gps yang terintegrasi dalam aplikasi rfid
+petugas perusahaan rpa dan konsumen perusahaan pengolah ayam sebagai tujuan distribusi dapat memantau daging ayam melalui server perusahaan terkoneksi sistem rfid
+rfid reader mengidentifikasi setiap produk dengan kode produk yang disimpan dalam label rfid yang dicetak dalam fase pengolahan,
+data rfid dapat digunakan kembali dengan sensor yang ditambahkan dalam fase pengolahan dan dihapus dari kotak pada pengiriman ke konsumen
+informasi ini dengan mudah dapat diakses oleh para pengguna
+bagan analisis teknoekonomi pada simulasi implementasi aplikasi rfid, petugas perusahaan rpa dapat memantau kondisi daging ayam selama distribusi melalui hand phone yang terkoneksi sistem aplikasi rfid
+setiap 1 box mobil berkapasitas 1, 5 ton atau 2, 5 ton daging ayam didistribusikan ke setiap konsumen perusahaan pengolah daging ayam, seperti hotel, restoran, ketering
+yusiantomenyatakan aplikasi rfid memudahkan perusahaan rpa memantau daging ayam saat distribusi ke konsumen rpa
+konsumen rpa juga dapat mengontrol dan mendapat informasi kondisi pesanan daging ayam melalui website atau hand phone yang terkoneksi sistem rfid
+hal ini menumbuhkan kepercayaan pada perusahaan rpa
+server konsumen perusahaan rpa konsumen perusahaan rpa gps menejer gambar 3
+alur penggunaan aplikasi rfid dalam mengontrol produk daging ayam selama distribusi 2) pemantauan posisi mobil melalui global positioning system : melalui global positioning system yang telah diintegrasikan dalam aplikasi rfid dapat menunjukkan posisi mobil selama distribusi dari rpa ke konsumen perusahaan pengolah daging ayam
+hasil simulasi implementasi aplikasi rfid daging ayam dari rpa kraton indonesia didistribusikan sejauh 14 km ke rumah makan geprek bensu di pasuruan jawa timur, seperti pada gambar 4
+mengunakan sistem rfid, sehingga membantu perusahaan rpa memantau produk selama distribusi daging ayam ke konsumen pengolah daging ayam
+fontaine et almenyatakan sistem rfid dan gps dieksplorasi untuk memantau produk, baik di dalam maupun di luar ruang
+rfid dan gps sebagai alat pemantau posisi mobil barang saat distribusi
+jaringan satelit gps yang terintegrasi dalam aplikasi rfid yang dikembangkan telah dapat melacak dan memberi informasi posisi mobil secara tepat saat pengiriman daging ayam ke konsumen perusahaan pengolah ayam
+distribusi daging ayam 3) pemantauan suhu dan kelembaban daging ayam selama distribusi: selama distribusi kondisi suhu dan kelembaban box mobil penting dikontrol untuk mempertahankan kualitas daging ayam
+dengan kontrol suhu dan kelembaban penurunan kualitas daging ayam akibat mikroba dan fisiologis dapat diminimalkan
+mikroba penyebab kerusakan daging ayam tumbuh cepat bila suhu melebihi 4oc dan kelembaban kurang dari 50% selama distribusi 10 jam
+kerusakan daging ditentukan suhu dan kelembaban
+hasil pemantauan suhu selama simulasi implementasi rfid pada gambar 5
+perubahan suhu selama waktu pengujian rfid dari gambar 5 diketahui jam 11:17:10 suhu awal 32, 6°c sampai jam 11:21:11 suhu menurun hingga -4, 6°c
+penurunan suhu dari suhu awal perlu waktu kurang lebih 4, 11 menit
+pada jam 11:24:11 mencapai suhu -11°c perlu waktu kurang lebih 7, 11 menit dari suhu awal suhu box mobil standar untuk distribusi daging ayam yaitu sekitar - 17oc dapat tercapai pada jam 11:42:15 atau perlu waktu kurang lebih 25, 15 menit dari suhu awal semakin dingin suhu standar semakin lama waktu untuk mencapai kondisi tersebut
+simulasi aplikasi rfid dapat dilihat pada gambar 6
+saat awal simulasi daging ayam dimasukkan posisi pintu box mobil terbuka, sehingga kelembaban turun sangat cepat dengan waktu kurang lebih 1 menit
+setelah pintu mobil ditutup pada jam 11:23:11 kelembaban mulai naik 19%
+kelembaban mencapai target di atas 50% memerlukan waktu 5 menit
+karena itu, segmentasi dan target pasar aplikasi rfid yang dikembangkan perlu diidentifikasi
+1) segmentasi pasar: segmentasi pasar merupakan proses memilih pasar dalam kelompok konsumen yang sama, kemudian memilih kelompok atau individu yang paling tepat
+salah satu segmen usuha jasa aplikasi rfid adalah perusahaan rpa
+setelah aplikasi rfid dibeli perusahaan rpa, perusahaan penyedia aplikasi rfid masih memiliki ikatan untuk mengontrol operasional aplikasi rfid
+setiap bulan aplikasi dikontrol teknisi dan programmer perusahaan aplikasi rfid yang biayanya dibebankan ke perusahaan rpa
+2) target pasar: target pasar merupakan segmen yang menjadi fokus pemasaran
+aplikasi rfid sangat berpeluang dipasarkan ke perushaan rpa, karena aplikasi ini telah didesain untuk dapat memantau kondisi daging ayam selama distribusi
+dalam simulasi target pasar aplikasi rfid ini dipasarkan di jawa timur
+terdapat 13 perusahaan rpa di jawa timur yang menjadi target pasar aplikasi rfid, seperti tabel 1
+aspek finansial jumlah investasi usaha aplikasi rfid adalah rp.200.000.000
+asumsi perhitungan yang digunakan antara lain: 5 tahun
+pajak pendapatan sesuai pasal 2 uu nomor 23 tahun 2018
+penghasilan kena pajak, jika pendapatan di bawah rp
+biaya bahan baku diperlukan untuk mengembangkan dan membuat suatu teknologi baru
+terdapat 14 komponen bahan yang digunakan dalam pembuatan aplikasi rfid
+komponen tersebut telah memenuhi standar untuk dapat mendeksi posisi, suhu, kelembaban dalam box mobil, dan tag kehalalan produk
+biaya setiap komponen untuk membuat aplikasi rfid pada tabel 2
+2) komponen biaya building system aplikasi rfid: biaya membangun sistem sangat penting untuk pengembangan perangkat lunak sistem aplikasi rfid
+perangkat untuk mengontrol dan mengatur efisiensi pada seluruh proses pengembangan perangkat lunak sistem aplikasi rfid
+akurasi biaya perangkat lunak sangat penting
+perhitungan biaya merupakan faktor penentu keberhasilan proyek pengembangan dan pembuatan perangkat lunak
+biaya terlalu kecil mengakibatkan perangkat lunak yang dihasilkan berkualitas rendah, sebaliknya, biaya yang terlalu besar mengakibatkan pemborosan pengeluaran
+biaya building system pada penelitian ini adalah biaya pemograman dan perakitan untuk masing-masing satu komponen aplikasi rfid
+biaya yang dikeluarkan dalam pemograman dan perakitan sistem aplikasi rfid, dapat dilihat pada tabel 3
+tabel iii biaya building sensor suhu 1 150.000 sensor kelembaban 1 50.000 sim 900 1 150.000 web design 1 550.000 1.200.000 3) pendapatan: pelaku usaha selalu ingin mencapai pendapatan dan laba bersih yang optimum
+harga jual dan realisasi biaya produksi sangat berpengaruh terhadap kebehasilan pencapaian tujuan usaha sehingga mencapai pendapatan dan laba maksimal
+penentuan harga penting diperhatikan, karena harga sangat berpengaruh terhadap laku dan tidaknya suatu barang dan jasa yang dipasarkan
+penentuan harga aplikasi rfid ada 2 bagian yaitu: 1
+harga jual aplikasi rfid adalah rp
+penentuan harga berdasar harga pokok produksi 
+penentuan harga jasa layanan operasional aplikasi rfid diasumsikan 7% dari harga pokok penjualan 
+pendapatan usaha aplikasi rfid dari penjualan aplikasi rfid dan jasa layanan operasional aplikasi rfid
+tabel 4 menunjukkan simulasi pendapatan usaha jasa aplikasi rfid
+pada tahun ke 1 belum mencapai target pendapatan
+tahun ke 2 sampai tahun ke 5 target pendapatan dapat tercapai dan selalu meningkat
+total 374.474.740 4) cash flow: menurut kasmir dan jafar, unsur cash flow yaitu pendapatan inflow), pengeluaran, keuntungan bersih 
+cash flow usaha jasa aplikasi rfid selama 5 tahun dinjukkan pada tabel 5
+pada tahun ke 1 laba bersih masih minus karena masih tahap pengembalian modal tahun ke 2 pendapatan sudah positif tetapi masih relative kecil
+pada tahun ke 3 sampai tahun ke 5 laba bersih semakin besar seiring peningkatan pasar aplikasi rfid
+indeks kelayakan teknologi baru berdasarkan discount factor yang dianalis melalui net present value, internal rate return, benefit cost ratio, dan payback periode 
+nilai uji kelayakan finansial usaha jasa aplikasi rfid dapat dilihat pada tabel 6
+dari tabel 6 terlihat net present value rp
+internal rate return hasil perhitungan sebesar 32, 14% lebih besar dari suku bunga kredit usaha rakyat yaitu 7%
+menujukkan recana usaha jasa rfid layak diusahakan
+kesimpulan dan saran dikembangkan dapat memantau secara tepat posisi mobil selama distribusi melalui gps yang sudah diintegrasikan ke dalam aplikasi ini
+suhu dan kelembaban dalam box mobil dapat dipantau secara real time sehingga mutu daging ayam tetap terjaga
+kelayakan finansial aplikasi rfid dengan asumsi 5 tahun menunjukkan nilai npv positif yaitu rp
+dengan demikian jasa aplikasi rfid secara teknoekonomi layak untuk diusahakan
+masih tahap awal, sehingga perlu penelitian untuk mengukur daya tahan alat aplikasi dalam kondisi kelembaban tinggi dalam box mobil
+pada analisis finansial perlu diteliti dan dirinci lebih lanjut biaya komponen rfid yang cepat berubah dan biaya operasional per bulan
+ucapan terimakasih/ acknowledgment yang telah memberikan bantuan hibah penelitan magister dan universitas brawijaya yang telah membantu publikasi

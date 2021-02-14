@@ -1,0 +1,74 @@
+peran sejarah dalam indonesia tidak terlepas dari pelaku sejarah itu sendiri yaitu para pahlawan
+computer assisted instruction adalah media bantu pembelajaran yang menempatkan komputer sebagai piranti sistem pembelajaran individual, siswa dapat berinteraksi langsung dengan sistem komputer yang dirancang
+pada pendidikan anak kelas iv sd dengan memperkenalkan nama-nama pahlawan nasional indonesia di mata pelajaran ips, seperti contohnya pahlawan nasional dari kalimantan barat dengan narasi biografi
+tujuan dari penelitian ini adalah untuk membantu anak tingkat sekolah dasar lebih mudah memahami dan mempelajari tentang pengenalan nama-nama pahlawan nasional indonesia dengan memanfaatkan konsep cai dengan model tutorial dan instructional games
+pengujian aplikasi menggunakan uji validasi yaitu ahli materi dan ahli cai, serta pengujian angket pada anak kelas iv sd
+hasil yang didapat dari validasi aplikasi menggunakan skala pengukuran guttman ini mendapatkan nilai 90% untuk sisi materi guru sd, nilai 92, 1% untuk sisi cai, 89, 17% untuk anak kelas iv sd, sehingga aplikasi cai pengenalan nama pahlawan nasional untuk anak kelas iv sd dirasa telah layak dalam memenuhi target pembelajaran
+instructional games, sekolah dasar, pahlawan nasional i
+pendahuluan sejarah itu sendiri yaitu para pahlawan
+adapun jasa pahlawan itu sendiri begitu terasa sampai saat ini
+dengan gagah berani memperjuangkan kemerdekaan bangsa indonesia dari penjajahan, salah satu contohnya adalah pahlawan nasional pentingnya mempelajari sejarah para pahlawan itu adalah untuk menumbuhkan rasa nasionalisme dan rasa bangga terhadap negara
+selain itu juga untuk menghargai atas jasa- jasa para pahlawan dan menunjukkan jati diri sebagai warga negara yang cinta tanah air
+berdasarkan hasil observasi pada penelitian ke sd negeri 71 pontianak dalam menanamkan pentingnya mempelajari pengenalan nama-nama pahlawan nasional pada pelajaran ips saat ini masih berpusat pada guru yang berperan aktif di dalam kelas
+siswa mempelajari mata pelajaran dengan mendengar dan mencatat informasi atau penjelasan dari guru, serta dengan membaca buku teks
+peran siswa pada pendekatan ini hanya melakukan aktivitas sesuai dengan petunjuk guru, sehingga memberikan efek jenuh dan kesulitan dalam memahami materi tersebut
+model yang digunakan dalam aplikasi ini yaitu tutorial yang berisi penjelasan dalam bentuk teks, gambar baik diam atau bergerak dan grafik, serta model instructional games yang proses pembelajaran dan diharapkan terjadi aktivitas belajar sambil bermain sehingga siswa tidak merasa bosan tetapi mempelajari suatu konsep yang bersifat menyenangkan
+pahlawan nasional penjajahan di wilayah yang sekarang menjadi wilayah negara kesatuan republik indonesia yang gugur atau meninggal dunia demi membela bangsa dan negara atau yang semasa hidupnya melakukan tindakan kepahlawanan atau prestasi dan karya yang luar biasa bagi pembangunan dan kemajuan bangsa dan negara republik indonesia
+pasal 1 angka 4 uu nomor aplikasi pembelajaran pengenalan nama pahlawan indonesia berbasis computer assisted instruction (cai
+pahlawan nasional dikelompokkan atas pahlawan kemerdekaan, pahlawan proklamator, pahlawan kebangkitan nasional, pahlawan ampera dan pahlawan revolusi felicia feliyana maharani sibarani#1, tursina#2, anggi perwitasari #3 #program studi informatika universitas tanjungpura jl
+ada beberapa model yang diterapkan dalam cai, yaitu model tutorial, model instructional games, model simulasi, dan model drill and practice
+model tutorial merupakan program pembelajaran berbasis komputer ditunjukan sebagai pengganti sumber belajar yang proses pembelajarannya diberikan lewat teks, grafik, animasi, audio yang tampak pada monitor yang menyediakan pengorganisasian materi, soal-soal latihan dan pemecahan masalah
+model instructional games tujuan instructional games adalah untuk menyediakan pengalaman belajar yang memberikan fasilitas belajar untuk menambah kemampuan siswa dalam bentuk permainan yang mendidik dan menghibur
+pendidikan di sekolah dasar berpusat pada siswa kelas dasar antara kelas 1 sampai dengan kelas 6 yang ketentuan materi dan pokok bahasannya diatur tersendiri dalam gbpp 
+sehingga pendidikan di sekolah dasar dengan ruang lingkupnya mencakup materi ke sd yang diselenggarakan sepanjang hayat sebagai pendidikan lanjutan dengan tujuan yang sama seperti uraian pada undang- undang no 20 tahun 2003 tentang sistem pendidikan
+storyboard sebaiknya diisi unsur visual terlebih dahulu baru kemudian unsur narasi dan audionya yaitu untuk melengkapi hal-hal yang sulit diungkapkan dalam bentuk visual sehingga harus diperkuat dengan narasi dan background audio atau sound fx
+tidak perlu koneksi internet, anak bisa langsung memainkan aplikasi pada laptop ataupun komputer, tanpa harus install aplikasi
+pc yang terdapat aplikasi pengenalan pahlawan nasional, namun juga harus didampingi oleh guru yang mengajar
+aplikasi ini terdapat materi ajar yang akan dimonitoring oleh user guru yang mengajar
+hirarki antarmuka aplikasi dapat dilihat pada gambar 2 berikut
+ketika aplikasi dibuka dan dimainkan akan masuk ke halaman judul kemudian ke scene menu utama
+tiga video yang berhubungan dengan pahlawan nasional
+tiga level, yaitu level mudah, level sedang, dan level sulit
+di scene menu utama ini terdapat tiga buat tombol yang terdiri dari materi, video, dan puzzle 
+di menu materi terdapat peta indonesia yang memiliki 33 provinsi yang setiap provinsi nya hanya diambil dua objek pahlawan nasional saja yang berisi gambar, nama, narasi biografi, dan kategori perjuangan, serta terdapat menu quiz yang berisi 10 pertanyaan dalam bentuk pilihan ganda
+sedangkan, pada setiap level puzzle memiliki aturan dengan perbedaan waktu yang telah ditetapkan
+analisis kebutuhan kebutuhan fungsional yang diperlukan pada aplikasi pembelajaran nama pahlawan nasional berbasis computer assisted instruction yang akan dibuat
+analisis kebutuhan dapat dilihat pada tabel 3 berikut
+satu objek pahlawan nasional bentuk pilihan ganda di menu quiz
+tabel bersambung - analisis kebutuhan kode deskripsi yang berhubungan dengan pahlawan nasional fr-10 sistem dapat menampikan menu game puzzle permainan drag and drop
+fr-12 sistem dapat menampilkan model permainan puzzle dari salah satu level dengan skor dan timer pada aturan yang telah ditentukan
+fr-13 sistem dapat menampilkan petunjuk dari penggunaan aplikasi
+fr-16 sistem dapat menampilkan on/off backsound pada setiap scene
+storyboard dan implementasi aplikasi dapat dilihat pada tabel 2 berikut
+kode storyboard nama scene berupa animasi untuk menuju ke scene halaman judul aplikasi
+j.1 antar muka aplikasi untuk keluar dari aplikasi
+ketika di klik maka akan masuk ke menu utama
+m.1 antar muka aplikasi sedangkan menu quiz memiliki 10 pertanyaan dalam bentuk pilihan ganda
+tombol untuk menampilkan tiga buah video, seperti hari kemerdekaan indonesia, hari pahlawan nasional, dan perang gerilya
+selanjutnya adalah scene bermain, yaitu puzzle
+pada puzzle ini terdapat tiga level, yaitu level mudah, level sedang, dan level sulit
+di setiap level terdapat beberapa gambar pahlawan nasional dengan aturan- aturan yang telah ditentukan
+aplikasi format pahlawannasionalexe dapat dioperasikan di semua jenis laptop atau komputer
+uji coba aplikasi ini dilakukan oleh guru dan anak kelas iv pada 20 komputer
+jumlah siswa dalam ruangan kelas tersebut sebanyak 20 orang
+mereka belajar pelajaran ips sejarah yang materi nya tentang dan di dalamnya termasuk pelajaran tentang nama-nama, gambar, dan biografi-biografi pada pahlawan tersebut
+terutama saat masuk pada menu bermain dengan tidak canggung mereka dapat men- drag and drop gambar pada bayangan yang tepat dan juga level lainnya
+dengan beberapa saran untuk menyimbangkan audio dan visual dari aplikasi, serta mengecek kembali feedback langsung pada aplikasi
+pada penelitian ini, skala pengukuran guttman digunakan untuk validasi produk oleh pakar atau tenaga ahli yang akan menguji coba aplikasi yang telah dibuat
+berikut ini adalah analisis terhadap setiap hasil validasi: 1
+validasi dari sisi materi : hasil validasi dari validator guru sd negeri 71 pontianak
+berikut ini adalah nilai persentase dari hasil uji media pembelajaran dari ahli materi, yaitu
+guru sd negeri 71 pontianak berdasarkan persentase tersebut, maka dapat disimpulkan bahwa penilaian terhadap sisi materi guru sd negeri 71 pontianak pada aplikasi ini dirata-ratakan adalah sebesar 90% yang bisa dikategorikan mendekati nilai 100%
+aplikasi ini terbukti layak dan telah memenuhi sebagian besar kriteria aplikasi pembelajaran yang sesuai dengan anak kelas iv sd
+validasi dari sisi cai: kedua validator ahli cai pada penelitian ini adalah dosen teknik informatika
+berikut ini adalah nilai persentase dari hasil uji kevalidan dari ahli cai, yaitu
+validator pertama pada sisi cai b
+validator kedua pada sisi cai berdasarkan persentase tersebut, maka dapat disimpulkan bahwa penilaian terhadap sisi cai pada aplikasi ini dirata- ratakan adalah sebesar 92, 1% yang bisa dikategorikan mendekati nilai 100%
+aplikasi ini terbukti layak dan telah memenuhi sebagian besar kriteria aplikasi pembelajaran yang sesuai dengan anak kelas iv sd
+uji coba anak kelas iv sd hasil uji coba pada anak kelas iv sd di sd negeri 71 pontianak
+berikut ini adalah nilai persentase dari hasil uji coba pada anak kelas iv sd, yaitu
+p = bahwa penilaian terhadap anak kelas iv sd pada aplikasi ini dirata-ratakan adalah sebesar 89, 17% yang bisa dikategorikan mendekati nilai 100%
+aplikasi ini terbukti layak dan telah memenuhi sebagian besar kriteria aplikasi pembelajaran yang sesuai dengan anak kelas iv sd
+pemilihan kategori pengenalan nama pahlawan nasional dan penyajian materi sesuai dengan indikator pencapaian perkembangan dan sub tema pembelajaran pada anak kelas iv sd
+berdasarkan hasil validasi dengan menggunakan skala guttman pada ahli materi mendapatkan nilai 95%, untuk ahli cai dan nilai 92, 1%, dan pada anak kelas iv sd mendapatkan nilai rata-rata 89, 17%
+dapat diartikan bahwa aplikasi tersebut sudah berjalan dengan baik dan akan diterapkan dalam pembelajaran sd negeri 71 pontianak

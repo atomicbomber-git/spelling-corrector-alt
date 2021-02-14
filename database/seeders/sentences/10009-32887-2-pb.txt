@@ -1,0 +1,70 @@
+urnal edukasi dan penelitian informatika vol 1, no 1, issn 2460-7041 37 institusi yang menyampaikan dan mengembangkan ilmu pengetahuan baik melalui pembelajaran maupun kegiatan penelitian
+masalah yang timbul di universitas tanjungpura salah satunya adalah banyaknya pengetahuan yang dimiliki individu dosen dan peneliti tidak terdokumentasi secara teratur dan tertata dengan baik, dimana ilmu pengetahuan tersebut dapat meningkatkan competitive advantage
+dengan demikian knowledge yang ada di suatu perguruan tinggi harus dapat dikelola sehingga dapat menjadi aset perguruan tinggi
+perangkat lunak utuk mengelola knowledge disebut knowledge management system 
+dampak penerapan dari kms dapat menyebabkan perubahan pada perguruan tinggi
+oleh sebab itu, sebelum menerapkan kms diperlukan serangkaian kegiatan terlebih dahulu yang bertujuan untuk menilai kesiapan perguruan tinggi dan melakukan inventarisasi ilmu pengetahuan yang dimiliki, sehingga perguruan tinggi mengetahui knowledge yang dimiliki oleh individu-individunya
+tujuan penelitian ini adalah mengembangkan kms dalam sebuah aplikasi yang disebut wikipeat
+metode pengembangan wikipeat menggunakan sharepoint yang bisa mengoleksi, menyimpan dan mempublikasi semua data dijital hasil penelitian yang ada di untan, sehingga mudah diakses secara online
+wikipeat dapat memetakan hasil penelitian dosen, mengumpulkan dan me-recycle pengetahuan secara terstruktur
+mengorganisasi dan mendokumentasikan pengetahuan, khususnya di bidang lahan basah dan gambut tropis, melakukan agregasi dokumen hasil penelitian berdasarkan pip dan rip, serta menyusun dan membuat link sumber-sumber ilmu eksternal masa yang akan datang untan masih perlu mendorong semua dosen dan peneliti, bahkan melibatkan semua pihak untuk meningkatkan lagi pengumpulan pengetahuan di bidang lainnya, sehingga secara tidak langsung dapat meningkatkan mutu untan
+pendahuluan institusi yang menyampaikan dan mengembangkan ilmu pengetahuan baik melalui pembelajaran maupun kegiatan- kegiatan penelitian
+pengembangan ilmu melalui penelitian biasanya dituangkan dalam bentuk pola ilmiah pokok dan rencana induk penelitian 
+kedua hal tersebut kemudian menjadi sebuah strategi untuk menyatukan segala langkah serta perencanaan pengembangan, sehingga semua kegiatan terfokus pada pip dan rip yang menjadi cita-cita perguruan tinggi tersebut
+berbagai penelitian yang telah dan akan dilakukan dapat di-monitor dan diarahkan pada fokus disiplin ilmu yang telah ditentukan
+untuk memaksimalkan pengembangan dan desiminasi ilmu pengetahuan maka diperlukan sebuah mekanisme pengelolaan ilmu pengetahuan yang biasa disebut dengan knowledge management system atau sistem pengelolaan ilmu pengetahuan
+secara sederhana kms merupakan sebuah strategi dalam mengorganisasikan sirkulasi informasi pada bidang ilmu tertentu sehinga informasi akan dapat lebih mudah dicerna, ditelusuri, dan selanjutnya digunakan untuk pengembangan disilpiln ilmu tertentu sehingga bidang ilmu tersebut berkembang semakin maksimal
+kms akan meningkatkan performa sebuah institusi karena dapat mengelola ilmu yang mereka kembangkan, dimana pengelolaan itu tidak hanya bermanfaat bagi insitusi yang bersangkutan tapi juga seharusnya bermanfaat bagi masysrakat dan pengembangan ilmu lainnya
+biasanya knowledge management dihubungkan dengan perkembangan sebuah perusahaan
+perusahaan yang baik akan memiliki km yang baik
+selain itu perusahaan yang memiliki km yang baik akan berkembang pesat karena memiliki mekanisme untuk belajar dari pengalaman setiap anggotanya, informasi dari masyarakat pengguna perusahaan, penelitian-penelitian yang dibiayai perusahaan, bahkan dari kegagalan-kegagalan perusahaan
+apabila informasi tersebut terdokumentasi secara teratur dan tertata dengan baik, sehingga terlihat keterkaitan satu sama lainnya maka hal tersebut menjadi sebuah ilmu untuk pengembangan perusahaan tersebut
+demikian halnya dengan universitas tanjungpura, apabila akan menjadi pusat ilmu dan pengembangan, maka institusi tersebut wajib memiliki kms yang baik
+sebuah institusi untuk berkembang dan mengembangkan ilmu yang menjadi fokus insituti tersebut
+itulah sebabnya diperlukan kms yang akan mentautkan segala informasi menjadi bangunan ilmu yang setiap saat dapat terus berkembang dan disempurnakan
+awalnya mengandalkan resources based menjadi knowledge based
+dengan demikian knowledge yang ada di suatu perguruan tinggi harus dapat dikelola sehingga dapat menjadi aset perguruan tinggi
+sangat memungkinkan diintegrasikan dengan pengembangan sistem pengelolaan ilmu pengetahuan seperti wiki
+perkembangan teknologi ini tentunya dapat dimanfaatkan untuk lebih mudah membangun kms
+diantara berbagai upaya tersebut, penelitian ini diajukan sebagai satu upaya peningkatan sharing ilmu pengetahuan melalui wikipeat, yang akan menjadi sentra pengembangan ilmu pengetahuan, khususnya di bidang lahan basah, dan gambut tropis
+di universitas tanjungpura, pola ilmiah pokok yang akan dikembangkan adalah berfokus pada wet land and tropical peat studies atau studi lahan basah dan gambut tropis
+ini artinya untan akan mengembangkan diri sebagai pusat ilmu dan penelitian yang berhubungan dengan lahan basah dan gambut tropis
+telah banyak penelitian yang mungkin dilakukan oleh dosen-dosen di lingkungan untan dengan berbagai latar belakang dan fokus penelitian
+namun hasil penelitian tersebut masih berbentuk serpihan-serpihan pengetahuan yang belum diorganisasi dan didokumentasikan secara baik
+ memetakan hasil penelitian dosen sehingga dapat diketahui niche atau gap yang belum terisi; mengumpulkan dan me- recycle pengetahuan secara terstruktur; mengorganisasi dan mendokumentasikan pengetahuan khususnya di bidang lahan basah dan gambut tropis; melakukan agregasi dokumen hasil penelitian berdasarkan pip dan rip; dan menyusun dan membuat link sumber-sumber ilmu eksternal metode deskriptif kualitatif dengan studi kasus yang bertujuan untuk mendapatkan gambaran yang lebih mendalam dan lengkap dari obyek yang diteliti
+kegiatan-kegiatan yang dilakukan dalam metode penelitian ini antara lain: melakukan analisis sistem yang ada; melakukan identifikasi masalah dan studi literatur; melakukan perancangan yang terdiri dari perancangan proses dan perancangan intefase; mendapatkan model kms
+tahapan kegiatan tersebut diperlihatkan pada gambar 1
+tinjauan pustaka permasalahan yaitu penelitian-penelitian yang dilaksanakan para akademisi tidak terstruktur dengan rapi
+walaupun penelitian-penelitian tersebut mengacu pada pola ilmiah pokok atau rencana induk penelitian perguruan tinggi tersebut, keluaran penelitian serta laporan dalam bentuk makalah atau publikasi jurnal tidak terkelola dalam bentuk susunan ilmu pengetahuan
+hal inilah yang terjadi di universitas tanjungpura
+begitu banyak pengetahuan dalam bentuk penelitian yang dimiliki individu-individu dosen dan peneliti
+hal ini tidak berarti bahwa penelitian-penelitian tersebut tidak bermanfaat, tetapi satuan ilmu tersebut menjadi terisolasi terkotak-kotak dalam bentuk penelitian program studi, jurusan dan fakultas
+anggotanya memiliki ilmu pengetahuan yang sebenarnya dapat meningkatkan nilai konpetitif institusi
+tetapi karena mereka tidak memiliki mekanisme untuk menghimpun serpihan ilmu, jadilah mereka sebuah institusi yang tidak atau lamban berkembang
+pengelolaan atau manajemen dari knowledge organisasi untuk menciptakan nilai bisnis dan membangun daya saing
+ 
+knowledge management mampu untuk menciptakan, mengkomunikasikan dan mengaplikasikan knowledge sebagai kemampuan untuk menciptakan dan mempertahankan peningkatan nilai dari inti kompetensi bisnis
+tacit knowledge, dapat diartikan sebagai pengetahuan yang masih tersimpan dalam kepala pemiliknya
+pengetahuan yang karena keberadaannya yang tersebar dan embedded dalam berbagai bentuk, seperti: pengalaman seseorang, percakapan antar individu, dialog, diskusi formal maupun informal, intelejensia individu, mekanisme pengambilan keputusan, pemikiran- pemikiran, dan lain sebagainya
+dengan melakukan penggabungan, kategori, klasifikasi ulang, dan mensintesiskan pengetahuan eksplisit yang ada
+seci model terdiri dari dua kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional a) pengelolaan dokumen b) pengelolaan diskusi f) pengelolaan pengguna adalah hal-hal yang perlu diperhatikan menyangkut atribut- atribut yang mendukung kebutuhan fungsional, yang meliputi kebutuhan operasional, kebutuhan performansi, dan kebutuhan keamanan sistem
+application server perancangan arsitektur sistem, seperti diperlihatkan pada gambar 3
+aplikasi wikipeat yang dikembangkan dengan sistem berbasis web dengan teknologi cloud computing
+kms wikipeat dibangun dengan server yang terdiri dari database server, web server dan application server
+internal user berfungi sebagai pengelola data, informasi dan dokumen
+sedangkan eksternal user akan memperoleh data, informasi dan dokumen hasil penelitian melalui interface aplikasi wikipeat
+yang bisa mengoleksi, menyimpan dan mempublikasi semua data digital hasil penelitian yang ada di untan, sehingga mudah diakses secara online
+sedangkan model kms yang digunakan adalah model externalization, dimana pengetahuan tacit yang terdapat pada hasil penelitian yang dipublikasikan akan menjadikannya pengetahuan yang baru
+komponen- komponen tersebut dapat dilihat pada gambar 4
+pada aplikasi wikipeat setiap user yang mengakses halaman muka, maka akan ditampilkan halaman utama, halaman profil, publikasi penelitian serta artikel terkait dan halaman diskusi yang bersifat umum dan boleh diakses siapa saja
+halaman muka terdokumentasi dalam aplikasi wikipeat
+pada halaman ini, user dapat melakukan pencarian data, informasi dan dokumen terkait penelitian di bidang lahan basah dan gambut tropis
+halaman hasil penelitian gambar 7 menyajikan halaman diskusi, yang dapat dilakukan oleh semua user untuk dapat berinteraksi dengan pengelola aplikasi wikipeat
+hak akses untuk masuk ke halaman kelola data
+kesimpulan dimiliki individu-individu dosen dan peneliti
+hal ini tidak berarti bahwa penelitian-penelitian tersebut tidak bermanfaat, tetapi satuan ilmu tersebut menjadi terisolasi
+dengan adanya knowledge management system, maka informasi maupun hasil penelitian dari beberapa individu tersebut dapat dihimpun menjadi satu kesatuan
+dengan demikian, knowledge management system akan mendorong pertumbuhan ilmu pengetahuan, berbagi ilmu pengetahuan, dan akhirnya akan meningkatkan perkembangan ilmu pengetahuan pada sebuah institusi
+selanjutnya pengetahuan tersebut menjadi aset institusi
+sebuah aplikasi wikipeat dapat memetakan hasil penelitian dosen, mengumpulkan dan me-recycle pengetahuan secara terstruktur
+mengorganisasi dan mendokumentasikan tropis, melakukan agregasi dokumen hasil penelitian berdasarkan pip dan rip, serta menyusun dan membuat link sumber-sumber ilmu eksternal dengan demikian wikipeat dapat menjadi salah satu sistem pengelolaan hasil penelitian di bidang lahan basah dan gambut tropis

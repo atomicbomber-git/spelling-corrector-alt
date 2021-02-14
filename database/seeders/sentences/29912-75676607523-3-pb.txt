@@ -1,0 +1,83 @@
+– transformator adalah unsur utama dan merupakan peralatan terpenting dalam penyaluran jaringan distribusi
+salah satu penyebab gangguan pada transformator adalah kelebihan beban dan beban tidak seimbang yang dapat dicegah dengan sistem proteksi dan pemeliharaan pada transformator
+pengumpulan data saat ini dilakukan secara manual dan perawatan tidak difokuskan pada transformator yang mengalami gangguan
+penelitian ini merancang sebuah sistem informasi perawatan transformator berbasis web yang dapat menyediakan informasi tentang transformator dan lingkungan distribusinya, serta dilengkapi dengan sistem peringatan dini ketika transformator telah melewati batas normal sehingga dapat memudahkan petugas dalam melakukan monitoring dan pemeliharaan sesuai dengan kebutuhan transformator
+peringatan dini pada sistem akan menggolongkan status beban berdasarkan hasil analisa data dimana transformator akan masuk ke golongan merah jika beban  80% untuk kelebihan beban atau  25% untuk beban tidak seimbang, golongan kuning jika beban  65% untuk kelebihan beban atau  15% untuk beban tidak seimbang, dan golongan hijau untuk beban normal berdasarkan hasil pengujian menggunakan metode blackbox, sistem dapat menyajikan data laporan dan memberikan peringatan dini secara akurat dan mudah digunakan oleh siapapun
+pengelolaan sistem energi listrik yang baik
+kehandalan sistem distribusi dan jaringan distribusi beserta peralatan pendukungnya diperlukan dalam upaya untuk mengatasi jumlah beban yang terus meningkat
+jaringan distribusi adalah ujung tombak suatu sistem energi listrik karena berada paling dekat dengan sisi beban atau konsumen
+transformator adalah unsur utama dan merupakan peralatan terpenting dalam penyaluran jaringan distribusi
+salah satu penyebab gangguan pada transformator adalah kelebihan beban dan beban tidak seimbang 
+jika transformator dibebani 100% atau dibebani pada daya pengenalnya, suhu lilitan mencapai 98c dengan kondisi suhu sekitar 20c - 40c maka umur transformator bisa mencapai 20 tahun atau 7300 hari dengan susut umur nominal 0, 0137% per hari
+susut umur pada transformator dapat dicegah dengan sistem proteksi dan pemeliharaan
+sistem proteksi harus memiliki beberapa kriteria berikut, yaitu sensitifitas, kecepatan, selektifitas, dan keandalan 
+sistem proteksi bertujuan untuk mengidentifikasi gangguan dan memisahkan bagian yang terganggu dari bagian lain yang masih sehat sekaligus mengamankan bagian yang masih sehat dari kerusakaan atau kerugian yang lebih besar
+terjadwal pemeliharaan transformator adalah proses kegiatan yang dilakukan terhadap peralatan instalasi energi listrik sehingga dalam operasinya transformator dapat memenuhi fungsi yang dikehendaki secara terus menerus sesuai karakteristiknya
+listrik yang membawahi tujuh rayon, yakni rayon kota, jawi, siantan, kakap, mempawah, rasau, dan ngabang
+proses pelaporan pemeliharaan transformator pt pln area pontianak masih manual, sehingga diperlukan sebuah sistem yang dapat menginformasikan kondisi transformator secara cepat dan tepat
+penelitian ini mengusulkan sebuah sistem informasi perawatan transformator pt pln area pontianak
+sistem akan menyediakan informasi mengenai transformator dan lingkungan distribusinya, serta dilengkapi dengan sistem peringatan dini ketika transformator telah melewati batas normal sehingga dapat mempermudah petugas pt pln area pontianak untuk melakukan pemantauan dan pemeliharaan sesuai dengan kebutuhan transformator
+nita indrayani dan winda indah lukitasari merancang perangkat lunak berbasis web yang dapat diakses melalui smartphone, tablet dan komputer
+sistem ini mempermudah petugas lapangan dalam mengirimkan data hasil pemeliharaan melalui browser pada smartphone / tablet
+fira nathania, kodrat iman satoto, dan kurniawan teguh martono merancang sebuah sistem pencatatan trafo distribusi pln berbasis mobile device android yang dapat mencatat data lintang dan bujur serta spesifikasi trafo distribusi secara akurat
+titi fitriana m merancang sebuah sistem informasi berbasis desktop yang berfokus pada proses pencatatan data transformator, data pengukuran dan data pemeliharaan terkomputerisasi dimana sebelumnya telah dilakukan secara manual oleh petugas, sehingga dapat memaksimalkan pelayanan terhadap pelanggan
+riza agung firmansyah, titiek suheta dan dedi antoni mengembangkan sebuah alat monitoring arus dan tegangan yang terhubung dengan mikrokontroller atmega32 dan besaran beban akan ditampilkan pada layer lcd
+peneliti menyarankan untuk menggunakan sistem online monitoring dan menambah fitur yang dapat mempermudahkan operator dalam memantau kondisi transformator
+lia frisila dan chairul g irianto merancang sebuah prototipe real time monitoring yang memberi peringatan kelebihan beban pada transformator melalui pengiriman sms berbasis mikrokontroler
+dinna wahyu aliefyana, imron rosyidi, dan amaludin arifia mengembangkan aplikasi sistem pendukung keputusan prioritas perbaikan trafo menggunakan metode topsis berbasis web gis yang dapat menghitung prioritas perbaikan trafo listrik yang mengalami kerusakan
+harsen nimpa dan heru sutejo mengembangkan aplikasi berbasis android yang membantu petugas lapangan dalam memasukkan data pengukurang gardu distribusi pln rayon jayapura
+tujuan dari penelitian ini adalah membangun sistem infroamsi perawatan transformator pt pln area pontianak yang dapat memberikan peringatan dini dan mempermudah petugas dalam memantau transformator yang mengalami kelebihan beban dan beban tidak seimbang untuk mencegah dan mengurangi kerusakan transformator
+berikut: 1) objek penelitian dilakukan di pt pln area pontianak rayon kota penyulang cemara 9 dan rayon jawi penyulang merdeka 4
+2) fokus penelitian pada gangguan transformator distribusi akibat kelebihan beban dan beban tidak seimbang
+3) penelitian ini dirancang dengan simulasi pemodelan perangkat keras
+4) sistem informasi dibuat berbasis web dengan bahasa pemrograman php dan mysql
+metodologi penelitian pada masa sekarang atau masa lampau sesuai dengan kondisi sebenarnya
+dilakukan di pt pln area pontianak
+data yang dikumpulkan berupa data lokasi transformator distribusi, kapasitas daya terpasang, beban terpasang, tegangan transformator, penyulang area kota pontianak, dan laporan gangguan
+menurut parlindungan gultom, danial, dan managam rajagukguk, transformator akan mengalami penyusutan umur jika memiliki beban lebih dari 91% rating daya transformator tersebut
+beban tidak seimbang dan kelebihan beban merupakan gangguan yang sering dihadapi oleh transformator 3 fasa
+beban tidak seimbang disebutkan akan menyebabkan arus mengalir pada fasa netral dan perbedaan sudut beban per fasa menjadi tidak sama dengan 120
+hasil analisa data laporan dari pt pln area pontianak didapatkan persentase pembebanan transformator dinyatakan normal jika pembebanan < 80% dan kelebihan beban jika pembebanan  80%
+sedangkan persentase ketidakseimbangan dinyatakan seimbang jika < 25% dan tidak seimbang jika  25%
+sistem dirancang menggunakan bahasa pemodelan unified modelling language, bahasa pemrograman php, dan basis data mysql
+yaitu secara alpha dengan metode blackbox dan betha dengan kuisioner
+metode blackbox digunakan dalam memeriksa validitas dari integrasi dan konsistensi sistem dengan menggunakan teknik menguji sampel, dimana pengujian dilakukan pada proses input data
+sedangkan untuk pengujian secara betha menggunakan kuisioner yang dibagikan kepada responden dan dihitung nilai persentase masing-masing pertanyaan dan jawaban
+data yang telah disimpan, diproses dan dikategorikan oleh sistem menjadi sebuah laporan kepada pengguna
+semua data yang diterima dan dikeluarkan oleh sistem disimpan ke basis data mysql
+sistem dirancang menggunakan bahasa pemrograman php dan berbasis web
+pada level administrator yang terlihat pada gambar 2 berikut
+diagram alir pada level pengguna lainnya mengikuti diagram level administrator dengan perubahan pada pilihan menu yang tersedia
+level pengguna ditentukan pada proses validasi ketika pengguna melakukan login
+hasil dan analisis perancangan antarmuka sistem dibagi dalam 2 modul utama, yaitu modul autentifikasi dan modul administrator
+modul autentifikasi, terlihat pada gambar 3, berfungsi untuk memisahkan hak akses pengguna sistem, yakni administrator, operator, dan manager
+modul administrator merupakan modul utama yang akan menampilkan menu yang berbeda berdasarkan level pengguna seperti terlihat pada gambar 4 berikut
+4 antarmuka menu pada modul administrator : level administrator, level manager, level operator pada modul administrator terdapat menu dashboard yang menampilkan informasi mengenai kinerja sistem operasional secara sekilas dalam satu layar sehingga dapat dikontrol dengan cepat dan mudah oleh pengguna seperti terlihat pada gambar 5
+berdasarkan hasil pengumpulan data dan analisa kebutuhan, hasil analisa beban tidak seimbang ditampilkan dalam 3 level, yaitu beban seimbang, beban seimbang kritis, dan beban tidak seimbang 
+sementara, untuk hasil analisa kelebihan beban juga ditampilkan dalam 3 level, yaitu beban normal, beban kritis, dan beban lebih 
+selain itu, dashboard juga menampilkan grafik komposisi penyebab gangguan transformator pada setiap bulan dan grafik rasio kerusakan transformator pada setiap rayon
+pengguna seperti menambah, mengubah, atau menghapus data
+proses ini hanya dapat dilakukan pada modul administrator, dimana antarmuka menu ini dapat dilihat pada gambar 6
+menu manager penyulang digunakan untuk mengelola data penyulang yang telah terdaftar pada pt pln area pontianak seperti menambah, mengubah, atau menghapus data
+proses ini hanya dapat dilakukan pada modul administrator, dimana antarmuka menu ini dapat dilihat pada gambar 7
+7 antarmuka manager penyulang menu manager gardu digunakan untuk mengelola data gardu yang telah terdaftar pada pt pln area pontianak seperti menambah, mengubah, atau menghapus data
+proses ini dapat dilakukan pada modul administrator, dimana antarmuka menu ini dapat dilihat pada gambar 8
+8 antarmuka manager gardu menu manager transformator terdapat 2 sub- menu, yakni data transformator, analisa kelebihan beban, dan analisa beban tidak seimbang
+menu ini dapat diakses oleh seorang administrator dan operator
+data transformator yang digunakan untuk melihat histori data transformator yang telah terdaftar dan menambah data transformator baru, dimana antarmuka menu ini dapat dilihat pada pada gambar 9
+analisa kelebihan beban dan beban tidak seimbang akan menampilkan hasil analisa dari data transformator yang telah diinputkan pada sub- menu data transformator sebelumnya seperti terlihat pada gambar 10 dan gambar 11
+11 antarmuka analisa beban tidak seimbang menu laporan digunakan untuk mengakses data laporan gangguan transformator yang terbagi menjadi 3 tipe, yakni laporan harian seperti terlihat pada gambar 12, laporan bulanan seperti terlihat pada gambar 13, dan laporan tahunan seperti terlihat pada gambar 14
+menu ini dapat diakses oleh semua level pengguna
+analisis dan pengujian sistem 1) pengujian modul autentifikasi pada tabel 1, memperlihatkan hasil pengujian modul autentifikasi yang menunjukkan bahwa keamanan sistem telah teruji dimana hanya pengguna yang memiliki hak akses yang dapat mengakses sistem
+tabel i tabel hasil pengujian modul autentifikasi skenario halaman login
+berhasil 2) pengujian pengolahan data pada sistem pada tabel 2, memperlihatkan hasil pengujian pada proses pengolahan data yang menunjukkan bahwa sistem telah memiliki pengaman ketika pengguna memasukkan data dengan salah satu atau keseluruhan data kosong
+pengujian ini dilakukan pada setiap proses pengolahan data yang terjadi pada sistem
+3) pengujian proses konversi data pada tabel 3, memperlihatkan hasil pengujian proses konversi data yang dapat membantu pengguna dalam memindahkan data ke dalam format lain sesuai kebutuhan pengguna
+tabel iii skenario pada tabel 4, memperlihatkan hasil pengujian pada proses pemasukkan data transformator
+5) pengujian betha pada tabel 5, memperlihatkan hasil perhitungan kuisioner yang terdiri dari 8 pertanyaan yang mewakili tujuan dari penelitian ini
+tabel v tabel hasil perhitungan kuisioner no pertanyaan jawaban jumlah a
+tidak 0 0.00% memberitahukan status beban tidak untuk dipantau? beban tidak seimbang menganalisa beban digunakan dan dan memiliki format penulisan yang baik? akan membantu 16 responden dari pt pln area pontianak menyatakan bahwa dari 16 responden terdapat 93.75% yang setuju dan hanya 6.25% responden yang tidak setuju dengan penggunaan sistem ini
+dilakukan terhadap sistem informasi perawatan transformator yang telah dibangun adalah sebagai berikut : menampilkan status beban yang sama dengan hasil analisa perhitungan data transformator secara manual 2) hasil analisa transformator dapat ditampilkan pada menu laporan
+laporan terbagi menjadi laporan harian, bulanan, dan tahunan yang dapat di-copy, diubah ke dalam bentuk file, dan dicetak ke kertas
+3) sistem dapat menghasilkan analisa beban tidak seimbang dan kelebihan beban dengan akurat dan cepat berdasarkan data tegangan dan beban total dari transformator, sehingga dapat mempermudah petugas dalam memantau kondisi transformator
+berdasarkan hasil perancangan dan pengujian menunjukkan bahwa sistem yang dirancang dapat diterima dengan baik oleh petugas karena sistem dapat memberikan informasi dan peringatan dini mengenai transformator yang mengalami gangguan sehingga petugas dapat menangani gangguan lebih cepat dan akurat

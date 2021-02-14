@@ -1,0 +1,132 @@
+analisis clustering merupakan analisis yang sangat bermanfaat untuk proses deskripsi dan eksplorasi sekumpulan data
+dengan tidak tahunya informasi terhadap karakteristik data mahasiswa jalur prestasi universitas kristen duta wacana, maka akan sangat merugikan dalam pengambilan keputusan
+tujuan dari penelitian ini melihat karakteristik cluster masing-masing angkatan dari angkatan 2008 sampai dengan 2018
+dengan menggunakan analisis cluster, juga ingin diketahui kemiripan 10 angkatan mahasiswa jalur prestasi di fti ukdw
+untuk melihat cluster tiap angkatan mahasiswa fti ukdw digunakan metode k-means clustering
+sedangkan untuk menemukan kemiripan dari 10 angkatan mahasiswa fti ukdw digunakan hierarchial clustering
+dari hasil penelitian didapat fakta bahwa sebagai berikut: dengan menggunakan k-means clustering untuk pengelompokkan menjadi dua cluster, maka diperoleh bahwa cluster yang mempunyai kecenderungan ip semester 1 tinggi mempunyai karakteristik: status sma swasta, lokasi sma di jawa, kategori sma umum, level bahasa inggris level 3, sedangkan cluster yang mempunyai kecenderungan ips1 rendah mempunyai karakteristik: status sma swasta, lokasi sma luar jawa, kategori sma umum, level bahasa inggris level 2
+apabila dilihat hasil pengelompokan tiap angkatan berdasarkan cluster yang terbentuk pada dendrogram hierarchical clustering, maka angkatan 2015 mempunyai kemiripan cluster yang paling berbeda dibandingkan dengan angkatan yang lainnya
+pendahuluan yaitu tahap awal perkuliahan, tahap pertengahan perkuliahan dan tahap akhir pekuliahan
+tahap awal perkuliahan sering disebut sebagai tahap adaptasi, tahap pertengahan merupakan tahap dimana mahasiswa sudah mulai terbiasa dengan cara belajar di perguruan tinggi dan pada tahap ini mahasiswa mulai menentukan bidang minat yang lebih spesifik melalui matakuliah yang telah diambilnya
+pada tahap akhir perkuliahan, mahasiswa mulai memikirkan hubungan antara pendidikan dan dunia kerja yang akan diambilnya
+dengan masa awal perkuliahan di perguruan tinggi khususnya di ukdw, sebab hal tersebut merupakan masa peralihan dari sekolah menengah atas menuju pergurunan tinggi
+penelitian ini menggunakan metode analisis clustering
+analisis clustering merupakan analisis deskripsi dalam data mining dan selanjutnya kemudian akan dilakukan eksplorasi terhadap pola-pola yang ditemukan
+data yang digunakan untuk analisis clustering berasal dari data mahasiswa angkatan 2008 sampai dengan angkatan 2018
+untuk membatasi permasalahan data tersebut hanya mencakup beberapa faktor, yaitu data kategori sma, status sma, lokasi sma, indeks prestasi semester 1 serta data level kemampuan bahasa inggris untuk setiap mahasiswa
+analisis clustering merupakan analisis yang penting dan banyak penelitian yang menggunakan analisis clustering
+analisis clustering dapat digunakan untuk beberapa tujuan tertentu, seperti misalnya pada beberapa penelitian agustin w
+& erlin yang mengimplementasikan metode k-means clustering untuk membantu dalam memilih metode atau strategi promosi pada penerimaan mahasiswa baru
+strategi atau metode penerimaannya misalnya menggunakan media online, spanduk, map yang berisi brosur dan komunikasi lisan dengan adanya peran secara aktif dari mahasiswa dan para alumni
+hasil yang diperoleh adalah dapat dilihatnya strategi promosi mana yang lebih tepat dan terencana sebagai dukungan untuk bagian promosi dalam menggunakan strategi promosi yang efektif dan efisien
+menerapkan metode k-means clustering dengan menggunakan sampel data sebanyak 440
+penentuan beberapa nilai k diuji coba dan hasilnya adalah untuk k=2 cluster mempunyai nilai dbi = 0, 243, untuk k=3 cluster mempunyai nilai dbi = 0, 256, untuk k=4 cluster mempunyai nilai dbi = 0, 275
+nilai yang yang terbaik dari beberapa nilai tersebut adalah untuk k=2 karena nilai tersebut mendekati 0
+penelitian ini menggunakan k-means clustering dan berhasil mengelompokan data barang yang terjual menjadi dua jenis kelompok data, yaitu data penjualan dengan frekuensi rendah dan data penjualan dengan frekuensi tinggi
+dengan adanya klasifikasi ini swalayan fadhila dapat mengetahui jenis barang yang laris terjual dan tidak laris terjual informasi dua kelompok barang ini sangat bermanfaat bagi perusahaan
+sehingga perusahaan dapat mempertimbangkan barang yang akan dibeli supaya tidak ada penumpukan barang yang ada di gudang
+metode yang diterapkan dalam data mining ini adalah k-means clustering
+sedangkan dataset yang digunakan dalam clustering ini adalah data prestasi siswa
+prestasi siswa yang diteliti mempunyai beberapa atribut yaitu nama, ekstrakurikuler, nilai pengetahuan
+sedangkan nilai pengetahuan mencakup nilai sikap, nilai keterampilan, dan presensi kehadiran siswa
+sampel datanya adalah 173 siswa dengan digunakan berbagai macam jenis perhitungan jarak, yaitu chebychep distance, manhattan distance, dan euclidean distance
+penelitian ini berhasil mengelompokkan siswa smp negeri i sukahening berdasarkan prestasinya, yaitu cluster dengan prestasi, dan 
+melakukan penelitian clustering dengan weka interface
+tujuan penelitian ini melakukan pengelompokan data siswa menjadi 4 cluster
+atribut yang digunakan pada dataset adalah nim mahasiswa, nilai algoritma dam pemrograman 1, nilai fisika dasar, nilai kalkulus 1dan ipk dengan adanya cluster-cluster tersebut dapat memberikan rekomendasi siswa terbaik dari cluster yang sudah terbentuk
+cluster dengan anggota siswa yang terbaik dapat digunakan untuk memilih mahasiswa untuk mewakili kompetisi yang diadakan oleh indonesia security incident response team on internet infrastructure dari kementrian komunikasi dan informatika ri
+mengadakan penelitian yang berhubungan dengan segmentasi pelanggan dengan metode k-means clustering
+tujuan dari penelitian ini adalah memberikan layanan pada pelanggan sesuai dengan target dan mengembangkan pemasaran yang sesuai untuk pelanggan
+atribut yang digunakan adalah rata-rata barang yang dibeli oleh pelanggan setiap bulannya dan rata-rata kunjungan pelanggan perbulan
+hasil dari penelitian ini diperoleh 4 cluster dengan akurasi 95%
+empat cluster tersebut adalah hbrv, hbiv, lbrv(low-buyers-regular- means clustering pada beberapa dataset untuk menemukan pola pengelompokan yang ada, tetapi pada penelitian ini selain digunakan k-means clustering pada setiap angkatan juga dilengkapi dengan hieararchial clustering untuk melihat pengelompokan pada tiap waktu yang berbeda
+berdasarkan penelitian-penelitian yang telah dilakukan, maka tujuan penelitian yang akan dicapai ada dua
+yang pertama, melihat dan mendapatkan pola cluster berdasarkan centroid pada tiap angkatan dari angkatan 2008 sampai dengan 2018
+sedangkan yang kedua adalah melihat kemiripan tiap angkatan berdasarkan pembentukan centroidnya
+berdasarkan penelitian yang telah dibuat tersebut, ingin melakukan penerapan dua macam jenis metode clustering yang berbeda
+kedua metode tersebut tidak dapat dibandingkan mana yang lebih baik, tapi kedua metode tersebut akan saling melengkapi dalam menemukan pola suatu kumpulan data
+manfaat dari penelitian ini adalah melihat karakteristik cluster mahasiwa dengan ip semester yang sehingga bisa menjadi bahan pertimbangan bagi penerimaan mahasiswa baru
+penelitian ini merupakan kelanjutan dari penelitiandan
+bersamaan, dataset akan dipecah secara lengkap ke dalam beberapa cluster
+dengan kata lain proses clustering mengandung beberapa hal, yaitu:  mengelompokkan data objek hanya berdasarkan informasi yang ditemukan dalam data yang menggambarkan objek–objek ini dan hubungan di dalamnya
+atau dengan kata lain meminimalkan kesamaan antara objek dalam kelompok cluster yang berbeda
+ memaksimalkan kesamaan di dalam objek yang berada pada cluster yang sama  memaksimalkan perbedaan antara objek dalam kelompok cluster yang berbeda gambar
+clustering praktis .metode ini sudah diterapkan di banyak bidang ilmu lain, seperti kecerdasan buatan dan pengenalan pola, chemometric, ekologi, ekonomi, geosciences, pemasaran, penelitian medis, ilmu politik, psikometri, dan banyak lagi
+saat ini telah muncul berbagai metode clustering dari yang sederhana sampai dengan yang rumit, seperti misalnya partitioning around medoids, clustering large applications, clustering dengan fuzzy analysis, agglomerative nesting dan lain sebagainya
+clustering dikenal dengan berbagai nama, yaitu taksonomi numerik atau klasifikasi data otomatis
+mewakili karakteristik dan digunakan untuk membandingkan objek-objek dalam analisis cluster
+analisis cluster adalah salah satu teknik dalam statistik multivariate yang tidak mempertimbangkan variasinya secara empiris tetapi analisis ini menggunakan variate seperti yang diinginkan peneliti
+jadi bukan pada estimasi nilai variate itu
+selain itu, analisis cluster akan selalu membuat cluster terlepas dari "keberadaan sebenarnya dari setiap struktur dalam data”
+kesesuaian adanya cluster-cluster sangat tergantung pada variabel atau faktor yang digunakan sebagai acuan untuk ukuran kesamaan atau kemiripan
+analisis cluster biasanya dibagi menjadi dua metode besar, yaitu [11, 12]:  flat cluster atau partitional clustering partisi dalam metode ini tidak ada ketergantungan satu sama lain
+sebagai contohnya: k-means clustering, gaussian mixture model
+pohon serta tidak perlu jumlah cluster sebagai input
+sebagai contohnya: agglomerative clustering, devisive untuk mewakili pc dan agglomerative hierarchical clustering yang didasarkan pada dendrogram untuk mewakili hc
+metode k-means clustering mempunyai bentuk algoritma sebagai berikut: cluster yaitu k beberapa pilihan untuk initialization, yaitu: a) memilih secara random sesuatu anggota dalam rd b) memilih sembarang k dari dataset sebagai centroid cluster  iterate: o assign tiap-tiap xn ke dalam centroid cluster yang terdekat ‖𝑥𝑛 − 𝜇𝑘‖ 2}, dimana dekat dengan μk) 𝜇𝑘 = 1 |𝐶𝑘| ∑ 𝑥𝑛𝑛𝜖𝐶𝑘  repeat bila belum konvergen kriteria yang mungkin untuk konvergen adalah centroid cluster tidak berubah lagi
+bisa juga dari kiri ke kanan
+memiliki urutan yang telah ditentukan dari atas ke bawah 
+sebagai contoh: semua file dan folder pada hard disk diatur dalam susunan hierarki
+ada dua jenis hierarchical clustering, yaitu agglomerative clustering dan devisive clustering
+hierarchical clustering biasanya menggunakan bantuan tree yang disebut dengan dendogram untuk membuat visualisasi clusternya
+up, setiap observasi dipetakan menjadi clusternya sendiri
+lalu, hitung kesamaan antara masing-masing cluster dan gabungkan dua cluster yang jaraknya paling dekat
+akhirnya, ulangi langkah 2 dan 3 sampai hanya ada satu cluster yang tersisa
+algoritma untuk agglomerative dapat dilihat pada bagian dibawah ini: fungsi jarak dist ci = {xi} c.size = i while c
+untuk mengukur jarak masing-masing cluster dapat digunakan single linkage, complete linkage atau average linkage
+dalam hal ini hanya akan digunakan rumus average linkage
+dalam hierarchical clustering hubungan jarak antara dua cluster didefinisikan sebagai rata-rata jarak antara setiap titik dalam satu cluster ke setiap titik dalam cluster lainnya
+misalnya, jarak antara cluster dan sama dengan rata-rata jarak setiap jarak yang menghubungkan titik-titik objek dari cluster r ke cluster s
+persamaan dari average linkage dapat dilihat pada persamaan 2
+𝐿 = 1 ns dan nr adalah masing-masing banyak anggota cluster dan cluster 
+hierarchical clustering merepresentasikan similaritas satu cluster ke semua objek di dalam cluster yang lain
+pendekatan ini cenderung akan dapat menggabungkan cluster dengan varians kecil
+3 skema average linkage tahapan penelitian yang dilakukan pada penelitian ini adalah sebagai berikut : 1
+peneliti mengolah dataset dari data mahasiswa fakultas teknologi informasi ukdw yang berasal dari puspindika
+data mahasiswa yang digunakan untuk penelitian ini adalah data mahasiswa selama 11 tahun akademik, yaitu mahasiswa angkatan 2008 sampai dengan angkatan 2018
+data dari puspindika ini mencakup data indeks prestasi semester 1 dari mahasiswa fti, status sma, kategori sma dan lokasi sma
+kemudian peneliti juga akan mengambil data level kemampuan bahasa inggris dari setiap siswa fti ukdw dari puspindika 
+mengintegrasikan data status sma, lokasi sma, kategori sma dan indeks prestasi semester 1 dengan data level kemampuan bahasa inggris untuk setiap siswa berdasarkan nim mereka
+ jawa menjadi “1” dan luar jawa menjadi “2”
+ bhs inggris level 1 menjadi “1”, bhs inggris level 2 menjadi “2”, bhs inggris level 3 menjadi “3” dan esp menjadi “4” 
+membuat transformasi dari data tipe string menjadi tipe numerik data kategori sma, status sma, lokasi sma dan level bahasa inggris 
+memilah data mahasiswa fti yang hanya melalui jalur prestasi saja, karena di ukdw proses penerimaan calon mahasiswa ada dua macam yaitu jalur prestasi dan non jalur prestasi 
+jalur njp ini yang biasa disebut jalur reguler
+pada jalur prestasi tidak mengikuti tes kemampuan akademik 
+tes tka ini mencakup tes kemampuan numerik, verbal, spasial dan analogi sedangkan pada non jalur prestasi harus mengikuti empat tes kemampuan akademik tersebut
+kemudian setelah proses cleaning, maka data dalam setiap angkatan tersebut dikelompokkan dengan metode k-means clustering dengan k=2 dan k=3
+pengelompokan dengan k-means clustering tersebut dengan menggunakan 5 variabel, sebagai berikut: a
+hasil dan pembahasan 2018 dengan metode k-means clustering dan hierarchical agglomerative clustering akan dibahas pada bagian- bagian selanjutnya
+hasil komputasi k-means clustering untuk k=2 dapat dilihat pada tabel 2
+diagram boxplot sering juga disebut dengan diagram box dan whiskers
+boxplot adalah diagram yang menunjukkan pusat, penyebaran dan kemencengan sekumpulan data
+untuk menggambarkan diagram box dan whiskers dibutuhkan kuartil 1, median atau kuartil 2, kuartil 3, nilai data tertinggi dan nilai data terendah di antara pagar dalam bawah dan pagar dalam atas 
+data pengamatan yang berada di luar pdb dan pda disebut outlier atau pencilan
+pencilan ini dapat diklasifikasikan menjadi dua macam, yaitu outlier mild dan outlier ekstrim
+untuk melakukannya, kita mendefinisikan dua pagar luar, yaitu pagar luar bawah yang posisinya 3, 0 iqr di bawah kuartil pertama dan pagar luar atas yang posisinya 3, 0 iqr di atas kuartil ketiga
+jika data pengamatan berada di luar salah satu dari dua pagar dalam tetapi di dalam salah satu dari dua pagar luar, maka data itu akan disebut dengan outlier mild
+sedangkan data pengamatan yang berada di luar salah satu dari dua pagar luar disebut outlier ekstrim
+diagram boxplot untuk k=2 dapat dilihat pada gambar 4
+apabila seluruh gambaran visual itu diringkas, maka dapat dilihat pada tabel 4
+gambar diagram boxplot untuk k=3 dapat dilihat pada gambar 5
+apabila seluruh gambaran visual itu diringkas, maka dapat dilihat pada tabel v
+angkatan 2018 clustering dengan k=3 untuk angkatan 2008 sampai dengan angkatan 2018
+apabila seluruh gambaran visual itu diringkas, maka dapat dilihat pada tabel v
+hasil dari metode hierarchical agglomerative clustering dengan menggunakan 30 variabel, dapat dilihat seperti pada pohon diagram dendogram pada gambar 6
+pembahasan kumpulan data yang diwakili oleh centroid clusternya
+dengan menggunakan k-means clustering terlihat beberapa hal yang berhubungan centroid cluster-clusternya
+dari tabel ii, untuk k-means clustering dengan k=2, didapat fakta bahwa:  cluster 1 adalah cluster yang mempunyai ciri rata- rata ip semester 1 yang tinggi, kecuali pada proses clustering angkatan 2009 ada penyimpangan karena datanya sedikit, yaitu hanya 11 mahasiswa
+cluster 1 juga mempunyai kecenderungan x1 = 2, x2 =1, x3 = 1, x4 = 3
+ cluster 2 adalah cluster yang mempunyai ciri rata- rata ip semester 1 yang rendah, kecuali pada proses clustering angkatan 2009 ada penyimpangan karena datanya sedikit, yaitu hanya 11 mahasiswa
+cluster 2 juga mempunyai kecenderungan x1 = 2, x2 =2, x3 = 1, x4 = 2
+didapat fakta bahwa:  cluster 1 adalah cluster yang mempunyai ciri rata- rata ip semester 1 yang tinggi 
+cluster 1 juga mempunyai kecenderungan x1 = 2, x2 =1, x3 = 1, x4 = 3
+ cluster 2 adalah cluster yang mempunyai ciri rata- rata ip semester 1 yang sedang, kecuali pada proses clustering angkatan 2009 ada penyimpangan karena datanya sedikit, yaitu hanya 11 mahasiswa
+cluster 2 juga mempunyai kecenderungan x1 = 2, x2 =1, x3 = 1, x4 = 2
+ cluster 3 adalah cluster yang mempunyai ciri rata- rata ip semester 1 yang rendah 
+cluster 2 juga mempunyai kecenderungan x1 = 2, x2 =2, x3 = 1, x4 = 2
+ k-means clustering membutuhkan jumlah cluster yang harus ditentukan pada awalnya sedangkan hierarchical clustering tidak membutuhkan jumlah cluster yang ditentukan
+swasta, lokasi sma di jawa, kategori sma umum, level bahasa inggris 3, sedangkan cluster yang mempunyai kecenderungan ip semester 1 rendah mempunyai karakteristik : status sma swasta, lokasi sma luar jawa, kategori sma umum, level bahasa inggris 2
+hasil berikutnya adalah k-means clustering dengan k=2 menghasilkan pengelompokan pada angkatan 2009, 2010 dan 2014 yang terbaik di antara angkatan yang lain, karena masing-masing cluster dalam tiga angkatan itu tidak mempunyai outlier, sedangkan k-means clustering dengan k=3 menghasilkan pengelompokan pada angkatan 2008, 2009, 2016 dan 2017 yang terbaik karena masing- masing cluster dalam empat angkatan itu tidak mempunyai outlier
+yang terbentuk pada dendrogram, maka angkatan 2008 sampai dengan angkatan 2014 dan angkatan 2016 sampai dengan angkatan 2018 berada dalam satu cluster dan mereka lebih mempunyai kemiripan dibandingkan dengan angkatan 2015 karena angkatan 2015 mempunyai cluster dengan ip semester 1 dengan kategori yang paling banyak yaitu 111 orang
+ucapan terima kasih / acknowledgment universitas kristen duta wacana yogyakarta sehingga penelitian ini dapat berjalan dengan lancar

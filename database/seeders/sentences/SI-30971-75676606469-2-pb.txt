@@ -1,0 +1,148 @@
+distribusi informasi merupakan penyebaran pesan berisi fakta yang didalamnya bisa berupa audio, gambar, text, maupun visual sehingga menimbulkan penjelasan yang benar dan jelas serta dapat dipertanggung jawabkan kebenarannya
+informasi yang valid adalah hasil data-data yang telah diolah secara akurat kemudian disebar oleh media, salah satunya adalah televisi
+ruai tv merupakan salah satu media pertelevisian swasta yang berada di kalimantan barat
+sebagian besar acara ruai tv adalah program news
+dalam penayangan pemberitaan memerlukan proses redaksi
+khususnya pemberitaan daerah hingga siap ditayangkan membutuhkan biro dalam pendistribusian berita
+berita ini berisi data mentah seperti video dan naskah, yang merupakan data-data yang akan di olah untuk menjadi sebuah informasi
+saat ini distribusinya masih menggunakan email, serta dalam mengkomunikasikan beritanya masih menggunakan telepon dan messenger
+oleh sebab itu, aplikasi pendistribusian bahan berita sangat diperlukan untuk mendukung informasi pemberitaan sehingga berita yang akan disajikan lebih siap disiarkan
+aplikasi ini menerapkan socket i.o dan framework codeigniter
+metode pengujian yang dilakukan yaitu dengan menggunakan pengujian blackbox robustness testing untuk pengujian aplikasi
+berdasarkan pengujian validity dengan 12 responden dan 15 pertanyaan didapatkan hasil kuesioner yang valid, kemudian untuk reliabilitasnya sebesar 0, 8
+pada pengujian user aceptance test memiliki nilai skor berjumlah 738 maka dapat disimpulkan sistem aplikasi ini berhasil pada tingkat penerimaan pengguna
+pendahuluan penyebaran informasi merupakan penyebaran pesan berisi fakta yang didalamnya bisa berupa audio, gambar, text, maupun visual sehingga menimbulkan penjelasan yang benar dan jelas serta dapat dipertanggung jawabkan kebenarannya
+dalam dunia broadcasting terutama pada penyebaran berita tentu memerlukan strategi untuk pendistribusian berita agar pesan tersebut dapat cepat sampai kepada yang menerima informasi
+adanya teknologi informasi dan komunikasi inilah yang membantu penyebaran informasi lebih maksimal salah satu wadah paling berperan dalam pendistribusian berita saat ini adalah internet ruai tv merupakan salah satu media pertelevisian swasta yang berada di kalimantan barat
+28 oktober no 25-26, siantan hulu, pontianak, kalimantan barat
+sebagian besar acara ruai tv adalah program news
+ruai tv selalu menyuguhkan berita yang update dari berbagai daerah hingga pelosok yang ada di kalimantan
+program televisi yang mengutamakan keakuratan sebuah informasi/ berita salah satunya adalah program berita
+praktik speed untuk menyajikan berita lebih awal kepada pemirsa menuntut percepatan dalam proses produksi berita, mulai dari mendapatkan informasi awal, proses liputan untuk mendapatkan data dan fakta dalam bentuk material audio visual, proses koordinasi antar di news room untuk melakukan verifikasi, proses editing audio visual, hingga proses penyampaian berita dengan memanfaatkan beragam sarana teknologi
+penayangan berita-berita daerah ruai tv memerlukan proses redaksi
+khususnya pemberitaan daerah hingga siap ditayangkan membutuhkan biro dalam pendistribusian berita
+berita ini berisi data mentah seperti video dan naskah, yang merupakan data-data yang akan di olah untuk menjadi sebuah informasi
+distribusinya masih menggunakan email, serta dalam mengkomunikasikan beritanya masih menggunakan telepon dan messengers, kemudian belum memiliki penyimpanan khusus terkait kiriman pemberitaan
+oleh sebab itu, diperlukan sebuah aplikasi news delivery berbasis web yang akan dirancang dengan framework codeigniter dan socket i.o, sehingga berita yang akan di sajikan lebih siap disiarkan
+aplikasi ini terdapat fitur kategori berita dengan mencatumkan format pemberitaannya
+aplikasi ini juga yang sekaligus menjadi media penyimpanan, jika sewaktu-waktu informasi berita ini di butuhkan
+informasi seperti data penayangan maupun bahan berita yang akan di olah kembali untuk kebutuhan siaran dapat dengan mudah diketahui dan diambil kembali melalui fitur searching
+fitur ini menjadi sangat penting mengingat karena tidak semua biro/ kontributor menggunakan gadget dan smartphone
+kemudian rendahnya koneksi internet di daerah, sehingga tidak memungkinkan aplikasi messenger dengan koneksi yang besar serta lebih mudah mengaksesnya karena masih dalam satu lingkungan aplikasi
+maka chating pada aplikasi ini menjadi bagian penting untuk menjadi pendukung komunikasi antara biro dan admin terkait pengiriman pemberitaan
+implementasi mms untuk peliputan berita berbasis web
+penelitian terkait penelitian tentang aplikasi pengiriman informasi bukanlah hal yang baru dilakukan, adapun penelitian sejenis yang pernah dilakukan oleh pamungkas melakukan penelitian yang berjudul aplikasi ini memanfaatkan ponsel berfasilitas mms dan kamera untuk melakukan pengiriman berita dimanapun oleh peliput berita
+pembuatan aplikasi ini menggunakan php sebagai kode programnya, mysql sebagai basis datanya, email account dan web hosting untuk menempatkan file-file web agar bisa berjalan secara online
+namun pengiriman berita mms terbatas pada gambar dan teks
+sistem ini hanya menggunakan operator gsm saja
+rancang bangun aplikasi chatting berbasis web menggunakan docker
+adinta melakukan penelitian dengan judul 
+aplikasi ini dapat dibuka jika computer user terhubung dengan internet jika server yang satu sedang down dan ingin memindahkan aplikasi kita ke server yang lain dengan docker akan menjadi lebih mudah
+aplikasi chatting dalam penelitian ini dapat mengirim pesan teks, gambar, pesan suara maupun video call berbasis web
+dalam melakukan konfigurasi dalam melakukan implementasi teknologi docker pada cloud computing ini masih menggunakan cli
+pembangunan aplikasi text chatting dan video chatting berbasis web
+sutanto melakukan penelitian dengan judul 
+aplikasi chating dengan video chatting yang bernama 
+aplikasi ini dibangun dengan framework codeigniter, di atas platform tokbox dengan bahasa pemrograman php versi 5.3.1 dan database menggunakan mysql
+pemilihan php sebagai bahasa pemrograman adalah karena sifatnya yang open source, sehingga untuk membangun sebuah aplikasi dengan menggunakan bahasa pemrograman ini tidak membutuhkan biaya ataupun ijin yang merepotkan
+pada penelitian ini, aplikasi yang di bangun dengan framework codeigniter dan mengimplementasikan socket i.o, dengan bahasa pemrograman php dan database menggunakan mysql
+dalam aplikasi ini peneliti menggunakan metode waterfall
+pemilihan socket i.o pada aplikasi news delivery agar proses komunikasi antar client dan server dapat berlangsung secara realtime
+dengan adanya codeigniter pada aplikasi ini biro-biro berita yang ada di daerah dapat mengirimkan hasil data yang di peroleh kepada admin
+data yang dikirim bisa berupa teks, dan video
+berita berita adalah laporan tentang peristiwa–peristiwa yang terjadi yang ingin diketahui oleh umum, dengan sifat, terjadi di lingkungan pembaca, mengenai tokoh terkemuka, akibat peristiwa tersebut berpengaruh terhadap pembaca
+menurutnya berita merupakan kejadian yang memiliki pengaruh berbagai kalangan hingga penting diketahui
+selain itu berita menjadikan para pembaca mengetahui peristiwa apa yang sedang terjadi di sekitar lingkungan mereka
+berita bisa sebuah laporan atau pemberitahuan mengenai terjadinya sebuah peristiwa atau keadaan yang bersifat umum dan baru saja terjadi dan disampaikan oleh wartawan di media massa
+sementara laporan tercepat mengenai fakta terbaru yang benar, menarik dan penting bagi sebagian besar khalayak, melalui media berkala seperti surat kabar, radio, paragrap, atau media internet
+penyiar berita yaitu orang yang menyiarkan program berita radio/ tv sekaligus berperan sebagai reporter/ jurnalis/ wartawan dan ikut dalam peliputan berita atau produksi berita
+ia aktif ikut serta dalam membuat naskah berita yang akan dibacakannya
+sebagai reporter aktif, yang juga berperan dalam proses pembuatan naskah berita
+sebelum era televisi, siaran berita radio sering mencampurkan antara berita dengan opini di mana masing-masing presenter memiliki gaya yang berbeda-beda
+presenter juga disebut sebagai orang yang bertanggung jawab dalam memandu program siaran
+framework menurut jhonson, framework adalah desain yang reuseable dan biasanya dinyatakan sebagai satu set abstraksi class yang mengatur bagaimana class saling terhubung
+perancangan pada framework dibuat sedemikian rupa sehingga sebagian atau seluruh software dapat digunakan kembali
+hal ini bisa dikatakan software untuk memudahkan para programer untuk membuat sebuah aplikasi web yang di dalamnya ada berbagai fungsi diantaranya plugin, dan konsep untuk membentuk suatu sistem tertentu agar tersusun dan tersetruktur dengan rapi.menurut siena, framework merupakan suatu library yang telah diorganisasikan pada sebuah rancangan arsitektur untuk memberikan kecepatan, ketepatan, kemudahan, dan konsisten dalam pengembangan suatu aplikasi
+framework codeigniter codeigniter adalah framework pengembangan aplikasi dengan menggunakan php, suatu kerangka pembuatan program dengan menggunakan php
+pengembang dapat langsung menghasilkan program dengan cepat, dengan mengikuti kerangka kerja
+untuk membuat yang telah disiapkan oleh framework ci
+socket i.o socket adalah salah satu titik akhir dari link komunikasi dua arah antara dua program atau lebih yang berjalan pada jaringan dan terikat pada nomor port tertentu
+port adalah sebuah koneksi logical untuk sebuah komputer yang diidentifikasi dengan sebuah angka yang berada dalam rentang 1-65535 
+socket menyediakan sebuah interface untuk pemrograman jaringan yang berada pada transport layer
+komunikasi jaringan menggunakan socket berkaitan erat dengan pemrograman i/o
+itu artinya, sebuah socket yang dibangun dalam bahasa java dapat berkomunikasi dengan socket program non-java
+socketio juga disebut sebuah library java script yang membantu dalam pembuatan aplikasi web yang realtime lebih mudah, dengan menggunakan socketio kita dapat menghubungkan antara client dan server dapat terjadi secara bidirectional 
+maksudnya yaitu kita dapat menghubungkan client dan server sehingga dapat berperan sebagai pengirim dan sekaligus penerima data
+website website merupakan fasilitas internet, dimana mengkaitkan dokumen di lingkup lokal maupun jarak jauh
+dokumen tersebut disebut dengan web page dan link website memungkinkan pengguna bisa berpindah page, baik diantara page yang disimpan server yang sama maupun server diseluruh dunia
+browser yang digunakan untuk mengakses dan membaca pages diantaranya netscape navigator, google chrome, internet explorer, mozila firefox, dan lain sebagainya
+unified modelling language unified modelling language adalah bahasa pemodelan untuk sistem atau perangkat lunak yang berparadigma 
+pemodelan sesungguhnya digunakan untuk penyederhanaan permasalahan-permasalahan yang kompleks sedemikian rupa sehingga lebih mudah dipelajari dan dipahami
+uml juga menggunakan class dan operation dalam konsep dasarnya, maka ia lebih cocok untuk penulisan piranti lunak dalam bahasabahasa berorientasi objek seperti c++, java, c# atau vb.net walaupun demikian, uml tetap dapat digunakan untuk modeling aplikasi prosedural dalam vb atau c
+kuesioner bahwa kuesioner adalah suatu teknik pengumpulan data yang dilakukan dengan cara memberi seperangkat pertanyaan atau pernyataan tertulis yang sudah dirumuskan sebelumnya kepada responden untuk dijawab
+uji validitas judul hasil penelitian dikatakan valid apabila terdapat kesamaan antara data yang terkumpul dengan data yang sesungguhnya terjadi pada obyek yang diteliti
+validitas menunjukkan sejauh mana skor/nilai/ukuran yang diperoleh benar-benar menyatakan hasil pengukuran/pengamatan yang ingin diukur
+validitas dibagi menjadi tiga, yaitu content validity, construct validity, dan criterion-related validity 
+uji validitas dan realibilitas digunakan untuk menguji data yang berasal dari daftar pertanyaan atau kuesioner responden, validitas dan reliabilitas dapat membuktikan bahwa daftar pertanyaan dalam kuesioner yang diisi oleh responden sudah mewakili populasi atau belum
+pengujian validitas yang akan dilakukan yaitu pengujian dua arah 
+hal ini dikarenakan hasil yang belum diketahui arahnya yakni positif atau negatif
+pengujian ini juga digunakan untuk peneliti yang tidak memiliki informasi mengenai arah kecendrungan dari karakterisitik populasi yang sedang diamati
+oleh karena itu, perhitungan rtabel sebagai berikut
+ reliabilitas merupakan indeks yang menunjukkan sejauh mana suatu alat pengukur dapat dipercaya atau dapat diandalkan
+uji reliabilitas digunakan untuk mengetahui konsistensi alat ukur, apakah alat pengukur yang digunakan dapat diandalkan dan tetap konsisten jika pengukuran tersebut diulang
+perhitungan reliabilitas hanya bisa dilakukan jika kuisioner tersebut sudah valid
+dengan demikian harus menghitung validitas dahulu sebelum menghitung reliabilitas, jadi jika tidak memenuhi syarat uji validitas maka tidak perlu diteruskan untuk uji reliabilitas
+reliabilitas kurang dari 0, 6 adalah kurang baik, sedangkan 0, 7 dapat diterima dan di atas 0, 8 adalah baik
+arsitektur sistem berikut ini merupakan rancangan arsitektur sistem apliksi news delivery ruai tv ini dapat dilihat pada gambar 2 dan dapat dijelaskan sebagai berikut
+mysql database welcoming socket editor/ admin biro 1 biro 2 biro 3 client socket client socket client socket gambar
+use case diagram use case diagram menggambarkan interaksi antar satu atau lebih aktor terhadap sistem
+gambar 3 merupakan usecase diagram yang dibangun
+class diagram class diagram aplikasi dapat dilihat pada gambar 4 berikut
+pertanyaan dinyatakan valid jika nilai korelasi pearson lebih besar dari nilai rtabel, dan jika sebaliknya maka pertanyaan dinyatakan tidak valid
+penelitian ini menggunakan aplikasi excel untuk menghitung nilai korelasi pearson dari setiap butir kuesioner terhadap total skor
+nilai rtabel didapatkan didapatkan dengan menggunakan rumus, dimana nilai error yang digunakan adalah 0, 05 dan derajat bebas/degree of freedom didapatkan sebesar 10 dengan menggunakan rumus ssebagai berikut
+df = n – k = 12 - 2 = 10 nilai k pada perhitungan diatas bernilai 2 dikarenakan pada pengujian validitas ini, butir kuesioner hanya dibandingkan terhadap 1 variabel yaitu total skor
+nilai ttabel didapatkan dengan menggunakan fungsi excel dengan menuliskan sintaks [=tinv ]
+berikut dibawah ini adalah perhitungan untuk mendapatkan nilai rtabel
+hasil dari pengujian validitas kuesioner dirangkum dalam sebuah tabel seperti tabel 1
+tabel i perancangan hasil pengujian validitas kuisioner korelasi antara
+pengujian reliabilitas kuesioner pengujian reliabilitas kuesioner ini menggunakan metode cronbach’s alpha untuk mengukur kestabilan dan konsistensi responden dalam menjawab pertanyaan
+uji reliabilitas dilakukan secara bersama-sama terhadap seluruh butir pertanyaan
+perhitungan nilai reliabilitas pada penelitian ini menggunakan aplikasi excel
+hasil dari pengujian reliabilitas kuesioner dirangkum dalam sebuah tabel seperti tabel 2
+tabel ii perancangan hasil pengujian reliabilitas kuesioner banyak pertanyaan nilai cronbach’s alpha iv
+hasil dan analisis pada awal bab ini akan dijelaskan bagaimana hasil perancangan aplikasi news delivery ruai tv berbasis web yang telah selesai dibuat dapat diimplementasikan
+implementasi pada aplikasi ini dapat dilakukan dengan melihat spesifikasi kebutuhan aplikasi, memberi petunjuk cara mengakses aplikasi
+sehingga memudahkan pihak yang menggunakan aplikasi ini dalam mengimplementasikan dan menggunakannya
+setelah itu semua kemudian akan diterangkan bagaimana hasil dari pengujian aplikasi
+pengujian dilakukan dengan cara melihat reaksi sistem terhadap input yang diberikan
+pengujian penerimaan pengguna terhadap sistem dilakukan dengan user acceptance test melalui kuesioner yang berisikan pertanyaan-pertanyaan yang berkaitan dengan sistem yang dirancang
+tampilan halaman login dapat dilihat pada gambar 5, tampilan halaman berita dapat dilihat pada gambar 6 dan tampilan halaman pesan dapat dilihat pada gambar 7
+hasil pengujian black box pengujian ini berfokus pada spesifikasi fungsional dari software
+pengujian ini perlu dilakukan untuk melihat respon yang diberikan oleh sistem saat melakukan input data
+hasil pengujian tambah data berita dapat dilihat pada tabel 3
+tabel iii hasil pengujian tambah data berita no kasus uji contoh tidak berhasil lihat pada gambar 8 video tidak video berhasil data berita video video 5 memunculkan video lihat pada gambar 10 6 data video tak gambar 12 gambar
+12 tampilan data pemberitaan tidak berhasil c
+hasil pengujian validitas pengujian validitas kuesioner menggunakan koefisien korelasi pearson corellation
+kuesioner dinilai valid jika rhitung atau nilai korelasi lebih besar dari nilai rtabel
+hasil dari pengujian validitas kuisioner dapat dilihat pada tabel 4
+tabel iv hasil pengujian validitas kuesioner korelasi antara nilai korelasi d
+hasil pengujian reliabilitas hasil dari pengujian reliabilitas kuisioner dapat dilihat pada tabel 5
+tabel v hasil pengujian reliabilitas kuesioner banyak pertanyaan nilai cronbach’s alpha 15 0, 839 \ e
+user acceptance test pengujian ini dilakukan terhadap biro dan admin ruai tv yang disebarkan ke 12 orang responden, dan user acceptance test yang diukur dengan likert’s summated rating 
+hasil penelitian responden ruai tv pada interpretasi lsr dapat dilihat pada gambar 13
+13 hasil penelitian responden ruai tv pada interpretasi lsr total skor penilaian yang diperoleh dari 12 responden yakni 738 dan berada di antara titik kuartil iii dan titik maksimal 
+dapat diketahui bahwa saat input data berita dari salah satu field itu kosong, maka akan terjadi kesalahan pada program
+dapat diketahui bahwa saat input video berupa format mp4 dengan ukuran kurang dari 50 mb maka input data video berhasil
+dapat diketahui bahwa saat input video diatas 50 mb maka akan terjadi kesalahan pada program, atau tidak berhasil
+dapat diketahui ukuran bit rate, date rate, frame width dan frame height pada video juga mempengaruhi tahan atau tidaknya aplikasi ini, seperti yang telah diuji coba pada input video format mpg dengan date rate : 1260 kbps, total bit rate : 1387 kbps, maka input video berhasil dan muncul
+sedangkan input video format mts dengaan date rate : 6675 kbps, total bit rate : 6931 kbps maka hasil input video berhasil namun pada halaman detail pemberitaan video tidak tampil
+berdasarkan pengujian validitas kuisioner, dapat diketahui bahwa semua item pertanyaan pada kuisioner valid, dimana nilai korelasi pearson pada setiap item pertanyaan lebih besar dari nilai rtabel
+berdasarkan pengujian reabilitas kuisioner, dapat diketahui bahwa kuisioner yang dibuat tingkat reabilitasnya tinggi, dimana cronbach’s alpha pada penelitian ini sebesar 0, 839
+angka ini berada diantara 0, 7 sampai dengan 0, 9
+berdasarkan hasil user acceptance test, dapat diketahui bahwa responden menilai aplikasi yang dibuat sangat positif dan berhasil, dapat dibuktikan dari hasil skor total keseluruhan data kuesioner berjumlah 738, dimana total skor ini berada diantara kuartil iii dan maksimal pada intepretasi lsr
+kesimpulan berdasarkan hasil pengujian kuesioner aplikasi news delivery ruaitv berbasis web di ruai televisi, dapat disimpulkan bahwa: 1
+aplikasi ini dapat membantu para biro ruai tv dalam pengiriman berita video yang siap edit dan naskah yang siap di siarkan oleh news caster
+aplikasi news delivery ruai tv ini hanya mampu format video mp4, dengan ukuran video kurang dari 50 mb
+aplikasi ini mampu menjadi media penyimpanan berita berupa video dan naskah untuk di olah menjadi informasi berita
+aplikasi mampu menjadi media chating antara biro dan admin

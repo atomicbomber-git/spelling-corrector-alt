@@ -1,0 +1,141 @@
+berpusat pada guru dimana guru yang berperan aktif di dalam kelas
+pendekatan pembelajaran yang berpusat pada guru memiliki ciri bahwa pengelolaan pembelajaran ditentukan sepenuhnya oleh guru
+berdasarkan hasil observasi pra- penelitian terhadap nilai kelas ix pada materi ipa semester ganjil, materi ipa biologi yang termasuk sulit untuk dipahami adalah sistem ekskresi
+dalam pembelajaran, penggunaan komputer dalam pemanfaatan teknologi memungkinkan berlangsungnya proses pembelajaran secara individual dengan menumbuhkan kemandirian dalam proses belajar
+oleh karena itu, diperlukan pemanfaatan teknologi komputer yang dapat membantu siswa dalam belajar, salah satunya yaitu aplikasi multimedia pembelajaran dengan computer assisted instruction atau pembelajaran dengan bantuan komputer
+multimedia pembelajaran dengan cai ini bertujuan untuk membantu siswa mempelajari materi ipa biologi, khususnya materi sistem ekskresi
+model cai yang digunakan dalam aplikasi ini yaitu tutorial dimana aplikasi berisi penjelasan materi, latihan dan evaluasi sehingga guru dapat melihat nilai dari masing-masing siswa
+hasil dari perancangan ini yaitu terbentuknya multimedia pembelajaran berbasis client-server yang dibangun dengan software adobe flash dan diimplementasikan ke aplikasi serta dapat diakses melalui web browser pada masing-masing komputer pada laboratorium komputer
+pengujian yang telah dilakukan menunjukkan bahwa aplikasi multimedia pembelajaran dengan cai dapat membantu siswa smp dalam mempelajari mata pelajaran ipa biologi materi sistem ekskresi dan efektivitas metode belajar dengan cai lebih baik dari metode belajar manual berdasarkan pengujian validasi ahli media, persentase keidealan aplikasi sebesar 78, 57% dengan kategori baik dan berdasarkan pengujian validasi oleh ahli materi, persentase keidealan aplikasi sebesar 86, 9% dengan kategori baik
+pendahuluan pendekatan pembelajaran yang berpusat pada guru memiliki ciri bahwa pengelolaan pembelajaran ditentukan sepenuhnya oleh guru
+guru menerangkan setiap materi pelajaran berdasarkan pada buku teks
+siswa mempelajari mata pelajaran dengan mendengar dan mencatat informasi atau penjelasan dari guru, serta dengan membaca buku teks
+peran siswa pada pendekatan ini hanya melakukan aktivitas sesuai dengan petunjuk guru
+berdasarkan hasil observasi pra-penelitian terhadap nilai kelas ix pada materi ipa semester ganjil di smp negeri 12 pontianak, menunjukkan bahwa nilai rata-rata ulangan di bawah standar ketuntasan minimal atau kriteria ketuntasan minimal pada materi sistem ekskresi, yakni 63 dari nilai kkm 77
+menurut hasil observasi tersebut, materi ipa biologi yang termasuk sulit untuk dipahami yaitu sistem ekskresi
+sistem ekskresi melibatkan struktur organ dan mekanisme ekskresi sehingga sulit bagi siswa untuk memahami materi dengan proses pembelajaran saat ini
+rujukanmenjelaskan bahwa kegiatan belajar mengajar akan lebih efektif dan mudah bila dibantu dengan dengan sarana visual, dimana 11% dari yang dipelajari terjadi lewat indera pendengaran, sedangkan 83% lewat indera penglihatan
+di samping itu dikemukakan bahwa kita hanya dapat mengingat 20% dari apa yang kita dengar, namun dapat mengingat 50% dari apa yang dilihat dan didengar
+berbagai kajian telah menunjukkan bahwa proses pembelajaran yang melibatkan lebih dari satu indera akan lebih efektif dibandingkan dengan hanya satu indera saja
+pembelajaran yang disampaikan pun akan diingat lebih lama
+rujukanjuga menjelaskan bahwa pemanfaatan teknologi komputer telah banyak memberikan kontribusi terhadap proses pembelajaran salah satunya adalah dengan penerapan pembelajaran berbasis komputer
+penggunaan komputer dalam pembelajaran memungkinkan dalam proses belajar, sehingga siswa akan mengalami proses yang jauh lebih bermakna dibandingkan dengan pembelajaran konvensional komputer yang dapat membantu siswa dalam belajar dengan menggunakan sarana visual, salah satunya yaitu aplikasi multimedia pembelajaran dengan computer assisted instruction atau pembelajaran dengan bantuan komputer
+multimedia pembelajaran dengan cai diharapkan dapat membantu siswa mempelajari materi ipa biologi, khususnya materi sistem ekskresi
+model yang digunakan dalam aplikasi ini yaitu tutorial dimana aplikasi berisi perancangan multimedia pembelajaran ipa dengan computer assisted instruction nurmala novitasari 1, hengky anra 2, anggi srimurdianti sukamto 3 program studi teknik informatika fakultas teknik universitas tanjungpura 1, 2, 3 e-mail: 1 nurmala.novitasari@gmail.com, melihat nilai dari masing-masing siswa
+uraian penelitian suara, animasi dan elemen-elemen video yang dimanipulasi secara digital
+menampilkan dan mengkombinasikan teks, grafik, audio, dan video dengan links dan tools sehingga pengguna dapat bernavigasi, berinteraksi, menciptakan, dan berkomunikasi
+komputer dengan mengkombinasi atau menggabungkan teks, gambar, seni grafis, suara, animasi, dan video dengan bantuan links dan tools sehingga pengguna dapat bernavigasi, berinteraksi, menciptakan, dan berkomunikasi
+pembelajaran berbasis multimedia pembelajaran yang memanfaatkan komputer untuk membuat dan menggabungkan teks, grafik, audio, gambar bergerak dengan menggabungkan link dan tool yang memungkinkan pemakai untuk melakukan navigasi, berinteraksi, dan berkomunikasi
+rujukanmenjelaskan bahwa computer assisted instruction adalah penggunaan komputer secara langsung terhadap siswa untuk menyampaikan isi pelajaran, memberikan latihan-latihan dan menguji kemampuan belajar siswa
+penting dalam perancangan program cai tersebut adalah umpan balik, percabangan, penilaian, monitoring kemajuan, petunjuk, dan tampilan
+umpan balik setelah memberikan respon, siswa harus segera diberi umpan balik
+umpan balik bisa berupa komentar, pujian, peringatan atau perintah tertentu bahwa respon siswa tersebut benar atau salah
+umpan balik akan semakin menarik dan menambah motivasi belajar apabila disertai ilustrasi suara, gambar atau video klip
+informasi kemajuan belajar harus juga diberikan kepada siswa baik selama kegiatan belajarnya atau setelah selesai suatu bagian pelajaran tertentu
+misalnya adalah pemberitahuan jumlah skor yang benar dari sejumlah soal yang dikerjakan
+ditempuh oleh siswa dalam kegiatan belajarnya melalui program cai
+program memberikan percabangan berdasarkan respon siswa
+misalnya, siswa yang selalu salah dalam menjawab pertanyaan materi tertentu, maka program harus merekomendasikan untuk mempelajari kembali bagian tersebut
+atau bila siswa mencapai skor tertentu, siswa bisa langsung menuju ke tingkat atas dan sebaliknya
+penilaian program cai yang baik harus dilengkapi dengan aspek penilaian
+untuk mengetahui seberapa jauh siswa memahami materi yang dipelajari, pada setiap sub-topik siswa perlu diberi tes atau soal latihan
+hasil penilaian bila perlu bisa terdokumentasi secara otomatis, sehingga guru bisa memonitor setiap perkembangan siswa
+bahkan dapat diakses setiap saat siswa belajar sehingga dapat diketahui grafik kemajuan belajarnya
+monitoring kemajuan program cai akan lebih efektif bila selalu memberi informasi kepada siswa pada bagian mana siswa sedang bekerja dari materi yang sedang dipelajari, apa yang akan dipelajari berikutnya dan apa yang akan dicapai setelah pembelajaran selesai
+penyampaian tujuan yang jelas pada awal materi berkaitan erat dengan hasil pencapaian belajar pada program cai
+sebelum mengerjakan suatu materi, siswa diberi ulasan singkat materi sebelumnya
+sebelum mengakhiri, siswa diberi pula ulasan tentang materi yang akan datang
+petunjuk pengajar yang baik adalah pengajar yang dapat memberi petunjuk kepada peserta didiknya ke arah pencapaian jawaban yang benar
+demikian juga program cai yang efektif adalah suatu program yang dapat melakukan hal seperti itu
+di samping itu, adanya petunjuk dalam program cai berarti siswa dapat menggunakan atau mengoperasikan program secara individual dengan mudah tanpa bantuan orang lain
+dan apabila mendapat kesulitan, siswa bisa memanggil menu dari program tersebut
+tampilan karena program cai dikerjakan melalui layar monitor, maka perlu diperhatikankan jenis informasi, komponen tampilan, dan keterbacaan
+jenis informasi yang ditampilkan bisa berupa teks, gambar, suara, animasi atau video klip
+ilustrasi dan warna bisa menarik perhatian siswa, tetapi bila berlebihan akan mengecohkan
+satu layar bila mungkin berisi satu ide atau pokok bahasan saja
+model tutorial pada cai model computer assisted instruction yang digunakan yaitu model tutorial tutorial adalah bimbingan pembelajaran dalam bentuk pemberian arahan, bantuan, petunjuk, dan motivasi agar para siswa belajar secara efisien dan efektif
+tutorial dalam program pembelajaran berbasis komputer ditujukan sebagai pengganti sumber belajar yang proses pembelajarannya diberikan lewat grafik, animasi, audio yang tampak pada monitor yang menyediakan pengorganisasian materi, soal-soal latihan dan pemecahan masalah
+jika respon siswa benar, komputer akan terus bergerak pada pembelajaran berikutnya, namun sebaliknya jika respon siswa salah komputer akan mengulangi pembelajaran sebelumnya atau bergerak pada salah satu bagian tertentu tergantung kesalahan yang dibuat
+3 rujukanmenjelaskan bahwa dalam pengujian dapat dilakukan dengan eksperimen
+eksperimen dapat dilakukan dengan cara membandingkan keadaan sebelum dan sesudah memakai metode mengajar baru atau dengan membandingkan kelompok yang tetap menggunakan metode mengajar lama
+dalam hal ini ada kelompok eksperimen dan kelompok kontrol
+model eksperimen yang digunakan yaitu pretest- posttest control group design 
+kelompok atau kelas tertentu yang akan diajar dengan metode mengajar baru tersebut
+kelompok pertama yang akan diajar dengan metode mengajar baru disebut kelompok eksperimen, sedangkan kelompok yang tetap menggunakan metode mengajar lama disebut kelompok kontrol
+apabila pengujian produk dalam hal ini metode mengajar baru menggunakan desain pretest-posttest control group design, maka untuk mencari efektivitas dan efiesiensi sistem kerja baru, dilakukan dengan cara menguji signifikansi antara kelompok yang diajar dengan metode mengajar baru dengan kelompok yang tetap diajar dengan metode lama
+pengujian signifikansi dapat dilakukan dengan uji t sampel independent 
+untuk menentukan rumus t-test, akan dipilih untuk pengujian hipotesis, maka perlu diuji dulu varians kedua sampel homogen atau tidak
+varians sampel ditunjukkan pada persamaan berikut
+: nilai rata-rata sampel n : jumlah sampel simpangan baku
+simpangan baku ditunjukkan pada persamaan berikut
+pengujian homogenitas varians digunakan uji f dengan persamaan berikut
+menguji hipotesis komparatif dua sampel independen
+rumus tersebut ditunjukkan pada persamaan dan persamaan berikut
+separated varians: : rata-rata sampel 1 : rata-rata sampel 2 s1 : simpangan baku sampel 1 s2 : simpangan baku sampel 2 : varians sampel 1 : varians sampel 2 polled varians: : rata-rata sampel 1 : rata-rata sampel 2 s1 : simpangan baku sampel 1 s2 : simpangan baku sampel 2 : varians sampel 1 : varians sampel 2 terdapat beberapa pertimbangan dalam memilih rumus t- test
+berikut ini diberikan petunjuk untuk memilih rumus t- test
+1 2 separated maupun polled varians, yaitu persamaan (4
+bila jumlah anggota sampel n1 = n2 dan varians homogen dan persamaan untuk mengetahui t tabel digunakan dk yang besarnya dk = n1+n2 – 2
+bila n1 ≠ n2, varians homogen dapat digunakan besarnya dk = n1+n2 – 2
+bila n1 = n2, varians tidak homogen dapat dk = n1-1 atau dk = n2-1
+harga t sebagai pengganti harga t tabel dihitung dari selisih harga t-tabel dengan dk = n1-1 dan n2-1, dibagi dua dan kemudian ditambah dengan harga t yang terkecil
+desain arsitektur sistem dapat dilihat pada gambar 1 berikut
+4 routerrouter hubhub mengakses multimedia pembelajaran, yaitu siswa, guru, dan admin
+akses dilakukan melalui jaringan lokal yang ada pada laboratorium komputer
+aplikasi multimedia pembelajaran ini disimpan pada server dan transfer data dilakukan melalui server yang terhubung ke komputer pada laboratorium
+komputer yang berada di laboratorium dihubungkan melalui lan 
+siswa, guru, dan admin dapat mengakses aplikasi multimedia pembelajaran melalui web browser pada masing-masing komputer
+hasil dan diskusi yang menampilkan materi pelajaran ipa biologi khususnya materi sistem ekskresi untuk siswa kelas ix smp
+multimedia pembelajaran dibangun dengan software adobe flash sehingga menghasilkan aplikasi berekstensi .swf yang kemudian diimplementasikan ke halaman aplikasi multimedia pembelajaran dan dapat diakses melalui web browser pada masing-masing komputer pada laboratorium komputer
+antarmuka halaman judul aplikasi dapat dilihat pada gambar 2 berikut
+komponen multimedia yang digunakan pada halaman menu yaitu teks, gambar, animasi pergerakan gambar, animasi pergerakan tulisan sistem ekskresi, instrumen, dan audio pada tombol
+antarmuka halaman menu terdiri dari menu tentang aplikasi, petunjuk, materi, latihan, dan nilai
+antarmuka halaman menu dapat dilihat pada gambar 3 berikut
+antarmuka halaman menu pada halaman menu materi terdapat 5 pilihan materi
+jika materi telah diselesaikan dan kuis yang dikerjakan mencapai nilai 77, maka materi berikutnya akan terbuka
+tetapi, jika kuis yang dikerjakan belum mencapai nilai 77, maka materi berikutnya tidak akan terbuka
+materi yang terkunci memiliki lambang gembok terkunci berwarna merah dan berisi notifikasi untuk mempelajari materi sebelumnya dan materi yang terbuka memiliki gambar gembok terbuka berwarna hijau apabila kursor diarahkan ke materi tersebut
+antarmuka halaman menu materi dapat dilihat pada gambar 4 berikut
+pengujian validasi ahli dilakukan dengan uji validasi ahli media dari ceo multiple intelligence product dan dosen teknik informatika universitas tanjungpura
+untuk validasi ahli materi dilakukan oleh 2 orang guru mata pelajaran ipa biologi di smp negeri 12 pontianak sebagai tempat dilaksanakan penelitian
+persentase keidealan penilaian oleh ahli media sebesar 78, 57% dengan skor 132 dari jumlah skor ideal 168
+skor hasil penelitian berdasarkan interval kategori nilai termasuk dalam interval kategori, tetapi lebih mendekati baik, sehingga aplikasi dinilai baik oleh ahli media
+persentase keidealan penilaian oleh ahli materi sebesar 86, 9% dengan skor 146 dari jumlah skor ideal 168
+skor hasil penelitian berdasarkan interval kategori nilai termasuk dalam interval kategori, tetapi lebih mendekati baik, sehingga aplikasi dinilai baik oleh ahli materi
+reliabilitas kuesioner diperoleh nilai cronbach’s alpha sebesar 0, 758 yang lebih 5 media reliabel
+sedangkan pada tabel reliability statistics untuk kuesioner ahli materi, diperoleh nilai cronbach’s alpha sebesar 0, 656 yang lebih besar dari 0, 60
+hal ini menunjukkan bahwa kuesioner ahli materi reliabel
+persentase kenaikan nilai pretest dan posttest pada kelompok manual, rata-rata nilai pretest siswa sebesar 40, 59 dan rata-rata nilai posttest siswa sebesar 69, 71 dengan persentase kenaikan nilai posttest dibanding pretest siswa sebesar 71, 74%
+pada kelompok cai, rata-rata nilai pretest siswa sebesar 45, 88 dan rata-rata nilai posttest siswa sebesar 84, 12 dengan persentase kenaikan nilai posttest dibanding pretest sebesar 83, 33%
+grafik presentase kenaikan nilai pretest dan posttest pada kelompok manual dan kelompok cai dapat dilihat pada gambar 6
+terlihat bahwa persentase kenaikan nilai pretest dan posttest siswa pada kelompok cai lebih tinggi daripada kelompok manual gambar 6
+grafik persentase kenaikan nilai pretest dan posttest kelompok manual dan kelompok cai b
+perhitungan manual statistik nilai posttest dari kedua kelompok, kelompok cai dan kelompok manual data tersebut merupakan data yang independen dan menggunakan pengujian statistik independent-samples t test
+tabel dua sampel independen n 1430 1185 156.99 370, 22 homogenitas varians dengan hasil sebagai berikut
+berdasarkan perhitungan tersebut, diperoleh nilai f hitung sebesar 2, 358
+nilai dari f hitung perlu dibandingkan dengan f tabel
+berdasarkan derajat kebebasan atau dk = 16 dan taraf kesalahan 0, 05, maka harga f tabel sebesar 2, 333
+dari perhitungan homogenitas varians, harga f hitung lebih besar dari f tabel 
+dengan demikian, ho ditolak dan ha diterima dimana ho yaitu varians homogen dan ha yaitu varians tidak homogen
+karena ha diterima, berarti varians tidak homogen
+apabila varians tidak homogen dan jumlah sampel kelompok cai dan kelompok manual sama, maka sesuai dengan pedoman yang telah dikemukakan digunakan persamaan, yaitu: berdasarkan perhitungan dengan rumus t-test tersebut, diperoleh nilai t hitung sebesar 2, 588
+nilai dari t hitung perlu dibandingkan dengan t tabel
+berdasarkan derajat kebebasan atau dk = 16 dan taraf kesalahan 0, 05, maka harga t tabel yaitu 1, 746
+dari perbandingan nilai t, harga t hitung lebih besar dari t tabel 
+dengan demikian, ho ditolak dan ha 0 20 40 60 80 100 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 nilai siswa cai lebih kecil atau sama dengan metode belajar manual dan ha yaitu efektivitas metode belajar dengan cai lebih baik dari metode belajar manual 
+karena ha diterima, berarti efektivitas metode belajar dengan cai lebih baik dari metode belajar manual 
+analisis hasil dapat disimpulkan sebagai berikut
+persentase keidealan penilaian oleh ahli media adalah sebesar 78, 57% dengan skor 132 dari jumlah skor ideal 168
+skor hasil penelitian berdasarkan interval kategori nilai termasuk dalam interval kategori, tetapi lebih mendekati baik, sehingga aplikasi dinilai baik oleh ahli media
+persentase keidealan penilaian oleh ahli materi adalah sebesar 86, 9% dengan skor 146 dari jumlah skor ideal 168
+skor hasil penelitian berdasarkan interval kategori nilai termasuk dalam interval kategori, tetapi lebih mendekati baik, sehingga aplikasi dinilai baik oleh ahli materi
+posttest kelompok manual yaitu 69, 71 dengan persentase kenaikan nilai posttest dibanding pretest kelompok manual yaitu 71, 74%
+rata-rata nilai posttest kelompok cai lebih tinggi yaitu 84, 12 dengan persentase kenaikan nilai posttest dibanding pretest kelompok cai yaitu 83, 33%
+berdasarkan perhitungan statistik untuk pengujian independent-samples t test, nilai t hitung lebih besar dari t tabel dan nilai probabilitas t-test ) lebih kecil dari taraf kesalahan 
+dengan demikian, ho ditolak dan ha diterima dimana h0 yaitu efektivitas metode belajar dengan cai lebih kecil atau sama dengan metode belajar manual dan ha yaitu efektivitas metode belajar dengan cai lebih baik dari metode belajar manual 
+karena ha diterima, maka kesimpulannya adalah efektivitas metode belajar dengan cai lebih baik dari metode belajar manual iv
+kesimpulan/ringkasan multimedia pembelajaran, dapat disimpulkan bahwa: 1
+aplikasi multimedia pembelajaran dengan computer assisted instruction yang dihasilkan dapat membantu siswa smp dalam mempelajari mata pelajaran ipa biologi materi sistem ekskresi
+hal ini ditunjukkan dengan rata-rata nilai posttest kelompok cai lebih tinggi dengan persentase kenaikan nilai posttest dibanding pretest kelompok cai yaitu 83, 33%
+sedangkan persentase kenaikan nilai posttest dibanding pretest kelompok manual yaitu 71, 74%
+berdasarkan perhitungan manual dan dengan spss statistics untuk pengujian independent- samples t test, juga menunjukkan bahwa efektivitas metode belajar dengan cai lebih baik dari metode belajar manual aspek umum, rekayasa perangkat lunak, komunikasi visual dan komunikasi audio, diperoleh persentase keidealan penilaian sebesar 78, 57% sehingga aplikasi multimedia pembelajaran ipa biologi dinilai berkategori baik oleh ahli media
+berdasarkan validasi ahli materi terhadap 3 aspek, yaitu aspek umum, pembelajaran, dan substansi materi, diperoleh persentase keidealan penilaian sebesar 86, 9% sehingga aplikasi multimedia pembelajaran ipa biologi dinilai berkategori baik oleh ahli materi

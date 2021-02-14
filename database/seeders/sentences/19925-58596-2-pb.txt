@@ -1,0 +1,19 @@
+smp pgri 3 pangkalpinang merupakan instansi pendidikan menengah pertama, beralamatkan di jalan mustika ii – pangkalpinang provinsi kepulauan bangka belitung
+dalam penelitian sistem informasi proses pemberian beasiswa ini, ada beberapa sub bagian yaitu terdiri dari: data siswa, daftar pengajuan beasiswa, data pemberitahuan beasiswa, serta laporan beasiswa yang berhubungan dengan pengolahan data proses pemberian beasiswa
+metode menganalisa dan merancang sistem informasi menggunakan unified modelling languange dan metode yang digunakan adalah metode berorientasi objek
+untuk implementasinya menggunakan bahasa pemograman visual basic 2008 dan database management sistem menggunakan mysql
+penelitian ini juga bertujuan untuk pengelolaan pemberian beasiswa yang ada di smp pgri 3 dapat terorganisir dengan baik untuk penyimpanan datanya serta mempermudah dalam membuat surat pengajuan beasiswa, sk pemberian beasiswa dan laporan pemberian beasiswa
+pemerintah pun berupaya mengadakan program-program yang dinilai mampu untuk meningkatkan kualitas pendidikan di indonesia terutama
+satu diantara dalam rangka meningkatkan kualitas pendidikan di indonesia dengan mengadakan program pemberian beasiswa berdasarkan jenisnya seperti beasiswa kurang mampu, beasiswa prestasi dan bakat
+program beasiswa bertujuan untuk meringankan beban orang tua siswa dalam membiayai pendidikan anaknya untuk wajib belajar 12 tahun
+berdasar pada keberadaan sistem pendidikan nasional adalah uud 45 bab xiii, pasal 31, ayat yang menyatakan bahwa: tiap-tiap warga negara berhak mendapatkan pengajaran
+merupakan salah satu program anggaran kementerian pendidikan negara republik indonesia yang setiap tahun diadakan melalui lembaga pendidikan negeri dan swasta
+smp pgri 3 pangkalpinang merupakan satu dari sekian banyak sekolah di kota pangkalpinang yang menerima bantuan dari dana apbd kota
+dalam pelaksanaannya, pengelola dana bantuan beasiswa pada smp pgri 3 pangkalpinang sering mengalami kesulitan dalam pencarian data siswa
+smp pgri 3 pangkalpinang selalu menghasilkan data dan informasi berbentuk laporan yang mana menggunakan aplikasi microsoft excel untuk meng-input data siswa untuk dijadikan sebuah laporan pendataan beasiswa dan saat ini masih dilakukan dengan cara manual sehingga mengakibatkan proses pengajuan yang cukup lama serta kurang efektif dimana dalam penyeleksian berkas persyaratan secara manual butuh waktu lebih dalam melakukan prosesnya
+terlebih lagi proses pengajuan yang masih bersifat manual masih terbatas pada lingkup ruang dan waktu.adanya aplikasi yang sesuai maka pekerjaan yang sulit dapat dikerjakan secara mudah dengan bantuan teknologi informasi
+banyak keuntungan dan kelebihan yang ditawarkan sebuah aplikasi dalam pemanfaatan yang efektif, karena dapat mencapai hasil yang cepat, akurat, dan efesiensi karena dapat menghemat waktu dan tenaga sehingga pekerjaan apapun dapat dikerjakan dengan mudah dan tidak ada kesulitan dalam melakukan pekerjaan tersebut
+aplikasi yang akan dibangun diharapkan agar dapat membantu serta mempermudah sistem kerja bagian tata usaha dalam melakukan proses administrasi atau pendataan setiap siswa dalam proses penerimaan beasiswa
+pengertian sistem menurutsecara sederhana, sistem dapat diartikan sebagai suatu kumpulan atau himpunan dari unsur, komponen, atau variabel yang teroganisie, saling 54 berinteraksi, saling bergantung satu sama lain dan terpadu
+pengertian informasi menurutinformasi merupakan proses lebih lanjut dari data yang sudah memiliki nilai tambah
+pengertian sistem informasi sistem informasi terdiri dari komponen-komponen yang disebut blok bangunan yang terdiri dari blok masukan, blok model, blok keluaran, blok teknologi, blok basisdata dan blok kendali menurut

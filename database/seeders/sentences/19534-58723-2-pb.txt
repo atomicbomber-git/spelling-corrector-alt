@@ -1,0 +1,74 @@
+penggalian data atau data mining adalah suatu metode yang digunakan untuk mencari dan menggali data tertentu yang tersembunyi dari sebuah data yang besar
+sebagai contoh, data mining dapat digunakan untuk mencari informasi kombinasi item dalam suatu penjualan, memprediksi tingkat kelulusan, menentukan penerima beasiswa, dll
+data mining sangat berguna bagi suatu lembaga atau perusahaan yang ingin melakukan analisa terhadap data yang besar
+dengan menggunakan data mining, perusahaan akan mampu menganalisa secara tepat, cepat dan akurat dibandingkan dengan menganalisa secara manualapotek merupakan salah satu perusahaan yang bisa memanfaatkan metode data mining ini, karena di apotek transaksi penjualan berlangsung setiap harisehingga semakin lama data penjualan yang tersimpan sangatlah besar.salah satu pemanfaatan data mining di apotek adalah untuk menentukan kombinasi item yang paling sering dibeli oleh konsumen
+untuk dapat menentukan kombinasi item yang paling sering dibeli oleh konsumen bisa menggunakan salah satu metode data mining, yaitu metode assosiasi dengan algoritma apriori
+dengan algoritma apriori akan memudahkan pihak apotek untuk mencari kombinasi item penjualan
+hasil dari analisa ini dapat digunakan oleh apotek untuk strategi pemasaran, promosi produk dll
+pendahuluan informasi yang berguna dari data yang besar
+dalam data mining terdapat banyak metode, diantaranya yaitu assosiasi, clustering, klasifikasi dll
+pertambangan melalui beberapa scan set data, menemukan hubungan antara variabel dan menyajikan aturan yang kuat dalam database yang besar
+apotek ashari farma merupakan salah satu dari sekian banyak apotek yang ada di kabupaten tuban
+apotek ini terletak tidak jauh dari pusat kota, tepatnya di jalan hayam wuruk nomor 89/361 kecamatan semanding
+apotek ashari farma selalu berusaha memberikan pelayanan dan produk yang berkualitas, namun semua itu dirasa masih kurang untuk bisa bersaing dengan apotek- apotek lain di tuban
+mengerti apa yang dibutuhkan oleh konsumennya
+salah satu cara adalah dengan tetap tersedianya berbagai jenis obat-obatan digudang apotek
+untuk mengetahui obat apa saja yang dibeli oleh para konsumen dapat dilakukan teknik analisis dengan menggunakan data mining metode asosiasi yaitu analisis dari kebiasaan membeli konsumen
+dengan menerapkan algoritma apriori, dapat membantu dalam membentuk kandidat kombinasi item yang mungkin, kemudian dilakukan pengujian apakah kombinasi tersebut memenuhi parameter support dan confidence minimum yang merupakan nilai minimal yang diberikan oleh pengguna
+dan pelayanan terhadap konsumen setiap harinya semakin lama semakin tinggi, sehingga hal ini dapat membuat tumpukan data yang semakin besar
+walaupun sampai saat ini kegiatan pelayanan dan transaksi di apotek ashari farma belum mengalami kendala, namun karena semakin besarnya data yang menumpuk suatu saat bisa menjadi penghambat dalam meningkatkan pelayanan, sehingga menyulitkan pihak apotek dalam menganalisa jenis barang mana yang paling diminati atau tidak diminati konsumen
+tinjauan pustaka implementasi data mining algoritma apriori pada sistem persediaan alat-alat kesehatan
+dengan sistem ini dapat menentukan frekuensi tinggi itemset untuk memprediksi persediaan barang diwaktu yang akan datang
+heru dewantaramembahas tentang pengembangan strategi bisnis peletakkan barang belanjaan yang disesuaikan dengan pola konsumsi konsumen di swalayan kpri universitas brawijaya malang dengan menggunakan metode market basket analysis dengan memanfaatkan data transaksi penjualan selama bulan februari 2013
+bagaimana menerapkan metode data mining dengan algoritma apriori untuk analisis pola pembelian obat pada apotek? 2
+bagaimana mengolah data penjualan dengan menggunakan data mining metode apriori agar lebih bermanfaat? 3
+apakah dengan menggunakan algoritma apriori, didapatkan suatu kombinasi dari jenis produk- produk yang sering dibeli secara bersamaan dalam suatu waktu? 1.2
+batasan masalah adapun batasan masalah dalam penelitian ini adalah sebagai berikut: 1
+penulisan penelitian ini tidak membandingkan antara metode data mining satu dengan metode lainnya
+dalam penelitian ini tidak membahas tentang sistem informasi penjualan
+aplikasi ini tidak melakukan perhitungan detil penjualan obat per periode
+aplikasi ini tidak mempertimbangkan masalah keamanannya
+data mining interesting knowledge dari sejumlah besar data yang disimpan dalam database, data warehouse, atau media penyimpanan yang lainnya
+pencarian pola yang terdapat di dalam data dapat mengecewakan bagi para pembuat keputusan yang tidak berpengalaman karena fakta pola potensial dalam data sering kali tidak terlihat
+jumlah data terlalu besar untuk analisis secara manual kemajuan luar biasa yg terus berlanjut dalam bidang data mining didorong oleh beberapa faktor, antara lain: b
+penyimpanan data dalam data warehouse, sehingga seluruh perusahaan memiliki akses kedalam database yang baik
+adanya peningkatan akses data melalui navigasi web dan intranet d
+tekanan kompetisi bisnis untuk meningkatkan penguasaan pasar dalam globalisasi ekonomi
+perkembangan teknologi perangkat lunak untuk data mining 
+perkembangan yang hebat dalam kemampuan komputasi dan pengembangan kapasitas media penyimpanan
+didalam data mining untuk menentukan hubungan antar item dalam suatu dataset yang telah ditentukan
+konsep ini sendiri diturunkan dari terminologi market basket analysis, yaitu pencarian hubungan dari beberapa produk di dalam transaksi pembelian
+aturan asosiasi yang berbentuk atau merupakan pengetahuan yang dihasilkan dari fungsi aturan asosiasi
+{analgetik} → {antibiotika} semua transaksi yang dianalisis, analgetik dan antibiotika dibeli secara bersamaan, sedangkan confidence sebesar 84% menunjukan bahwa jika seorang konsumen membeli jenis obat analgetika maka terdapat 84% kemungkinan dia akan membeli jenis obat antibiotik juga
+pencarian aturan asosiasi harus menggunakan parameter sehingga aturan yang didapat akurat
+parameter yang digunakan untuk pembentukan rules yaitu : 1
+support : suatu ukuran yang menunjukkan seberapa besar tingkat dominasi suatu item/itemset dari keseluruhan transaksi
+ukuran ini menentukan apakah suatu item/itemset layak untuk dicari confidence-nya confidence : suatu orang membeli item a)
+frequent itemset yang memenuhi minimal support kemudian mendapatkan rule yang memenuhi minimal confidence dari frequent itemset tadi
+secara umum pada iterasi ke-k dilakukan proses sebagai berikut : 1
+membentuk kandidat itemset kandidat k-itemset dibentuk dari kombinasi - itemset yang didapat dari iterasi sebelumnya 
+satu ciri dari algoritma apriori adalah adanya pemangkasan kandidat k-itemset yang subset-nya berisi k-1 item tidak termasuk dalam pola frekuensi tinggi dengan panjang k-1 2
+menghitung support dari tiap kandidat k-itemset support dari tiap kandidat k-itemset didapat dengan men-scan database untuk menghitung jumlah transaksi yang memuat semua item di dalam kandidat k-itemset tsb
+ini adalah juga ciri dari algoritma apriori dimana diperlukan penghitungan dengan scan seluruh database sebanyak k-itemset terpanjang 3
+menetapkan pola frekuensi tinggi pola frekuensi tinggi yang memuat k item atau k- itemset ditetapkan dari kandidat k-itemset yang supportnya lebih besar dari minimum support
+bila tidak didapat pola frekuensi tinggi baru maka seluruh proses dihentikan
+bila tidak, maka k ditambah satu dan kembali ke bagian 1 
+metodologi dasar analisis asosiasi terbagi menjadi dua tahap: 1
+analisa pola frekuensi tinggi tahap ini mencari kombinasi item yang memenuhi syarat minimum dari nilai support dalam database
+nilai support sebuah item diperoleh dengan rumus 2.1 dan 2.2: support = dengan rumus: support = 2
+pembentukan aturan assosiatif setelah semua pola frekuensi tinggi ditemukan, barulah dicari aturan assosiatif yang memenuhi syarat minimum untuk confidence dengan menghitung confidence aturan assosiatif w_x
+rumus 2.3 confidence = perangkat lunak yang dapat memberikan informasi pada penjualan obat
+perancangan sistem ini antara lain diagram konteks, flowchart, entity relation diagram, dan dfd
+berikut ini adalah flowchart sistem dari implementasi algoritma apriori untuk menganalisa keranjang belanja pada data transaksi penjualan di apotek ashari farma tuban
+diagram konteks proses kerja sistem secara umum
+contexts diagram adalah data flow diagram yang menggambarkan garis besar operasional sistem
+diagram aliran data atau dfd merupakan penjabaran dari diagram konteks secara lebih terperinci
+dfd menjelaskan bagaimana fungsi-fungsi di dalam sistem secara logika akan bekerja
+hasil dan pembahasan atau kombinasi item yang paling sering dibeli bersamaan, dilakukan dalam beberapa tahap
+data obat yang akan dianalisa dari data transaksi penjualan berdasarkan periode transaksi yang telah ditentukan oleh user seperti yang ditunjukkan pada table i
+dengan ketentuan bahwa jika didalam transaksi penjualan tersebut terdapat jumlah item obat yang dibeli lebih dari satu maka support countnya dihitung sama dengan satu
+seperti yang ditunjukkan pada tabel ii
+nama item memenuhi min_support, yakni yang terdiri dari satu item obat, min_support yang diinputkan oleh user adalah 2 maka kandidat 1-itemset yang memenuhi min_support≥2 adalah sebagai berikut : tabel iii nilai support dari item obat nama_item support count nilai_ support asam mefenamat 3 1, 69% cataflam 50mg 2 1, 13% gastran tablet 2 1, 13% tahap selanjutnya menemukan calon 2-itemset dengan cara menggabungkan antara item obat l 1 dengan item obat l 1 sampai tidak ada item yang tidak dapat dikombinasikan lagi, dengan aturan bahwa setiap kandidat yang dihasilkan tidak boleh mengandung kandidat yang kembar antara satu dengan yang lainnya, sehingga diperoleh tabel seperti pada tabel iv
+adapun tampilannya dapat dilihat pada gambar 4
+aplikasi juga dapat mengolah data transaksi untuk menemukan kandidat dan frequent itemset, kemudian mengenerate association rulesuntuk ditampilkan dalam bentuk teks
+penentuan pola pembelian dapat dilakukan dengan melihat hasil dari kecenderungan konsumen membeli obat berdasarkan kombinasi 2 itemset hasil yang diperoleh dengan memanfaatkan algoritma association data mining lainya seperti generalized rule iduction, algoritma hash base sehingga dapat disimpulkan metode yang paling tepat untuk menganalisa data yang sangat besar

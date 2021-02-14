@@ -1,0 +1,106 @@
+this research aims to achieve both efficiency and effectiveness in managing a network computer using linux ubuntu 12.04 with linux terminal server project application, by using a computer that does not come with a hard drive 
+and also to improve the effectiveness of the use of ltsp on implementation with many ltsp client with ltsp cluster and to test the application of wireless bridge to the network medium that used for ltsp
+the benefits to be achieved in this research is to improve the ltsp server performance effectiveness at a time when many thin client applied and at the time when ltsp implemented in a places that are difficult to reach with the lan network
+with ltsp, it is expected to push the cost of the equipment as well as long-term investments that are charged to one of the establishments or places that require the use of optimization of device to always adjust and keep up with the development of technology that was adopted such as the operating system or software
+this problems occurs due to the use of architecture that generally requires compatibility of all devices that used
+the solution of the problem is to apply a thin-client architecture
+so not all the computers must be upgraded or replaced
+only server-side device is adjusted in order to adopt the technology and operating system software
+in terms of fulfilling the compatibility that desired
+keywords: ltsp, ltsp cluster, linux, ubuntu, server, thin client, wireless bridge 1
+pendahuluan perkembangan ilmu dan teknologi saat ini sangat pesat, terutama dalam bidang teknologi komputer
+kemajuan teknologi yang sangat pesat tersebut mengakibatkan komputer-komputer yang telah tertinggal dalam hal kapasitas memori, teknologi dan kecepatan prosesor kurang termanfaatkan dengan baik
+karena banyak user yang lebih memilih untuk mengganti komputer yang mereka miliki dengan komputer terbaru termasuk teknologi terbaru yang memiliki spesifikasi yang tinggi termasuk kapasitas memori yang besar dan memiliki hard disk yang besar pula untuk menampung data yang diperlukan
+dengan latar belakang pemanfaatan komputer- komputer yang telah tertinggal kemajuan teknologi tersebut digunakan teknik penggabungan komputer kedalam sebuah jaringan komputer menggunakan sistem operasi linux dengan program aplikasi linux terminal server project 
+dengan aplikasi ltsp memungkinkan user untuk memanfaatkan kembali komputer-komputer low-end tanpa hard disk untuk beroperasi seperti komputer baru dengan bantuan satu komputer baru sebagai server
+perkembangan teknologi komputer tidak hanya terjadi pada komputer prosesor dan memori tetapi juga terjadi pada ltsp dan teknologi jaringan komputer dengan ditemukannya linux terminal server project cluster dan wireless bridge
+dengan adanya perkembangan baru dalam ilmu komputer tersebut dapat mengembangkan efektivitas dan kualitas jaringan diskless dengan ltsp yang telah diaplikasikan sebelumnya
+pada penelitian ini akan dilakukan pengujian performa jaringan diskless standar dengan jaringan diskless cluster dan ujicoba penggunaan ltsp dengan wireless menggunakan wireless bridge
+adapun tujuan penulisan tugas akhir ini adalah : a
+membangun sebuah jaringan diskless dengan menggunakan ltsp standar dan ltsp cluster kemudian membandingkan performa keduanya
+meningkatkan efisiensi dan efektivitas penggunaan komputer yang sudah dimiliki dengan bantuan komputer baru 
+membangun jaringan ltsp dengan koneksi wireless dengan bantuan alat wireless bridge
+teori dasar 2.1 jaringan komputer diskless jaringan komputer diskless adalah suatu jaringan komputer atau mesin yang dapat beroperasi tanpa adanya dukungan media penyimpanan lokal
+ini berarti bahwa mesin tidak mempunyai disk sama sekali
+semua data disimpan terpusat pada satu server jaringan komputer diskless
+jaringan komputer diskless memulai operasi dengan memanggil sistem file dari server jaringan diskless, bukan dari storage lokal seperti yang biasa digunakan
+proses diskless akan membantu komputer client untuk dapat mengaktifkan sistem operasi tersebut dengan mengekseskusi file kernel di sisi komputer client
+setelah proses diskless selesai, dilanjutkan dengan akses melalui jaringan untuk mengeksekusi x-server di sisi komputer client, sehingga komputer client dapat mengakses aplikasi diskless
+proses tersebut memungkinkan komputer lama seperti komputer 486 yang mempunyai ram 8 mb menggunakan diskless dapat menjalankan kernel dan mengeksekusi x-server
+setelah proses eksekusi berhasil, maka proses dialihkan ke xdm pada komputer client dengan konfigurasi yang tinggi
+proses yang telah diarahkan tersebut seolah-olah berjalan di komputer client dengan kecepatan yang tinggi
+sebenarnya, proses tersebut terjadi di server sedangkan outputnya diclient
+booting melalui jaringan merupakan konsep lama, ide dasarnya adalah komputer client dengan kode booting seperti bootp atau dhcp dalam memory non-volatile chips mendapatkan sistem file root server dalam suatu jaringan ketika komputer client tidak dilengkapi dengan media penyimpanan, misalnya harddisk
+2.2 linux terminal server project ltsp adalah aplikasi untuk membangun jaringan thin-client atau diskless
+client-server ltsp disebut thin client karena komputer client hanya digunakan untuk menjalankan sistem operasi minimal, sedangkan semua program aplikasi dijalankan di server
+jaringan ltsp juga disebut diskless, karena komputer client tidak bekerja dengan harddisk sendiri
+ltsp pada intinya adalah satu set script yang memungkinkan kita menampilkan layar server di client, tentu saja di dalamnya jauh lebih kompleks, ada fasilitas remote boot, remote file system, hardware auto detection, remote multimedia & output, dll
+ltsp menyediakan suatu cara untuk menggunakan komputer kerja murah baik sebagai terminal yang berbasis grafis maupun yang berbasis teks pada server gnu/linux
+dengan menggunakan ltsp kita dapat menggunakan low end pc dan membuang hardisk, floppy, dan cd rom nya, dengan menambahkan lan card yang dapat diboot
+2.3 linux terminal server project cluster cluster adalah istilah dari penyatuan sekelompok data yang mempunyai korelasi atau karakteristik sejenis, berarti kita menyatukan pc-pc atau server ke dalam satu kesatuan komputasi
+cluster pada dasarnya juga menggunakan jaringan, tapi yang menjadi ciri khususnya adalah bagaimana tantangan menciptakan kecepatan komputasi setara mainframe, namun dengan biaya yang rendah
+kita mungkin sedikit banyak tahu, bahwa harga mainframe, misal cray, luar biasa mahalnya
+di era 70-an dan 80-an dimana mainframe cukup terkenal, hanya perusahaan-perusahaan bermodal besar yang sanggup membelinya
+karakteristik utama clustering, yaitu bagaimana suatu task ditangani secara bersama-sama
+kata bersama-sama di sini yang membedakan cluster dengan mekanisme jaringan biasa yang menjalankan program client server
+memang seringkali rancu dengan distributed computing, tapi mungkin bisa diperjelas lagi bahwa clustering difokuskan pada mekanisme dari os dan hardware untuk menyatukan sumber daya setiap node 
+dua tipe cluster yang dominan yaitu : 1
+secara umum, tipe cluster hpc ditujukan pada bagaimana suatu proses komputasi diakselerasi, dengan demikian task bisa diselesaikan lebih cepat contoh clustering jenis ini adalah openmosix
+secara umum, tipe cluster ini ditujukan agar program yang dijalankan di atasnya bisa terus berjalan, sekalipun salah satu node hang atau down
+contoh yang paling mudah adalah web server apache yang diset dengan suatu redirector, sehingga jika salah satu server down, server lain bisa mengambil alih
+sehingga linux terminal server project cluster juga dapat diartikan sebagai sekumpulan komputer yang terdiri dari beberapa server yang tergabung dalam satu jaringan dan dapat bekerja bersama-sama untuk memberikan resource atau data kepada client dimana client dari jaringan tersebut tidak memerlukan hardisk ataupun storage lainnya seperti disket, cd-rom, ataupun usb flashdisk karena semua storage dititik beratkan kepada server
+2.4 wireless bridge wireless bridge adalah komponen perangkat keras yang digunakan untuk menghubungkan dua segmen jaringan atau lebih yang secara fisik dan logis terpisahkan
+seperti windows, linux, mac os x dan freebsd
+tidak harus selalu perangkat keras, sebagai contoh beberapa sistem operasi menyediakan perangkat lunak untuk menjembatani protokol yang berbeda
+ini merupakan suatu hal yang biasa dalam protokol pada wireless ke kabel
+jadi dalam arti komputer bertindak sebagai bridge dengan menggunakan bridging software os
+banyak wireless router dan jalur akses nirkabel menawarkan baik mode atau mode, yang keduanya melakukan fungsi umum yang sama, perbedaan nya adalah modus bridging menghubungkan dua jenis protokol yang berbeda dan repeater mode merelay jenis protokol yang sama
+wireless router, acces point, dan bridge yang tersedia telah sesuai dengan standar ieee802.11a, b, g dan n
+sekelompok frekuensi untuk nirkabel standar ini dapat digunakan secara free-lisensi di banyak negara
+perangkat wireless bridge bekerja secara berpasangan, satu di setiap sisi dari 
+namun, terdapat juga yang dapat bejerja secara simultan yang menggunakan satu perangkat ke banyak perangkatl 
+bridging bisa didapatkan melalui wireless distribution system yang menciptakan tingkat transparan 2 jembatan nirkabel antara dua atau lebih point
+dimana bridge dapat ditetapkan sebagai acces point – client relationship yang membutuhkan perangkat nirkabel yang digunakan untuk bridging dan harus ditetapkan service set identifier dan saluran radio yang sama
+sebuah contoh dari aplikasi bridging point-to- point adalah apabila akan menghubungkan dua bangunan komersial yang terpisah
+bridging secara historis disebut propagasi data di perangkat tanpa melintasi tumpukan jaringan, seperti tcp / ip
+wireless bridging adalah istilah sehari-hari dan sebuah deskripsi yang lebih akurat dari wireless bridging adalah menghubungkan dua jaringan area lokal menjadi wireless lan kemudian kembali lagi lan bridge
+dua jaringan bridge dapat diperlakukan sebagai bagian dari subnet tunggal dalam internet protocol 
+seorang klien nirkabel akan dapat membuat permintaan dynamic host configuration protocol ke server dhcp kabel jika kabel dan jaringan nirkabel telah dijembatani
+dalam iso osi model, perangkat di mana paket melintasi lapisan jaringan dianggap router, perangkat di mana paket melintasi lapisan data link hanya dianggap sebagai jembatan
+hasil analisis dan pengujian skenario pengujian yang akan dilakukan adalah dengan melihat perbandingan kerja processor dan memori terhadap 1
+sistem ltsp standar merupakan server ltsp yang dibangun dalam kondisi awal tanpa dilakukan perubahan dalam sistem kerjanya 2
+sistem ltsp cluster adalah sistem ltsp yang telah dikembangkan sedemikian rupa sehingga mempunyai fitur cluster yaitu fitur dimana ltsp dapat menggabungkan lebih dari satu server ke dalam satu kesatuan kerja untuk melayani permintaan dari client baik itu ip address, nfs, image, resource dan lain-lain
+fitur yang menjadi ciri khas dari ltsp cluster ini adalah adanya proses load balancing atau pembagian kerja secara merata pada server tertentu
+pengujian linux terminal server project dilakukan dengan menggunakan program top dan htop
+program ini dijalankan pada sisi server untuk melihat penggunaan processor dan memori
+adapun cara untuk menjalankan program ini cukup dengan mengaktifkannya pada terminal console server dengan mengetik top dan htop
+tampilan aplikasi top untuk analisis kinerja server ltsp gambar 2
+tampilan aplikasi htop untuk analisis kinerja server ltsp seperti yang terlihat pada gambar 4.95, penggunaan cpu memiliki ukuran dalam persen dan penggunaan memori dalam kilobytes pada top dan dalam megabytes pada htop
+client yang digunakan dalam tahap pengujian ini adalah sembilan buah cpu amd athlon x2, dengan processor 2, 8ghz dan memori sebesar 2gb dan satu buah cpu pentium iv, dengan processor 2, 0ghz dan memori sebesar 600mb
+tahapan pengujian dilakukan dengan cara menyalakan client satu persatu hingga mencapai sepuluh client semuanya beroperasi dan diberikan beberapa buah beban aplikasi, yaitu libre office, gimp, dan firefox web browses
+batasan ini dilakukan karena aplikasi-aplikasi tersebut adalah aplikasi yang sering digunakan oleh client ltsp dan selain itu juga membutuhkan penggunaan sumberdaya yang cukup tinggi, sehingga layak untuk dijadikan aplikasi untuk pengujian linux terminal server project dan linux terminal server project cluster 
+3.1 pengujian ltsp standar tabel dibawah ini menunjukkan penggunaan processor dan memori pada keadaan sepuluh client aktif: tabel 1 uji pada sepuluh client ltsp standar n o beban aplikasi penggunaan processor beban aplikasi penggunaan memory 3 gimp 62% gimp 1672719 4 firefox 67% firefox 1676318 5 lo + gimp 66% lo + gimp 1664487 6 lo + firefox 73% lo + firefox 1665957 7 gimp + firefox 69% gimp + firefox 1721840 8 lo + gimp + firefox 74% lo + gimp + firefox tabel diatas memperlihatkan hasil analisis ltsp standar dengan sepuluh client aktif mulai dari keadaan tidak menjalankan aplikasi sampai dengan menjalankan aplikasi libre office, gimp, dan firefox
+selanjutnya data yang didapatkan diubah dalam bentuk grafik yang dapat dilihat pada gambar berikut ini : tanpa aplikasi libre office 0% 10% 20% 30% 40% 50% 60% 70% 80% gambar 3
+grafik penggunaan memori pada ltsp standar sepuluh client dari hasil pengujian ltsp standar pada sepuluh client dapat dilihat bahwa penggunaan processor dan memory hampir mencapai titik maksimum
+hal ini tentu saja akan mempengaruhi kinerja dari sisi client karena semakin mendekatinya titik maksimum kinerja suatu server ltsp akan meperlambat proses pada client
+hal ini menyebabkan kinerja client menjadi tidak optimal seperti sering terjadinya lag dan hang
+berikut ini adalah hasil screenshot kinerja server ltsp standar pada saat penggunaan pada 10 client dengan beban aplikasi tiga program sekaligus yaitu libre office, gimp, dan firefox
+penggunaan processor dan memori mencapai puncak pada saat penggunaan kesepuluh client 3.2 pengujian ltsp cluster berikut ini adalah pengujian kinerja server ltsp cluster yang akan menganalisis kinerja dari perhitungan processor dan memori yang digunakan oleh server
+pada ltsp cluster ini digunakan tiga server dimana satu server bertindak sebagai root dan dua lainnya sebagai application server
+karena sesi penanganan resource client berada pada application server maka dari itu analisis untuk ltsp cluster ini di tujukan pada dua application server tersebut
+tabel dibawah ini menunjukkan penggunaan processor dan memori pada keadaan satu hingga sepuluh client aktif: tabel 2
+grafik penggunaan processor pada ltsp cluster sepuluh client tanpa aplikasi gimp gambar 6
+grafik penggunaan memori pada ltsp cluster sepuluh client dari hasil pengujian ltsp cluster terlihat penggunaan processor dan memori lebih efektif dari ltsp, hal ini dikarenakan penggunaan dari fitur load balancing yang memungkinkan lebih dari satu server untuk berkerja sama melayani permintaan yang dilakukan oleh ltsp client
+sehingga semua beban dari client tidak terpusat hanya kepada satu server
+proses ini terbukti dapat meringankan kerja server ltsp sehingga dapat menangani client lebih banyak daripada ltsp standar
+berikut ini adalah hasil screenshot kinerja server ltsp cluster pada saat penggunaan pada 10 client dengan beban aplikasi tiga program sekaligus yaitu libre office, gimp, dan firefox
+perbandingan kinerja ltsp standar versus ltsp cluster dari hasil pengujian akan dilakukan perbandingan kinerja server antara sistem ltsp standar dengan ltsp cluster
+grafik perbandingan pemakaian memori pada sepuluh client dari hasil data pengujian dan perbandingan grafik yang didapatkan, dapat dilihat bahwa modifikasi ltsp cluster lebih efektif untuk pengaplikasian client ltsp dalam skala besar dan kinerja yang lebih efisien karena dapat mengurangi beban kerja server ltsp dibandingkan dengan menggunakan ltsp standar, hal ini disebabkan oleh proses load balancing yang terjadi pada ltsp cluster yang memungkinkan untuk membagi beban kerja secara merata pada lebih dari satu server ltsp
+dan pembagian tugas untuk beberapa server sehingga beban kerja tidak dipusatkan hanya kepada satu server saja
+3.4 grafik efektifitas penggunaan ltsp standar versus ltsp cluster dari hasil analisis yang didapat diatas, maka dapat dihitung besarnya efektifitas penggunaan jaringan diskless yang telah diimplementasi dengan rumusan seperti berikut ini: dahnilaiterenpersentasengginilaitertipersentase  rumusan diatas dapat digunakan karena rata-rata persentase nilai tertinggi sepenuhnya dimiliki oleh kinerja server ltsp standar sehingga dapat dihitung seberapa besar selisih efektifitas penggunaan ltsp standar versus ltsp cluster dan hasil analisis sebelumnya sudah didapatkan hasil yang berupa nilai- nilai persentase perhitungan kinerja baik itu memory maupun processor
+hasil-hasil yang didapatkan melalui penggunaan rumus diatas dapat dilihat seperti yang tertera pada tabel dibawah ini: tabel 5
+grafik efektifitas processor ltsp standar versus ltsp cluster 1 client 2 client 3 client 4 client 5 client 6 client 7 client 8 client 9 client 10 client gambar 12
+grafik efektifitas memory ltsp standar versus ltsp cluster dapat dilihat grafik efektifitas perbandingan kinerja ltsp standar versus ltsp cluster pada gambar 12, efektifitas penggunaan processor meningkat seiring bertambahnya client yang digunakan pada jaringan diskless
+ini menunjukkan ltsp cluster lebih efektif bila digunakan untuk pengimplementasian jaringan diskless pada banyak client
+sistem diskless menggunakan linux terminal server project dapat dibangun dan dapat memenuhi keperluan standar client yang menggunakan komputer lama
+optimasi pada sistem ltsp dilakukan dengan menggunakan ltsp cluster memiliki kinerja yang lebih baik dibandingkan dengan ltsp standar bila diaplikasikan kepada banyak client

@@ -1,0 +1,101 @@
+today the development of technology especially android smartphone is increase
+many various of android application that help human life are developed
+in the same time of developing smartphone technology, robotic technology is also growing
+many miniature robotic technology has ability to mimic the original robot
+touch sensor, light sensor, ultrasonic sensor, temperature sensor, and sound sensor
+one of the famous robotic technology is lego mindstorm nxt with nxt-g platform.lego mindstorm nxt 2.0 gives the user ability to construct the robot by using a few motors and sensors 
+however, processing capacity, memory, and communication ability of lego nxt are far behind what is offered on a smartphone device
+lego mindstorm nxt 2.0 only offers the capacity of flash memory 256kb and 64kb of ram.because of that reason, the writer create lego nxt controller applications embedded in smartphones based on android
+the intelligence of robot that used to put in the brick move into this application
+this gives us a great advantage because the current android smartphones has higher specifications than the brick components of lego nxt
+for comparison, android smartphones owned 2gb of ram and 2-64 gb storage capacity
+the brick of lego nxt only has 64kb ram and 256kb of flash memory.the applications also allows the robot to switch the modes of manual control mode, control through accelerometer, making robot avoid the obstacle, and line follower robot
+after going through the black box testing, all of the functions in application is running according to its function
+based on the kompetibility testing, the application also running well on a variety of different versions of andoid devices
+keyword : smartphone, robot, lego mindstorm nxt 2.0, sensor, accelerometer, line follower 1
+pendahuluan saat ini perkembangan teknologi smartphone berkembang semakin pesat
+berbagai jenis smartphone dengan berbagai platform terus bermunculan
+salah satu smartphone yang saat ini tengah popular adalah smartphone berbasis android
+dilansir andy rubin pada bulan juni 2012 sebanyak 900.000 perangkat android diaktifkan
+sama halnya dengan perkembangan teknologi smartphone, riset yang berkaitan mengenai pengembangan robot juga terus dilakukan
+salah satu teknologi robot yang terkenal sekarang adalah lego nxt dengan platform mindstorm nxt-g
+nxt merupakan penyempurnaan dari robot lego seri ris yang telah sukses di pasaran
+lego mindstorm nxt memungkinkan untuk pembangunan robot dengan menggunakan beberapa motor dan juga sensor
+namun daya pemrosesan, memori, dan kemampuan komunikasi lego nxt jauh dibelakang apa yang ditawarkan pada perangkat pda atau laptop
+lego mindstorm nxt 2.0 hanya menawarkan kapasitas flash memory sebesar 256kb dan ram sebesar 64kb
+hal tersebut tersebut memunculkan gagasan untuk membuat aplikasi pengontrol robot lego nxt yang ditanamkan pada smartphone berbasis android
+kecerdasan robot yang biasanya ditanankan dalam komponen brick dipindahkan ke dalam aplikasi ini
+hal ini memberikan keuntungan yang besar karena smartphone android saat ini dibekali spesifikasi yang jauh diatas komponen brick lego nxt
+menjadikan smartphone android sebagai otak robot memungkinkan dibangunnya aplikasi yang berukuran besar dan kompleks, selain itu programmer dapat memanfaatkan berbagai fasilitas yang ada dalam smartphone tersebut misalnya sensor cahaya, accelerometer, kamera, pengenal suara, dan text to speech
+teori dasar 2.1 smartphone telepon pintar adalah telepon genggam yang mempunyai kemampuan tinggi dan dengan fungsi yang hampir menyerupai komputer
+belum ada definisi mutlak dari smartphone ini
+beberapa orang mengatakan, smartphone merupakan telepon yang bekerja menggunakan seluruh piranti lunak sistem operasi yang menyediakan hubungan standar dan mendasar bagi pengembang aplikasi
+bagi yang lainnya, telepon pintar hanyalah merupakan sebuah telepon yang menyajikan fitur canggih seperti e-mail, internet dan kemampuan membaca buku elektronik / e-book atau terdapat keyboard dan konektor vga 2.2 operating system android android adalah sistem operasi untuk telepon seluler yang berbasis linux
+android menyediakan platform terbuka bagi para pengembang untuk menciptakan aplikasi mereka sendiri untuk digunakan oleh bermacam piranti bergerak
+, pendatang baru yang membuat piranti lunak untuk ponsel
+untuk mengembangkan android, dibentuklah open handset alliance, konsorsium dari 34 perusahaan piranti keras, piranti lunak, dan piranti telekomunikasi, termasuk google, htc, intel, motorola, qualcomm, t-mobile, dan nvidia
+ 2.3 bluetooth bluetooth merupakan suatu teknologi komunikasi wireless yang beroperasi pada pita frekuensi 2, 4 ghz unlicensed ism 
+teknologi bluetooth ini pertama kali diciptakan oleh ericsson pada tahun 1994
+awalnya bluetooth digunakan sebagai alternatif pengganti salah satu konektor kabel yang pada akhirnya teknologi ini lebih berkembang kerena kemampuannya untuk terkoneksi pada beberapa perangkat sekaligus
+2.4 robot lego mindstorm nxt lego mindstorms nxt adalah robotic kit yang dapat diprogram secara fleksibel yang dikeluarkan oleh legopada tahun 2006
+nxt menggantikan generasi sebelumnya yang disebut dengan robotic invention system atau seringkali kita dengar dengan rcx
+kit robotic ini dilengkapi dengan pemrograman menggunakan software nxt-g atau software lainnya yang dibuat oleh pihak lain seperti nxc, nbc, lejos nxj, robotc, atau microsoft robotic studio
+lego memiliki beberapa komponen inti yang terdapat didalamnya
+komponent- komponen tersebut terdiri atas brick, motor stepper, dan sensor-sensor yang terdapat didalamnya
+berikut penjelasan mengenai komponen lego mindstorm nxt
+2.5 uml unified modeling language adalah keluarga notasi grafis yang didukung oleh meta-model tunggal, yang membantu pendeskripsian dan desain sistem perangkat lunak, khususnya sistem yang dibangun menggunakan pemrograman berorientasi obyek 
+berdasarkan jeffery dalam bukunya yang berjudul unified modeling language merupakan satu kumpulan konvensi pemodelan yang digunakan untuk menentukan atau menggambarkan sebuah sistem software yang terkait dengan objek (whitten l
+2.6 visual block programming visual block programming merupakan metode pembuatan program berbasis visual programming language 
+pada metode ini programmer membuat aplikasi dengan membuat koneksi antara objek-objek dengan menggunakan blok-blok yang telah disediakan
+expresi visual dalam visual block programming berupa simbol-simbol yang menjelaskan tentang alur program, hubungan antar entity, dan impact
+berbeda dengan pemrograman terstruktur atau prosedural yang mengeksekusi kode-kode programnya mulai dari awal sampai akhir program secara beruntun
+metode pemrograman berbasis visual dikembangkan dengan tujuan untuk meningkatkan language design yang sekarang konvensional seperti textual programming language
+2.7 google app inventor google app inventor adalah sebuah aplikasi web-based yang memungkinkan pengguna untuk membuat sebuah aplikasi perangkat lunak untuk os android, google app inventor mengunakan graphical interface, hampir mirip dengan graphical interface milik scratch dan starlogo tng, yang memungkinkan pengguna untuk drag and drop objek visual untuk membuat aplikasi yang berjalan pada sistem
+framework visual programming app inventor merupakan pengembangan dari bahasa pemrograman scratch dari mit, yang secara spesifik merupakan implementasi dari open block yang didistribusikan oleh mit scheller teacher education program yang diambil dari riset yang dilakukan oleh ricarose roque
+perancangan sistem 3.1 perancangan diagram usecase diagram use case berikut menggambarkan perilaku dari aktor yang terlibat dalam aplikasi
+dalam aplikasi ini user dapat melakukan beberapa perilaku meliputi pengaturan koneksi smartphone ke robot, memilih menu kendali robot yang diinginkan, serta menampilkan bantuan dan tentang aplikasi
+gambar 3.1 diagram use case dalam diagram use case terlihat bahwa untuk memulai aplikasi user dapat melakukan koneksi smartphone ke robot
+setelah itu user dapat memilih mode kendali robot yang diinginkan meliputi kendali manual, kendali accelerometer, robot penghindar halangan, dan robot line follower
+selain itu user juga dapat menampilkan bantuan serta tentang aplikasi
+3.2 activity diagram activity diagram menggambarkan berbagai alir aktivitas dalam sistem yang sedang dirancang, bagaimana masing-masing alir berawal, decision yang mungkin terjadi, dan bagaimana mereka berakhir
+dalam activity diagram berikut terlihat alur aktifitas user saat menggunakan aplikasi ini
+aktifitas yang dilakukan mulai dari masuk ke tampilan utama, memilih menu robot yang diinginkan, mengaktifkan koneksi robot, memilih tentang aplikasi, dan bantuan aplikasi
+gambar 3.2 activity diagram aplikasi pengontrol robot secara keseluruhan 3.2 perancangan struktur antarmuka aplikasi pengontrol robot yang dibuat adalah aplikasi berbasis android yang dirancang memiliki beberapa layout yang disesuaikan dengan kebutuhan aplikasi
+struktur antarmuka aplikasi yang dirancang dapat dilihat pada gambar 3.3 berikut : gambar 3.3 struktur antarmuka sistem 4
+hasil perancangan aplikasi yang dirancang merupakan aplikasi mobile remote control berbasis android pada robot lego mindstrorm nxt 2.0 yang bertujuan untuk mengendalikan robot lego nxt melalui smartphone android
+antarmuka aplikasi yang dirancang terdiri dari beberapa menu yang dapat diakses oleh pengguna aplikasi
+adapun perancangan antarmuka tersebut adalah sebagai berikut
+antarmuka halaman utama muncul ketika pengguna membuka aplikasi
+di dalam antar muka ini pengguna dapat memilih beberapa menu yang tersedia yaitu menu kendali robot, bantuan, about, dan menu keluar
+terdapat pula gambar robot nxt pada tampilan halaman utama
+adapun antarmuka halaman utama dapat dilihat pada gambar 4.1
+gambar 4.1 antarmuka menu utama antara muka menu kendali robot ditampilkan bila pengguna menekan tombol kendali robot pada menu halaman utama
+dalam antarmuka ini terdapat gambar robot nxt serta enam tombol pada tampilan menu kendali robot yaitu tombol koneksi bluetooth, kendali manual, accelerometer, wall detector, line follower, dan tombol kembali
+tampilan halaman antarmuka menu kendali robot dapat dilihat pada gambar 4.2
+gambar 4.2 antarmuka kendali robot antarmuka koneksi bluetooth menampilkan alamat bluetooth yang aktif yang akan dihubungkan dengan smartphone pengguna 
+gambar 4.3 antarmuka koneksi bluetooth saat bluetooth aktif antarmuka menu kendali manual akan tampil setelah pengguna menekan tombol kendali manual pada halaman sebelumnya
+antar muka menu kendali manual dapat dilihat pada gambar 4.4
+gambar 4.4 antarmuka menu kendali manual antarmuka menu kendali accelerometer akan tampil setelah pengguna memilih menu accelerometer pada halaman sebelumnya
+dalam antarmuka ini terdapat sebuah tombol untuk mengaktifkan accelerometer
+dalam antarmuka ini trdapat pula keterangan kekuatan pergerakan motor kiri dan kanan robot
+antarmuka menu kendali accelerometer dapat dilihat pada gambar 4.5
+gambar 4.5 antarmuka menu accelerometer sebelum diaktifkan antarmuka menu wall detector akan tampil setelah pengguna memilih menu wall detector pada halaman sebelumnya
+dalam antarmuka ini terdapat tombol untuk mengaktifkan robot menjadi robot penghindar halangan serta tombol untuk kembali ke menu sebelumnya
+dalam antarmuka ini pengguna juga dapat melihat keterangan jarak dinding penghalang dengan robot serta keterangan arah gerak robot
+antarmuka menu wall detector dapat dilihat pada gambar 4.6
+gambar 4.6 antarmuka wall detector sebelum diaktifkan antar muka line follower ditampilkan jika pengguna memilih menu line follower pada halaman sebelumnya
+pada antarmuka ini terdapat tombol untuk mengaktifkan robot menjadi robot line follower
+tombol tersebut berwarna merah sebelum diaktifkan dan berubah menjadi hijau setelah diaktifkan
+terdapat pula tombol untuk kembali ke menu sebelumnya.antarmuka menu line follower dapat dilihat pada gambar 4.7
+gambar 4.7 antarmuka menu line follower sebelum diaktifkan antarmuka menu bantuan tampil jika user memilih tombol bantuan pada menu sebelumnya
+pada antarmuka ini pengguna memiliki empat pilihan bantuan yaitu fungsi aplikasi, minimum requirement, cara menggunakan aplikasi, jika aplikasi error
+antar muka menu bantuan dapat dilihat pada gambar 4.8
+gambar 4.8 antarmuka bantuan saat pilihan pertama dipilih
+antarmuka menu tentang aplikasi menampilkan judul aplikasi yang dibuat serta versi aplikasi
+terdapat logo developer info yang jika di klik akan menampilkan detail informasi pembuat aplikasi
+selain itu terdapat pula tombol kembali ke menu sebelumnya
+tampilan antarmuka about dapat dilihat di gambar 4.9 dan gambar 4.10
+kesimpulan setelah dilakukan analisis dan pengujian terhadap aplikasi mobile remote control berbasis android pada robot lego mindstorm nxt 2.0, dapat disimpulkan bahwa : 1
+aplikasi mobile remote control berbasis android pada robot lego mindstorm nxt 2.0 dapat mengontrol pergerakan robot lego mindstorm nxt 2.0 melalui koneksi bluetooth
+aplikasi yang dibangun dapat membuat robot lego nxt 2.0 berpindah dari satu mode ke mode lain meliputi mode kendali manual, accelerometer, wall detector, dan line follower
+aplikasi yang dibangun mampu menjadikan smartphone android berfungsi sebagai otak robot menggantikan fungsi brick yang biasanya dijadikan otak pengendali robot

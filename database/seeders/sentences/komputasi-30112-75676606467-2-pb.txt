@@ -1,0 +1,60 @@
+beasiswa yayasan merupakan beasiswa yang pendanaannya berasal dari yayasan yang diperuntukkan bagi mahasiswa berprestasi dan kurang mampu dari segi ekonomi, yang bertujuan agar tidak terjadi putus kuliah bagi mahasiswa
+pada saat ini, amik tunas bangsa belum memiliki sistem pendukung keputusan dalam menentukan penerima beasiswa yayasan sehingga kemungkinan terjadinya kesalahan dalam merekomendasikan calon menerima beasiswa dan sangat rentan dalam praktik nepotisme
+oleh karena itu, penulis melakukan penelitian dalam menentukan penerima beasiswa yayasan
+metode penelitian yang diterapkan dalam menentukan penerima beasiswa yayasan amik tunas bangsa adalah metode smart, karena metode ini mampu menyelesaikan masalah pengambilan keputusan multikriteria berdasarkan teori bahwa setiap alternatif terdiri dari sejumlah kriteria yang memiliki nilai-nilai dan setiap kriteria memiliki bobot yang menggambarkan seberapa penting kriteria tersebut dengan kriteria lain
+kriteria yang digunakan dalam menentukan penerima beasiswa yayasan pada penelitian ini adalah ipk, penghasilan orang tua dan jumlah tanggungan
+hasil dari penelitian ini adalah rekomendasi penerima beasiswa
+dengan menggunakan metode smart, maka rekomendasi yang dihasilkan lebih akurat
+pendahuluan beasiswa merupakan pemberian bantuan kepada perorangan berupa dana yang digunakan untuk keberlangsungan pendidikan
+pada amik tunas bangsa, selain beasiswa yang berasal dari pemerintah, beasiswa yayasan amik tunas bangsa juga diberikan kepada mahasiswa berprestasi dan kurang mampu dari segi ekonomi
+penentuan penerima beasiswa yayasan dilakukan secara selektif, namun belum menerapkan sistem pendukung keputusan
+sehingga output yang dihasilkan kurang akurat
+menurut i made ari santososistem pendukung keputusan merupakan sistem yang memiliki kemampuan pemecahan masalah dan kemampuan pengkomunikasian untuk masalah dengan kondisi semi terstruktur dan tak terstruktur
+menurut turbanbahwa sistem pendukung keputusan merupakan penggabungan kemampuan komputer dalam pelayanan interaktif dengan pengolahan atau pemanipulasi data yang memanfaatkan model atau aturan penyelesaian yang tidak terstruktur
+pada penelitian ini, penulis menggunakan metode smart untuk memberikan rekomendasi penerima beasiswa yayasan amik tunas bangsa
+menurut sundari retno andani, ada beberapa kriteria yang digunakan dalam pengambilan keputusan penerima beasiswa yayasan, yaitu ipk, penghasilan orang tua dan jumlah tanggungan orang tua
+menurut yeni kustiyahningsihbahwa metode smart dapat melakukan pengambilan keputusan yang multiatribut
+metode pembobotan smart merupakan metode pendukung keputusan yang paling sederhana, hal ini sesuai dengan pernyataan eva yuliantidalam penelitiannya
+pada penelitian sebelumnya, smart banyak diteliti oleh peneliti- peneliti diantaranya suryanto, nurhasanah, dwi novianti, rika yunitarini, mesdiana situmeang, h.d
+selain lebih sederhana, pada metode smart, penambarahan dan pengurangan alternatif tidak akan mempengaruhi perhitungan pembobotan, karena setiap penilaian alternatif tidak saling bergantung
+uraian penelitian sebuah aplikasi berupa sistem pendukung keputusan mulai dikembangkan pada tahun 1970
+decision support sistem dengan didukung oleh sebuah sistem informasi berbasis komputer dapat membantu seseorang dalam meningkatkan kinerjanya dalam pengambilan keputusan
+menurut abdul kadir, sistem pendukung keputusan sebagai sekumpulan prosedur berbasis model untuk data pemrosesan dan penilaian guna membantu para manajer mengambil keputusan
+sehingga dapat disimpulkan, bahwa sistem pendukung keputusan merupakan sistem yang melakukan proses dalam pengambilan keputusan
+metode smart metode smart merupakan metode pengambilan keputusan multi kriteria yang dikembangkan oleh edward pada tahun 1977
+smart merupakan teknik pengambilan keputusan multi kriteria ini didasarkan pada teori bahwa setiap alternatif terdiri dari sejumlah kriteria yang memiliki nilai-nilai dan setiap kriteria memiliki bobot yang menggambarkan seberapa penting ia dibandingkan dengan kriteria lain
+pembobotan ini digunakan untuk menilai setiap alternatif agar diperoleh alternatif terbaik
+urutan dalam penggunaan metode smart menurut goodwin dan wrightadalah sebagai berikut : 1
+menentukan bobot kriteria pada masing-masing kriteria dengan menggunakan interval 1-100 untuk masing- masing kriteria dengan prioritas terpenting
+hitung normalisasi dari setiap kriteria dengan membandingkan nilai bobot kriteria dengan jumlah bobot kriteria
+ kriteria.sedangkan, adalah total jumlah bobot dari semua kriteria 4
+memberikan nilai parameter kriteria pada setiap kriteria untuk setiap alternatif
+menentukan nilai utiliti dengan mengonversikan nilai kriteria pada masing-masing kriteria menjadi nilai kriteria data baku
+nilai utiliti diperoleh dengan menggunakan persamaan : ………………
+ dimana adalah nilai utiliti kriteria ke-1 untuk kriteria ke – i, adalah nilai kriteria maksimal, adalah nilai kriteria minimal dan adalah nilai kriteria ke- i
+menentukan nilai akhir dari masing-masing kriteria dengan mengalihkan nilai yang didapat dari normalisasi nilai kriteria data baku dengan nilai normalisasi bobot kriteria
+kemudian jumlahkan nilai dari perkalian tersebut
+ dimana adalah nilai total alternatif, adalah hasil dari normalisasi bobot kriteria dan adalah hasil penentuan nilai utiliti
+metodologi penelitian metodologi penelitian merupakan sistematika tahapan yang dilaksanakan selama penelitian
+pada penelitian ini, ada lima proses tahapan yang akan diselesaikan yaitu pengumpulan data, analisa sistem, dan desain sistem
+pengumpulan data pada tahap ini dilakukan pengumpulan data mahasiswa
+data mahasiswa diperolah dari bagian pendidikan amik tunas bangsa pematangsiantar
+analisa sistem lama : pada tahap ini dilakukan analisa dalam seleksi penerima beasiswa yayasan amik tunas bangsa
+pada amik tunas bangsa dalam menentukan penerima beasiswa masih menggunakan sistem manual 2
+analisa sistem baru : analisa sitem dilakukan untuk menyusun langkah demi langkah penguraian dari sebuah sistem informasi yang nantinya akan dirancang/dikembangkan dengan maksud mencari atau mengidentifikasi dan mengevaluasi permasalahan-permasalahan yang akan terjadi pada sistem yang akan dirancang
+serta kebutuhan-kebutuhan apa saja yang diinginkan untuk mengatasi/menangani permasalahan yang ada pada pengguna sistem nantinya
+jika terdapat satu proses saja yang terjadi penyimpangan atau kesalahan maka untuk proses berikutnya juga akan terjadi kesalahan karena proses-proses tersebut selalu berhubungan
+desain sistem pada tahap ini dilakukan desain sistem pendukung keputusan dalam menentukan penerima dengan metode smart
+hasil dan pembahasan data sample yang digunakan pada penelitian ini adalah data mahasiswa amik tunas bangsa pematangsiantar sebanyak 10 orang
+berikut sample data mahasiswa yang digunakan pada penelitian ini, yaitu : tabel i tabel sample mahasiswa no nim nama ipk pendapatan orang tua jumlah tanggungan 3.73 3 3 3.55 1.2 2 pada sistem yang sedang berjalan dalam menentukan penerima beasiswa hanya menggunakan satu kriteria, yaitu ipk
+menentukan kriteria : pada penelitian ini, penulis menggunakan tiga kriteria, yaitu ipk, pendapatan orang tua dan jumlah tanggungan
+normalisasi : pendapatan orang tua 30% 0, 3 jumlah tanggungan 30% 0, 3 3
+menentukan nilai akhir : rumus : pencarian nilai akhir dari sample : i
+enjelica rumapea = + + = 32 + 24 + 18 = 74 berikut ini merupakan hasil dari perhitungan nilai akhir di atas
+sehingga di dapat lha ranking tertinggi sampai terendah dari calon penerima beasiswa
+sehingga metode smart dapat diterapkan pada amik tunas bangsa dalam menentukan penerima beasiswa yayasan
+kesimpulan adapun kesimpulan dari penelitian ini adalah : 1
+hasil dari metode smart lebih akurat dibandingan perhitungan manual yang diterapkan pada amik tunas bangsa
+metode smart dapat melakukan pengambilan keputusan yang multiatribut
+metode pembobotan smart merupakan metode pendukung keputusan yang paling sederhana
+selain lebih sederhana, pada metode smart, penambarahan dan pengurangan alternatif tidak akan mempengaruhi perhitungan pembobotan, karena setiap penilaian alternatif tidak saling bergantung

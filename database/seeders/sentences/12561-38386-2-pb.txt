@@ -1,0 +1,10 @@
+makalah ini membahas solusi untuk permasalahan monitoring kerusakan jalan sebagai salah satu bagian dari sistem transportasi darat
+media sosial twitter dan gis dimanfaatkan pada studi perancangan ini untuk mengembangkan sistem monitoring atau pemantauan secara online kondisi jalan
+fokus dari penelitian ini adalah bagaimana mengelola data dan informasi kerusakan jalan dengan memanfaatkan dan mengambil informasi dari masyarakat melalui media sosial dibuat rancangan aplikasi sistem monitoring berbasis gis dan juga dilakukan studi untuk implementasi dari aplikasi ini
+hasil dari penelitian ini adalah sebuah sistem aplikasi pemetaan yang mampu menyajikan informasi kerusakan jalan termasuk menampilkan segmentasi dan notifikasi pada data spasial di daerah sekitar lokasi laporan kerusakan jalan
+hampir setiap tahun pemerintah pusat dan daerah mengalokasikan anggaran besar untuk perbaikan infrastruktur jalan
+namun, jumlah jalan yang rusak dan masih harus diperbaiki tetap saja cukup panjang
+kondisi jalan yang buruk dan pengelolaan pemeliharaan yang kurang baik memberikan pengaruh yang cukup vital terhadap kualitas sistem transportasi darat
+salah satu yang paling dirasakan adalah terganggunya kelancaran arus lalu-lintas atau menyebabkan kemacetan, bahkan lebih parahnya lagi dapat menyebabkan kecelakaan
+, kerusakan alur/cekungan arah memanjang jalan sekitar jejak roda kendaraan, genangan aspal dipermukaan jalan, dan lubang-lubang 
+kerusakan tersebut bisa terjadi pada muka jalan yang menggunakan beton aspal sebagai lapis permukaannya

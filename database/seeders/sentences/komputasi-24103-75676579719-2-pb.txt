@@ -1,0 +1,108 @@
+ruqyah syar’iyyah adalah bacaan yang terdiri dari ayat-ayat al-qur`an dan hadits-hadits rasulullah shallallaahu ’alaihi wa sallam yang shahih, untuk memohon kesembuhan kepada allah dari gangguan yang ada
+tata cara ruqyah yaitu meletakkan tangan pada bagian badan yang dirasakan sakit kemudian mengucapkan bacaan ruqyah
+seiring dengan bertambahnya pengalaman dalam melakukan ruqyah, baik ruqyah diri sendiri maupun orang lain
+praktisi ruqyah dapat memanfaatkan pengalaman dalam melakukan ruqyah untuk membantu menentukan titik indikasi gangguan jin pada tubuh pasien
+gejala yang dirasakan dibagi menjadi dua jenis, yaitu gejala fisik dan gejala psikis
+pengalaman tersebut dikumpulkan menjadi basis kasus, sehingga sangat memungkinkan untuk dibuat sistem penalaran berbasis kasus atau case based reasoning 
+penelitian ini bertujuan untuk membangun sistem cbr yang dapat menentukan titik indikasi gangguan jin pada tubuh manusia
+proses cbr melalui 4 tahap yaitu retrieve, reuse, revise dan retain
+hal yang terpenting dalam cbr adalah menentukan nilai kemiripan atau similaritas antara kasus-kasus yang tersimpan di basis kasus dengan kasus baru yang akan dicari solusinya
+perhitungan similaritas kasus pada penelitian ini dilakukan dengan metode braun-blanquet 
+sistem pada penelitian ini dibatasi hanya pada kasus bagian kepala
+berdasarkan hasil pengujian validasi membandingkan hasil diagnosis pakar dengan hasil diagnosis sistem terhadap 65 data kasus, terdapat 53 kasus yang sesuai
+dengan demikian tingkat keberhasilan sistem adalah 81, 54%
+blanquet mengobati penyakit, bukan sebagai alternatif sampingan
+selain itu, ruqyah juga merupakan senjata ampuh untuk melawan dan mengusir setan dan segala keburukan yang ditimbulkannya
+sebagai ikhtiar penyembuhan, ruqyah merupakan kebutuhan sangat urgen yang tidak boleh diremehkan
+pada bagian badan yang dirasakan sakit kemudian mengucapkan bacaan ruqyah
+berdasarkan pengalaman praktisi ruqyah, sering ditemukan bahwa gangguan jin dapat menyebabkan korbannya terkena penyakit fisik yang dampaknya sangat berbahaya bagi kesehatan manusia
+ini semua terjadi karena kehendak allah subhaanahu wa ta’aala pula
+berdasarkan pengalaman, titik indikasi area tubuh manusia yang diserang oleh jin dapat diketahui dari tanda- tanda dan dampak yang biasa ditimbulkannya
+seiring dengan bertambahnya pengalaman dalam melakukan ruqyah, baik ruqyah diri sendiri maupun orang lain
+praktisi ruqyah dapat memanfaatkan pengalamannya tersebut untuk membantu menentukan titik indikasi gangguan jin pada tubuh pasien
+gejala yang dirasakan dibagi menjadi dua jenis, yaitu gejala fisik dan gejala psikis
+gejala yang dirasakan oleh pasien dan titik indikasi yang didapat akan disimpan dalam bentuk pengalaman yang dapat berguna untuk kasus atau pasien lain dalam membantu menentukan titik indiikasi gangguan jin pada dirinya
+pengalaman tersebut dikumpulkan menjadi basis kasus, sehingga sangat memungkinkan untuk dibuat sistem case based reasoning atau penalaran berbasis kasus
+sistem cbr dapat membantu menentukan titik indikasi gangguan jin untuk ruqyah
+indikasi gangguan jin untuk ruqyah menggunakan silimilaritas braun-blanquet wahyu trihadi saputra#1, tursina#2, yulianti#3 #program studi informatika universitas tanjungpura jl
+sumber pengetahuan utama sistem cbr adalah berdasarkan kasus-kasus yang telah ada atau yang telah tersimpan di dalam basis kasus
+sumber data utama yang diperoleh sebagai penunjang dalam membangun cbr pada sistem ini adalah data kasus dari praktisi ruqyah
+sistem yang dibuat menggunakan fitur berupa gejala fisik dan psikis
+sistem pada penelitian ini dibatasi hanya pada kasus bagian kepala
+input dari sistem yang dibuat berbentuk biner yaitu 1 atau menyatakan ada gejala dan 0 yang menyatakan tidak ada gejala
+perhitungan similaritas kasus menggunakan metode braun-blanquet yang merupakan salah satu cara perhitungan similaritas untuk data biner
+aplikasi berbasis web dapat diakses dari berbagai perangkat dengan syarat menggunakan web browser saja sudah dapat mengaksesnya
+bertujuan untuk menyelesaikan permasalahan baru dengan cara mengadaptasi solusi-solusi yang terdapat pada kasus- kasus sebelumnya yang mempunyai permasalahan yang mirip dengan kasus yang baru
+sumber pengetahuan utama sistem cbr adalah berdasarkan kasus-kasus yang telah ada atau yang telah tersimpan di dalam basis kasus
+cbr harus melakukan beberapa tahapan proses untuk menghasilkan solusi suatu masalah diantaranya adalah mencari kemiripan kasus baru dengan kasus yang tersimpan
+tahapan proses pada cbr dalam mencari nilai kemiripan dibutuhkan empat tahap
+a) retrieve adalah menemukan kembali kasus yang sama atau yang paling mirip dengan kasus baru
+b) reuse adalah menggunakan kembali informasi dan pengetahuan dari basis kasus untuk memecahkan masalah kasus baru
+c) revise adalah merevisi atau memperbaiki solusi yang diusulkan
+d) retain adalah menyimpan pengalaman untuk memecahkan masalah yang akan datang ke dalam basis kasus
+berdasarkan tahapan yang ada dalam cbr, diperlukan dua langkah utama dalam menentukan solusi
+ a) membangun basis kasus, yang digunakan sebagai tempat penyimpanan
+b) menentukan fungsi kemiripan, langkah ini digunakan untuk mengenali kesamaan atau kemiripan antara kasus-kasus yang tersimpan dalam basis kasus dengan kasus yang baru
+yang bersifat biner adalah dengan menggunakan metode braun-blanquet formula yang digunakan braun-blanquet untuk menghitung similaritas antara dua objek x dan y adalah pada persamaan 2.1 berikut
+braun-blanquet = if > then s:=a/ else s:=a/ a: mewakili jumlah atribut biner, x=1 dan y=1 b: mewakili jumlah atribut biner, x=1 dan y=0 c: mewakili jumlah atribut biner, x=0 dan y=1 s: mewakili nilai similaritas uml merupakan bahasa visual untuk pemodelan dan komunikasi mengenai sebuah sistem dengan menggunakan diagram dan teks-teks pendukung
+uml adalah metodologi untuk mengembangkan sistem oop dan sekelompok tool untuk mendukung pengembangan sistem
+uml adalah salah satu standar bahasa yang banyak digunakan di dunia industri untuk mendefinisikan requirement, membuat analisis dan desain, serta menggambarkan arsitektur dalam pemrograman berorientasi objek
+diagram alir sistem penentuan titik indikasi gangguan jin pada tubuh manusia
+melakukan perbandingan kasus w dengan kasus lama yang tersimpan di dalam database
+proses perbandingan ini akan menghasilkan nilai similaritas yang dihitung dengan metode braun-blanquet jika nilai similaritas sama dengan 1, maka proses selesai
+jika nilai similaritas tidak sama dengan 1, maka kasus w akan disimpan ke dalam tabel kasus baru
+tabel kasus baru menyimpan seluruh data kasus baru yang telah dimasukkan ke dalam sistem yang mana data tersebut dapat diolah oleh admin
+admin dapat merevisi dan memverifikasi data kasus baru agar dapat menjadi basis kasus
+basis kasus akan digunakan sistem sebagai acuan solusi atas kasus baru lainnya
+fitur keterangan fitur keterangan f008 juling f009 melotot f012 wajah kelihatan jelek atau tua f013 gatal di wajah f015 kulit wajah berubah hitam f016 hidung sering mampet p002 linglung penjelasan tabel 1 bahwa dari 2 jenis gejala yang ada, terdapat 28 fitur yang digunakan dalam penelitian dengan rincian 22 fitur gejala fisik dan 6 fitur gejala psikis
+kode keterangan kp kepala dibatasi hanya pada kasus bagian kepala yang mana terdapat 5 titik indikasi
+pada gambar 3 terdapat dua aktor, yaitu aktor pengguna dan aktor admin
+pengguna dapat mengakses menu konsultasi, informasi akidah islam, informasi panduan ruqyah, informasi bantuan penggunaan aplikasi pada menu konsultasi, serta informasi tentang aplikasi
+sedangkan admin dapat melakukan manajemen data basis kasus, yaitu menambah, mengedit, maupun menghapus
+data fitur dapat admin tampilkan dengan menekan menu fitur
+use case diagram sistem penentuan titik indikasi gangguan jin pada tubuh manusia
+terdapat 2 macam pengujian validasi sistem yang dilakukan
+a) pengujian membandingkan hasil diagnosis pakar dengan hasil diagnosis sistem b) pengujian tahapan case based reasoning e
+hasil perancangan sistem indikasi gangguan jin pada saat ruqyah
+pada penelitian ini kasus dibatasi pada kasus kepala
+sistem akan mendiagnosis titik indikasi gangguan jin di tubuh manusia dan memberikan keluaran hasil titik indikasi berdasarkan gejala yang dirasakan
+tampilan aplikasi dapat dilihat pada gambar 4, 5, dan 6
+hasil diagnosis kasus baru yang dilakukan oleh sistem dengan hasil diagnosis oleh pakar 
+hasil pengujian dengan membandingkan hasil diagnosis oleh pakar dengan hasil diagnosis oleh sistem dapat dilihat pada tabel 1 berikut
+keterangan: ts= tidak sesuai s= sesuai b) pengujian tahapan case based reasoning 
+1) pengujian tahapan retrieve dilakukan dengan menelusuri dan mendapatkan kasus-kasus dalam basis kasus yang mirip dengan kasus baru
+proses input data dan melakukan diagnosis titik indikasi gangguan dapat dilihat pada gambar 7 dan 8
+proses menjawab pertanyaan di halaman konsultasi
+pengujian ini dilakukan dengan memproses penggunaan hasil titik indikasi dari kasus-kasus yang ada pada basis kasus untuk mengetahui titik indikasi pada kasus baru
+tahapan ini memberikan output berupa titik indikasi gangguan dari perhitungan similaritas menggunakan metode braun-blanquet hasil titik indikasi yang digunakan adalah dari kasus yang berada di basis kasus yang kemiripannya paling relevan dengan kasus baru
+hasil titik indikasi kasus lama yang memiliki kemiripan tertinggi dengan kasus baru menjadi alternatif hasil titik indikasi kasus baru dapat dilihat pada pada gambar 9
+kasus lama yang digunakan sebagai hasil titik indikasi untuk kasus baru
+pengujian ini dilakukan dengan meninjau kembali untuk perbaikan data hasil titik indikasi
+kasus yang ada ditinjau kembali gejala dan hasil titik indikasinya
+hasil akan disesuaikan dengan gejala yang dirasakan
+tahapan revise kasus baru dapat dilihat pada gambar 10
+pengujian ini dilakukan dengan memindahkan data kasus baru ke basis kasus
+kasus baru ini telah melewati tahap verifikasi admin sehingga hasil titik indikasi kasus baru tersebut dapat menjadi solusi untuk kasus- kasus selanjutnya
+tahapan retain dapat dilihat pada pada gambar 11 dan 12
+hasil pengujian metode braun-blanquet kasus similaritas kasus mirip 3 1 4 7 1 39 8 1 22 10 1 85 dari kasus baru memiliki kesamaan sempurna dengan gejala yang terdapat pada basis kasus
+maka sistem memberikan titik indikasi yang serupa dengan kasus lama sebagai solusi permasalahan pada kasus baru
+nilai selain 1 pada kolom similaritas merupakan persentase kemiripan tertinggi gejala kasus baru atas basis kasus
+sistem memberikan 3 nilai similaritas tertinggi yang paling mendekati angka 1
+tiap nilai similaritas juga tertera nomor basis kasusnya pada kolom kasus mirip
+hal ini bersifat rekomendasi bagi pengguna untuk menggunakan hasil tersebut
+data kasus baru tersebut juga dapat direvisi dan dimasukkan ke dalam basis kasus oleh admin jika diperlukan
+gangguan jin pada tubuh manusia untuk ruqyah dapat disimpulkan sebagai berikut
+a) hasil pengujian dengan membandingkan hasil pakar dan hasil sistem dari 65 kasus yang diuji, didapatkan hasil terdapat 12 kasus yang menunjukkan hasil tidak sesuai yaitu pada kasus uji nomor 1, 2, 4, 5, 6, 9, 13, 37, 48, 49, 53, dan 58
+sehingga kasus yang sesuai sejumlah 53 kasus
+menelusuri dan mendapatkan kasus-kasus dalam basis kasus yang mirip dengan kasus baru
+menggunakan hasil titik indikasi dari kasus-kasus yang ada untuk mengetahui titik indikasi pada kasus yang baru
+merubah dan menyesuaikan output yang ditawarkan jika diperlukan
+proses penyimpanan data kasus baru ke basis kasus
+berdasarkan hasil pengujian ini, persentase kinerja sistem diukur dengan b) hasil pengujian tahapan proses case based reasoning menunjukkan bahwa sistem ini dapat melakukan tahapan retrieve, reuse, revise, dan retain 
+c) hasil pengujian metode braun-blanquet menunjukkan bahwa berdasarkan hasil perhitungan similaritas sistem dari 65 kasus yang diuji terdapat 12 kasus kasus uji yang memiliki nilai similaritas kurang dari 1
+ 4 kasus pada kasus uji nomor 1, 6, 9, dan 48 memiliki nilai similaritas 0.67 8 kasus pada kasus uji nomor 2, 4, 5, 13, 37, 49, 53, dan 58 memiliki nilaisimilaritas 0.5
+karena data kasus uji yang dimasukkan sebagai pengujian belum memiliki kasus yang sama dengan kasus yang telah ada di basis kasus
+tingkat similaritas dengan hasil sama dengan 1 dapat semakin tinggi dengan bertambah banyaknya basis kasus yang dimiliki sistem
+sistem case based reasoning dengan perhitungan similaritas menggunakan metode braun-blanquet yang dibangun pada aplikasi dapat menentukan titik indikasi gangguan jin untuk ruqyah
+berdasarkan hasil pengujian metode braun-blanquet terhadap 65 kasus, terdapat 53 kasus yang memiliki nilai similaritas sama dengan 1
+berdasarkan hasil pengujian 65 kasus membandingkan hasil diagnosis pakar dengan hasil diagnosis sistem, 53 kasus memiliki kesesuaian hasil

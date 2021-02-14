@@ -1,0 +1,75 @@
+dan subyektif dapat dinyatakan secara numerik atau angka, sehingga mudah dilakukan pengolahan
+menurut subakti, irfan dalam khrisnahara cara bekerja fuzzy memang harus menirukan cara kerja otak manusia dalam mengendalikan segala sesuatu
+dengan keunggulan tersebut maka diadakan usaha agar fuzzy menjadi sebuah pengendali dalam mengendalikan segala sesutu, dan ini terbukti lebih canggih dari pengendali apapun
+2.3 sistem pakar fuzzy sistem pakar fuzzy merupakan bagian dari teknologi fuzzy yaitu diagnosis fuzzy
+sistem pakar fuzzy adalah sistem pakar yang menggunakan notasi fuzzy pada aturan-aturan dan proses inferensi 
+zadeh dalam khrisnahara salah satu kelebihan sistem pakar fuzzy dibandingkan sistem pakar konvensional adalah jumlah aturan lebih sedikit, sehingga sistem lebih transparan untuk dianalisa
+sistem ini sangat bergantung pada kualitas data yang dikumpulkan
+data yang dikumpulkan secara umum berisi ekspresi yang memungkinkan hal-hal samar seperti kecil, lebih kecil, lemah dan lain sebagainya yang membuat susah dibuat dengan komputerisasi secara konvensional kekurangannya adalah kehandalan sistem sangat bergantung pada baik buruknnya proses pengumpulan aturan seperti prosedur pertanyaan dan komponen-komponen pertanyaan
+bidang aplikasi sistem diagnosis ini biasanya suatu proses yang besar dan kompleks sehingga sangat sulit dianalisa menggunakan algoritma eksak dan dimodelkan dengan model matematika biasa
+pada permulaan persiapan sistem, jumlah aturan yang digunakan akan sangat banyak
+namun pada tahap akhir, jumlah aturan akan lebih sedikit dan mudah dibaca
+jadi dapat diambil kesimpulan metode sistem pakar fuzzy adalah sebuah sebuah sistem pakar yang menerapkan konsep sistem fuzzy di dalamnya
+karena pada sistem pakar fuzzy terdapat banyak kemungkinan yang bisa terjadi yaitu sepenuhnya benar, sepenuhnya salah, atau kemungkinan di antara keduanya
+untuk itu sistem fuzzy digunakan dengan menggunakan fuzzy
+2.4 metode mamdani model mamdani sering juga disebut dengan nama metode max-min
+metode ini diperkenalkan oleh ebrahim mamdani pada tahun 1975
+di dalam metode mamdani untuk mendapatkan output dibutuhkan 4 tahapan, yaitu: 1
+pembentukan himpunan fuzzy himpunan tegas a didefinisikan oleh item-item yang ada pada himpunan itu
+jika a.a, maka nilai yang berhubungan dengan a adalah 1
+namun jika a.a, maka nilai yang berhubungan dengan a adalah 0
+notasi a = {x|p } menunjukkan bahwa a berisi item x dengan p benar
+jika xa merupakan fungsi karakteristik a dan properti p, maka dapat dikatakan bahwa p benar, jika dan hanya jika xa =1 
+himpunan fuzzy didasarkan pada gagasan untuk memperluas jangkauan fungsi karakteristik sedemikian hingga fungsi tersebut akan mencakup bilangan real pada interval [0, 1]
+nilai keanggotaannya menunjukkan bahwa suatu item dalam semesta pembicaraan tidak hanya berada pada 0 atau 1, namun juga nilai yang terletak diantaranya
+dengan kata lain, nilai kebenaran suatu item tidak hanya benar atau salah
+nilai 0 menunjukkan salah, nilai 1 menunjukkan benar, dan masih ada nilai- nilai yang terletak antara benar dan salah
+himpunan fuzzy memiliki 2 atribut, yaitu : a
+linguistik, yaitu penamaan suatu grup yang mewakili suatu keadaan atau kondisi tertentu dengan menggunakan bahasa alami
+numeris, yaitu suatu nilai yang menunjukkan ukuran dari suatu variabel
+aplikasi fungsi implikasi di dalam fungsi implikasi terdapat banyak definisi, namun pada metode mamdani fungsi implikasi yang digunakan adalah fungsi min
+komposisi aturan komposisi aturan diartikan sebagai kumpulan dan korelasi antar aturan di dalam sistem
+ada 3 metode yang digunakan dalam melakukan inferensi fuzzy menurut suyanto dalam septiriana, yaitu: a
+metode max pada metode ini, solusi himpunan fuzzy diperoleh dengan cara mengambil nilai maksimum aturan, kemudian digunakan untuk memodifikasi daerah fuzzy, dan mengaplikasikannya ke output
+jika semua proposisi telah dievaluasi, maka output akan berisi suatu himpunan fuzzy yang merefleksikan kontribusi dari tiap-tiap proposisi
+secara umum dapat dituliskan sebagai berikut: µsf[xi] ← max keterangan: µkf[xi] = nilai keanggotaan konsekuen fuzzy aturan ke-i b
+metode additive pada metode ini, solusi himpunan fuzzy diperoleh dengan cara melakukan bounded – sum terhadap semua output daerah fuzzy
+secara umum dituliskan sebagai berikut: µsf[xi] ← min keterangan: µkf[xi] = nilai keanggotaan konsekuen fuzzy aturan ke-i c
+metode probabilistik or pada metode ini, solusi himpunan fuzzy diperoleh dengan cara melakukan product terhadap semua output daerah fuzzy
+secara umum dituliskan pada persamaan 2.4 berikut ini: µsf[xi] ← - keterangan: µkf[xi] = nilai keanggotaan konsekuen fuzzy aturan ke-i d
+metode clipping pada metode clipping, proses inferensi yang terjadi adalah dengan menggunakan aturan sebagai berikut: - aturan conjunction dengan memilih derajat keanggotaan minimum dari nilai- nilai linguistik yang dihubungkan oleh tanda ^ 
+yaitu dengan mencari nilai minimum dari anteseden yang ada untuk menghasilkan konsekuen, yang didapat dari fungsi keanggotaan
+aturan disjunction dilakukan dengan memilih derajat keanggotaan paling besar dari keseluruhan konsekuen yang dihasilkan pada aturan conjunction
+defuzzifikasi proses defuzzifikasi mendapatkan input dari suatu himpunan fuzzy yang diperoleh dari komposisi aturan-aturan fuzzy, sedangkan output yang dihasilkan merupakan suatu bilangan pada domain himpunan fuzzy tersebut
+sehingga jika diberikan suatu himpunan fuzzy dalam range tertentu, maka harus didapat nilai crisp tertentu sebagai output
+banyak metode defuzzifikasi yang dapat diaplikasikan, di dalam metode mamdani umumnya yang digunakan antara lain adalah: a
+centroid method metode ini menghitung nilai crisp dengan menggunakan rumus: y adalah nilai crisp dan µr adalah derajat keanggotaan dari y
+metode mean and maximum pada metode ini, solusi crisp diperoleh dengan cara mengambil nilai rata-rata domain yang memiliki nilai keanggotaan maksimum
+metode largest of maximum pada metode ini, solusi crisp diperoleh dengan cara mengambil nilai terbesar dari domain yang memiliki keanggotaan maksimum
+metode smallest of maximum pada metode ini, solusi crisp diperoleh dengan cara mengambil nilai terkecil dari domain yang memiliki nilai keanggotaan maksimum
+hasil eksperimen sistem pakar diagnosa infeksi saluran pernafasan adalah sebuah sistem yang mengadopsi kemampuan seorang pakar dalam mendeteksi secara dini penyakit yang disebabkan oleh ispa
+penyakit yang disebabkan ispa tersebut di antaranya adalah, common cold/pilek, sinusitis, faringitis, laringitis, bronkhitis dan pneumonia
+semua penyakit tersebut rata-rata melalui suatu parameter yang sama yaitu sebuah parameter yang didapat melalui hasil anamnesis
+di antaranya melalui parameter demam, batuk, sesak nafas, nyeri saat menelan dan lain-lain
+jadi untuk membangun sebuah sistem yang cukup dinamis dengan mengolah parameter yang ada tersebut menjadi sebuah pengetahuan yang menjadi dasar sebagai diagnosa perangkat lunak, maka dibutuhkan beberapa tahapan yang dimulai dari akuisisi pengetahuan hingga representasi pengetahuan
+tampilan depan sistem dapat dilihat pada gambar 2 berikut ini: gambar 2 antarmuka sistem pada form konsultasi terdapat 13 pertanyaan yang akan diinput oleh pasien, inputan tersebut berdasarkan gejala yang diderita oleh pasien
+pada pertanyaan nomor 1 pasien diminta menginputkan suhu tubuh yang dirasakan dalam satuan o c
+pertanyaan nomor 2 pasien diminta menginputkan berapa banyak mengalami batuk dalam 1 menit, dan untuk pertanyaan nomor 3 – 13 pasien menjawab untuk gejala yang dirasakan dan untuk gejala yang tidak dirasakan.setelah menginputkan jawaban maka pasien melakukan proses, yaitu proses penarikan kesimpulan berdasarkan inputan oleh pasien
+berikut tampilan form konsultasi pada gambar 3
+gambar 3 antarmuka form konsultasi adapun contoh tampilan hasil analisis sistem yang diperoleh pneumonia sebagai penyakit yang paling valid dengan gejala yang ada
+gambar 4 hasil konsultasi y* = pengujian inputan hasil diagnosa sistem pakar infeksi saluran pernafasan akut
+pengujian ini bertujuan untuk melihat apakah sistem mampu mendeteksi penyakit sesuai dengan inputan yang dilakukan oleh pasien berdasarkan rule atau ketetapan seorang pakar yang telah diinputkan pengetahuannya ke dalam sistem ini
+contoh pengujian penginputan untuk penyakit pneumonia tabel 1 konsultasi pasien yang menunjukan penyakit pneumonia 1
+berapa suhu tubuh anda ketika merasakan demam? 40 ° c 2
+berapa kali anda merasakan batuk dalam satu menit? 12 kali 3
+apakah anda merasakan nyeri di bagian kepala? tidak 4
+apakah anda merasakan nyeri saat menelan ? tidak 5
+apakah sekret anda kental dan berbau? tidak 6
+apakah tenggorokan anda terasa berdahak? ya 9
+apakah hidung anda terasa tersumbat? tidak 12
+apakah anda merasakan sesak nafas? ya 13
+apakah anda merasakan sakit pada bagian dada? ya berdasarkan inputan diatas yaitu pada pertanyaan nomor 1, nomor 2, nomor 8, nomor 12 dan nomor 13 sistem mampu memberikan kesimpulan yaitu penyakit pneumonia 4
+perancangan aplikasi dilakukan berdasarkan kondisi yang terjadi pada proses anamnesis yang dilakukan oleh dokter, sehingga aplikasi yang sudah dirancang dapat dipergunakan dengan mudah oleh dokter saat penginputan pengetahuan
+dengan metode fuzzy logic didapatkan sebuah mesin inferensi sebagai penarikan kesimpulan yang menghasilkan anamnesis yang akurat dalam mengambil keputusan diagnosa penyakit
+sistem pakar diagnosa infeksi saluran pernafasan akut yang telah dirancang tidak sepenuhnya dapat menggantikan peran seorang dokter dalam melakukan penarikan kesimpulan nama penyakit
+tetapi sistem yang telah dirancang ini mampu memberikan kesimpulan berdasarkan ketetapan yang telah dimasukkan seorang dokter kedalam sistem ini

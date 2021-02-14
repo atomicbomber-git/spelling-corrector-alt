@@ -1,0 +1,91 @@
+mobile phone gets smarter by the time
+nowadays, mobile phone is not all about calling out the phonebook or send a sms to them
+decent hardware and operating systems make it do many things
+for example taking a photo with the camera, open image file, and many others
+sometime users did not satisfied with the image quality they had, thus a simple application to fix image quality was needed
+the application was designed for adobe flash and adobe air supported mobile platform
+built with actionscript language and pixel bender for image processing and filtering, this application could help users to fix their image easily
+  keywords- digital image processing, flash, actionscript, mobile
+pendahuluan telepon seluler saat ini telah memiliki perangkat keras yang mumpuni
+hal ini membuat ponsel dapat melakukan beragam fungsi selain fungsi dasarnya
+berselancar di internet, mengatur berkas, memainkan musik dan video, dan mengambil foto
+seringkali, kualitas foto tidak memenuhi keinginan pengguna
+kadang terlalu gelap, kabur, atau memiliki derau
+oleh karena itu dibutuhkan perangkat lunak untuk memproses citra digital pada perangkat mobile
+teori dasar 2.1 citra digital secara harafiah, citra adalah gambar pada bidang dwimatra 
+ditinjau dari sudut pandang matematis, citra merupakan fungsi menerus dari intensitas cahaya pada bidang dua dimensi
+pada citra raster, sebuah citra terdiri atas piksel- piksel
+piksel merupakan akronim dari picture element
+setiap satu buah piksel mengandung satu buah informasi warna
+warna ini dapat berupa kombinasi red, green, and blue 
+setiap warna dipresentasikan oleh bilangan biner sebanyak 8 bit
+pada modus warna rgb, setiap piksel mengandung minimal 3 x 8 bit = 24 bit data
+8 bit untuk merah, 8 bit untuk hijau, dan 8 bit untuk biru
+2.2 adobe flash adobe flash adalah program yang didesain khusus oleh adobe untuk membuat animasi dua dimensi yang handal dan ringan sehingga flash banyak digunakan untuk keperluan efek animasi web
+pada 3 desember 2005, adobe membeli macromedia dan seluruh produknya, termasuk flash
+adobe flash memiliki bahasa pemrograman sendiri, yaitu actionscript actionscript telah dikembangkan hingga versi 3, yang merupakan bahasa pemrograman berorientasi objek
+and based on ecmascript umumnya dikembangkan untuk pengembangan web dan aplikasi berbasis flash
+actionscript merupakan bahasa pemrograman open source
+2.4 adobe airadobe integrated runtime adalah runtime environment yang dikembangkan oleh adobe systems untuk membuat rich internet applications menggunakan adobe flash, adobe flex, html, dan ajax
+adobe air dapat dijalankan sebagai aplikasi desktop atau mobile
+adobe air mendukung banyak platform seperti windows, mac os, and linux
+pengembangan untuk linux dihentikan sejak versi 2.6
+untuk mobile platform, adobe air mendukung apple ios, google android, dan qnx
+2.4.1 android compiler ketika kita mem-publish file flash untuk android, kode-kode sumber akan dirubah oleh compiler actionscript menjadi format biner yang bernama actionscript byte code 
+abc ini ter-package di dalam file .swf
+file .swf ini dan resource files pendukung lain inilah yang kemudian di-package bersama menjadi android package yang telah siap diinstal ke dalam perangkat android 6 chapter 1 introducing flash development for mobile devices .swf figure 1!2 at run time, the file inside of the android app is processed by the actionscript virtual machine, which is part of the air for android run time
+the avm2 loads the abc file into memory and decodes it
+the bytecodes are then run through an interpreter and executed as native machine code by the air run time
+this process of bytecode compilation by the avm2 is specific to the android platform
+native machine figure 1!3 building for ios so, while android apps run on top of an air runtime environment that is installed separately, ios apps wrap the runtime code inside of the app itself, making it self-contained
+not surprisingly, then, the process in which an ios app is created, is quite distinct
+when you compile a flash project for iphone, the abc code is compiled by the low level machine compiler, which is an open source compiler infrastructure that is used to generate machine code for ios
+however, as shown in figure 1-4, in its packager for iphone, adobe provides an actionscript front-end to the llvm for handling flash files
+while the avm2 supports jit for web and air, llvm uses ahead-of-time compilation to produce native arm assembly code wrapped inside of an iphone executable file
+the also con- tains a containing assets and a configuration file
+6 chapter 1 introducing flash development for mobile devices .swf figure 1!2 at run time, the file inside of the android app is processed by the actionscript virtual machine, which is part of the air for android run time
+the avm2 loads the abc file into memory and decodes it
+the bytecodes are then run through an interpreter and executed as native machine code by the air run time
+this process of bytecode compilation by the avm2 is specific to the android platform
+native machine figure 1!3 building for ios so, while android apps run on top of an air runtime environment that is installed separately, ios apps wrap the runtime code inside of the app itself, making it self-contained
+not surprisingly, then, the process in which an ios app is created, is quite distinct
+when you compile a flash project for iphone, the abc code is compiled by the low level machine compiler, which is an open source compiler infrastructure that is used to generate machine code for ios
+however, as shown in figure 1-4, in its packager for iphone, adobe provides an actionscript front-end to the llvm for handling flash files
+while the avm2 supports jit for web and air, llvm uses ahead-of-time compilation to produce native arm assembly code wrapped inside of an iphone executable file
+the also con- tains a containing assets and a configuration file
+compile time di android, berkas .swf diproses oleh bagian air for android yaitu actionscript virtual machine 
+avm2 mengirim berkas abc ke memori dan me-decode berkas tersebut
+kode bita ini dilewatkan ke sebuah interpreter dan dijalankan sebagai kode mesin alami oleh air
+run time 2.5 androidandroid adalah sistem operasi berbasis linux untuk ponsel cerdas
+ponsel pertama android dijual pada oktober 2008
+android bersifat open source dan google merilis kode sumbernya di bawah apache license
+android mendukung adobe flash dan adobe air sejak versi 2.2 
+2.6 skin segmentation deteksi warna kulit dapat dilakukan dengan merubah modus warna rgb ke ycbcr
+ycbcr akan memisahkan citra menjadi komponen luminosity dan komponen warna
+keuntungan dari ycbcr adalah komponen luminosity dapat dibuang dengan mudah pada saat pengolahan citra
+komponen luminosity berada pada channel y dan komponen warna pada channel cb dan cr 
+berikut adalah cara merubah rgb menjadi ycbcr: y = 0.257*r + 0.504*g + 0.098*b + 16 cb = 0.148*r – 0.291*g +0.439*b + 128 cr = 0.439*r – 0.368*g – 0.071*b + 128 nilai threshold maksimum dan minimum diberikan pada cb dan cr untuk memisahkan warna kulit dan warna lainnya
+2.7 median filter median filter merupakan order-statistics filter yang paling dikenal median filter mengambil area tertentu pada citra sesuai dengan ukuran mask yang telah ditentukan, kemudian dilihat setiap nilai piksel pada area tersebut, dan nilai tengah pada area diganti dengan nilai median
+cara memperoleh nilai median yaitu nilai keabuan dari titik-titik pada matriks diurutkan dari nilai terkecil ke terbesar, kemudian ditentukan nilai yang berada di tengah urutan
+2.8 convolution filterkonvolusi merupakan operasi pengolahan citra yang mengalikan matriks sebuah citra dengan sebuah mask atau kernel
+pada aplikasi ini, konvolusi digunakan pada fitur sharpen
+matriks piksel citra dikalikan dengan matriks [0, -1, 0, -1, 5, -1, 0, -1, 0]
+2.9 histogram histogram adalah representasi grafis untuk distribusi warna dari citra digital sumbu ordinat vertikal merupakan representasi piksel dengan nilai tonal dari tiap-tiap deret bin pada sumbu axis horizontalnya
+2.10 pixel bender adobe pixel bender adalah sebuah bahasa pemrograman yang dikembangkan oleh adobe systems untuk menjalankan algoritma pengolahan citra digital syntax bahasa program ini didasarkan pada gsgl
+saat ini pixel bender dapat digunakan pada adobe flash, adobe after effects, dan adobe photoshop
+experimental results perangkat lunak dibangun dengan actionscript 3.0 pada adobe flash dan pixel bender toolkit
+perangkat lunak ini memiliki spesifikasi dan fitur sebagai berikut: 1
+dibuat untuk paltform yang mendukung adobe flash dan adobe air
+deteksi warna kulit, memperbaiki tekstur kulit, dan mencerahkan warna kulit 
+berikut adalah use case diagram dari perangkat lunak: gambar 3
+use case diagram aplikasi ketika memulai aplikasi, pengguna akan diminta untuk memilih citra yang akan dimuat, kemudian pengguna dapat memanipulasi citra dengan fitur yang disediakan
+berikut ini adalah antarmuka dari aplikasi: gambar 4
+menu utama setelah memuat citra gambar 6
+citra dengan filter black & white gambar 7
+kesimpulan hasil penelitian menunjukkan dapat melakukan beberapa pengolahan citra, seperti pengaturan kecerahan, kontras, dan saturasi, rotasi citra, filter black & white dan sephia, pengurangan derau, skin refining, penajaman citra, memuat histogram citra, dan menyimpan citra
+pada saat reduksi derau, hasil terbaik pada citra dengan tipe derau salt & pepper
+pada beberapa citra, hasilnya akan terlihat sedikit kabur
+pada beberapa perangkat dengan spesifikasi rendah, aplikasi berjalan lebih lambat karena bukan merupakan native application
+berdasarkan kuesioner pada beberapa responden, penelitian dinilai cukup berhasil
+untuk pengembangan lebih lanjut, aplikasi dapat dikembangkan menjadi native application
+fitur untuk memotong citra, auto level dengan histogram stretching, dan penambahan beberapa filter dapat dipertimbangkan

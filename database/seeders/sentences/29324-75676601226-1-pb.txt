@@ -1,0 +1,60 @@
+eee paper template in a4 vol 5 no 1 april 2019 optimalisasi perangkingan nilai akademik dan non akademik dalam proses pengawasan studi mahasiswa menggunakan metode ahp rosmini #+1, abdul fadlil *3 # magister teknik informatika universitas ahmad dahlan, jl
+dr soepomo sh, warungboto, umbulharjo, kota yogyakarta + sistem informasi stmik ppkia tarakanita rahmatika, jl
+06 no 06, kota tarakan 1 rosmini@ppkia.ac.id * teknik elektor universitas ahmad dahlan, jl
+dr soepomo sh, warungboto, umbulharjo, kota yogyakarta 2 fadlil@uad.ac.id 3 sunardi@uad.ac.id internal maupun eksternal hal ini juga menjadi perhatian khusus bagi program studi
+untuk mengatasi dan menyelesaian masalah tersebut dibutuhkan sebuah sistem pendukung keputusan menggunakan metode analytic hierarchy process, dengan mengotimalkan data mahasiswa untuk peningkatan kualitas pembelajaran dengan melakukan pengawasan studi
+adapun kriteria yang digunakan yaitu akademik dan non akademik
+hasil dari penelitian ini adalah bentuk perangkingan metode ahp berdasarkan nilai akademik dan non akademik, dari 20 data yang digunakan ada 8 mahasiswa yang memiliki nilai terendah, mahasiswa tersebut yang membutuhkan pengawasan secara ekstra dalam proses pembelajaran
+pendahuluan pelaksanaan seluruh kegiatan organisasi untuk menjamin agar supaya semua pekerjaan yang sedang dilakukan berjalan sesuai dengan rencana yang telah ditentukan sebelumnya
+mengalami penurunan kualitas yang dipengaruhi faktor internal maupun eksternal untuk menyelesaikan masalah tersebut penulis melakukan optimalisasi data mahasiswa dengan memanfaatkan metode analytic hierarchy process untuk peningkatan kualitas dengan melakukan pengawasan proses pembelajaran pendukung keputusan yang dikembangkan oleh thomas l
+model pendukung keputusan ini menguraikan multi faktor atau multi kriteria yang kompleks menjadi suatu hirarki, menurut saaty, hirarki didefinisikan sebagai representasi permasalahan yang kompleks dalam suatu struktur multi level
+level pertama adalah tujuan, yang diikuti level faktor, kriteria, sub kriteria, dan seterusnya ke bawah hingga level terakhir dari alternatif
+hasil yang harapkan dari penelitian ini adalah perangkingan mahasiswa yang membutuhkan pengawasan secara ekstra dalam proses pembelajaran
+penelitian pertama yaitu analisa pengawasan studi mahasiswa menggunakan ahp dan clustering k-means sebagai bahan evaluasi akademik
+penelitian ini bertujuan untuk menghasilkan informasi pengetahuan tentang mahasiswa yang perlu mendapatkan perhatian khusus berdasarkan nilai kompetensi dan kehadiran mahasiswa
+yaitu demografi sosial, ekonomi, rencana tata ruang dan wilayah serta aspek lingkungan
+pada penelitian ketiga yaitu analisa dan penerapan metode ahp dan promethee untuk menentukan guru berprestasi
+hasil dari penelitian ini dalam bentuk perangkingan berdasarkan nilai tertinggi dari proses penilaian pada penggabungan kedua metode tersebut, sehingga penggabungan kedua metode tersebut layak digunakan dalam pemelihan guru berprestasi
+hasil dari penilitian ini adalah nilai bobot dari semua kriteria setiap siswa sehingga pihak sekolah dapat menentukan siswa yang berprestasi
+penelitin kelimat yaitu pemilihan calon penerima bantuan siswa miskin berdasarkan kriteria : kepemilikan kps, kepemilikan orang tua, penghasilan orang tua dan prestasi akademik
+hasil dari penelitian ini untuk membantu tim penyeleksi bsm dalam menentukan penerima bantuan lebih tepat sasaran
+perbedaan penelitian ini dengan penelitian - penelitian sebelumnya adalah bentuk perangkingan berdasarkan nilai akademik dan non akademik untuk melalukan proses pengawasan studi mahasiswa dengan memanfaatkan metode ahp
+gambar.1 metode penelitian studi mahasiswa sebagai berikut : a
+membuat matriks perbandingan kriteria dengan nilai yang telah diinputkan 2
+mencari bobot vektor prioritas dengan melakukan penjumlahan setiap kolom sel pada kolom matriks dibagi dengan jumlah kolom pada setiap selnya
+mencari konsistensi rasio, tingkat konsistensi apabila nilai cr ≤ 0, 1
+ setelah diperoleh ci, maka hasilnya dibandingkan dengan ri untuk setiap n objek, seperti pada tabel 8, ,, tabel viii random consistency index n 1 2 3 4 5 6 7 8 9 10 ri 0, 00 0, 00 0, 58 0, 90 1, 12 1, 24 1, 32 1, 41 1, 45 1, 48 iv
+hasil dan pembahasan nilai pada perbandingan berpasangan sesuai dengan tingkat kepentingan berikut, ,, ,nilai 1 : kedua elemen mempunyai kepentingan yang sama
+nilai 3 : sedikit lebih penting, pengalaman dan penilaian sangat memihak satu elemen dibandingkan dengan pasangannya
+nilai 5: lebih penting, satu elemen sangat disukai dan secara praktis dominasinya sangat nyata, dibandingkan dengan elemen pasangannya
+nilai 7 : sangat penting, satu elemen terbukti sangat disukai dan secara praktis dominasinya sangat nyata, dibandingkan dengan elemen pasangannya
+nilai 9 : mutlak lebih penting, satu elemen terbukti mutlak lebih disukai dibandingkan dengan pasangannya, pada keyakinan tertinggi
+nilai 2, 4, 6, 8 : nilai tengah, diberikan bila terdapat keraguan penilaian di antara dua tingkat kepentingan yang berdekatan
+4.1 kriteria akademik langkah pertama pada penelitian ini membuat matrik perbandingan kriteria dengan nilai yang telah diinputkan seperti pada tabel 9
+tabel x nilai desimal akademik ipk status presensi ipk 1, 000 3, 000 4, 000 status 0, 333 1, 000 2, 000 presensi 0, 250 0, 500 1, 000 total 1, 583 4, 500 7, 000 tabel xi total jumlah kolom normalization dengan cara menjumlahkan tiap baris kemudian dibagi dengen jumlah kriteria, seperti pada tabel 12
+diawali dengan perhitungan nilai eigen maksimum
+λmaks = + + λmaks = 3, 025 langkah keempat menghitung konsistensi indeks dengan hasil lamda dikurang dengan banyaknya kriteria dibagi jumlah kriteria dengan rumus, sebagai berikut :
+ ci = 0, 013 langkah kelima mencari konsistensi rasio 
+karena jumlah kriteria ada 3 maka nilai indeks random konsistensi adalah 0, 58
+ konsisten perbandingan kriteria dengan nilai yang telah diinputkan seperti pada tabel 13
+tabel xiii perbandingan berpasangan non akademik pekerjaan 1 3 3 organisasi 1/3 1 2 tbk 1/3 1/2 1 berpasanga menjadi bentuk desimal dan menjumlahkan setiap kolom sel pada kolom matriks dibagi dengan jumlah kolom pada setiap selnya, seperti pada tabel 14
+tabel xvi nilai evn diawali dengan perhitungan nilai eigen maksimum λmaks = + + λmaks = 3, 070 langkah keempat menghitung konsistensi indeks dengan hasil lamda dikurang dengan banyaknya kriteria dibagi jumlah kriteria dengan rumus, sebagai berikut
+ ci = 0, 035 langkah kelima mencari konsistensi rasio 
+karena jumlah kriteria ada 3 maka nilai indeks random konsistensi adalah 0, 58
+ konsisten perbandingan kriteria dengan nilai yang telah diinputkan seperti pada tabel 17
+sub 5 4 3 2 1 5 1 3 5 7 9 4 1/3 1 5 7 9 3 1/5 1/5 1 5 7 2 1/7 1/7 1/7 1 7 1 1/9 1/9 1/7 1/7 1 langkah kedua mengubah nilai perbandingan berpasangan menjadi bentuk desimal dan menjumlahkan setiap kolom sel pada kolom matriks dibagi dengan jumlah kolom pada setiap selnya, seperti pada tabel 18 tabel xviii nilai desimal selanjutnya membagi elemen tiap kolom dengan total jumlah kolom bersangkutan, seperti pada tabel 19
+tabel xix total jumlah kolom berikutnya menghitung nilai eigen vector normalization dengan cara menjumlahkan tiap baris kemudian dibagi dengen jumlah kriteria, seperti pada tabel 20
+diawali dengan perhitungan nilai eigen maksimum
+: λmaks = + + + + λmaks = 6, 189 langkah keempat menghitung konsistensi indeks dengan hasil lamda dikurang dengan banyaknya kriteria dibagi jumlah kriteria dengan rumus, sebagai berikut:
+karena jumlah kriteria ada 5 maka nilai indeks random konsistensi adalah 1, 12
+ konsisten nilai sub kriteria untuk yang lain sama yaitu 5, 4, 3, 2, 1 maka nilai eigen vector normalization juga sama, jadi tidak perlu dihitung
+langkah berikutnya adalah proses perangkingan berdasarkan nilai akademik dan eigen vector normalization serta sub kriteria, seperti pada tabel 21
+kriteria dan sub kriteria nilai non akademik dan eigen vektor normalisasi serta sub kriteria, seperti pada tabel 22
+tabel xxii perangkingan berdasarkan nilai non akademik dan evn kriteria dan sub kriteria mahasiswa kriteria perbandingan kriteria dengan nilai yang telah diinputkan seperti pada tabel 23
+tabel xxv total jumlah kolom akademik 0, 833 0, 833 dengan cara menjumlahkan tiap baris kemudian dibagi dengen jumlah kriteria, seperti pada tabel 26
+tabel xxvi nilai evn non akademis jumlah evn diawali dengan perhitungan nilai eigen maksimum
+: λmaks = + λmaks = 2, 000 langkah keempat menghitung konsistensi indeks dengan hasil lamda dikurang dengan banyaknya kriteria dibagi jumlah kriteria dengan rumus, sebagai berikut:
+karena jumlah kriteria ada 3 maka nilai indeks random konsistensi adalah 0
+ konsisten berdasarkan nila akademik, non akademik dan eigen vector normalization, seperti pada tabel 27
+tabel xxvii perangkingan berdasarkan nilai akademik dan non akademik mahasiswa yang membutuhkan pengawasan secara ekstra dalam proses pembelajaran yaitu ada 8 mahasiswa yang memiliki nilai terendah dari mahasiswa yang lain, dapat dilihat pada tabel diatas
+hasil dari perhitungan menggunakan metode ahp dalam penentuan bobot prioritas mahasiswa yang membutuhkan pengawasan dalam pembelajaran sangat tergantung pada pemberian nilai terhadap kriteria dan sub kriteria

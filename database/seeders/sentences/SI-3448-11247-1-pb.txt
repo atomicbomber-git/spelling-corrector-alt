@@ -1,0 +1,96 @@
+– the hospital is a health care institution is a complex, dense and capital-intensive profession
+this complexity arises because of hospital services on a range of service delivery, education and research, and includes a variety of measures and medical disciplines
+so that the hospital is able to perform complex functions such, the hospital must have a professional human resources both in the technical field of medical and health administration
+outpatient services is one unit of work in the scope of hospital serving outpatient treatment and not more than 24 hours of service
+development of hospital outpatient influenced by the development of advanced medical technology that provides a variety of services, including radiation and chemotherapy centers, diagnostic imaging centers, rehabilitation centers, hospitalization pasial, sports medicine clinics, women's health clinics, occupational health and others
+one type of medical support services in a hospital radiology service that is performed by a radiology unit installation
+installation is the venue for the radiology radiology services to patients in need with rapid diagnosis and precise or accurate radiotherapy delivery
+many radiology department that became a symbol of pride for each hospital, because of the high-tech services which is an effective marketing tool in attracting doctors or patients and installation procedures in radiology is a major source of income
+radiotherapy kompleksitas ini muncul karena pelayanan rumah sakit menyangkut berbagai fungsi pelayanan, pendidikan dan penelitian serta mencakup berbagai tindakan maupun disiplin medis
+agar rumah sakit mampu melaksanakan fungsi yang demikian kompleks, rumah sakit harus memiliki sumber daya manusia yang profesional baik di bidang teknis medis maupun administrasi kesehatan
+menurut sistem kesehatan nasional, fungsi utama rumah sakit adalah menyediakan dan menyelenggarakan upaya kesehatan yang bersifat penyembuhan dan pemulihan pasien
+sakit adalah pelayanan radiologi yang dilakukan oleh sebuah unit instalasi radiologi
+instalasi radiologi adalah tempat penyelenggaraan pelayanan radiologi atau radioterapi kepada pasien yang membutuhkan dengan menegakkan diagnosis yang cepat dan tepat atau pemberian radioterapi yang akurat
+banyak bagian radiologi yang menjadi lambang kebanggaan tiap-tiap rumah sakit, karena layanan berteknologi tinggi yang merupakan alat pemasaran yang efektif dalam menarik para dokter atau pasien dan prosedur di instalasi radiologi merupakan sumber pendapatan yang besar
+teori dasar 2.1 definisi rumah sakit rumah sakit merupakan suatu organisasi yang meliputi tenaga medis profesional yang terorganisir serta adanya sarana kedokteran yang permanen dalam menyelenggarakan pelayanan kedokteran, asuhan pengobatan penyakit yang diderita oleh pasien
+rumah sakit juga diartikan sebagai tempat dimana orang sakit mencari dan menerima pelayanan kedokteran serta tempat dimana pendidikan klinik untuk mahasiswa kedokteran, perawat dan berbagai tenaga profesi kedokteran lainnya
+2.2 pelayanan rawat jalan pelayanan rawat jalan adalah salah satu bentuk pelayanan kedokteran yang disediakan untuk pasien tidak dalam bentuk rawat inap yang tidak hanya diselenggarakan oleh sarana pelayanan kesehatan yang lazim dikenal seperti rumah sakit / klinik, tetapi juga yang diselenggarakan di rumah pasien serta di rumah perawatan
+tujuan pelayanan rawat jalan diantaranya adalah untuk memberikan konsultasi kepada pasien yang memerlukan pendapat dari seorang dokter spesialis dengan tindakan pengobatan atau tidak
+selain itu juga melaksanakan pelayanan tindak lanjut bagi pasien rawat inap yang sudah diijinkan pulang tetapi masih harus dikontrol kondisi kesehatannya
+penunjang medik yang dimiliki rumah sakit dan dilaksanakan oleh suatu unit pelayanan yang disebut instalasi radiologi
+pelayanan radiologi bidang kesehatan terus meningkat sesuai dengan perkembangan tehnologi bidang kesehatan
+penggunaan peralatan radiologi yang tidak memenuhi persyaratan keamanan dapat menimbulkan dampak negatif baik bagi pelaksana maupun lingkungannya
+jenis pelayanan radiologi di rumah sakit tipe a sangat lengkap, meliputi : 1
+pelayanan radiodiagnostik, contoh computerized tomography scan 2
+pelayanan magnetic resonance imaging sedangkan di rumah sakit tipe b, c dan d, pelayanan radiologinya hanya terbatas pada pelayanan radiodiagnostik dan pelayanan ultra sonorafi 
+berikut adalah standar pelayanan medik unit radiologi di rumah sakit tipe c termasuk rumah sakit umum daerah dr rubini mempawah seperti terlihat pada tabel 2.1 sebagai berikut
+tabel 1 standar pelayanan unit radiologi rumah sakit tipe c pelayanan keterangan mobil unit 100 ma rumah sakit umum daerah dr rubini mempawah 2.4 standar prosedur pemeriksaan radiologi rumah sakit umum daerah dr rubini mempawah ekstrimitas atas a
+sternum cranium dan fadical bone a
+cocygeus 2.4 sistem informasi sistem adalah suatu jaringan kerja dari produser- produser yang saling berhubungan berkumpul bersama- sama untuk melakukan suatu kegiatan atau untuk menyelesaikan suatu sasaran tertentu atau kumpulan dari elemen yang berinteraksi untuk mencapai suatu tujuan
+sistem terbentuk dari bagian atau elemen yang saling berhubung dan mempengaruhi
+secara umum elemen membentuk sistem 
+masukan : segala sesuatu yang masuk kedalam sistem yang selanjutnya menjadi bahan untuk diproses
+proses kumpulan bagian atau elemen yang terdapat dalam sistem yang berfungsi mengubah masukan menjadi keluaran
+informasi, keluaran biasanya suatu informasi, saran, cetakan, dan laporan
+yang lebih berguna dan lebih berarti bagi penerimanya
+informasi yang merupakan sumber daya strategis bagi organisasi atau suatu entitas yang mendukung kelangsungan hidup bagi organisasi
+oleh karena itu informasi merupakan faktor yang sangat berpengaruh terhadap kelangsungan organisasi
+management server yang sangat cepat dan kokoh
+dengan menggunakan mysql server maka data dapat diakses oleh banyak pemakai secara bersamaan sekaligus dapat membatasi akses para pemakai berdasarkan privilege yang diberikan
+mysql menggunakan bahasa sql yaitu bahasa standar yang digunakan untuk pemrograman database
+mysql dipublikasikan sejak 1996, tetapi sebenarnya dikembangkan sejak 1979
+mysql telah memenangkan penghargaan linux journal reader’s choice award selama tiga tahun
+2.6 structured query language structured query language adalah bahasa yang digunakan untuk berkomunikasi dengan database
+perintah-perintah sql digunakan untuk melakukan pekerjaan-pekerjaan tertentu pada database seperti update data atau untuk mengambil data dari database
+2.7 delphi delphi adalah suatu bahasa pemrograman yang menggunakan visualisasi sama seperti bahasa pemrograman visual basic 
+namun delphi menggunakan bahasa yang hampir sama dengan pascal 
+bahasa pemrograman delphi dikembangkan oleh codegear sebagai divisi pengembangan perangkat lunak milik embarcadero
+divisi tersebut awalnya milik borland, sehingga bahasa ini memiliki versi borland delphi
+2.8 odbc odbc adalah sebuah standar terbuka untuk konektivitas antarmesin basis data
+standar ini menyediakan api yang dapat digunakan untuk menjalankan dan mengoneksikan sebuah aplikasi dengan sebuah sistem manajemen basis data 
+para desainer odbc membuatnya dengan tujuan agar odbc terbebas dari penggunaan bahasa pemrograman tertentu, sistem manajemen basis data tertentu, dan sistem operasi tertentu
+hasil eksperimen pada bagian atas form admin terdapat empat menu utama yang di dalamnya terbagi lagi menjadi beberapa submenu
+pasien layananan pasien dan manajemen pasien
+layanan pasien layanan pasien merupakan kolom yang menampilkan data pasien dan kolom yang menampilkan daftar kunjungan riwayat pasien
+kolom pertama pengguna melakukan pencarian data yang disesuaikan dengan nomor pasien, hasil pencarian data pasien ditampilkan dalam suatu daftar kunjungan riwayat pasien
+pengguna memilih tujuan poli dan dokter untuk dapat mengirim data kunjungan pasien yang baru keruangan dokter sesuai dengan tujuan pasien yang akan berobat
+tampilan form admin pencarian data pasien dapat dilihat pada gambar 1 sebagai berikut
+gambar 1 tampilan form admin pencarian data pasien serta menampilkan daftar kunjungan riwayat pasien
+tampilan form admin daftar kunjungan pasien dapat dilihat pada gambar 2 berikut
+dan tampilan form admin tujuan poli dan dokter dapat dilihat pada gambar 3 berikut
+dokter pasien pasien baru, mengubah data pasien sebelumnya dan mencetak kartu pasien
+tampilan form admin manajemen pasien dapat dilihat pada gambar 4 berikut
+dan tampilan form admin cetak kartu pasien gambar 5 tampilan form admin cetak kartu pasien dokter dokter dan daftar poli
+tampilan form admin dokter dapat dilihat pada gambar 6 sebagai berikut
+daftar poli daftar poli hanya dapat menambahkan data daftar poli
+tampilan form admin daftar poli dapat dilihat pada gambar 7 sebagai berikut
+gambar 7 tampilan form admin daftar poli user manajemen user
+manajemen user, mengubah data manajemen user dan menghapus data manajemen
+tampilan form admin data manajemen user dapat dilihat pada gambar 8 sebagai berikut
+laporan kunjungan pasien dan kunjungan radiologi
+kunjungan pasien kunjungan pasien hanya dapat mencari data kunjungan pasien berdasarkan kunjungan poli, tahun, bulan, tanggal dan mencetak daftar kunjungan pasien
+tampilan form admin kunjungan pasien dapat dilihat pada gambar 4.9 berikut
+dan tampilan form admin cetak kunjungan pasien dapat dilihat pada gambar 4.10 berikut
+pasien kunjungan radiologi berdasarkan kunjungan poli, tahun, bulan, tanggal dan mencetak daftar kunjungan radiologi
+tampilan form admin kunjungan radiologi dapat dilihat pada gambar 4.11 berikut
+dan tampilan form admin cetak kunjungan radiologi dapat dilihat pada gambar 4.12 berikut
+radiologi radiologi daftar kunjungan pasien, melihat daftar kunjungan radiologi, melihat hasil diagnosa sebelumnya, serta menambahkan catatan diagnosa baru, termasuk rujukan ke radiologi dan mencetak surat pengantar ke radiologi
+tampilan form dokter daftar kunjungan pasien dan daftar kunjungan radiologi dapat dilihat pada gambar 4.13 sebagai berikut
+pasien dan daftar kunjungan radiologi menampilkan daftar hasil diagnosa sebelumnya, menambahkan catatan diagnosa
+tampilan form dokter daftar hasil diagnosa sebelumnya dapat dilihat pada gambar 4.14 berikut
+tampilan form dokter rujukan ke radiologi dapat dilihat pada gambar 4.15 berikut
+tampilan form dokter cetak surat rujukan dapat dilihat pada gambar 4.16 berikut dan tampilan form dokter menambah catatan diagnosa dapat dilihat pada gambar 4.17 berikut
+diagnosa sebelumnya radiologi rujukan catatan diagnosa form radiologi dapat dilihat pada gambar 4.18 berikut
+tampilan form radiologi daftar riwayat pasien dapat dilihat pada gambar 4.19 berikut
+dan tampilan form radiologi diagnosa foto rontgen dapat dilihat pada gambar 4.20 berikut
+gambar 4.18 tampilan form radiologi daftar rujukan kunjungan pasien gambar 4.20 tampilan form radiologi diagnosa foto rontgen metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+adapun teknik ujicoba yang digunakan dalam pengujian black box pada sistem ini, yaitu menggunakan teknik sample testing dan behavior testing
+pengujian ini dilakukan pada proses input data
+data pengujian dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari sistem
+pemilihan cara pengujian dilakukan dengan menggunakan data yang kosong, data yang tidak diperbolehkan dan data yang benar
+kesimpulan berdasarkan hasil penelitian yang telah dilaksanakan, maka diperoleh kesimpulan sebagai berikut : 1
+sistem informasi radiologi rawat jalan rumah sakit umum daerah dr rubini mempawah mempermudah pendaftaran pasien radiologi rawat jalan dan proses sistem pengolahan data radiologi
+sistem informasi radiologi rawat jalan rumah sakit umum daerah dr rubini mempawah mempermudah dokter dalam merujuk pasien ke bagian radiologi dan melihat hasil radiologi secara cepat dan akurat
+sistem informasi radiologi rawat jalan rumah sakit umum daerah dr rubini mempawah menghemat dalam penggunaan kertas dan mempercepat dalam pengiriman surat rujukan kebagian radiologi
+sistem informasi radiologi rawat jalan rumah sakit umum daerah dr rubini mempawah menghasilkan pelayanan radiologi menjadi lebih efisien dan efektif
+sistem informasi radiologi rawat jalan rumah sakit umum daerah dr rubini mempawah dapat menghasilkan informasi laporan berdasarkan hari, bulan dan tahun serta poli secara cepat dan beragam laporan sesuai dengan informasi yang diperlukan

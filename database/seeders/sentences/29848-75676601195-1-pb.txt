@@ -1,0 +1,121 @@
+eee paper template in a4 vol 5 no 1 april 2019 berbasis augmented reality eka wahyu hidayat #1, andi nur rachman #2, muhammad fauzan azim jl
+siliwangi no24, kahuripan, tawang, tasikmalaya, jawa barat 1 ekawahyu@unsil.ac.id 2 andy.rachman@unsil.ac.id 3 m.fauzan.azim14@student.unsil.ac.id character 
+game sejenis ini contohnya adalah game aster battle yang didapat sebagai hadiah dari sebuah produk makanan
+pada game tersebut ditemukan masalah dimana karakter tidak memiliki kecerdasan untuk melakukan aksi pertarungan
+permasalahan lainnya adalah hasil scan marker menampilkan karakter yang tidak sesuai markernya dan pergerakan animasi pertarungan terlalu cepat
+untuk mengatasi masalah tersebut perlu dibuat battle game sejenis dengan karakter dan konsep yang berbeda dengan menambahkan kecerdasan buatan agar animasi pertarungan menjadi lebih terkontrol
+di dalam penelitian ini menerapkan sistem kecerdasan buatan yaitu finite state machine sebagai strategi untuk menentukan action animation prediction
+penelitian ini berhasil membuat battle game dengan pendekatan metode versi luther
+berdasarkan pengujian yang telah dilakukan, dari hasil pengujian alpha secara fungsional sudah sesuai dan dari pengujian beta yaitu user acceptance test didapat nilai sebesar 71% yang berarti game yang dibangun dengan menerapkan finite state machine dinyatakan layak untuk digunakan dengan interpretasi baik
+pendahuluan maya dua demensi atau tiga dimensi ke dalam sebuah lingkungan nyata tiga dimensi, lalu memproyeksikan benda-benda maya tersebut dalam waktu nyata
+marker adalah suatu pola yang di desain dalam bentuk titik-titik hitam yang dapat dikenali oleh camera atau webcam
+informasi marker akan digunakan untuk menampilkan objek 3d
+marker based tracking bekerja dengan cara mendeteksi mengenali marker untuk menetukan lokasi dan orientasi dari kamera, dengan kamera yang telah dikalibrasi maka sistem kemudian dapat menampilkan objek virtual pada tempat yang telah ditentukan
+android adalah sebuah sistem operasi untuk perangkat mobile yang mencakup sistem operasi middleware dan aplikasi
+android menyediakan layanan platform terbuka bagi para pengembang untuk menciptakan aplikasi mereka
+berjenis adventure, simulasi, role-playing game, real-time strategy, first person shooter, fighting, dan masih banyak lagi genre yang lainnya
+salah satu contoh game yang umum dan banyak dikenal di kalangan pecinta game yaitu game bergenre fighting
+game fighting adalah yang berisikan pertarungan antara dua karakter di suatu tempat atau arena dengan tujuan untuk menghabiskan hp lawan
+game fighting contohnya adalah game tekken, game street fighter
+game tersebut berbasis objek 2d dan 3d sebagai objeknya
+dapat diartikan sebagai gabungan dari beberapa media
+media ini dapat berupa teks, gambar, video, audio maupun animasi
+dan gabungan dari semua media tersebut kemudian dikemas menjadi satu kesatuan yang di manipulasi secara digital dengan komputer
+dibutuhkan adanya ai agar game lebih menarik
+ai didalam game dapat diterapkan pada non-playable character 
+npc adalah karakter yang mampu berinteraksi dengan objek didalam dunia game dan tindakannya tidak dapat dikendalikan oleh pemain
+peranan ai didalam game playing sangat berpengaruh pada bidang permainan antara manusia melawan mesin yang memiliki intelektual untuk berpikir
+komputer dapat bereaksi dan menjawab tindakan- tindakan yang diberikan oleh lawan mainnya
+agen permainan adalah karakter game yang dikontrol dengan cerdas menggunakan logika finite state machine 
+penerapan finite state machine pada game berguna untuk menentukan berbagai macam respon npc terhadap pemain di dalam sebuah game berdasarkan interaksi yang dilakukan, hal ini disebabkan karena fsm dapat digunakan untuk gambaran awal, mendesain dan menentukan respon perilaku yang dilakukan terhadap perubahan kondisi
+yang bergenre game fighting dengan menggunakan teknologi augmented reality pada smartphone yang berbasis android dengan karakter dalam game tersebut adalah hantu 3d urband legend, dengan marker kartu 2d hantu
+dan penerapkan finite state machine untuk pergerakan animasi karakter pada saat pertempuran
+metodologi penelitian yaitu metode vaughan, metode luther, metode villamil- molina, dan metode dastbaz, metode godfrey, dan sherwood-rout
+dari beberapa pilihan metode pengembangan perangkat multimedia yang ada, metode luther dirasa paling cocok untuk penelitian berbasis ar
+alur metode penelitian yang digunakan dalam penelitian ini terdiri dari beberapa tahapan yaitu: tahap pengumpulan data, analisis kebutuhan, perancangan produk multimedia, dan evaluasi
+pemodelan sistem pada penelitian ini merujuk pada metode versi luther
+metodologi penelitian yang digunakan dapat dilihat pada gambar 1
+studi pustaka teoritis dan melakukan kajian terhadap penelitian- penelitian yang telah dilakukan sebelumnya dengan mempelajari serta membaca buku, jurnal-jurnal penelitian, artikel-artikel dari internet yang berhubungan dengan penelitian ini
+bermain permainan battle game kartu dalam bentuk digital menggunakan teknologi augmented reality di masyarakat umum
+mencakup tentang semua data yang diperlukan untuk pembuatan aplikasi, baik itu kebutuhan input, maupun output, pernyataan tentang apa yang harus dikerjakan oleh sistem, dan karakteristik seperti apa yang harus dimiliki system, kebutuhan input didapat dengan membeli sebuah produk yang di dalam-nya berhadiah sebuah battle game kartu berbasis ar seperti produk sosis kimbo reddi
+perancangan produk multimedia metode perancangan pada penelitian ini menggunakan adalah multimedia development life cycle – luther, metode ini terdiri dari concept, design, material collecting, assembly, testing, distribution
+concept, pada tahap concept disini akan ditentukan sasaran pengguna atau user game, tujuan dari aplikasi game yang akan dibangun nantinya dan spesifikasi umum
+design, pada tahap ini akan dibuat spesifikasi mengenai arsitektur program, gaya, tampilan dan kebutuhan material/bahan untuk program
+material collecting, pada tahap ini dilakukan untuk mengumpulkan data apa saja yang dibutuhkan untuk merancang dan membangun aplikasi game dan pengumpulan bahan sesuai dengan kebutuhan yang akan dikerjakan
+assembly, pada tahap ini dilakukan pembuatan semua objek atau bahan multimedia yang dibutuhkan dibangun
+testing, pada tahap selanjutnya melakukan testing aplikasi game yaitu dengan menjalankan aplikasi atau program dan dilihat apakah ada kesalahan atau tidak
+tahap ini disebut juga sebagai tahap pengujian alpha dimana pengujian dilakukan oleh pembuat atau lingkungan pembuatnya sendiri
+dilakukan apabila aplikasi yang dibuat sudah memenuhi sasaran dan target utama sesuai yang telah ditentukan pada tahap concept serta apakah aplikasi layak untuk digunakan oleh user
+aplikasi berhasil dilakukan diantaranya yaitu penarikan kesimpulan dan ide pengembangan
+hasil dan pembahasan berdasarkan ide yang ada, untuk menentukan tujuan, mengidentifikasi pengguna, jenis produk, dasar aturan, ukuran, dan target hasil tahapan ini dapat dilihat pada tabel 1
+tabel i deskripsi concept dimension) audio instrumen teks tulisan cerita pada setiap karakter, petunjuk game negeri yaitu pocong dan urband legend hantu luar negeri yaitu sadako deskripsi aplikasi dua dimensi yang berbeda dimensi
+dimensi mereka saling terbuka karena seorang anak genius bernama sentou melakukan eksperimen berhasil masuk ke dalamnya, lalu menangkap semua hantu tersebut dan menyegelnya ke dalam sebuah kartu kemudian para hantu tersebut harus bertarung agar bisa menjadi yang terkuat dan reward nya akan bisa menjelajahi antar dimensi tidak terpaku didalam satu dimensi saja dan menjadi raja dikedua dimensi tersebut
+design tahapan design ini harus dilakukan secara rinci yang dimulai pada gambaran awal produk
+tabel ii scene 2: tampilan logo aplikasi dan loading bar scene 3: tampilan menu utama dengan menu pilihan bertarung, cara bermain, tentang dan keluar scene 4: tampilan pertarungan battle game augmented reality scene 10: tampilan informasi aplikasi gambar 2
+sequence diagram bertarung sequence diagram menggambarkan skenario atau rangkaian langkah-langkah yang dilakukan sebagai sebuah respon dari suatu kejadian untuk menghasilkan output tertentu
+sistem dan urutan kegiatan yang dilakukan oleh aktor dan npc musuh
+struktur navigasi yang digunakan dalam proses pembuatan aplikasi ini menggunakan navigasi hirarki
+struktur navigasi hirarki ini terbentuk oleh logika isi
+finite state machine pengembangan finite state machine digunakan untuk menentukan action 3d animasi objek bagaimana karakter bereaksi atau memutuskan tindakan berdasarkan state situasi atau event tertentu
+keterangan: q2 = state maju q3 = state serang q4 = state mati c
+material collecting tahap material collecting ini merupakan tahap dimana segala sesuatu yang telah dipersiapkan untuk membuat sebuah aplikasi ini sudah mulai di proses
+marker 2d marker digunakan sebagai objek penanda atau target yang berfungsi untuk mengidentifikasi objek 3d yang akan ditampilkan
+adapun tokoh urband legend dalam negeri yaitu hantu pocong dan tokoh urband legend luar negeri yaitu hantu sadako
+deteksi marker hasil deteksi marker yaitu dengan pengenalan polanya dengan cara mendeteksi atau melacak titik-titik point dan sudut-sudut pada suatu gambar
+objek 3d pembuatan objek 3d dan animasi menggunakan blender
+hasil objek hantu 3d tokoh urband legend hantu luar negeri sadako dan urband legend hantu dalam negeri pocong meliputi: elemen multimedia menjadi satu kesatuan, elemen multimedia yang dibutuhkan dan akan dirancang diantaranya text, gambar, video, audio, animasi
+semua elemen tersebut akan digabungkan pada software unity, sehingga hasil yang diinginkan berupa aplikasi augmented reality yang dapat digunakan pada perangkat android, adapun hasil ditahap assembly yaitu: gambar 12
+menu tentang melakukan pengujian fsm, pengujian alpha, dan pengujian beta
+tahapan pengujian fsm ini untuk menentukan gambaran atau desain awal untuk aksi pada animasi 3d yang akan dibuat dan yang akan di implementasikan ke dalam sebuah program animasi 3d di dalam proses pembuatan game, gambaran awal fsm pada animasi karakter mencakup strategi untuk menentukan action animation prediction, selanjutnya pada tahap pengujian alpha dilakukan oleh pengembang atau pembuat perangkat lunak sebelum perangkat lunak tersebut sampai kepada pengguna dan tahap pengujian beta untuk mengetahui apakah aplikasi yang dibuat sudah layak untuk digunakan, mendapatkan feedback atau umpan balik dari pengguna yang akan memainkan game yang telah dibuat dan diujikan oleh pengguna akhir dalam hal ini adalah pengguna 
+pengujian fsm pengujian fsm pada state awal dimulai dari pemain adalah state 
+homing” ini, ada satu ―aksi‖ yang mempengaruhi, lalu menuju state ―diam‖, setelah state ―diam‖ dilanjutkan berupa action akan menuju state ―aba-aba‖ di state ―aba-aba‖ input berupa pemilihan suit pemain outputnya saat system selesai memproses hasil suit dan pemenang berhasil ditentukan, di state ―aba-aba‖ ini ada dua kemungkinan action akan terjadi yaitu kembali ke state ―diam‖ kemudian dilanjutkan lagi ke state ―aba-aba‖ sesuai kejadian ―event
+dalam state di animasi
+kemudian action akan menuju state ―maju‖, dilanjutkan berupa action akan menuju state ―serang‖ setelah state ―serang‖ ada dua kemungkinan action akan terjadi yaitu kembali ke state ―aba-aba‖ kemudian dilanjutkan lagi ke state ―diam‖ sesuai kejadian ―event” di animasi
+di state ―diam‖ action akan menuju ke state ―mati‖ jika hp dari karakter pemain < 0
+hasil dari pengujian ini sudah sesuai dengan model fsm yang digunakan seperti pada gambar 6
+alpha test pengujian alpha dilakukan oleh pengembang dengan metode black-box testing
+metode ini digunakan untuk memeriksa fungsionalitas dari aplikasi game yang dibuat
+kesimpulan dari alpha test bahwa semua fungsi pada aplikasi berjalan dengan baik
+pengujian detail pengujian hasil tombol navigasi perpindahan tiap scene diterima menu bertarung memindai marker menampilkan objek 3d hantu dalam negeri dan hantu luar negeri menampilkan pemilihan karakter aplikasi diterima tombol back dan tanpa mengulang kembali permaianan pada game yang dibuat sudah sesuai dan dapat diterima
+pengujian force close dengan penekanan tombol back dan home pada perangkat android sesuai dengan fungsi dari perangkat android
+apabila terjadi force close, permainan dapat dilanjutkan kembali tanpa mengulang dari awal dengan memanggilnya pada tombol option
+pegujian gameplay untuk menentukan pemenang sudah sesuai dimana pemenang ditentukan berdasarkan nilai health point 
+nilai hp kurang dari 0 dinyatakan kalah
+beta test pengujian beta test ini akan dilakukan pengambilan data dengan menggunakan metode survey berupa pengisian kuesioner kepada pengguna akhir
+tujuan dari penyebaran kuesioner ini adalah untuk mendapatkan feedback atau umpan balik dari pengguna yang akan memainkan game yang telah dibuat
+pengujian beta test yang dilakukan untuk mendapatkan fungsi dengan mempertimbangkan aspek pembelajaran informasi yaitu visuals
+terkumpul disajikan dengan bahasa yang sederhana dan komunikatif dilengkapi dengan komponen-komponen visuals, yaitu: 1
+visible atau mudah dilihat, yaitu materi yang disajikan secara visual terlihat jelas, tingkat keterbacaan tinggi, resolusi atau ketajaman grafis tinggi, mengandung satu makna
+interesting atau menarik, yaitu isi pesan sesuai dengan kebutuhan audien, tampilan baik dan memikat sehingga menimbulkan rasa ingin tahu, dan berusaha menjaga kelangsungan proses komunikasi atau interaksi dan belajar
+simpel atau sederhana, yaitu pesan terfokus, pemilihan kata, huruf, gambar tidak mengubah makna pesan, bahasa dan tampilan lugas
+useful atau berguna, yaitu sesuai dengan kebutuhan audien dan tujuan pembelajaran maupun hasil belajar yang diinginkan
+accurate atau tepat, yaitu isi pesan mempunyai makna yang tepat, sesuai dengan kebutuhan, penyampaiannya cermat, didasarkan pada sumber yang dapat di pertanggung jawabkan
+legitimate atau benar, yaitu isi pesan benar, disusun secara logis, mengikuti kaidah keilmuan, dan masuk akal 7
+structure atau terstruktur, yaitu rangkaianpesan disampaikan secara sistematis, dengan urutan-urutan yang logis dan mudah dipahami
+pengujian beta test dilakukan dengan tujuan untuk mendapatkan feedback dari penggunan
+pengujian ini dilakukan dengan cara penyebaran kuisioner
+sampling untuk pengujian ini dengan pendekatan insidental dimana populasi ditentukan yaitu mahasiswa universitas siliwangi, sedangkan sampel menggunakan rumus slovin sehingga didapat sampel sebesar 30 responden
+setelah menentukan jumlah responden, kuesioner disebar sebanyak jumlah responden yang telah dihitung
+kemudian persentase dari masing-masing jawaban kuesioner diidentifikasi dengan menggunakan rumus: keterangan: q = jumlah responden visible: 1
+apakah materi game / objek ar terlihat jelas? 2
+apakah informasi tata cara penggunaan game bisa dibaca dengan jelas? 3
+apakah gambar atau grafis di dalam game terlihat tajam? 4
+apakah seluruh tampilan visual didalam game bisa dimengerti? interesting: 6
+apakah didalam game tampilan bisa menimbulkan rasa ingin tahu? kesulitan mempelajari ulang navigasi yang diberikan? simpel: 8
+apakah pesan yang disampaikan fokus pada inti dari game? 9
+apakah gambar atau huruf sesuai dengan tema dari game? 10
+apakah bahasa yang digunakan didalam game sederhana? useful: 12
+apakah penggunaan marker sudah sesuai dengan konsep permainan? accurate: 13
+apakah isi permainan mempunyai makna yang tepat? 14
+apakah didalam game isi penyampaiannya cermat? 16
+apakah game ini meniru dari konsep game lain yang mirip? legitimate: 17
+apakah isi pesan kisah cerita hantu didalam marker benar? 18
+apakah konsep permainan disusun secara logis? 19
+apakah konsep permainan mengikuti kaidah keilmuan? 20
+apakah konsep game pertarungan antara hantu masuk akal? structure: disampaikan secara sistematis? dipahami? multimedia interaktif, digunakan skala peringkat
+berikut adalah persentase hasil kuesioner dengan pilihan ―baik‖, ―cukup‖, ―kurang‖
+tabel v dalam tabel hasil kuesioner diatas
+didapat total jumlah persentase 71% jawaban ―baik‖ setelah dibagi banyaknya jumlah total pertanyaan pada kuesioner yaitu penilaian ditentukan berdasarkan kategori tingkat validasi multimedia interaktif yang menggunakan skala pengukuran rating scale
+dihasilkan aplikasi game bergenre battle game yaitu produk yang diberi nama arc-b dimension yang dapat berjalan diperangkat smatrphone android, juga dapat memberikan pengalaman baru dan berbeda bagi user dalam bermain game dengan menggunakan teknologi augmented reality dengan mengangkat urban legend dengan objek hantu sebagai karakter utama didalam game dan proses pembuatan di lakukan unity 3d
+finite state machine berhasil diterapkan sebagai strategi action animation prediction dikarakter untuk menentukan gambaran atau desain awal aksi pada animasi 3d yang akan dibuat
+hasil deteksi marker 2d dengan teknik marker based tracking yaitu pengenalan pola dengan cara mendeteksi atau melacak titik-titik point dan sudut-sudut pada suatu gambar kemudian dilakukan analisa tepi untuk mendapatkan pendeteksian sudut secara tepat

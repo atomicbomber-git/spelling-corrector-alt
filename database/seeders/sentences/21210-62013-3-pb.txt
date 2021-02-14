@@ -1,0 +1,98 @@
+pengukuran kelembaban tanah menggunakan sensor soil mouisture, pengukuran ph tanah menggunakan elektroda dan pengukuran suhu tanah menggunakan sensor ds18b20
+mikrokontroler sinyal alat ini dilengkapi dengan sistem penyimpan data menggunakan sd card sehingga mudah untuk pengambilan data hasil pengukuran.tahapan penelitian meliputi proses perancangan, pembuatan dan pengujian alat
+tanah digunakan manusia dalam berbagai bidang, sebagai contoh bidang pertanian, perkebunan, transportasi, perumahan, pariwisata dan lain- lain
+dalam bidang pertanian, pemilihan jenis tanah dapat menentukan tingkat keberhasilan bercocok tanam
+lahan pertanian yang akan digunakan untuk bercocok tanam membutuhkan pengkajian tentang sifat-sifat fisiknya agar lahan tersebut dapat digunakan secara optimal parameter yang terukur dapat digunakan sebagai data acuan untuk para petani untuk menentukan jenis tanaman
+beberapa parameter tanah yang perlu dikaji adalah suhu, kelembaban dan ph, karena ketiga paramater tersebut memiliki peranan sangat penting dalam kesuburan tanaman
+kelembaban dan suhu tanah pernah dilakukan oleh peneliti di antaranya; yahwe dengan penelitiannya monitoring kelembaban tanah pada tanaman cabai dan tomat dengan tingkat keberhasilan alat 93, 75%
+menurut sari, nilai suhu yang tinggi mengakibatkan perhitungan nilai resistivitas yang tinggi
+stevanus dan setiadi, telah berhasil membuat alat ukur kelembaban tanah berbasis mikrokontroler pic.pada penelitian ini telah dibuat alat ukur ph, suhu, dan kelembaban yang terintegrasi dan dilengkapi dengan sistem penyimpanan data
+sistem penyimpanan data menggunakan secure digital card 
+alat ini juga dilengkapi dengan real time clock 
+selain data ph, suhu, dan kelembaban alat ini juga akan menampilkan waktu dan tanggal pengambilan data yang tersimpan di dalam sd card
+alat ini dapat dikembangkan untuk membantu petani
+sensor ph sensor ph yang digunakan pada penelitian ini menggunakan elektroda dari ph meter etp 110 dimana terdiri dari dua jenis logam yaitu almunium dan timbal dua bahan ini dijadikan satu kemudian ada karet pemisah di antara logam seperti terlihat pada gambar 1, sensor ini bekerja pada tegangan 5v
+sensor soil mouidture membaca nilai kelembaban berdasarkan konstanta dielektrik tanah yang diukur dengan transmission-line technique saat dialiri listrik oleh lengan sensor
+oleh karena itu, pada saat sensor dimasukkan ke tanah kering nilai yang terbaca oleh sensor lebih besar daripada nilai pada tanah yang memiliki kadar air lebih tinggi
+spesifikasi tegangan input sebesar 3, 3 dan 5 volt
+gambar 2 merupakan gambar sensor soil mouisture
+sensor suhu ds18b20 sensor suhu yang digunkan adalah sensor suhu ds18b20
+sensor ini cocok digunakan pada tempat yang sulit
+karena ouput data sensor ini merupakan data digital, sehingga tidak terjadi degradasi data
+karena setiap sensor ds18b20 memiliki silicon serial number yang unik, maka beberapa sensor ds18b20 dapat dipasang dalam 1 bus
+sensor suhu ds18b20 gambar 3 merupakan sensor suhu ds18b20
+sensor ini beroperasi dalam kisaran -550c-1250c, memilki tingkat keakuratan ±50c dalam kisaran -100c sampai 850c
+sensor ini memiliki keakuratan tingi dan kemudahan perancangan jka dibandingkan dengan sensor suhu lainnya, juga mempunyai keluaran impendasi yang rendah dan liniearitas yang tinggi sehingga dengan mudah dihubungkan ke rangkaian kendali khusus serta tidak memerlukan penyetelan lanjutan
+atmega 328p sebagai pengendali utama dalam sistem kerja alat
+dimana terdapat 130 macam intruksi yang hampir semuanya dieksekusi dalam satu siklus clock, terdapat 32 x 8 bit, kecepatan mencapai 16 mips dengan clock 16 mhz, memiliki 32 kb flashmemory, memiliki electrically erasable programmable read only memory sebesar 1kb sebagai tempat penyimpanan data semi permanen karena eeprom tetap dapat menyimpan data meskipun catu daya dimatikan
+memiliki static random access memory sebesar 2kb
+serta pin i/o digital sebanyak 14 pin 6 diantaranya pulse width modulation output
+perancangan kelembaban, dan ph tanah terbagi menjadi 7 bagian, yaitu: 1
+sensor ph adalah sensor yang digunakan untuk mengukur ph tanah
+sensor soil mouisture adalah sensor yang digunakan untuk mengukur kelembaban tanah
+sensor suhu ds18b20 adalah sensor yang digunakan sebagai pendeteksi suhu tanah 4
+sd card adalah media penyimpanan data hasil pengukuran
+arduino uno adalah bagian perangkat utama atau dapat dikatakan sebagai otak dari sistem yang akan dibuat
+lcd 20x4 merupakan bagian perangkat yang menampilkan perangkat penampil hasil pengukuran
+power suplay adalah sumber energi listrik yang diperlukan sistem
+perancangan perangkat keras secara keseluruhan dapat dilihat pada gambar 5 sebagai berikut: gambar 5
+perancangan perangkat lunak perancangan perangkat lunak ini merupakan alur dari kode program yang akan dibuat agar sistem dapat bekerja dengan baik, seperti pada gambar 6 berikut ini: inisialisasi mikro, lcd, ds18b20 tidak ya pada penelitian ini telah dibuat alat ukur suhu, kelembaban dan ph pada tanah berbasis mikrokontroler atmega328p
+ada dua tahapan dalam proses pembuatan meliputi perangkat keras dan perangkat lunak, yang sebelumnya sudah diuji untuk masing-masing bagian dengan hasil yang sesuai dengan perancangan penelitian
+hal ini dilakukan untuk mengetahui kinerja dari seluruh bagian
+sesuai dengan perancangan yang telah dilakukan terhadap alat ini, maka dilakukan dua proses pengujian yaitu pengujian alat untuk kalibrasi sensor dan pengujian alat buatan dengan alat standar
+pengujian kelembaban dan ph dilakukan dengan cara memasukan elektroda ke dalam tanah kemudian sensor tersebut akan memberikan sinyal berupa tegangan analog kepada mikrokontroler atmega 328p
+keluaran tersebut diproses oleh adc untuk dikonversi menjadi data digital selanjutnya diplot ke kurva regresi linear untuk mendapatkan nilai kelembaban dengan satuan persen, dengan ph dalam angka yang selanjutnya di tampilkan pada lcd dan disimpan pada sd card
+pengujian suhu dilakukan dengan cara memasukan elektroda ke dalam tanah
+sensor akan memberikan sinyal digital pada mikrokontroler
+nilai yang dihasilkan langsung berupa nilai suhu dengan satuan derajat celcius, sehingga tidak perlu diplot ke dalam kurva regresi linear atau kalibrasi
+adapun hasil dari pengujiannya sebagai berikut
+pengujian dan kalibrasi sensor ph pengujian ini dilakukan untuk mengetahui hubungan antara nilai adc dengan ph
+nilai adc didapat dengan cara memvariasikan nilai ph tanah
+untuk mendapatkan tanah yang mengandung tingkat keasaman dilakukan dengan cara memberikan larutan asam dari jeruk nipis sedangkan untuk mendapat tanah yang mengandung basa diberikan larutan kapur
+adapun hasil pengukurannya terdapat pada tabel 1
+dari persamaan maka dilakukan konversi untuk mencari nilai ph dari alat yang dibuat dengan persamaan sebagai berikut : 343, 4 program arduino untuk menentukan nilai ph tanah
+pengujian dan kalibrasi sensor kelembaban pengujian ini dilakukan untuk mengetahui antara nilai adc dengan nilai kelembaban tanah menggunakan etp 110 yang harus memenuhi persamaan linear
+nilai adc didapat dengan cara memvariasikan nilai kelembaban tanah dengan cara memberikan air pada tanah tersebut mulai dari 10% sampai 100%
+hasil yang didapat dengan standar akan dijadikan sebagai data acuan
+tabel 2 merupakan hasil pengujian nilai adc dengan dengan etp 110
+tabel 2 pengujian nilai adc dengan etp 110 pengukuran etp 110 berikut
+7, 505 1073y x   dimana y adalah nilai adc dan x adalah nilai kelembaban dari alat ukur kelembaban tanah
+dari persamaan maka akan dilakukan konversi untuk mencari nilai kelembaban dari alat yang dibuat dengan persamaan sebagai berikut: dalam program arduino untuk mencari nilai kelembaban tanah
+pengujian alat buatan dengan alat standar
+pengujian ini bertujuan untuk mengetahui hasil dari alat yang telah di buat
+kemudian membandingkannya dengan hasil alat standar apakah menunjukan hasil yang sama, sehingga nilai erorr untuk masing-masing pengujian bisa diketahui
+adapun hasil pengujiannya adalah sebagai berikut : membandingkan hasil pengukuran nilai ph dari alat yang dibuat dengan hasil nilai ph yang didapat dari alat standar
+pengukuran ph dilakukan dengan cara memasukan elektroda ph ke dalam channel satu
+kemudian tanah terlebih dahulu diukur dengan alat standar sebagai data acuan
+setelah itu ph tanah diukur dengan alat yang dibuat
+elektroda yang masuk ke dalam tanah sepanjang 5 cm
+terjadi interaksi antara elektroda tersebut dengan mineral- mineral di dalam air yang berada di dalam tanah
+sehingga membentuk larutan elektrolit yang dapat menghantarkan listrik pada saat arus melewatinya dan menyebabkan terjadinya proses ionisasi yang membentuk ion-ion positif dan negatif
+semakin kuat tanah tersebut mengandung asam maka semakin mudah bahan itu terionisasi
+adapun hasil perbandingan antara nilai ph alat buatan dengan nilai ph standar terdapat pada tabel 3 dengan rata-rata error pengukuran sebesar 2, 68%
+gambar 9.grafik perbandingan ph alat buatan dan alat standar 2.2
+pengujian kelembaban hasil pengujian alat dilakukan dengan cara membandingkan hasil pengukuran nilai kelembaban tanah dari alat yang dibuat dengan hasil nilai kelembaban tanah yang didapat dari alat standar
+pengukuran kelembaban tanah dilakukan dengan cara memasang elektroda kelembaban ke dalam channel dua pada box alat
+kemudian masukan elektroda ke dalam tanah yang sudah diketahui nilai kelembabanya menggunakan alat standar sepanjang 5 cm
+elektroda tersebut akan mendeteksi jumlah air yang berada di dalam tanah dengan cara melewatkan arus melalui tanah kemudian membaca resistanstinya
+air mempunyai sifat konduktor yang baik sehingga dengan bertambahnya kadar air di dalam tanah tersebut maka nilai resistansi yang terbaca kecil dan sebaliknya, menghasilkan nilai resistansi besar jika kadar air di dalam tanah rendah.sehingga didapatlah perbandingan antara nilai kelembaban tanah dari alat buatan dengan nilai kelembaban alat standar seperti pada tabel 4 dengan rata- rata error pengukuran sebesar 1, 58%
+tabel 4 hasil pengukuran kelembaban tanah dengan alat standar dibuat dengan alat standar dapat dilihat pada gambar 10 sebagai berikut
+standar suhu tanah menggunakan alat buatan kemudian membandingkan nilai suhu dengan alat standar
+proses ini dilakukan untuk mengetahui error alat yang telah dibuat pada saat pengambilan data
+data hasil pengujiannya dapat dilihat pada tabel 5
+tabel 5 hasil pengukuran suhu tanah dengan alat standar dan buatan buatan dengan alat standar dapat dilihat pada gambar 11 diberikut ini
+perangkat, hasilnya diketahui bahwa semua sensor dapat bekerja dengan baik
+setiap pengukuran mempunyai tingkat akurasi dan sensitivitas yang baik
+hal ini dapat diperoleh karena didukung oleh kemampuan mikrokontroler atmega328p yang digunakan memiliki frekuensi clock 16 mhz dimana dapat mengeksekusi 130 instruksi dalam satu siklus clock membuat data-data yang di terima mikrokontroler dapat di proses secara cepat
+selain itu pemilihan sensor yang sesuai dengan desain dan bahan yang sensitif terhadap perubahan lingkungan membuat alat ini dapat menghasilkan pengukuran yang baik, terlihat dari nilai error masing-masing pengukuran yang kecil
+sehingga hasilnya sesuai dengan apa yang diharapkan
+namun, ada beberapa hal yang perlu diperhatikan dalam penelitian ini supaya hasil pengukuran tidak memiliki erorr yang tinggi antara lain : 1
+pemasangan elektroda ke dalam channel harus benar agar mendapatkan hasil pembacaan sensor yang baik
+sentuhan-sentuhan dari luar pada saat elektroda sudah masuk ke dalam tanah harus dihindarkan
+arus listrik yang digunakan harus dari sumber tegangan yang stabil agar dapat menghasilkan pengukuran yang akurat
+perawataan terhadap sensor sangat diperlukan dalam proses pengukuran ketiga parameter tanah tersebut
+dengan cara mencuci setiap sensor dengan air setelah melakukan pengukuran
+yang terintegrasi dalam satu alat dapat dibuat menggunakan sensor suhu ds18b20, sensor soil mouisture yl-69, elektroda dan arduino uno alat ini memiliki erorr sebesar 0, 22% 1, 58% dan 2, 68% berturut- turut untuk suhu, kelembaban dan ph tanah
+saran alat ini dapat dikembangkan dengan lebih baik lagi, baik dari segi fungsi maupun aplikasinya yang lebih luas
+saran yang dapat diberikan yaitu fungsi dari alat diharapkan bisa diperluas lagi supaya tidak hanya bisa mengukur ph dari 3, 5 sampai 8 saja, tetapi bisa mengukur ph dari 1 sampai 14
+ucapan terimakasih memberikan dana, sehingga penelitian ini dapat diselesaikan

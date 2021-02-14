@@ -1,0 +1,103 @@
+the problems that occur in the society such as bad infrastructure and public welfare cause information about the location of the problem becomes very important to be known by the government
+society reporting geographic information systems is an application that provides information based on the geographical position of a photograph
+with the sigma, the society could help the government to collect information about the location of the problem with uploading photos via the web and the android application so that the government can monitor the distribution of the location of the problem, planning and taking countermeasures quickly and accurately, especially for areas far from the government’s attention
+this application utilizes the phone's camera features that has a direct synergy with the gps feature to provide information about the object and the condition known as geotagging
+photos then uploaded via a web application, or using android application which can be downloaded from the website
+through gps metadata contained in the picture, sigma will get the coordinates for the location of the photo then displayed it on the map
+the results show that the web and the android application can upload photos that have coordinate information
+the test results of a questionnaire using likert's method summated rating earned a total score of 2369 which showed that respondents are very positive and successful application
+keywords: geotagged photos, geotagging, lsr, android mobile, sigma
+pendahuluan berbagai bentuk permasalahan di masyarakat yang berkaitan dengan kerusakan infrastruktur, permasalahan sosial, dan pencemaran lingkungan yang terjadi di masyarakat menyebabkan informasi tentang lokasi masalah tersebut menjadi sangat penting untuk diketahui oleh pemerintah
+untuk mengatasi masalah lambatnya arus informasi yang masuk ke pihak pemerintah, maka dibutuhkan partisipasi masyarakat dalam mengumpulkan dan melaporkan informasi mengenai masalah kerusakan jalan dan jembatan, penerangan jalan yang tidak berfungsi, tempat pembuangan dan pembakaran sampah ilegal, pembakaran lahan, toilet tidak sehat, dan pemetaan rumah tidak layak huni melalui sebuah foto yang diambil dengan kamera ponsel
+geotagging adalah gabungan fitur kamera yang dapat melakukan sinergi langsung dengan fitur gps guna memberikan informasi secara realtime di mana dan bagaimana kondisi sebuah objek
+ponsel yang dilengkapi dengan fasilitas geotagging dapat digunakan untuk menghasilkan foto yang menyimpan informasi posisi data gps, seperti garis lintang dan bujur, ketinggian, bantalan, jarak, akurasi data, dan nama tempat
+banyak ponsel yang dilengkapi dengan fitur gps dapat menambahkan informasi lokasi ke dalam metadata foto, atau biasa disebut dengan data exif, secara otomatis sehingga lokasi foto tersebut dapat ditampilkan ke dalam peta
+sistem informasi geografis pelaporan masyarakat merupakan sebuah sistem yang menampilkan informasi lokasi sebaran masalah berdasarkan posisi geografis pengambilan sebuah foto
+dengan adanya sigma, masyarakat bisa membantu pemerintah untuk mengumpulkan informasi mengenai lokasi masalah dengan cara mengunggah foto ke dalam sistem sehingga pemerintah dapat memantau persebaran lokasi masalah, kemudian merencanakan dan mengambil tindakan penanggulangan secara cepat dan tepat, khususnya bagi daerah yang jauh dari perhatian pemerintah
+aplikasi sigma memanfaatkan informasi yang terdapat pada foto, khususnya berupa titik koordinat, untuk melakukan pemetaan sebaran lokasi masalah
+melalui metadata gps yang terdapat pada foto, koordinat lokasi foto akan direkonstruksi menjadi titik-titik penting
+berdasarkan titik koordinat tersebut, aplikasi akan menampilkan titik persebaran sebagai marker di dalam peta sesuai dengan kriteria permasalahan yang telah ditentukan pada saat proses unggah foto
+oleh karena itu, dengan adanya aplikasi sigma masyarakat diharapkan dapat berpartisipasi aktif dalam membantu pemerintah untuk mengumpulkan informasi terhadap suatu masalah sehingga informasi tersebut dapat digunakan oleh pihak pemerintah untuk memantau, merencanakan dan mengambil tindakan secara cepat dan tepat agar masalah kesejahteraan hidup masyarakat dan infrastruktur pemerintah dapat segera diselesaikan
+dasar teori 2.1.global positioning system global positioning system adalah sistem navigasi berbasis satelit terdiri dari jaringan 24 satelit ditempatkan ke orbit oleh departemen pertahanan amerika serikat yang pertama kali diperkenalkan mulai tahun 1978
+layanan gps dahulu hanya dipergunakan untuk keperluan militer namun mulai terbuka untuk publik
+24 satelit gps tersebut berada sekitar 12.000 mil di atas bumi bergerak mengelilingi bumi 12 jam dengan kecepatan 7.000 mil per jam
+satelit gps berkekuatan energi sinar matahari, memiliki baterai cadangan untuk menjaga agar tetap berjalan pada saat gerhana matahari atau pada saat tidak ada energi matahari dan memiliki roket penguat kecil pada masing-masing satelit agar dapat mengorbit tepat pada tempatnya
+satelit-satelit gps harus selalu berada pada posisi orbit yang tepat untuk menjaga akurasi data yang dikirim ke gps receiver, sehingga harus selalu dipelihara agar posisinya tepat
+posisi satelit-satelit tersebut selalu dipantau oleh stasiun pengendali
+stasiun-stasiun pengendali di bumi ada di hawaii, ascension islan, diego garcia, kwajalein dan colorado spring
+untuk dapat mengetahui posisi seseorang maka diperlukan alat yang diberi nama gps receiver yang berfungsi untuk menerima sinyal yang dikirim dari satelit gps
+gps receiver mengambil informasi tersebut dan melakukan perhitungan triangulation untuk menentukan lokasi pengguna dengan tepat
+gps receiver membandingkan waktu sinyal dikirim dengan waktu sinyal tersebut diterima untuk mengetahui jarak satelit
+dengan mengetahui jarak tersebut, gps receiver dapat melakukan perhitungan dan menentukan posisi pengguna dan menampilkan dalam peta elektronik
+setelah menentukan posisi pengguna, selanjutnya gps dapat menghitung informasi lain, seperti kecepatan, arah yang dituju, jalur, tujuan perjalanan, jarak tujuan, matahari terbit dan matahari terbenam dan masih banyak lagi
+satelit gps sangat presisi dalam mengirim informasi karena satelit tersebut menggunakan jam atom
+jam atom yang ada pada satelit merupakan partikel atom yang diisolasi, sehingga dapat menghasilkan jam yang akurat dibandingkan dengan jam biasa
+keistimewaan gps adalah mampu bekerja dalam berbagai kondisi cuaca, siang atau malam
+keakuratan sebuah perangkat gps bisa mencapai 15 meter, bahkan model terbaru yang dilengkapi teknologi wide area augmentation system keakuratannya sampai 3 meter
+karena gps bekerja mengandalkan satelit, maka penggunaannya disarankan di tempat terbuka
+penggunaan di dalam ruangan, atau di tempat yang menghalangi arah satelit, maka gps tidak akan bekerja secara akurat dan maksimal perhitungan waktu yang akurat sangat menentukan akurasi perhitungan untuk menentukan informasi lokasi
+semakin banyak sinyal satelit yang dapat diterima maka akan semakin presisi data posisi yang dihasilkan
+selain itu, ketinggian juga mempengaruhi proses kerja gps, karena semakin tinggi maka semakin bersih atmosfer, sehingga gangguan semakin sedikit (hasanuddin z
+2.2.gps photo tagging gps photo tagging juga dikenal sebagai geotagging, merupakan proses penambahan informasi posisi data gps dalam sebuah foto digital 
+ponsel-ponsel berkamera yang memiliki gps receiver internal umumnya memiliki fitur ini
+mekanisme gps phototagging adalah pada saat sebuah foto diambil menggunakan kamera yang memiliki fitur geotagging, kamera atau ponsel tersebut mencatat lebih banyak informasi/data dibandingkan dengan sebuah foto yang diambil dengan kamera biasa
+informasi tersebut termasuk waktu dan data ketika sebuah foto diambil, orientasi dari kamera, apakah menggunakan lampu flash dan detil kamera lainnya yang digunakan seperti apertur, exposure, dan local length
+semua data ini disimpan pada suatu tempat yang disebut exif headers
+exif headers berisi petunjuk foto dengan data yang dapat dibaca oleh aplikasi manajemen foto atau sebuah situs foto tertentu
+selain itu, exif headers juga menyediakan sebuah ruang untuk mengisi koordinat longitude, latitude, dan altitude
+2.3.exif headers data exif adalah data yang disimpan oleh kamera digital pada sebuah image yang berisi informasi mengenai kondisi dan setting kamera digital pada waktu dilakukan pemotretan 
+exif dikembangkan oleh japanese electronics industry development association sebagai upaya untuk mempermudah dan membuat standar pertukaran data antara perangkat lunak pengolah gambar/citra digital dan perangkat keras seperti kamera, serta didukung oleh hampir seluruh kamera digital informasi umum yang bisa anda dapatkan dari exif sebuah foto digital adalah antara lain : 1
+tanggal dan jam berapa sebuah foto dibuat
+merk, tipe kamera, dan jenis lensa yang dipakai untuk memotret foto
+resolusi dari kamera yang digunakan untuk mengambil gambar
+digunakan atau tidaknya fitur flash pada kamera
+lokasi foto tersebut diambil, jika kamera yang digunakan mendukung gps
+2.4.google geocoding google maps sudah memiliki fitur yang cukup lengkap, termasuk mencari lokasi kota pada peta 
+geocoding adalah proses menemukan koordinat geografis, yaitu bujur dan lintang, dari data geografis lain, misalnya alamat 
+fitur geocoding dapat dimanfaatkan untuk menambahkan informasi latitude dan longitude pada foto yang tidak memiliki data geotagging
+berdasarkan gambar di atas, koneksi antara sistem ke masing-masing entitas dilakukan dengan jaringan internet masyarakat dapat mengakses sistem melalui aplikasi web dan android, sedangkan pemerintah menggunakan aplikasi web dalam memantau dan memberikan respon masalah ke dalam sistem
+foto yang telah diunggah pengguna akan divalidasi oleh pemerintah agar bisa ditampilkan pada peta
+pemerintah juga dapat mengelompokkan foto-foto masalah berdasarkan topik tertentu dengan cara membuat sebuah thread
+melalui fitur thread ini akan membantu pengguna dalam melihat sebaran lokasi foto masalah
+3.2.diagram alir sistem berikut penjelasan mengenai diagram alir di atas: 1
+foto daerah masalah tersebut digunakan sebagai input pada aplikasi
+foto dapat diunggah melalui ponsel dengan aplikasi android, atau diunggah melalui aplikasi web
+foto yang diambil menggunakan kamera yang dilengkapi fitur gps dan geotagging, yang disebut dengan foto geotag, memungkinkan foto tersebut memiliki informasi mengenai koordinat longitude dan latitude lokasi foto tersebut diambil
+informasi koordinat lokasi pada foto yang tersimpan pada exif headers masih dalam bentuk degree minute second sehingga untuk mempermudah pembacaan koordinat pada google maps, maka koordinat harus dikonversi menjadi format decimal degree
+hasil konversi koordinat foto disimpan dalam sebuah tabel pada basis data untuk selanjutnya dicocokan dengan koordinat pada peta
+koordinat tadi akan ditampilkan menjadi titik-titik penting dan dipakai sebagai simbol lokasi persebaran foto masalah pada peta
+berdasarkan gambar di atas, entitas yang terdapat pada sistem adalah sebagai berikut: 1
+pengguna, yaitu masyarakat umum yang dapat mengakses sistem
+komentar, yaitu respon yang dapat diberikan oleh pengguna
+foto, yaitu data foto yang diunggah pengguna
+thread, yaitu klusterisasi/pengelompokkan foto dengan topik tertentu
+administrator, yaitu pengguna yang memiliki hak akses untuk mengelola sistem
+hasil perancangan dan pengujian 4.1.antarmuka aplikasi web secara garis besar, tampilan website sigma terbagi menjadi 2 bagian yaitu bagian menu, dan isi
+bagian menu terletak pada sisi kiri, sedangkan bagian isi website terletak pada bagian kanan
+fungsi dari masing-masing menu dapat dilihat pada tabel berikut ini : tabel 1
+daftar menu antarmuka publik no menu fungsi 1 beranda menampilkan halaman depan ketika aplikasi diakses
+2 feedback menampilkan kumpulan thread yang mengelompokkan foto masalah ke dalam sebuah topik tertentu
+3 unggah foto 4 galeri menampilkan foto-foto yang telah berhasil diunggah pengguna
+5 peta menampilkan peta sebaran titik lokasi foto masalah
+4.2.antarmuka aplikasi android halaman utama aplikasi android menampilkan enam menu yang dapat diakses pengguna
+pada tabel di bawah ini akan dijelaskan fungsi dari menu yang terdapat pada halaman utama aplikasi
+daftar menu aplikasi android no menu fungsi 1 menu kamera berfungsi untuk mengakses kamera yang ada pada perangkat pengguna, dan mengambil foto
+2 menu unggah foto berfungsi untuk mengunggah foto dari galeri perangkat pengguna
+daftar menu aplikasi android no menu fungsi 3 menu galeri berfungsi untuk menampilkan foto- foto yang telah diunggah oleh pengguna
+4 menu bantuan berisikan penjelasan fungsi dari masing-masing menu
+5 menu tentang menampilkan informasi singkat mengenai aplikasi android
+6 menu keluar berfungsi untuk menghentikan kinerja aplikasi android ketika sudah selesai digunakan
+4.3.pengujian sistem pengujian sistem menggunakan dua metode, yaitu metode black box yang digunakan untuk menguji fungsionalitas sistem yang telah dibuat
+adapun teknik uji coba yang digunakan dalam pengujian black box pada aplikasi ini adalah menggunakan teknik sample testing
+sample testing melibatkan beberapa data yang terpilih, mengintegrasikan data pada kasus uji dan data-data yang terpilih mungkin dipilih dengan spesifikasi tertentu
+metode pengujian kedua menggunakan kuesioner yang bertujuan untuk menguji apakah sistem yang dibuat sudah sesuai dengan apa yang tertuang dalam spesifikasi fungsional sistem 
+pengujian kuesioner bertujuan untuk menguji tingkat penerimaan pengguna terhadap sistem
+pengujian ini dilakukan secara online dengan memanfaatkan salah satu aplikasi google, yaitu google docs
+kuesioner berisi 19 pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan dalam pengujian aplikasi, yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas, dan aspek komunikasi visual selain menggunakan dua metode pengujian di atas, juga akan dilakukan pengujian kompatibilitas antara aplikasi android terhadap perangkat android pengguna
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap perangkat lunak sistem informasi geografis pelaporan masyarakat berbasis foto geotag, dapat diambil kesimpulan bahwa: 1
+sistem yang dibangun dapat membantu masyarakat untuk menyampaikan masalah-masalah yang terjadi di sekitar lingkungannya dengan cara mengambil foto masalah kemudian diunggah lewat aplikasi web dan android
+sistem sudah dapat memproses foto unggahan pengguna dan menampilkan sebaran lokasi titik foto masalah ke dalam peta
+hasil pengujian kuisioner terhadap 30 responden yang menggunakan metode likert’s summated rating, diperoleh total skor 2369 yang menunjukkan bahwa responden menilai aplikasi sangat positif dan berhasil
+hasil pengujian kompatibilitas aplikasi android terhadap 10 perangkat android menunjukkan bahwa aplikasi dapat berjalan lancar tanpa hambatan pada 7 perangkat, sedangkan untuk 3 perangkat lainnya aplikasi dapat berjalan lancar tapi dengan sedikit catatan yang perlu diperhatikan
+foto yang telah diambil melalui menu kamera tidak dapat ditemukan pada 3 perangkat pengguna tersebut sesaat setelah foto diambil
+namun ketika perangkat mengalami proses system restart, file foto baru dapat ditemukan

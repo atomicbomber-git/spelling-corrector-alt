@@ -1,0 +1,106 @@
+roduk pangan dengan metode friedman-conover meilani mega juita 1, tursina 2, helen sastypratiwi 3 program studi teknik informatika fakultas teknik universitas tanjungpura 1, 2, 3 e-mail: 1 memeilanimegajuita@gmail.com, kehidupannya
+kebutuhan terhadap pangan juga menciptakan lapangan kerja bagi masyarakat indonesia
+sayangnya, hingga kini industri pangan indonesia belum tergarap optimal pontianak sebagai bagian dari indonesia juga mengalami permasalahan tersebut
+peluang pemasaran produk pangan tergantung dari daya terima konsumen terhadap produk tersebut
+daya terima suatu produk memberi gambaran apakah produk yang dihasilkan dapat disukai konsumen
+daya terima suatu produk pangan dapat dilakukan dengan melakukan beberapa uji yang dimulai dari uji kesukaan
+hasil uji kemudian ditabulasikan dan dianalisis secara statistik dengan menggunakan metode uji friedman yang disempurnakan oleh conover 
+hasil keseluruhannya harus akurat dan teliti
+selama ini, pengujian di laboratorium organoleptik di kementerian kesehatan politeknik kesehatan pontianak dilakukan manual atau dengan menggunakan microsoft excel yang memiliki beberapa kelemahan dalam menangani paket data statistik sehingga diperlukan aplikasi yang dapat mengolah data penilaian uji kesukaan dan mengatasi kelemahan microsoft excel dalam analisis data statistik
+hal ini yang melatarbelakangi rancang bangun aplikasi penentu daya terima produk pangan dengan metode friedman-conover
+tujuan penelitian ini adalah mengoptimasikan proses uji yang selama ini dilakukan dengan manual aplikasi yang dirancang akan memberikan hasil daya terima, perlakuan mana yang memberi pengaruh, dan produk dengan perlakuan mana yang lebih disukai
+pengujian validitas sistem dengan perhitungan manual memberikan hasil yang sama dengan perhitungan aplikasi dengan nilai keakuratan 100% sehingga dapat disimpulkan aplikasi dapat menentukan daya terima produk pangan dengan metode friedman-conover
+pendahuluan indonesia merupakan negara yang kaya akan sumber alam
+sumber alam yang dimilikinya dapat dimanfaatkan sebagai pemenuh kebutuhan hidup pokok
+pangan merupakan kebutuhan pokok masyarakat indonesia dalam mempertahankan kehidupannya
+dikeluarkan oleh badan pusat statistik, jumlah penduduk indonesia adalah 237.641.326 jiwa
+hal ini menyebabkan kebutuhan pangan sangat besar
+dengan jumlah penduduk mencapai 240 juta, indonesia adalah pasar yang sangat potensial untuk produk pangan
+sayangnya, hingga kini industri pangan indonesia masih jauh tertinggal dari negara lain karena potensi yang ada belum tergarap optimal mengalami permasalahan tersebut
+pertumbuhan ekonomi pontianak dari sektor industri pengolahan pada tahun 2014 menurut bappeda kota pontianak sebesar 6, 78 persen
+sektor ini termasuk tiga sektor dengan angka pertumbuhan ekonomi terendah selain sektor pertanian dan sektor listrik dan air
+peluang pemasaran produk pangan tergantung dari daya terima konsumen terhadap produk tersebut
+daya terima suatu produk memberi gambaran apakah produk yang dihasilkan dapat disukai konsumen
+daya terima suatu produk pangan dapat dilakukan dengan melakukan beberapa uji yang dimulai dari uji kesukaan
+uji kesukaan merupakan salah satu uji organoleptik
+uji organoleptik adalah penilaian dan pemeriksaan dengan menggunakan panca indera manusia
+uji organoleptik melibatkan sejumlah panelis sesuai standar jumlah orang untuk suatu pengujian
+terhadap empat kriteria produk pangan, yaitu warna, rasa, aroma, dan tekstur dengan tingkat kesukaan terhadap suatu jenis produk seperti sangat suka, suka, cukup suka, tidak suka, dan sangat tidak suka
+data yang diperoleh dari uji kesukaan kemudian ditabulasikan dan dianalisis dengan uji statistik dengan menggunakan metode friedman yang disempurnakan oleh conover 
+metode friedman-conover digunakan karena metode ini dapat menguji nilai dengan data yang sama
+berdasarkan dari beberapa sumber seperti itl.nist.gov, unistat.com, dan secure.brightstat.com, metode friedman-conover juga friedman yang asli karena conover menggunakan distribusi nilai f tabel
+hasil yang penting sebagai tolok ukur dalam mengetahui selera konsumen
+hasil yang diketahui harus akurat dan teliti
+selama ini, pengujian dengan metode friedman- conover di laboratorium organoleptik di kementerian kesehatan politeknik kesehatan pontianak dilakukan dengan manual dan menggunakan microsoft excel
+rujukanmenjelaskan bahwa meskipun microsoft excel adalah spreadsheet yang baik
+akan tetapi, microsoft excel bukanlah paket analisis data statistik
+goldwater mengungkapkan bahwa microsoft excel memiliki keterbatasan saat akan menganalisis data yang lebih luas
+hasil mungkin tidak lengkap atau tidak diberi label dengan benar sehingga meningkatkan kemungkinan kesalahpahaman hasil
+perlu melakukan beberapa hal untuk mendefinisikan fungsi/formula dengan disertai resiko kesalahan
+tidak ada catatan dari apa yang telah dilakukan untuk mengeluarkan hasil sehingga sulit untuk mendokumentasikan analisis atau untuk permasalahan-permasalahan ini menyebabkan penilaian uji kesukaan dan mengatasi kelemahan microsoft excel dalam analisis data statistik
+aplikasi tersebut diharapkan dapat mengoptimasikan proses uji kesukaan dan uji statistik metode friedman-conover
+hasil perhitungan daya terima yang dihasilkan aplikasi dapat memberi gambaran produk jenis mana yang disukai konsumen untuk mengetahui peluang pemasaran
+hal ini yang melatarbelakangi rancang bangun aplikasi penentu daya terima produk pangan dengan metode friedman- conover
+pangan adalah segala sesuatu yang berasal dari sumber hayati dan air, baik yang diolah maupun yang tidak diolah, yang diperuntukkan sebagai makanan atau minuman bagi konsumsi manusia
+termasuk di dalamnya adalah bahan tammbahan pangan, bahan baku pangan, dan bahan lain yang digunakan dalam penyiapan, pengolahan, dan atau pembuatan makanan atau minuman
+uji kesukaan uji kesukaan adalah salah satu uji organoleptik
+rujukanmenjelaskan dalam uji kesukaan, panelis diminta tanggapan pribadinya tentang kesukaan atau sebaliknya, ketidaksukaan
+di samping panelis mengemukakan tanggapan senang, suka, atau kebalikannya, mereka juga mengemukakan tingkat kesukaannya
+tingkat-tingkat kesukaan ini disebut skala hedonik
+signifikansi k sampel yang berkaitan, berasal dari populasi yang sama, dengan skala data minimal ordinal
+uji friedman merupakan metode di dalam statistika nonparametrik yang digunakan untuk melakukan analisis ragam dua arah
+hipotesis dua arah digunakan untuk menguji suatu hal, yaitu hipotesis awal pada suatu titik tertentu, dimana kemungkinan hipotesis tandingannya bisa lebih besar maupun lebih kecil dari titik tersebut
+data yang diperoleh dari uji kesukaan kemudian ditabulasikan dan dianalisis secara statistik dengan menggunakan metode friedman yang disempurnakan oleh conover 
+metode friedman-conover mengizinkan penilaian dengan data yang sama
+selain itu, menurut beberapa sumber seperti itl.nist.gov, unistat.com, dan secure.brightstat.com, conover menggunakan distribusi nilai f tabel
+sependapat dengan rujukanmengenai variabel independen, rujukanmenjelaskan bahwa pada metode friedman, banyak variabel independen ditentukan dengan k >2 perlakuan
+oleh karena itu, variabel dengan nilai terkecil diberikan nilai angka hasil percobaan 1, nilai terkecil kedua diberikan nilai angka hasil percobaan 2, dan nilai terbesar mendapat nilai angka hasil percobaan k
+friedman-conover mengizinkan penilaian dengan data yang sama
+ketika nilai yang didapat oleh variabel yang satu sama dengan nilai pada variabel lain, maka digunakan nilai rata-rata
+nilai rata-rata didapat dengan melihat nilai mana yang sama dengan nilai variabel lain, kemudian melihat nilai tersebut di urutan ke berapa, apakah di nilai terkecil, atau nilai terkecil kedua, atau nilai terbesar k
+urutan tersebut dijumlahkan dan dibagi dengan banyaknya nilai yang sama
+nilai rata-rata tersebut akan menjadi nilai angka hasil percobaan tiap variabel yang memiliki data yang sama
+langkah selanjutnya adalah menghitung jumlah kuadrat masing-masing angka hasil percobaan dikuadratkan dan dijumlahkan sehingga rumusnya adalah sebagai berikut
+menjumlahkan semua angka hasil percobaan pada tiap variabel dan menguadratkannya kemudian membaginya dengan jumlah panelis
+ ) perubahan t menyebar menurut sebaran f dengan derajat bebas kemudian nilai t dibandingkan dengan nilai f tabel seperti yang tertera pada tabel 2.4 sebagai koreksi: jika nilai t ≥ nilai f tabel, maka kesimpulannya ada pengaruh/perbedaan daya terima pada tiap perlakuan pada produk
+jika nilai t < nilai f tabel, maka kesimpulannya tidak ada pengaruh/perbedaan daya terima pada tiap perlakuan pada produk
+untuk mengetahui perlakuan mana yang berbeda digunakan rumus: 3 metode friedman-conover adalah uji dua arah sehingga menurut rujukan, beda nyata yang digunakan adalah pada tingkat kepercayaan 5%
+tabel 1 menjelaskan nilai f tabel untuk menyatakan beda nyata pada tingkat kepercayaan 5%
+nilai f tabel diambil dari perpaduan k1 dan k2
+k1 adalah derajat bebas pembilang yang ditunjukkan dengan angka 2, 3, dan 4
+k2 adalah derajat bebas penyebut yang ditunjukkan dengan angka 30, 40, 60, dan 120 untuk interval dari nilai k2
+tabel 1 nilai f tabel untuk menyatakan beda nyata pada tingkat kepercayaan 5% n 2 iii
+perancangan arsitektur sistem sistem yang dibangun berbasis web, dapat diakses oleh pengguna di manapun berada dengan koneksi internet desain arsitektur sistem dapat dilihat pada gambar 1 berikut: menggambarkan proses dari diagram arus data
+diagram overview memberikan suatu pandangan secara menyeluruh mengenai sitem yang akan dibuat dan menunjukkan tentang proses yang ada, arus data, dan entitas-entitas yang terkait
+gambar 2 merupakan diagram overview dari sistem yang dibuat: 1.0 login 2.0 manajemen data admin gambar 2 diagram overview sistem c
+perancangan relasi antar tabel keterkaitan dan hubungan antara satu tabel dengan tabel lainnya dapat dilihat pada gambar 3 berikut
+variabel_dependen daya_terima pk id_daya_terima id_peneliti id_var_dep id_var_ind id_produk id_penilaian n_total r rkuadrat rkuadratj a b t ka kb lamda tselisih hi angka_hab angka_hac angka_had angka_hae angka_hbc angka_hbd angka_hbe angka_hcd angka_hce angka_hde hab hac had hae hbc hbd hcd hce hde tanggal peneliti 4 iv
+hasil perancangan antarmuka halaman utama pengguna merupakan halaman pertama yang muncul saat pengguna mengakses web
+antarmuka halaman utama pengguna berisi menu- menu yang dapat diakses oleh pengguna dan informasi singkat mengenai aplikasi penentu daya terima produk pangan
+terdapat tombol dan untuk pertanyaan mengenai ketersediaan penilaian minimal dari dua puluh panelis yang memungkinkan pengguna mengakses halaman isian data untuk mengetahui daya terima suatu produk jika menekan tombol dan mendapatkan panduan dalam membuat formulir kuesioner uji kesukaan jika menekan tombol 
+antarmuka halaman utama pengguna dapat dilihat pada gambar 4
+halaman login admin digunakan admin untuk dapat mengakses hak akses ke halaman admin
+admin dapat masuk dengan mengisikan username dan password
+antarmuka halaman login dapat dilihat pada gambar 5
+gambar 5 tampilan antarmuka halaman login admin halaman untuk admin menampilkan menu-menu yang dapat diakses oleh admin
+menu tersebut antara lain beranda, manajemen hasil, dan logout
+antarmuka hasil perancangan halaman utama admin dapat dilihat pada gambar6 berikut
+halaman isian data, pengguna menerima detail daya terima
+antarmuka halaman detail daya terima adalah halaman pop-up yang menampilkan detail daya terima produk yang telah dihitung dengan metode friedman- conover
+data-data tersebut ditabulasikan secara tabel dan grafik
+antarmuka halaman utama pengguna dapat dilihat pada gambar 7
+hasil pengujian sistem pengujian validitas sistem dilakukan untuk mengetahui hasil akhir atau output yang berupa daya terima produk pangan oleh sistem aplikasi penentu daya terima produk pangan dengan data penilaian panelis
+dalam pengujian ini, data kasus yang digunakan sebanyak 18 kasus
+berikut adalah tabel yang menampilkan hasil pengujian validitas sistem
+tabel 1 hasil pengujian validitas aplikasi berikut ini adalah analisis hasil perancangan dan pengujian sistem aplikasi penentu daya terima produk pangan: 1
+aplikasi dapat menentukan daya terima produk pangan dengan metode friedman-conover
+pengguna dapat mengetahui data terima produk pangan dengan memasukkan data pribadi, data produk, data variabel independen, dan jumlah panelis
+hasil pengujian black box menunjukkan saat dilakukan input data, masukan data dengan keseluruhan atau sebagian data kosong akan dimunculkan pesan kesalahan sehingga sistem dapat menangani data sesuai dengan yang diharapkan
+berdasarkan hasil pengujian validitas aplikasi, didapatkan nilai akurasi sistem sebesar 100%
+keberhasilan sistem dapat diukur sebagai berikut:
+aplikasi daya terima produk pangan dengan metode friedman-conover, dapat disimpulkan bahwa: 1
+aplikasi dapat menentukan daya terima produk pangan dengan metode friedman-conover
+pengguna dapat mengetahui daya terima produk pangan dengan memasukkan data pribadi, data produk, data variabel independen, dan jumlah panelis
+hasil pengujian black box menunjukkan saat dilakukan input data, masukan data dengan keseluruhan atau sebagian data kosong akan kasus variabel independen, panelis perhitungan manual perhitungan perbedaan 14.199; ada perbedaan perbedaan perbedaan 12.9083; ada perbedaan perbedaan 11.1584; ada perbedaan perbedaan perbedaan 5.1962; ada perbedaan perbedaan perbedaan 4.1533; ada perbedaan perbedaan perbedaan 3.7072; ada perbedaan 4
+berdasarkan perbandingan perhitungan aplikasi dengan perhitungan manual daya terima dengan metode friedman-conover, keluaran masing- 100%
+hasil perhitungan daya terima yang dihasilkan aplikasi dapat memberi gambaran produk jenis mana yang disukai konsumen untuk mengetahui peluang pemasaran

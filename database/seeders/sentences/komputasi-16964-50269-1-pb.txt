@@ -1,0 +1,19 @@
+artikel merupakan sebuah tulisan lepas yang berisikan opini seseorang yang mengupas tuntas tentang sebuah masalah yang sifatnya aktual dan biasanya kontroversial dengan tujuan untuk mempengaruhi, memberitahu, meyakinkan dan menghibur para pembaca.kebanyakan orang sering salah mengetik tulisan di dalam artikel sehingga hasil publikasinya tidak dapat dimengerti oleh sebagian orang.dengan aplikasi ini untuk menyampaikan informasi dan membantu melaksanakan pekerjaan penggunanya.aplikasi tersebut dapat berupa aplikasi spinner bahasa indonesia, sehingga dapat dengan mudah digunakan dan dipahami baik oleh mahasiswa maupun masyarakat umum.dengan adanya aplikasi spinner bahasa indonesia, diharapkan dapat memudahkan penulis untuk memilih kata-kata yang tepat dalam pembuatan artikel.oleh karena itu penelitian ini bertujuan menghasilkan sebuah aplikasi yang dapat melakukan proses spinning kalimat dalam sebuat artikel bahasa indonesia
+sistem yang dibangun menggunakan metode black box yaitu sample testing melibatkan beberapa nilai yang terpilih dari sebuah kelas ekuivalensi, mengintegrasikan nilai pada sinonim uji dan nilai-nilai yang terpilih mungkin dipilih dengan urutan tertentu atau interval tertentu.spinner bahasa indonesia dengan database yang terintegrasi
+berdasarkan hasil pengujian dan pengukuran skala hasil dari kuesioner dengan likert’s summated rating menunjukkan bahwa aplikasi sangat positif dan dinilai berhasil
+sebanyak 43, 33% responden setuju dengan jumlah tanggapan sebanyak 52 tanggapan
+terdapat 20 tanggapan dengan persentase 16, 67 % yang menilai sangat setuju dengan hasil persentase keluaran aplikasi dan sebanyak 41 tanggapan dengan persentase 34, 17 % yang menilai cukup setuju dengan hasil persentase keluaran aplikasi
+namun selain responden sangat setuju, setuju dan cukup setuju dengan hasil persentase keluaran aplikasi, terdapat 2 tanggapan dengan persentase 1, 67 % yang kurang setuju dengan hasil persentase keluaran aplikasi
+misalnya laporan berita atau esai di majalah, surat kabar dan lain sebagainya, 2015)
+opini atau pendapat seseorang yang mengupas tuntas tentang sebuah masalah yang sifatnya aktual dan biasanya kontroversial dengan tujuan untuk mempengaruhi, memberitahu, meyakinkan dan menghibur para pembaca 
+untuk membuat penulisan artikel sangat mudah termasuk mengutip penulisan artikel milik orang lain, dengan hanya men-copy setelah itu men-paste-kannya maka jadilah sebuah artikel
+saat ini sudah tersedia aplikasi yang memberikan alternatif kata untuk mengubah artikel asli dalam bahasa inggris
+sedangkan untuk bahasa indonesia belum ditemukan sampai saat ini
+hal ini dapat diatasi menggunakan spinnerbahasa indonesia sehingga pemilik artikel dapat memilih kata yang tepat untuk penulisannya
+oleh sebab itu, dibutuhkan sebuah aplikasi yang dapat membantu seorang penulis dalam proses pengubahan sebuah artikel, skripsi, atau bentuk penulisan lain secara lebih efektif dan efisien
+pembaca juga dapat mengutip artikel pada blog-nya dengan menggunakan aplikasi spinner
+spinneradalah alat yang digunakan untuk mengambil suatu artikel guna menciptakan artikel yang unik berdasarkan artikel aslinya.dalam hal ini, sistem spinner hanya memasukan kata- kata yang hampir mirip dengan kata-kata sebelumnya danakan mengubah kata yang memiliki arti yang sama
+aplikasi yang berbasis web ini menyediakan fitur untuk mengubah kata-kata dalam kalimat menjadi kata lain sehingga susunan kalimat bisa terlihat baik, yang mana dihubungkan dengan database kamus kata
+dapat memudahkan para penulis artikel untuk memilih kata- kata yang tepat dalam pembuatan artikel
+uraian penelitian membahas pokok masalah secara lugas
+artikel dalam suratkabar biasanya membahas suatu hal secara terperinci.artikel harus menguasai permasalahan yang dibahas dalam artikel yang ditulisnya

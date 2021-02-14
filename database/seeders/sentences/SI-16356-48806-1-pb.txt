@@ -1,0 +1,34 @@
+kebutuhan bahan material bangunan itu sendiri dimana membuat kelangkaan pada bahan material bangunan
+mandiri merupakan salah satu usaha mikro yang ada di kota pontianak, dimana toko ini sendiri merupakan badan usaha milik perorangan yang bergerak dibidang jasa penjualan material bangunan
+dalam menjalankan usahanya toko material bangunan toko yd
+mandiri mengalami kendala dalam hal sistem pemasaran dan proses dalam sistem transaksi yang masih menggunakan sistem konvensional tujuan dari penelitian ini adalah menghasilkan sebuah web aplikasi penjualan bahan material bangunan toko yd
+mandiri agar dapat di manfaatkan sebagai media pemasaran dan penjualan
+alat perancangan dalam penilitian ini menggunakan data flow diagram dan entity relationship diagram
+pengujian sistem menggunakan metode blackbox dan kuesioner terhadap 16 orang responden dengan nilai 942 berada pada range positif dengan presentase 83, 6%, hasil pengujian menunjukan web aplikasi ini berjalan dengan baik
+peneltian ini menghasilkan suatu sistem penjualan bahan matrial yang dapat membantu pelanggan dalam membeli bahan bangunan secara online
+pendahuluan dapat dilihat dengan bertumbuh besaran kota dan bertumbuhnya jumlah penduduk dari tahun ke tahun
+pertumbuhan dan perkembangan kota pada prinsipnya menggambarkan proses berkembangnya suatu kota
+faktor- faktor perkembangan dan pertumbuhan yang bekerja pada suatu kota dapat mengembangkan dan menumbuhkan kota pada suatu arah tertentu
+ada tiga faktor utama yang sangat menentukan pola perkembangan dan pertumbuhan kota yaitu, faktor manusia, ini menyangkut segi-segi perkembangan penduduk kota baik karena kelahiran maupun karena migrasi ke kota
+segi-segi perkembangan tenaga kerja, perkembangan status sosial dan perkembangan kemampuan pengetahuan dan teknologi
+faktor kegiatan manusia, ini menyangkut segi-segi kegiatan kerja, kegiatan fungsional, kegiatan perekonomian kota dan kegiatan hubungan regional yang lebih luas
+salah satu kota yang bisa dikatakan pertumbuhan dan berkembangan pada sektor pembangunan saat ini salah satunya yaitu kota pontianak
+menurut penelitian dari badan statistik pontianak mengatakan bahwa pembangunan fasilitas publik seperti perumahan, gedung kantor, rumah sakit, pusat perbelanjaan, gedung, sarana hiburan serta jalan dan jembatan dan lainya baik yang di lakukan oleh pemerintah maupun swasta di tahun 2014
+yaitu toko yd mandiri yang merupakan salah satu usaha mikro yang ada di kota pontianak, dimana yd mandiri itu sendiri merupakan badan usaha milik perorangan yang bergerak dibidang jasa penjualan toko material bangunan
+berdasarkan hasil observasi terhadap toko yd
+mandiri, dalam menjalankan usahanya tersebut sistem pengolahan data, pemasaran dan penjualan masih belum terkomputerisasi yang mengakibatkan sering terjadi kesalahan dalam perhitungan transaksi penjualan, pendataan barang masuk dan barang keluar yang masih berupa arsip, sehingga terjadi penumpukan dan kurangnya keamanan data serta pembuatan laporan yang membutuhkan waktu yang cukup lama
+menurut bapak yudi selaku pemilik toko yd
+mandiri banyak konsumen yang tidak mengetahui informasi mengenai produk yang dijual, sehingga berdampak kurangnya efektif pada proses pemasaran
+tugas akhir “rancang bangun web aplikasi penjualan bahan material bangunan studi kasus yd
+dengan adanya web aplikasi yang berbasis web penulis berharap dapat membantu pihak dari yd mandiri dan konsumen tentunya dalam hal proses penjualan, pembelian, stok barang dan juga proses pemasaran
+pengertian e-commece e-commerce adalah suatu proses membeli dan menjual produk-produk secara elektronik oleh konsumen dan dari perusahaan ke perusahaan dengan komputer sebagai perantara transaksi bisnis
+e-commerce sebagai perdagangan elektronik dimana untuk transaksi perdagangan baik membeli maupun menjual dilakukan melalui elektronik pada jaringan internet keberadaan e- commerce sendiri dalam internet dapat dikenali melalui adanya fasilitas pemasangan iklan, penjualan, dan service support terbaik bagi seluruh pelangganannya dengan menggunakan sebuah toko online berbentuk web yang setiap harinya beroperasi selama 24 jam
+desain sistem desain sistem merupakan suatu gambaran rancangan dari berbagai objek bagian agar dapat tersusun menjadi suatu kesatuan sistem yang fungsional desain sistem dapat diartikan sebagai tahapan setelah analisis dan siklus pengembangan sistem
+perancangan sistem menentukan bagaimana suatu sistem akan menyelesaikan apa yang mesti rancang bangun web aplikasi penjualan material bangunan hendra robaintoro 1, rudy dwi nyoto2, herry sujaini 3
+p 2 dari suatu sistem sehingga setelah instalasi dari sistem akan benar-benar memuaskan rancang bangun yang telah ditetapkan pada akhir tahap analisa system
+suatu gambaran yang menjelaskan begaimana menggambarkan atau membuat model komponen sistem
+data flow diagram data flow diagram adalah 
+dfd digambar menggunakan empat simbol dasar yang menunjukan proses, aliran data, penyimpanan data, dan entitas atas sumber dan tujuan data
+diagram konteks diagram konteks adalah diagram arus data yang berfungsi untuk menggambarkan yang dirancang suatu objek, diagram konteks ini menggambarkan secara global atau menyeluruh dari suatu sistem informasi keterkaitan aliran-aliran data antara sistem dengan bagian-bagian luar
+diagram overview diagram nol adalah diagram yang menggambarkan proses dari data flow diagram
+diagram nol memberikan secara menyeluruh mengenai sistem yang ditangani, menunjukkan tentang fungsi-fungsi utama atau proses yang ada, aliran data dan eksternal entity”

@@ -1,0 +1,10 @@
+aerah di indonesia yang rawan akan masalah gizi
+dari tahun ke tahun masalah gizi selalu menjadi perhatian
+berbagai upaya pencegahan telah dilakukan, namun masalah gizi masih cukup tinggi, sehingga penanganan yang tepat perlu dilakukan dengan memantau tumbuh kembang anak secara berkala
+tujuan penelitian ini untuk menerapkan penalaran berbasis kasus pada sistem penetuan status gizi balita di kota pontianak menggunakan metode sorenson coefficient
+sistem ini dibangun dengan menentukan status gizi balita menggunakan penalaran berbasis kasus atau yang sering disebut case based reasoning 
+untuk menghasilkan output berupa status gizi menggunakan nilai similaritas, metode yang digunakan adalah sorenson coefficient dengan output dari sistem ini berupa status gizi berdasarkan umur menurut berat badan dan umur menurut panjang badan
+sistem ini berupa sistem penentuan status gizi balita yang menerapkan penalaran berbasis kasus
+coefficient, gizi mengakui kecukupan gizi di provinsi masih menjadi masalah serius karena target untuk menurunkan angka gizi kurang dan stunting atau kerdil masih belum tercapai
+dinas kesehatan provinsi kalimantan barat menemukan sepanjang tahun 2015 terdapat 7, 64% balita di kota pontianak mengalami kelebihan berat badan, 279 kasus atau 7% kasus gizi buruk, stunting 34% dan gizi kurang 24%
+riset kesehatan dasar yang dilakukan oleh kementrian kesehatan tahun 2013 menunjukan prosentasi stunting di kalimantan barat sekitar 38%, prosentase gizi buruk di kalbar sebesar 10%, gizi kurang 26% dan 6, 3 persen balita mengalami kelebihan berat badan

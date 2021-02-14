@@ -1,0 +1,18 @@
+this research aims to design and implement an application that can determine the percentage of similarity to the c code and post using rabin-karp algorithm
+in this application the input use is a code c and pascal who type *
+pas, while the output of the application is in the form of percentage similarity of both the tested code and the processing time required in each process
+the results of this study are called is developed using borland delphi 7
+this application can determine the percentage of similarity of code under test
+on the application of, there are 5 stages of a process called preprocessing to prepare the program code before checking the similarity of two documents, that are: case folding, filtering, parsing, k-gram, hashing and two-stage process to obtain the percentage of similarity checking code ie: checking the rabin-karp algorithm and determination of the value of similarity calculated by dice similarity coeficients
+testing is done by trying out some of the code c and pascal programs are different, and by using k-gram values are different
+based on the testing that has been done, showed that the application has been designed to determine the percentage of similarity of code c and pascal programs were tested
+pendahuluan ini yang semakin pesat membawa banyak pengaruh baik itu positif maupun negatif
+salah satu dampak negatif dari perkembangan teknologi adalah memudahkan orang dalam melakukan kecurangan- kecurangan yang dapat menimbulkan kejahatan
+kecurangan yang sering terjadi akibat perkembangan teknologi adalah menjiplak hasil karya orang lain yang kemudian menjadikan seolah-olah hasil karyanya sendiri
+pencegahan dalam pencontekan merupakan salah satu cara yang paling efektif untuk meningkatkan kualitas pendidikan, sehingga mahasiswa institusi pendidikan dapat mengembangkan kreativitas serta imajinasinya secara alamiah
+pencontekkan pada saat ini sudah sangat familiar dengan proses yang namanya copy-paste sehingga dengan mudahnya menyalin hasil pekerjaan orang lain, hal ini menimbulkan kemalasan pada mahasiswa dan juga masalah dalam tahap evaluasi terhadap hasil pembelajaran mahasiswa, hasil survei yang dilaporkan oleh roberts, anderson, & yanish (dalam artikel penelitian dr budi astuti, m.si
+, 2012) terhadap 422 mahasiswa pada universitas negeri bahwa setidaknya mahasiswa telah terlibat dalam satu jenis pelanggaran akademik selama disurvei dengan kurun waktu satu tahun
+pelanggaran akademik seperti perilaku plagiat dicuri dari internet, e-mail, dan alat komunikasi digital lainnya
+peningkatan jumlah pelaku plagiat terus mengalami kenaikan sampai tahun 2000, terindikasi dengan adanya perbandingan satu dari delapan makalah mahasiswa dinyatakan 
+laporan hasil studi dari university of minnesota menjelaskan bahwa riset terhadap 4000 ribu peneliti, terdapat satu dari tiga peneliti atau ilmuwan yang melakukan tindakan plagiat, sebesar 22% diantaranya menggunakan data- data penelitian yang, dan sejumlah 15% kadang-kadang memotong data-data yang tidak menguntungkan
+senior yang seharusnya terhormat karena derajat keilmuannya, kebiasaan copy-paste ini seolah-olah lumrah dan dapat dimaklumi

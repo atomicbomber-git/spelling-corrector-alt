@@ -1,0 +1,140 @@
+ota pontianak tahun 2014, pontianak memiliki sejumlah 305 masjid yang tersebar di seluruh kota pontianak
+seharusnya, kalau bisa kita punya peta religi, dimana disitu akan menampilkan letak-letak masjid di kota pontianak
+mantan sekretaris dewan masjid indonesia kalimantan barat, andin buhabzein, menyatakan bahwa 
+atas dasar permasalahan tersebut, penulis membuat suatu aplikasi pencarian jalur terpendek untuk menuju masjid berbasis android yang diharapkan dapat memberikan jalur terpendek dengan location based service berdasarkan posisi pengguna
+untuk mencari jalur terpendek menuju masjid, maka bisa diselesaikan menggunakan algoritma dijkstra
+algoritma dijkstra menggunakan prinsip greedy, yaitu mencari jalur terpendek dari satu titik ke titik lainnya yang terhubung
+masukan aplikasi ini berupa posisi pengguna dan lokasi masjid tujuan, sedangkan hasil keluaran aplikasi berupa jalur terpendek dari posisi pengguna ke lokasi masjid tujuan
+data masjid diperoleh dari departemen agama kota pontianak
+dari hasil pengujian kompatibilitas aplikasi yang telah dilakukan dapat diketahui bahwa aplikasi berjalan pada platform android mulai dari sistem operasi honeycomb hingga lollipop
+penilaian aplikasi berdasarkan pengujian uat yang didapatkan dari 15 user memberikan rata-rata nilai 77, 09% dengan kriteria b 
+data pengujian jumlah simpul jalan menunjukkan bahwa dengan program android studio, aplikasi menampilkan 70 simpul jalan
+data pengujian jalur terpendek menunjukkan bahwa algoritma dijkstra mampu memberikan solusi jalur terpendek dari posisi pengguna menuju masjid
+aplikasi juga memiliki peta yang menampilkan lokasi masjid yang tersebar di seluruh kota pontianak beserta peta lokasi masjid di sekitar pengguna dengan radius maksimal 3 km dari posisi pengguna
+masjid adalah tempat berkumpulnya umat islam untuk menunaikan shalat lima waktu, shalat jumat, diadakannya kajian ilmu agama islam, serta ibadah lainnya berdasarkan syariat dan adab di dalamnya
+di kota pontianak, jumlah masjid berdasarkan data dari kantor departemen agama kota pontianak tahun 2014 adalah sebanyak 305 masjid
+masjid seharusnya bisa menjadi pusat kebutuhan dan kegiatan umat islam seperti di zaman rasulullah dahulu
+mantan ketua dewan masjid indonesia, abdul munir, menuturkan 
+mantan sekretaris dewan masjid indonesia kalimantan barat, andin buhabzein, menyatakan bahwa “seharusnya, kalau bisa kita punya peta religi, dimana disitu akan menampilkan letak-letak masjid di kota pontianak
+pak sutarmidji pernah mengatakan, agar masjid kalimantan barat ini memiliki peta religi lokasi masjid, sehingga nanti masyarakat luar pontianak dapat mencari masjid dengan peta itu
+dulu kita pernah membuat peta dengan teman saya yang orang it lulusan teknik untan angkatan 1
+salah satunya membuat sejarah setiap masjid ke dalam database tersebut
+kita pernah menginfomasikan database tersebut kepada pusat dan tanggapannya positif, sehingga database kita menjadi acuan mereka
+namun, karena kita tidak mampu, database tersebut tidak berjalan dan berhenti begitu saja”
+informasi berupa data kegiatan-kegiatan setiap masjid di kota pontianak beserta lokasi masjid yang dapat disebarkan kepada masyarakat umum, khususnya masyarakat yang berada di kota pontianak
+untuk itu diperlukan media berupa aplikasi yang dapat menjawab hal tersebut
+kebutuhan utama pengguna dalam mendapatkan informasi ini adalah informasi yang dapat diakses dari perangkat mobile dengan layanan internet di dalamnya
+untuk mendukung kebutuhan akses informasi tersebut, dibutuhkan suatu aplikasi yang kaya dan inovatif
+sistem operasi android menawarkan kemampuan untuk membangun aplikasi yang kaya dan inovatif serta bersifat open source
+dengan tersedianya teknologi gps pada perangkat mobile, location based service dapat digunakan untuk rancang bangun aplikasi 1, novi safriadi posisi perangkat android pengguna
+lokasi masjid dengan jalur terpendek dalam penelitian ini memilih penggunaan metode dijkstra
+dinamai menurut penemunya, seorang ilmuwan komputer, edsger dijkstra
+algoritma dijkstra, , adalah sebuah algoritma rakus yang dipakai dalam memecahkan permasalahan jarak terpendek untuk sebuah graf berarah dengan bobot-bobot sisi yang bernilai tak-negatif 
+uraian penelitian waktu oleh kaum muslimin secara berjamaah, adalah bangunan yang dikelilingi tembok atau kayu atau pelepah, atau bambu atau semacamnya
+majmu’ fatawa lajnah daimah, jilid 6, no 221
+inilah wilayah yang berlaku hukum-hukum masjid, seperti larangan larangan bagi wanita haid, nifas, atau orang junub untuk tinggal di dalamnya 
+berdasarkan lampiran keputusan direktur jenderal bimbingan masyarakat islam nomor dj.ii/tahun 2014 tentang standar pembinaan manajemen masjid, masjid adalah bangunan tempat ibadah umat islam yang dipergunakan untuk shalat rawatib dan shalat jumat
+adapun tipologi masjid di indonesia adalah sebagai berikut : 1
+masjid negara adalah masjid yang berada di ibu kota negara indonesia, menjadi pusat kegiatan keagamaan tingkat kenegaraan
+masjid nasional adalah masjid di ibu kota provinsi yang ditetapkan oleh menteri agama sebagai masjid nasional dan menjadi pusat kegiatan keagamaan tingkat pemerintahan provinsi
+masjid raya adalah masjid yang berada di ibu kota provinsi yang ditetapkan oleh gubernur atas usul kepala kantor wilayah kementerian agama provinsi sebagai masjid raya, serta menjadi pusat kegiatan keagamaan tingkat pemerintahan provinsi
+masjid agung adalah masjid yang terletak di ibu kota pemerintahan kabupaten/kota ditetapkan oleh gubernur atas usul dari kepala kantor wilayah kementerian agama, menjadi pusat kegiatan sosial keagamaan yang dihadiri oleh pejabat pemerintah kabupaten/kota
+masjid besar adalah masjid yang berada di ibukota kecamatan yang ditetapkan oleh walikota/bupati atas usul kepala kantor kementerian agama kabupaten/kota sebagai masjid besar yang menjadi pusat kegiatan sosial keagamaan yang dihadiri oleh camat, pejabat dan tokoh masyarakat tingkat kecamatan
+masjid jami adalah masjid yang terletak di pusat pemukiman di wilayah pedesaan/kelurahan
+masjid bersejarah adalah masjid yang berada di kawasan peninggalan kerajaan/wali/penyebar agama islam/memiliki nilai besar dalam sejarah perjuangan bangsa
+dibangun oleh para raja/kesultanan/para wali penyebar agama islam serta para pejuang kemerdekaan
+masjid di tempat publik adalah masjid yang terletak di kawasan publik untuk memfasilitasi masyarakat dalam melaksanakan ibadah
+android oleh android inc, sebuah perusahaan yang kemudian dibeli oleh google, dan akhir-akhir ini oleh open handset alliance
+android merupakan software berbasis kode komputer yang bisa didistribusikan secara terbuka sehingga programmer bisa membuat aplikasi baru di dalamnya, terdapat android market yang menyediakan ribuan aplikasi baik yang gratis maupun berbayar, serta memiliki aplikasi native google yang terintegrasi, seperti push email gmail, google maps, dan google calendar
+berbasis lisensi dari apache, sistem operasi ini memungkinkan untuk dimodifikasi dan didistribusikan secara bebas
+android juga memiliki sejumlah komunitas pengembang perangkat lunak yang berguna untuk memperluas fungsi perangkat android itu sendiri, ditulis dan dikustomisasi dengan perangkat lunak berbasis bahasa pemrograman java
+sampai dengan oktober 2012 tercatat ada sekitar 700.000 aplikasi yang tersedia untuk android dan 25 juta aplikasi telah diunduh dari google play, toko utama aplikasi android
+pada sebuah survey yang diadakan pada april-mei 2013, android tercatat sebagai platform yang paling populer bagi pengembang aplikasi seluler dengan mencatat angka 71%
+aplikasi android dikembangkan dengan bahasa pemrograman java, dengan menggunakan kit pengembangan perangkat lunak android 
+sdk ini terdiri dari seperangkat tools untuk pengembangan, termasuk debugger dan pustaka perangkat lunak, emulator handset berbasis qemu, dokumentasi, kode sampel dan tutorial didukung secara resmi oleh lingkungan pengembangan terpadu eclipse, yang menggunakan android development tools, tools pengembang yang lain adalah native development kit, untuk aplikasi atau ekstensi dalam bahasa c, c++, google app inventor, lingkungan visual untuk pemrogram pemula dan berbagai kerangka kerja aplikasi web seluler lintas platform
+location based service mahmoud dalam akbar nuzul putra, toufan d
+tambunan dan kurniawan nur ramadhan, menyatakan ”location-based service memberikan layanan personalisasi kepada pengguna perangkat bergerak yang disesuaikan dengan lokasi mereka saat ini
+lbs membuka pasar baru bagi pengembang, operator jaringan selular, dan penyedia layanan untuk mengembangkan dan memberikan nilai tambah layanan: memberikan informasi kondisi lalu lintas saat ini, menambahkan informasi rute perjalanan, membantu menemukan lokasi wisata terdekat, dan banyak lagi”
+notasi g =, dimana v merepresentasikan sehimpunan verteks dan e merepresentasikan sehimpunan edge 
+verteks adalah himpunan tidak kosong dari simpul-simpul {v1, v2, …, vn}
+edge adalah himpunan sisi/busur {e1, e2, …, en} atau sisi yang menghubungkan sepasang simpul
+graf yang setiap sisinya diberikan orientasi arah merupakan graf berarah, yang disebut dengan busur 
+dalam graf berarah, dan menyatakan dua buah busur yang berbeda, dengan kata lain bahwa ≠ 
+merupakan graf yang mempunyai orientasi arah namun tidak mempunyai bobot apapun
+merupakan graf yang tidak mempunyai orientasi arah namun memiliki suatu bobot pada sisinya
+graf tidak berarah dan tidak berbobot
+graf yang setiap sisinya tidak mempunyai baik orientasi arah maupun bobot apapun
+ilmuwan komputer, edsger dijkstra), adalah sebuah algoritma rakus yang dipakai dalam memecahkan permasalahan jarak terpendek untuk sebuah graf berarah dengan bobot-bobot sisi yang bernilai tak-negatif 
+misalnya, bila verteks dari sebuah graf melambangkan kota-kota dan bobot sisi melambangkan jarak antara kota-kota tersebut, maka algoritma dijkstra dapat digunakan untuk menemukan jarak terpendek antara dua kota
+input algoritma ini adalah sebuah graf berarah yang berbobot g dan sebuah sumber verteks s dalam g dan v adalah himpunan semua verteks dalam graph g
+setiap sisi dari graf ini adalah pasangan verteks yang melambangkan hubungan dari verteks u ke verteks v
+bobot dari semua sisi dihitung dengan fungsi jadi w adalah jarak tak-negatif dari vertex u ke vertex v
+antara dua verteks, yaitu jumlah jarak semua sisi dalam jalur tersebut
+untuk sepasang verteks s dan t dalam v, algoritma ini menghitung jarak terpendek dari s ke t
+berikut contoh penerapan dalam pencarian jalur terpendek, dengan node 1 sebagai titik awal : gambar 1
+contoh jalur untuk pencarian dengan algoritma dijkstra contoh penerapan dibuat dalam bentuk tabel agar mudah dalam melihat hasil jalur terpendek
+notasi dalam tabel algoritma dijkstra memiliki format, dimana s-j menunjukkan rute dari node s menuju node j, sementara d menunjukkan jarak total antara kedua node tersebut
+baris pertama masih berupa inisialisasi, yaitu dj akan memiliki nilai jika tersambung langsung dan tidak memiliki nilai jika tidak tersambung langsung
+karena node 1 hanya memiliki 1 tetangga yaitu node 2, maka i = 2 dimasukkan pada himpunan n
+, sehingga sekarang node-node yang terhubung dengan node 2 sudah bisa dijangkau oleh node 1 via node 2
+diketahui node 3 dan node 4 terhubung langsung dengan node 2, sehingga rutenya ditulis dan 
+untuk langkah selanjutnya dipilih node i yang telah tersambung dengan node s namun belum masuk dalam himpunan n
+node yang dipilih adalah yang memiliki jumlah jarak yang paling minimum, yaitu node 4
+berperan sebagai perpanjangan dari node 1 sehingga node 5 dan node 7 yang terhubung langsung dengan node 4 sudah bisa dijangkau oleh node 1 dengan rute yang tertampil
+sebenarnya disini mulai terjadi perbandingan nilai jarak
+dengan dimasukkannya node 4 dalam himpunan n, maka node 4 dapat melakukan perhitungan minimum menuju node tertentu meskipun node tersebut telah diketahui rute dan jaraknya
+dalam kasus ini dapat diambil node 3
+node 3 sudah diketahui rute dan jaraknya pada baris ke-2
+dengan masuknya node 4 pada himpunan n, maka node 4 akan menghitung jarak minimum antara entry d3 yang terdahulu dengan yang baru
+berikut perbandingan via node 2 dengan via node 4: via node 2 --> d2 + c23 = 2 + 3 = 5 via node 4 --> d4 + c43 = 3 + 7 = 10 maka entry yang dipertahankan adalah via node 2 dengan jarak 5
+sebelumnya telah dipilih node 4 sebagai anggota n karena bertetangga dengan node 2
+sekarang dipilih tetangga node 2 yang lainya yaitu node 3
+perbandingan yang terjadi: maka entry yang dipertahankan adalah via node 2 dengan jarak 3
+pada d5 maka entry yang dipertahankan adalah via node 4 dengan jarak 7
+tabel hasil pencarian jalur dari tabel di atas maka diketahui jalur terpendek dengan node 1 sebagai titik awal adalah jalur 1-2-4-7 dengan jarak 8
+untuk pengembangan aplikasi android, dan dikembangkan oleh google
+android studio merupakan pengembangan dari eclipse ide, dan dibuat berdasarkan ide java populer, yaitu intellij idea
+android studio direncanakan untuk menggantikan eclipse ke depannya sebagai ide resmi untuk pengembangan aplikasi android
+sebagai pengembangan dari eclipse, android studio mempunyai banyak fitur-fitur baru dibandingkan dengan eclipse ide
+berbeda dengan eclipse yang menggunakan adt, android studio menggunakan gradle sebagai build environment
+fitur-fitur lainnya adalah sebagai berikut :  menggunakan gradle-based build system yang fleksibel
+ template support untuk google services dan berbagai macam tipe perangkat
+pengujian white box pengecekan terhadap detail perancangan, menggunakan struktur kontrol dari desain program secara procedural untuk membagi pengujian ke dalam beberapa kasus pengujian 
+yang memberikan pengukuran kuantitatif terhadap kompleksitas logis suatu program
+nilainya memberikan jumlah dari independent path dalam basis set dan upper bound dari jumlah test untuk memastikan bahwa setiap statement dieksekusi paling tidak satu kali
+tiga cara untuk menghitung kompleksitas siklomatis : siklomatis 3
+perancangan arsitektur sistem rancangan arsitektur sistem dapat dilihat pada gambar 3 berikut: pengguna basisdata google antarmuka webservice gps rancangan arsitektur sistem pada gambar 3 dapat dijelaskan sebagai berikut
+pengguna mengakses aplikasi melalui smartphone android dan aplikasi yang berinteraksi langsung dengan pengguna akan memberikan pilihan menu yang tersedia
+menu yang dipilih pengguna akan menampilkan data dengan memanfaatkan gps android pengguna, webservice, dan basisdata google yaitu yang digunakan pada aplikasi ini adalah google maps api v2
+hasil dan diskusi terpendek menggunakan algoritma dijkstra yang bertujuan untuk mencari jalur terpendek menuju masjid yang ada di kota pontianak
+antarmuka sistem yang dirancang hanya terdiri dari satu bagian yaitu bagian yang dapat diakses oleh pengguna
+antarmuka beranda, daftar kecamatan dan informasi masjid gambar 5
+antarmuka rute, peta masjid dan masjid sekitar b
+pengujian uat hasil pengujian aplikasi oleh user sebesar 77, 09%
+pengujian kompatibilitas aplikasi beberapa smartphone android yang berbeda
+proses pengujian kompatibilitas hasil pengujian aplikasi menunjukkan beberapa hal yang menjadi pengukuran aplikasi berhasil di-install dan berjalan pada setiap perangkat mobile dengan platform android yang berbeda, yaitu : a
+pengujian saat melakukan install aplikasi, eksekusi file .apk berhasil dilakukan pada perangkat mobile dengan platform android paling rendah yaitu android 3.2.1 atau yang dikenal dengan nama honeycomb hingga android 5.11 atau yang dikenal dengan nama lollipop
+pengujian mengeksekusi setiap menu yang ada dan aplikasi berjalan pada setiap perangkat mobile dan platform android berbeda
+pengujian jalur terpendek dilakukan untuk mengetahui hasil perhitungan dari algoritma dijkstra
+hasil pengujian pencarian jalur terpendek dapat dilihat pada tabel 1
+tabel pengujian jalur terpendek no perangkat android algoritma dijkstra 2
+sony yang menjadi pengukuran aplikasi memberikan jalur terpendek, yaitu : akhir dan posisi pengguna sebagai titik awal b
+perbedaan hasil antara algoritma dijkstra dan google directions disebabkan perbedaan jumlah data yang digunakan dan ketelitian dalam pembuatan matriks simpul jalan pada algoritma dijkstra manual disebabkan perbedaan cara mendapatkan jarak
+pada algoritma dijkstra, jarak didapatkan berdasarkan jarak pada simpul jalan sedangkan perhitungan manual berdasarkan perhitungan selisih garis lintang
+kelebihan yang didapatkan dari menggunakan algoritma dijkstra dibandingkan dengan perhitungan manual terletak pada simpul jalan
+simpul jalan berguna untuk memberi petunjuk kepada pengguna tentang jalan mana yang dilewati untuk menuju masjid
+analisis hasil dijkstra berbasis android adalah sebagai berikut : 1
+pengguna dapat melakukan pencarian jalur menuju masjid menggunakan platform android pada jaringan internet 2
+informasi masjid terdiri dari nama, gambar masjid, alamat, jamaah shalat jumat, dan sejarah
+berdasarkan hasil pengujian uat, diperoleh hasil penilaian aplikasi oleh user dengan nilai sebesar 77, 09%
+sehingga aplikasi masuk dalam kriteria b 
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa aplikasi dapat berjalan pada perangkat android dari sistem operasi android 3.2.1 hingga android 5.11 
+penggambaran jalur peta masjid memanfaatkan google directions api
+menuju masjid melalui jalan utama di kota pontianak
+terdapat perbedaan penggunaan jumlah simpul jalan yang dapat diproses untuk penggunaan aplikasi yang berbeda
+hasil perancangan dan pengujian menunjukkan bahwa aplikasi pencarian jalur ini dapat digunakan untuk memilih masjid dan melakukan pencarian jalur terpendek
+6 rancang bangun aplikasi location based service lokasi masjid pontianak menggunakan metode dijkstra berbasis android, maka dapat diambil kesimpulan sebagai berikut : 1
+aplikasi berdasarkan uat dengan nilai 77, 09% membuktikan bahwa aplikasi masuk dalam kriteria b 
+versi sistem operasi honeycomb hingga lollipop
+dari data pengujian jalur terpendek menunjukkan algoritma dijkstra dapat dijadikan sebagai metode pencarian jalur terpendek
+pontianak dan memvisualisasikan dalam bentuk peta

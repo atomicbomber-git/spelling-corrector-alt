@@ -1,0 +1,138 @@
+ulianto helmy1, heri priyanto2, anggi srimurdianti s.3
+program studi teknik informatika universitas tanjungpura 1, 2, 3 1helmy.gforce@gmail.com, 2 heripriyanto.stmt@gmail.com, merupakan salah satu satuan kerja jajaran polda kalbar mengemban tugas sebagai satuan elit kepolisian daerah kalimantan barat untuk menanggulangi gangguan keamanan dalam negeri berkadar tinggi di wilayah hukum polda kalbar tentunya memerlukan jaringan internet untuk kepentingan instansi
+sering kali terjadi permasalahan pada jaringan internet antara lain yaitu pada saat pengiriman data terkadang koneksi menjadi time-out sehingga data yang dikirimkan lambat, rusak dan bahkan tidak sampai tujuan
+oleh karena itu dalam pemakaian satu jaringan dibutuhkan pengaturan akses atau bandwidth demi kelancaran akses internet pemakaian internet dengan jumlah pemakai yang cukup banyak mengakibatkan load akses internet yang cukup tinggi
+jika akses internet tidak dikelola maka akan mengakibatkan pemakaian antar user yang tidak seimbang
+ada user yang memiliki koneksi yang cukup cepat, dan ada yang lambat, bahkan ada yang tidak dapat akses sama sekali
+hierarchical token bucket merupakan teknik penjadwalan paket yang sering digunakan pada router-router berbasis linux
+dengan adanya penerapan manajemen bandwidth dengan metode hierarchical token bucket pada jaringan kantor mako sat brimob, diharapkan adanya perbaikan quality of service dan mampu memanfaatkan bandwidth yang tersedia pada saat keadaan traffic jaringan sedang tidak sibuk
+sehingga pada saat traffic jaringan dalam keadaaan tinggi maka client akan mendapatkan alokasi bandwidth sesuai dengan nilai limit-at
+sedangkan pada saat traffic jaringan dalam keadaan rendah maka client akan mendapatkan alokasi bandwidth sesuai dengan nilai max-limit
+throughtput, packet loss, delay, jitter, dan mean opinion score 
+pengukuran terhadap parameter qos yang telah dilakukan pada jaringan simple queue didapatkan nilai 3, 00 dengan kategori dalam standar tiphon dan rata-rata download sebesar 0, 92 mbps dan upload sebesar 0, 47 mbps
+sedangkan pada hierarchical token bucket nilai qos jaringan mengalami perbaikan positif menjadi 3, 20 dengan kategori dalam standar tiphon dan nilai rata- rata download sebesar 4, 17 mbps dan upload sebesar 0, 73 mbps
+sehingga setelah menerapkan metode htb pada jaringan kantor makosat brimob polda kalbar penggunaan bandwidth yang disediakan oleh isp mampu digunakan secara dinamis dengan menyesuaikan keadaan traffic jaringan
+pendahuluan satuan kerja jajaran polda kalbar mengemban tugas sebagai satuan elit kepolisian daerah kalimantan barat untuk menanggulangi gangguan keamanan dalam negeri berkadar tinggi di wilayah hukum polda kalbar tentunya memerlukan jaringan internet untuk kepentingan instansi
+internet diperlukan dalam rangka kelancaran informasi dan pelaporan baik dalam hubungan kerja secara horizontal dalam jajaran sat brimob polda kalbar, vertikal kepada satuan yang lebih atas dalam jajaran kepolisian, maupun secara diagonal kepada instansi lain di luar kepolisian
+sering kali terjadi permasalahan pada jaringan internet antara lain yaitu pada saat pengiriman data terkadang koneksi menjadi time-out sehingga data yang dikirimkan lambat, rusak dan bahkan tidak sampai tujuan
+pemakaian internet dengan jumlah pemakai yang cukup banyak mengakibatkan load akses internet yang cukup tinggi
+jika akses internet tidak dikelola maka akan mengakibatkan pemakaian antar user yang tidak seimbang
+untuk mengatasi over load pada akses internet tersebut, maka perlu adanya manajemen bandwidth
+manajemen bandwidth bandwidth sehingga jika ada user yang mengakses internet dengan kapasitas bandwidth yang sangat besar, maka user lain tidak akan terganggu
+karena setiap user sudah mempunyai kapasitas bandwidth masing-masing untuk mengakses internet menggunakan mikrotik untuk melakukan limitasi bandwidth sederhana dengan menggunakan simple queue
+namun metode yang digunakan saat ini dengan konfigurasi yang sangat sederhana dirasa masih kurang
+karena masing-masing user telah dibatasi secara statis nilai maksimal upload dan download, sehingga apabila traffic jaringan dalam keadaan tinggi ataupun traffic jaringan dalam keadaan rendah maka user akan tetap mendapat batasan bandwidth yang sama yang telah ditetapkan oleh admin jaringan
+mako sat brimob, maka penulis akan menerapkan metode hierarchical token bucket pada router mikrotik
+dengan adanya penerapan manajemen bandwidth dengan metode hierarchical token bucket diharapkan dapat memanfaatkan bandwidth yang tersedia dengan menyesuaikan dengan status traffic jaringan sedang sibuk dan tidak sibuk
+maka rumusan masalah dari penelitian ini adalah sebagai berikut: 1
+bagaimana cara agar manajemen bandwidth jaringan mampu memanfaatkan bandwidth yang tersedia pada saat keadaan dimana traffic jaringan sedang tidak sibuk? 2
+bagaimana hasil quality of service jaringan setelah penerapan metode hierarchical token bucket ? adalah untuk menganalisis quality of service dan mengimplementasikan metode hierarchical token kalbar
+dengan menerapkan metode ini diharapkan penggunaan bandwidth pada jaringan mampu memanfaatkan bandwidth yang tersedia pada saat keadaan traffic jaringan sedang tidak sibuk
+sehingga pada saat traffic jaringan dalam keadaaan tinggi maka client akan mendapatkan alokasi bandwidth sesuai dengan nilai limit-at
+sedangkan pada saat traffic jaringan dalam keadaan rendah maka client akan mendapatkan alokasi bandwidth sesuai dengan nilai max-limit
+adalah sistem operasi independen berbasis linux khusus untuk komputer yang difungsikan sebagai router
+mikrotik didesain untuk mudah digunakan dan sangat baik digunakan untuk keperluan administrasi jaringan komputer seperti merancang dan membangun sebuah sistem jaringan komputer skala kecil hingga yang kompleks
+adalah suatu ukuran rentang frekuensi maksimum yang dapat mengalir data dari suatu tempat ke tempat lain dalam suatu waktu tertentu
+bandwidth merupakan besaran yang menunjukkan seberapa banyak data yang dapat dilewatkan dalam koneksi melalui sebuah network
+rofiq menyatakan bahwa, manajemen bandwidth adalah sebuah proses penentuan besarnya bandwidth kepada tiap pemakai dalam jaringan komputer
+besarnya bandwidth akan berdampak kepada kecepatan transmisi data
+dengan manajemen bandwidth, admin dapat mengatur agar user tidak menghabiskan bandwidth yang disediakan oleh provider
+pada dasarnya bandwidth mempresentasikan kapasitas dari koneksi, semakin tinggi kapasitas, maka umumnya akan diikuti oleh kinerja yang lebih baik, meskipun kinerja keseluruhan juga tergantung pada faktor-faktor lain, misalnya latency yaitu waktu tunda antara masa sebuah perangkat meminta akses ke jaringan dan masa perangkat itu memberi izin untuk melakukan transmisi
+terdapat dua tipe queue, yaitu: a
+simple queue simple queue merupakan salah satu teknik antrian pada sistem manajemen bandwidth pada router mikrotik
+teknik antrian ini memiliki kemudahan dalam konfigurasinya dan memiliki pembagian bandwidth yang paling sederhana pula
+pembagian bandwidth diatur secara statis sehingga berapapun jumlah user yang online maka bandwidth yang diterima juga tetap, bahkan cenderung berkurang
+queue tree queue tree merupakan teknik antrian pada sistem manajemen bandwidth pada router mikrotik
+teknik antrian ini memiliki konfigurasi yang cukup rumit dibandingkan dengan simple queue
+mark packet, bertugas untuk menandai paket data yang akan diproses ke antrian
+firewall, bertugas untuk menyeleksi paket sesuai dengan klasifikasi kelasnya
+dkk menyatakan bahwa hierarchical token bucket adalah metode manajemen bandwidth yang digunakan untuk membatasi akses menuju alamat ip tertentu tanpa menggangu trafik bandwidth pengguna lain
+hierarchical token bucket merupakan teknik penjadwalan paket yang sering digunakan pada router- router berbasis linux
+htb adalah salah satu teknik penjadwalan yang digunakan pada queue tree
+general scheduler htb menggunakan mekanisme deficit round robin dan pada blok umpan baliknya estimator htb menggunakan token bucket filter 
+htb memungkinkan kita membuat queue menjadi lebih terstruktur, dengan melakukan pengelompokan-pengelompokan bertingkat
+rate rate menentukan bandwidth maksimum yang dapat digunakan oleh setiap class, jika bandwidth melebihi nilai rate maka paket data akan dipotong
+ceil ceil diatur untuk menentukan peminjaman bandwidth antar class, peminjaman bandwidth dilakukan kelas paling bawah ke kelas di atasnya
+teknik ini disebut dengan link sharing
+pada htb terdapat parameter ceil, sehingga kelas akan selalu mendapatkan bandwidth di antara base link dan nilai ceil linknya
+parameter ini dapat dianggap sebagai estimator kedua, sehingga setiap kelas dapat meminjam bandwidth selama bandwidth total yang diperoleh memiliki nilai di bawah nilai ceil
+untuk menentukan nilai limit-at dan max-limit, berikut ini adalah rumus perhitungan limit-at dan max- limit: 2.4 quality of service arifin menyatakan bahwa, quality of service merupakan mekanisme jaringan yang memungkinkan aplikasi-aplikasi atau layanan dapat beroperasi sesuai dengan yang diharapkan
+tujuan dari qos adalah untuk memenuhi kebutuhan-kebutuhan layanan yang berbeda, yang menggunakan infrastruktur yang sama
+performansi mengacu ke tingkat kecepatan dan keandalan penyampaian berbagai jenis beban data di dalam suatu komunikasi
+berikut ini merupakan beberapa parameter qos yang sering digunakan dalam mengukur performansi jaringan, yaitu : yang diukur dalam bps
+throughput merupakan jumlah total kedatangan paket yang sukses yang diamati pada tujuan selama interval waktu tertentu dibagi oleh durasi interval waktu tersebut
+tabel 2.1 throughput kategori throughput menggambarkan suatu kondisi yang menunjukkan jumlah total paket yang hilang, dapat terjadi karena collision dan congestion pada jaringan dan hal ini berpengaruh pada semua aplikasi karena retransmisi akan mengurangi efisiensi jaringan secara keseluruhan meskipun jumlah bandwidth cukup tersedia untuk aplikasi aplikasi tersebut
+jika terjadi kongesti yang cukup lama, buffer akan penuh, dan data baru tidak akan diterima
+nilai packet loss sesuai dengan versi tiphon sebagai berikut : kategori degredasi packet loss indeks sangat bagus 0 % 4 menempuh jarak dari asal ke tujuan
+delay dapat dipengaruhi oleh jarak, media fisik, kongesti atau juga waktu proses yang lama
+adapun komponen delay adalah sebagai berikut: diklasifikasikan sebagai berikut : kategori latensi besar delay indeks sangat bagus < 150 ms 4 bagus 150 s/d 300 ms 3 sedang 300 s/d 450 ms 2 jelek > 450 ms 1 4
+jitter atau variasi kedatangan paket hal ini diakibatkan oleh variasi-variasi dalam panjang antrian, dalam waktu pengolahan data, dan juga dalam waktu penghimpunan ulang paket-paket di akhir perjalanan jitter
+jitter lazimnya disebut variasi delay, berhubungan erat dengan latency, yang menunjukkan banyaknya variasi delay pada transmisi data di jaringan
+delay antrian pada router dan switch dapat menyebabkan jitter
+terdapat empat kategori penurunan performansi jaringan berdasarkan nilai peak jitter sesuai dengan versi tiphon, yaitu : bagus 0 s/d 75 ms 3 sedang 75 s/d 125 ms 2 jelek 125 s/d 225 ms 1 5
+mean opinion score kualitas sinyal yang diterima biasanya diukur secara subjektif dan objektif
+metoda pengukuran subyektif yang umum dipergunakan dalam pengukuran kualitas speech coder adalah acr yang akan menghasilkan nilai mos 
+skala rating mos dapat diklasifikasikan sebagai berikut : tabel 2.5 mos kualitas percakapan nilai indeks sangat baik 5 4 menganalisis masalah, maka penulis menggunakan metode dan teknik penulisan sebagai berikut: 1
+interview interview adalah usaha pengumpulan informasi yang dilakukan dengan mengajukan sejumlah pertanyaan secara lisan kepada admin jaringan mako sat brimob polda kalbar yang berhubungan dengan data yang diperlukan untuk dianalisis kembali
+berkaitan dengan terjadinya suatu peristiwa dimana objek diteliti dan dicatat
+pada pelaksanaannya, observasi dilakukan terhadap traffic jaringan internet yang ada di mako sat brimob polda kalbar
+implementasi implementasi adalah penerapan terhadap suatu ilmu yang sudah diperoleh dan dipelajari
+dalam hal ini dilakukan implementasi yaitu menerapkan manajemen bandwidth dengan metode hierarchical token bucket pada jaringan mako sat brimob polda kalbar
+serta melakukan analisis dan membandingkan qos jaringan sebelum dan sesudah menerapkan metode htb
+3.2 analisis kinerja jaringan berikut ini adalah hasil analisis kinerja jaringan yang ada di mako sat brimob polda kalbar: 1
+pemetaan jaringan yang dihasilkan pada analisis jaringan ini merupakan pemetaan sesuai dengan denah layout gedung mako sat brimob polda kalbar dan sesuai dengan topologi jaringan yang telah ada
+jaringan internet di mako sat brimob polda kalbar telah menerapkan manajemen bandwidth dengan menerapkan limitasi bandwidth sederhana 
+penerapan metode hierarchical token bucket dirancang dengan melakukan pengecekan jumlah maksimal dan minimal client yang online secara bersamaan untuk memperhitungkan jumlah limit-at dan max-limit
+monitoring beban puncak penggunaan internet pada mako sat brimob polda kalbar sebagai bahan analisis beban puncak pada sibuk dan jam tidak sibuk
+3.3 topologi jaringan dan arsitektur jaringan gambaran topologi dan arsitektur jaringan mako sat brimob polda kalbar secara keseluruhan dapat dilihat pada gambar 3.1
+pada jaringan mako sat brimob menerapkan topologi pohon
+topologi pohon diterapkan karena topologi ini pada dasarnya memang cocok bila diterapkan pada jaringan perkantoran, karena topologi memiliki keunggulan dalam hal kinerja dalam jaringan dan lebih hemat biaya
+jaringan mako sat brimob memiliki 3 line speedy di mana masing masing line memiliki kapasitas bandwidth up to 2 mb
+untuk pengecekan lebih lanjut, berikut merupakan hasil tes kecepatan upload dan download melalui speedtest.net yang diambil pada hari rabu tanggal 25 juni 2014 pada pukul 11.00 wib
+internet makosat yang diambil pada hari rabu tanggal 25 juni 2014 pada pukul 11.00 wib
+throughput, packet loss, delay, jitter, dan mos
+3.4 rencana pengujian pengujian yang akan dilakukan adalah dengan mengukur parameter qos pada jaringan sebelum dan sesudah pengimplementasian htb pada router mikrotik pada saat jam kerja kantor dan pada saat di luar jam kerja kantor berdasarkan data-data yang telah diambil kemudian dibandingkan dengan standar versi tiphon sebagai acuan penilaian
+data yang diambil dengan aplikasi wireshark dan melalui perhitungan dengan persamaan berikut: 2
+pengujian packet loss perhitungan packet loss didapat dari hasil capture data yang diambil dengan command prompt dan melalui perhitungan dengan persamaan berikut: perhitungan dengan persamaan berikut: perhitungan dengan persamaan berikut: 3.5 hasil analisis perbandingan simple queue dengan hierarchical token bucket berikut tabel perbandingan nilai akhir qos simple queue dengan htb berdasarkan standar tiphon: parameter qos simple queue htb indeks kategori indeks kategori packet loss 2 sedang 3 bagus delay 4 sangat bagus 4 sangat bagus jitter 3 bagus 3 bagus mos 3 baik 3 baik total rata- berdasarkan tabel di atas, dapat dilihat bahwa nilai akhir qos simple queue dalam standar tiphon mempunyai nilai indeks 3 dengan kategori bagus, sedangkan nilai akhir qos htb dalam standar tiphon mempunyai nilai indeks 3, 2 dengan kategori bagus
+secara umum perbandingan nilai akhir qos simple queue dengan htb tidak jauh berbeda
+namun apabila dibandingkan kembali dengan menggunakan nilai tiap- tiap parameter qos berdasarkan klasifikasi waktu yang telah ditentukan akan sangat tampak perubahan dari tiap-tiap nilai parameter tersebut
+untuk lebih jelasnya dapat dilihat pada gambar berikut: gambar 3.3 grafik perbandingan nilai tiap-tiap parameter qos paket yang diterima dalam keadaan baik terhadap waktu total transmisi yang dibutuhkan dari server hingga ke user
+berdasarkan data yang telah diambil dengan menggunakan aplikasi wireshark, yang kemudian disajikan dalam bentuk grafik pada gambar 4.13 di atas dapat dilihat nilai total rata-rata parameter throughput pada simple queue sebesar 54, 20% dengan kategori 
+sedangkan nilai total rata-rata parameter throughput pada hierarchical token bucket sebesar 50, 58% dengan kategori 
+nilai throughput pada simple queue lebih besar dibandingkan dengan nilai throughput pada htb
+hal ini berkaitan dimana pada dasarnya simple queue memiliki nilai max-limit yang statis, sementara pada htb nilai max-limit telah ditentukan pada parent dan child
+namun nilai max-limit pada htb dapat digunakan oleh user secara optimal apabila jaringan dalam keadaan tidak sibuk, semnetara apabila kondisi jaringan dalam keadaan sibuk, maka seluruh user yang aktif akan berbagi bandwidth secara merata setelah nilai limit-at semua user sudah terpenuhi
+packet loss packet loss digunakan untuk mengetahui banyaknya jumlah paket yang hilang atau tidak sampai ke tujuan ketika melakukan pengiriman data dari sumber ke tujuan
+nilai packet loss sistem dipengaruhi oleh jumlah paket data dan jumlah paket data loss yang didapatkan dari statistics command prompt, kemudian dilakukan perhitungan dengan persamaan untuk mengetahui pengaruh penggunaan simple queue dan htb
+hasil analisis perbandingan packet loss pada simple queue maupun htb ditunjukkan pada gambar 4.13 di atas, dimana parameter packet loss pada simple queue sebesar 17, 33% dengan kategori, sedangkan nilai parameter packet loss pada htb sebesar 6, 89% dengan kategori 
+dengan menerapkan htb pada jaringan kantor makosat brimob mampu mengurangi nilai packet loss sebesar 10, 44%
+delay hasil analisis perbandingan nilai delay pada simple queue dan htb ditunjukkan pada gambar 4.13 di atas, dimana niali parameter delay pada simple queue sebesar 10, 98% dengan kategori, sedangkan nilai parameter delay pada htb sebesar 3, 10% dengan kategori 
+dengan menerapkan htb pada jaringan kantor makosat brimob mampu mengurangi nilai delay sebesar 7, 88%
+nilai delay sangat berpengaruh terhadap seberapa besar bandwidth yang disediakan
+semakin besar bandwidth yang diberikan, maka akan semakin kecil nilai delay yang dihasilkan
+dimana nilai parameter jitter pada simple queue sebesar 10, 98% dengan kategori, sedangkan nilai parameter jitter pada htb sebesar 3, 10% dengan kategori 
+dengan menerapkan htb pada jaringan kantor makosat brimob mampu mengurangi nilai jitter sebesar 7, 88%
+nilai jitter sangat berpengaruh terhadap nilai delay dan seberapa besar bandwidth yang disediakan
+semakin besar bandwidth yang diberikan, maka akan semakin kecil nilai jitter yang dihasilkan
+dimana nilai parameter mos pada simple queue sebesar 4, 01 dengan kategori 
+sedangkan nilai parameter mos pada htb sebesar 4, 31 dengan kategori 
+setelah menerapkan htb pada jaringan kantor makosat brimob mampu mengurangi nilai jitter sebesar 7, 88%
+nilai jitter sangat berpengaruh terhadap nilai delay dan seberapa besar bandwidth yang disediakan
+semakin besar bandwidth yang diberikan, maka akan semakin kecil nilai jitter yang dihasilkan
+3.6 perbandingan kecepatan download dan upload dari hasil rakpitulasi data yang telah diambil, perbandingan kecepatan download dan upload pada jaringan simple queue dan htb dapat dilihat pada tabel berikut: rata-rata 0, 92 0, 47 4, 17 0, 73 tabel 3.4 perbandingan kecepatan download dan upload dan upload bahwa kecepatan download rata-rata simple queue sebesar 0, 92 mbps dan upload sebesar 0, 47 mbps
+sementara nilai download rata-rata htb sebesar 4, 17 mbps dan upload sebesar 0, 73 mbps
+grafik simple queue terlihat lebih statis dibandingkan dengan grafik htb, karena simple queue memiliki nilai max-limit yang sudah ditentukan per- user
+berbeda dengan htb, memiliki grafik yang lebih dinamis sebagai bukti bahwa htb mampu mengoptimalkan penggunaan bandwidth yang tersedia
+htb memiliki nilai max-limit pada parent maupun child, dan user-user yang ada pada level child bisa menggunakan bandwidth jaringan secara full disaat kondisi jaringan sedang tidak sibuk
+pada saat jaringan sedang dalam kondisi sibuk, user akan mendapatkan nilai kecepatan di bawah max-limit karena bandwidth akan dibagi secara merata kepada seluruh user yang sedang online secara bersamaan
+kesimpulan dan saran dilakukan, maka dapat disimpulkan bahwa: 1
+pada jaringan simple queue nilai rata-rata download sebesar 0, 92 mbps dan upload sebesar 0, 47 mbps
+sedangkan pada jaringan yang sudah menerapkan hierarchical token bucket nilai rata-rata download sebesar 4, 17 mbps dan upload sebesar 0, 73 mbps
+sehingga setelah menerapkan metode htb pada jaringan kantor makosat brimob polda kalbar penggunaan bandwidth yang disediakan oleh isp mampu digunakan secara dinamis menyesuaikan dengan keadaan traffic jaringan
+pengukuran terhadap parameter qos yang telah dilakukan pada jaringan simple queue didapatkan nilai 3, 00 dengan kategori dalam standar tiphon
+kemudian setelah dilakukan implementasi metode hierarchical token bucket, nilai qos jaringan mengalami perbaikan positif menjadi 3, 20 dengan kategori dalam standar tiphon
+4.2 saran adapun hal-hal yang menjadi saran sebagai pertimbangan untuk pengembangan jaringan makosat brimob polda kalbar agar menjadi lebih baik lagi adalah sebagai berikut : 1
+pada saat pengujian sistem manajemen bandwidth, hendaknya menggunakan koneksi internet yang stabil untuk mengurangi adanya nilai error
+menganalisis performansi sistem manajemen bandwidth dengan prioritas port seperti untuk penggunaan video streaming, voip, dan game online pada masing-masing client
+penggunaan manajemen bandwidth dengan hierarchical token bucket dapat dikombinasikan dengan metode per connection queue untuk mencapai quality of service yang lebih baik
+menggunakan 9 parameter qos untuk mendapatkan hasil penelitian yang lebih akurat, yaitu packet loss, delay/latency, jitter, throughput, mos, echo cancellation, error, out of delivery, dan pdd

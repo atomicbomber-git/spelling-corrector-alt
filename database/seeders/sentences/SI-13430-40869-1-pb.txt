@@ -1,0 +1,123 @@
+yang mampu menggabungkan objek maya dalam dua dimensi atau tiga dimensi ke dalam sebuah lingkungan nyata secara real time
+salah satu implementasi ar di bidang media informasi yaitu pemanfaatan ar dalam museum
+apabila museum dieksplorasi secara lebih mendalam, informasi tentang koleksi yang dipamerkan dalam museum dapat disampaikan secara lengkap
+namun, selama ini pengunjung museum kalimantan barat hanya memperoleh informasi melalui tulisan atau penjelasan yang diperoleh di sekitar objek, misalnya dari papan informasi, pemandu museum, buku dan selebaran 
+dari permasalahan yang ada maka dibangunlah dalam penelitian ini sebuah aplikasi yang dapat mengimplementasikan teknologi augmented reality berbasis android guna memberikan informasi yang lebih kepada pengunjung museum terhadap objek koleksi museum yang dipamerkan pada museum kalimantan barat
+metodologi penelitian yang digunakan dalam penelitian ini terbagi menjadi studi literatur, analisa kebutuhan, pengumpulan data, pemodelan/perancangan sistem, pembuatan aplikasi, penelitian ini yaitu ar museum berbasis android yang dibangun menggunakan software unity3d dan library vuforia sdk
+cara kerja aplikasi ini, pengguna hanya perlu mengarahkan kamera yang ada pada perangkat mobile berbasis android ke objek penanda markerless, kemudian secara otomatis menampilkan informasi berupa gambar dan teks atau video dari objek koleksi museum berupa koleksi uang kertas kuno rupiah dan koleksi miniatur bangunan istana/keraton yang terdeteksi
+pengujian dilakukan dengan melakukan studi aplikasi dan studi pengguna
+pengunjung museum kalimantan barat diminta untuk menggunakan aplikasi ar yang disediakan dilanjutkan dengan mengisi kuesioner
+untuk pengujian pengguna melalui kuesioner yang dibagikan kemudian diinterpretasikan dalam skala likert didapatkan hasil, dengan 30 orang responden didapat nilai sebesar 77, 9 masuk dalam kategori sangat baik
+dapat disimpulkan dari pengujian ini bahwa aplikasi markerless augmented reality ini sangat layak untuk diimplementasikan pada museum kalimantan barat guna memberikan kemudahan untuk mendapatkan informasi lebih dari objek koleksi museum
+pendahuluan bersifat interaktif menurut waktu nyata, serta berbentuk animasi 3d
+dengan kata lain, ar merupakan teknologi yang mampu menggabungkan objek maya dalam dua dimensi atau tiga dimensi ke dalam sebuah lingkungan nyata, kemudian memproyeksikan objek-objek tersebut secara real time
+selama ini, augmented reality diaplikasikan dengan menggunakan marker hitam putih yang dicetak
+penggunaan marker membuat penggunaan ruang pada obyek yang dilacak menjadi tidak efisien dan kurang menarik
+teknologi augmented reality akan jauh lebih menarik bila objek yang dilacak berupa objek nyata 2d maupun 3d sebagai objek penanda markerless
+berkembang pesat dalam berbagai aspek kehidupan termasuk juga pada perkembangan teknologi ar saat ini telah memberikan banyak kontribusi ke dalam berbagai bidang meliputi periklanan dan pemasaran, arsitektur dan konstruksi, hiburan, medis, militer, dan perjalanan wisata
+salah satu implementasi ar di bidang media informasi yaitu pemanfaatan ar dalam museum
+museum diartikan sebagai sebuah gedung yang digunakan sebagai tempat untuk memamerkan benda-benda yang patut mendapat perhatian umum, seperti peninggalan sejarah, seni, dan ilmu
+apabila museum dieksplorasi secara lebih mendalam, informasi tentang koleksi yang dipamerkan dalam museum dapat disampaikan secara lengkap
+namun, selama ini pengunjung museum hanya memperoleh informasi melalui tulisan atau penjelasan yang diperoleh di sekitar objek, misalnya dari papan informasi, pemandu museum, buku dan selebaran 
+masalah yang sering timbul yaitu tidak setiap penggunjung dapat didampingi oleh pemandu museum untuk menjelaskan secara detail informasi koleksi museum yang dipamerkan secara lebih detail serta dari pihak pengunjung yang cendrung pasif yaitu hanya melihat sekilas koleksi di dalam museum tersebut dan sukar untuk bertanya kepada pemandu museum untuk mendapatkan informasi yang lebih terhadap objek benda bersejarah yang dipamerkan
+dibutuhkan sebuah aplikasi yang dapat mengimplementasikan teknologi augmented reality kepada pengunjung museum terhadap objek koleksi museum yang dipamerkan pada museum kalimantan barat
+hal ini didukung oleh pemanfaatan aplikasi bergerak yang lebih efisiensi karena langsung dapat diaplikasikan oleh para pengguna android secara praktis bukan menggunakan kamera webcam pada komputer pribadi
+berbasis android heru vitono 1, helfi nasution 2, hengky anra e-mail: vithosqualler@gmail.com 1, helfi_nasution@yahoo.com akan dibangun ini dapat meningkatkan ketertarikan pengunjung dalam mengeksplorasi koleksi museum tersebut secara langsung dari mobile android pengunjung, karena sifat augmented reality yang interaktif serta real time
+serta dengan museum memiliki konsep yang berbeda dalam menyampaikan informasi kepada pengunjung akan meningkatkan antusiasme generasi muda untuk tahu lebih jauh tentang museum dan koleksi yang ada di dalamnya
+uraian penelitian penggabungan antara objek virtual dengan objek nyata
+augmented reality adalah menggabungkan dunia nyata dan virtual, bersifat interaktif secara real time, dan merupakan animasi 3d
+menurut ronald azumabahwa, 
+augmented reality adalah sebuah istilah untuk lingkungan yang menggabungkan dunia nyata dan dunia virtual yang dibuat oleh komputer sehingga batas antara keduanya menjadi sangat tipis
+sistem ini lebih dekat kepada lingkungan nyata 
+karena itu, reality lebih diutamakan pada sistem ini
+sistem ini berbeda dengan virtual reality, yang sepenuhnya merupakan virtual environment
+perbedaan augmented reality dengan virtual reality augmented reality pada dasarnya adalah sebuah konsep yang mencitrakan gambar tiga dimensi yang seolah nyata
+untuk mencitrakan gambar tiga dimensi tersebut, sistem augmented reality terlebih dahulu harus melakukan penglihatan atau vision terhadap lingkungan yang padanya akan dicitrakan objek virtual, kemudian dilakukanlah proses tracking terhadap objek spesifik yang menentukan letak citraan objek virtual tersebut
+kemudian, objek tersebut akan dikenali, atau dianalisis
+setelah dikenali dan dianalisis posisi dan orientasinya, maka komputer akan melakukan proses pencitraan objek tersebut, dan akan tampak pada perlengkapan display
+alur kerja aplikasi ar pada gambar 2 secara umum dimulai dari pengambilan gambar markerless dengan kamera atau webcam
+markerless tersebut dikenali berdasarkan feature yang dimiliki, kemudian masuk ke dalam object tracker yang disediakan oleh software development kit 
+di sisi lain, markerless tersebut telah didaftarkan dan disimpan ke dalam database
+object tracker selanjutnya akan melacak dan mencocokkan markerless tersebut agar dapat menampilkan informasi yang sesuai
+hasil keluaran pelacakan marker segera ditampilkan ke dalam layar komputer atau layar ponsel cerdas
+informasi yang ditampilkan melekat pada marker bersangkutan secara real time
+ar yang digunakan untuk melacak objek yang ada didunia nyata tanpa marker yang special
+markerless augmented reality menurut madden, markerless adalah 
+untuk melakukan pelacakan objek, sistem ar markerless bergantung pada natural- feature-tracking
+marker sebagai obyek yang dideteksi dan di dukung teknik pattern recognition, maka penggunaan marker sebagai tracking object tergantikan dengan permukaan suatu objek penanda sebagai tracking object 
+dulunya lebih dikenal dengan qcar 
+ini menggunakan teknologi computer vision untuk mengenali dan melacak gambar planar dan objek 3d sederhana, seperti kotak, secara real- time
+sdk termasuk deteksi oklusi local menggunakan 'tombol virtual', runtime pemilihan gambar target, dan kemampuan untuk membuat dan mengkonfigurasi ulang set pemrograman pada saat runtime
+vuforia, dapat dilihat pada gambar 3 yang bersumber pada https://developer.vuforia.com/resources/ dev-guide/vuforia- gambar 3
+algoritma fast corner detection fast adalah suatu algoritma yang dikembangkan oleh edward rosten, reid porter, and tom drummond
+fast corner detection ini dibuat dengan tujuan mempercepat waktu komputasi secara real-time dengan konsekuensi menurunkan tingkat akurasi pendeteksian sudut
+suatu titik p pada koordinat pada citra dan membandingkan intensitas titik p dengan 4 titik di sekitarnya
+titik pertama terletak pada koordinat, titik kedua terletak pada koordinat, titik ketiga terletak pada koordinat, dan titik keempat terletak pada koordinat 
+jika nilai intensitas di titik p bernilai lebih besar atau lebih kecil daripada intensitas sedikitnya tiga titik disekitarnya ditambah dengan suatu intensitas batas ambang, maka dapat dikatakan bahwa titik p adalah suatu sudut
+setelah itu titik p akan digeser ke posisi dan melakukan intensitas keempat titik disekitarnya lagi
+iterasi ini terus dilakukan sampai semua titik pada citra sudah dibandingkan
+vuforia menggunakan algoritma fast corner detection untuk mendefinisikan seberapa baik gambar dapat dideteksi dan dilacak menggunakan vuforia sdk
+peringkat ini ditampilkan dalam target manager dan kembali untuk setiap target upload melalui web api
+rating augmentable dapat berkisar dari 0 sampai 5 untuk setiap gambar yang diberikan
+semakin tinggi rating augmentable dari target gambar, semakin kuat kemampuan deteksi dan pelacakan yang dikandungnya
+sebuah rating dari nol menunjukkan bahwa target tidak dilacak sama sekali oleh sistem augmented reality, sedangkan rating bintang 5 menunjukkan bahwa sebuah gambar dengan mudah dilacak oleh sistem augmented reality
+umum atau memilih gambar dengan detail rincian bulat, kabur dan gambar yang dikompresi berlebihan maka tidak akan memberikan kekayaan yang cukup rinci untuk dideteksi dan dilacak dengan benar
+skala likert atau gejala sosial dalam penelitian gejala sosial ini telah ditetapkan secara spesifik oleh peneliti, yang selanjutnya disebut sebagai variabel penelitian
+nilai dalam skala likert memiliki interval yang sama dan direpresentasikan dalam kata-kata
+hasil pengujian akan direkapitulasi ke dalam tabel dan dilakukan perhitungan skor menggunakan rumus: n = jumlah responden yang memilih p = pilihan angka skor pada skala likert 2
+interpretasi skor perhitungan: y = skor tertinggi skala likert dikalikan jumlah responden v = 100 / s s = jumlah skor dalam skala likert yang diujikan f
+diagram alir penelitian terlihat pada gambar 4 sebagai berikut
+pengumpulan data pemodelan sistem pembuatan aplikasi pengujian sistem penarikan kesimpulan g
+arsitektur ar museum markerless ar, setelah gambar yang diupload tadi berubah menjadi objek penanda nyata maka markerless tersebut didownload dari website vuforia berupa database library yang dijadikan penanda atau dipergunakan untuk pencocokan augmented reality pada vuforia sdk yang terpasang pada unity untuk digunakan pada aplikasi mobile augmented reality museum
+flowchart aplikasi sebagai media informasi koleksi museum terdapat pada gambar 6 berikut ini: start menu aplikasi ar museum i
+perancangan sistem use case diagram terhadap sebuah sistem
+gambar 7 berikut merupakan use case diagram sistem yang dibangun
+diagram use case sistem proses deteksi markerless augmented reality ini melalui beberapa tahapan
+secara garis besarnya, dalam perancangan ada tiga bagian utama yaitu : 1
+object tracking adalah proses pengambilan data image / gambar suatu objek koleksi museum sebagai objek penanda markerless
+disini user / pengguna dituntut aktif untuk mengarahkan kamera smartphonenya pada objek penanda markerless
+proses sebelumnya dengan data image target markerless augmented reality yang dilakukan oleh sistem ar
+pada proses ini dilakukan secara real time secara keseluruhan proses pada sistem ini
+data informasi berdasarkan pencocokan data image pada proses object tracking dengan data markerles augmented reality yang telah tersedia pada sistem yang dilakukan pada proses sebelumnya serta mengabungkan informasi tertambah berupa objek teks 2d dan panel informasi ataupun plane video playback dan video penjelasan dengan hasil proses object tracking untuk ditampilkan pada user interface secara realtime seperti contoh gambar berikut ini
+dilakukan oleh sistem bukan aktivitas yang dilakukan oleh pengguna
+gambar 8 berikut ini merupakan diagram aktivitas dari tracking object sistem yang dibangun
+untuk tracking ar merupakan menu dari aplikasi ar museum yang berfungsi untuk melakukan deteksi koleksi museum berupa mata uang kertas kuno rupiah sedangkan video playback merupakan menu yang berfungsi untuk mendeteksi koleksi museum berupa miniatur bangunan istana/keraton
+class diagram berorientasi obyek dari segi pendefinisian kelas
+setiap kelas memiliki atribut dan metode atau fungsi yang digunakan dalam berjalannya sistem
+terdapat 13 class pada sistem yang akan dibangun, pada intinya terdapat 4 class utama pengguna augmented reality, class markerless, class informasi dan class video playback yang digambarkan pada gambar 9 berikut ini
+sequence diagram use case dengan mendeskripsikan waktu hidup objek dan pesan yang dikirim dan diterima antar objek
+dalam membuat sequence diagram perlu melihat skenario yang terdapat di dalam use case diagram
+gambar 10 dan gambar 13 merupakan sequence diagram sistem yang dibangun
+hasil implementasi aplikasi ar museum sebagai media informasi koleksi museum yang telah dibuat dapat diimplementasikan pada smarthphone dengan sistem operasi
+file aplikasi ar museum ini dengan ekstensi .apk dicopykan paste pada perangkat mobile android dilanjutkan dengan proses instalasi sebelum dapat digunakan
+mobile android yang digunakan juga harus memenuhi syarat minimum yaitu android versi 4.0 keatas, memory kosong 200, 1mb, memiliki kamera dengan minimum 2 mp, resolusi layar minimum 320 x 480
+terdapat 4 buah menu utama yaitu tracking ar untuk mendeteksi koleksi uang kuno, video playback untuk mendeteksi bangunan istana/keraton, panduan untuk informasi tata cara menggunakan dan terakhir informasi untuk penjelasan singkat museum kalimantan barat
+gambar 11, tampilan ketika mendeteksi uang kuno gambar 12, tampilan ketika mendeteksi objek penanda bangunan istana/keraton gambar 13 berikut ini
+tampilan menu aplikasi ar museum gambar 12
+pengujian deteksi markerless suatu objek penanda markerless terhadap pendeteksian dan pelacakan sebuah objek penanda markerless tersebut oleh sistem markerless augmented reality apakah dapat dideteksi oleh aplikasi ar museum atau tidak dapat dideteksi
+image target objek penanda markerless koleksi numismatika berupa 6 lembar uang rupiah kuno/lama berupa objek nyata dan koleksi historika miniatur 6 bangunan istana/keraton berupa objek penanda buatan berikut ini merupakan hasil pengujian deteksi markerless koleksi numismatika uang kuno/lama rupiah berdasarkan nilai rating augmentable
+button_behavior +id: int +texture: button +button: bool +position +left top: vector +right button: vektor +getimagetarget buttonclick +button +kode +markerless +path +exist +videostreaming +addtrackable +camera: arcamera +object: object name +marker: imagemarker +script: vuforia data set load behavior +default trackable event handler +onstar +ongui +tampilmenu +onupdate +objecttracking +getimagetracking +getdatasetmarkerless +imageprocessing +onobjectfound +getdatasetinformasi +getdatasetvideo +renderingcamerapreview +kembali markerless splashscreen +handletap +setmarkerless +getvideo +screenorientation 1 : main 2 : tampilmenu 5 : trackingar 6 : videostream 9 : getimagetracking no nama markerless rating augmentable hasil deteksi 1
+pengujian deteksi markerless bangunan istana/keraton rating augmentable
+no nama markerless rating augmentable hasil deteksi pengujian ini dilakukan untuk melihat pendapat dan respon pengguna terhadap aplikasi augmented reality museum ini
+kuesioner dibagikan kepada 30 responden yang merupakan pengunjung museum pada tanggal 18 - 25 desember 2015
+terdapat 3 aspek yang diujikan pada kuesioner perngguna yaitu aspek rpl, aspek komunikasi visual dan aspek fungsional berikut merupakan ketiga aspek tersebut
+persentase penilaian aspek rekayasa perangkat lunak 2.aspek komunikasi visual gambar15
+persentase penilaian aspek komunikasi visual 3.aspek fungsional gambar 16
+hasil pengujian validitas dan realiabilitas kuesioner tabel 4
+hasil pengujian realibitas kuesioner menggunakan rumus conbach’s alpha dengan bantuan aplikasi analisa spss statistic versi 17.0 menghasilakan nilai yang digambarkan pada gambar 4.40 dibawah ini
+gambar 4.17 hasil pengujian reliability kuesioner dari hasil pengujian reliabilitas kuesioner menghasilkan nilai alpha sebesar 0, 719
+sesuai kriteria nilai alpha maka data hasil pengujian kuesioner oleh pengguna memiliki tingkat reliabilitas tinggi 
+analisis hasilpengujian aplikasi ar museum berikut ini adalah analisis hasil perancangan dan pengujian aplikasi augmented reality museum sebagai media informasi koleksi museum kalimantan barat
+hasil pengujian deteksi objek penanda markerless membuktikan bahwa nilai rating augmentable sangat berpengaruh terhadap berhasil atau tidaknya pendeteksian objek penanda markerless yang dilakukan oleh sistem markerless augmented reality, dimana semakin tinggi nilai rating augmetable yang dimiliki suatu objek penanda maka semakin mudah pula sistem augmented reality mendeteksi dan melacak objek penanda tersebut dan sebaliknya
+dari hasil analisis terhadap pengujian kuesioner pengguna aplikasi oleh 30 responden penilaian aplikasi augmented reality museum ini berada dalam kategori sangat baik
+hal ini berdasarkan perhitungan rata-rata menggunakan skala likert dengan nilai 77, 9 yang diinterpretasikan maka dapat disimpulkan bahwa keseluruhan aplikasi dinilai sangat baik
+hasil pengujian validitas dan reliabilitas kuesioner menggunakan aplikasi spss menunjukkan bahwa dari 19 soal yang diuji pada pengguna terdapat 12 soal valid dan 7 tidak valid serta kuesioner memiliki tingkat reliabilitas tinggi dengan nilai alpha 0, 719 dan hasilnya sangat dapat dipercaya
+kesimpulan dan saran disimpulkan bahwa: software unity3d dan library vuforia sdk
+aplikasi ini dapat menghasilkan informasi dari suatu objek penanda markerless koleksi museum yang terdeteksi berupa teks dan gambar atau video informasi
+memiliki nilai rating augmentable yang baik
+daerah gelap, terang dan remangnya jelas
+aplikasi augmented reality museum ini dapat mendeteksi dan melacak objek penanda markerless jika objek penanda tersebut memenuhi syarat ideal objek penanda yaitu features objek penanda kaya, kontasnya bagus, kualitas dari objek penanda baik serta jarak antara objek penanda dengan kamera dan pencahayaan objek penanda tersebut
+adapun hal-hal yang menjadi saran sebagai bahan pertimbangan untuk pengembangan aplikasi agar menjadi lebih baik adalah sebagai berikut: 1
+menambah objek koleksi museum kalimantan barat yang dapat dideteksi oleh aplikasi augmented reality museum ini sebagai objek penanda markerless guna memberikan kemudahan pengunjung museum untuk mendapatkan informasi lebih dari suatu objek koleksi yang dideteksi
+pada aplikasi guna memaksimalkan proses pendekteksian objek penanda markerless
+sehingga penginputan data objek penanda dan informasi dari objek koleksi tersebut lebih mudah dilakukan

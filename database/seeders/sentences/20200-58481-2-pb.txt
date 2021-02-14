@@ -1,0 +1,41 @@
+sales channel atau saluran penjualan merupakan salah satu hal yang harus diperhatikan oleh perusahaan
+sales channel yang beragam memungkin perusahaan untuk memperbesar keuntungan mereka, sales channel online misalnya dengan sales channel ini perusahaan dapat memperluas lokasi pemasaran keseluruh negara-negara di dunia
+perusahaan yang memiliki sales channel yang banyak dan memproduksi barang yang biasa digunakan sehari-hari, memiliki data pelanggan yang sangat besar diberbagai belahan dunia
+prediksi jumlah penjualan produk di masing- masing negara berdasarkan sales channel yang digunkan perusahaan merupakan business intelligence yang sangat penting untuk melihat negara mana yang berpotensi memberikan pelanggan yang besar untuk penjualan produk perusahaan
+dari penelitian dengan menggunakan metode olap dan aplikasi zoho reporting, dapat membantu pihak pengambil keputusan dalam menemukan pelanggan dari negara mana yang nantinya berpotensi memberikan keuntungan besar bagi perusahaan
+banyak inovasi – inovasi yang mendasari perkembangan teknologi semakin maju
+seiring perkembangan teknologi, banyak adanya kegiatan bisnis yang bisa dilakukan dengan mudah tanpa harus memikirkan tempat, dana dan waktu
+kegiatan bisnis dengan memanfaatkan teknologi bisa saja dilakukan di dalam rumah
+oleh karena itu, semakin banyak persaingan kegiatan bisnis dengan adanya perkembangan teknologi yang semakin maju, terutama dalam penerapannya dengan teknologi informasi
+pengimplementasian teknologi dalam melakukan kegiatan bisnis
+yang memiliki kegiatan bisnis nantinya akan berpotensi besar dalam menghasilkan data yang melimpah
+data perusahaan yang melimpah menyebabkan proses pengambilan informasi menjadi lambat
+data yang melimpah akan menjadi tidak berguna apabila tidak ada pengelolaan yang baik dan juga analisa terhadap aktifitas bisnis
+dengan adanya informasi, perusahaan dapat meningkatkan kinerjanya dalam pengambilan keputusan yang akurat dengan resiko yang seminimal mungkin untuk dapat memaksimalkan keuntungan dan kemajuan perusahaan
+dengan adanya data yang sangat banyak
+pengolahan data yang akurat serta dapat nantinya memberikan informasi yang berguna bagi kegiatan bisnis perusahaan dapat dibantu dengan penerapan kecerdasan bisnis didalamnya
+kemampuan bussiness inteligence dapat membantu dalam melakukan analisis data, analisis historical data dan membantu dalam pengambilan keputusan dari informasi yang didapat dari pengolahan data
+dengan pengimplementasian business intelligence perusahaan juga dapat mengamati analisis data penjualan yang paling diminati oleh masyarakat
+sangat sedikit dari para pebisnis melakukan analisis data secara online, karena memang keamanan data sangat memberikan dampak tidak adanya keamanan data jika diolah secara online
+namun, zoho reports merupakan aplikasi business intelligence yang dapat menjaga keamanan data dengan adanya sistem database yang bisa menjadi perantara ke sistem database terpusat
+zoho reports juga mampu mengolah data dalam jumlah besar
+melalui metode online analitycal processing, zoho reports tentunya 72 penemuan informasi dan analisis data, implementasi penelitian yang digunakan oleh giat karyono terhadap aplikasi olap pmb dengan operasi roll-up, drill-down, slice, dice, pivot, dan grafik
+penelitan yang dilakukan oleh hengky saputra mengenai pembangunan data warehouse pada institusi pengkajian teknologi pertanian jawa barat, memakai metode olap dengan menggunakan operasi roll-up, drill-down, slice, dice dan pivot dan tidak menggunakan operasi grafik
+selanjutnya penelitian yang dilakukan oleh i dewa made adi baskara joni yaitu penerapan olap untuk monitoring kinerja perusahaan, memakai metode olap dengan menggunakan operasi slicing, dicing, drill-up dan drill-down, serta pivot
+kegiatan pengumpulan data dapat dilakukan dengan menagambil dari database perusahaan yang digunakan sebagai obyek penerapan bi
+data yang kami gunakan dalam analisis ini adalah data online dari perusahaan detergen xyz, data ini diolah menggunakan aplikasi zoho reports untuk dilihat pada negara mana terdapat penjualan terbesar berdasarkan masing-masing sales channel yaitu, sales channel online, sales channel direct, dan sales channel retail
+pendekatan secara cepat untuk memudahkan analisis multidimensi
+olap merupakan bagian dari business intelligence yang memiliki kaitan erat dengan relational database, reporting dan data mining
+olap memiliki beberapa operasi untuk menganalisa data multidimesi
+online analytical processing merupakan teknologi yang memungkinkan analis, manajer dan eksekutif secara bersamaan mengakses data secara cepat, konsisten dan interaktif dengan berbagai variasi tinjauan informasi dimana setiap baris data dapat ditransformasikan untuk merefleksikan dimensi perusahaan sehingga mudah dipahami oleh user”
+menyediakan fasilitas drill-down untuk memperoleh informasi yang rinci, dan roll-up untuk memperoleh agregat dalam multidimensi
+menyajikan hasil dalam angka yang mudah dimengerti, maupun penyajian grafik
+● slicing dan dicing visualisasi dari kubus
+dengan slicing dan dicing pengguna dapat melihat data dari beberapa perspektif atau dimensi
+pengguna dapat mengekstrak bagian dari data agregated dan dapat memeriksa dengan detail berdasarkan dimensi-dimensi yang diinginkan 
+● roll up dan drill down merupakan operasi untuk melihat data global atau detail disepanjang level hirarki dimensi
+roll up untuk melihat data secara global atau rangkuman 
+drill down memandu pengguna untuk memperoleh data yang lebih detail 
+business intelligence “business intelligence adalah seperangkat teori, metodologi, proses, arsitektur, dan teknologi yang mengubah data mentah menjadi informasi yang bermakna dan berguna untuk tujuan bisnis
+bi dapat menangani sejumlah besar informasi untuk membantu mengidentifikasi dan mengembangkan peluang baru
+memanfaatkan peluang baru dan menerapkan strategi yang efektif dapat memberikan keuntungan pasar kompetitif dan stabilitas jangka panjang

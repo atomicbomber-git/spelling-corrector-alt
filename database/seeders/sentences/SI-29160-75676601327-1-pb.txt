@@ -1,0 +1,142 @@
+google maps adalah salah satu layanan yang memberikan informasi akan tetapi data tidak dapat diambil langsung dan diolah oleh user karena google maps tidak bersifat open source
+penelitian ini menggunakan blitz gmap editor untuk melakukan digitasi onscreen dan onweb pada google maps sebagai peda dasar yang digunakan
+user dapat melakukan digitasi dengan menggunakan blitz gmap editor akan tetapi hasil yang didapatkan masih berupa data digitasi yang disimpan pada javascript yang belum di olah
+penelitian akan menambahkan fitur pada blitz gmap editor untuk mengolah data hasil dari blitz gmap editor agar dapat disimpan kedalam database mysql atau di ekspor ke dalam format shapefile
+data digitasi yang disimpan kedalam database mysql dapat ditarik kembali dari dan ditampilkan pada peta google maps
+data juga dapat diekspor kedalam format shapefile yang diujikan dengan dibuka kembali pada quantum gis dan menghasilkan bentuk visual yang sama dengan yang dihasilkan oleh blitz gmap editor
+titik digitasi diekspor dengan menggunakan plugin mmqgis dan diekspor sebagai wkt serta menghasilkan pembulatan yang berbeda
+mmqgis menghasilkan pembulatan dua angka pada longitude dan satu angka pada latitude sedangkan wkt menghasilkan pembulatan lima angka pada longitude dan tiga angka pada latitude
+aplikasi yang dibuat menerapkan dan mengembangkan blitz map editor untuk melakukan digitasi pada google maps pada sistem informasi geografis wilayah kumuh kota pontianak
+pendahuluan tingkat kebutuhan lahan di kawasan perkotaan semakin meningkat seiring dengan peningkatan jumlah penduduk yang berada di kota dan membutuhkan lahan untuk tempat tinggal mereka
+oleh karena itu penduduk di kota memanfaatkan lahan yang terbatas untuk dijadikan tempat permukiman
+permukiman kumuh merupakan salah satu dampak destruktif urbanisasi
+akibat densifikasi permukiman adalah menurunnya kualitas permukiman yang menimbulkan kantong-kantong permukiman padat yang tidak layak huni
+salah satu contoh teknologi informasi untuk mencari lokasi adalah dengan menggunakan google maps
+google maps adalah suatu peta dunia yang dapat kita gunakan untuk melihat suatu daerah
+google membagikan data digitasi di google maps akan tetapi data tersebut tidak dapat diambil secara langsung oleh user yang ingin diolah secara pribadi karena google maps juga tidak bersifat open source
+google juga menyediakan aplikasi untuk melakukan digitasi onscreen yang disebut google earth
+akan tetapi tidak semua device bisa menjalankan aplikasi google earth sampai ke versi terbaru
+blitz gmap editor merupakan sebuah tool yang bersifat open source
+blitz gmap editor memudahkan user untuk mendapatkan data digitasi hanya dengan user bisa terhubung dengan internet dan bisa diakses di device manapun 
+dengan blitz gmap editor user dapat mendigitasi onscreen dan onweb
+tim dapat mendigitasi dari tempat yang berbeda karena data yang didigitasi langsung diaplikasikan ke dalam web dan user dari tim lain bisa langsung dapat melihat data apa yang didigitasi oleh user lainnya
+pengembangan pada blitz gmap editor dilakukan agar dapat mengolah data yang dihasilkan dalam bentuk data yang masih disimpan dalam array pada javasript dengan dikonversi dan diekspor ke dalam format shapefile atau dapat disimpan kedalam database agar data tersebut dapat diolah lagi nantinya pada website
+literature review literature lain yang terkait sebagai pendukung penelitian ini yaitu penelitian luh gede sri handayani dengan tema sistem informasi geografis pemetaan jalan desa berbasis web
+peneliti membangun sistem informasi geografis dengan menggunakan google maps sebagai peta dan memberikan fitur untuk mendigitasi polyline pada aplikasi
+blitz gmap editor user pada blitz gmap editor dapat membuat custom map dengan menggambar atau melakukan pemetaan pada google maps yang berada pada web tanpa harus menginstall aplikasi desktop
+hasil dari blitz gmap editor berupa koordinat atau data tentang jenis digitasi, point latitude, longitude dan data atribut pemetaan yang disimpan di javascript dalam bentuk array
+hasil dari blitz gmap editor ini juga dapat diekspor menjadi json object yang mana nantinya dari json object itu yang akan diolah untuk disimpan kedalam database
+json map yang disimpan dapat dipanggil kembali untuk ditampilkan dan dapat diubah datanya
+shapefile shapefile adalah format penyimpanan vektor digital untuk penyimpanan geometris lokasi dan informasi yang terkait dengan sebuah atribut
+fitur geometri yang disimpan terdiri dari satu set dari koordinat vektor
+shapefile hanya menyimpan data primitif geometris jenis point, polyline dan polygon sehingga lebih mudah disimpan
+shapefile meyimpan nomor integer dan double
+nomor integer ditandai dengan 32-bit integer yang memiliki panjang empat bytes sedangkan nomor double ditandai dengan 64-bit yang memiliki panjang delapan bytes
+semua nama dari file harus memiliki nama yang sama
+nama dimulai dengan karakter alphanumeric kemudian dilanjutkan dengan kosong atau hingga tujuh karakter 
+shapefile didefinisikan melalui tiga buah file yaitu: 1
+main file main file atau file utama dengan format shp adalah file utama yang menyimpan bentuk geometri
+file utama berisi file header yang tetap diikuti oleh variable-length record
+panjang dari header pada file utama yaitu 100 bytes
+setiap variable-length record terdiri dari fixed-length record yang diikuti oleh isi dari variable-length record
+index file index file dengan format shx adalah file yang menyimpan index dari fitur-fitur geometri
+index file identik dalam pengorganisasiannya seperti yang di gambarkan pada main file
+index file memiliki 100- byte header dan diikuti oleh delapan byte length records
+lima puluh words 16-bit ditambah empat kali jumlah records
+total panjang file yang disimpan ke dalam index file header adalah total panjang index file dalam 16-bit words 
+panjang isi yang tersimpan pada index record sama dengan nilai yang tersimpan pada file utama record header
+offset dari record pada file utama adalah nomor dari 16-bit words dari awal main file ke awal byte dari record header untuk record
+tabel dbase tabel dbase dengan format dbf adalah file yang meyimpan atribut-atribut dari fitur-fitur geometri
+nama awalan dari file harus sama dengan shape dan index file
+tabel harus berisi satu fitur record per shape
+urutan record harus sama dengan urutan fitur dari shape pada file utama shp
+urutan record harus sama dengan urutan fitur dari shape pada file utama shp
+nilai tahun pada dbase header haruslah setelah tahun 1900
+well-known text data tabular adalah format yang sangat umum dan banyak digunakan karena kesederhanaan dan terbacanya data dapat dilihat dan diedit bahkan dalam editor teks biasa
+jenis file teks delimited yang umum adalah csv, dengan setiap kolom dipisahkan oleh koma
+file data dapat berisi informasi posisi dalam dua bentuk yaitu : 1
+sebagai titik koordinat pada kolom terpisah
+sebagai representasi geometri well-known text qgis memuat file teks yang dibatasi sebagai lapisan atau tabel ordinal file harus memenuhi persyaratan berikut : 1
+file harus memiliki baris judul kolom yang dibatasi
+ini harus menjadi baris pertama dalam teks file
+baris header harus berisi bidang – bidang dengan definisi geometri
+bidang – bidang ini bisa diberikan nama apa pun
+koordinat x dan y harus ditentukan sebagai angka
+jika data memiliki data yang bukan string dan file adalah file csv maka harus memiliki file csvt
+4 save vector layer as wkt e
+mmqgis mmqgis adalah seperangkat plugin python untuk memanipulasi layer peta vektor di quantum gis: csv input / output / join, geocoding, konversi geometri, buffering, analisis hub, penyederhanaan, modifikasi kolom, dan animasi sederhana
+mmqgis menyediakan alternatif untuk kotak alat pemrosesan, dengan pelaporan kemajuan verbose, antarmuka pengguna yang intuitif, akses file shapefile / csv langsung, dan beberapa kemampuan tambahan yang hilang dari set plugin lainnya
+mmqgis termasuk dalam repositori plugin quantum gis dan seharusnya sudah tersedia di penginstal plugin python qgis 
+file zip juga tersedia di sini untuk instalasi manual
+mmqgis mengasumsikan bahwa file shapefile input dan output dan file csv dikodekan dalam set karakter utf-8
+mmqgis menggunakan fungsi antarmuka file csv phyton standar, yang tidak menangani unicode atau pengkodean multi-byte lainnya
+sementara file yang menggunakan lebih rendah dari 7-bit dari set karakter windoze 8-bit umumnya akan baik-baik saja, hasil yang tidak dapat diprediksi dan kesalahan dapat terjadi dengan karakter non-ascii di non-utf-8 set karakter
+mmqgis adalah perangkat lunak gratis dan ditawarkan tanpa
+anda dapat mendistribusikan ulang dan / atau memodifikasinya di bawah ketentuan versi dua dari lisensi publik umum gnu seperti yang diterbitkan oleh free software foundation
+5 export geometry to csv mmqgis f
+rating scale rating scale merupakan skala penilaian yang lebih fleksibel, skala penilaian ini tidak hanya untuk mengukur sikap tetapi dapat juga digunakan untuk mengukur persepsi responden terhadap fenomena lingkungan, seperti skala untuk mengukur status sosial, ekonomi, pengetahuan, kemampuan, dan lain-lain
+ada beberapa hal yang harus dipertimbangkan, yaitu: 1
+skala dengan nilai yang lebih tinggiakan menggambarkan perbedaan penilaian rating yang lebih detail pada item jika dibandingkan dengan skala dengan penilain rendah
+hal ini dikarenakan skala 1-10 digunakan secara universal, terutama pada acara olahraga seperti pertandingan olimpiade
+analisis dan identifikasi masalah kendala yang dialami dalam menerapkan blitz gmap editor yaitu data yang dihasilkan oleh blitz gmap editor masih berupa data-data dari point latitude, point longitude, data tipe digitasi dan atribut yang disimpan dalam javascript hasil yang dihasilkan oleh blitz gmap editor masih bersifat sementara karena apabila halaman di tutup atau di refresh maka data digitasi yang tersimpan dalam javascript akan hilang
+sehingga dibutuhkan sebuah pengembangan untuk mengolah dari apa yang dihasilkan oleh blitz gmap editor tersebut agar bisa digunakan seterusnya
+spesifikasi kebutuhan spesifikasi kebutuhan dibagi menjadi dua yaitu kebutuhan pengguna secara admin dan pengguna secara pengunjung
+kebutuhan sebagai admin adalah admin dapat menggunakan aplikasi dari pengembangan blitz gmap editor dan dapat melakukan digitasi langsung pada google maps pada panel admin
+admin juga dapat menyimpan hasil digitasi kedalam database mysql dan juga dapat mengekspor hasil digitasi kedalam format shapefile
+kebutuhan sebagai pengunjung adalah pengunjung dapat membuka website untuk mendapatkan informasi tentang wilayah kumuh kota pontianak
+alur penyimpanan data ke database mysql hasil dari blitz gmap editor akan diambil dan diolah kedalam json object
+setelah itu data dalam json object akan di konversi kedalam bentuk string
+kemudian data string akan diteruskan kedalam textarea yang nantinya value dari textarea tersebut akan diambil dan disimpan kedalam database mysql
+5 alur penyimpanan data ke database mysql 2
+alur menampilkan kembali data pada google maps data pada database mysql diambil dan disimpan kedalam variable
+data yang sudah disimpan pada variable kemudian akan diolah kembali kedalam json object dan akan ditampilkan kembali pada google maps dengan menggunakan fungsi yang telah disediakan oleh blitz gmap editor
+6 alur menampilkan data ke google maps 3
+alur ekspor kedalam shapefile perancangan untuk melakukan ekspor data digitasi ke dalam shapefile yaitu hasil dari blitz gmap editor diambil dan diolah kedalam json object
+setelah itu data dalam json object akan disimpan kedalam array sesuai dengan tipe dari digitasi yang dilakukan
+setelah itu nilai tipe dari shapefile akan di definisikan sesuai dengan yang telah ditetapkan oleh esri
+langkah selanjutnya adalah membuat isi dari file shp yang berisikan kode biner dari isi yang telah ditetapkan oleh esri
+setelah itu isi dari file shp akan disimpan kedalam buffer
+setelah itu akan dibuat isi dari file shx dan dbf
+isi dari file shx dan dbf juga dalam bentuk biner yang akan disimpan pada buffer
+setelah itu semua data yang disimpan pada buffer akan ditarik kembali dan disimpan pada variable yang nantinya akan di pakai untuk di ekspor ke dalam bentuk file
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap proses yang berlangsung dalam sistem
+diagram konteks dapat dilihat pada gambar 8 berikut
+diagram overview diagram overview adalah diagram yang menjelaskan urutan-urutan proses yang terjadi pada diagram konteks
+diagram overview dapat dilihat pada gambar 9 berikut
+entity relationship diagram erd merupakan sebuah model yang menggambarkan hubungan antar entitas yang ada dalam sistem
+perancangan antarmuka antarmuka sistem dirancang dalam bentuk form-form yang memiliki fungsi tertentu sesuai dengan proses yang ada
+perancangan antaramuka yang dirancang untuk admin dapat dilihat pada gambar berikut
+10 rancangan antarmuka admin perancangan antarmuka yang dirancang untuk pengunjung dapat dilihat pada gambar berikut
+implementasi dan hasil pengujian pada bab ini akan dilakukan implementasi dan hasil pengujian terhadap aplikasi
+tahapan ini dilakukan setelah perancangan sistem selesai dan selanjutnya akan diimplementasikan kemudian dilakukan pengujian terhadap aplikasi
+impementasi hasil rancangan aplikasi memiliki kemampuan untuk melakukan digitasi pada google maps dan menyimpan data digitasi ke database mysql serta dapat melakukan ekspor ke dalam shapefile dan menampilkan data digitasi kembali dari database mysql pada google maps
+berikut ini adalah tampilan dari sistem yang telah dirancang
+12 tampilan halaman login tampilan halaman login membuat user untuk melakukan login terlebih dahulu dengan mengisi email dan password
+ketika user berhasil login maka user akan langsung diarahkan ke panel admin
+ketika user berhasil login dan masuk pada panel admin maka akan diberikan menu seperti dashboard, layer, wilayah kumuh, user dan menu tampilan seperti pada gambar berikut
+13 halaman utama panel admin ketika membuka halaman untuk pengunjung maka akan diberikan peta yang berisikan informasi dari digitasi yang telah dilakukan oleh admin dan akan diberikan menu pada sidebar seperti about, peta, layer, dan table seperti pada gambar berikut
+hasil pengujian ekspor offline pengujian ekspor offline dilakukan dengan cara melakukan ekspor data digitasi tanpa adanya koneksi internet pengujian ini dilakukan untuk melihat apakah setelah dilakukan digitasi pada peta masih bisa melakukan ekspor dalam keadaan tidak adanya koneksi internet hasil pengujian dapat dilihat pada tabel berikut
+tabel i tabel pengujian ekspor offline no aktivitas keterangan 2 ekspor data dalam keadaan offline bisa c
+pengujian hasil shapefile dengan quantum gis pengujian hasil shapefile dengan quantum gis dilakukan untuk mengukur ketepatan atau akurasi dari shapefile
+akurasi adalah derajat kedekatan pengukuran terhadap nilai sebenarnya
+pengujian dilakukan dengan membuka hasil yang di ekspor dalam shapefile yang terdiri dari tiga file yaitu file dengan format shp, shx dan dbf akan dibuka kembali dengan aplikasi quantum gis untuk dilihat apakah sesuai dengan apa yang digambar pada google maps dengan blitz gmap editor
+hasil pengujian shapefile dengan quantum gis dapat dilihat pada tabel berikut
+tabel iii tabel pengujian visual dengan quantum gis no gambar aplikasi gis gambar qgis 1 2 hasil dari ekstrak titik pada latitude dan longitude dapat dilihat pada tabel berikut
+pengujian blackbox pengujian blackbox pada perangkat lunak dilakukan untuk menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi
+pengujian blackbox pada proses penyimpanan digitasi dapat dilihat pada tabel berikut
+tabel iv tabel pengujian blackbox pada proses penyimpanan digitasi no input keterangan 1 tidak ada digitasi pada peta pemberitahuan bahwa tidak ada digitasi atau gambar pada peta akan muncul 2 input catatan kosong pemberitahuan bahwa input catatan tidak boleh kosong akan muncul 3 terdapat digitasi pada peta dan input catatan tidak kosong data digitasi berhasil disimpan pada database mysql
+pengujian rating scale hasil pengujian rating scale sebagai admin dapat dilihat pada tabel berikut
+tabel v tabel data penilaian sebagai admin no kriteria jumlah persentase 0 0 1 1 8 94% 2 kemudahan untuk membaca tulisan 0 0 1 2 7 92% 3 komposisi warna website 4 struktur menu yang disajikan 0 0 1 2 7 92% 5 konsistensi tampilan layar untuk setiap menu 0 0 0 5 5 90% 6 kelengkapan informasi yang diberikan 0 0 1 2 7 92% no kriteria jumlah persentase 0 0 2 2 6 88% 8 mudah berinteraksi dengan website 0 0 1 5 4 86% 9 kemudahan dalam menggambar pada peta 0 0 1 4 5 88% 10 kemudahan dalam mengkostumisasi gambar digitasi pada peta 0 0 2 3 5 86% 11 kemudahan untuk bekerja sebagai sebuah team 0 0 1 3 6 86% hasil pengujian rating scale sebagai pengunjung dapat dilihat pada tabel berikut
+tabel vi tabel data penilaian sebagai pengunjung no kriteria jumlah persentase 0 0 2 2 6 88% 2 kemudahan untuk membaca tulisan 0 1 1 3 5 84% 3 komposisi warna website 4 struktur menu yang disajikan 0 0 2 3 5 86% 5 kelengkapan informasi yang diberikan 0 0 2 4 4 84% 6 kemudahan untuk mendapatkan atau mencari suatu informasi 0 0 3 3 4 82% 7 mudah berinteraksi dengan website 0 0 3 3 4 82% f
+analisis hasil pengujian berikut adalah analisis hasil perancangan dan pengujian dari pengembangan blitz gmap editor pada sistem informasi geografis wilayah kumih kota pontianak
+pengujian ekspor offline memberikan hasil aplikasi tetap bisa menggambar dan melakukan ekspor ke file shapefile dalam keadaan koneksi terputus
+menggambar dan ekspor bisa dilakukan karena aplikasi blitz gmap editor dan kode untuk melakukan ekspor kedalam shapefile berupa kode yang dibuat dalam javascript kode yang dibuat pada javascript akan disimpan sementara pada browser apabila web atau aplikasi telah dibuka sampai browser dibuka kembali
+pengujian terhadap visual didapat hasil bahwa tampilan yang didapatkan setelah shapefile dibuka ke dalam quantum gis memiliki kemiripan dengan gambar digitasi yang digambar dengan blitz gmap editor pada aplikasi yang dibuat
+penilaian dari sisi pengunjung mendapatkan nilai tertinggi pada kriteria pertama yaitu kriteria tampilan website yang disajikan dengan nilai 88% dan nilai terendah pada kriteria keenam dan ketujuh yaitu kriteria kemudahan untuk mendapatkan atau mencari suatu informasi dan mudah berinteraksi dengan website dengan nilai 82%.penilaian dari sisi pengolah data mendapatkan nilai tertinggi pada kriteria pertama yaitu kriteria tampilan website yang disajikan dengan nilai 94% dan nilai terendah pada kriteria kedelapan, kesepuluh dan kesebelas yaitu mudah berinteraksi dengan website, kemudahan dalam menggambar pada peta dan kemudahan untuk bekerja sebagai sebuah team dengan nilai 86%
+kesimpulan berdasarkan analisis dan pengujian terhadap pengembangan blitz gmap editor pada sistem informasi geografis wilayah kumuh kota pontianak, dapat disimpulkan bahwa: 1
+aplikasi yang dibuat dapat melakukan ekspor ke format file shapefile dan dapat menyimpan data digitasi kedalam database mysql
+aplikasi yang dibuat diterapkan pada sistem informasi geografs wilayah kumuh kota pontianak
+berdasarkan pengujian ekspor offline didapatkan bahwa aplikasi masih bisa berjalan walau dalam keadaan koneksi terputus atau offline
+hasil analisis file shapefile yang didapatkan dari aplikasi dengan membukanya kembali pada quantum gis didapatkan tampilan digitasi pada peta dengan bentuk serupa
+titik digitasi berupa latitude dan longitude di ekspor dari quantum gis dengan plugin mmqgis dan format wkt menghasilkan data yang sama dengan data yang dihasilkan blitz gmap editor akan tetapi terjadi pembulatan angka yang berbeda
+penilaian dari sisi pengunjung mendapatkan nilai tertinggi pada kriteria pertama yaitu kriteria tampilan website yang disajikan dengan nilai 88% dan nilai terendah pada kriteria keenam dan ketujuh yaitu kriteria kemudahan untuk mendapatkan atau mencari suatu informasi dan mudah berinteraksi dengan website dengan nilai 82%.penilaian dari sisi pengolah data mendapatkan nilai tertinggi pada kriteria pertama yaitu kriteria tampilan website yang disajikan dengan nilai 94% dan nilai terendah pada kriteria kedelapan, kesepuluh dan kesebelas yaitu mudah berinteraksi dengan website, kemudahan dalam menggambar pada peta dan kemudahan untuk bekerja sebagai sebuah team dengan nilai 86%

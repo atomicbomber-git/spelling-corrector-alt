@@ -1,0 +1,44 @@
+kalimantan barat yang kaya akan sejarah dan budaya nya, seperti musik, pakaian adat khas melayu serta cerita rakyatnya yaitu asal usul terbentuknya kota pontianak
+penyampaian cerita rakyat tersebut saat ini masih disampaikan dengan menggunakan buku cerita yang sudah sulit dicari
+metode penyampaian ini juga mengakibatkan masyarakat kesulitan untuk mengetahui cerita rakyat asal usul kota pontianak
+pada penelitian ini dibuat aplikasi berbasis game rpg yang dibangun menggunakan rpg maker vx ace, ceritanya berdasarkan cerita rakyat asal usul kota pontianak yang dimana pemain akan memainkan peran seorang tokoh syarif abdurrahman untuk menjalankan sebuah storyline yang telah ditentukan
+game ini menambahkan unsur- unsur kebudayaan kota pontianak seperti musik khas melayu dan menjadi sebuah alternatif baru untuk masyarakat yang ingin mengetahui sejarah kota pontianak
+berdasarkan hasil pengujian, tombol kontrol pada aplikasi ini sudah berjalan dengan baik dan lancar sesuai yang diharapkan
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 1614 yang berarti aplikasi ini diimplementasikan dengan sangat baik
+maker vx ace yang kaya akan sejarah dan budaya, seperti musik, pakaian adat khas melayu serta cerita rakyat asal usul terbentuknya kota pontianak
+penyampaian cerita rakyat asal usul kota pontianak saat ini disampaikan dengan menggunakan buku cerita yang sudah sulit dicari
+metode penyampaian ini juga mengakibatkan masyarakat kesulitan untuk mengetahui cerita rakyat asal usul kota pontianak
+komunikasi yang sangat pesat membawa dampak besar bagi perkembangan teknologi terkait
+berbagai macam disiplin ilmu turut berkembang pesat seiring dengan berkembangnya teknologi informasi dan komunikasi, salah satunya adalah video game
+pada saat ini sudah banyak video game dengan tema cerita berupa sejarah, seperti dynasty warrior yang mengambil cerita tentang perang di negeri china setelah runtuhnya dinasti han pada tahun 208-280 masehi, dan stronghold crusader yang mengambil cerita sejarah tentang perang salib
+alur cerita dengan unsur edukasi dan kebudayaan didalamnya dapat menghasilkan game yang membawa pemain seolah-olah menjadi bagian dari game tersebut
+berdasarkan permasalahan yang diuraikan maka dibutuhkan sebuah media interaktif berbasis video game yang menjadi alternatif lain untuk masyarakat yang ingin mengetahui tentang cerita rakyat asal usul kota pontianak
+game ini akan mengangkat cerita berdasarkan buku cerita rakyat karangan rio j purbaya yaitu asal usul kota pontianak yang bercerita tentang perjuangan sultan syarif abdurrahman alkadrie dalam menemukan kota pontianak
+game yang akan dibuat adalah game ber-genre rpg berbasis 2 dimensi dimana pemainnya akan memainkan peran seorang tokoh syarif abdurrahman untuk menjalankan sebuah cerita berdasarkan storyline yang telah dibuat
+cerita rakyat jenis cerita tradisional yang mencoba untuk menjelaskan atau memahami dunia dan warisan local suatu daerah
+cerita seperti itu secara lisan diwariskan dari generasi ke generasi yang mengandung pesan moral atau pelajaran
+cerita-cerita tersebut biasanya berlangsung lama di tempat yang jauh dan biasanya memiliki cirri atau bercerita tentang hewan yang dapat berbicara, royalti, petani, atau makhluk mitos
+sebuah permainan adalah sebuah sistem dimana pemain terlibat dalam konflik buatan, disini pemain berinteraksi dengan sistem dan konflik dalam permainan merupakan rekayasa atau buatan
+dalam permainan terdapat peraturan yang bertujuan untuk membatasi perilaku pemain dan menentukan permainan
+teori permainan adalah suatu cara belajar yang digunakan dalam menganalisa interaksi antara sejumlah pemain maupun perorangan yang menunjukkan strategi-strategi yang rasional teori permainan pertama kali ditemukan oleh sekelompok ahli matematika pada tahun 1944
+sketsa dibuat berbentuk persegi panjang yang menggambarkan suatu urutan elemen-elemen yang diusulkan untuk aplikasi multimedia
+storyboard visualisasi ide dari aplikasi yang akan dibangun, sehingga dapat memberi gambaran dari aplikasi yang akan dihasilkan
+rancang bangun game sejarah asal usul kota pontianak menggunakan rpg maker muhammad zulfikar#1, rudy dwi nyoto#2, helen sasty pratiwi#3 #program studi teknik informatika universitas tanjungpura jl
+perancangan sistem gambar 1, menu : merupakan tampilan awal dan tampilan utama dari game rpg ini
+pada menu awal ini terdapat pilihan menu permainan baru, lanjutkan, dan keluar game
+permainan baru : pada menu ini user akan memulai game rpg ini dari awal cerita
+lanjutkan : pada menu ini user dapat melanjutkan proggres yang sudah dilakukan pada game rpg ini yang telah di save sebelumnya
+keluar game : pada menu ini user dapat keluar dari game b
+pengujian aplikasi black box, dan kuesioner terhadap 30 responden
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 7
+tampilan menu utama gambar 3 merupakan tampilan dari menu utama game
+tampilan pembukaan game gambar 4 merupakan tampilan pembukaan game
+tampilan scene 1 gambar 5 merupakan tampilan scene 1 dalam game
+tampilan scene 2 gambar 6 merupakan tampilan dari scene 2 dalam game
+tampilan scene 3 gambar 7 merupakan tampilan scene 3 dalam game
+hasil pengujian dilakukan dengan cara memberi seperangkat pertanyaan atau pernyataan tertulis kepada responden untuk dijawab
+berikut adalah total skor dari kuesioner yang telah dibagikan kepada 30 responden
+analisis hasil pengujian usul kota pontianak yang telah dilakukan adalah sebagai berikut: 1
+tombol kontrol pada gameplay seperti tombol untuk menggerakkan karakter, tombol untuk membuka menu karakter, dan tombol untuk berinteraksi dengan objek berfungsi sesuai dengan yang diharapkan
+dari hasil kuesioner, responden hanya memberikan nilai baik pada aspek story karena cerita pada game dinilai terlalu singkat
+dapat disimpulkan bahwa game sejarah asal usul kota pontianak berhasil dirancang dan dibangun dengan baik berdasarkan hasil kuesioner menggunakan skala likert’s summated rating dan dapat menjadi alternatif baru untuk masyarakat yang ingin mengetahui sejarah kota pontianak,

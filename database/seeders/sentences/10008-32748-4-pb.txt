@@ -1,0 +1,84 @@
+konsumsi listrik indonesia terus meningkat setiap tahunnya
+seiring dengan peningkatan konsumsi listrik, efisiensi dalam penggunaan listrik menjadi sangat krusial salah satu tolok ukur efisiensi listrik adalah intensitas energi
+untuk menurunkan intensitas energi diperlukan adanya konservasi energi melalui manajemen energi dan penggunaan teknologi hemat energi
+contoh di mana konservasi energi belum dilakukan pada bangunan publik adalah dengan membiarkan barang elektronik tetap menyala walau sedang tidak dipergunakan, contohnya lampu
+oleh karena itu, perlu dirancang suatu sistem untuk mematikan lampu secara otomatis di luar jam operasional dan tidak ada aktivitas pada bangunan publik
+sistem ini menggunakan kecerdasan buatan yang menggunakan metode forward chaining dengan sensor passive infrared receiver untuk mendeteksi keberadaan manusia dengan dijembatani oleh raspberry pi untuk menghubungkan ke relay sebagai saklar untuk lampu
+sistem akan memutuskan kapan saat yang tepat untuk menyalakan dan memadamkan lampu, bergantung pada kehadiran manusia di setiap ruangan dan jam operasional dari bangunan
+dengan adanya sistem ini, diharapkan dapat menghasilkan penghematan energi yang cukup signifikan
+pendahuluan kebutuhan industri, baik sebagai bahan baku maupun bahan bakar, rumah tangga, transportasi, dan sebagai komoditas ekspor
+salah satu pengunaan energi yang tidak bisa lepas dari kehidupan sehari-hari adalah energi listrik
+berdasarkan proyeksi kebutuhan listrik indonesia yang dibuat oleh muchlis dan permana, konsumsi listrik indonesia terus meningkat setiap tahunnya
+peningkatan konsumsi listrik hendaknya diiringi dengan peningkatan produksi listrik
+pada 2010, realisasi penjualan listrik pln pada tahun 2010 adalah 147, 3 twh dengan rasio elektrifikasi indonesia baru mencapai sekitar 66, 51%
+menurut definisi yang diberikan oleh pbb, departemen ekonomi dan sosial seperti dikutip dari santosa dkk, “intensitas energi menunjukkan jumlah energi yang digunakan untuk memproduksi satu unit output ekonomi, biasanya dinyatakan dalam rasio energi yang digunakan dengan produk domestik bruto 
+” pemerintah sudah mengeluarkan kebijakan energi nasional dengan salah satu targetnya yaitu menurunkan intensitas energi minimal 1% per tahun
+untuk mencapai target tersebut, perlu adanya konservasi energi
+untuk itu, pemerintah telah mengeluarkan kebijakan-kebijakan untuk mengatasi peraturan pemerintah no 70 tahun 2009 tentang konservasi energi
+pelaksanaan konservasi energi harus dilakukan oleh seluruh lapisan masyarakat yang dapat dilakukan melalui manajemen energi dan penggunaan teknologi hemat energi
+penghematan energi sangat dipengaruhi oleh kesadaran manusia
+contoh pemborosan terbesar di bangunan publik adalah membiarkan alat-alat elektronik tetap menyala walaupun sedang tidak digunakan, misalnya lampu
+oleh karena itu, diperlukan suatu sistem untuk memadamkan lampu secara otomatis yang dapat diaplikasikan pada bangunan publik misalnya pertokoan, pasar swalayan, dan gudang
+dengan adanya sistem yang mengatur pemadaman lampu ketika gedung tersebut di luar jam operasional dan tidak ada aktivitas, diharapkan dapat menghasilkan penghematan listrik yang signifikan
+pengendali lampu ruangan secara otomatis menggunakan pc berbasis mikrokontroler arduino uno oleh iyuditya dan dayanti
+hartoyo dan panjaitan juga mengembangkan sistem otomasi untuk pencahayaan ruangan berbasis kendali fuzzy logic
+uraian penelitian sensor passive infrared receiver merupakan sensor pasif, dimana sensor tersebut tidak memancarkan energi apapun dalam mendeteksi sesuatu
+pir bekerja dengan mendeteksi radiasi inframerah yang dipancarkan oleh objek di sekitarnya, misalnya tubuh manusia
+di dalam pir terdapat bagian-bagian dengan fungsi yang berbeda-beda, yaitu fresnel lens, ir filter, pyroelectric sensor, amplifier, dan comparator
+untuk lebih jelasnya dapat dilihat pada gambar 1
+radiasi inframerah yang sudah disaring ini kemudian ditangkap oleh pyroelectric sensor, sebuah sensor yang terbuat dari campuran galium nitrida, caesium nitrat, dan polivinil florida 
+pyroelectric sensor ini akan menghasilkan arus listrik ketika mendapat radiasi inframerah
+kredit dengan harga cukup murah yang mampu melakukan berbagai hal seperti personal computer, misalnya menjelajah internet, memutar video, memproses dokumen, bahkan bermain game
+raspberry pi dikembangkan oleh the raspberry pi foundation, sebuah organisasi yang berfokus pada pengembangan pendidikan untuk segala umur, terutama di bidang ilmu komputer
+salah satu produk raspberry pi yaitu raspberry pi 2 model b yang mulai dipasarkan pada februari 2015 untuk menggantikan model lamanya, raspberry pi 1 model b+
+harga dari raspberry pi 2 model b ini us$35, cukup terjangkau dibandingkan dengan membeli sebuah pc untuk komputasi sederhana
+terlebih lagi, ukurannya yang kecil dan konsumsi daya listriknya yang sangat rendah menjadikannya sangat cocok untuk berbagai keperluan
+untuk lebih jelasnya, dapat dilihat spesifikasi raspberry pi 2 model b pada tabel 1
+spesifikasi detail ram 1 gb storage micro sd card sebuah micro sd card dengan sistem operasi terinstal di dalamnya
+ada beberapa pilihan os untuk raspberry pi, misalnya raspbian, pidora, openelec, raspbmc, atau risc os
+semua sistem operasi tersebut berbasis linux
+untuk pengguna pemula, raspberry pi foundation menyarankan untuk menggunakan new out of the box software dalam melakukan instalasi os yang di dalamnya terdapat pilihan sistem operasi yang bisa dipasang
+selain itu, diperlukan pula monitor, keyboard, dan mouse untuk membantu dalam pengoperasian raspberry pi
+kecerdasan buatan dari penggunaan komputer untuk menjalankan mekanisme komputasi untuk aktivitas-aktivitas yang dianggap membutuhkan kecerdasan seperti yang dilakukan manusia
+dalam kecerdasan buatan, intelligent agent merupakan suatu bagian yang dapat mengamati lingkungannya melalui sensor dan bertindak terhadap lingkungan tersebut melalui aktuator 
+konsep intelligent agent ini merupakan pengembangan dari software agent, bagian dari sebuah software yang dapat melakukan tugas-tugas sesuai dengan yang diprogram
+intelligence agent merupakan software agent yang memiliki sehingga dapat menyelesaikan masalah dengan berpikir layaknya manusia, seperti yang dinyatakan oleh russel and norvig
+setiap intelligent agent memiliki inference engine yang bertugas untuk menalar persoalan dengan mengolah dan menganalisa data sesuai dengan knowledge base yang ada
+secara umum, inference engine dapat bekerja dalam dua metode, yaitu sebagai berikut
+forward chaining dengan mengolah data yang ada dan menggunakan aturan- aturan penalaran untuk mendapatkan data selanjutnya hingga tujuan tercapai
+inference engine yang menggunakan forward chaining akan mencari aturan penalaran dalam knowledge base hingga ditemukan bahwa data tersebut bernilai true
+ketika aturan tersebut ditemukan, inference engine dapat menarik kesimpulan atau melakukan pencarian berikutnya sesuai dengan informasi yang baru didapatkan
+digunakan untuk menarik kesimpulan dari data yang didapat
+backward chaining chaining dimulai dengan tujuan yang ingin dicapai, kemudian bergerak mundur dalam mencari apakah ada data yang dapat memenuhi tujuan tersebut
+inference engine yang menggunakan backward chaining akan mencari kesimpulan aturan dalam knowledge base sampai menemukan kesimpulan aturan yang sesuai dengan tujuan yang ingin dicapai
+backward chaining merupakan contoh dari penalaran yang diarahkan tujuan 
+metode ini berguna dalam menjawab masalah-masalah spesifik
+cara kerja dan perancangan sistem a
+cara kerja sistem gambar 2 arsitektur sistem otomasi lampu dengan metode forward chaining apabila manusia berjalan melewati sensor passive infrared receiver, sensor tersebut akan menangkap sinar inframerah pasif yang dipancarkan tubuh manusia yang berbeda dengan suhu lingkungan sekitarnya
+sensor pir kemudian mengirimkan sinyal keberadaan manusia ke raspberry pi 2 model b yang berperan sebagai pusat kontrol
+sensor pir akan mengeluarkan tegangan yang lebih tinggi ketika mendeteksi kehadiran manusia
+raspberry pi menangkap perubahan tegangan itu dari pin general purpose input output 
+agar dapat diproses oleh raspberry pi, dibutuhkan suatu library untuk menangkap perubahan tegangan pada gpio dan diproses oleh program yang akan dibuat
+menggunakan metode forward chaining akan memproses data berdasarkan knowledge base
+data yang diproses yaitu deteksi gerakan manusia yang diterima melalui sensor pir dan input dari user berupa jam operasional gedung
+jam operasional gedung diatur oleh user melalui menu pada antarmuka program
+program akan mengolah data dan menggunakan aturan dari knowledge base untuk menarik kesimpulan
+setelah kesimpulan didapat, program tersebut akan mengirimkan sinyal ke relay untuk menyalakan atau memadamkan lampu di ruangan
+program akan mengirimkan sinyal ke relay untuk menyalakan lampu
+sebaliknya, untuk mematikan lampu, program akan mengirimkan sinyal 
+display digunakan untuk menampilkan antarmuka program yang terdiri dari menu untuk mengatur jam operasional gedung, menampilkan kondisi status nyala dan padamnya lampu di ruangan-ruangan beserta informasi keberadaan manusia di ruangan-ruangan tersebut
+micro sd card, menghubungkan tampilan melalui analog ataupun hdmi, menghubungkan mouse dan keyboard, dan menghubungkan kabel daya pada colokannya masing-masing, seperti terlihat pada gambar 3
+setelah menyalakan raspberry pi, akan ditampilkan pilihan sistem operasi yang dapat diinstal semua jenis sistem operasi dapat digunakan, namun untuk kemudahan dalam implementasi program nantinya, pilih sistem operasi raspbian
+2) menghubungkan sensor pir ke raspberry pi sensor pir akan memberikan respon berupa tegangan ketika mendeteksi keberadaan manusia
+ketika tidak ada orang, keluaran digital akan tetap rendah, namun ketika ada orang, keluaran digital akan meninggi
+pemasangan sensor pir ke raspberry pi dilakukan dengan menghubungkan kabel male to female jumper dengan ketiga pin di sensor pir ke pin gpio raspberry pi
+setelah menghubungkan sensor ke pi, dibuat suatu script dalam bahasa python untuk menangkap kapan sensor pir mendeteksi kehadiran manusia
+3) menghubungkan lampu-lampu ke raspberry pi agar dapat dikontrol, lampu-lampu dalam bangunan harus dihubungkan ke relay yang kemudian diatur melalu raspberry pi
+relay ini digunakan karena port gpio raspberry pi hanya dapat mengeluarkan sekitar 3v tegangan, sementara lampu- lampu butuh tegangan yang jauh lebih tinggi
+4) membuat program kendali lampu secara otomatis dengan backward chaining menampilkan antarmuka dan menerima input dari user
+pada awal setup sistem, program akan meminta user untuk mengatur jam operasional dari gedung untuk disimpan sebagai knowledge base
+antarmuka berisi pengaturan jam operasional dan informasi lampu-lampu di bangunan
+ketika ada kehadiran manusia di ruang tertentu, program akan mengirimkian sinyal ke relay untuk menyalakan lampu di ruangan
+begitu pula apabila sudah tidak ada orang di ruangan tersebut, program akan mengirim sinyal ke relay untuk memadamkan lampu di ruangan
+kesimpulan dengan sensor passive infrared receiver, mengolah data keberadaan manusia dengan metode forward chaining berdasarkan knowledge base untuk mendapatkan keputusan, mengirimkan perintah untuk menyalakan atau memadamkan lampu ke relay
+dengan diimplementasikannya sistem ini, diharapkan dapat membantu meningkatkan efisiensi dalam penggunaan listrik

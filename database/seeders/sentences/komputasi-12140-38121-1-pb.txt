@@ -1,0 +1,128 @@
+kulit merupakan organ pada tubuh manusia yang memiliki luas paling besar dan terletak paling luar yang berperan penting bagi manusia dan menjadi aset utama dan prioritas bagi kaum wanita
+saat ini, kaum wanita sering menggunakan produk perawatan kulit wajah namun tidak didasari dengan pengetahuan dan pemahaman tentang jenis kulit yang dimiliki dan produk perawatan yang sesuai
+hal itu mengakibatkan banyak kasus kesalahan dalam pemilihan produk perawatan kulit wajah yang akhirnya merugikan kaum wanita itu sendiri
+oleh karena itu, pengetahuan analisa kulit wajah sangat diperlukan untuk menentukan jenis kulit serta produk perawatan yang sesuai dengan jenis kulit tersebut
+s istem pakar merupakan sistem yang mengadopsi pengetahuan dari seorang pakar dan dapat berperan layaknya pakar dalam menangani proses konsultasi
+dengan demikian, sistem pakar dapat menjadi salah satu solusi dalam menentukan jenis kulit wajah berdasarkan ciri kulit yang dialami
+penelitian ini bertujuan untuk menghasilkan sebuah sistem pakar penentuan jenis kulit wajah wanita dengan menerapkan metode naïve bayes
+metode naïve bayes digunakan sebagai metode perhitungan dikarenakan metode naïve bayes dapat memperkirakan parameter yang diperlukan untuk klasifikasi dalam menentukan jenis kulit wajah apa yang dimiliki
+hasil keluaran dari sistem ini adalah jenis kulit yang dimiliki dan rekomendasi produk perawatan kulit wajah
+berdasarkan pengujian dengan 10 data uji terhadap 30 data latih didapat bahwa sistem yang dihasilkan dapat menentukan jenis kulit wajah dengan tingkat keakuratan sebesar 100% dan dapat ditarik kesimpulan bahwa sistem memiliki kriteria sangat valid
+pendahuluan luas paling besar dan terletak paling luar yang berperan penting bagi manusia
+kulit yang membalut seluruh tubuh berfungsi sebagai pelindung dari benturan, pengatur suhu tubuh, sekresi dan merupakan anggota tubuh yang memiliki rasa sensitif, karena kulit merupakan salah satu organ peraba
+keadaan kulit seseorang sangat bervariasi dari waktu ke waktu tergantung pada kesehatan dari orang tersebut dan faktor yang mempengaruhinya, termasuk suasana tempat kerja atau keadaan dirumah, kondisi asupan makanan, gaya hidup dan keseimbangan hormonal wanita saat ini menjadi suatu kebutuhan khusus dan menjadi barang penting
+saat ini, banyak jenis produk perawatan kulit yang ditawarkan, baik dengan harga yang mahal bahkan sangat murah
+selain itu, terdapat beberapa kandungan produk dari produk perawatan tersebut tidak terjamin keamanan dalam pemakaiannya
+hal ini diperparah dengan kurangnya pengetahuan kaum wanita terhadap produk perawatan tersebut
+menunjukkan bahwa beberapa dari mahasiswi yang menggunakan kosmetika hanya sedikit yang melakukan perawatan kulit wajah, dikarenakan mahasiswi tidak memiliki pengetahuan yang cukup tentang jenis-jenis kosmetika perawatan kulit
+selain itu, mahasiswi tidak memahami tentang pentingnya analisa kulit serta menggunakan kosmetik yang tidak sesuai dengan jenis kulitnya dan lebih memilih kosmetik yang sama dengan temannya, meskipun memiliki jenis kulit yang berbeda
+berdasarkan kriteria tersebut, maka diperlukan analisa kulit wajah yang bertujuan untuk menentukan jenis kulit, serta kelainan atau masalah kulit yang dialami seseorang
+setelah mengetahui jenis kulit wajah yang dimiliki, maka perlakuan yang tepat dapat diberikan dan tingkat kesalahan dalam memilih kosmetik dapat diminimalisir untuk mendapatkan kulit yang cantik dan sehat, terutama kulit wajah
+sementara itu, beriringan dengan pesatnya perkembangan teknologi saat ini telah mendukung adanya sistem cerdas yang dapat membantu dalam melakukan analisis kebutuhan manusia
+salah satunya yaitu kebutuhan akan pengetahuan jenis kulit wajah yang dimiliki seseorang
+hal ini tentunya akan sangat membantu bagi para wanita yang ingin mengetahui jenis kulit wajahnya
+ditambah lagi teknologi ini dapat menghemat biaya yang harus dikeluarkan untuk proses konsultasi serta dapat meningkatkan efisiensi waktu dan tenaga
+naïve bayes merupakan pengklasifikasi probabilitas sederhana dari teorema bayes dengan membagi ke kelas-kelas
+hasil klasifikasi yang dipilih berdasarkan nilai terbesar dari nilai masing-masing class
+sistem pakar ini diharapkan dapat memudahkan pengguna dalam melakukan konsultasi ke seorang pakar tanpa harus konsultasi ke pakar yang bersangkutan secara langsung tubuh manusia yang luasnya paling besar dan memiliki peran sistem pakar penentuan jenis kulit wajah wanita menggunakan metode naïve bayes regina suci wahyuningtyas1, tursina2, helen sasty pratiwi3
+program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 e-mail: 1tyasgina24@gmail.com, 2tursina15@yahoo.com, 3helensastypratiwi@gmail.com yang sangat penting oleh karena itu selayaknya kulit senantiasa dijaga dan dipelihara kesehatannya
+bukan hanya kulit wajah atau bagian yang terbuka, melainkan kulit diseluruh tubuh harus dijaga
+memahami struktur dan fungsi kulit dapat menjadi langkah awal dalam keseluruhan rangkaian upaya untuk merawat dan menjaga kesehatan kulit
+tergantung dengan kondisi lingkungan dan keturunan
+oleh karena itu, kegiatan perawatan kulit akan disesuaikan dengan jenis kulit tersebut
+karena jenis kulit yang berbeda juga tentunya memiliki perawatan yang berbeda juga
+penggunaan produk kulit yang tidak tepat dengan penggolongan jenis kulit akan menyebabkan kerusakan pada kulit
+kelenjar minyak pada kulit normal biasanya tidak terlalu menjadi masalah, karena minyak yang dikeluarkan seimbang, tidak berlebihan ataupun kekurangan
+karena jumlah sebum yang terbatas, maka kulit kering sering mengalami kekurangan sebum dan kelembaban berkurang dengan cepat
+oleh kelenjar sebaceous sangat aktif pada saat pubertas, ketika distimulasi oleh hormon pria yaitu androgen
+kombinasi jenis kulit seperti kulit kering dan kulit berminyak
+bagian yang berminyak umumnya terdapat pada daerah dagu, hidung dan dahi, yang diketahui sebagai t-zone atau daerah t
+untuk mencapai tingkat kinerja yang tinggi pada area yang sempit
+secara umum, sistem pakar adalah sistem yang berusaha mengadopsi pengetahuan manusia ke komputer, agar komputer dapat menyelesaikan masalah seperti yang biasa dilakukan oleh para ahli
+seorang pakar yang dimaksud disini adalah seseorang yang memiliki keahlian dalam bidang tertentu, yang memiliki pengetahuan atau kemampuan khusus yang dapat menyelesaikan masalah yang tidak dapat diselesaikan orang awam
+sistem pakar mencoba mencari solusi yang memuaskan sebagaimana yang dilakukan oleh seorang pakar dan dapat memberikan penjelasan terhadap langkah yang diambil serta memberikan alasan atas kesimpulan yang diambil
+naïve bayes sederhana berdasarkan pada teorema bayes
+teorema bayes dikombinasikan dengan yang berarti setiap atribut/variabel bersifat bebas 
+naïve bayes dapat dilatih dengan efisien dalam pembelajaran terawasi 
+keuntungan dari klasifikasi adalah bahwa ia hanya membutuhkan sejumlah kecil data pelatihan untuk memperkirakan parameter yang diperlukan untuk klasifikasi
+karena variabel independen diasumsikan, hanya variasi dari variabel untuk masing-masing kelas harus ditentukan, bukan seluruh matriks kovarians
+atau tidaknya suatu fitur pada suatu kelas tidak berhubungan dengan ada atau tidaknya fitur lain di kelas yang sama
+pada saat klasifikasi, pendekatan bayes akan menghasilkan label kategori yang paling tinggi probabilitasnya dengan masukan atribut a1, a2, a3, …an
+perhitungan naïve bayes yang digunakan: 𝑃 = 𝑛𝑐 + 𝑚
+𝑝 𝑛 + 𝑚 dimana : nc = record pada data learning yang v = vj dan a = ai p = 1/ banyaknya jenis class atau penyakit m = jumlah parameter / gejala n = record pada data learning yang v = vj / tiap class persamaan 1 akan diselesaikan melalui perhitungan sebagai berikut : 2
+menghitung nilai 𝑃 dan menghitung nilai p 3
+menentukan hasil klasifikasi yaitu v yang memiliki hasil perkalian yang terbesar
+perancangan sistem terhubung yang menggambarkan sifat dasar dari sebuah sistem
+arsitektur sistem akan mendefinisikan komponen komponen yang lebih spesifik secara terstruktur dengan tujuan agar struktur yang dirancang dapat menjawab kebutuhan saat ini dan nanti
+pengguna antarmuka mesin inferensi basis pengetahuan akuisisi pengetahuan pakar gambar 1 arsitektur sistem pakar penentuan jenis kulit wajah wanita adapun alur proses yang terjadi adalah pakar memberikan pengetahuannya ke dalam sistem melalui proses akuisisi pengetahuan yang kemudian akan disimpan ke dalam basis pengetahuan
+masukan yang dimasukkan oleh pengguna akan diolah oleh mesin inferensi berdasarkan pada basis pengetahuan yang telah dimasukkan oleh pakar
+proses penalaran tersebut akan ditampilkan kepada pengguna melalui fasilitas penjelas
+diagram overview sistem merupakan pemecahan dari diagram konteks
+diagram overview memberikan pandangan secara menyeluruh mengenai sistem yang ditangani, menunjukkan tentang fungsi-fungsi utama atau proses yang ada, aliran data, dan eksternal entity
+pada level ini sudah dimungkinkan digambarkannya data store yang digunakan
+1.0 login 2.0 manajemen 3.0 konsultasi 4.0 pendaftaran admin pengguna pengguna username, password pengguna informasi ciri kulit, produk informasi hasil konsultasi data pengguna baru informasi pengguna baru data pengguna baru diagram hubungan antar tabel adalah hubungan yang terjadi pada suatu tabel dengan tabel lainnya, yang berfungsi untuk mengatur operasi suatu basis data
+pada sistem pakar penentuan jenis kulit wajah wanita terdapat 6 buah tabel
+ciri kulit pk id_cirikulit nama quest_cirikulit hasil konsultasi pk id_haskon pk id_produk iv
+antarmuka halaman utama admin dan pengguna antarmuka halaman utama pengguna merupakan halaman pertama yang muncul saat pengguna mengakses web
+antarmuka halaman utama pengguna beris i menu-menu yang dapat diakses oleh pengguna dan informasi singkat mengenai aplikasi sistem pakar penentuan jenis kulit wajah wanita
+terdapat 5 menu utama yakni beranda, informasi yang berisi informasi tentang perawatan kulit wajah dan panduan penggunaan aplikasi, login yang berguna untuk pengguna yang sudah terdaftar untuk melakukan proses konsultasi, registrasi yang berguna untuk pengguna yang ingin mendaftar dan kontak yang berisi informasi pembuat aplikasi
+antarmuka halaman utama pengguna dapat dilihat pada gambar 4
+gambar 4 antarmuka halaman utama pengguna gambar 5 antarmuka halaman utama admin 2
+antarmuka halaman login admin dan pengguna proses login diperlukan untuk mengarahkan pengguna dalam mengakses hak akses sebagai member
+pengguna dapat masuk sebagai member dengan mengisikan username dan password yang telah didaftarkan sebelumnya
+antarmuka halaman login pengguna dapat dilihat pada gambar 6
+antarmuka halaman login pengguna dapat dilihat pada gambar 7
+antarmuka halaman konsultasi halaman ini berupa form yang berisi pertanyaan-pertanyaan tentang ciri kulit pada jenis kulit tertentu, pengguna dapat memilih ciri kulit sesuai dengan yang dialami
+setelah menjawab keseluruhan pertanyaan, sistem akan mengeluarkan hasil berupa jenis kulit yang dimiliki dan rekomendasi produk yang sesuai dengan jenis kulit tersebut
+antarmuka form konsultasi dapat dilihat pada gambar 8
+gambar 8 antarmuka halaman pertanyaan ciri kulit gambar 9 antarmuka halaman hasil konsultasi 4
+antarmuka halaman riwayat konsultasi halaman ini berisi riwayat data-data hasil konsultasi yang pernah dilakukan oleh pengguna
+antarmuka halaman riwayat konsultasi dapat dilihat pada gambar 10
+gambar 10 antarmuka halaman riwayat konsultasi b
+pengujian validitas kuesioner pearson 
+kuesioner dinilai valid jika rhitung atau nilai korelasi lebih besar dari nilai rtabel
+hasil pengujian validitas kuesioner dapat dilihat pada tabel 1 berikut
+pengujian reliabilitas kuesioner alpha conbach menghasilkan nilai koefisien sebesar 0, 761
+sesuai kriteria, nilai ini sudah lebih besar dari 0, 600, maka hasil data kuesioner memiliki tingkat reliabilitas yang baik 
+pengujian yang digunakan yaitu user acceptance test melalui kuesioner yang dibagikan ke 100 orang responden berjenis kelamin wanita di kota pontianak
+jumlah pertanyaan adalah sebanyak 15 buah yang terbagi atas 3 aspek yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas, dan aspek komunikasi visual untuk menghitung pengujian uat digunakan metode likert’s summarated rating
+aspek rekayasa perangkat lunak hasil pengujian dari aspek rekayasa perangkat lunak dapat ditunjukkan pada tabel 2 berikut
+hasil pengujian aspek rekayasa perangkat lunak pada tabel tersebut dapat diketahui informasi bahwa sebagian besar responden menilai aplikasi baik dengan jumlah tanggapan baik 307 dan memiliki persentase 61, 4%
+pada aspek rekayasa perangkat lunak ada 1 tanggapan sangat buruk dengan persentase 0, 2%
+responden yang memilih sangat buruk, kemungkinan menurut responden masih ada yang kurang dari segi kemudahan penggunaan aplikasi
+aspek fungsionalitas ditunjukkan pada tabel 3 berikut
+hasil pengujian aspek fungsionalitas berdasarkan hasil kuesioner pada aspek fungsionalitas tersebut dapat diketahui informasi bahwa sebagian besar responden menanggapi aplikasi baik dengan total tanggapan 302 dengan persentase 60, 4%
+pada aspek fungsionalitas ada 1 tanggapan sangat buruk dengan persentase 0, 2%
+responden yang memilih sangat buruk, kemungkinan menurut responden pertanyaan tentang ciri kulit sulit dipahami
+aspek komunikasi visual ditunjukkan pada tabel 4 berikut
+hasil pengujian aspek komunikasi visual berdasarkan hasil kuesioner pada aspek komunikasi visual tersebut dapat diketahui informasi bahwa sebagian besar responden menanggapi aplikasi baik dengan total tanggapan 303 dengan persentase 60, 6%
+hal ini menunjukkan bahwa rata-rata responden menilai aspek komunikasi visual sistem secara keseluruhan sudah baik
+perbandingan antara hasil diagnosa pakar terhadap 10 data testing dan hasil diagnosa data training dengan data testing
+hasil perbandingan tersebut dirangkum dalam tabel 5 berikut
+hasil pengujian validitas aplikasi pada tabel 4.12 dapat diketahui informasi antara lain : 1
+jumlah data training sebanyak 30 buah dan data testing sebanyak 10 buah
+hasil diagnosa 30 data training yang sesuai dengan diagnosa pakar terhadap 10 data testing berjumlah 10 buah kasus
+hasil diagnosa 20 data training yang sesuai dengan diagnosa pakar terhadap 10 data testing berjumlah 9 buah kasus
+hasil diagnosa 10 data training yang sesuai dengan diagnosa pakar terhadap 10 data testing berjumlah 9 buah kasus
+hasil diagnosa 20 data training dan 10 data training yang tidak sesuai dengan diagnosa pakar terhadap 10 data testing masing-masing berjumlah 1 buah kasus
+berdasarkan hasil pengujian validitas aplikasi, maka nilai keakuratan masing-masing dapat dihitung dengan persamaan 3.1 sebagai berikut : nilai keakuratan = jumlah yang sesuai jumlah kasus × 100% 2
+20 dan 10 data training dengan 10 data testing nilai keakuratan = jumlah yang sesuai jumlah kasus × 100% hasil perhitungan tersebut dapat dirangkum dalam tabel 6 berikut
+analisis hasil pengujian berikut ini adalah analisis hasil perancangan dan pengujian sistem pakar penentuan jenis kulit wajah wanita : 1
+pengguna hanya dapat mengakses sistem untuk konsultasi setelah mendaftarkan diri menjadi member
+hasil pengujian black box menunjukkan saat dilakukan input data dengan keseluruhan data kosong atau salah satu data kosong akan menimbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan sudah ditangani pada kode program, sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+hasil pengujian validitas sistem menunjukkan dari 10 data testing yang dibandingkan dengan 30 data training terdapat 10 kasus yang sesuai dengan hasil diagnosa pakar terhadap data testing
+sedangkan 20 data dan 10 data training terdapat 9 kasus sesuai dan 1 kasus yang tidak sesuai
+dengan demikian, didapatkan nilai akurasi sistem pakar sebesar 100% dan 90%, berdasarkan kriteria validitas pada tabel 3.15 dapat ditarik kesimpulan bahwa sistem memiliki kriteria sangat valid
+hasil pengujian tersebut membuktikan bahwa semakin banyak data training yang digunakan maka tingkat akurasi sistem dapat semakin tinggi
+hasil pengujian validitas kuesioner menunjukkan bahwa semua pertanyaan dalam kuesioner adalah valid untuk digunakan dalam pengumpulan data
+hasilnya dapat dipercaya dengan nilai sebesar 0, 761
+hasil pengujian kuesioner terhadap tiga aspek yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas, dan aspek komunikasi visual didapat bahwa pengguna menilai aplikasi dengan tanggapan baik
+metode likerts summarated rating menunjukkan bahwa hasil penelitian berada di antara skor 6000 – 7500 yaitu 6030, yang artinya responden menilai aplikasi sangat positif dan dinilai berhasil
+metode naive bayes dapat disimpulkan bahwa : 1
+sistem dapat memberikan hasil diagnosa jenis kulit berdasarkan penerapan metode naïve bayes dan aturan- aturan yang direpresentasikan pakar
+sistem dapat menampilkan rekomendasi produk sesuai jenis kulit yang dimiliki pengguna
+berdasarkan pengujian terhadap 10 data testing terhadap 30 data training didapat akurasi sistem sebesar 100%, sedangkan terhadap 20 data training dan 10 data training sebesar 90%, sehingga sistem dinilai sangat valid
+pengujian validitas dalam penerapan metode naïve bayes pada sistem pakar lebih tepat dilakukan dengan membandingkan data testing dengan data training
+berdasarkan pengujian user acceptance test, didapat bahwa pengguna menilai aplikasi sangat positif dan berhasil

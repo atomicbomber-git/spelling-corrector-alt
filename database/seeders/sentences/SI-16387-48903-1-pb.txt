@@ -1,0 +1,17 @@
+pada prosesnya dibimbing oleh dua orang dosen pembimbing
+dalam prakteknya, aktifitas bimbingan tugas akhir ini dilakukan dengan diskusi, tanya jawab, pemberian masukan dan aktifitas lainnya
+program studi teknik informatika menerapkan tiga tahapan dalam penyusunan tugas akhir yaitu seminar proposal, seminar hasil dan sidang terbuka
+ketiga tahapan ini melalui proses bimbingan yang intensif dengan kedua dosen pembimbing
+kendala yang dihadapi dalam proses bimbingan yaitu seringkali mahasiswa dan dosen pembimbing tidak dapat bertemu dikarenakan tidak adanya kecocokan waktu antara kedua belah pihak maupun ketidaktahuan mahasiswa tentang jadwal dosen pembimbing
+tujuan penelitian ini adalah menghasilkan sebuah aplikasi sistem informasi geografis persebaran lapangan futsal di kota pontianak yang dapat membantu masyarakat dalam mencari informasi mengenai futsal dan persebarannya yang ada di kota pontianak
+alat perancangan dalam penelitian ini menggunakan data flow diagram dan entity relationship diagram
+pengujian penelitian menggunakan metode black box dan metode kuisioner yang kemudian dihitung menggunakan metode lsr
+penelitian ini menghasilkan sebuah aplikasi sistem informasi geografis persebaran futsal di kota pontianak
+pendahuluan tahun ke tahun sangat pesat, terutama di bidang informatika
+dengan berkembangnya teknologi dan dengan itu meningkat pula kebutuhan manusia akan teknologi yang dapat mempermudah dalam mengakses informasi
+pesat yaitu teknologi internet dengan memanfaatkan teknologi internet, informasi dapat diakses dimanapun dan kapanpun sehingga dapat meminimalisir kendala pada tempat dan waktu
+perkembangan teknologi internet ini dapat dimanfaatkan oleh masyarakat untuk mendapatkan informasi lapangan futsal yang ada di kota pontianak
+kebutuhan informasi futsal saat ini sangat diperlukan untuk masyarakat yang ingin bermain futsal informasi seperti jadwal, lokasi detail, alamat dan nomer telepon sangat diperlukan dalam mencari informasi berkaitan dengan futsal dengan tidak adanya informasi yang detail masyarakat mengalami kesulitan mendapatkan informasi futsal dan juga tidak ada media internet yang menyediakan informasi mengenai persebaran futsal khususnya di kota pontianak
+saat ini masyarakat mendapatkan informasi futsal hanya dengan mendatangi alamat futsal yang terkait dan dengan menghubungi nomer kontak futsal meliputi persebaran lapangan futsal di kota pontianak
+informasi yang ditampilkan berupa informasi jadwal, lokasi detail, alamat, nomer telepon dan juga menampilkan pencarian lapangan terdekat berdasarkan titik awal dimana pengguna berada dengan memanfaatkan metode location based service 
+mengorganisasi perangkat keras, perangkat lunak, dan data, serta dapat mendayagunakan sistem penyimpanan, pengolahan maupun analisis data secara simultan, sehingga dapat diperoleh informasi yang berkaitan dengan aspek keruangan

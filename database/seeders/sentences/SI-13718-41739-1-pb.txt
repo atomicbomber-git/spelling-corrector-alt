@@ -1,0 +1,81 @@
+program studi teknik informatika merupakan salah satu prodi di jurusan teknik elektro fakultas teknik universitas tanjungpura yang mendapat akses jaringan internet dari pusat komunikasi universitas tanjungpura
+jaringan internet yang diimplementasikan di prodi teknik informatika ini, sebagian besar sudah dimanajemen dengan baik, seperti manajemen bandwidth, manajemen user, dan kontrol sistem
+namun remote akses dan control belum ke jaringan teknik informatika belum bias diakses melalui jaringan publik, misalnya untuk asisten laboratoriun untuk melakukan remote saat tidak berada dikampus
+demi mengatasi masalah tersebut, diperlukan virtual private network dengan router cisco 2901 untuk memberikan solusi melalui protokol pptp
+berdasarkan penelitian yang telah dilakukan, dapat disimpulkan sebagai berikut : fleksibilitas jaringan vpn yang dibangun diuji dengan 5 macam provider internet yakni tri, xl, indosat, telkomsel dan indihome
+hasil yang didapat bahwa 5 macam provider tersebut client vpn dapat terkoneksi ke jaringan vpn router
+ pengukuran quality of service vpn dengan menggunakan 3 parameter yakni packet loss, round trip dan transfer file didapat nilai rata- rata packet loss dari kelima macam provider sebesar 11%
+hasil untuk parameter round trip didapat nilai rata-rata waktu tempuh diantara kelima macam provider yakni 180.4ms dengan min.waktu atau waktu tercepat yang ditempuh yakni 46ms dan max.waktu atau waktu terlama yang ditempuh yakni 1659ms
+hasil untuk parameter transfer file kecepatan rata-rata dari kelima macam provider sebesar 344.4kbps dengan waktu transfer tercepat yakni 889milidetik dan terlama 1 menit 32 detik 743 milidetik
+ keamanan tunnel yang diukur menujukkan hasil yang baik yakni dengan terenkapsulasinya data melalui protokol pptp serta koneksi ppp ketika terhubung ke vpn
+pendahuluan satu prodi di jurusan teknik elektro fakultas teknik universitas tanjungpura yang mendapat akses jaringan internet dari pusat komunikasi universitas tanjungpura
+topologi yang digunakan pada prodi teknik informatika adalah topology tree yang berfungsi untuk menghubungkan antara komputer satu dengan komputer yang lainnya sehingga terhubung secara terpusat pada sebuah perangkat keras switch
+jaringan internet yang diimplementasikan di prodi teknik informatika ini, sebagian besar sudah dimanajemen dengan baik, seperti manajemen bandwidth, manajemen user, dan kontrol sistem
+namun untuk remote akses dan kontrol ke jaringan teknik informatika dari luar belum memiliki akses tersebut, misalnya untuk asisten laboratoriun untuk melakukan remote saat tidak berada dikampus
+untuk menjawab masalah diatas virtual private network dapat memberikan solusi untuk terhubungnya jaringan teknik informatika ke jaringan luar
+vpn adalah sebuah teknologi komunikasi yang memungkinkan untuk dapat terkoneksi ke jaringan publik untuk dapat bergabung dengan jaringan lokal dengan cara tersebut maka akan didapat hak dan pengaturan yang sama, walaupun sebenarnya menggunakan jaringan publik dan tidak terhubung langsung pada sebuah jaringan lokal pada prodi teknik informatika terdapat router cisco yang dapat digunakan sebagai media untuk membangun sebuah akses vpn
+dengan router cisco informasi dapat diteruskan ke alamat-alamat yang berjauhan dan berada dijaringan komputer yang berlainan
+untuk dapat meneruskan paket data dari suatu lan ke lan lainnya
+cisco router menggunakan tabel dan protokol routing yang berfungsi untuk mengatur lalu lintas data
+paket data yang tiba dirouter diperiksa dan diteruskan ke alamat yang dituju
+agar paket data yang diterima dapat sampai ke tujuannya dengan cepat, router harus memproses data tersebut dengan sangat tepat
+oleh karena itu prodi teknik informatika dapat menerapkan akses vpn berbasis router cisco untuk membuka akses keluar
+salah satu protocol yang dapat digunakan yakni protocol pptp 
+pptp merupakan tunneling protokol jaringan yang memungkinkan transfer data dari remote client ke server pribadi dengan membuat vpn melalui tcp/ip
+pptp dapat memberikan solusi kemanan yang baik dengan cara membentuk tunnel pada jaringan public yang menghubungkan client dengan jaringan teknik informatika
+sehingga dengan implementasi vpn tersebut teknik informatika akan tersedia jaringan vpn berbasis router cisco dengan protokol pptp
+perancangan dan implementasi teknik informatika untan) 2, m
+uraian penelitian mengirimkan paket data melalui sebuah jaringan atau internet menuju tujuannya, melalui sebuah proses yang dikenal sebagai routing
+router berfungsi sebagai penghubung antar dua atau lebih jaringan untuk meneruskan data dari satu jaringan ke jaringan lainnya
+router disebut sebagai peralatan jaringan yang meneruskan suatu paket data/informasi dan memilih rute terbaik untuk ditempuh untuk menyimpulkan
+virtual private network menggunakan jaringan publik misalnya internet vpn dapat mengirim data antara dua komputer yang melewati jaringan publik sehingga seolah-olah terhubung secara point to point sehingga data melewati jaringanpublik dan dapat mencapai akhir tujuan
+dengan cara tersebut maka akan didapatkan hak dan pengaturan yang sama seperti halnya berada didalam lan itu sendiri, walaupun sebenarnya menggunakan jaringan milik publik
+qos merupakan kualitas atau jaminan terhadapa layanan yang diberikan kepada pengguna jaringan
+jaminan yang diberikan diantaranya adalah faktor kegagalan system, keamanan jaringan dan stabilitas jaringan
+sehingga dengan adanya jaminan yang diberikan pengguna akan merasa nyaman dengan layanan yang digunakan
+fleksibilitas fleksibilitas vpn yakni mencoba koneksi vpn dengan berbagai koneksi atau provider internet dan menggunakan beberapa macam sistem operasi
+dari hasil uji berkesimpulan semakin berkembangnya internet semakin mudahnya untuk mengakses vpn sehingga setiap user dapat tergabung dalam vpn yang telah dibangun tanpa terbatas jarak dan waktu
+keamanan jaringan apabila komputer yang terhubung dengan jaringan yang lebih banyak mempunyai ancaman keamanan dari pada komputer yang tidak terhubung ke mana – mana
+namun dengan adanya pengendalian maka resiko yang tidak diinginkan dapat dikurangi
+adanya keamanan jaringan maka para pemakai berharap bahwa pesan yang dikirim dapat sampai dengan baik ke tempat yang dituju tanpa mengalami adanya kecacatan yang diterima oleh si penerima, misalnya saja adanya perubahan pesan
+biasanya jaringan yang aksesnya semakin mudah, maka keamanan jaringannya semakin rawan, namun apabila keamanan jaringan semakin baik maka pengaksesan jaringan juga semakin tidak nyaman
+perancangan sistem pada tahap ini dilakukan pengembangan arsitektur jaringan yang telah ada pada jaringan teknik informatika untuk menambahkan sebuah router cisco sebagai router vpn server
+pengembangan arsitektur jaringan yang akan diterapkan pada jaringan prodi teknik informatika dijelaskan pada gambar 1
+konfigurasi yang dilakukan antara lain konfigurasi ip address, konfigurasi dns server, dynamic routing, konfigurasi network address translation, konfigurasi dynamic host client protocol, konfigurasi virtual private dial network, konfigurasi vpdn group, pemilihan protocol, konfigurasi virtual tempalate, konfigurasi ip pool, konfigurasi authentication, konfigurasi username password client
+ini dilakukan dengan cara membuat koneksi vpn berbasis pptp dengan menggunakan layanan provider tersebut
+lalu akan diuji dengan melakukan ping test pada koneksi tersebut
+pengujian ini dilakukan untuk membuktikan apakah suatu vpn berbasis pptp dapat diakses dengan berbagai macam provider internet menyampaikan berbagai jenis beban data didalam suatu komunikasi
+performansi qos vpn merupakan kumpulan dari beberapa parameter besaran teknis, yaitu packet loss, round trip dan transfer file
+kemanan dalam hal ini keamanan sebuah vpn akan diuji dengan menggunakan wireshark
+bertujuan untuk menguji pengkapsulan koneksi vpn pptp antara client dengan server
+implementasi dan pengujian dengan meletakkan posisi router cisco sebagai server virtual private network yang terhubung ke routerboard utama melalui port 10 yang memiliki internet protocol public 203.24.50.141 sebagai ip masuk dan 255.255.255.248 sebagai netmask pada router cisco
+implementasi vpn konfigurasi vpn dilakukan untuk menjadikan router cisco sebagai vpn server
+konfigurasi ini meliputi virtual private dial netwok, protocol tunneling, virtual template vpn, ip pool, authentication serta username dan password untuk login sebagai vpn client
+pengujian melakukan koneksi ke vpn server dari berbagai 5 macam provider internet tabel 1 berdasarkan data analisa konektivitas dari tabel 1 dapat dilihat bahwa vpn yang dikoneksikan dari 5 macam provider yakni tri, indosat, xl, telkomsel dan indihome berhasil terkoneksi ke vpn server
+pengujian performa vpn pengujian performa vpn dilakukan dengan melakukan ping test dengan menggunakan tools command promp dan melakukan remote dengan mencopy file yang ada pada client lokal ke client vpn
+packet loss pengamatan dilakukan dengan menganalisa jumlah paket yang dikirim dan diterima
+pengamatan dilakukan pada masing-masing provider dan melakukan ping test ke ip client dengan jumlah paket yang sama yakni 20 paket ping, dengan hasil pengamatan sebagai berikut
+tabel 2 paket terkirim paket diterima lost rata-rata 11 pengamatan dari tabel 2 yang dilakukan pada kelima macam provider ketika terkoneksi menjadi vpn client dan melakukan ping test 4, provider yakni indosat, xl, telkomsel dan indihome memiliki nilai packet loss 0% berarti paket yang dikirim dan diterima masih dalam kondisi utuh yang berarti tidak ada paket yang hilang selama terjadinya proses test koneksi ke jaringan lokal berbeda halnya ketika melakukan ping test melalui provider tri data yang dikirim sebanyak 20 paket dan yang berhasil diterima hanya 9 paket dengan nilai packet loss 55% yang berarti banyak packet yang hilang ketika melakukan test koneksi ke jaringan lokal rata-rata packet loss dari kelima provider tersebut sebesar 11%
+hasil pengamatan dapat dilihat pada tabel 3 berikut
+tabel 3 tabel pengamatan round trip no min
+rata-rata 180.4 lima macam provider dengan mengamati waktu tempuh pulang pergi paket dari client vpn ke jaringan lokal provider indihome memiliki waktu tersingkat dengan min.waktu 46ms dan max.waktu 53ms dengan rata-rata 48ms waktu yang diperlukan untuk melakukan koneksi ping test round trip
+telkomsel dengan posisi kedua dengan min.waktu 77ms dan max.waktu 159ms dengan rata-rata 104ms waktu yang dibutuhkan untuk melakukan koneksi ping test round trip
+xl berada posisi ketiga dengan min.waktu 108 dan max.waktu 635 dengan rata-rata 159ms waktu yang dibutuhkan untuk melakukan koneksi ping test round trip
+indosat berada pada posisi keempat dengan min.waktu 132ms dan max.waktu 276ms dengan rata-rata 177ms waktu yang dibutuhkan untuk melakukan koneksi ping test round trip
+provider tri berada pada posisi terakhir dengan min.waktu 74ms dan max.waktu 1659 dengan rata-rata waktu 414ms waktu yang dibutuhkan untuk melakukan koneksi ping test round trip
+total rata-rata waktu round trip diantara kelima macam provider tersebut sebesar 180.4ms dengan min.waktu yang ditempuh sebesar 46ms dan max.waktu yang ditempuh sebesar 1659ms
+transfer file pengamatan dilakukan dengan cara mencopy file yang sama yakni sebesar 1mb dari client lokal ke client vpn yang dilakukan pada masing-masing provider internet hasil yang diamati berupa transmisi waktu dan rata-rata kecepatan yang dalam melakukan transfer file
+berikut tabel hasil pengamatan tabel 4 tabel pengamatan transfer file no provider waktu transisi kecepatan rata - rata rata - rata 344.4 atau download file sebesar 1mb dari jaringan lokal ke vpn client, indihome memiliki waktu tercepat 889milidetik dengan kecepatan transfer 1228kbps diikuti oleh xl dalam waktu 3 detik 495 milidetik dengan kecepatan transfer 318kbps, tri dalam waktu 3detik 495milidetik dengan kecepatan transfer 125kbps, indosat dalam waktu 28detik 470milidetik dengan kecepatan transfer 39kbps dan telkomsel dengan waktu terlama 1menit 32detik 743milidetik dengan kecepatan transfer 12kbps
+total kecepatan rata-rata dari kelima macam provider sebesar 344.4kbps
+keamanan berdasarkan dari hasil pengamatan serta pengujian terhadap keamanan jaringan pada vpn router cisco 2901 teknik informatika, maka diperoleh hasil pengujian kemanan jaringan vpn sebagai berikut
+pada gambar 3 terlihat bahwa protocol yang digunakan icmp, arp dan gre terenkapsulasi dengan baik melalui ppp
+analisis hasil pengujian berdasarkan hasil pengujian fleksibilitas pada jaringan vpn prodi teknik informatika yang diuji pada 5 provider penyedia layanan internet, jaringan vpn yang dibangun berhasil terkoneksi dengan router vpn sehingga membuat jaringan vpn ini teruji fleksibel dari segi koneksi tanpa terbatas ruang dan waktu
+berdasarkan hasil pengujian yang dilakukan pada jaringan vpn prodi teknik informatika dengan parameter qos packet loss, round trip dan transfer file didapat nilai rata- rata packet loss dari kelima macam provider sebesar 11%
+hasil untuk parameter round trip didapat nilai rata-rata waktu tempuh diantara kelima macam provider yakni 180.4ms dengan min.waktu atau waktu tercepat yang ditempuh yakni 46ms dan max.waktu atau waktu terlama yang ditempuh yakni 1659ms
+hasil untuk parameter transfer file kecepatan rata- rata dari kelima macam provider sebesar 344.4kbps dengan waktu transfer tercepat yakni 889ms dan terlama 1 menit 32 detik 743 milidetik
+pengujian keamanan yang dilakukan dengan tool wireshark dan cmd dapat menghasilkan proses enkapsulasi seperti yang diharapkan yakni ppp serta melalui protokol pptp
+hal ini menandakan koneksi vpn yang dibangun berhasil mencapai target untuk keamanan enkapsulasi ppp pada protokol gre
+kesimpulan/ringkasan setelah dilakukan pengujian pada vpn router cisco 2901 dengan protocol pptp dengan mengukur fleksibilitas, quality of service dan keamanan pada prodi teknik informatika
+berdasarkan pengujian terhadap fleksibilitas koneksi, vpn router cisco 2901 dengan protocol pptp dapat terkoneksi ke vpn server dengan lima macam provider jaringan, yakni tri, xl, indosat, telkomsel dan indihome
+berdasarkan pengujian terhadap qos dengan empat parameter pengukuran yakni throughtput, delay, packet loss dan jitter pada jaringan vpn router cisco 2901 dengan protocol pptp mendapatkan kesimpulan nilai index ketika jam ramai 2.5 dan sepi 2.75 yang termasuk dalam kategori antara bagus dan sedang
+berdasarkan pengujian keamanan pada vpn router cisco 2901 dengan protokol pptp diperoleh bahwa koneksi jaringan melalui protokol pptp ketika client terkoneksi dengan vpn

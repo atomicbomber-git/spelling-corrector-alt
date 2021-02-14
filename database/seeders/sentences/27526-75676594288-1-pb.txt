@@ -1,0 +1,115 @@
+sistem analisis sentimen merupakan sistem yang digunakan untuk melakukan proses analisis otomatis pada ulasan produk online bahasa indonesia untuk memperoleh informasi meliputi informasi sentimen yang merupakan bagian dari ulasan online
+data tersebut diklasifikasikan menggunakan naive bayes
+sistem analisis sentimen dibagi menjadi 5 tahap, yaitu crawling, pre-processing, pembobotan kata, pembentukan model dan klasifikasi sentimen
+pada pembobotan kata digunakan metode tf-idf 
+data yang ada akan diklasifikasikan ke dalam 5 kelas, yaitu sangat negatif, negatif, netral, positif dan sangat positif
+data tersebut kemudian akan dievaluasi menggunakan pengujian confusion matrix dengan parameter akurasi, recall, dan precision
+hasil pengujian menunjukkan pada pengujian 3 kelas hasil terbaik didapatkan pada 90% data latih dan 10% data uji dengan nilai akurasi 77.78%, recall 93.33% dan precision 77.78% dan pada pengujian 5 kelas hasil terbaik didapatkan pada 90% data latih dan 10% data uji dengan nilai akurasi 59.33 %, recall 58.33 % dan precision 59.33 %
+hasil prediksi kelas data uji yang relevan dibandingkan antara kelas sentimen yang ditandai supervisor dan kelas sentimen yang dihasilkan oleh sistem analisis sentimen walaupun belum sepenuhnya akurat
+pendahuluan pada zaman modern ini, sentimen atau opini masyarakat semakin bertambah luas dan bebas diungkapkan di berbagai media
+sentimen dapat menjadi potensi besar bagi perusahaan yang ingin mengetahui umpan balik dari masyarakat terhadap merk dagang mereka
+merk telah dianggap sebagai salah satu asset tidak berwujud yang paling berharga dan manajemen merk adalah prioritas penting bagi pihak manajemen perusahaan atau organisasi
+jumlah pengguna aktif dalam komunikasi online memiliki jumlah data yang sangat banyak sehingga memunculkan data besar 
+munculnya teknologi big data yang merupakan himpunan data dalam jumlah yang sangat besar, rumit, dan tidak terstruktur menjadi salah satu sumber daya besar yang dapat diolah untuk memperoleh hasil sentimen yang lebih akurat
+jumlah review dan opini sangat banyak sehingga akan menyulitkan dan memakan waktu untuk membaca secara keseluruhan
+oleh karena itu dapat dirancang sistem yang secara otomatis akan mengelompokkan opini dan review yang ada sesuai kelasnya
+kelas sentimen dibagi menjadi kelas sangat positif, positif, netral, negatif, dan sangat negatif sehingga pengguna dapat membaca memilih ingin membaca opini sesuai yang diinginkan
+sistem analisis sentimen yang dibangun menggunakan algoritma klasifikasi naive bayes
+ciri utama dari algoritma naive bayes adalah asumsi yang sangat kuat akan independensi dari masing-masing kondisi atau kejadian
+kelebihan dari naive bayes adalah proses klasifikasi data dapat disesuaikan dengan sifat dan kebutuhan masing-masing
+dengan adanya sistem analisis sentimen ini diharapkan dapat membantu perusahaan mengetahui umpan balik terhadap merk dagangnya dan masyarakat dalam menilai sebuah produk berdasarkan opini dan review yang ada
+penelitian kristiyanti, pengkajian ulang tentang review produk kosmetik dengan cara pengklasifikasian review tersebut ke dalam class positif dan negatif
+teknik klasifikasi yang digunakan untuk klasifikasi data adalah support vector machine dengan penggabungan metode pemilihan fitur particle swarm optimization agar bisa meningkatkan akurasi
+evaluasi pengukuran sebelum dan sesudah penambahan metode pemilihan fitur dilakukan menggunakan 10 fold cross validation
+sedangkan pengukuran akurasi diukur dengan confusion matrix dan kurva roc
+hasil penelitian menunjukkan peningkatan akurasi support vector machine dari 89.00 % menjadi 97.00 %
+sipayung, maharani dan zefanyamembuat sistem analisis sentimen menggunakan metode naive bayes classifier 
+komentar dibagi berdasarkan sentimen positif dan negatif, sehingga dapat dievaluasi kepuasan pelanggan terhadap produk dan jasa yang disediakan secara terkomputerisasi dan spesifik
+hasil pengolahan terhadap 175 data latih disimpulkan bahwa hasil klasifikasi sentimen yang didapat adalah sentimen positif sebanyak 155 komentar dan sentimen negatif sebanyak 20 komentar
+kategori sentimen positif terbesar adalah kategori kamar sebesar 73 komentar dan kategori dengan sentimen negatif terbesar adalah kategori kamar sebesar 17 komentar
+tingkat akurasi dalam penentuan kategori adalah sebesar 77.14% dan 75.42% dalam penentuan sentimen memiliki tingkat precision 99.12% dan recall 72.9%
+1 diagram alir penelitian budimenyatakan ada beberapa algoritma yang di gunakan untuk penggalian dokumen untuk analisis sentimen, salah satunya adalah k-means
+didalam penelitian ini algoritma yang digunakan adalah k-means dengan pembobotan kata tf-idf
+dengan tujuan untuk mengetahui kinerja algoritma k-means tanpa seleksi fitur dan menggunakan seleksi fitur information gain
+hasil penelitian menunjukkan bahwa akurasi k-means dengan dataset digunakan 300 positif dan 300 negatif akurasinya 57.83%, 700 dokumen positif dan 700 negatif akurasinya 56.71%%, 1000 dokumen positif dan 1000 negatif akurasinya 50.40%%
+dari hasil pengujian disimpulkan bahwa semakin besar dataset yang digunakan semakin rendah akurasi k-means
+metode penelitian sentimen adalah pendapat atau pandangan yang didasarkan pada perasaan yang berlebih-lebihan terhadap sesuatu 
+sentimen terdapat pada pernyataan atau kalimat yang memiliki pendapat
+sentimen digunakan untuk mengetahui perasaan yang diberikan terhadap topik atau objek
+data pre-processing adalah teknik data mining yang melibatkan transformasi data mentah menjadi format yang mudah dimengerti
+langkah data pre-precossing diperlukan untuk menyelesaikan beberapa jenis masalah termasuk noisy data, data redundansi, nilai data yang hilang, dll
+adapun langkah-langkah data pre-proccesing adalah tokenisasi, case folding, stemming, filtering, dan labelling
+tokenisasi tokenisasi merupakan proses pemisahan suatu rangkaian karakter berdasarkan karakter spasi, dan mungkin pada waktu yang bersamaan dilakukan juga proses penghapusan karakter tertentu, seperti tanda baca
+case folding case folding merupakan proses mengubah semua huruf dalam suatu dokumen atau kalimat menjadi huruf kecil
+case folding digunakan untuk mempermudah pencarian
+tidak semua data konsisten dalam penggunaan huruf kapital 3
+stemming kata-kata yang sudah diubah menjadi huruf kecil perlu dilakukan pengecekan
+stemming digunakan untuk menyeragamkan kata sehingga mengurangi daftar kata yang ada pada data latih
+filtering filtering / eliminasi stopwords memiliki banyak keuntungan, yaitu akan mengurangi space pada tabel term index hingga 40% atau lebih
+proses stopword removal merupakan proses penghapusan term yang tidak memiliki arti atau tidak relevan
+labelling labelling berasal dari kata label
+label berarti karakter atau himpunan karakter yang digunakan untuk mengidentifikasi suatu variabel atau bagian dari data atau berkas
+labelling / proses pemberian label ada 2, yaitu pemberian label kepada token dengan kata penguat dan kata negasi 
+pembobotan kata adalah proses pemberian bobot untuk setiap kata yang terdapat dalam sebuah dokumen
+dalam pencarian informasi peringkat berdasarkan frekuensi kata, salah satu metode yang paling populer adalah metode tf- idf 
+dalam metode tf-idf, term frequency lebih berfokus pada istilah yang sering muncul dalam suatu dokumen sedangkan inverse document frequency lebih berfokus pada pemberian bobot rendah untuk istilah yang muncul dalam banyak dokumen
+manusia melakukan klasifikasi secara manual pada data yang digunakan dalam pelatihan
+klasifikasi naive bayes merupakan klasifikasi yang bersifat supervised learning karena memiliki supervisor selaku pengajar dalam proses belajar atau learning
+sangat negatif, negatif, netral, positif dan sangat positif 
+pada penelitian ini pengujian digunakan dengan menggunakan 5 kelas dan 3 kelas 
+diagram alir penelitian dilakukan dengan tahap-tahap studi literatur, pengumpulan data, perancangan sistem, pembuatan dan implementasi sistem, pengujian sistem, analisis hasil pengujian, dan penarikan kesimpulan seperti pada gambar 1
+pengumpulan data dilakukan untuk memperoleh data- data yang berhubungan dengan sistem yang akan dibuat seperti data opini dan review yang berasal dari female daily 
+opini dan review yang diambil sebanyak 300 data latih per kelas dengan total 1500 data latih
+perancangan sistem dilakukan dengan menggunakan uml dengan tahapan antara lain, perancangan use case diagram, perancangan sequence diagram, perancangan class diagram dan perancangan activity diagram
+kemudian dilanjutkan dengan perancangan struktur antarmuka sistem dan perancangan layout serta antarmuka sistem
+pembuatan dan implementasi sistem dilakukan berdasar kepada desain dan perancangan aplikasi yang telah dilakukan pada tahapan sebelumnya
+pada tahapan ini, sistem akan dibuat berbasis website html dan php
+pengujian sistem dilakukan untuk mengetahui apakah sistem yang telah dibuat dapat menganalisis sentimen yang diambil oleh crawler yang kemudian dilakukan pre- processing dan pembobotan kata menggunakan metode tf-idf dan mengkategorikannya kedalam kelas-kelas menggunakan metode naive bayes
+dalam hal ini dilakukan pengujian dengan metode blackbox, confusion matrix, perhitungan akurasi, precision dan recall
+analisis hasil pengujian dilakukan analisis terhadap sistem secara keseluruhan untuk memudahkan dalam melakukan penarikan kesimpulan
+kesimpulan dirumuskan berdasarkan analisis hasil pengujian sistem yang telah dilakukan
+gambaran umum sistem sistem yang dibangun adalah sistem yang dapat digunakan untuk menganalisis sentimen pada ulasan produk dan berjenis coarsed-grained sentiment analysis, dikarenakan sebuah review / ulasan dapat dinilai apabila dibaca secara kesuluruhan
+sistem bekerja dengan melakukan crawling review pada website e-commerce yang nantinya akan diproses pada sistem
+adapun pengguna dari sistem ini dibagi menjadi admin dan pengunjung website.seperti pada gambar 2
+2 arsitektur sistem workflow sistem analisis sentimen dibagi menjadi 2 bagian yaitu koleksi data latih dan koleksi data uji, sebelum dapat dilakukan klasifikasi sentiment dapat dilihat pada gambar 3
+use case diagram use case diagram menggambarkan fungsionalitas yang diharapkan dari sebuah sistem
+sebuah use case mereprensentasikan interaksi antara aktor dengan sistem
+berikut merupakan use case diagram yang telah dirancang pada gambar berikut
+use case diagram digambarkan seperti pada gambar 4
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+class diagram digambarkan seperti pada gambar 5
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+sequence diagram digambarkan seperti pada gambar 6
+6 sequence diagram menggambarkan workflow atau aktivitas dari sebuah sistem atau proses bisnis
+activity diagram digambarkan seperti pada gambar 7
+peracangan antarmuka perancangan antarmuka sistem analisis sentimen ini memiliki beberapa layout yang disesuaikan dengan use case diagram yang telah dirancang
+struktur antar muka sistem yang dibangun dapat dilihat pada gambar 8 untuk user dan gambar 9 untuk admin berikut : gambar
+antarmuka halaman utama / beranda antarmuka halaman utama / beranda memiliki form yang memerlukan input pengguna yaitu link halaman awal produk pada website femaledaily seperti pada gambar 10
+antarmuka halaman hasil analisis antarmuka halaman hasil analisis memberikan informasi dari analisis yang telah dilakukan sistem seperti pada gambar 11
+antarmuka admin panel antarmuka admin panel memberikan admin hak akses untuk mengatur atau memanajemen korpus data latih dan koleksi kamus seperti pada gambar 12
+pengujian confusion matrix confusion matrix adalah suatu metode yang umumnya digunakan untuk melakukan perhitungan tingkat akurasi pada data mining
+confusion matrix memuat informasi tentang klasifikasi yang diprediksi dengan benar oleh sebuah sistem klasifikasi
+terdapat tiga parameter yang akan dihitung, yaitu akurasi, recall, dan precision yang dapat dilihat pada tabel i
+analisis hasil pengujian dari pengujian yang dilakukan dengan menghitung akurasi, recall dan precision pada sistem analisis sentimen review produk online maka analisis yang dapat disimpulkan adalah sebagai berikut
+hasil prediksi kelas data uji yang relevan dibandingkan antara kelas sentimen yang ditandai supervisor dan kelas sentimen yang dihasilkan oleh sistem analisis sentimen
+prediksi kelas sentimen pada review dapat dilakukan dengan pre-processing, pembobotan kata, pembentukan model dilanjutkan dengan perhitungan probabilitas kelas
+prediksi sistem analisis sentimen menggunakan metode naive bayes belum sepenuhnya relevan
+hal ini dapat dilihat pada nilai akurasi pengujian terutama pada pengujian 5 kelas menggunakan dataset 80% latih - 20% data uji memiliki akurasi terendah sebear 52.66%, pengujian 5 kelas menggunakan dataset 90% latih - 10% sebesar 59.33 %, pengujian 3 kelas menggunakan dataset 90% data latih dan 10% data uji memiliki 73.89% sedangkan pada pengujian 3 kelas menggunakan dataset 90% data latih dan 10% data uji memiliki akurasi tertinggi sebesar 77.78%
+nilai akurasi terendah pada sistem analisis sentimen pada setiap pengujian yang dilakukan terdapat pada kelas netral yang dapat dilihat pada tabel ii
+hal ini disebabkan sifat kelas netral yang memiliki vocabulary yang luas sehingga sistem mengklasifikasikan kalimat pada kelas netral menjadi kelas lain
+dari pengujian 5 kelas dan 3 kelas yang dilakukan data latih 90% dan data uji 10% memiliki akurasi yang lebih tinggi dibandingkan dengan data latih 80% dan data uji 20%
+hal ini disebabkan semakin banyak data latih yang digunakan maka vocabulary sistem akan menjadi lebih banyak dan pengklasifikasian pun akan menjadi semakin akurat
+kesimpulan dan saran sistem analisis sentimen pada ulasan produk online menggunakan metode naive bayes, maka dapat ditarik kesimpulan sebagai berikut
+metode naive bayes dapat memprediksi kelas sentimen pada ulasan produk online sesuai dengan sistem yang disiapkan
+sistem analisis yang dibentuk belum sepenuhnya relevan dalam memprediksi kelas sentimen yang sesuai terhadap pemberian kelas dari supervisor
+sistem analisis sentimen pada ulasan produk online menggunakan metode naive bayes menghasilkan nilai akurasi terendah pada pengujian 5 kelas menggunakan dataset 80% latih dan 20% data uji sebesar 52.66%, sedangkan pada pengujian 3 kelas menggunakan dataset 90% data latih dan 10% data uji memiliki akurasi tertinggi sebesar 77.78%
+jumlah data latih dalam sistem analisis sentimen memiliki pengaruh terhadap prediksi sistem
+selain jumlah, kualitas data latih juga berperan karena semakin tinggi kualitas data maka sistem akan mendapatkan vocabulary yang semakin besar sehingga akan lebih tepat dalam memprediksi kelas sentimen
+review yang diluar batasan cenderung akan memiliki kelas sentimen yang salah dikarenakan sistem tidak dilatih diluar batasan yang telah ditentukan
+seperti review dalam bahasa inggris atau kata-kata gaul baru yang tidak terdapat dalam kamus
+saran adapun beberapa hal yang perlu ditambahkan dalam pengembangan sistem analisis sentimen pada ulasan produk online menggunakan metode naive bayes ini adalah sebagai berikut : 1
+sistem analisis sentimen pada ulasan produk online menggunakan metode naive bayes ini dapat menggunakan metode lain untuk memperoleh hasil prediksi yang lebih baik
+contoh metode yang dapat digunakan support vector machine atau k-means
+sistem ini dapat dikembangkan lagi dengan menambahkan website ulasan produk online yang dapat dicrawl sehingga tidak terbatas pada satu website
+sistem analisis sentimen dapat ditambahkan proses semantik sehingga kata-kata yang harusnya memiliki makna dapat ditandai
+dan dapat membantu sistem dalam menilai kelas sentimen pada review

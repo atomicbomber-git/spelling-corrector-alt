@@ -1,0 +1,56 @@
+ionosonde) dan gistm/tec 
+pada bagian pengolahan data ionosfer belum memiliki sistem informasi dalam pengelolaan data ionosfer, sehingga data tersebut dapat dimanfaatkan dan dikembangkan untuk kebutuhan yang berhubungan dengan lapisan ionosfer
+desain sistem penelitian ini menggunakan data flow diagram dan entity relationship diagram serta sistem pengujiannya mengunakan black box dan borang yang kemudian dihitung dengan menngunakan metode lsr 
+hasil dari penelitian ini yaitu sistem informasi pengolahan data ionosfer yang dapat membantu dalam mendistribusikan data hasil pengolahan data ionosfer dengan mudah antar pegawai dan laporan kepada pimpinan
+pendahuluan penerbangan dan antariksa nasional) pontianak merupakan lembaga pemerintah pada bidang penelitian dan pengembangan kedirgantaraan dan pemanfaatannya serta penyelenggaraan keantariksaan sesuai dengan ketentuan peraturan perundang-undangan
+gps ionospheric scintillation and tec monitor
+pengumpulkan data dari alat pemantauan cuaca antariksa, yaitu data gistm/tec dan data cadi yang tergabung dalam bagian data ionosfer
+fungsi utamanya diantara fungsi-fungsi yang dimilikinya adalah mempengaruhi rambatan radio ke tempat- tempat yang jauh di muka bumi
+belum adanya sistem informasi dalam pengelolaan data ionosfer, sehingga sering terjadi kesalahan dan lambatnya proses pengolahan data ionosfer
+selain itu banyaknya data yang harus diolah menyebabkan kurangnya waktu tanggap sistem operasional yang dilakukan
+berdasarkan permasalahan yang telah dijelaskan sebelumnya, penulis membangun sebuah sistem informasi pengolahan data ionosfer yang digunakan untuk membantu dalam mendistribusikan hasil pengolahan data ionosfer dengan mudah antar pegawai maupun laporan kepada pimpinan
+fungsi utama informasi adalah untuk menambah pengetahuan dan mengurangi ketidakpastian pengguna informasi
+berhubungan yang berfungsi mengumpulkan, memproses, menyimpan dan mendistribusikan informasi untuk mendukung pembuatan keputusan dan pengawasan dalam organisasi
+sistem informasi guna mencapai sasaran-sasaran perusahaan
+mysql yang dipergunakan untuk mengakses data dalam basis data relasional mysql adalah relational database management system yang didistribusikan secara gratis dibawah lisensi gpl, dimana setiap orang bebas untuk menggunakan mysql
+php adalah program yang berbentuk script yang diletakkan dalam server web
+php telah diciptakan untuk kegunaan web dan dapat menghubungkan query database dengan menggunakan simple task yang boleh diluruskan dengan 3 atau 4 baris kode
+flowchat menggambarkan tahap-tahap penyelesaian masalah beserta aliran data dengan simbol-simbol standar yang mudah dipahami
+reza budi susatyo #1, heri priyanto#2, helfi nasution#3 #program studi teknik informatika universitas tanjungpura 1reza.budisusatyo@hotmail.com, 2heripriyanto.stmt@gmail.com, 3helfi_nasution@yahoo.com sistem informasi pengolahan data ionosfer dalam mendukung pelayanan data pada bpd lapan pontianak jl
+data flow diagram data flow diagram merupakan alat yang digunakan untuk menggambarkan suatu sistem yang telah ada atau sistem baru yang akan dikembangkan secara logika tanpa mempertimbangkan lingkungan fisik dimana data tersebut mengalir ataupun lingkungan fisik dimana data tersebut akan disimpan simbol-simbol yang digunakan dalam dfd terdiri dari 4 macam, yaitu proses, data flow, data store dan external entity
+menjalankan program dengan maksud menemukan kesalahan serta memeriksa apakah aplikasi dapat berjalan dengan baik sesuai dengan yang direncanakan
+borang mengungkapkan data dan informasi yang digunakan untuk menilai kelayakan dan mutu institusi perguruan tinggi
+penyusunan borang dilakukan sesuai dengan konsep dan falsafah yang melandasi layanan akademik dan profesional perguruan tinggi, serta manajemen perguruan tinggi
+arsitektur sistem internet operator gistm/tecoperator cadi perancangan sistem pada sidi ini digunakan oleh operator alat cadi, operator gistm/tec dan admin bpd lapan pontianak
+user tersebut dapat menggunakan sidi jika terhubung dalam satu jaringan intranet b
+diagram konteks sistem sidi admin data cadi data gistm/tec c
+diagram overview 1.0 login 2.0 cadi 3.0 gistm/tec olah data cadi olah data gistm/tec d
+pengujian aplikasi black box dan borang terhadap 5 responden yaitu pegawai pengolahan data ionosfer di bpd lapan pontianak
+hasil aplikasi hasil litbang pengolahan data ionosfer yang dimiliki balai pengamatan dirgantara lapan pontianak dan untuk memberikan kemudahan bagi operator peralatan ionosfer dalam melakukan kegiatan pengolahan data ionosfer dan meracang sistem penyimpanan data olahan maupun real data ke dalam suatu sistem informasi yang berbasis website
+tampilan halaman beranda gambar 4 merupakan tampilan halaman beranda sidi diakses oleh pengguna
+tampilan halaman gistm/tec gistm/tec berupa laporan hasil pengolahan data tec gambar6
+berupa laporan hasil pengolahan data cadi
+tampilan bimbingan teknis gambar 7 merupakan tampilan bimbingan teknis online yang dapat user pelajari mengenai tata cara olah data gistm/tec dan cadi
+gambar 8 merupakan tampilan dari halaman login administrator dan operator peralatan ionosfer
+tampilan halaman operator ionosfer gambar 9 merupakan tampilan operator ionosfer, operator dapat melakukan perekaman dan olah data ionosfer
+tampilan halaman input data cadi gambar 10 merupakan tampilan halaman input data cadi, operator dapat melakukan input data, perekaman dan olah data cadi
+pengujian metode black box black box testing berfokus pada spesifikasi fungsional dari perangkat lunak
+tester dapat mendefinisikan kumpulan kondisi input dan melakukan pengetesan pada spesifikasi fungsional program
+hasil pengujian dapat dilihat pada tabel 1 dan tabel 2 berikut
+pengujian dengan metode borang pengujian borang merupakan pengujian terakhir yang digunakan untuk menguji tingkat keberhasilan oleh user terhadap sidi melalui pengujian langsung terhadap sistem
+kuesioner dibagikan kepada 5 responden dibidang peralatan pengolahan data ionosfer
+lembar borang dibagikan kepada responden beserta dengan prototype aplikasi yang dibuat sehingga responden dapat menilai sistem itu sendiri
+tabel 3 pengujian dengan metode borang no keterangan pilihan tersebut sangat tinggi 5 0 5 2 anda kerjakan 4 yang anda perlukan 5 0 5 5 data yang anda input aman dari orang yang tidak berhak mengakses 5 0 5 bagus 5 0 5 8 sidi jarang not responding 5 0 5 9 sidi sangat mudah diakses dari semua komputer 5 0 5 10 input data dapat dilakukan dengan cepat 5 0 5 11 laporan/report dapat dihasilkan dengan mudah dan sesuai kebutuhan 5 0 5 12 sidi mudah digunakan 5 0 5 59 1 60 pada tabel 4.4 tersebut dapat diketahui informasi antara lain: 1
+pilihan yang dipilih responden berjumlah 59 jawaban dan memiliki persentase x 100% = 98, 33%
+pilihan yang dipilih responden berjumlah 1 jawaban dan memiliki persentase x 100% = 1, 6%
+hasil penelitian ini untuk melihat skor terbesar dan terkecil dari satu orang responden dan total semua responden, berikut adalah total skor yang telah dibagikan kepada 5 responden
+berikut hasil pengukuran dengan skala lsr
+jumlah skor untuk setiap responden: - skor minimal = 12 - skol maksimal = 24 2
+jumlah skor untuk seluruh repsonden: - minimal = 60 - maksimal = 120 3
+interprestasi jumlah skor tersebut adalah: - 60 < skor < = 120, artinya positif gambar 12
+analisis hasil pengujian pengolahan data ionosfer yang telah dilakukan adalah sebagai berikut: 1
+hasil black box menyatakan sistem informasi dapat meng-handle proses input pada fitur login dan fitur input data olahan ionosfer
+berdasarkan hasil borang menunjukan sebagian besar responden menerima dengan baik aplikasi ini baik dari segi pengoperasian, fungsionalitas, dan tampilan aplikasi
+terdapat pula sebagian kecil responden memberikan penilian kurang terhadap kinerja sistem informasi, hal ini dikarenakan kurang stabilnya koneksi internet pada saat menampilkan data dan tampilan antarmuka yang belum dipahami oleh responden
+hasil interpretasi skor dari likert’s summated rating menunjukan hasil 98, 33% dengan nilai sangat positif yang berarti sistem informasi dinilai berhasil
+kesimpulan/ringkasan sistem informasi, dapat disimpulkan bahwa sistem informasi pengolahan data ionosfer berhasil dirancang dan dibangun dengan baik berdasarkan hasil borang menggunakan skala likert summated rating dan dapat berjalan lancar dan dengan adanya sistem informasi data ionosfer bpd lapan pontianak dapat memproses pengolahan data ionosfer dan membantu dalam mendistribusikan hasil pengolahan data ionosfer dengan mudah antar pegawai maupun laporan kepada pimpinan

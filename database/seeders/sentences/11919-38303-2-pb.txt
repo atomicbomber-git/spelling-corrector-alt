@@ -1,0 +1,37 @@
+prediksi struktur sekunder protein adalah salah satu masalah yang sudah lama dibahas dalam bidang bioinformatika
+berbagai metode telah diterapkan namun masalah akurasi belum mencapai hasil yang maksimal penelitian ini dilakukan untuk membangun suatu model prediksi struktur sekunder protein dengan menggunakan decision tree dengan fitur kimiafisik dan posisi atom
+penentuan setiap kelas dalam proses klasifikasi struktur sekunder protein dalam penelitian ini berdasarkan pembelajaran terhadap pola masukan dalam proses pelatihan
+data diperoleh dari protein data bank 
+sementara informasi struktur sekunder protein diperoleh melalui alamat dssp
+sejumlah 75809 alpha-helix, 41785 untuk bheta-sheet, dan 80346 untuk coil digunakan sebagai data set pada penelitian ini
+pola masukan diperoleh melalui proses sliding window dari sekuen asam amino dengan ekstraksi fitur kimiafisik dan posisi atom
+model prediksi dengan cross validation tanpa fitur posisi atom menghasilkan nilai akurasi 90.49%, sedangkan untuk pengujian dengan unknown data akurasinya menurun menjadi 51.29%
+akurasi menggunakan fitur posisi atom sebesar 90.17% dengan cross validation dan 50.83% jika diujikan pada unknown data
+struktur protein, posisi atom ini terbentuk dari urutan asam amino dengan karakteristik berbeda-beda
+secara hierarki, struktur protein dapat dikelompokkan menjadi 4 struktur utama yaitu struktur primer, struktur sekunder, struktur tersier dan struktur kuartener
+struktur primer merupakan urutan asam amino yang dihasilkan dari ikatan peptida
+struktur sekunder adalah rangkaian asam amino yang membentuk struktur membelit, melingkar, dan melipat
+bentuk struktur ini dikelompokkan menjadi struktur alpha-helix, beetha-sheet, dan coil 
+adapun struktur tersier merupakan gabungan dari berbagai struktur sekunder yang terjadi setelah proses pelipatan 
+peranan protein ini terlihat jelas setelah rangkaian asam amino melakukan pelipatan dalam bentuk 3 dimensi sebagai struktur tersier
+namun struktur tersier tersebut ditentukan oleh struktur sebelumnya baik struktur primer maupun struktur sekundernya
+oleh karena itu penentuan struktur sekunder protein menjadi salah satu kajian yang banyak dilakukan di bidang bioinformatika
+untuk mendapatkan sebuah struktur dari protein ditentukan secara eksperimen
+menurut albert et alstruktur protein dapat ditentukan dengan eksperimen melalui penggunaan x- ray crystallography dan nuclear magnetic resonance spectroscopy
+keduanya mampu menghasilkan struktur protein sampai dengan bentuk 3 dimensinya
+dengan teknik ini sangat memungkinkan ditemukannya struktur protein baru
+namun hal ini tentu sangat sulit dan membutuhkan biaya yang tidak murah
+oleh karena itu, dengan perkembangan teknologi komputasi, untuk mendapatkan sebuah struktur protein dapat dilakukan dengan membuat model prediksi
+salah satu teknik komputasi yang dapat digunakan untuk memprediksi struktur sekunder protein adalah teknik klasifikasi decision tree dengan algoritme c4.5 yang merupakan sepuluh algoritma terbaik di bidang data mining
+meningkatkan akurasi dengan menggunakan jaringan saraf tiruan propagasi balik
+penelitian ini membuktikan bahwa dengan menambahkan cn dapat meningkatkan akurasi dalam memprediksi struktur sekunder protein secara signifikan seiring penambahan dari data subsetnya
+penelitan lainnya dilakukan dengan menerapkan model support vector machine sebagai klasifikasi dan ekstraksi fitur kimiafisik
+model ini juga menggunakan sliding window dan teknik filtering
+hasil dari model ini menghasilkan nilai akurasi yang lebih tinggi dengan menerapkan teknik filtering yaitu sebesar 79.52 %
+adapun model tanpa menggunakan teknik filtering hanya mampu menghasilkan akurasi sekitar 77.40 %
+prediksi struktur protein sekunder juga pernah dilakukan dengan menggunakan hidden markov model untuk kasus data yang tidak seimbang
+klasifikasi dan ekstraksi ciri yang berbeda
+berdasarkan penelitian tersebut, penelitian ini diajukan untuk membuat prediksi struktur sekunder protein dengan menerapkan algoritme c4.5 dengan ekstraksi fitur kimiafisik dan posisi atom
+kemudian penelitian ini juga akan menentukan sliding window yang optimal agar didapat akurasi yang baik
+hasil dari klasifikasi akan membentuk sebuah model untuk memprediksi struktur sekunder protein
+struktur protein memiliki arti ―yang paling utama) merupakan salah satu dari biomakromolekul elemen penyusun utama makhluk hidup yang dibentuk dari asam amino 

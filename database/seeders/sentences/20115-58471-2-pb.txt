@@ -1,0 +1,88 @@
+salah satu pelayanan yang ada berupa pelayanan anjungan tunai mandiri yang menjadi ujung tombak dalam pendistribusian uang tunai kepada nasabah
+namun kendala yang saat ini muncul adanya proses yang kurang efisien dalam bidang penjadwalan dan monitoring pengisian uang pada atm yang dimiliki
+kurang efisiennya proses tersebut meliputi proses pembuatan jadwal pengisian dan petugas pengisian yang masi menggunakan cara konvensional seperti perekapan melaui microsoft exel dan dalam bentuk jadwal cetak
+sesuai kondisi tersebut maka dalam penelitian ini dibuat mobile application sebagai alat bantu dalam penjadwalan dan monitoring pengisian uang atm
+mobile application yang dihasilkan telah dikembangkan secara sistematis dan terstruktur menggunakan metode pegnembangan mobile-d
+selain itu juga mobile applicatioan tersebut telah dilakukan pengujian sebagai langkah akhir pegnembangan dan dinyatakan layak sehingga dapat dijadikan oleh bank mandiri cabang palembang sebagai alat bantu dalam proses penjadwalan dan monitoring pengisian uang atm
+pendahuluan dari masyarakat dalam bentuk simpanan dan menyalurkannya kepada masyarakat
+penyaluran dana oleh bank dalam bentuk kredit atau lainnya dalam rangka meningkatkan taraf hidup masyarakat
+bentuk program atau laynaan yang diberikan oleh bank berdasarkan pengertian terbut seperti adanya program kredit mikro, layanan anjungan tunai mandiri dan yang terakhir internet bangkin
+salah satu bank yang sangat konsisten dalam hal layanan kepada rakyat adalah bang mandiri
+bank mandiri sendiri saat ini telah memiliki banyak cabang di indonesia dan diantara cabang bank mandiri adalah bank mandiri cabang palembang
+bank mandiri cabang palembang memiliki banyak layanan yang diberkan kepada nasabah, salah satu layanan tersebut adalah disediakannya mesin anjungan tunai mandiri sebagai fasilitas bagi nasabah yang ingin menarik atau menyetorkan uang mereka
+layanan atm bagi bank mandiri merupakan ujung tombak pelayanan karena bersentuhan langsung terhadap nasabah
+namun untuk memberikan pelayanan yang baik khusnya dalam layanan atm, bank mandiri cabang palembang masih beum optimal kurang optimalnya proses layanan tersebut khususnya dalam bidang penjadwalan petugas pengisian uang pada atm
+dimana proses penjadwalan yang ada saat ini masih menggunakan cara konvensional cara konvensional tersebut seperti menjadwalkan pengisian menggunakan file excel, merekap data atm yang memiliki saldo kecil dan pemberitahuan informasi pengisian atm kepada petugas yang lamban
+untuk mengatasi permasalahan seperti yang dihadapi oleh bank mandiri cabang palembang sebenarnya telah ada beberapa kajian yang telah dilakukan sebelumnya
+diantaranya adalah kajian tentang bagaimana informasi atm dapat ditampilkan secara menyeluruh baik informasi saldo dan status mesin atm melalui aplikasi tertentu dan dapat membaca data secara otomatis
+kajian lain juga tentang cara pendistribusian pengisian atm untuk mengoptimalkan rute perjalanan dalam pengisian atm
+dimana algoritma yang digunakan dalam mencari rute dalam pengisian atm tersebut dengan algoritma cheapest insertion heuristic 
+cara kerja dari algoritma cih menyisipkan nilai yang baru sampai akhirnya membentuk sebuah rute perjalanan yang optimal dengan memanfaatkan google maps
+belum adanya tentang monitoring penjadwalan pengisian uang atm
+melihat kondisi tersebut tentunya harus ada solusi yang dapat ditawarkan kepada bank mandiri, mengingat bank mandiri khususnya cabang palembang merupakan bank yang besar sehingga masyarakat membutuhkan pelayanan yang cepat dan tidak mengganggu aktifitas mereka
+untuk itu penggunaan mobile application monitoring pengisian uang pada atm akan sangat membantu pihak bank mandiri cabang palembang dalam memberikan pelayanan terbaik
+karena dengan adanya mobile application monitoring pengisian uang pada atm akan memudahkan petugas bagian pengisian uang untuk mendapatkan informasi pengisian karena petugas dapat melihat informasi pengisian melalui mobile application yang mereka miliki
+metode deskriptif merupakan salah satu metode yang digunakan untuk menjelaskan suatu kejadian
+penelitian desktiptif bertujuan memberikan atau menjabarkan suatu keadaan atau fenomena yang terjadi saat ini menggunakan prosedur ilmiah untuk menjawab masalah secara aktual
+digunakan dalam penelitian ini adalah metode mobile–d
+urutan pekerjaan yang ada pada mobile-d dapat dilihat pada gambar 2 berikut ini: explore initilize productionize stabilize system test and fix dari gambar 2 dapat dilihat degan jelas bahwa metodo ini yang paling rinci dalam prose pengembangan, memiliki spesifikasi yang komprehensif untuk setiap fase dan tahap, dan untuk tugas-tugas yang terkait
+metode pengembangan aplikasi mobile-dterdiri dari tahapan berikut: 1) explore, merencanakan dan menyusun proyek yang akan dikerjakan
+tahap ini meletakkan isu- isu dasar pengembangan sistem, antara lain arsitektur produk, proses pengembangan dan lingkungan pengembangan
+diakhir tahap ini diharapkan semua sumber daya telah siap untuk memulai membangun sistem yang dibuktikan dengan adanya hasil perancangan
+3) productionize, mengimplementasikan semua kebutuhan fungsional pada produk dengan menerapkan siklus pengembangan secara 4) stabilize, mengintegrasikan sub sistem yang telah dibangun menjadi satu kesatuan produk dengan menerapkan siklus pengembangan secara iterative dan bertingkat
+5) system test and fix, menguji dan melakukan perbaikan sistem
+hasil dari pengujian akan menjadi umpan balik bagi tim pengembang untuk memperbaiki kekurangan-kekurangan sistem
+dijelaskan sebagai berikut: mandiri cabang palembang ini ruang lingkup digambarkan dalam bentuk perencangan arsitektur menggunakan uml diagram
+perancangan arsitektur seperti diperliihatkan pada gambar 2
+melakukan login petugas petugas sesuai gambar 2 bahwa terdapat dua actor pada mobile application monitoring pengisian uang atm bank mandiri cabang palembang yang pertama admin dan yang kedua petugas
+pada admin aktivitas yang dapat dilakukan pengelolaan data atm, mobil, sopir, petugas dan jadwal sedangkan dari sisi petugas melihat jadwal pengisian, profil dan ubah password
+setelah mengetahui arsitektur fungsional melalui use case diagram seperti pada gambar 2 maka selanjutnya menggambarkan aktivitas masing masing aktor ketika berinterkasi dengen mobile applicatioan monitoring pengisian uang atm menggunakan activity diagram
+activity diagram menggambarkan berbagai alir aktivitas dalam mobile application yang sedang dirancang, bagaimana masing- masing alir berawal, decision yang mungkin terjadi, dan bagaimana mereka berakhir
+activity diagram tersebut seperti yang diperlihatkan pada gambar 3 dan 4
+admin sistem cek valid/invalid menampilkan pesan pemrosesan data berhasilmenampilkan pesan pemrosesan data berhasil kelola data sopir kelola data jadwal gambar
+hal yang sama juga dialkukan oleh aktor dengan hak akses petugas seperti yang diperlihatkan gambar 4
+petugas sistem menampilkan data yang dipilihmenampilkan data yang dipilih ubah password b
+initialize desain arsitektur ke dalam perancangan antarmuka
+dalam penelitian ini perancangan yang dibuat untuk menggambarkan secara visual bagaimana mobile applicatioan monitoring pengirian uang atm pt bank mandiri cabang palembang akan dibuat pada proses productionize
+untuk itu dapat dilihat pada gambar 5 merupakan salah satu rancangan dalam bentuk basis data untuk mobile applicatioan monitoring pengisian uang atm sebagai gambaran kebutuhan bentuk antarmuka sesuai dengan perancangan arsitektur
+productionize dari perancangan arsitektur, antarmuka dan perencangan basis data
+implementasi mobile application monitoring pengisian uang atm pt bank mandiri cabang palembang menggunkan jquery mobile
+jquery mobile adalah kerangkat kerja berbasis javascript atau library jquery untuk membuat aplikasi web berbasis mobile
+keunggulan dari kerjangka kerja ini antara lain adalah pengembang dapat dengan mudah membuat antarmuka pengguna dan berdasarakan event dari aplikasi yang berarti pengembangan dapat membuat aplikasi sesuai dengan events mobile device dan touchscreen
+sedangkan implementasi antarmuka untuk administrator menggunakan bahasa pemrograman php, penggunaan php disebabkan akses administrator dilakukan menggunakan browser
+dari hasil implementasi tersebut dapat dijelaskan sebagai berikut: 1
+pengaturan jadwal pengisian uang atm untuk melakukan penjadawalan pengisian uang atm maka diatur oleh pengguna dengan hak akses administrator
+untuk melakukan pengaturan jadwal pengisian uang atm maka administrator terlebihdahulu melakukan login untuk membuat jadwal pengisian sesuai dengan data yang dimiliki
+proses penjadwalan tersebut seperti yang terlihat pada gambar 6
+namun untuk melakukan penjadwalan maka administrator harus mengisi data master sebagai langkah awal dalam pembuatan jadwal data master tersebut meliputi data sopir, data mobil, data atm dan data petugas
+6 proses penjadwalan pengisian uang atm dalam proses pembuatan jadwal pengisian uang atm seperti yang diperlihatkan pada gambar 6 ada beberapa data yang harus diisi oleh administrator diantaranya adalah atm tujuan, petugas pengisi, mobil pengisi dan jam pengisian
+jadwal dan pelaporan pengisian uanga atm setelah proses penjadwalan berhasil dilakukan seperti yang diperlihatkan pada gambar 6 maka proses selanjutnya pengisian uang atm oleh petugas
+namun untuk melakukan pengisian maka petugas perlu untuk melakukan pegnecekan pada login petugas
+setelah petugas sukses melakukan login maka akan petugas dapat melihat halaman utama petugas seperti yang diperlihatkan pada gambar 7
+dari login petugas seperti yang terlihat pada gambar 7 merupakan proses implementasi dari jquery mobile seabgai pembentuk antarmuka mobile application seperti yang diperlihatkan pada gambar 8
+8 script pembentuk antarmuka mobile application selanjutnya untuk melihat jadwal pengisian maka petugas dapat mengklik menu lihat jadwal pengisian
+untuk mengetahui jadwal pengisian uang atm maka petugas diminta untuk memasukkan tanggal pengisian seabgai filter data yang akan
+ketika data jadwal ditampilkan dibedakan menjadi dua macam data, data pertama adalah data jadwal pengisian yang berwana latar merah yang memiliki arti bahwa atm tersebut belum diisi
+sedangkan data yang kedua adalah data jadwal pengisian berwarna latar hijau yang memiliki arti bahwa atm tersebut telah diisi seperti yang diperlihatkan pada gambar 9
+jika petugas selesai melakukan pengisian maka petugas dapat mengklik link informasi atm sebagai tanda bahwa proses pengisian telah selsai dilakukan
+gambar 9 data jadwal pengisian uang atm 3
+monitoring pengisian uang atm proses monitoring pengisian uang dapat dilakukan melalui hak akses administrator atau oleh pihak bank baik itu pihak ketiga yang ditunjuk oleh bank ataupun oleh bank itu sendiri
+untuk melakukan monitoring pengisian dapat dilakukan pada menu jadwal dan monitoring seperti yang diperlihatkan pada gambar 10
+pada menu tersebut maka administrator diminta untuk memasukkan tanggal pengisian yang diinginkan dan data pengisian dapat dilihat secara detail apakah atm telah diisi atau belum
+gambar 10 monitoring pengisian uang atm d
+untuk melakukan bundle maka disiapkan basis data yang dapat diakses secara online agar mobile application dapat dijalankan kapan dan dimana saja petugas mengakses
+arsitektur mobile application tersebut seperti yang diperlihatkan pada gambar 11
+system test and fix sebagai langkah akhir dari proses pengembangan maka dilakukan pengujian sebagai validasi
+pengujian dilakukan menggunakan pendekatan black box
+pengujian black box merupakan pengujian fungsional untuk melakukan pengujian black box maka dibuat rencana pengujian seperti yang diperlihatkan pada tabel 1
+tabel i rencana pengujian 1 atm add, updata, delete black box 2 mobil add, updata, delete black box 3 sopir add, updata, delete black box 4 petugas add, updata, delete black box 5 jadwal add, updata, delete black box 6 melihat jadwal view black box 7 monitoring diperlihaktan pada tabel 1 maka dapat dilihat hasil pengujian mobile application monitoring pengisian uang atm pt bank mandiri cabang palembang seperti yang diperlihatkan pada tabel 1 sampai dengan tabel 8
+tabel 2 data masukan memasukan data atm sesuai dengan field yang disediakan pada form data atm yang diharapkan proses masukkan data
+klik tombol simpan data, data dapat tersimpan ke basis data serta dapat menampilkan pengamatan data atm berhasil dimasukan ke basis data dan menampilkan pesan bahwa data berhasil disimpan kesimpulan [] diterima [ ] ditolak b
+update atm dari daftar data atm merubah data atm, kemudian proses disimpan, menampilkan pesan perubahan berhasil dilakukan pengamatan data atm dapat di ubah dan kembali ke halaman atm kesimpulan [] diterima [ ] ditolak c
+delete atm yang diharapkan menampilkan pesan proses penghapusan data berhasil, dan kembali ke halaman atm berhasil dan kembali ke halaman atm kesimpulan [] diterima [ ] ditolak field yang disediakan sediakan pada form data mobil yang diharapkan proses masukkan data
+klik tombol simpan data, data disimpan ke basis data dan dapat menampilkan pesan data berhasil disimpan data dan menampilkan pesan bahwa data berhasil disimpan kesimpulan [] diterima [ ] ditolak a
+update sopir dari daftar data sopir merubah data sopir, kemudian proses disimpan, menampilkan pesan perubahan berhasil dilakukan ke halaman sopir kesimpulan [] diterima [ ] ditolak b
+delete sopir yang diharapkan menampilkan pesan proses penghapusan data berhasil, dan kembali ke halaman sopir pengamatan menampilkan pesan penghapusan data berhasil dan kembali ke halaman sopir kesimpulan [] diterima [ ] ditolak field yang disediakan pada form data petugas yang diharapkan proses masukkan data
+klik tombol simpan data, data disimpan ke basis data dan dapat menampilkan pesan data berhasil disimpan basis data dan menampilkan pesan bahwa data berhasil disimpan dari daftar data petugas merubah data petugas, kemudian proses disimpan, menampilkan pesan perubahan berhasil dilakukan pengamatan data petugas dapat di ubah dan kembali ke halaman petugas petugas ke halaman petugas petugas field yang disediakan sediakan pada form data jadwal simpan data, data disimpan ke basis data dan dapat menampilkan pesan data berhasil disimpan pengamatan data jadwal berhasil dimasukan ke basis data dan menampilkan pesan bahwa data berhasil disimpan dari daftar data jadwal merubah data jadwal, kemudian proses disimpan, menampilkan pesan perubahan berhasil dilakukan ke halaman jadwal kesimpulan [] diterima [ ] ditolak c
+maka dapat disimpulkan bahwa mobile application monitoring pengisian uang atm dapat dijadikan sebagai alat bantu bagi bank mandiri cabang palembang dalam proses penjadwalan dan monitoring pengisian uang atm
+kesesuaian tersebut dibuktikan dari hasil pengembangan yang dilakukan secara sistematis dan terstruktur menggunakan mobile-d serta proses pengujian yang menyatakan semua komponen aplikasi dapat berjalan dengan baik 

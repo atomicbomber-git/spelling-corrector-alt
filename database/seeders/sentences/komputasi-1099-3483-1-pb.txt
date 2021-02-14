@@ -1,0 +1,14 @@
+nowadays, information technology and mobility development with the need of more convenience and faster data access especially in monitoring or surveillance of a building have become a matter of urgency
+one of the example is mobile device or mobile phone that has the technology to access the image using ip-based cameras that used as camera monitors
+the live streaming monitoring system in general use devices such as cameras and televisions or computers as the device hardware
+with this monitoring system, users will allow to take advantage of this system that restricted only to the same place with a television or computer monitor used
+therefore, it can be developed a dedicated mobile application for devices with android platform that provide the ability to access the ip camera monitoring via live streaming and historical monitoring of ip cameras that stored into the storage, so it can be optimized by the user when needed
+the test results showed that the application can monitor live streaming building with mjpeg format on android mobile devices
+keywords- monitoring, ip camera, live streaming, mjpeg, android
+pendahuluan seiring dengan perkembangan teknologi informasi memungkinkan pengaksesan data lebih praktis dan lebih cepat
+saat ini telah banyak alat komunikasi untuk memudahkan manusia dalam proses komunikasi
+salah satunya adalah perangkat mobile atau telepon genggam yang biasa disebut handphone
+handphone adalah alat komunikasi mobile yang telah banyak digunakan untuk melakukan proses komunikasi, baik lokal, interlokal, maupun internasional aplikasi mobile dari waktu ke waktu mengalami peningkatan yang signifikan, dari aplikasi short message service kemudian multimedia message service hingga teknologi third generation technology dan high speed downlink packet access untuk video call
+salah satu teknologi yang dimiliki perangkat mobile adalah dapat mengakses gambar menggunakan kamera berbasis internet protocol yang difungsikan sebagai kamera pemantau
+sistem pemantauan pada umumnya menggunakan perangkat seperti kamera dan televisi atau komputer sebagai piranti kerasnya
+beberapa penelitian pemantauan dan pengawasan menggunakan kamera ip yang telah dilakukan diantaranya : 1) multivideo streaming sebagai pendukung intelligent transportation system 

@@ -1,0 +1,62 @@
+komunitas pengguna radio frekuensi seperti pengguna handy talky dapat saling berkomunikasi dengan menggunakan suatu kanal frekuensi tertentu yang ada di stasiun pancar ulang.stasiun pancar ulang ini biasanya diletakkan di daratan tinggi di wilayah tertentu
+komunikasi pengguna ht biasanya melakukan perubahan frekuensi mereka jika terjadi hal-hal yang dapat mengganggu privasi komunitas.perubahan frekuensi pada stasiun pancar ulang biasanya dilakukan secara manual, oleh sebab itu untuk mempermudah penggantian frekuensi maka dirancanglah suatu aplikasi yang memanfaatkan teknologi short messages service .prinsip kerja alat ini adalah alat pengendali frekuensi pada stasiun pancar ulang menggunakan dua buah handphone untuk mengirim pesan berupa nilai kanal frekuensi atau check status frekuensi dan untuk menerima pesan 
+mikrokontroller digunakan untuk memproses paket data yang diterima oleh hp penerima pesan, dan sebuah handy talky untuk menerima data dari mikrokontroller berupa nilai kanal frekuensi yang diinginkan.pada stasiun pancar ulang frekuensi yang dirubah digunakan untuk memancarkan kembali komunikasi yang menggunakan frekuensi tersebut.hasil pengujian alat dapat dikatakan berhasil, karena frekuensi yang dihasilkan setelah dibandingkan dengan frekuensi yang diinginkan hanya mempunyai kesalahan 0, 00028%
+pendahuluan talky adalah komunikasi satu arah dimana penerima dan pengirim pesan harus berbicara secara bergantian
+komunikasi antar ht dalam radius jarak jauh memerlukan bantuan stasiun pancar ulang
+gelombang radio dipancarkan secara horizontal, ketika pancaran gelombang terhalang oleh gunung, pohon ataupun bangunan yang tinggi maka komunikasi akan terhenti
+stasiun pancar ulang ini dibutuhkan untuk dapat menerima frekuensi dan memancarkan kembali frekuensi yang semula terhalang tersebut, sehingga komunikasi dapat berjalan lancer
+memiliki sebuah stasiun pancar ulang dengan radio frekuensi tertentu pula
+stasiun pancar ulang ini biasanya diletakkan di atas permukaan bumi yang tinggi untuk dapat menjangkau daerah – daerah tertentu yang diinginkan
+pada stasiun pancar ulang ini terdapat kanal frekuensi tertentu untuk digunakan oleh suatu kelompok pengguna
+kelompok pengguna biasanya telah memiliki kanal frekuensi tertentu untuk digunakan akan tetapi jika terdapat pengguna lain yang tidak diinginkan atau gangguan dari frekuensi itu sendiri maka kanal frekuensi harus dirubah
+perubahan kanal frekuensi harus dilakukan secara manual oleh sebab itu diperlukan suatu alat yang dapat mengendalikan frekuensi pada stasiun pancar ulang yang praktis, yaitu pengendali frekuensi pada stasiun pancar ulang menggunakan sistem sms 
+teknologi short messages service tidak hanya berfungsi sebagai pesan singkat untuk menyampaikan pesan saja, tetapi dapat diterapkan pada bidang tertentu untuk membantu mempermudah suatu pekerjaan dalam kehidupan sehari-hari
+penelitian yang dilakukan oleh soleh dan kawan- kawan yaitu menerapkan teknologi short messages service untuk notifikasi sebuah e-jurnal teknologi sms ini dinamakan sms gateway
+tujuan penelitian ini untuk memudahkan authors, admin ataupun reviewer mendapatkan pesan notifikasi
+putra juga melakukan penelitian tentang penerapan teknologi short messages service untuk request lagu pada sebuah stasiun radio
+pada penelitian ini juga menggunakan teknologi sms gateway seperti penelitian oleh soleh dan kawan-kawan 
+penerapan teknologi ini bisa memberikan pelayanan yang memuaskan pendengar dikarenakan pesan mereka langsung ditanggapi
+teknologi short messages service ini juga bisa digunakan sebagai sarana penunjang informasi perpustakaan pada suatu sekolah seperti penelitian yang dilakukan oleh nurlaela 
+penelitian ini dapat membantu petugas perpustakaan dalam penyampaian pesan kepada anggota perpustakaan
+hanya diterapkan untuk lanyanan sms gateway seperti pada penelitian yang sudah dijelaskan di atas
+pada penelitian ini teknologi short messages service dapat digunakan untuk mengendalikan frekuensi stasiun pancar ulang
+perubahan frekuensi stasiun pancar ulang dapat dilakukan dimana saja operator pengguna berada hanya dengan sebuah spesan singkat saja
+metode penelitian sms adalah fasilitas yang dimiliki oleh jaringan gsm yang memungkinkan pelanggan untuk mengirimkan dan menerima pesan-pesan singkat berupa teks
+dan meneruskan pesan dari sisi pengirim ke sisi penerima
+format sms yang dipakai oleh produsen ms adalah protokol data unit 
+format pdu akan mengubah septet kode ascii menjadi bentuk byte pada saat pengiriman data dan akan diubah kembali menjadi ascii pada saat diterima oleh ms
+dibalik tampilan menu messages pada sebuah ponsel terdapat at command yang bertugas mengirim dan menerima data ke dan dari sms center
+at command tiap-tiap sms device bisa berbeda-beda, tetapi pada dasarnya sama
+perintah at command biasanya disediakan oleh vendor handphone
+pada ponsel gsm terdapat fasilitas pengaksesan data melalui koneksi serial atau dengan antarmuka infra merah untuk mengakses data, diperlukan urutan instruksi pada antarmuka ponsel
+etsi gsm pada dokumen gsm 07.07 dan gsm 07.05, dimana setiap ponsel harus mengacu pada instruksi tersebut, instruksi ponsel diawali dengan karakter at dan diakhiri dengan enter atau 0dh
+perintah yang diterima akan direspon dengan diterimanya data ‗ok‘ atau ‗error‘
+instruksi yang diterima oleh ponsel dan sedang diproses akan akan terinterupsi oleh instruksi lain yang datang sehingga setiap pengiriman instruksi harus menunggu datangnya respon dari ponsel
+beberapa contoh at command yang penting untuk sms adalah sebagai berikut: b
+stasiun pancar ulang kekuatan pancar gelombang radio frekuensi, tinggi antena, sensitivitas mobile receiver dan interferensi lainnya
+bentuk dasar gelombang yang dihasilkan oleh sebuah pemancar adalah gelombang sinusoida
+gelombang tersebut dipancarkan ke lapisan ionosfer bisa jadi bentuknya tetap seperti sinusoida atau bisa juga berubah, seperti yang ditunjukkan pada gambar 1.sebuah gelombang sinusoida dapat berupa satu siklus, dua siklus atau banyak siklus
+jumlah siklus gelombang dalam durasi satu detik disebut sebagai frekuensi
+range frekuensi antara 3 khz sampai dengan 300 ghz disebut frekuensi radio
+ berada pada kanal vhf yaitu antara 142.000 mhz sampai dengan 143.600 mhz dengan spasi 20 khz
+kanal frekuensi radio untuk stasiun pancar ulang dibagi dua yaitu frekuensi untuk rx adalah 142.000 mhz dan 142.025 mhz, sedangkan untuk tx adalah 143.3550 mhz dan 143.575 mhz
+meningkatkan jangkauan komunikasi baik untuk mobile ataupun radio genggam
+stasiun pancar ulang atau repeater terletak didaerah yang tinggi seperti yang ditunjukkan pada gambar 2
+gambar.1 efek pembiasan dengan sudut yang berbeda dari sinyal radio yang memasuki ionosfergelombang mikroc
+ 7 segment display berfungsi untuk menampilkan angka 3 digit yang dikehendaki sebagai kanal frekuensi baru
+ handphone berfungsi sebagai fasilitas untuk menyampaikan atau menerima informasi sms dari pengguna, handphone yang digunakan adalah siemens m35  repeater sebagai objek yang dikendalikan oleh sistem dengan merubah frekuensinya yaitu pada bagian receiver/ gambar.4 flowchart system gambar 4 adalah eeprom mikrokontroler harus diisi nomor handphone pengguna yang akan digunakan untuk mengendalikan sistem baik sebagai pengirim maupun penerima pesan berupa angaka 3 digit pada prinsipnya sistem dikendalikan sepenuhnya oleh handphone pengguna, apabila sistem mendapatkan informasi dari handphone pengguna berupa sms yang disimpan pada inbox handphone operator, setelah muncul alert ringtone sms mikrokontroler akan memerintahkan handphone operator untuk mengeluarkan data tersebut melalui pinoutsnya
+melalui pinouts tersebut data sms yang dikirimkan ke mikrokontroler adalah secara serial, agar level tegangan data yang dikirimkan bisa selaras antara mikrokontroler dengan handphone operator maka data dilewatkan melalui level converter rs-232
+terdapat dua format data sms yang dikirimkan yaitu berupa angka 3 digit untuk menentukan frekuensi dan perintah menampilkan frekuensi dengan mengirimkan sms ―check‖ mikrokontroler akan membaca data sms yang diterima, apakah berupa pengendalian atau check status sistem, apabila berupa angka 3 digit maka mikrokontroler akan memproses data tersebut dan hasilnya akan disampaikan ke interface rs 232 dan dikirimkan kembali ke hp pengirim pesan sebagai report, oleh mikrokontroller data biner 12 bit digunakan untuk menampilkan data melalui 7segmen dan dihubungkan pararel dengan rangkaian pada radio frequency 
+pembahasan menguji fungsi tx dan rx pada max232 apakah berfungsi dengan baik
+uji dilakukan dengan cara mengirimkan data dari pc ke hp siemens melalui rs232 menggunakan program hyper terminal, program dibuka melalui program windows pada all program, accessories, hyper terminalsetelah program hyper terminal terbuka, buat koneksi baru
+kemudian atur connect using pilih com 1 untuk pengujian rs232
+atur baudrate sesuai dengan baudrate yang digunakan yaitu 19200bps seperti gambar 5
+21 = jumlah pasangan heksa pdu sms dimulai setelah nomor sms-centre, ditunjukkan pada gambar 6
+rs232berdasarkan hasil pengujian menunjukkan bahwa komunikasi antarmuka serial dengan telepon seluler berhasil
+pengujian rangkaian peraga 7 segmen pada table 1 dapat dilihat dari hasil pengujian rangkaian peraga 7 segmen didapatkan inputan angka dan outputan pada peraga 7 segmen sudah sesuai dan tidak terjadi kesalahan
+dari pengujian rangkaian peraga 7 segmen didapatkan untuk menampilkan angka pada 7 segmen, ic 7447 harus diberikan inputan + 5 volt dan + 0volt dari mikrokontroller
+gambar.7 gambar susunan led dari outputan ic 7447 c
+pengujian sistem keseluruhan pengendalian sudah dapat dikatakan berhasil meskipun masih terjadi error yang sangat kecil
+kesimpulan frekuensi pada stasiun pancar ulang, maka dapat diambil kesimpulan sebagai berikut: 1
+dari percobaan 10 kali pengiriman data melalui sms tidak terjadi kesalahan
+rangkaian pengendali frekuensi yang dirancang dapat mengendalikan frekuensi dengan cukup akurat karena hanya memiliki persentase error rata-rata 0, 000182%

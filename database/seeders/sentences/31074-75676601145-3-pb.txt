@@ -1,0 +1,46 @@
+eee paper template in a4 vol 5 no 1 april 2019 peramalan data kunjungan wisatawan #1, nissa almira mayangky #2, desiana nur kholifah # program studi magister ilmu komputer, stimik nusa mandiri jalan kramat raya no 18, kwitang, senen, jakarta pusat 1 indrathira@gmail.com 2 nisaalmayangky@gmail.com 3 desianankholifah@gmail.com 4 imanuelballa@gmail.com 5 windugata@gmail.com penting terhadap pertumbuhan ekonomi dari sektor pariwisata
+untuk meningkatkan kunjungan wisatawan mancanegara perlu dilakukan pembangunan yang berkelanjutan pada sektor pariwisata
+pembangunan yang dilakukan harus sejalan dengan tren pertumbuhan kunjungan wisatawan mancanegara agar pembangunan tepat sasaran, efektif dan efisien
+penelitian ini bertujuan untuk meramalkan kunjungan wisatawan mancanegara ke indonesia menggunakan metode fuzzy time series
+data historis yang digunakan adalah data kunjungan wisatawan mancanegara ke indonesia periode januari tahun 2013 sampai dengan desember tahun 2017 dari badan pusat statistik 
+implementasi fuzzy time series pada data historis menghasilkan mean absolute percentage error sebesar 4, 42 % dengan tingkat kesalahan tertinggi sebesar sebesar 18, 05% pada januari 2014 dan kesalahan terendah sebesar 0, 04% pada mei 2017
+hasil tersebut menunjukan bahwa penggunakan fuzzy time series pada peramalan data kunjungan wisatawan mancanegara ke indonesia memiliki hasil yang sangat baik
+pendahuluan sektor andalan indonesia dalam menghasilkan devisa untuk pembangunan
+pada periode tahun 1994-2002 kunjungan wisatawan mancanegara secara rata- rata meningkat sebesar 3, 0 persen; dan pada periode tahun 2004-2012 sebesar 13, 7 persen
+berdasarkan data unwto pertumbuhan kunjungan wisatawan tahun sebelumnya
+mancanegara ke indonesia harus di antisipasi dengan pembangunan fasilitas yang mendukung kemajuan pariwisata
+pembangunan yang dilakukan harus sejalan dengan pertumbuhan kunjungan wisatawan mancanegara ke indonesia
+untuk mengetahui pertumbuhan kunjungan wisatawan mancanegara pada tahun-tahun berikutnya, perlu dilakukan peramalan terhadap kunjungan wisatawan mancanegara ke indonesia
+peramalan terhadap kunjungan wisatawan telah banyak dilakukan diantaranya adalah-dengan menggunakan berbagai metode peramalan diantaranya adalah menggunakan exponential smoothing, fuzzy time series, moving average, dan sarima
+penelitian-penelitian sebelumnya memang melakukan dalam lingkup wilayah-, -atau bahkan spesifik pada tempat wisata tertentu
+oleh karena itu peramalan terhadap kunjungan wisatawan mancanegara ke indonesia perlu dilakukan dan diharapkan dapat membantu pemerintah indonesia dalam pengambilan keputusan mengenai proses pembangunan disektor wisata agar pembangunan yang dilakukan tepat sasaran, efektif dan efisien series sebagai salah satu metode peramalan dengan hasil peramalan lebih baik dibandingkan dengan beberapa metode lainnya,
+penggunaan fuzzy time series memang banyak digunakan dalam berbagai penelitian untuk keperluan prediksi dan peramalan selain pada kunjungan wisatawan, seperti yang telah dilakukan oleh-dan rata rata mendapatkan hasil peramalan dengan kriteria baik
+series dengan algoritma chen dengan penentuan interval menggunakan metode average based length
+berikut korespondensi : indra jiwana thira 19 adalah tahapan-tahapan yang ada pada fuzzy time series: menggunakan mean absolute percentage error yang merupakan rata-rata dari tingkat kesalahan dari keseluruhan data uji
+mape digunakan untuk mengukur akurasi dari peramalanfuzzy time series dalam bentuk persentase kesalahan pada setiap data hasil peramalan
+mape dihitung dengan rumus sebagai berikut : ∑ | | …
+ ( adalah jumlah data yang di observasi, adalah nilai aktual dan adalah nilai hasil peramalan pada periode t
+pada beberapa penelitian mape dibagi dalam beberapa kriteria seperti yang tercantum pada tabel 1
+tabel i kriteria mapeno nilai mape deskripsi 1 < 10% baik sekali 2 10%-20% baik indonesia diperoleh dari badan pusat statistik periode januari tahun 2013 sampai desember tahun 2017 dengan total sebanyak 60 data
+data kunjungan wisatawan mancanegara ke indonesia dari tahun 2013-2017 mengalami tren kenaikan dalam jangka panjang, tetapi dalam jangka pendek, atau hitungan bulan masih terlihat tejadi kenaikan ataupun penurunan
+grafik data wisatawan mancanegara tahun 2013-2017 dapat dilihat pada gambar 2
+2 grafik wisatawan mancanegara tahun 2013-2017 langkah 1: menentukan universe of discourse [ ]…
+berdasarkan data historis, didapatkan dan [ ] [ ] average based lengthdengan menghitung rata-rata selisih pada dengan menggunakan rumus: ∑ | | maka didapatkan nilai rata-rata selisih adalah 62, 036
+ yang akan digunakan untuk mencari i yaitu hasil dari penentuan basis menggunakan tabel iii
+selanjutnya dilakukan perhitungan untuk mendapatkan interval fuzzy dengan rumus: langkah 3: membagi semesta berdasarkan interval pembagian semesta didasarkan pada interval fuzzy yaitu 78, sehingga semesta terbagi menjadi u1 sampai dengan u78 dengan masing-masing jarak tiap semestanya adalah 10, 000
+tabel iv menunjukan semesta berdasarkan interval fuzzy
+hasil penentuan fuzzy sets dapat dilihat pada tabel v
+kedua adalah februari 2013 dengan jumlah wisatawan mancanegara 678, 415 masuk pada semesta u7 berdasarkan tabel iv dan memiliki fuzzy set a7 berdasarkan tabel v
+ketiga adalah maret 2013 dengan jumlah wisatawan mancanegara 725, 316 masuk pada semesta u12 berdasarkan tabel iv dan memiliki fuzzy set a12 berdasarkan tabel v
+cara yang sama dilakukan proses fuzzifikasi terhadap semua data historis maka didapatkan hasil pada tabel vi
+langkah 6: menentukan fuzzy logical relationship fuzzy logical relationship ditentukan berdasarkan tabel vi dengan ketentuan fuzzy sets pada -> maka akan didapatkan hasil pada tabel vii tabel vii a1  a7 a4  a9 a7  a12 a17  a22 a30 group proses pembentukan fuzzy logical relationship group adalah dengan menggabungkan fuzzy logical relationship yang memiliki sama
+contohnya adalah a9 -> a18 dam a9 -> a16 digabung menjadi satu group yang sama
+tabel viii menunjukan hasil dari pembentukan fuzzy logical relationship group
+februari 2013, memiliki flr a1->a7 dan flrg a1->a7 maka nilai prediksi merupakan nilai tengah dari u7 yaitu 679, 000
+3 grafik perbandingan aktual dengan prediksi tahun 2013- 2017 absolute percentage error yaitu rata-rata persentase kesalahan dari setiap prediksi yang dilakukan
+hasil akurasi peramalan dapat dilihat pada tabel x
+berdasarkan hasil perhitungan menggunakan rumus dan, nilai mape dari peramalan data kunjungan wisatawan mancanegara ke indonesia adalah 4, 42%
+gambar 3 menunjukan grafik perbandingan antara data aktual dengan hasil prediksi menggunakan fuzzy time series periode januari tahun 2013 sampai dengan desember tahun 2017
+kesimpulan fuzzy time series menghasilkan mape sebesar 4, 42% dengan error tertinggi sebesar 18, 05% pada januari 2014 dan error terendah sebesar 0, 04% pada mei 2017
+hasil tersebut menunjukan bahwa penggunakan fuzzy time series pada peramalan data kunjungan wisatawan mancanegara ke indonesia memiliki hasil yang sangat baik sesuai dengan tabel 2 mengenai kriteria mape
+penelitian ini belum menggunakan faktor-faktor yang mempengaruhi kunjungan wisatawan mancanegara ke indonesia seperti nilai tukar rupiah terhadap dolar amerika, kondisi politik dan keamanan

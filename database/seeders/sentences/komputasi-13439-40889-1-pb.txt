@@ -1,0 +1,16 @@
+erjadi pada wisatawan dalam menentukan tujuan wisata
+hal ini dikarenakan banyaknya pilihan objek wisata yang ada
+data dari bps provinsi kalimantan barat tahun 2014 menunjukan bahwa jumlah objek dan daya tarik wisata yang ada di provinsi kalimantan barat adalah sekitar 404 buah objek wisata dengan 56 objek yang menjadi daya tarik unggulan
+namun terbatasnya informasi yang ada membuat daerah tujuan wisata yang dipilih biasanya hanya objek wisata yang sering dikunjungi
+masih banyak objek wisata lain yang tidak terekspos dan kurang diperhatikan oleh wisatawan
+penelitian ini bertujuan untuk mengembangkan sistem pendukung keputusan yang dapat membantu pengguna menentukan tujuan pariwisata di kalimantan barat yang sesuai dengan kriteria
+penentuan tujuan pariwisata menggunakan logika fuzzy berdasarkan pada kriteria yang telah ditentukan
+kriteria yang digunakan untuk menentukan tujuan pariwisata adalah jenis, harga dan fasilitas
+kriteria jenis terdiri dari objek wisata alam, objek wisata budaya dan objek wisata minat khusus
+kriteria harga terdiri dari murah, sedang dan mahal kriteria fasilitas terdiri dari sedikit, sedang dan banyak
+sedangkan output dari kriteria pilihan tersebut berupa objek wisata yang terbagi menjadi tiga himpunan yaitu cukup baik, baik dan sangat baik
+hasil pengujian kuisioner yang dilakukan terhadap 100 orang responden menunjukan bahwa sistem dinilai positif dengan interpretasi lsr sebesar 6495 dan sistem dapat membantu dalam menentukan tujuan pariwisata
+berdasarkan hasil pengujian sistem yang telah dilakukan, dapat disimpulkan bahwa logika fuzzy dapat diterapkan pada sistem pendukung keputusan untuk pemilihan tujuan pariwisata dan mampu menghasilkan rekomendasi tujuan pariwisata terbaik sesuai dengan kriteria yang diinginkan
+data dari bps provinsi kalimantan barat tahun 2014 menunjukan bahwa objek wisata yang ada di kalimantan barat adalah 404 buah dengan 56 diantaranya merupakan objek wisata unggulan
+namun terbatasnya informasi mengenai objek wisata membuat daerah tujuan pariwisata biasanya hanya objek wisata yang sering dikunjungi
+permasalahan pengambilan keputusan untuk menentukan tujuan pariwisata dapat diselesaikan dengan menggunakan sistem pendukung keputusan, yang menjadi alat bantu bagi para pengambil keputusan untuk memperluas kapabilitas mereka, namun tidak untuk menggantikan penilaian mereka

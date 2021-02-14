@@ -1,0 +1,69 @@
+dalam universitas terdapat tahap akhir yang harus ditempuh oleh mahasiswa yaitu tugas akhir yang dalam prosesnya dibimbing oleh satu atau dua orang dosen pembimbing.penelitian ini mengusulkan perancangan aplikasi daring bimbingan tugas akhir yang diperuntukkan bagi mahasiswa dan dosen
+aplikasi ini dirancang dalam lingkup program studi teknik informatika universitas tanjungpura berdasarkan informasi dan prosedur pembuatan tugas akhir program studi teknik informatika
+adapun pengujian yang digunakan adalah metode black box dengan menggunakan teknik sample testing dan metode uat untuk memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan oleh pengguna
+hasil dari penelitian ini memberikan kemudahan bagi kedua dosen pembimbing untuk berkomunikasi mengenai mahasiswa bimbingannya dalam forum pembimbing karena proses bimbingan dapat dilakukan secara daring serta dilengkapi dengan pemberitahuan secara realtime melalui pesan elektronik atau email
+pendahuluan membutuhkan dukungan sistem informasi dalam peningkatan mutu pelayanan terhadap proses pendidikan
+proses pendidikan ini sangat banyak jenisnya diantaranya adalah bimbingan tugas akhir
+proses menulis skripsi atau tugas akhir adalah tahap akhir yang harus ditempuh oleh mahasiswa yang pada prosesnya dibimbing oleh dua orang dosen pembimbing
+dalam prakteknya aktifitas bimbingan tugas akhir ini dilakukan dengan diskusi, tanya jawab, pemberian masukan dan aktifitas lainnya
+kendala yang dihadapi dalam melakukan bimbingan dengan cara tatap muka yaitu sulitnya melakukan pencocokan waktu, form bimbingan yang tidak terorganisir sehingga dapat menyebabkan pencatatan yang tidak akurat serta mahasiswa diharuskan untuk selalu berada di kampus untuk mendapatkan informasi terbaru mengenai proses administrasi tugas akhir
+untuk mengatasi permasalahan tersebut maka diperlukan perancangan apikasi daring bimbingan tugas akhir bagi mahasiswa dan dosen tanpa melalui tatap muka
+pernah dilakukan oleh muhammad jaka p
+dalam aplikasi menggunakan lima tipe pengguna dan 10 pilihan menu
+tipe pengguna yang ada dalam aplikasi ini adalah administrator, dosen pembimbing skripsi, ketua program studi, staf jurusan, dan mahasiswa jurdikmat uny
+penelitian mengenai bimbingan online lainnya dilakukan oleh tjatur kandaga dan vinsensius felix aplikasi dalam penelitian ini memiliki tiga tipe pengguna dosen, mahasiswa dan ketua kelompok bidang keahlian
+aplikasi juga dapat menentukan secara otomatis pemilihan dosen pembimbing berdasarkan keahlian masing-masing
+adapun penelitian lainnya dilakukan oleh awaluddin rizal dimana aplikasi yang dibuat dalam penelitian tersebut berbasis web dengan menggunakan teknologi jsp 
+dari beberapa penelitian terkait sebelumnya, maka peneliti merancang sebuah aplikasi daring bimbingan tugas akhir yang didalamnya terdapat interaksi antara mahasiswa dan dosen begitu pula sebaliknya dan dibangun berbasis web dengan php
+ruang lingkup dalam penelitian ini adalahprogram studi teknik informatika universitas tanjungpura
+aplikasi ini dibangun agar dapat mempermudah dan mempercepat proses bimbingan antara dosen dengan mahasiswa
+sistem informasi yang mempertemukan kebutuhan pengolahan transaksi harian, membantu dan mendukung kegiatan operasi, bersifat manajerial dari suatu organisasi dan membantu mempermudah penyediaan laporan yang diperlukan
+alat perancangan sistem memodelkan aplikasi yang akan dibuat
+terdapat banyak bentuk model yang dapat digunakan dalam perancangan sebuah sistem antara lain model narasi, prototype, model grafis atau diagram dan lain sebagainya
+pada dunia pemodelan sistem terdapat sejumlah cara merepresentasikan sistem melalui diagram misalnya data flow diagram 
+daring sebagai suatu keadaan yang sedang menggunakan jaringan, terhubung dalam jaringan, satu perangkat dengan perangkat lainnya yang terhubung sehingga bisa saling berkomunikasi
+bimbingan tugas akhir memiliki arti sebagai petunjuk cara mengerjakan sesuatu, tuntunan atau pimpinan
+tugas akhir sendiri adalah karya ilmiah yang disusun oleh mahasiswa setiap program studi berdasarkan hasil penelitian suatu masalah yang dilakukan secara seksama dengan bimbingan dosen pembimbing
+bermanfaat yang diorganisasikann ke dalam tatacara yang khusus
+menurut gabbri dan schwab, basis data adalah sistem berkas terpadu yang dirancang terutama untuk meminimalkan pengulangan data
+sedangkan menurut date, basis data dapat dianggap sebagai tempat untuk sekumpulan berkas dan terkomputerisasi yang tujuan utamanya adalah melakukan pemeliharaan terhadap informasi dan membuat informasi tersebut tersedia saat dibutuhkan
+secara konsep, basis data adalah kumpulan data yang membentuk suatu berkas atau file yang saling berhubungan dengan atacara yang tertentu untuk membentuk data baru atau informasi
+sistem basis data merupakan perpaduan antara basis data dan sistem manajemen basis data
+basis data yang kompleks dan disertai dengan teknik pendokumentasian dan prosedur manipulasinya akan membentuk sistem manajemen basis data
+beberapa komponen-komponen sistem basis data adalah: 1
+perangkat keras, sebagai pendukung operasi pengolahan data
+aplikasi atau perangkat lunak lain yang bersifat opsional memiliki kewenangan sebagai pusat pengendali seluruh sistem baik basis data maupun program- program yang mengaksesnya, menentukan pola struktur basis data, memodifikasi, membagi tugas pengolahan dan memberikan otoritas terentu
+application programmer, yaitu programmer aplikasi yang berinteraksi dengan sistem melalui pemanggilan data manipulation language yang dimasukkan ke dalam program yang ditulis
+sophisticated users, yaitu pengguna yang berinteraksi dengan sistem tanpa harus menuliskan sendiri programnya, tetapi diganti dengan melakukan permintaan dalam bentuk bahasa query
+specialized users, yaitu pengguna yang menuliskan program aplikasi basis data khusus yang tidak sesuai dengan framework pemrosesan data tradisional e
+naive users, yaitu kebanyakan pengguna yang berinteraksi dengan siste dengan cara memanggil salah satu program aplikasi yang telah disediakan
+metodologi penelitian proses yang menampilkan langkah-langkah penelitian yang disimbolkan dalam bentuk kotak, beserta urutannya dengan menghubungkan masing-masing langkah tersebut gambar
+tahap penelitian dan pengumpulan informasi a) studi literatur berkaitan dengan sistem yang akan dibuat
+siapa yang akan menggunakan sistem tersebut?
+b) analisis pengguna pertanyaan 
+perangkat lunak apa saja yang akan digunakan dalam pembuatan sistem dan disesuaikan dengan perangkat keras yang akan digunakan
+d) analisis perangkat keras mengetahui perangkat keras apa saja yang dapat mengakomodasi pembuatan sistem
+tahap perencanaan sistem berdasarkan hasil pengumpulan informasi dari tahap pertama
+tahap perencanaan meliputi lima tahap, yaitu perancangan arsitektur sistem, perancangan diagram sequence sistem, perancangan diagram arus data, perancangan basis data serta perancangan antarmuka
+tahap pembuatan sistem desain yang telah dibuat, meliputi pembuatan basis data, pembuatan antar muka serta pengkodean 
+hasil dari tahap ini merupakan produk awal dari sistem pendukung bimbingan online
+tahap pengujian kelayakan sistem yang telah dibuat serta tanggapan dan penilaian pengguna setelah menggunakan sistem
+kemudian dilakukan analisis dari hasil pengujian yang dilakukan
+kekurangan sistem yang didapat pada saat melakukan pengujian
+kemudian dilakukan penarikan kesimpulan dan penulisan laporan menggambarkan keterkaitan aliran-aliran data antara sistem dengan bagian-bagian luar 
+kesatuan luar ini merupakan sumber arus data atau tujuan data yang berhubungan dengan sistem informasi tersebut
+diagram konteks memberikan batasan yang jelas mengenai besaran- besaran entitas yang berada diluar sistem yang sedang dibuat, artinya diagram ini menggambarkan secara jelas batasan- batasan dari sebuah sistem yang sedang dibuat
+sistem pendukung yang bertujuan mempermudah proses bimbingan tugas akhir antara dosen pembimbing dan mahasiswa bimbingannya, dapat menjadi forum komunikasi antara kedua dosen pembimbing dan dapat terpantau pelaksanaan bimbingan tugas akhir tersebut oleh ketua program studi
+berikut adalah tampilan dari aplikasi: gambar
+5 antarmuka halaman utama admin, dosen, ketua program studi dan ketua jurusan aplikasi daring bimbingan tugas akhir: 1
+mahasiswa hanya dapat login ke dalam sistem jika status spota telah closed, yaitu judul pra-outline mahasiswa telah disetujui oleh minimal 4 orang dosen dan telah mendapatkan dosen pembimbing dan dosen penguji
+hasil pengujian pengiriman email pemberitahuan menunjukkan bahwa jika mahasiswa mengirimkan diskusi bimbingan kepada dosen pembimbing, maka sistem akan secara otomatis mengirimkan email kepada dosen pembimbing, juga sebaliknya jika dosen pembimbing memberikan review bimbingan, maka sistem akan mengirimkan email kepada mahasiswa
+jika mahasiswa dinyatakan telah selesai bimbingan oleh kedua dosen pembimbing, maka sistem akan mengirimkan email pemberitahuan validasi kepada ketua program studi untuk dinyatakan siap dilanjutkan dalam seminar outline maupun sidang skripsi
+dosen pembimbing dan dosen penguji akan mendapatkan email pemberitahuan jika waktu seminar atau sidang skripsi telah di jadwalkan
+hasil perancangan dan pengujian sistem menunjukkan bahwa sistem ini menjadi solusi untuk proses bimbingan antara mahasiswa tugas akhir dan dosen pembimbing tanpa harus bertatap muka langsung, dapat menjadi forum komunikasi antara kedua pembimbing serta ketua program studi dapat memantau bimbingan tugas akhir mahasiswa
+perangkat lunak yang dirancang dinilai berhasil ditunjukkan dengan hasil perhitungan menggunakan skala likert’s summated rating gambar
+7 hasil penelitian pada interpretasi lsr v
+kesimpulan teknik informatika, maka dapat disimpulkan bahwa: 1
+aplikasi dapat membantu proses bimbingan tugas akhir antara dosen dan mahasiswa bimbingannya, karena proses bimbingan dapat dilakukan secara online serta dilengkapi dengan pemberitahuan secara realtime melalui pesan elektronik atau email
+pembimbing untuk berkomunikasi mengenai mahasiswa bimbingannya dalam forum pembimbing
+jurusan dalam memantau perkembangan bimbingan tugas akhir mahasiswa

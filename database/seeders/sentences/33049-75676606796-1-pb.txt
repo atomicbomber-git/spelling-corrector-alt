@@ -1,0 +1,105 @@
+we described the results of a study to determine the best features for algorithm ewsb 
+ewsb is a word clustering algorithm that can be used for all languages with a common feature
+we provided four alternative features that can be used for word similarity computation and experimented toward the indonesian language to determine the best feature format for the language
+we found that the best feature used in the algorithm to indonesian ewsb is t w w' format with 0 word relation
+moreover, we found that using 3-gram is better than 4-gram for all the proposed features
+average recall of 3-gram is 83.50%, while the average 4- gram recall is 57.25%
+introduction semantic distance in a thesaurus like wordnet or mesh, by using distributional similarity in a corpus, or by using information-theoretic methods
+thesaurus methods have a weakness, mainly because we don't have such thesauruses for every language
+even if we do, they have problems with recall, including many words are missing, most phrases are missing, some connections between senses are missing, and thesauri work less well for verbs and adjectives
+in additional, thesaurus methods only work if rich hyponymy knowledge is present in the thesaurus
+we focus on distributional rather than semantic similarity because of the low resource of indonesian language, including the semantic resource
+the intuition of distributional methods is that the meaning of a word is related to the distribution of words and punctuation marks around it
+in distributional methods, we can represent a word as a feature vector
+for example, suppose we had one binary feature fi representing each of the n words in the lexicon vi
+two entities can be said to be similar if they have similar characteristics or features; if some entities are grouped, they will be processed on the degree of similarity of each entity to one another
+because of the features possessed by an entity usually very much, usually those features selected or given weight in accordance with the purpose of the grouping
+if we define a universe, or a set containing, grouping with a bigger weight in the recommended age group would result in separating with 
+while grouping with a bigger weight on gender feature that separates the group will produce a with 
+selected features on a method determine the outcome of a process that uses such a method
+contextual word similarity can be determined by looking at the distribution of these words in a sentence
+the intuition of distributional methods is that the meaning of a word is related to the distribution of words around it
+for example, suppose there are three indonesian sentences in the corpus as follows : jokowi segera berkonsentrasi menghadapi pilkada dki jakarta, "waduh, no comment
+appears at the beginning of the sentence before the word segera
+appears immediately after the word pesaing
+appears after the word kata and located at the end of the sentence
+from these sentences, the features for the word can be determined, for example, ,, and others
+if there are other words that also have such a feature, it can be said that the word is similar in context with the word 
+a word w that appears around the word vi
+in general, the features can be defined as 
+for computational purposes, the features of a word in the sentence needs to be defined more specifically
+we describe the results of a study to determine the contextual word similarity features to words clustering in indonesian is appropriate
+issues raised in this study is a feature of what is best for determining the similarity of two words in indonesian through the distributional approach
+thus, the purpose of this research is to find the best feature of these problems
+the semantic similarity of words is a longstanding topic in computational linguistics because it is theoretically intriguing and has many applications in the field
+ker and zhangused man-made thesauri in their work to help to align words
+a number of semantic similarity measures have been proposed based on this hypothesis [4-9]
+a number of semantic clustering algorithms have been reported, such as those in [8, 10-18]
+some work has thus focused on a re-ranking strategy, geffet and dagan [12, 19] improved the output of a distributional similarity system for an entailment task using a web-based feature inclusion check, and comment that their filtering produces better outputs than cutting off the similarity pairs with the lowest ranking
+methodology jeff et aldeveloped an algorithm based on the linand named it word-similarity-based clustering algorithm
+based on the, sujainideveloped the algorithm and named it ewsb clustering algorithm
+wsb algorithm proposed by jeff et alusing the feature tw, where is taken from the n-gram that starts with w1 and ends with w2
+in ewsb algorithm, sujaini et alused the feature tw, where is taken from the n-gram with the position w1, r, and w2 are varies
+indonesian to obtain the best configuration of w1, r, and w2
+in this experiment, we tested 4 variations each using 3-gram and 4-gram
+word similarity of the equation is modified into: we used equation for the t w w' dan t w r w' formats, while for other formats, equation is modified into: for w w' t and w r w' t, and for w' w t and w' r w t
+variable t in equation, , and is a word in the word window that can be positioned left or right of the word window, while the relation is between w and w' which can consist of 0 or more words
+in this work, we perform a comparison of clustering algorithms ewsb with variation in n-gram features
+we conducted this experiment to determine the most appropriate features for indonesian
+in this experiment, we used 171k sentences indonesian corpus, as shown in figure
+1 which has the characteristics : 3, 406, 412 tokens, tokens of each sentence mean of 19.9, and 114, 758 unique tokens
+the number of words distributed between 1 and 97 words with an average of 20 words per sentence
+the 10 tokens with the highest count in the corpus are : 1
+example of indonesian corpus we conducted an experiment on 100 pairs of words that are considered similar to determine the best features of ewsb algorithm for indonesian manually
+100 pairs of test samples taken from the word unigram sorted from the largest value and sampled varies based on the types of word classes
+the inputs for this system are 200 words without their pairs information; the system output is a clustering result, that output compared against the reference word pairs
+in this experiment, we used 3- gram and 4-gram which four variations each of t w w', t w' w, w' r w t notation) is a way to represent graph-theoretical trees by using parentheses and commas
+agglomerative algorithms which have been adjusted to obtain the results of the newick format is as follows : 1
+initialize each unique word as a cluster 2
+calculate the similarity between two clusters 3
+sort ranking between all pairs of clusters based on similarity, then combine the two top clusters 4
+add clusters are combined in newick format 5
+stop until it reaches a single cluster if not, return to step 2
+dendrogram, where the dendrogram is a curve that describes the cluster grouping
+at this stage, newick format generated in the previous stage be used as input to obtain a visualization cluster dendrogram
+after that, we compared the results of each feature with reference to the word pairs and computed its precision and recall
+example of the system output to variations t w w' as newick format
+before we did the clustering process, we computed the word similarity between the words that define the input words
+word similarity score is shown in table i
+experiment result for t w w' format shows that of 200 words have a pair, 196 words clustered correctly according to the word pair in the initial clustering
+as shown in figure 2, four words that fail merged with its pair are, ,, and 
+the word not directly affiliated with, but first joined to the cluster, and then joined with the word 
+the word joined to the cluster while the word joined to the cluster 
+thus the feature with t w w' form produced a precision value of 98/98 = 100% and a recall of 98/100 = 98%
+precision value shows the percentage of correct pairs to the number of pairs found, while recall shows the percentage of correct pairs to the number of reference pair
+precision value of 100 % means that all pairs are found to be true, while the recall value of 98% means that there is a 2% reference pair that is not found in the output
+table i word 1 word 2 word similarity score primer recapitulation of the eight formats used are shown in table ii, from these results, it appears that the use of 3- gram is better than 4-gram
+average recall of 3-gram is 83.50%, while the average 4-gram recall is 57.25%; the difference between the values is 26.25%
+average precision 3-gram is 95.63%, while the average precision 4-gram is 77.92%; the difference between the values is 17.71%
+jeff et al proposed relation is between w and w'
+that format similar to twrw' at our format
+our research indicated that the format has a lower accuracy compared with t w w' format
+this is due to english being used by jeff et al have different grammars with indonesian
+this study also concluded that the 3-gram format better than the 4-gram format, because the number of features found in the corpus with 4-gram format is much less than the 3-gram format
+this is evident from the average for the 4-gram recall of 57.25 % compared with the average for the 3-gram recall of 83.5 %
+dendogram of t w w' format for it is interesting to analyze further why t w w' feature better than other features
+we observe from word pair computational results have been found using t w w' feature is shown in figure 2, but that word pair has not been found using t w' w feature is shown in figure 3
+dendogram of t w' w format for there are 94 features of the word, 423 features of the word, and 209 features of the word at t w w' format
+for example, the features for the word are : t = { ; has 3 words sequence of, 5.695 words sequence of, 28 words sequence of, dan 468 words sequence of 
+in the same way, i = 2.77259, i = 1.52343, information for each input word calculated as applicable to the word 
+to compute word similarity between two words, we computed first the intersection between t and t 
+for example, t ∩ t with each of its mutual information value are shown in table iii
+in comparison, t ∩ t only has one member as shown in table iv
+we obtained the word similarity by using equation, sim = 0.04197, and sim = 0.00335
+table iii t = t ∩ t = t ∩ dan_</s> 0.4955777673088 0.4955777673088 t ∩ t for t w' w format with each of its mutual information value are shown in table v
+in comparison, t ∩ t only has one member as shown in table iv
+we obtained the word similarity by using equation, sim = 0.04889, and sim = 0.05139
+this is caused by features t that intersect with t is much more than an intersection of t and t if using the t w w' format
+while using the t w' w format, features t that intersect with t is relatively the same as the intersection of t and t 
+while the t w' w format, w' words are more general such as, ,, , and that could be associated with the word, or 
+some examples of indonesian features generated from the corpus are shown in table vii-ix
+conclusion for word similarity computation and experimented against the indonesian language to determine the best feature format for the indonesian language
+from the results of experiments, the best feature is used in the ewsb algorithm for indonesian is t w w' format with the relation 0 word
+the number of features found in the corpus with 4-gram format is much less than the 3-gram format 
+this is why a 3-gram format better than the 4-gram format
+the best feature for other languages may be different, of course, it is necessary to do another experiment to determine the features that are suitable for use in a specific language to use the features of the proposed ewsb algorithm

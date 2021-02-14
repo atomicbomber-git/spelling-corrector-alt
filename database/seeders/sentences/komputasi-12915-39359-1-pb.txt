@@ -1,0 +1,128 @@
+bahasa merupakan alat komunikasi yang digunakan seseorang untuk menyampaikan ide, gagasan, konsep atau perasaan kepada orang lain
+ragam bahasa yang dimiliki setiap orang berbeda, hal ini yang terkadang menghalangi pertukaran informasi karena orang lain tidak memahami maksud dan tujuan yang ingin disampaikan, maka saat ini sedang dikembangkan teknologi mesin penerjemah
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter- parameternya diambil dari hasil analisis korpus paralel
+korpus paralel adalah pasangan korpus yang berisi kalimat-kalimat dalam suatu bahasa dan terjemahannya
+tujuan yang ingin dicapai dalam penelitian ini adalah mengetahui peranan kuantitas korpus pada mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia untuk mendapatkan nilai akurasi dalam melakukan pengujian hasil terjemahan
+pengujian untuk mendapatkan nilai akurasi dilakukan dengan dua cara, pertama pengujian otomatis menggunakan bleu
+kedua, pengujian manual oleh ahli bahasa bugis wajo
+pengujian dengan bleu menggunakan kelipatan mesin 200 terhadap 2000 kalimat uji diperoleh hasil bahwa semakin banyak jumlah mesin, maka semakin tinggi tingkat akurasi
+sedangkan pengujian manual diperoleh persentase rata- rata akurasi sebesar 80, 2% terhadap 20 kalimat uji
+pendahuluan bahasa merupakan alat komunikasi yang digunakan seseorang untuk menyampaikan ide, gagasan, konsep atau perasaan kepada orang lain
+pada dasarnya, bahasa memiliki fungsi-fungsi tertentu yang digunakan berdasarkan kebutuhan seseorang, di antaranya sebagai alat untuk mengekspresikan diri, berkomunikasi, beradaptasi dalam lingkungan sosial atau situasi tertentu
+ragam bahasa yang dimiliki setiap orang berbeda, hal ini yang terkadang menghalangi pertukaran informasi karena orang lain tidak memahami maksud dan tujuan yang ingin disampaikan
+keragaman bahasa dan budaya indonesia berdasarkan catatan badan pengembangan dan pembinaan bahasa serta kementerian pendidikan dan kebudayaan sedikitnya ada 442 bahasa yang dimiliki indonesia berdasarkan kongres bahasa ke-9 yang digelar pada tahun 2008
+pada tahun 2012, penelitian berlanjut dengan mengambil sampel di 70 lokasi di wilayah maluku dan papua
+hasil dari penelitian tersebut, jumlah bahasa dan sub bahasa di seluruh indonesia mencapai 546 bahasa dan kemungkinan jumlahnya akan terus bertambah karena penelitian yang dilakukan belum selesai
+perbedaan bahasa dapat menjadi penghalang pertukaran informasi, maka saat ini sedang dikembangkan teknologi mesin penerjemah
+mesin penerjemah merupakan alat penerjemah otomatis pada sebuah teks dari satu bahasa ke bahasa lainnya
+tujuan dari mesin penerjemah adalah untuk memudahkan komunikasi antara satu dengan yang lainnya dengan bahasa yang berbeda
+kualitas dari hasil terjemahan masih mengandung keterbatasan, yakni belum memberikan hasil terjemahan yang akurat dan terkadang menyebabkan hilangnya arti beserta maksud yang terkandung dalam suatu kalimat
+hasil terjemahan yang optimal dapat diperoleh dengan menggunakan konsep penerjemahan statistik
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+korpus paralel adalah pasangan korpus yang berisi kalimat-kalimat dalam suatu bahasa dan terjemahannya
+kualitas hasil terjemahan mesin penerjemah statistik menggunakan konsep bahwa, semakin dekat terjemahan sebuah mesin dengan terjemahan manusia, maka akan semakin baik
+namun dengan syarat yaitu kuantitas korpus paralel yang dimasukkan kedalam sistem dengan jumlah yang banyak
+berdasarkan uraian tersebut, maka akan dilakukan penelitian dengan mengimplementasikan mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia, yang selanjutnya dilakukan uji akurasi penerjemahan untuk mengetahui pengaruh dari kuantitas korpus terhadap hasil terjemahan
+penerjemahan adalah penempatan teks bahasa sumber dengan teks yang ekuivalen dalam bahasa sasaran
+“the replacement of textural material in one language (source pengaruh kuantitas korpus terhadap akurasi mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia tri apriani1, herry sujaini2, novi safriadi3 program studi teknik infornatika fakultas teknik universitas tanjungpura123 e-mail: 1trieapriani@gmail.com, 2herry_sujaini@yahoo.com, 3bangnops@gmail.com b
+proses penerjemahan proses penerjemahan terdiri dari 3 tahap yaitu analysis, transfer dan restructuring
+dalam proses analysis, penerjemah menganalisis isi pesan bahasa sumber berdasarkan gramatika dan makna
+pada tahap ini kalimat-kalimat bahasa sumber dipecah-pecah menjadi satuan-satuan gramatikal berstruktur kalimat-kalimat dasar, kata-kata dan frase-frase untuk menangkap makna yang ada dengan teknik analisis komponen
+tahap kedua, transfer, yaitu proses pengalihan materi-materi yang telah dianalisis dari bahasa sumber ke dalam bahasa sasaran
+tahap terakhir yaitu restructuring, bahwa penerjemah menyusun materi-materi yang telah dialihkan dan bertujuan untuk membuat pesan yang secara keseluruhan dapat diterima
+mesin penerjemah statistik mesin penerjemah statistik merupakan salah satu mesin penerjemah dengan menggunakan pendekatan statistik
+pendekatan statistik yang digunakan adalah konsep probabilitas
+konsep probabilitas pada mesin penerjemah statistik mengasumsikan bahwa setiap kalimat t merupakan sebuah kemungkinan hasil terjemahan dari kalimat s pada bahasa sumber
+melalui pendekatan bahwa teks yang diterjemahkan berdasarkan distribusi probabilitas p dapat dilakukan dengan teorema bayes yaitu: p = ������
+� bagian-bagian yang merupakan elemen kunci dalam language model adalah probabilitas dari rangkaian-rangkaian kata yang dituliskan sebagai p atau p 
+language model menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+rangkaian-rangkaian tersebut bisa berupa frase-frase atau kalimat-kalimat dan probabilitasnya dapat diperkirakan dari korpus dokumen-dokumen yang besar
+salah satu contoh pendekatan language model adalah n-gram model
+model bahasa n-gram merupakan jenis probalilistik language model untuk memprediksi item berikutnya dalam urutan tersebut dalam bentuk 
+model translasi bagian-bagian yang merupakan elemen kunci dalam language model statistik adalah probabilitas dari rangkaian- rangkaian kata yang dituliskan sebagai p atau p 
+language model menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+rangkaian-rangkaian tersebut bisa berupa frase- frase atau kalimat-kalimat dan probabilitasnya dapat diperkirakan dari korpus dokumen-dokumen yang besar
+salah satu contoh pendekatan language model adalah n-gram model
+model bahasa n-gram merupakan jenis probalilistik language model untuk memprediksi item berikutnya dalam urutan tersebut dalam bentuk 
+dalam model n-gram, probabilitas p mengamati kalimat w 1,
+, w m diperkirakan sebagai: probabilitas bersyarat dapat dihitung dari jumlah frekuensi n-gram dengan persamaan berikut ini
+� fungsi ���� max mencari t yang dapat memberikan nilai probabilitas terbesar yang diperoleh
+pada proses decoding menggunakan algoritma beam search
+beam search adalah algoritma pencarian heuristik yang merupakan optimasi dari pencarian best-first search yang mengurangi kebutuhan memorinya
+terdapat dua konsep penting dalam algoritma beam search yang digunakan, yaitu konsep pemangkasan dan estimasi future cost
+automatic evaluation sitem evaluasi otomatis yang populer saat ini adalah bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan tejemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+nilai bleu didapat dari hasil perkalian antara brevity penalty dengan rata-rata geometri dari modified precision score
+semakin tinggi nilai bleu, maka semakin akurat dengan rujukan
+nilai dari bleu berada pada rentang 0 sampai 1
+suatu terjemahan akan mencapai nilai 1 jika terjemahan tersebut identik dengan terjemahan rujukan
+oleh karena itu, meskipun dengan penerjemahan oleh manusia tidak mungkin akan menghasilkan nilai 1
+sangat penting untuk diketahui bahwa semakin banyak terjemahan rujukan per kalimatnya, maka akan semakin tinggi nilainya
+standar nilai n untuk bleu adalah 4
+� ∑ �� � ��� ��� �� keterangan: bp = brevity penalty c = jumlah kata dari hasil terjemahan otomatis r = jumlah kata rujukan ��= modified precission score �� = 1/n �� = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n-gram hasil terjemahan iii
+data penelitian data penelitian berupa dokumen adat budaya perkawinan suku bugis, dan cerita-cerita rakyat dari sulawesi selatan
+dokumen beserta cerita tersebut selanjutnya diolah menjadi korpus teks paralel bahasa indonesia dan bahasa bugis wajo
+adapun jumlahnya yaitu 2000 pasangan kalimat korpus paralel bahasa bugis wajo dan bahasa indonesia
+dengan jumlah 22159 token untuk korpus bahasa indonesia dan 18957 token untuk bahasa bugis wajo
+perangkat penelitian perangkat penelitian yang digunakan dalam penelitian ini terdiri dari perangkat keras dan perangkat lunak
+adapun perangkat keras yang digunakan dalam penelitian ini adalah laptop asus k42jz dengan spesifikasi prosesor intel core m 380, 14” hd led backlight, amd radeon hd 6470m with 512mb ddr3 vramram, ddr3 1066 mhz sdram, hdd 500 gb
+perangkat lunak yang digunakan dalam penelitian ini adalah: 1
+sublime text 2 untuk teks editor c
+metodologi penelitian gambar 3.1 diagram alir penelitian penelitian ini akan menggunakan beberapa metode
+metode yang akan digunakan dalam penelitian ini antara lain
+pengumpulan data pengumpulan data merupakan proses mengumpulkan data- data yang akan digunakan untuk penelitian
+pengumpulan data dilakukan dengan mengambil data dari dokumen adat budaya perkawinan suku bugis dan cerita-cerita rakyat dari daerah sulawesi selatan
+pembuatan korpus teks paralel korpus teks paralel yang dibuat terdiri dari teks bahasa indonesia dan teks bahasa bugis wajo yang bersumber dari dokumen adat budaya perkawinan suku bugis dan cerita- cerita rakyat dari daerah sulawesi selatan
+interferensi persiapan installer perangkat lunak melakukan instalasi perangkat lunak yang digunakan mesin penerjemah statistik dalam sub bab 3.2
+implementasi mesin penerjemah statistik implementasi dilakukan dengan cara melakukan pemodelan bahasa, pemodelan translasi dan decoding pada mesin penerjemah statistik bahasa bugis wajo bahasa indonesia
+pengujian atau evaluasi hasil terjemahan mesin translasi pengujian dilakukan untuk mendapatkan nilai akurasi terjemahan mesin translasi
+pengujian dilakukan dengan dua cara yaitu pengujian secara otomatis menggunakan bleu, dan pengujian manual yang dilakukan oleh ahli bahasa bugis wajo
+analisis hasil pengujian analisis hasil pengujian dilakukan untuk mengetahui karakteristik mesin penerjemah statistik bahasa bugis wajo bahasa indonesia dan mengidentifikasi apakah sudah sesuai dengan kebutuhan
+perancangan implementasi mesin penerjemah statistik perancangan untuk arsitektur sistem pada mesin penerjemah statistik terdiri dari beberapa proses yaitu pemodelan bahasa, decoding dan evaluasi hasil terjemahan
+arsitektur mesin penerjemah statistik dari bahasa bugis wajo ke bahasa indonesia diperlihatkan pada gambar 3.2
+gambar 3.2 arsitektur sistem mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia korpus paralel dalam file teks terdiri dari dua buah korpus yaitu korpus bahasa indonesia dan korpus bahasa bugis wajo
+gambar 3.3 merupakan arsitektur sistem mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia yang terdiri dari beberapa tahapan, yaitu tahap awal persiapan korpus paralel, pemodelan bahasa, proses decoding, dan tahap evaluasi hasil terjemahan
+implementasi mesin penerjemah statistik bugis wajo ke bahasa indonesia tahapan implementasi mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia terlebih dahulu korpus teks paralel yang telah dibuat dilakukan proses cleaning dan tokenisasi
+berikut merupakan perintah untuk melakukan cleaning dan tokenisasi yang dapat dilihat pada gambar 4.1
+gambar 4.1 perintah proses cleaning dan tokenisasi berdasarkan gambar 4.1 terdapat perintah untuk proses cleaning, tokenisasi dan lowercase
+fungsi dari proses cleaning yaitu menyaring data, seperti menghilangkan kata yang terlalu panjang sesuai batas yang ditentukan dan menghilangkan spasi ganda
+selanjutnya terdapat proses tokenisasi yang berfungsi untuk memotong string input berdasarkan tiap kata yang menyusunnya
+dan fungsi dari proses lowercase untuk mengubah huruf dalam dokumen menjadi huruf kecil
+implementasi giza++ untuk pemodelan translasi pemodelan translasi digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+berikut merupakan perintah untuk membangun model translasi yang dapat dilihat pada gambar 4.10
+gambar 4.10 perintah membangun model translasi berdasarkan gambar 4.10 proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan tabel model translasi
+dokumen-dokumen tersebut terdapat dalam folder yang didalamnya terdapat 4 file yaitu 
+decoding proses decoding digunakan untuk menemukan teks dalam bahasa target yang memiliki probabilitas paling besar dengan pertimbangan faktor translation model dan language model
+tools yang digunakan untuk proses decoding adalah moses
+berikut merupakan perintah untuk melakukan decoding dengan moses
+selanjutnya kalimat masukan tersebut akan diproses oleh decoder moses dan akan menghasilkan kalimat keluaran berupa kalimat hasil terjemahan ke dalam bahasa target 
+pengujian hasil terjemahan secara otomatis evaluasi secara otomatis dilakukan dengan bleu 
+pengujian hasil terjemahan mesin penerjemah bahasa bugis wajo ke bahasa indonesia terhadap kuantitas korpus menggunakan kalimat uji dengan jumlah korpus maksimal berikut merupakan perintah membuat output dalam bahasa target gambar 4.12 perintah membuat output setelah membuat output berupa hasil terjemahan otomatis dari mesin penerjemah, langkah selanjutnya adalah mendapatkan skor dari output dengan cara membandingkan output tersebut dengan korpus manual bahasa target yang telah dibuat sebelumnya
+perintah untuk menghitung skor terdapat pada gambar 4.8
+gambar 4.13 perintah menghitung skor output pengujian yang dilakukan terhadap kuantitas korpus terdiri dari kelipatan mesin 200
+setiap mesin menghasilkan nilai bleu yang berbeda
+secara umum hasil pengujian terjemahan terhadap kuantitas korpus diperlihatkan pada tabel 4.1
+tabel 4.1 hasil pengujian penerjemahan terhadap kuantitas korpus mesin nilai bleu grafik hasil pengujian terjemahan terhadap kuantitas korpus terdapat pada gambar 4.14
+gambar 4.14 grafik hasil pengujian penerjemahan terhadap kuantitas korpus e
+pengujian hasil terjemahan secara manual pengujian secara manual dilakukan oleh ahli bahasa bugis wajo
+dalam penelitian ini ahli bahasa terdiri dari seorang mahasiswa, dan dua orang karyawan swasta
+pengujian secara manual menggunakan sampel kalimat dari korpus dengan jumlah 20 kalimat bahasa bugis wajo sebagai kalimat bahasa sumber dan bahasa indonesia sebagai kalimat bahasa target hasil koreksi kalimat bahasa target menurut ahli bahasa terdapat pada lampiran e
+berdasarkan hasil penilaian dari ketiga ahli bahasa bugis wajo, mereka memberikan penilaian yang berbeda sesuai dengan pengetahuan dan pemahaman masing-masing
+perhitungan akurasi manual dilakukan dengan persamaan berikut: p = � penilaian dari ahli bahasa r = jumlah kata hasil terjemahan secara umum hasil penilaian manual bahasa bugis wajo ke bahasa indonesia dapat dilihat pada tabel 4.2
+perhitungan dilakukan untuk membandingkan hasil penilaian secara manual dengan otomatis
+secara umum hasil penilaian secara otomatis bahasa bugis wajo ke bahasa indonesia dapat dilihat pada tabel 4.3
+tabel 4.3 hasil penilaian otomatis dengan bleu score pengujian secara f
+analisis hasil pengujian berikut merupakan analisis terhadap hasil pengujian yang telah dilakukan
+berdasarkan hasil uji akurasi terhadap kuantitas korpus pada mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia untuk mendapatkan nilai akurasi dalam melakukan pengujian hasil terjemahan dari mesin 200 sampai dengan 2000 terhadap kalimat uji dengan jumlah korpus maksimal diperoleh hasil bahwa, semakin banyak jumlah mesin, maka semakin tinggi tingkat akurasi
+adapun perkiraan jumlah korpus pada mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia untuk mencapai persentase akurasi sebesar 70% diperlukan sebanyak kurang lebih 3274 korpus
+persentase akurasi sebesar 80% diperlukan sebanyak kurang lebih 4240 korpus
+perkiraan jumlah korpus untuk mencapai persentase akurasi sebesar 90% diperlukan sebanyak kurang lebih 5206 korpus
+berdasarkan penilaian manual oleh ahli bahasa kalimat yang diterjemahkan dengan tepat pada pengujian bahasa bugis wajo ke bahasa indonesia rata-rata sebesar 80, 2% yang diperlihatkan pada tabel 4.2
+sedangkan hasil perhitungan bleu score dengan membandingkan penilaian secara manual diperoleh rata-rata sebesar 81, 5% yang diperlihatkan pada tabel 4.3
+penilaian manual sangat dipengaruhi oleh pengetahuan dan pemahaman ahli bahasa
+kesimpulan/ringkasan berdasarkan hasil analisa dan pengujian yang telah dilakukan, maka dapat disimpulkan bahwa: 1
+mesin penerjemah statistik dapat diimplementasikan untuk menerjemahkan bahasa bugis wajo ke bahasa indonesia
+peranan kuantitas korpus terhadap hasil uji akurasi mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia untuk mendapatkan akurasi sebesar 90% diperlukan kira-kira 5206 korpus
+hasil penilaian manual oleh ahli bahasa bugis wajo untuk kalimat yang diterjemahkan dengan tepat pada pengujian bahasa bugis wajo ke bahasa indonesia rata-rata persentase sebesar 80, 2%
+sedangkan hasil perhitungan otomatis dengan bleu score yang membandingkan penilaian secara manual diperoleh rata-rata persentase sebesar 81, 5%

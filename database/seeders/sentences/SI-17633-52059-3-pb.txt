@@ -1,0 +1,75 @@
+globalisasi sudah menjadi sebuah fenomena yang mempengaruhi semua aspek kehidupan bangsa indonesia
+hal ini juga mengubah penggunaan kata dalam bahasa indonesia yang dianggap kurang bergengsi, kurang nyaman, bahkan dianggap kurang bergaya
+sikap ini juga terjadi di media elektronik yang sering memakai kosakata bahasa inggris atau bahkan terkadang mengubah kosakata bahasa indonesia itu sendiri
+perkembangan game yang ada dewasa ini sejalan dengan perkembangan teknologi informasi
+tidak semua game hanya mengandalkan ketangkasan pemain dalam menggunakan mouse ataupun menekan tombol-tombol keyboard
+akan tetapi ada juga game yang dapat mendidik atau melatih pengetahuan dari pemain
+contohnya permainan yang berhubungan dengan kata
+shiritori merupakan salah satu contoh permainan yang berhubungan dengan kata
+permainan shiritori ini memiliki konsep bermain sambil belajar, karena selain mendapatkan kesenangan dari mengotak-atik huruf-huruf yang ada juga membantu mengasah otak untuk menemukan kata lain yang terdapat dari huruf-huruf yang diberikan
+shiritori ini merupakan sebuah permainan kata yang berasal dari jepang dan untuk saat ini shiritori yang ada hanya bahasa jepang dan bahasa inggris
+berdasarkan permasalah di atas untuk memfasilitasi game shiritori dalam bahasa indonesia, maka akan dibuat game shiritori dalam bahasa indonesia dengan menggunakan algoritma aho-corasick untuk pencarian string dalam kamus
+permainan dibuat berbasis web dengan tujuan agar dapat dimainkan di semua gadget baik laptop, android, ios, dan lainnya
+pengujian pada penelitian ini dilakukan dengan pengujian black box
+pendahuluan globalisasi sudah menjadi sebuah fenomena yang mempengaruhi semua aspek dalam kehidupan bangsa indonesia
+hal ini juga mengubah bahasa indonesia terutama pada kota-kota besar
+penggunaan kata dalam bahasa indonesia yang resmi dianggap kurang bergengsi, kurang nyaman, bahkan dirasakan kurang bergaya
+sikap ini juga terjadi pada media elektronik yang sering memakai kosakata bahasa inggris atau bahkan terkadang mengubah kosakata bahasa indonesia itu sendiri
+hilangnya satu persatu kosakata bahasa indonesia yang sudah ditulis dalam kamus besar bahasa indonesia dapat berdampak buruk bagi bangsa ini
+pentingnya pembelajaran kosakata bahasa indonesia ini dapat dilakukan dari dewasa hingga anak- anak melalui segala media informasi dan teknologi
+game didefinisiskan sebagai aktivitas terstruktur atau semi terstruktur yang pada umumnya ditujukan untuk kesenangan dan dimanfaatkan
+elemen kunci dari sebuah permainan yaitu tujuan, tantangan, dan interaksi yang pada umumnya menstimulasi fisik dan kejiwaan para pemainnya
+beberapa jenis permainan keterampilan sensorik dan motorik, serta memiliki fungsi sebagai sarana latihan fisik dan mental perkembangan game yang ada dewasa ini sejalan dengan perkembangan teknologi informasi
+tidak semua game hanya mengandalkan ketangkasan pemain dalam menggunakan mouse ataupun menekan tombol-tombol keyboard
+akan tetapi ada juga game yang dapat mendidik atau melatih pengetahuan dari pemain
+contohnya permainan yang berhubungan dengan kata dalam bahasa indonesia
+shiritori merupakan salah satu contoh permainan yang berhubungan dengan kata
+permainan shiritori itu sendiri memiliki konsep bermain sambil belajar, karena selain mendapatkan kesenangan dari mengotak-atik huruf-huruf yang ada juga membantu mengasah otak untuk menemukan kata lain yang terdapat dalam huruf-huruf yang diberikan
+permainan shiritori ini tidak akan menyita waktu karena tidak membutuhkan waktu yang lama untuk menyelesaikannya dan juga permainan ini dapat dimainkan diwaktu senggang maupun disaat membutuhkan hiburan setelah seharian menjalani rutinitas yang ada
+shiritori adalah permainan kata yang pemainnya secara bergiliran mengucapkan kata dari huruf terakhir dari kata yang diucapkan sebelumnya
+permainan segala usia ini dimainkan oleh dua orang atau lebih
+meskipun peraturan permainan ini sederhana, peraturan permainan dapat dibuat lebih terinci oleh kelompok orang yang memainkannya
+penafsiran mengenai huruf terakhir dari sebuah kata juga dapat berbeda-beda
+pada saat ini shiritori dapat dimainkan melalui media sony shanivan#1, novi safriadi#2, yulianti#3
+#program studi teknik informatika fakultas teknik universitas tanjungpura 1shanivan.sony@gmail.com, 2 bangnops@gmail.com, 3y_suanda@gmail.com rancang bangun aplikasi game edukasi shiritori bahasa indonesia dengan algoritma ahocorasick berbasis web jl
+akan tetapi sangat disayangkan belum ada yang memfasilitasi shiritori dalam bahasa indonesia
+berdasarkan permasalahan diatas untuk memfasilitasi game shiritori dalam bahasa indonesia, maka akan dibuat game shiritori dalam bahasa indonesia yang berbasis web
+berbasis web bertujuan agar dapat dimainkan di semua perangkat dan semua sistem operasi baik itu komputer, notebook dan smartphone 
+dalam membangun sebuah aplikasi permainan diperlukan sebuah algoritma dalam penyelesaiannya
+ada beberapa algoritma yang bisa dipakai dalam menyelesaikan suatu masalah
+dalam perancangan aplikasi permainan shiritori ini algoritma yang dipakai adalah algoritma aho-corasick
+algoritma aho-corasick ini adalah sebuah algoritma pencocokan yang menempatkan unsur-unsur dari sebuah himpunan berhingga dari string dalam sebuah teks input
+berdasarkan uraian di atas penulis akan membangun sebuah aplikasi game edukasi shiritori bahasa indonesia berbasis web dengan algoritma aho-corasick agar nantinya dapat dipublikasikan melalui internet dan dapat diakses oleh publik lewat internet ii
+game edukasi game edukasi adalah permainan yang dirancang atau dibuat untuk merangsang daya pikir untuk meningkatkan kosentrasi dan memecahkan masalah
+game edukasi ini juga digunakan untuk memberikan pengajaran atau menambah pengetahuan penggunanya melalui suatu media yang menarik
+dalam arti harfiahnya mengambil bagian belakang
+permainan shiritori shiritori adalah permainan kata bahasa jepang yang pemainnya mengucapkan kata yang dimulai dari huruf terakhir pada kata yang diucapkan oleh pemain sebelumnya
+permainan segala usia ini dimainkan dua orang atau lebih
+meskipun peraturan permainan ini pada prinsipnya sederhana, peraturan permainan ini dapat dibuat menjadi lebih terinci oleh kelompok orang yang memainkannya
+algoritma aho-corasick algoritma aho-corasick adalah pencarian string atau sering juga disebut pencocokan string yang ditemukan oleh alfred v
+algoritma ini merupakan algoritma penyesuaian kamus yang menempatkan elemen dalam kumpulan string yang tak terhingga
+algoritma ini juga menyesuaikan semua pola secara bersamaan
+algoritma aho-corasick ini didasarkan pada keyword trie
+trie adalah sruktur data ordered tree yang dipergunakan untuk menyimpan set yang dinamis atau array assosiatif dimana kunci yang ada biasanya berupa string
+desain aplikasi desain aplikasi ini akan melewati berbagai tahap baik dari perancangan algoritma, penerapan algoritma ke dalam game, desain game, sistem penilaian dan desain interface dari aplikasi yang akan dibuat e
+perancangan algoritma dan penerapan ke dalam game algoritma yang akan digunakan untuk membangun game shiritori ini adalah algoritma aho-corasick
+algoritma ini akan digunakan sistem untuk mencocokkan huruf ke dalam kamus dan membuat tries dari kamus gambar 2
+contoh kata yang dimasukkan ke tries huruf kata input ke huruf iii
+hasil perancangan aplikasi game edukasi yang dibuat diberi nama game edukasi shiritori bahasa indonesia
+game yang dibuat ini berbasis web dengan sistem education yang dapat memberikan alternatif bagi masyarakat dalam mempelajari kosakata bahasa indonesia b
+penerapan algoritma pada permainan penerapan algoritma aho-corasick pada permainan ini pada fungsi php menggunakan fungsi preg_replace
+fungsi ini nantinya akan membentuk tries dari kata-kata yang diinputkan pemain
+implementasi antar muka aplikasi implementasi antar muka merupakan tahap dimana sebuah aplikasi siap dioperasikan pada tahap sebenarnya, sehingga bisa diketahui apakah aplikasi yang telah dibuat dengan apa yang dirancang sebelumnya
+hasil black box pengujian black box atau black box testing adalah menguji perangkat lunak dari segi spesifikasi fungsional tanpa menguji desain dan kode program
+hasil pengujian black box ini bertujuan untuk menunjukkan fungsi perangkat lunak tentang cara beroperasinya, apakah telah berjalan sebagaimana yang telah diharapkan
+berikut ini adalah tabel perencan pengujian aplikasi tabel 2
+hasil pengujian objek uji detail pengujian hasil tombol shiritori indonesia tombol daftar daftar user pemain tampil tombol batal batal mendaftar tampil tombol keluar keluar tampil tombol nama_pemain mengajak/menerima permainan tampil tombol batalkan membatalkan ajakan ke pemain tampil tombol ok penginputan kata tampil tombol menyerah menyerah dan keluar dari permainan tampil tombol kembali kembali ke beranda tampil
+analisis hasil dari pengujian yang telah dilakukan, adapun hasil analisis yang didapat dari game shiritori indonesia ini adalah sebagai berikut : 1
+hasil perancangan dan pengujian menunjukkan bahwa aplikasi ini dapat digunakan dan berjalan lancar
+tombol-tombol yang melewati pengujian black box sebagian besar berhasil dan tidak mengalami masalah
+penerapan algoritma aho-corasick pada aplikasi berhasil tanpa mengalami kendala
+kesimpulan/ringkasan berdasarkan hasil analisis dan pengujian aplikasi game edukasi shiritori indonesia dengan menggunakan algoritma aho-corasick, maka dapat disimpulkan bahwa : 1
+game shiritori indonesia ini merupakan permainan kosakata indonesia
+algoritma aho-corasick merupakan algoritma pencarian string, merupakan salah satu algoritma tercepat
+sehingga algoritma ini bisa dan dapat digunakan pada game shiritori indonesia
+game juga dapat dimainkan berbagai macam jenis gadget karena game ini berbasis web

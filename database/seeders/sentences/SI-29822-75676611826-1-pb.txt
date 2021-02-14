@@ -1,0 +1,75 @@
+ubmitted 26-11-2018; revised 18-12-2018; accepted 31-12-2018 228 aplikasi forum komunikasi program studi informatika dengan teknologi web service siakad untan muhammad arief maulana#1, novi safriadi#2, enda esyudha pratama#3 #program studi informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, bansir laut, pontianak tenggara, kota pontianak, kalimantan barat 78115 1 ituarief@gmail.com 2safriadi@informatics.untan.ac.id 3enda@informatika.untan.ac.id dosen, mahasiswa dan staf
+cara dosen menyampaikan informasi di lingkungan program studi informatika masih berupa pengumuman, melalui sms kepada mahasiswa tertentu, majalah dinding, atau whatsapp
+cara ini kurang efektif dikarenakan manajemen grup kelas dari whatsapp atau kontak mahasiswa yang dihubungi menjadi lebih banyak
+hal ini dapat menyebabkan kesalahan pemberian informasi ke grup atau mahasiswa yang berbeda
+mahasiswa dan dosen juga akan mendaptkan kesulitan untuk berdiskusi tentang informasi yang diberikan apabila hanya berupa pengumuman di majalah dinding dan tidak semua mahasiswa mendapatkan informasi yang diberikan
+untuk mengatasinya adalah dengan berdiskusi langsung seperti forum
+dengan adanya forum, dosen tidak perlu manajemen grup-grup whatsapp, kontak mahasiswa perwakilan, dan pengumuman majalah dinding
+dosen dapat langsung memberikan informasi yang ingin diberikan melalui forum dengan topik dan mata kuliah yang sesuai dengan informasi yang ingin diberikan setelah dosen memberikan informasi tersebut maka mahasiswa yang bersangkutan dengan mata kuliah tersebut akan secara otomatis mendapatkan notifikasi berupa email bahwa terdapat pengumuman baru dari mata kuliah yang bersangkutan
+pendahuluan komunikasi, sejarah perkembangan teknologi informasi, dan sejarah teknologi informasi
+perubahan ini jelas mempengaruhi pola komunikasi dan hubungan yang kita lakukan dengan orang lain serta mempengaruhi kehidupan kita di bidang lainnya, misalnya dalam bidang pekerjaan atau komunikasi bisnis ataupun komunikasi organisasi, pendidikan atau komunikasi pembelajaran, komunikasi kesehatan, komunikasi pemasaran utamanya dalam strategi komunikasi pemasaran, komunikasi internasional, dan lain-lain
+forum berbasis internet ini sudah dikenal sejak tahun 1995, dan fungsinya mirip bahkan lebih baik dari papan buletin dan milis internet yang sudah ada sejak tahun 1980-an
+perasaan komunitas virtual sering muncul pada forum- forum yang memiliki anggota tetap
+teknologi, permainan komputer, dan politik merupakan tema paling populer yang menjadi pokok bahasan forum internet, tetapi masih banyak lagi topik-topik lainnya
+cara dosen menyampaikan informasi di lingkungan program studi informatika masih berupa pengumuman, melalui sms kepada mahasiswa tertentu, majalah dinding, atau whatsapp
+cara ini kurang efektif dikarenakan manajemen grup kelas dari whatsapp atau kontak mahasiswa yang dihubungi menjadi lebih banyak
+hal ini dapat menyebabkan kesalahan pemberian informasi ke grup atau mahasiswa yang berbeda
+mahasiswa dan dosen juga akan mendaptkan kesulitan untuk berdiskusi tentang informasi yang diberikan apabila hanya berupa pengumuman di majalah dinding dan tidak semua mahasiswa mendapatkan informasi yang diberikan
+maka dengan adanya forum, dosen tidak perlu manajemen grup-grup whatsapp, kontak mahasiswa perwakilan, dan pengumuman majalah dinding
+dosen dapat langsung memberikan informasi yang ingin diberikan melalui forum dengan topik dan mata kuliah yang sesuai dengan informasi yang ingin diberikan
+setelah dosen memberikan informasi tersebut maka mahasiswa yang bersangkutan dengan mata kuliah tersebut akan secara otomatis mendapatkan notifikasi berupa email bahwa terdapat pengumuman baru dari mata kuliah yang bersangkutan
+dosen, mahasiswa maupun staf juga dapat memberikan informasi diluar mata kuliah untuk dibagikan bersama dan didiskusikan bersama
+forum ini diimplementasikan dengan web service untuk melakukan login menggunakan akun siakad yang bertujuan untuk membatasi forum ini hanya dapat diakses oleh mahasiswa, dosen dan staf di program studi informatika universitas tanjungpura
+kajian terkait dengan tema job sharing system pada program studi teknik informatika universitas tanjungpura
+dalam penelitian ini, kami mengambil metode penelitian fitur forum, dan memiliki 3 user login yaitu admin, dosen dan mahasiswa
+website berhubungan yang umumnya berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi
+sebuah situs web biasanya ditempatkan setidaknya pada sebuah server web yang dapat diakses melalui jaringan seperti internet, ataupun jaringan wilayah lokal melalui alamat internet yang dikenali sebagai url
+gabungan atas semua situs yang dapat diakses publik di internet disebut pula sebagai world wide web atau lebih dikenal dengan singkatan www
+namun forum lebih berfokus untuk sebuah komunitas besar, dimana didalam forum tersebut terbagi menjadi sub-sub dari forum itu, lebih jelasnya didalam forum tersebut ada pembagian topik yang dibuat untuk memudahkan penggunanya dalam berinteraksi atau bisa diartikan sebagai tempat untuk berinteraksi bagi para anggotanya dimana dengan adanya topik pembahasan di tiap-tiap forum bisa mempermudah para anggota dalam mencari sebuah informasi
+forum juga suatu sarana untuk mencari informasi yang bisa di katakan lebih lengkap dan lebih detail, forum juga dapat di gunakan sebagai tempat untuk berdiskusi, dengan adanya forum, maka dapat saling berinteraksi satu sama lain dengan anggota yang ada di forum
+di dalam forum terdapat topik-topik yang dapat dipilih dan digunakan penggunanya tergantung kebutuhan pengguna tersebut
+misalkan bila kita ingin membuat thread mengenai cara- cara mengajukan judul skripsi, maka kita harus memasukan thread kita di topik tugas akhir, maka seperti itulah kegunaan forum dan sub forum
+kegunaan dari forum sendiri sangat banyak, diantaranya kita bisa bisa mencari informasi yang kita butuhkan, karena di forum khusunya forum yang sudah besar dan sudah sangat terkenal, banyak pilihan yang bisa kita dapatkan dari informasi yang kita butuhkan tersebut
+web service dibangun menggunakan standar teknologi internet, dengan kata lain jika sebuah aplikasi dapat diakses melalui jaringan menggunakan kombinasi protokol seperti http, xml, smtp atau jabber maka itu adalah web service
+json json adalah suatu format pertukaran data komputer
+format dari json adalah berbasis teks, dapat terbaca oleh manusia, digunakan untuk mempresentasikan struktur data sederhana, dan tidak bergantung dengan bahasa apapuf
+uat uat adalah pengujian user acceptance testing, pada jenis pengujian ini, perangkat lunak akan diserahkan kepada pengguna untuk mengetahui apakah perangkat lunak memenuhi harapan pengguna dan bekerja seperti yang diharapkan
+teknik user acceptance test merupakan pengujian terakhir sebelum sistem dipakai oleh user yang melibatkan pengujian dengan data pengguna sistem
+user acceptance test adalah uji terima perangkat lunak yang dilakukan di tempat pengguna oleh user perangkat lunak tersebut
+tujuan pengujian ini adalah untuk menguji apakah sistem sudah sesuai dengan apa yang tertuang dalam spesifikasi fungsional sistem 
+analisis kebutuhan membeerikan hasil yang optimalfungsi yang dibutuhkan oleh user adalah sistem dapat melakukan login, terdiri diri dari data login siakad untuk dosen maupun mahasiswa dan sistem juga dapat melakukan input data terdiri dari data thread, data komentar dan data topik
+pengumpulan data data mahasiswa, data dosen dan data staf program studi universitas tanjungpura
+setelah berhasil melakukan login selanjutnya akan melakukan input data berupa thread dan komentar dan menghasilkan data output
+perancangan arsitektur sistem dapan dilihat pada gambar 1 berikut
+gambaran umum terhadap proses yang berlangsung dalam sistemdiagram konteks dapat dilihat pada gambar 2 berikut
+diagram overview urutan-urutan proses yang terjadi pada diagram konteks
+diagram overview dapat dilihat pada gambar 3 berikut
+erd merupakan suatu model untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek- objek dasar data yang mempunyai hubungan antar relasi
+erd memodelkan struktur data dan hubungan antar data, untuk menggambarkannya digunakan notasi dan simbol
+berikut tampilan erd yang dirancang dapat dilihat pada gambar 4 berikut
+perancangan antarmuka yang memiliki fungsi tertentu sesuai dengan proses yang ada
+perancangan antaramuka dapat dilihat pada gambar 5 berikut
+pada bab ini akan dilakukan implementasi dan hasil pengujian terhadap aplikasi
+tahapan ini dilakukan setelah perancangan sistem selesai dan selanjutnya akan diimplementasikan kemudian dilakukan pengujian menambahkan thread dan thread itu akan dikirim kepada penerima melalui email sehingga thread tersebut dapat tersampaikan
+berikut ini adalah tampilan dari sistem yang telah dirancang
+tampilan halaman login membuat user untuk melakukan login terlebih dahulu dengan mengisi username dan password siakad
+ketika user berhasil login maka user akan langsung diarahkan ke dashboard forum
+ketika user berhasil login dan masuk maka akan diberikan menu seperti buat thread dan menu-menu lainya seperti pada gambar berikut
+ketika menekan tombol buat thread maka thread akan terkirim dan penerima akan mendapat sebuah notifikasi email yang berisikan judul nama pengirim dan link thread tersebut seperti pada gambar berikut
+pengujian blackbox engineers untuk memperoleh set kondisi input yang sepenuhnya akan melaksanakan persyaratan fungsional untuk sebuah program
+yang di uji dengan blackbox adalah data login, thread, komentar, reply komentar
+fungsi contoh fungsi hasil fungsi contoh fungsi hasil berhasil data berhasil diubah
+mahasiswa dapat dilihat pada tabel berikut
+sangat setuju setuju cukup setuju tidak setuju sangat tidak setuju gambar 9
+diagram aspek rekayasa perangkat lunak d
+pengujian uat hasil pengujian uat dapat dilihat pada tabel berikut
+jumlah skor untuk seluruh responden: • maksimal = 2100 • minimal = 420 • median = 1260 • kuartil iii = 1680 3
+interpretasi jumlah skor tersebut adalah: • 1680 < skor ≤ 2100, artinya sangat positif • 1260 < skor ≤ 1680, artinya positif • 840 < skor ≤ 1260, artinya negatif • 420 ≤ skor ≤ 840, artinya sangat negatif gambar 10
+skor dalam skala likerts gambar 10 menunjukkan bahwa hasil penelitian berada diantara skor 1680 dan 2100 yang berarti, hasil kuesioner menandakan responden menilai aplikasi sangat positif dan dinilai berhasil
+hasil pengujian black box menunjukan bahwa komponen-komponen dari sistem telah berfunsi sesuai dengan yang diharapkan informatika universitas tanjungpura, bahwa dianggap sangat layak digunakan, hal ini terlihat pada tanggapan pernyataan pada table xi 3
+hasil intrepretasi skor dari likert’s summated rating menunjukan user rata-rata memberikan nilai 4 dan 5
+aplikasi mendapatkan skor 1827 dengan nilai sangat positif yang berarti aplikasi dinilai berhasil dan berfungsi sebagaimana mestinya dapat disimpulkan bahwa: 1
+forum komunikasi program studi informatika telah berhasil dibangun sehingga bisa digunakan di lingkungan program studi informatika unversitas tanjungpura
+hasil pengujian yang diukur dengan metode uat menunjukan bahwa responden menilai sistem sangat positif dan berhasil dapat dikategorikan sangat setuju dengan menghasilkan nilai 1827 dari 10 pernyataan yang diberikan
+aplikasi forum berhasil dibangun sehingga dapat memudahkan berkomunikasi dan informasi antar mahasiswa, dosen dan staf dalam suatu forum di program studi informatika universitas tanjungpura

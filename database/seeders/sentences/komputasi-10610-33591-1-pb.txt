@@ -1,0 +1,43 @@
+spota) program studi teknik informatika universitas tanjungpura berbasis android ridwan tasa dirsa ridwan.tif09@gmail.com pengerjaan tugas akhir yang harus dilalui oleh mahasiswa pada program studi teknik informatika universitas tanjungpura
+melalui spota, mahasiswa dapat mengajukan topik tugas akhir secara online sehingga terjadi interaksi antara dosen dan mahasiswa baik itu tanya jawab, arahan maupun koreksi dari draft usulan yang diajukan
+namun, tidak adanya pemberitahuan secara realtime membuat interaksi antara dosen dan mahasiswa menjadi terhambat sehingga dapat menghambat proses review
+pada skripsi ini, dibuat sebuah aplikasi berbasis android yang diharapkan dapat menutupi kekurangan tersebut dengan fitur push notification
+dengan adanya fitur push notification yang dimiliki aplikasi ini, baik dosen maupun mahasiswa dapat mendapatkan pemberitahuan terbaru secara realtime dari aplikasi seperti komentar terbaru dan pengajuan judul terbaru, sehingga dapat mempercepat proses review
+berdasarkan hasil pengujian, aplikasi ini sudah berjalan dengan baik pada perangkat mobile android, mulai dari android versi 2.3 hingga android versi 5.0 
+hasil perhitungan response time dari implementasi spota berbasis android, menunjukkan terjadi peningkatan kualitas spota
+spota fakultas teknik univesitas tanjungpura, mekanisme penyusunan dan penyelesaian topik atau judul tugas akhir yang disebut dengan praoutline; pelaksanaan seminar judul tugas akhir atau disebut seminar outline atau seminar tugas akhir i; dan pelaksanaan sidang tugas akhir ii atau disebut dengan sidang skripsi
+pada tahap praoutline, mahasiswa melakukan pengajuan topik atau judul tugas akhir dalam bentuk draft usulan
+draft usulan ini berisi gambaran umum permasalahan dan tujuan serta metodologi penelitian yang akan diselesaikan dalam tugas akhir
+dosen dalam melakukan konsultasi dan review topik atau judul tugas akhir mahasiswa
+melalui spota, mahasiswa dapat online, serta dapat di-review atau dikomentari oleh semua dosen terkait usulan topik atau judul tugas akhirnya
+mahasiswa dan dosen akan saling berinteraksi, dimana dosen bertanya atau memberikan arahan, sedangkan mahasiswa menjawab atau melakukan respon terhadap komentar dosen
+pada akhir review, dosen dapat memberikan keputusan apakah setuju atau tidak setuju dengan usulan topik atau judul tugas akhir yang diajukan oleh mahasiswa
+selanjutnya status persetujuan tersebut, akan menjadi rujukan bagi ketua program studi dalam menentukan mahasiswa bersangkutan
+berdasarkan pengalaman dan beberapa kendala utama adalah lambatnya respon, baik review dosen terhadap draft usulan yang diunggah mahasiswa, maupun komentar disebabkan antara lain oleh tidak adanya fitur pemberitahuan atau notifikasi secara realtime, terhadap interaksi yang terjadi di dalam spota, sehingga dapat mempercepat respon baik dari dosen maupun mahasiswa
+dengan adanya kendala ini, proses review dan pengambilan keputusan terhadap topik atau judul tugas akhir menjadi terhambat
+dengan demikian dapat mengakibatkan usulan topik cukup lama berada di spota, sehingga proses mekanisme tugas akhir selanjutnya yaitu seminar outline, menjadi tertunda
+mengembangkan notifikasi pada perangkat mobile smartphone
+dengan perkembangan pesat, memungkinkan spota dapat dikembangkan menjadi aplikasi berbasis android pada smartphone, memungkinkan sebuah sistem, tak terkecuali spota
+salah satu kemampuan smartphone yang bisa dimanfaatkan untuk meningkatkan pelayanan spota adalah push notification
+push notification merupakan teknologi memberikan notifikasi tentang pesan baru atau kejadian tanpa perlu untuk benar-benar membuka aplikasi tersebut
+melalui respon dari dosen maupun mahasiswa terkait topik tugas akhir, secara realtime pada smartphone, tanpa harus melakukan akses pada spota berbasis web
+mengembangkan spota menjadi aplikasi spota dibangun pada platform android
+pemilihan android sebagai platform pengembangan spota, dikarenakan android dengan open source, bagi para pengembang untuk menciptakan aplikasi yang dapat digunakan pada perangkat mobile
+akhir berbasis web hasil tugas akhir salah satu mahasiswa teknik informatika angkatan 2004 rudy tandra
+pembuatan sistem ini dilatarbelakangi oleh dengan jadwal presentasi yang padat menyebabkan waktu yang tersedia tidak cukup pada hari jum'at dan sabtu
+alternatif berupa penambahan jadwal seminar pada hari senin sampai dengan hari kamis hanya dapat dilakukan jika tidak terdapat aktivitas perkuliahan dalam laboratorium seminar praoutline menentukan jumlah nilai atau komentar serta keputusan yang akan diberikan
+hal ini menjadi permasalahan jika dosen yang berkesempatan hadir dalam seminar praoutline jumlahnya sedikit
+jumlah nilai dan komentar yang diberikan tentunya juga akan berkurang
+permasalahan berupa keterbatasan waktu dan ruang akan diberikan solusinya dengan merancang group support system berupa sistem pendukung outline tugas akhir
+dengan adanya spota diharapkan dapat merangkum dan menyimpan penilaian atau komentar dari dosen-dosen tanpa bertatap muka serta membantu pihak prodi teknik informatika dalam hal pengambilan keputusan penerimaan desain sudah dikembangkan sehingga dapat universitas tanjungpura
+spota juga sudah mendukung web service sehingga untuk melakukan pemodelan sistem dengan berorientasikan pada object-object yang p4)
+fitur yang paling penting dalam object oriented adalah bahwa seluruh proses pengembangan didasarkan pada sebuah konsep tunggal utama
+object-object dalam dunia nyata menjadi komponen dalam analisis dan perancangan model, dan akhirnya, bagian dari kode akhir
+adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996 (rosa a.s
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut (rosa a.s
+bahwa, diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek metode-metode yang dimiliki kelas yang diinstansiasi menjadi objek itu (rosa a.s

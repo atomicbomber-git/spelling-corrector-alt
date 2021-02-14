@@ -1,0 +1,84 @@
+enerimaan pegawai terhadap simteg bintang pelajar dengan technology acceptance model sari hartini #1, titik misriati # program studi teknik informatika, stmik nusa mandiri jakarta jl
+damai no 8 warung jati barat jakarta selatan 1 sari.shi@nusamandiri.ac.id 4 rifda@gmail.com * fakultas teknologi jl
+kamal raya no18, ringroad barat, cengkareng, jakarta barat 2 titik.tmi@bsi.ac.id 3 widiarina.wda@bsi.ac.id yang dikembangkan oleh bimbel bintang pelajar diharapkan dapat meningkatkan kinerja bagi pegawai
+sejauh ini, masih terdapat beberapa kendala yang dihadapi pegawai sebagai user dalam penggunaan simteg
+oleh karena itu, untuk mengetahui penerimaan pegawai terhadap keberhasilan pengimplementasian simteg, maka perlu dilakukan evaluasi dengan menggunakan metode technology acceptance model
+data yang didapat dari 30 responden dengan skala likert, diperoleh hasil yang menunjukkan terdapat pengaruh signifikan antara kemudahan penggunaan dan kemanfaatan terhadap penerimaan simteg bintang pelajar
+dengan nilai korelasi sebesar 0, 779 hasil penelitian menunjukkan bahwa kemudahan penggunaan dan kemanfaatan berpengaruh 59, 3% kepada penerimaan pegawai terhadap simteg
+pendahuluan menjadi suatu hal yang menarik untuk diterapkan, terutama dalam memudahkan berjalannya kegiatan operasional di suatu perusahaan, khususnya perusahaan jasa bimbingan belajar
+simteg adalah akronim dari sistem informasi manajemen terintegrasi, sebuah sistem yang dikembangkan oleh bimbel bintang pelajar yang diharapkan dapat meningkatkan produktifitas kerja pegawai, memudahkan dalam perihal pendaftaran, pembayaran, pembuatan laporan, pengisian kehadiran siswa, laporan perkembangan siswa dan lain-lain, sehingga seluruh pekerjaan dapat dilakukan dengan cepat, tepat dan akurat yang berdampak untuk memaksimalkan pelayanan kepada pelanggan
+sebelumnya, bintang pelajar menggunakan sistem terpadu tersendiri yang diperuntukan hanya untuk pencetakan kwitansi pembayaran, sementara untuk guru masih menggunakan alat tulis manual dan microsoft excel/google spreadsheet untuk membuat laporan perkembangan siswa
+sebagai media yang diharapkan dapat membantu pekerjaan pegawai, perlu adanya pengukuran sejauh mana simteg dapat diterima dan memudahkan pekerjaan pegawai
+salah satu metode yang digunakan untuk mengetahui bahwa sebuah teknologi dapat diterima adalah metode technology acceptance model, suatu model penerimaan sistem teknologi informasi yang akan digunakan oleh pemakai
+berdasarkan uraian tersebut, penulis melakukan penelitian untuk menganalisa penerimaan pegawai terhadap simteg bintang pelajar dengan metode technology acceptance model
+permasalahan yang ada dapat diidentifikasikan sebagai berikut: 1
+seberapa besar persepsi penerimaan pegawai terhadap kemudahan dan kemanfaatan simteg bintang pelajar 2
+faktor-faktor apa saja yang mempengaruhi penerimaan implementasi simteg bintang pelajar summarecon bekasi bila ditinjau dengan menggunakan technology acceptance model 1
+mengetahui implementasi simteg bintang pelajar memberi kemudahan dan bermanfaat bagi pegawai
+menganalisa faktor-faktor yang dapat mempengaruhi penerimaan simteg bintang pelajar
+tinjauan pustaka komponen yang membentuk satu kesatuan
+sebuah organisasi dan sistem informasi adalah sistem fisik dan sosial yang ditata sedemikian rupa untuk mencapai tujuan tertentu
+informasi merupakan data yang telah diolah menjadi bentuk yang lebih berguna dan berarti bagi pemakai informasi
+informasi adalah segala suatu keterangan yang bermanfaat bagi para pengambil keputusan dalam rangka mencapai tujuan organisasi yang telah ditetapkan
+sistem informasi manajemen adalah sebuah sistem yang selain melakukan pengolahan transaksi yang sangat berguna untuk kepentingan organisasi, juga banyak memberikan dukungan informasi dan pengolahan untuk fungsi manajemen dalam pengambilan keputusan
+salah satu teori tentang penggunaan sistem teknologi informasi yang dianggap sangat berpengaruh dan umumnya digunakan untuk menjelaskan penerimaan individual terhadap penggunaan sistem teknologi informasi adalah model penerimaan teknologi 
+teori ini pertama kali dikenalkan oleh davis 
+model penerimaan technology acceptance model merupakan suatu model penerimaan sistem teknologi informasi yang akan digunakan oleh pemakai
+technology acceptance model yang pertama yang belum dimodifikasi menggunakan lima konstruk utama
+kegunaan persepsian merupakan sejauh mana seseorang percaya bahwa penggunaan suatu teknologi dapat meningkatkan kinerja pekerjaannya
+kemudahan penggunaan adalah sejauh mana seseorang percaya bahwa menggunakan suatu teknologi akan bebas dari usaha
+sikap terhadap perilaku atau sikap menggunakan teknologi melakukan perilaku yang akan ditentukan
+niat perilaku atau niat perilaku menggunakan teknologi adalah suatu keinginan seseorang untuk melakukan suatu perilaku yang tertentu
+dalam konteks sistem teknologi informasi adalah penggunaan sesungguhnya dari teknologi
+tam merupakan model perilaku yang bermanfaat untuk menjawab pertanyaan mengapa banyak sistem teknologi informasi gagal diterapkan karena pemakainya tidak mempunyai niat untuk menggunakannya
+tidak banyak model-model penerapan sistem teknologi informasi yang memasukkan faktor psikologis atau perilaku di dalam modelnya dan tam adalah salah satu yang mempertimbangkannya
+tam dibangun dengan dasar teori yang kuat 3
+tam telah diuji dengan banyak penelitian dan hasilnya sebagian besar mendukung dan menyimpulkan bahwa tam merupakan model yang baik
+bahkan tam telah banyak diuji dibandingkan dengan model yang lainnya misalnya theory reasoned action dan theory planned behavior dan hasilnya juga konsisten bahwa tam cukup baik
+kelebihan tam yang paling penting adalah model ini merupakan model yang parsimoni yaitu model yang sederhana tetapi valid
+membuat model yang sederhana tetapi valid merupakan hal yang tidak mudah
+jika diinginkan model yang sederhana mestinya menggunakan banyak asumsi bahwa faktor-faktor lain tetap berpengaruh pada modelnya, tetapi ini akan berpengaruh pada kualitas dan validitas modelnya yang akan menurun
+sebaliknya jika diinginkan model yang valid dan lengkap, maka semua faktor-faktor pengaruh harus dimasukkan ke dalam model dengan akibat model akan menjadi komplek
+metodologi mengukur fenomena alam maupun sosial yang diamati
+instrumen penelitian yang akan digunakan dalam penelitian ini disusun berdasarkan item-item kuesioner yang sudah digunakan pada penelitian-penelitian sebelumnya
+karena konstruk-konstruk dalam penelitian ini merupakan konstruk- konstruk dari teori tam yang sudah lama dikembangkan
+mempermudah menggunakan yang tersedia mudah menyebar kuesioner kepada responden
+kuesioner dibuat dengan aplikasi google form sehingga memudahkan penyebaran dengan menyebar link melalui pesan whatsapp dan efisien bagi responden untuk mengisi kuesioner
+data dapat langsung terkumpul setelah kuesioner disebar, sehingga tidak membutuhkan waktu yang lama
+penyebaran kuesioner dimulai pada tanggal 10 juli 2017 sampai tanggal 15 juli 2017
+data yang didapat berupa tanggapan dari responden secara otomatis direkap di google spreadsheet data yang didapat kemudian diolah menggunakan aplikasi spss 22
+1 kuesioner google form jumlah responden yang dijadikan sampel sebanyak 30 orang dari total populasi staff dan guru di bintang pelajar summarecon bekasi pada bulan juli 2017 sebanyak 32 orang
+secara tidak langsung, penelitian melibatkan seluruh staff dan guru
+sampel diambil berdasarkan rumus isaac dan michael dengan taraf kesalahan 5%, berikut perhitungannya:
+populasi berdasarkan data pada tabel tersebut, seluruh responden berkontribusi 100% terhadap penelitian ini
+tabel ii profil responden penelitian jabatan jumlah persentase guru matematika 6 20% guru ipa 2 6.67% guru ips 1 3.33% guru fisika 3 10% guru kimia 4 13.33% guru biologi 2 6.67% guru ekonomi 2 6.67% staff 3 10% total 30 100% responden pada penelitian ini terdiri dari 27 guru-guru dan 3 staf bintang pelajar dengan jenis kelamin 6 laki-laki dan 24 perempuan
+kuesioner dikatakan valid apabila r hitung > r tabel dan kuesioner dikatakan tidak valid apabila r hitung < r tabel
+dari hasil uji validitas tersebut, tiap indikator pernyataan kuesioner harga r hitung lebih besar daripada r tabel yang bernilai 0, 361
+sehingga dapat disimpulkan setiap indikator dalam pernyataan bernilai valid
+.878 12 teknik cronbach’s alpha yang diketahui nilainya adalah 0, 6
+karena 0, 878 > 0, 6 maka dapat disimpulkan hasil sudah reliabel
+jumlah responden yang menjadi sampel adalah 30 orang 2
+rata-rata untuk kemudahan penggunaan dan kemanfaatan sebesar 27, 57 dengan standar deviasi sebesar 3, 711 artinya jika dihubungkan dengan rata-rata untuk kemudahan penggunaan dan kemanfaatan sebesar 27, 57 per orang maka kemudahan penggunaan dan kemanfaatan akan berkisar antara 27, 57 ± 3, 711
+dengan standar deviasi sebesar 2, 537 artinya jika dihubungkan dengan rata-rata untuk penerimaan ti sebesar 12, 67 per orang, maka penerimaan ti akan berkisar antara 12, 67 ± 2, 537
+tabel vi dari tabel diatas menunjukkan bahwa koefisien korelasi antara kemudahan penggunaan dan kemanfaatan dengan perimaan ti adalah r = 0, 779, maka dapat disimpulkan antara kemudahan penggunaan dan kemanfaatan dengan penerimaan terhadap simteg bintang pelajar terjadi hubungan yang kuat, karena koefisien mendekati 1 dan berada diangka antara 0, 60 – 0, 799
+arti positif adalah hubungan antara variabel bebas dan variabel terikat searah
+jadi semakin tinggi kemudahan penggunaan dan kemanfaatan, maka semakin meningkat penerimaan terhadap simteg
+begitu juga sebaliknya, semakin menurun kemudahan penggunaan dan kemanfaatan simteg, maka semakin menurun penerimaannya
+kemudian didapatkan nilai adjusted r square sebesar 0, 593 yang artinya 59, 3 % penerimaan pegawai terhadap simteg bisa dijelaskan dengan faktor kemudahan penggunaan dan kemanfaatan
+tabel viii anova a residual 73.420 28 2.622 dari tabel diatas, dapat dianalisis sebagai berikut: 1
+hipotesis ho = tidak terdapat pengaruh yang signifikan antara kemudahan penggunaan dan kemanfaatan menggunakan teknologi terhadap penerimaan kemudahan penggunaan dan kemanfaatan menggunakan teknologi terhadap penerimaan jika fhitung ≤ ftabel, maka ho diterima jika fhitung > ftabel, maka ho ditolak dimana nilai fhitung dari tabel anova sebesar 43, 189 dan nilai ftabel dari tabel f = 4, 20 ftabel dari tabel f diperoleh dengan cara: mencari degree of freedom df = k-1 = 1, df = n – k = 28 berdasarkan nilai probabilitas: dimana dari tabel anova nilai probabilitas = 0, 00 dan nilai taraf signifikan α = 0, 05 fhitung = 43, 189 > ftabel = 4, 20, maka ho ditolak
+kemudian nilai probabilitas = 0, 00 < nilai taraf signifikan α = 0, 05 maka ho ditolak yang signifikan antara kemudahan penggunaan dan kemanfaatan menggunakan teknologi terhadap penerimaan simteg bintang pelajar
+variabel bebas dari tabel diatas dapat dianalisa sebagai berikut: 1
+model untuk persamaan regresi untuk memperkirakan penerimaan simteg bintang pelajar yang dipengaruhi oleh kemudahan penggunaan dan kemanfaatan adalah y = -2, 013 + 0, 533x
+dimana y adalah penerimaan ti, sedangkan x adalah kemudahan penggunaan dan kemanfaatan
+angka konstan bernilai -2, 013 yang bermakna jika tidak ada kemudahan penggunaan dan kemanfaatan maka nilai penerimaan ti adalah sebesar -2, 013
+sementara nilai koefisien regresi bernilai 0, 533 yang berarti setiap penambahan 1% tingkat kemudahan penggunaan dan kemanfaatan, maka penerimaan ti akan meningkat sebesar 0, 533 2
+uji signifikansi a
+hipotesis ho = tidak terdapat pengaruh yang signifikan antara kemudahan penggunaan dan kemanfaatan menggunakan teknologi terhadap penerimaan kemudahan penggunaan dan kemanfaatan menggunakan teknologi terhadap penerimaan jika, -ttabel ≤ thitung ≤ ttabel, maka ho diterima jika, thitung > ttabel, maka ho ditolak d
+n = jumlah responden dan k = jumlah variabel
+menghitung thitung dan ttabel nilai thitung thitung distribusi t dengan taraf signifikansi α = 0.05 / 2 = 0, 025, dan df = n – k ttabel = t = t = t = 2, 048 thitung = 6, 572 > ttabel = 2, 048 sehingga ha diterima
+dari hasil pengolahan data dan analisis data, didapatkan kesimpulan sebagai berikut: kemanfaatan dengan penerimaan terhadap ti mendapatkan hasil 0, 779
+nilai tersebut menunjukkan hubungan positif searah antara variabel x dengan variabel y
+jika kemudahan penggunaan dan kemanfaatan semakin tinggi, maka semakin meningkat pula penerimaan terhadap it
+berdasarkan analisis uji signifikansi, dengan taraf signifikansi 5 % didapatkan thitung = 6, 572 > ttabel = 2, 048 sehingga ha diterima
+maka dapat disimpulkan terdapat pengaruh yang signifikan antara kemudahan penggunaan dan kemanfaatan menggunakan teknologi terhadap penerimaan simteg bintang pelajar

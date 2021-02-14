@@ -1,0 +1,115 @@
+perusahaan daerah air minum tirta kapuas, merupakan salah satu perusahaan milik pemerintah daerah kabupaten kapuas hulu provinsi kalimantan barat yang bertanggungjawab dalam sektor pendistribusi air bersih bagi masyarakat dan memberikan jasa pelayanan serta menyelenggarakan pemanfaatan dibidang air minum
+selain kondisi geografis yang didominasi wilayah perbukitan dan sungai, kabupaten kapuas hulu yang memiliki rentang luas daerah yaitu 29.842 km²
+mayoritas masyarakat/pelanggan pdam tirta kapuas sendiri yang jumlah penduduknya 229.764 jiwa, menyebar didaerah kabupaten kapuas hulu yang kondisi geografisnya memerlukan alat transportasi khusus untuk mencapainya
+hal tersebut menjadi tantangan berat bagi pdam tirta kapuas untuk memberikan pelayanan kepada pelanggannya
+untuk mengatasi permasalahan tersebut, maka dibutuhkan aplikasi pelayanan pelanggan yang diharapkan bisa memberikan solusi dalam menampung pengaduan serta membantu kinerja pdam tirta kapuas dalam melayani dan mengatasi permasalahan teknis dilapangan
+tujuan dari penelitian ini adalah untuk membangun sebuah sistem aplikasi pelayanan pelanggan pdam tirta kapuas berbasis web dengan bahasa pemrograman php, database mysql dan dbf sebagai penyimpanan data terkait data pelanggan, tarif, pengaduan, data sambungan baru dan informasi tentang pdam tirta kapuas
+pengujian dilakukan dengan menggunakan metode blackbox dan kuesioner yang diberikan kepada 15 responden, dari hasil pengujian blackbox menyatakan bahwa aplikasi sudah berjalan seperti yang diharapkan, dimana aplikasi mampu menampilkan keluaran yang sesuai dengan masukan pengguna
+dari hasil pengujian kuesioner penggunaan aplikasi yang dihitung menggunakan metode mencari interval persentase skala likert didapatkan persentase dengan total rata –rata 94, 50% dan pengujian perbandingan didapatkan persentase dengan total 100, 00%
+hal ini berarti responden menyatakan setuju bahwa aplikasi pelayanan pelanggan pdam tirta kapuas berbasis web yang dibangun dapat membantu, mendukung dan dapat mengatasi masalah terkait pelayanan pelanggan
+berdasarkan hasil pengujian, disimpulkan bahwa sistem yang dibangun dapat mengatasi permasalahan terkait pelayanan pelanggan, pada pdam tirta kapuas kabupaten kapuas hulu provinsi kalimantan barat
+pendahuluan perusahaan daerah air minum merupakan badan usaha milik daerah yang bergerak dalam distribusi air bersih bagi masyarakat umum, serta memberikan jasa pelayanan dan menyelenggarakan pemanfaatan di bidang air minum
+pdam terdapat di setiap provinsi, kabupaten, dan kotamadya di seluruh indonesia
+aktifitas pdam antara lain mengumpulkan dan menjernihkan sampai mendistribusikan air kepada masyarakat/pelanggan
+sebagai perusahaan penyedia air bersih, pdam diawasi dan dimonitor oleh aparatur – aparatur eksekutif maupun legislatif daerah
+dalam upaya memberikan pelayanan kepada masyarakat, pdam tirta kapuas mengalami kesulitan dalam menerima keluhannya jika sewaktu – waktu terjadi masalah yang berhubungan dengan hal – hal teknis dilapangan
+keluhan itu seperti kebocoran pipa, air tidak mengalir, dan tekanan air lemah menjadi kendala umum yang terjadi, terlebih ketika layanan pengaduan untuk saat ini hanya ketika petugas sedang berada di lokasi ataupun melalui call center pdam yang dinilai kurang efektif dalam menerima pengaduan yang bersifat teknis dari konsumen pdam tirta kapuas
+informasi terkait himbauan serta pengumuman dari pdam tirta kapuas saat ini juga masih terbatas berupa surat himbauan yang dibawa petugas yang memeriksa meteran air
+untuk itu, aplikasi pelayanan pelanggan menjadi sangat diperlukan terutama bagi daerah dengan faktor geografis yang persebaran permukimannya relatif luas dan menyebar yang membutuhkan transportasi khusus untuk menjangkaunya, salah satunya yaitu perusahaan daerah air minum tirta kapuas yang berada di kabupaten kapuas hulu, provinsi kalimantan barat
+dari permasalahan yang dipaparkan, aplikasi pelayanan pelanggan diharapkan bisa memberikan solusi dalam menampung pengaduan serta membantu kinerja pdam tirta kapuas dalam melayani dan mengatasi permasalahan teknis dilapangan
+penggunaan aplikasi pelayanan pelanggan pdam tirta kapuas bertujuan untuk memfasilitasi pengguna dalam memperoleh informasi biaya tagihan perbulan penggunaan kubik air yang harus dibayar, pelayanan pelanggan, serta informasi terkini dari pdam tirta kapuas yang selama ini tidak bisa diakses oleh pihak konsumen
+tinjauan pustaka “aplikasi merupakan suatu unit perangkat lunak yang dibuat untuk melayani kebutuhan akan beberapa aktivitas seperti sistem perniagaan, game, pelayanan masyarakat, periklanan atau semua proses yang hampir dilakukan manusia
+pelayanan adalah sebuah usaha pemberian bantuan ataupun pertolongan pada orang lain baik dengan berupa materi atau juga non materi agar orang tersebut bisa mengatasi masalahnya itu sendiri
+ 
+berdasarkan pengertian para ahli diatas, pelayanan dapat diartikan sebagai suatu usaha untuk membantu menyiapakan atau mengurus apa yang diperlukan oleh orang lain
+pembangunan sistem informasi pelayanan pelanggan berbasis web menggunakan konsep object relational database
+penelitian terkait penelitian tentang aplikasi pelayanan pelanggan bukanlah hal yang baru dilakukan adapun penelitian sejenis yang pernah dilakukan oleh oktavianus situmeang melakukan penelitian yang berjudul untuk menghasilkan suatu produk berupa perangkat lunak customer care web based information system yang bertujuan untuk meningkatkan pelayanan terhadap pelanggan pdam dengan mengelola data pelanggan dan pengelolaan setiap transaksi yang berhubungan dengan pelanggan yang terjadi di pdam tirta marta yaitu pasang baru, balik nama dan pembayaran untuk tiap-tiap transaksi
+sistem informasi pelayanan pengaduan dan tagihan rekening pelanggan di pdam tirta wening menggunakan sms gateway
+deasy permatasari, s.si, mt, nova noveristi, s.kom melakukan penelitian yang berjudul untuk membangun aplikasi pelayanan pengaduan berbasis sms gateway untuk meperlancar kegiatan pelayanan pdam tirta wening
+muhammad beni saputra melakukan penelitian yang berjudul “pengembangan sistem informasi manajemen pelayanan pdam tirta musi palembang
+” yaitu menghasilkan produk sistem informasi manajemen pelayanan pelanggan yang efektif bagi pdam tirta musi
+pada penelitian ini, dilakukan pada kantor pdam tirta kapuas yang berada di jl
+antasari no1 kabupaten kapuas hulu provinsi kalimantan barat
+penelitian ini bertujuan menghasilkan sebuah aplikasi pelayanan pelanggan pdam tirta kapuas berbasis yang dapat dimanfaatkan sebagai media untuk melakukan pelayanan pelanggan dan penyajian informasi terkait pdam tirta kapuas agar pelayanannya lebih efektif dan efisien c
+pdam tirta kapuas pdam tirta kapuas sebagai salah satu perusahaan milik pemerintah daerah yang berada di kabupaten kapuas hulu provinsi kalimantan barat bertanggungjawab dalam sektor pendistribusi air bersih bagi masyarakat dan memberikan jasa pelayanan serta menyelenggarakan pemanfaatan di bidang air minum
+aktivitas pdam tirta kapuas antaralain mengumpulkan, mengolah, menjernihkan, sampai dengan mendistribusikan air kepada masyarakat/pelanggan
+selain kondisi geografis yang didominasi wilayah perbukitan dan sungai, kabupaten kapuas hulu yang memiliki rentang luas daerah yaitu 29.842 km²
+mayoritas masyarakat/pelanggan pdam tirta kapuas sendiri yang jumlah penduduknya 229.764 jiwa, menyebar didaerah kabupaten kapuas hulu yang kondisi geografisnya memerlukan alat transportasi khusus untuk mencapainya
+hal tersebut menjadi tantangan berat bagi pdam tirta kapuas untuk memberikan pelayanan kepada pelanggannya
+diagram alir “bagan alir dokumen merupakan bagan alir yang menunjukkan arus dari laporan dan formulir termasuk tembusan-tembusannya
+bagan alir dokumen ini menggunakan simbol-simbol yang sama dengan yang digunakan di dalam bagan alir sistem”
+data flow diagram data flow diagram adalah suatu gambaran yang menjelaskan bagaimana menggambarkan atau membuat model komponen sistem
+dfd digambar menggunakan empat simbol dasar yang menunjukkan proses, aliran data, penyimpanan data dan entitas atas sumber dan tujuan data
+dfd merupakan alat bantu dalam menggambarkan atau menjelaskan proses kerja suatu sistem
+ada empat komponen dalam dfd yaitu terminator, proses, data store, dan alur data
+php php merupakan singkatan berulang dari php hypertext preprocessor, yang sebelumnya bernama personal home page
+php pertama kali dibuat oleh rasmus lerdof pada tahun 1995
+fungsi yang paling populer dari php adalah kemampuannya sebagai server side programming/scripting language dalam pembuatan website, atau aplikasi yang berbasis website server-side programming/scripting adalah bahasa yang berjalan pada sisi server sehingga, komputer tidak mengetahui apa yang terjadi didalam web server
+kita hanya menerima keluaran dari proses yang dihasilkan oleh webserver
+sms gateway sms gateway merupakan salah satu perkembangan fungsi yang dimiliki sms
+secara umum sms gateway adalah sebuah sistem yang dipergunakan untuk memudahkan seseorang atau sebuah perusahaan mengirimkan pesan sms yang sama dalam waktu yang bersamaan pada banyak orang
+sms gateway juga dapat dimanfaatkan untuk keperluan lain seperti melakukan polling, transaksi dengan sebuah sistem, pemantauan, dan sebagainya
+pengujian blackbox black box testing berfokus pada persyaratan fungsional perangkat lunak yang memungkinkan engineers untuk memperoleh set kondisi input yang sepenuhnya akan melaksanakan persyaratan fungsional untuk sebuah program
+pengujian kuesioner pengujian kuesioner adalah suatu daftar yang berisi pertanyaan-pertanyaan yang harus dijawab atau dikerjakan oleh responden atau orang tua/ anak yang ingin diselidiki
+kuesioner sendiri terdiri dari beberapa sampel pertanyaan di mana setiap pertanyaan diberi lima pilihan jawaban
+sistem yang sedang berjalan adapun sistem yang sedang berjalan pada kegiatan pelayanan pdam tirta kapuas kabupaten kapuas hulu masih menggunakan sistem manual yang mana dalam proses pelayanannya belum bisa di akses secara online
+dalam upaya memberikan pelayanan pdam tirta kapuas memiliki keterbatasan dalam penyampaian informasi jika sewaktu – waktu terjadi gangguan jaringan pdam atau adanya kegiatan perbaikan maupun perawatan jaringan
+masyarakat mengetahui langsung dari petugas yang turun kelapangan
+apabila terjadi kerusakan jaringan pelanggan pdam tirta kapuas mengalami kesulitan jika ingin melaporkan, serta pihak pdam tirta kapuas sendiri terbatas dalam memperoleh informasi laporan dari pelanggan jika terjadi kerusakan
+adapun faktor-faktor yang menjadi permasalahan terkait pelayanan pelanggan dan penyajian informasi pada pdam tirta kapuas adalah sebagai berikut: 1) cek rekening: selama ini pihak pihak pdam tirta kapuas masih mengalami kesulitan dalam hal memberikan informasi tagihan rekening kepada pelanggan, hal ini sangat mempengaruhi faktor penunjang kinerja pdam tirta kapuas sendiri
+2) daftar sambungan baru: dalam proses pendaftaran calon pelanggan sangat penting jika pdam menyediakan layanan online agar calon pelanggan bisa mendaftar sebagai calon pelanggan dimana saja didaerah lingkup pdam tirta kapuas yang bisa mengakses jaringan internet 3) pengaduan: selama ini pihak pdam tirta kapuas sangat kesulitan dalam hal menyerap pengaduan pelanggan dikarenakan layanan pengaduan secara offline saat ini belum maksimal b
+sistem yang diperlukan berdasarkan analisis sistem yang sedang berjalan, maka diperlukan sebuah sistem aplikasi yang mendukung proses pelayanan pelanggan serta penyajian informasi terkait pdam tirta kapuas, sehingga proses pelayanan dapat lebih efisien dengan harapan nantinya sistem aplikasi dapat membantu proses pelayanan pelanggan seperti cek rekening, pengaduan pelanggan, dan daftar calon pelanggan pada pdam tirta kapuas
+arsitektur sistem desain arsitektur sistem merupakan sekumpulan dari model-model terhubung yang menggambarkan sifat dasar dari sebuah sistem
+banyak model arsitektur sistem yang ada, dapat menggambarkan bagian berbeda dan aspek atau pandangan yang berbeda dari suatu sistem
+setiap komponen terdiri dari blok pembangun sistem yang dapat dibangun dengan cara menyatukan sekumpulan komponen berdasarkan aturan tertentu
+aplikasi pelayanan pelanggan pada pdam tirta kapuas memiliki user/pengguna yang terlibat didalam sistem seperti admin, direktur, operator sambungan, operator tarif, dan operator gangguan
+berikut adalah model arsitektur sistem seperti gambar dibawah ini: gambar
+diagram alir sistem diagram alir sistem merupakan diagram yang menggambarkan sistem yang akan dibangun secara garis besar
+diagram alir sistem yang akan dibangun dapat dilihat pada gambar dibawah ini: gambar
+berikut ini menunjukkan diagram konteks dari sistem yang dibuat gambar
+antarmuka sistem sistem aplikasi pelayanan pelanggan pdam tirta kapuas merupakan aplikasi berbasis web yang dirancang dalam bentuk halaman-halaman yang memiliki fungsi tertentu sesuai dengan proses yang ada
+halaman-halaman tersebut diakses melalui menu pada halaman utama
+halaman-halaman tersebut diakses melalui menu pada halaman utama
+struktur antarmuka sistem yang dirancang adalah sebagai berikut: gambar
+antarmuka halaman pengguna umum halaman pengguna umum merupakan halaman awal pada saat mengakses alamat/situs aplikasi pelayanan pelanggan pdam tirta kapuas
+pada halaman ini terdapat beberapa menu dan submenu, antar lain menu home, menu berita terkini, menu cek tagihan, pengaduan, menu sambungan baru, menu layanan online dan menu login
+adapun penjelasan tentang antarmuka halaman pengguna umum sebagai berikut: gambar
+antarmuka halaman login halaman login merupakan halaman untuk masuk kedalam aplikasi pelayanan pelanggan pdam tirta kapuas dengan memasukan username dan password
+antarmuka halaman operator tarif pada halaman operator tarif merupakan halaman yang digunakan operator tarif untuk upload data pelanggan dan upload data tagihan yang harus dibayar pelanggan
+dihalaman ini juga tersedia submenu pengaturan password yang digunakan operator tarif untuk mengganti password dan submenu logout untuk keluar dari halaman operator tarif
+antarmuka halaman operator gangguan halaman antarmuka operator gangguan merupakan halaman yang digunakan operator gangguan untuk memanajemen data pengaduan dari pelanggan
+dihalaman ini tersedia beberapa fungsi menu, yaitu melihat daftar data pengaduan, melihat pengaduan, serta memverifikasi pengaduan dari pelanggan
+dihalaman ini juga tersedia submenu pengaturan password yang bisa digunakan operator gangguan untuk mengganti password serta submenu logout yang bisa digunakan operator gangguan untuk keluar dari halaman operator gangguan
+antarmuka halaman operator sambungan halaman operator sambungan merupakan halaman yang digunakan operator sambungan untuk memanajemen serta memverifikasi data sambungan baru dari calon pelanggan
+dihalaman ini tersedia beberapa menu yang bisa digunakan untuk melihat daftar data calon pelanggan, lihat data calon pelanggan, download kelengkapan data, serta verifikasi calon pelanggan
+dihalaman ini juga tersedia submenu pengaturan password yang bisa digunakan operator sambungan untuk mengganti password serta submenu logout yang bisa digunakan operator sambungan untuk keluar dari halaman operator sambungan
+antarmuka halaman admin halaman admin merupakan halaman yang dapat diakses setelah melakukan login admin
+pada halaman ini terdapat beberapa menu antara lain menu upload berita, menu daftar berita, pencarian berita, menu manajemen berita, menu pengaturan kata sandi, dan keluar/logout
+hasil pengujian black box pengujian dengan metode black box pada perangkat lunak dilakukan untuk menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi
+berikut ini adalah hasil dari pengujian perangkat lunak dengan metode black box yang telah dilakukan
+tabel i pengujian halaman login pengguna fungsi contoh fungsi hasil username salah tidak berhasil password salah tidak berhasil username, password benar fungsi contoh fungsi hasil id pelanggan benar fungsi contoh fungsi hasil tidak berhasil id pelanggan benar salah satu kolom inputan kosong tidak berhasil id pelanggan benar semua kolom diisi berhasil data berhasil diinput h
+pengujian aspek usability pengujian dengan pengisian kuesioner penggunaan aplikasi dilakukan pada tanggal 08 - 09 agustus 2018 dikantor pdam tirta kapuas kabupaten kapuas hulu
+pengujian dilakukan terhadap 15 responden kepada staf, karyawan serta direktur pdam tirta kapuas kabupaten kapuas
+kuesioner terdiri dari 8 pertanyaan dimana setiap pertanyaan diberi 5 pilihan dengan skor tertentu, yaitu: - sangat baik, skor bernilai 5 poin - baik, skor bernilai 4 poin - cukup baik, skor bernilai 3 poin - buruk, skor bernilai 2 poin - sangat buruk, skor bernilai 1 poin berdasarkan hasil perhitungan dengan menggunakan metode mencari interval nilai presentasi likert maka didapatkan hasil jawaban dari seluruh responden seperti pada tabel pengujian kuesioner
+berdasarkan dari perhitungan yang telah dilakukan dapat diketahui bahwa responden setuju bahwa aplikasi yang dibangun dapat mendukung proses pelayanan pelanggan pada pdam tirta kapuas kabupaten kapuas hulu
+hal ini dikarenakan total persentase likert yang dihasilkan adalah 94% dan berada pada kategori sangat setuju
+uji validitas dapat di lihat pada tabel 5, berguna untuk mengetahui kevalidan atau kesesuaian kuesioner yang digunakan untuk memperoleh data dari para responden
+uji validitas product momen pearson correlation menggunakan prinsip mengkorelasikan atau menghubungkan antara masing- masing skor item dengan skor total yang diperoleh dalam penelitian
+pada penelitian ini perhitungan uji validitas dilakukan dengan menggunakan aplikasi ibm spss versi 23
+rtabel = 0.5140 dari hasil uji validitas pada tabel 5 maka dapat disimpulkan bahwa pertanyaan 1 sampai dengan pertanyaan 8 bernilai valid karena rhitung > rtabel
+uji reabilitas setelah sebelumnya dilakukan uji validitas, berikutnya dilanjutkan dengan pengujian reliabilitas
+pengujian reliabilitas ini dilakukan sebagai indikasi bahwa responden konsisten dalam memberikan tanggapan atas pernyataan yang diajukan
+pengujian reliabilitas dilakukan dengan menggunakan aplikasi ibm spss versi 23 dengan menggunakan metode alpha cronbach’s
+sekumpulan variabel dapat diterima jika memiliki koefisien reliabilitas lebih besar atau sama dengan 0, 60
+berdasarkan hasil pengujian reliabilitas yang dihitung menggunakan aplikasi ibm spss versi 23, koefisien reliabilitas yang dihasilkan sebesar 0, 635
+oleh karena itu dapat disimpulkan bahwa pertanyaan soal yang digunakan dapat diterima karena memiliki nilai koefisien yang lebih besar dari 0, 6
+analisis hasil pengujian berdasarkan hasil pengujian blackbox yang telah dilakukan pada aplikasi pelayanan pelanggan pdam tirta kapuas berbasis web dapat disimpulkan bahwa aplikasi sudah berjalan seperti yang diharapkan
+aplikasi mampu menampilkan keluaran yang sesuai dengan masukan pengguna karena proses pengolahan masukan dan keluaran data yang dilakukan oleh sistem berjalan dengan baik
+pengujian kuesioner dilakukan dengan 2 jenis, yaitu kuesioner penggunaan aplikasi dan kuesioner perbandingan
+hasil perhitungan kuesioner penggunaan aplikasi dan hasil perhitungan kuesioner perbandingan dihitung dengan menggunakan metode mencari interval nilai persentase likert
+hasil total nilai persentase likert pada pengujian kuesioner penggunaan aplikasi adalah 94, 50%, sedangkan hasil total nilai persentase likert pada pengujian perbandingan adalah 100, 00%
+hal ini berarti responden menyatakan setuju bahwa aplikasi pelayanan pelanggan pdam tirta kapuas berbasis web yang dibangun dapat memperbaiki permasalahan terkait penyajian informasi dan pelayanan pelanggan yang dilakukan secara online dengan menggunakan komputer/laptop maupun perangkat mobile sehingga dapat membantu, mempermudah, mendukung, dan mengatasi masalah pelayanan data serta penyajian informasi agar menjadi lebih efektif dan efisien
+aplikasi pelayanan pelanggan pdam tirta kapuas kabupaten kapuas hulu provinsi kalimantan barat
+kesimpulan adapun kesimpulan dari hasil penelitian yang berjudul yang telah dilakukan adalah sebagai berikut : 1) aplikasi pelayanan pelanggan pdam tirta kapuas kabupaten kapuas hulu berbasis website yang berhasil dibangun serta dapat dimanfaatkan sebagai pusat pelayanan pelanggan dan juga sebagai media untuk penyampaian informasi di lingkungan pdam tirta kapuas
+2) berdasarkan hasil pengujian dengan black box aplikasi pelayana pelangga pdam tirta kapuas kabupaten kapuas hulu yang dibangun dapat berjalan dengan baik
+3) berdasarkan hasil penghitungan persentase pengujian kuesioner dengan metode likert yaitu hasil kuesioner penggunaan aplikasi sebesar 94, 50% dan kuesioner perbandingan untuk menilai kelayakan aplikasi sebesar 100% dari 15 responden yang ada, maka aplikasi website yang dibangun dapat diterima oleh pdam tirta kapuas kabupaten kapuas hulu provinsi kalimantan barat

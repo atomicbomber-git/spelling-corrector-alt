@@ -1,0 +1,9 @@
+current educational needs are increasing with the rising of community economic rate
+this causes high school students' interest are also increasing to continue their study to a higher state
+however, most of the students find it hard to make a decision of which course is suitable for them, so they are likely to choose it by considering parents' or friends' suggestion without understanding the course itself
+the mistake in choosing a course could lead to negative impacts of their study, such as the longer school term they should bear, or mostly, the lower grade point average they should face
+this problem happens to the upcoming engineering students too, so it takes a decision support system that is able to provide recommendations by considering their major in high school, the study results, as well as their interest on choosing the courses in engineering faculty
+this system uses k-nearest neighbor method, by comparing the data of new students with the graduated students of engineering faculty, so it can generate a course recommendation, the length of the school term prediction and also the prediction of their gpa
+keyword : decision support system, k-nearest neighbor, engineering faculty, study prediction
+tetapi, seringkali siswa mengalami sekedar ikut-ikutan teman
+kesalahan mahasiswa, baik dalam nilai ipk maupun lamanya masa kuliah 

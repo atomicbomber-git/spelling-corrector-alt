@@ -1,0 +1,102 @@
+5 no 1 april 2019 sistem pendukung keputusan pemilihan wilayah prioritas intervensi kegiatan keluarga berencana dengan metode ahp-smart jurusan informatika universitas tanjungpura jl
+hadari nawawi, bansir laut, pontianak tenggara, kota pontianak, kalimantan barat 78115 1 karmilayn@gmail.com 2 tursina@informatika.untan.ac.id 3 irwansyah.azhar@gmail.com membantu individu atau pasangan suami istri untuk mendapatkan objek tertentu yang dijalankan oleh bkkbn
+dalam mencari wilayah yang kurang dalam penggunaannya, dilakukan intervensi kegiatan keluarga berencana
+intervensi merupakan suatu kegiatan yang dilakukan secara sistematis dan terencana untuk mengubah keadaan seseorang, kelompok orang atau masyarakat yang menuju kepada perbaikan atau mencegah memburuknya suatu keadaan
+oleh karena itu, diperlukan sebuah sistem pendukung keputusan untuk memilih wilayah prioritas intervensi kegiatan keluarga berencana yang meliputi permasalahan seperti proses pemilihan yang memakan waktu lama dan memungkinkan terjadinya kesalahan manusia
+aplikasi ini dibangun menggunakan metode ahp-smart karena metode ahp dapat menentukan apakah terdapat ketidak konsistenan dan metode smart digunakan karena dapat menyelesaikan masalah pendukung keputusan dengan multikriteria
+hasil dari aplikasi ini adalah urutan nilai prefensi dari nilai terbesar hingga terkecil berdasarkan alternatif yang menjadi pilihan
+secara keseluruhan dari hasil pengujian akurasi dan wawancara, spk dapat membantu proses pengambilan keputusan dan mengatasi permasalahan pada bkkbn dalam menentukan wilayah intervensi kegiatan keluarga berencana
+individu atau pasangan suami istri untuk mendapatkan objek tertentu, yaitu menghindari kelahiran yang tidak diinginkan, mendapat kelahiran yang diingikan, mengatur jarak diantara kehamilan, dan menentukan jumlah anak dalam keluarga
+indonesia merupakan negara dengan jumlah penduduk terbanyak ke 4 di dunia, yaitu dengan 256 juta jiwa
+berdasarkan data tersebut, pemerintah menyatakan program keluarga berencana sebagai pengendalian peledakkan penduduk
+program tersebut dijalankan oleh badan kependudukan dan keluarga berencana nasional, yaitu lembaga pemerintah non departemen indonesia yang bertugas melaksanakan tugas pemerintahan di bidang kependudukan, keluarga berencana dan pembangunan keluarga
+tercatat 33.680.982 peserta kb aktif di indonesia, sedangkan pada wilayah kalimantan barat sendiri tercatat 558.093 peserta kb aktif pada bulan februari 2018
+diadakan kegiatan intervensi kb masih menggunakan cara musyawarah untuk mendapatkan kesepakatan wilayah mana yang dapat dipilih
+hal tersebut tentu menyulitkan pihak bkkbn untuk segera melakukan kegiatan intervensi serta menambah resiko human error dalam pengambilan keputusan
+untuk itu, diperlukan sebuah sistem pendukung keputusan agar dapat memilih wilayah prioritas intervensi kegiatan kb sehingga diharapkan dapat memudahkan pihak pengelola dalam memilih wilayah mana yang harus diutamakan dalam menjalankan intervensi kegiatan kb
+wilayah prioritas intervensi kegiatan keluarga berencana ini dibangun berbasis website menggunakan metode ahp- smart
+sistem pendukung keputusan adalah sistem berbasis komputer yang membantu para pengambil keputusan mengatasi berbagai masalah melalui interaksi langsung dengan sejumlah database dan perangkat lunak
+metode analytical hierarchy process adalah suatu metode metode pengambilan keputusan yang dapat dilakukan dengan dua kerangka kerja, meliputi pengambilan keputusan tanpa berdasarkan eksperimen, dilakukan dengan cara menyusun secara sistematis cara kerja umum sebelum mencari solusi bagi masalah yang diharapkan
+sedangkan metode smart (simple korespondensi : karmila yusnitha 100 pengambil keputusan yang komprehensif dengan memperhitungkan hal-hal yang bersifat kualitatif dan kuantitatif
+dalam model pengambilan keputusan dengan smart pada dasarnya berusaha menutupi setiap kekurangan dari model-model tanpa komputerisasi sebelumnya
+alasan digunakannya kedua metode ini adalah karena metode ahp dapat menentukan apakah terdapat ketidak konsistenan pada penentuan tingkat kriteria
+metode smart dapat digunakan karena merupakan metode yang bisa menyelesaikan masalah pendukung keputusan dengan multi kriteria dan selain itu, metode ini merupakan metode yang fleksibel dan cukup efektif
+pembimbing skripsi berdasarkan minat mahasiswa dengan di universitas muhammadiyah pontianak
+penelitian tersebut meneliti tentang pemilihan dosen pembimbing skripsi dengan metode ahp dengan menggunakan 3 kriteria untuk melakukan pemilihan dosen
+penelitian tersebut memilih dosen berdasarkan kriteria-kriteria yang dapat mempengaruhi perangkingan yakni rpl, jaringan komputer, dan multimedia
+analytical hierarchy process yang cukup ampuh untuk menentukan keputusan yang disesuaikan dengan minat mahasiswa, judul skripsi, konsentrasi dosen tetap yang ada di program studi teknik informatika um pontianak
+kualitas kerja karyawan untuk memilih karyawan teladan dengan menggunakan 10 kriteria dalam menentukan keputusan
+penelitian tersebut menggunakan metode smart karena kesederhanaanya dalam merespon kebutuhan pembuat keputusan dan caranya menganalisa respon
+sistem pendukung keputusan pemilihan karyawan teladan dengan metode smart kedepan harus bersifat dinamis, oleh karena itu penelitian ini membuat sistem yang dinamis
+penelitian tersebut berfokuskan pada pemilihan varietas unggul jagung hibrida dengan menggunakan 5 kriteria, yaitu umur tanaman, berat biji, rata-rata hasil, potensi hasil, dan ketahanan terhadap hama dan penyakit
+metode ahp pada penelitian ini digunakan untuk melakukan preferensi kriteria, pembuatan tabel perhitungan, pembobotan kriteria dan mengukur konsistensi
+sedangkan metode smart digunakan untuk normalisasi data dan pengurutan data
+langkah perhitungan ahp-smart dapat diimplementasikan pada penelitian ini dengan contoh kasus yang berbeda
+perancangan sistem penelitian ini dapat dilihat pada gambar 1 sebagai berikut: gambar 1
+metodologi penelitian alir penelitian sebagai berikut
+berhubungan dengan sistem pemilihan wilayah prioritas intervensi kegiatan keluarga berencana serta hal-hal yang mendukung dalam penelitian
+saat ini bkkbn memilih wilayah prioritas intervensi menggunakan cara musyawarah sehingga membutuhkan waktu lebih lama
+analisis kebutuhan analisis kebutuhan merupakan langkah awal untuk menentukan gambaran perangkat yang akan dihasilkan ketika pengembang melaksanakan sebuah proyek pembuatan perangkat lunak
+adapun data yang dibutuhkan adalah data kriteria beserta bobot masing- masing wilayah prioritas intervensi kegiatan keluarga berencana
+menganalisa sistem yang berjalan pada kajian terkait yang telah dilakukan
+sedangkan untuk perancangan sistem dilakukan dengan menggunakan alat bantu sebagai berikut : model-model terhubung yang menggambarkan sifat dasar dari sebuah sistem
+ unified modelling language unified modelling language adalah sebuah bahasa yang digunakan untuk memvisualisasikan, membangun, dan mendokumentasikan suatu sistem informasi
+ pengujian sistem pengujian sistem menggunakan pengujian akurasi dan wawancara
+pembuatan perangkat lunak pada tahapan ini, sistem akan dibuat dengan berbasis website dengan bahasa php
+pengujian sistem dan analisis pengujian dilakukan untuk mengetahui apakah sistem yang telah dibuat dapat memilih wilayah prioritas keluarga berencana sesuai dengan kebutuhan
+dalam hal ini dilakukan pengujian dengan cara melakukan interview atau wawancara terhadap staf bagian data dan informasi di kantor bkkbn kota pontianak
+arsitektur sistem berikut adalah gambaran arsitektur sistem dapat dilihat pada gambar 2 sebagai berikut
+arsitektur sistem sistem pendukung keputusan pemilihan wilayah prioritas intervensi kegiatan keluarga berencana, dimana admin dapat memasukkan data yaitu data pengguna, data kriteria dan bobot dan alternatif untuk mendapatkan rekomendasi wilayah
+informasi yang diterima admin berupa hasil perhitungan ahp-smart dan hasil rekomendasi wilayah
+user memasukkan data berupa nilai untuk mendapatkan hasil rekomendasi dan dapat menerima informasi berupa urutan wilayah yang direkomendasikan
+kemudian server mengolah data yang telah admin maupun user masukkan pada aplikasi spk pemilihan wilayah intervensi kegiatan keluarga berencana
+skenario perhitungan yang dapat dilakukan adalah sebagai berikut
+menentukan kriteria dan membuat struktur hirarki seperti pada gambar 3
+menyusun kriteria-kriteria yang telah didapat ke dalam bentuk matriks berpasangan atau biasa disebut tabel tingkat kepentingan, dapat dilihat pada tabel 2 dengan keterangan sebagai berikut
+c2=jumlah pengguna alat kontrasepsi c3=kemudahan akses c1 1 3 5 6 7 c2 0, 3333 1 3 5 6 c3 0, 2 0, 3333 1 5 3 c4 0, 1666 0, 2 0, 2 1 2 c5 0, 1428 0, 1666 0, 3333 0, 50 1 jumlah 1, 8427 4, 6999 9, 5333 17, 5 19 pada tabel 2, dapat dilihat bahwa kolom yang berwarna hijau adalah nilai bobot yang dimasukkan tingkat kepentingan definisi 3 elemen yang satu sedikit lebih penting dibanding elemen yang lain disbanding elemen lainnya yang lain kebalikan jika aktivitas i mendapat satu angka dibandingkan dengan aktivitas j, maka j memiliki nilai kebalikannya dibandingkan dengan i
+sedangkan kolom yang berwarna putih adalah nilai kebalikan dari kolom yang berwarna hijau
+misal nilai c1:c2 adalah 3 dan nilai real 3 adalah 3/1 yang berarti nilai c2:c1 adalah 0, 3333 yang didapat dari kebalikannya yaitu 1/3
+matriks berpasangan dihitung jumlah perkolomnya, maka didapatlah jumlah perkolom yang dapat dilihat pada tabel 2
+menghitung nilai elemen kolom kriteria dengan cara masing-masing elemen kolom pada tabel 2 dibagi dengan jumlah kolom, maka didapatlah hasil seperti tabel 3 sebagai berikut
+tabel iii tabel nilai elemen kolom 4
+mendapatkan bobot kriteria dengan mencari nilai rata- rata setiap baris pada tabel 3, seperti berikut
+melakukan perkalian matriks untuk menguji konsistensi
+kemudian hasil dari setiap kriteria dibagi dengan jumlah kriteria, maka didapat nilai akhir α max = 5, 3429
+cr= = 0, 0765 lebih dari 0, 1, maka nilai perbandingan berpasangan pada matriks kriteria yang diberikan konsisten
+skenario perhitungan smart kualitatif sehingga perlu dirubah kedalam bentuk skala 1 untuk mudah, 2 untuk sedang dan 3 untuk sulit
+mencari nilai utilitas kriteria dengan rumus persamaan sesuai dengan sifat kriteria yang telah didapat yaitu
+c1 = cost c2 = cost c3 = benefit c4 = cost c5 = benefit a
+untuk sifat kriteria cost yaitu c1, c2 dan c4 dapat dihitung seperti berikut
+untuk sifat kriteria benefit yaitu c3 dan c5 dapat dihitung seperti berikut
+hasil nilai utilitas dapat dilihat pada tabel 6
+menentukan nilai akhir untuk menghitung wilayah a
+u = + + + + = 6, 32 keterangan : tabel vi tabel nilai utilitas jumlah penduduk pus jumlah pengguna alat kontrasepsi kemudahan berdasarkan pada tabel 6, perangkingan yang dilakukan dengan menghitung nilai akhir dari masing- masing kriteria terhadap bobot yang telah didapatkan dari perhitungan ahp
+dari hasil perhitungan rangking yang telah dilakukan, hasil yang didapatkan adalah bahwa wilayah c memiliki nilai tertinggi berdasarkan perhitungan nilai akhir
+maka wilayah yang terpilih adalah wilayah c sebagai wilayah yang akan diadakan intervensi kegiatan keluarga berencana
+struktur antarmuka aplikasi dapat dilihat pada gambar 4 dimana pada saat membuka aplikasi, user akan masuk pada halaman login
+pada aplikasi ini dibagi atas dua pengguna, yaitu user dan admin
+user disini dapat memasukkan nilai dan melihat hasil rekomendasi
+kemudian admin dapat memanajemen data dan melihat hasil perhitungan ahp-smart
+hasil dan analisis intervensi kb dilakukan dengan 2 jenis pengujian, yaitu pengujian akurasi untuk membandingkan hasil sistem dan ms.excel dengan hasil manual bkkbn kota pontianak dan wawancara untuk mengetahui kemudahan dan kegunaan aplikasi
+hasil pengujian akurasi pada tabel 7, dapat dilihat bahwa terdapat 8 urutan prioritas wilayah yang sesuai dan 6 urutan prioritas wilayah yang tidak sesuai
+wilayah kayong utara, sekadau, kapuas hulu, melawi, mempawah, sintang, kota pontianak, dan sambas berada dalam urutan prioritas yang sama dari yang dihasilkan oleh sistem dan ms.excel maupun dengan cara manual oleh bkkbn kota pontianak
+wilayah yang tidak sesuai seperti kota singkawang dan bengkayang terdapat perbedaan letak urutan prioritas wilayah dengan selisih 2 urutan dari perbandingan hasil sistem maupun ms.excel dengan hasil dari bkkbn
+wilayah landak, sanggau, ketapang dan kubu raya juga terdapat perbedaan letak urutan prioritas wilayah dengan selisih 1 urutan dari perbandingan hasil sistem dan ms.excel dengan bkkbn
+wilayah yang terdapat perbedaan letak urutan prioritas mendapatkan hasil akurasi yang tidak sesuai, karena urutan prioritas wilayah yang dihasilkan dengan cara manual oleh bkkbn dilakukan dengan cara musyawarah sehingga hal tersebut diambil berdasarkan kebijakan dan keputusan bersama oleh pihak bkkbn kota pontianak, khususnya pada bagian data dan informasi
+hasil pengujian wawancara mendapatkan tanggapan atau umpan balik dari responden
+tanggapan dari responden 1 menjelaskan bahwa spk pemilihan wilayah prioritas intervensi kegiatan keluarga berencana sudah sesuai kebutuhan baik dari data-data yang ditampilkan maupun hasil keputusan
+sebagai tambahan, perlu adanya perubahan pada menu alternatif dan kriteria menjadi wilayah dan kelola kriteria juga pada nama kriteria ditambah keterangan satuan untuk pengisian
+kemudian adanya perubahan untuk hak akses user yaitu dapat menginput data sehingga admin bisa langsung mendapatkan hasil perangkingan yang telah diinput oleh user
+kesimpulan untuk hasil perangkingan juga perlu ditambahkan agar memudahkan user dan untuk tahun inputan dimulai dari tahun 2017
+responden 2 menjelaskan bahwa spk pemilihan wilayah prioritas intervensi kegiatan keluarga berencana sudah sangat membantu dalam mengambil keputusan dan memudahkan staf dalam memilih wilayah prioritas, namun perlu tambahan untuk bagian hasil juga diberikan kesimpulan seperti yang dimaksud oleh responden 1 sebelumnya
+dan untuk input data agar dapat diakses oleh user saja
+hasil wawancara dari responden 1 dan responden 2 yang berdasarkan kategori kemudahan dan kegunaan, dapat dijadikan bukti untuk mengkonfirmasi bahwa spk pemilihan wilayah prioritas intervensi kegiatan keluarga berencara yang diujikan sudah membantu dengan beberapa tambahan
+kesimpulan sistem, perancangan dan pengujian terhadap sistem pendukung keputusan pemilihan mahasiswa berprestasi adalah sebagai berikut
+metode ahp digunakan untuk mencari bobot kriteria dan metode smart untuk mencari urutan prioritas wilayah
+penelitian ini menggunakan pengujian akurasi dan wawancara
+pengujian akurasi yang dilakukan memberikan hasil bahwa perangkingan wilayah intervensi sudah sesuai harapan karena untuk prioritas wilayah utama dari sistem sudah sesuai dengan hasil manual yang dilakukan oleh bkkbn kota pontianak
+pengujian wawancara kepada responden 1 dan responden 2 telah memberikan tanggapan bahwa sistem sudah memudahkan dan sesuai kebutuhan, hanya saja perlu penambahan dan peningkatan agar sistem lebih baik lagi
+wilayah prioritas yang seharusnya diadakan intervensi tahun 2017 yaitu wilayah kayong utara
+wilayah rekomendasi selanjutnya setelah kayong utara yaitu sekadau, kapuas hulu, kota singkawang, melawi, bengkayang, mempawah, kota pontianak dan untuk prioritas terakhir yaitu wilayah sambas
+melalui penelitian ini, dapat diketahui bahwa spk dapat membantu proses pengambilan keputusan dan mengatasi permasalahan pada bkkbn dalam menentukan wilayah prioritas intervensi kegiatan keluarga berencana
+proses pemilihan wilayah yang terkomputerisasi dapat meningkatkan efektivitas penggunaannya

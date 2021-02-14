@@ -1,0 +1,74 @@
+eee paper template in a4 vol 5 no 3 skema penyembunyian data pada gambar berbasis interpolasi kubik b-spline menggunakan metode least significant bit garno#1, riza ibnu adam#2 #fakultas ilmu komputer, program studi teknik informatika, universitas singaperbangsa karawang jl
+ronggowaluyo, telukjambe timur, karawang 41361 1garno@staff.unsika.ac.id 2riza.adam@staff.unsika.ac.id sistem keamanan pesan harus ditingkatkan
+salah satu cara untuk mengamankan pesan adalah dengan memasukkan pesan ke dalam gambar digital penelitian ini bertujuan untuk meningkatkan kualitas gambar digital dalam sistem keamanan pesan tersembunyi
+teknik yang digunakan untuk keamanan pesan adalah steganografi
+cover image akan dikonversi menjadi bit piksel dalam domain spasial cover image digunakan dalam bentuk gambar digital dengan format .jpg
+teknik meningkatkan kualitas dan kapasitas gambar digital dilakukan dengan menambahkan dan meningkatkan bit piksel menggunakan metode interpolasi cubik b-spline
+cover image yang telah di interpolasi, kemudian disisipi pesan menggunakan metode least significant bit untuk memperoleh stegoimage
+pesan yang diselipkan berbentuk file .doc, .docx, .pdf, .xls, .rar, .iso dan .zip dengan ukuran berbeda-beda kapasitasnya
+teknik uji dibuat dengan bantuan perangkat lunak matlab versi 2017a
+penelitian melakukan uji dengan mengukur nilai kualitas penyamaran dari stegoimage menggunakan peak signal to noise ratio dengan rata-rata perolehan stegoimage terhadap original image 29.06 db dan stegoimage terhadap image interpolation 64.34 db dan uji mean squared error dengan rata-rata perolehan 97.54 db pada image interpolation terhadap original image dan 97.55 db pada stegoimage terhadap original image, 0.13 db nilai mse stegoimage terhadap image interpolation
+hasil uji pada penelitian dengan proses interpolasi pada coverimage dengan cubic b-spline mempengaruhi terhadap nilai samar atau nilai psnr
+salah satu teknik yang dapat digunakan dalam komunikasi rahasia, yaitu steganography[5-7]
+teknik yang memanfaatkan media penampung untuk menyembunyikan atau menyelipkan pesan sebenarnya merupakan metode yang digunakan oleh steganography
+metode kerja steganography yaitu pesan disisipkan secara acak dalam bentuk bit-bit piksel yang terdapat pada citra digital
+penggunaan citra digital sebagai media penampung mempunyai kelebihan karena indera penglihatan manusia memiliki keterbatasan terhadap warna, sehingga sulit membedakan citra digital yang asli dengan citra digital yang telah disisipi pesan yang bersifat rahasia
+meskipun begitu, untuk data yang berukuran besar sangat mungkin terjadinya perubahan kualitas citra digital
+perubahan kualitas citra terjadi karena proses penyisipan pesan ke dalam media penampung menambahkan/menghapus nilai-nilai frekuensi tinggi
+significant bit) media penampung harus memiliki kekuatan citra yang sangat dalam
+bahkan perubahan penyesuaian kontras/kecerahan dapat merubah kualitas citra
+jung dan k.y.yoo menunjukkan bahwa interpolasi mampu meningkatkan kualitas citra media penampung sebesar 35 db
+khosravi yang menunjukkan bahwa interpolasi memiliki nilai rata-rata kualitas citra terbaik dibandingkan metode exploiting modification direction, metode integrated encoding dan metode double layer embedding 
+selain itu, penerapan interpolasi dalam steganography juga memiliki kompleksitas komputasi yang lebih rendah namun tetap memiliki kualitas citra yang baik
+digital dapat dilakukan dengan metode interpolasi
+teknik interpolasi menghasilkan titik-titik data baru dari perhitungan titik-titik yang sudah ada sebelumnya
+proses peningkatan kualitas citra dilakukan dengan meningkatkan jumlah piksel dari sebuah warna ataupun intensitas
+bertujuan untuk menerapkan metode interpolasi cubik b- spline atau kubik b-spline digunakan untuk interpolasi cover image kemudian hasilnya menjadi image interpolation yang berguna sebagai media penyelipan pesan
+metode least significant bit digunakkan untuk menyisipkan pesan kedalam citra digitaldan menghasilkan stegoimage
+metode interpolasi cubik b- spline sebagai proses peningkatan kualitas dan kapasitas citra digital penelitian ini, pengukuran nilai kesamaran dan kualitas stegoimage dilakukan dengan mengukur nilai peak signal to noise ratio dan mean squared error 
+metodologi penelitian perubahan kualitas citra pada media penampung dengan menerapkan metode interpolasi cubik b-spline
+adapun tahapan penelitian meliputi persiapan, perancangan program, dan analisa hasil
+keseluruhan tahapan penelitian diperlihatkan dalam bentuk diagram alir pada gambar 1
+the image format of the message develop the b-spline cubic interpolation test image a
+tahap persiapan citra digital memiliki format file berupa jpg, dengan ukuran file masing-masing sebesar 46.2 kb tulips.jpg, 41.7 kb desert.jpg, 49.0 kb koala.jpg, 40.8 kb penguins.jpg, 37.8kb lighthouse.jpg, 54.5 kb chrysanthemum.jpg, 277 kb tiger.jpg dan 44.2 kb hydrangeas.jpg
+sedangkan untuk pesan yang disisipkan berformat docx, pdf, excel/xls, iso, zip dan rar berukuran masing-masing sebesar 13.4 kb docx, 172 kb file excel dan 87.7 kb file zip, 148 kb file iso, 86.8 kb rar, 237 kb file pdf
+perancangan program piksel domain spasial bit-bit tersebut selanjutnya diolah secara komputasi menggunakan metode interpolasi cubik b-spline
+hasilnya akan diperoleh citra digital baru yang memiliki kerapatan piksel yang berbeda
+citra digital yang telah di interpolasi kemudian akan disisipi pesan teks
+proses penyisipan pesan dilakukan menggunakan metode lsb
+citra digital yang telah disisipi pesan selanjutnya akan diukur nilai pnsr dan mse
+proses perancangan program untuk pengujian dilakukan menggunakan software matlab 2017a
+keseluruhan proses perancangan program diperlihatkan pada gambar 2
+uji kualitas image dan anilisis hasil analisis hasil dilakukan dengan cara mengukur nilai pnsr, mse, pada original image dan citra digital hasil interpolasi mendapatkan rata-rata nilai kemiripan atau psnr seberapa besar decibel/dbnya, dan mengukur rata- rata nilai error atau msenya
+berikutnya mengukur hasil stegoimage terhadap original image dengan nilai rata-rata kemiripan dengan original image seberapa besar dbnya, serta nilai errornya atau mse seberapa dbnya, terakhir mengukur stegoimage yang telah disisipi pesan terhadap imageinterpolasi didapatkan nilai rata-rata psnr dan mse seberapa dbnya
+semakin tinggi nilai pnsr, dan semakin kecil mse maka akan semakin baik kualitas citra digital yang dihasilkan
+sebagai cover image, jenis file pesan yang diselipkan dan hasil uji interpolasi, hasil uji encode berbagai pesan ke dalam image interpolasi serta uji psnr dan mse baik pada stegoimage terhadap original image, dan stegoimage terhadap image interpolation
+adapun bahan dan hasil uji dapat dilihat pada tabel
+tabel 1 merupakan daftar image yang digunakan sebagai uji image yang akan diproses cubic b-spline
+tabel i file pesan yang digunakan untuk diselipkan terdiri dari berbagai tipe file seperti jenis docx, pdf, pdf yang berisi text dan gambar, file .zip, file .iso, .rar, .xls, excel yang di kompres .rar, semuanya memiliki ukuran yang berbeda- beda seperti pada tabel 2
+tabel ii text berformat 4 dikompress zip full berformat 6 full berformat berformat exls pesan dilakukan pada gambar berformat jpg, interpolasi menggunakan fungsi cubic b-spline terhadap image dengan proses pembesaran sebanyak 1.5 kali atau 2 kali
+adapun hasil uji dapat dilihat pada tabel 3
+adapun hasil uji yang diperoleh dapat dilihat pada tabel 4
+no image inte rpolation pesan stegoimage stegoimage textfullpd 4608 berformat docx dan pdf dikompress zip
+5 lighthouse 4608 fullberformat 177 kb, pesan 73 bytes, pesan menguji psnr dan mse terhadap original image dengan image interpolasition dan stegoimage, image interpolation dengan stegoimage
+adapun hasil uji dapat dilihat pada tabel 5
+no original image name image inter polation stegoimage to original image 4 ping 7 chrysan them yang semula diharapkan bahwa semakin besar psnr maka semakin baik stegoimage yang dihasilkan
+beberapa nilai yang didapatkan yaitu pengujian psnr antara image interpolation terhadap original image didapatkan rata-rata 29.06 db, psnr stegoimage terhadap original image mendapatkan rata-rata 29.06 db, tetapi psnr stegoimage terhadap image interpolation mendapatkan rata-rata 64.34 db
+uji mean squared error uji kualitas image mean squared error yang dilakukan dengan membandingkan antara hasil image interpolation terhadap original image, stegoimage terhadap original image serta stegoimage terhadap image interpolation
+adapun hasil uji yang diperoleh dapat dilihat pada tabel 6
+tabel vi no original image name image inter polation stegoimage to original image 4 ping 7 chrysan interpolasi terhadap original image mendapatkan rata- rata 97.54 db, stegoimage terhadap original image mendapatkan mse rata-rata 97.55 db, serta stegoimage terhadap image interpolation mendapatkan nilai rata- rata mse 0.13 db
+pembahasan analisis hasil setiap pengujian dari awal sampai akhir penggunaan cover image berformat jpg dimaksudkan format tersebut paling banyak dipergunakan oleh rata-rata pengguna perangkat digital hasil pengujian image interpolasi memiliki rata-rata psnr terhadap original image 29.06 db yang artinya tingkat kemiripan image hasil interpolasi terhadap original image memiliki nilai kurang baik
+penyebabnya berdasarkan beberapa literatur bahwa psnr yang baik jika nilainya minimal 40 db, jika nilai dalam skala logaritmik nilai decibel db nilai psnr jatuh di bawah 30db alasanya bahwa kualitas stegoimage mengindikasikan relative rendah, karena distorsi penyisipan pesan terlihat kasat mata
+perbedaan yang sangat jauh ini disebabkan karena adanya proses pembesaran image secara 2 kali lipat dan dimensi dari original image dan image interpolation yang berbeda
+uji psnr stegoimage hasil dari penyisipan pesan berupa file doc, docx, pdf, rar, iso, zip, excel dan berukuran berbeda- beda terhadap original image memiliki hasil nilai rata- rata 29.06 db
+berbeda jauh dengan psnr pada stegoimage terhadap image interpolation mendapatkan nilai rata-rata psnr 64.34 db artinya sangat baik, hal ini disebabkan karena rata-rat secara dimensi dari image interpolasi dan stegoimage sama
+artinya psnr salah satunya dipengaruhi oleh dimensi image
+uji mean squared error pada image interpolasi terhadap original image mendapatkan rata-rata 97.54 db dan 97.55 db pada stegoimage hasil penyisipan pesan berupa file doc, docx, zip, rar, pdf, iso dan excel terhadap original image, artinya hasil mse yang ada sangat tidak baik, dengan tingkat error sangat tinggi
+hal ini disebabkan karena efek dari dimensi yang jauh berbeda dan menyebabkan tingkat blur yang terlihat
+berbeda jauh jika dibandingkan dengan hasil uji mse pada stegoimage terhadap image interpolation yaitu mendapatkan hasil rata-rata mse 0.13 db sangat baik, alasannya sama yaitu banyak dari sample uji karena memiliki dimensi yang sama saat di uji
+berarti nilai pengujian mse juga dipengaruhi oleh dimensi dari image uji
+rata-rata dari hasil stegoimage yang didapatkan nilai psnr tingkat kemiripan stegoimage terhadap original image sangat rendah yaitu dibawah 30 db, begitu juga dengan uji mse dengan hasil tingkat error yang sangat tinggi
+hasil uji atau stegoimage yang diperoleh artinya memiliki kondisi secara kasat mata terlihat perbedaannya
+penyebab ini semua karena adanya pembesaran terhadap original image
+pembesaran mengakibatkan dimensi keduanya berbeda jauh
+sebagai saran model interpolasi cubic b-spline yang digunakan untuk untuk zooming image pada teknik steganografi sebaiknya dilakukan proses perbaikan image dengan teknik atau algoritma tertentu agar mendapatkan kualitas stegoimage yang baik dan memiliki nilai psnr yang tinggi dan mse yang sangat kecil

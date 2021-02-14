@@ -1,0 +1,77 @@
+eee paper template in a4 vol 6 no 1 april 2020 information retrieval pada pencarian menu balita menggunakan dice coefficient arfiani nur khusna#1, luthvi rizkawati*2 #departemen teknik informatika, universitas ahmad dahlan jl
+ahmad yani, kragilan, tamanan, banguntapan, bantul, yogyakarta 1arfiani.khusna@tif.uad.ac.id jl
+ahmad yani, kragilan, tamanan, banguntapan, bantul, yogyakarta 2luthvi29@gmail.com kesakitan dan penyebab gangguan tumbuh kembang pada balita diseluruh dunia, 75% responden kesulitan menemukan informasi tentang pencarian menu makanan yang tepat untuk balita berdasarkan bahan makanan yang tersedia sehingga menjadi salah satu faktor penyebab gizi buruk balita
+penelitian bertujuan untuk membantu pengguna menemukan informasi dalam mencari menu makanan balita berdasarkan bahan-bahan yang tersedia
+pencarian menggunakan information retrieval dengan metode dice coefficient untuk menghitung tingkat kesamaan antar dua buah objek dengan cara mengalikan dua jumlah nilai irisan antara dokumen menu dan query, kemudian membaginya dengan jumlah nilai dokumen menu dengan nilai query
+pengujian sistem menggunakan user testing, hasil pengujian menunjukkan bahwa 27 dari 30 pengguna berpendapat setuju dalam kemudahan dan manfaat sistem untuk mengatur menu makanan yang tepat bagi balita sesuai bahan yang tersedia
+pendahuluan usia 6-24 bulan di indonesia adalah rendahnya mutu makanan yang dikonsumsi balita dan ketidaksesuaian pola asuh yang diberikan sehingga beberapa zat gizi tidak dapat mencukupi kebutuhan energi dan zat mikro terutama zat besi dan seng 
+balita dengan pengetahuan gizi ibu yang kurang memiliki hubungan yang bermakna dengan kasus balita gizi kurang
+balita yang tingkat pengetahuan gizi ibunya kurang, berisiko mengalami gizi buruk 5, 091 kali lebih besar daripada balita yang ibunya memiliki tingkat pengetahuan baik
+menu balita merupakan makanan atau minuman yang mengandung zat gizi, diberikan kepada bayi atau anak usia 6-24 bulan guna memenuhi kebutuhan gizi selain dari asi, diperlukan untuk mengisi kesenjangan antara total kebutuhan nutrisi bayi dengan jumlah nutrisi yang didapatkan dari asi saja, karena jika kesenjangan tersebut tidak dipenuhi maka pertumbuhan bayi akan terhambat atau terhenti
+beberapa faktor yang harus diperhatikan dalam pemberian menu balita yaitu faktor usia, frekuensi, jumlah pemberian, tekstur, keberagaman makanan, reaksi keaktifan bayi terhadap makanan dan higienis
+terhadap pemberian makanan balita dan disebarkan kepada 50 responden yang mempunyai balita, terdapat 75% responden mempunyai bahan makanan yang siap untuk diolah namun kesulitan menemukan informasi tentang pencarian menu makanan yang bernilai gizi tinggi untuk disajikan pada balita sesuai dengan usianya berdasarkan bahan yang sudah ada
+perkembangan teknologi informasi sangat berperan penting dalam berbagai sektor kehidupan manusia
+khususnya pada bidang kesehatan, masih terdapat ibu yang belum sadar akan kebutuhan menu makanan yang sehat dan tepat sesuai dengan usia balita, baik dari segi bahan makanan maupun nilai nutirisi gizi atau yang terkandung dalam menu makanan tersebut
+saat ini banyak media informasi online seperti website ataupun aplikasi android yang menyajikan beragam menu makanan untuk balita, namun media-media tersebut belum dapat membantu ibu dalam mencari menu makanan berdasarkan bahan makanan lokal yang sesuai dengan usia balita
+information retrieval atau temu balik informasi merupakan bagian dari computer science tentang pengambilan informasi dari dokumen-dokumen yang didasarkan pada isi dan konteks dari dokumen-dokumen itu sendiri
+informasi dalam konteks ini dapat terdiri dari teks, gambar, audio, video, dan objek multimedia lainnya
+information retrieval menerapkan berbagai macam algoritma similarity untuk mencari kesamaan antar dokumen dan query, salah satunya yaitu dice similarity
+dice coefficient atau dice similarity adalah algoritma yang digunakan untuk menghitung tingkat kesamaan antar dua buah objek dengan cara mengalikan 2 jumlah nilai irisan antara dokumen dan query, kemudian membaginya dengan jumlah nilai dokumen dengan nilai query
+dice coefficient tidak memperhatikan berapa kali suatu term muncul di dalam suatu dokumen
+mencocokan term atau istilah yang dibangun dengan term atau indeks yang ada dalam dokumen, sehingga dengan kecocokan tersebut maka dokumen- dokumen yang relevan akan terambil dari database
+terambilnya dokumen berdasarkan permintaan pengguna dengan harapan bahwa content atau isi dari dokumen yang terambil tersebut relevan dengan kebutuhan informasi pencari informasi
+memperoleh fitur yang akan diproses pada tahap selanjutnya
+tugas pokok pada tahap ini adalah pembangunan indeks dari koleksi dokumen 
+indexing adalah proses membangun representasi suatu dokumen dengan memberikan suatu pengenal pada item- item teks
+kualitas indeks mempengaruhi efektifitas dan efisiensi sistem information retrieval elemen dari indexing adalah fitur yang dapat diperoleh dari ekstraksi teks suatu dokumen yang akan dimodelkan
+indeks dokumen adalah himpunan term yang menunjukkan isi topik yang dikandung oleh dokumen
+indeks akan membedakan antara satu dokumen dengan satu dokumen lain yang berada didalam koleksi
+pembobotan kata sangat berpengaruh dalam menentukan kemiripan antara dokumen dengan query
+apabila bobot tiap kata dapat ditentukan dengan tepat, diharapkan hasil perhitungan kemiripan teks akan menghasilkan perangkingan dokumen yang baik
+faktor yang memegang peranan penting dalam pembobotan kata yaitu term frequency 
+faktor ini menyatakan banyaknya kemunculan suatu kata dalam suatu dokumen
+semakin sering suatu kata muncul dalam sebuah dokumen, berarti semakin penting kata tersebut
+metode dice’s similarity coefficient atau biasa dikenal dengan nama sorensen-dice coefficient digunakan dalam perhitungan kemiripan dokumen
+rumus yang digunakan, yaitu:|𝐷|+|𝑄| d : nilai similaritas antara set d dan set q |d ∩ q| : banyaknya elemen yang sama antara set d dan set q pengujian akurasi menggunakan precision dengan rasio dokumen relevan yang berhasil ditemukembalikan dari seluruh dokumen yang ditemukembalikan
+nilai tertinggi precision adalah 1 atau 100% yang berarti seluruh dokumen yang ditemukan adalah relevan, precision didefinisikan sebagai berikut:𝐽𝑢𝑚𝑙𝑎ℎ 𝑑𝑜𝑘𝑢𝑚𝑒𝑛 𝑡𝑒𝑟𝑎𝑚𝑏𝑖𝑙 𝑑𝑎𝑙𝑎𝑚 𝑝𝑒𝑛𝑐𝑎𝑟𝑖𝑎𝑛 discounted cumulative gain merupakan metode untuk mengukur kualitas peringkat dokumen berdasarkan posisinya dalam daftar hasil
+dcg pada posisi p peringkat tertentu didefinisikan sebagai berikut:𝐷𝐶𝐺𝑝 = ∑ 𝑟𝑒𝑙 𝑖 0, 𝑗𝑖𝑘𝑎 𝑑𝑜𝑘𝑢𝑚𝑒𝑛 𝑘𝑒 𝑖 𝑖𝑟𝑟𝑒𝑙𝑒𝑣𝑎𝑛𝑡 kemudian akan menghitung ideal discounted cumulative gain yang mewakili daftar dokumen yang relevan di dalam database dan disesuaikan dengan peringkat dokumen yang diharapkan
+pengukuran dcg yang dinormalisasi, mengaitkan nilai dcg yang ideal, untuk setiap posisi peringkat p, berdasarkan skor yang diharapkan pada posisi
+idcg didefinisikan sebagai berikut:𝐼𝐷𝐶𝐺𝑝 = ∑ 𝑟𝑒𝑙 𝑖 gain untuk mendapatkan ukuran kinerja peringkat rata-rata algoritma yang diterapkan pada mesin pencari
+perlu diperhatikan bahwa dalam algoritma peringkat sempurna yang menghasilkan ndcg 1, ukuran dcg yang dinormalisasi mendekati 1 hanya jika dcg pada setiap posisi dekat dengan idcd sesuai
+metodelogi penelitian informasi seperti yang telah digambarkan pada gambar 1
+collect data, data yang dikumpulkan adalah menu mpasi untuk balita berusia 6-24 bulan dalam bentuk file excel yang didapat dari open source internet 2
+preprocessing text, adalah proses untuk menghilangkan tanda baca, angka dan merubah semua huruf menjadi huruf kecil serta menjadi kata dasar pada data bahan baku dalam menu makanan balita yang terdiri dari tokenize, stopword dan stemming
+adalah proses pembobotan kata berdasarkan kemunculan term pada dokumen dari bahan baku dalam menu makanan balita
+proses hitung nilai similarity, adalah untuk menghitung nilai kemiripan dokumen antara dua objek berdasarkan query yang ingin dicari
+ranking dokumen, adalah hasil data menu mpasi berdasarkan query yang dicari
+urutan data yang muncul paling atas adalah data dengan skor paling tinggi
+perancangan basis data digunakan untuk menentukan data apa saja yang akan masuk ke dalam basis data dan digunakan untuk mendukung rancangan sistem, diantaranya: 1
+data menu pada tabel 1, untuk menyimpan file data set yang telah di upload
+tabel i database menu nama string bahan string resep string usia string 2
+data bahan pada tabel 2, untuk menyimpan setiap dokumen bahan yang mengalami preprocessing
+tabel ii database menu bahan string c
+pengujian comulative gain menggunakan 2 metode pengujian, yaitu metode precision untuk mengetahui kesesuaian hasil pencarian sistem antara query dan dokumen, serta menggunakan metode discounted comulative gain untuk mengukur kualitas hasil rangking dokumen sehingga dapat diketahui efektivitas algoritma yang diterapkan pada mesin pencarian
+selain 2 metode pengujian, terdapat pengujian kepada pengguna untuk mengukur manfaat dan kemudahan sistem kepada pengguna menggunakan user testing
+hasil dan pembahasan menu makanan untuk balita yang berusia 6-24 bulan
+data didapat dari website www.ayahbunda.co.id yang disimpan dalam bentuk file excel dan terdapat sebuah tabel dengan 280 baris dan 4 kolom, yaitu: nama, bahan, resep, dan usia
+fokus pada penelitian ini yaitu melakukan proses pencarian dan menemukan dokumen relevan berdasarkan bahan baku menu makanan balita
+tabel iii proses tokenisasi d1 d2 d3 1 50 50 25 2 gram gram gram 3 ayam brokoli brokoli 4 50 50 200 5 gram gram gram 6 brokoli dada kentang 7 100 ayam 100 8 ml 50 gram 9 kaldu gram tahu hasil tokenisasi yang terdapat pada tabel 4
+tabel iv proses stopword d1 d2 d3 1 ayam brokoli brokoli 2 brokoli dada kentang 3 kaldu ayam tahu dengan cara menghapus imbuhan yang berada di depan maupun di belakang kata, terdapat pada tabel 5
+term weighting ada atau tidak pada dokumen
+akan bernilai 0 apabila term tidak ada pada sebuah dokumen, dan bernilai 1 apabila term tersebut ada dalam dokumen, terdapat pada tabel 6
+tabel v proses stemming d1 d2 d3 1 ayam brokoli brokoli 2 brokoli dada kentang 3 kaldu ayam tahu coefficient: 𝐷𝑖𝑐𝑒 = 2 |𝐷1 ∩ 𝑄| |𝐷1| + |𝑄| = 𝐷𝑖𝑐𝑒 = 2 |𝐷2 ∩ 𝑄| |𝐷2| + |𝑄| = |𝐷3| + |𝑄| = perangkingan pada masing-masing dokumen berdasarkan nilai tertinggi hingga terendah yaitu d2, d1 dan d3 sehingga hasil dokumen yang relevan terhadap query yang diinputkan pengguna ialah dokumen d2 yang menghasilkan skor 0, 86
+pada halaman ini akan ditampilkan 10 list rekomendasi menu makanan balita sesuai usia balita berdasarkan hasil perhitungan skor terbesar hingga terkecil yang menerapkan metode dice coefficient terdapat pada gambar 3
+tabel viii tabel vii sebanyak 280 dokumen mpasi yang terdapat dalam database
+pengujian pada sistem dengan menggunakan 25 query yang berbeda di setiap pengujian, hasil pengujian menunjukkan bahwa nilai precision menunjukkan rata-rata bernilai 0.23
+hal ini menunjukkan bahwa masih terdapat dokumen lain selain dokumen relevan yang ikut ditemukan oleh sistem sehingga membuktikan bahwa keakurasian antara query yang dimasukkan dengan dokumen hasil pencarian masih kurang relevan dimana kondisi ideal precision adalah bernilai 1
+pada tabel 7 menunjukkan hasil precision menggunakan persamaan 2, dengan ra = jumlah dokumen relevan yang terambil dan rt = jumlah dokumen yang terambil dalam pencarian
+no query term 𝑹𝒂 𝑹𝒕 𝑷𝒓𝒆𝒄𝒊𝒔𝒊𝒐𝒏 1
+jagung tahu no query 𝑫𝑪𝑮𝒑 𝑰𝑫𝑪𝑮𝒑 𝒏𝑫𝑪𝑮 1
+langkah pertama menghitung nilai dcgp terlebih dahulu menggunakan persamaan 3, selanjutnya menghitung nilai idcgp menggunakan persamaan 4 dan menghitung nilai ndcg menggunakan persamaan 5
+hasil menunjukkan bahwa kinerja peringkat dokumen rata-rata algoritma yang diterapkan pada mesin pencari dinilai efektif karena menghasilkan nilai 0, 98 bahwa kualitas peringkat dokumen berada pada posisi atas rangking dokumen dalam hasil pencarian dan hasil tersebut sesuai dengan skor similarity
+hasil pengujian pengguna menjawab sangat setuju 27 dan tidak setuju 3 dari 30 pengguna
+berdasarkan hasil user testing dapat diinterpretasikan bahwa dengan menggunakan sistem, pengguna dapat menemukan informasi dalam pencarian menu makanan balita dengan bahan yang telah tersedia
+pengujian precision menghasilkan nilai 0.006 yang menunjukkan bahwa masih terdapat dokumen lain selain dokumen relevan yang ikut ditemukan oleh sistem dan dokumen yang diharapkan dapat ditemukan sedikit
+nilai rata-rata precision yaitu 0.23 yang membuktikan bahwa keakurasian antara query yang dimasukkan dengan dokumen hasil pencarian masih kurang relevan dimana kondisi ideal precision adalah 1
+segi kualitas peringkat dokumen, kinerja peringkat dokumen rata-rata algoritma yang diterapkan pada mesin pencari dinilai efektif karena menghasilkan nilai 0.98 sehingga metode dice coefficient merupakan salah satu metode yang dinilai efektif apabila diterapkan pada mesin pencari
+pengujian user testing terhadap pengguna, menunjukkan bahwa 27 dari 30 pengguna berpendapat setuju dalam kemudahan dan manfaat sistem untuk menemukan informasi dalam pencarian menu makanan bagi balita sesuai bahan yang tersedia

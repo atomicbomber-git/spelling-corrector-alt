@@ -1,0 +1,82 @@
+inny riyanti putri ryrinny@gmail.com that has an important part in region development, therefore it needs a research to maximize the developing of plantation area
+the potention of a region to plantation developing basicly specified by the physical environment with specified parameter for the potential area based on some indicators, such as soil texture, depth of soil, the thickness of peat, relief, gradient, temperature and precipitation
+the purpose of this research is to design and build systems of utilization to plantation land by applying the approach to small area estimation, so as to provide information about that it regarding a potential land for plantations as well as the appropriate plant species in an area
+sae is an important concept in sampling especially in parameter where the information sample size is relatively small
+sae generated the information in the form of estimation
+this estimation will be used in comparison value to the existing indicators
+so in the end the result of system is, management spatial data and tabular area that potential plantation with along viable plants grow in kubu raya displayed as map in the geographic information system
+based on this analysis system it is known that the indicators most influence in determining the land area is the plantation of potential indicators are soil texture, the thickness of peat and gradient, so getting the rank value noted that the district that has the most potential as a priority rural farming areas are districts sungai kakap, batu ampar, and sungai ambawang
+test results on systems built respondents, using likert’s summated rating method, the measurement results obtained with a score of 425
+based on a scale of 360 < score < 480, a score of 425 indicates that the system is built is considered successful
+untuk memacu perkembangan sosial ekonomi, mengurangi kesenjangan antar wilayah dan menjaga kelestarian lingkungan hidup pada suatu wilayah
+pengembangan wilayah sangat diperlukan karena setiap wilayah memiliki karakteristik yang sangat berbeda
+memiliki arti penting atas ketersediannya yang semakin langka dan terbatas, ruang merupakan wadah tempat manusia dan makhluk hidup lainnya hidup, ruang mencakup lahan dengan berbagai sumberdaya yang ada dipermukaan maupun didalamnya
+bertentangan kebutuhan terhadap lahan justru semakin meningkat dengan peningkatan jumlah penduduk dan kegiatan pembangunan
+apalagi lahan juga perlu dikonservasi untuk penggunaannya dimasa mendatang
+berkaitan dengan hal tersebut, pemanfaatan lahan harus dilakukan secara terencana, rasional, optimal dan bertanggung jawab serta sesuai dengan kemampuan daya dukungnya
+kesesuaiannya akan memberikan dampak buruk, baik secara fisik maupun ekonomi
+secara fisik, pemanfaatan lahan yang tidak sesuai dengan daya dukung lahan dapat menimbulkan kerusakan
+akan tetapi, penggunaan lahan yang tepat adalah langkah pertama untuk menunjang program konservasi lahan
+adapun secara ekonomi, ketidaksesuaian lahan akan berdampak pada produktivitas lahan
+produktivitas komoditi pertanian akan rendah apabila komoditas tersebut ditanam pada lahan dengan kondisi biofisik yang tidak sesuai dengan syarat tumbuh tanaman
+perkebunan merupakan salah satu subsektor strategis yang berperan penting dalam pengembangan wilayah
+sebagaimana dicantumkan dalam undang- undang no 18 tahun 2004
+potensi suatu wilayah untuk pengembangan perkebunan pada dasarnya ditentukan oleh sifat lingkungan fisik
+informasi bahwa lahan tersebut potensial untuk dikembangkan
+kabupaten kubu raya merupakan salah satu daerah yang memiliki komoditas hasil perkebunan yang besar
+hal ini ditunjukkan di sektor perkebunan meliputi tanaman karet, berdasarkan sumber data statistik perkebunan tahun 2012 untuk karet produksi sebanyak 12.564 ton dengan menggunakan lahan seluas 33.461 hektar, potensi perkebunan di kabupaten kubu raya memiliki kapasitas besar yang mampu membangun perkebunan-perkebunan yang membuat mencapai hasil yang maksimal tersebut, maka perlu mengetahui kemampuan lahan yang berpotensi untuk pendekatan yang digunakan adalah small area estimation 
+dengan menggunakan pendekatan small area estimation, dapat mengidentifikasi pendugaan terhadap lahan disuatu wilayah dengan teknik statistik wilayah kecil
+pendugaan area kecil merupakan pendugaan parameter suatu area yang lebih kecil dengan memanfaatkan informasi dari luar area, dari dalam area itu sendiri dan dari luar survei 
+jadi model sae meminjam informasi dari sampel observasi melalui data bantu yang meliputi data sensus atau catatan administrasi terbaru untuk meningkatkan relativitas ukuran sampel
+informasi yang dihasilkan berupa suatu pendugaan
+perbandingan nilai terhadap parameter yang ada
+sehingga hasil akhir sistem menghasilkan daerah- daerah prioritas potensi perkebunan dan tanaman yang layak tumbuh di daerah tersebut yang ditampilkan berupa peta dalam sebuah sistem informasi geografis
+dengan menggunakan beberapa variabel atau parameter antara lain adalah geologi, topografi, data statistik yang meliputi suhu dan curah hujan dan syarat tumbuh tanaman
+suatu sistem berbasis komputer yang digunakan untuk menyimpan, memanipulasi dan menganalisa informasi- informasi geografis
+dengan memanfaatkan teknologi sistem informasi geografis, informasi mengenai potensi suatu lahan untuk perkebunan, dapat diberikan dengan lebih efisien dan efektif
+dari sistem informasi tersebut dapat diambil informasi dari peta yang sudah tersedia dalam aplikasi sig, dan juga dari sistem informasi tersebut bisa mendapatkan informasi mengenai peta di daerah tertentu berdasarkan kriteria pencarian yang tersedia
+perkebunan di daerah kabupaten kubu raya dengan menggunakan metode sae dapat mengatasi permasalahan kesenjangan informasi potensi lahan perkebunan dan informasi yang dihasilkan dari aplikasi ini nantinya akan berguna untuk arahan dalam perencanaan pembangunan berkelanjutan di daerah kabupaten kubu raya pemanfaatan lahan untuk perkebunan merupakan salah satu strategi dalam rangka pemanfaatan ruang yang sesuai dengan daya dukung wilayah dan untuk tujuan peningkatan kesejahteraan rakyat
+tanaman- tanaman perkebunan merupakan komoditas yang sangat potensial untuk dikembangkan saat ini
+dengan mengetahui daerah-daerah potensi untuk pengembangan tanaman perkebunan meminimalisir dukung, sehingga pemanfaatan lahan untuk perkebunan rakyat akan berkelanjutan atau sustainable, menguntungkan dan ramah lingkungan 2.2.1 tekstur tanah tekstur merupakan komposisi partikel tanah halus berdiameter 2 mm yaitu pasir, debu dan liat
+tekstur dapat ditentukan di lapangan atau berdasarkan data hasil analisa di laboratorium
+pengelompokan kelas tekstur adalah: berpasir, lempung liat berdebu lempung, lempung berdebu, debu pasir berlempung yang baik bagi pertumbuhan akar, yaitu pada lapisan yang tidak dapat ditembus oleh akar tanaman
+lapisan tersebut dapat berupa kontak lithik, lapisan padas keras, padas liat, padas rapuh
+kedalaman tanah, dibedakan menjadi: tebal : 200 - 400 cm sangat tebal : > 400 cm wilayah meliputi relief atau lereng
+relief erat hubungannya dengan faktor pengelolaan lahan
+relief dan kelas lereng disajikan pada tabel 1
+tabel 1 bentuk wilayah dan kelas lereng no relief lereng 1 datar < 3 3 bergelombang/ melandai 8 – 15 4 berbukit 15 – 30 5 bergunung 30 – 40 sumber/source : metode invetarisasi sumberdaya yang ditunjukkan gambar 2.1
+pembagian daerah iklim tersebut adalah sebagai berikut
+daerah panas atau tropis tinggi tempat : 0–600 m di atas permukaan laut
+daerah sedang tinggi tempat : 600 m–1500 m di atas permukaan laut
+daerah sejuk tinggi tempat : 1500–2500 m di atas permukaan laut
+daerah dingin tinggi tempat : lebih dari 2500 m di atas permukaan laut
+2.2.6 curah hujan untuk keperluan penilaian kesesuaian lahan biasanya dinyatakan dalam jumlah curah hujan tahunan, jumlah bulan kering dan jumlah bulan basah
+pembagian daerah curah hujan tersebut adalah sebagai berikut: 1
+daerah yang mendapat curah hujan rata-rata per tahun kurang dari 1000 mm
+daerah yang mendapat curah hujan antara 1000 - 2000 mm per tahun
+daerah yang mendapat curah hujan antara 2000 - 3000 mm per tahun
+daerah yang mendapat curah hujan tertinggi lebih dari 3000 mm per tahun
+2.3 faktor tanaman perkebunan tanaman perkebunan mempunyai peranan ini telah mampu mendatangkan devisa bagi negara, membuka lapangan kerja dan menjadi sumber pendapatan penduduk, serta berkontribusi dalam upaya melestarikan lingkungan
+budi daya perkebunan sudah merupakan kegiatan usaha yang hasilnya untuk diekspor atau bahan baku industri
+ada 12 komoditas tanaman perkebunan yang banyak diusahakan di wilayah indonesia
+komoditasnya adalah cengkih, coklat, kapas, karet, kelapa, kelapa sawit, kopi, teh, tebu, tembakau dan vanili
+beberapa dari komoditas tersebut tumbuh cukup subur di wilayah kabupaten kubu raya
+2.4 small area estimation pendugaan area kecil atau small area estimation adalah suatu teknik statistika untuk menduga parameter-parameter subpopulasi yang ukuran data sensus, data survei sosial ekonomi nasional untuk menduga peubah yang menjadi perhatian pada domain yang lebih kecil
+area kecil didefinisikan sebagai subpopulasi yang ukuran contohnya kecil sehingga pendugaan langsung tidak dapat menghasilkan dugaan yang teliti 
+fay dan herriot merupakan peneliti pertama yang mengembangkan pendugaan area kecil atau small area estimation berbasis model
+model fay- herriot tersebut merupakan model dasar bagi pengembangan pemodelan area kecil yaitu yi = θ i + ei ; dimana yi adalah penduga langsung bagi area ke-i dan diperoleh dari data survei yang bersesuaian, θi merupakan parameter yang menjadi perhatian, ei adalah galat contoh
+berdasarkan model dasar pendugaan area kecil fay dan herriot, penduga terbaik bagi parameter yang menjadi perhatian pada area ke-i dengan meminimumkan kuadrat tengah galat 
+dengan kata lain hasil dugaan terbaik adalah yang mempunyai nilai mse minimum
+untuk mendapatkan nilai mse pada pendekatan sae maka digunakan metode emperical bayes 
+metode emperical bayes merupakan salah satu metode pendekatan yang dapat digunakan pada pendugaan area kecil
+hal pertama yang ingin didapatkan pada metode bayes adalah sebaran posterior untuk parameter yang diamati yang di notasikan f, dengan asumsi β dan σ 2 v diketahui
+dengan memasukkan dugaan β dan σ2v yaitu f 
+adapun tahapan-tahapan yang dilakukan untuk mendapatkan pendugaan terhadap lahan potensi : 1
+memilih indikator respon atau utama dan indikator pendukung yang di asumsikan mempengaruhi penilaian terhadap lahan potensi perkebunan
+menduga potensi lahan perkebunan untuk masing-masing desa
+menghitung nilai mse pada masing-masing desa
+membandingkan nilai mse terhadap masing- masing desa
+, kedua istilah ini sering digunakan secara bergantian sehingga timbul istilah yang ketiga, yaitu geospasial ketiga istilah ini mengandung pengertian yang sama dalam konteks sig
+penggunaan kata mengandung pengertian suatu persoalan mengenai bumi, permukaan dua atau tiga dimensi
+kesatuan formal yang terdiri dari berbagai sumber daya fisik dan logika yang berkenaan dengan objek-objek yang terdapat di permukaan bumi
+sistem informasi geografis juga merupakan sejenis perangkat lunak yang dapat digunakan untuk pemasukan, penyimpanan, manipulasi, menampilkan dan keluaran informasi geografis berikut atribut-atributnya

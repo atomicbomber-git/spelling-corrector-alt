@@ -1,0 +1,207 @@
+eee paper template in a4 vol 5 no 3 submitted 12-09-2019; revised 16-11-2019; accepted 10-12-2019 261 steganografi qr code pada dual carrier image dengan metode least significant bit yahya risqi#1, rudy dwi nyoto#2, hafiz muhardi#3 #program studi informatika fakultas teknik universitas tanjungpura jl
+hadari nanawi, kota pontianak, 78115 1yahyarisqi@gmail.com 2rudydn@informatika.untan.ac.id 3hafiz.muhardi@informatika.untan.ac.id menyisipkan pesan rahasia ke dalam suatu citra digital, sehingga secara kasat mata manusia tidak akan mengetahui keberadaan dari pesan rahasia tersebut
+tujuan dari penetilian ini adalah menggunakan citra qr code sebagai secret yang diubah ke dalam mode bitonal dengan 1 bit pada tiap pikselnya kemudian dipecah menjadi dua bagian dan disisipkan kedalam blue channel di dual carrier image sehingga kapasitas dari pesan yang akan disisipkan dapat meningkat
+penyisipan pada dual carrier image juga dapat meningkatkan keamanan karena pesan dapat dikirim secara terpisah
+penyisipan pesan dilakukan dengan metode substitusi least significant bit 
+untuk mengevaluasi model steganography yang diteliti, digunakan pengujian mse and psnr, hiding capacity, histogram, recovery dan noise
+hasil pengujian menunjukkan dengan menggunakan citra png dan tiff pada hc hingga 95% nilai psnr tetap tinggi yaitu sebesar 56 db, dengan tingkat recovery 100% dan tahan terhadap jenis noise salt and pepper
+pendahuluan namun, mendistribusikan data digital melalui jaringan publik seperti internet tidak dapat diandalkan karena berbagai hal seperti pelanggaran hak cipta, pemalsuan, imitasi, dan penipuan
+oleh karena itu pertukaran informasi harus dirancang sedemikian rupa agar pihak- pihak yang tak memiliki otoritas terhadap informasi tidak dapat mengaksesnya
+alasan ini pula yang menyebabkan teknik seperti steganografi dan kriptografi dikembangkan
+steganografi dan kriptografi adalah beberapa teknik yang paling sering digunakan untuk mengamankan informasi
+bedanya, kriptografi mengamankan data dengan mengacak data tersebut sehingga sulit untuk dipahami secara langsung namun tidak dapat menyembunyikan fakta bahwa sebuah pesan rahasia eksis dari data yang teracak tersebut
+sedangkan steganografi adalah suatu teknik untuk menutupi keberadaan data rahasia yang tersembunyi di dalam objek lainnya
+terminologi dari steganografi berasal dari 2 kata dalam bahasa yunani yaitu stegos yang berarti dan graphei yang berarti 
+tujuan steganografi adalah untuk menyembunyikan pesan rahasia di dalam pesan-pesan lainnya, dengan suatu cara dimana penyerang tidak akan mungkin dapat mendeteksi bahwa ada pesan kedua yang eksis didalamnya
+mengalami perubahan dan adaptasi yang berbeda karena kebutuhan manusia yang berbeda–beda pula
+dalam beberapa penelitian seperti, , dansama–sama menggunakan citra digital sebagai media utama pembawa pesan rahasia
+pada penelitian maji et al, , menggunakan dua citra digital yang berbeda yaitu reference image dan cover image bersamaan dengan penggunaan stego key dan penggunaan kamus indeks kata
+hasil tes menunjukkan peningkatan kapasitas secret yang dapat disisipkan hingga 40%dan menghasilkan nilai rata- rata mse dan psnr yang cukup baik
+penelitian santoso et al, , juga menggunakan dua citra digital namun bedanya mereka membagi pesan rahasia menjadi dua bagian menggunakan fungsi div dan mod, dimana satu bagian di sisipkan kedalam citra pertama yang berperan sebagai cover image dan satu bagian lainnya disimpan sebagai kunci ekstraksi dalam citra kedua
+dengan membagi pesan rahasia menjadi 2 bagian, kapasitas dari pesan yang di sisipkan akan meningkat dan pesan dapat lebih aman karena dapat dikirim secara terpisah
+pada penelitian chen dan wang, pesan rahasia yang akan disisipkan pada cover image juga berupa image, yaitu teks dalam bentuk qr code dan sebuah citra digital beresolusi rendah
+selain itu dengan menggunakan metode penyisipan dct, model steganografi ini menunjukan ketahanan citra cover yang luar biasa terhadap jpeg attack, namun semua citra cover yang diujikan hanya memiliki nilai psnr dibawah 40%
+dalam mengukur kualitas dari model steganografi yang diajukan, beberapa studi terkait diatas mengikuti tiga aspek dasar dalam steganografi gambar yaitu; pertama, aspek kapasitas, atau seberapa maksimal payload yang dapat dicapai
+kedua, kualitas gambar visual, yaitu seberapa identik citra stego dengan cover image-nya sehingga sulit untuk dibedakan secara kasat mata ataupun secara statistik 
+dan ketiga, aspek keamanan, bagaimana stego-image dapat menahan serangan deteksi steganalisis yang berbeda
+oleh karena itu, metode steganografi yang ideal harus memenuhi ketiga aspek di atas dalam waktu yang bersamaan
+yaitu kapasitas tinggi, kualitas gambar visual yang baik, dan tidak terdeteksi
+walaupun begitu, perlu diperhatikan bahwa ketiga aspek ini tidak saling eksklusif satu sama lainnya artinya mereka bukan merupakan aspek yang dapat berdiri sendiri
+dalam praktik di dunia nyata mustahil mendapatkan nilai yang tinggi untuk ketiga aspek tersebut secara bersamaan
+pasti akan selalu ada hubungan trade off diantara ketiga aspek tersebut agar dapat tercipta sebuah steganografi yang baik
+untuk memanfaatkan penggunaan citra qr code sebagai secret atau pesan rahasia yang akan disisipkan
+lalu dengan memanfaatkan pengelompokkan bit ganjil-genap, citra qr code akan di dipecah menjadi dua bagian berdasarkan posisi bit mereka dan disisipkan kedalam dual carrier image dengan menggunakan metode lsb sehingga meningkatkan imperceptibility dan payload pada steganografi
+quick response code atau yang biasanya disingkat qr code adalah simbologi 2 dimensi yang dikembangkan oleh perusahaan denso wave pada tahun 1944
+qr barcode digunakan untuk mengkodekan data dalam jumlah yang besar dan dikembangkan untuk kecepatan interpretasi pesan
+ukuran dari qr barcode sendiri akan menyesuaikan secara otomatis tergantung dari data yang di inputkan .qr code dipilih untuk menjadi pesan yang akan di sisipkan karena ia mempunyai aspek visual yang unik
+qr code hanya terdiri dari dua warna yaitu hitam dan putih sehingga memungkinkan qr code untuk disimpan ke dalam bentuk gambar bitonal dimana pada tiap satu pixel hanya memerlukan 1 bit data dibandingkan gambar grayscale yang memerlukan 8 bit data atau gambar berformat rgb yang mememerlukan 24 bit data per pixel nya
+hal ini dapat memaksimalkan payload yang akan di sembunyikan kedalam file carrier disamping menjaga ukuran datanya tetap kecil
+apapun jenis steganografinya akan selalu melibatkan suatu media sebagai pembawa pesan rahasia 
+media ini berfungsi sebagai penutup atau peyembunyi pesan yang sesungguhnya
+oleh karena itu istilah cover object juga biasa digunakan dalam mendeskripsikan carrier
+banyak file digital yang dapat dijadikan sebagai carrier
+sebagaimana disebutkan didalam, berbagai media seperti teks, audio, gambar, dan video dapat digunakan sebagai cover
+meskipun begitu, menurutmedia terbaik untuk menanamkan pesan rahasia harus memiliki dua fitur; yaitu media harus populer dan modifikasi di media cover tidak boleh terlihat oleh pihak ketiga
+salah satu media yang paling umum untuk digunakan sebagai cover dalam teknik steganografi digital adalah citra digital gambar digital adalah media yang paling populer karena memiliki frekuensi data redundan yang tinggi dan mampu menyembunyikan data rahasia di dalamnya dengan tetap memberikan efek yang tidak terlihat
+mode rgb 24 bit ini berarti ada 256 kemungkinan intensitas warna dari tiap channel red, green, dan blue dan jika dikombinasikan maka ada 16, 777, 216 kemungkinan warna unik
+walaupun begitu pada kenyataannya ketiga saluran warna ini sangat jarang digunakan secara bersamaan
+ini sesuai dengan prinsip hecht yang mengatakan bahwa persepsi visual terhadap warna merah pekat adalah yang paling tinggi, warna hijau pekat selanjutnya dan yang paling rendah adalah terhadap warna biru pekatdengan kata lain pada suatu gambar rgb saluran warna merah adalah yang paling signifikan dan saluran warna biru memainkan peran paling tidak signifikan dalam formulasi warna
+dari qr code dapat mendukung model steganografi yang efisien dalam perihal ukuran datanya, namun itu saja belum cukup untuk menghasilkan model steganografi yang aman
+oleh karena itu untuk meningkatkan keamanan dan kapasitas dari suatu sistem steganografi tak jarang seseorang melakukan splitting pada secret yang akan mereka sisipkan, pada penelitiandanteknik seperti ini juga diterapkan
+teknik secret sharing membagi suatu pesan rahasia d menjadi bagian sedemikian rupa sehingga d nantinya dapat di rekonstruksi kembali melalui k dimana k adalah (d1, d2,
+tetapi bahkan pengetahuan lengkap tentang k-1 bagian sama sekali tidak akan mengungkapkan informasi apapun tentang d
+teknik seperti ini akan memerlukan sepasang cover image sebagai media carrier- nya oleh karena itu ia disebut dual carrier image
+distribusi ganjil-genap penggunaan dual carrier image mengharuskan data dari secret untuk di pecah kedalam 2 bagian
+dalam hal ini secret akan didistribusikan pada cover 1 dan cover 2
+beberapa penelitian sebelumnya, sepertidansama – sama menggunakan teknik distribusi ganjil-genap untuk menyisipkan pesan rahasia kedalam gambar cover
+pengelompokkan ganjil-genap yag mereka lakukan adalah berdasarkan nilai dari tiap bit pada secret 
+tujuan yang ingin dicapai dari model distribusi tersebut adalah menyisipkan bit dengan nilai yang sama pula pada gambar cover sehingga tidak merubah kualitas dari gambar cover tersebut
+hanya saja, model distribusi seperti ini memerlukan pemetaan/pencatatan mengenai bit secret dan lokasi dimana ia disisipkan
+informasi tersebut kemudian harus di distribusikan pula kepada pihak penerima agar pesan dapat diekstraksi
+distribusi stego-key ini juga harus dipikirkan dengan baik
+jika proses distribusi hanya akan menimbulkan kecurigaan maka itu sama saja dengan mengingkari keseluruhan proses steganografi itu sendiri
+pengelompokkan ganjil-genap dilakukan bukan bit secret itu sendiri
+sehingga piksel pada posisi 0 adalah piksel genap dan piksel pada posisi 1 adalah piksel ganjil, begitu seterusnya
+kelompok piksel ganjil akan disisipkan pada cover 1 dan kelompok piksel genap akan disisipkan pada cover 2
+model seperti ini akan meningkatkan kerancuan distribusi data secret pada masing – masing cover, sehingga walaupun pihak penyerang berhasil mengekstraksi lsb dari salah satu cover, hasil ekstraksi tidak akan menunjukkan pola yang spesifik d
+least significant bit salah satu metode yang paling populer dalam steganografi di bagian spasial domain adalah metode least significant bit 
+semakin akhir posisi bit dalam satu byte maka semakin tidak signifikan nilai yang dimilikinya
+oleh karena itu bit dengan posisi ke-8 dalam satu pixel pada cover adalah bit yang paling tidak signifikan
+teknik lsb klasik akan mensubstitusikan bit ke-8 ini dengan bit dari pesan rahasia
+untuk menjelaskan proses ini umpamakan kita akan menyisipkan huruf a kedalam suatu gambar dengan mode rgb 
+hal ini tentu saja akan meningkatkan imperceptibility dari steganografi tersebut
+melakukan substitusi pada lsb cover menghasilkan perubahan yang sangat kecil pada intensitas warna
+perubahan ini tidak akan dapat di bedakan oleh mata manusia
+untuk mengukur kualitas dari suatu steganografi gambar terdapat 4 kriteria yang dapat dijadikan acuan yaitu; imperceptibility, fidelity, recovery, dan capacity 
+sehingga perubahan pada stego-image dapat menimbulkan kecurigaan dan keberadaan pesan rahasia dapat terdeteksi
+oleh karena itu steganografi gambar yang baik adalah steganografi yang tidak dapat dipersepsi oleh mata manusia secara langsung
+namun tidak cukup sampai disitu, persepsi secara statistik juga harus diperhatikan
+semakin pesat kemajuan teknologi, manusia dapat mengecek perubahan pada gambar secara statistikal sehingga walaupun perubahan cover-image menjadi stego-image sangat kecil maka perubahan tersebut masih dapat terdeteksi
+ dan psnr 
+psnr merupakan sebuah parameter yang umum digunakan dalam proses steganografi untuk menentukan kualitas dari sebuah stego-image
+psnr membandingkan antara nilai maksimum dari sinyal yang diukur dengan besarnya noise yang berpengaruh pada sinyal tersebut
+untuk menghitung psnr, terlebih dahulu harus ditentukan mse
+nilai psnr dibawah 30 db mengindikasikan kualitas stego-image yang relatif rendah, dimana distorsi yang disebabkan oleh proses penyisipan dapat terlihat dengan jelas
+akan tetapi kualitas stego- image yang berada pada nilai 40db dan diatasnya dapat dikategorikan memiliki kualitas yang baik
+selain mse dan psnr, histogram juga dapat dijadikan sebagai alat uji untuk aspek imperceptibility
+histogram adalah suatu representasi grafis dari distribusi tonal dalam suatu gambar digital histogram menunjukkan jumlah kemunculan nilai intensitas piksel tertentu dari keseluruhan gambar
+karena adanya substitusi pada lsb, nilai dari suatu piksel berubah dan mengakibatkan jumlah piksel dengan nilai intensitas tertentu juga berubah
+perubahan ini dapat diamati dengan cara membandingkan histogram dari citra asli sebelum penyisipan pesan rahasia dengan citra setelah penyisipan 
+jika perbedaan histogramnya sangat mencolok ini berarti banyak nilai intensitas dari piksel yang berubah
+oleh karena itu suatu sistem steganografi yang baik harus menghasilkan perbedaan histogram yang sedikit antara cover image dan stego-image
+object, dengan kata lain untuk menentukan apakah citra asli tidak jauh berubah akibat penyisipan pesan rahasia
+aspek ini berhubungan langsung dengan aspek imperceptibility dimana semakin tinggi fidelitas dari suatu stego-image maka semakin baik pula imperceptibility nya
+fidelity dapat diukur dengan membandingkan langsung kedua gambar secara visual, citra dengan model steganografi yang buruk bahkan dapat mengungkap pesan rahasia secara langsung
+jika perbedaan sulit untuk dipersepsi secara visual maka mse dan psnr juga dapat membantu untuk membuktikan kualitas dari suatu steganografi gambar
+jumlah maksimum data yang dapat disisipkan kedalam cover file
+dimana penyisipan dilakukan hanya dengan mensubstitusi 1 bit paling tidak signifikan dari cover-image dengan 1 bit dari secret
+untuk kasus lsb klasik, kapasitas maksimum substitusi yang dapat dicapai adalah 12.5 %
+payload didefinisikan sebagai muatan/jumlah bit secret yang akan disisipkan per pikselnya
+idealnya, hal ini harus setinggi mungkin sambil tetap mempertahankan kualitas yang dapat diterima dari gambar stego
+tidak ada definisi khusus untuk mendeskripsikan hc
+namun, ada berbagai macam variasi ekspresi kapasitas yang dapat digunakan dengan mengandalkan berbagai pendekatan steganografi
+dalam model steganografi yang diajukan formulasi untuk menghitung hc dapat dijabarkan sebagai berikut: 𝐶𝑜𝑣𝑒𝑟 𝐶𝑎𝑝𝑎𝑐𝑖𝑡𝑦× 2 × 100 ket: -10 karena 5 piksel di tiap cover-image akan digunakan untuk bit dimensi secret sedangkan x2 karena cover yang digunakan adalah sepasang 
+perlu untuk dijadikan perhatian bahwa recovery tidaklah sama dengan ekstraksi
+proses ekstraksi hanya akan mengambil bit secret data dari citra cover tanpa peduli kualitas dari secret yang telah di ekstraksi tersebut
+seringkali yang terjadi adalah proses ekstraksi berjalan namun secret yang dihasilkan tidak terbaca, ini artinya tingkat recovery dari model steganografi yang digunakan belum cukup baik
+oleh karena itu pengujian ini perlu untuk dilakukan agar kita dapat mengukur kualitas recovery dari model steganografi yang diajukan
+noise adalah suatu sinyal yang tak diinginkan, dalam bidang pengolahan citra noise ini dapat berupa gambar atau piksel yang menyerupai bintik – bintik hitam dan putih yang dapat mengganggu kualitas dari suatu citra
+noise biasanya terjadi saat transmisi data, banyak faktor yang mempengaruhi noise seperti gelombang elektromagnetik, radiasi, sensor dan lain sebagainya
+pada pengolahan citra sendiri umumnya noise akan berusaha untuk dihilangkan agar kualitas citra meningkat
+metodologi penelitian dual carrier image sebagai model splitting dengan menggunakan metode lsb sebagai teknik penyisipannya
+citra secret akan dipecah dan dikelompokkan ke dalam bitstream ganjil dan genap baru kemudian disisipkan pada lsb bluechannel pada masing – masing gambar cover
+hal ini dilakukan untuk meningkatkan kapasitas, keamanan dan kualitas dari stego image yang akan dihasilkan
+model steganografi yang diajukan terbagi atas 2 proses utama yaitu proses embedding dan extracting
+skema proses embedding model embedding dari steganografi yang diajukan menggunakan 1 gambar qr code yang telah diubah kedalam gambar dengan mode black and white sebagai secret dan sepasang gambar cover dengan format gambar 24 bit depth sebagai carrier nya
+berikut penjelasan secara rinci berdasarkan gambar 1
+mulai encode secret ke bitstream split bitstream into odd and even encode cover ke array of bit lsb embedding decode image 1) encoding secret ke bitstream: sistem membaca secret image yang di masukkan kemudian mengubahnya kedalam bentuk matriks 1 dimensi, perlu diperhatikan bahwa secret adalah gambar qr code bitonal artinya nilai piksel telah dalam bentuk bit
+gambar 2 mengilustrasikan bagaimana proses ini bekerja 2) splitting bitstream ke ganjil dan genap: pada tahapan ini bitstream secret dipecah kedalam 2 bagian yaitu genap dan ganjil
+bit bit pada posisi ganjil nantinya akan di sisipkan kedalam cover 1 sedangkan bit – bit pada posisi genap akan disisipkan pada cover 2
+ilustrasi proses ini dapat dilihat pada gambar 3
+bitstream ganjil bitstream genap bitstream secret perlu menjadi perhatian bahwa pengelompokkan bitstream kedalam ganjil-genap bukan berdasarkan nilai dari piksel mereka melainkan posisi dari piksel tersebut
+hal ini dilakukan untuk menambah tingkat keamanan dari secret yang akan di kirim karena meskipun data dapat di ekstraksi dari salah satu cover oleh pihak yang tidak bertanggungjawab, tanpa informasi tentang ukuran dimensi dan pasangan gambar lainnya maka mustahil data yang di ekstraksi dapat di mengerti
+ia hanya akan mendapatkan sequence dari bit bit ganjil/genap yang walaupun jika diubah kedalam bentuk gambar maka akan menampilkan sebuah gambar yang acak
+proses embedding secret cukup diambil salah satu dimensi pada qr code karena keduanya akan bernilai sama
+setelah itu ubah nilai tersebut kedalam tuple biner
+dalam penelitian yang diajukan batasan ukuran maksimal dimensi dari secret yang dapat dimasukkan adalah 1023x1023 piksel
+nilai 1023 jika di ubah kedalam bilangan biner adalah 1111 1111 11 bilangan ini berjumlah 10 digit, yang berarti memerlukan 10 bit pula untuk tempat penyimpanannya
+karena dalam penelitian ini gambar cover yang digunakan adalah sepasang gambar maka masing masing dari gambar coverakan disisipkan 5 bit sebagai tempat penyimpanan bit informasi dari dimensi ukuran secretilustrasi proses ini dapat dilihat pada gambar 4
+4) encoding cover ke array of bit : sama halnya sepertisecret, maka gambar cover juga harus di encode kedalam bentuk tuple biner untuk tujuan penyisipan gambar
+cover file yang digunakan dalam penelitian ini adalah gambar rgb dengan bit depth 24
+gambar dengan mode ini direpresentasikan dengan 3 channel di tiap piksel nya, masing masing channel terdiri dari 8 bit dan untuk penyisipan pesan rahasia hanya dilakukan pada channel blue
+proses mengubah gambar cover kedalam format matriks ini diilustrasikan pada gambar 5
+ilustrasi proses encode cover ke dalam bentuk matriks 5) lsb embedding: pada tahapan ini akan dilakukan proses penyisipan bit bit secret, terdapat 2 jenis bit yang akan disisipkan kedalam gambar cover yaitu bit dari piksel qr code itu sendiri dan bit informasi ukuran dimensi dari qr code
+penyisipan bit secret akan dilakukan dengan metode lsb dan bit yang akan disubstitusi adalah bit paling tidak signifikan dalam channel blue pada cover
+ilustrasi proses lsb embedding embedding bit dimensi embedding bit secret 6) decode to stego image :pada tahapan ini bit bit dalam susunan array yang telah disisipi bit secret masih berbentuk data biner oleh karena itu perlu dilakukan decode kembali agar angka – angka biner tersebut diubah kembali kedalam bentuk desimal yang merepresentasikan nilai tiap channel pada piksel
+hasil akhir dari proses ini adalah sepasang gambar yang hampir sama dengan gambar cover asli sebelum disisipi bit secret gambar ini kemudian disebut dengan stego-image.ilustrasi proses ini dapat dilihat pada gambar 7
+skema proses extracting keseluruhan tahapan akan dibalik
+diagram alir keseluruhan proses ekstraksi secret dapat dilihat pada gambar 8
+berikut penjelasan secara rinci berdasarkan gambar 8
+gambar stego di encode kedalam bentuk tuple biner agar proses ekstraksi dengan lsb dapat berjalan dengan baik
+nilai dari tiap piksel pada pasangan gambar stego akan di kelompokkan berdasarkan channel mereka lalu akan diubah kedalam bilangan biner
+mulai ekstraksi bit dimensi masing cover selesai decode menjadi gambar ekstraksi bit secret r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: r: g: b: setelah pasangan gambar stego direpresentasikan kedalam bentuk bit bit array proses ekstraksi lsb akan berjalan
+untuk mendapatkan dimensi secret, yang harus dilakukan sistem pertama kali adalah membaca 5 piksel pertama pada masing – masing gambar stego lalu mengambil nilai lsb pada channel blue-nya
+hal ini penting untuk dilakukan pertama kali karena nilai tersebut akan digunakan untuk memberitahu sistem seberapa banyak lsb dari channel blue yang harus diambil pada masing – masing cover untuk mengekstrak bit gambar secret ilustrasi dari proses ini dapat dilihat pada gambar 10
+hal ini karena sistem harus mengekstrak dari dua gambar stego
+3) ekstraksi bit secret: pada tahapan ini sistem akan mengekstraksi bit secret sebanyak nilai dari hasil kuadrat dimensi secret dibagi dengan 2 
+hasil ekstraksi lsb dari gambar stego 1 adalah bit – bit pada posisi ganjil dari gambar secret, sedangkan hasil ekstraksi lsb dari gambar stego 2 adalah bit – bit pada posisi genap dari gambar secretilustrasi dari proses ini ditunjukkan pada gambar 11
+baboon lena ganjil genap 4) merge bit secret: pada tahapan ini bit – bit hasil ekstraksi tersebut akan digabung dan disusun berdasarkan posisi ganjil-genap menjadi bitstream 1 dimensi seperti yang diilustrasikan pada gambar 12
+ganjil 5) ubah bitstream kedalam array 2 dimensi: setelah bit secret digabung menjadi satu, maka tahapan selanjutnya adalah menyusun bitstream tersebut menjadi array bit 2 dimensi
+hal ini dilakukan dengan cara menyusun bit bit secret dengan format baris dan kolom
+selama jumlah baris kurang dari nilai bit dimensi secret maka letakkan bit ke-1 pada kolom 1, bit ke-2 pada kolom 2, begitu seterusnya sampai jumlah kolom = n dimana nilai n = nilai dari bit dimensi secret lanjutkan proses ini sampai jumlah baris = n
+output dari proses ini adalah array bit 2 dimensi yang siap diubah menjadi gambar secret ilustrasi dari proses ini ditunjukkan pada gambar 13
+gambar bitonal dengan mendefinisikan bahwa nilai 1 adalah warna hitam dan nilai 0 adalah warna putih
+output yang dihasilkan dari proses ini adalah gambar secret yang identik bahkan sama persis dengan gambar secret yang asli sehingga proses ekstraksi pesan rahasia dapat dikatakan 100% berhasil
+proses ini dapat dilihat pada gambar 14
+hasil pengujian dan analisis data uji yang digunakan dalam penelitian ini dibagi menjadi 2 jenis yaitu data uji untuk cover dan data uji untuk secret untuk cover akan digunakan gambar sejumlah 5 pasang dengan dimensi 512 x 512 piksel yang terdiri atas 6 file gambar berekstensi *.png, 2 file gambar berekstensi *.tiff, dan 2 file gambar berekstensi *.jpg
+sedangkan untuk secret akan digunakan 4 file gambar qr code dengan versi yang berbeda – beda dan berekstensi *.bmp
+qr code yang digunakan adalah versi 12 dengan dimensi 260 x 260 piksel, versi 19 dengan dimensi 372 x 372 piksel, versi 27 dengan dimensi 500 x 500 piksel, dan versi 40 dengan dimensi 708 x 708 piksel 
+perlu menjadi perhatian bahwa qr code yang dapat digunakan tidak terbatas hanya pada versi yang disebutkan diatas, versi-versi qr code tersebut digunakan hanya untuk menyesuaikan tingkat hiding capacity yang dibagi menjadi 4 kategori untuk memudahkan pengujian
+pengujian terhadap kualitas steganografi dibagi menjadi 4 kriteria yaitu; imperceptibility, fidelity, recovery, dan capacity 
+beberapa alat pengujian yang digunakan adalah mean squared error and peak signal noise to ratio, hiding capacity, histogram dan penambahan noise
+perlu menjadi perhatian bahwa beberapa aspek yang akan diuji saling berhubungan satu sama lain, jadi aspek-aspek tersebut dapat menggunakan alat uji yang sama pula
+pengujian imperceptibility untuk hasil mse dan psnr dapat dilihat pada tabel 1, untuk hasil histogram dapat dilihat pada gambar 15
+nilai psnr dibawah 30 db mengindikasikan kualitas stego-image yang relative rendah, dimana distorsi yang disebabkan oleh proses penyisipan dapat terlihat dengan jelas
+akan tetapi kualitas stego- image yang berada pada nilai 40db dan diatasnya dapat dikategorikan memiliki kualitas yang baik
+perbandingan histogram dengan hc 95% pada citra baboon.png, jetplanes.png, baboon.tif, baboon.jpg histogram stego dengan tipe citra png dan tiff menunjukkan sedikit error pada grafik, hal ini menunjukkan bahwa tingkat imperceptibility dari model steganografi yang diajukan dengan tipe citra png dan tiff sudah cukup baik
+file jpg yang memiliki ukuran rendah
+pada citra jpg grafik histogram menunjukkan error yang cukup terlihat, hal ini disebabkan karena proses kompressi yang terjadi pada citra ini akan merombak habis nilai dan posisi pada citra, sehingga saat pesan sudah disisipi, proses kompressi pada jpg akan secara otomatis mengkalkulasi ulang untuk mendapatkan hasil jpg yang paling baik 
+fidelity pengujian fidelity dapat dilihat juga pada tabel 1
+dan perbandingan citra dapat dilihat pada gambar 16
+perbandingan citra sebelum dan sesudah penyisipan dengan hc 95% c
+pengujian capacity payload yang disisipkan hingga mencapai hiding capacity maksimum dan mencatat nilai mse dan psnr nya
+jika nilai psnr jatuh dibawah 40db sebelum mencapai nilai hc maksimum nya maka model steganografi yang diteliti dapat dikatakan buruk
+yang digunakan utuk pengujian adalah sepasang citra digital 24 bit dengan beragam tipe ekstensi, dan semuanya memiliki dimensi yang sama yaitu 512x512 
+penelitian menggunakan satu channel di tiap cover, hal ini berarti masing-masing cover image memiliki kemampuan kapasitas total yang sama dengan jumlah total piksel
+karena cover image yang digunakan berjumlah sepasang maka kapasitas total payload yang dapat ditampung mejadi 2 kali lipat atau sama dengan 524288 bit atau jika dijadikan citra 2 dimensi adalah citra dengan 724 x 724, dengan menggunakan formula maka hc untuk model steganografi ini dapat dihitung sebagai berikut %hc = 524288−10 262144 × 2 × 100 adalah sebesar 99%, namun untuk keperluan pengujian dengan versi citra qr code, nilai 95% dirasa sudah cukup ideal dapat diketahui pada tabel i dengan hc 95% nilai psnr adalah 56 db
+pada steganografi, noise akan ditambahkan pada citra stego untuk menguji ketahanan model steganografi terhadap pengaruh gangguan
+pada pengujian ini akan digunakan 3 jenis noise yaitu, gaussian noise, poisson noise, dan salt and pepper noise
+hasil pengujian recovery dapat dilihat pada tabel 2, sedangkan pengujian noise dapat dilihat pada tabel 3
+tabel iii citra ekstraksidari payload mse psnr baboon & lena baboon & lena baboon & lena baboon & lena seluruh secret dengan hc yang berbeda beda dapat diekstraksi dan di recover dengan baik, kecuali pada citra jpg
+hasil pada seluruh citra dengan tipe jpg berarti kualitas citra secret yang diekstraksi tidak dapat dihitung karena walalupun berhasil di ekstraksi citra secret tidak dapat terbaca bahkan memiliki ukuran piksel yang berbeda dari aslinya
+tabel iiiii citra stego dengan gaussian poisson salt & pepper baboon dan lena *.png 12, 5% y dan n y dan n y dan y baboon dan lena *.png 25% y dan y y dan n y dan y baboon dan lena *.png 50% n dan n y dan n y dan y baboon dan lena *.png 95% n dan n n dan n y dan y pada pengujian noise di tabel 3 kita dapat melihat bahwa sistem paling dapat bertahan pada noise salt and pepper
+hal ini dikarenakan noise dengan tipe ini tidak akan merusak gambar sepenuhnya, ia hanya akan mengubah nilai dari beberapa piksel dengan nilai on dan off
+sehingga saat diekstraksi secret tetap dapat terbaca walaupun terdapat noise
+alasan lain sistem tidak dapat bertahan pada noise seperti gaussian dan poisson adalah karena bit dimensi secret juga turut di embedd pada citra cover
+sehingga saat noise seperti gaussian dan poisson yang memiliki kerapatan lebih padat ditambahkan, besar kemungkinan ada beberapa noise yang mengenai bit dimensi ini sehingga merubah nilainya
+apa yang terjadi selanjutnya adalah saat diekstraksi secret tidak akan terbaca
+steganografi qr code pada rgb channel dalam dual carrier image dengan metode lsb
+kesimpulan sistem, maka dapat ditarik kesimpulan sebagaiberikut: 1
+berdasarkan pengujian imperceptible pada tabel i, citra dengan tipe *.png dan *.tiff memiliki nilai psnr diatas standar yang telah ditetapkan
+bahkan dengan hc sebesar 95% nilai psnr masih ada di 56.1036 db 
+hal ini menunjukkan bahwa model steganografi yang diajukan sudah cukup baik jika digunakan dalam file png dan tiff
+berdasarkan pengujian imperceptibility grafik histogram dengan citra *.png dan *.tiff yang didapatkan sudah termasuk dalam kategori baik karena error/distorsi pada grafik tidak dapat terlihat dengan jelas
+error baru dapat terlihat sedikit pada hc 95%
+semakin rendah % hc nya maka semakin mirip grafik histogram antara citra stego dan covernya
+berdasarkan pengujian recovery, seluruh citra dengan tipe *.png dan *.tiff dapat diekstraksi dan direcovery dengan baik
+ini terbukti dari nilai mse dan psnr dimana, mse pada citra tersebut bernilai 0 dan psnr bernilai 100db
+ini berarti citra hasil ekstraksi memiliki tingkat kesamaan 100% dengan citra aslinya
+berdasarkan pengujian noise, model steganografi paling dapat bertahan dengan distorsi yang dihasilkan dari salt and pepper noise jika dibandingkan dengan gaussian noise, dan poisson noise
+hal ini dibuktikan dari citra secret yang berhasil di ekstraksi dan direcovery dengan baik walau terkena noise pada 95% hc
+telah memenuhi kategori penilaian mulai dari imperceptibility, fidelity, capacity, dan recovery dengan hasil yang memuaskan pada citra seperti png dan tiff
+untuk citra jpg sendiri model steganografi ini tidak cocok untuk digunakan karena tingginya kompresi yang dilakukan terhadap citra
+steganografi qr code pada rgb channel dalam dual carrier image dengan metode lsb
+pengembangan sistem sebagai berikut: 1
+payload dapat ditingkatkan lebih lanjut, karena secret yang digunakan adalah citra qr code maka terdapat modul modul standar yang dapat dibuang saat embedding pesan rahasia dan di masukkan kembali saat ekstraksi pesan rahasia
+targetted lsb substitution dimana bit secret akan disisipkan pada piksel yang memiliki lsb dengan nilai sama pula
+model steganografi dapat di gabung dengan enkripsi untuk meningkatkan keamanan secret itu sendiri dan keamanan dari stego key 

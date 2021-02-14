@@ -1,0 +1,27 @@
+alimantan barat berbasis web tjambuiliat@gmail.com with the increase in population and requiring diverse needs of water resources in large quantities, such as industrial, irrigation, energy, and in all aspects of human life
+it is obviously increase the pressure on the water supply for various needs and increase the conflict potential between sectors, so the water needs of each sector should be established, and the water distribution network should be constructed broadly
+as one of the water resources, the potential contained in the water can benefit or harm to human life, livelihoods and the environment
+one of the harm caused by the water potential are flood and erosion 
+flood and erosion can bring a huge negative impact to the citizen such as damaged public facilities and infrastructure, environmental damage and of among provinces in indonesia which are vulnerable flooding during the rainy season
+geographic information systems is feature of the information systems added or spatial data and analysis that expected can help the user to perform spatial analysis
+the method used to calculate flood discharge is hydrological analysis
+the test results show that the system can help the government in processing the water resources data and display it in a form of geographic information
+pendahuluan sumber daya air menurut undang undang no 7 tahun 2004 adalah air, sumber air dan daya air yang terkandung didalamnya
+kebutuhan air makin meningkat seiring dengan peningkatan jumlah penduduk dan ragam kebutuhan yang menuntut sumber daya air dalam jumlah banyak, baik untuk rumah tangga, industri, irigasi, energi, dan berbagai aspek kehidupan lainnya, sedangkan pemanfaatan air untuk berbagai penggunaan cenderung melebihi persediaan air yang ada dan belum terintegrasi dengan upaya konservasi air
+hal ini makin memberikan tekanan terhadap ketersediaan sumber daya air untuk berbagai penggunaan dan berdampak pada meningkatnya potensi konflik antarsektor
+untuk mengalokasikan dan mendistribusikan air secara proporsional dan mengurangi konflik antar sektor pengguna air, kebutuhan air setiap sektor harus ditetapkan, dan jaringan distribusi air harus dibangun secara luas
+sebagai salah satu sumber daya, potensi yang terkandung dalam air dapat memberikan manfaat ataupun kerugian bagi kehidupan dan penghidupan manusia serta lingkungannya
+salah satu kerugian yang disebabkan oleh potensi air adalah daya rusak air yang antara lain berupa banjir dan abrasi 
+salah satu pencegahan terkait dengan permasalahan tersebut, dapat menggunakan analisis hidrologi untuk proses perencanaan pembuatan tanggul penahan untuk mencegah banjir
+relatif datar, dicirikan dengan adanya sebagian daerah bergunung di bagian utara dan menjadi semakin mendatar ke arah selatan
+hal ini menyebabkan kalimantan barat menjadi salah satu propinsi di indonesia yang rentan akan banjir pada musim penghujan
+informasi yang memadai yang bisa digunakan dalam upaya pengelolaan dan pengendalian sumber daya air, termasuk diantaranya informasi spasial sistem informasi geografis atau geographic information system adalah bagian dari sistem informasi yang ditambahkan fitur atau data dan analisis spasial yang diharapkan dapat membantu pengguna dalam memahami dan melakukan analisis permasalahan secara lebih komprehensif
+, web gis atau yang disebut dengan internet gis didefinisikan sebagai suatu jaringan berbasis layanan informasi geografis yang memanfaatkan internet baik menggunakan jaringan kabel maupun tanpa kabel untuk mengakses informasi geografis maupun sebagai tools guna melakukan spatial analysis
+sumber daya air berbasis web ini, diharapkan dapat membantu pemerintah dalam upaya menyusun sistem informasi geografis sumber daya air dan menyiapkan database seperti sumber air baku, irigasi, banjir, pantai dan curah hujan sebagai pendukung pengelolaan sumber daya air untuk menghasilkan informasi yang berfungsi sebagai pedoman dan arahan dalam upaya penyediaan sumber air, baik air baku maupun jaringan irigasi serta pengendalian daya rusak air seperti banjir dan abrasi
+daya air, sumber daya air adalah air, sumber air, dan daya air yang terkandung di dalamnya
+sumber daya air adalah sumber daya berupa air yang berguna atau potensial bagi manusia
+kegunaan air meliputi penggunaan di bidang pertanian, industri, rumah tangga, rekreasi dan aktivitas lingkungan
+sangat jelas terlihat bahwa seluruh manusia membutuhkan air tawar
+97% air di bumi adalah air asin dan hanya 3% berupa air tawar yang lebih dari dua per tiga bagiannya berada dalam bentuk es di glasier dan es kutub
+selain dapat memberikan manfaat, air dapat juga memiliki daya rusak seperti banjir
+banjir merupakan peristiwa terbenamnya daratan karena volume air yang meningkat

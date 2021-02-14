@@ -1,0 +1,117 @@
+eee paper template in a4 vol 5 no 1 april 2019 review tools web browser forensics untuk mendukung pencarian bukti digital muhammad fajar sidiq #1, muhammad nur faiz jln
+panjaitan no 128, purwokerto 53147, indonesia 1 fajar@ittelkom-pwt.ac.id 2 faiz@ittelkom-pwt.ac.id browser juga meningkat
+hal ini berdampak pada kejahatan dengan menggunakan web browser juga meningkat seperti penyalahgunaan email, hoax, hate speech, penipuan dan lainnya
+penelitian ini menunjukkan pentingnya mengenali aktivitas penggunaan web browser dari sisi korban dan pelaku
+penggunaan web browser ini akan menentukan pola atau alur kejahatan pada suatu insiden kejahatan
+hal ini akan membantu penyidik dalam menganalisis bukti digital secara cepat dan dapat mengungkap jenis kejahatan yang terjadi secara baik
+penelitian ini memberikan penjelasan lokasi penyimpanan bukti digital, format waktu yang digunakan dan 10 tools yang digunakan penyidik dalam mengungkap kejahatan dengan media web browser seperti google chrome, mozilla firefox, internet explorer, safari dan opera
+pendahuluan mengakibatkan tingkat dan variasi tindak kriminal yang semakin canggih juga
+tindak kriminal tersebut tidak hanya dilakukan pada dunia nyata tetapi juga pada dunia maya, internet merupakan salah satu fasilitas yang digunakan untuk kejahatan pada dunia maya 
+menurut data survei tahun 2017 yang dikeluarkan oleh asosiasi penyelenggara jaringan internet indonesia, bahwa 143, 26 juta masyarakat indonesia telah terhubung dengan internet jumlah pengguna media internet di indonesia terus bertambah setiap tahunnya
+hal ini dapat dilihat pada gambar 1
+1 pertumbuhan pengguna internet di indonesia cybercrime merupakan istilah kejahatan di dunia maya atau internet setiap tahun selalu meningkat baik dari sisi jumlahnya maupun variasi kejahatannya
+internet dahulu hanya untuk mengirimkan email saja, tetapi sekarang internet telah digunakan diberbagai aktivitas pekerjaan dan kehidupan manusia seperti mengirim gambar, video, data dapat dikirimkan dengan mudah dan cepat
+kejahatan di internet muncul karena adanya komunikasi dan hubungan antara satu komputer dengan komputer yang lain melalui suatu jaringan
+berdasarkan data dari diektorat tindak pidana kejahatan siber bareskrim polri tahun 2017 menangani kasus cybercrime sebanyak 5.061, angka itu naik 3% dibandingkan tahun 2016, yang berjumlah 4.931 kasus
+berdasarkan data tersebut, maka diperlukan suatu prosedur untuk menangani kejahatan pada dunia siber, salah satunya adalah digital forensics
+umumnya digunakan, yaitu live dan static
+teknik live forensics membutuhkan data dari sistem yang sedang berjalan atau data volatile yang biasanya terdapat pada random access memory atau transit pada jaringan seperti internet
+sedangkan teknik static forensics merupakan teknik dimana mendapatkan data atau bukti digital dari penyimpanan permanen seperti hardisk, ssd, flashdisk, cd, dan lainnya
+web browser yang digunakan umunya : mozilla firefox, google chrome, opera dan apple safari
+setiap web browser menawarkan fitur dan kehebatanya sendiri
+penggunaan jenis web browser di asia ditunjukkan pada gambar 2
+web browser yang digunakan oleh penggunanya di wilayah asia periode desember 2017 - desember 2018
+pengguna web browser jenis chrome paling banyak sampai 73, 43% dari jumlah pengguna web browser di asia
+pada posisi berikutnya ada firefox dengan 8, 87%, internet explorer, safari, uc browser dan yang lainnya
+peningkatan sehingga dibutuhkan cara menanggulangi atau menyelesaikan suatu kasus yang melibatkan web browser
+kajian pustaka dengan bukti digital pada web browser forensics diantaranya penelitian yang dilakukan oleh varol dan sonmez bahwa setiap aktivitas pada web adalah data yang dapat mengungkap pikiran dan niat pengguna seperti kata pencarian, kunjungan web, file yang diunduh
+penelitian ini menghasilkan model atau metode baru untuk meningkatkan proses digital forensics
+analisis aktivitas web browser harus diperiksa secara rinci
+jika metode atau model kesuksesan ini dijalankan maka membutuhkan mesin pencari data untuk komputer forensics
+penelitian ini mengusulkan model baru untuk mempercepat proses analisis forensics terutama pada aktivitas web browser yang banyak lingkupnya, akan tetapi tidak menjelaskan tools yang digunakan dan cara mendapatkan bukti digital tersebut
+bharne dan mane pada tahun 2016, penelitian ini menunjukkan tools yang digunakan oleh penyidik dalam mengungkap kejahatan pada web browser seperti webhistorian 1.3, index.dat analyzer 2.5, chromeanalysis plus, netanalysis 1.52 dan wefa
+beberapa tools hanya dapat digunakan pada web browser tertentu dengan teknik tertentu
+penelitian ini membandingkan 5 tools yang lebih ke teknik live forensics, tidak membahas tools untuk teknik static forensics
+penelitian ini menunjukkan beberapa web browser seperti chrome dan mozilla firefox dengan mode private serta mode public
+eksprerimen pada penelitian ini menguji fitur private dan public dari kedua web browser tersebut
+penelitian ini hanya membahas teknik live forensics tidak membahas static forensics
+analisis bukti dalam web browser a
+aktivitas pada web browser banyak aktivitas dan informasi yang dilakukan menggunakan web browser
+semua aktivitas itu direkam dalam database web browser itu sendiri
+selain itu, penggunaan berbagai web browser juga dapat dianalisis untuk mengetahui alur dari pengguna web tersebut
+daftar aktivitas web browser yang dapat digunakan untuk penggalian kejahatan dapat dilihat pada tabel 1
+e-mail mail, e-mail shopping bukalapak, tokopedia, shopee, etc video youtube, etc operasi juga mempengaruhi lokasi filenya
+dalam hal ini yang dikaji adalah cache records, history, cookies, registry, dan file yang diunduh
+lokasi yang merupakan browser web menyimpan data pada sistem operasi windows 7 ditunjukkan pada tabel ii
+pada proses analisis letak ini sangat penting untuk memeriksa data dalam folder yang berbeda
+folder harus dicari dalam 4 jenis rekaman berbeda
+dengan melakukan analisis garis waktu, penyidik dapat melacak aktivitas kriminal yang terjadi secara keseluruhan
+analisis ini memberikan timeline dari satu situs ke situs yang lainnya dan apa saja yang dilakukan pada web tersebut
+selain itu, informasi zona waktu harus dipertimbangkan
+kelima web browser terebut menggunakan waktu utc
+web browser format waktu ) ) menerapkan zona waktu, jika tidak, maka bukti bisa tidak valid
+misal, jika penyidik mengekstraksi file log untuk tersangka di new york, penyidik harus menerapkan koreksi ke zona waktu lokalnya, jika di indonesia menggunakan +7 jam
+hal ini sangat bergantung dengan format waktu dari data yang diperoleh dari bukti harus konsisten dengan pemeriksaan pengguna terhadap format waktunya
+hal ini ditunjukkan pada tabel iii
+beberapa macam tools untuk membantu penyidik dalam mengungkap kejahatan dengan media web browser seperti ftk imager, autopsy, winhex, encase, nirsoft browser pass viewer, mylastsearch, webhistorian, netanalysis, wefa, internet evidence finder
+ftk imager aplikasi digital forensics yang terkenal dengan paket lengkap, aplikasi yang bisa dioperasikan saat penyidik menggunakan teknik live atau static bahkan keduanya, aplikasi ini dapat menangkap citra, menyimpan dan menganalisisnya
+ftk imager ini produk dari access data
+hal ini dapat dijadikan sebagai salah satu bukti digital gambar
+autopsy memiliki antarmuka pengguna yang mudah untuk dioperasikan dan plug in yang digunakan dalam koleksi sleuth kit
+autopsy lebih sering digunakan penyidik untuk melakukan static forensics karena aplikasi ini hanya membutuhkan citra gambar untuk menganalisisnya
+autopsy menyediakan alur kerja yang intuitif untuk pengguna di penegakan hukum, militer, agen intelijen, keamanan cyber dan komunitas respon insiden
+pada gambar 4 menunjukkan berapa kali pengguna mengakses suatu halaman web, waktu akses, alamat webnya, web browser yang digunakannya
+aplikasi ini untuk analisis pada keadaan static forensics
+fungsi utama winhex:  kloning dan pencitraan disk  tampilan hex file
+ perhitungan hash massal untuk file (crc32, md4, ed2k, md5, sha-1, sha-256, ripemd,
+)  pembuatan katalog file dan direktori untuk semua media komputer  menggabungkan dan memisahkan file, menyatukan dan membagi byte dan kata / bahkan ganjil  mudah deteksi dan akses ke aliran data alternatif ntfs  kemampuan pencarian fisik dan logis yang kuat dan kuat untuk banyak istilah pencarian secara bersamaan mengunjungi alamat web ―sabugrosir.wixsite.com‖ pada tanggal 29 juli 2017 jam 22:28:56
+hal ini dapat dijadikan sebagai salah satu bukti digital gambar
+data, pemulihan file, penguraian file, dan pemulihan format harddisk
+aplikasi ini merupakan aplikasi sistem insiden respons yang diaktifkan jaringan yang menawarkan analisis secara cepat dan lengkap data volatile dan static pada server dan workstation, tanpa mengganggu operasi
+hal ini digunakan untuk verifikasi data, kemudian memberikan nilai hash
+aplikasi ini bisa digunakan pada teknik static dan live forensics
+komponen pertama pengujian, perangkat lunak ini diinstal pada sistem yang aman untuk dilakukan investigasi pengujian dan audit
+komponen kedua disebut safe, yang merupakan singkatan dari secure authentication of encase
+safe adalah server yang digunakan untuk mengautentikasi pengguna, mengelola hak akses, memelihara log transaksi encase, dan menyediakan transmisi data yang aman
+komponen terakhir adalah servlet, komponen efisien yang diinstal pada workstation jaringan dan server untuk membangun konektivitas antara penguji, safe, dan workstation, server, atau layanan jaringan yang sedang diselidiki
+pada gambar 6 terlihat beberapa file unduhan yang berekstensi pdf, file ini dapat dijadikan salah satu pendukung bukti digital gambar
+webbrowserpassview mengumpulkan kata sandi yang disimpan
+webbrowserpassview adalah alat pemulihan kata sandi yang mengungkapkan kata sandi yang disimpan oleh browser web berikut: internet explorer, mozilla firefox, google chrome, safari, dan opera
+alat ini dapat digunakan untuk memulihkan kata sandi yang hilang / terlupakan dari situs web apa pun, termasuk situs web populer, seperti facebook, yahoo, google, dan gmail, selama kata sandi disimpan oleh web browser 7
+aplikasi cocok digunakan saat di tkp atau live forensics
+username dan password yang digunakan pada beberapa web browser dapat terlihat dan ditunjukkan pada gambar
+histori web browser, dan menemukan semua permintaan pencarian dibuat dengan mesin pencari paling populer dan dengan situs jejaring sosial populer 
+aplikasi ini umumnya digunakan pada teknik live forensics
+query pencarian yang dibuat ditampilkan dalam tabel dengan kolom berikut: teks pencarian, mesin pencari, waktu pencarian, jenis pencarian, browser web, dan url pencarian
+hal ini dapat memperkuat bukti dan melengkapi timeline penggunaan web browser
+8 tampilan mylastsearch penyidik untuk mengumpulkan, menampilkan, dan menganalisis data kunjungan web
+aplikasi ini umumnya digunakan pada teknik live forensics
+pada gambar 9 terlihat daftar kunjungan web pada waktu tertentu, kemudian dapat melihat profil web yang pernah dikunjunginya
+hal ini dapat memperkuat bukti digital bahwa pengguna telah mengunjungi alamat web dengan profil web cnn.com
+digital detective company untuk pemeriksaan digital web browser
+aplikasi ini dapat digunakan untuk microsoft internet explorer, mozilla firefox, google chrome, apple safari dan opera
+aplikasi ini bertujuan untuk pemeriksaan riwayat internet, cache, cookie, dan komponen lainnya
+netanalysis memiliki fitur pelaporan yang efektif yang memungkinkan pengumpulan bukti dengan cepat sesuai dengan perilaku pengguna
+perangkat lunak ini juga memiliki alat analitis yang efektif untuk memecahkan kode dan memahami data
+pada saat yang sama, netanalysis memiliki kemampuan untuk menggunakan query sql untuk mengidentifikasi bukti terkait
+juga dapat digunakan untuk memulihkan komponen web browser yang dihapus
+gambar 10 menunjukkan daftar history kunjungan web, aplikasi ini dapat melihat host server, jumlah kunjungan berapa kali
+daftar history serta keterangan lainnya dapat dijadikan bukti digital gambar
+wefa analisis yang efektif untuk web browser
+alat ini menyediakan fungsi analisis terintegrasi untuk semua lima web browser di berbagai zona waktu, selain itu menyediakan aktivitas pengguna online, kata-kata pencarian, dan parameter url, semua itu adalah informasi penting untuk digital forensics
+alat ini juga memberikan fungsi decoding, ketika informasi kata pencarian dikodekan dalam karakter yang tidak dikenal atau jika kata-kata pencarian dalam bahasa yang berbeda
+hal ini dapat memperkuat bukti digital untuk jejak atau aktivitas pengguna pada web browser
+11 tampilan wefa menganalisis, dan melaporkan bukti digital dari komputer, smartphone, dan tablet internet evidence finder dapat menemukan dan mengambil setiap dan semua artefak terkait internet, hal ini sangat membantu proses investigasi karena dapat mempercepat proses penguraian data
+google chrome, mozilla firefox, internet explorer
+artefak internet yang dapat diurai seperti pada web browser, chatting, e-mail 
+banyak file artefak yang masih susah untuk diartikan atau belum mempunyai makna
+namun, berbeda jika yang melihat adalah penyidik, karakter atau kata-kata yang acak dan tidak beraturan tersebut mempunyai arti tersendiri dan harus dapat ditafsirkan
+gambar 12 menunjukkan aplikasi ief saat menganalisis email secara lengkap dari pengirimnya, subject, isi, lampiran, waktu pesan dibuat, waktu pesan terkirim
+email merupakan salah satu bukti digital yang cukup banyak digunakan sebagai bukti utama
+12 tampilan ief terpenting dalam investigasi digital forensics
+sebagian besar kejahatan yang dilakukan dengan internet membutuhkan media web browser untuk mengaksesnya
+penyidik harus mengetahui dimana web browser menyimpan data, menyimpan riwayat kata-kata pencarian, url yang pernah dikunjungi, riwayat unduhan dan lainnya
+informasi ini dapat dijadikan sebagai bukti digital yang bisa mengungkapkan apakah terjadi pelanggaran atau tidak
+karena itu, para penyidik harus menganalisis data web browser dengan rinci dan teliti
+penelitian ini menjelaskan apa saja bukti digital yang dapat dicari, lokasi penyimpanan aktivitas penggunaan kelima web browser, dan 10 tools yang digunakan untuk mencari bukti digital beserta penjelasannya
+ucapan terima kasih / acknowledgment purwokerto yang telah membantu dan memberikan dukungan terkait dengan bantuan fasilitas penelitian, dana hibah, dan lainnya

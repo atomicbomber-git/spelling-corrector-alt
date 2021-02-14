@@ -1,0 +1,79 @@
+penelitian ini dilatarbelakangi pada musibah kebakaran rumah yang sering terjadi
+untuk itu diperlukan teknologi peringatan dini untuk memberitahukan jika adanya masalah, sehingga kerugian yang timbul dapat dikurangi
+salah satu teknologi yang berkembang pesat adalah mikrokontroler
+mikrokontroler yang digunakan dapat berbasis arduino sedangkan untuk peringatan dini berupa pesan dengan menggunakan layanan sms
+dengan sms, pengguna dapat memperoleh pesan peringatan dengan cepat dan mudah
+pada penelitian ini digunakan mikrokontroler berbasis arduino yaitu arduino mega 2560 dan sensor yang digunakan yaitu sensor pengukur suhu ruang dht22
+aplikasi yang dibangun dapat digunakan untuk pemantauan suhu
+jika terjadi kenaikan atau penurunan suhu dari batas yang ditentukan maka aplikasi akan mengirim peringatan dini berupa pesan sms
+aplikasi ini dapat bermanfaat bagi pihak-pihak yang membutuhkan untuk melakukan pemantauan suhu terhadap suatu ruangan
+dari hasil pengujian yang telah dilakukan, jarak kabel antara sensor dan perangkat hingga 10m
+delay sms yang dihasilkan dari beda operator hingga 6, 8s, sedangkan sesama operator 3, 7s
+aplikasi berjalan dengan baik pada sistem operasi windows
+pendahuluan teknologi semakin pesat seiring dengan perkembangan zaman
+dengan perkembangan teknologi yang semakin canggih diharapkan dapat memberikan kemudahan bagi manusia untuk melakukan aktivitasnya sehari-hari sehingga dapat menghemat waktu dan tenaga
+kemajuan teknologi terutama di bidang mikrokontroler dan komputer, mendorong manusia untuk membuat peralatan elektronika tepat guna yang dapat dimanfaatkan dalam berbagai sendi kehidupan
+seperti peristiwa musibah kebakaran yang besar diawali dari adanya sumber api yang kecil
+pada dasarnya setiap musibah memiliki sebab yang dapat diketahui
+untuk meminimalkan timbulnya kerugian yang lebih besar perlu dilakukan peringatan dini sebelum peristiwa kebakaran menjadi besar dan meluas
+seiring dengan berkembangnya mikrokontroler, maka saat ini mikrokontroler banyak diaplikasikan pada instrumen-instrumen yang berhubungan dengan kehidupan manusia sehari-hari
+mikrokontroler adalah sebuah chip yang berfungsi sebagai pengontrol rangkaian elektronik dan dapat menyimpan program di dalamnya
+salah satunya dengan memanfaatkan mikrokontroler arduino yang mudah untuk dipelajari dan diaplikasikan
+oleh karena itu diperlukan suatu alat yang mampu mendeteksi kebakaran tersebut yaitu aplikasi early warning sebagai sistem peringatan yang dapat dibangun dengan mikrokontroler arduino yang dipadukan dengan sensor suhu ruang yang memberikan informasi suhu pada sebuah ruangan dan ditambah aplikasi sms gateway sebagai jembatan komunikasi antara sistem dan untuk memberitahukan informasi kepada pemilik rumah melalui telepon genggam
+umumnya merupakan tindakan memberikan informasi dengan bahasa yang mudah dicerna
+contohnya diwujudkan dalam bentuk alarm atau sirene
+alarm atau sirene hanya bentuk penyampaian informasi karena merupakan cara yang paling cepat
+harapannya agar orang merespon informasi tersebut dengan cepat dan tepat
+kesigapan dan kecepatan reaksi orang diperlukan karena waktu yang sempit dari saat dikeluarkannya informasi dengan saat datangnya bencana
+kondisi kritis, waktu sempit, bencana besar dan penyelamatan orang-orang merupakan faktor-faktor yang membutuhkan peringatan dini
+semakin dini informasi yang disampaikan, semakin longgar waktu untuk meresponnya
+sms gateway jembatan penghubung antar satu sistem dengan sistem lain yang berbeda, sehingga dapat terjadi suatu pertukaran data antar sistem tersebut
+dengan demikian, sms gateway dapat diartikan sebagai suatu penghubung untuk lalu lintas data sms, baik yang dikirimkan maupun yang diterima
+pada awalnya, sms gateway dibutuhkan untuk menjembatani antar smsc
+hal ini dikarenakan smsc yang dibangun oleh perusahaan yang berbeda memiliki protokol komunikasi sendiri, dan protokol-protokol itu sendiri bersifat pribadi
+ rancang bangun aplikasi early 2, m.azhar irwansyah 1 gcdoang@gmail.com, 2 herry_sujaini@yahoo.com, 3 irwansyah.azhar@gmail.com mikrokontroler dengan jenis avr dari perusahaan atmel
+mikrokontroler itu sendiri adalah chip atau ic yang bisa diprogram menggunakan komputer
+tujuan menanamkan program pada mikrokontroler adalah agar rangkaian elektronik dapat membaca input, memproses input tersebut dan kemudian menghasilkan output sesuai yang diinginkan
+jadi mikrokontroler bertugas sebagai „otak‟ yang mengendalikan input, proses dan output sebuah rangkaian elektronik
+salah satu tipe arduino yang akan digunakan pada penelitian kali ini, yaitu arduino mega 2560
+arduino mega 2560 adalah mikrokontroler berbasis atmega2560 dengan clock speed 16mhz dan flash memory 256kb
+memiliki 54 pin digital input/output pada pin 22-53 ditambah pin pada pwm, 14 pin pwm pada pin 0-13, 16 pin analog input pada pin a0-a15, sambungan usb, sambungan catu daya tambahan dan tombol pengaturan ulang
+ sensor dht22 merupakan sensor suhu dan kelambaban untuk ruangan
+memiliki rentang pengukuran suhu dan kelembaban yang lebar
+menyala pada tegangan minimal 3.3v hingga maksimal 5v dan memiliki rentang deteksi suhu -40°c - +80°c
+kabel penghubung penghubung antara arduino dan port
+kabel utp menghubungkan antara sensor ke port agar jangkauan kabel dapat lebih panjang hingga ±100m iii
+perancangan arsitektur sistem bangun arsitektur sistem aktor yang terlibat dalam aplikasi
+dalam aplikasi ini user dapat melakukan beberapa perilaku meliputi pengaturan aplikasi, pengaturan koneksi, manajemen sms dan kontak, monitoring suhu, serta menampilkan bantuan dan tentang aplikasi
+activity diagram aktivitas dalam sistem yang sedang dirancang, bagaimana masing-masing alir berawal, decision yang mungkin terjadi, dan bagaimana mereka berakhir
+dalam activity diagram berikut terlihat alur aktivitas user saat menggunakan aplikasi ini
+aktivitas yang dilakukan mulai dari masuk menu utama, memilih menu pengaturan aplikasi, pengaturan koneksi, manajemen sms dan kontak, menampilkan monitoring, serta memilih tentang dan bantuan aplikasi
+menu utama memilih menu aplikasi early warning yang dibuat adalah aplikasi berbasis desktop yang dirancang memiliki beberapa form yang sudah disesuaikan dengan kebutuhan sistem
+struktur antarmuka aplikasi yang dirancang dapat dilihat pada gambar berikut: aplikasi e
+pengujian blackbox pengujian yang berfokus pada persyaratan fungsional perangkat keras dan perangkat lunak
+pada pengujian blackbox, cara pengujian hanya dilakukan dengan menjalankan atau mengeksekusi unit, kemudian mengamati apakah hasil unit tersebut sudah berjalan sesuai dengan yang telah dirancang dan diinginkan
+pengujian blackbox berusaha menemukan kesalahan dalam beberapa kategori, yaitu : b
+kesalahan interface pada perangkat lunak c
+kesalahan pemasangan atau penentuan pin pada modul arduino iv
+perangkat keras arduino perangkat keras yang dirancang dapat dilihat pada gambar 1 dan gambar 2
+perangkat keras sensor led yang dibangun menjadi satu kesatuan dan terpisah dari perangkat arduino perangkat tersebut berkomunikasi dengan arduino melalui kabel yang dihubungkan dengan arduino adapun bentuk perangkat keras dari sensor yang telah dibangun pada gambar 4
+gambar 2 led menyala hijau, buzzer senyap, status suhu normal c
+antarmuka aplikasi pastikan perangkat arduino dan perangkat modem gsm untuk sms telah tersambung dan driver telah terpasang
+di dalam antarmuka ini pengguna dapat memilih beberapa menu pada sebelah kiri dan bawah
+menu tersebut yaitu pengaturan aplikasi, pengaturan koneksi, sms dan kontak, serta mulai pemantauan
+adapun antarmuka halaman utama dapat dilihat pada gambar 3 dan gambar 4
+4 gambar 4 antarmuka pemantauan suhu satuan celsius d
+pengujian sistem jarak jangkauan kabel tabel 1 tabel pengujian jangkauan kabel jenis pengujian hasil yang kabel sepanjang 50cm mengirim perintah arduino dapat menerima sinyal menyalakan led dan arduino dapat menerima sinyal menyalakan led dan buzzer berhasil buzzer berhasil menghubungkan buzzer berhasil menghubungkan berupa suhu dan mengirim perintah menyalakan led dan dengan hasil yang diharapkan
+tabel pengujian fungsi antarmuka jenis pengujian hasil yang berhasil kontak berhasil bahwa semua pengujian pada tombol dalam aplikasi yang dibuat berjalan sesuai hasil yang diharapkan
+pengujian fungsi sms tabel 3 tabel pengujian fungsi early warning berupa sms jenis pengujian hasil yang 24.90°c 25.00°c 47.10°c sms berhasil sebuah skenario maka aplikasi yang telah dibuat mampu memberikan early warning berupa sms pada nomor kontak yang telah terdaftar
+hasil dari pengujian menunjukkan aplikasi berhasil mengirimkan pesan early warning berupa sms
+tabel pengujian delay sms waktu delay paling lama terjadi antara operator telkomsel dengan indosat
+waktu delay paling cepat terjadi antara operator telkomsel dengan telkomsel
+termometer ruangan tabel 5 ruangan 28.3°c 29.2°c 29.5°c 28.9°c 28.7°c ber-ac malam hari 26.4°c 27.7°c 28.0°c 26.9°c 27.4°c tanpa ac siang hari 34.1°c 35.2°c 35.6°c 35.0°c 34.9°c tanpa ac malam hari 29.5°c 30.2°c 30.8°c 30.0°c 30.1°c berdasarkan hasil pengujian pada tabel diatas, setiap sensor memiliki selisih antara ±0.5°c hingga ±1°c
+pengujian jarak pemasangan antara sensor dengan sumber panas tabel 6 tinggi sensor delay percobaan 1 delay percobaan 2 delay percobaan 3 delay percobaan 4 1 meter 2 meter 3 meter 4 meter semakin tinggi sensor dipasang maka waktu yang dibutuhkan oleh sensor untuk mengukur adanya kenaikan suhu semakin lama juga
+perangkat keras arduino dan aplikasi early warning, dapat disimpulkan bahwa : 1
+aplikasi early warning, memberikan informasi suhu yang diperoleh dari sensor suhu dan diproses pada arduino 2
+aplikasi early warning yang dibangun dapat mengirimkan pesan berupa sms sebagai peringatan jarak jauh ketika suhu mengalami penurunan atau peningkatan dari batas suhu yang telah ditentukan
+penggunaan beda operator pada modem dengan nomor tujuan mempengaruhi delay sms pada early warning
+pemasangan letak sensor mempengaruhi waktu respon sensor terhadap panas
+aplikasi dapat dijalankan pada banyak sistem operasi windows

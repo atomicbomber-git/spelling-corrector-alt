@@ -1,0 +1,42 @@
+echnique for order preference by similarity to ideal solution leander sidoi leans455@gmail.com tourism activities that use its culture as an object.the application of tourism-based showed by the department of culture and tourism of pontianak.the tourism potential which is centere don the culture that is consistent with the history and the culture of pontianak city
+in order to promote the history and the culture of pontianak city which is needed tourism ambassador who had been selected in the bujang dare selection.the purpose of this resear chis the testing of bujang dare proponent decision system the method of tecnique for order preference by similarity to ideal solution, applied in selecting the contestants of bujang dare pontianak
+the system can provide winners recommendation.the conclusions of this topsis method can help the jurie store commend the winners of bujang dare selection.the results of the respondents teston the conducted system, using likert's method summated rating, the obtained scores is 202, it shows the respondents assess the system positively and considered successful
+menggunakan kebudayaan sebagai minat-minat khusus lain, seperti wisata alam, dan wisata petualangan
+objek-objek tersebut tidak jarang dikemas khusus bagi penyajian untuk turis, dengan maksud agar menjadi lebih menarik
+dalam hal inilah seringkali terdapat perbedaan pendapat pariwisata
+kalangan seni mengatakan bahwa pengemasan khusus objek-objek menghilangkan substansi atau inti dari suatu karya seni
+perkembangan kebudayaan akan terus berkembang, karena memang dengan sengaja atau tidak, memang terus berkembang, karena adanya rangsangan, seperti adanya perkembangan industri pariwisata
+penerapan kegiatan pariwisata pariwisata kota pontianak
+pengembangan ada dan berpusat pada budaya yang selaras dengan sejarah dan budaya kota pontianak
+untuk dapat mempromosikan diperlukan duta wisata yang telah terpilih dalam ajang pemilihan bujang dare
+tahunan yang diselenggarakan pemerintah bertujuan mencari pemuda-pemudi yang maupun berbagai pihak untuk mempromosikan pariwisata di kota dinas kebudayaan dan pariwisata kota pontianak masih dilakukan secara konvensional, maka diperlukan pengambilan keputusan yang tepat
+pengambilan diantara berbagai alternatif, pengambilan keputusan manajerial dengan proses keseluruhan dari manajemen
+sistem pendukung keputusan adalah pengambil keputusan manajemen yang menangani masalah-masalah tidak terstruktur dan bertujuan mendukung penilaian manajer bukan mencoba menggantikannya
+sistem pendukung keputusan tidak ditekankan untuk membuat keputusan dengan sekumpulan kemampuan untuk mengolah proses pengambilan keputusan tetapi sistem hanya berfungsi sebagai alat bantu manajemen
+berdasarkan hal tersebut pendukung keputusan berbasis web preference by similarity to ideal solution 
+alternatif yang terpilih harus mempunyai jarak terdekat dari solusi ideal positif dan jarak terpanjang dari solusi ideal negatif dari sudut pandang geometris dengan menggunakan jarak euclidean untuk menentukan kedekatan relatif dari suatu alternatif dengan solusi optimal solusi ideal positif didefinisikan sebagai jumlah dari seluruh nilai terbaik yang dapat dicapai untuk setiap atribut, sedangkan solusi negatif-ideal terdiri dari seluruh nilai terburuk yang dicapai untuk setiap atribut
+metode topsis terhadap solusi ideal negatif dengan mengambil kedekatan relatif terhadap solusi ideal positif
+making untuk menyelesaikan masalah pengambilan keputusan secara sederhana dan mudah dipahami, komputasinya efisien, dan memiliki alternatif-alternatif keputusan dalam bentuk matematis yang sederhana.pada dasarnya, dilakukan melalui 3 tahap, yaitu penyusunan komponen-komponen tahap penyusunan komponen-komponen berisi identifikasi alternatif dan spesifikasi tujuan, kriteria dan atribut
+pertama mendatangkan taksiran dari besaran yang potensial, kemungkinan dan ketidakpastian yang berhubungan dengan dampak-dampak meliputi pemilihan dari pereferensi ketidak pedulian terhadap resiko yang timbul 
+making untuk menyelesaikan masalah keputusan secara praktis
+metode ini banyak digunakan untuk menyelesaikan pengambilan keputusan pemilihan bujang dare kota pontianak
+landasan teori berbasis komputer termasuk sistem berbasis pengetahuan atau manajemen pengetahuan yang dipakai untuk mendukung pengambilan keputusan dalam suatu dan chang, spk dapat digambarkan sebagai sistem yang berkemampuan mendukung keputusan, berorientasi keputusan, orientasi sedangkan menurut keen dan merupakan penggabungan sumber-sumber komputer untuk manajemen pengambilan keputusan yang menangani masalah- dapat dijelaskan bahwa spk bukan merupakan alat pengambilan keputusan, melainkan merupakan sistem yang membantu pengambil keputusan yang membuat keputusan tentang suatu masalah dengan lebih cepat dan akurat
+sehingga sistem ini tidak dimaksudkan untuk menggantikan pengambilan keputusan preference by similarity to ideal solution pengambilan keputusan multikriteria yang hwang tahun 1981
+topsis didasarkan pada konsep dimana alternatif yang terpilih atau terbaik tidak hanya mempunyai jarak terdekat dari solusi ideal positif, namun juga memiliki jarak terjauh dari solusi ideal negatif dari sudut pandang geometris dengan menggunakan jarak euclidean untuk alternatif dengan solusi optimal solusi ideal positif didefinisikan sebagai jumlah dari seluruh nilai terbaik yang dapat dicapai untuk setiap atribut, sedangkan solusi negatif-ideal terdiri dari seluruh nilai terburuk yang dicapai untuk setiap atribut
+metode topsis mempertimbangkan dengan mengambil kedekatan relatif perbandingan terhadap jarak relatifnya, elviwani, 2012 )
+matrik keputusan dimulai dari yang terbaik matrik ideal negatif positif dan negatif 3
+perancangan sistem 3.1 perancangan arsitektur sistem sistem yang dibangun berbasis web, yang dapat diakses oleh user melalui komputer khusus yang telah dikonfigurasi untuk penilaian pemilihan bujang dare
+desain arsitektur sistem dapat dilihat pada gambar 2 sebagai berikut : 3.2.1 diagram konteks gambar 3 berikut ini menunjukkan diagram konteks dari sistem: admin jurispk pemilihan 3.2.2 diagram overview sistem perancangan sistem diagram overview urutan proses dari diagram konteks
+seperti pada gambar 4 3.3 perancangan basis data 3.3.1 entity relationship diagram entitas yang dipergunakan dalam sistem
+perancangan erd meliputi tahap penentuan entitas, penentuan relasi antar-entitas, antar-entitas
+pada gambar 5 3.3.2 perancangan relasi antar tabel berikut adalah hubungan antar akan dibuat: 4
+hasil perancangan form login digunakan oleh dua level pengguna, yaitu administrator dan juri untuk dapat mengakses sistem pendukung keputusan dengan memasukkan username hasil perancangan form login dapat dilihat pada gambar 7
+login user ini dapat diakses melalui proses login terlebih dahulu
+antarmuka hasil perancangan halaman home administrator gambar 8 tampilan antarmuka halaman dashboard home administrator administrator
+dalam form administrator kontestan yang telah terdaftar dalam pemilihan bujang dare, seperti pada gambar 9 berikut adalah antarmuka halaman tambah data kontestan tambah data kontestan gambar 10 user dapat melihat nilai preferensi, sesuai dengan metode yang sudah ditentukan ataupun hasil akhir dari sistem pendukung keputusan yang akan diumumkan oleh panitia pelaksana pemilihan bujang dare untuk merekomendai kontestan yang menjadi pemenang dalam proses pemilihan bujang dare diberikan penilaian oleh juri seperti pada gambar 11
+penilaian 1 hasil perbandingan perhitungan secara konvensional memberikan kontestan
+sedangkan perhitungan merekomendasikan kontestan berdasarkan dare kota pontianak yang dilaksanakan oleh dinas kebudayaan dan pariwisata kota pontianak, dapat disimpulkan bahwa: pemenang pemilihan bujang dare
+dapat digunakan untuk menghasilkan keluaran berupa rekomendasi kontestan pemenang pemilihan bujang dare
+menggunakan borang sebagian besar responden menanggapi konvensional memberikan menggunakan metode likert’s summated rating, skor yang diperoleh sebesar 202 dinilai berhasil
+medan : program studi magister teknik informatika
+multi-attribute decision makin ( fuzzy pendukung keputusan penentuan penerima beasiswa menggunakan siswa sawit seberang

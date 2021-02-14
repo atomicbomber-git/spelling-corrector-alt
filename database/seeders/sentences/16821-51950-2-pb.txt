@@ -1,0 +1,49 @@
+urnal edukasi dan penelitian informatika vol 2, no 2, 2016 issn 2460-0741 111 digital forensics research workshop andri lesmana suryana #1, r
+reza el akbar#2, nur widiyasono#3 # teknik informatika, universitas siliwangi 2reza@unsil.ac.id 3nur.widiyasono@unsil.ac.id manipulasi data pada header email
+serangan yang paling terkenal dari email spoofing adalah serangan phishing, tujuan dilakukan penelitian ini adalah untuk memberi wawasan tentang cara kerja melakukan pengiriman email spoofing dan mampu melakukan identifikasi email spoofing dengan melakukan analsis pada header email yang diterima
+metodologi yang digunakan pada penelitian ini adalah dfrws, karena setiap langkah yang dilakukan dapat memberikan penjelasan yang lengkap
+hasil dari penelitian ini adalah email spoofing dapat dikirimkan dengan memanfaatkan layanan web hosting yang menyediakan layanan untuk pengiriman email dengan menggunakan bahasa pemrograman php dan hasil selanjutnya adalah mengetahui perbedaan antara email spoofing dan email asli, perbedaan tersebut akan diketahui dengan jelas ketika membuka header email rinci
+pendahuluan membahayakan, karena melakukan manipulasi data pada header email untuk menyamar sebagai orang atau organisasi yang sah, contohnya seperti melakukan pengiriman email dengan nama pengirim seolah dari administrator suatu organisasi
+pengirim email spoofing menyerang dengan berbagai macam isi pesan untuk membuat percaya korban yang menerima email tersebut
+tertarik pada informasi yang bersifat rahasia yang dimiliki oleh korban
+salah satu contoh dari email phishing adalah dengan melakukan penyamaran sebagai email resmi dari bank
+hasil dari laporan yang dipaparkan oleh, email phishing memang mengalami penurunan pada bulan sepetember 2016, namun penurunan tidak terlalu signifikan dari bulan agustus 2016
+penurunan tingkat aktifitas email phishing yang signifikan terjadi pada bulan januari, bulan maret dan bulan juli 2016, namun setiap bulan setelah penurunan tingkat email phishing yang signifikan, justru terjadi pula peningkatan yang signifikan pada bulan selanjutnya
+1 aktifitas email phishing gambar 1 menunjukkan aktifitas serangan email phisihing dari bulan oktober 2015 sampai bulan september 2016 phishing berjumlah 289.371
+jumlah situs phishing diamati setiap bulan terus meningkat dari bulan oktober 2015 ada 48.114 situs phishing terdeteksi
+bulan maret 2016 ada 123.555 situs phishing yang terdeteksi, situs phishing meningkat 250% selama enam bulan
+peningkatan terjadi pada bulan desember tahun 2015, karena biasanya ada serentetan spamming dan penipuan online selama musim belanja liburan
+hasil dari laporan yang dipaparkan olehmenyinggung pengiriman email spamming sebagai awal dari serangan halaman web phishing
+email spamming biasanya dikirimkan menggunakan teknik email spoofing dengan jenis serangan berupa email phishing, karena melakukan pengiriman email dengan tujuan untuk mengunjungi halaman web phishing milik penyerang
+gambar 2 menunjukkan aktifitas serangan phishing pada kuartal akhir tahun 2015 sampai dengan kuartal awal pada tahun 2016
+ serangan email spoofing dapat digunakan sebagai awal dari serangan phishing untuk mendapatkan informasi dari pengguna (korban)
+penelitian sebelumnya dari penelitainnya adalah 
+pembedaan penelitiannya adalah penelitian ini melakukan identifikasi email spoofing dimulai dari pemahaman tentang cara kerja email spoofing, sedangkan penelitian yang dilakukan olehadalah pengenalan dan pemahaman tentang email spoofing tanpa melakukan identifikasi secara rinci pada email spoofing seperti melakukan analisis header email rinci
+pemahaman tentang berbagai jenis email akan meningkatkan pengguna supaya lebih sadar tentang pola pada berbagai jenis email
+penelitian sebelumnya yang mengambil tema yang sama yaitu email spoofing dilakukan oleh, hasil dari penelitiannya adalah 
+pembeda dalam penelitiannya adalah penelitian olehmemberikan pemaparan tentang berbagai jenis email tanpa melakukan analisis pada header email sedangkan pada penelitian ini melakukan analisis pada header email dan tanpa menjelaskan kategori email lain selain email spoofing
+pembeda penelitiannya adalah penelitian olehmelakukan analisis header email namun tanpa mengetahui asal usul email dikirimkan dan tidak membahas cara kerja email spoofing, hal itu memungkinkan analisis email spoofing tidak dapat dengan mudah dipahami oleh semua orang, sedangkan pada penelitian ini dilakukan simulasi pengiriman email spoofing dengan tujuan mempermudah pemahaman tentang email spoofing
+email electronic mail atau dapat disebut dengan email, merupakan salah satu layanan internet yang sangat populer dan paling banyak digunakan oleh orang banyak, baik di lingkungan organisasi maupun perusahaan
+secara harfiah email dapat di definisikan sebagai metode pengiriman, penerimaan, dan penyimpanan pesan melalui sistem komunikasi elektronik berupa internet definisi tersebut menjelaskan bahwa email mulai dari ditulis, dikirim, diterima sampai dengan dibaca dilakukan secara elektronis
+penyalahgunaan email ditemukan salah satunya bertujuan mencuri informasi pribadi dari pengguna atau mendapatkan akses tidak sah ke rekening korban
+banyak serangan memiliki efek buruk pada pengguna seperti kerugian finansial
+berbagai penggunaan negatif pada email adalah sebagai berikut: spam dikirim kepada inbox mail seseorang dan pesan tersebut tidak ada gunanya untuk penerima
+spam dikirim pada jaringan untuk meningkatkan konsumsi sumber daya, dengan kata lain untuk meningkatkan lalu lintas jaringan
+dimaksudkan untuk memikat seseorang ke dalam transaksi yang palsu dan benar-benar penipuan
+email scam terkadang digabungkan dengan phishing
+penyebaran url phishing situs phishing adalah situs palsu, yang hampir identik dengan beberapa situs-situs jaringan sosial, situs email atau situs online banking, yang memerlukan pengguna untuk login
+digunakan oleh spammer dan scammer untuk menyembunyikan asal usul pesan email
+email spoofing dapat mengubah sifat tertentu dari email, seperti pada bidang yang merupakan informasi pengirim email
+pengirim email spoofing ini dapat membuat email tampak dari seseorang selain pengirim sebenarnya
+phishing kombinasi teknik social engineering dan teknik spoofing untuk membujuk pengguna agar memberikan informasi sensitif yang dapat digunakan untuk membuat keuntungan, contohnya keuntungan finansial pisher biasanya membajak sebuah halaman web dari bank, kemudian mengirim email kepada korban untuk mengelabui korbannya supaya mengunjungi situs berbahaya dengan tujuan untuk mengumpulkan informasi rekening bank dan nomor kartu milik korban
+3 metodologi penelitian dfrws gambar 3 menunjukkan tahapan yang dilakukan berdasarkan metode yang digunakan yaitu dfrws 
+pemaparannya adalah sebagai berikut: kebutuhan yang diperlukan pada penyelidikan dan pencarian bukti
+agar memastikan keaslian bukti dan membantah klaim bukti telah dilakukan sabotase
+pengumpulan identifikasi bagian tertentu dari bukti digital dan melakukan identifikasi sumber data d
+pemeriksaan pada bagian tertentu dari sumber data, filterisasi data dilakukan dengan melakukan perubahan bentuk data namun tidak melakukan perubahan pada isi data karena keaslian data merupakan hal yang sangat penting
+analisis analisis merupakan tahap untuk melakukan penentuan tentang dimana data tersebut dihasilkan, oleh siapa data tersebut dihasilkan, bagaimana data tersebut dihasilkan dan kenapa data tersebut dihasilkan dihasilkan dari tahap analisis
+hasil dan pembahasan spoofing adalah sebagai berikut: dari kasus yang terjadi sebelumnya untuk dijadikan sebagai rujukan tentang pemahaman pada barang bukti yang sedang dilakukan pencarian
+tahap identifikasi ini juga melakukan identifikasi tentang cara kerja email spoofing dapat dipergunakan
+simulasi pengiriman email spoofing dilakukan untuk mendapatkan bukti digital, karena dengan mendapatkan barang bukti yang dicari, maka tahap identifikasi dapat dilanjutkan pada tahap pemeliharaan sesuai dengan kerangka kerja pada metodologi dfrws
+have been lost!” survey” account” address)” huntington bank terjadi sebelumnnya, data diambil dari
+bukti digital yang didapatkan saat melakukan persiapan untuk melakukan analisis email spoofing, berupa tampilan email spoofing yang menjadi kasus sebelumnya

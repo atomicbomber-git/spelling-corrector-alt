@@ -1,0 +1,117 @@
+dinas pendapatan daerah kota pontianak dalam tugasnya masih menggunakan sistem informasi reklame untuk mengawasi papan reklame
+dinas pendapatan daerah kota pontianak juga masih menggunakan surat pemberitahuan kepada vendor dan pemilik iklan bahwa masa pajak papan reklame sudah melewati batas yang telah ditentukan
+surat dinas pendapatan daerah kota pontianak terkadang terlambat dalam pengiriman ke penyedia papan reklame dan pemilik ikaln
+metodoligi penelitian dilakukan dengan metode waterfall merupakan salah satu proses permodel perangkat lunak yang mengambil kegiatan proses dasar seperti spesifikasi, pengembangan, validasi dan evolusi dengan mempresentasikannya sebagai fase-fase proses yang berbeda seperti analisis dan definisi persyaratan, perancangan perangkat lunak, implementasi dan pengujian unit, integrasi dan pengujian sistem, operasi dan pemeliharaan
+hasil pengujian dari kuesioner terhadap 30 responden yang menggunakan metode liker’s summated rating, diperoleh total skor 1941 yang menunjukan program dinilai berhasil dari nilai tertinggi dari skor 1800 sampai skor 2250
+sistem informasi geografis ini dapat membantu dispenda, untuk mengawasi papan reklame terhadap pajak reklame
+vendor dan pemilik iklan juga dapat mengawasai papan reklame yang memiliki status pajak agar tidak melewati pembayaran pajak reklame berserta dendanya
+sistem ini dapat pemberitahuan kepada vendor dan pemilik iklan tentang status pajak reklame di papan reklame jika sudah mendekati jatuh tempo pembayaran pajak
+pendahuluan biaya oleh dinas pendapatan daerah kota pontianak, untuk meningkatkan pendapatan daerah yang dipungut kepada setiap penyelenggara reklame
+berdasarkan peraturan daerah kota pontianak nomor 6 tahun 2010 tentang pajak daerah kota pontianak bagian keempat pajak pasal 28 ayat 2 pajak reklame yang terutang dipungut di wilayah daerah tempat reklame diselenggarakan
+masih menggunakan informasi reklame yang terpasang papan reklame berupa billboard, megatron, dan videotron tanpa gambaran peta penyebaran papan reklame sehingga mengingat luas kota pontianak 107.82 km2, agak sulit untuk pengawasan dan penertipan reklame yang tersebar di kota pontianak
+masalah lainnya dinas pendapatan daerah kota pontianak seperti memberitahukan jatuh tempo pajak papan reklame kepada penyedia papan reklame atau pemilik iklan masih menggunakan surat menyurat sehingga terkadang penyedia papan reklame atau pemilik iklan terlambat mengetahui jatuh tempo pajak papan reklame
+hal ini mengakibatkan keterlambatan penyedia papan reklame dalam melaksanakan kewajibannya untuk membayaran pajak papan reklame
+walaupun surat pemberitahuan pajak reklame sampai terkadang penyedia papan reklame dan pemilik iklan terkadang bingung surat pemberitahuan pajak reklame itu dituju terletak secara pastinya reklame tersebut di kota pontianak
+mengawasi dan penertipan reklame dapat menggunakan sig yang memiliki kemampuan untuk pemantauan reklame yang sudah jatuh tempo pajaknya dan yang belum memasuki masa jatuh tempo pajaknya
+internet pun dapat diakses dimanapun dan kapanpun sehingga dapat meminimalisir kendala pada tempat dan waktu
+pengertian internet yang menghubungkan ratusan bahkan ribuan jaringan yang lebih kecil, misalnya jaringan pendidikan, komersil, nirlaba dan militer, bahkan jaringanin individual pendapat ini mengartikan bahwa internet merupakan media komunikasi dan informasi modern yang dapat dimanfaatkan secara global oleh penggunaan diseluruhan dunia
+suatu kesatuan yang terdiri atas komponen atau elemen yang saling berinteraksi, saling terkait, atau saling bergantung membentuk keseluruhan yang kompleks
+sistem adalah kumpulan elemen yang saling terhubung atau berinteraksi membentuk suatu kesatuan atau sekumpulan komponen yang saling terhubung dan bekerja sama untuk mencapai sasaran dengan menerima input dan menghasilkan output dalam sebuah proses transformasi yang terorganisir
+telah diproses menjadi bentuk yang memiliki arti bagi penerima dan dapat berupa fakta, suatu nilai yang bermanfaat.ada suatu proses transformasi data menjadi suatu informasi yaitu input- proses -output
+informasi adalah data yang diolah menjadi suatu bentuk yang lebih berguna dan lebih berarti bagi penerimanya yang menggambarkan suatu kejadian-kejadian nyata yang digunakan untuk pengambilan suatu keputusan
+pengertian geografi mempelajari tentang lokasi serta persamaan dan perbedaan variasi keruangan atas fenomena fisik dan manusia di atas permukaan bumi
+geografi lebih dari sekedar kartografi 
+geografi tidak hanya menjawab apa dan dimana yang ada di atas muka bumi, tetapi juga diartikan dengan lokasi pada ruang
+geografi sebagai satu kajian mengenai kaitan antara manusia dengan alam sekitarnya
+suatu definisi yang lain adalah hasil semlok di semarang tahun 1988
+geografi adalah ilmu yang mempelajari persamaan dan perbedaan fenomena geosfer dengan sudut pandang kewilayahan dan kelingkungan dalam konteks keruangan
+sistem informasi geografis pada umumnya adalah system informasi khusus yang mengelola data yang memiliki informasi spasial sig juga merupakan sejenis perangkat lunak yang dapat digunakan untuk pemasukan, penyimpanan, manipulasi, menampilkan, dan keluaran informasi geografis berikut atribut – atributnya
+sig digunakan untuk memberi nilai, dengan melakukan pengaturan dan memperlihatkan data secara tepat, menggabungkannya dengan data lain, melakukan analisis terhadap data, dan menghasilkan data baru yang berguna, pada gilirannya sig dapat membantu untuk pengambilan keputusan
+prosedur yang digunakan untuk mengolah data
+informasi yang dibutuhkan dan diolah dalam aplikasi
+perangkat keras yang dibutuhkan untuk menjalankan sistem
+sig memiliki komponen-komponen dalam sebuah sistem yaitu: orang, aplikasi, data, software, dan hardware 
+sig orang data merupakan suatu dokumentasi yang terdiri dari interface, fungsi, kelas struktur dan sebagainya untuk membangun sebuah perangkat lunak
+api dapat dikatakan sebagai penghubung suatu aplikasi dengan aplikasi lainnya yang memungkinkan programmer menggunakan sistem api yang memungkinkan para pengembang untuk mengintegrasikan google map ke dalam website masing- masing dengan menambahkan data point sendiri
+dengan menggunakan google map api, google map dapat ditampilkan pada website eksternal agar aplikasi google map dapat muncul di website tertentu, diperlukan adanya api key
+api key merupakan kode unik yang digenerasikan oleh google untuk suatu website tertentu, agar server google map dapat mengenalin
+daerah kota pontianak kalimantan barat, dimana luas keseluruhan wilayahnya mencapai 107.82 km2
+secara administrasi kota pontianak dibagi menjadi 6 kecamatan dan 29 kelurahan diantaranya kecamatan pontianak barat, kecamatan pontianak kota, kecamatan pontianak selatan, kecamatan pontianak tenggara, kecamatan pontianak timur, dan kecamatan pontianak utara 
+dinas pendapatan daerah 2011 tata cara perhitungan nilai sewa reklame bab 1 ketentuan umum pasal 1 nomor 4 berbunyi dinas pendapatan daerah kota pontianak yang selanjutnya disingkat dispenda adalah kesatuan kerja perangkat daerah kota pontianak yang diberi kewenangan dalam penggelolaan dan penarikan pajak daerah kota pontianak
+papan reklame merupakan salah satu unsur pembentuk visual kota
+keberadaannya dapat memberikan informasi kepada masyarakat dan sekaligus dapat menunjang unsur keindahan kota
+papan reklame atau billboard yang merupakan bentuk promosi iklan luar ruang dan memiliki ukuran yang cukup besar
+dalam arti yang sebenarnya billboard adalah bentuk poster dengan ukuran yang cukup besar dan diletakkan tinggi di tempat tertentu yang ramai dilalui orang
+billboard termasuk model reklame media luar ruang yang paling banyak digunakan
+pengertian reklame peraturan daerah kota pontianak nomor 6 tahun 2010 tentang pajak daerah kota pontianak bab i ketentuan umum pasal 1 ayat 36 reklame adalah benda, alat, perbuatan, atau media yang bentuk dan corak ragamnya dirancang untuk tujuan komersial memperkenalkan, menganjurkan, mempromosikan, atau untuk menarik perhatian umum terhadap barang, jasa, orang, atau badan, yang dapat dilihat, dibaca, didengar, dirasakan, dan/atau dinikmati oleh umum
+tahun 2010 tentang pajak daerah kota pontianak bagian keempat pajak reklame pasal 26 berisi: 1) dasar pengenaan pajak reklame adalah nilai sewa reklame
+2) dalam hal reklame diselenggarakan oleh pihak ketiga, nilai sewa reklame sebagaimana dimaksud pada ayat ditetapkan berdasarkan nilai kontrak reklame
+3) dalam hal reklame diselenggarakan sendiri, nilai sewa reklame sebagaimana dimaksud pada ayat dihitung dengan memperhatikan faktor jenis, bahan yang digunakan, lokasi penempatan, waktu, jangka waktu penyelenggaraan, jumlah, dan ukuran media reklame
+4) dalam hal nilai sewa reklame sebagaimana dimaksud pada ayat tidak diketahui dan/atau dianggap tidak wajar, nilai sewa reklame ditetapkan dengan menggunakan faktor-faktor sebagaimana dimaksud pada ayat 
+5) perhitungan nilai sewa reklame sebagaimana dimaksud pada ayat menggunakan rumus sebagai berikut: nilai sewa reklame = + luas media reklame + ketinggian reklame) x satuan harga reklame 6) nilai strategis lokasi sebagaimana dimaksud pada ayat 5 yang diperhitungkan atas lokasi penempatan, sudut pandang, dan ketinggian
+7) hasil perhitungan nilai sewa reklame sebagaimana dimaksud pada ayat ditetapkan dengan peraturan walikota yang disusun dalam bentuk tabel
+tahun 2010 tentang pajak daerah kota pontianak bagian keempat pajak reklame pasal 27
+tarif pajak reklame ditetapkan sebagai berikut: a
+untuk reklame produk rokok ditetapkan 25 % 
+untuk reklame diluar produk rokok ditetapkan 20 % 
+peraturan daerah kota pontianak nomor 6 tahun 2010 tentang pajak daerah kota pontianak dapat disimpulkan bahwa perhitungan pajak reklame sudah ditetapkan dan lampiran i: peraturan walikota no 39 tahun 2011 menjelaskan cara perhitungan
+cara mencari nilai kawasan misalnya: jalan gajahmada adalah kawasan i jadi jalan gajamada berskor 10
+4 arah 8 3 arah 6 2 arah 4 1 arah 2 sudut pandang 2 jadi papan reklame tersebut memiliki skor 4
+cara mencari nilai ketinggian misalnya: tinggi reklame yang dipasang 7 meter jadi papan reklame tersebut memiliki skor 6
+tabel iv menghitung nsl 
+bahan penelitian reklame, peraturan wali kota pontianak no 39 tata cara perhitungan nilai sewa reklame, serta lampiran ii: peraturan wali kota pontianak nomor 39 tahun 2011 tata cara perhitungan nilai sewa reklame yang didapat dari dinas pendapatan daerah kota pontianak dan wawancara pada seksi pengawasan dan pengembangan ii, kml kota pontianak yang didapat dari dinas cipta karya, tata ruang dan perumahan kota pontianak
+metode penelitian dengan metode waterfall merupakan salah satu proses permodel perangkat lunak yang mengambil kegiatan proses dasar seperti spesifikasi, pengembangan, validasi dan evolusi dengan mempresentasikannya sebagai fase-fase proses yang berbeda seperti analisis dan definisi persyaratan, perancangan perangkat lunak, implementasi dan pengujian unit, integrasi dan pengujian sistem, operasi dan pemeliharaan
+diagram arsitektur gambar 3 berikut: web server basis data gambar
+3 diagram arsitektur mengelolah data vendor, data pemilik reklame data papan reklame, data reklame, nilai perhitugan pajak, dan data ilegal pemilik iklan disini hanya dapat melihat data papan reklame aktif dengan iklan yang dimiliki oleh pemilik iklan yang sudah dimasukan oleh dispenda ataupun didaftarkan oleh vendor dan diolah oleh sistem
+satpol pp disini jika mendapat laporan dari dispenda tentang papan reklame maupun reklame yang tidak memiliki izin untuk ditindak lanjutin
+akan ditampilkan di peta kota pontianak
+setelah ditindak lanjuti maka satpol pp dapat mengisi data tanggal di tindak lanjuti dan tidak ditampilkan dipeta kota pontianak
+masyarakat umum disini dapat melihat peta kota pontianak dengan penyebaran papan reklame yang sudah berisi iklan maupun yang belum berisi iklan
+perancangan diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks memperlihatkan bahwa subjek yang terlibat secara langsung dalam proses
+dapat dilihat pada gambar 4 diagram konteks
+ informasi papan reklame, reklame, dan  informasi reklame dan papan reklame ilegal  hasil perhitungan pajak  peta penyebaran reklame,  informasi papan reklame, dan reklame gambar
+4 diagram konteks 1) dispenda adalah pengguna yang memiliki hak akses penuh terhadap sistem informasi geografis, bertugas menjalankan manajemen dan menjaga aktifitas sistem informasi geografis 2) vendor adalah pemilik papan reklame
+vendor dapat melihat informasi yang berada di sistem informasi geografis tersebut
+pemilik iklan dapat melihat informasi yang berada di sistem informasi geografis tersebut
+vendor dapat melihat informasi yang berada di sistem informasi geografis tersebut
+5) masyarakat umum adalah calon pemasang iklan untuk mencari papan reklame yang akan dipasang iklannya
+papan reklame di kota pontianak yang telah selesai dibuat dan dapat diimplementasikan
+implementasi pada pada aplikasi ini dapat dilakukan dengan spesifikasi yang dibutuhan aplikasi dan memberi petunjuk cara mengunakan aplikasi tersebut
+sehingga memudahkan pihak yang menggunakan aplikasi ini dalam mengimplentasikan dalam penggunaan aplikasi serta pengujian aplikasi
+perhitungan pajak manual dengan perhitungan pajak aplikasi, tampilan data papan reklame dan reklame di dalam sistem informasi, dan notifikasi tentang pajak papan reklame yang akan dipaparkan melalui gambar screenshot aplikasi dan penjelasan yang diberikan
+5 halaman login satpol pp harus melakukan login terlebih dahulu
+para pengguna harus mengisi username dan password untuk bisa ke halaman utama yaitu halaman penyebaran papan reklame, reklame dan data ilegal seperti yang ditunjukkan pada gambar 6
+pada gambar 6 tersebut ada suatu bagian legenda yang berfungsi untuk memberi tahu apa yang dimaksud gambar-gambar di dalam peta
+diketahui papan reklame berukuran panjang 3 meter dan lebar 4 meter dengan 1 sisi
+reklame tersebut terletak di jalan ahmad yani
+reklame tersebut berkategori bukan reklame rokok
+karena jalan ahmad yani terletak di zona kawasan 1 maka skornya 10, reklame memiliki 2 sudut pandang maka skornya 4, dan reklame memiliki ketinggian 7m maka skor ketinggian 6
+karena sudah diketahui maka dapat menghitung nilai nsr
+luas 12 dengan iklan dipasang di papan reklame maka bernilai rp 600.000.tinggi sudah diketahui yaitu 7 meter dari soal, dan nilai nsl sudah didapat maka dapat dihitung nilai nsr
+nsr = 16.260.000 mendapatkan perhitungan pajak reklame dapat dihitung dengan nsr yang sudah didapat
+hasil perhitungan pajak dapat dilihat pada gambar 7
+pajak reklame = nsr x tarif pajak pajak reklame = 16.260.000 x 20% pajak reklame = 3.252.000 pada saat memasukan data papan reklame sistem merespon menghitung nsl, nsr, dan pajak papan reklame
+dan setelah dibandingkan tidak ada perbendaan diantara perhitungan manual dan perhitungan dari sistem
+pengujian data yang sudah dimasukan ke dalam basis data ditampilkan ke dalam sistem informasi geografis
+dalam arti laporan tentang pribadinya, atau hal-hal yang ia ketahui
+kuesioner merupakan teknik pengumpulan data yang dilakukan dengan cara memberin seperangkat pertanyaan atau pernyataan tertulis kepada responden untuk dijawab
+metode liker’s summated rating digunakan untuk mengetahui tingkat keberhasilan aplikasi dari pengujian aplikasi kuesioner
+cara dengan mengukur skor terkecil dan terbesar dari 15 pertanyaan kuesioner yang ditanggapi oleh reponden
+skor tanggapan dari 15 pertanyaan untuk setiap responden dirangkum dalam sebuah tabel 9
+1) aspek rekayasa perangkat lunak: hasil kuesioner rekayasa perangkat lunak dirangkum dalam sebuah tabel seperti tabel 6
+tabel 6 no aspek rekayasa 1 kemudahan menjalani 2 kelancaran menjalani 3 kemudahan mengakses 4 kehalusan perpindahan 5 jumlah 69 64 17 0 0 15 0 keterangan: 5 = sangat baik, 4 = baik, 3 = cukup, 2 = kurang, dan 1 = sangat kurang cukup, dan tidak ada responden menilai kurang dan sangat kurang
+2) aspek fungsionalitas: hasil kuesioner fungsional dirangkum dalam sebuah tabel seperti tabel 7
+3) aspek komunikasi visual: hasil kuesioner komunikasi visual dirangkum dalam sebuah tabel seperti tabel 8
+no aspek komunikasi 1 tampilan 2 tampilan menu 3 tampilan form pengisian data 16 6 8 0 0 4 5 kombinasi warna pada tampilan aplikasi 12 9 9 0 0 6 respon aplikasi terhadap input yang dilakukan jumlah 18 0 persentase 40, 5 40, 5 19 0 0 100 keterangan: 5 = sangat baik, 4 = baik, 3 = cukup, 2 = kurang, dan 1 = sangat kurang berdasarkan tabel 8
+hasil kuesioner komunikasi visual 40.55% responden menilai sangat baik, 40.55% responden menilai baik, 19 % responden menilai cukup, dan tidak ada responden menilai kurang dan sangat kurang
+4) liker’s summated rating : hasil metode liker’s summated rating digunakan untuk megetahui tingkat keberhasilan aplikasi dari pengujian kuesioner
+mengukur skor terkecil dan terbesar dari 15 pertanyaan kuesioner yang dianggapi oleh responden
+skor tanggapan dari 15 pertanyaan untuk setiap responden dirangkup dalam sebuah tabel 9
+hasil penelitian pada interpretasi lsr dapat dilihat pada gambar 8 1
+jumlah skor untuk setiap responden:  skor maksimal = 75  skor minimal = 15  skor median = 45  skor kuartal i = 30  skor kuartal iii = 60 2
+jumlah skor keseluruhan reponden:  maksimal = 2250  minimal = 450  media = 1350  1800 < skor < 2250 artinya program dinilai berhasil  1350 < skor < 1800 artinya program dinilai cukup berhasil  900 < skor < 1350 artinya program dinilai kurang berhasil  450 < skor < 900 artinya program dinilai tidak berhasil 450 900 1350 1800 2250 1941 total skor v
+2) sistem yang dibangun, vendor penyedia papan reklame dapat memantau papan reklame miliknya dalam bentuk pemetaan maupun tabel dan pemberitahuan papan reklame yang sudah disetujui atau ditolak dalam perpanjangan pajak reklame, pajak reklame yang sudah masuk masa jatuh tempo pembayaran pajak, dan yang hampir masuk jatuh tempo pajak papan reklame
+3) sistem yang dibangun, pemilik iklan dapat memantau reklame miliknya dalam bentuk pemetaan maupun tabel dan pemberitahuan reklame yang sudah disetujui atau ditolak dalam perpanjangan pajak reklame, pajak reklame yang sudah masuk masa jatuh tempo pembayaran pajak, dan yang hampir masuk jatuh tempo pajak reklame
+4) satpol pp dapat memberitahukan papan reklame dan reklame yang ilegal yang dilaporkan oleh dispenda
+5) hasil pengujian dari kuesioner terhadap 30 responden yang menggunakan metode liker’s summated rating, diperoleh total skor 1941 yang menunjukan program dinilai berhasil dari nilai tertinggi dari skor 1800 sampai skor 2250

@@ -1,0 +1,108 @@
+eee paper template in a4 vol 5 no 1 april 2019 pemilihan resep masakan berdasarkan simple matching coefficient ramadhaniati sari 1, tursina jurusan informatika, universitas tanjungpura jl
+hadari nawawi, pontianak, kalimantan barat 78115 1 ramadhaniati.sari@gmail.com 3 anggidianti@informatika.untan.ac.id 2 tursina@informatika.untan.ac.id sering kali seorang pengolah makanan yang mencari resep memiliki kesulitan untuk menentukan menu apa yang akan dimasak dengan bahan masakan yang tersedia di dapur
+oleh karena itu, dibangun aplikasi berbasis website untuk memudahkan pengguna dalam melakukan pemilihan resep masakan
+banyaknya jumlah data resep masakan yang bervariasi, memungkinkan untuk diterapkan penalaran berbasis kasus atau yang dikenal dengan case-based reasoning 
+dalam penelitian ini, peneliti menggunakan metode simple matching coefficient untuk menghitung kemiripan 
+aplikasi ini memberikan rekomendasi resep masakan apa saja yang dapat dibuat dengan meng-input-kan bahan-bahan masakan yang tersedia dan aplikasi ini juga memberikan resep lengkapnya beserta langkah-langkah memasak
+pengujian pada hasil akhir sistem menggunakan pengujian tahapan cbr, pengujian metode simple matching coefficient dan pengujian kuesioner dengan perhitungan metode likert’s summated rating 
+berdasarkan hasil pengujian metode simple matching coefficient dengan menggunakan 20 kasus uji, menunjukkan bahwa hasil perhitungan persentase rata-rata nilai similaritas tertinggi didapat nilai sebesar 89% sehingga sistem ini dapat memberikan rekomendasi resep masakan terbaik
+pada hasil pengujian dengan metode lsr menunjukkan skor 1343 yang artinya, hasil pengujian kuesioner menandakan responden menilai aplikasi sangat positif dan dinilai berhasil
+pendahuluan seseorang dengan mengolah bahan makanan melalui proses penerapan panas dengan tujuan tertentu
+dalam memasak, terdapat sedikit perbedaan pada jumlah takaran bahan dan bumbu serta cara pengolahannya sehingga diperlukan resep masakan untuk dijadikan acuan dalam memasak
+resep masakan adalah takaran yang digunakan untuk mengolah bahan makanan yang telah teruji ke akuratannya
+kumpulan resep masakan yang tersedia biasanya berasal dari buku resep, koran, majalah, maupun televisi
+hal tersebut dinilai kurang efisien dalam penggolongan menurut kategori jenis masakan, sehingga menyulitkan dalam hal pencarian dan pengarsipan koleksi resep masakan
+untuk menentukan menu apa yang akan dimasak dengan bahan masakan yang tersedia di dapur
+seiring dengan perkembangan teknologi, maka pencarian resep masakan akan lebih mudah dilakukan melalui website
+oleh karena itu akan dibangun aplikasi berbasis website untuk memudahkan user dalam melakukan pemilihan resep masakan
+sehingga dapat memberikan rekomendasi resep masakan apa saja yang dapat dibuat dengan meng-input- kan bahan-bahan masakan apa saja yang tersedia di dapur user
+yang didapat dari berbagai sumber buku resep masakan dan situs di internet, maka memungkinkan untuk menerapkan penalaran berbasis kasus atau yang dikenal dengan case-based reasoning 
+sumber pengetahuan utama sistem cbr adalah berdasarkan kasus-kasus yang telah ada atau yang telah tersimpan didalam basis kasus
+metode yang digunakan dalam menghitung kemiripan adalah simple matching coefficient 
+metode smc ini merupakan salah satu cara perhitungan similaritas untuk data biner
+hasil penelitiannya yaitu berupa aplikasi yang dapat digunakan untuk mencari resep masakan secara online
+pengguna akan memasukkan bahan makanan, bumbu masakan, waktu memasak, jenis masakan dan cara memasak serta memasukkan tingkat kesulitan resep masakan yang diinginkan pengguna(pemula / beginner, menengah / intermediate, akan menentukan resep masakan yang cocok sesuai keinginan pengguna
+kriteria yang dijadikan sebagai bahan perhitungan pada proses perankingan yaitu bahan makanan, bumbu masakan, tingkat kesulitan, waktu memasak, jenis masakan, dan cara memasak
+tursina melakukan penelitian yang menggunakan penalaran berbasis kasus atau disebut dengan case based reasoning dengan judul ― case based reasoning untuk menentukan daerah berpotensi demam berdarah ‖
+hasil penelitiannya yaitu berupa sebuah sistem yang dapat menentukan daerah berpotensi demam berdarah menggunakan metode simple matching coefficient untuk menghitung kemiripan, sehingga menghasilkan keluaran berupa status tingkat kerawanan : tidak rawan, rawan, dan sangat rawan
+fitur-fitur yang digunakan yaitu curah hujan, suhu udara, kelembapan udara, kepadatan penduduk, jumlah sarana kesehatan, frekuensi dbd bulanan perkelurahan, status daerah : tidak rawan, rawan, dan sangat rawan
+fitur-fitur tersebut yang akan dijadikan input sistem
+rani melakukan penelitian yang menggunakan case based reasoning dengan metode nearest neighbor untuk menghitung kemiripan atau similaritas dengan judul ―penerapan metode case based reasoning pada pengembang aplikasi recipe recommendation berbasis android‖
+hasil penelitianya yaitu berupa sebuah sistem yang dapat memberikan rekomendasi masakan apa saja yang dapat dibuat dengan menginput bahan-bahan apa saja yang tersedia dan aplikasi ini juga memberikan resep lengkapnya beserta langkah-langkah memasak dan cara penyajiannya
+fitur yang digunakan berupa bahan-bahan makanan
+based reasoning dengan judul ―case based reasoning diagnosis penyakit cardiovascular dengan metode simple matching coefficient similarity‖
+hasil penelitiannya adalah sistem yang memiliki kemampuan untuk mendiagnosa penyakit cardiovascular berdasarkan kemiripan pada kasus-kasus terdahulu menggunakan metode simple matching coefficient 
+fitur-fitur yang digunakan yaitu gejala dan faktor resiko pada pasien
+case based reasoning dengan judul ―diagnosis kerusakan komputer menggunakan metode similarity jaccard coefficient‖
+fitur yang digunakan dalam mendiagnosis dalam kerusakan komputer adalah gejala kerusakan
+hasil penelitiannya adalah sistem yang memiliki kemampuan mendiagnosis kerusakan hardware komputer dengan menggunakan metode similarity jaccard coefficient
+case based reasoning adalah penalaran yang bertujuan untuk menyelesaikan permasalahan baru dengan cara mengadaptasi solusi-solusi yang terdapat pada kasus- kasus sebelumnya yang mempunyai permasalahan yang mirip dengan kasus baru
+terdapat empat langkah proses pada metode case- based reasoning, : 1
+retrieve yaitu mengambil kembali permasalahan yang sama
+pada langkah ini dilakukan proses pencarian atau kalkulasi dari kasus-kasus yang memiliki kesamaan
+reuse yaitu menggunakan kembali informasi dan pengetahuan dalam kasus tersebut untuk mengatasi masalah baru
+pada langkah ini dicari solusi dari kasus serupa pada kondisi sebelumnya untuk permasalahan baru
+revise yaitu meninjau kembali solusi yang diberikan
+pada langkah ini dicari solusi dari kasus serupa pada kondisi sebelumnya untuk permasalahan yang terjadi kemudian
+retain yaitu proses yang menyimpan pengalaman untuk memecahkan masalah yang akan datang ke dalam basis kasus
+permasalahan yang akan diselesaikan adalah permasalahan yang memiliki kesamaan dengannya
+pada tahap ini terjadi suatu proses penggabungan dari solusi kasus yang baru ke knowledge yang telah ada
+berdasarkan tahapan yang ada dalam cbr, diperlukan dua langkah utama dalam menentukan solusi, yaitu:  membangun basis kasus, yang digunakan sebagai tempat penyimpanan
+similarity simple matching coefficient, merupakan salah satu metode perhitungan yang digunakan untuk menghitung tingkat similaritas dua buah objek yang bersifat biner
+pada basis kasus dengan fitur yang terdapat pada kasus baru
+similarity, antara dua objek x dan y adalah sebagai berikut: smc = dimana : kasus baru dikatakan similar 100% dengan kasus yang lama apabila nilai similaritas dari smc sama dengan 1, sedangkan tidak similar apabila nilai smc sama dengan 0
+komponen penyelesaian masalah cbr memiliki dua bagian utama, yaitu case retriever dan case reasoner
+case retriever bertugas untuk mencari masalah-masalah yang mirip dengan masalah yang dimasukkan pengguna didalam basis pengetahuan, sementara case reasoner bertugas untuk mencari solusi masalah pengguna dengan melihat atau menyesuaikan solusi masalah yang ditemukan case retriever
+dalam eksekusinya, ada empat tahapan dalam proses cbr yaitu retrieve, reuse, revise dan retain
+sistem menggunakan 20 kasus uji terhadap kasus lama yang data hasil perhitungan similaritas tersebut akan dirangkum pada sebuah tabel
+tabel pengujian tersebut terdiri dari 2 kolom, yaitu kolom kasus berisi kasus yang akan dilakukan pengujian terhadap sistem, dan kolom similaritas tertinggi yang berisi nilai similaritas tertinggi kasus baru terhadap kasus lama
+hasil pengujian dapat dilihat pada tabel 2
+pengujian kuesioner kuesioner berisi beberapa pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan dalam pengujian aplikasi tersebut, yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas, dan aspek komunikasi visual summated rating  skor maksimal = 50  skor minimal = 10  skor median = 30  skor kuartil i = 20  skor kuartil iii = 40 2
+pada gambar 2 di dalam aplikasi terdapat proses 4r dari metode case based reasoning yaitu proses retrieve, reuse, revise, dan retain
+pengguna melakukan interaksi dengan meng-input-kan data kasus baru ke dalam aplikasi dan aplikasi akan memberikan hasil rekomendasi dari kasus yang paling mirip dengan kasus baru tersebut
+interaksi antara database dengan aplikasi terjadi saat admin melakukan manajemen data yang terdapat di aplikasi
+perancangan basis kasus no kode kategori fitur 5 buk01 kering cabai hijau keriting 6 bab01 basah tepung beras 7 bab02 basah tepung maizena 8 bab03 basah susu cair 9 bab04 basah saus tomat 10 bab05 basah saus sambal 11 bab06 basah saus tiram 12 bab07 basah cuka 15 bab10 basah seledri 17 bab12 basah kentang 18 bab13 basah wortel 20 bub02 basah cabai rawit hijau 21 bub03 basah adas manis 22 bub04 basah kayu manis 23 bub05 basah cengkeh 25 bub07 basah kapulaga 28 bakb02 kering basah kelapa parut 29 bakb03 kering basah minyak goreng 30 bakb04 kering basah margarin 31 bakb05 kering basah gula merah 32 bakb06 kering basah kecap manis 33 bakb07 kering basah terasi 34 bakb08 kering basah jeruk nipis 35 bakb09 kering basah tomat hijau 36 bakb10 kering basah tomat merah 37 bukb01 kering basah bawang putih 38 bukb02 kering basah bawang merah 39 bukb03 kering basah cabai merah besar 40 bukb04 kering basah cabai merah keriting 41 bukb05 kering basah cabai rawit merah 42 bukb06 kering basah kunyit 43 bukb07 kering basah jahe 44 bukb08 kering basah kencur 45 bukb09 kering basah lengkuas 46 bukb10 kering basah merica 47 bukb11 kering basah kemiri 48 bukb12 kering basah ketumbar 49 bukb13 kering basah jintan no kode kategori fitur 52 bukb16 kering basah asam kandis 53 bukb17 kering basah asam jawa 54 bukb18 kering basah daun jeruk purut 55 bukb19 kering basah daun salam berdasarkan 40 data resep masakan nusantara yang telah dikumpulkan untuk disimpan di basis kasus, data tersebut di analisis sehingga mendapatkan 55 fitur yang dibutuhkan sebagai pilihan kepada pengguna dalam menentukan rekomendasi resep masakan
+masing-masing fitur tersebut memiliki kode sesuai dengan kategori bahan dan bumbu dimana kategori tersebut terdiri dari bahan kering, bumbu kering, bahan basah, bumbu basah, bahan kering basah dan bumbu kering basah
+perancangan diagram alir sistem pemilihan resep masakan desain diagram alir sistem pemilihan resep masakan dapat dilihat pada gambar
+mulai input kasus baru pengecekan kemiripan kasus baru dengan kasus lama yang ada pada database menggunakan perhitungan similaritas simple matching coefficient tabel kasus baru revisi ? kasus baru menjadi basis kasus tabel basis kasus diagram alir sistem pemilihan resep masakan pada gambar 3 dimulai dengan pilih kategori resep, kemudian input kasus baru
+sistem melakukan perbandingan kasus baru dengan kasus lama yang tersimpan di dalam database
+proses perbandingan ini akan menghasilkan nilai similaritas yang dihitung dengan metode simple matching coefficient
+jika nilai similaritas sama dengan 1, maka proses selesai
+jika nilai similaritas tidak sama dengan 1, maka kasus baru akan disimpan ke dalam tabel kasus baru
+tabel kasus baru menyimpan seluruh data kasus baru yang telah di-input-kan ke dalam sistem yang mana data tersebut dapat diolah oleh admin
+admin dapat merevisi dan me-retain data kasus baru agar dapat menjadi basis kasus
+basis kasus akan digunakan sistem sebagai acuan solusi atas kasus baru lainnya
+hasil pengujian  pengujian tahapan retrieve adalah untuk menelusuri dan mendapatkan kasus-kasus yang mirip dalam basis kasus dengan kasus baru
+berikut proses didalam tahapan retrieve: melakukan input data bahan bumbu dan melakukan pengecekan data terhadap basis kasus
+gambar 5 merupakan proses input data bahan dan bumbu
+mencari tingkat kemiripan antara kasus uji dengan kasus-kasus yang terdapat didalam basis kasus pada gambar 6
+tampilan halaman hasil rekomendasi resep masakan dengan tingkat kemiripan kasus baru dengan kasus lama dengan nilai tertinggi  pengujian tahapan reuse adalah menggunakan kembali kasus-kasus yang ada dan dicoba untuk menyelesaikan suatu permasalahan baru seperti yang ditunjukkan pada gambar 7
+kasus lama yang digunakan sebagai solusi  pengujian tahapan revise dilakukan dengan meninjau kembali untuk perbaikan data resep masakan ditunjukkan pada gambar 8
+tampilan form revisi kasus baru  pengujian tahapan retain dilakukan dengan memindahkan data kasus baru ke basis kasus ditunjukkan pada gambar 9
+hasil pengujian metode simple matching coefficient dapat dilihat pada tabel 2
+kasus 1 pada tabel 2 memiliki nilai similaritas tertinggi sebesar 0, 87 dengan perhitungan sebagai berikut: dengan kasus yang terdapat di basis kasus: m11 = 10, m10 = 2, m01 = 5, m00= 38 maka, smc = persentase rata-rata similaritas tertinggi terhadap kasus uji sebesar 89% yang digunakan untuk mengetahui keberhasilan sistem
+responden akan mencoba aplikasi untuk dapat mengetahui kapabalitas dan kelancaran jalannya aplikasi itu sendiri
+hal ini menunjukkan bahwa sebagian besar responden telah menanggapi aspek rekayasa perangkat lunak pada sistem sangat baik
+gambar tersebut menunjukkan bahwa hasil penelitian berada di antara skor 1200 – 1500 yang artinya, hasil kuisioner menandakan responden menilai aplikasi sangat positif dan dinilai berhasil
+hasil pengujian tahapan proses case based reasoning menunjukkan bahwa sistem ini dapat melakukan tahapan 4r pada cbr
+menelusuri dan mendapatkan kasus-kasus dalam basis kasus yang mirip dengan kasus baru
+menggunakan kembali kasus-kasus yang ada dan dicoba untuk menyelesaikan suatu permasalahan baru
+mengubah dan menyesuaikan output yang ditawarkan jika diperlukan
+proses penyimpanan data kasus baru ke basis kasus
+tahapan retrieve, reuse, revise, dan retain 
+hasil pengujian metode simple matching coefficient, menunjukkan bahwa berdasarkan hasil perhitungan persentase rata-rata nilai similaritas tertinggi, didapat nilai sebesar 89% yang digunakan untuk mengetahui keberhasilan sistem
+nilai tersebut diperoleh karena kasus uji memiliki banyak kesamaan dengan bahan bumbu yang terdapat pada basis kasus, sehingga sistem memberikan rekomendasi masakan dengan nilai similaritas tinggi yang mendekati nilai 1
+berdasarkan hasil kuesioner menunjukkan bahwa sistem dinilai sangat baik berdasarkan aspek rekayasa perangkat lunak dengan persentase 53, 3%
+berdasarkan hasil kuesioner menunjukkan bahwa sistem dinilai baik berdasarkan aspek fungsionalitas dengan persentase 48, 3%
+berdasarkan hasil kuesioner menunjukkan bahwa sistem dinilai sangat baik berdasarkan aspek komunikasi visual dengan persentase 53, 3%
+berdasarkan hasil perhitungan dengan menggunakan metode likert summated rating, didapatkan hasil penelitian diangka 1343 dari 1500 yang menunjukkan bahwa hasil kuisioner responden menilai aplikasi sangat positif dan dinilai berhasil
+kesimpulan pemilihan resep masakan berdasarkan ketersediaan bahan masakan dengan metode simple matching coefficient, dapat disimpulkan bahwa: 1
+sistem yang dibuat dapat melakukan proses 4r pada case based reasoning 
+menelusuri dan mendapatkan kasus-kasus dalam basis kasus yang mirip dengan kasus baru
+menggunakan kembali kasus-kasus yang ada dan dicoba untuk menyelesaikan suatu permasalahan baru
+mengubah dan menyesuaikan output yang ditawarkan jika diperlukan
+proses penyimpanan data kasus baru ke basis kasus
+tahapan retrieve, reuse, revise, dan retain 
+berdasarkan hasil pengujian metode simple matching coefficient dengan menggunakan 20 kasus uji, menunjukkan bahwa hasil perhitungan persentase rata- rata nilai similaritas tertinggi didapat nilai sebesar 89% sehingga sistem ini dapat memberikan rekomendasi resep masakan terbaik
+sistem case based reasoning dengan perhitungan similaritas menggunakan metode simple matching coefficient yang dibangun pada aplikasi dapat menentukan rekomendasi resep masakan
+berdasarkan pengujian kuesioner dengan metode likert’s summated rating, didapatkan skor sebesar 1343 dari 1500 yang artinya, hasil pengujian kuesioner menandakan responden menilai aplikasi sangat positif dan dinilai berhasil

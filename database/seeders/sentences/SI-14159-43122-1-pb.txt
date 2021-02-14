@@ -1,0 +1,93 @@
+adapun dalam proses pemesanannya pengujung atau pengguna harus mendatangi ke apotek sehingga terjadi ketidak efisienan dalam penggunaan waktu dan tenaga, selain itu pemilik apotek ingin memperluas jangkauan usahanya dengan memasarkan produk yang ada di apotek dengan membangun aplikasi m-commerce yang berbasis android di apotek pelangi kasih
+metodologi penelitian yang digunakan dalam penelitian ini ialah studi literatur, analisis kebutuhan, pengumpulan data, pemodelan/perancangan sistem, pembuatan aplikasi kesimpulan
+metode perancangan yang dilakukan menggunakan diagram uml 
+metode pengujian yang dilakukan yaitu dengan menggunakan pengujian blackbox sample testing untuk pengujian aplikasi dan pengujian user aceptance test dengan kuesioner serta diinterpretasikan dalam skala likert untuk pengujian pengguna
+cara kerja aplikasi ini, pengguna memerlukan koneksi internet untuk menjalan aplikasi m-commerce di apotek pelangi kasih agar katalog produk yang apotek jual dapat dilihat melalui smartphone android
+aplikasi ini dibangun menggunakan software eclipse java mars dengan plugin android depolevment tools dengan target sdk minimum 10 yaitu android 2.3 
+untuk pengujian pengguna melaui kuesioner yang dibagikan kepada masyarakat umum maupun pengujung apotek pelangi kasih kemudian diinterpretasikan dalam skala likert didapatkan hasil, dengan 28 orang responden didapat nilai sebesar 64, 25 masuk dalam kategori sangat baik
+dapat disimpulkan dari pengujian ini bahwa aplikasi m-commerce di apotek pelangi kasih berbasis android bahwa proses transaksi pemesanan dan penjualan dapat dilakukan secara online sehinga dapat dilakukan kapan dan dimana saja dan jangkauan pasar menjadi lebih luas adt, apotek pelangi kasih atau meramu obat
+apotek juga merupakan tempat apoteker melakukan praktik profesional farmasi sekaligus mejadi peritel
+apotek sebagai salah satu sarana pelayanan kesehatan yang mengutamakan kepentingan masyarakat dan berkewajiban menyediakan, menyimpan dan menyerahkan perbekalan farmasi yang bermutu baik dan keabsahannya terjamin
+apotek pelangi kasih adalah perusahaan milik perseorangan yang berdiri pada tanggal 16 maret 2013 dengan surat izin aptek no 503/06/217141/bp2t/apt/2013 dan apotekernya adalah emi kurniawati, s.si,
+apt apotek ini berlokasi di jalan pangeran natakusuma no147, pontianak kota dan yang bertindak sebagai pemilik sarana perusahaan ini adalah teddy djayadi limanto
+apotek pelangi kasih yang hampir beroperasi kurang lebih selama tiga tahun ini bergerak dalam pengadaan dan penjualan barang-barang berupa produk obat-obatan dan alat kesehatan lainya
+dalam memperoleh barang-barang yang akan dipasarkan, perusahaan ini banyak menjalin kerjasama dengan perusahaan lain yang memproduksi obat-obatan, kosmetik dan alat-alat kesehatan juga bekerjasama dengan dokter
+dengan semakin bertambahnya barang yang dibeli dari supplier maka diperlukan manajemen dan pengelolaan yang lebih baik agar memberikan pelayanan yang sebaik- baiknya kepada konsumen, khususnya persediaan barang yang cukup agar barang-barang yang dicari konsumen selalu tersedia
+kasih, dan dukungan teknologi berbasis android sebagai media teknologi, menjadikan proses bisinis perusahaan khsusnya dalam bidang penjualan yang mencakup penyampaian informasi kepada pelanggan, transaksi secara online dan berinteraksi kepada pelanggan secara lebih mudah
+agar kepuasan pelanggan dapat terpenuhi dan pemasaran obat-obatan dapat dipasarkan secara efektif terdapat suatu cara yaitu dengan memanfaatkan teknologi m- commerce berbasis android
+aplikasi ini akan di implementasikan pada platform android hal tersebut dikarenakan sistem operasi ini telah digunakan lebih dari 70% pengguna smartphone
+artinya, mayoritas pengguna smartphone dapat mengunakan aplikasi ini untuk mendapatkan informasi terkait dengan obat-obatan yang akan dicari
+adalah suatu proses membeli dan menjual produk-produk secara elektronik oleh konsumen dan dari perusahaan ke perusahaan dengan computer sebagai perantara transaksi bisnis
+e-commerce atau yang biasa disebut juga dengan istilah ecom atau emmerce atau ec merupakan pertukaran bisnis yang rutin dengan menggunakan transmisi electronic data interchange, email, electronic bulletin boards, mesin faksimili, dan electronic funds transfer yang berkenaan dengan transaksi-transaksi belanja di internet rancang bangun aplikasi m-commerce pada apotik pelangi kasih di kota pontianak berbasis android lukman 1, helfi nasution 2, m.azhar irwansyah e-mail: debartlukman@gmail.com 1, helfi_nasution@yahoo.com penjualan software, dokumen, grafik, musik, dan lain- lainnya, serta transaksi business to business 
+sedangkan definisi e-commerce menurut david baum (1999, pp
+36-34)yaitu: e-commerce is a dynamic set of technologies, applications, and bussines process that link enterprises, consumers, and communities through electronics transactions and the electronic exchange of goods, services, and informations
+purbo, e-commerce merupakan satu set dinamis teknologi, aplikasi, dan proses bisnis yang menghubungkan perusahaan, konsumen, dan komunitas tertentu melalui transaksi elektronik dan perdagangan barang, pelavanan, dan informasi yang dilakukan secara elektronik
+m-commerce didefiniskan sebagai proses transaksi yang dilakuhkan secara elektronik, baik melalui internet, smart card maupun perangkat mobile melalui jaringan seluler
+saat ini android bisa disebut raja dari smartphone
+mengapa android begitu pesat perkembangan di era saat ini? karena android menyediakan platform terbuka bagi para pengembang untuk menciptakan aplikasi mereka sendiri
+awalnya, perusahaan search engine terbesar saat ini, yaitu google inc
+pendatang baru yang membuat peranti lunak untuk ponsel
+didirikan oleh andy rubin, rich milner, nick sears dan chris white pada tahun 2003
+pada agustus 2005 google membeli android inc
+kemudian untuk mengembangkan android dibentuklah open handset alliance konsorsium dari 34 perusahaan hardware, software dan telekomunikasi, termasuk google, htc, intel motorola, qualqomm, t-mobile dan nividia
+perangkat lunak atau bagian dari perangkat lunak yang dapat diakses secara remote oleh berbagai piranti dengan sebuah perantara tertentu
+secara umum, web service dapat diidentifikasikan dengan menggunakan url seperti hanya web pada umumnya
+namun yang membedakan web service dengan web pada umumnya adalah interaksi yang diberikan oleh web service
+berbeda dengan url web pada umumnya, url web service hanya menggandung kumpulan informasi, perintah, konfigurasi atau sintaks yang berguna membangun sebuah fungsi-fungsi tertentu dari aplikasi
+web service dapat diartikan juga sebuah metode pertukaran data, tanpa memperhatikan dimana sebuah database ditanamkan, dibuat dalam bahasa apa sebuah aplikasi yang mengkonsumsi data, dan di platform apa sebuah data itu dikonsumsi
+sehingga web sevice mampu menjadi sebuah jembatan penghubung antara berbagai sistem yang ada
+menurut w3c web services architecture working group pengertian web service adalah sebuah sistem softwareyang di desain untuk mendukung interoperabilitas interaksi mesin ke mesin melalui sebuah jaringan
+interface web service dideskripsikan dengan menggunakan format yang mampu diproses oleh mesin 
+sistem lain yang akan berinteraksi dengan web service hanya memerlukan soap, yang biasanya disampaikan dengan http dan xml sehingga mempunyai korelasi dengan standar web 
+web pada umumnya digunakan untuk melakukan respon dan request yang dilakukan antara client dan server
+sebagai contoh, seorang pengguna layanan web tertentu mengetikan alamat url web untuk membentuk sebuahrequest
+request akan sampai pada server, diolah dan kemudian disajikan dalam bentuk sebuah respon
+dengan singkat kata terjadilah hubungan client-server secara sederhana
+sedangkan pada web service hubungan antara client dan server tidak terjadi secara langsung
+sehingga akses terhadap databaseakan ditanggani tidak secara langsung oleh server, melainkan melalui perantara yang disebut sebagai web service
+peran dari web service ini akan mempermudah distribusi sekaligus integrasi database yang tersebar di beberapa server sekaligus
+multi-platform: target sistem operasi eclipse adalah microsoft windows, linux, solaris, aix, hp-ux dan mac os x
+pengembangan aplikasi berbasis bahasa pemrograman lainnya, seperti c/c++, cobol, python, perl, php, dan lain sebagainya
+multi-role: selain sebagai ide untuk pengembangan aplikasi, eclipse pun bisa digunakan untuk aktivitas dalam siklus pengembangan perangkat lunak, seperti dokumentasi, test perangkat lunak, pengembangan web, dan lain sebagainya
+eclipse pada saat ini merupakan salah satu ide favorit dikarenakan gratis dan open source, yang berarti setiap orang boleh melihat kode pemrograman perangkat lunak ini
+selain itu, kelebihan dari eclipse yang membuatnya populer adalah kemampuannya untuk dapat dikembangkan oleh pengguna dengan komponen yang dinamakan plug-in
+android development tools kemudahan dalam mengembangkan aplikasi android dengan menggunakan ide eclipse
+dengan menggunakan adt untuk eclipse akan memudahkan kita dalam membuat aplikasi project android, membuat gui aplikasi, dan menambakan komponen-kompenen yang lainnya, begitu juga kita dapat melakukan running aplikasi menggunakan android sdk melalui eclipse
+dengan adt juga kita dapat melakukan pembuatan package android yang digunakan untuk distribusi aplikasi android yang kita rancang.semakin tinggi platform android yang kita gunakan, dianjurkan menggunakan adt yang lebih terbaru, karena biasanya munculnya platform baru diikuti oleh munculnya versi adt yang terbaru
+untuk melakukan instalasi adt dielipse dapat dilakukan secara online maupun offline
+“javascript object notation adalah bentuk data asli javascript yang tidak membutuhkan api khusus untuk memproses data json
+hal itu membuat json sebagai sebuah format yang menjanjikan untuk pertukaran data pada aplikasi berbasis web”
+karena tidak menggunakan format bahasa pemrograman khusus dan mudah dibaca manusia, maka json sering digunakan untuk pertukaran data antar komputer
+dalam sistem yang dibangun, json digunakan untuk menyimpan informasi dari aplikasi berbasis web yang kemudian diunduh perangkat android
+use case diagram use case diagram merupakan pemodelan untuk kelakuan sistem yang dibangun
+use case diagram menggambarkan interaksi antar satu atau lebih aktor terhadap sistem
+gambar 3 merupakn use case diagram yang dibangun
+activity diagram diagram aktivitas mengambarkan aktivitas yang dilakuhkan oleh sistem kepada pengguna bukan aktivitas yang dilakuhkan oleh pengguna satu ke pengguna lain
+gambar 4 merupakan diagram aktivitas sistem yang dibangun
+class diagram diagram kelas menggambarkan struktur sistem berorientasi objek dari segi pendefenisian kelas
+setiap kelas memiliki atribut dan metode atau fungsi yang digunakan dalam berjalannya system d
+sequence diagram sequence diagram adalah menggambarkan kelakuan obyek pada use case dengan mendeskripsikan waktu hidup obyek dan pesan yang dikirim dan diterima antar obyek
+dalam membuat sequence diagram perlu melihat skenario ang terdapat dalam diagram use case diagram
+hasil dan analisa media penjualan dan pembelian obat serta alat kesehatan yang telah dibuat dapat diimplementasikan pada smarthphone dengan sistem operasi
+file aplikasi apotek pelangi kasih ini dengan ekstensi .apk dicopykan paste pada perangkat mobile android dilanjutkan dengan proses instalasi sebelum dapat digunakan
+mobile android yang digunakan juga harus memenuhi syarat minimum yaitu android versi 2.3 keatas, memory kosong 20 mb
+terdapat 6 buah menu utama yaitu katalog produk untuk melihat produk yang apotek jual, pemabayaran untuk melakukan konfirmasi pembayaran, data pesanan untuk melihat status data pesanan, info dan rekening untuk melihat informasi dari apotek, pengaturan untuk mengubah pengaturan pengguna dan yang terakhir login untuk login pengguna
+tampilan menu utama aplikasi pelanggan sistem menampilkan halaman utama menu login cek login pilih jumlah klik konfirmasi pesanan menampilkan detail pesanan kirim ke alamat sendiri kirim ke alamat lainklik kirim alamat sendiri menampilkan lakuhkan konfrismasi mengisi alamat 1 : klik katalog produk 9 : konfirmasipemesanan 15 : datasetpembayaran 18 : kirim data pemabayaran pengujian ini dilakukan untuk melihat pendapat dan respon pengguna terhadap aplikasi m-commerce di apotek pelangi kasih yang berbasis android
+salah satu contoh kuesioner pengujian aplikasi oleh pengguna dan tandatangan 28 responden terlampir
+kuesioner dibagikan kepada 28 responden yang merupakan masyarakat dan pengunjung atau pelanggan di apotek pelangi kasih pada tanggal 02 januari 2016 sampai dengan 05 januari 2016 
+penulis menjelaskan maksud dan tujuan serta fungsional dibuatnya aplikasi
+penulis menunjukkan aplikasi yang akan dinilai oleh responden
+penulis menjelaskan alur dan fitur aplikasi
+aspek rekayasa perangkat lunak berikut ini gambar 8 merupakan persentase dari pengujian kuesioner kepada 28 responden terhadap aspek rekayasa perangkat lunak dengan penilaian baik 68, 57%
+presentasi penilaian aspek rekayasa perangkat lunak 2
+aspek komunkasi visual berikut ini gambar 9 merupakan persentase dari pengujian kuesioner kepada 28 responden terhadap aspek komunikasi visual dengan penilaian baik 57, 74%
+aspek fungsional berikut ini gambar 10 merupakan persentase dari pengujian kuesioner kepada 28 responden terhadap aspek komunikasi visual dengan penilaian baik 57, 14%
+hasil pengujian skala likert dari hasil pengujian aplikasi oleh pengguna didapat nilai rata-rata sebesar 64, 25 yang diinterpretasikan maka dapat disimpulkan bahwa penilaian yang dilakukan responden/pengguna aplikasi terhadap keseluruhan aplikasi dinilai sangat baik
+aplikasi m-commerce apotek pelangi kasih dapat digunakan oleh pengunjung apotek atau pengguna jika sebelumnya menginstal file apotek pelangi kasih.apk dengan syarat spesifikasi kebutuhan aplikasi sudah terpenuhi dan sesuai
+dari hasil pengujian kompatibilitas aplikasi menunjukan aplikasi ini dapat berjalan pada perangkat platform android dengan sistem operasi paling rendah yaitu android 2.3 
+dari hasil analisis terhadap pengujian kuesioner pengguna aplikasi oleh 28 responden dengan akses pengguna dan 2 orang penguji dengan akses administrator atau petugas dari apotek penilian aplikasi m-commerce apotek pelangi kasih ini berada dalam kategori sangat baik
+hali ini berdasarkan perhitungan rata-rata menggunakan skala likert dengan nilai 64, 25 untuk akses pengguna dan 55 untuk akses administrator yang diinterpretasikan maka dapat disimpulkan bahwa keseluruhan aplikasi dinilai sangat baik
+kesimpulan dan saran commerce di apotek pelangi kasih di kota pontianak berbasis android menggunakan skala likert oleh pengguna diperoleh nilai rata-rata 64, 25 yang diinterpretasikan, maka dapat disimpulkan bahwa aplikasi m-commerce di apotek pelangi kasih ini sangat baik untuk diimplementasikan pada apotek pelangi kasih di pontianak guna memberi kemudahan kepada pengguna atau pengunjung untuk membeli produk-produk yang apotek pelangi kasih jual melalui smartphone android
+sangat buruk = 0% sangat buruk = 0% pengujian kepada responden didapatkan saran-saran untuk mengembangkan aplikasi m-commerce di apotek pelangi kasih berbasis android antara lain: 1
+menambahkan fitur list pencarian dan list stock barang pada katalog produk guna memberi kemudahan kepada pengguna untuk mencari produk dan mengetahui jumlah stock barang yang tersedia
+meningkatkan keamanan jaringan dan keamanan dalam pembayaran pada aplikasi

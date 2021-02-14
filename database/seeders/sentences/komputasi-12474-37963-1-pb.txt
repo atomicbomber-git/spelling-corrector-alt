@@ -1,0 +1,23 @@
+kibat infeksi virus yang dialami oleh anak
+penyakit akibat infeksi virus pada anak dan gejala-gejala yang ditimbulkan sangat banyak
+kemajuan teknologi yang mampu mengadopsi proses dan cara berpikir manusia yaitu teknologi artificial intelligence atau kecerdasan buatan
+salah satu teknologi kecerdasan buatan adalah sistem pakar yang merupakan program komputer yang dapat meniru proses pemikiran dan pengetahuan pakar untuk menyelesaikan suatu masalah
+dengan menerapkan metode certainty factor didapatkan nilai kemungkinan gangguan penyakit yang dialami pasien
+dari hasil pengujian yang dilakukan dengan metode certainty factor maka didapatkan nilai akurasi sebesar 95%, ini menunjukkan pengujian dengan metode certainty factor berjalan dengan baik
+pengujian dilakukan dengan cara membandingkan diagnosa pakar dan diagnosa sistem
+oleh sebab itu, para petugas kesehatan rumah sakit perlu mengetahui gejala- gejala yang ditimbulkan oleh penyakit yang dikarenakan infeksi virus
+penyakit akibat infeksi virus pada anak dan gejala-gejala yang ditimbulkan sangat banyak
+suatu gejala penyakit yang disebabkan oleh virus pada makanan dan lingkungan dapat merupakan indikasi dari suatu penyakit yang akan diderita anak
+buatan adalah sistem pakar yang merupakan program komputer yang dapat meniru proses pemikiran dan pengetahuan pakar untuk menyelesaikan suatu masalah
+implementasi sistem pakar banyak digunakan pada bidang kesehatan karena sistem pakar dipandang sebagai cara penyimpanan pengetahuan pakar dalam bidang tertentu ke dalam suatu program, sehingga dapat memberikan suatu keputusan dan melakukan penalaran secara cerdas
+teknik kecerdasan buatan yang dapat menirukan proses penalaran manusia menawarkan hasil yang lebih spesifik untuk dimanfaatkan, karena sistem pakar berfungsi secara konsisten seperti seorang pakar manusia yang menawarkan nasihat kepada pemakai dan menemukan solusi terhadap berbagai macam permasalahan yang spesifik, termasuk juga dalam pemecahan masalah penyakit infeksi virus pada anak
+dalam melakukan diagnosa penyakit banyak hal yang tidak pasti dan tidak konsisten yang mengakibatkan kesalahan diagnosa
+ketidakkonsistenan dapat mengakibatkan diagnosa sistem menjadi tidak jelas dan menjadi timbul suatu pertanyaan
+oleh karena itu diperlukan suatu metode yang digunakan untuk mengukur kepastian hasil diagnosis
+salah satunya adalah metode certainty factor
+certainty faktor merupakan suatu metode yang digunakan untuk menyatakan kepercayaan dalam sebuah kejadian berdasarkan bukti atau penilaian pakar
+secara konsep, certainty factor merupakan salah satu teknik yang digunakan untuk mengatasi ketidakpastian dalam pengambilan keputusan
+certainty factor dapat terjadi dengan berbagai kondisi
+diantara kondisi yang terjadi adalah terdapat beberapa atensenden dengan satu konsekuen yang sama
+tinjauan pustaka 2.1 kecerdasan buatan bagian dari ilmu komputer yang mempelajari bagaimana membuat mesin dapat melakukan pekerjaan seperti dan sebaik yang dilakukan oleh manusia bahkan bisa lebih baik daripada yang dilakukan manusia
+untuk mengetahui dan memodelkan proses-proses berpikir manusia dan mendesain mesin agar dapat menirukan prilaku manusia

@@ -1,0 +1,12 @@
+bahasa yang dimiliki setiap orang berbeda-beda, keragaman bahasa ini dapat menghambat pertukaran informasi karena orang lain tidak memahami maksud dan tujuan yang ingin disampaikan
+oleh karena itu diperlukan penerjemah untuk menjembatani bahasa yang berbeda
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter- parameternya diambil dari hasil analisis korpus paralel
+korpus paralel adalah pasangan korpus yang berisi kalimat-kalimat dalam suatu bahasa dan terjemahannya
+salah satu model yang digunakan untuk menentukan akurasi hasil terjemahan adalah dengan melakukan proses tagging kata per kata dengan mengambil kata dasar dan imbuhannya
+tujuan yang ingin di capai dalam penelitian ini adalah menguji akurasi penerjemahan bahasa indonesia-dayak taman dengan membandingkan nilai akurasi sebelum dan setelah dilakukan proses tagging kata per kata dengan mengambil kata dasar dan imbuhannya
+penelitian menggunakan korpus paralel sebanyak 3110 korpus
+pengujian dilakukan dengan dua cara, yaitu pengujian otomatis menggunakan bilingual evaluation understudy dan pengujian oleh ahli bahasa dayak taman
+hasil dari pengujian adalah terdapat peningkatan nilai bleu sebesar 0.36% pada pengujian otomatis dan 20.57% pada pengujian oleh ahli bahasa
+pendahuluan penting bagi kehidupan manusia, karena dengan menggunakan bahasa kita dapat berinteraksi dan mengetahui informasi yang dibutuhkan, dengan bahasa juga manusia dapat mengekspresikan diri, menyampaikan kritik dan pendapat, pikiran serta keinginannya
+bahasa juga merupakan sumber daya bagi kehidupan bermasyarakat, bahasa merupakan alat yang digunakan untuk sosialisasi dan adaptasi sosial antara manusia satu dengan manusia lainnya agar kehidupannya semakin berkembang
+berdasarkan catatan badan pengembangan dan pembinaan bahasa serta kementerian pendidikan dan kebudayaan sedikitnya ada 442 bahasa yang dimiliki indonesia

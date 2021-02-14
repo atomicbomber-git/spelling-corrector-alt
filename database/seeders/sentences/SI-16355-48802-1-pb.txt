@@ -1,0 +1,17 @@
+meningkatkan pengetahuan kita tentang sesuatu terutama untuk mahasiswa teknik informatika universitas tanjungpura
+seiring dengan waktu, ada banyak fasilitas dan mudah untuk mendapatkan informasi
+salah satu fasilitas yang banyak digunakan orang adalah portal situs web.teknik informatika merupakan salah satu program studi yang ada di universitas tanjungpura pontianak
+website portal informatika dapat menjadi sarana wadah informasi yang berkaitan langsung dengan program studi teknik informatika antaranya berita, kegiatan, pengumuman, akses siakad dan lain sebagainya
+agar portal dapat diimplementasikan, diperlukan pengujian blackbox dan tanggapan dari responden berupa kuisioner dari kalangan mahasiswa dan dosen
+lembar kuisioner digunakan untuk menentukan hasil pengujian berdasarkan beberapa aspek
+hasil pengujian blackbox pada portal menunjukkan bahwa proses masukan dan keluaran yang dilakukan berjalan dengan semestinya dan pengujian likert’s summated rating mengenai tanggapan dari beberapa user terhadap website portal sebesar 2183 dari total skor tertinggi 3000
+dan dapat disimpulkan bahwa website portal cukup layak digunakan dan diimplementasikan pada program studi teknik informatika universitas tanjungpura
+informasi, jumlah dan jenis informasi yang ada juga semakin banyak
+tidak jarang pula informasi tersebut saling berkaitan satu dengan yang lainnya
+informasi tersebut dapat dituangkan dalam beberapa media seperti media cetak, media elektronik maupun melalui website portal akademik
+web portal adalah website yang menjadi pintu gerbang, starting point bagi pengunjung untuk memulai aktivitasnya di internet web portal yang bersifat horizontal menyediakan berbagai informasi dan layanan umum
+sedangkan portal vertical menyediakan informasi dan layanan yang spesifik untuk bidang tertentu saja, sehingga bisa bersifat personal bagi pengunjungnya
+merancang sebuah website portal sangat berguna bagi personal maupun instansi guna untuk memberikan suatu informasi yang berhubungan dengan personal maupun instansi itu sendiri
+sebagai contoh yaitu penggunaan website portal pada salah satu program studi yang ada di universitas ii
+portal akademik untuk informasi bisnis di dalam atau di luar organisasi
+portal secara umum dapat diartikan sebagai sebuah penghubung yang mengintegrasikan antara satu bagian ke bagian yang lain dan dapat juga sebagai pintu gerbang bagi pengunjung untuk memulai aktifitas internetweb service adalah layanan pertukaran data melalui web

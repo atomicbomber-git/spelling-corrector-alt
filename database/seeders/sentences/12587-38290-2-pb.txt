@@ -1,0 +1,68 @@
+petukaran data yang terjadi secara offline maupun online sangat rentan dengan ancaman pencurian data
+kombinasi caesar dan affine cipher diharapkan mampu untuk menangani isu keamanan data
+caesar cipher bekerja dengan memanfaatkan pergeseran atau dikenal dengan shift cipher sementara affine cipher bekerja dengan menggunakan kunci dua buah bilangan integer
+kombinasi dua buah algoritma ini mampu mengamankan data dan mengembalikan kembali ke bentuk aslinya, sehingga tidak menyebabkan integritas datanya hilang
+pengiriman pesan melalui jaringan komputer.salah satu bentuk komunikasi adalah dengan menggunakan tulisan
+ada banyak informasi yang dapat disampaikan melalui tulisan dan terkadang dalam teks tersebut terdapat informasi yang bersifat rahasia
+terdapat beberapa cara dan teknik tertentu yang dapat digunakan
+salah satunya dengan kriptografi yang berfungsi untuk menyamarkan pesan menjadi bentuk pesan tersandi
+caesar cipher merupakan salah satu algoritma cipher tertua dan merupakan salah satu jenis cipher substitusi yang membentuk cipher dengan cara melakukan pergeseran terhadap semua karakter pada plainteks dengan nilai pergeseran yang sama
+kelemahan caesar cipher adalah kita bias memperoleh pesan asli dengan memanfaatkan metode brute force dan presentasi frekuensi huruf yang paling sering muncul dalam suatu kalimat
+affine cipher adalah perluasan dari metode caesar cipher yang mengalikan pesan asli dengan sebuah nilai integer dan menambahkannya dengan sebuah pergeseran dinyatakan dengan fungsi kongruen
+uraian penelitian kumpulan dari fungsi enkripsi dan dekripsi yang berkoresponden terhadap kunci enkripsi dan dekripsi
+menurut katz, kriptografi adalah studi ilmiah atau teknik untuk mengamankan informasi digital, transaksi, dan komputasi yang terdistribusi
+nirpenyangkalan atau menyangkal atas data yang telah dikirim atau diterima
+kriptografi memiliki beberapa istilah atau terminologi yang penting untuk diketahui antara lain: 1
+pengirim dan penerima gangguan dari penyadap 
+penerima adalah entitas yang menerima pesan dari pengirim
+kembali dari ciphertext menjadi plaintext adalah dekripsi 
+seseorang yang mempelajari dan menggunakan metode kriptografi untuk mengamankan pesan dinamakan kriptografer
+sebaliknya, metode yang menggunakan teknik komputasi matematika untuk menyerang metode kriptografi dinamakan kriptanalis, dan orang yang mempelajari kriptanalisis dinamakan kriptanalis
+orang yang mempelajari kriptologi tersebut dinamakan kriptologis
+cipher menyelesaikan persoalaan cipher, dibutuhkan sebuah entitas yang disebut dengan kunci 
+kunci mempunyai nilai bilangan yang sangat besar
+besar kecilnya nilai ini dinamakan keyspace
+beberapa algoritma kriptografi menggunakan cipher dengan kunci yang berbeda antara kunci untuk enkripsi dan dekripsi
+penyadap mendapatkan informasi sebanyak-banyaknya dari pesan yang telah dikirim dan memecahkan ciphertext dari sistem kriptografi
+penyadap mempunyai akses komunikasi antara pengirim dan penerima
+dua bagian, antara lain: sistem kriptografi simetrik adalah sistem kriptografi dengan metode dekripsi pesan merupakan kebalikan dari metode enkripsinya
+a digantikan dengan f, b digantikan dengan g, c digantikan dengan h, dan seterusnya
+seperti contoh, sebuah pesan dengan metode enkripsinya adalah mengganti huruf dari pesan tersebut menjadi huruf baru yang mana merupakan lima langkah setelah huruf kata tersebut, maka metode dekripsinya adalah mengembalikan huruf-huruf ciphertext tersebut sebanyak lima langkah sebelumnya
+pada umumnya, pengirim dan penerima pada sistem kriptografi simetrik mempunyai kunci yang identik
+contoh : caesar cipher, affine cipher, vigenere cipher dll
+sistem kriptografi asimetrik asymmetric cryptosystem atau yang disebut dengan public key cryptograhy adalah sistem kriptografi yang mana mempunyai dua kunci yang berbeda dan unik satu dengan lainnya
+satu dari dua kunci tersebut dipublikasikan umum untuk mengenkripsikan pesan disebut dengan kunci publik dan satu kunci lainnya dirahasiakan untuk mendekripsikan pesan disebut kunci privat 
+contoh dari sistem ini antar lain rivest-shamir-adleman, diffie-helman, dan elgamal
+proses enkripsi dan dekripsi diperlihatkan pada gambar 2
+gambar 2 proses enkripsi dan dekripsi asymmetric cryptosystemb
+caesar cipher pada waktu waktu pemerintahan julius caesar dikenal dengan caesar cipher, yakni mengganti posisi huruf awal dari alphabetcaesar cipher juga dikenal dengan nama shift cipher
+dari gambar 3 menunjukkan terjadi pergeseran 3 yaitu b berubah menjadi e, c menjadi f dan a menjadi c dan seterusnya.caesar cipher dapat dipecahkan dengan cara brute force, yaitu suatu bentuk serangan yang mencoba kemungkinan – kemungkinan untuk menemukan kunci
+affine cipher sebuah nilai dan menambahkannya dengan sebuah pergeseran 
+p menghasilkan cipherteks c dinyatakan dengan fungsi kongruen: pada proses enkripsi
+proses dekripsi menggunakan persamaan 2 di bawah ini : a adalah bilangan bulat yang harus relatif prima dengan 26
+dengan kata lain great common divisior gcd harus sama dengan 1
+pergeseran karakter, sehingga dapat dipecahkan dengan menggunakan brute force
+karena di bahasa indonesia kita tahu huruf yang paling sering muncul adalah a
+maka g yang memiliki frekuensi kemunculan 2 kali kita ganti dengan a
+jika g mengacu ke a maka kunci pergeserannya dari a ke g adalah 6
+lalu kita geser mundur pesan sisanya yaitu y dan e sebanyak 6, sehingga diperoleh pesan saya
+kombinasi caesar dan affine cipher bekerja dengan cara mengenkripsi pesan terlebih dahulu dengan caesar selanjutnya hasil dari caesar cipher dienkripsi lagi dengan affine cipher, sehingga pola kemunculan statistika dari pesan tidak dapat dideteksi e
+inversi modulo jika a dan m relatif prima dan m > 1, maka inversi dari a mod m dapat ditemukan
+inversi dari a, disebut juga inversi perkalian, di mana bilangan bulat a-1 sedemikian sehingga himpunan divisor dua bilangan integer
+dua bilangan dapat saja memiliki beberapa elemen divisor yang sama namun hanya satu yang terbesar
+misalnya, divisor 15 = { 1, 3, 5, 15 } dan divisor 45 = { 1, 3, 5, 9, 15, 45 }, maka himpunan divisor kedua bilangan tersebut ialah { 1, 3, 5, 15 } dan yang terbesar ialah 15
+dengan kata lain, faktor persekutuan terbesar 15 dan 45 dapat dinotasikan sebagai gcd = 15
+hasil dan pembahasan cipher dengan menggunakan kombinasi caesar cipher dan affine cipher maka membutuhkan 3 buah bilangan integer misalkan 
+1 buah bilangan digunakan untuk penentuan pergeseran pada caesar cipher dan dua buah bilangan digunakan pada affine cipher 
+contoh : terdapat pesan plainteks ilmukomputer dengan kunci x = 9, a = 7 dan k = 10 maka langkah yang harus dikerjakan adalah : sehingga menghasilkan ruvdtxvydcna 
+lalu dengan memetakan alphabet a = 0 hingga z =25 diperoleh nilai r = 17
+sehingga r berubah menjadi + 10 mod 26 = 25 
+langkah ini dilakukan terus menerus hingga karakter terakhir dalam string
+hasil akhirnya diperoleh cipherteks zubfnpbwfyxk langkah 1 dan 2 ini disebut proses enkripsi pada kriptografi yaitu penyandian pesan
+sehingga nilai z= 25 dengan menggunakan rumus dekripsi affine cipher menjadi 7 -1 dengan menggunakan invers modulo 26 menjadi 15
+sehingga perhitungan berubah menjadi 15 x mod 26 = 17
+langkah ini dilakukan terus menerus hingga karakter terakhir dalam string
+kesimpulan/ringkasan membantu meningkatkan keamanan data, jika dibandingkan hanya dengan menggunakan satu buat metode saja
+penggunaan angka 26 mengakibatkan karakter yang dapat diproses hanya a hingga z dan berlaku noncase sensitive
+pengkombinasian kedua metode tersebut mampu mengembalikan pesan ke dalam bentuk semula sehingga isi pesan asli tidak mengalami perubahan
+jika nilai a tidak relative prima dengan 26 maka metode affine cipher tidak dapat digunakan

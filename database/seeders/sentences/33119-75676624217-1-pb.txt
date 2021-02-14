@@ -1,0 +1,21 @@
+eee paper template in a4 vol 6 no 1 april 2020 penyusunan file fingerprint untuk berkas jpeg/exif dengan hash function sha512 dan algoritma boyer-moore string matching rachmad fitriyanto#1, anton yudhana*2, sunardi*3 #magister teknik informatika, universitas ahmad dahlan, yogyakarta jl
+umbulharjo, kota yogyakarta, daerah istimewa yogyakarta 1fitriyanto7477@gmail.com *program studi teknik elektro, universitas ahmad dahlan yogyakarta jl
+umbulharjo, kota yogyakarta, daerah istimewa yogyakarta 2yudhana@ee.uad.ac.id 3sunardi@mti.uad.ac.id digunakan untuk pendeteksian keutuhan data
+file fingerprint merupakan konsep sidik jari yang disusun berdasarkan konten dari dokumen digital penelitian ini bertujuan untuk menyusun file fingerprint dari berkas jpeg/exif yang dapat digunakan untuk mendeteksi terjadinya modifikasi pada berkas
+penyusunan file fingerprint dilakukan dalam lima tahap
+tahap pertama adalah identifikasi struktur berkas jpeg/exif menggunakan algoritma boyer-moore string matching untuk menentukan indeks lokasi segmen jpeg/exif
+tahap kedua adalah akuisisi konten segmen
+tahap ketiga adalah penghitungan hash value menggunakan hash function sha512
+tahap keempat adalah pengujian modifikasi berkas jpeg/exif
+tahap kelima adalah penyusunan file fingerprint
+hasil yang diperoleh menunjukkan file fingerprint dari berkas jpeg/exif berasal dari tiga segmen, soi, app1 dan sof0
+hash value dari segmen soi digunakan untuk mendeteksi modifikasi dalam bentuk konversi tipe berkas dan penambahan objek pada gambar
+hash value dari segmen app1 untuk mendeteksi modifikasi pada metadata
+hash value dari segmen sof0 untuk mendeteksi modifikasi dalam bentuk resizing, recoloring dan cropping
+berkas file fingerprint yang dihasilkan memiliki ukuran rata-rata 0, 017% dari ukuran berkas gambar dari smartphone asus z00ud dan 0, 015% dari ukuran berkas gambar dari smartphone samsung galaxy a5
+pendahuluan digunakan dalam komunikasi digital saat ini
+tipe berkas ini merupakan berkas gambar yang dihasilkan dari pemakaian kamera digital seperti pada smartphone
+metode pengamanan komunikasi untuk berkas jpeg/exif umumnya hanya bersifat pencegahan
+teknik umum pengamanan dokumen jpeg/exif dilakukan menggunaan password dan enkripsi
+kedua teknik tersebut bertujuan untuk mencegah pihak lain untuk memodifikasi berkas
+teknik lain seperti watermark dalam penelitian

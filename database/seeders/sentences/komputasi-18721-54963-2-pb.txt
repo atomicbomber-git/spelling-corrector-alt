@@ -1,0 +1,47 @@
+eries pada aplikasi helpdesk inventaris perangkat teknologi informasi miftakhuddin nur saleh 1, m
+azhar irwansyah 2 nilai suatu data pada peristiwa yang akan terjadi
+helpdesk merupakan sistem manajemen yang dapat membantu menangani kebutuhan user terkait dengan pertanyaan, pelayanan, dukungan teknis, atau keluhan terhadap layanan suatu organisasi
+metode peramalan kualitatif biasanya menggunakan pendapat para ahli untuk memperkirakan kejadian di masa yang akan datang, sehingga hasil yang diperoleh sangat subjektif
+metode ini digunakan ketika data di waktu lampau sangat sulit diperoleh, memerlukan waktu yang banyak, dan biaya yang digunakan sangat mahal sedangkan metode peramalan kuantitatif sangat beragam dan setiap metode memiliki sifat, ketepatan, dan biaya tertentu yang harus dipertimbangkan dalam memilih model tertentu
+metode ini formal didasarkan atas prinsip statistik yang memiliki ketepatan tinggi atau dapat meminimumkan kesalahan
+logika fuzzy merupakan logika yang kabur, atau mengandung unsur ketidakpastian
+metode time series digunakan untuk meramalkan data yang berdasarkan data masa lalu dalam jangka waktu yang panjang
+fuzzy time series merupakan salah satu metode soft computing yang telah digunakan dan diterapkan dalam analisis data runtun waktu
+berdasarkan histori data-data keluhan tersebut, maka bisa dilakukan peramalan keluhan dari inventaris perangkat teknologi informasi tersebut menggunakan metode fuzzy time series dengan melibatkan pengambilan data masa lalu yang berupa pengkategorian keluhan secara runtutan waktu dan menempatkannya ke masa yang akan datang, sehingga dapat dipersiapkan kebijakan atau tindakan-tindakan yang perlu dilakukan oleh perusahaan
+implementasi peramalan memberikan informasi perhitungan peramalan jumlah keluhan software dan hardware perangkat ti periode berikutnya dengan nilai keakuratan hasil perbandingan peramalan yang berbeda
+untuk uji coba perhitungan peramalan keluhan software dengan panjang interval 4 dan 5, serta perhitungan peramalan keluhan hardware dengan panjang interval 2 masih masuk dalam batas nilai toleransi afer, sedangkan perhitungan peramalan keluhan hardware dengan panjang interval 5 berada diluar batas nilai toleransi afer
+hasil dari pengujian user acceptance test melalui kuesioner, implementasi metode fuzzy time series ini dapat membantu pihak terkait ipc dalam melakukan peramalan keluhan perangkat ti di ipc terminal peti kemas perwakilan pontianak pada periode berikutnya, tetapi masih terdapat nilai perhitungan peramalan yang kurang tepat
+pendahuluan peramalan merupakan bagian awal dari suatu proses pengambilan suatu keputusan dan sangat dibutuhkan dalam kehidupan sehari-hari untuk menentukan kapan suatu peristiwa atau besarnya nilai suatu data pada peristiwa yang akan terjadi
+seperti pada kerusakan perangkat teknologi informasi, membuat rencana untuk masa yang akan datang adalah yang harus dipikirkan oleh perusahaan yang bersangkutan
+melihat availability dan reliability inventaris perangkat ti menjadi aspek penting bagi perusahaan yang menerapkan kegiatan operasionalnya secara terkomputerisasi
+kedua aspek tersebut menjaga kinerja perusahaan agar dalam keadaan yang ideal availability dan reliability sangat erat kaitannya dengan kegiatan maintenance
+salah satu faktor lancarnya kegiatan maintenance adalah tersedianya helpdesk yang baik dan kompeten
+helpdesk merupakan sistem manajemen yang dapat membantu menangani kebutuhan user terkait dengan pertanyaan, pelayanan, dukungan teknis, atau keluhan terhadap layanan suatu organisasi
+kemudian menduga berdasarkan faktor-faktor lingkungan yang ada, lalu memilih tindakan yang diharapkan dapat menghasilkan pencapaian sasaran dan tujuan tersebut
+hal ini menjadikan kebutuhan akan peramalan meningkat seiring dengan keinginan manajemen untuk mengurangi ketergantungan terhadap hal-hal yang belum pasti pada beberapa bagian penting
+beberapa bagian penting tersebut diantaranya penjadwalan sumber daya yang tersedia, penyediaan sumber daya tambahan, dan penentuan sumber daya yang diinginkan
+peramalan jumlah keluhan terhadap perangkat komputer pada perusahaan tentunya akan dapat membantu menentukan penjadwalan sumber daya yang dibutuhkan di masa mendatang
+pendapat para ahli untuk memperkirakan kejadian di masa yang akan datang, sehingga hasil yang diperoleh sangat subjektif
+metode ini digunakan ketika data di waktu lampau sangat sulit diperoleh, memerlukan waktu yang banyak, dan biaya yang digunakan sangat mahal sedangkan metode peramalan kuantitatif sangat beragam dan setiap metode memiliki sifat, ketepatan, dan biaya tertentu yang harus dipertimbangkan dalam memilih model tertentu
+metode ini formal didasarkan atas prinsip statistik yang memiliki ketepatan tinggi atau dapat meminimumkan kesalahan
+berdasarkan uraian latar belakang diatas, penulis tertarik untuk meneliti tentang implementasi peramalan menggunakan metode fuzzy time series pada aplikasi helpdesk inventaris perangkat ti di ipc terminal peti kemas perwakilan pontianak yang diterapkan dalam hal ini kasus peramalan kerusakan hardware dan software komputer
+helpdesk helpdesk pada dasarnya adalah sebuah center point dimana masalah atau issue dilaporkan dan diatur secara terurut dan diorganisasikan
+dari perspektif umum, helpdesk merupakan bagian pelengkap dari sebuah fungsi pelayanan, dan bertanggung jawab sebagai sumber dari pemecahan masalah atau issue lainnya
+peramalan peramalan merupakan bagian awal dari suatu proses pengambilan suatu keputusan dan sangat dibutuhkan dalam kehidupan sehari-hari untuk menentukan kapan suatu peristiwa atau besarnya nilai suatu data pada peristiwa yang akan terjadi
+peramalan memprediksi nilai-nilai sebuah peubah berdasarkan kepada nilai yang diketahui dari peubah tersebut atau peubah yang berhubungan
+meramal juga dapat didasarkan pada keahlian judgment, yang pada gilirannya didasarkan pada historis dan pengalaman
+logika fuzzy dalam bahasa inggris, fuzzy mempunyai arti kabur atau tidak jelas
+jadi, logika fuzzy adalah logika yang kabur, atau mengandung unsur ketidakpastian
+pada logika biasa, yaitu logika tegas, kita hanya mengenal dua nilai, salah atau benar, 0 atau 1
+sedangkan logika fuzzy mengenal nilai antara benar dan salah
+kebenaran dalam logika fuzzy dapat dinyatakan dalam derajat kebenaran yang nilainya antara 0 sampai 1
+berdasarkan variabel bahasa, yang dinyatakan dengan fungsi keanggotaan, dalam semesta u
+keanggotaan suatu nilai pada himpunan dinyatakan dengan derajat keanggotaan yang nilainya antara 0.0 sampai 1.0
+himpunan fuzzy didasarkan pada gagasan untuk memperluas jangkauan fungsi karakteristik sedemikian hingga fungsi tersebut akan mencakup bilangan real pada interval [0, 1]
+nilai keanggotaannya menunjukkan bahwa suatu item tidak hanya bernilai benar atau salah
+nilai 0 menunjukkan salah, nilai 1 menunjukkan benar, dan masih ada nilai-nilai yang terletak antara benar dan salah
+defuzzyfikasi defuzzyfikasi merupakan kebalikan dari fuzzyfikasi, yaitu pemetaan dari himpunan fuzzy ke himpunan tegas
+input dari proses defuzzyfikasi adalah suatu himpunan fuzzy yang diperoleh dari komposisi aturan fuzzy
+hasil dari defuzzyfikasi ini merupakan output dari sistem kendali logika fuzzy
+time series fuzzy time series adalah metode peramalan data yang menggunakan prinsip-prinsip fuzzy sebagai dasarnya
+sistem peramalan dengan fuzzy time series menangkap pola dari data yang telah lalu kemudian digunakan untuk memproyeksikan data yang akan dating

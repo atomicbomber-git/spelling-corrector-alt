@@ -1,0 +1,14 @@
+criminality is human action that is in violation of or contrary to what is specified in the rule of law
+various forms of acts of criminality have been so rampant and troubling a lot of people in daily life
+the most frequent cases occurred in the city of pontianak was vehicle theft, the theft with the qualification and theft with violence
+the number of cases increases which occurred in the town of pontianak was almost entirely only note without visualize into digital form to be processed
+this research aims to help the police in watching the level of criminality through spatial data or non- spatial data, so that it can control the area prone to criminality and crime-prone areas to provide information, for the public can be informed in anticipation of the crime-prone areas
+the analysis is carried out using methods for small area estimation and empirical bayes to process data indicators and grouping the results the eb so can determine the priority of their respective district
+system designed can help keep an eye on the level of criminality in the police force and can become information for the general public so that it can better anticipate crime-prone areas
+kriminalitas sudah demikian merebak dan meresahkan banyak orang dalam kehidupan sehari-hari, untuk wilayah kota pontianak sendiri, kasus yang paling sering terjadi adalah kasus pencurian
+berdasarkan kasus pencurian yang sering terjadi adalah pencurian kendaraan bermotor, memvisualisasikannya ke dalam bentuk perlu dibuat suatu sistem informasi yang dapat membantu pihak kepolisian kriminalitas
+teknologi yang dapat, dimana sistem ini mampu untuk mengumpulkan, menyimpan, memanipulasi, seiring dengan perkembangan teknologi informasi khususnya sistem informasi perkembangan sig yang dinamakan sig web atau disebut juga sig berbasis web
+dengan adanya data-data baik spasial maupun non spasial tindak kriminlitas, sistem informasi geografis dapat mengolahnya, untuk kemudian dapat pada peta
+daerah yang dimaksud adalah per kecamatan yang ada di kota pontianak
+untuk dapat lebih membantu dalam menganalisis data spasial dan non spasial serta membantu menentukan daerah rawan kriminalitas, maka dapat digunakan suatu metode yaitu pendugaan area kecil atau menduga parameter-parameter sub populasi didefinisikan sebagai himpunan bagian dari populasi dimana suatu peubah menjadi perhatian
+istilah merupakan bagian sehingga timbul istilah yang ketiga, yaitu geospasial ketiga istilah ini mengandung pengertian yang sama dalam kontek sig

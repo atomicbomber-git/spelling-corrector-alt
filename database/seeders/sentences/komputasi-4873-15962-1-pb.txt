@@ -1,0 +1,185 @@
+there are two ways to build a diskless network based on linux operating system, diskless remote boot in linux and linux terminal server project 
+this research was done to both method by implement it to the computer network in informatical engineering’s laboratory of tanjungpura university
+this research aimed to build a diskless network by using both method, drbl and ltsp, then compare the server performance, in this case is the comparison of processor and memory performance to find which method is best to use in informatical engineering’s laboratory of tanjungpura university
+this research using litterature study method and deep analysis about anything related to drbl and ltsp so that it can be implement in the computer network in informatical engineering’s laboratory of tanjungpura university
+those include schematic plan of the diskless network that will be use, how the drbl and ltsp work and analysis to whom will be the user of the diskless network
+based on the research data, it can be seen that the processor’s work loadin the drbl server in not affected by the use of application in client eventhough the number of the client connected to the drbl was increasing
+the opposite thing happened to the work load of drbl server memory
+there was an increasing of the memory work load as the use of many applications/software by the client in the drbl network
+in the ltsp, the processor’s work load was affected by the use of application in ltsp client
+as the processor’s work load increased, the memory work load was also affected by the number of client and varian of application used by client
+problem founded in the drbl was the client computer and the low vga resource in the drbl which can’t display the operating system desktop interface ubuntu
+meanwhile in the ltsp, there was no problem with the client computer and the low vga resource
+conslusion, the most suitable diskless network to be use in the informatical engineering’s laboratory of tanjungpura university is ltsp method, compared to the drbl, because the ltsp can optimize the client computer with low vga resource which mostly used in informatical engineering’s laboratory of tanjungpura university
+pendahuluan pemanfaatan komputer dewasa ini tidak hanya sebagai sebuah unit yang berdiri sendiri, tetapi juga sebagai sebuah bagian dari suatu jaringan besar yang disebut internet internet merupakan sistem global dari seluruh jaringan komputer yang saling terhubung menggunakan standar internet protocol suite yang memungkinkan terjadinya komunikasi data diantara komputer-komputer yang terhubung di dalamnya
+dalam lingkup yang lebih kecil pemanfaatan jaringan komputer biasanya digunakan pada kantor, warnet, sekolah, laboratorium dan sebagainya
+jaringan komputer dibuat untuk menghubungkan komputer- komputer yang ada pada tempat-tempat tersebut sesuai dengan fungsinya masing-masing
+di laboratorium teknik informatika universitas tanjungpura, jaringan komputer dibuat dengan konsep jaringan peer-to-peer dan tidak memanfaatkan teknologi jaringan diskless
+satu hardware seperti printer bisa diakses dan digunakan setiap komputer yang ada dalam jaringan tersebut
+dengan adanya jaringan tersebut komputer-komputer yang ada di laboratorium dapat saling terhubung sehingga memudahkan para mahasiswa untuk berbagi data, berkomunikasi dengan pengguna lainnya dalam jaringan yang sama dan dapat dikembangkan untuk berbagi hardware 
+meskipun memiliki sejumlah keuntungan seperti yang telah disebutkan, jaringan komputer dengan konsep tersebut juga memiliki beberapa kerugian diantaranya adalah troubleshooting jaringan relatif sulit, sistem keamanan jaringan mudah terekspos dan backup data yang tersebar sehingga menyulitkan manajemen data
+selain itu jaringan yang tidak menggunakan teknologi diskless tentu tidak efesien dalam hal biaya perawatan jaringan dan biaya penambahan jumlah komputer pada jaringan komputer laboratorium teknik informatika untan
+untuk mengatasi hal tersebut maka diperlukan pengembangan jaringan komputer client server pada laboratorium tersebut dengan teknologi jaringan diskless
+pengertian jaringan diskless mengacu pada jaringan yang hanya terdapat satu media penyimpanan harddisk, yaitu komputer server, sedangkan komputer client tidak disediakan
+namun, komputer client dapat menjalankan sistem layaknya mempunyai harddisk
+dengan demikian, proses yang berjalan di server juga akan berjalan di client
+mengacu pada kemampuan seperti yang telah disebutkan, jaringan diskless memiliki kelebihan dalam pembangunan jaringannya yaitu: 1
+mengurangi beban biaya perawatan sistem pada jaringan dengan banyak terminal 3
+peningkatan keamanan dimana jaringan dikendalikan cukup dari server-nya saja
+penggunaan komputer pada tempat-tempat dimana menggunakan harddisk merupakan suatu hal yang riskan
+mengurangi waktu instalasi program karena server bertindak sebagai media penyimpanan terpusat
+untuk membangun jaringan diskless sendiri terdapat berbagai macam metode
+fokus metode pada tulisan ini menggunakan os linux sebagai os utamanya
+metode yang akan digunakan adalah drbl dan ltsp 
+penelitian difokuskan kepada kedua metode tersebut karena kemiripan diantara keduanya yang merupakan metode untuk membangun jaringan diskless
+perbandingannya akan dilihat dari performa server yang meliputi kecepatan processor dan memory server dalam menangani proses yang terjadi dalam jaringan kedua metode tersebut
+diharapkan, dengan penelitian ini dapat menghasilkan sebuah kesimpulan metode yang paling cocok untuk diimplementasikan pada jaringan komputer laboratorium teknik informatika untan
+hal ini akan bermanfaat pada peningkatan efesiensi jaringan komputer di laboratorium teknik informatika untan sekaligus sebagai sarana untuk mengembangkan pembelajaran linux os sebagai salah satu alternatif os selain windows os
+teori dasar 2.1 sistem operasi jaringan linux menurut prakoso sistem operasi jaringan adalah sebuah jenis sistem operasi yang ditujukan untuk menangani jaringan
+umumnya, sistem operasi ini terdiri atas banyak layanan atau service yang ditujukan untuk melayani pengguna, seperti layanan berbagi berkas, layanan berbagi alat pencetak, dns service, http service, dan lain sebagainya
+sistem operasi jaringan telah banyak dikembangkan oleh berbagai perusahaan maupun perorangan sehingga terdapat banyak jenis dari sistem operasi jaringan itu sendiri
+berikut ini adalah contoh dari berbagai macam sistem operasi jaringan: 1
+microsoft windows 2
+sansolaris dari berbagai macam sistem operasi jaringan tersebut yang akan dibahas pada penulisan ini adalah sistem operasi jaringan linux
+pemilihan linux dilakukan berdasarkan beberapa pertimbangan yang akan dibahas pada tulisan selanjutnya
+2.2 jaringan komputer diskless komputer diskless adalah sebuah komputer yang tidak dilengkapi dengan media penyimpanan, yang dalam hal ini adalah harddisk, cdrom, atau lainnya, tetapi mampu untuk booting dan mengaktifkan sistem operasi sehingga komputer tersebut hanya dapat digunakan untuk keperluan sehari-hari seperti layaknya komputer dengan media penyimpanan 
+dari definisi di atas dapat diambil kesimpulan jaringan komputer diskless adalah jaringan yang tersusun dari komputer-komputer diskless dan dapat berfungsi sebagaimana layaknya jaringan komputer normal hal tersebut dapat terjadi karena semua proses pada jaringan komputer diskless dikerjakan di sisi server
+hal tersebut dikenal dengan istilah centralized processing
+mekanisme kerja jaringan komputer diskless sebenarnya merupakan mekanisme client-server dimana dalam hal ini komputer client dianggap tidak mempunyai harddisk
+dengan demikian, untuk mendapatkan file system server, komputer client menggunakan nomor unik 
+protokol yang digunakan untuk menerjemahkan alamat hardware ke ip address adalah bootp dan dhcp 
+dengan demikian, sebelumnya komputer client diskless harus terdaftar dalam suatu database
+ketika proses dhcp atau bootp dijalankan, server akan memeriksa komputer client apakah sudah terdaftar di dalam database dhcp tersebut atau belum
+jika sudah terdaftar maka server akan memberikan alamat ip, hostname, netmask, dan informasi-informasi lainnya
+selanjutnya komputer client harus men-download kernel yang terletak di server
+ketika kernel berhasil di- download, kernel kemudian melakukan inisialisasi perangkat keras komputer client yang dimiliki
+akhirnya, komputer client membutuhkan file system root
+untuk itu protokol nfs diperlukan
+dengan nfs komputer client dapat menjalankan sistem server melalui jaringan
+sebenarnya, proses tersebut berjalan di server namun output-nya di komputer client
+secara sederhana, komputer client hanya menjalankan system operasi yang telah di-download dengan bantuan protokol tftp sedangkan file system server tetap di server namun output-nya di client
+2.2.1 diskless remote boot in linux drbl adalah sebuah metode diskless yang berbasis open source
+drbl merupakan solusi untuk memanajemen sistem operasi linux pada banyak klien
+dengan menggunakan drbl dapat menghemat banyak waktu yang digunakan untuk melakukan konfigurasi kepada banyak klien
+cukup dengan menginstall pada satu server maka dapat mengkonfigurasi seluruh klien
+drbl menyediakan lingkungan tanpa harddisk atau tanpa sistem bagi klien
+drbl dapat bekerja pada debian, ubuntu, mandriva, red hat, fedora, centos dan suse
+drbl menggunakan pxe/etherboot, nfs dan nis untuk menyediakan layanan pada mesin klien sehingga tidak memerlukan instalasi linux pada hard drive masing-masing klien 
+pada saat server dapat dijadikan drbl server, mesin klien dapat dihidupkan melalui pxe/etherboot
+untuk menjalankan drbl tidak perlu menggunakan harddisk sehingga sistem operasi yang lain yang telah terinstal sebelumnya pada komputer fat client tidak akan terpengaruh
+hal ini sungguh sangat berguna ketika user masih menginginkan ada sistem operasi lain yang terinstal di komputer klien sehingga terdapat pilihan dual booting di komputer tersebut
+2.2.2 linux terminal server project ltsp adalah sebuah set metode yang memungkinkan komputer dengan spesifikasi rendah terhubung ke pusat server
+pengguna dari komputer- komputer yang di-remote dapat login ke server dan menggunakan aplikasi yang ada di server, atau menjalankan aplikasi secara lokal pada klien 
+ltsp adalah sebuah proyek yang dimulai oleh james a
+mcquillan sebagai proyek jaringan komputer diskless berbasiskan sistem operasi gnu/linux
+disebut jaringan komputer diskless, karena client atau workstation tidak dilengkapi dengan media penyimpanan tetap
+teknologi ini makin populer karena dapat menghemat sumber daya hardware
+2.3 perancangan jaringan berdasarkan studi literatur dan pemahaman sistem, tahapan selanjutnya adalah melakukan perancangan jaringan yang cocok untuk diterapkan berdasarkan kondisi lingkungan di laboratorium teknik informatika untan
+perancangan tersebut meliputi topologi jaringan dan alat- alat yang digunakan untuk membangun jaringan
+jaringan yang dirancang nantinya akan digunakan untuk kedua metode diskless baik drbl maupun ltsp
+hal tersebut bertujuan untuk menciptakan kondisi lingkungan yang sama pada pengujian kedua metode tersebut
+2.3.1 sistem jaringan drbl sistem jaringan drbl yang akan diterapkan pada salah satu kelas di laboratorium teknik informatika untan akan menggunakan topologi star
+dalam topologi ini akan digunakan satu buah server dan 15 client yang terhubung pada satu buah switch
+transportasi data antara server dan client akan melewati switch fast ethernet sehingga kecepatan transfer datanya sesuai dengan kecepatan transfer yang digunakan oleh sistem jaringan drbl agar sistem jaringan tersebut dapat berfungsi
+skema topologi sistem jaringan drbl akan disamakan dengan topologi sistem jaringan ltsp
+skema topologi tersebut dapat dilihat pada gambar 2.1
+gambar 2.1 skema topologi jaringan drbl dan ltsp sistem jaringan drbl menggunakan pxe/etherboot, nfs, dan nis untuk memberikan layanan kepada komputer client sehingga tidak diperlukan instalasi gnu/linux pada harddrive komputer client secara individual setelah server siap untuk menjadi server drbl, komputer client dapat melakukan booting melalui pxe/etherboot
+drbl tidak mempengaruhi harddisk yang terdapat pada komputer client
+oleh karena itu, sistem operasi lainnya yang sudah terinstal pada komputer client sebelumnya tidak akan terpengaruh
+hal tersebut sangat berguna bilamana pengguna masih ingin memiliki pilihan untuk booting ke sistem operasi lainnya dan menjalankan beberapa aplikasi yang hanya tersedia pada sistem operasi tersebut
+cara kerja sistem jaringan drbl dapat dilihat pada gambar 2.2
+gambar 2.2 cara kerja drbl 2.3.2 sistem jaringan ltsp seperti yang telah disebutkan pada subbab sebelumnya, sistem jaringan ltsp yang akan diterapkan pada salah satu kelas di laboratorium informatika untan juga akan menggunakan topologi star
+penggunaan topologi yang sama dimaksudkan agar perbandingan diantara kedua metode tersebut dapat menghasilkan data yang lebih valid
+sistem jaringan ltsp menggunakan server untuk memberikan fasilitas identifikasi, sistem operasi, aplikasi, penyimpanan data dan display manager kepada client, sehingga komputer client dapat memiliki sistem operasi dan aplikasi yang sama dengan servernya
+cara kerja ltsp dapat dilihat pada gambar 2.3
+gambar 2.3 cara kerja ltsp 2.4 implementasi jaringan setelah perancangan jaringan selesai, hasil rancangan tersebut akan di-implementasikan di salah satu kelas laboratorium teknik informatika untan
+hasil rancangan tersebut berupa sebuah jaringan diskless yang menggunakan metode drbl dan ltsp dengan proses kerjanya masing-masing
+2.4.1 proses kerja ltsp berikut adalah proses yang terjadi pada komputer client dan server pada saat ltsp dijalankan
+pada saat komputer client melakukan booting dari lan card, client akan meminta ip address dari ltsp server melalui protokol dhcp, dhcp akan membaca file konfigurasi dhcp.conf yang berada pada /etc/ltsp/dhcp.conf
+setelah client mendapatkan ip address dari protocol dhcp, server kemudian memuat linux kernel dengan menggunakan protokol trivial file transfer protokol yang telah berjalan pada services ltsp server
+pada saat bersamaan server akan melakukan mount filesystem baru yang dilakukan oleh protokol network file system 
+server akan membaca file konfigurasi lts.conf, jika pada file lts.conf terdapat konfigurasi sound maka daemon pulseaudio akan dijalankan
+client membangun saluran secure shell tunnel untuk berhubungan ke server ltsp display manager login manager
+gambar 2.4 diagram proses ltsp 2.4.2 proses kerja drbl berikut adalah proses yang terjadi pada komputer client dan server pada saat drbl dijalankan
+komputer client diatur untuk melakukan booting dari lan card dengan menggunakan pxe atau etherboot
+saat melakukan booting, client meminta alamat ip melalui dhcp, dan memuat linux kernel menggunakan tftp untuk melanjutkan proses booting
+kedua service tersebut disediakan oleh server drbl
+client melakukan booting awal pada ram yang disediakan oleh server drbl melalui tftp, dan melakukan mount nfs yang telah di-share sebagai partisi root-nya 
+dari sana, client melakukan booting sistem operasi linux melalui server drbl yang sudah di-instal proses booting tergantung pada bagaimana client dikonfigurasi pada server drbl
+gambar 2.5 diagram proses drbl 2.5 rancangan pengujian sistem jaringan komputer yang telah di- implementasikan akan diuji dengan serangkaian pengujian
+pengujian dilakukan terhadap server dari masing-masing metode jaringan diskless
+hal tersebut bertujuan untuk mendapatkan data mengenai performa server-nya
+performa server yang dimaksud di sini adalah kemampuan cpu dan memory server dalam menangani sejumlah client yang terkoneksi dalam jaringan
+kriteria lainnya yang digunakan untuk melihat performa server adalah durasi waktu booting sistem operasi pada client
+pengujian cpu dan memory server dilakukan dengan cara menggunakan aplikasi yang terdapat pada client
+penggunaan client dimulai dari satu client dan semakin meningkat sampai pada jumlah maksimal client yang bisa diuji
+untuk melihat kinerja cpu dan memory pada server digunakan program top
+program ini dijalankan pada sisi server dan untuk menjalankan program ini cukup dengan mengaktifkannya pada terminal console server dengan mengetik top
+sementara pengujian waktu booting sistem operasi dilakukan dengan cara menghidupkan client dimulai dari satu client dan semakin meningkat sampai pada jumlah maksimal client yang bisa diuji
+jumlah maksimal client yang akan diuji tergantung dari kapasitas memori pada komputer server yang menggunakan metode ltsp
+dalam metode ltsp, berlaku rumus kebutuhan minimal memori 256 + 
+256mb untuk memori server dan 192mb untuk memori masing-masing client
+dengan kapasitas memori server yang akan dirancang sebesar 4gb dan berdasarkan rumus tersebut maka jumlah maksimal komputer client yang dapat ditangani oleh komputer server adalah 19 buah komputer client
+jumlah komputer client yang menggunakan metode drbl akan disamakan dengan jumlah komputer client yang menggunakan metode ltsp
+hal ini bertujuan agar validitas data yang dihasilkan lebih terjamin
+hasil dari pengujian yang telah dilakukan akan dianalisis untuk mendapatkan informasi yang diinginkan
+data yang berhasil didapatkan dari hasil analisis nantinya akan dibandingkan sehingga informasi akhir yang didapatkan adalah metode jaringan diskless yang paling optimal untuk diterapkan di laboratorium teknik informatika untan
+untuk laporan lengkapnya mengenai pengujian dan analisis yang akan dilakukan akan dijelaskan pada bab selanjutnya
+hasil eksperimen 3.1 skema pengujian kinerja jaringan drbl dan ltsp skema pengujian dilakukan dengan cara melihat performa processor dan memory server terhadap jaringan komputer diskless yang menggunakan metode: 1
+diskless remote boot in linux drbl menggunakan nfs dan nis untuk menyediakan booting bagi client
+semua pengguna pada komputer client hanya mengakses server drbl untuk meminta file atau otentikasi
+paket sistem operasi dimuat ke komputer client untuk diproses menggunakan central processing unit dan random access memory dari komputer itu sendiri
+komputer dengan spesifikasi standar dapat digunakan sebagai server drbl karena hanya bertugas melayani permintaan file sistem operasi dan otentikasi
+komputer client harus mempunyai spesifikasi yang cukup kuat untuk menjalankan aplikasi yang dibutuhkan olehnya
+linux terminal server project ltsp adalah server terpusat dimana semua komputer client mengakses server ltsp untuk menjalankan aplikasi yang terdapat pada sistem operasi
+komputer client tidak membutuhkan processing unit karena pemrosesan data tidak terjadi pada sisi client
+komputer client hanya membutuhkan network card untuk mengakses server, keyboard dan mouse sebagai alat input dan monitor yang digunakan untuk menampilkan output
+spesifikasi komputer server harus ditingkatkan seiring dengan banyaknya jumlah client yang terkoneksi di dalam jaringan
+kedua metode di atas diuji coba dengan menggunakan empat jenis aplikasi
+keempat aplikasi tersebut adalah libre office, gimp, vlc dan lazarus
+aplikasi-aplikasi tersebut digunakan karena fungsinya yang sangat bermanfaat untuk kegiatan perkuliahan sehingga sering digunakan oleh mahasiswa di laboratorium teknik informatika untan
+untuk monitoringnya digunakan aplikasi top yang dijalankan pada server yang berfungsi untuk memonitor beban kerja processor dan memory server
+data yang dihasilkan dari kedua program tersebut yang nantinya akan digunakan sebagai dasar acuan perbandingan kinerja dari metode drbl dan ltsp
+tampilan program top dapat dilihat pada gambar 3.1
+gambar 3.1 tampilan aplikasi top kotak merah pada gambar menunjukkan data beban processor dan memory pada server
+data beban processor ditampilkan menggunakan satuan persen sementara data beban memory ditampilkan menggunakan satuan kilobytes 
+3.2 tabel perbandingan kinerja server drbl dan ltsp untuk melihat perbandingan kinerja processor server drbl dan ltsp secara keseluruhan akan ditampilkan pada tabel 3.1 dan 3.2
+untuk melihat perbandingan kinerja memory server drbl dan ltsp secara keseluruhan akan ditampilkan pada tabel 3.3 dan tabel 3.4
+tabel 3.1 penggunaan processor server drbl tabel 3.2 penggunaan processor server ltsp tabel 3.3 penggunaan memory server drbl tabel 3.4 penggunaan memory server ltsp 3.3 rangkuman proses pengujian dan analisis data hasil pengujian tabel 3.1 dan tabel 3.2 menunjukkan data kinerja processor server jaringan drbl dan ltsp
+data tersebut diperoleh dari pengujian yang dilakukan pada salah satu kelas di laboratorium informatika untan
+sebelum melakukan pengujian, perancangan topologi jaringan diskless yang telah dibuat sebelumnya diimplementasikan di laboratorium tersebut
+pengujian jaringan diskless kedua metode tersebut dilakukan menggunakan komputer server dan client dengan spesifikasi yang sama untuk menjaga akurasi data
+komputer client yang digunakan sebanyak 15 komputer dan 15 partisipan
+langkah-langkah pengujian dilakukan dengan mengoperasikan satu persatu komputer client dimulai dari satu komputer yang dioperasikan, lalu dua komputer dan bertahap seterusnya sampai dengan 15 komputer yang dioperasikan secara bersamaan
+saat komputer client dioperasikan, dilakukan monitoring terhadap kinerja processor komputer server dengan menggunakan sebuah software monitoring yaitu software yang bernama top
+pengoperasian komputer client pada saat pengujian menggunakan empat jenis software yang berbeda yaitu: 1
+lazarus seperti yang terlihat pada tabel, kondisi pengujian terbagi menjadi enam bagian
+dari masing-masing kondisi pengujian dihasilkan data yang menunjukan persentase beban kinerja processor pada komputer server
+pada tabel 3.1 terlihat tidak terdapat perubahan yang signifikan di berbagai jenis kondisi pengujian
+pada tabel 3.2 terlihat perbedaan yang kontras dengan tabel sebelumnya
+angka persentase kinerja processor mengikuti jenis kondisi pengujian dan jumlah komputer client yang terkoneksi dengan jaringan diskless
+dengan perbandingan data dari kedua tabel tersebut terlihat bahwa kinerja processor komputer server drbl tidak terpengaruh oleh kondisi pengujian dan jumlah komputer client yang terkoneksi dalam jaringan
+sebaliknya kinerja processor komputer server ltsp dipengaruhi oleh perubahan kondisi pengujian dan jumlah komputer client yang terkoneksi dalam jaringan
+pada tabel 3.3 dan tabel 3.4 diperlihatkan data kinerja memory server jaringan drbl dan ltsp
+untuk memperoleh data tersebut, tahapan pengujian yang dilakukan sama dengan tahapan pengujian untuk mendapatkan data kinerja processor komputer server
+monitoring beban kerja memory dilakukan bersamaan dengan monitoring beban kerja processor disaat proses pengujian menggunakan software top
+data pada tabel 3.3 menunjukan kinerja memory pada komputer server drbl dalam satuan mb 
+dari data tersebut dapat diketahui bahwa penggunaan memory pada server dipengaruhi oleh kondisi pengujian dan jumlah komputer client yang terkoneksi dalam jaringan
+data pada tabel 3.4 menunjukan kinerja memory pada komputer server ltsp dalam satuan mb
+pola yang ditunjukan oleh data tersebut sama dengan pola yang terdapat pada tabel sebelumnya yaitu kinerja memory dipengaruhi oleh kondisi pengujian dan jumlah komputer client yang terkoneksi dalam jaringan
+perbedaan kinerja memory dari kedua server tersebut hanya terletak pada kondisi awal pengujian disaat komputer server tidak menjalankan aplikasi apapun
+pada drbl, kinerja memory server saat terhubung dengan satu client relatif rendah yaitu 1029 mb
+tetapi angka tersebut melonjak menjadi 2.152 mb disaat komputer server terhubung dengan 15 client
+sementara pada ltsp, kinerja memory server saat terhubung dengan satu client relatif tinggi yaitu 1617 mb
+tetapi kinerja memory pada metode ltsp lebih stabil sehingga disaat komputer server terhubung dengan 15 komputer client angka kenaikannya lebih rendah daripada kenaikan kinerja memory server drbl yaitu 2.024 mb
+dari data tersebut menunjukan bahwa kinerja memory server pada metode ltsp lebih stabil dibandingkan dengan kinerja memory server pada metode drbl
+kesimpulan setelah melakukan analisis dan pengujian terhadap kedua metode jaringan diskless dan berdasarkan uraian pembahasan serta landasan teori yang digunakan, maka dapat ditarik kesimpulan bahwa metode jaringan diskless yang paling tepat diterapkan dalam lingkungan kelas di laboratorium teknik informatika untan adalah metode linux terminal server project dibanding metode diskless remote boot in linux 
+metode jaringan diskless ltsp tidak terpengaruh oleh resource dari komputer client sehingga aman jika diimplementasikan untuk berbagai jenis spesifikasi komputer yang terdapat pada laboratorium teknik informatika untan
+berbeda dengan metode jaringan drbl yang mengharuskan client memiliki resource yang cukup untuk mengakses sistem operasi pada server sehingga akan bermasalah apabila metode tersebut diterapkan untuk komputer-komputer dengan spesifikasi rendah yang ada di laboratorium teknik informatika untan
+server ltsp dengan spesifikasi standar masih bisa mengakomodir kebutuhan pemakaian 15 client secara bersamaan meskipun terdapat sedikit lagging saat kelima belas client tersebut menjalankan aplikasi yang berat seperti gimp
+untuk mengatasinya cukup melakukan upgrade pada processor dan memory server ltsp
+hal tersebut dapat menekan biaya upgrade dan perawatan komputer karena biaya tersebut dapat difokuskan untuk komputer server
+metode jaringan diskless drbl sebaiknya digunakan untuk jaringan komputer yang memiliki spesifikasi komputer client yang cukup tinggi terutama pada spesifikasi hardware pengolah grafisnya
+hal ini dilakukan karena client menggunakan resource-nya sendiri untuk mengolah berbagai proses komputasi yang dilakukan oleh user
+metode drbl dapat diterapkan untuk laboratorium komputer yang digunakan sebagai laboratorium pengolah grafis ataupun laboratorium yang memiliki client dengan jumlah di atas 40 komputer sehingga untuk proses komputasi client-nya tidak memberikan beban yang besar pada komputer server
+komputer server hanya berperan sebagai penyedia sistem operasi dan media penyimpanan dari client-client yang ada di dalam jaringan

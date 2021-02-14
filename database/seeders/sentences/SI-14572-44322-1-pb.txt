@@ -1,0 +1,89 @@
+perpustakaan adalah salah satu pusat informasi yang dapat dimanfaatkan sebagai sumber ilmu pengetahuan, penelitian dari berbagai disiplin ilmu
+pengolahan data pada perpustakaan harus dilakukan secara terstruktur agar administrasi perpustakaan dapat berjalan dengan baik
+sebuah sistem informasi pengolahan data perpustakaan sangat diperlukan agar penyampaian informasi dapat tersebar dengan baik
+pengolahan data pada perpustakaan prodi informatika fakultas teknik universitas tanjungpura masih belum terkomputerisasi sehingga sulit untuk melakukan pengolahan dan pencarian data perpustakaan
+penelitian ini bertujuan untuk mengatasi masalah pengolahan data pada perpustakaan prodi informatika fakultas teknik universitas tanjungpura
+sistem ini dibangun berbasis website dan perancangan sistem mencakup perancangan arsitektur sistem, perancangan diagram alir sistem perancangan data flow diagram, perancangan database dan perancangan antarmuka sistem
+pertama dengan metode black box untuk pengujian sistem dan kuesioner untuk pengujian penggunaan aplikasi
+berdasarkan hasil pengujian black box, sistem dapat berjalan dengan baik
+pengujian kuesioner penggunaan aplikasi dilakukan terhadap 30 responden dan dihitung menggunakan metode mencari interval nilai persentase likert
+hasil perhitungan pengujian kuesioner pengguna aplikasi adalah 88, 8%
+berdasarkan hasil pengujian kuesioner pengguna aplikasi, maka sistem informasi yang dibangun dapat mengatasi masalah dalam pengelolaan data perpustakaan prodi informatika fakultas teknik universitas tanjungpura
+pendahuluan perkembangan teknologi dan ilmu pengetahuan pada saat ini dirasakan telah semakin pesat
+semua ini dikarenakan hasil pemikiran manusia yang semakin maju, hal tersebut dapat dilihat dari perkembangan ilmu komputer dan internet yang semakin hari semakin berkembang
+dengan kemajuan tersebut, pemanfaatan perangkat komputer dan internet sebagai media untuk mengolah data serta penyebaran informasi sangat membatu dalam menyelesaikan pekerjaan
+dalam sebuah jaringan internet, website merupakan sebuah media informasi yang banyak digunakan oleh masyarakat
+perkembangan website dari awal kemunculannya sampai sekarang sudah sangat cepat
+perkembangan itu tidak terlepas dari kemudahan dan fleksibilitas sebuah website dalam menyajikan data dan informasi ke segala penjuru wilayah
+kemampuan website dalam mengolah data dan sebagai media penyebaran informasi sudah tidak diragukan lagi
+sistem informasi yang menggunakan website sebagai media utamanya sudah sangat populer dan banyak yang menggunakan, karena dianggap mudah dan efisien
+sistem informasi dalam beberapa tahun belakangan ini sudah menjadi salah satu hal yang harus dimiliki oleh lembaga pendidikan khususnya perguruan tinggi
+tren ini berkembang akibat dari kemajuan teknologi dan ilmu pengetahuan
+salah satu bagian di bidang pendidikan yang menjadi sumber ilmu pengetahuan adalah perpustakaan
+perpustakaan adalah salah satu pusat informasi yang dapat dimanfaatkan sebagai sumber ilmu pengetahuan, penelitian dari berbagai disiplin ilmu
+dalam dunia pendidikan, perpustakaan dikenal sebagai fasilitas atau tempat yang menyediakan sarana bahan bacaan dengan tujuan memberikan layanan informasi untuk kegiatan belajar dan penelitian
+sama halnya dengan perpustakaan informatika universitas tanjungpura yang digunakan sebagai sarana memperoleh informasi untuk membantu proses perkuliahan dan penelitian
+salah satu langkah yang di terapkan untuk meningkatkan fungsi dari perpustakaan itu sendiri adalah sistem pengolah data yang cepat dan tepat
+pengelolaan perpustakaan informatika universitas tanjungpura saat ini masih belum terkomputerisasi
+sehingga sering terjadi kesalahan dalam pengumpulan data maupun penyajian data
+kesalahan ini menyebabkan penyampaian informasi menjadi kurang cepat dan tepat
+oleh karena itu untuk meningkatkan pelayanan perpustakaan diperlukan sistem informasi manajemen perpustakaan yang mampu mengelola data perpustakaan, sehingga kegiatan pengolahan data dan informasi dapat tersimpan secara terpusat, terstruktur serta dengan cepat dapat melakukan penyebaran informasi dan memberikan layanan yang lebih baik
+uraian penelitian penelitian tentang sistem informasi manajemen perpustakaan bukanlah hal baru yang baru dilakukan
+beberapa penelitian sejenis mengenai sistem informasi manajemen perpustakaan dilakukan sebelumnya
+sistem informasi perpustakaan di badan penelitian dan pengembangan propinsi sumatra utara
+adirman hanif harefadari universitas islam negeri sunan kalijaga yogyakarta melakukan penelitian dengan judul dengan tujuan untuk membangun sistem informasi perpustakaan di badan penelitian dan pengembangan propinsi sumatra utara dengan tujuan untuk membangun sebuah sistem yang dapat digunakan secara mudah di dalam pengelolaan katalog perpustakaan
+sistem ini rancang bangun sistem informasi manajemen perpustakaan informatika universitas tanjungpura berbasis web madani1, herry sujaini2, novi safriadi3
+metode pengembangan sistem yang digunakan adalah melalui pencatatan bahan pustaka, pengelolaan data, transaksi peminjaman dan pengembalian buku
+rian fitrahdari prodi teknik informatika fakultas ilmu komputer universitas bina darma palembang melakukan penelitian dengan judul “analisis dan perancangan perpustakaan digital dan sistem otomasi perpustakaan sma negeri 3 palembang “ pada tahun 2012
+penelitian ini bertujuan untuk menganalisis dan merancang sistem perpustakaan digital dengan sistem otomatis untuk membantu pengawasan dan mengevaluasi peminjaman dan pengembalian buku perpustakaan sma negeri 3 palembang
+metode pengembangan sistem yang digunakan yaitu metode sequensial linier
+zulfitri zuhridari program studi sistem informasi sekolah tinggi manajemen dan komputer u’budiyah indonesia banda aceh melakukan penelitian dengan judul “sistem informasi perpustakaan sekretariat dewan perwakilan rakyat aceh berbasis web “ pada tahun 2013
+penelitian ini bertujuan untuk memberikan layanan kebutuhan informasi terhadap ketersediaan buku dalam bentuk searching serta melayani transaksi peminjaman dan pengembalian buku secara langsung
+agus hidayatullohdari program studi teknik informatika fakultas sains dan teknologi universitas islam negeri sunan kalijaga yogyakarta melakukan penelitian dengan judul “rancang bangun web sistem informasi perpustakaan di universitas bangka belitung dengan metode prototyping“ pada tahun 2014
+penelitian ini mempermudah perpustakaan dalam mengelola data dengan menggunakan teknologi web service yang menghubungkan dengan sistem informasi akademik
+pada penelitian ini, penelitian dilakukan pada lingkup wilayah prodi informatika fakultas teknik informatika universitas tanjungpura
+penelitian bertujuan untuk mengatasi masalah keterbatasan akses dalam melakukan pengelolaan dan penyebaran data perpustakaan prodi informatikan fakultas teknik universitas tanjungpura
+untuk menguji apakah penelitian berhasil dilakukan atau tidak, pengujian dilakukan dengan metode black box untuk pengujian sistemnya, dan menyebarkan kuesioner kepada responden yang akan menggunakan sistem informasi manajemen perpustakaan prodi informatika
+kuesioner yang disebar memiliki pilihan jawaban yang masing-masing pertanyaan memiliki nilai yang akan dihitung ketika kuesioner telah diisikan oleh responden
+perhitungan dari hasil pengisian kuesioner akan dilakukan dengan metode mencari interval nilai persentase likert
+sistem informasi menurut tata sutabripada tahun sistem informasi adalah suatu sistem di dalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian yang mendukung fungsi organisasi yang bersifat manajerial dalam kegiatan strategi dari suatu organisasi untuk dapat menyediakan kepada pihak luar tertentu dengan laporan – laporan yang diperlukan
+erwan arbiepada tahun, sistem informasi adalah sistem di dalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, membantu dan mendukung kegiatan operasi, bersifat manajerial dari suatu organisasi dan membantu mempermudah penyediaan laporan yang diperlukan
+muhyuzirpada tahun, sistem informasi adalah data yang dikumpulkan, dikelompokkan dan diolah sedemikian rupa sehingga menjadi sebuah satu kesatuan informasi yang saling terkait dan saling mendukung sehingga informasi dapat tersebar dengan cepat dan menjadi suatu informasi yang berharga bagi yang menerimanya
+perpustakaan pada dasarnya semua perpustakaan merupakan suatu instansi yang memiliki proses kerja sama, yaitu memberikan pelayanan informasi kepada pengguna
+namun demikian dalam perkembangannya setiap jenis perpustakaan memiliki definisi dan kriteria tertentu yang membedakannya dengan perpustakaan lain
+perpustakaan perguruan tinggi merupakan salah satu jenis dari sekian banyak jenis perpustakaan yang telah dikategorikan
+definisi perpustakaan perguruan tinggi menurut sulistyo basuki adalah perpustakaan yang terdapat pada perguruan tinggi, badan bawahannya, maupun lembaga yang berfaliasi dengan perguruan tinggi, dengan tujuan utama membantu perguruan tinggi mencapai tujuannya yakni tri dharma perguruan tinggi 
+menurut sulistyo basuki, secara umum tujuan perpustakaan perguruan tinggi adalah memenuhi keperluan informasi masyarakat perguruan tinggi, lazimnya staf pengajar dan mahasiswa
+sering pula mencakup pula tenaga administrasi perguruan tinggi, menyediakan bahan pustaka rujukan pada semua tingkat akademis, artinya mulai dari mahasiswa tahun pertama hingga ke mahasiswa program pascasarjana dan staf pengajar, menyediakan ruangan belajar untuk pemakai perpustakaan, menyediakan jasa peminjaman yang tepat guna bagi berbagai jenis pemakaian, dan menyediakan jasa informasi aktif yang tidak saja terbatas pada lingkungan perguruan tinggi tetapi juga lembaga industri lokal c
+kuesioner menurut bimo walgito, kuesioner adalah suatu daftar yang berisi pertanyaan-pertanyaan yang harus dijawab atau dikerjakan oleh responden yang ingin diselidiki
+setiap kuesioner terdiri dari beberapa sampel pertanyaan di mana setiap pertanyaan diberi beberapa pilihan jawaban, misalnya diberi poin 5, diberi poin 4, diberi poin 3, diberi poin 2, diberi poin 1
+adapun rumus untuk mencari interval nilai persentase dari masing-masing jawaban kuesioner dengan metode mencari interval nilai persentase likertsebagai berikut : i = % dengan i merupakan interval nilai persentase likert
+nilai total = 1x +2x +3x +4x +5x setelah mendapatkan nilai total, perhitungan untuk mencari nilai persentase dilakukan dengan cara membagi nilai total dengan hasil perkalian antara poin tertinggi jawaban dengan banyaknya responden kemudian dikalikan 100%
+p = % dengan p adalah nilai persentase yang dicari dan skor ideal adalah skor tertinggi yang digunakan dalam kuesioner dikalikan dengan jumlah responden
+diagram alir penelitian merupakan gambaran dari tahapan penelitian, yang dimulai dari studi literatur, analisis kebutuhan, pengumpulan data, perancangan konsep, implementasi sistem, pengujian sistem, kemudian dilakukan pengecekan pada hasil pengujian sistem apakah sesuai dengan kebutuhan atau tidak, jika tidak maka akan kembali ke proses analisis kebutuhan, sedangkan jika ya maka selesai
+desain arsitektur sistem berikut desain arsitektur sistem yang dirancang dapat dilihat pada gambar 2
+gambar 2 diagram arsitektur sistem berdasarkan gambar 2, anggota perpustakaan, admin/pustakawan dan kepala perpustakaan merupakan pengguna sistem
+sistem informasi manajemen perpustakaan prodi informatika dibuat dengan berbasis website, pengguna memerlukan akses jaringan internet agar dapat terhubung dengan sistem
+diagram alir sistem diagram alir sistem merupakan diagram yang menggambarkan sistem yang akan dibangun secara garis besar
+diagram alir sistem dapat dilihat pada gambar 3 gambar
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks dapat dilihat pada gambar 4
+antarmuka aplikasi antarmuka dari hasil perancangan sistem yang telah dibuat terlihat seperti pada gambar 5, 6, dan 7
+antarmuka halaman datar buku antarmuka halaman daftar buku merupakan halaman yang menampilkan daftar buku yang tersedia di perpustakaan rodi informatika
+pada halaman ini anggota perpustakaan dapat melakukan pencarian buku dan melihat detail buku
+antarmuka statistik peminjaman buku antarmuka halaman statistik peminjaman buku merupakan halaman yang menampilkan statistik atau jumlah transaksi peminjaman buku
+statistik peminjaman ini bisa dilihat perminggu ataupun perbulan
+antarmuka laporan pengembalian buku antarmuka laporan pengembalian buku merupakan halaman yang menampilkan data laporan pengembalian buku
+pada halaman ini admin/pustakawan dapat mencetak laporan tersebut
+pengujian black box pengujian black box dengan teknik acceptance testing adalah pengujian terakhir sebelum sistem dipakai oleh user yang melibatkan pengujian dengan data dari pengguna sistem
+pengujian dilakukan dengan cara menjalankan aplikasi dengan tujuan untuk menemukan kesalahan serta memeriksa apakah sistem dapat berjalan dengan baik sesuai dengan kebutuhan
+pada jurnal ini pengujian black box yang dilampirkan pada proses peminjaman buku dan pengembalian buku
+berikut adalah tabel pengujian black box pada proses peminjaman buku dapat dilihat pada tabel 1 dan untuk proses pengembalian buku dapat dilihat pada tabel 2
+dari hasil pengujian black box pada tabel 1 terlihat bahwa semua pengujian telah sesuai dengan hasil yang diharapkan dan dari hasil pengujian black box pada tabel 2 terlihat bahwa semua pengujian telah sesuai dengan hasil yang diharapkan
+pengujian kuesioner penggunaan aplikasi hasil pengujian kuesioner penggunaan aplikasi dapat dilihat pada tabel 3
+untuk mencari interval nilai persentase dengan metode persentase likert pada pengujian kuesioner penggunaan aplikasi, dapat dilakukan dengan perhitungan seperti dalam persamaan, sehingga didapatkan interval persentasenya adalah 20
+tabel 4 menunjukkan interval nilai persentase pada kuesioner
+tabel 4 interval nilai presentasi likert kuesioner penggunaan aplikasi hasil presentase likert kategori x di antara 0% - 19, 99% sangat buruk x di antara 20% -39, 99% buruk x diantara 40% - 59, 99% cukup baik x diantara 60% - 79, 99% baik x diantara 80% - 100% sangat baik d
+analisis hasil pengujian berdasarkan pengujian yang telah dilakukan, analisis hasil pengujiannya adalah sebagai berikut : berdasarkan hasil pengujian dengan kuesioner dan diukur menggunakan perhitungan menggunakan metode mencari interval nilai persentase likert’s summated rating, total persentase yang dihasilkan sebesar 88.8%, dengan demikian responden menilai aplikasi sangat baik dan menyatakan setuju bahwa aplikasi sistem informasi manajemen perpustakaan prodi informatika berbasis website telah membantu untuk proses pengolahan dan penyimpanan data perpustakaan prodi informatika
+tabel 3 hasil pengujian kuesioner penggunaan aplikasi no keterangan penilaian persenta se likert5 4 3 2 1 a
+kesimpulan berdasarkan hasil pengujian dan analisis terhadap aplikasi sistem informasi laboratorium berbasis website yang telah dilakukan, dapat diambil kesimpulan bahwa sistem yang dibangun dapat berjalan dengan baik serta dapat mengatasi permasalahan pengolahan dan penyimpanan data pada perpustakaan prodi informatika fakultas teknik universitas tanjungpura

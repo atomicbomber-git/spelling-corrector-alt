@@ -1,0 +1,94 @@
+rancang bangun aplikasi sistem pendukung keputusan pemilihan lokasi gedung pernikahan menggunakan metode promethee program studiteknikinformatikauniversitastanjungpura1, 2, 3 undangan
+saat ini, kendala-kendala yang sering ditemukan oleh banyak pasangan yang akan melangsungkan pernikahan diantaranya adalah mempersiapkan acara akad nikah maupun resepsi pernikahan terutama dalam hal pemilihan lokasi atau gedung
+semakin beragamnya pilihan serta fasilitas yang ditawarkan, dapat membuat pasangan kesulitan dalam mengambil keputusan
+untuk mengatasi permasalahan tersebut, dibuatlah sebuah aplikasi sistem pendukung keputusan yang dapat membantu memberikan pertimbangan dalam memilih lokasi resepsi pernikahan yang sesuai dengan kriteria yang diinginkan
+aplikasi spk dibuat dengan menggunakan metode preference ranking organization method for enrichment evaluation, dengan kata lain suatu metode penentuan urutan dalam analisis multikriteria
+tujuan dari penelitian ini adalah untuk menghasilkan sebuah aplikasi yang dapat membantu pasangan yang akan melangsungkan pernikahan, dalam memilih dan memilah gedung tanpa perlu survei secara langsung menuju lokasi gedung
+dengan melihat pengertian dari resepsi tersebut maka resepsi pernikahan merupakan sebuah acara yang memerlukan adanya persiapan yang cukup matang, sehingga setiap kesalahan atau masalah yang akan timbul dapat diminimalisir
+saat ini, kendala-kendala yang sering ditemukan oleh banyak pasangan yang akan melangsungkan pernikahan diantaranya adalah mempersiapkan acara akad nikah maupun resepsi pernikahan
+hal tersebut terbukti dengan adanya pasangan yang mencari dan atau mempersiapkan segala kebutuhan resepsi pernikahan melalui majalah, kolega, atau event organizer 
+salah satu persiapan yang cukup penting dalam sebuah pernikahan adalah pemilihan lokasi atau gedung
+pemilihan lokasi yang tepat bukanlah hal yang mudah
+semakin beragamnya pilihan serta fasilitas yang ditawarkan, dapat membuat pasangan kesulitan dalam mengambil keputusan
+untuk mengatasi permasalahan tersebut, dibuatlah sebuah aplikasi sistem pendukung keputusan yang dapat membantu memberikan pertimbangan dalam memilih lokasi resepsi pernikahan yang sesuai dengan kriteria yang diinginkan
+preference ranking organization method for enrichment evaluation 
+ingin memilih lokasi resepsi pernikahan hanya perlu memilih kriteria yang diinginkan kemudian memberikan bobot untuk setiap kriteria tersebut, lalu aplikasi akan menampilkan lokasi resepsi pernikahan berdasarkan kriteria dan bobot yang sesuai dengan pilihan pasangan
+sistem pendukung keputusan konsep sistem pendukung keputusan atau decision support system pertama kali diungkapkan pada awal tahun 1970-an oleh michael s.scott morton dengan istilah management decision sistem 
+sistem tersebut adalah suatu sistem yang berbasis komputer yang bertujuan untuk membantu pengambil keputusan dengan memanfaatkan data dan model tertentu untuk memecahkan berbagai persoalan yang semi terstruktur
+istilah spk mengacu pada suatu sistem yang memanfaatkan dukungan komputer dalam proses pengambilan keputusan
+spk sebagai sistem informasi berbasis komputeryang adaptif, interaktif, fleksibel, yang secara khususdikembangkan untuk mendukung solusi daripemasalahan manajemen untuk meningkatkan dapat disimpulkan satu definisi tentang spk yaitu sebuah sistem berbasis komputer yang adaptif, fleksibel, dan interaktif yang digunakan untuk memecahkan masalah-masalah tidak terstruktur sehingga prosedur berbasis model untuk data pemrosesan dan penilaian guna membantu para manajer mengambil keputusan
+spk harus sederhana, cepat, mudah dikontrol, adaptif, lengkap dengan isu-isu penting, dan mudah berkomunikasi
+mendukung penilaian manajer bukan mencoba menggantikannya
+komponen sistem pendukung keputusan sistem pembuat keputusan mempunyai komponen yang terbagi dalam 4 subsistem, yaitu : 1
+subsistem data : meliputi basis data yang berisi data-data yang relevan dengan keadaan dan dikelola oleh database management system 
+manajemen science, atau model kuantitatif, yang menyediakan kemampuan analisa dan manajemen software yang cocok
+subsistem dialog : user dapat berkomunikasi dan memberi perintah sistem
+subsistem knowledge : merupakan subsistem atau berlaku sebagai komponen yang independent
+proses pengambilan keputusan proses pengambilan keputusan melibatkan tiga tahaputama yaitu tahapintelegensi, tahap perencanaan, tahap pilihan, dan tahap implementasi 
+identifikasi informasi yang dibutuhkan, berkaitan dengan persoalan yang dihadapi serta keputusan yang akan diambil, tentunya persoalan yang dihadapi harus dirumuskan terlebih dahulu secara jelas
+tahap perancangan merupakan tahap analisa dalam kaitan mencari atau merumuskan alternatif keputusan
+setelah berikutnya adalah merancang atau membangun model pemecahan masalahnya dan menyusun berbagai alternatif pemecahan masalah
+tahap pilihan pada tahap ini dilakukan proses pemilihan diantara berbagai alternatif tindakan yang mungkin dijalankan
+hasil pemilihan tcrsebut kemudian diimplementasikan dalam proses pengambilan dalam kaitannya masalah yang terjadi
+karakteristik sistem pendukung keputusan karakteristik dan kapabilitas kunci dari spk adalah : penilaian manusia dan informasi terkomputerisasi
+masalah-masalah tersebut tidak dapat dipecahkan dengan konvenien oleh sistem komputer lain atau oleh metode atau alat kuantitatif standar
+dukungan untuk semua level manajerial, dari eksekutif puncak sampai manajer lini
+masalah yang kurang terstruktur sering memerlukan keterlibatan individu dari departemen dan tingkat organisasional yang berbeda atau bahkan dari organisasi lain
+spk mendukung tim virtual melalui alat-alat web kolaboratif
+beberapa kali, atau berulang 
+pengambilan keputusan seharusnya reaktif, dapat menghadapi pembahan kondisi secara cepat dan dapat mengadaptasikan spk untuk memenuhi pembahan tersebut
+spk bersifat fleksibel dan arena itu pengguna dapat menambahkan, menghapus, menggabungkan, mengubah, atau menyusun masalah lain yang sejenis
+ramah pengguna, kapabilitas grafis yang sangat kuat, dan antar muka manusia-mesin interaktif dengan satu bahasa alami dapat sangat meningkatkan keefektifan spk
+kebanyakan aplikasi spk yang baru menggunakan antarmuka berbasis web
+ketikaspk disebarkan, pengambilan keputusan keputusannya lebih baik
+kontrol penuh oleh pengambil keputusan terhadap semua langkah proses pengambilan keputusan dalam memecahkan suatu masalah
+spk secarakhusus menekankan untuk mendukung pengambilan k
+pengguna akhir dapat mengembangkan dan memodifikasi sendiri sistem sederhana
+sistem yang lebih besar dapat dibangun dengan bantuan ahli sistem informasi
+perangkat lunak olap dalam 3 pengguna untuk membangun spk yang cukup besar dan kompleks
+kapabilitas pemodelan memungkinkan eksperimen konfigurasi yang berbeda
+akses disediakan untuk berbagai sumber data, format, dan tipe, mulai dari sistem infromasi geografis, sampai sistem berorientasi-objek
+dapat dilakukan sebagai alat standalone yang digunakan oleh seorang pengambil keputusan pada lokasi atau didistribusikan pada suatu organisasi keseluruhan dan beberapa organisasi sepanjang rantai persediaan
+dapatdiintregasikan dengan spk lain atau aplikasi lain, dan didistribusikan secara internal dan eksternal dengan menggunakan networking dan teknologi web
+promethee adalah suatu metode penentuan urutan dalam analisis multikriteria 
+masalah pokoknya adalah kesederhanaan, kejelasan, dan kestabilan
+dugaan dari dominasasi kriteria yang digunakan dalam promethee adalah penggunaan nilai dalam hubungan outranking
+semua parameter yang dinyatakan mempunyai pengaruh nyata menurut pandangan ekonomi
+menggunakan data secara langsung dalam bentuk tabel multikriteria sederhana
+promethee mempunyai ukurannya sendiri tanpa batasan, untuk mengindikasi prioritasnya dan preferensi untuk setiap kriteria dengan memusatkan pada nilai, tanpa memikirkan tentang metode perhitungannya
+metode untuk pengambilan keputusan di bidang pemasaran, sumber daya manusia, pemilihan lokasi, atau bidang lain yang berhubungan dengan pemilihan alternatif
+alternatif yang telah ditetapkan berdasarkan pertimbangan {∀i | fi(
+, fk | x ∈ℜ } dimana k adalah sejumlah kumpulan alternatif, dan f1 (i = 1, 2, …
+k) merupakan nilai/ukuran relative kriteria untuk masing-masing alternatif 
+outranking yang dikembangkan oleh b.roy yang meliputi dua fase, yaitu membangun hubungan dari k dan eksploitasi dari hubungan ini memberikan jawaban optimasi kriteria dalam paradigma permasalahan multikriteria 
+berdasarkan pertimbangan dominasi masing-masing outranking secara grafis disajikan berdasarkan preferensidari pengambil keputusan
+keterangan : tabel basis data kriteria nama field tipe keterangan fungsi id_kriteria int kunci perangkat lunak mendapatkan serangkaian kondisi input yang sepenuhnya menggunakan semua persyaratan fungsional untuk suatu program
+fungsi-fungsi yang tidak benar atau hilang 2
+kesalahan dalam strutur data atau akses basisdata eksternal 4
+kesensitifan sistem terhadap nilai input tertentu 7
+batasan dari suatu data gambar 1 sistem kerja dari teknik pengujian black box 4 a
+gambar sistem usulan sistem yang akan dibangun menggunakan web, sehingga memudahkan dalam pengaksesan dan memanajemen sistem fitur yang ada, adapun gambaran sistem yang dibangun adalah : b
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap aktivitas yang berlangsung pada rancangan sistem pendukung keputusan pemilihan gedung
+diagram konteks memperlihatkan bahwa subjek yang terlibat langsung dalam proses sistem adalah: c
+analisis kebutuhan sistem sistem yang dibangun berbasis web dimaksudkan untuk dapat diakses oleh banyak user 
+desain arsitektur sistem dapat dilihat pada gambar 4 d
+hasil perancangan desain form beranda berfungsi sebagai tampilan awal, yaitu ketika seseorang atau calon user masuk ke website untuk mengetahui tentang maksud an tujuan dari sistem aplikasi ini, tampilan awal aplikasi sistem pendukung keputusan diperlihatkan pada gambar 5 gambar 5halaman awal spk pemilihan gedung e
+hasil pengujian black box pengujian berikut dilakukan pada halaman login
+hasil pengujian dapat dilihat pada tabel dibawah ini: f
+perhitungan penentuan lokasi gedung dengan metode promethee berdasarkan perhitungan yang ditentukan, berdasarkan kriteria yang sudah ditentukan dengan keterangan sebagai berikut: - f1, f2, f3, f4, f5 adalah kriteria - a1, a2, a3, a4, a5, a6 adalah alternatif/penilaian objek penilaian
+untuk mendapatkan engurutan yang lebih baik, dilakukan dengan metode promethee ii sehingga informasi bagi pembuat keputusan lebih komplit dan realistik
+nilai dari net flow didapatkan dari jumlah leaving flow keseluruhan dikurangi dengan jumlah entering flow keseluruhan untuk mendapatkan nilai yang akan dijadikan acuan untuk rangking keseluruhan dari alternatif yang ada
+index net flow sehingga hasil dapat dilihat pada tabel 3.5 tabel 3.5 tabel penentuan promethee a1 a2 a3 a4 a5 a6 leaving flow entering flow net flow a1 x 0 0.6 0.6 0.6 0.6 0.48 0.40 0.08 a2 0.6 x 0.6 0.8 0.8 0.8 0.72 0.16 0.56 a3 0.4 0.4 x 0.4 0.6 0.4 0.44 0.52 -0.08 a4 0.4 0.2 0.6 x 0.8 0.6 0.52 0.44 0.08 a5 0.2 0 0.2 0.2 x 0 0.12 0.76 -0.64 a6 0.4 0.2 0.6 0.2 1 x 0.48 0.48 0.00 6 metoode promethee, maka diperoleh urutan penentuan lokasi gedung pernikahan berdasarkan alternatifnya yaitu, urutan pertama adalah a1, urutan kedua adalah a2, urutan ketiga adalah a3, urutan keempat adalah a4, urutan kelima adalah a5, dan urutan keenam adalah a6
+analisis hasil pengujian berikut ini adalah analisis hasil perancangan dan pengujian sistem pendukung keputusan pemilihan gedung : 1
+halaman admin setelah login terdapat menu profil, alteranatif, dan kriteria
+menu profil pada admin berfungsi untuk mengubah data admin
+menu alternatif pada admin berfungsi untuk menambah dan mengubah data alternatif gedung baru
+menu kriteria pada admin berfungsi untuk menambah dan mengubah data kriteria gedung baru
+menu alternatif pada pengguna berfungsi untuk melihat daftar alternatif gedung
+menu kriteria pada pengguna berfungsi untuk melihat data kriteria gedung
+menu spk pada pengguna merupakan menu bagi pengguna dalam menentukan pilhan kriteria lokasi gedung yang diinginkan
+hasil pengujian menunjukkan saat dilakukan input data dengan menggunakan metode black box, input data dengan keseluruhan data kosong akan menimbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan sudah ditangani pada kode program, sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+hasil pengujian menunjukkan bahwa saat dilakukan input data dengan salah satu data yang benilai kosong akan menyebabkan kesalahan apabila data tersebut tidak diperbolehkan kosong
+pada sistem ini kemungkinan tersebut sudah ditanganipada kode program sehingga akan muncul pesan kesalahan jika ada salah satu data yang belum diisi

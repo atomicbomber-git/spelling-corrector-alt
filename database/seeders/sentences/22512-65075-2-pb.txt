@@ -1,0 +1,79 @@
+meskipun pemerintah telah menyediakan berbagai sistem untuk pengelolaan anggaran, namun masih diperlukan manajemen anggaran di internal dimulai dari pengajuan rencana anggaran dari tiap unit, kemudian penggabungan data dalam satu satker, pengajuan revisi maupun pengajuan realisasi dan pelaporan maupun monitoring statistik oleh pimpinan perguruan tinggi
+maka pada penelitian ini dibuat sistem untuk mengelola anggaran internal satuan kerja berbasis web yang responsive agar memudahkan akses dan monitoring pada perangkat mobile
+hasil dari penelitian ini terciptanya suatu sistem yang dapat membantu manajemen anggaran internal yang dalam hal ini satker universitas siliwangi, sistem tersebut sangat membantu terutama bagi perguruan tinggi negeri baru yang masih minim pengalaman
+pendahuluan yang umum terjadi diberbagai bidang ilmu
+permasalahan terjadi akibat tidak adanya manajemen anggaran yang baik, terencana, terukur dan realisasi dapat dipantau
+hampir disemua jenjang pendidikan, lembaga, sekolah ataupun perguruan tinggi permasalahan tersebut terjadi
+sama halnya dengan universitas siliwangi, sebuah universitas di priangan timur tepatnya di kota tasikmalaya yang beralih status dari perguruan tinggi swasta menjadi perguruan tinggi negeri baru 
+pengelolaan anggaran di unsil masih manual ditambah lagi dengan statusnya sebagai ptnb yang notabene cara pengelolaan anggarannya berbeda dengan swasta
+hal tersebut menjadi permasalahan yang cukup serius karena dapat berdampak pada semua aspek dalam penyelenggaranaan kegiatan perguruan tinggi
+satuan kerja adalah instansi pemerintah yang merupakan bagian dari struktur kementerian di pemerintahan
+setiap satu satker mempunyai kepala satker (kepala dinas, kepala kantor dsb
+), bendahara satker, pejabat pembuat komitmen, pejabat penanda tangan surat perintah membayar, pembuat daftar gaji, dan pegawai yang bekerja di instansi tersebut
+satker mendapatkan dana dari anggaran pendapatan dan belanja negara untuk melaksanakan kegiatannya
+satker sebagai organisasi pemerintah menjalankan fungsi akuntansi dan pengelolaan keuangan atas kegiatan yang dilakukannya
+dalam menjalankan fungsinya, satker telah menerapkan teknologi informasi untuk meningkatkan kinerja dan kualitas laporan keuangannya
+fungsi tersebut antara lain pembukuan pengeluaran dana dari apbn yang ditunjang dengan aplikasi spm, pembukuan bendahara memakai aplikasi sistem informasi keuangan, penganggaran satker yang dibantu oleh aplikasi rencana kerja anggaran kementerian/lembaga dan daftar isian pelaksanaan anggaran, akuntansi kantor satker yang menggunakan sistem akuntansi kuasa pengguna anggaran dan penata usahaan barang- barang inventarisasi satker dengan memakai aplikasi persediaan dan sistem informasi manajemen akuntansi barang milik negara 
+semua aplikasi tersebut dibangun secara terpisah-pisah berdasarkan urgensi kebutuhan satker
+negara, namun sistem untuk pengelolaan anggaran internal dari mulai pengajuan rencana anggaran biaya, rencana kegiatan tiap unit sampai ke pencairan realisasi kegiatan belum ada dan di unsil sendiri pengelolaan tersebut masih dilakukan secara manual maka dari permasalahan yang telah dipaparkan pada penelitian ini akan dilakukan perancangan dan pembangunan sebuah sistem yang dapat melakukan manajemen anggaran dengan penerapan prinsip akuntansi
+sistem yang akan dibuat harus dapat mencakup beberapa fitur diantaranya, dapat melakukan pengelompokan jenis anggaran, sumber anggaran, pengusulan rencana anggaran biaya, revisi dan monitoring realisasi anggaran
+sehingga pada penelitian ini akan dibuat sistem informasi manajemen anggaran perguruan tinggi berbasis web yang support terhadap perangkat mobile 
+dengan penerapan teknologi berbasis web ini memungkinkan pengelolaan dan monitoring anggaran dapat di akses dimana dan kapan saja
+penelitian terkait dilakukan hari dan febriliyan pada tahun 2012menghasilkan sebuah aplikasi yang dibuat untuk menggantikan beberapa aplikasi yang sudah ada namun terpisah-pisah seperti aplikasi siska, aplikasi rka- kl/dipa, aplikasi simak bmn, aplikasi spm, dan aplikasi sakpa
+aplikasi yang telah dibuat telah terintegrasi ke dalam satu aplikasi berbasis web menggunakan teknologi java dan database postgresql
+namun untuk penelitian ini lebih fokus pada manajemen anggaran internal satker dari mulai pengajuan rencana kegiatan, anggaran biaya dari tiap unit
+kemudian secara otomatis sistem menggabungkan data dari tiap unit menjadi satu kesatuan
+selain itu sistem yang akan dibuat dapat mengelola pengajuan revisi sampai ke pengajuan pencairan realisasi kegiatan unit
+aplikasi web mendukung interaksi pengguna melalui antarmuka berbasis web
+fitur-fitur aplikasi web biasanya berupa data persistence, mendukung transaksi dan komposisi halaman web dinamis yang dapat dipertimbangkan sebagai hibridisasi, antara hipermedia dan sistem informasi
+selain aplikasi yang diinstalkan ke dalam smartphone, dapat juga mengakses website melalui browser yang terdapat pada smartphone
+metodologi dikarenakan sistem yang dibangun berbasis objek dan sudah menerapkan konsep mvc 
+sekarang menjadi salah satu devisi ibm
+rup adalah metodologi pengembangan perangkat lunak yang di formulasikan oleh rational software corporation, yang menggunakan uml sebagai bahasa pemodelan selama periode pengembangan dan iterative incremental sebagai model siklus pengembangan perangkat lunak
+metode rup mempunyai tahapan-tahapan, yaitu : inception, elaboration, perancangan awal perangkat lunak 
+construction telah dibuat dilakukan pada tahap ini
+pada akhir tahap ini, perangkat lunak versi akhir yang sudah disetujui administrator dirilis beserta dokumentasi perangkat lunak
+hasil dan pembahasan wawancara dilakukan secara langsung terhadap narasumber atau pembimbing lapangan tentang permasalahan yang sedang di alami dalam pengelolaan data anggaran sehingga dapat di simpulkan data apa saja yang dibutuhkan untuk perancangan sistem pengelolaan anggaran
+pencatatan secara sistematis terhadap kegiatan yang sedang berlangsung pada lokasi penelitian yaitu dalam hal ini berlokasi di universitas siliwangi
+analisis masalah pada tahap analisis masalah ini dilakukan dengan identifikasi dan perencanaan awal serta pengumpulan kebutuhan dari perangkat lunak yang akan dibangun
+tahapan-tahapan yang dilakukan sebagai berikut: a
+sering terjadi kesalahan dalam perhitungan jumlah anggaran dikarenakan dari penggabungan file excel dengan cara manual sehingga ada bagian yang tidak terjumlah, maka dari itu dibutuhkan sebuah sistem atau aplikasi yang bertujuan untuk :  melakukan penggabungan secara otomatis data anggaran dari tiap unit sehingga memudahkan bagian perencanaan yang disusun
+ memudahkan dalam pembuatan laporan dari tiap unit atau seluruh unit dengan cara mengekspor data anggaran ke dalam bentuk excel
+ data anggaran yang disusun secara otomatis mengikuti format aturan yang dibuat pemerintah
+sistem yang berjalan maka dapat disimpulkan bahwa perlu dibangun sebuah sistem atau aplikasi untuk mengelola data anggaran untuk memudahkan bagian perencanaan, serta mempercepat dalam pengambilan informasi dari data anggaran yang disusun
+analisis kebutuhan sistem anggaran dengan memiliki dua aktor yang saling berinteraksi pada sistem pengelolaan anggaran
+skenario tabel i id : 1.10 aktor : admin komponen basis data tidak boleh kosong basis data merupakan salah satu contoh skenario, skenario menjelaskan urutan kejadian antara sistem dan pengguna
+class diagram gambar 2 menjelaskan class diagram sistem manajemen anggaran, setiap class tersebut mempunyai atribut dan proses atau method yang dapat dilakukan oleh class tersebut
+menjelaskan alur proses dari setiap use case yang sudah dibuat
+alur tersebut menjelaskan detail langkah-langkah yang dilakukan pengguna saat berinteraksi dengan sistem
+gambar 3 merupakan salah satu contoh sequence diagram dari setiap use case yang sudah dibuat
+class diagram sistem manajemen anggaran gambar 3
+class diagram sistem manajemen anggaran c
+tampilan dashboard berhasil login, antarmuka dashboard memuat rekapan ringkas yang dapat memberikan informasi yang lengkap, mulai dari rencana anggaran biaya yang dibuat oleh masing-masing unit, rekapan serapan realisasi, statistik anggaran, pagu dana total dengan realisasi berikut sisa biayanya, pagu anggaran per output maupun per sumber dana, kemudian rekapan rencana anggaran biaya per unit
+antarmuka rencana anggaran biaya gambar 5 merupakan tampilan rencana anggaran biaya yang secara otomatis bergabung dari tiap unit sesuai kode akun, sub komponen, komponen dan output yang telah ditentukan oleh bagian perencanaan
+sehingga tidak terjadi lagi permasalahan ada data yang tidak terakumulasi sehingga perhitungan keuangan tidak valid
+tampilan pengajuan revisi gambar 6 merupakan proses pengajuan revisi dari unit melalui kepala unit kemudian diverifikasi oleh bagian perencanaan, sehingga menghilangkan proses pengajuan manual dari unit
+gambar 7 adalah halaman untuk mengajukan realisasi anggaran, data yang diinputkan adalah identitas dan bukti pembayaran
+melalui aplikasi ini dimulai dari pengajuan unit, kemudian diverifikasi oleh keuangan dan dicairkan oleh bendahara keuangan
+sementara gambar 8 merupakan pengisian dan penerbitan kuitansi beserta surat perintah bayar
+tampilan statistik anggaran gambar 9 menampilkan laporan statistik pagu anggaran berdasarkan jenis kegiatan dimulai dari total biaya, jumlah serapan yang sudah terealisasi, sisa biaya sampai persentase serapan
+gambar 10 menunjukan statistik pagu anggaran per akun, mulai dari akun 51 belanja pegawai, akun 52 belanja barang dan akun 53 belanja modal sementara gambar 11 menampilkan statistik pagu anggaran per sumber dana
+sumber dana apbn dalam dipa terdiri dari tiga sumber yaitu pnbp, rm dan boptn 
+statistik realisasi per unit gambar 12 menunjukan rekap statistik realisasi anggaran tiap unit, laporan ini berguna untuk memantau jumlah serapan dari masing-masing unit dan menunjukan kinerja dari unit dalam pengelolaan anggarannya
+pengujian perangkat lunak metode yang digunakan pada tahap pengujian dalam penelitian kerja praktek ini adalah black-box, dimana metode ini berfokus pada seluruh aspek dari perangkat lunak yang berkaitan langsung dengan pengguna yaitu mulai dari antarmuka, masukan dan keluaran
+pengujian black-box dilakukan untuk setiap tampilan dalam program
+pengujian dilakukan dengan diberikan event-event atau masukan yang tidak seharusnya dan event- event yang seharusnya
+pengujian dashboard layak dipergunakan sebagaimana mestinya karena rata-rata hasil pengujian ini berhasil dan dapat diterima sesuai dengan yang diharapkan
+kelebihan dan kekurangan berikut ini adalah kelebihan dari sistem yang sudah dibangun : a
+dengan adanya sistem pengelolaan angaggaran ini bagian perencanaan lebih mudah dalam melakukan analisis dan mendapatkan informasi dari anggaran yang terkumpul dari tiap unit
+pembuatan laporan lebih cepat dengan mengekspor data ke format excel
+adapun kekurangan dari sistem ini yaitu : a
+sistem yang dibangun masih menggunakan teknologi long polling sehingga ada jeda waktu dalam menampilan data realtime
+berat dalam menampilkan atau meload data yang jumlahnya lebih dari 1000 baris
+sistem belum dapat terintegrasi dengan sistem keuangan yang sudah disediakan negara
+kesimpulan dan saran permasalahan-permasalahan yang terjadi dapat diatasi dengan dibuatnya sistem manajemen anggaran sehingga menjadikan solusi yang tepat agar proses pengelolaan anggaran di universitas siliwangi berjalan lancar
+dimulai dari proses pembuatan rencana anggaran masing-masing unit, pengajuan realisasi, revisi sampai pelaporan
+sistem manajemen anggaran ini dapat membantu pengelolaan anggaran internal sebelum digabungkan dengan sistem yang sudah disediakan oleh pemerintah
+perlunya optimasi database dan cara penyajian data agar penampilan data yang banyak lebih cepat
+sebaiknya menggunakan teknologi komunikasi full duplex sehingga data yang ditampilkan lebih realtime
+sistem dapat dikembangkan dengan menggabungkan pada sistem keuangan yang telah disediakan negara

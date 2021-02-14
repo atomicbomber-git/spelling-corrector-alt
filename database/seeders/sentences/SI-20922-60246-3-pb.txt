@@ -1,0 +1,70 @@
+ketersediaan tenaga kerja yang kompeten di setiap bidang yang dibuktikan dengan memiliki sertifikasi kompetensi yang kredibel merupakan salah satu persyaratan bagi banyak perusahaan, baik di lingkup nasional maupun internasional salah satu perusahaan nasional yang mengharuskan pegawainya memiliki sertifikasi kompetensi adalah perusahaan pt pln wilayah kalimantan barat
+pelaksanaan sertifikasi kompetensi di pt pln wilayah kalimantan barat membutuhkan sistem informasi berbasis web yang dapat memonitoring dan mengolah data sertifikasi kompetensi pegawai pada pt pln wilayah kalimantan barat
+web ini dibangun dengan menggunakan bahasa pemrograman php dengan database mysql sebagai penyimpanan data terkait sertifikasi
+pelaksanaan monitoring sertifikasi meliputi pengurusan penjadwalan, pemilihan, monitoring pemilihan, persetujuan, penginputan hasil, dan monitoring sertifikasi kompetensi pegawai
+pemantauan hasil pelaksanaan sertifikasi berupa rekap data maupun berupa chart atau grafik yang dapat menampilkan monitoring pencapaian dalam bentuk persentase hasil pelaksanaan sertifikasi kompetensi
+dengan demikian, sistem yang dibangun dapat memperbaiki permasalahan input dan output pada proses monitoring sertifikasi kompetensi pegawai bisnis inti di lingkungan pt pln wilayah kalimantan barat
+pendahuluan tersedianya tenaga-kerja yang kompeten di setiap bidang, banyak industri dan organisasi mempersyaratkan agar tenaga-kerjanya memiliki sertifikasi kompetensi yang kredibel
+pemerintah beberapa negara juga menghendaki bahwa tenaga kerja mereka harus memiliki sertifikasi kompetensi yang diterbitkan oleh lembaga otoritas yang diakui secara sah
+tenaga teknik yang bekerja dibidang ketenagalistrikan wajib memiliki sertifikat kompetensi
+pegawainya khususnya pada bidang bisnis inti untuk mengikuti sertifikasi kompetensi, sesuai dengan undang- undang no uu 30 tahun 2009 tentang ketenagalistrikan pasal 44 ayat yaitu 
+penerapan manajemen sumberdaya manusia berbasis kompetensi 
+pertumbuhan perusahaan memperhatikan jenis-jenis kompetensi yang wajib dikembangkan dalam organisasi
+di samping itu, perhatian manajemen dalam hal mengembangkan pegawai menjadi talenta sukses perlu menjadi bagian dalam setiap operasional perusahaan
+saat ini pt pln wilayah kaimantan barat dalam pelaksanaan proses monitoring sertifikasi mulai dari pemilihan jenis sertifikasi, persetujuan atasan, persetujuan manajemen, penjadwalan pelaksanaan sertifikasi, hingga proses input hasil pelaksanaan sertifikasi dilakukan tanpa menggunakan sistem atau aplikasi
+dalam pelaksanaannya, proses monitoring sertifikasi dilakukan oleh lebih dari satu pegawai dengan pembagian tugas yang berbeda menggunakan aplikasi excel sebagai media pengolahan data
+hal ini tentu kurang efektif dan efisian dikarenakan file penyimpanan data dilakukan oleh masing-masing pegawai dimana data tersebut merupakan data yang saling berkaitan
+program sertifikasi pegawai dalam waktu yang bersamaan dan dapat diakses oleh lebih dari satu pengguna di perusahaan pt pln wilayah kalimantan barat
+kompetensi perlu terus dikembangkan agar seseorang dapat melaksanakan tugas secara efektif
+kompetensi bisa didefinisikan untuk seorang individu maupun sebuah organisasi
+kompetensi dianggap melekat pada sebuah organisasi bila organisasi tersebut memiliki sebuah sistem untuk mengelola kompetensi para individu di dalamnya sehingga organisasi tersebut dapat melaksanakan tugasnya dengan efektif dan sukses
+sertifikasi kompetensi sertifikasi kompetensi adalah rangkaian proses evaluasi kesesuaian kompetensi pegawai
+asas sertifikasi kompetensi adalah tarif 
+bekerjasama dengan unit sertifikasi dan assesment centre dengan mekanisme yang telah ditentukan
+peserta sertifikasi kompetensi adalah pegawai yang memiliki masa kerja minimal 1 tahun dan berusia maksimal 53 tahun pada saat pelaksanaan sertifikasi kompetensi dan peserta rekrutmen dengan kualifikasi professional 
+konsep dasar sistem terdapat dua kelompok pendekatan di dalam pendefinisian sistem, yaitu kelompok yang menekankan pada prosedur dan kelompok yang menekankan pada elemen atau komponennya
+pendekatan yang menekankan pada prosedur mendefinisikan sistem sebagai suatu jaringan kerja prosedur-prosedur yang saling berhubungan, berkumpul bersama-sama untuk melakukan suatu kegiatan atau untuk menyelesaikan suatu sasaran tertentu
+sedangkan pendekatan sistem yang lebih menekankan pada elemen atau komponen mendefinisikan sistem sebagai kumpulan elemen yang berinteraksi untuk mencapai suatu tujuan tertentu
+kedua kelompok definisi ini adalah benar dan tidak bertentangan, yang berbeda adalah cara pendekatannya
+konsep dasar monitoring monitoring sendiri dapat diartikan sebagai kegiatan untuk mengikuti suatu program dan pelaksanaannya secara mantap, teratur dan terus-menerus dengan cara mendengar, melihat dan mengamati, serta mencatat keadaan serta perkembangan program tersebut
+dalam seri monograf 3, unesco regional office for education in asia and teh pasific, dijelaskan bahwa monitoring adalah upaya yang dilakukan secara rutin untuk mengidentifikasi pelaksanaan dari berbagai komponen program sebagaimana telah direncanakan, waktu pelaksanaan program sebagai mana telah dijadwalkan, dan kemajuan dalam mencapai tujuan program
+data dan pengukuran kemajuan atas objektif program atau memantau perubahan, yang berfokus pada proses dan keluaran
+sistem monitoring merupakan suatu proses untuk mengumpulkan data dari berbagai sumberdaya
+biasanya data yang dikumpulkan merupakan data yang realtime
+sistem yang sedang berjalan pelaksanan monitoring program sertifikasi pegawai dilakukan secara terkomputerisasi namun tanpa menggunakan sistem
+permasalahan dalam kegiatan monitoring pelaksanaan program sertifikasi pegawai di pt pln wilayah kalimantan barat, yaitu: - rekam data dilakukan dengan menggunakan aplikasi ms
+excel dan dilakukan oleh lebih dari satu pegawai dengan penyimpanan data oleh masing-masing pegawai tersebut
+output berupa laporan hasil monitoring sertifikasi pegawai tidak dapat langsung dilihat oleh pegawai lain apabila pegawai yang melakukan penginputan tidak menyebarluakan
+hal ini menyebabkan terhambatnya penyampaian informasi yang seharusnya sudah harus didapat oleh pegawai
+sistem yang diperlukan berdasarkan analisis sistem yang sedang berjalan, maka diperlukan sebuah sistem informasi monitoring sertifikasi yang dapat memperbaiki permasalahan input dan output pada kegiatan monitoring data sertifikasi pegawai di lingkungan pt pln wilayah kalimantan barat
+design arsitektur sistem berikut adalah gambar yang menjelaskan rancang bangun arsitektur sistem gambar 1 arsitektur sistem d
+diagram alir sistem diagram alir sistem merupakan diagram yang menggambarkan sistem yang akan dibangun secara garis besar
+diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 4 menunjukkan diagram konteks dari sistem yang dibuat
+activity diagram activity diagram menggambarkan berbagai alir aktivitas dalam sistem yang sedang dirancang, bagaimana masing-masing alir berawal, decision yang mungkin terjadi, dan bagaimana mereka berakhir
+dalam activity diagram berikut terlihat alur aktivitas pengguna saat menggunakan sistem ini
+aktivitas yang dilakukan mulai dari login, pemilihan menu, manajemen data, pemilihan sertifikasi, persetujuan pemilihan, monitoring pemilihan dan persetujuan, monitoring sertifikasi dan export data sertifikasi
+gambar 5 activity diagram login gambar 6 merupakan activity diagram pemilihan menu pada sistem
+gambar 7 merupakan activity diagram manajemen data yang dilakukan oleh pengguna admin
+proses manajemen data pada sistem dilakukan oleh pengguna admin
+sertifikasi bagi pegawai bisnis inti yang belum melakukan pemilihan jenis sertifikasi pada sistem gambar 8 activity diagram pemilihan sertifikasi gambar 9 menggambarkan proses persetujuan pemilihan sertifikasi oleh pengguna atasan pegawai bisnis inti yang sudah atau belum melakukan pemilihan jenis sertifikasi pada sistem gambar 10 menggambarkan proses monitoring dan persetujuan pemilihan oleh admin unit induk
+sistem akan menampilkan perbandingan jumlah pegawai yang harus memilih dan jumlah pegawai yang telah melakukan pemilihan jenis sertifikasi
+sertifikasi oleh admin sertifikasi yang dilakukan oleh pengguna admin
+monitoring data sertifikasi dapat dilihat dalam bentuk daftar per pegawai ataupun dalam bentuk rekapan per unit operasional di lingkungan pt pln wilayah kalimantan barat
+proses recheck pada sistem ini adalah untuk meng-update data sertifikasi apakah masih berlaku atau sudah habis masa berlakunya
+gambar 11 activity diagram monitoring sertifikasi per pegawai g
+struktur antarmuka sistem adapun struktur antarmuka secara keseluruhan untuk sistem informasi moniroting sertifikasi kompetensi pegawai dapat dilihat pada gambar 12
+antarmuka aplikasi antarmuka halaman dashboard merupakan halaman pertama setelah pengguna berhasil melakukan login
+pada halaman ini ditampilkan grafik pelaksanaan sertifikasi dan realisasi pencapaian sertifikasi kompetensi masing-masing unit di pt pln wilayah kalimantan barat
+melalui halaman ini pengguna dapat melakukan monitoring data pencapaian jumlah sertifikasi pegawai di unitnya masing-masing
+sertifikasi yang dapat diakses oleh admin unit induk dan admin unit pelaksana untuk memonitor proses pemilihan jenis sertifikasi dan sekaligus melakukan persetujuan atas pilihan tersebut
+pengguna admin rekapitulasi sertifikasi kompetensi dibuat untuk memonitor pelaksanaan sertifikasi kompetensi pegawai apakah sudah tercapai atau belum
+kompetensi black box pada perangkat lunak dilakukan untuk menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi
+berikut ini adalah hasil dari pengujian perangkat lunak dengan metode black box yang telah dilakukan
+pengujian aspek usability pengujian dengan pengisian kuesioner penggunaan aplikasi dilakukan pada tanggal 13 - 14 april 2017 di lingkungan pt pln wilayah kalimantan barat
+pengujian dilakukan terhadap 15 responden yang terbagi atas pegawai sebagai admin unit induk, pegawai sebagai admin pelaksana, dan pegawai sebagai bawahan dan/atau atasan di lingkungan pt pln wilayah kalimantan barat
+kuesioner terdiri dari delapan pertanyaan dimana setiap pertanyaan diberi 5 pilihan dengan skor tertentu, yaitu: - sangat baik, skor bernilai 5 poin - baik, skor bernilai 4 poin - cukup baik, skor bernilai 3 poin - buruk, skor bernilai 2 poin - sangat buruk, skor bernilai 1 poin berdasarkan hasil perhitungan dengan menggunakan metode mencari interval nilai presentasi likert maka didapatkan hasil jawaban dari seluruh responden seperti pada tabel 4 dan tabel 5
+tabel 4 tabel hasil pengujian kuisioner no pertanyaan skor persentase a
+aspek perangkat lunak aplikasi? 2 bagaimana tingkat kemudahan dalam proses menginputkan/ pengolahan data? 3 5 7 3 0 0 82, 67% b
+aspek komunikasi visual monitoring sertifikasi kompetensi? 7 4 4 0 0 84, 00% 5 c
+aspek fungsional ditampilkan pada aplikasi? 7 8 bagaimana tingkat kontribusi aplikasi dalam monitoring data sertifikasi? rata-rata total persentase 85, 00% no pertanyaan tanggapan persentase pelaksanaan sertifikasi kompetensi? 14 1 96, 67% masalah kemungkinan terjadinya pegawai tidak tersertifikasi? 15 0 100, 00% dapat mempermudah dalam proses dapat menampilkan pantauan sertifikasi kompetensi pegawai? 14 1 96, 67% dapat menampilkan rekapitulasi informasi monitoring sertifikasi kompetensi pegawai berbasis website, dapat ditarik kesimpulan bahwa sistem yang dibangun dapat berjalan dengan baik serta dapat menjawab masalah pada penelitian ini yakni dapat memonitoring dan mengolah data sertifikasi kompetensi pegawai dengan baik dan dapat diterima dan layak dijalankan di lingkungan pt pln wilayah kalimantan barat

@@ -1,0 +1,19 @@
+ikko agustino nikkoagustino@gmail.com which have specific function and purpose for its receiver
+information has high urgency level to be delivered immediately to its receiver
+this urgency level to deliver information also applied in college society engineering faculty of tanjungpura university
+lecturers and students mobility outside university could interfere important information to be delivered via information board
+mobile devices was a right media to deliver information
+for those reason, an integrated information broadcasting system which consists website, android application, email and sms was developed
+web based system will synchronize with user’s android devices
+if user doesn’t have android device or not synchronized to web server for a specific time, system will send information by email and user will also receive notification sms
+from test result there was a conclusion that this information broadcasting system has really good result to be implemented inside engineering faculty of tanjungpura university environment
+keywords: broadcast, information, android, penyampaian informasi baik peng- umuman bimbingan akademik dan maupun informasi kemahasiswaan
+juga menyampaikan informasi melalui penyampaian informasi di atas, pada sistem informasi akademik dosen dapat menyampaikan peng- halaman ini
+luar lingkungan universitas menghambat alur penyampaian informasi dalam lingkungan universitas
+tidak semua jejaring sosial untuk melihat informasi yang dikirimkan
+untuk itu perlu untuk mengembangkan sebuah sistem sistem broadcast dibangun informasi melakukan sinkronisasi tertentu
+jika perangkat android tersebut tidak tersinkronisasi dalam waktu tertentu, sistem mengirim diharapkan dengan adanya sistem dikirimkan dapat diterima oleh mahasiswa secara lebih efektif
+lebih berarti bagi penerimanya yang digunakan untuk pengambilan disampaikan kepada penerimanya informasi ini berbentuk sebuah sasaran
+penyampaian informasi terbagi penyampaian langsung secara verbal, selebaran, spanduk) dan media elektronik 
+android adalah sistem operasi disematkan pada gadget, baik itu handphone, tablet, juga sekarang tangan
+bahwa, 

@@ -1,0 +1,119 @@
+eee paper template in a4 vol 4 no 1 juni 2018 aplikasi media pembelajaran biologi sistem saraf pusat menggunakan augmented reality ivan mustaqim#1, m
+azhar irwansyah#2, anggi srimurdianti sukamto#3 #program studi informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, bansir laut, pontianak tenggara, kota pontianak, kalimantan barat 1ivanmustaqim@gmail.com 2azharirwansyah@informatika.untan.ac.id 3anggidianti@informatika.untan.ac.id teknologi informasi yang dimanfaatkan sebagai media pembelajaran sistem saraf pusat manusia
+sistem saraf pusat manusia sulit diamati secara langsung karena berada didalam tubuh
+augmented reality dimanfaatkan pada pembelajaran sistem saraf manusia dikarenakan dapat menampilkan objek 3 dimensi yang mirip bentuk aslinya, sehingga diharapkan menjadi alternatif media pembelajaran sistem saraf pusat manusia
+penelitian ini menggunakan game engine unity untuk membangun aplikasi berbasis android berteknologi augmented reality, disertai dengan buku yang berisi marker yang apabila diarahkan oleh aplikasi dapat menampilkan objek 3 dimensi
+aplikasi ini dapat dimanfaatkan oleh siswa sekolah menengah atas
+berdasarkan hasil pengujian marker, ada 3 marker yang dapat menampilkan 7 objek tiga dimensi
+berdasarkan pengujian kompatibilitas, aplikasi dapat bekerja dengan baik pada perangkat android dengan versi minimal 4.2.2 yaitu jellybean
+hasil pengujian pre test dan post test, kelompok siswa yang belajar menggunakan buku biologi memiliki kenaikan persentase nilai sebesar 26.48 % sedangkan kelompok siswa yang belajar menggunakan aplikasi augmented reality memiliki persentase nilai sebesar 36.10 % yang berarti aplikasi augmented reality sistem saraf pusat manusia dapat diterapkan sebagai media pembelajaran sistem saraf pusat manusia
+pendahuluan telah mengalami peningkatan pesat dan telah mencakup berbagai bidang di kehidupan manusia termasuk bidang pendidikan
+bidang pendidikan memanfaatkan teknologi sebagai alat bantu dalam proses belajar mengajar
+media pembelajar bertujuan untuk memudahkan penyampaian materi, salah satu mata pelajaran yang memerlukan alat bantu dalam proses belajar mengajar adalah mata pelajaran biologi
+mata pelajaran biologi terdapat terdapat berbagai materi yang diajarkan namun tidak dapat dilihat secara langsung, yaitu materi pembelajaran sistem saraf pusat manusia
+sistem saraf dibangun oleh sel – sel saraf / neuron, yang merupakan sebuah sel dengan struktur yang khas
+sistem saraf pusat terdiri dari otak besar, otak kecil, sumsum tulang lanjutan dan sumsum tulang belakang 
+otak terletak di dalam tulang tengkorak, sedangkan sumsum tulang belakang terletak di ruas – ruas tulang belakang
+kendala yang terjadi pada siswa yaitu media pembelajaran yang ada seperti narasi dan papan tulis tidak menggambarkan secara keseluruhan materi sistem saraf manusia, dikarenakan keterbatasan media tersebut
+penerapan cai dalam penyampaian materi dapat meminimalisir keterbatasan yang dialami siswa
+cai adalah suatu sistem pengajaran dan pembelajaran yang menggunakan peralatan komputer sebagai alat bantunya bersama – sama dengan knowledge base 
+cai merupakan pengembangan daripada teknologi informasi terpadu yaitu komunikasi, audio, video, penampilan citra yang dikemas dengan sebutan teknologi multimedia
+materi sistem saraf pusat manusia dapat memanfaatkan teknologi augmented reality sebagai salah satu teknologi cai
+augmented reality adalah teknik yang menggabungkan benda maya dua dimensi maupun tiga dimensi lalu memproyeksikan benda – benda maya tersebut dalam waktu nyata
+beberapa penelitian terdahulu yang mengangkat tema augmented reality
+aplikasi pembelajaran berbasis augmented reality pada buku panduan wudhu untuk anak
+pertama adalah nur jazilah, yang berjudul 
+analisis dan perancangan geometra, media pembelajaran geometri mata pelajaran matematika berbasis android menggunakan teknologi augmented reality
+kedua adalah miftah rizqi hanafi yang berjudul 
+ketiga adalah muhammad iqbal meslilesi yang berjudul ” penerapan augmented reality sebagai media pembelajaran virus dalam mata pelajaran biologi kelas x sma ”
+penelitian ini akan mengangkat hal tersebut ke dalam pembuatan aplikasi augmented reality sistem saraf pusat manusia
+pusat manusia dibangun bertujuan untuk membangun media pembelajaran materi sistem saraf pusat manusia menggunakan teknologi augmented reality dengan menampilkan objek 3d dan informasi
+analisis kebutuhan penelitian ini dilakukan dengan metode wawancara kepada guru bidang studi biologi di sma negeri 1 sungai raya
+hasil analisis kebutuhan yang diperlukan pada penilitian ini terdapat pada tabel i : tabel i mengenaii saraf kerja dari sel dan impuls fr-03 aplikasi mampu menampilkan objek 3d dari jenis sel saraf, yaitu sel motorik, sel sensorik dan sel konektor menyajikan informasi tentang bagian – bagian otak secara teks, visual dan audio fr-05 aplikasi dapat menampilkan objek 3d tulang belakang secara visual dan audio fr-06 aplikasi dapat menampilkan animasi 3d pada organ sistem saraf pusat manusia b
+alat dan data penelitian data penelitian yang akan digunakan pada penelitian ini adalah informasi dan marker berupa gambar mengenai sistem saraf pusat manusia yang terdapat pada buku sekolah elektronik biologi kelas xi sma
+marker sel dan struktur sel gambar 2
+marker otak alat penelitian yang digunakan dalam penelitian ini sebagai berikut : 1) perangkat keras : perangkat keras yang digunakan dalam penelitian ini adalah laptop acer v5-471g dengan spesifikasi prosessor intel® core™ i3- 3227u cpu @1.90ghz, 8 gb ram dan hdd 500gb
+2) perangkat lunak : perangkat lunak yang digunakan dalam penelitian ini adalah sistem operasi windows 7 ultimate 64-bit, unity versi 5.6.0 32- bit, vuforia versi 6.2.10, blender 3d versi 2.78 dan adobe photoshop cs6 64-bit c
+3) pengumpulan data : pengumpulan data dilakukan untuk mengetahui data apa saja yang akan digunakan
+4) rekonstruksi objek 3d : proses membuat objek 3d, yaitu modelling dan texturing
+modelling adalah proses pembuatan objek 3d dan texturing adalah proses pemberian warna pada objek 3d
+5) perancangan aplikasi : membuat rancangan sistem yang akan dibangun
+7) pengujian aplikasi : dilakukannya pengujian aplikasi apakah memenuhi ananlisis kebutuhan
+8) analisis hasil pengujian : analisis dilakukan dalam tahap pengujian dan validasi untuk mengetahui apakah aplikasi sudah berjalan dengan baik, serta digunakan sebagai dasar perbaikan
+apakah aplikasi yang dirancang dan dibangun sudah sesuai tujuan
+biologi kelas xi diedit pada aplikasi photoshop
+kemudian image yang telah diedit akan diunggah dan mengalami proses generate oleh aplikasi vuforia
+keluaran yang dihasilkan dari proses generate oleh vuforia adalah marker yang sesuai dengan image yang telah diunggah
+kedua, objek 3d dibangun menggunakan aplikasi blender 3d, berdasarkan image atau gambar pada buku bse biologi kelas xi
+ketiga, marker dan objek 3d diimpor ke unity, pada unity, marker dan objek 3d diolah menjadi aplikasi augmented reality sistem saraf pusat manusia, dengan ekstensi file apk
+kemudian aplikasi dipasang dan dijalankan pada perangkat android
+aplikasi mengaktifkan kamera android dan pengguna mengarahkan perangkat android ke marker untuk mendeteksinya
+jika marker sesuai dengan database, objek 3d akan muncul pada layar android
+data penelitian berupa gambar diimplementasikan ke dalam aplikasi blender 3d sehingga menghasilkan objek 3d
+objek yang dibangun menggunakan aplikasi blender 3d akan menghasilkan keluaran file berekstensi blend
+objek 3d yang dibangun ada 7 buah, yaitu sel saraf, struktur sel, sel motorik, sel sensorik, sel konektor, otak dan tulang belakang
+proses texturing adalah proses pemberian warna pada objek yang telah dimodelkan melalui proses modelling
+use case diagram hanya memberi gambaran singkat antara use case, pengguna dan sistem
+use case ini akan diketahui fungsi – fungsi apa saja yang berada pada sistem yang dibuat
+use case diagram penelitian ini ditunjukan pada gambar 5
+proses pertama adalah pengguna memilih memilih menu ar saraf untuk menampilkan animasi dan informasi yang menjelaskan tentang sel saraf
+kedua, pengguna memilih untuk melihat petunjuk penggunaan aplikasi augmented reality sistem saraf pusat manusia
+ketiga, pengguna memilih menu tentang untuk mengetahui informasi umum tentang aplikasi
+keempat, pengguna memilih menu soal untuk mengisi soal yang ada pada aplikasi
+terakhir, pengguna memilih menu keluar untuk keluar dari aplikasi
+aktivitas dalam sistem yang sedang dirancang, bagaimana masing – masing alir berawal, decision yang mungkin terjadi dan bagaimana mereka berakhir
+berikut merupakan activity diagram yang dapat dilihat pada gambar 6
+activity diagram tertangkap dengan baik oleh kamera smartphone
+sistem akan mengidentifikasi marker, jika marker yang diarahkan tidak valid maka animasi objek 3d tidak akan muncul, apabila marker yang diarahkan tersebut valid, maka animasi 3d akan muncul
+diinstansiasi akan menghasilkan sebuah objek dan merupakan inti dari pengembangan dan desain berorientasi objek
+class diagram mirip er-diagram pada perancangan database, bedanya pada er-diagram tdk terdapat operasi/methode tapi hanya atribut
+class yang ada pada struktur sistem harus dapat melakukan fungsi – fungsi sesuai dengan kebutuhan sistem
+class diagram digunakan untuk menampilkan kelas – kelas di dalam suatu sistem
+berikut merupakan class diagram yang ditunjukan pada gambar 7
+class diagram memiliki beberapa kelas, yaitu mainmenu, petunjuk, tentang, arsaraf, arselmotorik, arselsensorik, persistent dan menusoal i
+sequence diagram diagram menggambarkan urutan atau tahapan yang harus dilakukan pengguna
+diagram ini menunjukkan sejumlah contoh objek dan pesan yang melakukan satu tugas atau aksi tertentu
+komponen utama sequence diagram terdiri atas objek yang dituliskan dengan kotak persegi
+pesan diwakili oleh garis dengan tanda panah dan waktu yang ditunjukkan dengan progress vertikal sequence diagram ditunjukan pada gambar 8
+class diagram memilih menu ar saraf dari menu utama
+ar kamera sel untuk mengaktifkan kamera dan memindai marker
+hasil dari pemindaian marker, akan memunculkan objek 3d sel
+ditampilkan juga beberapa menu, yaitu menu ar otak, menu ar tulang belakang dan menu jenis sel
+pengujian kompatibilitas suatu software berinteraksi dan membagi informasi secara benar dengan software yang lain
+interaksi ini bisa terjadi antara dua program yang secara bersama-sama pada komputer yang sama ataupun pada komputer yng berbeda yang tersambung lewat internet atau lewat kabel network
+lingkungan yang diharapkan dapat menjalankan aplikasi yang dibuat
+semakin aplikasi dapat berjalan di berbagai jenis perangkat yang berbeda, maka semakin baik aspek kompatibilitasnya
+pengujian pre test dan post test adalah desain yang terdapat pre test sebelum diberi perlakuan dan post test setelah diberi perlakuan, sehingga dapat diketahui hasil lebih akurat, karena dapat membandingkan dengan diadakan sebelum diberi perlakuan
+pengujian pre test dan post test adalah pengujian yang dilakukan dengan menilai suatu aplikasi dengan cara mengukur skor sebelum menggunakan aplikasi dan sesudah menggunakan aplikasi pada user
+hasil dari post test dan pre test akan dibandingkan sehingga diketahui seberapa jauh efek atau pengaruh dari pengajaran yang telah dilakukan dengan bantuan aplikasi dan pengajaran dengan tanpa bantuan aplikasi, sekaligus dapat diketahui bagian – bagian dari bahan pengajaran yang masih belum dipahami oleh sebagian besar siswa
+hasil dan analisis manusia yang dibangun merupakan penerapan dari teknologi augmented reality berbasis android
+dibangunnya aplikasi augmented reality sistem saraf pusat manusia bertujuan sebagai media pembelajaran multimedia sistem saraf pusat manusia
+berikut tampilan aplikasi hasil penelitian ini pada gambar 9 dan gambar 10
+tampilan augmented reality sistem saraf menampilkan objek 3d secara 3d
+terdapat tombol - tombol untuk menuju ke scene organ - organ sistem saraf pusat manusia dan juga tombol play, stop dan home
+ketika marker terdeteksi dan objek 3d tampil pada layar android, maka tombol untuk menjalankan animasi serta informasi dari objek akan aktif dan tampil bersamaan dengan tampilnya objek 3d
+hasil pengujian kompatibilitas pengujian ini dilakukan agar dapar melihat kompatibilitas perangkat saat menjalankan aplikasi
+langkah – langkah pengujian kompatibilitas adalah sebagai berikut: 1) memasang file apk pada setiap perangkat
+3) uji tombol menu yang terdapat pada menu utama
+4) pada menu yang menggunakan augmented reality, pengujian dilakukan dengan memindai marker menggunakan kamera android
+5) mengamati keberhasilan aplikasi mendeteksi pola marker, menampilkan objek 3d, animasi dan informasi berupa suara dan teks
+hasil pengujian pre test dan post test pengujian pre test dan post test dilakukan pada tanggal 25 januari 2018 di sma negeri 1 sungai raya
+pengujian ini dilakukan kepada siswa kelas xi ipa 5 yang terdiri dari 22 siswa
+pertama, seluruh siswa akan diberikan soal pre test yang sama kepada seluruh siswa
+setelah selesai mengerjakan soal pre test, siswa di bagi menjadi 2 kelompok, yaitu kelompok 1 dengan absen ganjil belajar menggunakan buku sekolah eletronik dan kelompok 2 yaitu siswa dengan absen genap, belajar menggunakan augmented reality
+setelah belajar, siswa akan mengerjakan soal post test, kelompok 1 mengerjakan soal di kertas dan kelompok 2 mengerjakan soal di menu soal pada aplikasi
+jawaban benar diberi nilai 5 dan salah diberi nilai 0
+berikut beberapa grafik rata-rata nilai dan grafik persentase kenaikan nilai, yang diperlihatkan pada gambar 11 dan gambar 12
+gambar 11 grafik nilai rata-rata pre test dan post test gambar 12 grafik persentase kenaikan nilai d
+analisis hasil pengujian berdasarkan dari pengujian yang telah dilakukan, dapat disimpulkan beberapa poin hasil analisis dari aplikasi augmented reality sistem saraf pusat yang akan dijelaskan sebagai berikut: 1) pada hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa aplikasi dapat berjalan pada smartphone android dengan sistem operasi versi 4.2.2 hingga versi 7.1.2 
+berdasarkan hasil ini, aplikasi yang telah dibuat dapat dijalankan pada versi terendah dari dari batasan masalah yang telah ditentukan, yaitu android versi 4.2 
+aplikasi menunjukkan perbedaan pada setiap perangkat smartphone android, yaitu pada ukuran tombol
+perbedaa ini dipengaruhi oleh perbedaan ukuran layar pada setiap perangkat smartphone android yang diujikan
+aplikasi diujikan pada perangkat smartphone android dengan ukuran layar 4, 5 inch hingga 5, 5 inch
+persentase kenaikan nilai dari pre test ke post test, siswa yang belajar menggunakan buku mata pelajaran mendapat kenaikan sebesar 26, 48%, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi ar saraf mendapat kenaikan sebesar 36.10%
+3) berdasarkan pengamatan langsung terhadap proses pembelajaran siswa yang telah memenuhi dari analisis kebutuhan yang ada, serta persentase kenaikan nilai siswa, bahwa aplikasi augmented reality sistem saraf pusat dapat membantu menyampaikan materi pelajaran sistem saraf manusia kepada siswa sma kelas xi ipa
+kesimpulan augmented reality sistem saraf pusat dapat disimpulkan bahwa: dengan sistem operasi minimal 4.2 
+hasil analisis pada perhitungan persentase kenaikan nilai, kenaikan persentase siswa yang belajar menggunakan aplikasi augmented reality sistem saraf pusat lebih tinggi dibandingkan kenaikan persentase nilai dari siswa yang belajar mengggunakan buku palajaran biologi
+perbedaan kenaikan persentase nilai ini dikarenakan siswa lebih memahami materi sistem saraf pusat manusia yang menggunakan teknologi augmented reality dengan menampilkan objek 3d dan informasi berupa suara dibandingkan dengan belajar menggunakan media pembelajaran yang hanya berupa teks saja
+reality sistem saraf pusat dapat diterapkan sebagai media pembelajaran sistem saraf pusat manusia

@@ -1,0 +1,15 @@
+penelitian ini menjelaskan bagaimana menemukan frasa jeda ucapan kalimat bahasa melayu pontianak menggunakan metode shallow parsing yang merupakan salah satu fungsi dari nltk 
+metode shallow parsing ini berfungsi untuk dapat mengetahui kejadian jeda yang terjadi pada kalimat bahasa melayu pontianak melalui potongan frasa
+potongan-potongan frasa yang terbentuk berhubungan dengan frasa jeda dari penutur agar dapat digunakan untuk keperluan generasi sistem text to speech 
+metode shallow parsing pada nltk membutuhkan atruran grammars dan pos tagger
+kumpulan aturan grammars dibuat dalam bentuk regular expressions untuk mengklasifikasikan kata-kata yang dapat membentuk frasa dengan menggunakan kategori sintaksis kalimat berdasarkan informasi part of speech 
+hasil dari penelitian ini adalah kalimat yang telah terpotong-potong membentuk frasa-frasa jeda
+pengujian dilakukan dengan menggunakan precision, recall serta f-measure terhadap kalimat tunggal dan kalimat majemuk
+kalimat tunggal terdiri dari 47 kalimat dan kalimat majemuk terdiri dari 121 kalimat
+berdasarkan pengujian yang telah dilakukan, didapatkan hasil bahwa metode shallow parsing yang dibentuk berdasarkan aturan grammars sudah dapat membentuk frasa jeda pada kalimat bahasa melayu pontianak
+hasil dari pengujian diperoleh nilai precision dan nilai recall untuk kalimat tunggal adalah 0.74 dan 0.78 dengan nilai f-measure 0.75
+adapun pada kalimat majemuk memperoleh nilai precision dan recall sebesar 0.57 dan 0.67 dengan nilai f-measure 0.61
+manusia sebagai media berkomunikasi secara lisan maupun tulisan
+melalui bahasa manusia dapat menyampaikan informasi ataupun menerima informasi
+selain bahasa indonesia sebagai bahasa nasional, menurut unesco indonesia memiliki lebih dari 40 bahasa daerah, dengan banyaknya bahasa daerah yang ada di indonesia perlu terus dilakukan upaya pelestarian bahasa agar bahasa-bahasa ini bisa terus dikembangkan
+hasil sensus penduduk pada tahun 2010, dari berbagai bahasa daerah yang terdapat di indonesia, persentase penggunaan bahasa melayu yang digunakan oleh masyarakat kalimantan barat mencapai 20, 45% dari total penduduk kalimantan barat

@@ -1,0 +1,21 @@
+an konseling tk mujahidin 1 pontianak berbasis web e-mail: harmoko.pontianak14@gmail.com1, helfi_nasution@yahoo.com2, tursina_untan@yahoo.com3 sistem informasi rapor tk mujahidin 1 pontianak
+tk mujahidin 1 pontianak pengolahan data siswa masih menggunakan dengan cara manual yaitu tiap wali kelas mengisi rapor siswa dengan cara tulis tangan, karena sistem ini belum bisa melakukan pengolahan data secara keseluruhan
+perlu adanya data digital untuk menyimpan rapor anak-anak tk yang diisi tiap semester nya sebagai arsip sekolah
+karena sistem penyimpanan melalui buku rapor rentan akan kehilangan dan kerusakan
+konseling dalam satuan jalur pendidikan formal penting, mengingat bahwa perkembangan peserta didik pada masing-masing jenjang pendidikan akan berpengaruh pada perkembangan selanjutnya
+membangun sebuah aplikasi untuk pengisian rapor dan konseling antara orang tua dengan guru
+metode penelitian yang digunakan adalah metode pieces, metode ini untuk mengidentifikasi masalah dengan melakukan dilakukan pada sistem lama, dari analisis ini akan didapatkan beberapa masalah dan akhirnya dapat ditemukan masalah utamanya
+hasil yang dicapai adalah sebuah sistem pengisian rapor dan konseling berbasis web yang bermanfaat bagi tk mujahidin 1 pontianak dalam mempermudah pengisian rapor dan melakukan proses konseling tanpa harus bertemu langsung
+simpulan dari penelitian ini, sistem ini merupakan media yang tepat untuk tk mujahidin 1 pontianak dalam membantu kinerja guru dalam pengisian rapor dan proses konseling
+hasil pengujian responden pada sistem yang dibangun, dengan menggunakan metode likert’s summated rating, didapatkan hasil pengukuran skor 2534
+pada 2534 tersebut mengindikasikan sistem yang dibangun dinilai cukup berhasil
+pendahuluan yaitu tiap wali kelas mengisi rapor siswa dengan cara tulis tangan, karena sistem ini belum bisa melakukan pengolahan data secara keseluruhan
+penulisan rapor yang masih manual terdapat banyak kesalahan seperti coretan dan bahkan kesalahan dalam pengisian rapor dan tidak menutup kemungkinan dalam penulisan adanya coretan dan kesalahan sedangkan dalam penulisan rapor taman kanak-kanak ini harus dituntut lebih rapi, bersih, dan dapat dibaca dengan jelas oleh orang tua anak
+tk mujahidin 1 pontianak perlu adanya data digital untuk menyimpan rapor anak-anak tk yang diisi tiap semester nya sebagai arsip sekolah
+karena sistem penyimpanan melalui buku rapor rentan akan kehilangan dan kerusakan
+berbeda dengan sekolah pada umumnya, penerapan nilai dalam taman kanak-kanak berbentuk kompetensi dasar dan pencapaian perkembangan anak yang terdiri dari berbagai nilai-nilai perkembangan anak serperti: nilai-nilai agama dan moral, motorik kasar, motorik halus, kesehatan fisik
+nilai yang diisi adalah indikator tingkat pencapaian perkembangan yang mengacu pada standar pencapaian perkembangan anak sesuai dengan peraturan menteri pendidikan nasional nomor 58 tahun 2009 tanggal 17 september 2009
+berdasarkan latar belakang tersebut, tk mujahidin 1 pontianak memerlukan suatu sistem informasi rapordan konseling
+untuk dapat membantu dalam pengolahan rapor dan dapat membantu proses konseling sehingga orang tua anak senantiasa dapat berinteraksi dengan guru sehingga dapat melihat perkembangan anaknya tanpa harus terbatasi waktu untuk datang kesekolah
+bimbingan dan konseling dalam satuan jalur pendidikan formal penting, mengingat bahwa perkembangan peserta didik pada masing-masing jenjang pendidikan akan berpengaruh pada perkembangan selanjutnya, misalnya perkembangan perkembangan selanjutnya, dimana perkembangan di ditentukan oleh bagaimana keberhasilan anak melampaui masa sekolahnya di taman kanak-kanak
+uraian penelitian information, economic, control, efficiency, service

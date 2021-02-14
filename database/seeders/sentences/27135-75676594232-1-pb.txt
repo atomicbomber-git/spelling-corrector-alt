@@ -1,0 +1,181 @@
+rambak merupakan produk turunan hewani dari kulit sapi, kerbau dan babi
+metode fourier transformed infrared spectroscopy pernah digunakan untuk pembedaan rambak kerbau dan babi, namun harga alat dan penunjangnya mahal karena itu perlu teknik identifikasi yang lebih efisien dan murah
+salah satunya analisis citra yang terdiri dari 3 elemen utama yaitu sumber cahaya, kamera, dan image analysis software data system sehingga dapat mengganti metode yang mahal, rumit, dan lama
+tujuan penelitian ini mengidentifikasi jenis rambak olahan mengggunakan fitur warna dan tekstur citra serta mengetahui hasil klasifikasinya menggunakan jaringan saraf tiruan backpropagation
+hasil penelitian menunjukkan fitur warna rambak kerbau memiliki nilai tertinggi dibanding rambak sapi dan babi pada red, green, blue, serta saturation, intensity, sementara nilai hue-nya terendah
+fitur tekstur menunjukkan contrast, entropy, dan homogeneity rambak sapi memiliki nilai terendah
+correlation rambak babi memiliki nilai terendah, dan energy rambak kerbau memiliki nilai terendah
+topologi terbaik jst untuk klasifikasi jenis rambak yaitu 11-10-10-1
+mean square error terbaik yaitu 0, 2362 dengan r 0, 8317 dan akurasi 76, 4228%
+studi ini menunjukkan analisis citra dan jst berpotensi untuk membedakan rambak babi dibanding jenis rambak hewan lain
+pendahuluan diolah melalui tahap pembuangan bulu, pengembangan kulit, perebusan, pengeringan, dan dikukus untuk rambak mentah atau digoreng untuk rambak siap konsumsi
+rambak dapat diproduksi dari kulit sapi, kerbau, dan babi
+rambak mudah dijumpai di pasar tradisional dalam berbagai bentuk dan label
+kemiripan fisik jenis rambak tersebut berpotensi dipalsukan
+indonesia merupakan negara mayoritas muslim dengan jumlah 89% dari jumlah penduduk atau 237, 6 juta
+bagi muslim, babi merupakan produk hewani yang haram, sehingga peredaran rambak babi di pasar-pasar dan atau rumah makan meresahkan
+upaya identifikasi rambak babi dan jenis rambak lain terus dilakukan
+muttaqien, et al, membandingkan jenis rambak kerbau dan babi menggunakan fourier transformed infrared spectroscopy 
+ftir merupakan alat anaisis cepat dan non-dekstruktif untuk studi minyak dan lemak pangan
+ftir hanya perlu persiapan sampel minimum, namun harga alat dan penunjangnya mahal
+karena itu, diperlukan teknik identifikasi yang lebih efisien dan murah
+analisis citra mengolah barisan data pixel guna mendapat informasi suatu citra
+teknologi tersebut digunakan mengetahui karateristik mutu produk pangan dan pertanian secara visual dan pengujian non-dekstruktif
+computer image analysis terdiri dari 3 elemen utama yaitu sumber cahaya, kamera, dan software data system untuk image processing dan analysis
+analisis citra dapat digunakan sebagai salah satu metode yang efisien dari segi biaya, waktu, dan cara kerja
+analisis citra berpotensi besar untuk menilai kualitas daging secara obyektif dan efektif
+beberapa penelitian menggunakan teknik analisis citra untuk penilaian warna daging babi atau daging sapi
+korespondensi : sucipto sucipto 91 diantaranya warna dan tekstur
+warna telah digunakan untuk pemutuan biji kopidan tekstur digunakan pada pengenalan kulit sapi
+warna merupakan karateristik fisik yang bisa diamati oleh mata dan otak
+ciri warna dapat digunakan untuk pengukuran, klasifikasi, dan penemuan kembali
+tekstur dapat diartikan karateristik intrinsik suatu citra
+aspek tekstural citra dapat dimanfaatkan sebagai dasar segmentasi, klasifikasi, dan interpretasi citra
+salah satu teknik yang dapat digunakan untuk ekstraksi ciri tekstur adalah gray level co- occurance matrix 
+glcm dapat digunakan mengkuantifikasi dan membandingkan berbagai aspek tekstur citra
+telah digunakan untuk klasifikasi warna daging sapi, babi dan penentuan mutu seafood
+sun, dkkmenggunakan citra digital untuk mengukur dan menganalisis karateristik warna daging sapi
+yuristiawan, et almenggunakan ekstraksi fitur warna dengan pendekatan statistika untuk mendeteksi kesegaran daging sapi lokal purwaningsih, et almenggunakan hasil ekstraksi ciri tekstur berbasis co- occurance matrix untuk klasifikasi dan identifikasi kulit sapi tersamak
+adnan, et almenggunakan fitur warna dan tekstur citra untuk identifikasi varietas beras
+sandra, et almenggunakan untuk pemutuan buah manggis
+beberapa penelitian memadukan analisis citra dengan jst untuk klasifikasi atau prediksi, seperti nugroho, et aluntuk identifikasi jenis daging sapi, dan hartono, et aluntuk mengenal citra daging babi dan daging sapi
+jst merupakan salah satu teknik klasifikasi yang cukup handal untuk memprediksi atau mengenali citra
+tujuan penelitian ini yaitu mengidentifikasi jenis rambak olahan mengggunakan fitur warna dan tekstur citra serta mengetahui hasil klasifikasinya menggunakan jst backpropagation
+pada penelitian ini analisis citra digunakan untuk mendapatkan informasi fitur warna dan tekstur citra rambak olahan
+nilai fitur warna dan tekstur digunakan sebagai input jst untuk klasifikasi jenis rambak olahan
+identifikasi jenis rambak olahan sapi, kerbau, dan babi berbasis citra diharapkan bisa menjadi alternatif metode deteksi bahan haram, khususnya rambak babi, yang lebih efisien
+pertanian jurusan keteknikan pertanian, dan laboratorium komputasi dan analisis sistem jurusan teknologi industri pertanian fakultas teknologi pertanian universitas brawijaya
+bahan penelitian ini adalah rambak goreng sapi, kerbau, dan babi
+rambak sapi dan kerbau dari pasar stonobetek, kediri, serta rambak babi dari bali
+gambar 1 merupakan skema rangkaian alat akuisisi citra
+peralatan terdiri atas black box, 2 lampu led 5 watt, reflectan cover, kamera digital, dan kain hitam
+uji kadar air menggunakan alat cawan aluminium, timbangan analitik, dan oven
+1 skema black box, dan koneksi pc untuk akuisisi citra black box berukuran 30 x 30 x 30 cm sebagai tempat mengambil citra
+yomiko, cv sinar glodok lestari, indonesia
+lampu led 5 watt sebagai sumber cahaya
+reflectan cover berupa mika putih sebagai filter cahaya untuk membatasi atau memendarkan cahaya lampu sehingga efek pancaran cahaya lebih halus
+kain hitam sebagai alas dan penutup
+perangkat untuk mengolah data terdiri dari komputer dengan processor intel core i3
+perangkat lunak menggunakan adobe photoshop 7.0 dan matlab r2012a
+adobe photoshop 7.0 untuk cropping dan matlab r2012a untuk analisis citra dan pemodelan jst
+persiapan sampel sampel disiapkan untuk uji kadar air dan analisis citra
+tiap jenis rambak ditimbang 2 gram untuk uji kadar air dan untuk akuisisi citra tiap jenis rambak diambil 23 potong
+kriteria sampel memiliki bau dan warna normal, serta tekstur renyah
+sampel dihaluskan supaya penguapan air optimal pemanasan pada shu oven 105oc sampai bobot tetap atau konstan
+akuisisi citra samsung st65 (samsung electronics co
+kamera ditempatkan tegak lurus di atas sampel
+jarak sampel dan lensa kamera 10 cm
+gambar diambil 2 kali pada sisi berbeda
+hasil akuisisi citra dari 69 rambak didapat total 138 citra
+cropping citra hasil cropping disimpan dalam format bit map picture 
+bit map picture merupakan format dasar citra serta bersifat lossless compression sehingga semua informasi dalam citra dapat ditampilkan dan lebih efektif untuk perbaikan dan analisis citra dibanding format citra yang bersifat lossy compression seperti jpeg
+penelitian ini membagi citra rambak menjadi data training dan data validasi dengan proporsi 70%:30% sehingga didapat 291 citra untuk training dan 123 citra untuk validasi
+gambar 2 merupakan contoh representasi citra hasil cropping
+ekstraksi ciri citra matlab r2012a (the mathworks, inc
+ada 414 citra diekstraksi dan diambil nilai rata-rata 
+ektraksi fitur warna dilakukan pada sistem warna red, green, blue dan hue, saturation, intensity 
+ekstraksi colour mean value sesuai persamaan: colour mean value = 1 colour value merupakan nilai untuk setiap model warna pada tiap pixel-nya yaitu r [0, 255], g [0, 255], b [0, 255], h [0o, 360o], s [0, 1], i [0, 1], dan m adalah jumlah pixel dari setiap model warna
+proses ekstraksi tektur mengikuti teknik gray level co-occurance matrix pada matlab 2012
+pada penelitian ini sudut yang digunakan adalah 0o dengan d=1, dan 3 level glcm, yaitu 32, 64, dan 256
+nilai tekstur yang diekstraksi yaitu contrast, correlation, energy, entropy, dan homogeneity 
+nilai-nilai tekstur dari ketiga level tersebut dibanding untuk dipilih level yang dapat digunakan membedakan 3 jenis rambak olahan
+contrast = ∑ ∑ 2p[i, j]nj m i correlation = ∑ ∑ 𝑃[𝑖, 𝑗]𝑁𝑗 𝑀 𝑖 energy = ∑ ∑ 𝑃𝑁𝑗 𝑀 𝑖 ²[𝑖, 𝑗] entropy =∑ ∑ 𝑃[𝑖, 𝑗]𝐿𝑜𝑔 𝑃 [𝑖, 𝑗]𝑁𝑖 𝑀 𝑖 homogeneity =∑ ∑ 𝑃[𝑖, 𝑗] 1+|𝑖−𝑗| matrix yang ternormalisasi, µ dan σ adalah mean dan standar deviasi dari elemen-elemen pixel yang diberikan berdasar hubungan persamaan di bawah ini : p [i, j] = 𝑁 𝜎 = ∑ ²𝑀𝑖 ∑ 𝑃[𝑖, 𝑗] 𝑁 𝑗 dimana n adalah jumlah angka pada citra dengan intensitas pixel i diikuti dengan intensitas pixel j pada satu pixel dengan perpindahan ke kiri, dan m merupakan total jumlah pixel
+arsitektur jst backpropagation terdiri atas 3 layer yaitu input layer, hidden layer, dan output layer
+input pemodelan ini 2 jenis, yaitu warna dan tekstur
+sebelum dianalisis, data input perlu dinormalisasi agar semua pola memiliki nilai range sama dengan fungsi aktivasinya
+penelitian ini menggunakan metode normalisasi minimum-maksimum, sehingga diperoleh interval data [-1 1] mengikuti persamaan 11
+xi = 2 ( 𝑍𝑖−𝑍𝑖 dimana xi adalah nilai ternormalisasi, zi nilai yang dinormalisasi, zi max nilai maksimum pada data zi, zi min nilai minimum pada data zi
+pada matlab metode normalisasi minimum dan maksimum menggunakan fungsi premnmx
+fungsi aktivasi bervariasi meliputi sigmoid biner dan sigmoid bipolar pada hidden layer, dan pada output layer ditambah fungsi linier atau identitas 
+pada penelitian ini epoch dibatasi sampai 5000, dengan goal mse 0, 01
+learning rate digunakan 0, 1; 0, 3; dan 0, 6, momentum 0, 6 dan 0, 9
+pemodelan jst backpropagation terdiri dari 2 tahap, yaitu training dan validasi
+sebanyak 414 citra rambak sapi, kerbau, dan babi dibagi menjadi 291 data training dan 123 data validasi
+prosedur training dan validasi yaitu membagi data menjadi data training dan data validasi; memilih model hidden nodes terbaik; melakukan pelatihan pada model hidden nodes; mengulangi langkah 1 sampai 4 menggunakan hidden nodes terbaik; menerapkan hasil terbaik sebagai model
+model terbaik dipilih berdasar nilai mean square error seperti persamaan, dimana n adalah jumlah data; ti adalah nilai target, dan yi adalah nilai prediksi jst
+hasil dan pembahasan kadar air rambak olahan sapi, kerbau, dan babi pada gambar 3
+pengukuran kadar air rambak untuk menunjukkan kondisi sampel
+kadar air rambak olahan sapi sebesar 8, 098%, rambak olahan kerbau 6, 468%, dan rambak olahan babi 4, 460%
+penelitian rofi'ahmenyatakan kadar air krecek rambak sapi adalah 10, 37%, krecek kerbau 8, 70%, dan krecek babi sebesar 12, 17%
+kadar air rambak goreng lebih rendah dari krecek rambak karena telah mengalami penguapan air selama penggorengan
+huda, et almenyatakan penggorengan menurunkan kadar air rambak
+selama pengeringan kulit menyusut dan selama penggorengan, peningkatan suhu membantu menguapkan air tersisa
+kadar air rambak juga dipengaruhi waktu perendaman di air kapur selama produksi
+semakin lama waktu perendaman di air kapur maka kadar air semakin turun
+perendaman air kapur mempercepat laju pengeringan, karena larutan tersebut menarik molekul air dalam bahan
+semakin banyak air keluar dari bahan semakin banyak ruang kosong di jaringan
+saat rambak digoreng mengembang sampai tingkat tertentu dan menyebabkan rambak lebih renyah
+analisis fitur warna citra rambak olahan 1) modal warna rgb warna yang sering digunakan untuk analisis citra
+rgb mean value didapat dari pembagian jumlah nilai warna citra dengan jumlah piksel citra
+perbandingan rgb mean value ketiga jenis rambak olahan disajikan pada gambar 4
+pada gambar 4 dapat dilihat ketiga jenis rambak memiliki nilai indikator hampir sama
+ditinjau dari nilai red mean, rambak sapi menyebar sebesar 66 dengan mean 209, rambak kerbau sebesar 57 dengan mean 27, dan rambak babi sebesar 78 dengan mean 204
+nilai green mean dan blue mean juga memiliki pola sama tertinggi rambak kerbau, dikuti rambak babi dan rambak sapi
+dalam menyatakan suatu warna tidak dapat hanya mengacu pada nilai hue, tetapi harus disertai dengan saturation dan intensity
+berikut perbandingan nilai hsi ketiga jenis rambak
+5 hsi mean value hue mean, saturation mean, intensity mean rambak olahan gambar 5 memperlihatkan 3 jenis rambak memiliki indikator hue, saturation, dan intensity hampir sama
+pada gambar 5a, nilai sebaran indikator hue rambak sapi yaitu 10, 77, rambak kerbau 8, 86, dan rambak babi 14, 43
+indikator saturation mean dan intensity mean memiliki pola sama tertinggi rambak kerbau dikuti rambak sapi dan rambak babi
+berdasar indikator hue, rambak babi memiliki penyebaran nilai paling luas, diikuti rambak sapi dan kerbau, sementara pada indikator saturation dan intensity, rambak kerbau memiliki nilai penyebaran paling luas, diikuti rambak sapi dan rambak babi
+menurut hendrawan and murasehue merupakan warna sebenarnya, saturation menyatakan kedalaman warna, dan intensity menyatakan banyak cahaya yang diterima
+obyek berwarna merah memiliki nilai hue 0° atau 360°, hijau pada 120°, dan biru pada 240° 
+6 roda warna hue pada model warna hsi rambak kerbau memilliki nilai hue terendah, sementara pada indikator saturation dan intensity rambak kerbau memiliki nilai tertinggi dibanding rambak sapi dan babi
+dibanding roda warna hue pada gambar 6, dapat dilihat warna rambak adalah kekuningan
+menurut rofi'ah, rambak kerbau memiliki warna kuning kecoklatan sampai sangat coklat
+faktor yang memengaruhi perubahan warna dan flavor antara lain tipe minyak untuk menggoreng, suhu minyak, waktu dan suhu penggorengan, serta perlakuan pasca penggorengan
+menurut huda, et al, warna rambak setelah digoreng lebih terang dibanding sebelum digoreng
+pengembangan rambak saat digoreng menyebabkan total pigmen pada satu bagian rambak ikut mengembang atau menyebar ke bagian lain
+hasil analisis perbandingan level 32, 64, dan 256 menunjukkan level 32 berpotensi untuk membedakan ketiga jenis rambak dengan sudut 0° dan jarak = 1
+pada penelitian ini tekstur citra mengunakan entropy, contrast, correlation, energy, dan homogeneity
+pada matlab, kelima indikator tersebut didapat dengan fitur glcm yang tersedia menggunakan fungsi graycoprops
+perbandingan nilai tekstur ketiga jenis rambak pada gambar 7
+gambar 7a menunjukkan nilai entropy rambak sapi menyebar sebesar 0, 504 dengan nilai mean 0, 133, rambak kerbau nilai entropy menyebar 0, 518 dengan nilai mean 0, 186, dan rambak babi nilai sebaran entropy sama rambak sapi yaitu 0, 504 dengan nilai mean 0, 425
+nilai entropy besar untuk citra dengan gray-level merata dan bernilai kecil jika struktur citra tidak teratur atau bervariasi
+paling luas yaitu 0, 323 dengan mean 0, 173, diikuti rambak babi yaitu 0, 258 dengan mean 0, 127 dan rambak sapi yaitu 0, 229 dengan mean 0, 170
+kontras untuk mengukur kekuatan perbedaan intensitas dalam citra
+semakin tinggi nilai contrast semakin tinggi tingkat kekontrasannya
+7 fitur tekstur entropy, contrast, correlation, energy, homogeinity rambak olahan gambar 7c menunjukkan sebaran nilai correlation citra rambak olahan
+correlation rambak babi memiliki nilai sebaran terluas yaitu 0, 092 dengan nilai mean 0, 970, diikuti rambak sapi yaitu 0, 083 dengan mean 0, 967, dan rambak kerbau yaitu 0, 060 dengan mean 0, 975
+correlation menunjukkan hubungan antar pixel pada citra
+pada gambar 7d nilai energy rambak sapi menyebar paling luas dibanding rambak kerbau dan rambak babi
+rambak sapi menyebar sebesar 0, 453 dengan nilai mean 0, 176
+rambak kerbau menyebar sepanjang 0, 343 dengan mean 0, 125, sementara rambak babi menyebar sepanjang 0, 311 dengan mean 0, 143
+nilai energy semakin besar jika pixel pada citra semakin homogen
+homogenity terluas yaitu 0, 137 dengan nilai mean 0, 917
+pada rambak kerbau nilai homogenity menyebar sebesar 0, 107 dengan mean 0, 942
+rambak babi menyebar sebesar 0, 112 dengan mean 0, 918
+nilai homogenity besar jika variasi intensitas dalam citra kecil
+pemodelan dengan membagi data menjadi data training dan data validasi
+data input jst diwakili oleh nilai fitur warna dan tekstur citra rambak olahan, dan target output berupa angka yang mewakili jenis rambak, yaitu 1 untuk sapi, 0 untuk kerbau dan -1 untuk babi
+berikut hasil trial and error data input
+tabel i kombinasi input r validasi mse validasi warna 0, 4611 0, 5272 warna 0, 4545 0, 5718 warna 0, 3523 0, 6042 hasil pemodelan terbaik menggunakan input warna dan tekstur, dengan fungsi aktivasi logsig pada hidden layer dan tansig pada output layer, fungsi pembelajaran traingdm, momentum 0, 9 dan learning rate 0, 1
+menurut irwansyah and faisal, fungsi aktivasi log-sigmoid umum digunakan pada multilayer network yang menggunakan algortima pelatihan backpropagation dengan range [0 1]
+fungsi lain yang sering dipakai pada backpropagation adalah fungsi sigmoid bipoar dengan range [-1 1]
+traingdm merupakan metode paling sederhana yang modifikasi penurunan tercepatnya dilakukan dengan menambah momentum
+perubahan bobot saat ini dilakukan memperhitungkan perubahan bobot epoch sebelumnya
+semakin kecil learning rate perubahan bobot kecil dan pergerakan kurva mse semakin halus
+learning rate terlalu besar menyebabkan ketidakstabilan perubahan mse
+momentum untuk mengimbangi learning rate diperlukan guna menghindari perubahan bobot mencolok
+optimasi model jst klasifikasi jenis rambak olahan pada tabel 2
+tabel ii menurut hendrawan and murasemodel terbaik dipilih berdasar mse validasi terkecil
+nilai mse bergantung model jst yang dijalankan
+pilihan 2 hidden layer dengan 10 nodes tiap layer memberikan mse validasi terendah 0, 2362 dan r tertinggi 0, 8317
+grafik training error dan koefiesien korelasi model terbaik pada gambar 8
+8 simulasi jst terbaik performa training error, r training, dan r validasi pada gambar 8a tampak tidak terjadi penurunan mse signifikan sejak awal hingga epoch maksimum
+hasil traning divalidasi untuk mengukur kemampuan model memprediksi keluaran dari masukan jst
+pada gambar 8c dapat dilihat nilai r validasi 0, 83174 dan mse validasi 0, 2362
+menurut ratner, nilai r 0, 7-1, 0 mengindikasikan hubungan kuat
+arsitektur jst terbaik disajikan pada gambar 9
+pada rambak olahan babi 33 data teridentifikasi benar, sisanya 8 data dikenali sebagai rambak olahan kerbau 
+akurasi model belum mencapai goal sehingga perlu perbaikan pada penelitian berikutnya
+menurut adnan, et alpenambahan input umumnya mampu meningkatkan akurasi rata-rata
+penelitian ini menggunakan sampel rambak dari pasar secara langsung sehingga memengaruhi akurasi klasifikasi
+blue diperoleh rata-rata rgb rambak kerbau tertinggi, diikuti rambak sapi dan babi
+rerata indikator warna hue, saturation, dan intensity rambak kerbau h terkecil dan nilai s serta nilai i tertinggi dibanding rambak sapi dan babi
+ekstraksi fitur tekstur menggunakan glcm, pembeda terbaik ketiga jenis rambak pada level 32
+rerata indikator entropy, contrast, dan homogeneity citra rambak sapi terkecil dibanding rambak kerbau dan babi
+rerata indikator correlation rambak babi terkecil, dan pada rerata energy citra rambak kerbau memiliki nilai terkecil
+kombinasi input warna dan tekstur lebih baik dibanding warna atau tekstur saja
+penelitian lanjtan analisis citra dan jst terhadap rambak perlu dilakukan untuk menguji beragam rambak dari berbagai daerah sehingga mengenali pola sifat dielektrik rambak tersebut
+pengenalan rambak olahan memang lebih komplek dibanding rambak mentah sehingga membutuhkan sampel lebih besar
+ucapan terima kasih / acknowledgment yang telah membantu publikasi

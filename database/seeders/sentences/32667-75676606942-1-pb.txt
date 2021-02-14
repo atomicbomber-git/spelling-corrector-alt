@@ -1,0 +1,122 @@
+eee paper template in a4 vol 5 no 2 pembandingan tiga nada vokal /e/ untuk animasi gerak bibir anung rachman #1, risanuri hidayat *2, hanung adi nugroho *3 #institut seni indonesia surakarta jl
+ring road, mojosongo, jebres, kota surakarta, jawa tengah 57127 1anung.rachman@mail.ugm.ac.id jl
+grafika no2, yogyakarta, senolowo, sinduadi, mlati, kota yogyakarta, daerah istimewa yogyakarta 55281 2risanuri@ugm.ac.id 3adinugroho@ugm.ac.id berkembang secara signifikan seiring dengan perkembangan industri kreatif
+metode yang sering digunakan untuk membuat gerak bibir tersebut adalah peta fonem ke visem
+pembangunan peta fonem ke visem awalnya mengacu pada ketentuan baku susunan fonem yang sudah ada, namun kemudian susunan ini berkembang mengikuti kebutuhan
+fonem vokal mengambil peran terbesar karena energi percakapan terakumulasi padanya
+variasi pengucapan vokal yang sangat beragam menyebabkan susunan keberadaan fonem vokal pada peta juga beragam
+keragaman ini berimplikasi pada akurasi peta fonem ke visem yang juga berujung pada akurasi gerak bibir animasi
+paper ini membahas tentang signifikansi perbedaan tiga macam nada vokal /e/ bahasa indonesia baik dari ciri audio maupun dari ciri visual untuk menunjang susunan baku vokal pada peta fonem ke visem
+metode yang digunakan adalah filter lpc untuk mengekstraksi ciri frekuensi forman, par-clr untuk mengekstraksi ciri visual, hingga uji statistik untuk mengetahui signifikansi perbedaan
+hasilnya menunjukkan sebagian nada tersebut memiliki perbedaan signifikan satu sama lain
+sehingga peta fonem ke visem akan lebih akurat jika menyertakan unsur ketiga /e/ tersebut
+ada dua kiblat animasi di dunia yaitu jepang dan amerika
+animasi jepang memiliki ciri khas berupa kekuatan karakter, sedangkan animasi amerika sangat rinci dalam setiap pergerakannya
+pergerakan yang sangat rinci juga tampak pada dialog khususnya pada bagian mulut
+pergerakan ini memerlukan ketepatan dalam sinkronisasi bibir atau lipsync
+kekuatan gerak bibir merupakan bagian dari kualitas sebuah klip animasi
+untuk menghasilkannya, pembuatan gerak bibir selama ini dilakukan secara manual data rekaman suara yang sudah tersedia, selanjutnya disinkronisasi dengan pergerakan mulut, frame by frame
+upaya sinkronisasi dengan cara manual tentu saja memerlukan waktu yang lama dan butuh konsentrasi dari pembuatnya agar terlihat sangat rinci
+teknologi gerak bibir otomatis diciptakan untuk membantu pekerjaan tersebut
+tentu saja perkembangan teknologi ini belum dapat menggantikan pekerjaan sinkronisasi secara penuh agar terlihat bagus
+namun munculnya teknologi gerak bibir otomatis sangat membantu dalam pekerjaan dalam bidang animasi yang lebih ringan misalnya untuk klip berdurasi pendek
+fonem adalah satuan bunyi yang dapat membedakan pengucapan baik pada kata yang sama atau berbeda
+sedangkan visem adalah visual fonem, sama seperti fonem tetapi dalam bentuk visual pada teknologi gerak bibir otomatis, ciri suara input diekstrak, lalu berdasarkan peta, ciri fonem yang terdeteksi pada bagian klasifikasi dikonversi menjadi visem
+terlalu banyak karakteristik yang menyertai sehingga peta yang dihasilkan diantara peneliti bisa berbeda signifikan
+karakteristik tersebut antara lain rumitnya otot wajah, hingga standar fonem yang bisa berkembang sesuai dengan ragam suku kata yang bisa diucapkan
+namun jika dilihat lebih lanjut, vokal /e/, dan vokal /o/ memiliki lebih dari satu nada pengucapan
+vokal /e/ untuk kata ‘pesta’ berbeda nada pengucapan dengan /e/ pada kata ‘peristiwa’, dan /e/ pada kata ‘nenek’
+hal yang sama juga terjadi pada vokal /o/
+kata ‘koperasi’ memiliki nada /o/ yang berbeda pada kata ‘motor’
+jika fonem tersebut diterapkan untuk animasi gerak bibir, terjadi kemungkinan visem menjadi kurang akurat
+antara fonem vokal /e/ pada bahasa indonesia untuk tiga macam nada
+jika berbeda signifikan, maka sudah seharusya peta fonem ke visem juga memuat ketiga nada /e/ tersebut agar animasi gerak bibir terlihat lebih rinci
+peta fonem ke visem pada animasi gerak bibir, beberapa visual mulut memiliki bentuk yang mirip untuk suara yang berbeda
+agar tidak terjadi tumpang tindih, maka beberapa fonem dikelompokkan menjadi satu kelas berdasarkan visem yang mirip
+proses pengelompokkan tersebut dikenal sebagai pemetaan fonem ke visem
+terdapat dua macam pendekatan untuk mengelompokkan visem, yaitu pendekatan melalui ilmu linguistik dan pendekatan berdasarkan ciri
+metode pemetaan yang digunakan juga bermacam-macam
+menggunakan ilmu linguistik, menggunakan metode decision trees yang dipadu dengan ilmu linguistik, menggunakan bottom-up clustering berdasarkan kemiripan model gaussian pada titik tengah frame visual segmen fonem melalui ciri pca, hingga menggunakan pca yang dikombinasi dengan lda untuk mengekstraksi ciri bentuk bibir yang kemudian dikelompokkan melalui algoritme k-means
+hasil peta dari para peneliti tersebut dapat dilihat pada dua tabel berikut, tabel i adalah pemetaan visem pada bahasa inggris, dan tabel ii adalah pemetaan visem pada bahasa indonesia
+terlihat pada tabel i dan tabel ii, keberadaan vokal maupun susunannya berbeda-beda
+perbedaan ini terjadi akibat kerumitan yang ada pada otot wajah sehingga membuat gaya pengucapan sangat bervariasi
+variasi pengucapan tersebut dikenal sebagai alofon
+terlihat pada tabel ii, tiga peneliti menghasilkan peta dengan posisi vokal /e/ bahasa indonesia yang berbeda satu sama lain
+arifin dkkmenggunakan dua macam /e/ yang berbeda kelas, sedangkan peta setyati dkkmemuat tiga macam /e/ dan menempatkannya dalam satu kelas bersama diftong /ai/
+dan pada peta fonem ke visem liyanthy dkkterdapat satu macam /e/ serta menempatkannya dalam satu kelas tersendiri
+kinerja peta fonem ke visem atau akurasi gerak bibir animasi
+perbedaan keberadaan dan susunan vokal /e/ mengkonfirmasi bahwa terdapat metode pemetaan yang menghasilkan peta kurang akurat
+untuk mengetahuinya, paper ini mengusulkan metode untuk memvalidasinya berupa perbedaan pada ciri audio dan ciri visual iii
+ikhtisar dua macam yaitu perbandingan ciri audio dan ciri visual seperti yang terlihat pada gambar 2
+pada perbandingan ciri audio, metode yang digunakan adalah melalui filter lpcuntuk menghasilkan ciri frekuensi forman
+dengan filter ini, akan diketahui sinyal informasi dari input audio vokal /e/
+selanjutnya pada setiap resonansi pada sinyal informasi akan dideteksi bagian puncaknya
+melalui algortima deteksi citra yaitu par-clr
+algoritma ini akan menghasilkan ciri-ciri visual bagian mulut berupa titik koordinat yang disebut sebagai landmark
+untuk melihat perbedaan diantara landmark vokal /e/, langkah selanjutnya adalah mengukurnya melalui analisis procrustes
+ikhtisar pembandingan ciri suara vokal /e/, dan pembandingan ciri visual citra mulut vokal /e/ 
+data rekaman suara untuk satu macam vokal /e/ di satu posisi sebuah kata
+vokal /e/ ditentukan ada pada dua posisi, yaitu bagian depan dan bagian belakang pada sebuah kata
+penentuan posisi ini dimaksudkan agar rekaman mengandung ciri artikulasi atau nada transisi dari suatu suku kata terhadap suku kata disebelahnya
+karena ditentukan dua posisi dalam sebuah kata, maka jumlah rekaman suara adalah 20 data untuk satu macam vokal /e/
+sedangkan vokal /e/ yang dicari perbedaannya adalah tiga macam yaitu /e1/, /e2/, dan /e3/
+sehingga jumlah total adalah sebanyak 60 data rekaman kata yang mengandung vokal /e/
+proses perekaman menggunakan sample rate 24khz, kanal mono, kedalaman bit 32, dan menggunakan format mp3
+dari perekaman video terhadap seseorang yang mengucapkan tiga macam vokal /e/ dengan sudut pengambilan di area wajah
+rekaman video kemudian diekstrak menjadi rangkaian citra
+setiap macam rangkaian vokal /e/ kemudian diambil satu sampel daerah tengah pengucapan
+resolusi citra adalah 720x1280 piksel sesuai resolusi rekaman video
+linear predictive coding merupakan filter resonansi yang meniru sistem pembentuk nada yang ada pada manusia ketika menghsilkan suara
+filter tersebut merupakan tiruan semacam bibir, lidah, hingga saluran suara pada mulut manusia, terhadap sumber suara yaitu pita
+setiap organ pada mulut pembentuk nada tersebut menghasilkan jeda suara yang terbentuk antara satu organ terhadap organ disebelahnya
+jika sinyal suara yang mengandung jeda ini adalah 𝑐, 𝑡 = 1 … 𝑝, sinyal suara yang dihasilkan oleh mulut manusia adalah 𝑐̈, 𝑐̈ = 𝑎1𝑐 + 𝑎2𝑐 + ⋯ + 𝑎𝑝𝑐 �̈� adalah suara yang dihasilkan dari sumber suara c, dengan 𝑎 sebagai koefisien
+persamaan di atas dapat disederhanakan menjadi, 𝑐̈ = ∑ 𝑎𝑡 diubah dalam bentuk domain 𝑧
+filter 𝑓 adalah, 𝑓 = ∑ 𝑎𝑡𝑧 −𝑡 kesalahan prediksi yaitu selisih dari sinyal prediksi terhadap sinyal input
+jika kesalahan prediksi adalah e, maka, dalam domain 𝑧, 𝑒 = 𝑎 𝑐 𝑎 = 1 − 𝑓 𝐻 = 1 sinyal resonansi tersebut, dari f1, f2, hingga f seterusnya
+ciri-ciri audio yang membedakan banyak terletak pada dua frekuensi forman pertama 
+ciri visem vokal /e/ untuk membandingkan visem, ciri citra yang digunakan adalah landmark, yaitu titik-titik koordinat yang menunjukkan area mulut
+landmark dihasilkan melalui metode parallel cascade of linear regression 
+metode ini merupakan pengembangan dari metode seq-clr yang perberdaaanya terletak pada proses menghasilkan titik koordinat
+cara kerja par-clr adalah sebagai berikut
+sebuah fungsi 𝑓 akan mendeteksi gambar wajah 𝑗𝑘 untuk menghasilkan vektor ciri 𝑞 sebagai parameter bentuk wajah, 𝑥1 𝑘
+setiap 𝑗𝑘 yang telah mengandung vektor ciri dinotasikan sebagai 𝑥∗ 𝑘
+titik landmark akan dihasilkan melalui algoritme seq- clr sebagai berikut, e
+melalui dua obyek bentuk, procrustes membandingkan satu sama lain melalui transformasi berupa translasi, rotasi dan skala
+1) translasi: translasi adalah memindahkan dua obyek bentuk yang diperbandingkan ke titik tengah, sehingga kedua obyek tersebut berada pada titik tengah yang sama
+jika terdapat obyek bentuk dengan titik landmark sejumlah k, maka rerata dari kedua obyek bentuk tersebut adalah, 𝑥 = 𝑥1 + 𝑥2 + ⋯ + 𝑥𝑘 → menghasilkan titik,
+2) skala: setelah ditranslasi, terhadap ke dua obyek selanjutnya dilakukan penskalaan untuk membuat keduanya dalam besaran bentuk yang sama
+penskalaan melalui metode root mean square distance sehingga menghasilkan nilai 1 terhadap keduanya
+jika 2 + 2 + ⋯ = 0 maka, ) berupa translasi, skala, dan rotasi, maka tingkat kemiripan yang dikenal sebagai procrustes distance dapat diketahui melalui persamaan, 2 + ⋯ 1 yang menggambarkan perbedaan antara suatu obyek bentuk yang menjadi acuan dan obyek bentuk hasil transformasi
+nilai mendekati 0 diartikan dengan mirip, dan jika mendekati 1 diartikan tidak mirip
+hasil dan pembahasan hasil ekstraksi ciri audio pada vokal /e/ terlihat seperti ditunjukkan pada tabel iii
+tabel tersebut terdiri dari vokal /e1/, /e2/, dan /e3/ pada sebuah kata baik pada posisi depan maupun belakang
+sebelum ciri vokal diekstrak, setiap rekaman kata diobservasi untuk mengetahui letak vokal /e/ pada sebuah spektogram, lalu diseleksi sesuai posisi yang ditentukan, dan selanjutnya ciri diekstrak pada bagian tengah vokal yang sudah diseleksi
+frekuensi forman diambil sebagai data hanya pada resonansi pertama hingga ketiga, yaitu f1, f2, dan f3
+plot distribusi nilai forman f1 dan f2 vokal /e/ pada gambar 3 dapat digunakan untuk melihat tingkat perbedaan lebih jauh
+plot distribusi frekuensi forman f1 dan f2 untuk vokal /e1/, /e2/, dan /e3/ vokal /e/
+distribusi yang berdekatan bahkan saling tumpang tindih mengindikasikan kemiripan diantara ketiganya
+meskipun demikian, ketiganya memiliki ciri yang cenderung sedikit berbeda yaitu, forman vokal /e1/ yang cenderung pada frekuensi f2 tinggi namun f1 rendah, /e2/ yang cenderung tinggi untuk f1 namun rendah pada f2, dan /e3/ yang memiliki kecenderungan tinggi untuk f1 dan f2
+maka dilakukan uji statistik terhadap frekuensi forman ketiga vokal /e/
+model yang digunakan adalah one way anova dengan uji hsd tukey pada rerata frekuensi forman
+tabel iv kontras perbedaan tabel v kontras perbedaan tabel vi kontras perbedaan e2 vs e3 198, 313 1, 868 0, 157 tidak e2 vs e1 40, 116 0, 378 0, 924 tidak e1 vs e3 158, 197 1, 490 0, 303 tidak tabel iv, v, dan vi adalah hasil uji statistik tukey yang menampilkan nilai perbedaan diantara ketiga vokal /e/
+batas signifikansi 5% digunakan untuk menentukan nilai kritis q yang dibandingkan terhadap standar perbedaan diantara rerata 
+ketiga tabel tersebut jika disimpulkan akan tampak seperti pada tabel vii di bawah
+tabel vii vokal /e/ beda signifikan hasil pengujian pada tabel vii memperlihatkan bahwa forman f3, tidak berbeda signifikan untuk tiga macam vokal /e/
+hal ini sekaligus juga mengkorfimasi bahwa ciri forman hanya terletak pada dua frekuensi pertama
+kondisi ideal terjadi ketika f1 dan f2 terjadi perbedaan signifikan seperti yang terjadi antara vokal /e2/ dan /e3/
+meskipun demikian, perbandingan vokal /e/ yang lain terdapat perbedaan signifikan pada salah satu frekuensi forman sehingga diantara ketiga vokal /e/ tersebut sudah seharusnya dimasukkan menjadi bagian dari peta fonem ke visem
+ciri visual berupa landmark diekstrak melalui metode par-clr
+landmark ditentukan khusus pada bagian mulut sebanyak 18 yang terdiri dari 12 titik lingkar luar dan sisanya berada di lingkar dalam mulut seperti terlihat pada gambar 4
+landmark berupa titik koordinat untuk tiga visem /e/ terlihat pada tabel viii
+nilai 0 mengindikasikan bahwa dua bentuk yang dibandingkan sama persis, dan nilai 1 adalah sebaliknya
+nilai tabel ix, jika menggunakan batas rerata ini maka perbedaan ada pada /e1/ dan /e2/ serta /e2/ dan /e3/
+jika perbedaan ciri audio dan ciri visual vokal /e/ dibandingkan sesuai tabel vii dan tabel ix, hasilnya terlihat seperti tabel x
+tabel x vokal /e/ beda signifikan ciri audio ciri visual e1 e2 ya ya e2 e3 ya ya e3 e1 ya tidak tabel x memperlihatkan perbedaan signifikan diantara ketiga vokal /e/ untuk ciri audio dan ciri visual pada ciri audio, f1 dan f2 adalah satu paket, sehingga jika salah satu f atau kedua f berbeda signifikan, maka vokal /e/ dianggap berbeda
+perbedaan ciri audio pada tabel tersebut dapat diartikan bahwa ketiga vokal /e/ seharusnya ada pada peta fonem ke visem
+sedangkan untuk kelas visem, vokal /e1/ dan /e3/ dapat dikelompokkan menjadi satu kelas
+hasil ini jika dibandingkan dengan peta fonem ke visem yang sudah ada seperti pada tabel ii, maka peta arifin dkkpaling mendekati, meskipun hanya memuat /e1/ dan /e2/, namun kedua /e/ tersebut terletak pada kelas visem yang berbeda
+ketiga vokal tersebut memiliki ciri audio yang berbeda dibuktikan dengan hasil uji yang menunjukkan perbedaan signifikan
+sedangkan pada ciri visual, visem /e1/ mirip terhadap /e3/, namun keduanya tidak mirip terhadap visem /e2/
+perbedaan ini tentu saja harus diakomodasi ketika membangun teknologi gerak bibir otomatis
+selain itu sistem juga seharusnya memasukkan basis data visem minimal dua citra untuk visem /e/
+penelitian berikutnya yang berkaitan dengan peta fonem ke visem bahasa indonesia dapat dikembangkan dengan memasukkan ketiga unsur vokal /e/

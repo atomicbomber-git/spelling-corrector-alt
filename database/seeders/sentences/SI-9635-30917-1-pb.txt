@@ -1,0 +1,47 @@
+rovinsi kalimantan barat aji.arisyandi@gmail.com infrastructure have a very close effect on the national economy, considering the activity on the field of transport activity contribute to the distribution of goods and services to the entire country and between countries
+western part of the island of borneo
+west kalimantan mostly located in the coastal marine area and partly upstream areas crossed by large rivers, thus allowing abundant water transportation
+the west kalimantan uses forward chaining approach as a main method of research
+this method has a function to trace the progress of a presupposition of a sampled cases which have determinant variables including vehicle volume, passenger operations time
+in determining the required port class user role in incorporating elements of assessment the province with certain classes
+geographic information system is the output of the report table and mapping of sea port area as a source of data for stake holders and the general public because the existing system is using a web-based design to determine the port area development planning in the province of west kalimantan
+sangat berpengaruh besar terhadap dan jasa ke seluruh pelosok tanah air dan antar negara, oleh karena itu kebijakan pembangunan infrastruktur perhubungan kemajuan-kemajuan yang telah dicapai selama ini
+ dan sebagian lagi daerah hulu yang dilintasi oleh sungai-sungai besar, sehingga memungkinkan banyak terdapat sarana memiliki fungsi yaitu: sebagai gateway suatu negara atau daerah, karena suatu kapal dapat memasuki suatu negara/daerah melalui pelabuhan negara sebagai interface, darat termasuk angkutan sungai
+ini berarti pelabuhan harus menyediakan berbagai kapal ke moda angkutan darat, atau sebaliknya; sebagai link, pelabuhan merupakan sebagai salah satu mata rantai dari sistem transportasi dimana pelabuhan tidak terlepas dari mata rantai transportasi lainnya baik dilihat dari kinerja maupun dari segi biaya sangat mempengaruhi tingkat efisiensi dan menentukan tingkat biaya transportasi entity, dimungkinkan menjadi hinterland dari pelabuhan
+diberikan oleh pelabuhan laut, maka manajemen infrastruktur akan sangat mempengaruhi aktivitas tersebut
+data sumber informasi bagi pihak terkait untuk melakukan peremajaan maupun menghimpun informasi lokasi dari data yang terkomputerisasi, sehingga memudahkan pihak terkait memperoleh bahkan melakukan pengembangan
+adalah untuk mempermudah mendapatkan dalam sig adalah data yang telah terikat dengan lokasi dan merupakan data dasar yang belum dispesifikasi
+melalui penelitian ini diharapkan perhubungan laut, yang ada di propinsi kalimantan barat
+selain itu dapat menjadi sumber informasi dalam menyusun arahan dan alat bantu bagi bidang pehubungan laut untuk merencanakan penataan sistem informasi geografis atau geographic information system dirancang untuk bekerja dengan data yang bereferensi spasial atau lain suatu sig adalah suatu sistem basis data dengan kemampuan khusus untuk menangani data yang bereferensi keruangan bersamaan dengan mengelola, memanipulasi dan menganalisa data serta memberi uraian
+atas beberapa subsistem yaitu: mempersiapkan data spasial dan data atribut dari berbagai sumber
+subsistem ini pula yang bertanggung jawab dalam mengkonversi atau mentransformasikan b) data output subsistem ini menampilkan atau menghasilkan keluaran seluruh atau sebagian basisdata baik dalam bentuk softcopy maupun bentuk lain-lain
+maupun atribut ke dalam sebuah basisdata sedemikian rupa sehingga edit
+adapun fungsi-fungsi dasar dalam sig adalah sebagai berikut: pembangunan topologi, konversi b) pengelolaan database meliputi: pengarsipan data, permodelan bertingkat, pemodelan jaringan dan daerah penyangga dan overlay
+generalisasi, peta topografi, peta internet / web
+pada konfigurasi webgis ada server yang berfungsi sebagai mapserver yang bertugas memproses mengirimkannya kembali ke client
+dalam hal ini pengguna / client tidak perlu mempunyai software gis, hanya menggunakan internet browser seperti google chrome untuk mengakses gis memiliki kemampuan untuk melakukan pengolahan data dan melakukan operasi-operasi tertentu dengan menampilkan dan menganalisa data
+secara jumlah applikasi namun juga bertambah dari jenis keragaman gis
+hal ini disebabkan karena pengembangan applikasi di lingkungan peta online sebuah kota, hal tersebut memungkinkan pengguna dapat dengan secara online melalui jaringan intranet/internet tanpa mengenal batas geografi penggunanya
+secara umum sistem informasi geografis dikembangkan data
+dilintasi dari suatu permasalahan un- tuk memperoleh solusi penalaran dari fakta menuju konklusi yang terdapat dari fakta
+forward chaining merupakan grup dari multipel inferensi yang melakukan pen- carian dari suatu masalah kepada solusinya
+pilkan kumpulan data atau fakta yang meyakinkan menuju konklusi akhir
+jadi metode forward chaining dimulai dari informasi masukan dahulu kemudian menuju konklusi atau dapat dimodelkan sebagai berikut : atau diagnosis
+karakteristik sistem dan mengidentifikasi dasar perbaikan.adapun hasil dari pengujian menggunakan forward chaining, parameter yang di tetapkan untuk kelas pelabuhan: fact i ii iii mampu menggambarkan pemetaan parameter tertentu yang berdasar pada peraturan pemerintah no 69 tahun 2001 tentang kepelabuhanan
+sistem yang telah dirancang harus terpasang mysql, xampp dan browser
+sistem yang dirancang terdiri dari halaman utama, halaman manajemen dan halaman laporan aplikasi
+antarmuka hasil perancangan gambar dibawah: gambar 3
+antarmuka halaman 4.2 hasil pengujian aplikasi sistem informasi geografis pemetaan kawasan pelabuhan di provinsi pengujian fungsi-fungsi tersebut dilakukan dengan menjalankan fungsi sebagaimana fungsi melakukan manipulasi kelas dipenuhi sebagaimana sudah tertulis telah dirancang oleh pengguna dan juga dapat dilihat oleh publik
+pengguna level pertama diberikan fasilitas untuk dapat melakukan manipulasi terhadap menambah pelabuhan baru
+yang menjelaskan bahwa penambahan orang/hari dan kendaraan > 500 unit / hari serta kapasitas dermaga > 1000 grt dan waktu operasi dermaga > 12 jam / hari dapat dikategorikan sebagai pelabuhan bahwa penambahan kawasan dengan volume angkutan 1000-2000 orang/hari kapasitas dermaga 500-1000grt dan dikategorikan sebagai pelabuhan kelas ii
+tabel 4.9memberikan gambaran bahwa penambahan kawasan dengan volume <250 unit / hari serta kapasitas dermaga 500 grt dan waktu operasi dermaga <6 jam / hari dapat dikategorikan sebagai pelabuhan kelas iii
+seterusnya dapat dilihat pada tabel 4.10 nilai selain kriteria batasan pada tiga pengujian lainnya menghasilkan keluaran berupa kelas sebagaimana tertuang dalam analisis perancangan aplikasi sebelumnya
+kelas peraturan pemerintah yang telah ada dan dimasukkan kedalam aplikasi
+hasil pengujian menunjukkan diterapkan didalam aplikasi yang tujuan perancangan aplikasi
+indikator masuk kedalam kategori penilaian tertentu
+range nilai yang ada pada kategori pengujian manipulasi kawasan juga telah sesuai sebagaimana mestinya dan pengujian yang telah sesuai dengan tujuan perancangan sistem
+pengujian terhadap sistem informasi geografis pemetaan kawasan pelabuhan disimpulkan bahwa: persebaran kawasan pelabuhan yang masing-masing kawasan pelabuhan pembangunan kawasan pelabuhan di yang telah dibuat pemerintah
+sistem dapat mengklasifikasikan kelas pelabuhan laut sebagai mana tertuang dalam pp no69 tahun 2001
+membuat aplikasi web php dan mysql
+bandung: informasi geografis umkm kabupaten probolinggo berbasis web
+memperoleh gelar sarjana dari program studi teknik informatika universitas tanjungpura, pontianak, indonesia, 2014

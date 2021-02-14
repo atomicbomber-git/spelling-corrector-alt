@@ -1,0 +1,67 @@
+with the increasing number of existing recipes, a cook will be easier to search for the recipe through internet information media
+therefore, the web- based decision support system that can determine the recipe according to user needs is required
+user will enter the food ingredients, seasoning, cooking time, type of cuisine, cooking methods and the level of difficulty 
+from the user’s data entry, the system will determine a suitable recipe as the user desires
+the method that this system used is saw 
+this method is used because of its ability to conducting an assessment precisely based of criteria value and preferences integrity that has been determined
+rank order centroid value in saw method
+this method been used to overcome the disproportionate criteria value
+tests on the final results of the system using blackbox method, manual calculations, and questionnaire rating has final score 2290 showed that implementation of saw method can more accurately assess the value and weight of specified criteria that generate the best alternative
+pengolahan makanan untuk rumah tangga maupun usaha seperti misalnya katering dan restoran
+di zaman dahulu, resep-resep juga beredar dengan cara lisan sehingga beberapa bagian hilang dan kadang-kadang menimbulkan variasi masakan
+dengan ada, akan lebih mudah melakukan pencarian resep sesuai kebutuhan melalui media informasi yang ada salah satunya adalah melalui internet pada saat ini hampir di segala bidang membutuhkan internet sebagai sumber informasi, sehingga penggunaan sangat penting bagi seluruh lapisan masyarakat
+sekarang ini sering kali pula seorang pengolah makanan seperti ibu rumah tangga lebih memilih untuk membeli olahan makanan jadi yang kebersihan dan kandungannya belum terjamin untuk ini dikarenakan faktor kurangnya makanan yang siap olah telah tersedia dirumah
+oleh karena itu, diperlukan aplikasi berbasis web yang dapat menentukan resep masakan sesuai pengguna
+ini adalah metode saw 
+metode saw dipilih karena menurut sri eniyati, metode saw atribut, kemudian dilanjutkan dengan proses perangkingan yang akan menyeleksi terbaik
+selain itu, kelebihan dari model saw dibandingkan dengan model terletak pada kemampuannya untuk karena didasarkan pada nilai kriteria dan bobot preferensi yang sudah ditentukan
+menurut henry wibowo s menyatakan bahwa total perubahan nilai yang dihasilkan oleh metode saw lebih banyak sehingga metode saw sangat relevan untuk menyelesaikan masalah menggunakan aplikasi tersebut, pengguna pengguna akan memasukkan bahan jenis masakan dan cara memasak serta memasukkan tingkat kesulitan resep / beginner, menengah / intermediate, ahli / aplikasi akan menentukan resep masakan yang cocok sesuai keinginan pengguna
+landasan teori 2.1 sistem pendukung keputusan spk didefinisikan sebagai sistem komponen-komponen yang saling pengetahuan, dan sistem pemrosesan relevan dan diperlukan untuk membuat keputusan tentang suatu masalah dengan lebih cepat dan akurat
+spk ditujukan untuk membantu para pengambil keputusan untuk memecahkan masalah semi dan atau tidak terstruktur dengan fokus menyajikan sebagai bahan alternatif pengambilan tidak dimaksudkan untuk menggantikan pengambilan keputusan dalam proses pembuatan keputusan
+2.2 metode simple additive weighting metode saw sering juga dikenal istilah metode penjumlahan terbobot
+konsep dasar metode saw adalah mencari penjumlahan terbobot dari rating kinerja pada setiap alternatif dari semua atribut
+metode saw membutuhkan proses normalisasi matriks diperbandingkan dengan semua rating diberikan persamaan sebagai berikut : ternormalisasi dari alternatif ai pada atribut cj ; i=1, 2,
+nilai preferensi untuk setiap alternatif diberikan sebagai berikut: xij min xij terpilih
+menetapkan sejumlah alternatif dan beberapa atribut 
+mencari bobot dari kriteria yang telah ditentukan
+pembobotan yang dianggap tidak proporsional digunakan rumus pembobotan rank order centroid 
+menurut jeffreys dan cockfield dalam afiefah rahma, teknik roc memberikan bobot pada setiap kriteria sesuai dengan ranking yang dinilai berdasarkan tingkat prioritas
+kriteria 1 lebih penting dari kriteria 2, yang lebih penting dari kriteria 3
+biasanya dibentuk dengan pernyataan dan seterusnya hingga kriteria ke n, ditulis
+untuk menentukan bobotnya, diberikan sebagai berikut: dirumuskan sebagai berikut, adalah database server
+database server adalah server yang berfungsi untuk menangani database
+database adalah suatu pengorganisasian data dengan tujuan memudahkan penyimpanan dan pengaksesan data
+dengan menggunakan mysql, kemudian data bisa diakses dengan cara yang mudah dan cepat
+mysql tergolong sebagai database baris dan kolom
+model fmadm dan saw dalam prosesnya memerlukan kriteria yang akan dijadikan bahan perhitungan pada proses perankingan
+dari masing-masing kriteria tersebut akan ditentukan bobot-bobotnya dengan menggunakan pembobotan roc dapat dilihat pada tabel 3.1 berikut ini: tabel 3.1 pembobotan kriteria setelah setiap kriteria dibobotkan, kemudian dilakukan pembobotan untuk ditentukan
+kriteria bahan makanan merupakan persyaratan yang dibutuhkan untuk perekomendasian
+berdasarkan hasil survey makanan merupakan komponen penting interval nilai bahan makanan yang telah dikonversikan dengan bilangan fuzzy bahan bobot b
+kriteria dan bobot bumbu masakan kriteria bumbu masakan merupakan persyaratan yang dibutuhkan untuk perekomendasian
+bumbu masakan adalah citarasa dalam suatu resep masakan
+berikut interval nilai bumbu masakan yang telah dikonversikan dengan bilangan fuzzy masakan c
+kriteria dan bobot tingkat kesulitan kriteria tinggi badan merupakan persyaratan yang dibutuhkan untuk perekomendasian
+berdasarkan hasil survey bilangan fuzzy dibawah ini
+kriteria dan bobot waktu memasak kriteria waktu memasak merupakan persyaratan yang dibutuhkan untuk suatu resep masakan
+berikut interval nilai waktu memasak yang telah dikonversikan dengan bilangan fuzzy dibawah ini: tabel 3.5 bobot subkriteria waktu memasak kriteria jenis masakan merupakan persyaratan yang dibutuhkan untuk perekomendasian
+nilai kriteria jenis pada resep tidak sesuai dengan input-an pengguna dan apabila cocok dengan input-an yang diinginkan pengguna
+berikut interval nilai jenis masakan yang telah dikonversikan dengan bilangan fuzzy jenis bobot f
+kriteria dan bobot cara memasak kriteria cara memasak berkas merupakan persyaratan yang dibutuhkan untuk perekomendasian
+berikut interval dikonversikan dengan bilangan fuzzy cara bobot gambar diagram konteks 3.3 diagram overview gambar diagram overview gambar entity relationship diagram relasi-relasi dan konektivitas yang terjadi dari entitas-entitas yang ada, yaitu : a
+hubungan antara entitas pengguna dengan biodata adalah one to one karena setiap pengguna hanya meng- input-kan satu biodata
+hubungan antara entitas pengguna dengan kriteria resep, forum dan komentar adalah one to many karena satu pengguna dapat meng-input dari satu kriteria resep masakan, meng- input lebih dari satu forum dan mem- posting lebih dari satu komentar
+hubungan antara entitas admin dengan resep masakan dan forum adalah one to many karena admin dapat menginputkan banyak resep masakan, mengedit dan memposting d
+hubungan antara entitas resep masakan dengan kriteria resep adalah one to many karena satu resep masakan memiliki lebih dari satu kriteria resep
+tampilan halaman depan / form dimana pengguna dapat melihat data –data 1.0 analisis proses rekomendas i bumbu 2.0 registrasi pengguna antarmuka halaman daftar resep dapat dilihat pada gambar 2: resep telah dipilih sebelumnya pada halaman daftar resep masakan
+antarmuka halaman resep masakan dapat dilihat pada gambar 3 berikut ini: masakan dan user dapat melengkapi masukkan kriteria resep beserta deskripsinya pada kolom yang telah disediakan
+antarmuka form tambah resep baru dapat dilihat pada gambar 4 berikut: resep baru dan admin
+pada halaman ini pengguna dapat membuat ruang diskusi untuk topik dengan kategori tertentu
+pengguna dapat pula membuat topik baru untuk suatu kategori dan dapat membuat kategori baru
+antarmuka halaman forum dapat dilihat pada gambar 5 berikut: 4.2 pengujian sistem pengujian pada sistem menggunakan pengujian metode black box dan pengujian hitung manual dan pengujian kuesioner
+metode pengujian black box merupakan metode yang hanya menguji perangkat lunak dari sisi input dan output nya saja sehingga proses yang terjadi di dalamnya tidak dilakukan pengujian
+pemilihan cara pengujian dilakukan dengan menggunakan teknik yang akan digunakan dalam pengujian black box adalah sample testing
+sample testing melibatkan beberapa nilai yang terpilih dari sebuah kelas ekivalen, mengintegrasikan nilai pada kasus uji dan nilai-nilai yang terpilih mungkin dipilih dengan urutan tertentu atau interval tertentu
+pengujian hitung manual dilakukan dengan membandingkan hasil perhitungan manual responden, sehingga dapat disimpulkan oleh responden
+terhadap implementasi metode simple pendukung keputusan penentuan resep bahwa: pengguna mencari resep masakan sistem
+hasil rekomendasi resep masakan telah sesuai dengan kebutuhan pengguna berdasarkan kriteria yang dimasukkan berdasarkan pengujian hasil pencarian resep masakan dengan perbandingan 4
+sistem pendukung keputusan penentuan resep masakan yang dibuat dinilai berhasil membantu pengguna untuk kebutuhan pengguna berdasarkan 2290

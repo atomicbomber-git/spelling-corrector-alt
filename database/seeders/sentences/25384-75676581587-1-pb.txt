@@ -1,0 +1,90 @@
+eee paper template in a4 vol 4 no 1 juni 2018 prediksi indeks harga saham gabungan menggunakan algoritma neural network imam halimi#1, wahyu andhyka kusuma#2 #teknik informatika, universitas muhammadiyah malang jl
+raya tlogomas no246 malang, jawa timur 65144 1ihalimi80@gmail.com 2kusuma.wahyu.a@umm.ac.id indonesia, salah satunya adalah indeks harga saham gabungan atau dalam bahasa inggris disebut indonesia composite index, ici, atau idx composite
+ihsg merupakan parameter penting yang dipertimbangkan pada saat akan melakukan investasi mengingat ihsg adalah saham gabungan
+penelitian ini bertujuan memprediksi pergerakan ihsg dengan teknik data mining menggunakan algoritma neural network dan dibandingkan dengan algoritma linear regression, yang dapat dijadikan acuan investor saat akan melakukan investasi
+hasil dari penelitian ini berupa nilai root mean squared error serta label tambahan angka hasil prediksi yang didapatkan setelah dilakukan validasi menggunakan sliding windows validation dengan hasil paling baik yaitu pada pengujian yang menggunakan algoritma neural network yang menggunakan windowing yaitu sebesar 37, 786 dan pada pengujian yang tidak menggunakan windowing sebesar 13, 597 dan untuk pengujian algoritma linear regression yang menggunakan windowing yaitu sebesar 35, 026 dan pengujian yang tidak menggunakan windowing sebesar 12, 657
+setelah dilakukan pengujian t-test menunjukan bahwa pengujian menggunakan neural network yang dibandingkan dengan linear regression memiliki hasil yang tidak signifikan dengan nilai t-test untuk pengujian dengan windowing dan tanpa windowing hasilnya sama, yaitu sebesar 1, 000
+masyarakat dimudahkan dalam melakukan suatu aktivitas yang menguntungkan dalam aspek finansial maupun pekerjaan
+dalam aspek financial misalnya, seseorang dengan mudah mendapat uang dengan adanya internet seperti online shop, investasi, trading, dan lainnya
+lebih aktivas yang dimiliki dan biasanya berjangka waktu lama dengan harapan mendapatkan keuntungan dimasa- masa yang akan datang
+investasi dapat berupa tanah, mesin, emas, bangunan maupun aset finansial seperti deposito, saham, ataupun obligasi
+investasi dalam bentuk saham merupakan hal yang sudah tidak asing didengar maupun dilakukan
+banyak investor indonesia maupun luar negeri melakukan investasi dan trading saham di indonesia
+saham merupakan surat kepemilikan atas suatu perusahaan
+membeli saham berarti sebagian kepemilikan atas perusahaan tersebut, pemilk saham berhak atas keuntungan perusahaan dalam bentuk dividen
+ada berbagai macam saham di indonesia, salah satunya adalah indeks harga saham gabungan atau dalam bahasa inggris disebut indonesia composite index, ici, atau idx composite
+ihsg merupakan parameter penting yang dipertimbangkan pada saat akan melakukan investasi mengingat ihsg adalah saham gabungan
+data ihsg memiliki fluktuasi yang sangat besar, serta pergerakan harga ihsg sangat cepat sehingga sulit untuk dipresiksi kenaikan atau penurunannya,
+oleh karena itu untuk membantu mengatasi permasalahan diatas, maka penulis membuat alternatif untuk memanfaatkan teknik data mining untuk melakukan prediksi pada harga closed menggunakan algoritma neural network
+prediksi yang sering dilakukan adalah prediksi nilai tukar valuta asing, cuaca dan lain-lain
+model berbasis neural network telah digunakan dalam memprediksi forex
+data mining adalah serangkaian proses untuk mengolah nilai menjadi informasi yang tidak dapat diketahui secara manual dari suatu data
+salah satu metode, sebagai data mining cerdas, adalah neural network
+neural network merupakan salah satu sistem pemrosesan informasi yang didesain dengan menirukan cara kerja otak manusia dalam menyelesaikan suatu masalah dengan melakukan proses belajar melalui perubahan bobot sinapsisnya
+dipilihnya algoritma neural network dikarenakan algoritma ini bisa memprediksi data pergerakan harga mata uang dengan sangat baik, neural network bersifat adaptif dan dapat berfungsi untuk memprediksi estimasi nilai berdasarkan pola-pola dalam suatu sekumpulan data,
+prediksi pergerakan harga saham menggunakan metode back propagation neural network
+seperti pada penelitian yang dilakukan oleh rio bayu afrianto, handayani tjandrasa, dan isye arieshanti, yang berjudul dengan akurasi nrmse yang didapatkan minimal sebesar 0, 22 dan akurasi terbaik sebesar 62, 18
+prediksi pergerakan harga valas menggunakan algoritma neural network
+dengan penelitian yang berjudul dengan algoritma linear regression sebagai pembanding
+hasil pengujian menggunakan neural network yang dibandingkan dengan linear regression memiliki hasil yang tidak signifikan dengan nilai t-test untuk pengujian dengan windowing sebesar 1, 000 dan pengujian tanpa windowing sebesar 0, 077
+stock price prediction: comparison of arima and artificial neural network methods an indonesia stock’s case
+dan togar alam napitupulu, yang berjudul, dalam penelitian ini disebutkan bahwa artificial neural network akurasinya lebih kecil dibandingkan dengan arima
+dengan akurasi ann sebesar 170, 40 dan arima sebesar 284, 95
+prediksi harga saham menggunakan support vector regression dengan algoritma grid search
+hasbi yasin, alan prahutama, tiani wahyu dalam penelitiannya yang berjudul dengan menggunakan algoritma support vector regression mempunyai hasil bahwa model svr terbaik dengan fungsi kernel linier menggunakan parameter c = 0, 1 dan nilai epsilon = 0, 1
+model tersebut sudah layak untuk memprediksi harga saham pt xl axiata tbk karena mempunyai tingkat akurasi 92, 47% untuk data training dan 83, 39% untuk data testing
+dilakukan preprosesing di tahap ini ada dua hal, yaitu penentuan time frame dan repair data
+setelah dataset selesai dilakukan preparasi data tahap berikutnya dilakukan prediksi menggunakan algoritma neural network dan linear regression
+hasil prediksi kemudian dilakukan validasi menggunakan sliding window validation
+data yang diambil adalah data indeks harga saham gabungan /jakarta composite index yang di ambil pada invesing (https://id.investing.com/indices/idx-composite-historical- acuan penelitian dalam menganalisa
+jumlah data yang diambil adalah dari rentan tanggal pada 21 februari 2005 hingga 23 maret 2018 dengan jumlah 3.204 record
+penulis menggunakan data training berjumlah 93% atau 2900 data dan data testing berjumlah 7% atau 165 data
+preprocessing dua tahap proses, yaitu penentuan time frame dan repair data
+preprocessing digunakan untuk data yang telah didapat/diekstrak kemudian diproses untuk setiap anomali
+dalam jurnal, preprocessing diperlukan mempermudah menentukan orde arima dan ann 
+time frame yang digunakan penulis adalah evaluasi pada time frame 1 hari
+2) repair data: repair data adalah proses perbaikan struktur data apabila adanya data yang akan digunakan mengalami kesalahan penulisan yang bisa berpengaruh terhadap hasil akurasi pada proses data mining
+data yang akan di repair adalah data yang terdapat pada atribut open, high, low, dan price, hal ini dilakukan karena data yang masuk dalam format excel penulisanya berubah
+contohnya adalah pada web sumber data set tertulis 1.093, 78 sedangkan pada aplikasi rapidminer tanda titik (
+) terbaca koma, hal ini akan mempengaruhi hasil dari proses data mining yang dilakukan
+oleh karena itu data yang berupa titik (
+) dihapus sesuai dengan format number pada aplikasi rapidminer, seperti 1093.78
+pada tabel i adalah dataset sebelum dilakukan proses repair dan pada tabel ii setelah dilakukan proses repair data
+metode prediksi/forecasting rapidminer yaitu proses pengolahan data untuk mencari prediksi dari dataset ihsg
+rapidminer yang akan digunakan adalah rapidminer studio 8.1
+rapidminer adalah alat/aplikasi yang digunakan untuk analisa data
+metode yang digunakan dalam penelitian ini adalah neural network dan linear regression untuk prediksi
+menurut, neural network pendekatan yang efektif untuk tujuan yang bersifat umum untuk mengetahui pola, klasifikasi, clustering dan khususnya peramalan time series dengan tingkat keakuratan yang tinggi
+hasil yang akan didapat dari proses rapidminer menggunakan algoritma neural network adalah berupa root mean square error 
+rmse adalah ukuran yang sering digunakan dari perbedaan antara nilai-nilai diprediksi oleh model atau estimator dan nilai-nilai yang didapat
+perbedaan individual antara label model dan hasil prediksi atau forecasting disebut residual ketika perhitungan dilakukan atas sampel data yang digunakan untuk estimasi, dan disebut kesalahan prediksi ketika dihitung out of sample
+rmse berfungsi untuk agregat besaran kesalahan dalam prediksi untuk berbagai kali menjadi ukuran tunggal daya prediksi
+label yang dimaksud adalah hasil prediksi dari algortima neural network, label yang muncul adalah sebuah label tambahan yang muncul dari proses forecasting pada aplikasi rapidminer
+sliding window validation, validasi jenis ini hanya khusus bisa digunakan oleh data yang memiliki tipe time series dan memiliki jenis tipe atribut adalah numerical pada validasi ini data tertentu akan dijadikan training dan sebagian lainya akan dijadikan sebagai testing
+validasi akan dilakukan pada metode algoritma neural network dan linear regression
+untuk melakukan validasi hasil perbandingan dalam membandingkan antara algortima neural network dan linear regression maka akan digunakan uji validasi t-test untuk mengetahui apakah perbedaan hasil yang didapat signifikan atau tidak
+untuk menghitung rmse adalah dengan melakukan penjumlahan dari seluruh squared residual lalu dibagi dengan jumlah data yang ada dan hasilnya akan dilakukan proses pengakaran
+mape berguna untuk mengukur ukuran kesalahan dalam satuan persen, mape menghitung rata-rata error yang tidak ditangani dalam satuan persen
+mad merupakan sebuah ukuran umum yang digunakan untuk data yang memiliki tipe time series
+field yang digunakan digunakan dalam proses data mining
+hasil pengujian awal algoritma linear regression tanpa dilakukannya perubahan pada algoritma yang digunakan
+pengujian data akhir dengan windowing pengujian data akhir menggunakan kondisi yang ada pada tabel iv untuk algoritma neural network
+hasil yang didapat dari hasil pengujian berdasarkan kondisi tabel iv bisa dilihat pada tabel v
+3 menunjukan grafik hasil pengujian algoritma neural network
+rmse didapat dari hasil pada rapidminer, sedangkan mad dan mape di dapat dari perhitungan dengan aplikasi bantu microsoft excel
+kondisi percobaan yang dilakukan pada algoritma linear regression bisa dilihat pada tabel vi, dengan kondisi yang tertera pada tabel v
+dan perbandingan hasil percobaan dapat dilihat pada gambar
+pengujian data akhir tanpa windowing pada tabel viii adalah hasil dari pengujian yang dilakukan pada algortima neural network tanpa menggunakan fitur windowing
+sedangkan pada tabel ix adalah hasil pengujian yang dilakukan pada algoritma linear regression
+berdasarkan pengujian yang dilakukan pada penelitian ini maka didapat sebuah hasil bahwa dengan hasil rmse paling rendah yang didapat dari 12 kali proses percobaan pada algoritma neural network yaitu sebesar 37, 602 dengan menggunakan windowing dan 13, 597 tanpa windowing
+linear regression memiliki nilai rmse paling rendah 35, 026 menggunakan windowing dan untuk percobaan yang tidak menggunakan windowing didapatkan nilai rmse 12, 657
+kondisi rmse kondisi rmse pada kondisi menggunakan windowing
+dari hasil pengujian menggunakan t-test menunjukan bahwa nilai rmse dari kedua algoritma neural network dan linear regression baik yang menggunakan fitur windowing maupun yang tidak menggunakan windowing tidak menunjukan perbedaan yang signifikan
+adapun hasil pengujian t-test yang didapat dari penelitian ini adalah pada pengujian hasil percobaan yang menggunakan fitur windowing didapatkan hasil sebesar 1, 000 dan untuk pengujian t-test tanpa menggunakan windowing adalah sebesar 1, 000
+hal ini menunjukan bahwa tidak signifikanya perbedaan antara hasil yang didapat oleh algoritma neural network dan linear regression karena nilai yang didapat diatas alpha t-test yaitu 0, 050
+oleh penulis maka bisa ditarik kesimpulan dalam penelitian ini, yaitu selisih antara hasil prediksi yang didapat dari nilai rata-rata mean absolute deviation dari algortima neural network dan linear regression mempunyai nilai yang sama yaitu 28.21
+sedangkan untuk nilai root mean squared error juga memiliki nilai yang hampir sama, yaitu 0, 0090 untuk neural network dan 0, 0096 untuk linear regression
+pengujian yang tanpa windowing hasilnya lebih baik daripada menggunakan windowing
+pada pegujian algoritma neural network didapatkan hasil rmse yang paling baik dengan windowing yaitu sebesar 37, 786 dan pada pengujian yang tidak menggunakan windowing sebesar 13, 597
+sedangkan untuk pengujian algoritma linear regression nilai rmse yang menggunakan windowing yaitu sebesar 35, 026 dan pengujian yang tidak menggunakan windowing sebesar 12, 657
+rmse dari kedua algoritma neural network dan linear regression baik yang menggunakan fitur windowing maupun yang tidak menggunakan windowing tidak menunjukan perbedaan yang signifikan

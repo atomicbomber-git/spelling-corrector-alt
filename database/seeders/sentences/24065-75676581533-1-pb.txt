@@ -1,0 +1,91 @@
+eee paper template in a4 vol 4 no 1 juni 2018 perancangan prototipe sistem kontrol suhu dan kelembaban pada gedung walet dengan mikrokontroler berbasis mobile suti kurnia dewi#1, rudy dwi nyoto#2, elang derdian marindani*3 #program studi informatika fakultas teknik universitas tanjungpura 1sutikurniad@gmail.com 2rudydn@gmail.com jalan prof
+hadari nawawi, pontianak, kalimantan barat 3elangdm@yahoo.co.id ekspor yang memiliki nilai ekonomis cukup tinggi
+suhu dan kelembaban di dalam gedung walet sangat berpengaruh terhadap kualitas dan harga sarang burung walet penelitian ini membangun prototipe sistem kontrol suhu dan kelembaban pada gedung walet dengan mikrokontroler berbasis mobile
+mikrokontroler berfungsi untuk mengambil data suhu, kelembaban dan kualitas udara kemudian mengirimkannya ke server sehingga pengguna dapat memantau dan mengatur suhu serta kelembaban di dalam gedung walet melalui aplikasi android maupun website sistem
+penelitian ini menggunakan mikrokontroler wemos d1 mini, sensor suhu dan kelembaban dht11, sensor kualitas udara mq135, water pump sebagai supplier air dan exhaust fan sebagai sirkulator udara
+pengujian yang dilakukan terhadap sistem terdiri dari pengujian hardware dan software
+pada pengujian hardware, rangkaian mikrokontroler membutuhkan waktu rata-rata 11 detik untuk mengirimkan data ke server
+sedangkan pada pengujian software, rangkaian mikrokontroler membutuhkan waktu rata-rata 3 detik untuk merespon perintah dari perangkat android dan 5 detik untuk perintah dari website sistem
+berdasarkan hasil perngujian dapat disimpulkan bahwa rancangan prototipe sistem kontrol suhu dan kelembaban pada gedung walet dapat berfungsi dengan baik
+pendahuluan burung walet dilakukan dengan membuat gedung-gedung yang menyerupai kondisi pada habitat asli burung walet untuk mendapatkan sarang burung walet yang berkualitas ada beberapa faktor yang perlu diperhatikan diantaranya adalah mengatur suhu dan kelembaban di dalam gedung walet suhu yang sesuai untuk perkembangan sarang burung walet adalah 26 0c sampai 29 0c, sedangkan kelembaban yang sesuai adalah berkisar antara 75% sampai 95%
+jika suhunya terlalu tinggi dan kelembabannya terlalu rendah maka sarang walet yang dihasilkan akan kering, mudah pecah dan ukurannya relatif kecil
+sedangkan jika suhunya terlalu rendah dan kelembabannya terlalu tinggi, maka sarang walet yang dihasilkan akan berwarna kuning dan basah menyerupai jamur tiram hal ini akan mengakibatkan sarang walet mudah berjamur saat disimpan
+diantaranya adalah dengan menyemprotkan air ke dinding bangunan
+untuk mengontrol perangkat yang dapat digunakan untuk menyemprotkan air ke dalam dinding ruangan, tentunya diperlukan waktu yang tidak sedikit, terlebih jika pemilik gedung walet berada di luar bangunan
+beberapa penelitian sebelumnya yang membahas sistem kontrol adalah sadewamencoba mengimplementasikan mikrokontroler pada sistem kontrol peralatan listrik dan monitoring rumah berbasis website
+kemudian peneliti lainnya seperti ichwan, dkkdengan menggunakan platform android, peneliti membangun sebuah prototipe sistem pengendalian peralatan listrik jarak jauh dengan menggunakan perangkat android
+berdasarkan permasalah tersebut, maka munculah sebuah ide untuk membuat sistem yang dapat mengontrol suhu dan kelembaban di dalam gedung walet penelitian ini menggunakan water pump sebagai penyemprot air, exhaust fan sebagai sirkulator udara, sensor dht11 sebagai sensor suhu dan kelembaban, sensor mq135 sebagai sensor kualitas udara dan modul wemos d1 mini sebagai mikrokontroler
+tinjauan pustaka di seluruh dunia kecuali benua antartika dan australia
+berkaki 37 korespondensi : suti kurnia dewi kecil
+burung-burung dari famili apopidae sering disebut micropopidae, berasal dari bahasa latin yang berarti 
+hal ini sesuai dengan bentuk kakinya yang kecil dan lemah, sehingga tidak dapat digunakan untuk bertengger
+sebutan lainnya adalah swift, yakni julukan bagi burung yang mampu terbang dengan kecepatan mencapai 100 km/jam
+sarang walet adalah komoditi yang mempunyai nilai ekonomis tinggi
+namun dalam pengembangbiakannya sulit dilakukan karena membutuhkan strategi dan penanganan khusus
+salah satu komponen penting yang harus diperhatikan adalah kondisi ideal rumah walet yang harus menyerupai habitat aslinya
+indonesia merupakan negara yang menghasilkan sebagian besar sarang burung walet di dunia, kemudian diikuti beberapa negara asia tenggara dan asia selatan seperti thailand, vietnam, singapura, myanmar, malaysia, india dan srilangka
+adapun negara tujuan ekspor sarang burung walet terbesar adalah negara hongkong, yang ditandai dengan semakin meningkatnya dari tahun ke tahun sejak tahun 1994
+dari hongkong, sarang burung walet kemudian disebarkan ke seluruh dunia antara lain eropa, amerika, afrika dan asia tengah
+sedangkan negara konsumsi sarang burung walet terbesar adalah negara cina
+produksi sarang burung walet tergantung pada pakan yang dikonsumsi, jika pakan yang dikonsumsi walet banyak, maka kelenjar walet akan menghasilkan air liur yang berlimpah
+sarang yang dibuat walet digunakan untuk menetap, berkembang biak, merawat, dan membesarkan anaknya
+persyaratan gedung walet lingkungan burung walet terdiri dari habitat mikro dan habitat makro
+kondisi gedung wallet dibuat semirip mungkin dengan kondisi habitat aslinya sehingga walet mau tinggal di dalamnya
+1) suhu menurut para konsultan walet, suhu ideal di dalam gedung walet berkisar antar 26 0c - 29 0c
+suhu tersebut dapat tercipta jika ketebalan dinding, ketebalan atap, lebar ruangan dan jumlah ventilasi yang ada pada gedung walet tertata dengan baik
+kelembaban yang terlalu tinggi biasanya menyebabkan kadar air di dalam sarang walet meningkat dan berwarna kekuningan
+sebaliknya, jika kelembabannya terlalu rendah dapat menyebabkan sarang retak-retak, bentuk tidak sempurna dan tipis
+agak terang, namun jika diamati maka sarang yang dihasilkan mutunya tidak sebaik yang dihasilkan dari tempat agak gelap
+sarang yang berasal dari tempat agak terang biasanya bentuknya tidak sempurna dan tipis
+mikrokontroler mempunyai bentuk lebih kecil dari komputer pribadi dan mainframe, mikrokontroler dibangun dengan elemen-elemen yang sama
+mikrokontroler adalah alat yang mengerjakan instruksi-instruksi yang diberikan, artinya bagian utama dari sistem otomatis / terkomputerisasi adalah program yang di dalamnya dibuat oleh programmer
+mikrokontroler lebih dari sekedar sebuah mikroprosesor karena sudah terdapat atau berisikan rom, ram, beberapa port masukkan maupun keluaran, dan beberapa peripheral seperti pencacah/pewaktu, adc, dac dan serial komunikasi
+wemos d1 mini berfungsi dengan arduino khususnya untuk project yang mengusung konsep iot
+wemos dapat running stand-alone karena sudah terdapat cpu yang dapat diprogram melalui serial port atau via ota serta transfer program secara wireless
+wemos d1 mini adalah sebuah modul wifi berbasis esp8266
+modul ini membutuhkan daya sekitar 3.3v dengan memiliki tiga mode wifi yaitu station, access point dan both 
+modul esp8266 juga dilengkapi dengan prosesor tensilica’s l106 diamond series 32-bit, memori dan gpio dimana jumlah pin bergantung dengan jenis esp8266 yang digunakan
+modul wemos d1 mini memiliki 11 pin digital input/output, 1 analog pin input, clock speed 80 mhz dan flash 4 mbytes
+gambar wemos d1 mini dapat dilihat pada gambar
+sensor dht11 output sinyal digital yang telah terkalibrasi
+koefisien kalibrasinya telah di program ke dalam otp memori
+koefisien tersebut digunakan untuk mengkalibrasi keluaran dari sensor selama proses pengukuran
+dht11 menggunakan single write serial interface yang cukup cepat dan mudah
+ukuran sensor kecil, kebutuhan dayanya rendah dan mampu mentransmisi output dalam jarak 20 meter
+sensor ini sensitif terhadap benzena, alkohol dan asap
+sensor ini melaporkan hasil deteksi kualitas udara berupa perubahan nilai resistansi analog di pin keluarannya
+sensor ini bekerja pada tegangan 5 volt dan menghasilkan sinyal keluaran analog
+3 sensor mq135 akan mendapat tarikan medan magnet yang dihasilkan dari solenoid sehingga kontak saklar akan menutup
+pada saat arus tidak diterima solenoid maka gaya magnet akan hilang, dan saklar akan kembali terbuka
+normally open : saklar dari relay yang dalam keadaan normal tidak terhubung dengan common
+normally close : saklar dari relay yang dalam keadaan normal terhubung dengan common
+input dari pin output ic uln2803apg, yang member logika 1 apabila ic uln2803apg mendapatkan input dari pin gpio bernilai 1 sehingga relay dalam kondisi nc 
+5 arsitektur sistem suhu, kelembaban dan kualitas udara yang tidak wajar
+diagram alir pada mikrokontroler diagram alir program pada wemos d1 mini sebagai mikrokontroler dapat dilihat pada gambar
+yang terdiri dari tiga bagian yaitu 7.a, 7.b dan 7.c
+pengujian sistem software menggunakan metode black box dan kompatibilitas aplikasi
+rangkaian hardware wemos d1 mini hasil rangkaian pada mikrokontroler dapat dilihat pada gambar 8
+gambar 8 merupakan hasil rangkaian wemos d1 mini, sensor dht11, sensor mq135, i2c lcd, relay, step down converter dan socket dc power yang telah dirangkai di atas papan pcb
+pada gambar 9, rangkaian wemos d1 mini diimplementasikan ke kotak berbahan plastik dengan ukuran 40x27x22 cm
+water pump yang digunakan adalah water pump dengan tegangan dc 6 volt dan exhaust fan yang digunakan adalah exhaust fan dengan tegangan dc 12 volt
+antarmuka aplikasi android dapat dilihar pada gambar 10
+gambar 10 antarmuka halaman utama aplikasi gambar 10 merupakan tampilan halaman utama pada aplikasi android, halaman ini menampilkan nilai suhu, kelembaban, kulitas udara, status perangkat, dan waktu terakhir yang tersimpan di server
+pada bagian kanan atas, terdapat menu logout yang akan muncul jika ikon titik tiga di klik
+gambar 11 adalah gambar halaman kontrol perangkat di aplikasi android
+melaui halaman ini, pengguna dapat menghidupkan dan mematikan perangkat serta memilih mode pengoperasian sistem
+gambar 12 adalah gambar halaman utama website sistem
+pada halaman ini, pengguna dapat melihat nilai suhu, kelembaban dan kualitas udara
+selain itu, pengguna juga dapat mengontrol perangkat dan memilih mode pengopersian sistem
+gambar 13 merupakan tampilan grafik suhu, kelembaban dan kualitas udara terhadap waktu
+garis merah menandakan suhu, hijau menandakan kelembaban dan hitam menandakan kualitas udara
+hasil pengujian rangkaian mikrokontroler, pemberian perintah dari aplikasi android serta melalui website sistem
+tabel 1 tabel hasil pengujian rangkaian mikrokontroler no perangkat kompetensi hasil keterangan 1 wemos d1 dan kelembaban berhasil nilai suhu dan no perangkat kompetensi hasil keterangan fan dari website yaitu saat login melalui aplikasi android
+hasil pengujian robustness testing dapat dilihat pada tabel 2
+tabel 2 tabel pengujian robustness testing masukan contoh data hasil hasil pengujian kompatibilitas menunjukkan aplikasi dapat berjalan lancar di smartphone android dengan sistem operasi versi kitkat, lollipop, marshmallow dan nougat
+tampilan pada setiap perangkat dapat berbeda
+kontrol suhu dan kelembaban pada gedung walet berbasis mobile, dapat disimpulkan bahwa : 1
+sistem yang dirancang dapat memantau suhu, kelembaban dan kualitas udara
+sistem yang dirancang dapat mengontrol water pump, exhaust fan, relay 3 dan relay 4 melalui aplikasi android dan website sistem sehingga dapat digunakan untuk mengatur suhu dan kelembaban 3
+sistem yang dirancang dapat mengontrol water pump dan exhaust fan secara otomatis maupun manual 4
+jeda waktu rata-rata antara menekan tombol untuk mengontrol perangkat dengan respon sistem adalah 3 detik jika melalui aplikasi android dan 5 detik jika melalui website sistem 5
+berdasarkan hasil pengujian kompatibilitas aplikasi dapat berjalan lancar di android dengan sistem operasi versi kitkat, lollipop, marshmallow dan nougat

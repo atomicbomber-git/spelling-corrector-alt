@@ -1,0 +1,153 @@
+eee paper template in a4 vol 4 no 2 aplikasi pembelajaran berbasis mobile untuk mendukung #teknik informatika, politeknik negeri cilacap jl
+dr soetomo no1 sidakaya cilacap jawa tengah 1isalab21@gmail.com 2adidok_bayu@yahoo.com yang belum mengetahui dan paham dengan dasar huruf hijaiyah dikarenakan pada saat masa kecil tidak sempat belajar memahami huruf hijaiyah atau yang biasa disebut belajar iqro
+mempelajari dasar huruf hijaiyah perlu belajar kepada ustad atau ustadzah padahal banyak mereka disibukan dengan pekerjaan atau urusan yang lain
+kemajuan teknologi multimedia hendaklah dimanfaatkan dengan baik dan cerdas, dengan adanya teknologi smartphone saat ini dapat menjadi sebuah sarana untuk belajar salah satunya belajar memahami dasar huruf hijaiyah dengan lebih mudah dan efisien
+tujuan yang dicapai dari hasil penelitian ini adalah merancang media pembelajaran mengenal huruf hijaiyah barbasis mobile menggunakan metodologi mdlc yang terdiri dari beberapa tahapan diantaranya pembuatan storyboard, hipo dan atribut lainya yang mendukung
+hasil penelitian adalah menampilkan vitur-vitur huruf hijaiyah dan pengertiannya seperti tanda baca, tajwid, serta latihan membaca huruf hijaiyah dengan disertai suara pelafalan setiap huruf, hukum bacaan tajwid, suara pelafalan di setiap potongan ayat dan terdapat hukum bacaanya
+harapan akhir yang ingin dicapai adalah kemudahan dalam mempelajari bacaan dan tanda baca huruf hijaiyah secara mandiri
+salah satunya adalah untuk proses belajar dan mengajar huruf hijaiyah bagi anak-anak
+pembelajaran huruf hijaiyah harus dilakukan sejak kecil mulai dari anak- anak
+jika mereka kesulitan dalam membaca al-quran maka dalam beribadah sebagai umat beragama islam tentu saja tidak bisa maksimal
+pengenalan huruf hijaiyah pada anak perlu ditingkatkan baik secara intensitas dan medianya
+untuk meningkatkan intensitas dan efisiensi penyampaian perlu media pembantu yang dikemas secara menarik, santai, dan interaktif
+perlu diciptakan metode pembelajaran yang tidak membosankan terutama pada usia anak-anak
+penguasaan huruf hijaiyah agar bisa membaca al quran lebih baik diperkenalkan pada anak-anak sedini mungkin
+mempelajari lewat buku sebenarnya bisa namun dengan kemajuan teknologi tersedia metode yang cukup strategis dan efektif untuk bisa dibawa saat beraktivitas
+mempelajari huruf hijaiyah memerlukan beberapa buku seperti buku tajwid dan iqro yang memiliki beberapa tahapan
+perkotaan yang berbasiskan keislaman menerapkan muatan kurikulum yang diajarkan 30% tentang akidah keislaman dan 70% materi bersifat umum
+proses pembelajaran terutama pada mapel praktek seperti membaca dalam hal ini membaca huruf hijaiyah selama ini dirasa kurang efisien dan monoton
+perlu dibuat terobosan sistem proses belajar dan mengajar yang efisien dan menarik sehingga tidak membosankan bagi siswa yang belajar maupun guru yang mengajar
+aplikasi pembelajaran (e-learning) mengenal huruf hijaiyah bagi anak-anak berbasis mobile untuk mendukung pembelajaran secara mandiri
+berdasarkan permasalahan di atas penulis membuat sebuah penelitian dengan topik judul 
+aplikasi ini diharapkan dapat membantu bagi masyarakat muslim secara umum untuk belajar iqro al-quran dengan mudah dan dapat dilakukan secara mandiri
+learning yang merupakan cara baru dalam proses belajar mengajar dengan menggunakan media elektronik khususnya internet sebagai sistem pembelajarannya
+sampai saat ini pemakaian kata e-learning sering digunakan untuk menyatakan semua kegiatan pendidikan yang menggunakan media komputer dan internet
+banyak pula terminologi lain yang mempunyai arti hampir sama dengan e-learning, diantaranya : web-based training, online learning, computer-based training/ learning, distance learning, computer-aided instruction, dan lainnya
+pembelajaran yang terjadi di dalam kelas yaitu suplementer, komplementer maupun substitusi
+suatu sistem e-learning dikatakan memiliki fungsi suplementer atau tambahan apabila pembelajar memiliki kebebasan penuh untuk memutuskan apakah akan menggunakan system e- learning atau tidak
+elearning diprogramkan untuk melengkapi materi pembelajaran yang telah diterima di dalam kelas
+pada beberapa lembaga pendidikan modern yang memberikan kebebasan mutlak kepada peserta didiknya untuk memilih jenis pembelajaran yang diinginkan, tujuannya adalah untuk untuk meningkatkan fleksibilitas pembelajaran yang dapat disesuaikan dengan kegiatan lainnya dapat memberikan kemudahan dalam aktifitas sehari-hari
+salah satunya adalah handphone, yang ditandai lahirnya teknologi smartphone/mobile yang dapat digunakan dengan platform andorid
+lisensinya yang bersifat terbuka dan gratis sehingga bebas untuk dikembangkan karena tidak ada biaya royalti maupun didistribusikan dalam bentuk apapun
+hal ini memudahkan para programmer untuk membuat aplikasi baru didalamnya
+salah satu aplikasi yang dapat dikembangkan dan dijalankan dengan pltaform android adalah aplikasi e-learning
+media pembelajaran adalah wahana penyalur pesan dan informasi belajar
+media pembelajaran yang dirancang secara baik akan sangat membantu peserta didik mencapai tujuan pembelajaran
+masing-masing jenis media pembelajaran memiliki karakteristik, kelebihan serta kekurangannya
+itulah sebabnya maka perlu adanya perencanaan yang sistematis untuk penggunaan media pembelajaran
+manfaat media pembelajaran adalah sebagai berikut: 1) menyamakan persepsi siswa
+dengan melihat objek yang sama dan konsisten maka siswa akan memiliki persepsi yang sama
+pemerintahan, perekonomian, berhembusnya angin, grafik atau bagan sederhana
+3) menghadirkan objek-objek yang terlalu berbahaya atau sukar didapat ke dalam lingkungan belajar
+misalnya guru menjelaskan dengan menggunakan gambar atau film tentang binatang-binatang buas, gunung meletus, lautan, kutub utara dll
+4) menampilkan objek yang terlalu besar atau kecil
+misalnya guru akan menyampaikan gambaran mengenai sebuah kapal laut, pesawat udara, pasar, candi, dan sebagainya
+atau menampilkan objek-objek yang terlalu kecil seperti bakteri, virus, semut, nyamuk, atau hewan/benda kecil lainnya
+5) memperlihatkan gerakan yang terlalu cepat atau lambat
+dengan menggunakan teknik gerakan lambat dalam media film bisa memperlihatkan tentang lintasan peluru, melesatnya anak panah, atau memperlihatkan suatu ledakan
+demikian juga gerakan-gerakan yang terlalu lambat seperti pertumbuhan kecambah, mekarnya bunga wijaya kusumah dan lain-lain
+karena itu dalam mempelajarinya diperlukan pengetahuan mengenai bahasa arab
+dalam mempelajari bahasa arab diharuskan mengetahui huruf-huruf bahasa arab terlebih dahulu
+huruf bahasa arab biasa dikenal sebagai huruf hijaiyah
+maksimal, tahap pembanguan sistem dalam penelitian ini menggunakan metodologi mdlc (mutimedia proses pengembangan sistem melewati seluruh tahapan pembangunan secara lengkap dan terurut
+tahap pembangunannya dapat dilihat pada gambar 1
+berdasarkan perancangan ada 6 tahapan, adalah sebagai berikut: dan siapa pengguna program 
+selain itu menentukan macam aplikasi dan tujuan aplikasi 
+konsep dari media pembelajaran yang dibuat berjudul “pengembangan media pembelajaran mengenal huruf hijaiyah berbasis mobile“
+media pembelajaran ini merupakan media pembelajaran mengenal huruf hijaiyah yang di tujukan untuk masyarakat muslim yang kurang paham atau tidak mengerti tentang huruf hijaiyah
+media pembelajaran ini berisi tentang materi mengenal huruf hijaiyah yaitu: membaca dan menghafal huruf hijaiyah, tanda baca, tajwid
+selain itu di media pembelajaran ini juga terdapat iqro yang terdiri dari jilid 1 sampai jilid 4
+struktur navigasi hirarki berisi dari 5 menu yaitu menu huruf hujaiyah, menu tanda baca, menu tajwid, menu iqro, dan menu petunjuk
+bentuk penggambaran struktur navigasi hirarki dalam aplikasi ini dapat dilat pada gambar
+menu utama flowchart aplikasi bagaimana program dapat menampilkan materi hijaiyah, tanda baca, tajwid, iqro, dan petunjuk dengan memilih salah satu menu yang terdapat pada halaman menu utama
+flowchart tersebut secara tidak langsung menggambarkan alur perangkat lunak yang disajikan
+perangkat lunak digambarkan dengan fungsi dari tombol-tombol dari setiap menu pada menu utama
+untuk lebih jelas flowchart menu utama dapat dilihat pada gambar
+mulai menu utama tombol dengan program akan mengakses ke halaman yang dipilih
+halaman yang akan dipilih meliputi menu materi didalamnya juga terdapat beberapa sub menu yang berkaitan dengan informasi yang telah dibuat dalam sebuah perangkat lunak
+perangkat lunak dapat menampilkan isi dari menu hijaiyah
+flowchart ini menggambarkan eksekusi langsung ke dalam menu hijaiyah yang didalamnya berisi materi tentang pengertian huruf hijaiyah, membaca dan menghafal huruf hihaiyah
+flowchart menu hijaiyah dapat dilihat pada gambar 4
+flowchart menu tanda baca dapat dilihat pada gambar
+flowchart menu tajwid perangkat lunak dapat menampilkan isi dari menu tajwid
+flowchart ini menggambarkan eksekusi langsung ke dalam menu tajwid yang didalamnya berisi materi tentang hukum-hukum bajaan huruf hijaiyah jika bertemu dengan nun mati atau tanwin
+flowchart menu tajwid dapat dilihat pada gambar 6
+flowchart menu iqro perangkat lunak dapat menampilkan empat tombol sub menu iqro
+flowchart ini digambarkan dengan fungsi – fungsi tombol dari setiap sub menu pada menu iqro seperti : jilid 1, jilid 2, jilid 3, jilid 4
+flowchart menu iqro dapat dilihat pada gambar 7
+design setelah tahap konsep selesai dilakukan, maka didapatkan gambaran dengan jelas apa yang harus dikerjakan
+selanjutnya dipikirkan bagaimana membentuk aplikasi tersebut
+tahap ini dilakukan pembuatan spesifikasi meliputi arsitektur media pembelajaran mengenal huruf hijaiyah, tampilan, dan kebutuhan material atau bahan untuk aplikasi
+material colleting tahapan ini dilakukan pengumpulan materi atau bahan untuk pembuatan media pembelajaran mengenal huruf hijaiyah
+bahan yang dikumpulkan adalah gambar, tampilan pendukung animasi, backsound, serta teks dan image pendukung lainnya
+gambar dan teks dibuat sendiri pada perangkat lunak adobe flash cs6 professional ada beberapa material colecting yang dibutuhkan dalam pembuatan media pembelajaran mengenal huruf hijaiyah ini yaitu kebutuhan audio, gambar dan teks
+berikut adalah table kebutuhan material yang dibutuhkan pada aplikasi ini dapat dilihat pada tabel i
+assembly tahap ini semua objek atau bahan multimedia dibuat
+pembuatan media pembelajaran mengenal huruf hijaiyah didasarkan pada tahap desain, seperti storyboard
+perangkat lunak authoring yang digunakan dalam tahap ini adalah adobe flash cs6
+bahan yang sebelumnya telah di edit dikumpulkan untuk membuat materi ini selanjutnya di-import ke dalam library adobe flash cs6 professional tahap assembly adalah tahapan yang mencakup semua objek atau bahan multimedia yang telah di buat dimana pembuatan aplikasi didasarkan pada tahap design, adalah sebagai berikut : a) rancangan halaman intro pada tahap rancangan tampilan intro yang isinya terdapat background berwarna hitam lalu ditengahnya terdapat tulisan setelah itu muncul logo disertai animasi loading hingga selesai dan muncul menu utama
+b) rancangan halaman menu utama tahapan rancangan menu utama menggunakan background masjid dengan awan biru serta animasi matahari di belakangnya ditambah tumbuh rerumputan didepan masjid, logo dan papan tombol serta beberapa teks, terdapat tombol – tombol yaitu menu huruf hijaiyah, menu tanda baca, iqro, dan petunjuk
+menu- menu tersebut akan menuju ke ke halaman sesuai dengan urutan menunya
+c) rancangan halaman menu huruf hijaiyah pada tahap rancangan halaman menu huruf hijaiyah menggunakan background alam, rerumputan di bawahnya, dan papan tulis untuk kolom materi pengertian huruf hijaiyah dan latihan membaca dan menghafal huruf hijaiyah disertai suara pelafalan
+terdapat beberapa tombol yang digunakan untuk menuju halaman lanjutan, kembali kemenu utama, dan tombol stop d) rancangan halaman menu tanda baca pada tahap rancangan halaman menu tanda baca menggunakan background papan tulis dengan rerumputan dibawahnya yang berisikan beberapa tanda baca yang dapat merubah pelafalan jika digunakan dan terdapat scrooll yang dapat menaik turunkan lembar materi
+e) rancangan halaman menu tajwid pada tahap rancangan halaman menu tajwid menggunakan background papan tulis dengan rerumputan dibawahnya yang berisikan beberapa hukum yang dapat merubah cara pelafalan jika bertemu nun mati atau tanwin dan terdapat beberapa tombol untuk menuju ke halaman sub menu materi hukum tajwid, tombol lanjut untuk menuju ke halaman selanjutnya, tombol kembali untuk menuju ke halaman sebelumnya, tombol pengecekan suara pelafalan, dan tombol stop untuk menghentikan suara pengertian tajwid serta kelima hukumnya
+f) rancangan halaman menu iqro pada tahap rancangan halamam menu iqro menggunakan background berwarna krem dengan ukiran batik di pojok yang berisi beberapa sub menu jilid 1 sampai jilid 4 untuk latihan membaca dan menghafal huruf hijaiyah lebih lanjut serta menerapkan tanda baca dan tajwid, terdapat tombol pengecekan yang dapat mengeluarkan suara pelafalan di setiap latihannya
+kesalahan dan kekurangan yang masih terdapat dalam media pembelajaran ini, sehingga dapat diperbaiki agar hasilnya sesui dengan yang diharapkan
+dari masing- masing tahapan sebaiknya di testing satu persatu dengan teliti menggunakan skenario sebagai berikutseperti pada tabel ii
+animasi loading aksi aktor reaksi aplikasi loading kondisi akhir hijaiyah diuji, maka tahap berikutnya adalah pendistribusian aplikasi
+pada pendistribusian aplikasi ini tergantung pada kapasitas aplikasi yang telah selesai dibuat
+setelah program di publish dalam bentuk.apk dengan pengaturan menggunakan actionscript 3.0 sebagai script dan bentuk .apk hasil akhirnya, maka aplikasi ini dapat dijalankan pada perangkat smartphone
+hasil penelitian dan pembahasan hasil penelitian merupakan tahap dimana project siap dioperasikan pada keadaan yang sebenarnya sehingga dari sini akan diketahui apakah project benar – benar dapat menghasilkan keluaran yang sesuai dengan tujuan yang diinginkan
+hasil ini sangat berhubungan perancangan media pembelajaran mengenal huruf hijaiyah berbasis mobile
+aplikasi ini pada halaman intro menampilkan logo kubah masjid dan terdapat tulisan “mengenal huruf hijaiyah dan background hitam serta animasi loading
+gambar tampilan intro media pembelajaran mengenal huruf hijaiyah berbasis mobile dapat dilihat pada gambar 8
+menunjukan proses loading pada saat membukan aplikasi pada mobile/smartphone
+tampilan halaman aplikasi setelah aplikasi masuk pada halaman utama, maka akan muncul tampilan menu utama dan user dapat memilih menu pembelajaran huruf hijaiyah sesuai dengan kebutuhan
+9 menu utama seperti : menu huruf hijaiyah, menu tanda baca, menu tajwid, dan menu iqro berbentuk tombol yang apabila di klik salah satunya akan menuju ke halaman yang dituju
+apabila tombol huruf hijaiyah di pilih, maka akan muncul tampilan seperti yang terlihat pada gambar 10
+10 menampilkan pengertian huruf hijaiyah berbentuk tulisan serta terdapat tombol menu utama untuk kembali ke halaman menu utama, tombol lanjut menuju ke halaman selanjutnya, dan tombol stop untuk menghentikan suara pengertian huruf hijaiyah berformat mp3
+apabila di pilih tombol lanjut, maka akan muncul tampilan seperti yang terlihat pada gambar 11
+11 menampilkan 15 huruf hijaiyah yang masing- masing berbentuk tombol agar ketika di klik mengeluarkan suara pelafalan setiap huruf hijaiyah berformat mp3, ejaan setiap huruf hijaiyah berbentuk tulisan, terdapat juga tombol kembali menuju halaman huruf hijaiyah dan tombol lanjut untuk menuju ke halaman selanjutnya
+apabila di pilih tombol lanjut, maka akan muncul tampilan seperti yang terlihat pada gambar 12
+12 menampilkan 14 huruf hijaiyah yang masing- masing berbentuk tombol agar ketika di klik mengeluarkan suara pelafalan setiap hurufnya berformat mp3, ejaan setiap huruf hijaiyah berbentuk tulisan, terdapat juga tombol kembali menuju halaman sebelumnya
+apabila pada menu utama di pilih tombol tanda baca, maka akan muncul tampilan seperti yang terlihat pada gambar 13
+13 intro tanda baca huruf hijaiyah gambar
+13 menunjukan halaman tanda baca menampilkan materi tentang tanda baca yang terdapat scroll lock yang berfungsi untuk menaik turunkan lembar, terdapat tombol menu utama untuk kembali kemenu utama
+apabila pada menu utama di pilih tombol tajwid, maka akan muncul tampilan sub menu seperti yang terlihat pada gambar 14
+14 menampilkan beberapa sub menuantara lain : menu idhar-halqi, menu idgham bighunnah, menu idgham bilaghunnah, menu iqlab, dan menu ikhfa
+menu-menu itu berbentuk tombol yang jika diklik salah satunya akan menuju halaman yang dituju
+sebagai contoh dipilih tombol idh-har halqi, maka akan mucul tampilan seperti yang terlihat pada gambar 15
+15 menampilkan pengertian id-har halqi berbentuk tulisan dan beberapa huruf hijaiyah berbentuk gambar yang termasuk dalam hukum idhar-halqi, tombol kembali menuju ke halaman sebelumnya dan tombol lanjut menuju ke halaman selanjutnya, dan tombol stop untuk menghentikan suara pengertian idhar-halqi berformat mp3
+apabila di pilih tombol lanjut, maka akan muncul tampilan seperti yang terlihat pada gambar 16
+16 menampilkan beberapa huruf-huruf hijaiyah yang termasuk dalam bacaan idhar halqi
+18 menampilkan beberapa huruf hijaiyah berbentuk tombol yang termasuk dalam hukum id-har halqi yang jika diklik akan mengeluarkan suara pelafalan berformat mp3, sebelah kirinya terdapat potongan ayat berbentuk gambar terdapat tombol kembali menuju ke halaman sebelumnya dan tombol tajwid menuju ke halaman menu tajwid background gambar papan tulis, papan kayu, tabel putih, dan rumput apabila pada sub menu tajwid dipilih tombol idhom bighunah, maka akan mucul tampilan halaman intro idhom bighunah seperti yang terlihat pada gambar 19
+19 menampilkan pengertian hukum tajwid idghom bighunah
+pada halaman tersebut terdapat tombol kembali menuju ke halaman sebelumnya, tombol lanjut menuju ke halaman selanjutnya, dan tombol stop untuk menghentikan suara pengertian idgham bighunnah berformat .mp3
+apabila di pilih tombol lanjut, maka akan muncul tampilan seperti yang terlihat pada gambar 20
+20 menampilkan beberapa huruf hijaiyah yang termasuk dalam hukum tajwid idghom bighunah
+apabila di pilih tombol lanjut, maka akan muncul tampilan pelafalan bacaan idham bighunnah seperti yang terlihat pada gambar 21
+21 menampilkan beberapa huruf hijaiyah berbentuk tombol yang termasuk dalam hukum idgham bighunnah yang jika diklik akan mengeluarkan suara pelafalan berformat mp3
+sebelah kirinya terdapat potongan ayat berbentuk gambar
+apabila bacaan tersebut dipilih, maka akan muncul suara sesuai dengan bacaan indghom bighunah
+bighunah seperti yang terlihat pada gambar 22
+apabila di pilih tombol lanjut, maka akan muncul tampilan pelafalan bacaan iqlab seperti yang terlihat pada gambar 23
+23 menampilkan salah satu huruf hijaiyah berbentuk tombol yang termasuk dalam hukum iqlab yang jika diklik akan mengeluarkan suara pelafalan berformat mp3
+sebelah kirinya terdapat potongan ayat berbentuk gambar
+apabila bacaan tersebut dipilih, maka akan muncul suara sesuai dengan bacaan iqlab
+pada halaman tersebut juga terdapat tombol kembali sebelah kiri bawah menuju ke halaman sebelumnya, dan tombol stop untuk menghentikan suara pengertian iqlab
+apabila pada sub menu tajwid dipilih tombol iqlab, maka akan mucul tampilan halaman intro ikhfa’ seperti yang terlihat pada gambar 24
+24 menampilkan pengertian ikhfa berbentuk tulisan dan beberapa huruf hijaiyah berbentuk gambar
+apabila di pilih tombol lanjut, maka akan muncul tampilan pelafalan bacaan iqlab seperti yang terlihat pada gambar 25 dan gambar 26
+26 menampilkan beberapa huruf hijaiyah berbentuk tombol yang termasuk dalam hukum bacaan ikhfa yang jika diklik akan mengeluarkan suara pelafalan berformat mp3, sebelah kirinya terdapat potongan ayat berbentuk gambar terdapat tombol kembali menuju ke halaman sebelumnya dan tombol tajwid menuju ke halaman menu tajwid, background gambar papan tulis, papan kayu, tabel putih, dan rumput
+analisa hasil pengujian untuk memperolah feedback terhadap aplikasi yang dikembangkan sebagai media pembelajaran huruf hijaiyah bagi anak-anak berbasis mobile¸ maka dilakukan uji coba produk yang dilakukan terhadap 10 responden yang terdiri dari sejumlah anak-anak dengan usia antara 7-12 tahun
+pemberian nilai terhadap masing-masing komponen menggunakan skala 5 dengan konversi tingkat pencapaian kepuasan produk seperti yang terlihat pada tabel iii
+dengan menggunakan metode white box testing terhadap 10 responden terlihat pada tabel iv
+kejelasan isi materi-materi yang disajikan dalam media 3
+tampilan visual gambar sesuai dengan konteks tulisan menarik dan mudah 7
+kombinasi, tatanan, dan total 53 14 3 0 0 prosentase tingkat kepuasan produk v
+kesimpulan mengembangkan aplikasi pembelajaran dilakukan pengujian terhadap beberapa responden maka dapat dibuat kesimpulan sebagai berikut : 1) media pembelajaran yang dikembangkan dapat membantu anak-anak belajar huruf-huruf hijaiyah secara mandiri
+dalam hal ini pembelajaran tidak harus dilakukan dengan cara tatap muka dengan ustad atau ustadzah secara langsung, melainkan belajar dapat dilakukan secara mandiri dengan menggunakan mobile/smartphone
+2) aplikasi pembelajaran yang dikembangkan dilengkapi dengan dasar hukum tajwid, cara membaca yang disimulasikan dengan efek suara baik dalam huruf tunggal maupun potongan ayat, tanda baca, dan latihan baca iqro jilid 1 sampai jilid 4
+dengan demikian aplikasi ini sudah sangat mendukung pembelajaran bagi anak-anak secara mandiri
+3) berdasarkan hasil pengujian yang telah dilakukan terhadap responden, dapat disimpulkan bahwa aplikasi pembelajaran yang dikembangkan “mendukung anak-anak dengan berbasis mobile
+penelitian selanjutnya sistem media pembelajaran mengenal huruf hijaiyah berbasis mobile ini diharapkan dapat dilengkapi dan diperbanyak fariasi potongan bacaan ayat al-qura’an sehingga menarik dan banyak perbendaharaan potongan pelafalan ayat-ayat

@@ -1,0 +1,107 @@
+penggunaan pestisida kimia pada produk pertanian berakibat buruk terhadap kesehatan manusia dan menimbulkan pencemaran lingkungan
+salah satu solusinya adalah dengan cara membuat media sosialisasi pengenalan pertanian higienis kepada masyarakat
+penelitian ini bertujuan untuk menghasilkan sebuah produk game tiga dimensi sebagai upaya untuk menyampaikan informasi mengenai konsep pertanian higienis
+dalam game rpg diperlukan suatu penerapan suatu algoritma pathfinding sebagai implementasi penghalang pada game tanaman higienis
+model perancangan yang digunakan adalah model prosedural, merupakan model penelitian yang bersifat deskriptif, yang menggariskan langkah-langkah yang harus di ikuti untuk menghasilkan sebuah produk
+pengumpulan data dilakukan dengan cara studi literatur mengenai algoritma pathfinding a* dan game komputer, serta identifikasi target audiens dan produk kompetitor
+tahap ujicoba pada penerapan algoritma a* ini dilakukan dengan 2 pola yaitu uji coba internal dan uji coba eksternal berdasarkan hasil ujicoba yang telah dilakukan terhadap algoritma a* dalam game higienis dapat disimpulkan algoritma a* dapat diimplementasikan dengan perancangan game tanaman organis terutama pada pergerakan penghalang
+pendahuluan menyemprotkan pestisida pada saat panen bahkan sampai tiga hari menjelang panen
+hal tersebut dilakukan untuk menghindari gagal panen karena serangan hama dan penyakit
+bagi manusia, senyawa kimia tersebut berpotensi menurunkan kecerdasan, menggangu kerja saraf, menganggu metabolisme tubuh, menimbulkan radikal bebas, menyebabkan kanker, meningkatkan risiko keguguran pada ibu hamil dan dalam dosis tinggi menyebabkan kematian 
+sistem pertanian berbasis high input energy seperti penggunaan pupuk dan pestisida kimia yang tidak terkandali juga dapat merusak tanah yang akhirnya dapat mengakibatkan turunnya produktifitas tanah
+pertanian higienis merupakan salah satu solusi yang dapat digunakan untuk mengatasi berkurangnya kesuburan tanah dan kerusakan lingkungan yang diakibatkan oleh pemakaian pupuk dan pestisida kimia 
+sejak munculnya permasalahan kesehatan dan lingkungan yang diakibatkan oleh pupuk dan pestisida kimia, banyak penelitian yang bertujuan untuk mencari solusi atas permasalahan-permasalahan tersebut
+salah satu jalan keluar yang dapat diambil adalah mensosialisasikan tentang bahaya penggunaan pupuk dan pestisida kimia
+penelitian entertainment software association 2011, di asia tenggara pemain game usia remaja adalah sebanyak 40%
+hal tersebut menunjukan bahwa rata-rata remaja di usia sekolah menengah pernah memainkan game
+beberapa penelitian yang menganalisis produk game bertema pertanian higienis di luar negeri telah berhasil menyampaikan pesan penting akan keberlangsungan lingkungan hidup kepada target audiensnya
+pemanfaatan media game bertema pertanian higienis dalam beberapa penelitian terbukti mampu meningkatkan antusias pemainnya dalam belajar
+solusi inilah yang kemudian ditampilkan dalam beberapa game bertema pertanian higienis 
+diantaranya sebagai penyeimbang siklus hara, pembasiman gulma secara terpadu, dan penyiapan lahan
+perawatan ternak secara organik menurut neeson perlu memperhatikan tiga hal, yaitu pakan ternak, yang bertujuan untuk mencapai hasil yang memadai, dan sebagai pencegahan penyakit; kondisi lingkungan, dimana ternak harus memiliki kandang yang dapat memberikan perlindungan yang memadai terhadap sinar matahari yang berlebihan, suhu, angin, hujan, dan dalam iklim keras lainnya; kesehatan ternak, dengan memperhatikan faktor pakan dan kondisi lingkungan di atas, perawatan dapat dilakukan dengan pemberian tanaman herbal, vitamin dan mineral, akupuntur, dan probiotik, serta menghindari penggunaan obat-obatan kimia seperti antibiotik dan vaksin
+menggerakkan pemain melalui suatu jalan terpendek tanpa menabrak rintangan
+penggunaan metode pathfinding paling sering adalah pada game real-time dimana seorang pemain pada titik awal menentukan titik akhir/tujuan
+pathfinding saat ini telah menjadi elemen penting di dunia games
+dimana semua games 2d/3d pasti memiliki metode pathfinding yang berbeda
+sesuai dengan tingkat kerumitan dari games 2d/3d yang diusung
+semakin rumit map dari suatu game maka semakin rumit pula metode pathfinding yang digunakan
+sosialisasi pengenalan pertanian higienis sebagai pengganti pertanian higienis, akan dapat meningkatkan kualitas game rpg bertema pertanian higienis dengan target audiens remaja rentangan usia 10-17 tahun
+kajian pustaka menurut hamidzadeh, algoritma a* merupakan salah satu algoritma yang menggunakan fungsi biaya
+algoritma a star memeriksa kelayakan biaya yang diperlukan untuk mencapai suatu simpul dari sebuah simpul lain
+algoritma ini merupakan algoritma best first search yang menggabungkan uniform cost search dan greedy best-first search
+biaya yang diperhitungkan didapat dari biaya sebenarnya ditambah biaya perkiraan
+dengan perhitungan biaya seperti ini, algoritma a* adalah complete dan optimal a* merupakan algoritma yang pertama kali dikembangkan oleh nils nilsson pada 1964 berdasarkan algoritma dijkstra
+pada 1967 bertram raphael mengembangkan lebih jauh algoritma ini dan menyebutnya a2, namun tidak dapat membuktikan keunggulannya dibandingkan algoritma sebelumnya
+kemudian algoritma a2 dinyatakan sebagai algoritma paling optimal untuk kasus tersebut, dan diganti namanya menjadi a*
+berdasarkan waktu, algoritma ini lebih baik daripada algoritma dijkstra dengan pencarian heuristik
+game subyektif yang menggambarkan bagian dari kenyataan
+serangkaian bagian yang berinteraksi satu sama lain
+menciptakan gambaran kehidupan emosional yang subyektif dan mudah untuk dimainkan oleh para pemain 
+sebuah game harus memiliki elemen-elemen dasar, diantaranya: menjadi player character, non-player character, enemies; environment; icon; interface 
+gameplay, meliputi sistem permainan yang mengatur alur cerita serta serangkaian program dan seperangkat aturan yang mendasari dinamika game tersebut
+game dapat diklasifikasikan berdasarkan gameplay menjadi board game, skill and action game, simulation, real time strategy, role playing game
+mempercantik diri untuk memenuhi kebutuhan konsumen
+baik dari company profile hingga media pembelajaran untuk sekolah dan perguruan tinggi
+menurut tay vaughan multimedia adalah kombinasi dari teks, foto, seni grafis, suara, animasi, dan elemen-elemen video yang dimanipulasi secara digital menurut sutopo multimedia berhubungan dengan perangkat lunak yang digunakan dalam pengembangan dengan lebih dari satu cara untuk menyampaikan informasi kepada pengguna
+vektor adalah besaran yang memiliki nilai dan arah
+kecepatan, percepatan, gaya, tekanan, momentum dan sebagainya adalah contoh-contoh besaran vektor
+penulisan vektor dengan vektor satuan mempermudah pengertian tentang arah vektor itu
+beberapa vektor dapat dijumlahkan maupun dikalikan
+pada bab ini kamu akan memperdalam tentang vektor sebagai besaran yang memiliki nilai dan arah
+meliputi vektor dua dimensi dan vektor tiga dimensi
+menurut murbandono mengartikan bahwa multimedia adalah media massa berdasar computer
+hal ini lah yang menjadi karakter khas dan muatan filosofis dari multimedia di bandingkan dengan semua model media massa lainya
+secara filosofis dapat disimpulkan multimedia adalah medium berdasar computer yang lebih mnegedepankan eksplorasi berkarakter riset dibandingkan performance teknologi demi bisnis
+game sejenis, diantaranya: a) game edukasi sejarah wali songo dan sejarah perkembangan islam dengan menggunakan algoritma a* dan pathfinding
+game tersebut merupakan game pembelajaran sejarah walisongo yang ditujukan untuk untuk siswa siswi kelas v sekolah dasar.kecerdasan buatan diterapkan dalam proses musuh mencari posisi pemain
+karakter pemain harus melumpuhkan musuh da mendapatkan foto foto para wali wongo 
+b) pengembangan aplikasi game edukasi katakter gatot kaca dan 5 pandawa untuk anak usia 5 -8 tahun
+game ini dirancang sebagai media penunjang pembelajaran anak-anak dalam mewarnai, mencari perbedaan, mencari barang, dan membuat kartu
+model perancangan perancangan game bertema pertanian higienis ini adalah model perancangan prosedural model prosedural merupakan model penelitian yang bersifat deskriptif, yang menggariskan langkah-langkah yang harus di ikuti untuk menghasilkan sebuah produk 
+proses perancangan game yang digunakan adalah model perancangan game oleh pardew, dimana meliputi empat tahapan utama yaitu konsep, pra produksi, produksi, dan pasca produksi
+terkait dititikberatkan pada penggunaan metode pathfinding a* namun pada penelitian ini memiliki beberapa perbedaan, antara lain implementasi pada aplikasi yang berbeda serta implementasi ini diterapkan pada media 3d
+setiap tahap pengembangan dibagi lagi menjadi beberapa bagian yang menunjukkan proses yang terjadi di dalam tahap tersebut, gameplay, game objectives, setting dan cerita game, main selling point, skema alur, dan level design
+tahap pra produksi meliputi game asset development, yang terbagi menjadi aset visual, audio, dan interface
+tahap produksi meliputi programming, uji coba game/testing, dan revisi desain
+adapun hasil analisis swot yang didapatkan dari produk kompetitor yang sejenis, yang selanjutnya analisis swot digunakan untuk mengetahui keunggulan maupun kelemahan produk yang dirancang
+produk kompetitor adalah, lebih memfokuskan ke pertanian maupun peternakan higienis serta pemanfaatannya, menyediakan lebih banyak jumlah tanaman, memiliki sistem musim dan cuaca, fitur pupuk, bahasa interface menggunakan bahasa indonesia, memori dan spesifikasi perangkat yang dibutuhkan relatif rendah
+dengan produk kompetitor adalah luas area dalam game terbatas, yang ditujukan untuk menghemat memori game
+opportunity, peluang produk game adalah jumlah game flash dengan visual tiga dimensi masih sedikit dan terus berkembang, sehingga menjadi peluang yang besar pada saat game dipublikasikan
+keberadaan game-game dimana para pemain dapat berinteraksi dengan pemain lain secara online
+pengujian algoritma a* proses ini melakukan uji coba dengan mengambil nilai koordinat x awal dan y awal serta x tujuan dan y tujuan
+hasil perancangan bertema pertanian higienis yang menekankan peningkatan pemahaman remaja berusia antara 10 - 17 tahun dalam konsep dan proses pertanian higienis
+game ini berusaha untuk memposisikan player sebagai pengelola lahan pertanian virtual, yang mengadaptasi kondisi pertanian higienis secara riil, dengan beberapa bentuk penyederhanaan
+gameplay player dalam bentuk visualisasi karakter dalam game untuk berinteraksi dengan objek-objek yang ada dalam setting permainan
+sistem kendali yang digunakan adalah menggunakan mouse dan keyboard
+gameplay dibagi menjadi tiga mode utama
+mode ekplorasi, dimana player dapat bergerak ke segala arah menggunakan input dari mouse
+avatar dapat berpindah-pindah dari tempat satu ke tempat lain maupun memasuki ruangan
+ketika avatar menemui seseorang, maka mode akan berganti ke mode kedua yaitu mode percakapan
+seperti berbicara untuk menambah informasi pertanian higienis, membeli bibit, ternak, pakan ternak, maupun peralatan pertanian
+pada mode aktivitas, player harus menggunakan peralatan yang sesuai untuk setiap aktivitas yang dilakukan
+game objective, tujuan dari permainan akan diimplementasikan dengan misi- misi pada game yang berbeda sesuai dengan level player
+pertama, player mendapat pesan permohonan misi, setelah player berhasil menyelesaikan satu misi maka player mendapatkan reward dan akan muncul pesan permohonan misi lain dengan tingkatan lebih sulit
+setting dan cerita, setting tempat berada di planet lain dengan ekosistem yang sama dengan bumi
+pada awal game, terdapat intro dimana astro bertemu dengan karakter alien dari planet lain yang meminta bantuan astro untuk menanam tanaman organik dan menjual produk organik ke planet alien tersebut
+karakter player dalam game ini lebih ditekankan pada analisis target audiens sebagai pengguna game edukasi
+karakter player memiliki 12 gerakan aktivitas bertani maupun beternak, serta gerakan berjalan, menunggu, dan kehabisan energi
+non player character npc adalah karakter yang dimunculkan di dalam game, terlibat secara aktif dalam kegiatan yang dilakukan oleh karakter player, akan tetapi tidak bisa dikendalikan oleh player
+pada game astro farmer terdapat tujuh npc diantaranya bernama subur, chiya, toni, tina, kakek jiji, berung, pippo, dan leoni
+animasi npc terdiri atas animasi berbicara dan menunggu
+untuk tanaman panen lebih dari sekali
+pada game ini, terdapat 38 jenis tanaman produksi baik lokal maupun global terdapat lima tahapan pertumbuhan pada tanaman, dan setiap tanaman dapat mati apabila tidak disiram secara teratur selama tiga hari berturut-turut dan sudah mengalami fase panen dengan jumlah tertentu 
+setiap rentang periode tertentu tanaman tumbuh dari tahapan satu ke tahapan berikutnya, dan seterusnya hingga fase panen
+desain lingkungan dan desain latar game ini dibuat dengan pandangan perspektif, dimana kamera diposisikan di samping atas avatar dan menghadap ke arah avatar player dengan sudut 40 hingga 60 derajat
+tujuan dari pemposisian kamera dengan sudut tersebut adalah agar pergerakan avatar dan environment disekitarnya nantinya terlihat dengan jelas, sehingga player dapat menggerakkan avatar untuk mengerjakan suatu aktivitas dengan lebih leluasa
+f.level design level dengan berbagai tingkat kesulitan adapun desain leveldari game tanaman higienis ini adalah sebagaimana pada tabel 1
+penerapan a* banyak alternatif jalan dan rintangan
+sehingga penggunaan metode artbase pathfinding tidak akan efektif
+untuk itu diperlukan logika pathfinding yang lebih baik, yaitu menggunakan metode a star 
+algoritma a* merupakan logika untuk mencari jarak terdekat antara 2 titik dengan menggunakan teknik dan metode heuristik
+dalam algoritma a*, pencarian jalan dilakukan di awal, selanjutnya akan ditentukan jalan mana yang paling dekat untuk dilalui
+pada dasarnya untuk mengaplikasikan metode a* dalam model environment 3 dimensi diperlukan proses terlebih dahulu yaitu proses mengubah kondisi lingkungan menjadi berformat pengubinan array 2 dimensi
+hal ini yang belum diterapkan secara maksimal pada penelitian sebelumnya
+dari proses tiling dihasilkan array 2 dimensi dimana nilai 0 berarti jalan yang dapat dilalui, dan 1 berarti rintangan
+dapat diketahui prosentase pengujian pada tabel 3 di bawah ini
+dengan perbandingan efisiensi sebesar 86% pada pencarian waktu minimum dan 77% pada rata rata hasil uji coba
+algoritma a* dapat diterapkan pada game rpg tanaman higienis ini dengan tingkat efisiensi sebesar 86% dan 77% pada hasil uji coba

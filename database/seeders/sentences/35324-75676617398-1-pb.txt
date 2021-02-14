@@ -1,0 +1,80 @@
+eee paper template in a4 vol 5 no 3 prediksi bedah toraks menggunakan seleksi fitur forward selection dan k-nearest neighbor rangga sanjaya#1, fitriyani#2 #program studi sistem informasi, universitas bsi ters.jl.jakarta, jl.sekolah internasional no1-6 antapani – bandung, jawa barat 1fitriyani.fyn@gmail.com 2rangga.rsj@gmail.com memerlukan tindakan penanganan yang cepat dan terarah, dimana penyebab paling tinggi dari kanker paru adalah merokok
+bedah toraks merupakan operasi yang paling umum untuk kanker paru
+bedah toraks dapat mengobati kanker paru, akan tetapi usia hidup pasien pasca operasi yang menjadi masalah, sehingga sebelum melakukan operasi dokter harus dapat memilih pasien dengan tepat berdasarkan resiko dan manfaat
+penelitian ini menggunakan dataset thoracic surgery dengan menggunakan algoritma k-nearest neighbor
+pada dataset thoracic surgery terdapat kelas atau fitur yang tidak relevan sehingga dilakukan seleksi fitur menggunakan forward selection
+eksperimen dan pengolahan data yang dilakukan, dibantu oleh software rapidminer
+pada penelitian ini akan dilakukan perbandingan performa antara algoritma k-nearest neighbor tanpa seleksi fitur dengan k-nearest neighbor dengan seleksi fitur forward selection
+berdasarkan hasil pengujian dan perbandingan dari kedua model yang diusulkan, algoritma k-nn dengan optimasi fitur menggunakan metode forward selection memiliki nilai akurasi lebih baik dibandingkan dengan algoritma k-nn tanpa seleksi fitur
+pendahuluan memerlukan penanganan serta tindakan yang cepat dan terarah
+diagnosis penyakit ini memerlukan kompetensi dan dukungan sarana yang tidak sederhana, serta memerlukan pendekatan multidisiplin pada bidang ilmu kedokteran
+penanganan penyakit ini membutuhkan kolaborasi antara ahli paru, ahli radiologi diagnostik, ahli patologi anatomi, ahli radiologi terapi, ahli bedah toraks, ahli rehabilitasi medik, dan lain sebagainya
+merokok merupakan penyebab utama kanker paru-paru dan semakin meningkatnya aktivitas merokok, berdampak pada semakin besarnya resiko menderita kanker paru-paru
+seperti komplikasi pasca operasi, termasuk 30 hari
+permasalahan utama dalam bedah toraks adalah pemilihan pasien yang tepat untuk operasi dengan resiko dan manfaat bagi pasien baik jangka pendek dan juga dalam jangkan panjang (seperti kelangsungan hidup 1 tahun atau 5 tahun setelah operasi, sehingga diperlukan penelitian lebih lanjut untuk memprediksi jangka kelangsungan hidup dan matinya pasien setelah menjalani operasi bedah toraks
+operasi bedah toraks memiliki resiko, salah satunya tindakan kardiotoraks pada pasien sangat beresiko terhadap gangguan saraf
+stroke merupakan komplikasi utama dari tindakan kardiotoraks tersebut
+serta penelitian penggunaan k-nearest neighbor dan seleksi fitur forward selection yang digunakan dalam pemodelan data mining
+penelitian pertama yaitu prediksi hidup dan mati pasien setelah 1 tahun melakukan bedah toraksmenggunakan artificial neural network dengan hasil akurasi 90%
+pada penelitian selanjutnya, algoritma naïve bayes, j48 decision tree, part, oner, random forest tree, decision stump digunakan dengan hasil terbaik pada algoritma random forest tree sebesar 95.65%dan penelitianyang menggunakan algoritma multilayer peceptron, j48 dan naïve bayes dengan hasil terbaik sebesar 82.3% pada algoritma mlp
+penelitian penggunaan algoritma knn pernah dilakukan untuk sejumlah dataset yang diantaranya pada penelitianmenggunakan dataset rss dengan hasil akurasi baik, penelitianyang menunjukkan performa yang baik sebesar 71.66% menggunakan dataset car evaluation
+performa knn dapat dioptimasi menggunakan seleksi fitur forward selection pada penelitianpada dataset financial distress dengan akurasi meningkat sebesar 15%
+algoritma yang paling banyak digunakan untuk penelitian data mining
+sedangkan feature selection atau seleksi fitur dapat mengurangi dimensional pada data untuk meningkatkan kinerja dari mesin pembelajaran
+subset selection merupakan metode feature selection, yang menghilangkan dimensi yang tidak penting dengan menggunakan error function yang dapat menyelesaikan permasalahan pada regresi dan klasifikasi
+seleksi fitur adalah bagian penting untuk meningkatkan kinerja model dari algoritma klasifikasi
+sedangkan optimasi waktu pada seleksi fitur dapat diselesaikan dengan menggunakan metode heuristic
+dengan menggunakan seleksi fitur, diharapkan dapat meningkatkan akurasi algoritma knnpada dataset thoracic surgery
+dataset thoracic surgery memiliki 470 record dan 16 atribut serta 1 kelas yang berisi true dan false
+dan dapat diakses melalui uci repository
+atribut dan deskripsi dari dataset thoracic surgery ditunjukkan pada tabel 2
+tabel ii beberapa tumor ganda jika ada akhir detik pertama masa paksa berakhir - fev1 prz1, prz0) 10
+pre14 t dalam tnm klinis - ukuran tumor asli, dari oc11 sampai oc14 11
+dataset bedah toraks dibagi menjadi 2 bagian yaitu data training dan data testing secara otomatis menggunakan cross validation
+data training digunakan untuk membentuk model algoritma, sedangkan data testing digunakan untuk menguji kinerja dan performa algoritma
+selanjutnya data tersebut diseleksi menggunakan metode feature selection untuk memilih fitur yang paling relevan
+setelah diperoleh fitur atau atribut yang paling relevan berdasarkan seleksi fitur, selanjutnya fitur dan record di proses menggunakan metode machine learning k-nearest neighbor untuk memunculkan nilai dari kinerja model yang diuji
+1) forward selection: dalam forward selection, dimulai dengan tidak ada variabel dan menambahkannya satu persatu, pada setiap langkah menambahkan satu kesalahan yang paling kecil, kemudian penambahan selanjutnya tidak ada lagi kesalahan
+prosedur forward selection:  forward selection dimulai pada saat tidak ada variabel pada model
+tanpa kehilangan keumuman, menunjukkan variabel ini
+ untuk variabel pertama yang masuk ke model, pilih prediktor yang paling berkorelasi tinggi dengan target jika hasilnya model tidak signifikan, berhenti dan laporkan bahwa tidak ada variabel prediktor penting; jika tidak lanjutkan ke langkah 2
+ untuk setiap variabel yang tersisa, hitunglah f- statistik berurutan untuk variabel tersebut mengingat variabel sudah ada dalam model
+misalnya, dalam operan pertama ini melalui algoritma, ini f-statistik berurutan seperti f, f, dan f
+pada lintasan kedua melalui algoritma, ini mungkin f dan f
+pilih variabel dengan sekuensial terbesar f-statistik
+jika model yang dihasilkan tidak signifikan, hentikan, dan laporkan arus model tanpa menambahkan variabel dari langkah 2
+jika tidak, tambahkan variabel dari langkah 2 ke dalam model dan kembali ke langkah 2
+2) k-nearest neighbor : k-nn termasuk dalam 10 algoritma yang paling populer dalam data mining
+algoritma nearest neighbor atau biasa dikenal dengan k-nearest neighbor, adalah algoritma klasifikasi berdasarkan pada kedekatan lokasi atau jarak satu data dengan data yang lain
+dasar algoritma k-nninput : 𝐷, set objek pelatihan, objek uji, 𝒛, yang merupakan vektor dari nilai atribut dan 𝐿, himpunan kelas yang digunakan untuk melabeli objek output : 𝑐𝑧 ∈ 𝐿, kelas 𝑧 foreach objek 𝒚 ∈ 𝐷 do | hitung 𝑑, jarak antara 𝒛 dan 𝒚; end pilih 𝑁 ⊆ 𝐷 himpunan dari objek pelatihan terdekat untuk 𝑧; 𝑐𝑧 = 𝑎𝑟𝑔𝑚𝑎𝑥 𝑣∈𝐿 ∑𝑦∈𝑁𝐼 ); dimana 𝐼(
+) adalah fungsi indikator untuk mengambalikan nilai 1 jika argumen benar dan 0 untuk sebaliknya
+pembelajaran instan berbasis knn merupakan pembelajaran sederhana dan dapat bekerja dengan baik
+hasil dan pembahasan yang diambil secara acak pada dataset thoracic surgery sebanyak 5, dapat dilihat pada tabel 3
+menentukan 3 nilai terbaik berdasarkan nilai k, dimana urutan pertama adalah d1, d2 dan d5
+label d1 dan d2 adalah false, sedangkan d5 adalah true
+pada algoritma k-nn ditentukan mayoritas terbanyak sehingga d6 berisi label false
+pada penelitian ini, eksperimen yang dilakukan untuk pengujian model adalah menggunakan aplikasi rapidminer
+rapidminer merupakan aplikasi pemodelan data mining yang paling banyak digunakan dengan hasil yang baik menurut poling kdnuggets
+pengujian dilakukan dua kali, dimana pengujian pertama yaitu k-nn tanpa seleksi fitur forward selection, selanjutnya pengujian kedua menggunakan seleksi fitur dengan metode forward selection
+tahap selanjutnya adalah mencari nilai terbaik dari kinerja dan performa berdasarkan nilai akurasi dari hasil pengujian kedua model
+penggunaan nilai k dipilih secara acak
+pada penelitian ini dilakukan uji coba pendahuluan pada nilai k=1 dan k=5 terhadap sampel data
+diketahui terdapat peningkatan nilai k=1 dengan nilai k=5, akan tetapi untuk nilai selain k=1 dan k=5 hasil pengujian menunjukkan nilai yang sama
+hasil yang diperoleh dari pengujian model dapat dilihat pada tabel 4, dimana tf adalah true false, tt adalah true true, sedangkan pf adalah prediction false dan pt adalah predicition true
+confusion matrix dari pengujian model algoritma k-nn tanpa seleksi fitur, dengan hasil akurasi kinerja dari model sebesar 83.40%
+tabel iv hasil k-nn model k-nn yang dioptimasi oleh seleksi fitur menggunakan metode forward selection, dengan nilai k=5
+hasil yang diperoleh dari pengujian model dapat dilihat pada tabel 5, yang menunjukkan confusion matrix dari pengujian model algoritma k-nn yang dioptimasi oleh seleksi fitur menggunakan metode forward selection, dengan hasil akurasi kinerja dari model sebesar 85.74%
+tabel v pada kedua model, selanjutnya dilakukan perbandingan untuk mendapatkan kesimpulan algoritma terbaik diantara k-nn tanpa seleksi fitur dengan k-nn yang dioptimasi oleh seleksi fitur menggunakan metode forward selection
+pada tabel 6 dan gambar 2 menunjukkan perbandingan antara model k-nn dan model k-nn yang dilakukan optimasi menggunakan seleksi fitur forward selection
+hasil akurasi terbaik dari kedua model, yaitu masing- masing k-nn menghasilkan nilai akurasi sebesar 83.40% dengan nilai k=5
+sedangkan k-nn yang dilakukan optimasi menggunakan seleksi fitur menggunakan metode forward selection dengan nilai k=5 menghasilkan nilai akurasi sebesar 85.74%
+berdasarkan perbandingan pada kedua model, disimpulkan bahwa k-nn yang dilakukan optimasi seleksi fitur menggunakan metode forward selection merupakan model terbaik yang memiliki nilai akurasi lebih tinggi
+kesimpulan tetapi yang menjadi masalah adalah usia hidup pasien pasca operasi, sehingga diperlukan pemilihan pasien yang tepat berdasarkan resiko dan manfaat dari operasi tersebut terhadap pasien
+dataset bedah toraks memiliki banyak atribut atau fitur sehingga dibutuhkan algoritma untuk seleksi fitur dengan tujuan dapat meningkatkan kinerja dari model penelitian
+hasil penelitian yang dilakukan bahwa model yang menggunakan k-nn tanpa seleksi fitur menghasilkan nilai akurasi terbaik sebesar 83.40%
+sedangkan model yang menggunakan k-nn dan forward selection menghasilkan nilai akurasi terbaik sebesar 85.74%
+berdasarkan perbandingan dari kedua model yang diuji, dapat disimpulkan bahwa k-nn yang dioptimasi oleh seleksi fitur menggunakan metode forward selection memiliki nilai akurasi lebih baik dibandingkan dengan model k-nn tanpa seleksi fitur
+selain itu, pada penelitian ini juga dapat disimpulkan bahwa pemilihan atribut atau fitur dapat meningkatkan kinerja dari model penelitian
+untuk penelitian selanjutnya dapat digunakan model atau algoritma seleksi fitur yang lain sehingga dapat meningkatkan kinerja atau akurasi dari model penelitian
+ristekdikti atas dukungan dana penelitian melalui hibah penelitian dosen pemula tahun 2019, sehingga penelitian ini dapat terlaksana
+peneliti juga mengucapkan terima kasih dan penghargaan kepada lubicz, pawelczyk, rzechonek, dan kolodziej atas dataset thoracic surgery yang tersedia di uci repository sehingga dataset tersebut dapat digunakan dalam penelitian ini

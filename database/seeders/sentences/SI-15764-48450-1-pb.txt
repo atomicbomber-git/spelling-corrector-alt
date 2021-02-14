@@ -1,0 +1,69 @@
+dosen adalah pendidik profesional dan ilmuwan dengan tugas utama mentransformasikan, mengembangkan, serta menyebarluaskan ilmu pengetahuan, teknologi, dan seni melalui pendidikan, penelitian, dan pengabdian kepada masyarakat
+kegiatan penelitian, merupakan salah satu kegiatan yang harus dilakukan dosen guna memenuhi salah satu dari tri dharma perguruan tinggi karena kegiatan penelitian menjadi salah satu ukuran yang menentukan mutu suatu pendidikan tinggi
+lembaga penelitian & pengabdian kepada masyarakat universitas tanjungpura adalah unit yang melaksanakan tugas di bidang penelitian, walaupun sudah dikoordinir oleh lppkm, tapi masih banyak dosen yang jarang atau belum melakukan penelitian
+tidak adanya rekam aktifitas penelitian menimbulkan kesulitan bagi lppkm untuk mengarahkan pembinaannya kepada sasaran yang tepat
+untuk mendukung upaya lppkm dalam melakukan pembinaan, perlu adanya database penelitian online sehingga semua data bisa disampaikan informasinya kepada pihak di luar lppkm
+oleh karena itu diusulkan pembuatan sebuah pangkalan data penelitian yang dapat membantu monitoring penelitian oleh ketua lppkm dan sebagai media pengarsipan data
+penelitian ini bertujuan untuk menghasilkan sebuah pangkalan data penelitian yang dapat menjadi repositori data penelitian dan membantu monitoring aktifitas penelitian di lppkm untan sehingga proses monitoring dapat tepat sasaran
+metodologi penelitian dimulai dari identifikasi masalah, berlanjut ke studi literatur, pengumpulan data, perancangan konseptual, pembuatan aplikasi, pengujian, analisis hasil pengujian, hingga penarikan kesimpulan
+pada pengujian borang digunakan metode rating scale untuk menguji aplikasi ke 30 responden yang terbagi ke kategori pengguna umum, dosen, administrator, dan ketua lppkm sehingga menghasilkan beberapa persentase kualitas aplikasi sesuai kategori responden
+persentase tertinggi yang diperoleh sebesar 90%, sehingga dapat disimpulkan bahwa kualitas aplikasi berada pada kategori sangat baik
+dari hasil pengujian, sistem yang dihasilkan dapat menjadi repositori data penelitian dan membantu monitoring aktifitas penelitian di lppkm untan
+website tugas utama mentransformasikan, mengembangkan, serta menyebarluaskan ilmu pengetahuan, teknologi, dan seni melalui pendidikan, penelitian, dan pengabdian kepada masyarakat
+dalam menjalankan tugas profesionalnya dan sebagai ilmuwan, dosen harus memiliki seperangkat pengetahuan, keterampilan, sikap, serta perilaku yang harus dihayati dan dikuasai
+harus dilakukan dosen guna memenuhi salah satu dari tri dharma perguruan tinggi yaitu 
+kegiatan penelitian dalam suatu perguruan tinggi merupakan salah satu ukuran yang menentukan mutu suatu pendidikan tinggi
+karena itu, selain mengajar, dosen wajib pula melakukan penelitian baik untuk mengembangkan maupun menerapkan ilmu pengetahuan, teknologi, dan seni 
+untan) adalah unit yang melaksanakan tugas di bidang penelitian dan mengkoordinir pelaksanaan penelitian oleh peneliti di lingkungan untan
+sekarang lembaga ini sudah berganti nama menjadi lembaga penelitian dan pengabdian kepada masyarakat universitas tanjungpura dikarenakan perubahan struktur organisasi dan tata kerja di tahun 2016, perubahan ini menggabungkan 2 lembaga yaitu lembaga penelitian dan lembaga pengabdian kepada masyarakat
+walaupun sudah dikoordinir oleh lppkm, tapi masih banyak dosen yang jarang atau belum melakukan penelitian
+salah satu faktornya adalah kurangnya kesadaran dosen untuk melaksanakan salah satu poin dari tri dharma perguruan tinggi
+tapi, kendala yang ada adalah tidak adanya rekam aktifitas penelitian sehingga menimbulkan kesulitan bagi lppkm untuk mengarahkan pembinaannya kepada sasaran yang tepat
+dosen yang perlu pembinaan adalah dosen yang jarang atau belum melakukan penelitian, jarang di sini jika dalam 3 tahun terakhir dosen tersebut tidak pernah meneliti
+semua data bisa disampaikan informasinya kepada pihak di luar lppkm
+oleh karena itu diperlukan sebuah pangkalan data penelitian yang dapat membantu monitoring penelitian oleh ketua lppkm dan sebagai media pengarsipan data
+dengan adanya pangkalan data ini diharapkan dapat menyelesaikan masalah yang terjadi di lppkm
+fokus dari pangkalan data penelitian adalah monitoring aktifitas penelitian
+uraian penelitian alur penelitian yang akan dilakukan adalah: 1
+langkah-langkah penelitian yang akan dilakukan dapat dilihat pada gambar 1: mulai studi literatur pengumpulan identifikasi masalah dilakukan untuk mencari tahu apa masalah yang ada di lppkm untan dan faktor penyebab timbulnya masalah
+kemudian studi literatur untuk pengkajian teori dari sistem yang dibuat yaitu pangkalan data
+data adalah fakta-fakta tentang segala sesuatu di dunia nyata yang dapat direkam dan disimpan pada media komputer
+setelah itu dilakukan pengumpulan data melalui wawancara dan observasi mengenai gambaran sistem yang ada
+data penelitian yang digunakan yaitu data proposal, data laporan kemajuan, data laporan akhir, dan data dosen
+perancangan bagaimana mendefinisikan komponen-komponen sistem terdapat bentuk arsitektur sistem dari pangkalan data penelitian lppkm untan
+merupakan pemodelan untuk kelakuan sistem informasi yang akan dibuat
+gambar 3 adalah use case diagram dari sistem yang dibuat
+hasil tampilan yang sudah dibuat bisa dilihat pada gambar 4 dan 5
+antarmuka halaman cari data penelitian gambar 5
+antarmuka halaman lihat data penelitian pengguna website ini dibagi atas 4 hak akses, yaitu administrator, ketua lppkm, dosen, dan pengguna umum
+untuk 3 hak akses pertama diharuskan untuk masuk ke sistem terlebih dulu, pada gambar 6 terdapat tampilan antarmuka halaman manajemen penelitian untuk hak akses administrator dan dosen
+pada gambar 7 terdapat tampilan antarmuka halaman rekap data yang bisa diakses administrator dan ketua lppkm
+pengujian metode black-box ini menggunakan teknik robustness testing, yaitu memasukkan beberapa data terpilih di luar spesifikasi yang ditentukan ke dalam kasus uji
+pengujian black-box dilakukan di beberapa proses, yaitu proses login, manajemen data dosen, dan ubah password
+pada jurnal ini pengujian black-box yang dilampirkan hanya pada proses login dan proses penambahan data dosen
+berikut adalah tabel pengujian black-box pada proses login pada tabel 1 dan proses penambahan data dosen pada tabel 2
+tabel 1 pengujian proses login jenis beranda administrator
+password adminpdp jenis input data hasil peringatan username password mengungkapkan data dan informasi yang digunakan untuk menilai kelayakan dan mutu institusi perguruan tinggi
+pengujian borang ini menggunakan skala pengukuran rating scale, yaitu responden memberi tanggapan dengan angka 1- 5
+angka 1-5 adalah hasil konversi dari data kualitatif
+pengujian dilakukan terhadap 4 jenis pengguna yaitu administrator, ketua lppkm, dosen, dan pengguna umum dengan total 30 responden
+pada tabel 3 dilampirkan salah satu contoh hasil pengujian borang untuk pengguna dengan hak akses dosen
+tidak baik kurang baik cukup dari hasil pengujian website oleh dosen didapat nilai 787 yang berada di antara kategori baik dan sangat baik, tetapi lebih mendekati baik
+maka dapat disimpulkan bahwa keseluruhan website dinilai baik
+analisis hasil pengujian berikut adalah analisis hasil pengujian dari website pangkalan data penelitian: 1
+dari hasil pengujian metode black-box, jika data input kosong, maka akan ada kesalahan proses pada website saat suatu kolom data tidak boleh kosong pada database
+tapi kesalahan ini sudah dapat ditangani dengan code pada website sehingga akan muncul alert
+dari hasil pengujian metode black-box, jika data input salah, yaitu data tidak sesuai dengan data pada database, maka akan ada kesalahan proses pada website
+tapi kesalahan ini sudah dapat ditangani dengan code pada website sehingga akan muncul alert
+dari hasil pengujian metode black-box, jika data input benar dan/atau lengkap, yaitu data sesuai dengan data pada database dan/atau data input tidak kosong untuk kolom data yang tidak dibolehkan kosong, maka proses berhasil dan akan memunculkan halaman selanjutnya
+dari hasil analisis terhadap pengujian borang website oleh pengguna umum dengan 10 responden, website pangkalan data penelitian bernilai baik
+hal ini berdasarkan perhitungan jumlah menggunakan rating scale dengan nilai 414 yang diinterpretasikan dekat dengan kategori baik
+dari hasil analisis terhadap pengujian borang website oleh dosen dengan 18 responden, website pangkalan data penelitian bernilai baik
+hal ini berdasarkan perhitungan jumlah menggunakan rating scale dengan nilai 787 yang diinterpretasikan dekat dengan kategori baik
+dari hasil analisis pengujian terhadap borang uji website pangkalan data penelitian oleh administrator, website berkategori sangat baik
+hal ini dibuktikan pada nilai kualitas website yaitu 90%
+berdasarkan pengujian borang oleh ketua lppkm untan, dapat disimpulkan bahwa pangkalan data penelitian lppkm untan yang dibuat bernilai baik
+ini ditunjukkan dengan nilai kualitas website sebesar 88%
+hasil pengujian website menunjukkan bahwa pangkalan data penelitian dapat menjadi sistem baru dalam proses penyimpanan data penelitian dan monitoring aktifitas penelitian
+aplikasi pangkalan data penelitian yang telah dilakukan, dapat ditarik kesimpulan bahwa hasil pengujian website menunjukkan bahwa aplikasi yang dibangun dapat menjadi repositori data penelitian dan membantu monitoring aktifitas penelitian di lppkm untan sehingga proses monitoring dapat tepat sasaran
+saran bagi pengembangan aplikasi ini adalah membuat web service sebagai integrasi ke website sistem informasi manajemen penelitian dan pengabdian kepada masyarakat dan/atau pangkalan data perguruan tinggi serta membuat aplikasi ini berbasis mobile/perangkat bergerak untuk hak akses ketua lppkm

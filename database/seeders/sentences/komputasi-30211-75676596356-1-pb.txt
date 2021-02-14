@@ -1,0 +1,32 @@
+jumlah pengguna situs blogger yang semakin meningkat menyebabkan perlu dilakukan pengklasifikasian data untuk mengetahui pengguna tersebut masuk dalam kategori pengguna blogger professional atau bukan
+teknik pengklasifikasian pemodelan deskriptif dan prediktif dengan algoritma data mining yaitu menggunakan metode naïve bayes
+untuk mengelola data digunakan software rapid miner studio 6.0, dataset blogger diperoleh dari website uci machine learning repository, perhitungan performance vector menunjukkan akurasi klasifikasi metode naive bayes diperoleh sebesar 86.67%
+sedangkan class precision dan class recall untuk prediksi yes menunjukkan tingkat precision sebesar 91.30% dan untuk prediksi no sebesar 71.43%
+hasil klasifikasi dari data blogger dengan metode naïve bayes membagi 2 kelas klasifikasi pb yaitu class yes dan class no untuk nilai class yes yaitu 0.680 dan nilai class no yaitu 0.320
+dari hasil pengolahan data dapat diketahui bahwa tingkat akurasi pengklasifikasian data blogger mencapai 86.67%
+pendahuluan perkembangan teknologi dalam bidang informasi yang sangat pesat pada saat ini diharapkan dapat memberikan kemudahan bagi manusia dalam mencari dan menyebarkan informasi yang bermanfaat dan dibutuhkan bagi kehidupan
+pencarian dan penyebaran informasi dapat dilakukan melalui berbagai media, namun yang paling populer adalah melalui media website dengan memanfaatkan teknologi internet salah satu layanan website yang berguna untuk mencari dan menyebarkan informasi yang paling populer adalah situs blogger
+berdasarkan data statistik dari asean blogger yang dikutip oleh tempo 2013 menyebutkan bahwa pada tahun 2008 terdapat 500 ribu blogger aktif di indonesia, sedangkan dilansir dari antaranews.com pengguna blogger di indonesia pada tahun 2015 sekitar 3 juta pengguna
+berdasarkan data tersebut dapat disimpulkan bahwa pengguna situs blogger di indonesia semakin meningkat, hal itu juga menyebabkan penyebaran informasi semakin beraneka ragam
+jumlah pengguna situs blogger yang semakin meningkat menyebabkan perlu dilakukan pengklasifikasian data berdasarkan beberapa faktor untuk mengetahui pengguna tersebut masuk dalam kategori pengguna blogger professional atau bukan
+berdasarkan fenomena tersebut maka dilakukan penelitian dengan menggunakan teknik data mining untuk melakukan klasifikasi data dengan algoritma naïve bayes
+knowledge discovery in database knowledge discovery in database adalah penemuan atau pencarian pengetahuan di dalam sebuah database, karena data mining adalah suatu rangkaian proses 
+data mining data mining adalah suatu proses menemukan hubungan yang berarti, pola, dan kecenderungan dengan memeriksa dalam sekumpulan besar data yang tersimpan dalam pemyimpanan dengan menggunakan teknik pengenalan pola seperti teknik statistik dan matematika 
+dataset himpunan data merupakan kumpulan dari objek dan atributnya 
+dalam dataset, jenis data dapat dibagi menjadi 2 bagian yaitu: 1
+data training data training adalah data yang digunakan untuk perhitungan probabilitas dari data berdasarkan data pembelajaran yang dilakukan 
+data training merupakan data yang sebelumnya sudah ada sesuai dengan fakta
+data testing data testing merupakan data yang akan atau sedang terjadi dan dipergunakan sebagai bahan uji yang sebelumnya sudah didapatkan pada data training 
+data ini digunakan untuk mengukur sejauh mana klasifikasi berhasil melakukan klasifikasi dengan benar
+naïve bayes teori bayes adalah kondisi probabilitas suatu kejadian hipotesis bergantung pada kejadian lain sebagai bukti 
+metode yang diadopsi dari nama penemunya yaitu thomas bayes pada tahun 1950
+pada dasarnya, teori tersebut menyatakan bahwa kejadian dimasa depan dapat diprediksi dengan syarat kejadian sebelumnya telah terjadi
+teori naïve bayes memiliki kemampuan klasifikasi yang serupa dengan decision tree dan neural network bahkan algoritma naïve bayes memiliki akurasi dan kecepatan yang tinggi saat diaplikasikan ke dalam database dengan data yang besar 
+secara umum teori naïve bayes ditulis dalam bentuk : keterangan : x : data dengan class yang belum diketahui h : hipotesis data merupakan suatu class spesifik p : probabilitas hipotesis h berdasar kondisi x p : probabilitas hipotesis h p : probabilitas x berdasarkan kondisi pada hipotesis h p : probabilitas x untuk menemukan kelas yang cocok bagi sampel yang dianalisis dalam proses klasifikasi, metode naïve bayes di atas disesuaikan sebagai berikut : gambar 1
+sebelum masuknya sampel tersebut, seringkali disebut prior
+rumus naive bayes keterangan : x : data dengan class yang belum diketahui c : hipotesis data merupakan suatu class spesifik p : probabilitas hipotesis berdasar kondisi p : probabilitas hipotesis p :probabilitas berdasarkan kondisi pada hipotesis p : probabilitas c rumus diatas menjelaskan bahwa peluang masuknya sampel karakteristik tertentu dalam kelas c adalah peluang munculnya kelas c, dikali dengan peluang kemunculan karakteristik karakteristik sampel pada kelas c, dibagi dengan peluang kemunculan karakteristik sampel secara global 
+karena itu, rumus diatas dapat pula ditulis sebagai berikut : nilai evidence selalu tetap untuk setiap kelas pada satu sampel
+nilai dari posterior tersebut nantinya akan dibandingkan dengan nilai nilai posterior kelas lainnya untuk menentukan ke kelas apa suatu sampel akan diklasifikasikan
+penjabaran lebih lanjut rumus bayes tersebut dilakukan dengan menjabarkan menggunakan aturan perkalian sebagai berikut : dapat dilihat bahwa hasil penjabaran tersebut menyebabkan semakin banyak dan semakin kompleksnya faktor faktor syarat yang mempengaruhi nilai probabilitas, yang hampir mustahil untuk dianalisa satu persatu
+akibatnya, perhitungan tersebut menjadi sulit untuk dilakukan
+disinilah digunakan asumsi independensi yang class prior probability class prior probability predictor prior probability …

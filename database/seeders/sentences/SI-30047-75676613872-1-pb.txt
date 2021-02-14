@@ -1,0 +1,76 @@
+balai wilayah sungai kalimantan i merupakan bagian yang bertanggung jawab kepada direktorat jendral sumber daya air departemen pekerjaan umum
+proses perizinan dilakukan secara manual yaitu pemohon datang ke lingkungan bwsk i untuk mendapatkan informasi awal ketersediaan air pada daerah aliran sungai, perizinan pemberkasan yang dilakukan di kantor bwsk i serta dalam pelaksanaan status permohonan terbaru pemohon juga mendatangi kantor bwsk i
+model pengembangan sistem menggunakan konsep system development life cycle, konsep tersebut digunakan untuk perancangan
+pengujian dilakukan dengan metode black box, aspek pengujian usability dan pengujian portability
+aplikasi berjalan dengan baik dan bebas kesalahan berdasarkan pengujian black box, dan hasil perhitungan menggunakan skala likert dengan hasil persentase 84, 75% berdasarkan pengujian aspek usability, serta tampilan aplikasi dapat ditampilkan dengan baik melalui desktop maupun mobile browser berdasarkan pengujian portablity
+berdasarkan hasil pengujian, disimpulkan bahwa sistem yang dibangun dapat mengatasi permasalahan pemberkasan, pengolahan data dan penyajian informasi pada aplikasi perizinan pengusahaan dan penggunaan alokasi air pada balai wilayah sungai kalimantan i berbasis website
+pendahuluan bertanggung jawab kepada direktorat jenderal sumber daya air, yang bertugas melaksanakan pengelolaan sumber daya air di wilayah sungai kapuas dan jelai kendawangan
+adapun salah satu fungsi bwsk adalah mengenai perizinan yaitu rekomendasi teknis sumber daya air yang diberikan oleh bwsk kepada masyarakat dan perusahaan yang akan mengajukan izin
+perizinan merupakan instrumen pengendali untuk mewujudkan ketertiban dalam pengelolaan sumber daya air
+penggunaan sumber daya air menyebabkan antrian pemohon untuk mendapatkan informasi dan konsultasi di kantor menjadi tidak optimal beberapa kekurangan pada sistem yang konvensional ini adalah proses perizinan membutuhkan sdm yang banyak karena banyaknya pengusahaan dan penggunaan yang memerlukan izin untuk sumber daya air
+waktu dan biaya yang dibutuhkan untuk melayani perizinan juga sangat banyak, proses pelayanan perizinan yang ada pada balai wilayah sungai kalimantan i masih dilakukan secara manual yaitu dimana dalam melengkapi berkas administrasi pemohon harus menyerahkan berkas di kantor pelayanan rekomtek yang memakan waktu selama 23 bahkan 60 hari
+belum adanya tata cara progres tahapan status dalam proses perizinan yang masih dilakukan secara konvensional yaitu para pemohon masih mendatangi kantor bwsk untuk mendapatkan informasi proses perizinannya
+sebelumnya dengan melihat beberapa kelemahan ini dan menjadi sebuah solusi untuk mengurangi kelemahan yang ada juga untuk mencapai target pelayanan yang maksimal dengan membangun sebuah aplikasi perizinan
+tersedianya akses informasi awal kondisi setempat terhadap lokasi yang akan dilakukan pengusahaan dan penggunaan sumber daya air melalui aplikasi
+uraian penelitian yang biasanya dikeluhkan oleh masyarakat yang ingin mengurus perizinan yaitu : 1) biaya perizinan adanya pungutan liar
+prosesnya yang berbelit, tidak adanya pemberitahuan dan kejelasan kapan izin diselesaikan, dan proses perizinan tergantung pada pola birokrasi setempat
+3) persyaratan untuk berbagai jenis izin, dan persyaratan yang ditetapkan seringkali sulit untuk diperoleh
+wilayah sungai berdasarkan permen pu no11a tahun 2006, kalimantan barat memiliki 5 wilayah sungai yaitu ws kapuas, ws sambas, ws mempawah, ws pawan dan ws jelai-kendawangan
+keputusan presiden no12 tahun 2012 tentang penetapan wilayah sungai, wilayah sungai kapuas merupakan wilayah sungai strategis nasional yang pengelolaannya menjadi tanggung jawab pusat melalui balai wilayah sungai kalimantan i 
+dari 5 wilayah sungai tersebut 2 diantaranya dikelola pemerintah pusat diantaranya yaitu: 1) ws kapuas memiliki das peniti besar, das kapuas, das sekh, das bunbun, das gandawalan, das penebangan, das kelalawar, das karimata dan das serutu
+2) ws jelai-kendawangan memiliki das kendawangan, das simbar, das air hitam besar, das air hitam kecil dan das jelai
+sumber daya air air adalah semua air yang terdapat di atas maupun di bawah permukaan tanah
+air dalam pengertian ini termasuk air permukaan, air tanah, air hujan dan air laut yang dimanfaatkan di darat
+sedangkan pengertian sumber daya air adalah air dan semua potensi yang terdapat pada air, sumber air, termasuk sarana dan prasarana pengairan yang dapat dimanfaatkan, namun tidak termasuk kekayaan hewani yang ada di dalamnya 
+system development life cycle menurut kendall dan kendall, sdlc merupakan pendekatan bertahap atau fase untuk melakukan analisa dan membangun rancangan sistem dengan menggunakan siklus yang spesifik terhadap kegiatan pengguna
+sdlc juga merupakan pola yang diambil untuk mengembangkan sistem perangkat lunak, yang terdiri dari tahapan: analisa, desain, implementasi, dan uji coba 
+konsep sdlc mendasari berbagai jenis metodologi pengembangan perangkat lunak yang membentuk suatu kerangka kerja untuk perencanaan dan pengendalian pembuatan sistem informasi, yaitu proses pengembangan perangkat lunak
+dalam membangun sebuah sistem, salah satunya adalah model waterfall
+waterfall merupakan model yang bersifat sistematis dan termasuk dalam model klasik, nama lainnya adalah linear sequential model 
+penjelasan tahapan- tahapan waterfall tersebut yaitu: 1) analysis fase ini merupakan proses analisa terhadap sistem yang sedang berjalan dengan tujuan untuk mendapatkan jawaban mengenai pengguna sistem, cara kerja sistem dan waktu penggunaan sistem, sehingga kebutuhan yang diperlukan untuk sistem baru akan didapatkan
+2) design perancangan merupakan proses penentuan cara kerja sistem dalam hal perancangan antarmuka, database, dan perancangan alur program
+perancangan diperlukan untuk menggambarkan sistem baru dengan tujuan memenuhi kebutuhan pengguna
+3) implementation tahapan implementasi yaitu tahap rancangan sistem yang dibentuk menjadi suatu kode program untuk pembuatan sistem
+sistem berjalan sesuai prosedur atau tidak dan memastikan sistem terhindar dari error yang terjadi
+testing juga dilakukan untuk memastikan kevalidan dalam proses input sehingga dapat menghasilkan output yang sesuai
+5) maintenance fase ini yaitu pemeliharaan dan pengembangan sistem yang berguna untuk melihat kemampuannya, mengecek jika masih ada ditemukan error atau ada penambahan fitur-fitur yang belum ada pada sistem tersebut
+pengembangan diperlukan ketika adanya perubahan dari pengguna seperti ketika ada pergantian sistem operasi, atau perangkat lainnya f
+menunjukkan alir di dalam program atau prosedur sistem secara logika dapat didefinisikan sebagai bagan yang menunjukkan arus pekerjaan secara keseluruhan dari sistem
+setiap pengolahan dalam flowchart terbagi atas 3 bagian utama, yaitu input, proses pengolahan dan output
+sistem informasi kombinasi terartur apapun dari people, hardware, software, computer networks and data communications, dan database yang mengumpulkan, mengubah dan menyebarkan informasi di dalam suatu bentuk organisasi
+sistem informasi geografis sig sebagai sistem komputer yang digunakan untuk memanipulasi data geografi
+sistem ini diimplementasikan dengan perangkat keras dan perangkat lunak komputer yang berfungsi untuk akusisi dan verifikasi data, kompilasi data, penyimpanan data, perubahan dan pembaharuan data, manajemen dan pertukaran data, manipulasi data, pemanggilan dan presentasi data serta analisa data 
+halaman web yang saling terhubung dan file saling terkait
+website terdiri dari page atau halaman, dan kumpulan halaman yang dinamakan homepage
+homepage berada pada posisi teratas, dengan halaman - halaman terkait berada di bawahnya
+untuk menampilan informasi di internet, baik berupa teks, gambar, suara maupun video yang interaktif dan mempunyai kelebihan untuk menghubungkan satu dokumen dengan dokumen lainnya yang dapat diakses melalui sebuah browser
+pengujian black box metode pengujian black box merupakan pengujian yang dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari program, pengujian dilakukan untuk memeriksa apakah program dapat berjalan dengan benar 
+pengujian black box terdapat beberapa teknik uji coba, yaitu equivalence partitioning, comparison testing, sample testing, robustness testing, behavior testing, performance testing, requirement testing, cause- effect relationship testing, boundary value analysis, dan edurance testing
+ada banyak aspek untuk melakukannya, yang pada akhirnya juga sangat menguntungkan pengguna: keputusan desain diinformasikan oleh data yang dikumpulkan dari perwakilan pengguna untuk mengekspos masalah desain sehingga mereka dapat diperbaiki, sehingga meminimalkan atau menghilangkan rasa frustrasi bagi pengguna 
+analisis pengujian aspek usability menggunakan skala likert
+sugiyono menyatakan skala likert digunakan untuk mengukur sikap, pendapat, dan persepsi seseorang atau sekelompok oarang tentang fenomena sosial jawaban setiap item instrumen yang menggunakan skala likert mempunyai gradasi dari sangat setuju sampai sangat tidak setuju
+pengujian portability efisiensi sistem, produk atau komponen dapat ditransfer dari satu perangkat keras, perangkat lunak tau lingkungan operasional atau penggunaan lain ke yang lain
+brown dalam salonen mendefinisikan bahwa software dikatakan portable jika bisa dijalankan pada komputer lain, sehingga perangkat lunak yang sama bisa dijalankan pada banyak komputer yang berbeda
+software idealnya bisa dipindahkan antar lingkungan tanpa modifikasi kode sumber
+software dikatakan portable jika bisa diakses menggunakan browser yang berbeda, dari desktop browser maupun mobile browser
+tidak ya 2 proses logout selesai perpanjangan sda ada? tidak mulai melaksanakan penyusunan draft rekomtek pengiriman surat tinjauan lapangan kelengkapan berkas? tidak mulai c
+arsitektur sistem admin cara kerja sistem yang akan dibangun, perangkat pengguna melakukan akses ke aplikasi melalui jaringan internet, server berfungsi sebagai tempat menyimpan aplikasi dan sebagai basis data, pengguna dapat mengakses dan mengelola aplikasi yang terdapat pada server
+perancangan antarmuka sistem gambaran awal sistem yang akan dibangun
+perancangan antarmuka sistem meliputi beberapa pengguna diantaranya pemohon, admin dan kepala bwsk i
+berdasarkan arsitektur sistem, rancangan sistem ini memiliki 3 pengguna besar/utama yaitu pemohon, admin dan kepala bwsk i
+pemohon dapat melakukan pendataan yang diminta oleh sistem, admin melakukan akses data permohonan pemohon, pemegang izin, perpanjangan izin dan data neraca air, serta kepala bwsk yang akan mengakses data permohonan masuk dan pemegang izin
+struktur antarmuka sistem dapat dilihat pada gambar 6
+hasil dan analisa pemohon, antarmuka admin dan antarmuka kepala bwsk i
+adapun dibawah ini tampilan dari antarmuka pengguna sebagai pemohon adalah sebagai berikut: gambar 7
+tampilan pemetaan das dan pemegang izin gambar 11
+1) pengujian black box pengujian ini berfokus pada spesifikasi fungsional dari software, menguji kondisi input program berdasarkan apa yang dilihat, hanya fokus terhadap fungsionalitas dan output
+pengujian ini perlu dilakukan untuk melihat respon yang diberikan oleh sistem saat melakukan proses input data
+pengujian input data dilakukan pada input data daftar akun, input data login dan input data permohonan
+pengujian ini dilakukan untuk menguji sejauh mana pengguna dapat menggunakan aplikasi ini
+jumlah responden pada penelitian ini adalah 10 orang yang terdiri dari pemohon, tim rekomtek dan kepala bwsk i
+hasil pengujian ini dihitung dengan skala likert
+0 0 1 5 4 86 rata- rata berdasarkan hasil pengujian usability oleh 10 responden, dapat dilihat bahwa rata-rata total persentase likert yang dihasilkan adalah 84, 75 %
+perizinan pengusahaan dan penggunaan alokasi air pada balai wilayah sungai kalimantan i, maka didapat kesimpulan yang ada adalah sebagai berikut:: 1
+aplikasi perizinan pengusahaan dan penggunaan alokasi air pada balai wilayah sungai kalimantan i berhasil dibangun dan dapat digunakan oleh pemohon di wilayah sungai kapuas
+hasil dari pengujian black box, aplikasi berhasil beroperasi dengan baik 3
+hasil dari pengujian usability dengan 10 orang responden memiliki persentase dengan rata-rata 84, 75% yang berdasarkan skala likert menunjukan bahwa aplikasi perizinan pengusahaan dan penggunaan alokasi air pada balai wilayah sungai kalimantan i berada pada kategori sangat setuju

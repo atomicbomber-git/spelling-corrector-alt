@@ -1,0 +1,135 @@
+siliwangi no 24 tasikmalaya kotak pos 164 telp
+ 323537 1muhamad.arsad@student.unsil.ac.id 3husni.mubarok@unsil.ac.id 2nur.widiyasono@unsil.ac.id video dan data dalam jaringan ip
+voice over internet protocol dalam teknologi komunikasi cukup signifikan sehingga tidak terlepas dari kejahatan cybercrime, teknologi voip dapat disalahgunakan untuk melakukan tindakan kejahatan jarak jauh sehingga diperlukan langkah-langkah investigasi jika terjadi masalah
+menemukan artefact pada infrastruktur voip merupakan tantangan tersendiri
+wiresharks salah satu tool yang digunakan dalam investigasi ini
+metode yang digunakan adalah dfif yang terdiri tahapan adalah collection, examination, analysis, dan report and documentation
+investigasi pada layanan voip dapat berhasil dilakukan dengan menemukan data digital evidence di layer 5
+tujuan penelitian ini yaitu mengetahui karakteristik data digital berupa suara pada layanan voice over ip dan menganalisis data digital berupa suara pada layanan voice over ip
+hasil dari penelitian ini barang bukti digital yang berupa percakapan yang dapat dipertanggungjawabkan dalam pengadilan
+pendahuluan voip merupakan teknologi yang mampu melewatkan panggilan suara, video dan data dalam jaringan ip
+bentuk panggilan analog dikonversikan menjadi bentuk digital dan dijalankan sebagai data oleh internet protokol
+jaringan ip sendiri merupakan jaringan komunikasi data yang berbasis packed-switch, sehingga kita bisa menelepon dengan menggunakan jaringan ip atau internet jaringan voip dapat dibangun dengan menggunakan jaringan nirkabel dan kabel
+digunakan, namun dengan banyaknya yang menggunakan teknologi ini banyak juga yang menyalahgunakannya, misalnya untuk kejahatan dalam menipu lewat jaringan voip ini
+jauh sebelum adanya teknologi voip kejahatan penipuan dengan menggunakan media telepon konvensional sudah marak dilakukan
+namun dengan seiringnya perubahan jaman maka dengan adanya teknologi voip yang mempermudah untuk melakukan komunikasi baik itu dari dalam negeri maupun luar negeri
+cybercrime adalah kejahatan yang terjadi di internet / dunia maya yang menjadi alat, sasaran atau tempat terjadinya kejahatan yaitu mengacu pada aktivitas kejahatan dengan komputer atau jaringan komputer
+kejahatan dalam penggunaan jaringan voip pada beberapa tahun terakhir ini dilakukan dengan modus penipuan, tercatat pada tahun 2016 terjadi penyalahgunaan jaringan voip ini yang dilakukan oleh wna asal cina, yang memanfaatkan fasilitas yang ada di indonesia dengan modus berpura – pura sebagai petugas bank yang menginformasikan bahwa masa berlaku kartu kredit telah habis dan jika tidak segera di perpanjang, maka akan ada polisi yang akan mengurusnya
+merujuk dari beberapa literature dan situs – situs bahwa kejahatan cybercrime ada beberapa jenis kejahatan misalnya penipuan kartu kredit, penipuan bursa efek, penipuan perbankan, pornografi anak, perdagangan narkoba, serta terorisme
+salah satu kejahatan cybercrime yang marak akhir – akhir ini adalah penipuan yang menggunakan jaringan voip 
+ analisis data digital evidence pada layanan voice over ip 
+dengan judul 
+sehingga dapat mengetahui apakah layanan voip ini aman atau tidak
+batasan masalah pada penelitian ini yaitu : simulasi kasus dilakukan dengan menggunakan jaringan lan dengan menggunakan server trixbox, tools yang digunakan dalam penelitian ini adalah wireshark dan x-lite sebagai softphone, penelitian tidak membahas proses digital forensik secara keseluruhan dari awal kasus hingga penutupan kasus, hanya membahas mengenai pengolahan barang bukti digital, codec yang dipakai adalah g.711 karena simulasi dilakukan dengan jaringan lan
+digital berupa suara pada layanan voice over ip yaitu dilihat dari pitch, formant, dan spectogram dan menganalisis data digital berupa suara pada layanan voice over ip apakah identik atau tidak antara suara barang bukti dengan suara pembanding
+tools digital forensic setiap kasus yang menggunakan fasilitas teknologi informasi dapat dibuktikan dan diakui keabsahannya
+sehingga bukti data digital pada layanan voice over ip dapat dijadikan barang bukti yang sah untuk digunakan dalam persidangan
+network forensics berkaitan dengan monitoring dan analisis lalu lintas jaringan kompuer untuk tujuan pengumpulan informasi, bukti hukum atau deteksi instruksi
+network forensics adalah menangkap, merekam, dan analisis peristiwa jaringan untuk menemukan sumber serangan keamanan atau insiden masalah lainnya
+sebuah tindak kejahatan, sebenarnya telah terungkap separuh kebenaran
+langkah berikutnya adalah menindak-lanjuti bukti-bukti yang ada sesuai dengan tujuan yang ingin dicapai
+bukti digital yang dimaksud dapat berupa adalah : e-mail, file-file wordprocessors, spreadsheet, sourcecode dari perangkat lunak, image, web browser, bookmark, cookies, kalender
+wireshark dapat digunakan untuk troubleshooting jaringan, analisis, pengembangan software dan protocol serta untuk keperluan edukasi
+wireshark memungkinkan anda pengguna mengamati data dari jaringan yang sedang beroperasi atau dari data yang ada di disk, dan langsung melihat dan mensortir data yang tertangkap
+informasi singkat dan datail bagi masing-masing paket, termasuk full header dan porsi data, bisa diperoleh
+wireshark mempunyai beberapa fitur termasuk display filter language yang kaya dan kemampuan untuk merekonstruksi kembali sebuah aliran pada sesi tcp
+pitch frekwensi getar dari pita suara yang juga disebut dengan istilah frekwensi fundamental dengan notasi f0
+masing-masing orang memiliki pitch yang khas yang sangat dipengaruhi oleh aspek fisiologis larynx manusia
+pada kondisi pembicaraan normal, level habitual pitch berkisar pada 50 s/d 250 hz untuk laki-laki dan 120 s/d 500 hz untuk perempuan
+frekwensi f0 ini berubah secara konstan dan memberikan informasi linguistik seseorang seperti perbedaan intonasi dan emosi
+formant formant adalah frekwensi-frekwensi resonansi dari filter, yaitu vocal tract yang meneruskan dan memfilter bunyi periodik dari getarnya pita suara menjadi bunyi keluaran berupa kata-kata yang memiliki makna
+secara umum, frekwensi-frekwensi formant bersifat tidak terbatas, namun untuk identifikasi suara seseorang, paling tidak ada 3 formant yang dianalisa, yaitu formant 1, formant 2 dan formant 3 adalah bentuk visualisasi dari masing-masing nilai formant yang dilengkapi dengan level energi yang bervariasi terhadap waktu
+level energy ini dikenal dengan istilah formant bandwidth
+nantinya pada kasus-kasus yang bersifat pemalsuan suara dengan teknik pitch shift atau si subyek berusaha untuk menghilangkan karakter suara aslinya, maka formant bandiwidth dapat digunakan untuk memetakan atau mengidentifikasi suara aslinya
+dikarenakan spectrogram memuat hal-hal yang bersifat detil, maka spectrogram oleh beberapa ahli juga dikenal dengan istilah sidik jari suara 
+metodologi model proses forensik untuk lebih detailnya dapat dilihat pada gambar 1
+collection digital yang dapat mendukung penyelidikan
+penyelidikan dimulai dari identifikasi dimana bukti itu berada, dimana disimpan dan bagaimana penyimpanannya untuk mempermudah penyelidikan
+barang bukti digital yang akan periksa berupa file suara yang dihasilkan dari monitoring jaringan yang digunakan oleh tersangka dan korban dengan menggunakan aplikasi monitoring yaitu wireshark
+bukti digital berupa suara tersebut didapat dari hasil filterisasi paket data – paket data hasil dari monitoring
+proses filterisasi merupakan salah satu proses untuk mempermudah dalam menemukan paket data yang dibutuhkan dalam proses penyelidikan
+proses searching bisa memakan waktu yang cukup lama, tergantung seberapa besar jumlah paket data yang didapat dari hasil monitoring, untuk mempersingkat waktu dalam proses searching dapat digunakan teknik manual searching atau automated searching
+kemampuan dasar melakukan manual searching tentunya harus dimiliki oleh siapapun yang akan melakukan aktivitas analisis forensik
+tahapan ini dilaksanakan dengan melakukan analisa secara mendalam terhadap bukti – bukti yang ada
+bukti yang telah didapatkan perlu di explore kembali kedalam sejumlah scenario yang berhubungan dengan kasus tersebut
+selama proses analisis berlangsung, analis forensik harus selalu berdiskusi dengan investigator mengenai data – data digital yang nantinya menjadi barang bukti digital dalam rangka mengonfirmasi data – data tersebut sesuai dengan fakta kasus dari kasus kejahatan yang sedang diinvestigasi
+sehingga yang dihasilkan pada proses ini matching seperti yang diharapkan oleh tim investigator
+proses pemeriksaan sampai dengan proses analisis diatas, selanjutnya data – data mengenai barang bukti digital tersebut dimasukkan ke dalam laporan teknis
+laporan ini secara umum dibagi menjadi beberapa bab penjelasan, sebagai berikut : 1
+judul : memuat judul pemeriksaan yang dilengkapi dengan nomor pemeriksaan laboratorium
+pendahuluan : memuat nama – nama analis forensik yang melakukan pemeriksaan dan analisis secara digital forensik terhadap barang bukti elektronik, disamping itu bab ini juga memuat tanggal/waktu pemeriksaan
+barang bukti : memuat jumlah dan jenis barang bukti elektronik yang diterima untuk dilakukan pemeriksaan dan analisis
+maksud pemeriksaan : memuat uraian tentang maksud dari pemeriksaan yang dilakukan oleh analis forensik
+prosedur pemeriksaan : memuat tahapan – tahapan yang akan dilakukan dalam pemeriksaan agar sesuai dengan maksud yang diinginkan
+tahapan - tahapan sebaiknya ditulis dengan sesuai sop yang baku dan lengkap
+hasil pemeriksaan : memuat penjelasan tentang hasil dari pemeriksaan yang dilakukan pada barang bukti
+kesimpulan : memuat simpulan – simpulan yang merupakan rangkuman dari hasil analisis pemeriksaan terhadap barang bukti
+penutup : menjelaskan bahwa proses pemeriksaan dan analisis dilakukan dengan sebenar – benarnya tanpa ada rekayasa dan dapat dipertanggungjawabkan secara ilmiah
+bab ini dilengkapi dengan tanda tangan analis forensik yang melakukan pemeriksaan dan analisis secara digital forensik
+terjadinya perubahan pada sebuah perilaku manusia, salah satu contoh dari perilaku manusia yang terubah akibat kemajuan teknologi ini adalah dengan adanya penyalahgunaan layanan internet yang dijadikan media untuk berbuat kejahatan
+penipuan yang melibatkan jaringan telepon internet atau bisa disebut dengan voip 
+penelitian ini mengambil contoh kasus penipuan dengan alasan kepada korban mendapatkan hadiah langsung on spot sejumlah uang dengan fokus pembahasan pada cara menemukan dan membuka file suara 
+collection akan di periksa pada tahapan selanjutnya
+proses yang dilakukan pada tahapan ini adalah dengan melakukan monitoring jaringan terhadap jaringan yang sedang digunakan
+hasil dari monitoring jaringan ini berupa paket – paket yang melalui jaringan tersebut dengan berbagai macam protokol
+jenis – jenis protokol sangat banyak namun yang digunakan dalam jaringan voip adalah protokol sip 
+protokol ini merupakan protokol standarisasi dalam jaringan voice over ip untuk mendapatkan paket data dengan protokol sip adalah dengan cara memfilter hasil monitoring pada jaringan voice over ip berikut hasil dari monitoring pada jaringan voip dapat dilihat pada gambar 2
+paket data hasil filter akan diperiksa secara komprehensif dengan maksud untuk mendapatkan data – data digital yang sesuai dengan investigasi
+data – data yang dicari merupakan data – data yang berhubungan dengan identitas dari pelaku dan korban
+proses pencarian ini dilakukan pada aplikasi wireshark dengan memfilter paket data hasil monitoring dari jaringan voip yang dipakai oleh pelaku
+filterisasi dalam aplikasi wireshark merupakan salah satu fasilitas yang digunakan untuk mempermudah dalam pencarian salah satu paket data, maka untuk mempermudah pencarian paket data pada aplikasi wireshark digunakan field 
+field tersebut akan memfilter dari semua paket data yang didapat menjadi paket data yang berprotokol sip atau rtp, protokol sip atau rtp ini adalah protokol yang digunakan dalam jaringan voip, untuk lebih jelasnya dapat dilihat pada gambar 3
+hasil pemeriksaan dari salah satu paket data yang terjaring dari hasil monitoring jaringan dengan menggunakan aplikasi wireshark diperoleh bahwa dalam paket data tersebut terdapat beberapa file yang mengandung percakapan antara pelaku dan korban, berikut file percakapan tersebut dapat dilihat pada gambar 4
+tahapan ini akan dilakukan analisis pada paket data yang telah di filter dari paket data tersebut akan didapat barang bukti berupa file suara atau percakapan
+proses yang dilakukan untuk mendapatkan file suara tersebut adalah dengan proses codec
+perubahan sinyal dari sinyal analog ke sinyal digital proses ini dilakukan dengan menggunakan aplikasi wireshark yang memanfaatkan tools voip calls
+tahapan codec ini menggunakan codec g.711 codec ini yang biasanya digunakan dalam jaringan voip yang berbasis lan 
+pengkodean barang bukti digital dapat dilihat pada gambar 5
+gambar 6 hasil decoding dianalisis agar diketahui identik atau tidak dengan suara pelaku dengan cara membandingkan dengan beberapa subjek yang dicurigai sebagai pelaku
+namun, untuk membuktikan identik atau tidak dengan suara pelaku akan diambil sampel dari hasil percakapan, yaitu kalimat “perkenalkan saya haji faiz dari perusahaan operator seluler
+perusahaan kami ingin memperbaiki citra buruk yang selama ini sering dimanfaatkan”
+analisis yang akan dilakukan adalah sebagai berikut : a
+analisis pitch komponen suara yang akan dianalisis adalah pitch, yang diambil dari rekaman barang bukti dan rekaman pembanding dengan pengucapan kalimat “perkenalkan saya haji faiz dari perusahaan operator seluler
+perusahaan kami ingin memperbaiki citra buruk yang selama ini sering dimanfaatkan”
+hasil dari pengambilan komponen pitch tersebut dapat dilihat pada gambar 7
+dari ketiga gambar tersebut akan didapatkan nilai pitch maximum, pitch minimum, pitch median, dan pitch standar deviation dengan menggunakan aplikasi praat, berikut nilai hasil dari file audio suara barang bukti.wav, subjek1.wav, dan subjek2.wav dapat dilihat pada tabel 1
+tabel 1 nilai statistik pitch dari file audio suara barang bukti.wav, subjek1.wav, dan subjek2.wav analisis statistik suara barang pitch standard disimpulkan bahwa pitch dari suara barang bukti dengan suara pembanding adalah berbeda
+analisis nilai statistik pitch pada tabel 1 pada pengucapan kalimat “perkenalkan saya haji faiz dari perusahaan operator seluler
+perusahaan kami ingin memperbaiki citra buruk yang selama ini sering dimanfaatkan” antara file audio suara barang bukti.wav, subjek1.wav, dan subjek2.wav memiliki perbedaan yang kecil, jadi dapat disimpulkan bahwa file audio suara barang bukti.wav, subjek1.wav, dan subjek2.wav identik
+analisis formant a) analisis anova analisis ini didasarkan pada analisa one-way anova yang mengkalkulasi secara statistik nilai-nilai formant 1, formant 2, formant 3 dan formant 4 dari file suara barang bukti.wav, subjek1.wav, dan subjek2.wav
+analisis anova akan menunjukkan tingkat perbedaaan antara 2 kelompok data pada masing-masing formant dari suara pembanding dan suara barang bukti yang ditandai dengan perbandingan ratio f dan f critical, dan nilai probability p
+jika nilai ratio f lebih kecil dari f critical, dan nilai probability p lebih besar dari 0.5, maka dapat disimpulkan bahwa kedua kelompok data dari nilai formant yang dianalisa dari suara pembanding dan barang bukti tidak memiliki perbedaan yang signifikan pada level 0.05
+melalui analisis anova didapatkan nilai perbandingan antara ratio f, p value dan f critical hasil dari keseluruhan nilai perbandingan ratio f, p value dan f critical dari nilai formant dengan nilai bandwith 1-5 pada tiap - tiap kata suara barang bukti dengan suara pembanding adalah sebagaimana pada tabel 2, 3, 4, dan 5
+dapat ditarik kesimpulan bahwa, hasil analisis anova untuk nilai formant 1, 2, 3, 4, dan 5 berikut nilai bandwith-nya menunjukan dari file audio suara barang bukti.wav, subjek1.wav, dan subjek2.wav tidak identik, karena untuk menarik kesimpulan identik dari analisis anova dibutuhkan paling tidak formant 1, 2, dan 3 yang dianalisis
+jika dua diantara formant 1, 2, dan 3 menunjukkan accepted, maka hal tersebut sudah cukup untuk menarik kesimpulan identik berdasarkan analisis anova
+sedangkan untuk nilai bandwith hanya digunakan pada hal – hal yang berifat kasuitas, yaitu dimana subjek berusaha memberikan suara pembanding yang benar – benar berbeda dengan apa yang telah diucapkan pada barang bukti
+b) analisis likelihood ratio merujuk hasil dari kalkulasi analisis anova yang didapat sebelumnya, maka perhitungan lr untuk formant dapat dilihat pada tabel 5, 6, dan 7
+suara barang bukti dan suara pembanding identik
+tabel 5 analisis likelihood ratio kata formant kata tabel 6 analisis likelihood ratio kata formant kata tabel 7 analisis likelihood ratio kata formant kata p-value p lr formant 1 6.019932 - 5.019932 - 1.199205 formant 2 9.078732 - 8.078732 - 1.123781 formant 3 8.571710 - 7.571710 - 1.132070 formant 4 1.343855 - 0.343855 - 3.908202 dari hasil yang analisis lr sebagaimana pada tabel 5, 6, dan 7 didapatkan kesimpulan bahwa tidak ada satu pun formant yang mendukung hipotesis penuntutan 
+suara evidence dan subjek tidaklah identik
+namun sebaliknya, hasil kesimpulan menunjukan bahwa keseluruhan formant mendukung hipotesis perlawanan c) analisis graphical distribution analisis graphical distribution digunakan untuk melihat range sebaran grafis dari nilai – nilai formant pada masing – masing suara melalui tampilan grafik
+tampilan grafik akan dapat diketahui apakah suara yang dibandingkan antara suara barang bukti dengan suara pembanding memiliki pola sebaran yang identik atau tidak identik
+gambar 10 analisa sebaran grafis f1 vs f2 kata dengan subjek1 gambar 11 analisa sebaran grafis f1 vs f2 kata dengan subjek2 kedua grafik di atas sebaran grafis dari kata, terlihat bahwa terdapat beberapa sebaran dari nilai f1 vs f2 yang diluar dari kumpulan grafis sebaran yang lainnya
+jika grafis sebaran yang keluar tersebut diabaikan, maka masih terdapat beberapa sebaran grafis dari suara barang bukti dan suara pembanding yang berkumpul pada tempat yang sama
+jadi hal tersebut dapat ditarik sebuah kesimpulan bahwa dari hasil analisa sebaran grafis bahwa antara f1, f2 dari suara barangbukti dengan suara pembanding baik itu suara subjek1 maupun subjek2 adalah identik
+jika sebaran tersebut dieleminir, maka dapat dilihat bahwa masih ada nilai sebaran grafis f1 vs f2 antara suara barang bukti dengan suara pembanding dalam rentang kelompok yang sama
+namun, hal itu masih kurang, jadi dapat ditarik kesimpulan bahwa f1 vs f2 antara suara barang bukti dengan suara pembanding adalah tidak identik
+gambar 14 analisa sebaran grafis f1 vs f2 kata dengan subjek1 grafik di atas sebaran grafis dari kata, terlihat bahwa terdapat beberapa sebaran dari nilai f1 vs f2 yang diluar dari kumpulan grafis sebaran yang lainnya
+jika grafis sebaran yang keluar tersebut diabaikan, maka masih terdapat beberapa sebaran grafis dari suara barang bukti dan suara pembanding yang berkumpul pada tempat yang sama
+jadi hal tersebut dapat ditarik sebuah kesimpulan bahwa dari hasil analisa sebaran grafis bahwa antara f1, f2 dari suara barangbukti dengan suara pembanding baik itu suara subjek1 maupun subjek2 adalah identik
+gambar 15 analisa sebaran grafis f1 vs f2 kata dengan subjek2 gambar 14 pada analisa sebaran grafis dari kata f1 vs f2 dengan pembanding suara subjek2 menunjukan banyak sebaran yang keluar dari kelompok suara barang bukti, hal ini membuktikan bahwa tidak identik antara suara barang bukti dengan suara pembanding
+namun, pada f2 vs f3 menunjukan banyak sebaran yang masih bergabung dengan sebaran suara barang bukti
+jadi dapat disimpulkan untuk analisis sebaran grafis dengan kata adalah tidak identik
+spectogram dengan pengucapan kata “perkenalkan saya haji faiz dari perusahaan operator seluler
+perusahaan kami ingin memperbaiki citra buruk yang selama ini sering dimanfaatkan”
+hasil dari pengambilan komponen spectogram tersebut akan terlihat bentuk visualisasi grafis nilai masing - masing formant, berikut level energinya yang pada masing-masing kata atau suku kata membentuk pola-pola yang khas pada masing-masing formant pada pengucapannya
+hasil tersebut dapat dilihat pada gambar 16, 17, dan 18 berikut
+jadi dapat disimpulkan bahwa antara suara barang bukti dengan suara subjek1 adalah identik
+namun, perbandingan pola spectogram antara suara barang bukti dengan suara subjek2 menunjukan perbedaan yang signifikan sehingga dapat ditarik kesimpulan melalui analisis spectrogram ini bahwa antara file suara barang bukti dengan suara subjek2 tidak identik e
+report and documentation dalam laporan teknis
+merujuk dari penelitian yang sudah dilakukan mengenai analisis data digital evidence pada layanan voice over ip maka dapat ditarik kesimpulan sebagai berikut : 1
+bukti digital berupa file suara atau percakapan antara pelaku dan korban dari layanan voice over ip dapat diperoleh dari aplikasi wireshark dengan menggunakan fasilitas voip calls
+rata – rata hasil dari analisis pitch menunjukan identik, hasil dari analisis formant ada beberapa yang tidak identik, yaitu analisis anova, likelihood ratio, dan graphical distribution pada kata 
+sedangkan pada analisis spectogram hasilnya adalah identik dengan subjek1
+keseluruhan jenis metode analisis yang digunakan dalam melakukan tahap analisis voice recognition, didapatkan hasil bahwa hampir keseluruhan metode yang digunakan menunjukan kesimpulan bahwa antara suara barang bukti dengan suara pembanding adalah identik
+meskipun pada analisis anova dan likelihood ratio kesimpulan bahwa adalah tidak identik namun kemungkinan itu tereliminir oleh hasil metode yang lain, sehingga hasil tersebut dapat diabaikan

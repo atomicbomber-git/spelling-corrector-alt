@@ -1,0 +1,12 @@
+aplikasi media pembelajaran tes cpns berbasis web
+ dibuat untuk mengevaluasi user / pengguna sebelum menghadapi tes cpns.tujuan dari pembuatan laporan ini adalah dapat digunakan sebagai alat bantu penyelenggaraan tes sejenis
+alat penelitian yang digunakan pada aplikasi ini adalah uml 
+metode pengumpulan data- data soal tes cpns yang di dapat melalui buku bank soal tes cpns, sedangkan bahasa pemrograman yang digunakan adalah berbasis web dengan database mysql.hasil dari perancangan laporan ini menghasilkan suatu aplikasi media pembelajaran tes cpns berbasis website
+laporan ini menggunakan pengujian black-box, user acceptance test, dan validitas reabilitas.hasil pengujian menunjukkan bahwa aplikasi dapat membantu pengguna sebagai media belajar serta mengukur kemampuan pengguna dalam menghadapi tes sejenis
+pendahuluan pembukaan lowongan kerja untuk menjadi pns
+semakin banyaknya peminat cpns di indonesia menyebabkan kebutuhan akan pemahaman materi tes cpns semakin meningkat.tes cpns adalah serangkaian tes yang terdiri dari tes kemampuan umum, tes kemampuan khusus, tes potensi akademik dan wawancara yang harus dilalui oleh para peserta tes cpns
+dalam mengikuti tes tersebut tentu saja diperlukan media pembelajaran untuk membantu para calon peserta tes dalam memahami semua materi yang menjadi bahan uji
+namun kebanyakan latihan dengan metode konvensional seperti mengerjakan atau membaca dari buku memiliki berbagai kekurangan seperti membutuhkan banyak biaya untuk mempelajari setiap soal yang ada dengan cara membeli buku baru, ketidaknyamanan dalam berlatih mengerjakan soal tersebut, dan keterbatasan dalam mengetahui hasil tes dan pembahasan jawaban soal dalam tes
+e-learning dalam pendidikan memerlukan sumber daya yang mumpuni, khususnya sumber daya manusia sehingga pelaksanaan e-learning memerlukan literasi komputer bagi pendidik dan peserta didik
+literasi komputer merupakan istilah yang sering digunakan untuk menerangkan pengetahuan dasar yang perlu diketahui orang awam mengenai komputer
+konsep literasi komputer lebih berkaitan dengan segi praktis penggunaan komputer, bukan perancangan dan pengembangan komputer itu sendiri

@@ -1,0 +1,92 @@
+penyakit kejiwaan adalah suatu perubahan pada fungsi jiwa yang meyebabkan adanya gangguan dalam cara berpikir, kemauan, emosi, tindakan dan hubungan sosial, serta salah satu jenis gangguan kejiwaan yang cukup dikenal yaitu skizofrenia
+skizofrenia merupakan salah satu gangguan kejiwaan yang berat dimana penderita mengalami kesulitan dalam proses berpikir sehingga menimbulkan halusinasi, gangguan berpikir, gangguan bicara atau gangguan perilaku yang terlihat tidak biasa
+dalam pemeriksaan skizofrenia, ada dua tahap yaitu pemeriksaan gejala dan pemeriksaan status mental pemeriksaan gejala digunakan untuk menentukan apakah pasien menderita skizofrenia atau tidak, sedangkan pemeriksaan status mental digunakan untuk menentukan tipe skizofrenia yang diderita
+masih banyak kasus yang diperkirakan tidak terdeteksi akibat kurangnya informasi yang keliru atau kurangnya dukungan masyarakat
+oleh karena itu, diperlukan sebuah sistem pakar yang dapat menggantikan peran seorang dokter dan memberikan pengetahuan-pengetahuan umum mengenai skizofrenia
+tujuan dari penelitian ini adalah menghasilkan sistem pakar untuk mendiagnosis tipe penyakit kejiwaan skizofrenia menggunakan metode tsukamoto dan rekomendasi berupa solusi
+salah satu metode yang dapat digunakan dalam sistem pakar adalah metode tsukamoto
+pada metode tsukamoto, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α- predikat yang hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot
+hasil dari sistem adalah pengguna dapat melakukan konsultasi melalui sistem setelah mendaftarkan data diri, kemudian dilanjutkan dengan memasukkan gejala-gejala dan status mental yang dialami
+sistem diuji dengan blackbox dan pengujian validitas sistem
+melalui blackbox dapat disimpulkan bahwa sistem dapat menangani data sesuai yang diharapkan melalui data-data yang dimasukkan
+sedangkan pengujian validitas sistem menghasilkan nilai akurasi 93, 33% yang mana dapat disimpulkan bahwa sistem yang dibuat dinilai berhasil
+metode tsukamoto, status mental yang menyebabkan adanya gangguan dalam cara berpikir, kemauan, emosi, tindakan dan hubungan sosial yang menimbulkan hambatan dalam melaksanakan peran sosial gangguan jiwa menyebabkan penderitanya tidak sanggup menilai dengan baik kenyataan, tidak dapat lagi menguasai dirinya untuk mencegah serta mengganggu orang lain atau merusak dan menyakiti diri sendiri
+salah satu jenis gangguan kejiwaan yang cukup dikenal yaitu skizofrenia
+skizofrenia merupakan salah satu gangguan kejiwaan berat dan menunjukkan adanya disorganisasi fungsi kepribadian, sehingga menyebabkan disability 
+gangguan kejiwaan skizofrenia berinteraksi dengan orang dan kenyataan
+dalam pemeriksaan skizofrenia, psikiater tidak hanya memeriksa gejala yang tampak pada pasien yang menderita skizofrenia tetapi dilihat juga dari sisi penilaian status mental pasien tersebut, sehingga psikiater dapat menyimpulkan status mental dan menghasilkan kriteria diagnosis
+tampak sama pada budaya negara maju dan budaya negara berkembang, who memperkirakan bahwa sekitar 24 juta orang diseluruh dunia mengalami skizofrenia
+di indonesia terdapat 1, 7 permil atau 1.728 orang yang mengalami gangguan skizofrenia
+tetapi masih banyak kasus yang diperkirakan tidak terdeteksi akibat kurangnya informasi yang keliru atau kurangnya dukungan masyarakat
+oleh karena itu, perlunya sebuah media konsultasi atau sistem pakar mengenai gangguan kejiwaan untuk masyarakat yang kurang mengerti tentang masalah kejiwaan khususnya skizofrenia
+sistem pakar ini menggunakan logika fuzzy, salah satu metode yang digunakan dari logika fuzzy adalah metode tsukamoto
+pada metode tsukamoto, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot
+penelitian ini diharapkan dapat menghasilkan sistem pakar dalam mendiagnosis penyakit kejiwaan skizofrenia menggunakan metode tsukamoto
+sistem yang dibangun berbasis web agar dapat diakses oleh pasien dan psikiater secara online melalui akses internet menyelesaikan masalah seperti yang biasa dilakukan oleh para ahli
+lingkungan pengembangan sistem pakar digunakan untuk sistem pakar diagnosis penyakit kejiwaan skizofrenia menggunakan metode tsukamoto program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 e-mail: withaawithaa@gmail.com1, anggidianti@gmail.com2, rudy_dn@yahoo.com3 memasukkan pengetahuan pakar, sedangkan lingkungan konsultasi digunakan oleh pengguna yang bukan pakar, untuk memperoleh pengetahuan pakar
+metode tsukamoto monoton, pada metode tsukamoto, setiap konsekuen pada aturan yang berbentuk if-then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton
+sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α- predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot
+secara umum bentuk model fuzzy tsukamoto adalah: 𝐼𝐹 𝐴𝑁𝐷 𝑇𝐻𝐸𝑁 dimana a, b, dan c adalah himpunan fuzzy
+metode tsukamoto menggunakan tahapan sebagai berikut: 1
+melalui fungsi keanggotaan yang telah disusun maka dari nilai-nilai masukan tersebut menjadi informasi fuzzy yang berguna nantinya untuk proses pengolahan secara fuzzy pula
+mesin inferensi masing-masing nilai α-predikat ini digunakan untuk menghitung keluaran hasil inferensi secara tegas masing-masing rule (z1, z2, z3…
+berikut ini merupakan persamaan proses defuzzifikasi
+∝1+ ∝2+ ∝3+⋯+ ∝𝑛 dimana: dengan gangguan utama dalam pikiran, emosi, perilaku dan pikiran yang terganggu, dimana berbagai pemikiran tidak saling berhubungan secara logis, persepsi dan perhatian yang keliru, afek yang datar atau tidak sesuai dan berbagai gangguan aktivitas motorik yang aneh
+untuk mendiagnosis tipe penyakit skizofrenia yaitu tipe paranoid, tipe katatonik, tipe terdisorganisasi, tipe tak tergolongkan dan tipe residual, maka dilakukan pemeriksaan menggunakan status mental pemeriksaan status mental merupakan bagian dari pemeriksaan klinis yang menggambarkan jumlah total observasi pemeriksa dan kesan tentang pasien psikiatrik saat wawancara atau suatu gambaran tentang penampilan pasien, bicara, tindakan dan pikiran selama wawancara
+secara ringkas prosedur pengkajian status mental pasien dapat dilakukan meliputi: 1
+observasi penampilan pasien dan tingkah lakunya dengan melihat cara berpakaian pasien, kerapihan dan kebersihan diri
+wajah, dan aktivitas motorik semua ini sering memberikan informasi penting tentang pasien
+perancangan sistem terhubung yang menggambarkan sifat dasar dari sebuah sistem
+keanekaragaman dari banyak model menggambarkan bagian berbeda dan aspek atau pandangan yang berbeda dari suatu sistem
+basis pengetahuan basis pengetahuan adapun penjelasan pada arsitektur pakar yang ditunjukkan oleh gambar 1 yaitu, pakar memberikan pengetahuannya ke dalam sistem melalui proses akuisisi pengetahuan yang kemudian dibentuk ke dalam knowledge engineer
+knowledge engineer berperan untuk merepresentasikan pengetahuan pakar ke dalam basis pengetahuan
+setelah itu, pengguna dapat melakukan interaksi dengan sistem melalui antarmuka
+masukan yang dimasukkan oleh pengguna akan diolah mesin inferensi berdasarkan pada basis pengetahuan yang telah dimasukkan oleh pakar
+mesin inferensi berperan untuk mengelola data masukan untuk mendapatkan hasil diagnosa, hasil diagnosa akan ditampilkan kepada pengguna dan hasil diagnosa yang memiliki penjelasan juga akan ditampilkan kepada pengguna melalui fasilitas penjelas
+diagram overview sistem dari diagram konteks
+diagram overview memberikan pandangan umum mengenai sistem yang dirancang, menunjukkan tentang fungsi-fungsi utama atau proses yang ada, aliran data dan entitas eksternal diagram overview sistem dapat dilihat pada gambar 2
+pada proses 2.0 login, agar bisa mengakses sistem ini, baik admin ataupun pasien harus memasukkan username dan password
+pada proses 3.0 manajemen data, dalam proses manajemen data ini, admin dapat menambahkan dan mengubah data penyakit, data gejala, data status mental proses 4.0 ubah password berfungsi untuk admin dan pasien, dapat melakukan pengubahan password
+proses 5.0 manajemen akun, admin dapat melakukan penambahan ataupun pengubahan dan penghapusan data akun, admin, dan pengguna
+pada proses 6.0 tsukamoto, dilakukan perhitungan proses metode tsukamoto
+diagram hubungan antar tabel diagram hubungan antar tabel merupakan hubungan yang terjadi pada suatu tabel dengan tabel lainnya, yang berfungsi untuk mengatur operasi suatu basis data
+pada sistem pakar diagnosis penyakit kejiwaan skizofrenia terdapat 5 tabel, diagram hubungan antar tabel sistem pakar diagnosis penyakit kejiwaan skizofrenia dapat dilihat pada gambar 3
+pengguna gejala gambar 3 diagram hubungan antar tabel adapun penjelasan dari 5 tabel di dalam sistem ini yaitu, tabel pengguna, yaitu seseorang yang ingin melakukan konsultasi terhadap penyakit kejiwaan skizofrenia
+pada tabel gejala, yaitu gejala-gejala skizofrenia beserta detail gejala dan juga pertanyaan gejala
+tabel status mental, yaitu status mental skizofrenia beserta detail status mental dan pertanyaan status mental tabel penyakit, yaitu jenis penyakit skizofrenia beserta definisi dari penyakit dan solusi
+tabel hasil konsultasi, yaitu hasil yang didapatkan pengguna setelah memasukkan status mental yang dialami dan dihitung menggunakan metode tsukamoto
+pengguna sistem baik itu admin ataupun pengguna/pasien
+antarmuka halaman login dapat dilihat pada gambar 4
+halaman utama pengunjung pertama yang muncul saat pengguna telah terdaftar sebagai pasien
+antarmuka halaman utama pengguna berisikan menu- menu yang dapat diakses oleh pengguna dan informasi- informasi mengenai skizofrenia
+hasil perancangan antarmuka halaman utama pengguna dapat dilihat pada gambar 5
+halaman konsultasi gejala-gejala sesuai dengan yang dialami oleh pasien
+jika pasien terdiagnosa skizofrenia, maka pasien melakukan pemeriksaan status mental halaman pemeriksaan status juga berupa form yang berisikan pertanyaan tentang gangguan status mental yang dialami oleh pasien
+antarmuka halaman konsultasi untuk pemeriksaan status mental dapat dilihat pada gambar 6
+halaman histori konsultasi halaman histori konsultasi dapat dilihat pada gambar 7
+gambar 7 antarmuka halaman histori konsultasi b
+hasil pengujian sistem blackbox yang akan memeriksa apakah sistem dapat berjalan dengan benar dan sesuai dengan yang diharapkan
+pengujian blackbox berfokus pada persyaratan fungsional perangkat lunak
+pengujian blackbox memungkinkan perekayasa perangkat lunak mendapatkan serangkaian kondisi input yang sepenuhnya menggunakan semua persyaratan fungsional untuk suatu program
+hasil pengujian dapat dilihat pada tabel 1
+tabel 1 tabel pengujian halaman konsultasi input contoh data hasil ……
+pengujian validasi sistem diilakukan untuk mengetahui hasil akhir yang berupa kemungkinan jenis penyakit yang dihasilkan oleh sistem pakar dengan yang dihasilkan oleh pakar
+dalam pengujian ini akan dimasukkan hasil diagnosis dari 1 pakar
+pakar yang dijadikan sebagai narasumber dalam peroleh data
+untuk mengetahui kesesuaian hasil sistem pakar dengan pakar dapat dilihat pada tabel 2
+bicara katatonik katatonik sesuai afek - g
+bicara residual residual sesuai afek - g
+bicara terdisorg anisasi terdisorga afek - g
+pikiran residual residual sesuai informasi dari pengujian keakuratan antara validasi pakar dan sistem, sebagai berikut: 2
+hasil diagnosis dokter dan sistem berupa nama tipe dari penyakit skizofrenia
+keakuratan dapat dihitung sebagai berikut: 𝑁𝑖𝑙𝑎𝑖 𝑘𝑒𝑎𝑘𝑢𝑟𝑎𝑡𝑎𝑛 = 𝑗𝑢𝑚𝑙𝑎ℎ 𝑦𝑎𝑛𝑔 𝑠𝑒𝑠𝑢𝑎𝑖 𝑗𝑢𝑚𝑙𝑎ℎ 𝑘𝑎𝑠𝑢𝑠 × 100% 𝑁𝑖𝑙𝑎𝑖 𝑘𝑒𝑎𝑘𝑢𝑟𝑎𝑡𝑎𝑛 = 14 pakar diagnosis penyakit kejiwaan skizofrenia: 1
+pengguna hanya dapat mengakses sistem untuk konsultasi setelah mendaftarkan diri menjadi pasien
+pengguna dapat mengetahui tipe penyakit skizofrenia beserta solusi setelah melakukan konsultasi dengan cara memasukkan gejala-gejala yang dialami dan memasukkan status yang dialami
+input data, masukkan data keseluruhan atau sebagian data kosong akan dimunculkan pesan kesalahan sehingga sistem dapat menangani data sesuai dengan yang diharapkan
+berdasarkan hasil pengujian validitas sistem, didapatkan nilai akurasi sistem sebesar 93, 33%, sehingga dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai berhasil
+pakar diagnosis penyakit kejiwaan skizofrenia menggunakan metode tsukamoto, dapat disimpulkan bahwa: 1
+sistem ini dapat mendiagnosis tipe penyakit kejiwaan skizofrenia dengan menggunakan metode tsukamoto berdasarkan pengujian tingkat keakuratan yang telah dilakukan dengan satu pakar menghasilkan tingkat keakuratan 93, 33%
+tingkan keakuratan diperoleh sesuai dari kesesuaian antara hasil diagnosis sistem pakar dengan basis pengetahuan satu pakar
+pengguna berupa rekomendasi konsultasi ke dokter, terapi farmakoterapi, dan terapi psikoterapi

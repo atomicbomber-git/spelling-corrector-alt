@@ -1,0 +1,79 @@
+indonesia memiliki keragaman bahasa yang luar biasa
+akan tetapi, keterbatasan dalam menguasai berbagai macam bahasa daerah di indonesia merupakan kendala utama bagi masyarakat umum untuk bisa mengerti bahasa daerah yang bukan berasal dari daerah asalnya
+dengan pesatnya perkembangan teknologi, saat ini sedang dikembangkan mesin penerjemah untuk mengatasi masalah penerjemahan bahasa
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter- parameternya diambil dari hasil analisis korpus teks paralel
+saat ini telah banyak dilakukan penelitian mengenai penerjemahaan bahasa daerah ke bahasa indonesia ataupun sebaliknya
+pada beberapa penelitian sebelumnya, mesin penerjemah statistik ada yang belum memiliki antarmuka dan ada yang memiliki antarmuka namun hanya penerjemahan satu bahasa saja
+tujuan penelitian ini adalah mengembangkan antarmuka mesin penerjemah statistik multibahasa dengan fitur komunitas terjemahan dimana pengguna dapat berkontribusi dalam aplikasi translator bahasa daerah sehingga dapat diakses secara luas melalui internet oleh publik
+pengujian dilakukan dengan metode black box dengan teknik robustness testing dan kuesioner
+berdasarkan hasil robustness testing menyatakan aplikasi ini dapat meng- handle proses input dengan baik pada masing-masing bahasa
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 1219 yang berarti aplikasi ini sangat positif dan dinilai berhasil
+bahasa memiliki peranan yang besar dalam kehidupan manusia
+bahasa indonesia adalah bahasa resmi republik indonesia dan bahasa persatuan bangsa indonesia
+wilayah indonesia yang luas terbentang dari sabang sampai merauke memiliki keragaman bahasa dan budaya yang luar biasa
+menurut catatan the linguist terdapat 746 bahasa yang tersebar di wilayah nusantara
+dengan pesatnya perkembangan teknologi, saat ini sedang dikembangkan mesin penerjemah untuk mengatasi masalah penerjemahan bahasa
+mesin penerjemah merupakan mesin yang dapat melakukan proses penerjemahan dari satu bahasa ke bahasa lainnya secara otomatis
+mp memiliki kegunaan praktis karena dapat membantu manusia untuk berkomunikasi satu sama lainnya yang memiliki bahasa yang berbeda
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan dihasilkan atas dasar model statistik yang parameter- parameternya diambil dari hasil analisis korpus teks bilingual 
+sama lainnya yang memiliki bahasa yang berbeda
+seperti yang kita ketahui mesin penerjemah yang umum digunakan sekarang ini adalah google translate
+tetapi bahasa yang terdapat pada google translate juga terbatas
+apabila masyarakat ingin menerjemahkan bahasa yang dimilikinya khususnya bahasa daerah, harus disiapkan mesin penerjemah khusus untuk bahasa tersebut
+salah satu sistem mesin penerjemah statistik yang sering digunakan adalah moses decoder
+aplikasi penerjemah dua arah bahasa indonesia - bahasa melayu sambas berbasis web dengan decoder moses
+saat ini telah dilakukan beberapa penelitian mengenai penerjemahaan bahasa, seperti penelitian yang berjudul 
+dalam penelitian tersebut hanya menguji satu bahasa saja, yaitu bahasa indonesia - bahasa melayu sambas
+uji akurasi mesin penerjemah statistik bahasa indonesia ke bahasa melayu sambas dan mesin penerjemahan statistik bahasa melayu sambas ke bahasa indonesia
+terdapat pula penelitian yang berjudul 
+dalam penelitian tersebut hanya menguji nilai akurasi hasil terjemahan dari mesin yang dibangun, belum memiliki antamuka dan belum dapat dipublikasikan melalui internet untuk diakses oleh publik
+statistik ada yang belum memiliki antarmuka dan ada yang memiliki antarmuka namun hanya penerjemahan satu bahasa saja
+untuk itu perlu dikembangkan antarmuka mesin penerjemah statistik bahasa indonesia ke beberapa bahasa daerah atau sebaliknya, yang dibangun berbasis web agar dapat diakses oleh publik
+penerjemah statistik multibahasa berbasis web dengan memanfaatkan moses decoder sebagai mesin penerjemah
+uraian penelitian makna dari bahasa sumber ke dalam bahasa sasaran
+selain itu, dalam penerjemahan terjadi penggantian bentuk bahasa sumber dengan bentuk bahasa sasaran
+larson menyatakan menerjemahkan berarti: komunikasi dan konteks budaya dari teks bahasa sumber
+menganalisis teks bahasa sumber untuk menemukan maknanya
+menggunakan leksikon dan struktur gramatikal yang sesuai dalam bahasa sasaran dan konteks budayanya
+menurut nida dan taber, penerjemahan adalah pengungkapan kembali pesan dari bahasa sumber di dalam bahasa sasaran dengan padanan terdekat dan wajar, pertama dalam hal makna dan kedua dalam hal gaya bahasa
+penerjemahan harus bertujuan utama pada pengungkapan kembali sebuah pesan
+untuk mengungkapkan kembali pesan dari teks sumber, seorang penerjemah harus membuat penyesuaian secara gramatikal dan leksikal dengan baik
+kesepadanan makna harus menjadi hal utama
+hal tersebut lebih merupakan penekanan sebuah reproduksi pesan daripada pemindahan bentuknya
+makna harus diutamakan dalam penerjemahan dan isi pesan merupakan keutamaan yang mendasar
+terjemahan yang paling baik adalah terjemahan yang tidak terlihat seperti terjemahan
+hal tersebut berarti bahwa terjemahan harus terasa sedekat mungkin dengan masyarakat bahasa sasaran
+penerjemahan harus menghasilkan padanan yang wajar sehingga tidak menunjukkan kekakuan dalam gramatikal dan gaya bahasa
+berdasarkan uraian di atas disimpulkan bahwa pada dasarnya penerjemahan itu adalah mengalihkan pesan tulis yang ada dalam bahasa sumber ke bahasa target yang berbeda sesuai dengan isi pesan bahasa sumber, dan dengan menggunakan cara-cara pengungkapan atau pengekspresian yang wajar pada bahasa target terlepas dari perbedaan- perbedaan dalam hal pendefinisian istilah itu, para pakar sepakat atas prinsip dasar penerjemahan bahwa masalah makna merupakan hal pokok yang harus dipertimbangkan
+diperkenalkan pada tahun 1991 oleh para ahli thomas j
+dengan kemampuan komputer yang telah menungkat pesat pada sekitar tahun 90-an maka dimungkinkan untuk melakukan pengembangan dengan teknik statistik pada sistem komputer
+hasil riset tim ibm ini memberukan kontribusi yang signifikan dalam peningkatan ketertarikan dan optimisme para peneliti dan komunitasnya pada kemampuan mesin penerjemah denan komputer
+statistical machine translation adalah suatu paradigma dari mesin penerjemah dimana penerjemahan dilakukan berbasis model statistik ddengan parameter-parameter yang diturunkan dari analisis parallel corpus
+pendekatan statistik berbeda dengan pendekatan berbasis aturan dan berbeda dari translasi berbasis contoh kalimat
+penerjemahan dengan metode smt menghasilkan terjemahan yang lebih baik dibandingkan dengan hanya terjemahan kata demi kata, dengan syarat yang dimasukkan ke dalam sistem mempunyai kualitas baik dan cukup banyak jumlahnya
+unified modeling language adalah standar pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+activity diagram activity diagram adalah sebuah diagram alur kerja yang menjelaskan berbagai kegiatan pengguna atau sistem, orang yang melakukan masing-masing aktivitas dan aliran sekuensial dari aktivitas-aktivitas tersebut
+desain arsitektur sistem aplikasi yang dibangun berbasis web, yang dapat diakses oleh user atau pengguna untuk melakukan penerjemahan
+proses penerjemahan dimulai dengan user atau pengguna meminta terjemahan, user atau pengguna akan memasukkan masukan berupa kata, kalimat atau paragraf melalui web server dengan menggunakan aplikasi translator bahasa daerah pada web browser yang terhubung oleh internet, kemudian diteruskan ke moses decoder yang akan melakukan proses terjemahan
+hasil terjemahan yang dihasilkan oleh moses decoder akan dikembalikan lagi ke user atau pengguna melalui web server
+pengujian aplikasi box dengan teknik robustness testing dan kuesioner
+hasil aplikasi diperlihatkan pada gambar 3 sampai dengan gambar 6
+tampilan penerjemah dua arah gambar 3 merupakan tampilan untuk menerjemahkan bahasa secara dua arah dari bahasa a ke bahasa b dan sebaliknya
+terjemahan, fitur dari aplikasi translator bahasa
+pengguna bisa berkontribusi dalam sistem penerjemah melalui komunitas terjemahan
+tampilan memvalidasi pada komunitas terjemahan gambar 6 merupakan tampilan fitur memvalidasi pada komunitas terjemahan untuk memperbaiki hasil terjemahan kata atau frasa dengan menandai terjemahan yang benar atau salah
+dengan teknik robustness testing yang dilakukan pada aplikasi translator bahasa daerah dengan tujuan apakah aplikasi dapat mengambil hasil terjemahan yang dihasilkan pada moses decoder dan menampilkannya dengan baik dari bahasa-bahasa yang terdapat pada aplikasi
+pada tabel 1, memperlihatkan pengujian pada penerjemahan bahasa indonesia ke bahasa melayu ketapang dalam pengujian dilakukan dengan data kosong, satu kata, dua kata dan satu kalimat
+tabel 1 tabel pengujian penerjemahan bahasa input contoh data hasil eksekusi keterangan data kosong raje raje mude bahasa indonesia ke bahasa daerah dalam pengujian dilakukan dengan satu kalimat dari bahasa indonesia ke masing-masing bahasa daerah
+kuesioner dibagikan kepada 30 responden yang merupakan mahasiswa dan mahasiswi program studi teknik informatika fakultas teknik universitas tanjungpura pontianak
+untuk melihat skor terbesar dan terkecil dari satu orang responden dan total semua responden dari kuesioner ditunjukkan pada tabel 3 berikut
+daerah berbasis web yang telah dilakukan adalah sebagai berikut: 1
+hasil robustness testing menyatakan aplikasi dapat meng-handle proses input dengan baik pada masing- masing bahasa, terutama pada proses input data yang tidak sesuai dan kosong
+hasil kuesioner menunjukkan sebagian besar responden menerima dengan baik aplikasi ini
+dengan mengisi kuesioner tersebut, secara tidak langsung responden telah ikut berkontribusi dalam aplikasi dengan cara daftar dan login serta menggunakan fitur komunitas terjemahan
+hasil interpretasi skor dari likert’s summated rating menunjukkan hasil 1219 dengan nilai sangat positif yang berarti aplikasi dinilai berhasil
+kesimpulan/ringkasan bahwa: multibahasa dapat berjalan dengan baik dalam proses input pada masing-masing bahasa yang terdapat di aplikasi
+kuesioner tersebut, secara tidak langsung responden telah ikut berkontribusi dalam aplikasi dengan cara daftar dan login serta menggunakan fitur komunitas terjemahan
+likert’s summated rating diperoleh nilai total 1219 yang berarti aplikasi ini sangat positif dan dinilai berhasil

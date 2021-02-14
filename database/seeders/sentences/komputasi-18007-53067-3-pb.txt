@@ -1,0 +1,94 @@
+menurut undang-undang nomor 25 tahun 2009 tentang pelayanan publik menegaskan bahwa penyelenggara berkewajiban melakukan evaluasi terhadap kinerja pelaksana di lingkungan organisasi secara berkala
+sebagai salah satu institusi penyelenggara pelayanan publik maka perpustakaan juga berkewajiban melaksanakan undang-undang
+kewajiban tersebut adalah salah satu upaya untuk meningkatkan kualitas pelayanan publik.berdasarkan observasi di perpustakaan provinsi kalimantan barat untuk mengetahui kualitas layanan yang ada hanya dilakukan menggunakan sebuah kertas yang berisikan tulisan dan yang kemudian dimasukkan ke dalam kotak saran tanpa dapat diketahui pelayanan apa yang harus ditingkatkan, sehingga tidak dapat mengetahui tingkat kualitas layanan menurut persepsi pelanggan
+mengingat hal tersebut maka diperlukan suatu sistem untuk monitoring tingkat kualitas pelayanan perpustakaan tersebut
+penelitian ini bertujuan untuk menghasilkan aplikasi yang dapat digunakan untuk monitoring kualitas layanan perpustakaan
+adapun aplikasi yang dibangun menggunakan metode service quality fuzzy
+metode servqual digunakan sebagai model pengukuran tingkat kualitas layanan dengan menggunakan dimensi tangibles, reliability, responsiveness, assurance dan emphaty
+sedangkan metode fuzzy digunakan untuk mengukur tingkat kualitas layanan perpustakaan
+berdasarkan hasil user acceptance test kategori pengunjung perpustakaan didapatkan hasil aplikasi dinilai sangat positif dan sangat berhasil, sedangkan pada kategori admin didapatkan hasil aplikasi dinilai positif dan cukup berhasil
+tempat untuk mengatur, mengelola, menyimpan, dan mengumpulkan koleksi bahan pustaka secara sistematis untuk digunakan oleh pemakai sebagai sumber informasi sekaligus sebagai sarana belajar
+perpustakaan juga mempunyai peran dalam meningkatkan kualitas pendidikan, sehingga pelayanan yang diberikan merupakan hal yang sangat penting untuk ditingkatkan
+salah satu contoh perpustakaan adalah perpustakaan provinsi kalimantan barat
+pelayanan publik dalam bidang pendidikan yang disediakan oleh pemerintah
+beberapa fasilitas yang tersedia saat ini adalah ruang baca, ruang referensi, ruang internet perpustakaan provinsi kalimantan barat juga melayani pendaftaran anggota dan peminjaman buku
+menurut undang-undang nomor 25 tahun 2009 tentang pelayanan publik menegaskan bahwa penyelenggara berkewajiban melakukan evaluasi terhadap kinerja pelaksana di lingkungan organisasi secara berkala
+sebagai salah satu institusi penyelenggara pelayanan publik maka perpustakaan juga berkewajiban melaksanakan undang-undang
+kewajiban tersebut adalah salah satu upaya untuk meningkatkan kualitas pelayanan publik
+berdasarkan observasi di perpustakaan provinsi kalimantan barat untuk mengetahui kualitas layanan yang ada hanya dilakukan menggunakan sebuah kertas yang berisikan tulisan dan yang kemudian dimasukkan ke dalam kotak saran tanpa dapat diketahui pelayanan apa yang harus ditingkatkan, sehingga tidak dapat mengetahui tingkat kualitas layanan menurut persepsi pelanggan
+mengingat hal tersebut maka diperlukan suatu sistem untuk monitoring tingkat kualitas pelayanan perpustakaan tersebut
+metode yang digunakan dalam pengukuran kualitas pelayanan yaitu metode service quality dan fuzyy tsukamoto
+metode service quality merupakan salah satu cara untuk menyatakan tingkat kepuasan dan tingkat kepentingan menggunakan skala likert yang memiliki range nilai
+skala yang digunakan tersebut menghasilkan penilaian seseorang yang kurang tepat pada perkiraan seseorang terhadap suatu kriteria sehingga bersifat subyektif dan seringkali bias
+untuk mengatasi keterbatasan yang terdapat dalam metode service quality maka digunakan konsep penilaian fuzzy
+konsep penilaian fuzzy dipilih dalam menentukan tingkat persepsi dan harapan karena range nilai yang digunakan pada fuzzy dapat menjembatani antara perkiraan seseorang dengan data yang akan diolah
+sistem ini akan memberikan hasil berupa kualitas layanan, sehingga dapat digunakan sebagai rekomendasi kepada pengelola perpustakaan untuk menentukan pelayanan apa yang harus ditingkatkan sesuai dengan kebutuhan pengunjung
+uraian penelitian disebutkan bahwa perpustakaan adalah institusi pengelola koleksi karya tulis, karya cetak, dan/atau karya rekam secara profesional dengan sistem yang baku guna memenuhi kebutuhan pendidikan, penelitian, pelestarian, informasi, dan rekreasi para pemustaka
+perpustakaan bertujuan memberikan layanan kepada pemustaka, meningkatkan kegemaran membaca, serta memperluas wawasan dan pengetahuan untuk mencerdaskan kehidupan bangsa
+seberapa jauh perbedaan antara kenyataan dan harapan para pelanggan atas layanan yang mereka peroleh atau terima
+kualitas layanan parasuraman dapat didefinisikan sebagai 
+dalam mengevaluasi kualitas layanan digunakan lima dimensi karakteristik yaitu: perlengkapan, pegawai, dan sarana komunikasi
+reliability reliability yaitu kemampuan memberikan pelayanan yang dijanjikan dengan segera, akurat, dan memuaskan
+responsiveness responsiveness yaitu keinginan para staf untuk membantu para pelanggan dan memberikan pelayanan dengan tanggap
+kesopanan, dan sifat dapat dipercaya yang dimiliki para staf bebas dari bahaya, resiko atau keragu-raguan
+emphaty emphaty meliputi kemudahan dalam melakukan hubungan, komunikasi yang baik, perhatian pribadi, dan memahami kebutuhan pelanggan
+logika fuzzy pemecahan masalah, yang cocok untuk diimplementasikan pada sistem, mulai dari sistem yang sederhana, sistem kecil, embedded system, jaringan pc, multi-chanel atau workstation berbasis akuisisi data dan sistem kontrol
+metodologi ini dapat diterapkan pada perangkat keras, perangkat lunak atau kombinasi keduanya
+berupa himpunan fuzzy yang diperoleh dari komposisi aturan- aturan fuzzy
+crisp/hasil yang tegas dicari dengan cara mengubah input menjadi suatu bilangan pada domain himpunan fuzzy tersebut
+cara ini disebut dengan metode defuzzifikasi 
+tahapan sebagai berikut: bentuk variabel numerik, sebelum diolah harus diubah terlebih dahulu ke dalam variabel fuzzy
+melalui fungsi keanggotaan yang telah disusun maka dari nilai-nilai masukan tersebut menjadi informasi fuzzy yang berguna nantinya untuk proses pengolahan secara fuzzy pula
+pembentukan basis pengetahuan fuzzy 3
+mesin inferensi mesin inferensi menggunakan fungsi implikasi min untuk mendapatkan nilai α-predikat pada tiap rule (α1, α2, α3
+kemudian masing-masing nilai α-predikat ini digunakan untuk menghitung keluaran hasil inferensi secara tegas masing-masing rule (z1, z2, z3, …
+defuzzifikasi pada tahapan defuzzifikasi, defuzzifikasi menggunakan metode rata-rata 
+berikut ini merupakan persamaan dari metode rata-rata, dapat dilihat persamaan berikut: gambar 1
+desain arsitektur sistem pada gambar 1, dapat dilihat bahwa pengunjung dapat mengisi kuesioner untuk penilaian tingkat kualitas layanan
+admin dapat melakukan analisis terhadap kualitas layanan perpustakaan
+saat melakukan analisis, diperlukan peran mesin inferensi
+mesin inferensi yang digunakan adalah metode fuzzy tsukamoto dan servqual kegiatan yang berlangsung pada sistem secara umum
+diagram konteks sistem ini dapat dilihat pada gambar 2
+pengujian blackbox fungsional dari software karena uji coba blackbox memungkinkan pengembang software untuk membuat himpunan kondisi input yang akan melatih seluruh syarat-syarat fungsional suatu program
+sistem dapat berjalan dengan benar dan sesuai dengan yang diharapkan
+teknik pengujian blackbox yang digunakan adalah sample testing
+pengujian blackbox dilakukan pada proses input data responden, proses login admin, proses tambah data pertanyaan, proses ubah data akun
+pengujian daya terima dilakukan oleh end-user dimana user tersebut adalah staff/karyawan perusahaan yang langsung berinteraksi dengan sistem dan dilakukan verifikasi apakah fungsi yang ada telah berjalan sesuai dengan kebutuhan/fungsinya
+data yang diperoleh dari hasil pengujian kemudian diukur dengan metode likert’s summated rating 
+lsr yaitu skala yang digunakan untuk mengukur sikap, pendapat dan persepsi seseorang atau sekelompok tentang kejadian atau gejala sosial
+jumlah skor untuk setiap responden: a
+skor maksimal = 5 x jumlah item pertanyaan b
+skor minimal = 1 x jumlah item pertanyaan c
+skor median = 3 x jumlah item pertanyaan d
+skor kuartil i = 2 x jumlah item pertanyaan e
+skor kuartil iii = 4 x jumlah item pertanyaan 2
+jumlah skor untuk seluruh responden: a
+maksimal = skor maksimal x jumlah responden b
+minimal = skor minimal x jumlah responden c
+median = skor median x jumlah responden d
+kuartil i = skor kuartil i x jumlah responden e
+kuartil iii = skor kuartil iii x jumlah responden 3
+interpretasi jumlah skor tersebut adalah: b
+kuartil iii < skor < maksimal artinya sangat positif c
+median < skor < kuartil iii artinya positif d
+kuartil i < skor < median artinya negatif e
+minimal < skor < kuartil i artinya sangat negatif iii
+hasil dan diskusi fuzzy tsukamoto dan service quality pada aplikasi monitoring tingkat kualitas layanan perpustakaan
+aplikasi ini bertujuan untuk membantu perpustakaan provinsi kalimantan barat dalam monitoring tingkat kualitas layanan
+user pada aplikasi ini terbagi menjadi dua kategori yaitu pengunjung dan admin
+pengunjung dapat mengisi kuesioner untuk menilai tingkat kualitas layanan perpustakaan
+admin dapat melakukan analisis tingkat kualitas layanan perpustakaan berdasarkan hasil kuesioner yang diisi oleh pengunjung
+berikut gambar 3 merupakan tampilan halaman utama pengunjung
+berikut gambar 4 merupakan tampilan halaman utama admin
+hasil pengujian blackbox akan memberikan alert jika data input kosong atau tidak diisi dan eksekusi pada program tidak akan berhasil
+eksekusi data akan berhasil jika data input benar
+berikut pada tabel 1 ditunjukkan hasil pengujian blackbox
+hasil pengujian daya terima berdasarkan user acceptance test, pada kategori pengunjung total skor yang diperoleh dari 85 responden dengan sepuluh item pertanyaan yakni 3641
+nilai yang didapat berada di antara kuartil iii dan maksimal pada interpretasi lsr, sehingga dapat diketahui bahwa responden menilai bahwa aplikasi yang dibuat sangat positif dan berhasil
+berikut pada tabel 2 ditunjukkan skor yang diperoleh pada pengujian kategori pengunjung
+4 5 5 5 3 4 4 4 5 5 44 total 3641 total skor yang diperoleh dari 3 responden dengan sepuluh item pertanyaan yakni 120, nilai tersebut berada di kuartil iii sehingga dapat disimpulkan bahwa aplikasi yang dibuat positif dan cukup berhasil
+berikut pada tabel 3 ditunjukkan skor yang diperoleh pada pengujian kategori admin
+hasil pengujian daya terima kategori admin responden item total 1 2 3 4 5 6 7 8 9 10 1
+kesimpulan/ringkasan monitoring tingkat kualitas layanan perpustakaan menggunakan metode service quality fuzzy, dapat disimpulkan bahwa: 1
+sistem yang dibangun dapat menganalisis dan memonitor tingkat kualitas layanan pada perpustakaan provinsi kalimantan barat
+berdasarkan hasil user acceptance test kategori pengunjung aplikasi ini dinilai sangat positif dan berhasil, sedangkan pada kategori admin aplikasi ini dinilai positif dan cukup berhasil

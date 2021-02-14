@@ -1,0 +1,87 @@
+endukung kelancaran kegiatan mengajar mata kuliah
+kegiatan belajar mengajar tersebut disesuaikan dengan jadwal yang telah disepakati dan rencana pembelajaran semester yang telah direncanakan oleh program studi di setiap universitas
+rencana pembelajaran semester adalah susunan rencana materi perkuliahan untuk setiap pertemuan mata kuliah dalam satu semester yang bertujuan untuk memenuhi capaian pembelajaran yang berisi kompetensi apa yang akan dicapai oleh mahasiswa setelah mengikuti perkuliahan tersebut
+pada proses belajar mengajar rps berkaitan dengan kehadiran dosen, jika kehadiran dosen tidak sesuai dari target rps yang telah direncanakan, maka capaian pembelajaran pada mata kuliah tersebut tidak maksimal untuk memaksimalkan ketercapaian rps, pelaksanaan mengajar dosen perlu di-monitoring
+proses pendataan kehadiran dosen mengajar dan pengisian rps di program studi teknik informatika universitas tanjungpura masih dilakukan secara manual, dengan menggunakan selembar kertas
+penelitian ini bertujuan untuk mendata absensi dan me-monitoring jumlah kehadiran mengajar dosen bagi dosen, ketua program studi, dan ketua jurusan 
+sistem dibangun berbasis web dan perancangan sistem mencakup perancangan arsitektur sistem, perancangan diagram alir sistem, perancangan data flow diagram, perancangan entity relationship diagram, perancangan basis data dan perancangan antarmuka sistem
+pengujian sistem menggunakan 2 metode yaitu black box dan user acceptance test 
+pada pengujian black box, sistem dapat bekerja dengan baik dalam menangani suatu kemungkinan kesalahan, dan pada pengujian uat berdasarkan total skor penilaian yang diperoleh dari 5 responden yakni 324, nilai tersebut berada di antara titik kuartil iii dan titik maksimal pada interpretasi lsr, sehingga dapat diketahui bahwa responden menilai bahwa aplikasi yang dibuat sangat positif dan berhasil
+berdasarkan hasil pengujian sistem informasi kehadiran mengajar dosen ini dapat digunakan untuk membantu proses pendataan absen dan me-monitoring jumlah kehadiran mengajar dosen serta ketercapaian rps
+rps, web terlepas dari interaksi antara dosen dan mahasiswa
+kehadiran dosen merupakan salah satu unsur pendukung kelancaran kegiatan mengajar mata kuliah 
+kegiatan belajar mengajar tersebut disesuaikan dengan jadwal yang telah disepakati dan rencana pembelajaran semester yang telah direncanakan oleh program studi di setiap universitas
+rencana materi perkuliahan untuk setiap pertemuan mata kuliah dalam satu semester, yang disusun sebelum perkuliahan dimulai
+rps bertujuan untuk memenuhi capaian pembelajaran yang berisi kompetensi apa yang akan dicapai oleh mahasiswa setelah mengikuti perkuliahan tersebut
+pedoman pembuatan rps dirancang berdasarkan peraturan menteri pendidikan dan kebudayaan no 49 tahun 2014 mengenai standar nasional pendidikan tinggi 
+kehadiran dosen dalam mengajar mempengaruhi ketercapaian rps, karena materi yang disampaikan sesuai dengan rps yang telah direncanakan dalam setiap pertemuan
+jika kehadiran dosen tidak sesuai dari target rps yang telah direncanakan, maka capaian pembelajaran pada mata kuliah tersebut tidak maksimal untuk memaksimalkan capaian pembelajaran, pelaksanaan mengajar dosen perlu di-monitoring
+kegiatan mengajar dosen akan dievaluasi oleh dosen, prodi, akademik dan jurusan yang bersangkutan sebagai penilaian terhadap pelaksanaan belajar mengajar dengan rps yang direncanakan
+hasil monitoring dan evaluasi selanjutnya menjadi laporan kegiatan proses mengajar pada semester tersebut
+tanjungpura masih dilakukan secara manual, dengan menggunakan selembar kertas
+pengisian rps untuk mata kuliah dalam satu semester diisikan oleh dosen sebelum perkuliahan berjalan, dan kemudian diserahkan ke prodi masing-masing sebagai acuan materi yang akan disampaikan setiap pertemuan
+pada saat masa perkuliahan, dosen akan diabsen oleh satpam ke setiap kelas, kemudian dosen mengisikan tanda tangan dan rps untuk yang diajarkan pada pertemuan tersebut
+jika satpam tidak mengabsen ke setiap kelas maka kehadiran dosen tidak tercatat
+sistem absensi kehadiran mengajar yang ada saat ini masih kurang pengawasan atau monitoring baik dosen, ketua program studi, ketua akademik, dan ketua jurusan
+sehingga tidak dapat diketahui ketercapaian materi yang diajarkan kepada mahasiswa
+apakah telah memenuhi rps yang telah disusun atau belum
+selain itu berdasarkan hasil data dari jurusan teknik elektro fakultas teknik sistem informasi kehadiran dosen mengajar dengan menggunakan sidik jari pada program studi teknik informatika universitas tanjungpura novia kusumarani#1, arif bijaksana putra negara#2, tursina#3 #program studi teknik informatika fakultas teknik universitas tanjungpura 1noviakusumaranift@gmail.com, 2arifbpn@gmail.com, 3tursina15@yahoo.com jl
+melakukan penelitian tentang pendataan presensi perkuliahan berbasis fingerprint pada jurusan sistem informasi institut teknologi sepuluh nopember surabaya
+sistem ini dibangun untuk mendata kehadiran mahasiswa, karena absensi yang menggunakan tanda tangan dinilai kurang efektif dan tidak valid karena mahasiswa kerap menitipkan tanda tangan kepada teman sekelasnya
+melalui penggunaan aplikasi presensi fingerprint, sangat membantu sistem absensi kelas di jsi untuk menghindari adanya kecurangan absensi yang dilakukan mahasiswa sehingga menghasilkan data absen yang valid karena absensi berbasis fingerprint merupakan suatu metode yang sangat efektif untuk me-monitoring tingkat kehadiran di tempat kuliah
+selain itu data absensi dari fingerprint dapat mudah diolah, sehingga membantu tu jurusan untuk merekapitulasi absensi mahasiwa di akhir semester
+oleh karena itu, berdasarkan penelitian yang dilakukan oleh noval aditya muhammad yang membuat sistem presensi perkuliahan berbasis fingerprint untuk memudahkan proses monitoring tingkat kehadiran mahasiswa, maka dalam penelitian ini perlu dikembangkan suatu sistem informasi kehadiran dosen mengajar menggunakan sidik jari pada program studi teknik informatika universitas tanjungpura untuk mendata absensi dan me-monitoring jumlah kehadiran mengajar dosen serta ketercapaian rps bagi dosen, oleh ketua program studi, dan ketua jurusan 
+pada sistem ini dosen memasukkan data rps sebelum perkuliahan dimulai secara online melalui sistem, pada saat masa perkuliahan dosen melakukan absen setiap sebelum dan sesudah mengajar melalui absen sidik jari dengan mesin fingerprint
+hasil data absensi dari sidik jari kemudian diolah untuk mendapatkan hasil jumlah kehadiran dosen, dan setiap absensi akan dicocokkan dengan rps per pertemuan
+agar dapat diketahui jumlah rps yang terealisasi dan tidak, jika ada beberapa rps yang belum terelisasi sebelum ujian maka dosen dapat segera menambah jadwal mengajar untuk memenuhi ketercapaian rps yang telah disusun
+sistem ini akan memberikan hasil jumlah kehadiran mengajar dosen
+uraian penelitian alur penelitian yang akan dilakukan adalah: 1
+langkah-langkah penelitian yang akan dilakukan dapat dilihat pada gambar 1: iii
+perancangan dosen, admin, kaprodi, dan kajur
+sistem yang dibangun merupakan aplikasi berbasis web dan desktop, aplikasi absen merupakan aplikasi desktop yang berfungsi untuk mengambil data absen dari mesin fingerprint, sedangkan siked merupakan aplikasi berbasis web yang berfungsi untuk proses monitoring dan pengolahan data
+terdapat 2 proses yang terjadi pada sistem yaitu proses absen dan proses monitoring
+yang berperan dalam proses absen adalah dosen, sedangkan untuk proses absen semua pengguna memiliki hak akses
+arsitektur sistem dapat dilihat pada gambar 2
+mesin fingerprint dosen informatika aplikasi diagram konteks adalah diagram yang memberikan seluruh jaringan terhadap input/output sistem yang dimaksudkan untuk menggambarkan sistem yang sedang berjalan, mengidentifikasi awal dan akhir data yang masuk dan keluar sistem
+diagram konteks siked dapat dilihat pada gambar 3
+use case diagram pangkalan data penelitian c
+entity relationship diagram erd merupakan sebuah model yang menggambarkan hubungan antar entitas yang ada dalam sistem
+pada sistem yang dirancang terdapat 5 entitas yang saling berhubungan
+erd yang digunakan dapat dilihat pada gambar 4
+implementasi dan analisis pengujian berikut adalah hasil dari perancangan sistem yang telah dibuat sebelumnya
+pengguna website ini dibagi menjadi 4 hak akses, yaitu admin, dosen, kaprodi, dan kajur
+untuk akses ke sistem semua pengguna harus login terlebih dahulu, pada gambar 5 terdapat tampilan antarmuka login, pada gambar 6 terdapat tampilan antarmuka daftar jadwal, pada gambar 7 terdapat tampilan antarmuka isi absen kehadiran, pada gambar 8 terdapat tampilan antarmuka kehadiran, pada gambar 9 terdapat tampilan antarmuka rps, dan pada gambar 10 terdapat tampilan antarmuka silabus
+hasil pengujian black box pengujian black box pada penelitian ini terdiri pengujian cari nim, pengujian unggah dokumen, pengujian penilaian dan pengujian tambah data
+pengujian import data pengujian import data dilakukan pada aktivitas import data kehadiran yang berupa data excel
+hasil pengujian import data dapat dilihat pada tabel 4.1 berikut
+tabel 1 hasil pengujian import data input contoh data hasil gambar 11
+pesan dokumen harus berupa excel 2003 b
+pengujian isi data absen pengujian isi data absen dilakukan pada salah satu proses pengisian absen mengajar
+hasil pengujian isi data absen dapat dilihat pada tabel 4.2 berikut
+tabel 2 hasil pengujian isi data absen input contoh data hasil eksekusi keterangan input data absen sidik jari tidak sesuai dengan jadwal yang isi data absen c
+pengujian tambah data pengujian tambah data dilakukan pada salah satu proses tambah data, yaitu proses tambah data toleransi
+hasil pengujian proses tambah data toleransi dapat dilihat pada tabel 3 berikut
+hasil pengujian validitas dan reabilitas kuisioner a
+pengujian validitas kuisioner hasil dari pengujian validitas kuisioner dapat dilihat pada tabel 5
+pengujian reliabilitas kuisioner hasil dari pengujian reliabilitas kuisioner dapat dilihat pada tabel 6
+banyak pertanyaan nilai cronbach’s alpha nilai cronbach’s alpha pada penelitian ini sebesar 0, 870
+angka ini berada diantara 0, 7 sampai dengan 0, 9
+hasil perhitungan dan penyajian data hasil kuisioner hasil kuisioner dapat dilihat pada tabel 7
+tabel 7 hasil kuisioner keterangan : 1= tidak baik 2 = kurang baik 3 = cukup baik 4 = baik 5 = sangat baik 3
+user acceptance test pengujian user acceptance test dilakukan terhadap dosen program studi teknik informatika universitas tanjungpura
+pada tabel 4.4 ditunjukkan skor yang diperoleh pada pengujian uat dosen dari 5 responden terhadap 14 item pertanyaan
+pertanyaan yang diajukan kepada responden dapat dilihat pada lampiran a
+berikut perhitungan untuk mengukur uat dosen terhadap aplikasi dengan menggunakan metode likert’s summated rating pada pengujian dosen
+jumlah skor untuk setiap responden:  skor maksimal = 5 x 14 item = 70  skor minimal = 1 x 14 item = 14  skor median = 3 x 14 item = 42  skor kuartil i = 2 x 14 item = 28  skor kuartil iii = 4 x 14 item = 56 b
+jumlah skor untuk seluruh responden:  maksimal = 70 x 5 responden = 350  minimal = 14 x 5 responden = 70  median = 42 x 5 responden = 210  kuartil i = 28 x 5 responden = 140  kuartil iii = 56 x 5 responden = 280 c
+analisis hasil pengujian berdasarkan hasil pengujian yang diperoleh, analisis mengenai masing-masing hasil pengujian dapat disimpulkan sebagai berikut: 1
+hasil pengujian blackbox menunjukkan bahwa saat dilakukan input data dengan semua data kosong atau salah satu data kosong maka akan akan menimbulkan terjadinya kesalahan terhadap program, sistem telah menangani kesalahan input-an yang terjadi dengan memberikan alert pesan kesalahan dan eksekusi pada program tidak akan berhasil
+eksekusi data akan berhasil jika semua data input-an terisi dengan benar
+berdasarkan pengujian validitas kuisioner, dapat diketahui bahwa terdapat 11 pertanyaan yang tidak valid dan 3 pertanyaan yang valid
+berdasarkan pengujian reliabilitas kuesioner, dapat diketahui bahwa kuisioner yang dibuat tingkat realibilitasnya tinggi, dimana nilai conbach’s alpha pada penelitian ini sebesar 0, 870
+angka ini berada diantara 0, 7 sampai dengan 0, 9
+berdasarkan hasil data kuisioner dapat diketahui bahwa aplikasi dibaik sangat baik oleh responden, dimana pesentase tanggapan sangat baik merupakan persentase tanggapan terbesar dalam hasil kuisioner yaitu 3%
+hasil pengujian user acceptance test menunjukkan bahwa pengujian yang dilakukan terhadap dosen menghasilkan total skor yang diperoleh dari 5 responden dengan 14 item pertanyaan yakni 324
+nilai yang didapat berada di antara titik kuartil iii dan titik maksimal pada interpretasi lsr, sehingga dapat diketahui bahwa responden menilai bahwa aplikasi yang dibuat sangat positif dan berhasil
+kesimpulan program studi teknik informatika universitas tanjungpura sehingga proses monitoring kehadiran dapat dievaluasi setiap akhir semester sebagai penilaian kerja dari masing- masing dosen
+saran bagi pengembangan aplikasi ini adalah sistem ini dapat dikembangkan dengan menambahkan akses bagi ketua kelas agar bisa melakukan feedback ketercapaian materi rps, apakah materi yang disampaikan oleh dosen sesuai dengan data rps pada pertemuan tersebut dan sistem ini dapat dikembangkan menjadi berbasis android untuk hasil monitoring

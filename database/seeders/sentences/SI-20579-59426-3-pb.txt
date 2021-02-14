@@ -1,0 +1,96 @@
+informasi mengenai keragaman jenis burung air di suatu wilayah dapat digunakan untuk penelitian di berbagai bidang ilmu pengetahuan
+tidak adanya informasi yang mudah diakses dan kurang nya tenaga peneliti di lapangan menjadi suatu hambatan untuk mengumpulkan dan mendokumentasikan data jenis burung air yang berada di suatu wilayah salah satunya di wilayah hutan mangrove peniti kabupaten mempawah provinsi kalimantan barat
+untuk itu, dibutuhkan suatu media informasi yang bisa mempermudah peneliti mendata persebaran burung air yang hidup di wilayah tersebut dengan memanfaatkan peran sukarelawan dalam mengumpulkan data atau melalui metode penelitian citizen science
+hasil yang di dapat juga harus dapat di akses oleh masyarakat secara luas
+tujuan dari penelitian ini adalah menghasilkan sistem informasi berbasis citizen science yang dapat diimplementasikan dalam mengumpulkan data keanekaragaman burung air di wilayah hutan mangrove peniti kabupaten mempawah melalui website yang dibuat
+alat perancangan dalam penelitian ini menggunakan data flow diagram dan pengujian sistem dilakukan dengan membagikan kuesioner terhadap 20 responden pengunjung website, 5 mahasiswa organisasi penelitian universitas tanjungpura pontianak dan 5 orang masyarakat di wilayah hutan mangrove peniti, sebagian besar hasil menunjukkan penelitian ini berjalan dengan baik dan sistem yang di buat dapat di implementasikan dalam mengumpulkan data burung air di lapangan melalui metode citizen science
+sebagai jenis burung yang secara ekologis bergantung pada lahan basah lahan basah yang dimaksud mencakup daerah lahan basah alami dan lahan basah buatan, meliputi hutan mangrove, rawa, dataran berlumpur, danau, tambak, sawah dan lain-lain
+burung air dijumpai hidup secara berkelompok, umumnya dalam kelompok yang sangat besar dengan jumlah individu banyak di wilayah perairan salah satunya di wilayah hutan mangrove peniti kalimantan barat
+sebagai kawasan perairan tempat tinggal beragam makhluk hidup seperti burung air, wilayah perairan hutan mangrove di peniti kalimantan barat juga berfungsi sebagai pelindung pantai yang dapat mengurangi dan mencegah terjadinya pengikisan daerah pantai dan pemukiman disekitarnya
+hutan ini juga berperan dalam mendukung kehidupan fauna di daerah pesisir dan lautan dikarenakan mangrove merupakan habitat bagi berbagai jenis satwa seperti primata, reptilia, dan burung
+jenis burung yang hidup di daerah mangrove tidak selalu sama dengan jenis jenis yang hidup di daerah hutan sekitarnya, karena sifat khas hutan mangrovedan tidak jarang menghadapi beberapa permasalahan yang memerlukan upaya pengendalian wilayah dengan memanfaatkan informasi yang di peroleh dari data jenis burung yang hidup di wilayah hutan mangrove sebagai salah satu indikator baik atau buruk nya lingkungan tersebut
+burung air di wilayah hutan mangrove peniti kalimantan barat sejalan dengan perkembangan wilayah sering kali sulit diketahui
+sementara itu kajian tentang keanekaragaman hayati di indonesia khususnya di wilayah kalimantan barat masih terbatas, penyimpanan data yang masih konvensional dan kalau ada juga terbatas dalam skala ruang dan waktu kajiannya
+untuk mengatasi masalah serupa, peneliti di negara maju memanfaatkan para sukarelawan yang terlatih untuk saling berkolaborasi
+salah satu fenomena penting penggunaan internet pada dekade ini adalah kemunculan situs jejaring sosial, aplikasi web berbasis wiki, kolaboratif software, dan blog yang telah mampu mengubah dunia
+fenomena ini banyak dikenal sebagai fenomena web informasi yang pada awalnya mengalir dari, bahkan oleh pihak-pihak tertentu, telah berubah menjadi milik semua orang
+salah satu manfaat web informasi juga dapat dilihat pada penelitian ukhti ikhsani larasati dan much aziz muslimyang menunjukan bahwa data yang dikumpulkan melalui perangkat lunak, bisa dipakai untuk berbagai pertimbangan dalam mengambil keputusan di apotek ashari farma, seperti pengaturan stok obat, segmentasi pembeli, merancang kampanye pemasaran kombinasi suatu obat.selain itu metode pengumpulan data pada sistem informasi juga dapat dilihat pada penelitian delpiah wahyuningsih dan yohanes setiawanyang berhasil mempermudah bagian kemahasiswaan dalam mengisi data terbaru, melihat informasi lowongan pekerjaan dan pelatihan melalui pengumpulan data di berbagai lokasi memanfaatkan media internet dengan memanfaatkan sistem informasi web untuk penelitian penyebaran burung dan dikembangkan dengan mengedepankan peran citizen scientist, diharapkan data yang dikumpulkan dapat dimanfaatkan untuk berbagai pertimbangan penelitian ekologi maupun kebijakan peraturan pemerintah melalui data yang dihasilkan oleh sistem yang dibuat
+hutan mangrove peniti kalimantan barat robi nusantara#1, arif bijaksana putra negara#2, helen sasty pratiwi#3
+uraian penelitian berkaitan dengan daerah perairan
+menurut rusila-noor dkkburung air dapat diartikan sebagai jenis burung yang secara ekologis bergantung pada lahan basah
+lahan basah yang dimaksud mencakup daerah lahan basah alami dan lahan basah buatan, meliputi hutan mangrove, rawa, dataran berlumpur, danau, tambak, sawah dan lain-lain
+burung air dijumpai hidup secara berkelompok, umumnya dalam kelompok yang sangat besar dengan jumlah individu banyak
+hal ini merupakan salah satu upaya perlindungan diri pada saat mencari makan
+pembentukan kelompok pada saat makan bertujuan untuk mengusik mangsa yang bersembunyi di dalam lumpur
+mengirimkan data, berbagi pengalaman, atau menyebarkan informasi berhargapengelolaan kawasan memerlukan informasi tentang potensi dan permasalahan di kawasan tersebut
+permasalahannya informasi yang diperlukan tersebut sering terbatas atau bahkan tidak tersedia
+untuk memenuhi kebutuhan tersebut dilakukan program penelitian/survei
+keterbatasan tenaga ahli dan tenaga lapangan serta ketersedian dana dan sarana pendukung lainnya seringkali menjadi kendala pelaksanaanya
+lebih-lebih jika program penelitian pada kawasan yang luas dan program pemantauan jangka panjang
+permasalahan yang dihadapi sama yaitu bagaimana cara pengumpulan data yang efektif
+untuk mengatasi masalah ini peneliti atau lembaga penelitian di negara maju memanfaatkan para sukarelawan yang terlatih atau ada yang menyebutnya citizen scientistsdi amerika pendekatan melalui metode citizen science telah dikerjakan pada berbagai program penelitian ekologi, misalnya keterkaitan antara makroinverterbrata dengan kesehatan sungai, dan status populasi ikan karang dan amfibi
+bidang kajian yang paling banyak memanfaatkan pendekatan ini adalah penelitian burung
+program pemantauan burung yang melibatkan para voluntir telah banyak dikerjakan di amerika utara, eropa dan australia
+program yang dilaksanakan di amerika misalnya cristmast bird count dan breeding bird survey
+program bird atlas sudah dijalankan di inggris, negara eropa lainnya dan australia
+dalam skala yang lebih kecil di indonesia telah dimulai program sensus burung pantai
+asean waterbird census yang diorganisir oleh weatland internasional
+beberapa pengamat dan peneliti juga sudah berpartisipasi dalam pengamatan burung migran, baik burung air dan burung raptor migrant 
+mendapat bantuan dari para relawan dalam pengumpulan data, program ini juga meningkatkan partisipasi publik dalam proses ilmiah pengumpulan data yang sangat diperlukan dalam pengambilan keputusan pembangunan
+lebih jauh partisipasi tersebut menimbulkan kesadaran akan kondisi lingkungan bagi para partisipan, minimal pada daerah yang menjadi tempat pengamatannya
+sistem informasi himpunan dari unsur atau variabel-variabel yang terorganisasi, saling berinteraksi dan saling bergantung satu sama lain
+secara umum, sistem infromasi didefinisikan sebagai sekumpulan prosedur organisasi yang pada saat dilaksanakan akan memberikan informasi bagi pengambil keputusan dan atau untuk mengendalikan organisasi
+sistem informasi juga terdiri dari komponen- komponen yang disebut dengan istilah building block yaitu blok masukan, blok model, blok keluaran, blok teknologi, blok basis data, dan blok kendali
+sebagai suatu sistem, keenam blok tersebut membentuk suatu kesatuan untuk mencapai sasaran
+proses yang terjadi adalah: melalui internet, aplikasi web akan melakukan komunikasi data dengan server
+pengguna yang telah mendaftar harus login terlebih dahulu sebagai peneliti atau masyarakat untuk memasukkan hasil penelitian burung air ke dalam sistem
+data lokasi akan diolah oleh google maps api, dan apabila ada jenis burung yang belum diketahui pengguna dapat mencari melalui google image atau bertanya di forum melalui web service eol 
+hasil pengumpulandata akan ditampilkan kepada ke pengguna
+perancangan diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks pada sistem adalah adalah: 1
+di lapangan dan berada di bawah instansi atau universitas yang mempelajari jenis-jenis burung air
+penelitian burung air dantelah mendapatkan hak akses untuk memasukan data observasi
+melalui jaringan internet dan mencari informasi serta jumlah populasi berdasarkan tahun observasi tanpa melakukan proses registrasi pada website
+sistem urutan hubungan antara tabel-tabel data dalam sistem informasi ini dapat dilihat pada gambar 3 berikut
+antarmuka ini berisi deskripsi mengenai website dan peta lokasi penelitian
+gambar 5 halaman observasi oleh pengguna saat mengunjungi website
+antarmuka ini berisi titik lokasi burung air berdasarkan tahun dan status keberadaan serta tombol menuju halaman cetak data dan identifikasi
+oleh pengguna yang telah terdaftar sebagai peneliti atau masyarakat citizen science
+antarmuka ini berisi fitur yang berbdeda antara level user peneliti dan masyarakat citizen science
+halaman tambah data observasi merupakan antarmuka yang diakses oleh pengguna yang talah terdaftar sebagai peneliti atau masyarakat citizen science
+antarmuka ini berisi fitur untuk memasukan data hasil penelitian di lapangan
+gambar 7 halaman identifikasi oleh setiap pengguna
+antarmuka ini berisi identifikasi jenis burung dari halaman eol berdasarkan nama yang dimasukan pada kolom pencarian
+pengujian kuisioner dalam pengembangan sistem informasi
+pada penelitian ini dilakukan pengujian kuisioner sehingga didapatkan hasil sebagai berikut : pengunjung diperoleh hasil bahwa sebagian besar responden menanggapi cukup baik pada website ini dengan persentase 10, 3%
+aspek rekayasa perangkat lunak  berdasarkan hasil kuesioner masyarakat citizen science pada aspek rekayasa perangkat lunak tersebut dapat di ketahui bahwa sebagian besar responden menanggapi dengan cukup baik pada aspek ini dengan persentase 2, 57%
+aspek rekayasa perangkat lunak tersebut dapat di ketahui bahwa sebagian besar responden menanggapi dengan baik pada aspek ini dengan persentase 2, 42%
+citizen science pada aspek fungsionalitas dapat di ketahui bahwa sebagian besar responden menanggapi dengan cukup baik pada aspek ini dengan persentase 2, 41%
+ berdasarkan hasil kuesioner peneliti pada aspek fungsionalitas dapat di ketahui bahwa sebagian besar responden menanggapi dengan cukup baik pada aspek ini dengan persentase 1, 5%
+aspek visualisasi dapat di ketahui bahwa sebagian besar responden menanggapi dengan baik pada aspek ini dengan persentase 2, 41%
+ berdasarkan hasil kuesioner peneliti pada aspek visualisasi dapat di ketahui bahwa sebagian besar responden menanggapi dengan sangat baik pada aspek ini dengan persentase 1, 85%
+untuk pengunjung:  skor kuatril i = 2 x 6 item = 12  skor kuartil iii = 4 x 6 item = 24 2
+untuk masyarakat citizen scientist:  skor maksimal = 5 x 34 item = 170  skor minimal = 1 x 34 item = 34  skor median = 3 x 34 item = 102  skor kuatril i = 2 x 34 item = 68  skor kuartil iii = 4 x 34 item = 136 3
+untuk peneliti:  skor maksimal = 5 x 34 item = 170  skor minimal = 1 x 34 item = 34  skor median = 3 x 34 item = 102  skor kuatril i = 2 x 34 item = 68  skor kuartil iii = 4 x 34 item = 136 2
+untuk pengunjung:  kuartil i = 12 x 20 responden = 240  kuartil iii = 24 x 20 responden = 480 b
+untuk masyarakat citizen scientist:  maksimal = 170 x 5 responden = 850  minimal = 34 x 5 responden = 170  median = 102 x 5 responden = 510  kuartil i = 68 x 5 responden = 340  kuartil iii = 136 x 5 responden = 680 c
+untuk masyarakat peneliti:  maksimal = 170 x 5 responden = 850  minimal = 34 x 5 responden = 170  median = 102 x 5 responden = 510  kuartil i = 68 x 5 responden = 340  kuartil iii = 136 x 5 responden = 680 3
+untuk pengunjung:  120 < skor < 240, artinya sangat negatif b
+untuk masyarakat citizen scientist:  680 < skor < 850, artinya sangat positif  510 < skor < 680, artinya positif  340 < skor < 510, artinya negatif  170 < skor < 340, artinya sangat negatif c
+untuk masyarakat peneliti:  170 < skor < 340, artinya sangat negatif didapatkan hasil interprestasi sebagai berikut : 1
+hasil kuesioner pengunjung dengan nilai total 498 dapat dikategorikan aplikasi berhasil dengan nilai sangat positif
+hasil kuesioner peneliti dengan nilai total 656 dapat dikategorikan aplikasi berhasil dengan nilai positif
+hasil kuesioner masyarakat dengan nilai total 619 dapat dikategorikan aplikasi berhasil dengan nilai positif
+tanggapan terhadap aplikasi maka diketahui tanggapan responden terhadap aplikasi web yang dibuat kuesioner
+penilaian terhadap kemudahan dalam mengakses informasi lokasi sebaran burung air?” didapatkan hasil 15% pengunjung merasa puas
+dari kuesioner masyarakat umum dengan pertanyaan terakhir “fungsi web dalam mengumpulkan data di lapangan menggunakan metode citizen scientist
+” didapatkan hasil 30% masyarakat citizen science menilai cukup puas
+” didapatkan hasil 30% peneliti menilai sangat puas
+analisis pengujian kabupaten mempawah : pengujian aplikasi : input data dengan baik
+menerima dengan cukup baik aplikasi ini, baik dari segi perangkat lunak, fungsionalitas, dan visualisasi
+sebagian besar pengguna menanggapi dengan cukup baik pada pertanyaan mengenai kemampuan aplikasi dalam mengumpulkan data di lapangan
+hasil dari interpretasi skor dari likert’s summated rating menunjukkan hasil dengan jumlah 498 pada pengunjung, 656 pada peneliti dan 619 pada masyarakat yang berarti aplikasi dinilai berhasil
+implementasi sistem informasi keragaman jenis burung air berbasis citizen science pada kawasan hutan mangrove peniti kalimantan barat, maka dapat disimpulkan bahwa: 1
+sistem dapat di implementasikan dan di akses oleh pengunjung melalui website serta dapat digunakan oleh user masyarakat dan peneliti dalam berkolaborasi mengumpulkan data keragaman jenis burung air di wilayah hutan mangrove peniti kalimantan barat
+sistem yang diimplementasikan di nilai cukup baik dari segi aspek perangkat lunak, aspek fungsionalitas dan visualisasi
+berdasarkan hasil kuesioner menggunakan metode likert’s summated rating diperoleh nilai sangat positif yang berarti aplikasi ini dapat diimplementasikan dalam mengumpulkan data di lapangan

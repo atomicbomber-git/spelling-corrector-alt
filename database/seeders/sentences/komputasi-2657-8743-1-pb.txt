@@ -1,0 +1,97 @@
+eligibility the selection process is usually uses by the client head of investment and marketing maalwat baitul-tamwil mujahidin pontianak still manually so that the client needs to consider whether or not feasible given the financing
+therefore built a decision support system to solve the problem
+the method used in this system is a method of tsukamoto fuzzy inference system
+system built to make the process of selecting provision of financing based on criteria set by the head of investment and marketing maalwat baitul-tamwil mujahidin pontianak
+criteria on the system used as the basis for survey activities, each of which is given the weight of each criterion then be calculated with the method of tsukamoto fuzzy inference system to get the end result that determine the feasibility of a prospective customer financing funding recipients
+systems designed, tested using black-box method and user acceptance test
+results of tests performed to solve the problem of selecting the system with a faster process because the calculations performed by the system
+in addition the system is built to add new criteria and their detailed criteria that can be used for a longer time
+then from the results of testing the questionnaire respondents stated that most of the applications that are built to assist in determining the feasibility of providing financing
+pendahuluan perkembangan perekonomian yang semakin kompleks tentunya membutuhkan ketersediaan dan peran serta lembaga keuangan
+kebijakan moneter dan perbankan merupakan bagian dari kebijakan ekonomi yang diarahkan untuk mencapai sasaran pembangunan
+oleh sebab itu peranan perbankan dalam suatu negara sangat penting
+tidak ada suatu negara yang hidup tanpa memanfaatkan lembaga keuangan
+lembaga keuangan perbankan merupakan lembaga keuangan yang bertugas menghimpun dana dari masyarakat dan menyalurkan kembali ke masyarakat guna memenuhi kebutuhan dana bagi pihak yang membutuhkan, baik untuk kegiatan produktif maupun konsumtif, sehingga ekonomi masyarakat akan lebih baik
+semakin maraknya sektor moneter ditingkat ekonomi bawah maka lembaga keuangan mengalami perkembangan
+ini terbukti tumbuhnya lembaga permodalan keuangan bagi masyarakat yang mayoritas pengusaha kecil atau mikro yang disebut dengan lembaga keuangan mikro 
+lembaga keuangan mikro adalah lembaga intermidiasi keuangan pada level mikro baik formal maupun non formal yang didirikan dan dimiliki oleh masyarakat yang bertujuan untuk memecahkan masalah atau kendala permodalan dan kebutuhan dana masyarakat dalam rangka mengembangkan usaha produktif
+menurut pengembangan usaha agribisnis perdesaan, baitul maal wattamwiil adalah lembaga keuangan mikro yang beroperasi berdasarkan prinsip-prinsip syari’ah
+salah satu alasan yang sederhana adalah sebuah lembaga yang mengelola uang masyarakat, tentunya harus kredibel, dapat dipercaya oleh masyarakat
+siapapun pasti ingin dirinya diyakinkan bahwa uang dia simpan di suatu bmt aman dari resiko apapun dan setiap saat dapat mengambil uangnya kembali
+terjadinya kredit macet yang terjadi pada lembaga keuangan membuktikan bahwa sebagai penyebab utama timbulnya persoalan yang tidak diinginkan itu adalah kurang mampunya masing- masing lembaga menilai suatu kredit yang telah diberikan
+untuk menghindari terjadi penyimpangan kredit dari semestinya, lembaga keuangan khususnya bmt mujahiddin pontianak perlu memperhatikan bagaimana menyusun rencana pembiayaan yang baik dan bagaimana proses pembiayaan itu dilakukan
+sehingga harus ditentukan kelayakan peminjaman pembiayaan nasabah
+untuk itu lembaga keuangan menetapkan kebijakan dalam pemberian kredit antara lain menetapkan standard untuk menerima atau menolak resiko kredit yaitu menentukan siapa yang berhak menerima kredit yang telah memenuhi syarat
+dengan adanya perkembangan teknologi komputer di bidang sistem informasi dan melihat karakteristik permasalahan di atas yang mana penilaian kelayakan terhadap nasabah dalam pemberian kredit merupakan masalah yang cukup rumit dan kompleks, yang merupakan tanggung jawab pihak manajemen menengah dan puncak yang harus dilakukan secara tepat dan efisien sehingga penyaluran dana kredit tepat kepada calon nasabah yang layak menerima kredit tersebut
+untuk itu dibutuhkan suatu sistem pendukung keputusan, sehingga diharapkan meningkat kinerja dalam kelayakan pemberian pembiayaan kredit berdasarkan kriteria yang tepat
+untuk mengetahui tingkat keberhasilan pengambilan keputusan dengan menggunakan logika fuzzy maka harus dibutuhkan batasan himpunan pada tiap-tiap himpunan fuzzy yang berfungsi sebagai parameter
+dengan menggunakan metode tsukamoto tanpa mengabaikan kriteria yang ada dapat mendukung pengembilan keputusan dari suatu pemetaan masalah
+dengan menggunakan metode tsukamoto tanpa mengabaikan kriteria yang ada dapat mendukung pengembilan keputusan dari suatu pemetaan masalah
+dari paparan di atas bahwa metode yang mendukung untuk pembuatan sistem pendukung keputusan adalah perancangan sistem pendukung keputusan untuk menentukan kelayakan pemberian pembiayaan nasabah baitul mallwat–tamwil mujahidin pontianak dengan menggunakan fuzzy inference system metode tsukamoto
+tinjauan pustaka 2.1 landasan teori 2.1.1 sistem pengambilan keputusan sistem pendukung keputusan sebagai sebuah sistem berbasis komputer yang membantu dalam proses pengambilan keputusan
+spk sebagai sistem informasi berbasis komputer yang adaptif, interaktif, fleksibel, yang secara khusus dikembangkan untuk mendukung solusi dari pemasalahan manajemen yang tidak terstruktur untuk meningkatkan kualitas pengambilan keputusan
+dengan demikian dapat ditarik satu definisi tentang spk yaitu sebuah sistem berbasis komputer yang adaptif, fleksibel, dan interaktif yang digunakan untuk memecahkan masalah- masalah tidak terstruktur sehingga meningkatkan nilai keputusan yang diambil
+selain itu pula spk atau juga dikenal dengan decision support system didefinisikan sebagai sekumpulan prosedur berbasis model untuk data pemrosesan dan penilaian guna membantu para manajer mengambil keputusan
+dss harus sederhana, cepat, mudah dikontrol, adaptif, lengkap dengan isu-isu penting, dan mudah berkomunikasi
+2.1.2 fuzzy logika fuzzy merupakan salah satu kompenen pembentuk soft computing
+logika fuzzy pertama kali diperkenalkan oleh prof
+dasar logika fuzzy adalah teori himpunan fuzzy
+pada teori himpunan fuzzy, peranan derajat keanggotaan sebagai penentu keberadaan elemen dalam suatu himpunan sangat penting
+nilai keanggotaan atau membership function menjadi cirri utama dari penalaran dengan logika fuzzy tersebut
+teori himpunan fuzzy merupakan kerangka matematis untuk merepresentasikan ketidakpastian, ketidakjelasan, ketidaktepatan, kekurangan informasi, dan kebenaran parsial
+dengan fuzzy proses penentuan nilai suatu kriteria yang subjektif akan memberikan hasil yang sangat baik
+penentuan nilai diperoleh dengan membuat fungsi keanggotaan terlebih dahulu
+2.1.3 fuzzy inference system pada dasarnya fuzzy inference system terdiri dari beberapa bagian sebagai berikut: 1
+basis aturan berisi sejumlah aturan fuzzy if- then 2
+basis data yang mendefinisikan fungsi keanggotaan himpunan fuzzy digunakan dalam aturan-aturan fuzzy
+unit pembuat keputusan yang mentransformasikan operasi inference dalam aturan-aturan
+mentransformasikan masukan yang bernilai tunggal ke dalam derajat keanggotaan sesuai dengan nilai linguistiknya
+2.1.4 fuzzy inference system metode tsukamoto metode tsukamoto merupakan perluasan dari penalaran monoton, pada meode tsukamoto, setiap konsekuen pada aturan yang berbentuk if-then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton
+sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot
+misalkan ada 2 variabel input, var-1 dan var-2, serta 1 variabel output, var-3, dimana var-1 terbagi atas 2 himpunan yaitu a1 dan a2 terbagi atas 2 himpunan b1 dan b2, var-3 juga terbagi atas 2 himpunan yaitu c1 dan c2 
+ada aturan yang digunakan, yaitu: [r1] if and then [r1] if and then 3
+metodologi penelitian dan perancangan sistem 3.1 perancangan sistem perancangan sistem pendukung keputusan ini akan dipisahkan menjadi 4 tahapan yaitu: 1
+perancangan subsistem antarmuka perancangan spk harus mencakup tiga komponen utama yaitu dbms, mbms, dan antarmuka pengguna, yang digambarkan pada gambar 1 sebagai berikut : kriteria kurva modal usaha n1 n2 n3 n1 n2 n3 n1 n2 n3 n1 n2 n3 1 0 lypttl gambar 1 kompenen utama spk bmt aplikasi 3.2 perancangan diagram arus data 3.2.1 diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 2 berikut ini menunjukan diagram konteks dari sistem gambar 2 diagram konteks sistem
+3.2.2 diagram overview sistem diagram overview adalah diagram yang menjelaskan urutan-urutan proses dari diagram konteks
+seperti pada gambar 3 berikut, sistem ini dibagi menjadi empat proses
+3.3 perancangan basis data 3.3.1 perancangan entity relationship diagram entity relational diagram merupakan gambaran hubungan antar entitas yang dipergunakan dalam sistem
+perancangan erd meliputi tahap penentuan entitas, penentuan relasi antar-entitas, tingkat relasi yang terjadi, dan konektivitas antar- entitas.keterkaitan dan hubungan antar-entitas digambarkan melalui diagram er seperti terlihat pada gambar 4 berikut
+gambar 4 entity relational diagram 3.3.2 perancangan relasi antar tabel tabel-tabel dalam sistem pendukung keputusan kelayakan pemberian pembiayaan memiliki relasi satu sama lain
+keterkaitan dan hubungan antara satu tabel dengan tabel lainnya dilihat pada gambar 5 berikut
+hasil pengujian sistem pendukung keputusan sistem yang dirancang merupakan sistem pendukung keputusan untuk menentukan kelayakan pemberian pembiayaan nasabah baitul mallwat– tamwil mujahidin pontianak berbasis web yang bertujuan untuk membantu kinerja pengambil keputusan pemberian pembiayaan baitul mallwat– tamwil mujahidin pontianak
+antarmuka spk kelayakan pemberian pembiayaan nasabah dirancang terdiri dari tiga bagian utama yaitu bagian yang dapat diakses oleh staf atau antarmuka halaman operator, bagian yang dapat diakses oleh kabag investasi dan pemasaran atau antarmuka halaman pimpinan selaku admin dan bagian yang dapat diakses oleh kepala baitul mallwat–tamwil mujahidin pontianak
+halaman utama berisikan menu-menu yang hanya dapat diakses oleh operator
+antarmuka hasil perancangan halaman utama operator dapat dilihat pada gambar 6 berikut
+gambar 6 antarmuka halaman utama operator pada halaman utama ini terdapat beberapa menu
+fungsi masing-masing menu dapat dilihat pada tabel 1 berikut
+tabel 1 daftar menu halaman utama operator dan fungsinya menu submenu fungsi data nasabah lihat data nasabah input nasabah logout - keluar dari sistem halaman utama kabag dan investasi selaku admin digunakan admin untuk mengakses halaman-halaman lain pada sistem sesuai dengan hak akses admin
+antarmuka hasil perancangan halaman utama admin dapat dilihat pada gambar 7 berikut
+gambar 7 antarmuka halaman utama kabag dan investasi tabel 2 daftar menu kabag dan investasi beserta fungsinya menu submenu fungsi data nasabah lihat data nasabah menampilkan data nasabah dan status kelayakan nasabah serta laporan setiap nasabah cetak rekap logout - keluar dari sistem halaman utama pimpinan digunakan oleh kepala untuk mengakses halaman-halaman lain pada sistem sesuai dengan hak akses kepala
+antarmuka kepala dapat dilihat pada gambar 8 berikut
+gambar 8 antarmuka halaman utama kepala tabel 3 daftar menu kepala dan fungsinya menu submenu fungsi data nasabah lihat data nasabah menampilkan data nasabah dan status kelayakan nasabah serta laporan setiap nasabah cetak rekap logout - keluar dari sistem pengujian dilakukan pada sistem menggunakan metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+adapun teknik ujicoba yang digunakan dalam pengujian black box pada aplikasi ini, yaitu menggunakan teknik sample testing
+pengujian ini dilakukan pada proses input data
+selain itu, akan dilakukan pengujian dengan metode uat dimana pengujian dilakukan oleh pengguna secara langsung untuk memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan oleh pengguna
+pengujian ini melibatkan data real yang didapat secara langsung tanpa memperhatikan detail internal dari sistem.berikut ini adalah analisis hasil perancangan dan pengujian sistem pendukung keputusan kelayakan pemberian pembiayaan: 1
+sistem diawali dengan memasukkan data calon nasabah baitul mallwat–tamwil mujahidin pontianak terlebih dahulu sebelum calon nasabah menjadi nasabah
+kemudian dilakukan survey ke lapangan sesuai data yang diberikan oleh nasabah apakah data tersebut benar atau tidaknya setelah itu barulah daru survey di masukkan ke dalam sistem
+proses penyeleksian yang biasanya dilakukan dengan waktu yang lama namun dengan sistem ini dapat dilakukan dengan waktu yang tidak lama
+sistem dibangun dapat mengantisipasi penambahan kriteria dan detail kriteria untuk setiap kriteria
+pada sistem ini, kabag investasi dan pemasaran selaku admin harus mengatur pembobotan setiap parameter kriteria
+penambahan satu-persatu calon nasabah berfungsi untuk melakukan validasi nasabah yang telah mendapatkan pembiayaan sehingga tidak terjadi nasabah yang mendapatkannya lebih dari satu kali
+pengujian input data dengan menggunakan metode black box menunjukkan bahwa input data kosong pada sistem menyebabkan eksekusi tidak berhasil
+pengujian dengan input data yang tidak sesuai pada sistem menyebabkan eksekusi tidak berhasil
+sistem akan mengeksekusi data bila data yang dimasukkan benar dan sesuai dan data akan lansung di simpan di dalam basis data
+hasil pengujian hasil kelayakan menunjukkan bahwa hasil perhitungan sistem telah sesuai dengan perhitungan manual dengan metode tsukamoto walaupun hasil perhitungan manual dengan metode tsukamoto terdapat perbedaaan sekitar 0, 05, hal ini disebabkan karena sistem pembulatan desimal 10
+hasil pengujian validitas kuesioner menunjukkan bahwa semua pertanyaan dalam kuesioner adalah valid untuk digunakan dalam pengumpulan data
+hasil pengujian reliabilitas kuesioner menunjukkan bahwa kuesioner memiliki memiliki tingkat reliabilitas yang baik dan hasilnya dapat dipercaya 12
+hasil perancangan dan pengujian menunjukkan hasil kelayakan telah sesuai dengan kebutuhan pembiayaan baitul mallwat–tamwil mujahidin pontianak
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai berhasil
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap sistem pendukung keputusan untuk menentukan kelayakan pemberian pembiayaan nasabah baitul mallwat–tamwil mujahidin pontianak maka dapat disimpulkan bahwa: 1
+sistem yang di bangun menampilkan informasi kelayakan penerima pembiayaan yang dapat dilihat oleh pimpinan dan kabag investasi pemasaran sehingga otoritas terhadap sistem
+penggunaan fuzzy inference system metode tsukamoto dalam sistem pendukung keputusan dapat memberikan nilai akhir yang valid karena perubahan selisih angka sekecil apapun nilai survei akan mempengaruhi nilai akhir dari perhitungan
+sistem yang dibuat dapat mengetahui nasabah yang pernah mengajukan permohonan pembiayaan sehingga tidak akan terjadi permohonan pembiayaan yang berulang
+sistem pengambilan keputusan kelayakan nasabah yang di bangun dapat mengantisipasi perubahan nilai survei dan penambahan kriteria 5
+dari pengujian yang dilakukan disimpulkan bahwa hasil interpretasi sistem pendukung keputusan yang bangun dinilai berhasil karena adanya kemudahan dan kenyamanan dalam mengunakan aplikasi ini

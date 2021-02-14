@@ -1,0 +1,124 @@
+urnal edukasi dan penelitian informatika vol 3, no 1, 2017 p-issn : 2460-0741 / e-issn : 2548-9364 1 berbasis mikrokontroler atmega32 supandi#1, hilda#2, ferry hadary #3 jurusan teknik elektro, fakultas teknik universitas tanjungpura 1supandinataa@gmail.com 2hildajudiarto@gmail.com 3ferry.hadary@ee.untan.ac.id menggunakan sistem pengisian manual mengharuskan untuk selalu siap membuka atau menutup keran pengisian dan menuliskan jumlah dari setiap pengisian galon yang dilakukan
+penelitian ini bertujuan untuk merealisasikan sistem pengisian air galon otomatis menggunakan mikrokontroler atmega32 sebagai pengendali utama, menyimpan data log perhitungan jumlah galon yang telah terisi air dan volume air pada kartu memorimicro secure digital 
+pendeteksian jenis galon menggunakan 2 buah sensor infra merah yang mengacu pada ketinggian galon dan volume air dihitung menggunakan sensor aliran air
+eeprom digunakan untuk menyimpan data sementara pengisian air ketika terjadi padam listrik sehingga proses pengisian yang terhenti dapat berlanjut setelah sistem aktif kembali
+data log tersimpan pada kartu memori setiap kali proses pengisian air galon selesai dengan data waktu dan tanggal yang diinformasikan oleh pewaktu ds1307
+pengujian dilakukan pada catu daya, pendeteksi galon, pengisian volume air, dan penyimpanan data
+arus yang terukur dari adaptor 0, 14a, sensor infra merah dapat mendeteksi pada jarak + 35 cm, sensor aliran air sebagai pengukur volume pada galon 5 liter dan pada galon 19 liter dan data dapat tersimpan pada kartu memori
+hasil pengujian menyimpulkan alat yang dibuat dapat berfungsi sesuai perancangan, menyerap daya sebesar 1, 68 watt dan data pengisian maksimum 21.474.836 pada kapasitas kartu memori 1gb
+mikrokontroler atmega32, sensor infra merah e18-d80nk-n, sensor aliran air yf-5201, memori micro sd i
+pendahuluan memiliki pencemaran air dan kondisi air tanah berwarna kecoklatan seperti di lahan gambut
+untuk memenuhi kebutuhan air bersih saat ini didirikanlah depot-depot air minum isi ulang yang dikemas dengan galon
+peralatan depot pengisian air galon saat ini masih dioperasikan secara manual yang dilakukan diantaranya oleh bintoro dan wildian yang merancang penggunaan sensor infra merah dan sensor aliran air untuk mendeteksi galon dan menghitung volume air galon yang terisi
+galon yang digunakan berukuran 5 liter, perhitungan banyak galon maksimum hanya mencapai 255 kali pengisian, lebih dari itu maka perhitungan akan salah, sehingga perhitungan harus diulang kembali
+sistem catu daya juga terkendala jeda saat peralihan antar sumber listrik yang menyebabkan perhitungan mengulang dari awal
+selanjutnya danel dan wildian melakukan perancangan untuk mendeteksi gelas pada dispenser dengan menggunakan sensor fotodioda kurang cocok dalam mendeteksi gelas yang bening, karena cahaya yang dipancarkan dapat menembus, sehingga sistem belum bekerja
+setiap ada benda yang menghalangi sensor fotodioda, maka air akan langsung keluar dan ketinggian air diukur menggunakan sensor ultrasonik
+keluaran hasil pengukuran sensor ultrasonik tidak stabil hingga permukaan air pada cangkir mencapai 5 cm dari sensor, hal ini disebabkan bidang pantul air yang beriak
+muhammad juga melakukan penelitian yang bertujuan untuk mengisi botol dengan ukuran volume 180 ml dengan waktu pengisian selama 25 detik, rancangan tersebut menggunakan mikrokontroler atmega 8 sebagai pengendali utama untuk mengendalikan fototransistor sebagai deteksi botol, relai sebagai saklar motor konveyor dan motor pompa air
+dari masalah-masalah yang telah diuraikan, peneliti tertarik untuk merancang sebuah alat data logger sistem pengisian air galon otomatis sehingga dapat mencatat waktu pengisian dan jumlah galon yang diisi secara elektronik
+perancangan sistem dikendalikan menggunakan mikrokontroler sebagai pengendali utama untuk melakukan pencatatan jumlah pengisisan galon, mencatat volume air yang terisi dan mengendalikan pembukaan atau penutupan keran air
+mikrokontroler yang digunakan dalam sistem pengisian air galon berfungsi untuk mengurangi tugas manusia sebagai operator depot air minum, sehingga akan lebih mempermudah operator dalam melayani konsumen
+oleh karena itu penulis mengambil tugas akhir dengan judul “perancangan sistem data logger pengisian air galon otomatis berbasis mikrokontroler atmega32
+” 2 memori, arithmetic logic unit dan lainnya sehingga dapat berlaku sebagai pengendali dan komputer sederhana
+secara umum mikrokontroler alf and vegard’s risc processor standar memiliki arsitektur 8 bit, dimana semua instruksi dikemas dalam kode 16-bit dan sebagian besar instruksi dieksekusi dalam 1 siklus detak
+mikrokontroler avr berteknologi reduce instruction set computing, sedangkan seri mcs51 berteknologi complex instruction set computing cisc)
+mikrokontroler avr dapat dapat dikelompokkan menjadi 4 kelas, yaitu keluarga at90sxx, keluarga atmega, keluarga at86rfxx dan attiny
+pada dasarnya yang membedakan masing-masing kelas adalah memori, perangkat pendukung dan fungsinya6
+memori micro sd merupakan media penyimpanan yang biasa digunakan pada telpon genggam, kamera digital, dan menyimpan data pada komputer
+micro sd adalah memori ultra kecil yang dirancang untuk menyediakan memori berkapasitas tinggi dalam ukuran yang kecil
+secure digital in out, adalah nama umum yang diberikan kepada berbagai modul ekspansi yang dapat ditemukan dalam faktor bentuk micro sd
+yang mengkonversi fluks magnet yang dihasilkan oleh aplikasi sinyal kendali listrik tegangan rendah, baik arus searah atau arus bolak-balik diterminal relai, sehingga menarik kontak listrik di dalam relai
+real time clock ds1307 real time clock ic ds1307 adalah perangkat 8 pin menggunakan antarmuka twi, konsumsi daya rendah, jam atau kalender dengan 56 byte sram
+ds1307 juga menyediakan detik, menit, jam, hari, tanggal, bulan dan data tahun berkualitas
+tanggal akhir setiap bulan secara otomatis disesuaikan, terutama untuk bulan dengan kurang dari 31 hari
+keuntungan utama dari modul rtc yakni terdapat cadangan baterai yang menjaga jam atau kalender berjalan bahkan jika ada kegagalan daya
+sensor infra merah e18-d80nk-n sensor infra merah e18-d80nk-n adalah pengirim dan penerima sinyal infra merah yang membentuk sebuah sensor foto listrik
+sensor ini memiliki jarak deteksi yang cukup panjang dan tidak terpengaruh cahaya sekitar karena menggunakan cahaya inframerah yang termodulasi
+sensor ini juga dapat disesuaikan untuk mengatur jarak deteksi, kemudian keluaran dari sensor ini berupa sinyal digital ketika merasakan sesuatu dalam rentang pengukurannya
+sensor aliran air yf-5201 sensor terdiri dari katup plastik, rotor air, dan sensor efek-hall
+sistem kerja yf-5201 yaitu mengkonversi debit air yang mengalir pada poros baling sehingga baling baling-baling berputar dan menghasilkan denyut pulsa yang nantinya akan dicacah sebagai penentu volume pengisian air
+efek-hall dirancang untuk merasakan adanya objek magnetis dengan perubahan posisinya
+perubahan medan magnet yang terus menerus menyebabkan timbulnya pulsa yang kemudian dapat ditentukan frekuensinya, biasanya digunakan sebagai pengukur kecepatan
+keran elektrik adalah sebuah alat listrik yang digunakan untuk membuka atau menutup keran
+keran elektrik pada umumnya digunakan sebagai pengganti keran pada pipa baik pipa gas, pipa air dan lain sebagainya sehingga dapat dikendalikan dengan perangkat elektronik
+proses yang sedang dilakukan oleh mikrokontroler, proses mikrokontroler dapat diamati secara mudah
+pada layar penampil, karakter setiap lokasi karakter memiliki alamat masing-masing, baris pertama memiliki alamat 80 heksa desimal sampai 8f heksadesimal dan baris kedua beralamat c0 sampai dengan cf
+basic compiler avr agar mikrokontroler dapat bekerja sesuai dengan yang diinginkan, diperlukan program-program tertentu yang dapat dimengerti oleh manusia
+banyak cara dalam menuliskan program ke mikrokontroler, salah satunya adalah bahasa basic
+penggunaan bahasa basic ini mempunyai kemudahan dalam memprogram dan adanya fasilitas simulator pada program bascom avr
+perancangan pada sebuah regulator umumnya memiliki disipasi daya transistor pelewat yang besar, sehingga membutuhkan penyalur panas cukup
+salah satu cara untuk memecahkan masalah ini adalah dengan menggunakan regulator pensaklaran 
+regulator jenis ini menghasilkan arus beban yang besar dengan disipasi daya pada transistor pelewat yang jauh lebih kecil
+rangkaian driver sensor titik saturasi atau titik putus
+agar transistor dalam keadaan jenuh atau jenuh berlebihan, arus basis harus minimal sebesar arus kolektor maksimal dibagi dengan penguatan arus hfe dari transistor
+untuk membedakan ukuran galon yang terdeteksi dengan cara mengukur diameter dan tinggi masing-masing galon
+jika lubang pengisian kedua jenis galon diletakan pada jarak yang sama 27, 75 dari sensor dan sensor memiliki ketinggian yang berbeda maka sistem dapat membedakan kedua jenis galon tersebut
+tegangan antara jala-jala listrik dengan rangkain kendali sangat berbahaya jika berhubungan secara langsung, untuk mengatasi hal ini maka digunakan optoisolator yang memanfaatkan sinar infra merah pada saat mendeteksi listrik
+sehingga untuk lebih aman pada mikrokontroler diberikan rangkaian penyangga 
+rangkaian penyangga ini berfungsi untuk menguatkan tegangan keluaran mikrokontroler yang berkisar pada 3, 8v dc sehingga menjadi 5v dc menggunakan transistor bd139
+rangkaian penampil lcd alat yang dirancang melalui tampilan dan penekanan beberapa tombol dengan fungsi tertentu
+operator dapat mengatur waktu dan tanggal pada sistem serta melakukan penghapusan data electrically erasable programmable read-only memory jika diperlukan
+rangkaian sistem minimum dapat bekerja sesuai harapan, dengan memanfaatkan kristal eksternal 11.059200hz dan tegangan 5v dc
+pada rangkaian sistem minimum juga terpasang modul pewaktu yang tepat, modul memori micro sd dan dioda led sebagai indicator tegangan catu daya
+desain kotak galon microsoft visio 2007 dengan ukuran panjang 55, 5 cm, lebar 55, 5 cm dan tinggi 66 cm seperti terlihat pada gambar 2
+desain kotak galon dan ukuran galon mulai jam, tanggal, galon, liter membaca sensor infra merah gambar 3
+diagram alir program sistem data logger pengisian air galon otomatis perangkat lunak sistem data logger pengisian air galon otomatis dibuat dalam diagram alur program pada gambar 3
+dilakukan pengujian terhadap alat untuk mengetahui sistem yang dibuat telah sesuai dengan rencana yang diinginkan
+pengujian dilakukan pada rangkaian elektronik dan program yang direncanakan sebelumnya
+dari hasil pengujian, data yang didapat digunakan untuk mengetahui bahwa alat yang dirancang telah sesuai dengan perencanaan yang diinginkan
+pengujian catu daya dilakukan untuk mengetahui tegangan kerja yang didapat pada setiap rangkaian
+tegangan kerja sangat berpengaruh terhadap kinerja alat yang memiliki spesifikasi tegangan tertentu untuk dapat beroperasi
+alat ukur yang digunakan dalam pengujian berupa multimeter digital dengan skala pengukuran 20v dc
+tabel i no tegangan masukan lm2576t tegangan keluaran lm2576t tegangan b
+pengujian rangkaian sensor infra merah pengujian sensor infra merah dilakukan untuk mengetahui jarak galon yang dideteksi oleh sensor
+alat ukur yang digunakan untuk mengukur jarak adalah penggaris dan multimeter digital untuk mengukur tegangan keluaran sensor
+pengujian jarak deteksi sensor infra merah dilakukan dengan cara menjauhkan atau mendekatkan galon secara tegak lurus terhadap sensor
+tahap kedua dilakukan untuk menentukan volume air yang telah terisi dalam galon
+nilai pulsa yang didapat dijadikan patokan untuk pengisian air galon dalam setiap liternya
+alat ukur yang digunakan dalam pengujian berupa gelas ukur dengan skala pengukuran 1 liter dan 2 liter
+pengukuran volume dilakukan secara pengamatan langsung terhadap gelas ukur
+adalah marine pet aa-2512s dengan spesifikasi:  catu daya: 12vdc  arus daya dc: 5, 4a  daya motor: 45w/5400rpm  berat : 1, 3kg  diameter pipa: 1 inchi  laju pengisian: 70 liter/menit  temperatur kerja: 0℃-60℃  material kesing: plastik  ketinggian penyaluran : 4m sumber tegangan 12v dc yang digunakan untuk mengoperasikan pompa air adalah p4-lga-500w
+pengujian rangkaian optoisolator pengujian optoisolator dilakukan untuk mengetahui tegangan yang dideteksi optoisolator saat terjadi perubahan tegangan 220v ac menjadi 0v
+alat ukur yang digunakan dalam pengujian adalah multimeter digital tabel v mengetahui respon tegangan pada pin keluaran atmega32 saat terjadi perubahan tegangan pada pin masukan atmega32
+alat ukur yang digunakan dalam pengujian adalah multimeter digital dan stopwatch
+pengujian dilakukan dengan cara menghubungkan kutub positif multimeter pada pin masukan atau keluaran atmega32 dan kutub negatif multimeter pada pin 11 atau 31 atmega32
+keluaran atmega32 pengujian dilakukan untuk mengetahui apakah sistem yang dibuat dapat menyimpan data pengisian air galon setelah proses pengisian selesai dilaksanakan
+untuk mengetahui data yang tersimpan didalam micro sd dilakukan dengan melepas kartu memori pada alat dan mengakses kartu memori menggunakan laptop
+data pengisian tersimpan pada file yang dapat diakses menggunakan aplikasi notepad.exe bawaan dari sistem operasi windows
+data pengisian yang tersimpan pada kartu memori micro sd g
+analisis rangkaian catu daya hasil pengujian pada tabel i, tegangan yang terukur pada multimeter berada dalam rentang tegangan kerja + 5.13v sehingga sistem dapat bekerja dengan baik
+perubahan tegangan hasil pengukuran disebabkan ada riak tegangan 1mv dari hasil regulasi, perbedaan daya yang diserap komponen dan penambahan beban ketika relai aktif
+arus yang dilewatkan pada saat tidak mendeteksi galon sebesar 0, 05a dan saat mendeteksi galon sebesar 0, 14a dari tegangan adaptor 12v dc, sehingga sistem data logger yang dibuat memiliki daya + 1, 68 watt
+saat terjadi padam listrik, suplai catu daya dapat mempertahankan alat data logger ini tetap aktif selama 7, 15 detik yang digunakan untuk mencadangkan data pengisian
+lama daya listrik yang dapat dipertahankan berdasar pada kemampuan adaptor utama untuk menyalurkan arus pada regulator pensaklaran lm2576t dan besarnya nilai kapasitansi yang digunakan
+hasil pengujian yang didapatkan pada tabel ii, ketika ada galon yang mendekat terhadap sensor mampu terdeteksi pada jarak 35 cm dari sensor 1, dan 20 cm dari sensor 2
+jarak deteksi maksimum ini digunakan untuk mendesain kotak pengisian galon sehingga operator yang bekerja tidak terdeteksi sensor
+pada galon 5 liter sensor 1 dapat mendeteksi pada jarak + 32 cm dan posisi sensor 2 tidak dapat mendeteksi keberadaan galon
+pada galon 19 liter sensor 1 dapat mendeteksi galon pada jarak + 32 cm dan sensor 2 pada jarak + 16.2 cm
+perubahan jarak deteksi disebabkan perbedaan permukan galon, dan posisi bentuk galon saat berada di depan sensor infra merah
+analisis sensor aliran air terhadap dua jenis pengisian air galon pendekatan jumlah pulsa yang digunakan dalam pengisian air galon mengacu pada tabel iii adalah ∑ pulsa 1 liter201 20 =428, 6 kesalahan minimum pada 5, 08 liter dan kesalahan maksimum pada 5, 2 liter sedangkan pada gambar 5 grafik pengisian galon 19 liter memiliki kesalahan minimum pada 19, 15 liter dan kesalahan maksimum pada 19, 5 liter
+untuk menghitung volume air galon mengacu pada tabel iv sebagai berikut: 25 =5, 1184 25 =19, 312 pengisian rata-rata 0, 1184 liter pada galon 5 liter dan 0, 312 liter pada galon 19 liter
+persentase kesalahan pengisian pada galon 5 liter adalah 0, 1184liter 5liter ∗ 100% = 2, 368% 19liter ∗ berada dalam rentang kesalahan yang tertera pada datasheet sensor aliran air yf502 yaitu + 5%
+analisis rangkaian optoisolator rangkaian optoisolator ini dimaksudkan untuk merespon perubahan tegangan listrik saat padam
+penggunaan optoisolator ini berdasarkan pancaran cahaya, sehingga tegangan jala-jala tidak berpengaruh terhadap tegangan sistem data logger yang dibuat
+tegangan masukan mencatu led infra merah yang berada di dalam optoisolator
+sinar infra merah yang dipancarkan diterima oleh penerimadi dalam optoisolator kemudian dihubungkan pada basis transistor pada optoisolator
+ketika tegangan masukan berkisar 220v ac, mikrokontroler membaca keluaran optoisolator dengan tegangan + 0.34v dc, pada saat tegangan masukan 0v ac mikrokontroler membaca tegangan keluaran optoisolator dengan tegangan + 5.13c dc atau sesuai dengan tegangan catu daya
+analisis rangkaian sistem minimum dari hasil uji yang telah dilakukan, sistem dapat bekerja dengan baik dan memiliki tegangan keluaran 5.01v untuk mengendalikan rangkaian relai
+ketika sensor inframerah mendeteksi keberadaan galon, sistem akan menunda pengaktifan relai selama + 3 detik untuk menghidupkan pompa air dan berselang 0, 05 detik sistem mengaktifkan relai keran air
+waktu penundaan dimaksudkan untuk menunggu posisi galon berada tepat pada pipa pengisian, sehingga air tidak langsung mengalir ketika sensor mendeteksi galon
+ketika sensor inframerah tiba-tiba tidak mendeteksi keberadaan galon, sistem akan menonaktifkan relai pompa air dan relaikeran air dengan jeda +0.5 detik
+pada depot pengisian air saat ini telah menggunakan mesin pompa air otomatis aktif setelah keran elektrik terbuka, sehingga apabila alat ini menggunakan mesin pompa tersebut tidak perlu menghubungkanya dengan relai pompa
+kesimpulan dan saran otomatis berbasis mikrokontroler atmega32 ini, maka dapat ditarik kesimpulan sebagai berikut: 1
+perancangan sistem pengisian air galon otomatis menggunakan mikrokontroler atmega32 berhasil diterapkan sebagai pengendali utamanya
+penggunaan micro sd dengan kapasitas 1gb dapat mendata maksimum 21.474.836 data pengisian
+perhitungan volume air hasil percobaan didapat + 428 pulsa perliter, yang diakumulasikan untuk pengisian galon 5 liter dan galon 19 liter
+pengisian volume air berdasarkan perhitungan pulsa dari sensor aliran air memiliki kesalahan + 2% pergalon
+waktu pengisian terlama pada galon berukuran 5 liter adalah +1, 23 menit dan galon berukuran 19 liter adalah +3, 23 menit
+ketika terjadi padam listrik, sistem catu daya mampu mempertahankan alat data logger tetap aktif selama + 7 detik
+daya yang diserap alat data logger ini sebesar 1, 68 watt
+saran gallon otomatis selanjutnya adalah sebagai berikut : 1
+sistem data logger pengisian air galon otomatis ditambah beberapa sensor lain, sehingga dapat melakukan proses pengisian yang lebih presisi, misalnya dengan menambahkan sensor ultrasonik atau lainnya
+penyimpanan data log tidak hanya pada kartu memori, misalnya secara online atau wireless terhadap pc atau ponsel android
+menggunakan komponen smd sehingga rangkaian lebih minimalis

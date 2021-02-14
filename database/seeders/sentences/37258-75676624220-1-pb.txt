@@ -1,0 +1,13 @@
+eee paper template in a4 vol 6, no 1, april 2020 mobile expert for tobacco disease identification using the fuzzy inference system tsukamoto mohammad syarief#1, imamah#2, husni#3, akhmad tajuddin tholaby ms#4 #jurusan teknik informatika, fakultas teknik, universitas trunojoyo madura bangkalan, jawa timur, indonesia 1mohammad.syarief@trunojoyo.ac.id 2i2m@trunujoyo.ac.id 3i2m@trunujoyo.ac.id 4i2m@trunujoyo.ac.id known as madura tobacco
+one type of madura tobacco that has superior quality is tobacco campalok
+this tobacco is only in the village of bakeong guluk-guluk district of sumenep
+its price for each kilogram can penetrate up to two million rupiahs
+but failing to harvest due to illness or pests can decrease the quality and price of tobacco campalok, while the access to consult the agricultural experts in sumenep district is far enough so the public difficulty getting information faster on tobacco disease treatment
+this is the underlying research on the expert system for the identification of diseases in the android-based tobacco crop
+this expert system was developed by utilizing android-based mobile technology using the fuzzy inference system tsukamoto method
+farmers who will use this application only enter the characteristics of tobacco leaves that are exposed to pests then the expert system will provide a way of overcoming the pest disease based on the expertise of agricultural experts in sumenep district using the fuzzy method
+the result of this research showed that 8 from 10 of diseases were successfully detected by the application so that the accuracy of this application compared to the human expert system is 80 %
+keyword—disease, expert system, fuzzy inference system tsukamoto method, quality, tobacco
+introduction tobacco is a unique cultivation plant that has been utilized hundreds of years ago
+the management of tobacco into a product that can be utilized, must go through a variety of complex and long processes
+besides, knowledge, experience, skills, persistence, and thoroughness in management are needed

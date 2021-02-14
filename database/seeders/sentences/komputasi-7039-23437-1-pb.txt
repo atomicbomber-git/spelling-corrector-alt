@@ -1,0 +1,45 @@
+language is an important means of communication for humans, because language make we can find out the information that we need, at other side we can convey our ideas
+with the rapidly development of technology in all sectors, nowdays the machine translation has been developed to overcome language translation problems
+statistical machine translation is an approach to machine translation with translation results generated on the basis of statistical models where parameters are taken from the results of the analysis of bilingual text corpus 
+parallel corpus is a pair of corpus that contain sentences in a language and the translation
+the goal of this research is to develop and implement of statistical machine translation for translation from indonesian into sambas malay and translation from sambas malay into indonesian, and conduct testing to obtain the value of accuracy and quality of statistical machine translation, and also to conduct testing to obtain the value of accuracy and quality of statistical machine translation
+in this study are conducted two tests, the first conducted tests on statistical machine translation of indonesian into sambas malay translation and second test on statistical machine translation of sambas malay into indonesian translation
+statistical machine translation of indonesian to sambas malay
+statistical machine translation of sambas malay to indonesian
+on test 1 generate the value of bleu score of 0.5555 or 55% while on test 2 produces bleu score of 0.4950 or 49%
+pendahuluan bahasa merupakan alat komunikasi yang penting bagi manusia, karena dengan bahasa kita dapat mengetahui informasi yang kita butuhkan, selain itu kita dapat menyampaikan ide dan gagasan kita melalui bahasa
+fungsi bahasa bagi manusia selain sebagai media untuk mengekspresikan diri, perasaan, pikiran, makhluk pribadi maupun sosial, serta sebagai alat integrasi dan adaptasi sosial antar manusia dalam mengembangkan peradabannya
+badan pengembangan dan pembinaan bahasa serta kementerian pendidikan dan kebudayaan dimiliki indonesia yang terungkap dalam kongres bahasa ke-9 yang digelar 2008 silam
+pada 2012, penelitian berlanjut dengan mengambil sampel di 70 lokasi di wilayah maluku dan papua
+hasil dari penelitian itu, jumlah bahasa dan sub bahasa di seluruh indonesia mencapai 546 bahasa dan kemungkinan jumlahnya akan terus bertambah karena penelitian yang dilakukan belum selesai mesin penerjemah untuk mengatasi masalah penerjemahan bahasa
+mesin penerjemah sebuah teks dari satu bahasa ke bahasa lainnya
+akan tetapi, kualitas dari hasil terjemahan tersebut masih mengandung keterbatasan, belum memberikan hasil terjemahan yang akurat dan terkadang menyebabkan hilangnya arti dan maksud yang terkandung dalam suatu kalimat
+mesin penerjemah statistik merupakan hasil terjemahan dihasilkan atas dasar model statistik yang parameter-parameternya diambil paralel)
+korpus paralel adalah pasangan korpus yang berisi kalimat-kalimat dalam suatu bahasa dan terjemahannya
+korpus berisi teks paralel yang merupakan hasil text mining yang memperoleh pola berupa pasangan teks dari suatu bahasa ke bahasa lain
+penerjemahan dengan metode mesin penerjemah statistik demi kata, dengan syarat kualitas korpus paralel yang dimasukkan ke dalam sistem mempunyai kualitas baik dan cukup banyak jumlahnya 
+selanjutnya penulis melakukan kualitas terjemahan pada mesin penerjemah statistik bahasa indonesia – bahasa melayu sambas
+pada penelitian ini penulis menggunakan korpus teks paralel bahasa indonesia dan bahasa melayu sambas
+penerjemahan adalah teks suatu bahasa (misalnya bahasa inggris) ke dalam teks bahasa lain (misalnya bahasa indonesia)
+landasan teori 2.1 definisi penerjemahan dalam kamus besar bahasa indonesia kata merupakan menyalin suatu selain itu, hoed dalam amalia mengemukakan bahwa 
+catford menyatakan bahwa “the replacement of textual material in one language by equivalent textual material in another language 
+” yang diartikan sebagai pergantian materi tekstual dari suatu bahasa sumber secara sepadan ke dalam bahasa target 
+yang dimaksud dengan source language dan receptor language adalah; source language adalah bahasa yang akan diterjemahkan, sedangkan yang dimaksud terjemahan
+berdasarkan pengertian tersebut, dan bahasa indonesia sebagai bahasa target dan sebaliknya
+mesin penerjemah sebuah teks dari satu bahasa ke bahasa lainnya
+ada beberapa pendekatan untuk machine translation seperti pendekatan dengan menggunakan aturan rule-based machine translation), pendekatan dengan menggunakan contoh, penerjemahan dari satu bahasa ke bahasa lain yaitu : language model, translation model, dan decoder 
+statistik ini adalah bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+bleu mengukur modified n- gram precission score antara hasil terjemahan otomatis dengan tejemahan rujukan dan menggunakan konstanta yang dinamakan 𝑃𝑛 = 𝐶𝜖 𝑐𝑜𝑟𝑝𝑢𝑠 𝑛−𝑔𝑟𝑎𝑚𝜖𝐶 𝑐𝑜𝑢𝑛𝑡 𝑐𝑙𝑖𝑝 𝐶𝜖 𝑐𝑜𝑟𝑝𝑢𝑠 𝑛−𝑔𝑟𝑎𝑚𝜖𝐶 𝑐𝑜𝑢𝑛𝑡 bleu = 𝐵𝑃𝐵𝐿𝐸𝑈
+standar nilai n untuk bleu adalah 4
+𝑒 𝑤𝑛 keterangan : otomatis t s t’ 𝑃𝑛= modified precission score 𝑤𝑛 = 1/n 𝑝𝑛 = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n- gram hasil terjemahan
+arsitektur sistem keluaran : kalimat terjemahan bahasa melayu sambas melayu sambas
+korpus paralel statistik dari bahasa melayu sambas ke bahasa indonesia
+korpus paralel 1 korpus paralel 2 ini sebuah cerita orang kita di hulu tempapan, ada dua buah rumah mengabulkan permintaan sannong memiliki ketiga permata itu suatu hari sannong mencurinya tempapan ade dua' buah rumah permintaan sannong ketige batu permate iye suatu hari sannong nyurinye pengujian 1 adalah pengujian terhadap terjemahan dari bahasa indonesia ke bahasa melayu sambas
+pengujian 1 no kalimat sumber bahasa indonesia 1 banyak benar lada si bujang ya tadi pagi dia jual lada dua karung lagi ke pasar 2 iya banyak benar ladanya naik daun dia tahun ini pasti banyak uangnya 4 kamu saja jannah pacaran sama dia tetapi dia tidak suka sama mulut ember 5 karena dia itu tulang besi kerja pun cepat lihat saja banyak kebunnya 6 iya dia tidak seperti kamu tulang semut baru kerja sedikit sudah sakit-sakitan kawannya semua banyak kebun 8 terserah dia saja jannah biar nanti lama baru kawin dia itu sudah kamu simpankah ikan takut nanti dimakan kucing akan menghabiskannya dalam peti pada tahun 1345 tabel 2 kalimat hasil pengujian 1 no kalimat bahasa target hasil terjemahan 1 banyak inyan lada si bujang i tade' pagi die jual lada dua' karung age' ke pasar 2 ao' banyak inyan ladanya naik dawon die taon to' pasti banyak uangnya 4 kau aja' jannah pacaran same die pokoknye die nda'an suke same mulut ember 5 barang die tulang basi kerajje pun cappat liat aja' banyak kebunnya 6 ao' die daan macam kau tulang semut baru kerajje tinggali dah sakit-sakitan 7 abang ja' tebal muka ma' nda' die liat kawannya semua banyak kabon 8 terserah die aja' jannah biar kala' lama' baru tibe- tibe die dah kau simpankah ikan takut kala' dimakan kucing na' menghabiskannya dalam peti pade taon 1345 tabel 3
+pengujian 2 1 paloh ye name daerah yang lattaknye ade di ujong sambas berasal dari keturunan raje sambas 3 perangainye ye bede lalu dangan ade' berade'nye yang laing 5 mun dah beburu ye biasenye dua' tigge ari baro' balik ke rumah 7 sandi kau to' tang laing inyan dangan ade' berade' mu 10 aku minta' mun aku paggi usah kau ceritekan dangan ayah ape age' dangan umma' tabel 5
+kalimat hasil pengujian 2 no kalimat bahasa target hasil terjemahan 1 paloh itu nama daerah yang lattaknye ada di ujong sambas berasal dari keturunan raja sambas 3 perangainye itu bede lalu dengan adik berade'nye yang laing 5 bila sudah berburu itu biasanya dua tiga hari ketika pulang ke rumah 7 sandi kau ini mengapa laing benar dengan adik beradik mu 10 aku minta bila aku pergi jangan kau ceritekan dengan bapaknya apa lagi dengan ibu tabel 6
+mesin penerjemah statistik bahasa indonesia ke bahasa melayu sambas
+mesin penerjemah statistik bahasa melayu sambas ke bahasa indonesia
+nilai persentase akurasi yang dihasilkan pada pengujian 1 sebesar 55% dan pada pengujian 2 dengan persentase sebesar 49%
+penilaian yang dilakukan oleh ahli bahasa menghasilkan nilai bleu yang berbeda- beda tergantug pemahaman oleh ahli bahasa

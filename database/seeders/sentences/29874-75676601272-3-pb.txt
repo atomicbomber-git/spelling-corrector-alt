@@ -1,0 +1,105 @@
+eee paper template in a4 vol 5 no 1 april 2019 pembuatan game online bomclean sebagai media pembelajaran kebersihan lingkungan sussi #1, rendy munadi 2 rendymunadi@telkomuniversity.ac.id 4 nurwulanf@telkomuniversity.ac.id 5 kusvihawan@telkomuniversity.ac.id pesat dan sudah beredar dalam berbagai genre permainan seperti aksi, horror, pertualangan, puzzle dan game online
+seiring dengan perkembangan jaringan internet maka game online juga ikut berkembang dan mampu menarik banyak orang untuk memainkannya
+kebanyakan video game yang dibuat hanya ditujukan untuk menghabiskan waktu dan menghibur player agar jauh dari kebosanan
+pelajaran tentang kebersihan lingkungan perlu diajarkan sejak dini sehingga mampu membawa perubahan, baik berupa pengetahuan maupun tingkah laku
+bomclean adalah sebuah video game yang ditujukan untuk menghibur serta menambah kesadaran tentang pentingnya menjaga kebersihan lingkungan sambil bermain dengan pemain lainnya menggunakan konsep multiplayer
+fitur utama dalam video game bomclean menantang pemain menempatkan sampah pada tempatnya yang tepat
+bomclean menjadi salah satu media pembelajaran kebersihan lingkungan yang mampu menambah pengetahuan akan pengklasifikasian sampah
+pendahuluan yang menerangkan tentang usaha untuk mewujudkan masyarakat yang sehat
+berdasarkan undang-undang tersebut negara memiliki kewajiban untuk menciptakan lingkungan yang sehat bagi warganya
+upaya yang dilakukan oleh pemerintah yaitu dengan mengkampanyekan pola hidup bersih dan sehat melalui berbagai program penyuluhan
+beberapa hambatan yang terjadi saat phbs yaitu lokasi daerah penyuluhan yang sulit dijangkau, media penyuluhan yang tidak interaktif serta tidak menarik untuk memahami kebersihan lingkungan
+maka dari itu dibutuhkan media pembelajaran kebersihan lingkungan yang mampu menarik berbagai kalangan terutama kalangan anak, mudah diakses, menghibur dan tetap memberikan pengetahuan akan kebersihan
+saat ini digunakan oleh banyak orang
+bukan hanya sarana hiburan, video game juga dapat digunakan untuk sarana pembelajaran dan mengasah kemampuan berpikir pemain
+penggunaan game console sudah mulai berkurang, arah perkembangan game saat ini menyasar pada pengguna perangkat komunikasi bergerak seperti smartphone dan komputer dengan jaringan internet hal ini sering disebut dengan istilah game online
+oleh kepopuleran game online atau game multiplayer dikalangan pemain serta sedikitnya game yang mendidik untuk anak-anak, kurangnya kesadaran masyarakat akan pentingnya kebersihan lingkungan mereka dan diperlukan metode baru dalam penyampaian phbs
+dari keempat faktor tersebut diharapkan pemain memiliki wawasan tambahan dan kesadaran mengenai perlunya menjaga kebersihan lingkungan dengan menikmati game bomclean
+video game bomclean merupakan permainan yang menguji daya kompetisi satu pemain dengan pemain lainnya karena sifatnya multiplayer, dapat dimainkan lebih dari satu pemain
+tinjauan pustka digunakan dalam menyampaikan sebuah tujuan antara lain untuk pendidikan, hiburan dan simulasi
+dalam sejarah kehidupan manusia, game selalu ada dan terus diminati oleh berbagai kalangan disegala usia
+selain itu, game juga telah mengisi masa kecil setiap orang sehingga menjadi nostalgia tersendiri ketika game dimainkan kembali
+game sudah ada sejak beribu-ribu tahun yang lalu dalam bentuk permainan tradisional di berbagai negara, terdapat permainan tradisional tersendiri sesuai dengan budaya masing-masing negara
+seiring dengan perkembangan jaman game diklasifikasikan berdasarkan tujuannya sebagaimana dalamyakni: 1
+game as game, game yang dimaksud adalah game untuk kesenangan
+game as media, game untuk menyampaikan pesan dari pembuat game
+game beyond game, dikenal juga dengan istilah gamification
+gamification adalah penerapan konsep atau cara berpikir game design ke dalam lingkup non-game
+video game video game adalah game yang menggunakan interaksi dengan antarmuka pengguna melalui gambar yang dihasilkan oleh piranti video
+game umumnya menyediakan sistem penghargaan misalnya skor, yang dihitung berdasarkan tingkat keberhasilan yang dicapai dalam menyelesaikan tugas yang ada di dalam permainan
+kata video pada video game pada awalnya merujuk pada piranti tampilan raster
+seiring perjalanan waktu istilah video game dapat digunakan untuk menyebut game pada piranti tampilan apapun atau sistem elektronik yang disebut platform
+berbagai jenis platform yang digunakan dalam pengembangan game sebagaimana dalamadalah sebagai berikut: indonesia, biasanya berada di tempat khusus, memiliki mesin yang memang khusus di desain untuk jenis game tertentu dan tidak jarang memiliki fitur yang dapat membuat pemainnya lebih merasa dan seperti adanya pistol, kursi khusus, sensor gerakan, sensor injakkan dan stir mobil
+pc games, video game yang dimainkan menggunakan personal computer
+menggunakan console tertentu, seperti playstation 2, playstation 3, xbox 360 dan nintendo wii
+handheld games, video game yang dimainkan di console khusus sehingga dapat dibawa kemana-mana contoh nintendo ds dan sony psp
+mobile games, video game yang dapat dimainkan atau khusus untuk mobile phone atau pda
+game online perkembangan game online tidak lepas dari teknologi komputer dan jaringan komputer itu sendiri
+meledaknya game online merupakan cerminan dari pesatnya jaringan komputer yang dahulunya berskala kecil sampai menjadi internet dan terus berkembang sampai sekarang
+pada saat muncul pertama kalinya, pada tahun 1996, komputer hanya bisa dipakai untuk dua orang saja dalam bermain game
+seiring perjalanan lahirlah komputer dengan kemampuan time-sharing sehingga pemain yang bisa memainkan game tersebut bisa lebih banyak dan tidak harus berada pada dalam satu ruangan yang sama 
+game online bisa disebut sebagai bagian dari aktivitas sosial karena pemain bisa saling berinteraksi secara virtual dan seringkali menciptakan komunitas maya
+sebagaimana dalamgame online berdasarkan jenisnya diklasifikasikan menjadi tujuh yaitu: massively multiplayer online firstperson shooter games, massively multiplayer online real-time strategy games, massively multiplayer online roleplaying games, cross-platform online play, massively multiplayer online browser game, simulation games, massively multiplayer online games 
+edukasi merupakan suatu permainan yang berusaha memberikan nilai edukasi sehingga permainan yang awalnya hanya berfungsi sebagai media hiburan dapat juga digunakan sebagai media pembelajaran
+salah satu kelebihan dari game edukasi terletak pada visualisasi permasalahan dilingkungan
+massachussets insitute of technology berhasil membuktikan bahwa game sangat berguna untuk meningkatkan logika dan pemahaman pemain terhadap suatu masalah melalui proyek game yang dinamai scratch
+game edukasi unggul dalam beberapa aspek jika dibandingkan dengan metode pembelajaran konvensional salah satu keunggulan yang signifikan adalah adanya animasi yang dapat meningkatkan daya ingat sehingga anak dapat menyimpan materi pelajaran dalam waktu yang lebih lama dibandingkan dengan metode pembelajaran konvensional masyarakat yang masih rendah dan apabila orang mendengar kata game edukasi mereka akan langsung berpikiran bahwa game tersebut membosankan dan tidak menarik, dan hal ini telah menjadi mindset masyarakat sejak game edukasi itu pertama kali muncul
+metode penelitian suatu urutan dari beberapa proses secara bertahap didalam merancang dan mengembangkan sistem yang dikenal juga dengan nama information system development atau juga application development
+pembuatan video game bomclean menggunakan metode pengembangan system development life cycle dimulai dari analisis, perancangan, pembuatan, pengujian, development
+1 metode system developmet life cylce waterfall dalam pengembangan game bomclean a
+tahapan analisa pada tahap analisa developer mencari data dan informasi yang diperlukan untuk membangun game online yang menarik dan cocok dengan ide utama yaitu game online bertemakan kebersihan lingkungan
+secara detail bagaimana video game tersebut akan dibangun mulai dari networking, gameplay, art yang telah di analisa pada tahap sebelumnya
+adapun beberapa rincian perancangan video game sebagai berikut
+1) deskripsi permainan bomclean adalah sebuah permainan dengan konsep dapat dimainkan lebih dari satu pemain 
+game ini bertema tentang pentingnya kebersihan lingkungan, dimana setiap pemain bertanding dengan pemain lain untuk memperebutkan score yang lebih tinggi
+2 game bomclean dimainkan dengan konsep multiplayer pemain dapat menggerakkan karakter ke kiri, ke kanan, dan lompat
+demi mendapatkan score, pemain harus mengambil sampah yang terjatuh dan membuangnya ke tempat sampah yang telah disediakan
+beberapa sampah memiliki keunikan diantaranya ada sampah yang hanya bisa dibuang ke tempat sampah tertentu
+sampah kertas dan organik hanya bisa dibuang ke burnable basket dan sampah kaleng dan botol plastik hanya dapat dibuang ke recycleable basket mendapatkan penambahan score
+dalam batas waktu tertentu para pemain saling bersaing demi mendapatkan score yang paling tinggi
+dimana pemain akan memainkan sebuah karakter yang dapat bergerak dari kiri ke kanan
+tujuan dari permainan ini adalah untuk mengambil sampah yang terjatuh dan membuangnya ke tempat sampah yang telah disediakan untuk mendapatkan penambahan score
+tantangan dari permainan bomclean adalah setiap pemain besaing untuk memperoleh score tertinggi
+3) deskripsi alur permainan gambar 3 menujukkan use case diagram yang menggambarkan interaksi pemain dengan sistem game bomclean secara umum
+3 use case diagram interksi pemain dalam game bomclean game bomclean memiliki dua tipe actor atau pemain yaitu yang bertindak sebagai host dan client
+pemain yang bertindak sebagai host dapat membuat sesi game baru dengan pengaturan yang pemain inginkan
+pemain yang bertindak sebagai client dapat memasuki sesi game yang telah dibuat oleh host dengan cara memasukkan nama room
+dari main menu pemain dapat memilih apakah ingin keluar dari game atau masuk ke menu matchmaking
+dalam menu matchmaking terdapat 2 pilihan yaitu join room atau create room
+join room berfungsi untuk masuk ke room yang tersedia sedangkan create room berfungsi untuk membuat room baru
+jika ingin join room maka masukkan nama room dan pilih map
+setelah itu klik tombol join room
+jika ingin membuat room baru maka masukan nama room dan pilih map
+setelah itu klik tombol create room
+jika berhasil maka pemain akan masuk kedalam map yang dipilih sebelumnya
+7 pilihan map 2 pada game bomclean gambar
+8 pilihan map 3 pada game bomclean g
+jika belum ada pemain lain yang berada didalam room tersebut
+pemain awal harus menunggu pemain lain terlebih dahulu sebelum permainan dimulai
+jika pemain lain sudah ada didalam room maka permainan akan langsung dimulai
+setelah waktu habis maka akan muncul score board dimana akan menampilkan score para pemain yang sedang berada pada room tersebut
+9 score board pada game bomclean k
+setelah game selesai, pemain dapat memilih untuk kembali ke menu matchmaking atau ke main menu
+tahap pembuatan pada tahap pembuatan, developer mulai mengimplementasikan pembuatan game berdasarkan game, sound engine, dll
+berbagai tools yang digunakan untuk membuat game bomclean antara lain unity game engine, sound editor, photoshop dan corel
+semua tools akan digunakan untuk membuat suatu game yang utuh
+tahap pengujian pada tahap pengujian, developer melakukan pengujian apakah ada bug atau tidak selama pemain menjalankan game bomclean
+setelah itu, developer memperhatikan dengan seksama bug tersebut agar bisa di developed
+tahap development pada tahap development, developer akan mengubah beberapa user interface dan menambahkan beberapa fitur agar lebih menarik untuk di release
+release dilakukan bertahap untuk mendapatkan data-data dari pemain dan developer dapat memperbaikinya
+game bomclean hanya memiliki kendala di bagian networking dimana latency game bomclean belum sepenuhnya stabil dan menyebabkan pemain mengalami disconnect secara tiba-tiba pada saat bermain
+tabel ii pengujian inputan game bomclean pengujian inputan tabel iii pengujian sistem game bomclean pengujian sistem memulai game bomclean dan mengisi kuesioner mengenai kualitas game
+responden yang memainkan game bomclean terdiri dari kalangan ibu rumah tangga, wanita karir dan mahasiswa yang sudah memasuki usia dewasa dan dinilai memiliki tingkat objektif yang tinggi
+seluruh responden menyatakan game bomclean layak dijadikan media pembelajaran kebersihan lingkungan
+game bomclean masih sering mengalami bug selama permainan berlangsung dinyatakan dengan 60% dari semua pendapat responden, alur permainan kurang menantang bernilai 20% dari pendapat responden, desain game kurang menarik sebesar 13% dan 7% pendapat dari responden menyatakan game sudah sangat baik ketika game dimainkan
+game bomclean desain yang lebih beragam, alur cerita yang lebih kompleks sehingga lebih menantang dan diperlukan server tersendiri untuk mengurangi bag selama permainan
+kesimpulan dan saran diperoleh beberapa kesimpulan sebagai berikut: 1
+game bomclean sudah bisa dimainkan dengan beberapa pemain 
+game bomclean dapat dimainkan oleh segala usia tetapi dikhususkan untuk pemain kategori anak-anak
+game bomclean sangat bergantung kepada kestabilan jaringan internet pemain
+selama memainkan game bomclean masih ditemukan beberapa bug antara lain saat pemain masuk kedalam room dimana karakter pemain akan terjebak diudara dan tidak terjatuh ketanah
+game bomclean memiliki desain karakter yang sederhana
+saran saran untuk penelitian selanjutnya dalam rangka mengembangkan game bomclean yaitu: 1
+perlunya perbaikan untuk mengurangi bug ketika bermain
+karakter pemain dalam game bomclean bisa dibuat berbeda untuk setiap pemain
+pada menu matchmaking ditambahkan pilihan level agar permainan lebih menarik, menantang dan tidak terkesan mudah

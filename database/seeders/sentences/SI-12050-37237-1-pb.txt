@@ -1,0 +1,99 @@
+erbasis web 2, novi safriadi 1 gandhi.pranoto@outlook.com, 2 rudydwinyoto@gmail.com, memberikan berbagai informasi yang dapat dipergunakan oleh berbagai pihak, eksternal maupun internal untuk berbagai kepentingan
+informasi yang dimaksud dapat berupa laporan keuangan, laporan laba rugi, dan lain-lain
+laporan yang akurat tentunya tidak boleh salah dalam penyusunannya
+dalam kaitannya dengan penulisan ini, laporan yang dihasilkan adalah laporan pengadaan barang dan laporan hasil jurnal oleh bagian pengadaan barang dan bagian pembukuan
+penelitian dilakukan untuk menghasilkan sebuah sistem terpadu antar kedua bagian tersebut
+bagian pengadaan barang dapat melakukan pemesanan barang, kemudian hasilnya akan dapat ditampilkan langsung oleh bagian pembukuan
+penelitian telah diuji dengan metode blackbox dan untuk kuisioner telah diuji validitas, reabilitas dan dengan metode lsr
+berdasarkan pengujian yang dilakukan, sistem dinilai cukup berhasil dalam memenuhi keperluan perusahaan
+pembukuan/jurnal, validitas, blackbox, lsr keputusan ekonomi dan keuangan semakin besar, terutama oleh para pelaku usaha
+peranan akuntansi membantu melancarkan tugas manajemen, terutama dalam fungsi perencanaan dan pengawasan
+proses akuntansi meliputi pencatatan, penggolongan, peringkasan, pelaporan dan penganalisisan data keuangan dari suatu organisasi
+kegiatan pencatatan dan penggolongan adalah proses yang dilakukan scara rutin dan berulang-ulang setiap kali terjadi transaksi keuangan
+kegiatan pencatatan dan penggolongan yang bersifat rutin dapat dilakukan dengan tulis tangan ataupun dengan mempergunakan sistem komputerisasi
+kesalahan penyusunan laporan keuangan akan berdampak pada kesalahan pengambilan keputusan ekonomi oleh pemilik perusahaan
+dalam praktek akuntansi, pencatatan atas suatu transaksi atau sekelompok ransaksi yang sama harus didasari oleh tanda bukti berupa dokumen transaksi, misalnya faktur, kwitansi, dan sebagainya, kemudian dianalisis dahulu pengaruhnya terhadap elemen-elemen persamaan pada perusahaan yang diteliti penulis, ditemukan bahwa proses pengadaan barang dan penjurnalan transaksi yang dilakukan dilakukan dengan menginput manual seluruh transaksi dan dicetak yang kemudian baru diperiksa oleh atasan
+hal ini dapat menimbulkan pemborosan sumberdaya dan resiko kesalahan yang diakibatkan oleh kesalahan manusia dibandingkan dengan pemeriksaan yang dilakukan dengan cara terkomputerisasi
+barang meng-input order menggunakan program microsoft excel
+yang menurut penuturan yang disampaikan oleh narasumber penulis, telah beberapa kali menimbulkan kesalahan misalnya kesalahan input informasi supplier, kesalahan mencantumkan nomor order, kesalahan memasukkan rumus, dll
+pada bagian pembukuan, telah menggunakan aplikasi pembukuan yang telah ada
+namun penulis memberi perhatian pada aplikasi tersebut, user harus input nominal pembelian dan mengetikkan kode rekening untuk melakukan pembukuan yang mana keduanya juga, menurut narasumber penulis pernah menimbulkan kesalahan input
+uraian penelitian atau 
+semakin baik penguasaan terhadap bahasa ini, maka akan meningkatkan penangananan berbagai aspek keuangan dalam hidup pula
+tentunya setiap orang pernah membuat sebuah keputusan yang mengandung aspek keuangan, apakah seorang mahasiswa, kepala rumah tangga, investor, manajer, politisi, dan yang lainnya
+pencatatan akuntansi dan penyusunan laporan keuangan dapat digunakan sebagai dasar pengambilan keputusan di bidang keuangan
+pandang, yaitu dari sudut pemakai jasa akuntansi dan dari sudut proses kegiatannya
+ditinjau dari sudut pemakainya, akuntansi didefinisikan sebagai suatu disiplin yang menyediakan informasi yang diperlukan untuk melaksanakan kegiatan secara efisien dan mengevaluasi kegiatan-kegiatan suatu organisasi
+membuat perencanaan yang efektif, pengawasan dan pengambilan keputusan oleh manajemen, dan pertanggungjawaban organisasi kepada para investor, kreditur, badan pemerintahan dan lain sebagainya
+dari definisi tersebut, dapat disimpulkan bahwa akuntansi diselenggarakan dalam suatu organisasi, sehingga informasi yang dihasilkan adalah informasi tentang organisasi
+informasi ini digunakan dalam pengambilan keputusan intern organisasi, misalnya oleh manajemen perusahaan, dan juga untuk pengambilan keputusan oleh pihak eksetern organisasi, misalnya oleh kreditur atau investor
+jurnal dan posting buku besar yang terdiri atas rekening-rekening adalah alat untuk mencatat transaksi perusahaan
+dalam buku besar pengaruh transaksi-transaksi perusahaan diklasifikasikan dan diringkas
+dalam praktek akuntansi yang sesungguhnya, pencatatan atas suatu transaksi atau sekelompok transaksi yang sama harus didasari oleh tanda bukti dokumen transaksi berupa faktur, kwitansi dan lain sebagainya
+aktiva, kewajiban, modal, pendapatan atau biaya
+pengaruh transaksi tidak dicatat secara langsung ke buku besar, tetapi masing-masing transaksi dianalisis terlebih dahulu pengaruhnya terhadap elemen-elemen persamaan akuntansi dan kemudian baru dipindahkan ke buku besar
+hasil analisis tersebut dituangkan dalam suatu alat pencatatan yang disebut jurnal dengan demikian, jurnal merupakan penghubung antara transaksi dengan buku besar
+gambar 2.1 hubungan transaksi, bukti transaksi, jurnal dan buku besar c
+konsep dasar sistem terpadu dan terintegrasi definisi sistem dapat dibagi menjadi dua pendekatan, yaitu pendekatan secara prosedur dan pendekatan secara komponen
+berdasarkan pendekatan prosedur, sistem didefinisikan sebagai kumpulan dari beberapa prosedur yang mempunyai tujuan tertentu
+sedangkan berdasarkan pendekatan komponen, sistem merupakan kumpulan dari komponen-komponen yang saling berkaitan untuk mencapai tujuan tertentu
+menurut kamus besar bahasa indonesia, terpadu berarti sudah bersatu
+sedangkan terintegrasi berarti terbaur menjadi sebuah kesatuan yang utuh atau bulat
+dengan demikian dan dalam hal penulisan ini, sistem yang dipadukan atau diintegrasikan adalah sistem pengadaan barang dan sistem jurnal kedua sistem tersebut dipadukan/diintegrasikan sehingga tidak memerlukan nantinya, sistem akan membagi secara otomatis pengguna yang berhak mengakses fungsi pengadaan barang dan fungsi jurnal d
+html, php, mysql sebuah bahasa markah yang digunakan untuk membuat halaman web, menampilkan informasi di dalam sebuah penjelajah web internet dan pemformatan hiperteks sederhana yang ditulis dalam berkas format ascii agar dapat menghasilkan tampilan wujud yang terintegerasi
+dengan kata lain, berkas yang dibuat dalam perangkat lunak pengolah kata dan disimpan dalam format ascii normal sehingga menjadi halaman web dengan perintah-perintah html
+bermula dari sebuah bahasa yang sebelumnya banyak digunakan di dunia penerbitan dan percetakan yang disebut dengan sgml, html adalah sebuah standar yang digunakan secara luas untuk menampilkan halaman web
+html saat ini merupakan standar internet yang didefinisikan dan dikendalikan penggunaannya oleh world wide web consortium 
+sintak html selalu dibuka dengan kode <html> dan diakhiri dengan </html>
+php adalah bahasa scripting yang menyatu dengan html dan dijalankan pada server side
+artinya semua sintaks yang kita berikan akan sepenuhnya dijalankan pada server sedangkan yang dikirimkan ke browser hanya hasilnya saja
+dan di dalam sintak php juga dapat kita sisipkan kode html dengan menambahkan perintah echo ; html dan php merupakan dua bahasa yang digunakan secara bersamaan, di mana dalam hal ini html berfungsi sebagai perancang desain, layout atau tata letak yang menggambarkan suatu website
+sedangkan php merupakan bahasa pemrograman yang berisi algoritma untuk mengolah suatu proses dalam website
+, salah satunyai fungsi koneksi ke database
+dalam membuat suatu program atau website yang mampu menyimpan/merekam data dibutuhkan suatu media penyimpanan yang disebut database
+dan dalam hal ini kita menggunakan database mysql
+mysql merupakan database yang bersifat gratis
+selain mysql, terdapat juga beberapa jenis database lain yang juga cukup terkenal, seperti ms access, microsoft sql server, oracle, postgresql, dll
+pengujian sistem pengujian dilakukan dengan beberapa cara, yaitu pengujian blackbox, pengujian validitas, reabilitas, dan pengujian tingkat penerimaan pengguna
+fokus kepada spesifikasi fungsional dari perangkat lunak
+pengujian ini akan cenderung menemukan hal- hal sebagai berikut : 1
+fungsi yang tidak benar atau tidak ada 2
+kesalahan pada struktur data dan akses basis data 4
+kesalahan inisialisasi dan terminasipengujian yang dilakukan menggunakan kuesioner, perlu dilakukan pengujian validitas dan reabilitas
+untuk melakukan pengujian tersebut, dapat dilakukan dengan analisis regresi
+cara untuk mengukur validitas konstruk yaitu dengan mencari korelasi antara masing- masing pertanyaan dengan skor total menggunakan rumus teknik korelasi product moment, sebagai berikut : dimana r : koefisien korelasi product moment x : skor tiap pertanyaan/ item y : skor total n : jumlah responden koefisien korelasi product moment dari suatu pertanyaan tersebut berada diatas nilai tabel kritik, maka pertanyaan tersebut signifikan
+suatu pertanyaan dinyatakan valid jika memiliki probabilitas korelasi < 0, 050 sedangkan pengujian reliabilitas menggunakan konsistensi responden dalam menjawab pertanyaan
+uji reliabilitas dilakukan secara bersama-sama terhadap seluruh butir pertanyaan dan suatu kuesioner dikatakan reliabel jika memiliki nilai > 0, 60
+adapun rumus dimaksud adalah sebagai berikut : rtt :angka reliabilitas belahan pertama dan keduaberhasil oleh para pengguna, maka perlu diadakan sebuah metode, misalnya menggunakan kuesioner
+setelah mendapat hasil dari semua kuesioner yang telah disebar, maka dilakukan uji validitas dan reliabilitas terlebih dahulu untuk mengetahui apakah kuesioner yang telah disusun itu valid dan dapat dipercaya
+pengujian validitas menggunakan koefisien korelasi pearson dengan membandingkan nilai korelasi antara setiap variabel pertanyaan kuesioner dengan total dari kuesioner
+suatu pertanyaan dinyatakan valid jika memiliki probabilitas korelasi < 0, 050 
+gambar sistem usulan sistem yang akan dibangun menggunakan web, sehingga memudahkan dalam pengaksesan dan memanajemen sistem fitur yang ada, adapun gambaran sistem yang dibangun adalah : mulai create order order disetujui? 2 2 b
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap aktivitas yang berlangsung pada diagram konreks dalam sistem ini digambarkan sebagai berikut c
+hasil perancangan hasil perancangan halaman login, halaman utama pengguna diperlihatkan pada gambar 4 dan 5 dibawah ini
+4 setiap pengguna memiliki tampilan utama yang sama dengan menu yang berbeda
+hasil pengujian blackbox masukan ke dalam sistem
+salah satu pengujian yang dilakukan direkap dalam pada tabel seperti yang ditampilkan dibawah ini : tabel 1 tabel pengujian dengan metode blackbox e
+hasil uji validitas, reabilitas dan uat hasil uji validitas menunjukkan bahwa hasil kuesioner yang dilakukan peneliti adalah valid
+hasil perhitungan validitas menggunakan korelasi pearson dapat dilihat pada tabel dibawah ini
+reabilitas baik apabila hasil uji lebih besar dari 0, 6000
+hasil uji reabilitas dengan rumus alpha conbach menunjukkan bahwa kuesioner yang dilakukan penulis memiliki tingkat reabilitas yang baik dengan angka hasil pengujian sebesar 0.904 
+tabel dibawah ini menunjukkan hasil perhitungan reabilitas
+tabel 3 hasil perhitungan uji reabilitas hasil user acceptance test yang dilakukan penulis dengan metode likert’s summated rating dengan cara mengintepretasi hasil kuesioner menunjukkan bahwa program yang dibuat oleh penulis cukup berhasil
+data yang diperoleh dari hasil pengujian dengan kuesioner kemudian diukur dengan metode likert’s summated rating 
+jumlah skor untuk setiap responden: - skor maksimal = 70 - skor minimal = 14 - skor median = 42 - skor kuartil i = 28 - skor kuartil iii = 56 2
+interpretasi jumlah skor tersebut adalah: - 1680 < skor < 2100, artinya sangat positif - 1260< skor < 1680, artinya positif - 840 < skor < 1260, artinya negatif - 520 < skor < 840, artinya sangat negatif gambar 6 hasil intepretasi lsr dari gambar diatas, dapat disimpulkan bahwa penelitian yang dilakukan adalah cukup berhasil
+analisis hasil pengujian berikut ini adalah analisis hasil perancangan dan pengujian sistem aplikasi terpadu sistem pengadaan barang dan sistem jurnal berbasis web: 1
+pengguna dengan level staf pengadaan barang dapat memasukkan daftar pemesanan barang tanpa harus mengetikkan alamat dan nomor telepon supplier
+untuk melakukan pemesanan, supplier harus telah terdaftar sebelumnya di dalam sistem
+pemesanan yang dilakukan harus mendapat persetujuan terlebih dahulu oleh pengguna dengan level kepala bagian pengadaan barang
+pengguna dengan level staf pembukuan dapat melakukan jurnal pengadaan barang tanpa perlu memasukkan ulang nominal pemesanan barang
+jurnal juga dilakukan dengan memilih dari daftar rekening yang telah ada
+sistem akan membuka halaman sesuai dengan level pengguna
+hasil pengujian menunjukkan saat dilakukan input data dengan menggunakan metode black box, input data dengan keseluruhan data kosong akan menimbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan sudah ditangani pada kode program, sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+hasil pengujian menunjukkan bahwa saat dilakukan input data dengan salah satu data yang benilai kosong akan menyebabkan kesalahan apabila data tersebut tidak diperbolehkan kosong
+pada sistem ini kemungkinan tersebut sudah ditanganipada kode program sehingga akan muncul pesan kesalahan jika ada salah satu data yang belum diisi
+hasil pengujian validitas kuesioner menunjukkan bahwa semua pertanyaan dalam kuesioner adalah valid untuk digunakan dalam pengumpulan data
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil

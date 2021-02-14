@@ -1,0 +1,89 @@
+pt tapian nadenggan memerlukan sistem estimasi jumlah produksi crude palm oil untuk menentukan standart minimum jumlah produksi dalam setiap bulannya untuk menjaga supaya target produksi terpenuhi dan meminimalisir kendala yang diakibatkan oleh kesalahan personal maupun machine
+dengan menggunakan estimasi jumlah produksi crude palm oil ini pihak perusahaan dapat diberikan kemudahan dalam mengestimasi jumlah produksi crude palm oil berdasarkan variabel banyaknya buah kelapa sawit, permintaan dan persediaan
+estimasi ini menerapkan logika fuzzy yaitu fuzzy tsukamoto, karena terdapat beberapa data yang bisa digunakan dalam melakukan perhitungan guna mendapatkan estimasi jumlah produksi minyak kelapa sawit
+kelebihan dari logika fuzzy memiliki konsep matematis serta memiliki toleransi terhadap data-data yang tidak tepat, mampu memodelkan fungsi-fungsi nonlinear yang sangat kompleks dan dapat bekerja sama dengan teknik-teknik kendali secara konvensional, sementara fuzzy tsukamoto memiliki kelebihan yaitu lebih intuitif, diterima oleh banyak pihak, lebih cocok untuk masukan yang diterima dari manusia bukan mesin
+berdasarkan basis aturan dengan menggunakan seleksi ciri hasil estimasi jumlah produksi crude palm oil dengan metode fuzzy tsukamoto bulan april 2019 dengan banyak buah kelapa sawit 36.415.100 kg, permintaan 7.139.620 liter, dan persediaan 2.886.790 liter didapatkan jumlah produksi sebanyak 15.130.992 liter
+sehingga metode tsukamoto efektif diterapkan dalam sistem estimasi jumlah produksi untuk membantu pihak perusahaan dalam mengestimasi jumlah produksi minyak sawit karena hasilnya mendekati dengan dataset yang ada
+pendahuluan salah satu kegiatan yang dilakukan dalam sebuah perusahaan adalah produksi khususnya pt tapian nadenggan yang bergerak dalam bidang pengolahan minyak kelapa sawit
+kelapa sawit merupakan salah satu komoditas perkebunan yang mempunyai peranan penting dalam perekonomian di indonesia
+produksi minyak kelapa sawit indonesia terus mengalami peningkatan
+berdasarkan data statistik estimasi produksi minyak kelapa sawit indonesia pada tahun 2017 mencapai 35.359.384 ton
+pt tapian nadenggan merupakan salah satu perusahaan yang berorientasi pada industri minyak kelapa sawit
+untuk menghasilkan produksi yang optimal diperlukan estimasi produksi yang optimal untuk mengestimasi produksi minyak kelapa sawit membutuhkan informasi mengenai faktor yang terlibat dalam menentukan jumlah minyak kelapa sawit yang akan diproduksi
+sistem estimasi jumlah produksi minyak kelapa sawit diperlukan oleh pt tapian nadenggan untuk menentukan standart minimum jumlah produksi dalam setiap bulannya untuk tetap menjaga supaya target produksi terpenuhi dan meminimalkan kendala yang diakibatkan oleh kesalahan personal maupun mesin
+estimasi jumlah produksi minyak kelapa sawit dalam waktu yang tepat dan dalam jumlah yang tepat merupakan sesuatu yang diinginkan perusahaan perkebunan kelapa sawit, begitu juga bagi perusahaan pt tapian nadenggan
+namun dalam menentukan jumlah produksi minyak kelapa sawit di waktu yang akan datang tidak mudah
+banyaknya faktor yang terlibat dalam perhitungan menjadi kendala dalam mengambil kebijakan untuk dapat menentukan jumlah minyak kelapa sawit yang akan diproduksi
+masalah produksi banyak faktor yang mempengaruhi penentuan untuk jumlah produksi
+faktor- faktor tersebut adalah permintaan maksimum, permintaan minimum, persediaan maksimum, persediaan minimum, produksi maksimum, produksi minimum, permintaan saat ini, dan persediaan saat ini
+hal ini memerlukan sebuah metode untuk mengatasai masalah tersebut yaitu optimasi produksi
+salah satu cara yang bisa digunakan dalam memestimasi jumlah produksi minyak kelapa sawit adalah penerapan logika fuzzy, karena terdapat beberapa nilai variabel yang tidak dapat diketahui pasti dalam melakukan perhitungan guna mendapatkan estimasi jumlah produksi minyak kelapa sawit
+logika fuzzy digunakan karena memiliki konsep yang mudah dipahami serta dapat mengembangkan dan mengaplikasikan pengalaman pakar secara langsung tanpa harus melalui pelatihan dan didasarkan pada bahsa alami
+kelebihan lain dari logika fuzzy memiliki konsep matematis serta memiliki toleransi terhadap data-data yang tidak tepat, mampu memodelkan fungsi-fungsi nonlinear yang sangat kompleks dan dapat bekerja sama dengan teknik-teknik kendali secara konvensional
+ada 3 metode dalam logika fuzzy yaitu metode tsukamoto, metode mamdani dan metode sugeno pada penelitian ini yang digunakan diguanakan adalah metode tsukamoto karena setiap aturan direpresentasikan dengan himpunan fuzzy
+sehingga output dari setiap aturan diberikan secara tegas berdasarkan a, dan diperoleh hasil akhir dengan rata - rata terpusat
+metode ini akan menampilkan keluaan berupa nilai hasil dari perhitungan defuzzyfikasi
+fuzzy tsukamoto memiliki kelebihan yaitu lebih intuitif, diterima oleh banyak pihak, lebih cocok untuk masukan yang diterima dari manusia bukan mesin, selain itu kelebihan model tsukamoto terutama di banyak situasi ketidakpastian dan ketidakjelasan, metode ini sangat fleksibel dan memiliki toleransi terhadap data yang ada
+beberapa hasil penelitian yang pernah dilakukan oleh peneliti sebelumnya yang memiliki bidang dan tema yang sama dengan penelitian yang akan dilakukan
+penerapan metode fuzzy tsukamoto untuk memprediksi produksi minyak kelapa sawit
+menurut, melakukan penelitian yang berjudul 
+penelitian ini menerapkan metode fuzzy tsukamoto dalam memprediksi produksi minyak kelapa sawit berdasarkan data kriteria pemesanan dan persediaan, yang dapat memberikan kemudahan pada perusahaan untuk mengolah data dalam memprediksi produksi minyak kelapa sawit
+penelitian ini menggunakan 9 aturan dengan hasil prediksi produksi minyak kelapa sawit pada tanggal 23 november 2017 sebesar 102.743, 5 kg
+menurut, melakukan penelitian yang berjudul “ estimasi jumlah produksi jenang di pt menara jenang kudus menggunakan metode logika fuzzy tsukamoto “
+pada penelitian tersebut dibangun suatu sistem yang membantu mempermudah dalam memestimasi jumlah produksi jenang perbulannya dengan menggunakan metode tsukamoto dengan beberapa kriteria diantaranya retur, penjualan, sisa dan produksi
+hasil dari aplikasi memberikan perkiraan estimasi hasil produksi jenang dengan tujuan untuk memudahkan perusahaan dalam memperkirakan hasil produksi jenang
+logika fuzzy yang daplikasikan untuk data di pt menara jenang kudus dari bulan februari sampai september dengan hasil dari pengujian menggunakan mse untuk jenang wijen ebesra 7.121, jenang spesial sebesar 15.940 dan jenang duren sebesar 21.168 yang menunjukkan bahwa meskipun terjadi error namun hasil prediksi masih dapat diterima
+ aplikasi logika fuzzy dalam mengoptimalkan produksi minyak kelapa sawit di pt waru kaltim plantation menggunakan metode mamdani
+menurut, melakukan penelitian yang berjudul 
+penelitian ini menerapkan logika fuzzy yang mengimplementasikan fuzzy mamdani digunakan untuk memprediksi jumlah produksi minyak kelapa sawit berdasarkan data persediaan dan data permintaan
+berdasarkan hasil perhitungan yang telah dilakukan dengan variabel input permintaan 2.799.918 ton dan persediaan 1.593.21 ton pada bulan januari 2016 mendapatkan total minyak kelapa sawit yang harus diproduksi adalah 3.085.753 ton
+untuk itu metode mamdani dapat diterapkan untuk memprediksi jumlah produksi minyak kelapa sawit di pt waru kaltim plantation, dengan keakurasian mape 17, 225% sehingga metode fuzzy mamdani baik digunakan untuk memprediksi minyak kelapa sawit di pt wkp periode 2013 sampai 2015
+penerapan logika fuzzy mamdani untuk estimasi hasil produksi ikan air tawar
+menurut, melakukan penelitian yang berjudul 
+pada penelitian tersebut dibangun suatu sistem yang dapat menghasilkan hasil produksi ikan air tawar dengan menggunakan metode fuzzy mamdani dengan menggunakan beberapa kriteria diantrannya siklus budidaya, debit air, jumlah bibit, jumlah pakan, dan luas kolam
+hasil dari aplikasi memberikan perkiraan hasil produksi ikan air tawar dengan tujuan untuk memudahkan para pembudidaya ikan air tawar menghasilkan hasil produksi maksimal hasil uji coba prediksi dengan menggunakan aplikasi diperoleh nilai produksi yang memenuhi permintaan sebesar 86, 67% dari 30 data yang dipilih secara acak
+studi kasus : pt amal tani perkebunan tanjung putri - bahorok
+menurut, melakukan penelitian yang berjudul “penerapan metode fuzzy tsukamoto untuk memprediksi hasil produksi kelapa sawit 
+penelitian ini menggunakan 2 kriteria yaitu permintaan dan persediaan dengan menggunakan 9 aturan fuzzy, sehingga dapat menentukan berapa jumlah hasil produksi yang harus diproduksi oleh perusahaan, apakah produksinya berkurang, tetap atau bertambah
+application of the fuzzy inference system method to predict the number of weaving fabric production
+menurut, melakukan penelitian yang berjudul 
+penelitian ini membahas penerapan logika fuzzy dalam menyelesaikan masalah produksi menggunakan metode tsukamoto dan metode sugeno masalah yang dipecahkan adalah bagaimana menentukan produksi kain tenun bila menggunakan tiga variabel sebagai input data, yaitu: stok, permintaan dan inventaris produksi biaya
+menurut metode tsukamoto pada bulan maret 2017 menggunakan aturan weka diperoleh 343 kain tenun dalam meter, sementara menggunakan metode sugeno diperoleh 371 kain tenun dalam meter
+dari semua uraian di atas bertujuan dengan adanya sistem estimasi jumlah produksi ini pihak perusahaan dapat melakukan estimasi lebih cepat
+sehingga diharapkan dapat memberikan kemudahan bagi pihak perusahaan untuk memestimasi jumlah produksi minyak kelapa sawit berdasarkan variabel input berupa data buah kelapa sawit, permintaan dan persediaan sedangkan variabel output berupa jumlah produksi
+cara studi literatur metode ini digunakan penulis untuk mendapatkan bekal teori acuan untuk melakukan penelitian
+studi literatur ini akan menjadi bahan acuan dan dasar teori sebagai penunjang penelitian dan penulisan skripsi
+pengamatan di lapangan metode ini digunakan untuk mengetahui pengamatan susunan pekerjaan dilapangan
+metode pengembangan sistem langkah pengembangan sistem sebanyak 8 tahapan, dimana penjelasannya sebagai berikut: 1) pengumpulan data: pengumpulan data dilakukan di pt tapian nadenggan
+pengumpulan data dilakukan dengan cara wawancara secara tidak langsung kepada pihak staff produksi di pt tapian nadenggan
+data yang diperoleh data buah kelapa sawit, permintaan, persediaan, produksi dari bulan januari 2013 sampai bulan maret 2018 dengan 63 data yang diperoleh
+2) analisis data set: analisis data set berdasarkan data di pt tapian nadenggan yang akan digunakan untuk proses fuzzy inference system menggunakan variabel input berupa data buah kelapa sawit, permintaan, persediaan dan variabel output berupa jumlah produksi sebagai dataset untuk diproses dengan data uji yang akan diestimasi
+data buah kelapa sawit, permintaan, persediaan dan jumlah produksi akan dijadikan nilai batasan dengan mencari nilai himpunan dari masing- masing variabel
+nilai himpunan untuk masing-masing variabel diantarannya buah kelapa sawit banyak, buah kelapa sawit sedang, buah kelapa sawit sedikit, permintaan naik, permintaan sedang, permintaan turun, persediaan banyak, persediaan sedang, persediaaan sedikit, produksi bertambah, produksi sedang dan produksi berkurang 
+3) seleksi ciri: langkah awal untuk membuat aturan pada weka yaitu mengisikan semua data sampel di microsoft exel
+berdasarkan kasus data yang dimasukkan yaitu data buah kelapa sawit, permintaan, persediaan dan produksi dari bulan januari 2013 sampai bulan maret 2018 sebanyak 63 data sampel
+setelah itu simpan file dengan format .csv
+tampilan kalsifikasi seperti pada gambar 1.tahapan penelitian yang dilakukan seperti ditunjukkan pada gambar 1 berikut ini: gambar 1
+classifier output dari gambar 1 diketahui bahwa dari 63 sampel data yang benar dalam klasifikasi sebanyak 61 data dan klasifikasi yang salah sebanyak 2 data
+4) aturan seleksi ciri: proses membuat aturan seleksi ciri dengan melihat pohon keputusan didapat dengan klik kanan pada result list tree kemudian pilih visualize tree, maka akan muncul tampilan seperti pada gambar 2
+linguistik yang digunakan dapat dilihat pada tabel 1
+tabel i linguitik yang digunakan variabel nama linguistik buah kelapa sawit sedikit, sedang, banyak permintaan turun, sedang, naik persediaan sedikit, sedang, banyak produksi berkurang, sedang, bertambah adapun fungsi keanggotaan untuk memestimasi jumlah produksi minyak kelapa sawit dapat dilihat fungsi keanggotaan buah kelapa sawit pada gambar 3
+fungsi keanggotaan buah kelapa sawit fungsi keanggotaan variabel buah kelapa sawit adapun fungsi keanggotaan untuk memestimasi jumlah produksi minyak kelapa sawit dapat dilihat fungsi keanggotaan permintaan pada gambar 4
+fungsi keanggotaan permintaan fungsi keanggotaan variabel permintaan adapun fungsi keanggotaan untuk memestimasi jumlah produksi minyak kelapa sawit dapat dilihat fungsi keanggotaan persediaan pada gambar 5
+fungsi keanggotaan jumlah produksi fungsi keanggotaan variabel produksi 6) inferensi: pada inferensi menggunakan metode tsukamoto untuk melakukan proses perhitungan sampai dengan diperoleh hasil estimasi jumlah produksi minyak kelapa sawit
+adapun langkah-langkah fuzzy inference system menentukan himpunan fuzzy, mencari nilai keanggotaan dan di gambarkan dengan kurva, menentukan himpunan operasi and, dan terakhir yaitu penalaran monoton
+7) hasil estimasi jumlah produksi minyak kelapa sawit dengan rule seleksi ciri: pada tahap ini adalah tahap terakhir yaitu diperolehnya hasil estimasi jumlah produksi minyak kelapa sawit dengan rule seleksi ciri menggunakan metode tsukamoto
+hasil dan pembahasan semua untuk kasus diatas terdapat 4 variabel, yaitu 3 variabel input dan 1 variabel output
+variabel input terdiri dari buah kelapa sawit dengan 3 nilai linguistik banyak, sedang, sedikit, sedangkan permintaan dengan 3 nilai linguistik naik, sedang, turun, dan persediaan dengan 3 nilai linguistik banyak, sedang, sedikit
+penyelesain dengan aturan monoton dan aturan seleksi ciri
+step 1 menentukan variabel yang berhubungan dengan kasus
+dengan fungsi min untuk mencari nilai z pada setiap aturannya
+perhitungan menggunakan aplikasi memasukkan data buah kelapa sawit, permintaan dan persediaan yang akan dilakukan estimasi jumlah produksinya
+berikut tampilan memasukkan data terlihat pada gambar 7
+perhitungan rule seleksi ciri hasil estimasi jumlah produksi dengan rule seleksi ciri terlihat pada gambar 9
+hasil estimasi jumlah produksi cpo kelapa sawit dapat disimpulkan bahwa hasil estimasi jumlah produksi crude palm oil menggunakan fuzzy tsukamoto dengan aturan yaitu seleksi ciri dengan buah kelapa sawit 36.415.100 kg, permintaan 7.139.620 liter dan persediaan 2.886.790 liter menghasilkan estimasi jumlah produksi crude palm oil sebanyak 15.052.830 liter
+kesimpulan estimasi jumlah produksi untuk membantu pihak perusahaan dalam memestimasi jumlah produksi minyak sawit berdasarkan variabel input buah kelapa sawit, permintaan dan persediaan serta variabel output jumlah produksi
+aturan yang digunakan dalam penelitian ini menggunakan aturan seleksi ciri
+berdasarkan basis aturan dengan menggunakan seleksi ciri hasil estimasi jumlah produksi minyak kelapa sawit dengan metode fuzzy tsukamoto sebagai bulan juni 2018 sebanyak 15.130.992 liter d
+hasil estimasi jumlah produksi minyak kelapa sawit yang dihasilkan dapat disimpulkan bahwa dengan aturan seleksi ciri hasilnya mendekati dengan dataset yang ada
+dengan klasifikasi sampel data benar yang didapatkan di aplikasi weka 96, 8254%, sehingga aturan seleksi ciri yang didapatkan dari weka dapat digunakan dalam penelitian ini

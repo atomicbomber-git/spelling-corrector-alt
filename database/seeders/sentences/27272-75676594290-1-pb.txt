@@ -1,0 +1,50 @@
+penelitian ini bertujuan untuk: menganalisis kebutuhan guru dijenjang sdn di kecamatan sungai kakap kabupaten kubu raya; dan merancang pemetaan kebutuhan guru di kecamatan sungai kakap kabupaten kubu raya menggunakan sistem informasi geografis 
+metode dalam penelitian ini menggunakan analisis deskriptif
+analisis deskriptif dilakukan dengan cara mengumpulkan dan menyusun data yang diperoleh melalui observasi dan wawancara
+pengumpulan dan penyusunan data melalui observasi dan wawancara ini dilakukan dengan menggunakan teknik triangulasi
+dalam penelitian ini, triangulasi digunakan untuk mendapatkan keakuratan data menggunakan berbagai cara, prosedur, dan metode agar data yang diperoleh dapat dipercaya kebenarannya
+beberapa macam triangulasi yang digunakan dalam penelitian ini adalah: data triangulation dan situational triangulation
+hasil penelitian ini: menunjukkan bahwa terdapat 1 sekolah yang membutuhkan 28 tenaga guru, diantaranya 1 kepala sekolah, 19 guru kelas, 3 guru penjaskes, 3 guru agama islam, 1 guru agama khatolik, dan 1 penjaga sekolah; dan informasi pemetaan kebutuhan guru menggunakan aplikasi arc view
+dalam aplikasi tersebut terdapat beberapa koordinat sdn yang memiliki informasi kebutuhuan, kekurangan, serta kelebihan guru dari seluruh sdn di sungai kakap kabupaten kubu raya
+salah satu unsur penting yang mempengaruhi kualitas pendidikan adalah tenaga pendidik
+tersebarnya tenaga pendidik diseluruh pelosok negeri menjadi salah satu fokus pemerintah dalam upaya meningkatkan kualitas pendidikan
+tenaga pendidik di kecamatan sungai kakap kabupaten kubu raya memiliki pemetaan yang tidak merata
+kecamatan sungai kakap kabupaten kubu raya merupakan daerah 3t karena daerah ini terletak jauh dari ibu kota yaitu kota pontianak
+oleh karena itu, melalui peraturan bersama menteri negara pendayagunaan aparatur negara dan reformasi birokrasi, menteri pendidikan nasional, menteri dalam negeri, menteri keuangan, dan menteri agama nomor 05/x/pb/2011, spb/03/m.pan- rb/10/2011, 48 tahun 2011, 158/pmk.01/2011, 11 tahun 2011 dibuatlah kebijakan tentang penataan dan pemerataan guru pegawai negeri sipil 
+kementerian pendidikan dan kebudayaan direktorat jenderal pendidikan dasar dan menengah mengemukakan bahwa di kecamatan sungai kakap kabupaten kubu raya terdapat 69 sekolah negeri
+berikut data jumlah sekolah dasar negeri, sekolah menengah pertama negeri, dan sekolah menengah atas negeri sederajat di kecamatan sungai kakap kabupaten kubu raya
+dengan data spasial dan koordinat geografis, maka upt pendidikan kecamatan sungai kakap dapat mengetahui sekolah-sekolah yang memiliki kekurangan guru
+upt pendidikan kecamatan sungai kakap akan merekomendasikan kepada dinas pendidikan kabupaten kubu raya untuk memenuhi kebutuhan guru sdn, smpn, dan sman/smkn yang sedang membutuhkan tenaga guru
+referensimenyatakan bahwa sig digunakan untuk menyimpan, memanipulasi, dan menampilkan informasi yang mengacu kepada data spasial sig digunakan untuk mendukung pengambilan keputusan dalam berbagai konteks pengelolaan lingkungan dan kesehatan di daerah kumuh di india
+salah satu sistem informasi yang ditawarkan untuk menjawab permasalahan terkait kebutuhan guru di kecamatan sungai kakap kabupaten kubu raya adalah sig
+sig merupakan suatu sistem informasi yang dirancang untuk bekerja dengan data yang bereferensi spasial atau berkoordinat geografis
+dengan penggunaan sig, pendataan kebutuhan guru dapat dilihat bersama letak geografis suatu daerah di kecamatan sungai kakap kabupaten kubu raya
+rumusan masalah berdasarkan latar belakang tersebut maka dirumuskan masalah yaitu: a
+bagaimanakan hasil analisis kebutuhan guru dijenjang sekolah dasar negeri di kecamatan sungai kakap kabupaten kubu raya? b
+bagaimanakah pemetaan kebutuhan guru di kecamatan sungai kakap kabupaten kubu raya menggunakan sistem informasi geografis ? 2
+tujuan penelitian tujuan penelitian ini adalah: a
+untuk menganalisis kebutuhan guru dijenjang sekolah dasar negeri di kecamatan sungai kakap kabupaten kubu raya
+untuk memberikan pemetaan kebutuhan guru di kecamatan sungai kakap kabupaten kubu rayamenggunakan sistem informasi geografis 
+daerah 3t daerah 3t merupakan daerah yang kurang mendapatkan perhatian dari pemerintah
+kondisi pendidikan di daerah 3t masih kurang memadai dari segi sarana dan prasarana serta dari jumlah guru yang mengajar di sekolah tersebut, sebagaimana dalam
+sedangkan menurut undang- undang pasal 31 ayat 1 menjelaskan bahwa setiap warga negara berhak mendapatkan pendidikan yang layak guna mendapatkan ilmu pengetahuan yang baik
+daerah kecamatan sungai kakap kabupaten kubu raya merupakan daerah 3t
+sekolah dasar negeri, sekolah menengah pertama negeri, dan sekolah menengah atas negeri /sekolah menengah kejuruan negeri di kecamatan sungai kakap kabupaten kubu raya memiliki rasio guru yang berbeda- beda
+berikut data rasio guru di kecamatan sungai kakap kabupaten kubu raya
+peraturan tentang pemetaan peraturan yang sesuai dengan pemetaan guru yaitu peraturan bersama menteri negara pendayagunaan aparatur negara dan reformasi birokrasi, menteri pendidikan nasional, menteri dalam negeri, menteri keuangan, dan menteri agama nomor 05/x/pb/2011, spb/03/m.pan-rb/10/2011, 48 tahun 2011, 158/pmk.01/2011, 11 tahun 2011tentang penataan dan pemerataan guru pegawai negeri sipil
+guru adalah pendidik profesional dengan tugas utama mendidik, mengajar, membimbing, mengarahkan, melatih, menilai, dan mengevaluasi peserta didik pada pendidikan anak usia dini jalur pendidikan formal, pendidikan dasar, dan pendidikan menengah
+pemetaan pemetaan yaitu sebuah tahapan yang harus dilakukan dalam pembuatan peta
+langkah awal yang dilakukan dalam pembuatan data, dilanjutkan dengan pengolahan data, dan penyajian dalam bentuk peta
+pemetaan transisi diskursif dalam sains sekolah dari tingkat dasar sampai tingkat menengah, sebagaimana dalam,
+dalam penelitian ini, buku teks sains sekolah dianggap sebagai sarana untuk mengatur wacana pedagogik masing- masing tingkat pendidikan yang digunakan dan sebagai cermin transisi pedagogik dalam pendidikan sains yang terjadi saat membentuk tingkat dasar ke tingkat menengah lebih rendah
+referensimengemukakan bahwa: terdapat 3 tahap proses pemetaan yang harus dilakukan yaitu: tahap pengumpulan data; tahap penyajian data; dan tahap penggunaan peta
+sistem informasi geografis referensimemungkinkan analisis data eksploratif dengan '' zoom and pan '' untuk menempatkan fitur fisik dalam konteks, '' memfokuskan dan menyikat '' untuk menyoroti subkategori data numerik, visualisasi dinamis, dan banyak gambar
+untuk mewakili perubahan dari waktu ke waktu, dan menghubungkan peta ke grafik, grafik, catatan lapangan, foto, atau audio
+menurut pendapat para ahli maka sistem informasi geografis atau geographic information system adalah suatu sistem informasi yang dirancang untuk bekerja dengan data yang bereferensi spasial atau berkoordinat geografi, atau dengan kata lain suatu sig adalah suatu sistem basis data dengan kemampuan khusus untuk menangani data yang bereferensi keruangan/spasial bersamaan dengan seperangkat operasi kerja
+prosedur yang digunakan untuk mengolah data
+informasi yang dibutuhkan dan diolah dalam aplikasi
+perangkat keras yang dibutuhkan untuk menjalankan sistem
+1 menunjukkan sig memiliki komponen- komponen dalam sebuah sistem yaitu: orang, aplikasi, data, software, dan hardware 
+kebutuhan guru kebutuhan guru merupakan refleksi terhadap tuntutan pemakai jasa profesional guru untuk memberikan pelayanan pendidikan terhadap peserta didik pada lembaga pendidikan pemakai guru yaitu sekolah, sebagaimana dalam
+kebutuhan guru guna memberikan pelayanan pendidikan harus memenuhi persyaratan tertentu untuk menjamin bahwa pelayanan yang dituntut sesuai dengan harapan penggunanya
+persyaratan yang diharapkan sangat penting karena penyelenggaraan pendidikan menuntut keahlian profesional guru yang tidak semua orang dapat memilikinya

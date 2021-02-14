@@ -1,0 +1,127 @@
+eee paper template in a4 vol 5 no 3 implementasi fuzzy dan dijkstra pada sistem pengangkutan sampah hilal nabil abdillah#1, andrian rakhmatsyah#2, aji gautama putrada #3 # fakultas teknik informatika, universitas telkom jl
+telekomunikasi no 1, dayeuhkolot, bandung, indonesia 1hilalnabila@student.telkomuniversity.ac.id 2kangandrian@telkomuniversity.ac.id 3ajigautama@telkomuniversity.ac.id penuh atau kosong, mengakibatkan petugas dalam pengangkutannya sering mengunjungi tempat sampah yang kosong dan terkadang petugas sering kembali ke tempat yang kosong tersebut
+tempat sampah yang ada di daerah perumahan buah batu merupakan tempat sampah yang dibuat di depan rumah dengan bentuk kubus berdiameter sekitar 60cm x 60cm disertai penutup tempat sampah
+dari permasalahan tersebut dibutuhkan smart monitoring yang dapat menunjukan tempat sampah yang isinya dapat diangkut oleh petugas
+sistem monitoring ini menggunakan sensor ultrasonik dengan output nilai ketinggian sampah dan sensor loadcell dengan ouput nilai berat sampah, dimana nilai output sensor merupakan nilai input untuk fuzzy, setelah sistem diteruskan dengan sistem dijkstra
+fuzzy menghasilkan nilai keputusan dari output sensor, hasil fuzzy menjadi penentu tempat sampah mana yang diangkut, jika hasil fuzzy lebih dari satu tempat sampah berstatus ‘angkut’ dengan nilai berkisar dari 50 - 100, maka node tersebut membentuk sebuah graph
+dalam pengangkutannya menggunakan dijkstra untuk semua node yang ada
+sistem terus mengulangi proses pembaruan nilai dan membandingkannya sampai seluruh node selesai
+sehingga sistem mengeluarkan hasil bobot semua node pada graph, berdasarkan nilai bobot yang dihasilkan dibuat list untuk menentukan jalur pengangkutan sampah
+pengujian ini dilakukan hanya dengan menggunakan 5 titik tempat sampah atau disebut juga node yang ada di perumaha buah batu sebagai sampel percobaan, node yang dipilih merupakan area penduduk terbanyak di daerah perumahan tersebut
+dalam pengujian pada penelitian ini menghasilkan graph yang dibentuk berdasarkan hasil fuzzy yang berstatus ‘angkut’ berjumlah semua node, rute yang dibentuk gerbang – g – i – h – e – c dengan jarak sejauh 1096 meter dan hasil graph yang dibentuk hanya dengan tiga node yakni node c, node i dan node e menghasilkan rute gerbang – c – e – h dengan jarak 961
+pendahuluan berbagai sifat seperti organik, anorganik dan b3 yang sudah tidak terpakai dan harus dikelola lagi
+sampah organik lebih baik dikelola secara ilmiah agar menghasilkan biogas yang bermanfaat bagi kehidupan, sedangkan untuk pengelolan sampah yang lain lebih baik dikelola dengan proses pembuangan yang efektif, bagaimana sampah tersebut bisa diangkut secara efisien menujut tempat pembuangan akhir 
+pengelolan sampah masih menjadi salah satu masalah umum yang terjadi dibanyak tempat termasuk di kawasan perumahan buah batu 
+masalah terjadi ketika sampah tertimbun ditempat sampah masing-masing atau pada metode pengangkutan yang dilakukan oleh petugas
+pengambilan sampah yang dilakukan di kawasan perumahan buah batu menggunakan mobil pick up terjadwal yang berasal dari pemerintahan daerah dan mengunjungi setiap rumah dengan petugas yang berbeda- beda tanpa adanya panduan
+isi sampah pada tempat sampah yang bersifat tidak menentu mengakibatkan pengangkutan sampah yang dilakukan menjadi tidak efektif
+strategi untuk penanggulanan sampah sesuai dengan penjelasan pada penelitian
+sistem monitoring pengangkutan sampah dengan memasang sensor di tempat sampah yang dapat dipantau menggunakan sensor loadcell dan sensor ultrasonik
+hasil dari pembacaan sensor diolah menggunakan sistem fuzzy
+pada penelitianmenjelaskan logika fuzzy adalah metodologi penyelesaian masalah menggunakan sistem kontrol yang implementasinya bisa diterapkan pada sistem yang sederhana sampai sistem yang lebih rumit
+hasil fuzzy membentuk graph, menggunakan algoritma dijkstra menentukan rute untuk pengangkutan, sehingga petugas mengetahui tempat sampah mana yang dapat diangkut
+dalam penelitian yang dilakukan dibatasi hanya dengan menggunakan lima node yang dipasang sensor dan satu node sebagai node awal node adalah tempat sampah yang merepresentasikan area suatu blok yang dipasang sensor untuk membaca tingkat ketinggian sampah dan berat sampah, node tersebut yakni di area c, e, g, h, i dan satu node awal sebagai gerbang, seperti pada gambar 1
+tinjauan pustaka smart city using iot, saranya.l, dkk melakukan penelitian untuk memonitoring tempat sampah dengan menggunakan mq sensor, ir sensor dan dc sensor
+data yang berhasil dibaca oleh sensor akan dikirimkan ke thingspeak dan ditampilkan melalui perangkat handphone pemilik rumah, pengiriman data melalui arduino dengan ditambah modul esp8266
+ketika sampah sudah mencapai batas yang ditentukan, buzzer berbunyi sebagai alarm
+penelitian yang dilakukan berfokus hanya pada monitoring pemilik tempat sampah, dengan data yang diperoleh dari thingspeak lalu dibaca melalui android dan akan berbunyi alarm ketika sudah pada batas yang ditentukan, sehingga pemilik tempat sampah bisa dengan mudah memonitoring tempat sampahnya
+pada penelitian ini diharapkan tempat sampah dapat secara otomatis terbuka dan tertutup ketika membuang sampah dan bisa mengeluarkan air untuk membersihkan tempat sampahnya ketika tempatnya kosong sebagai penelitian selanjutnya
+, melakukan penelitian dengan tempat sampah dipisah berdasarkan jenis sampahnya yakni jenis botol, jenis kaca, jenis biomaterial, jenis kertas dan jenis plastik
+tempat sampah tersebut masing-masing dipasang dengan sensor ultrasonic dan lampu led
+dalam penelitiandijelaskan cara kerja sensor ultrasonic sebagai pembacaan tingkat ketinggian dengan cara mengirimkan gelombang yang dipantulkan kembali ketika gelombang itu mencapai target lampu sebagai penanda dari suatu status sampah, jika tempat sampahnya kosong maka led berwarna hijau, jika penuh berwarna merah
+data sensor beserta alamat tempat sampah dikirim kepada admin kantor petugas sampah menggunakan modul wifi untuk diangkut
+pengangkutan dilakukan berdasarkan alamat yang dikirim
+bedhi, melakukan penelitian membangun sistem monitoring sampah dengan membuat tempat sampah pintar dengan memasang sensor ultrasonic
+data sensor dikirim menggunakan modul wifi ke cloud untuk diproses, hasil data diakses oleh pihak berwenang untuk memonitoring kota secara realtime, penelitian ini bertujuan untuk efisiensi bahan bakar, waktu kerja dan biaya
+peneliti berharap penggunaan energi solar panel sebagai power supply bisa digunakan untuk efisiensi sumber tenaga
+tetapi penelitian ini tidak menjelaskan secara detail mengenai pengangkutannya hanya dijelaskan pembuatan tempat sampahnya
+menggunakan multi node sensor berbasis machine-to- machineoleh d
+prabowo, pengelolaan sampah dibangun dengan sistem penanganan sampah menggunkan sensor ultrasonic yang dipasang pada setiap tempat sampah, komunikasi machine-to-machine menggunakan openmtc openmtc dengan mengambil data untuk diproses dengan metode tsp sehingga petugas dipandu menuju tps 
+sistem ini dapat menangani sampah hingga dua kali lipat daripada penggunaan sistem konvensional untuk penelitian selanjutnya peneliti berharap pemasangan sensor pada sopir sehingga tidak perlu secara manual memasukan nilai persen sampah
+seperti pada penjelasan, penentuan jarak atau rute dengan menggunakan suatu metode tertentu seperti dijkstra atau tsp tanpa adanya pertimbangan lain dalam penentuan jalur memang akan menghasilkan nilai yang pasti secara matematis tetapi itu bukan suatu hal yang benar-benar optimal karena ada kondisi lain
+nugroho, menggunakan gabungan fuzzy dan genetika untuk pencarian jalur tercepat
+fuzzy sebagai proses mengeluarkan nilai dari keadaan yang samar akan digabungkan dengan genetika sebagai algoritma evolusi yang bisa membentuk nilai dari masalah optimasi dipakai sebagai dasar dari parameter untuk pencarian jalur
+fuzzy menggunakan data panjang jalan dan data kepadatan jalan sebagai variablenya
+dengan adanya parameter ini nilai yang didapat akan lebih dinamis dan menghasilkan jalur yang berbeda-beda setiap saat
+pada penelitiannya dijelasakan penggabungan algoritma fuzzy-dijkstra
+muslim, menggunakan variable kepadatan jalan dan panjang jalan dalam penyelesaian fuzzy
+hasil fuzzy akan diproses menggunakan dijkstra untuk menghasilkan jalur tercepat dari satu sumber ke satu tujuan
+pada penlitianmenjelaskan mengenai dijkstra, peningkatan dari sistem dijkstra adalah untuk mempertahankan node yang telah diperbarui nilainya, sehingga node diurutkan berdasarkan nilai jarak
+variable fuzzy dapat dimasukan parameter lain seperti volume jalan, tingkat kerusakan jalan atau kecepeatan dari kendaraan sebagai parameter lain untuk proses fuzzy
+joshi, melakukan penelitian dengan membandingkan antara algoritma dijkstra, bellmand-ford dan johnson, akhirnya penelitian ini mempunyai kesimpulan bahwa algoritma dijkstra adalah algoritma terbaik untuk memanipulasi jalur terpendek pada jaringan jalan dengan parameter jarrak antar kota
+menggunakan algoritma dijkstra untuk menemukan jalur yang berbeda antara pasangan tujuan dan kemudian menentukan efisiensi masing-masing jalur
+ini berjalan secara rekursif sampai mencakup semua tujuan, termasuk kembali ke lokasi awal dengan itu, algoritma menciptakan jalur yang efisien melalui semua tujuan
+das menggunakan dijkstra dengan sedikit modifikasi agar bisa mengunjungi node tujuan dengan melewati node lain
+pada proses pertama dari iterasi, tujuan awal adalah tujuan awal yang asli
+dalam lintasan berikutnya diubah tujuan awal, sehingga propagasi perbatasan dimulai dari tujuan awal yang baru
+pada langkah ini, akan menemukan jalur terpendek dari tujuan awal ke semua tujuan lainnya
+pada akhir perhitungan, akan memiliki banyak jalur alternatif yang membawa pengunjung dari tujuan awal ke semua tujuan lainnya
+petugas sampah yang bertugas di kawasan perumahan buah batu dilakukan oleh petugas yang sama pada setiap harinya, mesikpun ada perubahan petugas yang dilakukan itu sangat jarang sekali dilakukan
+hasil wawancara yaitu pengangkutan yang dilakukan masih terjadwal dan petugas dalam pengangkutan masih belum mempunyai panduan
+oleh sebab itu untuk memberikan solusi dari masalah tersebut, pada tempat sampah dipasang sensor ultrasonic dan sensor loadcell sebagai masukan data yang dibaca oleh nodemcu, sensor ultrasonic untuk membaca ketinggian sampah dan loadcell untuk membaca kapasitas berat sampah
+sensor ultrasonic dipasang dibagian penutup tempat sampah dan sensor loadcell dipasang didasar tempat sampah dengan ditambahkan papan piringan sebagai penyangga sensor, pada penelitianmenjelaskan bahwa modul hx711 ad sebagai modul tambahan pada loadcell, modul ini berguna untuk mengubah nilai yang dihasilkan oleh sensor loadcell dalam bentuk tegangan yang kecil ke bentuk analog
+pada penelitian ini sistem terdiri dari pembacaan sensor ultrasonic dan loadcell pada setiap node yang diteruskan dengan pengolahan sistem fuzzy dan proses sistem pencarian rute yang menggunakan dijkstra
+seperti pada gambar 2 menjelaskan tentang sistem pada penelitian ini
+pada nodemcu sudah dipasang sistem fuzzy untuk memproses data masukan sensor
+nodemcu merupakan mikronkontroller yang sudah terpasang wifi
+sistem fuzzy diawali dengan proses fuzzyfikasi, memasukan variabel numerik kedalam fungsi keanggotaan menjadi variable linguistik 
+pada penelitianmenjelaskan dalam menentukan fungsi keanggotaan yang menunjukan posisi titik dari input sensor ke dalam nilai keanggotaan dapat menggunakan pendekatan fungsi dengan beberapa jenis bentuk
+bentuknya yakni segitiga, trapesium, singleton, sigmoid, gaussian adalah beberapa bentuk fungsi yang dapat dipilih untuk memetakan nilai linguistik
+dalam penelitian ini dipakai bentuk fungsi segitiga dan trapesium
+bentuk segitiga merupakan gabungan dari 2 garis lurus fungsi linear naik dan turun yang memiliki satu titik nilai keanggotaan 1
+pemilihan bentuk fungsi tidak ada ketentuan dalam memilihnya tetapi semakin banyak nilai keanggotaan linguistik yang dibentuk maka tingkat ketelitian fuzzy semakin tinggi
+pada gambar 3 dengan nilai linguistik yang digunakan ‘sangat penuh’, ‘penuh’, ‘sedang’, ‘sedikit’ dan ‘sangat sedikit’ untuk data sensor ultrasonic dengan bentuk trapesium dan segitiga dengan nilai range 1-45 dengan ketinggian tempat sampah sekitar 48 cm
+pada gambar 4 berat sampah hanya terdapat tiga linguistik yang digunakan yaitu ‘ringan’, ‘normal’ dan ‘berat’ bentuk trapesium dan segitiga dengan nilai range 1-2000 dalam satuan gram
+nilai yang dibaca sensor dan diterima nodemcu dimasukan dan dihitung kedalam fungsi keanggotaan dari masing-masing fungsi yang telah dibangun
+untuk perhitungan fungsi pada fuzzyfikasi sebagai berikut : keanggotaan maka akan dimasukan pada aturan-aturan proses impilikasi dan agregasi, proses implikasi bertujuan untuk mendapatkan nilai berdasarkan aturan yang dibangun, fungsi yang digunakan adalah min
+proses agregasi bertujuan untuk menghasilkan fuzzy set tunggal dari kombinasi keluaran hasil aturan implikasi
+hasil dari proses implikasi dan agregasi diproses oleh fungsi deffuzyfikasi
+centroid atau centre of area digunakan untuk memperoleh solusi perhitungan pusat gravitasi dari daerah agregasi
+centroid ini menggabungkan semua daerah yang dihasilkan dari proses sebelumnya untuk mendapatkan bentuk hasil yang optimal dan mengambil titik pusat daerah fuzzy
+pada penelitiandefuzzyfikasi adalah mengubah fuzzy output menjadi nilai pasti berdasarkan fungsi keanggotaan yang telah ditentukan dengan output suatu himpunan fuzzy dalam range yang ditentukan
+proses ini menggunakan fungsi trapesium mempunyai nilai range 1-100 menggunakan 2 variable ‘biasa’ kurang dari 50 dan ‘angkut lebih dari sama dengan 50
+5 himpunan linguistik defuzifikasi mamdani nilai fuzzy yang dihasilkan memiliki sebuah kondisi, jika kondisi dari node itu ‘biasa’ berarti tempat sampah pada waktu itu belum layak untuk diangkut karena masih sangat sedikit atau kosong, untuk kondisi ‘angkut’ maka node tersebut siap untuk diangkut dikarenakan berat dan tinggi sampah yang sudah layak untuk diangkut
+nilai fuzzy yang dikeluarkan dikirim ke google firebase dengan menggunakan modul wifi yang terpasang pada nodemcu
+pengiriman dilakukan dengan cara nodemcu mengakses alamat host dan key project dari akun google firebase tujuan
+firebase menerima nilai fuzzy dari semua node tempat sampah, jadi pada firebase terdapat list nilai fuzzy dari node c, node g, node e, node h dan node i
+data dari firebase yang berupa list hasil fuzzy dari kelima node tempat sampah dihubungkan dengan aplikasi andorid dengan tujuan list nilai yang terdapat pada firebase dapat ditampilkan melalui aplikasi
+tujuan lain dari menghubungkannya dengan aplikasi android adalah untuk membentuk graph dan proses dijkstra
+pembentukan graph dihasilkan dari jumlah node tempat sampah fuzzy yang bernilai lebih dari 50
+jadi fuzzy yang bernilai lebih dari 50 jika berjumlah lebih dari 2 node tempat sampah maka sistem akan membentuk sebuah graph lalu sistem akan mencari jalur pengangkutan menggunakan proses dijkstra
+tetapi jika hanya jumlah node tempat sampah yang bernilai fuzzy lebih dari 50 hanya 1 node, maka sistem akan langsung mengangkut sampah dengan tujuan node tersebut
+pencarian jalur dilakukan melalui proses shortest path menggunakan dijkstra dengan node awal atau root mencari nilai minimum edge dari masing-masing node tetangganya
+edge pada graph ini adalah jarak antara node ke node nilainya didapat dari pengukuran yang dilakukan melalui google maps, bobot adalah nilai yang didapat dari hasil perhitungan pencarian jalur dari proses dijkstra dan root adalah node yang menjadi inisialisasi pertama dalam proses dijkstra
+setelah menemukan nilai minimum tersebut maka node yang dipilih yang mengandung nilai minimum menjadi root baru untuk melakukan iterasi seperti sebelumnya
+iterasi perhitungan akan terus diulang sampai semua node pada graph yang dihasilkan oleh nilai fuzzy semuanya terlewati, seperti pada penjelasaniterasi jarak antara node awal ke node yang lainnya dihitung secara bergantian dan dibandingkan oleh algoritma dijkstra
+dalam mendapatkan nilai sensor dilakukan setiap sebelum waktu pengangkutan di pagi hari
+tujuannya adalah agar pengangkutan sampah yang dilakukan petugas secara real time dan tempat sampah yang dikunjungi petugas tepat sasaran
+nilai dari pembacaan data sensor tersebut di proses menggunakan fuzzy pada nodemcu
+hasil fuzzy tersebut menentukan jumlah node yang akan diangkut oleh petugas
+masing-masing node berstatus ‘angkut’, karena nilai fuzzy yang dihasilkan dengan status ‘angkut’ semua node atau berjumlah lima node, maka pencarian rute dilakukan akan diproses dengan graph yang dibangun berjumlah lima node ditambah satu node gerbang
+pencarian rute dimulai dari node gerbang sebagai root
+root pada graph akan mencari nilai yang paling minimum diantara node tetangganya yang terhubung
+setelah sistem mendapatkan nilai yang minimum maka node yang dipilih akan disimpan pada adjency list dan node tersebut akan dijadikan sebagai root yang baru
+root yang baru tersebut akan membandingkan lagi nilai minimum dari node tetangganya, nilai yang terkandung pada node yang telah dihitung oleh root yang paling awal akan hilang dan nilai tersebut digantikan dengan nilai yang baru berdasarkan iterasi yang dilakukan oleh root yang baru
+sistem akan terus melakukan pembaruan adjency list sampai semua node terlewati
+tabel ii =1096 – g – i – h – e – c minimum dari perbandingan yang dilakukan oleh suatu root maka akan masuk ke list, dan nilai dari edge root baru tersebut akan bertambah dengan nilai root sebelumnya
+pembaruan dari proses tersebut akan terus belanjut sampai berhenti ketika semua node sudah selesai dikunjugi sehingga membuat sebuah rute pengangkutan yang jaraknya paling minimum dengan mengunjugi semua node yang ada, dari hasil percobaan dengan node yang berstatus ‘angkut’ berjumlah lima node menghasilkan rute gerbang – g – i – h – e – c dengan jarak sejauh 1096 meter
+berdasarkan hasil tabel 2 graph terbentuk dari node fuzzy yang berstatus ‘angkut’ berjumlah lima
+gerbang menjadi root dan membandingkan nilai edge dari node tetangganya node c, node e, node g dan node i menghasilkan node g sebagai root yang baru karena nilai edge pada node g memiliki nilai yang paling minimum diantara node tetangga dari root, untuk jalur terdapat pada gambar 6, dengan adanya rute dan estimasi jarak ini, petugas sangat dimudahkan dan estimasi waktu, tenaga dan jarak bisa terlihat
+berbeda pada sistem sebelumnya yang dipakai dalam pengangkutan, dimana petugas hanya menggunakan intuisinya untuk mengangkut sampah- sampah yang tersebar di daerah perumahan tanpa mengetahui kondisi apakah tempat sampah itu berisi atau kosong mengakibatkan estimasi jarak, tenaga dan waktu sangat sulit untuk ditentukan
+fuzzy yang berstatus ‘angkut’ berjumlah tiga node, graph sesuai dengan gambar 7
+7 graph dengan jumlah status angkut tiga node perhitungan pencarian rute sama dengan pencarian pada proses perhitungan graph yang berjumlah lima node yang berstatus ‘angkut’, hasil pencarian rute dari gambar
+8 menghasilkan rute gerbang – c – e – h dengan jarak 961 meter, untuk perhitungan terdapat pada tabel 3
+table iii node e 448+183 =631 gerbang – c – e node h 631+330 oleh setiap node
+jika kelima node berstatus ‘angkut’ maka graph yang dibangun juga lebih kompleks, berbeda dengan jika hanya ada kurang dari 3 node yang berstatus ‘angkut’ maka graph yang dibangun sangat sederhana
+ketika pada saat kondisi node yang berstatus ‘angkut’ hanya ada satu maka node langsung terhubung dengan node tujuan
+kesimpulan menghasilkan keputusan jumlah node yang diangkut dan membentuk graph untuk pencarian jalur pengangkutan sampah
+jumlah node yang diputuskan untuk pembentukan graph jika hasil fuzzy berstatus ‘angkut’ atau bernilai lebih dari sama dengan 50
+pencarian jalur dengan proses shortest path menggunakan dijkstra untuk mencari jalur pengankutan dengan jarak yang paling minimum dan menelusuri semua node yang layak diangkut
+sistem menghasilkan jalur yang paling minimum dengan node sampah bersatatus ‘angkut’
+hasil dari penelitian ini menghasilkan status sampah yang dinamis karena parameter yang digunakan nilainya bisa berubah sesuai kondisi
+jalur yang dihasilkan juga sangat sesuai dengan keadaan tempat sampah sehingga pengangkutan bisa tepat sasaran
+jalur tersebut menjadi panduan bagi petugas sampah dalam pengangkutannya dengan mengunjungi kesemua node yang layak diangkut, dibandingkan dengan pengangkutan sampah sebelumnya yang mengunjungi keseluruh tempat sampah, ini akan menghemat tenaga, biaya dan waktu petugas sampah
+sistem ini belum diterapkan sehingga tingkat kepuasan dari pandangan pemilik rumah belum diketahui karena jika sampah yang statusnya ‘biasa’ yang belum layak diangkut mengandung bau yang sangat tidak sedap akan sangat mengaggu kenyamanan pemilik rumah
+untuk penelitian kedepan diharapkan sistem ini bisa diterapkan secara nyata di kawasan perumahan buah batu 
+variable yang digunakan pada fuzzy juga bisa ditambah seperti variable suhu, kelembabapan dan indikator bau sampah serta pemakaian gps sebagai pemandu ke tempat tujuan
+segenap sivitas pbb bapak ketua rt, petugas sampah dan satpam yang bertugas yang sudah membantu dalam pengumpulan informasi

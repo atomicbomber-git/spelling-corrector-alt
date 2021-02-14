@@ -1,0 +1,125 @@
+istana kadriah adalah istana kesultanan pontianak yang dibangun pada tahun 1771 sampai 1778 masehi
+sebagai cikal-bakal lahirnya kota pontianak, istana kadriah merupakan salah satu daya tarik wisata di kota pontianak yang banyak di kunjungi wisatawan dari dalam maupun luar daerah bahkan luar negeri
+istana kadriah dijadikan museum yang dibuka untuk umum, dengan tujuan memberi kan pengetahuan sejarah pada generasi saat ini, maka dibutuhkan sebuah media untuk menyebarkan informasi kepada masyarakat dalam maupun luar pontianak
+media informasi dapat meningkatkan daya tarik pengunjung agar berkunjung ke istana kadriah
+aplikasi virtual tour menggunakan voice guidance yang dikembangkan sehingga mampu memberikan informasi terkait kondisi tempat istana kadriah
+aplikasi dibangun berbasis website sehingga dapat diakses oleh semua orang.tujuan dari aplikasi ini adalah untuk membantu pengunjung dalam memperoleh informasi mengenai tempat wisata di istana kadriah dan membangkit kan lagi wisata sejarah yang di kota pontianak
+perancangan aplikasi ini menggunakan mdlc yang terdiri dari 6 tahap, yaitu concept, design, material collecting, assembly, testing, dan distribution
+aplikasi berjalan dengan baik dan bebas kesalahan berdasarkan pengujian black box, dan dinilai layak dengan hasil persentase 90, 17% berdasarkan pengujian aspek usability
+tampilan aplikasi dapat ditampilkan dengan baik melalui desktop berdasarkan pengujian portability
+berdasarkan hasil pengujian, dapat disimpulkan bahwa aplikasi ini layak diimplementasikan
+pendahuluan istana kadriah adalah istana kesultanan pontianak yang dibangun pada tahun 1771 sampai 1778 masehi
+sayyid syarif abdurrahman alkadri adalah sultan pertama yang mendiami istana tersebut
+istana ini berada di dekat pusat kota pontianak, kalimantan barat
+sebagai cikal-bakal lahirnya kota pontianak, istana kadriah menjadi salah satu objek wisata sejarah
+dalam perkembanganya, istana ini terus mengalami proses renovasi dan rekrontuksi hingga menjadi bentuk yang sekarang ini
+media informasi yang tepat memiliki peran penting dalam menyebar luas kan informasi suatu tempat wisata
+selain untuk menyampaikan informasi, media informasi juga dapat digunakan untuk meningkatkan daya tarik wisatawan
+penerapan teknologi merupakan salah satu cara yang paling banyak digunakan, salah satunya adalah dengan membangun website
+aplikasi virtual tour menggunakan voice guidance yang akan dibangun merupakan simulasi dari lingkungan yang lebih nyata dan memuat kumpulan foto panorama 360° x 180° dan terdapat pemandu suara yang dapat memberikan informasi layak nya pemandu wisata yang dapat diakses secara online melalui website
+hasil gambar yang ditampilkan berupa kumpulan foto yang diambil secara berputar 360° dan tidak terpotong
+selain itu, virtual tour menggunakan voice guidance juga dapat dilengkapi dengan narasi, teks, dan suara
+terdapat beberapa penelitian yang di lakukan berkaitan dengan aplikasi virtual tour, diantaranya aplikasi virtual tour pada ruang pelayanan rsud dr soedarso pontianak yang menggunakan metode pengujian black box dan uat, dan rancang bangun aplikasi virtual tour lokasi rekreasi dan hiburan keluarga di pontianak dengan metode pengujian menggunakan black box, usability dan portability
+melalui aplikasi virtual tour pengunjung dapat melihat lingkungan yang ada secara lebih nyata, melalui dunia maya
+oleh karena itu, diharapkan aplikasi virtual tour menggunakan voice guidance istana kadriah berbasis website ini, dapat menjadi media informasi wisata sejarah untuk meningkatkan daya tarik wisatawan
+uraian penelitian multimedia merupakan kombinasi teks, gambar, seni grafis, suara, animasi, dan elemen-elemen video yang dimanipulasi secara digital meskipun definisi multimedia sangat sederhana, cara untuk menjalankannya sangat kompleks
+tidak cukup pemahaman tentang bagaimana setiap elemen multimedia dibuat dan bergerak
+namun juga diperlukan pengetahuan tentang bagaimana cara menggunakan piranti dan teknologi komputer multimedia untuk menggabungkan semua elemen bersama-sama
+aplikasi multimedia dapat digunakan diberbagai bidang, salah satunya dalam bidang publishing
+banyak informasi dapat dipublikasikan secara elektronik dan tersedia untuk pemakai
+biaya membuat dan mendistribusikan sebuah dokumen lebih rendah daripada menggunakan metode tradisional berupa cetakan
+dengan multimedia, dokumen dapat dikelola, diperbaharui dan dipelihara lebih mudah dan lebih murah
+dengan menggunakan multimedia untuk public, banyak langkah lanjutan yang diperlukan dalam proses produksi dokumen berbasis kertas bias dikurangi
+dibandingkan materi cetak, publikasi multimedia dapat memberikan nilai tambah bagi pemakai, lebih dapat tersedia pada setiap waktu dan setiap tempat, interaktif, transparan dengan menggunakan hyperlink dan format multimedia
+keunggulan puncak dari internet sebagai media publikasi online adalah dengan menyediakan infrastruktur pengiriman dokumen elektronik tanpa harus membuat infrastruktur wan pendukung
+foto panorama foto panorama adalah penggabungan beberapa foto yang tumpang tindih dengan tujuan untuk mendapatkan foto yang lebar dan mencakupi pemandangan yang luas
+foto panorama mampu mempresentasikan objek yang luas bahkan hingga 360°
+jenis foto panorama yang digunakan pada penelitian ini adalah panorama equirectangular yang merupakan proyeksi bidang panorama yang dapat dilihat dengan sudut pandang 360° x 180° sehingga seluruh arah dapat dimasukkan ke dalam foto
+gambar 1 panorama equirectangular virtual tour adalah sebuah simulasi dari suatu lingkungan nyata, biasanya terdiri dari kumpulan foto-foto panorama, kumpulan gambar yang terhubung oleh hyperlink, ataupun video, atau virtual model dari lokasi yang sebenarnya, serta dapat menggabungkan unsur-unsur multimedia lainnya seperti efek suara, gambar, dan tulisan
+istilah virtual tour atau panoramic tour sering digunakan untuk menggambarkan berbagai macam video dan media berbasis fotografi
+kata mengindikasikan sebuah pandangan yang tidak terputus
+karena panorama bisa berupa sekumpulan foto memanjang ataupun hasil pengambilan video yang kameranya dapat berputar/bergeser
+tetapi istilah paling sering diasosiasikan dengan istilah virtual tour yang diciptakan dengan foto yang tidak bergerak
+virtual tour ini dibuat dari sejumlah foto yang diambil dari sebuah titik pivot
+suatu titik yang tepat berada pada bagian belakang lensadimana cahaya berkumpul
+kamera dan lensa dirotasi berdasarkan apa yang disebut 
+virtual tour digunakan untuk memudahkan user dalam melihat suatu lingkungan tanpa harus secara fisik melakukan perjalanan ke lokasi tersebut
+saat ini berbagai industri sudah menggunakan teknologi ini untuk membantu pemasaran jasa dan produk
+dalam penggunaannya, virtual tour diharuskan berbasis web sehingga dapat diakses dimana saja dan kapan saja
+selain itu, virtual tour yang kaya dan bermanfaat bukan hanya sekedar serangkaian gambar panorama saja
+sebuah pengalaman lebih baik dapat diperoleh dengan menampilkan beragam material seperti video, teks, dan gambar diam dalam sebuah konten web interaktif
+virtual tour saat ini banyak digunakan dalam industri properti, pengenalan tempat wisata, pengenalan kampus, dan lain-lain
+adalah salah satu pengembang dan pemasar perangkat lunak virtual tour terkemuka di dunia
+easypano telah menembus pasar global melalui distribusi internet yang maju dan kemitraan strategis dengan produsen dan pengembang
+easypano didirikan pada bulan november 2001, di shanghai, china
+hingga oktober 2013, easypano telah memiliki lebih dari 30.000 pelanggan dari 180 negara
+solusi tur virtualnya telah diterima di seluruh dunia dan banyak digunakan di hampir setiap industry
+dalam membuat virtual tour, easypano menyediakan 2 perangkat lunak yang dapat digunakan dalam pembuatan aplikasi virtual tour, yaitu panoweaver dan tourweaver
+panoweaver adalah perangkat lunak yang digunakan untuk membuat gambar panorama
+sedangkan tourweaver adalah perangkat lunak untuk membuat virtual tour yang berisikan kumpulan gambar panorama
+selain itu, tourweaver dapat pula ditambahkan suara, video, lokasi dan berbagai fitur lainnya untuk membuat virtual tour
+multimedia development life cycle multimedia development life cycle atau yang disingkat mdlc adalah metode perancangan aplikasi multimedia
+metodologi pengembangan multimedia terdiri dari 6 tahap, yaitu concept, design, material collecting, assembly, testing, dan distribution
+keenam tahap ini tidak harus berurutan dalam praktiknya, tahap-tahap tersebut dapat saling bertukat posisi
+meskipun begitu, tahap concept harus menjadi hal yang pertama kali dikerjakan
+concept tahap concept adalah tahap untuk menentukan tujuan dan siapa pengguna program 
+design design adalah tahap pembuatan spesifikasi mengenai arsitektur program, gaya, tampilan, dan kebutuhan material/bahan untuk program
+material collecting material collecting adalah tahap pengumpulan bahan yang sesuai dengan kebutuhan yang dikerjakan
+assembly tahap assembly adalah tahap pembuatan semua objek atau bahan multimedia
+testing tahap testing dilakukan setelah menyelesaikan tahap assembly dengan menjalankan aplikasi dan melihatnya apakah ada kesalahan atau tidak
+distribution pada tahap ini, aplikasi akan didistribusikan ke pengguna akhir
+metodologi penelitian gambar 2 diagram alir penelitian metode pengembangan aplikasi yang digunakan dalam penelitian ini adalah multimedia development life cycle
+mdlc digunakan sebagai perancangan aplikasi yang akan dibangun
+mdlc terdiri dari 6 tahap, yaitu concept, design, material collecting, assembly, testing, dan distribution
+concept aplikasi virtual tour menggunakan voice guidance yang akan dibangun merupakan sebuah perangkat lunak berbasis website
+aplikasi dibangun secara dinamis, sehingga pengguna dari aplikasi terdiri dari 2 pengguna, yaitu pengunjung website dan pengelola website 
+adapun tujuan dari aplikasi ini adalah sebagai alat bantu bagi pengunjung website untuk lebih mengenal wisata sejarah
+untuk memanajemen website, akan dibangun admin panel untuk memudahkan pengelola website dalam mengatur informasi yang akan ditampilkan pada halaman user
+untuk mengakses halaman admin panel dibutuhkan hak akses 
+sementara untuk halaman user dapat dikunjungi semua pengguna yang mengakses halaman website selama memiliki koneksi internet pada halaman utama user berisikan menu tentang yang telah dibuat dalam bentuk teks dan gambar untuk melihat foto dan informasi tentang istana kadriah, serta ada menu virtual tour untuk mengarahkan pengunjung ke halaman virtual tour
+virtual vour yang dimuat menampilkan foto panorama dengan sudut pandang 360° x 180° berfungsi untuk menampilkan lokasi dari istana kadriah
+design perancangan aplikasi dengan melakukan desain terhadap aplikasi yang akan dibuat agar aplikasi berjalan sesuai kebutuhan pengguna
+perancangan arsitektur sistem arsiterktur sistem adalah gambaran garis besar cara kerja sistem yang digambarkan melalui model-model yang saling berhubungan
+arsitektur sistem menjelaskan komponen- komponen yang terdapat pada system
+perancangan antarmuka perancangan antarmuka menggambarkan tentang tampilan dari aplikasi yang dibangun
+struktur antarmuka halaman depan gambar 4 struktur antarmuka halaman depan b
+struktur antarmuka halaman admin panel gambar 5 struktur antarmuka halaman admin panel c
+material collecting bahan utama yang dibutuhkan dalam penelitian ini adalah foto panorama di tiap lokasi rekreasi yang dibagi menjadi beberapa titik untuk mewakili area lokasi penelitian
+bahan lain yang dibutuhkan adalah informasi umum terkait tempat rekreasi seperti alamat lokasi rekreasi
+foto panorama diambil dengan kamera dslr menggunakan lensa fisheye, serta tripod sebagai kaki kamera
+teknik pengambilan gambar dilakukan dengan 6 kali pengambilan gambar di tiap titik
+gambar yang diambil adalah 4 gambar horizontal, 2 gambar vertikal pengambilan gambar horizontal dilakukan dari sisi depan, kanan, belakang, dan kiri 
+sedangkan gambar vertikal dilakukan dari sisi atas dan bawah 
+gambar lantai tambahan dilakukan seperti mengambil gambar vertikal sisi bawah, namun pengambilan gambar tidak dilakukan menggunakan bantuan tripod
+gambar 6 foto ke-6 sisi tiap titik iv
+hasil dan analisis pembuatan virtual tour dilakukan dengan menggabungkan gambar tiap titik pada lokasi rekreasi untuk dijadikan gambar panorama
+pembuatan gambar panorama menggunakan aplikasi panoweaver
+setelah gambar panorama siap, gambar- gambar tersebut dihungjan menjadi virtual tour dengan aplikasi tourweaver
+testing pengujian aplikasi menggunakan beberapa metode pengujian, yaitu black box, usability, dan portability
+pengujian black box pengujian black box berfokus pada persyaratan fungsional perangkat lunak yang memungkinkan engineers untuk memperoleh set kondisi input yang sepenuhnya akan melaksanakan persyaratan fungsional untuk sebuah program
+bentuk yang paling sederhana dari black box testing adalah dengan mulai menjalankan software dan melakukan pengamatan dengan harapan mudah untuk membedakan hasil yang diharapkan
+tabel ii hasil pengujian black box pada tampilan virtual tour uji skenario hasil yang diharapkan keterangan virtual tour dapat diarahkan ke atas, kanan, bawah, dan kiri berhasil menampil kan foto dan informasi dari benda bersejarah berhasil pilih tombol thumbnail menampilkan beberapa gambar panorama yang dapat di pilih dan langung di kunjungi
+berhasil berhasil pengujian black box dengan melakukan uji skenario, dinilai berhasil beroperasi dengan baik
+menu navigasi pada web berhasil mengarahkan ke halaman yang dituju
+tombol-tombol yang terdapat di dalam virtual tour berfungsi dengan baik
+fungsi-fungsi manajemen pada admin panel beroperasi dengan baik
+pengujian usability usability adalah atribut kualitas yang menilai betapa mudahnya user interface dari perangkat yang digunakan
+pengujian aspek usability adalah bagian besar dari usaha untuk meningkatkan profitabilitas produk
+ada banyak aspek untuk melakukannya, yang pada akhirnya juga sangat menguntungkan pengguna: keputusan desain diinformasikan oleh data yang dikumpulkan dari perwakilan pengguna untuk mengekspos masalah desain sehingga mereka dapat diperbaiki, sehingga meminimalkan atau menghilangkan rasa frustrasi bagi pengguna
+analisis pengujian aspek usability menggunakan skala likert
+skala likert itu sendiri merupakan sebuah tabel untuk mencari skor terkecil dan terbesar dari sebuah test yang sudah ditanggapi oleh beberapa responden untuk mengetahui tingkat keberhasilan suatu aplikasi apakah bisa diterima atau tidak
+skala likert digunakan untuk mengukur sikap, pendapat, dan persepsi seseorang atau sekelompok oarang tentang fenomena sosial
+0 0 3 28 54 91, 53 rerata 0 1, 29 2, 74 36, 58 58, 29 90, 17 untuk menyimpulkan hasil akhir dari aplikasi, harus diketahui terlebih dahulu nilai interval total persentase dengan metode pencarian nilai interval pada persamaan
+i = 100 / jumlah kriteria jawaban i = 100 / 5 i = 20 tabel iv kriteria hasil pengujian usability interval persentase kriteria 0% – 19, 99% sangat tidak layak berdasarkan table di atas, dapat diketahui bahwa dari 84 responden nilai rata-rata persentase skala likert adalah 90, 17% dan memasuki kriteria sangat layak digunakan
+pengujian portability pengujian ini bertujuan untuk menguji apakah aplikasi dapat berjalan di browser pada perangkat lain
+perangkat lunak dikatakan portable jika bisa dijalankan pada komputer lain, sehingga perangkat lunak yang sama bisa dijalankan pada banyak komputer yang berbeda
+tabel v hasil pengujian portability # browser keterangan 2 google chrome 3 firefox browser website ditampilkan secara responsive, kecuali menu virtual tour tidak responsive saat di mode portrait mobile browser pada bagian virtual tour nya tidak seperti tampilan pada mode landscape mobile browser 4 chrome website ditampilkan secara responsive, kecuali menu virtual tour tidak responsive saat di mode portrait mobile browser pada bagian virtual tour nya tidak seperti tampilan pada mode landscape mobile browser
+pengujian portability menghasilkan bahwa aplikasi dapat dioperasikan pada desktop dan mobile browser
+aplikasi yang dioperasikan pada mobile browser tidak responsive pada saat di mode portrait mobile browser pada bagian virtual tour tidak sesuai seperti tampilan pada mode landscape mobile browser dan desktop browser yang responsive tampilannya, hal ini dikarenakan ukuran virtual tour tidak sesuai dengan mode portrait mobile browser, sehingga tidak disarankan ditampilkan pada tampilan portrait mobile browser
+distribution aplikasi ini di-hosting di internet sehingga dapat diakses dimana saja dengan menggunakan desktop maupun mobile browser
+pendistribusian aplikasi ini dapat dilakukan melalui media sosial ataupun dengan menyisipkan link website saat menyebarkan angket pertanyaan pengujian usability
+kesimpulan berdasarkan dari hasil analisis dan pengujian aplikasi virtual tour lokasi rekreasi dan hiburan keluarga di pontianak, maka didapat kesimpulan seperti berikut: 1
+website virtual tour yang dibangun telah berhasil memberikan simulasi dari lingkungan lebih nyata dengan memuat kumpulan foto panorama 360° x 180° dan terdapat pemandu suara layaknya pemandu wisata yang dapat memberikan arahan serta informasi terkait istana kadriah.hasil dari pengujian blackbox, aplikasi berhasil beroperasi dengan baik dan bebas dari kesalahan
+berdasarkan hasil pengujian blackbox, dapat diketahui bahwa aplikasi telah dapat berjalan dengan baik sesuai skenario yang diinginkan
+hasil dari pengujian usability, bedasarkan jawaban dari responden menghasilkan nilai persentase dengan rata rata 90, 17% dan masuk dalam kriteria sangat layak digunakan
+hasil dari pengujian portability, aplikasi dapat beroperasi dengan baik melalui perangkat desktop maupun perangkat mobile

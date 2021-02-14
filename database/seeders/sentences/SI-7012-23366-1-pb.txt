@@ -1,0 +1,32 @@
+abupaten kubu raya fakultas teknik universitas tanjungpura 1)email : indraariza@gmail.com abstrack-deliberation sub district impact of development
+results of deliberation sub district development plan will be discussed again in the unit forums then compiled and refined into a work plan
+planning information planning is an application development used to improve the performance deliberation sub district development plan and unit forums on bappeda kubu raya and participant from various regions and unit forums
+in practice often found several obstacles such as the absence so information systems can assist in the implementation of this activity
+the author builds information systems development using the technology equation models in the design and establishment of web applications
+this site will be operated by an employee and become operator of each district or unit forum
+the operator will get an account from bappeda kubu raya, then the operator of a sub district or unit forum can use the application to include the proposed activities of the sub district or unit forum
+operators who use these web applications can participate without having to meet in a room
+results can also be seen by web visitors
+diadakannya musrenbang yaitu untuk menampung dan menetapkan kegiatan diperoleh dari musyawarah perencanaan daerah maupun sumber pendanaan lainnya
+musrenbang yang diperlukan kehadiran perwakilan dari sehingga dapat mengetahui prioritas terkait dan juga dapat menyesuaikan dari anggaran yang diperlukan sehingga membutuhkan musyawarah dari desa, menyalurkan inspirasi dari rakyat, belum terkomputerisasi
+informasi perencanaan pembangunan disimpan tidak sama dengan data password yang diisikan
+data password sudah dalam bentuk pesan ringkas hasil pengolahan fungsi hash sehingga data password hanya diketahui oleh pembuat itu sendiri
+pada pembuatan aplikasi akan mengunakan metode technology penetapan aplikasi web sipppd yang akan dibangun
+informasi perencanaan pembangun prosedur prosedur yang saling berhubungan, berkumpul bersama sama menyelesaikan suatu sasaran yang sistem bekerja dalam suatu jaringan kerja dari suatu prosedur nyang saling berhubungan satu sama lain untuk menyelesaikan tujuan dan sasaran yang dimaksud
+definisi sistem juga dapat dijelaskan oleh jogiyanto dalam bukunya analisia dan desain sistem informasi, menerangkan: “sistem adalah kumpulan dari elemen-elemen yang berinteraksi sistem juga diartikan sebagai suatu fungsi yang berguna
+dalam bukunya jogiyanto sistem dapat didefinisikan dengan pendekatan prosedur dan adalah ”sekelompok elemen-elemen yang 2.2 definisi sistem informasi terintegrasi yang mampu menyediakan informasi yang bermanfaat bagi penggunanya atau sebuah sistem terintegrasi atau sistem manusia-mesin, untuk menyediakan informasi untuk mendukung operasi, manajemen dalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, mendukung operasi, bersifat manajerial dan menyediakan pihak luar tertentu dengan laporan-laporan yang technology acceptance model untuk menganalisis dan memahami faktor‐ faktor yang mempengaruhi diterimanya penggunaan teknologi komputer yang pengembangan dari theory of reasoned action, yang lebih dahulu dikembangkan oleh fishbein dan ajzen pada 1980
+memperkirakan penerimaan untuk mengetahui faktor-faktor yang mempengaruhi penerimaan terhadap suatu informasi dan kemudahan penggunaannya) dan perilaku, tujuan/keperluan, dan penggunaan aktual dari pengguna/user untuk menyelesaikan model bertingkat gabungan dari analisis regresi dan analisis faktor
+sem dapat dipergunakan untuk menyelesaikan model persamaan dengan pengaruh timbal balik 
+2.5 sistem informasi perencanaan keterbukaan publik dan akuntabilitas perencanaan pembangunan mulai dari tingkat desa sampai tingkat mengontrol sejauh mana usulan-usulan masyarakat dapat diakomodir oleh pemerintah daerah
+sistem ini berkaitan dengan proses perencanaan pemerintahan
+dengan adanya musrenbang berjalan lebih baik, efektif dan efisien, bisa berjaan secara sinergis antara kecamatan, skpd dan pemerintah daerah, serta bersifat transparan
+pengguna sippd perencanaan pembangunan daerah skpd di lingkungan pemerintahan yang terlibat dalam proses musrenbang
+dalam sippd ini, dimungkinkan seluruh skpd mengajukan usulan demi kemajuan proses perencanaan pembangunan di dalam musrenbang kecamatan
+perancangan sistem terdiri dari aplikasi web yang digunakan operator kecamatan, skpd dan operator bappeda untuk menjalakannya, juga dapat dilihat pada gambar 1 berikut gambar 1 arsitektur sistem data mengalir pada saat kegiatan tersebut berlangsung
+terdapat tiga jenis pengguna secara keseluruhan di dalam web sippd ini, yaitu operator kecamatan, operator skpd dan admin bappeda dapat dilihat pada gambar 2 berikut
+sippd opt kecamatan tindak lanjut data usulan perencanaan pembangunan kec
+, data baru usulan perencanaan pembangunan kab
+akomodir data usulan skpd ke rkpd, data baru rkpd baru usulan perencanaan pembangunan kab
+, laporan data usulan, data master musrenbang data master musrenbang 3.2.2 diagram overview diagram overview menjelaskan overview dapat dilihat pada gambar 3 berikut
+3.2.3 entity relationship diagram pembangunan daerah dapat digambarkan pada gambar 4 berikut
+kegiatan dengan menjalankan aplikasi dengan maksud menemukan kesalahan serta direncanakan”

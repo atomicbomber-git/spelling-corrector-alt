@@ -1,0 +1,41 @@
+– farmer’s knowledge about cow disease is still low, beside it is very important for achieve healthy meat
+cow diseases are caused by viruses, bacteria, parasite, and reproductive disorders
+it can affect the quality of the meat and milk that led to the decrease in production
+to minimize those impact, needs some early treatment to prevent loss
+expert system is one of the solution to diagnose the disease based on symptoms suffered by cows
+in this research an expert system created by applying dempster-shafer
+applications developed for method of dempster-shafer, we may obtained values possible interference illnesses experienced by the cow
+system generated may handle the data management and diagnosis of disease with a level of confidence 90%
+diseease cenderung meningkat seiring dengan semakin meningkatnya pendapatan dan kesadaran gizi masyarakat
+meningkatnya kebutuhan daging sapi ini tidak sebanding dengan laju pertambahan populasi ternak sapi
+sehingga perlu adanya upaya dalam peningkatan produksi dan produktivitas sapi potong yang dilakukan oleh pemerintah yang bekerja sama dengan peternak sapi dalam mewujudkan swasembada daging, yaitu tercukupinya suplai sapi potong daerah dan ketersediaan daging sapi yang harga terjangkau, aman dan sehat
+oleh karena itu, kesehatan hewan sapi menjadi hal yang sangat penting bagi peternak untuk menjaga kualitas produksi
+namun terkadang penyakit menjadi tantangan yang harus dihadapi peternak
+karena dengan munculnya satu penyakit bisa berakibat fatal terlebih penyakit tersebut sifatnya menular hingga bisa menyebabkan kerugian yang besar
+walaupun penyakit sapi tidak semuanya menyebabkan kematian langsung tapi dapat merusak kesehatan tubuh sapi secara berkepanjangan
+oleh sebab itu, peternak harus mampu melakukan penanggulangan penyakit sapi sejak dini
+namun, tidak banyak peternak yang mampu mengenali penyakit sapi, terlebih peternak yang tinggal di daerah yang bukan pusat kota
+maka hingga saat ini peternak memiliki ketergantungan yang tinggi terhadap dokter hewan untuk mendiagnosa dan melakukan penanganan penyakit
+padahal dokter hewan sangat terbatas dan tidak selalu ada setiap saat atau sangat susah ditemui
+sehingga diperlukan sebuah solusi alternatif untuk memudahkan peternak dalam melakukan diagnosa penanganan dini penyakit sapi secara mandiri tanpa harus berhadapan dengan dokter hewan secara langsung
+dengan adanya kemajuan teknologi saat ini, suatu penyakit akan terdeteksi dengan mengetahui gejala penyakit yang dialami secara pasti
+kemajuan teknologi yang mampu mengadopsi proses dan cara berpikir manusia yaitu teknologi artificial intelligence atau kecerdasan buatan
+salah satu teknologi kecerdasan buatan adalah sistem pakar yang merupakan program komputer yang dapat meniru proses pemikiran dan pengetahuan pakar untuk menyelesaikan suatu masalah yang spesifikasi
+implementasi sistem pakar banyak digunakan pada bidang kesehatan karena sistem pakar dipandang sebagai cara penyimpanan pengetahuan pakar dalam bidang tertentu ke dalam suatu program, sehingga dapat memberikan suatu keputusan dan melakukan penalaran secara cerdas
+sistem pakar dalam bidang kesehatan hewan yaitu sistem pakar diagnosa penyakit sapi dengan metode dempster-shafer
+sistem yang diharapkan tidak hanya mampu mendiagnosa penyakit yang diderita sapi, tetapi juga cara penanganannya
+menggunakan sistem pakar akan ditemukan kondisi- kondisi yang tidak pasti misalnya beberapa penyakit dengan gejala yang sama atau inputan gejala yang kurang tepat
+oleh karena itu, dapat digunakan salah satu metode yang menangani ketidakpastian yaitu metode dempster-shafer
+metode ini memberikan solusi dengan pembobotan yang berasal dari nilai kepercayaan seorang pakar
+bobot tersebut menggunakan rentang probabilitas antara 0 sampai 1
+bobot tersebut yang nantinya akan digunakan dalam proses perhitungan menggunakan metode dempster- shafer untuk menentukan penyakit yang diderita sapi
+berdasarkan latar belakang diatas, metode dempster-shafer digunakan sebagai solusi pada sistem pakar diagnosis penyakit sapi
+sistem yang dibangun berbasis web agar dapat diakses oleh peternak sapi secara online melalui internet mengadopsi pengetahuan manusia ke komputer, agar komputer dapat menyelesaikan masalah seperti yang biasa dilakukan oleh para ahli
+beberapa definisi tentang sistem pakar antara lain: 1
+menurut durkin, sistem pakar adalah suatu program komputer yang dirancang untuk memodelkan kemampuan penyelesaian masalah yang dilakukan oleh seorang pakar
+menurut ignizio, sistem pakar adalah suatu model dan prosedur yang berkaitan, dalam suatu domain tertentu, yang mana tingkat keahliannya dapat dibandingkan dengan keahlian seorang pakar
+menurut giarratano dan riley, sistem pakar adalah suatu sistem komputer yang bisa menyamai atau meniru kemampuan seorang pakar
+untuk pemahaman, formulasi, dan penyelesaian masalah
+komponen sistem pakar ini disusun atas dua elemen dasar, yaitu fakta dan aturan
+fakta merupakan informasi tentang objek dalam area permasalahan tertentu, sedangkan aturan merupakan informasi tentang cara bagaimana memperoleh fakta baru dan fakta yang telah diketahui
+ada dua bentuk pendekatan basis pengetahuan yang sangat umum digunakan, yaitu 

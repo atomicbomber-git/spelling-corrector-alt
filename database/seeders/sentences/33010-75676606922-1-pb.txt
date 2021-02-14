@@ -1,0 +1,18 @@
+eee paper template in a4 vol 5 no 2 firefox extension untuk klasifikasi komentar spam pada instagram berbasis rest services antonius rachmat chrismanto #1, willy sudiarto raharjo#2, yuan lukito#3 #fakultas teknologi informasi, program studi informatika, universitas kristen duta wacana yogyakarta jl
+dr wahidin sudirohusodo no 5-25 yogyakarta 1anton@ti.ukdw.ac.id 2willysr@ti.ukdw.ac.id 3yuanlukito@ti.ukdw.ac.id hanya dapat digunakan oleh pengguna melalui sistem yang berjalan di sisi client, karena data ig tidak dapat dimanipulasi dari luar ig
+dibutuhkan sistem yang dapat memanipulasi data dari sisi client dalam bentuk browser extension
+penelitian ini berfokus pada pengembangan browser extension untuk firefox yang memanfaatkan web services rest pada layanan cloud dengan platform amazon web services 
+browser extension yang dikembangkan menggunakan 2 algoritma klasifikasi, yaitu knn dan distance-weighted knn 
+extension ini mampu menandai komentar spam dengan mengubah document object model ig menjadi berwarna merah dengan dicoret 
+metode pengembangan extension dilakukan dengan metode rapid application development 
+pengujian pada penelitian ini dilakukan pada hasil implementasi browser extension dan pengukuran akurasi web service 
+pengujian implementasi browser extension menggunakan metode pengujian fungsionalitas, dimana setiap fitur yang telah diimplementasikan diuji apakah sudah sesuai dengan spesifikasi yang telah ditentukan sebelumnya
+pengujian akurasi web service dilakukan dengan bantuan tool soapui
+hasil pengujian extension adalah: pengujian extension pada sembarang halaman web berhasil 100%, pengujian pada halaman awal ig berhasil 100%, pengujian pada halaman profile suatu akun ig berhasil 100%, pengujian pada suatu posting ig dan komentarnya, tidak selalu berhasil karena dipengaruhi oleh kemampuan algoritma pada web services, pengujian untuk bahasa bukan indonesia tidak selalu berhasil karena bergantung pada library bahasa, pengujian untuk load more comments pada ig tidak selalu berhasil karena bergantung pada algoritma pada web services, dan pengujian pilihan algoritma pada options extension berhasil 100%
+hasil akurasi rata-rata tertinggi algoritma knn adalah 80% untuk k=1, sedangkan dw-knn adalah 90% untuk k=2
+pendahuluan data-data yang tidak benar, tidak tepat, tidak sesuai, dan spam di internet sangat tinggi seiring dengan perkembangan teknologi dewasa ini dan juga maraknya penyebaran konten yang tidak bertanggung jawab
+internet merupakan sumber data yang sangat besar dan mudah didapat, namun data yang terdapat di internet juga memiliki kemungkinan bahwa data tersebut tidak benar, tidak sesuai, data palsu, bahkan menjadi mengganggu karena berupa data spam
+data spam banyak sekali terdapat di media sosial, di mana salah satunya terdapat di instagram 
+akun-akun bot spammer menyerang komentar-komentar di instagram dengan komentar-komentar spam mereka terutama terhadap publik figur
+kepopuleran ig menyebabkan banyak publik figur seperti artis dan aktor yang menggunakannya sebagai salah satu sarana promosi mereka
+ig memiliki efektifitas paling tinggi dibandingkan dengan facebook dan twitter

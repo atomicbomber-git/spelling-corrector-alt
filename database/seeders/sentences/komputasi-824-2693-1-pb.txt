@@ -1,0 +1,41 @@
+atik kalimantan barat menggunakan operasi geometri pada pengolahan citra tatum tristy monalisa lily_andorz@yahoo.co.id in indonesia that needs to be remained and developed
+there are several types and patterns in traditional batik that suit to the philosophies and the customs of each region in indonesia
+one of the batik varieties in indonesia is based on the custom in west borneo
+however, it takes a long time to the batik designers in west borneo in creating new batik patterns
+through this software, the provided basic batik pattern that is choosen by user will be developed into the new patterns
+the validity of this batik pattern development software are tested through blackbox method to identify whether the application in this software work well or not
+the finding of this research reveals that geometric operation in this west borneo’s batik pattern development software can result new batik patterns with 98, 89% success rate
+pendahuluan batik adalah salah satu warisan budaya indonesia yang perlu dilestarikan dan dikembangkan
+jenis dan corak batik tradisional tergolong amat banyak, namun corak dan variasinya sesuai dengan filosofi dan budaya masing-masing daerah yang amat beragam
+salah satu variasi motif yang ada di indonesia adalah batik kalimantan barat
+akan tetapi, dalam pengembangannya membutuhkan waktu yang lama dalam membuatnya
+teori dasar 2.1 motif batik kalimantan barat batik bercorak dari etnis melayu memiliki kesan yang lebih meriah
+bentuknya beragam dan jauh dari kesan sederhana
+kebanyakan corak batik melayu didominasi gambar bunga dan binatang, seperti ikan arwana
+warna yang ditawarkan batik melayu pun lebih cerah dan rata-rata bahan yang digunakan kain sutra
+adapun jumlah ragam hias pada motif batik yang ada di kalimantan barat adalah 56 motif 
+beberapa contoh motif batik yang terdapat di kalimantan barat yaitu: tradisional yang disebut kain corak insang
+kain ini biasanya dipergunakan untuk melengkapi pakaian tradisional untuk kaum perempuan digunakan dengan baju kurung sedang untuk laki-laki digunakan untuk telok belanga
+kain ini biasanya digunakan pada acara-acara tradisional seperti perkawinan
+motif awan berarak kain bermotif awan berarak dulunya dikenakan oleh kaum kerabat keraton amantubillah mempawah
+kain bermotif dalam acara-acara besar kerajaan
+2.2 operasi geometri dalam suatu citra dengan pendekatan tertentu, tetapi dalam perkembangannya dimungkinkan  pencerminan  rotasi/pemutaran  pemotongan  penskalaan satu operasi geometri yang paling sederhana
+horisontal : pencerminan pada sumbu y b
+vertikal : pencerminan pada sumbu x c
+kombinasi : pencerminan pada sumbu y dan x pencerminan yaitu: y’ = y b
+pencerminan vertical : y’ = h – 1 – y x’= x c
+pencerminan kombinasi: x’ = w – 1 – x y’ = h –1 – y x y pencerminan vertical, pencerminan kombinasi 2.2.2 pemotongan pemotongan adalah pengolahan citra dengan kegiatan memotong satu bagian dari citra
+rumus yang digunakan : keterangan: = koordinat titik citra yang akan di-crop = koordinat titik pojok kiri atas citra yang akan di-crop citra yang akan di-crop crop adalah seperti gambar berikut
+gambar 4 koordinat titik sudut bagian citra yang akan di-crop w’ = xr – xl h’ = yb –yt gambar 5 citra di-crop 3
+hasil eksperimen pengujian yang dilakukan pada aplikasi secara keseluruhan menggunakan metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+data pengujian dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari sistem
+adapun indikator keberhasilan dari hasil pengujian ini adalah diperoleh motif kreasi hasil pengembangan sistem menggunakan operasi geometri pada pengolahan citra
+menggunakan operasi geometri pada batik kalimantan barat
+yang dihasilkan dari motif pucuk rebung bunga pasak no motif motif baru yang dihasilkan dari motif pucuk rebung bunga pasak no motif motif tingkat persentase keberhasilan motif baru yang dihasilkan aplikasi dapat dihitung melalui rumus persentasi keberhasilan aplikasi sebagai berikut : dikembangkan x 100% keberhasilan pengujian pengembangan motif 98, 89%
+berikut ini adalah analisis hasil perancangan dan pengujian aplikasi pengembangan motif batik kreasi kalimantan barat menggunakan operasi geometri pada pengolahan citra: 1
+dari hasil pengujian yang dilakukan aplikasi pengembangan motif kreasi dari motif batik kalimatan barat menggunakan operasi geometri berbasis dengan tingkat keberhasilan aplikasi 2
+dari satu motif batik dapat menghasilkan 9 kemungkinan motif batik baru
+jika motif yang digunakan motif penuh maka dihasilkan 9 motif baru tetapi jika motif yang digunakan berupa motif tidak penuh maka motif baru yang dihasilkan kurang dari 9
+hal ini disebabkan pada saat proses pemotongan 3x3 terdapat daerah yang kosong sehingga pada akhir pemotongan dihasilkan motif baru yang tidak ada motif
+dari motif batik kalimantan barat menggunakan operasi geometri pada keberhasilan 98, 89%
+motif baru yang dapat dihasilkan berjumlah maksimal 9 motif

@@ -1,0 +1,8 @@
+email: chitashary@gmail.com tertier bagi kelas sosial mid-end
+dengan adanya kebijakan pemerintah dalam hal perkreditan perumahan bagi rakyat dan salah satu bank yang paling umum menyediakan layanan ini adalah bank tabungan negara 
+untuk membantu penentuan pemilihan rumah kredit pemilikan rumah terdapat kriteria yang harus dijelaskan oleh pihak yang menjual produk kpr kepada calon nasabah
+penggunaan sistem informasi geografis dalam memetakan akan berguna untuk merangkum informasi dalam bentuk data tabular dan informasi spasial metode profile matching dapat membandingkan antara kriteria data tabular yang disajikan berbasis geospasial lengkap dengan informasi yang ditentukan oleh perusahaan / perbankan sehingga diperoleh perbedaan bobot antar kriteria untuk menghasilkan rekomendasi
+pencocokan profil, harga dan angsuran 
+sistem yang dirancang memetakan lokasi perumahan dengan kriteria tertentu diantaranya lokasi pinggiran dengan harga tinggi dan angsuran cepat; lokasi pinggiran dengan harga tinggi dan angsuran sedang; lokasi pinggiran dengan harga tinggi dan angsuran lama; lokasi perkotaan dengan harga tinggi dan angsuran cepat; lokasi perkotaan dengan harga tinggi dan angsuran sedang; lokasi perkotaan dengan harga tinggi dan angsuran lama dalam bentuk koordinat sehingga membantu nasabah dalam pengambilan keputusan dalam pemilihan rumah kpr
+matching pembangunan dan kebutuhan properti secara signifikan pada kelas masyarakat mid-end
+hal itu terindikasi dari peningkatan strata ekonomi pada golongan masyarakat yang sebelumnya merupakan masyarakat dengan golongan low-end menjadi golongan masyarakat mid-end

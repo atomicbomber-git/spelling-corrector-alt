@@ -1,0 +1,109 @@
+pemilihan pemimpin perusahaan harus dilakukan dengan sangat selektif sehingga dapat memperoleh seorang pemimpin atau direktur yang dapat memimpin dengan baik institusi tersebut dan dapat memberikan kebijakan strategis
+proses yang ada dalam pemilihan direktur di politeknik negeri cilacap yaitu anggota senat akan memberikan suara untuk memilih direktur sesuai dengan pengamatan anggota senat
+masing-masing anggota senat akan memilih calon direktur yang dianggap layak untuk menjadi direktur tanpa memperhitungkan kriteri masing-masing calon direktur dan bisa terjadi anggota senat akan menilai dari satu kriteria tanpa memperhitungkan kriteria yang lain
+penilaian terhadap semua kriteria perlu dilakukan agar memperoleh direktur yang terbaik untuk institusi
+proses seleksi akan dilakukan dengan menggunakan metode analytical hierarchy process 
+hasil dari penelitian ini yaitu aplikasi pendukung keputusan yang mampu memberikan hasil skor yang diperoleh masing-masing calon sehingga dapat memberikan rekomendasi bagi senat untuk memberikan hak suaranya serta metode ahp
+pendahuluan direktur merupakan manajemen tingkat atas yang bertugas untuk mengelola instansi dalam hal kebijakan strategis untuk pengembangan institusi sehingga jika direktur lama sudah memasuki akhir masa jabatan makan institusi perlu melakukan pemilihan direktur dengan segera
+pemilihan direktur sebuah kampus negeri baik universitas, politeknik negeri harus melewati beberapa tahapan yang sudah ditetapkan
+salah satu kampus negeri yang melaksanakan pemilihan direktur yaitu politeknik negeri cilacap yang merupakan kampus dibawah kementrian riset teknologi dan perguruan tinggi
+beberapa tahapan dalam pemilihan direktur politeknik negeri cilacap yaitu : penjaringan penilaian akan dilakukan oleh anggota senat politeknik negeri cilacap yang terdiri dari 13 orang anggota
+senat memiliki hak suara untuk memilih 3 calon direktur yang akan direkomendasikan kepada menteri ristetdikti dan menteri akan menilai calon direktur tersebut
+bobot penilaian untuk anggota senat yaitu 35% dan nilai dari menteri sebesar 65%
+beberapa penilaian yang akan dilakukan oleh anggota senat politeknik negeri cilacap adalah penilaian kelengkapan berkas, visi dan misi, merupakan seorang pns, kualifikasi pendidikan dan pengalaman manajerial penilaian dilakukan berdasarkan komponen diatas namun penilaian setiap anggota senat sesuai dengan analisa masing-masing tanpa kriteria yang ditentukan dan hasil analisa tersebut sulit untuk diungkapkan karena ada dalam pikiran masing-masing anggota senat
+berdasarkan masalah diatas penulis tergerak untuk melakukan penelitian mengenai proses seleksi direktur yang ada di politeknik negeri cilacap dengan metode analytical hierarcy proses agar kriteria dalam penilaian direktur dapat disamakan untuk setiap anggota senat dengan tujuan dapat mendapatkan 3 calon direktur terbaik yang dapat diajukan ke menteri ristetdikti sehingga tidak terjadi kesalahan dalam memilih orang yang tepat untuk memajukan politeknik negeri cilacap
+tinjauan pustaka penelitian sebelumnya mengenai sistem pendukung keputusan pemilihan kandidat kepala divisi yayasan airlangga balikpapan oleh gunawan dan vidi yang membahas tentang pemilihan kepala divisi yayasan airlangga balikpapan
+proses pemilihan kepala divisi dilakukan dengan membentuk panitia di harapkan dapat memberikan calon kandidat kepala divisi
+decision support system pada pemilihan kepala divisi dapat membantu dalam pengambilan keputusan namun keputusan tetap ada pada yayasan airlangga
+metode yang digunakan untuk membangun sistem pendukung keputusan yaitu menggunakan metode saw yang merupakan suatu metode yang dapat di terapkan pada pemilihan kepala divisi yayasan airlangga balikpapan
+tujuan penelitian mengenai sistem pendukung keputusan pemilihan kepala divisi yaitu untuk memberikan pertimbangan seleksi calon kepala divisi yang terbaik sesuai dengan kebutuhan yayasan
+penelitian berikutnya mengenai sistem pendukung keputusan penyeleksian calon kepala sekolah dasar di dinas pendidikan kabupaten garut dilakukan oleh destiani dan annisa
+sistem pendukung keputusan dibangun dengan menggunakan model simon dengan metode topsis
+metode ini mampu memilih alternatif terbaik dari sejumlah alternatif
+yaitu calon kepala sekolah yang terbaik sesuai kriteria
+sistem pendukung keputusan ini dapat membantu dinas pendidikan kabupaten garut dalam proses seleksi administrasi calon kepala sekolah yang akan diseleksi sesuai dengan kriteria yang telah ditetapkan sehingga proses seleksi pemilihan kepala sekolah dapat lebih efektif dari segi waktu
+penelitian berikutnya yaitu sistem pendukung keputusan penerimaan karyawan yang menggunakan metode analytical hierarchy process studi kasus : rb
+pengembangan sistem pendukung keputusan dengan menggunakan metode analytical hierarchy process dalam proses seleksi penerimaan karyawan
+kriteria digunakan untuk proses seleksi dalam menentukan calon pelamar yang berhak untuk diterima sebagai karyawan
+spk ini digunakan untuk membantu merekomendasikan calon karyawan yang akan dipilih
+penelitian ini dilakukan dengan merancang dan mengimplementasikan aplikasi untuk memudahkan perhitungan data seleksi penerimaan karyawan dengan ahp
+sistem pendukung keputusan sistem pendukung keputusan atau decision support system merupakan sebuah ilmu yang mampu memberikan kemampuan dalam memecahkan permasalahan dan juga memiliki kemampuan dalam pengkomunikasian untuk masalah tak terstruktur dan semi terstruktur dimana tidak seorangpun secara pasti tahu bagaimana keputusan seharusnya dibuat
+spk mempunyai tujuan untuk menyediakan informasi, memberikan prediksi dan mengarahkan pengguna informasi agar pengguna dapat melakukan pengambilan keputusan dengan baik
+analytical hierarcy proses ahp merupakan sebuah metode untuk membuat urutan alternative
+pemilihan alternative terbaik dan keputusan oleh pengambil keputusan dengan beberapa kriteria untuk mengambil keputusan tertentu
+hirarki fungsional dengan input utamanya seperti persepsi manusia
+dengan hirarki, suatu masalah yang kompleks dan tidak terstruktur dapat dipecahkan ke dalam kelompoknya, dan kemudian disusun menjadi bentuk
+sintesa prioritas langkah-langkah dalam menerapkan metode analytical hierarchy proses yaitu : langkah-langkah metode ahp adalah sebagai berikut : a
+menjumlahkan hasil perkalian per baris c
+hasil penjumlahan tiap baris dibagi prioritas bersangkutan dan hasilnya dijumlahkan
+hasil c dibagi jumlah elemen, akan didapat lamda maks
+rasio konsistensi = ci/ ri, dimana ri adalah indeks random konsistensi
+jika rasio konsistensi 0.1, hasil perhitungan data dapat dibenarkan
+metode penelitian penelitian yang akan penulis lakukan yaitu melakukan seleksi pemilihan direktur politeknik negeri cilacap dengan menggunakan metode analytical hierarchy proses
+pendaftaran calon direktur yang telah dilaksanakan menghasilkan 5 orang bakal calon direktur yang harus melewati seleksi
+pemilih 3 calon direktur politeknik negeri cilacap akan dipilih oleh anggota senat pnc yang akan di serahkan ke menteri ristetdikti
+penentuan akhir sepenuhnya akan dilaukan oleh menteri ristetdikti namun anggota senat pnc dapat mencari 3 bakal calon yang terbaik untuk diajukan
+hirarki penilaian dengan metode ahp dapat dilihat pada gambar 1
+alur pengembangan perangkat lunak dapat dilihat pada gambar 2
+end user yang akan mengoperasikan aplikasi untuk melakukan seleksi pemilihan direktur politeknik negeri cilacap terdiri dari, admin, ketua pemilihan direktur, direktur dan anggota senat
+kebutuhan fungsional dari masing-masing user antara lain dapat dilihat pada tabel 2
+desain perangkat lunak untuk seleksi dalam pemilihan direktur politeknik negeri cilacap menggunakan usecase diagram yang merupakan pemodelan untuk menggambarkan behavior aplikasi yang akan dibuat
+use case diagram digunakan untuk mengetahui fungsi apa saja yang ada di dalam aplikasi dan siapa saja aktor yang berhak mempergunakan fungsi-fungsi sistem tersebut
+use case diagram dapat dipergunakan sebagai pemandu pada semua aktivitas pengembangan perangkat lunak dimulai dari tahap analisis, tahap perancangan, tahap implementasi, serta tahap pengujian
+usecase diagram sistem pendukung keputusan pemilihan direktur politeknik negeri cilacap dapat dilihat pada gambar 3
+tabel 2 tabel kebutuhan fungsional user fungsi admin a
+admin dapat melakukan login admin b
+admin dapat mengelola data user c
+admin dapat mengelola data calon direktur d
+admin dapat mengelola kriteria dalam pemilihan direktur e
+admin dapat mengelola alternatif pemilihan direktur f
+admin dapat mengelola data pendukung calon direktur ketua pemilihan direktur a
+ketua pemilihan direktur dapat melakukan login b
+ketua pemilihan direktur dapat mengelola data user c
+ketua pemilihan direktur dapat mengakses data calon direktur d
+ketua pemilihan direktur dapat mengakses data pendukung calon direktur e
+ketua pemilihan direktur dapat mengakses data kriteria pemilihan direktur f
+ketua pemilihan direktur dapat mengakses data alternatif pemilihan direktur g
+ketua pemilihan direktur dapat mengelola bobot alternatif pemilihan direktur h
+ketua pemilihan direktur dapat mengelola bobot kriteria pemilihan direktur i
+ketua pemilihan direktur dapat mengakses hasil penghitungan seleksi ahp untuk pemilihan direktur j
+ketua panitia dapat melihat hasil spk pemilihan direktur direktur a
+direktur dapat mengakses calon direktur c
+direktur dapat mengakses laporan pemilihan direktur anggota senat a
+anggota senat dapat melakukan login b
+anggota senat dapat mengolah data bobot kriteria c
+anggota senat dapat mengolah data bobot alternatif d
+anggota senat dapat melihat hasil spk pemilihan direktur gambar
+setelah penilaian untuk masing-masing kriteria kemudian dibuat matriks sesuai dengan bobot kriteria, penilaian masing-masing kriteria dapat dilihat pada tabel 3
+tabel 3 matrik kriteria ahp kriteria pendidikan minimal s2 pengalaman manajerial berkas 0, 33 0, 2 0, 25 1 4 visi dan misi 0, 2 0, 33 0, 2 0, 25 1 jumlah 1, 98 5, 78 10, 45 13, 25 18, 00 setelah matrik dibuat dan diberikan bobot untuk masing-masing kriteria kemudian dilakukan perhitungan untuk mendapatkan matrik berpasangan yang dihasilkan dari pembagian jumlah kolom dengan rumus perhitungan matrik pada kriteria tabel 2 di bagi dengan jumlah kolom pada matrik kriteria masing masing
+perhitungan tersebut menghasilkan matrik berpasangan yang dapat dilihat pada tabel 4
+tabel 4 matrik berpasangan kriteria kri teria pns dan pendidikan min s2 pengalaman manajerial kelengkapan berkas visi dan misi 0, 10 0, 06 0, 02 0, 02 0, 06 0, 25 setelah matrik berpasangan dihasilkan dilanjutkan dengan perhitungan prioritas kriteria dengan rumus jumlah baris pada tabel 3 matrik berpasangan dibagi banyaknya kriteria yang ada dalam seleksi pemilihan direktur
+hasil prioritas kriteria dapat dilihat pada tabel 5
+tabel 5 matrik berpasangan kriteria kriteria kelengkapan berkas 0, 105 visi dan misi 0, 050 b
+penilaian masing-masing alternatif langkah berikutnya adalah menentukan prioritas masing masing alternatif
+contoh hasil prioritas alternatif untuk kriteria pns dan jabfung yang akan menilai syarat calon direktur merupakan seorang pns dan mempunya jabatan fungsional alternatif yang ada sesuai kriteria dibuat matrik yang dapat dilihat pada tabel 6, kemudian dihitung matrik berpasangan yang hasilnya dapat dilihat pada tabel 7, dan selanjutnya dibuat prioritas kriteria untuk pns dan jafung yang dapat dilihat pada tabel 8
+lamda max dihitung dengan rumus jumlah lamda alternatif dibagi jumlah alternative misal 2, 294 : 5 = 0, 459
+setelah lamda max ditemukan berikutnya yaitu mencari ci / indeks consistency yaitu lamda max dibagi n-1 0, 459 : 4 = 0, 115
+perhitungan ini akan dilakukan untuk masing-masing alternatif sesuai kriterianya
+hasil perhitungan prioritas alternatif untuk kriteria pendidikan
+alternatif yang ada yaitu calon direktur yang sudah mendaftar, bobot alternatif dibuat sesuai kriteria kemudian dibuat matrik yang dapat dilihat pada tabel 9, kemudian dihitung matrik berpasangan dari penghitungan untuk alternatif yang hasilnya dapat dilihat pada tabel 10, dan selanjutnya dibuat prioritas kriteria untuk pendidikan yang dapat dilihat pada tabel 11
+tabel 9 matrik berpasangan kriteria kriteria pendidikan calon 1 calon 2 calon 3 calon 4 calon 5 jumlah 3, 17 5, 67 6, 33 8, 33 10, 00 tabel 10 matrik berpasangan kriteria kriteria pendidikan calon 1 calon 2 calon 3 calon 4 calon 5 jml calon 1 0, 32 0, 53 0, 16 0, 36 0, 20 1, 56 calon 2 0, 11 0, 18 0, 47 0, 12 0, 30 1, 18 calon 3 0, 32 0, 06 0, 16 0, 36 0, 10 0, 99 calon 4 0, 11 0, 18 0, 05 0, 12 0, 30 0, 75 calon 5 0, 16 0, 06 0, 16 0, 04 0, 10 0, 51 tabel 11 matrik berpasangan kriteria kriteria pendidikan direktur politeknik negeri cilacap yaitu pernah menduduki jabatan ketua jurusan, namun ada beberapa calon yang sudah pernah memduduki banyak jabatan sehingga pengalaman manajerial juga perlu diperhitungkan dalam penilaian setiap calon
+prioritas alternatif untuk kriteria manajerial dilakukan deiawali dengan membuat matrik untuk tiap alternatif perkriteria yang dapat dilihat pada tabel 12, dan dilakukan penghitungan matrik berpasangan pada tabel 13 dan dilanjutkan dengan penghitungan prioritas alternatif masing-masing calon sesuai kriteria yang dapat dilihat pada tabel 14
+matrik alternatif berkas dapat dilihat pada tabel 15, perhitungan matrik berpasangan untuk alternatif berkas dapat dilihat pada tabel 16 dan hasil prioritas alternatif berkas dapat dilihat pada tabel 17
+tabel 15 jumlah 5, 00 5, 00 5, 00 5, 00 5, 00 tabel 16 tabel 17 penyampaian visi dan misi calon direktur disampaikan didepan anggota senat dan karyawan politeknik negeri cilacap
+setelah penyampaian visi dan misi dilanjutkan dengan pemilihan oleh anggota senat untuk tahap pemilihan pertama, sehingga visi dan misi akan menjadi hal utama dan mampu mempengaruhi pemilihan suara
+matrik alternatif visi dan misi dibuat pada tabel 18, dan selanjutnya dilakukan perhitungan untuk matrik berpasangan alternatif visi dan misi pada tabel 19 dan hasil prioritas alternatif visi dan misi dihasilkan pada tabel 20
+skor penghitungan seleksi dengan metode ahp dapat dilihat pada tabel 21
+tabel 21 misi prioritas kriteria anggota senat dapat memasukan bobot masing-masing kriteria dan alternatif untuk setiap calon direktur, skor yang telah di dapatkan dari perhitungan ahp untuk masing-masing calon dapat menjadi rekomendasi anggota senat untuk memberikan hak suaranya
+namun keputusan pemilihan suara tetap ada pada masing-masing anggota senat pnc
+setelah proses pemilihan suara akan dipilih 3 calon direktur pnc dan akan dilakukan pemilihan kembali oleh anggota senat dan menteri ristekdikti
+pemilihan 3 calon direktur juga dapat dilakukan dengan penghitungan dengan metode ahp sehingga dapat memberikan rekomendasi calon yang terbaik untuk menjadi direktur politeknik negeri cilacap
+hak suara pemilihan anggota senat yaitu 35% dan nilai dari menteri risetdikti sebesar 65%
+pemilihan anggota senat yang dibantu dengan metode ahp dapat mempermudah dalam penilaian kriteria yang tidak terstruktur dan semi terstruktur
+tingkat kesalahan dalam penilaian kriteria tidak terstruktur dapat diminimalisir sehingga akan memperoleh skor atau hasil yang mendekati pola pikir manusia dalam mengambil keputusan
+namun penilaian oleh menteri risetdikti juga mempunyai pengaruh yang besar terhadap hasil pemilihan direktur politeknik negeri cilacap yaitu hak suara sebesar 65% dan tentunya sudah dilakukan seleksi kriteria dan alternatif oleh kementrian ristekdikti sehingga dapat memberikan hak suara calon direktur yang terbaik untuk politeknik negeri cilacap
+direktur politeknik negeri cilacap yang masih aktif juga dapat melihat laporan hasil pemilihan direktur pnc
+kesimpulan kesimpulan dari penelitian mengenai sistem pendukung keputusan pemilihan direktur politeknik negeri cilacap adalah sebagai berikut : a
+metode ahp dapat memberikan rekomendasi bagi anggota senat untuk memberikan hak suaranya dalam pemilihan direktur politeknik negeri cilacap
+proses seleksi dengan menggunakan sistem pendukung keputusan ini memudahkan dalam perhitungan dan menghemat waktu dalam perhitungan skor masing- masing calon
+tingkat kesalahan dalam mengambil keputusan memilih calon direktur politeknik negeri cilacap dapat diminimalisir dengan metode ahp karena menyesuaikan dengan pola pikir manusia dalam mengambil keputusan

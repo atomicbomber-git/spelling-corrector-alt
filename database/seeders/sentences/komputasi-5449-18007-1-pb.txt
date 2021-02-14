@@ -1,0 +1,76 @@
+game is one implementation of computer science
+the development of the game at the present time is very fast and has become a fashion of its own in the world because the majority of computer users spend most of their time in front of a computer in the game program
+the algorithm is a sequence of processes to resolve the problem
+there are several algorithms that use tree search in solving a problem case
+one algorithm is used to develop a game plan is a tree -based algorithm search space
+one game that uses a tree -based algorithm in solving the search space is a puzzle game
+puzzle is a jigsaw game with the rules of a piece can only be moved by sliding it into the empty space
+generally people who play this puzzle took a long time to finish the game
+this is because the puzzle no additional information is held to assist in the search for solutions, so that when the process of preparing the pieces of the puzzle more complicated
+to resolve the issue in this game requires a search algorithm that can be implemented effectively
+the algorithm is applied to this game is the breadth- first search, depth first search and best first search
+this application is built on the android mobile device platform
+first search, depth first search, best first search, mobile, android
+aktivitas terstruktur atau semi terstruktur yang pada umumnya ditujukan untuk kesenangan dan dimanfaatkan
+elemen peraturan, tantangan dan interaksi yang pada umumnya menstimulasi fisik dan kejiwaan para pemainnya
+beberapa jenis permainan dianggap bisa meningkatkan fisik dan mental salah satu era game berplatform mobile, bersaing dengan game klasik seperti nintendo atau playstation portable
+bagi para developer game dan mahasiswa, ini sangat menarik untuk di kembangkan atau hanya sekedar membuat game sederhana
+apple ios merupakan perintis awal dalam coding game, akan tetapi apple memiliki sistem yang tetutup
+dengan sistem seperti ini kita tidak dapat bebas untuk mengembangkan aplikasi berbasis ios membutuhkan mac untuk develop ios
+pada tahun 2008 hadirlah android untuk bersaing pada pasar mobile dengan ios dan blackberry
+dengan munculnya android setiap orang bisa mengembangkan aplikasi berplatform baru ini dilansir analis flurry, baik ios maupun android ternyata telah menguasai pangsa pasar game dengan pendapatan 58% pada tahun 2011, dimana sebelumnya tepatnya pada dua tahun yang lalu pasar ini masih dikuasai oleh nintendo dengan perolehan pangsa pasar 70%
+saat ini nintendo memiliki 36% pangsa pasar sedangkan sony hanya memperoleh 6% saja
+melihat hasil laporan dari flurry itu menunjukkan bahwa pangsa pasar game android sudah meningkat dengan pesat
+dengan demikian peluang bisnis game android sangat menjanjikan untuk di kembangkan 
+algoritma breadth first search yang akan mencari solusi dengan cara melintasi jalur secara melebar
+algoritma breadth first search merupakan algoritma yang buntu dan jika ada satu solusi maka breadth first search akan menemukannya dan jika ada lebih dari solusi maka solusi minimum akan ditemukan
+algoritma lain yang bisa dalam menyelesaikan kasus adalah algoritma depth first search, dimana algoritma ini menyelesaikan kasus secara kedalaman
+pada algoritma depth first search, pencarian dilakukan pada seluruh node dalam pohon pencarian, yang berguna untuk mengecek tiap node pada pohon pencarian
+algoritma lain yang juga bisa menyelesaikan suatu kasus adalah algoritma best first search
+algoritma best first search merupakan algoritma gabungkan dari algoritma melebar dan kedalaman
+algoritma best first search akan mencari rute terbaik dalam menyelesaikan node-node yang tersedia
+artificial intelligence atau pengautomatisasi tingkah laku cerdas
+definisi ini menunjukkan bahwa ai adalah bagian dari komputer sehingga harus didasarkan pada sound theoretical dan prinsip-prinsip aplikasi dari bidangnya
+prinsip-prinsip ini meliputi struktur data yang digunakan dalam representasi pengetahuan, algoritma yang diperlukan untuk mengaplikasikan teknik pemrograman yang digunakan permasalahan ai
+keberhasilan suatu kesuksesan dalam pencarian dan pencocokan
+ada beberapa aplikasi yang menggunakan teknik pencarian ini, yaitu : 1
+papan game dan puzzle 
+penjadwalan dan masalah routing 
+parsing bahasa dan inteprestasinya 
+logika pemrograman 
+sistem pakar bebasis kaidah 
+pencarian adalah proses mencari sekumpulan kemungkinan ruang keadaan suatu ruang yang berisi semua keadaan yang mungkin
+kondisi suatu pencarian meliputi : dijangkau dan perlu diperiksa apakah telah mencapai sasaran
+solusi merupakan suatu lintasan dari keadaan awal sampai keadaan tujuan
+secara umum, proses pencarian dapat dilakukan seperti berikut : 2
+mengeksekusi aksi yang dibolehkan untuk memindahkan ke keadaan berikutnya
+breadth first search adalah algoritma yang melakukan pencarian simpul kemudian mengunjungi semua tersebut terlebih dahulu
+selanjutnya, bertetangga dengan simpul-simpul yang tadi dikunjungi, demikian seterusnya
+untuk mengaplikasikan algoritma ini dalam persoalan-persoalan teori graf
+dengan kata lain, simpul cabang atau anak yang terlebih dahulu dikunjungi
+berdasarkan gambar diatas, proses pencarian dilakukan dengan mengunjungi simpul terakhir
+jika tujuan yang diinginkan belum tercapai maka pencarian dilanjutkan ke cabang sebelumnya, turun ke bawah jika memang masih ada cabangnya
+begitu seterusnya hingga search, seperti halnya breadth first search, juga memiliki kelebihan di antaranya adalah cepat mencapai panjang maka depth first search tidak akan memboroskan waktu untuk melakukan sejumlah besar keadaan first search jauh lebih efisien untuk ruang pencarian dengan banyak cabang karena tidak perlu mengeksekusi semua simpul pada suatu level tertentu pada daftar open
+selain itu, depth first search memerlukan memori yang relatif kecil karena banyak node pada lintasan yang aktif saja yang disimpan
+metode yang membangkitkan successor dengan mempertimbangkan harga dari mengilustrasikan langkah-langkah yang kemudian semua sukseor a dibangkitkan, dan dicari harga yang minimal pada langkah 2, node d dibangkitkan, kemudian harganya akan dibandingkan dengan harga node b dan c
+ternyata harga node b paling kecil dibandingkan harga node c, e, dan f
+sehingga b terpilih dan selanjutnya akan dibangkitkan semua suksesor b
+hasil eksperimen mobile dengan platform android 2.3 atau gingerbread, berikut adalah antarmuka saat menekan tombol fitur yang tersedia
+pengujian dilakukan secara blackbox untuk melihat apakah pergeseran sesuai atau tidak dan secara whitebox menggunakan fitur yang terdapat pada program eclipse yaitu fitur untuk melihat kondisi-kondisi yang terdapat pada telah dilakukan dan hasilnya telah sesuai dengan apa yang diharapkan
+pengujian yang telah dilakukan antara lain : a
+pengujian secara blackbox pengujian dilakukan pada sistem dengan mengamati hasil eksekusi fungsional dari perangkat lunak
+pengujian dilakukan dari sisi antarmuka yang akan memeriksa apakah sistem pada aplikasi berjalan dengan benar sesuai dengan yang diharapkan
+didasarkan pada pengecekan terhadap detail perancangan, memeriksa apakah sistem pada aplikasi berjalan dengan benar sesuai dengan yang diharapkan
+3.2 hasil pergeseran angka pengujian berikut dilakukan pada aktifitas permainan ketika penggunakan aplikasi
+pengujian dilakukan dengan menggunakan fitur pada dan pergeseran yang dipilih oleh sistem
+pengujian metode breadth pengujian berikut dilakukan pada ketika pengguna memilih tombol breadth
+pengujian dilakukan dari keadaan awal susunan puzzle
+hasil pergeseran metode breadth keterangan : state = kondisi susunan angka b.kr = bobot angka sebelah kiri dari posisi kosong b.kn = bobot angka sebelah kanan dari posisi kosong ak.a = nilai angka di atas dari posisi kosong ar.a = posisi angka di atas dari posisi kosong dalam array ak.b = nilai angka di bawah dari posisi kosong ar.b = posisi angka di bawah dari posisi kosong dalam array ak.kr = nilai angka di kiri dari posisi kosong ar.kr = posisi angka di kiri dari posisi kosong dalam array ar.kn = posisi angka di kanan dari posisi kosong dalam array berhasil atau tidak state b.kr b.k n p.k p.t kn ges 568203714 2 1 4 5 6 1 1 7 2 3 3 5 y 508263714 2 3 1 0 -1 -1 6 4 5 0 8 2 y 258763104 2 3 7 6 6 4 -1 -1 1 6 4 8 y 258763014 10 3 6 7 7 3 -1 -1 -1 -1 1 7 y 658037421 10 2 3 4 6 0 4 6 -1 -1 3 4 y 658307421 3 3 4 5 5 1 2 7 3 3 7 5 y 608357421 3 3 1 2 -1 -1 5 4 6 0 8 2 y 068357421 10 2 0 1 -1 -1 3 3 -1 -1 6 1 y 120473586 10 10 2 -1 -1 -1 3 5 2 1 -1 -1 t b
+pengujian metode depth pengujian berikut dilakukan pada ketika pengguna memilih tombol depth
+hasil pergeseran metode depth keterangan : state = kondisi susunan angka b.kr = bobot angka sebelah kiri dari posisi kosong b.kn = bobot angka sebelah kanan dari posisi kosong p.k = posisi kosong dalam array p.t = posisi terpilih dalam array ak.a = nilai angka di atas dari posisi kosong ar.a = posisi angka di atas dari posisi kosong dalam array ak.b = nilai angka di bawah dari posisi kosong ar.b = posisi angka di bawah dari posisi kosong dalam array ak.kr = nilai angka di kiri dari posisi kosong ar.kr = posisi angka di kiri dari posisi kosong dalam array ar.kn = posisi angka di kanan dari posisi kosong dalam array ges = hasil dari pergerakan apakah berhasil atau tidak c
+pengujian metode best pengujian berikut dilakukan pada ketika pengguna memilih tombol best
+hasil pergeseran metode best keterangan : state = kondisi susunan angka b.kr = bobot angka sebelah kiri dari posisi kosong p.k = posisi kosong dalam array p.t = posisi terpilih dalam array ak.a = nilai angka di atas dari posisi kosong kosong dalam array kosong ar.b = posisi angka di bawah dari posisi kosong dalam array kosong ar.kr = posisi angka di kiri dari posisi kosong dalam array ar.kn = posisi angka di kanan dari posisi kosong dalam array ges = hasil dari pergerakan apakah berhasil atau tidak disimpulkan bahwa : 1
+hasil perancangan dan pengujian menunjukan bahwa aplikasi ini dapat digunakan dan berjalan dengan lancar pada perangkat mobile platform notifikasi sesuai kondisi potongan fitur logcat yang terdapat pada program eclipse
+fitur atur dapat berjalan dengan baik jika pengguna memasukkan angka sesuai ketentuan, yaitu angka 0-8
+ketiga metode akan bekerja jika salah satu state diantara blank tile berada pada posisi yang bukan sebenarnya
+pengantar unified modeling kuliah umum ilmukomputer.com aplikasi mobile yang paling populer http://www.teknojurnalcom/2011/07/0 teknik untan

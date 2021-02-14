@@ -1,0 +1,90 @@
+ingkungan universitas tanjungpura menggunakan algoritma rijndael 2, m
+azhar irwansyah deni@probowsolution.com 1, helfi_nasution@yahoo.com untuk mengambil keputusan penting dalam kehidupan manusia
+voting digunakan untuk menghimpun aspirasi dari seluruh elemen masyarakat dan kemudian dijadikan sebagai jalan keluar yang dianggap paling baik untuk menyelesaikan permasalahan
+universitas yang melaksanakan pemilihan pejabat struktural setiap beberapa tahun sekali
+e-voting atau e- election adalah sebuah teknologi yang menjanjikan untuk memperbaiki banyak masalah pada pemungutan suara yang dilakukan secara konvensional, dan secara komprehensif memiliki potensi untuk memecahkan masalah yang ada selama ini terutama solusi untuk meminimalkan kemungkinan kerugian walaupun masih terdapat satu masalah yang akan selalu ada pada semua jenis sistem elektronik yaitu kemungkinan kehilangan suara
+aplikasi web ini dapat digunakan dalam beberapa pemilihan yang berlangsung secara bersamaan, dan sifatnya dinamis tanpa perlu mengubah ulang script jika ingin menggunakannya
+salah satu cara untuk melindungi data dari pihak yang tidak diinginkan adalah dengan mengacak data yang dikirim tersebut, sehingga apabila data tersebut diterima oleh pihak lain, mereka tidak memahami maksud data tersebut
+algoritma rijndael terpilih sebagai algoritma kriptografi yang dapat melindungi informasi dengan baik serta efisien dalam implementasinya dan dinobatkan sebagai aes
+rijndael termasuk dalam jenis algoritma kriptografi yang sifatnya simetri dan blok sandi
+dengan demikian algoritma ini mempergunakan kunci yang sama saat enkripsi dan dekripsi serta masukan dan keluarannya berupa blok dengan jumlah bit tertentu
+hasil pengujian dan perancangan menunjukkan bahwa aplikasi ini dapat digunakan untuk pemilihan pejabat struktural di lingkungan universitas tanjungpura
+hasil pengujian enkripsi/dekripsi menunjukkan bahwa waktu singkat dan cepat, serta algoritma rijndael memiliki pola chipertext = 44 karakter dari panjang karakter plaintext = 32 karakter dan berlaku kelipatannya
+hasil perhitungan suara ditampilkan menggunakan diagram batang tiap kandidat pemilihan
+voting digunakan mulai dari tingkat masyarakat terkecil, yaitu keluarga, sampai dengan sebuah negara
+voting digunakan untuk menghimpun aspirasi dari seluruh elemen masyarakat dan kemudian dijadikan sebagai jalan keluar yang dianggap paling baik untuk menyelesaikan permasalahan
+perguruan tinggi yang melaksanakan pemilihan pejabat struktural setiap beberapa tahun sekali
+pelaksanaan pemilihan dilakukan mulai dari tingkat prodi, fakultas, sampai tingkat universitas 
+mahasiswa/dosen yang mempunyai hak pilih datang ke tempat pemungutan suara pada saat hari pemilihan
+mereka kemudian mencoblos atau mencontreng kertas suara dan kemudian memasukkan ke kotak suara
+setelah proses pemungutan suara selesai, kemudian dilakukan penghitungan suara
+konvensional, dan secara komprehensif memiliki potensi untuk memecahkan masalah yang ada selama ini terutama solusi untuk meminimalkan kemungkinan kerugian walaupun masih terdapat satu masalah yang akan selalu ada pada semua jenis sistem elektronik yaitu kemungkinan kehilangan suara
+kekhawatiran dan semua yang diharapkan oleh pengirim data dapat teratasi
+salah satu dari teknik kriptografi adalah rijndael
+rijndael termasuk dalam jenis algoritma kriptografi yang sifatnya simetri dan blok sandi
+dengan demikian algoritma ini mempergunakan 2 kunci yang sama saat enkripsi dan dekripsi serta masukan dan keluarannya berupa blok dengan jumlah bit tertentu
+rijndael mendukung berbagai variasi ukuran blok dan kunci yang akan digunakan
+namun rijndael mempunyai ukuran blok dan kunci yang tetap sebesar 128, 192, 256 bit
+pemilihan ukuran blok data dan kunci akan menentukan jumlah proses yang harus dilalui untuk proses enkripsi dan dekripsi
+yang menjanjikan untuk memperbaiki banyak masalah pada pemungutan suara yang dilakukan secara konvensional, dan secara komprehensif memiliki potensi untuk memecahkan masalah yang ada selama ini terutama solusi untuk meminimalkan kemungkinan kerugian walaupun masih terdapat satu masalah yang akan selalu ada pada semua jenis sistem elektronik yaitu kemungkinan kehilangan suara
+secara terbatas oleh bangsa mesir 4000 tahun lalu
+kriptografi berasal dari dua kata yaitu yang dalam sudut bahasa dapat diartikan rahasia dan dapat diartikan tulisan jadi kriptografi dapat diartikan sebagai suatu ilmu atau seni untuk mengamankan pesan agar aman dan dilakukan oleh 
+yang sifatnya simetri dan cipher block
+dengan demikian algoritma ini mempergunakan kunci yang sama saat enkripsi dan dekripsi serta masukan dan keluarannya berupa blok dengan jumlah bit tertentu
+rijndael mendukung berbagai variasi ukuran blok dan kunci yang akan digunakan
+namun rijndael mempunyai ukuran blok dan kunci yang tetap sebesar 128, 192, 256 bit
+pemilihan ukuran blok data dan kunci akan menentukan jumlah proses yang harus dilalui untuk proses enkripsi dan dekripsi
+berikut adalah perbandingan jumlah proses yang harus dilalui untuk masing-masing masukan
+setiap anggota array sebelum menghasilkan keluaran ciphertext dinamakan dengan state
+setiap state akan mengalami proses yang secara garis besar terdiri dari empat tahap yaitu, addroundkey, subbytes, shiftrows, dan mixcolumns
+kecuali tahap mixcolumns, ketiga tahap lainnya akan diulang pada setiap proses sedangkan tahap mixcolumns tidak akan dilakukan pada tahap terakhir
+proses dekripsi adalah kebalikkan dari enkripsi
+add round key pada proses ini subkey digabungkan dengan state
+proses penggabungan ini menggunakan operasi xor untuk setiap byte dari subkey dengan byte yang bersangkutan dari state
+untuk setiap tahap, subkey dibangkitkan dari kunci utama dengan menggunakan proses key schedule
+setiap subkey berukuran sama dengan state yang bersangkutan
+subbytes proses subbytes adalah operasi yang akan melakukan substitusi tidak linear dengan cara mengganti setiap byte state dengan byte pada sebuah tabel yang dinamakan tabel s-box
+sebuah tabel s-box terdiri dari 16x16 baris dan kolom dengan masing-masing berukuran 1 byte
+shift rows proses shift rows akan beroperasi pada tiap baris dari tabel state
+proses ini akan bekerja dengan cara memutar byte-byte pada 3 baris terakhir dengan jumlah perputaran yang berbeda- beda
+baris 1 akan diputar sebanyak 1 kali, baris 2 akan diputar sebanyak 2 kali, dan baris 3 akan diputar sebanyak 3 kali
+bytes dari setiap kolom tabel state dan menggunakan transformasi linier
+operasi polinomial 4 suku dalam galois field dan kemudian dikalikan dengan c modulo, dimana c =3x3 +x2+x+2
+operasi mixcolumns juga dapat dipandang sebagai perkalian matrix
+tahapan penting dalam pembangunan perangkat lunak
+proses pengujian dilakukan untuk menentukan kebenaran perangkat lunak
+aktivitas yang terjadi dalam pengujian perangkat lunak terdiri dari pengujian kode program hingga kegiatan percobaan terhadap perangkat lunak yang sudah berfungsi
+adapun tujuan dari pengujian perangkat lunak adalah sebagai berikut: untuk mengidentifikasi dan menyatakan sebanyak mungkin error yang dimiliki oleh perangkat lunak yang diuji
+untuk membawa perangkat lunak yang diuji ke tingkat kualitas yang dapat diterima, setelah perangkat lunak tersebut mengalami pembetulan atau koreksi atas error yang ditemukan
+untuk melaksakan uji-uji yang dibutuhkan secara efisien dan efektif, dalam keterbatasan budget dan waktu penjadwalan
+implikasinya yang mengacu pada kualitas perangkat lunak tidak dapat terlalu ditekan karena melibatkan sederetan aktivitas produksi di mana peluang terjadinya kesalahan manusia sangat besar dan arena ketidakmampuan manusia untuk melakukan dan berkomunikasi dengan sempurna maka pengembangan perangkat lunak diiringi dengan aktivitas jaminan kualitas
+gambar sistem usulan sistem yang akan dibangun menggunakan web, sehingga memudahkan dalam pengaksesan dan memanajemen sistem fitur yang ada, adapun gambaran sistem yang dibangun adalah : b
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap aktivitas yang berlangsung pada rancangan e-voting pemilihan di universitas tanjungpura
+diagram konteks memperlihatkan bahwa subjek yang terlibat langsung dalam proses sistem adalah: c
+analisis kebutuhan sistem sistem yang dibangun berbasis web dimaksudkan untuk dapat diakses oleh banyak user 
+desain arsitektur sistem dapat dilihat pada gambar 3 sebagai berikut : d
+hasil perancangan desain halaman awal pemilih berfungsi sebagai halaman untuk melakukan proses pemilihan suara
+halaman ini merupakan halaman setelah halaman awal dan dapat diakses tanpa melalui proses login terlebih dahulu hanya melalui perubahan status memilih yang dioperasikan oleh operator
+jadi pemilih tidak perlu memasukkan password ataupun sejenisnya untuk mengakses aplikasi, karena aplikasi siap digunakan langsung
+halaman awal pemilih diperlihatkan pada gambar 4 dibawah ini admin data admin data pemilih data kandidat data operator info operator, info pemilih, info kandidat, info data fakultas, info data jurusan, info data prodi, info hasil perhitungan suara data hasil pilihan, data kandidat, data pemilih operato r data pemilih halaman login merupakan halaman bagi operator dan admin untuk masuk kedalam menu aplikasi untuk mengelola konten
+halaman login diperlihatkan pada gambar 5 dibawah ini : halaman dashboard/beranda merupakan halaman menggunakan grafik
+antarmuka halaman dibawah ini : bagi admin dan operator untuk melakukan proses pengelolaan pemilih tersebut
+halaman management pemilih dapat dilihat pada gambar 8 dibawah ini : gambar 7 halaman management pemilih halaman management kandidat, merupakan proses penambahan, pembaharuan serta menampilkan table kandidat
+halaman management kandidat dapat dilihat pada gambar 8 dibawah ini : gambar 8 halaman management kandidat e
+hasil pengujian black box pengujian berikut dilakukan pada menu login admin dan operator
+hasil pengujian dapat dilihat pada tabel 1 dibawah ini : admin/operator data pemilih
+hasil pengujian dapat dilihat pada tabel 2 dibawah ini : pengujian berikut dilakukan pada halaman input data kandidat
+hasil pengujian dapat dilihat pada tabel 3 dibawah ini : pengujian berikut dilakukan pada halaman input data kunci enkripsi
+hasil pengujian dapat dilihat pada tabel 4 dibawah ini : pengujian berikut dilakukan pada halaman input data enkripsi dan dekripsi
+hasil pengujian dapat dilihat pada tabel 5 dibawah ini : tabel 5 hasil pengujian halaman input data enkripsi dan dekripsi 6 f
+analisis hasil pengujian berikut merupakan analisis hasil perancangan dan pengujian e-election pemilihan di lingkungan universitas tanjungpura menggunakan algoritma rijndael : 1
+sistem akan menghalangi user yang memasukkan username dan password yang salah ketika proses login sehingga sistem hanya dapat diakses oleh user yang memiliki hak akses
+hasil pengujian menunjukkan bahwa saat dilakukan input data dengan menggunakan metode black box, input data dengan keseluruhan data kosong akan menimbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan sudah ditangani pada kode program sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+hasil pengujian menunjukkan bahwa saat dilakukan input data dengan salah satu data yang bernilai kosong akan menyebabkan kesalahan apabila data tersebut tidak diperbolehkan kosong di dalam basis data
+pada sistem ini kemungkinan tersebut sudah ditangani pada kode program sehingga akan muncul pesan kesalahan jika ada salah satu data yang belum diisi
+teks yang memiliki panjang karakter sedikit ataupun panjang karakter banyak tidak mempengaruhi waktu pemrosesan enkripsi/dekripsi dan hanya berlangsung dalam waktu singkat
+panjang kunci 256 bit panjang karakter plaintext sebanyak kurang dari atau sama dengan 32 karakter menghasilkan chipertext dengan panjang karakter 44 karakter dan berlaku kelipatan dari plaintext
+hasil perancangan dan pengujian menunjukkan bahwa sistem sudah baik untuk setiap aspek pada metode rijndael
+hasil perancangan dan pengujian sistem menunjukkan bahwa sistem ini menjadi solusi untuk melakukan voting pejabat struktural pada lingkungan universitas tanjungpura pontianak

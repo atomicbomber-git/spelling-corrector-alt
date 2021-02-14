@@ -1,0 +1,95 @@
+perbankan daerah di indonesia yang berpusat di kota pontianak, kalimantan barat
+bank kalbar memiliki sumber daya manusia yang bekerja untuk mengoptimalkan dan meningkatkan kemajuan perusahaan sehingga mampu bersaing dengan lembaga keuangan berjenis perbankkan lainnya
+kualitas dari sumber daya manusia merupakan salah satu faktor dalam upaya meningkatkan kualitas suatu perusahaan yang diukur dengan penilaian kinerja pegawai
+penilaian kinerja bank kalbar menggunakan sistem penilaian berbasis kompetensi yang diukur oleh kompetensi pencapaian prestasi kerja yang dilakukan oleh pegawai dalam kelompok yaitu pejabat dan pelaksana, dimana didalam proses penilaian masih secara manual dan bersifat searah
+hal ini mengakibatkan proses penilaian terhadap pegawai memiliki hasil yang kurang maksimal dan rentan oleh peluang kesalahan dalam perhitungan hasil akhir penilaian kinerja pegawai kontrak
+penelitian ini bertujuan untuk menghasilkan sebuah sistem pendukung keputusan penilaian kinerja pegawai bank kalbar dengan menerapkan metode 360 degree
+saat ini sistem pendukung keputusan sudah digunakan dalam berbagai bidang, tidak terkecuali dalam proses penilaian kinerja pegawai
+banyak metode yang dapat digunakan dalam sistem pendukung keputusan, salah satunya metode yang digunakan dalam penelitian ini adalah metode 360 degree
+metode 360 degree adalah suatu metode penilaian kinerja pegawai untuk memperoleh penilaian dari segala arah, dari atasan, bawahan dan rekan kerjanya
+metode 360 degree menilai secara objektif dan juga merupakan suatu metode yang berdasarkan multi kriteria
+sistem ini akan menghasilkan nilai akhir dari penilaian kinerja pegawai bank kalbar berupa keputusan kelanjutan kontrak kerja pegawai kontrak atau tidak dapat melanjutkan kontrak kerja
+berdasarkan pengujian validasi terhadap 3 data kasus penilaian kinerja pegawai kontrak, sistem yang dihasilkan dapat menerapkan metode 360 degree dengan tingkat keberhasilan sistem sebesar 100 % dan dapat ditarik kesimpulan bahwa sistem dinilai sangat valid
+bank kalbar memiliki sumber daya manusia yang bekerja untuk mengoptimalkan dan meningkatkan kemajuan perusahaan sehingga mampu bersaing dengan lembaga keuangan berjenis perbankan lainnya
+kualitas sumber daya manusia merupakan salah satu faktor dalam upaya meningkatkan kualitas suatu perusahaan
+kualitas sumber daya manusia diukur dengan adanya penilaian kinerja pegawai
+kinerja merupakan suatu fungsi dari motivasi dan kemampuan untuk menyelesaikan tugas atau pekerjaan, seseorang harus memiliki derajat kesediaan dan tingkat kemampuan tertentu
+penilaian kinerja merupakan salah satu cara untuk mengendalikan individu tenaga kerja kearah yang lebih baik dan merupakan alat untuk mengukur kontribusi karyawan terhadap suatu organisasi dan untuk mengembangkan diri karyawan itu sendiri
+penilaian kinerja yang baik adalah mampu untuk menciptakan gambaran yang tepat mengenai kinerja pegawai yang dinilai
+penilaian tidak hanya untuk menilai dan memperbaiki kinerja yang buruk, namun juga untuk mendorong para pegawai untuk bekerja lebih baik
+kinerja merupakan suatu kondisi yang harus diketahui dan dikonfirmasi kepada pihak tertentu untuk mengetahui tingkat pencapaian hasil suatu perusahaan
+sistem penilaian kinerja pegawai pada bank kalbar yaitu penilaian prestasi kerja berbasis kompetensi yang dilakukan oleh pegawai dalam kelompok yaitu pejabat dan pelaksana
+saat ini, penilaian prestasi kerja pada bank kalbar masih dilakukan secara manual dikarenakan bank kalbar pada tahun 2015 masih dalam proses pengembangan kedalam sebuah aplikasi
+proses penilaian untuk saat ini dilakukan dengan menggunakan form penilaian kinerja pegawai
+format form penilaian dikirimkan ke setiap cabang bank kalbar yang tersebar di seluruh kalimantan barat oleh kantor pusat bank kalbar pontianak
+form penilaian kinerja pegawai terdiri dari lima lembar kertas penilaian untuk satu pegawai
+penilaian hanya dilakukan oleh pejabat atau pelaksana disetiap kantor cabang
+oleh karena itu, proses penilaian terhadap pegawai memiliki hasil yang kurang maksimal dan rentan terhadap peluang kesalahan dalam perhitungan hasil akhir penilaian kinerja pegawai
+berdasarkan hal tersebut maka diperlukan sebuah rekomendasi untuk pencapaian hasil kinerja pegawai dalam suatu sistem cerdas sistem pendukung keputusan untuk penilaian kinerja pegawai bank kalbar
+sistem pendukung keputusan adalah suatu sistem yang dapat membantu dalam mengambil suatu keputusan berdasarkan kriteria ataupun faktor-faktor pendukung
+metode sistem pendukung keputusan yang diterapkan dalam sistem ini yaitu metode 360 degree
+metode 360 degree merupakan metode dengan penilaian melingkar, sesuatu yang dapat dinilai berdasarkan penilaian semua faktor yang mempengaruhinya
+rujukanmenjelaskan bahwa metode 360 degree merupakan penilaian kinerja multiscrore yaitu proses penilaian yang dilakukan oleh atasan, rekan sejawat, sistem pendukung keputusan penilaian kinerja pegawai dengan metode 360 degree asti ariesta puteri1, tursina2, anggi srimurdianti sukamto3
+pimpinan, rekan sejawat, bawahan, diri sendiri
+program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 e-mail: 1astiariestap@gmail.com, 2tursina15@yahoo.com, 3anggidianti@gmail.com berbagai sumber dapat menambah keakuratan dan keobyektifan dalam melakukan penilaian kinerja
+sistem ini akan menghasilkan penilaian kinerja pegawai bank kalbar berupa keputusan kelanjutan kontrak kerja pegawai untuk kedepannya
+uraian penelitian prestasi yang dipengaruhi oleh kegiatan operasional perusahaan dalam memanfaatkan sumber-sumber daya yang dimiliki
+kinerja merupakan suatu wujud dari keberhasilan yang dicapai oleh seorang pegawai atas pekerjaannya untuk mencapai tujuan yang telah ditetapkan oleh organisasi
+kinerja sangat dipengaruhi oleh kebijakan atasan dalam menempatkan posisi pegawai sesuai dengan kemampuan yang dimilikinya
+penilaian kinerja efisien, karena adanya kebijakan atau program yang lebih baik atas sumber daya manusia yang ada dalam organisasi
+penilaian kinerja individu sangat bermanfaat bagi dinamika pertumbuhan organisasi secara keseluruhan, melalui penilaian tersebut maka dapat diketahui kondisi sebenarnya tentang bagaimana kinerja pegawai
+rujukanmenjelaskan bahwa penilaian kinerja adalah proses evaluasi seberapa baik pegawai mengerjakan pekerjaan mereka ketika dibandingkan dengan satu set standar, dan kemudian mengkomunikasikannya dengan para pegawai
+sistem pendukung keputusan diperkenalkan pada awal tahun 1970-an oleh michael s
+scott morton dengan istilah management decision system
+sistem pendukung keputusan merupakan sistem informasi interaktif yang menyediakan informasi, pemodelan, dan manipulasi data
+sistem digunakan untuk membantu pengambilan keputusan dalam situasi yang semi terstruktur dan situasi tidak terstruktur, dimana tidak seorangpun mengetahui secara pasti bagaimana keputusan seharusnya dibuat
+konsep pendukung keputusan ditandai dengan sistem interaktif berbasis komputer yang membantu pengambil keputusan memanfaatkan data dan model untuk menyelesaikan masalah- masalah yang tidak terstruktur
+pada dasarnya spk dirancang untuk mendukung seluruh tahap pengambilan keputusan mulai dari mengidentifikasi masalah, memilih data yang relevan, menentukan pendekatan yang digunakan dalam proses pengambilan keputusan, sampai mengevaluasi pemilihan alternatif
+yaitu proses penilaian yang dilakukan oleh atasan, rekan sejawat, dan diri sendiri 
+cara kerja metode penilaian 360 degree adalah penilaian seorang pegawai tidak saja diambil dari penilaian atasan langsung ataupun atasan kedua diatasnya, akan tetapi dimintakan dari rekan sekerja yang satu level maupun dari bawahan langsung yang bersangkutan
+manfaat yang akan diperoleh dalam menerapkan penilaian 360 degree adalah semua penilaian yang diberikan tidak hanya dari atasan akan tetapi penilaian dari pimpinan, bawahan, rekan sejawat dan diri sendiri dapat memberikan hasil yang sangat akurat dan objektif mengenai kinerja pihak yang dinilai
+semua informasi yang diperoleh dari berbagai sumber dapat menambah keakuratan dan keobyektifan dalam melakukan penilaian kinerja
+keterangan: kriteria ke-k pada kriteria ke-k kriteria ke-k kriteria ke-k penilai ke-i j = 1, 2, 3…m; m = jumlah bobot penilai k = 1, 2, 3…n; n = jumlah kriteria untuk hasil akhir penilaian digunakan rumus sebagai berikut: gambar 1 metode 360 degree sumber: keputusan penilaian kinerja pegawai berbasis web yang dapat diakses oleh user melalui komputer untuk penilaian kinerja pegawai kontrak
+desain arsitektur sistem pendukung keputusan penilaian kinerja pegawai dapat dilihat pada gambar 2 sebagai berikut: b
+diagram overview sistem menggambarkan proses-proses secara garis besar
+pada diagram ini proses dibagi menjadi lebih dari satu
+proses-proses yang terjadi digambarkan pada gambar 3 sebagai berikut: username, password 1.0 login a i in fo a i in fo te ri k o n fr im a s i diagram hubungan antar tabel merupakan hubungan pada suatu tabel dengan tabel-tabel lainnya yang berfungsi untuk mengatur operasi suatu database
+pada sistem pendukung keputusan penilaian kinerja pegawai memiliki 10 tabel
+berikut adalah relasi antar tabel dari sistem pendukung keputusan yang akan dirancang: iv
+hasil dan analisis bank kalbar dengan metode 360 degree merupakan sistem yang bertujuan untuk menerapkan metode 360 degree dalam menentukan perpanjangan kontrak kerja pegawai kontrak bank kalbar cabang sukadana
+antarmuka halaman utama merupakan tampilan awal dari sistem pendukung keputusan penilaian kinerja pegawai bank kalbar dengan metode 360 degree
+halaman utama terdiri dari 2 menu yaitu home dan login
+antarmuka halaman utama dapat dilihat pada gambar 4 sebagai berikut
+antarmuka halaman login berisi form login untuk proses verifikasi pengguna sistem baik itu atasan, rekan kerja dan pegawai kontrak yang akan dinilai 
+apabila 4 mengakses menu-menu yang ada pada sistem
+antamuka halaman login pengguna dapat dilihat pada gambar 5 berikut
+gambar 5 antarmuka halaman login penilai pada antarmuka halaman data penilaian merupakan halaman untuk melihat data-data pegawai yang akan dinilai maupun yang belum dinilai
+jika terdapat pegawai kontrak yang belum dinilai maka penilai dapat melakukan penilaian dengan mengeklik tombol menilai pada tabel penilaian
+antarmuka halaman penilaian dapat dilihat pada gambar 6 berikut
+gambar 6 antarmuka halaman data penilaian pada halaman hasil penilaian, atasan dapat melihat hasil akhir dari setiap penilai-penilai dan detail nilai dari setiap pegawai kontrak yang telah dinilai
+antarmuka sub halaman hasil penilaian dapat dilihat pada gambar 7 berikut
+gambar 7 antarmuka sub halaman hasil penilaian pada halaman detail nilai hasil penilaian akhir, atasan dapat melihat detail nilai dari keseluruhan data nilai yang telah dimasukkan oleh penilai-penilai
+antarmuka halaman detail nilai hasil penilaian akhir penilaian kinerja pegawai kontrak dapat dilihat pada gambar 8 berikut
+gambar 8 antarmuka halaman detail nilai hasil penilaian akhir pada halaman login digunakan oleh admin untuk dapat mengakses sistem pendukung keputusan dengan memasukan 5 apabila data login yang telah dimasukkan sesuai, maka pengguna dapat mengakses menu-menu yang ada pada sistem
+antarmuka hasil perancangan halaman login admin dapat dilihat pada gambar 9 berikut
+gambar 9 antarmuka halaman login admin antarmuka halaman tambah penilaian digunakan untuk memasukkan data penilai dan pegawai kontrak yang akan dinilai
+antarmuka halaman tambah data penilaian dapat dilihat pada gambar 10 berikut
+hasil pengujian sistem antara hasil penilaian oleh bank kalbar dan hasil penilaian kinerja pegawai kontrak menggunakan sistem pendukung keputusan dengan metode 360 degree
+berikut adalah tabel yang menampilkan hasil pengujian validasi sistem
+tabel 1 pada tabel 1 dapat diketahui informasi antara lain : 1
+jumlah kasus yang di uji sebanyak 9 data nilai pegawai kontrak
+nilai kuantitatif hasil penilaian bank kalbar dari 9 kasus data nilai penilaian kinerja pegawai kontrak didapatkan 6 bank kalbar
+hasil keluaran penilaian kinerja pegawai kontrak bank kalbar cabang sukadana bagian teller dengan perhitungan bank kalbar sesuai dengan hasil keluaran sistem
+kesesuaian hasil didapatkan dari perbandingan antara hasil akhir penilaian kinerja pegawai kontrak dengan menggunakan sistem dan hasil akhir penilaian kinerja pegawai kontrak dengan perhitungan manual oleh bank kalbar berdasarkan kategori nilai yaitu nilai kualitatif dari pegawai kontrak yang telah dinilai
+kesesuaian hasil dikatakan sesuai apabila output penilaian dari sistem dengan perhitungan penilaian oleh dari bank kalbar memiliki output yang sama, sedangkan kesesuaian hasil dikatakan tidak sesuai apabila output sistem penilaian dengan perhitungan penilaian oleh bank kalbar tidak sama
+hasil output sistem yang sesuai dengan hasil penilaian sebelumnya berjumlah 8 data kasus dan hasil penilaian yang tidak sesuai berjumlah 1 data kasus
+berdasarkan hasil pengujian validasi sistem, maka nilai keakuratan dapat dihitung sebagai berikut
+nilai keakuratan = 8 sistem pendukung keputusan penilaian kinerja pegawai dapat disimpulkan sebagai berikut
+pengguna dapat mengakses sistem untuk menilai setelah melakukan login
+pengguna yang memiliki status sebagai atasan dapat melihat hasil penilaian dari pegawai kontrak yang telah di nilai
+metode 360 degree dapat diterapkan pada sistem pendukung keputusan penilaian kinerja pegawai berdasarkan pengujian validitas
+hasil pengujian blackbox menunjukkan saat dilakukan input sebuah data, ketika masukan data dengan keseluruhan atau sebagian sistem dapat menangani data sesuai dengan yang diharapkan
+disimpulkan bahwa perangkat lunak yang dirancang dinilai sangat valid
+kesimpulan/ringkasan pendukung keputusan penilaian kinerja pegawai dengan metode 360 degree, dapat disimpulkan bahwa: 1
+metode 360 degree dapat diterapkan dalam sistem pendukung keputusan penilaian kinerja pegawai berdasarkan hasil pengujian 9 data kasus penilaian pegawai kontrak bank kalbar dengan tingkat keberhasilan sistem sebesar 88, 89% dimana sistem memiliki validitas sangat valid
+kinerja pegawai bank kalbar khususnya pegawai kontrak bank kalbar cabang sukadana bagian teller berupa pernyataan bahwa pegawai dapat melanjutkan kontrak kerja atau tidak dapat melanjutkan kontrak kerja berdasarkan nilai kualitatif yang diperoleh dari hasil akhir penilaian kinerja pegawai yang dinilai

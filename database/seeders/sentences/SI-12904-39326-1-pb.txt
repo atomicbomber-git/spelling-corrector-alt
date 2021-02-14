@@ -1,0 +1,85 @@
+bpn melakukan pengelolaan barang milik negara yaitu pertanahan
+pengelolaan dilakukan dengan cara pengukuran.pengukuran yang dilakukan biasa dengan cara manualhal ini membutuhkan waktu yang cukup lama karena harus melakukan pengukuran dengan cara membentangkan pita ukur sesuai dengan bidang tanah dan membutuhkan lebih dari satu orang untuk mengukurnya
+selain itu, proses perhitungan secara manual perlu dilakukan secara bertahap dan kesulitan dalam mendapatkan informasi mengenai tanah membuat pengukuran lebih sulit untuk dilakukan
+oleh karena itu, diperlukan teknologi untuk membantu karyawan bpn dalam mengukur tanah.sistem informasi geografis pengukuran luas tanah dapat membantu pegawai bpn dalam melakukan pengukuran luas tanah.sistem ini memanfaatkan metode haversine formula yang digunakan untuk mengetahui jarak antara 2 titik dengan meperhitungkan derajat kelengkungan bumi
+hasil dari sistem ini adalah menampilkan bentuk bidang tanah yang diukur beserta luasnya.pengujian pada penelitian ini dilakukan dengan pengujian akurasi dan kuesioner
+hasil pengujian akurasi yang dilakukan terhadap dua titik wilayah tanah menunjukkan bahwa sistem dengan memanfaatkan metode haversine formula menghasilkan selisih panjang sebesar 3.33% terhadap pengukuran menggunakan gps dan 7.33% terhadap pengukuran manual hasil pengujian akurasi juga menunjukkan bahwa system menghasilkan selisih luas sebesar 3.923% terhadap pengukuran menggunakan gps dan 7.846% terhadap pengukuran manualberdasarkan kuesioner yang dibagikan kepada 10 responden pegawai bpn dan melalui pengujian uat didapatkan hasil bahwa sistem ini dinilai positif dan berhasil
+kesimpulannya sistem ini membantu pegawai bpn dalam pengukuran luas tanah dan memudahkan untuk mendapatkan informasi mengenai luas tanah yang telah diukur oleh pegawai bpn
+pertanahan nasional, sistem informasi geografis, haversine formula, pengukuran nasional adalah kementerian yang mempunyai tugas menyelenggarakan urusan di bidang agraria /pertanahan dan tata ruang dalam pemerintahan untuk membantu presiden dalam menyelenggarakan pemerintahan negara
+kementerian agraria dan tata ruang berada di bawah dan bertanggung jawab kepada presiden
+bpn melaksanakan tugas di bidang pertanahan secara nasional, regional dan sektoral bpn diatur melalui peraturan presiden nomor 10 tahun 2006 dan peraturan presiden nomor 85 tahun 2012.bpn melakukan pengelolaan barang milik/kekayaan negara yaitu pertanahan
+pengukuran yang dilakukan biasa dengan cara manualcara manual membutuhkan waktu yang cukup lama karena harus berjalan dengan membentangkan pita ukur sesuai bidang tanah yang akan dikur dan membutuhkan orang yang mengukur lebih dari 1 orang karena harus ada yang memegangkan pita ukur dari 1 titik ke titik yang lain nya.selain itu untuk perhitungan luas tanah yang dilakukan dengan cara perhitungan manual juga rumit karena perhitungan yang dilakukan juga banyak dan bertahap
+sehingga dalam melakukan pengukuran luas tanah membutuhkan waktu yang cukup lama dan tenaga yang besar.di sisi lain susahnya untuk mendapatkan informasi tentang tanah yang telah diukur
+pengukuran dapat dibantu dengan adanya perangkat lunak yang berisikan peta atas sebuah wilayah atau lokasi yang dapat diakses menggunakan sistem yang berbasis web.pada sistem yang berbasis web peta digital yang dapat digunakan adalah google map
+google map dapat diakses dengan browser di perangkat komputer maupun mobile
+google map memiliki fitur geolocation yang dapat digunakan untuk mengetahui lokasi yang ditandai berdasarkan lattitude dan longitude
+sebuah metode untuk mengetahui jarak antar dua titik dengan memperhitungkan bahwa bumi bukanlah sebuah bidang datar namun adalah sebuah bidang yang memilki derajat kelengkungan merupakan metode haversine formula
+metode haversine formula menghitung jarak antara 2 titik dengan berdasarkan panjang garis lurus antara 2 titik pada garis bujur dan lintang
+formula, yaitu putridengan judul aplikasi petunjuk arah kampus gunadarma menggunakan metode haversine, metode haversine sebagai perhitungan jaraknya ke lokasi kampus universitas gunadarma.selain itu juga ada penelitian yang dlakukan oleh prasetyo dan hastutidengan judul penerapan haversine formula pada aplikasi pencarian lokasi dan informasi gereja kristen di semarang berbasis mobile, haversine formula digunakan untuk menghitung jarak dan mencari jarak terdekat antara pengguna aplikasi dan gereja yang dituju
+ada, perlu dibangun sebuah sistem informasi geografis untuk pengukuran luas tanah dan metode yang dapat menunjang penelitian ini adalah haversine formula
+sistem ini dapat membantu pegawai pegawai bpn dalam menyelesaikan tugasnya yaitu pengukuran luas tanah serta dapat memberikan informasi mengenai luas tanah yang telah diukur
+penerapan metode haversine formula pada sistem informasi geografis pengukuran luas tanah ryan herwan dwi putra1, herry sujiani2, novi safriadi3 program studi teknik informatika fakultas teknik universitas tanjungpura123 e-mail: ryan.herwan@gmail.com1, herry_sujaini@yahoo.com2, bangnops@gmail.com3 2 jarak antar dua titik dengan memperhitungkan bahwa bumi bukanlah sebuah bidang datar namun adalah sebuah bidang yang memilki derajat kelengkungan.metode haversine formula menghitung jarak antara 2 titik dengan berdasarkan panjang garis lurus antara 2 titik pada garis bujur dan lintang
+δlat = lat2- lat1 δlong = long2- long1 a = sin2 + cos .cos .sin2 δlat = besaran perubahan latitude δlong = besaran perubahan longitude c = kalkulasi perpotongan sumbu tak beraturan seperti gambar 1
+rumus menghitung luas tanah dapat dilihat pada gambar 1
+gambar 1 segitiga tak beraturan rumus : c
+google maps gratis dan online yang disediakan oleh perusahaan google
+google maps yang dapat ditemukan di alamat http://maps.google.com
+google maps menawarkan peta yang dapat diseret dan gambar satelit untuk seluruh dunia
+google maps juga menawarkan pencarian suatu tempat dan rute perjalanan
+google maps api adalah sebuah layanan yang diberikan oleh google kepada para pengguna untuk memanfaatkan google map dalam mengembangkan aplikasi.google map memiliki fitur geolocation yang dapat digunakan untuk mengetahui lokasi yang ditandai berdasarkan lattitude dan longitude
+mengakses sistem untuk melakukan pengukuran luas tanah dengan menggunakan smartphone dan web browser
+admin mengakses sistem melalui web browser untuk memanajemen data tanah
+pada gambar 2 menunjukkan arsitektur sistem yang dibangun
+gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks memperlihatkan bahwa subjek yang terlibat langsung dalam proses sistem yaitu admin dan user
+pada data flow diagram yang dapat dilihat pada gambar 3
+admin user login, pengolahan data tanah, data kelola data tanah, data kelola setelah diproses gambar 3
+data flow diagram admin adalah pengguna yang memiliki hak akses penuh terhadap aplikasi, bertugas menjalankan manajemen dan menjaga aktivitas aplikasi dan basis data
+pengguna yang menjadi admin adalah orang yang melakukan konfigurasi awal, pemilik aplikasi, orang yang sejak awal didaftarkan menjadi admin yang bekerja di kementian agaria dan tata ruang/badan pertanahan nasional kantor wilayah provinsi kalimantan barat.user adalah pegawai bpn yang mengakses aplikasi
+user dapat melihat informasi yang ada pada aplikasi, user juga dapat melakukan penambahan data tanah berupa luas tanah tersebut
+pengujian akurasi yang dilakukan pada sistem informasi geografis pengukuran luas tanah ini adalah mencoba sistem di lapangan
+hal ini bertujuan untuk mengetahui apakah hasil pengukuran luas tanah pada sistem memang benar.adapun selisih yang terjadi antara aplikasi dan kenyatan
+hasil dan diskusi haversine formula pada sistem informasi geografis untuk pengukuran luas tanah
+aplikasi ini merupakan aplikasi berbasis web, sehingga membutuhkan koneksi internet dalam pengoperasiannya
+aplikasi ini memiliki fungsi sebagai media untuk melakukan pengukuran luas tanah serta dapat memberikan informasi berupa bentuk tanah dan luas tanah yang pernah diukur sebelumnya pada pegawai di kementrian agraria dan tata ruang/badan pertanahan nasional kantor wilayah provinsi kalimantan barat
+pada gambar 4 gambar 5 gambar 6 gambar 7 adalah penjelasan mengenai hasil perancangan antarmuka aplikasi
+hasil pengujian akurasi menghitung selisih antara metode dengan gps dan metode dengan kenyataan
+19.21671594608904 luas gps 100% selisih = 5−5 5 100% = 0% 𝑏𝑎𝑛𝑦𝑎𝑘 𝑠𝑒𝑙𝑖𝑠𝑖ℎ total : 12 selisih = 0 + 0 + 0 + 0 + 0 + 0 + 6.67 + 0 + 0 + 0 + 0 + 33.33 = 40 12 12 panjang yang dihitung memiliki selisih antara perhitungan panjang menggunakan metode haversine formula dengan panjang pada gps dan panjang pada kenyataan
+selisih untuk panjang antara 2 titik dengan menggunakan metode haversine formula dengan panjang ada gps berupa 3.33 % dan selisih metode haversine formula dengan kenyataan berupa 7.33 %
+hasil dari pengujian akurasi luas yang dapat dilihat pada tabel 2
+343.2590640101815 luas gps 100% selisih = 27.856 − 26.0232504964974 27.856 100% = 6.58% 𝑏𝑎𝑛𝑦𝑎𝑘 𝑠𝑒𝑙𝑖𝑠𝑖ℎ = 23.54 6 pada perbedaan luas yang dihitung dari ke 6 bidang tanah memiliki selisih antara perhitungan luas menggunakan metode haversine formula dengan luas pada gps dan luas pada kenyataan
+selisih untuk luas antara 2 titik dengan menggunakan metode haversine formula dengan luas ada gps berupa 3.923 %, selisih metode haversine formula dengan kenyataan berupa 7.846 % dan setelah pembulatan pada panjang perhitungan metode haversine formula mengalami selisih mendekati nilai luas pada kenyataan sebesar 6.33 %.tabel 3 merupakan hasil pengujian selisih letak pada gps
+hasil dari pengujian selisih letak pada gps yang dapat dilihat pada tabel 3 hasil pengujian selisih letak pada gps no nama selisih pada gps koordinat total = 𝑡𝑜𝑡𝑎𝑙 𝑗𝑢𝑚𝑙𝑎ℎ 𝑡𝑖𝑡𝑖𝑘 𝑏𝑎𝑛𝑦𝑎𝑘 𝑡𝑖𝑡𝑖𝑘 total : 15 titik = 3 +3 +1+ 1 + 2 + 2 + 2 + 3 + 2 + 3 + 2 + 2 + 3 + 2 + 2 dari perhitungan total selisih letak dapat disimpulkan bahwa dari ke 15 titik yang dihitung memiliki selisih letak pada gps dengan kenyataan
+hasil kuesioner tabel 4 berikut menunjukkan hasil dari pembagian kuesioner kepada 10 responden terhadap 19 butir pertanyaan yang dibagi menjadi 3 aspek, yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas dan aspek komunikasi visualhasil kuesioner yang dapat dilihat pada tabel 4 tabel 4
+1 kemudahan menjalankan aplikasi 2 kelancaran menjalankan aplikasi 3 kemudahan akses fitur 4 kompabilitas aplikasi pada browser laptop 5 kompabilitas aplikasi jumlah 0 0 11 32 7 50 persentase 0 0 22 64 14 100 n o 0 0 4 5 1 10 2 kinerja proses hapus 3 kinerja proses hitung luas 0 0 4 5 1 10 4 kinerja proses simpan 5 kinerja proses pecarian 6 pemberian informasi 7 kemudahan dalam pengukuran tanah 0 0 5 2 3 10 jumlah 0 0 22 33 15 70 persentase 0 0 31
+1 tampilan 2 penempatan letak 3 kemudahan melihat 4 jenis dan ukuran huruf mudah dibaca 5 kombinasi warna 0 0 2 2 6 10 6 kehalusan perpindahan halaman dilakukan jumlah 0 0 13 30 27 70 persentase 0 0 18
+4 = baik 5 = sangat baik berdasarkan hasil kuesioner pada tabel 3 hasil kuesioner dapat disajikan menjadi beberapa bagian, yaitu
+aspek rekayasa perangkat lunak tanggapan dengan persentase terbesar pada aspek rekayasa perangkat lunak adalah tanggapan baik dengan nilai persentase sebesar 64%
+fungsionalitas adalah tanggapan baik dengan nilai persentase sebesar 47, 1%
+aspek komunikasi visual tanggapan dengan persentase terbesar pada aspek komunikasi visual adalah tanggapan baik dengan nilai persentase sebesar 42, 8%
+user acceptance test berikut adalah perhitungan untuk mengukur tingkat keberhasilan aplikasi dengan menggunakan teknik penskalaan likert’s summated rating terhadap hasil kuesioner pada tabel 3
+lsr adalah skala atau pengukuran sikap responden
+lsr sangat bermanfaat untuk membandingkan skor sikap seseorang dengan distribusi skala dari sekelompok orang lainnya
+total tanggapan pada hasil kuesioner 
+total skor tanggapan pada hasil kuesioner
+skor kuatril i = 2 x 19 item = 38 v
+skor kuartil iii = 4 x 19 item = 76 d
+760 < skor < 950, artinya sangat positif 
+570 < skor < 760, artinya positif 
+380 < skor < 570, artinya negatif 
+190 < skor < 380, artinya sangat negatif 
+total skor penilaian yang diperoleh dari 10 responden yakni 763 dan berada di antara titik kuartil iii dan titik maksimal 
+berdasarkan dari hasil pengujian untuk panjang dan luas antara perhitungan menggunakan metode haversine formula dengan menggunakan gps dan metode haversine formula dengan data pada kenyataan memiliki selisih.selisih tersebut berupa panjang antara 2 titik dengan menggunakan metode haversine formula dengan panjang pada gps berupa 3.33% dan selisih metode haversine formula dengan kenyataan berupa 7.33 %
+sedangkan selisih untuk luas antara 2 titik dengan menggunakan metode haversine formula dengan luas pada gps berupa 3.93 % dan selisih metode haversine formula dengan kenyataan berupa 7.846 %
+panjang yang dihasilkan dengan metode haversine formula dalam membulatkan nilai akan menghasilkan luas yang lebih mendekati dengan luas pada kenyataan sebesar 6.33 %
+penitikan menggunakan gps pada letak titik yang dihasilkan tidak sesuai pada kenyataan dengan selisih 2m
+selisih ini terjadi karena metode haversine formula berupa rumusan yang digunakan berdasarkan bentuk bumi yang bulat sedangkan pada kenyataannya bentuk bumi itu sedikit elips.akibat perbedaan itu metode haversine formula akan memliki selisih hasil pada kenyataannya
+berdasarkan hasil kuesioner pada 3 aspek yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas dan aspek komunikasi visual didapatkan bahwa ketiga aspek tersebut mendapatkan tanggapan baik dari responden, dimana tanggapan tersebut merupakan tanggapan dengan persentase terbesar dari hasil setiap aspek pada kuesioner, dengan persentase tanggapan baik pada aspek rekayasa perangkat lunak sebesar 64%, aspek fungsionalitas sebesar 47, 1% dan aspek komunikasi visual sebesar 42, 8%
+berdasarkan hasil user acceptance test, dapat diketahui bahwa responden menilai bahwa aplikasi yang dibuat sangat positif dan berhasil, yang dapat dibuktikan dengan skor total dari keseluruhan data kuesioner berjumlah 763, dimana total skor ini berada diantara kuartil iii dan maksimal pada intepretasi lsr
+aplikasi dengan menerapkan metode haversine formula pada sistem informasi geografis membantu pegawai bpn dalam melakukan pengukuran luas tanah dan juga memudahkan untuk mendapatkan informasi mengenai luas tanah yang telah diukur
+gps memiliki banyak faktor yang mempengaruhi tingkat keakuratannya sehingga letak titik tersebut dapat berubah atau berbeda dari kenyataan nya sehingga menghasilkan panjang dan luas yang berbeda
+metode haversine formulla dapat membantu dalam mengetahui panjang antara 2 titik yang dibutuhkan dalam pengukuran luas tanah dengan tingkat selisih panjang pada gps berupa 3.33% dan selisih metode haversine formula dengan kenyataan berupa 7.33 %
+selisih untuk luas antara metode haversine formula dengan luas pada gps berupa 3.93 % dan selisih metode haversine formula dengan kenyataan berupa 7.846 %.pembulatan pada panjang akan menghasilkan luas yang lebih mendekati kenyataan berupa 6.33%
+penitikan menggunakan gps pada letak titik yang dihasilkan tidak sesuai pada kenyataan dengan selisih 2m
+aspek rekayasa perangkat lunak, fungsionalitas dan komunikasi visual pada aplikasi ini dianggap baik oleh user
+aplikasi sistem informasi geografis yang dibuat dinilai sangat positif dan berhasil membantu pegawai bpn dalam melakukan pengukuran luas tanah dilihat dari hasil user acceptance test

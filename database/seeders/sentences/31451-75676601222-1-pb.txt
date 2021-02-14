@@ -1,0 +1,181 @@
+strategi pelaksanaan penuntasan buta aksara mengacu pada tiga pilar strategis dan program terkait: pemerataan dan perluasan layanan pendidikan keaksaraan, peningkatan mutu dan relevansi program keaksaraan, penguatan tata kelola dan akuntabilitas
+dalam rangka membantu untuk merencanakan pengeleloaan di bidang pendidikan khususnya pemberantasan buta aksara, dipandang perlu memanfaatkan sistem informasi geografis 
+untuk membangun sig diperlukan data utama yaitu data spasial dan data atribut 
+kedua jenis data harus tersedia secara bersama-sama untuk memberikan informasi yang akurat
+masalah yang muncul bagaimana mentransformasikan kondisi real ke domain sig, bagaimana manajemen datanya, dan bagaimana membangun aplikasi sig yang bermanfaat sebagai salah satu unsur penunjang dalam pengambilan keputusan
+tujuan penelitian ini adalah untuk menghasilkan suatu pemetaan masyarakat buta aksara beserta data yang mendukung sebagai rumusan kebijakan yang diharapkan dapat menjadi landasan dalam upaya menekan jumlah masyarakat buta aksara, memberikan gambaran situasi dan kondisi existing keaksaraan, dan tersusunnya data spasial sebaran masyarakat buta aksara by-name, by-address dan by- pfotoyang dapat di-update sesuai perkembangannya di wilayah kalimantan barat
+data spasial, data atribut, manajemen data
+latar belakang landasan konstitusional negara indonesia memberi perlindungan atas hak warga negara untuk memperoleh pendidikan
+amanat konstitusi ini ditegaskan kembali dalam undang-undangno20 tahun 2003 tentang sistem pendidikan nasional bahwa sistem pendidikan nasional menyediakan kesempatan pendidikan yang sama bagi semua warga negara [7, 8, 9]
+kedua peraturan perundangan tersebut menjadi landasan hokum bagi pemerintah untuk mendorong dan memfasilitasi setiap warga negara indonesia memperoleh kesempatan dan manfaat pendidikan bagi semua golongan usia, etnis, ras, agama, dan kelompok lainnya tanpa diksriminasi untuk dapat menjadi pembelajar sepanjang hayat
+oleh karena itu pendidikan dilaksanakan bagi penduduk usia dini, anak-anak, remaja/pemuda, dan orang dewasa sampai usia lanjut
+mencapai target yang ditetapkan, dikeluarkan peraturan presiden no 5 tahun 2006 tentang gerakan nasional percepatan penuntasan wajib belajar dan pemberantasan buta aksara
+sebagai tindak lanjut dari perpres tersebut, menteri pendidikan nasional menyusun panduan pelaksanaan ditingkat kementerian atau non kementerian guna meningkatkan angka melek aksara di indonesia [3, 6]
+dalam tahap implementasi, strategi yang dilakukan adalah: fokus pada penguatan kelompok sasaran di provinsi, konsentrasi pada wilayah berkebutuhan tinggi, perkuatan akuntabilitas mutual/ bersama untuk pemberantasan buta aksara, mendorong pengembangan jaringan dan kemitraan, kolaborasi dengan perguruan tinggi, menetapkan standar dan jaminan mutu
+menulis, dan berhitung agar peserta belajar dapat mengakses berbagai sumber bacaan atau tulisan serta berbagai bentuk perhitungan
+pada fase ini penyelenggaraan pendidikan keaksaraan dikembangkan pelaksanaan pendidikan keaksaraan untuk keberaksaraan saja, seperti di provinsi yang dikenal dengan program pemberantasan buta huruf atau pemberantasan buta aksara 
+letak dan kondisi geografis banyak daerah, terutama di daerah terpencil dan pedalaman yang sulit dijangkau melalui transportasi darat dan/atau sungai, sering menjadi kendala dalam proses pelayanan informasi dan komunikasi
+dari kalangan masyarakat yang tergolong minim pendidikan dan sulit ekonomi
+buta aksara penduduk usia 15-14 tahun menghadapi kendala dalam pendataan yang cenderung terus berubah dari tahun ke tahun sehingga untuk menuntaskan buta aksara mengalami kesulitan
+dalam menyusun rencana suatu program pembangunan pendidikan di kalimantan barat, diknas provinsi sering berbenturan atau mengalami hambatan karena tidak tersedianya data yang lengkap, akurat, dan memadai yang dapat diakses dari beberapa daerah kabupaten/kota
+hambatan dari faktor sistem informasi manajemen bidang pendidikan ini dirasakan hampir di semua daerah kabupaten/kota di kalimantan barat
+berdasarkan data realisasi buta aksara provinsi kalimantan barat tahun 2017 maka jumlah data buta aksara berdasarkan kelompok umur di kabupaten sambas yang terdiri dari kelompok umur 15 – 24 tahun sebanyak 499, kelompok umur 25 – 44 sebanyak 1494, kelompok usia 45 – 59 tahun sebanyak 2.930 dan usia 60 tahun keatas sebanyak 828
+data inilah yang menjadi target sasaran utama dalam program pemberantasan buta aksara sesuai amanat mdg’s bidang pendidikan, sehingga locus kajian difokuskan kepada daerah yang mempunyai data cukup besar di kalimantan barat yaitu kabupaten sambas
+itu masyarakat yang telah bebas buta aksara didorong untuk melanjutkan pendidikan dasar serta terus didorong untuk mengikuti pendidikan berkelanjutan lainnya untuk meningkatkan kesejahteraannya [11, 12]
+diartikan sebagai kemampuan untuk membaca, menulis dan berhitung
+bagi orang dewasa yang buta aksara, kecakapan keaksaraan tidak hanya sekedar dapat membaca, menulis dan berhitung, akan tetapi lebih menekankan fungsi dalam kehidupan sehari-hari
+secara luas, keaksaraan didefinisikan sebagai pengetahuan dasar dan keterampilan yang diperlukan oleh semua warga negara dan menjadi salah satu fondasi bagi penguasaan kecakapan-kecakapan hidup yang lain
+program keaksaraan di indonesia lebih dikenal dengan program pendidikan keaksaraan fungsional, sehingga secara terminologi fungsional dalam keaksaraan, berkaitan erat dengan fungsi dan/atau tujuan dilakukannya
+berdasarkan penelitian lintas negara yang dilaksanakan oleh unesco disimpulkan bahwa keberhasilan dalam program pemberantasan buta huruf berdampak pada menurunnya angka kematian ibu dan bayi, meningkatnya usia harapan hidup masyarakat, program pendidikan keaksaraan merupakan bentuk layanan pendidikan non formal untuk membelajarkan warga masyarakat buta aksara, agar memiliki kemampuan menulis, membaca, berhitung dan menganalisa, yang berorientasi pada kehidupan sehari-hari dengan memanfaatkan potensi yang ada dilingkungan sekitarnya, sehingga warga belajar dan masyarakat dapat meningkatkan mutu dan taraf hidupnya
+sesuai dengan tantangan dan kebutuhan masyarakat yang terus berkembang, pendidikan keaksaraan pada fase kini lebih dikaitkan dengan aktivitas kritis, kontekstualisasi budaya, dan fungsionalisasi keaksaraan bagi peran-peran sosial, politik, ekonomi, dan kebudayaan, sehingga dikenal adanya keaksaraan kritis, keaksaraan fungsional, keaksaraan budaya, keaksaraan economi, dan ragam keaksaraan lainnya [4, 5]
+demikian pun dalam hal pendekatannya, pendidikan keaksaraan tidak hanya bertumpu pada individu tetapi juga berkembang pendekatan-pendekatan kelompok/komunitas, seperti demikian, pendidikan keaksaraan kemudian dijadikan sebagai bagian strategis dalam rangka pemberdayaan masyarakat
+untuk itu, unesco mengembangkan program life 
+indonesia sebagai negara yang turut menyepakati program life berencana untuk merealisasikan kebijakan dan program life tersebut
+dalam rangka itu, direktorat pendidikan masyarakat direktorat jenderal pendidikan nonformal dan informal kemendiknas mulai mengadaptasi konsep life dalam suatu kerangka kerja pendidikan keakasaraan yang disebut akrab! 
+pemberantasan buta aksara dan pengelolaannya serta, program penataan ruang
+keterpaduan antara pengembangan kawasan pendidikan dengan perorangan di sekitar kawasan tersebut dapat didekati dengan teknologi sistem informasi geografis 
+salah satu kemampuan sig yang utama adalah mampu memetakan kondisi dunia nyata sehingga gambaran suatu kawasan dapat diamati dengan mudah dengan menampilkan keterangan identitas seseorang 
+dalam hubungannya dengan pengolahan data, sig merupakan pengolahan dan pengelolaan informasi digital berbasis geografis, sehingga masukan utama sig merupakan data keruangan 
+sig diperlukan dalam menyediakan informasi yang akurat baik posisi, luasan, maupun informasi gambar, dan grafik [1, 14]
+sig menyediakan informasi spasial, garis maupun titik yang dituangkan dalam bentuk peta, tabel dan grafis yang saling terkait sehingga sig mampu mengubah data secara cepat sesuai dengan perkembangan yang terjadi
+sig dapat melakukan analisa secara spasial maupun fungsi- fungsi statistik untuk analisa numerik, sehingga memudahkan untuk pengambilan keputusan
+sedangkan data atribut merupakan data tabel yang berfungsi menjelaskan keberadaan berbagai objek sebagai data spasial penyajian data spasial mempunyai tiga cara dasar yaitu dalam bentuk titik, bentuk garis dan bentuk area 
+titik merupakan kenampakan tunggal dari sepasang koordinat x, y yang menunjukkan lokasi suatu obyek berupa ketinggian, lokasi kota, lokasi pengambilan sample dan lain-lain
+garis merupakan sekumpulan titik-titik yang membentuk suatu kenampakan memanjang seperti sungai, jalan, dan lain-lain
+sedangkan area adalah kenampakan yang dibatasi oleh suatu garis yang membentuk suatu ruang homogen, misalnya: batas daerah, batas penggunaan lahan, pulau dan lain sebagainya
+kemudian dari hasil tersebut akan didapat suatu pemetaan keaksaraan beserta dengan datanya yang akan membantu dalam proses analisis permasalahan sehingga dapat membantu pihak terkait dalam mengambil tindakan dan kebijakan untuk pemberantasan keaksaraan telah dilakukan, berikutnya ialah mengemas data tersebut kedalam database sehingga menjadi suatu informasi persebaran masyarakat buta aksara di kalimantan barat yang berbasis sistem informasi geografis
+metode penelitian pemetaan keaksaraan yang akan dikembangkan dapat menjadi dasar/basis pengembangan sigpemantauan dimanfaatkan bagi diknas provinsi kalimantan barat dan dapat diintegrasikan ke dalam website provinsi kalimantan barat
+persyaratan umum pemetaan sebaran keaksaraan yang dikembangkan adalah harus:fungsional, sustainable, mudah dan user friendly, handal, dan layak dari segi biaya
+proses pemetaan dan pengolahan data hasil survey kegiatannya sebagai berikut :  identifikasi karakteristik kawasan yang meliputi kondisi geografis, topografi, sarana dan prasarana pendidikan serta sosial ekonomi masyarakat
+ identifikasi karakteristik kependudukan yang meliputi jumlah penduduk, tingkat pendidikan penduduk dan mata pencaharian
+kebutuhan-kebutuhan, dimana fungsi- fungsi sistem informasi yang dihasilkan dari pemetaan beserta kebutuhan data diidentifikasi
+informasi ini didapat dengan beberapa cara antara lain dengan berdiskusi dengan pengguna sistem yang potensial baru kemudian, survei kebutuhan yang dilakukan berdasarkan informasi yang didapat dan perencanaan pemetaan
+siklus ini dibuat berdasarkan filosofi bahwa yang harus segera dilakukan pertama kali adalah memutuskan apa-apa yang akan dipetakan sehingga menghasilkan sebuah informasi yang mudah dipahami dan dibaca oleh pengguna, kemudian aktivitas berikutnya adalah melakukan pemetaan dari apa yang didapat dari hasil survei
+dua jenis informasi penting, yaitu jumlah fungsi-fungsi sistem informasi yang diperlukan dan daftar master data
+kedua jenis informasi ini diekstrak dari sekumpulan deskripsi sistem informasi, daftar data penting, dan deskripsi proses-proses manajemen
+selain itu, akan digunakan formulir standard untuk mendokumentasikan hasil-hasil interview dengan pengguna
+informasi yang didapat dari aktivitas penaksiran kebutuhan ini secara langsung mempengaruhi aktivitas perancangan sistem informasi secara konseptual spasial maupun non spasial basis data spasial dibagi ke dalam beberapa lapisan data sesuai dengan karakteristik data untuk penyebaran masyarakat buta aksara, sedangkan basis data non spasial ditentukan berdasarkan kebutuhan informasi untuk setiap kegiatan operasional kebutuhan data spasial untuk pengawasan masyarakat buta aksara mencakup sedikitnya 4 lapisan data grafis sebagaimana pada tabel 1
+layer-layer tersebut telah dianalisis sesuai dengan kebutuhan data untuk mengembangkan prioritas pengawasan penyebaran masyarakat buta aksara guna mendukung dalam pengambilan keputusan dan kebijakan untuk menekan angka keaksaraan masyarakat
+basis data atribut dirancang untuk menata dan menyimpan data untuk pengembangan sig sistem informasi yang berkaitan dengan kebutuhan informasi pengguna
+data yang digunakan dalam perancangan struktur data spasial dan non spasial adalah model relasional pemodelan data merupakan pengelompokan data dalam suatu struktur logika, yang digambarkan dengan entity relationship diagrams 
+tabel 1 layer data spasial attribute table 3 sungai line arc attribute table 4 sebaran masyarakat buta aksara point attribute table d
+data flow diagram, untuk menggambarkan aliran data pada sistem yang terdiri dari dua bagian utama yaitu sistem input data dan sistem analisis data
+entity relationship diagram, untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antar relasi
+studi literatur dilakukan guna memahami materi-materi yang berkaitan dari beberapa literatur
+pengumpulan data dilakukan dengan mengambil data dari diknas kabupaten sambas dan melakukan observasi
+perancangan konseptual dari sistem yang akan dibangun berupa perancangan data flow diagram sistem dan menentukan metode pemetaan keaksaraan
+perancangan prototipe system merupakan implementasi langkah ketiga ke dalam bentuk aplikasi
+pengujian dilakukan pada sistem menggunakan metode uat dimana pengujian dilakukan oleh pengguna secara langsung untuk memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan oleh pengguna
+pengujian ini melibatkan data real yang didapat dari pengguna tanpa memperhatikan detail internal dari sistem
+kemudian data divalidasi menggunakan pengujian black box
+black box testing atau yang sering dikenal dengan sebutan pengujian fungsional merupakan metode pengujian perangkat lunak yang digunakan untuk menguji perangkat lunak tanpa mengetahui struktur internal kode atau program
+dalam pengujian ini, teste menyadari apa yang harus dilakukan oleh program tetapi tidak memiliki pengetahuan tentang bagaimana melakukannya
+kesimpulan dirumuskan berdasarkan analisis yang telah dilakukan apakah sistem yang dirancang mampu memberikan informasi secara geografis mengenai sebaran keaksaraan yang ada sehingga dalam bentuk peta sehingga mudah dipahami untuk mengambil kebijakan dalam upaya menekan angka buta aksara pada masyarakat
+terdiri dari nama kecamatan, data buta aksara by name by addres dan jumlah keaksaraan dalam suatu wilayah kecamatan
+b) data sekunder berupa data jumlah keaksaraan dan data perorangan masyarakat buta aksara
+wilayah dengan metode overlay yang di wakili dengan polygon sesuai dengan status keaksaraan wilayah tersebut yang disertai atributnya, kemudian disimpan kedalam database yang terstruktur
+dari data-data tersebut, akan diperoleh suatu pemetaan keaksaraan yang komplit dengan gambaran kondisi eksisting sebarannya sehingga dapat mempermudah dalam membaca dan melihat serta menganalisis sebaran keaksaraan masyarakat di tempat penelitian
+dengan demikian dari hasil tersebut akan mempermudah bagi instansi terkait dalam upaya mengambil kebijakan untuk menekan angka keaksaraan masyarakat
+perancangan diagram alir sistem tahapan perancangan diagram alir sistem terdiri dari flowchart sistem yang akan dibangun
+perancangan diagram konteks sistem tahapan perancangan diagram arus data terdiri dari perancangan diagram konteks sistem, diagram overview sistem dan diagram rinci sistem
+perancangan basis data tahapan perancangan basis data terdiri dari perancangan entity relationship diagram, spesifikasi tabel basis data tabular, spesifikasi tabel basis data spasial, diagram hubungan antartabel data tabular dan model hubungan data spasial dan data tabular
+perancangan diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 1 berikut ini menunjukkan diagram konteks dari sistem yang akan dibangun
+batas administrasi kecamatan, sebaran ibu kota desa/kelurahan
+sistem informasi geografis data spasial data kecamatan data kelurahan data keaksaraan pihak terkait seperti organisasi kemasyarakatan dan lembaga penelitian yang ingin mendapatkan informasi masalah keaksaraan masyarakat yang dihasilkan oleh sistem ini
+data keaksaraan yang didapat dari hasil survey akan diinputkan ke database melalui sig keaksaraan
+dari data-data tersebut akan di lakukan perhitungan dan akan dianalisis dengan menghubungkan berbagai aspek keterkaitan penunjang pendidikan
+selain itu keaksaraan juga di pengaruhi oleh aspek kebudayaan masyarakat di mana masyarakat tersebut tinggal h
+keterangan : tabel basis data kabupaten tabel 2 b) spesifikasi tabel kecamatan nama file : tb_kec keterangan : tabel basis data kecamatan tabel 3 c) spesifikasi tabel kelurahan nama file : tb_kelurahan keterangan : tabel basis data kelurahan tabel 4 nm_kab varchar menyimpan nama nm_kel varchar menyimpan nama keterangan : tabel basis data jumlah penduduk tabel 5 penduduk l int manyimpan jumlah penduduk penduduk keterangan : tabel basis data masyarakat buta aksara tabel 6 spesifikasi tabel tb_keaksaraan usia varchar menyimpan umur sk varchar menyimpan no sk aksara aksara aksara buta aksara 2
+spesifikasi tabel basis data spasial data spasial sig ini berupa layer-layer
+layer yang digunakan ada dua, yaitu layer kabupatendan layer kecamatan
+layer-layer data spasial diolah menggunakan arcgis
+diagram hubungan antar tabel data tabular hubungan antara tabel-tabel data tabular dalam sig ini dapat dilihat pada gambar 2 berikut
+diagram hubungan antar tabel data tabular 4
+hubungan data spasial dan data tabular pada sig, data spasial dapat digabungkan dengan data tabularnya
+proses penggabungan data, yang pada sistem ini menggunakan fungsi addrelate, memerlukan field penghubung pada masing-masing data, baik spasial maupun tabular
+data tabular yang dihubungkan dengan data spasial harus berupa tabel, dan tidak dapat berupa hasil query
+satu proses penggabungan data hanya dapat melibatkan satu layer data spasial dengan satu tabel data tabular
+berdasarkan field pada data spasial maupun field pada data tabular
+proses filter, yang pada sistem ini menggunakan fungsi filterexpression, berfungsi agar hanya data yang diinginkan yang akan ditampilkan
+dengan adanya penggabungan beberapa data tersebut maka akan mudah bagi pengguna untuk membaca dan memahami serta mengambil tindakan yang tepat dalam upaya untuk menekan angka buta aksara
+dipaparkan diatas dapat di gambarkan dalam bentuk diagram alir metode penelitian seperti gambar dibawah ini
+hasil dan analisis dalam penyelenggaraan survey dan pemetaan data buta aksara ini, maka sasaran utama penyelenggaraan kegiatan ini adalah masyarakat yang mempunyai kriteria sebagai berikut: 2
+pengolahan serta pemetaan data buta aksara di beberapa kecamatan kabupaten sambas sig yang dibangun menggunakan bahasa pemprograman pascal dengan database engine mysql server yang disertai dengan mapobject sebagai plug-in untuk menampilkan peta sebaran buta aksara
+detail dari fungsi tab menu tersebut dapat dilihat pada tabel 10
+panel ini menampung tombol-tombol yang digunakan pengguna untuk memanajemen peta
+pada bagian bawah tab menu terdapat peta administrasi kabupaten sambas yang menerangkan persentase buta aksara melalui warna pada masing-masing batas administrasi kabupaten
+peta yang ditampilkan pada form ini terdiri dari layer-layer yang disusun bertumpuk, dimulai dari layer kabupaten di bagian paling bawah dan layer kecamatan paling atas
+pengguna dapat memilih layer yang ingin diaktifkan dengan mencentang radiogroup yang berada di sebelah kanan peta
+selain memilih layer, pengguna juga dapat langsung menuju pada kabupaten dan kecamatan yang ingin dilihat datanya dengan meilih nama kabupaten yang diinginkan pada combobox yang terdapat di sebelah panel pengaturan layer aktif
+hasil analisis akan di visualisasikan ke dalam empat warna, putih untuk daerah kabupaten atau kecamatan yang belum ada datanya, hijau untuk daerah kabupaten atau kecamatan yang persentase perbandingan buta aksaranya <5%, kuning untuk daerah kabupaten atau kecamatan yang persentase perbandingan buta aksaranya 5 - 15% dan merah untuk daerah kabupaten atau kecamatan yang persentase perbandingan buta aksaranya >15%
+selain itu hasil analisis akan diperjelas dengan menampilkan keterangan wilayah dan keterangan jumlah penduduk serta jumlah buta aksara di wilayah yang di inginkan oleh pengguna
+tampilan panel keterangan wilayah dapat dilihat pada gambar 5 dan gambar 6
+gambar .5 tampilan keterangan rekap data buta aksara berdasarkan kabupaten kecamatan b
+penyajian data buta aksara data buta aksara yang telah diolah akan disajikan dalam bentuk peta dan tabel
+dalam bentuk peta, seperti yang telah dipaparkan di atas
+untuk bentuk tabelnya, data buta aksara akan di tampilkan berdasarkan pengelompokan kabupaten, kecamatan dan desa
+pada bagian kanan aplikasi sig pengolahan dan pemetaan data buta aksara terdapat groupbox pemilihan layer aktif yang akan mengatur filterisasi data yang diinginkan oleh pengguna
+groupbox tersebut dapat dilihat pada gambar 7
+gambar .7 groupbox pengaturan layer setelah memilih layer yang diinginkan, kemudian pengguna terlebih dahulu harus mengklik sub-menu detail pada tab menu peralatan peta
+setelah itu arahkan kursor pada pagian kecamatan yang ingin dilihat datanya
+dalam hal ini peneliti akan mencoba untuk melihat hasil pengolahan data buta aksara kecamatan sejangkung kabupaten sambas
+dari data tersebut pengguna dapat melihat lebih rinci lagi data by name by addres buta aksara yang menampilkan foto dari tiap record
+hanya dengan mengklik data yang diinginkan pada table grid maka panel data detail buta aksara akan muncul
+panel detail buta aksara dapat dilihat pada gambar 10 berikut
+dengan adanya pemodelan data yang sedemikan rupa, data buta aksara lebih dapat dipertanggung jawabkan keakuratannya sehingga dapat menekan terjadinya overlapping data buta aksara di kabupaten sambas
+jika pengguna ingin melihat data buta aksara berdasarkan desa, maka pengguna harus masuk ke menu manajemen data kemudian mengklik sub menu rekapitulasi data atau cetak data
+kemudian pilih tahun data, pengelompokan usia, kebupaten, kecamatan dan desa yang terdapat pada combobox
+tampilan data buta aksara berdasarkan desa, dapat di kelompokkan menurut usia
+penggolongan menurut usia terdiri dari usia 15-24 tahun, 25-44 tahun, 45-69 tahun, remaja, dewasa dan lansia 
+sebagai sample penelitiakan memfokuskan contoh tampilan data pada desa penakalan
+untuk tampilan data buta aksara di desa penakalan berdasarkan pengelompokan usia dapat dilihat pada gambar berikut
+gambar .12 tampilan data buta aksara desa penakalan data di atas kemudian akan di masukkan ke dalam microsoft excel selanjutnya di olah dalam hal pengelompokan untuk kepentingan akan jumlah laki dan jumlah perempuan, pembagian usia dan keberadaan di desa mana dan kecamatan mana
+manajemen data buta aksara manajemen data merupakan hal yang tidak terpisahkan dalam membangun suatu sistem informasi, terlebih lagi sig
+dalam sig pengolahan dan pemetaan data buta aksara ini, manajemen datanya terdiri dari input data, rekapitulasi data dan cetak data
+untuk melakukan pembaruan data, pengguna terlibih dahulu harus mengklik button pembaruan data pada tab menu
+tampilan form pembaruan data dapat dilihat pada gambar 13
+data keaksaraan yang didapat dari hasil survey akan diinputkan ke database melalui sistem informasi geografis keaksaraan
+dari data-data tersebut akan dilakukan perhitungan dan akan dianalisis dengan menghubungkan berbagai aspek keterkaitan penunjang pendidikan
+aspek- aspek tersebut meliputi ketersedian sarana dan prasarana di antaranya gedung sekolah, jalan, dan jumlah guru yang ada
+setelah itu klik button pilih data dan arahkan pada direktori penyimpanan file buta aksara dalam format excel kemudian klik open
+jika berhasil data akan masuk kedalam list view yang terdapat pada form upload data seperti gambar 14
+jika yakin data tersebut benar, klik button simpan untuk menyimpan data tersebut ke database mysql
+setelah data berhasil disimpan, maka secara otomatis data tersebut akan tampil pada grid buta aksara yang terdapat pada form utama pembaruan data, seperti terlihat pada gambar 11 diatas
+dari data tersebut, pengguna dapat langsung melakukan rekapitulasi data buta aksara berdasarkan kabupaten, kecamatan, desa, usia dan jenis kelamin
+untuk merekap data tersebut, pengguna harus mengklik button rekap data pada panel pengaturan, seperti pada gambar 15
+hasil rekapitulasi data kemudian akan masuk ke database
+tampilan database rekapitulasi data dapat dilihat pada gambar 16
+dari database tersebut kemudian data akan ditampilkan pada grid rekap data buta aksara pada form rekapitulasi data
+tampilan form rekapitulasi data dapat dilihat pada gambar 17 dibawah ini
+gambar .17 form rekapitulasi data dari form ini, pengguna dapat langsung mencetak rekapitulasi data berdasarkan tahun, kabupaten, kecamatan, desa dan kelompok usia dengan mengklik button cetak data pada panel pengaturan
+selain mencetak hasil repitulasi data, pengguna juga dapat mencetak data buta aksara by name by addres berdasarkan tahun data, kecamatan, desa dan pengelompokan usia
+sebagai contoh user akan mencetak tahun data 2013 kabupaten sambas kecamatan sejangkung, desa penakalan, kelompok usia 15-24 tahun
+gambar .19 hasil cetakan data buta aksara adanya data buta aksara yang akurat dan terkini adalah hal yang penting dalam pelaksanaan program pemberantasan buta aksara
+metodologi dalam mendapatkan data sangat penting
+metodologi yang digunakan harus berbasis survei, bukan berbasis sampling dimana nama-nama dan profil data untuk buta aksara harus dicatat
+selain itu, pemutakhiran data-data ini dilakukan setiap tahun.sebaran data buta aksara antar wilayah kecamatan di kabupaten sambas sangat variatif karena perbedaan komposisi jumlah penduduk dan keluasan masing-masing wilayah
+hampir semua buta aksara yang ada di kabupaten sambas menumpuk di kecamatan sejangkung dan sajingan besar yang memang saat ini masih menjadi konsentrasi pemukiman penduduk
+keberhasilan program pemberantasan buta aksara yang dilakukan di provinsi kalimantan barat didukung oleh berbagai faktor
+salah satu faktor yang memberikan kontribusi yang cukup berarti adalah dilaksanakan sistem pemantauan dan penilaian secara terprogram dan berkelanjutan yang dilaksanakan oleh pemerintah daerah melalui diknas provinsi dan kabupaten
+di dalam pelaksanaannya diknas juga melibatkan peran serta secara langsung berbagai komponen yang terkait, seperti sanggar kegiatan belajar, forum-forum pnfi yang ada di daerah, pusat kegiatan belajar masyarakat 
+diharapkan diknas perlu membuat single database system yang menjadi dasar acuan lembaga, maupun juga program untuk penanggulangan buta aksara
+data ini yang menjadi data tunggal sehingga tidak menimbulkan bias dalam implementasi penanggulangan data buta aksara itu sendiri, mengingat banyaknya lembaga yang memiliki data keaksaraan menurut definisi masing-masing
+keberlanjutan dari kegiatan ini perlu dilakukan pemantauan dan penilaian melalui; pelaksanaan koordinasi antar instansi, lembaga-lembaga terkait di kabupaten, kecamatan dan bahkan sampai pada tingkat kelurahan dan desa, melakukan pendataan atau pemutakhiran data guna lebih terarah guna mengetahui perkembangan-perkembangan terakhir berkenaan dengan forum pendidikan nonformal guna mengambil peran di dalam kegiatan pendataan, pemantauan dan penilaian sesuai dengan panduan yang disediakan
+dalam rangka pengembangan kegiatan di unit kerja diknas provinsi kalbar, khususnya di bidang pendidikan formal dan informal dan berdasarkan peraturan daerah provinsi kalimantan barat nomor 1 tahun 2013 tentang pengelolaan dan penyelenggaraan pendidikan di daerah khusus di provinsi kalimantan barat, diharapkan melaksanakan kegiatan untuk semua kabupaten dan kota dalam kegiatan survey pemetaan data buta aksara kelompok masyarakat khusus pada kawasan komunitas kawasan pesisir dan pulau-pulau kecil, kawasan terpencil, terisolir dan pedalaman dan kawasan perdesaan miskin kota
+sig dapat digunakan untuk mendapatkan informasi mengenai data buta aksara secara akurat, dan tepat, hasil pencarian selain berbentuk teks, juga dihasilkan dalam bentuk visual 
+data dalam bentuk visual ini menunjukkan pada peta dimana posisi atau letak sebaran buta aksara berada dan juga dilengkapi dengan informasi-informasi pendukung lainnya
+aplikasi sig sebaran data buta aksara merupakan sistem berbasis komputer yang bersifat user friendly sehingga pemakai dapat dengan mudah menjalankan atau pun mengaksesnya
+pengelompokkan usia mulai dari 15 – 24 tahun, 25 – 44 tahun, 45 – 69 tahun, remaja 15 – 24 tahun, dewasa 15 – 59 tahun serta lansia 60 tahun ke atas
+sig sebaran data buta aksara, dapat menyajikan informasi sebaran lokasi data buta aksara yang tersebar di seluruh pelosok di kecamatan maupun desa beserta informasi tentang data-data pendukung lainnya 
+sig ini dapat keliru jika adanya perubahan akibat pemekaran kabupaten/kecamatan dan desa
+kekeliruan ini menjadi rancu atau terjadi perbedaan data tabular dengan data spasial yang disajikan
+adapun beberapa hal yang dapat ditambahkan dalam pengembangan penulisan ini adalah sebagai berikut : 1
+dari hasil aplikasi sig sebaran data buta aksara diharapkan memberikan dampak positif bagi perkembangan dunia pendidikan
+disamping itu juga, dapat membantu bagi para pembuat kebijakan untuk membuat keputusan yang tepat dalam segala hal yang berkaitan dengan pendidikan
+namun, sistem ini akan mencapai hasil yang diinginkan bila dalam proses pelaksanaan, pengoperasian, up dating, dan perawatan dilakukan dengan baik dan benar
+direktorat pendidikan masyarakat menerapkan kerangka kerja aksara membangun peradaban dengan menerapkan lima misi kerja kementrian pendidikan nasional yaitu ketersediaan, keterjangkauan, dan peningkatan nondiskriminatif dan keterjaminan memperoleh peradaban antara lain pendidikan keaksaraan, aksara kewirausahaan, pendidikan pemberdayaan perempuan, budaya baca masyarakat serta penguatan kelembagaan pendidikan masyarakat
+pelaksanaan progam-program kreatif dan inovatif, khususnya dalam diversifi kasi layanan yang berpihak pada keluasan dan keragaman cakupan sasaran dengan menerapkan unsur-unsur pemberdayaan masyarakat berikut: swamanajemen menghargai norma, nilai dan budaya; program berbasis kebutuhan; masyarakat berperan dalam pengendalian dan pengawasan program; pemberdayan sebagai ciri utama; berakar pada nilai-nilai sosial; berbasis pengalaman; partisipatif dan demokratis serta berbasis kecakapan hidup
+untuk data atribut, hendaknya dilakukan up dating sesuai dengan kondisi yang terbaru baik itu data tabular maupun data spatial sehingga benar-benar merupakan representasi dari kondisi masyarakat buta aksara yang terkini
+perlu penempatan khusus untuk aplikasi sig ini sehingga orang bisa mengakses lebih mudah yang kedepannya bisa dilakukan sig berbasis intra ataupun internet 
+untuk penelitian selanjutnya agar dapat memperluas ruang lingkup penelitian penyandang buta aksara sampai pada analisis keterjangkauan masyarakat, sarana dan prasarana serta informasi yang dihasilkan lebih rinci lagi sampai pada dilakukan proses pembelajaran buta aksara untuk keadaan tiap kelurahan dan kecamatan yang ada

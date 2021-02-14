@@ -1,0 +1,60 @@
+istem informasi pemetaan bts dan konsumen pada penyedia layanan akses internet ptsistem informasi pemetaan bts dan konsumen pada penyedia layanan akses internet pt progressio datawave cakrawala di kota pontianak berbasis web resmi pratiwi fakultas teknik universitas tanjungpura 1) email : resmipratiwi901@gmail.com system based on a computer that have the ability in handles data geography
+pt progressio datawave cakrawala is a company that provides the service of internet access in the city of pontianak.as a company that moves in the fields of the internet was supposed to have the the information system mapping bts and consumers that on based of the web
+on information systems mapping it can display a radius of a bts and having information the signal strength and be able to manage data bts and consumers.testing done with two methods is black box and user acceptance test .testing the black box used to do our tests on the performance programs and uat used to do our tests against the quality of the web being.the result of uat said that the the information system designed able to reach the goal that is, could mapquest bts and consumers and can give information about the strong and the weak a signal from one of bts which pt progressi datawave cakrawala
+consument, uat, signal akses internet di kota pontianak
+salah satu contohnya adalah pt progressio datawave cakrawala yang menyediakan layanan akses internet tanpa batas kuota untuk penggunaan pribadi atau hanya untuk rumahan
+sebagai pengirim dan penerima sinyal komunikasi dari atau ke mobile station serta menghubungkan ms dengan network element lain dalam jaringan gsm dengan menggunakan radio interface pt progressio datawave cakrawala ini menggunakan base transceiver station 
+base transciever station adalah komponen jaringan dari system komunikasi mobile yang menerima dan mengirim sinyal sebuah bts dikendalikan oleh pengontrol base station dan fungsinya memfasilitasi komunikasi nirkabel antar user equipment / peralatan pengguna dan jaringan ue/ues merupakan perangkat yang digunakan pengguna misalnya ponsel, telepon, computer dengan aktivitas internet nirkabel, wifi dan wimax gadget pontianak dan beberapa kabupaten lainnya
+oleh karena itu untuk dapat menjangkau seluruh konsumen yang ada di kota dan kabupaten bts-bts tersebut harus diposisikan di tempat-tempat yang strategis
+tempat strategis yang dimaksud adalah tempat pemasangan bts di area yang tidak terjangkau sinyal atau area yang memiliki sinyal lemah dari bts lain disekitarnya
+dimana alat tersbut hampir sama dengan receiver yang akan dipasangkan kepada konsumen
+cara konvensional ini memiliki hambatan dari segi area yang terjangkau dikarenakan untuk mengetahui seluruhnya staf harus melakukan pengecekan lapangan secara menyeluruh untuk tiap-tiap bts yang dimiliki oleh pt progressio tersebut
+ini mengakibatkan ketidakefisienan waktu dalam hal memantau pemetaan jangkauan sinyal tiap bts
+namun penurunan kekuatan sinyal hanya dapat diketahui oleh teknisi lapangan yang bertugas mengecek kondisi sinyal tiap-tiap bts menggunakan alat pengukur sinyal secara virtual yang dapat diakses dengan gratis dan online yang disediakan oleh google
+google maps menawarkan peta dan gambar satelit untuk seluruh dunia dan baru-baru ini juga menawarkan perencana rute danpencari letak bisnis di beberapa kota bagian eropa
+google maps api merupakan aplikasi interface yang dapat diakses lewat java script agar google maps dapat ditampilkan pada halaman web yang sedang dibangun
+pemanggilan kembali), manipulasi dan analisis data serta keluaran sebagai hasil akhir 
+hasil akhir dapat dijadikan acuan dalam pengambilan keputusan pada masalah yang berhubungan dengan geografi
+1) dirancang merupakan implementasi sistem informasi menggunakan platform google maps sebagai peta digital yang akan memvisualisasikan knowledge berbasis web
+sistem informasi pemetaan bts dan konsumen pada penyedia layanan akses internet pt progressio datawave cakrawala di kota pontianak berbasis web
+oleh karena itu, penulis mengambil judul skripsi 
+konsep dasar sistem bisnis yang ditulis oleh jogiyanto, h.m terdapat dua kelompok pendekatan didalam mendefinisikan sistem yaitu yang menekankan pada prosedur dan yang menekankan pada komponen atau elemenya
+berdasarkan penekanan prosedur menurut berkumpul bersama-sama untuk melakukan suatu kegiatan atau untuk menyelesaikan suatu sasaran tertentu
+berdasarkan penekanan komponen menurut jogiyanto, h.m 2) suatu tujuan tertentu
+berhubungan, berkumpul bersama-sama untuk suatu sasaran tertentu
+dapat disimpulkan bahwa sistem merupakan suatu jaringan kerja dari prosedur-prosedur yang saling berhubunganm berkumpul bersama-sama untuk suatu sasaran tertentu
+sistem informasi adalah suatu sistem yang dibuat oleh manusia yang terdiri dari komponen- komponen dalam organisasi untuk mencapai suatu tujuan yaitu menyajikan informasi
+terdapat banyak definisi tentang sistem informasi yang diutarakan oleh beberapa sumber salah satunya ladjamudin 3) bahwa: 
+suatu sistem yang dibuat manusia yang terdiri dari komponen-komponen dalam organisasi untuk mencapai suatu tujuan yaitu menyajikan informasi
+sekumpulan prosedur organisasi yang pada saat dilaksanakan akan memberikan informasi bagi pengambil keputusan dan/atau untuk 3
+suatu sistem didalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi, mendukung operasi, bersifat majerial dan kegiatan strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan-laporan yang diperlukan
+dikatakan baik jika memenuhi criteria-kriteria sebagai berikut: 1
+keunggulan yaitu suatu sistem yang harus dapat menghasilkan informasi yang tepat dan relevan untuk mengambil keputusan manajemen dan personil operasi dalam organisasi
+harus bernilai manfaat minimal, sebesar biayanya
+kehandalan keluaran dari sistem harus mempunyai tingkat ketelitian tinggi dan sistem tersebut harus beroperasi secara efektif
+pelayanan yakni suatu sistem memberikan pelayanan yang baik dan efisien kepada para pengguna sistem pada saat berhubungan dengan organisasi
+memadai untuk menangani setiap periode sesuai yang dibutuhkan
+sederhana dalam kemudahan sistem tersebut lebih sederhana sehingga struktur dan operasinya dapat dengan mudah dimengerti dan prosedur mudah diikuti
+fleksibel sistem informasi ini harus dapat digunakan dalam kondisi sebagaimana yang diinginkan oleh organisasi tersebut atau pengguna tertentu
+menurut dua definisi tersebut penulis dapat menyimpulkan bahwa sistem informasi itu adalah kumpulan dari komponen-komponen yang saling bekerjasama secara harmonis untuk bertujuan menyajikan informasi yang bermanfaat
+system adalah suatu sistem berbasis komputer yang digunakan untuk mengolah dan menyimpan data atau informasi yang berefernsi geografis
+data flow diagram data flow diagram adalah diagram yang menggambarkan suatu sistem yang telah ada atau sistem baru yang akan dikembangkan secara logika tanpa mempertimbangkan lingkungan fisik dimana data tersebut mengalir atau lingkungan fisik dimana data tersebut akan disimpan
+2) data flow diagram adalah diagram aliran data merupakan model dari sistem untuk menggambarkan pembagian sistem ke modul yang lebih kecil
+3) dapat disimpulkan dari definisi diatas bahwa data flow diagram adalah peralatan yang berfungsi untuk menggambarkan secara rinci mengenai sistem sebagai jaringan kerja antar fungsi yang berhubungan satu sama lain dengan menunjukkan dari dan kemana data mengalir serta penyimpanannya
+data flow diagram adalah suatu gambaran secara logikal dfd biasanya digunakan untuk membuat sebuah model sistem informasi dalam bentuk jaringan proses yang saling berhubungan satu sama lainnya oleh aliran data
+terdapat tiga user pada web sistem informasi pemetaan ini yaitu, admin, calon pelanggan dan pelanggan
+“entity relationship diagram (diagram gambar 3.2 erd sistem 4.1 hasil perancangan beranda, hubungi kami, peta bts, berlangganan, log in sebagai admin serta form sebagai pelanggan
+gambar 4.1 halaman beranda service pada halaman beranda dengan login admin akan terdapat submenu beranda, data bts, data alat, data pelanggan dan calon pelanggan
+pada submenu data bts terdapat menu lihat data bts dan tambah bts serta terdapat peta letak btsnya tersebut
+pada peta terdapat radius dari masing-masing bts serta terdapat keterangan kekuatan sinyal di atas peta sesuai warna
+gambar 4.4 halaman submenu data bts 4.2 pembahasan berikut ini adalah analisis hasil perancangan dan pegujian sistem : 1
+sistem informasi pemetaan bts dan kosumen sangat diperlukan oleh pt progressio datawave cakrawala karena dapat memudahkan calon konsumen di pt progressio datawave cakrawala
+sistem informasi pemetaan bts dan konsumen pada pt progressio perlu penyederhaan dalam pegelolaan datanya
+sistem informasi pemetaan bts dan kosumen ptprogressio perlu menambahkan lebih banyak informasi yang detail
+bahwa sistem informasi yang dirancang dinilai berhasil mencapai tujuan yaitu dapat memetakan bts dan kosumen serta dapat memberikan informasi tetang kuat dan lemahnya sinyal dari salah satu bts yag dimiliki oleh pt progressio datawave cakrawala, hal ini ditunjukkan dengan hasil lsr
+pengujian terhadap sistem informasi pemetaan bts dan konsumen pada penyedia layanan internet pt progressio datawave cakrawala di kota pontianak berbasis web, maka dapat disimpulkan bahwa : 1
+sistem informasi pemetaan bts yang dirancangdapat menginformasikanjangkauan dan kuat-lemahnya sinyal yang terdapat pada masing- masing bts tersebut
+pelangganyang berada di daerah-daerah yang belum terjangkau oleh bts yang sudah ada sehingga dapat menjadi acuan untuk penambahan bts
+sistem informasi dapat memudahkan admin untuk menentukan apakah calon pelanggan tersebut dapat berlangganan atau tidak
+progressio datawave cakrawala di kota pontianak ini adalah : 1
+sistem informasi agar lebih ditambah banyak fitur interaktif agar lebih dapat mempermudah admin dalam melayani

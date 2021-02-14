@@ -1,0 +1,109 @@
+alam pengucapan kata berbahasa arab sehari-hari nessaputriandayu@gmail.com communication device is can not be rid of the information and communication technology them is the development in text to speech synthesis technology from natural language processing branch of science
+from all of the language in the world, there is one of the language that be used commonly wide as the first language from various country, that is arabian language
+in other side, the research development of text to speech in arabian language still get lack of attention although arabian language is become one of the language with commonly user worldwide, in particular this development in education sector
+this thing become a base in development of text to speech application for arabian language that can be used for learning pronounce the word in daily arabian language based on website
+this research focused on the development a simple algorithm in arabian language text to speech process by combine the word or sentence that will be pronounced
+according to the testing result with 40 word samples get the success percentage is about 95%, with the condition that are hijaiyah character has the harakat, there is no symbol, number, and reading sign in input text, and the input text that contain reading rule or tajwid can not be processed to pronounce with tajwid
+pendahuluan menurut abdul chair seperti dikutip oleh rohim dkk, bahasa adalah suatu sistem lambang berupa bunyi yang bersifat arbitrer, digunakan oleh suatu masyarakat untuk bekerja sama, berkomunikasi, dan mengidentifikasi diri
+paling banyak digunakan sebagai bahasa pertama dari berbagai negara yaitu bahasa arab
+jumlah ini belum termasuk dengan pengguna bahasa arab dari negara lain yang bahasa pertama di negaranya bukan bahasa arab, dan dengan total keseluruhan pengguna bahasa arab dari seluruh dunia lebih dari 450 juta jiwa
+pembahasan mengenai bahasa sebagai alat komunikasi baik dalam bentuk percakapan maupun tertulis, tidak lepas dari teknologi informasi dan komunikasi yang hingga saat ini berkembang dengan sangat cepat
+salah satunya adalah perkembangan dalam bidang teknologi text to speech synthesis yang merupakan cabang ilmu dari pemrosesan bahasa alami
+berkembangnya teknologi text to speech ini diikuti dengan semakin banyak peneliti yang mengangkat text to speech sebagai bahan penelitian yang diterapkan dalam berbagai macam bahasa dan kepentingan
+oleh karena itu tidak sedikit yang menerapkan text to speech ke dalam bidang pendidikan, yang berupa aplikasi dan media yang menyediakan suara sebagai fitur pendukung
+berbeda halnya dengan bahasa inggris dan perancis yang lebih banyak dikembangkan dalam penelitian text to speech, pengembangan penelitian text to speech dalam bahasa arab kurang mendapat perhatian meskipun bahasa arab merupakan salah satu bahasa dengan pengguna terbanyak, khususnya pengembangan dalam bidang pendidikan
+berdasarkan pembahasan diatas, maka perlu dikembangkan sebuah aplikasi text to speech converter dalam pengucapan kata berbahasa arab sehari-hari berbasis web yaitu al-lughoh
+text to speech converter pada al-lughoh digunakan sebagai alat yang dapat membantu dalam mengeluarkan suara pelafalan dari teks bahasa arab dalam setiap materi yang ditampilkan, evaluasi dan untuk fitur khusus yang memungkinkan pengguna untuk memasukkan sendiri teks arab yang ingin didengar pelafalan suaranya
+teori dasar 2.1 kecerdasan buatan perancangan aplikasi text to speech converter dalam pengucapan kata berbahasa arab sehari-hari, merupakan salah satu pengaplikasian dari bidang ilmu dalam lingkup utama kecerdasan buatan yaitu pengolahan bahasa alami 
+menurut john mccarthy seperti dikutip oleh muhammad dahria, kecerdasan buatan proses berpikir manusia dan mendesain mesin agar dapat menirukan perilaku manusia
+dua bagian utama yang dibutuhkan untuk aplikasi kecerdasan buatan : 1
+basis pengetahuan, berisi fakta- fakta, teori, pemikiran yang memiliki hubungan antara satu dengan yang lainnya
+motor inferensi, kemampuan untuk menarik kesimpulan berdasarkan pengetahuan
+komputerlingkup utama dalam kecerdasan buatan antara lain: 1
+sistem pakar pada sistem pakar, komputer digunakan sebagai sarana untuk menyimpan pengetahuan para pakar
+dengan demikian komputer akan memiliki keahlian untuk menyelesaikan permasalahan dengan meniru keahlian yang dimiliki oleh pakar
+pemrosesan bahasa alami dengan pengolahan bahasa alami ini diharapkan user dapat berkomunikasi dengan komputer dengan menggunakan bahasa sehari-hari
+memberi kemampuan pengguna komputer untuk mereka sendiri 
+dapat berkomunikasi dengan komputer sistem sensor, seperti sistem visi dan pencitraan serta sistem pengolahan sinyal, merupakan bagian dari robotika
+sebuah robot, yaitu perangkat elektromekanik yang diprogram untuk melakukan tugas manual, tidak semuanya merupakan bagian dari ai
+robot yang hanya melakukan aksi yang telah diprogramkan dikatakan sebagai robot bodoh yang tidak lebih pintar dari lift
+robot yang cerdas biasanya mempunyai perangkat sensor, seperti kamera, yang mengumpulkan informasi mengenai operasi dan lingkungannya
+kemudian bagian ai robot tersebut menerjemahkan informasi tadi dan merespon serta beradaptasi jika terjadi perubahan lingkungan
+citra, pengenalan pola serta proses pengambilan keputusan
+tujuan utama dari komputer visi adalah untuk menerjemahkan suatu pemandangan
+belajar melalui komputer sudah lama digunakan, namun dengan menambahkan aspek kecerdasan didalamnya, dapat tercipta komputer yang dapat mengatur teknik pengajarannya untuk menyesuaikan dengan kebutuhan secara individiual 7
+mesin belajar mesin belajar merupakan sekumpulan metode untuk mencoba mengajari atau melatih komputer untuk memecahkan masalah atau mendukung usaha pemecahan masalah dengan menganalisa kasus- kasus yang telah terjadi
+dua metode mesin belajar yang paling populer adalah komputasi neural dan logika samar
+processing) informasi dari database ke dalam bahasa manusia yang dapat dibaca
+dari bahasa, sehingga dapat terjadi suatu interaksi antara manusia dengan komputer dengan perantara bahasa alami
+model komputasi ini dapat berguna untuk keperluan ilmiah misalnya meneliti sifat-sifat dari suatu bentuk bahasa alami maupun untuk keperluan sehari-hari dalam hal ini memudahkan komunikasi antara manusia dengan komputer
+sebuah natural language system harus memperhatikan pengetahuan terhadap bahasa itu sendiri, baik dari segi kata yang digunakan, bagaimana kata-kata tersebut digabung untuk menghasilkan suatu kalimat, apa arti sebuah kata, apa fungsi sebuah kata dalam sebuah kalimat dan sebagainya
+sebagai contoh, dalam suatu percakapan, sesorang mungkin dapat menjawab suatu pertanyaan atau ikut dalam suatu percakapan dengan tidak hanya berdasar pada kemampuan berbahasa tapi juga harus tahu misalnya kata istilah yang umum digunakan dalam kelompok percakapan itu atau bahkan harus tahu konteks dari percakapan itu
+pemikiran chomsky yang merepresentasikan membuka peluang untuk melakukan pengolahan bahasa secara simbolik dengan teknologi komputer, sehingga melahirkan bidang ilmu natural language processing 
+lisan dapat dibentuk dari tiga subsistem, yaitu sebagai berikut: simbolik terhadap bahasa tulisan
+beberapa bentuk aplikasi subsistem ini adalah translator bahasa alami, sistem pemeriksa sintaks bahasa, sistem yang dapat ”menyimpulkan” suatu narasi, dan sebagainya
+subsistem text to speech berfungsi untuk mengubah teks menjadi ucapan 
+subsistem speech recognition merupakan kebalikan teknologi text to speech, yaitu sistem yang berfungsi untuk mengubah atau mengenali suatu ucapan menjadi teks 
+mengubah teks menjadi audio, tts engine menggunakan bermacam-macam metode, antara lain: 1
+metode ini menggabungkan frasa kata yang sebelumnya telah direkam untuk membentuk sebuah kalimat dan merupakan metode yang paling mudah serta paling banyak digunakan saat ini
+kebanyakan sistem voice-mail menggunakan, ini merupakan pesan yang terdiri dari tiga bagian yaitu dua buah pesan yang bersifat statis dan serta sebuah pesan yang bersifat dinamis tetapi telah dipersiapkan sebelumnya yaitu 
+metode ini menghasilkan sintesis atau tiruan kata secara elektronik dengan menerapkan algoritma perhitungan yang kompleks untuk mensimulasikan pita suara, rongga mulut, bentuk bibir dan posisi lidah
+suara yang dihasilkan dari metode ini seperti suara robot tetapi dengan algoritma yang telah ada pada text to speech engine menjadi seperti suara manusia
+penggabungan frasa kata dan sintesis kata
+metode ini menggabungkan segmen audio dan menggunakan algoritma perhitungan untuk utuh
+contohnya adalah, terdiri dari empat segmen
+format suatu bahasa menjadi ucapan sesuai dengan pembacaan teks dalam bahasa yang digunakan
+sistem text to speech memerlukan dua proses konversi, yaitu konversi teks ke fonem dan konversi fonem ke ucapan
+kedua proses tersebut dilakukan secara berurutan dengan masukan berupa teks dan keluaran berupa ucapan
+diagram blok sistem konversi teks ke ucapan 2.3.1 proses konversi teks ke fonem mengolah kalimat masukan dalam suatu bahasa tertentu yang berbentuk teks menjadi rangkaian kode- kode bunyi yang direpresentasikan dengan kode fonem, durasi serta pitch-nya
+kode-kode fonem adalah kode yang merepresentasikan unit bunyi yang ingin diucapkan
+pengucapan kata atau kalimat pada prinsipnya adalah urutan bunyi atau secara simbolik adalah urutan kode fonem
+konversi dari teks ke fonem sangat dipengaruhi oleh aturan-aturan yang berlaku dalam suatu bahasa
+pada prinsipnya proses ini melakukan konversi dari simbol-simbol tekstual menjadi simbol-simbol fonetik yang merepresentasikan unit bunyi terkecil dalam suatu bahasa
+setiap bahasa memiliki aturan cara pembacaan dan cara pengucapan teks yang sangat spesifik
+hal ini menyebabkan implementasi unit konverter teks ke fonem menjadi sangat spesifik terhadap suatu bahasa
+untuk mendapatkan ucapan yang lebih alami, ucapan yang dihasilkan harus memiliki intonasi 
+secara kuantisasi, prosodi adalah perubahan nilai frekuensi dasar selama pengucapan kalimat dilakukan atau pitch sebagai fungsi waktu
+2.3.2 proses konversi fonem ke ucapan pitch dan durasi yang dihasilkan oleh bagian sebelumnya
+berdasarkan kode-kode tersebut, bagian konverter fonem ke ucapan akan menghasilkan bunyi atau sinyal ucapan yang sesuai dengan kalimat yang ingin diucapkan
+ada beberapa alternatif teknik yang dapat digunakan untuk implementasi bagian ini
+dua teknik yang banyak digunakan adalah formant synthesizer, serta diphone concatenation
+formant synthesizer bekerja berdasarkan suatu model matematis yang akan melakukan komputasi untuk menghasilkan sinyal ucapan yang diinginkan
+synthesizer jenis ini telah lama digunakan pada berbagai aplikasi
+walaupun dapat menghasilkan ucapan dengan tingkat kemudahan interpretasi yang konverter teks ke fonem generator ucapan diphone concatenation dengan tingkat kealamian yang tinggi
+synthesizer yang menggunakan teknik diphone concatenation bekerja dengan cara menggabungkan segmen-segmen bunyi yang telah direkam sebelumnya
+setiap segmen berupa diphone yaitu gabungan dua buah fonem
+synthesizer jenis ini dapat menghasilkan bunyi ucapan dengan tingkat kealamian yang tinggi
+struktur sistem seperti di atas pada prinsipnya merupakan konfigurasi tipikal yang digunakan pada berbagai sistem text to speech berbagai bahasa
+namun demikian, pada setiap sub-sistem terdapat sifat-sifat serta proses-proses yang sangat spesifik dan sangat tergantung dari bahasanya
+membangkitkan sinyal ucapan berdasarkan kode-kode fonem yang dihasilkan dari proses sebelumnya
+sub sistem ini harus memiliki pustaka setiap unit ucapan dari suatu bahasa
+pada sistem yang menggunakan teknik diphone concatenation, sistem harus didukung oleh suatu diphone database yang berisi rekaman segmen-segmen ucapan yang berupa diphone
+ucapan dalam suatu bahasa dibentuk dari satu set bunyi yang mungkin berbeda untuk setiap bahasa, oleh karena itu setiap bahasa harus dilengkapi dengan diphone database yang berbeda
+tahap normalisasi teks berfungsi untuk mengubah semua teks kalimat yang ingin diucapkan menjadi teks yang secara lengkap memperlihatkan cara pengucapannya
+hasil eksperimen adapun nama dari text to speech converter engine yang dirancang untuk pembelajaran pengucapan kata berbahasa arab sehari-hari ini adalah 
+text to speech converter pada al-lughoh digunakan sebagai alat yang dapat membantu dalam mengeluarkan suara pelafalan dari teks bahasa arab dalam setiap materi yang ditampilkan, evaluasi dan fitur khusus yang memungkinkan pengguna untuk memasukkan sendiri teks arab yang ingin didengar pelafalan suaranya
+halaman yang memiliki fungsi tertentu sesuai dengan fitur dan proses yang ada pada aplikasi
+halaman- halaman tersebut dapat diakses dengan cara mengisi form login terlebih dahulu
+untuk mengakses kedua halaman ini, pengunjung diharuskan untuk mengisi username dan password melalui form login
+berikut merupakan tampilan halaman utama pengguna
+tampilan aplikasi dari halaman admin dapat dilihat pada gambar 4
+berikut merupakan tampilan dari form fitur text to speech yang akan diisi dengan teks arab
+antarmuka form text to speech teks arab adapun struktur antarmuka sistem dapat dilihat pada gambar 6
+struktur antarmuka sistem 3.1 konversi teks arab ke teks latin pada tahap ini teks arab yang telah dimasukkan akan diparsing menjadi satuan huruf, setiap karakter huruf arab memiliki kode ascii yang berbeda, dari setiap kode ascii tersebut kemudian dicocokkan dengan karakter latin sesuai yang terdapat pada database, sehingga setiap karakter latin yang didapat akan disusun kemudian menghasilkan kalimat latin hasil konversi dari teks arab sebelumnya
+alur proses konversi dari teks arab ke teks latin dapat dilihat pada gambar 7
+setiap karakter karakter arab karakter tabel aascii output: teks latin proses parsing teks arab ke teks latin 3.2 parsing teks latin pada tahap ini, teks latin yang telah didapat dari proses sebelumnya akan diparsing menjadi satuan suku kata
+berikut merupakan alur proses parsing teks latin menjadi suku kata
+k=strlen ; 3.3 load audio tahap load audio merupakan tahapan mencari data audio dari suku kata yang telah didapat pada proses sebelumnya
+data audio yang berupa pelafalan dari suku kata akan dirangkai menjadi satuan suara pelafalan dari teks arab yang dimasukkan
+3.4 analisis hasil pengujian pengujian yang dilakukan pada aplikasi ini menggunakan teknik pengujian black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan berdasarkan hasil akhir dari pengujian
+pengujian black box untuk text to speech bahasa arab dilakukan melalui simple testing dimana akan dilakukan pengujian dengan beberapa sampel kalimat yang akan dilafalkan
+adapun indikator keberhasilan dari hasil pengujian ini adalah memperoleh audio pelafalan bahasa arab yang sesuai maupun mendekati dari pelafalan yang dimaksud
+adapun dalam pengujian ini akan dimasukkan sampel berupa kata dan kalimat
+sampel kata yang digunakan untuk bahan pengujian adalah 40 kata dari bahasa arab
+dari 40 sampel kata yang diuji terdapat satu kata yang tidak berhasil dikeluarkan suara pelafalannya, sehingga persentase keberhasilan yang terjadi adalah sebesar 97, 5%
+dengan rumus persentase keberhasilan sebagai berikut: total sampel kalimat yang diuji = 39 x 100% = 97, 5% untuk pelafalan teks
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap penggunaan aplikasi pengolah bahasa text to speech yang dimanfaatkan dalam media pembelajaran pengucapan kata berbahasa arab sehari-hari berbasis web, maka dapat diperoleh kesimpulan akhir sebagai berikut : 1
+text to speech converter engine yang dimanfaatkan untuk aplikasi pembelajaran pengucapan kata berbahasa arab sehari-hari berbasis web telah berhasil dikembangkan
+proses mendapatkan pelafalan suara dari teks masukan menggunakan algoritma parsing pada proses text to speech bahasa arab, telah berhasil dikembangkan dengan persentase tingkat sebesar 97, 5%
+algoritma parsing sederhana untuk proses mengubah teks arab ke latin dan dari latin hingga dapat menghasilkan suara telah berhasil diterapkan pada fitur text to speech dalam aplikasi pembelajaran pengucapan kata berbahasa arab sehari-hari

@@ -1,0 +1,110 @@
+bahasa merupakan alat komunikasi yang dijadikan sarana untuk berinteraksi dengan masyarakat sekitar
+kemampuan akan penguasaan banyak bahasa tentunya akan mempermudah untuk berinteraksi dengan orang lain dari berbagai daerah yang berbeda
+oleh karena itu, diperlukan penerjemah untuk menambah pengetahuan akan berbagai bahasa yang ada
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+korpus paralel adalah pasangan korpus yang berisi kalimat-kalimat dalam suatu bahasa dan terjemahannya
+salah satu fitur yang digunakan untuk meningkatkan akurasi hasil terjemahan adalah dengan fitur menambah kuantitas korpus monolingualtujuan penelitian ini adalah melakukan penggunaan fitur menambah kuantitas korpus monolingual pada mesin penerjemah statistik bahasa indonesia ke bahasa sunda untuk meningkatkan nilai akurasi hasil terjemahan dan mengetahui seberapa besar pengaruh dari penambahan kuantitas korpus monolingual terhadap hasil terjemahan
+pengujian dilakukan dengan membandingkan nilai akurasi hasil terjemahan sebelum dan setelah menambah kuantitas korpus monolingual penelitian menggunakan korpus paralel sebanyak 3000 korpus
+pengujian dilakukan dengan dua cara, yaitu pengujian otomatis menggunakan bilingual evaluation understudy dan pengujian oleh ahli bahasa sunda
+dari hasil penelitian, penggunaan menambah kuantitas korpus monolingual dapat meningkatkan kualitas terjemahan untuk mesin penerjemah bahasa indonesia ke bahasa sunda
+hal itu terlihat dari hasil pengujian dengan menambahkan fitur menambah kuantitas korpus monolingual terdapat peningkatan nilai bleu dengan korpus 3400 sebesar 0.32%, 4400 korpus sebesar 0.51%, 5400 korpus sebesar 0, 42%, 6400 korpus sebesar 0.51%, 7400 korpus sebesar 0.87%, 8400 korpus sebesar 1.04%, 9400 korpus sebesar 1.79% pada pengujian otomatis dan 19.13% pada pengujian oleh ahli bahasa
+berdasarkan hal tersebut, mesin penerjemah statistik bahasa indonesia ke bahasa sunda dengan penggunaan fitur menambah kuantitas korpus monolingual dapat meningkatkan nilai akurasi hasil terjemahan
+pendahuluan bahasa merupakan alat yang digunakan untuk berkomunikasi
+tidak hanya untuk melakukan komunikasi antara manusia dengan manusia yang lainnya, namun dalam hal ini bahasa juga menjembatani komunikasi antara manusia dengan komputer
+bahasa yang digunakan manusia untuk berkomunikasi dengan komputer dikenal dengan bahasa pemrograman
+untuk mengolah bahasa dari manusia dan computer maka diperlukan sistem natural languange processing 
+dengan pesatnya perkembangan teknologi, saat ini sedang dikembangkan mesin penerjemah untuk mengatasi masalah penerjemahan bahasa
+mesin penerjemah merupakan mesin yang dapat melakukan proses penerjemahan dari satu bahasa ke bahasa lainnya secara otomatis
+mp memiliki kegunaan praktis karena dapat membantu manusia untuk berkomunikasi satu sama lainnya yang memiliki bahasa yang berbeda
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan dihasilkan atas dasar model statistik yang parameter- parameternya diambil dari hasil analisis korpus teks bilingual 
+natural language processing adalah salah satu bidang ilmu komputer, kecerdasan buatan, dan bahasa yang berkaitan dengan interaksi antara komputer dan bahasa alami manusia, seperti bahasa indonesia atau bahasa lainnya
+tujuan utama dari studi nlp adalah membuat mesin yang mampu mengerti dan memahami makna bahasa manusia lalu memberikan respon yang sesuai
+sesuai dengan studi kasus diatas, ada beberapa metode yang dilakukan untuk membuat mesin penerjemah yang mampu menerjemah bahasa indonesia ke bahasa sunda
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralelii
+mesin penerjemah statistik mesin penerjemah statistik merupakan salah satu jenis mesin penerjemah dengan menggunakan pendekatan statistik
+menurut christoper d manning dan hinrich schutze, dalam statistical machine translation terdapat tiga buah komponen yang terlibat dalam proses penerjemahan kalimat dari suatu bahasa ke bahasa lain, yaitu language model, translation model, dan decoder seperti yang tertera pada gambar 1
+komponen mesin penerjemah statistikmesin penerjemah statistik merupakan salah satu jenis mesin penerjemah dengan menggunakan pendekatan statistik
+pendekatan statistik yang digunakan adalah konsep probabilitas
+setiap pasangan kalimat akan diberikan sebuah p yang diinterpretasikan sebagai distribusi probabilitas dimana sebuah penerjemah akan menghasilkan t dalam bahasa sasaran ketika diberikan s dalam bahasa sumber
+language model digunakan pada aplikasi natural language processing seperti speech recognition, part-of- speech tagging dan syntactic parsing
+language model statistik menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+translation model merupakan salah satu komponen penting pada statistical machine translation dalam proses penerjemahan yang membagi kalimat bahasa asal menjadi barisan frase, menerjmahkan setiap frase ke tujuan, dan reordering
+komponen terakhir dari mesin penerjemah statistik adalah decoder yang berfungsi untuk mencari teks dalam bahasa tujuan yang memiliki probabilitas paling besar dengan pertimbangan translation model dan language modelgambar 2
+arsitektur mesin pnerjemah statistik mosesgambar 2 merupakan arsitektur sistem dari mesin penerjemah statistik moses
+menurut herry sujaini, sumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus
+proses training terhadap parallel corpus menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada parallel corpus ditambah dengan monolingual corpus bahasa target menggunakan srilm menghasilkan language model, sedangkan pos model dihasilkan dari bahasa target pada parallel corpus yang setiap katanya sudah ditandai dengan pos
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+moses moses adalah salah satu mesin penerjemah statistik yang memungkinkan untuk menerjemahkan secara otomatis setiap pasangan bahasa
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa target saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa target
+moses dirilis di bawah lisensi lgpl dan tersedia sebagai kode sumber dan binari untuk windows dan linux
+perkembangannya didukung oleh proyek euromatrix, dengan pendanaan oleh european commission
+korpus korpus didefinisikan sebagai koleksi atau sekumpulan contoh teks tulis atau lisan dalam bentuk data yang dapat dibaca dengan menggunakan seperangkat mesin dan dapat diberi catatan berupa berbagai bentuk informasi linguistik
+korpus dapat diklasifikasikan ke dalam delapan jenis, yaitu korpus khusus, korpus umum, korpus komparatif, korpus paralel, korpus pemelajar, korpus pedagogis, korpus historis atau diakronis, dan korpus monitor 
+berdasarkan jenis korpus tersebut, untuk penelitian ini penulis akan fokus pada korpus paralel
+definisi penerjemahan dalam kamus besar bahasa indonesia kata merupakan menyalin suatu bahasa ke bahasa lain atau mengalihbahasakan
+selain itu, penerjemahan adalah kegiatan mengalihkan secara tertulis pesan dari teks suatu bahasa ke dalam teks bahasa lain 
+penerjemahan adalah pengalihan pikiran atau gagasan dari suatu bahasa sumber ke dalam bahasa yang lain
+penerjemahan adalah mengubah teks bahasa sumber ke dalam teks bahasa sasaran dengan mempertimbangkan makna kedua bahasa sehingga diusahakan semirip-miripnya, yang tak kalah pentingnya adalah terjemahan harus mengikuti kaidah-kaidah yang berlaku dalam bahasa sasaran
+proses penerjemahan proses penerjemahan terdiri dari 3 tahap yaitu analysis, transfer dan restructuring
+dalam proses analysis, penerjemah menganalisis isi pesan bahasa sumber berdasarkan gramatika dan makna
+pada tahap ini kalimat-kalimat bahasa sumber dipecah-pecah menjadi satuan-satuan gramatikal berstruktur kalimat-kalimat dasar, kata-kata dan frase-frase untuk menangkap makna yang ada dengan teknik analisis komponen
+tahap kedua, transfer, yaitu proses pengalihan materi-materi yang telah dianalisis dari bahasa sumber ke dalam bahasa sasaran
+tahap terakhir yaitu restructuring, bahwa penerjemah menyusun materi-materi yang telah dialihkan dan bertujuan untuk membuat pesan yang secara keseluruhan dapat diterima
+automatic evaluation sistem evaluasi otomatis yang populer saat ini adalah bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan terjemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+standar nilai n untuk bleu adalah 4
+keterangan: bp = brevity penalty c = jumlah kata dari hasil terjemahan otomatis r = jumlah kata rujukan = modified precission score = 1/n = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n-gram hasil terjemahan iii
+data penelitian data penelitian berupa buku cerita rakyat yang berasal dari bandung
+dokumen beserta cerita tersebut selanjutnya diolah menjadi korpus teks paralel bahasa indonesia dan bahasa sunda
+adapun jumlahnya yaitu 3000 pasangan kalimat korpus paralel bahasa indonesia dan bahasa sunda
+implementasi mesin penerjemah statistik indonesia ke bahasa sunda 1
+implementasi srilm model bahasa digunakan sebagai sumber pengetahuan berbasis teks dengan nilai-nilai probabilistik
+penelitian ini menggunakan n-gram sebagai language model
+model bahasa dibangun dengan tools srilm
+model bahasa akan menghasilkan output dengan format file *.lm
+gambar 3 merupakan tabel model bahasa yang dihasilkan oleh srilm pada mesin penerjemah statistik bahasa indonesia – bahasa sunda
+tabel model bahasa dengan bahasa indonesia sebagai bahasa target 2
+implementasi giza++ untuk pemodelan translasi model translasi digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan lexical model table
+dokumen vocabulary corpus bahasa sunda gambar 4 merupakan isi dari dokumen vocabulary corpus
+angka 1 sampai 10 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+vocabulary corpus yang dihasilkan mesin penerjemah bahasa indonesia – bahasa sunda
+# sentence pair source length 9 target length 9 alignment score : 2.99844e-05 teh lila imut, tuluy nyekel leungeun inu pageuh null tidak lama senyum, terus memegang tangan inu erat gambar 5
+dokument alignment bahasa indonesia - bahasa sunda gambar 5 merupakan dokumen alignment bahasa indonesia ke sunda terdapat tiga baris kalimat
+baris pertama berisi letak kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target dan skor alignment 2.99844e-05
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap kalimat bahasa sumber
+kata memiliki makna bahwa kata pada kalimat bahasa target, di-align ke kata keenam pada kalimat bahasa sumber yaitu 
+tabel lexical model mesin penerjemah bahasa indonesia - bahasa sunda gambar 6 merupakan tampilan dari tabel lexical model pada mesin penerjemah statistik bahasa indonesia - bahasa sunda
+proses lexical translation table oleh giza++ akan menghasilkan tabel translasi lexical model yang terdiri dari tabel kata yang berisi kosakata dari bahasa sumber yang memiliki makna pada bahasa sasaran ataupun sebaliknya 
+setiap kosakata yang dihasilkan memiliki jumlah probabilitas sebesar 1.0 yang terbagi dalam beberapa makna
+pengujian hasil terjemahan mesin translasi pengujian hasil translasi dilakukan dengan cara pengujian otomatis dari mesin penerjemah
+pengujian otomatis dari mesin penerjemah menghasilkan keluaran berupa nilai akurasi yang dihasilkan oleh bleu 
+hasil pengujian ini nantinya akan menjadi parameter untuk membandingkannya dengan hasil pengujian setelah dilakukan penambahan korpus monolingual langkah pada pengujian otomatis, korpus yang akan diuji terlebih dahulu melalui langkah translasi otomatis yang akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin
+pengujian mesin menggunakan metode k-fold cross-validation
+setelah membuat output berupa hasil translasi otomatis dari mesin penerjemah, langkah selanjutnya adalah mendapatkan skor dari output dengan cara membandingkan output tersebut dengan korpus manual bahasa target yang telah dibuat sebelumnya
+tampilan skor bleu gambar 7 merupakan nilai skor bleu pada mesin penerjemah bahasa indonesia ke bahasa sunda sebelum dilakukan penambahan kuantitas korpus monolingual adalah sebesar 28.25%
+penambahan kuantitas korpus monolingual setelah mendapatkan nilai awal dari korpus uji, maka langkah selanjutnya adalah melakukan proses penambahan kuantitas korpus monolingual pada bahasa sunda
+proses penambahan kuantitas korpus bahasa sunda seperti yang telah dijelasakan pada bab sebelumnya
+pengujian otomatis pengujian dilakukan dengan cara membandingkan nilai bleu hasil terjemahan otomatis dari mesin penerjemah bahasa indonesia - bahasa sunda sebelum dan setelah melewati tahap penambahan kuantitas korpus monolingual gambar 10
+tampilan grafik nilai bleu sebelum dan setelah penambahan kuantitas korpus monolingual gambar 10 merupakan tampilan grafik sebelum mengalami penambahan kuantitas korpus monolingual, nilai bleu sebelum dilakukan penambahan kuantitas korpus monolingual pada korpus paralel 2.400 kalimat sebesar 28.25% dan setelah dilakukan penambahan kuantitas korpus monolingual 3.400 sebesar 28.34%, 4.400 sebesar 28.40%, 5.400 sebesar 28.37%, 6.400 sebesar 28.40%, 7.400 sebesar 28.50%, 8.400 sebesar 28.55% dan 9.400 sebesar 28.76% 2
+pengujian ahli bahasa pengujian ahli bahasa dilakukan terhadap hasil terjemahan mesin penerjemah statistik bahasa indonesia ke bahasa sunda
+pengujian dilakukan dengan mengambil kalimat yang mengalami perubahan pada hasil terjemahan otomatis yang terdapat pada korpus paralel sebelum dan sesudah dilakukan penambahan kuantitas korpus monolingual sebanyak 20 kalimat
+ahli bahasa menilai apakah hasil terjemahan lebih baik, sama, atau lebih buruk berdasarkan tingkat akurasi terjemahan kata
+perhitungan akurasi dilakukan dengan persamaan berikut : p = 100% keterangan: p = persentase akurasi c = jumlah kata yang diterjemahkan dengan tepat menurut penilaian dari ahli bahasa r = jumlah kata hasil terjemahan tabel 1 tabel akurasi ahli bahasa kalimat hasil terjemahan bella yuda c = 115, r = 153 75.16% setelah penambahan kuantitas korpus monolingual bella yuda c = 137, r=153 89.54% tabel 1 merupakan tampilan tabel akurasi dari ahli bahasa sebelum mengalami penambahan kuantitas korpus monolingual, nilai dari ahli bahasa sebesar 75.16% dan setelah dilakukan penambahan kuantitas korpus monolingual didapat nilai dari ahli bahasa sebesar 89.54%
+terdapat peningkatan nilai bleu sebesar 19.13% dilihat dari perbandingan sebelum dan sesudah mengalami penambahan kuantitas korpus monolingual f
+perkiraan jumlah korpus berdasarkan penambahan kuantitas korpus monolingual persamaan jumlah korpus pada mesin penerjemah statistik bahasa indonesia ke bahasa sunda dapat dihitung berdasarkan fungsi logaritma
+adapun nilai dari fungsi logaritma diperoleh dari grafik uji akurasi terhadap kuantitas korpus
+tampilan grafik perkiraan jumlah korpus berdasarkan penambahan kuantitas korpus monolingual berdasarkan hasil analisis dan pengujian, maka kesimpulan yang dapat diambil sebagai berikut
+berdasarkan hasil penelitian, penambahan kuantitas korpus monolingual dapat meningkatkan nilai akurasi terjemahan mesin penerjemah bahasa indonesia – bahasa sunda
+penilaian yang dilakukan oleh ahli bahasa menghasilkan persentase peningkatan sebelum dilakukan penambahan kuantitas korpus monolingual sebesar 83.77% dan setelah dilakukan penambahan kuantitas korpus monolingual menjadi 96.75%
+dari hasil tersebut terjadi peningkatan hasil terjemahan sebesar 19.13%
+untuk mencapai nilai bleu hingga 31, 40% dibutuhkan setidaknya 169.574.400 korpus monolingual yang ditambahkan kedalam mesin penerjemah statistik bahasa indonesia ke bahasa sunda
+penurunan atau peningkatan nilai bleu ketika di lakukan penambahan kuantitas korpus monolingual dipengaruhi oleh kualitas korpus yang ditambahkan
+perlu penambahan jumlah korpus untuk meningkatkan kualitas terjemahan mesin penerjemah statistik
+perlu menggunakan korpus yang berkualitas agar mendapatkan nilai akurasi yang lebih tinggi
+perlu dilakukan penelitian lanjutan untuk melakukan analisis dalam menghasilkan terjemahan bahasa indonesia – bahasa sunda dengan menggunakan metode penelitian yang lain
+melakukan implementasi mesin penerjemah statistik ke dalam bahasa daerah yang lain dengan metode penambahan kuantitas korpus monolingual 10
+perlu dilakukan pengecekan ulang terhadap korpus teks paralel untuk mencegah kesalahan penulisan 

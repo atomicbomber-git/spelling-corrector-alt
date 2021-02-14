@@ -1,0 +1,15 @@
+informasi menyebabkan rendahnya kesadaran masyarakat terhadap kesehatan gigi dan mulut sehingga tidak memeriksakan gigi secara teratur ke dokter gigi
+padahal pemeriksaan gigi dan mulut secara teratur dapat mengatasi timbulnya penyakit gigi dan mulut yang jika tidak ditangani bahkan diabaikan dapat memicu penyakit lain yang lebih berbahaya
+banyak penyebab timbulnya penyakit pada gigi dan mulut
+karena itu, diperlukan sebuah sistem yang dapat melakukan diagnosis secara dini, sehingga jenis penyakit gigi dan mulut yang dialami dapat diketahui dengan cepat
+salah satunya dengan membuat sistem pakar
+sistem pakar ini dibuat dengan tujuan memberikan informasi kepada masyarakat tentang kesehatan gigi dan mulut serta dapat melakukan diagnosis awal dan menampilkan cara perawatan / pengobatan penyakit gigi dan mulut yang tepat
+sistem pakar diagnosis awal penyakit gigi dan mulut dibuat dengan menerapkan metode dempster-shafer
+dengan penerapan metode tersebut sistem ini dapat memberikan nilai keyakinan terhadap penyakit gigi dan mulut yang dialami
+sistem yang dihasilkan memiliki tingkat keyakinan sebesar 93%
+hal ini berarti bahwa sistem pakar yang dibangun dapat melakukan diagnosis dengan baik
+kesehatan yang banyak dikeluhkan oleh masyarakat, karena dapat mengganggu aktivitas sehari-hari
+penyakit ini dapat menyerang dari anak-anak hingga orang dewasa
+minimnya pengetahuan serta terbatasnya sumber informasi menyebabkan rendahnya kesadaran masyarakat terhadap kesehatan gigi dan mulut, sehingga tidak pernah memeriksakan gigi secara rutin ke dokter
+dari penduduk yang mempunyai masalah kesehatan gigi dan mulut, persentase penduduk yang menerima perawatan medis gigi meningkat dari 29, 7% tahun 2007 menjadi 31, 1% pada tahun 2013
+sama halnya dengan emd yang didefinisikan sebagai persentase penduduk yang bermasalah dengan gigi dan mulut dalam 12 bulan terakhir dikali persentase penduduk yang menerima perawatan atau pengobatan gigi dari tenaga medis gigi meningkat dari tahun 2007 yaitu 6, 9% menjadi 8, 1% tahun 2013

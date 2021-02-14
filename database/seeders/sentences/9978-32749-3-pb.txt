@@ -1,0 +1,221 @@
+kuliah kerja nyata pembelajaran pemberdayaan masyarakat adalah salah satu bentuk pengabdian ugm yang dilakukan oleh mahasiswanya kepada masyarakat secara langsung
+selama melaksanakan kkn, mahasiswa menyusun dan melaksanakan program kegiatan yang berguna bagi pemberdayaan masyarakat
+setelah selesai, mahasiswa diwajibkan membuat laporan tentang pelaksanaan kegiatan yang telah dilakukan
+dokumen laporan pelaksanaan kegiatan kkn yang terkumpul sudah sangat banyak tetapi belum dimanfaatkan secara maksimal laporan ini sebenarnya dapat menjadi sebuah sumber infromasi
+salah satu informasi yang bisa digali dari dokumen laporan tersebut adalah informasi tentang potensi daerah lokasi kkn
+penambangan informasi dari dokumen dapat dilakukan dengan text mining
+penelitian ini bertujuan untuk menambang informasi tentang potensi daerah dari dokumen laporan pelaksanaan kegiatan kkn-ppm menggunakan salah satu metode pada text mining, yaitu document clustering
+clustering dilakukan dengan dua pendekatan yaitu, stc dan lingo, menggunakan carrot2 workbench
+penggunaan dua algoritma ini dimaksudkan untuk memperoleh perbandingan algoritma yang memberikan hasil lebih baik dalam penggambaran potensi daerah lokasi kkn- ppm ugm
+hasil dari penelitian ini menunjukkan bahwa algoritma lingo lebih baik dalam memberikan gambaran tentang potensi daerah dibandingkan algoritma stc
+lingo memunculkan label klaster yang bertema potensi daerah lebih banyak dibanding stc
+dari evaluasi pada penelitian ini, lingo menghasilkan nilai f-measure 70%, dua kali lebih tinggi daripada stc yang hanya 33%
+pendahuluan universitas gadjah mada memiliki tiga program utama yaitu pendidikan, penelitian dan pengabdian kepada masyarakat atau yang dikenal sebagai tri dharma perguruan tinggi
+kuliah kerja nyata pembelajaran pemberdayaan masyarakat menjadi salah satu bentuk pengabdian ugm yang dilakukan oleh mahasiswa kepada masyarakat secara langsung
+melaksanakan program kegiatan yang bermanfaat bagi pemberdayaan masyarakat setempat
+setelah menyelesaikan seluruh program kegiatan, mahasiswa diwajibkan membuat laporan pelaksanaan kegiatan kkn-ppm
+laporan ini berisi tentang penjelasan pelaksanaan kegiatan yang telah dilakukan oleh masing-masing mahasiswa
+laporan yang terkumpul juga sudah sangat banyak
+laporan ini sebenarnya bisa menjadi sumber infromasi
+salah satu informasi yang bisa digali dari dokumen laporan tersebut adalah informasi tentang potensi daerah lokasi kkn
+potensi adalah sesuatu hal yang dapat dijadikan sebagai bahan atau sumber yang akan dikelola, baik melalui usaha yang dilakukan manusia maupun yang dilakukan melalui tenaga mesin
+ragam program kegiatan yang dilakukan mahasiswa di suatu lokasi kkn-ppm bisa menjadi indikator potensi yang dimiliki daerah tersebut
+sebagai contoh, kegiatan kkn tentang penyuluhan perikanan atau budidaya jahe di suatu lokasi kkn bisa menjadi indikator bahwa daerah tersebut memiliki potensi sumber daya alam jahe atau perikanan
+salah satu metode untuk menambang informasi dari sebuah data adalah data mining, atau dalam hal ini, text mining karena datanya berbentuk dokumen teks
+menambang data adalah memperoleh informasi lebih dalam dari informasi yang tampak pada sebuah data
+penelitian ini bertujuan untuk menambang informasi tentang potensi daerah dari dokumen laporan pelaksanaan kegiatan kkn-ppm menggunakan salah satu metode pada text mining, yaitu document clustering
+clustering dilakukan dengan dua pendekatan yaitu, stc dan lingo
+dengan menggunakan dua algortima, hasil klaster yang diperoleh bisa dibandingkan dan dianalisa manakah yang menghasilkan klaster lebih baik dalam penggambaran potensi daerah lokasi kkn-ppm ugm
+gambaran potensi daerah yang dihasilkan dari clustering dokumen laporan kkn ini, diharapkan dapat bermanfaat bagi pengelola kkn-ppm, sebagai pertimbangan kegiatan kkn selanjutnya, serta pihak terkait dalam pengembangan daerah
+text mining kadang disebut sebagai text data mining
+text mining secara garis besar dapat dikatakan sebagai analisis data teks, yaitu mendapatkan informasi bermanfaat dari sekumpulan data teks
+informasi ini bukan informasi yang sudah eksplisit tertuang dalam teks, tetapi informasi baru yang dapat disarikan dari kumpulan teks itu melalui pola
+untuk melakukan tugas tersebut, text mining mengadopsi teknik dari bidang lain, seperti data mining, information retrieval, statistik dan matematik, machine learning, linguistic, natural languange processing, dan visualization
+untuk klasifikasi, dokumen dikelompokkan ke dalam kategori yang sebelumnya sudah ditentukan terlebih dahulu
+sedangkan pada clustering, dokumen dikelompokkan menurut kesamaannya antara satu dokumen dengan yang lain
+dengan clustering, kategori kelompok tidak harus ditentukan terlebih dahulu
+kategori, atau sering disebut label kelompok, akan muncul otomatis dalam proses clustering
+cara ini dianggap lebih mudah untuk kumpulan data yang belum diketahui atau belum bisa diperkirakan kategorinya
+banyak algoritma yang dikembangkan untuk document clustering, beberapa di antaranya yaitu k-means, bisecting k-means, shoc, stc, dan lingo
+stc prosesnya lebih sederhana dibandingkan dengan algoritma lain
+proses clustering dengan stc melalui tiga fase
+fase pertama adalah penguraian dokumen 
+setiap dokumen diubah menjadi urutan kata dan diidentifikasi batas frasanya
+frasa adalah rangkaian kata yang tidak melewati batas frasa
+batas frasa bisa ditandai dengan sintak khusus
+selanjutnya, dokumen dicari kata dasarnya dengan stemming
+tahap selanjutnya adalah identifikasi cluster frasa
+pembentukan klaster frasa menggunakan struktur data suffix tree
+semua kalimat dalam dokumen dibuat suffix tree-nya
+contoh pembentukan suffix tree dari kalimat: 1
+cat ate mouse too gambar 1 menunjukkan adanya simpul internal yang terbentuk, yaitu a, b, c, d, e, dan f
+simpul internal digambarkan dalam lingkaran, sedangkan kotak berisi angka menggambarkan „daun‟
+simpul internal ini merupakan klaster frasa
+angka pertama pada „daun‟ menunjukkan dokumen asal kata/frasa tersebut, sedangkan angka yang kedua menunjukkan posisi kata itu dari suffix-nya dimulai
+tabel 1 merangkum hasil klaster frasa dari gambar 1
+s = skor klaster dasar m |m| = jumlah dokumen di dalam klaster frasa m mp = jumlah kata di dalam mp yang bukan merupakan stopword fungsi f meniadakan frasa dari kata tunggal, linier untuk frasa dengan panjang kata dua sampai enam kata, dan konstan untuk kata yang lebih dari enam kata
+fase terakhir yaitu, penggabungan klaster dasar
+klaster dasar yang terbentuk bisa saja tumpang-tindih atau mirip
+algoritma sct menggabungkan frasa yang mengandung dokumen yang tumpang-tindihnya tinggi 
+sebelum digabungkan, klaster frasa yang tumpang-tindih dihitung kesamaannya
+nilai ini bersifat konstan, dengan nilai antara 0 dan 1
+klaster-klaster yang terhubung akan digabungkan dan membentuk klaster akhir
+klaster akhir ini beranggotakan semua dokumen dari klaster frasa yang terhubung
+gambar 2 memperlihatkan bahwa nilai mempengaruhi hasil akhir stc
+lingo preprocessing dokumen untuk meningkatkan efisiensi proses clustering
+pada tahap ini dilakukan penghilangan stopword dan proses stemming
+tahap ini memastikan bahwa sebuah frasa yang dipilih adalah lengkap
+frasa lengkap adalah frasa yang tersusun dari kata- kata yang lengkap, sedangkan frasa parsial adalah frasa yang terdiri dari sebagian kata pada frasa lengkap
+cara kerja algoritma ini adalah mengidentifikasi frasa-kiri dan frasa- kanan lalu menggabungkannya menjadi frasa lengkap
+misalnya frasa lengkap, maka frasa- kanannya adalah dan frasa-kirinya adalah 
+ untuk menghitung bobot setiap frasa
+matrik ini selanjutnya dihitung dengan svd untuk menentukan label klaster
+svd membagi matriks tersebut menjadi 3 matriks, v, s, u
+misalnya matrik itu dinamakan matriks m, maka v, s dan u, adalah m = usv t, yang s adalah t×d “diagonal matriks", u adalah t×t dan v adalah d×d 
+jumlah nilai singular non-zero matriks m merupakan peringkat rm nya
+untuk kolom matriks m, kolom rm pertama dari matriks u membentuk dasar orthogonal frasa yang memiliki nilai maksimum dalam vektor dipilih menjadi konsep klaster yang dianggap mudah dipahami oleh pengguna
+selain itu, nilai peringkat kosinus menjadi skor kandidat dari sebuah label cluster
+isi dari setiap klaster yang telah terbentuk
+langkah ini menggunakan vsm 
+misalnya pada sebuah matriks a, vektor kolom menunjukkan label klaster
+jika e = a t m, dan m adalah matriks „term dokumen‟ dari sebuah dokumen
+faktor eij dari matriks e menunjukkan hubungan dari dokumen ke-j terhadap klaster ke-i
+jika eij melebihi batas nilai, dokumen akan dimasukkan ke dalam klaster
+dokumen yng tidak masuk klaster manapun akan masuk ke klaster 
+langkah terakhir adalah mengetahui klaster final yang memiliki skor maksimum
+skor dihitung dengan mengalikan label skor dengan jumlah anggota klaster
+klaster-klaster akan diurutkan berdasarkan skornya dan ditampilkan kepada pengguna
+mengelompokkan dokumen dengan dua algoritma, stc dan lingo
+keduanya dipilih karena algoritma tersebut berbasis frasa
+algortima ini khusus untuk bidang text mining
+berbeda dengan algoritma lain semisal k-nearest neighbor atau k-means yang juga bisa digunakan untuk data terstruktur pada bidang data mining
+preprocessing, ketiga clustering, dan yang terakhir tahap evaluasi
+data yang digunakan dalam penelitian ini adalah dokumen laporan kegiatan kkn-ppm yang dilakukan pada tahun 2012 berlokasi di kabupaten sleman
+laporan pelaksanaan kegiatan kkn-ppm berbentuk narasi deskriptif yang menjelaskan detail setiap program kegiatan kkn yang dilakukan oleh masing-masing mahasiswa
+umumnya, selama melakukan kkn satu orang mahasiswa melaksanakan sekitar sepuluh program kegiatan
+berkas dokumen yang digunakan dalam penelitian ini berjumlah 546 berkas
+berkas ini berbentuk softcopy dalam format word 
+untuk memudahkan proses clustering, seluruh dokumen diubah menjadi format plain text menggunakan software convertdoc
+stemming hasil dari pemecahan ini biasa disebut sebagai token
+token bisa berupa satu kata atau bisa sebuah frasa, misalnya dapat dipecah per kata menjadi dan atau menjadi satu frasa 
+pada tahap ini juga dilakukan penyeragaman penulisan token, apakah dengan huruf kecil seluruhnya atau huruf kapital penyeragaman ini untuk menghindari kesalahan jika proses selanjutnya bersifat case-sensitive
+titik, tanda tanya, tanda petik, tanda kurung, dan sintak khusus seperti tag html
+namun, karena stc dan lingo merupakan algortima berbasis frasa, tanda titik tidak dihilangkan
+tanda baca titik berguna sebagai penanda batas frasa
+penghilangan stopword penting pada teks, stopword dapat dihilangkan
+pada penelitian ini, stopword yang digunakan adalah stoplist bahasa indonesia pada penelitian tala
+di samping itu, kata-kata yang sering muncul terkait topik bahasan pada dokumen juga masuk dalam stoplist
+karena topik bahasan dalam dokumen penelitian ini adalah tentang kkn-ppm, maka kata-kata seperti, ,, ,, dan sebagainya, juga dihilangkan
+stoplist ini diperoleh dari hasil analisis kata-kata yang sering muncul dalam dokumen dan jika dihilangkan tidak menganggu tujuan penelitian yang ingin dicapai
+didominasi oleh nama-nama tempat seperti nama dusun, dukuh, desa, dan kecamatan, untuk selanjutnya nama lokasi dihilangkan dari dokumen
+daftar lokasi ini juga dimasukkan dalam stoplist
+dengan demikian, proses stemming lebih cepat karena kata yang harus dicari akar katanya menjadi lebih sedikit
+stemming diperlukan dalam preprocessing untuk mengurangi tempat penyimpanan istilah dan memperluas arti dari suatu istilah
+bentuk umum kata berimbuhan dalam bahasa indonesia adalah seperti berikut : awalan 1 + awalan 2 + kata dasar + akhiran 3 + akhiran 2 + akhiran 1 pada bahasa indonesia, stemming memerlukan penghilangan awalan dan akhiran
+beberapa algoritma yang dikembangkan untuk proses stemming bahasa indonesia adalah algoritma nazief dan andriani, algoritma arifin dan setiono, algoritma idris dan mustofa, algoritma ahmad, yussof, dan sembok
+dibandingkan dengan algortima yang lain, algoritma nazief-andriani lebih rumit
+algortima ini juga membutuhkan kamus untuk mengecek kebenaran kata hasil stemming
+namun, algoritma ini memiliki performa stemming yang paling baik
+dari 3986 kata yang diujikan, algoritma nazief-andriani mampu menghasilkan kata dasar dengan benar sebanyak 3714 kata atau 93% dari seluruh data uji
+algoritma nazief dan andriani sebagai berikut: dp = derivation prefix ds = derivation suffix pp = posessive pronoun p = partikel opsional adalah sebagai berikut: 1
+mencari kata yang akan di-stem dalam kamus
+jika ditemukan maka diasumsikan bahwa kata tesebut adalah kata dasar, dan algoritma berhenti
+jika berhasil dan akhirannya adalah partikel maka langkah ini diulangi lagi untuk menghapus imbuhan kepemilikan, jika ada
+jika kata ditemukan di kamus, maka algoritma berhenti
+jika telah dihapus dan huruf terakhir dari kata tersebut adalah, maka juga ikut dihapus dan langkah 4 diulangi
+jika tidak berhasil maka dilakukan langkah 3b
+akhiran yang dihapus dikembalikan, dilanjutkan ke langkah 4
+jika pada langkah 3 ada sufiks yang dihapus, maka langkah selanjutnya adalah memeriksa tabel kombinasi awalan-akhiran yang tidak diijinkan 
+jika awalan yang ada cocok dengan awalan sebelumnya, maka algoritma berhenti
+jika tiga awalan sudah dihapus maka algoritma berhenti
+awalan akhiran yang tidak diijinkan be- -i di- -an output dari proses stemming ini adalah teks yang berisi kata dasar dan kata inti
+teks ini disimpan dalam berkas berbentuk plain text dan menjadi hasil akhir dari preprocessing
+clustering perangkat untuk lebih memudahkan proses clustering
+perangkat bantu clustering ini misalnya weka, rapidminer, clusty, dan lain-lain
+biasanya, setiap perangkat menyediakan beberapa algoritma clustering
+pada penelitian ini, perangkat yang digunakan adalah carrot2 workbench
+carrot2 pendukung yang dapat digunakan untuk membangun mesin clustering
+carrot2 mampu mengelompokkan hasil pencarian dari mesin pencari semisal google, bing, pubmed, dan juga dari sumber dokumen misalnya, lucene, apache solr, dan elasticsearch
+selain itu, carrot2 juga mengijinkan dokumen sumber dari direktori internal, dengan syarat berbentuk xml dengan format sebagai berikut
+</snippet> <url>http://document.url/3</url> </document> tetapi dapat diintegrasikan dengan kode program dari berbagai bahasa pemrogaman
+untuk diintegrasikan dengan kode program berbasis java, carrot2 menyediakan api dan jar
+untuk bahasa selain java, pengembang dapat menggunakan carrot2 document clustering server dan memanggil carrot2 clustering menggunakan protokol rest
+carrot2 menyediakan tiga algoritma, suffix tree clustering, lingo, dan bisecting k-means
+output dari preprocessing diubah menjadi bentuk xml sebagaimana format yang telah ditentukan
+banyak pendekatan yang digunakan untuk mengevaluasi kualitas cluster, di antaranya adalah precision, recall, f-measure, cluster label quality, dan cluster overlap
+precision, recall, dan f-measure precision dan recall
+untuk menghitung nilai precision dan recall, dokumen terlebih dahulu dikategorikan menjadi kelas- kelas „acuan‟ atau disebut ground truth
+misalnya satu set dokumen d dikategorikan menjadi beberapa kelas c={c1, c2, c3,
+algoritma clustering mengelompokkan dokumen d menjadi beberapa cluster dengan label l = { l1, l2, l3,
+nilai precision dan recall dapat dihitung dengan dan 
+fi merupakan fungsi dari precision dan recall
+tidak ada kelas yang sesuai dengan cluster manapun
+preci = | li ∩ ci | / | li | reci = | li ∩ ci | / | ci | fi = 2.preci .reci / namun, sering kali sebuah kelas memiliki kecocokan dengan lebih dari satu klaster atau justru tidak ada cluster yang sesuai dengan kelas manapun, dan sebaliknya 
+untuk menghindari overlap seperti ini, cluster-cluster yang topiknya serupa dihubungkan hanya pada satu kelas
+cluster label quality cluster label quality dimulai dari 0.0 hingga 1.0 
+q = u/g nilai q adalah derajat usefulness atas cluster yang terbentuk
+misalnya seorang user yang ingin mencari informasi tentang produk elektronik „apple‟ akan menganggap cluster yang berhubungan dengan buah „apple‟ tidak bermanfaat
+cluster overlap dokumen yang ditempatkan di seluruh cluster dan semua dokumen 
+ditempatkan di seluruh cluster, sedangkan s adalah banyaknya dokumen input clustering
+nilai v paling kecil adalah 0.0, yang artinya tidak ada yang dokumen yang overlap dan paling besar adalah tak terhingga
+banyak tema sehingga bisa masuk ke dalam beberapa topik
+meskipun tidak secara langsung menggambarkan kualitas clustering, pengukuran overlap bisa membantu dalam analisis hasil evaluasi
+workbench, klaster yang dihasikan dari algortima stc sebanyak tiga puluh klaster sebagaimana ditunjukkan pada tabel 3
+group  swadaya pemda 122 10 teman teman 211 14 rumah tangga 162 16 sosio humaniora 191 18 muda pemudi 138 22  bimbing ajar  ajar sekolah 139 24 tingkat sejahtera 194 26 suluh sehat sehat gigi 106 pengaturan parameter, misalnya nilai α, maksimum frasa/kata tiap label, dan sebagainya
+jumlah maksimal klaster frasa adalah 500, klaster frasa setelah urutan tersebut akan mengalami pemotongan
+nilai minimum untuk s atau skor klaster dasar adalah 3, 00
+klaster yang terbentuk berlabel kata tunggal ataupun frasa, dengan jumlah maksimal frasa adalah tiga dan maksimal kata adalah empat
+jumlah ini sesuai dengan pengaturan awal pada input parameter
+bimbing lapang”, dan seterusnya
+kata-kata ini merupakan kata umum yang terdapat pada laporan kkn-ppm dan sering muncul
+hasil clustering dari algoritma stc ini berkaitan dengan penggunaan suffix tree pada proses pembentukan klaster dasar/klaster frasa
+setiap kalimat disusun suffix tree-nya mulai dari kata yang paling belakang dan dihitung sampai kata paling depan
+kata yang sering muncul atau frasa yang frekuensinya tinggi akan menempati simpul teratas dan memiliki simpul-simpul anak yang banyak
+hal ini dapat dijelaskan sebagai berikut
+klaster group id 0 dengan label tiga kata tunggal memiliki anggota terbanyak, yaitu seluruh dokumen, karena kata itu berada di seluruh dokumen dan kemunculannya sering
+misalnya diambil contoh kalimat dari dokumen laporan kkn- ppm yang mengandung kata 
+tuju capai tahu dalam pelihara ternak
+kk tuju informasi sehat gigi mulut
+mudah lokal datang cari rumah tuju
+kemudian, ketiga kalimat tersebut dibentuk menjadi suffix tree, sebagaimana pada tabel 4
+ ternak  tuju capai tahu dalam pelihara ternak  mulut  kk tuju informasi sehat gigi mulut  tuju  mudah lokal datang cari rumah tuju dari frasa yang dicetak miring pada setiap kolom, dapat dilihat bahwa kata akan menjadi simpul dari ketiga kalimat tersebut pada suffix tree, sedangkan kata lain akan menjadi simpul tunggal saja untuk masing-masing kalimat
+inilah yang menyebabkan kata muncul menjadi label klaster dan beranggotakan seluruh dokumen
+hal ini karena pada setiap dokumen terdapat kata tersebut
+kata lain yang menjadi label misalnya, ,, dan seterusnya juga mengalami pembentukan suffix tree yang mirip dengan kata sehingga bisa muncul sebagai label klaster
+dari semua klaster yang terbentuk, hanya terdapat satu kalster yang labelnya berkaitan denganpotensi daerah yaitu group id 4 dengan label 
+hasil clustering algoritma lingo lingo menghasilkan klaster yang lebih beragam, sebagaimana yang ditunjukkan pada tabel 5
+angka dalam tanda kurung pada kolom menunjukkan banyaknya dokumen yang termasuk anggota dalam klaster tersebut
+seperti pada stc, tiap dokumen bisa menjadi anggota dari beberapa klaster
+hal ini karena lingo membuat terlebih dahulu label klasternya baru kemudian memasukkan dokumen yang sama dengan konsep label tersebut
+group 1 ternak sapi kandang 4 sifat md hubung 35 air sawah 5 wisata baik 36 buat mading 6 limbah sampah 37 buku cerita 7 siswa siswi kelas sd 38 damping paud 8 pelihara sapi 39 fakultas teknologi tani 10 cat warna 41 latih guna software 12 faktor hambat susah 15 foto pasang 46 usul bina 16 ikan cipta 47 beli pakan 17 plang kayu 48 kenal kambing 18 pustaka masjid 49 lahan toga 19 bibit ikan warga 50 latar tpa sarana 22 organik pupuk kompos 25 biogas sosialisasi 56 sampah buah biogas 27 gapura mudah 58 anggota uppks 28 limbah terna 59 bioetanol hasil 29 mengo limbah 60 other topics 30 produk unggul komplit
+frasa komplit diperoleh dari kata yang letaknya berdekatan, misalnya kata, ,, dan 
+keempat kata ini muncul berdekatan sehingga dianggap sebagai sebuah frasa komplit
+frekuensi frasa komplit ini dapat diatur pada menu pengaturan
+pada penelitian ini batas frekuensi minimum adalah empat
+frasa yang frekuensinya lebih kecil dari nilai batas akan diabaikan
+klaster ini berisi dokumen yang tidak masuk dalam klaster manapun
+namun, karena pada penelitian ini sebuah dokumen bisa menjadi anggota beberapa klaster, maka dokumen yang menjadi anggota klaster ini sebenarnya juga masuk dalam klaster lain
+perbandingan hasil clustering cluster yang terbentuk perlu dievaluasi untuk mengetahui kualitas cluster yang dihasilkan oleh masing-masing algoritma
+evaluasi dilakukan dengan mengukur kualitas menggunakan beberapa parameter, yaitu precision, recall, f- measure, cluster label quality, dan cluster overlap
+tabel 6 menunjukkan perbandingan nilai precision, recall, f-measure yang dihasilkan oleh kedua algoritma
+nilai ini diperoleh dengan terlebih dahulu mengelompokkan data set menjadi kelas-kelas bertema potensi daerah
+selanjutnya, klaster dan kelas yang sama topiknya direlasikan dan dihitung overall precision, overall recall, dan overall f-measure-nya
+overall precision overall recall overall f-measure daripada stc
+precision lingo cukup tinggi karena hampir seluruh dokumen anggota cluster cocok dengan anggota kelas yang bersesuaian topiknya
+f-measure stc jauh lebih rendah dibanding dengan lingo karena stc hanya menghasilkan sedikit klaster yang bersesuai dengan kelas pada ground truth
+dalam penelitian ini, paramater cluster label quality digunakan untuk melihat seberapa besar algoritma dapat memunculkan klaster yang berhubungan dengan potensi daerah
+klaster yang mengandung unsur potensi daerah dinilai memiliki manfaat karena sesuai dengan tujuan clustering pada penelitian ini
+sebagaimana yang ditunjukkan tabel 7, lingo menghasilkan klaster dengan tema potensi daerah lebih banyak daripada stc sehingga nilai cluster label quality lebih besar
+namun, pengukuran ini lebih baik jika cluster yang dihasilkan jumlahnya sama
+tabel 8 menunjukkan nilai overlap anggota klaster yang dihasilkan stc dan lingo
+nilai cluster overlap untuk algoritma stc dan lingo lingo stc besar
+hal ini karena setiap data set yang digunakan memiliki tema yang beragam
+satu dokumen laporan kegiatan kkn- ppm dapat memiliki beberapa topik, misalnya pertanian, perikanan, dan wisata karena seorang mahasiswa bisa saja mengerjakan berbagai program kegiatan selama masa kkn- ppm
+pembentukan suffix tree, sehingga kata yang mencerminkan potensi daerah tidak bisa muncul menjadi label
+sifat data set yang digunakan pada penelitian ini diperkirakan juga mempengaruhi pembentukan suffix tree ini
+topik dari dokumen data set bersifat hampir seragam sehingga membuat algortima membentuk suffix tree dengan simpul-simpul kata- kata yang umum di bidang kkn-ppm
+lingo dapat menghasilkan klaster-klaster yang memberi gambaran potensi daerah
+hal ini karena lingo menetapkan label klaster terlebih dahulu baru kemudian memasukkan dokumen yang dinilai sesuai dengan konsep klaster ke dalam klaster itu
+algortima lingo mampu menghasilkan klaster yang baik dan juga dapat dipahami
+kekurangan algoritma lingo adalah masih menghasilkan klaster 
+oleh karena itu, perlu dilakukan penelitian lebih lanjut untuk mengurangi atau menghilangkan klaster ini

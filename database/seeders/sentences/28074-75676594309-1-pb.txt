@@ -1,0 +1,114 @@
+eee paper template in a4 vol 4 no 2 sistem peringatan dini bahaya kebakaran pada lahan gambut syaifurrahman jalan prof
+hadari nawawi pontianak 1 syaifurrahman@untan.ac.id, 2 arazikin@yahoo.com terjadinya subsiden, banjir pada musim hujan, kekeringan pada musim kemarau, dan yang lebih bahaya terjadinya kebakaran lahan gambut
+kebakaran lahan gambut dapat terjadi diawali meningkatnya tinggi muka air yang menyebabkan rendahnya kandungan air pada lahan gambut
+penelitian ini merancang suatu sistem peringatan dini adanya potensi kebakaran pada lahan gambut
+metode dilakukan dengan cara mengukur tma serta besaran fisik lainnya seperti kelembapan tanah dan suhu udara
+pengukuran tinggi air menggunakan sensor ultrasonik yang dapat merespon setiap perubahan tma
+data dan informasi dari sensor diolah dengan menggunakan hardware dan software agar dapat dikonversi dalam bentuk angka dan disimpan dalam memori eksternal secara periodik
+sistem informasi peringatan dini akan memberikan infomasi adanya potensi kebakaran jika hasil pengukuran sensor terhadap tma lebih dari 40 cm
+informasi peringatan dini berupa tulisan yang dikirimkan dengan menggunakan short message system melalui handphone
+berdasarkan pengujian di laboratorium elektroteknika dasar terhadap hardware dan software bahwa sistem peringatan dini bahaya kebakaran dapat mengukur dan merekam setiap perubahan data suhu, tma dan kelembaban serta mengirimkan pesan bahaya kebakaran jika tma lebih dari 40 cm
+pendahuluan indonesia diperkirakan memiliki luas antara 13, 5 – 26, 5 juta ha
+kalimantan memiliki luas lahan gambut sekitar 6, 3 juta ha tersebar di wilayah kalimantan barat dan kalimantan tengah
+untuk pemukiman maupun untuk pertanian sudah beralih dari lahan non gambut menuju lahan gambut, hal ini tentunya akan menimbulkan permasalahan tersendiri kalau pengelolaan lahan gambut tidak dilaksanakan secara baik
+berbagai persoalan yang muncul akibat pembukaan lahan gambut seperti terjadinya subsiden, kekeringan pada musim kemarau, banjir pada musim hujan dan yang lebih bahaya terjadinya kebakaran lahan gambut
+kebakaran lahan gambut dapat terjadi diawali dengan rendahnya kandungan air pada lahan gambut
+pada keadaan ini lahan gambut sangat kering dan rentan untuk terbakar
+jika hal ini tidak diawasi dan kendalikan maka potensi kebakaran lahan gambut akan semakin besar
+lahan gambut yang sudah terbakar/dibakar akan sangat sulit untuk dipadamkan, karena kebakaran tidak hanya terjadi diatas lahan tetapi juga di bawah lahan
+namun demikian pemantauan tingkat kekeringan lahan dan potensi kebakaran lahan gambut tidak mudah untuk dilaksanakan mengingat area lahan gambut yang sangat luas
+keterlibatan banyak manusia, waktu dan besarnya biaya yang dikeluarkan menyebabkan sulitnya mengamati tingkat kekeringan lahan gambut
+sehingga untuk mendeteksi potensi kebakaran lahan gambut diperlukan suatu metode yang tidak melibatkan manusia secara langsung
+komponen utama dalam pengelolaan lahan gambut adalah air yang dinyatakan dengan tinggi muka air lahan gambut
+tma turun menyebakan dekomposisi gambut meningkat dan akan melepaskan karbon ke atmosfer
+kondisi ini mengakibatkan lahan gambut akan menjadi kering dan mudah untuk dibakar/terbakar
+pemerintah no 57 tahun 2016 tentang perlindungan dan pengelolaan ekosistem gambut, terutama kewajiban mempertahankan tma pada tingkat 40 cm, jika tma lebih tinggi dari 40 cm maka proses dekomposisi akan meningkat dan gambut dalam keadaan kering dan sangat rentan terbakar
+untuk itu pada penelitian ini akan di rancang suatu sistem peringatan dini bahaya kebakaran dengan cara mendeteksi, memonitor, dan mengambil data tma gambut secara berkala, serta mengirimkan/memberi sinyal jika tinggi air gambut turun pada batas yang menghawatirkan
+sistem peringatan dini terbuat dari seperangkat rangkaian elektronik yang dilengkapi dengan sensor-sensor untuk memonitor level air dan kelembaban air pada lahan gambut
+semua perangkat elektronik dan korespondensi : syaifurrahman 142 ii
+metode penelitian rangkaian elektronik yang digunakan untuk mendeteksi tinggi air gambut terhadap permukaan tanah, kelembapan tanah dan suhu permukaan
+rangkaian elektronik dilengkapi dengan beberapa sensor yang berfungsi untuk merasakan perubahan besaran fisik dari alam seperti tinggi air, suhu udara, dan kelembapan tanah
+setiap perubahan besaran fisik oleh rangkaian sensor dikonversikan menjadi besaran listrik baik analog maupun digital agar dapat diproses oleh mikrokontroler arduino mikrokontroler yang berisikan instruksi program akan memperoses besaran listrik tersebut menjadi data yang dapat menjadi informasi bagi pengguna
+gambar 1 memperlihatkan diagram blok rangkaian sistem peringatan dini bahaya kebakaran lahan gambut
+ada 6 rangkaian yang terhubung dengan mikrokontroler
+rangkaian penyimpan data berfungsi untuk merekam data hasil perubahan besaran fisik disimpan, proses penyimpanan dilakukan secara periodik setiap siklus waktu tertentu tergantung kebutuhan
+data yang tersimpan dapat diambil secara berkala dan secara manual setiap minggu atau setiap bulannya
+pengambilan data secara manual artinya pengguna turun langsung ke lokasi dimana perangkat tersebut diletakkan, hal ini juga dimaksudkan untuk melihat dan memastikan kondisi alat masih bekerja dengan baik
+menampilkan indikator hasil monitoring besaran fisik pada lahan gambut
+rangkaian terdiri dari tiga bagian, yaitu rangkaian liquid cristal disply, rangkaian lampu, dan rangkaian buzzer 
+rangkaian lcd menampilkan hasil respon pembacaan perubahan besaran fisik secara langsung, rangkaian lampu dan buzzer akan aktif jika kondisi level air gambut menurun, atau kelembaban tanah berkurang atau suhu sekitar gambut meningkat
+lampu yang menyala dan buzzer yang berbunyi menandakan kondisi tanah gambut dalam keadaan kering sehingga sangat mudah terbakar
+rangkaian pemancar merupakan rangkaian yang akan mengirimkan informasi bahaya kebakaran kepada penerima
+rangkaian pemancar akan aktif jika lahan gambut dalam keadaan kering dan membahayakan, rangkaian pemancar hanya akan bekerja manakala lahan gambut dalam keadaan kering saja
+rangkaian penyimpan data merupakan rangkaian yang dapat merekam data ataupun informasi tentang besaran fisik yang di pantau
+semua besaran fisik yang dideteksi oleh sensor akan ditampilkan pada layar lcd dan akan disimpan dalam rangkaian penyimpan data yang dalam hal ini menggunakan memori sd card
+untuk pengambilan data suhu, level air dan kelembaban tanah
+pipa terbuat dari paralon pvc dengan panjang 200 cm dan diamater sekitar 10 cm
+sensor-sensor yang dibutuhkan diletakkan pada pipa seperti diperlihatkan pada gambar 2 sensor ultrasonik diletakkan poda bagian tutup pipa bagian atas
+lubang kecil agar rembesan air gambut dapat masuk dan keluar melalui lubang tersebut
+air yang masuk/keluar pada pipa akan menyebabkan tinggi air pada pipa akan berubah
+ada 3 sensor yang dipasangkan pada pipa sensor, yaitu sensor ultrasonik, sensor suhu dan sensor kelembapan
+keberadaan suatu objek atau benda tertentu di depannya
+sensor ultrasonik terdiri dari dari dua unit yaitu pemancar dan penerima
+sensor ultrasonik dapat digunakan untuk menentukan jauh/jarak benda atau objek yang berada di depannya seperti terlihat pada gambar 3a
+sensor ultrasonik pada penelitian ini sensor ultra sonik berberan untuk mendeteksi jarak objek berupa tinggi air
+gambar 3b memperlihatkan pemasangan sensor ultrasonik pada tutup pipa
+sistem sensor ultrasonik akan selalu memonitor tinggi muka air pada lahan gambut
+jika tma naik, level air mendekati permukaan tanah, sistem sensor akan memberikan jarak yang semakin dekat atau angka pembacaan yang semakin kecil
+satuan jarak yang digunakan dalam pembacaan tma adalah centimeter
+jika tma turun, level air menjauhi dari permukaan tanah, sistem sensor ultrasonik akan memberikan nilai yang semakin besar
+gambar 4 memperlihatkan metode pengukuran tma dengan menggunakan sensor ultrasonic
+berdasarkan gambar 4 i merupakan jarak sensor ultrasonik terhadap permukaan tanah, nilai i adalah tetap diperoleh pada saat pemasangan pipa sensor, dalam penelitian ini nilai i ditentukan sejauh 100 cm
+besaran j adalah jarak sensor terhadap permukaan air tanah, nilai j diperolah berdasarkan hasil pengukuran tinggi air yang dideteksi oleh sensor ultrasonik
+besaran k adalah tinggi muka air terhadap permukaan tanah besaran k diperoleh dengan mengurangkan nilai j dengan i 
+sensor kelembapan terdiri dari dua buah elektroda logam yang berdekatan namun tidak terhubung sehingga resistansi dua elektroda tersebut menjadi tak berhingga seperti ditunjukkan pada gambar 5a
+jika dua elektroda tersebut menyentuh benda yang memiliki kandungan air, maka nilai resistansi dua elektroda tersebut muncul, besar kecilnya nilai resistansi tergantung banyak kadar air pada benda tersebut
+pada pipa sensor, sensor kelembapan berada pada bagian bawah, karena difungsikan untuk mengukur kadar air dalam tanah gambar 5.b
+memperlihatkan pemasangan sensor kelembapan pada tutup pipa
+sensor kelembapan lingkungan dan diletakkan pada bagian luar pipa sensor
+sensor suhu yang digunakan adalah sensor suhu ds18b20 yang memiliki output data berupa data digital sensor ini mampu membaca suhu dengan ketelitian 9 bit hingga 12-bit, rentang -55°c hingga 125°c dengan ketelitian 
+sensor suhu ds18b20 juga kedap air, sehingga dapat digunakan sebagai sensor luar ruangan yang memiliki tingkat kelembapan tinggi
+konfigurasi sensor suhu ds18b20 dapat dilihat pada gambar 6 gambar 6
+pengujian dan pembahasan kebakaran pada lahan gambut masih pada skala laboratorium
+pengujian rangkaian mencakup pengujian kinerja semua sensor seperti ultrasonic, suhu dan kelembaban
+selain itu pengujian juga dilakukan pada lcd
+sistem penyimpanan data sensor serta pengujian sistem pengiriman informasi bahaya kebakaran melalui sms
+bagian utama pada rangkaian sistem peringatan dini kebakaran adalah arduino/ mikrocontroler yang merupakan pusat kendali terhadap semua perangkat/komponen yang terhubung seperti diperlihatkan pada gambar 7
+nilai yang ditampilkan pada lcd merupakan hasil proses oleh mikrokontroller terhadap pendeteksian besaran fisik oleh sensor-sensor
+pengujian sensor suhu sensor suhu berperan sebagai alat untuk mendeteksi temperatur lingkungan tempat dimana alat diletakkan
+sensor suhu diletakkan diatas permukaan tanah
+pengujian sensor suhu dilakukan dengan membandingkan antara sensor suhu rancangan dengan termometer
+hasil pengujian terhadap sensor suhu menunjukkan bahwa pembacaan sensor suhu lebih kecil sekitar 0.6 c dari pembacaan termometer seperti diperlihatkan pada gambar 9
+pengujian sensor kelembapan/humiditi sensor humiditi berfungsi untuk mengukur kadar air di dalam tanah dengan satuan persen
+nilai persentase yang tinggi menunjukkan kadar air yang banyak, sebaliknya persentase kecil menujukkan kadar air berkurang 
+tampilan lcd gambar 9 juga memperlihatkan nilai h 79% dari benda yang diukur, ini berarti kelembapan benda yang dideteksi mengandung kadar air yang tinggi
+pengujian sensor ultrasonik penting karena menentukan tma pada lahan gambut secara periodik
+pengujian sensor ultrasonik berarti pengujian pipa sensor secara keseluruhan
+pengujian sensor ultrasonik menggunakan metode pengujian gambar 4 hanya dilaksanakan pada skala laboratorium
+sensor diletakkan pada bagian atas dari pipa sensor
+pengujian pipa sensor khususnya sensor ultrasonik dilakukan dengan menggunakan air ledeng yang ditampung pada ember agar tidak membanjiri lantai
+pengujian ini untuk mengukur tma atau nilai k dari persamaan k = j – i
+nilai k merupakan nilai yang ditampilkan pada layar lcd dan disimpan pada memory card
+ instalasi pipa sensor nilai tma gambar 10
+pipa 1 diberi lobang kecil setiap 5 cm dari ujung atas hingga ke bawah pipa sebanyak 8 lubang setiap lubang diberi angka 5 cm, 10 cm, 15 cm hingga 60 cm dengan maksud untuk mengetahui posisi tma pada saat pengujian seperti ditunjukkan pada gambar 10.b
+pipa 2 diberi beberapa lubang berdiameter 0, 5 cm pada bagian bawah agar air dapat masuk ke dalamnya
+pada bagian atas pipa 2 ditutup dengan penutup pipa yang sudah terpasang sensor ultrasonic
+tabel i dalam pipa 1, air akan memasuki pipa 2 melalui lubang- lubang yang telah dibuat
+penutup lubang kecil pada pipa 1 dibuka satu persatu sehingga tma akan turun secara perlahan-lahan dan amati pembacaan pada lcd
+hasil pengujian terhadap sensor ultrasonik menunjukkan bahwa nilai pembacaan tma antara tampilan pada layar lcd dengan tinggi air yang terjadi pada pipa 2 tidak jauh berbeda, beberapa pengukuran menunjukkan selisih hanya 1 cm
+peningkatan nilai k pada lcd menunjukkan terjadinya penurunan tinggi air pada pipa 2
+memperlihatkan perbandingan pembacaan antara beberapa pengambilan data tma
+pengujian modul gsm mengirimkan sms sebagai tanda air tanah sudah mulai berkurang
+jika nilai k atau tma lebih rendah dari 40 cm maka modul gsm tidak aktif untuk mengirimkan pesan singkat ini berarti status masih aman, namun jika nilai k melebihi 50 cm maka mikrokontroller/arduino memerintahkan modul gsm untuk mengirimkan pesan singkat adanya potensi kebakaran ke nomor handphone yang telah dimasukkan pada program arduino selama tma melebihi 50 cm modul gsm akan mengirimkan pesan secara berulang setiap 5 menit, 15 menit, 30 menit atau sesuai waktu yang ditentukan/diinginkan pada program
+pengiriman pesan secara berulang dimaksudkan agar pihak berwewang cepat merespon adanya potensi kebakaran pada lahan gambut, pengiriman akan berhenti jika paket pulsa pada modul gsm habis atau terjadinya reset pada arduino a
+status bahaya kebakaran gambar 11 memperlihatkan tampilan lcd dalam kondisi bahaya dan hasil pengiriman sms dari modul gsm pada perangkat penerima 
+pada sms tertulis ― posisi 1 bahaya kebakaran ― berarti lokasi 1 pada lahan gambut memiliki potensi terjadinya kebakaran
+modul memory card berfungsi untuk menyimpan semua data besaran fisik yang direspon oleh sensor serta waktu penyimpanan 
+data tersimpan dibuat dalam format file notepad yang tidak membutuhkan memori yang besar untuk menyimpan data dalam bentuk angka-angka
+kapasitas memory card yang digunakan sebesar 4 gb sehingga mampu menyimpan data dalam jumlah yang besar
+data sensor akan disimpan setiap 15 menit, artinya dalam satu jam memory card akan merekam sebanyak 4 buah data, dalam satu hari memory sd card akan menyimpan data sebanyak 96 data, dalam 30 hari memory akan menyimpan data sebanyak 2880 data dan selama setahun memory card akan merekam informasi suhu, kelembaban dan tma sebanyak 34.560 data
+tabel 2 memperlihatkan hasil relaman pada sd card setelah di konversi dalam format exel
+hasil pengujian di laboratorium sistem peringatan dini bahaya kebakaran dapat mengukur tma dengan selisih angka pada tampilan lcd dan pegukuran manual maksimal sebesar 1 cm
+sistem peringatan dini bahaya kebakaran akan mengirimkan informasi bahaya kebakaran apabila tma lebih besar dari 40 cm
+modul gsm dapat mengirimkan pesan sms tertulis ― posisi 1 bahaya kebakaran ― secara berulang setiap 5 menit dan berhenti jika pulsa gsm habis atau terjadinya reset pada rangkaian
+ini melalui dipa universitas tanjungpura tahun 2018

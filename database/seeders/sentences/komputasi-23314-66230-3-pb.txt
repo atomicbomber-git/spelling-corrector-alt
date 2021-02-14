@@ -1,0 +1,61 @@
+proses pengawasan dan evaluasi disuatu instansi pemerintah khususnya di kejaksaan negeri mempawah merupakan salah satu hal yang sangat penting
+dalam proses pelaksanaannya sistem monitoring dan evaluasi kinerja aparatur di kejaksaan negeri mempawah masih menggunakan sistem konvensional, yaitu dengan memantau kembali berkas-berkas pendukung dalam proses monitoring dan evaluasi yang menyebabkan proses menjadi tidak efektif dan efisien
+oleh karena itu tujuan dari penelitian ini adalah menghasilkan suatu aplikasi untuk memudahkan proses pengawasan dan evaluasi kinerja aparatur dalam penanganan berkas perkara
+pada penelitian ini aplikasi yang dibuat berbasis android yang dilengkapi dengan fitur notifikasi dan pengingat untuk membantu proses monitoring dan evaluasi
+alat dalam perancangan dalam penelitian ini menggunakan unified modeling language dan entity relationship diagram, dan pengujian sistem yang dilakukan menggunakan metode black box dan kuesioner terhadap 10 orang pengguna aplikasi yang terdiri dari 5 orang dari petugas bagian pidana umum dan 5 orang dari petugas bagian pidana khusus didapat nilai kuesioner 651 dari nilai maksimum 750, yang berada pada range positif dengan persentase 86, 8%, hasil pengujian menunjukkan aplikasi ini berjalan dengan baik
+penelitian ini menghasilkan suatu sistem yang dapat digunakan untuk mempermudah proses pengawasan dan evaluasi kinerja aparatur
+negeri mempawah, notifikasi kejaksaan negeri mempawah tentu tidak terlepas dari proses penanganan berkas perkara
+saat ini di kejaksaan negeri mempawah penanganan berkas perkara dilakukan secara manual kepala kejaksaan, kasipidum dan kasipidsus serta jaksa, juga tidak dapat melakukan pemantauan secara langsung bagaimana proses penanganan berkas perkara tersebut berlangsung serta tidak dapat memantau bagaimana kinerja aparatur yang menangani proses pemberkasan tersebut
+oleh karena dibutuhkan sistem monitoring dan evaluasi kinerja aparatur yang sesuai dengan standar operasional prosedur yang ada di kejaksaan negeri mempawah, dan dapat terintegrasi di bidang sekretariat, kasipidum, kasipidsus dan jaksa
+di setiap bidang akan diberikan sistem notifikasi atau pemberitahuan untuk dapat mengingatkan batas waktu penyelesaian apabila waktu pemberkasan perkara sudah mendekati waktu yang telah ditentukan, agar proses pemberkasan dapat dipercepat
+sistem informasi ini diharapkan dapat memudahkan pejabat kepala kejaksaan, kasipidum, kasipidsus untuk memantau sebuah dokumen atau berkas perkara yang diinput dari bagian pemberkasan perkara, sehingga dapat diketahui status sebuah perkara misalnya: lama perkara, jaksa yang menangani, status terakhir dari perkara tersebut
+sistem ini juga diharapkan dapat menghasilkan informasi terkait dengan : jumlah perkara yang masuk, jumlah perkara yang selesai, jumlah perkara dihentikan, jenis perkara yang ada di wilayah mempawah dan kinerja jaksa
+berdasarkan latar belakang di atas, sebagai instansi pemerintah kejaksaan negeri mempawah harus mengetahui serta memantau informasi maupun proses penangan berkas perkara yang berlangsung
+selain mengetahui dan memantau kejaksaan negeri mempawah juga mengevaluasi kinerja aparatur berdasarkan informasi yang ada di lembaga tersebut
+untuk itu diperlukan aplikasi monitoring dan evaluasi kinerja aparatur yang dapat digunakan untuk mengetahui maupun memantau proses penangan berkas serta mengevaluasi kinerja aparatur berdasarkan informasi yang ada
+landasan teori undang-undang nomor 16 tahun 2004 tentang kejaksaan republik indonesia, terdapat beberapa bidang diantaranya bidang perkara pidana, perdata dan tata usaha negara, serta bidang ketertiban dan kesejahteraan umum, salah satu tugas kejaksaan adalah melengkapi berkas perkara tertentu dan untuk itu dapat melakukan pemeriksaan tambahan sebelum dilimpahkan ke pengadilan yang dalam pelaksanaannya dikoordinasikan dengan penyidik
+pengertian monitoring menerus terhadap kemajuan suatu pekerjaan
+sedangkan menurut who monitoring adalah suatu proses pengumpulan dan menganalisis informasi dari penerapan suatu program termasuk mengecek secara reguler untuk melihat apakah kegiatan itu berjalan sesuai rencana sehingga masalah yang dilihat dapat diatasi
+pengertian evaluasi erat dengan kegiatan monitoring, karena kegiatan evaluasi dapat menggunakan data yang disediakan melalui kegiatan monitoring
+dalam merencanakan suatu kegiatan hendaknya evaluasi merupakan bagian yang tidak terpisahkan, sehingga dapat dikatakan sebagai kegiatan yang lengkap
+evaluasi diarahkan untuk mengendalikan dan mengontrol ketercapaian tujuan
+evaluasi berhubungan dengan hasil informasi tentang nilai serta memberikan gambaran tentang manfaat suatu kebijakan
+istilah evaluasi ini berdekatan dengan penafsiran, pemberian angka dan penilaian
+evaluasi dapat menjawab pertanyaan 
+mysql sangat terkenal dan banyak digunakan untuk membangun aplikasi yang menggunakan database sebagai sumber dan pengolahan datanya”
+mysql adalah salah satu jenis server yang ada diantara banyak server database
+java sebuah layer pemrograman java yang berisi class-class yang sudah didefinisikan dan antar muka pemrograman yang akan membantu pada pengembangan aplikasi dalam perancangan aplikasi
+json pertukaran data yang ringan, mudah dibaca dan ditulis oleh manusia, serta mudah diterjemahkan dan dibuat oleh komputer
+json merupakan format teks yang tidak bergantung pada bahasa pemrograman apapun karena menggunakan gaya bahasa yang umum digunakan oleh programmer keluarga c termasuk c, c++, c#, java, javascript, perl, python dll
+oleh karena sifat-sifat tersebut, menjadikan json ideal sebagai bahasa pertukaran-data
+android beberapa ahli, salah satunya menyatakan bahwa android adalah sebuah sistem operasi perangkat mobile berbasis linux
+android merupakan sebuah sistem operasi berbasis java yang beroperasi pada kernel linux 2.6
+android bukanlah sebuah bahasa pemrograman tetapi android merupakan sebuah lingkungan untuk menjalankan aplikasi
+android standart development kit menyediakan alat dan application programming interface yang diperlukan untuk memulai pengembangan aplikasi pada platform android menggunakan bahasa pemrograman java, yaitu kode java yang terkompilasi dengan data dan file resources yang dibutuhkan aplikasi dan digabungkan oleh app tools menjadi paket android
+android studio eclipse ide, dan dibuat berdasarkan ide java populer, yaitu intellij idea
+android studio merupakan ide resmi untuk pengembangan aplikasi android
+data penelitian yang digunakan berupa database kejaksaan negeri mempawah yang akan dikonversikan ke dalam bahasa sql dan json yang akan digunakan pada android
+laptop asus a456u dengan spesifikasi sebagai berikut: ghz spesifikasi ghz b
+chrome untuk pemrosesan phpmyadmin dan rest api android b
+metodologi penelitian dalam penelitian ini dan disimpan ke database server serta mengirimkan notifikasi kepada android
+aplikasi android mengakses data ke database server menggunakan webservices dilihat pada gambar 3
+perancangan antarmuka halaman utama keterangan: pada bab ini akan dilakukan implementasi dan hasil pengujian terhadap aplikasi
+tahapan ini dilakukan setelah perancangan sistem selesai dan selanjutnya akan diimplementasikan kemudian dilakukan pengujian terhadap aplikasi
+implementasi dan hasil pengujian yang dilakukan untuk mengetahui aplikasi tersebut dapat berjalan sesuai dengan tujuannya atau tidak
+aparatur di kejaksaan negeri mempawah untuk menu utama/dashboard dapat dilihat pada gambar berikut: gambar 5
+implementasi aplikasi monitoring dan evaluasi kinerja aparatur di kejaksaan negeri mempawah untuk menu pidum dapat dilihat pada gambar berikut: gambar 6
+pengujian black box memusat pada kebutuhan fungsional perangkat lunak
+pengujian kinerja program dilakukan agar program berjalan seperti yang diharapkan, metode pengujian yang digunakan untuk menguji aplikasi ini adalah metode pengujian black box, menggunakan beberapa tabel yang berisi data login
+hasil yang menggambarkan pengujian tersebut dapat dilihat pada table 1
+fungsi contoh fungsi hasil memberikan lembaran pertanyaan atau angket kepada orang lain mengenai penilaian terhadap sistem dimana nantinya hasil jawaban dari pengguna dapat dijadikan acuan dalam pengembangan sistem kriteria masing-masing ditunjukkan pada tabel 2
+hasil pengujian user acceptance testing dengan metode kuesioner pada tabel 2 tersebut dapat diketahui informasi antara lain: - skor minimal = 1 x 15 item = 15 - skor kuartil i = 2 x 15 item = 30 - skor median = 3 x 15 item = 45 - skor kuartil iii = 4 x 15 item = 60 - skor maksimal = 5 x 15 item = 75 2
+jumlah skor untuk seluruh responden: - skor minimal = 10 x 15 = 150 - skor kuartil i = 10 x 30 = 300 - skor median = 10 x 45 = 450 - skor kuartil iii = 10 x 60 = 600 - skor maksimal = 10 x 75 = 750 3
+interpretasi jumlah skor tersebut adalah: - 600 < skor < = 750, artinya sangat positif berhasil) kurang berhasil) tidak berhasil) hasil penelitian pada gambar 7
+adalah hasil penelitian dengan skor 651 yang berada pada range sangat positif, sehingga aplikasi dinyatakan berhasil
+kesimpulan dan saran dapat menarik kesimpulan sebagai berikut: 1
+peneliti berhasil membangun aplikasi monitoring dan evaluasi kinerja aparatur di kejaksaan negeri mempawah 2
+aplikasi monitoring dan evaluasi kinerja aparatur ini memberikan perkembangan dalam sistem pengawasan dan pemantauan kinerja jaksa dalam menangani pemberkasan perkara yang sebelumnya masih dilakukan dengan cara membuka kembali berkas-berkas yang dipakai dalam proses penunjang pengawasan aparatur, menjadi sistem yang lebih terkomputerisasi sehingga proses pengawasan dan evaluasi pun menjadi efektif dan efisien
+hasil pengujian user acceptance testing dengan metode dengan 10 orang responden memiliki persentase 86, 8% yang menunjukkan bahwa aplikasi monitoring dan kinerja aparatur ini telah sangat memuaskan dan sesuai harapan dari kejaksaan negeri mempawah
+pengembangan dari penelitian ini adalah sebagai berikut
+pengembangan aplikasi pada platform lain seperti sistem operasi ios, windows phone, dan lain-lain
+aplikasi yang dibangun perlu membahas bagian security terhadap keamanan data kejaksaan dan keamanan aplikasi itu sendiri

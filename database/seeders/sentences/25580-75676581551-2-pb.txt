@@ -1,0 +1,106 @@
+4 no 1 juni 2018 implementasi business intelligence untuk mendapatkan pola penerbangan penumpang pesawat dari atau ke bandara internasional minangkabau ricky akbar#1, vedo alfarizi#2, tata bayu amarta#3, nazhifa najla ardian#4, mahfuz jailani ibrahim#5 1, 2, 3, 4, 5program studi sistem informasi, fakultas teknologi informasi, universitas andalas jl
+universitas andalas, limau manis, pauh, kota padang sumatera barat 25163 1rickyakbar1984@gmail.com, 2vedoalfarizi@gmail.com, 3tatabayu04@gmail.com, 4nazhifanajlaa@gmail.com, 5mahfuzjailaniibrahim@gmail.com perjalanan jauh bagi pengguna jasa penerbangan baik untuk perjalanan pariwisata maupun perjalanan bisnis
+oleh karenanya, perusahaan pengelola bandar udara memiliki manajemen terkait penjadwalan penerbangan
+kumpulan dari jadwal penerbangan yang bervariasi ini menghasilkan data yang disebut flight daily report
+perkembangan teknologi memiliki penemuan baru untuk memanfaatkan data sebagai hal penting dalam kemajuan bisnis
+salah satunya adalah dengan penerapan business intelligence
+peneliti akan menerapkan business intelligence untuk mendapatkan pola penerbangan penumpang menggunakan data flight daily report bandara internasional minangkabau tahun 2017
+dengan mendapatkan pola penerbangan kita sebagai pengguna jasa penerbangan dapat mengetahui kapan jadwal padat bandar udara, serta dapat mengetahui kapan orang-orang cendrung melakukan perjalanan udara dari atau ke bandara internasioanal minangkabau 
+tools yang digunakan untuk penelitian ini adalah pentaho data integration dan microsoft power bi
+hasil penelitian berupa grafik dari data flight daily report bandara internasional minangkabau tahun 2017 yang telah diproses sehingga dapat kita analisa dan simpulkan bahwa jadwal penerbangan tersibuk terjadi pada pukul 14.10 wib yaitu untuk waktu kedatangan
+pendahuluan jauh yang paling diminati pada masa ini
+disamping cepat, sarana pembelian dan harga tiket pesawat juga terjangkau
+sangat banyak orang yang melakukan perjalanan keluar kota menggunakan pesawat udara, baik itu dengan tujuan berwisata maupun perjalanan bisnis serta kepentingan lainnya
+setiap waktu tertentu selalu ada pesawat yang berangkat maupun datang dari maupun ke bandar udara terkait
+oleh karenanya ada penjadwalan penerbangan pesawat yang diatur oleh perusahaan pengelola bandar udara agar tidak terjadinya bentrokan jadwal penerbangan pesawat
+kumpulan jadwal penerbangan yang bervariasi ini akan menghasilkan data yang disebut dengan flight daily report 
+dapat mengolah data dalam jumlah besar menjadi satu kesimpulan atau informasi penting yang dapat digunakan oleh suatu organisasi atau perusahaan untuk kemajuan bisnis organisasi/ perusahaan terkait
+salah satu caranya yaitu dengan menerapkan business intelligence
+data yang pada umumnya hanya memiliki informasi tertentu sesuai dengan fields yang tersedia, kini dapat menyampaikan satu atau lebih informasi penting secara tak langsung
+dengan menerapkan business intelligence, kita dapat mengambil informasi penting tak terduga dari data terkait
+dihasilkan informasi pola penerbangan penumpang pesawat dari atau ke bim
+dengan didapatkannya pola informasi penerbangan penumpang pesawat dari atau ke bim, maka sebagai pengguna jasa penerbangan, kita akan mengetahui kapan aktifitas padat di bim, kapan orang-orang cendrung mengambil jadwal penerbangan, korespondensi : vedo alfarizi 66 naik berdasarkan waktu paling ramainya penumpang di aktivitas penerbangan bim
+implementasi business intelligence untuk mendapatkan pola penerbangan penumpang dari atau ke bandara internasional minangkabau
+menghasilkan pola penerbangan penumpang pesawat dari atau ke bim yang akan dibahas pada jurnal ini dengan judul 
+landasan teori digunakan, terutama di dunia praktik, untuk menggambarkan aplikasi analitik
+bi saat ini merupakan prioritas utama dari banyak petugas informasi kepala
+bi telah menjadi inisiatif strategis dan sekarang diakui oleh chief information officer dan pemimpin bisnis sebagai instrumental dalam mendorong efektivitas dan inovasi bisnis
+bi adalah proses yang mencakup dua aktivitas utama: memasukkan data dan mengeluarkan data
+mendapatkan data dalam, secara tradisional disebut sebagai data pergudangan, melibatkan memindahkan data dari satu set sistem sumber ke dalam gudang data yang terintegrasi
+mendapatkan data akan memberikan limited value untuk suatu perusahaan, hanya ketika pengguna dan aplikasi mengakses data dan menggunakannya untuk membuat keputusan apakah organisasi menyadari nilai penuh dari gudang datanya
+dengan demikian, getting data menerima sebagian besar perhatian dari organisasi
+aktivitas kedua ini, yang biasanya disebut bi, terdiri dari pengguna bisnis dan aplikasi yang mengakses data dari gudang data untuk melakukan pelaporan perusahaan, online analytical processing, query, dan analisis prediktif
+“bi juga berfungsi dalam meningkatkan kualitas pengambilan keputusan bisnis berdasarkan sistem yang berbasiskan data
+bi itu sendiri diibaratkan seperti briefing books, report and query tools serta sistem informasi eksekutif
+bi merupakan sistem penyokong pengambilan keputusan yang berbasiskan data-data”
+mengorganisasikan, menyimpan, mengumpul- maupun eksternal perusahaan termasuk aktifitas bisnis para pesaing yang mudah dianalisis dan diakses untuk berbagai kegiatan manajemen
+ 
+mengkonsolidasikan data, menganalisis, menyim-pan pelaporan, alat untuk analisis data multidimensi dan data mining”
+kriteria keberhasilan dalam mendukung pengambilan keputusan seperti membantu pembuatan keputusan dengan kecepatan dan kualitas yang lebih baik, mempercepat operasional, memperpendek siklus pengembangan produk, memaksimalkan nilai dari produk yang tersedia dan mengantisipasi peluang baru, dan menciptakan pasar yang lebih baik dan terfokus
+menurut ronald, langkah–langkah proses business intelligence ada beberapa bagian yaitu: 1
+identifikasi masalah bisnis yang perlu diselesaikan dengan gudang data dan menentukan data yang diperlukan untuk menyelesaikan masalah tersebut
+identifikasi lokasi dari data-data yang diperlukan dan mengambilnya dari sumber penyimpanannya
+tersebut ke dalam sebuah data yang konsisten
+mengambil data yang telah dirubah tersebut ke dalam lokasi yang yang tersentralisasi
+dalam lokasi yang tersentralisasi tersebut 
+memberikan akses ke data yang ada dalam cube
+cube yang dimaksud adalah multidimensional database yang merupakan inti dari konsep olap 
+ada berbagai macam jalan dan cara untuk berbagai macam tipe pekerjaan ketika berurusan dengan cube
+kettle, adalah aplikasi etl salah satu open source bi yang terbaik dan terpopuler di dunia saat ini
+di indonesia, pdi/kettle digunakan sebagai tool standar untuk pengolahan data
+khususnya ketika pengembangan enterprise resource planning atau sistem transaksional sangat kalah cepat dengan perkembangan proses bisnis yang super dinamis
+proyek ini berdiri sendiri dan merupakan inisiatif dari matt casters sebelum diakuisisi oleh pentaho pada tahun 2006
+matt sampai saat ini tetap aktif sebagai project leader dari pdi/kettle
+komponen pdi/kettle terdiri dari 4 aplikasi, yaitu : 1
+spoon, yaitu aplikasi grafis berbasis swing yang digunakan untuk merancang file skema job dan transformation 2
+pan, yaitu script yang digunakan untuk menjalankan file skema transformation melalui terminal / command line 3
+carte, yaitu temporary web server yang digunakan untuk mengeksekusi job/transformation secara cluster atau parallel melalui shell atau batch script yang berkaitan
+memiliki utilitas grafik yang dapat digunakan merancang control flow umum maupun data flow 
+multi platform - karena dikembangkan di atas java yang berjalan di banyak platform sistem operasi
+bersifat concurrent, dalam arti tiap baris data diambil oleh suatu step dan diserahkan ke step lain secara parallel
+scalable - dapat beradaptasi dengan penambahan kapasitas memori ram atau pun storage dan dapat node komputer / cluster 
+koleksi step transformation dan job yang cukup banyak f
+extensible, kita dapat membuat step transformation dan job baru dengan sistem plugin
+dukungan luas berbagai produk database yang terkenal di pasaran baik itu proprietary maupun free open source seperti oracle, sql server, mysql, postgresql dan lain sebagainya
+eksperimen data melalui tahapan sebagai berikut: a
+mengumpulkan data pada tahap ini dilakukan pengumpulan data yang berasal dari pt angkasa pura ii cabang bandara internasional minangkabau
+disebut dengan flight daily report bandara internasional minangkabau pada tahun 2017
+preprocessing data pada tahap ini dilakukan preprocessing data atau data cleaning yang berfungsi memperbaiki kesalahan data, menghilangkan data yang tak konsisten serta duplikasi data
+yang sudah diproses yaitu menggunakan tools microsoft power bi
+visualisasi dari data berupa grafik, untuk mendapatkan kesimpulan informasi data
+hasil dan pembahasan pembahasan hasil penelitian mulai dari pengumpulan data, preprocessing data hingga didapatkan data yang diinginkan untuk selanjutnya ditampilkan dalam bentuk grafik menggunakan tools pentaho data integration dan microsoft power bi
+pengumpulan data data yang digunakan disebut dengan flight daily report bim 2017 yang diambil dari unit airport quality & data management pt angkasa pura ii cabang bandara internasional minangkabau
+fdr bim 2017 merupakan data terkait informasi tiap penerbangan baik pesawat kedatangan maupun keberangkatan selama tahun 2017
+data tersedia dalam format html serta excel
+preprocessing data proses preprocessing data dilakukan untuk membersihkan data dari kolom yang null serta mendapatkan kolom tanggal dan waktu dengan memisahkan kolom stad yang telah ada sebelumnya menggunakan extract transform load
+extract data berasal dari file microsoft excel yang berisi flight daily report bandara internasional minangkabau dengan 27 kolom dan 31338 baris data
+transform data dilakukan dengan fungsi replace string dan split kolom
+berikut desain transformasi data yang dilakukan
+pada gambar 2 proses replace in string dilakukan untuk mengubah menjadi pada kolom stad
+replace in string 2 dan 3 menghilangkan kurung siku pada kolom waktu
+selanjutnya dilakukan spilt field yang ke-2 untuk memisahkan kolom tanggal menjadi kolom hari, bulan dan tahun
+kemudian ditambahkan fungsi filter row untuk membuang baris dimana nilai dari kolom sama dengan null untuk menghilangkan data penerbangan yang batal data di-load ke format microsoft excel 
+gambar kolom awal dan akhir bisa dilihat pada gambar 3
+kolom awal dan kolom akhir pembuatan tanggal menggunakan kolom hari, bulan dan tahun seperti gambar 3 untuk mendapatkan kolom tanggal dengan format date pada excel
+kemudian tanggal tersebut ditampilkan dengan 2 format yaitu : 1
+dddd untuk lebih jelasnya dapat dilihat pada gambar 4
+transformasi tanggal ke nama bulan dan nama hari c
+visualisasi data dan analisis hasil dari data penerbangan yang telah diproses didapatkan keluaran berupa informasi diantaranya kemana kebanyakan tujuan penerbangan orang yang berangkat dari padang serta jam berapa orang-orang tersebut kebanyakan berangkat, kemudian dari mana kebanyakan orang yang datang ke padang berasal, dan kebanyakan mereka datang pada jam berapa di padang
+dari informasi ini, maskapai dapat mengetahui bagaimana kecenderungan waktu ketika penumpang yang datang ke padang atau pun berangkat dari padang
+adapun kecendurangan kemana orang berangkat dari padang dapat dilihat dari gambar 5
+kecenderungan tujuan orang yang berangkat dari padang untuk lebih jelas, data di atas sudah dirangkum ke dalam bentuk tabel yang menampilkan 10 kota tujuan terbanyak bagi penumpang yang berasal dari padang
+gambar 6 peringkat 10 bandara tujuan keberangkatan dari gambar 6, dapat diketahui bahwa tujuan terbanyak adalah bandara cengkareng dimana ada 8081 penerbangan, kemudian diikuti oleh bandara hang nadim dengan jumlah 2036 penerbangan, dan bandara halim perdana kusuma dengan 1587 penerbangan
+yang datang ke padang berasal dapat dilihat pada gambar 7
+untuk lebih jelasnya, kami sudah merangkum 10 kota tujuan terbanyak bagi penumpang yang berasal dari padang
+peringkat 10 bandara asal untuk keberangkatan tujuan padang dari gambar 8, dapat diketahui bahwa bandara asal penumpang yang datang ke padang yang paling banyak adalah cgk atau kode dari bandara internasional soekarno-hatta dengan jumlah 8090 penerbangan, kemudian diikuti oleh bandara hang nadim dengan jumlah penerbangan 2019, dan bandara halim perdana kusuma sebanyak 1489 penerbangan
+selain itu, dalam penelitian ini peneliti juga menggali informasi mengenai pada jam berapa seorang penumpang berangkat atau datang dari/ke padang
+dari grafik tersebut didapatkan informasi bahwa umumnya penumpang datang ke padang pada jam 14.10 wib dimana ada 639 penerbangan pada waktu tersebut
+sedangkan untuk waktu keberangkatan, yang paling banyak terjadi adalah pada jam 16.40, yaitu ada 476 penumpang
+berapa seorang penumpang berangkat atau datang dari/ke padang, peneliti juga menggali informasi pada hari dan bulan apa jumlah penerbangan paling banyak terjadi
+jumlah penerbangan berdasarkan bulan dari grafik pada gambar 10 didapatkan informasi bahwa jumlah penerbangan terbanyak terjadi pada hari minggu, yaitu ada 4205 penerbangan
+sedangkan grafik pada gambar 11 menunjukkan bahwa penerbangan paling banyak terjadi pada bulan desember, yaitu ada 2510 jadwal penerbangan
+kesimpulan pentaho kemudian menampilkannya dalam bentuk grafik, dapat diambil beberapa kesimpulan berikut
+kebanyakan orang yang melakukan penerbangan ke bandara internasional minangkabau berasal dari bandara bandara internasional soekarno-hatta
+jadwal penerbangan tersibuk di bim terjadi pada pukul 14.10 wib yaitu untuk waktu kedatangan
+jadwal penerbangan terbanyak dilihat berdasarkan hari terjadi pada hari minggu
+jadwal penerbangan terbanyak dilihat berdasarkan bulan terjadi pada bulan desember

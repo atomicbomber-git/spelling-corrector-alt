@@ -1,0 +1,49 @@
+istem pengawasan keuangan badan usaha milik desa berbasis android lia farokhah#1, yudistira arya sapoetra#2 #program studi informatika, stmik asia malang jalan soekarno hatta- rembuksari 1a 1 farokhah@asia.ac.id 2 yudistiraarya@gmail.com dalam bentuk badan usaha milik desa sedang digalakkan dengan serius
+pemerintah menganggap ini adalah salah satu cara mengentaskan kemiskinan dengan cara peningkatkan kesejahteraan dan memandirikan desa secara keuangan
+namun, ada banyak masalah yang ada di lapangan seperti kekurang percayaan pengurus internal bum des sendiri terhadap kelembagaan bum des
+hal ini menyebabkan banyak desa yang ragu dalam mendirikan bum des atau bum des yang sudah berdiri namun tidak berkembang
+masalah transparansi merupakan masalah yang paling utama dalam kelembagaan bum des
+sistem kepercayaan, pengelolaan dan transparansi keuangan serta pembagian hasil hasil usaha yang menjadi pokok tujuan hampir setiap bum des yaitu kesejahteraan
+dalam perancangan aplikasi pengawasan keuangan bum des mendapatkan hasil umpan balik sebesar sebesar 82, 77%
+hal ini menunjukkan hasil umpan balik yang dianggap sangat positif terhadap aplikasi sistem pengawasan bum des dengan pengujian responden dari desa yang sudah terbentuk bum des maupun desa yang masih ragu-ragu dalam pendirian bum des karena permasalahan transparansi keuangan
+bumdes dilandasi oleh aturan uu nomor 32 tahun 2004 tentang pemerintah daerah pasal 213 ayat 1
+bumdes dibentuk berbadan hukum, ditetapkan dengan peraturan desa, dan dikelola oleh pemerintah desa
+bumdes dibentuk sesuai dengan kebutuhan dan potensi yang ada di masing-masing desa
+tentang prosentase penduduk miskin, tingkat kemiskinan di desa lebih tinggi dibandingkan di kota
+sejatinya desa memiliki banyak potensi yang bernilai tinggi dibandingkan di kota, namun beberapa permasalahan yang terjadi di daerah pedesaan adalah rendahnya manajemen dari potensi yang ada di pedesaan terutama potensi sumber daya alam, waktu, cost atau biaya yang murah serta beberapa faktor lainnya
+disisi lain, pemerintah pusat berusaha untuk meningkatkan potensi tersebut agar semakin menekan tingkat kemiskinan dengan menggelontorkan dana yang ditujukan kepada badan usaha milik desa 
+banyak desa yang tertarik untuk mendirikan bum des namun permasalahan muncul dari segi kelembagaan, permodalan dan sumber daya
+sisi kelembagaan sendiri merupakan salah satu masalah paling utama dalam pendirian atau operasisonal bum des
+permasalahan kelembagaan internal seperti sistem kepercayaan, pengelolaan dan transparansi keuangan serta pembagian hasil hasil usaha yang menjadi pokok tujuan hampir setiap bum des yaitu kesejahteraan
+hal tersebut mempengaruhi dalam pendirian bum des
+berdasarkan uraian permasalahan diatas, agar usaha pemerintah yang melibatkan desa dapat berjalan dengan baik dan dana yang diberikan dapat terkontrol serta internal pengurus bum des dan desa menjadi nyaman serta profesional dalam bekerjasama maka dibentuklah sebuah sistem yang dapat mengatasi masalah transparansi sehingga semua elemen bisa bekerja maksimal demi kesejahteraan bersama
+des) sebagai berikut: 1meningkatkan perekonomian desa; 2 meningkatkan pendapatan asli desa; 3 meningkatkan pengolahan potensi desa sesuai dengan kebutuhan masyarakat; 4 menjadi tulang punggung pertumbuhan dan pemerataan ekonomi pedesaan
+bum des adalah pemerintah kabupaten dan pemerintah desa, dewan komisaris, bagian keuangan, manajer bumdes, sekretaris, bendahara, karyawan
+dalam penelitian ini melibatkan empat stakeholder pokok yaitu manajer bumdes, sekretaris, bendahara, karyawan
+adapun kajian literatur tentang penelitian sebelumnya ditunjukkan pada tabel 1
+studi kasus di bumdes tirta mandiri klaten
+tabel 1 desa dalam meningkatkan kesejahteraan masyarakat sugihwaras kabupaten bojonegoro metode prototype
+gambar 1 paradigma pembuatan prototype metode yang digunakan adalah metode prototype
+metode ini cocok digunakan untuk mengembangkan suatu perangkat yang akan dikembangkan kembali
+berikut adalah langkah tahapan metode prototypeyaitu komunikasi dan pengumpulan data awal, yaitu pengumpulan dan analisis kebutuhan pengguna
+dalam hal ini tim pengembang berkomunikasi dengan para pengurus bum des dan masyarakat
+adapun cara yang digunakan adalah dengan mempelajari keseluruhan bum des yang sudah berjalan dengan baik
+contoh yang diambil adalah bum des tirta mandiri, desa ponggok, kecamatan polanharjo, kabupaten klaten dan bumdes multianggaluku mandiri di desa kalukubula kabupaten sigi provinsi sulawesi tengah dan beberapa bum des yang baru berjalan atau mau membentuk seperti di desa pakiskembar, sumberpasir dan pakisjajar, kecamatan pakis, kabupaten malang dengan segala permasalahannya
+langkah berikutnya adalah perencanaan secara cepat, yaitu pembuatan desain antarmuka secara umum dirancang dalam permodelan dilanjutkan dengan pembentukan prototipe dan pengujian hasil atau umpan balik untuk memperhalus spesifikasi kebutuhan
+dalam umpan balik menggunakan pengujian kegunaanskala likert dengan 30 responden dan teori pengujian kegunaan.adapun demografi responden ditunjukkan pada tabel 2
+tabel 2 1 desa pakisjajar 10 2 desa pakiskembar 10 3 desa sumberpasir 10 kegunaan
+adapun item yang diuji adalah personalisasi
+hasil perancangan dan pengujian aplikasi a
+use case diagram aplikasi adapun gambaran visualisasi sistem yang terbentuk ditunjukkan pada gambar 3 <<include>> <<include>> <<include>> <<include>> b
+hasil antarmuka manager bum des, sekretaris bum des, bendahara bum des dan pegawai bum des
+masing-masing aktor memiliki previllage dalam sistem
+fitur pada masing-masing aktor yang sama yaitu kerjasama, kegiatan, laporan keuangan, permasalahan, chatting dan transaksi harian ditunjukkan pada gambar 4- gambar 13
+bagaimana menurut anda fitur-fitur navigasi permasalahan ?, apakah sudah mengakomodir kebutuhan anda? chatting ?, apakah sudah mengakomodir kebutuhan anda? a.6 transaksi harian 1
+bagaimana menurut anda fitur-fitur navigasi transaksi harian ?, apakah sudah mengakomodir kebutuhan anda? dengan m= skor maksimum angket sangat memenuhi atau skala lima untuk enam pertanyaan dengan 30 responden adalah 77 responden
+maka perhitungan sebagai berikut: menjawab skala 5 yaitu sangat memenuhi sebesar 42, 77%
+jumlah prosentase responden yang menjawab memenuhi atau skala 4 untuk enam pertanyaan dengan 30 responden adalah 72 responden
+maka perhitungan sebagai berikut: dari perhitungan diatas bisa diambil kesimpulan yang menjawab skala 4 yaitu memuaskan sebanyak 40%
+kesimpulan secara umum diambil dari menggabungkan prosentase responden yang menjawab secara umum skala 5 dan skala 4 yaitu sebesar 82, 77%
+hal ini menunjukkan hasil umpan balik yang dianggap sangat positif
+kesimpulan dan saran keuangan bum des sebesar 82, 77% dengan penggabungan skala 4 dan skala 5 dengan indicator sangat memenuhi dan memenuhi sehingga bisa diambil kesimpulan hasil pengujian terhadap sistem yang dibuat sangat positif b
+saran dengan menyebar lebih banyak kuesioner ke desa-desa yang sudah menjalankan bum des dan elemen pengujian diperbanyak

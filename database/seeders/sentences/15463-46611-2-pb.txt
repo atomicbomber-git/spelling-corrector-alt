@@ -1,0 +1,10 @@
+urnal edukasi dan penelitian informatika vol 2, no 1, issn 2460-7041 21 pelayanan obat di apotek generik reza andita #1, paramiditanurul # jurusan teknik informatika dan komputer, politeknik negeri jakarta jl
+dr g.a siwabessy, kampus baru ui depok 16424 1 panjirp@gmail.com 2 paramidita259f@gmail.com 3 rezanditakbar@gmail.com 4 satria.akbar.nugroho@gmail.com 5 shintaps97@gmail.com 6 sitimulyaningsih35@gmail.com pada bagian kesehatan
+website merupakan teknologi yang mudah untuk digunakan
+apotek merupakan toko tempat meramu dan menjual obat berdasarkan resep dokter serta memperdagangkan barang medis
+pembeli yang ingin membeli obat namun obat yang dibeli habis dapat membuat pengunjung kecewa
+untuk mengantisipasi kekecewaan ini maka kami membuat sistem informasi pelayanan obat di apotek yang dapat memberikan kemudahan dalam melihat informasi obat yang ingin dicari serta stok obat itu sendiri
+selain itu, customer tidak akan sia–sia datang ke apotek karena obat yang di inginkan sudah habis
+sistem ini akan digambarkan cara kerjanya dengan diagram uml, form dan interface
+pendahuluan didukung banyak faktor yang diharapkan dapat memberikan kesuksesan dari sistem informasi itu sendiri yang tercermin melalui kepuasan pemakai sistem informasi
+suatu sistem informasi akan sukses apabila didukung oleh beberapa faktor pendukungnya, diantaranya partisipasi pemakai

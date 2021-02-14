@@ -1,0 +1,173 @@
+eee paper template in a4 vol 6 no 1 april 2020 implementasi single pass clustering pada preprocessing temu kembali koleksi berita teks faisal rahutomo#1, dwi puspitasari#2, trie endah sulistyoningrum#3 #teknologi informasi, politeknik negeri malang jalan soekarno hatta no 9, jatimulyo, lowokwaru, malang 1faisal@polinema.ac.id 2dwi_sti@yahoo.com 3trieendhs@gmail.com dipercaya untuk mendapatkan informasi
+namun seiring dengan perkembangan teknologi berita yang terbit menjadi semakin banyak jumlahnya
+akibat dari jumlah berita yang banyak diperlukan suatu sistem yang dapat dipergunakan untuk menemukan berita dengan cepat
+sistem temu kembali menjadi cara yang dapat dipergunakan untuk membantu menangani masalah tersebut
+sistem temu kembali yang ada masih terus dikaji efisiensinya jika berhubungan dengan jumlah informasi yang sangat besar
+makalah ini melakukan pengujian efektifitas dan efisiensi tambahan preprocessing pada sistem temu kembali
+langkahnya yaitu mengklasterkan informasi yang ada terlebih dahulu
+pada preprocesing ini diimplementasikan metode single pass clustering
+kemudian pencocokan query dengan dokumen disederhanakan kepada pencocokan query dengan centroid klaster
+hasil uji coba efisiensi menunjukkan bahwa sistem temu kembali yang mengimplementasikan single pass clustering mampu mencari berita dengan lebih cepat
+sedangkan pengujian efektifitas untuk mengetahui seberapa tepat berita yang bisa diketahui dari nilai pengujian precision, recall, dan f-score
+dari pengujian tersebut didapatkan hasil jika proses pencarian paling tepat dilakukan pada cluster dengan nilai threshold 0, 1
+pengujian pada cluster threshold 0, 1, f-score terbaik didapatkan ketika dilakukan proses temu kembali berita dengan keyword ‘4g lte’ bernilai 0, 732
+sedangkan pengujian f-score terburuk terdapat pada pengujian dengan keyword ‘aplikasi whatsapp’ dengan nilai 0, 111
+sedangkan secara umum, sistem yang diusulkan selalu lebih cepat hanya saja lebih rendah nilai performa precision, recall, dan f-score-nya
+pendahuluan terpisahkan dari kehidupan setiap orang
+pengaruh perkembangan teknologi juga berpengaruh pada jumlah berita yang meningkat
+oleh karena itu dibutuhkan suatu sistem yang dapat digunakan untuk menemukan berita yang revelan dengan cepat
+sistem temu kembali atau information retrieval menjadi cara yang dapat digunakan untuk memenuhi kebutuhan tersebut
+sistem temu kembali informasi adalah sistem yang digunakan untuk menemukan informasi, baik berbentuk teks, gambar, dan lainnya yang sesuai dengan keinginan pengguna
+sumber informasi bisa dalam jumlah yang sangat besar
+sistem temu kembali informasi sendiri telah menjadi cabang ilmu pada ilmu komputer
+namun terkadang muncul masalah efisiensi ketika sistem berjalan pada data yang sangat besar
+kurang efisiennya sistem dikarenakan waktu tunggu sistem menjadi lebih lama karena diperlukan untuk menghitung tingkat kemiripan query dengan masing-masing dokumen
+berdasarkan kedekatan atau kemiripan antar dokumen
+di dalam makalah ini, sistem yang dibangun adalah implementasi metode single pass clusteringuntuk mengelompokkan dokumen berita terlebih dahulu
+tujuan pengelompokan dokumen untuk mengurangi jumlah pencocokan query dengan dokumen, dan hanya mencocokkan query dengan centroid kelompok dokumen
+pembentukkan klaster dilakukan sebagai langkah preprocessing
+tujuan dari dilakukan perbandingan antar dua sistem temu kembali adalah untuk mengetahui apakah sistem yang mengimplementasikan proses klastering memang lebih baik hasilnya daripada sistem temu kembali biasa
+kemudian makalah ini melakukan evaluasi terhadap performa sistem precision, recall, dan f- score antara sistem tanpa clustering dan dengan clustering
+evaluasi waktu juga dilakukan untuk melihat perbedaannya
+pengembangan eksperimen terkait pemanfaatan korespondensi : faisal rahutomo 87 terkait analisa sentimen, deteksi hoax, klasifikasi lirik lagu, klasifikasi review film, dan klasifikasi artikel wikipedia
+penelitian ini juga melanjutkan topik penelitian yang dilakukan tim terkait sistem temu kembali informasi yang dilakukan peneliti dan tim
+harapannya makalah yang disusun ini dapat memnberikan kontribusi memperkaya khasanah pengetahuan sebagaimana yang telah dilakukan banyak peneliti yang lainnya di bidang ini
+metodologi pengelompokan yang mengelompokan data satu demi satu
+hal itu dilakukan seiring dengan evaluasi setiap data yang masuk ke dalam cluster
+evaluasi tingkat kesamaan antar data dan cluster dapat dilakukan dengan berbagai macam cara termasuk fungsi jarak, vectors similarity, dan lainnya
+contoh vektor dokumen yang diproses dengan menggunakan single pass clustering ditunjukkan pada gambar 1
+algoritma single pass clustering bekerja dengan langkah- langkah sebagai berikut
+ doc1 yang masuk kedalam proses clustering akan secara otomatis digunakan sebagai representasi c1 
+ untuk doci akan dilakukan perhitungan untuk mencari kesamaan dengan setiap wakil dari masing-masing cluster yang telah terbentuk
+ jika smax lebih besar dari batas nilai st, dokumen akan ditambahkan sebagai anggota pada cluster yang bersesuaian dan akan dilakukan perhitungan kembali titip pusat rata-rata vector terms cluster
+sebaliknya doci akan digunakan sebagai inisialisasi cluster baru apabila nilai similarity tidak lebih dari nilai st
+ jika masih ada sebuah item doci yang belum dikelompokkan, kembali dilakukan proses pada langkah ke-2
+menghasilkan luaran yang diinginkan maka harus dilakukan pengolahan teks terlebih dahulu
+tahapan pengolahan teks yang dilakukan pada makalah ini sebagai berikut
+ case folding: dalam case folding, terjadi proses mengubah semua huruf teks menjadi huruf kecil semua atau menjadi huruf kapital semua
+pada penelitian ini semua huruf dirubah menjadi huruf kecil karena mayoritas teks berupa huruf kecil semua
+ tokenization: proses pemecahan kumpulan teks dalam dokumen atau kalimat menjadi bentuk satuannya
+pada makalah ini tanda baca spasi penanda pemisah teks sehingga menjadi kumpulan token yang biasanya berupa kata
+ stopword removal: proses penghapusan kata yang dianggap tidak penting dengan membandingkannya dengan daftar kata yang tidak penting 
+daftar kata ini bersifat unik, tiap-tiap bahasa memiliki daftar katanya tersendiri
+di dalam bahasa indonesia terdapat beberapa versi daftar kata ini
+ tf.idf: proses pembobotan pada pembentukan vektor istilah dari dokumen yang ada
+tf atau term frequency adalah jumlah kemunculan suatu kata pada dokumen
+sedangkan tf.idf adalah salah satu metode terbaik untuk melakukan pengukuran berat dari suatu kata
+nilai tf.idf bertambah sesuai dengan jumlah kemunculan kata dalam dokumen namun terhalangi nilainya dengan jumlah kata dalam corpus
+untuk menghitug tingkat kesamaan antar dua buah vektor
+untuk tujuan klastering dokumen dapat digunakan fungsi cosine similarity
+cosine similarity dipilih karena cara kerja metode ini efisien, mudah dalam representasi dan dapat diimplementasikan pada pencocokan dokumen
+keterangan : x : vektor istilah dari dokumen x y : vektor istilah dari dokumen y |x| : normalisasi vektor istilah dari dokumen x |y| : normalisasi vektor istilah dari dokumen y d
+pengukuran performa yang digunakan pada penelitian ini adalah precision, recall, dan f-score
+oleh pengguna dengan jawaban yang diberikan oleh sistem
+nilai precision tertinggi adalah 1, yang berarti seluruh dokumen yang ditemukan adalah relevan
+nilai recall tertinggi adalah 1, yang berarti seluruh dokumen dalam koleksi yang benar berhasil ditemukan
+dengan keyword yang diujikan berdasar pengetahuan penguji 3) f-score: f-score merupakan rata-rata harmonik dari precision dan recall
+𝑓 − 𝑠𝑐𝑜𝑟𝑒 = 2 × 4) pengujian waktu: uji waktu yang dilakukan adalah untuk menguji apakah waktu yang dibutuhkan untuk proses temu kembali oleh sistem yang dibuat lebih cepat dari pada sistem yang tidak menggunakan metode single pass clustering pada preprocessing temu kembali beritanya
+clustering pada preprocessing temu kembali koleksi teks dilakukan seperti pada gambar 2 sebagai berikut
+1) studi literatur: studi literatur dilakukan untuk mengumpulkan informasi mengenai data-data yang diperlukan untuk analisa sistem termasuk dataset informasi mengenai perhitungan dalam metode algoritma single pass clustering dan cosine similarity, yang digunakan pada aplikasi/ sistem yang dibangun
+sumber studi literatur diperoleh baik dari dalam maupun luar negeri
+2) pengumpulan data: data yang digunakan dalam penelitian ini berupa berita yang berasal dari corpus
+corpus yang dipergunakan adalah indonesian news corpus
+corpus ini telah dibuat di dalam penelitian sebelumnya
+corpus berita tersebut bisa didapatkan gambar
+sedangkan data berita yang diambil adalah berita yang berasal dari beberapa portal berita online
+corpus ini berasal dari kumpulan berita mulai dari bulan juli 2015 hingga desember 2015
+data yang dipilih pada penelitian ini adalah data dari portal kompas.com dan republika.co.id dengan kategori 
+dalam tahap perancangan, ditentukan arsitektur dari sistem dan perancangan antarmuka dari sistem yang akan dibuat
+proses dalam sistem yang dibangun diterapkan pada corpus yang berisi berita dari beberapa situs online
+proses yang berjalan dalam sistem berkerja seperti pada gambar 3
+di dalam penelitian ini diterapkan sebuah preprocessing yang ditujukan untuk mengklasterkan berita
+hasil dari proses klastering inilah dipakai untuk proses temu kembali informasi berdasarkan query pengguna
+berita sebelum diklaster diproses pada text processing
+tujuan proses ini untuk mendapatkan nilai vektor dokumen yang bisa diolah lebih lanjut pada proses klaster
+dalam pemrosesan teks ini dilakukan proses case folding, stopword removal, dan tokenization
+hasil preprocessing text kemudian akan dilakukan pehitungan untuk mendapatkan nilai tf dan tf- idf
+dalam proses pengelompokan dengan single pass clustering dibutuhkan nilai threshold
+perbedaan nilai threshold yang dipergunakan akan mempengaruhi jumlah cluster yang terbentuk
+semakin besar suatu nilai threshold maka jumlah cluster yang terbentuk akan semakin banyak
+berita yang telah terklaster inilah yang dipergunakan dalam proses temu kembali
+proses temu kembali pada sistem yang dibangun akan dilakukan dengan cara mencari tingkat kemiripan antara query dari pengguna dengan centroid masing-masing klaster
+kecepatan dan ketepatan hasil temuan sistem ini nantinya akan dibandingkan dengan sistem temu kembali yang tidak mengimplementasikan proses clustering
+pada tahapan implementasi, dilakukan pembuatan modul-modul yang telah dirancang dalam tahap perancangan kedalam bahasa pemrograman
+pengujian merupakan tahapan dimana sistem akan dijalankan
+tahap pengujian diperlukan untuk menjadi ukuran bahwa sistem dapat dijalankan sesuai dengan tujuan
+pengujian yang dilakukan menggunakan metrik precision, recall, f-score, dan waktu
+tahap ini dilakukan untuk mendapatkan kesimpulan yang bisa diambil dari penelitian yang dilakukan dan pemberian saran yang bisa dikembangkan untuk penelitian selanjutnya
+hasil dan pembahasan dua bagian dari sistem, yakni untuk database dan sistem itu sendiri
+database yang dibangun akan memiliki tabel-tabel sebagai berikut
+table query ini berisi data query yang digunakan sebagai query yang nantinya digunakan untuk mencari informasi
+tabel ini digunakan untuk menyimpan data hasil preprocessing text query yang tersimpan pada table query
+tabel news digunakan untuk menyimpan data dari corpus berita
+data berita sendiri pada sistem akan menjadi data utama yang diproses sedemikian rupa sehingga bisa dikelompokkan
+saja yang sesuai dengan query yang terdata
+tabel ini berisi daftar kata-kata semua berita yang telah melalui langkah preprocessing
+tabel ini digunakan untuk menyimpan data nilai dari masing-masing kata hasil preprocessing teks
+nilai tiap kata yang terdata adalah nilai tf dan tf.idf setiap kata di masing- masing berita
+tabel cluster_spc ini berisi data hasil pengklasteran berita menggunakan single pass clustering
+pada tabel ini disimpan cluster yang gambar
+tabel hsl_spc ini berisi data berita menjadi anggota dari cluster yang mana
+dari tabel ini bisa diketahui anggota dari setiap cluster yang terbentuk
+dari tabel bisa diketahui hasil perhitungan centroid nilai tf.idf dari semua anggota yang menyusun cluster
+ tampilan upload corpus: tampilan ini adalah antarmuka pengguna yang bisa digunakan oleh pengguna untuk meng-import data berita yang digunakan pada sistem
+data berita yang bisa di- import adalah kumpulan berita yang berformat xml
+ tampilan hasil preprocessing text: gambar 6 menunjukkan antarmuka pengguna hasil dari preprocessing berita yang ada hingga menghasilkan kata-kata yang tersimpan pada table word beserta nilai perhitungan tf dan tf.idf
+ tampilan hasil klaster berita: hasil dari proses tersebut ditampilkan seperti pada gambar 7
+ tampilan sistem temu kembali: gambar 8 adalah antarmuka pengguna yang bisa digunakan oleh pengguna untuk mencari berita sesuai dengan keyword yang dimasukkan oleh pengguna
+selain pengguna memasukkan keyword, pengguna juga diminta untuk memilih nilai threshold
+nilai threshold ini digunakan untuk mengetahui pengguna ingin melakukan pencarian terhadap klaster hasil dengan nilai threshold yang mana
+ tampilan hasil temu kembali berita: ini adalah user interface yang nantinya akan menampilkan berita sesuai dengan pencarian oleh sistem
+pengujian pencarian berita secara manual sebagai standar emas dengan hasil berita yang ditampilkan sistem yang telah dibuat
+kemudian akan dilakukan perhitungan pengujian menggunakan precision, recall, f-score dan waktu
+tabel i 1) kelas hasil clustering: tabel 1 menunjukkan banyaknya kelompok berdasarkan threshold yang diberikan
+dari tabel tersebut terbukti jika semakin besar nilai threshold yang dipergunakan maka jumlah cluster yang dihasilkan dari proses klastering juga semakin banyak
+setiap proses temu kembali akan dilakukan pada setiap cluster-cluster yang telah terbentuk dengan cara mencari tingkat kemiripan antar keyword pengguna dan centroid dari masing-masing cluster
+2) pengujian precision, recall, dan f-score: percobaan dilakukan berulang kali pada beberapa threshold
+nilai threshold tersebut merupakan nilai threshold yang dipergunakan pada saat proses clastering menggunakan single pass clustering
+sedangkan nilai threshold yang dipergunakan pada sistem temu kembali sendiri adalah 0.1
+9 tampilan hasil temu kembali berita penggunaan threshold pada sistem temu kembali ini bertujuan untuk menentukan cluster dengan tingkat kemiripan yang lebih dari threshold saja yang akan ditampilkan kepada pengguna
+alasan dipilihnya nilai 0.1 dikarenakan pada nilai ini pengujian precision, recall, dan f-score didapatkan hasil pada semua cluster
+dari pengujian yang dilakukan pada keyword ‘android, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap klaster hasil clustering dengan nilai threshold 0, 7
+pada pengujian ini precision hasilnya sebesar 0, 718, pengujian recall sebesar 0, 193, dan pengujian f-score sebesar 0, 304
+pengujian pada threshold 0, 7 inilah yang memiliki hasil paling mendekati pengujian pada sistem yang tidak mengimplementasikan single pass clustering
+pada sistem tersebut nilai pengujian precision sebesar 1, pengujian recall sebesar 0, 226, dan pengujian f- score 0, 369
+dari pengujian yang dilakukan pada keyword ‘iphone’, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap kluster hasil clustering dengan nilai threshold 0, 1
+pada pengujian ini precision hasilnya sebesar 0, 928, pengujian recall sebesar 0, 582, dan pengujian f-score sebesar 0, 715
+pengujian pada threshold 0, 7 inilah yang memiliki hasil paling mendekati pengujian pada sistem yang tidak mengimplementasikan single pass clustering
+pada sistem tersebut nilai pengujian precision sebesar 1, pengujian recall sebesar 0, 582, dan pengujian f- score 0, 735
+dari pengujian yang dilakukan pada keyword ‘game’, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap klaster hasil clustering dengan nilai threshold 0, 5, 0, 6, dan 0, 7
+pada pengujian ini precision hasilnya sebesar 0, 437, pengujian recall sebesar 0, 189, dan pengujian f-score sebesar 0, 264
+dari pengujian yang dilakukan pada keyword ‘game’, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap klaster hasil clustering dengan nilai threshold 0, 6
+pada pengujian ini precision hasilnya sebesar 0, 772, pengujian recall sebesar 0, 269, dan pengujian f-score sebesar 0, 4
+pengujian pada threshold 0, 6 memiliki hasil paling mendekati pengujian pada sistem yang tidak mengimplementasikan single pass clustering
+pada sistem tersebut nilai pengujian precision sebesar 1, pengujian recall sebesar 0, 365, dan pengujian f- score 0, 535
+dari pengujian yang dilakukan pada keyword ‘transaksi online’, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap cluster hasil klastering dengan nilai threshold 0, 1, 0, 2, dan 0, 3
+pada pengujian ini precision hasilnya sebesar 0, 105, pengujian recall sebesar 1, dan pengujian f-score sebesar 0, 190
+pengujian pada threshold-threshold tersebut precision sebesar 0, 222, pengujian recall sebesar 1, dan pengujian f-score 0, 363
+dari pengujian yang dilakukan pada keyword ‘4g lte’, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap klaster hasil clustering dengan nilai threshold 0, 1
+pada pengujian ini precision hasilnya sebesar 0, 756, pengujian recall sebesar 0, 708, dan pengujian f-score sebesar 0, 732
+pengujian pada threshold tersebut memiliki hasil paling mendekati pengujian pada sistem yang tidak mengimplementasikan single pass clustering
+dari pengujian yang dilakukan pada keyword ‘aplikasi whatsapp’, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap klaster hasil clustering dengan nilai threshold 0, 1
+pada pengujian ini precision hasilnya sebesar 0, 058, pengujian recall sebesar 1, dan pengujian f-score sebesar 0, 111
+pengujian pada threshold tersebut memiliki hasil paling mendekati pengujian pada sistem yang tidak mengimplementasikan single pass clustering
+pada sistem tersebut nilai pengujian precision sebesar 0, 083, pengujian recall sebesar 1, dan pengujian f- score 0, 153
+17 grafik pengujian keyword ‘virtual reality’  pada keyword ‘virtual reality’
+dari pengujian yang dilakukan pada keyword ‘virtual reality’, didapatkan hasil terbaik ketika proses temu kembali dilakukan terhadap klaster hasil clustering dengan nilai threshold 0, 1
+pada pengujian ini precision hasilnya sebesar 0, 333, pengujian recall sebesar 0, 166 dan pengujian f-score sebesar 0, 222
+pengujian pada threshold tersebut memiliki hasil sama dengan pengujian pada sistem yang tidak mengimplementasikan single pass clustering
+pada sistem tersebut nilai pengujian precision sebesar 0, 333, pengujian recall sebesar 0, 166, dan pengujian f-score 0, 222
+3) pengujian waktu: tabel 3 menunjukkan pengujian waktu eksekusi yang dilakukan pada semua keyword yang terdata kepada setiap klaster hasil clustering dengan nilai threshold yang berbeda-beda
+hasil dari pengujian waktu yang didapatkan menggunakan satuan detik
+dari hasil dua pengujian waktu pada kedua sistem temu kembali yang dibuat menunjukkan jika memang waktu eksekusi yang diperlukan oleh sistem temu kembali yang mengimplementasikan single pass clustering memiliki waktu eksekusi yang lebih cepat dari pada sistem temu kembali tanpa clustering
+kesimpulan dan saran sistem temu kembali pada delapan keyword yang berbeda- beda
+untuk hasil pengujian waktu, sistem temu kembali yang mengimplementasikan metode bisa mencari berita lebih cepat dari pada sistem temu kembali yang tidak mengimplemen-tasikan single pass clustering
+sedangkan pengujian precision, recall, dan f-score terbaik didapatkan ketika proses temu kembali dilakukan pada klaster dengan nilai threshold 0.1
+hasil tersebut didapatkan ketika pengujian dilakukan menggunakan keyword ‘iphone’, ‘transaksi online’, ‘4g lte’, ‘aplikasi whatsapp’, dan ‘virtual reality’
+dari kelima pengujian tersebut hasil terbaik didapatkan pada pengujian dengan keyword ‘4g lte’
+yang mana pada pengujian tersebut nilai pengujian f-score sebesar 0, 732
+nilai tersebut adalah nilai pengujian f-score yang paling baik dari pengujian lainnya
+sedangkan untuk nilai pengujian precision sebesar 0, 756 dan pengujian recall sebesar 0, 708
+sistem temu kembali pada lebih banyak nilai threshold
+nilai threshold yang bisa digunakan kurang dari 0, 1
+nilai threshold ini ditujukan untuk memilih seberapa banyak berita yang akan ditampilkan pada pengguna

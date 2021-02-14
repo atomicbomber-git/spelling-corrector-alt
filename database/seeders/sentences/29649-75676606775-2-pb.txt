@@ -1,0 +1,7 @@
+eee paper template in a4 vol 5 no 2 sistem informasi evaluasi kualitas kinerja dosen dalam menentukan key performance indicator ilhamsyah#1, fatma agus setyaningsih#2, syahru rahmayuda#3 #fakultas matematika dan ilmu pengetahuan alam jurusan sistem informasi, universitas tanjungpura pontianak jl
+ahmad yani pontianak 78124 1ilhamsyah@sisfo.untan.ac.id 2fatmasetyaningsih@siskom.untan.ac.id 3yudarahma@sisfo.untan.ac.id kinerja yang baik harus bisa menggambarkan proses bisnis yang terjadi dalam organisasi secara keseluruhan
+sistem informasi evaluasi kinerja dosen dibangun dengan memuat ukuran-ukuran key performance indicator dari sebuah model kinerja dosen yang dikembangkan dalam bentuk kuesioner secara online dan tersistem
+dashboard model dapat mengintegrasikan data dari berbagai sumber disetiap unit, dimana mereka dapat mengelola data dan menyajikan dalam bentuk laporan informasi yang berkualitas
+pendahuluan informasi yang disediakan bagi para manager untuk menyajikan informasi kualitas kinerja, dari sebuah perusahaan atau lembaga organisasi
+konsep kinerja dashboard sudah ada selama bertahun-tahun, dashboard telah banyak diadopsi oleh perusahaan atau kalangan bisnis
+contohnya pada tahun 2004 survei yang dilakukan oleh institusi data warehousing ada sekitar 473 perusahaan menggunakan dashboard sebagai business intelligence informasi organisasinya

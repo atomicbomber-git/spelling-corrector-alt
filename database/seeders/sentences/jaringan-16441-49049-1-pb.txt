@@ -1,0 +1,119 @@
+sistem pelacakan merupakan salah satu dari pemanfaatan teknologi gps
+ada berbagai manfaat dari sistem pelacakan, misalnya dalam ilmu pengetahuan, dapat mengetahui habitat dari hewan-hewan langka, misalnya habitat harimau atau gajah
+selain itu, manfaat lain dari sistem pelacakan, dapat memantau keberadaan pengguna kendaraan sekaligus sebagai sistem keamanan
+dalam penelitian ini, dilakukan pengembangan sistem pelacakan dengan memanfaatkan mikrokontroler atmega328 dan gps/gsm/gprs kemudian menghasilkan sebuah antarmuka pengguna dengan mengimplementasikan google map dan web
+di dalam penelitian ini, modul gps menghasilkan data koordinat dalam bentuk degree minute minute
+format tersebut tidak dapat dibaca oleh google map, sehingga didalam pengujian, format koordinat tersebut harus dikonversikan ke dalam format degree degree
+berdasarkan pengujian mode gps, data koordinat yang paling cepat didapat oleh alat adalah 27 detik dan rata- rata tercepat adalah 47 detik
+sedangkan data koordinat terdekat alat yang dibandingkan dengan koordinat gps garmin 60csx adalah 3 meter dan jarak terjauh adalah 29 meter
+hasil pengujian tracking, didapat rata-rata pegiriman data ke server adalah 36, 48 detik
+teknologi berbasis posisi ini disebut juga teknologi gps
+dengan adanya teknologi gps ini maka dapat dengan mudah mengetahui posisi suatu objek benda yang bergerak
+dikalangan ilmu dasar, teknologi ini digunakan untuk memantau penyebaran hewan hewan- hewan langka, misalnya gajah dan harimau
+yaitu dengan menempelkan sensor pemancar pada hewan-hewan itu
+demikian juga dibidang geofisika, data-data fisis seperti resistivitas, medan magnet akan dihubungkan dengan posisi titik yang diambil datanya
+selain untuk ilmu pengetahuan, teknologi gps-pun dapat digunakan untuk mengatasi tindak kriminal pencurian yang kini semakin marak atau digunakan untuk memantau posisi objek benda, misalnya kendaraan
+rental mobil, jasa transportasi dan jasa pengiriman barang merupakan beberapa contoh pengguna teknologi berbasis gps
+selain untuk keamanan, juga akan meningkatkan mutu dari layanan barang atau jasa
+sistem pelacak atau biasa disebut tracking system merupakan salah satu dari teknologi berbasis gps dalam bentuk automatic vehicle location 
+sudah banyak penyedia jasa atau industri yang menjual produk gps tracking ini
+selain itu, sistem diberikan kepada pembelian produk baru dari perangkat gps tracking ini, sehingga akan terasa lebih mahal dan rumit apabila akan melakukan pengembangan sistemnya
+oleh karena itu, dapat dikembangkan sendiri sebuah alat pelacak yang berbasis open source, sehingga mudah dikembangkan dan dimanajemen sesuai dengan kebutuhan pengguna
+pada penelitian ini akan dikembangkan suatu sistem pelacakan posisi kendaraan dengan menggunakan modul gps sebagai akuisisi data posisi, modul gsm/gprs sebagai komunikasi data, dan mikrokontroller atmega328 sebagai media lalu lintas data yang menjembatani kedua modul, yang kemudian akan ditampilkan secara realtime pada sebuah antarmuka web
+alur penelitian yang akan dilakukan adalah: 1
+kemudian dilakukan perancangan alat dan perancangan web yang merupakan bagian dari perancangan sistem
+sistem kemudian dibuat dengan menggabungkan perancangan alat dan web yang telah dirancang
+setelah sistem dibuat, berikunya melakukan pengujian sistem untuk mendapatkan data terkait dengan gps
+pengujian dilakukan dengan menggunakan mode gsm, mode gps, dan tracking
+data-data tersebut dianalisis untuk penarikan kesimpulan
+berhubungan, yaitu perancangan pada sisi alat dan perancangan pada sisi server
+perancangan pada sisi alat terdiri dari perancangan mikrokontroler, modul gps/gsm/gprs, dan power supply
+pada sisi server terdiri dari perancangan halaman web serta perancangan penyimpanan data pada database
+modul gps digunakan untuk menerima data koordinat
+data koordinat tersebut berformat degree minute minute
+data ini tidak dapat dibaca oleh google map, karena google map hanya membaca data koordinat dengan format degree degree atau degree minute second
+oleh karena itu format data koordinat perlu dikonversikan, disini menggunakan format degree degree
+setelah dikonversi, data koordinat dikirim ke server melalui modul gprs dengan protocol http
+mikrokontroler atmega328 dapat digunakan untuk melakukan kontrol terhadap banyak komponen elektronika
+mikrokontroler ini berfungsi untuk komunikasi data dengan modul
+sumber tegangan berasal dari aki kendaraan bermotor, sehingga tegangan harus diturunkan agar tidak merusak alat
+untuk menurunkan tegangan aki, diperlukan komponen dc to dc stepdown
+alat ini dapat menurunkan tegangan hingga 2 volt, dengan maksimal input tegangan 34 volt
+gambar 3 merupakan diagram alir pada perancangan alat
+perancangan web server dan perancangan antarmuka web
+perancangan database bertujuan utuk menyimpan data sesuai kebutuhan
+terdapat dua tabel yang dibuat, yaitu tabel login user dan tabel history
+tabel 1 dan tabel 2 merupakan tabel login dan tabel history
+tabel 1 perancangan tabel history 2 lat varchar latitude/posisi lintang 3 lon varchar longitude/posisi bujur 4 tanggal date tanggal data diterima 5 waktu time waktu data diterima tabel 2 1 user int nama pengguna 2 password varchar password pengguna gambar 4 merupakan diagram alir proses penyimpanan data di dalam database
+perancangan antarmuka web bertujuan untuk memberikan gambaran tentang sistem yang dibuat, sehingga mempermudah dalam mengimplementasikan sistem
+berikut adalah diagram alir pada halaman web, dapat dilihat pada gambar 5
+arsitektur sistem mendefinisikan komponen-komponen sistem yang lebih spesifik secara terstruktur
+pada gambar 6 dapat dilihat arsitektur sistem dari pelacakan kendaraan
+use case diagram merupakan pemodelan untuk kelakuan sistem informasi yang akan dibuat
+gambar 7 adalah use case diagram dari sistem yang dibuat gambar 7
+antarmuka aplikasi sistem pelacakan merupakan suatu sistem yang dibuat untuk mempermudah pengguna dalam memantau keberadaan kendaraan pribadi maupun orang lain yang dapat dilihat pada web
+gambar 8 dan 9 merupakan antarmuka web pada sistem pelacakan berbasis atmega328
+hasil pengujian sistem pengujian yang dilakukan pada penelitian ini adalah pengujian terhadap setiap mode pada modul gsm/gps/gprs
+mode tersebut adalah mode gsm/gps dan tracking
+pengujian mode gsm/gps pengujian ini dilakukan dengan mengirim data koordinat dari alat ke nomor handphone pengguna
+hasil dari pengiriman sms dapat dilihat pada gambar 10
+hasil pengiriman sms data hasil pengujian dapat dilihat pada tabel 3
+tabel 3 2 teras rumah detik s 0006.283124 e 10921.575587 dari tabel 3 koordinat data gps dapat dikirim oleh alat ke nomor pengguna dengan format data gps degree minute minute
+data ini harus dikonversi agar dapat ditampilkan pada google map
+hasil konversi berupa data koordinat dengan format degree degree, sehingga koordinat baru setelah dikonversikan adalah s 0.104718 dan e 109.359593
+hasil konversi kemudian ditampilkan pada google map, yang dapat dilihat pada gambar 11 dan gambar 12
+pengujian mode gps pada pengujian ini koordinat alat dibandingkan dengan koordinat gps garmin type 60csx
+kemudian pengujian dilakukan dalam beberapa kondisi, yaitu pada jarak tertentu, pada saat waktu tertentu, kondisi cuaca, dan penghalang
+pada pengujian pada jarak tertentu, dilakukan dengan pengambilan data koordinat gps je arah utara, selatan, timur, dan barat pada titik pusat
+jarak waktu terima data gps titik awal tercepat alat dalam membaca koordinat saat pengujian jarak tertentu dilapangan bola untan adalah 40 detik dan waktu terlama adalah 1 menit 2 detik
+rata-rata waktu terima data gps adalah 51, 8 detik
+sedangkan untuk jarak terjauh antara posisi koordinat alat dan koordinat gps pembanding adalah 12 meter dan untuk jarak yang paling dekat adalah 3 meter
+pengujian pada berbagai kondisi cuaca dilakukan dengan mengambil data gps pada saat cuaca cerah, mendung, dan hujan deras
+hasil pengujian dapat dilihat pada tabel 5
+tabel 5 hasil pengujian berdasarkan jarak tertentu cuaca waktu terima data gps koordinat cerah 41 detik s men- dung hujan deras berdasarkan tabel 5 waktu tercepat alat dalam membaca koordinat saat pengujian diberbagai kondisi cuaca adalah 41 detik dan waktu terlama adalah 3 menit 42 detik
+rata-rata waktu terima data gps adalah 1 menit 43 detik
+sedangkan untuk jarak terjauh antara posisi koordinat alat dan koordinat gps pembanding adalah 29 meter dan untuk jarak yang paling dekat adalah 6 meter
+mengambil data gps pada pagi hari, siang hari, sore hari, dan malam hari
+hasil pengujian dapat dilihat pada tabel 6 berikut
+tabel 6 waktu waktu terima data gps pukul 13.22 koordinat saat pengujian pada waktu tertentu adalah 57 detik dan waktu terlama adalah 1 menit 20 detik
+rata-rata waktu terima data gps adalah 66 detik
+sedangkan untuk jarak terdekat antara posisi koordinat alat dan koordinat gps pembanding adalah 3 meter dan untuk jarak yang terjauh adalah 12 meter
+pengujian dengan penghalang tertentu dilakukan dengan mengambil data gps di bawah gedung, teras rumah, dibawah pohon rindang, dan dibawah pohon berdau lebat
+hasil pengujian dapat dilihat pada tabel 7 berikut
+tabel 7 hasil pengujian berdasarkan penghalang tertentu penghalang waktu terima data 0.10484 e 109.35951 s 0.10485 e 109.35946 koordinat posisi saat berada di dalam gedung, namun gps pembanding masih tetap bisa membaca koordinat
+waktu tercepat alat dalam membaca koordinat saat pengujian pada waktu tertentu adalah 27 detik dan waktu terlama adalah 47 detik
+rata-rata waktu terima data gps adalah 39 detik
+sedangkan untuk jarak terjauh antara posisi koordinat alat dan koordinat gps pembanding adalah 11 meter dan untuk jarak yang paling dekat adalah 6 meter
+setelah web di-hosting, langkah selanjutnya adalah membuat google map api key
+ini digunakan untuk menampilkan peta google pada interface web
+key untuk menampilkan peta google adalah aizasybcbb-xwo3dvqb4viybjzgralbk- pada web yang telah dihosting
+agar dapat saling berkomunikasi antara alat dan web interface, maka diperlukan beberapa perintah pada program arduino, yang dapat dilihat pada tabel 8
+at+sapbr untuk mengatur koneksi yang digunakan, apn, username dan password fungsi http method get atau post data yang dikirim ke web tracking adalah data latitude dan longitude
+pengiriman data menggunakan method get yang mana menggunakan command at+httpaction=0
+nilai 0 digunakan untuk method get sedangkan jika menggunakan nilai 1 adalah untuk method post
+data ini kemudian diolah menjadi variabel yang kemudian disimpan dalam file .txt dengan nama file berdasarkan tanggal, bulan, dan tahun
+file ini yang nantinya digunakan oleh google map untuk menampilkan data koordinat yang telah dikirim oleh alat secara realtime
+untuk dapat mengakses kembali history perjalanan, maka data koordinat disimpan didalam database
+hasil pengujian tracking dapat dilihat pada gambar 16 dan gambar 17
+hasil tracking yang mana menggunakan aki sebagai power supply yang telah dirancang sebagai sumber arus pada alat
+pengujian dilakukan mulai dari rumah penulis hingga universitas tanjungpura, dengan rute melewati jalan gang, jalan sungai raya dalam, jalan a
+yani, jalan perdana, jalan letnan sutoyo, jalan mas tirto haryono, jalan ahmad yani dan univesrsitas tanjungpura
+hasil titik koordinat dapat dilihat pada tabel 9
+analisis hasil pengujian dari beberapa pengujian yang telah dilakukan, didapati faktor-faktor yang mempengaruhi kinerja alat
+data koordinat yang diterima oleh alat berupa data berformat degree minute minute
+data ini tidak dapat langsung ditampilkan pada google map, karena google map hanya membaca data berformat degree degree atau degree minutes second
+maka dari itu, data gps yang didapat oleh alat harus dikonversi ke format yang dapat dibaca oleh google map
+dalam pengujian, format degree minute minute diubah menjadi format degree degree
+beberapa faktor yang mempengaruhi hasil pengujian, misalnya pada pengujian berdasarkan kondisi cuaca
+disaat hujan deras, waktu diterimanya data koordinat lebih lama dan jarak perbandingan lebih jauh dibandingkan dengan data koordinat yang lain
+faktor yang berpengaruh adalah adanya delay ionosfer dan troposfer, yaitu perubahan dalam hal temperatur, tekanan, kelembaban, dan perubahan cuaca, yang menyebabkan terlambatnya sinyal gps ke atmosfer
+kemudian pada pengujian berdasarkan penghalang tertentu, terdapat data koordinat yang tidak diterima oleh alat, yaitu pada saat berada didalam gedung
+faktor yang mempengaruhinya adalah adanya sinyal multipath, yaitu refleksi ke suatu objek bangunan tinggi sebelum sinyal gps dapat ditangkap oleh alat
+berdasarkan hasil pengujian tracking, didapat beberapa data koordinat yang tidak sesuai dengan lokasi pengujian dengan rata-rata jeda pengiriman data koordinat adalah 36, 48 detik
+ada beberapa faktor yang mempengaruhinya, salah satunya adalah antena eksternal gps
+pada awal pengujian, penulis melakukan pengujian tanpa antena eksternal, dan hasilnya tidak ada satupun titik yang sesuai dengan lokasi pengujian
+menggunakan antena eksternal yang tepat dapat mempengaruhi keakuratan koordinat yang diterima oleh alat
+kesimpulan disimpulkan bahwa: dan gps berbasis mikrokontroler atmega328 yang dibuat dapat digunakan untuk memantau kendaraan dan diimplementasikan ke web dan google map sebagai antarmuka pengguna
+format ini tidak dapat dibaca oleh google map, sehingga format tersebut harus dikonversikan ke dalam format degree degree
+didapatkan beberapa faktor yang mempengaruhi kinerja modul, yaitu faktor cuaca, adanya penghalang pada antena, dan jenis antena yang digunakan
+saran untuk pengembangan sistem ini adalah sistem yang dibuat tidak hanya terbatas untuk satu user saja, mengoptimalkan jeda waktu pengiriman data koordinat ke server, sehingga marker yang muncul menjadi lebih rapat dan menggunakan antenna gps yang menggunakan sumber tegangan sendiri, misalnya gps external antenna repeater booster, agar akurasi koordinat gps yang diterima menjadi lebih baik

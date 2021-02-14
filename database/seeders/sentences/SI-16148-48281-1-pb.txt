@@ -1,0 +1,67 @@
+hal ini menyebabkan banyaknya ibu balita yang terlambat membawa anaknya untuk imunisasi ke puskesmas
+dari data yang ada di puskesmas, dari bulan desember sampai pebruari ada sebanyak 62 – 73 orang ibu balita yang membawa anaknya untuk imunisasi, 13 – 25 orang diantaranya terlambat untuk membawa anaknya imunisasi setiap bulannya
+oleh karena itu, diperlukan reminder atau pengingat yang berfungsi untuk memberitahukan ibu balita jadwal pelaksanaan imunisasi berikutnya
+tujuan penelitian ini adalah mengetahui apakah penyebaran informasi imunisasi kepada ibu balita dapat diimplementasikan secara efektif sehingga dapat membantu puskesmas dalam meningkatkan peran ibu dalam memberikan imunisasi bagi anaknya dan membantu mengurangi beban kerja petugas imunisasi untuk mengingatkan jadwal pelaksanaan imunisasi bagi ibu balita
+sistem yang dibangun berbasis dekstop dengan menggunakan bahasa pemograman java dan gammu yang berfungsi sebagai sistem yang mengirimkan informasi jadwal pelaksanaan imunisasi kepada ibu balita
+berdasarkan pengujian yang dilakukan, pengujian dengan menggunakan blackbox menghasilkan hasil inputan dan keluaran yang diharapkan, pengujian yang dilakukan saat pin dengan kuisioner, 88, 875% sangat setuju bahwa dengan media sms informasi imunisasi/kegiatan dari puskesmas membantu sebagai media informasi dan pengingat mereka
+pengujian akurasi yang dilakukan dengan mengirimkan sms informasi imunisasi kepada ibu balita menghasilkan akurasi sebesar 64, 3% antara hasil yang dikeluarkan oleh sistem dan hasil sebenarnya
+imunisasi pada anak dibutuhkan untuk mencegah penyakit yang diakibatkan oleh bakteri atau virus seperti tbc, campak, polio, meningitis, hepatitis dan lain-lain
+pemberian imunisasi kepada anak-anak seharusnya diberikan tepat waktu sesuai dengan instruksi pemerintah yang mewajibkan imunisasi dasar untuk balita
+berdasarkan pengamatan yang dilakukan di puskesmas bagian imunisasi, masih banyak ibu balita yang terlambat membawa anaknya untuk imunisaasi ke puskesmas pada waktunya
+dapat dilihat dari data yang diambil mulai dari bulan desember sampai pebruari, antara sebanyak 62-73 orang ibu yang membawa anaknya imunisasi setiap bulannya, 13 sampai 25 orang anak terlambat untuk mendapatkan imunisasi
+rata-rata mereka terlambat 1-3 bulan untuk membawa anaknya imunisasi
+jadwal imunisasi pada anak sebaiknya diketahui oleh para orang tua
+pemberitahuan untuk imunisasi selanjutnya masih sebatas pembicaraan langsung antara petugas imunisasi dan ibu balita pada saat berkunjung ke puskesmas untuk imunisasi sehingga rentan bagi ibu balita tersebut lupa pada jadwal pelaksanaan imunisasi pada bulan berikutnya
+oleh karena itu, dibutuhkan reminder atau pengingat untuk memberitahukan atau mengingatkan para orang tua untuk membawa anaknya imunisasi ke puskesmas atau posyandu tepat pada waktunya serta meringankan beban kerja dari petugas imunisasi dalam mengingatkan jadwal imunisasi
+dengan adanya pengingat jadwal pelaksanaan imunisasi diharapkan anak tidak terlambat mendapatkan imunisasi untuk kekebalan tambahan sebagai upaya pencegahan penyakit
+jadwal pelaksanaan imunisasi adalah melalui pesan singkat atau short message service 
+sms dipilih karena penyebaran informasi dapat berjalan lebih mudah, jika dibandingkan dengan penggunaan program aplikasi, dimana dibutuhkan pengaturan tertentu misalnya harus mengunduh program aplikasi, registrasi akun, ataupun dibutuhkan ketersediaan paket data internet penelitian dilakukan untuk mengetahui apakah penyebaran informasi imunisasi kepada ibu balita dapat diimplementasikan secara efektif sehingga dapat membantu perancangan pada uptd puskesmas kecamatan program studi teknik informatika universitas tanjungpura1, 2, 3 e-mail : sitifajarwati.h@gmail.com1, anggidianti@gmail.com2, safriadi@informatics.untan.ac.id 3 imunisasi bagi anaknya
+penelitian dilakukan dengan mengirimkan sms yang berisi waktu pelaksanaan imunisasi kepada ibu balita
+pengiriman dilakukan h-3 dan h-1 waktu pelaksanaan imunisasi
+penyebaran informasi imunisasi kepada ibu balita berbasis sms gateway untuk membantu penelitian yang dilakukan
+perngertian imunisasi bayi dan anak dengan memasukkan vaksin ke dalam tubuh agar tubuh membuat zat anti untuk mencegah terhadap penyakit tertentu
+sedangkan yang dimaksud dengan vaksin adalah bahan yang dipakai untuk merangsang pembentukan zat anti yang dimasukkan ke dalam tubuh melalui suntikan dan melalui mulut 
+imunisasi merupakan salah satu cara untuk memberikan kekebalan pada bayi dan anak terhadap berbagai penyakit, sehingga dengan imunisasi diharapkan bayi dan anak tetap tumbuh dengan sehat
+a.1 tujuan imunisasi menjad kebal terhadap penyakit sehingga dapat menurunkan angka morbiditas dan mortalitas serta dapat mengurangi kecacatan akibat penyakit yang dapat dicegah dengan imunisasi
+layanan yang banyak diaplikasikan pada sistem komunikasi tanpa kabel, memungkinkan dilakukannya pengiriman pesan dalam bentuk teks
+sms didukung oleh gsm, tdma, cdma yang berbasis pada telepon seluler yang saat ini banyak digunakan
+sms merupakan salah satu layanan pesan teks yang dikembangkan dan distandarisasi oleh suatu badan yang bernama etsi sebagian dari pengembangan gsm phase 2, yang terdapat pada dokumentasi gsm 03.40 dan gsm 03.38
+fitur sms ini memungkinkan perangkat stasiun seluler digital untuk dapat mengirim dan menerima pesan-pesan teks dengan panjang sampai dengan 160 karakter melalui jaringan gsm
+sms dapat dikirimkan ke perangkat stasiun seluler digital lainnya hanya dalam beberapa detik selama berada pada jangkauan pelayanan gsm
+lebih dari sekedar pengiriman pesan biasa, layanan sms memberikan garansi sms akan sampai pada tujuan meskipun perangkat yang dituju sedang tidak aktif yang dapat disebabkan karena sedang dalam kondisi mati atau berada di luar jangkauan layanan gsm
+dengan adanya feature seperti ini maka layanan sms juga cocok untuk dikembangkan sebagai aplikasi-aplikasi seperti: pager, e-mail, dan notifikasi voice mail, serta layanan pesan banyak pemakai 
+namun pengembangan aplikasi tersebut masih bergantung pada tingkat layanan yang disediakan oleh operator jaringan
+definisi sms gateway adalah sebuah aplikasi mobile switching center yang mampu menerima pesan singkat dari short message service center, menginterogasi home location register untuk informasi routing, dan mengirimkan pesan pendek tersebut ke msc dari piranti bergerak yang dituju
+sms interworking mobile switching center adalah aplikasi msc yang mampu menerima pesan pendek dari jaringan bergerak dan mengirimkannya ke smsc yang tepat
+sms gateway adalah aplikasi sms dimana pesan yang diterima dan dikirimkan menggunakan bantuan gateway device terintegrasi dengan database server yang dapat mendistribusikan pesan sms secara otomatis
+digabungkan dengan bahasa pemrograman baik php maupun asp, bahkan menggunakan aplikasi desktop seperti delphi atau visual basic
+databasenya dapat diakses menggunakan database administration seperti phpmyadmin
+kelebihan dari tool gammu adalah dapat dijalankan menggunakan sistem operasi windows maupun linux, kemudian dari sisi perangkatnya, banyak perangkat yang kompatibel dan gammu menggunakan database mysql sehingga mudah untuk dihubungkan dengan aplikasi web
+dan baik kabel usb maupun serial, semuanya kompatibel dengan gammu
+desain arsitektur sistem gambar 1 desain arsitektur sistem admin menginputkan data anak dan mengatur jadwal untuk imunisasi berikutnya melalui aplikasi
+data diproses oleh gammu sebagai sms gateway untuk dikirimkan ke ponsel masing-masing ibu balita
+proses dan menggambarkan ruang lingkup suatu sistem
+diagram konteks merupakan level tertinggi dari dfd yang menggambarkan seluruh input ke sistem atau output dari sistem
+berikut ini adalah diagram konteks perancangan sistem penyebaran informasi imunisasi kepada ibu dari balita
+diagram overview sistem urutan-urutan proses dari diagram konteks
+hasil perancangan berbasis dekstop yang digunakan untuk mengirimkan informasi pelaksanaan dan kegiatan yang ada di uptd puskesmas kecamatan pontianak barat
+tampilan awal splash program dapat dilihat di gambar 4
+gambar 4 form splash form yang muncul adalah form login untuk masuk ke dalam form utama aplikasi yang dapat dilihat pada gambar 4
+pada form utama yang dapat dilihat pada gambar 6, pada aplikasi terdapat 2 tombol utama untuk menginputkan data anak dan mengatur jadwal dan pengiriman sms informasi pelaksanaan imunisasi kepada ibu balita
+hasil pengujian blackbox dengan hanya menjalankan atau mengeksekusi unit atau 4 dengan yang diinginkan
+metode pengujian perangkat yang dilakukan adalah dengan cara mengidentifikasi kesalahan yang berhubungan dengan kesalahan fungsionalitas perangkat lunak yang tampak dalam kesalahan output
+pengujian login aplikasi meliputi pengujian username dan password
+tujuan dari pengujian adalah membuktikan bahwa tidak ada kesalahan jika masukan tidak valid
+hasil pengujian bisa dilihat pada tabel 1
+tabel 1 pengujian blackbox pada form login pada tabel 2, pengujian input data anak meliputi pengujian untuk menambahkan data anak
+pengujian dilakukan dengan data kosong, sebagian data kosong dan data lengkap tabel 2 pengujian input data anak pada tabel 3, pengujian input data imunisasi meliputi pengujian untuk menambahkan data imunisasi
+pengujian dilakukan dengan data kosong dan data yang sudah ada
+tabel 3 pengujian input data imunisasi c
+kuesioner sejauh mana tujuan dari sebuah program sudah tercapai sesuai rencana atau tidak
+tabel 4 responden kuesioener dilihat pada tabel 5
+sangat setuju : 5 x 13 = 65 setuju : 4 x 19 = 76 kurang setuju : 3 x 0 = 0 tidak setuju : 2 x 0 = 0 sangat tidak setuju : 1 x 0 = 0 total 141 2
+sangat setuju : 5 x 13 = 65 setuju : 4 x 19 = 76 kurang setuju : 3 x 0 = 0 tidak setuju : 2 x 0 = 0 sangat tidak setuju : 1 x 0 = 0 total 141 3
+sangat setuju : 5 x 17 = 85 setuju : 4 x 15 = 60 kurang setuju : 3 x 0 = 0 tidak setuju : 2 x 0 = 0 sangat tidak setuju : 1 x 0 = 0 total 145 4
+sangat setuju : 5 x 15 = 75 setuju : 4 x 17 = 68 kurang setuju : 3 x 0 = 0 tidak setuju : 2 x 0 = 0 sangat tidak setuju : 1 x 0 = 0 total 143 5
+sangat setuju : 5 x 13 = 65 setuju : 4 x 19 = 76 kurang setuju : 3 x 0 = 0 tidak setuju : 2 x 0 = 0 sangat tidak setuju : 1 x 0 = 0s total 141 = 5 x 32 = 160 rumus index % = 𝑇𝑜𝑡𝑎𝑙 𝑆𝑘𝑜𝑟 𝑥 100 sms sebagai media pembantu untuk mengingatkan jadwal imunisasi dan program yang diadakan oleh puskesmas d
+pengujian akurasi hasil yang telah dikeluarkan oleh sistem dan hasil sebenarnya

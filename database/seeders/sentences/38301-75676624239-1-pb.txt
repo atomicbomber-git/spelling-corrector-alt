@@ -1,0 +1,73 @@
+dokumen yang menumpuk dalam bentuk hardcopy dapat menimbulkan suatu masalah, baik dalam penataan, keamanan dokumen maupun ruang penyimpanan dokumen
+selain itu perawatan ekstra diperlukan untuk mencegah kerusakan pada dokumen penting yang disebabkan oleh serangga dan lain-lain
+dengan teknologi sekarang ini dokumen dapat disimpan dalam bentuk file dan sekaligus ukuran file dapat diperkecil untuk meminimalkan media penyimpanan dan penyusunan dokumen dapat ditata dengan baik sehingga pada saat pencarian dokumen menjadi lebih mudah
+file merupakan data digital yang berisi informasi
+untuk memperkecil ukuran file yaitu dengan cara dipadatkan atau biasa disebut dengan kompresi sehingga ukuran file menjadi lebih kecil dari ukuran semula
+pada penelitian ini, metode yang digunakan untuk kompres file adalah lzss yang telah dimodifikasi untuk menghasilkan kompres yang lebih optimal algoritma kompresi lzss modifikasi dikembangkan berdasarkan konsep algoritma kompresi lzss ) serta penambahan pengkodean 
+dari 9 sampel file yang dipilih sebagai data simulasi, diperoleh rata-rata rasio kompresi algoritma lzss adalah 75, 40% dan rata-rata kompresi algoritma lzss modifikasi adalah 67, 86%
+hal ini menunjukkan bahwa algoritman lzss modifikasi menghasilkan tingkat kompresi yang lebih baik
+pendahuluan yang sangat penting, baik dari sisi keamanan, perawatan maupun ruang simpan arsip itu sendiri
+banyak instansi pemerintahan maupun swasta masih menggunakan teknik pengarsipan dengan metode penyimpanan fisik arsip berupa hardcopy sehingga kemanan, perawatan, dan pencarian arsip masih mengalami kesulitan
+untuk mengatasi hal ini, salah satu solusinya adalah arsip disimpan dalam bentuk digital yang dapat dikelola oleh sebuah sistem informasi
+saat ini, sistem informasi dalam dunia teknologi informasi bukanlah hal yang baru
+kita dapat membangun sebuah sistem yang dapat menyimpan arsip dengan kode tertentu agar pencarian arsip dapat dilakukan lebih cepat
+dalam hal memaksimalkan ruang penyimpanan, ukuran arsip juga dapat dipadatkan dengan teknik kompresi dokumen
+salah satu teknik kompresi data yang berbasis dictionary yang banyak digunakan adalah algoritma kompresi lzss
+algoritma kompresi ini merupakan pengembangan dari algoritma kompresi lz77 yang dikembangkan oleh lempel-ziv- storer-szymanski dan telah banyak dikembangkan
+algoritma ini telah dikembangkan dengan beberapa kombinasi untuk optimalisasi kompresi dengan algoritma lainnya, seperti lzw dan huffman–
+selain itu, telah banyak perbaikan dari error yang dihasilkan dari algoritma kompresi lzss untuk menghasilkan algoritma lzss yang lebih optimal, ,–
+algoritma ini juga telah dimodifikasi pada desain dan konsep yang baru,
+dengan mengkodekan substring yang sama dengan string yang tidak dikodekan
+offset adalah banyaknya karakter sampai pointer tertentu dan len adalah panjang string yang cocok 
+len)= yang mewakili karakter setelah pointer ke-1 sepanjang 3 karakter yang sama berikutnya
+jika kita lihat lebih detail, kekuatan algoritma kompresi ini terletak pada pengkodean string atau substring yang cocok 
+perhatikan juga bahwa dapat kita artikan sebagai banyaknya langkah maju dari pointer yang ditetapkan
+hal ini berarti konsep lzss asli tetap dipakai, selanjutnya ditambahkan langkah mudur atau dinamai artinya banyaknya langkah mundur dari pointer yang ditetapkan
+selanjutnya, pada tahap akhir, konsep algoritma kompresi lzss modifikasi ini akan dibuatkan menjadi aplikasi
+pada tahap pertama, teori-teori algoritma lzss dan pengembangan yang telah dilakukan dikaji melalui beberapa jurnal selanjutnya, tahap kedua dinyatakan dalam fase berikut ini:
+model proses pengelolaan arsip dengan sistem untuk model sistem pengelolaan arsip saat arsip diunggah sampai arsip tersimpan diruang penyimpanan 
+pada algoritma kompresi lzss, teks dikodekan sebagai pasangan terurut, yaitu offset adalah banyaknya karakter sampai karakter pada pointer yang ditetapkan dan len adalah panjang string yang cocok
+misalkan diberikan teks asli t:abcdebcddcbb maka dengan konsep algoritma kompresi lzss diperoleh hasil enkode e :abcde dcbb
+perhatikan bahwa teks asli ada 12 karakter dan setelah dienkode dengan algoritma kompresi lzss menjadi 11 karakter
+jika diperhatikan lebih detail maka hanya string yang dapat disimbolkan menjadi artinya setelah karakter ke-1 ada kesamaan sepanjang 3 karakter selanjutnya
+kita dapat megenkode e :abcd b dengan jumlah 9 karakter, lebih sedikit dari output enkode algoritma kompresi lzss
+perhatikan bahwa string dapat dibaca artinya saat pointer pada karakter 5 maka terdapat kesamaan jika mundur 3 langkah
+hal inilah yang melatarbelakangi ide pengembangan konsep modifikasi pada algoritma kompresi lzss
+jadi, pada algoritma kompresi lzss berlaku pengkodean maka pada modifikasinya yang diusulkan berlaku dan 
+algoritma yang diusulkan menggunakan pengkodean dan 
+dengan demikian terjadi 3 kondisi di bawah ini: 1) terdapat dan pada string yang berbeda: jika pengkodean dan terjadi pada string yang berbeda maka output dari pengkodean algoritma lzss modifikasi merupakan gabungan keduanya
+selanjutnya, diberikan contoh teks asli di bawah ini
+dikerjakan dengan algoritma kompresi lzss diperoleh hasil enkode berupa:  0:tes nama kamu lzss adalah 21 karakter
+2) terdapat dan pada string yang sama dengan panjang sama: jika pengkodean dan terjadi pada string yang sama dengan panjang sama maka output dari pengkodean algoritma lzss modifikasi adalah pengkodean 
+selanjutnya, diberikan contoh teks asli di bawah ini
+ 0:nama kamu  10:kamu rama dikerjakan dengan algoritma kompresi lzss diperoleh hasil enkode berupa: lzss adalah 16 karakter
+jika, dikerjakan pada algoritma kompresi lzss yang diusulkan menghasilkan output:  0:nama kamu lzss modifiksi yang diusulkan adalah 16 karakter
+perhatikan bahwa pada algoritma kompresi lzss modifikasi pada string rama dapat dikodekan atau 
+3) terdapat dan pada string yang sama dengan panjang berbeda: jika pengkodean dan terjadi pada string yang sama dengan panjang berbeda maka output dari pengkodean algoritma lzss modifikasi merupakan hasil pengkodean terpanjang yang dihasilkan dari keduanya
+selanjutnya, diberikan contoh teks asli di bawah ini
+ 0:kamu makan  11:kamu nakal perhatikan bahwa teks ini terdiri atas 21 karakter
+jika dikerjakan dengan algoritma kompresi lzss diperoleh hasil enkode berupa: kompresi lzss modifikasi yang diusulkan akan menghasilkan output enkode: lzss modifiksi adalah 16 karakter
+perhatikan bahwa pada algoritma kompresi lzss pada string dienkode menjadi yang berarti hanya 3 karakter yang sama dikodekan
+sedangkan, pada algoritma kompresi lzss modifikasi pada string dapat dikodekan 
+jadi pengkodean terpanjang diperoleh pada kode 
+ maka algoritma kompresi lzss yang diusulkan sama dengan algoritma kompresi lzss
+pada faktanya, semakin banyak string atau kata yang terdapat dalam satu dokumen, pasti semakin banyak string atau kata yang berulang sehingga konsep algoritma kompresi lzss modifikasi dapat diterapkan agar pengkompresan data menjadi lebih optimal d
+simulasi perbandingan algoritma kompresi lzss dan algoritma kompresi lzss modifikasi pada penelitian ini, perbandingan algoritma kompresi lzss dan algoritma kompresi lzss modifikasi akan dinyatakan dalam rasio kompresi
+kami menggunakan definisi rasio kompresi c dengan persamaan mpres  terkompresi) adalah 40 karakter
+selanjutnya, setelah dikompresi ukurannya menjadi 25 karakter
+dengan demikian, rasio kompresi file itu adalah 62, 5%c 
+perhatikan bahwa semakin kecil rasio kompresi maka tingkat kompresi semakin baik
+berikut ini diberikan original teks asli 
+perbandingan hasil kompresi algoritma kompresi lzss dan algoritma kompresi lzss modifikasi yang diusulkan dapat dilihat pada tabel 1
+tabel i algoritma kompresi 21:aku nasi lzss 75 0, 86 87 modifikasi 66 0, 76 87 kompresi algoritma lzss modifikasi lebih kecil 10% dari rasio kompresi algoritma lzss yang berarti algoritma lzss modifikasi memiliki tingkat kompresi yang lebih baik
+sebelum file disimpan diruang penyimpanan maka file dikompres terlebih dahulu dengan algoritma lzss modifiksi
+jika file yang dicari telah ditemukan maka selanjutnya tekan button 
+berikut ini adalah tampilan aplikasi setelah melakukan proses kompresi salah satu file
+3 tampilan aplikasi selanjutnya, berikut ini tampilan aplikasi untuk kompresi pada beberapa file inputan
+4 tampilan aplikasi tabel output simulasi kompresi file
+berdasarkan tabel 2, ukuran data hasil kompresi lzss modifikasi cendrung selalu lebih kecil dari pada hasil kompresi algoritma lzss
+dari 9 sampel file diperoleh rata-rata rasio kompresi algoritma lzss adalah 75, 40% dan rata-rata kompresi algoritma lzss modifikasi adalah 67, 86%
+hal ini menunjukkan bahwa algoritman lzss modifikasi menghasilkan tingkat kompresi yang lebih baik
+dari 9 sampel file yang dipilih sebagai data simulasi, diperoleh rata-rata rasio kompresi algoritma lzss adalah 75, 40% dan rata-rata kompresi algoritma lzss modifikasi adalah 67, 86%
+hal ini menunjukkan bahwa algoritman lzss modifikasi menghasilkan tingkat kompresi yang lebih baik
+ucapan terima kasih / acknowledgment lembaga penelitian dan pengabdian masyarakat stmik atma luhur

@@ -1,0 +1,10 @@
+kademik berbasis android menggunakan webservice novi nuari 1) fakultas teknik universitas tanjungpura 1) email : novi.nuari2@gmail.com engineering, university tanjungpura has information technology in every process information is very important in becoming a arrangement data and information that is appropriate to the needs of the user
+the need for information technology poses a profound impact on the process of institutional administration
+it takes a technology that is able to apply mobile information system so that the application of academic and academic information system design can be improved
+currently, the webservice is designed to support interoperability and interaction therefore developed an academic information system application android connected by the academic environment of the college of engineering, university tanjungpura informatics program
+that the application can be used for the process of inputting lirs and the trust online
+application can help users to get information quickly, safely and easily
+contohnya dalam penerapan administrasi akademik dilingkup memenuhi dan menunjang kegiatan teknik universitas tanjungpura
+memberikan informasi yang dibutuhkan kampus melakukan kegiatan, dengan memanfaatkan teknologi internet tiap sudut ruang informasi kampus
+sehingga telepon pintar tersebut bukan hanya sebagai media untuk menelpon, menulis pesan singkat dan mengakses situs-situs jejaring sosial namun juga mampu berperan aktif dalam sektor dunia informasi
+berfungsi dalam membantu memberikan informasi akademik melalui layanan platform android demi meningkatkan afektivitas informasi administrasi di lingkungan akademik fakultas teknik akademik prosedur prosedur yang saling berhubungan, berkumpul bersama sama tertentu”

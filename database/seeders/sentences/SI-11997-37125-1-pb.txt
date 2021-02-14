@@ -1,0 +1,78 @@
+rang untuk sementara waktu dengan tujuan menikmati kegiatan pertamasyaan dan rekreasi atau memenuhi keinginan yang beraneka ragam
+aplikasi yang dapat membantu untuk mendapatkan informasi serta penyedia jasa paket wisata sangat penting bagi calon turis yang sedang melakukan perjalanan wisata
+aplikasi yang dibangun menggunakan teknologi m- commerce yang merupakan proses bisnis dalam melakukan transaksi pembelian dan penjualan atau pertukaran barang, jasa dan informasi melalui jaringan telekomunikasi mobile
+aplikasi menyediakan informasi perjalanan pariwisata kota singkawang untuk pemesanan paket wisata yang terdiri dari pemilihan lokasi wisata dan hotel, pemesanan tiket tempat wisata, transportasi hingga konfirmasi pembayaran tiket paket wisata, selain itu aplikasi ini dibangun berbasis android untuk memudahkan penggunanya
+pada hasil pengujian yang dilakukan, aplikasi m- commerce yang diuji dengan metode uat yang dihitung dengan perhitungan skala likert memiliki akurasi dengan nilai sebesar 24, 2 dalam memberikan hasil aspek visual dan 23, 2 pada aspek penilaian aplikasi
+aplikasi ini juga didukung dengan teknologi virtual reality yang berguna untuk menggambarkan atau menampilkan situasi tempat wisata secara simulasi, dibantu dengan menggunakan tools tourweaver
+sistem yang telah dibangun dapat membantu para turis dalam maupun luar negeri untuk mendapatkan informasi perjalanan pariwisata kota singkawang serta proses pemesanan paket wisata yang terdiri dari pemilihan lokasi wisata dan hotel, pemesanan tiket tempat wisata, transportasi serta konfirmasi pembayaran paket wisata
+pendahuluan perjalanan yang dilakukan orang untuk sementara waktu, yang diselenggarakan dari suatu tempat ke tempat lain meninggalkan tempatnya semula, dengan suatu perencanaan dan dengan maksud bukan untuk berusaha atau mencari nafkah di tempat yang dikunjungi, tetapi semata-mata untuk menikmati kegiatan pertamasyaan dan rekreasi atau untuk memenuhi keinginan yang beraneka ragam
+orang yang melakukan pariwisata juga disebut sebagai turis
+seiring perkembangan dunia pariwisata calon turis menginginkan kemudahan bertransaksi dalam membeli paket wisata
+proses pemesanan paket wisata yang termasuk didalamnya pemilihan lokasi wisata dan hotel, pemesanan tiket tempat wisata, tour guide, transportasi serta konfirmasi pembayaran paket wisata adalah contoh dari kemudahan bertansaksi bagi calon turis
+supaya kemudahan bagi calon turis dalam membeli paket wisata bisa tercapai, salah satu cara yaitu dengan memanfaatkan teknologi m-commerce
+m- commerce merupakan untuk proses bisnis dalam melakukan transakasi pembelian dan penjualan atau pertukaran barang, jasa dan informasi melalui jaringan telekomunikasi mobile 
+satunya yaitu business to custumer yang artinya transaksi ritel dengan pembeli individu, perusahaan yang menawarkan jasa pariwisata kepada calon konsumen yang ingin melakukan perjalanan pariwisata
+aplikasi m-commerce diimplementasikan pada platform android, karena sistem operasi ini telah digunakan oleh lebih dari 70% pengguna smartphone
+wisata, juga dapat diterapkan pada wisata dalam negeri
+salah satu tempat wisata dalam negeri yang sangat potensial untuk terus dikembangkan dan diekspos adalah tepat wisata yang berdada di provinsi kalimantan barat
+banyak tempat wisata di provinsi ini yang elok dan alami yang belum terjamah campur tangan manusia serta menghidangkan suasana asri pada tempat pariwisata tersebut, seperti di kotamadya singkawang.turis lokal maupun asing yang mengunjungi tempat wisata di provinsi kalimantan barat tentunya memerlukan suatau kemudahan akses dan informasi dalam perjalanan wisatanya
+suatu rancang bangun aplikasi m-commerce pariwisata kota singkawang berbasis android yang dapat memberikan kemudahan bagi calon turis dalam berpariwisata
+aplikasi ini juga terdapat fitur tambahan teknologi virtual reality yang berguna untuk membuat pengguna dapat berinteraksi dengan suatu lingkungan yang disimulasikan oleh komputer yaitu suatu lingkungan sebenarnya yang ditiru atau benar-benar suatu lingkungan yang hanya ada dalam imajinasi
+pengguna smartphone dapat menggunakan aplikasi ini untuk mendapatkan informasi terkait dengan tempat-tempat wisata yang akan dikunjunginya serta dapat memilih dan membeli paket wisata yang telah disediakan melalui mobile
+tujuan penelitian ini adalah untuk merancang dan membangun suatu aplikasi m- commerce pariwisata kota singkawang berbasis android yang mana aplikasi ini dapat membantu para calon turis lokal maupun asing untuk mendapatkan informasi tour pariwisata singkawang
+digunakan berupa data yang terdiri dari informasi tentang pariwisata kota singkawang yang terdiri dari tempat penginapan, transportasi, kuliner, gambar tempat wisata dan tour guide
+unified modeling language, entity relationship diagram
+kemudian untuk melakukan uji validitas, rancang bangun aplikasi program studi teknik informatika, jurusan teknik elektro, universtas tanjungpura pontianak e-mail: bahar.escape@yahoo.com1, y_suanda@yahoo.com2, helfi_nasution@yahoo.com3 penelitian, 2) perangkat lunak, 3) perangkat keras
+adapun langkah-langkah penelitian ini dijelaskan melalui diagram alir sebagai berikut: sebagai berikut: pengguna terhadap sistem yang akan dibuat
+perancangan sistem melakukan desain terhadap aplikasi yang akan dibuat agar aplikasi berjalan sesuai kebutuhan pengguna, melalui perancangan, analisa, observasi, perancangan uml dan merancang antarmuka sistem untuk memodelkan bentuk keseluruhan dari aplikasi
+pembuatan perangkat lunak tahap ini merupakan tahap dimana perangkat lunak akan dibuat meliputi pembuatan antarmuka pengguna, proses pengolahan input, dan penampilan output
+pengujian sistem pengujian sistem dilakukan untuk mengetahui apakah antar subsistem sudah dapat terkoneksi sesuai rancangan
+pengujian sistem ini dilakukan menggunakan metode pengujian blackbox sebagai pengujian dari segi pengembang dan menggunakan kuisioner sebagai pengujian pengguna
+dan mengidentifikasi kesalahan pada sistem yang dibuat sehingga sistem dapat diperbaiki
+hasil analisis pengujian ini juga dapat digunakan untuk pengembangan sistem agar dapat berjalan lebih baik
+hasil dan analisa menunjukan beberapa hasil sebagai berikut: 1) hasil tampilan antarmuka aplikasi 1.1
+tampilan antarmuka halaman home aplikasi android dimana ini adalah halaman utama dari aplikasi west borneo inbound tour
+halaman ini adalah halaman yang akan muncul pertama kali apabila kita menekan aplikasi west borneo inbound tour yang ada pada smartphone
+halaman utama ini terdiri dari header, cek status tiket, pilihan paket wisata, about aplikasi dan footer
+tampilan antarmuka halaman paket wisata pada halaman paket wisata ini aplikasi akan memperkenalkan tempat wisata yang dipilih oleh user
+pada halaman ini aplikasi memperkenalkan tempat wisata dari sejarahnya, mendeskripsikan situasi yang ada ditempat wisata tersebut
+user juga dapat melihat situasi dan kondisi yang ada di tempat wisata tersebut dengan menggunakan menu lihat detail, di menu tersebut user dapat mengetahui dengan jelas apa yang terlihat ditempat wisata tersebut menggunakan teknologi virtual reality yang dapat menggambarkan dengan detail bagaimana pemandangan yang ada ditempat wisata tersebut
+user juga dapat mengetahui berapa biaya yang dibutuhkan jika ingin berkunjung ketempat wisata tersebut, biaya yang digunakan antara lain untuk transportasi, penginapan, tiket masuk tempat wisata, tour guide + dokumentasi dan konsumsi
+halaman antarmuka formulir pemesanan paket wisata halaman formulir pemesan adalah halaman yang berguna untuk memesan paket wisata yang disajikan oleh aplikasi
+user harus melengkapi data atau field yang disediakan oleh aplikasi
+setelah mengisi field yang disediakan oleh aplikasi dengan lengkap dan benar, user akan memasuki pada halaman antarmuka pre-order
+halaman ini merupakan tahap untuk user melakukan konfirmasi pembayaran, dikarenakan pada halaman ini aplikasi memberikan nomor pre-order yang untuk digunakan sebagai persyaratan utama pada proses konfirmasi pemesanan paket wisata
+dan pada halaman ini juga ada perintah untuk mengirim atau mentransfer uang sesuai jumlah yang tertera sebelumnya ke rekening yang dipilih saat melakukan proses pemesanan tiket paket wisata
+wisata user wajib mengisikan dan melengkapi data atau field yang kosong dengan benar
+data atau field yang harus diisi oleh user sebegai berikut: masukkan nopre-order, asal bank, nama pengirim, jumlah dan upload foto bukti transfer
+tampilan antarmuka konfirmasi pemesanan paket wisata pada halaman adalah halaman utama dari web service m-connerce pariwisata kota singkawang ini
+halaman ini yang akan muncul pertama kali apabila kita mengakses alamat http://pariwisata.novalherdinata.net/travel pada konfirmasi, laporan dan admin sebagai profile
+halaman antarmuka master data halaman ini termasuk pada halaman master data, ketika kita mengklik menu master data halaman ini lah yang keluar pertama kalinya
+pada halaman master data ini berisikan paket wisata, paket tempat dan bank
+halaman paket wisata ini merupakan halaman yang dimana nantinya admin dapat view data, mengupdate, edit dan delete
+halaman ini berisikan paket paket wisata yang ditawarkan oleh aplikasi
+halaman paket wisata ini berisikan no, id paket, nama paket, harga paket dan foto paket yang dimana data data ini semua harus diinputkan oleh admin untuk dapat memunculkan isi konten yang ada diaplikasi android
+tampilan antarmuka master data 2.3 tampilan antarmuka halaman profile halaman profile adalah halaman dimana admin dapat merubah identitas admin nya, seperti nama, email, password dan fotonya
+tidak perlu membuka database untuk mengedit status admin tersebut
+pada halaman ini hanya admin hanya sebatas melakukan update atau pengkinian data
+kemudian pada halaman ini juga terdapat menu sign out yang berguna admin untuk keluar dari web service dengan aman
+pengujian uat terhadap aplikasi pengujian yang digunakan untuk menguji sistem adalah dengan menggunakan metode pengujian user acceptance test
+dimana metode pengujian user acceptance test ini berfokus pada persyaratan fungsional perangkat lunak
+1) pengujian aspek penilaian aplikasi hasil pengujian yang disebarkan melalui borang pada tanggal 20 agustus 2015 kepada 5 orang responden dapat dilihat pada tabel berikut: responden item 1 3 3 4 4 3 4 21 2 4 4 4 3 3 4 22 3 4 3 4 4 3 4 22 4 5 4 4 4 5 4 26 5 4 4 4 5 4 4 25 nilai rata-rata hasil pengujian 23, 2 dari pengujian yang dilakukan, perseberan nilai hasil pengujian aspek penilaian aplikasi tingkat akses administrator adalah 2 orang responden menyatakan fungsi sistem sangat baik, 3 orang responden menyatakan fungksi sistem baik, tidak ada responden yang menyatakan fungsi sistem kurang baik dan tidak baik 2) pengujian aspek visual hasil pengujian yang disebarkan melalui borang pada tanggal 20 agustus 2015 kepada 5 orang responden dapat dilihat pada tabelberikut: 1 4 4 3 5 5 4 25 2 4 4 4 4 4 4 24 3 4 4 4 3 3 4 22 4 5 5 5 5 5 4 29 5 4 4 3 4 3 3 21 nilai rata-rata hasil pengujian 24, 2 dari pengujian yang dilakukan, perseberan nilai hasil pengujian aspek penilaian visual tingkat akses pengguna adalah 3 orang responden menyatakan fungsi sistem sangat baik, 2 orang responden menyatakan fungksi sistem baik, tidak ada responden yang menyatakan fungsi sistem kurang baik dan tidak baik
+aspek visual bagi pengguna maupun admin baik, terlihat dengan nilai yaitu 23, 2 untuk hasil pengujian aspek penilaian aplikasi dan nilai 24, 2 untuk hasil pengujian aspek visual dengan nilai itu diartikan bahwa aplikasi ini mempunyai nilai yang baik untuk diimplementasikan
+commerce pariwisata kota singkawang yang telah dilakukan adalah sebagai berikut: 1
+pada aspek penilaian fungsi penilaian aplikasi fungsi manajemen data dan hasil algoritma genetika dalam menentukan posisi barang bernilai baik untuk di implementasikan dan fungsi sistem lainnya bernilai sangat baik untuk diimplementasikan
+hasil pengujian dengan borang evaluasi pada aspek penilaian aplikasi tingkat akses administrator 40% responden menyatakan fungsi sistem sangat baik, 60% responden menyatakan fungsi sistem baik, tidak ada responden yang menyatakan fungsi sistem kurang baik dan tidak baik
+pada aspek visual fungsi tingkat kemudahan melihat data dan respon aplikasi terhadap input yang dilakukan bernilai baik untuk diimplementasikan dan fungsi sistem lainnya bernilai sangat baik untuk diimplementasikan
+hasil pengujian dengan borang user acceptance test evaluasi pada aspek visual aplikasi tingkat akses pengguna adalah 60% responden menyatakan fungsi sistem sangat baik, 40% responden menyatakan fungsi sistem baik, tidak ada responden yang menyatakan fungksi sistem kurang baik dan tidak baik
+hasil pengujian fungsi sistem pada akses admin adalah sebagai berikut: a
+20% responden menyatakan sistem sangat baik diimplementasikan
+adalah 35 dengan interpretasi sistem bernilai baik diimplementasikan
+hasil pengujian fungsi sistem pada akses pengguna adalah sebagai berikut: a
+60% responden menyatakan sistem sangat baik diimplementasikan
+adalah 17.2 dengan interpretasi sistem bernilai sangat baik diimplementasikan
+berbasis android, maka dapat disimpulkan bahwa aplkasi m-commerce pariwisata kota pariwisata ini dibagun berbasis android
+pada beberapa tempat wisata dibuat virtual reality menggunakan tool tourweaver dengan format gambar photosphere .hasil pengujian menggunakan metode uat menunjukkan bahwa aplikasi m-commerce pariwisata kota singkawang dapat diimplementasikan, karena memudahkan pengguna untu mengoprasionalkan aplikasi
+begitu juga dengan hasil pengujian menggunakan metode likert menunjukkan bahwa aplikasi m-commerce pariwisata kota singkawang dapat diimplementasikan, karena menu dan fungsi dalam aplikasi tersebut berjalan baik dan sesuai dengan fungsinya
+dalam maupun luar negeri untuk mendapatkan informasi perjalanan pariwisata kota singkawang serta proses pemesanan paket wisata yang terdiri dari pemilihan lokasi wisata dan hotel, pemesanan tiket tempat wisata, transportasi serta konfirmasi pembayaran paket wisata, sesuai dengan tujuan penelitian yaitu merancang dan membangun suatu aplikasi m-commerce pariwisata kota singkawang berbasis android
+keterbatsan yang ada dalam penelitian ini adalah belum terdapatnya fitur e-payment, sehingga penelitian selanjutnya perlu mengembangkane-payment agar dapat melakukan pembayaran langsung pada aplikasi tersebut.fiturvirtual reality yang dibangun dalam aplikasi belum memasukan aspek lain seperti kuliner, perhotelan, ataupun monument bersejarah

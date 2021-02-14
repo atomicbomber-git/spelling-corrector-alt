@@ -1,0 +1,128 @@
+remote control saat ini sudah bukan lagi menjadi barang mainan yang mahal bagi kebanyakan kalangan
+berbagai kalangan usia dapat memainkan perangkat ini dan disediakan dalam berbagai macam jenis remote control
+semakin pesat kemajuan membuat berkembangnya teknologi remote control rakitan dengan alternatif perangkat arduino juga semakin berkembang
+arduino yang merupakan kit modul elektronik mini dapat diatur dengan mudah karena cukup dengan memasangkan ke perangkat mobil, maka terciptalah remote control baru yang mudah untuk dikendalikan
+penggunaan arduino ini dapat disatukan dengan perangkat smartphone android sebagai device pengendali perangkat
+pada penelitian ini akan dibangun mobil remote control yang dirancang dengan menggunakan arduino sebagai otak mesin dan dikendalikan dengan smartphone android yang terhubung dengan koneksi bluetooth
+mobil remote control ini juga akan terpasang sebuah ip camera yang terkoneksi sambungan wifi dan dikendalikan juga oleh smartphone android dalam satu aplikasi
+tujuan dari pembuatan aplikasi ini adalah untuk menghasilkan aplikasi android yang mampu memberikan kendali perintah pada mobil remote control arduino melalui 2 koneksi berbeda yaitu bluetooth sebagai pengendali gerak dan koneksi wifi untuk mengendalikan ip camera yang terpasang pada mobil
+pembuatan perangkat yang menggunakan rekayasa ic pada mesin remote control dan aplikasi ini sebagai alternatif baru yang mudah dikembangkan untuk remote control karena seringnya ditemukan perangkat remote control yang mahal dengan lebih dari 1 koneksi dan sulit dijangkau dan dikembangkan oleh masyarakat serta tidak kompatibel dengan kenyamanan pengguna
+arduino yang mudah dikembangkan bahasa pemrogramannya dan perakitannya dapat meminimalisir kesulitan untuk membuat perangkat remote control sendiri yang open source dan mudah berubah-ubah apalagi jika perangkat tersebut ditambahkan sebuah kamera pemantau
+dari hasil pengujian, dapat diketahui jarak terjauh mobil dapat dikendalikan dari perangkat android adalah 30 meter pada ruang tanpa dinding dan jarak kendali kamera dengan sambungan wifi adalah 50 meter
+perbedaan jarak ini tidak akan saling mengganggu kinerja masing-masing perangkat
+pendahuluan remote control atau disebut juga pengendali jarak jauh adalah sebuah alat elektronik yang digunakan untuk mengoperasikan suatu barang elektronik dari jarak jauh
+umumnya remote control digunakan untuk mengendalikan barang tertentu dengan memberikan perintah dari kejauhan
+penggunaan remote control sudah semakin pesat
+alternatif sederhana jika ingin membuat suatu remote control adalah dengan menggunakan suatu modul elektronik yang kini sudah banyak dipasarkan yaitu arduino arduino adalah kit modul elektronik mini yang lengkap dan sudah siap pakai serta mudah untuk dikembangkan
+penggunaan dari arduino dapat digabungkan dengan dikendalikan oleh perangkat smartphone
+perangkat smartphone yang sering dijumpai pada arduino adalah perangkat dengan sistem operasi android
+fungsi dari android yang dapat menjadi remote pengendali dan arduino sebagai pengganti pengendali perintah mesin dapat dilakukan dengan sambungan media koneksi berupa wifi atau bluetooth
+penggunaan media koneksi ini seringkali menemukan beberapa masalah, misalnya dari sisi alat yang tidak cocok atau dari sisi biaya yang mahal serta kesulitan dalam melakukan pemberian coding pada perangkat arduino dan android itu sendiri
+alternatif dalam penelitian ini adalah membedakan media koneksi yang digunakan untuk membangun perangkat rc dari arduino dan android seperti misalnya dengan memasangkan robot mobil arduino berkoneksi bluetooth dengan modul ip camera dengan koneksi wifi
+belum banyak diketahui apakah perbedaan dari dua koneksi tersebut dapat menghalangi kinerja dari masing-masing perangkat atau tidak
+remote control kemajuan jaman juga mengiringi perkembangan dunia permainan anak-anak
+jika dahulu kita mengenal permainan sederhana seperti mobil-mobilan yang ditarik dengan tali atau dengan menggunakan pegas, lain lagi dengan mainan saat ini
+kemajuan jaman telah menghadirkan pengganti kedudukan mainan mobil remote control versi lama tersebut
+smartphone gary b, thomas j, & misty e, smartphone merupakan piranti pintar gabungan dari pda dan telepon seluler
+dalam kamus oxford american, smartphone adalah ponsel dengan pda yang dapat disetarakan dengan perangkat komputer mini
+definisi mutlak mengenai smartphone ini belum jelas tergambar
+rancang bangun aplikasi mobil remote control pemantau berbasis android pada mikrokontroler arduino mfaqihdz@gmail.com 2 untuk mengembangkan android, dibentuk oha, konsorsium dari 34 perusahaan piranti keras, piranti lunak, dan telekomunikasi, termasuk google, htc, intel, motorola, qualcomm, t-mobile, dan nvidia
+bluetooth bluetooth adalah spesifikasi industri untuk jaringan kawasan pribadi tanpa kabel
+bluetooth menghubungkan dan dapat dipakai untuk melakukan tukar-menukar informasi antar peralatan
+spesifiksi dari peralatan bluetooth ini dikembangkan dan didistribusikan oleh kelompok bluetooth special interest group yang beroperasi dalam pita frekuensi 2, 4 ghz dengan menggunakan sebuah frequency hopping traceiver 
+wi-fi wifi merupakan singkatan dari wireless fidelity
+wifi adalah sebuah teknologi terkenal yang memanfaatkan peralatan elektronik untuk bertukar data secara nirkabel melalui sebuah jaringan komputer, termasuk koneksi internet berkecepatan tinggi
+wi-fi alliance mendefinisikan wi-fi sebagai produk jaringan wilayah lokal nirkabel apapun yang didasarkan pada standar institute of electrical and electronics engineers 802.11
+arduino muhammad syahwil dalam bukunya menjelaskan, salah satu vendor yang sampai saat ini terkenal dalam hal mikrokontroler adalah atmel dari italia
+atmel mengembangkan pembuatan perangkat keras yang bermikrokontroler dengan nama arduino arduino adalah kit elektronik atau papan rangkaian elektronik open source yang di dalamnya terdapat komponen utama yaitu sebuah chip mikrokontroler dengan jenis avr dari perusahaan atmel
+bagi penggemar elektronika, arduino adalah perangkat keras yang memudahkan perancangan robot mini yang open source
+berbagai macam kelebihan ditanamkan dalam perangkat arduino ini yang membuatnya mudah untuk dirangkai dengan alat elektronika lain dan diprogram dengan bahasa pemrograman c/c++
+perangkat pendukung selain arduino itu sendiri, terdapat beberapa perangkat pendukung lain seperti: 1
+kamera sebagai alat perekam gerakan dan sebagai bagian dari peralatan perangkat penelitian, kamera ini dibutuhkan merekam aktivitas dan memproyeksikan gambar-gambar tersebut pada android
+pada kebutuhan ini yang digunakan adalah modul kamera dari arduino yang mendukung jaringan koneksi wifi yaitu ip camera
+ic sirkuti terpadu atau integrated circuit adalah komponen dasar elektronika yang terdiri dari resistor, transistor dan lain- lain
+ic adalah peralatan yang digunakan sebagai otak dari suatu perangkat elektronika
+pada saat sekarang ini, penggunaan ic pada mobil rc sudah banyak digunakan karena demi kecanggihan suatu mobil rc tersebut
+modul bluetooth hc-06 modul bluetooth adalah kit modul elektronik yang digunakan untuk mengirimkan data serial via bluetooth
+modul bt ini terdiri dari dua jenis yaitu master dan slave
+mode master adalah mode yang dapat diubah setting perangkatnya mulai dari nama bluetooth, password, baud rate
+uml unified modeling language adalah keluarga notasi grafis yang didukung oleh model-model tunggal, yang membantu pendeskripsian dan desain perangkat lunak, khususnya sistem yang dibangun menggunakan pemrograman berorientasi obyek 
+unified modelling language adalah bahasa pemodelan untuk sistem atau perangkat lunak yang berpradigma berorientasi objek
+adi nugroho, 
+eclipse abdul kadir dalam bukunya, eclipse adalah sebuah ide untuk mengembangkan perangkat lunak dan dapat dijalankan di semua platform 
+berikut ini adalah sifat dari eclipse: a
+multi-platform: target sistem operasi eclipse adalah microsoft windows, linux, solaris, aix, hp-ux dan mac os x
+mulit-language: eclipse dikembangkan dengan bahasa pemrograman java, akan tetapi eclipse mendukung pengembangan aplikasi berbasis bahasa pemrograman lainnya, seperti c/c++, cobol, python, perl, php, dan lain sebagainya
+multi-role: selain sebagai ide untuk pengembangan aplikasi, eclipse pun bisa digunakan untuk aktivitas dalam siklus pengembangan perangkat lunak, seperti dokumentasi, test perangkat lunak, pengembangan web, dan lain sebagainya
+desain arsitektur sistem desain arsitektur sistem merupakan sekumpulan dari model-model terhubung yang menggambarkan sifat dasar dari sebuah sistem
+setiap komponen terdiri dari blok pembangun sistem yang dapat dibangun dengan cara menyatukan sekumpulan komponen berdasarkan aturan tertentu
+diagram use case diagram use case ini menggambarkan perilaku dari aktor yang terlibat dalam aplikasi
+dalam aplikasi ini user dapat melakukan beberapa perlikau meliput pengaturan koneksi smartphone ke robot, memilih mode kendali robot, serta menampilkan bantuan serta tentang aplikasi
+diagram use case pada diagram use case dapat terlihat bahwa user dapat melakukan beberapa aktivitas dengan aplikasi
+untuk memulai aplikasi user dapat melakukan sambungan koneksi antara smartphone dengan mobil, kemudian user dapat memilih menu pilihan kendali mobil berupa kendali manual atau kendali dengan sensor accelerometer
+pada setiap menu kendali, pengguna dapat memasukan perintah untuk koneksi ke kamera yang terpasang pada mobil
+selain itu, pengguna juga dapat memilih menu bantuan dan tentang aplikasi
+activity diagram activity diagram menggambarkan berbagai alir aktivitas dalam sistem yang sedang dirancang, bagaimana mengawali, kejadian atau keputusan yang mungkin terjadi, dan bagaimana mengakhiri
+dalam activity diagram, terlihat alur aktivitas user saat menggunakan aplikasi mulai dari masuk ke menu utama, memilih koneksi mobil dan koneksi kamera, memilih mode kendali, memilih bantuan aplikasi dan memilih tentangg aplikasi
+perancangan struktur antarmuka aplikasi pengendali mobil remote control ini dibuat dengan aplikasi berbasis android sehingga memiliki beberapa layout yang disesuaikan dengan kebutuhan aplikasi
+struktur antarmuka dari aplikasi dapat dilihat pada gambar 5 berikut : gambar 5
+perancangan pengujian pengujian sistem merupakan hal yang penting dari tahapan pembangunan perangkat lunak
+metode pengujian yang akan dilakukan pada penelitian ini adalah dengan menggunakan metode black box testing
+dengan metode black box, cara pengujiannya hanya dilakukan dengan menjalankan atau mengeksekusi unit atau modul, dan diamati hasilnya, apakah hasil dari unit atau modul tersebut sesuai dengan proses bisnis atatu tujuan
+perancangan kompatibilitas aplikasi pengujian kompatibilitas aplikasi akan dilakukan dengan memasang aplikasi pada beberapa smartphone android lain yang berbeda-beda
+dalam pengujian ini akan diamati apakah pada perangkat smartphone android lain, aplikasi ini dapat berjalan dengan baik atau tidak
+4 implementasi pada perangkat dilakukan dengan merangkai perangkat hingga melakukan proses coding pada arduino dan android hingga menjadi satu kesatuan perangkat yang diinginkan pada penelitian ini
+implementasi pada perangkat dilakukan dengan melakukan rekayasa ulang pada perangkat mobil rc yang terdapat ic atau integrated circuit
+kegunaan dari merakayasa ic pada perangkat mobil adalah untuk melakukan alih fungsi yang tadinya dilakukan ke remote asli mobil, menjadi terpasang dengan arduino yang menjadi otak mesin
+implementasi rekayasa rc kemudian memasukan baris coding ke arduino dapat dilakukan secara terpisah dari perangkat mobil
+proses coding ini dapat dilakukan sementara dengan mengatur perintah dari perangkat lokal yaitu laptop agar tidak terlalu repot dan menghabiskan waktu tenaga batre pada mobil
+pemberian coding ini ditujukan untuk menananmkan perintah dan pengaturan koneksi yang akan diterima perangkat mobil untuk bergerak
+hasil perancangan aplikasi aplikasi yang dirancang merupakan aplikasi mobil remote control pemantau berbasis android pada mikrokontroler arduino yang bertujuan untuk mengendalikan mobil rc bermikrokontroler arduino melalui smartphone android
+antarmuka aplikasi yang dirancang terdiri dari beberapa menu yang dapat diakses oleh pengguna aplikasi
+adapun perancangan antarmuka tersebut adalah sebagai berikut
+antarmuka halaman utama muncul ketika pengguna membuka aplikasi
+di dalam antar muka ini pengguna dapat memilih beberapa menu yang tersedia yaitu menu kendali robot, bantuan, dan about
+gambar aplikasi pada tampilan halaman utama dapat dilihat pada gambar 4.3
+antarmuka menu utama aplikasi tampilan antarmuka koneksi bluetooth ini ada pada saat pengguna melakukan koneksi bluetooth untuk melakukan kendali gerak mobil robot
+antarmuka device list koneksi bluetooth antarmuka kendali mobil secara manual atau seperti menggunakan remote control, dapat dipilih pengguna saat berada pada halaman utama aplikasi
+dalam halaman kendali manual ini, tampilan aplikasi dibuat dengan posisi landscape dan terdapat tombol gerak maju, mundur, kanan, kiri dan berhenti
+serta gerakan kamera ke atas, bawah, kanan dan kiri
+tampilan antarmuka kendali manual antarmuka kendali accelerometer pada aplikasi dirancang menggunakan sensor accelerometer yang ada pada smartphone pengguna
+kendali ini didasarkan kemiringan perangkat smartphone untuk menggerakan robot mobil
+pada halaman ini juga terdapat tombol kendali kamera
+5 antarmuka bantuan muncul ketika pengguna memilih tombol bantuan pada halaman utama
+tampilan halaman bantuan ini berisi fungsi aplikasi, spesifikasi minimum, perangkat arduino minimum dan tipe kamera minimum, dan cara menggunakan aplikasi
+tampilan antarmuka halaman bantuan aplikasi antarmuka halaman tentang aplikasi, menampilkan informasi programmer yang merancang aplikasi serta versi aplikasi
+terdapat logo developer akan menampilkan pop-up informasi pembuat aplikasi
+tampilan antarmuka halaman tentang aplikasi c
+pengujian black box dalam aplikasi pengendali pada penelitian ini, dilakukan pengujian dengan metode black box testing
+pengujian dilakukan pada setiap event yang terdapat pada sistem dan logika-logika yang diberikan ke robot mobil
+koneksi kamera menampilkan keadaan sekitar perangkat dengan memasukan alamat ip default ke setiap mode kendali mobil rc berhasil menampilkan kendali mobil rc secara manual dengan tombol berhasil 4
+menampilkan kendali mobil rc dengan menggunakan sensor accelerometer berhasil berhasil tabel 2
+pengujian koneksi bluetooth no jenis pengujian hasil yang diaharapkan hasil uji 1
+menyalakan koneksi bluetooth pada android bluetooth menyala berhasil bluetooth mati berhasil list perangkat berpasangan berhasil koneksi tersambung berhasil koneksi terputus berhasil no jenis pengujian hasil yang diharapkan hasil uji 1
+menyambungkan kamera ip dengan smartphone kamera tersambung berhasil 2
+berhasil pengujian koneksi kamera berhasil sesuai dengan yang diharapkan
+dalam pengujian kamera, tidak terdapat proses memutuskan sambungan kamera
+hal ini dikarenakan kamera akan terus tersambung selama aplikasi berjalan dengan sekali sambungan dan ketika aplikasi berhenti, maka kamera baru akan terputus sambungannya dengan smartphone
+pengujian kendali manual no jenis pengujian hasil yang diharapkan hasil uji 1
+memilih tombol maju mobil bergerak maju berhasil 2
+memilih tombol mundur mobil bergerak mundur berhasil diharapkan hasil uji mobil bergerak maju mobil bergerak mundur mobil berhenti tabel 6
+pengujian gerak kamera no jenis pengujian hasil yang diharapkan hasil uji 1
+tombol kamera atas kamera bergerak ke atas berhasil 2
+tombol kamera bawah kamera bergerak ke bawah berhasil 3
+tombol kamera kiri kamera bergerak ke kiri berhasil 4
+tombol kamera kanan kamera bergerak ke tabel 7
+pengujian kompatibilitas android 5.0.1 smartphone berhasil android 4.4.4 smartphone berhasil 4
+samsung tab 7+ android 3.0 tablet tidak berhasil tabel 8
+pengujian bluetooth no jarak pengujian hasil uji 1
+> 30 meter mobil bergerak terputus-putus bahkan tidak bergerak tabel 9
+pengujian kamera no jarak pengujian hasil uji 1
+kesimpulan berdasarkan hasil pengujian dan analisis terhadap aplikasi mobil remote control pemantau berbasis android pada mikrokontroler arduino, dapat disimpulkan bahwa : 1
+aplikasi mobil remote control pemantau berbasis android pada mikrokontroler arduino dapat mengendalikan pergerakan mobil remote control melalui koneksi bluetooth
+aplikasi mobil remote control pemantau dapat memantau lingkungan sekitar perangkat berdasarkan kamera wifi yang terpasang pada mobil
+koneksi bluetooth dapat mencapai jangkauan terjauh yaitu 30 meter dan berpengaruh pada jenis modul bluetooth yang digunakan
+lebih dari jarak terjauh, maka mobil akan sulit dikendalikan atau bisa saja mobil berjalan tanpa henti atau berhenti tiba-tiba
+koneksi kamera dengan media berbeda yaitu wifi dapat menempuh jangakauan terjauh yaitu 50 meter
+lebih dari jarak terjauh, maka kendali dan tampilan kamera pada android akan terganggu hingga menyebabkan koneksi terputus
+dua media koneksi yang berbeda tidak akan mengganggu kinerja dari masing-masing perangkat selama masih dalam jangkauan maupun salah satu dari perangkat sudah diluar jangkauan terjauh

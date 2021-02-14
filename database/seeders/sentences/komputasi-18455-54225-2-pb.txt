@@ -1,0 +1,92 @@
+menentukan harga rumah bisa dengan cara melihat harga pasaran rumah
+mencari tahu harga pasaran rumah diperlukan usaha
+salah satunya bisa dengan cara bertanya kepada beberapa tetangga untuk mendapatkan informasi harga pasaran rumah
+informasi harga pasaran rumah dari tetangga ini belum begitu akurat, karena pasaran rumah hanya sebatas lokasi saja
+sedangkan harga rumah tidak hanya bergantung pada lokasi rumah saja.sistem dengan implementasi case base reasoning metode tversky mampu memberikan informasi harga rumah yang ada di pontianak berdasarkan kasus-kasus harga rumah yang sudah terjadi sebelumnya
+dengan adanya sistem case base reasoning ini tentu akan mempermudah penjual rumah untuk menentukan harga rumah yang akan dijualnya
+menggunakan solusi yang sama di basis kasus
+proses penalaran berbasis kasus melalui 4 tahap yaitu retrieve, reuse, revise, dan retain 
+perhitungan similaritas kasus dilakukan dengan metode tversky apabila nilai similaritas=1 maka kasus baru tidak tersimpan ke dalam basis kasus, namun jika nilai similaritas<1 maka kasus baru dapat disimpan ke dalam basis kasus
+pengujian dengan metode tversky terhadap 10 kasus baru mempunyai nilai keakurasian sebesar 70%
+jika masyarakat/penjual rumah melakukan kesalahan dalam menentukan harga rumah maka akibatnya rumah tersebut akan kurang diterima dipasaran, sehingga masyarakat/penjual rumah akan kehilangan kesempatan untuk mendapatkan laba
+untuk meminimalkan kesalahan maka masyarakat/penjual rumah harus cermat dalam menentukan harga jual rumah tersebut, dikarenakan harga jual rumah selalu meningkat terus menerus dan hampir tidak pernah turun dalam jangka waktu pendek maupun panjang
+selain itu masyarakat/penjual rumah juga harus menentukan metode penentuan harga jual seperti bagaimana yang akan digunakan
+cara, salah satu diantaranya adalah dengan cara melihat harga pasaran rumah
+cara menetukan harga rumah berdasarkan pasaran ini paling banyak digunakan oleh masyarakat/penjual rumah di indonesia
+mencari tahu harga pasaran rumah yang ada di pontianak ini memerlukan usaha
+salah satunya bisa dengan cara bertanya kepada beberapa tetangga untuk mendapatkan informasi harga pasaran rumah
+namun tentunya informasi harga pasaran rumah dari tetangga ini belum begitu akurat
+karna pasaran rumah hanya sebatas lokasi saja
+sedangkan harga rumah tidak hanya bergantung pada lokasi rumah saja
+tetapi banyak faktor yang menetukan harga rumah seperti bagaimana fasilitas rumah, legalitas serta akses transportasi menuju rumah tersebut
+selain itu untuk mencari pasaran harga rumah dengan cara bertanya kepada tetangga atau masyarakat sekitar tentu akan memakan waktu
+mengingat hal itu maka perlu adanya sistem cerdas berbentuk penalaran berbasis kasus
+sistem penentuan harga rumah mampu memberikan fungsi yang maksimal terhadap pengguna
+sistem dengan implementasi cbr metode tversky diharapkan mampu memberikan informasi harga rumah yang ada dipontianak berdasarkan kasus-kasus harga rumah yang sudah terjadi sebelumnya yang tidak hanya berdasarkan lokasi saja, namun banyak aspek yang bisa dilihat dan dibandingkan
+dengan adanya sistem cbr ini tentu akan mempermudah penjual rumah untuk menentukan harga rumah yang akan dijualnya
+selain itu pembeli yang akan mencari rumah juga dapat memanfaatkan sistem ini, berdasarkan kriteria yang di-input- kan pada sistem pembeli dapat memeriksa harga umum dari rumah sehingga harga yang ditawarkan tidak terlalu tinggi dan terlalu rendah
+penggunaan sistem diharapkan mampu mengurangi ketidaksesuaian harga yang ditawarkan pemilik rumah terhadap pencari rumah dengan cara membandingkan harga penawaran terhadap harga umum dalam sistem yang tidak memiliki selisih harga yang banyak
+hasil akhir dari penelitian ini adalah sebuah aplikasi implementasi dari case base reasoning yang dapat digunakan untuk menentukan harga rumah berdasarkan kasus-kasus penjualan rumah sebelumnya
+sistem akan memproses data input dari user sehingga dapat menghasilkan output harga rumah
+case based reasoning merupakan salah satu penalaran yang digunakan dalam pemecahan masalah dengan mencari solusi dari suatu kasus yang baru, sistem akan melakukan pencarian terhadap solusi dari kasus lama yang memiliki permasalahan yang sama dan sudah pernah terjadi sebelumnya
+oleh karena itu, solusi dari permasalahan yang sudah pernah terjadi dapat digunakan kembali untuk memecahkan masalah baru dengan permasalahan yang sama dengan masalah yang lama
+prinsip kedua adalah setiap permasalahan dapat terjadi berulang kali
+oleh karena itu, terdapat kemungkinan bahwa masalah yang akan muncul di masa yang akan datang memiliki kesamaan dengan masalah yang pernah terjadi sebelumnya
+reuse, menggunakan kembali kasus-kasus yang ada dan dicoba untuk menyelesaikan suatu masalah sekarang
+revise, merubah dan mengadopsi solusi yang ditawarkan jika perlu 4
+retain, memakai solusi baru sebagai bagian dari kasus baru, kemudian kasus baru di-update kedalam basis kasus
+metode tversky similaritas yang digunakan untuk menghitung similaritas dua objek yang bersifat biner
+dalam mencari kasus lama yang memiliki kemiripan dengan kasus yang baru maka akan digunakan konsep similarity measure yang diperkenalkan oleh tversky 1977 yaitu dengan menggunakan persamaan berikut
+mpq α α + β q : mewakili kasus lama β : jumlah atribut yang berbeda kasus baru adalah kasus yang akan dicari solusinya dengan cara membandingkan fitur pada setiap kasus lama atau kasus yang tersimpan di basis kasus
+kasus baru dikatakan similar 100% dengan kasus yang lama apabila nilai similaritas dari tversky sama dengan 1 sedangkan nilai tidak similaritas apabila nilai tversky sama dengan 0
+perancangan arsitektur sistem pada gambar 2 melibatkan dua pengguna yaitu user dan admin
+user adalah pihak yang menjalankan perangkat lunak dengan cara melakukan input data atas masalah yang dihadapi terkait dengan spesifikasi rumah yang ingin diketahui harganya
+data yang di-input-kan oleh user akan diproses sehingga perangkat lunak akan me-retrieve data input tersebut yaitu melakukan proses pencarian sejumlah kasus – kasus yang terdapat dalam database basis kasus yang memiliki kemiripan dengan kasus baru yang di-input- kan oleh user kemudian dihitung nilai similaritas untuk setiap kasus dan kasus yang memiliki nilai similaritas tertinggi akan dijadikan sebagai solusi, solusi yang didapat akan disarankan kepada user sebagai solusi dalam menyelesaikan permasalahan yang dihadapi oleh user
+tahap ini dikenal dengan tahap reuse
+admin yang bertugas meng-input-kan basis kasus ke dalam database basis kasus
+selain itu, admin juga bertugas melakukan evaluasi atau peninjauan ulang atas solusi yang disarankan kepada user dalam menyelesaikan permasalahan yang dihadapi user
+jika solusi tersebut sudah dapat mengatasi permasalahan yang dihadapi maka solusi tersebut akan digunakan untuk menyelesaikan permasalahan pada kasus baru yang memiliki permasalahan serupa
+namun jika solusi tersebut belum menyelesaikan masalah maka akan disimpan kedalam database kasus baru untuk selanjutnya dilakukan peninjauan dan revisi oleh admin
+tahap ini dikenal dengan tahap revise
+dan apabila kasus baru tersebut ingin dijadikan basis kasus maka dapat disimpan sebagai basis kasus oleh admin
+tahap ini dikenal dengan tahap retain
+secara umum penalaran ini terdiri dari 4 tahapan yaitu: gambar
+diagram konteks sistem gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks sistem ini dapat dilihat pada gambar 3
+informasi kasus lama, informasi diagram overview sistem adalah diagram yang menjelaskan urutan-urutan proses dari diagram konteks
+pada diagram ini pada gambar 4 proses/tahapan dibagi menjadi lima proses yaitu: proses login, proses manajemen admin, proses manajemen kasus lama, proses manajemen kasus baru, dan proses prediksi harga
+menggunakan kembali kasus-kasus yang ada dan dicoba untuk menyelesaikan suatu masalah sekarang
+merubah dan mengadopsi solusi yang ditawarkan jika perlu
+memakai solusi baru sebagai bagian dari kasus baru, kemudian kasus baru di-update kedalam basis kasus
+pengujian tahapan case base reasoning adapun yang menjadi pengujian sistem ini adalah menguji tahapan proses case base reasoning pada sistem ini apakah dapat melakukan tahapan retrieve, reuse, revise dan retain 
+dilakukan oleh sistem terhadap hasil perhitungan harga rumah oleh ahli
+hasil perancangan sistem penentuan harga rumah ini dirancang untuk dapat digunakan oleh 2 aktor yaitu user dan admin.user didalam sistem ini merupakan masyarakat umum
+admin adalah petugas/administrator yang bertugas melakukan pengelolaan data kasus, pengelolaan data kasus baru dan pengelolaan data admin
+halaman utama user berikut gambar 6 merupakan tampilan halaman utama admin
+hasil pengujian tahapan proses case base reaosoning tahapan retrieve adalah tahapan untuk menelusuri dan mendapatkan kasus-kasus yang mirip dibandingkan dengan kumpulan kasus-kasus dimasa lalu 
+berikut proses didalam tahapan retrieve: melakukan input-an data dan melakukan prediksi harga
+gambar 7 merupakan proses prediksi kasus baru
+antarmuka halaman prediksi harga mencari tingkat kemiripan antara kasus baru dengan kasus-kasus lama dalam basis pengetahuan
+tingkat kemiripan dicari dengan perhitungan similaritas menggunakan metode tversky
+gambar 8 merupakan tingkat kemiripan kasus baru dan kasus lama
+gambar 8.tingkat kemiripan kasus baru dengan kasus lama tahapan reus adalah adalah tahapan menggunakan kembali kasus-kasus yang ada dan dicoba untuk menyelesaikan suatu masalah sekarang
+kasus yang digunakan sebagai solusi adalah kasus yang memiliki nilai similaritas yang paling tinggi, atau dianggap yang paling mirip
+tahapan ini memberikan output yang dihasilkan dari perhitungan metode tversky yaitu harga rumah sebagai solusi dalam memprediksi harga rumah
+gambar 9 merupakan kasus lama yang digunakan sebagai hasil perbandingan antara kasus baru dan kasus lama
+tahapan revise adalah tahapan merubah solusi yang ditawarkan jika perlu
+berikut tahapan revise di dalam sistem ini : pada halaman antarmuka prediksi harga rumah
+pada halaman antarmuka lihat kasus baru mengklik button untuk menampilkan button seperti pada gambar 10, setelah button diklik maka antarmuka edit kasus akan ditampilkan dan solusi kasus baru dapat direvisi kesesuaiannya
+setelah itu solusi kasus baru dapat di-update ke dalam tabel kasus baru
+proses edit kasus dapat dilihat pada gambar 11, dimana admin dapat menekan button untuk menyimpan data yang sudah di-edit
+antarmuka edit kasus baru tahapan retain adalah tahapan memakai solusi yang terakhir sebagai bagian dari kasus baru
+pada tahap ini terjadi suatu proses penggabungan dari solusi kasus yang baru yang benar ke basis kasus yang telah ada
+gambar 12 merupakan keadaan tabel kasus baru ketika ingin dilakukan proses retain
+hasil pengujian metode tversky pengujian kedua dilakukan dengan cara menguji kasus baru dengan kasuslama dengan menggunakan metode tversky dengan membandingkan hasil perhitungan harga rumah yang dilakukan oleh sistem terhadap hasil perhitungan harga rumah oleh ahli.berikut pada tabel 1 ditunjukan hasil pengujian metode tversky
+swignyo gg permai jumlah kasus basis kasus sebanyak 40 kasus, dari total 10 sampel uji hanya 3 sampel yang memberikan hasil yang tidak sesuai/tidak valid dan 7 sampel lainnya memberikan hasil yang sesuai/valid
+sehingga jika dihitung persentasenya, hasil yang valid yaitu x 100% = 70% dan yang tidak valid sebesar x 100% = 30%
+kesimpulan/ringkasan harga rumah berdasarkan kasus penjualan rumah sebelumnya yang ada di kota pontianak dengan tingkat keberhasilan 70% dan tingkat kegagalan 30%
+sistem yang dihasilkan dapat melakukan tahapan case base reasoning mulai dari tahap retrieve, reuse, revise hingga retain
+adapun beberapa hal yang perlu ditambahkan dalam pengembangan program aplikasi penentuan harga rumah ini adalah sebagai berikut: case base reasoning lain yang bukan metode biner untuk membandingkan nilai akhirnya
+sebagai contoh, metode algoritma nearest neighbor
+sistem penentuan harga rumah dapat dikembangkan dengan menambah jumlah kasus pada basis kasus sehingga dapat menambah pengalaman yang bisa diambil solusinya
+sistem penentuan harga rumah dapat dikembangkan dengan mengintregasikan sistem informasi geografis sehingga dalam menentukan harga rumah berdasarkan fitur lokasi rumah bisa berdasarkan zonasi wilayah pontianak dan solusi yang ditawarkan akan lebih akurat

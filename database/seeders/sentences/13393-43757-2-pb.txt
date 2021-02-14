@@ -1,0 +1,101 @@
+bahasa merupakan alat komunikasi yang digunakan seseorang untuk menyampaikan ide, gagasan, konsep atau perasaan kepada orang lain
+ragam bahasa yang dimiliki setiap orang berbeda, hal ini dapat menghambat pertukaran informasi karena orang lain tidak memahami maksud dan tujuan yang ingin disampaikan
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+tujuan yang ingin dicapai dalam penelitian ini adalah melakukan perbaikan probabilitas lexical model pada mesin penerjemah statistik bahasa jawa ke bahasa indonesia untuk meningkatkan nilai akurasi hasil terjemahan
+pengujian dilakukan dengan membandingkan nilai akurasi hasil terjemahan sebelum dan setelah perbaikan probabilitas lexical model
+penelitian menggunakan korpus paralel sebanyak 5108 kalimat
+pengujian dilakukan dengan dua cara, yaitu pengujian otomatis menggunakan bilingual evaluation understudy dan pengujian oleh ahli bahasa jawa
+hasil dari pengujian adalah terdapat peningkatan persentase nilai bleu sebesar 0.30% pada pengujian otomatis dan 10.69% pada pengujian oleh ahli bahasa
+seseorang untuk menyampaikan ide, gagasan, konsep atau perasaan kepada orang lain
+adapun fungsi bahasa sebagai alat komunikasi yaitu sarana penyampaian informasi kepada orang lain baik secara lisan maupun tulisan mengenai apa yang ingin disampaikan sebagai media mengekspresikan diri, perasaan, pikiran, keinginan, serta kebutuhan agar orang dapat mengerti maksud dan tujuan yang diinginkan tanpa menghindari tata bahasa yang sudah ada
+berdasarkan sensus penduduk pada tahun 2010, dari berbagai bahasa yang terdapat di indonesia, bahasa jawa menempati urutan pertama penggunaan bahasa daerah terbanyak yang digunakan sehari-hari dengan persentase 31, 79% dari total penduduk indonesia
+bahasa jawa sebagai bahasa terbesar di indonesia merupakan aset berharga yang harus dipertahankan agar bahasa jawa tidak terlupakan dalam kehidupan sehari-hari, seperti yang dilakukan pemerintah provinsi jawa tengah dengan menjadikan bahasa jawa sebagai pelajaran muatan lokal
+upaya pelestarian bahasa jawa juga telah dilakukan dengan memasukkan penggunaan bahasa jawa dalam acara pada media massa dan media elektronik
+beberapa upaya tersebut dinilai belum menjadi solusi optimal dikarenakan faktor media massa yang meracuni bahasa daerah dan bahasa indonesia dengan maraknya penggunaan dialek jakarta
+menghindari terjadinya kemerosotan penggunaan bahasa daerah, salah satu caranya adalah dengan mesin penerjemah statistik
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+salah satu model yang digunakan untuk menghasilkan hasil terjemahan adalah lexical model yang dihasilkan melalui proses training secara otomatis dari korpus paralel
+lexical model berisi kosakata dari bahasa sumber yang memiliki arti pada bahasa sasaran ataupun sebaliknya 
+setiap kosakata yang dihasilkan memiliki jumlah probabilitas sebesar 1.0 yang terbagi dalam tiap arti
+lexical model yang diperoleh dari proses training kurang maksimal karena terdapat banyak kosakata yang tidak sesuai dengan artinya
+oleh karena itu diperlukan perbaikan lexical model secara manual dengan bantuan oleh ahli bahasa
+berdasarkan permasalahan diatas, maka pada penelitian ini dilakukan perbaikan probabilitas lexical model untuk meningkatkan akurasi mesin penerjemah statistik bahasa jawa - bahasa indonesia
+uraian penelitian mesin penerjemah dengan menggunakan pendekatan statistik
+menurut christoper d manning dan hinrich schutze, dalam statistical machine translation terdapat tiga buah komponen yang terlibat dalam proses penerjemahan kalimat dari suatu bahasa ke bahasa lain, yaitu language model, translation model, dan decoder seperti yang tertera pada gambar 1
+language model digunakan pada aplikasi natural language processing seperti speech recognition, part-of- speech tagging dan syntactic parsing
+language model statistik menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+perbaikan probabilitas lexical model untuk meningkatkan akurasi mesin penerjemah statistik soni mandira1, herry sujaini2, arif bijaksana putra negara 3
+adalah decoder yang berfungsi untuk mencari teks dalam bahasa tujuan yang memiliki probabilitas paling besar dengan pertimbangan translation model dan language model
+gambar 2 merupakan arsitektur sistem dari mesin penerjemah statistik moses
+menurut herry sujaini dan arif b.p.n, sumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus
+proses training terhadap parallel corpus menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada parallel corpus ditambah dengan monolingual corpus bahasa target menggunakan srilm menghasilkan language model, sedangkan pos model dihasilkan dari bahasa target pada parallel corpus yang setiap katanya sudah ditandai dengan pos
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+moses yang memungkinkan untuk menerjemahkan secara otomatis setiap pasangan bahasa
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa sasaran
+saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa sasaran
+moses dirilis di bawah lisensi lgpl dan tersedia sebagai kode sumber dan binari untuk windows dan linux
+perkembangannya didukung oleh proyek euromatrix, dengan pendanaan oleh european commission
+korpus contoh teks tulis atau lisan dalam bentuk data yang dapat dibaca dengan menggunakan seperangkat mesin dan dapat diberi catatan berupa berbagai bentuk informasi linguistik
+korpus dapat diklasifikasikan ke dalam delapan jenis, yaitu korpus khusus, korpus umum, korpus komparatif, korpus paralel, korpus pemelajar, korpus pedagogis, korpus historis atau diakronis, dan korpus monitor 
+berdasarkan jenis korpus tersebut, untuk penelitian ini penulis akan fokus pada korpus paralel
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan terjemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+penalty dengan rata-rata geometri dari modified precision score
+semakin tinggi nilai bleu, maka semakin akurat dengan rujukan
+sangat penting untuk diketahui bahwa semakin banyak terjemahan rujukan per kalimatnya, maka akan semakin tinggi nilainya
+rumus bleu sebagai berikut: 𝐵𝑃𝐵𝐿𝐸𝑈= { 1 bleu = 𝐵𝑃𝐵𝐿𝐸𝑈
+standar nilai n untuk bleu adalah 4
+𝑒 ∑ 𝑤𝑛 keterangan: r = jumlah kata rujukan 𝑃𝑛 = modified precission score 𝑤𝑛 = 1/n 𝑝𝑛 = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n-gram hasil terjemahan iii
+hasil dan diskusi tersebut selanjutnya diolah menjadi korpus teks paralel bahasa indonesia dan bahasa jawa
+adapun jumlahnya yaitu 5108 pasangan kalimat korpus paralel bahasa jawa dan bahasa indonesia
+dengan jumlah 6961 token untuk korpus bahasa jawa dan 5536 token untuk bahasa indonesia
+implementasi mesin penerjemah statistik jawa ke bahasa indonesia 1
+implementasi srilm berbasis teks dengan nilai-nilai probabilistik
+model bahasa dibangun dengan tools srilm
+model bahasa akan menghasilkan output dengan format file *.lm
+gambar 3 merupakan tabel model bahasa yang dihasilkan oleh srilm pada mesin penerjemah statistik bahasa jawa - bahasa indonesia
+tabel model bahasa dengan bahasa indonesia sebagai bahasa target input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan lexical model table
+dokumen-dokumen tersebut terdapat dalam folder yang didalamnya terdapat 4 file yaitu 
+dokumen vocabulary corpus bahasa jawa gambar 4 merupakan isi dari dokumen vocabulary corpus
+angka 1 sampai 10 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+vocabulary corpus yang dihasilkan mesin penerjemah bahasa jawa – bahasa indonesia terdiri dari 6961 token untuk korpus bahasa jawa dan 5536 token untuk bahasa indonesia
+# sentence pair source length 5 target length 5 alignment score : 0.0729788 ora ana sing bisa ditindakake null tidak ada yang bisa dilakukan gambar 5
+dokument alignment bahasa jawa - bahasa indonesia gambar 5 merupakan dokumen alignment bahasa jawa – bahasa indonesia yang memiliki tiga baris kalimat
+baris pertama berisi letak kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target dan skor alignment
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap kalimat bahasa sumber
+kata memiliki makna bahwa kata pada kalimat bahasa target, di-align ke kata kelima pada kalimat bahasa sumber yaitu 
+tabel lexical model mesin penerjemah bahasa jawa - bahasa indonesia pada mesin penerjemah statistik bahasa jawa - bahasa indonesia
+proses lexical translation table oleh giza++ akan menghasilkan tabel translasi lexical model yang terdiri dari tabel kata yang berisi kosakata dari bahasa sumber yang memiliki makna pada bahasa sasaran ataupun sebaliknya 
+setiap kosakata yang dihasilkan memiliki jumlah probabilitas sebesar 1.0 yang terbagi dalam beberapa makna
+pengujian hasil terjemahan mesin translasi pengujian hasil translasi dilakukan dengan cara pengujian otomatis dari mesin penerjemah
+pengujian otomatis dari mesin penerjemah menghasilkan keluaran berupa nilai akurasi yang dihasilkan oleh bleu 
+hasil pengujian ini nantinya akan menjadi parameter untuk membandingkannya dengan hasil pengujian setelah dilakukan perbaikan lexical model
+langkah pada pengujian otomatis, korpus yang akan diuji terlebih dahulu melalui langkah translasi otomatis yang akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin
+korpus uji yang digunakan pada tahap ini berjumlah 5108
+setelah membuat output berupa hasil translasi otomatis dari mesin penerjemah, langkah selanjutnya adalah mendapatkan skor dari output dengan cara membandingkan output tersebut dengan korpus manual bahasa target yang telah dibuat sebelumnya
+gambar 7 merupakan sintaks untuk memperoleh nilai bleu dan hasilnya yang menampilkan nilai dari ouputfullasli.id sebesar 95.32%
+setelah mendapatkan nilai awal dari korpus uji, maka langkah selanjutnya adalah melakukan perbaikan probabilitas lexical model
+perbaikan probabilitas lexical model dilakukan penulis dengan menggunakan aplikasi bantu yang telah dibuat sebelumnya
+langkah awal perbaikan probabilitas lexical model, dilakukan perbaikan dengan kelipatan sekitar 50 perbaikan lexical model dengan menyimpannya pada tiap-tiap folder yang berbeda namun dengan nama file yang sama, yakni lex.f2e
+tampilan mengubah langkah berikutnya adalah menguji kembali hasil terjemahan mesin translasi bahasa jawa - bahasa indonesia yang telah melewati perbaikan lexical model
+langkah pengujian dilakukan dengan cara melakukan pengujian otomatis yang akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin dan pengujian oleh ahli bahasa
+pengujian otomatis bleu hasil terjemahan otomatis dari mesin penerjemah bahasa jawa - bahasa indonesia sebelum dan setelah melewati tahap perbaikan probabilitas lexical model
+tampilan grafik nilai bleu sebelum dan setelah perbaikan lexical model mengalami perbaikan probabilitas lexical model, nilai bleu pada korpus uji 5108 sebesar 95.32% dan setelah dilakukan perbaikan probabilitas lexical model didapat nilai bleu sebesar 95.61%
+terdapat peningkatan nilai bleu sebesar 0.30% dilihat dari perbandingan sebelum dan sesudah mengalami perbaikan probabilitas lexical model
+pengujian ahli bahasa terjemahan mesin penerjemah statistik bahasa jawa - bahasa indonesia dengan mengambil kalimat yang mengalami perubahan pada hasil terjemahan otomatis yang terdapat pada korpus uji 5108 sebelum dan sesudah dilakukan perbaikan probabilitas lexical model sebanyak 20 kalimat
+ahli bahasa menilai apakah hasil terjemahan lebih baik, sama, atau lebih buruk berdasarkan tingkat akurasi terjemahan kata
+perhitungan akurasi dilakukan dengan persamaan berikut : p = 𝐶 𝑅 100% menurut penilaian dari ahli bahasa r = jumlah kata hasil terjemahan tabel 1 tabel akurasi ahli bahasa kalimat hasil 𝐶 setelah perubahan tabel 1 merupakan tampilan tabel akurasi dari ahli bahasa sebelum mengalami perbaikan probabilitas lexical model, nilai dari ahli bahasa pada korpus uji 5108 sebesar 88.03% dan setelah dilakukan perbaikan probabilitas lexical model didapat nilai dari ahli bahasa sebesar 97.44%
+terdapat peningkatan nilai bleu sebesar 10.69% dilihat dari perbandingan sebelum dan sesudah mengalami perbaikan probabilitas lexical model
+mesin penerjemah statistik dapat diimplementasikan untuk menerjemahkan bahasa jawa ke bahasa indonesia
+berdasarkan hasil penelitian, perbaikan probabilitas lexical model dapat meningkatkan nilai akurasi terjemahan mesin penerjemah bahasa jawa – bahasa indonesia
+penerjemah bahasa jawa – bahasa indonesia yang dicapai sebesar 0.30% pada pengujian otomatis oleh bleu
+persentase peningkatan akurasi hasil terjemahan sebesar 10.69%
+saran dari penelitian ini adalah sebagai berikut
+perlu penambahan jumlah korpus untuk meningkatkan kualitas terjemahan mesin penerjemah statistik
+perlu adanya teknik dalam mencari lexical model yang diperbaiki mengingat banyaknya baris pada lexical model
+bahasa indonesia dengan mempertimbangkan hubungan antar frase dalam kalimat
+perlu dilakukan pengujian terhadap korpus yang bukan merupakan bagian dari korpus paralel untuk mengetahui tingkat akurasi
+perlu dilakukan pengecekan ulang terhadap korpus teks paralel untuk mencegah kesalahan penulisan 

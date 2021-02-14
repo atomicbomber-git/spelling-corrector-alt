@@ -1,0 +1,134 @@
+salah satu peguruan tinggi negri di pontianak
+sebagai perguruan tinggi negri untan memiliki banyak gedung yang terdiri dari gedung fakultas, akademik, perpustakaan dan lembaga
+banyaknya fasilitas terutama ruang perkuliahan membuat mahasiswa/i baru kesulitan ketika pertama kali memasuki lingkungan kampus
+menginformasikan fasilitas dan kawasan untan yang ada, perlu dibangun peta virtual 3d kampus untan dengan fitur panorama 360 0 x 180 0
+penelitian ini informasi mengenai pengenalan gedung dan wilayah kampus untan dengan menggunakan peta virtual 3d kampus untan dengan panorama 360 0 x 180 0
+aplikasi pemograman php, javascript, database mysql, dan sketchup untuk menggambar 3d
+berdasarkan hasil pengujian black box diketahui aplikasi bejalan baik
+berdasarkan hasil pengujian validitas dan reliabilitas kuesioner yang dilakukan diketahui semua butir pertanyaan valid dan nilai reabilitas 0, 818
+berdasarkan hasil dan analisis pengujian kuisioner yang dilakukan terhadap 100 responden yang terdiri dari 64 mahasiswa, 19 masyarakat umum, dan 17 siswa menghasilkan validitas kuisioner, realibitas tinggi, dan bedasarkan user acceptance test aplikasi dinilai sangat positif / berhasil
+disimpulkan dari pengujian aplikasi yang dibangun berbasis web dapat menghasilkan peta virtual 3d kampus yang memberikan informasi bangunan dan gambaran wilayah untan
+pendahuluan perguruan tinggi negri di pontianak
+peminat ke untan mengalami peningkatan dari tahun ke tahun terlihat dari daya tampung yang diperbanyak dari tahun ke tahun
+untan memiliki banyak gedung yang terdiri dari gedung fakultas, akademik, perpustakaan dan lembaga
+untan juga memiliki fasilitas umum seperti taman
+banyaknya fasilitas terutama ruang perkuliahan membuat mahasiswa/i baru kesulitan ketika pertama kali memasuki lingkungan kampus orang umum juga mengalami masalah dalam mencari ruangan ketika harus mengikuti seminar dan kegiatan yang dilakukan di lingkungan kampus
+kampus agar dapat dijangkau mahasiswa/i dan masyarakat umum digunakan sistem berbasis website
+pada sistem berbasis web peta kampus, akan ditampilkan bentuk bangunan tiga dimensi yang memiliki informasi ruang yang ada pada bangunan sehingga pengguna mengetahui informasi bentuk dan ruang pada bangunan
+bangun 3d merupakan bentuk dari benda yang memiliki panjang, lebar, tinggi
+pada pembuatan 3d bangunan aplikasi yang dapat digunakan adalah sketchup
+sketchup merupakan perangkat lunak desain grafis 3d bangun yang dapat diletakan di google earth
+teknologi skecthup dan google earth dapat dimanfaatkan untuk menginformasikan peta kampus untan dengan bagunan 3d yang pada setiap bangunan memiliki informasi
+dalam menginformasikan wilayah kampus digunakan fitur panorama 360 0 x 180 0 yang mengambarkan visual dari wilayah kampus
+hal ini merupakan salah satu cara menginformasikan visual lokasi kepada pengguna seperti mengunjungi langsung lokasi
+pada fitur ini akan dipilih tempat umum yang mewakili wilayah untan
+dalam menginformasikan gedung dan kawasan untan yang ada, dibangun sebuah peta virtual 3d kampus untan dengan fitur panorama 360 0 x 180 0
+dari unsur-unsur fisik dari sebagian atau keseluruhan permukaan bumi di atas media bidang datar dengan skala tertentu
+adapun persyaratan- persyaratan geometrik yang harus dipenuhi oleh suatu peta sehingga menjadi peta yang ideal adalah: 1
+jarak antara titik-titik yang terletak di atas peta harus sesuai dengan jarak aslinya di permukaan bumi ; 2
+luas suatu unsur yang direpresentasikan di atas peta harus sesuai dengan luas sebenarnya ; 3
+sudut atau arah suatu garis yang direpresentasikan di atas peta harus sesuai dengan arah yang sebenarnya ; kampus untan dengan fitur 0 2, helfi nasution email: rio.fiorido@yahoo.com1, bangnops@gmail.com, helfi_nasution@yahoo.com 1, 2, 3 di lapangan merupakan hal yang tidak mungkin menggambarkan sebuah peta yang dapat memenuhi semua kriteria di atas, karena permukaan bumi itu sebenarnya melengkung
+permukaan bumi yang melengkung tersebut ke dalam bidang datar akan terjadi distorsi
+oleh karena itu maka akan ada kriteria yang tidak terpenuhi, prioritas kriteria dalam melakukan proyeksi peta tergantung dari penggunaan peta tersebut di lapangan
+memiliki panjang, lebar, dan tinggi yang memiliki bentuk
+contoh tiga dimensi suatu objek/ benda adalah bola, piramida atau benda spasial seperti kotak sepatu
+karakteristik 3d mengacu pada tiga dimensi spasial, bahwa 3d menunjukkan suatu titik koordinat cartesian x, y dan z
+media visual 3d dengan google sketchup media berasal dari bahasa latin yang berarti perantara atau pengantar
+dapat dikatakan sebagai media pembelajaran apabila media tersebut digunakan untuk menyampaikan pesan dengan tujuan-tujuan pendidikan dan pembelajaran
+visual menurut kamus besar bahasa indonesia adalah pengungkapan suatu gagaasan atau perasaan dengan menggunakan bentuk gambar, tulisan, peta, grafik, dan sebagainya
+sedangkan tiga dimensi sendiri yang juga disebut ruang adalah bentuk dari benda yang memiliki panjang, lebar, dan tinggi istilah ini biasanya digunakan dalam bidang seni dan animasi
+pengertian google sketchup adalah sebuah program grafis
+program ini memberikan hasil utama yang berupa gambar sketsa grafik tiga dimensi
+perangkat lunak ini sangat tepat digunakan untuk membuat atau mendesain objek tiga dimensi dengan perbandingan panjang, lebar, maupun tinggi
+pengeditannya lebih mudah dibandingkan bila menggunakan perangkat lunak grafis lain
+sketchup juga memiliki kelebihan pada kemudahan penggunaan dan kecepatan dalam melakukan desain, serta menyenangkan berbeda dengan program 3d cad lainnya
+perangkat lunak software google sketch up cukup fleksibel karena dapat menerima atau membaca data dari format *.dwg atau *.dxf dari file autocad, *.3ds dari 3d studio max, *.jpg, dan *.ddf
+selain itu file yang dikerjakan di software google sketch up dapat dengan mudah diekspor ke berbagai format
+keunggulan yang dimiliki perangkat lunak sketchup adalah : 1
+dapat menghasilkan gambar yang cukup baik untuk keperluan presentasi; 2
+memiliki fleksibilitas yang tinggi untuk menerima dan mengirim data ke program aplikasi lain
+sedangkan kekurangan perangkat lunak software google sketchup hanya tidak terdapat setting posisi antara objek gambar dengan bidang kertas
+gambar panorama kerealistisan foto, 3 dimensional, dan lingkungan yang bisa dinavigasi
+sebuah gambar panorama menangkap sekeliling lokasi dengn pandangan 360 derajat pandangan silindris atau spherical para pemakai biasanya memiliki beberapa control atas sudut pandang seperti pembesaran, pengecilan, dan rotasi
+hiburan dan kebutuhan edukasi, permainan petualangan dengan foto-foto yang realistis atau semi realistis, pemandu wisata
+ada beberapa jenis gambar panorama, yaitu
+planar atau flat, yang berarti dilihat tanpa perspektif tertentu atau datar
+cylinderatau silindris, yaitu gambar panorama yang silindris yang dibuat untuk dilihat secara kurva disekeliling bagian dalam silindris, kalau gambarnya dilihat secara datar, dapat dilihat ada kurva disepanjang garis axis horizontal gambar 2
+sphere, gambar spherical adalah tipe gambar panorama dengan format equirectangular, yang mana menggambarkan dengan pasti keadaan gambar axis horizontal secara 360 derajat dan axis vertikal secara 180 derajat
+pada praktiknya gambar panorama biasa disimpan didalam proyeksi spherical, yang berarti akan ditampilkan didalam sphere
+untuk panorama dengan pandangan vertikal yang lebar, lebih efektif menggunakan metode sphere daripada silindris
+cube, tipe gambar panorama ini dipopulerkan oleh perangkat lunak quicktime5, dimana metode yang diperkenalkan adalah panorama berbentuk kubus bisa dilihat diatas atau dibawah lantai, tidak seperti gambar panorama spherical, dalam gambar panorama tipe kubus terdapat 6 gambar di permukaan kubus, kubus sangat efektif untuk tipe panorama yang dengan sudut pandangan vertikal yang luas, 3 mudah dimodifikasi dengan perangkat lunak
+perbandingan tipe panorama dapat dilihat bahwa ada beberapa keuntungan dalam penggunaan metode-metode tertentu, seperti penggunaan tipe spherical lebih menguntungkan daripada metode silindris karena disini dilihat bahwa proyeksi fov pada spherical punya ukuran yang lebih kecil daripada tipe silindris dalam perbandingan
+sedangkan fov pada kubus gambar dianggap konstan karena punya 6 gambar pada 6 permukaan sehingga memiliki ukuran yang sama besar
+pengambilan image menggunakan kamera digital single lense reflect dengan resolusi tinggi dan menggunakan tripod agar pada saat pengambilan image tidak terjadi parallax
+image yang telah diperoleh diatur agar memiliki brightness dan contrast yang sama atau hampir sama dengan image yang lain
+image yang memiliki jarak pandang 360 0 x180 0, maka dalam untuk pengambilan image dilakukan dengan cara mengatur kamera pada posisi miring vertikal dengan sudut kemiringan ±45 o
+posisi dan sudut kemiringan kamera b
+images per 360 0 gambar 8 merupakan rancangan arsitektur sistem rancang bangun peta virtual 3d kampus untan dengan fitur 360 0 x 180 0
+arsitektur sistem proses yang terjadi yaitu
+user/ admin mengakses web browser untuk membuka halaman web
+web browser memanggil data pada server rancang bangun visualisasi 3d peta kampus untan
+server rancang bangun visualisasi 3d peta kampus untan memanggil google jsapi
+terdapat library dan beberapa baris kode berupa api google earth
+google earth server mengirim kode ke sistem, kemudian plugin google earth pada sistem menerjemahkan menjadi peta
+kemudian sistem mengambil 3d gedung untuk diolah dan ditampilkan pada peta dasar
+server meminta data yang ada di database server
+kemudian database server mencari data yang diminta server
+database memberikan data yang diminta server, data yang diminta server di kirim ke server untuk diolah
+data yang di berikan berupa data gedung, ruang, panorama
+menampilkan halaman peta virtual 3d ke halaman web browser pengguna
+diagram konteks sistem gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks memperlihatkan bahwa subjek yang terlibat langsung dalam proses sistem adalah
+admin admin adalah pengguna yang memiliki hak akses penuh terhadap aplikasi, bertugas menjalankan manajemen dan menjaga aktivitas aplikasi dan basis data
+user user adalah pengguna umum dan mahasiswa yang mengakses aplikasi
+user dapat melihat peta kampus yang ada pada aplikasi, user dapat melakukan pencarian, lihat gedung dan melihat panorama
+adapun pengujian black box yang dilakukan pada aktivitas input data gedung, input data panorama, dan pencarian
+input yang digunakan dalam pengujian adalah input data kosong, input salah satu data kosong, input data salah, input data lebih dari batas range dan input data benar
+verifikasi koordinat koordinat antara input dengan google map dengan output google earth
+verifikasi dilakukan dengan mengambil empat titik koordinat berbeda yang mewakili dan diubah ke satuan dms 
+test, yaitu menguji tingkat penerimaan user terhadap sistem melalui kuesioner
+kuesioner berisi 15 pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan dalam pengujian aplikasi tersebut, yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas, dan aspek komunikasi visual kuesioner dibagikan kepada 100 responden yaitu calon mahasiswa, mahasiswa, dan masyarakat umum
+responden akan mencoba aplikasi untuk dapat mengetahui kompabilitas dan kelancaran jalannya aplikasi itu sendiri
+hasil dan diskusi dapat digunakan pengguna untuk mengenali gedung universitas tanjungpura dan wilayah kampus
+antarmuka web app merupakan antarmuka yang diakses user saat mengunjung website
+antarmuka beranda antarmuka placemark gedung dapat dilihat pada gambar 11
+antarmuka placemark gedung pada hasil peta yang dibuat terdapat 19 placemark panorama yang berfungsi sebagai simbol untuk melihat nama panorama 360 0 x 180 0, placemark panorama yang di pilih akan menampilkan nama panorama dan link untuk melihat panorama
+daftar panorama 360 0 x 180 0 pada aplikasi dapat dilihat pada gambar 12
+antarmuka placemark panorama setelah user memilih lihat panorama pada placemark panorama maka akan dilanjutkan pada tab baru unuk melihat panorama
+gambar panorama 360 0 x 180 0 dapat dilihat pada 0 x 180 0 taman untan dilakukan untuk mengetahui kesesuaian koordinat input admin menggunakan google map dengan output pada google earth
+dan 17 siswa terhadap 15 butir pertanyaan yang dibagi menjadi 3 aspek
+hasil kuesioner no aspek rekayasa perangkat lunak tanggapan total 1 kemudahan menjalankan aplikasi 2 kelancaran menjalankan 3 kemudahan pemahaman 4 kompabilitas aplikasi pada web browser jumlah 2 9 64 224 101 400 persentasi 0.5 2.2 16 56 25.2 100 aspek fungsionalitas 6 lihat bangun berjalan 7 kinerja peta 3d berjalan lancar 8 kinerja pencarian lancar 0 0 11 55 34 100 9 kinerja panorama jumlah 0 2 62 303 133 500 persentasi 0 0.4 12.4 60.6 26.6 100 aspek komunikasi visual 10 tampilan antarmuka 11 penempatan letak 12 kemudahan melihat 13 jenis ukuran huruf 14 kombinasi warna 15 kehalusan perpindahan ke jumlah 1 2 120 318 159 600 persentasi 0.16 0.34 20 53 26.5 100 * tanggapan  5: sangat baik  4: baik  3: cukup baik  2 : kurang baik  1: tidak baik berdasarkan hasil kuesioner pada tabel 3 dapat disajikan menjadi beberapa bagian, yaitu
+aspek rekayasa perangkat lunak sebagian besar responden menilai aplikasi baik dengan jumlah tanggapan baik 224 dan memiliki persentase 56%
+aspek fungsionalitas sebagian besar responden menilai aplikasi baik dengan jumlah tanggapan baik 303 dan memiliki persentase 60.6%
+aspek komunikasi visual sebagian besar responden menilai aplikasi baik dengan jumlah tanggapan baik 318 dan memiliki persentase 53%
+aspek rekayasa perangkat lunak ada 1 tanggapan buruk dengan persentase 0, 16%
+user acceptance test hasil penelitian untuk melihat skor maksimal dan minimal dari satu orang responden dan total semua responden terlihat pada tabel 3
+data yang diperoleh dari hasil pengujian dengan kuesioner kemudian diukur dengan metode likert’s summated rating 
+jumlah skor untuk setiap responden: a
+skor kuartil i = 2 x 15 item = 30 e
+jumlah skor untuk seluruh responden: a
+interpretasi jumlah skor tersebut adalah: a
+6000 < skor < 7500, artinya sangat positif b
+4500 < skor < 6000, artinya positif c
+3000 < skor < 4500, artinya negatif d
+1500 < skor < 3000, artinya sangat negatif gambar 14
+gambar 14 menunjukkan bahwa hasil penelitian berada di antara skor 6000 – 7500 yang artinya, hasil kuesioner menandakan responden menilai aplikasi positif dan dinilai berhasil
+kampus untan dengan fitur panorama 180 0 x 360 0
+6 bahwa proses simpan, ruang, panorama, dan perbaruhi 3d telah sesuai dengan harapan peneliti dan dapat berjalan dengan baik
+google map dan output titik koordinat google earth dengan mengubah ke satuan dms maka diketahui nilai output kordinat yang dihasilkan sama dengan nilai koordinat input
+analisis hasil pengujian kuesioner berdasarkan hasil pengujian validitas dan reliabilitas kuesioner yang telah dilakukan dapat dianalisis sebagai berikut
+berdasarkan pengujian validitas kuesioner, dapat diketahui bahwa semua butir pertanyaan pada kuesioner valid, dimana nilai korelasi pearson pada setiap butir pertanyaan lebih besar dari nilai rtabel
+berdasarkan pengujian reliabilitas kuesioner, dapat diketahui bahwa kuesioner yang dibuat tingkat reliabilitasnya tinggi, dimana nilai cronbach’s alpha pada penelitian ini sebesar 0, 818
+angka ini berada diantara 0, 7 sampai dengan 0, 9
+berdasarkan hasil perhitungan dan peyajian data hasil kuesioner yang telah dilakukan dapat dianalisis sebagai berikut
+aspek rekayasa perangkat lunak berdasarkan hasil kuesioner pada bagian aspek rekayasa perangkat lunak, dapat diketahui bahwa aspek rekayasa perangkat lunak pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek rekayasa perangkat lunak yaitu 56%
+fungsionalitas, dapat diketahui bahwa aspek fungsionalitas pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek fungsionalitas yaitu 60.6%
+aspek komunikasi visual berdasarkan hasil kuesioner pada bagian aspek komunikasi visual, dapat diketahui bahwa aspek komunikasi visual pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek komunikasi visual yaitu 53%
+user acceptance test berdasarkan hasil user acceptance test, dapat diketahui bahwa responden menilai bahwa aplikasi yang dibuat sangat positif dan berhasil, yang dapat dibuktikan dengan skor total dari keseluruhan data kuesioner berjumlah 6112, dimana total skor ini berada diantara kuartil iii dan maksimal pada intepretasi lsr
+kesimpulan/ringkasan berdasarkan hasil analisis dan pengujian terhadap peta 3 dimensi kampus untan dengan fitur panorama 360 0 x 180 0 maka dapat disimpulkan bahwa
+aplikasi yang dibangun berbasis web dapat menghasilkan peta virtual 3d kampus dengan panorama 360 0 x 180 untan
+aplikasi yang telah dibuat dapat menampilkan objek tiga dimensi gedung untan ke dalam sebuah peta dengan fitur panorama 360 0 x 180 0
+sistem yang dibangun dapat memberikan informasi lokasi gedung dimana ruangan yang dicari berada
+berdasarkan hasil pengujian black box diketahui aplikasi dapat berjalan dengan baik, dan hasil analisis verifikasi koordinat input dengan output memiliki nilai yang sama
+aspek rekayasa perangkat lunak, fungsionalitas dan komunikasi visual pada aplikasi baik
+berdasarkan hasil dan analisis pengujian kuisioner yang dilakukan terhadap 100 responden yang terdiri dari 64 mahasiswa, 19 masyarakat umum, dan 17 siswa menghasilkan validitas kuesioner, realibitas tinggi dengan nilai 0, 818, dan bedasarkan user acceptance test dengan nilai 6112 maka aplikasi dinilai sangat positif / berhasil

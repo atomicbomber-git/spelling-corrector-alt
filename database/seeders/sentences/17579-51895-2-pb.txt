@@ -1,0 +1,80 @@
+yani no 50-52 kupang, nusa tenggara timur 1lora.ngaga@gmail.com 2fredyondang@gmail.com terjangkau untuk masyarakat kalangan ekonomi menengah ke bawah
+umumnya pemesanan tiket bus dilakukan dengan mendatangi langsung tempat penjualan tiket bus atau dengan cara menelepon ke kantor agen
+proses pemesanan seperti ini memiliki kekurangan dimana pegawai kerepotan dalam mencatat dan seringkali terjadi kesalahan dalam mencatat pemesanan tiket sedangkan untuk waktu pemesanan, umumnya calon penumpang melakukan pemesanan tiket, satu atau dua hari sebelum keberangkatan dan ada juga yang tidak sempat memesan tiket beberapa hari sebelumnya dan melakukan pembelian tiket pada hari keberangkatan sehingga sering kali tidak mendapatkan tiket penelitian ini bertujuan merancang bangun sistem pemesanan tiket bus berbasis sms gateway yang memberikan kemudahan layanan pemesanan tiket bus bagi masyarakat secara jarak jauh serta kemudahan mengetahui informasi penjadwalan bus dengan cepat
+aplikasi dibangun menggunakan metode unified process, dengan bahasa pemrograman java netbeanside 7.3.1, mysql sebagai database dan gammu sebagai software untuk membantu pembangunan aplikasi sms gateway
+hasil dari penelitian ini adalah sebuah sistem pemesanan tiket bus yang memberikan alternatif baru proses pemesanan tiket bus secara baik tanpa ada permasalahan jarak dan waktu
+selain itu masyarakat juga dapat mengetahui informasi jadwal bus, harga tiket dan juga informasi bila terjadi perubahan jadwal keberangkatan bus
+pendahuluan dalam kehidupan manusia untuk mendukung dan memperlancar segala aktifitas
+bus adalah salah satu dari berbagai jenis alat transportasi yang ada yang sudah dari dulu digunakan untuk menghubungkan orang dari satu tempat ke tempat yang lain dalam satu daratan
+perjalanan dengan alat transportasi darat yaitu bus sangat digemari oleh masyarakat karena harganya yang terjangkau
+kepulauan yang terdiri dari 7 pulau besar
+pulau timor merupakan salah satu pulau besar di ntt yang terdiri dari 5 kabupaten yakni kabupaten kupang, timor tengah selatan, timor tengah utara, belu dan malaka sebagai kabupaten yang baru dimekarkan dari kabupaten induknya yakni belu serta 1 kota madya kupang
+untuk menempuh semua kabupaten dan kota tersebut maka digunakan sarana transportasi darat dan yang paling banyak digunakan masyarakat adalah bus karena harga yang masih terjangkau untuk masyarakat kalangan ekonomi menengah ke bawah
+selama ini perjalanan bus untuk rute dari kupang menuju kabupaten timor tengah selatan, timor tengah utara dan malaka tidak menggunakan tiket tetapi penumpang langsung menuju terminal dan menumpang bus sesuai tujuannya
+sedangkan untuk rute perjalanan kupang menuju kabupaten belu dengan atambua sebagai ibu kota kabupaten yang memiliki jarak tempuh 187 kmpenumpang harus memesan dan membeli tiket terlebih dahulu
+umumnya pemesanan tiket bus dilakukan dengan mendatangi langsung tempat penjualan tiket bus seperti agen travel atau dengan cara menelepon ke kantor agen
+proses pemesanan seperti ini tentu saja memiliki kekurangan dimana pegawai kerepotan dalam mencatat dan seringkali terjadi kesalahan dalam mencatat pemesanan tiket sedangkan untuk waktu pemesanan, umumnya calon penumpang melakukan pemesanan tiket, satu atau dua hari sebelum keberangkatan
+selain itu ada juga calon penumpang yang tidak sempat memesan tiket beberapa hari sebelumnya dan melakukan pembelian tiket pada hari keberangkatan sehingga sering kali tidak mendapatkan tiket hal ini memungkinkan adanya aksi dari pihak yang akan menjual tiket dengan harga yang sangat tinggi
+dan terkadang pelayanan pemesanan lewat telepon pun menjadi tidak praktis karena telepon operator yang sering sibuk karena jumlah pegawai ataupun line telepon yang sedikit
+ditambah lagi kondisi pegawai yang harus melayani pemesanan lewat telepon dan calon penumpang yang datang langsung sekaligus
+untuk itulah perlu adanya proses pemesanan untuk lebih mengefektifkan baik dalam segi waktu ataupun biaya itu sendiri serta lebih memudahkan dalam melakukan pemesanan tiket hari ke hari terus berkembang luas mulai dari daerah perkotaan sampai ke pelosok daerah pedesaan
+dunia teknologi informasi dan komunikasi menawarkan dan memberikan banyak kemudahan dalam membantu memperlancar segala aktivitas manusia di segala bidang
+semakin hari orang semakin beralih ke dunia teknologi informasi dan komunikasi dengan segala kemudahan yang bisa didapatkan
+salah satu sarana dalam bidang teknologi informasi dan telekomunikasi adalah telepon selular yang mempermudah komunikasi secara jarak jauh
+melalui salah satu fiturnya yaitu short message service, proses penyampaian menjadi lebih mudah, cepat dan murah serta menjangkau sampai ke pelosok daerah, mengingat dari 4.953.967 penduduk ntt, yang menggunakan jasa telekomunikasi selular sebanyak 2, 5 juta pelanggan atau lebih dari 98% dari seluruh pengguna selular di ntt
+dengan adanya sms maka masyarakat akan dengan mudah memperoleh informasi
+layanan sms lebih diminati masyarakat karena beberapa keunggulan, diantaranya biaya yang relatif murah, waktu pengiriman yang cepat, dapat mengirim pesan secara fleksibel dalam arti kapan saja dan dimana saja, serta layanan sms ini mudah digunakan oleh semua orang
+selain itu juga karena sebagian besar masyarakat ntt masih menggunakan handphone yang hanya menyediakan fitur untuk telepon dan sms terkhususnya masyarakat ekonomi menengah ke bawah
+untuk itu, dalam penelitian ini dikembangkan suatu aplikasi yang memanfaatkan teknologi informasi dan komunikasi yang dapat membantu proses pemesanan dan pembelian tiket bus, informasi jadwal bus, informasi harga tiket serta informasi perubahan jadwal bus dengan berbasis sms gateway sehingga mempercepat proses informasi dan membantu masyarakat khususnya dalam bidang transportasi di provinsi ntt
+proses pemesanan dan pembelian tiket bus untuk rute perjalanan kupang-atambua secara baik tanpa ada permasalahan jarak dan waktu yang mengintegrasikan aplikasi teknologi informasi sebagai media baru untuk meningkatkan keberdayaan masyarakat umum dalam bidang transportasi darat
+apabila dibuat dengan menggunakan bantuan teknologi mobile yang berkembang pesat saat ini seperti dengan bantuan sms pada telepon seluler
+ini disebabkan karena penggunaan telepon seluler dengan layanan sms sudah digunakan secara umum dan bahkan saat ini sudah merupakan kebutuhan untuk penyampaian informasi
+hayati dkk, melakukan penelitian dengan judul using short message services to teach english idiom to efl students untuk mengungkapkan bagaimana memanfaatkan sms untuk memberikan ukuran pelajaran idiom bahasa inggris secara jarak jauh pada peserta didik
+meningkatkan layanan komunikasi sekitar akademika fakultas ilmu komputer unsri sehingga mempermudah pengiriman pesan disekitar akademika dan informasi yang disampaikan menjadi lebih real time
+habibi dkk melakukan penelitian dengan judul perancangan aplikasi sms gateway untuk meningkatkan kualitas pelayanan informasi pemadaman listrik di pt pln kota palu untuk membantu bidang pelayanan pengiriman informasi pemadaman listrik sehingga pengguna listrik bisa menerima informasi pemadaman listrik melalui sms
+dilakukan oleh suranta dengan judul dengan judul sistem informasi pemesanan tiket bus online pada pt lorena karina transport berbasis web dan sms gateway untuk membantu dalam proses peningkatan penjualan, mempermudah proses penyaluran informasi yang efektif dan memberikan kemudahan dalam pemesanan tiket bus secara online dan nyata kepada calon konsumen
+wirawan dkk melakukan penelitian dengan judul sistem reservasi tiket bus di terminal arjosari malang yang membuat aplikasi pemesanan tiket bus secara online dan menggunakan sms gateway untuk mengirimkan report kepada pembeli
+bangun sistem pemesanan tiket pada perum damri stasiun pontianak berbasis web dan sms gateway untuk membantu perum damri stasiun pontianak dalam memberikan pelayanan dan memudahkan bagi pelanggan untuk melakukan pemesanan tiket bus
+tahun yang sama, wahyuningsih dan latifah juga melakukan penelitian dengan judul sistem informasi pemesanan dan pembelian tiket kapal berbasis sms gateway pada perusahaan pt asdp indonesia ferry jepara untuk mempermudah dalam pemesanan tiket dan memproses data baik pencatatan data pelanggan, data tiket, data jadwal, data pemesanan dan data pembayaran tiket kapal tersebut
+dengan judul aplikasi short message service gateway pembelian tiket pertandingan klub sepakbola arema untuk memudahkan suporter dalam mendapatkan tiket pertandingan arema indonesia tanpa harus mengantri di loket atau tiket box sehingga tidak memerlukan banyak waktu
+sistem yang akan dikembangkan ini juga dalam bidang transportasi untuk memberikan layanan pemesanan tiket bus khusus rute perjalanan kupang-atambua berbasis sms gateway sehingga akan memberikan kemudahan bagi calon penumpang dalam proses pemesanan tiket tanpa ada masalah jarak dan waktu
+dalam menentukan kebutuhan terkait dengan permasalahan, digunakan beberapa teknik pengumpulan data seperti: a
+metode wawancara untuk mendapatkan data seakurat mungkin maka proses tanya jawab perlu dilakukan secara langsung dengan pihak-pihak terkait yang berhubungan langsung dengan objek yang diteliti, dalam hal ini adalah proses pemesanan tiket bus
+objek wawancara adalah masyarakat pengguna jasa transportasi bus dalam hal ini para penumpang dan juga petugas agen travel sehingga dari hasil wawancara tersebut akan didapatkan data dan informasi yang dapat membantu proses penelitian
+metode studi kepustakaan yaitu dengan mengumpulkan buku, paper dan sumber ilmiah lain, seperti situs internet ataupun artikel teks dokumen yang berhubungan dengan penelitian ini
+activities) dari perangkat lunak dan rancangan arsitekturnya
+secara lengkap yang siap diserahkan kepada pemakai
+sistem akan dibangun menggunakan bahasa pemrograman java netbeanside 7.3.1, mysql sebagai database management system dan gammu sebagai software untuk membantu pembangunan aplikasi sms gateway
+kepada pemakai, mengujinya ditempat pemakai dengan menggunakan metode black box untuk mengamati hasil eksekusi dan memeriksa fungsional dari perangkat lunak serta memperbaiki masalah–masalah yang muncul saat dan setelah pengujian
+operator akan berinteraksi dengan sistem melalui gui 
+melakukan input data, operator menggunakan mouse dan keyboard sedangkan untuk menampilkan output digunakan layar monitor
+pengguna dalam hal ini penumpang bus akan berinteraksi dengan sistem melalui media sms
+untuk melakukan proses input data, pengguna dapat menggunakan keypad atau touch screen pada ponsel sedangkan untuk menampilkan output digunakan lcd
+use case diagram yang diharapkan dari sebuah sistem
+sebuah usecase merepresentasikan sebuah interaksi antara aktor dengan sistem
+seorang/sebuah aktor adalah sebuah entitas manusia atau mesin yang berinteraksi dengan sistem untuk melakukan pekerjaan-pekerjaan tertentu
+use case diagram sistem pemesanan tiket bus use case dari gambar 1 diatas menunjukan ada aktor yang berhubungan langsung dengan sistem yaitu operator
+sebelum menggunakan sistem, operator harus melakukan login terlebih dahulu untuk kemudian dapat mengakses sistem untuk mengolah sejumlah data
+diagram ini berfokus pada kegiatan yang dilakukan dan siapa yang bertanggung jawab atas kinerja dari kegiatan tersebut dalam banyak hal, diagram ini mempunyai peran yang mirip dengan diagram alur, tetapi perbedaan utama antara diagram activity dan notasi flowchart adalah bahwa mereka mendukung perilaku secara paralel alur kerja dari sistem pemesanan tiket bus berbasis sms gateway yang akan dikembangkan ini dapat dilihat pada diagram berikut : dibangun ini dapat dijelaskan sebagai berikut: 1
+sistem menerima sms registrasi penumpang dan mengirimkan sms konfirmasi kepada penumpang untuk selanjutnya dapat melakukan sms terkait dengan informasi seputar jadwal bus
+penumpang menerima sms konfirmasi dan selanjutnya dapat mengirimkan sms pertanyaan terkait informasi kapal maupun sms pemesanan tiket 4
+operator menerima sms pertanyaan penumpang dan menjawabnya lalu mengirimkan kembali kepada penumpang
+penumpang menerima sms dari sistem sesuai yang ditanyakan dan mengirim sms apabila ingin bertanya lagi
+sistem juga dapat melakukan broadcast untuk membagikan informasi yang berupa pengumuman ataupun pemberitahuan yang terkait dengan perubahan jadwal bus, promosi harga tiket murah ataupun informasi adanya bus baru
+tampilan antarmuka sistem pemesanan tiket bus berbasis sms gateway yang dikembangkan adalah sebagai berikut : gambar 3
+tampilan menu utama sistem tampilan pada gambar 3 merupakan antarmuka menu utama yang terdiri dari beberapa pengelolaan diantaranya menu file yang terdiri dari sub menu bus dan penumpang
+menu sms gateway yang terdiri dari sub menu informasi, inbox dan outbox serta fungsi keluar
+gambar 4 merupakan form untuk merekam data bus yang ada dengan memasukan id bus, nama, nomor plat dan nama sopir
+tampilan form data penumpang gambar 5 merupakan form untuk merekam data penumpang yang melakukan pemesanan tiket yang terdiri dari id penumpang dan nomor hp yang secara otomatis akan tersimpan dalam sistem ketika penumpang melakukan registrasi
+gambar 6 merupakan form data informasi yang akan dikirimkan ke semua penumpang yang terdata di sistem untuk memberitahukan informasi seputar jadwal keberangkatan maupun penundaan, promosi harga tiket gambar 7 merupakan form inbox yang digunakan untuk melakukan pengolahan data inbox yang terdiri dari id inbox, nomor hp, isi pesan, tanggal dan jam
+form inbox akan menampung semua sms yang masuk dari penumpang
+gambar 9 merupakan form data pemesanan yang berfungsi menyimpan data pemesanan tiket dari penumpang untuk selanjutnya diproses oleh petugas
+penumpang selanjutnya akan menerima sms konfirmasi pemesanan tiket dari sistem sebagai bukti telah melakukan pemesanan tiket yang bisa dipakai untuk kemudian ditunjukan kepada petugas saat membeli tiket apabila tiket yang dipesan sudah habis maka penumpang juga akan mendapatkan sms informasi
+form ini akan muncul ketika operator memilih tombol pesan tiket yang ada di form inbox
+tampilan form data outbox gambar 10 merupakan form outbox yang digunakan untuk melakukan pengolahan data outbox yang terdiri dari id outbox, nomor hp, isi pesan, tanggal, jam dan status
+form outbox akan menampung semua sms yang keluar dari sistem kepada penumpang
+pengujian format sms pada pengujian ini, pesan yang dikirimkan adalah format sms yang digunakan user untuk melakukan registrasi ke sistem
+setelah pesan registrasi diterima sistem maka sistem secara otomatis akan mengirimkan sms konfirmasi
+tampilan sms untuk melakukan pemesanan tiket sesuai dengan format sms pemesanan yang berisi konfirmasi pemesanan tiket dari sistem sesuai dengan format pemesanan yang dikirim oleh user
+tampilan sms konfirmasi yang berisi informasi pemesanan tiket v
+kesimpulan gateway ini dapat membantu masyarakat umum pengguna jasa transportasi bus untuk tetap mendapatkan informasi seputar jadwal bus, informasi harga tiket, informasi perubahan jadwal, promosi harga tiket serta layanan pemesanan tiket setiap saat tanpa harus mendatangi kantor serta dapat memberikan alternatif proses penyebaran informasi secara baik tanpa ada permasalahan jarak dan waktu

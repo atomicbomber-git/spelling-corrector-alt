@@ -1,0 +1,17 @@
+berdasarkan data statistik luas lahan dan produksi hasil perkebunan kalimantan barat tahun 2014
+rovinsi kalimantan barat, di mana luas areal yang digunakan 1.060.250 ha 
+pt wawasan kebun nusantara merupakan perusahaan yang bergerak dibidang perkebunan kelapa sawit yang terletak di kecamatan seluas, kabupaten bengkayang
+kebun sungai sentangau merupakan salah satu kebun yang dimiliki pt wkn yang memiliki luas areal sekitar 5000 ha
+kegiatan perkebunan seperti panen, pemupukan, tebas gawangan, piringan, pruning dan pasar pikul merupakan kegiatan utama yang terjadi pada kebun ini
+perkebunan dengan areal luas seperti ini mendasari diperlukannya sistem informasi yang dipergunakan untuk membantu pengawasan kegiatan pada jenis pekerjan yang terjadi
+rancang bangun sistem informasi geografis pelaksanaan dan pengawasan kegiatan perkebunan kelapa sawit di pt wawasan kebun nusantara kecamatan seluas ini menggunakan metode penelitian yang terbagi menjadi studi literatur, analisa kebutuhan, pengumpulan data, permodelan sistem, pembuatan aplikasi, pengujian sistem, analisis hasil pengujian dan penarikan kesimpulan
+motode perancangan dilakukan dengan flowchart dan diagram unified modeling language 
+metode pengujian dilakukan dengan dua tahap yaitu pengujian aplikasi dan pengujian pengguna
+untuk pengujian aplikasi digunakan pengujian black box, sedangkan untuk pengujian pengguna menggunakan kuesioner yang diinterprestasikan dalam perhitungan mean opinion score 
+aplikasi sig ini dibangun berbasis web menggunakan framework codeigniter
+pengguna aplikasi ini dibedakan menjadi dua yaitu admin dan manajer
+dari hasil pengujian aplikasi oleh pengguna, penilaian aplikasi mendapatkan nilai kategori sangat setuju pada ketiga aspek yaitu aspek rekayasa perangkat lunak, komunikasi visual dan fungsionalitas, sehingga dapat simpulkan aplikasi dapat membantu dan mempercepat pencarian informasi yang akurat mengenai pelaksanaan dan pengawasan kegiatan perkebunan dan mempermudah pihak manajemen perkebunan dalam mengambil keputusan
+pendahuluan memberikan kontribusinya dalam perekonomian yang berasal dari sub-sektor perkebunan
+sebagai penghasil devisa negara, kelapa sawit merupakan salah satu komoditi yang memberikan sumbangan yang sangat berarti dalam meningkatkan pertumbuhan ekonomi indonesia
+selain itu komoditi kelapa sawit menyumbang lapangan kerja yang tidak sedikit serta berperan penting dalam mendorong pertumbuhan sentra-sentra ekonomi baru di wilayah-wilayah pengembangan seperti di kalimantan barat khususnya kabupaten bengkayang
+berkembang dengan pesat pertahunnya, di mana pada tahun 2014 luas areal yang digunakan 1.060.250 ha dengan produksi minyak kelapa sawit sekitar 1.007.985 ton sedangkan untuk kabupaten bengkayang luas areal yang digunakan pada tahun 2014 adalah 54.262 ha dengan produksi minyak kelapa sawit sekitar 22.060 ton 

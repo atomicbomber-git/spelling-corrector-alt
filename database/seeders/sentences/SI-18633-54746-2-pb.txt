@@ -1,0 +1,9 @@
+dikelompokkan menjadi 2 kategori yaitu kerusakan hardware dan kerusakan software 
+ketika komputer mengalami kerusakan, pengguna akan mengeluarkan biaya yang tidak sedikit hanya untuk memperbaiki kerusakan tersebut, padahal kerusakan tersebut belumtentu rumit dan tidak dapat diperbaiki sendiri
+sehingga diperlukan suatu sistem yang dapat menghasilkan pengetahuan dan pengalaman seperti seorang teknisi dalam menangani kerusakan pada komputer
+sistem dibangun khusus untuk mendiagnosis kerusakan hardware komputer dengan menggunakan penalaran berbasis kasus atau disebut dengan case base reasoning 
+penalaran berbasis kasus ini menggunakan metode jaccard coefficient sebagai metode penghitungan similaritas
+hasil keluaran dari sistem ini adalah bagian kerusakan, jenis kerusakan dan solusi kerusakan yang mengadopsi pada kasus-kasus sebelumnya
+berdasarkan hasil pengujian validasi terhadap 30 data kasus, terdapat 8 kasus yang memiliki nilai similaritas kurang dari 1, dengan demikian tingkat keberhasilan sistem adalah 73.33%
+2 kategori yaitu kerusakan hardware dan kerusakan software 
+masalah pada hardware umumnya timbul karena usia perangkat, aus, ketidakstabilan tegangan listrik, kecerobohan pemakai, pemakaian yang tidak menurut prosedur, dan lain sebagainya 

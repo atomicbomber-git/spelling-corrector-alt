@@ -1,0 +1,86 @@
+sektor pariwisata memegang peranan yang penting dalam perekonomian indonesia, baik sebagai salah satu sumber penerimaan devisa, memperluas kesempatan kerja maupun kesempatan berusaha
+kota pontianak memiliki banyak keragaman yang dapat ditonjolkan dalam pariwisata, tetapi muncul sebuah permasalahan karena jumlah wisatawan lokal dan internasional yang mengunjungi kota pontianak tergolong lebih sedikit dibandingkan kota lain di indonesia berdasarkan badan pusat statistik pontianak
+salah satu faktor yang memegang peran penting dalam hal itu adalah publikasi, pengenalan informasi pariwisata dapat dikenalkan dalam suatu media yang sedang digemari masyarakat yaitu permainan smartphone, salah satunya adalah endless runner game
+permainan endless runner game adalah jenis permainan yang tidak ada akhir, dan tujuan pemain adalah harus mendapatkan skor tertinggi
+penelitian ini memperkenalkan pariwisata kota pontianak melalui endless runner game
+responden memiliki latar belakang 10 masyarakat warga negara indonesia, dan 10 masyarakat warga negara selain indonesia, yang berusia 20 - 30 tahun dan pernah berwisata
+data tersebut diolah menggunakan likert’s summated rating dan mendapatkan hasil 1139 yaitu aplikasi cukup berhasil dalam segi mekanik, cerita atau informasi, dan aestetika, serta berdasarkan hasil pengujian dari bitbar testing menyatakan 100% metode dalam aplikasi dapat berjalan lancar dalam perangkat android
+pendahuluan penerimaan devisa, memperluas kesempatan kerja maupun kesempatan berusaha
+pengembangan di bidang pariwisata perlu terus ditingkatkan dengan memperluas dan memanfaatkan sumber serta potensi pariwisata nasional sehingga kegiatan ekonomi dapat merangsang pembangunan regional, memperkenalkan identitas dan kebudayaan daerah
+pariwisata dan kekayaan kota pontianak sangatlah beragam, diantaranya yaitu keunikan tiga suku terbesar yang meninggali kota pontianak, tempat destinasi wisata budaya di dalam area pusat kota, dan kelezatan makanan-makanan khas daerah yang sangat bervariasi
+meski begitu jumlah pendatang atau wisatawan yang datang ke kota pontianak jumlahnya belum mencapai jumlah yang besar jika dibandingkan dengan kota lain yang ada di indonesia
+perhitungan badan pusat statistik indonesia menyatakan jumlah kedatangan wna ke kota pontianak pada tahun 2016 berjumlah 45.785 orang sedangkan angka yang dimiliki daerah istimewa yogyakarta berjumlah 249.481 orang
+serta wisatawan mancanegara yang berkunjung ke kota pontianak didominasi oleh negara tetangga, yaitu malaysia sebesar 81, 07%
+diikuti oleh china 3, 15%, taiwan 2, 28%, brunei 1, 76%, amerika serikat 1, 03%, singapura 0, 93%
+referensimenunjukkan bahwa untuk meningkatkan pariwisata sebuah daerah, harus adanya peningkatan kapabilitas dari masyarakat daerah tersebut dan promosi yang baik
+melihat dari data yang ada, angka tersebut memiliki perbedaan yang sangat jauh
+hal yang mempengaruhi angka tersebut salah satunya adalah suatu promosi, dikarenakan ketidaktahuan masyarakat tentang informasi pariwisata suatu kota, mengakibatkan daya tarik yang dimiliki suatu kota tidak diketahui dan kesulitannya masyarakat untuk mempromosikan ke kerabat mereka
+bahkan beberapa masyarakat suatu kota terkadang masih kesulitan jika ingin menjelaskan pariwisata yang dimiliki kota yang ditinggali mereka
+pembelajaran berbasis multimedia dikembangkan atas dasar asumsi bahwa proses komunikasi di dalam pendekatan pembelajaran aktif dapat memperkuat dan memperlancar stimulus dan respons anak didik dalam pembelajaran
+serta media pembelajaran dapat mempermudah para siswa untuk lebih memahami mata pelajaran, dengan menambahkan animasi yang lebih menarik, suara yang jelas, dan gambar yang benar
+penggunaan animasi yang menarik adalah sesuatu yang penting untuk mendukung proses pengenalan, sehingga dalam penelitian ini menggunakan animasi sebagai pendukung faktor pengenalan
+perkembangan teknologi informasi dan komunikasi yang sangat pesat membawa dampak besar bagi perkembangan teknologi terkait
+berbagai macam disiplin ilmu turut berkembang pesat seiring dengan berkembangnya teknologi informasi dan komunikasi, salah satunya video game
+serta, game merupakan aplikasi yang edukatif, artinya bisa dijadikan sebagai media pembelajaran dimana prosesnya bisa dilakukan dengan konsep belajar sambil bermain
+penggunaan smartphone dengan sistem operasi android dan pengenalan dengan multimedia yaitu game diterapkan dalam penelitian ini untuk memperkenalan pariwisata kota pontianak
+terdapat banyak jenis permainan, dan salah satu yang digemari saat ini adalah endless runner game
+permainan ini adalah jenis permainan yang tidak ada akhir, dan tujuan pemain adalah harus mendapatkan skor tertinggi
+permainan ini berupa sebuah permainan yang mengharuskan pemain untuk berlari sejauh mungkin untuk mendapatkan skor, dan menghindari rintangan untuk menghindari kekalahan
+referensimenunjukkan endless runner game dapat memberikan pengalaman permainan yang menarik dan dapat dimainkan untuk mengisi waktu luang serta melatih reflek pemainnya dengan cara berinteraksi dengan tombol interaktif
+dalam penelitian ini, pemain akan bermain dengan latar kota pontianak, dan mendapatkan cerita seputar pariwisata dan budaya kota pontianak, meliputi suku, tempat wisata, dan makanan
+sehingga pemain akan mengetahui gambaran kota pontianak dan juga informasi mengenai budaya dan pariwisata kota pontianak
+demi mengasah informasi yang diberikan, saat pemain melakukan permainan, akan muncul beberapa pertanyaan seputar pariwisata dan budaya kota pontianak, dan jika berhasil menjawab, pemain akan mendapatkan sebuah power up
+berdasarkan uraian diatas, masih kurangnya angka pariwisata kota pontianak, dan tingginya penggunaan internet untuk bermain game, sehingga penelitian ini berfokus untuk meniliti penggunaan endless runner game sebagai media untuk memperkenalkan pariwisata kota pontianak untuk membantu menyelesaikan masalah tersebut
+uraian penelitian pengertian-pengertian mengenai pariwisata yang menitikberatkan pada kegiatan berwisata yang bertujuan untuk bersenang-senang dan mendapatkan service selama dalam perjalanan
+tetapi, konsep dalam ilmu pariwisata yang seharusnya didasari atas moral sehingga tercipta suatu tata krama yang baik selama melakukan perjalanan ke suatu negara atau wilayah
+pernyataan ini didukung oleh referensiyaitu secara etimologi, kata pariwisata berasal dari bahasa sansekerta, yaitu kata yang berarti halus, maksudnya mempunyai tata krama tinggi dan yang berarti kunjungan atau perjalanan untuk melihat, mendengar, menikmati dan mempelajari sesuatu
+jadi, pariwisata itu berarti menyuguhkan suatu kunjungan secara bertata krama dan berbudi
+referensimenunjukkan terdapat beberapa jenis pariwisata, salah satunya adalah pariwisata budaya adalah bentuk pariwisata yang ditandai dengan rangkaian motivasi seperti keinginan untuk belajar adat istiadat dan cara hidup rakyat negara lain, studi-studi/riset pada penemuan- penemuan, mengunjungi tempat-tempat peninggalan kuno/bersejarah dan lain-lain
+pariwisata pontianak terdapat banyak tempat pariwisata pontianak, seperti rumah radakang, jalan gajahmada, taman alun kapuas, istana kadariah, aloevera center, dan tugu khatulistiwa
+selain itu terdapat sungai terpanjang di indonesia yaitu sungai kapuas, referensimenunjukkan menyusuri sungai besar di pontianak merupakan salah satu kegiatan yang menarik karena wisatawan dapat melihat langsung kehidupan masyarakat setempat
+di tengah perjalanan menyusuri sungai kita bisa mampir di monumen khatulistiwa, tiga kilometer dari pusat kota
+setelah itu menyinggahi makam batu layang, makam keluarga kesultanan pontianak
+di cabang sungai tempat pertemuam sungai kapuas besar dan sungai landak berdiri istana kesultanan kadariyah yang sarat sejarah
+berdasarkan referensimenunjukkan masyarakat kalimantan barat merupakan masyarakat majemuk yang terdiri dari berbagai suku dan agama, namun dalam masyarakatnya tercipta suatu kerukunan yang sudah berlangsung sejak dahulu
+nilai-nilai budaya yang dimiliki masyarakat tersebut bersifat dinamis, mudah menerima masyarakat luar yang datang dan bersifat kekeluargaan
+modal dan potensi ini merupakan salah satu aset budaya bagi daerah kalimantan barat yang dapat dikembangkan dan mempunyai nilai jual sebagai salah satu objek wisata bagi masyarakat luas
+game development life cycle referensi6 menunjukkan game development life cycle adalah sebuah metode pembangunan dan pengembangan game, dimana di dalamnya ada tahapan inititation, pre-production, production, testing, beta, release
+initiation adalah titik inisiasi proyek game development
+awal dari game development adalah memulai dari ide game
+pre-production adalah awal dari production cycle yang berurusan dengan game design
+perancangan menggunakan uml 
+production adalah penyempurnaan game design dan prototype yang ada pada pre-production
+artinya, tahap ini memiliki fokus pada menerjemahkan rancangan game design, concept art, dan aspek lainnya menjadi unsur penyusun game
+alpha testing adalah untuk mendapatkan hasil analisis kualitas dari perangkat lunak yang dikembangkan
+hasil pengujian ini berupa hasil observasi oleh pengembang dari aspek performance dan compatibility
+bitbar testing digunakan sebagai pengujian aplikasi permainan dari segi fungsionalitas, kompabilitas, dan performa
+menggunakan metode ini lebih efektif dan mendalam karena pengujian ini mencakup pengujian blackbox, ditambah dengan pengujian kompabilitas, dan performa yang dilakukan secara cepat dan dalam beberapa device secara sekaligus
+beta testing adalah saat game selesai dibuat, belum berarti game tersebut akan diterima oleh massa
+eksternal testing, dikenal dengan istilah beta testing dilakukan untuk menguji penerimaan game dan untuk mendeteksi berbagai error dan keluhan yang dilemparkan oleh third party tester
+unified modelling language perancangan uml yang digunakan dalam penelitian yaitu use case, class, dan sequence diagram
+berikut adalah use case diagram yang dapat dilihat pada gambar 1
+game design document referensimenunjukkan terdapat dua alasan untuk dokumen ini dibuat, yaitu memori dan komunikasi
+desain dalam sebuah permainan penuh oleh keputusan yang membentuk sebuha permainan
+ada beberapa jenis dari desain dokumen
+mana yang digunakan dan informasi yang ada dalam dokumen tergantungan keputusan desainer
+penelitian ini menggunakan game design document yang terdiri dari high concept document, character design document, world design document, dan story progression document
+berikut adalah character design document yang dapat dilihat di gambar 2
+pengujian alpha pengujian metode, performa, dan memori menggunakan bitbar testing, dan dapat dilihat di gambar berikut: gambar 8
+hasil pengujian performa hasil tersembut menunjukkan semua metode dalam aplikasi dapat berjalan semua di perangkat android, dan penggunaan memori di sekitar 115mb dan cpu 29.1%
+pengujian beta pengujian beta dilakukan kepada 20 responden, dan memiliki kriteria masyarakat indonesia dan selain indonesia, berumur 20-30 tahun, dan pernah berwisata
+ 780 < skor < 1040, artinya program dinilai cukup berhasil
+ 520 < skor < 780, artinya program dinilai kurang berhasil
+ 260 < skor < 520, artinya program dinilai tidak berhasil
+analisis hasil berikut ini adalah hasil analisis hasil perancangan dan pengujian perangkat lunak aplikasi permainan dalam penelitian: 1
+hasil pengujian fungsional yang dilakukan oleh sistem dari perusahaan bitbar menunjukkan semua metode yang ada dalam permainan dapat berjalan semua dengan lancar
+hasil pengujian cpu usage dan memori yang dilakukan oleh sistem dari perusahaan bitbar menunjukkan aplikasi permainan lumayan menggunakan banyak memori untuk menjalankan aplikasi
+berdasarkan hasil kuesioner, secara umum responden menyukai sistem permainan dalam penelitian yang dilakukan
+berdasarkan hasil kuesioner, secara umum responden menyukai jalan cerita dan informasi pariwisata kota pontianak yang terdapat dalam permainan
+berdasarkan hasil kuesioner, secara umum responden menyukai tampilan, animasi, dan suara yang terdapat dalam permainan
+berdasarkan hasil kuesioner, mendapatkan kesimpulan bahwa metode game development life cycle dapat diimplemntasikan dalam perancangan permainan pengenalan pariwisata
+berdasarkan hasil kuesioner, mendapatkan kesimpulan bahwa endless runner game dapat memperkenalkan pariwisata dengan baik, dan dinilai berhasil
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap penerapan endless runner game sebagai media untuk memperkenalkan pariwisata kota pontianak, maka dapat ditarik kesimpulan sebagai berikut: 1
+aplikasi endless runner game untuk memperkenalkan pariwisata kota pontianak telah dibangun dan berjalan dengan baik berdasarkan pengujian bitbar testing
+penerapan endless runner game berhasil memperkenalkan, dan meningkatkan pemahamanan pariwisata kota pontianak pada masyarakat dalam dan luar negeri, ditunjukkan dengan berdasarkan skala likert’s summated rating korelasi kemampuan responden menjawab pertanyaan pariwisata kota pontianak yaitu 0, 94 yang berarti sangat kuat
+informasi edukatif tentang pariwisata kota pontianak telah dirancang dan diterima dengan baik, berdasarkan hasil kuesioner yang mencakup mekanik, cerita atau informasi, aestetika, dan menggunakan skala likert’s summated rating untuk pengolahan data
+nilai yang didapatkan adalah 1139 dari nilai maksimum 1300, dapat disimpulkan aplikasi yang telah dirancang dinilai cukup berhasil

@@ -1,0 +1,28 @@
+nggrek coelogyne septi hidayati septihidayati.ti@gmail.com anggrek lainnya
+anggrek ini memiliki daun tipis seperti daun tunas kelapa, jumlah tulang daun yang berbeda untuk setiap spesies, lebar dan bentuk ujung daun yang berbeda, juga memiliki bulb atau umbi semu untuk menyimpan cadangan makanan yang mencegah tanaman bentuk bulb itu sendiri bervariasi untuk setiap spesies anggrek dari jenis coelogyne
+berdasarkan ciri tersebut dengan adanya perkembangan teknologi, tujuan dari penelitian ini adalah untuk membangun suatu sistem pakar yang menghasilkan informasi nama spesies ciri-ciri fisiknya dengan menggunakan metode dempster-shafer
+aplikasi sistem untuk memudahkan pengguna dalam identifikasi berupa nama spesies dimasukkan
+hasil pengujian keakuratan anggrek coelogyne dibandingkan dengan identifikasi adalah sebesar 93, 33%
+berdasarkan nilai rata-rata user tersebut didapatkan dari hasil uat untuk pakar pertama dan pakar kedua
+hasil perhitungan nilai uat user sebanyak 30 responden, didapat hasil pengujian aplikasi sistem pakar anggrek coelogyne oleh user sebesar 84, 33%
+pakar, dempster-shafer, uat tapi pada umumnya terbagi menjadi dua yaitu anggrek spesies dan anggrek hibrida atau hasil persilangan
+anggrek spesies adalah anggrek yang diambil langsung dari habitatnya
+salah satu anggrek spesies adalah coelogyne
+contoh spesies anggrek coelogyne adalah coelogyne pandurata dilindungi
+anggrek coelogyne hidup di pinggiran sungai atau di daerah rawa hingga hutan hujan di wilayah pegunungan
+kalimantan barat juga lebar dan bentuk ujung daun yang berbeda, juga memiliki bulb atau umbi semu untuk menyimpan cadangan makanan yang air berkurang
+bentuk bulb itu sendiri bervariasi untuk setiap spesies anggrek dari jenis coelogyne
+dari setiap ciri fisik tanaman anggrek coelogyne kita dapat menentukan spesiesnya
+mengetahui spesies anggrek coelogyne tidak semua orang dapat bertemu langsung antara lain jarak yang jauh, tidak adanya pakar, maupun biaya yang dibutukan untuk mendapatkan informasi
+dengan dapat dibuat suatu sistem pakar
+sistem pakar sebagai salah satu cabang dari kecerdasan buatan menangkap dan memadukan pengetahuan
+dalamnya terdapat basis pengetahuan yang berupa pengetahuan non-formal dari pengalamanya bekerja selama bertahun-tahun pada sebuah bidang inferensi
+metode inferensi yang anggrek coelogyne adalah dempster- shafer
+teori dempster-shafer adalah berdasarkan belief akal), yang digunakan untuk ini dikembangkan oleh arthur p
+merupakan model ketidakpastian yang menggunakan rentang dipaparkan, dibangunlah suatu sistem mengidentifikasi spesies angggrek mengetahui spesies anggrek coelogyne daun
+data tersebut harus dimasukkan secara lengkap untuk mendapatkan spesies anggrek coelogyne apa yang kita miliki dan bagaimana bentuk bunganya
+coelogyne adalah anggrek epifit dan terkadang dijumpai hidup di tanah maupun litofit 
+di dunia terdapat 190 spesies dan 60 spesies berada di kalimantan
+anggrek yang sangat popular adalah 
+bunga berukuran besar dan umumnya sangat menarik
+untuk mengenal tanaman ini tidaklah sulit, umumnya satu pseudobulb menghasilkan 2.2 sistem pakar sistem pakar adalah aplikasi berbasis komputer yang digunakan untuk menyelesaikan masalah sebagaimana yang diselesaikan orang awam

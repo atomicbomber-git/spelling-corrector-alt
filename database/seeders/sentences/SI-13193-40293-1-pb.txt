@@ -1,0 +1,68 @@
+namun, pada era ini sudah sangat sulit menemukan orang yang masih mengetahui tentang sejarah dan kebudayaan dikarenakan kurang menariknya budaya masa lalu yang berakibat banyaknya budaya asing yang cenderung lebih menarik sehingga menggeser keberadaan sejarah dan budaya yang ada
+masyarakat sebagai bangsa indonesia juga perlu untuk mengetahui sejarah bangsa indonesia termasuk sejarah daerahnya
+berkurangnya minat masyarakat disebabkan kurangnya media yang menghibur dan mengedukasi
+game merupakan bentuk aplikasi yang edukatif, artinya bisa dijadikan sebagai media pembelajaran dimana prosesnya bisa dilakukan dengan konsep belajar sambil bermain
+berdasarkan permasalahan yang telah diuraikan di atas, maka dapat dibuat sebuah game berbasis android dengan sistem edukasi 
+permainan atau yang disebut dengan game dibuat ber-genre arcade berbasis android dengan sistem edukasi agar dapat memberikan kontribusi kepada masyarakat kalimantan barat dan sebagai media alternatif dalam memberikan pembelajaran tentang ilmu sejarah khususnya tentang sejarah pahlawan ali anyang
+pengujian pada penelitian ini dilakukan dengan pengujian black box, kuesioner dan pre-test pos-test
+game edukasi hero of borneo ini diterima oleh masyarakat kalimantan barat dengan sangat positif dengan skala likert’s summated rating nilai yang didapat adalah 1551 dari nilai maksimum 1950
+di indonesia sendiri terdapat beragam sejarah dan kebudayaan yang menjadikan indonesia memiliki banyak suku bangsa
+namun, pada era ini sudah sangat sulit menemukan orang yang masih mengetahui tentang sejarah dan kebudayaan dikarenakan kurang menariknya budaya masa lalu yang berakibat banyaknya budaya asing yang cenderung lebih menarik sehingga menggeser keberadaan sejarah dan budaya yang ada
+meskipun demikian, sejarah di indonesia memiliki potensi yang luar biasa dan harus didukung oleh pengenalan yang baik
+mengetahui sejarah bangsa indonesia, termasuk sejarah daerahnya
+berkurangnya minat masyarakat disebabkan kurangnya media yang menghibur dan benar benar mengedukasi
+hal ini tidak saja terjadi pada siswa-siswi di bangku sekolah namun juga terjadi pada kalangan masyarakat
+permainan atau yang disebut dengan game lebih diminati oleh banyak orang karena sudah berkembang lebih menarik dan lebih menyenangkan dengan tampilan grafis dan efek game yang ada
+bisa dilakukan dengan konsep belajar sambil bermain
+definisi dari permainan edukatif sendiri adalah semua bentuk permainan yang dirancang untuk memberikan pengalaman pendidikan atau pengalaman belajar kepada para pemainnya, termasuk permainan tradisional dan yang diberi muatan pendidikan dan pengajaran
+rancang bangun game edukasi hero of borneo berbasis android 
+pada saat ini serta untuk meningkatkan efisiensi penyediaan aplikasi yang mengandung unsur pendidikan yang bisa diterapkan sebagai alat untuk mempermudah proses pembelajaran, maka dalam penelitian ini akan dibangun sebuah game yang berkonsep edukasi sejarah pahlawan dengan judul 
+permasalahan yang ada, karena game sangat mudah diterima oleh semua kalangan
+game ini akan dibuat menyerupai game petualangan yang cara bermainnya mudah dimengerti, namun dengan tambahan informasi sejarah di setiap stage-nya
+uraian penelitian anyang tergerak hatinya untuk mengabdi dan berjuang membela kemerdekaan
+itu diwujudkan dengan bergabung bersama sejumlah pemuda yang menamakan diri panitia penyongsong republik indonesia 
+tujuan pembentukan ppri tersebut adalah untuk menyebarluaskan berita proklamasi kemerdekaan indonesia ke seluruh daerah di kalbar
+sebagai anggota ppri, ali anyang berperan dalam mencegah perebutan kekuasaan di pontianak, yang akan dilakukan orang-orang cina yang tergabung dalam organisasi penjaga keamanan umum 
+pada 12 november 1945, ali anyang bersama pejuang lainnya menyerbu ke tangsi dan gudang amunisi belanda di pontianak
+ali anyang pergi ke wilayah pantai utara kalbar, antara lain ke mempawah, singkawang dan sambas
+tiba di singkawang, ia ditetapkan sebagai komandan pemberontakan di kalbar oleh organisasi barisan pemberontak republik indonesia 
+yang berlangsung di masa lampau tapi tidak semua hal yang terjadi di masa lampau itu di catat dalam sejarah karena yang berkaitan dengan sejarah adalah hal-hal atau kejadian-kejadian penting yang dapat mempengaruhi kehidupan manusia itu sendiri baik pada masanya, masa sekarang ataupun pada masa yang akan dating
+permainan dalam hal ini merujuk pada pengertian 
+kelincahan intelektual, pada tingkat tertentu, merupakan ukuran sejauh mana game itu menarik untuk dimainkan secara maksimal dengan kata lain, segala bentuk kegiatan yang memerlukan pemikiran, kelincahan intelektual dan pencapaian terhadap target tertentu dapat dikatakan sebagai game
+unity dengan memberikan beberapa logika untuk membangun sekenario game yang sudah dibayangkan
+unity adalah salah satu game engine yang mudah digunakan, hanya membuat objek dan diberikan fungsi untuk menjalankan objek tersebut
+dalam setiap objek mempunyai variabel, variabel inilah yang harus dimengerti supaya dapat membuat game yang berkualitas
+perancangan uml pada penelitian ini dapat dilihat pada gambar 2 dibawah ini
+sedangkan penggunaan cerita pada game ini berdasarkan teori metode pembelajaran dengan menggunakan metode cerita
+berikut adalah desain storyline atau alur cerita pada aplikasi game edukasi hero of borneo ini
+pengujian black box merupakan metode pengujian dimana input berupa suatu set data digunakan untuk menguji validitas dari integrasi dan konsistensi sistem
+pengujian kuesioner yang akan dilakukan adalah user acceptance test, yaitu menguji tingkat penerimaan user terhadap sistem melalui kuesioner
+game edukasi hero of borneo merupakan sebuah game berbasis android dengan sistem education yang dapat memberikan kontribusi kepada masyarakat dan anak-anak sebagai media alternatif dalam memberikan pembelajaran tentang ilmu sejarah khususnya sejarah tokoh pahlawan ali anyang
+combat and scoring system combat system dalam game ini dirancang semudah mungkin untuk dimainkan
+user ditugaskan untuk menghadapi atau menghindar dari musuh-musuh yang berusaha menghalangi perjalanan user untuk mencapai titik akhir dan melawan boss
+pemain dapat membunuh musuh dengan melakukan serangan kepada musuh sampai nyawa musuh tidak tersisa
+jika musuh menyerang user maka nyawa user akan berkurang sesuai kekuatan musuh di setiap level
+jika nyawa user sama dengan 0 maka user akan mati dan permainan dinyatakan kalah dan pemain dapat memulai dari stage kembali
+pemain harus mengalahkan boss untuk menyelesaikan stage dan melanjutkan pada stage berikutnya
+permainan dinyatakan menang jika berhasil menyelesaikan setiap stage dalam permainan
+aplikasi yang dibangun hanya ditujukan untuk masyarakat kalimantan barat
+hasil perancangan antarmuka aplikasi dapat dilihat pada gambar berikut ini
+hasil black box berjalan sebagaimana yang diharapkan
+tombol mulai menampilkan stage permainan tampil tombol pengaturan menampilkan pengaturan tampil tombol audio mengatur volume musik tampil tombol kredit menampilkan pembuat game tampil tombol keluar keluar dari permainan tampil tombol up membuat karakter melompat tampil tombol right membuat karakter ke depan tampil tombol left membuat karakter ke belakang tampil tombol punch menyerang dengan tangan tampil tombol sword menyerang dengan pedang tampil tombol pause pause game atau memberhentikan permainan d
+hasil kuesioner terhadap 13 butir pertanyaan yang dibagi menjadi 3 aspek, yaitu aspek mechanics, aspek story, dan aspek aesthetics
+hasil kuesioner yang dapat dilihat pada gambar 11
+hasil penelitian pada interpretasi lsr perhitungan nilai rata-rata kemampuan responden menjawab kuisioner tentang game edukasi sejarah ali anyang sebelum menggunakan aplikasi game edukasi sejarah ali anyang dapat dihitung menggunakan rumus sebagai berikut: m = ∑𝑥 responden menjawab kuesioner tentang sejarah ali anyang sesudah menggunakan aplikasi game edukasi petualangan hero of borneo dapat dihitung menggunakan rumus yang sebagai berikut: m = 78.33 dari hasil kuesioner yang telah dilaksanakan dapat diketahui bahwa kemampuan responden dalam menjawab soal kuesioner sejarah ali anyang sesudah memainkan aplikasi game edukasi hero of borneo meningkat sebesar 36.36
+pada nilai kolerasi kemampuan responden dalam menjawab soal kuesioner tentang sejarah ali anyang sebelum dan sesudah memainkan game edukasi hero of borneo dapat dihitung menggunakan rumus sebagai berikut: edukasi hero of borneo adalah 0, 946
+borneo : aplikasi ini dapat digunakan dan berjalan dengan lancar
+secara umum responden menyukai aplikasi game edukasi hero of borneo
+gameplay pada game edukasi hero of borneo
+secara umum responden dapat mengerti dan memahami materi sejarah yang ada pada game edukasi hero of borneo
+tombol-tombol yang ada pada menu game seperti tombol mulai, tombol pengaturan, tombol kredit dan tombol keluar berfungsi sesuai dengan yang diharapkan
+tombol kontrol pada gameplay seperti tombol untuk menggerakan karakter, tombol untuk mengeluarkan skill dengan tangan, tombol untuk mengeluarkan skill pedang, tombol untuk pause game dan tombol lanjutkan berfungsi sesuai dengan yang diharapkan
+digunakan dalam perancangan game edukasi sejarah
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa aplikasi game edukasi hero of borneo dinilai berhasil
+kesimpulan pengujian perangkat lunak aplikasi game edukasi hero of borneo dapat disimpulkan bahwa : edukasi tentang sejarah ali anyang
+hasil perancangan dan pengujian dengan metode black box menunjukan bahwa aplikasi ini dapat digunakan dan berjalan dengan lancar
+dari segi tampilan, storyline, gameplay, dan materi sejarah ali anyang yang ada pada game edukasi hero of borneo
+berdasarkan hasil kuisioner dan pengujian, metode a* dapat digunakan dalam perancangan game edukasi sejarah
+game edukasi hero of borneo ini diterima oleh masyarakat kalimantan barat dengan sangat positif dengan skala likert’s summated rating nilai yang didapat adalah 1551 dari nilai maksimum 1950

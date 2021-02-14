@@ -1,0 +1,195 @@
+tindak kriminalitas khususnya pencurian sepeda motor di kota pontianak dan sekitarnya sudah menjadi keresahan yang dialami oleh warga kota pontianak sejak sangat lama
+cara yang sering diterapkan pelaku tindak kejahatan pencurian sepeda motor adalah dengan membobol kunci kontak menggunakan kunci leter t
+permasalahan tersebut dapat diatasi dengan membangun sistem pengendali kunci kontak sepeda motor menggunakan gelombang bunyi sebagai password berbasis mikrokontoler
+cara kerjanya adalah jika tidak memasukkan password yang sesuai, sepeda motor tidak akan bisa dihidupkan walau kunci kontak dalam posisi on, justru sistem akan menghidupkan alarm
+tujuan penelitian ini menghasilkan sistem yang mampu mengendalikan kunci kontak sepeda motor dengan memanfaatkan gelombang bunyi yang berasal dari ketukan sebagai password untuk memberi perintah kepada sistem, sistem dapat mengolah data gelombang bunyi yang diterima, sistem dapat mengatur ulang password menggunakan aplikasi android dan sistem dapat mengendalikan kunci kontak sepeda motor
+berdasarkan hasil analisis dan pengujian, sistem mampu mengendalikan kunci kontak sepeda motor yang diperintah menggunakan gelombang bunyi yang berasal dari ketukan, yang mana pada penelitian ini maksimal ketukan sebanyak 20 kali, dengan jumlah tingkat pengenalan password sebesar 80%
+apabila buzzer menghasilkan tegangan diatas 0.14 volt maka sistem akan mendeteksi sebagai 1 kali ketukan, dan apabila tegangan yang dihasilkan tidak mencapai 0.14 volt maka ketukan dianggap 0
+sistem yang dibangun cukup aman, karena mengatur ulang password dilakukan dengan aplikasi yang diberi nama yang mampu berjalan pada sistem operasi andorid dan berkomunikasi dengan perangkat keras sistem melalui bluetooth
+pendahuluan tingkat kriminalitas khususnya pencurian sepeda motor di kota pontianak dan sekitarnya sudah menjadi keresahan yang dialami oleh warga kota pontianak sejak sangat lama
+berdasarkan data kepolisian sektor pontianak utara yang diberitakan pada laman web pontianak.tribunnews.com, jumat 27 oktober 2017 jam 14.43 wib, setidaknya tercatat ada 82 laporan masuk baik pencurian maupun percobaan pencurian sepanjang 1 januari 2017 hingga 30 september 2017
+data tersebut diatas terbilang cukup tinggi sehingga masyarakat pontianak harus sangat berhati-hati dalam menjaga sepeda motornya disaat berada di tempat umum atau dirumah sekalipun
+cara yang sering diterapkan pelaku tindak kejahatan pencurian sepeda motor adalah dengan membobol kunci kontak dengan kunci leter t, sehingga motor dengan mudah dihidupkan dan dibawa lari oleh pelaku
+cara yang paling tepat untuk mengurangi masalah tersebut diatas adalah dengan memanfaatkan teknologi yang berkembang sangat pesat saat ini
+salah satu teknologi yang dapat dijadikan alternatif adalah mikrokontroler
+perkembangan mikrokontroler yang luar biasa sangat berpotensial menciptakan sistem proteksi yang sangat baik untuk sepeda motor
+berdasarkan hal tersebut diatas diperlukan sebuah sistem berbasis mikrokontroler yang mampu mengendalikan kunci kontak sepeda motor
+sistem ini mampu menerima sebuah gelombang bunyi yang dikirim melalui media benda padat
+gelombang bunyi tersebut berasal dari ketukan yang membentuk suatu pola
+pola inilah yang akan dikenali oleh sistem sebagai password
+jika password yang dikirim bernilai true, maka sistem akan merespon dengan mengendalikan kunci kontak sepeda motor
+tujuan penelitian ini menghasilkan sistem yang mampu mengendalikan kunci kontak sepeda motor dengan memanfaatkan gelombang bunyi yang berasal dari ketukan sebagai password untuk memberi perintah kepada sistem, sistem dapat mengolah data gelombang bunyi yang diterima, sistem dapat mengatur ulang password menggunakan aplikasi android dan sistem dapat mengendalikan kunci kontak sepeda motor penelitian ini mengacu kepada dua penelitian terdahulu
+sistem pembukaan kunci automatis dengan menggunakan identifikasi pola ketukan
+pertama, rantelinomelakukan penelitian tentang 
+hasil penelitian ini berupa sistem yang mampu membuka pintu dengan mengidentifikasi ketukan
+sistem dapat menyimpan pola ketukan yang direkam
+untuk mengganti ketukan baru dilakukan dengan push button pada sistem
+aplikasi arduino-android untuk keamanan sepeda motor
+kedua, kholilahmelakukan penelitian tentang sistem keamanan sepeda motor yang berjudul 
+sistem keamanan yang dibangun berbasis relay yang dapat dikendalikan melalui smartphone dengan sistem operasi android v4.4 
+sistem komunikasi dirancang dengan menggunakan modul bluetooth hc-06 yang diintegrasikan dengan papan mikrokontroler arduino uno ide yang diangkat pada penelitian ini adalah penggabungan dari ide kedua penelitian menjadi satu sistem yang diimplementasikan pada kendaraan sepeda motor, dengan beberapa modifikasi seperti metode penggantian password yang dilakukan menggunakan smartphone dengan komunikasi bluetooth yang diintegrasikan dengan mikrokontroler
+sistem yang dibangun menjadi salah satu solusi yang bisa digunakan untuk mengatasi masalah keamanan sepeda motor pada kasus-kasus pencurian sepeda motor dengan modus membobol paksa kunci kontak menggunakan kunci leter t
+kunci kontak kunci kontak berfungsi untuk pengontrol suplay arus menuju sakelar power window
+sakelar power window akan disuplay arus pada saat kunci kontak berada pada posisi on dan acc, selain itu sakelar power window tidak dapat dijalankan
+bunyi bunyi merupakan gelombang mekanis jenis longitudinal yang merambat
+sementara itu, suara adalah bunyi yang dihasilkan oleh makhluk hidup atau benda yang dianggap hidup
+contohnya, pada benda mati seperti bunyi ledakan bom dan bunyi guntur
+suara deru mobil, atau suara daun-daun yang berbisik
+adapun contoh pada makhluk hidup dan benda yang dianggap hidup 
+sumber bunyi berupa benda yang bergetar
+bunyi bisa kita dengar disebabkan getaran benda sebagai sumber bunyi itu menggetarkan udara di sekitarya dan melalui medium udara itu bunyi merambat sampai ke gendang telinga
+getaran udara yang merambat di udara melukiskan perambatan gelombang bunyi di udara
+gelombang itu sebenarnya merupakan variasi tekanan udara secara periodik di sepanjang lintasan perambatannya
+tekanan udara periodik inilah yang menggetarkan selaput gendang telinga
+mikroprosesor mikroprosesor adalah sebuah chip yang dapat melaksanakan operasi-operasi hitungan, nalar, dan operasi kendali secara elektronis 
+biasanya mikroprosesor dikemas dengan plastik atau keramik
+kemasannya dilengkapi dengan pin - pin yang merupakan terminal masukan dan keluaran dari chip
+atmega328/p adalah mikrokontroler cmos 8-bit berdaya rendah berdasarkan pada arsitektur risc yang disempurnakan oleh avr
+dengan mengeksekusi instruksi yang kuat dalam satu siklus clock tunggal, atmega328 / p berhasil mencapai sekitar 1 mips per mhz
+atmega328/p menyediakan fitur-fitur berikut: tabel i fitur atmega 328/pno features atmega328/p 5 general purpose i/o lines 23 6 spi 2 10 adc channels 8 11 8-bit timer/counters 2 12 16-bit timer/counters 1 mikrokontroler adalah ic single chip yang didalamnya terkandung ram, rom, mikroprosesor, dan piranti i/o yang saling terkoneksi, serta dapat diprogram berulang kali, baik ditulis atau dihapus
+arduino salah satu yang mambuat arduino memikat hati banyak orang adalah karena sifatnya yang open source, baik untuk hardware maupun software-nya
+diagram rangkayan elektronik arduino digratiskan untuk semua orang
+anda bisa bebas mengunduh gambarnya, membeli komponen- komponennya, membuat pcb-nya dan merangkainya sendiri tanpa harus membayar kepada para pembuat arduino
+arduino uno arduino uno adalah papan mikrokontroler berdasarkan atmega328p 
+yang dapat digunakan sebagai output pwm
+arduino uno memiliki 14 pin input/ utput digital, 6 input analog, 16 mhz quartz crystal, koneksi usb, colokan listrik, header icsp dan tombol reset
+arduino uno berisi semua yang dibutuhkan untuk mendukung mikrokontroler, cukup hubungkan ke komputer dengan kabel usb atau nyalakan dengan adaptor ac-ke-dc atau baterai untuk menjalankannya
+bluetooth bluetooth adalah salah satu standar teknologi nirkabel yang sangat populer, yang memungkinkan pengiriman data antara dua peranti tanpa menggunakan kabel
+gelombang radio yang digunakan adalah jenis uhf dengan jalur dari 2, 4 ghz hingga 2.485 ghz
+led led adalah komponen yang dapat mengeluarkan emisi cahaya
+led merupakan produk temuan lain setelah dioda
+struktumya juga sama dengan dioda, tetapi belakangan ditemukan bahwa elektron yang menerjang sambungan positif-negatif juga melepaskan energi berupa energi panas dan energi cahaya
+led dibuat agar lebih efisien jika mengeluarkan cahaya
+untuk mendapatkan emisi cahaya pada semikonduktor, doping yang pakai adalah galium, arsenik, dan fospor
+jenis doping yang berbeda menghasilkan warna cahaya yang berbeda pula
+relay relay adalah suatu komponen yang dipakai untuk mengontrol aliran arus yang besar melalui tegangan kecil
+saat coil relay diberi magnet, maka dia akan menarik lever arm, yang disebut armatur
+titik kontak pada armatur akan menutup atau membuka berdasarkan posisi awalnya
+posisi awal mengacu pada posisi kontak sebelum solenoid dialiri listrik
+ada relay normaly open dan nommly closed 
+1 kontruksi umum sebuah relay relay adalah switch listrik atau remote control yang dikendalikan oleh switch lain, seperti saklar kombinasi, switch ac, kunci kontak, dan lainnya
+relay memungkinkan sirkuit arus kecil untuk mengendalikan rangkaian arus yang lebih tinggi
+beberapa desain relay yang digunakan saat ini antara alin 3-pin, 4-pin, s-pin, dan 6-pin, dengan switch tunggal atau switch ganda
+buzzer buzzer adalah sebuah komponen elektronika yang berfungsi untuk mengubah getaran listrik menjadi getaran suara
+pada dasarnya prinsip kerja buzzer hampir sama dengan loud speaker, jadi buzzer juga terdiri dari kumparan yang terpasang pada diafragma dan kemudian kumparan tersebut dialiri arus sehingga menjadi elektromagnet, kumparan tadi akan tertarik ke dalam atau keluar, tergantung dari arah arus dan polaritas magnetnya, karena kumparan dipasang pada diafragma maka setiap gerakan kumparan akan menggerakkan diafragma secara bolak balik sehingga membuat udara bergetar yang akan menghasilkan suara
+2 buzzer aktif dan pasif tampak dari atas dari bawah 
+buzzer biasa digunakan sebagai indikator bahwa proses telah selesai atau terjadi suatu kesalahan pada sebuah alat 
+buzzer adalah perangkat elektronika yang terbuat dari elemen piezoceramics pada suatu diafragma yang mengubah getaran/vibrasi menjadi gelombang suara
+buzzer menggunakan resonansi untuk memperkuat intensitas suara
+analog to digital converter analog to digital converter adalah pengubah input analog menjadi kode kode digital adc banyak digunakan sebagai pengatur proses industri, komunikasi digital dan rangkaian pengukuran/pengujian
+umumnya adc digunakan sebagai perantara antara sensor yang kebanyakan analog dengan sistim komputer seperti sensor suhu, cahaya, tekanan/ berat, aliran dan sebagainya kemudian diukur dengan menggunakan sistim digital 
+proses yang terjadi dalam adc adalah pencuplikan, pengkuantisasian dan pengkodean
+electronic erasable programmable read only memory
+eeprom eeprom adalah memori yang tidak akan hilang ketika catu daya juga hilang
+ketika power on, isi memori akan tetap ada seperti sebelumnya
+sifat dari eeprom adalah bisa dihapus dan diisi ulang, berbeda dengan rom yang hanya bisa diisi data sekali saja dan berlaku selamanya
+eeprom ini sama sekali berbeda dengan ram yang akan hilang datanya ketika tidak mendapat catu daya
+eeprom di arduino besarnya berbeda-berbeda tergantung tipe mikrokontroller yang ada di dalamnya
+paling besar di antara tipe arduino board lainnya
+sebagai contoh, arduino uno memiliki eeprom sebesar 1 kb, arduino nano hanya dibekali eeprom 512 byte sedangkan arduino mega dipersenjatai dengan eeprom sebesar 4kb 
+4 ilustrasi eeprom nomor rak yang ditunjukkan pada gambar
+4, adalah jumlah alamat yang dimiliki eeprom tersebut, sedangkan lebar datanya adalah 1 byte 
+jadi apabila ukuran eeprom adalah 1 kb, berarti eeprom tersebut memiliki 1k alamat dengan masing-masing alamat berisi data selebar 8 bit 
+berarti, data yang dapat disimpan hanya akan dapat bernilai 0 sampai dengan 28 -1 
+pangkat '8' disini diperoleh karena lebar data adalah 8 bit, sedangkan angka '2' disini karena dalam dunia digital hanya mengenal 2 angka saja, yakni '0'dan '1' 
+hitungan ini berlaku untuk semua tipe memori baik itu ram maupun rom
+perancangan arsitektur sistem arsitektur sistem merupakan gambaran garis besar cara kerja sistem yang digambarkan melalui model – model yang saling berhubungan
+perancangan arsitektur sistem berguna untuk memberi gambaran umum letak pemasangan sistem pada sepeda motor
+perancangan arsitektur sistem dapat dilihat pada gambar 6 dibawah ini
+perancangann mode sistem pada penelitian ini sistem memiliki beberapa mode yaitu mode ganti password aktif, mode ganti password tidak aktif, mode keamanan aktif dan mode keamanan tidak aktif
+mode keamanan aktif dan mode keamanan tidak aktif adalah cara sistem mengendalikan kunci kontak sepeda motor
+cara kerja sistem saat mode keamanan aktif maupun mode keamanan tidak aktif dapat dilihat dalam jurnal ini pada gambar 9, gambar 10 dan gambar 11
+diagram blok sistem diagram blok sistem menjelaskan komponen yang saling terhubung dalam sistem
+komponen-komponen sistem dapat dilihat pada diagram blok berikut: gambar
+7 diagram blok sistem 1) buzzer berfungsi sebagai sensor, tugasnya sebagai penerima sinyal gelombang bunyi
+jika buzzer memiliki kumparan yang terpasang pada diafragma dan kemudian kumparan tersebut dialiri arus listrik sehingga menghasilkan bunyi, pada sistem ini buzzer bekerja sebaliknya
+8 ketukan yang diberikan kepada sistem menghasilkan getaran dan kemudian menghasilkan bunyi
+getaran tersebut kemudian menggetarkan diafragma yang terdapat pada buzzer sehingga menghasilkan tegangan listrik dan kemudian tegangan listrik tersebut diubah menjadi data digital dengan menggunakan analog to digital converter pada arduino sistem akan mendeteksi sebuah ketukan apabila buzzer menghasilkan tegangan lebih besar dari 0.14 volt, maka ketukan tersebut akan dibaca sebagai input 
+2) arduino uno adalah otak dari sistem, didalamnya terdapat program untuk mengolah data yang diterima untuk mengendalikan kunci kontak sepeda motor
+password pada sistem adalah deretan ketukan yang kontinyu terhadap waktu dan mempunyai informasi
+sebuah ketukan memuat data seperti nomor ketukan, tegangan, waktu dan interval gambar
+9 adalah sebuah contoh password yang berisi 4 ketukan, yang mana pada penelitian ini dirancang maksimal ketukan sebanyak 20 kali
+jumlah ketukan yang terlalu banyak akan sulit untuk diingat dan jumlah ketukan yang terlalu sedikit akan mengurangi variasi dari sebuah password, dengan pertimbangan ini maka ditentukan maksimal ketukan pada sebuah password sebanyak 20 kali
+rentang waktu antar ketukan disebut interval dengan satuan mili detik dan maksimal interval yang ditentukan adalah 1200 ms
+untuk mendapatkan nilai interval adalah waktu ketukan 2 dikurang waktu ketukan 1, waktu ketukan 3 dikurang ketukan 2 dan begitu seterusnya
+nilai interval inilah yang membuat deretan ketukan menjadi unik dan kemudian dijadikan sebagai sebuah password
+3) led berfungsi memberikan notifikasi kepada user
+pada saat sistem dalam keadaan standby led hijau selalu menyala, jika terdeteksi ketukan maka led hijau akan berkedip sesuai ketukan
+led merah akan berkedip jika sistem mendeteksi sebuah password yang salah
+led hijau berkedip apa bila password benar
+pada saat sistem dalam mode keamanan aktif, led merah terus menyala, dan apabila sistem dalam mode keamanan tidak aktif, led merah akan terus padam
+saat mode ganti password diaktifkan, led kuning menyala, dan sebaliknya saat mode ganti passwrod tidak aktif, led kuning padam
+pada saat password direkam led merah, kuning dan hijau akan berkedip sesuai ketukan password
+4) sistem juga dapat terhubung dengan smartphone android dengan media bluetooth
+5) smartphone diperlukan untuk mengaktifkan mode ganti password dengan aplikasi yang diberi nama reset password
+6) relay akan terhubung langsung dengan kelistrikan sepeda motor yaitu pada kabel penghubung antara kunci kontak dengan accu/aki
+selain itu relay juga terhubung dengan alarm
+relay berfungsi sebagai switch yang dikendalikan arduino cara kerja relay mengendalikan kunci kontak sepeda motor dapat dilihat pada gambar 10, gambar 11 dan gambar 12
+10 kondisi relay saat mode keamanan aktif dapat dilihat pada gambar 10 relay 1 dalam kondisi normally close dan relay 2 dalam kondisi normally open, serta relay 3 dalam kondisi normally close
+artinya dalam kondisi tersebut, relay 2 menyambungkan arus dari baterai/accu ke kelistrikan sepeda motor
+relay 2 juga memutuskan koneksi ke relay 1 sehingga arus dari baterai/accu ke alarm terputus
+dalam kondisi mode keamanan tidak akttif sepeda motor bisa digunakan seperti biasa tanpa khawatir alarm akan berbunyi
+11 kondisi relay saat mode keamanan tidak aktif dapat dilihat pada gambar 11 relay 1 dalam kondisi normally open dan relay 2 dalam kondisi normally close, serta relay 3 dalam kondisi normally close
+artinya relay 2 memutuskan arus dari baterai/accu ke kelistrikan sepeda motor dan menyambungkan koneksi ke relay 1 sehingga arus dari baterai/accu ke alarm
+dalam kondisi mode keamanan aktif apabila kunci kontak berada pada posisi on ataupun kunci kontak dibobol paksa menggunakan kunci t, kelistrikan sepeda motor tidak mengalir menyebabkan sepeda motor tidak dapat dihidupkan, justru alarm yang berbunyi
+pada mode keamanan aktif, apabila terjadi kesalahan input password sebanyak 5 kali maka alarm akan berbunyi selama 10 detik
+cara kerja relay karena kesalahan password sebanyak 5 kali, dapat dilihat pada gambar 12
+12 kondisi relay jika password salah sebanyak 5 kali saat mode keamanan aktif pada gambar
+12 relay 1 dalam kondisi normally close dan relay 3 dalam kondisi normally open
+artinya dalam kondisi ini relay 1 memutuskan koneksi ke relay 2 dan menyambungkan koneksi ke relay 3 sehingga arus dari baterai/accu mengalir menuju relay 3 lalu ke relay 1 dan akhirnya ke alarm yang kemudian mengeluarkan bunyi
+kondisi ini hanya berlangsung selama 10 detik, setelah itu alarm akan kembali padam
+perancangan diagram alir sistem diagram alir sistem dibuat untuk menjelaskan proses yang berjalan dan bagaimana sistem bekerja
+cara kerja sistem pada saat mengganti password dapat dilihat pada gambar 13
+13 diagram alir validasi password dapat dilihat pada gambar 13, mengganti password dilakukan apabila mode ganti password aktif dan setiap pergantian password selesai, sistem otomatis berada pada mode keamanan aktif
+password yang diinputkan akan tersimpan pada eeprom arduino uno r3 yang memiliki kapasitas sebesar 1 kb, artinya memiliki 1024 alamat penyimpanan yang hanya menyimpan data dengan panjang 8 bit
+data yang tersimpan pada eeprom adalah nilai interval dari masing- masing ketukan
+sebelum disimpan nilai interval dikonversi terlebih dahulu kedalam sebuah rentang nilai 0 - 100
+untuk melakukan konversi, terlebih dahulu sistem mencari nilai tertinggi dari masing-masing nilai interval 
+pada penelitian ini nilai interval tertinggi = 100 dan nilai interval lainya dihitung menggunakan persamaan 1
+ konversi dilakukan agar setiap nilai interval mampu diwakilkan dengan hanya menggunakan 8 bit data, dengan begitu setiap satu nilai interval akan tersimpan pada satu alamat di eeprom
+13 adalah contoh password yang akan disimpan pada eeprom
+14 contoh password pada gambar 14, terlihat sebuah password yang memiliki 4 ketukan dengan kekuatan ketukan yang sama dan memiliki 3 nilai interval yang berbeda
+dari 3 nilai interval ditemukan nilai tertinggi adalah 1000 ms
+masing-masing interval akan dikonversi dengan menggunakan persamaan 1
+perhitunganya adalah sebagai berikut : diketahui bahwa maksimal ketukan adalah 20 kali, karena pada gambar 14 tedapat 4 ketukan dan artinya hanya terdapat 3 nilai interval, maka 17 interval lainnya bernilai 0
+sehingga diperoleh hasil konversi dari masing-masing nilai interval sebagai berikut: nilai interval = 80, 100, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 masing-masing nilai interval tersebut akan tersimpan pada masing-masing alamat pada eeprom dalam bentuk biner
+15 diagram alir validasi password saat mode keamanan aktif dapat dilihat pada gambar 15 bahwa ketukan yang diterima akan melalui proses validasi
+apabila password yang diinputkan benar maka sistem akan berubah ke mode keamanan tidak aktif
+apabila password yang diinputkan salah maka password salah akan bernilai 1 dan apabila password salah sebanyak 5 kali maka alarm akan berbunyi selama 10 detik serta mode keamanan aktif tidak berubah
+cara kerja sistem ketika memvalidasi password pada mode keamanan tidak aktif dapat dilihat pada gambar 16
+16 diagram alir validasi password saat mode keamanan tidak aktif dapat dilihat pada gambar 16 apabila password yang diinputkan benar maka sistem akan berubah ke mode keamanan aktif
+tidak ada batas kesalahan input pada mode keamanan tidak aktif, karena apabila password yang diinputkan salah tidak diberi nilai, hanya led merah yang akan berkedip dan mode keamanan tidak berubah
+perancangan use case diagram aplikasi use case diagram aplikasi dapat dilihat pada gambar 17
+gambar 17 use case diagram aplikasi pada use case diagram gambar 17 terlihat bahwa user dapat melakukan berbagai aksi seperti menghubungkan aplikasi ke perangkat keras dengan bluetooth, mengkatifkan dan menonaktifkan mode ganti password, membaca petunjuk penggunaan aplikasi dan membaca info tentang penulis
+perancangan antarmuka aplikasi gambar 18 perancangan antarmuka pada gambar 18 diatas, dapat diketahui bahwa aplikasi memiliki halaman-halaman dan fungsinya masing-masing
+1) halaman pembuka ketika aplikasi dijalankan halaman pembuka akan muncul sebelum masuk ke halaman utama
+halaman ini juga terdapat tombol untuk mengarah ke halaman petunjuk dan halaman info
+3) halaman petunjuk halaman petunjuk adalah halaman yang berisi petunjuk cara penggunaan aplikasi
+4) halaman info halaman tentang berisi data pengembang aplikasi sistem
+hasil perancangan perangkat keras berikut adalah hasil perancangan perangkat keras yang saling tehubung diatas sebuah pcb 
+perangkat sistem dapat dilihat pada gambar 19
+hasil perancangan antarmuka gambar.20 halaman utama tombol pada aplikasi berjalan dengan baik
+2) dari pengujian kompatibilitas, aplikasi dapat berjalan dengan baik pada smartphone, jika sistem operasi smartphone tersebut diatas standar pembuatan aplikasi yaitu android 4.0.3 
+namun jika aplikasi terpasang pada smartphone dengan ukuran layar yang dibawah standar pembuatan aplikasi yaitu 4.7 inch, ada tampilan aplikasi yang terpotong
+3) dari pengujian sesor sistem dapat menerima gelombang bunyi mulai dari ketukan pelan sampai ketukan keras jika sumber ketukan langsung pada buzzer
+pada buzzer yang sudah terpasang casing sistem hanya merespon ketukan sedang – ketukan keras sedangkan ketukan sangat pelan dan pelan sistem tidak dapat merespon
+pada buzzer yang sudah terpasang casing dengan sumber ketukan berjarak 10 – 20 cm melalui bidang meja papan, sistem hanya mamerespon ketukan keras dan sangat keras sedangkan ketukan sangat pelan, ketukan pelan dan ketukan sedang sistem tidak merespon
+pada buzzer yang sudah tepasang casing dengan sumber ketukan berjarak 30 cm melalui bidang meja papan, sistem hanya merespon ketukan sangat keras sedangkan ketukan sangat pelan, ketukan pelan, ketukan sedang sampai ketukan keras tidak sistem tidak mampu merespon
+4) dari bluetooth dapat dilihat hasil pengujian menunjukan bahwa pada jarak kurang dari 1 meter sampai 20 meter tanpa hambatan smartphone dapat tersambung ke bluetooth sistem dengan baik dan lancar, tetapi pada jarak 30 meter tanpa hambatan smartphone juga dapat terhubung dengan bluetooth sistem namun setelah beberapa kali percobaan 
+pengujian selanjutnya dilakukan dengan jarak 10 meter dengan hambatan smartphone dapat tersambung ke bluetooth sistem dengan baik dan lancar
+pada jarak 20 meter dengan hambatan smartphone juga dapat terhubung ke bluetooth sistem namun setelah lebih dari 10 kali percobaan, bahkan pada jarak 30 meter dengan hambatan perangkat bluetooth sistem tidak terdeteksi oleh smartphone
+5) dari pengujian ganti password dapat dilihat bahwa aplikasi dapat berkomunikasi dengan perangkat keras sistem dengan bluetooth dan mengendalikan mode ganti password serta sistem mampu menyimpan password yang diterima
+6) dari pengujian relay dan ganti password dapat dilihat bahwa sistem mampu mengubah mode keamanan sistem dengan password yang benar dan mampu membatasi jumlah kesalahan password pada mode sistem keamanan aktif
+persentase tingkat pengenalan sistem terhadap password dapat dihitung dengan persamaan berikut
+8) dari pengujian keseluruhan sistem dapat dilihat bahwa keseluruhan sistem berjalan dengan baik mulai dari memprogram password, memvalidasi password yang diterima, menjalankan mode keamanan, semua fungsi sistem berjalan dengan baik
+kesimpulan berdasarkan hasil analisis dan pengujian sistem pengendali kunci kontak sepeda motor menggunakan gelombang bunyi sebagai password berbasis mikrokontroler, dapat disimpulkan sebagai berikut: 1
+sistem mampu mengendalikan kunci kontak sepeda motor, yang diperintah menggunakan gelombang bunyi yang berasal dari ketukan, dengan maksimal ketukan sebanyak 20 kali
+apabila ketukan yang dilakukan mengakibatkan buzzer menghasilkan tegangan diatas ambang batas yang ditentukan yaitu 0.14 volt maka sistem akan mendeteksi sebagai 1 kali ketukan, dan apabila tegangan yang dihasilkan tidak mencapai 0.14 volt maka ketukan dianggap 0
+semakin kecil ambang batas yang ditentukan maka semakin sensitif buzzer terhadap ketukan
+berdasarkan pengujian pengenalan password dengan nilai selisih maksimal sebesar 25, nilai toleransi ini masih cukup besar sehingga menghasilkan tingkat pengenalan password yang cukup tinggi yaitu sebesar 80%
+semakin kecil nilai toleransi maka sistem akan semakin baik, karena proses validasi password harus menghasilkan nilai selisih interval lebih kecil dari 25 bahkan semakin mendekati 0
+jadi, password yang bisa bernilai valid harus memiliki nilai- nilai interval yang semakin konsisten
+sistem cukup aman karena mengatur ulang password, dilakukan dengan aplikasi yang diberi nama 
+aplikasi mampu berjalan pada sistem operasi android dan berkomunikasi dengan perangkat keras sistem melalui bluetooth
+untuk terkoneksi dengan bluetooth perangkat keras, pada smartphone, pengguna harus memasukkan password yang sudah diatur pada modul bluetooth yang digunakan
+hal tersebut membuat sistem semakin aman karena tidak semua orang bisa mengganti password meskipun orang lain juga menginstal aplikasi 

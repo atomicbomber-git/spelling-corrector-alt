@@ -1,0 +1,68 @@
+eee paper template in a4 vol 5 no 3 implementasi sistem informasi akademik berbasis android pada sma negeri 1 tempilang dwi yuny sylfania#1, fransiskus panca juniawan#2, leny agusti#3 #teknik informatika, stmik atma luhur jl.jend sudirman, selindung baru, pangkalpinang, kepulauan bangka belitung 1dysylfania@atmaluhur.ac.id 2fransiskus.pj@atmaluhur.ac.id 3lenyagusti17@yahoo.co.id merupakan hal yang sangat penting, terlebih bagi pihak sekolah, siswa dan orangtua
+namun, penerapan sistem informasi akademik belum menjangkau seluruh institusi pendidikan, contohnya sma negeri 1 tempilang
+sistem informasi akademik pada sekolah tersebut masih bersifat manual sehingga orangtua/wali siswa harus mendatangi sekolah secara langsung untuk memantau perkembangan akademik siswa
+oleh karena itu, penulis membangun sebuah aplikasi akademik berbasis android, dimana para wali murid dan siswa bisa melihat informasi mengenai profil sekolah, jadwal mata pelajaran, absensi siswa dan raport siswa melalui aplikasi tanpa harus mendatangi sekolah
+penelitian ini menggunakan model penelitian waterfall dengan empat tahapan
+dengan adanya aplikasi akademik berbasis android pada sma negeri 1 tempilang diharapkan mampu mempermudah orangtua dan siswa dalam mendapatkan informasi akademik yang lebih akurat, efektif dan efisien, serta mempermudah pihak sekolah dalam mendistribusikan informasi mengenai perkembangan akademik siswa
+dari hasil pengujian black box didapat hasil bahwa sistem yang dibangun dapat bekerja dengan baik sesuai dengan fungsinya
+selain itu, penulis menyebarkan kuesioner untuk menguji kualitas dari sistem yang dibangun
+dari hasil pengujian kualitas sistem didapat hasil dengan nilai 3, 05 yang artinya setuju terhadap kualitas sistem
+pendahuluan sistem operasi berbasis linux yang digunakan untuk telepon seluler, seperti telepon pintar dan komputer tabet 
+hal tersebut dikarenakan android bersifat open source sehingga memudahkan para pengembang untuk membuat dan memodifikasi aplikasi atau fitur-fitur sesuai dengan keinginan
+dirancang untuk keperluan pengelolaan data-data akademik dengan penerapan teknologi komputer baik hardware maupun software
+sistem informasi akademik merupakan sesuatu yang sangat penting bagi pihak sekolah, orangtua dan siswa
+namun, penerapan sistem informasi akademik belum menjangkau seluruh institusi pendidikan, seperti sma negeri 1 tempilang
+sistem informasi akademik pada sekolah tersebut masih bersifat manual, sehingga informasi perkembangan siswa hanya dapat dipantau dengan mendatangi sekolah secara langsung
+sebuah aplikasi akademik berbasis android dengan menggunakan model waterfall dan metode berorientasi objek
+definisi dari model waterfall adalah proses hidup perangkat lunak yang memiliki sebuah proses yang linear dan sekuensial
+dalam penelitian ini, penulis memulai tahapan dari analisa, perancangan, implementasi dan pengujian
+adapun pengujian yang digunakan yaitu pengujian black box untuk memeriksa apakah aplikasi berjalan seperti yang diharapkan
+selain itu, pengujian kualitas sistem yang dibangun dilakukan dengan cara menyebarkan kuesioner kepada responden
+adalah penelitian yang dilakukan olehmenghasilkan sistem informasi pelayanan obat pada apotek sehingga memudahkan dalam mencari informasi mengenai obat dan stok obat yang akan dicari
+penelitianmenghasilkan aplikasi repository digital beban kerja dosen yang dapat membantu dosen dalam mengetahui beban kerja yang ditanggung dan membantu pimpinan dalam mengetahui informasi beban kerja yang ditanggung setiap dosen
+penelitianmenghasilkan sistem informasi untuk monitoring data terkait distribusi obat di indonesia, serta mampu memberikan notifikasi sehingga dapat mengurangi terjadinya kesalahan dan kecurangan yang terjadi dalam proses distribusi obat
+penelitianmenghasilkan sistem informasi penjualan tunai yang terkomputerisasi yang dapat meningkatkan kualitas pelayanan kepada pembeli, membuat laporan cepat, tepat dan akurat, meminimalkan kesalahan dalam korespondensi : dwi yuny sylfania 302 pengumpulan data, dan penyimpanan data lebih terstruktur dan mampu meningkatkan efisiensi dan efektivitas proses penjualan tunai
+penelitianmenghasilkan sistem informasi perkawinan yang terkomputerisasi sehingga penerbitan kutipan akta perkawinan dapat dengan cepat diterbitkan sehingga pelayanan kepada masyarakat lebih cepat dan maksimal, pembuatan laporan menjadi cepat, penyimpanan data lebih terorganisir serta dapat meningkatkan kinerja karyawan pada dinas kependudukan dan pencatatan sipil kota pangkalpinang
+penelitiandengan menggunakan kerangka kerja weill-ross menghasilkan sebuah model tata kelola yang sesuai dengan kebutuhan dan kondisi penerapan teknologi informasi di itenas bandung
+penelitiandengan menggunakan framework togaf menghasilkan sistem informasi bagi tiap sub bagian pada std bali sehingga meningkatkan kinerja di tiap sub bagian untuk menghasilkan informasi yang relevan, akurat dan tepat waktu
+penelitianmenghasilkan sebuah pembuktian bahwa database tidak hanya berfungsi sebagai penyimpanan data, tetapi juga dapat mengendalikan sistem informasi secara aktif
+hal ini dikarenakan logika dan aturan bisnis yang tersimpan pada database mampu memantau seluruh sistem dan memastikan pemrosesan data berjalan dengan benar
+penelitianmenghasilkan sistem absensi siswa yang lebih terkomputerisasi sehingga memudahkan orangtua dalam mendapatkan informasi siswa di sekolah
+penelitiandengan menggunakan primary key yang telah direncanakan dengan baik mampu mengurangi redundansi data sehingga integritas data pada sistem informasi akademik terjaga
+selain mempermudah dalam mencari kumpulan – kumpulan jurnal, sistem e-journal berbasis web pada stmik raharja juga mempermudah dalam penulisan jurnal
+penerapan official site jurusan sistem informasi dijadikan sebagai wadah bagi mahasiswa untuk mendapatkan informasi yang akurat, serta dengan strategi memperkaya inbound website sistem informasi mampu memperkenalkan keberadaan website ke khalayak ramai untuk meningkatkan peringkat stmik raharja di webometrics
+penerapan itil framework pada sistem informasi akademik mampu mengelola sumber daya secara tepat sehingga cepat dan mudah dalam mengelola insiden yang muncul pada sistem informasi akademik
+berdasarkan penerapan iso/iec 9126, diperoleh tiga karakteristik yang perlu ditingkatkan yaitu reliability, usability dan functionality
+hasil dari pengujian reliability tidak dapat diandalkan karena tidak termasuk dalam proses analisis dan rekomendasi untuk pengembangan lebih lanjut
+kualitas sistem informasi akademik terhadap kepuasan pengguna di upi yang dianalisis menggunakan gap dan sem menghasilkan kepuasan responden terhadap implementasi sistem informasi akademik, dan tiap variabel dan indikator memiliki hubungan yang signifikan dan pengaruh cukup besar terhadap kepuasan pengguna
+tempilang diharapkan memudahkan orangtua dan siswa dalam mendapatkan informasi akademik yang lebih akurat, efektif dan efisien serta memudahkan pihak sekolah dalam mendistribusikan informasi perkembangan akademik penelitian ini terdapat pada gambar 1
+1 tahapan penelitian dengan menggunakan activity diagram, seperti proses pemberian nilai pada raport, pembuatan jadwal mata pelajaran, informasi mengenai sekolah, absensi dan biodata siswa
+fungsionalitas dari sistem yang akan dibangun secara keseluruhan yang didapat dari hasil analisis sistem sebelumnya, dan dijelaskan dengan menggunakan use case diagram
+implementasi merupakan hasil dari perancangan sistem
+pengujian black box untuk menguji kesesuaian input yang diberikan dengan output yang dihasilkan oleh sistem
+selain itu, penulis melakukan pengujian kualitas sistem dengan menyebarkan kuesioner
+1 berupa sangat tidak setuju dan nilai 5 berupa sangat setuju
+hasil dan pembahasan dari penelitian yaitu sebagai berikut: a
+analisis sistem sistem berjalan pada sma negeri 1 tempilang dan dijelaskan dengan menggunakan activity diagram
+gambar 2 menjelaskan alur proses dalam hal pendistribusian informasi sekolah kepada siswa/ wali siswa, yang melibatkan kepala sekolah dan tata usaha
+pada gambar 3, menjelaskan alur proses dalam pengumpulan biodata siswa
+selanjutnya, menjelaskan proses pembuatan jadwal mata pelajaran, yang ditunjukkan pada gambar 4
+alur proses absensi siswa dan raport siswa ditunjukkan pada gambar 5 dan gambar 6, yang melibatkan guru, wali kelas dan siswa/wali siswa
+4 activity diagram jadwal mata pelajaran gambar
+6 activity diagram pemberian nilai raport b
+perancangan sistem sma negeri 1 tempilang dengan menggunakan use case diagram
+tidak seperti user yang hanya bisa mengakses, namun admin juga bisa mengelola seluruh menu pada sistem informasi akademik, namun aktor harus terlebih dahulu login ke sistem, dengan menginput username, nisn dan password terlebih dahulu agar bisa masuk ke menu utama
+setelah user/admin berhasil login, maka sistem akan menampilkan informasi mengenai sekolah yang berisi visi dan misi sma negeri 1 tempilang
+pada menu biodata siswa, user hanya bisa melihat biodata, sedangkan admin bertugas mengelola biodata siswa yang ada di dalam database
+selanjutnya, untuk menu jadwal mata pelajaran, admin bertugas mengelola jadwal mata pelajaran
+namun, user hanya bisa melihat jadwal mata pelajaran dengan terlebih dahulu menginput kode hari, kode kelas dan tahun ajaran
+pada use case absensi dan pemberian nilai raport, admin bertugas mengelola absensi dan raport siswa, sedangkan user hanya bisa melihat absensi dan raport siswa
+pada menu pengaturan akun, admin memiliki wewenang penuh untuk reset akun user, jika sewaktu-waktu user lupa dengan akunnya
+login mengubah password, ketika user lupa dengan password sebelumnya
+merupakan hasil dari analisis dan perancangan yang ditunjukkan pada gambar 8, 9, 10, 11, 12, 13, 14, dan 15 dalam bentuk screenshot aplikasi
+pengujian sistem menggunakan black box, dan juga dilakukan pengujian kualitas sistem dengan penyebaran kuesioner kepada responden
+menguji kesesuaian input yang diberikan user dengan output yang dihasilkan oleh sistem, ditunjukkan pada tabel 1
+tabel i 1 pengujian tombol login menu utama menampilkan absen setelah menginput semester dan sekolah kemudian menampilkan info sekolah 7 pengujian tombol ubah masukkan password lama dan masukkan password dengan menyebarkan kuesioner kepada 10 responden dengan 4 pertanyaan, dan 4 skala nilai dimulai dari rentang 1 hingga 4, yaitu tidak setuju, kurang setuju, setuju dan sangat setuju, ditunjukkan pada tabel 2 dan gambar 22
+tabel ii tabel iii daftar pertanyaan nomor pertanyaan akademik secara cepat, tepat dan akurat? pertanyaan 2 apakah aplikasi mampu menghemat waktu dan biaya? pertanyaan 4 apakah aplikasi mudah digunakan? gambar 16 grafik penilaian responden terhadap kualitas sistem iv
+selain itu, aplikasi ini juga memudahkan pihak sekolah dalam mendistribusikan informasi mengenai perkembangan akademik siswa
+sesuai dengan hasil dari tabel 2 dengan nilai rataan adalah 3, 05 

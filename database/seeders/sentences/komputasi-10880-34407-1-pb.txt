@@ -1,0 +1,71 @@
+masyarakat yang ingin mengamalkan hukum islam dapat memanfaatkan teknologi untuk membantu mereka mengetahui solusi dari suatu permasalahan dalam masalah agama, salah satunya adalah permasalahan yang berkaitan dengan ilmu waris
+sistem pakar merupakan salah satu teknologi yang meniru cara kerja seorang pakar waris dalam menyelesaikan permasalahan warisan
+sistem pakar ini sangat berguna khususnya saat masyarakat yang ingin mengamalkan hukum islam yang satu ini tidak menemui ustadz, kiayi, dan sebagainya untuk bertanya tentang masalah pembagian waris
+oleh karena itu, dibuatlah sebuah aplikasi sistem pakar yang dapat menyelesaikan permasalahan berkaitan pembagian harta warisan dan juga dapat menampilkan dasar hukum dari hasil perhitungan waris, serta memiliki fitur untuk mempelajari tentang ilmu waris di dalamnya
+aplikasi sistem pakar ini dibuat dengan metode inferensi forward chaining
+cara kerja aplikasi sistem pakar ini pada perhitungan warisan adalah dengan memilih jenis kelamin mayit, memasukkan jumlah harta mayit yang sudah dikurangi dengan biaya pengurusan jenazah, hutang dan wasiat, kemudian memilih siapa saja ahli waris yang masih hidup serta berapa jumlahnya, kemudian keluaran yang dihasilkan adalah ahli waris yang mendapat warisan beserta jumlah harta yang didapatkan dan landasan hukum dari perhitungan tersebut
+hasil dari tugas akhir ini diharapkan dapat membantu kaum muslimin untuk dapat menyelesaikan permasalahan waris dengan merujuk kepada al-qur’an dan as-sunnah yang shohih
+pendahuluan waris atau pusaka, akan bertambah rumit manakala diantara para ahli waris ingin menguasai harta peninggalan, sehingga berdampak merugikan orang lain
+tak ayal, permusuhan antara satu dengan lainnya sulit dipadamkan
+akhirnya solusi yang ditawarkan dalam pembagian waris tersebut ialah dengan dibagi sama rata
+atau ada juga yang menyelesaikannya di meja pengadilan dan upaya lainnya
+sebagai kaum muslimin, sesungguhnya untuk menyelesaikan permasalahan waris ini, sehingga persaudaraan di dalam keluarga tetap terjaga dengan baik, maka tidak ada jalan lain kecuali kembali kepada sunnah rasulullah shallallahu ‘alaihi wa sallam
+allah subhanahu wa ta’ala berfirman maka kembalikanlah ia kepada allah dan rasul, jika kamu benar-benar beriman kepada allah dan hari kemudian” (qs
+an-nisa’ : 59) allah subhanahu wa ta’ala telah mewajibkan tata cara pembagian warisan berdasarkan hikmah dan ilmu-nya
+menetapkan bagian-bagian tertentu untuk ahli waris dengan pembagian yang terbaik dan teradil menurut hikmah-nya yang sangat dalam, rahmat-nya yang meliputi segala sesuatu dan ilmu-nya yang mahaluas
+lalu dia menjelaskan perkara warisan dengan penjelasan yang sangat sempurna
+hal ini tercantum dalam ayat-ayat dan hadits-hadits tentang warisan yang mencakup semua hal yang mungkin terjadi disaat warisan tersebut dibagikan
+seiringan dengan adanya kemajuan teknologi pada saat ini, suatu pemecahan masalah warisan secara islam akan dapat dengan mudah diselesaikan dan dihitung dengan mengetahui para ahli waris yang masih hidup dan jumlah harta yang ditinggalkan mayit
+kemajuan teknologi yang mampu mengadopsi proses dan cara berpikir manusia yaitu teknologi artificial intelligence atau kecerdasan buatan
+salah satu teknologi kecerdasan buatan adalah sistem pakar yang merupakan program komputer yang dapat meniru proses pemikiran dan pengetahuan pakar untuk menyelesaikan suatu masalah yang spesifikasi
+islam yang sesuai dengan al-qur’an dan as-sunnah yang shahih
+dengan adanya sistem pakar ini, maka akan dibangun sebuah sistem pakar berbasis android
+sekarang sudah ada dua aplikasi android berbahasa indonesia yang dibuat untuk melakukan perhitungan dalam masalah warisan ini
+keduanya bisa melakukan penentuan dan perhitungan hak waris, satu di antaranya memiliki fitur pembelajaran ringkas ilmu waris
+namun dari dua aplikasi android tersebut dan pada seluruh aplikasi-aplikasi penentuan serta perhitungan penentuan hak waris baik itu berbasis desktop maupun web pada umumnya, belum ada yang menyertakan fitur hasil penentuan hak waris di dalamnya
+penentuan hak waris berdasarkan hukum islam yang sesuai dengan al-qur’an dan as-sunnah yang shahih yang memiliki sistem pakar penentuan hak waris berdasarkan hukum islam yang sesuai dengan al-qur’an dan as-sunnah yang shahih android
+fardh secara syariat artinya bagian yang ditentukan secara syariat untuk orang yang berhak menerimanya
+warisan, hukum-hukum yang berkenaan dengannya dan mengetahui perhitungan yang dapat mencapai kepada pembagiannya sesuai syariat
+sebagai berikut : jenazah, hutang dan wasiat memerdekakan budak perbudakan, zina, li’aan, bayi yang meninggal ketika dilahirkan4
+menentukan ahli waris yang masih hidup, terdiri dari anak, cucu, ayah, ibu, kakek, nenek, saudara, keponakan laki-laki dari saudara laki-laki, paman, sepupu laki-laki, suami/ istri, atau yang memerdekakan budak5
+penentuan ahli waris yang mendapat bagian warisan 6
+penyelesaian hitungan termasuk di dalamnya ‘aul dan radd b
+sistem pakar sehingga dapat digunakan untuk konsultasi
+pengetahuan dari pakar di dalam sistem ini digunakan sebagi dasar oleh sistem pakar untuk menjawab pertanyaan 
+kepakaran adalah pengetahuan yang ekstensif dan spesifik yang diperoleh melalui rangkaian pelatihan, membaca, dan pengalaman
+pengetahuan membuat pakar dapat mengambil keputusan secara lebih baik dan lebih cepat daripada non-pakar dalam memecahkan problem yang kompleks
+kepakaran mempunyai sifat berjenjang, pakar top memiliki pengetahuan lebih banyak daripada pakar yunior
+tujuan sistem pakar adalah untuk mentransfer kepakaran dari seorang pakar ke komputer, kemudian ke orang lain 
+mengandung pengetahuan dari satu atau lebih pakar manusia mengenai suatu bidang spesifik
+jenis program ini pertama kali dikembangkan oleh periset kecerdasan buatan pada dasawarsa 1960-an dan 1970-an dan diterapkan secara komersial selama 1980-an
+biasanya diberikan oleh pengguna suatu sistem
+bentuk umum sistem pakar adalah suatu program yang dibuat berdasarkan suatu set aturan yang menganalisis informasi mengenai suatu kelas masalah spesifik serta analisis matematis dari masalah tersebut
+tergantung dari desainnya, sistem pakar juga mampu merekomendasikan suatu rangkaian tindakan pengguna untuk dapat menerapkan koreksi
+sistem ini memanfaatkan kapabilitas penalaran untuk mencapai suatu simpulan
+masalah waris sebagai pakar adalah ustadz abu abdillah amir santoso bin yahya hafidzohullah yang merupakan dai yang aktif berdakwah di kota pontianak dan sekitarnya, beliau juga pengajar di ma’had tahfidz dan bahasa arab al-madinah pontianak
+beliau adalah alumni darul hadits di ma’rib yaman
+menggunakan informasi yang ditentukan oleh user untuk memindahkan ke seluruh jaringan dari logika ‘and’ dan ‘or’ sampai sebuah terminal ditentukan sebagai objek
+bila inference engine tidak dapat menentukan objek maka akan meminta informasi lain
+aturan di mana menentukan objek, membentuk path yang mengarah ke objek
+oleh karena itu, hanya satu cara untuk mencapai satu objek adalah memenuhi semua aturan
+forward chaining merupakan metode inferensi yang melakukan penalaran dari suatu masalah kepada solusinya
+jika klausa premis sesuai dengan situasi, maka proses akan menyatakan konklusi
+mesin inferensi untuk penentuan hak waris di dalam sistem ini dibuat dengan menggunakan metode forward chaining
+perancangan antar muka yang memiliki besar layar minimal 7 inches
+desain struktur antarmuka sistem dapat dilihat pada gambar 1 berikut: halaman utama hitung waris iii
+hasil dan diskusi ilmu waris atau keluar dari aplikasi
+ketika pengguna memilih menu hitung waris, maka penguna diminta memilih jenis kelamin, memasukkan jumlah harta mayit, memilih ahli waris yang masih hidup, baru setelah itu pengguna dapat melihat hasil perhitungan serta dalil hasil perhitungan
+di bawah ini gambar menu utama
+pengujian validasi sistem yang dihitung manual oleh pakar waris
+dalam pengujian ini, kasus yang digunakan sebanyak 10 kasus berbeda dengan jumlah harta rp 100.000.000, 00
+berikut adalah tabel yang menampilkan hasil pengujian validasi sistem
+pengujian validasi sistem perempuan, 1 kandung, 3 saudari kandung anak perempuan bagian anak laki- anak perempuan = rp laki = rp - ibu dapat 1/6 = rp12.500.000, 00 - ibu dapat 1/6 = rp 16.666.666, 6667 perempuan, 4 22.222.222, 2222 - masing-masing anak perempuan rp 11.111.111, 1111 anak perempuan = 66.666.666, 7 valid dibagi 4 = rp 41.666.666, 6667 4 orang maka masing-masing dapat = rp - sisa untuk dzawil arhaam = rp 41.666.667, 00 ini dilakukan dengan menginstal sistem pada beberapa perangkat android yang berbeda
+hasil pengujian kompatibilitas sistem dapat dilihat pada tebel di bawah ini
+android android 5.0 no merek perangkat layar berjalan lancar 4 samsung android 1024 pixels 1024 pixels waris berdasarkan hukum islam yang sesuai dengan al-qur’an dan as-sunnah yang shahih berbasis android yang telah dilakukan adalah sebagai berikut : handle proses input dengan baik, terutama pada proses input data yang tidak sesuai atau kosong
+hasil validasi menunjukkan sistem ini telah dapat menentukan dan menghitung waris dengan benar sesuai dengan yang dihitung oleh pakar waris
+berdasarkan hasil pengujian kompatibilitas sistem, diperoleh hasil bahwa sistem dapat berjalan dengan baik pada perangkat android dari sistem operasi android 4.0.4 hingga android 4.4.2 
+berdasarkan hasil pengujian kompatibilitas, diperoleh hasil bahwa tampilan pada setiap perangkat mobile berbeda hal ini disebabkan perbedaan resolusi layar setiap perangkat mobile
+hukum islam yang sesuai dengan al-qur’an dan as-sunnah yang shahih berbasis android dapat disimpulkan bahwa: 1
+berdasarkan hasil pengujian kompatibilitas, aplikasi dapat berjalan lancar pada beberapa jenis versi android yaitu versi 4.0.2 hingga 4.4.2 dan aplikasi tidak berjalan lancar pada android versi 5.0 android dengan layar minimal 7 inches 3
+aplikasi dapat melakukan perhitungan waris sesuai dengan yang dihitung manual oleh pakar serta dapat menampilkan dalil hasil perhitungan bagian saja saat hasil perhitungan ditampilkan 5
+aplikasi memiliki fitur pembelajaran ilmu waris secara lengkap maupun ringkas

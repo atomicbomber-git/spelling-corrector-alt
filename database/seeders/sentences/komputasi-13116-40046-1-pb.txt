@@ -1,0 +1,27 @@
+manusia yang menjadi pertahanan pertama tubuh dari serangan bakteri, virus maupun parasit
+ketika kulit terkena virus atau bakteri, maka reaksinya akan merembet ke bagian tubuh lain, bahkan dapat berakibat pada kematian jika terlambat ditangani terutama jika penderitanya anak-anak yang sangat rentan akan serangan penyakit
+kurangnya pengetahuan dan kesadaran tentang penyakit kulit terkadang membuat orang tua cemas dan tidak peka terhadap gejala penyakit yang dialami seorang anak
+dengan adanya kemajuan teknologi saat ini sangat membantu dunia modern untuk mendeteksi atau meramalkan sesuatu yang akan terjadi, salah satunya adalah sistem pakar yang digunakan untuk mendiagnosis suatu penyakit dalam bidang kedokteran
+oleh karena itu diperlukan sebuah sistem pakar yang dapat membantu orang tua untuk mendeteksi atau mendiagnosa penyakit kulit pada anak
+adapun sistem pakar yang dibangun menggunakan metode certainty factor sebagai metode penalaran untuk menentukan hasil diagnosaberdasarkan gejala yang ditunjukkan
+metode ini terjadi dalam proses mesin inferensi, dimana mesin inferensi akan mengarahkan pencarian melalui basis pengetahuan aturan mana yang terpenuhi lebih dahulu, setelah itu sistem pakar akan memutuskan aturan mana yang akan diinvestigasi sesuai fakta-fakta yang ada dalam basis pengetahuan
+aturan-aturan yang diperoleh direpresentasikan sebagai derajat keyakinan yaitu penggabungan antara nilai kepercayaan atau measure of belief dan nilai ketidakpercayaan 
+tujuan dari penelitian ini yaitu menerapkan metode certainty factor dalam sistem pakar mendiagnosa penyakit kulit serta memberikan saran penanganan terhadap penyakit kulit yang diderita
+sistem pakar dibangun berbasis web dengan menggunakan php dan database mysql
+berdasarkan pengujian yang dilakukan dengan membandingkan hasil perencanaan dari sistem dengan hasil perencanaan dari pakar, sistem pakar ini valid dengan tingkat akurasi sebesar 87, 5% dalam memberikan hasil diagnosa
+pendahuluan terletak paling luar dan menutupi seluruh permukaan tubuh
+kulit menjadi sistem pertahanan untuk tubuh dan pertama kali menerima rangsangan berupa nyeri, panas, rangsangan, tekanan atau dingin
+kesehatan kulit perlu diperhatikan karena kulit merupakan bagian yang paling vital serta merupakan cermin kesehatan dalam kehidupan
+orang dewasa memiliki sistem kekebalan tubuh yang lebih baik daripada anak-anak
+anak-anak memiliki sistem kekebalan tubuh yang rentan karena masih dalam masa pertumbuhan
+daya tahan tubuh yang rentan memungkinkan untuk terkena beragam penyakit kulit yang diakibatkan oleh infeksi virus, bakteri, maupun parasit
+karena gangguan kulit bisa sangat berbahaya apabila tidak mendapatkan penanganan yang serius dan salah dalam perawatannya
+dengan adanya kemajuan teknologi pada saat ini, suatu penyakit akan terdeteksi dengan mengetahui gejala penyakit yang dialami seorang pasien
+salah satu sitem teknologi buatan adalah sistem pakar yang merupakan program komputer yang dapat meniru proses pemikiran dan pengetahuan pakar untuk menyelesaikan suatu masalah, salah satunya mendiagnosa penyakit kulit pada anak
+dalam melakukan diagnosa suatu penyakit akan ditemukan aturan-aturan yang berbeda dengan konsekuen yang berbeda
+oleh karena itu, diperlukan salah satu metode yang menangani ketidakpastian yaitu metode certainty factor
+certainty factor adalah metode kepastian terhadap suatu fakta atau aturan
+certainty factor dapat membuktikan suatu fakta itu pasti atau tidak
+nilai kepercayaan atau measure of belief dan ketidakpercayaan atau measure of disbelief ditentukan oleh pakar dengan cara pemberian bobot dengan rentang nilai antara -1 sampai 1
+metode certainty factor dalam mendiagnosa penyakit kulit anak
+cabang dari ilmu komputer yang khusus ditujukan dalam perancangan otomatisasi tingkah laku cerdas dalam sistem kecerdasan komputer

@@ -1,0 +1,80 @@
+eee paper template in a4 vol 5 no 3 implementasi aplikasi reservasi hotel berbasis mobile application hamidah#1, okkita rizan#2, delpiah wahyuningsih#3 #stmik atma luhur pangkalpinang 2orizan@atmaluhur.ac.id 3delphibabel@atmaluhur.ac.id menyediakan pelayanan jasa untuk menginap serta fasilitas lainnya bagi masyarakat
+keberadaan tamu memiliki peran yang sangat penting dalam meningkatkan keberlangsungan hidup hotel edotel
+saat ini, proses reservasi hotel baik penyewaan kamar maupun ballroom masih dilakukan dengan datang langsung ke hotel sehingga pengelolaan reservasi hotel belum efektif dan efisien dikarenakan masyarakat tidak dapat melakukan pemesanan secara online
+untuk menangani masalah tersebut, maka dibutuhkan suatu aplikasi berbasis mobile
+penelitian ini menggunakan tahapan penelitian meliputi pengumpulan data, analisa data, analisa sistem, perancangan sistem, pembangunan sistem, pengujian sistem, implementasi sistem dan evaluasi sistem
+dengan adanya aplikasi reservasi hotel tersebut, maka dapat memudahkan masyarakat dalam reservasi hotel secara online
+pendahuluan pelayanan jasa untuk menginap serta fasilitas lainnya bagi masyarakat
+selain itu, dapat juga digunakan sebagai tempat untuk berbagai macam acara baik kecil maupun besar
+dengan adanya hotel tersebut, dapat membantu masyarakat dalam mencapai kesuksesan setiap acara yang dilaksanakan
+adapun masalah yang dihadapi yaitu proses reservasi hotel tidak dapat dilakukan secara online mengingat belum adanya aplikasi yang mendukung proses tersebut
+penyampaian lowongan kerja pun masih dilakukan secara personal untuk menangani permasalahan tersebut, maka dibutuhkan suatu aplikasi yang dapat membantu memberikan informasi yang dibutuhkan oleh masyarakat baik informasi lowongan kerja dan reservasi hotel
+selain itu, dapat menjalin hubungan komunikasi antara staf hotel dengan masyarakat melalui media chatting
+aplikasi ini dibangun dengan menggunakan mobile berbasis android
+dengan adanya aplikasi ini, dapat memberikan informasi yang akurat, tepat dan cepat kepada masyarakat
+sedangkan penelitian yang diusulkan menggunakan android studio
+rekomendasi kamar pada hotel de warna dengan metode fuzzy berbasis android yang dilakukan oleh arsad saleh havid dkk menjelaskan bahwa aplikasi receptionis rekomendasi kamar ini dapat membantu pengunjung dalam menentukan fasilitas kamar sesuai dengan yang diinginkan sedangkan penelitian ini dapat melakukan pemesanan ballroom
+analysis of smartphone applications for hotel chains yang dilakukan oleh meng mie chen dkk menjelaskan bahwa bagaimana pentingnya kinerja aplikasi smartphone dalam pelayanan hotel sedangkan penelitian yang diusulkan lebih detail dalam reservasi hotel
+penelitian keempat tentang perancangan sistem informasi pemesanan dan pembayaran kamar pada hotel remaja pacitan yang dilakukan oleh rindi damayanti dkk menjelaskan bahwa dapat memberi gambaran pada pihak hotel untuk mengetahui data pemesan kamar dan dapat menyelesaikan penghitungan pembayaran sewa kamar dengan cepat dan tepat sedangkan yang diusulkan bukan hanya dapat sewa kamar saja
+penelitian kelima tentang how locus of control shapes intention to reuse mobile apps for making hotel reservations :evidence from chinese consumers yang dilakukan oleh lawrence hoc nang fong dkk menjelaskan bahwa bagaimana kontrol penggunaan korespondensi : hamidah 339 ini dapat melihat lowongan pekerjaan
+penelitian keenam oleh marlince n.k nababan dkk dengan judul aplikasi pemesanan kamar hotel berbasis android menjelaskan bahwa aplikasi pemesanan hotel yang dirancang dan dibangun dapat membantu pihak hotel dalam mengembangkan pelayanan, aplikasi pemesanan hotel berbasis android mempermudah pengguna dalam melakukan pemesanan hotel dengan mudah sedangkan penelitian ini dapat memesan ballroom
+penelitian ketujuh dengan judul sistem informasi reservasi hotel pada gm
+marsaringar balige berbasis android oleh s
+artaulina sitorus menjelaskan bahwa para pengunjung/tamu dapat melihat gallery kamar hotel, dan fasilitas pendukung pada hotel gm
+marsaringar balige dan juga dapat memesan kamar secara online baik dari website maupun dari perangkat mobile
+dan pemilik hotel dapat melihat perkembangan hotel melalui laporan setiap transaksi per periode
+penelitian kedelapan oleh davit irawan dengan judul sistem informasi reservasi hotel 929 berbasis web mobile di kota lubuk linggau menjelaskan bahwa dengan diterapkan dan dimanfaatkannya website reservasi online hotel 929 berbasis web mobile di kota lubuk linggau ini, dapat dimanfaatkan kepada calon tamu untuk reservasi pada hotel 929 di kota lubuk linggau dari mana saja
+penelitian kesembilan oleh nunung hidayatun dkk dengan judul aplikasi e-reservation untuk pemesanan kamar pada hotel hin’s menjelaskan bahwa dengan adanya aplikasi e-reservation pada hin’s hotel jakarta dapat menyediakan informasi yang dibutuhkan oleh tamu serta pihak hotel
+meningkatkan kualitas pelayanan karena mempermudah tamu untuk melakukan reservasi tanpa harus datang ke hotel
+sebagai media promosi serta untuk meningkatkan citra hotel
+rancang bangun aplikasi penjadwalan ruang meeting hotel menggunakan algoritma multiple feedback queue berbasis android menggunakan layanan sms “studi kasus hotel plaza inn kendari menjelaskan bahwa dengan adanya sistem penyebaran penjadwalan ruang meeting yang mengkombinasikan teknologi penjadwalan ruang meeting hotel menggunakan algoritma multiple feedback queue berbasis android menggunakan layanan sms dapat memudahkan pihak hotel untuk memberikan informasi tentang perubahan jadwal ruangan rapat
+penelitian kesebelas oleh roni ameldi dengan judul sistem informasi reservasi lapangan futsal berbasis android pada lapangan futsal menjelaskan bahwa berdasarkan sistem yang dibuat, terdapat kemudahan bagi admin lapangan dalam mengatur jadwal booking dan menghindari terjadinya jadwal bentrok serta pembuatan laporan keuangan yang lebih cepat
+metodologi penelitian digunakan dalam penelitian ini yakni kebutuhan fungsional dan non fungsional
+adapun penjabaran analisis kebutuhan dapat dilihat sebagai berikut : 1) kebutuhan fungsional: kebutuhan fungsional dalam penelitian ini adalah sebagai berikut : a
+aplikasi dapat memudahkan user dalam reservasi hotel, penyewaan ballroom secara online pekerjaan serta dapat saling terhubung melalui media chatting
+penyediaan layanan antarmuka dalam mencari informasi yang dapat diakses oleh user melalui smartphone android
+2) kebutuhan non fungsional: kebutuhan non fungsional dalam penelitian ini adalah sebagai berikut : a
+perangkat keras :laptop merk dell dengan spesifikasi processor intel core i5-6200u ram 4g
+studio versi 3.5.1, api 15: android 4.0.3, xampp 3.2.2 pembangunan sistem secara keseluruhan
+tahapan penelitian dilakukan dari awal mulai pengumpulan data sampai akhir penyusunan penelitian yaitu evaluasi sistem
+adapun tahapan penelitian dalam penelitian ini dapat dilihat pada gambar 1
+analisa kebutuhan : analisa kebutuhan dilakukan untuk mendapatkan informasi yang dibutuhkan oleh user
+perancangan sistem : merancang aplikasi yang akan dibuat
+implementasi sistem : menerapkan aplikasi yang sudah dibuat
+pengujian sistem : menguji aplikasi yang telah dibuat apakah sudah memenuhi kebutuhan pengguna
+activity diagram activity diagram adalah aktivitas yang dilakukan di dalam sebuah sistem yang akan dibangun yang menggambarkan alur proses aktivitasnya
+adapun activity diagram dapat dilihat pada gambar 2 seperti di bawah ini
+gambar 2 menjelaskan bahwa untuk melakukan proses reservasi hotel dilakukan dengan cara tamu memilih menu room untuk memilih room kemudian tampil view room
+kemudian tamu memilih menu reservasi kemudian pilih nomor reservasi tampil view reservasi
+tamu memilih menu konfirmasi, tampil view konfirmasi pembayaran
+adapun activity diagram pemesanan ballroom dapat dilihat pada gambar 3 seperti di bawah ini
+3 activity diagram ballroom event gambar 3 menjelaskan bahwa untuk melakukan proses pemesanan ballroom dilakukan dengan cara tamu memilih menu ballroom event untuk memilih ballroom kemudian tampil view ballroom
+use case diagram use case diagram adalah hubungan atau interaksi antara sistem dengan actor
+adapun use case diagram dalam penelitian ini yang dapat dilihat pada gambar 4 dibawah ini
+aplikasi ini dimulai dengan pertama user lihat menu fasilitas untuk fasilitas pada hotel tersebut, kedua user pilih room untuk melihat room yang masih tersedia sesuai keinginan
+ketiga lihat menu reservasi room untuk melakukan pemesanan room
+keempat pilih menu konfirmasi pembayaran untuk melakukan konfirmasi pembayaran kepada hotel
+kelima pilih menu ballroom event untuk melakukan pesan ballroom untuk acara event
+keenam user pilih menu loker untuk melihat lowongan kerja dan menu chatting untuk melakukan komunikasi kepada admin
+yang digunakan dalam suatu sistem yang akan dibangun
+sequence diagram sequence diagram merupakan diagram yang digunakan untuk menggambarkan hubungan antara objek
+berikut sequence diagram dalam aplikasi reservasi hotel berbasis mobile yang dapat dilihat pada gambar 6 dibawah ini
+6 sequence diagram user untuk melakukan proses pemesanan room
+hasil dan pembahasan menggunakan aplikasi mobile android
+aplikasi ini dibuat dengan tujuan sebagai penghubung komunikasi antar tamu dengan pihak hotel dan memudahkan dalam pemesanan kamar, ballroom dan info lowongan pekerjaan
+adapun tampilan antar muka aplikasi ini dapat dilihat pada gambar 7, gambar 8, gambar 9 dan gambar 10
+hasil pengujian sistem dalam penelitian ini, pengujian dilakukan dengan menggunakan pengujian black box testing
+pengujian dilakukan dengan melakukan implementasi aplikasi ke hotel edotel dan menjalankan aplikasi tersebut
+hasil pengujian black box dapat dilihat pada tabel 1
+ada beberapa tahapan langkah-langkah pengujian antara lain : 2
+uji tombol menu yang terdapat pada menu utama
+mengamati keberhasilan aplikasi reservasi hotel yang telah dibangun
+uji kelayakan aplikasi setelah dilakukan pengujian terhadap aplikasi yang telah dibuat, maka selanjutnya akan dilakukan pengujian kelayakan aplikasi untuk mengetahui apakah aplikasi sistem pelayanan reservasi hotel ini layak atau tidak layak untuk diterapkan
+uji kelayakan aplikasi ini dilakukan pada hotel edotel pangkal pinang
+kriteria penilaian dapat dilihat pada tabel 2
+telah dilakukan, maka dapat diambil kesimpulan sebagai berikut : 1
+aplikasi sudah dilakukan pengujian black box testing dan hasil pengujiannya dapat berjalan pada perangkat mobile android dengan baik yang sudah dilampirkan pada tabel pengujian
+sistem informasi pelayanan reservasi hotel yang sudah diimplementasikan pada mobile android dapat diakses kapan pun dan di mana pun oleh pengguna dalam memudahkan dalam reservasi hotel sehingga aplikasi ini sudah mencapai tujuan yang efektif dan efisien
+aplikasi ini telah disediakan info lowongan pekerjaan bagi pengguna
+aplikasi ini sudah dilakukan pengujian kelayakan aplikasi dengan menyebarkan kuesioner dengan 50 orang dan didapatkan prosentase sebesar 83, 2 %
+aplikasi ini telah disiapkan media chatting sebagai alat komunikasi antar tamu dengan pihak hotel

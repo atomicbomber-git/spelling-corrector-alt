@@ -1,0 +1,44 @@
+artisipasi kasar berbasis web muhammad hari mardiansyah 1, rudy dwi nyoto 2, helfi nasution 1 muhammad.hari.m@gmail.com, 2 rudydwinyoto@gmail.com, 3 helfi_nasution@yahoo.com mahasiswa menjadi salah satu kegiatan proses belajar mengajar, pada program percepatan angka partisipasi kasar, di fakultas teknik program studi teknik informatika universitas tanjungpura pontianak
+didalam penerapannya, proses dinilai masih memiliki beberapa masalah, salah satunya absensi kehadiran dosen menjadi kosong saat berkas tidak sampai kepada dosen dengan kendala tertentu
+oleh karena itu, diperlukan sebuah aplikasi yang dapat menggantikan metode pemberkasan dalam melakukan monitoring fingerprint
+tujuan dari penelitian ini adalah merancang dan membangun sebuah aplikasi yang dapat melakukan pemantauan kehadiran dosen dan mahasiswa
+dalam pencatatan kehadiran, dosen cukup meletakkan jari pada alat fingerprint dan data otomatis masuk kedalam server
+dengan demikian proses pemantauan kehadiran dosen dan mahasiswa dapat dilakukan secara komputerisasi
+program studi teknik informatika diselenggarakan dengan izin operasional berdasarkan sk dikti nomor 1664/d/t/2004 tertanggal 18 mei 2004
+sebagai salah satu disiplin ilmu rekayasa, program studi teknik informatika berfokus pada pengembangan teknologi informasi sehingga salah satu kompetensi lulusan teknik informatika diharapkan mampu membangun atau mengembangkan sistem aplikasi yang mencakup perpaduan teknologi perangkat keras, perangkat lunak dan perangkat komunikasi dalam suatu unit organisasi
+proses belajar mengajar pada program studi teknik informatika program percepatan apk memiliki jadwal pada sore hari dan memiliki jumlah mahasiswa dari angkatan 2008 sampai dengan angkatan 2014 berjumlah 318 mahasiswa, dengan rincian 260 mahasiswa aktif dan 58 mahasiswa tidak aktif serta memiliki dosen pengajar sebanyak 12 orang
+mekanisme yang berjalan saat ini dalam pemantauan kehadiran mengajar dosen dan kehadiran kuliah mahasiswa program percepatan apk masih menggunakan cara manual yaitu masih menggunakan kertas daftar kehadiran yang diserahkan kepada dosen saat mengajar yang kemudian data tersebut diserahkan kembali kebagian pendidikan dimana pada setiap akhir semester data tersebut direkap untuk dikelola menjadi sebuah informasi
+dengan cara ini, memungkinkan daftar kehadiran tidak sampai kepada dosen saat mengajar dikarenakan perbedaan waktu dalam penyerahan daftar kehadiran
+saat ini, pengolahan data pemantauan kehadiran dosen dan mahasiswa tersebut dapat menggunakan sebuah sistem informasi yang berbasis web dan dikelola secara terkomputerisasi, hal ini dimaksudkan untuk menunjang kinerja sebuah instansi dalam hal ini program studi teknik informatika dalam pemantauan kehadiran dosen dan mahasiswa tersebut
+dosen dan mahasiswa pada program percepatan angka partisipasi kasar berbasis web diharapkan dapat membantu bagian pendidikan dalam pemantauan serta memberikan informasi mengenai perkuliahan pada program studi teknik informatika program percepatan apk tersebut secara terkomputerisasi
+merupakan pengidentifikasian kesuksesan atau mungkin dan sewaktu-waktu bisa menyelesaikan operasionalnya dengan tujuan meninjau kemajuan dan mengusulkan langkah supaya dijalankan untuk meraih dan mewujudkan tujuan untuk menolong suatu individu dalam melaksanakan tugas tertentu
+untuk mengecek penampilan dari aktivitas yang sedang 2 dikerjakan oleh karena itu monitoring juga merupakan bagian dari kegiatan pengawasan, dan didalam kegiatan pengawasan ada aktivitas memantau 
+pemantauan umumnya dilakukan untuk tujuan tertentu, untuk memeriksa apakah program yang telah berjalan itu sesuai dengan sasaran atau sesuai dengan tujuan dari program
+sumber: sop fakultas teknik universitas tanjungpura
+dan mahasiswa yang dilaksanakan secara terjadwal c
+satuan acara perkuliahan satuan acara perkuliahan merupakan pembagian materi suatu matakuliah tiap kali kuliah 
+sap berisi rincian materi kuliah setiap pertemuan kuliah dan berikut tujuan belajarnya serta buku-buku acuan untuk belajar
+yang dimaksud tujuan belajar ialah apa yang minimal dikuasai mahasiswa setelah mendapat materi perkuliahan
+setiap mata kuliah memiliki satuan acara perkuliahan yang merupakan penjabaran secara rinci rencana perkuliahan
+sap di program studi teknik informatika memuat unsur-unsur sebagai berikut : nama mata kuliah, bobot kredit, program studi, kode matakuliah, semester, status mata kuliah, prasyarat, metode pengajaran, penilaian, jumlah pertemuan, waktu perkuliahan, dosen pengajar, tujuan mata kuliah, pustaka
+prosedur merupakan suatu pedoman atau acuan untuk melaksanakan tugas pekerjaan sesuai dengan fungsi dan alat penilaian kinerja instansi pemerintah berdasarkan indikator-indikator teknis, administratif dan prosedural sesuai tata kerja, prosedur kerja dan sistem kerja pada unit kerja yang bersangkutan
+sop merupakan dokumen yang berisi langkah-langkah/sistematika kerja dalam sebuah organisasi
+dari beberapa pengertian sop menurut para ahli, tujuan utama dari penyusunan sop adalah untuk mempermudah setiap proses kerja dan meminimalisir adanya kesalahan di dalam proses pengerjaannya
+adapun tujuan dari penyusunan sop diantaranya : a
+memperjelas alur tugas, wewenang dan tanggung jawab dari petugas atau pegawai terkait
+melindungi organisasi atau unit kerja dan petugas atau pegawai dari malpraktek atau kesalahan administrasi lainnya
+manfaat yang didapat dengan pembuatan sop ini diantaranya: a
+efisiensi waktu, karena semua proses menjadi lebih cepat ketika pekerjaan itu sudah terstruktur secara sistematis dalam sebuah dokumen tertulis
+semua kegiatan karyawan sudah tercantum dalam sop sehingga mereka tahu apa yang harus dilakukan selama masa kerja c
+dapat digunakan sebagai sarana acuan dalam melakukan penilaian terhadap proses layanan
+jika karyawan bertindak tidak sesuai dengan sop berarti dia memiliki nilai kurang dalam melakukan layanan d
+dapat digunakan sebagai sarana mengendalikan dan mengantisipasi apabila terdapat suatu perubahan sistem e
+dapat digunakan sebagai daftar yang digunakan secara berkala oleh pengawas ketika diadakan audit
+sop yang valid akan mengurangi beban kerja f
+membantu pegawai menjadi lebih mandiri dan tidak tergantung pada intervensi manajemen, sehingga akan mengurangi keterlibatan pimpinan dalam pelaksanaan proses sehari-hari prosedur pelaksanaan perkuliahan di fakultas teknik universitas tanjungpura termasuk program studi teknik informatika program percepatan apk, sebagai berikut : persyaratan akademik dan persyaratan bersangkutan
+semester yang bersangkutan dan telah mencantumkan mata kuliah yang akan diambil di dalam lirs 
+mahasiswa yang sedang mengikuti perkuliahan harus berpakaian sopan, wajar, tidak boleh menggunakan baju kaos oblong dan sandal d
+perkuliahan diselenggarakan sesuai dengan jadwal dan tempat yang telah ditentukan fakultas dan mahasiswa harus mengisi daftar hadir kuliah 
+diperkenankan mengikuti perkuliahan kecuali ada alasan yang jelas
+ditentukan, dosen belum juga hadir, tanpa pemberitahuan sebelumnya maka perkuliahan f
+misbach sidik jari merupakan struktur genetika dalam bentuk rangka yang sangat detail dan tanda yang melekat pada diri manusia yang 3 tidak dapat dihapus dan diubah

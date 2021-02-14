@@ -1,0 +1,85 @@
+ahasiswa dengan notifikasi realtime berbasis sms gateway jurista purnama jumri juristapurnama@gmail.com between students and lecturer are an activity that supports the smooth and effective learning process in university, and also facilitate the process of re-list semester
+therefore, an online web-based monitoring system with real time notification is designed
+this system aims is allowing students and lecturer to consult, facilitating students to design courses to be taken in the next half of the semester on the re-registration process, and allowing all users to access the system data on the system either via computer, mobile phone, ipad and other communication devices that support
+in addition to web-based communication services, this system also required communication service to support the system efficiency by using sms gateway feature
+sms gateway can perform transactions with database to send a notification message update of the system to all students and lecturers in real time
+pendahuluan pesat mendorong setiap individu ataupun kelompok harus menerapkannya dalam segala aktivitas kehidupan sehari-hari
+adapun kelebihan teknologi komputer yaitu kecepatan proses, kemampuan penyimpanan data yang sangat besar dan terjamin serta kemudahan pengaksesan dan pengolahan data yang jauh lebih baik dibandingkan dengan sistem manual pada pelaksanaan sistem daftar ulang tersebut, sering ditemukan pelanggaran prosedur daftar ulang di tahap jurusan elektro, fakultas teknik, universitas tanjungpura yaitu beberapa mahasiswa lama tidak mengisi lembar konsultasi rencana studi dan tidak melakukan konsultasi dengan dosen penasehat akademik 
+pelanggaran ini memberikan kerugian bagi mahasiswa karena seringnya terjadi modifikasi lembar isian rencana studi mahasiswa sedangkan pihak dosen pa mengalami kesulitan dalam proses membimbing mahasiswanya, memperkirakan membantu merencanakan matakuliah yang sebaiknya diambil oleh mahasiswa untuk semester selanjutnya
+pada tahap pengisian lkrs, mahasiswa sering menghadapi kesulitan untuk memilih matakuliah yang akan diambil
+pada proses konsultasi antara dosen dan mahasiswa yang dilakukan dengan cara tatap muka langsung, dimana cara ini memang efektif tetapi juga memiliki keterbatasan-keterbatasan seperti dapat disimpan atau diarsipkan
+bimbingan antara mahasiswa dan dosen merupakan kegiatan yang mendukung kelancaran dan efektifnya perkuliahan serta memperlancar proses daftar ulang semester sehingga diperlukan sebuah sistem berbasis web online yang memudahkan mahasiswa dan dosen melakukan konsultasi dan memudahkan seluruh pengguna sistem mengakses data-data pada sistem tersebut
+selain berbasis web, diperlukan layanan sms gateway yang efisen untuk mendukung sistem
+sms gateway tersebut bisa melakukan transaksi dengan database untuk mengirimkan pesan notifikasi informasi terbaru dari sistem kepada seluruh mahasiswa dan dosen secara realtime
+berdasarkan berbagai permasalahan yang telah diuraikan di atas maka diperlukan suatu sistem monitoring bimbingan konsultasi akademik mahasiswa dengan notifikasi realtime berbasis sms gateway untuk membantu dosen melaksanakan salah satu kewajiban sebagai penasehat akademik, mendukung aktifitas perkuliahan mahasiswa dan memperlancar proses daftar ulang semester untuk mahasiswa di atas semester pertama studi kasus program studi teknik informatika universitas tanjungpura 2
+teori dasar 2.1 pengertian sistem monitoring sistem adalah suatu jaringan kerja dari prosedur- prosedur yang saling berhubungan, berkumpul bersama-sama untuk melakukan suatu kegiatan atau untuk menyelesaikan suatu sasaran yang tertentu 
+sistem monitoring merupakan suatu proses untuk mengumpulkan data dari berbagai sumber daya
+biasanya data yang dikumpulkan merupakan monitoring terbagi ke dalam tiga proses besar seperti yang terlihat pada gambar 1 berikut
+gambar 1 proses dalam sistem monitoring proses-proses yang terjadi pada suatu sistem monitoring dimulai dari pengumpulan data seperti data dari network traffic, hardware information, dan lain- lain yang kemudian data tersebut dianalisis pada proses analisis data dan pada akhirnya data tersebut akan ditampilkan
+2.2 pengertian web word wide web atau biasa disebut dengan web merupakan salah satu sumber daya internet yang berkembang pesat
+saat ini, informasi web didistribusikan melalui pendekatan hyperlink, yang memungkinkan sesuatu teks, gambar ataupun objek yang lain menjadi acuan untuk membuka halaman- halaman orang lain
+dengan pendekatan hyperlink ini, sesorang dapat memperoleh informasi dari berbagai negara 
+unix, bsd, linux, microsoft windows dan novell netware serta platform lainnya
+di banyak sistem operasi yang berguna untuk melayani dan memfungsikan situs web
+protokol yang digunakan untuk melayani fasilitas web/www ini mengunakan http
+apache memiliki fitur-fitur canggih seperti pesan kesalahan yang dapat diatur, autentikasi berbasis basis data dan lain-lain
+apache juga didukung oleh sejumlah antarmuka pengguna berbasis grafik yang memungkinkan penanganan server menjadi mudah
+2.2.2 hypertext preprocessor php adalah bahasa server-side scripting yang menyatu dengan html untuk membuat halaman web yang dinamis
+maksud dari server-side scripting adalah sintaks dan perintah-perintah yang diberikan akan sepenuhnya dijalankan di server tetapi disertakan pada dokumen html 
+php merupakan bahasa berbentuk skrip yang ditempatkan dalam server dan diproses server, hasilnya dikirimkan ke klien pemakai menggunakan browser
+manajemen database yang sering digunakan saat ini, yang didistribusikan secara gratis di bawah lisensi gnu general public license 
+sehingga setiap orang mudah untuk mendapatkan dan bebas untuk menggunakan mysql 
+sebagai software database dengan konsep database modern, mysql memiliki banyak sekali kelebihan, berikut beberapa kelebihan dari mysql yaitu portability, open source, multiuser, performance tuning, column types, command and function, security, scalability and limits, connectivity, localisation, interface, clients and tools dan struktur tabel
+ringkas yang menyederhanakan traversing dokumen html, penanganan event, animasi, dan interaksi ajax untuk mempercepat pengembangan web
+jquery adalah library javascript yang bisa kita gunakan untuk membuat program web yang banyak menggunakan javascript untuk pemrosesan dalam browser
+jquery dibuat oleh john resig pada awal tahun 2006 dan saat ini jquery merupakan salah satu library javascript yang banyak dipakai, bahkan oleh penggunaannya didukung microsoft
+untuk mengirim dan menerima pesan dalam bentuk teks dari dan kepada ponsel
+teks tersebut bisa terdiri dari huruf, angka atau kombinasi alphanumeric
+sms gateway adalah komunikasi menggunakan sms yang mengandung informasi berupa nomor telepon seluler pengirim, penerima, waktu dan pesan
+informasi tersebut dapat diolah dan bisa melakukan aktivasi transaksi tergantung kode-kode yang sudah disepakati
+untuk dapat mengelola semua transaksi yang masuk dibutuhkan sebuah sistem yang mampu menerima kode sms dengan jumlah tertentu, mengolah informasi yang terkandung dalam pesan sms dan melakukan transaksi yang dibutuhkan
+aplikasi sms gateway adalah sebuah perangkat lunak yang menggunakan bantuan komputer dan memanfaatkan teknologi seluler yang diintegrasikan guna mendistribusikan pesan-pesan lain)
+membangun aplikasi yang berbasis sms gateway
+selain mudah, aplikasi sms gateway dengan gammu adalah free
+ada dua mekanisme kerja dari gammu yaitu sebagai aplikasi dan sebagai deamon
+gammu sebagai aplikasi akan bekerja ketika perintah gammu dijalankan pada lingkungan shell beserta perintahnya disertakan sesuai fungsi yang diinginkan
+sedangkan sebagai deamon, gammu ditandai dengan dijalankannya perintah smsd pada shell
+pada prinsipnya cara kerja gammu yaitu menghubungkan modem/ponsel dengan pc
+sms yang diterima di gambar 2 berikut
+hasil eksperimen aplikasi sistem monitoring bimbingan konsultasi akademik mahasiswa merupakan proses bimbingan dan konsultasi antara dosen dengan mahasiswa bimbingannya serta memperlancar proses daftar ulang semester untuk mahasiswa di atas semester pertama di program studi teknik informatika universitas tanjungpura
+halaman utama berisikan menu-menu yang berhubungan dengan aplikasi
+antarmuka hasil perancangan halaman utama dapat dilihat pada gambar 3 berikut
+pada halaman utama ini terdapat beberapa menu
+fungsi masing-masing menu dapat dilihat pada tabel 1 berikut
+menu submenu fungsi untuk mengakses halaman-halaman lain pada aplikasi
+antarmuka hasil perancangan halaman utama mahasiswa dapat dilihat pada gambar 4 berikut
+gambar 4 antarmuka halaman utama mahasiswa tabel 2 daftar menu halaman utama mahasiswa dan fungsinya mengakses halaman-halaman lain pada aplikasi
+antarmuka hasil perancangan halaman utama dosen dapat dilihat pada gambar 5 berikut
+gambar 5 antarmuka halaman utama dosen tabel 3 daftar menu halaman utama dosen dan fungsinya menu submenu fungsi pada aplikasi
+antarmuka hasil perancangan halaman utama administrator dapat dilihat pada gambar 6 berikut tabel 4 daftar menu halaman utama administrator dan fungsinya fungsinya metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+adapun teknik ujicoba yang digunakan dalam pengujian black box pada aplikasi ini, yaitu menggunakan teknik sample testing
+pengujian ini dilakukan pada proses input data
+pengujian juga dilakukan dengan metode uat dimana pengujian dilakukan oleh pengguna secara langsung untuk memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan oleh pengguna
+pengujian ini melibatkan data real yang didapat secara langsung melalui kuesioner tanpa memperhatikan detail internal dari sistem
+berikut ini adalah analisis hasil perancangan dan pengujian simobika : 1
+hasil pengujian menunjukkan bahwa saat dilakukan input data dengan menggunakan metode black box, input data dengan keseluruhan data kosong akan menimbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan sudah ditangani pada kode program, sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+hasil pengujian menunjukkan bahwa saat dilakukan input data dengan salah satu data yang benilai kosong akan menyebabkan kesalahan apabila data tersebut tidak diperbolehkan kosong di dalam basis data
+pada sistem ini kemungkinan tersebut sudah ditangani pada pengkodean program sehingga akan muncul pesan kesalahan jika ada salah satu data yang belum diisi
+hasil pengujian menunjukkan bahwa saat dilakukan input data yang sama untuk data yang merupakan primary key akan menimbulkan kesalahan pada program
+pada sistem ini, kemungkinan tersebut sudah ditangani pada kode program sehingga akan muncul pesan kesalahan jika terdapat data yang sama pada data yang merupakan primary key
+hasil pengujian menunjukkan bahwa saat dilakukan input data yang tidak sesuai dengan ketentuan, maka sistem tidak akan melakukan proses yang telah dieksekusi dan menampilkan pesan kesalahan
+saat user melakukan input data dengan data yang benar, sistem akan mengeksekusi input data tersebut dan menampilkan pesan eksekusi input telah berhasil
+hasil pengujian menunjukkan bahwa, proses input data lkrs berhasil dieksekusi jika lulus verifikasi berbagai persyaratan
+persyaratan tersebut antara lain mata kuliah yang dapat dipilih, jumlah maksimal sks mata kuliah yang dipilih dan jadwal mata kuliah yang dipilih tidak bentrok
+hasil pengujian menunjukkan bahwa, setelah mahasiswa meng-upload foto lkrs yang telah divalidasi dosen penasehat akademiknya maka sistem akan otomatis memberikan password siakad fakultas teknik kepada mahasiswa
+hasil pengujian pengiriman sms gateway menunjukkan bahwa, sistem akan mengirimkan langsung sms kepada dosen berisikan notifikasi forum konsultasi terbaru dan notifikasi data lkrs terbaru serta notifikasi forum konsultasi terbaru kepada mahasiswa
+hasil perancangan dan pengujian sistem menunjukkan bahwa sistem ini menjadi soulusi untuk proses konsultasi antara mahasiswa dan dosen tanpa harus bertatap muka langsung serta mempermudah mahasiswa ketika merancang selanjutnya
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai berhasil
+simobika dengan notifikasi realtime berbasis sms gateway maka dapat disimpulkan bahwa: 1
+sistem dapat memperlancar proses konsultasi antara dosen dan mahasiswa bimbingannya dengan notifikasi realtime melalui sms
+mengurangi resiko kesalahan meng-input data lembar isian rencana studi
+selain itu sistem mengirimkan notifikasi realtime kepada dosen penasehat akademik ketika terdapat mahasiswa bimbingannya telah meng-input lembar konsultasi rencana studi
+sistem membantu memperlancar proses daftar ulang semester untuk mahasiswa diatas semester pertama di universitas tanjungpura dengan otomatis memberikan password siakad kepada mahasiswa jika lembar konsultasi rencana studi mahasiswa telah divalidasi oleh dosen penasehat akademik dan foto lkrs yang telah divalidasi di- upload ke sistem sehingga mahasiswa tidak dapat meng-input lirs jika belum berkonsultasi serta lkrs belum divalidasi
+sistem dapat menampilkan semua data akademik dan non akademik mahasiswa, data dosen, data jadwal kuliah, data pedoman pendidikan, data kurikulum dan silabus yang berlaku saat ini

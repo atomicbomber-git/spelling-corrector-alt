@@ -1,0 +1,65 @@
+mdta nurul ikhlas adalah lembaga pendidikan setingkat sekolah madarasah ibtidaiyah yang terletak di kabupaten sukabumi
+untuk mengelola nilai, sekolah tersebut msih menggunakan cara manual dan belum memiliki sebuh sistem informasi
+akibatnya proses pengolahan nilai sering mengalami kendala terutama untuk proses rekap absen, input nilai dari guru, pengolahan nilai oleh wali kelas dan pelaporan terhadap kepala sekolah
+salah satu cara yang dapat dilakukan adalah merancangan sebuah aplikasi sistem informasi pengolahan nilai yang nantinya akan membantu guru untuk meningkatkan kinerjanya dalam setiap penggolahan nilai rapor siswa
+penelitian ini bertujuan untuk merancangan sebuah sistem informasi pengolahan nilai akademik berbasis web yang akan di implementasikan pada mdta nurul ikhlas sukabumi
+pengembangan sistem perangkat lunak dibuat dengan menggunakan metode waterfall
+hasil penelitian dapat digunakan untuk membantu kinerja guru, sehingga laporan- laporan yang dibutuhkan dapat tersaji secara tepat waktu
+pendahuluan mdta nurul ikhlas sebagai salah satu lembaga pendidikan yang berada di sukabumi, kegiatannya tidak terlepas dari proses kegiatan belajar mengajar
+hasil kegiatan belajar mengajar tersebut berupa nilai yang dlaporkan pada sebuah buku laporan kemajuan belajar siswa atau rapor setiap semesternya
+mdta nurul ikhlas menggunakan kurikulum tahun 2010 dengan sistem kompetensi yaitu pengolahan nilai rapor diambil dari laporan keaktifan siswa yang berupa laporan nilai serta informasi mengenai siswa yang bersangkutan
+permasalahan yang terjadi dalam pengolahan nilai rapor di mdta yaitu penulisan hasil belajar di rapor masih tulis tangan sehingga kurang efektif karena membutuhkan waktu yang lama
+komputer merupakan mesin penghitung elektronik yang cepat dan dapat menerima informasi input digital, kemudian memrosesnya sesuai dengan program yang tersimpan di memorinya serta menghasilkan output berupa informasi
+dengan bantuan komputer suatu perhitungan akan lebih cepat, pemrosesan data juga lebih cepat, dapat digunakan untuk pengontrolan otomatis, outputnya beragam dan menarik serta tampilannya user friendly
+oleh karena itu, untuk mengatasi permasalahan pengolahan nilai siswa di mdta nurul ikhlas perlu dibangun sebuah sistem komputer untuk membantu dan memudahkan guru dalam mengolah nilai siswa
+kehidupan manusia pada zaman sekarang tidak dapat lepas dari teknologi, khususnya komputer
+dunia pendidikan khususnya merupakan salah satu yang paling utama yang membawa perubahan tersebut
+bahkan, banyak peralatan berbasis komputer yang sekarang ini umum digunakan masyarakat
+seiring dengan berkembangnya teknologi tersebut manusia pun terus berusaha meningkatkan kreatifitas dan aktifitasnya
+sistem informasi adalah komponen- komponen yang saling berkaitan yang bekerja bersama- sama untuk mengumpulkan, mengolah, menyimpan dan menampilkan informasi untuk mendukung pengambilan keputusan, koordinasi, pengaturan analisa dan visualisasi pada sebuah organisasi
+untuk mendukung kinerja guru agar lebih professional dalam melayani siswa, sistem informasi pengolahan nilai diperlukan untuk mempermudah proses pengolahan nilai sehingga tidak memerlukan waktu yang banyak, efisien, cepat dan handal 
+sistem pengolahan nilai dapat membantu kinerja para guru dan wali kelas untuk melakukan proses pengolahan nilai agar pengelolaan nilai dapat di olah secara efektif dan efisien, sehingga bisa langsung di akses serta informasi dapat tersampaikan dengan baik
+konsep dasar program pemrograman terstruktur yaitu bentuk pemrograman yang terorganisasi, yang programnya dapat mudah dipahami dan dapat dimodifikasi secara benar
+pembuatan program dapat dilakukan dengan berbagai bahasa pemrograman, salah satunya yaitu microsoft visual basic
+microsoft visual basic adalah software untuk membuat progrm berbasis windows
+beginners all purpose symbolic instruction code
+visual basic 6.0 memakai bahasa pemrograman basic yang merupakan salah satu bahasa pemrograman tingkat tinggi yang sederhana dan mudah untuk dipelajar
+model waterfall metode yang digunakan pada pengembangan perangkat lunak ini menggunakan model sdlc air terjun, yang terbagi menjadi lima tahapan, yaitu: 1
+analisis kebutuhan tahapan ini penulis meneliti kebutuhan sistem yang dibutuhkan sesuai informasi yang didapatkan 2
+desain pada tahap ini, untuk dapat ke tahap pembuatan program selanjutnya penulis mengidentifikasi dan menggambarkan abstraksi dasar sistem perangkat lunak dan hubungan-hubungannya
+pembuatan kode program setelah membuat rancangan desain, penulis akan menterjemahkan semua rancangan desainnya dan mulai pembuatan program yang sesuai dengan rancangan yang telah dipersiapkan
+pengujian pada tahap ini, penulis melakukan pengujian program dengan menggunakan pengujian kotak hitam sumber : rosa & shalahuddin c
+erd entity relationship diagram adalah alat pemodelan data utama dan akan membantu mengorganisasi data dalam suatu proyek ke dalam entitas-entitas dan menentukan hubungan antar entitas
+terdapat tiga notasi dasar yang bekerja pada model e-r, yaitu entity sets, relationship sets dan atribut
+lrs lrs merupakan hasil pemodelan entity relationship beserta atributnya sehingga bisa terlihat hubungan-hubungan antar entitas
+terdapat tiga hal yang dapat mempengaruhi dalam pembuatan lrs, yaitu:  jika tingkat hubungan satu pada satu, maka digabungkan dengan entitas yang lebih kuat, atau digabungkan dengan entitas yang memiliki atribut yang lebih sedikit
+ jika tingkat hubungan satu pada banyak, maka hubungan relasi digabungkan dengan entitas yang tingkat hubungannya banyak
+ jika tingkat hubungan banyak pada banyak, maka hubungan relasi tidak akan digabungkan dengan entitas manapun, melainkan menjadi sebuah lrs
+uml unified modeling language adalah bahasa pemodelan utama yang digunakan untuk menganalisis, menentukan dan mendesain suatu sistem perangkat lunak
+ada 9 jenis diagram uml, antara lain:  diagram kelas diagram ini memperlihatkan himpunan kelas-kelas, antarmuka-antarmuka, kolaborasi-kolaborasi, serta relasi- relasi
+ diagram paket diagram ini memperlihatkan kumpulan kelas-kelas, merupakan bagian dari diagram komponen
+ diagram use-case diagram ini memperlihatkan himpunan use-case dan aktor- aktor 
+ diagram interaksi dan sequence diagram urutan adalah diagram interaksi yang menekankan pada pengiriman pesan dalam suatu waktu tertentu
+ diagram komunikasi diagram sebagai penggnati diagram kolaborasi uml 1.4 yang menekankan organisasi struktural dari objek-objek yang menerima serta mengirim pesan
+ diagram statechart diagrma status memperlihatkan keadaan-keadaan pada sistem, memuat status, transisi, kejadian serta aktivitas
+ diagram aktivitas diagram aktivitas adalah tipe khusus dari diagram status yang memperlihatkan aliran dari suatu aktivitas ke aktivitas lainnya dalam suatu sistem
+ diagram komponen diagram komponen ini memperlihatkan organisasi serta keberuntungan sistem/ perangkat lunak pada komponen- komponen yang telah ada sebelumnya
+black box testing black box testing berfokus pada spesifikasi fungsional dari perangkat lunak
+tester dapat mendefinisikan kumpulan kondisi input dan melakukan pengetesan pada spesifikasi fungsional program
+black box testing bukanlah solusi alternatif dari white box testing tapi lebih merupakan pelengkap untuk menguji hal-hal yang tidak dicakup oleh white box testing
+black box testing cenderung untuk menemukan hal-hal berikut:  fungsi yang tidak benar atau tidak ada
+ kesalahan pada struktur data dan akses basis data
+metodologi pengembangan perangkat lunak dalam penelitian ini: metode yang digunakan pada pengembangan perangkat lunak ini menggunakan model sdlc air terjun, yang terbagi menjadi lima tahapan, yaitu: 1
+analisis kebutuhan tahapan ini penulis meneliti kebutuhan sistem yang dibutuhkan sesuai informasi yang didapatkan 2
+desain pada tahap ini, untuk dapat ke tahap pembuatan program selanjutnya penulis mengidentifikasi dan menggambarkan abstraksi dasar sistem perangkat lunak dan hubungan-hubungannya
+pembuatan kode program setelah membuat rancangan desain, penulis akan menterjemahkan semua rancangan desainnya dan mulai pembuatan program yang sesuai dengan rancangan yang telah dipersiapkan
+pengujian pada tahap ini, penulis melakukan pengujian program dengan menggunakan pengujian kotak hitam 
+aanalisis sistem yang sedang berjalan sistem yang sedang berjalan pada mdta dalam hal pengolahan nilai siswa masih dilakukan secara manual dan belum memiliki sistem atau aplikasi khusus untuk menangani permasalahan tersebut
+nilai yang direkap oleh guru kemudian akan dilaporkan secara manual dan itu membutuhkan waktu yang sangat lama karena mengingat jumlah siswa yang begitu banyak
+hasilnya pun terkadang kurang akurat karena semua perhitungan dilakukan secara manual b
+sistem yang akan dibangun berdasarkan analisa sistem berjalan maka diperlukan suatu program aplikasi pengolan nilai rapor siswa
+program aplikasi tersebut dapat memudahkan para guru dalam proses pengolahan nilai rapor siswa dan orangtua siswa bisa lebih cepat untuk mendapatkan laporan nilai hasil belajar siswa
+diagram erd gambar 4
+kesimpulan berdasarkan hasil pengujian terhadap aplikasi pengolahan nilai siswa, maka dapat diambil kesimpulan sebagai berikut: 1) dengan program pengolahan nilai ini, memudahkan guru wali kelas dalam mengolah nilai siswa
+2) mengurangi permasalahan keterlambatan dalam pengolahan data nilai siswa 3) program ini dirancang atau dibuat untuk memudahkan setiap guru dalam membuat laporan nilai baik per- semester ataupun tahunan
+4) melihat dari aspek sistem, perawatan komputer sebaiknya dilakukan secara rutin agar tidak terjadi masalah ketika komputer digunakan dan melakukan backup database setiap akhir semester agar data tersimpan dengan baik

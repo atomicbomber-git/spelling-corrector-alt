@@ -1,0 +1,120 @@
+hasil klasifikasi menunjukkan bahwa pada level genus, mampu mencapai 98, 62% secara rata-rata
+sementara pendekatan unsupervised yakni clustering metagenome telah dilakukan oleh beberapa penelitian di antaranyayang mengusulkan proses clustering dengan waktu yang cepat dibandingkan dengan beberapa metode yang telah ada
+penelitian yang dilakukan padapun diklaim berhasil melakukan clustering pada data metagenome berskala besar dengan metode rammcap
+growth self organizing map telah berhasil dilakukan untuk melakukan clustering metagenome pada
+dimensi fitur yang telalu tinggi menjadi permasalahan pada proses komputasi yang menyebabkan tidak efisien
+bukan hanya itu, bahkan terkandang tingginya dimensi ini tidak memberikan kontribusi yang signifikan terhadap hasil akurasi karena di antara variabel yang ada ternyata memiliki korelasi linear misalnya
+oleh karena itu, masalah tersebut dapat diatasi dengan metode reduksi dimensi fitur atau seleksi fitur
+penelitian terkait dengan seleksi fitur pada metagenome di antaranya, dan
+klasifikasi untuk memilih fitur-fitur yang relevan terhadap data
+penelitian sebelumnya pernah dilakukan oleh dinilhakmenggunakan support vector machine sebagai classifier dan fcbf sebagai seleksi fiturnya
+tanpa seleksi fitur fcbf dihasilkan akurasi berkisar 84.93%-99.01% dan dengan seleksi fitur fcbf dihasilkan akurasi berkisar 79.13%- 96.68%
+dari penelitian tersebut dapat dilihat akurasi menurun saat penggunaan seleksi fitur fcbf sehingga dibutuhkan algoritme untuk mengoptimalkan parameter threshold pada fcbf
+permasalahan optimasi dan mencari pola baru yang diharapkan memiliki nilai fitness yang lebih baik dari seluruh kromosom
+keberhasilan ga untuk melakukan optimasi telah dilakukan pada beberapa penelitian antara lain, dan
+penelitian sebelumnya pernah dilakukan padauntuk mengoptimasi parameter pada svm
+penelitian tersebut menghasilkan akurasi sebesar 65.3% dengan menggunakan algoritme grid search dan 67.3% dengan menggunakan algoritme genetika untuk panjang fragmen 400 base pair 
+oleh karena itu, penelitian ini melakukan klasifikasi fragmen metagenome dengan metode k-nearest neighbour dan fcbf sebagai peyeleksi fitur, serta algoritme genetika untuk mengoptimasi nilai threshold dari fcbf tersebut
+dibandingkan penelitian sebelumnya, seleksi fitur fcbf yang digunakan masih belum dioptimasi sehingga fitur optimal bisa jadi belum ditemukan
+selain itu, seleksi fitur tanpa proses algoritme optimasi justru menghasilkan akurasi yang tidak begitu baik
+metode penelitian pada penelitian ini sebanyak 214 data organisme
+data tersebut terbagi atas 150 data mikroorganisme dari 25 genus sebagai data latih dan 64 data mikroorganisme dari 16 genus sebagai data uji
+data tersebut diunduh dari situs national center for biotechnology information melalui alamat website pada tautan berikut ini
+ini secara umum dari mulai pengambilan data sampai dengan analisis hasil dan evaluasi sehingga penelitian ini dapat terselesaikan
+diagram alir penelitian ini disajikan pada gambar 1
+praproses sequence menggunakan perangkat lunak metasim dengan nilai coverage = 10
+metasim merupakan perangkat lunak simulasi sequencer baik untuk data genom atau metagenome
+data yang telah dipilih akan diproses menggunakan metasim untuk melakukan sequencing sepanjang 500 bp 
+ekstrasksi ciri menggunakan ekstraksi ciri n-mers untuk k = 5 dan k = 7
+pola kemunculan k adalah pola yang menampilkan k pada suatu waktu dalam suatu sequences
+pola kemunculan k dihitung menggunakan kombinasi empat basa nukleotida
+pada penelitian ini, nilai k = 5 dan 7 akan berimplikasi pada sejumlah 45 dan 47 pola kemunculan fitur yang terbentuk
+prinsip algoritme ini adalah bahwa suatu fitur yang baik adalah fitur-fitur yang relevan terhadap kelas tapi tidak redundant terhadap fitur yang lain
+konsep dasar fcbf adalah bahwa suatu fitur yang baik adalah fitur yang relevan terhadap kelas tapi tidak redundant terhadap fitur relevan yang lain
+oleh karena itu, akan dilakukan suatu pendekatan dengan mengukur korelasi antara dua variabel acak menggunakan symmetrical uncertainty 
+nilai su ada pada selang 0 sampai dengan 1
+diketahui variabel y yang didefinisikan dalam persamaan )| |ig f
+representasi solusi dilakukan untuk merepresentasikan suatu solusi
+pada ga, satu kromosom biasanya menyatakan satu buah variabel penyelesaian dan setiap kromosom terdiri atas beberapa gen
+nilai threshold yang dioptimasi akan direpresentasikan menjadi suatu bilangan biner
+adapun tahapan pengkodean threshold menjadi kode biner:  menentukan batas bawah dan batas atas  menentukan tingkat ketelitian )]1)10*)log((([ 2 kromosom secara acak
+hal ini dikarenakan pembangkitan populasi awal tersebut sudah merepresentasikan ruang pencarian
+dari populasi awal tersebut akan diproses menggunakan algoritme genetika untuk mendapatkan populasi baru
+proses pembentukan populasi baru akan dilakukan sampai nilai threshold dan akurasi dianggap optimal jumlah fitur yang terpilih
+kedua nilai tersebut diberi pembobotan, yaitu 75% untuk akurasi dan 25% untuk jumlah fitur yang terpilih
+nilai akuirasi dari hasil klasifikasi yang diperoleh masing-masing kromosom akan dievaluasi menggunakan fungsi fitness dengan persamaan 4 fitur yang terpilih, dan yt merupakan jumlah fitur total i
+kriteria pemberhentian populasi saat ini terhadap kriteria pemberhentian
+ketika kriteria telah terpenuhi, maka proses pembentukan populasi baru dihentikan
+beberapa kriteria pemeberhentian dalam ga untuk penelitian ini adalah  banyaknya generasi maksimum
+pada penelitian ini durasi maksimum adalah 45 iterasi
+ mencapai durasi maksimum  nilai fitness terbaik sudah tidak mengalami peningkatan selama beberapa generasi terakhir
+ sudah mencapai nilai fitness yang ditentukan sebelumnya
+ menggunakan kriteria berhenti dinamis setelah tingkat keyakinan dari nilai fitness terbaik telah tercapai
+rangkaian iterasi di dalam dalam proses optimasi menggunakan algoritme genetika
+pada proses seleksi ini, teknik yang digunakan adalah metode roulette wheel
+untuk crossover, penelitian ini menggunakan peluang crossover sebesar 60%
+selanjutnya akan dibangkitkan bilangan acak dari 1 sampai 16 untuk setiap kromosom
+untuk mempertahankan generasi yang baik, dua kromoson tetap dipertahankan di generasi berikutnya
+proses ini yang dikenal dengan elistisme
+menggunakan akurasi, sensitifitas, spesifisitas berdasarkan matrik konfusi pada tabel 1
+nilai akurasi, sensitifitas dan spesifisitas didefinisikan pada persamaann, dan 
+   coverage 10 dan panjang pasang basa yang digunakan adalah 500 atau 500 bp
+contoh data yang diperoleh dari perangkat lunak tersebut seperti dilihat pada gambar 2
+contoh ilustrasi fail hasil simulasi metasim data hasil simulasi tersebut kemudian diproses melalui tekniik parsing untuk mendapatkan fitur dengan metode n-mers
+pada prinsipnya n-mers akan menghitung frekuensi kemuculan suatu basa a, c, g atau t
+banyaknya fitur yang terbentuk akan bergantung pada nilai n yang dipilih
+penelitian ini menggunakan nilai n = 5 dan n = 7 sehingga jumlah fitur yang terbentuk adalah sebanyak 4n dengan n ={5, 7}
+dengan demikian, jumlah fitur yang terbentuk adalah sebanyak 1024 untuk n = 5 dan 16384 untuk n = 7
+jumlah ini sudah cukup banyak untuk diseleksi menggunakan fcbf yang akan dioptimasi dengan menggunakan ga
+fitur menggunakan n-mers, dapat dilihat pada ilustrasi yang terdapat di gambar 3
+ilustrasi hasil ekstraksi fitur = n-mers dengan k = 5 c
+fast correlation based filter setelah dilakukan ekstraksi n-mers, proses berikutnya adalah melakukan proses reduksi dimensi fitur dengan fcbf
+fcbf memiliki parameter threshold yang harus dioptimasi untuk menghasilkan akurasi yang baik
+pengoptimalan parameter threshold menggunakan input dalam fcbf
+reduksi dimensi fitur fcbf menggunakan perangkat lunak weka versi 3.7
+hasil fitur yang terpilih pada 5-mers dengan nilai threshold = 0 ditunjukkan pada tabel 2
+representasi batas bawah dan batas atas disajikan pada tabel 3
+n-mers batas bawah batas atas 5-mers 0 0.79621 7-mers 0 0.74378 pada masing-masing n-mers sementara batas bawah merupakan nilai terkecil dari threshold
+adapun tingkat ketelitian yang digunakan sejumlah lima angka di belakang koma
+dengan penggunaan lima angka di belakang koma ini, perbedaan nilai threshold sudah dapat terlihat
+dihasilkan untuk setiap n-mers adalah 17 bit 1727, 17)]1)10*)079621.0log((([ 42 atas 17 bit gen secara acak pada penelitian ini populasi direpresentasikan dalam bentuk bit-string
+tabel 4 menunjukan proses pembentukan populasi awal yang telah dibangkitkan secara acak
+setiap individu memiliki nilai threshold tertentu yang akan berimplikasi pada fitur fcbf yang terpilih untuk kemudian fitur tersebut digunakan sebagai input bagi knn
+sebelum mendapatkan nilai threshold, terlebih dahulu dilakukan proses decoding melalui persamaan 12 adalah salah satu contoh threshold yang diperoleh 12 pada fcbf untuk mendapatkan fitur fitur relevan yang digunakan untuk proses klasifkasi pada knn
+tabel 5 adalan contoh potongan hasil threshold dengan 5-mers dan 3-nn
+ind.15 threshold 0.09985 0.61575 akurasi 85.9375 89.0625 90.625 fitness 83.0566 89.2197 90.0757 hasil seleksi dengan menggunakan metode roulette wheel dengan pemilihan parrent berdasarkan nilai fitness yang paling baik
+adapun hasil proporsi kumulatif setiap individu disajikan pada tabel 6
+tabel vi crossover dan mutasi ini ditunjukkan pada gambar 4
+hasil proses crossover dan mutasi pada dua individu pada tabel 7
+iterasi sampai pada generasi tertentu yang dalam penelitian ini dilakukan sampai pada generasi ke 45
+untuk setiap generasi dihitung rata-rata nilai fitness dan nilai fitness maksimumnya
+hasil percobaan skenario 1 disajikan pada gambar 5
+pada 5-mers dengan nilai k = 3 pada klasifikasi knn
+nilai rata-rata fitness tertinggi pada nilai 89.1%
+generasi pertama memiliki nilai fitness tertinggi sebesar 89.5% mengalami peningkatan secara terus menerus hingga nilai fitness yang tertinggi pada generasi ke-45 sebesar 93.70%
+perolehan nilai fitness untuk 5-mers dan 3-nn percobaan pada skenario 2 disajikan pada gambar 6
+perolehan nilai fitness untuk 5-mers dan 5-nn pada percobaan skenario 2, nilai rata-rata akurasi tertinggi pada nilai 88.5%
+generasi pertama nilai fitness tertinggi sebesar 88.9% mengalami peningkatan secara terus menerus hingga nilai fitness tertinggi pada generasi ke-45 sebesar 93.3%
+hasil percobaan pada skenario 3 diperlihatkan pada gambar 7
+pada percobaan ini, generasi pertama nilai fitness tertinggi di atas 90 persen yaitu sebesar 91.4%
+secara iteratif mengalami peningkatan secara terus menerus seiring dengan bertambahnya generasi hingga nilai fitness tertinggi berhasil dicapai pada generasi ke-45 sebesar 94.6%
+adapun percobaan skenario ke-4 diperlihatkan pada gambar 8
+pada generasi pertama memiliki nilai fitness tertinggi sebesar 90% mengalami peningkatan secara terus menerus hingga nilai fitness tertinggi pada generasi ke-45 sebesar 91.48%
+apabila dilihat dari keempat skenario tersebut, terlihat bahwa secara umum terjadi tren peningkatan nilai fitness seiring dengan bertambahnya generasi, meskipun dalam setiap genrasi memang terjadi fluktuasi nilai fitness
+untuk itulah pada penelitian ini diukur beberapa parameter untuk menilai performa dan pengklasifikasi yang digunakan dalam hal ini adalah knn
+untuk meperlihatkan hasil tersebut, tabel 8 dan tabel 9 menyajikan performa dari knn berdasarkan penggunaan 3 tetangga terdekat dan 5 tetangga terdekat yang dilakukan secara eksperimental pada tabel 8 terlihat bahwa penggunaan algoritme untuk optimasi nilai threshold fcbf mampu menseleksi fitur dan mereduksi jumlah fitur bahkan mampu untuk menghasilkan akurasi yang lebih baik dibandingkan dengan tanpa dilakukan proses optimasi parameter fcbf
+jumlah fitur pada 5-mers yang semula 1026 menjadi 66 dengan meningkatkan akurasi menjadi sebesar 99.41%
+tidak hanya itu, berdasarkan hasil penelitian ini waktu komputasi untuk mendapatkan hasil akurasi ini juga mampu untuk diefisienkan
+penggunaan 1024 fitur, membutuhkan waktu komputasi sebanyak 5980 detik atau sekitar 1 jam 36 menit sedangkan dengan penggunaan 66 fitur hanya dibutuhkan waktu sebesar 0.473 detik
+begitu juga pada fitur dengan 7-mers, optimasi dengan menggunakan ga pada ternyata mampu meningkatkan akurasi dan waktu komputasi pada saat proses perhitungan knn
+berdasarkan penelitian ini, waktu komputasi dengan menggunaan 16.384 fitur membutuhkan waktu sebanyak 92.150 detik atau sekitar 24 jam lebih
+adapun setelah mengalami proses optimasi dengan algoritme genetika, waktu yang dibutuhkan sebesar 2600 detik atau sekitar 43 menit
+tabel ix berdasarkan tabel 9 di atas penggunaan algoritme genetika ternyata juga dapat meningkatkan performasi hasil akurasi pada knn dengan lima tetangga terdekat
+dari sisi waktu komputasi juga dapat dipastikan sangat berpengaruh secara signifikan
+seluruh fitur pada 5-mers dengan lima tetangga terdekat ini mengkonsumi waktu sebanyak 5820 detik sementara dengan menggunakan 3 fitur mengkonsumi waktu hanya sebanyak 0.225 detik
+adapun pada 7-mers, waktu yang dibutuhkan untuk melakukan komputasi saat perhitungan dengan knn adalah sebanyak 91.480 detik atau sekitar 25 jam
+sementara penggunaan 202 fitur hasil optimasi dengan ga hanya membutuhkan waktu sebanyak 1200 detik atau 20 menit
+penggunaan n = 7 pada 7-mers akan menjadikan tingkat keunikan pada kombinasi basa nukleotida yang terbentuk sehingga secara teori harusnya memilki akurasi yang lebih baik
+hanya saja akan menjadi trade-off dengan tingginya dimensi fitur yang terbentuk
+untuk itulah proses optimasi dengan ga pada fcbf ini diperlukan
+kesimpulan yang baik untuk melakukan optimasi parameter fcbf pada klasifikasi metagenome

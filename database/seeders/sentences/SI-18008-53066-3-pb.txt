@@ -1,0 +1,63 @@
+kebutuhan akan darah dalam beberapa tahun terakhir ini terus meningkat, menurut who idealnya ketersedian darah adalah 2% dari jumlah penduduk, yang berarti untuk indonesia saat ini memerlukan 4, 6 juta kantong darah, namun palang merah indonesia hanya mendapatkan kurang dari 0, 5% darah
+untuk menenuhi kekurangan stok darah, saat ini palang merah indonesia sudah melakukan donor darah massal dan sosialisasi tentang pentingnya mendonor darah
+namun upaya tersebut ternyata belum bisa menutupi kurangnya ketersediaan darah
+ada pula faktor jarak antara unit tranfusi darah yang jauh dari tempat tinggal pendonor, sehingga pendonor tidak dapat mendonorkan darah
+pada penelitian ini dibuat aplikasi berbasis android, yang dapat membantu pendonor untuk mendonorkan darahnya di kelurahan tempat tinggal dengan cara meminta jemput
+aplikasi ini dilengkapi dengan notifikasi ke pengguna yang berkelurahan sama, sehingga dapat ikut serta mendonorkan darah
+dengan fitur notifikasi ini juga pmi dapat mengirim pesan ke semua pengguna, jika palang merah indonesia mengadakan kegiatan donor darah
+berdasarkan hasil pengujian, aplikasi ini sudah berjalan dengan baik pada perangkat mobile android, mulai dari android versi 5.0 hingga android versi 6.0.1 
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 1757 yang berarti aplikasi ini diimplementasikan dengan sangat baik
+terakhir ini terus meningkat, baik untuk tindakan operasi kasus kecelakaan ataupun kasus operasi terencana
+palang merah indonesia sebagai salah satu penyedia darah saat ini terkendala dengan kurangnya persediaan darah bagi para pasien, karena menurut who idealnya ketersedian darah adalah 2% dari jumlah penduduk, yang berarti untuk indonesia saat ini memerlukan 4, 6 juta kantong darah, namun pmi hanya mendapatkan kurang dari 0.5 % kebutuhan itu pada tahun 2005 
+palang merah indonesia kota pontianak hanya mampu mendapatkan sekitar 400 kantong darah per bulan dari donatur, yang berarti hanya sekitar 10-20 kantong darah per hari
+dengan jumlah itu masih belum cukup memenuhi kebutuhan darah
+aksi donor darah massal dan sosialisai juga belum mampu memenuhi kekurangan stok tersebut
+selain kurangnya minat untuk mendonor, ada pula faktor pendonor yang berhalangan untuk datang ke unit trasfusi darah, karena jarak yang cukup jauh
+hal ini menyebabkan banyaknya keluarga pasien harus mencari sendiri pendonor yang bersedia mendonorkan darah
+banyak cara yang dilakukan oleh pihak keluarga, diantaranya menyebarkan informasi melalui media sosial sebuah sistem yang dapat mengirim permintaan jemput darah yang dilakukan oleh pendonor dan pmi dapat mengirimkan pemberitahuan pencarian darah kepada pendonor yang telah terdata di pmi, sehingga membantu palang merah indonesia dalam mencari kekurangan darah
+selain itu, terdapat fitur pemberitahuan jika pmi mengadakan kegiatan donor darah
+sistem ini dibangun berbasis android yang dapat diakses dimana saja dan kapan saja
+uraian penelitian yang ada di indonesia
+pmi pertama kali didirikan sejak tanggal 21 oktober 1873 dibentuk oleh belanda
+pada dasarnya pmi mempunyai empat tugas pokok yakni kesiapsiagaan bantuan dan penanggulangan bencana, pelatihan pertolongan pertama untuk sukarelawan, pelayanan kesehatan dan kesejahteraan masyarakat, pelayanan transfusi darah
+donor darah seseorang secara sukarela untuk disimpan di bank darah untuk kemudian dipakai untuk proses transfusi darah
+transfusi darah adalah proses pemindahan darah dari seseorang yang sehat ke orang sakit 
+donor darah merupakan bagian penting dari sistem kesehatan kita
+jika kita tidak memiliki relawan memberikan donor darah, banyak prosedur medis kita anggap tidak bisa mengambil tempat
+keberhasilan penyelenggaraan upaya kesehatan transfusi darah dapat berkaitan dengan faktor ketenagaan, peralatan, donor, dan pengolahannya, yang ada hakekatnya kesemuanya ini memerlukan biaya
+unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+asteria marceline#1, hengky anra#2, helen sasty pratiwi#3 #program studi teknik informatika universitas tanjungpura 1asteria.marceline95@gmail.com, 2stmkom@gmail.com, 3 helensastypratiwi@gmail.com jl
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem melalui internet, aplikasi android akan melakukan komunikasi data dengan web server darah
+pengguna diharuskan mendonorkan darah pada pmi kota pontianak
+setiap request data dari aplikasi ke web server akan direspon dan diolah menjadi data-data json yang akan dikirim kembali ke aplikasi
+ketika terdapat data atau update terbaru server akan mengirimkan pesan ke fcm server milik google yang selanjutnya akan diproses untuk mengirimkan pesan ke aplikasi android yang dipakai oleh pengguna
+pengujian aplikasi black box, kompatibilitas aplikasi dan kuesioner terhadap 30 responden
+memfasilitasi pendonor untuk menjemput pendonor yang berhalangan datang ke palang merah indonesia berdasarkan kelurahan
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 7
+tampilan menu utama gambar 3 merupakan tampilan dari menu utama yang diakses oleh pendonor
+gambar 4 merupakan tampilan menu untuk pengguna yang tidak memiliki kode pendonor untuk login
+tampilan halaman profil pendonor gambar 5 merupakan tampilan profil pendonor yang sudah pernah mendonorkan darah ke pmi dan mempunyai kode pendonor
+gambar 6 merupakan tampilan dari proses permintaan jemput darah
+tampilan stok darah gambar 7 merupakan tampilan stok darah yang diambil langsung dari website pmi
+robustness testing robustness testing adalah pengujian dengan data input dipilih diluar spesifikasi yang telah didefinisikan
+tujuan dari pengujian ini adalah membuktikan bahwa tidak ada kesalahan jika masukan tidak valid
+pengujian ini dilakukan pada proses input data seperti login, mengubah profil, mengubah password dan meminta jemput darah
+meminta jemput sebelum dan sesudah 90 hari setelah mendonor darah
+kompatibilitas aplikasi pengujian ini dilakukan dengan menginstal aplikasi pada beberapa perangkat android yang berbeda
+tabel 2 android keterangan android keterangan hal yang menjadi pengukuran sistem berhasil diinstal dan berjalan pada setiap perangkat smartphone android yang berbeda, yaitu : 1
+eksekusi file installer berhasil dilakukan pada perangkat smartphone dengan sistem operasi android versi 5.0 hingga android versi 6.0.1 2
+pengujian eksekusi menu dan fitur yang ada berjalan pada setiap perangkat smartphone android
+sistem tidak berjalan dengan baik pada saat menampilkan data pendonor dan permintaan jemput darah
+dilakukan dengan cara memberi seperangkat pertanyaan atau pernyataan tertulis kepada responden untuk dijawab
+berikut adalah total skor dari kuesioner yang telah dibagikan kepada 25 responden
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa tampilan pada setiap perangkat smartphone android memiliki perbedaan, hal ini disebabkan perbedaan ukuran dan resolusi pada setiap layar smartphone android
+berdasarkan hasil pengujian kompatibilitas aplikasi, sistem tidak berjalan dengan baik pada saat menampilkan data pendonor dan permintaan jemput
+kurang stabilnya koneksi internet yang ada menyebabkan hal ini terjadi
+berbasis android berhasil dirancang dan dibangun dengan baik berdasarkan hasil kuesioner menggunakan skala likert’s summated rating dan dapat berjalan lancar pada berbagai jenis versi android mulai dari versi 5.0 hingga 6.0.1 berdasarkan pengujian kompatibilitas aplikasi

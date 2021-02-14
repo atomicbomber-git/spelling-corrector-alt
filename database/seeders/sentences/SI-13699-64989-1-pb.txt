@@ -1,0 +1,16 @@
+petugas catat meter dalam tugasnya mencatat meter pelanggan dengan cara mengambil gambar atau citra dari sebuah kwh pelanggan
+jika sebuah rumah pelanggan memiliki pagar maka petugas pencatat meter mengalamai kendala untuk mengatasi itu, maka pemilik rumah mencatat pada sebuah kertas untuk petugas pencatat meter mengetahui berapa besar pemakaian yang dilakukan pada bulan tersebut
+seiring dengan perkembangan teknologi komunikasi dan banyak dari perangkat platform android memiliki teknologi komunikasi nfc 
+nfc adalah perangkat teknologi konektivitas nirkabel berbasis teknologi rfid yang menggunakan induksi medan magnet untuk memungkinkan komunikasi antar perangkat elektronik dalam jarak yang dekat
+tujuan dari penelitian ini adalah menghasilkan aplikasi pencatatan dan pengolahan data pemakaian kwh listrik digital hasil dari penelitian yang dilakukan.pencatat meter dapat menginputkan data dari teks yang di dapat dari android beam dan menyimpan data inputan ke dalam database dan juga berdasarkan hasil pengujian kompabilitas, android i
+pendahuluan bumn yang berbentuk persero yang melayani semua aspek kelistrikan dan bidang lain yang terkait
+proses pembacaan dan pencatatan meteran listrik pln adalah kegiatan yang sangat penting dalam bisnis pln
+selama ini kegiatan pembacaan dan pencatatan pada meteran listrik pascabayar masih menggunakan cara manual yakni petugas catat meter mengambil citra atau gambar dari posisi angka yang tertera pada kwh seorang pelanggan dengan sebuah ponsel yang memiliki kamera
+cara yang dilakukan tersebut tentunya selain menjadi keluhan dari para pelanggan juga menyebabkan petugas catat meter .juga mengalami kesulitan
+keluhan para pelanggan ini di sebabkan karena jumlah pemakaian tidak sesuai dengan jumlah yang dibayar, pelanggan terkadang selalu membayar lebih dari jumlah pemakaian yang tertera pada kwh hal ini disebabkan oleh hasil citra atau gambar yang dihasilkan dari petugas cater banyak memiliki noise yang tentu dapat menurunkan kualitas dari sebuah citra atau gambar
+sedangkan kesulitan dari petugas yakni petugas mengalami masalah ketika akan memasuki rumah yang memiliki pagar dan pagar tersebut terkunci karena petugas mengambil citra dari sebuah kwh jika hal ini terjadi petugas tidak akan bisa untuk mengambil citra atau gambar dari kwh rumah yang memiliki pagar tersebut
+berdasarkan latar belakang, muncul permasalahan yaitu bagaimana merancang sebuah aplikasi pencatatan pemakaian kwh listrik digital menggunakan nfc sebagai komunikasi perangkat pada platform android ii
+kwh kwh meter merupakan alat ukur milik pln yang di titipkan di tempat pelanggan dan berfungsi untuk mengukur pemakaian listrik pelanggan
+pada saat ini pln menggunakan dua buah alat ukur yaitu kwh meter prabayar dan kwh meter pasca bayar
+nfc nfc adalah teknologi komunikasi nirkabel yang terintegrasi dari teknologi komunikasi rfid dan teknologi contactless smart dalam ponsel
+nfc bekerja pada frekuensi 13.56 mhz dan memiliki bandwith tidak lebih dari 424 kbps 

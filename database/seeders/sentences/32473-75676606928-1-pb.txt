@@ -1,0 +1,111 @@
+indonesia saat ini merupakan salah satu produsen terbesar produk yang terbuat dari kayu
+kayu-kayu tersebut tidak semuanya memiliki nilai jual kayu jati merupakan salah satu kayu yang memiliki nilai jual yang tinggi, baik skala nasional maupun internasional pengelompokkan jenis kayu jati menggunakan beberapa parameter yaitu tekstur, berat, warna dan lain sebagainya
+pengelompokkan jenis kayu jati biasanya memiliki subjektifitas yaitu ketergantungan dari mata manusia 
+oleh karena itu diterapkanlah teknologi untuk membantu dalam menganalisis suatu tekstur kayu jati agar bisa diklasifikasikan ke dalam kelompok-kelompok tertentu
+pada penelitian ini jenis kayu jati yang digunakan ada 3 : semarangan, blora dan sulawesi
+proses klasifikasi jati menggunakan pengolahan citra digital dengan metode naive bayes dan k-nearest neighbor 
+analisis yang digunakan adalah tekstur dengan metode gray level co- occurrence matrix dan jarak spasial adalah 1 piksel
+berdasarkan hasil pengujian dan analisis, metode k- nn secara umum baik dalam mengklasifikasikan 3 jenis kayu jati yaitu semarangan, blora dan sulawesi dengan tingkat akurasi di atas 70%
+akan tetapi klasifikasi paling baik untuk jenis kayu jati sulawesi dengan metode naive bayes, tingkat akurasinya sebesar 82, 7%
+pendahuluan hutan, mempunyai peran penting dalam dunia industri kecil lingkup rumah tangga hingga industri besar seperti lingkup perdagangan dunia
+banyak sekali manfaat yang kita peroleh dari kayu jati dalam kehidupan sehari-hari, seperti membangun rumah, mebel sampai produk kerajinan ukir dan barang antik
+indonesia memiliki berbagai jenis kayu, di antaranya adalah kayu jati, sengon, bengkirai, nangka dan lain sebagainya
+kayu-kayu tersebut tidak semuanya memiliki nilai jual salah satu kayu yang mempunyai harga jual yang tinggi adalah jati, baik skala internasional atau nasional
+merupakan kayu yang paling banyak diminati sebab mempunyai corak yang elegan & unik, kuat, stabil, awet, serta dalam pengerjaanya cukup mudah
+sejak 5-10 tahun terakhir ketersediaan kayu jati yang berkualitas mulai menurun, kayu jati unggul menjadi pilihan alternatif para pengrajin kayu, yaitu kayu jati yang banyak ditanam oleh masyarakat & cepat tumbuh serta berumur dibawah 10 tahun sebagai bahan baku
+pengelompokkan jenis kayu jati menggunakan beberapa parameter yaitu tekstur, berat, warna dan lain sebagainya
+pengelompokkan jenis kayu jati biasanya memiliki subjektifitas yaitu ketergantungan dari mata manusia 
+oleh karena itu diterapkanlah teknologi untuk membantu dalam menganalisis suatu tekstur kayu jati agar bisa diklasifikasikan ke dalam kelompok-kelompok tertentu
+penelitian ini menggunakan analisis tekstur citra dengan metode glcm yang berasal dari citra grayscale serta dua algoritma klasifikasi yaitu naive bayes dan k-nn
+confusion matrix digunakan untuk membandingkan hasil klasifikasi dari metode k-nn dan naive bayes
+algoritma naive bayes juga baik dalam klasifiksasi diantaranya adalah menurut penelitian yang dilakukan olehdalam mengklasifikasi jenis kayu dengan glcm dan k-nn
+hasil dari proses tersebut lalu diklasifikasikan dengan algoritma k-nn untuk mencari jaraknya dari data latih, dengan tujuan untuk identifikasi jenis kayunya
+selanjutnya penelitian yang telah dilakukan olehmenggunakan metode k-nn untuk steganalisis citra digital berbasis discrete cosine transform
+pada penelitian ini, menggunakan sebuah metode steganalisis yaitu dct dan pca yang bisa mendeteksi pesan korespondensi : rahmat robi waliyansyah 158 tersembunyi pada citra digital dengan mereduksi citra digital tersebut
+untuk proses klasifikasi citra menggunakan metode k-nn
+hasil yang diperoleh dari pengujian adalah 64% untuk citra ukuran 256 piksel, 64, 5% untuk citra ukuran 128 piksel, 58, 5% untuk citra digital ukuran 512 piksel
+tekstur citra mikroskopis kanker paru menggunakan metode tranformasi wavelet dan glcm serta klasifikasi citra dengan metode naive bayes
+penelitian ini mendapatkan tingkat akurasi pada metode glcm sebesar 80% untuk kombinasi homogenitas-korelasi dan 71, 42% untuk ekstraksi ciri metode transformasi wavelet pasangan kombinasi koefisien aproksimasi-koefisien detail vertikal selanjutnya penelitian yang telah dilakukan olehyaitu mengklasifikasikan bunga dengan menggunakan metode naive bayes & isomap
+hasil akurasi klasifikasi dengan menggunakan 3 atau 2 fitur dari citra pada himpunan training adalah sama dan cukup baik, yaitu sebesar 80%
+penelitian terkait perbandingan metode k-nn dan naive bayes sudah dilakukan olehyaitu membandingkan metode k-nn dan naive bayes dengan menggunakan data status kerja di kabupaten demak pada tahun 2012
+hasilnya metode k-nn lebih baik dibandingkan dengan naïve bayes berdasarkan nilai aper dan akurasinya
+klasifikasi yaitu naive bayes dan k-nn pada kayu jati dengan 3 jenis varietas 
+tujuannya adalah untuk mendapatkan hasil akurasi yang lebih baik dari kedua metode tersebut dengan pendekatan objek yang berbeda
+citra-citra kayu jati diambil dengan menggunakan digital microscope camera
+naive bayes yaitu algoritma klasifikasi probabilistik yang sederhana berdasarkan teorema bayes
+prinsip umumnya adalah mengasumsikan bahwa nilai suatu atribut tidak bergantung dan mempengaruhi atribut yang lainnya
+naive bayes classifier merupakan suatu pengklasifikasi yang menggunakan prinsip probabilitas bersyarat untuk bidang statistik, yaitu prinsip naive bayes, dengan tujuan untuk menghitung probabilitas bahwa suatu objek/kejadian masuk ke dalam salah satu dari beberapa kelas atau kategori yang diberikan/tersedia
+dalam perhitungan probabilitas bersyarat, hal yang diperhatikan oleh naive-bayes classifier yaitu fitur dari objek/kejadian yang ingin diamati
+fitur-fitur tersebut dijadikan dalam penentuan probabilitas bersyarat dari suatu objek/kejadian yang masuk ke dalam setiap kelas yang tersedia
+dengan pemodelan yang sederhana dan noise yang sedikit dan tidak akan mempengaruhi terhadap hasil akhirnya
+naive bayes menjumlahkan frekuensi dan kombinasi nilai dari data set untuk menghitung probabilitas
+ syarat x yang diperoleh dari probabilitas hipotesis h ) dikali dengan probabilitas x berdasarkan kondisi hipotesis h ) dan dibagi dengan probabilitas x )
+skema dari algoritma naive bayes dapat dilihat pada gambar 1 gambar 1
+k-nearest neighbor k-nn adalah salah satu metode yang menggunakan algoritma terbimbing dimana hasil dari query instance yang baru diklasifikan berdasarkan mayoritas dari kategori pada k-nn
+tujuan dari algoritma ini yaitu atribut dan training sample digunakan untuk mengklasifikasikan obyek yang baru
+langkah penyelesaian masalah menggunakan metode k-nn adalah sebagai berikut: 1
+menentukan nilai parameter k 2
+menghitung jarak setiap sample data dengan data yang diuji
+mengurutkan data berdasarkan jarak dari yang terkecil hingga yang terbesar
+mengamati jumlah keputusan yang terbanyak untuk k data yang diambil
+jika tedapat dua atau lebih kelas ώi yang merupakan tetangga terdekat dari data uji x, maka terjadilah kondisi seimbang dan digunakan strategi pemecahan konflik
+jika pola pelatihan ke-m dari kelas ώi yang terlibat dalam konflik maka jarak antra x dengan kelas ώi seperti persamaan 2 : di c
+kayu jati kayu jati biasa digunakan sebagai bahan pembuatan rumah, mebel dan perkakas lain karena memiliki kekuatan, nilai jual yang tinggi, keindahan dan keawetan
+karena kelebihannya tersebut dan penggunaannya yang luas, kayu dari tanaman jati menjadi salah satu kayu paling diminati di dunia
+dibandingkan yang terbuat dari kayu jati tua dengan mutu produk sejenis
+furnitur jati dan mebel yang terbuat dari jati unggul cenderung memiliki bubuk kayu yang kering & kurang stabil serta mudah diserang rayap
+penampilan sel-selnya serta mengindikasikan struktur yang berbeda pada tiap riap tumbuh
+halus kasarnya tekstur kayu ditentukan atas nilai-nilai dibawah ini: 1
+tekstur kasar, bila ukuran diameter tangensial pori-pori ≥ 200 µm 2
+tekstur sedang, bila ukuran diameter tangensial pori-pori 100-200 µm
+tekstur halus, bila ukuran diameter tangensial pori-pori ≤ 100 µm
+tempat tumbuh tanaman jati yang paling baik adalah pada kisaran curah hujan diantara 3800 sampai 1300 mm per tahun, periode kering antara 5 sampai 3 bulan dalam setahun dan wilayah sub-tropis atau tropis pada kisaran suhu antara 41°c sampai 9ºc
+tegakan jati unggul umur 4 tahun dan 5 tahun ditampilkan pada gambar 2
+gray level co-occurrence matrix glcm adalah salah satu metode yang dikembangkan untuk analisis tekstur dan menyimpan informasi penyebaran serta jarak intensitas dari gambar asli
+kookurensi didefinisikan dalam bentuk kejadian bersama, berarti jumlah kejadian pada 1 level piksel yang bersebelahan dengan nilai piksel lainnya dengan acuan orientasi suatu sudut dan jarak 
+orientasi didefinisikan dalam bentuk derajat dan jarak definisikan dalam bentuk piksel
+pembentukan orientasi berdasarkan dari 4 arah sudut dengan interval 45°, yaitu 135°, 90°, 45° dan 0°, dan penentuan jarak antar piksel sebesar 1 piksel
+keempat arah tersebut seperti pada gambar 3
+teknik validasi digunakan untuk mencari titik optimum dari suatu hasil analisis, selain itu cross validation juga adalah teknik komposisi untuk menetukan banyaknya data testing dan training yang akan digunakan
+di dalam metode tersebut, data masukan akan dibagi ke dalam dua himpunan secara acak yang disebut data testing dan training
+proporsi data yang dicadangkan untuk data testing dan training tergantung pada analisis misalnya 1/3 untuk testing dan 2/3 untuk training atau 50%-50%, namun menurut referensidanpada umumnya perbandingan yang digunakan yaitu 1:2 untuk data testing berbanding data training
+bahan dan alat penelitian penelitian ini menggunakan penelitian kuantitatif
+data yang digunakan berupa citra digital kayu jati yang telah dipotong dan belum dihaluskan lalu diambil menggunakan digital microscope camera
+citra kayu jati yang digunakan berupa kayu jati semarangan, blora dan sulawesi dengan masing-masing jenis kayu jati diambil sejumlah 50 citra
+citra yang diambil akan dibagi menjadi citra uji dan citra latih dengan masing-masing komposisi yaitu untuk citra latih sebanyak 10 citra dan 40 untuk citra uji
+alat yang digunakan pada penelitian ini yaitu : 1
+notebook dengan processor intel core i3 dan memory ram 2gb 2
+prosedur penelitian klasifikasi kayu jati dengan menggunakan metode naive bayes dan k-nn seperti gambar 4
+langkah-langkah dalam prosedur penelitian akan dijelaskan sebagai berikut: 1) akuisisi citra digital: citra kayu jati yang dimasukkan adalah citra yang diambil dengan menggunakan digital microscope camera
+citra tersebut terdiri dari 3 jenis kayu jati yaitu semarangan, blora dan sulawesi
+citra rgb akan dirubah terlebih dahulu ke dalam bentuk aras keabuan/grayscale, karena proses ekstraksi ciri teksur glcm menggunakan aras keabuan dengan nilai dari 0- 255
+metode glcm pada penelitian ini menggunakan jarak spasial 1 piksel
+citra kayu jati yang dirubah ke dalam bentuk aras keabuan seperti pada gambar 5
+citra kayu jati dengan aras keabuan c
+ekstraksi ciri dengan metode glcm penelitian ini menggunakan 4 parameter untuk analisis tekstur citra yaitu : energy, contrast, homogeneity dan correlation
+nilai parameter yang digunakan merupakan rata-rata nilai dari sudut 0°, 45°, 90° dan 135°
+hasil dari analisis tersebut selanjutnya disimpan untuk sebagai nilai acuan pada saat pengujian citra kayu jati
+40 citra sebagai data latih dan 10 citra sebagai citra uji
+ekstraksi ciri menggunakan analisis tekstur yaitu metode glcm dengan jarak spasial 1 piksel seperti pada gambar 6
+hasil analisis tekstur dengan metode glcm d
+analisa perbandingan identifikasi citra kayu jati menggunakan metode k-nn dan naive bayes pengujian citra kayu jati menggunakan metode naive bayes dan k-nn
+analisis perbandingan dari kedua metode tersebut dilakukan untuk mendapatkan tingkat akurasi yang lebih baik
+hasil pengujian dibandingkan dengan nilai sebenarnya untuk mendapatkan confusion matrix
+confusion matrix akan memberikan hasil recall, akurasi dan precision
+akurasi dapat dihitung dengan menggunakan persamaan 3
+dikategorikan sesuai kategorinya ditambah jumlah data negatif benar dibagi dengan jumlah semua data
+precision digunakan untuk mengukur pola positif yang berhasil diprediksi dengan benar dari total pola prediksi dalam kelas positif baik itu data yang berhasil diprediksi dengan benar dengan data yang berhasil diprediksi bukan kelas positif 
+dengan membagi data yang berhasil diprediksi dengan benar dibagi dengan jumlah dari data yang berhasil diprediksi negatif salah dan data yang berhasil diprediksi dengan benar 
+untuk menghitung nilai recall dapat dilihat pada persamaan 5
+klasifikasian dengan metode naive bayes metode naive bayes digunakan untuk mengklasifikasi data citra kayu jati yang diperoleh dari analisis tekstur menggunakan metode glcm
+selanjutnya untuk proses validasi akan dilakukan holdout di mana 75% data training yang diulang 100 kali serta menghasilkan akurasi yang dapat dilihat pada gambar 7 dan 8
+hasil pengujian citra kayu jati menggunakan metode naive bayes data hasil dari analisis tekstur kayu jati dengan metode glcm akan diklasifikasi dengan metode k-nn lalu untuk proses validasi akan dilakukan holdout di mana data yang digunakan untuk training sebanyak 75% dengan k=5 yang diulang sebanyak 100 kali dan menghasilkan akurasi yang dapat dilihat pada gambar 9 dan 10
+hasil confusion matrix citra kayu jati menggunakan metode k-nn metode k-nn berdasarkan proses validasi menggunakan holdout yang diulang sebanyak 100 kali dan jumlah data training sebesar 75% dari total 50 sampel
+hasil akurasi dari metode k-nn dan naive bayes dapat dilihat pada gambar 11
+hasil perbandingan akurasi dari metode k-nn dan naive bayes bayes dan k-nn pada proses klasifikasi
+parameter akurasi yang digunakan adalah auc, ca, f1 score, precision dan recall
+berdasarkan hasil evaluasi yang telah dilakukan nilai akurasi ca, f1 score, precision dan recall pada metode k-nn lebih baik dibandingkan naive bayes pada citra kayu jati 
+dengan metode naive bayes paling baik dengan persentase tingkat akurasi sebesar 82, 7%
+nilai area under curve pada metode naive bayes lebih baik dari pada k-nn
+hal ini dikarenakan akurasi metode k-nn dipengaruhi oleh banyaknya data latih yang digunakan
+sedangkan metode naive bayes dapat menghasilkan akurasi yang baik walaupun memiliki data latih yang sedikit

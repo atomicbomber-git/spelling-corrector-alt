@@ -1,0 +1,145 @@
+engky prodi teknik informatika, jurusan teknik elektro, fakultas teknik, universitas tanjungpura hengky.jurnal@gmail.com eligibility the selection process of credit is usually uses by branch manager and regional manager ptoto multiartha pontianak still manually so that the client needs to consider whether or not feasible given the financing or credit
+therefore built a decision support system to solve the problem
+the method used in this system is a fuzzy logic with method of tsukamoto
+system built to make the process of selecting provision of financing or credit based on criteria set such as character, income, expulsion and down payment who is set by the branch manager and regional manager ptoto multiartha pontianak
+criteria on the system used as the basis for survey activities, each of which is given the weight of each criterion then be calculated with the method of tsukamoto from fuzzy logic to get the end result that determine the feasibility of a prospective customer/debitur financing funding recipients
+systems designed, tested using percentage of final state
+results of tests performed to comparison final state eligibility of selecting the system is same or not with final state eligibility from ptoto multiartha
+in addition the system is built to add new criteria and their detailed criteria that can be used for a longer time
+keywords- feasibility financing credit, examination result, criteria, fuzzy logic, method tsukamoto, decision support system
+pendahuluan pertumbuhan industri otomotif di indonesia tahun 2014 mengalami peningkatan diatas 7%
+penjualan mobil diperkirakan 1, 3 juta hingga 1, 4 juta unit meningkat dari periode sebelumnya yaitu pada periode januari- november 2013 yang hanya sebesar 1, 132 juta unit
+pt oto multiartha adalah perusahaan pembiayaan kredit mobil terbesar di indonesia
+dalam pemberian kredit mobil kepada pelanggan, perusahaan menetapkan standar untuk menerima atau menolak resiko kredit dengan menggunakan syarat five c; bagaimana karakter pelanggan, kapasitas melunasi kredit, kemampuan modal yang dimiliki pelanggan, jaminan yang dimiliki pelanggan untuk menanggung resiko kredit dan kondisi keuangan pelanggan serta one p yaitu kegunaan pembelian mobil ditujukan atau dipergunakan untuk tujuan apa
+penilaian kelayakan kredit yang dilakukan perusahaan masih menggunakan cara manual dan database yang digunakan masih dalam bentuk kertas, sehingga membutuhkan waktu yang lama untuk pengolahan dan kendala terbesar adalah kesulitan dalam penyimpanan atau pencarian arsip yang telah tersimpan jika akan dicocokkan dengan informasi/pedoman yang baru diperoleh, serta masalah pembuatan laporan yang terlambat terkadang juga menghambat penyampaian informasi kepada pimpinan perusahaan
+untuk penyajian sistem pendukung pengambilan keputusan pemberian kredit mobil akan dilakukan dengan bantuan teknologi komputer
+pengembangan sistem informasi berbasis komputer merupakan bagian dari pengembangan sistem 
+pengembangan sistem dapat berarti membangun suatu sistem yang baru untuk menggantikan sistem yang lama secara keseluruhan atau memperbaiki sistem yang telah ada
+sistem pendukung keputusan yang akan dibuat menggunakan logika fuzzy yang dapat memetakan suatu input ke dalam suatu output
+dengan kata lain logika fuzzy memiliki toleransi terhadap data-data yang tersedia
+metode fuzzy yang dipakai untuk mendukung pembuatan sistem pengambilan keputusan ini adalah metode tsukamoto
+metode tsukamoto merupakan perluasan dari penalaran monoton, pada metode tsukamoto, setiap konsekuen pada aturan yang berbentuk if-then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton
+sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot
+untuk mengetahui tingkat keberhasilan pengambilan keputusan dengan menggunakan logika fuzzy maka harus dibutuhkan batasan himpunan pada tiap-tiap himpunan fuzzy yang berfungsi sebagai parameter 
+dengan menggunakan metode tsukamoto tanpa mengabaikan kriteria yang ada dapat mendukung pengambilan keputusan dari suatu pemetaan masalah 
+teori dasar 2.1 sistem pendukung keputusan sistem pendukung keputusan diungkapkan pada awal tahun 1970-an oleh michael s
+scott morton dengan istilah management decision system
+sistem tersebut adalah suatu sistem yang berbasis komputer yang ditujukan untuk membantu pengambil keputusan dengan memanfaatkan data dan model tertentu untuk memecahkan berbagai persoalan yang tidak terstruktur
+spk sebagai sistem informasi berbasis komputer yang adaptif, interaktif, fleksibel, yang secara khusus dikembangkan untuk mendukung solusi dari pemasalahan manajemen yang tidak terstruktur untuk meningkatkan kualitas pengambilan keputusan selain itu pula spk atau juga dikenal dengan decision support system didefinisikan sebagai sekumpulan prosedur berbasis model untuk data pemrosesan dan penilaian guna membantu para manager mengambil keputusan
+dss harus sederhana, cepat, mudah dikontrol, adaptif, lengkap dengan isu-isu penting dan mudah berkomunikasi
+proses pengambilan keputusan melibatkan tiga tahap utama yaitu tahap intelegensi, tahap perencanaan, tahap pilihan dan tahap implementasi 
+seperti tampak pada gambar tahap-tahap dalam proses pengambilan keputusan
+tahapan pengambilan keputusan sumber : decision support systems and expert systems and intelligent systems, 6th edition, prentice hall internasional, inc
+tahap intelegensi merupakan tahap pendefinisian masalah serta identifikasi informasi yang dibutuhkan yang berkaitan dengan persoalan yang dihadapi serta keputusan yang akan diambil, tentunya persoalan yang dihadapi harus dirumuskan terlebih dahulu secara jelas
+tahap perancangan merupakan tahap analisa dalam kaitan mencari atau merumuskan alternatif-alternatif pemecahan masalah
+setelah permasalahan dirumuskan dengan baik, maka tahap berikutnya adalah merancang atau membangun model pemecahan masalahnya dan menyusun berbagai alternatif pemecahan masalah
+tahap pilihan pada tahap ini dilakukan proses pemilihan diantara berbagai alternatif tindakan yang mungkin dijalankan
+hasil pemilihan tersebut kemudian diimplementasikan dalam proses pengambilan keputusan
+tahap implementasi merupakan tahap solusi dengan menarik keputusan dalam kaitannya masalah yang terjadi
+2.2 fuzzy logika fuzzy merupakan salah satu komponen pembentuk soft computing
+logika fuzzy pertama kali diperkenalkan oleh prof
+dasar logika fuzzy adalah teori himpunan fuzzy
+pada teori himpunan fuzzy, peranan derajat keanggotaan sebagai penentu keberadaan elemen dalam suatu himpunan sangat penting
+nilai keanggotaan atau membership function menjadi ciri utama dari penalaran dengan logika fuzzy tersebut
+teori himpunan fuzzy merupakan kerangka matematis untuk merepresentasikan ketidakpastian, ketidakjelasan, ketidaktepatan, kekurangan informasi dan kebenaran parsial 
+dengan fuzzy proses penentuan nilai suatu kriteria yang subjektif akan memberikan hasil yang sangat baik
+penentuan nilai diperoleh dengan membuat fungsi keanggotaan terlebih dahulu
+2.3 fungsi keanggotaan fungsi keanggotaan adalah suatu kurva yang menunjukan pemetaan titik-titik input data ke dalam nilai keanggotaan
+salah satu cara yang dapat digunakan untuk mendapatkan nilai keanggotaan adalah dengan melalui pendekatan fungsi 
+ada beberapa fungsi yang bisa digunakan
+linear pada representasi linear, pemetaan input ke derajat keanggotaannya digambarkan sebagai suatu garis lurus
+bentuk ini paling sederhana dan menjadi pilihan yang baik untuk mendekati suatu konsep yang kurang jelas
+ada 2 keadaan himpunan fuzzy yang linear
+pertama, kenaikkan himpunan dimulai pada nilai domain yang memiliki derajat keanggotaan nol bergerak ke kanan menuju nilai domain yang memiliki derajat keanggotaan lebih tinggi seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) fungsi keanggotaan : µ = 1 ; x ≥ b ke-dua, merupakan kebalikan yang pertama
+garis lurus dimulai dari nilai domain dengan derajat keanggotaan tertinggi pada sisi kiri, kemudian bergerak menurun ke nilai domain yang memiliki derajat keanggotaan lebih rendah seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) fungsi keanggotaan : pada dasarnya merupakan gabungan antara 2 garis seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) µ = 2.3 fungsi keanggotaan fungsi keanggotaan adalah suatu kurva yang menunjukan pemetaan titik-titik input data ke dalam nilai keanggotaan
+salah satu cara yang dapat digunakan untuk mendapatkan nilai keanggotaan adalah dengan melalui pendekatan fungsi 
+ada beberapa fungsi yang bisa digunakan
+linear pada representasi linear, pemetaan input ke derajat keanggotaannya digambarkan sebagai suatu garis lurus
+bentuk ini paling sederhana dan menjadi pilihan yang baik untuk mendekati suatu konsep yang kurang jelas
+ada 2 keadaan himpunan fuzzy yang linear
+pertama, kenaikkan himpunan dimulai pada nilai domain yang memiliki derajat keanggotaan nol bergerak ke kanan menuju nilai domain yang memiliki derajat keanggotaan lebih tinggi seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) fungsi keanggotaan : µ = 1 ; x ≥ b ke-dua, merupakan kebalikan yang pertama
+garis lurus dimulai dari nilai domain dengan derajat keanggotaan tertinggi pada sisi kiri, kemudian bergerak menurun ke nilai domain yang memiliki derajat keanggotaan lebih rendah seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) fungsi keanggotaan : pada dasarnya merupakan gabungan antara 2 garis seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) µ = 2.3 fungsi keanggotaan fungsi keanggotaan adalah suatu kurva yang menunjukan pemetaan titik-titik input data ke dalam nilai keanggotaan
+salah satu cara yang dapat digunakan untuk mendapatkan nilai keanggotaan adalah dengan melalui pendekatan fungsi 
+ada beberapa fungsi yang bisa digunakan
+linear pada representasi linear, pemetaan input ke derajat keanggotaannya digambarkan sebagai suatu garis lurus
+bentuk ini paling sederhana dan menjadi pilihan yang baik untuk mendekati suatu konsep yang kurang jelas
+ada 2 keadaan himpunan fuzzy yang linear
+pertama, kenaikkan himpunan dimulai pada nilai domain yang memiliki derajat keanggotaan nol bergerak ke kanan menuju nilai domain yang memiliki derajat keanggotaan lebih tinggi seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) fungsi keanggotaan : µ = 1 ; x ≥ b ke-dua, merupakan kebalikan yang pertama
+garis lurus dimulai dari nilai domain dengan derajat keanggotaan tertinggi pada sisi kiri, kemudian bergerak menurun ke nilai domain yang memiliki derajat keanggotaan lebih rendah seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) fungsi keanggotaan : pada dasarnya merupakan gabungan antara 2 garis seperti terlihat pada gambar dibawah ini
+logika fuzzy.yogyakarta: graha ilmu (kusumadewi, s
+2006) µ = / ; a ≤ x ≤ b / ; b≤ x ≤c dari penalaran monoton, pada metode tsukamoto, setiap konsekuen pada aturan yang berbentuk if- then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton
+sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot 
+misalkan ada 2 variabel input, var-1 dan var-2, serta 1 variabel output, var-3, dimana var-1 terbagi atas 2 himpunan yaitu a1 dan a2 terbagi atas 2 himpunan b1 dan b2, var-3 juga terbagi atas 2 himpunan yaitu c1 dan c2 
+ada aturan yang digunakan, yaitu: [r1] if and then [r1] if and then 3
+perancangan 3.1 flowchart alur jalannya aplikasi dijelaskan sebagai berikut
+staf / operator akan menginputkan data- data debitur melalui menu tambah calon debitur
+selanjutnya data akan disimpan di database
+jika survey lapangan dan isian form survey sesuai maka staf akan meninputkan data survey kedalam sistem
+selanjutnya data-data survey tersebut akan disimpan juga di database dan dihitung kelayakannya dengan perhitungan tsukamoto - hasil kelayakan akan didapatkan dari perhitungan apakah kelayakan itu layak, pertimbangan ataupun tidak layak
+3.2 arsitektur sistem arsitektur sistem digambarkan sebagai berikut : - calon debitur yang akan mengajukan kredit akan mengisi data identitas calon debitur yang akan diinputkan oleh staf/operator nantinya
+selanjutnya calon debitur akan mengisi data survey kredit dimana form survey tersebut berasal dari branch manager/kepala cabang
+data survey kredit debitur akan diproses branch manager untuk selanjutnya ditindaklanjuti kepada surveyor untuk menganalisa survey lapangan apakah data sesuai dan valid sesuai data yang tertera di form survey
+jika data sesuai maka staf akan menginputkan data survey yang diisi oleh debitur tersebut
+data debitur akan disimpan di database dan dihitung oleh sistem dengan kelayakan kredit yang diberikan apakah layak, pertimbangan / tidak layak
+branch manager dan regional manager akan mendapat print out laporan bulanan fungsi keanggotaan : µ = / ; a ≤ x ≤ b / ; b≤ x ≤c dari penalaran monoton, pada metode tsukamoto, setiap konsekuen pada aturan yang berbentuk if- then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton
+sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot 
+misalkan ada 2 variabel input, var-1 dan var-2, serta 1 variabel output, var-3, dimana var-1 terbagi atas 2 himpunan yaitu a1 dan a2 terbagi atas 2 himpunan b1 dan b2, var-3 juga terbagi atas 2 himpunan yaitu c1 dan c2 
+ada aturan yang digunakan, yaitu: [r1] if and then [r1] if and then 3
+perancangan 3.1 flowchart alur jalannya aplikasi dijelaskan sebagai berikut
+staf / operator akan menginputkan data- data debitur melalui menu tambah calon debitur
+selanjutnya data akan disimpan di database
+jika survey lapangan dan isian form survey sesuai maka staf akan meninputkan data survey kedalam sistem
+selanjutnya data-data survey tersebut akan disimpan juga di database dan dihitung kelayakannya dengan perhitungan tsukamoto - hasil kelayakan akan didapatkan dari perhitungan apakah kelayakan itu layak, pertimbangan ataupun tidak layak
+3.2 arsitektur sistem arsitektur sistem digambarkan sebagai berikut : - calon debitur yang akan mengajukan kredit akan mengisi data identitas calon debitur yang akan diinputkan oleh staf/operator nantinya
+selanjutnya calon debitur akan mengisi data survey kredit dimana form survey tersebut berasal dari branch manager/kepala cabang
+data survey kredit debitur akan diproses branch manager untuk selanjutnya ditindaklanjuti kepada surveyor untuk menganalisa survey lapangan apakah data sesuai dan valid sesuai data yang tertera di form survey
+jika data sesuai maka staf akan menginputkan data survey yang diisi oleh debitur tersebut
+data debitur akan disimpan di database dan dihitung oleh sistem dengan kelayakan kredit yang diberikan apakah layak, pertimbangan / tidak layak
+branch manager dan regional manager akan mendapat print out laporan bulanan fungsi keanggotaan : µ = / ; a ≤ x ≤ b / ; b≤ x ≤c dari penalaran monoton, pada metode tsukamoto, setiap konsekuen pada aturan yang berbentuk if- then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton
+sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot 
+misalkan ada 2 variabel input, var-1 dan var-2, serta 1 variabel output, var-3, dimana var-1 terbagi atas 2 himpunan yaitu a1 dan a2 terbagi atas 2 himpunan b1 dan b2, var-3 juga terbagi atas 2 himpunan yaitu c1 dan c2 
+ada aturan yang digunakan, yaitu: [r1] if and then [r1] if and then 3
+perancangan 3.1 flowchart alur jalannya aplikasi dijelaskan sebagai berikut
+staf / operator akan menginputkan data- data debitur melalui menu tambah calon debitur
+selanjutnya data akan disimpan di database
+jika survey lapangan dan isian form survey sesuai maka staf akan meninputkan data survey kedalam sistem
+selanjutnya data-data survey tersebut akan disimpan juga di database dan dihitung kelayakannya dengan perhitungan tsukamoto - hasil kelayakan akan didapatkan dari perhitungan apakah kelayakan itu layak, pertimbangan ataupun tidak layak
+3.2 arsitektur sistem arsitektur sistem digambarkan sebagai berikut : - calon debitur yang akan mengajukan kredit akan mengisi data identitas calon debitur yang akan diinputkan oleh staf/operator nantinya
+selanjutnya calon debitur akan mengisi data survey kredit dimana form survey tersebut berasal dari branch manager/kepala cabang
+data survey kredit debitur akan diproses branch manager untuk selanjutnya ditindaklanjuti kepada surveyor untuk menganalisa survey lapangan apakah data sesuai dan valid sesuai data yang tertera di form survey
+jika data sesuai maka staf akan menginputkan data survey yang diisi oleh debitur tersebut
+data debitur akan disimpan di database dan dihitung oleh sistem dengan kelayakan kredit yang diberikan apakah layak, pertimbangan / tidak layak
+branch manager dan regional manager akan mendapat print out laporan bulanan atau laporan per debitur hasil kelayakan dan data-data debitur
+jika kelayakan dalam sistem adalah pertimbangan, hak selanjutnya diberikan kepada regional manager apakah akan diubah status kelayakannya menjadi layak atau tidak layak
+hak akses regional manager dimana dapat mengubah / menambah kriteria yang dipakai saat ini oleh sistem, menambahkan/aktivasi staf atau mengubah nilai parameter pengukuran untuk dipakai kedepannya
+fungsi keanggotaan aplikasi 4.1 fungsi keanggotaan karakter no kategori penilaian karakter 1 baik ≥ 50 1 banyak ≥ 5.000.000 muka 3 sedikit ≤ 40 juta 1 banyak ≥ 8.250.000 menggunakan laptop dengan operating system windows 7 ultimate
+bahasa pemrograman yang digunakan adalah php, javascript dan css yang dijalankan melalui wampserver version 2.1
+penerapan metode fuzzy tsukamoto dilakukan dalam perhitungan.php yang meliputi 4 kriteria, fungsi keanggotaan dan parameter dan setiap sub- sub kriteria atau detail dari per kriteria tersebut
+perhitungan dihibungkan dengan hasil perhitungan, hasil spk yang diurutkan per id nasabah dengan kunci id nasabah yaitu nama dan nomor ktp
+1 0 terhadap aplikasi pendukung keputusan pemberian kelayakan kredit mobil ptoto multiartha maka dapat disimpulkan bahwa : 1
+sistem yang di bangun menampilkan informasi layak atau tidaknya nasabah / debitur diberi kredit mobil 2
+penggunaan logika fuzzy metode tsukamoto dalam sistem pendukung keputusan memberikan nilai akhir dimana perubahan selisih angka sekecil apapun nilai survei akan mempengaruhi nilai akhir dari perhitungan
+sistem yang dibuat dapat mengetahui debitur / nasabah yang pernah mengajukan permohonan kredit mobil
+sistem pengambilan keputusan penentuan kelayakan kredit mobil yang di bangun dapat mengantisipasi perubahan nilai survei dan penambahan kriteria
+hasil kelayakan sistem dan perhitungan manual oleh ptoto menunjukkan hasil validitas 67%
+hal ini dikarenakan faktor naluri manusia, fungsi keanggotaan dan angka yang monoton, analisa, serta pengalaman manusia dan faktor perbedaan cara hitung yang dipakai

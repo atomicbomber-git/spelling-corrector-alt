@@ -1,0 +1,85 @@
+yang digunakan untuk menyelesaikan masalah sebagaimana yang dipikirkan oleh pakar
+dalam membangun sistem pakar, ada banyak metode yang dapat digunakan untuk membantu mempermudah mendiagnosis penyakit kelinci menggunakan sistem pakar, ada beberapa metode yang dapat digunakan, di antaranya adalah metode certainty factor dan metode dempster- shafer
+certainty factor diperkenalkan oleh shortliffe buchanan dalam pembuatan mycin
+certainty factor merupakan nilai parameter klinis yang diberikan mycin untuk menunjukkan besarnya kepercayaan
+sedangkan dempster-shafer pertama kali diperkenalkan oleh arthur p
+fungsi kepercayaan dan pemikiran yang masuk akal
+dempster-shafer adalah teori matematika untuk pembuktian berdasarkan belief functions dan plausible reasoning, yang digunakan untuk mengkombinasikan potongan informasi yang terpisah untuk mengkalkulasi kemungkinan dari suatu peristiwa
+tujuan dalam penelitian ini, penulis mencoba untuk menganalisis perbandingan hasil diagnosis sistem pakar penyakit kelinci dengan menggunakan metode certainty factor dan metode dempster-shafer dengan cara membandingkan kesesuaian hasil diagnosis antara sistem dengan hasil diagnosis seorang pakar sehingga dapat diketahui metode manakah di antara kedua metode tersebut yang lebih baik dalam mendiagnosis penyakit kelinci
+berdasarkan hasil pengujian dengan tingkat keakuratan, didapat hasil bahwa nilai keakuratan metode certainty factor adalah 80 % sedangkan nilai keakuratan metode dempster-shafer adalah 85 % sehingga dapat ditarik kesimpulan bahwa metode dempster-shafer lebih baik dibanding metode certainty factor dalam mendiagnosis penyakit kelinci di kota pontianak
+pendahuluan digunakan untuk menyelesaikan masalah sebagaimana yang dipikirkan oleh pakar
+pakar yang dimaksud di sini adalah orang yang mempunyai keahlian khusus yang dapat menyelesaikan masalah yang tidak dapat diselesaikan oleh orang awam
+dapat digunakan untuk membantu mempermudah menyelesaikan masalah yang ada
+sebagai contoh, dalam mendiagnosis penyakit kelinci menggunakan sistem pakar, ada beberapa metode yang dapat digunakan, di antaranya adalah metode certainty factor dan metode dempster-shafer
+certainty factor diperkenalkan oleh shortliffe buchanan dalam pembuatan mycin
+certainty factor merupakan nilai parameter klinis yang diberikan mycin untuk menunjukkan besarnya kepercayaan
+sedangkan dempster-shafer pertama kali diperkenalkan oleh arthur p
+fungsi kepercayaan dan pemikiran yang masuk akal
+dempster-shafer adalah teori matematika untuk pembuktian berdasarkan belief functions dan plausible reasoning, yang digunakan untuk mengkombinasikan potongan informasi yang terpisah untuk mengkalkulasi kemungkinan dari suatu peristiwa
+dalam penelitian ini, penulis mencoba untuk menganalisis perbandingan hasil diagnosis penyakit kelinci dengan menggunakan metode certainty factor dan metode dempster- shafer sehingga dapat diketahui metode manakah di antara kedua metode tersebut yang lebih baik dalam mendiagnosis penyakit kelinci
+digunakan untuk menyelesaikan masalah sebagaimana yang dipikirkan oleh pakar
+pakar yang dimaksud di sini adalah orang yang mempunyai keahlian khusus yang dapat menyelesaikan masalah yang tidak dapat diselesaikan oleh orang awam
+dapat memberikan penalaran untuk data-data yang tidak lengkap atau tidak pasti
+dapat mengemukakan rangkaian alasan yang diberikannya dengan cara yang dapat dipahami
+berdasarkan pada rule atau kaidah tertentu
+dirancang untuk dapat dikembangkan secara bertahap
+output tergantung dari dialog dengan user
+knowledge base dan inference engine terpisah
+membuat seorang awam dapat bekerja seperti layaknya seorang pakar
+dapat bekerja dengan informasi yang tidak lengkap atau tidak pasti
+meningkatkan output dan produktivitas, karena sistem pakar dapat bekerja lebih cepat dari manusia
+menyediakan nasihat yang konsisten dan dapat mengurangi tingkat kesalahan
+membuat peralatan yang kompleks lebih mudah dioperasikan karena sistem pakar dapat melatih pekerja yang tidak berpengalaman
+sistem pakar tidak dapat lelah atau bosan
+juga konsisten dalam memberi jawaban dan selalu memberikan perhatian penuh
+memungkinkan pemindahan pengetahuan ke lokasi yang jauh serta memperluas jangkauan seorang pakar, dapat diperoleh dan dipakai dimana saja
+certainty factor factor merupakan nilai parameter klinis yang diberikan mycin untuk menunjukkan besarnya kepercayaan
+ada beberapa kombinasi certainty factor terhadap premis tertentu: 1
+certainty factor dengan lebih dari satu premis
+certainty factor dengan kesimpulan yang serupa
+dempster, yang melakukan percobaan model ketidakpastian dengan range probabilities daripada sebagai probabilitas tunggal kemudian pada tahun 1976 glenn shafer mempublikasikan teori dempster tersebut pada sebuah buku yang berjudul mathematical theory of evident
+fungsi kepercayaan dan pemikiran yang masuk akal
+dempster- shafer adalah teori matematika untuk pembuktian berdasarkan belief functions dan plausible reasoning, yang digunakan untuk mengkombinasikan potongan informasi yang terpisah untuk mengkalkulasi kemungkinan dari suatu peristiwa
+teori ini mampu menunjukkan suatu cara memberikan bobot keyakinan sesuai fakta yang dikumpulkan
+pada teori ini dapat membedakan ketidakpastian dan ketidaktahuan
+teori ini memiliki beberapa karakteristik yang secara intuitif sesuai dengan cara berpikir seorang pakar, namun dengan dasar matematika yang kuat
+lebih dikenal dengan dempster’s rule of combination :
+ adalah penyakit yang secara umum sering terjadi di indonesia khususnya kota pontianak berdasarkan hasil konsultasi dengan pakar, antara lain : 1
+scabies, adalah sejenis penyakit kulit yang disebabkan oleh kutu psoroptes cuniculi
+penyakit ini mengakibatkan rasa gatal pada kelinci sehingga jika tidak segera diobati, dapat terjadi kerusakan pada kulit kelinci bahkan dapat menular ke kelinci lainnya bahkan ke manusia
+ringworm, adalah sejenis penyakit kulit yang disebabkan oleh jamur genus microsporum dan trichophyton
+penyakit ini mudah ditularkan melalui kontak langsung, bahkan dapat menular ke manusia
+coccidia, adalah penyakit pencernaan yang disebabkan oleh infeksi protozoa golongan koksidia melalui pakan, minum, atau peralatan yang terkontaminasi parasit tersebut
+kembung, disebabkan oleh serat berlebih yang terdapat di dalam pencernaan kelinci
+kelebihan serat tersebut sulit dicerna sehingga kelinci stres karena tidak bisa buang air besar
+jika dibiarkan, hal yang menakutkan adalah terjadinya kematian karena stres akut yang diderita kelinci
+sembelit, adalah penyakit gangguan pencernaan di mana kelinci tidak bisa atau kesulitan mengeluarkan feses, disebabkan oleh diet harian yang kurang mengandung serat kasar dan asupan air minum yang kurang
+kecacingan, adalah penyakit gangguan pencernaan yang disebabkan oleh cacing pita toxocara canis, cacing tambang atau gelang ancylostoma caninum dan uncinaria stenochepala dan cacing cambuk
+parasit ini kadang ditemukan bersama feses sehingga bisa menular ke kelinci lain yang sehat
+infeksi pernapasan atas, adalah penyakit pernapasan yang menyerang selaput lendir pada saluran hidung
+penyebabnya masih sulit dipastikan, kemungkinan disebabkan oleh bakteri atau virus
+penyakit ini sangat menular dan dapat menyebar ke tenggorokan dan paru- paru sehingga menimbulkan sesak napas
+radang paru, adalah penyakit pernapasan akibat infeksi paru yang disebabkan oleh bakteri pasteurella multocida
+umumnya penyakit ini menyerang kelinci dewasa, baik jantan atau betina pada saat kondisi tubuhnya menurun
+radang ambing, adalah penyakit peradangan pada kelenjar susu kelinci betina yang disebabkan oleh bakteri stapphylorus aereus, staphylococcus atau streptococcus sp
+pengujian sistem diagnosis sistem, baik yang menggunakan metode certainty factor maupun metode dempster-shafer dengan hasil diagnosis seorang pakar, kemudian keakuratan tiap metode akan dihitung persentasenya
+pengujian dilakukan terhadap 20 kasus penyakit kelinci
+hasil aplikasi dibangun untuk membandingkan hasil diagnosis penyakit kelinci dengan menggunakan metode certainty factor dan metode dempster-shafer dengan hasil diagnosis seorang pakar sehingga setelah dianalisis dapat diketahui metode manakah di antara kedua metode tersebut yang lebih baik dalam mendiagnosis penyakit kelinci, yang diperlihatkan pada gambar 3 sampai dengan gambar 7
+tampilan halaman diagnosis gambar 3 merupakan tampilan halaman diagnosis, di mana pengguna dapat memasukkan gejala yang diderita kelinci
+tampilan halaman hasil diagnosis gambar 4 merupakan tampilan halaman hasil diagnosis, di mana hasil diagnosis ditampilkan berdasarkan gejala kelinci yang telah dimasukkan pengguna
+tampilan halaman manajemen penyakit gambar 5 merupakan tampilan halaman manajemen penyakit di mana pengguna dapat melihat, menambah, mengubah dan menghapus data penyakit
+tampilan halaman manajemen gejala gambar 6 merupakan tampilan halaman manajemen gejala di mana pengguna dapat melihat, menambah, mengubah dan menghapus data gejala
+gambar 7 merupakan tampilan halaman manajemen relasi di mana pengguna dapat melihat, menambah, mengubah dan menghapus data relasi
+metode certainty factor pada tabel 1, memperlihatkan kesesuaian hasil diagnosis antara sistem pakar yang menerapkan metode certainty factor dengan diagnosis pakar
+jumlah yang sesuai antara sistem pakar yang menerapkan metode dempster- shafer dengan diagnosis pakar
+perbandingan sistem pakar dengan metode certainty factor dan metode dempster-shafer pada penyakit kelinci : 1
+sistem menampilkan nilai certainty factor yang dihasilkan dari metode certainty factor dan nilai densitas yang dihasilkan dari metode dempster-shafer pada setiap hasil diagnosis yang dihasilkan oleh kedua metode
+hal ini berguna untuk memperkuat keyakinan pengguna akan penyakit yang dialami kelinci
+pada pengujian dengan metode certainty factor, didapatkan nilai keakuratan sebesar 80%, sedangkan hasil pengujian dengan metode dempster-shafer didapatkan nilai keakuratan sebesar 85% 3
+perbedaan hasil diagnosis antara kedua metode disebabkan oleh perbedaan mendasar dalam perhitungan keduanya, di mana perhitungan dari setiap kemungkinan penyakit pada metode certainty factor tidak saling terkait dan dihitung sendiri-sendiri sedangkan perhitungan dari setiap kemungkinan penyakit pada metode dempster-shafer selalu saling terkait
+kelinci antara metode certainty factor dan metode dempster- shafer, maka dapat disimpulkan bahwa : 1
+metode dempster-shafer mendiagnosis penyakit kelinci di kota pontianak lebih baik dibandingkan dengan metode certainty factor
+tingkat keakuratan hasil diagnosis sistem pakar dengan metode certainty factor adalah 80%, sedangkan hasil diagnosis sistem pakar dengan metode dempster-shafer adalah 85%
+besarnya nilai certainty factor yang dihasilkan dari metode certainty factor dan nilai densitas yang dihasilkan dari metode dempster-shafer serta hasil diagnosis masing- masing metode ditentukan oleh banyaknya kecocokan antara gejala yang diinputkan dan besarnya nilai belief dari tiap gejala
+besarnya nilai certainty factor yang dihasilkan dari metode certainty factor dari setiap kemungkinan penyakit adalah selalu antara 0 dan 1, dengan nilai certainty factor tertinggi adalah kemungkinan terkuat diagnosis penyakit
+besarnya jumlah seluruh nilai densitas dari setiap kemungkinan penyakit yang dihasilkan dari metode dempster-shafer adalah 1, dengan nilai densitas tertinggi adalah kemungkinan terkuat diagnosis penyakit

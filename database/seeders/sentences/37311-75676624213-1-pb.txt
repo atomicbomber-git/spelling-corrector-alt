@@ -1,0 +1,124 @@
+eee paper template in a4 vol 6 no 1 april 2020 pengendalian lampu lalu lintas cerdas di persimpangan empat ruas yang kompleks menggunakan algoritma adaptive neuro fuzzy inference system budy santoso#1, azminuddin i
+azis#2, andi bode#3 #program studi teknik informatika, fakultas ilmu komputer, universitas ichsan gorontalo jl
+ 829975, fax 829976, gorontalo 1budysantoso@unisan.ac.id 2azminuddinazis@unisan.ac.id 3bodeandijr@unisan.ac.id pada fenomena kemacetan arus lalu lintas yang berdampak pada kecelakaan lalu lintas, polusi, dan kerugian ekonomi
+salah satu cara untuk meminimalisir fenomena tersebut melalui pengendalian sistem lampu lalu lintas yang baik terhadap arus lalu lintas jangka pendek di persimpangan jalan
+pengendalian lampu lalu lintas secara statis terbukti belum optimal dalam meminimalisir kemacetan arus lalu lintas, salah satu penyebabnya karena kondisi arus lalu lintas yang bervariasi sehingga tidak mudah diprediksi
+fuzzy inference system sering terbukti mampu menunjukkan hasil yang lebih baik daripada pengendalian lampu lalu lintas secara statis
+namun fis tidak dapat diterapkan pada kondisi arus lalu lintas yang bervariasi atau di persimpangan jalan yang berbeda karena metode tersebut tidak mampu mempelajari kondisi arus lalu lintas secara real time
+agar fis mampu melakukan pembelajaran, maka pendekatan machine learning dapat diterapkan pada fis
+salah satu pengembangannya adalah adaptive neuro fuzzy inference system yang dapat mengendalikan lampu lalu lintas cerdas secara dinamis dengan hasil yang lebih baik daripada fis
+namun umumnya anfis diuji coba pada persimpangan jalan yang normal bagaimana jika di persimpangan yang kompleks? persimpangan yang memiliki beberapa ruas/jalur utama yang besar, sementara ruas laiinya kecil, bahkan terdapat ruas yang tidak berpotongan, sehingga ada prioritas untuk setiap ruasnya
+hasilnya, penerapan anfis untuk pengendalian lampu lalu lintas cerdas/dinamis di persimpangan empat ruas yang kompleks mampu mereduksi average waiting times rata-rata sebesar 3, 4071e-05 detik dengan 2, 7156 rmse rata-rata, menggunakan variabel queues quantity dan priority degree
+sedangkan jika menggunakan variabel arrival times, transportation type, dan goal junction, anfis mampu mereduksi awt sebesar 0, 0779 detik dengan 19, 7646 rmse
+pendahuluan fenomena kemacetan arus lalu lintas yang berdampak pada kecelakaan lalu lintas, polusi, dan kerugian ekonomi
+salah satu cara untuk meminimalisir fenomena tersebut melalui manajemen yang baik terhadap arus lalu lintas di persimpangan jalan
+arus lalu lintas jangka pendek di persimpangan jalan dapat dikendalikan dengan sistem lampu lalu lintas, secara statis maupun dinamis, ,
+namun pengendalian lampu lalu lintas secara statis terbukti belum optimal dalam meminimalisir kemacetan arus lalu lintas karena meningkatnya jumlah kendaraan secara eksponensial yang tidak sejalan dengan perkembangan kapasitas jalan, ,, sehingga kondisi arus lalu lintas tidak mudah ditebak 
+oleh karena itu, pengendalian lampu lalu lintas cerdas/dinamis harus terus ditingkatkan
+sering digunakan untuk mengatasi masalah tersebut, ,, umumnya menggunakan metode fuzzy inference system dengan hasil yang lebih baik daripada pengendalian lampu lalu lintas secara statis
+namun fis tidak dapat diterapkan pada kondisi arus lalu lintas yang bervariasi atau dipersimpangan jalan yang berbeda karena metode tersebut tidak mampu mempelajari kondisi arus lalu lintas secara real time, ,
+sementara itu, pendekatan machine learning mampu memberikan pengetahuan melalui pembelajarannya
+dengan demikian, agar fis mampu melakukan pembelajaran, maka pendekatan machine learning dapat diterapkan pada fis
+secara lengkap, penerapan pendekatan soft computing dan machine learning untuk traffic light control di tunjukkan pada tabel i
+persimpangan yang kompleks seperti itu tentunya membutuhkan pengendalian lampu lalu lintas yang lebih kompleks pula
+salah satu persimpangan yang kompleks seperti itu terdapat di gotontalo 
+observasi sementara kami menunjukkan bahwa durasi lampu lalu lintas secara statis di lokasi tersebut tidak efisien karena sangat sering menimbulkan antrian yang panjang, bahkan kemacetan arus lalu lintas yang terjadi di pusat persimpangan, hingga kadang berujung pada pelanggaran rambu lampu lalu lintas oleh pengemudi
+1 persimpangan empat ruas yang kompleks bagaimana jika anda mengantri dengan waktu yang cukup lama karena terjadi kemacetan arus lalu lintas yang dikendalikan dengan lampu lalu lintas statis di suatu persimpangan jalan yang kompleks seperti pada gambar 1? bagaimana jika kemacetan tersebut berdampak terhadap pelanggaran lalu lintas, kecelakaan lalu lintas, polusi, dan bahkan kerugian ekonomi? oleh karena itu, pengendalian lampu lalu lintas cerdas secara dinamis yang merupakan salah satu bagian dari pengembangan intelligent transportation system harus terus ditingkatkan
+dengan menggunakan teknik observasi, dua dataset dikumpulkan dari persimpangan tersebut 
+struktur dataset pertama mengacu pada penelitian yang dilakukan oleh r
+kimwele dalam penelitiannya tentang pengendalian lampu lalu lintas cerdas menggunakan fis dan wireless sensor network, pada tahun 2017
+sedangkan struktur dataset kedua, dengan sedikit modifikasi pada variabel yang digunakan, mengacu pada penelitian yang dilakukan oleh b
+secara rinci, struktur kedua dataset tersebut ditunjukkan pada tabel ii berikut ini
+tabel ii struktur dataset d2 qq wt pd gt at tt gj wt integer integer real integer integer ordinal ordinal integer input input/output input/output dalam setiap periode lampu lalu lintas
+setiap variabel pada d1 terdapat pada setiap ruas pada gambar 1 yang terdiri dari ruas a, ruas b, ruas c, dan ruas d 
+sedangkan dataset d2 merupakan data per kendaraan
+variabel-variabel pada d2 mewakili keempat ruas pada gambar 1
+qq berfungsi sebagai variabel input, merupakan jumlah antrian kendaraan dalam suatu periode lampu merah pada suatu ruas
+wt merupakan waktu tunggu semua kendaraan pada suatu ruas dalam satuan detik
+awalnya wt berfungsi sebagai salah satu variabel input yang nilainya terdiri dari 0, 20, 40, dan 60 detik karena durasi lampu hijau = 20 detik untuk memperoleh output pd menggunakan fis
+selanjutnya wt berfungsi sebagai variabel output menggunakan anfis
+pd berfungsi sebagai variabel output yang nilainya diperoleh dengan menggunakan fis, merupakan tingkat prioritas suatu ruas untuk lampu hijau menyala, di mana ruas yang memiliki pd tertinggi yang memperoleh lampu hijau, sehingga bersifat dinamis 
+gt berfungsi sebagai variabel output namun hanya pada/untuk simulasi, merupakan durasi lampu hijau pada suatu ruas dalam satuan detik, di mana nilainya diperoleh menggunakan persamaan yang diusulkan oleh r
+kimwele dalam penelitiannya pada tahun 2017, dengan sedikit modifikasi atas pertimbangan lokasi
+at berfungsi sebagai variabel input, merupakan waktu kendaraan tiba di suatu ruas dalam satuan detik yang nilainya adalah detik ke berapa kendaraan tiba di suatu ruas lampu merah 
+tt berfungsi sebagai variabel input, merupakan tipe kendaraan yang dikategorikan menjadi 4 nilai ordinal, yaitu 2, 4, 7, dan 10 
+gj berfungsi sebagai variabel input, merupakan jarak dari ruas asal ke ruas tujuan suatu kendaraan yang dikategorikan menjadi 3 nilai ordinal, yaitu 1, 2, dan 3 
+waktu kendaraan tiba di ruas asal hingga sampai di ruas tujuan
+wt pada d2 berfungsi sebagai variabel output, merupakan waktu tunggu suatu kendaraan pada suatu ruas dalam satuan detik
+sebelumnya, maka penelitian ini bertujuan untuk menguji coba metode anfis dalam mengendalikan lampu lalu lintas cerdas secara dinamis di persimpangan empat ruas yang kompleks, sehingga dapat mereduksi awt kendaraan dengan error estimation yang kecil di persimpangan tersebut
+kedepannya, diharapkan model yang diusulkan ini dapat diimplementasikan pada sistem lampu lalu lintas cerdas di persimpangan-persimpangan 4 ruas yang kompleks, sehingga dapat berdampak dalam mereduksi pelanggaran lalu lintas, kecelakaan lalu lintas, polusi, dan bahkan kerugian ekonomi yang disebabkan kemacetan arus lalu lintas
+metode dipandang dari jenis informasi yang diolah, maka penelitian ini merupakan penelitian kuantitatif
+dipandang dari perlakuan terhadap data, maka penelitian ini merupakan penelitian konfirmatori
+soft computing, machine learning, dan intelligent transportation system merupakan subjek-subjek penelitian ini
+sedangkan objek penelitian ini adalah lampu lalu lintas di persimpangan empat ruas yang kompleks
+penelitian ini dilaksanakan selama satu tahun lebih, dari april 2018 hingga oktober 2019
+eksperimen kedua merupakan pemodelan anfis dengan mengunakan data input dan output di dataset d1 yang diperoleh dari eksperimen e1 untuk menghasikan output wt
+eksperimen ketiga merupakan pemodelan anfis dengan menggunakan data input dan output di dataset d2 untuk menghasilkan output wt
+eksperimen terakhir adalah simulasi yang merupakan model simulasi dari anfis menggunakan data input di dataset d1 dengan strategi yang sama seperti ekperimen e1
+secara rinci, percobaan-percobaan tersebut ditunjukkan pada tabel iii berikut ini
+sedangkan alat bantu yang digunakan dalam melakukan eksperimen/pemodelan terhadap metode yang diusulkan yaitu matlab
+2 proposed method dilakukan pada jam 06:30 am – 08:30 am, 10:00 am – 11:30 am, 02:00 pm – 05:30 pm, dan 07:00 pm – 10:00 pm selama 1 minggu
+pengumpulan data dilakukan secara manual, baik di waktu arus lalu lintas dalam keadaan macet, seperti di pagi dan siang hari, maupun tidak macet b
+fuzzy inference system fuzzy inference system atau biasa disebut fuzzy logic memiliki kemampuan dalam menalar, toleransi terhadap data-data yang tidak tepat, mampu memodelkan fungsi-fungsi nonlinear yang kompleks, dan mampu mengaplikasikan pengalaman pakar tanpa melalui proses pelatihan
+proses fis terdiri dari fuzzification, knowledge base, machine inference, dan defuzzification
+lebih jelasnya, proses fis ditunjukkan pada gambar 3 berikut ini
+then" yang umumnya berasal dari pengetahuan pakar
+fuzzification merupakan proses untuk mengubah inputan menjadi variabel linguistik menggunakan fungsi keanggotaan
+inference machine merupakan proses untuk menalar inputan menjadi output dengan mengikuti aturan-aturan yang telah ditetapkan pada knowledge base
+defuzzification merupakan proses untuk mengubah output fuzzy yang diperoleh dari inference machine menjadi nilai tegas menggunakan fungsi keanggotaan yang sesuai pada proses fuzzyfication sebelumnya
+nilai pd dari setiap data yang ada di dataset d1 ditentukan menggunakan fis
+fungsi keanggotaan yang digunakan yaitu triangular mf, ditunjukkan pada gambar 4 untuk fungsi keanggotaan qq, gambar 5 untuk fungsi keanggotaan wt, dan gambar 6 untuk fungsi keanggotaan pd sebagai output
+pendekatan ini diadopsi dari penelitian yang dilakukan oleh r
+kimwele dalam penelitiannya tentang pengendalian lampu lalu lintas cerdas menggunakan fis dan wireless sensor network, pada tahun 2017, dengan sedikit modifikasi pada range membership atas pertimbangan lokasi
+adaptive neuro fuzzy inference system pada prinsipnya, fis tidak mampu melakukan pembelajaran sendiri, maka dengan menerapkan pendekatan machine learning, fis akan dapat melakukan pendekatan reasoning dan learning
+salah satu hasil dari pengembangan pendekatan ini adalah adaptive neuro fuzzy inference system, di mana artificial neural network bertugas untuk melakukan learning berdasarkan data latih untuk mengoptimalkan proses- proses fis dalam melakukan reasoning, sehingga algoritma ini menjadi dinamis
+lebih jelasnya, proses anfis ditunjukkan pada gambar 4, di mana arsitektur jaringan ann pada anfis untuk eksperimen e2 dan e3 ditunjukkan pada gambar 5 dan gambar 6
+7 proses anfis adapun parameter-parameter anfis yang diuji coba ditunjukkan pada tabel iv berikut ini, di mana fungsi keanggotaan anfis untuk tiap-tiap variabel input pada eksperimen e2 ditunjukkan pada gambar 10 dan eksperiemen e3 ditunjukkan pada gambar 11
+tabel iv parameter value fungsi keanggotaan jumlah keanggotaan gambar
+10 fungsi keanggotaan variabel qq dan pd untuk e2 gambar
+11 fungsi keanggotaan variabel at, tt, dan gj untuk e3 d
+awt dan rmse lampu lalu lintas cerdas dievaluasi berdasarkan average waiting times yang mampu direduksi dan error estimation yang diperoleh menggunakan pendekatan root mean squared error 
+model fis untuk penentuan pd pada dataset d1 eksperimen e1 menggunakan metode fis untuk penentuan pd pada dataset d1 dengan inputan qq dan wt di tiap-tiap ruas 
+output fis pada eksperimen e1 ini akan digunakan sebagai salah satu inputan pada eksperimen e2 menggunakan anfis untuk menentukan nilai wt, di mana nilai wt sebelumnya berfungsi sebagai inputan
+model fis untuk penentuan pd pada dataset d1
+eksperimen e1 ini tidak dievaluasi karena hanya berfungsi untuk menentukan nilai pd saja
+secara rinci ditunjukkan pada gambar 4, gambar 5, dan gambar 6
+tabel v ruas a ruas b ruas c ruas d qq1 wt1 pd1 qq2 wt2 pd2 qq3 wt3 pd3 qq4 wt4 pd4 0 17 12 29 0 11 dengan jumlah keanggotaan untuk setiap variabel = 3 
+parameter defuzzification yang digunakan adalah dengan menggunakan teknik fuzzy mamdami agar inputan minimum dapat menghasilkan output minimum pula, begitupun inputan maksimum dapat menghasilkan output maksimum pula
+hasil penentuan pd yang diberikan fis ditunjukkan pada tabel vi
+model anfis untuk penentuan wt pada dataset d1 eksperimen e2 menggunakan metode anfis untuk penentuan wt pada dataset d1 yang merupakan hasil eksperimen e1 dengan inputan qq dan pd 
+fungsi keanggotaan yang diuji coba adalah trimf, trapmf, dan gaussmf dengan jumlah keanggotaan yang diuji coba untuk setiap variabel input = 3, 4, 5, dan 6
+sedangkan parameter epoch pada ann yang diuji coba >= 50 dengan error target = 1, 00e-6
+ruas a ruas b ruas c ruas d qq1 pd1 wt1 qq2 pd2 wt2 qq3 pd3 wt3 qq4 pd4 wt4 0 17 12 29 0 11 mereduksi awt diperoleh ketika menggunakan fungsi keanggotaan gaussmf dan jumlah keanggotaan = 3, di mana awt rata-rata yang mampu direduksi sebesar 3, 4071e-5 detik dengan rmse rata-rata sebesar 2, 7156
+awt yang mampu direduksi pada tiap-tiap ruas menunjukkan bahwa semakin rendah jumlah keanggotaan yang digunakan, maka semakin tinggi pula awt yang mampu direduksi
+begitupun rmse, semakin rendah jumlah keanggotaan yang digunakan, maka semakin rendah pula rmse yang diperoleh
+secara rinci, hasil evaluasi eksperimen e2 ditunjukkan pada tabel vii, tabel viii, gambar 12, gambar 13, dan gambar 14 berikut ini
+14 awt reduction rata-rata anfis pada e2 c
+model anfis untuk penentuan wt pada dataset d2 eksperimen e3 menggunakan metode anfis untuk penentuan wt pada dataset d2 dengan inputan at, tt, dan gj 
+fungsi keanggotaan yang diuji coba adalah trimf, trapmf, dan gaussmf dengan jumlah keanggotaan yang diuji coba untuk setiap variabel input = 3, 4, 5, dan 6
+sedangkan parameter epoch pada ann yang diuji coba >= 50 dengan error target = 1, 00e-6
+tabel ix no at tt gj wt 1 2 3 4 5 6 mereduksi awt diperoleh ketika menggunakan fungsi keanggotaan trapmf dan jumlah keanggotaan = 4, di mana awt yang mampu direduksi sebesar 0, 0779 detik dengan rmse sebesar 19, 7646
+awt yang mampu direduksi menunjukkan bahwa fungsi keanggotaan trapmf selalu memberikan hasil yang lebih baik pada setiap jumlah keanggotaan yang diuji coba, kecuali pada jumlah keanggotaan = 3
+sedangkan rmse yang dihasilkan menunjukkan bahwa semakin rendah jumlah keanggotaan, maka semakin rendah pula nilai rmse, baik pada fungsi keanggotaan trimf, trapmf, maupun gaussmf
+secara rinci, hasil evaluasi eksperimen e3 ditunjukkan pada gambar 15, gambar 16, gambar 17, dan gambar 18
+17 wt reduction anfis pada e3 gambar
+18 output wt aktual vs anfis pada e3 berdasarkan seluruh evaluasi dari model-model yang diuji coba, model anfis untuk pengendalian lampu lalu lintas cerdas secara dinamis di persimpangan empat ruas yang kompleks dengan menggunakan variabel at, tt, dan gt lebih baik dalam mereduksi awt daripada menggunakan variabel qq dan pd, yaitu selisih 0, 077888 detik
+namun sebaliknya untuk error estimation rmse, anfis pada eksperimen e2 menunjukkan kinerja yang lebih baik daripada anfis pada eksperimen e3, yaitu dengan selisih 17, 04906
+kinerja awt reduction lebih dipertimbangkan daripada kinerja error estimation karena dalam penelitian ini, error estimation yang diperoleh berdasarkan data aktual yang dikumpulkan di lokasi penelitian yang validitasnya belum teruji dengan baik
+sedangkan awt yang mampu direduksi mengindikasikan bahwa metode yang diusulkan ini akan mampu mereduksi kemacetan arus lalu lintas di persimpangan tersebut
+dengan demikian, model anfis pada eksperimen e3 dapat digunakan untuk pengendalian lampu lalu lintas cerdas secara dinamis pada persimpangan tersebut
+lalu lintas cerdas secara dinamis di persimpangan empat ruas yang kompleks menggunakan metode anfis yang ditunjukkan pada gambar 19 
+simulasi dilakukan dengan mengikuti model eksperimen e1 dengan penjelasan simulasi ini adalah sebagai berikut: 1
+lampu hijau menyala pada ruas yang memperoleh pd tertinggi berdasarkan inputan qq dan wt dari setiap ruas dengan durasi lampu hijau berdasarkan nilai gt; 2
+selanjutnya waktu lampu hijau dihitung mundur, saat mencapai 0, maka anfis kembali bekerja untuk memberikan output pd berdasarkan dataset d1; 3
+diasumsikan bahwa setiap periode lampu hijau, 1 kendaraan masuk pada tiap-tiap ruas, kecuali pada ruas lampu hijau yang baru berakhir menjadi lampu merah ; dan 4
+wt = wt + gt sebelumnya pada ruas lampu hijau
+diasumsikan pula bahwa setiap periode lampu hijau, wt suatu ruas bertambah berdasarkan durasi lampu hijau sebelumnya, kecuali pada ruas lampu hijau yang baru berakhir menjadi lampu merah 
+penerapan anfis untuk pengendalian lampu lalu lintas cerdas/dinamis di persimpangan empat ruas yang kompleks mampu mereduksi average waiting times rata-rata sebesar 3, 4071e-05 detik dengan 2, 7156 rmse rata-rata, menggunakan variabel queues quantity dan priority degree ; 2
+sedangkan jika menggunakan variabel arrival times, transportation type, dan goal junction, anfis mampu mereduksi awt sebesar 0, 0779 detik dengan 19, 7646 rmse
+dengan demikian, model anfis dengan menggunakan variabel at, tt, dan gj yang lebih mampu mereduksi awt dapat diterapkan untuk pengendalian lampu lalu lintas cerdas/dinamis di persimpangan empat ruas yang kompleks
+selain itu, hasil ini juga mengindikasikan bahwa model anfis dengan inputan per kendaraan lebih direkomendasikan daripada inputan per ruas 
+oleh karena itu, penelitian ke depannya dapat melakukan simulasi terhadap model anfis ini dengan variabel output yang berbeda yang dapat digunakan untuk durasi lampu hijau
+untuk lebih menguji kinerja dari metode yang diusulkan ini, maka penerapannya pada berbagai lokasi yang berbeda dapat pula diuji coba pada penelitian-penelitian selanjutnya
+begitupun data yang lebih valid, lebih banyak, lebih bersifat publik, dan lebih bersih dari noise dibutuhkan pula
+ucapan terima kasih riset dan pengabdian masyarakat; kementerian riset dan pendidikan tinggi republik indonesia

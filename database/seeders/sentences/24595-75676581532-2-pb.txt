@@ -1,0 +1,86 @@
+eee paper template in a4 vol 4 no 1 juni 2018 pengaruh metode dictionary lookup pada cleaning korpus terhadap akurasi mesin penerjemah statistik indonesia–melayu pontianak m
+dwi etsa putra #1, herry sujaini #2, novi safriadi #3 jalan prof
+hadari nawawi, pontianak, kalimantan barat 1 putracl@gmail.com 2 herry_sujaini@yahoo.com 3 bangnops@gmail.com bahasa melayu yang dituturkan oleh masyarakat kota pontianak dan sekitarnya, meskipun masih jauh dari kepunahan namun perlu dilestarikan sebagai tindakan pencegahan agar tidak punah, salah satu upaya pelestarian bahasa daerah yaitu dengan pembuat mesin penerjemah
+mesin penerjemah statistik adalah sebuah pendekatan mesin penerjemah dengan hasil terjemahan dihasilkan atas dasar model statistik, namun masih terdapat kelemahan yaitu rendahnya tingkat akurasi terjemahan
+proses cleaning adalah proses pencarian dan perbaikan kata atau kalimat yang salah ataupun tidak sesuai dalam rangka meningkatkan tingkat akurasi terjemahan, salah satu metode yang dapat digunakan pada proses cleaning adalah metode dictionary lookup
+tujuan dari penelitian ini adalah mengetahui pengaruh penerapan metode dictionary lookup pada proses cleaning korpus terhadap akurasi mesin penerjemah statistik bahasa indonesia – bahasa melayu pontianak
+penelitian menggunakan korpus paralel sebanyak 9157 kalimat
+pengujian dilakukan dengan membandingkan nilai akurasi hasil terjemahan sebelum dan setelah cleaning dengan metode dictionary lookup
+pengujian dilakukan dengan pengujian otomatis menggunakan bilingual evaluation understudy 
+dari hasil penelitian, penerapan metode dictionary lookup pada proses cleaning dapat mempengaruhi akurasi mps, ini terlihat dari terjadinya penurunan sebesar 1, 5% pada korpus manual dan penurunan sebesar 6, 94% dengan korpus orisinal sementara itu terjadi peningkatan sebesar 2, 58% pada korpus clean dic
+berdasarkan hal tersebut penerapan metode dictionary lookup pada proses cleaning dapat menurunkan nilai akurasi hasil terjemahan
+pendahuluan bangsa yang ada di indonesia dari hasil sensus penduduk pada tahun 2010, dan ada sekitar 2500 jenis bahasa daerah yang ada di indonesia
+pada tahun 2015 terdapat indonesia mempunyai 726 bahasa daerah
+bahasa melayu pontianak merupakan dialek bahasa melayu yang dituturkan oleh masyarakat kota pontianak, kabupaten kubu raya dan kabupaten mempawah
+meskipun masih jauh dari kepunahan namun tetap perlu dilakukan pelestarian sebagai tindakan pencegahan agar bahasa melayu pontianak tidak punah
+salah satu upaya pelestarian bahasa daerah yaitu dengan pembuat mesin penerjemah
+otomatis pada sebuah teks dari satu bahasa ke bahasa lainnya
+mesin penerjemah statistik adalah sebuah pendekatan mesin penerjemah dengan hasil terjemahan dihasilkan atas dasar model statistik yang parameter- parameternya diambil dari hasil analisis korpus teks bilingual atau paralel
+terdapat beberapa penelitan yang dilakukan berkaitan dengan mps bahasa daerah diantaranya penelitian tentang pengaruh kuantitas korpus terhadap akurasi mps bahasa bugis wajo ke bahasa indonesia, penelitian tentang sistem penerjemah bahasa jawa-aksara jawa berbasis finite state automata, penelitian akurasi penerjemahan bahasa indonesia- jawa menggunakan metode statistik berbasis frasa, algortima pembagian frasa dalam kalimat untuk menigkatkan akurasi mesin penerjemah statistik bahasa indonesia – bahasa bugis wajo, algoritma pembagian frasa dalam kalimat untuk meningkatkan akurasi mesin penerjemah statistik bahasa indonesia – bahasa jawa kromo, meningkatkan akurasi pada mesin penerjemah bahasa indonesia ke bahasa melayu pontianak dengan part of speech, mesin penerjemah situs berita online bahasa indonesia ke bahasa melayu pontianak, namun masih terdapat kelemahan yaitu rendahnya tingkat akurasi terjemahan
+rendahnya tingkat akurasi dapat dipengaruhi oleh korpus yang digunakan sebagai dasar pembuatan mps
+proses cleaning adalah proses pencarian dan perbaikan kata atau kalimat yang salah ataupun tidak sesuai
+proses cleaning yang disediakan oleh mosesdecoder hanya menghapus kalimat yang terlalu panjang, serta yang kalimat kosong
+salah satu metode pengecekan yang dapat digunakan pada proses cleaning adalah metode dictionary lookup
+dictionary lookup merupakan metode yang melakukan pencarian secara sederhana untuk melihat apakah input kata yang dimasukkan terdapat dalam kamus atau daftar kata yang ada, jika tidak ada maka kata tersebut dianggap sebagai kata yang salah
+lookup pada proses cleaning korpus terhadap akurasi mesin penerjemah statistik bahasa indonesia – bahasa melayu pontianak
+kalimat akan diberikan sebuah p yang diinterpretasikan sebagai distribusi probabilitas dimana sebuah penerjemah akan menghasilkan t dalam bahasa target ketika diberikan s dalam bahasa sumber
+salah satu mps yang populer saat ini adalah moses
+moses meupakan software gratis yang merupakan implementasi dari mesin penerjemah statistik
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa target saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa target secara umum, arsitektur mesin penerjemah statistik moses ditunjukkan pada gambar 1
+sumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus 
+proses training terhadap korpus paralel menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada korpus paralel ditambah dengan monolingual korpus bahasa target menggunakan srilm menghasilkan language model, sedangkan pos model dihasilkan dari bahasa target pada korpus paralel yang setiap katanya sudah ditandai dengan pos
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+data yang salah ataupun kurang tepat dari kumpulan data, table, atau database kemudian menentukan jenis kesalahan apa yang terjadi
+setelah diketahui jenis kesalahan yang terjadi pada data yang salah maka proses berikutnya adalah melakukan penggantian, perbaikan, atau penghapusan data yang salah, hal ini dilakukan untuk meningkatkan kualitas data yang digunakan
+dictionary lookup pencarian secara sederhana untuk melihat apakah input kata yang dimasukkan berada dalam kamus atau daftar kata yang ada
+jika tidak ada maka kata tersebut dianggap sebagai kata yang salah
+metode dictionary lookup merupakan metode yang sering digunakan dalam menentukan non-word error
+telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+ide utama dibalik ini adalah ―semakin dekat terjemahan sebuah mesin dengan terjemahan manusia, maka akan semakin baik
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan tejemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+standar nilai n untuk bleu adalah 4
+berikut adalah rumus yang digunakan dalam perhitungan nilai bleu: keterangan: r = jumlah kata rujukan 𝑃𝑛 = modified precission score 𝑤𝑛 = 1/n gambar
+pembahasan indonesia yang terdiri atas 82.170 baris kalimat dengan komposisi kumpulan berita online sebanyak 42.382 baris kalimat serta kamus besar bahasa indonesia 39.788 baris kalimat
+monolingual korpus ini diolah menjadi daftar kata atau kamus yang terdiri dari 97837 kata unik
+penerapan metode dictionary lookup pada proses cleaning monolingual korpus yang telah diolah menjadi kamus digunakan sebagai dasar perbaikan yang akan dilakukan, sementara korpus orisinal digunakan sebagai korpus yang akan di cleaning
+korpus orisinal yang telah di cleaning, ini nantinya akan disebut dengan korpus clean dic akan digunakan pada proses pengujian
+adapun perbandingan kalimat sebelum dan setelah perbaikan dapat dilihat pada tabel i
+implementasi mesin penerjemah statistik bahasa indonesia – bahasa melayu pontianak pemodelan bahasa oleh srilm dilakukan pada bahasa target dan menghasilkan tabel model bahasa dengan n- gram data
+model bahasa n-gram memiliki nilai probabilitas dalam bahasa target model bahasa dibangun dengan tools srilm
+gambar 2 merupakan tabel model bahasa yang dihasilkan oleh srilm pada mesin penerjemah statistik bahasa indonesia ke bahasa melayu pontianak
+pemodelan bahasa oleh srilm dapat dilihat pada gambar 2
+input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus dan word alignment
+dokumen-dokumen tersebut terdapat dalam folder ―train‖ yang didalamnya terdapat 4 file yaitu ―corpus, giza.id-my, giza.my-id dan model‖
+pemodelan translasi oleh giza++ dapat dilihat pada gambar 3
+gambar 3 merupakan isi dari dokumen vocabulary corpus
+angka 1 sampai 4 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+vocabulary corpus yang dihasilkan mesin penerjemah bahasa bahasa indonesia ke bahasa melayu pontianak terdiri dari 7486 token untuk bahasa indonesia dan 8231 token untuk korpus bahasa melayu pontianak
+dokumen alignment dapat dilihat pada gambar 4
+indonesia ke bahasa meayu pontianak terdapat tiga baris kalimat
+baris pertama berisi letak kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target dan skor alignment 0.000156307
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap tabel i dictionary lookup pada proses cleaning kalimat ke- 2 saya berangkat tadi m alam saya beangkat sadi malam 3 mereka semua belum sayi ap yang ada di pikiran say 1 unk 0 gambar
+kata“paret‖ memiliki makna bahwa kata ―paret‖ pada kalimat bahasa target, di- align ke kata keenam pada kalimat bahasa sumber yaitu ―parit‖
+berbeda, implementasi ini menghasilkan dua mesin penerjemah yang berbeda
+korpus yang pertama adalah korpus paralel bahasa indonesia yang nantinya disebut sebagai korpus orisinal korpus orisinal ini akan digunakan untuk membuat mps 1, korpus orisinal ini kemudian di cleaning
+korpus orisinal yang telah di cleaning ini nantinya akan disebut dengan korpus clean dic dan digunakan untuk membuat mps 2
+pengujian hasil terjemahan mesin translasi pengujian hasil translasi dilakukan dengan cara pengujian otomatis dari mesin penerjemah
+pengujian otomatis dari mesin penerjemah menghasilkan keluaran berupa nilai akurasi yang dihasilkan oleh bleu 
+pada peneltian ini dilakukan dua jenis pengujian otomatis
+pengujian otomatis 1 kalimat uji yaitu kalimat uji orisinal dan kalimat uji clean dic yang masing-masing terdiri dari 9157 baris kalimat, serta kalimat uji manual yang terdiri atas 32 baris kalimat hasil terjemahan ahli bahasa
+hasil pengujian otomatis 1 dapat dilihat pada tabel ii
+dari 3 jenis kalimat uji, kalimat uji orisinal dan manual menunjukkan penurunan nilai bleu masing-masing 7, 07% dan 1, 5%, sementara pada kalimat uji clean dic terjadi peningkatan nilai bleu sebesar 2, 51%
+pengujian otomatis 2 uji yaitu kalimat uji orisinal dan clean dic namun berbeda dengan pengujian otomatis 1, pada pengujian otomatis 2 9157 kalimat yang ada di bagi menjadi 9 segmen yang terdiri atas 1000 kalimat dan segmen ke-9 berisi 1157 kalimat
+hasil pengujian otomatis 2 untuk pengujian dengan kalimat uji orisinal dapat dilihat pada tabel 3 dan gambar 5
+kalimat uji orisinal terjadi penurunan sebesar 6, 82%
+antara mps 1 dan mps 2, dari gambar tersebut terlihat bahwa baris ke 5001-6000 serta baris ke 6001-7000, kedua mps memiliki nilai bleu yang tidak terlalu jauh berbeda, hal ini menunjukkan bahwa hasil terjemahan tabel ii kalimat uji mps1 mps2 selisih manual 26, 61 25, 11 -1, 5 gambar
+dengan kalimat uji clean dic, terlihat bahwa pengujian dengan kalimat uji clean dic terjadi peningkatan nilai bleu sebesar 2, 65%
+dari gambar 6 terlihat pada baris ke 1001-2000 nilai blue mps 1 dan mps 2 berada di titik yang sama, yang berarti terjemahan otomatis mps 1 dan mps 2 menghasilkan kalimat yang sama sehingga menghasilkan nilai akurasi yang sama
+mesin penerjemah statistik dapat diimplementasikan untuk menterjemahkan bahasa indonesia ke bahasa melayu pontianak
+terjadi penurunan nilai akurasi mps dengan kalimat uji yaitu sebesar 1, 5%
+terjadi penurunan nilai akurasi mps dengan kalimat uji yaitu sebesar 6, 94%
+terjadi kenaikan nilai akurasi mps dengan kalimat uji yaitu sebesar 2, 65%
+berdasarkan hasil penelitian, penerapan metode dictionary lookup pada proses cleaning korpus dapat mempengaruhi akurasi terjemahan mps bahasa indonesia ke bahasa melayu pontianak
+pada penelitian ini, penerapan metode dictionary lookup pada proses cleaning mengakibatkan penurunan akurasi mesin penerjemah statistik

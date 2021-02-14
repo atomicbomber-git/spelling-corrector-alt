@@ -1,0 +1,74 @@
+ubmitted 08-11-2018; revised 07-03-2019; accepted 20-03-2019 213 rancang bangun aplikasi appointment dan job progress control board berbasis android khoirun nasikhin#1, novi safriadi#2, anggi perwitasari#3 #program studi informatika universitas tanjungpura jl
+hadari nawawi, bansir laut, pontianak tenggara, kota pontianak, kalimantan barat 78115 1nasikhin.k@gmail.com 2safriadi@informatics.untan.ac.id 3anggiperwitasari@informatics.untan.ac.id pekerjaan memerlukan waktu yang relatif lama dan diperlukan tahapan pekerjaan yang cukup banyak
+untuk mengurangi penumpukan pekerjaan, diperlukan sistem booking atau appointment sebelum hari pengerjaan
+begitu juga untuk memantau pekerjaan diperlukan juga alat job progress control board yang real time dan mudah digunakan
+tujuan yang akan dicapai dalam penelitian ini adalah menghasilkan aplikasi appointment dan job progress control board untuk membantu pengaturan waktu antrian dan waktu pekerjaan
+menggunakan teknologi android yang memudahkan dalam hal penggunaan bisa dimana saja, dan menggunakan teknologi hybrid app untuk memudahkan pembangunan aplikasi memakai teknologi web seperti javascript, html dan css
+pengujian aplikasi dilakukan dengan black box dan pengujian operasional perangkat lunak di pt wahana inti nusa pontianak
+pengujian operasional perangkat lunak dengan teknik user acceptance test mendapatkan hasil sangat baik dengan nilai 62 dari nilai semesta antara 0 – 70
+salah satu tempat pelayanan jasa yang sering terjadi antrian adalah di bengkel resmi perbaikan dan perawatan mobil
+pt wahana inti nusa pontianak adalah salah satu dealer resmi nissan-datsun di kalimantan barat yang melayani penjualan dan perawatan serta perbaikan mobil
+jenis antrian pada bengkel adalah model multi channel multi phase yaitu yang memiliki ciri dua atau lebih individu dapat dilayani pada waktu bersamaan dan memiliki tahapan pelayanan lebih dari satu
+mengerjakan kendaraan maupun terjadi masalah pada pengerjaannya, informasi tidak langsung diketahui oleh konsumen
+khususnya sistem operasi android bisa sangat membantu penggunanya
+dari sisi konsumen yang dapat melakukan booking lebih praktis, dan di sisi bengkel yang dapat membantu proses pekerjaan
+dan job progress control board pada pt wahana inti nusa pontianak untuk membantu pengaturan waktu antrian dan waktu pekerjaan
+tabel i penelitian terkait informasi pemesanan penulis membuat aplikasi pemesanan servis mobil isuzu berbasis web menggunakan 2
+berdiri pada tanggal 26 agustus 2002 yang beralamatkan di jalan a.yani ii no8b kecamatan sungai raya kabupaten kubu raya
+bergabung didalam indomobil group dengan penjualan produk nissan dari pt nissan motor indonesia
+antrian matematika dari antrian atau kejadian garis tunggu, yakni suatu garis tunggu dari pelanggan yang memerlukan layanan dari sistem yang ada
+pejadwalan menentukan kapan dan dimana setiap operasi sebagai bagian dari pekerjaan secara keseluruhan harus dilakukan pada sumber daya yang terbatas
+menggunakan browser window untuk menampilkan antarmukanya
+mobile app yang berisi browser yang terisolasi, biasa disebut webview, untuk menjalankan aplikasi web di dalam aplikasi native
+menggunakan native app wrapper yang dapat berkomunikasi dengan platform perangkat native dan webview
+berarti aplikasi web yang dapat berjalan di perangkat seluler dan memiliki akses ke perangkat, seperti kamera atau fitur gps
+node.js mean adalah singkatan dari mongodb, express, angularjs, dan node.js
+konsep yang diusung adalah hanya menggunakan javascript untuk memenuhi bagian-bagian berbeda pada suatu aplikasi
+dengan menggunakan javascript dikeseluruhannya, dapat mewujudkan pencapaian kinerja yang baik dalam perangkat lunak itu sendiri maupun dalam produktivitas pengembangan
+mongodb adalah database berbasis dokumen, bukan relasionalexpress adalah salah satu modul dari node.js sebagai web framework untuk membangun aplikasi web dibagian server
+angularjs adalah sebuah framework javascript pada sisi client untuk pengembangan aplikasi berbasis web
+dikembangkan secara open-source oleh google dan komunitas programmer dan perusahaan yang berkepentingan untuk membuat aplikasi yang berjalan dalam satu halaman saja
+unified modeling language unified modeling language adalah standarisasi pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+analisis sistem yang sedang berjalan adapun sistem yang sedang berjalan pada pt wahana inti nusa pontianak adalah proses kerja yang berjalan dengan berbagai kendalanya yaitu diantaranya penerimaan booking melalui jaringan telepon yang sangat terbatas
+kendala lain adalah sistem pemantauan pekerjaan yang tidak berjalan dikarenakan kerumitan dalam penggunaannya, padahal sangat diperlukan untuk pengaturan waktu kerja dan informasi cepat kepada pelanggan
+berdasarkan analisis sistem yang sedang berjalan maka diperlukan sistem yang dapat membantu pengguna untuk mendapatkan informasi dan layanan booking lebih cepat dan mudah
+aplikasi yang mendukung kegiatan pengolahan data bengkel yang meliputi pengolahan data booking, data pekerjaan, dan data suber daya pekerja 
+1) konsumen: kebutuhan pengguna untuk konsumen yaitu konsumen dapat memesan waktu servis sebelum datang ke bengkel, dan melihat status pekerjaan dengan mudah
+2) cro: kebutuhan pengguna untuk cro yaitu dapat memasukkan konsumen booking yang tidak menggunakan aplikasi
+3) sa: kebutuhan pengguna untuk sa adalah dapat melihat konsumen yang telah melakukan booking dan menentukan waktu pekerjaan lebih tepat dengan melihat waktu pekerjaan yang telah ada
+menambahkan data pekerjaan yang siap dikerjakan baik yang sudah booking maupun yang tidak booking
+4) foreman: kebutuhan pengguna untuk foreman yaitu dapat melihat jumlah konsumen yang masuk lebih awal sehingga mempermudah koordinasi pekerjaan dengan teknisi
+alokasi pekerjaan dan mengubah status pekerjaan
+perancangan arsitektur sistem membuat aplikasi berbasis web dan android yang dapat diakses dengan jaringan internet berikut perancangan arsitektur sistem pada gambar 1
+use case diagram fungsi/layanan yang disediakan oleh sistem kepada pengguna pada aplikasi appointment dan job progress control board
+activity diagram proses bisnis dan alur kerja
+activity diagram dapat dilihat pada gambar berikut
+sa foremankonsumen skenario untuk rangkaian langkah-langkah yang dilakukan sebagai respon dari sebuah event untuk menghasilkan suatu output tertentu
+class diagram kelas yang ada dalam sistem/perangkat lunak yang akan dirancang
+class diagram dapat dilihat pada gambar berikut
+updateprofil konsumen user-booking karyawan car-detail progress <<enumeration>> estatus pada bab ini akan dilakukan implementasi dan hasil pengujian terhadap aplikasi
+tahapan ini dilakukan setelah perancangan sistem selesai dan selanjutnya akan diimplementasikan kemudian dilakukan pengujian terhadap aplikasi
+dibagi menjadi dua tipe pengguna yaitu konsumen dan karyawan yang mempunyai akses berbeda
+13 antarmuka halaman job progress pada komputer gambar
+14 antarmuka halaman job progress pada android b
+pengujian user acceptance test pengujian ini dilakukan untuk melihat tingkat keberhasilan aplikasi dari pengguna terhadap operasional aplikasi
+pengujian dilakukan dengan dibagikan daftar pertanyaan tentang aplikasi kepada 15 orang responden
+apakah tampilan informasi jadwal pekerjaan disampaikan dengan jelas? 4
+apakah ukuran field isian pada tambah pekerjaan telah sesuai? 5
+apakah ukuran field isian pada tambah data pemilik telah sesuai? 6
+apakah ukuran field isian pada tambah detail kendaraan telah sesuai? 7
+apakah pengguna dapat memahami informasi pada jadwal booking? 8
+apakah pengguna dapat memahami informasi status pekerjaan? 9
+apakah informasi waktu booking dapat disajikan disaat dibutuhkan? 10
+apakah informasi status pekerjaan dapat disajikan disaat dibutuhkan? 11
+apakah respon pada setiap perpindahan halaman lancar? 12
+apakah waktu pekerjaan yang dihasilkan akurat? 14
+apakah status pekerjaan sesuai dengan perubahan pekerjaan oleh teknisi? no pertanyaan 1
+jumlah pertanyaan kuesioner yang diajukan dalam pengujian adalah 14 pertanyaan
+dengan demikian nilai hasil pengujian setiap responden sebagai berikut: 2
+nilai minimal = 14 interpretasi nilai hasil pengujian tersebut yaitu: 1
+14 – 27, 9 aspek dinilai tidak baik dari hasil pengujian aspek perangkat lunak didapat nilai rata-rata sebesar 62 yang diinterpretasikan maka dapat disimpulkan bahwa keseluruhan aplikasi dinilai 62 sangat baik
+kesimpulan dan saran aplikasi appointment dan job progress control board berbasis android, maka dapat disimpulkan sebagai berikut: • hasil perancangan dan pembuatan aplikasi sudah dilakukan dapat membantu pekerjaan pengaturan waktu antrian dan waktu pekerjaan melalui aplikasi appointment dan job progress control board berbasis android
+box dan pengujian operasional perangkat lunak
+berdasarkan pengujian black box telah berjalan fungsinya sesuai dengan kebutuhan fungsional • berdasarkan hasil pengujian operasional perangkat lunak dengan teknik user acceptance test pada aplikasi yang dilakukan kepada 15 orang
+hasil pengujian ini mendapatkan nilai 62 dari nilai semesta antara 0 – 70 yang diinterpretasikan dengan sangat baik adapun hal-hal yang menjadi saran sebagai bahan pertimbangan untuk pengembangan aplikasi agar menjadi lebih baik adalah sebagai berikut: menangani lebih dari satu bengkel dan konsumen dapat memilih bengkel yang terdaftar

@@ -1,0 +1,101 @@
+bahan-bahan yang disusun menjadi kerangka gerak atau dapat berpindah dengan dikendalikan oleh sistem elektronik terstruktur dan terintegrasi menjadi satu kesatuan yang memiliki masukan melalui sensor serta keluaran berupa alat gerak seperti roda, kaki, lengan, dan lain-lain
+para peminat robot dewasa ini semakin meningkat di berbagai kalangan usia
+mereka berlomba merancang robot sederhana dengan berbagai macam kegunaannya seperti robot penyedot debu untuk membantu aktivitas rumah tangga yang dilengkapi omni wheel sebagai pendukung sistem gerak holomonic drive
+beriringan dengan dengan meningkatnya peminat robotika, pengguna smartphone berbasis android juga meningkat dengan cepat bahkan hampir semua kalangan usia berinteraksi dengan smartphone
+sensor accelerometer dan bluetooth merupakan fitur yang dimiliki smartphone berbasis android
+oleh sebab itu, penulis merancang aplikasi mobile berbasis android yang memanfaatkan kedua fitur tersebut untuk dijadikan pengontrol gerak robot omni wheel penyedot debu sehingga memungkinkan robot dikendalikan dengan smartphone berbasis android melalui koneksi nirkabel bluetooth ke segala arah secara mendatar mengikuti perubahan koordinat pada sensor accelerometer
+aplikasi dirancang agar dapat melakukan koneksi antara bluetooth smartphone dengan modul bluetooth hc-05 pada robot omni wheel penyedot debu
+aplikasi mampu memanfaatkan sensor accelerometer sebagai pengontrol gerak robot agar dapat bergerak ke segala arah
+aplikasi perlu dilengkapi mode kontrol manual sebagai pengontrol gerak robot dengan menekan tombol
+pengujian fungsional aplikasi menggunakan metode black box dan uji kompatibilitas dengan memasang aplikasi pada beberapa perangkat android yang beragam
+untuk melakukan pengontrolan gerak robot, smartphone dengan robot sudah harus terhubung melalui koneksi nirkabel bluetooth
+aplikasi dapat mengontrol gerak robot omni wheel penyedot debu ke segala arah secara mendatar dengan mode manual, yaitu mengontrol dengan menggunakan tombol, atau mode accelerometer, yaitu mengontrol dengan memanfaatkan sensor accelerometer pada smartphone
+pendahuluan bahan yang disusun menjadi kerangka gerak atau dapat berpindah dengan dikendalikan oleh sistem elektronik yang terstruktur dan terintegrasi menjadi sebuah satu kesatuan
+robot memiliki berbagai masukan atau keluaran 
+masukan sebuah robot yang sangat umum berupa sensor atau pengindera
+keluaran dari sebuah robot biasanya berupa alat gerak seperti roda, kaki, lengan, dan lain- lain
+mulai banyak diminati oleh berbagai kalangan
+banyak sekolah yang menjadikan robotika sebagai pembelajaran ekstra bagi siswa-siswa baik pada tingkat sd, smp, sma hingga perguruan tinggi
+mereka berlomba untuk merancang robot, mulai dari robot sederhana yang dirancang untuk sekadar kesenangan atau mainan hingga robot kompleks yang dirancang untuk membantu aktivitas sehari-hari manusia dalam rumah tangga seperti robot penyedot debu dan lai-lain
+sistem kontrol yang digunakan pun beragam, mulai dari robot yang dikendalikan secara manual menggunakan komunikasi kabel ataupun nirkabel hingga robot yang dikendalikan secara otomatis
+sistem penggerak robot yang digunakan pun beragam, salah satunya adalah holomonic drive, yaitu sistem gerak pada robot beroda yang memungkinkan robot bergerak ke segala arah secara mendatar
+sistem ini diterapkan pada robot omni wheel, yaitu robot yang menggunakan roda omni sehingga memungkinkan robot bergerak ke segala arah secara mendatar untuk berpindah posisi
+peminat smartphone terutama yang berbasis android semakin hari terus bertambah banyak jumlahnya
+hampir semua kalangan berinteraksi dengan smartphone
+bahkan di indonesia, jumlah pengguna android mengalami pertumbuhan yang sangat pesat, dengan peningkatan sebesar 150% dari tahun 2014 ke 2015
+accelerometer merupakan satu diantara banyak sensor yang ditanamkan pada smartphone berbasis android yang biasa digunakan untuk mengubah orientasi tampilan layar maupun mengatur arah pergerakan pada beberapa permainan dalam ponsel android
+koneksi nirkabel yang umum terdapat pada ponsel android adalah bluetooth
+bagi setiap orang khususnya ibu rumah tangga, aktivitas membersihkan rumah dari kotoran adalah rutinitas yang kadang melelahkan dan memakan waktu
+namun akibat kecanggihan teknologi, aktivitas membersihkan rumah dapat menjadi lebih mudah dan menyenangkan dengan hadirnya alat vacuum cleaner yang saat ini teknologinya terus berkembang hingga hadirnya robot omni wheel penyedot debu
+berdasarkan uraian di atas, penulis membuat suatu aplikasi yang dapat dipasang di smartphone android v4.0 ke atas sebagai pengontrol gerak robot omni wheel penyedot debu yang didesain dapat bergerak ke segala arah secara mendatar
+pengontrolannya melalui koneksi nirkabel bluetooth dengan memanfaatkan sensor accelerometer pada ponsel android atau menggunakan tombol secara manual robot omni wheel penyedot debu yang memiliki diameter 35 cm seperti pada gambar 1 merupakan robot yang dirancang untuk menyedot debu yang berukuran kecil dan menggunakan tiga buah roda omni yang memungkinkan robot rancang bangun aplikasi mobile pengontrol robot penyedot debu berbasis android enry firmana1, rudy dwi nyoto2, novi safriadi3 1program studi s1 teknik informatika universitas tanjungpura 1, 2, 3 kompleks seperti robot beroda pada umumnya serta dilengkapi modul bluetooth tipe hc-05 untuk berkomunikasi dengan perangkat lain
+robot omni wheel penyedot debu sudah diprogram agar siap menerima perintah-perintah berupa karakter yang dikirim dari smartphone melalui koneksi bluetooth
+tabel 1 berikut merupakan keterangan karakter perintah yang mempengaruhi gerak robot
+sensor accelerometer percepatan dynamic dan static
+pengukuran dynamic adalah pengukuran percepatan pada objek bergerak, sedangkan pengukuran static adalah pengukuran terhadap gravitasi bumi untuk mengukur sudut kemiringan 
+prinsip kerja yang digunakan adalah prinsip percepatan 
+contohnya apabila sebuah per dengan beban kemudian dilepaskan, beban bergerak dengan suatu percepatan sampai kondisi tertentu akan berhenti
+bila ada sesuatu yang menggoncangkannya maka beban akan berayun kembali
+pengukuran kapasitansi inilah yang umumnya menjadi hasil pengukuran chip
+agar sensor bisa mendeteksi 3 dimensi, maka dibutuhkan 3 pasang plat yang dipasang tegak lurus antar masing-masing
+maka sensor ini bisa mendeteksi gerak ke berbagai arah dengan sudut tertentu
+pada gambar 2 dapat dilihat bentuk sensor yang terdapat pada smartphone
+bluetooth wireless yang beroperasi pada pita frekuensi 2, 4 ghz unlicensed ism 
+pada dasarnya bluetooth diciptakan bukan hanya untuk menggantikan atau menghilangkan penggunaan kabel didalam melakukan pertukaran informasi, tetapi juga mampu menawarkan fitur yang baik untuk teknologi mobile wireless dengan biaya yang relatif rendah, konsumsi daya yang rendah, kemampuan pertukaran data yang menjanjikan, mudah dalam pengoperasian dan mampu menyediakan layanan yang bermacam-macam
+analisis kebutuhan melakukan diskusi dengan pembuat robot yang juga berperan sebagai pengguna aplikasi
+berdasarkan hasil analisis, aplikasi android yang diperlukan pembuat robot adalah: 3 1
+aplikasi yang mampu melakukan komunikasi dengan robot melalui koneksi bluetooth karena pada robot terdapat modul bluetooth hc-05
+gerak robot sehingga robot dapat bergerak sesuai dengan posisi smartphone tanpa harus menekan tombol 3
+aplikasi juga perlu dilengkapi dengan mode kontrol manual yang berfungsi untuk mengontrol robot dengan menekan tombol pada aplikasi sesuai arah gerak yang diinginkan
+data penelitian diperoleh oleh penulis dari laporan pembuatan robot omni wheel penyedot debu milik pembuat robot tersebut
+data tersebut tersedia dalam bentuk dokumen dengan format .doc 
+pengontrol robot omni wheel penyedot debu
+aplikasi dipasang pada smartphone android untuk mengontrol robot melalui koneksi bluetooth
+untuk mengontrol robot, smartphone harus melakukan pairing terlebih dahulu dengan bluetooth pada robot
+robot omni wheel hanya dapat menerima instruksi dari satu user/smartphone
+arsitektur aplikasi apa saja yang dapat dilakukan oleh user pada aplikasi mobile pengontrol robot omni wheel penyedot debu
+diagram use case aplikasi antarmuka aplikasi debu memiliki struktur antarmuka seperti pada gambar 6
+aplikasi dimulai dengan proses pengecekan perangkat bluetooth di smartphone pada halaman pembuka kemudian otomatis masuk ke menu utama
+hasil dan analisa dibuat dengan mengacu pada hasil rancangan aplikasi agar aplikasi yang dibuat mampu memenuhi kebutuhan dari tujuan penelitian
+eclipse ide for java developers, version: indigo service release 1
+aplikasi ini berbasis android dengan sistem operasi yang direkomendasikan adalah, dibangun dengan menggunakan aplikasi untuk mengendalikan robot omni wheel penyedot debu rancangan ivan suwanda, st melalui smartphone dengan sistem operasi android
+pengkodean aplikasi dimulai dengan membuat project android baru dengan nama 
+mengacu pada gambar 7, pada bagian ini telah diatur sistem operasi minimal perangkat android yang dapat dipasang aplikasi ini yaitu v4.0 dan sistem operasi perangkat android yang digunakan dalam pengujian aplikasi, yaitu v4.4 
+terdapat beberapa kelas yang dibuat dalam format java seperti pada gambar 8
+selain itu terdapat beberapa layout yang dibuat dalam format xml seperti pada gambar 9
+4 pembuatan aplikasi ini, diantaranya melakukan sambungan via bluetooth antara smartphone dengan robot omni wheel penyedot debu dan mengirim karakter perintah gerak dari smartphone ke robot omni wheel penyedot debu
+selain itu juga melakukan akses ke sensor accelerometer pada smartphone agar dapat dimanfaatkan untuk mengirim karakter perintah gerak dalam pengontrolan gerak robot omni wheel penyedot debu
+solusi tiga pokok permasalahan tersebut terdapat dalam kode program 1, kode program 2, dan kode program 3
+penggunaan sensor accelerometer 1 public class sensorkontrobot extends activity implements 2 sensoreventlistener{ 5 super.oncreate ; 6 setcontentview ; 15
+16 }}} sebelum masuk ke halaman menu utama pada gambar 11
+pada gambar 12 digambarkan tampilan halaman kontrol dalam mode accelerometer
+pengujian aplikasi pengujian metode blackbox memperlakukan perangkat lunak yang tidak diketahui kinerja internalnya
+jenis pengujian ini hanya memandang perangkat lunak dari sisi spesifikasi dan kebutuhan yang telah didefinisikan pada saat awal perancangan
+hasil pengujian proses pengontrolan robot dapat dilihat pada tabel 2 yang menampilkan hasil uji aplikasi pada halaman mode kontrol accelerometer dan tabel 3 yang menampilkan hasil uji aplikasi pada halaman mode kontrol manual tabel 2
+hasil pengujian pada halaman mode kontrol acceleromter jenis pengujian hasil yang diharapkan hasil uji menekan tombol pairing smartphone dimiringkan ke smartphone dimiringkan ke smartphone dimiringkan ke ke kiri berhasil menekan tombol vacuum pilihan utama berhasil tabel 3
+hasil pengujian pada halaman mode kontrol manual jenis pengujian hasil yang diharapkan hasil uji menekan tombol pairing robot berhasil menahan tombol maju robot bergerak maju berhasil menahan tombol mundur robot bergerak mundur berhasil menahan tombol kanan robot bergerak ke kanan berhasil menahan tombol maju kiri berhasil ke kiri berhasil menekan tombol vacuum pilihan utama berhasil aplikasi menampilkan keterangan 
+terlihat di gambar 14, karakter perintah ditampilkan di lcd robot beserta nilai kecepatan tiap roda, sehingga robot bergerak maju seperti pada gambar 15
+robot bergerak maju pengujian kompatibilitas aplikasi memasang aplikasi pada sejumlah perangkat berbasis android yang berbeda dari segi merk, tipe, dan versi sistem operasi perangkat
+hasil pengujiannya ditampilkan ke dalam tabel 4
+perangkat android merk perangkat bean) berhasil advan vandroid t5c tablet v4.4 upgraded berhasil oppo joy r1001 smartphone v4.2.1 upgraded berhasil bean) berhasil tidak berhasil bean) berhasil merk perangkat upgraded berhasil upgraded berhasil pengujian jarak jangkauan sinyal bluetooth yang dapat diterima oleh robot omni wheel penyedot debu dengan cara mengontrol gerak robot dalam jangkauan tertentu
+hasil pengujiannya, robot omni wheel penyedot debu masih dapat dikontrol dengan baik pada jarak 23 meter c
+analisis hasil pengujian berikut ini merupakan analisis hasil pengujian aplikasi mobile pengontrol robot omni wheel penyedot debu: a
+pengontrolan robot omni wheel dengan aplikasi ini yang dipasang pada smartphone xiaomi redmi 2 dapat berjalan sesuai dengan rancangan, yaitu smartphone melakukan koneksi dengan robot omni wheel penyedot debu melalui koneksi bluetooth dan mengontrol gerak robot ke delapan arah mata angin yang merupakan representasi gerak ke segala arah secara mendatar dengan memanfaatkan sensor accelerometer maupun dengan cara manual setiap fitur pada aplikasi telah diuji dan berhasil dijalankan aplikasi seperti tertera pada tabel 4.1, 4.2, 4.3, 4.4, dan 4.5
+kompatibilitas aplikasi terhadap sejumlah perangkat berbasis android cukup baik berdasarkan pengujian seperti pada tabel 4.6 dengan memasang aplikasi mobile pengontrol robot omni wheel pada beberapa jenis perangkat berbasis android dengan berbagai merek, tipe, dan versi os android mulai dari v4.0 hingga yang v5.0 
+dari semua perangkat yang dipilih secara acak, aplikasi mobile pengontrol robot omni wheel penyedot debu berhasil ter- install dengan baik
+dari sejumlah perangkat yang dipasang aplikasi ini yang digunakan dalam pengujian kompatibilitas, terdapat perangkat yang belum dapat menjalankan aplikasi sebagaimana mestinya yang berjalan pada xiaomi redmi 2, yaitu pada smartphone sony xperia sola upgraded android v4.0.4 yang sistem operasi versi asli pabriknya adalah v2.3 
+seringkali terjadi masalah ketika melakukan koneksi antara robot omniwheel penyedot debu dengan smartphone xperia sola upgraded v4.0.4
+namun permasalahan ini tidak terjadi pada smartphone redmi 1 s upgraded v4.4.4 yang memiliki os asli v4.3 bahkan aplikasi dapat berfungsi dengan baik seperti pada perangkat lainnya yang masih dengan os versi asli pabriknya
+aplikasi ini bisa diterapkan pada perangkat smartphone dengan os minimal versi 4.0, sehingga pemasangan pada smartphone dengan os versi sebelumnya tidak dapat dilakukan seperti yang terjadi pada smartphone samsung ace 2 dengan os versi 7 dengan os versi 2.3.6 
+modul bluetooth pada robot harus sudah dikenali oleh smartphone sebelum aplikasi melakukan koneksi ke robot untuk melakukan pengontrolan robot melalui aplikasi
+oleh sebab itu, perlu dilakukan pairing pertama kali pada menu di luar aplikasi antara smartphone dengan modul bluetooth pada robot sehingga untuk selanjutnya modul bluetooth pada robot telah dikenali oleh bluetooth smartphone
+pada dasarnya, robot omni wheel dirancang untuk pengontrolan jarak dekat, namun robot masih tetap dapat dikendalikan dalam jarak 23 meter
+kesimpulan dan saran mobile pengontrol robot omni wheel penyedot debu berbasis android, dapat disimpulkan bahwa: 1
+aplikasi ini dapat mengontrol robot penyedot debu yang dilengkapi dengan roda omni dan bluetooth module yaitu robot omni wheel penyedot debu
+aplikasi dapat dijalankan pada perangkat smartphone berbasis android dengan versi di atas v4.0 
+pengontrolan gerak robot ke segala arah dapat dilakukan baik secara manual menggunakan tombol maupun dengan memanfaatkan sensor accelerometer pada smartphone
+koneksi antara smartphone dengan robot dilakukan dengan koneksi nirkabel bluetooth
+pengontrolan robot dapat dilakukan setelah modul bluetooth pada robot dikenali oleh bluetooth pada smartphone yaitu dengan melakukan pairing pada menu ‘setting’ untuk pertama kali
+pengembangan aplikasi ini adalah sebagai berikut: 1
+sebaiknya aplikasi ditambah fitur agar smartphone dapat melakukan pairing pertama kali dengan bluetooth robot melalui aplikasi secara langsung, sehingga tidak perlu melalui pengaturan bluetooth pada smartphone
+aplikasi ini dapat dikembangkan lagi untuk diterapkan metode pengotrolannya pada perangkat lainnya yang menggunakan komunikasi nirkabel bluetooth

@@ -1,0 +1,82 @@
+sistem laporan keuangan akuntansi pada kecamatan pontianak utara masih menggunakan cara manual yaitu pencatatan transaksi menggunakan aplikasi worksheet perhitungan transaksi yang akan dimasukkan kedalam kertas kerja yang telah dikategorikan dalam standar akuntansi pemerintahan, semuanya dilakukan secara manual hal ini menyebabkan perhitungan laporan keuangan akan memakan waktu lama dan rentan terhadap kesalahan perhitungan
+oleh karena itu dibutuhkan sistem informasi laporan keuangan yang sesuai dengan standar akuntantasi pemerintahan untuk memproses pencatatan transaksi secara otomatis dan menghasilkan informasi yang cepat dan tepat
+pembuatan sistem informasi laporan keuangan dimulai dari analisis dan pengamatan terhadap sistem yang saat ini berjalan dikecamatan pontianak utara
+kemudian berdasarkan data-data yang didapat dari wawancara dan laporan keuangan yang ada, dilakukan perancangan sistem informasi laporan keuangan yang sesuai dengan standar akuntansi pemerintahan
+sistem informasi yang dibuat meliputi pencatatan transaksi, data pagu anggaran, neraca saldo dan kertas kerja yang nantinya akan digunakan sebagai acuan laporan keuangan
+aplikasi ini dibuat dengan menggunakan mysql untuk database-nya dan menggunakan borland delphi 7.0 sebagai compiler-nya
+hasil pengujian responden pada sistem yang dibangun dengan menggunakan likert’s summated rating, didapatkan hasil pengukuran dengan skor 457
+berdasarkan skala 360 < skor < 480, skor 457 tersebut mengindikasikan bahwa sistem yang dibangun dinilai cukup berhasil
+1.pendahuluan di era globalisasi seperti sekarang ini, semua pencatatan yang menyangkut laporan keuangan dituntun untuk tepat, cermat dan cepat
+untuk dapat mengambil keputusan yang tepat dan cermat, seorang pengambil keputusan haruslah memiliki informasi yang cukup dan semua data-data yang diperlukan
+tidak tepatnya informasi yang didapat dapat memberikan dampak yang signifikan terhadap keputusan yang akan diambil
+untuk itu, dibutuhkan sebuah sistem informasi yang dapat menghasilkan laporan-laporan keuangan yang sesuai dengan standar akuntansi pemerintahan dengan pp no71 tahun 2010
+akuntansi merupakan suatu proses mencatat, mengklasifikasi, mengolah dan menyajikan data, transaksi serta kejadian yang berhubungan dengan keuangan untuk dapat digunakan bagi siapa saja yang membutuhkannya untuk pengambilan suatu keputusan serta tujuan lainnya
+secara klasik akuntansi merupakan proses pencatatan, pengelompokan, perangkuman dan pelaporan dari kegiatan transaksi perusahaan
+tujuan akhir dari kegiatan akuntansi adalah penerimaan laporan-laporan keuangan
+akuntansi pemerintahan diatur dalam peraturan pemerintah no71 tahun 2010 menggantikan peraturan pemerintah sebelumnya no24 tahun 2005 tentang standar akuntansi pemerintahan
+standar akuntansi pemerintahan adalah prinsip-prinsip akuntansi yang diterapkan dalam menyusun dan menyajikan laporan keuangan pemerintah yang disusun dalam rangka meningkatkan transparansi dan akuntabilitas pengelolaan keuangan negara
+sap berlaku untuk pemerintah pusat dan pemerintah daerah
+sap sendiri terdiri dari, laporan realisasi anggaran, laporan perubahan saldo anggaran lebih, neraca, laporan operasional, laporan arus kas, laporan perubahan ekuitas dan catatan atas laporan keuangan
+satuan kerja perangkat daerah dengan total 6 skpd kecamatan yang ada di kota pontianak yang masing-masing skpd membawahi setidaknya 4-5 unit kerja, sementara pengerjaan laporan keuangan masih dilakukan secara manual untuk skpd kantor kecamatan pontianak utara sendiri memiliki 4 unit kerja diantaranya, kelurahan siantan hulu, kelurahan siantan tengah, kelurahan siantan hilir dan kelurahan batulayang
+namun pada pelaksanaanya, laporan keuangan yang disajikan hanya mencakupi 3 laporan saja yang sesuai dengan standar akuntansi pemerintahan, diantaranya laporan neraca, laporan realisasi anggaran dan laporan perubahan ekuitas, selain itu kesalahan pada laporan keuangan yang telah dilaporkan akan sangat menyulitkan petugas pelaporan keuangan ketika traksaksi keuangan akan kembali diperiksa ulang satu per satu
+dengan sistem informasi laporan keuangan, pengguna dapat menambahkan data transaksi, melakukan pengecekan transaksi dan laporan keuangan dengan fitur pencarian dan pengkategorian yang lebih baik
+sistem ini juga didukung fitur client-server dengan database terintegrasi yang memungkinkan staff kecamatan untuk memeriksa laporan keuangan dari pihak kelurahan dan memberikan koreksi apabila terjadi kesalahan pada laporan keuangan tingkat kelurahan yang kemudian akan disampaikan dalam bentuk notifikasi kepada staff kelurahan
+untuk menghindari akses dari pengguna yang tidak diinginkan, sistem juga dilengkapi dengan sistem keamanan mac authentication untuk menghindari akses dari perangkat yang tidak terdaftar dan sha1 encryption untuk enkripsi kata sandi pengguna
+sistem dapat diartikan sebagai kumpulan dari bagian-bagian yang bekerja sama untuk mencapai tujuan yang sama atau sekumpulan objek-objek yang saling berelasi dan berinteraksi
+landasan teori 2.1 sistem informasi pengertian sistem menurut hanif al fatta, 
+definisi informasi menurut kusrini, “informasi adalah data yang sudah diolah menjadi sebuah bentuk yang berarti bagi pengguna, yang bermanfaat dalam pengambilan keputusan saat ini atau mendukung sumber informasi
+”sehingga sistem informasi dapat diartikan sebagai sekumpulan objek-objek yang saling berhubungan antara satu dan lainnya yang memiliki tujuan dalam pengolahan data untuk menjadi sebuah bentuk yang berarti bagi pengguna
+performance, information, economic, control, efficiency, service
+2.2 metode analisis pieces menurut hanif al fatta, menyatakan bahwa metode yang digunakan untuk melakukan analisis terhadap sistem yang sedang berjalan adalah metode pieces yaitu sebagai berikut :a) performance/ kinerja, merupakan suatu kemampuan sistem daam menyelesaikan tugas dengan cepat sehingga sasaran dapat segera tercapai
+kinerja diukur dengan : 1) throughput, dimana sistem dinilai dari banyaknya kerja yang dilakukan pada beberapa periode waktu
+2) respon time, yaitu delay rata-rata antara transaksi dan respon dari transaksi tersebut
+3) audibilitas, yaitu kecocokan dimana keselarasan terhadap standar dapat diperiksa
+4) kelaziman komunikasi, yaitu tingkat dimana interface standar, protokol, dan bandwith digunakan
+5) kelengkapan, yaitu derajat di mana implementasi penuh dari fungsi yang diharapkan telah tercapai
+6) konsistensi, yaitu penggunaan desain dan teknik dokumentasi yang seragam pada keseluruhan proyek pengembangan perangkat lunak
+7) toleransi kesalahan, yaitu kerusakan yang terjadi pada saat program mengalami kesalahan
+8) generalitas, yaitu luas aplikasi potensial dari komponen program
+b) information, informasi merupakan hal penting karena dengan informasi tersebut pihak manajemen dan pengguna dapat mengambil langkah selanjutnya
+untuk menilai informasi yang dihasilkan dan data yang digunakan, terdiri dari : 1) accuracy, dimana informasi atas hasil evaluasi hendaklah memiliki tingkat ketepatan tinggi
+2) relevansi informasi, dimana informasi yang dihasilkan sesuai dengan kebutuhan
+3) penyajian informasi, dimana informasi disajikan dalam bentuk yang sesuai
+4) fleksibilitas data, dimana informasi mudah disesuaikan dengan kebutuhan 5) kelaziman data, yaitu penggunaan struktur dan tipe data standar pada seluruh program
+6) ekspandibilitas, yaitu tingkat dimana arsitektur, data, atau desain prosedural dapat diperluas
+c) economic/ekonomi, merupakan pemanfaatan biaya yang digunakan dari pemanfaatan informasi
+penilaian ekonmi terdiri dari : 1) reusabilitas, tingkat dimana sebuah program atau bagian dari program tersebut dapat digunakan kembali di dalam aplikasi yang lain
+2) sumber daya, jumlah sumber daya yang digunakan dalam pengembangan sistem, meliputi sumber daya manusia serta sumber daya ekonomi
+d) control/security, analisis ini digunakan untuk membandingkan sistem yang dianalisa berdasarkan pada segi ketepatan waktu, kemudahan akses, dan ketelitian data yang diproses
+penilaian kontrol terdiri dari : 1) integritas, tingkat dimana akses ke perangkat lunak atau data oleh orang yang tidak berhak dapat dikontrol
+2) keamanan, yaitu mekanisme yang mengontrol atau melindungi program dan data
+e) efficiency/efisiensi berhubungan dengan bagaimana sumber tersebut dapat digunakan secara optimal penilaian efisiensi terdiri dari : 1) usabilitas, usaha yang dibutuhkan untuk mempelajari, mengoperasikan, menyiapkan input, dan menginterpretasikan output suatu program 2) maintanabilitas, usaha yang diperlukan untuk mencari dan membetulkan kesalahan pada sebuah program
+f) service/pelayanan merupakan peningkatan pelayanan yang lebih baik bagi manajemen, pengguna dan bagian lain yang merupakan simbol kualitas dari suatu sistem informasi
+penilaian pelayanan terdiri dari : 1) akurasi, yaitu ketelitian komputasi dan kontrol
+2) reliabilitas, tingkat dimana sebuah program dapat dipercaya melakukan fungsi yang diminta
+3) kesederhanaan, yaitu tingkat dimana sebuah program dapat dipahami tanpa kesukaran
+2.3 client server client server merujuk kepada cara untuk mendistribusikan aplikasi kedalam dua pihak atau lebih, pihak klien dan pihak server
+server adalah komputer database yang berada di pusat, dimana informasinya dapat digunakan bersama-sama oleh beberapa user yang menjalankan aplikasi di dalam komputer lokalnya yang disebut dengan client
+dalam model klien/server, sebuah aplikasi dibagi menjadi dua bagian yang terpisah, tapi masih merupakan sebuah kesatuan, yakni komponen klien dan komponen server definisi client server menurut budhi irawan, 
+sumber daya dan keamanan data dikontrol melalui server
+jaringan beasr membutuhkan seorang staff untuk mengatur agar sistem berjalan secara efisien
+kelebihan model hubungan client server adalah : a) terpusat b) skalabilitas c) fleksibel d) teknologi baru dengan mudah terintegrasi kedalam sistem e) keseluruhan komponen dapat bekerja bersama kekurangan model hubungan client server adalah: a) mahal b) membutuhkan investasi untuk dedicated file server c) perbaikan d) berketergantungan e) ketika server jatuh, mengakibatkan keseluruhan operasi pada network akan jatuh pula file server 3
+perancangan sistem 3.1 arsitektur sistem perancangan sistem ini berbasis client-server, dimana komputer klien akan dibangun sebuah aplikasi desktop yang akan digunakan untuk proses pemasukan data laporan keuangan
+rancangan arsitektur sistem informasi laporan keuangan dapat dilihat pada gambar 2
+hasil perancangan form login dapat diakses oleh dua level pengguna yaitu admin kecamatan dan admin kelurahan
+pengguna yang telah terdaftar sebelumnya diharuskan untuk melakukan verifikasi pengguna terlebih dahulu sebelum dapat menjalankan semua fungsi aplikasi
+apabila login berhasil, maka pengguna dapat mengakses aplikasi sesuai dengan hak akses yang telah diberikan
+antarmuka hasil perancangan form login dapat dilihat pada gambar 3 gambar 3 antarmuka form login halaman utama tingkat kecamatan memiliki akses terhadap semua fungsi yang ada pada aplikasi
+antarmuka hasil perancangan halaman utama admin dapat dilihat pada gambar 4 berikut
+gambar 4 antarmuka halaman utama admin kecamatan 4.1 halaman sub menu transaksi pada menu ini, admin dapat menambahkan data transaksi yang terjadi selama periode aktif
+admin juga dapat melihat transaksi yang telah dilakukan
+berikut adalah antarmuka hasil perancangan halaman menu transaksi, dapat dilihat pada gambar 5 berikut, gambar 5 antarmuka halaman sub menu transaksi selanjutnya untuk melakukan penambahan data transaksi, admin menentukan terlebih dahulu jenis transaksi berupa penerimaan maupun pengeluaran, dilanjutkan dengan pemilihan program, kegiatan dan kode rekening transaksi berupa akun, subakun, jenis, objek, rincian objek dan nominal transaksi
+admin juga menentukan data buku besar dari sisi debet dan data buku besar kredit untuk menyetarakan total neraca saldo
+berikut adalah antarmuka dari penambahan data transaksi : gambar 6 antarmuka penambahan data transaksi 4.2 halaman sub menu data pagu anggaran pada sub menu data pagu anggaran, admin memasukkan data pagu anggaran untuk periode aktif berikutnya yang akan dijadikan sebagai acuan data pada laporan keuangan periode lalu dan periode aktif
+berikut adalah antarmuka hasil perancangan halaman sub menu data pagu anggaran, dapat dilihat pada gambar 7 gambar 7 antarmuka halaman sub menu data pagu anggaran 4.3 halaman sub menu kertas kerja pada sub menu kertas kerja, admin dapat melihat dan mencetak data kertas kerja dalam periode aktif, melihat buku besar berdasarkan rincian objek pada kertas kerja, melihat dan mengisi data penyesuaian pada kertas kerja dan menutup kertas kerja periode aktif
+pengisian data kertas kerja pertama diambil dari neraca saldo awal yang telah dibuat sebelumnya, dan pengisian data kertas kerja berikutnya akan menggunakan kertas kerja periode aktif saat ini
+kertas kerja juga mempengaruhi semua laporan keuangan yang ada, diantaranya : neraca, laporan realisasi anggaran, laporan operasional dan laporan ekuitas dimana data dari setiap laporan tersebut mengambil data dari kertas kerja
+berikut adalah antarmuka hasil perancangan halaman sub menu kertas kerja dapat dilihat pada gambar 8 gambar 8 antarmuka halaman sub menu kertas kerja 5 kesimpulan berdasarkan hasil analisis dan pengujian terhadap rancang bangun sistem informasi laporan keuangan kecamatan pontianak utara sesuai dengan standar akuntansi pemerintahan berbasis client-server maka dapat disimpulkan bahwa: 1
+sistem informasi yang dirancang dapat berjalan dengan baik pada jaringan client-server dan mampu menghasilkan laporan keuangan sesuai dengan standar akuntansi pemerintahan
+sistem keamanan pada aplikasi berjalan seperti yang diinginkan dan mampu menolak akses dari pengguna ataupun akses dari luar komputer yang tidak terdaftar
+laporan keuangan yang dibuat meliputi laporan operasional, laporan perubahan ekuitas, laporan neraca dan laporan realisasi anggaran
+hasil pengujian responden pada \sistem yang dibangun, dengan menggunakan metode likert’s summated rating, didapatkan hasil pengukuran dengan skor
+berdasarkan skala 330 < skor < 480, skor 457 tersebut mengindikasikan sistem yang dibangun dinilai berhasil

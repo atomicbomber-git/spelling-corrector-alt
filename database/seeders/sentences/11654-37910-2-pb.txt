@@ -1,0 +1,66 @@
+sistem penjadwalan akademik pada stmik atma luhur pangkal pinang terdapat beberapa kendala disaat melakukan penyusunan jadwal akademik perkuliahan
+pertama sulit mengatur waktu, tempat serta matakuliah agar tidak terjadi duplikat matakuliah pada waktu dan tempat yang sama
+kedua sulit mengatur jadwal dosen yang mengajar agar dosen yang mengajar tidak mengajar dua matakuliah yang berbeda pada waktu yang bersamaan, dan masih banyak kendala lain yang begitu rumit dalam mengatur jadwal akademik perkuliahan serta membutuhkan waktu yang cukup lama untuk mengatur jadwal akademik perkuliahan
+tujuan penelitian ini untuk memberikan sebuah perancangan sistem penjadwalan akademik pada stmik atma luhur pangkal pinang dengan optimal rancangan sistem ini menerapkan max min ant system, algoritma yang bersifat heuristik untuk menyelesaikan masalah optimasi
+rancangan ini untuk menghasilkan penjadwalan yang dapat di optimasi dengan waktu yang efektif dan tidak terjadinya bentrok antar matakuliah setiap sesi dan kelompok
+pendahuluan yang semakin pesat perkembangan teknolgi
+teknologi yang digunakan upaya dapat mempermudah pengguna dalam menggunakannya
+berbagai macam teknologi yang ditawarkan oleh banyak perusahaan di dunia teknologi
+tawaran-tawaran tersebut merambah kesegala aspek baik di dalam lingkungan bermasyarakat, perusahaan serta lembaga pendidikan
+teknologi yang berpengaruh di berbagai lembaga pendidikan, mulai dari pendidikan kursus hingga perguruan tinggi
+salah satu perguruan tinggi yaitu pada sekolah tinggi manajemen informatika dan komputer atma luhur pangkal pinang
+satunya perguruan tinggi ilmu komputer di pulau bangka saat ini
+stmik atma luhur pangkal pinang terdapat tiga program studi yaitu manajemen informatika, sistem informasi dan tehnik informatika 
+pada akademik perkuliahan di stmik atma luhur pangkal pinang terdapat jadwal kuliah yang mengatur jadwal mahasiswa dalam proses belajar mengajar
+penjadwalan perkuliahan di atur dengan ketelitian agar tidak terjadi kesamaan tempat dan waktu yang sama dalam proses belajar mengajar
+pertama sulit mengatur waktu, tempat serta matakuliah agar tidak terjadi duplikat matakuliah pada waktu dan tempat yang sama
+kedua sulit mengatur jadwal dosen yang mengajar agar dosen yang mengajar tidak mengajar dua matakuliah yang berbeda pada waktu yang bersamaan, dan masih banyak kendala lain yang begitu rumit dalam mengatur jadwal akademik perkuliahan serta membutuhkan waktu yang cukup lama untuk mengatur jadwal akademik perkuliahan
+perkuliahan dengan menggunakan sebuah metode yang penggunaannya efektif, efisien serta mempermudah pengguna dalam menyusun jadwal akademik perkuliahan pada stmik atma luhur pangkal pinang
+metode yang digunakan dalam rancangan sistem penjadwalan akademik ini yaitu menggunakan metode algoritma max min ant system
+ant colony algorithms merupakan algorima yang bersifat heuristik untuk menyelesaikan masalah optimasi
+ant colony algorithms ini meniru tingkah laku semut ketika mereka berada dalam sebuah koloni untuk mencari sebuah sumber makanan, yuwono
+uraian penelitian yang dikenal sebagai sistem ant, dorigo
+ant colony algorithms dalam menemukan makanan dengan cara berkeliaran dan secara acak
+terutama kehidupan dari beberapa spesies ant adalah trial feromon
+trial feromon digunakan untuk menandai jalan di lapangan misalnya jalur dari sumber makanan ke sarang
+ant dapat mengikuti jalur ke makanan yang dapat ditemukan ant lain dengan merasakan feromon yang ditinggalkan ant yang lain
+banyaknya ant yang menempuh perjalanan pada jalur, itu menentukan kekuatan trial feromon
+setiap jalur yang dilintasi ant akan meninggalkan feromon
+feromon ini akan membantu ant lain untuk mengikuti jalur tersebut
+ketika ant telah menempuh jalur dari sarang ke makanan secara acak
+jejak feromon yang ditinggalkannya akan lebih peka di rasakan oleh ant dan jejak feromon yang ditinggalkan ant pada jalur lain mengalami penguapan karena ant yang melalui jalur lain lebih sedikit dari pada jalur pendek
+algorithms yang berasal dari riil ant: 1) ant-ant mempunyai suatu pilihan probabilistic atau kemungkinan untuk memilih suatu lintasan atau alur dengan nilai pheromone yang tinggi
+2) alur yang lebih pendek cenderung untuk suatu tingkat pertumbuhan nilai pheromone yang lebih tinggi
+dengan menggunakan suatu sistem komunikasi tak langsung melalui phromonea edge, eva yustina
+tingkah laku ant dapat dilihat gambar di bawah ini
+cara kerja ant dari gambar 1 di atas dapat dijelaskan memiliki beberapa cabang
+cabang pertama dengan jalur pendek dan cabang kedua jalur yang panjang
+dari gambar 1.a ant dibiarkan secara bebas bergerak antara sarang dan sumber makanannya, saat ant mencari makanan memiliki jalur terpisah
+dari gambar 1.b sebagian ant memilih cabang pendek dan sebagiannya lagi memilih cabang panjang
+mereka kembali pada koloni dan menentukan jalur mana yang akan dipilih untuk ketempat makanannya
+ant memilih jalur pendek, karena tingkat feromon yang ditinggalkan pada cabang pendek lebih tinggi dari pada cabang panjang
+feromon mulai mengakumulasi lebih cepat pada cabang pendek, antonio fernandez, dkk
+ant colony algorithms menggunakan max min ant system 
+algoritma umum ant colony algorithms masukan data permasalahan pheromone e pada saat t, p adalah derajat penguapan pheromone
+alir diagram pertama flowchart algoritma mmas secara global, flowchart bentuk node graf, telusuri graf
+1) flowchart max min ant system diagram max min ant system secara global start end c
+deskripsi masalah hard constraint in stmik atma luhur pangkal pinang: 1
+dosen mengajar sesuai dengan kelompok yang dibagikan 2
+dosen tidak dapat mengajar dari satu kelas dalam waktu yang sama waktu yang sama dalam waktu yang sama 5
+kelompok yang berbeda tidak dapat mengikuti satu kelas pada waktu yang sama tersebut tidak dapat di langgar
+jadwal yang baik yaitu jadwal yang tidak terjadi bentrok antar komponen yang dijadwalkan
+soft constraint pada rancangan jadwal kuliah yaitu penempatan jadwal untuk kelompok, matakuliah dan waktu yang telah dipesan mahasiswa disesuaikan dengan kuota kelas yang disediakan
+menentukan slot waktu yang didapatkan dari sesi dan hari
+time slot = 7 sesion x 5 days = 35 time slot d
+p = 0, 3 sehingga didapatkan pembuatan node graf
+dihasilkan sama dengan pheromone t1 o o o o o o … o t2 o o o o o o … o t3 o o o o o o … o t4 o o o o o o … o t5 o o o o o o … o t6 o o o o o o … o t7 o o o o o o … o t8 o o o o o o … o … o o o o o o … o t35 o o o o o o … o gambar 3
+node graf dari gambar 3, total node t x e = 11.025 node, sehingga pheromone = sebanyak node
+activity diagram dari gambar 4 menjelaskan bahwa data stmik untuk di susun dalam penjadwalan perkuliahan maka akan di lakukan value mmas dimana membuat node graf dan ant membuat jalan random untuk mencari hard constrain, jika terdapat hard constrain maka ant akan meninggalkan jejak pheromone, sehingga ant menemukan jejak yang terbaik sehingga terbentuk jadwal tanpa adanya hard constrain
+rancangan bangkit ant gambar 6 merupakan rancangan bangkit ant yang mempunyai nilai parameter ant yang akan di input yaitu alfa, betha, max siklus dan rho
+alfa merupakan nilai derajat kepentingan antara node yang terdekat
+max siklus merupakan nilai siklus yang akan di capai
+alfa = 0.9, betha = 0.09, max siklus = 1000 dan rho = 0.1
+setelah itu akan di proses penjadwalan dengan ant seperti di gambar 4
+rancangan cetak jadwal gambar 7 merupakan rancangan cetak jadwal akademik perkuliahan
+kesimpulan/ringkasan rancangan penjadwalan dengan penerapan mmas dapat disimpulkan
+penyusunan jadwal akademik stmik atma luhur pangkalpinang

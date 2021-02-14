@@ -1,0 +1,12 @@
+eee paper template in a4 vol 4 no 2 desember 2018 submitted 23 mei 2018; revised 20 desember 2018; accepted 20 desember 2018 179 implementasi aplikasi alumni #stmik atma luhur pangkalpinang 21311500025@mahasiswa.atmaluhur.ac.id menyelesaikan suatu pendidikan atau yang telah lulus dari sebuah sekolah maupun perguruan tinggi
+dalam suatu perguruan tinggi, alumni memiliki peran yang sangat penting dalam meningkatkan sistem pendidikan, karena pengalaman yang telah mereka dapatkan dapat memberikan masukan serta gagasan baru bagi pembenahan suatu institusi
+saat ini, proses mencari atau menemukan alumni bukanlah suatu hal yang mudah, khususnya mereka alumni angkatan lama, dikarenakan pada waktu mereka lulus belum ada suatu media yang dapat menghubungkan komunikasi sesama alumni, sehingga mengakibatkan komunikasi antara lamuni menjadi terputus
+untuk menangani masalah tersebut, maka dibutuhkan suatu aplikasi yang dapat memberikan informasi serta menjalin hubungan diantara alumni
+aplikasi alumni dibangun dengan menggunakan mobile android
+dengan adanya aplikasi alumni, maka para alumni dapat menjalin hubungan diantara alumni dan dapat saling memberkan informasi
+keberadaan alumni sangatlah berpengaruh pada peningkatan kualitas dari suatu instansi
+ketika alumni bekerja disuatu perusahaan alumni akan membawa nama baik dari sekolah atau unversitas alumni berasal selain itu alumni juga dapat membantu almamater mereka dengan memberikan masukan yang bermanfaat atau dengan memberikan informasi lowongan pekerjaan
+proses mencari atau menemukan alumni bukanlah suatu hal yang mudah, khususnya mereka alumni angkatan lama, dikarenakan pada waktu mereka lulus belum ada suatu media yang dapat menghubungkan komunikasi sesama alumni, sehingga mengakibatkan komunikasi antara lamuni menjadi terputus
+untuk menangani masalah tersebut, maka dibutuhkan suatu aplikasi yang dapat memberikan informasi serta menjalin hubungan diantara alumni
+aplikasi alumni dibangun dengan menggunakan mobile android
+dengan adanya aplikasi alumni berbasis mobile, maka para alumni dapat menjalin hubungan diantara alumni dan dapat saling memberkan informasi

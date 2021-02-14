@@ -1,0 +1,18 @@
+ilayah kalimantan barat berbasis web surya mukti surya8mukti@gmail.com ticket sales and rentals
+the system is made to the customer in finding a taxi ticket or hire a taxi to travel to the destination and also made for a taxi company in marketing the ticket the system is constructed by applying the technique of responsive web design so that the display can adjust the size of the cotton area of the browser used by the user
+the approach used in the study is a structured approach that uses several tools and construction techniques, such as flowcharts, data flow diagrams, database design and interface design system
+testing the system using black box method
+the results of the rental application and e-ticketing taxi west kalimantan can help customers in search of tickets and help taxi companies in the ticket as well as a media marketing campaign of the company
+pendahuluan menurut ng-kruelle dan swatman, e-ticketing adalah suatu cara untuk mendokumentasikan proses penjualan dari mengeluarkan dokumen berharga secara sebuah metode perdagangan, pembelian, jasa khususnya jasa perjalanan melalui media internet dan komputer
+e-ticketing mengurangi biaya proses tiket, menghilangkan fomulir kertas dan meningkatkan fleksibilitas penumpang dan agen perjalanan dalam membuat menggunakan mobil untuk mengangkut sedan, namun di beberapa mengangkut lebih banyak penumpang atau muatan
+istilah juga dapat merujuk kepada angkutan umum lain selain mobil yang mengangkut penumpang dalam selama ini media pemesanan tiket dari pelanggan taksi adalah dengan perusahaan tempat taksi berada
+website ini dibangun tidak hanya sebagai media informasi saja tetapi sebagai media pemesanan tiket pada website ini pelanggan dapat melihat secara keseluruhan tentang jadwal keberangkatan taksi dan langsung melakukan pemesanan secara online
+pembayaran dilakukan dengan deposit ini sendiri digunakan sebagai pencegahan agar pelanggan tidak dapat membatalkan pemesanan tiket secara tiba- tiba
+indonesia mempunyai arti tersendiri, adalah suatu dokumen perjalanan yang dikeluarkan oleh suatu perusahaan yang yang digunakan untuk melakukan suatu perjalanan
+sedangkan electronic menurut pengiriman yang di mediasi oleh teknologi informasi
+layanan elektronik tersebut pelanggan, dan pelayanan
+dicetuskan pertama kali oleh o’reilly media pada tahun 2003, dan dipopulerkan pada konferensi web 2.0 pertama di tahun 2004, merujuk pada generasi yang dirasakan sebagai generasi kedua layanan berbasis web seperti situs jaringan sosial, wiki, perangkat komunikasi, dan folksonomi yang berbagi antar pengguna
+o’reilly media, dengan kolaborasinya bersama medialive, adalah bahasa untuk merepresentasikan dokumen dalam sebuah p13), html adalah suatu bahasa yang dikenali oleh web browser untuk menampilkan informasi dengan lebih biasa 
+sedangkan web browser adalah program komputer yang digunakan untuk membaca html, kemudian menterjemahkan dan menampilkan hasilnya 2.4 php menurut agus saputra php atau yang memiliki kepanjangan hypertext preprocessor merupakan suatu bahasa pemrograman yang difungsikan dari kerangka layout web, sedangkan php difungsikan sebagai prosesnya sehingga sangat mudah dimaintenance
+digunakan dalam kode html untuk menciptakan suatu kumpulan style yang terkadang dapat digunakan untuk memperluas kemampuan html, sebagai memungkinkan untuk untuk mengatur dan bahkan tag <basefont> pun tak berpengaruh pada sel-sel tabel
+css menggunakan kode-kode yang tersusun html atau dapat juga digunakan membuat style baru yang biasa disebut class

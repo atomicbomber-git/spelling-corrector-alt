@@ -1,0 +1,98 @@
+eee paper template in a4 vol 4 no 2 pengunaan pivot language pada mesin penerjemah statistik bahasa inggris ke bahasa melayu sambas della widya ningtyas#1, herry sujaini #2, novi safriadi#3 #program studi informatika universitas tanjungpura jalan prof
+hadari nawawi, pontianak, kalimantan barat 1dellawidyaningtyas@gmail.com 2hs@untan.ac.id 3safriadi@informatics.untan.ac.id informasi, salah satu cara untuk menanggulanginya adalah dengan memanfaatkan teknologi mesin penerjemah
+saat ini masih sulit menemukan korpus paralel bahasa inggris – bahasa daerah, sehingga digunakan bahasa indonesia sebagai bahasa perantara untuk mempermudah dalam pembuatan korpus paralel bahasa inggris – bahasa daerah
+tujuan dari penelitian ini adalah untuk mengetahui pengaruh pivot language terhadap nilai akurasi mesin penerjemah statistik bahasa inggris ke bahasa melayu sambas
+penelitian menggunakan korpus paralel sebanyak 3000 baris kalimat
+pengujian dilakukan dengan dua cara yaitu pengujian secara otomatis menggunakan bleu 
+pengujian dilakukan dengan membandingkan nilai akurasi terjemahan dari mesin penerjemah bahasa inggris – melayu sambas dan mesin penerjemah bahasa inggris – melayu sambas dengan bahasa indonesia sebagai pivot language
+dari hasil pengujian yang telah dilakukan, penggunaan pivot language pada mesin penerjemah statistik bahasa inggris - bahasa melayu sambas dapat mempengaruhi akurasi terjemahan, terlihat terjadi peningkatan nilai akurasi sebesar 5, 015% dari nilai pengujian semula yang didapatkan dari mesin penerjemah tanpa pivot dengan metode bleu
+berdasarkan data tersebut penggunaan pivot language pada mesin penerjemah statistik bahasa inggris – bahasa melayu sambas dapat meningkatkan nilai akurasi terjemahan
+pendahuluan seseorang untuk menyampaikan ide, gagasan, konsep atau perasaan kepada orang lain
+ragam bahasa yang dimiliki setiap orang berbeda, hal ini yang terkadang menghalangi pertukaran informasi karena orang lain tidak memahami maksud dan tujuan yang ingin disampaikan
+sebagai salah satu bahasa daerah yang ada di kalimantan barat, bahasa melayu sambas adalah bahasa melayu yang dituturkan oleh masyarakat asli kabupaten sambas
+bahasa melayu sambas sendiri sampai saat ini memang jauh dari kepunahan, dikarenakan penutur bahasa ini relatif masih banyak walaupun tidak diketahui secara pasti berapa penutur bahasa melayu sambas
+perbedaan bahasa dapat menjadi penghalang pertukaran informasi, maka saat ini sedang dikembangkan teknologi mesin penerjemah
+telah banyak dilakukan penelitian mengenai pengembangan mesin penerjemah statistik bahasa inggris ke bahasa indonesia dan bahasa indonesia ke bahasa daerah sehingga sudah banyak tersedia korpus paralel bahasa inggris – bahasa indonesia dan korpus paralel bahasa indonesia – bahasa daerah
+namun saat ini masih sulit menemukan korpus paralel bahasa inggris – bahasa daerah, sehingga digunakan bahasa indonesia sebagai bahasa perantara untuk mempermudah dalam memperoleh korpus paralel bahasa inggris – bahasa daerah
+terdapat beberapa penelitian yang dilakukan berkaitan dengan pivot language, diantaranya penelitian tentang perbandingan metode pivot untuk mesin penerjemah statistic berbasis frasa, penelitian tentang penggunaan bahasa inggris sebagai pivot language pada mesin penerjemah statistik bahasa arab - cina, penelitian tentang pentingnya pemilihan pivot language untuk mesin penerjemah statistik dengan meneliti bahasa selain bahasa inggris sebagai pivot language, penelitian tentang menggunakan pivot language dalam mesin penerjemah statistik bahasa cina – spanyol dengan bahasa inggris, bahasa arab dan bahasa prancis sebagai pivot language, dan penelitian tentang pendekatan pivot untuk memisahkan pola parafrase dari korpus bilingual
+dilakukan penelitian dengan mengimplementasikan pivot language pada mesin penerjemah statistik bahasa inggris ke bahasa melayu sambas, dimana bahasa indonesia digunakan sebagai pivot language
+selanjutnya dilakukan uji akurasi penerjemahan untuk mengetahui seberapa korespondensi : della widya ningtyas 174 besar pengaruh dari penggunaan bahasa indonesia sebagai pivot language terhadap hasil terjemahan
+berikut merupakan komponen yang digunakan dalam pembangunan sistem ini
+machine translation adalah suatu paradigma dari mesin penerjemah dimana penerjemahan dilakukan berbasis model statistik dengan parameter-parameter yang diturunkan dari analisis paralel korpus
+ada beberapa pendekatan untuk machine translation seperti pendekatan dengan menggunakan aturan, pendekatan dengan menggunakan contoh (example-based machine penerjemah statistik, terdapat 3 komponen yang terlibat dalam proses penerjemahan dari satu bahasa ke bahasa lain yaitu: language model, translation model, dan decoder
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa target saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa target
+sumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus 
+proses training terhadap korpus paralel menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada korpus paralel ditambah dengan monolingual korpus bahasa target menggunakan srilm menghasilkan language model, sedangkan pos model dihasilkan dari bahasa target pada korpus paralel yang setiap katanya sudah ditandai dengan pos
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+tokenizing input berdasarkan tiap kata yang menyusunnya
+pivot language language digunakan sebagai bahasa perantara terjemahan antara bahasa yang berbeda
+untuk menerjemahkan antara setiap pasangan bahasa a dan b, salah satu diterjemahkan a ke bahasa pivot p, selanjutnya dari p ke b
+bilingual evaluation understudy bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+ide utama dibalik ini adalah “semakin dekat terjemahan sebuah mesin dengan terjemahan manusia, maka akan semakin baik
+standar nilai n untuk bleu adalah 4
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan tejemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty: bleu keterangan: r = jumlah kata rujukan 𝑃𝑛 = modified precission score 𝑤𝑛 = 1/n 𝑝𝑛 = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n-gram hasil terjemahan ii
+pembahasan dua bahasa yaitu bahasa indonesia dan bahasa inggris dari website www.berita2bahasa.com
+bahasa melayu sambas diambil dari data bahasa indonesia yang diterjemahkan ke bahasa melayu sambas
+data-data yang diperoleh tersebut selanjutnya diolah menjadi korpus teks paralel bahasa gambar
+jumlah korpus paralel yaitu 3000 pasang kalimat
+perancangan mesin penerjemah statistik perancangan mesin penerjemah statistik yang akan dibuat dapat ditunjukkan pada gambar 3 dan gambar 4
+bahasa inggris bahasa melayu sambas pivot language statistik yang akan dibuat
+tahap pertama akan dibuat mesin translasi bahasa inggris ke bahasa melayu sambas seperti yang ditunjukkan pada gambar 3
+tahap kedua menggunakan bahasa indonesia sebagai pivot language akan dibuat dua mesin yaitu mesin translasi bahasa inggris ke bahasa indonesia dan mesin translasi bahasa indonesia ke bahasa melayu sambas seperti yang ditunjukkan pada gambar 4
+percobaan diambil 1 buah fold untuk testing dan 4 buah fold sisanya untuk training
+dengan kata lain, dari 3000 kalimat korpus paralel dibagi menjadi 600 kalimat untuk testing dan 2400 kalimat untuk training seperti yang terlihat pada tabel 2
+sehingga untuk sebuah data set korpus paralel dilakukan 5 kali percobaan dan dari hasil kelima percobaan tersebut diambil nilai rata-ratanya
+implementasi mesin penerjemah statistik bahasa inggris ke bahasa melayu sambas model bahasa digunakan sebagai sumber pengetahuan berbasis teks dengan nilai-nilai probabilistik
+penelitian ini menggunakan n-gram sebagai language model
+model bahasa dibangun dengan tool open source srilm
+berdasarkan gambar 5 model bahasa menghasilkan n- gram data yang terdiri dari n gram 1, n gram 2, n gram 3
+unigram mempunyai data satu token, bigram mempunyai data dua token dan trigram mempunyai data tiga token dan masing-masing data dari n gram disertakan nilai probabilitasnya
+model translasi digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tool open source giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus dan word alignment
+corpus, giza inggris-melayu sambas, giza melayu sambas-inggris dan model
+dokumen-dokumen tersebut terdapat 4 file yaitu 
+pemodelan translasi oleh giza++ dapat dilihat pada gambar 6 dan gambar 7
+angka 1 sampai 5 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+vocabulary corpus yang dihasilkan mesin penerjemah bahasa inggris-bahasa melayu sambas terdiri dari 9369 token untuk korpus bahasa inggris dan 10522 \data\ \3-grams: -1.248756 banyak urang kasal -0.9383614 banyak urang yang gambar
+5 model bahasa dengan bahasa melayu sambas sebagai bahasa target mesin testing training 1 unk 0 2 the 3637 5 to 1624 gambar
+6 dokumen vocabulary corpus bahasa inggris 1 unk 0 3 dan 1411 4 di 1366 5 yang 1258 gambar
+dokumen alignment dapat dilihat pada gambar 8
+dokumen alignment terdapat tiga baris kalimat
+baris pertama berisi letak kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target dan nilai alignment 
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap kalimat bahasa sumber
+berdasarkan gambar tersebut kalimat bahasa target di-align ke kalimat bahasa sumber
+makna kata ”penumpang” pada kalimat bahasa target, di- align ke kata kelima bahasa sumber yaitu 
+pengujian hasil terjemahan dengan dua tahap
+tahap pertama merupakan mesin penerjemah statistik bahasa inggris ke bahasa melayu sambas
+tahap kedua merupakan mesin penerjemah menggunakan bahasa indonesia sebagai pivot language
+pada tahap kedua ini dibangun dua mesin yaitu mesin penerjemah statistik bahasa inggris ke bahasa indonesia dan mesin penerjemah statistik bahasa indonesia ke bahasa melayu sambas
+selanjutnya adalah mendapatkan nilai bleu dari output dengan cara membandingkan output tersebut dengan korpus bahasa target yang telah dibuat sebelumnya
+hasil pengujian terjemahan otomatis dapat dilihat pada tabel 3
+berdasarkan tabel 3 diperoleh nilai bleu pada mesin penerjemah statistik bahasa inggris-bahasa melayu sambas dengan nilai rata-rata 19, 858%
+nilai rata-rata bleu pada mesin penerjemah statistik bahasa inggris- bahasa melayu sambas dengan pivot language adalah 20, 854%
+terjemahan seluruh kalimat uji pada mesin penerjemah statistik bahasa inggris – bahasa melayu sambas mengalami peningkatan nilai bleu sebesar 5, 015%
+kalimat masukan : among the dead were two teenage girls a) di antare yang tewas adalah duak remaja perempuan b) para tewas ade di antare duak teenage perempuan c) 12, 98% d) di antare korban tewas adalah duak teenage perempuan e) 88, 25% 2
+kalimat masukan : president jokowi at the end of september 2015 has reviewed 500 hectares of planting land in karawang regency, west java a) presiden jokowi pade akhir september 2015 telah meninjau lahan uji coba tanam seluas 500 hektar di kabupaten karawang, jawa barat b) presiden jokowi pade akher september 2015 udah reviewed 500 hektar kabon tanam di karawang regency, jawa barat c) 79, 38% d) presiden jokowi pade akher september 2015 udah reviewed 500 hektar tanam lahan di kabupaten karawang, jawa barat e) 81, 64% 3
+kalimat masukan : this surplus condition that makes indonesia not import onion in 2016, said amran sulaiman a) keadaan surplus itok yang muat indonesia daan mengimpor bawang merah pade 2016, nye amran sulaiman b) itok surplus condition yang muat indonesia daan impor bawang merah pade 2016, jinye amran sulaiman c) 90, 76% d) itok surplus kondisi yang muat indonesia daan impor bawang merah pade 2016, jinye amran sulaiman e) 93, 65% 4
+kalimat masukan : two other hostages have been released earlier, and two are still detained a) duak sandera laingnye dah kanak bebaskan sebalomnye, dan duakk maseh ditahan b) duak laing sandera dah merilis awal, dan duak maseh ditahan c) 72, 47% d) duak sandera laingnye dah merilis awal, dan duak maseh ditahan e) 82, 11% 5
+kalimat masukan : he is believed to have organized smuggling 1, 500 people into australia since 1999 a) die diyakinek dah mengorganisir penyelundupan 1.500 urang ke australia sejak 1999 gambar
+8 dokumen alignment bahasa inggris – bahasa melayu sambas tabel iii
+mesin penerjemah statistik dengan pivot language memperbaiki hasil terjemahan tersebut dengan menghasilkan skor bleu sebesar 88, 25% dan output yang dihasilkan 
+kalimat nomor dua frase diterjemahkan oleh mesin penerjemah statistik tanpa pivot language menghasilkan output dan skor bleu sebesar 79, 38%
+mesin penerjemah statistik dengan pivot language memperbaiki hasil terjemahan tersebut dengan menghasilkan skor bleu sebesar 81, 64% dan output yang dihasilkan 
+kalimat nomor tiga frase diterjemahkan oleh mesin penerjemah statistik tanpa pivot language menghasilkan output dan skor bleu sebesar 90, 76%
+mesin penerjemah statistik dengan pivot language memperbaiki hasil terjemahan tersebut dengan menghasilkan skor bleu sebesar 93, 65% dan output yang dihasilkan 
+kalimat nomor empat frase diterjemahkan oleh mesin penerjemah statistik tanpa pivot language menghasilkan output dan skor bleu sebesar 72, 47%
+mesin penerjemah statistik dengan pivot language memperbaiki hasil terjemahan tersebut dengan menghasilkan skor bleu sebesar 82, 11% dan output yang dihasilkan 
+he is believed to have organized
+kalimat nomor lima frase diterjemahkan oleh mesin penerjemah statistik tanpa pivot language menghasilkan output dan skor bleu sebesar 88, 25%
+die itok diyakinek untok udah mengorganisir
+mesin penerjemah statistik dengan pivot language memperbaiki hasil terjemahan tersebut dengan menghasilkan skor bleu sebesar 92, 99% dan output yang dihasilkan 
+hal ini disebabkan mesin penerjemah statistik menggunakan bahasa indonesia sebagai bahasa perantara atau pivot language, sehingga kualitas mesin penerjemah menjadi lebih baik
+mesin penerjemah statistik dapat diimplementasikan untuk menerjemahkan bahasa inggris ke bahasa melayu sambas
+terjadi peningkatan nilai akurasi mesin penerjemah statistik dengan metode bleu yaitu sebesar 5, 015%
+penggunaan pivot language dapat mempengaruhi peningkatan akurasi penerjemahan pada mesin penerjemah statistik bahasa inggris – bahasa melayu sambas
+bahasa indonesia sebagai pivot language dapat direkomendasikan sebagai bahasa perantara pada mesin penerjemah statistik bahasa inggris ke bahasa daerah
+perlu adanya teknik penanganan out-of- vocabulary untuk menerjemahkan kata- kata yang tidak terdapat dalam vocabulary corpus sehingga dapat meningkatkan kualitas terjemahan mesin penerjemah statistik

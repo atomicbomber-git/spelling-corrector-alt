@@ -1,0 +1,223 @@
+aplikasi pemetaan sarana olahraga berbasis website dan selular merupakan suatu aplikasi untuk memetakan sarana olahraga menggunakan layanan gps, sehingga pengguna dapat mengetahui lokasi sarana olahraga, informasi fasilitas, dan jalan yang ditempuh menuju lokasi tersebut
+layanan ini dapat diakses melalui website secara online dan juga perangkat selular dengan tingkat mobilitas yang tinggi
+adapun tujuan dari pembuatan dan penelitian aplikasi pso ini adalah: 1) mengetahui proses pembuatan, 2) mengetahui cara kerja, dan 3) mengetahui keunggulan aplikasi pso
+pembuatan aplikasi pso terdiri dari beberapa tahap, yaitu: peninjauan aplikasi, pada tahap ini menggunakan proses pengumpulan data dan fakta sebagai awal pembuatan aplikasi pso
+terdiri dari mendownload aplikasi pendukung dan pembelian hosting dan domain, analisa aplikasi, menggunakan proses tahapan untuk menganalisa aplikasi secara lebih spesifik baik secara proses, fungsi dan prosedur yang disesuaikan berdasarkan data-data
+terdiri dari analisa requirement system, analisa proses dan analisa modul sistem, desain aplikasi, pada tahap ini menggunakan proses pemodelan untuk keperluan database, alur sistem, dan proses yang sesuai dengan analisa sebelumnya
+tahapannya adalah: desain modul, dan proses, desain struktur database dan desain arsitektur sistem, prototyping, pada tahap ini dilakukan pengkodean program, prototype database dan desain template form, menu dan report
+berdasarkan penelitian yang telah dilakukan maka diperoleh hasil yaitu aplikasi pso
+cara kerjanya adalah ketika pengguna mengakses aplikasi melalui website ataupun selular maka data yang ada di website pso maupun di selular, datanya diambil dari mysql server yang ada di vps hosting
+tetapi jika melalui selular ditambah dengan fasilitas gps tracking system
+gps diaktifkan dan dibuka aplikasi pso mobile, kemudian akan didapat titik koordinat dimana posisi pengguna berada
+koordinat yang diperoleh aplikasi pso mobile dikirim ke server pso
+data koordinat yang diperoleh oleh server pso diposisikan di google maps, kemudian dapat diperoleh informasi yang diinginkan
+berbagai aspek kehidupan sudah sangat tergantung pada teknologi informasi dan beberapa lagi masih mencoba mengadaptasi teknologi informasi kedalam sistem mereka
+sifat dari teknologi infomasi yang dapat mempercepat kinerja seseorang ataupun lembaga menjadikan teknologi informasi sudah menjadi hal yang wajib digunakan
+dulu, pemetaan hanya diwujudkan di selembar kertas, namun sekarang ini teknologi telah mengembangkannya menjadi media elektronik dan dengan bantuan teknologi infomasi, pemetaan dengan media elektronik dapat diakses melalui internet yang mampu di akses oleh sebagian besar orang, tidak mengenal tempat dan waktu
+kehidupan jaman sekarang sudah nampak sekali bahwa setiap orang sudah sangat familiar dengan teknologi informasi, dari yang sederhana seperti handy talkie, sampai yang bisa menghubungkan orang di seluruh dunia seperti telepon selular maupun internet dalam bidang keolahragaan, teknologi informasi dapat diterapkan untuk memberikan informasi yang aktual kepada masyarakat terkait dengan hal-hal terbaru yang terjadi di dunia olahraga
+contohnya ditahun 2011 lalu indonesia menjadi tuan rumah dalam ajang olahraga bergengsi se-asia tenggara yaitu sea games 2011, dan sudah selayaknya pemerintah dapat menerapkan teknologi informasi untuk melancarkan acara tersebut khususnya pada pemetaan sarana olahraga dan media informasi pemberitaan olahraga pada acara sea games 2011
+pada tahun 2018, bangsa indonesia menjadi salah satu negara yang di tunjuk menjadi tuan rumah kompetisi olahraga se asia yaitu asian games 2018
+hal ini akan dilakukan dan dikembangkan pada kegiatan-kegiatan olahraga serupa selanjutnya
+penulis mencoba menggabungkan antara pemetaan sarana olahraga dan media informasi pemberitaan olahraga dalam satu produk yaitu aplikasi
+aplikasi yang penulis buat disebut dengan pemetaan sarana olahraga atau penulis singkat menjadi pso
+dengan aplikasi pemetaan sarana olahraga masyarakat dapat mengakses peta, tempat, dan informasi lokasi sarana olahraga
+jadi masyarakat cukup membuka website ataupun telepon selular dan dapat melihat lokasi sarana olahraga tujuan mereka lengkap dengan jarak rumah mereka dengan tempat tujuan sarana olahraga maupun informasi mengenai jarak antar sarana olahraga yang ada
+selain dapat mengakses informasi dan peta lokasi sarana olahraga, dapat juga menggunakan fasilitas gps tracking system yang dikemas menjadi satu dengan peta tersebut
+jadi masyarakat dapat mengetahui dimana posisinya saat itu
+sehingga masyarakat tidak akan takut untuk salah jalan karena semua telah terpetakan dalam aplikasi pemetaan sarana olahraga
+bagi mereka yang mobilitasnya tinggi, selain dibuka melalui website, fasilitas tersebut juga dapat diakses melalui telepon seluler
+landasan teori telepon pertama kali ditemukan dan diciptakan oleh alexander graham bell pada tahun 1876
+sedangkan komunikasi tanpa kabel ditemukan oleh nikolai tesla pada tahun 1880 dan diperkenalkan oleh guglielmo marconi
+akar dari perkembangan digital wireless dan seluler dimulai sejak 1940 saat teknologi telepon mobil
+berkembang pesat saat ini yaitu teknologi telepon tanpa kabel diantaranya amps, gsm dan cdma, amps 
+seluler dari segi aplikasi juga sangat pesat
+ada dua sistem operasi populer yang digunakan telepon seluler, yaitu symbian dan java
+masing-masing sistem operasi mempunyai keunggulan di masing-masing bidang, namun perlu diketahui jika kedua sistem operasi tersebut sama- sama bisa menjalankan aplikasi-aplikasi yang berbasis java, yaitu dengan java virtual machine yang dipunyainya
+bahasa pemrograman java green project, yang berjalan selama 18 bulan, dari awal tahun 1991 hingga musim panas 1992
+proyek tersebut belum menggunakan versi yang dinamakan oak
+proyek ini dimotori oleh patrick naughton, mike sheridan, james gosling dan bill joy, beserta sembilan pemrogram lainnya dari sun microsystemssesuai dengan prinsip tulis sekali, jalankan di mana saja
+diubah, dari bahasa yang dimengerti manusia menjadi bahasa mesin / bytecode
+dengan kelebihan ini pemrogram cukup menulis sebuah program java dan dikompilasi sekali lalu hasilnya dapat dijalankan di atas beberapa platform tanpa perubahan
+pemrogram berorientasi objek yang pemrograman berbasis oebjek secara murni
+semua tipe data diturunkan dari kelas dasar yang disebut object
+hal ini sangat memudahkan pemrogram untuk mendesain, membuat, mengembangkan dan mengalokasi kesalahan tepat, mudah dan terorganisir
+kelebihan ini menjadikan java sebagai salah satu bahasa pemograman termudah, bahkan untuk fungsi fungsi yang advance seperti komunikasi antara komputer sekalipun
+saat ini pengguna java sangat banyak, sebagian besar adalah pemrogram c++ yang pindah ke java
+universitas-universitas di amerika juga mulai berpindah dengan mengajarkan java kepada murid-murid yang baru karena lebih mudah dipahami oleh murid dan dapat berguna juga bagi mereka yang bukan mengambil jurusan komputer
+gps adalah sistem satelit navigasi dan penentuan posisi yang dimiliki dan dikelola oleh amerika serikat
+sistem ini didesain untuk memberikan posisi dan kecepatan tiga-dimensi serta informasi mengenai waktu, secara kontinyu di seluruh dunia tanpa bergantung waktu dan cuaca, bagi banyak orang secara simultan
+system) merupakan salah satu alat teknologi informasi yang dapat digunakan untuk melakukan perencanaan, pengelolaan data untuk percepatan
+karena sistem informasi geografis sebagai alat yang memiliki kemampuan untuk menyimpan, proses, analisis dan memberikan informasi yang tepat dan tepat waktu, serta membangun membantu pengambilan keputusan untuk membuat keputusan yang lebih baik
+sistem informasi geografis atau geographical information system menawarkan suatu sistem yang mengintegrasikan data yang bersifat keruangan dengan data tekstual yang merupakan deskripsi menyeluruh tentang obyek dan keterkaitannya dengan obyek lain
+dengan sistem ini data dapat dikelola, dilakukan manipulasi untuk keperluan analisis secara komprehensif dan sekaligus menampilkan hasilnya dalam berbagai format baik dalam bentuk peta maupun berupa tabel atau report
+terdapat beberapa alasan mengapa perlu menggunakan sig, yaitu: 1) sig menggunakan data spasial maupun atribut secara terintegrasi, 2) sig dapat digunakan sebagai alat bantu interaktif yang menarik dalam usaha meningkatkan pemahaman mengenai konsep lokasi, ruang, kependudukan, dan unsur-unsur geografi yang ada dipermukaan bumi, 3) sig dapat memisahkan antara bentuk presentasi dan basis data, 4) sig memiliki kemampuan menguraikan unsur-unsur yang ada dipermukaan bumi kedalam beberapa layer atau coverage data spasial, 5) sig memiliki kemampuan yang sangat baik dalam memvisualisasikan data spasial berikut atributnya, 6) semua operasi sig dapat dilakukan secara interaktif
+yang dapat digunakan secara gratis atau non comercial yang berupa layanan berbasis peta, yang juga menawarkan peta jalan, sebuah rute perencanaan untuk berpergian dengan berjalan kaki, mobil maupun kendaraan lainnya
+menurut salah satu penciptanya google maps adalah salah satu cara untuk mengorganisasikan informasi di dunia secara geografis
+google maps api google telah membuat google maps api untuk memungkinkan pengembang untuk mengintegrasikan google maps ke dalam situs web dengan titik data mereka sendiri
+ini adalah sebuah layanan gratis, dan saat ini tidak mengandung iklan, namun google menyatakan dalam persyaratan penggunaan mereka bahwa mereka berhak menampilkan iklan di masa depan
+ketika api pertama kali diluncurkan, ia tidak memiliki kemampuan untuk geocode alamat, mengharuskan pengguna untuk secara manual menambahkan poin dalam .pada saat yang sama sebagai pembebasan dari google maps api, yahoo dirilis maps api sendiri
+peta, yang tidak memiliki dukungan internasional, termasuk geocoder dalam rilis pertama
+hingga bulan oktober 2006, implementasi dari google maps lebih sederhana, hanya membutuhkan satu baris script, tetapi tidak seperti yang disesuaikan sebagai api penuh
+memulai sebuah kampanye untuk meng-upgrade dengan peta untuk bersaing lebih baik dengan google dan perusahaan peta online beberapa peta yang digunakan dalam survei yang mirip dengan google maps
+google maps secara aktif mempromosikan penggunaan komersial dari api
+beberapa dari skala besar pertama adopters itu real estat situs mash-up.google melakukan studi kasus tentang nesthoria mesin pencari properti di inggris dan spanyol
+google maps untuk mobile pada tahun 2006 google memperkenalkan aplikasi java bernama google maps for mobile, yang dimaksudkan untuk berjalan pada ponsel berbasis java atau perangkat mobile
+aplikasi ini memafaatkan lokasi gps pada perangkat mobile jika tersedia
+informasi ini dilengkapi oleh perangkat lunak terdekat menentukan situs sel
+perangkat lunak lalu mendongak lokasi situs sel menggunakan database dikenal situs sel
+plot perangkat lunak jalan-jalan dengan warna biru yang tersedia dengan ikon kuning dan lingkaran hijau di seluruh rentang perkiraan sel situs berdasarkan nilai pemancar's kekuasaan 
+perkiraan ini disempurnakan dengan menggunakan kekuatan sinyal ponsel untuk memperkirakan seberapa dekat dengan situs sel perangkat mobile
+pemetaan sarana olahraga sebagai informasi pemetaan sarana olahraga dan publikasi serta pemesanan secara online ini masuk pada ranah penelitian research and development 
+hal itu diindikasikan oleh hasil dari penelitian yang berupa produk teknologi yang dikerjakan melalui langkah-langkah teknis
+langkah penelitian dalam pelaksanaan ini mengacu prosedur kerja penelitian, artinya urutan pekerjaan direncanakan sesuai dengan desain yang paling sederhana dan terus meningkat menjadi suatu produk teknologi yang kompleks
+langkah penelitiannya seperti yang terlihat dalam gambar 1
+objek penelitian objek penelitian ini mengambil tema aplikasi pemetaan sarana olahraga merupakan pengembangan aplikasi, menghasilkan kerja aplikasi sesuai dengan tujuan penelitian
+besar harapan, hasil aplikasi pemetaan sarana olahraga yang dapat bermanfaat secara fungsi dan menambah khasanah keilmuan informatika
+pemrosesan data ditentukan oleh rancangan program untuk aplikasi pemetaan sarana olahraga dalam melakukan eksekusi data masuk sebagai variabelnya
+model dan skema penelitian penelitian ini menggunakan model penelitian research and development 
+pso yang dapat di rancang, diprogram maupun di jalankan
+hal tersebut didasarkan pada data-data yang akan disajikan bersifat empiris dengan tujuan mencobakan kebenaran teori yang diwujudkan dalam realisasi suatu sistem informatika nyata, yaitu aplikasi java dengan bahasa pemrograman c++, aplikasi pemetaan sarana olahraga 
+skema penelitian untuk membuat aplikasi pemetaan sarana olahraga ini mengacu pada skema penelitian deduktif
+hal tersebut didasarkan oleh pembangunan penelitian yang dimulai dari level teori kemudian ke level konsep dan dilanjutkan ke level operasional, seperti yang terlihat dalam gambar 2
+metode dan instrumen pengujian a) metode pengujian metode pengujian pada aplikasi melihat kinerja dari aplikasi yang telah dibuat maka harus dilakukan pengujian
+sebelum pengujian aplikasi akan diujicobakan pada objek yang menjadi tempat penelitian
+mengeksekusi program, mampu memetakan jaringan internet selanjutnya hasil dari pengujian akan dianalisis berdasarkan teori
+b) instrumen pengujian setiap pengujian membutuhkan program aplikasi untuk mengetahui unjuk kerja dari suatu sistem aplikasi atau aplikasi sesuai kerjanya agar dapat dianalisis
+aplikasi, net beans 6.1 (aplikasi, mysql 5.0.67 database server (aplikasi
+pada penelitian pembuatan aplikasi pemetaan sarana olahraga ini dibutuhkan beberapa instrumen diantaranya jdk1.6.0_07, winmysqladmin 1.4, apache 2.2.9 web server, php server 5.2.6, google maps api, hosting website dan databasenya, gps garmin, telepon seluler yang sudah mendukung aplikasi java, satu set komputer, dan koneksi internet 
+adalah assembling, perlu ditekankan adalah terkait perograman pada aplikasi java jdk1.6.0_07 harus benar-benar tepat dan benar untuk mampu bekerja dalam normal dan mampu berjalan program aplikasi tersebut
+secara umum panduan assembling mengacu teknis pada sistem konstruksi pemrograman
+pada aplikasi yang di aplikasikan pada pemetaan sarana olahraga
+pengambilan data pada penelitian pembuatan aplikasi pemetaan sarana olahraga ini dititik beratkan pada kinerja aplikasi, kebenaran program dan hasil kinerja
+pengambilan data untuk mengetahui akurasi aplikasi, dan response dilakukan dengan ujicoba aplikasi berbagai objek penelitian yang berbeda
+data diperoleh dari hasil uji coba yang dilakukan dengan minimal pengulangan sebanyak 1 kali
+dilakukan dengan cara atau melalui terjun lapangan atau mengimplementasikan pada hasil ujicoba kemudian dibandingkan dengan hasil analisis secara teori
+hasil analisis ini merupakan penggabungan antara hasil ujicoba dan teori
+dari analisis data ini akan didapatkan kesimpulan dari apa yang telah dirumuskan
+menyimpulkan hasil penelitian menyimpulkan hasil penelitian dilakukan setelah analisis data yang dianggap cukup dan kemudian disimpulkan
+penyimpulan dari penelitian ini terkait rumusan yaitu rancangan aplikasi dan pemanfaatan aplikasi pemetaan sarana olahraga ), serta unjuk kerja hasil aplikasi pemetaan sarana olahraga 
+penyimpulan hasil perancangan aplikasi pemetaan sarana olahraga dapat diketahui dari hasil ujicoba yang didapat dari hasil pengumpulan data
+setelah data terkumpul sesuai dengan kuantitas dan kualitas maka selanjutnya data dapat diolah untuk mengetahui kemampuan kerja aplikasi
+untuk mendapatkan hasil rancangan aplikasi pemetaan sarana olahraga yang optimal maka dilakukan dengan menggabungkan beberapa sistem informatika
+beberapa sistem tersebut dihubungkan dalam keterpaduan pada aplikasi pemetaan sarana olahraga sehingga sistem dapat bekerja secara utuh dan terpadu
+susunan hubungan antar sistem seperti gambar 3
+jdk1.6.0_07, net beans 6.1, mysql 5.0.67 database server, winmysqladmin 1.4, apache 2.2.9 web server, php server 5.2.6, google maps api, hosting website dan databasenya, gps garmin
+selain itu, jika perintah atau instruksi yang telah diprogram pada software tersebut, maka akan dihasilkan perintah atau program yang harus dijalankan
+perintah atau program tersebut selanjutnya akan diproses lebih lanjut pada program inti sehingga dapat bekerja sesuai dengan hasil yang diharapkan
+dengan demikian aplikasi pemetaan sarana olahraga diharapkan dapat memetakan sarana olahraga sesuai dengan misi dan tujuan penelitian
+perancangan aplikasi pemetaan sarana olahraga perancangan program pada aplikasi pemetaan sarana olahraga dapat dibuat menggunakan bahasa c++
+hasil perancangan program yang sudah terkodekan dalam bahasa c++ dipadukan dalam satu aplikasi yaitu aplikasi pemetaan sarana olahraga 
+dalam pembuatan program diperlukan langkah– langkah dalam pembuatan algoritma program
+pada langkah awal, metode pengujian aplikasi pemetaan sarana olahraga dilakukan secara terpisah pada bagian-bagian utama, setelah per bagian tersebut berhasil dilanjutkan untuk pengujian seacara komplek
+pengujian ini untuk mengetahui karakter, nilai prosedur kerja, prinsip kerja aplikasi
+perancangan dan pembuatan program dan intruksi basis data pada aplikasi pemetaan sarana olahraga dengan langkah-langkah sebagai berikut: menyiapkan mendownload aplikasi pendukung, aplikasi-aplikasi yang diperlukan (sun wireless toolkit 2.5
+, mysql 5.0.67 database server, java jdk1.6.0_07, apache 2.2.9 web server, net beans 6.1, winmysqladmin 1.4) ; mengkompilasi program; menguji program; dan pembelian hosting dan domain; memperbaiki program apabila terjadi kerusakan
+metode dalam penelitian ini meliputi pembuatan dan perancangan dengan menggunakan aplikasi-aplikasi yang diperlukan (sun wireless toolkit 2.5
+, mysql 5.0.67 database server, java jdk1.6.0_07, apache 2.2.9 web server, net beans 6.1, winmysqladmin 1.4)
+hasil dan pembahasan perancangan dan pembuatan aplikasi pso terdiri dari beberapa tahap, yaitu : peninjauan sistem, tahapan ini dilakukan dengan cara mengumpulkan data sistem sebagai awal pembuatan aplikasi pso
+terdiri dari mendownload aplikasi pendukung dan pembelian hosting dan domain, menganalisa sistem, dilakukan melalui analisa sistem secara lebih detail baik proses, prosedur dan fungsi sesuai dengan data-data sistem yang telah dikumpulkan menjadi satu kesatuan
+terdiri dari analisa requirement system, analisa proses dan analisa modul sistem
+ mendesain sistem, desain sistem dilakukan melalui pemodelan aplikasi untuk modul-modul, proses, alur sistem dan database yang sesuai analisa sebelumnya
+tahapannya adalah: desain modul, dan proses, desain struktur database dan desain arsitektur sistem, prototyping, pada tahap ini dilakukan pengkodean program, prototype database dan desain template form, menu & report
+peninjauan sistem tahapan ini melalui cara pengumpulan data dan fakta pada sistem atau aplikasi yang sedang berjalan sebagai tahap awal pembuatan aplikasi pso 
+per aplikasian yang dibutuhkan dilengkasi pada tahap ini
+peninjauan sistem dilakukan dengan : a) mendownload aplikasi pendukung, aplikasi-aplikasi yang diperlukan antara lain : o aplikasi sun wireless toolkit 2.5.2 aplikasi sun wireless toolkit 2.5.2 adalah aplikasi yang digunakan untuk mensimulasikan dan mengcompile source code khusus untuk jenis aplikasi-aplikasi telepon seluler 
+jika kode telah selesai ditulis, maka sun wireless toolkit 2.5.2 akan mengeksekusinya dan akan ditampilkan dalam simulasi telepon selular
+semua tampilan, tombol, fungsi tomboh, disamakan dengan telepon seluler yang sebenarnya
+mysql 5.0.67 adalah salah satu jenis server yang ada diantara banyak server database
+karena gratis dan penggunaannya yang mudah membuat database server jenis ini menjadi banyak diminati dan digunakan
+mysql 5.0.67 database server disini dipasang di komputer server pso sebagai pusat penampung data yang ada
+menjadi server dari 2 apikasi yaitu aplikasi pso berbasis website dan aplikasi pso berbasis mobile
+belum ada user interface yang lengkap dalam program ini sebagai editornya
+hanya ada virtual machine dan compiler yang masih menggunakan tampilan dos sebagai user interface utama
+oleh karena itu, jika menggunakan aplikasi ini sebagai editor utama maka akan membutuhkan waktu yang lama dalam pengerjaan aplikasi ini
+maka sebaiknya menggunakan program editor lain yang menunjang untuk mempercepat kerja pembuatan aplikasi
+front-end page disini berarti keluaran yang langsung diterima user, yaitu di telepon selular masing-masing user
+sedangkan back-end page hanya diakses administrator
+untuk pengelolaan aplikasi pso, diperlukan sebuah halaman web administrator untuk selalu mamantau, memasukkan, dan mengupdate data- data
+untuk dapat menjalankan file-file web administrator, dibutuhkan pengeksekusi kode dari file-file web administrator agar selanjutnya bisa ditampilkan hasilnya
+apache 2.2.9 web server disini digunakan saat pembuatan aplikasi pso secara offline
+o net beans 6.1 aplikasi ini sebagai salah satu user interface antara program jdk1.6.0_07 dengan programmer sekaligus juga sebagai editor source code
+net beans 6.1 hanya sebagai editornya saja, namun secara umum jdk1.6.0_07 tetap menjadi aplikasi utama dalam pembuatan aplikasi pso karena netbeans 6.1 hanya akan menampilkan secara lebih gampang apa yang harus dikerjakan oleh programmer dan kerja yang paling utama yaitu mengcompile dan menjalankan aplikasi pso secara virtual itu tetap manjadi pekerjaan aplikasi jdk1.6.0_07 dan sun wireless toolkit 2.5.2
+tampilan program net beans 6.1 o winmysqladmin 1.4 aplikasi ini berguna untuk mengelola database server aplikasi pso
+bukan merupakan aplikasi utama dalam server database karena winmysql admin bukan sebagai server tetapi hanya sebagai user interface bagi database server 
+b) pembelian hosting dan domain, untuk mempermudah akses, maka hosting akan diberikan domain
+hosting disini berguna sebagi penampung database dan juga penampung file-file web administrator
+menggunakan minimal 5 database, yang nantinya akan dibagi menurut keperluan data yang dibutuhkan
+hosting yang digunakan harus mampu digunakan sebagai mysql database server sekaligus sebagai web server
+fitur yang harus ada dalam hosting antara lain mysql server dan apache server
+menganalisa sistem sistem melalui fungsi dan prosedur yang sesuai dengan fakta dan data-data yang sudah dikumpulkan, menganalisa sistem terbagi dalam beberapa tahap diantaranya adalah : 1) menganalisa requirement system, pada tahap ini kebutuhan sistem diartikan sesuai dengan data-data fungsi dan proses yang terjadi pada aplikasi
+hal-hal yang dipertimbangkan dalam tahap ini antara lain : o berapa kapasitas penyimpanan yang diperlukan di server yang diperlukan di dalam pengembangan sistem
+o jenis telepon seluler apa yang akan dipakai dalam ujicoba
+o jenis hosting apa yang cocok dengan kebutuhan sistem
+2) menganalisa proses, pada tahap ini dilakukan untuk menganalisis proses yang terjadi sesuai dengan instruksi atau perintah yang berlaku pada aplikasi
+dalam proses ini ditentukan bagaimana nantinya proses transfer data yang akan digunakan dalam sistem
+apa saja metode yang digunakan dalam transfer data dan bagaimana memperoleh kestabilan sistem dalam melakukan proses pertukaran data antara telepon seluler, komputer server, web administator dan database
+3) menganalisa modul sistem, pada tahap ini dilakukan setelah beberapa tahap sebelumnya telah selesai dilakukan
+tahap ini dilakukan dengan cara menganalisa pembagian pada modul dan submodul yang menggunakan data yang sudah di definisikan sebelumnya
+fitur apa saja yang ditampilkan dari sistem akan dibahas disini
+fitur yang ada di aplikasi pso, fitur dari web administrator, dan hal-hal apa saja yang akan dijadikan menu dan fasilitas dari sistem ini
+mendesain sistem pada tahap ini dilakukan sebuah pemodelan untuk modul-modul, proses, database dan alur sistem yang akan dikembangkan pada sebuah aplikasi
+berikut ini tahapan mendesain sebuah aplikasi, yaitu : a
+mendesain modul dan proses sistem, tahap ini dirancang modul-modul aplikasi beserta proses pembuatan aplikasi yang terkait dengan bagian dan fungsi dari sistem
+mendesain struktur database sistem, pada tahap ini dilakukan perancangan terhadap database sistem yang sesuai dengan data-data pada aplikasi
+mendesain arsitektur sistem, pada tahap ini dilakukan untuk merancang arsitektur sistem yang sesuai dengan requirement system, pada arsitektur sistem ini bentuknya berupa arsitektur aplikasi
+sarana olah raga di yogyakarta, termasuk gedung olah raga, kolam renang, fasilitas olah raga dan rute perjalanan yang dapat ditempuh
+semuanya disajikan dalam bentuk gis 
+dari bahasa indonesia kedalam 51 bahasa lainnya
+untuk aplikasi pso mobile menggunakan sama dengan website aplikasi pso, menyajikan informasi tentang gedung olah raga, fasilitas olah raga dan dilengkapi dengan sistem gps tracking atau sistem penjejak gps
+jadi user bisa melihat di peta dimana sekarang dia berada
+dan dapat memperkirakan sarana olahraga mana yang akan dikunjungi
+melakukan pengkodean program, pada tahap ini proses dan data yang telah didesain di tuangkan dalam bentuk aplikasi dengan cara melakukan pengkodean program
+aplikasi pso ini di buat dengan pengkodean program yang dibuat dalam bahasa java, google api, dan database yang berbasis sql
+melakukan prototype database, tahap ini dilakukan dengan pemodelan pada penyimpanan data sistem, yaitu database yang berfungsi untuk mengolah data dan menyimpan data yanng berdasarkan pada program yang dirancang dan dibuat untuk aplikasi
+database sistem yang digunakan dalam aplikasi ini menggunakan software mysql database
+melakukan desain template form, menu & report sistem, pada tahap ini desain yang dilakukan untuk penyesuaian sehingga diperoleh aplikasi yang terstruktur dan report sistem yang bagus dan beroperasi
+program aplikasi pso akan disesuaikan desainnya dengan penggunanya
+desain pso untuk website dan aplikasi mobile berbeda dalam desain templatenya saja
+adapun sebagian source codenya adalah sebagai berikut: gambar 7
+tahap prototyping aplikasi pso gambar 8 adalah struktur direktori file website pso, source code yang digunakan sampai ribuan baris kode perintah
+aplikasi pso ini mempunyai keunggulan sebagai berikut: merupakan media informasi yang fleksibel dan portabel
+flexibel karena setiap ada informasi baru mudah ditambahkan dan diganti sehingga informasi menjadi up to date
+portabel karena menggunakan media website dan telepon seluler sehingga pengguna bisa mengaksesnya dimanapun dan kapanpun; pengguna menjadi mudah mengakses informasi karena website ini bisa dibuka di seluruh dunia; aplikasi ini menggunakan sistem gps tracking
+jadi pengguna mengetahui posisinya saat itu, dan dapat mengetahui berapa jarak dirinya dengan sarana olahraga terdekat; informasi ditampilkan dalam bentuk visual sehingga memudahkan pengguna untuk memperoleh informasi sesuai yang diinginkan secara cepat dan mudah dipahami; dengan bantuan google, website ini mempunyai fasilitas multilingual karena dapat dibuka dengan 51 macam bahasa yang ada di dunia ; dapat menampilkan infomasi secara detail tentang sarana olahraga mulai dari lokasi sarana olahraga, fasilitas yang disediakan dan rute perjalanan yang dapat ditempuh
+10 tampilan aplikasi pso berbasis mobile application 2
+ujicoba ujicoba dilakukan melalui percobaan dan evaluasi untuk mengetahui cara kerja pada aplikasi pso yang dilakukan melalui tahapan pemodelan sistem
+beberapa tahapan yang berkaitan dengan testing atau ujicoba yaitu :  ujicoba pada database sistem, aplikasi dan hardware pendukung aplikasi dilakukan melalui ujicoba untuk mengetahui cara kerja sistem atau aplikasi yang telah dibuat dan dirancang
+disini juga akan diuji sistem keamanan yang digunakan dalam transfer data dari aplikasi ini ke dalam sistem yang ada
+ perbaikan, jika dari segi aplikasi dimungkinkan akan dilakukan recoding terhadap aplikasi yang bermasalah, demikian juga jika dari database dan hardware ada kesalahan, hal itu dicarikan solusinya pada tahap ini
+implementasi aplikasi pada tahap ini merupakan tahap yang terakhir dalam perancangan dan pembuatan aplikasi, dimana aplikasi pso dapat diaplikasikan dalam pemetaan sarana olahraga
+terdapat evaluasi aplikasi pso dan perbaikan aplikasi yang digunakan untuk menyempurnakan aplikasi sehingga dapat dipakai dan berjalan secara optimal aplikasi pso adalah menggunakan mysql database server
+menggunakan vps karena untuk mendukung aplikasi pso, memerlukan server khusus dengan konfigurasi yang khusus juga
+untuk pengujian aplikasi pso berbasis web, digunakan browser mozilla, pengecekan aplikasi pso mobile menggunakan handphone merk nokia 5130c, dan untuk melakukan akses gps menggunakan sierra wireless 881u 
+11 aliran data secara umum aplikasi pso gambar
+12 aliran data aplikasi fitur gps tracker pada aplikasi pso tahap-tahap transfer data:  data yang ada di website pso datanya diambil dari mysql server yang ada di vps hosting, kemudian dieksekusi oleh php server
+ untuk pso mobile sama menggunakan mysql server namun ditambah dengan fasilitas gps tracking system
+ gps diaktifkan dan dibuka aplikasi pso mobile, kemudian akan didapat titik koordinat dimana posisi user berada
+ koordinat yang diperoleh aplikasi pso mobile dikirim ke server pso
+ data koordinat yang diperoleh oleh server pso diposisikan di google maps, kemudian dapat diperoleh informasi yang diinginkan
+keunggulan aplikasi pso dari uraian di atas terlihat beberapa keuntungan penggunaan aplikasi pemetaan sarana olahraga berbasis website dan mobile application antara lain sebagai berikut:  merupakan media informasi yang fleksibel dan portabel
+flexibel karena setiap ada informasi baru mudah ditambahkan dan diganti sehingga informasi menjadi uptodate
+portable karena menggunakan media website dan telepon seluler sehingga pengguna bisa mengaksesnya dimanapun, dan kapanpun
+ pengguna menjadi mudah mengakses informasi karena website ini bisa dibuka di seluruh dunia
+ aplikasi ini menggunakan sistem gps tracking
+jadi pengguna mengetahui posisinya saat itu, dan dapat mengetahui berapa jarak dirinya dengan sarana olah raga terdekat
+informasi sesuai yang diinginkan secara cepat dan mudah dipahami
+ dengan bantuan google, website ini mempunyai fasilitas multilingual karena dapat dibuka dengan 51 macam bahasa yang ada di dunia
+ dapat menampilkan infomasi secara detail tentang sarana olah raga mulai dari lokasi sarana olah raga, fasilitas yang disediakan dan rute perjalanan yang dapat ditempuh
+analisis hasil perancangan dan pengujian aplikasi pso berikut ini adalah analisis hasil perancangan dan pengujian aplikasi pso : 1
+pengguna aplikasi dapat login ke dalam sistem jika sudah melakukan pendaftaran, yaitu mengisi kolom pendaftaran pada aplikasi pso dan menunggu persetujuan dari admin
+hasil pengujian pengiriman sms dan email pemberitahuan menunjukkan bahwa jika pengguna aplikasi mencari tempat sarana olahraga yang sudah di petakan dalam aplikasi
+jika pengguna sarana olahraga dinyatakan telah selesai dalam melakukan pemesanan tempat sarana olahraga kepada pemilik sarana olahraga, maka sistem akan mengirimkan sms dan email pemberitahuan validasi kepada pemilik sarana olahraga untuk dinyatakan siap dilanjutkan dalam pemakaian sarana olahraga
+pengguna sarana olahraga akan mendapatkan email pemberitahuan jika waktu pemakaian sarana olahraga telah di jadwalkan
+hasil perancangan dan pengujian sistem menunjukkan bahwa sistem ini menjadi solusi untuk proses pemetaan sarana olahraga dan penghubung informasi antara pengguna sarana olahraga dan pemilik sarana olahraga tanpa harus bertatap muka langsung, dapat menjadi forum komunikasi antara pemilik sarana olahraga serta pemerintah dalam hal ini dinas pemuda dan olahraga dapat memantau sarana olahraga melalui pemetaan dan pemantauan sarana olahraga yang berada dalam suatu wilayah tersebut
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa aplikasi dan perangkat lunak yang dirancang dinilai berhasil ditunjukkan dengan hasil perhitungan menggunakan skala likert’s summated rating gambar
+13 hasil penelitian pada interpretasi lsr v
+kesimpulan aplikasi pso, maka dapat disimpulkan bahwa: 1
+aplikasi dapat membantu proses pemetaan sarana olahraga antara pemilik sarana olahraga dan pengguna olahraganya, karena proses pencarian saran olahraga dapat dilakukan secara online serta dilengkapi dengan pemberitahuan secara realtime melalui pesan mobile dan email
+aplikasi pso ini telah berhasil karena program dapat dijalankan sesuai dengan rancangan
+dan mempunyai keunggulan-keunggulan yang sangat perlu untuk diterapkan di bidang olahraga karena kemudahan-kemudahan yang diberikan oleh aplikasi pso ini
+aplikasi memberikan kemudahan bagi pengguna sarana olahraga dan pemilik sarana olahraga untuk berkomunikasi terkait pemesanan sarana olahraga dan info tentang kelangkapan sarana olahraga tersebut mengenai fasilitas sarana olahraga
+aplikasi membantu dinas pemuda dan olahraga propinsi dan kota dalam pemetaan dan pemantauan sarana olahraga untuk mengembangkan pusat olahraga yang tertata dan terpadu dalam suatu perkotaan
+ucapan terima kasih unsika karawang jawa barat yang membantu terselesaikannya penelitian dan jurnal penelitian ini
+semoga penelitian ini bermanfaat dan berguna bagi ilmu teknik pada umumnya dan teknik industri dan mesin, teknik informatika pada khususnya

@@ -1,0 +1,121 @@
+oleh karena itu, diperlukan penerjemah untuk menambah pengetahuan akan berbagai bahasa yang ada
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+korpus paralel adalah pasangan korpus yang berisi kalimat- kalimat dalam suatu bahasa dan terjemahannya
+salah satu fitur yang digunakan untuk meningkatkan akurasi hasil terjemahan adalah dengan fitur part of speech 
+tujuan yang ingin dicapai dalam penelitian ini adalah melakukan penggunaan fitur pos pada mesin penerjemah statistik bahasa indonesia ke bahasa melayu pontianak untuk meningkatkan nilai akurasi hasil terjemahan
+pengujian dilakukan dengan membandingkan nilai akurasi hasil terjemahan sebelum dan setelah penggunaan pos
+penelitian menggunakan korpus paralel sebanyak 3050 korpus
+pengujian dilakukan dengan dua cara, yaitu pengujian otomatis menggunakan bilingual evaluation understudy dan pengujian oleh ahli bahasa melayu pontianak
+dari hasil penelitian, penggunaan pos dapat meningkatkan kualitas terjemahan untuk mesin penerjemah bahasa indonesia ke bahasa melayu pontianak
+hal itu terlihat dari hasil pengujian dengan menambahkan fitur pos terdapat peningkatan nilai bleu sebesar 0.6% pada pengujian otomatis dan 21.67% pada pengujian oleh ahli bahasa
+berdasarkan hal tersebut, mesin penerjemah statistik bahasa indonesia ke bahasa melayu pontianak dengan penggunaan fitur pos dapat meningkatkan nilai akurasi hasil terjemahan
+paralel, bleu score, indonesia, melayu pontianak i
+pendahuluan untuk berinteraksi dengan masyarakat sekitarnya
+dengan bahasa, manusia dapat menyampaikan berbagai hal satu sama lainnya, baik itu dalam bentuk lisan maupun tulisan
+seiring dengan bertambahnya usia, semakin berkembang juga penguasaan bahasa yang dikuasai
+banyak bahasa yang dapat dikenal dan dipelajari oleh manusia
+kemampuan akan penguasaan banyak bahasa tentunya akan mempermudah untuk berinteraksi dengan orang lain dari berbagai daerah yang berbeda
+menurut unesco indonesia memiliki lebih dari 640 bahasa daerah yang didalamnya terdapat 154 bahasa yang harus diperhatikan karena terancam punah
+dengan banyaknya bahasa daerah yang ada di indonesia perlu terus dilakukan upaya pemertahanan bahasa agar bahasa-bahasa ini tidak punah termakan zaman
+hasil sensus penduduk pada tahun 2010, dari berbagai bahasa daerah yang terdapat di indonesia, persentase penggunaan bahasa melayu yang digunakan oleh masyarakat kalimantan barat mencapai 20, 45% dari total penduduk kalimantan barat
+kalimantan barat, bahasa melayu pontianak adalah bahasa melayu yang dituturkan oleh masyarakat asli kota pontianak
+penduduk asli kota pontianak berdomisili dibeberapa kecamatan yang letaknya berdekatan dengan keraton kadriah yang merupakan pusat kerajaan melayu di pontianak
+bahasa melayu pontianak sendiri sampai saat ini memang jauh dari kepunahan, dikarenakan penutur bahasa ini relatif masih banyak walaupun tidak diketahui secara pasti berapa penutur bahasa melayu pontianak
+adanya perkembangan teknologi juga berpengaruh terhadap perkembangan bahasa melayu pontianak, misalnya banyak kosakata yang bukan berasal dari bentuk asli bahasa melayu pontianak yang terserap
+bahkan kosakata ini banyak digunakan dari pada bentuk bahasa asli melayu pontianak
+berdasarkan beberapa hal yang telah dijabarkan, untuk menghindari terjadinya kepunahan bahasa daerah, salah satu caranya adalah dengan mesin penerjemah
+mesin penerjemah adalah aplikasi komputer yang dapat menerjemahkan teks dari satu bahasa natural ke bahasa natural lain
+mesin penerjemah memiliki beberapa keterbatasan seperti bahasa yang diterjemahkan belum akurat sehingga menyebabkan berkurangnya arti dan maksud dari sebuah kalimat
+salah satu cara menghasilkan terjemahan yang optimal, mesin penerjemah menggunakan konsep penerjemahan secara statistik yang disebut sebagai mesin penerjemah statistik atau statistical machine translation
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus paralel
+part of speech yang dihasilkan melalui pengkategorian kelas kata, seperti kata benda, kata kerja, kata sifat dan lainnya dalam proses tagging part of speech
+sudah banyak penelitian-penelitian yang mengembangkan rancangan part of speech tagset untuk bahasa indonesia
+telah ada juga meningkatkan akurasi pada mesin penerjemah bahasa indonesia ke bahasa melayu pontianak dengan part of speech danny indrayana1, herry sujaini2, novi safriadi 3
+ada pula penelitian tentang mesin penerjemah bahasa indonesia – bahasa melayu tetapi belum menggunakan part of speech sehingga belum mencapai tingkat akurasi yang memuaskan
+berdasarkan penjelasan yang telah dipaparkan, maka akan dilakukan penelitian untuk peningkatan akurasi mesin penerjemah statistik bahasa indonesia ke bahasa melayu pontianak dengan penggunaan faktor part of speech
+uraian penelitian mesin penerjemah dengan menggunakan pendekatan statistik
+menurut christoper d manning dan hinrich schutze, dalam statistical machine translation terdapat tiga buah komponen yang terlibat dalam proses penerjemahan kalimat dari suatu bahasa ke bahasa lain, yaitu language model, translation model, dan decoder seperti yang tertera pada gambar 1
+language model digunakan pada aplikasi natural language processing seperti speech recognition, part-of- speech tagging dan syntactic parsing
+language model statistik menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+translation model merupakan salah satu komponen penting pada statistical machine translation dalam proses penerjemahan yang membagi kalimat bahasa asal menjadi barisan frase, menerjmahkan setiap frase ke tujuan, dan reordering
+adalah decoder yang berfungsi untuk mencari teks dalam bahasa tujuan yang memiliki probabilitas paling besar dengan pertimbangan translation model dan language model
+secara umum, arsitektur mesin penerjemah statistik moses ditunjukan pada gambar 2
+modifikasi tm training lm training korpus gambar 2 merupakan arsitektur sistem dari mesin penerjemah statistik moses
+menurut herry sujaini, sumber data utama yang dipergunakan adalah parallel corpus dan monolingual corpus
+proses training terhadap parallel corpus menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada parallel corpus ditambah dengan monolingual corpus bahasa target menggunakan srilm menghasilkan language model dengan pos dihasilkan dari bahasa target pada parallel corpus yang setiap katanya sudah ditandai dengan pos
+tm, lm pos digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+moses yang memungkinkan untuk menerjemahkan secara otomatis setiap pasangan bahasa
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa sasaran
+saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa sasaran
+moses dirilis di bawah lisensi lgpl dan tersedia sebagai kode sumber dan binari untuk windows dan linux
+perkembangannya didukung oleh proyek euromatrix, dengan pendanaan oleh european commission
+korpus maupun bahasa tulis, yang disusun secara sistematis
+dikatakan alami karena teks yang dikumpulkan merupakan teks yang diproduksi dan digunakan secara wajar dan tidak dibuat-buat
+korpus dapat diklasifikasikan ke dalam enam jenis, yaitu korpus umum, korpus histori, korpus regional, korpus pemelajar, korpus multibahasa, korpus lisan
+korpus paralel adalah dua atau lebih korpus dalam bahasa yang berbeda
+masing-masing korpus memuat teks yang telah diterjemahkan dari satu bahasa ke bahasa lain
+automatic evaluation bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan terjemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+penalty dengan rata-rata geometri dari modified precision score
+semakin tinggi nilai bleu, maka semakin akurat dengan rujukan
+sangat penting untuk diketahui bahwa semakin banyak terjemahan rujukan per kalimatnya, maka akan semakin tinggi nilainya
+hasil dan diskusi data penelitian berupa buku berbahasa melayu pontianak dari buku sepok 1 dan buku sepok 2 yang akan diterjemahkan dalam bahasa indonesia
+buku tersebut selanjutnya diolah menjadi korpus teks paralel bahasa indonesia dan bahasa melayu pontianak
+adapun jumlahnya yaitu 3050 pasangan kalimat korpus paralel bahasa indonesia dan bahasa melayu pontianak
+dengan jumlah 3802 token untuk bahasa indonesia dan 4171 token untuk korpus bahasa melayu pontianak
+implementasi mesin penerjemah statistik bahasa indonesia ke bahasa melayu pontianak 1
+implementasi srilm institute language modelling) dilakukan pada bahasa target dan menghasilkan tabel model bahasa dengan n-gram data
+model bahasa n-gram memiliki nilai probabilitas dalam bahasa target model bahasa dibangun dengan tools srilm
+model bahasa akan menghasilkan output dengan format file *.lm
+gambar 3 merupakan tabel model bahasa yang dihasilkan oleh srilm pada mesin penerjemah statistik bahasa indonesia ke bahasa melayu pontianak
+pemodelan bahasa oleh srilm dapat dilihat pada gambar 3
+tabel model bahasa dengan bahasa melayu pontianak sebagai bahasa target input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus dan word alignment
+dokumen-dokumen tersebut terdapat dalam folder yang didalamnya terdapat 4 file yaitu 
+pemodelan translasi oleh giza++ dapat dilihat pada gambar 4
+dokumen vocabulary corpus bahasa melayu pontianak gambar 4 merupakan isi dari dokumen vocabulary corpus
+angka 1 sampai 10 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+vocabulary corpus yang dihasilkan mesin penerjemah bahasa bahasa indonesia ke bahasa melayu pontianak terdiri dari 3802 token untuk bahasa indonesia dan 4171 token untuk korpus bahasa melayu pontianak
+dokumen alignment dapat dilihat pada gambar 5
+dokument alignment bahasa indonesia ke bahasa melayu pontianak gambar 5 merupakan dokumen alignment bahasa indonesia ke bahasa meayu pontianak terdapat tiga baris kalimat
+baris pertama berisi letak kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target dan skor alignment 1.41748e-06
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap kalimat bahasa sumber
+kata memiliki makna bahwa kata pada kalimat bahasa target, di-align ke kata keenam pada kalimat bahasa sumber yaitu 
+berupa nilai akurasi yang dihasilkan oleh bleu 
+hasil pengujian ini nantinya akan menjadi parameter untuk membandingkannya dengan hasil pengujian setelah dilakukan proses tagging dengan fitur part of speech
+diuji terlebih dahulu melalui langkah translasi otomatis yang akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin
+korpus uji yang digunakan pada tahap ini berjumlah 3050
+setelah membuat output berupa hasil translasi otomatis dari mesin penerjemah, langkah selanjutnya adalah mendapatkan skor dari output dengan cara membandingkan output tersebut dengan korpus manual bahasa target yang telah dibuat sebelumnya
+hasil bleu dapat dilihat pada gambar 6
+langkah selanjutnya adalah melakukan proses tagging dengan part of speech pada bahsa melayu pontianak
+proses tagging dilakukan penulis dengan berpedoman pada website http://bahasa.cs.ui.ac.id/postag/tagger untuk melakukan adapun kaidah dalam melakukan tagging yaitu dengan word based
+untuk memudahkan penulis dalam melakukan penandaan kata selanjutnya, penulis menggunakan aplikasi bantu yang telah dibuat sebelumnya
+aplikasi bantu yang dibuat dapat dilihat pada gambar 7
+tampilan aplikasi tagging part of speech e
+pengujian ulang hasil terjemahan mesin translasi setelah mendapatkan korpus tagging part of speech, langkah berikutnya adalah melakukan pengujian kembali hasil terjemahan mesin translasi bahasa indonesia ke bahasa melayu pontianak yang telah melewati proses tagging part of speech
+langkah pengujian yang dilakukan sama halnya dengan langkah pengujian sebelumnya, yakni dengan cara melakukan pengujian otomatis yang akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin dan pengujian oleh ahli bahasa
+pengujian otomatis membandingkan nilai bleu hasil terjemahan otomatis dari mesin penerjemah bahasa indonesia ke bahasa melayu pontianak sebelum dan setelah melewati tahap tagging part of speech
+pengujian juga menyertakan 100 kalimat uji yang berasal dari diluar korpus yang digunakan
+hasil pengujian dapat dilihat dalam tabel 1
+tabel 1 tabel perbandingan nilai bleu nomor jumlah kalimat uji input sebelum tagging pos sesudah tagging pos peningkatan berdasarkan tabel 1 dapat dilihat bahwa terjadi peningkatan nilai bleu sebelum dilakukan tagging part of speech dan setelah dilakukan tagging part of speech dengan kalimat uji berasal dari dalam korpus dengan jumlah kalimat uji 3050 sebesar 0.27%, kalimat uji 2000 sebesar 1.10%, 1000 kalimat uji sebesar 0.35% dan 100 kalimat uji sebesar 0.68%
+rata-rata persentase peningkatan dengan jumlah korpus uji yang berasal dari dalam korpus didapat peningkatan nilai bleu dengan rata-rata peningkatan sebesar 0.6% setelah dilakukan tagging part of speech
+adapun persentase peningkatan nilai bleu pada korpus uji 100 yang berasal dari luar korpus paralel terdapat peningkatan persentase nilai bleu sebesar 24.57% sesudah dilakukan tagging part of speech
+pengujian ahli bahasa terjemahan mesin penerjemah statistik bahasa indonesia ke bahasa melayu pontianak
+pengujian dilakukan dengan mengambil kalimat yang mengalami perubahan pada hasil terjemahan otomatis yang terdapat pada korpus uji 3050 sebelum dan sesudah dilakukan tagging part of speech sebanyak 100 kalimat
+penilaian yang dilakukan ahli bahasa adalah dengan membandingkan hasil terjemahan sebelum dan sesudah dilakukan tagging part of speech dengan terjemahan menurut ahli bahasa secara pribadi
+perhitungan akurasi dilakukan dengan persamaan berikut : p = 𝐶 menurut penilaian dari ahli bahasa r = jumlah kata hasil terjemahan adapun hasil pengujian akurasi oleh ahli bahasa dapat dilihat dalam tabel 2
+kalimat hasil 𝐶 c = 674, c = 820, sebelum tagging part of speech, nilai dari ahli bahasa pada korpus uji 3050 sebesar 74.72% dan setelah dilakukan tagging part of speech didapat nilai dari ahli bahasa sebesar 90.91%
+terdapat peningkatan nilai bleu sebesar 21.67% dilihat dari perbandingan sebelum dan sesudah mengalami tagging part of speech
+mesin penerjemah statistik dapat diimplementasikan untuk menerjemahkan bahasa indonesia ke bahasa melayu pontianak
+berdasarkan hasil penelitian, proses tagging part of speech dapat meningkatkan akurasi terjemahan mesin 5 pontianak
+pontianak yang dicapai dengan korpus uji berasal dari dalam korpus sebesar 0.6% pada pengujian otomatis oleh bleu dan korpus uji dari luar korpus sebesar 24.57%
+penilaian yang dilakukan oleh ahli bahasa menghasilkan persentase peningkatan akurasi hasil terjemahan sebesar 21.67%
+dari penelitian ini adalah sebagai berikut
+perlu adanya mesin yang dapat melakukan tagging part of speech secara otomatis pada kalimat bahasa daerah mengingat banyaknya korpus yang akan dilakukan proses tagging part of speech
+perlu dilakukan penelitian penggunaan set part of speech yang lebih bervariasi, untuk lebih mengetahui pengaruh part of speech terhadap peningkatan akurasi mesin penerjemah bahasa indonesia ke bahasa melayu pontianak
+indonesia ke bahasa melayu pontianak dengan mempertimbangkan hubungan antar frase dalam kalimat
+perlu dilakukan pengecekan ulang terhadap korpus parallel untuk mencegah kesalahan penulisan 
+melakukan implementasi mesin penerjemah statistik ke dalam bahasa daerah yang lain dengan fitur part of speech

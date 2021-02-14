@@ -1,0 +1,91 @@
+keamana jaringan komputer saat ini menjadi hal penting untuk diterapkan
+banyak organisasi yang telah menjadikan teknologi informasi sebagai bahagian penting dalam menunjang aktivitasnya
+akses pengguna yang tidak dibatasi menjadi ancaman bagi sebuah organisasi, karena banyak data dan informasi penting yang tersebar dalam perangkat jaringan komputer di organisasi tersebut dapat disusupi oleh pihak yang tidak berwenang
+salah satu usaha yang dapat dilakukan adalah dengan menerapkan extended access list yang merupakan salah satu bagian dari metode access control list
+extended access list dapat menyaring lalu lintas data suatu jaringan dengan mengontrol apakah paket-paket tersebut dilewatkan atau dihentikan
+extended access list juga dapat menjamin keamanan untuk setiap komputer sehingga jalur komunikasi serta hak akses setiap komputer dapat berjalan dengan baik
+extended access list memungkinkan penyaringan berdasarkan sumber atau alamat tujuan, protokol yang dipilih, port yang digunakan, dan apakah koneksi sudah ditetapkan
+tulisan ini membahas penerapan extended access list dalam jaringan supaya dapat melakukan filter terhadap paket data yang melewati jaringan
+penerapannya menggunakan software packet tracer 6.1.1 untuk membuat prototipe jaringan dan mensimulasikannya
+sehingga nanti dapat diterapkan pada jaringan yang sebenarnya
+list yang dibangun pada penelitian ini diterapkan untuk protokol antara lain : tcp, udp, dan icmp 
+hasilnya didapatkan extended access list yang dikonfigurasi pada router dalam topologi penelitian ini mampu melakukan filter terhadap paket yang melewati jaringan
+hasil konfigurasinya sangat spesifik, sehingga penerapan hak akses permit dan deny dapat dilakukan sesuai dengan aturan dan skenario yang dirancang
+pendahuluan pesat dewasa ini berimplikasi terhadap ancaman keamanan jaringan komputer
+hal tersebut dapat terjadi karena akses teknologi informasi sangat mudah dilakukan
+mudahnya akses ini seiring dengan berkembangnya teknologi internet hal tersebut tentunya perlu menjadi perhatian bagi sebuah organisasi dan institusi baik nilik swasta maupun milik pemerintah
+perlu diterapkan berbagai strategi untuk bisa menjamin keamanan data dan informasi dari pihak-pihak yang tidak berkepentingan
+akses dalam sebuah jaringan komputer harus diawasi dan dibatasi
+salah satu upaya yang dapat dilakukan adalah dengan menerapkan access control list pada jaringan komputer
+access control list merupakan sebuah metode yang digunakan untuk menyeleksi paket- paket yang keluar masuk network
+access control list adalah daftar aturan untuk mengizinkan atau menolak akses jaringan ke sebuah endpoint
+penggunaan access list yang paling umum digunakan adalah penyaringan paket yang tidak diinginkan ketika mengimplementasikan kebijakan paket-paket tersebut dilewatkan atau dihentikan pada alat penghubung router
+extended access list merupakan salah satu jenis access control list yang sering dan banyak digunakan untuk mengatur keamana jaringan
+pengaturan menggunakan extended access list sangat spesifik, sehingga memudahkan administrator jaringan dalam mengatur trafik data di dalam jaringan
+landasan teori melintas pada sebuah jaringan
+access control list merupakan suatu metode yang mengatur lalu lintas ip pada pintu masuk jaringan dan memfilter paket data pada saat akan melewati router apakah akan diizinkan melalui router atau ditolak
+jadi pengaturan acl ini dilakukan di dalam router yang terdapat pada sebuah jaringan
+router menguji semua paket data untuk menentukan apakah paket tersebut diijinkan untuk lewat atau tidak berdasarkan kriteria yang ditentukan di dalam access list
+standar access list dalam melakukan penyaringan paket data hanya memperhatikan alamat sumber dari paket yang dikirimkan
+sedangkan extended access list mempertimbangkan antara lain adalah alamat sumber dan alamat tujuan paket data, protokol dan jenis yang digunakan
+sehingga extended access list lebih spesifik dalam melakukan penyaringan paket data
+berlangsung sehingga menghindari permintaan akses maupun paket data yang mencurigakan dalam akses keamanan sebuah jaringan
+apabila ditemukan akses yang tidak diizinkan maka router akan langsung memblok alamat perangkat jaringan tersebut
+saat router memutuskan apakah perlu mem-forward atau memblok sebuah paket, software cisco ios mengetes paket tersebut untuk setiap statemen kriteria dalam urutan yang sesuai saat mereka dibuat
+berdasarkan sumber atau alamat tujuan, protokol yang dipilih, port yang digunakan, dan apakah koneksi sudah ditetapkan
+dengan menggunakan extended access list, kita dapat secara efektif mengizinkan akses pengguna ke lan fisik dan menghentikan mereka dari mengakses host tertentu atau hanya layanan tertentu saja dari host tersebut
+terdapat dua keadaan yang didefinisikan pada pengaturan list tersebut, yaitu permit dan deny
+perintah untuk mengkonfigurasi extended access list secara umum dapat digambarkan seperti gambar 1 berikut ini: nomor daftar akses ip extended adalah 100 hingga 199
+untuk protokol yang digunakan antara lain terdapat pada tabel i
+jenis protokol nama port informasi port nomor port tcp diperlukan kecermatan administrator jaringan dalam melakukan analisis sebelum membuatkan list di router
+pengaturan dapat dilakukan untuk tiga keadaan, yaitu network ke network, host ke network, dan host ke host
+pada tahapan ini dilakukan analisis literatur yang relevan
+literatur bersumber dari buku, jurnal ilmiah, dan penelitian yang membahas mengenai extended access list
+tahapan desain berisikan bentuk prototipe topologi jaringan yang dikembangkan
+desain ini meliputi skenario jaringan secara fisik dan juga logika
+perancangan prototipe jaringan memanfaatkan packet tracer 6.1.1
+konfigurasi dilakukan pada setiap device yang ada di dalam prototipe jaringan, antara lain adalah pc, laptop, server, dan router
+konfigurasi extended access list dilakukan di router dengan mengetikkan kode program pada jendela cli router tersebut
+pengaturan router dilakukan untuk pengendalian trafik jaringan sehingga bisa melakukan penyaringan paket data dalam jaringan
+extended access list yang telah dibuat harus dapat berjalan di dalam prototipe jaringan ini
+apabila tidak berhasil, maka kembali dilakukan tahapan konfigurasi sampai pengujian sukses penelitian ini adalah seperti gambar 2 berikut ini
+topologi jaringan yang digunakan dalam penelitian berdasarkan topologi di atas, dapat diatur pengalamatan setiap device seperti pada tabel ii
+setiap device dikonfigurasi sesuai dengan alamat yang ada pada tabel di atas
+kemudian dilakukan pemeriksaan apakah setiap komponen jaringan telah terhubung atau belum
+routing pada router server dan router client sehingga kedua router dapat saling berkomunikasi
+berikut ini adalah pengaturannya pada jendela cli masing- masing router
+router#configure terminal router #hostname router_server router_server #router rip router_server #version 2 router_server #network 192.168.0.0 router_server #network 118.97.170.0 router_server #network 10.121.45.0 router_server #network 188.125.173.0 router_server #no auto-summary - - pc keuangan 195.171.10.100 /24 router#configure terminal router #hostname router_client router_client #router rip router_client #version 2 router_client #network 192.168.0.0 router_client #network 193.169.10.0 router_client #network 195.171.10.0 router_client #network 197.173.10.0 router_client #network 199.175.10.0 router_client #no auto-summary berikut adalah pengaturan dan skenario extended access list yang diterapkan pada topologi pada penelitian ini
+server e-campus bisa diakses oleh dosen, bagian keuangan, karyawan, dan mahasiswa
+dengan demikian pada skenario ini tidak dibutuhkan pengaturan extended access list
+server keuangan hanya bisa diakses oleh bagian keuangan
+pengaturan list extended dilakukan di router server
+berikut konfigurasi extended access list untuk memblok akses ke server keuangan : a) hanya komputer bagian keuangan yang bisa mengakses http pada server keuangan
+konfigurasi pada bagian cli di router server adalah seperti berikut ini
+router_server>enable router_server#configure terminal gambar 3 di bawah ini
+daftar list extended hasil yang didapatkan adalah komputer dan laptop yang ada pada bagian dosen, keuangan, karyawan, dan mahasiswa dapat merespon pesan ping, seperti gambar 4 berikut ini
+sedangakan untuk akses protokol http didapatkan hasil bahwa perangkat yang berada di daerah dosen, karyawan, dan mahasiswa tidak dapat mengakses web yang ada pada server keuangan
+berikut ini tampilan pada browser komputer dosen, karyawan, dan mahasiswa
+komputer yang berada pada bagian keuangan dapat mengakses protokol http yang berada di server keuangan
+router_server #access-list 101 deny icmp 195.171.10.0 0.0.0.255 10.121.45.0 karyawan, dan mahasiswa tidak sukses melakukan pesan ping
+sedangkan komputer bagian keuangan dapat melakukan pesan ping
+koneksi ftp berhasil sedangkan pada komputer dosen, karyawan, dan mahasiswa tidak dapat mengakses ftp
+mail server bisa diakses oleh dosen, bagian keuangan, dan karyawan
+pada bagian ini protokol yang dikonfigurasi adalah smtp, pop3, dan dns
+berikut pengaturannya : a) konfigurasi protocol smtp dilakukan pada jendela ios router server sebagai berikut
+sedangkan komputer dosen, bagian keuangan, dan karyawan dapat terhubung ke mail server sehingga bisa mengirim dan membalas mail
+komputer mahasiswa tidak dapat mengirim mail, namun masih bisa menerima mail dari user lain gambar 11
+komputer dosen, bagian keuangan, dan karyawan bisa mengirim dan membalas mail tcp 199.175.10.0 0.0.0.255 188.125.173.0 lagi menerima mail yang dikirimkan dari user lainnya
+komputer mahasiswa tidak dapat menerima mail c) konfigurasi dns dapat dilakukan dengan perintah berikut ini
+router_server #access-list 105 deny udp 199.175.10.0 0.0.0.255 188.125.173.0 mahasiswa tidak dapat membuka domain name yang ada di mail server
+sedangkan komputer dosen, bagian keuangan, dan karyawan dapat membuka domain tersebut
+mengaktifkan telnet di router server dilakukan dengan mengetikkan perintah berikut di cli router server
+router_server #username hari password iain router_server #enable secret hari router_server #login local mahasiswa tidak bisa mengakses telnet di router server
+router_server #access-list 106 deny tcp 199.175.10.0 0.0.0.255 any eq telnet router_server #access-list 106 permit ip any any router_server #exit bagian mahasiswa tidak dapat menjalankan telnet sedangkan komputer dosen, bagian keuangan, dan karyawan dapat melakukan telnet perhatikan gambar berikut ini
+komputer dosen, bagian keuangan, dan karyawan dapat mengakses telnet v
+kesimpulan trafik jaringan dengan menyaringan paket data yang melewati router
+router akan melakukan pengecekan access list pada saat setiap paket data akan masuk pada port yang ada di router tersebut
+extended access list melakukan pengecekan terhadap beberapa atribut, yaitu alamat sumber, alamat tujuan, protokol, dan nama port
+port yang diatur adalah www/http, telnet, ftp, dan smtp
+pada penelitian ini protokol yang dikonfigurasi antaralain adalah tcp, udp, dan icmp 
+hasil dari pengaturan terhadap semua port tersebut adalah sesuai dengan konsep dan skenario yang direncanakan dalam penelitin
+sehingga dapat disimpulkan bahwa extended access list melakukan filter terhadap trafik jaringan dengan sangat spesifik sehingga mampu memberikan jaminan terhadap keamana dalam sebuah jaringan

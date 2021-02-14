@@ -1,0 +1,78 @@
+mendapatkan sebuah informasi untuk meningkatkan pelayanan dan strategi dalam pengelolaan tempat kunjungan wisata masih sedikit dan sulit dikarenakan informasi yang didapatkan masih terbatas
+media sosial memiliki peranan dalam memberikan sebuah data terhadap penilaian kunjungan wisata, sama halnya dengan tempat-tempat wisata yang berada di wilayah tegal dan sekitarnya
+pada penelitian ini model sentiment analysis diusulkan sebagai solusi untuk mengatasi permasalahan
+tujuan dari penelitian ini adalah mencari model sistem untuk memberikan sebuah informasi pendukung keputusan bagi para wisatawan dan pengelola tempat wisata untuk dijadikan sumber informasi terhadap tempat wisata yang ada
+metode penelitian yang digunakan adalah dengan melakukan eksperimen untuk mendapatkan model yang diharapkan
+pada penelitian ini metode naïve bayes dan decision tree diterapkan untuk klasifikasi teks sehingga mendapatkan model terbaik yang dihasilkan untuk diimplementasikan pada sistem sehingga model yang didapatkan dapat dijadikan sebuah sistem pendukung keputusan untuk pengembangan sistem cerdas pada pihak terkait dalam upaya peningkatan nilai jual potensi daerah khususnya bidang pariwisata
+hasil penelitian menunjukan bahwa model yang didapatkan setelah dilakukan eksperimen didapatkan tingkat akurasi naïve bayes menghasilkan 77, 50% lebih baik dibandingkan dengan menggunakan decision tree yang menghasilkan tingkat akurasi 60, 83%
+pendahuluan sedang digalakan dimanapun adalah tempat pariwisata
+saat ini indonesia mendapatkan sumber devisa yang tinggi salah satunya karena adanya pariwisata
+tempat wisata yang dijadikan tujuan destinasi para wisatawan sangat berpengaruh terhadap banyak tidaknya wisatawan yang datang ke tempat tersebut
+setiap tempat mempunyai daya tarik sendiri, sehingga sudah sewajarnya apabila pengelolaan terhadap daerah wisata tersebut harus menjadi fokus utama
+sebagai salah satu kota di jawa tengah, tegal merupakan salah satu kota yang mempunyai daerah tempat tujuan wisata yang menjanjikan dan saat ini sudah banyak orang yang mengenal daerah tempat-tempat wisata di kota ini seperti misalnya wisata pemandian air panas guci, pantai alam indah, dan yang lainnya
+sebuah pengelolaan yang tepat pada bidang pariwisata akan meningkatkan jumlah kedatangan wisatawan, sehingga akan meningkatkan sumber pandapatan daerah tersebut
+teknologi dewasa ini mempunyai peranan yang sangat siginifan terhadap berbagai hal setiap hal apapun baik itu informasi, curhatan pribadi, penilaian terhadap sesuai dan banyak lainnya masuk dalam media sosial
+sama halnya dengan review penilaian tempat tujuan wisata dimana para wisatawan yang susah pernah mengunjungi tempat tersebut biasanya melakukan review dengan membuat sebuat status atau pernyataan terhadap tempat yang mereka kunjungi, penilaian tersebut bisa saja positif, negatif ataupun bahkan netral atau biasa saja
+penilaian wisatawan terhadap tempat kunjungan wisata ini menjadi salah satu hal yang penting karena dapat dijadikan sebagai bagian dari pendukung keputusan baik itu wisatawan maupun pengelola tempat tersebut, wilayah kota tegal dan sekitarnya salah satunya
+komputerisasi yang dapat membantu dan menganalisis sebuah kalimat opini tekstual yang cara bekerjanya adalah dengan memahami dan mengekstraknya seperti halnya text mining sehingga menghasilkan sebuah informasi sentiment
+penelitian terhadap sentimen tersebut seperti yang telah dilakukan untuk penilaian tempat penjualan makanan kulineryang kemudian hasil penelitian tersebut dikembangkan
+melakukan penelitian terkait sebuah pendukung keputusan yang dengan menggunakan text mining yang berasal dari media sosial twitter dengan menerapkan sebuah artificial intelligent algoritma neural network terhadap tempat wisata di kota negara spanyol
+pada penelitian ini yang menjadi target utama adalah hotel di tempat wisata tersebut
+diterapkan pada sebuah travel wisata kapal pesiar
+data yang ada analisis dan diolah dengan menggunakan pola bigdata analytic dengn tujuan sebagai pendukung keputusan dalam marketing wisatawan
+pada penelitian ini hasil analisis dari setiap tweets dimasukan kedalam tiga tipe grup pengguna, yaitu commercial, news/blog, dan private
+berdasarkan hasil penelitian yang didapatkan digunakan sebagai stategi dalam marketing
+penelitian selanjutnya dilakukan oleh statiswaty, dkk, melakukan penelitian analisis sentimen terhadap wisata bahari yang terdapat di sulawesi tenggara
+pada penelitian ini dimanfaatkan data yang besala dari media sosial twitter dengan menerapkan metode yang berbasiskan lexicon
+berdasarkan hasil penelitian didapatkan sistem yang ada mampu memberikan informasi tentang opini positif, negatif dan netral masyarakat terhadap wisata bahari di sulawesi tenggara dengan tingkat akurasi sebesar 77, 06%
+query expansion rangking melakukan penelitian untuk sentiment analysis terhadap pariwisata di kota malang
+dari hasi pengujian penelitian ini uji akurasi dengan menggunakan variasi rasio seleksi fitur menghasilkan akursi terbaik 86, 6%
+penelitian lain adalah terkait dengan penilaian opini terhadap sebuah produk dengan menggunakan naïve bayes
+artikel penelitian ini, model sentiment analysis dipergunakan untuk menganalisis review penilaian wisatawan terhadap tempat tujuan wisata khususnya di kota tegal dan sekitarnya dengan cara mengklasifikasikan antara yang beropini positif dan negatif
+pada penelitian ini diterapkan algoritma naïve bayes dan decision tree untuk mendapatkan model terbaik dengan tingkat akurasi tertinggi untuk mengklasifikasikan sentimen opini dari data yang telah didapatkan
+penilaian wisatawan terhadap tujuan wisata di kota tegal sebagai pendukung keputusan dalam pengelolaan tempat wisata sehingga lebih berpotensi menjadi tujuan wisata yang menjanjikan
+naïve bayes suatu hipotesis adalah naïve bayes
+algoritma ini bekerja dengan cara mengklaisifikasikan kelas berdasarkan pada probabilitas sederhana dimana dalam hal ini diasumsikan setiap atribut pada data yang ada sifatnya saling tepisah
+sebagai salah satu metode yang cukup sederhana, metode ini mencoba mengklasifikasikan data berdasarkan probabilitas p atribut x dari setiap kelas y suatu data
+adapun persamaan rumus metode tersebut adalah seperti pada persamaan dan berikut: dimana: dilakukan proses pemilihan kelas yang optimal sehingga dipilih suatu nilai peluang terbesar dari setiap probabilitas kelas yang ada
+dalam pembobotan suatu atribut kelas maka dapat meningkatkan pengaruh sutu prediksi, dan dengan memeprhitungkan bobot atribut terhadap kelas maka akan menjadi sebuah titik point dasar ketepatan dalam klasifikasi dan bukan hanya probabilitas melainkan juga pada bobot setiap antar kelas, melalui persamaan berikut: ) sebagai nilainya adalah cabang phon tersebut, serta kelas direpresentasikan sebagai kelas
+dalam hal ini node yang paling atas dari sebuah decision tree dinamakan sebagai root, seperti digambarkan pada gambar 1
+sebuah decision tree sangat tergantung kepada sebuah aturan if- then, tetapi tidak membutuhkan parameter dan matrik
+algoritma c4.5 merupakan algoritma berbasis supervised learning dan merupakan pegembangan dari algoritma id3 
+dengan komentar-komentar opini yang diperoleh dari situs www.google.com/maps terhadap opini review tempat tujuan wisata di kota tegal dan sekitarnya tahun 2017 sampai dengan 2018
+data yang diperoleh adalah berjumlah sebanyak 120 data file teks dengan isi jumlah kata yang berbeda tiap file-nya
+review data opini yang digunakan adalah salah satu tempat wisata di tegal yaitu pemandian air panas guci, seperti pada gambar 2
+2 contoh data opini teks yang digunakan b
+prapocessing data mendapatkan data yang sesuai dengan yang diinginkan sebelum dilakukannya proses analisis data kedalam model yang diinginkan
+pada tahapan ini dilakukan beberapa hal untuk mendapatkan data yang sesuai diantaranya adalah proses tokenisasi, stopword, dan pembobotan data
+1) tokenisasi: pada tahapan ini adalah dilakukan pemisahan kata dari sebuah kalimat menjadi token-token yang dipisahkan oleh spasi ataupun tanda baca
+2) filter tokens : proses ini adalah pembatasan panjang karakter minimum dan maksimeum yang digunakan pada tahapan praprocessing data
+pada penelitian ini ditentukan karakter minimum= 3 dan karakter maksimum=25
+tidak sesuai dengan yang diinginkan, pada tahapan ini dilakukan untuk mengoptimalkan data teks terhadap kata- kata yang tidak sesuai
+pada proses ini setiap kata yang akan diproses adalah hanya kata berbahasa indonesia
+4) pembobotan tf-idf: proses ini dilakukan untuk mendapatkan nilai bobot dari data inputan teks yang akan dimasukan kedalam model yang akan digunakan
+nilai bobot pada term frequency-inversed document frequency tahapan ini didapatkan berdasarkan frequensi kata yang muncul
+untuk melihat hasil yang diinginkan pada model yang diharapkan, validasi data menggunakan k-fold cross validation
+pada proses ini memperlihatkan sebuah hasil tingkat akurasi dari model yang diusulkan
+evaluasi sistem dilakukan dengan membandingkan komparasi tingkat akurasi klasifikasi opini positif dan negatif dengan menggunakan dua model yang berdeda yaitu naïve bayes dan decision tree sehingga memperlihatkan model yang diharapkan dengan tingkat akurasi yang terbaik
+kerangka metode yang diusulkan seperti diperlihatkan pada gambar 3
+3 kerangka metode yang diusulkan • untuk harga kamar 1 juta lebih dimusim liburan, pelayanan nya jelek, gua bawa barang banyak gotong sendiri ke lantai 2, pesen indomie goreng gak di aduk bumbunya, plis dah ini cuaca dingin ya mie nya kaku, jadi susah ngaduknya, jadi asin trus hambar rasa mie nya
+besok nya gua lebih kecewa lagi dengan lagunya, ini liburan keluara live music nya lagu galau atau dangdut dengan setelan bass yang kegedean, sulit buat tenang untuk istirahat setelah capek berenang
+• klo pulkam pasti selalu kesini pemandangan yg keren dan tiket masuk terjangkau dan jalan.y gak terlalu jauh dari rumah mertua • fasilitas bersih, full cctv, no preman korespondensi : oman somantri 194 iv
+hasil dan pembahasan software rapidminer untuk mendapatkan model yang sesuai dan diinginkan
+spesifikasi komputer menggunakan sistem operasi window 7 sp1 dan memori core i5 4gb
+hasil eksperimen model naïve bayes pada hasil eksperimen dalam mencari model terbaik dengan menggunakan naïve bayes, telah didapatkan hasil seperti pada tabel i dan gambar 4
+tabel i k- fold model naïve bayes adalah sebesar 77, 50% dengan menggunakan k-fold=8 secara stratified sampling
+untuk tingkat akurasi tertinggi secara liner sampling adalah sebesar 72, 50% dengan menggunakan k-fold=10, dan secara suffled sampling menggunakan k-fold=8 tingkat akurasi tertinggi yang dihasilkan adalah 74.17%
+hasil decision tree decision tree ditentukan terdapat parameter yang telah ditetapkan yaitu criterion, diantaranya adalah gain ratio, information gain, dan gini index
+terjadi perbedaan tingkat akurasi dari model yang dihasilkan sesuai dengan parameter dari masing-masing criterion tersebut
+hasil eksperimen dari tingkat kaurasi model yang dihasilkan adalah seperti pada tabel ii, tabel iii, dan tabel iv
+tingkat akurasi tertinggi yang diperoleh pada tabel ii dengan menggunakan decision tree menggunakan parameter criterion gain_ratio secara shuffled sampling adalah sebesar 60, 68% dengan fold=7
+untuk hasil yang didapatkan dengan menggunakan criterion information gain adalah tertingggi sebesar 55, 83% dan gini index tertinggi sebesar 59, 83%
+untuk hasil terendah menghasilkan model dengan tingkat akurasi sebesar 57, 50% dengan menggunakan criterion gini_indek dan fold=6
+evaluasi model yaitu naïve bayes dan decision tree, maka tingkat akurasi yang tertinggi diperlihatkan pada tabel v
+tabel v no model accuracy 2 decision tree 60.83% berdasarkan pada tabel v dan gambar 4, terlihat bahwa berdasarkan hasil evaluasi tingkat akurasi tertinggi dari model yang telah didapatkan adalah sebesar 73, 33% dengan menggunakan metode naïve bayes, sedangkan decision tree hanya menghasilkan tingkat akurasi sebesar 60, 83 lebih kecil dibandingkan dengan metode nb
+didapatkan diperoleh berdasarkan pengaturan nilai-nilai parameter yang dilakukan sehingga tingkat akurasi yang didapatkan lebih baik dibandingkan dengan decision tree
+kesimpulan tingkat sentiment opini pengunjung wisata memberikan sebuah informasi yang dapat dijadikan sebagai pendukung keputusan dalam proses pengelolaan tempat wisata, dengan diterapkannya metode text mining dalam pembuatan model sentiment analysis penilaian tujuan tempat wisata di tegal dan sekitarnya memberikan sebuah solusi yang tepat dalam membuat sebuah keputusan bagi para pengambil kebijakan
+diperlukan adanya sebuah optimasi baik itu dengan menggunakan metode feature weight atau feature selection sehingga diharapkan dapat menemukan model terbaik yang dapat menaikan tingkat akurasi dari hasil yang ada sekarang
+terimakasih disampaikan kepada seluruh pihak yang telah membantu dan memfasilitasi kegiatan penelitian ini

@@ -1,0 +1,78 @@
+perkembangan teknologi informasi di bidang edukasi, salah satunya adalah teknologi augmented reality yang dapat dimanfaatkan sebagai media pembelajaran multimedia termasuk media pembelajaran pembelahan sel
+pada saat ini metode pembelajaran yang digunakan dalam penyampaian materi pembelahan sel yaitu menggunakan media buku dikarenakan pembelahan sel sulit dilihat dengan kasat mata dan hanya dapat dilihat dengan menggunakan alat bantu lihat seperti mikroskop
+teknologi augmented reality dapat dimanfaatkan sebagai media pembelajaran multimedia karena dapat menampilkan objek 3 dimensi beserta animasinya yang seakan-akan ada pada lingkungan nyata menggunakan media kamera
+untuk membangun aplikasi augmented reality berbasis android digunakan game engine unity dan menggunakan tools vuforia sdk
+disertai dengan sebuah buku katalog yang berisi marker, jika kamera diarahkan ke marker tersebut maka dapat menampilkan visualisasi objek 3d
+aplikasi ini bermanfaat sebagai media pembelajaran siswa sekolah menengah atas, yaitu pada materi pembelahan sel
+pada hasil pengujian pre test dan post test yang telah dilakukan, untuk kelompok siswa yang belajar menggunakan media buku biologi memiliki persentase kenaikan nilai sebesar 58 %, sedangkan pada kelompok belajar menggunakan aplikasi augmented reality memiliki persentase kenaikan nilai sebesar 87.26%, yang berarti teknologi augmented reality dapat diterapkan sebagai media pembelajaran pembelahan sel
+pendahuluan sudah sangat jauh mengalami peningkatan dan hampir merata kesemua bidang, khususnya pada bidang pendidikan
+di tingkat sma jurusan ipa terdapat banyak sekali materi yang diajarkan, salah satunya adalah tentang pembelahan sel seperti yang diajarkan pada kelas xii sma 9 pontianak
+dalam mata pelajaran ini membahas tentang pembelahan sel yang terbagi menjadi beberapa tahap yaitu mitosis, meiosis dan amitosis
+pada saat ini metode pembelajaran yang digunakan dalam penyampaian materi pembelahan sel yaitu menggunakan media buku
+sedangkan materi tentang pembelahan sel ini sangat sulit di saksikan dalam kehidupan sehari-hari tanpa menggunakan alat bantu lihat yaitu seperti mikroskop
+walapun demikian berbagai teknologi dapat digunakan sebagai penunjang pembelajaran dengan menampilkan visual 3 dimensi dari objek sel
+contoh penerapan teknologi itu adalah augmented reality
+secara umum, augmented reality adalah perpaduan benda nyata dan benda 3d yang mempunyai penggabungan secara alami melalui sebuah proses komputeristik, seolah-olah terlihat nyata seperti ada dihadapan kita
+dengan teknologi tampilan yang sesuai melalui perangkat- perangkat input tertentu
+objek 3d ke dalam lingkungan nyata menggunakan media kamera
+kelebihan metode augmented reality ini adalah tampilan visual yang menarik, karena dapat menampilkan objek 3d beserta animasinya yang seakan-akan ada pada lingkungan nyata
+metode augmented reality juga memiliki kelebihan dari sisi interaktif karena menggunakan marker untuk menampilkan objek 3d tertentu yang diarahkan ke kamera
+berdasarkan hal diatas, penulis membuat suatu aplikasi media pembelajaran tentang pembelahan sel dengan memanfatkan teknologi augmented reality
+diharapkan hal ini dapat digunakan sebagai salah satu alternatif metode pembelajaran dalam materi pembelahan sel yang terdapat pada kelas xii sma, serta dapat meningkatkan minat siswa dalam menerima materi pelajaran
+pembelahan sel tahap-tahap ini bertujuan untuk mengatur informasi genetic induk yang akan diturunkan kepada sel anakan
+berdasarkan ada atau tidaknya tahap-tahap tertentu dalam pembelahan sel, pembelahan sel dibagi menjadi tiga, yaitu amitosis, mitosis, dan meiosis
+objek 3d ke dalam lingkungan nyata menggunakan media webcam
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+objek maya yang digabungkan ke dalam lingkungan nyata berfungsi menampilkan informasi yang tidak dapat di terima oleh manusia secara langsung
+hal ini membuat augmented reality berguna sebagai alat untuk membantu persepsi dan interaksi penggunanya dengan dunia nyata
+informasi yang ditampilkan oleh objek yang ditampilkan membantu pengguna melaksanakan kegiatan-kegiatan dalam dunia nyata
+lean touch lean touch adalah sebuah library masukan yang dapat membuat sebuah gerakan penanganan sangat mudah di semua perangkat dan resolusi
+leantouch juga menggabungkan mouse dan sentuhan masukan, sehingga hanya perlu menulis kode masukan sekali dan itu akan bekerja sempurna di perangkat desktop dan mobile
+dengan ini memungkinkan anda untuk mensimulasikan beberapa gerakaj jari menggunakan mouse, sehingga anda dengan mudah dapat mengujikan masukan anda tampa menyebarkan ke perangkat
+unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+activity diagram activity diagram adalah sebuah diagram alur kerja yang menjelaskan berbagai kegiatan pengguna atau sistem, orang yang melakukan masing-masing aktivitas dan aliran sekuensial dari aktivitas-aktivitas tersebut
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem aplikasi yang telah dibangun dipasangkan ke dalam android
+aplikasi yang dijalankan kemudian akan mengakses kamera yang ada di android
+kemudian tempatkan kamera android di atas marker
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika valid aplikasi akan menampilkan objek 3d dari gambar ke layar android
+pengujian aplikasi pengujian marker, black-box, kompatibilitas dan pre test dan post test kepada 24 siswa
+hasil aplikasi yang dibangun merupakan penerapan dari teknologi augmented reality berbasis android
+dibangunnya aplikasi arpsel bertujuan sebagai media pembelajaran multimedia pembelahan sel khususnya pada pembelahan sel mitosis, miosis, amitosis pada mata pelajaran biologi
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 6
+tampilan menu utama gambar 3 merupakan tampilan dari menu utama aplikasi gambar 4
+tampilan menu arpsel menampilkan objek 3 dimensi gambar 4 merupakan tampilan menu arpsel dimana di dalam menu ini akan ditampilkan objek 3 dimensi
+tampilan menu arpsel menampilkan animasi objek 3 dimensi gambar 5 merupakan tampilan menu arpsel saat menampilkan animasi objek 3 dimensi
+tampilan menu arpsel menampilkan informasi gambar 6 merupakan tampilan tampilan menu arpsel saat menampilkan informasi dan narasi
+pengujian marker pengujian marker dilakukan untuk mengetahui berapa banyak objek 3 dimensi yang muncul dari 16 marker yang ada di buku biologi kelas xii sma
+pada tabel 1, memperlihatkan hasil pengujian marker yang gambarnya berasal dari buku biologi kelas xii sma
+tabel 1 tabel hasil pengujian marker 2 gambar 4.3 profase tidak 3 gambar 4.4 metafase muncul 4 gambar 4.5 anafase muncul 5 gambar 4.6 telofase tidak 6 gambar 4.7 sel tumbuhan muncul 7 gambar 4.8 sel hewan muncul 8 gambar 4.9 profase i muncul 9 gambar 4.10 tahap metafase i tidak 10 gambar 4.12 tahap anafase i muncul 11 gambar 4.13 tahap metafase i tidak 12 gambar 4.14 tahap telofase i tidak 13 gambar 4.15 tahap profase ii tidak 14 gambar 4.16 tahap metafase ii tidak muncu 15 gambar 4.17 tahap telofase ii muncul 16 gambar 4.18 amtitosis pada bakteri muncul 2
+pengujian black-box pengujian black-box pada aplikasi semua tombol animasi, info text, info suara serta fitur memperbesar dan memperkecil objek 3d berfungsi dengan baik
+pengujian kompatibilitas hasil pengujian kompatibilitas dari 20 smartphone, terdapat 1 jenis merk smartphone yang tidak dapat menjalankan aplikasi dengan baik
+pre test dan post test pertama-tama siswa di berikan soal pre test, setelah menyelesaikan soal pre test tersebut, siswa yang berjumlah 24 di bagi menjadi dua kelompok berdasarkan nomor urut absen genap dan ganjil
+siswa bernomor absen ganjil diminta mempelajari materi sel penyusun jaringan pada sistem gerak menggunakan media buku yaitu pada buku biologi kelas xii sma, sedangkan siswa bernomor absen genap diminta mempelajari materi pembelahan sel menggunakan aplikasi augmented reality pada smartphone dan buku katalog yang telah disiapkan
+kemudian di lakukan post test dengan soal yang sama dan jumlah soal yang sama yaitu sebanyak 25 soal setelah itu di dapatlah data pengujian pre test dan post test yang akan di hitung serta di analisis untuk mendapatkan kesimpulan dari pengujian pre test dan post test yang dilakukan
+berikut beberapa grafik rata - rata nilai dan grafik persentase kenaikan nilai, yang diperlihatkan pada gambar 7 dan gambar 8
+grafik nilai rata – rata pre test dan post test gambar 8
+analisis hasil pengujian pengujian yang di peroleh dari aplikasi augmented reality pembelahan sel sebagai berikut
+pengujian marker yang dilakukan dari 16 marker yang terdapat dalam buku biologi kelas xi materi pembelahan sel, marker yang terdeteksi sebanyak 10 marker dan yang tidak terdeteksi sebanyak 6 marker, hal ini di karenakan ukuran gambar yang terlalu kecil dan gambar yang dihasilkan oleh vuforia yang kurang memberikan texture yang baik dan kurangnya pencahayaan sehingga mengakibatkan proses inisialiasi marker oleh kamera tidak dapat bekerja dengan baik
+pengujian black-box pada pada aplikasi semua tombol animasi, info text, info suara serta fitur memperbesar dan memperkecil objek 3d berfungsi dengan baik
+pengujian pre test dan post test pada kelompok belajar menggunakan buku pelajaran mengalami peningkatan nilai yaitu dari rata-rata nilai 33, 33 meningkat menjadi rata-rata nilai 52, 66, akan tetapi pada kelompok belajar menggunakan buku terdapat satu siswa yang mempunyai nilai tetap pada saat pre test dan post test yaitu siswa bernomor absen 1 dengan nilai 36
+hal ini disebabkan kurangnya motivasi untuk mendapatkan nilai yang lebih tinggi dalam mengerjakan soal yang di berikan
+pengujian pre test dan post test pada kelompok belajar menggunakan aplikasi arpsel mengalami peningkatan nilai rata-rata yaitu 34 menjadi 63, 66667
+hal ini disebabkan tingginya motivasi siswa untuk mendapatkan nilai yang lebih tinggi dalam mengerjakan soal post test yang diberikan setelah belajar dengan menggunakan aplikasi
+hal ini dikarenakan metode belajar menggunakan aplikasi yang menambahkan objek 3d dan memiliki animasi serta memberikan pengetahuan yang tidak didapatkan siswa saat belajar menggunakan buku
+pengujian kompatiblitas dilakukan dengan memasangkan aplikasi augmented reality pembelahan sel pada 20 smartphone dan tablet yang berbeda dengan tujuan untuk melihat apakah aplikasi dapat berjalan dengan baik pada perangkat smartphone yang telah diinstalkan, 19 smartphone dan tablet dapat menjalankan aplikasi dengan baik, tetapi terdapat 1 jenis merk smartphone yang tidak dapat menjalankan aplikasi dengan baik
+hal ini disebabkan sistem oleh banyaknya ram yang terpakai oleh aplikasi lain yang terdapat pada smartphone sehingga tidak dapat menjalakan aplikasi arpsel dengan baik
+dapat disimpulkan bahwa aplikasi augmented reality pembelahan sel berdasarkan hasil pengujian marker dapat menampilkan 10 marker dari 16 marker
+pada pengujian black- box yang dilakukan semua tombol animasi, info text, info suara serta fitur memperbesar dan memperkecil objek3d dapat berjalan dengan baik
+pada pengujian kompatibilitas terdapat 1 jenis merk smartphone yang tidak dapat menjalankan aplikasi denan baik
+dan berdasarkan pengujian pre test dan post test augmented reality pembelahan sel dapat membantu siswa dalam belajar tentang materi pembelahan sel yang ada di mata pelajaran biologi kelas xii sma

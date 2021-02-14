@@ -1,0 +1,86 @@
+ubmitted 24-01-2018; revised 27-01-2018; accepted 30-01-2018 34 implementasi augmented reality pada mata pelajaran biologi untuk pengenalan alat indra manusia dengan menggunakan metode marker andini afriyanti lestari#1, rudy dwi nyoto#2, anggi srimurdianti sukamto#3 #program studi teknik informatika universitas tanjungpura 1andiniaaf@gmail.com 2rudydn@informatika.untan.ac.id 3anggidianti@informatika.untan.ac.id untuk itu penerapan teknologi augmented reality di bidang multimedia diharapkan dapat dijadikan sebagai media belajar interaktif baru untuk guru dan siswa
+pada penelitian ini aplikasi berbasis augmented reality yang dibuat yaitu dengan metode marker dimana menggunakan suatu penanda untuk pendeteksian objek dalam menggabungkan dunia digital dan dunia nyata
+terdapat 5 marker yang menjadi penanda untuk menampilkan animasi dan objek 3d serta informasi dari alat indra manusia, informasi yang disampaikan meliputi suara dan teks yang mampu membuat aplikasi menjadi interaktif
+aplikasi ini bermanfaat bagi siswa sma yang mempelajari alat indra manusia
+dari hasil persentase pada pengujian pre test dan post test untuk kenaikan nilai kelompok siswa yang belajar menggunakan buku mata pelajaran biologi diperoleh persentase kenaikan sebesar 27, 84%, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi augmented reality alat indra diperoleh persentase kenaikan sebesar 34, 30% yang berarti kelompok siswa yang belajar menggunakan aplikasi augmented reality alat indra memiliki persentase kenaikan nilai yang lebih tinggi dari kelompok siswa yang belajar menggunakan buku mata pelajaran biologi
+dari perhitungan persentase kenaikan nilai dapat disimpulkan bahwa, augmented reality dapat diterapkan sebagai media pembelajaran alat indra manusia
+marker macam materi yang diajarkan, salah satunya pelajaran mengenai alat indra pada manusia yang diajarkan pada kelas xi sma
+alat indra pada manusia merupakan reseptor yang berfungsi menerima rangsang
+alat indra manusia sering disebut juga panca indra, karena terdiri dari lima indra yaitu kulit, lidah, hidung, telinga, dan mata
+selama ini penyampaian materi mengenai alat indra pada manusia hanya menggunakan gambar ataupun video yang ditunjukkan secara langsung oleh pengajar
+sementara itu untuk lebih memahami materi pembelajaran dan mempermudah penyampaian materi mengenai alat indra manusia agar dapat membantu menarik perhatian siswa, maka dengan mempresentasikan alat indra berserta fungsi dan bagiannya secara virtual tiga dimensi sangatlah diperlukan dalam proses pembelajaran
+dengan demikian siswa dapat berinteraksi secara langsung dan lebih paham tentang materi yang ditampilkan
+untuk itu penerapan teknologi augmented reality di bidang multimedia sangat diperlukan dalam media pembelajaran yang diharapkan dapat dijadikan sebagai media belajar interaktif baru untuk guru dan siswa
+augmented reality merupakan salah satu teknologi di bidang multimedia yang dapat menggabungkan objek digital ke dunia nyata dengan kata lain merupakan perpaduan dunia digital dan dunia nyata, yang di dalam penerapannya menggunakan media kamera
+terdapat dua metode augmented reality yaitu marker dan merkerless, implementasi teknologi augmented reality yang akan dijadikan media pembelajaran untuk alat indra manusia ini menggunakan metode marker dimana dengan menggunakan suatu penanda dalam pendeteksian objek untuk korespondensi : andini afriyanti lestari 35 menggabungkan objek digital ke dunia nyata, dengan menggunakan perangkat mobile android
+penelitian ini akan membuat sebuah aplikasi media pembelajaran yang mengimplementasikan augmented reality dalam pengenalan alat indra manusia dengan menggunakan metode marker berbasis android
+aplikasi ini diharapkan menjadi alternatif baru media pembelajaran dalam pengenalan alat indra manusia pada mata pelajaran biologi kelas xi sma
+alat indra ujung saraf sensorik tertentu disebut alat indra
+penerima rangsang pada indra sangat spesifik terhadap macamnya rangsang
+ada 5 macam alat indra pada tubuh manusia, yaitu indra penglihat, indra pendengar, indra peraba dan perasa, indra pencium, dan indra pengecap
+augmented reality nyata dan maya di lingkungan nyata, berjalan secara interaktif dalam waktu nyata, dan terdapat integrasi antar benda dalam tiga dimensi, yaitu benda maya terintegrasi dalam dunia nyata
+ini terbagi menjadi dua metode, yaitu marker based tracking dan markerless augmented reality
+ar berbasis marker, disebut juga pelacakan berbasis marker, merupakan tipe ar yang mengenali marker dan mengidentifikasi pola dari marker tersebut untuk menambahkan suatu objek virtual ke lingkungan nyata
+marker merupakan ilustrasi persegi hitam dan putih dengan sisi hitam tebal, pola hitam di tengah persegi dan latar belakang putih
+sedang berkembang adalah metode markerless, dengan metode ini pengguna tidak perlu lagi menggunakan sebuah marker untuk menampilkan elemen-elemen digital
+mencakup sistem operasi, middleware dan aplikasi
+android menyediakan platform terbuka bagi para pengembang untuk menciptakan aplikasi mereka
+yang merupakan pendatang baru yang membuat perangkat lunak atau software untuk smartphone
+unified modelling language unified modeling language adalah standar pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsiapa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+class diagram memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+usecase dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+activity diagram menjelaskan berbagai kegiatan pengguna atau sistem, orang yang melakukan masing-masing aktivitas dan aliran sekuensial dari aktivitas-aktivitas tersebut
+arsitektur sistem desain arsitektur sistem akan ditunjukan pada gambar 1
+pengguna menjalankan aplikasi yang sudah dibangun dan telah ditambahkan pada android
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika valid aplikasi akan menampilkan objek 3d serta animasi 3d dan informasi dari alat indra ke layar android
+pengujian aplikasi pengujian marker, pengujian kompatibilitas aplikasi serta pre test dan post test kepada 22 siswa
+aplikasi ini bertujuan menghasilkan sebuah aplikasi augmented reality yang dapat diimplementasikan sebagai media pembelajaran dalam penyampaian materi mengenai alat indra manusia pada mata pelajaran biologi
+yang diperlihatkan pada gambar 3 sampai dengan gambar 12
+gambar 3 merupakan tampilan dari halaman loading aplikasi gambar 4
+tampilan halaman menu utama gambar 4 merupakan tampilan halaman menu utama pada aplikasi augmented reality alat indra
+tampilan menu ar mode gambar 5 merupakan tampilan menu ar mode dimana didalam menu ini akan ditampilkan animasi dari objek 3d
+tampilan menu ar mode menampilkan tentang informasi 3d informasi penjelasan dari objek 3d yang ditampilkan
+tampilan menu ar mode menampilkan bagian dari alat indra menampilkan bagian alat indra
+bagian dari alat indra informasi penjelasan dari bagian objek 3d
+tampilan halaman untuk memulai kuis gambar 9 merupakan tampilan halaman muntuk memulai kuis dari aplikasi
+jawaban pada kuis jawaban pada kuis
+gambar 11 merupakan tampilan aplikasi untuk menampilkan petunjuk dari aplikasi
+gambar 12 merupakan tampilan aplikasi untuk menampilkan informasi mengenai aplikasi
+gambar 12 merupakan tampilan aplikasi untuk berhenti menjalankan aplikasi
+marker yang gambarnya berasal dari buku kelas x sma
+pengujian ini dilakukan untuk melihat apakah objek 3d dapat tampil atau tidak
+pengujian ini dilakukan setelah menginstalkan aplikasi pada perangkat yang akan dijalankan siswa sebelum pre test dan post test
+kamera belakang 5 yaitu: smartphone android dengan sistem operasi versi 4.3 hingga versi 7.0 
+pengujian eksekusi menu dan fitur yang ada berjalan pada setiap perangkat smartphone android
+adanya perbedaan ukuran tombol pada aplikasi di setiap perangkat smartphone, dikarenakan adanya perbedaan ukuran resolusi layar pada setiap smartphone
+pre test dan post test pengujian pre test dan post test dilakukan pada tanggal 20 november 2017, pada siswa kelas xi ipa di sma negeri 2 mempawah
+soal yang diujikan terdiri dari 30 butir soal pre test dan 30 butir soal post test
+penggujian ini dilakukan dengan membagi dua kelompok siswa dengan absen genap dan siswa dengan absen ganjil
+untuk siswa dengan absen ganjil tanpa menggunakan aplikasi yaitu dengan mengggunakan buku pelajaran sedangkan siswa dengan absen genap mengggunakan aplikasi
+hasil rata-rata post test lebih tinggi daripada pre test
+berikut gambar 13 merupakan grafik perbandingan nilai rata-rata pre test dan rata-rata post test
+grafik nilai rata-rata pre test dan rata-rata post test
+kenaikan nilai dari pre test ke nilai post test
+analisis hasil pengujian disimpulkan beberapa hasil analisis dari aplikasi ar alat indra yang akan dijelaskan sebagai berikut
+dari pengujian marker, objek 3d yang muncul dari 5 marker yang digunakan dalam buku biologi kelas xi sma berjumlah 5 objek, jadi semua objek 3d sesuai marker nya masing-masing dapat muncul pada aplikasi
+semua marker dapat muncul dikarenakan marker yang di-detect sesuai dengan image target yang ada pada web vuvoria yang telah di-upload, dari image target tersebut akan menampilkan titik marking yang akan menginisialisasi image recognition yang berfungsi sebagai trigger untuk memanggil objek 3d sehingga objek 3d tampil sesuai markernya masing-masing
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh bahwa aplikasi dapat berjalan pada perangkat smartphone android dengan sistem operasi versi 4.3 hingga versi 7.0 
+hal tersebut sesuai dengan yang ada pada batasan masalah yang dibuat yaitu aplikasi mampu dijalankan pada android minimal versi 4.1, karena pada pengaturan di unity sendiri untuk aplikasi ar alat indra ini platform android yang digunakan telah diterapkan minimum untuk versi 4.1 dan target settingan untuk versi diatas 4.1 sudah dipilih yang otomatis, jadi aplikasi mampu untuk berjalan pada perangkat dari mulai 4.1 hingga versi diatasnya
+berdasarkan hasil pengujian kompatibilitas aplikasi, aplikasi yang di instalkan ke perangkat android berjalan lancar dan diperoleh hasil bahwa tampilan pada beberapa perangkat smartphone android memiliki perbedaan, hal ini disebabkan perbedaan ukuran dan resolusi pada setiap layar smartphone android
+berdasarkan hasil pengujian pre test dan post test, untuk kelompok siswa yang belajar menggunakan buku mata pelajaran biologi memperoleh nilai rata-rata 53, 32 untuk pre test dan 68, 17 untuk nilai post test, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi augmented reality alat indra memperoleh nilai rata-rata 53, 02 untuk pre test dan 71, 20 untuk nilai post test
+kemudian untuk persentase kenaikan nilai dari pre test ke post test, siswa yang belajar menggunakan buku mata pelajaran mendapat kenaikan sebesar 27, 84%, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi ar alat indra mendapat kenaikan sebesar 34, 30%
+lebih tinggi dibandingkan menggunakan buku, hal tersebut dipengaruhi oleh media belajar dari masing- masing kelompok
+dimana saat pengujian dilakukan pada pukul 13.00 wib, kelompok belajar yang menggunakan aplikasi alat indra terlihat lebih tertarik dan fokus dalam memahami materi
+hal tersebut dikarenakan siswa melihat sesuatu yang baru dalam penyampaian materi, dimana pembelajaran dengan aplikasi augmented reality mampu menarik minat siswa dengan memiki tampilan yang interaktif berisikan materi-materi yang terpaparkan berupa visualisasi dari alat indra berbentuk animasi dan objek 3d
+sedangkan untuk kelompok belajar yang menggunakan buku pelajaran terlihat lebih cepat bosan dan tidak fokus karena penjelasan mengenai alat indra yang sama hal nya sudah sering mereka lakukan didalam proses pembelajaran sebelumnya
+aplikasi augmented reality alat indra dapat menarik minat siswa untuk mempelajari materi pelajaran mengenai alat indra, maka dari itu aplikasi mampu untuk diimplementasikan sebagai media pembelajaran dalam penyampaian materi mengenai alat indra manusia pada mata pelajaran biologi
+kesimpulan pengujian terhadap aplikasi augmented reality alat indra manusia dapat disimpulkan bahwa: menampilkan objek 3d alat indra manusia
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh bahwa aplikasi dapat berjalan pada perangkat smartphone android dengan sistem operasi versi 4.3 hingga versi 7.0 
+berdasarkan perhitungan persentase kenaikan nilai, untuk kelompok siswa yang belajar menggunakan buku mata pelajaran biologi diperoleh persentase kenaikan sebesar 27, 84%, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi augmented reality alat indra diperoleh persentase kenaikan sebesar 34, 30% yang berarti kelompok siswa yang belajar menggunakan aplikasi augmented reality alat indra memiliki persentase kenaikan nilai yang lebih tinggi dari kelompok siswa yang belajar menggunakan buku mata pelajaran biologi
+disimpulkan bahwa, augmented reality dapat diterapkan sebagai media pembelajaran alat indra manusia

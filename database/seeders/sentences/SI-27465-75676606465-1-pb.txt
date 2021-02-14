@@ -1,0 +1,103 @@
+sarana yang digunakan oleh mahasiswa politeknik caltex riau untuk berdiskusi atau memberikan informasi saat ini yaitu email, melalui mailing list allmhs@pcr.ac.id
+berdasarkan survei pertama yang dilakukan kepada seluruh mahasiswa pcr terkait pengunaan mailing list melalui kuisioner pada google form, dari 147 responden yang mengisi, 73% menganggap bahwa pesan yang dikirim ke mailing list allmhs@mahasiswa.pcr.ac.id sering tidak digunakan sebagaimana mestinya
+berdasarkan survei kedua yang dilakukan kepada seluruh mahasiswa pcr terkait kebutuhan forum diskusi dan pemberi informasi melalui kuisioner pada google form, dari 91 responden yang mengisi, 93% menyatakan bahwasanya mahasiswa membutuhkan sebuah forum diskusi berbasis web yang dapat mengkategorikan diskusi
+oleh karena itu dibangun sebuah forum diskusi berbasis web untuk mahasiswa pcr yang juga dapat memilah topik diskusi secara otomatis menggunakan algoritma k-nn
+dilakukan uji coba terhadap sistem, hasil uji cross validation dengan menguji 25 data training didapatkan akurasi sebesar 80%, pengujian juga dilakukan menggunakan k-fold cross validation untuk mendapatkan nilai k terbaik yang menghasilkan akurasi tertinggi dari nilai k yang lainnya
+latar belakang email adalah satu teknologi yang digunakan untuk mengirim atau menerima sebuah pesan atau informasi
+pcr adalah salah satu lembaga pendidikan yang menggunakan email sebagai media untuk memberikan informasi kepada seluruh sivitas akademik yang ada di dalamnya
+email menyediakan fasilitas grup yang dinamakan mailing list, yang terdiri dari kelompok-kelompok tertentu
+pcr memiliki beberapa mailing list salah satunya mailing list untuk mahasiswa
+seluruh mahasiswa pcr tergabung ke dalam mailing list allmhs@pcr.ac.id, untuk memberikan informasi ke seluruh mahasiswa lainnya, maka mahasiswa pcr dapat mengirim pesan ke mailing list tersebut
+berdasarkan survei pertama yang dilakukan kepada seluruh mahasiswa pcr terkait pengunaan mailing list melalui kuisioner pada google form, dari 147 responden yang mengisi, 73% menganggap bahwa pesan yang dikirim ke mailing list allmhs@mahasiswa.pcr.ac.id sering tidak digunakan sebagaimana mestinya dan dianggap sebagai spam oleh mahasiswa
+mahasiswa menganggap bahwasanya pesan yang dikirim ke mailing list allmhs@mahasiswa.pcr.ac.id sering tidak berkaitan dengan kepentingan mahasiswa secara umum
+berdasarkan survei kedua yang dilakukan kepada seluruh mahasiswa pcr terkait kebutuhan forum diskusi dan pemberi informasi melalui kuisioner pada google form, dari 91 responden yang mengisi, 90% menyatakan bahwasanya mahasiswa mebutuhkan sarana lain selain email sebagai sarana diskusi dan pemberi informasi
+dari 91 responden yang mengisi, 93% menyatakan bahwasanya mahasiswa membutuhkan sebuah forum diskusi berbasis web yang dapat mengkategorikan diskusi dan informasi yang diberikan berdasarkan kebutuhan prodi atau generasi atau umum
+oleh karena itu dibuat sebuah forum diskusi berbasis web untuk mahasiswa pcr
+pada forum diskusi ini, mahasiswa dapat membuat topik untuk memberikan informasi atau berdiskusi kepada mahasiswa lainnya berdasarkan kepentingan prodi atau generasi atau umum sehingga forum diskusi ini dapat mengatasi spam yang terjadi pada mailing list allmhs@mahasiswa.pcr.ac.id
+tujuan adapun tujuan dari penelitian ini adalah: 1) memangun forum diskusi berbasis web sebagai media diskusi atau pemberian informasi politeknik caltex riau
+2) membangun sistem yang mampu mengklasifikasikan topik ke dalam beberapa kategori secara otomatis
+text mining text mining dapat didefinisikan sebagai suatu proses menggali informasi dimana seorang user berinteraksi dengan sekumpulan dokumen menggunakan tools analisis yang merupakan komponen-komponen dalam data mining yang salah satunya adalah kategorisasi
+tujuan dari text mining adalah untuk mendapatkan informasi-informasi yang bermanfaat dari sekumpulan dokumen
+text mining merupakan variasi dari data mining yang berusaha menemukan pola yang menarik dari sekumpulan data tekstual yang berjumlah besar
+tahapan pokok dari text mining, diantaranya: 1) etl tujuan dari etl adalah mengumpulkan, menyaring, mengolah dan menggabungkan data yang relevan dari berbagai sumber untuk disimpan ke dalam data warehouse
+2) data/teks langkah awal dalam melakukkan proses text mining dan data mining adalah mengumpulkan data
+3) text preprocessing pada tahapan ini dilakukan pembersihan noise yang tepat
+tujuan dari pemrosesan awal adalah untuk mempersiapkan teks menjadi data yang mengalami pengolahan lebih lanjut
+operasi yang dapat dilakukan pada tahap ini meliputi case folding dan tokenization
+4) feature selection feature selection merupakan tahap selanjutnya
+pada tahap ini data/kata diolah kembali sehingga kata tersebut memiliki nilai lebih dan meningkatkan efisiensi serta akurasi
+operasi feature selection ini meliputi filering dan stemming
+5) pattern discovery text/data mining atau pattern discovery merupakan tahap penting untuk menemukan pola atau pengetahuan dari keseluruhan teks
+6) interpretation atau evaluation hasil dari proses mining diinterpretasikan ke dalam suatu bentuk tertentu kemudian dilakukan proses evaluasi
+apabila hasil belum sesuai dengan aplikasi atau yang diinginkan, dilanjutkan evaluasi dengan melakukan iterasi ke satu atau beberapa tahap sebelumnya
+hasil dari interpretasi disajikan dalam bentuk visual b
+keterangan: 1) � = jarak euclidean 2) = record ke-i 3) = record ke-j 4) = data ke-r 5) �, � = 1, 2, 3, ….n algoritma k-nn adalah algoritma yang menentukan nilai jarak pada pengujian data testing dengan data training berdasarkan nilai terkecil dari nilai ketetanggaan terdekat
+k-fold cross validation cross validation merupakan salah satu teknik untuk menilai/memvalidasi keakuratan sebuah model yang dibangun berdasarkan dataset tertentu
+pembuatan model biasanya bertujuan untuk melakukan prediksi maupun klasifikasi terhadap suatu data baru yang bahkan belum pernah muncul di dalam dataset data yang digunakan dalam proses pembangunan model disebut data latih/training, sedangkan data yang digunakan untuk memvalidasi model disebut sebagai data test
+salah satu metode cross-validation adalah k-fold cross validation
+dalam teknik ini dataset dibagi menjadi sejumlah k-buah partisi secara acak
+kemudian dilakukan sejumlah k-kali eksperimen, dimana masing-masing eksperimen menggunakan data partisi ke-k sebagai data testing dan memanfaatkan sisa partisi lainnya sebagai data training
+confusion matrix confusion matrix merupakan alat yang berguna untuk menganalisis seberapa baik classifier mengenali set data dari kelas yang berbeda
+analisis sumber data sistem yang akan dibangun merupakan pengklasifikasian topik diskusi berdasarkan 5 kategori yang telah ditentukan
+sebuah sistem pengklasifikasian hanya bisa dilakukan bila terdapat data training sebelumnya
+dalam penelitian ini, menggunakan data training yang berasal dari forum diskusi kaskus untuk kategori edukasi, olahraga dan bisnis dan menggunakan data training yang berasal dari email mahasiswa untuk kategori berita kehilangan dan kepanitiaan
+analisis text mining klasifikasi topik diskusi secara umum sistem ini dibagi menjadi beberapa tahapan proses, pada gambar 3.1 di bawah ini, merupakan blok diagram proses kerja pada text mining klasifikasi topik diskusi
+1 alur kerja proses text mining topik diskusi c
+analisis processing data training pada tahapan preprocessing terdapat beberapa tahapan yang harus dilalui sebelum inputan data training topik diskusi menuju proses klasifikasi
+dalam analisis preprocessing dibagi menjadi beberapa tahapan proses, yaitu proses case folding, tokenizing, filtering dan stemming
+1) case folding: case folding adalah mengubah semua huruf dalam dokumen menjadi huruf kecil 
+hanya huruf ‘a’ sampai dengan ‘z’ yang diterima
+karakter selain huruf dihilangkan dan dianggap demiliter
+tabel i tahap case folding contoh data folding input tiga nama dari kelas junior dalam posisi teratas open shooting tournament 2017 output tiga nama dari kelas junior dalam posisi teratas open shooting tournament 2017 2) tokenizing: tokenization secara garis besar memecahkan sekumpulan karakter dalan suatu teks ke dalam satuan kata
+tabel ii tahap tokenization tahapan tokenizing input tiga nama dari kelas junior dalam posisi teratas open shooting tournament 2017 output 3) filtering: tahap mengambil kata-kata penting dari hasil tokenization
+biasanya pada tahap ini menggunakan algoritma stop list atau word list 
+tabel iii tahap filtering output 4) stemming: merupakan suatu proses transformasi terhadap kata-kata dalam suatu kalimat kedalam bentuk kata-kata dengan menghilangkan imbuhan baik itu prefiks, sufiks, maupun konfiks yang ada pada kata
+hasil implementasi merupakan tampilan sistem yang dibuat agar pengguna dapat berinteraksi dengan aplikasi yang dibangun
+1) menu buat diskusi: pada gambar 3 merupakan tampilan menu buat diskusi
+pada menu ini mahasiswa dapat membuat diskusi dengan mengisi kotak judul dan deskripsi
+setelah mengklik button buat diskusi, maka topik diskusi yang diklasifikasikan oleh sistem ke kategori yang sudah ditentukan menggunakan algoritma k-nearest neighbor
+3 buat diskusi 2) menu komentar: pada gambar 4 merupakan tampilan menu komentar
+pada menu ini mahasiswa dapat mengomentari diskusi yang dibuat oleh mahasiswa lain atau diskusi yang pernah ia buat
+4 komentar 3) menu klasifikasi: pada gambar 5 merupakan tampilan klasifikasi
+pada menu ini admin dapat melihat judul yang sudah diklasifikasikan oleh sistem berdasarkan kategorinya secara otomatis
+analisis pengujian cross validation pengujian cross validation menggunakan confusion matrix
+pengujian dilakukan dengan menggunakan 575 data latih
+judul diskusi yang diujikan adalah 25 berita dengan masing-masing kategori memiliki 5 buah judul
+tabel v hasil klasifikasi topik diskusi menggunakan 25 data training topik kategori sejarah pemanfaatan dan cara membuat kapur sendiri edukasi serba-serbi kuliah di swedia edukasi bingung cari jurusan edukasi nomor nim ijazah salah edukasi universitas terbuka edukasi terungkap 19 nama ini tidak pilih ronaldo dan messi edukasi walcott diprovokasi hengkang
+ini reaksi wenger edukasi guru kevin de bruyne bongkar kepribadian buruknya edukasi hasil pertandingan smentara lsn 2017 edukasi berikut 12 pemain terburuk versi fifa 18 olahraga group wa bisnis dan kaskus bisnis thread tanya jawab forum bisnis bisnis bisnis mahasiswa dan pelajar edukasi group bisnis di line bisnis good thread forum bisnis bisnis ditemukan sebuah kartu debit
+bagi yang merasa kehilangan silahkan hubungi baak berita kehilangan ditemukan sebiah jaket di r.210 pagi ini
+bagi yang merasa kehilangan silahkan hubungi baak berita kehilangan ditemukan sebuah jaket bagi yang merasa kehilangan silahkan hubungi baak berita kehilangan ditemukan sebuah kunci di perpustakaan
+bagi yang merasa kehilangan silahkan hubungi baak berita kehilangan pengumuman panitia pcr cup futsal 2018 kepanitiaan open recruitment panitia inter high school basketball tournament 2017 kepanitiaan kepanitiaan tabel vi confusion matrix accuration : / * 100% = 80% error rate : 100% - 80% = 20% berdasarkan hasil pengujian, dapat dianalisis bahwa pada kategori edukasi, berita kehilangan dan kepanitiaan memiliki akurasi yang baik karena dari 5 judul edukasi yang diuji, kelima judul tersebut setelah diklasifikasikan secara otomatis oleh sistem, masuk ke dalam kategori edukasi
+sementara pada kategori olahraga memiliki akurasi yang rendah, dikarenakan atribut pada data training kategori olahraga tidak memiliki atribut yang baik
+pada kategori bisnis, terdapat 4 data judul yang diklasifikasikan dengan benar oleh sistem, sementara 1 judul lainnya diklasifikasikan pada kategori edukasi
+analisis pengujian k-fold cross validation pada proses ini, data training yang didapat terdiri dari 158 atribut yang dikelompokkan ke dalam 5 label
+data tersebut kemudian diuji menggunakan k-fold cross validation dengan partisi debanyak 10 kelompok
+selanjutnya dilakukan uji coba dengan menggenerate sebanyak 5 kali setiap nilai k
+hal tersebut dilakukan untuk mengetahui nilai minumum, maksimum dan rata-rata akurasi yang muncul berdasarkan setiap nilai k yang ditentukan
+berikut tabel hasil pengujian menggunakan k- fold cross validation
+penggunaan k terbaik ditunjukkan dengan nilai akurasi tertinggi
+grafik akurasi nilai k dapat dilihat pada gambar gambar
+6 grafiik hubungan nilai dan akurasi terlihat pada grafik tersebut, nilai akurasi semakin menurun berdasarkan nilai k
+nilai k tertinggi yaitu 6 diambil sebagai nilai k ideal dengan nilai akurasi tertinggi yaitu 70, 261%
+kesimpulan kesimpulan yang diperoleh dari penelitian ini sebagai berikut: 1
+sistem pemilah topik diskusi pada forum diskusi mahasiswa pcr berbasis web menggunakan algoritma k-nn menjadi sarana diskusi dan pemberi informasi bagi mahasiswa politeknik caltex riau sesuai dengan kebutuhan diskusi generasii, prodi dan umum
+sistem pemilah topik diskusi pada forum diskusi mahasiswa pcr berbasis web menggunakan algoritma k-nn berhasil membantu admin dalam mengkategorikan setiap topik diskusi secara otomatis
+sistem pemilah topik diskusi pada forum diskusi mahasiswa pcr berbasis web menggunakan algoritma k-nn telah berhasil mengklasifikasikan topik diskusi yang dibuat oleh mahasiswa ke dalam kategori yang telah ditentukan, diantaranya: edukasi, olahraga, bisnis, kepanitiaan dan berita kehilangan
+semakin banyak jumlah data training, maka semakin banyak pula atribut yang dihasilkan, semakin banyak atribut maka semakin tinggi pula akurasi yang dihasilkan
+sementara kategori edukasi, berita kehilangan, kepanitiaan dan bisnis memiliki akurasi yang baik
+berdasarkan hasil pengujian k-fold cross validation, nilai k berpengaruh pada akurasi
+semakin besar nilai k, maka semakin kecil akurasi, sehingga diperoleh nilai k=6 sebagai nilai k yang terbaik dengan akurasi rata-rata 69, 7738
+ucapan terima kasih / acknowledgment segala puji syukur kehadirat tuhan yang maha esa atas rahmat dan karunia-nya, sehingga penulis dapat menyelesaikan proyek akhir ini
+proyek akhir ini disusun sebagai salah satu syarat untuk menyelesaikan jenjang pendidikan diploma iv pada program studi teknik informatika politeknik caltex riau
+pada kesempatan ini, penulis ingin mengucapkan terima kasih kepada pihak yang telah banyak memberikan bantuan dan dukungan yang tiada terhingga baik secara langsung maupun tidak langsung
+ucapan terima kasih tersebut penulis tujukan kepada: 1
+tuhan yang maha esa atas berkat dan karunia-nya, sehingga penulis dapat menyelesaikan proyek ahir ini tepat waktu
+kedua orang tua penulis atas dukungan dan kasih sayang tak terhingga, serta mendoakan penulis sehingga penulis dapat menyelesaikan proyek akhir
+selaku direktur politeknik caltex riau yang telah memberikan dukungan moral dalam menyelesaikan proyek akhir ini
+selaku dosen wali dan bapak muhammad ihsan zul
+selaku dosen pembimbing, yang telah memberikan ilmu dan bimbingan dengan penuh kesabaran kepada penulis dalam menyelesaikan proyek akhir
+selaku dosen penguji, yang telah memberikan masukan dan saran dalam menyelesaikan proyek akhir
+seluruh dosen program studi teknik informatika politeknik caltex riau yang telah memberikan bekal ilmu kepada penulis dalam menyelesaikan proyek akhir
+teman – teman seperjuangan g14 teknik informatika terutama kelas tic g14/ticoke yang telah melewati suka duka bersama selama 4 tahun dan memberikan dukungan satu sama lain
+seluruh pihak yang tidak dapat disebutkan namanya satu per satu, terimakasih banyak atas bantuan dan dukungan kepada penulis sehingga penulis dapat menyelesaikan proyek akhir ini
+penulis sangat menyadari sepenuhnya bahwa laporan proyek akhir ini masih jauh dari sempurna, oleh karena itu segala jenis kritik, saran, dan masukan yang membangun sangat penulis harapkan agar dapat memberikan wawasan bagi pembaca dan yang paling utama penulis sendiri

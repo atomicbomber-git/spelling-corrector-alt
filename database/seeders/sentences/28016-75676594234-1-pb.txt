@@ -1,0 +1,87 @@
+eee paper template in a4 vol 4 no 2 pemodelan hasil elisitasi kebutuhan sistem penjualan online menggunakan metode #program studi teknik informatika, fakultas ilmu komputer, universitas esa unggul jalan terusan arjuna no 9, jakarta barat, dki jakarta 1fransiskus.adikara@esaunggul.ac.id 2hendry.gunawan@esaunggul.ac.id 3sandfreni@esaunggul.ac.id kemajuan teknologi informasi dan komunikasi
+penggunaan internet dan telepon pintar dalam setiap aspek kehidupan juga semakin mempermudah aktivitas penjualan online
+pengusaha dalam memasarkan dan menjual produk- produknya harus sudah mulai menggunakan teknologi, terutama memanfaatkan sistem penjualan online
+saat ini bagi para pengusaha yang baru ingin mempunyai sistem penjualan online perlu memahami bagiamana proses elisitasi kebutuhan sistem yang ingin dikembangkannya itu
+banyak metode elisitasi kebutuhan sebagai bagian dari proses rekayasa kebutuhan yang tersedia saat ini
+salah satu yang sedang sering digunakan adalah metode rekayasa kebutuhan yang beorientasi pada tujuan
+metode knowledge acquisition in automated specification adalah sebuah metode rekayasa kebutuhan yang berorientasi pada tujuan, yang paling pertama dikembangkan dan paling sering digunakan dalam proses rekasaya kebutuhan
+pada penelitian ini didemonstrasikan kegiatan elisitasi kebutuhan untuk sistem penjualan online dengan metode kaos lalu hasilnya dituangkan dalam model goal tree model 
+dengan memanfaatkan metode kaos, kebutuhan sistem penjualan online dapat diperoleh dan digunakan oleh pengusaha dan pihak pengembang sistem dalam proses elisitasi kebutuhan
+hasil dari elisitasi kebutuhan ini dapat digunakan selanjutnya dalam proses rekayasa perangkat lunak sampai menghasilkan sebuah sistem penjualan online yang berkualitas dan sesuai kebutuhan pengusaha dalam memasarkan produk-produknya
+commerce dalam kehidupan masyarakat membawa perubahan dalam perilaku bisnis
+dengan adanya kemajuan pesat dan pemanfaatan internet dalam kegiatan sehari-hari melalui perangkat telepon pintar, transaksi jual beli barang serta jasa sudah bisa dilakukan di dunia maya
+kegiatan transaksi dengan memanfaatkan teknologi jaringan internet dikenal dengan istilah sebagai e- commerce
+menyeluruh dari proses supply chain management perusahaan dalam mendukung dan meningkatkan kegiatan transaksi bisnisnya menggunakan jaringan internet
+salah satu fungsi utama e-commerce adalah fungsi penjualan online
+seiring banyaknya kebutuhan sistem penjualan online, maka perlu adanya metode elisitasi kebutuhan sistem yang dapat menggali kebutuhan perusahaan dalam memasarkan, bertransaksi dan mendukung proses penjualan online sehingga sistem yang dihasilkan berkualitas dan sesuai dengan tujuan dikembangkannya
+diperlukan sebuah metode rekayasa kebutuhan yang tepat agar kebutuhan fungsional dan kebutuhan bukan fungsional dari sistem penjualan online yang akan dikembangkan lengkap dan tepat, sehingga diciptakan sebuah sistem yang berkualitas dan dapat diandalkan dengan menggunakan metode elisitasi dan analisis kebutuhan yang sesuai
+proses elisitasi kebutuhan sistem adalah tahap awal dari proses rekayasa kebutuhan sistem untuk mengumpulkan, mengkategorikan, dan memprioritaskan kebutuhan- kebutuhan bisnis agar dapat dianalisis dan divalidasi menjadi kebutuhan sistem yang akan dikembangkan
+pada penelitian ini elisitasi kebutuhan difokuskan pada proyek pengembangan sistem penjualan online kemudian hasilnya dideskirpsikan dalam sebuah pemodelan menggunakan metode knowledge acquisition in automated specification 
+dengan pemodelan proses elisitasi untuk proyek sistem penjualan online dapat mendemonstrasikan langkah-langkah awal dalam online yang dihasilkan mempunyai kualitas yang terbaik
+studi pustaka untuk mendapatkan tinjuan pustaka dari metode kaos sebagai sebuah metode rekayasa kebutuhan yang berorientasi pada tujuan serta pemodelan hasil elisitasi kebutuhan berupa goal tree model yang akan digunakan dalam proses elisitasi kebutuhan sistem penjualan online
+mencari data dan informasi dari proses bisnis pemasaran dan penjualan produk-produk dari usaha kecil menengah
+menggunakan metode kaos untuk melakukan elsisitasi kebutuhan dengan cara memberikan pertanyaan dan untuk mengelisistasi kebutuhan
+memodelkan hasil dari proses elisitasi kebutuhan dalam bentuk goal tree model sesuai metode kaos
+pustaka berupa tinjauan pustaka dan langkah 2 sampai 4 dibahas dalam sub bagian mengenai proses elisitasi kebutuhan sistem penjualan online menggukan metode kaos
+acquisition in automated specification dan juga ada pendekatan goal requirements language maupun metode organization goal- oriented requirements engineering untuk memperoleh kebutuhan sistem informasi
+kaos dapat dideskripsikan sebagai sebuah kerangka kerja dari beberapa paradigma yang memungkinkan untuk mengkombinasikan beberapa tingkatan pemikiran berbeda mengenai kebutuhan sistem dan disertai alasannya
+kaos merupakan kerangka kerja untuk menggali, menspesifikasi, dan menganalisis tujuan dari sistem, kebutuhan sistem, skenario, dan tanggung- jawab tugas dari pengguna sistem 
+ontologi kaos meliputi obyek, yaitu hal-hal menarik dalam sistem yang dapat berkembang antar kondisi atau keadaan
+obyek yang dimaksud dapat berupa entitas, hubungan, atau kejadian 
+meliputi istilah berikut ini: perilaku / keadaan yang harus dipenuhi atau dapat diterima oleh sistem dalam sebuah kondisi yang ditetapkan
+definisi goal harus jelas sehingga dapat diverifikasi apakah sistem mampu memenuhi/memuaskan goal tersebut
+tingkat kepuasan dari softgoal akan dibatasi menggunakan limitasi yang ditetapkan
+bertindak sebagai pemroses kegiatan operasional agen merupakan komponen aktif bisa berupa manusia, perangkat keras, perangkat lunak, dan lainnya yang mempunyai peran spesifik dalam memuaskan sebuah tujuan
+juga bersifat fungsional dan bertujuan untuk membuat agen tetap mendapatkan informasi mengenai pernyataan objek, accuracy goals adalah non-functional goal yang dibutuhkan agar pernyataan objek dapat dikontrol/ diobservasi pada lingkungannya secara akurat
+ada 3 jenis ketergantungan yang dapat dilihat pada gambar
+1 diantara goal dan entity lainnya pada kaos, yaitu: dipenuhi/dipuaskan jika seluruh sub-goalnya tersebut terpuaskan
+menggambarkan jika sebuah goal terpenuhi dapat menyebabkan keterpenuhan goal yang lainnya pada kondisi tertentu
+agen dengan sebuah goal yang berarti bahwa agen tersebut bertanggung jawab atas terpenuhinya goal yang terhubung dengannya
+digunakan untuk mendapatkan kebutuhan untuk mengembangkan sistem indeks kepuasan mahasiswa terhadap dosen di universitas esa unggul
+metode kaos dapat digunakan untuk mendapatkan kebutuhan fungsional dan kebutuhan bukan fungsional dari sistem ikmkd tersebut
+pada penelitian ini akan didemonstrasikan penggunaannya untuk mengelisitasi kebutuhan sistem penjualan online
+jenis usaha yang memberikan kontribusi dalam pertumbuhan ekonomi indonesia
+penggunaan penjualan online dapat mendongkrak peningkatan volume penjualan dan mempromosikan produk-produk industri ukm cukup tinggi
+masalah utama ukm yang dapat diselesaikan dengan adanya sistem penjualan online adalah pemasaran dan proses transaksi yang mudah melalui jaringan internet pada penelitian sebelumnya telah disimpulkan bahwasanya untuk meningkatkan daya saing ukm serta untuk mendapatkan peluang ekspor dan peluang bisnis lainnya dapat dilakukan dengan memanfaatkan sistem penjualan online
+dari penjelasan dan penelitian sebelumnya, maka perlu adanya deskripsi dan definisi langkah-langkah yang dilaksanakan saat proses elisitasi kebutuhan sistem penjualan online
+dari langkah-langkah proses tersebut hasilnya dimodelkan menggunakan model dari metode kaos yang dijelaskan sebelumnya
+1 konstruksi dasar kaos dalam memodelkan goal, agen, dan tugasnyab
+proses elisitasi kebutuhan sistem penjualan online menggunakan metode kaos ada beberapa metode rekayasa kebutuhan berorientasi pada tujuan untuk melakukan proses elisitasi dan pemodelan kebutuhan yang dikumpulkan dan didefinisikan dalam kegiatan pengembangan sistem informasi
+pada penelitian ini, metode elisitasi yang akan digunakan adalah metode kaos karena merupakan penelitian awal yang sedang difokuskan pada proses elisitasi kebutuhan terlebih dahulu
+metode grl digunakan untuk melakukan analisis kebutuhan berdasarkan proses elisitasi yang dilakukan, sedangkan metode ogore digunakan khusus untuk menurunkan kebutuhan berdasarkan pada tujuan organisasi
+proses pertama yang dilakukan berdasarkan metode kaos adalah menjalankan sebuah grup diskusi kecil yang dihadiri oleh pemilik usaha perdagangan atau direktur operasional dan perekayasa kebutuhan serta sistem analis dari tim developer 
+kemudian grup tersebut berdiskusi untuk menetapkan tujuan dibuatnya sistem penjualan online
+dari diskusi ini maka dihasilkan prioritas tujuan yang ingin dicapai oleh sistem baru yang akan dikembangkan
+tujuan dari sistem yang baru diharapkan agar mampu melakukan proses penjualan barang secara elektronik melalui jaringan internet 
+tujuan bisnis perusahaan dengan penggunaan sistem penjualan online adalah meningkatnya penjualan beserta keuntungannya dan memberikan pelayanan dengan cangkupan pemasaran yang lebih luas kepada para pelanggan
+setelah ditetapkan tujuan utama ini, berikutnya adalah menentukan entity-entity dan hubungan antar entity yang menggambarkan kebutuhan sistem penjualan online yang akan dibuat
+pada pertemuan selanjutnya dengan para pemangku jabatan ini, tim developer mendefinsikan goal beserta turunannya seperti softgoal, tasks, dan agents berdasarkan tujuan utama dari sistem yang telah ditetapkan sebelumnya
+cara yang digunakan untuk mendapatkan entity-entity berikutnya dan hubungan antar entity tersebut yaitu dengan menjawab pertanyaan dan dalam mengekstrasi goal menjadi turunannya berupa goal baru, task, atau agents
+untuk perusahaan yang sebelumnya tidak memiliki sistem informasi sama sekali, perekayasa kebutuhan dari tim pengembang bertanya dan berdiskusi dengan bagian operasional mengenai rencana prosedur operasional harian yang dijalankan untuk mengekstrasi goal yang diharapkan sedangkan jika perusahaan sudah memiliki sistem informasi seperti sistem penjualan online sebelumnya, maka kebutuhan sistem dielisitasi dengan mencari tahu terlebih dahulu berdasakan masalah-masalah yang belum terpecahkan oleh sistem yang berjalan
+dari aktivitas utama ini, maka kebutuhan sistem penjualan akan didapatkan berupa goal, soft goal, task, resource, dan agent
+hasil dari langkah utama elisitasi yang dibahas sebelumnya perlu dimodelkan dalam sebuah diagram agar lebih jelas melihat hubungan antaran setiap entity yang ada
+untuk metode kaos, model yang digunakan untuk menggambarkan hasil elisitasi kebutuhan adalah goal tree model yang digambarkan menggunakan notasi pemodelan kaos 
+dengan menggunakan metode kaos dan pemodelan gtm maka dihasilkan model yang bisa dilihat pada gambar 2 untuk menggambarkan kebutuhan-kebutuhan sistem penjualan perusahaan dapat memahami kebutuhan sistem penjualan online yang akan dikembangkan dan menjadi bahan untuk berdiskusi serta melanjutkan proses pengembangan sistem yaitu perancangan, pembuatan dan proses pengujian sebelum di- implementasikan
+proyek sistem penjualan online yang telah dijelaskan pada bagian sebelumnya menggambarkan bahwa proses elisitasi kebutuhan bisa dilakukan dan dimodelkan menggunakan kaos
+dari pemodelan menggunakan kaos maka beberapa alternatif dan variasi dari fungsi sistem yang ingin dibuat dapat dipilih oleh pengusaha untuk mendapatkan fungsi penjualan online yang paling mendekati dengan keperluannya 
+goal tree model tahap elisitasi berdasarkan metode kaos pada studi kasus ini telah didemonstrasikan bahwa untuk sistem penjualan online yang ingin dibuat mempunyai tujuan dibuatnya sistem yaitu 
+selanjutnya, dari gtm yang dihasilkan juga dapat diperoleh hasil bahwasanya soft goal yang bisa diturunkan untuk mencapai goal utama yaitu dan 
+kedua soft goal ini dapat berkontribusi terhadap tercapainya tujuan dibuatnya sistem ini
+dari soft goal tersebut bisa dicapai dengan adanya sub goal yang dapat diturunkan akhirnya menjadi kebutuhan fungsional sistem yaitu, ,, dan seterusnya sesuai dengan diagram pada gambar 2
+agent yang dibutuhkan untuk menjalankan sistem penjualan online ini adalah pelanggan online
+bagi para pengusaha di bidang ukm, keuntungan dari penggunaan metode kaos dan pemodelan gtm ini dalam mengelistasi kebutuhan sistem penjualan online adalah kemudahannya untuk membaca fungsi-fungsi yang akan tersedia di sistem berdasarkan gtm yang didapatkan
+pengusaha ukm biasanya tidak memiliki tenaga pekerja khusus di bidang pengembangan sistem maupun kemampuan teknis di bidang teknologi informasi, sehingga metode dan model kaos lebih tepat dan mudah untuk dimengerti serta digunakan dalam proses elisistasi kebutuhan
+dari gambar 2, pengusaha ukm dapat langsung memahami bagaimana setiap tujuan dapat dipenuhi dengan kebutuhan fungsional yang didapatkan dari proses elisitasi ini seperti soft goal dapat terpenuhi jika terdapat kebutuhan fungsional dan 
+dicontohkan bahwa kebutuhan sistem penjualan olnine dapat dielisitasi dan dimodelkan dalam gtm menggunakan metode rekayasa kebutuhan berorientasi pada tujuan yaitu kaos
+dengan motode ini maka pengusaha dan pemilik usaha dapat menurunkan tujuan memiliki sistem dalam memenuhi keinginannya membuat sistem penjualan online
+setelah proses elisitasi ini, maka selanjutnya gtm yang ada dapat dianalisa lebih lanjut agar menemukan kebutuhan sistem yang paling terbaik dan dapat dikerjakan oleh tim pengembang selanjutnya
+dari hasil implementasi proses elisitasi kebutuhan menggunakan metode kaos menunjukkan bahwasanya metode kaos dapat menghasilkan atau mengkontribusikan hal-hal sebagai berikut: 1
+kaos mampu mengidentifikasi dan mendapatkan secara khusus tujuan sistem berdasarkan pada kebutuhan berdasarkan tujuan dibuatnya sistem dari pengusaha; 2
+kaos mampu menjalankan aktivitas berikut ini: a
+elisitasi kebutuhan sistem penjualan online b
+identifikasi soft goal yang bisa dihasilkan dari tujuan atau juga diperlukan untuk mencapai tujuan 4
+kaos bisa dimodelkan dalam bentuk gtm dan didokumentasikan hasilnya
+untuk mengembangkan sebuah penjualan online perlu dilakukan proses rekayasa kebutuhan dengan metode yang tepat agar tujuan pengusaha menjalankan bisnis penjualan onlinenya sesuai dengan kebutuhan sistem yang dikembangkan
+metode kaos dan pemodelan kaos dalam bentuk gtm dapat digunakan sebagai proses elisitasi kebutuhan untuk mengembangkan sebuah sistem penjualan online
+metode kaos dapat dengan mudah memberikan dan menjelaskan kebutuhan fungsional yang harus dimiliki oleh sistem penjualan online yang diharapkan oleh pengusaha ukm, walaupun pengusaha memiliki keterbatasan dalam sumber daya maupun pengetahuan mengenai teknis proses pengembangan perangkat lunak
+melanjutkan hasil elisitasi ini dengan proses analisis kebutuhan dan menggunakan hasil akhirnya sebagai dasar perancangan sistem penjualan online selanjutnya

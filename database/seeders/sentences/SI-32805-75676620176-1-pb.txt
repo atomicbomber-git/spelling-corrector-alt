@@ -1,0 +1,102 @@
+studi kasus: pt bujang sejahtera abadi
+ubmitted 30-04-2019; revised 10-09-2019; accepted 26-09-2019 19 rancang bangun aplikasi rekomendasi menu makanan berdasarkan jarak terdekat yunus hidayatullah#1, helfi nasution#2, m
+azhar irwansyah#3 #program studi informatika, universitas tanjungpura jl
+hadari nawawi pontianak 78124 1yunuzhidayatullah23@gmail.com 2helfinas@informatika.untan.ac.id 3azharirwansyah@informatika.untan.ac.id menggunakan smartphone mereka serta koneksi internet dan dapat langsung membeli sebuah produk/barang
+seperti halnya dalam membeli makanan, beberapa konsumen merasa bingung karena beragamnya menu makanan serta semakin banyaknya restoran yang didirikan
+selain itu konsumen menginginkan efisiensi waktu, tenaga dan biaya dalam menentukan menu makanan
+menangggapi permasalahan tersebut, perlu adanya sebuah aplikasi rekomendasi untuk membantu konsumen dalam menentukan menu makanan
+tujuan dari penelitian ini adalah membuat sebuah aplikasi rekomendasi menu makanan tidak hanya berdasarkan jarak terdekat dari lokasi konsumen akan tetapi juga menampilkan menu makanan yang sering di order
+metode technique for order of preference by similiatiry to ideal solution, diterapkan dalam proses untuk mencari menu makanan yang sering diorder
+dari hasil pengujian white box yang dilakukan diperoleh jumlah region, cyclomatic complexity, dan independent path adalah 6 dan hasilnya valid, sedangkan hasil pengujian yang dilakukan di 6 titik berbeda aplikasi rekomendasi menu makanan berhasil menampilkan menu makanan yang terdekat dari lokasi konsumen
+pendahuluan perlu repot untuk datang ke toko dan membeli sebuah produk
+pembeli cukup menggunakan smartphone mereka serta koneksi internet dan dapat langsung melihat atau membeli sebuah produk
+seperti halnya dalam membeli sebuah makanan, untuk mendapatkan informasi mengenai menu makanan yang sesuai dengan keinginan tidak sedikit konsumen yang merasa bingung, karena beragamnya selera masyarakat dilihat dari sudut pandang yang berbeda untuk mencari menu makanan sesuai dengan keinginan belum lagi dengan banyaknya restoran atau gerai baru yang didirikan dengan kualifikasi dan ciri khas masing-masing
+beragam sajian ditawarkan mulai dari makanan khas daerah yang sifatnya tradisional sampai makanan-makanan cepat saji yang bersifat modern
+terkadang konsumen juga menginginkan efisiensi waktu dan biaya dalam memilih makanan
+penduduk lokal menganggap hal tersebut sudah biasa, akan tetapi lain halnya dengan penduduk pendatang atau wisatawan
+dengan banyaknya restoran dan menu makanan yang ditawarkan tersebut mungkin saja seorang konsumen akan mengalami kebingungan atau keragu-raguan untuk membeli makanan
+maka dibutuhkan sebuah aplikasi yang dapat memberikan rekomendasi untuk membantu konsumen dalam memilih menu makanan yang sesuai dengan apa yang mereka butuhkan atau yang mereka inginkan penelitian ini mencoba memberikan solusi berupa sebuah aplikasi rekomendasi menu makanan
+penelitian ini juga diharapkan dapat membantu mengurangi kebingungan konsumen dalam menentukan menu makanan yang cocok untuknya serta tidak hanya dalam memberikan alternatif menu makanan dengan jarak terdekat dari lokasi konsumen akan tetapi juga menampilkan menu makanan yang sering di order
+uraian penelitian lunak yang berjalan pada suatu system tertentu yang berguna untuk membantu berbagai kegiatan yang dilakukan oleh manusia
+aplikasi adalah software yang dibuat oleh suatu perusahaan komputer untuk mengerjakan tugas-tugas tertentu
+sistem rekomendasi adalah suatu perangkat piranti lunak dan teknik yang memberikan saran untuk sesuatu yang dapat dimanfaatkan oleh pengguna, rekomendasi yang diberikan bisa berupa informasi, layanan atau produk yang sudah diprediksi sebelumnya
+diartikan sebagai menyarankan, mengajak untuk bergabung, menganjurkan
+sebuah perangkat lunak yang dibangun guna membantu pengguna dengan memberikan rekomendasi saat pengguna dihadapkan pada jumlah informasi yang besar merupakan garis besar yang menjelaskan sistem rekomendasi
+sistem rekomendasi sebagai model aplikasi dari hasil observasi terhadap keadaan dan keinginan pelanggan
+google maps disediakan oleh google dalam bentuk website
+google maps merupakan aplikasi yang mirip dengan google earth
+namun yang membedakan adalah fitur google maps tidak selengkap google earth
+namun saat ini google maps memiliki engine yang sangat handal berfungsi memberikan fasilitas pendukung untuk memudahkan pengguna dalam mencari lokasi sehingga google maps saat ini sudah seperti google maps
+jadi, google maps adalah versi ringan dari google earth dengan beberapa yang dihapus
+google maps memiliki fitur geolocation yang dapat digunakan untuk mengetahui lokasi yang ditandai berdasarkan latitude dan longitude
+layanan berbasis lokasi location based servide atau biasa disingkat lbs adalah istilah umum yang digunakan untuk menggambarkan teknologi yang digunakan untuk menemukan lokasi perangkat yang kita gunakan
+konsep lbs ini menghasilkan layanan informasi yang dapat dicocokkan dengan lokasi keberadaan calon penerima informasi
+hal ini menyebabkan peningkatan nilai informasi dikarenakan penerima dapat mengasosiasikan pengetahuan atau informasi yang didapat dengan keberadaannnya
+dan kutub selatan, yang menggabungkan antara sisi timur dan barat bagian bumi
+garis ini memiliki posisi membentang bumi, sama halnya seperti garis equator, tetapi dengan kondisi nilai tertentu garis lintang inilah yang dijadikan ukuran dalam mengukur sisi utara-selatan koordinat suatu titik di belahan bumi
+sedangkan longitude adalah garis membujur yang menghubungkan antara sisi utara dan sisi selatan bumi 
+topsis pengambilan keputusan multikriteria yang pertama kali diperkenalkan oleh yoon dan hwang pada tahun 1981
+topsis menggunakan prinsip bahwa alternatif yang terpilih harus mempunyai jarak terdekat dari solusi ideal positif dan terjauh dari solusi ideal negatif dari sudut pandang geometris dengan menggunakan jarak euclidean untuk menentukan kedekatan relatif dari suatu alternatif dengan solusi optimal
+seluruh nilai terbaik yang dapat dicapai untuk setiap atribut, sedangkan solusi ideal negatif terdiri dari seluruh nilai terburuk yang dicapai untuk setiap atribut yang dicapai untuk setiap atribut
+topsis mempertimbangkan keduanya, jarak terhadap solusi ideal positif dan jarak terhadap solusi ideal negatif dengan mengambil kedekatan relatif terhadap solusi ideal positif
+berdasarkan perbandingan terhadap jarak relatifnya, susunan prioritas alternatif bisa dicapai
+metode ini banyak digunakan untuk menyelesaikan masalah secara praktis
+hal ini disebabkan konsepnya yang sederhana dan mudah dipahami, komputasinya efisien, dan memiliki kemampuan mengukur kinerja relatif dari alternatif- alternatif ke dalam matematis yang sederhana
+ada beberapa langkah-langkah metode topsis dalam menyelesaikan suatu masalah sebagai berikut: 1
+membuat matriks keputusan yang ternormalisasi terbobot
+menentukan matriks solusi ideal positif dan matriks solusi ideal negatif berdasarkan rating bobot ternormalisasi yij
+menentukan jarak antara nilai setiap alternatif dengan matriks solusi ideal positif dan matriks solusi ideal negatif
+𝐷𝑖+ = √∑ 2 𝑛 korespondensi : yunus hidayatullah 21 𝑗=1 𝑉𝑖 = 𝐷𝑖− 𝐷𝑖− + 𝐷𝑖+ server admin gambar 1
+admin ataupun user melakukan request terhadap server melalui website aplikasi rekomendasi menu makanan berdasarkan jarak terdekat
+website aplikasi rekomendasi menu makanan akan meminta data latitude dan longitude posisi user saat ini melalui google maps
+server menerima request data dan mengambil data sesuai permintaan ke database
+database menerima permintaan server dan mengirim data ke server
+server mengirim data yang diminta dan mengirimkannya melalui aplikasi rekomendasi menu makanan berdasarkan jarak terdekat ke admin maupun user
+perancangan diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung didalam sistem
+diagram konteks memperlihatkan bahwa subjek yang terlibat langsung dalam proses sistem adalah: 1
+admin admin adalah pengguna yang memiliki hak akses penuh terhadap aplikasi, bertugas menjalankan manajemen dan menjaga aktivitas aplikasi dan basis data
+pengguna yang menjadi admin adalah orang yang melakukan konfigurasi awal, pemilik aplikasi, orang yang sejak awal didaftarkan menjadi admin, atau member yang diangkat menjadi admin
+tugas utama admin adalah mengatur semua konfigurasi yang ada pada aplikasi
+user user adalah pengguna umum internet yang mengakses aplikasi
+user dapat melihat informasi yang ada pada aplikasi, user juga dapat melakukan pencarian menu makanan terdekat
+gambar 2 menunjukkan diagram konteks dari sistem
+diagram overview sistem admin 1.0 login tbl_user 2.0 manajemen data tbl_gerai tbl_menu gambar 3
+antarmuka halaman login antarmuka halaman login digunakan oleh dua level pengguna, yaitu admin dan user untuk dapat mengakses aplikasi ini dengan memasukkan username dan password yang telah didaftarkan sebelumnya
+apabila data login yang dimasukkan sesuai, maka pengguna dapat mengakses menu- menu yang ada pada aplikasi ini
+antarmuka hasil perancangan halaman login dapat dilihat pada gambar 5 berikut
+antarmuka halaman user antarmuka halaman user merupakan antarmuka yang diakses oleh user saat mengunjungi website
+antarmuka ini berisi daftar menu makanan berdasarkan lokasi terdekat dari lokasi user
+user dapat memilih jenis makanan yang ingin ditampilkan misalnya jenis bakso maka aplikasi akan merekomendasikan bakso-bakso terdekat dari lokasi user saat ini
+tampilan antarmuka halaman user dapat dilihat pada gambar 6
+antarmuka halaman admin antarmuka halaman admin adalah antarmuka yang diakses oleh admin untuk melakukan manajemen data
+data yang bisa diolah adalah manajemen data order, data pengguna aplikasi, data kriteria
+tampilan antarmuka halaman admin data dilihat pada gambar 7
+v = jumlah edge – jumlah node + 2 v = 25 – 21 + 2 c
+v = 5 predicate node + 1 v = 6 jadi cyclomatic complexity untuk prosedur topsis seperti di gambar 8 adalah 6 dan hasilnya valid karena sesuai dengan jumlah jalur independent-nya
+pengujian jarak terdekat pengujian jarak terdekat dilakukan dengan menentukan 1 lokasi sebagai lokasi awal, kemudian mengambil 8 titik hasil pencarian sistem
+kemudian kedelapan titik lokasi tersebut ditentukan koordinatnya dan langsung dihitung jaraknya dari lokasi awal lokasi awal pada pengujian ini adalah di jl
+hasil perhitungan rekomendasi 8 lokasi terdekat dapat dilihat pada tabel 1 berikut
+tabel i nila bakar 5.08 km paket sambal telur asin b 5.9 km paket sambal telur asin a 5.9 km paket sambal bawang a 5.9 km c
+analisis pengujian white box pengujian white-box yang telah dilakukan menghasilkan grafik alur dari prosedur topsis dimana terdapat 21 node dan 25 edge serta 6 region
+21 node mencakup proses perhitungan topsis mulai dari: 1
+node 1 yang mengatur variabel yang akan digunakan dalam prosedur topsis
+mulai dari data order setiap jenis makanan dengan variabel kriteria yaitu harga, jumlah pesanan, tarif, dan jarak
+kemudian data bobot setiap kriteria dan tipe kriteria
+terakhir melakukan deklarasi variabel array yang akan digunakan untuk menampung setiap hasil perhitungan yang dilakukan
+node 2, 3, 4, 5 merupakan proses validasi jumlah data yang akan diproses perhitungan topsis
+node 6, 7 merupakan tahap ke-1 dalam topsis yaitu menghitung matriks ternormalisasi
+node 8, 9 merupakan tahap ke-2 dalam topsis yaitu menghitung matriks ternormalisasi terbobot
+node 10, 11, 12, 13 merupakan tahap ke-3 dalam topsis yaitu menentukan matriks solusi ideal positif dan matriks solusi ideal negatif
+node 14, 15, 16, 17 merupakan tahap ke-4 dalam topsis yaitu menentukan jarak relatif dari setiap alternatif terhadap solusi ideal positif dengan solusi ideal negatif
+node 18, 19 merupakan tahap ke-5 dalam topsis yaitu menghitung nilai preferensi dimana semakin besar nilainya semakin tinggi peringkatnya
+node 20 merupakan tahap ke-6 dalam topsis yaitu mengurutkan nilai preferensi yang telah didapatkan
+node 21 merupakan akhir dari prosedur topsis
+analisis pengujian jarak terdekat dari hasil pengujian di atas dengan posisi user di jl
+sungai raya dalam didapatkan hasil rekomendasi menu makanan terdekat berada pada jarak 0.5 km yaitu ayam geprek bensu
+untuk rekomendasi menu makanan terdekat hal yang pertama di pertimbangkan adalah jarak gerai atau restoran dari lokasi user, jika lokasi user lebih dekat dari lokasi gerai atau restoran maka secara otomatis menu makanan yang terdekat tersebut akan menduduki posisi teratas
+menu makanan dengan jumlah order yang lebih banyak akan menduduki posisi lebih tinggi dibandingkan dengan menu makanan yang memiliki jumlah order lebih sedikit
+aplikasi rekomendasi menu makanan berdasarkan jarak terdekat dibuat berbasis web dengan menerapkan metode topsis
+hasil perhitungan metode topsis mengurutkan preferensi akhir dari tertinggi sampai terendah untuk menampilkan jenis makanan yang sering diorder dari sistem ke pengguna
+berdasarkan hasil pengujian white box yang sudah dilakukan diperoleh jumlah region, cyclomatic complexity, dan independent path adalah 6 dan hasilnya valid karena sesuai dengan jumlah jalur indepentnya
+sehingga dapat ditarik kesimpulan bahwa algoritma tersebut sudah benar
+berdasarkan hasil pengujian untuk menampilkan menu makanan terdekat di ambil 6 titik berbeda dan didapatkan bahwa aplikasi rekomendasi menu makanan berdasarkan jarak terdekat telah berhasil dengan baik

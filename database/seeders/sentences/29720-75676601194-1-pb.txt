@@ -1,0 +1,8 @@
+pada penelitian sebelumnya telah dihasilkan sistem pengontrol lampu menggunakan sms gateway dengan bantuan perangkat mikrokontroler
+hal tersebut memberikan kemudahan manusia terhadap pengontrolan on/off lampu rumah, sehingga tidak perlu lagi repot untuk menekan saklar lampu yang berada di dinding rumah
+seiring dengan perkembangan teknologi, telah berkembang juga perangkat pengontrol, yaitu raspberry pi 3 yang juga sering disebut sebagai mini personal computer 
+pada penelitian ini digunakan perangkat raspberry pi 3 untuk menerapkan sistem operasi raspbian jessie pada sistem pengontrol lampu serta menggunakan metode action research dalam memperoleh hasil penelitian sesuai dengan tujuan
+selain itu, dibutuhkan juga bahasa pemrograman phyton untuk dapat menjalankan user interface sistem pengontrol lampu berbasis raspberry pi 3
+pada pengujian sistem pengontrol lampu, digunakan lampu pijar senter dengan model fitting e10 dan lampu pijar rumah dengan model fitting e27
+hasil penelitian ini menunjukan bahwa raspberry pi 3 dengan raspbian jessie dibantu dengan perangkat modul relay dapat digunakan untuk mengontrol on/off lampu pijar rumah dengan mudah dan baik menggunakan user interface berbasis web
+pendahuluan menjelaskan bahwa sistem pengendali lampu rumah manual dapat dipermudah dengan menerapkan sms gateway untuk pengendalian on/off lampu rumah jarak jauh berbasis mikrokontoler

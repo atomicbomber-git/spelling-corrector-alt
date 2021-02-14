@@ -1,0 +1,112 @@
+eee paper template in a4 vol 5 no 2 penerapan model technology-to-performance #1, eto wuryanto jl.mulyorejo kampus c surabaya 1 faried-e@fst.unair.ac.id 2 eto-w@fst.unair.ac.id 3 livia.felisia.marentina-2014@fst.unair.ac.id merupakan suatu model komprehensif dari dua hal yang komplementer yaitu: sikap pengguna sebagai prediktor utilisasi atau pemanfaatan dan task technology fit sebagai prediktor kinerja
+penelitian ini bertujuan untuk mengidentifikasi pengaruh antar variabel dari model tpc terhadap lingkungan cyber campus serta memberikan rekomendasi atau saran untuk peningkatan kualitas cyber campus
+pengolahan data menggunakan metode pls-sem dengan menggunakan responden 100 mahasiswa pengguna cyber campus
+dari hasil penelitian didapatkan 6 hipotesis diterima dan 2 hipotesis ditolak
+rekomendasi yang disarankan agar penggunaan cyber campus dapat meningkat adalah dengan pemberdayaan fitur yang sudah ada dan peningkatan layanan helpdesk
+pendahuluan dan organisasi agar dapat memanfaatkan teknologi informasi secara efektif
+salah satu model yang dapat membantu menjelaskan kepada pemakai tentang peran teknologi informasi dalam meningkatkan kinerja adalah model technology to performance chain yang dikembangkan oleh goodhue dan thompson
+fokus kunci dalam penelitian sistem informasi adalah pemahaman hubungan yang lebih baik antara sistem informasi dan kinerja individual agar teknologi informasi mempunyai pengaruh yang positif terhadap kinerja individual, maka teknologi tersebut harus dapat diutilisasi atau dimanfaatkan dan harus sesuai dengan tugas yang didukung
+model penelitian yang dilakukan oleh goodhue dan thompson menggunakan suatu model komprehensif dari dua hal yang komplementer yaitu: sikap pengguna sebagai prediktor utilisasi atau pemanfaatan dan task technology fit sebagai prediktor kinerja
+inti dari model tersebut adalah agar teknologi informasi dapat memberikan dampak positif terhadap kinerja pada tingkat individual maupun organisasi, maka teknologi harus dimanfaatkan dan harus sesuai dengan jenis pekerjaan yang dilakukan
+model tpc, dengan hasil bahwa terdapat pengaruh signifikan utilization dan task technology fit terhadap performance impact
+model tpc memiliki tujuh variabel yaitu expected consequences of use, affect toward use, social norms, facilitating conditions, task technology fit, utilization, dan performance impacts 
+dalam penelitiannya, mereka tidak menguji hubungan task technology fit terhadap expected consequences of use, affect toward use, social norms, habit, dan facilitating conditions
+goodhue dan thompson selanjutnya menyarankan untuk melanjutkan penelitian pada hubungan utilization untuk mendapatkan pemahaman yang lebih baik lagi dan memvalidasi kekuatan hubungan dalam model tpc untuk dua kondisi yang berbeda
+kedua saran tersebut kemudian dilakukan oleh staples dan seddon
+staples dan seddon dalam penelitiannya menggunakan dua sampel berbeda yaitu mandatory use dan voluntary use
+perbedaan utama dari mandatory use atau voluntary use terletak pada kebebasan penggunaan oleh pemakainya
+voluntary use yaitu pengguna sistem informasi mempunyai kebebasan untuk memutuskan menggunakan atau tidak menggunakan sistem informasi tersebut
+dan sebaliknya, mandatory use adalah pengguna tidak memiliki kebebasan tersebut karena dipaksa menggunakan oleh perusahaan atau organisasi yang menerapkan sistem informasi tersebut
+hasil penelitian mereka menunjukkan bahwa pada voluntary use terdapat tiga dari delapan hipotesis yang signifikan, sedangkan pada mandatory use terdapat empat dari delapan hipotesis yang signifikan
+menemukan pengaruh signifikan utilization terhadap performance impact
+teori tersebut tidak sesuai dengan teori tpc yang ada bahwa teknologi harus dimanfaatkan dan harus sesuai dengan jenis pekerjaan yang dilakukan agar dapat memberikan dampak positif terhadap kinerja pada tingkat individual maupun organisasi yang ada, sehingga perlu dilakukan pengujian kembali pada sebagian model tpc
+penelitian ini menunjukkan adanya hubungan signifikan antara ttf terhadap expected consequences of use, ttf terhadap affect toward use, ttf terhadap performance, dan utilization terhadap performance
+structual equation modeling merupakan teknik statistik yang digunakan untuk membangun dan menguji model statistik yang biasanya dalam bentuk model-model sebab akibat
+analisis sem dibagi ke dalam dua kelompok yaitu sem berbasis kovarian dan sem berbasis varians 
+sem dengan pls bertujuan memprediksi dan mengembangkan teori
+hal ini berlainan dengan sem yang berbasis kovarian yang ditujukan untuk menguji teori yang ada dan konfirmasi
+di samping itu, pls-sem juga digunakan untuk memprediksi variabel laten endogenus atau mengidentifikasi variabel-variabel utama jika riset merupakan riset eksploratori atau perluasan suatu teori struktual yang ada
+tpc yang telah diuji oleh staples dan seddon dengan menggunakan setting mandatory use pada sistem informasi akademik universitas airlangga cyber campus yang digunakan oleh mahasiswa fakultas sains dan teknologi universitas airlangga
+identifikasi variabel dan hipotesis variabel-variabel yang diulas dalam penelitian ini adalah berdasarkan dari variabel-variabel yang ada dalam model tpc staples dan seddon
+adapun variabel- variabelnya ditunjukkan pada gambar 1
+pada model tpc yang akan diteliti, terdapat 8 hipotesis yang diuji seperti yang ditunjukkan pada gambar 1, yaitu: h1: ttf berpengaruh signifikan terhadap cou h2: ttf berpengaruh signifikan terhadap atu h3: ttf berpengaruh signifikan terhadap pi h4: cou berpengaruh signifikan terhadap u h5: atu berpengaruh signifikan terhadap u h6: sn berpengaruh signifikan terhadap u h7: fc berpengaruh signifikan terhadap u h8: u berpengaruh signifikan terhadap pi
+penyebaran secara offline dilakukan dengan memberi lembar kuesioner secara langsung kepada mahasiswa pengguna cyber campus
+kemudian, survei secara online dilakukan dengan memberikan link google form dan disebarkan melalui media sosial gambar
+1 model tpc yang diuji staples dan seddonc
+penentuan populasi dan sampel responden populasi yang dipilih dalam penelitian ini adalah seluruh mahasiswa pengguna cyber campus pada program sarjana fakultas sains dan teknologi universitas airlangga
+metode sampling yang digunakan untuk menentukan jumlah sampel yang diinginkan dari masing- masing angkatan ialah stratified random sampling
+untuk menetukan ukuran minimal sampel guna penerapan pls- sem dimana yang direkomendasikan adalah 10 kali jumlah jalur model struktural
+diketahui bahwa jumlah jalur model struktural penelitian sebanyak 8, sehingga 8 × 10 = 80 merepresentasikan ukuran minimal sampel yang dibutuhkan untuk melakukan estimasi model jalur pls
+dengan demikian jumlah sampel yang ditetapkan peneliti adalah sebanyak 100 responden
+rincian sampel penelitian dapat dilihat pada tabel i
+tabel i deskripsi responden penentuan indikator pada setiap variabel yang digunakan pada model tpc yang didapat dari penelitian sebelumnya yaitu staples dan seddon
+tabel ii compatibility ttf1 inginkan untuk menyelesaikan ttf3 saya memiliki akses ke sistem ketika saya membutuhkannya use lakukan
+pengujian model pengukuran dan model struktural menggunakan smart pls
+partial least squares adalah model persamaan structural equation modeling yang berbasis komponen varian
+pengujian model pengukuran dilakukan untuk mengetahui validitas dan reliabilitas konstruk
+kemudian, pengujian model struktural dilakukan untuk mengetahui hipotesis apa saja yang ditolak atau diterima
+setelah pengujian data yang akan memberikan hasil dari perhitungan yang matang, maka tahap selanjutnya adalah mengambil hasil kesimpulan yang dilakukan sebagai tabel untuk hasil pengujian data diperlukan agar dapat lebih mudah menarik kesimpulan dari hasil permasalahan dan menjabarkan hubungan antar faktor-dalam lingkup cyber campus
+berdasarkan kesimpulan dari hasil penelitian yang dilakukan dapat memberikan saran dan rekomendasi sebagai bahan pertimbangan untuk pengembangan penelitian selanjutnya
+meliputi 2 tahapan yaitu tahap evaluasi model pengukuran reflektif dan tahap evaluasi model struktural ditolak atau diterima
+dapat dilihat dari korelasi antara indikator dengan konstruk atau variabel latennya dengan melihat nilai loading factor yang terletak pada tabel outer loadings
+loading factor paling lemah yang dapat diterima validitasnya adalah 0, 5
+indikator ttf3, ttf10, ttf11, u1, dan u2 menunjukkan korelasi yang tidak valid karena memiliki loading factor kurang dari 0, 50 yakni berturut- berturut sebesar 0, 469; 0, 492; 0, 428; 0, 444; dan 0, 371
+hasil loading factor pada masing-masing indikator juga bisa dilihat pada gambar 2
+discriminant validity adalah tingkat diferensi suatu indikator dalam mengukur konstruk-konstruk instrument
+untuk menguji discriminat validity dapat dilakukan dengan membandingkan korelasi antara variabel dengan akar kuadrat ave atau melihat langsung nilai fornell lacker criterion pada smartpls
+model pengukuran mempunyai discriminant validity yang baik jika √ave setiap variabel lebih besar daripada korelasi antar variabel lainnya
+hasil uji diskriminan dapat dilihat pada tabel iii
+konstruk dinyatakan reliabel jika nilai composite reliability maupun cronbach alpha diatas 0, 7
+hasil output composite reliability ditunjukkan pada tabel iv, sedangkan cronbach’s alpha ditunjukkan pada tabel v
+dapat dilihat semua variabel memiliki composite reliability dan cronbach’s alpha diatas 0.7
+variabel croanbach alpha model struktural dievaluasi dengan menggunakan p-value untuk mengetahui signifikansi dari koefisien parameter jalur struktural untuk menyimpulkan apakah hipotesis diterima atau ditolak, digunakan nilai p-value pada signifikansi α = 5% atau 0, 05
+jika p-value < 0, 05 maka h0 ditolak, dengan kata lain terdapat pengaruh yang signifikan antar variabel tersebut
+namun, jika p-value > 0, 05 maka h0 diterima artinya tidak ada pengaruh yang signifikan antar variabel
+hasil pengolahan data bootstrapping dapat dilihat pada tabel v
+hasil uji hipotesis menunjukkan bahwa 6 hipotesis diterima yakni h1, h2, h3, h5, h6, dan h8
+sementara 2 hipotesis yang ditolak yakni h4 dan h7
+h2 : task-technology fit berpengaruh signifikan terhadap affect toward use pada hasil uji hipotesis diketahui bahwa ttf uacc mempunyai pengaruh pada atu mahasiswa sehingga uacc yang sifatnya mudah digunakan, mudah dipelajari, user friendly, dan kompatibel mempengaruhi kesan mahasiswa berguna dan berharga
+mahasiswa yang mempunyai kesan positif terhadap aktivitasnya akan dapat meningkatkan intensitas penggunaan uacc
+ttf uacc mempunyai pengaruh pada pi mahasiswa maka uacc yang sifatnya mudah digunakan, mudah dipelajari, user friendly, dan kompatibel terhadap kegiatan mahasiswa oleh mahasiswa, uacc merupakan solusi yang efektif untuk kebutuhan tugas atau kegiatan seorang mahasiswa
+dengan sistem yang memiliki karakteristik seperti itu, manfaat yang dirasakan dari penggunaan uacc akan lebih banyak dari pada kerugiannya
+secara keseluruhan dengan menggunakan uacc yang ada, mahasiswa akan merasakan kepuasan tersendiri sehingga kinerjanya dapat meningkat
+hal ini menunjukkan bahwa kesesuaian tugas akan dapat meningkatkan kinerja individual d
+h4: expected consequences of use berpengaruh signifikan terhadap utilization berdasarkan hasil uji hipotesis untuk cou terhadap u pada tabel vi dapat dilihat bahwa h0 diterima pada tingkat signifikansi 0.05
+sehingga cou tidak mempunyai pengaruh pada u maka uacc yang diharapkan dapat meningkatkan produktivitas dan efektivitas dalam beraktifitas belum mampu mendorong mahasiswa untuk memanfaatkan dan meningkatkan frekuensi yang memiliki berbagai fitur akademik belum mampu memotivasi mahasiswa untuk lebih sering menggunakan uacc
+berdasarkan hasil uji hipotesis untuk atu terhadap u pada tabel vi dapat dilihat bahwa h0 ditolak pada tingkat signifikansi 0.05
+sehingga atu mempunyai pengaruh pada u maka uacc secara psikologis mahasiswa merasa baik dan berguna menggunakan uacc sehingga dapat meningkatkan intensitas dan frekuensi penggunaan uacc pemakai
+berdasarkan positif seperti baik, berguna, dan hebat dalam menggunakan uacc baru mampu membawa mahasiswa untuk menggunakan uacc dengan intensitas rata-rata 6−7 menit dalam seminggu
+h6: social norms berpengaruh signifikan terhadap utilization berdasarkan hasil uji hipotesis untuk sn terhadap u pada tabel vi dapat dilihat bahwa h0 ditolak pada tingkat signifikansi 0.05
+sehingga sn mempunyai pengaruh pada u maka eksistensi faktor sosial dalam mempengaruhi tingkat pemanfaatan uacc pada fst unair ialah kuat
+dukungan dari lingkungan sekitar seperti teman, dosen, atau keluarga terhadap pemanfaatan uacc telah mampu meningkatkan intensitas dan frekuensi penggunaan uacc
+h7: facilitating conditions berpengaruh signifikan terhadap utilization berdasarkan hasil uji hipotesis untuk fc terhadap u pada tabel vi dapat dilihat bahwa h0 diterima pada tingkat signifikansi 0, 05
+sehingga fc tidak mempunyai pengaruh pada u maka dari sisi mahasiswa sering memiliki perbedaan pendapat dengan staf pendukung atau dsi helpdesk serta tersedianya panduan dan bantuan jika pengguna menemukan kesulitan yang berhubungan dengan uacc belum mampu memperbaiki tingkat penggunaan uacc pada mahasiswa
+oleh karena itu, dsi helpdesk perlu lebih cepat tanggap lagi dalam memberikan bantuan ketika terdapat keluhan dan kesulitan dari mahasiswa
+berdasarkan hasil uji hipotesis untuk u terhadap pi pada tabel vi dapat dilihat bahwa h0 ditolak pada tingkat signifikansi 0, 05
+sehingga u mempunyai pengaruh pada pi maka pada tingkat rata-rata 6 menit/minggu dalam beberapa bulan terakhir dan rata-rata 7 menit/minggu dalam beberapa bulan mendatang mempengaruhi kinerja mahasiswa yang ditimbulkan dari uacc serta kepuasan mahasiswa selama menggunakan beberapa bulan mendatang
+staples dan seddon terdapat empat hipotesis yang signifikan yaitu h1, h2, h3, dan h6 dan empat hipotesis yang tidak signifikan yaitu h4, h5, h7, dan h8
+sedangkan dalam penelitian ini terdapat enam hipotesis yang signifikan yaitu h1, h2, h3, h5, h6, dan h8 serta dua hipotesis yang tidak signifikan yaitu h4 dan h7
+hasil uji hipotesis h1 konsisten dengan hasil penelitian sebelumnya bahwa task-technology fit berpengaruh signifikan terhadap expected consequences of use
+sebelumnya bahwa task-technology fit berpengaruh signifikan terhadap affect toward use
+ini menunjukkan bahwa pada mandatory setting persepsi individu dari kesesuaian sistem dengan tugas dan karakteristik individu merupakan pengaruh penting pada keyakinan mereka tentang kegunaan, kepentingan, dan potensi keuntungan yang bisa diperoleh dari penggunaan sistem
+sebelumnya bahwa task-technology fit berpengaruh signifikan terhadap performance impact
+hasil path coefficients dan uji signifikan juga menunjukkan bahwa sebagian besar explanatory power berasal dari task-technology fit, ini juga konsisten dengan hasil penelitian sebelumnya
+sebelumnya bahwa expected consequences of use tidak berpengaruh signifikan terhadap utilization
+ini menujukkan pada mandatory setting bahwa ketika pengguna tidak memiliki pilihan untuk menggunakan sistem, maka kepercayaan dan perasaan mereka tentang penggunaan sebagian besar tidak relevan mendukung prediksi utilization
+harapan dan hasil penelitian staples-seddon mengatakan bahwa expected consequences of use tidak berpengaruh signifikan terhadap utilization
+ini menujukkan pada mandatory setting bahwa ketika pengguna tidak memiliki pilihan untuk menggunakan sistem, maka kepercayaan dan perasaan mereka tentang penggunaan sebagian besar tidak relevan mendukung prediksi utilization
+beberapa opini peneliti menunjukkan bahwa diterimanya h5 pada penelitian ini dikarenakan mayoritas masyarakat indonesia yang memiliki sifat yang ramah dan tidak enak hati untuk menyatakan suatu sistem tidak berguna atau tidak bermanfaat walaupun tidak sesuai dengan harapan mereka 
+hasil uji hipotesis h6 konsisten dengan hasil penelitian sebelumnya bahwa social norms berpengaruh signifikan terhadap utilization
+ini menunjukkan bahwa pada mandatory setting ketika social norms kuat maka norma- norma dapat melampaui keyakinan kekuasaan tentang expected consequences of use dan affect toward use
+hasil uji hipotesis h8 pada penelitian ini tidak konsisten dengan hasil penelitian sebelumnya
+berdasarkan hasil analisis data yang dilakukan dalam penelitian ini dengan menggunakan model tpc serta menggunakan analisis dengan metode sem-pls, dapat disimpulkan bahwa: toward use, dan performance impact
+affect toward use, social norms, dan facilitating condition berpengaruh signifikan terhadap utilization
+expected consequences of use dan facilitating condition tidak berpengaruh signifikan terhadap utilization
+bahwa model tpc merupakan alat yang sangat berguna umtuk memahami dampak potensial dari sistem pada kinerja tugas
+bahwa pengujian model technology-to-performance chain dengan objek uacc kurang tepat dikarenakan ada lima indikator pada loading factor yang masih kurang dari 0, 5 yaitu ttf3, ttf10, ttf11, u1, dan u2
+diharapkan adanya pemberdayaan fitur yang sudah ada pada uacc, seperti: a
+fitur kalender akademik yang lebih akurat, b
+fitur informasi yang lebih up-to-date, seperti adanya informasi kegiatan mahasiswa, beasiswa, atau berita antar fakultas hingga universitas lain
+layanan pesan antar mahasiswa pada dosen lebih sering digunakan
+diharapkan adanya penambahan fitur lain seperti fitur jadwal ajar dosen
+sedangkan untuk pihak dsi helpdesk diharapkan dapat lebih cepat tanggap lagi dalam memberikan respon

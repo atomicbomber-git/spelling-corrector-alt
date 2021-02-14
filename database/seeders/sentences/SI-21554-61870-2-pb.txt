@@ -1,0 +1,110 @@
+selama ini proses pengenalan rumah adat masih mengandalkan media seperti buku, majalah atau internet dengan melihat gambar bentuk bangunannya
+hal ini dirasakan masih belum maksimal, karena visualisai hanya dalam bentuk dua dimensi 
+penelitian ini bertujuan untuk membuat aplikasi augmented reality berbasis android sebagai media pengenalan rumah adat di kalimantan barat yang dapat menampilkan bentuk tiga dimensi bangunan rumah adat beserta informasi dari rumah adat tersebut
+metode yang digunakan dalam penerapan augmented reality pada penelitian ini adalah marker based tracking
+untuk dapat mengoperasikan aplikasi ini pengguna harus memiliki augmented reality book yang berisi penjelasan dan gambar rumah-rumah adat di kalimantan barat yang berfungsi sebagai marker
+dari hasil pengujian black-box menggunakan teknik behavior testing, aplikasi yang dibangun dapat berfungsi dengan baik yaitu, sesuai antara input yang diberikan dan output yang dihasilkan oleh aplikasi
+dari hasil pengujian kompatibilitas, aplikasi yang dibangun dapat berjalan dengan baik pada beberapa perangkat smartphone android, yaitu android versi jelly bean, kitkat, lollipop dan marshmallow
+dari hasil pengujian marker, aplikasi yang dibangun dapat menampilkan objek 3d pada jarak marker 10 - 60 cm, sudut kemiringan marker dari 45° - 90° dan marker terhalang oleh objek lain hingga 75%
+dari hasil pre-test dan post-test menunjukan kenaikan nilai sebesar 34.4 % dan terdapat gap/jarak selisih nilai post-test yang tidak begitu signifikan yaitu sebesar 3.2 % antara user yang belum dan user yang sudah pernah mengunjungi rumah adat, yang berarti aplikasi yang telah dibuat sudah informatif
+dari hasil perhitungan kuisioner menggunakan metode likert’s summated ratting diperoleh nilai 1771, masuk dalam range penilaian positif yang berarti aplikasi ini dapat diimplementasikan dengan baik
+berdasarkan hasil dari beberapa pengujian yang telah dilakukan, dapat disimpulkan bahwa aplikasi augmented reality pengenalan rumah adat kalimantan barat yang telah dibuat sudah berjalan dengan baik dan informatif, serta mendapat respon yang positif dari pengguna
+keanekaragaman ini dapat dilihat dari bentuk bangunan rumah adat pada masing-masing daerah, salah satunya yaitu kalimantan barat
+kalimantan barat merupakan provinsi di indonesia dengan ibukota provinsi pontianak
+etnik dayak dan melayu merupakan etnik terbesar yang sudah lama tinggal dan membentuk sebuah peradaban di kalimantan barat
+data hasil sensus penduduk kalimantan barat tahun 2000 diketahui etnik dayak, melayu, cina dan selebihnya etnik-etnik lainya, termasuk didalamnya etnik madura 
+kelompok etnik dayak merupakan etnik tertua yang telah menghuni pulau kalimantan ribuan tahun yang lalu
+hasil penelitian antropologi, etnik dayak ini berasal dari yunan selatan sehingga etnik ini mengklaim dirinya sebagai penduduk asli pulau kalimantan
+menurut munawaretnik melayu di kalimantan barat pada hakekatnya terdiri dari orang melayu asli yang berasal dari sumatera atau semenanjung malaka dan yang berasal dari orang-orang dayak dari proses islamisasi
+sekarang antara keduanya tidak lagi dapat dibedakan mana yang asli dan mana yang bukan
+sellatomenyatakan, kira-kira 90 % dari yang dinamakan orang melayu itu adalah orang dayak yang sudah masuk islam
+king juga mencatat bahwa pada umumnya nenek moyang orang melayu yang kini terdapat di brunei, sarawak, kapuas, banjar, dan kutai adalah orang dayak yang masuk islam
+sebagai daerah yang penduduknya sebagian besar etnik dayak dan melayu, kalimantan barat memiliki beberapa bentuk bangunan rumah adat yang menggambarkan kebudayaan masyarakat dayak dan melayu itu sendiri
+namun saat ini informasi tentang rumah adat daerah tersebut masih minim dan wujud asli bangunannya sulit ditemui di tengah- tengah masyarakat
+selama ini proses pengenalan pengetahuan mengenai rumah adat juga masih mengandalkan media seperti buku, majalah dan internet dengan melihat gambar-gambar bentuk bangunan rumah adat
+hal ini dirasakan masih kurang memberikasn hasil yang maksimal, karena visualisasi masih dalam dua dimensi dan belum interaktif
+oleh sebab itu dipandang perlu membuat suatu media alternatif untuk pengenalan rumah adat yang ada di kalimantan barat dengan cara yang lebih menarik
+menggabungkan benda maya dua dimensi dan ataupun tiga dimensi ke dalam sebuah lingkungan nyata lalu memproyeksikan benda-benda maya tersebut dalam waktu nyata 
+menerapkan teknologi augmented reality untuk membuat media pengenalan rumah adat, memungkinkan pengguna dapat mempelajari secara virtual dan real-time serta lebih interaktif, sehingga menarik perhatian masyarakat untuk mengenali rumah adat yang ada di kalimantan barat
+memanfaatkan sebuah perangkat smartphone android dan gambar rumah adat sebagai penanda, aplikasi augmented reality dapat menampilkan animasi 3d bentuk rumah adat beserta informasinya yang dapat dieksplorasi setiap bagian sudutnya oleh pengguna
+tinjauan pustaka objek benda maya dua dimensi dan ataupun tiga dimensi ke dalam sebuah lingkungan nyata menggunakan media kamera
+azumamendefinisikan augmented reality sebagai penggabungan benda-benda nyata dan maya di lingkungan nyata, berjalan secara interaktif dalam waktu nyata dan terdapat integrasi antar benda dalam tiga dimensi, yaitu benda maya terintegrasi dalam dunia nyata
+selain menambahkan benda maya dalam lingkungan nyata, realitas tertambah juga berpotensi menghilangkan benda-benda yang sudah ada
+menambah sebuah lapisan gambar maya dimungkinkan untuk menghilangkan atau menyembunyikan lingkungan nyata dari pandangan pengguna
+augmented reality book augmented reality book merupakan penggabungan antara buku biasa dengan teknologi augmented reality
+augmented reality book ini berisi penjelasan dan gambar rumah adat yang didesain khusus untuk digunakan sebagai marker oleh aplikasi augmented reality
+augmented reality book dikembangkan sebagai komponen pendukung dalam mempermudah pengguna memahami isi buku dengan cara menampilkan objek 3d dari gambar 2d yang ada di buku
+rumah adat yaitu rumah besar yang penuh ukiran-ukiran dan makna- makna simbolik
+pada konsep tradisional sebuah rumah tidak hanya memiliki dimensi fungsional sebagai tempat hunian, tetapi juga sekaligus melalui unsur-unsur bentuk tertentu menampilkan pandangan kosmologis dan filosofis yang mendalam
+rumah adat merupakan suatu simbol status sosial dan juga berfungsi sebagai tempat penyelenggaraan upacara adat, pusat pemerintahan dan bentuk kekuasaan adat
+unified modeling language unified modeling language merupakan bahasa visual untuk pemodelan dan komunikasi mengenai sistem dengan menggunakan diagram dan teks-teks pendukung
+unified modeling language terdiri atas banyak elemen-elemen grafis yang digabungkan menbentuk diagram
+use case diagram satu atau lebih aktor dengan sistem yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+activity diagram dari sebuah sistem atau proses bisnis
+activity diagram menggambarkan aktivitas sistem bukan apa yang dilakukan aktor, jadi aktivitas yang dapat dilakukan oleh sistem
+desain arsitektur sistem aplikasi yang sudah dibangun di-install pada perangkat android
+aplikasi dijalankan untuk mengenali marker dengan kamera
+kemudian arahkan kamera pada gambar rumah adat yang ada di ar book
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika valid aplikasi akan menampilkan objek 3d rumah adat dari gambar ke layar android pengguna
+use case diagram use case diagram aplikasi ditunjukan pada gambar 2
+class diagram class diagram aplikasi ditunjukan pada gambar 3
+activity diagram activity diagram aplikasi ditunjukan pada gambar 4
+pengujian aplikasi kompatibilitas, uji marker, pre-test dan post-test serta kuisioner
+dibuat adalah sebuah aplikasi augmented reality rumah adat kalimantan barat 
+aplikasi augmented reality ini dibuat dengan game engine unity dan library vuforia sdk yang di-build untuk sistem operasi android dengan kapasitas file sebesar 83 mb
+berikut adalah tampilan aplikasi augmented reality rumah adat kalimantan barat, yang ditunjukan pada gambar 5 sampai dengan gambar 8
+tampilan menu utama pada gambar 5 diatas adalah tampilan menu utama aplikasi
+tampilan menu mulai ketika menampilkan objek 3d pada gambar 6 diatas adalah tampilan objek 3d rumah adat sesuai dengan marker yang berhasil dikenali oleh aplikasi
+tampilan menu mulai ketika menampilkan objek 3d pada gambar 7 diatas adalah tampilan informasi mengenai rumah adat sesuai marker yang berhasil dikenali oleh aplikasi
+tampilan menu virtual tour pada gambar 8 diatas adalah tampilan menu virtual tour pada rumah adat sesuai marker yang berhasil dikenali oleh aplikasi
+testing, yaitu untuk menguji validitas dari integrasi dan konsistensi sistem
+perangkat yang digunakan yaitu xiaomi redmi note 3 pro dan asus fonepad 8
+dari hasil uji pada seluruh fungsi yang ada pada aplikasi, antara input yang diberikan dan output yang dihasilkan sudah sesuai dengan yang diinginkan
+artinya sistem sudah berjalan dengan baik
+pengujian kompatibilitas apakah aplikasi dapat berjalan dengan baik pada beberapa perangkat android dengan spesifikasi yang berbeda
+pada tabel 1 berikut adalah hasil pengujian kompatibilitas aplikasi pada beberapa perangkat smartphone android yang berbeda
+hasil pengujian kompatibilitas aplikasi merek prosesor ram layar kamera android keterangan xiaomi aplikasi slow respon saat aplikasi aplikasi slow respon saat aplikasi slow respon saat aplikasi aplikasi aplikasi aplikasi aplikasi aplikasi force sistem dalam menampilkan objek 3d berdasarkan beberapa kondisi yaitu jarak, sudut dan marker terhalang oleh objek lain
+pada tabel 2 dan tabel 3 berikut ini adalah hasil pengujian marker dalam beberapa kondisi
+jarak dan sudut marker dengan kamera perangkat jarak sudut marker yang diuji 1 2 3 4 5 6 5 cm 10 cm 30 cm 60 cm 65 cm 1 2 3 4 5 6 0 – 50% o o o o o o 50 – 75% o o o o o o 75 – 90% x x x x x x keterangan : mengetahui apakah aplikasi yang telah dibuat dapat menjadi media yang informatif dalam pengenalan rumah adat yang terdapat di kalimantan barat atau tidak
+pengujian ini dilakukan pada dua kelompok user yang berbeda
+kelompok yang pertama yaitu user yang belum pernah mengunjungi rumah adat dan kelompok user yang kedua adalah user yang sudah pernah mengunjungi rumah adat 
+hasil pre-test dan post-test pada user x dianalisis apakah terdapat perubahan nilai, yaitu mengalami peningkatan atau penurunan
+selanjutnya hasil post-test pada user x dan user y dibandingkan, apakah terdapat gap/jarak selisih nilai yang signifikan atau tidak
+berikut ini adalah rangkuman nilai hasil dari pre-test dan post-test terhadap user x dan user y yang ditunjukan pada tabel 4
+pre-test post-test ̅ 45.33 79.73 post-test pada user x yang ditunjukan pada gambar 9, serta grafik perbandingan persentase nilai hasil post-test pada user x dengan nilai hasil post-test pada user y yang ditunjukan pada gambar 10
+persentase nilai pre-test dan post-test user x besar kenaikan nilai dari gambar 9 diatas dihitung dengan mencari selisih nilai post-test dikurangi nilai pre-test seperti berikut : jadi kenaikan nilai dari pre-test dan post-test pada user x adalah sebesar 34.4 %
+persentase perbandingan nilai post-test user x dengan user y untuk menghitung gap/jarak selisih nilai dari gambar 10 diatas digunakan rumus : ∆ xy = ̅ – ̅ = 82.93 % – 79.73 % 3.2 %
+kuisioner ini berjumlah 15 butir dibagi dalam tiga aspek yaitu, aspek rekayasa perangkat lunak, aspek komunikasi visual dan aspek fungsionalitas
+kuisioner dilakukan pada 30 responden yang telah mengoperasikan aplikasi kemudian diminta untuk memberikan penilaian terhadap aplikasi sesuai dengan tiga aspek tersebut
+pada gambar 11 sampai dengan gambar 13 berikut ini adalah diagram hasil kuisioner dalam tiga aspek tersebut
+persentase kuisioner aspek komunikasi visual gambar 13
+persentase kuisioner aspek fungsionalitas data yang diperoleh dari kuisioner tiga aspek diatas diukur dengan metode likert’s summated rating 
+lsr adalah salah satu teknik pengukuran sikap yang paling sering digunakan dalam riset pemasaran
+dalam pembuatan skala likert, periset membuat beberapa pernyataan yang berhubungan dengan suatu isu atau objek, lalu responden dimintan untuk mengindikasikan tingkat kesetujuan atau ketidaksetujuan mereka terhadap masing-masing pernyataaan
+jawaban dinyatakan dalam pilihan yang mengakomodasi jawaban antara sangat perlu sekali sampai sangat tidak perlu
+jumlah skor untuk setiap responden : - skor maksimal = 75 - skor minimal = 15 - skor median = 45 - skor kuartil i = 30 - skor kuartil iii = 60 2
+interpretasi jumlah skor tersebut adalah : - 1800 < skor < 2250, sangat positif - 1350 < skor < 1800, positif - 900 < skor < 1350, negatif - 450 < skor < 900, sangat negatif 1771, berada diantara skor 1350 sampai dengan 1800 yang artinya responden menilai aplikasi cukup berhasil
+pada gambar 14 berikut ini adalah total skor kuisioner pada interpretasi lsr
+analisis hasil pengujian kalimantan barat sebagai berikut
+hasil behavior testing menunjukan bahwa aplikasi dapat meng-handle proses input dengan baik, yaitu proses penggunaan seluruh menu dan fitur pada aplikasi
+output yang dihasilkan sudah sesuai dengan input yang diberikan
+perangkat smartphone android dengan versi dan spesifikasi hardware yang berbeda
+pada perangkat smartphone android dengan kapasitas space memori lebih dari 403 mb
+jarak dan sudut kamera saat melakukan identifikasi marker dapat mempengaruhi proses tracking objek
+jarak yang ideal yaitu 10 – 60 cm dengan sudut 45°-90°
+hasil pengujian marker menunjukan bahwa marker yang digunakan dapat dideteksi dengan baik oleh sistem dalam beberapa kondisi
+marker masih dapat dikenali walau terhalang objek lain hingga 75% bagiannya
+hasil pre-test dan post-test menunjukan bahwa pengguna aplikasi mengalami peningkatan nilai sebesar 34.4 % setelah menggunakan aplikasi
+perbandingan nilai hasil post-test antara user yang belum dan sudah pernah mengunjungi rumah adat menunjukan terdapat gap/jarak selisih nilai yang tidak terpaut jauh yaitu sebesar 3.2 %, artinya user yang belum dan sudah pernah mengunjungi rumah adat dapat menyerap/menerima informasi yang hampir sama dari aplikasi yang dibuat
+hasil interpretasi total skor kuisioner dengan likert’s summated rating menunjukkan hasil 1771 yang berarti aplikasi yang dibuat bernilai positif dan aplikasi dinyatakan cukup berhasil
+mempengaruhi aplikasi augmented reality rumah adat kalimantan barat mampu berjalan dengan baik yaitu faktor keadaan marker saat aplikasi dijalankan dan faktor kemampuan hardware smartphone yang digunakan untuk menjalankan aplikasi
+dengan memanfaatkan teknologi augmented reality pengenalan bentuk rumah adat lebih menarik karena dapat melihat rumah adat dalam pencitraan visual secara tiga dimensi 
+aplikasi augmented reality yang dibangun dapat digunakan dan berjalan dengan baik pada beberapa perangkat android dengan versi dan spesifikasi hardware yang berbeda
+aplikasi augmented reality yang dibangun dapat mengenali marker dengan baik pada jarak ideal 10 – 60 cm dengan sudut 45° - 60° dan terhalang oleh objek lain hingga 75% bagian
+barat bernilai informatif sebagai media pengenalan rumah adat
+interpretasikan positif atau dinyatakan cukup berhasil

@@ -1,0 +1,118 @@
+restoran merupakan tempat usaha komersial yang ruang lingkup kegiatannya menyediakan hidangan makanan dan minuman untuk pengunjung yang bersifat umum
+sebagian besar restoran masih menggunakan sistem pemesanan menu secara manual seperti pelayan mencatat pemesanan menu pengunjung, pelayan memberikan catatan pemesanan menu ke bagian dapur dan kasir, dan pelayanan pengunjung membayar menu pemesanannya ke bagian kasir
+biasanya restoran yang dikunjungi banyak pengunjung, dimungkinkan menghadapi masalah keterlambatan pemesanan menu, kesalahan pencatatan menu, dan kesalahan dalam transaksi pembayaran
+tujuan dari penelitian ini adalah untuk menghasilkan sebuah aplikasi yang mampu mengatasi masalah pelayanan, seperti keterlambatan pemesanan menu, kesalahan pencatatan menu, dan kesalahan dalam transaksi pembayaran
+aplikasi pemesanan menu dirancang untuk digunakan oleh beberapa pengguna, seperti pengunjung, pelayan, dapur, kasir, dan admin
+pengujian aplikasi dilakukan di restoran mr
+uduk yang terdiri dari dua jenis, yaitu pengujian black box dan kuesioner
+jenis dari pengujian black box yang digunakan dalam pengujian aplikasi ini adalah robustness testing
+pengujian juga dilakukan dengan kuesioner yang sudah dilalui dengan uji validitas dan uji reliabilitas dengan nilai valid dan reliabel
+kuesioner yang diberikan, kemudian diproses menggunakan perhitungan nilai skala likert
+hasil black box robustness testing telah berjalan dengan fungsinya sesuai kebutuhan fungsional yang telah didefinisikan
+hasil pengujian kuesioner sudah dinyatakan valid dan reliabel
+hasil akhir pada penelitian ini menghasilkan sebuah aplikasi yang mampu mengatasi masalah pelayanan
+demikian aplikasi pemesanan menu di restoran berbasis web layak untuk diimplementasikan
+kontribusi pengunjung dapat memesan menu melalui perangkat yang digunakannya dan kode pin untuk login pengunjung
+restoran adalah fasilitas penyedia makanan atau minuman dengan dipungut bayaran, yang mencakup juga rumah makan, kafetaria, kantin, warung, bar, dan sejenisnya termasuk jasa boga/catering
+pendahuluan pernikahan merupakan komitmen jangka panjang dan bersifat menurut undang-undang nomor 28 tahun 2009 tentang pajak daerah dan restribusi daerah, .usaha yang dijalankan restoran mengedepankan pelayanan yang cepat dan tepat untuk memuaskan para pelanggannya
+restoran yang dikunjungi banyak pengunjung dimungkinkan menghadapi masalah pelayanan, seperti keterlambatan pemesanan menu, kesalahan pencatatan pemesanan menu, dan kesalahan dalam transaksi pembayaran
+hal ini disebabkan oleh ketidaktelitian dari pihak restoran
+berdasarkan hasil pada penelitian sebelumnya yang dilakukan pada penelitian kerja praktek
+terdapat beberapa masalah, yaitu pada transaksi pembayaran berupa perhitungan dan kesalahan memasukkan menu pemesanan
+hal ini terjadi disebabkan karena ketidaktelitian kasir dalam memasukkan kode menu pada mesin kasir yang digunakan
+berdasarkan analisis awal diatas, maka sebuah restoran yang dilakukan penelitian diperlukan sebuah alat bantu atau secara spesifik aplikasi restoran berbasis desktop sebagai solusinya 
+penelitian serupa juga pernah dilaksanakan dimana penulis menyampaikan berupa permasalahan terhadap pelanggan dengan aplikasi berbasis web
+permasalahan berupa keterbatasan restoran untuk memberikan pelayanan yang optimal keterbatasan ini dikarenakan jumlah pelanggan yang banyak terutama pada waktu yang bersamaan, sehingga diperlukan sebuah sistem yang dapat mendukung pemesanan secara online
+berdasarkan dua analisis diatas, mengakibatkan dampak negatif seperti pengunjung merasa kecewa dengan pelayanan restoran, sehingga pengunjung tidak datang kembali karena tingkat kepercayaan yang menurun
+upaya untuk mengatasi permasalahan pelayanan tersebut dapat diatasi dengan suatu sistem yang dapat membantu memperbaiki masalah pelayanan kepada pengunjung
+oleh karena itu, dibutuhkan sebuah aplikasi pemesanan menu di restoran berbasis web
+tujuan dalam penggunaan aplikasi berbasis website supaya dapat digunakan oleh semua platform, seperti smartphone, tablet, maupun laptop
+aplikasi berbasis web biasa digunakan dalam jaringan internet, namun dalam kasus ini aplikasi berbasis web hanya digunakan dalam lingkungan restoran saja 
+pengunjung dapat mengakses aplikasi berbasis web apabila sudah terhubung dengan jaringan wifi restoran
+berdasarkan latar belakang di atas, maka permasalahan yang dapat dirumuskan adalah bagaimana merancang dan membangun sebuah aplikasi pemesanan menu yang mampu mengatasi keterlambatan pemesanan menu, kesalahan dalam pencatatan pemesanan menu, dan kesalahan dalam transaksi pembayaran
+penelitian terkait 1 inayati restoran berbasis web berdasarkan tabel diatas, maka dapat disimpulkan bahwa masalah restoran yang terjadi dapat menyebabkan dampak bagi suatu restoran tersebut
+seperti berkurangnya pelanggan, pendapatan menurun dan pelanggan akan melihat gambaran yang buruk terhadap restoran tersebut
+menurut ngaga, terdapat permasalahan berhubungan dengan pemesanan tiket bus yang dilakukan dengan mendatangi langsung tempat penjualan tiket bus atau dengan cara menelpon agen tiket proses pemesanan tiket memiliki kekurangan dimana pegawai agen tiket kerepotan dalam mencatat dan sering kali terjadi kesalahan dalam mencatat pemesanan tiket untuk mengatasi kekurangan tersebut pada penelitian ini merancang bangun sistem pemesanan tiket bus berbasis sms gateway yang bertujuan memberikan kemudahan pelayanan pemesanan tiket bus bagi masyarakat secara jarak jauh serta kemudahan mengetahui informasi penjadwalan bus dengan cepat
+hasil dari penelitian ini adalah sebuah sistem pemesanan tiket bus yang memberikan alternatif baru proses pemesanan tiket bus secara baik tanpa ada permasalahan pencatatan pemesanan tiket iii
+diagram alir penelitian alur metodologi penelitian dapat dilihat pada gambar 1 gambar 1
+perancancangan skenario aplikasi dapat diselesaikan sesuai prosedur
+dfd terdiri dari diagram konteks, diagram overview dan diagram rinci
+diagram konteks adalah diagram terdiri dari suatu proses dan menggambarkan ruang linkup suatu sistem
+perancangan entity relationalship diagram erd yang dirancang untuk menggambarkan atau membuat model suatu database dengan diagram yang sederhana, sehingga memudahkan dalam membuat sebuah database yang kompleks maupun yang sederhana
+tampilan antarmuka pengunjung halaman ini meaasnampilkan halaman login untuk pengunjug
+tampilan antarmuka halaman beranda pengunjung halaman beranda adalah halaman depan pengunjung yang sudah berhasil melakukan login
+tampilan antarmuka halaman menu berbentuk gambar jika di scroll kebawah, maka akan terlihat gambar menu yang ber discount lebih dari nol
+gambar tersebut dapat di klik, dan akan menampilkan pop-up seperti gambar 9, dan dapat langsung melakukan pemesanan seperti yang terlihat pada gambar 10
+tampilan antarmuka halaman menu berbentuk gambar halaman berikut ini berfungsi untuk menambah data pemesanan
+pengunjung hanya perlu memasukkan jumlah pemesanannya dan keterangannya jika ada
+tampilan antarmuka pop-up gambar menu ii jika pengunjung menekan tombol kiri atas, maka akan menampilkan sub menu
+tampilan antarmuka halaman menu halaman ini terdapat data menu berbentuk tabel
+data tabel yang ditampilkan adalah nama menu, jenis menu, harga, discount, deskripsi, gambar dan aksi untuk melakukan pemesanan
+jika tombol aksi di klik, maka akan menampilkan pop-up
+tampilan antarmuka halaman menu berbentuk tabel pop-up ini bertujuan untuk menambahkan data pemesanan baru
+pengunjung hanya perlu mengisi jumlah pemesanan dan keterangan jika ada keterangan yang ingin ditambahkan
+jika menekan tombol, maka akan menyimpan data pemesanan tersebut ke dalam keranjang pemesanan
+untuk menutup pop-up tersebut, pengunjung hanya perlu menekan tombol pada kanan atas, atau menekan tombol
+tampilan antarmuka pop-up pemesanan menu b
+pengujian aplikasi pengujian aplikasi terdiri dari pen black box robustness testing dan pengujian kuesioner
+robustness testing hasil pengujian black box robustness testing bertujuan untuk mengetahui hasil dari input
+pada pengujian ini terdapat beberapa hasil pengujian black box, seperti : a
+pengujian black box login pengunjung dengan kode pin
+hasil pengujian ini tidak dapat berhasil login jika dalam kondisi data kosong, data salah atau salah pada huruf capital, dan data benar tapi status pin sudah digunakan
+sehingga sistem akan menampilkan alert pada aplikasi
+pengunjung dapat berhasil login apabila memasukkan data yang benar
+kode pin yang dimasukkan harus berstatus, sehingga pengunjung dapat masuk ke halaman beranda pengunjung login dari aplikasi
+pengujian black box login pengunjung dengan kode word
+hasil pengujian ini tidak dapat berhasil login jika dalam kondisi data kosong, data benar tapi salah satu kosong, dan data salah semua
+sehingga sistem akan menampilkan alert pada aplikasi
+pengunjung dapat berhasil login apabila data benar semua
+kode pin yang dimasukkan harus berstatus dan password yang sudah di daftarkan oleh kode pin tersebut
+sehingga pengunjung dapat masuk ke halaman beranda pengunjung login dari aplikasi
+pengujian black box login pihak restoran
+hasil pengujian ini tidak dapat berhasil login jika dalam kondisi data kosong, data benar tapi salah satu kosong, dan data salah semua
+sehingga sistem akan menampilkan alert pada aplikasi
+pengunjung dapat berhasil login apabila data benar semua
+username dan password yang dimasukkan dengan benar, maka sistem akan mengecek hak akses pada username tersebut
+sehingga pihak restoran dapat masuk ke halaman sesuai dengan hak akses yang sudah terdaftar
+pengujian black box pemesanan menu pengunjung berbentuk gambar
+hasil pengujian ini tidak dapat menambah data pemesanan jika dalam kondisi data kosong dan kolom jumlah sudah terisi tetapi jumlah stok kurang
+sehingga sistem akan menampilkan alert pada aplikasi
+pengunjung dapat berhasil menambah data pemesanan jika dalam kondisi kolom jumlah sudah terisi tetapi kolom keterangan kosong dan kolom jumlah dan keterangan terisi apabila jumlah stok tidak melebihi kolom jumlah
+sehingga pengunjung berhasil menambah data pemesanan pada aplikasi
+pengujian black box pemesanan menu pengunjung berbentuk tabel
+hasil pengujian ini tidak dapat menambah data pemesanan jika dalam kondisi data kosong dan kolom jumlah sudah terisi tetapi jumlah stok kurang
+sehingga sistem akan menampilkan alert pada aplikasi
+pengunjung dapat berhasil menambah data pemesanan jika dalam kondisi kolom jumlah sudah terisi tetapi kolom keterangan kosong dan kolom jumlah dan keterangan terisi apabila jumlah stok tidak melebihi kolom jumlah
+sehingga pengunjung berhasil menambah data pemesanan pada aplikasi
+pengujian kuesioner pengujian kuesioner bertujuan untuk mengetahui persepsi para pengguna aplikasi
+setiap user memiliki persepsi yang berbeda dalam menggunakan aplikasi pemesanan menu berbasis web
+hak akses dalam penelitian ini ada 5 yaitu pengunjung, pelayan, dapur, kasir, serta manager atau admin sebagai pemilik restoran
+pada pengujian ini terdapat beberapa hasil pengujian kuesioner, seperti : a
+persepsi hak akses pengunjung sebagian besar user sebagai pengujung yang menilai aplikasi pemesanan menu berbasis web, berpersepsi baik
+hal ini ditunjukkan pada hasil data primer yang diolah, bahwa dari 25 responden ada 60% yang berpendapat baik
+hasil diatas membuktikan bahwa aplikasi pemesanan menu berbasis web sudah bisa di pahami oleh sebagian besar pengujung, adapun bukti pemahaman pengunjung terhadap aplikasi ini dilihat dari segi kelancaran pengunjung dalam menggunakan aplikasi ini, keleluasaan pengunjung dalam memilih menu pesanan tanpa batasan waktu sehingga tidak harus ditunggu pelayan, fitur-fitur aplikasi yang sangat mudah dipahami pengunjung sehingga proses pemesanan menu lancar, tentunya pengunjung juga puas terhadap kualitas pelayanan yang diberikan restoran, dengan membuat aplikasi ini sebagai alat yang dapat mempercepat proses pemesanan menu tanpa harus mengantri dan menunggu pelayan untuk di layani, sehingga keterlambatan dalam proses pemesanan menu tidak akan terjadi lagi, karena dalam proses pemesanan menu dilakukan sendiri oleh pengunjung itu sendiri
+persepsi hak akses pelayan sebagian besar user sebagai pelayan yang menilai aplikasi pemesanan menu berbasis web, berpersepsi baik
+hal ini ditunjukkan pada hasil data yang diperoleh bahwa dari 16 responden ada 62, 5% yang berpendapat baik
+hasil diatas membuktikan bahwa aplikasi pemesanan menu berbasis web untuk hak akses pelayan sudah bisa dilakukan dengan baik oleh pelayan
+selain itu adanya aplikasi ini memperkecil kesalahan yang biasa terjadi antara pelayan dan pengunjung yaitu ketidaksesuaian antara yang dipesan oleh pengunjung dengan yang ditulis oleh pelayan, karena disini yang melakukan pemesanan menu oleh pengunjung sendiri melalui smartphone-nya
+sehingga kesalahan pencatatan pesanan menu tidak terjadi lagi
+dengan adanya aplikasi ini, pihak restoran mendapatkan respon positif dari pengunjung
+persepsi hak akses dapur sebagian besar user sebagai petugas dapur yang menilai aplikasi pemesanan menu berbasis web berpersepsi baik
+hal ini ditunjukkan pada hasil data yang diperoleh bahwa dari 5 responden ada 60% yang berpendapat baik
+hasil diatas membuktikan bahwa aplikasi pemesanan menu berbasis web untuk hak user dapur sudah bisa berjalan dengan baik
+pekerjaan mereka yang terburu-buru dalam menyiapkan makanan saat kondisi restoran ramai tidak terasa berat setelah adanya aplikasi ini
+karena dengan menggunakan aplikasi ini, mereka tidak harus mencari struk pemesanan pengunjung dan mengecek satu persatu, akan tetapi mereka bisa langsung melihat menu dari layar monitor yang tersedia.aplikasi yang disediakan ini dapat membantu mereka untuk bisa langsung melihat stok bahan makanan atau minuman yang tersedia tanpa harus mengecek di ruang penyimpanan
+sehingga proses penyajian makanan dapat berjalan dengan baik tanpa kendala
+dan keterlambatan dalam pemesanan menu pun bisa teratasi
+persepsi hak akses kasir sebagian besar user sebagai petugas kasir yang menilai aplikasi pemesanan menu berbasis web berpersepsi sangat baik
+hal ini ditunjukkan pada hasil data yang diperoleh bahwa dari 4 responden ada 50% yang berpendapat sangat baik
+hasil diatas membuktikan bahwa aplikasi pemesanan menu berbasis web untuk hak akses kasir, sebagian besar responden berpendapat bahwa adanya aplikasi ini sangat membantu pekerjaan mereka
+seperti petugas kasir bisa mentotalkan langsung jumlah pemesanan tanpa harus melihat lembaran struk pemesanan, karena ketika pengunjung selesai memesan menu makanan atau minuman secara otomatis menu pesanan pengunjung sudah tersimpan di dalam aplikasi
+aplikasi ini juga membantu mereka untuk mengetahui meja yang kosong maupun terisi tanpa harus berkeliling mengecek meja yang kosong, dan bisa juga melihat data menu pesanan pada nomor meja yang sudah terisi
+dalam aplikasi ini juga sudah terdapat menu dan harga yang sesuai dengan harga yang sebenarnya, sehingga pengunjung tidak perlu lagi takut akan kesalahan transaksi pembayaran dalam penjumlahan total pesanan
+berdasarkan penelitian terkait yang telah di identifikasi bahwa masalah restoran yang terjadi dapat menyebabkan dampak bagi suatu restoran
+berdasarkan hasil wawancara awal kepada manager restoran mr.uduk bahwa terdapat hambatan terkait masalah pelayanan restoran dalam kondisi ramai
+hasil perancangan dan pembuatan aplikasi sudah dilakukan dengan baik mulai dari tahap pemesanan menu hingga pembayaran melalui aplikasi pemesanan menu di restoran berbasis web
+hasil pengujian aplikasi didapat melalui pengujian black box dan kuesioner
+berdasarkan pengujian black box telah berjalan fungsinya sesuai dengan kebutuhan fungsional sedangkan kuesioner sudah dinyatakan valid dan reliabel
+kontribusi pada penelitian ini adalah pengunjung dapat memesan menu melalui perangkat yang digunakannya dengan proses login yang mennggunakan kode pin untuk melakukan pemesanan menu

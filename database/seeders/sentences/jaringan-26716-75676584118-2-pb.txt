@@ -1,0 +1,62 @@
+penelitian ini bertujuan untuk mengatasi permasalahan-permasalahan terkait lambatnya suat traffic bandwidth, sehingga menyebabkan kendala bandwidth yang cepat habis atau lalu lintas transfer data baik yang masuk maupun yang keluar menjadi lambat dari biasanya
+umumnya sebuah kampus atau universitas memiliki struktur jaringan yang didalamnya dikelola oleh satu atau lebih router di dalam mengelola jaringan dan bandwidth
+beberapa router memiliki kemampuan pengaturan firewall yang sudah cukum mumpuni namun perlu dikelola lebih spsesifik berdasarkan kebutuhan skala jaringan dan bandwidth yang tersedia
+dengan menciptakan rule-rule yang baik di dalam firewall akan lebih mudah dalam melakukan filtering terhadap lalu lintas trafik jaringan dan bandwidth sehingga dapat menciptakan keamanan dan kenyamanan pengguna jaringan dan bandwidth
+hasil penelitian ini menunjukkan kinerja dari mikrotik router board rb 1100 ahx2 yang dapat memfilter aktivitas malware dengan rule yang telah ditanamkan
+pendahuluan penyebaran berita telah banyak dilaksanakan
+terhadap teknologi penyebaran berita dilaksanakan dengan dua metode yakni melalui media online serta media offline, namun perkembangan banyak dilaksanakan terhadap media online
+media offline tidak banyak merasakan pernyebaran disebabkan penggunaan media offline dinilai terbatas terhadap ruang lingkup tertentu walaupun dinilai terbatas terhadap ruang lingkup terdefinisi jelas seperti perkantoran, media offline dinilai amat efisien buat media penyebaran berita dilingkungan tersebut
+namun penyampaian berita secara offline tak secepat media online, disebabkan media online didukung oleh teknologi yang paling efisien yakni jaringan komputer
+terhadap ruang lingkup perkantoran lazimnya telah banyak menggunakan jaringan komputer sebagai teknologi pendukung pekerjaan dan sebagai media penyampaian informasi
+jaringan komputer terhadap saat ini amat berkembang dan menjadi kebutuhan
+penyebaran malware komputer pada jaman sekarang lebih cepat dan mudah dikarenakan juga oleh kemajuan-kemajuan teknologi komputer dan spesifikasi komputer tersebut
+salah satu kerja dari malware komputer ini adalah dengan menginfeksi salah satu file di komputer kemudian malware tersebut menyebar ke semua file yang ada di komputer, tidak hanya dalam komputer tersebut yang terkena malware
+jika dalam satu jaringan yang besar malware tersebut akan menyebar melalui jaringan internal atau yang terhubung internet dan akan dapat dicuri file yang ada dalam satu jaringan karena komputer saling terhubung satu sama lain sehingga pastinya setiap komputer akan saling berbagi file
+sebuah malware diciptakan untuk merusak atau membobol system operasi dengan melalui script yang dirahasiakan, artinya disisipkan oleh penyerang
+penyebaran trojan ini dilaksanakan dengan cara social engineering, yaitu metoda yang memakaikan kekurangan manusia, sehingga user dengan tidak curiga langsung mengeksekusi sesuatu program yang tak dikenal kegiatan malware berhubungan erat dengan performa pc serta juga aktifitas network terhadap sistem komputer
+windows menggunakan port libpcap yang dikenal sebagai winpcap
+perangkat lunak pemantauan dapat menggunakan libpcap dan atau winpcap untuk menangkap paket yang transmisi melalui jaringan dan, dalam versi yang lebih baru, untuk mengirim paket pada jaringan di link layer, serta mendapatkan daftar antarmuka jaringan untuk kemungkinan penggunaan dengan libpcap, dukungan alo menyimpan paket yang diambil ke file, dan membaca file yang berisi paket-paket yang disimpan; aplikasi bisa ditulis, menggunakan libpcap untuk dapat menangkap lalu lintas jaringan dan menganalisisnya, atau membaca rekaman yang disimpan dan menganalisisnya, menggunakan kode analisis yang sama
+file diambil disimpan dalam format yang libpcap dan gunakan dapat dibaca oleh aplikasi itu yang mengerti format itu
+2015 yaitu trojan ransomware, exploit kits, banking trojans, worms, pos malware, social engineering attacks, fake tech support services, rogue antivirus software, potentially unwanted programs, dan adware
+tinjauan pustaka yang memiliki prosedur untuk menggandakan sebagian atau bahkan keseluruhan bagian programnya ke dalam program lain, sehingga program yang di serang berjalan tidak sebagai mestinya dan program akan berjalan melambat tidak sebagaimana mestinya
+port port adalah tempat di mana informasi masuk dan keluar dari komputer, port scanning mengidentifikasi pintu terbuka ke komputer
+port memiliki penggunaan yang sah dalam mengelola jaringan, tetapi scanning port juga bisa berbahaya jika seseorang sedang mencari titik akses yang lemah untuk masuk ke komputer anda
+firewall firewall adalah sebuah sistem pengaman, jadi firewall bisa berupa apapun baik hardware maupun software
+firewall dapat digunakan untuk memfilter paket-paket dari luar dan dalam jaringan di mana ia berada
+jika pada kondisi normal semua orang dari luar jaringan anda dapat bermain-main ke komputer anda, dengan firewall semua itu dapat diatasi dengan mudah
+firewall yang sederhana biasanya tidak memiliki kemampuan melakukan filtering terhadap paket berdasarkan isi dari paket tersebut
+sebagai contoh, firewall tidak memiliki kemampuan melakukan filtering terhadap e- mail bervirus yang anda download atau terhadap halaman web yang tidak pantas untuk dibuka
+yang bisa dilakukan firewall adalah melakukan blokir terhadap alamat ip dari mail server yang mengirimkan virus atau alamat halaman web yang dilarang untuk dibuka
+dengan kata lain, firewall merupakan sistem pertahanan yang paling depan untuk jaringan anda
+internetworking tujuan dari tcp/ip adalah untuk membangun suatu koneksi antar jaringan, dimana biasa disebut internetwork, atau intenet, yang menyediakan pelayanan komunikasi antar jaringan yang memiliki bentuk fisik yang beragam
+tujuan yang jelas adalah menghubungkan empunya pada jaringan yang berbeda, atau mungkin terpisahkan secara geografis pada area yang luas
+contoh internet system malware sebagai pedoman dalam pembuatan penelitian ini
+untuk mendapatkan contoh suatu malware harus dideteksi dengan menggunakan banyak perangkat yang terhubung ke jaringan karena kita juga tidak tau jika perangkat tersebut terjangkit malware atau tidak
+setelah dikaji kita dapat mengevaluasi hasil dari lalu lintas jaringan pada router mikrotik tersebut
+jaringan ini menggunakan teknologi yang berbeda
+tiga yang paling umum topologi adalah bintang, cincin, dan bus
+ethernet dengan topologi bus mendominasi lan teknologi
+jaringan contoh pada universitas memiliki tipikal topologi bus untuk jaringan area lokalnya yang kemudian dihubungkan ke jaringan inti membentuk topologi pohon
+menggambarkan jaringan teknologi yang dihasilkan, diwakili oleh grafik yang tidak diarahkan
+kedua protokol tersebut memiliki hingga 65.536 port yang berbeda
+penyusup sering memindai komputer korban untuk melihat port mana yang aktif dan port mana saja yang non aktif
+setelah penyerang atau penyusup mengidentifikasi open port, penyusup mempersempit serangan ke jenis port tertentu di masa mendatang
+di lain kesempatan serangan port terjadi ketika penyerang mengirim paket ke mesin, memvariasikan port tujuan dan penyerang dapat mengetahui layanan apa yang kami jalankan dan untuk mendapatkan ide yang cukup bagus untuk melihat sistem operasi yang kami miliki
+di hari-hari ini kebanyakan situs internet mendapatkan selusin atau lebih pemindaian port per hari atau jam
+firewall harus memperhatikan kegiatan ini karena itu tidak biasa untuk komputer jarak jauh untuk terhubung ke lebih dari beberapa port sekaligus
+rancangan topologi jaringan adapun topologi jaringan yang dibuat dalam penelitan ini yaitu sebuah jaringan yang didalamnya terdapat router board mikrotik, isp dan beberapa klien, baik local server, wlan dan lan 
+internet akan masuk langsung ke dalam jaringan router yang kemudian akan terpecah menjadi beberapa segmen jaringan yang terhubung melalui switch-switch berdasarkan lokal ruangan dan lantai gedung
+beberapa akses poin yang diletakkan di setiap lantai dengan segmen ip address yang berbeda tergantung ruang
+secara keseluruhan topologi jaringan yang dibangun seperti pada gambar 3
+topologi jaringan dalam penelitian ini dikarenakan spesifikasinya dengan cpu dual core, dapat mencapai hingga satu juta paket per detik dan mendukung enkripsi hardware
+memiliki tiga belas port ethernet gigabit, dua kelompok switch 5-port, dan termasuk kemampuan bypass ethernet ram 2gb sodimm disertakan, ada satu slot kartu microsd
+menggunakan spesifikasi yang bagus dikarenakan dapat untuk pengembangan jaringan
+untuk masuk kedalam penambahan rule pada pengaturan firelwall maka dibutuhkan akses sebagai admin utama pada router board kemudian menambahkan rule seperti gambar diatas
+ini merupakan metode untuk membuat peraturan firewall sesuai dengan nama virus, protocol dan port
+bisa juga dengan menggunakan perintah / ip firewall filter add chain= icq trojan protocol=tcp dst-port=4950 action=drop comment=, maka akan didapatkan hasil seperti gambar dibawah ini
+hasil pengaturan firewall di mikrotik sumber : penelitian 2018 pengaturannya akan terlihat pada gambar diatas
+sedangkan untuk penambahan rule malware dengan port-portnya dan berbagai jenis malware lainnya bisa dikaji dan didapatkan dari berbagai sumber lainnya dikarenakan jumlah malware dan port yang terus bertambah
+malware pada setiap user atau perangkat komputer yang di gunakan
+sebelum malware tersebut menyebar melalui jaringan router dapat menutup akses malware tersebut sehingga perangkat atau user lain tidak terserang oleh malware tersebut
+untuk melihat statistik malware yang ada atau melintas didalam jaringan dapat dilihat pada tab menu statistics yang ada pada menu firewall di mikrotik
+kemudian dengan adanya metode seperti ini penelitian ini dapat meminimalisir keadaan lalu lintas jaringan pada sebuah perusahaan yang besar

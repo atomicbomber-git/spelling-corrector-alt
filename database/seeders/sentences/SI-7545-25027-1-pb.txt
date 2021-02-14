@@ -1,0 +1,67 @@
+singkawang and make the tourist hard to choose the best route to go to the place that they want
+that problem is the background of the writer to make an application that can show the most efficient route to the tourism place with maps view
+the algorithm that writer use in this application is floyd warshall algorithm
+this algorithm search the shortest route from the position of user to the tourism place that he want to go
+the input of this application is the place chosen by user and the output is the shortest route to that place
+the data of tourism place are came from dinas kebudayaan, pariwisata, pemuda dan olahraga and the data of the distant route are came from dinas pekerjaan umum singkawang
+based on the research, the writer conclude that the application succeed in applying floyd warshall algorithm to search the shortest route to go to tourism place in singkawang
+in this application, there also a features for showing the location of all tourism place in singkawang
+keyword : singkawang, tourism, shortest route, floyd warshall algorithm
+seiring meningkatnya kebutuhan masyarakat seluler yang saat ini tengah popular adalah telepon seluler berbasis android
+sundar pichai sebagai vice president android dan chrome mengatakan pada bulan mei 2013 sudah 900 juta perangkat android telah diaktifkan di seluruh dunia
+hal ini menumbuhkan minat developer software mobile phone untuk membuat aplikasi yang dapat memenuhi kebutuhan manusia sehari- hari
+salah satu aplikasi yang dapat dibangun adalah aplikasi untuk mencari jalur terpendek menuju tempat wisata yang berada di kota singkawang
+untuk menuju ke tempat wisata, ada beberapa jalur yang dapat ditempuh
+pencarian jalur terpendek menuju tempat wisata menggunakan algoritma floyd warshall untuk meminimalisir kemungkinan berputar- salah satu varian dari pemrogaman dinamis atau algoritma yang melakukan pemecahan masalah dengan memandang solusi yang akan diperoleh sebagai suatu keputusan yang saling terkait
+android adalah sistem operasi berbasis linux yang dikembangkan oleh android.inc dengan dukungan dana/finansial dari google untuk perangkat seluler layar sentuh 
+bersamaan dengan berdirinya open handset alliance, konsorsium dari perusahaan- android adalah sistem operasi terbuka, berbasis lisensi dari apache, sistem operasi ini memungkinkan untuk dimodifikasi dan didistribusikan secara bebas
+android juga memiliki sejumlah komunitas itu sendiri, ditulis dan dikustomisasi dengan sementara dari seorang atau lebih menuju ketempat lain diluar tempat tinggalnya
+dorongan kepergiannya adalah karena berbagai kepentingan baik karena 2.3 sistem informasi geografis geografis adalah sistem informasi yang digunakan untuk memasukkan, menyimpan, untuk mendukung pengambilan keputusan dalam perencanaan dan pengelolaan pelayanan umum lainnya
+masukan algoritma berlabel dan keluarannya adalah path terpendek dari semua titik ke semua titik
+dalam usaha untuk mencari path terpendek, algoritma warshall memulai iterasi dari titik awalnya kemudian memperpanjang path dengan mengevaluasi titik demi titik hingga mencapai titik tujuan dengan jumlah bobot yang seminimum mungkin
+w* adalah matrik hubung minimal dengan wij* = path terpendek dari titik vi ke vj
+algoritma warshall untuk mencari path terpendek adalah sebagai berikut: 1
+untuk k = 1 hingga n, lakukan: untuk i = 1 hingga n, lakukan: untuk j = 1 hingga n, lakukan: jika w[i, j] > w[i, k] + w[k, j] maka tukar w[i, j] dengan w[i, k] + w[k, j] 3
+w* = w dalam iterasinya untuk mencari path terpendek, algoritma warshall mementuk n matrik sesuai dengan iterasi k
+perancangan sistem 3.1 perancangan diagram usecase diagram use case berikut terlibat dalam aplikasi
+dalam aplikasi ini user dapat melakukan beberapa perilaku meliputi menampilkan daftar kriteria wisata, menampilkan daftar tempat wisata, menampilkan informasi tempat wisata, menampilkan jalur terpendek, menampilkan tentang aplikasi
+dalam diagram use case terlihat bahwa user harus memilih kriteria wisata untuk melihat daftar tempat wisata, setelah itu untuk mendapatkan jalur terpendek user harus memilih salah satu tempat wisata yang akan dituju
+selain itu user juga dapat menampilkan peta wisata dan tentang aplikasi
+3.2 activity diagram terlihat alur aktifitas user saat menggunakan aplikasi ini
+aktifitas yang dilakukan mulai dari masuk ke tampilan utama, memilih menu kriteria wisata, memilih tempat wisata, melihat informasi detail, melihat jalur terpendek, memilih tentang aplikasi dan keluar aplikasi
+memilih pencarian jalur pencarian jalur tependek dibuat adalah aplikasi berbasis android yang dirancang memiliki beberapa layout yang disesuaikan dengan kebutuhan aplikasi
+dapat dilihat pada gambar 3.3 berikut : beranda 4
+hasil perancangan aplikasi yang dirancang merupakan aplikasi pencarian jalur terpendek kasus kota singkawang) yang bertujuan untuk mencari jalur terpendek untuk menuju tempat wisata yang ada di kota singkawang
+antarmuka sistem yang dirancang hanya terdiri dari satu bagian yaitu bagian yang dapat diakses oleh pengguna
+adapun perancangan antarmuka tersebut adalah sebagai berikut
+antarmuka beranda muncul ketika aplikasi ini pertama dijalankan
+pada antarmuka ini terdapat empat menu pilihan yang dapat dipilih oleh pengguna yaitu daftar wisata, peta wisata, tentang aplikasi dan keluar
+adapun antarmuka beranda dapat dilihat pada gambar 4.1
+gambar 4.1 antarmuka beranda tampil pada saat pengguna memilih menu daftar wisata pada antarmuka beranda
+didalam menu ini terdapat lima pilihan kriteria wisata yaitu air terjun, danau, gunung, pantai dan taman
+adapun antarmuka daftar kriteria wisata dapat dilihat pada gambar 4.2
+gambar 4.2 antarmuka daftar kriteria wisata antarmuka daftar tempat wisata akan tampil pada saat pengguna memilih kriteria wisata
+daftar wisata yang ditampilkan berdasarkan kriteria wisata yang dipilih oleh pengguna
+adapun antarmuka daftar tempat wisata dapat dilihat pada gambar 4.3
+gambar 4.3 antarmuka daftar tempat wisata antarmuka detail tempat wisata akan tampil pada saat pengguna memilih tempat wisata
+pada halaman ini terdapat informasi mengenai tempat wisata seperti gambar, alamat, fasilitas dan menu jalur ke sini untuk melihat jalur menuju tempat wisata yang telah dipilih
+adapun antarmuka detail tempat wisata dapat dilihat pada gambar 4.4
+gambar 4.4 antarmuka detail tempat wisata antarmuka peta jalur akan tampil pada saat pengguna memilih menu jalur ke sini pada antarmuka detail tempat wisata
+pada halaman ini terdiri dari layer peta yang menggambarkan jalur terpendek yang dapat dilewati pengguna dan menu tampilkan nama jalan untuk melihat daftar nama jalan yang dapat dilewati
+adapun antarmuka peta jalur dapat dilihat pada gambar 4.5
+gambar 4.5 antarmuka peta jalur antarmuka daftar nama jalan akan muncul pada saat pengguna memilih menu tampilkan nama jalan pada antarmuka peta jalur
+antarmuka ini menampilkan daftar nama jalan yang dilewati untuk menuju tempat wisata yang telah dipilih
+adapun antarmuka daftar nama jalan dapat dilihat pada gambar 4.6
+antarmuka peta wisata akan muncul pada saat pengguna memilih menu peta wisata pada antarmuka beranda
+halaman ini menampilkan layer peta yang berisikan titik lokasi tempat wisata
+adapun antarmuka peta wisata dapat dilihat pada gambar 4.7
+gambar 4.7 antarmuka peta wisata antarmuka akan muncul pada saat pengguna memilih menu tentang aplikasi pada halaman beranda
+antarmuka ini berisikan informasi mengenai minimal versi sistem operasi, tujuan pembuatan aplikasi dan pembuat aplikasi
+adapun antarmuka tentang aplikasi dapat dilihat pada gambar 4.8 berikut
+kesimpulan menggunakan algoritma floyd warshall disimpulkan bahwa : 1
+penelitian ini berhasil merancang sebuah sistem yang mampu mencari jalur terpendek menuju tempat wisata di kota singkawang dan memvisualisasikan dalam bentuk peta
+pencarian jalur terpendek menuju menuju tempat wisata
+aplikasi ini hanya dapat menghitung hingga 100 titik simpul jalan
+aplikasi ini memberikan hasil berupa jalur menuju tempat wisata dengan jarak yang terpendek dari posisi pengguna
+bab i gis worldbook vol i
+geografis pengantar gis

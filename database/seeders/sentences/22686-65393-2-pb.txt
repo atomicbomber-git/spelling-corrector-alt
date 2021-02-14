@@ -1,0 +1,162 @@
+nangka no 58c tanjung barat, jagakarsa jakarta selatan as_syifaraa@yahoo.com linda_said72@ymail.com atikah_mardi@yahoo.com memberikan kontribusi untuk memperkaya penerapan knowledge management system kurikulum 2013 pada sekolah menengah atas negeri 
+secara akademis dapat membantu untuk : 1) menjadi pusat pengelolaan pengetahuan bagi lingkungan sekolah menengah atas negeri, 2) sistem dapat dijadikan sarana untuk menampung/menyimpan, mendiskusikan, mengoptimalkan pemanfaatan teknologi sistem informasi pada manajemen pengetahuan, demi efisiensi dan efektifitas proses belajar-mengajar dengan kurikulum 2013 di lingkungan internal sekolah menengah atas negeri, 4) membantu memudahkan guru mencari informasi, terutama mengenai ilmu pengetahuan berkenaan dengan mata pelajaran yang diampunya
+lokasi penelitian di jakarta selatan dengan subjek penelitian adalah sekolah menengah atas negeri 34 pondok labu
+penelitian ini menggunakan metode penelitian kualitatif jenis studi kasus dengan kerangka kerja model amrit tiwana dan pemetaan pengetahuan menggunakan siklus km model zack
+teknik pengumpulan data yang digunakan dalam penelitian ini adalah kuesioner, wawancara, dan observasi
+dalam upaya memperoleh data penelitian yang dapat dipertanggungjawabkan atau absah, maka tahap analisis dan desain penelitian dengan pendekatan berorientasi objek dengan uml, sedangkan desain sistem meliputi perancangan database, arsitektur sistem dan antar muka kms
+, hasil penelitian ini berupa perancangan kms berkualitas baik dengan fitur utama: input data guru, mata pelajaran, forum diskusi, memuat dan mengunduh berkas, dan pencarian berkas sesuai kurikulum 2013
+pendidikan dalam penyelenggaraannya di sekolah melibatkan guru sebagai pendidik dan siswa sebagai peserta didik, melalui adanya interaksi belajar mengajar atau proses pembelajaran
+dalam pembelajaran, pendidik harus memahami materi pelajaran yang diajarkannya dan memahami berbagai model pembelajaran agar dapat merangsang kemampuan peserta didik untuk belajar
+sebagai tenaga pengajar sekaligus pendidik, guru haruslah berusaha sekuat tenaga, melakukan hal-hal yang bersifat konstruktif bagi dirinya, agar dapat meningkatkan kompetensi ke-profesi-annya
+ketersediaan sarana dan prasarana sekolah mempunyai peran penting dalam mendukung terlaksananya proses pendidikan
+sebelumnya berada di bawah departemen pendidikan nasional, kini menjadi tanggung jawab pemerintah daerah kabupaten/kota
+departemen pendidikan nasional hanya berperan sebagai regulator dalam bidang standar nasional pendidikan
+sekolah akan dipimpin oleh kepala sekolah yang dibantu oleh wakil kepala sekolah
+jumlah wakil kepala sekolah di setiap sekolah berbeda-beda, tergantung dengan kebutuhannya
+bangunan sekolah sebaiknya dibuat tingkat keatas untuk memanfaatkan tanah yang tersedia dan dapat diisi dengan fasilitas yang lain yang dibutuhkan sekolah
+sekolah menengah atas dapat diselenggarakan oleh pemerintah maupun swasta
+secara struktural, sma negeri merupakan unit pelaksana teknis dinas pendidikan kabupaten/kota
+dari jumlah personel yang terlibat di dalamnya
+sma negeri tentulah memiliki cukup banyak pengetahuan yang merupakan salah satu aset informasi yang harus dikelola sedemikian rupa sehingga informasi tersebut dapat dimanfaatkan dengan lebih baik
+yang sering disebut sebagai kurikulum tingkat satuan pendidikan
+pemerintah untuk menggantikan kurikulum-2006 yang telah berlaku selama kurang lebih 6 tahun
+menurutkurikulum 2013 memiliki empat aspek penilaian, yaitu aspek pengetahuan, aspek keterampilan, aspek sikap, dan perilaku
+di dalam kurikulum 2013, terutama di dalam materi pembelajaran terdapat materi yang dirampingkan dan materi yang ditambahkan
+materi yang dirampingkan terlihat ada di materi bahasa indonesia, ips, ppkn, dan lainnya, sedangkan materi yang ditambahkan adalah materi matematika
+adapun perubahan-perubahan yang ada dalam kurikulum 2013 dari kurikulum sebelumnya antara lain, : 1) perubahan standar kompetensi lulusan : penyempurnaan skl memperhatikan pengembangan ketrampilan, dan pengetahuan) menjadi landasan pengembangan kompetensi dasar pada setiap kelas
+2) perubahan standar isi: perubahan standar isi dari kurikulum sebelumnya yang mengembangkan kompetensi yang dikembangkan menjadi mata pelajaran melalui pendekatan tematik integratif 
+guru wajib merancang dan mengelola proses pembelajaran aktif yang menyenangkan
+peserta didik difasilitasi untuk mengamati, menanya, mengolah, menyajikan, menyimpulkan dan mencipta
+mengukur kompetensi sikap, keterampilan, serta pengetahuan berdasarkan hasil dan proses
+sebelumnya penilaian hanya mengukur hasil kompetensi
+seperti kerancuan informasi tentang bahan ajar terkini dari suatu mata pelajaran, penyaluran informasi pengetahuan yang kurang efisien dari guru senior kepada guru junior atau guru kordinator mata pelajaran kepada guru-guru di bawahnya, maupun sebaliknya
+belum ada wadah berupa sistem komputer, dimana perkembangan pengetahuan dicatat/disimpan, didiskusikan, dan dapat dimanfaatkan perangkat sekolah terutama guru
+permasalahan- permasalahan ini, diindikasi karena manajemen teknologi sistem informasi yang mengelola pengetahuan pada sma negeri masih kurang optimal, yang semestinya dimanfaatkan saat proses belajar-mengajar di lingkungan internal sma negeri
+menengah atas negri di daerah jakarta selatan adalah sebagai berikut
+1) bagaimana membuat perancangan dengan pendekatan konsep kms kurikulum 2013 pada sekolah menengah atas negeri sehingga dapat membantu perangkat sekolah mengelola pengetahuan secara lebih efektif dan efisien, menggunakan kerangka kerja model amrit tiwana dan pemetaan pengetahuan menggunakan siklus km model zack? 2) bagaimana hasil perancangan sistem berbasis kms sesuai kurikulum 2013 tersebut menggunakan metode focus group discussion ? bagian perancangan kms untuk sekolah menengah atas negeri membutuhkan sebuah panduan baku manajemen untuk dipakai sebagai pedoman dalam menggunakan kms di di daerah jakarta selatan
+masalah yang ada terkait dengan beberapa tahapan yang belum dilakukan sesuai prosedur kerja, permasalahan- permasalahan ini, diindikasi karena manajemen teknologi sistem informasi yang mengelola pengetahuan pada sma negeri masih kurang optimal, yang semestinya dimanfaatkan saat proses belajar-mengajar di lingkungan internal sma negeri
+selain itu, masalah berupa sistem komputer, dimana perkembangan pengetahuan yang dicatat/disimpan, didiskusikan, belum dimanfaatkan di perangkat sekolah terutama guru
+masalah juga terdapat pada penggantian komponen jika ada masalah mengenai perangkat keras pada jaringan
+pergantian komponen baru yang dilakukan oleh ahli jaringan lalu diinstalasikan pada komputer server yang dapat mempengaruhi kinerja web kms
+namun, kegiatan pengambilan komponen ini tidak terdata sama sekali
+permintaan pergantian atau request for change seharusnya terdata sesuai prosedur untuk keperluan monitoring perangkat jaringan
+analisis solusi penyebab-penyebab timbulnya masalah tersebut, dengan melihat penelitian yang telah dilakukan sebelumnya mengenai penerapan kms
+pengkategorian penyesuaian hasil perancangan kms dengan kurikulum 2013, pendataan masalah user terkait dengan trouble jaringan, pemanfaatan sistem komputer sekolah, serta penggantian komponen perangkat keras baru yang dilakukan oleh ahli jaringan
+dari hasil analisis pada penelitian sebelumnya yang dilakukan di sman 34 pondok labu di jakarta selatan dan dapat diterapkan untuk persiapan perancangan kms dengan mencatat hasil tahapan penelitian sebelumnya
+1 langkah-langkah penelitian membantu tugas guru-guru dalam pengelolaan pengetahuan di lingkungan sekolah menengah atas negeri, dapat menampung/menyimpan, mendiskusikan, analisis yang terutama dalam rancangan kms yaitu analisis sistem, disain sistem serta development guna untuk merancang suatu sistem kms yang sesuai dengan tujuan perancangannya
+dengan kurikulum 2013 agar tidak ditemukan kendala seperti kerancuan informasi tentang bahan ajar terkini dari suatu mata pelajaran, penyaluran informasi pengetahuan yang kurang efisien dari guru senior kepada guru junior atau guru kordinator mata pelajaran kepada guru-guru di bawahnya, maupun sebaliknya, maka analisis dalam tahap penelitian ini yaitu identifikasi permasalahan, tahap peninjauan studi, pengumpulan data serta tahap evaluasi untuk mencapai hasil pembuatan rancangan dengan kebutuhan fungsional serta pengujian terhadap fitur-fitur, menggunakan focus group discussion 
+amrit tiwana memodelkan kerangka kerja knowledge management menjadi empat fase dengan sepuluh langkah : infrastuktur yang ada saat ini, menyatukan km dengan strategi bisnis
+disain infrastruktur km, audit dan analisis knowledge, desain tim km, pembuatan km blueprint
+merancang kms secara keseluruhan baik hardware, software, jaringan dan design dari data, develop km
+3) tahap deployment yaitu: metode result-driven incremental : knowledge management system dapat terus tumbuh sesuai kebutuhan-kebutuhan di masa mendatang, mengelola perubahan, budaya dan penghargaan 
+implementasi dari knowledge management sudah mulai diukur dan dievaluasi, sebagaimana dalam
+hal ini untuk menjamin bahwa kms yang dikembangkan benar-benar sesuai dengan apa yang diperlukan dan core competency organisasi
+penyelarasan ini dapat dimulai dengan menentukan strategi apa yang sedang atau akan dijalankan dan apa yang sudah dijalankan oleh organisasi
+menurut, model siklus zack dapat terlihat seperti gambar 3
+dengan trouble jaringan belum dapat di data lebih lengkap karena user pengguna akan mendapatkan trouble jaringan saat pengoperasian terhadap sistem kms dan akan memberikan permasalahan ini kepada pihak yang ahli dalam mengatasi masalah jaringan serta permasalahan pada jaringan cukup kompleks adanya
+permasalahan lainnya yang mungkin terjadi terkait dalam jaringa adalah ketika tenaga ahli dalam jaringan mengganti perangkat keras jaringan atau perangkat yang diinstalasikan di komputer server seperti web server, dhcp server, proxy server, dll
+, dengan perangkat yang baru, maka tenaga ahli dalam jaringan harus troubleshoot terhadap komponen yang digantinya
+harus di pergunakan penuh oleh guru dan tu agar sistem pendidikan akan berjalan baik dan sistematis sesuai dengan kurikulim 2013
+dan dibutuhkan buku panduan manajemen sebagai pedoman dalam pengoperasian sistem kms yang maksimal didiskusikan
+diskusi berlangsung secara terbuka, sehingga setiap individu yang terlibat dapat mengekspresikan pendapatnya dengan bebas dan terbuka
+diskusi, yaitu : 1) jumlah peserta focus group discussion sebaiknya empat sampai dengan dua belas orang
+homogenitas menjadi salah satu dasar pemilihannya
+peserta diskusi dipilih karena mempunyai persamaan pengalaman, profesi, gender, usia, status dan sebagainya
+3) informasi yang diambil dalam diskusi bukan yang bersifat konsensus atau rekomendasi untuk mengambil keputusan, melainkan informasi mengenai sikap, persepsi, dan perasaan peserta yang berkaitan dengan topik diskusi yang diperlukan
+4) data yang dihasilkan adalah data kualitatif yang dapat memberikan gambaran dan pemahaman atas sikap, persepsi dan perasaan peserta
+5) pertanyaan diajukan dengan cara yang mudah dimengerti oleh peserta, spontan, logis, dengan menekankan pemahaman atas proses berpikir dari peserta atas topik yang didiskusikan
+fungsi-fungsi yang diterapkan sudah sesuai dengan ketentuan sistem kms yang berstandar baku
+ketentuan tersebut akan mempermudah kegiatan proses belajar- mengajar, seperti menyimpan dan berbagi data atau informasi, berdiskusi dalam pendikan melalui sisitem kms, serta memudahkan guru-guru dalam mengetahui matapelajaran yang diampunya
+kriteria kms untuk perancangan sistem pendidikan di kurikulum 2013
+yang digunakan untuk sman di jakarta selatan terdiri atas hal- hal sebagai berikut
+ admin/tata usaha: sebagai pihak pengendalian dalam pendataan informasi atau akun guru-guru untuk setiap sekolah menengah atas negeri 
+ guru atau kordinator mata pelajaran: sebagai pengguna sisitem kms dalam pendidikan di kurikulum 2013 sesuai dengan ketentuan yang memudahkan dalam proses belajar-mengajar
+ tenaga ahli dalam jaringan: dapat menangani permasalahan yang ada pada jaringan sesuai dengan permasalahan yang dihadapinya
+knowledge management system adalah suatu metode pengelolaan pengetahuan yang dapat meningkatkan kualitas sumber daya manusia suatu lembaga dengan cara mengoptimasi jalur komunikasi knowledge antar elemennya sehingga penguasaan pengetahuan sdm-nya meningkat
+proses kompleks yang harus menggabungkan berbagai solusi menjadi satu kesatuan
+lembaga harus komprehensif dalam mengumpulkan, mengatur, kebutuhan lembaga kini dan di masa datang
+dalam merancang kms, perlu dikaji kebutuhan lembaga: memahami dan mencatat semua aktifitas, kemudian membangun aplikasi, sesuai keseluruhan konteks perencanaan
+menurut russell ackoff seorang pakar sistem perubahan organisasi dalam buku paul l
+tobing menyatakan bahwa isi dari intelektualitas dan mentalitas manusia dinyatakan dalam lima kategori, sebagaimana dalam
+apa telah terjadi dan apa yang telah diketahui
+dimanfaatkan; informasi menjawab informasi, dan menjawab pertanyaan berhubungan dengan masa lalu, sedangkan kategori konten yang ke- 5, wisdom, berkaitan dengan masa depan 
+dengan wisdom, kita bisa memahami masa kini dan mampu merencanakan masa depan
+dengan menggunakan zack’s gab analysis model, dapat diketahui ketersedian informasi dan knowledge yang menjadi kebutuhan guru akan suatu knowledge, sehingga selaras dengan strategi sekolah menengah atas negeri
+analisis kesenjangan yang digali dari permasalahan yang dihadapi guru seperti pada tabel i
+beberapa strategic gap yaitu guru belum dapat: mendapatkan kesimpulan yang dianggap benar tentang suatu pengetahuan sebagai hasil diskusi, yang diverifikasi kordinator, mendapatkan informasi / pengetahuan yang dibutuhkan dengan cepat
+1 mengajar mata pelajaran sesuai jadwal semester bersangkutan 2 memahami seluruh bahasan materi mata pelajaran yang diampu 3 berkordinasi dengan kordinator dan sesama guru pengampu, akan materi pelajaran untuk setiap sesi 4 berdiskusi secara berkala tentang suatu subyek materi pelajaran dengan sesama guru 5 berdiskusi secara berkala tentang subyek suatu materi pelajaran dengan kordinator 6 mendapatkan simpulan yang dianggap benar tentang suatu pengetahuan sebagai hasil diskusi, yang diverifikasi kordinator 1 mengajar mata pelajaran sesuai jadwal semester bersangkutan pelajaran yang diampu pelajaran dengan sesama guru perancangan knowledge management system menurut dennis, unified modeling language merupakan bahasa standar untuk visualisasi, spesifikasi, konstruksi dan pendokumentasian dari artifak dari sebuah software, dan dapat digunakan untuk semua tahapan dalam proses pengembangan sistem mulai dari analisis, perancangan, sampai implementasi, sebagaimana dalam
+uml menyediakan beberapa notasi dan diagram standar yang dapat digunakan sebagai alat komunikasi bagi para pengembang sistem dalam proses analisis dan desain sistem
+diagram dalam uml didefinisikan sebagai informasi dalam berbagai bentuk yang digunakan atau dihasilkan dalam proses pengembangan software
+use case juga menggambarkan interaksi yang terjadi dalam sistem, interaksi itu antara sistem di dalam dengan sistem di luar dan user atau actor, yang memberi gambaran user atau actor yang berhubungan dengan sistem dan hal-hal yang berhubungan dengan user di dalam system, sebagaimana dalam
+4 adalah use case diagram dari knowledge management system kurikulum 2013 sekolah menengah atas negeri, selengkapnya dapat dilihat pada tabel iv-xv
+tabel iii brief description use case ini menggambarkan bagaimana user tu atau guru dapat melihat tampilan awal dari web kms
+precondition semua ‘system user’ atau organisasi yang terlibat dapat meng-akses web kms
+postcondition guru dan tu dapat mengakses dan melihat tampilan awal pada aplikasi kms melalui web browser
+tabel iv brief description use case ini menggambarkan bagaimana user tu dapat mengolah database dari web kms
+kms dengan persyaratan bahwa tu sebagai admin yang mengerti dan memahami pengolahan data untuk 2
+tabel v brief description use case ini menggambarkan bagaimana semua aktivitas dari web kms disimpan di database
+mengaktifkan xampp sebagai basis data server
+postcondition semua aktivitas yang berada di web kms akan menuju ke database
+tabel vi bagaimana user masuk kedalam login dengan memasukkan data user name dan password yang ditentukan tu
+klik tombol login tabel vii data guru tambah, cari, hapus data guru brief description use case ini menggambarkan bagaimana user tu dapat me- manages data account untuk ‘system user’ guru
+actor tata usaha account dengan persyaratan : 1
+create, harus sesuai dengan identitas guru yang 3
+mengunduh data account guru, atau otoritas lainnya dalam suatu organisasi, dan akan mengarah ke use case database actors
+brief description use case ini menggambarkan bagaimana ‘user’ tu dan ‘user’ guru dapat mencari informasi yang ada di website kms
+actor tata usaha, guru informasipencarian induk dengan persyaratan : pencarian induk untuk mencari data yang ada pada menu system user tu
+pencarian induk untuk mencari user guru
+sesuai pada system user guru atau tu
+mesin pencarian berada pada header website
+postcondition guru atau tu, masuk sesuai pada system user yang sudah ditentukan, dan ketik informasi yang ingin dicari pada header website kms, dan cari informasi yang diinginkan, dan akan mengarah ke use case database actors
+brief description use case ini menggambarkan bagaimana ‘user’ tu dan’user’ guru dapat berinteraksi
+sesuai pada system user tu atau system user guru
+dapat berinteraksi antara system user guru-guru dan system user tu
+jika tu, masuk pada laman tu, klik menu ‘forum’, dan akan mengarah ke use case database actors
+use case name use case tambah, update, hapus mata pelajaran brief description use case ini menggambarkan bagaimana user tu dapat me-manages mata pelajaran pada ‘system user’ guru
+actor tata usaha precondition tu dapat me-manages mata pelajaran dengan persyaratan : 1
+create, harus sesuai dengan data mata pelajaran untuk guru yang bersangkutan
+update, dapatmerubah data mata pelajaran pada guru yang 3
+hapus, dapat menghapus data mata pelajaran pada guru yang bersangkutan
+tabel xi cari, hapus ampu user tu dapat me-manages laporan data pengampu pada ‘system user’ tu
+actor tata usaha pengampu dengan persyaratan : bersangkutan
+update, dapat mengedit informasi yang telah dibuat di system user tu
+hapus, dapat menghapus informasi yang telah tersimpan di system user tu
+search, dapat mencari laporan data ampu yang telah disimpan di system user tu
+menghapus informasi laporan data dengan otoritas guru-guru yang bersangkutan atau otoritas organisasi tabel xii use case name use case view, update akun brief description melihat identitas
+update atau melihat identitas dengan persyaratan : 1
+guru dapat me-update phone number, email dan foto profile
+masuk pada ‘system user’ tu dengan pilihan menu guru
+masuk pada ‘system user’ guru dengan pilihan menu account postcondition jika guru masuk pada menu account, dan akan mengarah ke use case database actors
+tabel xiii data file bagaimana user guru dapat me- manages data files pada ‘system user’
+search, dapat mencari data yang telah di upload oleh user
+download, dapat unduh data yang sudah tersimpan di data files
+postcondition guru dapat upload, mencari dan mengunduh data files pada guru, untuk berbagi data, dan akan mengarah ke use case database actors
+tabel xiv use case name use case cari, download laporan data ampu brief description data ampu
+download, dapat unduh laporan data ampu yang sudah tersimpan, baik di system user guru atau system user tu
+search, dapat mencari laporan data ampu yang telah disimpan di system user tu atau system user guru
+pilih menu laporan data ampu pada system user guru 3
+postcondition system user guru dapat mencari dan unduh informasi laporan data ampu, sesuai dengan informasi yang telah dibuat, dan akan mengarah ke use case database actors
+actor guru precondition guru dapat me-manages mata pelajaran yang diampu tahun ini dengan persyaratan : 1
+download, guru atau dapat unduh mata pelajaran yang diampu tahun ini yang telah tersimpan di system user guru, seperti file sap, file presentasi, modul, file pendukung
+upload, dapat upload data mata pelajaran yang diampu tahun ini yang telah disimpan di system user guru seperti file sap, file presentasi, modul, file pendukung
+hapus, dapat menghapus data mata pelajaran yang diampu tahun ini yang telah disimpan di system user guru seperti file sap, file presentasi, modul, file pendukung
+pilih menu materi ajar pada system user guru
+dapat me-manages data sesuai otoritas actor guru yang dibagai menjadi dua kategori yaitu, guru dan 
+postcondition jika guru atau, dapat me-manages fungsi downloadpada mata pelajaran yang diampu tahun ini
+sedangkan, manages fungsi upload dan hapus pada mata pelajaran yang diampu tahun ini, dan akan mengarah ke use case database actors
+model analisis yang digunakan atau menggambarkan sebuah proses aktivitas
+diagram ini dapat dipakai untuk berbagai model proses
+beberapa kegunaan dari activity diagram antara lain :  dalam sebuah operasi yang spesifik, diagram ini dipakai untuk menggambarkan logika dari sebuah proses atau operasi, sebagaimana dalam
+sequence diagram menggambarkan object yang ada dalam use case dan message yang berjalan dalam suatu use case
+diagram ini juga menggambarkan object dan relasinya termasuk kronologi perubahan secara logis setelah menerima sebuah message, sebagaimana dalam
+implementasi ini adalah sebagai berikut:  xampp untuk basis data server
+ adobe dreamweaver cs6 untuk penulisan kode desain html, css, php, java, dan javascript  google chrome sebagai web browser
+hasil pengujian ditunjukkan dengan hasil web application
+web application ini hanya bisa dibuka oleh user yang terkoneksi dengan jaringan local area network saja
+13 gui kms focus group discussion v
+pengujian validasi fgd guru dan 2 admin didapat:  hasil pengujian validasi spesifikasi kebutuhan fungsional guru oleh 7 orang guru: seluruhnya diterima guru kordinator: seluruhnya diterima  hasil pengujian validasi spesifikasi kebutuhan fungsional admin oleh 2 orang admin: seluruhnya diterima didapat simpulan bahwa prototipe kms berbasis web ini sesuai dengan spesifikasi kebutuhan fungsional pengguna
+dengan demikian, berdasarkan hasil analisis, perancangan dan konstruksi prototipe kms berbasis web pada sekolah menengah atas negeri yang diuji-cobakan dengan model prototipe evolusioner, dapat mengelola dan menyebarkan knowledge dengan baik, sehingga tujuan penelitian diterima
+sistem berbasis web untuk mengimplementasikan rancangan knowledge management system untuk menampung/menyimpan, mendiskusikan, memanfaatkan guru dan tata usaha untuk setiap kegiatan yang dilakukan dapat memudahkan dalam monitoring kegiatan belajar mengajar dalam menggunakan kurikulum 2013
+knowledge management system dapat mengoptimalkan pemanfaatan teknologi sistem informasi pada manajemen pengetahuan, demi efisiensi dan efektifitas proses belajar- mengajar sesuai kurikulum 2013 di lingkungan internal sekolah menengah atas negeri dan membantu memudahkan guru mencari informasi, terutama mengenai ilmu pengetahuan berkenaan dengan mata pelajaran yang diampunya
+saran yaitu penelitian ini hanya berlaku spesifik pada sekolah menengah atas negeri yang menjadi sampel penelitian
+sehingga untuk hasil yang lebih optimal sebaiknya mempertimbangkan infrastruktur sekolah menengah atas lainnya dan memasukkan fitur-fitur lain yang dapat digunakan dan dimanfaatkan juga bagi sekolah menengah atas lainnya pengabdian kepada masyarakat, kementrian riset, teknologi, dan pendidikan tinggi atas hibah penelitian dosen pemula yang diterima melalui lppm universitas indraprasta pgri sesuai dengan surat perjanjian nomor 0583/skp.lt/lppm/unindra/vi/2017, tanggal 05

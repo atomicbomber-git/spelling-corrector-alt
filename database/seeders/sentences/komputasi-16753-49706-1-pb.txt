@@ -1,0 +1,90 @@
+bahasa merupakan alat yang digunakan untuk berkomunikasi
+sql merupakan bahasa pemograman yang bergerak dalam bidang database
+dengan menggunakan bahasa sql maka setiap orang harus memahami struktur sql tersebut jika ingin mendapatkan informasi dalam suatu database.tetapi, hanya dengan menggunakan bahasa alami yang biasa digunakan sehari–hari setiap orang akan lebih dimudahkan dalam mencari dan mendapatkan informasi dalam database tanpa harus memahami struktur sql itu sendiri
+maka, dibuatlah suatu sistem konversi bahasa indonesia ke sql dengan pendekatan mesin penerjemah statistik untuk mendapatkan nilai akurasi pada bahasa alami
+pada penelitian ini pengujian dilakukan secara otomatis menggunakan bilingual evaluation understudy dan pengujian menggunakan aplikasi basis data
+hasil pengujian pada bleu didapatkan nilai akurasi sebesar 64.89% sedangkan pada aplikasi basis data pengujian pada database mahasiswa didapatkan nilai akurasi sebesar 70% terhadap kalimat uji yang diberikan untuk setiap basis data
+pada pengujian mos sebesar 70% dengan skala 70-80% yang artinya, mendapatkan kualitas opini baik
+pendahuluan baik secara lisan maupun tulisan mengenai apa yang ingin disampaikan sebagai media mengekspresikan diri, perasaan, pikiran, keinginan, serta kebutuhan agar orang dapat mengerti maksud dan tujuan yang diinginkan tanpa menghindari tata bahasa yang sudah ada
+tidak hanya untuk melakukan komunikasi antara manusia dengan manusia yang lainnya, namun dalam hal ini bahasa juga menjembatani komunikasi antara manusia dengan komputer
+bahasa yang digunakan manusia untuk berkomunikasi dengan komputer dikenal dengan bahasa pemograman
+bahasa sql merupakan bahasa pemograman yang bergerak dalam bidang database
+database dapat diungkapkan sebagai suatu pengorganisasian data dengan bantuan komputer yang memungkinkan data dapat diakses dengan mudah
+database dapat dijumpai di perusahaan, perpustakaan, bahkan di dalam dunia internet pun sering dijumpai penggunaan database untuk melihat informasi dengan kriteria tertentu dalam suatu database
+dengan menggunakan sql maka setiap orang harus memahami struktur sql tersebut jika ingin mendapatkan informasi dalam suatu database
+tetapi, hanya dengan menggunakan bahasa alami yang biasa digunakan sehari – hari setiap orang akan lebih dimudahkan dalam mencari dan mendapatkan informasi dalam database tanpa harus memahami struktur sql itu sendiri
+nlp atau pengolahan bahasa alami merupakan salah satu bidang ilmu artificial intelligence yang mempelajari komunikasi antara manusia dengan komputer melalui bahasa alami
+bahasa alami tidak bertujuan untuk mentransformasikan bahasa yang diterima dalam bentuk suara menjadi data digital melainkan bertujuan untuk memahami arti dari bahasa yang diberikan dalam bahasa alami dan memberikan respon yang sesuai, misalnya dengan melakukan aksi tertentu atau menampilkan data tertentu
+dengan perkembangan jaman yang semakin maju dan juga dengan semakin pesatnya penggunaan database maka dibutuhkan suatu interaksi manusia dan komputer
+maka, dibuatlah suatu sistem untuk mengkonversikan bahasa indonesia ke sql dengan pendekatan mesin penerjemah statistik
+mesin penerjemah dengan menggunakan pendekatan statistik
+terdapat 3 komponen yang terlibat dalam proses penerjemahan dari satu bahasa ke bahasa lain pada mesin penerjemah statistik, yaitu language model, translation model, dan decoder, komponen mesin penerjemah statistik dapat dilihat pada gambar 1
+komponen mesin penerjemah statistiksecara umum, arsitektur mesin penerjemah statistik moses ditunjukkan pada gambar 2
+proses training terhadap parallel corpus menggunakan giza++ menghasilkan translation model 
+proses training terhadap bahasa target pada parallel corpus ditambah dengan monolingual corpus bahasa target menggunakan srilm menghasilkan language model, sedangkan pos model dihasilkan dari bahasa target pada parallel corpus yang setiap katanya sudah ditandai dengan pos
+tm, lm dan pos-m digunakan untuk menghasilkan decoder moses
+selanjutnya moses digunakan sebagai mesin penerjemah untuk menghasilkan bahasa target dari input kalimat dalam bahasa sumber
+moses yang memungkinkan untuk menerjemahkan secara otomatis setiap pasangan bahasa
+moses digunakan untuk melatih model statistik teks terjemahan dari bahasa sumber ke bahasa sasaran
+saat melakukan penerjemahkan bahasa, moses membutuhkan korpus dalam dua bahasa, bahasa sumber dan bahasa sasaran
+moses dirilis di bawah lisensi lgpl dan tersedia sebagai kode sumber dan binari untuk windows dan linux
+perkembangannya didukung oleh proyek euromatrix, dengan pendanaan oleh european commission
+korpus contoh teks tulis atau lisan dalam bentuk data yang dapat dibaca dengan menggunakan seperangkat mesin dan dapat diberi catatan berupa berbagai bentuk informasi linguistik
+korpus dapat diklasifikasikan ke dalam delapan jenis, yaitu korpus khusus, korpus umum, korpus komparatif, korpus paralel, korpus pemelajar, korpus pedagogis, korpus historis atau diakronis, dan korpus monitor 
+berdasarkan jenis korpus tersebut, untuk penelitian ini penulis akan memfokuskan pada korpus paralel
+automatic evaluation bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan tejemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+penalty dengan rata-rata geometri dari modified precision score
+semakin tinggi nilai bleu, maka semakin akurat dengan rujukan
+sangat penting untuk diketahui bahwa semakin banyak terjemahan rujukan per kalimatnya, maka akan semakin tinggi nilainya
+standar nilai n untuk bleu adalah 4
+rumus bleu sebagai berikut: 𝐵𝑃𝐵𝐿𝐸𝑈= { 1 keterangan: r = jumlah kata rujukan 𝑃𝑛 = modified precission score 𝑤𝑛 = 1/n 𝑝𝑛 = jumlah n-gram hasil terjemahan yang sesuai dengan rujukan dibagi jumlah n-gram hasil terjemahan iii
+hasil dan diskusi mahasiswa yang terdiri dari 3 tabel basis data yaitu tabel mahasiswa, tabel dosen dan tabel mata kuliah yang akan digunakan dalam konversi bahasa indonesia ke sql dengan pendekatan mesin penerjemah statistik
+implementasi mesin penerjemah statistik bahasa indonesia ke sql 1
+implementasi srilm berbasis teks dengan nilai-nilai probabilistik
+penelitian ini menggunakan n-gram sebagai language model
+model bahasa dibangun dengan tools srilm
+model bahasa akan menghasilkan output dengan format file *.lm
+berikut merupakan tabel model bahasa yang dihasilkan oleh srilm pada mesin penerjemah statistik bahasa indonesia ke sql
+pemodelan bahasa oleh srilm dapat dilihat pada gambar 3
+tabel model bahasa dengan bahasa sql sebagai bahasa target 2
+implementasi giza++ untuk pemodelan translasi model translasi digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tools giza++
+proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan lexical model table
+dokumen-dokumen tersebut terdapat dalam folder yang didalamnya terdapat 4 file yaitu 
+pemodelan translasi oleh giza++ dapat dilihat pada gambar 4
+dokumen vocabulary corpus bahasa indonesia angka 1 sampai 10 pada dokumen vocabulary corpus merupakan uniq id untuk setiap data token, sedangkan angka disebelah kanan token menunjukkan frekuensi kemunculan
+vocabulary corpus yang dihasilkan mesin penerjemah bahasa indonesia ke bahasa sql terdiri dari 193 token untuk korpus bahasa indonesia dan 139 token untuk bahasa sql.dokumen alignment dapat dilihat pada gambar 5
+dokument alignment bahasa indonesia - bahasa sql dokumen alignment bahasa indonesia ke bahasa sql terdapat tiga baris kalimat
+baris pertama berisi letak kalimat target dalam korpus, panjang kalimat sumber, panjang kalimat target dan skor alignment
+baris kedua merupakan bahasa sumber dan baris ketiga merupakan alignment kalimat bahasa target terhadap kalimat bahasa sumber
+kata memiliki makna bahwa kata pada kalimat bahasa target, di-align ke kata kelima pada kalimat bahasa sumber yaitu 
+pengujian hasil terjemahan mesin translasi pengujian hasil translasi dilakukan dengan cara pengujian otomatis dari mesin penerjemah
+pengujian otomatis dari mesin penerjemah menghasilkan keluaran berupa nilai akurasi yang dihasilkan oleh bleu
+langkah pada pengujian otomatis, korpus yang akan diuji terlebih dahulu melalui langkah translasi otomatis yang akan memberikan output berupa korpus dalam bahasa target yang telah diterjemahkan oleh mesin
+korpus uji yang digunakan pada tahap ini berjumlah 370
+hasil bleu dapat dilihat pada gambar 6
+tampilan nilai dari output.sq berdasarkan gambar 6 diperoleh nilai awal dari ouput.id sebesar 64.89%
+pengujian pada aplikasi basis data dilakukan dengan mengimplementasikan aplikasi basis data terhadap database mahasiswa
+tabel 1, tabel 2 dan tabel 3 merupakan tabel data mahasiswa, tabel data dosen dan tabel mata kuliah
+setelah mengetikkan teks kalimat dalam bahasa indonesia, proses pentranslasian dapat dimulai dengan meng-klik tombol .setelah tombol di-klik, program akan menampilkan proses translasi serta hasil output dalam format sql seperti pada gambar 7 berikut
+hasil pengujian pada aplikasi basis data pengujian pada aplikasi basis data menggunakan pengujian black box
+black box adalah pengujian yang dilakukan hanya mengamati hasil eksekusi melalui data uji dan memeriksa fungsional dari perangkat lunak
+jadi dianalogikan seperti kita melihat suatu kotak hitam, kita hanya bisa melihat penampilan luarnya saja, tanpa mengetahui ada apa dibalik bungkus hitam nya
+sama seperti pengujian black box, hanya mengevaluasi dari tampilan luarnya, tanpa mengetahui apa sesungguhnya yang terjadi dalam proses tersebut
+tabel hasil pengujian pada aplikasi basis data dapat dilihat pada tabel 4
+where nim like " %16 select namamhs, b 7
+ diakhiri angka 1 select * from dosen select * from dosen select nidn, namadsn %arif% 
+ b 22
+%herry sujaini% diakhiri angka 1 select * from dosen diakhiri angka 3 select * from dosen kurang dari 4 like namadsn like " diakhiri angka 2 select * from dosen b 43
+bahasa alami user dimana menghasilkan kalimat yang sesuai dengan inputan bahasa alami sebanyak 35 kalimat dan kalimat yang tidak sesuai sebanyak 15 kalimat
+pemberian nilai terhadap keakuratan sistem adalah dengan melihat persentase kebenaran hasil terhadap yang diharapkan
+kebenaran hasil berarti kalimat alami dapat ditranslasikan dalam bentuk format sql dan terdapat kesesuaian kata antara kalimat inputan dan output format sql
+jadi penilaiannya adalah : sebagai berikut : 35 iv
+kesimpulan yang dapat diambil sebagai berikut
+metode pendekatan mesin penerjemah statistik yang digunakan dalam penelitian ini dapat diimplementasikan untuk mengkonversikan bahasa indonesia ke sql
+dari pengujian pada aplikasi basis data, konversi dengan mesin penerjemah statistik ini berhasil diintegrasikan kedalam sebuah aplikasi basis data
+mesin penerjemah statistik yang digunakan untuk mengkonversikan bahasa indonesia ke sql berhasil mendapatkan nilai akurasi bleu sebesar 64.89% dan pada aplikasi basis data sebesar 70%
+saran dari penelitian ini adalah sebagai berikut
+input yang berupa teks pada penelitian ini dapat dirubah menjadi input ucapan dengan menambahkan blok untuk mengubah ucapan tersebut menjadi teks
+perlu adanya penangganan pola perintah query dengan pengecekkan kata yang salah dengan kata- perkata

@@ -1,0 +1,87 @@
+penyelenggaraan pendidikan di universitas tak lepas dari peran dosen
+dosen merupakan tenaga akademik yang bertugas merencanakan dan melaksanakan proses pembelajaran, menilai hasil pembelajaran, melakukan pembimbingan dan pelatihan, serta melakukan penelitian dan pengabdian pada masyarakat, dosen berhak mendapatkan promosi dan penghargaan sesuai dengan kinerja akademiknya
+pemilihan dosen terbaik secara periodik dapat memacu semangat dosen dalam meningkatkan dedikasi dan kinerjanya
+namun pada kenyataannya masih belum optimal dalam melaksanakan pemilihan dosen terbaik hal ini disebabkan oleh belum tersedianya media yang dapat memproses penilaian dosen dan memberi perankingan dalam pemilihan dosen terbaik
+penelitian ini bertujuan untuk menentukan dosen terbaik pada studi kasus teknik informatika
+dalam menentukan dosen terbaik di teknik informatika universitas tanjungpura, sistem menggunakan metode promethee dengan menggunakan kriteria-kriteria yang akan ditentukan oleh kaprodi teknik informatika universitas tanjungpura
+sistem pendukung keputusan ini dapat digunakan untuk melakukan penilaian terhadap setiap dosen alternatif dengan pengguna mahasiswa dan dosen
+sistem pendukung keputusan ini dapat juga digunakan untuk mengolah data anggota, kategori-kategori penilaian, kriteria- kriteria penilaian, point penilaian serta bobot penilaian secara dinamis dengan pengguna admin
+output dalam sistem ini adalah nilai perhitungan pemilihan dosen terbaik dengan metode promethee dan perankingan dosen terbaik untuk teknik informatika universitas tanjungpura
+pendahuluan penyelenggaraan pendidikan di perguruan tinggi tak lepas dari peran dosen
+dosen merupakan tenaga akademik yang bertugas merencanakan dan melaksanakan proses pembelajaran, menilai hasil pembelajaran, melakukan pembimbingan dan pelatihan, serta melakukan penelitian dan pengabdian pada masyarakat 
+berdasarkan undang-undang republik indonesia no 14 tahun 2005 tentang guru dan dosen, pasal 51 ayat butir b, bahwa dosen berhak mendapatkan promosi dan penghargaan sesuai dengan kinerja akademiknya
+diharapkan dapat meningkatkan motivasi di kalangan dosen yang tentunya dapat berdampak pada pengembangan manajemen akademik di perguruan tinggi
+selain itu, sistem penghargaan juga merupakan unsur penting dan berperan dalam menumbuh kembangkan suasana akademik, yang pada akhirnya dapat mempercepat perkembangan masyarakat ilmiah masa kini dan masa yang akan datang
+maka sudah sepantasnya bila setiap perguruan tinggi dapat memberikan penghargaan bagi dosen yang memiliki prestasi yang membanggakan bagi perguruan tingginya
+sistem penghargaan terhadap dosen tersebut diterapkan dengan melakukan pemilihan dosen terbaik
+berdasarkan rumusan yang terdapat dalam pedoman umum pemilihan dosen terbaik
+berdasarkan kriteria yang telah ditentukan terlihat bahwa proses pemilihan dosen terbaik merupakan permasalahan yang melibatkan banyak komponen atau kriteria yang dinilai, sehingga dalam penyelesaiannya diperlukan sebuah sistem pendukung keputusan dengan multikriteria
+salah satu metode sistem pendukung keputusan yang multikriteria adalah preference ranking organization method for enrichment evaluation 
+dibuat sistem pendukung keputusan dosen terbaik yang di dalamnya mencakup proses pemilihan dosen terbaik dengan menggunakan metode promethee
+dengan adanya sistem yang berbasis web diharapkan dapat menjadi solusi atas permasalahan yang ada
+dosen terbaik bukanlah hal baru yang baru dilakukan
+beberapa penelitian sejenis mengenai sistem pendukung keputusan pemilihan dosen terbaik telah dilakukan sebelumnya
+astutidari sekolah tinggi manajemen informatika & komputer banjarbaru melakukan penelitian memanfaatkan metode fuzzy multiple criteria decission making untuk menunjang keputusan evaluasi kinerja dosen berdasarkan penilaian mahasiswa pada tahun 2012
+penelitian ini bertujuan untuk menyelesaikan munculnya permasalahan terhadap ketepatan waktu yang ingin dicapai menggunakan sistem aplikasi penunjang keputusan yang akan memperoleh prioritas dari nilai maksimal menjadi nilai standar melalui proses perhitungan fuzzy mcdm dalam perancangan pembuatan aplikasi penentuan kinerja dosen
+penelitian ini bertujuan untuk menerapkan metode topsis dalam melakukan pemilihan dosen berprestasi agar lebih objektif
+utamidari fakultas sains dan teknologi universitas islam negeri sunan kalijaga yogyakarta melakukan penelitian dengan judul “perancangan aplikasi sistem pendukung keputusan pemilihan produk laptop dengan metode promethee “ pada tahun 2013
+penelitian ini bertujuan untuk mengimplementasikan sistem pendukung keputusan promethee kedalam bahasa pemograman borland dan basis data mysql
+wilayah fakultas teknik informatika universitas tanjungpura
+penelitian bertujuan untuk membangun sistem pendukung keputusan pemilihan dosen terbaik dengan menerapkan metode promethee kedalam sistem dengan kriteria, bobot, kategori yang dinamis sehingga bisa digunakan oleh fakultas lain
+tidak, pengujian dilakukan dengan metode black box untuk pengujian sistemnya, dan menyebarkan kuesioner kepada responden yang akan menggunakan sistem pendukung keputusan pemilihan dosen terbaik
+kuesioner yang disebar memiliki pilihan jawaban yang masing-masing pertanyaan memiliki nilai yang akan dihitung ketika kuesioner telah diisikan oleh responden
+perhitungan dari hasil pengisian kuesioner akan dilakukan dengan metode mencari interval nilai persentase likert
+berbasis komputer yang menghasilkan berbagai alternatif keputusan untuk membantu manajemen dalam menangani berbagai permasalahan yang terstruktur maupun tidak terstruktur dengan menggunakan data dan model 
+spk sejak awal telah dirancang agar mampu untuk menunjang seluruh tahapan pembuatan keputusan, seperti tahap pengidentifikasian masalah, pemilihan data, penentuan pendekatan hingga kegiatan untuk mengevaluasi pemilihan alternatif
+penerapan spk hanya akan berhasil jika sistem bersifat sederhana, mudah untuk digunakan, mudah dalam melakukan pengawasan, mudah beradaptasi dengan perubahan lingkungan serta mudah berkomunikasi dengan jenis entity yang lain
+preference ranking organization method for enrichment evaluation promethee adalah suatu metode penentuan urutan dalam analisis multikriteria 
+masalah pokoknya adalah kesederhanaan, kejelasan, dan kestabilan
+dugaan dari dominasi kriteria yang digunakan dalam promethee adalah penggunaan nilai dalam hubungan outranking
+semua parameter yang dinyatakan mempunyai pengaruh nyata menurut pandangan ekonomi
+promethee menyediakan kepada user untuk menggunakan data secara langsung dalam bentuk tabel multikriteria sederhana
+promethee mempunyai kemampuan untuk menangani banyak perbandingan, pengambil keputusan hanya mendefenisikan skala ukurannya sendiri tanpa batasan, untuk mengindikasi prioritasnya dan preferensi untuk setiap kriteria dengan memusatkan pada nilai, tanpa memikirkan tentang metode perhitungannya
+metode promethee menggunakan kriteria dan bobot dari masing-masing kriteria yang kemudian diolah untuk menentukan pemilihan alernatif lapangan, yang hasilnya berurutan berdasarkan prioritasnya
+untuk pengambilan keputusan di bidang pemasaran, sumber daya manusia, pemilihan lokasi, atau bidang lain yang berhubungan dengan pemilihan alternatif
+yang dikembangkan oleh b.roy yang meliputi dua fase, yaitu membangun hubungan dari k dan eksploitasi dari hubungan ini memberikan jawaban optimasi kriteria dalam paradigma permasalahan multikriteria 
+pada fase pertama, nilai hubungan outranking berdasarkan pertimbangan dominasi masing-masing kriteria
+indeks preferensi ditentukan dan nilai outranking secara grafis disajikan berdasarkan preferensi dari pengambil keputusan
+berisi pertanyaan-pertanyaan yang harus dijawab atau dikerjakan oleh responden yang ingin diselidiki
+setiap kuesioner terdiri dari beberapa sampel pertanyaan di mana setiap pertanyaan diberi beberapa pilihan jawaban, misalnya diberi poin 5, diberi poin 4, diberi poin 3, diberi poin 2, diberi poin 1
+adapun rumus untuk mencari interval nilai persentase dari masing-masing jawaban kuesioner dengan metode mencari interval nilai persentase likertsebagai berikut : i = 𝟏𝟎𝟎 % mengalikan setiap poin instrumen dengan poin yang telah ditentukan sebelumnya kemudian menjumlahkan hasilnya
+nilai total = 1x +2x +3x +4x +5x setelah mendapatkan nilai total, perhitungan untuk mencari nilai persentase dilakukan dengan cara membagi nilai total dengan hasil perkalian antara poin tertinggi jawaban dengan banyaknya responden kemudian dikalikan 100%
+diagram alir penelitian merupakan gambaran dari tahapan penelitian, yang dimulai dari studi literatur, analisis kebutuhan, desain aplikasi, implementasi sistem, pengujian sistem, kemudian dilakukan pengecekan pada hasil pengujian sistem apakah sesuai dengan kebutuhan atau tidak, jika tidak maka akan kembali ke proses studi literatur, sedangkan jika ya maka selesai
+berdasarkan gambar 2, admin, kaprodi, dosen dan mahasiswa merupakan pengguna sistem
+sistem pendukung keputusan pemilihan dosen terbaik dibuat dengan berbasis website, pengguna memerlukan akses jaringan lokal agar dapat terhubung dengan sistem
+umum terhadap kegiatan yang berlangsung dalam sistem
+berikut adalah gambar yang menunjukkan diagram konteks dari sistem yang dibuat
+form antarmuka sistem akan dibangun ini merupakan aplikasi berbasis website yang dirancang dalam bentuk halaman-halaman yang memiliki fungsi tertentu sesuai dengan proses yang ada
+halaman- halaman tersebut diakses melalui menu pada halaman utama
+gambar struktur antarmuka sistem yang akan dirancang dapat dilihat pada gambar 4
+antarmuka halaman isi voting merupakan halaman yang menampilkan form isi voting dosen dan mahasiswa
+pada halaman ini pengguna melakukan voting terhadap dosen
+antarmuka hasil voting antarmuka halaman hasil voting merupakan halaman yang menampilkan kesimpulan dan hasil analisa perhitungan data voting
+pada halaman ini semua pengguna dapat melihat data tersebut
+antarmuka halaman admin panel merupakan halaman yang menampilkan manajemen data kategori, kriteria, bobot, point, anggota dan nilaiyang dapat diakses oleh kaprodi dan administrator
+memeriksa apakah sistem dapat berjalan dengan baik sesuai dengan kebutuhan
+pada jurnal ini pengujian black box yang dilampirkan pada proses login dan menambahkan data alternatif dosen
+berikut adalah tabel pengujian black box pada proses login terlampir pada tabel 1 dan untuk proses tambah data alternatif dosen pada tabel 2
+dari hasil pengujian black box pada tabel 1 terlihat bahwa semua pengujian telah sesuai dengan hasil yang diharapkan dan dari hasil pengujian black box pada tabel 2 terlihat bahwa semua pengujian telah sesuai dengan hasil yang diharapkan
+hasil pengujian kuesioner penggunaan aplikasi dapat dilihat pada tabel 3
+pilihan responden terhadap aspek rekayasa perangkat lunak sesuai dengan kriteria masing-masing ditunjukkan pada tabel 4
+keterangan : 1 = sangat buruk, 2 = buruk, 3 = cukup baik, 4= baik dan 5 = sangat baik tabel 4 no aspek rekayasa perangkat 1 tingkat kesulitan 2 tingkat kelancaran jumlah 0 0 3 37 10 50 persentase 0 0 6 74 20 100 2
+pilihan responden terhadap aspek fungsionalitas sesuai dengan kriteria masing- masing ditunjukkan pada tabel 5
+keterangan : 1 = sangat buruk, 2 = buruk, 3 = cukup baik, 4= baik dan 5 = sangat baik tabel 5 hasil kuesioner aspek fungsionalitas 0 0 5 19 1 25 2 kinerja proses perhitungan 3 perankingan aplikasi dalam menetapkan posisi dosen terbaik jumlah 0 0 18 52 5 75 persentase 0 0 24 69 7 100 3
+aspek komunikasi visual pilihan responden terhadap aspek komunikasi visual sesuai dengan kriteria masing- masing ditunjukkan pada tabel 6
+keterangan : 1 = sangat buruk, 2 = buruk, 3 = cukup baik, 4= baik dan 5 = sangat baik tabel 6 n o al 1 tampilan sistem mudah dibaca 0 0 4 17 4 25 jumlah 0 0 15 69 16 100 persentase 0 0 15 69 16 100 d
+likert’s summated rating likert’s summated rating adalah skala atau pengukuran sikap responden
+lsr sangat bermanfaat untuk membandingkan skor sikap seseorang dengan distribusi skala dari sekelompok orang lainnya 
+hasil penelitian untuk melihat skor terbesar dan terkecil dari satu orang responden dan total semua responden terlihat pada tabel 3
+data yang diperoleh dari hasil pengujian dengan kuesioner kemudian diukur dengan metode lsr
+jumlah skor untuk setiap responden:  skor maksimal = 45  skor minimal = 9  skor median = 27  skor kuartil i = 18  skor kuartil iii = 36 2
+analisis hasil pengujian pengujiannya adalah sebagai berikut : 1
+berdasarkan hasil pengujian black box dapat diketahui bahwa dalam menambah data pada form semua kolom pengisian harus disi jika ada yang kosong maka proses penambahan tidak bisa dilakukan
+aspek rekayasa perangkat lunak berdasarkan hasil kuesioner pada bagian aspek rekayasa perangkat lunak, persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek rekayasa perangkat lunak yaitu 74%
+fungsionalitas, persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek fungsionalitas yaitu 69%
+aspek komunikasi visual berdasarkan hasil kuesioner pada bagian aspek komunikasi visual, persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek komunikasi visual yaitu 50%
+likert’s summated rating berdasarkan hasil pengujian dengan kuesioner dan diukur menggunakan perhitungan menggunakan metode likert’s summated rating, skor total dari keseluruhan data kuesioner berjumlah 895, dimana total skor ini berada diantara median dan kuartil iii pada intepretasi lsr
+telah dilakukan, dapat diambil kesimpulan bahwa sistem yang dibangun dapat berjalan dengan baik serta dapat menerapkan metode promethee dalam menentukan perankingan dosen terbaik

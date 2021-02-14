@@ -1,0 +1,82 @@
+dunia bisnis semakin kompetitif sehingga tantangan yang dihadapi oleh organisasi baik yang berorientasi laba maupun tidak menjadi semakin kompleks
+tantangan yang dihadapi tidak hanya dari dalam perusahaan seperti tantangan terbatasnya modal, sumber daya manusia dan menurunnya produktivitas tetapi juga tantangan yang berasal dari luar perusahaan
+tantangan yang berasal dari luar perusahaan, yaitu semakin tingginya tuntutan dari pelanggan dan tekanan dari pemerintah serta perkembangan teknologi yang semakin canggih
+balanced scorecard merupakan kerangka manajemen yang digunakan dalam pengukuran kinerja perusahaan
+pengukuran kinerja perusahaan menggunakan empat perspektif yaitu perspektif keuangan, perspektif pelanggan, perspektif proses bisnis internal serta perspektif pembelajaran dan perkembangan
+tim pakar perusahaan telah menentukan indikator kinerja berdasarkan perspektif bsc
+tujuan penelitian adalah untuk mengukur kinerja perusahaan menggunakan fuzzy analytic network process dengan konsep balance scorecard
+bsc digunakan bukan hanya mengukur kinerja dari aspek keuangan saja tetapi juga mempertimbangkan kinerja dari aspek non keuangan
+hasil dari penelitian ini adalah perusahaan tersebut telah menjalankan perusahaannya berdasarkan indikator kinerja dari perspektif bsc yang sesuai dengan visi dan strategi menggunakan fuzzy analytic network process sebesar 88, 31%
+pendahuluan berkembangnya suatu perusahaan juga seiring dengan dihadapinya masalah-masalah yang rumit
+dengan adanya revolusi informasi dan terbukanya perekonomian dunia, maka semakin tidak terlihatnya batas perdagangan antar negara maupun regional dan meningkatnya tuntutan konsumen terhadap pasar
+tugas penting bagi para pemimpin organisasi perusahaan adalah menilai kinerja perusahaan
+penilaian kinerja secara periodik memungkinkan pemimpin organisasi perusahaan mengetahui posisi perusahaan saat ini dibandingkan dengan target atau sasaran yang telah ditetapkan misalnya, atau dibandingkan dengan pesaing dan rata-rata industri
+kinerja merupakan gambaran mengenai tingkat pencapaian pelaksanaan suatu program kegiatan atau kebijakan dalam mewujudkan sasaran, tujuan, visi dan misi organisasi yang dituangkan melalui perencanaan strategis suatu organisasi
+pengukuran kinerja atau performance merupakan gambaran mengenai tingkat pencapaian pelaksanaan sesuatu program kegiatan atau kebijakan dalam mewujudkan sasaran, tujuan, visi dan misi organisasi yang dituangkan melalui perencanaan strategis suatu organisasi
+pengukuran kinerja merupakan suatu hal yang penting dalam proses perencanaan, pengendalian, dan proses transaksional seperti merger, akuisisi, dan emisi saham
+melalui penilaian, perusahaan dapat memilih strategi dan struktur keuangan yang tepat, menentukan phase out terhadap unit-unit bisnis perusahaan yang tidak produktif, menetapkan balas jasa internal dan menentukan harga saham secara wajar
+penilaian kinerja dilakukan bertujuan untuk menentukan kontribusi sebuah bagian atau tim dalam perusahaan terhadap suatu organisai perusahaan secara keseluruhan, memberikan penilaian mutu prestasi bagian dalam perusahaan dan memberikan motivasi bagi seluruh bagian dalam perusahaan
+konsep balanced scorecard merupakan suatu sarana untuk mengkomunikasikan persepsi strategis dalam suatu perusahaan secara sederhana dan mudah dimengerti oleh berbagai pihak dalam perusahaan, terutama pihak-pihak dalam organisasi yang akan merumuskan strategi perusahaan
+indikator atau ukuran keberhasilan kinerja perlu disusun untuk mengetahui keberhasilan kinerja
+ukuran keberhasilan kinerja merupakan standar penilaian kinerja perusahaan dengan menggunakan perspektif tertentu yang harus dievaluasi secara periodik dan berkesinambungan
+balanced scorecard tersebut digunakan kaplan & norton sebagai salah satu alat manajemen strategi yang terdiri dari satu rangkaian pengukuran dan dapat memberikan gambaran non keuangan
+balanced scorecard cocok satu sama lain dengan activity based responsibility accounting, karena memfokuskan pada proses dan memerlukan penggunaan informasi berbasis aktifitas untuk menerapkan banyak tujuan dan tolak ukurnya
+bsc merupakan sistem pengukuran kinerja yang komprehensif, dimana pengukuran yang dilakukan berdasarkan empat aspek yang saling melengkapi
+dengan dilakukanya pengukuran kinerja perusahaan menggunakan bsc, kinerja perusahaan akan terlihat secara keseluruhan dari aspek keuan- gan dan non keuangannya, dari internal maupun dari eksternal perusahaan
+uraian penelitian penelitian dengan menggunakan konsep balanced scorecard sudah pernah dilakukan oleh peneliti lain
+seperti analisis kinerja manajemen rumah sakit dengan pendekatan balanced scorecard dan analisis deskriptif
+selain itu ada pula penelitian menganalisis tingkat kinerja rsud dengan metode bsc dan menggunakan analisis deskriptif kuantitatif dengan cara pengambilan sampel menggunakan rumus slovin
+penelitian juga dilakukan pada sektor komersial umkm yang bertujuan untuk mengetahui seberapa besar kontribusi penerapan balanced scorecard dengan menggunakan empat perspektif: keuangan, pelanggan, proses bisnis internal dan pembelajaran dan pertumbuhan
+konsep balanced scorecard dianggap sesuai dengan pertimbangan bahwa konsep ini mampu menyeimbangkan rencana jangka pendek dengan rencana jangka panjang, serta menyeimbangkan kinerja keuangan dengan kinerja non- keuangan
+peningkatan tata kelola it juga dilakukan dengan integrasi antara balanced scorecard dengan cobit 5
+analisis pencapaian strategi menggunakan balanced scorecard juga dilakukan oleh dinas pendidikan kota surabaya dalam mening- katkan mutu pendidikan di kota surabaya tahun 2015 telah tercapai dengan baik hal ini ditunjukan dengan capaian nku sebesar 102, 31% yang berarti telah memenuhi target yang telah ditetapkan 100%
+dan pada penelitian ini, peneliti menggunakan pendekatan fuzzy analytic network process dengan konsep balancerd scorecard
+fuzzy analytical network process konsep tentang logika fuzzy diperkenalkan oleh prof.lotfi astor zadeh pada tahun 1965, logika fuzzy adalah metodelogi sistem control pemecah masalah, yang cocok untuk diimplementasikan pada sistem, mulai dari sistem yang sederhana, sistem kecil, embedded sistem, jaringan pc, multi channel atau workstation berbasis akuisi data dan sistem control
+metode analytic network process merupakan pengembangan dari metode analytical hierarchy process 
+analytical hierarchy process adalah salah satu metode yang digunakan untuk menyelesaikan pengambilan keputusan dengan multikriteria atau multi criteria decision making 
+thomas lorie saaty pada periode 1971-1975 ketika di wharton business school
+ahp mempunyai kelemahan yaitu, tidak memperhatikan keterkaitan antar kriteria atau alternatif
+anp merupakan sebuah metode jaringan yang membandingkan semua hal termasuk kriteria dan alternatif yang ada sehingga mendapatkan suatu super matriks yang sangat kompleks
+fuzzy anp merupakan suatu metode yang menggabungkan metode fuzzy dengan anp
+anp sangat sesuai untuk kondisi dimana sangat banyak ketergantungan terjadi dalam pengambilan keputusan
+dalam memperoleh data matriks berpasangan tersebut akan dibutuhkan subjektivitas dari masing-masing responden dalam melakukan perbandingan
+balanced scorecard penggunaan balanced scorecard telah menyebar luas sebagai pengukuran kinerja dan sistem manajemen
+pendekatan bsc telah diperkenalkan oleh kaplan dan norton pada tingkat perusahaan
+premis dasar mereka adalah bahwa evaluasi dari suatu perusahaan seharusnya tidak terbatas pada evaluasi keuangan tradisional tetapi harus dilengkapi dengan langkah-langkah mengenai kepuasan pelanggan, proses internal dan pembelajaran dan pertumbuhan
+balanced scorecard pertama kali diperkenalkan oleh kaplan dan norton pada tahun 1992 sebagai seperangkat pengukuran kinerja yang memberi manajemen puncak panda- ngan yang cepat dan komprehensif tentang perusahaan
+bsc memasukkan ukuran- ukuran finansial yang memberi hasil yang telah dilakukan dan melengkapinya dengan ukuran- ukuran operasional diantaranya ke- puasan pelanggan, proses internal dan inovasi dan perkembangan
+balanced scorecard merupakan alat pengukur kinerja yang tidak hanya mengukur kinerja dari segi keuangan saja tetapi juga dari segi non keuangan yang terdiri dari empat perspektif yang saling melengkapi dan mempunyai hubungan sebab akibat
+dengan menggunakan balanced scorecard, manajer tidak hanya mengukur hasil akhir, tetapi juga mengukur aktivitas-aktivitas penentu akhir
+hal ini karena balanced scorecard bukan hanya sekedar alat pengukur kinerja suatu perusahaan tetapi juga merupakan suatu bentuk usaha manajemen yang strategis pada seluruh tingkatan organisasi, dengan kata lain metode ini merupakan usaha organisasi
+balanced scorecard merupakan suatu sistem yang menjabarkan misi dan strategi suatu organisasi kedalam tujuan operasional dan tolok ukur kinerja perusahaan tersebut
+pengukuran yang selama ini sering digunakan oleh perusahaan yaitu dengan pengukuran yang hanya mengukur kinerja keuangan atau jangka pendek saja dan tidak dapat menggambarkan kinerja perusahaan secara keseluruhan
+untuk mengatasi kekurangan tersebut maka diciptakan pengukuran kinerja yang mempertimbangkan aspek dari keuangan dan non keuangan yang disebut dengan metode balanced scorecard
+metodoogi metode yang digunakan pada penelitian ini adalah fuzzy analytical network process dengan konsep balanced scorecard
+adapun tahapan fanp-bsc sebagai berikut : 1) penyusunan tahapan dalam balanced scorecard yaitu : a) membentuk tim evaluasi kinerja dari pakar perusahaan dan menentukan visi bisnis b) menentukan strategi yang akan dijalani agar mencapai visi bisnis c) menentukan indikator kinerja berdasarkan perspektif 2) penyusunan tahapan bsc menggunakan metode fanp, yaitu : a) membentuk struktur hierarki model anp 
+dengan asumsi bahwa tidak ada keterkaitan antar perspektif bsc
+b) menentukan bobot lokal dari strategi, perspektif bsc dan indikator kinerja menggunakan matriks perbandingan berpasangan 
+dengan skala kepentingan untuk mengukur bobot relatif digunakan metode extent analysis
+c) menentukan matriks inner dependence dari bsc perspektif yang berhubungan menghitung bobot keterkaitan dengan cara mengalikan matriks inner dependence dengan bobot local perspektif bsc yang telah ditentukan e) menghitung bobot global untuk indikator kinerja dengan mengalikan bobot local indikator kinerja dengan bobot keterkaitan 
+f) mengukur indikator kinerja g) menghitung kinerja bisnis menggunakan bobot global iv
+sukses dan unggul sebagai perusahaan sales dan distributor
+penerapan fanp-bsc salah satu perusahaan di indonesia yang bergerak di bidang penjualan dan distribusi ingin mengukur kinerja perusahaannya dengan visi, dan memiliki tiga strategi, yaitu : 1) strategi 1 : merancang produk berdasarkan kemauan konsumen
+2) strategi 2 : mengembangkan teknologi yang digunakan dalam phase penjualan dan distribusi
+3) strategi 3 : mengembangkan bisnis principal yang sudah ada tim pakar perusahaan telah menentuakn indikator kinerja berdasarkan perspektif bsc
+tabel i perspektif bsc dan indikatornya perspektif bsc indikator berdasarkan penyusunan tahapan balanced scorecard dengan metode fanp, maka langkah-langkahnya sebagi berikut : 1) tahap 1 : membentuk struktur hierarki model anp 
+hasil sintetis fuzzy dari ketiga strategi dapat ditunjukkan oleh tabel 3
+tabel iii nilai sintetis fuzzy untuk strategi strategi nilai sintetis fuzzy selanjutnya yaitu memperoleh degree of possibility dari nilai sintetis fuzzy pada masing-masing strategi
+untuk memperoleh degree of possibility digunakan persamaan berikut : berikut adalah langkah untuk mendapatkan degree of possibility: 1) perbandingan strategi 1 dengan strategi 2 dan strategi 3 dari derajat keanggotaan atau degree of possibility yang diperoleh diatas kemudian diambil nilai minimumnya
+hasil dari degree of possibility serta bobot ternormalisasi dapat dilihat dari tabel 4 berikut
+setelah bobot ternormalisasi, maka didapatkan nilai vektor bobot normal yang menyatakan nilai kontribusi pada masing-masing strategi pada perusahaan, yaitu strategi 1 sebesar 15, 33%, strategi 2 sebesar 8, 31% dan strategi 3 sebesar 76, 36%
+hasilnya berubah dari 31, 95% menjadi 39%; 21, 07% menjadi 18%; 40, 42% menjadi 32% dan 6, 54% menjadi 11% untuk masing-masing bobot perspektif
+5) tahap 5 : menghitung bobot global untuk indikator kinerja
+dengan cara mengalikan bobot lokal indikator kinerja dengan bobot keterkaitan 
+evaluasi linguistik indikator kinerja sudah ditetapkan oleh tim pakar perusahaan
+ 
+kesimpulan fuzzy anp merupakan suatu metode yang menggabungkan metode fuzzy dengan anp
+anp sangat sesuai untuk kondisi dimana sangat banyak ketergantungan terjadi dalam pengambilan keputusan
+proses anp membutuhkan data perbandingan berpasangan
+sedangkan balanced score card merupakan alat pengukur kinerja yang tidak hanya mengukur kinerja dari segi keuangan saja tetapi juga dari segi non keuangan yang terdiri dari empat perspektif yang saling melengkapi dan mempunyai hubungan sebab akibat
+dengan menggunakan balanced scorecard, manajer tidak hanya mengukur hasil akhir, tetapi juga mengukur aktivitas-aktivitas penentu akhir
+metode yang digunakan pada penelitian ini adalah fuzzy analytical network process dengan konsep balanced scorecard
+strategi tersebut yaitu merancang produk berdasarkan kemauan konsumen, mengembangkan teknologi yang digunakan dalam phase penjualan dan distribusi dan mengembangkan bisnis principal yang sudah ada

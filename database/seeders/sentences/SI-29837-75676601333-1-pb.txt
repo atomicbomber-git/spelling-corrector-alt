@@ -1,0 +1,159 @@
+pariwisata merupakan kegiatan jasa yang memanfaatkan kekayaan alam dan lingkungan hidup yang khas seperti hasil budaya, peninggalan sejarah, pemandangan alam yang indah, dan iklim yang nyaman
+penyampaian informasi mengenai wisata kota pontianak kepada masyarakat oleh dinas kebudayaan dan pariwisata kota pontianak sudah dilakukan melalui sosialisasi dan diadakannya beberapa kegiatan yang dapat menarik minat masyarakat, hanya saja aktifitas tersebut hanya berlangsung dibeberapa waktu dan informasi hanya sebatas kepada warga kota pontianak
+sistem promosi wisata kota dikalangan masyarakat luar kota pontianak oleh dinas terkait masih jauh dari kata baik
+oleh sebab itu, diperlukannya penerapan teknologi informasi secara efektif dan mudah diakses oleh masyarakat dalam maupun luar negeri
+rancang bangun aplikasi panorama wisata kota dalam upaya pengenalan budaya dan pariwisata kota pontianak menerapkan teknologi informasi yang menampilkan gambar panorama wisata kota yang ada di kota pontianak
+menerapkan konsep seperti halnya fitur street view pada google maps dan masih dikembangkan oleh google untuk di indonesia menjadi landasan dalam pengimplementasian keindahan kota pontianak
+pembuatan aplikasi ini dimulai dari pengambilan gambar panorama spherical yang menggunakan kamera smartphone xiaomi redmi 4x dan aplikasi street view 360 panorama
+aplikasi panorama wisata kota pontianak yang dibangun telah berhasil dibuat dan dapat memberikan informasi sebagai sarana pengenalan kebudayaan dan pariwisata kota pontianak
+aplikasi yang dibangun memiliki nilai persentase 87, 64% secara keseluruhan yang didapat dari pengujian uat dengan perhitungan skala likert dan dikategorikan sangat baik
+dari beberapa pertanyaan tambahan pada pengujian uat, diketahui bahwa generasi milenial memiliki ketertarikan terhadap travelling dengan pencarian informasi menggunakan handphone melalui media yang berbasis online
+dari pengujian black-box diketahui aplikasi dapat berjalan dengan baik jika data yang dimasukkan sesuai
+pendahuluan menurut instruksi presiden ri nomor 19 tahun 1969, pariwisata adalah merupakan kegiatan jasa yang memanfaatkan kekayaan alam dan lingkungan hidup yang khas seperti hasil budaya, peninggalan sejarah, pemandangan alam yang indah, dan iklim yang nyaman
+adapun penyelenggaraan kepariwisataan, bertujuan untuk memperkenalkan, mendayagunakan, melestarikan, dan meningkatkan mutu obyek dan daya tarik wisata, memupuk rasa cinta tanah air dan meningkatkan persahabatan antar bangsa, memperluas dan memeratakan kesempatan berusaha dan lapangan kerja, meningkatkan pendapatan nasional dalam rangka meningkatkan kesejahteraan dan kemakmuran rakyat serta mendorong pendayagunaan produk nasional oleh karena itu, pemerintah kota di indonesia berlomba-lomba mempromosikan potensi wisata di daerah masing-masing tidak terkecuali pemerintah kota pontianak
+kota pontianak merupakan kota yang sedang mengembangkan industri pariwisatanya dan kota pontianak juga salah satu kota besar yang ada di indonesia, terletak sangat strategis diantara dua sungai besar yakni sungai kapuas dan sungai landak
+kota dipesisir sungai ini juga dilalui oleh garis khatulistiwa yang membagi bumi menjadi dua bagian
+banyak pesona yang ada di kota pontianak dan tidak kalah indahnya jika dibanding dengan kota lain yang ada di indonesia
+itu semua bisa menjadi daya tarik masyarakat dalam maupun luar negeri untuk mengunjungi kota pontianak, sehingga kota pontianak dapat menjadi icon kebanggaan pulau borneo yang juga dikenal merupakan paru-paru dunia akan hutannya yang lebat
+sistem promosi wisata kota dikalangan masyarakat luar kota pontianak oleh dinas terkait masih dikategorikan kurang baik, dapat dilihat pertumbuhan pengunjung yang setiap tahunnya tumbuh tidak signifikan
+tercatat selisih 19.980 wisatawan di kota pontianak pertahun 2016-2017
+pertumbuhan terendah selama kurun waktu 5 tahun terakhir
+berdasarkan analisis kebutuhan yang dilakukan dalam bentuk wawancara ke pejabat terkait, khususnya disporapar mengatakan bahwa perlu konsep yang baru untuk mengenalkan wisata kota pontianak, salahsatunya adalah penerapan virtual reality
+peran teknologi informasi dalam mempublikasikan keindahan kota pontianak merupakan salah satu kunci agar dikenalnya kota pontianak kepada masyarakat luas
+dalam perkembangannya, teknologi informasi dikalangan masyarakat tingkat menengah hingga atas sangat memiliki keterkaitan yang erat
+masyarakat pada umumnya di era modernisasi ini sangat memanfaatkan teknologi informasi ini untuk memperoleh data yang diinginkannya dengan cepat dan mudah
+begitu pula ketika mereka ingin mengetahui kebudayaan dan pariwisata di kota pontianak, tentunya mereka memerlukan sebuah teknologi informasi yang dapat memenuhi kebutuhannya
+oleh sebab itu, diperlukannya penerapan teknologi informasi secara efektif dan mudah diakses oleh masyarakat dalam dan luar kota pontianak bahkan masyarakat luar negeri
+makalah penelitian yang berjudul rancang bangun aplikasi panorama wisata kota dalam upaya pengenalan budaya dan pariwisata kota pontianak menerapkan konsep seperti halnya fitur street view pada google maps
+dengan adanya visualisasi keindahan kota pontianak ini akan mempermudah wisatawan maupun masyarakat luas dalam pencarian mereka akan keindahan kota yang memiliki potensi, sehingga nantinya orang berbondong-bondong untuk mengunjungi kota pontianak
+media informasi menurut arsyad, media adalah perantara atau pengantar pesan dari pengirim kepada penerima pesan
+sedangkan daryanto menjelaskan bahwa media merupakan salah satu komponen komunikasi yaitu sebagai pesan dari komunikator menuju komunikan
+arsyad dan cliticos berpendapat, media merupakan perantara dari pengirim ke penerima atau dari satu ke yang lainnya
+informasi menurut fatta adalah data yang telah diolah menjadi sebuah bentuk yang berarti bagi penerimanya dan bermanfaat dalam pengambilan keputusan saat ini atau mendatang
+masih menurut fatta, informasi merupakan data yang telah diproses, atau data yang memiliki arti
+informasi dapat berupa data atau apapun itu yang bermanfaat dan dapat dipergunakan untuk saat ini dan akan datang
+dari beberapa definisi-definisi yang telah dijabarkan dapat dijelaskan bahwa media informasi adalah alat yang digunakan sebagai pengantar pesan dari pengirim kepada penerima, berisikan data yang telah diproses dan bermanfaat dalam mengambil keputusan saat ini atau mendatang
+penggunaan media informasi memudahkan masyarakat mendapatkan informasi tentang apa yang mereka inginkan
+data informasi yang benar akan memudahkan dan bermanfaat dalam mengambil keputusan
+aplikasi berbasis website menurut pressman, aplikasi web merupakan sekumpulan file hypertext yang saling terhubung untuk menunjukkan informasi tertentu dengan menggunakan grafis yang sifatnya terbatas dan menampilkan informasi tertentu dengan menggunakan teks
+sedangkan menurut powell, aplikasi web pada dasarnya menyertakan campuran antara penerbitan media cetak dan pengembangan perangkat lunak, antara pemasaran dan komputasi, antara komunikasi internal dan hubungan eksternal, antara seni dan teknologi
+photo sphere viewer photo sphere viewer adalah plugin yang menggunakan javascript untuk merender foto panorama 360 ° menjadi satu kesatuan sehingga membentuk virtual reality
+photo sphere viewer murni menggunakan javascript, dimana plugin ini memungkinkan untuk berjalan sangat baik pada webgl dan kinerja yang cukup baik pada sistem lain yang mendukung html
+virtual reality menurut vaughan, virtual reality merupakan tambahan dari multimedia yang menggunakan elemen dasar seperti gambar, suara dan animasi
+virtual reality merupakan multimedia interaktif karena mengharuskan adanya umpan balik instrumen dari orang terkait
+selain itu, virtual reality juga sering disebut quick time virtual reality yaitu metode untuk melihat satu gambar sekitar seolah kita berada di dalam gambar dan dapat melihat ke atas, dan ke bawah, memutar atau memperlebar fiturnya
+foto panorama menurut tjin, foto panorama adalah penggabungan beberapa foto yang tumpang tindih sebagian dengan tujuan untuk mendapatkan foto yang lebar dan mencakupi pemandangan yang luas
+foto panorama mampu merepresentasikan objek yang luas bahkan hingga 360 derajat
+rectilinear merupakan proyeksi dari bidang panorama ke bidang datar yang memiliki rentang sampai dengan 180 x 180 derajat
+contoh panorama rectilinear dapat dilihat pada gambar 2.1 gambar 2.1 panorama rectilinear b
+cylindrical, merupakan proyeksi dari bidang panorama ke permukaan silinder yang memiliki rentang sampai dengan 360 x 120 derajat
+contoh panorama cylindrical dapat dilihat pada gambar 2.2 gambar 2.2 panorama cylindrical c
+sphere, gambar spherical adalah tipe gambar panorama dengan format equirectangular, yang mana menggambarkan dengan pasti keadaan gambar axis horizontal secara 360 derajat dan axis vertikal secara 180 derajat
+pada praktiknya gambar panorama biasa disimpan didalam proyeksi spherical, yang berarti akan ditampilkan didalam sphere
+untuk panorama dengan pandangan vertikal yang lebar, lebih efektif menggunakan metode sphere daripada silindris
+contoh gambar spherical dapat dilihat pada gambar 2.3 gambar 2.3 gambar panorama sphere 2.6
+kebudayaan dan pariwisata kota pontianak menurut undang-undang nomor 10 tahhun 2009 tentang kepariwisataan
+pariwisata adalah berbagai macam kegiatan wisata dan didukung berbagai fasilitas serta layanan yang disediakan oleh masyarakat, pengusaha, pemerintah kota dan pemerintah daerah
+kepariwisataan adalah keseluruhan kegiatan yang terkait dengan pariwisata dan bersifat multidimensi serta multidisiplin yang muncul sebagai wujud kebutuhan setiap orang dan negara serta interaksi antara wisatawan dan masyarakat setempat, sesama wisatawan, pemerintah kota, pemerintah daerah dan pengusaha
+berhubung penelitian di tingkat wisata kota pontianak, adapun data tentang objek wisata dan daya tarik wisata kota pontianak
+objek-objek wisata kota pontianak no nama objek wisata dikelola oleh pengusaha dan akan berubah nama menjadi khatulistiwa park
+taman alun kapuas dikelola oleh pemkot pontianak dan baru selesai direnovasi perjanuari 2016 kemarin
+taman track untan dikelola oleh pemkot pontianak
+dan masih ada beberapa objek wisata kota pontianak yang menjadi ciri khas dari kota itu sendiri
+dimana objek dan daya tarik wisata dapat menyukseskan program pemerintah dalam melestarikan adat dan budaya bangsa sebagai asset yang dapat dijual kepada wisatawan
+objek dan daya tarik wisata dapat berupa alam, budaya, tata hidup dan sebagainya yang memiliki daya tarik dan nilai jual untuk dikunjungi ataupun dinikmati oleh wisatawan
+dalam arti luas, apa saja yang mempunyai daya tarik wisata atau menarik wisatawan dapat disebut sebagai objek dan daya tarik wisata
+perancangan uml menurut sri dharwiyanti, “unified modelling language adalah sebuah yang telah menjadi standar dalam industri untuk visualisasi, merancang dan mendokumentasikan sistem piranti lunak
+uml menawarkan sebuah standar untuk merancang model sebuah sistem”
+dengan menggunakan uml kita dapat membuat model untuk semua jenis aplikasi piranti lunak, dimana aplikasi tersebut dapat berjalan pada piranti keras, sistem operasi dan jaringan apapun, serta ditulis dalam bahasa pemrograman apapun
+tetapi karena uml juga menggunakan class dan operation dalam konsep dasarnya, maka uml lebih cocok untuk penulisan piranti lunak dalam bahasa-bahasa berorientasi objek seperti c++, java, c#, atau vb.net 2.8
+black box testing teknik yang paling lazim digunakan dalam pengujian adalah pengujian kotak hitam 
+pengujian blackbox dirancang untuk memvalidasi kebutuhan fungsional tanpa peduli dengan kerja internal dari program 
+beberapa cara untuk memilih data pengujian untuk metode black box adalah sebagai berikut : 1
+easy values, yaitu data yang mudah diperiksa
+typical realistic value, yaitu mencoba program dengan data pengujian untuk melihat bagaimana program menggunakannya
+data ini harus cukup sederhana sehingga hasilnya dapat dihitung secara manual 3
+extreme values, banyak program error pada suatu batas range dari aplikasi
+illegal values, yaitu suatu data / nilai yang tidak diperbolehkan maupun data yang tidak berguna
+meskipun dirancang untuk mengungkap kesalahan, pengujian black box digunakan untuk memperlihatkan bahwa fungsi-fungsi perangkat lunak dapat beroperasi, bahwa input diterima dengan baik dan output dihasilkan dengan tepat, dan integritas informasi eksternal dipelihara
+dalam pengujian black box terdapat beberapa sifat black box testing salah satunya behavior testing yang digunakan untuk menguji prilaku sistem apakah sudah sesuai dengan permintaan, menguji tingkah laku sistem berdasarkan polanya 
+user acceptance test pengujian yang dilakukan adalah user acceptance test, yaitu menguji tingkat penerimaan user terhadap sistem melalui kuesioner
+kuesioner berisi beberapa pertanyaan yang dikelompokkan menjadi 3 aspek yang digunakan dalam pengujian aplikasi tersebut, yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas, dan aspek komunikasi visual gagasan utama pada user acceptance testing adalah untuk memastikan bahwa produk akhir yang dibuat mendukung kebutuhan user
+dalam bidang bisnis, artinya produk yang dibuat dapat membantu dan memudahkan user dalam melakukan bisnis
+untuk aplikasi personal, artinya user bisa mendapatkan informasi yang dibutuhkan melalui website dengan mudah 
+skala likert skala likert digunakan untuk mengukur sikap, pendapat, dan persepsi seseorang atau sekelompok tentang kejadian atau gejala sosial dalam penelitian gejala sosial ini telah ditetapkan secara spesifik oleh peneliti, yang selanjutnya disebut sebagai variabel penelitian 
+perancangan aplikasi spesifikasi yang akan digunakan untuk mengimplementasikan sistem informasi
+arsitektur aplikasi menjadi suatu desain aplikasi yang terdiri dari komponen-komponen yang saling berinteraksi antara satu dengan yang lain
+aplikasi yang dibangun adalah aplikasi yang bertujuan membantu pengunjung untuk mengetahui wisata kota pontianak secara virtual selain pengunjung dapat mengetahui gambaran virtual suatu tempat wisata, aplikasi ini juga memberikan informasi tentang sejarah dari tempat wisata tersebut
+dalam aplikasi ini, admin dapat menambahkan, mengubah atau menghapus informasi tentang sejarah dari tempat wisata tanpa perlu mengetahui tag html untuk masuk dan mengelola web
+aplikasi ini berjalan melalui media internet, dimana tiap pengunjung website memiliki hak akses yang sama dan dapat mengakses aplikasi dalam waktu yang bersamaan
+berikut ini adalah gambaran arsitektur aplikasi yang dibangun
+pada halaman admin, pengguna dapat mengakses menu dashboard, menu panorama dan menu about
+pada halaman pengunjung, pengguna dapat mengakses halaman home dan halaman about
+pada halaman home, pengguna dapat memilih gambar panorama yang ingin dilihat dengan cara menekan pada gambar panorama
+pada halaman about, pengguna akan melihat penjelasan tentang aplikasi yang dibangun
+berikut ini adalah perancangan struktur antarmuka aplikasi : gambar 3.2 struktur antarmuka aplikasi 3.3 teknik pengambilan gambar pengambilan gambar dilakukan dengan menggunakan kamera dari smartphone xiaomi redmi 4x dengan kamera 13mp
+penentuan titik sebelum melakukan pengambilan gambar terlebih dahulu dilakukan penentuan spot yang akan dipilih
+spot yang diambil yaitu 15 titik lokasi wisata kota pontianak dengan masing-masing pengambilan gambar satu titik spot setiap tempat wisata
+penentuan waktu pengambilan gambar untuk mendapatkan gambar yang memiliki tingkat pencahayaan yang baik, pengambilan gambar dilakukan pada pukul 07.00 wib s/d 15.00 wib untuk pengambilan gambar outdoor
+pengambilan gambar setelah mengetahui spot mana saja yang akan diambil dan waktu pengambilan gambar, kemudian dilakukan pengambilan gambar
+pengambilan gambar panorama menggunakan aplikasi google street view
+dalam proses pengambilan gambar, posisi kamera berada ditengah titik spot
+kamera harus dipastikan tetap berada pada titik yang sama agar dapat menghasilkan gambar panorama yang sempurna
+cara pengambilan gambar dilakukan dengan membuka aplikasi google street view, kemudian pilih menu kamera
+setelah membuka menu kamera, arahkan kamera pada sisi yang ingin anda ambil, kemudian arahkan kamera mengikuti tombol kuning yang muncul pada 117ayer
+lakukan hingga semua sisi gambar diambil dengan sempurna
+contoh pengambilan gambar dapat dilihat pada gambar 3.3 gambar 3.3 pengambilan gambar panorama iv
+hasil perancangan antar muka user berikut adalah pemaparan hasil dari perancangan aplikasi panorama wisata kota pontianak
+antarmuka aplikasi ini terdiri dari menu home dan about
+fungsi dari masing- masing menu dapat dilihat pada tabel 4.1
+tabel 4.1 daftar menu aplikasi pengunjung dan fungsinya menu fungsi beranda melihat kumpulan gambar panorama wisata kota pontianak dan akan menampilkan deskripsi tentang panorama yang dipilih
+artikel menampilkan informasi terbaru tentang tempat wisata kota pontianak
+tentang menampilkan informasi tentang aplikasi yang dibangun 1
+antarmuka halaman beranda halaman beranda merupakan halaman pertama yang akan tampil ketika pengguna mengakses aplikasi panorama wisata kota pontianak
+pada halaman beranda, pengunjung dapat melihat kumpulan gambar panorama wisata kota pontianak
+setiap gambar panorama yang ditampilkan pada halaman beranda dapat di-klik dan menampilkan gambar panorama secara keseluruhan
+pengunjung dapat mengetahui nama panorama tersebut dengan cara mengarahkan anak panah ke gambar panorama
+antarmuka halaman beranda dapat dilihat pada gambar 4.1
+antarmuka gambar panorama ketika pengunjung memilih gambar panorama yang ingin dilihat, aplikasi akan menampilkan gambar panorama yang dipilih
+terdapat gambar panorama tempat wisata yang dipilih
+terdapat tombol menu untuk menampilkan menu tambahan untuk melihat informasi cara menggunakan aplikasi, menampilkan sejarah tempat wisata dan menu untuk melihat panorama lainnya
+pada halaman panorama terdapat pilihan untuk memilih bahasa, serta terdapat tombol social media
+pengunjung juga bisa memberikan tanggapan dan rating terhadap gambar panorama
+antarmuka gambar panorama dapat dilihat pada gambar 4.2
+antarmuka menu tambahan gambar 4.3 antarmuka menu tambahan 4
+antarmuka menu cara menggunakan aplikasi berikut ini tampilan ketika pengguna menekan tombol yang bersimbol tanda tanya yang berisikan tentang informasi cara menggunakan aplikasi
+antarmuka menu cara menggunakan aplikasi dapat dilihat pada gambar 4.4
+gambar 4.4 antarmuka menu cara menggunakan aplikasi 5
+antarmuka menu informasi sejarah berikut ini tampilan ketika pengguna menekan tombol yang bersimbol dokumen yang berisikan tentang informasi sejarah wisata kota pontianak yang dipilih dan lokasi tempat wisata
+antarmuka menu informasi sejarah dapat dilihat pada gambar 4.5
+antarmuka menu informasi wisata lainnya berikut ini tampilan ketika pengguna menekan tombol yang bersimbol foto yang berisikan tentang informasi tempat wisata lainnya
+antarmuka menu informasi wisata lainnya dapat dilihat pada gambar 4.6
+antarmuka menu artikel halaman artikel menampilkan beberapa artikel terbaru yang ada di tempat wisata kota pontianak
+antarmuka menu artikel dapat dilihat pada gambar 4.7
+antarmuka deskripsi artikel ketika pengguna memilih salah satu artikel yang ada di halaman artikel, maka akan muncul tampilan tentang gambar dan deskripsi tentang artikel tersebut
+pengguna juga dapat memberikan komentar tentang artikel yang ditampilkan
+antarmuka deskripsi artikel dapat dilihat pada gambar 4.8
+antarmuka halaman tentang halaman tentang akan menampilkan informasi tentang aplikasi yang dibangun
+terdapat judul dan isi tentang informasi aplikasi
+pada halaman tentang juga terdapat pilihan untuk memilih bahasa
+antarmuka halaman tentang dapat dilihat pada gambar 4.9
+hasil pengujian pengujian ini dilakukan dengan membagikan lembar pengujian uat kepada 58 responden untuk melihat pendapat dan respond dari pengguna terhadap operasional aplikasi
+58 responden tersebut terdiri dari 24 warga kota pontianak dan 34 warga diluar kota pontianak
+pengujian dilakukan pada tanggal 8-10 agustus 2018 dengan tahapan pengujian sebagai berikut : - penulis memberikan lembar pengujian uat kepada responden
+lembar pengujian uat berisi tentang pertanyaan seputar aplikasi yang dijalankan yang terdiri dari 3 aspek yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas dan aspek komunikasi visual - penulis menunjukkan aplikasi wisata panorama kota pontianak kepada responden
+penulis menjelaskan alur dan konten yang ada pada aplikasi
+responden mengisi lembar kuesioner yang terdiri dari identitas, pertanyaan seputar aplikasi dan tanda tangan responden
+berikut ini adalah hasil dari rekapitulasi penilaian terhadap masyarakat kota pontianak menggunakan perhitungan skala likert: tabel 4.12 tabel hasil perhitungan skala likert masyarakat pontianak no aspek / pertanyaan 1
+kelancaran menjalankan aplikasi rata-rata persentase 91, 11 % terhadap masyarakat diluar kota pontianak menggunakan perhitungan skala likert: tabel 4.13 tabel hasil perhitungan skala likert masyarakat diluar pontianak no aspek / pertanyaan tb kb cb b sb fungsi-fungsi yang salah atau hilang 1
+no aspek / pertanyaan tb kb cb b sb 3
+0 0 6 10 18 87, 0 6% rata-rata persentase 84, 1 7% berdasarkan hasil perhitungan skala likert di atas, diketahui bahwa dari 24 responden yang berasal dari masyarakat kota pontianak total persentase yang dihasilkan adalah 91, 11%
+dan dari 34 responden yang berasal dari masyarakat diluar kota pontianak total persentase yang dihasilkan adalah 84, 17%
+kesimpulan panorama wisata kota pontianak, maka dapat disimpulkan bahwa: 1
+aplikasi panorama wisata kota pontianak telah berhasil dibuat dan dapat diterima masyarakat dari dalam dan luar kota pontianak
+gambar panorama yang disajikan berupa panorama spherical dengan rentang ukuran 360 0 x 180 3
+aplikasi yang dibangun memiliki nilai persentase 87, 64% secara keseluruhan yang didapat dari pengujian uat dengan perhitungan skala likert dan dikategorikan sangat baik
+dari pengujian black-box diketahui aplikasi dapat berjalan dengan baik jika data yang dimasukkan sesuai
+aplikasi belum berbasis android dan ios
+perlu adanya penambahkan deskripsi lokasi tempat wisata dengan lebih lengkap
+perlu adanya penambahkan fitur voice pada gambar panorama agar pengguna dapat lebih mudah memahami sejarah yang ada

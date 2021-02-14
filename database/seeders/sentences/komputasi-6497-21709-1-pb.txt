@@ -1,0 +1,85 @@
+olyviade zarcelonia zolyviadezarcelonia@gmail.com this thesis is to try to analyze and verify whether the assumed working principles projector to enlarge the image to produce a magnified image
+the method is designed based on the principles of light projection in its design and fully utilize the unique properties of light which always propagates through straight lines and in all directions
+the result of this research is a light projection method, which is divided into two phases: a projection phase of the original image pixel to image results, which is an early stage light projection method, in which all of the original image that is projected onto the enlarged image of the results, and the filling empty pixels phase, which fills the pixels that have not been defined 
+magnification with light which are similar to the results of bilinear magnification method
+processing, image magnification, projector, resampling, java, terkandung dalam sebuah citra digital, ukuran dari citra digital tersebut juga akan sangat berpengaruh pada proses pengolahan citra digital pada beberapa kasus akuisisi citra yang dilakukan, terkadang ditemukan ukuran citra yang didapat tidak sesuai dengan yang diinginkan
+untuk keperluan yang berkaitan dengan pengolahan citra digital, memerlukan citra dengan ukuran tertentu sebagai masukan
+pada proses pattern recognition, seperti pengenalan tulisan dan pengenalan wajah, dapat menghasilkan lebih mudah jika citra masukan yang diolah adalah citra dengan ukuran tertentu
+berdasarkan hal-hal tersebut dapat suatu citra digital sangat penting dalam proses pengolahan citra lebih lanjut
+keunikan dari sebuah proyektor adalah hasil proyeksinya yang bisa mencapai ukuran gambar yang sangat besar dari gambar aslinya
+hasil proyeksi dari proyektor itu mempunyai kualitas dan ketajaman gambar yang cukup baik
+proyektor juga bekerja atas prinsip-prinsip cahaya yang akan sangat berkaitan erat dengan citra
+pada dasarnya sebuah citra terbentuk dari hasil pemantulan cahaya dan dapat terlihat oleh mata manusia karena disinari oleh cahaya
+sifat-sifat cahaya yang merambat dengan lintasan garis- garis lurus akan lebih mudah diterapkan dalam operasi geometri citra yang bekerja berdasarkan koordinat titik-titik dan fungsi- fungsi pemetaan
+secara teori dapat diterapkan dalam proses perbesaran citra digital dengan bayangan slide adalah citra yang telah diperbesar, layar proyektor adalah bidang gambar baru yang telah diperbesar, maka akan didapatkan citra yang lebih besar dari citra asal operasi geometri adalah memodifikasi transformasi geometri
+sedangkan geometri adalah algoritma untuk pada citra 
+adalah letak posisi koordinat dari tiap piksel, sedangkan nilai warna dari piksel tersebut tetap
+ini berbeda dengan dengan operasi aritmetika yang manaposisi piksel tetap sedangkan nilai warnanya yang berubah
+operasi geometri yang dilakukan f ’ dapat ditulis sebagai: f’ = f, g2 ) yang dalam hal ini, g1 dan g2 adalah fungsi transformasi geometrik
+resampling) adalah sebuah metode pencitraan untuk meningkatkan (atau digital beberapa kamera digital sangat tergantung pada kecanggihan diketahui
+sebagai contoh: jika anda ingin mengetahui suhu pada siang hari, tapi hanya diukur itu pada jam 11 dan jam 1, anda bisa memperkirakan nilai dengan melakukan pengukuran tambahan pada jam 11.30 pagi, anda bisa melihat bahwa sebagian besar dari kenaikan suhu terjadi sebelum tengah hari, dan bisa menggunakan titik data tambahan untuk melakukan interpolasi kuadrat
+suhu yang dekat dengan tengah hari, algoritma interpolasi anda dapat lebih canggih 
+interpolasi citra bekerja dalam dua arah, dan mencoba untuk mencapai pendekatan yang terbaik dari sebuah piksel yang warna dan intensitas yang didasarkan pada nilai- nilai di sekitar piksel
+berubah lebih jauh dari satu lokasi ke lokasi berikutnya
+seperti halnya dengan contoh temperatur, semakin banyak yang diketahui tentang informasi di sekitar pixel, semakin baik dalm proses interpolasi
+oleh karena itu semakin diperbesar, semakin banyak informasi yang harus diketahui
+tergantung pada kompleksitas, gunakan yang berdekatan piksel ketika diinterpolasi
+semakin banyak piksel tapi ini memerlukan waktu pemrosesan yang lebih lama lagi
+algoritma ini dapat digunakan untuk mendistorsi dan 2014)
+pada keberadaan tepi – bertujuan untuk terutama dirancang untuk mchugh, 2014
+berlisensi seperti: qimage, photozoompro, genuinefractals dan menerapkan algoritma mereka 
+dalam gambar yang baru adalah warna dari piksel terdekat dari gambar asli
+jika anda memperbesar 200%, satu piksel akan diperbesar ke 2 x 2 luas dari 4 piksel dengan warna yang sama seperti aslinya pixel 
+sebagian besar perangkat lunak untuk melihat dan mengedit gambar menggunakan interpolasi jenis ini untuk memperbesar gambar digital untuk keperluan pemeriksaan lebih dekat karena tidak mengubah informasi warna dari gambar dan tidak memperlihatkan anti-aliasing
+untuk memperbesar gambar foto karena memberi bobot) dari 4 piksel dari ukuran 2×2 piksel tetangga terdekat dalam gambar asli 
+metode ini rata-rata memiliki efek anti-aliasing dan karena itu relatif mulus pada bagian tepinya dan tanpa meninggalkan kesan jaggies
+bicubic mengunakan 4 x 4 piksel tetangga untuk mengambil informasi
+bicubic menghasilkan metode sebelumnya, dan mungkin resampling gambar
+adobe photoshop cs menawarkan dua varian dari metode interpolasi bicubic: bicubic halus dan bicubic tajam
+dilihat dari sumber cahaya, secara garis besar dibagi menjadi : 1
+cahaya alam yang termasuk cahaya alam adalah cahaya matahari yang merupakansumber 2
+cahaya buatan cahaya buatan ini meliputi cahaya listrik, lampu minyak dan lilin
+cahaya buatan ini sebagai sarana pelengkap untuk penerangan ruangan
+ke segala arah, namun cahaya dapat dipantulkan
+pantulan cahaya tergantuk dipantulkan akan semakin jelas
+cahaya yang terpantul oleh permukaan benda dan masuk ke mata akan menjadi gambar yang diterjemahkan oleh otak manusia sebagai informasi 
+bila medium yang dilaluinya homogen, maka cahayalurus
+bukti cahaya merambat lurus tampak pada berkas cahaya matahari yangmenembus masuk ke dalam ruangan yang gelap
+demikian pula dengan berkas lampu sorot pada malam hari
+ketika menyentuh permukaan suatu benda maka rambatan cahaya akan mengalamidua hal, yaitu pemantulan atau pembiasan
+yang dapat memproyeksikan gambar yang kecil menjadi sebuah tampilan gambar besar yang dapat ditangkap pada layar
+prinsip utama kerja proyektor adalah memanfaatkan karakteristik lensa cembung yang dapat menampilkan bayangan benda yang lebih besar dari aslinya
+kerja kedua jenis proyektor ini hampir sama yaitu memberikan bayangan yang besar ke layar 
+metode proyeksi cahaya metode perbesaran gambar dengan prinsip kerja proyeksi cahaya merupakan sebuah metode perbesaran gambar sederhana yang memanfaatkan keistimewaan sifat-sifat melalui lintasan garis lurus
+cahaya juga memantulkan warna yang sesuai warna benda yang disinarinya
+merupakan tahap awal metode proyeksi cahaya, dimana semua citra asal yang ada diproyeksikan ke citra hasil yang diperbesar
+untuk perbesaran gambar dengan skala s, maka jarak-jarak pada piksel-piksel gambar asal akan dikalikan dengan skala perbesaran s pada piksel gambar hasil
+sehingga hubungan antara titik asal dan titik proyeksi akan dapat diuraikan dengan persamaan sebagai berikut : dalam rumus pemetaan dari citra asal f ke citra hasil f ’ dapat ditulis sebagai : f ’ = f proses proyeksi piksel citra asal ke citra hasil ini dapat dijelaskan dalam diagram alur sebagai berikut : 3.2 pengisian piksel-piksel yang kosong ketika sebuah citra diperbesar dengan cara memproyeksikan semua piksel dari citra asal ke citra hasil, maka akan ada piksel- piksel kosong yang terdapat pada citra hasil
+hal ini dikarenakan jumlah piksel yang terdapat pada citra hasil jelas akan lebih banyak dari jumlah piksel citra asal, sehingga akan terdapat piksel-piksel pada citra hasil yang tidak diketahui nilainya
+proses pengisian piksel-piksel yang kosong menjadi bagian yang tidak terpisahkan dari proses perbesaran citra
+tanpa proses ini, citra hasil akan menjadi tidak sempurna
+proses pengisian ini sering disebut proses resampling
+dimana : z adalah titik perpotongan antara garis proyeksi z’ ke bidang citra asal, nilai z’, ,, adalah titik-titik piksel citra asal di sekitar titik z dax adalah jarak antara titik z ke ax dbx adalah jarak antara titik z ke bx day adalah jarak antara titik z ke ay dby adalah jarak antara titik z ke by flowchart proses pengisian piksel-piksel x0, y1 hasil pengujian aplikasi dengan buah file citra dengan berbagai tipe citra dan beberapa skala perbesaran yang dilakukan, dapat dilihat pada tabel berikut : nama - semakin besar persentase skala perbesaran yang dimasukkan, semakin lama pula waktu yang diperlukan oleh aplikasi untuk melakukan perbesaran citra
+pada skala perbesaran yang sama dan tipe citra yang sama, citra-citra yang berukuran lebih besar akan memerlukan waktu proses aplikasi yang lebih lama dibandingkan citra-citra yang lebih kecil ukuran dimensi gambarnya
+pada skala perbesaran yang sama dan ukuran dimensi citra yang sama, citra- citra 24 bit memerlukan waktu proses aplikasi yang lebih lama dibandingkan citra-citra dengan tipe 8 bit
+pengujian pada citra squared error dilakukan pada 5 buah file citra dengan cara melakukan perbesaran 200 %, 400 % dan 800 % masing-masing menggunakan metode nearestneighbor, adobephotoshop
+kemudian perbesaran citra dengan masing-masing metode dengan telah dilakukan tersebut dapat dilihat pada tabel berikut : adalah : - pada setiap kasus perbesaran citra, terlihat bahwa perhitungan rmse antara perbesaran metode proyeksi cahaya dengan perbesaran metode bilinear dibandingkan perhitungan rmse - nilai rmse yang dihasilkan memiliki kecenderungan semakin besar saat skala perbesaran yang dilakukan dinaikkan
+nilai-nilai rmse dari citra dengan tipe 24 bit terlihat lebih besar dibandingkan nilai-nilai rmse dari citra 8 bit
+nilai rmse yang dihitung antara dua buah citra menunjukkan kemiripan dari kedua citra tersebut
+semakin kecil nilai rmse yang didapat dari hasil perhitungan, maka semakin mirip kedua citra yang dibandingkan
+dari hasil pengujian diatas, secara umum dapat disimpulkan bahwa metode proyeksi cahaya memiliki hasil perbesaran yang mirip dengan metode bilinear, dengan nilai rmse rata-rata adalah 7, 110
+diukur adalah komponen warna, dimana setiap komponennya memiliki nilai terendah 0 dan nilai tertinggi 255
+sehingga nilai rmse yang akan didapat dari kasus pengujian ini adalah berkisar antara 0 hingga 255
+bisa didapat, maka dapat disimpulkan persentase tingkat kemiripan rata-rata antasra hasil perbesaran dengan metode proyeksi cahaya dengan metode-metode lainnya dapat dihitung sebagai berikut : neighbor : berdasarkan hasil perhitungan diatas, metode bilinearhingga mencapai rata-rata terhadap metode perbesaran gambar dengan prinsip kerja proyeksi cahaya ini maka dapat disimpulkan bahwa : 1
+metode proyeksi cahaya, terbagi dalam 2 tahapan, yaitu : a
+proyeksi piksel citra asal ke citra hasil merupakan tahap awal metode proyeksi cahaya, dimana semua citra hasil yang diper-besar mengisi piksel-piksel yang belum digital dengan hasil perbesaran yang mirip dengan metode bilinear, dengan tingkat kemiripannya ketika diukur rata 97, 212 %
+tergantung pada : dari tipe citra asal, kecepatan proses aplikasi akan semakin rendah
+citra dengan tipe 8 bit akan lebih cepat proses perbesarannya dibandingkan b
+ukuran citra asal kecepatan proses aplikasi akan semakin rendah jika ukuran citra asal yang diproses lebih besar
+waktu proses citra akan semakin besar
+untuk skala perbesaran yang lebih kecil kecepatan proses aplikasi akan lebih tinggi dibandingkan skala perbesaran yang lebih besar
+karena perhitungan pencampuran warna pada proses resampling tergantung pada sisa bagi nilai koordinat piksel-piksel gambar hasil dengan skala perbesaran, maka pemilihan tipe data untuk perhitungan nilai dax, dbx, day dan dby harus benar-benar diperhatikan untuk 6
+belajar matematika aktif dan menyenangkan untuk smp/mts kelas ix
+jakarta : pusat perbukuan departement pendidikan nasional pembuatan perangkat lunak rekonstruksi dimensi dengan menggunakan metode generalized voxel coloring – layered depth image
+http://www.tinaja.com/glib/pixintpl.pdf enlargement cambridge : cambridge in conjecture corporation.http://www.wisegeek.com/wh at-is-image-scaling.htm 1 agustus 1992
+ia menerima gelar st dari fakult

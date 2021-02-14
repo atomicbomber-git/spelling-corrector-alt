@@ -1,0 +1,107 @@
+dismenore atau nyeri haid merupakan gangguan menstruasi yang banyak dialami para wanita usia produktif
+dismenore diklasifikasikan menjadi dua jenis, yaitu dismenore primer dan dismenore sekunder
+sekarang ini dismenore sudah termasuk kedalam kondisi medis yang nyata dan perlu perhatian khusus, sebab diantara penyebab dari dismenore adalah penyakit yang berhubungan dengan obstetri dan ginekologi yang berbahaya jika dibiarkan dan perlu penanganan atau pengobatan, namun masih banyak para wanita yang belum memiliki pengetahuan dasar dan kesadaran yang tinggi mengenai gangguan menstruasi dismenore dan bahayanya, serta mengalami keterbatasan waktu untuk melakukan konsultasi kepada dokter
+sistem pakar yang berkembang saat ini dapat memungkinkan suatu penyakit dapat didiagnosis lebih cepat dan akurat
+banyak metode yang digunakan dalam membangun sistem pakar, diantaranya adalah metode klasifikasi naive bayes
+penelitian ini menggunakan metode naïve bayes untuk klasifikasi seorang wanita menderita jenis dismenore primer atau dismenore sekunder
+tujuan dari penelitian ini adalah mendiagnosis jenis gangguan menstruasi dismenore dengan menerapkan metode naïve bayes pada sistem pakar diagnosis dismenore, serta memberikan informasi dan saran penanganan untuk gangguan menstruasi dismenore sesuai hasil diagnosis jenis dismenore yang diderita
+berdasarkan hasil analisis penelitian dan pengujian terhadap 10 data uji dengan 10 dan 20 data training didapat metode naïve bayes memiliki tingkat akurasi 90%, sedangkan terhadap 10 data uji dengan 30 data training didapat tingkat akurasi sebesar 100%
+pendahuluan etiap wanita dalam usia subur atau produktif setiap bulannya akan mendapat menstruasi 
+sering dalam masa menstruasi tersebut para wanita mengeluhkan adanya gangguan menstruasi
+salah satu masalah gangguan menstruasi yang umum terjadi adalah dismenore atau nyeri haid
+dismenore adalah nyeri perut yang berasal dari kram rahim dan terjadi selama menstruasi
+dismenore dapat disertai dengan rasa mual, muntah, diare dan kram, sakit seperti kolik diperut
+beberapa wanita bahkan pingsan atau tidak sadarkan diri, keadaan ini muncul cukup hebat sehingga menyebabkan penderita mengalami aktivitas untuk sementara
+dismenore diklasifikasikan menjadi dua jenis, yaitu dismenore primer dan dismenore sekunder
+dismenore primer didefinisikan sebagai nyeri kram yang berulang yang terjadi saat menstruasi tanpa ada kelainan patologik pada pelvis
+dismenore sekunder adalah nyeri saat haid yang didasari oleh adanya kelainan patologik pada pelvis, contohnya endometriosis
+sebagian besar wanita yang mengalami dismenore sering mengabaikan masalah gangguan menstruasi dismenore tersebut, hal ini dikarenakan kurangnya informasi mengenai dismenore dan dampaknya bagi kesehatan reproduksi wanita
+selain itu memiliki keterbatasan waktu untuk melakukan konsultasi, memerlukan biaya, dan masih banyak wanita yang hanya mau berkonsultasi masalah kewanitaan atau reproduksi hanya kepada dokter wanita saja
+padahal penting untuk diketahui seorang wanita mengalami gangguan menstruasi dismenore primer atau sekunder, agar kedepannya dapat dilakukan pencegahan atau pengobatan yang sesuai
+kemajuan dunia teknologi sangat membantu dunia modern untuk mendeteksi atau meramalkan sesuatu yang akan terjadi
+salah satunya adalah sistem pakar yang digunakan untuk mendiagnosis suatu penyakit dalam dunia kedokteran
+sistem pakar merupakan sistem yang mengadopsi pengetahuan seorang pakar atau dokter ke komputer sistem pakar yang berkembang saat ini dapat memungkinkan suatu penyakit dapat didiagnosis lebih cepat dan akurat
+diagnosis penyakit dengan menggunakan sistem pakar memerlukan sebuah metode algoritma dalam penyelesaiannya
+banyak metode yang digunakan dalam membangun sistem pakar, diantaranya adalah metode klasifikasi naive bayes
+metode naïve bayes berfungsi sebagai classifier dari beberapa kondisi atribut dari suatu kasus gejala yang diderita user atau pasien untuk dapat menentukan probabilitas seorang pasien menderita dismenore primer atau dismenore sekunder
+berkembangnya teknologi internet saat ini membuat sistem pakar dibangun berbasis web
+sistem pakar berbasis web dibuat agar mudah digunakan dan diakses oleh user atau pengguna
+oleh karena itu, diperlukan sebuah sistem pakar berbasis web yang dapat mendiagnosis gangguan menstruasi dismenore
+berdasarkan latar belakang tersebut dilakukan desain sistem pakar berbasis web untuk mendiagnosis gangguan menstruasi dismenore yang hasilnya dapat menunjukan jenis dismenore yang diderita oleh pasien beserta informasi dan saran penanganannya
+sistem pakar kecerdasan buatan adalah bagian ilmu komputer yang mempelajari bagaimana membuat mesin dapat melakukan pekerjaan seperti dan sebaik yang dilakukan oleh manusia bahkan bisa lebih baik daripada yang dilakukan
+dalam ruang lingkup kecerdasan buatan sistem pakar merupakan bagian dari kecerdasan buatan
+pengertian sistem pakar adalah salah satu cabang dari kecerdasan buatan yang membuat sistem pakar untuk diagnosis dismenore menggunakan metode naïve bayes 1 yovitarianti@gmail.com, 2 tursina15@yahoo.com, 3 anggidianti@gmail.com naïve bayes merupakan sebuah metode klasifikasi yang berakar pada teorema bayes
+metode pengklasifikasian dengan menggunakan metode probabilitas dan statistik yang dikemukakan oleh ilmuwan inggris thomas bayes
+teorema bayes dikombinasikan dengan yang berarti setiap atribut/variable bersifat bebas 
+naïve bayes dapat dilatih dengan efisien dalam pembelajaran terawasi 
+keuntungan dari klasifikasi adalah bahwa ia hanya membutuhkan sejumlah kecil data pelatihan untuk memperkirakan parameter yang diperlukan untuk klasifikasi
+karena variabel independen diasumsikan, hanya variasi dari variabel untuk masing-masing kelas harus ditentukan, bukan seluruh matriks kovarians
+dalam prosesnya, naïve bayes mengasumsikan bahwa ada atau tidaknya suatu fitur pada suatu kelas tidak berhubungan dengan ada atau tidaknya fitur lain di kelas yang sama
+perhitungan naïve bayes yang digunakan: menghitung p dengan rumus : p ����
+� ��� dimana : nc = nilai data record pada data training yang v = vj dan a = ai p = 1/banyaknya jenis kelas/penyakit m = jumlah parameter/gejala n = nilai data record pada data training yang v = vj / tiap kelas persamaan diselesaikan melalui perhitungan sebagai berikut: 1
+menentukan nilai nc untuk setiap class/kelas 2
+menghitung nilai p dan menghitung nilai p dimana : p ����
+menentukan hasil klasifikasi yaitu v yang memiliki hasil perkalian terbesar
+dismenore ramali mengemukakan bahwa dismenore berasal dari kata dan 
+dys atau dis adalah awalan yang berarti buruk, salah dan tidak baik
+menorea atau mens atau mensis adalah pelepasan lapisan uterus yang berlangsung setiap bulan berupa darah atau jaringan dan sering disebut dengan haid atau menstruasi
+dismenore adalah nyeri saat haid yang terasa di perut bagian bawah dan muncul sebelum, selama atau setelah menstruasi
+dismenore timbul akibat kontraksi distrimik lapisan miometrium yang menampilkan satu atau lebih gejala mulai dari nyeri ringan hingga berat pada perut bagian bawah, daerah pinggang dan sisi medial paha
+dismenore dibagi menjadi dua macam yaitu dismenore primer dan dismenore sekunder
+dismenore primer merupakan nyeri haid tanpa kelainan pada alat-alat genital yang nyata
+dismenore sekunder terjadi karena adanya kelainan pada organ genitalia dalam rongga pelvis, contohnya pada wanita dengan endometriosis atau penyakit peradangan pelvik, penggunaan alat kontrasepsi yang dipasang dalam rahim, dan tumor atau polip yang berada didalam rahim
+metodologi penelitian dan pada gambar 1: gambar 1
+proses naïve bayes proses untuk menentukan jenis dismenore dalam sistem dirumuskan menggunakan perhitungan metode naïve bayes dari data penelitian
+usia menarche pada usia amat dini <12 tahun 2
+nyeri kram pada perut bawah, punggung, pinggang, paha, maupun kaki 4
+sering disertai rasa mual, muntah, perut kembung, kelelahan, keringat dingin, nyeri kepala, dan diare 5
+nyeri timbul sebelum masa haid, meningkat pada hari pertama dan kemudian dengan keluarnya darah haid 2
+nyeri terus-menerus mulai pada saat haid, meningkat bersamaan keluarnya darah haid dan menghilang setelah selesai haid 7
+mengalami kesulitan atau sakit saat berkemih 9
+pendarahan diluar siklus menstruasi dan volume darah yang berlebihan 10
+sakit yang luar biasa saat menstruasi, mengganggu aktivitas harian atau pernah sampai tidak sadarkan diri/pingsan contoh perhitungan dengan menggunakan klasifikasi naïve bayes dapat diterapkan pada pasien a yang mengalami gejala nomor 2, 3, 4 dan 5
+nyeri kram pada perut bawah, punggung, pinggang, paha, maupun kaki 4
+sering disertai rasa mual, muntah, perut kembung, kelelahan, keringat dingin, nyeri kepala, dan diare 5
+nyeri timbul sebelum masa haid, meningkat pada hari pertama dan kemudian dengan keluarnya darah haid langkah-langkah perhitungan naïve bayes sebagai berikut : 1
+menentukan nilai nc untuk setiap class class dismenore ke 1 : dismenore primer n = 1 p = ½ = 0, 5 m = 10 2.nc = 1 3.nc = 1 4.nc = 1 5.nc = 1 class dismenore ke 2 : dismenore sekunder n = 1 p = ½ = 0, 5 m = 10 2.nc = 0 3.nc = 0 4.nc = 0 5.nc = 0 2
+untuk menghitung nilai p menggunakan rumus: p ����
+p untuk tiap v class dismenore ke 1 : dismenore primer p|x|
+menentukan hasil klasifikasi yaitu v yang memiliki hasil perkalian terbesar
+hasil v yang memiliki perkalian terbesar didapatkan pada tabel 2
+tabel perbandingan nilai v hasil klasifikasi no jenis dismenore nilai v 1
+perancangan arsitektur sistem pakar diagnosis dismenore arsitektur sistem adalah sekumpulan dari model-model terhubung yang menggambarkan sifat dasar dari sebuah sistem
+berikut ini gambar 2 yang merupakan gambaran untuk dua bagian sistem pakar diagnosis jenis dismenore menggunakan metode naïve bayes yang dikembangkan berdasarkan arsitektur sistem pakar menurut turban : 4 d
+perancangan diagram konteks sistem pakar diagnosis dismenore berikut ini gambar 3 yang merupakan diagram konteks sistem pakar diagnosis jenis dismenore menggunakan metode naïve bayes yang berisi siapa saja yang memberi data ke sistem, serta kepada siapa saja informasi yang harus dihasilkan sistem : gambar 3.diagram konteks sistem pakar diagnosis dismenore menggunakan metode naïve bayes iv
+hasil perancangan dan analisis sistem a
+halaman konsultasi halaman konsultasi merupakan halaman yang menampilkan form yang berisikan daftar gejala yang harus diisi oleh pengguna/user sesuai dengan gejala dismenore yang dialami
+setelah selesai mengisi gejala, pengguna menekan tombol button hitung untuk memproses hasil konsultasi
+antarmuka hasil perancangan form konsultasi dapat dilihat pada gambar 4
+halaman hasil konsultasi halaman hasil konsultasi merupakan form yang akan tampil setelah pengguna selesai mengisi form konsultasi dan melakukan proses diagnosis
+form ini berisi hasil diagnosis jenis dismenore dan informasi dismenore serta penanganannya sesuai data gejala yang telah di isi pengguna pada form konsultasi
+antarmuka hasil perancangan form konsultasi dapat dilihat pada gambar 5
+pengujian validitas validitas adalah suatu ukuran yang menunjukan tingkat kevalidan atau kesahihan suatu instrumen
+pengujian validitas dilakukan untuk mengetahui performa dari sistem pakar untuk memberikan hasil diagnosis jenis dismenore yang diderita oleh pengguna
+data yang disiapkan berjumlah 10 data uji
+dari 10 data tersebut akan diuji dengan 10 data training, 20 data training, dan 30 data training yang diuji berdasarkan metode klasifikasi naïve bayes
+tabel data training yang digunakan dapat dilihat pada tabel 3
+dismenore primer 0 0 0 0 0 0 0 0 0 0 dismenore sekunder dismenore sekunder 0 0 0 0 0 1 1 1 1 1 hasil diagnosis yang diperoleh dari metode perhitungan metode naïve bayes pada sistem pakar, dibandingkan dengan hasil diagnosis pakar pada data training
+perbandingan hasil dari pengujian 10 data uji terhadap 10, 20, dan 30 data training dapat dilihat pada tabel 4
+dismenore primer dismenore primer dismenore primer hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar 2
+g2, g5 dismenore primer dismenore primer dismenore primer dismenore primer hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar 3
+g7, g8 dismenore sekunder dismenore sekunder dismenore sekunder dismenore sekunder hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar 4
+g1, g4, g5 dismenore primer dismenore primer dismenore primer dismenore primer hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar 5
+g6, g7, g9 dismenore sekunder dismenore sekunder dismenore sekunder dismenore sekunder hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar 6
+g6, g7, g10 dismenore sekunder dismenore sekunder dismenore sekunder dismenore sekunder hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar no gejala dismenore primer dismenore primer dismenore primer dismenore primer hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar 8
+g2, g3, g4, g5 dismenore primer dismenore primer dismenore primer dismenore primer hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar 9
+g3, g4, g6, g8 dismenore sekunder hasil klasifikasi 30 data training sesuai dengan hasil diagnosis pakar 10
+g6, g7, g8, g9 dismenore sekunder dismenore sekunder dismenore sekunder dismenore sekunder hasil klasifikasi 10, 20, dan 30 data training sesuai dengan hasil diagnosis pakar berdasarkan pengujian yang telah dilakukan dari data sampel tersebut maka dapat dilihat jumlah data yang valid untuk diagnonis jenis dismenore berjumlah 9 data dengan pengujian terhadap 10 dan 20 data training, serta jumlah data yang valid untuk diagnosis jenis dismenore berjumlah 10 data dengan pengujian terhadap 30 data training
+jumlah data yang tidak valid untuk diagnosis jenis dismenore terhadap 10 dan 20 data training berjumlah 1 dari 10 data uji
+pengguna dapat mengetahui jenis dismenore, informasi dismenore, dan saran penanganan dari hasil diagnosis jenis dismenore yang diderita dengan menggunakan aplikasi sistem pakar diagnosis dismenore
+sistem dapat melakukan diagnosis dengan memasukkan minimal dua gejala pada daftar pilihan gejala yang terdapat di halaman konsultasi
+pengujian akurasi/validitas sistem pakar diagnosis dismenore menggunkan metode naïve bayes menunjukkan bahwa berdasarkan 10 data uji terhadap 10 dan 20 data training didapat akurasi sebesar 90%, sedangkan terhadap 30 data training didapat tingkat akurasi sebesar 100%
+ketidakakurasian sebesar 10% pada pengujian 10 data uji terhadap 10 dan 20 data training disebabkan karena nilai hasil klasifikasi v yang sama besarnya dari dua jenis dismenore
+sistem membutuhkan data training yang lebih besar untuk mendapatkan tingkat akurasi dengan persentase yang lebih besar terbukti dengan menggunakan 30 data training didapatkan hasil tingkat akurasi sebesar 100%
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap sistem pakar untuk diagnosis dismenore menggunakan metode naïve bayes maka dapat disimpulkan bahwa : 1
+metode naïve bayes dapat diterapkan pada sistem pakar untuk diagnosis dismenore berbasis web dengan memasukkan minimal 2 gejala
+sistem menghasilkan keluaran sistem yaitu jenis dismenore, informasi, serta saran penanganan dengan hasil akurasi yang diperoleh sebesar 100% menggunakan 30 data latih/training
+berdasarkan pengujian yang telah dilakukan terhadap 10 data uji dengan 10 dan 20 data training, didapat akurasi sistem pakar yang dibangun adalah sebesar 90%, sedangkan terhadap 30 data training didapat tingkat akurasi sebesar 100%.tingkat akurasi diperoleh dari kesesuaian antara hasil diagnosis sistem pakar pada data training berdasarkan basis pengetahuan pakar dengan data uji yang diterapkan dalam metode klasifikasi naïve bayes

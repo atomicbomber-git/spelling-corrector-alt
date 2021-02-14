@@ -1,0 +1,206 @@
+kasus satelit mengalami anomali seringkali di temukan pada satelit-satelit yang beroperasi pada orbit polar
+namun permasalahan yang muncul adalah kondisi satelit sering berubah-ubah sehingga operator belum bisa mengantisipasi kondisi tersebut
+oleh sebab itu, model deteksi kondisi satelit dapat berperan sebagai early warning operator satelit untuk mempersiapkan strategi yang berkaitan dengan kebijakan preventif terkait pencegahan ketika satelit mengalami kondisi tidak normal tujuan penelitian ini adalah menerapkan jaringan syaraf tiruan bakcpropagation dalam mendeteksi kondisi anomal pada satelit lapan-tubsat, serta mengetahui tingkat akurasi dari proses deteksi tersebut sehingga diperoleh parameter dan arsitektur jaringan jst terbaik
+proses pembelajaran dan pengujian jst menggunakan data kejadian anomali tahun 2009 sampai 2014
+arsitektur jst yang digunakan adalah jumlah node input 4, dua hidden layer, jumlah node lapisan tersembunyi divariasikan pada nilai 5, 10, 15 dan 20
+parameter yang diberikan pada proses pembelajaran antara lain adalah fungsi aktivasi, toleransi galat, jumlah epoch maksimal dan variasi nilai laju pembelajaran 
+empat parameter input yang digunakan yakni elektron, proton, indeks kp serta indeks dst
+hasil penelitian menunjukkan bahwa arsitektur jaringan syaraf terbaik dihasilkan oleh jaringan dengan jumlah input node empat, hidden neuron 20 dan 10, nilai learning rate sebesar 0.05 dengan 306 epoch, menghasilan rata-rata akurasi sebesar 98.13%, serta nilai precision dan recall sebesar 98.21% dan 94.81%
+lapan-tubsat, learning rate terjadi pada waktu mendatang yang berdasarkan pada data yang ada pada waktu sekarang dan waktu lampau
+pada bidang satelit, prediksi digunakan untuk merepresentasikan pergerakan nilai-nilai kondisi orbit, kondisi satelit dan anomali satelit
+kondisi ekstrim lingkungan antariksa, problem mekanik maupun listrik ataupun false command
+anomaly event berkaitan dengan record dari kegagalan sebuah sistem satelit yang dipicu oleh faktor tertentu 
+non anomaly event berkaitan dengan kondisi umum satelit yang beroperasi dalam keadaan normal dan tidak ditemukan adanya gejala kondisi antariksa yang dapat memicu terjadinya atau berpotensi untuk memicunya kegagalan pada sistem satelit
+pemuatan listrik pada seluruh permukaan satelit
+pemuatan listrik parsial pada permukaan satelit
+secara umum, charging ini dapat dikelompokkan menjadi dua yakni absolute charging dan differential charging 
+cuaca antariksa menunjukkan kondisi di matahari dan angin surya, magnetosfer, ionosfer, dan termosfer yang dapat mempengaruhi kondisi dan kemampuan sistem teknologi satelit
+satelit-satelit yang ditempatkan di orbit rendah dan orbit tinggi sering mengalami kejadian anomali operasional baik pada sistem maupun pada sub sistem satelit, mulai dari kegagalan fungsi instrumen yang ringan hingga dapat dipulihkan 
+kasus anomali satelit dapat di temukan pada satelit-satelit yang beroperasi pada orbit polar
+jika keadaan ini berlangsung dalam waktu yang cukup lama, bisa merusak komponen yang ada sehingga satelit tersebut akan mengalami kegagalan dalam menjalankan misi utamanya
+generasi pertama dari satelit mikro indonesia lapan-tubsat berhasil dikembangkan dan melewati wilayah kutub south atlantic anomaly 2 kali di setiap orbit
+daerah kutub dan south atlantic anomaly dikenal sebagai daerah berbahaya untuk satelit di orbit karena fluks dan energi partikel bermuatan tinggi
+penelitian yang telah dilakukan berhasil melakukan tindakan preventif berupa mematikan di dan mereset timer semua peralatan yang berada di dalam satelit
+lapan-tubsat dikenal sebagai single event latchup
+single event latchup merupakan kejadian yang mengganggu fungsi kerja suatu komponen dan menyebabkan kerusakan permanen bila tidak dilakukan tindakan untuk menghilangkan kondisi tersebut
+single event latchup pada satelit lapan-tubsat ini terjadi karena partikel bermuatan berenergi tinggi yang menumbuk bagian yang sensitif pada alat mikroelektronik dan menyebabkan output atau kinerja dari perangkat tersebut error
+gangguan yang terjadi pada satelit di orbit dapat dibedakan menjadi 2, yaitu: non-destructive single event effect
+kondisi ini bisa berlangsung permanen atau sementara dan tidak mengganggu fungsi kerja dari komponen tersebut
+sedangkan destructive single event effects yakni kejadian see yang mengganggu fungsi kerja suatu komponen dan menyebabkan kerusakan permanen bila tidak dilakukan tindakan untuk menghilangkan kondisi tersebut
+see jenis ini salah satunya yakni anomali pada satelit yang dikenal dengan kejadian single event latchup lapan-tubsat melewati stasiun bumi
+ketika terjadi anomali, temperatur satelit lapan-tubsat akan mengalami panas dengan ditandai naiknya arus pada main power bus satelit
+geomagnet dengan menggunakan paramater indeks kp dan indeks dstdan partikel elektron dan proton 
+mengidentifikasi dan mengklasifikasikan anomali jaringan menggunakan jaringan saraf tiruan untuk menganalisis data yang dikumpulkan melalui protokol netflow
+penelitian yang dilakukan mengusulkan menggunakan multilayer perceptron, dilatih dengan algoritma backpropagation
+penelitiantelah mengadopsi jaringan syaraf tiruan untuk membangun sebuah model prediksi untuk fluks elektron di orbit geosynchronous
+penelitiantelah mengusulkan perceptron multilayer untuk memprediksi besarnya gempa bumi, terdiri dari tiga lapisan utama; lapisan input, lapisan tersembunyi dan lapisan keluaran
+hasil percobaan menunjukkan bahwa jaringan saraf plastik menghasilkan 128 model untuk menentukan model prediksi terbaik
+penelitiantelah mengusulkan sistem dengan algoritma neural network forward multilayered feed dan backpropagation untuk prediksi penyakit jantung dalam empat tahap
+dataset yang disediakan oleh repositori pembelajaran mesin university of california, irvine [uci] digunakan untuk pelatihan dan pengujian
+dataset terdiri dari 14 atribut dari 303 pasien termasuk label kelasnya
+hasil eksperimen menunjukkan bahwa akurasi yang diperoleh dengan menggunakan pendekatan ini adalah 92%
+peneltiianmelakukan prediksi curah hujan di wilayah delhi telah dianalisis menggunakan algoritma propagasi balik jaringan saraf
+model tiga lapis telah digunakan untuk melatih dan mempelajari berbagai atribut neuron tersembunyi dalam jaringan
+penelitianmengusulkan algoritma untuk identifikasi driver real-time menggunakan kombinasi deteksi anomali tanpa pengawasan dan jaringan saraf
+algoritma yang diusulkan menggunakan sinyal nonfisiologis sebagai input, yaitu sinyal perilaku mengemudi dari sensor inersia (mis
+akselerometer) dan sinyal geolokasi dari sensor gps
+penelitianmengusulkan untuk memecahkan masalah peramalan seri waktu multivariat data telemetri menggunakan ansambel jaringan saraf
+pendekatan untuk pembentukan ansambel jaringan saraf dianalisis dan akurasi prediksi dievaluasi
+kemungkinan pelatihan ansambel jaringan saraf dipelajari untuk mengurangi kesalahan peramalan deret waktu multivarian
+penelitianmelakukan pendekatan jaringan saraf untuk prediksi data telemetri satelit disajikan
+dengan memanfaatkan kemampuan belajar mandiri, beradaptasi sendiri, dan nonlinear, jaringan saraf bp tiga lapis digunakan untuk membuat model prediksi data telemetri satelit
+model jaringan saraf bp memiliki kecepatan konvergensi yang cepat dan presisi prediksi yang tinggi
+hasil percobaan menunjukkan bahwa metode ini efisien dan praktis untuk prediksi data telemetri satelit in-orbit
+penelitianmendeteksi anomali dalam data historis menggunakan teknik pembelajaran mesin dapat mengarah pada pemantauan kesehatan sistem
+tujuan dari penelitian ini adalah untuk membangun model berbasis data berbasis jaringan saraf yang akan digunakan untuk deteksi anomali di bagian tertentu dari pembangkit listrik tenaga panas
+bagian yang dipilih adalah steam superheaters dan steam drum
+input untuk jaringan saraf adalah beberapa variabel proses paling penting dari bagian ini
+semua input dapat diamati dari sistem pemantauan instalasi pembangkit listrik termal, dan perilaku anomali / normalnya diakui oleh pengalaman operator
+penelitiantelah mengusulkan jaringan saraf c-lstm untuk memodelkan informasi spasial dan temporal yang terkandung dalam data lalu lintas secara efektif, yang merupakan sinyal deret waktu satu dimensi
+tingkat ansambel jaringan saraf untuk perkiraan seri waktu telemetri dari subsistem pesawat ruang angkasa
+kemungkinan pelatihan tambahan dari ansambel jaringan saraf ini diperiksa
+hasil penelitian menunjukkan bahwa penggunaan ansambel jaringan saraf dengan penimbangan dinamis memungkinkan untuk mengurangi kesalahan peramalan
+tubsat mengalami kejadian anomali yang tidak dapat diantisipasi oleh operator satelit
+salah satu teknik yang dapat digunakan untuk prediksi adalah jaringan saraf tiruan 
+jst memiliki keunggulan dalam hal kemampuan prediksi dan klasifikasi terhadap data yang belum diberikan pada saat pembelajaran sebelumnya sehingga teknik ini diharapkan dapat digunakan untuk membuat pemodelan deteksi anomali pada satelit lapan-tubsat
+penelitian ini menggunakan algoritma pembelajaran propagasi balik dimana masalah utama yang dihadapi dalam jst propagasi balik adalah lamanya iterasi yang dilakukan
+pada penelitian ini diterapkan jaringan syaraf tiruan propagasi balik untuk mendeteksi anomali
+data- data penyebab kejadian anomali akan diolah dengan jst propagasi balik untuk mengetahui tingkat akurasi dari proses deteksi tersebut
+oleh karena propagasi balik tidak dapat memberikan kepastian tentang berapa epoch yang harus dilalui untuk mencapai kondisi yang diinginkan, maka dalam penelitian ini dicari bagaimana parameter- parameter jaringan dibuat, untuk mendapatkan hasil yang optimal dengan mempertimbangkan beberapa parameter seperti algoritma pelatihan, jumlah node pada lapisan jaringan, serta laju pembelajaran
+arsitektur jst terbaik yang diperoleh nantinya akan digunakan untuk melakukan deteksi anomali pada satelit lapan-tubsat
+metode penelitian pembangunan model deteksi jst backpropagation
+pada bagian praproses data terdiri dari pengumpulan data penelitian dan melakukan normalisasi data
+pada bagian pembangunan model terditi dari pembagian data latih dan uji menggunakan k-fold cros validation, pembentukan model jaringan syaraf tiruan, pelatihan dan pengujian jaringan syaraf, pemilihan arsitektur jaringan syaraf terbaik, mengeveluasi model jaringan dengan confuison matrix serta tahap akhir yakni representasi pengetahuan yakni memvisualisasikan ke dalam bentuk graphical user interface 
+metode penelitian yang digunakan disajikan pada gambar 1
+pengumpulan data data yang digunakan pada penelitian ini ialah data penyebab anomali pada satelit lapan-tubsat
+data penelitian ini merupakan data dari partikel yang diukur dari satelit noaa-15 serta indeks geomagnet dari nasa tahun 2009 - 2014 dikarenakan intensitas badai matahari yang sangat tinggi
+parameter tersebut ialah mpe0e1, mpe0p1, nilai indeks kp serta nilai indeks dst
+parameter mep0e1 dan mep0p1 dipilih karena penyebab utama anomali atau anomali berada pada tingkat fluks partikel dengan energi 30 - 80 kev
+parameter indeks kp dan indeks dst merupakan indikator magnetic
+fluktuasi partikel energetik dilihat dari kedua indeks tersebut
+indeks kp digunakan untuk lintang tinggi dan indeks dst digunakan untuk lintang rendah
+pada data ini satelit akan dikategorikan menjadi dua yaitu normal berarti satelit tidak mengalami anomali dan anomali yang berarti satelit mengalami kejadian anomali
+jumlah atribut yang akan digunakan disajikan pada tabel 1
+metode penelitian atribut keterangan energi 30 kev energi 80 kev data ini terdiri atas 1720 jumlah data dengan 4 parameter yakni mep0e1, mep0p1, kp indeks dan dst indeks
+data-data tersebut digunakan untuk melakukan pelatihan program dan sebagai data latih dan data uji untuk sistem
+sebagai outputnya merupakan deteksi satelit dalam kondisi anomali atau normal data- data yang digunakan untuk data latih serta data uji merupakan data rata-rata harian partikel yang di ukur oleh satelit noaa serta indeks geomagnet dari nasa tahun 2009 sampai 2014 dikarenakan tahun yang diambil merupakan tahun dimana intensitas badai matahari sedang tinggi
+jumlah kategori data yang digunakan yakni sebanyak 1258 data normal dan 462 satelit mengalami anomali
+praproses data adalah kegiatan mempersiapkan data yang akan digunakan, agar informasi atau pengetahuan yang ingin diambil dari data tersebut dapat diambil dengan lebih mudah
+data yang akan digunakan yakni data dari tahun 2009 sampai 2014
+untuk keperluan penelitian ini data-data penyebab kejadian anomali akan diproses menjadi data rataan harian
+praproses ini dilakukan dengan menggunakan perangkat lunak microsoft excel 2010
+normalisasi data dilakukan pada atribut data numerik yang memiliki pengaruh terhadap atribut berskala kecil dengan skala nilai antara 0.0 sampai 1.0
+normalisasi dapat mengatasi atribut yang memiliki nilai rentang yang cukup besar
+metode yang digunakan untuk normalisasi data pada penelitian ini yaitu min-max normalization
+min-max normalization melakukan maksimum dari data
+pembagian data latih dan data uji komposisi data terbagi menjadi data pelatihan dan data pengujian
+data pelatihan digunakan oleh jaringan untuk membentuk model melalui proses pembelajaran jst
+data pengujian digunakan untuk menguji ketepatan prediksi dari model yang terbentuk
+teknik yang digunakan untuk membagi data uji dan data latih adalah k- fold cross validation
+teknik ini membagi data menjadi k subset dengan ukuran yang sama
+pembagian data latih dan data uji dilakukan dengan menggunakan metode k- fold cross validation dengan menggunakan k sama dengan 5 menentukan parameter dari arsitektur jaringan yang akan digunakan untuk pembelajaran
+pembentukan model prediksi dilakukan dengan menggunakan jaringan syaraf tiruan backpropagation dengan 2 hidden layer
+jumlah node untuk lapisan input sama dengan jumlah variabel input, karena data input sudah berbentuk data numerik sehingga tidak mengalami praproses data
+jumlah node pada lapisan output yakni 1 kategori
+adapun untuk jumlah node pada hidden layer pada penelitian ini akan divariasikan untuk mendapatkan hasil yang lebih optimal ditetapkan beberapa parameter yang akan diberikan pada proses pembelajaran dan diuji untuk membentuk model prediksi, antara lain adalah fungsi aktivasi, toleransi galat, jumlah epoch maksimal, laju pembelajaran dan fungsi pelatihan 
+arsitektur jaringan syaraf tiruan yang digunakan untuk deteksi dibentuk oleh input layer, dua hidden layer, dan satu neuron pada output layer
+desain arsitektur jaringan syaraf tiruan dilakukan untuk deteksi single event anomali ini dimulai dengan menentukan banyaknya input layer, banyaknya hidden layer, dan banyaknya output layer yang diinginkan
+input layer yang akan digunakan sebanyak 4 yakni nilai partikel mpe0e1, mpe0p1, nilai indeks kp serta nilai indeks dst 
+variasi jumlah hidden neuron yang digunakan adalah 5, 10, 15 dan 20
+selain jumlah node pada tiap lapisan arsitektur jst, ditetapkan beberapa parameter yang akan diberikan pada proses pelatihan dan diuji untuk membentuk model prediksi, antara lain adalah fungsi aktivasi, toleransi galat, jumlah epoch, laju pelatihan dan fungsi pelatihan 
+parameter yang divariasikan dalam proses pembelajaran adalah hidden neuron dan laju pembelajaran 
+spesifikasi struktur jaringan yang akan di rancang disajikan pada tabel 2
+tabel ii untuk inisialisasi bobot awal digunakan inisialisasi secara random
+fungsi aktivasi yang digunakan pada lapisan tersembunyi adalah sigmoid biner dengan jumlah epoch maksimal yang ditetapkan dalam penelitian ini adalah 10000
+variasi nilai laju pelatihan yang digunakan yakni 10 learning rate yaitu 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09 dan 0.1
+desain jaringan syaraf tiruan ditunjukkan pada gambar 2
+pelatihan dan pengujian jaringan syaraf tiruan setelah model terbentuk selanjutnya dilakukan proses pelatihan, dimana pada proses ini menggunakan data pelatihan
+pelatihan dilakukan bertujuan untuk mengenali pola-pola dari data masukan pada data pelatihan untuk dilatih pada jaringan yang akan menghasilkan keluaran untuk dibandingan dengan data target
+pengujian jaringan bertujuan untuk mengetahui apakah jaringan dapat melakukan pengenalan terhadap data baru yang dimasukkan ke dalamnya yaitu ditunjukkan dengan persentase akurasi jaringan dalam mengenali data pengujian, sehingga arsitektur jaringan yang digunakan untuk pengujian adalah arsitektur terbaik yang diperoleh dari hasil pelatihan jaringan
+pemilihan arsitektur model terbaik dari hasil pelatihan dan pengujian dengan berbagai kasus data inisialisasi yang berbeda-beda, dipilih jaringan optimal dengan nilai epoch terkecil
+setelah proses pelatihan dan pengujian dilakukan pada masing-masing kelompok arsitektur, dipilih hasil yang memenuhi kriteria, yaitu model yang memiliki akurasi tinggi dan epoch terkecil
+selanjutnya adalah menganalisis dan mengevaluasi kinerja model berdasarkan parameter dan data yang digunakan
+evaluasi model dalam penelitian ini dipilih alat ukur evaluasi berupa confusion matrix dengan tujuan untuk mempermudah dalam menganilisis performa algoritme backpropagation, karena confusion matrix memberikan informasi dalam bentuk angka sehingga dapat dihitung rasio keberhasilan prediksi
+confusion matrix digunakan sebagai dasar dari variasi ukuran penilaian seperti akurasi, precision dan recall
+tabel 5 menyajikan confision matrix untuk mendeteksi kondisi satelit
+dalam penelitian ini, nilai akurasi, precision dan recall dinyatakan dalam persen, semakin tinggi persentase ketiga nilai tersebut, maka semakin baik kinerja metode deteksi
+tabel iii satelit benar sebagai anomali diprediksi salah sebagai normal diprediksi salah sebagai anomali
+diprediksi benar sebagai normal akhir pada penelitian ini, dimana pada tahap ini pola yang telah ditemukan dipresentasikan ke pengguna dengan teknik visualisasi agar pengguna dapat memahaminya
+hasil dan pembahasan menghilangkan noise akibat data yang rusak atau tidak lengkap
+analisa relevansi dilakukan untuk menghilangkan atribut yang dianggap belum relevan terlibat dalam peneltiian ini
+data-data partikel dari satelit noaa maupun data indeks kp dan dst masih berbentuk textfile
+sehingga dilakukan praproses data dengan mengubahnya ke dalam ektensi *.xls
+data kejadian anomali yang dialami oleh satelit selanjutnya akan diolah oleh jaringan
+agar data dapat dikenali oleh jaringan, maka data harus direpresentasikan ke dalam bentuk numerik antara 0 dan 1, baik variabel maupun isinya yang merupakan masukan penyebab anomali beserta kategorinya dan keluaran yang merupakan deteksi anomali
+aktivasi sigmoid biner dengan nilai 0 sampai 1
+nilai-nilai yang digunakan diperoleh berdasarkan kategori dari masing-masing variabel selain juga untuk memudahkan mengingat dalam pendefinisiannya
+hasil yang ingin diperoleh pada tahap ini, yaitu nilai untuk memprediksi satelit anomali atau tidak
+hasil yang maksud adalah jika output bernilai 0 berarti satelit normal dan jika output bernilai 1 berarti satelit mengalami anomali
+banyaknya data menjadi 1720 yang terbagi menjadi 1258 termasuk kelas kejadian normal dan 462 termasuk kelas kejadian anomali
+permasalahan data dalam skala yang berbeda dapat diselesaikan dengan metode normalisasi
+latih dan data target yang digunakan sebagai input data sistem
+dalam sistem target akan dibaca jika target 1 dan jika target 0
+kedua data tersebut disimpan dengan format excel
+data yang telah disimpan dalam format excel akan ditampilkan di workspace pada matlab dengan cara import data
+pembagian data latih dan data uji dengan proporsi 80% data latih dan 20% data uji dan metode uji 5-fold cross validation
+jumlah data yang diperoleh sebanyak 1720 record dan dibagi menjadi 5 subset secara acak sehingga setiap subset terdiri atas 1375 record
+percobaan terus dilakukan hingga setiap subset pernah dijadikan data uji seperti terlampir pada tabel 4
+pembentukan model jaringan syaraf tiruan jaringan saraf tiruan dibangun didasarkan pada rancangan struktur jaringan yang akan dibangun seperti yang tersaji pada tabel 5
+proses pelatihan dan pengujian menghasilkan informasi akurasi dengan variasi nilai learning rate dan jumlah hidden neuron
+tahap pelatihan jaringan menggunakan algoritma pembelajaran levenberg marquardt 
+proses pelatihan dilakukan menggunakan data-data pelatihan dengan target error ditentukan sebesar 0.001 dan untuk nilai learning rate ditentukan dari 0.01 sampai 0.1
+tahap pelatihan jaringan akan menghasilkan nilai bobot dan bias yang akan digunakan pada tahap pengujian jaringan
+jika ada dua atau lebih nilai parameter yang menghasilkan akurasi yang sama, penentuan parameter jst optimal akan dilihat berdasarkan nilai parameter yang memiliki epoch terkecil tahap pelatihan menggunakan jaringan layar jamak dengan dua hidden layer
+kombinasi nilai hidden neuron yang digunakan adalah 20-5, 20-10, 20-15 dan 20-20
+fungsi aktivasi yang digunakan pada hidden layer dan output layer yakni fungsi aktivasi sigmoid biner 
+tahap pengujian jaringan digunakan untuk menguji yang belum pernah dilatih sebelumnya untuk mengetahui nilai akurasi yang dihasilkan
+hasil yang di peroleh pada tahap ini adalah output berupa kondisi satelit
+hasil percobaan dengan 5 fold cross validation dengan nilai learning rate dan hidden neuron berbeda disajikan pada tabel 5
+dari tabel 5 dapat dilihat masing-masing akurasi tiap arsitektur dengan nilai learning rate yang berbeda tiap percobaan dengan menggunakan 5 fold
+percobaan pertama dengan menggunakan learning rate 0.01 diperoleh rata-rata akurasi tertinggi sebesar 98.42% pada arsitektur 20-20
+percobaan kedua dengan menggunakan learning rate 0.02 diperoleh rata-rata akurasi tertinggi sebesar 98.36% pada arsitektur 20-15 dan 20-20
+percobaan ketiga dengan menggunakan learning rate 0.03 diperoleh rata-rata akurasi tertinggi sebesar 98.65% pada arsitektur 20-20
+percobaan keempat dengan menggunakan learning rate 0.04 diperoleh rata-rata akurasi tertinggi sebesar 98.42% pada arsitektur 20-20
+percobaan kelima dengan menggunakan learning rate 0.05 diperoleh rata-rata akurasi tertinggi sebesar 98.54% pada arsitektur 20-5
+percobaan keenam dengan menggunakan learning rate 0.06 diperoleh rata-rata akurasi tertinggi sebesar 98.54% pada arsitektur 20-10
+percobaan ketujuh dengan menggunakan learning rate 0.07 diperoleh rata-rata akurasi tertinggi sebesar 98.36% pada arsitektur 20-15
+percobaan kedelapan dengan menggunakan learning rate 0.08 diperoleh rata-rata akurasi tertinggi sebesar 98.48% pada arsitektur 20-5
+percobaan kesembilan dengan menggunakan learning rate 0.09 diperoleh rata-rata akurasi tertinggi sebesar 98.36% pada arsitektur 20-15
+percobaan kesepuluh dengan menggunakan learning rate 0.1 diperoleh rata-rata akurasi tertinggi sebesar 98.36% pada arsitektur 20-20
+rata-rata akurasi untuk setiap arsitektur dengan learning rate yang berbeda disajikan pada gambar 3
+arsitektur jaringan yang terbaik berdasarkan hasil pengujian dengan maka ditetapkan arsitektur terbaik dengan melihat epoch tekecil dan waktu tercepat yang dapat digunakan untuk melakukan deteksi anomali sebagaimana yang disajikan pada gambar 4
+semakin tinggi tingkat akurasi yang dihasilkan maka semakin baik jaringan mengenali data baru yang akan diberikan dan diharapkan bisa memberikan hasil prediksi yang cukup baik
+apabila diperoleh tingkat akurasi yang besarnya sama pada beberapa laju pembelajaran dan jumlah hidden neuron maka yang dipilih adalah adalah variasi parameter laju pembelajaran dan jumlah hidden neuron yang memberikan nilai epoch yang terkecil
+berdasarkan gambar 4, diperoleh hasil bahwa arsitektur jaringan terbaik yakni model dengan arsitektur 4-20-10-1 dengan laju pembelajaran sebesar 0.05
+epoch yang dihasilkan sebesar 306 dan waktu yang diperoleh yakni 2 detik
+arsitektur terbaik pada model deteksi anomali ini disajikan pada gambar 5
+data baru yang akan diuji tanpa memiliki data target, sehingga target hasil prediksi yang akan dihasilkan akan dibandingkan dengan data aktual data baru yang akan di uji yang merupakan data tahun 2014
+data baru yang akan di uji ini merupakan data yang belum pernah diikutkan baik dalam proses pelatihan maupun pengujian
+evaluasi model dari data keseluruhan sebanyak 343 data, 88 data berhasil diprediksi benar sebagai kondisi anomali, sementara 248 data diprediksi benar sebagai kondisi normal 3 data diprediksi salah sebagai kondisi anomali dan 4 data diprediksi salah sebagai kondisi normal di prediksi masuk ke dalam kelas anomali dan sebanyak 4 data anomali salah prediksi masuk ke dalam kondisi normal hasil confusion matriks terbaik disajikan pada tabel 6
+nilai rata-rata recall dan precision yang dihasilkan pada jaringan terbaik 4-20-10-1 yakni sebesar 94.81% dan 98.21%
+ini berarti bahwa kinerja metode prediksi semakin baik dalam mendeteksi anomali
+hasil akurasi precision dan recall terbaik pada jaringan 4-20-10-1 dengan nilai laju pembelajaran 0.05 disajikan pada gambar 7
+hasil akurasi terbaik masing-masing learning rate gambar 4
+perbandingan epoch dan waktu terbaik masing-masing arsitektur f
+representasi pengetahuan telah dibangun yang dapat digunakan untuk melakukan proses training, proses testing dan proses prediksi
+pada aplikasi ini terdiri dari beberapa form aplikasi, diantaranya: a) form utama aplikasi untuk mendeteksi kondisi satelit, b) form proses training, c) form proses testing, d) form deteksi anomali satelit
+form training data merupakan form yang dibuat untuk melakukan proses training atau pelatihan data jst
+konfigurasi jst yang digunakan dapat diatur pada form ini, yaitu jumlah neuron pada hidden layer, fungsi aktivasi yang akan digunakan, target mse, jumlah epoch dan learning rate
+tombol buka file digunakan untuk meload atau memanggil file data yang akan ditraining
+tombol training digunakan untuk memberikan perintah untuk melakukan proses pelatihan jst pada data
+tampilan form pelatihan disajikan pada gambar 7
+arsitektur jaringan syaraf tiruan terbaik pada model prediksi tabel vi
+form ini berisi data pengujian, hasil prediksi data serta dilengkapi dengan evaluasi model berupa nilai confusion matriks serta nilai-nilai akurasi pengujian, precision serta recall
+tombol buka file digunakan untuk meload atau memanggil file data uji yang akan dilakukan pengujian
+tombol prediksi digunakan untuk memberikan perintah untuk melakukan proses prediksi dari data yang telah diinput untuk pengujian
+hasil output akhir dari proses prediksi tersebut akan tampil pada form hasil prediksi berupa data kelas kondisi satelit, serta secara otomatis akan dimasukkan ke dalam confusion matriks
+tampilan form pengujian data disajikan pada gambar 8
+tampilan form proses pengujian data dan prediksi form deteksi merupakan form yang digunakan untuk memprediksi hasil ketika data baru yang tidak dimasukkan pada proses training maupun pengujian
+form ini berisi 4 buah input, yaitu : mep0e1, mep0p1, indeks kp serta indeks dst
+input dituliskan satu persatu pada form, kemudian tombol prediksi digunakan untuk eksekusi proses prediksi tersebut
+hasil output akhir dari proses prediksi tersebut akan tampil pada form hasil prediksi berupa kondisi satelit dalam keadaan normal atau dalam keadaan anomali
+tampilan form deteksi data disajikan pada gambar 9
+kesimpulan anomali pada satelit lapan-tubsat dengan menggunakan jaringan syaraf tiruan backpropagation
+arsitektur jaringan syaraf terbaik yakni model jaringan dengan arsitektur 4-20- 10-1 dengan laju pembelajaran sebesar 0.05
+epoch yang dihasilkan sebesar 306 epoch dengan waktu pembelajaran sebesar 2 detik
+nilai rata-rata akurasi maksimal yang dicapai adalah 98.13%

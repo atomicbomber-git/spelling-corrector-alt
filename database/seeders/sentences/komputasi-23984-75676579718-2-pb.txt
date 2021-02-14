@@ -1,0 +1,207 @@
+salah satu cara yang digunakan untuk meningkatkan nilai akurasi hasil terjemahan adalah dengan melakukan pembagian frasa dalam kalimat korpus
+tujuan yang ingin dicapai dalam penelitian ini adalah untuk menigkatkan akurasi mesin penerjemah statistik bahasa indonesia – bahasa bugis wajo
+penelitian ini mengimplementasikan algoritma pembagian frasa pada mesin penerjemah statistik, serta melakukan pengujian akurasi berdasarkan pembagian frasa dalam kalimat pada korpus paralel, dengan melakukan pemenggalan kalimat
+pengujian dilakukan dengan membandingkan nilai akurasi hasil terjemahan tanpa dan dengan pembagian frasa dalam kalimat korpus
+pengujian dilakukan dengan cara otomatis menggunakan bilingual evaluation understudy 
+hasil dari pengujian algoritma pembagian frasa yang diimplementasikan pada mesin penerjemah statistik bahasa indonesia – bahasa bugis wajo mengalami peningkatan
+nilai akurasi sebesar 59, 15% meningkat dari mesin tanpa pembagian frasa dan sebesar 0, 07% meningkat dari mesin dengan pembagian frasa tujuh algoritma
+komunikasi intraetnik, dan sebagai pemerkaya bahasa indonesia
+fungsi-fungsi ini secara perlahan-lahan mengalami pengurangan, terutama pada generasi sekarang
+berbagai upaya telah dilakukan untuk mempertahankannya, misalnya bahasa daerah dijadikan salah satu mata pelajaran muatan lokal pada tingkat sekolah dasar, diadakan penelitian dan seminar dari waktu ke waktu, dan dibuka program studi atau jurusan sastra daerah di perguruan tinggi
+akan tetapi, semuanya ini tidak dapat menjadi solusi memadai untuk mempertahankannya
+saat ini salah satu teknologi yang sedang dikembangkan, yaitu mesin penerjemah untuk mengatasi masalah penerjemahan bahasa
+akan tetapi, kualitas dari hasil terjemahan yang dihasilkan masih mengandung keterbatasan, yakni belum memberikan hasil terjemahan yang akurat
+akurasi hasil terjemahan dapat mempengaruhi beberapa faktor, salah satunya adalah frasa
+hewavitharana melakukan penelitian dengan frasa benda pada mesin penerjemah statistik dengan menandai frasa benda pada kalimat dan menggantinya dengan frasa benda yang baru
+penelitian tersebut mendapatkan hasil yang lebih baik
+demikian pula hasil penelitian wibowo, yaitu penelitian tentang algoritma pembagian frasa dalam kalimat untuk meningkatkan akurasi mesin penerjemah statistik bahasa indonesia – bahasa jawa kromo
+penelitian dilakukan dengan menggunakan tujuh aturan algortima yang digunakan untuk memenggal kalimat menjadi dua atau lebih dengan syarat memenuhi kondisi yang sudah ditentukan
+dimana proses tersebut dapat meningkatkan nilai akurasi terjemahan sebesar 12.75%
+chiang melakukan penelitian dengan menyajikan model terjemahan berbasis frasa statistik yang menggunakan frasa hierarki - frasa yang mengandung sub - frasa
+model ini secara formal merupakan tata bahasa tanpa konteks sinkron namun dipelajari dari bitext tanpa informasi sintaksis, dengan demikian dapat dilihat sebagai perubahan mesin formal dari sistem terjemahan berbasis sintaks tanpa ada komitmen linguistik
+penelitian tersebut menggunakan bleu sebagai metrik, hierarchical phrasebased model mencapai peningkatan yang relatif, yaitu sebesar 7, 5%
+berdasarkan masalah yang telah dipaparkan, maka pada penelitian ini akan mengimplementasikan algoritma pembagian frasa pada mesin penerjemah statistik, serta melakukan pengujian akurasi berdasarkan pembagian frasa dalam kalimat pada korpus paralel, dimana akan dilakukan algortima pembagian frasa dalam kalimat untuk menigkatkan akurasi mesin penerjemah statistik bahasa indonesia – bahasa bugis wajo mulyana#1, herry sujaini#2, helen sasty pratiwi#3 #program studi informatika universitas tanjungpura jl
+korpus tersebut dilakukan selanjutnya uji akurasi penerjemahan untuk mengetahui pengaruh dari pembagian frasa dalam kalimat terdap hasil terjemahan
+langkah perhitungan yang mengubah masukan menjadi keluaran 
+algoritma bisa juga dimaknai sebagai alat dalam menyelesaikan masalah perhitungan yang spesifik
+frasa bukan merupakan kalimat, karena tidak memiliki unsur-unsur kalimat
+akan tetapi, frasa dapat menjadi penyusun kalimat yang menduduki unsur tertentu
+istilah frasa dalam statical machine translation adalah frasa yang mana ia dapat berupa substring apa saja, dan tidak mesti dimaknai sebagaimanamakna frasa yang umumnya dipahami dalam teori sintaksis memungkinkan model ini untuk mempelajari local reorderings, penerjemahan idiom- idiom singkat, atau penyisipan dan penghapusan yang peka terhadap muatan/konteks lokal frasa-frasa tersebut adalah mekanisme yang demikian sederhana dan kuat/berpengaruh bagi mesin penerjemah
+mesin penerjemah statistik dari mesin penerjemah dimana penerjemahan dilakukan berbasis model statistik dengan parameter-parameter yang diturunkan dari analisis paralel korpus
+language model penting dalam mesin penerjemah statistik
+language model digunakan pada aplikasi natural language processing seperti speech recognition, part-of-speech, tagging dan symantic parsing
+dalam language model statistik, bagian-bagian yang merupakan elemen kunci adalah probabilitas dari rangkaian-rangkaian kata yang dituliskan sebagai p atau p 
+language model menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+rangkaian-rangkaian tersebut bisa berupa frase-frase atau kalimat-kalimat dan probabilitasnya dapat diperkirakan dari korpus dokumen- dokumen yang besar
+salah satu contoh pendekatan language model adalah n-gram model
+model bahasa n-gram merupakan jenis probalilistik language model untuk memprediksi item berikutnya dalam urutan tersebut dalam bentuk 
+translation model dalam bahasa sumber dengan teks output dalam bahasa sasaran
+dalam mesin penerjemah statistik terdapat dua model penerjemahan, yaitu word-base translation model dan pharase-base translation model 
+decoder faktor translation model dan language model
+srilm membangun dan menerapkan languange model statistik 
+srilm biasanya digunakan untuk keperluan speech recognition, statistical tagging, dan mesin penerjemah
+autommatic evalution ini adalah bleu 
+bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah mesin terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+semakin dekat terjemahan sebuah mesin dengan terjemahan manusia, maka akan semakin baik
+ide utama dibalik ini adalah 
+penalty dengan rata-rata geometri dari modified precision score
+semakin tinggi nilai bleu, maka semakin akurat dengan rujukan
+nilai dari bleu berada pada rentang 0 sampai 1
+suatu terjemahan akan mencapai nilai 1 jika terjemahan tersebut identik dengan terjemahan rujukan
+oleh karena itu, meskipun dengan penerjemahan oleh manusia tidak mungkin akan menghasilkan nilai 1
+sangat penting untuk diketahui bahwa semakin banyak terjemahan rujukan per kalimatnya, maka akan semakin tinggi nilainya
+korpus paralel merupakan bahan penting untuk melakukan eksperimen-eksperimen dalam bidang pemrosesan bahasa alami
+flowchart merupakan cara penyajian dari suatu algoritma
+dari korpus penelitian sebelumnya dalam tugas akhir mahasiswa
+data-data yang diperoleh tersebut selanjutnya diolah menjadi korpus teks pararlel bahasa indonesia dan bahasa bugis wajo
+perangkat penelitian terdiri dari perangkat keras dan perangkat lunak
+adapun perangkat yang digunakan diantaranya, yaitu perangkat keras laptop toshiba satellite pro c640 dengan spesifikasi posesor intel core i3 cpu m 380, 2.53ghz, ram 3072mb, vga intel hd graphics, hdd 320gb
+perangkat lunak yang digunakan dalam penelitian ini adalah, sistem operasi linux ubuntu 14.04 lts 64 bit, srilm untuk pemodelan bahasa, giza++ untuk pemodelan translasi, moses untuk decoding, bleu untuk pengujian akurasi, sublime text 2 untuk teks editor
+tahapan pada penelitian ini adalah sebagai berikut: 1
+pengumpulan data mengumpulkan data-data yang akan digunakan untuk penelitian
+data adalah berupa korpus bahasa indonesia yang akan dibuat menjadi korpus teks paralel
+analisis algoritma pembagian frasa proses analisis algoritma pembagian frasa adalah degan cara menelaah penelitian sebelumnya, yaitu algoritma pembagian frasa dalam kalimat untuk meningkatkan akurasi mesin perjemah statistik bahasa indonesia – bahasa jawa kromo
+setelah itu mecari kekurangan/kelemahan yang ada pada penelitian tersebut
+kemudian merencanakan perbaikan dengan cara mengembangkan algoritma pembagian frasa dalam kalimat
+pembagian frasa dalam kalimat dilakukan pada korpus bahasa indonesia yang sudah diperoleh sebelumnya menggunakan pengembagan algoritma pembagian frasa
+pembagian frasa yang dimaksud adalah membagi kalimat menjadi dua atau lebih dengan syarat memenuhi kondisi yang ada
+kata kuci tersebut termasuk dalam jenis frasa golongan adjektiva, verba dan proposiona yang berdasarkan kategori sintaksis
+algortima pembagian frasa dalam kalimat korpus dapat dilihat pada gambar 2, gambar 3 dan gambar 4
+pengelompokkan korpus bahasa indonesia korpus dikelompokkan menjadi tiga kelompok, yaitu kelompok korpus tanpa pembagian frasa, kelompok korpus dengan pembagian frasa menggunakan tujuh algoritma dan kelompok korpus dengan pembagian frasa menggunakan delapan algoritma
+masing - masing kelompok korpus tersebut akan dibuat korpus teks paralel
+pembuatan korpus teks paralel korpus teks paralel dibuat dari terjemahan kalimat-kalimat dari korpus bahasa indonesia tanpa pembagian frasa dan korpus pembagian frasa atau pemotongan kalimat
+kemudian korpus tersebut diterjemahkan ke dalam bahasa bugis wajo
+penerjemahan korpus dilakukan oleh ahli bahasa
+membangun mesin penerjemah statistik dilakukan dengan melakukan instalasi perangkat lunak yang dibutuhkan diantaranya linux ubuntu 14.04 lts, giza++ untuk pemodelan translasi, moses untuk decoding, srilm untuk pemodelan bahasa dan bleu untuk pengujian akurasi secara otomatis
+implementasi dilakukan dengan cara melakukan pemodelan bahasa, pemodelan translasi dan decoding pada mesin penerjemah statistik bahasa indonesia ke bahasa bugis wajo
+pengujian hasil penerjemahan mesin pengujian dilakukan untuk mendapatkan nilai akurasi terjemahan mesin penerjemah statistik dari kelompok korpus yang sudah dibuat sebelumnya
+pengujian dilakukan secara otomatis dengan menggunakan bleu
+analisis hasil pengujian analisis hasil pengujian dilakukan untuk mengetahui karakteristik mesin penerjemah statistik bahasa indonesia ke bahasa bugis wajo dan mengidentifikasi apakah sudah sesuai dengan kebutuhan serta membandingkan nilai akurasi mesin penerjemah statistik sebelum melewati proses pembagian frasa dengan tujuh algortima dan delapan algortima
+algoritma pembagian frasa terdiri dari 13 proses, kemudian pada gambar 5 dilanjutkan penghapusan kalimat yang sama pada kalimat hasil pemenggalan
+proses-proses tersebut adalah sebagai berikut: kedelapan
+kalimat masukan berupa kalimat korpus bahasa indonesia
+kalimat korpus bahasa indonesia ini akan melalui maksimal empat proses pemenggalan kalimat
+jika kalimat terdapat token koma maka dilakukan proses pemenggalan
+proses pemenggalan dilakukan pada tanda koma tersebut
+kemudian token koma dihapus dan status aturan satu menjadi true
+jika tidak terdapat tanda koma maka status aturan pertama tetap false dan proses pemenggalan lanjut ke aturan kedua
+contoh: permisi, saya ingin pergi ke dermaga, di penggal menjadi: gambar 2
+algoritma pembagian frasa dalam kalimat korpus 3
+dan, atau, serta, tetapi, melainkan, padahal, sedangkan, yang, agar, supaya, biar, jika, kalau, jikalau, asal, asalkan, bila, manakala, sejak, semenjak, sedari, sewaktu, tatkala, ketika, sementara, seraya, sambil, demi, sesudah, sehabis, hingga, andaikan, seandainya, sekiranya, walau, walaupun, sekalipun, sungguhpun, kendatipun, seperti, maka, dengan, bahwa
+mengecek apakah kalimat korpus terdapat kata penghubung 
+jika tidak maka status aturan kedua tetap false dan lanjut aturan berikutnya
+jika ada maka dilanjutkan mengecek apakah sebelum kata penghubung terdapat lebih dari satu kata
+jika benar maka akan maka proses pemenggalan dilakukan sebelum kata penghubung pada kalimat korpus tersebut dan status aturan dua menjadi true
+jika hanya satu kata sebelum kata penghubung maka status aturan kedua tetap false dan proses pemenggalan lanjut ke aturan tiga
+mengecek apakah kalimat korpus terdapat kata depan 
+jika tidak terdapat kata depan maka status aturan ketiga tetap false dan lanjut aturan berikutnya
+jika kalimat terdapat kata depan maka dilanjutkan mengecek apakah sebelum kata depan terdapat lebih dari satu kata
+jika benar maka akan maka proses pemenggalan dilakukan sebelum kata depan pada kalimat korpus tersebut dan status aturan tiga menjadi true
+jika hanya satu kata sebelum kata depan maka status aturan ketiga tetap false dan proses pemenggalan lanjut ke aturan empat
+contoh: beritahu saya ketika kita sampai di museum, dipenggal mejadi:  beritahu saya ketika kita sampai  di museum berikutnya
+jika kalimat terdapat kata negatif maka dilanjutkan mengecek apakah sebelum kata negatif terdapat lebih dari satu kata
+jika benar maka akan maka proses pemenggalan dilakukan sebelum kata negatif pada kalimat korpus tersebut dan status aturan keempat menjadi true
+jika hanya satu kata sebelum kata negatif maka status aturan keempat tetap false dan proses pemenggalan lanjut ke proses selanjutnya
+contoh: mengapa anda tidak pergi ke sana ? dipenggal menjadi: terpenuhi
+pengecekan dilakukan pada status masing- masing keempat aturan utama tersebut
+jika status keempat aturan true maka aturan terpenuhi dan proses pemenggalan selesai
+jika status keempat aturan utama ada terdapat false maka dilakukan proses selanjutnya dengan pengecekan dan pemenggalan dengan empat aturan lainnya
+jika kalimat korpus terdapat kata keterangan penguat maka dilanjutkan mengecek apakah sebelum kata keterangan penguat terdapat lebih dari satu kata
+jika benar maka akan maka proses pemenggalan dilakukan sebelum kata keterangan penguat pada kalimat korpus tersebut dan status aturan kelima menjadi true
+jika hanya satu kata sebelum kata keterangan penguat maka status aturan kelima tetap false dan proses pemenggalan lanjut ke proses selanjutnya
+contoh: peralatan listrik sangat murah, dipenggal menjadi: pengecekan dilakukan pada status masing-masing aturan tersebut
+jika sudah ada empat konsisi yang status aturannya true maka aturan terpenuhi dan proses pemenggalan selesai
+jika status belum terpenuhi empat kondisi true maka dilakukan proses selanjutnya dengan pengecekan dan pemenggalan dengan tiga aturan lainnya
+tingkat perbandingan maka status aturan keenam tetap false kemudian dilanjutkan pada proses aturan ketujuh
+jika kalimat korpus terdapat kata tingakat perbandingan maka dilanjutkan mengecek apakah sebelum kata tingkat perbandingan terdapat lebih dari satu kata
+jika benar maka akan maka proses pemenggalan dilakukan sebelum kata tingkat perbandingan pada kalimat korpus tersebut dan status aturan keenam menjadi true
+jika hanya satu kata sebelum kata keterangan penguat maka status aturan keenam tetap false dan proses pemenggalan lanjut ke proses selanjutnya
+contoh: lima puluh sen per kata ini lebih mahal daripada yang saya perkirakan, dipenggal menjadi: 10
+mengecek apakah empat kondisi sudah terpenuhi
+pengecekan dilakukan pada status masing-masing aturan tersebut
+jika sudah ada empat konsisi yang status aturannya true maka aturan terpenuhi dan proses pemenggalan selesai
+jika status belum terpenuhi empat kondisi true maka dilakukan proses selanjutnya dengan pengecekan dan pemenggalan dengan dua aturan lainnya
+jika tidak terdapat kata yang menyatakan keadaan maka status aturan ketujuh tetap false kemudian dilanjutkan pada aturan kedelapan
+jika kalimat korpus terdapat kata yang menyatakan keadaan maka dilanjutkan mengecek apakah sebelum kata yang menyatakan keadaan terdapat lebih dari satu kata
+jika benar maka akan maka proses pemenggalan dilakukan sebelum kata yang menyatakan keadaan pada kalimat korpus tersebut dan status aturan ketujuh menjadi true
+jika hanya satu kata sebelum kata keterangan penguat maka status aturan ketujuh tetap false dan proses pemenggalan lanjut ke proses selanjutnya
+contoh: kapankah saya harus mengembalikannya? dipenggal menjadi: pengecekan dilakukan pada status masing-masing aturan tersebut
+jika sudah ada empat konsisi yang status aturannya true maka aturan terpenuhi dan proses pemenggalan selesai
+jika status belum terpenuhi empat kondisi true maka dilakukan proses selanjutnya dengan pengecekan dan pemenggalan dengan dengan aturan terakhir
+maka status aturan kedelapan tetap false
+jika kalimat korpus terdapat adverbia maka dilanjutkan mengecek apakah sebelum adverbia terdapat lebih dari satu kata
+jika benar maka akan maka proses pemenggalan dilakukan sebelum adverbia pada kalimat korpus tersebut dan status aturan kedelapan menjadi true
+jika hanya satu kata sebelum kata keterangan penguat maka status aturan kedelapan tetap false
+pada tahap ini berapapun jumlah aturan dengan status true maupun false pada proses terakhir maka keluaran kalimat langsung menjadi kalimat korpus hasil dari pemenggalan
+contoh: penglihatan anda akan kembali pada waktunya, dipenggal menjadi: kalimat hasil dari pemenggalan
+gambar 5 adalah proses penghapusan kalimat-kalimat yang sama pada kalimat hasil pemenggalan
+korpus yang sudah melalui proses pemenggalan ada beberapa yang sama jadi hanya diambil satu kalimat di antara kalimat-kalimat yang sama
+hasil dari proses ini adalah kalimat – kalimat korpus yang siap digunakan untuk pembuatan korpus teks paralel
+proses penghapusan kalimat yang sama pada korpus hasil dari pemenggalan d
+pembagian frasa dalam kalimat bahasa indonesia pembagian frasa dalam kalimat dilakukan pada korpus bahasa indonesia yang sudah diperoleh sebelumnya
+pembagian frasa yang dimaksud adalah membagi sebuah kalimat menjadi dua atau lebih dengan dengan syarat memenuhi kondisi yang sudah ditentukan
+pada proses ini dibantu apilikasi pembagian frasa dalam kalimat
+dimana aplikasi ini merupakan penerepan dari pengembagan algoritma pembagian frasa dalam kalimat
+gambar 2, gambar 3, dan gambar 4 merupakan diagram alir pengembangan algoritma pada aplikasi yang akan dibagun
+tampilan antarmuka aplikasi pembagian frasa dalam kalimat korpus gambar 7
+antarmuka aplikasi pembagian frasa dalam kalimat korpus halaman untuk mengunggah file korpus yang akan dilakukan proses pembagian frasa
+tampilam antarmuka pada gambar 7 terdapat tiga bagian
+bagian pertama berisi keterangan aturan yang digunakan dalam pembagian frasa setiap kalimat, keterangan jumlah korpus sebelum, sesudah proses pembagian frasa setiap kalimat dan jumlah kalimat yang siap digunakan
+bagian kedua terdapat textarea yang menampilkan kalimat hasil pembagian frasa dan sebuah tombol untuk memproses korpus hasil pembagian frasa menjadi kalimat korpus yang siap digunakan
+bagian ketiga terdapat textarea yang menampilkan kalimat-kalimat korpus yang siap digunakan dan sebuah tombol untuk menyimpan kalimat-kalimat korpus yang siap digunakan
+kalimat-kalimat tersimpan tersebut menjadi sebuah file text
+implementasi mesin penerjemah statistik bahasa indonesia ke bahasa bugis wajo arsitektur sistem pada penelitian ini terdiri dari beberapa proses, yaitu pemodelan bahasa, pemodelan translasi, decoding dan evaluasi hasil terjemahan
+arsitektur sistem mesin penerjemah statistik dapat dilihat pada gambar 8
+arsitektur sistem mesin penerjemah statistik bahasa indoneisa – bahasa bugis wajo dengan pembagian frasa dalam kalimat gambar 8 merupakan arsitektur sistem mesin penerjemah statistik bahasa indonesia ke bahasa bugis wajo
+korpus paralel dalam file teks terdiri dari dua buah korpus, yaitu korpus bahasa indonesia dan korpus bahasa bugis wajo
+kemudian korpus teks paralel dilakukan proses pembagian frasa
+setelah itu korpus dengan pembagian frasa dilakukan pra proses sebelum dilakukan pemodelan bahasa oleh srilm dan pemodelan translasi oleh giza
+kemudian pra proses akan digunakan sebagai kalimat masukan untuk proses terjemahan dan kalimat rujukan untuk proses penilaian
+kemudia masuk pada proses selanjutnya, yaitu pemodelan bahasa, pemodelan translasi, decoding, dan proses evaluasi hasil terjemahan
+pengujian dilakukan cara pengujian hasil secara otomatis menggunakan bleu
+mesin 1 adalah mesin yang menggunakan kalimat korpus tanpa pembagian frasa, mesin 2 adalah mesin yang menggunaka kalimat korpus dengan pembagian frasa menggunakan tujuh algoritma, dan mesin 3 adalah mesin yang menggunakan kalimat korpus dengan pembagian frasa menggunakan delapan algoritma
+setiap mesin terbagi menjadi lima mesin
+kalimat korpus yang digunakan untuk kalimat training adalah 75% dari jumlah kalimat korpus setiap mesin, sedangkan korpus uji yang digunakan berjumlah 650 untuk masing-masing diujikan pada lima mesin, sehingga korpus uji berjumlah 3150
+𝑛 𝑛 𝑛 mesin y: mesin yang akan dibandingkan dengan mesin yang dicari nilai kenaikannya
+apakah sudah sesuai dengan kebutuhan serta membandingkan nilai akurasi mesin penerjemah statistik
+nilai akurasi yang dibandingkan dibagi menjadi tiga bagian
+nilai akurasi yang didapatkan dari mesin penerjemah tanpa pembagian frasa
+nilai akurasi yang didapat dari mesin penerjemah dengan pembagian frasa menggunakan tujuh algotritma
+nilai akurasi yang didapat dari mesin penerjemah dengan pembagian frasa menggunakan delapan algotritma
+implementasi mesin penerjemah statistik bahasa bahasa indonesia – bahasa bugis wajo tahapan implementasi mesin penerjemah statistik bahasa bugis wajo ke bahasa indonesia terlebih dahulu korpus teks paralel yang telah dibuat dilakukan proses cleaning dan tokenisasi
+berikut merupakan perintah untuk melakukan cleaning dan tokenisasi yang dapat dilihat pada gambar 9
+1 cd ~/moses/mesin3a 2 ~/moses/mosesdecoder/scripts/training/clean-corpus-n.perl txt indo8 wajo8 txt.clean 1 40 3 perl ~/moses/clean.plx txt.clean.indo8 txt.clean1.indo8 4 perl ~/moses/clean.plx txt.clean.wajo8 txt.clean1.wajo8 5 perl ~/moses/mosesdecoder/scripts/tokenizer/lowercase.perl < txt.clean1.wajo8 > txt.lowercased.wajo8 gambar 9
+cleaning, tokenisasi, dan case folding pada mesin 3 berdasarkan gambar 9 terdapat perintah untuk proses cleaning, tokenisasi dan lowercase
+perintah tersebut adalah pra proses sebelum dilakukan proses implementasi mesin penerjemah
+pada baris pertama untuk membuka folder mesin penerjemah
+baris kedua digunakan untuk memenggal kalimat yang memiliki kata lebih dari 40, baris ketiga dan keempat merupakan perintah untuk menghapus tanda baca titik di akhir kalimat dan menyisipkan spasi atara kata dan tanda baca
+baris kelima dan keenam digunakan untuk mengubah huruf kapital yang terdapat dalam korpus menjadi huruf kecil
+implementasi giza++ untuk pemodelan translasi model translasi digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target model translasi dibangun dengan tool giza++
+~/moses/mosesdecoder/scripts/training/train- wajo81 --lm 0:3: gambar 10 merupakan proses pemodelan translasi oleh giza++ menghasilkan dokumen vocabulary corpus, word alignment dan lexical model table
+decoding oleh moses tools yang digunakan untuk proses decoding adalah moses
+berikut merupakan perintah untuk melakukan decoding dengan moses
+otomatis dari mesin penerjemah dari bahasa sumber ke dalam bahasa target decoder moses akan menerjemahkan kalimat masukan berupa kalimat sumber 
+selanjutnya kalimat masukan tersebut akan diproses oleh decoder moses dan akan menghasilkan kalimat keluaran berupa kalimat hasil terjemahan ke dalam bahasa target 
+pengujian hasil translasi dilakukan dengan cara pengujian otomatis dari mesin penerjemah
+pengujian otomatis dari mesin penerjemah menghasilkan keluaran berupa nilai akurasi yang dihasilkan oleh bleu 
+hasil pengujian ini nantinya akan menjadi parameter untuk membandingkannya dengan hasil pengujian setelah dilakukan perbaikan lexical model
+perintah menghitung dan hasil skor bleu mesin 3a gambar 12 merupakan perintah untuk penilai otomatis oleh bleu dari mesin 3a
+adapun hasil keseluruhan dapat dilihat pada tabel 1
+hasil penilaian bleu persentase kenaikan tabel 1 berisi total penilai mesin 1 adalah 10, 268%, mesin 2 adalah 16, 330% sedangkan mesin 3 adalah 16, 342%
+sebagai contoh perhitungan penilaian, yaitu peningkatan mesin 3 terhadap mesin 1 berdasarkan persamaan 4
+𝑛 sebesar 59, 04% sedangkan peningkata mesin 3 terhadap mesin 1 adalah sebesar 59, 15%
+adapun peningkatan mesin 3 terhadap mesin 2 adalah sebesar 0, 07%
+total akurasi tertinggi yaitu pada mesin 3
+jumlah kalimat korpus bahasa indonesia sebelum proses pembagian frasa berjumlah 3150 kalimat
+setelah dilakukan pembagian frasa dengan tujuh alogoritma kalimat korpus menjadi 7440 kalimat
+sedangkan setelah dilakukan pembagian frasa dengan delapan algoritma kalimat korpus menjadi 7580 kalimat
+penilaian otomatis terhadap hasil terjemahan seluruh korpus uji pada mesin penerjemah statistik bahasa indonesia – bahasa bugis wajo tanpa pembagian frasa menghasilkan nilai bleu sebesar 10, 268 %
+hasil terjemahan seluruh koprus uji dengan pembagian frasa tujuh algoritma menghasilkan nilai bleu sebesar 16, 330 %
+sedangkan hasil terjemahan seluruh koprus uji dengan pembagian frasa tujuh algoritma menghasilkan nilai bleu sebesar 16, 342 % 3
+penigkatan nilai bleu mesin penerjemahan statistik dengan pembagian frasa tujuh algortima terhadap hasil terjemahan mesin penerjemah statistik tanpa pembagian frasa adalah 59, 04%
+sedangkan penigkatan mesin penerjemah statistik dengan pembagian frasa delapan algoritma terhadap hasil terjemahan mesin penerjemah statistik tanpa pembagian frasa adalah 59, 15%
+peningkatan nilai bleu mesin penerjemah statistik pembagian frasa dengan delapan algoritma terhadap hasil terjemahan mesin penerjemahan statistik dengan pembagian frasa tujuh algortiman adalah 0, 07%
+kesimpulan/ringkasan yang dapat diambil sebagai berikut
+algoritma pembagian frasa dalam kalimat korpus dapat diimplementasikan dalam mesin penerjemah statistik bahasa indonesia – bahasa bugis wajo
+algoritma pembagian frasa yang diimplementasikan pada mesin penerjemah statistik bahasa indonesia – bugis wajo dapat meningkatkatkan nilai akurasi mesin penerjemahan statistik
+peningkatan sebesar 59, 15% terhadap mesin tanpa pembagian frasa

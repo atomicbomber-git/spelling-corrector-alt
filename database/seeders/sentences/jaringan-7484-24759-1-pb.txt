@@ -1,0 +1,58 @@
+enggunakan parallel port relay dengan metode beat tracking tri andriawan tri_andri_ponti@yahoo.com from the incoming audio to detect the onset of the incident wave, the energy increase suddenly in the form of a wave with a certain level periodically
+in interfacing technology, we know a device called parallel port relay relay, which will serve as a switch that can turn on or off the power and can be computer- controlled by transmit certain data values to parallel port interface
+build a stage lighting control applications which corresponding with music beats and rhythm of the song played that captured by the computer microphone
+the application is developed using the java programming language which built on netbeans ide 7.1 environment
+relays used in the relay circuit were ras 1215 5 pins relays
+the simulations of the lighting applied at a stage miniature which lights connected to the relay circuit
+tata cahaya adalah pengaturan lampu panggung yang disesuaikan dengan ritme lagu yang dijalankan, sehingga antara lagu dan nyala lampu dapat menjadi satu kesatuan suguhan multimedia yang menarik dan seakan menjadi satu rangkaian cerita yang mengalir dengan indah
+sejauh ini sebagian besar pengaturan itu masih manual sehingga masih memerlukan tenaga lightingman dengan pengetahuan dan keterampilan memiliki jiwa seni dan sense of music yang tinggi
+hal ini membuat peranan seorang lightingman akan sangat penting dan sulit untuk digantikan oleh tenaga pekerja biasa yang non profesional tak sadar kita akan mengetukkan jari kaki mengikuti ketukan irama musik
+sistem pendengaran manusia dapat menentukan komputasi yang dapat mereplikasi kemampuan manusia mendeteksi ketukan tracking
+relay adalah komponen pemicu agar relay bekerja dapat dilakukan melalui interface komputer
+kerjanya adalah dengan menggabungkan relay dapat diatur/dipicu oleh tegangan 2 hingga 5 volt yang dikeluarkan oleh port antarmuka paralel pada cpu
+parallel port relay akan berfungsi sebagai saklar yang dapat menghidupkan atau mematikan aliran listrik dan dapat diatur oleh komputer dengan mengirimkan nilai data tertentu pada antarmuka paralel
+tracking dapat dirancang sebuah pengendali tata cahaya pentas musik yang digerakkan oleh aplikasi pengendali pada komputer dengan masukan aplikasi berupa suara audio berupa lagu-lagu musik adalah ilmu atau seni menyusun nada atau suara diutarakan, kombinasi dan hubungan temporal untuk menghasilkan komposisi yang mempunyai bunyi itu)aristoteles mempunyai kemampuan fenomena intuisi, untuk mencipta, sebuah fenomena yang sangat unik yang bisa dihasilkan oleh beberapa alat musik
+musik dikenal sejak kehadiran manusia modern homo sapien yakni sekitar 180.000 hingga 100.000 tahun yang lalu
+tiada siapa tahu bila manusia mula mengenal seni dan musik
+dari penemuan arkeologi pada lokasi- lokasi seperti pada benua afrika sekitar 180.000 tahun hingga 100.000 tahun dahulu telah menunjukkan perubahan evolusi dari pemikiran otak manusia
+dengan otak manusia yang lebih pintar dari hewan, mereka membuat pemburuan yang lebih terancang sehingga bisa memburu hewan yang besar
+dengan kemampuan otak ini, mereka bisa berpikir lebih jauh hingga di luar nalar dan mencapai imajinasi dan spiritual bahasa untuk berkomunikasi telah terbentuk di antara mereka
+dari bahasa dan ucapan sederhana untuk tanda bahaya dan memberikan nama-nama hewan, perlahan- sesorang
+mengambil tulang kaki kering hewan buruan yang menjadi makanan mereka kemudian meniupnya dan mengeluarkan bunyi
+ada juga yang mendapat inspirasi ketika memperhatikan alam dengan meniup rongga kayu atau bambu yang mengeluarkan bunyi
+kayu dibentuk lubang tiup dan menjadi suling purba
+menjadi lagu, hymne atau syair nyanyian kecil yang diinspirasikan oleh kicauan burung
+kayu-kayu dan batuan keras dipukul untuk mengeluarkan bunyi dan irama yang mengasyikkan
+mungkin secara tidak sengaja mereka telah mengetuk batang pohon yang berongga di dalamnya dengan batang kayu yang mengeluarkan bunyi kuat
+kulit binatang yang mereka gunakan sebagai pakaian diletakkan pula untuk menutup rongga kayu tersebut besar menjadi gendang
+perkembangan musik hingga saat dengan ciri-cirinya sendiri dan memiliki pendukung dan peminatnya masing-masing
+diantaranya alternative rock, blues, classical, country, rock, dan genre-genre musik lainnya
+sedangkan genre musik yang khas indonesia, diantaranya musik-musik lain-lain
+ketika kita mengetukkan kaki mengikuti musik, kita menjaga ketukan atau mengikuti struktur ketukan ritmik dari musik itu
+aspek-aspek penting dari ritme adalah: suara terjadi dapat ditunjukkan dengan angka macam peralatan
+beberapa komputer menggunakan relay untuk mengimplementasikan gerbang logika mengalir, elektromagnet akan menjadi mekanis sehingga saklar akan menutup 
+jika arus listrik tidak mengalir, elektromagnetik tidak menjadi magnetis, menutup)
+2 kaki elektromagnet, yang dihubungkan ke aliran listrik untuk menggerakkan saklar-saklarnya, dengan prinsip : aktif), kaki 1-2 on, 1-3 off, - jika elektromagnet bekerja, kaki 1-2 off, 1-3 on
+sederhana karena hanya karena hampir semua komputer, desktop maupun portable, selalu dilengkapi dengan port paralel atau yang dikenal juga dengan port printer
+dikendalikan komputer, pemrogram rumah, akuisisi data praktis dan lain sebagainyadikelompokkan menjadi 3 jenis, yaitu : - pin data, biasa disebut juga data register/data port - pin kontrol, biasa disebut juga control register/control port - pin status, biasa disebut juga status register/status port
+musik, adalah proses awal yang cukup penting pada komputer dalam memahami irama musik, karena ketukan adalah sebuah unsur yang fundamental dalam musik
+bahkan seseorang yang tidak mengetahui suara alat musik atau tidak mengerti musik, tetap dapat menangkap ketukan musik dengan bertepuk tangan atau mengetukkan kaki
+bagaimana komputer dapat menentukan ketika manusia mengetukkan kakinya dari musik dapat ditentukan dari pola-pola gelombang yang dibentukmerupakan langkah penting dalam pemodelan terkomputerisasi untuk meng- analisa musik
+dalam perkembangannya, foot tapping, atau rhythm-tracking) telah diterapkan pada berbagai bidang seperti video/audio editing, pengaturan lampu dan lain-lainkeseluruhan algoritma beat tracking
+beberapa pendekatan dilakukan dalam akan cukup potensial untuk diterapkan berdasarkan tipe masukan yang diterima
+salah satu metode yang efektif adalah 1 2 3 1 2 3 onset yang terjadi dalam input suara yang noise dan berlapis-lapis
+tracking, diantaranya untuk mempelajari bagaimana pemahaman persepsi manusia tergantung pada tujuan penggunaannya
+dan penghitungan waktu harus baik, karena waktu dari ketukan-ketukan akan menjadi sangat penting
+tetapi ketika aplikasi dibuat untuk keperluan komputer grafis yang music- synchronized, kestabilan aplikasi dalam ketepatan aplikasi mendeteksi waktu proses-proses yang terkait dengan beat tracking, yaitu proses pemisahan onset dan noise componen, pengolahan suara onset, dan pencarian suara drum
+proses-proses tersebut dapat diuraikan dalam diagram alur sebagai berikut : component 3.2 diagram blok diagram blok dari perancangan sistem digambarkan sebagai berikut : relay yang dikendalikan oleh parallel port
+relay 12 volt dipasang bersama dengan rangkaian driver penggerak 12 volt
+tegangan 12 volt akan diambil dari kabel kuning power supply pada pc
+rangkaian driver penggerak ini akan dipicu oleh tegangan 2 – 5 volt yang keluar dari kaki- kaki parallel port
+3.4 rancangan maket nakan laptop pengembangan sistem dengan operating system mandriva linux 2010
+bahasa pemrograman yang digunakan adalah java yang dibangun pada lingkungan netbeans ide 7.1
+dilakukan dengan menggunakan library parallelport.java, yang pada lingkungan operating system windows menggunakan parallel port
+untuk menyesuaikan dengan yang bukan administratoradalah sebagai berikut : terhadap aplikasi pengendali tata cahaya pentas musik menggunakan parallel port relay ini maka dapat disimpulkan bahwa : 1
+pengujian aplikasi menunjukkan lampu menyala dengan nilai tempo lagu
+nilai rata-rata interval waktu lampu menyala pada aplikasi pengendali tata cahaya pentas musik akan cenderung berbanding terbalik dengan nilai tempo lagu menurut hasil pengukuran penangkapan suara dapat diatasi dengan mengubah nilai threshold pada aplikasi
+hasil pengujian menunjukkan bahwa nilai threshold pada level 2 sudah dapat menyaring noise dengan baik
+pada aplikasi pengendali tata cahaya pentas musik

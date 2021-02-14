@@ -1,0 +1,61 @@
+one of the subject that must be taken by the informatics engineering of tanjungpura university student is the internship program
+internship program allows students to apply the knowledge that has been gained in lectures to the environmental community
+to be able to do practicum the students must register and submit the internship program petition
+if the internship program petition is approved, students can start doing their internship work
+at the time of the internship of guidance, tutoring students and lecturers are usually done with face-to-face process
+these methods are rather effective but still have the constraints of time and place.on the implementation of internship program, all processes from initial registration, guidance and seminars is one interconnected process
+web- based online information system will be needed to be able to connect all the processes in the practicum so that it would provide more ease and convenience for students, faculty and staff to access the information of internship program
+therefore, web-based designed that using online information system, which can be an alternative at the time of the internship guidance
+in addition to the guidance, the system also provides the feature to register the internship program and internship seminar so students can sign up from anywhere and anytime
+the registration data can also be directly accessed by the staff of informatics engineering
+another feature that provide in web- based information service of monitoring and registration system are sms gateway which is useful to send a warning message if students and lecturers have not taken the guidance of more than 7 days
+with the establishment of the registration and monitoring system of internship program, guidance process not only can be done by meeting directly but can also be done with the guidance online through the system
+keywords: internship program, monitoring, guidance, online guidance, sms gateway, registration 1
+pendahuluan peranan teknologi di dunia sudah sangat berpengaruh di dalam kinerja dan pendistribusian informasi
+selain itu dengan teknologi juga dapat mengoptimalkan waktu sehingga dapat memaksimalkan pekerjaan dan pengolahan data
+salah satu teknologi yang dimanfaatkan yaitu sistem informasi
+sistem informasi adalah sistem buatan manusia yang berisi himpunan terintegrasi dari komponen-komponen manual dan komponen-komponen terkomputerisasi yang bertujuan untuk mengumpulkan data, memproses data dan menghasilkan informasi untuk pemakai 
+salah satu organisasi yang menggunakan sistem informasi adalah teknik informatika universitas tanjungpura pontianak
+ada satu mata kuliah di teknik informatika yang harus diambil oleh mahasiswa adalah kerja praktek 
+mata kuliah ini membantu mahasiswa untuk mengaplikasikan ilmu yang diperoleh di masyarakat baik itu di perusahaan atau di instansi pemerintah
+dalam proses registrasi pengajuan kerja praktek, mahasiswa harus mengajukan surat permohonan kerja praktek yang ditujukan untuk program studi, selanjutnya program studi akan memproses surat pengantar untuk dikirim ke tempat kerja praktek
+setelah tempat tujuan kerja praktek menyetujui, surat balasan dari tempat kerja praktek akan diproses oleh program studi dan selanjutnya program studi akan menunjuk dosen pembimbing kerja praktek
+selama menjalankan kerja praktek, mahasiswa wajib melakukan bimbingan kerja praktek dengan dosen pembimbing kerja praktek agar masa kerja praktek dan aplikasi yang dibuat dapat dipantau dan masalah yang ada selama melaksanakan kerja praktek bisa diselesaikan
+dalam sistem yang sudah berjalan terdapat beberapa kekurangan dalam proses secara keseluruhan, proses pelaksanaan kerja praktek dari awal registrasi hingga masa kerja praktek adalah kegiatan yang berhubungan satu sama lain sehingga diperlukan suatu sistem informasi berbasis web online yang bisa menghubungkan semua proses tersebut dan memudahkan mahasiswa, dosen serta program studi bagian tata usaha dalam mengakses data- data informasi kerja praktek
+mahasiswa dapat melakukan registrasi melalui sistem dan data yang dimasukkan dapat di akses oleh program studi bagian tata usaha untuk selanjutnya diproses menjadi berkas-berkas yang diperlukan selama masa kerja praktek
+dalam masa kerja praktek mahasiswa dapat melakukan bimbingan dengan dosen pembimbing kerja praktek tanpa harus melakukan tatap muka
+teori dasar 2.1 monitoring monitoring adalah suatu proses mengukur, mencatat, mengumpulkan, memproses dan mengkomunikasikan informasi untuk membantu pengambilan keputusan manajemen program/proyek 
+2.2 basis data data merupakan fakta mengenai suatu objek seperti manusia, benda, peristiwa, konsep, keadaan dan sebagainya yang dapat dicatat dan mempunyai arti secara implisit
+data dapat dinyatakan dalam bentuk angka, karakter atau simbol, sehingga jika data dikumpulkan dan saling berhubungan akan terbentuk basis data 
+mysql merupakan rdbms (atau server database) yang mengelola database dengan cepat menampung dalam jumlah sangat besar dan dapat di akses oleh banyak user
+2.3 mysql menurut raharjo, 
+rdbms akan lebih banyak mengenal istilah seperti tabel, baris dan kolom digunakan dalam perintah-perintah di mysql
+2.4 php php dibuat oleh seorang programmer bernama rasmus lerdorf pada tahun 1995
+pada waktu itu php masih bernama form interpreted, yang berupa kumpulan skrip yang digunakan untuk mengolah data formulir dari web
+php dikenal sebagai bahasa scripting yang menyatu dengan tag html, dieksekusi di server dan digunakan untuk membuat halaman yang dinamis
+secara khusus, php dirancang untuk membentuk web dinamis yang kontennya dapat diubah tanpa harus masuk kedalam coding
+2.5 sms gateway istilah gateway dilihat pada kamus inggris-indonesia dapat diartikan sebagai pintu gerbang
+namun pada dunia komputer, gateway juga bisa diartikan sebagai jembatan penghubung antara 2 sistem yang berbeda sehingga terjadi pertukaran data antara 2 sistem tersebut
+dengan demikian, sms gateway dapat diartikan sebagai suatu penghubung untuk lalu lintas data sms baik yang terkirim ataupun tidak
+2.6 gammu menurut tarigan, gammu adalah sebuah aplikasi yang dapat digunakan untuk mengelola berbagai fungsi pada handphone, modem dan perangkat sejenis lainnya
+fungsi yang dapat dikelola oleh gammu antara lain adalah nomor kontak dan fungsi sms
+hasil eksperimen sistem registrasi dan monitoring kerja praktek merupakan aplikasi yang dibuat untuk memberikan alternatif baru dalam proses bimbingan kerja praktek sehingga mahasiswa dan dosen pembimbing tidak harus bertemu langsung di kampus, sehingga dosen pembimbing tetap dapat mengontrol dan memantau kegiatan kerja praktek mahasiswa darimanapun dan kapanpun, agar tetap ada perkembangan selama masa pelaksanaan kerja praktek
+halaman utama dari sistem registrasi dan monitoring kerja praktek adalah halaman login
+halaman ini berisi form login dan link yang mengarahkan ke halaman pendaftaran kp
+gambar 1 antarmuka halaman utama halaman pendaftaran kerja praktek digunakan oleh mahasiswa yang akan mendaftar kerja praktek
+halaman ini berisi form pendaftaran yang harus diisi oleh mahasiswa
+gambar 2 antarmuka halaman pendaftaran kerja praktek menu bimbingan terdapat di dalam menu mahasiswa, dosen dan pembimbing lapangan
+pada menu bimbingan mahasiswa, terbagi menjadi 3 sub menu, yaitu bimbingan dosen pa, bimbingan dosen kp dan bimbingan pembimbing lapangan
+pada menu bimbingan dosen, terbagi menjadi 3 sub menu, yaitu bimbingan mahasiswa pa, bimbingan mahasiswa kp dan bimbingan pembimbing lapangan
+gambar dibawah ini adalah antarmuka dari menu bimbingan mahasiswa
+gambar 3 antarmuka menu bimbingan dosen pa gambar 4 antarmuka menu bimbingan dosen kp gambar 5 antarmuka menu bimbingan pembimbing lapangan menu daftar seminar adalah menu yang dapat diakses di dalam halaman mahasiswa
+mahasiswa yang ingin melakukan seminar harus mendaftar terlebih dahulu
+gambar 6 antarmuka menu daftar seminar kp 3.1 pengujian sistem pengujian sistem dilakukan dengan menggunakan metode black box untuk memeriksa apakah sistem sudah berjalan dan sesuai dengan tujuan awal perencanaan sistem
+data yang dimasukkan ke dalam sistem diuji dengan teknik robustness testing, yaitu dengan memasukkan beberapa data nilai terpilih diluar spesifikasi yang telah ditentukan ke dalam kasus uji
+spesifikasi yang telah ditentukan seperti data input tidak boleh kosong dan data yang dimasukkan harus sama dengan di database
+jika hasil pengujian sesuai dengan yang direncanakan maka sistem telah lulus uji
+kesimpulan berdasarkan hasil analisis dan pengujian terhadap sistem registrasi dan monitoring kerja praktek program studi teknik informatika, maka dapat disimpulkan bahwa : 1
+sistem mengubah proses pendaftaran kerja praktek mahasiswa dari manual menjadi online, sehinga data pendaftaran mahasiswa dapat diakses oleh admin dan membantu admin untuk membuat berkas yang diperlukan
+sistem memberikan alternatif baru dalam proses bimbingan kerja praktek antara mahasiswa, dosen dan pembimbing lapangan
+proses bimbingan dilakukan melalui sistem dengan mengirim pesan teks, sehingga proses bimbingan dapat dilakukan tanpa harus bertemu langsung
+kaprodi dapat memonitoring kegiatan kerja praktek mahasiswa melalui sistem

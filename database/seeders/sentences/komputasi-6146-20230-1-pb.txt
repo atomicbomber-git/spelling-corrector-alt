@@ -1,0 +1,108 @@
+forest is a natural resource with huge potential to be utilized for national development
+however threats and disturbances on forests and land that is hindering conservation efforts are very common
+one form of the disorder and the threat is forest fires
+causes of forest fires in west kalimantan are intentional, fire causes burning and indirect influence
+intentional reason that conducted on sufficient consideration, for example to the traditional land clearance, but due to uncontrolled fires spread to other areas
+management activities and geographical mapping are useful as a way of prevention must be planned and carried out continuously to help decision makers in determining the priority areas that are prone to forest fires
+this research aims to map the existing fire-prone areas in kubu raya district and analyze the indicators that have been determined are hotspots, rainfall, peat thickness, fire-prone areas and residential distance, so it can produce a priority of districts in the determining forest fire- prone areas
+analysis of composite prioritization is done by using principal component analysis and analysis of clusters to reduce the decisive indicator priorities and group the results of the pca analysis so it can determine the priority of each district
+the system can manage spatial data and indicators tabular data and displayed in the form of maps and tables to generate reports and graphs of forest fire-prone areas
+based on the test results show an average accreditation forms responders need to respond to the application by the percentage of 48, 2%
+keywords: forest fires, mapping, pca method, clustering, composites, priorities
+pendahuluan perkembangan teknologi yang sangat cepat telah membawa manusia memasuki kehidupan yang berdampingan dengan informasi dan teknologi itu sendiri
+yang berdampak pada sebagian orang untuk meninggalkan proses penelusuran informasi secara manual yang membutuhkan waktu lebih lama untuk mendapatkan atau menemukan informasi yang diinginkan
+spatial decision support systems adalah suatu sistem interaktif berbasis komputer yang dirancang untuk mendukung pengguna atau sekelompok pengguna untuk mendapatkan manfaat yang sebesar-besarnya pada pengambilan keputusan untuk memecahkan masalah keputusan spasial yang semi terstrukur
+jumlah alternatif keputusan yang sangat banyak merupakan salah satu karakteristik utama dari masalah keputusan spasial sehingga tiap alternatif dievaluasi berdasarkan banyak kriteria
+jadi dampak atau konsekuensi dari alternatif keputusan tersebut dijadikan variabel spasial
+hutan merupakan sumber daya alam yang sangat potensial untuk dimanfaatkan bagi pembangunan nasional kendati demikian hutan dan lahan sering terjadi ancaman dan gangguan sehingga menghambat upaya-upaya pelestariannya
+salah satu bentuk ancaman dan gangguan tersebut adalah kebakaran hutan
+kebakaran hutan dan lahan mempunyai dampak buruk terhadap tumbuhan/tanaman, sosial ekonomi dan lingkungan hidup, sehingga kebakaran hutan dan lahannya bukan saja berakibat buruk terhadap hutan dan lahannya sendiri, tetapi lebih jauh akan mengakibatkan terganggunya proses pembangunan
+sementara ini kebakaran hutan dan lahan masih dianggap sebagai suatu bencana alam seperti halnya gempa bumi dan angin topan, padahal kebakaran hutan dan lahan berbeda dengan kejadian-kejadian bencana alam tersebut
+kebakaran hutan dan lahan dapat dicegah atau dikendalikan, karena kita telah mengetahui bahwa apabila musim kemarau atau daerah rawan kebakaran hutan tidak diadakan pencegahan sudah dapat dipastikan akan terjadi kebakaran hutan/lahan
+berdasarkan hal tersebut di atas, bahwa pengendalian kebakaran hutan dan lahan tidak hanya tertuju pada pemadaman saat kebakaran hutan musim kemarau, tetapi hal-hal lain yang bersifat pencegahan harus direncanakan dan dilakukan berkelanjutan baik pada musim kemarau maupun pada musim penghujan
+menurut chokkalingan, penyebab kebakaran hutan di kalimantan barat adalah kesengajaan, api pembakaran dan sebab-sebab tidak langsung yang mempengaruhinya
+kesengajaan dilakukan atas pertimbangan yang cukup, misalnya untuk pembukaan lahan tradisional, namun karena tidak terkendali kebakaran meluas ke areal lain
+api pembakaran biasanya berasal dari penebang kayu, perusahaan perkebunan, petani dan lain-lain
+sebab tidak langsung antara lain konflik lahan, kegiatan logging yang instensif, intensif ekonomi yang meningkatkan konversi lahan dengan api, perubahan vegetasi yang rentan kebakaran
+pada tahun 2009, jumlah titik panas di kalimantan barat yang tercatat, menurut data satelit noaa-18 sebanyak 9.788
+jumlah titik panas ini mencapai puncaknya pada bulan agustus sebanyak 6.090, kemudian september 1.269
+dalam periode tersebut, kabupaten kubu raya merupakan salah satu kabupaten yang mempunyai titik panas dengan jumlah banyak 
+memperhatikan banyaknya lahan yang setiap tahun menjadi penyebab terjadinya kebakaran hutan maka pemanfaatan teknologi komputer dengan spatial decision support system untuk inventarisasi daerah rawan kebakaran hutan mempunyai peranan yang sangat penting dalam menghasilkan informasi spasial lahan kritis yang akurat dan obyektif
+dengan pendekatan metode principal component analysis dapat membangun variabel-variabel baru yang merupakan komponen linier dari variabel-variabel asli, sehingga dapat memfasilitasi dalam pengambilan keputusan untuk mengidentifikasi serta menentukan wilayah rawan kebakaran hutan dari beberapa kriteria yang digunakan untuk melakukan penilaian wilayah yang rawan akan kebakaran hutan
+oleh sebab itu, maka sdss untuk menentukan daerah rawan kebakaran hutan dengan metode pca dianggap cocok untuk membangun aplikasi ini
+diharapkan dengan penggunaan spatial decision support system dapat menghasilkan informasi spasial untuk peringatan dini mengenai tingkat rawan terjadinya kebakaran hutan dan penyebaran api, sehingga dapat dimanfaatkan oleh instansi terkait dalam mengambil tindakan pencegahan dini kebakaran hutan khususnya kabupaten kubu raya, kalimantan barat
+teori dasar 2.1 kebakaran hutan kebakaran hutan dibedakan dengan kebakaran lahan
+kebakaran hutan yaitu kebakaran yang terjadi di dalam kawasan hutan, sedangkan kebakaran lahan adalah kebakaran yang terjadi di luar kawasan hutan
+kebakaran hutan dan lahan biasa terjadi baik disengaja maupun tanpa sengaja
+dengan kata lain terjadinya kebakaran hutan dan lahan diakibatkan oleh faktor kesengajaan manusia oleh beberapa kegiatan, seperti kegiatan ladang, pekebunan inti rakyat, hti, penyiapan lahan untuk ternak sapi, dan sebagainya
+faktor kebakaran hutan dan lahan karena kesengajaan ini merupakan faktor utama dan 90% kebakaran hutan dan lahan yang terjadi saat ini banyak disebabkan karena faktor ini
+kebakaran hutan juga bisa disebabkan oleh faktor alami ataupun karena kelalaian manusia
+contoh kebakaran hutan karena kelalaian manusia seperti akibat membuang puntung rokok sembarangan, pembakaran sampah atau sisa-sisa perkemahan dan pembakaran dari pembukaan lahan yang tidak terkendali dan kebakaran hutan dan lahan alami oleh deposit batu bara di kawasan hutan bukit soeharto
+2.2 spatial decision support system secara definitif malczewski menjelaskan bahwa spatial decision support systems adalah suatu sistem interaktif berbasis komputer yang dirancang untuk mendukung pengguna atau sekelompok pengguna untuk mendapatkan manfaat yang sebesar-besarnya pada pengambilan keputusan untuk memecahkan masalah keputusan spasial yang semi terstruktur
+karakteristik utama dari masalah keputusan spasial mencakup: a) jumlah alternatif keputusan yang sangat banyak
+b) dampak atau konsekuensi dari alternatif keputusan merupakan variabel spasial c) tiap alternatif dievaluasi berdasarkan banyak kriteria 
+d) beberapa kriteria mungkin bersifat kualitatif sementara yang lainnya kuantitatif
+e) melibatkan lebih dari satu orang pembuat keputusan atau kelompok kepentingan yang terlibat langsung dalam pengambilan keputusan
+f) pembuat keputusan mempunyai preferensi yang berbeda terkait dengan kepentingan relatif dari kriteria evaluasi dan konsekuensi keputusan
+g) keputusan yang dibuat mungkin dipengaruhi kondisi yang tidak pasti
+2.3 metode pca pca adalah sebuah teknik untuk membangun variabel-variabel baru yang merupakan kombinasi linear dari variabel-variabel asli 
+metode ini salah satunya bertujuan untuk mereduksi p indikator yang saling berkorelasi menjadi q komponen pca yang saling bebas
+jika p indikator asal saling berkorelasi mungkin kita bisa mendapatkan q < p komponen pca yang tidak berkorelasi dan tidak menyebabkan hilangnya informasi terlalu besar dari indikator asal p
+keunggulan metode ini selain menghasilkan banyaknya komponen pca yang lebih sedikit namun memberikan informasi yang hampir sama besar dengan indikator asal, juga menghasilkan komponen pca yang tidak saling berkorelasi yang umumnya diperlukan pada tahap berikutnya, yaitu penggerombolan
+secara umum skor komponen utama didefinisikan sebagai kombinasi linear terboboti dari peubah asal pcj = a1jx1 + a2jx2 + … + apjxp banyak komponen pca terpilih tergantung dari besarnya persentase keragaman kumulatif komponen pca tersebut
+persentase keragaman yang dianggap cukup mewakili total keragaman data jika 75% 
+untuk melihat indikator apa yang diwakili oleh komponen pcj, bisa ditempuh melalui pengamatan terhadap nilai koefisien 
+jika a1j bernilai tinggi maka komponen pcj mewakili x1
+atau bisa juga menilai komponen pcj sebagai nilai aij yang positif lawan aij yang negatif
+keuntungan penggunaan principal component analysis dibandingkan metode lain: a) dapat menghilangkan korelasi secara bersih sehingga masalah multikolinearitas dapat benar-benar teratasi secara bersih
+b) dapat digunakan untuk segala kondisi data/penelitian
+c) dapat dipergunakan tanpa mengurangi jumlah variabel asal d) walaupun metode regresi dengan pca ini memiliki tingkat kesulitan yang tinggi akan tetapi kesimpulan yang diberikan lebih akurat dibandingkan dengan penggunaan metode lain
+2.4 analisis gerombol analisis gerombol adalah suatu teknik analisis multivariate yang digunakan untuk mengidentifikasi dan mengelompokkan individu/obyek yang memiliki kemiripan ke dalam kelompok-kelompok tertentu
+dengan demikian, individu/obyek dalam satu kelompok yang sama akan memiliki kemiripan satu dengan yang lainnya berdasarkan beberapa kriteria pemilihan yang telah ditetapkan sebelumnya 
+sedangkan individu/obyek dalam kelompok yang berlainan memiliki sifat yang berbeda 
+jadi, apabila pengelompokkan yang terjadi cukup baik, maka apabila diilustrasikan secara geometris melalui plotting data, obyek dalam gerombol yang berbeda akan terlihat berjauhan letaknya
+analisis gerombol bertujuan untuk mengelompokkan n objek ke dalam k gerombol dengan k < n bedasarkan q komponen yang diperoleh dalam pca
+sehingga unit- unit objek dalam satu gerombol mempunyai sifat-sifat yang lebih mirip dibandingkan dengan unit objek lain yang terdapat dalam gerombol yang berbeda
+2.5 proses penentuan prioritas berikut beberapa proses yang dilakukan untuk memperoleh daftar kecamatan yang menjadi prioritas daerah rawan kebakaran hutan di kabupaten kubu raya: 1
+sistem akan melakukan pemisahan data masing-masing indikator, serta melakukan normalisasi terhadap data tersebut
+proses pengolahan data untuk menentukan range indikator
+sistem akan menentukan range masing- masing indikator untuk menentukan prioritas kecamatan yang menjadi daerah rawan kebakaran hutan berdasarkan indikator yang dipilih
+analisis komposit dengan bantuan software minitab, dengan melakukan standarisasi data, analisis pca, serta clustering
+hasil dari proses analisis komposit ini adalah nilai cluster centroid masing-masing cluster serta daftar kecamatan yang sudah dikelompokkan ke dalam kelasnya masing- masing
+sistem dapat mengolah data cluster centroid dan cluster kecamatan hasil analisis komposit dari minitab dengan mengurutkan nilai cluster untuk menentukan prioritas 1-4 berdasarkan tingkat status rawan kebakaran hutan, yaitu ekstrim, tinggi, sedang, dan rendah
+sistem akan melakukan pengurutan bobot dari nilai terbesar hingga nilai terkecil yang didapat dari menganalisis tiap prioritas dengan melihat nilai cluster centroid dari cluster berdasarkan perhitungan dengan minitab
+kemudian dilihat komponen pca mana saja yang paling berpengaruh dengan mengurutkan nilainya dari yang besar ke yang kecil dari cluster
+perancangan sistem 3.1 perancangan arsitektur sistem sistem yang dibangun berbasis desktop dan diakses oleh admin
+desain arsitektur sistem dapat dilihat pada gambar 1 berikut
+3.2 perancangan diagram arus data 3.2.1 diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+pada gambar 2 berikut menunjukkan diagram konteks dari sistem
+3.2.2 diagram overview sistem diagram overview adalah diagram yang menjelaskan urutan-urutan proses dari diagram konteks
+seperti pada gambar 3 berikut, sistem ini dibagi menjadi sepuluh proses
+3.3 perancangan basis data 3.3.1 perancangan entity relational diagram entity relational diagram merupakan gambaran hubungan antar entitas yang dipergunakan dalam sistem
+perancangan erd meliputi tahap penentuan entitas, penentuan relasi antar-entitas, tingkat relasi yang terjadi, dan konektivitas antar- entitas
+keterkaitan dan hubungan antar-entitas digambarkan melalui diagram er seperti terlihat pada gambar 4 berikut
+3.3.2 perancangan relasi antartabel tabel-tabel dalam spatial decision support system untuk pencegahan kebakaran hutan memiliki relasi satu sama lain
+keterkaitan dan hubungan antara satu tabel dengan tabel lainnya dilihat pada gambar 5 berikut
+hasil eksperimen halaman utama digunakan untuk melakukan manajemen peta dan mengakses halaman lain pada sistem dan menampilkan hasil analisis data tabular ke dalam data spasial yang digambarkan dalam bentuk peta dengan warna tertentu untuk menunjukkan prioritas daerah rawan kebakaran hutan
+halaman utama berisikan menu-menu yang dapat diakses oleh admin
+antarmuka hasil perancangan halaman utama dapat dilihat pada gambar 6 berikut
+pada halaman utama terdapat beberapa menu
+fungsi masing-masing menu dapat dilihat pada tabel 1 berikut
+tabel 1 daftar menu halaman utama dan fungsinya menu submenu fungsi manajemen peta menampilkan koordinat geografis manajemen data hotspot manajemen data data kecamatan profil kecamatan data user manajemen data user analisis prioritas komposit melakukan analisis komposit prioritas tiap indikator laporan indikator data hotspot statistik menampilkan grafik daerah rawan kebakaran hutan cetak peta mencetak peta lain-lain bantuan memberikan panduan untuk menjalankan aplikasi keluar keluar dari aplikasi dengan melakukan analisis komposit, admin dapat melihat hasil penentuan prioritas daerah rawan kebakaran hutan pada peta dengan mem-filter wilayah rawan kebakaran hutan berdasarkan tahun dan bulan serta dapat melihat indikator yang paling berpengaruh dan penanganan untuk setiap prioritas pada gambar 8
+hasil analisis komposit penentuan prioritas rawan kebakaran hutan setiap kecamatan dapat dilihat pada gambar 7
+gambar 8 panel penanganan berdasarkan status kerawanan dan indikator yang berpengaruh
+4.1 analisis hasil pengujian pengujian dilakukan pada sistem menggunakan metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+data pengujian dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari sistem
+pengujian dilakukan dengan menyamakan hasil perhitungan yang dilakukan oleh sistem terhadap hasil perhitungan secara manual sesuai dengan masing-masing proses yang dilakukan oleh sistem
+pengujian dilakukan terhadap proses manajemen data dengan menyamakan pengujian hasil perhitungan data indikator hotspot, curah hujan, ketebalan gambut, luas daerah rawan kebakaran hutan, dan jarak pemukiman yang dilakukan oleh sistem dengan hasil perhitungan secara manual kemudian pengujian terhadap proses penentuan proritas kecamatan yang dilakukan dengan menyamakan hasil analisis penentuan prioritas yang dilakukan oleh sistem dengan hasil analisis prioritas yang dilakukan secara manual 4.1.1 hasil analisis pca yang dilakukan di dalam minitab gambar 9 hasil analisis pca dalam minitab
+penjelasan dari analisis pca di atas adalah sebagai berikut: 1
+presentase informasi yang bisa dijelaskan oleh masing-masing komponen pca
+besarnya kumulatif persen yang dijelaskan komponen pc1 – pc3 dalam hal ini sebesar 0.986 atau 98.6% tingkat kepercayaan
+bobot indikator pada masing-masing komponen pca
+4.1.2 hasil analisis gerombol yang dilakukan di dalam minitab gambar 10 hasil clustering dalam minitab
+proses penentuan urutan prioritas kecamatan yang rawan kebakaran hutan diperoleh dari nilai masing- masing cluster pada pc1, dimana nilai cluster paling tinggi merupakan cluster yang masuk ke dalam prioritas satu
+berdasarkan cluster centroid yang dihasilkan dalam analisis gerombol, nilai cluster 1, cluster 2, cluster 3 dan cluster 4 diurutkan dari yang terbesar hingga yang terkecil sebagai berikut: tabel 2 prioritas masing-masing cluster 5
+kesimpulan a) sistem informasi geografis yang dirancang dapat menampilkan kecamatan yang menjadi prioritas dalam daerah rawan kebakaran hutan di kabupaten kubu raya berdasarkan indikator hotspot, curah hujan, ketebalan gambut, luas daerah rawah kebakaran hutan dan jarak pemukiman
+baik itu prioritas berdasarkan masing-masing indikator maupun prioritas berdasarkan semua indikator yang ditampilkan dalam bentuk data tabular dan data spasial b) sistem yang dirancang menggunakan metode principal component analysis dan cluster observation yang dapat menghubungkan data spasial dan tabular tiap indikator, sehingga dapat menentukan kecamatan yang dijadikan prioritas dalam daerah yang rawan kebakaran hutan di kabupaten kubu raya
+c) hasil perhitungan dengan menggunakan metode pca dan cluster observation menunjukkan bahwa data dari semua indikator yang dianalisis menghasilkan tingkat kepercayaan sampai sebesar 99%
+d) berdasarkan hasil pengujian dengan borang yang diukur dengan metode likert’s summated rating, skor yang diperoleh sebesar 361 menunjukkan bahwa responden menilai aplikasi sangat positif dan dinilai berhasil

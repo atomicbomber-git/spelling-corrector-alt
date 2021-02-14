@@ -1,0 +1,56 @@
+urnal edukasi dan penelitian informatika vol 1, no 1, issn 2460-7041 32 organisasi membutuhkan suatu manajemen agar penggunaannya dapat memenuhi tujuan penerapan teknologi tersebut
+salah satu kerangka kerja manajemen layanan teknologi informasi yang dapat diadopsi oleh organisasi adalah information technology infrastructure library 
+dukungan layanan merupakan bagian dari proses itil
+pada umumnya, aktivitas dukungan layanan dilaksanakan dengan penggunaan teknologi yang dapat diakses melalui internet kondisi tersebut mengarah pada suatu konsep cloud computing
+cloud computing memungkinkan suatu instansi atau perusahaan untuk bisa mengatur sumber daya melalui jaringan internet fokus penelitian ini adalah menganalisis proses dan pelaku yang terlibat dalam dukungan layanan khususnya pada proses manajemen insiden, serta mengidentifikasi potensi penyerahan pelaku ke bentuk layanan cloud computing
+berdasarkan analisis yang dilakukan maka usulan model manajemen insiden berbasis cloud ini dapat diterapkan dalam suatu organisasi yang telah menggunakan teknologi komputer untuk mendukung kegiatan operasional service support, service desk
+namun, penerapan teknologi informasi tidak terlepas dari berbagai gangguan, yang berdampak pada terganggunya kegiatan organisasi
+gangguan tersebut membutuhkan penanganan, baik penanganan yang dapat diselesaikan sendiri oleh pihak yang disediakan oleh organisasi, maupun menyerahkan penyelesaian tersebut kepada pihak luar
+gangguan-gangguan dalam penerapan teknologi informasi mengindikasikan bahwa suatu organisasi membutuhkan dukungan layanan dalam suatu konsep manajemen dukungan layanan yang tepat
+berbagai standar manajemen layanan teknologi informasi yang dapat diadopsi oleh organisasi, yang salah satunya adalah itil 
+manajemen insiden merupakan bagian dari itil dengan tujuan untuk mengembalikan ke operasional normal secepat mungkin dan meminimalkan dampak terhadap operasional bisnis, memastikan level kualitas layanan dan pemeliharaan ketersediaan
+oleh sebab itu, manajemen insiden memiliki peranan sangat penting dalam manajemen layanan teknologi informasi
+kerja yang mengatur bagaimana penyerahan pelaku dan proses yang sebelumnya dilakukan oleh organisasi ke pihak penyedia layanan cloud
+oleh sebab itu, perlu dilakukan penelitian untuk menganalisis bentuk manajemen dukungan layanan khususnya manajemen insiden kebentuk dukungan layanan berbasis cloud computing
+tinjauan pustaka manajemen layanan teknologi informasi/information proses-proses yang merincikan praktik-praktik terbaik berdasarkan pada standar itil untuk menjalankan dan mengoptimalkan layanan-layanan teknologi informasi dalam upaya untuk memberikan kepuasan terhadap kebutuhan bisnis dan mengatur infrastruktur baik secara taktis maupun strategis
+pembahasan mengenai manajemen layanan tentu saja tidak dapat dipisahkan dari kata layanan yang membangun struktur manajemen layanan teknologi informasi
+layanan berarti memberikan nilai kepada konsumen dengan memfasilitasi hasil yang ingin dicapai oleh para konsumen tanpa kepemilikan biaya-biaya spesifik atau resiko-resiko
+dalam praktiknya, layanan membutuhkan suatu manajemen sehingga layanan yang dijalankan dapat terkendali dengan baik dan sesuai dengan tujuan yang ingin diraih organisasi
+manajemen layanan adalah kumpulan kemampuan organisasi tertentu untuk menyediakan nilai bagi konsumen dalam bentuk layanan
+teknologi informasi dapat digunakan seperti itil, cobit, serta standar lainnya, namun itsm berasosiasi kuat dengan itil yang dikembangkan oleh pemerintah inggris
+itil adalah dokumentasi kumpulan proses yang dirancang untuk mendefinisikan bagaimana suatu fungsi teknologi informasi perusahaan dapat beroperasi
+mengacu pada itil versi 2, maka proses-proses terbagi menjadi 2 yaitu service support dan service delivery
+service delivery berisi layanan-layanan yang dibutuhkan oleh pengguna untuk mendukung aktivitas bisnisnya dan apa saja yang dibutuhkan untuk menghasilkan layanan tersebut, sedangkan service support menjelaskan bagaimana konsumen dan pengguna bisa mendapatkan akses ke layanan yang tepat untuk mendukung aktivitas mereka dan aktivitas bisnis, serta bagaimana layanan tersebut didukung
+pihak yang terlibat dalam manajemen insiden adalah: 1
+peminta layanan mereka atau untuk kepentingan lainnya
+pengguna yang terkena dampak orang atau pihak yang akan terkena dampak negatif
+layanan/agen pendukung mendiagnosa dan memberikan resolusi
+menginvestigasi isu-isu teknis berdasarkan kepada pemahaman dari agen pendukung
+grup implementasi juga terlibat dalam aplikasi atau work-around dan implementasi perbaikan
+mencakup tanggung jawab kepada manajer service delivery terhadap layanan yang terkena dampak
+jalannya proses manajemen insiden dan mengkomunikasikan statusnya kepada pihak bisnis 
+terlibat dalam perancangan layanan, pembiayaan, manajemen pemberian dan pelaporan dalam upaya untuk memastikan kebutuhan bisnis dapat dipahami dan dipenuhi dibawah kendali mereka
+service desk banyak organisasi mengimplementasikan central point untuk menangani konsumen, pengguna dan isu-isu yang terkait
+fungsi tersebut dikenal dengan beberapa nama, mencakup: 1
+call centre pada transaksi komoditas layanan 
+help desk bahwa tidak ada permintaan yang hilang, terlupakan atau tidak diperdulikan/ditolak
+proses bisnis untuk diintegrasikan kedalam infrastruktur manajemen layanan
+bagian ini tidak hanya menangani insiden, permasalahan, dan pertanyaan-pertanyaan, namun juga menyediakan suatu antarmuka untuk aktivitas-aktivitas lainnya seperti permintaan perubahan oleh konsumen, kontrak-kontrak pemeliharaan, lisensi perangkat lunak, service level management, manajemen konfigurasi, manajemen ketersediaan, manajemen keuangan untuk layanan teknologi informasi, dan manajemen kesinambungan layanan ti
+cloud computing dinamis dan tersedianya sumber daya virtual yang diberikan sebagai bentuk layanan melalui internet
+karakteristik yang dimiliki oleh cloud computing mencakup: 1
+layanan yang bisa dilakukan sendiri berdasarkan permintaan
+misalnya cpu, penyimpanan, perangkat lunak, dan sebagainya
+memanfaatkan sumber daya komputasi secara otomatis tanpa adanya interaksi dengan para penyedia layanan
+misalnya mobile phone, laptop dan pda
+sumber daya komputasi dikirimkan melalui jaringan dan digunakan oleh berbagai aplikasi dengan beragam platform dilokasi tempat pengguna berada
+kolam sumberdaya penyedia layanan cloud memiliki sumber daya komputasi yang dikumpulkan secara bersama dalam upaya untuk melayani berbagai konsumen ataupun model virtualisasi
+elastisitas yang cepat dengan cepat tanpa melakukan perjanjian atau kontrak terlebih dahulu untuk menaikkan dan menurunkan sumber daya yang dibutuhkan
+walaupun sumber daya komputasi terkumpul dan disebarkan ke berbagai konsumen, cloud computing memiliki infrastrukur yang tepat untuk mengukur penggunaan sumber daya yang telah dimanfaatkan oleh setiap konsumen
+berdasarkan tinjauan pustaka, maka pelaku yang terlibat dikelompokkan menjadi konsumen, service desk, grup implementasi/grup pendukung, manajer insiden, dan manajer service delivery
+peminta layanan dan pengguna yang terkena dampak digabungkan menjadi konsumen, yaitu pihak yang meminta layanan sekaligus pihak yang akan terkena dampak dari suatu insiden, sedangkan layanan/agen pendukung didefinisikan sebagai service desk
+perorangan maupun bagian dari suatu kelompok organisasi
+keluhan, pertanyaan ataupun permasalahan akan dilayangkan kepada pihak service desk baik menggunakan jalur telepon atau melalui dukungan teknologi lainnya
+insiden yang masuk akan ditangani oleh service desk
+penanganan dilakukan dengan cara membuka insiden
+ketika service desk tidak dapat mengatasi insiden, maka dilakukan penugasan penyelesaian insiden kepihak lain
+kondisi ini disebut dengan proses escalation

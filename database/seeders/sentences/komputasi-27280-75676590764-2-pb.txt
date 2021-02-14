@@ -1,0 +1,85 @@
+profesi merupakan salah satu tema yang terdapat dalam kurikulum di taman kanak-kanak
+pembelajaran tema profesi di tk lebih banyak memanfaatkan jenis media visual media visual hanya memberikan pembelajaran kepada anak berupa gambar-gambar yang tercetak pada buku atau lukisan
+saat ini anak lebih memiliki ketertarikan tinggi terhadap teknologi multimedia, sehingga perlu memanfaatkan hal tersebut dalam memberikan media pembelajaran yang menarik perhatian anak dan bersifat interaktif
+oleh karena itu dengan memanfaatkan teknologi multimedia dapat dibuatlah suatu aplikasi pembelajaran berbantuan komputer atau yang dikenal dengan computer assisted instruction dalam mengenalkan macam-macam profesi pada anak usia dini
+model cai yang digunakan pada aplikasi yaitu tutorial dan permainan
+tujuan penelitian ini adalah menghasilkan suatu aplikasi pengenalan macam-macam profesi yang ditujukan dan digunakan untuk anak usia dini
+aplikasi di uji coba pada anak-anak tk imanuel kelas b dan divalidasi oleh ahli materi serta ahli cai 
+berdasarkan hasil yang diperoleh dari uji coba dan validasi aplikasi dengan menggunakan skala pengukuran guttman untuk sisi materi sebesar 100%, sisi cai sebesar 100%, dan pada anak tk sebesar 93, 33%, sehingga dapat disimpulkan bahwa aplikasi ini sudah layak untuk anak usia dini dengan usia 4-6 tahun sebagai media pembelajaran dalam mengenal macam-macam profesi berbasis multimedia dengan konsep cai
+pendahuluan perlu diberikan pengajaran dan bekal yang kuat karena anak berada pada masa yang peka dalam menerima dan menangkap hal yang baru
+anak usia dini yang berada dalam usia 4-6 tahun masuk dalam usia pra-sekolah
+anak dalam usia tersebut mempunyai rasa ingin tahu yang tinggi, supaya rasa ingin tahu yang ada pada anak dapat tersalurkan perlu diberikan stimulasi atau rangsangan yang sesuai dengan perkembangannya
+stimulasi atau rangsangan tersebut dapat diberikan sesuai dengan kebutuhan anak supaya pertumbuhan dan perkembangan anak tercapai secara optimal berdasarkan hasil penelitian yang dilakukan oleh orborn bahwa perkembangan intelektual pada anak berkembang sangat pesat dari rentang usia nol sampai dengan pra-sekolah sehingga usia pra-sekolah sering disebut juga sebagai 
+kemudian menurut piaget bahwa perkembangan kognitif anak sudah mulai berkembang pada usia 4-6 tahun yang dikategorikan masuk dalam tahap berpikir intuitif dimana anak mempunyai rasa ingin tahu yang besar terhadap sesuatu
+hal ini menunjukkan bahwa seluruh potensi dan kecerdasan seseorang telah mulai terbentuk pada usia tersebut sehingga sering disebut the golden age 
+usia tersebut mulai mendapatkan berbagai ilmu pengetahuan yang bermanfaat bagi perkembangan otaknya yang diperoleh melalui pendidikan di taman kanak-kanak
+taman kanak- kanak merupakan pendidikan pra-sekolah yang ditujukan bagi anak usia 4-6 tahun
+prinsip pembelajaran di taman kanak- kanak menggunakan pendekatan tematik
+tema profesi merupakan salah satu tema yang terdapat dalam kurikulum di taman kanak-kanak
+banyak memanfaatkan jenis media visual media visual hanya memberikan pembelajaran kepada anak berupa gambar- gambar yang tercetak pada buku atau lukisan
+saat ini anak lebih memiliki ketertarikan tinggi terhadap teknologi multimedia, sehingga perlu memanfaatkan hal tersebut dalam memberikan media pembelajaran yang menarik perhatian anak dan bersifat interaktif
+pada hakikatnya proses pembelajaran interaktif berbasis komputer memiliki nilai lebih, dibanding bahan pembelajaran yang tercetak biasa
+pembelajaran interaktif mampu mengaktifkan siswa untuk belajar dengan motivasi yang tinggi karena ketertarikannya korespondensi : dian macam-macam profesi pada anak usia dini
+aplikasi ini didesain untuk mengenalkan berbagai macam profesi kepada anak-anak
+materi yang ada adalah belajar profesi seperti dokter, guru, polisi, dan lain sebagainya sehingga melalui aplikasi ini anak akan diajak belajar dan bermain
+aplikasi dirancang berdasarkan model yang ada pada cai yaitu model tutorial dan permainan karena model tersebut akan lebih efektif dimana dapat menjadi wahana belajar dan bermain bagi anak
+anak usia dini anak usia dini merupakan individu yang mengalami suatu proses perkembangan dengan pesat dan fundamental bagi kehidupan selanjutnya
+anak usia dini membutuhkan rangsangan stimulus dalam membantu mengembangkan segala aspek yang berkaitan dengan perkembangannya khususnya mengenai perkembangan kognitif seorang anak
+perkembangan kognitif adalah suatu proses mental sebagai hasil pematangan biologi dan pengalaman terhadap lingkungannya
+perkembangan kognitif anak usia 4-6 tahun masuk dalam tahap berpikir intuitif yaitu tahap dimana anak memiliki banyak pengetahuan namun tidak tahu bagaimana anak mengetahui hal tersebut
+tahap ini mencirikan rasa ingin tahu anak sangat besar terhadap sesuatu, banyak mengajukan pertanyaan, dan anak dapat belajar sambil bermain melalui contoh-contoh yang dilihat di sekitarnya
+oleh karena itu, dalam menunjang perkembangan kognitif anak perlu untuk diberikan pengetahuan yang bermanfaat dan berguna baik dari guru, orang tua, ataupun lingkungan sekitarnya
+jika orang dewasa mampu menyediakan suatu taman yang dirancang sesuai dengan potensi dan bawaan anak, maka anak akan berkembang secara wajar
+pengemban profesi tersebut untuk terus memperbaharui keterampilannya sesuai dengan perkembangan ilmu dan teknologi
+banyak ragam profesi yang saat ini kita kenal seperti guru, dokter, tentara, polisi, perawat, pilot, koki, pemadam kebakaran, dan lain sebagainya
+adapun ragam profesi yang dapat dikenalkan pada anak-anak, yaitu ragam profesi yang berpotensial di indonesia
+computer assisted instruction computer assisted instruction adalah pengembangan dari teknologi informasi terpadu yaitu komunikasi, audio, video, penampilan citra yang dikemas dengan sebutan teknologi multimedia
+cai mencakup penggunaan komputer yang berhubungan secara langsung dengan siswa maupun pendidik
+computer assisted instruction dirancang dalam suatu bentuk pembelajaran yang dibantu komputer untuk penyampaian informasi melalui media yang interaktif
+cai digunakan sebagai media pembelajaran untuk meningkatkan motivasi belajar peserta didik
+penggunaan media pembelajaran dapat meningkatkan minat dan mempermudah untuk mengarahkan perhatian siswa saat kegiatan pembelajaran berlangsung, sehingga siswa termotivasi untuk giat belajar dan dapat berperan aktif
+adapun beberapa model yang diterapkan dalam cai, sebagai berikut
+1) drill and practice model drill and practice menyajikan materi pelajaran untuk dipelajari secara berulang
+program drill and practice akan ditanamkan kebiasaan tertentu dalam bentuk latihan dengan latihan yang terus menerus, maka akan tertanam dan kemudian akan menjadi kebiasaan
+2) tutorial model tutorial ini menyajikan materi yang telah diajarkan atau menyajikan materi baru yang akan dipelajari
+tutorial dalam program pembelajaran berbasis komputer ditujukan sebagai pengganti sumber belajar yang proses pembelajarannya diberikan lewat grafik, animasi, audio yang tampak pada monitor yang menyediakan pengorganisasian materi, soal-soal latihan dan pemecahan masalah
+program tutorial pada dasarnya sama dengan program bimbingan yang bertujuan memberikan bantuan kepada siswa agar dapat mencapai hasil belajar secara optimal 3) simulasi model simulasi memberikan kesempatan untuk menguji kemampuan pada aplikasi nyata dengan menciptakan situasi yang mengikutsertakan siswa-siswa untuk bertindak pada situasi tersebut
+program ini menampilkan materi pelajaran yang dikemas dalam bentuk simulasi-simulasi pembelajaran dalam bentuk animasi yang menjelaskan konten secara menarik, hidup, dan memadukan unsur teks, gambar, audio, gerak, dan paduan warna yang serasi harmonis
+4) instructional games model instructional atau education games merupakan program yang menciptakan kemampuan pada lingkungan permainan
+program ini untuk menyediakan pengalaman belajar yang memberikan fasilitas belajar untuk menambah kemampuan siswa melalui bentuk permainan yang mendidik
+flowchart flowchart menggambarkan urutan-urutan instruksi dari suatu program computer
+flowchart adalah bagan yang menggambarkan urutan instruksi proses dan hubungan satu proses dengan proses lainnya mnggunakan simbol-simbol tertentu
+flowchart digunakan sebagai alat bantu komunikasi dan dokumentasi
+skala pengukuran guttman skala guttman merupakan skala kumulatif yang digunakan untuk mendapatkan jawaban yang bersifat jelas dan konsisten yang ada dalam alat ukur, sehingga alat ukur tersebut bila digunakan dalam pengukuran akan menghasilkan data kuantitatif didapatkan jawaban yang tegas
+data yang diperoleh dapat berupa data interval atau rasio dikhotomi 
+skala guttman selain dapat dibuat dalam bentuk pilihan ganda, juga dapat dibuat dalam bentuk checklist
+jawaban dapat dibuat skor tertinggi satu dan terendah nol
+misalnya untuk jawaban ya diberi skor 1 dan tidak diberi skor 0
+untuk menentukan nilai analisa guttman menggunakan rumus sebagai berikut
+k= 100% f = jumlah keseluruhan jawaban responden n = skor tertinggi dalam angket i = jumlah pertanyaan dalam angket r = jumlah responden apabila nilai persentase yang dicari mendekati 100%, maka aplikasi yang sedang diujikan terbukti dapat berjalan dengan baik dan sesuai dengan aspek yang diperlukan
+flowchart aplikasi flowchart aplikasi pengenalan macam-macam profesi pada anak usia dini dapat dilihat pada gambar 2 berikut
+aplikasi ini dibangun dengan menggunakan software adobe flash dan menghasilkan file yang berekstensi .exe sehingga dapat dicopy dan dipastekan secara langsung pada laptop atau komputer
+setelah aplikasi dicopy paste pada laptop atau komputer maka dapat langsung dimainkan karena tidak perlu melalui proses instalasi
+laptop atau komputer yang digunakan juga harus memiliki speaker agar user dapat mendengarkan suara penjelasan tentang nama-nama profesi serta dapat mendengarkan musik pengiring yang ada pada aplikasi ini
+model cai yang digunakan pada aplikasi yaitu tutorial dan permainan serta dibangun dengan objek-objek multimedia seperti teks, gambar, audio, video, dan animasi
+tampilan halaman judul dapat dilihat pada gambar 3 dan tampilan halaman menu utama dapat dilihat pada gambar 4
+analisis hasil uji coba dan validasi aplikasi uji coba aplikasi dilakukan oleh dua orang ahli atau pakar sekaligus yang akan memvalidasi aplikasi tersebut bertujuan untuk mengecek kelayakan aplikasi sebagai pembelajaran yang ditinjau dari sisi materi dan sisi cai
+uji coba aplikasi dilakukan menggunakan laptop/komputer yang tersedia
+aplikasi yang sudah siap digunakan ditunjukkan ke masing- masing ahli atau pakar yang akan menilai aplikasi tersebut sesuai dengan aspek-aspek penilaian yang digunakan untuk menilai aplikasi tersebut
+kemudian dilanjutkan dengan uji coba aplikasi yang dilakukan di taman kanak-kanak
+pada pengujian ini memilih 10 orang anak sebagai responden untuk menguji kelayakan aplikasi sebagai media pembelajaran
+pada penelitian ini, skala pengukuran guttman digunakan untuk validasi aplikasi oleh pakar atau ahli dan anak-anak tk yang akan menguji coba aplikasi yang telah dibuat
+berikut ini adalah analisis terhadap setiap hasil validasi : 1) validasi dari sisi materi uji kevalidan dari sisi materi dilakukan oleh guru di taman kanak-kanak imanuel sebagai ahli materi
+total ada 10 pertanyaan pada kuesioner uji validasi aplikasi dari sisi materi
+pada kuesioner yang telah divalidasi terdapat 10 jawaban dan 0 jawaban dari total 10 pertanyaan
+berikut ini adalah hasil persentase yang diperoleh dari uji validasi pada ahli materi, yaitu : k = 100% nilai persentase sebesar 100%, sehingga dapat dikatakan no nama halaman beberapa tombol, yaitu : 1
+2) validasi dari sisi cai uji kevalidan dari sisi cai dilakukan oleh dosen teknik informatika universitas tanjungpura sebagai ahli cai
+total ada 8 pertanyaan pada kuesioner uji validasi aplikasi dari sisi cai
+pada kuesioner yang telah divalidasi terdapat 8 jawaban dan 0 jawaban dari total 8 pertanyaan
+berikut ini adalah hasil persentase yang diperoleh dari uji validasi pada ahli cai, yaitu : nilai persentase sebesar 100%, sehingga dapat dikatakan bahwa validator setuju dengan aplikasi dan sudah sesuai dari sisi cai
+3) hasil uji coba kelayakan aplikasi pada anak hasil uji coba kelayakan aplikasi pada anak tk di taman kanak-kanak imanuel
+berikut ini adalah hasil persentase yang diperoleh dari uji coba kelayakan aplikasi pada anak tk, yaitu : bisa dikategorikan mendekati 100%
+aplikasi ini terbukti layak dan dapat digunakan pada anak usia 4-6 tahun sebagai media pembelajaran
+kesimpulan aplikasi cai berbasis multimedia untuk pengenalan macam- macam profesi bagi anak usia dini, dapat disimpulkan bahwa: 1
+penelitian yang telah dilakukan ini menghasilkan suatu aplikasi pengenalan macam-macam profesi pada anak usia dini yang dibangun dengan memanfaatkan objek- objek multimedia dan menggunakan model cai yaitu tutorial dan permainan
+berdasarkan hasil uji coba dan validasi aplikasi dengan menggunakan skala pengukuran guttman diperoleh nilai persentase sebesar 100% dari sisi materi, nilai persentase sebesar 100% dari sisi cai, dan nilai persentase rata-rata sebesar 93, 33% dari pengujian pada anak tk, sehingga dapat diartikan bahwa aplikasi ini terbukti sudah layak untuk anak usia dini dengan usia 4-6 tahun sebagai media pembelajaran dalam mengenal macam-macam profesi berbasis multimedia dengan konsep cai

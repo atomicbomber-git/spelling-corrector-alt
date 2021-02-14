@@ -1,0 +1,129 @@
+eisya fitri meisya.fitri@yahoo.co.id number of various of digital information
+it has increased need of user about information retrieval tools, which it can describe the most relevant document based on user question
+information retrieval can support in managing and finding information effectively and efficiently
+it designed to handle searching based on keyword from user
+this implemented query expansion technique and term weighting method with combination of tf- idf 
+query expansion is a method that increases the term in query for improving search performance
+term weighting based on combination of tf-idf gives more weight for more impotant term
+this system can find all of relevant document from available collection
+hal ini mengakibatkan meningkatnya kebutuhan pengguna akan perangkat pencarian informasi yang efektif dan efisien sehingga menghasilkan dokumen yang paling relevan berdasarkan pertanyaan pengguna
+pencarian informasi atau yang dikenal dengan istilah sistem temu balik informasi bertujuan menghasilkan dokumen yang paling relevan berdasarkan keyword pada query yang diberikan pengguna
+dokumen dianggap relevan jika suatu dokumen cocok dengan pertanyaan pengguna
+akan tetapi, istilah-istilah yang terdapat dalam dokumen dan query sering memiliki banyak varian morfologik, sehingga pasangan istilah seperti dan tidak akan dianggap ekuivalen oleh sistem tanpa suatu bentuk natural language processing 
+dipercaya bahwa frekuensi kemunculan istilah merupakan petunjuk sejauh mana istilah tersebut mewakili isi dokumen
+pembobotan kata diharapkan dapat menemukan kembali informasi yang paling relevan dengan indeks istilah terbaik
+metode pembobotan kata berdasarkan kombinasi tf-idf memberikan bobot lebih kepada istilah yang lebih penting
+dengan menggunakan metode pembobotan kata dapat diperoleh informasi penting dari suatu dokumen berdasarkan kata-kata yang ada dalam dokumen tersebut
+penambahan istilah pada query juga diperlukan untuk meningkatkan performa dalam information retrieval atau dikenal dengan istilah query expansion atau perluasan query
+dalam konteks web search engine, hal ini termasuk evaluasi input user dan memperluas query pencarian
+pencarian dilakukan terhadap dokumen hasil crawling dari beberapa situs yang sudah ditentukan
+fokus utama penelitian ini, berupa dokumen hasil crawling dari situs berita, tanpa menutup kemungkinan untuk melakukan pencarian terhadap dokumen hasil crawling dari situs lain
+menghasilkan dokumen yang paling relevan berdasarkan keyword pada query yang diberikan pengguna
+sistem temu balik informasi ini digunakan untuk mengurangi informasi yang terlalu banyak sehingga sulit untuk dikelola
+sistem temu balik informasi terdiri dari tiga komponen utama, yaitu masukan, pemroses, dan keluaran 
+pengguna adalah pemilik kebutuhan akan informasi, yang kemudian menerjemahkan kebutuhannya menjadi sebuah query
+pemroses bertugas menstrukturkan pengindeksan dan klasifikasi serta melakukan proses temu balik, yaitu dengan menjalankan suatu strategi pencarian sebagai respon dari query
+output adalah keluaran yang diberikan oleh pemroses, biasanya berbentuk informasi tentang suatu dokumen, dokumen itu sendiri, dan acuan ke dokumen lain 
+penggabungan hiperteks dan temu-kembali informasi dapat memecahkan masalah-masalah dalam bidang temu-kembali informasi
+misalnya, sistem temu-kembali informasi yang didasarkan pada penggunaan operator boolean, mengandalkan dengan adanya sistem hiperteks, hal ini dapat dipermudah dengan penyediaan antarmuka yang memakai pencarian dengan metode browsing
+menurut hasibuan, penelitian yang dilakukan budi yuwono menggunakan rancangan arsitektur seperti pada gambar 1
+arsitektur yang dirancang ini terdiri dari dua komponen utama yaitu: index builder dan search engine
+index builder merupakan sebuah sistem pengindeksan yang memanfaatkan atau yang berkomunikasi dengan menggunakan http untuk mencari informasi yang akan diindeks
+merupakan teknik dari temu-kembali dalam menemukan dokumen dan sekaligus mengeksekusi algoritma peringkat dalam menampilkan dokumen
+pengguna dapat mencari halaman web yang dibutuhkan melalui search engine
+search engine tidak lain sebuah mesin pencari yang ulet dan teliti, yang melakukun eksplorasi atas informasi-informasi yang di-request tanpa memandang kapan, di mana dan oleh siapa itu dilakukan
+sedangkan komunikasi antara pemakai dan search engine dalam memformulasikan query dilakukan melalui user interface
+setelah pemakai menemukan dokumen yang relevan dengan query, dapat langsung melakukan browsing ke sumber informasi dalam hal ini adalah alamat tempat www
+yang sudah dibuat dan disusun secara teratur
+mesin pencari menggunakan indeks untuk mencari file setelah pengguna memasukkan kriteria pencarian
+informasi yang ditampilkan mengandung atau berhubungan dengan suatu istilah spesifik
+crawler merupakan program yang berjalan secara otomatis, berisi script program yang melakukan crawling melalui halaman website untuk mengumpulkan data berdasarkan indeks dari halaman web yang ditemukan
+tujuan dari crawler adalah dengan cepat dan efisien mengumpulkan banyak informasi dari halaman web yang berguna, berikut dengan struktur link yang terkoneksi dengan halaman web tersebut
+web crawler dimulai dengan sekumpulan url, kemudian mendownload setiap halamannya, kemudian mengulangi kembali proses crawling pada setiap link halaman tersebut
+proses crawling berlangsung terus sampai antrian url kosong atau kalau kondisi berhenti sudah terpenuhi
+penelusuran dapat difokuskan pada kedalaman atau pada keluasan situs
+membangun basis data indeks dari koleksi dokumen
+indexing dilakukan terhadap dokumen sebelum pencarian dilakukan
+dewasa ini, sistem pengindeksan secara manual mulai digantikan oleh sistem pengindeksan otomatis
+sistem pengindeksan otomatis dapat dilakukan dengan implementasi natural language processing 
+nlp bertujuan untuk memahami arti yang diberikan dalam bahasa alami dan memberikan respon yang sesuai, misalnya dengan melakukan suatu aksi tertentu atau menampilkan data tertentu
+parsing dokumen yaitu proses pengambilan kata- kata dari kumpulan dokumen
+stoplist yaitu proses pembuangan kata buang seperti: tetapi, yaitu, sedangkan, dan sebagainya
+stemming yaitu proses penghilangan/ pemotongan dari suatu kata menjadi bentuk dasar
+term weighting dan inverted file yaitu proses pemberian bobot pada istilah
+parsing merupakan proses pengambilan kata-kata dari kumpulan dokumen
+stemming adalah salah satu cara yang digunakan untuk meningkatkan performa ir
+stemming digunakan untuk mencari kata dasar dari bentuk berimbuhan
+algoritma stemming untuk bahasa yang satu berbeda dengan algoritma stemming untuk bahasa lainnya
+bahasa inggris memiliki morfologi yang berbeda dengan bahasa indonesia sehingga memiliki algoritma stemming juga berbeda
+proses stemming pada teks berbahasa indonesia lebih rumit/kompleks karena terdapat variasi imbuhan yang harus dibuang untuk mendapatkan root word dari sebuah kata
+algoritma stemming untuk bahasa indonesia telah dikembangkan, seperti algoritma porter untuk teks berbahasa indonesia yang dikembangkan oleh tala, algoritma nazief & adriani untuk teks berbahasa indonesia
+adapun langkah- langkah algoritma ini adalah sebagai berikut: gambar 2
+porter stemming untuk bahasa indonesia dalam pencarian yang dilakukan oleh sistem temu balik informasi, semua istilah yang dicari tidak memiliki bobot yang sama
+untuk itulah dibutuhkan metode pembobotan kata agar pencarian lebih mudah difokuskan
+term weighting atau pembobotan kata dilakukan dengan menghitung frekuensi kemunculan istilah dalam dokumen karena dipercaya bahwa frekuensi kemunculan istilah merupakan petunjuk sejauh mana istilah tersebut mewakili isi dokumen
+metode pembobotan kata berdasarkan kombinasi tf- idf memberikan bobot lebih kepada istilah yang lebih penting
+mengenai efektivitas kinerja dari sebuah search engine selalu dikaitkan dengan tingkat relevansi hasil pencarian
+untuk menemukan dokumen yang relevan, metode pembobotan tf-idf memberikan bobot lebih kepada istilah yang lebih penting
+istilah yang lebih penting yang dimaksud adalah istilah yang jika muncul pada sebuah dokumen maka dokumen tersebut dapat dianggap relevan dengan query
+tf adalah algoritma pembobotan heuristik yang menentukan bobot dokumen berdasarkan kemunculan term 
+semakin sering sebuah istilah muncul, semakin tinggi bobot dokumen untuk istilah tersebut, dan sebaliknya
+terdapat empat buah algoritma tf yaitu raw tf, logarithmic tf, binary tf, augmented tf
+dalam penelitian ini digunakan algoritma raw tf
+raw tf diperoleh dari perhitungan frekuensi kemunculan suatu istilah pada dokumen
+idf merupakan banyaknya istilah tertentu dalam keseluruhan dokumen, dapat dihitung dengan persamaan: dokumen-dokumen yang ditampilkan oleh sistem temu balik informasi harus memenuhi persyaratan recall, precision dan niap 
+recall didefinisikan dengan menemukan seluruh dokumen yang relevan dalam koleksi dokumen
+jumlah dokumen relevan dalam koleksi nilai recall tertinggi adalah 1, yang berarti seluruh dokumen dalam koleksi berhasil ditemukan
+precision didefinisikan dengan menemukan hanya dokumen yang relevan saja dalam koleksi
+jumlah dokumen ditemukan seluruh dokumen yang ditemukan adalah relevan
+niap adalah penggabungan dari recall dan precision
+niap = 𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 pada dokumen ke−i jumlah dokumen relevan dalam koleksi 𝑛 𝑖=1 dicari hingga seluruh dokumen relevan ditemukan
+nilai niap tertinggi adalah 1, yang berarti seluruh dokumen relevan berhasil ditemukan dengan seluruh dokumen relevan tersebut ditempatkan pada urutan teratas dalam hasil pencarian
+nilai niap akan digunakan untuk mengecek kebenaran hasil pencarian dari perangkat lunak yang dibangun
+hasil eksperimen secara garis besar, sistem terdiri dari lima komponen utama yaitu crawler, indexer, stemmer, query expansion dan searcher seperti pada gambar 3
+dokumen web indexer stemmer crawler indexed proses yang dilakukan crawler akan menghasilkan dokumen berupa metadata yang dikumpulkan dari beberapa situs
+dokumen yang berupa metadata akan melalui proses parsing sehingga berita akan terekstraksi menjadi dokumen
+document parsing berupa pengambilan kata-kata dalam dokumen hasil crawling yang digunakan untuk memudahkan dalam ekstraksi kata
+crawler juga mengumpulkan link dari metadata dan disimpan dalam dokumen untuk dijelajahi kemudian
+document pre-processing melakukan ekstraksi kata dari dokumen, eliminasi stop words dan stemming
+proses eliminasi stop words digunakan untuk menghilangkan kata-kata buang yang memiliki frekuensi kemunculan yang tinggi seperti: tetapi, yaitu, sedangkan, dan sebagainya
+proses stemming digunakan untuk mencari bentuk kata dasar dari kata dalam dokumen untuk selanjutnya dihitung bobotnya
+dalam proses stemming, digunakan algoritma porter untuk teks berbahasa indonesia yang dikembangkan oleh tala
+dalam sistem yang dirancang, digunakan kata dasar yang berasal dari kamus bahasa indonesiadan tesaurus yang berasal dari tesaurus bahasa indonesia pusat bahasadari pusat bahasa departemen pendidikan nasional yang diterbitkan tahun 2008 versi elektronik
+kata dasar dan tesaurus dari pusat bahasa berupa file .pdf yang kemudian telah dikonversi menjadi file .babylon oleh steven haryanto 
+dalam pengindeksan dokumen digunakan metode pembobotan kata berdasarkan tf, idf dan kombinasi keduanya
+dalam proses pencarian yang dilakukan searcher, user akan memasukkan kata yang akan dicari
+daftar terurut inilah yang akan dikembalikan kepada pengguna
+outputprocessorinput sistem yang telah dirancang menggunakan jsp sebagai bahasa pemrograman, apache tomcat sebagai web server, mysql sebagai pengelola database serta jdk dan jre sebagai tools pendukung
+user dan admin dapat mengakses sistem dengan web browser seperti mozila firefox dan internet explorer
+antarmuka halaman utama sistem ini dapat dilihat pada gambar 5
+antarmuka halaman utama untuk user antarmuka halaman utama untuk user berisi fitur pencarian yang dapat digunakan user untuk mencari berita
+pada bagian paling bawah terdapat 2 pilihan fitur pencarian antara lain stem dan non stem
+hasil eksekusi pencarian akan muncul halaman hasil pencarian
+antarmuka halaman hasil pencarian berisi header dan hasil pencarian
+hasil pencarian yang muncul berupa judul berita dan potongan isi berita
+hasil pencarian yang ditampilkan terurut berdasarkan pembobotan tertinggi
+hasil pencarian disajikan sebagai link halaman sehingga ketika ingin membuka halaman sumber berita dapat mengklik langsung dibagian hasil pencarian
+form crawling berisi perintah untuk memulai dan menghentikan crawling
+crawling akan dilakukan terhadap situs yang sudah ditentukan sebelumnya
+data hasil crawling akan disimpan dalam database bernama dokumen
+antarmuka halaman manajemen crawler dapat dilihat pada gambar 7
+antarmuka halaman manajemen crawler halaman admin merupakan halaman yang digunakan untuk memanajemen pencarian baik memanajemen tabel pendukung dalam pencarian dan tabel admin maupun memanajemen proses crawling dan indexing
+halaman manajemen pencarian berisi informasi mengenai indexing dan form indexing
+form indexing berisi pilihan tipe indexing yang akan digunakan yaitu stem atau non stem serta tombol untuk memulai indexing
+indexing akan dilakukan ke dalam folder yang dinamai dengan tanggal dan waktu indexing serta tipe yang digunakan
+antarmuka halaman manajemen pencarian dapat dilihat pada gambar 8
+sehingga jumlah dokumen yang digunakan adalah 30 berita
+dokumen yang digunakan memiliki variasi jumlah kata dan halaman
+hal ini akan mempengaruhi bobot dari setiap dokumen pada saat pencarian
+semakin tinggi nilai precision yang dihasilkan berarti semakin banyak dokumen relevan dalam dokumen yang ditemukan
+nilai precision memiliki nilai tertinggi 1 yang berarti seluruh dokumen yang ditemukan adalah relevan
+dokumen relevan berhasil ditemukan dengan seluruh dokumen relevan tersebut ditempatkan pada urutan teratas dalam hasil pencarian
+nilai niap yang didapatkan dalam pengujian memiliki nilai bervariasi
+aplikasi dream search engine dan sebagai pembanding digunakan aplikasi giggle search engine yang juga dibangun dengan java namun menggunakan teknik dasar pembobotan yang dibangun lucene yaitu tf, idf dan normalization
+hal ini akan mempengaruhi kecepatan eksekusi pada saat pencarian
+hal ini dikarenakan sinonim yang berjumlah 4 kata tidak secara signifikan mempengaruhi kecepatan pencarian dream search engine sehingga pencarian dapat dilakukan kurang dari 1 detik
+sistem temu balik informasi dengan metode pembobotan kombinasi tf-idf yang digunakan untuk pencarian dokumen berbahasa indonesia, maka dapat ditarik kesimpulan sebagai berikut: 1
+sistem mampu mengumpulkan dokumen berita melalui proses crawling website dan memberikan bobot dengan mengimplementasikan metode secara lengkap sehingga lebih banyak data relevan yang dapat diperhitungkan dalam pencarian
+data hasil pengujian menghasilkan nilai recall 1 yang menunjukkan bahwa semua dokumen yang relevan dapat ditemukan sistem dan nilai precision antara 0.1316 dan 1 yang menunjukkan terdapat dokumen lain selain dokumen relevan yang ikut ditemukan oleh sistem
+nilai niap yang dihasilkan mencapai nilai 1 yang menunjukkan sistem dapat mengurutkan dokumen relevan ke dalam urutan hasil pencarian teratas

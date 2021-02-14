@@ -1,0 +1,50 @@
+i kota pontianak berbasis web amey indah pratiwi ameyindah@gmail.com related to the health care facilities at pontianak city lead to the information about health care facilities makes public difficult to find information about doctor’s actual schedule and detail of the types of health services
+web-based mapping information system for health care facilities at pontianak city is a mapping information about distribution of the location of health care facilities and information about the types of health services
+because of the web-based mapping information system, it helped public to know the information faster and easier to find the health care facilities locations, the types of health services, doctor’s schedule and his status presence, the presence of the types of the health services and presence of service registration
+the test result using questionnaire showed this web-based mapping information system can help the complaints of the health care facilities
+the test result using likert’s summated rating got total score 1240 that showed the correspondent for this maping information system about health care facilities at pontianak city was positive and successful
+keyword: information system, mapping, health care facilities, web, questionnaire, lsr semakin kompleks dan beragam
+masyarakat memerlukan akses secara cepat dan mudah untuk memperoleh informasi
+dengan semakin dan masyarakat yang telah memanfaatkan teknologi informasi untuk memperoleh informasi
+dengan pemanfaatan internet dapat meminimalisir kendala waktu dan tempat
+perkembangan teknologi internet dapat dimanfaatkan oleh dinas kesehatan kota pontianak untuk meningkatkan pelayanan kesehatan bagi masyarakat dalam hal menyajikan informasi mengenai pelayanan kesehatan
+luas wilayah kota pontianak mencapai 107, 82 km 2 yang terdiri dari 6 kecamatan dan 29 kelurahan
+terdiri dari 10 rumah sakit, 3 rumah sakit bersalin, 23 puskesmas, dan 15 klinik
+fasilitas-fasilitas tersebut tersebar di seluruh kecamatan yang ada di kota pontianak dengan tujuan pemerataan fasilitas pelayanan kesehatan bagi masyarakat
+dengan banyaknya jumlah fasilitas kesehatan yang tersebar di kota pontianak maka diperlukan suatu portal sistem informasi yang dapat memberikan informasi terkini mengenai masing-masing fasilitas pelayanan tersebut
+sehingga masyarakat lebih cepat dan mudah untuk mendapatkan informasi fasilitas pelayanan kesehatan dan jenis-jenis pelayanannya di kota pontianak yang akurat dan tepat
+permasalahan mengenai sulitnya mengetahui informasi tentang fasilitas pelayanan kesehatan
+seperti mengetahui lokasi fasilitas pelayanan kesehatan
+walaupun masyarakat mengetahui alamat dari fasilitas pelayanan kesehatan tetapi masyarakat tidak tahu lebih detail mengenai alamat lokasi tersebut
+kemudian kurangnya informasi yang didapati oleh masyarakat tentang jadwal praktek dokter yang bertugas pada fasilitas pelayanan kesehatan
+sehingga masyarakat tidak mengetahui status kehadiran dokter, status pelayanan dan status registrasi pendaftaran untuk mendapatkan pelayanan kesehatan
+akibat dari permasalahan ini masyarakat sulit menemukan jadwal dokter yang akurat dan mengakibatkan sia-sianya kedatangan masyarakat ke fasilitas pelayanan kesehatan tersebut
+langkah awal yang dilakukan dalam pembuatan data dilanjutkan dengan pengolahan data dan penyajian dalam bentuk peta
+berdasarkan pengertian tersebut, pemetaan menjadi solusi dalam menginformasikan lokasi dari suatu tempat berdasarkan data-data yang diolah oleh sistem
+sistem yang dirancang berupa pemetaan dari data- data fasilitas pelayanan kesehatan yang ada di kota pontianak
+fitur pencarian mengenai data fasilitas pelayanan kesehatan serta data dokter menampilkan hasil berupa informasi-informasi terkait serta mentransformasikan alamat dari masing-masing sehingga masyarakat akan lebih mudah dan cepat untuk mendapatkan data yang mereka cari
+berdasarkan kebutuhan tersebut, diharapkan informasi fasilitas pelayanan kesehatan, informasi jenis-jenis pelayanan kesehatan, informasi jadwal praktek dokter, status kehadiran dokter dari pelayanan kesehatan di kota pontianak
+lokasi dan informasi fasilitas pelayanan kesehatan akan tervisualisasi pada sistem informasi pemetaan dengan menggunakan peta digital berbasis google maps
+yang dipimpin seorang kepala dinas yang berada di bawah dan bertanggung jawab kepada kepala daerah melalui sekretaris daerah
+prosedur-prosedur yang saling berhubungan, kegiatan atau untuk menyelesaikan suatu sasaran tertentu”
+sistem terkait dan bekerja sama untuk memproses masukan (input) yang ditujukan kepada sistem tersebut dan mengolah masukan tersebut sampai menghasilkan keluaran (output) yang diinginkan
+kristanto dalam bukunya perancangan sistem informasi & aplikasinya menerangkan: 
+informasi adalah data yang telah diolah menjadi bentuk yang lebih berarti dan berguna bagi penerimanya untuk mengambil keputusan masa kini maupun masa yang akan datang
+2.3 definisi informasi definisi informasi juga dapat dijelaskan oleh ladjamudin dalam bukunya analisis dan desain sitem informasi menerangkan: 
+suatu sistem yang dibuat oleh manusia yang terdiri dari komponen–komponen dalam organisasi untuk mencapai suatu tujuan yaitu menyajikan informasi”
+aplikasi dan situs web yang menghubungkan dua atau lebih sumber data
+2.5 definisi google maps api google maps api adalah api yang popular di internet pencatatan yang dilakukan pada bulan mei tahun 2010 ini menyatakan bahwa 43% mashup menggunakan google maps api
+beberapa tujuan dari penggunaan google maps api adalah untuk melihat lokasi, mencari alamat, mendapatkan petunjuk mengemudi dan lain sebaginya
+hampir semua hal yang berhubungan dengan peta dapat memanfaatkan goole map
+2.6 data flow diagram definisi data flow diagram adalah model dari sistem untuk menggambarkan pembagian sistem ke modul yang lebih kecil
+salah satu keuntungan menggunakan diagram aliran data adalah memudahkan pemakai atau user yang kurang menguasai bidang komputer untuk mengerti sistem yang akan dikerjakan
+model entity- relationship yang berisi komponen-komponen masing dilengkapi dengan atribut-atribut yang mempresentasikan seluruh fakta dari dunia nyata yang kita tinjau, dapat digambarkan dengan lebih sistematis dengan menggunakan entity relationship diagram (erd)
+menurut fathansyah 
+2.8 definisi basis data definisi basis data dapat dijelaskan oleh fathansyah dalam bukunya basis data menerangkan: “basis data terdiri dari 2 kata, yaitu basis dan data
+basis data adalah kumpulan data yang saling berhubungan yang disimpan secara bersama sedemikian rupa dan tanpa pengulangan yang tidak perlu, untuk memenuhi berbagai kebutuhan”
+mysql adalah sebuah program database server yang mampu menerima dan mengirimkan datanya dengan sangat cepat, multi user serta menggunakan perintah standar sql (structured query language)
+dalam bukunya database relational dengan mysql menerangkan: 
+validitas adalah suatu tingkatan yang mengukur karakteristik yang ada dalam fenomena didalam penyelidikan
+menurut malhotra 
+koefisien validitas diukur dari korelasi product moment kasaratau korelasi pearson yang dirumuskan sebagai berikut
+keterangan: x = skor total keseluruhan item k = banyaknya item n = jumlah pengamatan mengukur konsistensi hasil jika dilakukan pengukuran berulang pada suatu karakteristik

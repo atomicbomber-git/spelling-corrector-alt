@@ -1,0 +1,48 @@
+zero waste merupakan salah satu kondisi yang dapat dicapai dengan pemanfaatan green technology untuk menghasilkan lingkungan operasi agrobisnis yang mendukung
+sebuah konsep integrasi tanaman-ternak yang diperkenalkan oleh fao menjadi salah satu hal yang dapat diterapkan untuk membantu mengurangi pembuangan limbah dan biaya operasional usaha
+pada paper ini dilakukan perancangan sebuah sistem informasi yang dapat diterapkan pada sebuah organisasi kelompok agrobisnis skala rumah tangga untuk mendukung aplikasi konsep integrasi tanaman-ternak dengan mengolah limbah secara kolektif
+sistem informasi yang dibangun diharapkan dapat membantu pengawasan proses pengumpulan limbah kolektif serta membantu perhitungan distribusi
+pengujian rancangan dilakukan dengan membangun simulasi implementasi sistem untuk membuktikan fungsionalitas sistem
+pendahuluan sektor terbesar yang mengikat lebih dari 40% tenaga kerja di indonesia
+namun, sektor ini dapat dikatakan tidak mengalami perkembangan yang signifikan baik dari tingkat pendapatan
+semakin sedikit rumah tangga yang meneruskan mata pencaharian pada bidang agrobisnis dikarenakan rendahnya tingkat keberlanjutan usaha pada sektor ini
+sebuah konsep yang diperkenalkan oleh fao bertujuan untuk meningkatkan keuntungan dan tingkat produk usaha pertanian dan peternakan, sementara menekan dampak negatif pada lingkungan
+konsep ini dikenal dengan nama integrated crop-livestock atau integrasi tanaman-ternak
+implementasi konsep ini pada sebuah sistem digambarkan dengan aktivitas usaha yang dicirikan dengan keterkaitan erat komponen tanaman dan ternak dalam suatu usaha atau suatu wilayah sebagai faktor pemicu pertumbuhan pendapatan masyarakat
+keterkaitan yang dimaksud adalah pemanfaatan produk limbah sebagai sumber daya untuk produksi komoditas lainnya
+praktiknya sudah diketahui oleh rumah tangga usaha
+namun, praktik tersebut didasari atas kebutuhan individual dan tidak dilakukan secara sistematis
+sementara, potensi implementasi sistem pada tingkat wilayah tidak dapat diabaikan
+untuk dapat mengangkat implementasi sistem pada tingkat wilayah, dibutuhkan sebuah pihak yang akan bertanggung jawab untuk melakukan pengelolaan limbah kolektif
+organisasi kelompok rumah tangga usaha merupakan lembaga yang diakui pemerintah sebagai salah satu lembaga masyarakat dan salah satu kelembagaan yang menjadi obyek revitalisasi pemerintah adalah gabungan kelompok tani 
+organisasi ini sendiri tidak memiliki fungsi yang spesifik dan disesuaikan dengan kebutuhan dari anggotanya
+adalah organisasi food hubs yang berkembang di amerika
+organisasi ini didefinisikan sebagai organisasi yang mengelola agregasi, distribusi, dan pemasaran produk- produk makanan
+adopsi model organisasi food hubs pada organisasi setingkat gapoktan dapat dilakukan dengan memberikan peran pengelolaan limbah kolektif wilayah
+untuk itu, dibutuhkan rancangan pengolahan sistem informasi yang dapat digunakan untuk mendukung proses pengelolaan perputaran limbah
+paper ini melakukan pembahasan terhadap rancangan proses, peran aktor, informasi, dan teknologi yang dibutuhkan untuk dapat mengimplementasi sistem yang mendukung praktik integrasi tanaman-ternak pada tingkat wilayah oleh organisasi kelompok rumah tangga usaha
+studi pustaka operasional yang kompleks membutuhkan sejumlah teknologi untuk membantu mengembangkan bisnis
+sebuah proyek dilakukan untuk mengembangkan panduan tentang road map bagi food hubs dalam mengimplementasi kebutuhan solusi teknologi yang sesuai terhadap kebutuhannya
+berdasarkan panduan tersebut, organisasi food hubs harus memahami terlebih dahulu kategori fungsi dan proses dari operasinya
+terdapat empat jenis kategori food hubs yang dideskripsikan sebagai berikut
+1) b2b: traditional meliputi agregasi, pengepakan, penyimpanan, pemasaran, dan distribusi produk dari penanam hingga pembeli
+kategori ini dibedakan dengan penjualan yang dilakukan oleh hub dibanding langsung dari penanam
+2) b2b: processing agregasi dari masukan mentah untuk diproses menjadi produk akhir yang dijual dan distribusikan kepada pembeli
+salah satu ciri dari hub ini adalah berfokus pada pemrosesan branding produk akhir
+hub ini menagih biaya dari dukungan logistik yang disediakan
+pada umumnya hub ini memiliki sebuah portal online yang memungkinkan pembeli memilih dan membeli produk yang diinginkan
+4) b2c: farmer market mengelola, dan memasarkan suplai
+ciri khusus dari kategori ini adalah dengan penyediaan csa 
+namun, terdapat struktur pengelolaan layanan yang memungkinkan pembeli untuk melakukan pemesanan tiap musim tanam atau melakukan jeda pemesanan, dan lain-lain
+kebutuhan fungsional dari teknologi yang diterapkan pada kategori-kategori food hubs di atas meliputi beberapa hal dan disesuaikan berdasarkan kebutuhan kategorinya
+daftar fungsi yang dapat didukung teknologi meliputi planning & forecasting, manajemen suplai, pembelian, lembar harga, manajemen pelanggan, manajemen inventaris, manajemen pemrosesan, traceability, dan pelaporan, dan lain sebagainya
+fungsi-fungsi ini diintegrasikan kepada sebuah enterprise resource planning yang akan digunakan oleh food hub
+management information system mendukung bentuk-bentuk pengelolaan
+lyytinen & komunikasi yang ditata ulang dan diperluas dalam pengembangan sistem informasi untuk memenuhi tujuan organisasi
+tren pemanfaatan sim telah banyak diadopsi oleh badan usaha dengan istilah enterprise resource planning 
+seperti manajemen inventaris, distribusi, dan proses pasok merupakan hal yang harus dikelola dengan baik pada sektor ini
+pemanfaatan teknologi informasi dapat digunakan dan masih berpotensi untuk dikembangkan lebih jauh agar mampu meningkatkan efisiensi dan mengurangi pembuangan nilai dalam produksi
+penerapan teknologi informasi dapat dibedakan untuk tiga kategori, yaitu manajemen rantai pasok, traceability, dan jaringan distribusi
+diimplementasikan dalam bentuk sistem yang menggambarkan aktivitas usaha yang dicirikan dengan keterkaitan erat komponen tanaman dan ternak
+keterkaitan yang dimaksud adalah penggunaan produk limbah agar bermanfaat bagi komoditas lainnya
+beberapa keuntungan yang didapatkan dari implementasi sistem ini meliputi peningkatan kapasitas produktif tanah, ekonomis dan efisien, penekanan biaya produksi, serta penyediaan pilihan sumber daya beragam

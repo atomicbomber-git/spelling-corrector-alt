@@ -1,0 +1,69 @@
+angin sebagai salah satu fenomena alam yang mempengaruhi berbagai aspek dalam kehidupan manusia baik pengaruh positif maupun negatif
+aspek ini berperan besar dalam ekonomi, pariwisata, pembangunan, transportasi maupun perdagangan masyarakat
+data angin dalam hal ini kecepatan angin belum dapat diketahui secara pasti nilainya oleh karena itu perlu adanya prediksi
+adaptive neuro fuzzy inference system dan radial basis function neural networkc adalah algoritma yang dapat digunakan untuk prediksi data
+penelitian ini menggunakan anfis dan rbfnn untuk memprediksi kecepatan angin
+data prediksi yang digunakan dalam penelitian ini adalah data time series
+data kecepatan angin diperoleh dari bmkg tanjungpinang, kepualuan riau
+hasil prediksi dengan kedua metode ini dibandingan dengan data asli untuk mengetahui metode mana yang lebih akurat dalam prediksi data
+hasil pengujian menggunakan kedua algoritma memperlihatkan akurasi terbaik diperoleh oleh rbfnn yaitu dengan nilai rmse adalah 0, 1766 dan hasil rmse anfis adalah 1, 1456
+pendahuluan dapat dipisahkan dari kehidupan manusia
+angin memegang peranan penting dalam berbagai aspek kehidupan manusia
+peranan penting angin antara lain dalam bidang transportasi laut yaitu pelayaran, transportasi udara dimana angin sebagai salah satu unsur meteorologi penting dalam proses lepas landas, penerbangan, dan mendarat, sumber energi alternatif terbarukan yaitu sebagai salah satu sumber pembangkit tenaga listrik untuk mengatasi masalah keterbatasan sumber daya energi
+fenomena alam ini juga memberikan dampak negatif yang dapat merugikan dan menimbulkan masalah bagi manusia ketika menghasilkan kecepatan dan kekuatan melebihi normal
+kecepatan angin tidak dapat dipastikan karena berubah-ubah setiap waktu
+prediksi kecepatan angin dapat digunakan untuk mencegah dampak negatif dari angin dan mengoptimasi peranan positif angin dalam kehidupan sehari-hari manusia
+perbagai penelitian telah dilakukan terkait prediksi dengan menggunakan anfsis dan rbfnn
+dewi dan himawati melakukan prediksi tingkat pengangguran menggunakan adaptive neuro fuzzy inference system 
+penelitian ini mengimplementasikan anfis dengan inferensi fuzzy sugeno orde-satu, fungsi aktivasiyang digunakan adalah sigmoid biner dan menggunakan fungsi keanggotaan generalized bell
+dari 70 data latih nilai learning rate 0, 6 memberikan hasil paling optimal yaitu memberikan nilai rmse 1, 274 dan akurasi prediksi adalah sebesar 93, 33%
+dipaparkan dalam penelitian kalaiselvi dan nasira
+hasil percobaan yang menggunakan 768 data dengan atribut jumlah kali kehamilan, tingat glukosa, tekanan darah, ruam dan ketebalan kulit, usia dan silsilah diabetes, didapat hasil prediksi dengan tingkat akurasi sebesar 80%
+anfis dengan clustering menggunakan fuzzy c-means dalam mengklasifikasi malware pada sistem operasi android
+svalina dan simunovic mengembangkan model untuk memprediksi harga penutupan saham di zagreb stock exchange crobex untuk 5 hari kedepan menggunakan anfis
+data input dan output merupakan data historikal dari 4 november 2010 hingga 24 januari 2012
+penelitian ini menampilkan estimasi secara kualitatif dan kuantitatifyang menunjukkan bahwa anfis dapat digunakan untuk prediksi harga saham penutupan
+rout dan dash menggunakan rbfnn dan algoritma pembelajaran lavenberg-marquardt untuk memprediksi pembelajaran lavemberg-marquardt diintegrasikan 
+data yang digunakan adalah mata uang dollar amerika terhadap 4 mata uang lainnya yaitu euro, rupee, dolar canada dan dolar australia dari periode january 2004 hingga january 2014
+hasil prediksi dari flrbf dibandingkan dengan liner, nonlinear dan hybrid neural network
+hasil perbadingan menunjukkan flrbf lebih baik dari semua metode yang dibandingan
+akurasi prediksi diketahui dengan menggunakan indikator akurasi yaitu mean absolute error, root mean squared error dan mean absolute percentage error 
+prediksi penyakit ginjal kronik menggunakan radial basis function
+penelitian ini menggunkan struktur 24-2-2, yaitu 24 input layer, 2 node pada hidden layer, dan 2 node pada output layer, hasil akurasi prediksi dari hasil pengujian adalah 93.75%
+rbfnn digunakan oleh chang untuk memprediksi beban listrik jangka pendek
+jumlah node input yang juga merepresentasikan varibel input pada penelitian ini ada 4 yaitu data 20 menit sebelum, data 10 menit sebelum, data saat ini dan data suhu
+jumlah data yang digunakan adalah 740 data
+metode yang digunakan untuk menentukan tingkat akurasi prediksi adalah maximum absolute percentage error dan mape
+anifs dan rbfnn untuk memprediksi kecepatan angin dengan tujuan untuk mengetahui metode yang memiliki tingkat akurasi paling baik, yang dalam hal ini adalah hasil akurasi data hasil prediksi paling mendekati data asli
+data oktober di pulau bintan berjumlah 296 data
+data ini diperoleh dari bmkg tanjungpinang dalam bentuk time series
+untuk melakukan prediksi menggunakan metode anfis, data rata-rata kecepatan angin dibagi menjadi 2 untuk data pelatihan dan data pengujian 
+pembagian data yang digunakan adalah 80% untuk pelatihan dan 20% digunakan untuk pengujian
+proses training digunakan sebagai proses pembelajaran dan untuk mencari parameter premis yang menghasilkan error terkecil
+skala beaufort merupakan skala untuk mengukur kecapatan angin yang digunakan dalam penelitian ini
+skala ini mengukur kecepatan angin dengan menggambarkan pengaruhnya pada gelombang air laut
+skala beaufort digunakan pada proses anfis yaitu untuk proses klasifikasi data menggunakan fuzzy c-means
+tahun 1947 wmo atau organisasi meteorologi dunia menetapkan standar baku skala beaufort seperti terlihat pada tabel i
+0 calm 2 light breeze 4–6 knots 3 gentle 6 strong 8 gale gale-force 34–40 knots 10 storm teknik evaluasi hasil peramalan yang digunakan dalam penelitian ini adalah rmse
+rmse telah digunakan sebagai matrik statistik standar untuk mengukur keakuratan kinerja berbagai model
+evaluasi untuk mengetahui tingkat perbedaan antara hasil peramalan dengan nilai data yang sebenarnya terjadi
+korespondensi : nerfita nikentari 72 dilakukan oleh anfis dan rbf
+arsitektur anfis dan rbfnn ∏ ∏ w1 w2 w1 w2 arsitektur dari anfis dapat dilihat pada gambar 2, dimana parameter awal anfis dengan clustering menggunakan metode fuzzy c-means adalah sebagai berikut : dapat dilihat pada gambar 4
+pada rbfnn untuk menentukan pusat kluster dilakukan secara random, dengan fungsi aktivasi yang digunakan adalah gaussian, data parameter yang digunakan adalah sebagai berikut : jumlah variabel input : 5 pengujian
+pelatihan dan pengujian dengan menggunakan jumlah masukan 1 variabel input berupa data rata- rata kecepatan angin pada hari sekarang dan data rata-rata kecepatan angin pada hari selanjutnya untuk variabel output
+pelatihan dan pengujian dengan menggunakan jumlah masukan 2 variabel input berupa data rata- rata kecepatan angin pada hari sebelumnya, data rata-rata kecepatan pada angin hari sekarang dan data rata-rata kecepatan angin pada hari selanjutnya untuk variabel output
+pelatihan dan pengujian dengan menggunakan jumlah masukan 4 variabel input berupa data rata- rata kecepatan angin pada hari sebelumnya, data rata-rata kecepatan pada angin hari sekarang dan data rata-rata kecepatan angin pada hari selanjutnya untuk variabel output
+keempat model data set dilatih dan diuji lalu dibandingkan untuk menemukan model arsitektur anfis terbaik yang memberikan hasil prediksi yang optimum
+prediksi rata-rata kecepatan angin diambil dari hasil pengujian yang memberikan rata-rata kesalahan terkecil yang diukur menggunakan rmse
+grafik perbandingan rmse pada proses pelatihan dan pengujian dari masing- masing model data set dapat dilihat pada gambar 4
+4 grafik perbandingan rmse pada data latih dan uji pada semua model data set latih dan uji terbaik adalah model ke 4 ditunjukkan dengan nilai rmse paling kecil dan angka akurasi paling tinggi dibandingkan dengan model lainnnya
+data hasil prediksi menggunakan model ke 4 dapat dilihat pada tabel 2
+tabel ii hasil pengujian pada data set model ke-4 no … … … … … … … … … … … … … … …
+tebel ii dan gambar 6 menunjukkan data hasil pengujian mendekati nilai dari data target latih dan uji input data, 5 neuron pada hidden layer dan 1 output
+variabel input terdiri dari 5 yaitu berupa data rata-rata kecepatan angin pada hari sebelumnya, data rata-rata kecepatan pada angin hari sekarang 
+hasil pengujian dibandingkan dengan data akurasi dapat dilihat pada tabel 3
+… … perbandingan hasil prediksi rbfnn dapat dilihat pada gambar berikut : gambar 7
+perbandingan hasil data hasil prediksi dan data asli menggunakan rbfnn dari kedua hasil prediksi anfis dan rbfnn dibandingan dengan data asli, hasil perbandingan dapat dilihat dari tabel 4 dan gambar 8
+nilai rmse kedua metode dapat dilihat pada tabel 5 tabel iv hasil perbandingan prediksi anfis dengan rbfnn dengan target anfis 1, 1456 rbf 0, 1766 gambar 8
+perbandingan hasil data hasil prediksi dan data asli menggunakan rbfnn iv
+kesimpulan 0, 1766 sedangkan rmse anfis adalah 1, 1456, hal ini menunjukkan bahwa metode rbff lebih baik dari pada anfis untuk prediksi kecepatan angin

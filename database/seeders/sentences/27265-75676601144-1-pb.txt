@@ -1,0 +1,115 @@
+eee paper template in a4 vol 5 no 1 april 2019 analisis pengaruh banyak orde pada metode multivariate high-order dwi kartini #1, husna rusdiani #2, andi farmadi #3 # program studi ilmu komputer fakultas matematika dan ilmu pengetahuan alam, universitas lambung mangkurat jalan ahmad yani km
+36 banjarbaru 1 dwikartini@ulm.ac.id 2 rusdianihusna@gmail.com 3 andifarmadi@ulm.ac.id pembangkitan listrik, sehingga dma harus dikontrol sebaik mungkin agar tidak mengalami degradasi berlebihan
+degradasi dan luapan dma yang berlebihan perlu dikontrol, sehingga perlu dilakukan prediksi dma agar dapat mempermudah pihak plta dalam melakukan pengontrolan tinggi dma
+duga muka air plta dipengaruhi oleh dua faktor, yakni inflow dan outflow air waduk
+pada penelitian ini, dilakukan prediksi duga muka air dengan menggunakan metode multivariate high-order fuzzy time series
+penelitian ini menggunakan data harian dma, inflow, dan outflow air waduk, dimana dma menjadi faktor utama dan inflow dan outflow menjadi faktor pendukung
+multivariate high-order fuzzy time series merupakan salah satu pengembangan dari metode fuzzy time series yang dapat digunakan untuk melakukan peramalan dengan menggunakan data kurun waktu
+berdasarkan penelitian ini, didapatkan bahwa prediksi dma dengan menggunakan metode multivariate high-order fuzzy time series memiliki nilai mape yang rendah, dimana nilai mape terbaik didapat pada saat pengujian dengan menggunakan rentang waktu tiga bulan dengan nilai mape untuk orde 1 hingga 5 secara berturut-turut adalah 0.06169%, 0.02535%, 0.018%, 0.01598%, dan 0.01598%
+pada metode multivariate high order fuzzy time series, didapatkan bahwa faktor pendukung dan banyaknya orde dapat membantu meningkatkan keakuratan prediksi
+pendahuluan produksi energi listrik yang dapat dihasilkan oleh plta
+ketinggian duga muka air dipengaruhi oleh dua hal, pertama adalah jumlah masuknya air dan air yang digunakan untuk memutar turbin 
+diketahui bahwa duga muka air sangatlah berpengaruh dalam operasi pembangkitan listrik, sehingga dma harus dikontrol sebaik mungkin agar tidak mengalami degradasi berlebihan, yang mengakibatkan plta tidak dapat melakukan operasi pembangkitan listrik
+dma juga tidak boleh melebih titik maksimum agar tidak terjadi luapan air yang dapat berakibat fatal bagi lingkungan sekitar
+data urut waktu merupakan kumpulan pengamatan data yang terurut dalam suatu kurun waktu
+metode time series merupakan metode prediksi yang menggunakan analisis pola relasi antar variabel yang akan diprediksi dengan variabel waktu
+dalam melakukan prediksi suatu data time series tipe atau pola data sangat perlu untuk diperhatikan
+salah satu pola data time series adalah pola data musiman, yaitu pola data periodik yang terjadi selama kurun waktu satu tahun, yang terdiri atas triwulan, kuartalam, bulanan, mingguan, atau harian
+metode prediksi dengan menggunakan fuzzy time series pertama kali dikembangkan oleh song dan chissom pada tahun 1996
+song dan chissom melakukan prediksi untuk mengetahui jumlah pendaftar di universitas alabama
+fuzzy time series merupakan salah satu metode soft computing yang telah digunakan dan diterapkan dalam melakukan analisis data runtun waktu
+tujuan utama dari fuzzy time series adalah untuk memprediksi data runtun waktu yang dapat digunakan secara luas pada sembarang data real time
+multivariate-high-order fuzzy time series time series
+pada prediksi dengan menggunakan multivariate high-order fuzzy time series, memiliki korespondensi : husna rusdiani 10 digunakan untuk melakukan prediksi dengan menggunakan metode fuzzy time series biasa
+.pada penelitian yang dilakukan oleh i made candra satria pada tahun 2015, dimana ia melakukan komparasi prediksi jumlah wisatawan australia ke bali menggunakan metode fuzzy time series dengan multivariate high-order fuzzy time series, hasil prediksi menunjukkan bahwa prediksi dengan menggunakan multivariate high-order fuzzy time series memiliki keakuratan lebih tinggi dibanding dengan menggunkan fuzzy time series tanpa faktor pendukung
+sedangkan pada penelitian yang dilakukan oleh tahseen ahmed jilani di tahun 2008
+jilani menyatakan bahwa metode multivariate high order fuzzy time series dapat menghasilkan prediksi yang lebih akurat
+berdasarkan uraian tersebut maka akan dilakukan penelitian untuk melakukan prediksi duga muka air waduk plta dengan menggunakan metode multivariate high order fuzzy time series
+pada penelitian ini, peramalan akan dilakukan dengan mempertimbangkan tiga buah faktor, yaitu faktor ketinggian dma, volume air masuk, dan volume air keluar dengan ketinggian dma sebagai faktor utama dan dua faktor lainnya sebagai faktor pendukung
+peramalan pada penelitian ini juga akan menggunakan perubahan persentase data historis dari dma, inflow dan outflow, yang mana menurut penelitian sebelumnya dapat meningkatkan keakuratan peramalan
+, f, maka relasi logika fuzzy dapat dituliskan sebagai, f2 ),
+persamaan tersebut disebut sebagai pemodelan dual faktor orde ke-n peramalan fuzzy time series
+dimana f1 dan f2 disebut sebagai faktor utama dan faktor pendukung
+dengan cara yang sama, maka kita dapat mendefinisikan m-faktor orde ke-n relasi logika fuzzy dengan persamaan, f2 ),
+pada persamaan ini, f1 disebut sebagai faktor utama dan f2, f3,
+, fm disebut sebagai faktor pendukung fuzzy time series
+pada multivariate high-order fuzzy time series, tahap- tahap yang perlu dilakukan untuk melakukan prediksi, pada dasarnya sama dengan metode fuzzy time series yang telah diajukan oleh song dan chissomdan chen
+berikut ini adalah langkah-langkah untuk melakukan prediksi berdasarkan padadandengan menggunakan multivariate high-order fuzzy time series
+definisikan himpunan semesta u dari faktor utama dengan persamaanu= |dmin – d1, dmax + d2| … dimana dmin dan dmax merupakan nilai minimum dan maksimum data historis faktor utama, sedangkan d1 dan d2 merupakan bilangan real positif sembarang untuk membagi himpunan semesta menjadi beberapa interval u1, u2,
+kemudian, dengan cara yang sama definisikan himpunan semesta faktor pendukung
+definisikan nilai linguistik ai, yang didefinisikan oleh fuzzy set dari faktor utama dan nilai linguistik dari faktor pendukung yang direpresentasikan dengan bi, j, dimana i =1, 2,
+fuzzifikasikan data historis dari faktor utama dan faktor pendukung
+, p, yang mana terdapat nilai dari faktor utama pada data historis, dengan beberapa kondisi berikut: tersebut difuzzifikasikan ke dalam 1/a1 + 0, 5/a2 + 0, 0/a3, yang dinotasikan dengan x1
+jika nilai dari faktor utama terdapat pada interval ul, l = 2, 3,
+, p-1, maka nilai dari faktor utama tersebut difuzzifikasikan ke dalam 0, 5/ai-1 + 1/ai + 0, 5/ai+1, yang dinotasikan dengan xi
+tersebut difuzzifikasikan ke dalam 0/an-2 + 0, 5/an-1 + 1/an, yang dinotasikan dengan xn
+untuk faktor pendukung, temukan interval vi, l, yang mana terdapat nilai dari faktor utama pada data historis, dengan beberapa kondisi berikut: kondisi 1
+jika nilai dari faktor pendukung ke-i terdapat pada interval vi, 1, maka nilai dari faktor pendukung tersebut difuzzifikasikan ke dalam 1/bi, 1 + 0, 5/bi, 2 + 0, 0/bi, 3, yang dinotasikan dengan yi, 1 = [y1, 1, y2, 1,
+, p-1, maka nilai dari faktor pendukung ke-i tersebut difuzzifikasikan ke dalam 0, 5/bi, j-1 + 1/bi, j + 0, 5/bi, j+1, dimana j = i = 2, 3,
+jika nilai dari faktor pendukung ke-i terdapat pada interval vip, maka nilai dari faktor pendukung tersebut difuzzifikasikan ke dalam 0/bi, n-2 + 0, 5/bi, n-1 + 1/bn, yang dinotasikan dengan yi, n
+bentuk relasi logika fuzzy dari faktor ke-m orde ke-k berdasarkan nilai fuzzifikasi data historis dari faktor utama dan faktor pendukung
+persamaan bentuk relasi dapat dituliskan dengan (xj-k; y2, j-k,
+, ym-1, j-1) xj, dimana j>k, dan xj-k menampilkan step ke-k ketergantungan dari nilai ke-j faktor utama xj, yi, j-k, i =1, 2,
+kemudian bagi relasi logikal fuzzy ke dalam kelompok relasi logikal fuzzy berdasarkan status saat ini dari relasi logikal fuzzy
+faktor pendukung berperan seperti komponen pendukung terhadap m-dimensional vektor kondisi
+, dan dimana k 2; k adalah banyak nya orde; x dan y melambangkan nilai fuzzyfikasi faktor utama dan pendukung berturut- turut; xik, xi,
+, xi1 dan xj merupakan nilai fuzzifikasi yang direpresentasikan oleh fuzzy set dari faktor utama; yik, yi,
+, yi1 merupakan nilai fuzzyfikasi yang direpresentasikan oleh fuzzy set faktor pendukung, dan pada flr di orde ke-k flrg adalah, , yi ),
+, xj, maka nilai prediksi tj dari hari ke-i dihitung dengan menggunakan persamaan berikut: interval uj-1, uj, dan uj+1
+sedangkan nilai j adalah indeks yang menunjukkan nilai fuzzy set yang banyaknya dilambangkan dengan n
+jika m-faktor orde ke-k nilai fuzzifikasi data historis sebelum hari ke-i adalah, , yi,
+, dan dimana k 2; k adalah banyaknya orde; x dan y melambangkan nilai fuzzyfikasi faktor utama dan pendukung berturut turut xik, xi,
+, xi1 dan xj merupakan nilai fuzzifikasi yang direpresentasikan oleh fuzzy set dari faktor utama; yik, yi,
+, yi1 merupakan nilai fuzzyfikasi yang direpresentasikan oleh fuzzy set faktor pendukung, dan pada flr di orde ke-k flrg adalah sebagai berikut:
+dimana k adalah banyaknya orde, i merupakan indeks yang mewakili banyaknya fuzzy set, xik, xi 
+, dan xjp adalah fuzzy sets dari faktor utama dan yik, yi,
+, yi1 adalah fuzzy set dari faktor pendukung dan bilangan dari xj1, xj2,
+, dan xjp, dimana indeks p menunjukkan banyaknya flrg yang muncul, sedangkan indeks j mewakili nilai fuzzy set dari x yang muncul
+, dan xjp yang muncul pada flrg dilambangkan dengan nj1, nj2,
+, dan njp, maka hasil prediksi dapat dihitung dengan menggunakan persamaan berikut: … menggunakan persamaan pada prinsip pertama
+ jika m-faktor orde ke-k nilai fuzzyfikasi data historis sebelum hari ke-i adalah, , yi,
+, dan, dimana k 2; k adalah banyak nya orde; x dan y melambangkan nilai fuzzyfikasi faktor utama dan pendukung berturut turut; xik, xi,
+, xi1 dan xj merupakan nilai fuzzifikasi yang direpresentasikan oleh fuzzy set dari faktor utama; yik, yi,
+, yi1 merupakan nilai fuzzyfikasi yang direpresentasikan oleh fuzzy set faktor pendukung, dan pada flr di orde ke-k flrg adalah tidak diketahui atau digambarkan dengan #, dengan persamaannya adalah, , yi ),
+, #, maka untuk menghitung hasil prediksi dilakukan dengan persamaan: … dengan menggunakan persamaan pada prinsip pertama atau persamaan 8
+waduk dengan menggunakan metode multivariate high- order fuzzy time series
+data yang digunakan merupakan data kurun waktu pencatatan dma, inflow, dan outflow waduk selama 1 tahun yang diolah dengan menggunakan microsoft excel
+variabel yang digunakan pada penelitian ini adalah data tinggi duga muka air waduk, variabel inflow air waduk, serta variabel outflow air waduk
+variabel tersebut merupakan data kurun waktu harian dari tanggal 1 desember 2016 hingga 31 desember 2017
+variabel tersebut dibagi menjadi dua kategori, yakni variabel faktor utama dan variabel faktor pendukung
+variabel yang akan diprediksi adalah tinggi duga muka air waduk, yang mana pada teori metode multivariate high order fuzzy time series sehingga variabel yang menjadi faktor utama adalah variabel yang akan diprediksi nilainya
+sementara itu, faktor pendukung pada penelitian ini adalah variabel inflow air dan outflow air waduk
+kedua variabel tersebut dijadikan sebagai faktor pendukung dikarenakan kedua variabel tersebut merupakan faktor yang mempengaruhi fluktuasi tinggi duga muka air waduk
+pada penelitian ini, prediksi tinggi duga muka air waduk akan dilakukan dengan menggunakan data persentase perubahan kenaikan data
+sehingga, data kurun waktu dma, inflow air, dan outflow air akan dirubah menjadi data persentase terlebih dahuludan
+pengkonversian data aktual menjadi data persentase tersebut dilakukan dengan menggunakan persamaan …
+data perubahan persentase tersebut selanjutnya akan kembali dirubah menjadi data aktual setelah didapat nilai hasil prediksi dari dma
+prediksi dengan metode multivariate high-order fuzzy time series berdasarkan langkah-langkah yang ada pada metode multivariate high-order fuzzy time series, maka prediksi duga muka air waduk plta adalah sebagai berikut: 1
+pendefinisian himpunan semesta himpunan semesta pada metode fuzzy time series digunakan untuk menentukan besar interval dan pembagian range data interval untuk prediksi dma
+pendefinisian himpunan semesta dilakukan dengan menggunakan persamaan |dmin – d1, dmax + d2 |, yang mana dmin dan dmax merupakan nilai minimum dan maksimum dari sebuah range data
+sedangkan nilai d1 dan d2 merupakan dua bilangan riil positif yang dipilih secara sembarang
+dengan menggunakan pengujian untuk melakukan prediksi tanggal 1 desember 2017, dengan menggunakan rentang data historis selama 3 bulan, berikut ini merupakan perhitungan himpunan semesta untuk dma, inflow, dan outflow: = [-0.1233 – 0.0767, 0.3651 + 0.0349] u dma = [-0.2, 0.4]; d2inflow|] d2outflow|] 2
+pembentukan interval data untuk menentukan jumlah interval, dilakukan dengan menggunakan persamaan statistika seperti yang dijabarkan padasebagai berikut: … jarak antara satu interval ke interval lain dilakukan dengan menggunakan persamaan seperti terdapat pada: … nilai u1
+fuzzyfikasi data fuzzyfikasi data dilakukan dengan merubah data historis ke dalam bentuk nilai linguistic fuzzy
+dalam penelitian ini nilai lingustik fuzzy untuk faktor utama dilambangkan dengan ai, sedangkan kedua faktor pendukung dilambangkan dengan b1i dan b2i di mana merupakan jumlah interval dan fuzzifikasi data dilakukan dengan mencocokkan nilai data historis masing-masing variabel ke dalam nilai interval sehingga, misalkan untuk menentukan fuzzifikasi data untuk tanggal 1 september 2017, data dma adalah - 0.1104%
+data dma tersebut masuk ke dalam interval u2, sehingga didapat nilai fuzzifikasi untuk data tanggal 1 september 2017 adalah a2, dimana pada fuzzy set a2
+, ym-1, j-1) xj … sekarang, x dan dan y merupakan faktor utama dan faktor pendukung secara berturut-turut
+fuzzy logic relationship yang terbentuk untuk range data 1 september – 1 desember 2017 ditunjukkan pada tabel 9
+pembentukan fuzzy logic relationship group pembentukan fuzzy logic relationship group dilakukan berdasarkan hasil dari pendefinisian flr untuk masing-masing data
+pembentukan flrg dilakukan berdasarkan nilai ruas sebelah kiri flr, yakni bagian yang menunjukkan fuzzifikasi data ke t-k, yang memiliki nilai yang sama
+apabila nilai ruas sebelah kiri flr memiliki nilai yang sama, maka mereka akan dikelompokkan menjadi satu kelompok
+apabila sebuah fuzzy set memiliki lebih dari satu hubungan terhadap data ke-t yang ditunjukkan pada ruas sebelah kanan flr, maka fuzzy set tersebut tetap dianggap satu kelompok yang memiliki lebih dari satu relasi
+fuzzy set yang masih memiliki lebih dari satu hubungan terhadap data ke-t ambiguitas, karena memiliki lebih dari satu relasi
+flrg yang terbentuk untuk range data 1 september – 1 desember 2017 ditunjukkan pada tabel 10-14
+menghitung hasil prediksi sebagai contoh apabila ingin memprediksi dma untuk tangal 1 desember 2017 pada orde 2, dengan menggunakan rentang data sebanyak 3 bulan dari tanggal 1 september – 1 desember 2017, maka perhitungan dma diperoleh dengan mencari nilai flr untuk tanggal 1 desember 2017
+data aktual pada tanggal 1 desember 2017 adalah 56.240 dan nilai persentasenya adalah -0.0888%
+data tersebut berada pada range [-0.125, -0.005], sehingga termasuk pada interval u2 dengan nilai fuzzifikasi a2
+jika ditelusuri, maka flr untuk orde 2 pada tanggal 1 desember 2017 berdasarkan tabel 9 adalah: orde 2 :,  a2 setelah mendapatkan nilai flr untuk masing- masing order, maka langkah selanjutnya untuk menghitung prediksi dma adalah mencari nilai flrg yang sama dengan ruas kiri flr
+pada penelitian ini, didapatkan nilai flrg berdasarkan tabel 11, untuk orde 2 adalah sebagai berikut: orde 2 setelah didapatkan hasil flrg, maka dapat dilakukan perhitungan hasil prediksi dma dengan menggunakan prinsip multivariate high order fuzzy time series, pada prediksi orde 2 dilakukan dengan menggunakan prinsip 1, karena fuzzy set pada flrg hanya memiliki satu relasi ke fuzzy set lain
+sehingga, hasil prediksi dma untuk 1 desember dihitung dengan menggunakan persamaan: adalah: t2 = / t2 = + + 0.5 x ) / nilai data aktual, sehingga didapat hasil prediksi dma untuk 1 desember 2017 pada orde 2 adalah 56.241 cm
+tabel 15 menunjukkan hasil prediksi dma dari 1 – 31 desember dengan multivariate high order fuzzy time series untuk rentang waktu 3 bulan dan menunjukkan nilai eror dengan menggunakan perhitungan mapedengan persamaan x 100% …
+1 grafik hasil prediksi orde 5 untuk rentang waktu 3 bulan iv
+kesimpulan multivariate high order fuzzy time series, didapatkan bahwa: 1
+faktor pendukung dan banyaknya orde dapat membantu meningkatkan keakuratan prediksi
+faktor pendukung dan banyaknya orde berpengaruh ketika membentuk fuzzy logic relationship dan fuzzy logic relationship group, dimana keberadaan faktor pendukung dan banyaknya orde dapat memberikan lebih banyak variasi flrg, yang dapat mengurangi keambiguitasan relasi antar fuzzy set, dan meningkatkan keakuratan hasil prediksi
+hasil prediksi dma dengan menggunakan metode multivariate high order fuzzy time series memiliki tingkat keakuratan yang tinggi, dimana nilai mape terbaik didapat pada saat pengujian dengan menggunakan rentang waktu tiga bulan dengan nilai mape untuk orde 1 hingga 5 secara berturut-turut adalah 0.06169%, 0.02535%, 0.018%, 0.01598%, dan 0.01598%

@@ -1,0 +1,146 @@
+eee paper template in a4 vol 4 no 2 sistem kelas virtual dan pengelolaan pembelajaran berbasis #1, riza ibnu adam jl
+hs.ronggo waluyo, puseurjaya, telukjambe timur, kabupaten karawang, jawa barat 1 adhi.rizal@staff.unsika.ac.id 2 riza.adam@staff.unsika.ac.id 3 susilawati.sobur@staff.unsika.ac.id dan menerapkan sistem kelas virtual berbasis dunia virtual 3 dimensi 
+kelas virtual dikembangkan berdasarkan framework pengembangan aplikasi addie dengan meintegrasikan lms moodle, singularity viewer, sloodle, dan multi-user 3d application server opensimulator
+objek- objek yang ada pada kelas di dunia nyata direpresentasikan oleh objek 3d
+peserta didik dapat berinteraksi dengan objek-objek yang ada dalam kelas virtual untuk melaksanakan kegiatan pembelajaran
+pengujian kelas virtual dilakukan dengan cara menerapkannya untuk digunakan secara langsung oleh peserta didik dalam kegiatan pembelajaran
+pengujian dilakukan berdasarkan dua kriteria, yaitu evaluasi hasil belajar peserta didik dan uji penerimaan pengguna menggunakan technology acceptance model 
+hasil evaluasi hasil belajar menunjukan bahwa penggunaan kelas virtual tidak berpengaruh terhadap hasil belajar
+walaupun demikian, hasil uji penerimaan pengguna menunjukan bahwa kelas virtual dapat memberikan kepuasan dan dapat diterima untuk digunakan oleh peserta didik dalam proses pembelajaran
+beberapa perkembangan lingkungan belajar yang menerapkan media elektronik serta teknologi informasi dan komunikasi dalam pendidikan diantaranya mencakup pembelajaran multimedia, technology- internet-based training, web-based training, online education, virtual education, virtual learning environments, mlearning, dan digital educational
+dengan adanya teknologi tersebut, maka sangat dimungkinkan teknik dan cara pada proses maupun lingkungan pembelajaran dapat berubah
+hal ini disebabkan karena e-learning dapat memberikan kebebasan untuk peserta didik dengan pengajar atau sesama peserta didik dalam berinteraksi tanpa terbatas waktu dan ruang belajar
+terdapat banyak penelitian yang menyatakan bahwa pendekatan pembelajaran dengan berpusat pada peserta didik yang belajar dari dunia nyata dengan bantuan sumberdaya digital memiliki banyak kelebihan,
+namun, meskipun proses pembelajaran yang dilakukan dengan memanfaatkan teknologi dirasa cukup menjanjikan, namun hal ini masih jauh dari pembelajaran berbasis teknologi ideal yang dapat disebut sebagai ―smart learning‖
+lingkungan ―smart learning‖ tidak hanya memberikan peserta didik kemudahan akses terhadap sumberdaya digital dan berinteraksi dengan sistem pembelajaran di mana saja dan kapan saja tetapi juga harus dapat memberikan petunjuk/arahan, perangkat atau peralatan pendukung, atau sugesti positif dalam pembelajaran di waktu, tempat, serta bentuk yang tepat
+terlebih lagi di abad 21 ini tantangan dan kebutuhan terhadap dampak perkembangan teknologi mengubah perilaku dan kebiasaan manusia dalam menggunakan teknologi untuk berkomunikasi, berinteraksi, dan belajar
+hal ini mengakibatkan meningkatnya kebutuhan akan kemampuan khusus untuk mencapai tujuan atau mengatasi masalah tertentu
+untuk mengatasi hal ini, pendidikan membutuhkan penekanan terhadap pendekatan menggunakan pengetahuan yang sudah ada maupun yang baru
+hal ini dapat diupayakan dengan menerapkan inovasi teknologi pembelajaran seperti vle
+vle yang dapat disebut juga course management system berbasis 3 dimensi merupakan salah satu jenis e-learning yang marak diterapkan pada proses pembelajaran,
+vle merupakan objek yang dibangun dan dikembangkan dari komputer, memiliki sifat yang tidak terbatas, seperti permainan, dan biasanya dilengkapi dengan grafis 3 dimensi yang menyerupai dunia nyata
+pengguna dapat membuat karakter yang disebut sebagai avatar yang merepresentasikan dirinya sendiri di vle dan berpartisipasi dalam berbagai jenis kegiatan/aktivitas
+pemanfaatan multi-channel menunjukan emosi melalui internet di dalam dunia yang mirip dengan dunia nyata
+karena itu terdapat banyak peluang untuk memanfaatkannya di dunia pendidikan
+terlepas dari fakta bahwa vle memiliki tujuan utama sebagai sarana hiburan, pemanfaatan vle juga memiliki potensi yang besar untuk menjadi platform pendidikan yang inovatif di masa depan dengan cara melibatkan peserta didik dengan pembelajaran eksperimental yang mirip dengan dunia nyata
+lebih dari itu, sudah banyak institusi pendidikan yang menunjukan bahwa lingkungan virtual berbasis 3d dapat diterapkan di aktivitas pembelajaran pembelajaran,
+maka rumusan masalah pada penelitian ini adalah belum adanya studi yang bertujuan untuk menginvestigasi pengaruh sistem kelas virtual 3 dimensi terhadap hasil belajar peserta didik dan kurangnya motivasi atau minat peserta didik terhadap proses pembelajaran
+oleh karena itu penelitian ini mengusulkan suatu sistem pembelajaran berbasis komputer dalam bentuk kelas virtual yang dapat digunakan sebagai sarana pendukung dan pelengkap ruangan kelas yang sebenarnya
+konsep sistem pembelajaran yang akan dikembangkan adalah vle menggunakan perangkat lunak berbasis learning management system dan 3d virtual world
+konsep virtual learning yang diimplementasikan dalam bentuk 3 dimensi memiliki kelebihan dibandingkan konsep pembelajaran formal pada umumnya
+dengan demikian konsep e-learning yang terkesan monoton dan membosankan diharapkan dapat menjadi lebih hidup dan interaktif karena pada konsep 3d virtual learning pihak pengajar dan peserta didik harus bersama-sama melakukan kegiatan pembelajaran
+penelitian yang dilakukan olehmenunjukan bahwa penerapan 3d-vle dapat meningkatkan motivasi dan efisiensi proses pembelajaran
+kemudian penelitian serupa juga dilakukan olehyang bertujuan untuk menginvestigasi potensi dari multiuser- virtual environement sebagai lingkungan pembelajaran untuk ilmu pengetahuan alam, teknologi, dan matematika
+penelitian ini menunjukan bahwa peserta didik yang menggunakan muve sebagai alternatif dari proses pembelajaran tradisional memperoleh nilai hasil belajar yang lebih tinggi dibandingkan dengan peserta didik dengan proses pembelajaran tradisional selain itu penelitian terkait pengembangan vle juga dilakukan oleh
+penelitian ini menunjukan bahwa vle merupakan lingkungan belajar yang baik untuk diterapkan pada 21 st century learning, sehingga meningkatkan motivasi dan hasil belajar peserta didik
+3d virtual world merupakan lingkungan yang dihasilkan oleh komputer di mana pengguna dapat bereksplorasi dan berinteraksisesuai dengan keinginannya secara bebas
+konsep dunia virtual 3d ini mencakup opensimulator, 3d virtual campus tours, azivia, dan second life, di mana avatar 3d merepresentasikan setiap pengguna yang dapat berinteraksi satu sama lain di kehidupan sosial secara virtual
+lms merupakan aplikasi perangkat lunak berbasis web yang menggunakan basisdata sebagai tempat penyimpanan berbagai jenis informasi
+lms mengintegrasikan lingkungan pembelajaran interaktif dan menyediakan materi pembelajaran yang dapat disesuaikan dengan kebutuhan peserta didik dan pengajar
+lms yang paling marak digunakan saat ini adalah moodle
+di dalam moodle, pengajar dan peserta didik dapat melakukan beberapa aktivitas terkait pembelajaran, misalnya mempelajari konsep melalui slide, gambar, video, animasi, membuat atau mengerjakan soal, berdiskusi, dan sebagainya
+aplikasi ini dapat digunakan untuk membuat lingkungan virtual diakses melalui oleh klien dan mendukung banyak protokol komunikasi
+opensimulator juga memiliki fasilitas atau fitur opsional yang memungkinkan pengguna mengunjungi instalasi instalasi opensimulator-nya masing-masing
+moodle environment) merupakan perangkat lunak e-learning yang memungkinkan pengajar untuk membuat pembelajaran secara online dan mendukung interaksi antara pengajar dengan peserta didik
+moodle memungkinkan pengajar untuk menambahkan konten dan mengkombinasikan beragam aktivitas kedalam urutan skenario pembelajaran melalui alur pembelajaran yang terstruktur
+moodle juga memberikan konsep belajar dan eksperimen menjadi lebih menyenangkan sehingga memicu bertambahnya wawasan, kreativitas, dan inovasi
+pada sisi fungsional, moodle memiliki fitur yang dapat diatur untuk mengembangkan sistem penilaian, misalnya kuis dan ujian online
+sloodle pembelajaran virtual berbasis web, yaitu moodle dengan platform dunia virtual 3d, yaitu second life atau opensimulator
+sloodle memadukan dua platform yang berbeda menjadi satu lingkungan pembelajaran virtual 3d/web
+semua aktifitas pembelajaran dapat dipadukan menggunakan kedua platform tersebut
+moodle yang sudah banyak digunakan dan cukup baik dalam penerapannya, dapat digunakan untuk mendukung kelas dunia virtual sedangkan second life atau opensimulator dapat meningkatkan interaksi atau keterlibaan peserta didik yang lebih banyak yang kemudian direkam di dalam moodle
+metodologi penelitian rancangan penelitian ini mengadaptasi framework addieyang memiliki 5 tahap, yaitu analisis, perencanaan, pengembangan, implementasi, dan evaluasi
+tabel i merupakan pemaparan rancangan penelitian yang diadaptasi dari framework addie secara lebih rinci
+tabel i rancangan penelitian karakteristik pengguna sistem yang dibedakan menjadi 3 pengguna utama, yaitu administrator, pengajar, dan peserta didik
+tabel ii menunjukan interaksi yang dapat dilakukan oleh setiap pengguna terhadap sistem
+1) rancangan alur aktivitas dan konten pembelajaran: secara garis besar, sistem ini dibuat khusus untuk kegiatan pembelajaran yang dilakukan oleh pengajar dan peserta didik serta administrator
+oleh karena itu, alur pembelajaran pada sistem ini terdiri dari tiga aktivitas, yaitu alur proses pembelajaran untuk pengajar dan peserta didik serta alur pengelolaan sistem dan akun pengguna oleh administrator
+alur pembelajaran dikembangkan berdasarkan interaksi pengguna dengan sistem, seperti yang tertera pada gambar 1
+mulai pengajar; peserta didik; administrator pada penelitian ini, materi pembelajaran yang diterapkan dalam sistem adalah mata kuliah multimedia dengan sub-pokok materi audio atau suara
+materi ajar ini digunakan sebagai studi kasus untuk menerapkan sistem karena berdasarkan observasi, peserta didik merasa kurang tertarik untuk mempelajari materi ini
+hal ini disebabkan karena merupakan kombinasi dari berbagai rumpun ilmu, yaitu fisika, matematika, dan informatika sehingga peserta didik diharuskan memeiliki kemampuan berpikir kritis dan problem solving yang baik
+2) rancangan skenario pengujian: pada penelitian dilakukan dua pengujian terhadap sistem yang dikembangkan, yaitu pengujian hasil pembelajaran dengan melakukan pre-test dan post-test yang dibuat berdasarkan materi pembelajaran dan pengujian penerimaan pengguna dengan menggunakan model tam 
+pengujian pre-test dan post-test dilakukan untuk mengetahui apakah terdapat perbedaan pada hasil belajar peserta didik
+untuk menginvestigasi hal tersebut, maka pada penelitian digunakan kelas kontrol dan eksperimen
+kelas kontrol merupakan kelas yang tidak diberi perlakukan penelitian secara khusus
+dengan kata lain kelas kontrol adalah kelas yang kegiatan pembelajarannya menggunakan proses pembelajaran dalam kelas
+sedangkan kelas eksperimen merupakan kelas yang dalam proses pembelajarannya memanfaatkan 3d vle
+selain itu, pengujian juga dilakukan untuk menginvestigasi tingkat penerimaan pengguna terhadap 3d vle yang dikembangkan
+pengujian ini mengadaptasi model tam yang kemudian dikembangkan dalam bentuk kuesioner
+perolehan data kuesioner dilakukan berdasarkan rating scale yang terdiri 4 kategori, yaitu sangat setuju, setuju, tidak setuju, dan sangat tidak setuju
+kemudian kuesioner diberikan kepada peserta didik yang telah menggunakan sistem 3d vle dalam melaksanakan proses pembelajaran
+model tam memiliki beberapa variabel seperti yang ditunjukan pada gambar 2
+2 variabel tam perancangan direalisasikan sehingga dapat dari tahap pengembangan ini adalah objek-objek vle, konten pembelajaran, dan skenario pembelajaran
+baik administrator, pengajar, maupun peserta didik
+1) pengembangan objek vle: secara umum, sistem vle yang dikembangkan terdiri pengguna yang direpresentasikan sebagai avatar serta objek lain seperti yang ada pada lingkungan belajar di dunia nyata, namun direpresentasikan secara virtual tabel iii menunjukan interaksi antara pengguna dengan objek yang ada dalam 3d vle
+gambar 3.a adalah avatar yang merupakan representasi dari pengguna
+pengguna dapat mengubah penampilan avatarnya masing-masing
+gambar 3.b merupakan objek quiz chair yang menghubungkan kuis dari moodle dan menampilkannya pada opensimulator dengan dua cara berbeda, yaitu dalam bentuk dialog atau chat
+ketika peserta didik duduk di atas quiz chair dan sudah terdaftar dalam suatu topik pembelajaran, maka pertanyaan akan muncul sesuai dengan soal yang dibuat oleh pengajar di dalam moodle
+quiz chair dalam opensimulator ini memiliki kelebihan dibandingkan dengan sistem pelaksanaan kuis/ujian pada umumnya, yaitu menerapkan konsep gamifikasi secara real-time
+peserta didik yang menjawab dengan benar suatu soal, maka quiz chair akan bertambah ketinggiannya
+sedangkan jika peserta didik menjawab salah, maka posisi ketinggian quiz chair tidak akan berubah
+gambar 3.c merupakan presenter yang berfungsi untuk menampilkan konten atau materi pembelajaran di dalam opensimulator
+presenter dapat menampilkan konten multimedia seperti gambar, halaman web, dan video
+pada sistem vle ini, digunakan dua jenis presenter, yaitu presenter untuk menampilkan slide dan presenter untuk menampilkan video pembelajaran
+presentasi dapat dilihat di dalam opensimulator dan atau di dalam moodle itu sendiri
+presenter dapat diatur agar dapat digunakan oleh semua pengguna atau hanya administrator yang memiliki hak akses
+gambar 3.d merupakan reg-enroll booth yang berfungsi sebagai tempat peserta didik melakukan pendaftaran agar dapat mengikuti pembelajaran tertentu
+setelah peserta didik mengakses reg-enroll booth, maka akan muncul jendela dialog yang mengarahkan peserta didik untuk login ke dalam moodle melalui browser
+setelah peserta didik berhasil melakukan login ke dalam moodle, maka peserta didik harus mendaftarkan avatarnya ke dalam suatu course
+dengan cara ini, maka avatar yang terdapat pada opensimulator dapat terhubung dengan akun peserta didik di dalam moodle
+2) konten pembelajaran: konten pembelajaran yang diterapkan pada sistem 3d vle dikembangkan sesuai dengan kurikulum atau silabus mata kuliah multimedia dengan sub-pokok materi suara/audio
+selain itu, konten pembelajaran dikembangkan dalam bentuk slide dan video
+3) skenario pembelajaran: skenario pembelajaran dibedakan menjadi dua, yaitu skenario pembelajaran untuk kelas kontrol dan kelas eksperimen
+pada kelas kontrol, kegiatan pembelajaran dilakukan dengan alur sebagai berikut: peserta didik mengerjakan soal pre- test; pengajar menjelaskan materi pembelajaran di dalam kelas; peserta didik mengerjakan soal post-test
+implementasi kemudian diterapkan dalam proses pembelajaran sesuai dengan skenario pembelajaran
+booth seperti yang ditunjukan pada gambar 4error! reference source not found
+proses registrasi ini bertujuan agar akun peserta didik pada opensimulator terintegrasi dengan akun pada moodle, sehingga terdaftar pada course pada moodle dan dapat mengikuti kuis
+2) pembelajaran pada kelas virtual: setelah melakukan registrasi, peserta didik dapat mengakses media pembelajaran berupa slide presentasi dan video pembelajaran
+proses pembelajaran peserta didik pada kelas virtual dapat dilihat pada gambar 5
+pada gambar 5 terdapat 3 layar, satu layar berfungsi untuk menampilkan slide presentasi, sedangkan dua layar lainnya berfungsi untuk menampilkan video pembelajaran mengenai audio/suara
+3) evaluasi hasil belajar: untuk mengetahui seberapa jauh peserta didik memahami materi pelajaran, maka dilaksanakan proses ujian
+pada proses ujian peserta didik harus menempati kursi yang telah disediakan di ruang kelas virtual yang berbeda dengan ruang kelas untuk belajar seperti yang ditunjukan oleh gambar 6
+setelah peserta didik duduk di kursi ujian, maka soal ujian akan muncul di sudut kanan atas layar
+jika peserta didik menjawab soal dengan benar, maka ketinggian kursi yang ditempatinya akan bertambah dan muncul notifikasi ―benar‖
+tetapi jika peserta didik salah dalam menjawab soal ujian, maka kursi yang ditempatinya tidak akan bergerak 
+peserta didik akan turun dari kursi yang ditempatinya secara otomatis ketika semua soal ujian berhasil dikerjakan
+setelah peserta didik mengerjakan ujian, maka peserta didik dapat melihat hasil atau nilai ujiannya pada papan skor seperti yang ditunjukan pada gambar 7
+data peserta didik dan nilai yang ada papan skor akan diperbarui secara otomatis setiap 60 detik
+dengan adanya fitur ini peserta didik yang terlambat menyelesaikan ujiannya tetap dapat melihat hasilnya
+6 aktivitas ujian peserta didik pada kelas virtual gambar
+evaluasi hasil pre-test dan post-test pada mata kuliah multimedia dengan sub-pokok audio/suara dari kelas kontrol dan kelas eksperimen
+kelas kontrol dan eksperimen masing- masing berjumlah 12 dan 11 peserta didik dari dua kelas yang berbeda
+selain itu evaluasi juga dilakukan dengan melakukan analisis terhadap hasil kuesioner tam yang diperoleh dari masing-masing peserta didik pada kelas kontrol
+gambar 8 menunjukan nilai rata-rata pre-test dan post-test dari kelas kontrol dan kelas eksperimen
+ selain itu, berdasarkan gambar 8 kelas kontrol memperoleh nilai rata-rata post-test sebesar 63, 33
+sedangkan kelas eksperimen memperoleh nilai rata-rata post-test sebesar 63, 64
+perolehan nilai tersebut menunjukan bahwa kelas eksperimen memiliki nilai rata- rata post-test yang lebih tinggi dibandingkan dengan kelas kontrol
+nilai pre-test dan post-test dari dua kelompok kelas dapat dilihat pada gambar 9
+gambar 9 menunjukan bahwa kelas eksperimen memiliki gain sebesar 0, 46
+sedangkan kelas kontrol memiliki gain yang lebih tinggi dibandingkan dengan kelas eksperimen, yaitu sebesar 0, 51
+9 perbedaan rata-rata nilai kelas kontrol dan eksperimen berdasarkan gambar 8 dan gambar 9, maka yang dilakukan berikutnya adalah uji hipotesis untuk menginvestigasi apakah pembelajaran menggunakan peningkatan hasil belajar
+pengujian dilakukan menggunakan uji t-2 sampel independen dengan kriteria hipotesis sebagai berikut: h0 = tidak ada perbedaan peningkatan hasil belajar antara kelas eksperimen dengan kelas kontrol; h1 = terdapat perbedaan peningkatan hasil belajar antara kelas eksperimen dengan kelas kontrol
+dengan kata lain jika nilai signifikansi lebih besar dari 0, 05, maka h0 diterima dan h1 ditolak, sedangkan jika nilai signifikansi lebih besar dari 0, 05 maka h0 ditolak dan h1 diterima
+10 hasil uji-t 2 sampel independen gambar 10 menunjukan bahwa nilai sig
+ diperoleh adalah sebesar 0, 271 dan lebih besar dari 0, 05
+berdasarkan hal ini maka h0 ditolak dan h1 diterima, atau dengan kata lain tidak terdapat perbedaan peningkatan hasil belajar antara kelas eksperimen dengan kelas kontrol
+faktor pertama adalah disebabkan oleh tingkat perbedaan perolehan nilai pre-test yang signifikan dari kelas eksperimen dan kelas kontrol yaitu sebesar 7, 8, sedangkan perolehan nilai post-test pada kedua kelompok kelas tidak jauh berbeda, yaitu sebesar 0, 31
+selain itu, selama proses pembelajaran, peserta didik pada kelas eksperimen lebih banyak menghabiskan waktunya untuk melakukan eksplorasi sistem lingkungan virtual serta memodifikasi avatarnya masing-masing
+hal ini menyebabkan peserta didik kehilangan fokus dalam melaksanakan kegiatan pembelajaran
+berdasarkan tam disajikan pada tabel iv
+setelah dilakukan perhitungan, maka nilai yang diperoleh kemudian diklasifikasikan untuk memudahkan dalam menyimpulkan kriteria penerimaan pengguna terhadap sistem yang diterapkan
+klasifikasi hasil jawaban responden terdiri dari 4 kategori, seperti yang ditunjukan pada gambar 10
+behavioral intention to use 87, 879 actual use 89 semua variabel tam adalah 88, 242
+jika dilihat pada gambar 11, maka tingkat penerimaan pengguna berada pada kategori very usefull
+dengan kata lain, sistem pembelajaran yang dikembangkan dapat memberikan nilai kepuasan yang tinggi dan diterima untuk digunakan oleh peserta didik dalam kegiatan pembelajaran
+kesimpulan berbasis dunia virtual 3 dimensi menggunakan framework addie
+kelas virtual dikembangkan sesuai dengan sarana dan prasarana yang ada di kelas yang sebenarnya
+peserta didik dapat berinteraksi dengan objek-objek yang ada di dalam kelas virtual untuk melaksanakan kegiatan pembelajaran, yaitu objek reg-enroll booth, presenter, quiz chair, papan skor, chat, dan daftar pertemanan
+hal ini ditandai dengan perolehan nilai gain hasil belajar pada kelas yang menggunakan kelas virtual lebih rendah dibandingkan dengan kelas dengan pembelajaran konvensional selain itu perolehan hasil uji-t juga membuktikan bahwa tidak terdapat perbedaan peningkatan hasil belajar antara peserta didik yang menggunakan kelas virtual dengan yang tidak menggunakan
+hal ini disebabkan karena konsentrasi atau fokus peserta didik yang teralihkan oleh lingkungan virtual yang dapat dieksplorasi secara luas dan avatar yang dapat dimodifkasi
+walaupun demikian, berdasarkan hasil uji penerimaan pengguna, kelas virtual yang dikembangkan memberikan kepuasan bagi pengguna dan dapat diterima untuk digunakan oleh peserta didik
+penelitian berikutnya digunakan dengan mengintegrasikan metode pembelajaran yang sesuai sehingga konsentrasi peserta didik tidak terpecah ketika kegiatan pembelajaran berlangsung
+salah satu solusi yang dapat diterapkan misalnya dengan menggunakan metode penyajian konten pembelajaran berbasis video singkat atau microlecture
+selain itu penelitian berikutnya juga dapat dilakukan dengan mengembangkan objek 3d lain yang dapat digunakan sebagai simulasi, misalnya pengembangan laboratorium virtual sebagai alternatif kegiatan praktikum di laboratorium yang sebenarnya
+oleh karena itu penulis mengucapkan terimakasih kepada dikti dan juga pihak-pihak terkait yang telah mendukung kami dalam penyelesaian penelitian ini

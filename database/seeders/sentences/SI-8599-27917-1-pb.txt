@@ -1,0 +1,20 @@
+enalaran case based yanda1408@gmail.com essential in detecting whether someone has been exposed to hiv / aids or not
+the number of data cases of hiv / aids are many and varied, which is obtained either from experience counselors, and case data recorded on the institution of vct / aids, it is possible to apply the reasoning in case base reasoning counseling hiv / aids
+the research conducted in this thesis is how to design and build web-based applications with cased based reasoning
+this reasoning will be included in an application engineering counseling of hiv / aids with a web- based case base reasoning
+and with this application is expected to help the socialization and counseling of hiv / aids on society
+this study resulted in an application counseling hiv / aids with a web-based case based reasoning, the method of simple matching coefficient as a method of similarity calculation of binary data
+applications are made for register visitors, leads visitors to the questionnaire, to infer how likely visitors are exposed to hiv / aids, by comparing with the existing cases that have been there
+application counseling hiv / aids in this study did not determine a person with hiv / aids or not, just shows how much the risk of a person is exposed to hiv / aids, based on its similarity with the cases that already in the database of cases
+testing results with a user acceptance test shows that this application can be used for the counseling process
+selain itu aids juga dapat menimbulkan penderitaan, baik dari segi fisik maupun dari segi mental hiv tidak dapat disembuhkan karena tidak ada obat yang dapat sepenuhnya menyembuhkan hiv/aids
+kombinasi yang tepat antara berbagai obat-obatan dapat memperlambat kerusakan yang diakibatkan oleh hiv pada sistem kekebalan tubuh dan menunda awal terjadinya aids
+sehingga dibutuhkan penanganan yang cepat untuk mengetahui seseorang telah terinfeksi hiv/aids atau tidak terinfeksi
+kegiatan konseling hiv/aids sangatlah gencar mensosialisasikan konseling hiv/aids, namun sampai saat ini, kesadaran masyarakat untuk berkonsultasi mengenai hiv/aids masih sangat rendah, selain itu juga budaya malu yang tidak tepat menyebabkan masyarakat sungkan untuk bertanya dan berkonsultasi, padahal tidak hanya masyarakat tertentu saja yang rawan terkena hiv/aids, namun juga semua lapisan masyarakat, memiliki resiko untuk terkena hiv/aids
+banyak dan bervariasi, yang didapat baik dari pengalaman konselor, maupun data-data kasus yang terekam pada lembaga vct/aids, maka memungkinkan untuk menerapkan penalaran case based pada konseling hiv/aids
+untuk mengakomodasi pengujian efektifitas dimana sebuah website di jaringan internet dapat diakses oleh banyak orang, tanpa khawatir akan informasi pribadi diketahui, sehingga masyarakat lebih leluasa dalam mencoba konseling online tersebut oleh karena itu, penalaran ini akan dituangkan dalam sebuah rancang bangun aplikasi konseling hiv/aids berbasis web dengan penalaran case based
+dan dengan adanya aplikasi ini diharapkan dapat membantu sosialisasi serta konseling hiv/aids pada masyarakat
+reasoning) satu metode penyelesaian masalah berbasis pengetahuan untuk mempelajari dan memecahkan masalah berdasarkan pengalaman masa lalu
+cbr dengan strategi utamanya menggunakan ukuran kemiripan 
+unsur dari sebuah penalaran berbasis kasus adalah input berupa kasus baru, kasus-kasus sebelumnya yang tersimpan dan output berupa solusi
+menggunakan kasus-kasus sebelumnya untuk memahami situasi yang baru dan membangun sebuah solusi yang disepakati untuk menyelesaikan masalah baru

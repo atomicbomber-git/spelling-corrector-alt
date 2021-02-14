@@ -1,0 +1,29 @@
+dy septiandri edy.kumkum09@gmail.com kalimat sumber dan dokumen teks kedua berisi kumpulan kalimat terjemahannya
+paralel mengembangkan sebuah mesin penerjemah penerjemah statistik tergantung pada jumlah dari paralel korpus yang tersedia
+pembuatan paralel korpus secara manual tidaklah mudah, karena akan memakan waktu yang lama, memerlukan biaya yang tidak sedikit dan jumlah dokumen yang terbatas
+sistem temu balik informasi atau information retrieval dapat membantu dalam hal mengelola dan menemukan kembali dokumen secara cepat dan efektif
+sistem ini dibuat untuk mengkoleksi data parlel korpus khususnya bahasa indonesia dan inggris, dimana output dari aplikasi ini akan menambah perbendaharaan paralel korpus dari sebuah website yang telah ditentukan, dan sasarannya hanya dokumen yang berbahasa indonesia dan inggris
+dokumen yang telah terkumpul akan dibersihkan dari semua tanda baca yang tidak diperlukan dengan metode tokenization, setelah itu dokumen tersebut akan diproses kembali untuk memisahkan antara kalimat sumber dan kalimat terjemahannya dengan metode parse
+setelah semua proses selesai maka akan menghasilkan sebuah paralel korpus
+aplikasi information retrieval ini akan mempermudah dalam pembuatan sebuah paralel korpus dan akan memperkaya perbendaharaan paralel korpus bahasa indonesia-inggris
+statistik, sistem temu balik informasi, tokenization, parse
+komputasi dan telekomunikasi khususnya didapatkan oleh banyak orang
+kemudahan ini mendorong pertambahan jumlah informasi dalam dunia modern masa kini
+bertambahnya jumlah dokumen teks meningkatnya kebutuhan pengguna akan mengahasilkan dokumen yang paling relevan dan sesuai dengan keinginan pengguna
+tujuan dari sistem temu balik informasi ini adalah untuk memenuhi kebutuhan informasi pengguna dengan me-retrieve semua dokumen yang mungkin relevan, pada waktu yang sama me- retrieve sesedikit mungkin dokumen yang tidak relevan
+dokumen-dokumen tersebut akan sebagai salah satu contoh yaitu sebagai bahan dasar dalam pembuatan paralel korpus
+paralel korpus merupakan suatu sumber utama dalam mengembangkan sebuah sistem penerjemah statistik dan aplikasi nlp lainnya
+hasil statistik tergantung pada jumlah dari paralel korpus yang tersedia, karena jika semakin banyak jumlah paralel korpus yang dimiliki, maka akan semakin baik pula hasil terjemahannya
+jumlah paralel korpus identic untuk bahasa indonesia – bahasa inggris saat ini sudah tersedia sebanyak 27.326 kalimat
+pembuatan korpus secara manual akan memakan waktu yang lama, memerlukan biaya yang tidak sedikit, dan jumlah dokumen yang terbatas
+oleh karena itu diperlukan sebuah sistem yang dapat membuat sebuah paralel korpus dengan cepat dan efektif agar dapat menambah perbendaharaan korpus yang sudah ada
+dan pembuatan aplikasi yang difokuskan untuk menghasilkan paralel korpus dengan crawling adalah sebuah website berita milik bbc indonesia
+dengan adanya sistem ini diharapkan dapat memperkaya perbendaharaan 2
+tinjauan pustaka dengan istilah sistem temu balik informasi digunakan untuk menemukan kembali secara otomatis informasi- informasi yang relevan terhadap kebutuhan pengguna dari suatu kumpulan informasi
+tujuan dari sistem sistem temu balik informasi adalah memenuhi kebutuhan informasi pengguna dengan me-retrieve semua dokumen yang mungkin relevan, pada waktu yang sama me-retrieve sesedikit mungkin dokumen yang tak relevan
+yang melakukan crawling melalui halaman website untuk mengumpulkan data berdasarkan indeks dari halaman web yang ditemukan
+tujuan dari crawler adalah dengan cepat dan efisien mengumpulkan banyak informasi dari halaman web yang berguna, berikut dengan struktur link yang terkoneksi dengan halaman web tersebut
+memungkinkan pemahaman yang lebih baik terhadap kalimat dalam bahasa tertentu
+proses yang dilakukan oleh parser disebut parsing
+parsing merupakan proses tujuan utama dari parsing adalah memeriksa apakah urutan token yang dihasilkan sesuai dengan tata bahasa dari bahasa yang bersangkutan
+suatu rangkaian karakter berdasarkan karakter spasi, dan mungkin pada waktu yang bersamaan dilakukan juga proses penghapusan karakter tertentu, seperti tanda baca

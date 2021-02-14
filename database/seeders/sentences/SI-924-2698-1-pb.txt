@@ -1,0 +1,66 @@
+edianto universitas tanjungpura pontianak applications in the academic process
+applications siakad facilitate students to perform academic process as a process of inputting lirs, lihs, transcript value and others
+this application is to help students because the students no longer bothered to write all the subjects as in the old system but simply by selecting options from the application
+the system was developed to complement siakad application is to use the trigger
+trigger serves as the command function of data duplication
+any data that is entered either by students or faculty the trigger will make a backup copy of the database
+trigger requires a system to be able to access the database residing on a different server by using federated storage engine
+federated storage engine to be a bridge that connects to the database backup trigger
+each event occurs insert, update and delete the backup database trigger will access through the federated storage engine executes the same event on the backup database.trigger tested with black-box method, the test results when doing insert, update and delete the trigger is executed and the process the same on the backup database
+storage engine segala aspek, tidak hanya pada bidang teknologi saja tetapi sudah meluas pada dunia pendidikan
+salah satunya adalah pemanfaatan teknologi www atau yang biasa disebut web yang mampu menyediakan informasi dalam bentuk teks, gambar, suara, maupun gambar bergerak
+komponen yang mendukung menciptakan teknologi tersebut, misalnya bahasa pemrograman dan database
+salah satu contoh sistem informasi adalah sistem informasi akademik atau biasa disebut siakad
+aplikasi siakad pada prodi informatika dibuat sebagai alat bantu bagi mahasiswa untuk melakukan aktivitas akademik seperti pengisian lirs dan lihs, transkip serta perkembangan akademik mahasiswa lainnya
+sistem pengisian lirs dan lihs telah mengalami perubahan dari pengisian secara manual hingga menggunakan sistem komputerisasi seperti sekarang sangat membantu sekali bagi para mahasiswa karena mahasiswa tidak lagi direpotkan dengan menulis atau mengetik lirs dan lihs menggunakan mesik tik
+beberapa kelebihan dari aplikasi siakad yaitu: 1
+mahasiswa dapat dengan mudah memilih mata kuliah yang akan diambil yaitu hanya dengan mencentang pilihan tanpa perlu menuliskan daftar mata kuliah seperti pada sistem lama
+transkip dan perkembangan akademik lainnya tanpa harus melakukan print out data seperti pada sistem lama
+keamanan dan kerahasiaan data mahasiswa terjamin karena tiap mahasiswa memiliki id dan password masing-masing
+yaitu: rentan terhadap serangan para penyusup seperti penyadapan data
+server maka aplikasi sama sekali tidak bisa digunakan dan akan menghambat proses akademik
+siakad mengerti cara mengoperasikan komputer sehingga akan menjadi masalah bagi mereka
+dalam aplikasi siakad semua data hasil inputan mahasiswa dan data nilai mahasiswa disimpan dalam sebuah tempat yaitu database
+database inilah yang menjadi pusat data dari aplikasi siakad
+dengan banyaknya data penting yang ada didalam database maka akan sangat beresiko jika terjadi kerusakan terhadap database itu sendiri
+menangani masalah kerusakan database yaitu dengan menggunakan trigger dimana trigger difungsikan sebagai fungsi yang membuat salinan data dari setiap event di aplikasi siakad dan menggunakan federated storage engine untuk mengakses data secara remote
+trigger sangat penting karena berfungsi membuat proses salinan data master ke database cadangan
+kemudian federated storage engine berfungsi sebagai alat yang menghubungkan database lokal ke database remote
+komponen tersebut sangat berpengaruh terhadap aplikasi yang dibangun dan berikut komponen yang mendukung yaitu: tergantikan karena pada basis data lah semua data disimpan
+adalah perangkat lunak yang didesain untuk membantu memelihara dan memanfaatkan kumpulan data yang besar
+penggunaan dbms adalah untuk menyimpan data dalam file dan menulis kode aplikasi tertentu untuk mengaturnya
+dbms sebagai suatu program komputer yang digunakan untuk memasukkan, mengubah, menghapus, memanipulasi, dan memperoleh data / informasi dengan praktis dan efisien
+hierarki database sistem manajemen basis data sql atau dbms yang multithread dan multi-user
+merupakan bahasa query standar yang dipergunakan untuk mengakses basis data relasional statement sql secara garis besar dibagi menjadi 3 kategori yaitu data definition languages, data manipulation languages dan data control language 
+komponen-komponen dalam sql akan secara otomatis dijalankan jika terjadi operasi tertentu dalam tabel atau view
+trigger merupakan sebuah blok pl/sql atau prosedur pl/sql yang berhubungan dengan table, view, schema atau database
+trigger akan dieksekusi secara implicit pada saat sebuah kejadian tertentu terjadi
+digunakan untuk memanggil satu atau beberapa perintah sql secara otomatis sebelum atau sesudah terjadi proses insert, update atau delete dari suatu tabel
+sebagai contoh misalnya kita ingin menyimpan data calon alumni secara otomatis ke tabel ‘alumni’ sebelum menghapus data di tabel mahasiswa
+2.6 federated storage engine saat ini engine ini hanya dapat bekerja dengan menggunakan mysql c client api
+dengan menggunakan federated storage engine, tidak akan ada lagi lokal data files, melainkan remote database menyimpan data yang umumnya akan ada di tabel
+format standar koneksi menggunakan federated storage engine adalah sebagai berikut : scheme://user_name[:password]@host_name[:port_num]/ dikosongkan
+berikut beberapa contoh koneksinya : connection='mysql://username:password@hostname penghubung antara server mysql
+trigger tidak bisa mengubah data pada database yang berbeda server tanpa menggunakan federated storage engine
+dengan adanya federated storage engine maka tidak lagi memerlukan teknologi cluster atau replication
+metode yang digunakan untuk pengujian adalah metode black-box
+pengujian bertujuan untuk memeriksa apakah trigger dapat berjalan dengan baik sesuai dengan yang direncanakan
+3.1.1 input data tabel 1.data lirs yang akan di input no kode smt nama sks 1 tif-202 4 komunikasi data 3 2 tif-208 4 pemograman web 4 3 tif-210 4 analisis dan perancangan si 3 field & record 3.1.2 edit data tabel 2.data mahasiswa sebelum di edit data lama 3.2 pengujian trigger record pada tabel di database siakadft_backup dengan menambah record pada tabel di database siakadft
+database siakadft dan siakadft_backup masih dalam satu server
+3.3 hasil pengujian sistem dengan mengacu kepada semua kriteria yang ada di form pengisian data
+percobaan pertama dilakukan dengan memasukkan data yang bernilai null pada form isian, dilanjutkan dengan memasukkan data yang sama lebih dari satu kali, dilanjutkan data ekstrim yaitu data selain data angka dan huruf, dan terakhir dengan memasukkan data yang benar dari data sampel
+hasil pengujian sebagai berikut: adapun analisis hasil perancangan trigger pada basis data siakad informatika universitas tanjungpura adalah sebagai berikut: metode black-box menunjukkan bahwa input data kosong pada sistem menyebabkan eksekusi tidak berhasil dan muncul pesan kesalahan atau instruksi pengisian data
+dengan gagalnya eksekusi dan tidak terjadi penambahan data maka trigger juga tidak berhasil
+backup oleh trigger ke database cadangan
+pada sistem input data yang sama akan mengalami proses eksekusi gagal karena data yang sama sudah ada sebelumnya
+hal ini dikarenakan dalam basis data, data unik yang sama tidak diperkenankan lebih dari satu kali masuk ke dalam database
+eksekusi gagal membuat trigger juga tidak dieksekusi
+sehingga jika terjadi kerusakan pada database utama maka database cadangan dapat digunakan sebagai pengganti database utama
+database siakad database backup basisdata siakad informatika universitas tanjungpura, maka dapat ditarik kesimpulan sebagai berikut: 1
+penerapan trigger pada database membantu dalam proses pengamanan data secara rutin karena proses backup dilakukan setiap terjadi perubahan pada database
+dengan adanya trigger maka beban dari admin bisa dikurangi karena tidak perlu membackup data secara manual 3
+trigger yang dibuat akan membuat backup seluruh data dengan tidak mengubah sedikit pun data aslinya
+jika terjadi kegagalan saat melakukan kueri pada mysql maka trigger tidak akan tereksekusi
+biografi menerima gelar sarjana teknik dari fakultas teknik universitas tanjungpura pontianak
+sejak menjadi mahasiswa sudah bekerja mencari pengalaman dan sangat senang dengan dunia pemograman khususnya web
+aktivitas sekarang adalah membuat dan mendesain website untuk berbagai instansi baik negeri maupun swasta

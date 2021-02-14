@@ -1,0 +1,114 @@
+soeprapto, muka kuning-batam asykharit1302@gmail.com efektif dan efisien sesuai dengan tujuan perusahaan
+departemen logistik harus mencari jumlah pemesanan yang optimal, baik sebagai kepuasan pelanggan maupun persediaan gudang, karena akan mempengaruhi nilai persediaan dan kepuasan pelanggan
+sistem pengadaan barang dari gudang pusat saat ini masih dilakukan secara default dan tidak optimal, sedangkan perusahaan cabang dapat meminta kebutuhan yang diinginkan, sehingga seringkali hasil yang didapat kurang optimal dengan kasus, dibutuhkan sistem yang bisa memudahkan pengambilan keputusan di perusahaan
+sistem yang digunakan dengan fuzzy inference system dengan metode mamdani, yang dapat diterapkan pada toolbox fuzzy pada matlab
+untuk mendapatkan output diperlukan empat tahap yaitu, pembentukan himpunan fuzzy, implikasi fungsi aplikasi, aturan komposisi dan defuzzifikasi
+variabel yang digunakan adalah jumlah yang tersedia, jumlah pesanan, harga dan durasi yang terjual untuk variabel input
+sedangkan variabel outputnya adalah pemesanan optimalisasi barang
+hasil yang diperoleh pada uji fis sebesar 77, angka ini masih dalam parameter output medium dan large
+disimpulkan bahwa metode fis mamdani dapat membantu pt hilti nusantara batam untuk membuat keputusan pemesanan optimasi
+pendahuluan adanya tingkat persaingan yang semakin kompetitif
+hal ini mengharuskan perusahaan untuk merencanakan atau menentukan jumlah produksi, agar dapat memenuhi permintaan pasar dengan jumlah yang sesuai
+sehingga diharapkan keuntungan perusahaan akan meningkat
+supply chain management sebagai meknisme yang menghubungkan semua pihak yang bersangkutan dan kegiatan yang terlibat dalam mengkonversikan bahan mentah menjadi barang jadi
+pihak yang bersangkutan ataupun kegiatan yang dimaksud tersebut bertanggung jawab untuk memberikan barang-barang jadi hasil produksi kepada pelanggan, pada waktu dan tempat yang tepat dengan cara yang paling efisien.scm juga harus terintegrasi dengan baik dan karena selaku penanggung jawab atas kegiatan produksi hingga nantinya hasil produksi dapat di pasarkan dan diterima oleh pemakai atau pelanggan
+maka dari itu scm harus sangat memperhatikan keefektifan, efisiensi, control agar tujuan perusahaan dapat terus tercapai
+pt hilti nusantara batam adalah salah satu sub region dari hilti cooperation yang berasal dan berpusat di negara liechstenstain, merupakan salah satu principle company yang bergerak dibidang manufaktur dengan hasil produksi berupa bahan baku logam seperti anchor, nut, screw, nail serta beberapa jenis lainnya, serta mesin untuk peralatan kerja, seperti mesin bor, masin coring dan banyak lainnya, dimana hasil produksi tersebut dibutuhkan untuk menyokong proses pembangunan, baik dari pembangunan gedung, perkantoran, perumahan, jembatan, kegiatan off shore dan on shore, oil and gas, yang jenis pekerjaannya bersifat project dan pembangunan
+dengan terus berkembangnya project pembangunan dan offshore yang ada di batam khususnya, maka kebutuhan pasar akan bahan baku yang perusahaan produksi akan semakin tinggi dan terus meningkat, oleh sebab itu pihak perusahaan memerlukan suatu teknik dan cara dalam pengendalian produksi yang baik, agar terus dapat mengontrol dan mengendalikan alur persediaan barangnya
+penggunaan sumber daya yang dibutuhkan dalam proses produksi harus digunakan secara optimal yaitu dengan melakukan perencanaan dan pengendalian produksi yang baik
+jika suatu perusahaan memiliki pasar permintaan yang konstan disetiap produksinya maka perusahaan tersebut dapat memproduksi sesuai data sebelumnya, sedangkan jika data permintaan pasar yang terdahulu mengalami perubahan atau tidak konstan, maka perusahaan belum bisa menentukan jumlah barang yang akan diproduksiselanjutnya
+konsep ketidakpastian inilah yang menjadi konsep dasar munculnya konsep logika fuzzy
+permintaan persedian barang pada pt hilti nusantara batam saat ini terdapat 2 cara, pertama automatic by system yaitu persedian barang yang akan dikirimkan secara otomatis ke region melihat dari database penjualan bulan sebelumnya sesuai jumlah safety stock yang ditetapkan dan yang kedua secara manual, dengan melakukan purchase order ke gudang pusat sesuai dengan jumlah pemesanan yang diminta oleh region
+dikenal dengan nama metode min-max, yaitu dengan mencari nilai minimum dari setiap aturan dan nilai maksimum dari gabungan konsekuensi setiap aturan tersebut
+metode ini diperkenalkan oleh ebrahim h
+metode mamdani cocok digunakan apabila input diterima dari manusia bukan mesin
+metode ini juga lebih diterima oleh banyak pihak dari pada metode tsukamoto dan sugeno
+kajian pustaka atau disingkat ai, yaitu intellegence adalah kata sifat yang berarti cerdas, sedangkan artificial artinya buatan
+kecerdasan buatan yang dimaksud disini merujuk pada mesin yang mampu berfikir, menimbang tindakan yang akan diambil, dan mampu mengambil keputusan seperti yang dilakukan manusia
+jika komputer tidak dapat dibedakan dengan manusia saat berbincang melalui terminal komputer, maka bisa dikatakan komputer itu cerdas, mempunyai kecerdasan
+alan turing, ahli matematika berkebangsaan inggris yang dijuluki bapak komputer modern dan pembongkar sandi nazi dalam era perang dunia ii 1950, menetapkan definisi artificial intelligence 
+jaringan saraf tiruan jaringan saraf tiruan adalah paradigma pengolahan informasi yang terinspirasi oleh sistem saraf secara biologis, seperti proses informasi pada otak manusia
+pada jaringan syaraf, neuron-neuron akan dikumpulkan dalam lapisa –lapisan yang disebut dengan lapisan neuron
+biasanya neuron pada satu lapisan akan dihubungkan dengan lapisan sebelum atau sesudahnya terkecuali lapisan masukkan dan lapisan keluaran
+informasi yang diberikan pada jaringan syaraf akan dirambatkan dari lapisan ke lapisan, melalui dari lapisan masukkan sampai lapisan keluaran melalui lapisan tersembunyi
+sistem pakar sistem pakar merupakan cabang dari artificial intelligence yang cukup tua karena sistem ini mulai dikembangkan pada pertengahan 1960
+sistem pakar yang muncul pertama kali adalah general-purpose problem solver yang dikembangkan oleh newel dan simon
+logika fuzzy logika fuzzy adalah salah satu cabang ilmu kecerdasan buatan untuk membangun sistem cerdas
+dalam kamus oxford, istilah fuzzy didefinisikan sebagai blurred, indistinct, impecisely defined, confused, vague 
+istilah logika fuzzy yang didasarkan pada logika boolean yang umum digunakan dalam komputasi
+secara ringkas, teorema fuzzy memungkinkan komputer tidak hanya dalam skala hitam-putih tetapi juga dalam skala abu-abu
+dalam logika fuzzy suatu preposisi dapat direpresentasikan dalam derajat kebenaran atau kesalahan tertentu
+berbeda dengan logika digital yang hanya memiliki dua nilai 1 atau 0
+logika fuzzy digunakan untuk menterjemahkan suatu besaran yang diekspresikan menggunakan bahasa, misalkan dengan pelan, agak cepat, cepat, dan sangat cepat
+metode mamdani sistem inferensi fuzzy adalah sistem yang dapat melakukan penalaran dengan prinsip serupa seperti manusia melakukan penalaran dengan nalurinya
+terdapat beberapa jenis fis yang dikenal yaitu mamdani, takagi- sugeno dan tsukamoto
+metode mamdani sering dikenal dengan nama metode max–min
+metode ini diperkenalkan oleh ebrahim mamdani pada tahun 1975
+hasil dan pembahasan inventory produk dan jumlah pesanan dipt hilti nusantara batam dengan harapkan mampu mendapatkan nilai inventory dan keuntungan yang optimal dengan fuzzyinferencesystem menggunakan metode inference system) optimasi inventory produk dan jumlah pesanan pada pt hilti nusantara memiliki empat variabel input dan satuoutput
+fuzzy inference system pada matlab dapat kita lihat pada gambar 1
+dalam bentuk kurva yang nantinya akan diperoleh himpunan fuzzy 
+langkah kedua adalah aplikasi fungsi implikasi
+langkah ketiga adalah komposisi aturan dan yang terakhir adalah penegasan 
+keanggotan dari setiap variabel input dan variabel output yang dipakai pada optimasi inventory dan pemesanan barang di pt hilti nusantara batam ini
+fungsi keanggotaan variabel pemakaian untuk fungsi keanggotaan variabel pemakaian dilakukan perhitungan dan dapat digambarkan pada gambar 2
+gambar 2 menjelaskan fungsi keanggotaan kurva turun digunakan untuk merepresentasikan himpunan fuzzy jumlah ketersedian barang sedikit dan fungsi keanggotaan kurva naik untuk himpunan fuzzy jumlah tersedia banyak
+fungsi keanggotaan kurva segitiga digunakan untuk merepresentasikan himpunan fuzzy jumlah ketersedian barang sedang
+fungsi keanggotaan variabel jumlah pesanan untuk fungsi keanggotaan variabel input jumlah pesanan dilakukan perhitungan dan dapat digambarkan pada gambar 3
+fungsi keanggotaan kurva turun digunakan untuk merepresentasikan himpunan fuzzy jumlah pesanan barang sedikit dan fungsi keanggotaan kurva naik untuk himpunan fuzzy jumlah pesanan barang banyak
+fungsi keanggotaan kurva segitiga digunakan untuk merepresentasikan himpunan fuzzy jumlah pesanan barang sedang
+fungsi keanggotaan variabel harga untuk fungsi keanggotaan variabel harga dilakukan perhitungan dan dapat digambarkan pada gambar 4
+4 fungsi keanggotaan variabel input harga fungsi keanggotaan kurva turun digunakan untuk merepresentasikan himpunan fuzzy harga murah dan fungsi keanggotaan kurva naik untuk himpunan fuzzy harga mahal fungsi keanggotaan kurva segitiga digunakan untuk merepresentasikan himpunan fuzzy harga sedang
+fungsi keanggotaan variabel lama terjual untuk keanggotaan variabel lama terjual dilakukan perhitungan dan dapat digambarkan pada gambar 5
+5 fungsi keanggotaan variabel input lama terjual fungsi keanggotaan kurva turun digunakan untuk merepresentasikan himpunan fuzzy lama terjual cepat dan fungsi keanggotaan kurva naik untuk himpunan fuzzy lama terjual lama
+fungsi keanggotaan kurvasegitiga digunakan untuk merepresentasikan 5
+fungsi keanggotaan variabel output jumlah pemesanan untuk keanggotaan variabel output jumlah pemesanan dilakukan perhitungan dan dapat digambarkan pada gambar 6
+fungsi keanggotaan kurva turun digunakan untuk merepresentasikan himpunan fuzzy jumlah pemesanan sedikit dan fungsi keanggotaan kurva naik untuk himpunan fuzzy jumlah pemesanan cepat
+fungsi keanggotaan kurva segitiga digunakan untuk merepresentasikan himpunan fuzzy jumlah pemesanan sedang
+digunakan adalah min tapi, sebelum masuk ke fungsi implikasi, ditentukan rule-nya terlebih dahulu
+secara umum rules dibuat pakar secara intuitif
+rules berupa pernyataan-pernyataan kualitatif yang ditulis dalam bentuk ifthen, sehingga mudah dimengerti
+rules pada fis optimasi inventory produk dan jumlah pesanan pada pt hilti nusantara batam telah dijelaskan sebelumnya
+komposisi aturan produk dan jumlah pesanan pada pt hilti nusantara batam digunakan untuk mengevaluasi hasil dari rules yang telah dibuat
+solusi output himpunan fuzzy diperoleh dengan cara mengambil nilai maksimum dari rule yang sesuai, kemudian menggunakannya untuk memodifikasi daerah fuzzy dan mengaplikasikannya ke output
+penegasan penentuan kelayakan pemberian kredit kepada calon debitur
+solusi crisp diperoleh dengan cara mengambil titik pusat daerah output fuzzy
+pembahasan tersebut akan dihitung dengan fis metode mamdani
+kasus tersebut diambil dari data informasi ketersediaan barang dan jumlah pesanan pada pt hilti nusantara batam
+data barang tersebut dapat ditentukan dengan fis metode mamdani sebagai berikut
+penerapan fungsi implikasi langkah kedua adalah menerapkan fungsi implikasi untuk mendapatkan modifikasi output daerah fuzzy dari setiap rule yang berlaku
+fungsi implikasi yang digunakan adalah metode min 
+rule yang terpengaruh nilai derajat keanggotaan adalah rule 37, rule 38, rule 46, rule 47
+aplikasi fungsi implikasi r37 dapat dilihat pada gambar 7
+pada gambar 7 [r37] jika jumlah tersedia sedang, jumlah pesanan sedang, harga murah, dan lama terjual cepat maka jumlah pemesanan banyak
+aplikasi fungsi implikasi r38 dapat dilihat pada gambar 8
+selanjutnya gambar 8 menjelaskan [r38] jika jumlah tersedia sedang, jumlah pesanan sedang, harga murah, dan lama terjual sedang maka jumlah pemesanan sedang
+gambar 9 menjelaskan [r46] jika jumlah tersedia sedang, jumlah pesanan banyak, harga murah, dan lama terjual cepat makajumlah pemesanan banyak, seperti yang terlihat pada gambar
+aplikasi fungsi implikasi r37 dapat dilihat pada gambar 10
+10 aplikasi fungsi implikasi r47 gambar 10 menjelaskan [r47] jika jumlah tersedia sedang, jumlah pesanan banyak, harga murah, dan lama terjual sedang maka jumlah pemesanan banyak
+11 menjelaskan [r64] jika jumlah tersedia banyak, jumlah pesanan sedang, harga murah, dan lama terjual cepat maka jumlah pemesanan sedang
+12 menjelaskan [r65] jika jumlah tersedia banyak, jumlah pesanan sedang, harga murah, dan lama terjual sedang maka jumlah pemesanan sedang gambar 13
+13 menjelaskan [r73] jika jumlah tersedia banyak, jumlah pesanan banyak, harga murah, dan lama terjual cepat maka jumlah pemesanan banyak
+14 [r74] jika jumlah tersedia banyak, jumlah pesanan banyak, harga murah, dan lama terjual sedang maka jumlah pemesanan sedang 3
+langkah 3 langkah ketiga adalah mencari kompisisi aturan dengan metode max, seperti yang terlihat pada gambar 15
+gambar 15 menjelaskan bahwa dari inferensi metode mamdani didapatkan derajat kebenaran untuk kasus ini
+langkah 4 langkah keempat adalah defuzzifikasi output fuzzy hasil komposisi aturan
+metode yang digunakan adalah metode centroid
+untuk itu, pertama-tama kita hitung dulu momen untuk setiap daerah
+menghitung luas setiap daerah: jadi, jumlah optimasi pesanan dan perhitungan manual pada universal nail x-u 27 p8 adalah 72.24073
+nilai optimasi jumlah pemesanan 72.24073 termasuk ke dalam kategori sedang
+logika fuzzy menggunakan program simulasi yang disediakan fasilitasnya oleh toolbox fuzzy matlab ditunjukkan pada gambar
+16 logika fuzzy matlab keterangan: variabel jumlah tersedia variabel jumlah pesanan pembicaraan untuk variabel harga variabel lama terjual jumlah pesanan, kolom ketiga menunjukkan tingkat keanggotaan 5000 pada variabel harga, kolom keempat menunjukkan tingkat keanggotaan 9 pada variabel lama terjual dan selanjutnya akan di proses dengan menggunakan fungsi implikasi aturan yang sesuai dengan kondisi tersebut
+fungsi implikasi yang digunakan dalam proses ini adalah fungsi min, yaitu dengan mengambil daerah minimum dari variabel input sebagai outputnya
+hasil perhitungan secara manual memberikan perbedaan dengan perhitungan menggunakan program matlab hal ini dikarenakan adanya pembulatan angka di dalam perhitungan, sehingga akan mempengaruhi nilai yang diperoleh
+walaupun nilai kelayakan yang diperoleh berbeda, namun termasuk ke dalam kategori yang sama dengan perhitungan menggunakan matlab
+pengaplikasian ke dalam aplikasi gui tampilan awal program dapat dilihat pada gambar 17
+terdiri dari 4 variabel input yaitu stock, order, harga, lama terjual yang akan menghasilkan variabel output yaitu pemesanan
+selanjutnya, tampilan program dengan variabel input seperti pada gambar 18
+18 tampilan program dengan variabel input tampilan program 18 diatas adalah contoh pengisian variabel input yang nantinya akan menghasilkan nilai output pemesanan
+pada gambar 19 menunjukkan hasil optimasi pemesanan yaitu 77.3238 dengan variabel stock 130, order 85, harga rp
+dengan hasil yang sudah didapat, maka dapat kita tarik kesimpulan berupa data angka yang memberikan nilai optimum bagi pemesanan barang
+perbandingannya dapat kita lihat dari pemesanan by system yang juga mewakili perhitungan pemesanan manual dengan perhitungan menggunakan fuzzy dengan metode mamdani, disini akan dicoba langsung pengoptimalan hasilnya yang nantinya akan menguatkan bahwa metode ini layak dan dapat dipertimbangkan untuk di terapkan di pt hilti nusantara batam
+penelitian ini didapat kesimpulan yaitu : a
+berdasarkan pengujian, jumlah nilai pesanan yang dikeluarkan oleh perhitungan dengan fis metode mamdani dengan bantuan matlab lebih optimal untuk perhitungan jumlah pemesanan berikutnya, dan berdampak juga pada nilai inventory di perusahaan, maka penerapan fuzzy inference system metode mamdani pada sistem yang dibuat dapat membantu pt hilti nusantara batam dalam menentukan optimasi inventory dan pesanan barang
+dapat dilihat dari hasil yang didapat, b
+penerapan fuzzy inference system metode mamdani pada sistem yang dibuat dapat meningkatkan efisiensi dalam jumlah dan nilai inventory gudang juga jangka waktu yang lebih terukur pada pt hilti nusantara batam

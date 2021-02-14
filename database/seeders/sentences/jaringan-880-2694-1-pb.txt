@@ -1,0 +1,20 @@
+studi kasus: fakultas teknik universitas tanjungpura
+nternet yanto yanto_technic@yahoo.co.id tanjungpura as one of the government educational institutions take an active role in the intellectual life of the nation, requiring infrastructure and take advantage of advances in information technology to achieve optimal results, such as the internet the development of the internet and network lately has made ip, which is the backbone of networking-based tcp / ip is rapidly becoming obsolete
+qos is technology that applied to the wan that allows network administrators to be able to handle a variety of effects due to congestion on the traffic flow of packets in the network
+qos parameters are delay / latency, jitter, packet loss, throughput, mos, echo cancellation and pdd
+qos parameters that measured are delay, jitter, throughtput, packet loss and mos 
+result of measurement of qos parameters that have been made, value delay was 3.39 with good index, jitter was 1.50 with bad index, throughput was 1 with bad index, packet loss was 4 with very good index and mos was 2.34 with less than good index, so the average total of qos parameters was 2.45 with index enough and with it’s percentage was 61.25% in the tiphon standard, thus it can be concluded that the internet of faculty of engineering university of tanjungpura belonging to unsatisfactory standard based on the standard of tiphon with a rating of < 95%
+pendahuluan salah satu instansi pemerintahan bidang pendidikan yang turut berperan aktif dalam mencerdaskan kehidupan bangsa, memerlukan sarana dan prasarana serta memanfaatkan kemajuan teknologi informasi untuk mencapai hasil yang optimal, misalnya internet perkembangan internet dan jaringan akhir-akhir ini telah membuat ip yang merupakan tulang punggung networking berbasis tcp/ip dengan cepat menjadi ketinggalan zaman
+perkembangan ini telah membuat terlampauinya kapasitas jaringan berbasis ip untuk menyuplai layanan dan fungsi yang diperlukan
+sebuah lingkungan seperti internet membutuhkan dukungan pada lalu-lintas data secara real-time maupun fungsi sekuriti
+informasi-informasi yang dibutuhkan oleh mahasiswa, dosen, staf fakultas dan masyarakat umum
+untuk sekarang kebutuhan internet di fakultas teknik universitas tanjungpura hanya digunakan untuk akses internet dan layanan akademik saja, tetapi jaringan tersebut masih tidak stabil seperti tampak pada gambar di bawah ini : fakultas teknik untan fakultas teknik universitas tanjungpura masih tidak stabil, salah satunya traffic bandwidth
+alokasi bandwidth puskom untan ke fakultas teknik universitas tanjungpura sebesar 3 mb, tetapi dari daily report graphic, down stream sebesar 612, 63 kb dan up stream sebesar 3, 47 mb terlihat stabil dan kurang dari bandwidth yang dialokasikan, sehingga perlu adanya suatu analisis qos untuk mengatasi permasalahan tersebut
+yang memungkinkan administrator jaringan untuk dapat menangani berbagai efek akibat terjadinya kemacetan pada lalu lintas aliran paket di dalam jaringan
+packet loss, throughput, mos, echo cancellation dan pdd
+qos dibutuhkan untuk meminimalkan packet loss, delay, latency dan delay variation, menyakinkan performance, mixing paket data dan suara pada jaringan yang padat, dan dapat mengoptimalkan queues untuk memproritaskan shaping/buffering pada jaringan wan
+jaringan internet fakultas teknik yang telah ada dengan menggunakan parameter qos, untuk menghasilkan suatu informasi berupa hasil analisis jaringan internet yang sesuai dengan standar qos di lingkungan kampus
+hasil analisis tersebut, dapat dijadikan rekomendasi untuk implementasi fisik jaringan internet yang harapan ke depannya bisa menunjang penambahan layanan-layanan penunjang pendidikan technology)
+teori dasar 2.1 qos qos, sebagaimana dijelaskan dalam rekomendasi ccitt e.800 adalah efek kolektif dari kinerja layanan yang menentukan derajat kepuasan seorang pengguna terhadap suatu layanan
+menurut ningsih dkk qos adalah kemampuan sebuah jaringan untuk menyediakan layanan yang lebih baik lagi bagi layanan trafik yang melewatinya
+service performance which determines the degree of satisfaction of a user of the service”

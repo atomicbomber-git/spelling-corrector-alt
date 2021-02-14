@@ -1,0 +1,99 @@
+ubmitted 24-05-2018; revised 12-07-2018; accepted 30-07-2018 133 rancang bangun aplikasi penjualan dan pembelian berbasis web pada apotek neofarma sanggau puteri noviandhiny#1 #program studi informatika universitas tanjungpura 1 prinvie@gmail.com kembayan, kabupaten sanggau merupakan apotek yang bergerak dibidang penjualan obat
+sistem yang sedang berjalan di apotek neofarma ini menggunakan sistem manual dalam proses pengolahan data terdapat banyak kendala dalam melakukan pengolahan data obat seperti proses pengolahan data mencatat ke dalam pembukuan sehingga sering mengalami masalah seperti pada saat melakukan pembukuan atau pengecekkan data obat yang terlalu lama dan masalah pencatatan stok obat kadaluarsa yang dilakukan petugas stok obat masih kurang terkontrol, hal ini mengakibatkan kesulitan dalam mencari informasi persediaan stok obat dan obat yang mendekati kadaluarsa serta laporan penjualan
+setelah mengetahui permasalahan yang ada maka dirancang sebuah aplikasi penjualan dan pembelian menggunakan metode pengembangan waterfall
+tujuan dari penelitian ini adalah menghasilkan aplikasi penjualan dan pembelian obat pada apotek berbasis web yang di dalamnya diintegrasikan sistem notifikasi obat yang kadaluarsa atau obat yang sudah habis, melakukan penjualan secara terkomputerisasi, mengetahui laporan pembelian dan penjualan, serta membantu pengelolaan data obat pada apotek neofarma
+dari hasil pengujian black box menunjukkan 100% dari 6 kelas uji berjalan dengan baik dan pengujian kuesioner penggunaan aplikasi terhadap 5 responden dihitung menggunakan metode mencari interval nilai persentase likert
+hasil perhitungan pengujian kuesioner pengguna aplikasi adalah 81, 5%
+berdasarkan hasil pengujian kuesioner pengguna aplikasi, maka sistem informasi yang dibangun dapat diimplementasikan pada apotek neofarma sanggau
+pendahuluan persediaan obat-obatan yang banyak, segala transaksi yang terjadi di apotek neofarma masih didata secara konvensional dengan mencatat ke dalam sebuah buku
+beberapa transaksi seperti penjualan obat kepada konsumen baik resep maupun non resep masih dicatat ke dalam buku, sehingga kurang efektif ketika akan membuat laporan penjualan dan jika ingin mengetahui stok obat yang akan habis atau kadaluarsa mereka harus mengecek dan menghitung obat secara langsung
+kendala yang sering muncul dengan pengolahan data yang bersifat manual ini masalahnya yaitu pada waktu melakukan pembukuan atau pengecekkan data obat yang terlalu lama dan masalah pencatatan stok obat kadaluarsa yang dilakukan petugas stok obat masih kurang terkontrol, hal ini mengakibatkan kesulitan dalam mencari informasi persediaan obat dan obat yang mendekati kadaluarsa
+oleh karena itu, untuk mengurangi kesalahan dan meningkatkan kualitas apotek seperti meningkatkan kinerja dan memudahkan karyawan untuk mengolah data perlu adanya sebuah sistem informasi yang dapat mendukung pengolahan data penjualan, persediaan stok obat, data supplier, data pembelian, laporan pembelian, dan laporan penjualan
+diartikan juga sebagai program komputer yang dibuat untuk menolong manusia dalam melaksanakan tugas tertentu
+apotek juga membutuhkan teknologi informasi karena apotek membutuhkan sistem yang terkomputerisasi dalam mengumpulkan, menyimpan, dan memproses dari input datayang diberikan untuk menghasilkan informasi yang dapat membantu apotek dalam melakukan pelayanan secara efektif
+aplikasi penjualan dan pembelian yang akan dibangun untuk mengatasi masalah yang ada di apotek neofarma sanggau yaitu mampu membantu meringankan pengelolaan kefarmasian yang terdapat dalam apotek
+penelitian ini menghasilkan aplikasi apotek berbasis web yang di dalamnya diintegrasikan sistem notifikasi obat yang kadaluarsa atau obat yang sudah habis, dan dapat memberikan informasi bagi administrator, pegawai apotek dan pimpinan apotek melalui web browser, serta membantu pengelolaan data apotek
+korespondensi : puteri noviandhiny 134 merancang bangun sebuah aplikasi penjualan dan pembelian yang mampu mengatasi permasalahan yang ada pada apotek neofarma sanggau
+adapun judul penelitian yang dilakukan penulis adalah rancang bangun aplikasi penjualan dan pembelian berbasis web pada apotek neofarma sanggau, sehingga dapat berfungsi dalam menjalankan kegiatan transaksi di apotek bagi karyawan dan pimpinan apotek
+uraian penelitian bukanlah hal yang baru dilakukan
+beberapa penelitian sejenis mengenai sistem informasi penjualan dan pembelian pada apotek dilakukan sebelumnya
+berdasarkan penelitian yang dilakukan oleh nurul hidayani pada apotek cemara menghasilkan sebuah sistem informasi berbasis web dan menggunakan jaringan intranet ivanjelita yang menghasilkan sistem yang menggunakan client-server
+sistem yang dihasilkan dapat melakukan penjualan dan membuat laporan pada apotek syifa
+menghasilkan sistem untuk mempermudah pengolahan data seperti data obat, data penjualan obat, pembuatan kwitansi dan pembuatan laporan kepada pimpinan
+sistem informasi yang dibuat berbasis web menggunakan bahasa pemrograman php dan basis data mysql
+melakukan penelitian yang menghasilkan sebuah sistem informasi penjualan dan pembelian pada apotek neofarma sanggau yang tidak hanya dapat melakukan pengolahan data seperti data obat, data penjualan, data pembelian dan pembuatan laporan tetapi juga dapat memberikan informasi kadaluarsa obat dan obat yang akan habis sehingga dapat membantu kinerja pegawai apotek lebih baik
+sistem ini dikembangkan berbasis web menggunakan bahasa pemrograman html dan php serta basis data mysql
+untuk menguji apakah penelitian berhasil dilakukan atau tidak, pengujian dilakukan dengan metode black box untuk pengujian sistemnya, dan menyebarkan kuesioner kepada responden yang akan menggunakan sistem informasi penjualan dan pembelian pada apotek neofarma sanggau
+kuesioner yang disebar memiliki pilihan jawaban yang masing-masing pertanyaan memiliki nilai yang dihitung ketika kuesioner telah diisikan oleh responden
+perhitungan dari hasil pengisian kuesioner akan dilakukan dengan metode mencari interval nilai persentase likert
+kefarmasian dan penyaluran sediaan farmasi, perbekalan kesehatan lainnya kepada masyarakat
+pekerjaan kefarmasian yang dilakukan meliputi pembuatan termasuk pengendalian mutu persediaan farmasi, pengamanan, pengadaan, penyimpanan, dan pendistribusian atau penyaluran obat, pengelolaan obat, pelayanan obat atas resep dokter, pelayanan informasi obat, serta pengembangan obat, bahan obat, obat tradisional dan kosmetika
+aplikasi dapat diartikan juga sebagai program komnputer yang dibuat untuk menolong manusia dalam melaksanakan tugas tertentu
+aplikasi software yang dirancang untuk suatu tugas khusus dapat dibedakan menjadi dua jenis, yaitu : 1
+aplikasi software spesialis, program dengan dokumentasi tergabung yang 2
+aplikasi software paket, suatu program dengan dokumentasi tergabung yang dirancang untuk jenis masalah tertentu
+mengembangkan rencana-rencana strategis yang diarahkan pada usaha pemuasan kebutuhan dan keinginan pembeli, guna mendapatkan penjualan yang menghasilkan laba
+pembelian prosedur pembelian adalah urutan-urutan dari kegiatan pembelian yang dilaksanakan melalui beberapa bagian dalam perusahaan
+bagian yang terkait dalam prosedur ini adalah bagian dalam perusahaan
+pembelian dapat dilakukan dengan cara pembelian langsung dan pembelian tak langsung
+dengan mengumpulkan data, analisis kebutuhan, perancangan, implementasi, pengujian dan terakhir proses penarikan kesimpulan
+studi literatur dilakukan untuk memahami materi- materi yang berkaitan dengan sistem informasi penjualan dan pembelian pada apotek neofarma sanggau
+sumber literatur yang dipergunakan didalam penulisan skripsi ini adalah studi literatur dari penelitian atau hasil penelitian karya ilmiah yang menekankan pada kelebihan dan kekurangan yang dilihat dari sisi sistem yang telah dirancang
+seperti sistem yang sedang berjalan dan sistem seperti apa yang diharapkan dapat diimplementasikan di apotek neofarma sanggau
+informasi yang dimana dengan cara pengamatan langsung terhadap suatu organisasi perusahaan itu sendiri
+observasi itu dilakukan dibagian kasir dan apoteker untuk mengamati langsung penjualan dan pembelian pada bagian kasir
+metode perancangan sistem metode perancangan yang digunakan adalah metode sdlc dengan model waterfall
+model ini memberikan pendekatan-pendekatan sistematis dan berurutan bagi pengembangan piranti lunak
+berikut gambar pengembangan sistem perangkat lunak dengan proses sdlc dengan model waterfall: gambar 1
+performance, information, economic, control, efficiency, service
+metode waterfall penjabaran dari sebuah sistem melalui analisis pieces 
+kelancaran proses kerja dalam suatu perusahaan
+kinerja yang dimaksud adalah kinerja sistem
+kinerja dapat diukur dari througput dan respons time
+dalam penelitian pada apotek neofarma ini, kinerja sistem informasi yang sedang berjalan ditinjau dari dua hal, sebagai berikut: 1
+) throughput dalam kasus ini pekerjaan yang dilakukan oleh apotek maupun kasir dalam transaksi penjualan dilakukan beberapa tahap serta menggunakan cara manual seperti pencatatan pada buku besar, perhitungan menggunakan kalkulator dan data transaksi yang terjadi diinputkan kembali ke komputer
+sehingga mempunyai keterbatasan dari segi volume waktu
+data sering terjadi keterlambatan karena melalui beberapa tahapan secara manual dengan adanya sistem informasi penjualan, diharapkan beban user akan lebih ringan dan lebih efektif karena sistem kerja akan lebih mudah dan cepat
+) response time pelayanan kegiatan transaksi untuk pencatatan data barang yang terjual dan perhitungannya menggunakan kalkulator sekitar 5 menit
+sedangkan untuk input data dalam komputer bisa dilakukan dalam waktu sekitar 5 menit karena keterbatasan sumber daya manusia
+dengan adanya sistem informasi yang dibuat waktu yang diperlukan untuk melakukan transaksi penjualan maupun pembelian pada apotek bisa lebih cepat
+) informasi kelemahan informasi yang lama yaitu sistem manual menjadi salah satu faktor keterlambatan dalam hal pelayanan transaksi
+penyajian informasi terkadang menjadi kurang akurat ketika dalam sebuah transaksi yang terjadi apoteker maupun bagian penjualan obat lupa dalam melakukan penginputan kembali data dalam transaksi
+serta perhitungan menggunakan kalkulator juga memungkinkan kasir salah menekan angka sehingga menimbulkan kesalahan dalam perhitungan
+dengan sistem informasi yang baik, maka akan menghasilkan informasi yang bermanfaat yang dapat mendukung dalam menangani masalah dan peluang yang ada
+) ekonomi kelemahan sistem yang lama membutuhkan alat tulis berupa buku besar, bolpen dan alat bantu hitung berupa kalkulator dalam pengolahan datanya, meskipun laporan dapat disajikan dalam sistem inventori
+dengan di terapkannya sistem baru yang diusulkan diharapkan dapat menekan biaya-biaya yang dikeluarkan untuk media pencatatan transaksi maupun penyampaian informasi
+transaksi masih secara manual hal tersebut menimbulkan kesulitan dalam melakukan kontrol data, sehingga memungkinkan terjadinya kesalahan yang disebabkan oleh kesalahan manusia
+serta kerusakan fisik pada kertas atau buku pencatatan menyebabkan data rusak atau sulit terbaca sehingga data kurang terjamin
+seperti yang ditunjukkan pada menu manejemen obat yang menyediakan informasi data obat secara akurat sesuai dengan yang telah dimasukkan oleh pengguna
+) efisiensi kelemahan sistem lama adalah proses pencatatan transaksi kurang efisien karena perlu melakukan dokumentasi secara manual terlebih dahulu
+dengan adanya sistem baru diharapkan traksaksi menjadi lebih efisien karena dokumentasi sudah diinputkan oleh admin
+) pelayanan kelemahan pada sistem lama seringkali pelanggan harus menunggu lebih lama karena apoteker atau bagian penjualan harus melakukan pencatatan transaksi terlebih dahulu serta menghitung jumlah harga menggunakan kalkulator sehingga menyebabkan antrian
+dengan adanya sistem baru diharapkan dapat mengurangi antrian karena sistem menggunakan perhitungan komputerisasi untuk transaksi penjualan dan pembeliannya
+seperti yang ditunjukkan pada menu transaksi penjualan dan pembelian yang memberikan fasilitas perhitungan secara tepat sehingga kegiatan transaksi dapat berjalan lancar
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks dapat dilihat pada gambar 2
+aplikasi penjualan dan notifikasi persediaan obat faktur pembelian data pembelian obat data penjualan obat faktur penjualan e
+entity relationship diagram berikut ini adalah gambar mengenai entity relationship diagram aplikasi sistem informasi penjualan dan pembelian pada apotek neofarma sanggau dapat dilihat pada gambar 3
+diagram alir sistem diagram alir sistem merupakan diagram yang menggambarkan sistem yang akan dibangun
+diagram alir sistem yang akan dibangun dapat dilihat pada gambar 3 mulai input data penjualan obat  input data pembelian obat  input data obat baru  lihat laporan penjualan  lihat laporan pembelian  lihat laporan stok obat lihat laporan stok obat  lihat laporan pembelian  lihat notifikasi stok obat habis dan kadaluarsa menyimpan dan mengolah data-data obat yang ada, menyimpan serta melakukan transaksi penjualan maupun pembelian obat, selain itu aplikasi ini juga dapat memberikan pemberitahuan obat yang sudah kadaluarsa dan obat yang habis
+berikut ini adalah tampilan dari sistem yang telah dirancang: dahulu dengan mengisi username dan password
+setelah mengisi username dan password maka user mengklik tombol login dan masuk ke form utama sesuai dengan hak akses pada user tersebut
+tampil, seperti menu manajemen user, manajemen dokter, manajemen pemasok, dan manajemen obat dapat dilihat pada gambar 6
+antarmuka halaman utama kasir ketika gudang login pada aplikasi maka menu yang akan tampil adalah transaksi pembelian, data stok obat dan manajemen laporan serta pemberitahuan obat yang akan habis, obat yang telah habis, obat yang akan kadaluarsa dan obat yang telah kadaluarsa dapat dilihat pada gambar 8 gambar 8
+antarmuka halaman utama gudang ketika pimpinan login pada aplikasi maka menu yang akan tampil adalah manajemen laporan dapat dilihat pada gambar 9 gambar 9
+pengujian black box pengujian black box dilakukan dengan cara menjalankan aplikasi dengan tujuan untuk menemukan kesalahan serta memeriksa apakah sistem dapat berjalan dengan baik sesuai dengan kebutuhan
+pada jurnal ini pengujian black box yang dilampirkan pada proses transaksi penjualan dan transaksi pembelian
+berikut adalah tabel pengujian black box pada proses transaksi penjualan dapat dilihat pada tabel 1 dan untuk proses transaksi pembelian dapat dilihat pada tabel 2
+dari hasil pengujian black box pada tabel 1 terlihat bahwa semua pengujian telah sesuai dengan hasil yang diharapkan dan dari hasil pengujian black box pada tabel 2 terlihat bahwa semua pengujian telah sesuai dengan hasil yang diharapkan
+tabel 1 fungsi contoh fungsi hasil fungsi contoh fungsi hasil sukses membeli obat dari hasil pengujian black box pada tabel 1 dan 2 terlihat bahwa semua pengujian telah sesuai dengan hasil yang diharapkan
+pengujian oleh pengguna untuk mengetahui tanggapan responden terhadap aplikasi penjualan dan pembelian pada apotek yang akan diimplementasikan, maka dilakukan pengujian dengan memberikan 8 kriteria dengan 3 aspek yang akan dinilai kepada 5 responden menggunakan kuesioner
+kuesioner adalah suatu daftar yang berisi pertanyaan-pertanyaan yang harus dijawab atau dikerjakan oleh responden yang ingin diselidiki
+hasil pengujian kuesioner penggunaan aplikasi dapat dilihat pada tabel 4
+adapun untuk mencari interval nilai persentase dari masing-masing jawaban kuesioner dengan metode mencari interval persentase likert adalah dengan rumus sebagai berikut: tabel 3 menunjukkan interval nilai persentase pada kuesioner
+rata-rata total persentase 81, 5% implementasi dan hasil pengujian yang dilakukan penulis berkesimpulan sebagai berikut : 1
+aplikasi sistem informasi penjualan dan pembelian berbasis web pada apotek neofarma sanggau ini berjalan sesuai dengan fungsinya yaitu dapat melakukan manajemen data obat, data pengguna, data dokter, dan data pemasok
+dengan adanya aplikasi ini karyawan apotek dapat melakukan transaksi penjualan dan pembelian obat serta mencetak laporan penjualan dan pembelian obat
+sehingga dapat mempermudah dan memperlancar kegiatan transaksi pada apotek neofarma sanggau
+aplikasi ini dapat memberikan informasi pemberitahuan obat yang akan habis, obat yang sudah habis, obat yang akan kadaluarsa, dan obat yang sudah kadaluarsa
+dengan adanya sistem ini karyawan apotek lebih terbantu dalam melakukan restok obat

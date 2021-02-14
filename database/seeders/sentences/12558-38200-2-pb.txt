@@ -1,0 +1,105 @@
+kopi hanyalah salah satu dari sekian banyak minuman klasik yang sudah dikenal sejak dulu, dapat disajikan hangat atau dingin yang dipercaya memiliki sugesti untuk membangkitkan semangat
+kopi telah mengandung zat caffeine yang pada jumlah tertentu memiliki efek dopping kepada tubuh
+alat pembuat kopi otomatis ini adalah mencakup urutan pembuatan kopi panas yang deprogram secara otomatis
+tahap- tahap pembuatan kopi disusun secara sistematis dan dikendalikan oleh mikrokontroler
+pengujian sistem berupa trial and error digunakan dimana setiap langkah pemrograman baik itu perhitungan akurasi pergerakan door lock, akurasi sensor suhu dan indikator volume air serta ketepatan ukuran dan rasa ideal dari secangkir kopi panas akan dicoba dilakukan berulang-ulang sampai pada titik yang optimal alat ini mampu membuat beberapa variasi kopi diantaranya kopi tanpagula, kopi manis dan kopi krimer baik dengan gula maupun tanpa gula
+selain itu ada opsi untuk mengambil air panasnya saja
+bahan-bahan yang digunakan dalam alat ini berupa kopi instant, yang merupakan kopi tanpa bubuk, gula dan krimer
+pendahuluan termasuk mencakup pada kegiatan sehari-hari
+otomatisasi merupakan sebuah trend di masyarakat untuk mempermudah kegiatan manusia
+efisiensi dan efektifitas menjadi hal mutlak dalamkonsep otomatisasi
+mikrokontroler merupakan salah satu contoh perangkat digital yang dapat difungsikan untuk pengendali otomatis
+penelitian ini mengambil tema kopi karena secara umum kopi merupakan salah satu minuman yang banyak dipilih di sela aktifitas individu
+kebanyakan individu membuat secangkir kopi saat ini dengan cara manual, yakni dengan membubuhkan bahan dengan rasio komposisi pencampuran yang masih ditakar dengan konsep perkiraan.di sisi lainnya, setiap individu memiliki cita rasa tersendiri terhadap kopi, seperti kopi tanpa gula, kopi manis maupun kopi krimer
+kopi merupakan salah satu contoh minuman yang paling terkenal di kalangan masyarakat
+kopi digemari karena memiliki cita rasa dan aroma yang khas, kopi dapat bermanfaat sebagai zat antioksidan, merangsang kinerja otak dan zat antikanker
+kandungan antioksidan dalam kopi lebih banyak dibandingkan antioksidan pada teh dan coklat
+mikrokontrolersebagaisebuah‖one chip solution‖ pada dasarnya adalah rangkaian terintegrasi yang telah mengandung secara lengkap berbagai komponen pembentuk sebuah komputer
+berbeda dengan penggunaan mikroprosesor yang masih memerlukan komponen luar tambahan seperti ram, rom, timer, dan sebagainya
+kadang disingkat dengan uc atau mcu
+sebuah mirokontroller adalah sebuah komputer kecil dalam sebuah integrated circuit tunggal yang terdiri dari, satu intiprosesor, memori dan perangkat progmamableinput/output
+memori program dalam bentuk ferroelectric ram, nor flash atau otp rom juga dikemas dalamsebuah chip, sebagaimana tipe ram lainnya
+lcd adalah suatu jenis media tampilan yang menggunakan kristal cair sebagai penampil utama
+lcd bisa memunculkan gambar atau tulisan dikarenakan terdapat banyak sekali titik cahaya yang terdiri dari satu buah kristal cair sebagai satu titik cahaya
+pada rancangan ini, lcd berfungsi untuk menampilkan suatu nilai hasil sensor, menampilkan teksatau menampilkan menu pada aplikasi mikrokontroler
+pemanas banyak dipakai dalam kehidupan sehari- hari, baik di dalam rumah tangga ataupun peralatan dan mesin industri
+heater ini dibuat dari logam yang bersifat penghantar panas yang baik yang dihasilkan dari energi listrik
+bahan- bahan yang paling banyak digunakan untuk pembuatan elemen pemanas listrik terdiri dari campuran : krom-nikel, krom- nikel-besi, krom-besi-aluminium
+sensor suhu lm 35 adalah komponen elektronika yang memiliki fungsi untuk mengubah besaran suhu menjadi besaran listrik dalam bentuk tegangan
+secara umum perancangan hardware ini bertujuan untuk mengetahui letak dan ukuran dari hardware yang dirancang, sehingga akan dapat diketahui seberapa banyak komponen dan peralatan yang akan digunakan.sistem tersebut terdiri dari sensor cahaya suhu, mikrokontroler atmega 8535, lcd, catu daya dan rangkaian driver 
+perancangan softwarebertujuan untuk menjelaskanlangkah demi 
+kabel-kabel yang digunakan untuk menghubungkan komponen
+kopi otomatis, ini termasuk dalam sistem kendali terbuka, yang terdiri dari beberapa blok, meliputi: 1
+1, sebagai berikut : tersebut adalah sebagai berikut: 1
+catu daya berfungsi mensuplai arus listrik ke komponen rangkaian kontrolnya seperti sensor suhu, atmega8535, lcd, saklar tekan, door lockdan relay
+sensor suhu berfungsi sebagai media input sistem, yang akan memberikan masukan ke mikrokontroler sehingga langkah-langkah berikutnya dapat dieksekusi sesuai dengan logika system 4
+lcd digunakan sebagai menampilkan informasi suhu air, volume air dan pilihan jenis kopi yang dipilih melalui penekanan saklar
+yang melakukan aktifitas pengisian kopi, guladan air panas
+saklar tekan berfungsi sebagai pilihan jenis kopi yang diminta, contoh menekan saklar no 1 akan menginstruksikan mesin membuat kopi manis, tombol 2 untuk kopi seimbang, tombol 3 untuk kopi pahit, tombol 4 untuk kopi krimer dan seterusnya
+sumber aliran listrik ac 220 volt adalah tegangan yang akan menggerakkan pompa air jika air di dalam tabung pemanas berada dalam level kurang
+selain itu juga akan memberi tegangan kepada pemanas air jika suhu air di dalam pemanas berada di bawah suhu 60 derajat celcius
+doorlock berfungsi sebagai sebuah sub system yang akan melakukan pengisian takaran kopi, gula dan air panas ke dalam sebuah wadah penampung sementara
+motor dc berfungsi sebagai pengaduk jika kopi, guladan air panas telah berada dalam wadah penampung sementara
+pompa air berguna untuk memompakan air dari galon kepemanas air jika level kecukupan air di dalam pemanas kurang
+selain itu terdapat juga pompa yang memompakan krimer ke dalam gelas kopi
+cara kerjadarimesin kopi otomatis ini adalah dimulai dari sensor ketinggian air yang mengukur ketinggian atau kecukupan air di dalam pemanas
+sensor ini adalah pin-pin dari mikrokontroler yang digunakan dalam keadaan bebas
+satu buah pin digunakan sebagai dasar air di dalam pemanas
+pin berikutnya digunakan sebagai level setengah penuh dalam pemanas
+pin terakhir digunakan sebagai level penuh di dalam pemanas
+jika pin ini tenggelam oleh air maka akan nilai pada mikrokontroler akan berubah menjadi 1, yang artinya ketinggian air beradapada level sesuai ketetapan
+apabila air berada dibawa htitik b, maka elemen pemanas akan mati dan pompa air akan hidup mengisi wadah pemanas sampai air berada pada titik c
+apabila air berada pada titik c keatas, pompa air akan mati dan elemen pemanas akan hidup sampai dengan suhu berada pada kisaran suhu 70 derajat celcius
+apabila dalam kondisi air belum mencapai suhu 70 derajat celcius maka semua permintaan pembuatan kopi akan diabaikan oleh sistem
+rangkaian mikrokontroler atmega 8535 rangkaian ini berfungsi sebagai pusat kendali dari seluruh sistem yang ada
+komponen utamadari rangkaian ini adalahic mikrokontroler atmega8535
+padaic inilah semua syntax program diisikan atau didownload dari bascom avr, sehingga rangkaian dapat berjalan sesuai dengan yang diinginkan
+mikrokontrol atmega 8535 saklar rangkaian lcd yang digunakan adalah lcd 2x16, artinya lebar display 2 baris 16 kolom dengan 16 pin konektor
+pada perangkat ini digunakan sebagai media tampilan kondisi alat pemanas kopi, seperti suhu air dan pilihan jenis kopi
+jika air di dalam peanas belum mencapai suhu 70 derajat celcius, maka informasi yang akan ditampilkan di layar permintaan kopi belum dapat dipenuhi 
+jika air sudah mencapai suhu 70 derajat celcius, maka di layar lcd akan muncul tulisan ―ready‖
+apabila pada pesanan pebuatan kopi, maka jenis pesanan tersebut akan ditampilkan juga
+flowchart flowchart ini akan diurai menjadi beberapa sub yang menggambarkan alur data sesuai dengan jenis kopi yang dipilih/diminta
+flowchart sistem dapat dilihat pada gambar
+5, berikut : dari uraian flowchart diatas, diketahui bahwa pembuatan kopi dimulai dengan pembacaan suhu air oleh sensor suhu lm-35
+hasil pembacaan analog dikonversikanke bit digital dan disesuaikan kesatuan celcius
+jika suhu air dalam pemanas belum mencapai 65 derajat celcius, maka elemen pemanas akan dihidupkan
+namun sebelum pemanas dihidupkan, level kecukupan air didalam pemanas akan diukur terlebih dahulu
+jika level air berada dibawah level b, maka pompa air akan dihidupkan sampai air dalam pemanas beradapada level c 
+setelah air penuh pemanas akan dihidupkan 
+suhu air dalam pemanas akan ditampilkan pada layar display
+proses akan berulang lagi sampai suhu berada diatas 65 derajat celcius
+suhu air dijaga pada kisaran 65 sampa idengan 70 derajat celcius
+elemen pemanas akan mati jika air sudah berada padasuhu 70 derajat celcius dan hidup kembali jika sudah berada dibawah 65 derajat celcius
+menunjukan aliran data jika tombol jenis kopi ditekan
+aliran data ini akan berfungsi jika suhu air berada di atas 65 derajat celcius
+hasil dan diskusi satunya oleh toibah umi kalsum etaldimana penelitian tersebut menggunakan mikrokontroler mcs51 dan bahasa pemrograman visual basic 6.0
+hasil penelitian berupa alat pembuat kopi yang dapat beroperasi secara manual atau dengan kendali komputer, dan juga bisa beroperasi secara otomatis
+namun alat ini memiliki kekurangan yakni kesulitan dalam pemasangan alat pengaduk, sehingga pembuatan pengaduk masih diabaikan
+kelemahan lainnya adalah pada penuang air digunakan penghisap air akuarium, yang terdapat bocoran air jika ada tekanan air dari atas kran
+alat rupa di dalam sebuah kotak
+kotak dibuat dari alumunium dan triplek tipis, dibentuk dengan model temporer modern, sehingga komponen dapat disusun dengan rapi dan aman
+berikut adalah gambar alat tampak depan dan tampak belakang : keterangan : 3
+pengujian mendapatkan hasil yang sesuai dengan keinginan
+dalam pengujian ini sekalian dilakukan penyesuaian-penyesuaian alat secara fisik
+penyesuaian ini diperlukan karena sebahagian besar alat-alat yang digunakan hasil modifikasi, dimana perhitungan ketepatan gerakan, posisi, dan ukuran tidak sesuai lagi dengan standar kalibrasi
+perangkat : sensor ketinggian air adalah sensor yang mengukur kecukupan air didalam alat pemanas
+secara teknis ini bukanlah sensor yang berbentuk alat
+sensor ini menggunakan pin a.1, pin a2 dan ground sebagai media input
+secara teori apabila sebuah pin input dihubungkan dengan ground, maka pin tersebut akan bernilai nol 
+apabila pin bernilai nol, maka akan men-trigger perintah-perintah lain
+trigger ini akan berhenti jika air dalam pemanas telah mencapai level cukup 
+pompa pengisi air akan otomatis hidup jika air berada dalam level yang kurang dan pompa akan otomatis mati jika air sudah berada dalam level cukup 
+pengujian rangkaian pemanasair membuat kopi instan
+untuk bisa memanaskan air sampai dengan suhu 70 derajat celcius, rata-rata waktu yang diperlukan adalah selama 35 menit
+pemanas air akan diberi kondisi nol apabila suhu sudah mencapai 70 derajat celcius
+pengujian ini bertujuan untuk menghasilkan takaran kopi yang sesuai dengan selera orang pada umumnya
+hasil pengujian dapat dilihat pada tabel 2
+manis) seimbang) pahit) 0, 75 - - krimer) krimertanpagula) 7 cleaning - - - *sdt – sendok teh 2 ballance black coffee pahit) 2 - - krimer) krimertanpagula) 7 cleaning - - - baik, solenoid memerlukan tekanan air yang besar sehingga air dapat mengalir maksimal pada alat ini tekanan air dari pemanas tidak begitu besar sehingga air mengalir ke wadah tidak besar
+untukmencapai kecukupan air untuk segelas kopi, waktu rata-rata solenoid diberi kondisi on adalah selama sekitar 13 detik
+kesimpulan& saran pada aplikasi mikrokontroler untuk alat pembuat kopi otomatis ini dapat diambil kesimpulan sebagai berikut : 1
+sistem ini mampu menjalankan perintah-perintah yang dinotasikan dalam program, mulai dari pengisian air ke wadah, memanaskan air, mengatur porsi kopi, gula dan krimer hingga menyajikan segelas kopi panas
+penggunaan solenoid untuk wadah bertekanan rendah tidak disarankan
+output yang tidak standar sehingga setting pada program harus dilakukan secara cermat
+menyempurnakan hasil karya berikutnya : angka yang konstan
+menambahkan jenis kopi yang tersedia, melakukan modifikasi pada alat-alatnya dengan alat yang lebih mudah didapatkan, atau bahkan menggabungkannya dengan sensor uang sehingga bisa menjadi ―kedai kopi otomatis‖

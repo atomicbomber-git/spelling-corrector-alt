@@ -1,0 +1,91 @@
+urnal edukasi dan penelitian informatika vol 2, no 2, 2016 issn 2460-0741 90 depok eko harli #1, ahmad fauzi jln
+nangka no58c, tanjung barat, jakarta 1ekoharli@gmail.com 2ahmadfauzi.udzi@gmail.com 3triahadikusmanto@yahoo.com terutama di dalam kelas agar terciptanya suasana yang nyaman sehingga dapat pula memacu perkembangan siswa dalam belajar agar dapat meningkatkan kualiatas pendidikan di indonesia perlu adanya suatu pengaturan siswa dalam sebuah kelas
+pada penelitian ini ann digunakan untuk membangun sebuah model pengelompokkan siswa dalam sebuah kelas secara mudah berdasarkan nilai raport siswa menggunakan metode alogritma self organizing map 
+berdasarkan uraian yang telah peneliti paparkan, maka dalam penelitian ini peneliti akan membuat aplikasi pengelompokkan kelas menggunakan self organizing map neural network pada smk negeri 1 depok
+tujuan dari penelitian ini adalah untuk membangun model pengelompokan kelas secara mudah
+penelitian ini melakukan penentuan klasifikasi kelas berdasarkan nomor induk siswa, nilai mata pelajaran siswa, jenis kelamin dan nilai sikap siswa menggunakan algoritma self organizing map
+data siswa dimasukan kedalam sistem kemudian dilakukan klasifikasi kelas berdasarkan nilai-nilai siswa yang baik dan kurang baik menggunakan som, selanjutnya pemerataan hasil klasifikasi agar setiap kelas mendapatkan hasil yang merata dari nilai siswa tersebut
+pendahuluan mutu dan kualitas pendidikan, salah satunya dengan diterbitkannya kurikulum 2013 oleh kementerian pendidikan dan kebudayaan republik indonesia
+kedalaman muatan kurikulum pada setiap satuan pendidikan dituangkan dalam kompetensi yang terdiri atas standar kompetensi dan kompetensi dasar pada setiap tingkat dan/ atau semester, sk dan kd inilah yang menjadi arah dan landasan untuk mengembangkan materi pokok, kegiatan pembelajaran, dan indikator pencapaian kompetensi untuk penilaian
+pengingkatan perkembangan kegiatan pembelajaran tidak lepas dari suasana sekolah terutama kelas yang menjadi lingkungan keseharian siswa
+suasana yang nyaman dan kekeluargaan tanpa ada perbedaan satu sama lain dapat meningkatkan perkembangan siswa dalam belajar
+karena hal tersebut, maka perlu suatu bentuk pengaturan siswa dalam sebuah kelas atau kelompok belajar
+alasan pengelompokan peserta didik juga didasarkan atas realitas bahwa peserta didik secara terus-menerus bertumbuh dan berkembang
+pertumbuhan dan perkembangan peserta didik satu dengan yang lain berbeda
+agar perkembangan peserta didik yang cepat tidak mengganggu peserta didik yang lambat dan sebaliknya, maka dilakukanlah pengelompokan peserta didik
+pembelajaran yang menguntungkan, dan merupakan tindakan koreksi terhadap tingkah laku menyimpang yang dapat mengganggu kondisi optimal dari proses pembelajaran yang sedang berlangsung
+karakteristik demikian perlu digolongkan, agar mereka berada dalam kondisi yang sama
+adanya kondisi yang sama ini bisa memudahkan pemberian layanan yang sama
+oleh kerena itu, pengelompokan ini lazim dengan istilah pengklasifikasian 
+pengelompokan siswa belajar mengajar di sekolah bisa berjalan lancar, tertib, dan bisa tercapai tujuan-tujuan pendidikan yang telah diprogramkan
+untuk tujuan pengelompokkan siswa maka dilakukan identifikasi siswa dengan cara segmentasi menggunakan analisis cluster
+ada bermaca-macam metode untuk melakukan analisis cluster, mulai dari metode yang sederhana hingga metode yang kompleks dengan menggunakan kecerdasan tiruan seperti jaringan syaraf tiruan 
+clustering adalah metode jaringan syaraf yang menggunakan pola unsupervised learning, salah satunya yaitu kohonen’s self-organizing maps
+pada penelitian yang menghasilkan klasifikasi dari sejumlah data
+kartika purwandari, candra dewi, imam cholissodinmenggunakan som untuk mengklasifikasikan citra daun
+yunus dan rizalmenerapkan metode som untuk visualisasi data geospasial pada informasi sebaran data pemilih
+sedangkan mishra dkkmenerapkan som untuk klasifikasi high dimensional data set penelitian ini menerapkan som untuk mengklasifikasikan siswa kedalam 2 cluster atau lebih secara merata berdasarkan nilai-nilai parameter yang menggambarkan siswa tersebut
+hasil dari klasifikasi tersebut akan berguna untuk guru dalam menentukan pengaturan dari sebuah kelas
+tinjauan pustaka dasar-dasar pengelompokkan peserta didik ada 5 macam yaitu: 2) achievement grouping: pengelompokkan yang didasarkan atas prestasi peserta didik
+3) aptitude grouping: pengelompokkan peserta didik yang didasarkan atas kemampuan dan batas mereka
+4) attention dan interest gouping: pengelompokan peserta didik yang didasarkan atas perhatian mereka atau minat mereka
+5) intelegence grouping: pengelompokan yang didasarkan atas hasil tes kecerdasan atau intelegensi
+jenis pengelompokkan peserta didik kelompok-kelompok kecil pada masing-masing kelas demikian dapat dibentuk berdasarkan karakteristik individu
+ada beberapa macam kelompok kecil di dalam kelas ini, yaitu: minat peserta didik
+3) team grouping: pengelompokkan yang terbentuk karena dua atau lebih peserta didik ingin bekerja dan belajar bersama untuk memecahkan masalah-masalah khusus
+4) tutorial grouping: pengelompokan di mana peserta didik bersama-sama dengan guru merencanakan kegiatan- kegiatan kelompoknya
+5) research grouping: pengelompokan dimana dua atau lebih peserta didik menggarap suatu topik penelitian untuk dilaporkan di depan kelas
+7) combined class grouping: pengelompokan di mana dua atau lebih kelas yang dikumpulkan dalam suatu ruangan untuk bersama-sama menyaksikan pemutaran film, slide, tv dan media audio visual lainnya
+artificial neural network merupakan salah satu sistem artificial neural network sebagai cabang dari ilmu kecerdasan buatan artificial intelligence 
+alexander dan morton dalam suyantomendefinisikan ann sebagai prosesor tersebar paralel yang sangat besar yang memiliki kecendeungan untuk menyimpan pengetahuan yang bersifat pengalaman dan membuatnya untuk siap digunakan
+pengertian lain mendefinisikan ann adalah sistem pemroses informasi yang memiliki karakteristik mirip dengan jaringan syaraf biologi
+ann dibentuk sebagai generalisasi model matematika dari jaringan syaraf biologi dengan mengasumsikan pemrosesan informasi terjadi pada banyak elemen sederhana ; sinyal dikirimkan diantara neuron-neron melalui penghubung- penghubung; penghubung antar neuron memiliki bobot yang akan memperkuat atau memperlemah sinyal; dan untuk menentukan output setiap neuron menggunakan fungsi aktivasi yang dikenakan pada jumlahan input yang diterima, besarnya output ini selanjutnya dibandingkan dengan suatu batas ambang
+dengan demikian ann ditentukan oleh tiga hal, yaitu: pola hubungan antar neuron ; metode untuk menentukan bobot penghubung ; dan fungsi aktivasi
+self-organizing map sangant baik dalam penanganan data yang sangat besar 
+diperkenalkan sekitar tahun 1980an oleh professor teuyo kohonen
+som merupakan salah satu bentuk topologi dari unsupervised artificial neural network dimana dalam proses pelatihannya tidak memerlukan pengawasan 
+som digunakan untuk mengelompokkan data berdasarkan karakteristik / fitur-fitur data
+arsitektur dari som dapat dilihat pada gambar 1 yang diambil dari: berikut adalah algoritma som, : 1
+inisialisasi neuron output sebanyak 𝑗 𝑥 1 ∶ 𝑦11, 𝑦12, …, 𝑦𝑗1 3
+mengisi bobot antar neuron input dan output 𝜇𝑖𝑗𝑙 dengan bilangan random 0 sampai 1
+pemilihan salah satu input dari vektor input yang ada
+penghitungan jarak antar vektor input terhadap bobot dengan masing–masing neuron output dengan rumus pada persamaan 1
+dari seluruh bobot dicari yang paling kecil
+index dari bobot yang paling mirip disebut winning neuron
+dengan menggunakan rumus yang dapat dilihat pada persamaan 
+hasil dan pembahasan dasar pengelompokkan kelas achievement grouping dan intelegence grouping, dimana jenis pengelompokkannya adalah interest grouping
+selain itu faktor jenis kelamin juga menjadi variabel tambahan pada proses klasifikasi menggunakan algoritma som, dan nilai sikap menjadi penujang agar tidak berkumpulnya siswa-siswa dengan sikap yang kurang baik dalam satu kelas yang sama
+nilai-nilai kecerdasan dan prestasi siswa yang diklasifikasikan menjadi 3 cluster yaitu kategori pintar, sedang, cukup
+nilai-nilai tersebut diambil dari nilai raport yang terdiri dari 3 jenis nilai, yaitu; nilai wajib-1, nilai wajib-2, dan nilai wajib-3
+setiap nilai terdiri dari 2 nilai dari masing-masing semester
+atau wali kelas yang secara keseharian berada bersama siswa- siswa
+langkah-langkah penerapan algoritma som pada pengelompokkan kelas 1
+input data yang akan menjadi data training pada algoritma som
+penelitian ini menggunakan 48 data nilai siswa yan dijadikan data training
+normalisasi data ; metode normalisasi ini menghasilkan transformasi linier pada data asal bila mina dan maxa adalah nilai minimun dan maksimum dari sebuah atribut a, min-max normalization memetakan sebuah nilai v dari a menjadi v’ dalam range nilai minimal dan maksimal yang baru, new_mina dan new_maxa
+membangun jaringan; jaringan yang dibangun berdasarkan dari hasil normalisasi pada tabel ii
+dan dengan nilai:  klr = 0, 01;  clr = 0, 001; jaringan yang dihasilkan pada tahapan ini memiliki bobot awal input dan nilai bias
+diagram batang bobot awal input nilai bias = 5.4366  jumlah epoch = 1000  jumlah goal per epoch = 0, 0001 hasil dari pelatihan jaringan tersebut menghasilkan nilai bias dan nilai bobot yang baru
+melihat hasil clustering seperti diuraikan di muka bahwa untuk penentuan klasifikasi siswa didasarkan pada mean persentase keselurahan nilai dari seluruh anggota cluster
+mean tinggi menunjukkan tingkat kecerdasan siswa tersebut baik
+sebaliknya mean rendah menunjukkan tingkat kecerdasan siswa tersebut kurang baik
+sedangkan mean di antara tinggi dan rendah berarti siswa tersebut masuk dalam kategori sedang
+hasil dari data training dapat dilihat pada gambar 3
+diagram batang untuk hasil clustering data training b
+tampilan aplikasi untuk melakukan pengecekan terhadap data-data lainnya termasuk kedalam cluster yang mana
+untuk mempermudah penggunaan, maka diperlukan sebuah aplikasi yang user friendly
+secara umum kegunaan dari interface adalah untuk berkomunikasi dengan user
+pada aplikasi ini digunakan 2 macam interface yaitu: 1
+interface halaman utama seperti terilhat pada gambar 4 merupakan tampilan aplikasi utama dari program pengelompokkan kelas
+penggunaan aplikasi 1) jalankan aplikasi sehingga muncul tampilan utama 
+2) isikan banyaknya kelas yang akan menjadi target pengelompokkan pada isian jumlah kelas output
+3) isikan banyaknya siswa yang akan dikelompokkan pada isian jumlah siswa
+4) klik tombol pilih file siswa sehingga tampil jendela pilih file untuk memasukan siswa kedalam aplikasi 
+5) pilih file excel yang telah menjadi template data siswa, kemudian klik tombol open
+sehingga data akan tampil pada tabel data siswa, lihat gambar 6
+tampilan tabel daftar siswa 6) kemudian klik tombol proses data untuk melakukan proses klasifikasi, tunggu hingga proses selesai
+hasil dari proses klasifikasi akan ditampilkan pada tabel klasifikasi output
+hasil klasifikasi siswa hasil proses klasifikasi dapat di ekspor kedalam format file excel dengan cara memilih tombol ekspor ke excel
+setiap kelas memiliki jumlah siswa yang sama, perbandingan siswa pria dan wanita yang merata dan juga tentunya pengelompokkan siswa-siswa dengan kemampuan yang merata disetiap kelas
+hal ini dapat menjadikan suasana kelas yang nyaman
+hasil dari penerimaan guru sebagai pengguna merasa hasil yang didapat sangat baik dan sesuai dengan penilaian nalar merekas sebagai manusia

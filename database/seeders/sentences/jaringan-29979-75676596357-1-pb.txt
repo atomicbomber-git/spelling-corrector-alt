@@ -1,0 +1,129 @@
+perkembangan teknologi dalam jaringan komputer lambat laun semakin pesat seiring dengan meningkatnya kebutuhan akan akses jaringan yang efisien, stabil serta keamanan yang handal perusahaan membutuhkan keamanan jaringan untuk menjaga data perusahaan, serta untuk mengontrol dan mengintegrasikan semua penguna koneksi jaringan
+perusahaan ini dengan banyak karyawan dan divisi yang berbeda-beda sehingga sering dilakukan perpindahan tempat kerja atau adanya karyawan baru
+sehingga sangat diperlukan sistem keamanan jaringan yang terjamin untuk menentukan pengunaan hak akses pada jaringan
+untuk mengatasi masalah tersebut, maka perusahaan sangat membutuhkan adanya pengamanan jaringan pada setiap port lan yaitu dengan menggunakan metode default atau static port security, port security dynamic learning dan sticky port security pada port yang berada diruang kerja tersebut
+hal ini berguna untuk memblok akses jaringan pada karyawan yang tidak melaporkan perpindahan tempat kerja dan dapat mencegah terjadinya pencurian data oleh orang asing atau bukan dari karyawan perusahaan tersebut
+pendahuluan di era saat ini kebutuhan akan jaringan komputer semakin bertambah penting baik dalam pendidikan maupun dalam sebuah pekerjaan dan salah satu hal penting dalam mengelola jaringan komputer yaitu keamanan dari jaringan itu sendiri, dengan banyaknya akses ke jaringan tersebut maka akan banyak pula peluang kejahatan yang terjadi didalam jaringan tersebut, misalkan adanya pencurian data yang terjadi dijaringan tersebut ataupun adanya peretas yang mematikan sumber daya jaringan tersebut
+banyak teknik yang dapat diupayakan dalam memperkecil tingkat kejahatan dalam jaringan ini, salah satu teknik yang banyak digunakan untuk pengamanan jaringan lokal adalah dengan menggunakan security port dimana ini merupakan teknik yang akan mengizinkan siapa saja yang berhak menggunakan akses jaringan melalui port yang tersedia di switch
+dalam kasus yang saat ini terjadi di pt vitta multi oksigen adalah seringnya terjadi pencurian data disaat karyawan tersebut pindah ruangan atau keluar dari perusahaan sehingga membutuhkan pengamanan data menggunakan perangkat yang bisa mengontrol hak akses jaringan yang sangat di butuhkan sekali terlebih saat ini di perusahaan tersebut belum menggunakan pengamanan seperti implementasi firewall security port atau sejenisnya
+keterbatasan lan melahirkan sebuah teknologi vlan yang memungkinkan adanya konfigurasi dari suatu jaringan komputer secara virtual 
+masalah keamanan termasuk dalam salah satu aspek penting dari sebuah sistem informasi, seperti pada jaringan komputer.terhubungnya lan atau komputer ke internet membuka potensi adanya lubang keamanan yang membuka celah untuk merusak kinerja sistem
+pt vitta multi oksigen adalah perusahaan yang bergerak dalam bidang penjualan alat – alat kebutuhan medis
+pada kantor ini sering dilakukan perpindahan tempat kerja atau adanya karyawan baru
+dengan terjadinya perpindahan tersebut, perusahaan pasti perlu mendata kembali lokasi tempat kerja karyawannya, sehingga perusahaan ini sangat membutuhkan adanya pengamanan jaringan pada setiap port lan yaitu dengan menggunakan metode default/ static port security, port security dynamic learning dan sticky port security pada port yang berada diruang kerja tersebut
+hal ini berguna untuk memblok akses jaringan pada karyawan yang tidak melaporkan perpindahan tempat kerja dan dapat mencegah terjadinya pencurian data oleh orang asing atau bukan dari karyawan perusahaan tersebut
+saat ini pengembangan teknologi juga yang berhubungan proses penyebaran berita telah banyak dilaksanakan
+terhadap teknologi penyebaran berita dilaksanakan dengan dua metode yakni melalui media online serta media offline, namun perkembangan banyak dilaksanakan terhadap media online
+namun penyampaian berita secara offline tak secepat media online, disebabkan media online didukung oleh teknologi yang paling efisien yakni jaringan komputer
+terhadap ruang lingkup perkantoran lazimnya telah banyak menggunakan jaringan komputer sebagai teknologi pendukung pekerjaan dan sebagai media penyampaian informasi
+jaringan komputer terhadap saat ini amat berkembang dan menjadi kebutuhan
+sebuah kemampuan switch untuk mendaftarkan dan membatasi perangkat yang dapat terkoneksi pada suatu port
+kemampuan switch untuk mengenali mac address secara dinamis ketika perangkat komputer terhubung ke switch dan akan menyimpan mac addres tersebut ke mac addres table
+kemampuan switch dalam mengenal mac address pada tiap – tiap perangkat yang terhubung dan akan memblokir mac address yang telah terdaftar
+maka dari itu penulis mengusulkan perusahaan menggunakan pengamanan jaringan komputer dengan pemberian default/ static port security, port security dynamic learning, sticky port security 
+pada setiap port karena dapat mencegah terjadinya pencurian data
+selain itu dengan menggunakan security port merupakan salah satu solusi kemanan jaringan berupa protokol keamanan yang berada di setiap tempat kerja karyawan
+keamanan jaringan merupakan suatu cara atau suatu system yang digunakan untuk memberikan proteksi atau perlindungan pada suatu jaringan agar terhindar dari berbagai ancaman luar yang mampu merusak jaringan dan pencurian data perusahaan
+port adalah tempat di mana informasi masuk dan keluar dari komputer, port scanning mengidentifikasi pintu terbuka ke komputer
+port memiliki penggunaan yang sah dalam mengelola jaringan, tetapi scanning port juga bisa berbahaya jika seseorang sedang mencari titik akses yang lemah untuk masuk ke komputer anda
+peralatan pendukung perangkat jaringan adalah semua komputer, peripheral, interface card, dan perangkat tambahan yang terhubung ke dalam suatu sistem jaringan komputer untuk melakukan komunikasi data
+perangkat jaringan komputer terdiri dari : 1) server merupakan pusat kontrol dari jaringan komputer
+server berfungsi untuk menyimpan informasi dan untuk mengelola suatu jaringan komputer
+server akan melayani seluruh client atau workstation yang terhubung ke jaringan
+sistem operasi yang digunakan pada server adalah sistem operasi yang khusus yang dapat memberikan layanan bagi workstation
+2) network interface card merupakan perangkat keras yang memungkinkan suatu komputer dan fasilitas komunikasi untuk bertukatar informasi dan mengontrol setiap informasi
+network interface card juga diartikan sebagai expansion board yang digunakan supaya komputer dapat dihubungkan dengan jaringan
+sebagian besar nic dirancang untuk jaringan, protokol, dan media tertentu
+nic biasa disebut dengan lan card
+3) switch adalah perangkat yang juga berfungsi untuk menghubungkan multiple komputer
+switch secara fisik sama dengan hub tetapi logikalnya sama dengan barisan brigde
+peningkatan kecerdasan dibandingkan hub, yaitu memiliki pengertian terhadap alamat mac atau pada link layer model osi sehingga hanya mengirimkan data pada port yang dituju 
+proses kerjanya adalah apabila paket data datang, header dicek untuk menentukan di segment mana tujuan paket datanya
+kemudian data akan dikirim kembali ke segment tujuan tersebut
+4) open system interconnection adalah layer yang diciptakan oleh international standard organization yang menyediakan kerangka logika terstruktur bagaimana proses komunikasi data berinteraksi melalui jaringan
+standar ini dikembangkan untuk industri komputer agar komputer dapat berkomunikasi pada jaringan yang berbeda secara efisien
+terdapat tujuh layer pada model osi, setiap layer bertanggung jawab secara khusus pada proyek komunikasi data
+misal, satu layer bertanggung jawab untuk membentuk koneksi antar perangkat, sementara layer lainnya bertanggung jawab untuk mengoreksi terjadinya selama proses transfer data berlangsung
+5) internet protocol adalah metode atau protocol untuk mengirimkan data ke internet setiap computer dalam internet setidaknya harus mempunyai sebuah alamat ip yang unik yang mengidentifikasikan komputer tersebut terhadap kamputer lainnya
+ketika anda mengirimkan atau menerima data, pesan akan dibagi-bagi menjadi beberapa paket setiap berisikan ip pengirim dan ip penerima
+gateway yang menerimanya akan langsung mem-forward ke tujuan melalui jalur terbaik yang ditemukan sambil mengingat ip pengirim dan penerima
+karena pesan tersebut terbagi-bagi dalam paket dan bisa jadi diterima tidak secara berurutan ditujuan, ip tidak akan pernah memperhatikan, hanya megirimkan saja
+tcp nantinya yang akan meletakkannya dalam urutan yang benar
+setiap komputer dalam suatu jaringan mempunyai identifikasi alamat yang unik
+ada dua yang digunakan untuk pengelamatan komputer dalam sebuah protocol tcp/ip network
+metodologi penelitian penulisan atau penelitian ini di susun secara sistematis hingga mendapatkan hasil yang optimal langkah untuk penelitian ini merupakan rangkaian prosedur tersturktur dan terarah agar tujuan dari penulisan ini dapat tercapai dengan baik
+berikut langkah-langkah flowchart yang digunakan untuk penelitian ini
+active directory domain services menyediakan database terdistribusi yang menyimpan dan mengelola informasi tentang sumber daya jaringan
+administrator dapat menggunakan ad ds untuk mengatur elemen jaringan, seperti pengguna, komputer, group, printer, aplikasi, dan objek directory lain dari satu lokasi terpusat secara aman
+dalam bentuk algoritma, pseudocode atau lainnya
+menjelaskan kronologis penelitian, termasuk desain penelitian, prosedur penelitian, bagaimana untuk menguji dan akuisisi data
+deskripsi dari program penelitian harus didukung referensi, sehingga penjelasan tersebut dapat diterima secara ilmiah
+topologi jaringan komputer yang digunakan pada kantor vitta multi adalah topologi star, yang mempunyai sistem jaringan komputer yang terdiri dari beberapa buah switch, jaringan yang terpasang pada gedung kantor menggunakan router board 1100 ahx2 dan d-link switch dgs-1210-52, dan belum membentuk suatu jaringan komputer lan 
+jaringan komputer adalah sekumpulan komputer yang dapat saling berhubungan antara satu dengan lainnya dengan menggunakan media komunikasi, sehingga dapat saling berbagi data, informasi, program, dan perangkat keras
+d-link switch dgs-1210-52 yang dipakai untuk mengelompokkan user berdasarkan departemen, atau mengelompokkan suatu group pekerja disetiap lantainya, jaringan komputer lan merupakan komponen jaringan komputer yang memiliki banyak port yang akan menjadi penghubung bagi banyak titik jaringan atau node sehingga akan membentuk jaringan komputer lan pada topologi star
+topologi jaringan topologi jaringan komputer adalah suatu cara menghubungkan komputer yang satu dengan komputer lainnya sehingga membentuk jaringan
+cara yang saat ini banyak digunakan adalah bus, token ring dan star
+dalam suatu jaringan komputer jenis topologi yang dipilih akan mempengaruhi kecepatan komunikasi
+untuk itu maka perlu dicermati kelebihan/keuntungan dan kekurangan / kerugian dari masing - masing topologi berdasarkan karakteristiknya
+setelah penulis melakukan penelitian di vitta multi penulis dapat menggambarkan rangkaian dari jaringan komputer local area network yang terdapat dilokasi tersebut, sesuai dengan kebutuhan jaringan komputer-komputer client atau yang dinamakan dengan workstation, alur dari jaringan yang di terapkan pada perusahaan meliputi workstation dari tiap-tiap divisi yang ada di vitta multi
+namun jika pemberian alamat ip dilakukan secara statik akan membuat hasil yang negatif terhadap admin jaringan, sebab menghasilkan waktu yang lama untuk pemberian alamat ip
+tetapi masalah ini dapat di tangani dengan memilih pemberian alamat ip menggunakan dhcp
+dynamic host configuration protocol adalah salah satu metode pemberian alamat ip otomatis, pc akan meminta ip yang benar dari router
+setting dhcp dapat dilakukan pada router dengan menggunakan cli .dengan dhcp administrator jaringan tidak memerlukan waktu untuk memikirkan host ip yang akan digunakan karena sudah disediakan router secara otomatis
+admin jaringan hanya memilih dhcp atau obtain ip address automatically pada pemberian alamat ip
+untuk pengalamatan ip client menggunakan dynamic host configuration protocol server untuk pengaturannya dengan range ip 172.20.0.0/24 – 172.47.255.254/24
+dengan masing-masing client menggunakan ip 172.20.100.5 sebagai dns server, ip 172.20.100.6 sebagai wins server dan ip 172.20.100.1 sebagai default gateway
+pengaturan ini berlaku untuk semua client yang berada disetiap lantai gedung tersebut
+skema jaringan keamanan jaringan adalah salah satu aspek penting dalam dunia internet suatu jaringan internal perusahaan membutuhkan keamanan khusus yang dapat menjaga data- data penting dari serangan hacker karena itu sangat dibutuhkan firewall
+firewall adalah suatu sistem pertahanan terdepan pada suatu jaringan, sebagai peralatan yang memproteksi aliran data pada suatu jaringan
+vitta multi menggunakan firewall cisco asa 5510 series sebagai firewall dalam jaringannya
+dengan fitur yang dimiliki oleh cisco asa seperti, remote access, intrusion prevention, content security, unified communications, botnets, dan karena beberapa hal lain, maka memilih cisco asa 5510 series sebagai firewall-nya
+untuk proxy-nya juga menggunakan cisco asa untuk memberikan solusi yang paling efektif untuk manajemen lalu lintas p2p, intranet pencegahan rahasia pengungkapan, akses internet catatan perilaku, keamanan on- line dan lain-lain
+untuk perlindungan on-line yang otomatis dapat menyaring halaman web bahwa virus, trojan dan lain script berbahaya dan plug-in, sehingga untuk menghadapi potensi risiko di muka, perangkat ini dapat juga memblokir dan alarm intranet virus, trojan dan lain-lain, sehingga dapat melindungi keamanan intranet dari berbagai aspek
+penyebaran malware komputer pada jaman sekarang lebih cepat dan mudah dikarenakan juga oleh kemajuan-kemajuan teknologi komputer dan spesifikasi komputer tersebut
+salah satu kerja dari malware komputer ini adalah dengan menginfeksi salah satu file di komputer kemudian malware tersebut menyebar ke semua file yang ada di komputer, tidak hanya dalam komputer tersebut yang terkena malware
+jika dalam satu jaringan yang besar malware tersebut akan menyebar melalui jaringan internal atau yang terhubung internet dan akan dapat dicuri file yang ada dalam satu jaringan karena komputer saling terhubung satu sama lain sehingga pastinya setiap komputer akan saling berbagi file
+sebuah malware diciptakan untuk merusak atau membobol system operasi dengan melalui script yang dirahasiakan, artinya disisipkan oleh penyerang
+berikut akan ditampilkan tabel tentang spesifikasi hardware dan software jaringan yang sudah penulis dapatkan selama melakukan penelitian, untuk spesifikasi yang digunakan dapat dilihat pada table berikut
+tabel 1 type perangkat jml pc client cpu type : cpu merk : processor : memory : harddisk : hp pro 3330mt hp core i3-2120 3.3ghz ddr3 4gb seagate 500 gb windows 7, 7zip, adobe reader, ms
+office 2010, mosaic 1p, symantec 368 notebook cpu type : cpu merk : processor : memory : harddisk : hp probook 430 g3 hp core i7 2, 5 ghz ddr3 4gb 1tb windows 7, 7zip, adobe reader, ms
+office 2010, mosaic 1p, symantec 6 cpu type : cpu merk : processor : memory : harddisk : hp probook 4430s hp core i3 2, 3 ghz ddr3 2gb 500gb windows 7, 7zip, adobe reader, ms
+office 2010, mosaic 1p, symantec 13 firewall router printer type : hp gt 5820 all in one driver 6 printer type : hp laserjet pro p1560 driver 2 iii
+manajeman jaringan usulan manajemen jaringan yang akan diusulkan untuk menghadapi permasalahan yang dihadapi oleh kantor vitta multi oksigen adalah diimplementasikannya keamanan jaringan firewall security port yang berfungsi untuk memberikan keamanan jaringan dan merupakan teknik yang akan mengizinkan hak akses melalui port yang tersedia diswitch cabang tersebut dengan monitoring dari pihak it 
+hal ini membuat semua karyawan yang berada di kantor tersebut dapat melaporkan jika terjadi perpindahan tempat kerja atau adanya karyawan baru yang akan mengunakan jaringan pada kantor ini, karena secara otomatis hak akses pada perangkat baru yang karyawan hubungkan ke port switch akan di blok oleh port security
+dengan adanya laporan tidak dapat akses jaringan, maka pihak it akan membukakan hak akses dengan memastikan bahwa akses jaringan tersebut digunakan untuk kepentingan perusahaan
+penulis mengusulkan untuk tetap memafaatkan semua infrastruktur yang ada dengan menggunakan vlan 
+vlan dapat membagi jaringan ke dalam beberapa subnetwork dan ada beberapa keuntungan dari vlan seperti keamanan data dari setiap divisi, penghematan dari penggunaan bandwidth dan vlan memudahkan manajemen jaringan yang ada
+untuk pembagian bandwidth pada kantor vitta multi oksigen adalah 4096kbps
+usulan topologi jaringan pada penelitian ini penulis mencoba untuk menggambarkan dalam bentuk simulasi implementasi jaringan usulan tersebut menggunakan software simulator
+software yang penulis gunakan adalah cisco packet tracer
+pengujuan jaringan awal pengujian jaringan awal keamanan jaringan dilakukan dengan melakukan percobaan koneksi jaringan antara client kantor dengan perangkat yang digunakan komputer yang berbeda vlan
+dalam pengujian awal ini, menggunakan software paket tracert yang sudah di routing dan switching
+switch yang di konfigurasi tanpa mengunakan security port
+pengujian dihubungkan pada jaringan dan test ping pada gateway ip 192.168.10.1 dengan vlan 10 ip 192.168.10.5 dan pada segmen lain ip 192.168.30.2 vlan 30 menggunakan software cisco packet tracert yang sudah di routing
+hasil tes ping vlan 10 lt 1 ke vlan 30 lt2 dari gambar di atas dapat dilihat bahwa ping dapat berjalan dengan lancar tanpa terputus
+hal ini menunjukan bahwa jaringan sudah terkoneksi otomatis tanpa adanya keamanan jaringan yang mendeteksi detail perangkat yang terhubung
+kemudian pada komputer tersebut melakukan perpindahan lokasi kerja ke lantai berbeda tanpa adanya informasi perpindahan, untuk informasi koneksi jaringan akan dilakukan test ping pada komputer kantor vitta multi lantai 3 dengan segmen ip sumber 192.168.10.1 segmen ip router kantor vitta multi dengan pc ip 192.168.50.2 gateway 8.8.8.8 dengan menggunakan software cisco packet tracert
+test ping paket data kantor vitta multi gambar diatas paket data dikirim dari lantai 2 vlan 30 kantor vitta multi ke lantai 1 vlan 10 mendapat tingkat kesuksesan 100 persen walau pun tanpa ada lost
+mac address table terlihat pada gambar 7 bahwa mac address dari perangkat yang terkoneksi, namun tidak terjadi manajemen dan system keamanan jaringan yang baik
+karena setiap perangkat yang dihubungkan pada jaringan tersebut bersifat dynamic dan dapat selalu terkoneksi karena tidak adanya security pada setiap port akses
+pengujian jaringan akhir dengan keamanan jaringan mengunakan security port, dalam hal ini sangat perlu diterapkan karena setiap perangkat user akan menginformasikan mac address-nya dan terdeksripsi dalam port yang digunakan
+hal ini akan menjadi lebih aman dalam pemberian akses pada jaringan yang ada
+dalam pengujian ini terdapat 2 metode yang akan di impelemtasikan pada jaringan keamanan pada kantor vitta multi yaitu, dengan security port dynamic learning dan sticky port security
+uji coba akan dilakukan dengan pemberian konfigurasi pada switch yang digunakan, pengujian ini akan dilakukan pada kantor vitta multi dengan mengunakan 2 switch akses
+pada semua switch diberikan port security dynamic learning dan sticky port security
+dalam hal ini port security sticky dan dynamic learning sudah di buat
+tes ping ke router dan deskripsi mac address perangkat terlihat bahwa mac address dari perangkat yang terkoneksi akan menambahkan macc address secara otomatis, kemudian hasil ping masih dapat berjalan
+dalam hal ini perangkat yang didaftarkan pertama dan kedua akan terkoneksi pada jaringan yang ada, namun jika perangkat yang terkoneksi tidak sesuai dengan mac addressnya maka port pada switch akan otomatis shutdown atau protect
+tes koneksi pada perangkat baru gambar 11
+tes ping ke router dan show port security diatas terlihat bahwa mac address dari perangkat baru yang terkoneksi tidak mendapatkan ip atau akses, dikarenakan mac address tidak sesuai dengan yang ditentukan, dengan begitu maka laptop1 dan laptop2 tidak dapat terkoneksi pada jaringan lain
+kegunaan port security mampu memberikan keamanan jaringan yang dapat berjalan dengan baik, sehingga bila perangkat tersebut ingin terkoneksi kembali harus dilakukan penghapusan mac address pada switch yang dilakukan oleh pihak it
+hal ini dapat membantu dalam memanajemen lokasi kerja user setiap lantai dan mensegmentasikan ip sesuai lantai
+berikut pengujian untuk menghapus mac address yang terblok oleh port security, agar dapat terkoneksi pada jaringan yang ada
+switch>en switch#clear port-security all switch#conf t enter configuration commands, one per line
+switch #int range fa0/1-8 switch #shutdown switch #no shutdown switch>en switch#show port-security secure port maxsecureaddr currentaddr securityviolation security action -------------------------------------------------------------------- fa0/1 1 0 0 shutdown fa0/2 1 0 0 shutdown fa0/3 1 0 0 shutdown fa0/4 1 0 0 shutdown fa0/5 1 1 0 shutdown fa0/6 1 0 0 shutdown fa0/7 1 0 0 shutdown fa0/8 1 0 0 shutdown ---------------------------------------------------------------------- switch>en switch#conf t enter configuration commands, one per line
+tes ping ke pc kantor lt 3 dan lt 4 ke router lt 1 terlihat pada gambar 12 bahwa laptop 1 mendapatkan ip dan dapat terkoneksi pada jaringan
+test ping ke pc kantor lantai 3 dan lantai 4 berhasil ke router lantai 1 tanpa ada packet lost
+kesimpulan setelah mempelajari dan menganalisa sistem jaringan komputer pada kantor vitta multi jakarta, dengan ini penulis dapat menyimpulkan bahwa jaringan komputer yang berada di gedung vitta multi jakarta adalah sebagai berikut:  penerapan sistem kemananan yang digunakan dengan dhcp pada ip client sangat mudah merespon koneksi jaringan dan dapat memudahkan user bekerja diseluruh port tempat kerja yang ada
+ dengan menggunakan security port, maka system keamanan jaringan diterapkan lebih aman untuk menghidari koneksi jaringan dari akses yang tidak berkepentingan, serta menjaga data tersebut karena dapat dicuri oleh pihak yang tidak bertanggung jawab
+ dengan menggunakan firewall security port, maka pihak it dapat memanajemen setiap penguna jaringan, dan mendapatkan informasi jika terdapat perpindahan, karena perangkat yang tidak didaftarkan hak aksesnya akan diblok untuk terkoneksi ke jaringan tersebut

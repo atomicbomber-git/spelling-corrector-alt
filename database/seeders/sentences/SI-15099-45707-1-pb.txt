@@ -1,0 +1,23 @@
+selain itu dalam memilih pekerjaan, calon pelamar juga memiliki pertimbangan-pertimbangan yang nantinya akan digunakan untuk memilih pekerjaan mana yang lebih cocok sesuai dengan kriteria yang dimiliki
+namun pada kenyataannya penerimaan lowongan kerja masih belum optimal dalam proses seleksi pencari kerja terbaik hal ini disebabkan oleh belum tersedianya media yang dapat memproses penilaian pencari kerja dan memberi perekomendasian dalam penerimaan pencari kerja terbaik
+penelitian ini bertujuan untuk menentukan dan merekomendasikan pencari kerja terbaik pada perusahaan-perusahaan penyedia kerja
+dalam menentukan dan merekomendasi pencari kerja terbaik, sistem menggunakan metode promethee dengan menggunakan kriteria-kriteria dibangun berbasis website dan perancangan sistem mencakup perancangan arsitektur, perancangan data dan perancangan antarmuka sistem
+output dalam sistem ini adalah nilai perhitungan pemilihan pencari kerja terbaik dengan metode promethee dan perekomendasian pencari kerja terbaik untuk perusahaan penyedia kerja
+pertama dengan metode black box untuk pengujian sistem dan kuesioner untuk pengujian penggunaan aplikasi
+berdasarkan hasil pengujian black box, sistem dapat berjalan dengan baik
+cara kedua adalah dengan menggunakan pengujian kuesioner penggunaan aplikasi dilakukan terhadap 25 responden dan dihitung menggunakan metode mencari interval nilai persentase likert
+hasil perhitungan pengujian kuesioner pengguna aplikasi adalah 1223 dari skor 1200 – 1500 yang artinya responden menilai aplikasi sangat positif dan dinilai berhasil
+promethee, pencari kerja menyediakan informasi lowongan kerja melalui media cetak seperti koran, ada juga yang mengumumkan lowongan pekerjaan melalui papan pengumuman serta melalui media elektronik termasuk internet lowongan kerja yang paling banyak dicari oleh pencari kerja adalah lowongan kerja terbaru dan belum lewat waktu terakhir pendaftaran
+hal ini akan menjadi kesulitan bagi pencari kerja jika mekanisme pelaksanaan pengelolaan informasi lowongan kerja dari perusahaan terkait tidak berjalan dengan baik
+sampai saat ini sudah banyak penyedia kerja yang telah memanfaatkan teknologi untuk memberikan informasi lowongan kerja kepada pencari kerja
+beberapa perusahaan telah memanfaatkan bursa lowongan kerja yang ada di internet sistem informasi lowongan kerja yang sudah ada masih menggunakan pencarian berdasarkan masing-masing atribut permintaan dan belum ada pengolahan data profil dari penyedia kerja dan pencari kerja
+hal ini akan menyulitkan penyedia kerja dalam menyaring calon pelamar yang telah melamar
+meskipun banyak pelamar yang mengajukan lamaran, tetapi hanya sedikit pelamar yang sesuai dengan ketentuan perusahaan
+ini disebabkan sistem informasi lowongan kerja tersebut belum memanfaatkan data profil pencari kerja dan penyedia kerja untuk mendapatkan rekomendasi pencari kerja terbaik dan lowongan kerja yang sesuai dengan minat pencari kerja
+salah satu metode sistem pendukung keputusan yang multikriteria adalah preference ranking organization method for enrichment evaluation 
+promethee digunakan untuk penentuan urutan dalam analisis multikriteria
+promethee cukup efektif dalam menyederhanakan dan mempercepat proses pengambilan keputusan dengan pengaplikasian metode yang mudah dan lebih sederhana untuk jumlah kriteria ataupun alternatif yang banyak
+keputusan pencari kerja yang paling memenuhi syarat dan ketentuan yang didalamnya mencakup proses evaluasi dan pemilihan pencari kerja yang memenuhi kriteria dengan menggunakan metode promethee
+dengan adanya sistem yang berbasis web diharapkan dapat menjadi solusi atas permasalahan yang ada
+uraian penelitian penelitian tentang sistem informasi career center bukanlah hal baru yang baru dilakukan
+beberapa penelitian sejenis mengenai sistem informasi career center telah dilakukan sebelumnya

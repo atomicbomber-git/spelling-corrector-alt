@@ -1,0 +1,15 @@
+sampai saat ini, data alumni hanya tersedia dalam buku alumni
+bagian kemahasiswa memiliki buku alumni yang data hanya dikumpulkan sekali sebelum kelulusan mereka, sehingga data alumni yang diperoleh tidak up-to-date
+dengan tracer alumni secara online untuk pengumpulan data alumni, sehingga bagian kemahasiswa mendapatkan data alumni secara up-to- date dan bagian kemahasiswaan memperoleh informasi mengenai status alumni kerja atau sebaliknya
+tracer alumni secara online merupakan fasilitas meringankan bagian kemahasiswaan dalam memperoleh data alumni secara up-to- date
+selain itu, alumni dapat mengetahui informasi tentang lowongan kerja dan pelatihan yang diterbitkan oleh admin
+dari kebutuhan primer hingga kebutuhan sekunder tidak terlepas dari teknologi, terutama pada dunia pendidikan hingga ke perguruan tinggi baik negeri maupun swasta
+sehingga setiap individu membutuhkan suatu informasi yang akurat, efektif dan efisien semakin meningkat, untuk memenuhi kebutuhan tersebut manusia terus berpikir untuk mengembangkan suatu teknologi yang dapat membantu manusia dalam hal pengolahan data, sehingga informasi yang diinginkan bisa didapatkan
+swasta yaitu stmik atma luhur pangkalpinang
+stmik atma luhur mempunyai banyak alumni yang tersebar luas, terutama di kepulauan bangka belitung
+alumni atma luhur tersebut yang dari awal hingga saat ini belum terdata secara up to date, misalnya mengenai pekerjaan, nomor handphone yang bisa dihubungi
+dari berdirinya atma luhur hingga saat ini hanya ada buku alumni, sedangkan buku alumni tersebut hanya dipegang oleh alumni dan pihak institusi
+disaat alumni ataupun pihak institusi membutuhkan data alumni atau menghubungi alumni untuk keperluan sulit mendapatkan informasi yang dibutuhkan
+dengan ini dibutuhkan suatu sistem berbasis web yang efektif, efisien dan up to date dalam penggunaannya, sehingga dapat mempermudah alumni ataupun pihak institusi
+sehingga sistem ini mempermudah alumni ataupun pihak institusi dalam memperoleh informasi yang efektif, efisien dan up to date
+uraian penelitian yang memiliki fitur dan fungsi seperti aplikasi desktop, ria dapat berjalan pada web browser biasa tanpa harus memerlukan software tertentu

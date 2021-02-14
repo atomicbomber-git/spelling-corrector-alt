@@ -1,0 +1,135 @@
+seleksi mandiri tanjungpura university is one of the entrance method to the college, especially in the tanjungpurauniversity
+registration of seleksi mandiri tanjungpura university done directly by the candidates of the student
+this existing method takes quite a long time
+the number of applicants is not proportional to the number of committees that serve and verify the administrative requirements of participants, so this resulted in a queue ofstudent candidates
+online system that used as a service in the registration system have been widely applied in daily life
+it proved to minimize the problems that previously occurred
+long lines of queue and paper used as a medium of registration can be reduced and prevented with the online service systems
+electronic form is an application that designed for seleksi mandiri tanjungpura tanjungpura university registration system
+application form fulfillment will be possible to conduct in conditions of a computer connected or not connected to the internet however it can be done at offline
+one method to protect data from unwanted party is to randomize the data sent, so if the data is received by the other party, they do not understand the purpose of the data
+blowfish algorithm is an algorithm which is quite good and applicable
+blowfish have varying levels of security, the key length used by blowfish may vary by the system
+the application uses data snap technology by applying service application so it becomes more secure because of the indirect communications with the back end
+the results show that the design and testing of these applications can be used for the registration process
+prospective participants will receive a registration receipt cards used to take exams
+keywords- seleksi mandiri, electronic forms, offline, blowfish, service application
+pendahuluan seluas-luasnya bagi masyarakat sehingga dapat masuk pada perguruan tinggi negeri khususnya di universitas tanjungpura
+penyelenggaraan seleksi mandiri universitas tanjungpura dilakukan secara offline
+cara ini memakan waktu yang cukup lama
+banyaknya pendaftar tidak sebanding dengan banyaknya panitia yang bertugas untuk memeriksa kelengkapan administrasi peserta, sehingga hal ini mengakibatkan antrian dari para calon mahasiswa
+biaya yang cukup besar untuk datang langsung ke universitas tanjungpura melakukan proses pendaftaran
+salah satu faktor penting untuk layanan online adalah adanya layanan internet pengisian formulir pendaftaran mewajibkan calon mahasiswa untuk mengisi data-data secara online
+merujuk pada sistem yang telah diterapkan yaitu sistem pendaftaran snmptn online, banyaknya permasalahan yang sering terjadi seperti loss connection, server not responding, server time out, server down karena diakses secara bersamaan dan masih banyak lagi permasalahan yang sering kali terjadi ketika kita men-submit data yang akan kita proses
+tidak hanya masalah teknis tersebut, faktor non teknis yang terjadi dilapangan ternyata para calon mahasiswa yang berasal dari daerah tidak dapat mendiskusikan secara langsung kepada orang tua mereka, mengenai jurusan apa yang sebaiknya dipilih
+formulir elektronik merupakan sebuah aplikasi yang dirancang untuk sistem pendaftaran online seleksi mandiri universitas tanjungpura
+pengisian formulir yang ada dalam aplikasi tidak hanya dapat dilakukan dalam kondisi komputer tersambung dengan internet namun dapat dilakukan pada saat offline
+artinya calon mahasiswa tidak harus datang ke lokasi pendaftaran, tetapi calon mahasiswa cukup men-download aplikasi tersebut untuk kemudian melakukan pengisian data yang tersedia pada aplikasi tersebut
+hal ini diharapkan dapat membantu para calon mahasiswa dari daerah-daerah dan masih belum terjangkau atau jauh dari jangkauan internet data yang diisikan bersifat rahasia, artinya tidak boleh diketahui oleh orang lain selain pengirim dan penerima data 
+salah satu cara untuk melindungi data dari pihak yang tidak diinginkan adalah dengan mengacak data yang dikirim tersebut
+algoritma blowfish merupakan algoritma kriptografi yang cukup baik dan aplikatif
+blowfish memiliki tingkat keamanan yang bervariasi, panjang kunci yang digunakan oleh blowfish dapat bervariasi dan bisa sampai sepanjang 448 bit
+program aplikasi yang akan dirancang nantinya adalah dengan menggunakan algoritma blowfish
+teori dasar 2.1 formulir formulir, dari bahasa belanda, formulier, adalah sebuah kertas yang berisi banyak pertanyaan yang harus diisi
+menurut kamus lengkap bahasa indonesia, formulir adalah lembar isian; surat isian: -- yang telah diisi harus diserahkan kepada bagian pendaftaran
+formulir merupakan sehelai kertas tercetak yang menyediakan ruangan untuk dimuat catatan-catatan, informasi atau instruksi – instruksi yang akan diteruskan kepada individu – individu, atau organisasi lain
+formulir merupakan alat penting untuk menciptakan dokumen karena formulir menentukan informasi apa yang akan di kumpulkan dan disimpan
+2.1.1 formulir elektronik dengan meluasnya pemakaian komputer, maka pemakaian formulir elektronik juga semakin banyak
+dalam hal ini, formulir dapat diartikan sebagai ruang yang ditayangkan dalam layar komputer yang digunakan untuk menampung data yang akan diolah dalam pengolahan data elektronik
+formulir elektronik terdiri dari dua kata, yaitu formulir dan elektronik
+seperti telah dijelaskan sebelumnya, formulir adalah lembar isian sedangkan elektronik dapat diartikan sebagai sebuah alat yang bekerja atas dasar elektronika
+dari dua pengertian tersebut dapat ditarik kesimpulan bahwa formulir elektronik merupakan ruang yang ditayangkan dalam layar komputer yang digunakan untuk menangkap data yang akan diolah dalam pengolahan data elektronik
+dengan penggunaan formulir elektronik, perancangan, pengelolaan, dan pengisian setiap formulir dapat dilakukan melalui sistem yang terintegrasi
+sistem komputer dapat menyimpan dan menyediakan data beberapa kali suatu formulir telah digunakan, bagaimana bentuk formulir setelah revisi yang terakhir, dan berapa lama suatu formulir telah digunakan sejak revisi terakhir
+2.2 kriptografi kriptografi dalam sejarahnya tercatat dipergunakan secara terbatas oleh bangsa mesir 4000 tahun lalu
+kriptografi berasal dari dua kata yaitu yang dalam sudut bahasa dapat diartikan rahasia dan dapat diartikan tulisan jadi kriptografi dapat diartikan sebagai suatu ilmu atau seni untuk mengamankan pesan agar aman dan dilakukan oleh 
+ menurut anjar syafari, enkripsi dan deskrisi secara matematis diterangkan sebagai berikut : ek = c dk = m keterangan : ek : enkripsi
+2.2.1 pengenalan blowfish blowfish alias merupakan enkripsi yang termasuk dalam golongan symmetric cryptosystem, metoda enkripsinya mirip dengan des diciptakan oleh seorang cryptanalyst bernama bruce schneier
+dibuat untuk digunakan pada komputer yang mempunyai microposesor besar
+blowfish merupakan algoritma yang tidak dipatenkan dan license free, dan tersedia secara gratis untuk berbagai macam kegunaan
+pada saat blowfish dirancang, diharapkan mempunyai criteria perancangan sebagai berikut : 1
+cepat, blowfish melakukan enkripsi data pada microprocessors 32-bit dengan rate 26 clock cycles per byte
+compact, blowfish dapat dijalankan ada memori kurang dari 5k
+sederhana, blowfish hanya menggunakan operasi- operasi sederhana: penambahan, xor, dan lookuptabel pada operan 32-bit
+memiliki tingkat keamanan yang bervariasi, panjang kunci yang digunakan oleh blowfish dapat bervariasi dan bisa sampai sepanjang 448 bit
+blowfish termasuk dalam enkripsi block cipher 64- bit dangan panjang kunci yang bervariasi antara 32-bit sampai 448-bit
+algoritma blowfish terdiri atas dua bagian : 1
+key-expansion berfungsi merubah kunci menjadi beberapa array subkunci dengan total 4168 byte
+enkripsi data terdiri dari iterasi fungsi sederhana sebanyak 16 kali putaran
+setiap putaran terdiri dari permutasi kunci-dependent dan substitusi kunci- dan data-dependent.semua operasi adalah penambahan dan xor pada variabel 32-bit.operasi tambahan lainnya hanyalah empat penelusuran tabel array berindeks untuk setiap putaran
+array p terdiri dari delapan belas kunci 32-bit subkunci : p1, p2,
+bentuk s-box sebanyak 4 buah masing-masing bernilai 32-bit yang memiliki masukan 256
+plaintext yang akan dienkripsi diasumsikan sebagai masukan, plaintext tersebut diambil sebanyak 64-bit, dan apabila kurang dari 64-bit maka kita tambahkan bitnya, supaya dalam operasi nanti sesuai dengan datanya
+hasil pengambilan tadi dibagi 2, 32-bit pertama disebut xl, 32-bit yang kedua disebut xr
+selanjutnya lakukan operasi xl = xl xor pi dan xr = f xor xr 6
+hasil dari operasi diatas ditukar xl menjadi xr dan xr menjadi xl
+lakukan sebanyak 16 kali, perulangan yang ke-16 lakukan lagi proses penukaran xl dan xr
+pada proses ke-17 lakukan operasi untuk xr = xr xor p17 dan xl = xl xor p18
+proses terakhir satukan kembali xl dan xr sehingga menjadi 64-bit kembali
+gambar 2 flowchart blowfish subkunci dihitung menggunakan algoritma blowfish, metodanya adalah sebagai berikut : 1
+pertama-tama inilialisasi p-array dan kemudian empat s-box secara berurutan dengan string yang tetap
+string ini terdiri atas digit hexadesimal dari pi
+xor p1 dengan 32-bit pertama kunci, xor p2 dengan 32-bit kedua dari kunci dan seterusnya untuk setiap bit dari kunci 
+ulangi terhadap bit kunci sampai seluruh p-array di xor dengan bit kunci
+enkrip semua string nol dengan algoritma blowfish dengan menggunakan subkunci seperti dijelaskan pada langkah dan 
+ganti p1 dan p2 dengan keluaran dari langkah 
+enkrip keluaran dari langkah dengan algoritma blowfish dengan subkunci yang sudah dimodifikasi
+ganti p3 dan p4 dengan keluaran dari langkah 
+lanjutkan proses tersebut, ganti seluruh elemen dari p-array, kemudian seluruh keempat s-box berurutan, dengan keluaran yang berubah secara kontiyu dari algoritma blowfish
+gambar 3 fungsi f dalam blowfish total yang diperlukan adalah 521 iterasi untuk menghasilkan semua subkunci yang dibutuhkan
+aplikasi kemudian dapat menyimpan subkunci ini dan tidak membutuhkan langkah-langkah proses penurunan berulang kali, kecuali kunci yang digunakan berubah
+2.2.2 keamanan blowfish sampai saat ini algoritma blowfish belum ditemukan kelemahan yang berarti hanya adanya weak key dimana dua entri dari s-box mempunyai nilai yang sama
+belum ada cara untuk mengecek weak key sebelum melakukan key expansion, tetapi hal ini tidak berpengaruh terhadap hasil enkripsi
+hasil eksperimen sistem yang dibangun terdiri dari aplikasi desktop yang berfungsi sebagai client dan web yang berfungsi sebagai form registrasi awal untuk mendapat kode akses pendaftaran
+pendaftar melakukan pengisian data melalui aplikasi desktop, dan kemudian akan dikirimkan ke server
+aplikasi mengirimkan data isian ke server melalui service
+untuk menghubungkan aplikasi tersebut ke server menggukanan teknologi data snap
+file yang dikirimkan dari client, akan diproses di sisi service
+service akan memproses satu persatu file yang berhasil masuk ke server
+service akan mendekripsi file *.xml tersebut dan kemudian melakukan penginputan data kedalam database
+setelah proses tersebut berhasil, maka user akan mendapatkan respon berupa nomor peserta dan kartu tanda peserta yang akan digunakan pada saat ujian berlangsung
+desain arsitektur sistem dapat dilihat pada gambar berikut ini
+desain arsitektur sistem secara garis besar, alur kerja aplikasi seperti ditunjukan pada diagram konteks berikut : peserta formulir elektronik kartu tanda peserta gambar 5
+diagram konteks sistem yang dibangun memiliki 3 buah sub sistem
+proses registrasi dibangun berbasis web, sedangkan e- form dan services dibangun menggunakan desktop
+peserta panitia tahun lulus tanggal lahir entity relational diagram merupakan gambaran hubungan antar-entitas yang dipergunakan dalam sistem
+perancangan erd meliputi tahap penentuan entitas, penentuan relasi antar-entitas, tingkat relasi yang terjadi, dan konektivitas antar-entitas
+entitas- entitas yang ada adalah sebagai berikut: 1
+provinsi, yaitu data-data provinsi yang ada di indonesia
+kabupaten / kota, yaitu data-data kabupaten / kota di indonesia
+prodi, yaitu data-data program studi yang tersedia pada jalur seleksi mandiri
+lokasi, yaitu lokasi tempat ujian calon peserta
+nomor peserta, yaitu data-data nomor peserta pada seleksi mandiri 6
+biodata peserta, yaitu data calon peserta yang telah mendaftar
+sekolah peserta, yaitu data tempat dimana calon peserta bersekolah 8
+pilihan peserta, yaitu pilihan prodi yang dipilih oleh calon peserta
+transaksi, yaitu data nomor kap dan pin gambar 7
+diagram er physical design merupakan tahap akhir dari pembuatan pendaftaran online seleksi mandiri universitas tanjungpura yang dalam hal ini merupakan gambaran nyata dari database yang akan dibuat
+berikut merupakan physical design dari pendaftaran online seleksi mandiri universitas tanjungpura
+hubungan antar tabel berikut adalah tampilan hasil perancangan antarmuka aplikasi
+halaman registrasi awal gambar 10 splash screen e-form gambar 11
+form isian biodata personal calon peserta gambar 15
+halaman pengisian informasi pendidikan calon peserta gambar 17
+halaman pengisian pilihan program studi gambar 18
+antarmuka aplikasi services 3.1 pengujian aplikasi pengujian sistem yang dilakukan meliputi dua tahapan, yaitu pengujian alpha dan betha
+pengujian alpha merupakan pengujian fungsional yang digunakan untuk menguji sistem yang telah dibuat dengan metode pengujian black box yaitu input berupa suatu set data untuk menguji validitas dari integrasi dan konsistensi sistem
+pengujian betha merupakan pengujian sistem berdasarkan objek penelitian langsung yaitu pengguna aplikasi, yang mengacu dari hasil kuisioner
+pengujian juga dilakukan pada proses pengiriman data serta proses enkripsi dan dekripsi apakah chipertext yang dihasilkan akan sama ketika di dekripsi pada sisi server
+pengujian tersebut dilakukan untuk mengevaluasi hasil sistem yang dibuat
+calon peserta melakukan registrasi awal melalui website 203.24.50.40/seleksimandiri
+calon peserta akan mendapatkan nomor kap dan pin yang digunakan untuk proses pendaftaran melalui formulir elektronik
+formulir elektronik ini dapat didistribusikan langsung
+namun, calon peserta harus melakukan registrasi untuk memiliki kap dan pin
+nomor kap dan pin tersebut harus divalidasi dengan cara melakukan pembayaran pada bank kalbar
+aplikasi menyimpan data dalam bentuk file pmb_untan_ecbl.xml yang dienkripsi menggunakan metode blowfish
+aplikasi menggunakan teknologi data snap dengan menerapkan service application
+hasil perancangan dan pengujian menunjukan bahwa aplikasi ini dapat digunakan untuk proses pendaftaran
+calon peserta akan mendapatkan kartu tanda bukti pendaftaran yang digunakan untuk mengikuti ujian
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil
+kesimpulan setelah melalui beberapa analisis dan pengujian terhadap aplikasi, dapat disimpulkan bahwa: 1
+calon peserta melakukan registrasi awal dan mendapatkan nomor kap dan pin yang digunakan untuk proses pendaftaran melalui formulir elektronik
+aplikasi dapat mengenkripsi data isian yang menghasilkan file pmb_untan_ecbl.xml sebagai media penyimpanan data yang telah dienkripsi menggunakan metode blowfish
+sehingga dapat digunakan sebagai media pengisian formulir pendaftaran online pada seleksi mandiri universitas tanjungpura 3
+hasil perancangan dan pengujian menunjukan bahwa aplikasi ini dapat digunakan untuk proses pendaftaran
+calon peserta akan mendapatkan kartu tanda bukti pendaftaran yang digunakan untuk mengikuti ujian
+berdasarkan hasil kuesioner dan diukur dengan skala likert’s summated rating nilai yang didapat adalah 1766 dari nilai maksimum 2480, dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil

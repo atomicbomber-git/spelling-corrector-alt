@@ -1,0 +1,78 @@
+ancang bangun sistem pengolahan data proyek berbasis v[eb pada pt puncak monterado 2 hels 3as*ion@yalno com, 3 firs ina@gmail
+com abstr&- pt puncak monterado merupakan sebuah perusahaan jasa pemborongan yang bergerak pada bidang konstruksi maupun non konstruksi dengan lokasi prnyek dan pcgawai yang tersebar diseluruh daerah kalimantan barat loknsi proysk yang letaknya tersebar tentu menjadi salah satu masalah dalam hal pertukaran data dan informtsi
+sistem informasi pengolahan data pada pt puncak monterado masih dilakuknn secarn semi manual sehingga proses pertukaran data dan informasi memerlukan waktu yang lrma dan msnyebabkan pembuatan dan penyaiian laporan sering terjadi kesalahan
+tujuan dari penelitian ini adalah untuk menghasilkan sebuah sistem informasi berbasis weh yang dapat terintegrasi dalam pengolahan data dan penyajian laporan kepada pimpinan pt, puncak monterado.apliknsi yang dibangun berisiknn pengolahan data yang akan menampilkan data transalrsi keunngan, data keluar masuk barang logistik dan datn status proyelc aplikasi ini juga berisikan wadah untuk berkomunikasi antara sesama karyawan untuk memudahkan koordinasi dalam kegiatan perusahaan
+kata *unci - websfie, sistem tnfortnrsi, pengotoltan dda, wadahkonatnikasi f
+pendffi suatu organisasi atau perusahaan tentu memiliki banyak data yang hanrs diolah
+sebagai contoh" daa keuangan, data logistiko lain sebagainya, pata-\data tersebut hanrs diolah dan dikelola sedemikian nrpa sehingga dapat menghasill€n suatu inforrrasi yang mendukung pro$es kelancaran kegiatan perusahaan tersebut
+pengolahan data itu sendiri terdapat dua macam cara yaitu secara manual dan komputerisasi
+sekarang ini memang telatr banyak perusahaan yang menorapkan pengolalran data secafia komputerisasi untuk mendukung proses kelancaran kegiatan perusahaan
+namun kebanyakan aplikasi pengolahan dntn secara komputerisasi ini hanya dapat dil&rlcn area penrsahaan tersebut dan program tidak bersifat online
+pt puncak monterado menrpakan sebuah perusahaan jasa pemborongan yang bergerak pada bidang konsfiuksi maupun non konstnrksi dengan lokasi proyek dan pegawai yang tersebar disehrruh daerah kalimantan barat
+lokasi proyek yang letaknya tersebar tentu menjadi salah satu masalah dalam hal pertukarart data dan informasi
+sistem informasi pengolahan data pada pt puncak monterado masih dilakukan secara semi manual sehingga proses pertukaran data dan informasi memerlukan waktuyang lama dan menyebabkan pembuatan dan penyajian taporan sering terjadi kesalahan
+berdasarkan hal tersebut maka pt funcak monterado membutulrkan sebtrah aplikasi berbasis web yang dapat dijadikan media untuk pengolatran dan 'lperhkaran data
+pengendalian diperlukan untuk meqiaga kesesuaian antara p€rencanaan dan pelaksanaan
+tiap pekerjaan yang dilalsanakan hanrs benar-benar diinspeksi dan dicek oleh fngawas lapangaru apakatt sudah sesuai dengan spesifikasi atau belum
+dengan perencanaan dan pengendalian yang baik terhadap kegiatan-kegiatan yang 8m, maka terjadinya keterlambatan jadwal yang mengakibatkan pembengkakan biaya proyek dapat dihindari
+ada tiga penilaian terhadap mutu suatu proyek konstnrksi, yaitu penilaian atas mutu fisik konstnrksi" biaya dan \raktu
+divisi pengendalian mutu fisik konstruksi terpisah dengan divisi pengendalian jadwal dan biaya
+pengendalian tnrfiadap mutu fisik konstruksi dilakukan secara tersendiri oleh pengawas teknik melalui gambar-gambar rencana dan spesifikasi teknik
+pengendalian jadwal dan biaya dimasukkan dalam divisi manajemen proyek yang mencakup pemantauan kemajuan pekerjaan, reduksi baiyq optimasi, model dan analisis
+proses pengsndalian berjalan separ{ang daur hidup proyek guna mewujudkan performa yang baik di dalam setiap tahap
+perencanaan dibuat sebagai bahan acuan yang selanjutnya akan menjadi standard pelaksanaan pada proyek yang meliputi spesifikasi teknilq jadwal dan anggaran
+pemantauan hanrs dilakukan selama masa pelaksanaan proyek untuk mengetahui prestasi dan lcemajuan yang telah dicapai.informasi hasil pemant&uan ini berguna sebagai bahan evaluasi performa yang telah dicapai pada saat pelaporan
+pengendalan memiliki dua fungsi yang sangat pcnting, yaitu : l
+fungsi pemantauan dengan pemantauan yang baik terhadap semua kegiatan proyek akan memaksa unsur-unsur pelaksan& untuk bekerja secara cakap dan jujur
+pemantauan yang baik akan menjadi motivasi utama untuk tnpnnnnei nprfnrma rrnfifi tinrrrli rlrtncnn rnprnharirrr!/^^vt*t, .ar l
+{t lr^lbttr \}v'.rttlrl tllt/lrrarsrl -a penjelasan mengenai apa saja yang harus dilakukan untuk mencapai performa tinggi kemudian memberikan umpan balik terhadap performa yang dicapainya
+fungsi manajerial pada proyek-proyek yang komplek dan mudah terjadi perubahan pemakaian pengendalian dan sistem informasi yang baik akan memudahkan manajer untuk segera mengetahui bagian-bagian pekerjaan yang mengalami kejanggalan atau memiliki performa yang kurang baik, sehingga dapat segera dilakukan usaha untuk mengatasi atau meminimalkan kej anggalan tersebut
+monitoring dnn updating untuk dapai mencapai suatu rencana jaciwal dapat tepat dengan pelaksanaan dilapangan dibutuhkan suatu perencanaan yang amat cermat dan didukung oleh falctor luar, supaya hal tersebut dapat dicapai
+penandaan prestasi pekerjaan dalam alat pengendalian dilanjutkan dengan penyesuaian urutan kegiatan disebut updating
+kegiaten ini dicukung oleh piranti komputer dikarenakan proses ini cukrup rumit dan membutuhkan ketelitian serta kesinambungan secara berkala" c
+definisi sistem lffirmasi sistem informasi adalah suatu sistem terintegrasi yang mampu menyediakan informasi yang bermanfaat bagi penggunanya
+sistem informasi dapat diartikan juga sebagai sebuah sistem yang terintegrasi atau sistem antara manusia dengan mesin, untuk menyediakan informasi untuk mendukung operasi, manajemen dalam suatu organisasi
+leitch, sistem informasi adalah "sttatu sistem di dolam suatu organisasi yang rnempertemukan kebutuhan pengolahan transaksi hsrisn, mendukung operasi, bersifat manajerial dan kegiatan strategi dnri sustu organisasi don menyediakan pihak luar tertentu dengan laporcm- laporan ysn g diper lukan
+konsep basis data data didalam organisasi merupakan sumber daya yang penting yang digunakan untuk kepentingan organisasi, sehingga penting untuk menyusun basis data yang baik dan benar agar mampu memenuhi kebutuhan alran informasi bagi para user dan pengambil keputusan
+2 terdapat beberapa pengertian basis data, edhy sutanta menyatakan basis data adalah "kumlrulan dilri data-data yang saling terfutbung ysng disimpan secara bersams-ssma secara independent padfl saatu meclia dan dengun curu-auru lerienlu sehinggu mudah untuk diganakan atau ditampilkan kembali
+t cfnrnrrhnrra rnaftfifnrnalrnn eprnrrr nafcrrnratcrn j i+r^l!, l ut tyvrrr'+llllj w rrrvrrf,
+black box metode black box memungkinkan perekayasa perangkat lunak mendapatkan serangkaian kondisi input \ren r{rt4rmrlt-i^ .jtl^rtrt+t irvr \'j r*i aa
+black box dapat menemukan kesalahan dalam kategori berikut : 1
+fungsi-fungsi yang tidak benar atau hilang 2
+kesalahan dalam strutur data atau akses basisdata eksternal 4
+kesensitifan sistem terhadap nilai input tertentu 7
+batasan dari suatu data gambar i sistem kerja dari teknik pengujian black box m
+gambar sistem usulan pada penelitian ini, perancangan website sistem informasi ini dilakukan dengan konsep pemodelan yang berorientasikan pada objek yang disusun dengan menggunakan bahasa pemrograman php
+pengembangan sistem menggunakan tahapan sdlc yang meliputi tahap perencanaan, analisis sistenq perancangan sistem, implementasi sistem dan pengujian sistem
+r -l::-l--.trarrgkan pcneilrran yang uilakukan uapal ousla$karl sebagai berikut gambar 2 diagram alir penelitian b
+diagrarn konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar berikut ini menunjukkan diagram konteks dari sistem: vsifilnsi l/rer lnfores*st mrtcrirl lr{optmbdirn suaql lr$qferna*nh* sarir{l l$nhhr$rnn6 d
+hasil perancangan desain sistem yang teiah dirancang memerlukan komputer dengan sistem operasi minimal windows )ry pada komputer juga harus terpasang mysql, berikut adalah antarnnrka hasil perancangan aplikasi
+halarnan utama berfungsi sebagai tampilan yang dapat di akses oleh pengunjung website.halaman ini dapat diakses tanpa melalui proses login terlebih dahulu.berikut adalah gambar tampilan halaman utama i l rm.korrssr
+lffi!" 'f, ''-f f\ +norr lr' vltiferu$ahrsril tlsefirfrmf, fmnvwd oatroilbitoglstllc oetrsmsiscromlrng oetr 0hflsiprofcf uterno*tofm*mrd ortr0dnr ahn trturgr* 0rutnnnrbi $aru gambar 3 diagram c
+anqlisis kebutuhsn sistem sistem yang dibangun berbasis web, yang dapat kemudahan, ketepatan dan kecepatan dalam hal pengitwasan dan akses informasi terhadap proyek yang sedang berjalan, desain arsitektur sistem dapat dilihat pada gambar sebagai berikut, @h @# iltisi fcrusah&en ft{rfl.f rrb4airhlt! pneppn frn fil{r pi*.rc6e|l} f*'rcrsrfiefiru$lrl giihufirtrl*rc arltt hr*tr06kq*li;rnrasrrgnlttfr$lgrnill*lrgg*t dfisdt fir$ffil{kl{} ftfibar fir rdlsr?a{} sirur fsi6eu*tft9il{t t mgih, i$fsp
+$tsfficr leffor$e, ftssrtrd rtad*ftil srnlg m pembclirn 8rn4 rsrptxn*trirn erung m$umiicr vorfiietlljtrr ldorrwff, r@t tnfofinasiltro lkrnalr*
+ftcs$rwd ornlcffrr karstgan ll*rilt*xxl ltfrrrxrra ff l#otl&rri fdcrirnr omsihro {**\ pf
+psnsd( ft&rntnd* \j\-/ \irrifitxiulrr ir*o dcftrr lbr$*e* irdoa0s{nsi klruwrrl vcelfifturi u*cr kfocicfirr*hrr (*wq'rn mc?nncest$ lttrdwtfirn rcfllslfwar trar konteks sistem gambar 5 halaman utama halaman utama panel staf berfungsi sebagai tampilan yang dapat di akses hanya oleh pimpinan dan karyawan pt puncak monterado yang telah didaftarkan dan diberik an userrwrme dan password untuk mengakses sistem informasi pengolahan data ini
+halaman panel staf dapat diakses melalui proses login terlebih dahulu.tampilan halaman login untuk administrator dapat dilihat pada gambar di bawah ini: f'"1uls#ili
+*t"t 6jm;nwcx'ti, *rr$a ganrbar 6 halaman login pada halaman ini admin hanya dapat melakukan kegiatan yang menjadi tugasnya
+pada bagian halaman utama admin terdapat enam menu utama
+uswnw iideh bnt$il ksrs'ord r:3{56 { hnbenu drn resu, ai pengujian input dokumentasi pekerjaan adalah proses memasukkan data-data foto hasil pekedaan yang telah dilakukan oleh divisi project pt puncak monterado" has pengujian dapat dilihat pada tabel dibawah ini : no, *$fksi kmmryrn 1 trl*eangln pmprurn i &u&sfeto frnscffis bc&rd lshri p*ujun ab p.ldr & frts rbcjpg lfuteuqrn pagr*onnl pengujian input daftar baranga dalah proses memasukkan data stok barang yang dilakukan oleh divisi logistik pt puncak lvlonterado
+hasil pengujian dapat dilihat padatabel dibawah ini : l{0
+k*mnpnb*nng bdns bdr$ stchhmry s gambar 7 halaman utama administrator e
+hasil pengujian black box pengujian dilakukan pada form login halaman pelanggan dan panel admin.ketika memasukkan nama dan passwordyang sesuai untuk mengakses halaman sesuai hak akses.hasil pengujian dapat dilihat pada tabel dibawah ini : pengujian input lokasi pekerjaan adalah proses memasukkan data-data lokasi pekerjaan yang diterima oleh pt puncak monterado dari customer
+hasil pengujian dapat dilihat pada tabel dibawah ini : !{0
+ft&to *cjpg ffstffiryn pugeconnl pengujian inpat daftar karyawan adalah proses memasukkan data karyawan yang bekerja di pt puncak monterado
+proses ini dilakukan oleh divisi hrd pt puncak monterado
+hasil pengujian dapat dilihat pada tabel dibawah ini : xo
+anslisis hasil peng$ian berikut merupakan analisis hasil perancangan dan pengujian sistem informasi pengolahan data berbasis web pada pt puncak monterado : 5 sistem akan rnenghalangi user yang memasukkan userndrne dan password yang salah ketika proses iogin sehingga sistern hanya dapat diakses oleh user yang memiliki hak akses
+hasil pengujian menunjukkan bahwa saat dilalukan input data dengan menggunakan metode bluck buc, input data dengan keseluruhan data kosong akan menirnbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan sudah ditangani pada kode program sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+hasil pengujian menunjukkan bahwa saat dilakukan inprt data dengan salah satu data yang bernilai kosong akan menyebabkan kesalahan apabila data tersebut tidak diperbolehkan kosong di dalam basis data
+pada sistem ini kemungkinan tersebut sudah ditangani pada kode program sehingga akan muncul pesan kesalahan jika ada salah satu data yang belum diisi
+hasil perancangan dan pengujian menunjukkan bahwa sistem sudah baik untuk setiap aspek analisis pada metode pieces
+hasil perancangan dan pengujian sistem menunjukkan bahwa sistem informasi ini menjadi solusi untuk salah satu cara melakukan pengolahan databerbasis web pada pt puncak monterado
+berdasarkan hasil pengujian user acceptance dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil dan dapat diterima oleh user dengan baik
+teori aplikasi manalemen proyek konstnrksi, jogiakarta: andi sutanta edhy
+tesis pengembangan sistem informasi fufanajemen proyek berbasis website

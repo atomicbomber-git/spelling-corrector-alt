@@ -1,0 +1,21 @@
+ota pontianak berbasis web finarestiana@gmail.com processing such as doctors, nurses, counselors, medical records officers, society
+system designed to collect, process and store the data so that data can be retrieved for distribution as a useful information
+the system is constructed by applying the technique of responsive design so that the web display can adjust the size of the large area of the browser used by the user
+the approach used in the study is a structured approach that uses several tools and construction techniques, such as testing the system using black box method
+results of rehabilitation drug information system can assist in data processing drug rehabilitation center drug rehab and parents
+pendahuluan bahaya narkoba merupakan salah satu permasalahan pokok yang dihadapi bangsa indonesia dewasa ini
+permasalahan narkoba bukan hanya merupakan masalah dibidang kesehatan saja, akan tetapi juga menyangkut berbagai bidang antara lain bidang sosial, ekonomi, kriminal, budaya, agama dan lain-lain
+masalah penyalahgunaan narkotika, masyarakat sebagai narkoba (narkotika yang memerlukan upaya penanggulangan secara komprehensif dengan melibatkan peran serta masyarakat secara aktif yang dilaksanakan secara berkesinambungan, adalah dengan membangun panti pesat pada saat ini
+contohnya penggunaan web sebagai salah satu sarana penunjang dalam sistem informasi dapat memberikan hasil yang lebih untuk output sebuah sistem, yang bersifat aktual, relevan dan mudah diakses oleh masyarakat, sehingga diperlukan jaringan informasi yang akan mempercepat penyajian dan penyediaan telah berjalan dengan baik
+menggunakan pengolahan data microsoft pengolahan data yang lebih kompleks diperlukan suatu sistem informasi panti rehabilitasi napza kota pontianak dalam pengolahan informasi yang dibutuhkan pada instansi tersebut
+wisma sirih merupakan tempat sosial perilaku dan meningkatkan kematangan perawatan residensial serta satu tahap perawatan lanjutan 
+sistem informasi adalah suatu sistem dalam suatu organisasi yang kepada pihak luar tertentu dengan laporan- laporan yang diperlukan
+kumpulan dari halaman-halaman situs, yang biasanya terangkum dalam sebuah domain atau subdomain, yangtempatnya berada di dalam world wide web di internet www terdiri dari seluruh situs web yang tersedia kepada publik
+halaman induk; sering diterjemahkan ini mengatur web page untuk menjadi sebuah hirarki, meskipun hyperlink- mengatur para pembaca dan memberitahu mereka susunan keseluruhan dan (html
+halaman- halaman sebuah situs web diakses dari sebuah url yang menjadi, yang disebut homepage, adalah bahasa untuk merepresentasikan dokumen dalam sebuah p13), html adalah suatu bahasa yang dikenali oleh web browser untuk menampilkan informasi dengan lebih biasa 
+sedangkan web browser adalah program komputer yang digunakan untuk membaca html, kemudian mentejemahkan dan menampilkan hasilnya 2.5 php menurut agus saputra php atau yang memiliki kepanjangan hypertext preprocessor merupakan suatu bahasa pemrograman yang difungsikan dari kerangka layout web, sedangkan php difungsikan sebagai prosesnya sehingga sangat mudah dimaintenance
+digunakan dalam kode html untuk menciptakan suatu kumpulan style yangterkadang dapat digunakan untuk memperluas kemampuan html, sebagai memungkinkan untuk untuk mengatur dan bahkan tag <basefont> pun tak berpengaruh pada sel-sel tabel
+css menggunakan kode-kode yang tersusun html atau dapat juga digunakan membuat style baru yang biasa disebut class
+2.7 jquery menurut aloysius sigit w jquery adalah library atau kumpulan kode javascript siap pakai
+keunggulan bekerja disisi client atau browser sehingga website bisa lebih interaktif
+2.8 xampp xampp adalah perangkat lunak bebas yang fungsinya sebagai server yang berdiri sendiri, yang terdiri atas program apache http server, mysql database, dan penerjemah bahasa yang ditulis dengan bahasa pemrograman php dan perl

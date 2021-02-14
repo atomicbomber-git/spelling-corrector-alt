@@ -1,0 +1,11 @@
+kota pontianak merupakan salah satu daerah di indonesia yang mengalami masalah gizi buruk pada balita
+berbagai upaya pencegahan telah dilakukan, akan tetapi masih saja terus terjadi tiap tahunnya, sehingga diperlukan pendekatan yang berbeda yaitu dengan pemetaan status gizi balita
+penelitian ini bertujuan untuk menghasilkan prototipe sistem informasi geografis yang mampu menangani data history kasus balita gizi buruk, memberikan informasi status gizi balita suatu daerah, sehingga pada akhirnya sistem ini dapat menjadi solusi alternatif bagi pemerintah dan pihak-pihak terkait untuk mendukung upaya pencegahan terjadinya kasus gizi buruk pada balita
+selain itu sistem ini dapat membantu proses analisis data gizi balita yang berhubungan dengan data geografis suatu wilayah yang mencakup kondisi eksisting wilayah tersebut sehingga dapat menjadi indikator tambahan bagi dinas kesehatan dan pemerintah kota pontianak serta pihak- pihak terkait dalam menentukan strategi untuk perbaikan gizi balita di kota pontianak
+dengan menggabungkan dua komponen data tersebut diatas dalam bentuk pemetaan pemerintah kota pontianak akan lebih mudah dalam memantau segala sesuatu yang dapat mempengaruhi gizi balita suatu daerah sehingga dapat dengan cepat menanggulanginya
+latar belakang masalah gizi buruk merupakan masalah yang belum bisa dituntaskan di indonesia, termasuk di kalimantan barat
+selain itu masalah gizi buruk merupakan salah satu bentuk manifestasi dari adanya gangguan pada proses pertumbuhan
+tingkat perekonomian masyarakat yang di bawah rata-rata adalah salah satu faktor utama penyebabnya
+oleh sebab itu, untuk menangani masalah ini pemerintah mengadakan program perbaikan gizi di wilayah-wilayah miskin
+menurunkan masalah gizi buruk terutama di daerah miskin dengan meningkatkan keadaan gizi keluarga, meningkatkan partisipasi masyarakat, meningkatkan posyandu, dan meningkatkan konsumsi energi dan protein pada balita gizi buruk
+evaluasi juga dilaksanakan dalam pelaksanaan program perbaikan gizi makro, yaitu dimulai dari evaluasi input, proses, output, dan dampak dengan tujuan untuk menilai persiapan, pelaksanaan, pencapaian, target dan prevalensi status gizi pada sasaran

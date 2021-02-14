@@ -1,0 +1,52 @@
+studi kasus : sma santo paulus pontianak
+radio frequency identification) dan sms gateway berbasis client server susi susanti susisusanti340@gmail.com undertaken by school and parents in monitoring their children at school
+each school have many different ways to monitor
+some of them do it manually and the others use computer and technology that helps them
+monitoring that carried out by santo paulus pontianak such as the presence of student, extracurricular, and homework
+the school provides information to parents by mail or telephone
+monitoring will goes well when there is technology that supports it
+the technology that can be used to help monitor are rfid and sms gateway
+rfid is a technology taht uses radio waves to identify people or objects automatically
+so that rfid is used as the student id card that can be identifu students while they are at school
+and short message service gateway is a software that combines computer technology and mobile device technology, they are integrated with a database that has a specific purpose
+sms gateway also helps parents to know their children activities through the notification that send to their phone
+the testing result show that the monitoring system can help their parents and school to monitor students
+dilakukan oleh pihak sekolah dan orang tua dalam memantau aktivitas yang dilakukan oleh siswa atau anak selama di sekolah
+setiap sekolah melakukan monitoring dengan cara yang berbeda-beda
+ada yang melakukan monitoring secara manual dan ada juga yang sudah menggunakan komputer dan teknologi yang membantu monitoring adalah barcode dan finger print
+salah satu sekolah yang melakukan monitoring siswa adalah sma santo paulus pontianak
+monitoring yang dilakukan oleh sma santo paulus pontianak, yaitu kehadiran masuk sekolah, kehadiran extrakulikuler, dan tidak mengerjakan pr 
+monitoring aktivitas siswa pada sma santo paulus pontianak masih dilakukan secara manual monitoring dilakukan dengan cara mencatat aktivitas siswa dalam sebuah buku
+namun masih ada aktivitas siswa yang belum terarsip dan belum adanya database untuk aktivitas siswa
+sehingga ketika ingin mencari data masih sering terkendala
+salah satu aktivitas siswa yang masih dicatat pada sebuah buku adalah ketika siswa tidak hadir ke sekolah baik pada jam pelajaran kemudian akan diinformasikan kepada orang tua apabila sudah melewati tiga kali peringatan dari pihak sekolah maka orang tua akan mendapat informasi mengenai kelakuan anaknya
+pihak sekolah sma santo paulus biasanya melakukan panggilan pada orang tua melalui surat atau telepon
+namun, terkadang ketika sekolah menyampaikan informasi mengenai anak ke orang tua melalui surat biasanya tidak sampai pada orang tua
+sehingga, ini dianggap masih kurang efektif dan kurang efesien apabila aktivitas siswa masih harus dicatat dalam sebuah buku dan cara memberikan informasi ke orang tua yang masih belum maksimal teknologi yang dapat digunakan dalam membantu monitoring adalah rfid dan sms gateway
+menurut hendi saputra mengatakan bahwa rfid adalah kepanjangan dari radio frequency identification
+biasanya rfid dikenal sebagai smart tags dan spy chips
+rfid adalah bentuk umum untuk teknologi yang menggunakan radio waves untuk mengidentifikasi manusia atau objek secara otomatis
+rfid memiliki kelebihan yang tidak dimiliki oleh barcode adalah transmisi data secara elektromagnetik, kapasitas memori yang lebih besar, posisi pembacaan bebas dan segala kondisi memenuhi, tidak berpengaruh pada kondisi yang buruk, tidak mudah untuk diduplikasi dan kecepatan membaca data
+sedangkan barcode transmisi data secara optik, kapasitas memori yang lebih kecil, posisi pembacaan hanya vertikal dan horizontal, berpengaruh pada kondisi buruk, dan mudah untuk diduplikasi
+sehingga, rfid digunakan dalam monitoring sebagai kartu identitas siswa atau kartu elektronik yang dapat mengidentifikasi semua kegiatan siswa selama berada di sekolah
+sedangkan sms gateway adalah sebuah perangkat lunak pada komputer yang menggabungkan teknologi komputer dan teknologi perangkat mobile kemudian diintegrasikan dengan sebuah database yang mempunyai tujuan tertentu
+sms gateway dapat memudahkan pihak sekolah dalam menyebarkan informasi ke ratusan nomor orang tua secara otomatis dan cepat dimana langsung terhubung dengan database ratusan nomor secara satu per satu
+sms gateway juga membantu orang tua dalam mengetahui informasi anak-anak mereka melalui notifikasi yang dikirim
+setiap orang tua tentunya mempunyai ponsel, ketika sms notifikasi dikirim maka orang tua bisa mengetahui kondisi anaknya
+dengan adanya notifikasi tersebut diharapkan akan terbaca oleh orang tua masing-masing anak
+, server adalah komputer database yang berada di pusat, dimana informasinya dapat digunakan bersama-sama oleh beberapa user yang menjalankan aplikasi di dalam komputer lokalnya yang disebut dengan client
+prototype sistem monitoring siswa ini dibangun berbasis client server karena rfid hanya dapat dibaca oleh aplikasi komputer yang berbasis desktop saja yang mana sebagai server, untuk client sendiri berbasis web agar dapat diakses oleh orang tua dimana saja
+siswa dengan menggunakan teknologi rfid dan sms gateway
+diharapkan bahwa dengan adanya prototype sistem monitoring siswa ini dapat membantu orang tua dalam memonitoring anak-anaknya selama berada di sekolah serta membantu pihak sekolah dalam mengawasi dan mendisiplinkan murid-muridnya
+monitoring atau pemantauan adalah kegiatan yang dilakukan untuk mengecek penampilan dan aktivitas yang sedang dilaksanakan, kegiatan pengumpulan data yang relavan secara sistematis dan continue yang berkaitan dengan proses tertentu tanpa mengadakan pertimbangan terhadapanya (charles e
+sehingga dapat disimpulkan dari uraian di atas bahwa monitoring atau pemantauan adalah suatu kegiatan mengamati aktivitas dengan mencatat dan merekam semua kegiatan yang dilakukan oleh seseorang
+ada monitoring yang masih manual dan ada juga sudah menggunakan teknologi yang membantu dalam monitoring
+salah satu teknologi yang digunakan adalah barcode dan finge rprint
+sehingga dapat di simpulkan bahwa monitoring siswa adalah kegiatan yang dilakukan oleh pihak sekolah dan orang tua dalam memantau aktivitas atau kegiatan yang dilakukan oleh siswa atau anak selama berada di sekolah
+2.2 identifikasi otomatis pengidentifikasi suatu objek secara otomatis selain barcode, optical character recognition, biometric, dan smartcard 
+dengan adanya sistem identifikasi secara otomatis sehingga sangat membantu dalam hal identifikasi di berbagai bidang yang menerapkan teknologi ini
+beberapa sistem pengidentifikasi secara otomatis yang dapat dilihat pada gambar 2.1
+barcode system biometric mm auto id optical character voice identification otomatis
+kumpulan kode yang berbentuk garis, dimana masing- masing ketebalan setiap garis berbeda sesuai dengan isi kodenya
+barcode pertama kalinya diperkenalkan dan dipatenkan di amerika oleh norman joseph woodland dan bernard silver mahasiswa drexel institute of technology pada akhir 40-an
+barcode dibaca dengan menggunakan sebuah alat baca barcode atau lebih dikenal dengan barcode scanner

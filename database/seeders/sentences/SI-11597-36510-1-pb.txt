@@ -1,0 +1,89 @@
+merupakan perusahaan yang bergerak dalam sektor perbankan yang melayani golongan pengusaha mikro, kecil, dan menengah dengan cara menghimpun dan menyalurkan dana masyarakat
+sebagai pelaku usaha perbankan, bpr andalan wajib bertanggung jawab untuk mengelola dokumen nasabah secara akurat dan menjaga kerahasiaannya dengan baik
+oleh karena itu, dibutuhkan sebuah sistem informasi akuntansi perbankan agar perusahaan dapat mempertanggung-jawabkan dana masyarakat yang dikelola, baik kepada nasabah yang bersangkutan maupun kepada otoritas moneter
+metode pengembangan sistem dalam penelitian ini menggunakan metode prototyping yang menitik- beratkan pada pendekatan aspek desain, fungsi, dan user- interface sehingga sistem diharapkan dapat dibangun sesuai kebutuhan pengguna
+alat perancangan yang digunakan adalah data flow diagram dan entity relationship diagram dengan perangkat lunak borland delphi 7 sebagai bahasa pemrograman serta mysql sebagai database
+sistem informasi ini dapat mengelola data nasabah dan transaksi keuangan yang akurat, terkini, dan jelas sehingga dapat meningkatkan pelayanan terhadap nasabah
+hasil akhir dari penelitian ini adalah laporan keuangan bank yang diberikan baik kepada pejabat bank maupun kepada otoritas moneter, sehingga diharapkan dapat membantu pihak yang berwenang dalam proses pengambilan keputusan
+pendahuluan perbankan mempunyai fungsi sebagai agen pembangunan, yaitu industri perbankan bertujuan menunjang pelaksanaan pembangunan nasional dalam rangka meningkatkan pemerataan, pertumbuhan ekonomi, dan stabilitas nasional ke arah peningkatan kesejahteraan rakyat banyak
+pt bpr andalan favorit perdana merupakan perusahaan hasil akuisisi dari pt bpr melawi mandiri pada tahun 2013
+salah satu kendala utama yang dihadapi oleh bpr andalan yaitu terjadi perubahan kebijakan pada mekanisme operasional yang sangat signifikan setelah proses akuisisi
+beberapa perubahan yang terjadi yaitu cara perhitungan bunga tabungan pada akhir bulan yang berubah dari bunga rata-rata perbulan menjadi bunga harian
+selain itu terjadi pula perbedaan perhitungan nominal minimal pengenaan pajak pada nasabah
+pada sistem yang lama, nominal kena pajak hanya akan dihitung per rekening, sedangkan sistem yang benar harus mengakumulasikan saldo keseluruhan dari rekening yang dimiliki oleh masing-masing nasabah, agar dapat mengkategorikan apakah nasabah tersebut wajib dikenakan pajak atau tidak
+saat ini beberapa proses jurnal pembukuan yang dilakukan pada akhir bulan juga masih dilakukan secara manual, seperti proses perhitungan penyisihan penghapusan aset produktif dan perhitungan bunga akrual sehingga pada saat akhir bulan petugas pembukuan tetap harus menghitung sendiri nilai ppap dan bunga akrual kemudian meng-input-nya ke dalam siap
+prosedur manajemen resiko juga kurang diperhatikan pada siap yang lama karena tidak melakukan proses pengamanan data sehingga database dapat dengan mudah diakses dan dimanipulasi datanya sehingga beresiko terhadap keakuratan data bank
+perbankan yang dapat memenuhi kebutuhan kegiatan operasional perbankan pt bpr andalan favorit perdana sesuai dengan kebijakan manajemen yang berlaku
+landasan teori undang-undang no 10 tahun 1998 tentang perbankan menyebutkan bahwa bpr adalah badan usaha yang menghimpun dana dari masyarakat dalam bentuk simpanan dan menyalurkannya kepada masyarakat dalam bentuk kredit atau dalam bentuk lainnya dalam rangka meningkatkan taraf hidup rakyat banyak yang melaksanakan kegiatan usaha secara konvensional atau berdasarkan prinsip syariah yang dalam kegiatannya tidak memberikan jasa dalam lalu lintas pembayaran
+krismiaji mendefinisikan sistem informasi akuntansi perbankan sebagai sistem yang memproses data dan transaksi perbankan guna menghasilkan informasi yang bermanfaat untuk merencanakan, mengendalikan, dan mengoperasikan bank
+sedangkan fungsi utama penyusunan sistem informasi akuntansi bagi suatu organisasi perbankan menurut la midjan adalah sebagai berikut: i
+untuk meningkatkan informasi, yaitu informasi yang tepat guna, terpercaya, dan tepat waktu, dengan kata lain sistem informasi akuntansi harus dengan cepat dan tepat dapat memberikan informasi yang diperlukan
+untuk meningkatkan sistem pengendalian internal, yaitu sistem pengendalian intern yang diperlukan agar dapat mengamankan kekayaan perusahaan
+pengembangan yang cepat dan pengujian terhadap model kerja dari aplikasi baru melalui proses interaksi yang berulang-ulang 
+metode ini dipilih karena sebagian user kesulitan mengungkapkan keinginannya untuk mendapatkan aplikasi yang sesuai dengan kebutuhannya
+kesulitan ini yang perlu diselesaikan dengan memahami kebutuhan user dan menerjemahkannya ke dalam bentuk prototipe untuk selanjutnya diperbaiki secara terus menerus sampai sesuai dengan kebutuhan user
+rancang bangun sistem informasi akuntansi perbankan pada bank perkreditan rakyat fitria auli wulandari 1, hengky anra
+1 auliwulan@gmail.com, 2 stmkom@gmail.com, 3 tursina15@gmail.com transaksi tiap user
+pada akhir hari, user pembukuan melakukan proses akhir hari yang terdiri dari pengolahan jurnal transaksi menjadi laporan keuangan bank yang terdiri dari neraca, rugi laba, dan buku besar, mencetak rincian saldo-saldo aplikasi, melakukan akumulasi mutasi transaksi, dan melakukan backup database
+pada tiap-tiap akhir bulan, dilaksanakan proses akhir bulan yang terdiri dari proses pembayaran bunga tabungan, pembentukan bunga akrual untuk deposito dan pinjaman, amortisasi provisi, pembentukan ppap, dan melakukan export file xml untuk laporan bulanan ke otoritas moneter
+sedangkan pada akhir tahun, dilaksanakan proses untuk menihilkan laporan rugi laba dengan melakukan jurnal dari pos rugi laba pada pos rugi/laba tahun lalu pada neraca
+perancangan diagram alir sistem diagram alir sistem merupakan diagram yang menggambarkan sistem yang akan dibangun
+adapun diagram alir sistem yang akan dibangun dapat dilihat pada gambar 1 dan gambar 2
+data master master glpinjaman/abatabungan/depositocif update approve transaksi diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 3 berikut ini menunjukkan diagram konteks dari sistem informasi akuntansi perbankan yang dibangun
+sistem informasi daftar nominatif pinjaman, laporan pembentukan ppap, laporan pencadangan hadiah, laporan amortisasi provisi, laporan bulanan bi laporan transaksi gabungan, daftar nominatif pinjaman, laporan pembentukan ppap, laporan pencadangan hadiah, laporan amortisasi provisi, laporan bulanan bi data transaksi aba, data transaksi gl, data transaksi pemindahbukuan informasi master user, informasi master rate, informasi master produk, entity relationship diagram merupakan gambaran hubungan antar-entitas yang dipergunakan dalam sistem
+perancangan erd meliputi tahap penentuan entitas, penentuan relasi antar-entitas, tingkat relasi yang terjadi, dan konektivitas antar-entitas
+hubungan antar entitas digambarkan pada gambar berikut
+implementasi dan hasil komputer minimum dengan sistem operasi windows xp
+pada komputer server, diperlukan aplikasi mysql sebagai pengelola database
+antarmuka sistem dibagi berdasarkan user menjadi 6 level, yaitu untuk administrator, direksi, pembukuan, admin kredit, teller, dan customer service
+berikut tampilan awal saat pengguna membuka aplikasi untuk pertama kali
+3 antarmuka hasil perancangan form cif untuk melakukan pencatatan data pribadi nasabah
+pada menu ini, setiap nasabah diberi sebuah identitas unik berupa id cif
+gambar 7 form cif yang dapat digunakan untuk melakukan manipulasi data master rekening tabungan
+antarmuka hasil perancangan form transaksi tunai yang digunakan untuk melakukan transaksi yang berhubungan dengan uang fisik
+transaksi tunai meliputi transaksi tabungan tunai, transaksi gl tunai, dan transaksi antar kasir
+gambar 9 form transaksi tunai antarmuka hasil perancangan form pemindahbukuan yang digunakan untuk melakukan transaksi pemindahbukuan antar rekening yang ada di bpr
+transaksi pemindahbukuan meliputi transaksi pemindahbukuan antar aplikasi, pemindahbukuan antar gl, pemindahbukuan aplikasi-gl, dan pemindahbukuan batch
+antarmuka hasil perancangan form rekening deposito yang dapat digunakan untuk melakukan manipulasi data master rekening deposito
+antarmuka hasil perancangan form transaksi deposito yang digunakan untuk melakukan transaksi yang berhubungan dengan deposito nasabah
+transaksi deposito meliputi transaksi penempatan dan pencairan deposito
+gambar 12 form transaksi deposito antarmuka hasil perancangan form rekening kredit yang dapat digunakan untuk melakukan manipulasi data master rekening kredit yang diberikan
+4 data master rekening antar bank aktiva
+gambar 14 form aplikasi rekening antar bank aktiva antarmuka form proses akhir hari yang digunakan untuk melakukan rangkaian proses akhir hari
+gambar 15 form proses akhir hari antarmuka form proses akhir bulan yang digunakan untuk melakukan rangkaian proses akhir bulan
+gambar 16 form proses akhir bulan antarmuka form proses akhir tahun yang digunakan untuk melakukan rangkaian proses akhir tahun
+gambar 17 form proses akhir tahun b
+pengujian blackbox dengan menggunakan metode blackbox
+cara pengujiannya dilakukan dengan menjalankan atau mengeksekusi unit atau modul, kemudian diamati apakah hasil dari unit itu sesuai dengan hasil yang diinginkan
+pengujian form login no aksi contoh data hasil keterangan 1 semua kolom welcome, ! tabel 2
+pengujian form transaksi tunai tabungan tunai no aksi contoh data hasil keterangan 1 kata lain pengujian ini adalah pengujian secara langsung di lapangan
+kuesioner ini terdiri dari 6 pertanyaan yang ditanyakan kepada seluruh karyawan sesuai bagian masing- masing dengan menggunakan skala 1 sampai 4
+responden yang digunakan berjumlah 10 orang yang terdiri dari 2 orang direksi, 1 orang staf customer service, 2 orang teller, 2 orang staf admin kredit, 2 orang staf 5 masing jawaban dicari berdasarkan dari data hasil kuesioner dengan menggunakan rumus q: jumlah responden y: nilai persentase dapat dilihat sebagai berikut: 1
+aplikasi dapat membantu mengelola data nasabah
+hasil pengujian kuesioner pertanyaan pertama no keterangan jumlah responden persentase 1 sangat setuju 7 30% 2 setuju 3 70% 3 kurang setuju 0 4 tidak setuju 0 2
+aplikasi dapat mempercepat pelayanan kepada nasabah
+hasil pengujian kuesioner pertanyaan kedua no keterangan jumlah responden persentase 1 sangat setuju 5 50% 2 setuju 5 50% 3 kurang setuju 0 4 tidak setuju 0 3
+aplikasi dapat mempermudah kegiatan operasional tabel 5
+hasil pengujian kuesioner pertanyaan ketiga no keterangan jumlah responden persentase 1 sangat setuju 8 80% 2 setuju 2 20% 3 kurang setuju 0 4 tidak setuju 0 tabel 6
+hasil pengujian kuesioner pertanyaan keempat no keterangan jumlah responden persentase 1 sangat setuju 5 50% 2 setuju 5 50% 3 kurang setuju 0 4 tidak setuju 0 5
+laporan yang dihasilkan dari aplikasi dapat memenuhi kebutuhan pelaporan bank
+hasil pengujian kuesioner pertanyaan kelima no keterangan jumlah responden persentase 1 sangat setuju 7 70% 2 setuju 3 30% 3 kurang setuju 0 4 tidak setuju 0 6
+hasil pengujian kuesioner pertanyaan keenam no keterangan jumlah responden persentase 1 sangat setuju 2 20% 2 setuju 8 80% 3 kurang setuju 0 4 tidak setuju 0 bahwa aplikasi dapat mengelola data nasabah dengan baik sehingga mempercepat pelayanan kepada nasabah
+aplikasi ini juga cukup memadai untuk menunjang kegiatan operasional bank dengan menghasilkan laporan yang dapat memenuhi kebutuhan pelaporan bpr sehingga aplikasi ini juga dapat membantu dalam proses pengambilan keputusan
+selain itu aplikasi ini cukup user friendly karena tampilan aplikasi mudah dimengerti oleh pengguna
+kesimpulan pada bank perkreditan rakyat, maka dapat diambil kesimpulan sebagai berikut: 1
+penelitian ini berhasil merancang sistem informasi akuntansi perbankan yang dapat mengolah data akuntansi pada bpr dan menghasilkan laporan harian dan bulanan baik kepada pejabat internal bpr maupun kepada otoritas moneter yang dapat dipertanggung- jawabkan kebenarannya sehingga dapat dijadikan dasar pengambilan keputusan
+hal ini sesuai dengan hasil pengujian kuesioner yang dapat dilihat dari tabel 6 dan 7, dengan hasil responden yang sangat setuju berjumlah 50% dan 70%, sedangkan sisanya berpendapat setuju
+siap dapat membantu memenuhi kebutuhan kegiatan operasional perbankan pt bpr andalan favorit perdana sesuai dengan kebijakan manajemen yang berlaku
+hal ini sesuai dengan hasil pengujian kuesioner yang dapat dilihat dari tabel 5, dengan hasil responden yang sangat setuju berjumlah 80%, sedangkan sisanya berpendapat setuju
+siap dapat mengelola dan menatausahakan dokumen nasabah yang memuat data dan/atau informasi yang akurat, terkini, dan jelas sehingga dapat membuat pelayanan menjadi cepat sehingga nasabah tidak perlu menunggu lama
+hal ini sesuai dengan hasil pengujian kuesioner yang dapat dilihat dari tabel 3 dan 4, dengan hasil responden yang sangat setuju berjumlah 30% dan 50%, sedangkan sisanya berpendapat setuju
+penggunaan aplikasi siap mudah dimengerti oleh pengguna
+hal ini sesuai dengan hasil pengujian kuesioner yang dapat dilihat dari tabel 8, dengan hasil responden yang sangat setuju berjumlah 20%, sedangkan sisanya berpendapat setuju
+penelitian yang dilakukan tentunya tidak lepas dari kekurangan dan kelemahan
+oleh karena itu, untuk kebaikan pengembangan sistem lebih lanjut, maka perlu diperhatikan beberapa hal, diantaranya: 1
+penambahan fitur analisa kredit dari data nasabah sehingga dapat membantu dalam pengambilan keputusan pemberian kredit
+penambahan sms gateway untuk pengingat tagihan angsuran jatuh tempo, memberi informasi produk baru kepada nasabah, memberi informasi tentang perubahan kebijakan bank kepada nasabah, dan sebagainya
+agar dapat diakses secara online melalui internet banking maupun automatic teller machine dan mesin electronic data capture 
+penyempurnaan pengamanan sistem dengan menggunakan algoritma enkripsi password yang lebih baik

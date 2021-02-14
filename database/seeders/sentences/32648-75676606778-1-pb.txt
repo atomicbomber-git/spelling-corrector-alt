@@ -1,0 +1,71 @@
+eee paper template in a4 vol 5 no 2 solusi prediksi persediaan barang dengan menggunakan algoritma apriori #fakultas ilmu komputer, universitas bina darma jl ahmad yani no 3 seberang ulu i palembang 1u.ependi@binadarma.ac.id 2ade.putra@binadarma.ac.id metode yang dapat dilakukan antara lain yaitu dengan melakukan pengolahan data penjualan menggunakan metode data mining yang disertai dengan algoritma apriori didasarkan pada proses pembelian yang dilakukan oleh konsumen berdasarkan keterkaitan antar produk yang dibeli
+dengan menggunakan algoritma apriori pihak perusahaan dalam hal ini adalah regional part depo auto 2000 palembang dapat menyediakan spare part yang dibutuhkan oleh konsumen khususnya dilingkungan sumatera selatan tanpa harus melakukan proses indent hal ini dikarenakan banyaknya jumlah spare part yang harus di sediakan oleh pt depo toyota guna melayani kebutuhan konsumen di lingkungan sumatera selatan
+adapun tahapan data mining yang di gunakan yaitu knowledge discovery in database yang terdiri dari proses data cleaning and integration, data selection and integration, data mining, evaluation and prentation
+dari proses diatas didapat pola keterkaitan spare part sebanyak 646 dari jumlah spare part sebanyak 338
+data mining merupakan suatu teknik yang di gunakan untuk menggali pengetahuan – pengetahuan yang ada pada suatu kumpulan data dalam skala besar secara efisien dan efektif,
+penggalian pengetahuan dilakukan dengan harapan dapat membantu dalam proses pengambilan keputusan baik secara majerial maupun dalam proses bisnis,
+pengambdilan keputusan dapat dilakukan dengan cara menampilkan hasil pengolahan menggunakan machine learning, statistik serta teknik visualisasi untuk menemukan dan menampilkan pengetahuan yang bagi pengguna,
+yang dapat digunakan dalam melakukan extraksi data antara lain knowledge discovery in database, sample, explore, modify, model, and access dan cross industy standard process, ,,
+masing-masing metodologi memiliki kelebihannya serta dapat digunakan sesuai dengan proses analisis yang diperlukan dan keluaran informasi yang diinginkan, hal ini dapat dilihat pada tahapan masing – masing yaitu kdd memiliki tahapan prekdd, selection, pre- processing, transformation, data mining, interpretation/evaluation, post kdd
+ semma memiliki tahapan sample, explore, modify, model, dan assessment
+ crisp-dm memiliki tahapan business understanding, data understanding, data preparation, modelling, evaluation, dan deployment
+penggalian informasi yang dibutuhkan dan proses integensia pengembangan bisnis
+semma berfokus pada tugas modifikasi terhadap proyek penambangan data serta pemodelan data dan meninggalkan aspek kebutuhan bisnis dan dirancang untuk membantu penguna software sas enterprise miner
+sedangkan pada crisp-dm lebih berfokus pada pola pemahaman proses kebutuhan bisnis pada suatu data yang kemudian melakukan pemodelan data
+namun dari ketiga metodologi tersebut memiliki kesamaan yaitu ketika pengolahan data dapat digunakan algorima sebagai alat bantu extraksi data, salah satu metode algoritma yang dapat digunakan yaitu apriori
+dimana algorima ini digunakan untuk melihat keterkaitan hubungan antar elemen
+algoritma apriori merupakan algoritma yang pertama kali digunakan ketika melakukan proses asosiasi untuk mengetahui hubungan item set apa saja yang terjadi pada proses transaksi
+regional part depo auto 2000 palembang merupakan perusahaan yang melayani layanan purna jual dari pt toyota astra motor yang bertindak sebagai agen tunggal pemegang merk yang berdiri tahun 1975
+layanan yang diberikan antara lain penjualan spare part maupun untuk jasa layanan servis untuk mobil merek toyota
+banyaknya varian dari produk mobil toyota mengharuskan regional part depo auto 2000 palembang untuk dapat memenuhi kebutuhan baik penjualan maupun penyediaan spare part bagi konsumen baik perorangan, bengkel dan toko yang menjual spare part toyota
+untuk itu agar penyediaan spare part sesuai dengan kebutuhan maka perlu dilakukan analsis yang tepat untuk pengelolaan persediaan akan stok spare part ii
+metode penelitian penelitian ini menupakan penelitian pada bidang data mining dengan mengunakan metode knowledge discovery in database 
+kdd merupakan suatu proses persimpangan dari beberapa disiplin ilmu seperti statistik, database, ai, visualisasi dan komputer paralel yang mempengaruhi pengetahuan “interdisciplinary pemilihan data, pembersihan data, transformasi data, presentasi, temuan dan evaluasi,
+kdd juga dapat diartikan suatu proses ektraksi non trivial dari implisit suatu informasi yang sebelumnya tidak diketahui tetapi terdapat potensi informasi yang dihasilkan dari data yang ada
+ada pun tahapan dari data mining sebagai berikut: “ 1) data cleaning, untuk menghilangkan dan data yang tidak konsisten 2) data integration merupakan proses penggabungan sumber – sumber data 3) data selection merupakan proses pengambilan data – data yang relevan untuk di analisis 4) data transformation merupakan proses transpormasi dan konsolidasi data ke bentuk yang sesuai untuk di untuk menghasilkan ringkiasan atau penggabungan 5) data mining merupakan proses awal dimana metode pengkajian di terapkan untuk mengekstraksi pola data 6) pattern evaluation merupakan proses mengindentifikasi pola yang menarik yang mewakili basis pengetahuan berdasarkan ukuran tertentu digunakan untuk menampilkan pengetahuan b
+association rule untuk pengolahan data yang memiliki 1 sub proses
+pertama, suatu susunan strategi yang di sebut sebagai langkah untuk menemukan item yang sering dan kedua adalah menentukan aturan penambangan asosiasi
+selama sub metode ini berlangsung, prinsip pemanfaatan item dapat diekstraksi yg kemudian dapat menjadi positive association rule atau negative association rule
+metode dasar dalam proses analisis asosiasi dapat dilakukan dalam 2 tahapan: 1) analisa pola dengan frekuensi tinggi
+mencari nilai syarat minimu dari item set nilai support dengan rumus: support = 2) pembentukan aturan asosiatif
+setelah semua pola dengan frekuensi tinggi di temukan baru menghitung nilai confidence: penentuan dari frequent dari itemset yang akan diproses untuk mendapatkan association rules yang ada dengan menggunakan suatu teknik pendekatan yang iterative atau level-wise search
+hasil dan pembahasan discovery in database 
+berikut dapat dijelaskan tahapan dalam kdd dipenelitian ini: 1) data cleaning data yang diolah merupakan data penjualan spare part dari kendaraan dengan merk dagang toyota
+adapun proses data cleaning atau pembersihan data dilakukan terhadap data penjualan spare part
+poses awal dengan menggunakan software rapidminer 7.6 terdapat beberapa data yang bermasalah seperti yang diperlihatkan pada gambar 2
+adapun proses yang dilakukan untuk data cleaning dilakukan penghapusan terhadap data tersebut dikarenakan data ganda
+2) data integration pada tahapan ini dilakukan penggabungan data yang di dapat dari berbagai sumber yang dibutuhkan untuk proses pembentukan dataset adapun dataset yang dipakai pada penelitian ini merupakan data penjualan yang terjadi pada auto 2000 tanjung api–api regional part depo auto 2000 palembang yang kemudian data diperoleh akan diolah untuk proses penggalian informasi dengan menggunakan algoritma apriori
+pembentukan dataset seperti yang terlihat pada gambar 3
+3 data integration proses pengolahan data mining
+atribut–atribut yang digunakan pada penelitian ini tangal transaksi dan nama spare part serta jumlah yang dijual spare part
+dataset yang disediakan mengikuti format table sehingga dapat diolah menggunkana software rapidminer 7.6 seperti yang diperlihatkan pada gambar 4
+4 data selection 4) data transformation pada tahapan ini merupakan proses transformasi data apabila terdapat data – data yang bersala dari sumber tabel yang berbeda
+pada penelitian ini data yang di gunakan berasal dari 1 tabel pada 1 database
+5) data mining proses data mining dilakukan setelah didapat dataset yang sesuai untuk keperluan mining dengan menggunakan rapidminer 7.6 seperti yang diperlihatkan pada gambar 5
+5 dataset pada proses data mining dari data yang diperlihatkan pada gambar 5 maka format penggunaan operator dilakukan menggunakan rapidminer dapat dilihat pada gambar 6
+dari hasil proses diatas didapat adanya 646 pola keterhubungan pembelian antar spare part yang dapat dijadikan pertimbangan oleh pihak regional part depo auto 2000 palembang seperti pada gambar 8
+dimana keterhubungan tersebut menunjukkan bagaimana cadang peralatan kendaraan khususnya toyota untuk daerah palembang pada khususnya dan sumatera selatan pada umumnya
+support dan confidence pola keterkaitan atau keterhubungan pembelian antar spare part
+hasil pada penelitian ini terdapat 338 jenis spare part yang akan diolah dengan menggunakan data mining melalui proses association rule dengan menggunakan algoritma apriori dengan periode data dari bulan januari 2017 sampai dengan oktober 2017, dimana untuk data transaksi dijumlah kan perbulan
+untuk proses association rule penulis disini menggunakan simulasi data dengan menggunakan 5 record transaksi yang dimana pada masing-masing record transaksi terdapat proses pembelian terhadap spare part yang berbeda–beda
+adapun proses transaksinya dapat dilihat pada tabel 1
+tabel i transaksi item yang dibeli dari 5 record proses transaksi pada tabel 1 diatas terdapat 5 spare part mobil yang di beli, antara lain dapat dilihat pada tabel 2 sebagai berikut: tabel 2 id_item item yang dibeli tabel 3 ∑ 2 3 4 5 4 kemudian menentukan ф ditentukan
+pada table diatas niali total ф nilai k = 1, semuanya > ф
+untuk transaksi k = 2 
+komponen himpunan terdiri dari : { item a, item b}, {item a, item c}, {item a, item d}, { item a, item e}, {item b, item c}, { item b, item d}, { item b, item e}, { item c, item d}, { item c, item e}, { item d, item e}
+adapun simbol dari ∑ melambangkan jumlah dari frekuesi item set adapun jumlah dari item p harus lebih besar atau sama jumlah itemnya s 
+dari tabel diatas, maka didapat: f2 = {{item c, item d}, {item c, item e}, {item d, item e}}
+adapun item set yang dikombinasikan pada f2, dapat digunakan untuk unsur 3-itemset item set tersebut digabungkan karena memiliki kesamaan unsur k-1 item set pertama
+untuk transaksi k = 3, dibentuk dengan menggunakan {item c, item d, item e}
+” tabel 14 ∑ 3 karena tidak ada σ >= ф dan hanya terdiri dari 1 kumpulan item set kemudian nilai antecedent dan nilai consequent dari frekuensi komponen yang didapat pada f2 = {{item c, item d}, {item d, item e}}
+adapun rinciannya sebagai berikut: 1) untuk {item c, item d}: jika = item c, jika s = item d, maka →jika membeli item c maka membeli item d jika = item d, jika s = item c, maka → jika membeli item d maka membeli item c 2) untuk {item d, item e}: jika = item d, jika s = item e, maka → jika membeli item d maka membeli item e jika = item e, jika s = item d, maka → jika membeli item e maka membeli item d dari rincian proses diatas, didapatkan 4 pola atau aturan yang digunakan, yaitu:  jika membeli item c maka membeli item d  jika membeli item d maka membeli item c  jika membeli item d maka membeli item e  jika membeli item e maka membeli item d kemudian nilai support dan confidence dapat ditentukan berdasarkan rumus berikut ini
+tabel 16 support dan nilai confidence yang paling besar
+karena hasil perkalian dari ke-2 penjualan item di atas bernilai sama besar yaitu 0.8, maka semuanya dapat dijadikan rule dalam menentukan persediaan barang
+ jika ada pembelian item c maka terjadi pembelian item d dengan nilai support 80% dan nilai confidence 100% dan perkalian nilai support dan nilai confidence sebesar 0.8
+ jika ada pembelian item e maka terjadi pembelian item d dengan nilai support 80% dan nilai confidence 100% dan perkalian nilai support dan nilai confidence sebesar 0.8
+dikarenakan perhitungan diatas hanya menggunakan 5 item spare part dan 5 record sedangkan pada proses yang sebenarnya menggunakan 338 data spare part dan jumlah record yang terjadi antara januari 2017 dan oktober 2017 pada regional depo part auto 2000 palembang
+kesimpulan pengolahan data mining dengan menggunakan association rule dengan algoritma apriori pada regional part depo auto 2000 palembang dalam proses penjualan spare part untuk produk mobil dengan merk toyota adalah sebagai berikut: 1) dari hasil penjualan spare part dapat diketahu keterkaitan antar produk spare part yang dapat dilihat pada tabel 7
+hal ini dapat menjadi pertimbangan pihak manajemen dari regional part depo auto 2000 palembang untuk selalu siap dalam menyediakan kebutuhan spare part sehingga menghindari proses indent terhadap spare part yang di butuhkan konsumen
+2) dengan menerapkan proses association rule menggunakan algoritma apriori dapat membantu pihak manajemen untuk menganalsis proses penjualan dan pola keterhubungan antar spare part dan dapat diketahui produk yang paling banyak dibeli oleh konsumen
+kondisi tersebut dapat dilihat dari hasil pembuktian pada proses simulasi pemrosesan data dan uji coba data menggunakan software rapidminer 7.6
+3) dengan diketahuinya spare part yang paling banyak di beli oleh konsumen, bagian penjualan dapat sesegera mungkin membuat laporan penjualan khusus terhadap spare part yang bersangkutan, untuk membuat pengajuan restock persediaan spare part sehingga kebutuhan terhadap spare part dapat selalu tersedia

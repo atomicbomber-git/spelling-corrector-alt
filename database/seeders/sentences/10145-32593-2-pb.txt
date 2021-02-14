@@ -1,0 +1,89 @@
+dalam bidang pengolahan bahasa alami dan sistem temu balik informasi, representasi sebuah data teks sangat penting untuk mendukung proses analisis data statistik di dalamnya
+data teks dengan bentuk tidak terstruktur dapat direpresentasikan secara sederhana menggunakan sekumpulan set kata yang disebut bag-of-words dan belum memiliki label atau kelas tertentu
+data unsupervised atau objek-objek yang belum memiliki label dapat dikelompokan menggunakan klustering berdasarkan kemiripan satu objek dengan objek lain
+artikel ini membahas perbandingan hasil pengelompokan unsupervised data menggunakan algoritma kluster yang tersedia pada tools weka, yaitu simplekmeans, x-means, dan farthest first
+simplekmeans dan xmeans digunakan untuk mengolah dataset dan mengelompokan berdasarkan jumlah kluster tetap yang digunakan, sedangkan farthest first akan meletakan semua pusat kluster pada titik terjauh dari pusat kluster yang sudah ada untuk mengelompokan data
+dataset berasal dari uci machine learning dengan menggunakan 3 koleksi data, yaitu enron email, nips proceedings, dan daily kos blog entries
+performa dataset diuji dengan berbagai masukan parameter yang berbeda meliputi jumlah kluster hingga evaluasi sum squared error, serta iterasi selama proses pengolahan data
+hasil penelitian diharapkan dapat dijadikan acuan untuk menentukan algoritma dan parameter yang sesuai untuk melakukan pengelompokan data yang tidak memiliki label
+pendahuluan mining selain regresi dan klasifikasi
+klustering merupakan unsupervised learning yang melakukan pembelajaran secara tidak terbimbing
+klustering adalah proses pengelompokan sekumpulan objek yang tidak memiliki label apapun, sehingga pengelompokan dilakukan hanya dengan melihat kemiripan satu objek dengan objek lainnya
+klustering sering digunakan dalam analisis data statistik yang melibatkan banyak bidang, meliputi machine learning, image analysis, pengenalan pola, sistem temu balik informasi, dan bioinformatika
+pemilihan pendekatan dan algoritma kluster harus disesuaikan dengan data dan tujuan dari klustering itu sendiri
+ada dua pendekatan umum dalam klustering yaitu partitional clustering dan hierarchical clustering
+selain dua pendekatan tersebut, terdapat pendekatan lain yaitu density-based, grid- based, dan model-based clustering
+berikut penjelasan beberapa pendekatan dan algoritma yang digunakan dalam klustering
+means, fuzzy c-means, k-medoids, clara, clarans, pam 2
+hierarchical-based mirip dengan meletakannya pada hirarki yang berdekatan dan sebaliknya objek yang tidak mirip akan berada pada hirarki yang berjauhan
+contoh: birch, agnes, diana yang memiliki noise dan outlier, namun sulit menemukan kluster yang memiliki bentuk yang berubah-ubah
+contoh: sting, wavekluster sebuah model untuk tiap kluster, kemudian mencari data objek yang sesuai untuk model tersebut
+contoh: som, cobweb pengelompokan data kluster menggunakan weka dan membandingkan performa algoritma klustering yang tersedia berdasarkan beberapa pendekatan yang sudah dijelaskan sebelumnya
+weka sebagai data mining tools memiliki keuntungan yaitu lebih baik dalam tampilan serta mendukung banyak algoritma klustering
+semua dokumen dapat direpresentasikan secara sederhana menggunakan bag-of-words 
+bow adalah sebuah model yang merepresentasikan objek secara global misalnya kalimat teks atau dokumen sebagai bag kata tanpa memperdulikan tata bahasa bahkan urutan kata untuk menjaga keanekaragamannya
+dengan kata lain, bow merupakan kumpulan kata-kata unik dalam dokumen
+contoh sederhana kluster bag-of-word menggunakan weka 2 program studi teknik informatika, universitas tanjungpura - pontianak e-mail: tari.mardiana@gmail.com, rudy_dn@yahoo.com 2 berikut penggemar novel remaja
+untuk menilai kemiripan antara dua atau lebih dokumen dengan cara menghitung jarak keduanya
+teknik umum yang digunakan antara lain euclidean, manhattan, dan cosine distances
+dalam klustering bow model, tiap pusat kluster didefinisikan sebagai bentuk visual dari kata yang dapat dikelompokan berdasarkan kemiripannya
+merupakan perangkat lunak data mining yang dikembangkan oleh universitas waikato, new zealand
+diimplementasikan pertama kali pada tahun 1997 dan mulai menjadi open source pada tahun 1999
+hingga saat ini weka sudah mencapai versi 3.6.11 dengan berbagai pengembangan dari versi pertama 3.3
+ditulis dalam bahasa pemrograman java, weka juga didukung oleh gui yang sangat baik dan user friendly, dapat mengolah berbagai file data seperti *.csv dan
+*arff serta memiliki fitur utama seperti data pre- processing tools, learning algorithms dan berbagai metode evaluasi
+selain itu, weka juga dapat memberikan hasil dalam bentuk visual, seperti tabel dan kurva
+weka terdiri dari beberapa tools yang dapat digunakan untuk melakukan tugas pre-processing data, classification, regression, klustering, association rules, dan visualisasi
+tugas data mining menggunakan wekaproses kluster digunakan untuk melakukan identifikasi pengelompokan dari beberapa kejadian dalam dataset agar dapat menghasilkan informasi yang dapat dianalisis oleh pengguna
+ada beberapa pilihan dalam sub-menu kluster weka antara lain: use training set, supplied test set percentage split, dan classes to cluster evaluation yang digunakan untuk membandingkan seberapa baik data yang dibandingkan tanpa diberikan kelas antar data
+dalam proses pengelompokan di weka, beberapa atribut juga dapat diabaikan dengan tujuan hanya menggunakan data yang memberikan hasil spesifik saja dan baik digunakan untuk dataset besar yang banyak atribut
+untuk membantu proses klustering, terdapat beberapa algoritma pengelompokan yang dapat digunakan untuk pengujian
+tidak semua algoritma cocok diterapkan pada dataset, tergantung atribut yang dimiliki, ada tidaknya noise dan outliers serta tujuan yang ingin dicapai
+berbagai klusterer untuk pengolahan dataset dalam penelitian, k-means merupakan salah satu algoritma yang cocok digunakan untuk dataset dalam skala gambar 1
+sedangkan xmeans lebih memudahkan tugas klustering dibandingkan k-means, dapat mengatasi masalah pemilihan jumlah kluster k yang digunakan karena algoritma ini tidak membutuhkan k sebagai input namun lebih mengarah pada distance function yang digunakan
+1.1 simplekmeans sederhana yang mengelompokan objek dengan meminimasi jarak sum of squared antara objek dan centroid yang saling berkaitan
+k-means adalah teknik yang paling sederhana dan populer digunakan dalam penelitian yang berhubungan dengan klustering
+dalam teknik ini terdapat distance metric yang umum digunakan yaitu euclidean dan manhattan
+kelemahan teknik ini adalah cukup sensitif terhadap posisi awal pusat kluster
+untuk menangani masalah inisiasi posisi, maka dapat dilakukan dua pendekatan yaitu memilih nilai kluster k secara acak atau memilih sejumlah nilai inisiasi yang berbeda diluar dari titik objek
+dan waktu proses yang lama untuk data yang besar dalam klustering mendorong penyempurnaan teknik k-means yaitu dengan xmeans
+pengelompokan dilakukan berdasarkan distance function yang lebih spesifik, antara lain euclidean distance, manhattan distance, dan chebyshev distance
+teknik ini bekerja dengan cara mencari ruang diantara tempat kluster dan jumlah kluster untuk melakukan optimasi bayesian information criterion dan memberikan keputusan apakah centroid harus dibagi atau tidak
+hanya dapat digunakan untuk data numeric
+farthest first yang secara acak memilih satu titik sebagai pusat pertama berdasarkan parameter masukan yang tersedia, kemudian menghitung pusat selanjutnya secara rekursif dengan melihat titik berdasarkan jarak maksimal dan minimal dari centroid sebelumnya hingga semua titik konvergen
+teknik ini lebih menangani masalah terkait waktu proses, algoritma ini belum sempurna namun hampir optimal
+dalam paper ini, data diambil dari repositori uci machine learning dengan dataset bag-of-wordsyang terdiri dari 5 koleksi teks tidak terstruktur, namun dalam penelitian ini hanya digunakan 3 koleksi teks berukuran kecil yaitu enron email dataset, daily kos blog entries, dan nips proceedings
+semua dataset tidak memiliki label dan akan dilakukan klustering menggunakan algoritma yang tersedia di weka
+koleksi teks terdiri dari atribut nama dokumen docid, kata yang dihitung dalam distribusi frekuensi wordid, dan count yang merupakan banyaknya kata dengan wordid tertentu yang tampil dalam dokumen docid
+masing-masing sebanyak 1.048.573 instance, 353.161 instance, dan 746.319 instance
+dari *.txt ke *.csv, kemudia di simpan ulang dalam bentuk *.arff file melalui menu tools pada weka
+untuk mendapatkan perbandingan hasil klustering, digunakan 3 metode klustering, yaitu simplekmeans, x-means, dan farthest first
+tiap algoritma akan diujikan dengan merubah beberapa parameter dari input data, meliputi jumlah kluster dan seed 
+untuk mendapatkan hasil evaluasi class yang terbentuk maka semua nilai numeric pada dataset harus diubah dalam bentuk nominal menggunakan filter unsupervised numerictonominal sebelum data diolah
+unknown sehingga diperlukan uji coba dengan nilai k yang berbeda untuk mendapat kandidat nilai k terbaik yang menghasilkan nilai evaluasi sum of square error kluster instance paling minimal sse merupakan cara validasi kluster dimana error tiap titik objek adalah jarak ke kluster terdekat
+pengujian dibagi dalam 3 skenario untuk melihat performa dataset yang diolah dan algoritma yang digunakan
+pengujian pertama yaitu membandingkan persentase kluster yang terbentuk dari algoritma simplekmeans, xmeans dan farthest first untuk 3 kategori teks menggunakan parameter awal kluster k=2 dan nilai seed s=10, sedangkan distance function yang digunakan yaitu euclidean
+xmeans -- -- 48% 52% 50% 50% farthest pada hasil pengujian tabel ii dapat dilihat bahwa simplekmeans dan xmeans hampir memberikan jumlah rata- rata hasil klustering yang sama yaitu sekitar 50% untuk tiap kategori data
+pada prinsipnya, xmeans bekerja tanpa melihat k yang digunakan
+implementasi dengan dataset yang besar seperti enron tidak dapat memberikan keluaran hasil klustering yang dihasilkan, sedangkan farthest first mengelompokan data pada kluster 0 sebanyak 100% untuk enron dan kos
+hal ini dikarenakan ff hanya memilih satu titik sebagai pusat utama, sehingga hanya titik yang belum konvergen dimasukan dalam kluster 1
+untuk menggunakan fitur ini, semua dataset dalam bentuk numeric harus diubah dalam bentuk nominal agar dapat diproses
+klusterer enron jumlah instance incorrectly clustered instances correctly clustered instances simple-kmeans 1.048.573 klustering dataset pada tabel ii sebelumnya dengan mengabaikan atribut count selama proses pengujian
+berdasarkan hasil pengujian, dapat dilihat bahwa kesalahan kluster yang menggunakan klusterer farthest first lebih kecil dari simplekmeans walaupun nilai selisih tidak terlalu signifikan
+hal ini dikarenakan adanya irisan antar kluster yang tidak bisa diprediksi sehingga pengelompokan menjadi tidak tepat
+mengusulkan kandidat k terbaik yaitu 10, 25, 35, 60, dan 90
+karena data yang digunakan besar, maka jumlah k ditambahkan nilai 130 dan 200
+pengujian ketiga menggunakan nilai sse dibandingkan dengan parameter k dan iterasi yang terjadi 
+dataset yang digunakan hanya kategori kos tanpa memperhatikan waktu prosesnya
+iterasi dataset kos untuk nilai k berbeda berdasarkan gambar 5, jumlah kluster yang digunakan berpengaruh terhadap nilai sse
+semakin besar k yang digunakan maka sse yang dihasilkan semakin kecil
+sebaliknya pada gambar 6, jumlah iterasi tidak bergantung pada k yang digunakan
+iterasi dilakukan untuk melakukan perhitungan ulang hingga mendapatkan kondisi paling ideal dari sebuah dataset iterasi paling baik yaitu saat nilai k=130 sebanyak 396 kali
+digunakan untuk melakukan tugas klustering dari dataset yang tersedia karena menyediakan banyak algoritma klusterer yang mendukung untuk pengujian
+dari hasil penelitian, 3 klusterer yaitu simplekmeans, xmeans dan farthest first dapat digunakan untuk melakukan proses pengelompokan dataset tanpa label dengan representasi bag-of-words dengan tingkat keberhasilan pembentukan kluster untuk simplekmeans dan xmeans sebesar 50%
+dataset dapat diolah dengan baik menggunakan weka tanpa diperlukan pre-processing karena data tidak mengandung noise ataupun outlier
+kelemahan klustering terletak pada penggunaan jumlah kluster k untuk melakukan inisiasi centroid
+diperlukan lebih banyak informasi atribut dari dataset sehingga tingkat kesalahan dalam pengelompokan instance lebih kecil
+jumlah k mempengaruhi nilai sum of squared error, semakin besar k maka semakin kecil nilai error-nya
+sedangkan jumlah iterasi yang terjadi tidak dipengaruhi jumlah k yang digunakan
+namun untuk mendapatkan hasil iterasi kluster maksimal, pengelompokan dataset tanpa label dengan ukuran besar dapat menggunakan nilai k=130

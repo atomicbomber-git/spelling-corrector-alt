@@ -1,0 +1,151 @@
+eee paper template in a4 vol 4 no 2 profiling gaya sutradara berdasarkan penempatan posisi kamera dengan fuzzy logic hartarto junaedi #1, mochamad hariadi *3 # departemen teknik elektro fakultas teknologi elektro institut sepuluh nopember surabaya jl
+kampus its, sukolilo surabaya 60111 1 hartarto12@mhs.ee.its.ac.id * departemen teknik komputer fakultas teknologi elektro institut sepuluh nopember surabaya jl
+teknik mesin gedung b dan c, kampus its, sukolilo surabaya 60111 2 mochar@ee.its.ac.id 3 ketut@ee.its.ac.id tidak hanya untuk tujuan penelitian dan pendidikan saja tetapi juga di dunia hiburan
+salah satu hiburan berbasis komputer adalah permainan komputer dan animasi
+salah satu komponen pendukungnya adalah machinima
+machima adalah teknologi yang akan menempatkan sebuah komponen sinematik dalam dunia virtual salah satu komponen yang dapat dikontrol adalah penempatan posisi kamera
+seorang sutradara bisa dibedakan gaya penyutradaraannya, salah satunya berdasarkan penempatan posisi kamera
+dengan menerapkan suatu gaya penyutradaraan pada sebuah permainan atau animasi bisa mendapatkan suasana yang berbeda
+penelitian ini akan mencoba melakukan profiling terhadap gaya seorang sutradara berdasarkan kebiasaan penempatan posisi kamera
+pendekatan yang dilakukan berbasis logika fuzzy
+penelitian ini akan menggunakan 19 variabel input yang berasal dari hasil ektraksi data simulasi dan 5 variabel output untuk melakukan profiling terhadap dua buah gaya sutradara yang berbeda dengan pendekatan logika fuzzy
+akan dihasilkan diagram area dan histogram sehingga mempermudah pembacaan dalam membedakan gaya sutradara dan berhasil dibedakan berdasarkan modus hasil analisa terhadap diagram histogram
+pendahuluan permainan komputer atau animasi dalam dunia virtual secara real time
+dalam dunia virtual kita dapat menciptakan lingkungan dan semua karakter yang diinginkan dan menganimasikan semua aksi yang dibutuhkan
+saat ini pengembang aplikasi 3d dituntut untuk membuat animasi yang senatural mungkin sesuai dengan dunia nyata
+untuk mendapatkan hal ini maka para pengembang aplikasi 3d mengembangkan berbagai macam algoritma dan metode untuk menerapkan aturan sinematografi di dalam dunia virtual machinima menggunakan teknologi grafis untuk merender 3d secara real time
+dengan teknologi inilah sebuah produk sinematik akan dihasilkan
+machinima adalah sebuah alternative untuk menghasilkan sebuah animasi dengan biaya yang lebih murah, tetapi untuk menghasilkan produk sinematik yang bagus tentu saja dibutuhkan penelitian yang berkaitan dengan kontrol terhadap kamera virtual dalam dunia nyata seorang sutradara sering menggunakan sebuah storyboard untuk visualisasi ide mereka supaya dapat dipahami oleh animator atau juru kamera
+ walaupun saat ini telah banyak penelitian di area machinima termasuk penempatan posisi kamera, masih sedikit sekali penelitian yang berhubungan dengan gaya sutradara
+penelitian ini akan fokus terhadap profiling sebuah produk animasi apakah sesuai dengan gaya seorang sutradara
+sistem akan memeriksa apakah penempatan posisi kamera sudah sesuai dengan perilaku seorang sutradara dalam menempatan posisi kameranya secara otomatis
+harapan ke depan setelah berhasil dilakukan profiling adalah melakukan reverse sehingga dapat ditemukan aturan yang dapat diterapkan dalam engine 3d sehingga gaya tersebut dapat diterapkan pada sebuah permainan atau animasi
+perspektif permainan sekarang bergeser dari teknologi 2d ke teknologi 3d, dimana penelitian sekarang menunjukan bahwa teknologi dunia virtual ini semakin mendekati kondisi sebenarnya di dunia nyata
+pada gambar 2 tampak blok sistem penempatan posisi kamera virtual secara umum
+disana dibutuhkan beberapa metode dan algoritma sehingga penempatan posisi kamera akan sesuai
+biasanya dalam produksi game atau animasi, penempatan kamera dilakukan oleh seorang animator atau direktur fotografi
+namun dalam lingkungan virtual penempatan posisi kamera ini membutuhkan banyak pemodelan dan perhitungan yang harus dilakukan berulang-ulangtentu saja ini akan memakan biaya dan waktu
+penelitianmengusulkan sebuah dasar aturan utuk kontrol kamera dalam komputer grafis
+tentu saja aturan ini sesuai dengan kaidah sinematografi, seperti pada penelitianmenggunakan metode pso multi objektif untuk menerapkan aturan fotografi seperti rule of third, garis horizon dan poi 
+beberapa penelitian yang berkaitan dengan penempatan posisi kamera antara lain penelitiandimana digunakan pso untuk menyelesaikan permasalahan virtual camera composition 
+pendekatan yang digunakan adalah hybrid dimana pertama dihitung posisi kamera berdasarkan batasan-batasan yang telah didefinisikan kemudian akan dihitung ulang dengan menggunakan pso
+output dari sistem ini adalah posisi kamera, orientasi dan field of view 
+penelitianmengusulkan penempatan posisi virtual kamera berdasarkan batasan yang dibuat
+penelitianmengusulkan penempatan multi kamera, tetapi kamera pertama adalah kamera statis posisinya jadi hanya kamera kedua yang dihitung penempatannya berdasarkan metode static behaviour tree
+penelitianmengusulkan pendekatan behaviour tree ditambah dengan metode a* untuk melakukan follow pada aktor utama
+papermembuat sebuah bahasa semi otomatis untuk melakukan kontrol terhadap virtual kamera sedangkan papermemperbaiki penempatan posisi kamera untuk first person navigation view berdasarkan beberapa parameter tambahan seperti tinggi dan berat badan
+papermengunakan metode support vector machine dengan menganalisa empat karakteristik dalam sebuah shot, sedangkan papermengusulkan sebuah sistem yang disebut dengan intelligent virtual environment untuk melakukan simulasi agen virtual dalam sebuah lingkungan virtual empat modul yang dikembangkan yaitu framework ic, ive, agentsim dan visualizer
+penelitianjuga mengusulkan multi agen cerdas dimana behaviornya berdasarkan metode pso
+pendekatan ini juga dapat digunakan pada virtual kamera
+penelitianmenciptakan sebuah sistem yang disebut dengan darshak
+sistem ini akan secara otomatif membangun wacana narasif dari cerita yang diinputkan dalam sistem
+ada sembilan operator yang digunakan dalam kamera virtual ini
+hasilnya akan divisualisasikan dalam 3d game engine
+penelitanmengusulkan sebuah direktur sinematografi cerdas untuk kontrol kamera berdasarkan storytelling
+peranan utama dari direktur ini adalah memilih scene pengambilan gambar yang sesuai secara real time
+dengan penempatan posisi kamera tetapi tidak banyak penelitian yang bicara khusus mengenai gaya sutradara dalam penempatan posisi kamera termasuk cara mengukur kemiripan sebuah animasi dengan gaya tersebut
+penelitian ini bukan bicara tentang bagaimana cara penempatan posisi kamera berdasarkan sebuah gaya tetapi cara melakukan profile animasi berdasarkan gaya tersebut
+banyak penelitian sejenis yang pengukurannya berdasarkan kuesioner, tetapi penelitian ini diharapkan dalam melakukannya secara otomatis
+bagian pertama akan menyajikan pendahuluan mengenai state of the art penelitian dan penelitian sebelumnya yang berkaitan
+bagian kedua akan membahas mengenai aturan sinematografi dan gaya sutradara
+metode yang diusulkan dalam penelitian ini akan dibahas pada bagian ketiga
+bagian keempat akan membahas hasil percobaan penelitian ini dan akan ditarik sebuah kesimpulan dan usulan penelitian lanjut untuk masa depan pada bagian kelima
+setiap pengambilan gambar tersebut menbutuhkan penempatan posisi kamera terbaik sesuai dengan aturan sinematografi
+salah satu produk sinematik adalah film
+filmsendiri adalah kumpulan dari bahasa dan estetika, estetika dalam sinematografi adalah penempatan kamera dan pengaturan semua properti untuk mendukung jalan sebuah cerita
+beberapa faktoryang harus dipertimbangkan untuk menghasilkan produk sinematik yang bagus yaitu :  camera angle beberapa macam camera angle antara lain objective shot, subjective shot dan point of view shot
+shotini juga dapat dikategorisasikan menjadi close up shot, medium shot dan long shot
+tanpa adanya continuityframe tidak akan sinambung
+komposisi adalah bagaimana seorang sutradara mengarahkan pemain, menempatkan background setiap sutradara memiliki gaya nya sendiri yang unik dalam mengarahkan dan mengambil gambar sebuah scene
+gaya inilah yang membedakan seorang sutradara dengan sutradara lainnya
+salah satu sutradara yang terkenal adalah james cameron yang mengarahkan film box office avatar
+film inidapat dikatakan sebagai tonggak sejarah kelahiran film dengan menggunakan lingkungan virtual bahkan dalam pembuatan film ini sang sutradara membuat teknologi kamera virtual yang memiliki fungsi layaknya kamera normal tetapi hanya dapat digunakan dalam lingkungan virtual james cameron amat terkenal dengan gaya pengambilan gambar nya yang detail
+dia suka menekankan pada background dan detail komponen
+seperti pada film titanic penonton diajak melihat detail kemegahan dari kapal titanic
+christopher nolan seorang sutradara terkenal lainnya suka menekankan elemen realistic pada film-filmnya seperti pada film dark knight dan man of steel
+3 beberapa contoh pengambilan gambar quentin tarantino trunk and hood pov the corpse pov god’s eye pov black and white shot lip shot violent awakening sutradara terkenal lainnya yaitu quentin tarantinodengan beberapa film box officenya antara lain kill bill, pulp fiction, from dusk till dawn dan banyak lainnya
+quentin tarantino diakui sebagai salah satu sineas sukses dan jago dalam mengekpresikan idenya
+setiap pengemar film pasti tahu style dari quentin tarantino ini
+hampir semua filmya menggunakan gaya action-thriller, dengan menggunakan kegelapan dan elemen sadis
+gambar 3 menunjukkan beberapa style quentin tarantino dalam pengambilan gambar
+beberapa gaya pengambilan gambar dari quentin tarantino yang digunakan dalam filmnya :  the trunk and hood pov merupakan teknik pengambilan gambar seolah-olah dari bagasi mobil
+banyak sekali film quentin yang menggunakan gaya ini
+diambil dari sudut mata korban atau mayat
+teknik ini variasi dari low angle shot
+ tracking shot diambil dari sudut mata seorang stalker yang sedang mengikuti seseorang
+ black and white shot penekanan sesuatu atau dalam kondisi flash back
+teknik ini memberikan efek misterius terhadap sebuah scene
+ violent awakening menunjukkan kejutan yang terjadi
+suka menambahkan efek semacam semburan darah, penggunaan mobil dll
+tetapi untuk penelitian ini hanya akan digunakan lima gaya saja yang berhubungan dengan penempatan posisi kamera sedangkan gaya black and white tidak digunakan karena tidak berhubungan dengan penempatan posisi kamera
+desain simulasi merupakan adopsi dari gaya quentin tarantino sedangkan style kedua merupakan adopsi aturan sinematografi secara umum
+setiap scene akan memiliki komponen sebuah kamera bergerak, aktor utama, aktor pendukung jika dibutuhkan
+jadi untuk setiap scene bisa memiliki 3 set koordinat dan timestamp yang menunjukkan urutan frame
+4 karakter untuk simulasi tampak pada gambar 4 adalah karakter untuk simulasi
+karakter utama yang terletak di sebelah kiri
+kompleksitas simulasi yang berkaitan dengan karakter dan background dapat dilihat pada tabel 1
+table i background 720 629k 451k ada 19 input yang diektraksi dari simulasi
+karena kita menggunakan engine 3d maka setiap karakter akan memiliki 3 koordinat x, y dan z dan juga ada sudut berdasarkan axis yaitu rx, ry dan rz
+tampak pada gambar 5 adalah sudut angle berdasarkan axis
+sedangkan area untuk simulasi dapat dilihat pada gambar 6
+5 shot direction angle z-axis x-axis y-axis gambar
+6 desain area untuk simulasi top view perspektif view diperiksa menggunakan sistem ini, kami menggunakan storyboard untuk mengambarkan pergerakan kamera sehingga animator dapat membuat animasinya
+style 1 merupakan adopsi dari gaya quentin dan style 2 merupakan adopsi gaya generik
+tampak pada gambar 7 adalah story board untuk scene 1
+disana terlihat 2 style yang berbeda walaupun aksi yang dilakukan adalah sama yaitu karakter pertama berjalan dan ditengah perjalanan akan berhenti untuk berputar karena merasa diikuti dan kemudian akan berjalan kembali meneruskan perjalanan
+scene 1 ini merupakah scene yang paling sederhana dimana animasi sekitar 24 detik
+animasi untuk scene 3 ini kurang lebih 27 detik
+gambar 9 merupakan story board untuk scene 3
+dimana scene ini paling kompleks dibandingkan dengan scene yang lain
+tampak di story board pada awal scene karakter berjongkok untuk mengambil sesuatu kemudian berjalan menuju ke sebuah ruangan untuk mengambil sebuah barang
+dan pada akhirnya menuju ke sebuah ruangan dimana pada ruangan tersebut ada karakter pendukung dan karakter utama akan berkelahi dengan karakter pendukung dan pada akhirnya karakter utama akan kalah berkelahi dan pingsan
+scene terakhir ini animasinya memakan waktu sekitar 1 menit lebih
+logika fuzzy untuk profiling pada bagian ini akan dibahas mengenai pendekatan fuzzy yang digunakan
+untuk penelitian ini akan dibuat 5 jenis fuzzy output untuk 5 aturan sinematografi yaitu :  tracking / following shot posisi kamera merupakan tracking shot
+variabel yang digunakan diberi nama follow shot
+ close up shot apakah termasuk choker shot atau sekadar close up shot biasa atau bukan close up shot
+variabel yang digunakan diberi nama lip shot
+ high angle shot apakah termasuk god view shot atau sekadar high shot ataukan bukan high shot
+variabel yang digunakan diberi nama god view
+ low angle shot angle shot dari first person view
+variabel yang digunakan diberi nama trunk player
+table ii high angle trimf [2, 5, 8] god view trapmf [6, 8, 10, 10] digunakan dalam simulasi dalam penelitian ini
+terdapat 5 output variabel yang merupakan aturan dalam sinematografi dan masing-masing variabel memiliki 3 membership function
+trimf menunjukkan membership function typenya adalah triangle
+control yang dibutuhkan adalah 3 buah titik
+sedangkan tramf atau trapesium yang membutuhkan 4 buah titik
+adalah 8 input tetapi pada penelitian selanjutnya akan kami optimasi semua input yang ada
+berikut adalah membership untuk input :  different_p1 berikutnya
+ angle_y_p1  distance_p2  angle_y_p2  angle_x_p1  coordinat_y  angle_x_p2 sudut x antara kamera dan karakter pendukung
+rule fuzzy yang digunakan merupakan kombinasi dari input fuzzy dimana didapatkan sekitar 40k rule yang kemudian direduksi menjadi 47 rule
+beberapa rule yang digunakan dapat dilihat pada tabel 4
+tabel 5 menunjukkan representasi rule pada tabel 4 menjadi bentuk rule if then
+dari tabel 5, rule no 1 dapat dijelaskan sebagai berikut : if distance_p1=medium and different_p1 = short and angle_y_p1 = rear then follow_shot =follow
+aturan ini artinya bilamana jarak antara kamera virtual dan player adalah medium, perbedaan antara posisi sekarang dan sebelumnya pendek, dan sudut y terletah di belakang maka jenis shot ini disebut follow shot
+hasil percobaan hasil render dari 3d engine
+tampak pada gambar 10 adalah rancangan sistem secara keseluruhan
+tetapi fokus penelitian ini adalah bagian profiling
+sedangkan bagian penempatan posisi kamera dilakukan secara manual berdasarkan story board yang dibuat
+10 blok sistem yang diusulkan dalam percobaan gambar
+11 scene sama aksi sama tetapi gaya penempatan posisi kamera yang berbeda
+tampak di gambar tersebut aksi yang sama tetapi style yang berbeda
+gambar dengan label merupakan adopsi gaya dari quentin tarantino sedangkan yang label merupakan adopsi gaya umum
+dihasilkan dua buah diagram yaitu area plot dan histogram diagram
+gambar 12 merupakan area plot dan histogram diagram untuk scene 1
+untuk area plot diagram sumbu x merupakan nomor frame dan sumbu y adalah nilai fuzzy yang dihasilkan
+sedangkan untuk histogram diagram yang merupakan representasi lain dari area plot diagram, sumbu x adalah nilai logika fuzzy dan sumbu y adalah frekuensi kemunculan nilai tersebut
+12 area plot dan histogram diagram scene 1 style 1 style 2 gambar.13 area plot dan histogram diagram scene 2 style 1 style 2 pada histogram diagram yang merupakan frekuensi kemunculan nilai logika fuzzy tersebut adanya perbedaan visualisasi diagram
+untuk style pertama yang merupakan adopsi gaya dari quentin tarantino tampak bahwa modus berada di area kanan angka 1 sedangkan untuk gaya umum berada di sebelah kiri angka 1
+14 area plot dan histogram diagram scene 3 style 1 style 2 v
+kesimpulan berdasarkan penempatan posisi kamera secara otomatis
+berbeda dengan penelitian lain yang menggunakan pendekatan berbasis kuesioner
+digunakan pendekatan berbasis logika fuzzy dikarenakan ada kemiripan antara bahasa dalam dunia sinematografi dan fungsi keanggotaan fuzzy
+selain itu keuntungan menggunakan logika fuzzy karena sifat cepat dan real time dibandingkan dengan pendekatan lainnya, misalkan metode evolusioner semacam swarm yang membutuhkan proses perhitungan berulang-ulang yang tentu saja tidak cocok untuk hal yang membutuhkan real time
+dibandingkan dengan pendekatan berbasis machine learning semacam svm yang membutuhkan pelatihan dan data training dalam jumlah yang besar
+tetapi tentu saja setiap pendekatan juga memiliki kekurangan yaitu proses akuisisi data membutuhkan waktu dan usaha yang tidak sedikit
+dalam penelitian ini digunakan lima aturan sinematografi dan 34 variabel yang diambil dari setiap frame pada animasi
+dengan menggunakan visualisasi berbasis diagram area dan histogram berhasil dilakukan analisa bahwa untuk setiap gaya sutradara akan memiliki modus yang tidak sama
+tidak menutup kemungkinan jika akan mengenali gaya sutradara yang lain maka dibutuhkan sebuah aturan sinematografi baru yang belum dibuat pada penelitian ini
+informasi yang lebih banyak dari frame dan menambahkan beberapa aturan sinematografi sehingga lebih akurat dalam melakukan profiling
+dan kami harapkan dapat dilakukan reverse terhadap rule tersebut sehingga kami dapat membuat engine penempatan posisi kamera berdasarkan gaya seorang sutradara
+ucapan terima kasih penyelesaian makalah penelitian ini dan juga kepada rekan-rekan fotografer dalam bantuan saran aturan sinematik

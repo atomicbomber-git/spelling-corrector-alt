@@ -1,0 +1,32 @@
+urnal sistem dan teknologi informasi vol 1, no 1, 1 sistem pendukung keputusan seleksi penerimaan mahasiswa pengganti beasiswa penuh bidikmisi universitas tanjungpura dengan menerapkan 2, anggi srimurdianti sukamto e-mail: dwiharyantidwi@gmail.com 1, helfi_nasution@yahoo.com biaya pendidikan yang hanya ditujukan untuk calon mahasiswa tidak mampu dan berprestasi
+universitas tanjungpura memiliki 2 jenis beasiswa bidikmisi yang dikelola oleh comdev & outreaching universitas tanjungpura yaitu beasiswa penuh bidikmisi yang diberikan kepada mahasiswa baru dan beasiswa penuh bidikmisi pengganti
+seleksi penerimaan mahasiswa pengganti beasiswa penuh bidikmisi menggunakan banyak kriteria dapat menyeleksi penerimaan mahasiswa pengganti beasiswa penuh bidikmisi
+salah satu sistem tersebut yaitu sistem pendukung keputusan
+salah satu metode yang dapat digunakan yaitu metode smarter
+penelitian ini bertujuan untuk menyeleksi penerimaan mahasiswa pengganti beasiswa penuh bidikmisi universitas tanjungpura dengan menerapkan metode smarter dan mengetahui tingkat persentase keakurasian sistem pendukung keputusan dengan metode smarter dalam menyeleksi mahasiswa pengganti beasiswa penuh bidikmisi universitas tanjungpura terhadap nilai sesungguhnya
+metode smarter digunakan untuk proses perhitungan nilai setiap alternatif sehingga akan didapat urutan nilai setiap alternatif
+pembobotan pada metode smarter menggunakan rumus rank order centroid 
+hasil keluaran dari sistem ini adalah urutan nilai akhir calon mahasiswa pengganti dari urutan nilai akhir terbesar hingga terkecil berdasarkan program studi dan angkatan
+berdasarkan pengujian terhadap 7 data kasus mahasiswa pengganti dapat disimpulkan bahwa metode smarter dapat melakukan seleksi penerimaan mahasiswa pengganti beasiswa penuh bidikmisi dengan tingkat validitas sebesar 71, 43% berdasarkan 17 data kasus calon mahasiswa pengganti beasiswa penuh bidikmisi universitas tanjungpura
+sistem pendukung keputusan, smarter pendidikan yang hanya ditujukan untuk calon mahasiswa tidak mampu 
+meskipun demikian, syarat prestasi pada bidikmisi ditujukan untuk menjamin bahwa penerima bidikmisi terseleksi dari yang benar-benar mempunyai potensi dan kemampuan untuk menyelesaikan pendidikan tinggi
+beasiswa salah satunya beasiswa bidikmisi yang dikelola oleh comdev & outreaching universitas tanjungpura
+ada 2 tipe beasiswa bidikmisi yaitu beasiswa penuh bidikmisi yang diberikan kepada mahasiswa baru dan beasiswa penuh bidikmisi yang dialihkan ke mahasiswa lain atau disebut beasiswa penuh bidikmisi pengganti
+beasiswa pengganti disebabkan oleh hal-hal seperti cuti, drop out, non aktif serta diberhentikan, sehingga beasiswa tersebut dialihkan kepada mahasiswa seangkatan yang memenuhi syarat
+beasiswa penuh bidikmisi pengganti ini bersifat melanjutkan penerimaan beasiswa sebelumnya, dimana kuota mahasiswa pengganti sesuai dengan jumlah mahasiswa yang diberhentikan pada program studi dan angkatan yang bersangkutan
+adanya kesempatan tersebut, banyak mahasiswa yang mengajukan berkas permohonan beasiswa untuk dapat menempati sebagai penerima beasiswa pengganti, sehingga akan membutuhkan proses penyeleksian terlebih dahulu untuk mendapatkan mahasiswa-mahasiswa pengganti yang sesuai untuk menempati beasiswa pengganti tersebut
+dilakukan oleh comdev & outreaching saat ini menggunakan microsoft excel yang terdiri dari 2 jenis yaitu tim penyeleksi memasukkan data-data yang terdapat pada formulir pengajuan mahasiswa dan tim penyeleksi mengambil data dari website sisbo 
+sisbo digunakan untuk mengisi data-data calon mahasiswa baru penerima beasiswa bidikmisi
+data yang didapat dari sisbo digunakan untuk mendukung penyeleksian yang dilakukan oleh tim penyeleksi, selanjutnya akan diputuskan penerima beasiswa bidikmisi pengganti tersebut sesuai dengan jumlah kuota mahasiswa pengganti pada masing-masing program studi
+oleh tim, penyeleksian dapat juga dilakukan oleh sistem, salah satu sistem yang dapat membantu proses penyeleksian yaitu sistem pendukung keputusan yang bertujuan untuk mengarahkan pengguna informasi agar dapat melakukan pengambilan keputusan dengan lebih baik
+metode smarter menggunakan rumus rank order centroid untuk mendapatkan bobot setiap kriteria
+metode smarter dalam menyelesaikan permasalahan penyeleksian mahasiswa pengganti, maka perlu dibangun sebuah sistem pendukung keputusan seleksi penerimaan mahasiswa pengganti beasiswa penuh bidikmisi universitas tanjungpura dengan menerapkan metode smarter
+sistem yang dibangun berbasis web karena menyesuaikan dengan kebutuhan sistem yang dapat diakses oleh mahasiswa untuk memperoleh informasi dan memasukkan data-data yang berkaitan dengan beasiswa bidikmisi pengganti
+yang diberikan pemerintah melalui direktorat jenderal pendidikan tinggi kementerian pendidikan dan kebudayaan mulai tahun 2010 kepada mahasiswa yang memiliki potensi akademik memadai dan kurang mampu secara ekonomis
+bidikmisi merupakan program 100 hari kerja menteri pendidikan nasional yang dicanangkan pada tahun 2010
+perguruan tinggi yang mendapat bantuan bidikmisi yaitu perguruan tinggi di bawah kementerian pendidikan dan kebudayaan dan kementerian agama
+pendidikan yang hanya ditujukan untuk calon mahasiswa tidak mampu, berbeda dari beasiswa yang berfokus pada memberikan penghargaan atau dukungan dana terhadap mereka yang berprestasi, bidikmisi berfokus kepada yang memiliki keterbatasan kemampuan ekonomi
+meskipun demikian, syarat prestasi pada bidikmisi ditujukan untuk menjamin bahwa penerima bidikmisi terseleksi dari yang benar-benar mempunyai potensi dan kemampuan untuk menyelesaikan pendidikan tinggi
+pemberian bantuan dihentikan apabila mahasiswa penerima cuti, drop out, non aktif dan diberhentikan
+pengalihan atau penggantian mahasiswa penerima bidikmisi dengan mahasiswa lain yang seangkatan dan memenuhi syarat sifatnya melanjutkan
+penggantian penerima ditetapkan melalui sk pimpinan perguruan tinggi

@@ -1,0 +1,103 @@
+eee paper template in a4 vol 4 no 2 peramalan saham berdasarkan data masa lalu dengan pendekatan fuzzy time series anggi srimurdianti sukamto#1, wawan setiawan*2 # program studi informatika fakultas teknik, universitas tanjungpura jl.prof.drh.hadari nawawi pontianak 1anggidianti@informatika.untan.ac.id jl.prof.drh.hadari nawawi pontianak 2wawan@untan.ac.id terhadap perusahaan berkat penyerahan bagian modal sehingga dianggap berbagi dalam pemilikan dan pengawasan
+saham yang dapat diperjualbelikan terdaftar dalam bursa efek indonesia dimana keberadaannya diawasi sesuai dengan aturan yang berlaku
+kegiatan jual beli saham menyebabkan harga saham berfluktuasi
+resiko dalam berinvestasi saham dapat diminimalisir dengan dua cara, yaitu menilai keuangan perusahaan maupun melihat psikologi pasar yang terganbar dalam sisi teknikal sisi teknikal memanfaatkan data-data masa lalu untuk memprediksi pergerakan harga di masa depan
+hal ini didasarkan pada pergerakan harga saham yang memiliki suatu pola sehingga dari pola tersebut dapat diprediksi pergerakannya
+kondisi ini memungkinkan untuk dilakukannya analisis pergerakan harga saham
+salah satu pendakatan yang dapat dilakukan adalah dengan fuzzy time series
+data harga penutupan saham dapat dikategorikan sebagai bentuk time series
+untuk melakukan peramalan maka dibutuhkan data yang diperoleh dari situs resmi idx dalam kurun waktu 1 tahun dimulai dari tanggal 3 januari 2017 hingga 29 desember 2017
+data tersebut kemudian diolah dengan menggunakan fuzzy time series yang menghasilkan data berupa hasil peramalan saham
+data diuji dengan pengujian mape dan memiliki kesalahan sebesar 0, 57
+nilai mape yang cukup kecil ini menjadi acuan bahwa metode peramalan ini dapat dikembangkan kedalam bentuk aplikasi
+pendahuluan saham) terhadap perusahaan berkat penyerahan bagian modal sehingga dianggap berbagi dalam pemilikan dan pengawasan 
+dengan kepemilikan saham, seorang investor menjadi bagian dari perusahaan tersebut
+keuntungan yang didapatkan ketika berinvestasi cukup menjanjikan
+pembagian laba/keuntungan kepada para pemegang saham perusahaan
+keuntungan bisa diperoleh dari dividen, memperoleh keuntungan modal saat saham dijual kembali dengan bunga yang lebih mahal dan masih banyak lagi
+saham yang dapat diperjualbelikan harus terdaftar di bursa efek indonesia, dimana lembaga tersebut berfungsi sebagai pengelola untuk kegiatan penjualan dan pembelian saham
+memberikan timbal balik yang tinggi dibanding dengan bunga yang didapatkan dari menabung atau berinvestasi dalam bentuk lainnya, juga memiliki resiko yang tinggi
+faktor internal, eksternal membuat fluktuasi harga saham tidak tentu setiap detik
+hal ini disebabkan oleh adanya aktivitas jual beli sesuai dengan hukum penawaran dan permintaan 
+beberapa kondisi yang menyebabkan harga saham berfluktuasi dengan sangat cepat seperti adanya rumor perusahaan, kebijakan-kebijakan pemerintah yang fundamental perusahaan
+pergerakan harga saham yang cepat ini menghasilkan resiko dalam berinvestasi
+membeli saham pada perusahaan yang memiliki kinerja bisnis yang buruk, kegagalan dalam membayar utang perusahaan, terlambat dalam memberikan laporan keuangan kepada bursa efek indonesia hingga perusahaan dinyatakan pailit/bangkrut berdampak pada dihentikannya kegiatan jual beli suatu saham ataupun saham tersebut akan dikeluarkan dari bursa efek
+dampaknya, investor yang membeli saham tersebut tidak bisa melakukan transaksi penjualan saham sehingga dana yang telah disetorkan dalam bentuk saham tidak bisa diambil kembali
+hal ini sangat merugikan investor, sehingga banyak dari investor yang pada akhirnya menarik diri dari berinvestasi di bursa saham
+resiko dalam berinvestasi saham sebenarnya dapat diminimalisir dengan dua cara, yaitu menilai kondisi keuangan perusahaan ataupun melihat psikologi pasar yang tergambar dalam sisi teknikal sisi teknikal memanfaatkan data-data masa lalu untuk memprediksi pergerakan harga di masa depan
+selain itu, ada kecenderungan bahwa harga saham akan kembali kepada harga-harga sebelumnya, baik mengalami kenaikan maupun mengalami penurunan
+kondisi ini memungkinkan untuk dilakukan analisis mengenai pergerakan harga saham kedepannya
+salah satu pendekatan yang dapat dilakukan adalah dengan time series 
+time series merupakan data suatu objek yang memiliki rentang waktu tertentu misalnya harian, mingguan, bulanan
+data penutupan harga saham dapat dikategorikan sebagai bagian dari time series
+oleh sebab itu dikembangkan suatu peramalan saham dengan menerapkan fuzzy time series untuk memprediksi pergerakan saham dalam rentang waktu tertentu
+diharapkan dengan aplikasi peramalan ini para investor memiliki pandangan terhadap pergerakan harga saham dimasa yang akan datang
+tinjauan pustaka harga saham adalah harga selembar saham yang berlaku dalam pasar saat ini di bursa efek
+harga saham adalah harga yang terjadi di pasar bursa pada saat tertentu yang ditentukan oleh pelaku pasar dan ditentukan oleh permintaan dan penawaran saham yang bersangkutan di pasar modal
+harga saham merupakan nilai sekarang dari penghasilan yang akan diterima oleh pemodal dimasa yang akan datang
+dapat disimpulkan harga saham adalah harga selembar saham yang terjadi pada saat tertentu yang ditentukan oleh permintaan dan penawaran di pasar modal memetakan suatu ruang input ke dalam suatu ruang output
+di samping fungsi keanggotaan, ada komponen kedua dari logika fuzzy, yaitu aturan-aturan fuzzy, yaitu suatu aturan yang memungkinkan untuk menerjemahkan aturan-aturan fuzzy dari kecerdasan manusia menjadi program yang dapat diimplementasikan pada komputer
+konventional time series yaitu pada nilai yang digunakan dalam peramalan, yang merupakan himpunan fuzzy dari bilangan-bilangan real atas himpunan semesta yang ditentukan
+himpunan fuzzy dapat diartikan sebagai suatu kelas bilangan dengan batasan yang samar
+, un}, maka suatu himpunan fuzzy a dari u didefinisikan sebagai a= fa /u1+fa /u2+
++fa /un dimana fa adalah fungsi keanggotaan dari a, fa: u  [0, 1] dan 1 ≤ i ≤n
+sedangkan definisi dari fuzzy time series adalah misalkan y (t=
+) adalah himpunan bagian dari r yang menjadi himpunan semesta dimana himpunan fuzzy fi (i=1, 2,
+) telah didefinisikan sebelumnya dan jadikan f menjadi kumpulan dari fi (i=1, 2,
+) maka f dinyatakan sebagai fuzzy time series terhadap y (t=
+) bisa dianggap sebagai kemungkinan nilai linguistik dari f, dimana fi (t=1, 2,
+bisa dilihat juga bahwa f adalah suatu fungsi waktu dari t misalnya, nilai-nilai dari f bisa berbeda pada waktu yang berbeda bergantung pada kenyataan bahwa himpunan semesta berbeda pada waktu yang berbeda
+jika f hanya hanya disebabkan oleh f maka hubungan ini digambarkan sebagai f f d
+metode pengujian yang digunakan untuk seberapa besar toleransi kesalahan dari sistem peramalan yang dibangun
+dimana ft adalah permintaan aktual periode t, ramalan permintaan periode t, m adalah jumlah peralaman
+dalam penelitian ini data yang diuji adalah data harga aktual penutupan saham, data peramalan harga saham dan jumlah data yang digunakan dalam perhitungan 
+pendekatan fuzzy time series pada data penutupan harga saham penelitian ini menggunakan data penutupan harga saham yang diambil dari tanggal 3 januari 2017 hingga 29 desesember 2017 yang tersaji pada tabel 1
+setelah didapatkan data harga penutupan saham tlkm, selanjutnya dilakukan pengurutan data dari kecil ke besar
+dari pengurutan data didapatkan data terkecil yaitu 3830 dan data terbesar yaitu 4800 sehingga universe of discourse u=[3830, 4800]
+selanjutnya, dilakukan kalkulasi selisih tiap data dan diperoleh total selisih data sebesar 8790
+dari hasil tersebut didapatkan nilai rata-rata selisih sebesar 37.56 
+nilai rata- rata selisih kemudian bagi dua sehingga didapatkan nilai 18.78
+nilai 970 dibagi dengan nilai panjang interval yaitu 970/20 didapatkan nilai 48, 5
+nilai 48, 5 dibulatkan menjadi 49 sehingga didapatkan jumlah kelas interval sebanyak 49 kelas
+tahap selanjutnya adalah membagi universe of discourse ke dalam kelas intervalnya yaitu u1, u2, sampai u49
+adapun pembagian kelas interval ke dalam nilai linguistiknya dapat dilihat pada tabel 2
+tabel 2 kelas interval dilakukan proses fuzzifikasi terhadap harga penutupan saham seperti pada tabel 3
+adapun tahap ini dilakukan dengan cara menjadikan kelas-kelas interval menjadi suatu himpunan-himpunan fuzzy yang variabel linguistiknya ditentukan sesuai dengan keadaan semesta
+dari tahap tersebut didapatkan nilai keanggotaannya
+nilai keanggotaan maximum maka dikatakan bahwa suatu data sebagai bagian dari kelas interval tersebut
+tabel 3 no tanggal harga seperti pada tabel 4
+no 1 mengacu pada time series tanggal 3 januari ke 4 januari yang membentuk hubungan fuzzy logic relationship u7 ke u7 yang berarti harga penutupan saham pada tanggal 3 masuk dalam kelas interval u7 dan harga penutupan tersebut sama dengan harga penutupan saham pada tanggal 4 januari
+pada no 3 membentuk hubungan flr u7 ke u9 yang berarti harga penutupan pada tanggal 5 januari masuk dalam kelas interval u7 dan harga penutupan tanggal 6 januari masuk ke kelas u9 sehingga menghasilkan hubungan u7 u9, begitu seterusnya
+adapun tanggal yang tertera pada tabel 4 mengacu pada tanggal buka bursa saham indonesia
+selanjutnya dilakukan pengelompokkan untuk setiap kelas interval, misalnya u1 berelasi dengan u1, u2, u4, dan u5 begitu juga dengan kelas interval lainnya
+dari pengelompokkan tersebut dilakukan perhitungan untuk mendapatkan nilai defuzzifikasinya
+adapun hasil defuzzifikasi terdapat pada tabel 5
+dari hasil tersebut didapatkanlah harga peramalan saham seperti pada tabel 6
+tabel 6 menunjukkan data harga real dengan harga peramalan dengan pendekatan fuzzy time series
+pengujian adapun rumus yang digunakan adalah: mape = periode januari hingga desember 2017, adalah ramalan harga periode januari hingga desember 2017, m adalah jumlah data yang digunakan untuk membangun peramalan sistem sebesar 235 sehingga didapatkan: mape = sulit untuk diprediksi
+harga saham bergerak berdasarkan pada adanya konsep permintaan dan penawaran; adanya kebutuhan untuk menjadi bagian kepemilikan suatu saham, adanya keinginan untuk menjual kepemilikan saham, adanya gejolak ekonomi hingga kenaikan kurs rupiah
+kondisi ini menyebabkan fluktuasi harga saham yang berdampak pada ihsg
+kondisi ini menuntut para investor untuk pandai dalam mengambil keputusan dalam kegiatan jual beli saham
+salah satu pendekatan yang dilakukan adalah dengan melakukan peramalan pergerakan harga saham
+dalam penelitian ini, metode yang dilakukan adalah dengan fuzzy time series
+fuzzy time series dimulai dari pengumpulan data harga penutupan saham tlkm selama periode tahun 2017 yang dimulai dari awal tahun hingga akhir tahun
+jarak harga tersebut dengan perhitungan menghasilkan 49 kelas interval dengan jarak sebesar 20 rupiah
+pada tahap defuzzifikasi, diketahui bahwa terdapat 4 kelas interval yang kosong yaitu pada kelas u8, u23, u34 dan u36
+hal tersebut dikarenakan oleh harga penutupan saham yang tidak menyentuh rentang harga pada kelas tersebut
+selain itu, terdapat hubungan yang sama pada flr dimana harga penutupan sebelumnya sama dengan harga penutupan hari sesudahnya
+flr juga mampu menunjukkan adanya perubahan harga yang besar antara hari sebelum dan sesudahnya yang dilihat dari hubungan kelas interval yang cukup jauh
+hasil dari flr kemudian dikelompokan berdasarkan pada hubungan kelas intervalnya dan dari perhitungan dihasilkan nilai defuzzifikasi
+selanjutnya dilakukan pengujian dengan menggunakan pengujian mape
+diketahui bahwa hasil pengujian mape menunjukkan toleransi kesalahan sebesar 0, 57
+pengujian mape menunjukkan seberapa besar kesalahan hasil peramalan yang dibandingkan dengan nilai aktualnya
+nilai 0, 57 menunjukkan bahwa peramalan yang dibangun memiliki kesalahan sebesar 0, 57 sehingga secara keseluruhan peramalan ini dapat diterima karena memiliki kesalahan yang kecil
+adapun grafik yang merepresentasikan nilai aktual harga penutupan saham dan nilai peramalannya untuk saham berkode tlkm dapat dilihat pada gambar 1
+dari grafik tersebut, garis antara harga aktual dan harga peramalan sangat berdekatan yang dikarenakan hasil peramalan yang hampir menyentuh dengan harga sesungguhnya
+1 representasi nilai aktual dibandingkan dengan nilai peramalan harga penutupan saham tlkm vi
+kesimpulan metode fuzzy time series dapat digunakan untuk meramal harga saham
+ini dibuktikan dari pengujian mape yang dilakukan dan menghasilkan kesalahan sebesar 0, 57
+ketika digambarkan pada grafik nilai aktual dan nilai peramalannya didapatkan garis yang sangat dekat
+nilai mape yang kecil menjadi acuan bahwa peramalan dengan fuzzy time series untuk melihat pergerakan harga saham dikembangkan ke dalam bentuk aplikasi
+namun yang perlu diperhatikan dalam penelitian ini adalah metode yang digunakan hanya mampu meramalkan data masa lampau bukan pada data selanjutnya atau yang belum terjadi
+oleh sebab itu saran kedepannya perlu dikaji lebih lanjut berdasarkan pada fuzzy logic relationship sehingga dari data lampau mampu memprediksi pergerakan harga saham di hari selanjutnya
+selain itu, mengambil kasus saham-saham yang memiliki pergerakan harga yang cukup ekstrim perlu dilakukan untuk melihat seberapa besar kelas interval yang terbentuk dan seberapa besar kesalahan yang terjadi

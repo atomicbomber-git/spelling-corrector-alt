@@ -1,0 +1,20 @@
+kendala yang dihadapi dalam melakukan bimbingan adalah jarak dan jadwal yang berbeda antara dosen dan mahasiswa menciptakan miskomunikasi terhadap proses bimbingan
+adanya aplikasi bimbingan skripsi online berbasis web membuat komunikasi tetap terjaga tanpa harus mencocokkan jadwal terlebih dahulu
+bimbingan skripsi online berbasis web hanya memiliki notifikasi/pemberitahuan melalui e-mail, untuk itu diperlukan pengembangan aplikasi menjadi berbasis android yang dapat memberikan notifikasi/pemberitahuan secara real-time
+melakukan komunikasi tapi tidak menyertakan history/dokumentasi dari proses bimbingan
+modeling language dan entity relationship diagram
+pengujian penelitian menggunakan metode black box dan robustness testing yang kemudian dihitung menggunakan metode lsr
+penelitian ini mengembangkan sistem pendukung tugas akhir yang sudah ada dengan notifikasi/pemberitahuan secara real-time dan pemanfaatan history/dokumentasi proses bimbingan melalui sistem bimbingan online tugas akhir berbasis android
+fakultas atau program studi secara bijak akan mempercayakan mahasiswa tersebut pada dosen yang akan bertindak sebagai pembimbing dalam pengerjaan tugas akhir
+namun, terdapat beberapa kendala yang dihadapi dalam pelaksanaan bimbingan tersebut
+jarak dan jadwal yang berbeda antara dosen dan mahasiswa kadangkala menciptakan miskomunikasi sehingga proses bimbingan dapat terbengkalai
+selain itu kadang kala prosedur estándar seperti pencatatan form bimbingan tidak terorganisasi dengan baik atas faktor ketidak sengajaan
+untuk itu dibutuhkan sebuah sistema yang mampu memfasilitasi proses bimbingan sehingga bisa menguada lebih baik lagi
+aplikasi yang telah berjalan memberikan kemudahan kepada mahasiswa untuk melakukan bimbingan sehingga tidak terjadi miskomunikasi antara mahasiswa dan pembimbingnya
+website ini salah satunya sistema notifkasi yang dirasa kurang efektif karena hanya melalui e-mail
+untuk itu penulis bermaksud mengembangkan aplikasi ini menjadi berbasis android
+android dipilih karena merupakan sistema operasi pada smartphone yang mengalami perkembangan pesat dan banyak digunakan oleh masyarakat indonesia
+android diakui telah menjadi salah satu mesin pertumbuhan utama dari pasar smartphone sejak diluncurkan pada tahun 2008
+dalam beberapa tahun terakhir android makin agresif merebut pasar smartphone
+kecepatan, kepraktisan dan kemudahan untuk membantu aktivitas menjadi kelebihan dari android yang diminati oleh para golongan eksekutif dan profesional muda
+tinjauan pustaka berjalan pada kernel linux 2.6; mempunyai sistem yang sangat ringan dan mencakup grafis 3d dengan dukungan database sqlite dan web browser yang terintegrasi

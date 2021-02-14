@@ -1,0 +1,68 @@
+voting merupakan sebuah metode yang digunakan untuk pengambilan keputusan
+kegiatan voting yang secara luas dikenal oleh masyarakat adalah pemilu atau pilkada yang diselenggarakan oleh kpu, namun kegiatan voting sering pula dilakukan dalam skala yang lebih kecil contohnya pemilihan ketua organisasi di lingkungan fakultas teknik universitas tanjungpura yang masih di lakukan secara konvensional pemilihan secara konvensional memiliki beberapa kekurangan seperti proses yang lambat karena banyak persiapan yang harus dikerjakan sedangkan pengerjaannya masih dilakukan secara manual, besarnya anggaran yang dibutuhkan untuk membiayai seluruh keperluan untuk melaksanakan voting, kurang akuratnya proses perhitungan suara dan pemilih dituntut untuk hadir secara langsung untuk memberikan hak suaranya
+dibutuhkan sebuah sistem yang dapat mempermudah pelaksana voting dalam melaksanakan kegiatan voting dan pemilih untuk ikut berpartisipasi dan memberikan hak suaranya
+tujuan dari penelitian ini adalah menghasilkan aplikasi e-voting berbasis android untuk memfasilitasi partisipasi dan pelaksanaan kegiatan voting
+pengguna dapat berpartisipasi dalam kegiatan voting hanya dengan menggunakan smartphone android yang terkoneksi dengan internet berdasarkan hasil implementasi, aplikasi ini sudah berjalan dengan baik pada perangkat mobile android, mulai dari android versi 4.3 hingga android versi 6.0.1 
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 1505 yang berarti aplikasi ini dirancang dan dibangun dengan sangat baik
+untuk menghimpun aspirasi dengan tujuan menentukan jalan keluar yang dianggap paling baik dalam menyelesaikan permasalahan
+kegiatan voting yang secara luas dikenal oleh masyarakat adalah pemilu atau pilkada yang diselenggarakan oleh kpu, namun kegiatan voting sering pula dilakukan dalam skala yang lebih kecil contohnya pemilihan ketua organisasi di lingkungan fakultas teknik untan
+pemilihan ketua organisasi di lingkungan fakultas teknik untan dilaksanakan setelah berakhir periode masa jabatan atau lebih kurang 1 tahun
+ketua organisasi dipilih oleh mahasiswa pada saat berlangsungnya kongres besar mahasiswa atau musyawarah anggota
+pemilihan ketua organisasi di lingkungan fakultas teknik untan masih di lakukan secara konvensional kegiatan voting yang dilakukan secara konvensional memiliki kekurangan seperti proses yang lambat karena banyak persiapan yang harus dikerjakan sedangkan pengerjaannya masih dilakukan secara manual, besarnya anggaran yang dibutuhkan untuk membiayai seluruh keperluan untuk melaksanakan voting, kurang akuratnya proses perhitungan suara dan pemilih dituntut untuk hadir secara langsung untuk memberikan hak suaranya
+berdasarkan permasalahan yang telah dijelaskan sebelumnya, penulis membangun sebuah aplikasi e-voting yang memfasilitasi penyelenggara voting dan pemilih untuk berpartisipasi dalam kegiatan voting
+e-voting adalah suatu sistem pemilihan dimana data dicatat, disimpan, dan diproses dalam bentuk informasi digital
+e-voting merupakan salah satu penerapan dari perkembangan teknologi informasi
+penerapan e-voting dinilai mampu mengatasi permasalahan yang timbul dari pemilu yang diadakan secara konvensional
+sistem yang akan dirancang dan dibangun adalah sebuah aplikasi berbasis android yang dapat memfasilitasi pelaksana voting dalam melaksanakan kegiatan voting dan pemilih dalam memberikan hak suaranya
+pemilih dapat ikut serta dalam kegiatan voting langsung menggunakan aplikasi dan perangkat elektronik berupa smartphone android yang terkoneksi dengan internet disimpan, dan diproses dalam bentuk informasi digital centinkaya dan centinkaya menambahkan definisi e-voting bahwa e-voting refers to the use of computers or computerised voting equipment to cast ballots in an election
+electronic voting merupakan bagian dari e-government dengan jenis hubungan g2c, perkembangan ilmu pengetahuan dan teknologi sudah selayaknya dapat dimanfaatkan guna memajukan dan memudahkan aktivitas proses kebutuhan manusia baik yang sifatnya personal maupun interpersonal unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+studi kasus : pemilihan ketua organiasi di lingkungan fakultas teknik universitas tanjungpura
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam raditya prananda#1, hengky anra#2, helen sasty pratiwi#3 #program studi teknik informatika universitas tanjungpura 1radityaprananda@rocketmail.com, 2stmkom@gmail.com, 3helensastypratiwi@gmail.com rancang bangun aplikasi e-voting berbasis android jl
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+secure hash algorithm merupakan algoritma yang berfungsi sebagai hash
+fungsi hash memiliki sifat searah, sehingga sering disebut one way hash function
+fungsi hash secara umum nilai fungsi hash satu arah biasanya berukuran kecil, sedangkan pesan berukuran besar
+fungsi hash memiliki algoritma yang iterative dan searah, yang dapat memproses pesan yang diberikan untuk menghasilkan representasi yang lebih pendek yang disebut message digest
+untuk menghasilkan nilai message digest dari pesan besar, fungsi hash menerima masukan berupa isi blok pesan saat ini serta nilai hash dari blok pesan sebelumnya
+nilai message digest dari sebuah pesan, dimana pesan tersebut memiliki panjang maksimum 264 bit
+algoritma ini menggunakan sebuah message schedule yang terdiri dari 64 elemen 32-bit word, delapan buah variabel 32-bit, dan variabel penyimpan nilai hash 8 buah word 32-bit
+hasil akhir dari algoritma sha-256 adalah sebuah message digest sepanjang 256-bit
+fungsi logika, dimana setiap fungsi beroperasi menggunakan tiga buah word 32-bit, dan keluarannya berupa sebuah word 32-bit
+desain arsitektur sistem melalui internet, aplikasi android akan melakukan komunikasi data dengan web server evote
+pengguna diharuskan memiliki akun dengan cara mendaftar pada aplikasi android
+setiap request data dari aplikasi ke web server akan direspon dan diolah menjadi data-data json yang akan dikirim kembali ke aplikasi
+ketika terdapat data atau update terbaru server akan mengirimkan pesan ke gcm server milik google yang selanjutnya akan diproses untuk mengirimkan pesan notifikasi ke aplikasi android yang dipakai oleh pengguna
+sedangkan pada web service dapat melakukan managemen data pada web server evote
+pengujian aplikasi black box, kompatibilitas aplikasi dan kuesioner terhadap 25 responden yang terdiri dari mahasiswa
+hasil aplikasi pemilihan ketua organisasi basis android
+aplikasi ini dibangun untuk memfasilitasi pelaksanaan kegiatan voting / pemilihan ketua organisasi di fakultas teknik universitas tanjungpura sesuai dengan uu pemirama kbm-ft untanyakni mulai dari tahapan pendaftaran pemilih sampai dengan tahapan penetapan hasil pemilihan
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 5 sampai dengan gambar 9
+gambar 6 merupakan tampilan jadwal tahapan kegiatan pemilihan yang sedang berlangsung
+gambar 7 merupakan tampilan daftar pemilih yang telah terverifikasi
+gambar 8 merupakan tampilan dari surat suara elektronik
+tampilan hasil pemilihan gambar 9 merupakan tampilan hasil pemilihan dari proses pemilihan yang berlangsung
+robustness testing robustness testing adalah pengujian dengan data input dipilih diluar spesifikasi yang telah didefinisikan
+tujuan dari pengujian ini adalah membuktikan bahwa tidak ada kesalahan jika masukan tidak valid
+pengujian ini dilakukan pada proses input data seperti login, daftar dan verifikasi pertanyaan
+pada tabel 1, memperlihatkan pengujian verifikasi pertanyaan
+dalam pengujian ini dilakukan dengan data jawaban kosong, data jawaban tidak sesuai dan data jawaban sesuai
+tabel 1 input contoh data hasil beberapa perangkat android yang berbeda
+eksekusi file installer berhasil dilakukan pada perangkat mobile dengan sistem operasi android versi 4.3 hingga android versi 6.0.1 2
+perbedaan layar dan resolusi perangkat mobile mempengaruhi tampilan aplikasi salah satunya pada tampilan login dan menu utama aplikasi
+pengujian eksekusi menu dan fitur yang ada termasuk notifikasi berjalan pada setiap perangkat mobile
+sistem tidak berjalan dengan baik pada saat menampilkan beberapa data yang ada di server
+kurang stabilnya koneksi internet yang ada menyebabkan hal ini terjadi
+kuesioner kuesioner merupakan teknik pengumpulan data yang dilakukan dengan cara memberi seperangkat pertanyaan atau pernyataan tertulis kepada responden untuk dijawab
+berikut adalah total skor dari kuesioner yang telah dibagikan kepada 25 responden
+hasil robustness testing menyatakan aplikasi dapat meng-handle proses input pada fitur login aplikasi, daftar aplikasi, verifikasi pertanyaan, daftar pemilihan dan pilih kandidat
+diperoleh hasil bahwa aplikasi dapat berjalan lancar pada perangkat android dari sistem operasi android 4.3 hingga android 6.0.1 
+berdasarkan hasil kuesioner menunjukan sebagian besar responden menerima dengan baik aplikasi ini baik dari segi pengoperasian, fungsionalitas, dan tampilan aplikasi
+terdapat pula sebagian kecil responden memberikan penilian buruk terhadap kinerja aplikasi, hal ini dikarenakan kurang stabilnya koneksi internet pada saat aplikasi menampilkan beberapa data dan beberapa tampilan antarmuka aplikasi yang kurang dipahami oleh responden
+hasil interpretasi skor dari likert’s summated rating menunjukan hasil 1505 dengan nilai sangat positif yang berarti aplikasi dinilai berhasil
+kesimpulan/ringkasan likert summated rating dan dapat berjalan lancar pada berbagai jenis versi android mulai dari versi 4.3 hingga 6.0.1 berdasarkan pengujian kompatibilitas aplikasi

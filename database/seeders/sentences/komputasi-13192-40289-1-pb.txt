@@ -1,0 +1,17 @@
+demikian halnya dengan yang dialami oleh mahasiswa yang akan menyewa tempat kost
+banyak faktor yang dapat mempengaruhi mahasiswa dalam memilih tempat kost, seperti jarak dari kost ke kampus, harga sewa, luas kamar dan faktor lainnya yang membuat mahasiswa tersebut mengalami kesulitan dalam memilih tempat kost
+untuk mengatasi permasalahan yang ada, maka diperlukan suatu sistem pendukung keputusan yang dapat membantu mahasiswa dalam memilih tempat kost yang tepat
+technique for order preference by similarity to ideal solution
+sistem yang dibangun menggunakan metode ahp dan topsis 
+metode ahp digunakan untuk menghitung bobot dari setiap kriteria sedangkan metode topsis digunakan dalam perankingan untuk mendapatkan alternatif kost terbaik
+terdapat 6 kriteria yang digunakan dalam sistem ini, yaitu jarak, harga, luas, jenis kost, batas jam malam dan keamanan
+sistem ini akan memberikan 5 rekomendasi kost terbaik kepada user berdasarkan perhitungan dengan metode ahp dan topsis
+berdasarkan hasil kuesioner yang dibagikan kepada 100 responden mahasiswa, didapatkan hasil bahwa 83% mahasiswa merespon sistem ini membantu dalam memilih kost yang tepat, sehingga sistem ini dapat dinilai berhasil
+pendahuluan pemilihan dari beberapa atau banyak alternatif yang mungkin dipilih dan prosesnya melalui mekanisme tertentu dengan harapan akan mendapatkan hasil keputusan yang terbaik
+banyaknya faktor yang harus dipertimbangkan dalam mengambil sebuah keputusan merupakan salah satu masalah yang harus dihadapi oleh pengambil keputusan
+demikian halnya dengan yang dialami oleh mahasiswa yang akan menyewa tempat kost di kota pontianak
+menurut peraturan daerah kota pontianak nomor 17 tahun 2002 tentang perizinan usaha hotel dan penginapan, rumah kost adalah usaha perorangan dengan mempergunakan sebagian atau seluruh dari rumah tinggalnya untuk penginapan bagi setiap orang dengan perhitungan pembayaran bulanan
+banyak faktor yang harus dipertimbangkan oleh mahasiswa dalam memilih tempat kost, diantaranya adalah jarak dari kost ke kampus, biaya sewa, luas kamar, keamanan, batasan jam malam dan jenis kost yang cukup menyulitkan dalam proses pengambilan keputusan
+oleh karena itu, perlu dibangun sebuah sistem pendukung keputusan yang dapat membantu mahasiswa dalam memilih tempat kost yang tepat dan sesuai kebutuhan
+pendukung keputusan dimana user dapat memberikan nilai secara subjektif tentang pentingnya setiap variabel secara relatif dan menetapkan variabel mana yang memiliki prioritas paling tinggi guna mempengaruhi hasil
+sedangkan topsis merupakan salah satu metode pendukung keputusan yang didasarkan pada konsep bahwa alternatif terpilih merupakan alternatif terbaik yang memiliki jarak terpendek dari solusi ideal positif dan memiliki jarak terpanjang dari solusi ideal negatif

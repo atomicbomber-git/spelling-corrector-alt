@@ -1,0 +1,71 @@
+healthy diet for diabetics is important to help people in controlling their blood sugar levels
+diabetic diet meal plans assisted by nutritionists
+nutritionists will adjust diet with caloric needs, schedule and type of food eaten in accordance with the conditions of diabetics
+this research aims to produce expert systems that help diabetics prepare their own food menu based on knowledge that has been acquired from a nutritionist, so diabetics can save time and cost consultancy
+expert system that constructed based on mobile and especially for devices with android platform
+based on compatibility testing results show that the expert system can run on a variety of types and brands of android device
+based on the percentage of testing aspects of software engineering, respondents gave a good response at 52, 2%, testing the functionality aspect, respondents gave a good response at 60, 0% and testing aspects of visual communication, respondents gave a good response at 58, 1%
+the results showed that it has managed to produce an expert system that could assist the user in setting a good diet and healthy for users
+because the result of this research is at precisely scores 2160-2700 on 2265 scores were obtained by calculating the likert’s summated rating method, which means the results of the questionnaire respondents indicating the application is positive and considered as successful
+keywords: diet, diabetes, nutritionists, expert system, mobile, android
+diabetes melitus merupakan hal yang penting untuk membantu penderita dalam beberapa penelitian penyakit diabetes tidak dapat disembuhkan seluruhnya
+salah satu cara pengobatan penyakit diabetes adalah dengan mengontrol makanan yang dikonsumsi penderita
+dengan pengaturan jadwal makan, dan jenis makanan dengan kondisi tubuh penderita
+sesuai dengan kondisi tubuhnya jauh lebih sedikit dibandingkan dengan yang tidak melakukannya menentukan tingkat kadar gula darah, menentukan kebutuhan kalori dan menentukan menu makanan sehat berdasarkan kebutuhan kalori penderita
+forward chaining melakukan pemrosesan berawal yang diterapkan hingga ditemukan memberikan rule-rule atau aturan dalam menentukan menu makanan sehat dan penderita diabetes akan mengisi data-data mengenai kondisi tubuhnya yaitu tinggi badan, berat badan, jenis kelamin, umur, pekerjaan, kadar gula darah, kolestrol dan tekanan darah
+dengan menggunakan akan menentukan jumlah kalori yang dibutuhkan penderita
+kemudian data jumlah kalori, kadar gula darah dan tekanan darah akan menentukan makanan apa saja yang aman dikonsumsi oleh penderita
+dengan dibuatnya sistem pakar menggunakan diakses dimana saja dan kapan saja
+dengan menggunakan sistem pakar mencatat umur, jenis kelamin, berat badan dan tinggi badan penderita serta mencatat kadar gula dalam darah, mencatat kolestrol darah, tekanan darah, dan pekerjaan penderita
+dari hasil pencatatan tersebut, sistem akan menentukan menu makanan sehat yang cocok bagi penderita diabetes
+landasan teori 2.1 sistem pakar sistem pakar adalah suatu program komputer yang dirancang untuk mengambil keputusan seperti keputusan yang diambil oleh seorang atau beberapa orang pakar
+sistem pakar adalah sistem perangkat lunak komputer yang menggunakan ilmu, fakta, dan teknik berpikir dalam pengambilan keputusan untuk menyelesaikan masalah- diselesaikan oleh tenaga ahli dalam bidang yang bersangkutan 
+satu atau lebih pakar dalam bidang tertentu
+kombinasi dari kedua hal tersebut disimpan dalam komputer, yang selanjutnya digunakan dalam proses pengambilan keputusan untuk penyelesaian masalah suatu penalaran yang dimulai dari fakta untuk mendapatkan kesimpulan dikatakan sebagai strategi inference yang bermula dari sejumlah fakta yang diketahui
+pencarian dilakukan dengan menggunakan yang diketahui tersebut untuk memperoleh fakta baru dan melanjutkan proses hingga goal dicapai atau hingga sudah tidak ada rules lagi yang premisnya cocok dengan fakta yang diketahui maupun fakta yang diperoleh
+runut maju atau pencarian yang dimotori data 
+jadi pencarian dimulai dari premis-premis atau informasi masukan dahulu kemudian menuju konklusi atau derived information 
+forward chaining berarti menggunakan himpunan aturan kondisi-aksi
+dalam ke memori kerja untuk diproses agar ditemukan suatu hasil
+banyak aturan berbeda yang dapat memberikan kesimpulan yang sama
+banyak cara untuk mendapatkan sedikit konklusi
+benar-benar sudah mendapatkan berbagai fakta, dan ingin mendapatkan konklusi dari fakta-fakta tersebut
+suatu penyakit atau gangguan metabolisme kronis dengan multi etiologi yang ditandai dengan tingginya kadar gula darah disertai dengan gangguan metabolisme karbohidrat, fungsi insulin
+insufisiensi fungsi insulin dapat disebabkan oleh gangguan atau defisiensi produksi insulin oleh sel-sel beta langerhans kelenjar pankreas, atau tubuh terhadap insulin 
+ini menyebabkan hiperglikemia, suatu keadaan membahayakan software komputer, yang merupakan suatu bahasa pemrograman, dan sekaligus suatu platform merupakan bahasa pemrograman semua platform
+sedangkan java bersifat neutral architecture, karena java compiler yang digunakan untuk mengkompilasi kode program java dirancang untuk menghasilkan kode yang netral terhadap semua arsitektur perangkat keras yang disebut sebagai java bytecode
+sebuah sistem operasi yang berbasis linux untuk telepon seluler seperti telepon pintar dan komputer tablet sistem operasi ini bersifat open source sehingga para programmer dapat membuat aplikasi secara mudah untuk digunakan oleh bermacam perangkat bergerak (misalnya telepon aplikasi open source maka dapat dilakukan modifikasi dan penyebaran secara bebas
+yang setelah itu terus menerus melakukan pengembangan ke teknologi yang lebih baik
+sistem operasi android mempunyai banyak seri, tergantung dari urutan dibuatnya
+sistem operasi android yang pertama kali muncul adalah android 1.0 atau seri apple pie
+setelah itu dengan berbagai pengembangan, muncul sistem operasi 3
+perancangan sistem 3.1 aturan if-then dalam penelitian ini, pengetahuan dari pakar direpresentasikan menggunakan dari data-data yang telah dimasukkan oleh penderita
+setelah diketahui jumlah kalori yang dibutuhkan, maka sistem akan menentukan jenis diet diabetes melitus yang sesuai bagi penderita
+dari jenis diet tersebut akan didapat pembagian jumlah bahan makanan sehari bagi penderita yang selanjutnya akan ditentukanlah menu aturan if-then dapat dilihat pada tabel 1: tabel 1
+kaidah aturan if-then rule if jumlah kalori and gula darah and kolestrol and tekanan darah then kesimpulan r3 <1100 rendah rendah hipertensi 1 menu a3 r4 <1100 rendah rendah hipertensi 2 menu a4 r5 <1100 rendah normal normal menu a5 r6 <1100 rendah normal prehipertensi menu a6 r7 <1100 rendah normal hipertensi 1 menu a7 r8 <1100 rendah normal hipertensi 2 menu a8 r9 <1100 rendah sedang normal menu a9 r10 <1100 rendah sedang prehipertensi menu a10 r11 <1100 rendah sedang hipertensi 1 menu a11 r12 <1100 rendah sedang hipertensi 2 menu a12 r13 <1100 rendah tinggi normal menu a13 r14 <1100 rendah tinggi prehipertensi menu a14 r15 <1100 rendah tinggi hipertensi 1 menu a15 r16 <1100 rendah tinggi hipertensi 2 menu a16 … 3.2 data flow diagram gambar 1
+diagram konteks erd) relasi-relasi dan konektivitas yang terjadi dari entitas-entitas yang ada, yaitu : 1
+satu jenis diet menentukan satu porsi makan 5
+satu porsi makan menentukan satu menu makanan 6
+satu user memiliki satu menu makanan 4
+hasil perancangan 4.1 tampilan diabetic diet expert merupakan sistem pakar penentuan menu makanan sehat bagi penderita diabetes melitus berbasis mobile
+sistem pakar akan menentukan menu makanan sehat bagi penderita diabetes berdasarkan kebutuhan kalori, kondisi gula darah, kolestrol dan tekanan darah penderita
+halaman register merupakan tampilan makanan sehat bagi penderita diabetes melitus berbasis mobile
+halaman register berisi form register untuk memasukkan data pengguna sistem
+antarmuka halaman ini dapat dilihat pada gambar 3
+gambar 3 antarmuka menu register halaman penentuan menu makanan 
+pada form ini pengguna juga dapat mengubah sumber bahan makanan yang telah memberikan rekomendasi bahan makanan gambar 5)
+makanan makan, golongan, waktu, karbohidrat, protein hewani, protein nabati, sayuran, buah_gula, susu, minyak, makanan tnp energi yang akan menampilkan data pengguna dan menu makanan pengguna perhari 
+pengguna dapat melihat data kesehatannya dan jika ada data yang berubah, pengguna dapat mengubahnya gambar 6
+antarmuka form ubah data pengguna pengguna perhari pengujian metode black box dan pengujian validitas aplikasi
+metode pengujian black box merupakan metode yang hanya menguji perangkat lunak dari sisi input dan output nya saja sehingga proses yang terjadi di dalamnya tidak dilakukan pengujian
+, data yang kosong dan data yang benar
+teknik yang akan digunakan dalam pengujian black box adalah sample testing
+sample testing melibatkan beberapa nilai yang terpilih dari sebuah kelas ekivalen, mengintegrasikan nilai pada kasus uji dan nilai-nilai yang terpilih mungkin dipilih dengan urutan tertentu atau interval tertentu
+pengujian validitas aplikasi dilakukan dengan membandingkan hasil bertujuan untuk mengetahui seberapa besar tingkat keakurasian sistem
+terhadap aplikasi sistem pakar penentuan menu makanan sehat penderita diabetes melitus berbasis mobile ini, dapat disimpulkan bahwa : 1
+berdasarkan hasil perancangan, sistem pakar dapat menentukan menu makanan sehat bagi pengguna sesuai kebutuhan kalori pengguna
+menu makanan yang ditentukan sistem dapat disesuaikan makanan yang tidak cocok dengan selera pengguna, sistem dapat memunculkan bahan makanan penukar pengingat waktu makan dengan 2
+berdasarkan hasil pengujian penanganan kesalahan ketika ada terjadi kesalahan pada proses memasukkan data, sistem akan memberikan pemberitahuan berupa pesan kesalahan
+berjalan pada tipe dan merek perangkat android yang memiliki sistem operasi android minimal 2.3 
+memberikan tanggapan baik sebesar 52, 2%, pengujian aspek fungsionalitas responden memberikan tanggapan baik komunikasi visual responden sistem pakar yang bisa membantu pengguna dalam mengatur pola makan yang baik dan sehat bagi pengguna
+karena hasil penelitian berada pada skor 2160 – 2700 tepatnya pada skor 2265 yang didapat melalui perhitungan kuesioner menandakan responden cukup berhasil

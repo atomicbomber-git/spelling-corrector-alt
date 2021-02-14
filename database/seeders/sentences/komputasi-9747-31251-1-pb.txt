@@ -1,0 +1,80 @@
+clustering is the process of grouping the data into classes or clusters so that the data in a cluster has a high degree of similarity to one another but very different from the data in another cluster
+there are some data that must be managed in a system that makes data service students, academic potential test data, calculation of fuzzy c- means logic, and classification of student skills
+this laboratory assistant recruitment system can assist in recruiting staff and faculty lab assistant
+this system was developed using the programming language php with my sql database
+so that the system in the form of web site development
+the purpose of this study is to produce a laboratory assistant recruitment application based website and using fuzzy logic with c-means method
+the output of this application form of the cluster candidates laboratory assistants, and data used in this application is only of academic data and the data of the student's academic potential prodi information engineering university tanjungpura the register
+based on the results of user testing using likert scale on the level of access of applicants obtained an average value of 20.36, at the administrator level obtained value 53, and the level of the head of the laboratory obtained an average value 21
+this value indicates that the lab assistant recruitment system using fuzzy c -means very good to be implemented
+keywords: clustering, fuzzy c-means, recruitment assistant laboratory 1
+pendahuluan analisis kelompok merupakan salah satu teknik dalam analisis multivarian yang mempunyai tujuan utama untuk mengelompokkan objek-objek pengamatan menjadi beberapa kelompok berdasarkan karakteristik yang dimilikinya
+metode pengelompokkan yang saat ini sedang berkembang adalah metode pengelompokkan yang berdasarkan himpunan fuzzy atau yang disebut sebagai fuzzy clustering analysis
+berbagai metode dalam fuzzy clustering analysis, diantaranya adalah fcm 
+fuzzy c-means adalah pengembangan dari k-mean dengan menggunakan pembobotan fuzzy
+clustering merupakan metode mengelompokkan suatu objek ke dalam sejumlah kelompok yang sesuai.prinsip dari clustering adalah memaksimalkan kesamaan antar anggota satu cluster dan meminimumkan kesamaan antar anggota cluster yang berbeda
+pembentukan cluster data merupakan salah satu teknik yang digunakan dalam mengetahui pola kecenderungan suatu data
+fuzzy c-means merupakan suatu teknik pengelompokkan yang mana keberadaan tiap titik data dalam suatu kelompok ditentukan oleh derajat keanggotaan
+penempatan posisi data pada cluster dilakukan dengan perbaikan penentuan pusat cluster awal dan nilai keanggotaan secara berulang
+analisis cluster merupakan proses membagi data dalam suatu himpunan ke dalam beberapa kelompok yang kesamaan karakteristik datanya dalam suatu kelompok lebih besar daripada kesamaan karakteristik data tersebut dengan data dalam kelompok lain
+kelebihan dari fuzzy c-means adalah dapat melakukan clustering lebih dari satu variabel secara sekaligus
+implementasi dengan metode fuzzy c-means digunakan untuk recruitment asisten laboratorium
+hasilnya dibandingkan dengan hasil menggunakan algoritma subtraktif
+asisten laboratorium adalah seorang mahasiswa yang membantu program studi dan dosen, terutama dalam hal manajemen laboratorium yang mencakup invetaris barang, penjadwalan praktikum, pelaksanaan praktikum, dan memonitor jaringan yang terhubung di server
+jika yang menjadi asisten laboratorium adalah mahasiswa yang kurang berprestasi, atau kurang memahami tugas-tugasnya, maka akan berdampak pada penurunan kualitas di laboratorium
+tetapi apabila asisten laboratorium tersebut memiliki kemampuan yang cukup maka semua tugas-tugas yang harus dikerjakan dilaboratorium pasti akan memiliki kualitas yang cukup pula, atau dengan kata lain sesuai dengan standar dari prodi tersebut
+selain mengerjakan semua tugas-tugas yang harus dilakukan di laboratorium, keuntungan lain ketika seorang mahasiswa menjadi asisten laboratorium adalah tentu saja memperoleh ilmu serta pengalaman yang cukup banyak
+ketika menjalankan tugas sebagai seorang asisten laboratorium dituntut untuk memahami tugas tersebut secara penuh
+hal ini mengakibatkan asisten laboratorium akan mendapatkan pemahaman yang lebih dalam mengenai beberapa hal yang baik akademis maupun non akademis di prodi
+tentu saja pemahaman yang lebih ini merupakan keuntungan tersendiri ketika seorang mahasiswa menjadi asisten laboratorium, tentunya juga merupakan keuntungan bagi fakultas
+untuk mendapatkan asisten laboratorium yang berkualitas, mahasiswa yang ingin menjadi asisten laboratorium harus melalui proses pemilihan
+berdasarkan penjelasan yang sudah dipaparkan, terdapat beberapa data yang harus dikelola sistem yaitu membuat service data mahasiswa, data tes potensi akademik, perhitungan logika fuzzy c-means, dan klasifikasi skill mahasiswa
+dari penjelasan tersebut, akan dirancang sebuah sistem recruitment asisten laboratorium yang dapat membantu pihak staff dan dosen dalam merekrut asisten laboratorium
+logika fuzzy fuzzy secara bahasa diartikan sebagai kabur atau samar-samar
+suatu nilai dapat bernilai besar atau salah secara bersamaan
+dalam fuzzy dikenal derajat keanggotaan yang memiliki rentang nilai 0 hingga 1 
+berbeda dengan himpunan tegas yang memiliki nilai 1 atau 0 
+logika fuzzy merupakan suatu logika yang memiliki nilai kekaburan atau kesamaran antara benar atau salah
+dalam teori logika fuzzy suatu nilai biasa bernilai benar atau salah secara bersama
+namun berapa besar keberadaan dan kesalahan suatu tergantung pada bobot keanggotaan yang dimilikinya
+logika fuzzy memiliki derajat keanggotaan dalam rentang 0 hingga 1
+berbeda dengan logika digital yang hanya memiliki dua nilai 1 atau 0
+logika fuzzy adalah suatu cara yang tepat untuk memetakan suatu ruang input kedalam suatu ruang output, mempunyai nilai kontinyu
+fuzzy dinyatakan dalam derajat dari suatu keanggotaan dan derajat dari kebenaran
+oleh sebab itu sesuatu dapat dikatakan sebagian benar dan sebagian salah pada waktu yang sama
+dengan cara memperbaiki pusat cluster dan derajat keanggotaan tiap-tiap titik data secara berulang, maka akan dapat dilihat bahwa pusat cluster akan bergerak menuju lokasi yang tepat
+perulangan ini didasarkan pada minimasi fungsi obyektif yang menggambarkan jarak dari titik data yang diberikan kepusat cluster yang terbobot oleh derajat keanggotaan titik data tersebut
+output dari fuzzy c-means merupakan deretan pusat cluster dan beberapa derajat keanggotaan untuk tiap-tiap titik data
+informasi ini dapat digunakan untuk membangun suatu fuzzy inference system
+3.1.4 perhitungan logika fuzzy dengan metode c-means flowchart fuzzy c-means adalah flowchart yang memberikan gambaran umum terhadap perhitungan fuzzy c-means dalam sistem
+gambar 1 berikut ini menunjukkan perhitungan fuzzy c-means dalam sistem
+gambar 1 flowchart perhitungan fuzzy c- means perhitungan dalam sistem ini memerlukan dua atribut data seperti data nilai akademik dan data nilai tes potensi akademik untuk perhitungan fuzzy c-means
+apabila data yang diperlukan telah terpenuhi, maka secara otomatis perhitungan akan dimulai oleh sistem
+tujuan dari perhitungan fuzzy c-means ini adalah menentukan nilai tertinggi dan nilai terendah dari setiap pendaftar sesuai dengan nilai masing-masing dan berdasarkan derajat keanggotaan yang bernilai 0 dan
+setelah semua perhitungan data telah selesai dan telah menghasilkan nilai tertinggi dan nilai terendah sesuai dengan clustering yang telah ditentukan, maka data tersebut bernilai valid dalam sistem
+selanjutnya hasil dari perhitungan ini digunakan ka-lab untuk standart perbandingan score dari setiap pendaftar dalam recruitment asisten laboratorium
+perancangan arsitektur sistem diagram arsitektur sistem adalah diagram yang memberikan gambaran terhadap kegiatan yang berlangsung dalam sistem
+gambar 2 berikut ini menunjukkan diagram arsitektur sistem
+gambar 2 rancangan arsitektur sistem rancangan arsitektur sistem pada gambar 2 dapat dijelaskan sebagai berikut: pendaftar mengakses website melalui browser, setelah itu pendaftar melakukan registrasi dengan cara memasukkan data dirinya di form registrasi yang terdapat di website
+data tersebut di input kedalam database mysql, mysql sebenarnya merupakan turunan salah satu konsep utama dalam database sejak lama, yaitu sql 
+kemudian admin menjalankan algoritma fuzzy c-means melalui website dengan menggunakan data para pendaftar yang diambil dari database mysql, algoritma fuzzy c-means ini sendiri akan menghasilkan dua cluster
+dan hasil perhitungan dari cluster ini ditampilkan di halaman interface website yang di gunakan oleh admin
+diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 3 berikut ini menunjukkan diagram konteks dari sistem
+diagram overview sistem diagram overview adalah diagram yang menggambarkan proses dari data flow diagram
+diagram overview memberikan pandangan secara menyeluruh mengenai sistem yang terdapat pada implementasi logika fuzzy dalam recruitment asisten laboratorium menggunakan metode c- means
+menunjukkan tentang proses yang ada, aliran data, dan entitas-entitas yang terkait
+diagram hubungan antar tabel hubungan antara tabel-tabel data dalam implementasi logika fuzzy dalam recruitment asisten laboratorium menggunakan metode c-means ini dapat dilihat pada gambar 6 berikut
+hasil perancangan gambar 7 tampilan halaman filterisasi cluster setelah perhitungan fcm setelah data-data yang diperlukan untuk perhitungan fuzzy c-means sudah memenuhi kriteria dalam proses, maka perhitungan fuzzy c-means dapat dijalankan
+jika perhitungan fuzzy c-means sudah dijalankan dan menghasilkan cluster dari tiap angkatan, maka admin akan menunggu konfirmasi dari kepala laboratorium untuk hasil akhir dari recruitment asisten laboratorium untuk di posting di halaman website
+gambar 8 tampilan halaman data hasil cluster perhitungan fuzzy c-means apabila perhitungan fuzzy c-means telah dijalankan oleh admin, maka secara otomatis tampilan data hasil cluster fuzzy c-means dari setiap angkatan akan tampil di halaman kepala laboratorium 
+gambar 9 tampilan halaman konfirmasi ka- lab pada halaman data hasil cluster perhitungan fuzzy c-means ini setiap kepala laboratorium jaringan, multimedia dan pemograman dapat melihat rincian dari setiap pendaftar antara lain, nilai akademik, score tes potensi akademik, prioritas laboratorium dan photo
+setiap kepala laboratorium diberikan hak untuk memilih setiap pendaftar yang memenuhi kriteria dari setiap laboratorium
+setelah kepala laboratorium telah menentukan pilihan dan menempatkan para pendaftar yang terpilih di laboratorium yang telah ditentukan, dan status para pendaftar tidak ada yang tunggu / pending maka secara otomatis hasil akhir dari kepala laboratorium akan dipublikasikan oleh admin
+dan setiap kepala laboratorium berhak merekomendasikan para calon asisten laboratorium ke laboratorium lainnya
+gambar 10 tampilan antar muka halaman hasil akhir recruitment asisten laboratorium pada halaman ini, pendaftar dapat melihat pemberitahuan hasil akhir recruitment asisten di halaman website pendaftar
+kesimpulan berdasarkan hasil analisis dan pengujian implementasi logika fuzzy dalam recruitment asisten laboratorium menggunakan metode c-means pada fakultas teknik universitas tanjungpura, maka dapat disimpulkan bahwa: 1
+hasil uji coba implementasi sistem recruitment asisten laboratorium menunjukkan bahwa sistem berbasis web dan menerapkan logika fuzzy c- means dalam aplikasi recruitment asisten laboratorium berbasis php sudah berhasil diterapkan sesuai dengan rancang sistem
+sistem sudah dapat digunakan oleh tiga level user yaitu pendaftar, administrator dan kepala laboratorium
+berdasarkan hasil pengujian pengguna menggunakan skala likert pada tingkat akses pendaftar diperoleh nilai rata-rata 20, 36, pada tingkat administrator diperoleh nilai 53, dan tingkat kepala laboratorium diperoleh nilai rata-rata 21
+nilai ini menunjukkan bahwa sistem recruitment asisten laboratorium menggunakan metode fuzzy c-means sangat baik untuk diimplementasikan

@@ -1,0 +1,82 @@
+ubmitted 05-03-2018; revised 29-03-2018; accepted 23-09-2019 235 augmented reality peta iinformasi jalan di kota pontianak arifin sidiq tunggal guntur#1, anggi srimurdianti sukamto#2, hafiz muhardi#3 #program studi teknik informatika universitas tanjungpura arifinsidiq33@gmail.com anggidianti@informatika.untan.ac.id hafiz.muhardi@informatika.untan.ac.id satunya adalah teknologi augmented reality yang dapat dimanfaatkan sebagai media informasi termasuk peta informasi jalan di kota pontianak
+hal ini dikarenakan peta informasi di kota pontianak masih menggunakan media konvensional seperti papan informasi yang terdapat di beberapa titik seperti di jalan jendral urip, jalan sultan abdurrahman, dan jalan gajah mada
+dengan minimnya informasi yang disampaikan membuat pengunjung atau tourist local maupun mancanegara kurang terbantu sehingga mengurangi ketertarikan untuk melihat peta informasi tersebut
+kelebihan dari augmented reality adalah tampilan visual yang menarik, karena dapat menampilkan objek 3d beserta animasinya yang seakan-akan ada pada lingkungan nyata dan disandingkan dengan informasi, dan dapat digunakan sebagai salah satu alternatif media informasi yang mampu membuat pengguna tertarik menggunakannya
+pada penelitian ini digunakan game engine unity untuk membangun aplikasi berbasis android serta vuforia sdk agar aplikasi yang dibangun dapat menjadi aplikasi berteknologi augmented reality
+aplikasi dapat menampilkan visualisasi objek 3d seperti peta informasi, objek rumah ibadah, tempat wisata, dan ikon kota pontianak
+berdasarkan pengujian kompabilitas, aplikasi ini sudah berjalan dengan baik pada perangkat mobile android, mulai dari android versi 4.2.0 hingga android versi 7.0 
+dari hasil pengujian uat dan usability, dapat disimpulkan bahwa aplikasi yang dibangun mampu menarik minat masyarakat untuk menggunakan aplikasi sebagai media informasi, serta penggunaan aplikasi yang dibangun mudah digunakan
+pendahuluan yang cukup pesat di indonesia
+pontianak juga memiliki berbagai tempat wisata yang menarik bagi para pengunjung/tourist baik local maupun luar
+menurut data dari badan pusat statistik, kunjungan wisatawan mancanegara ke kalimantan barat tahun 2017 mengalami kenaikan setiap bulannya
+pontianak sebagai ibu kota kalimantan barat tentunya menjadi salah satu tempat yang akan dikunjungi para wisman
+banyaknya akses jalan yang sering digunakan di kota pontianak tentunya membuat wisatawan mancanegara membutuhkan peta informasi jalan, sehingga dinas pu kota pontianak membuat fasilitas baru berupa peta informasi jalan di berbagai titik di kota pontianak
+peta informasi jalan yang terdapat di kota pontianak menggunakan gambar 2d, sehingga informasi yang dapat ditampilkan sangat terbatas, berupa nama jalan dan bangunan
+dengan minimnya informasi yang disampaikan membuat pengunjung/tourist local maupun luar kurang terbantu sehingga mengurangi ketertarikan untuk melihat peta informasi jalan tersebut
+peta 2d menjadi objek 3d dan menampilkan berbagai informasi yang tidak dapat di berikan pada peta informasi 2d, sehingga peta informasi dapat menyampaikan informasi lebih banyak dan lebih menarik
+media ini dapat di desain dengan memanfaatkan teknologi augmented reality dengan menggunakan metode marker
+augmented reality merupakan salah satu teknologi di bidang multimedia yang dapat menggabungkan objek digital ke dunia nyata dengan kata lain merupakan perpaduan dunia digital dan dunia nyata, yang di dalam penerapannya menggunakan media kamera
+aplikasi ini diharapkan menjadi salah satu alternatif media informasi yang menarik, dan menjadikan kota pontianak sebagai kota yang dapat memanfaatkan teknologi untuk memajukan sistem informasi dalam kota
+teknik yang menggabungkan benda maya dua dimensi maupun tiga dimensi ke dalam sebuah lingkup nyata tiga dimensi lalu memproyeksikan benda-benda maya tersebut dalam waktu nyata
+tracking) marker biasanya merupakan ilustrasi hitam dan putih persegi dengan batas hitam tebal dan latar belakang putih
+komputer akan mengenali posisi dan orientasi marker dan menciptakan dunia virtual 3d yaitu titik dan tiga sumbu yaitu x, y, dan z
+marker based tracking ini sudah lama dikembangkan sejak 1980-an dan pada awal 1990-an mulai dikembangkan untuk penggunaan augmented reality
+augmented reality yang saat ini sedang berkembang adalah metode, dengan metode ini pengguna tidak perlu lagi menggunakan sebuah marker untuk menampilkan elemen-elemen digital, dengan tool yang disediakan qualcomm untuk pengembangan augmented reality berbasis mobile device, mempermudah pengembang untuk membuat aplikasi yang markerless
+ada tiga prinsip dari augmented reality, yang pertama yaitu ar merupakan penggabungan dunia nyata dan vitual, yang kedua berjalan secara interaktif dalam waktu nyata, dan yang ketiga terdapat integrasi antar benda dalam tiga dimensi, yaitu benda maya terintegrasi dalam dunia nyata
+baik itu handphone, tablet, juga sekarang merambah ke kamera digital dan jam tangan
+android menyediakan platform terbuka bagi para pengembang buat menciptakan aplikasi mereka sendiri untuk digunakan oleh bermacam peranti bergerak
+unified modelling language unified modeling language adalah bahasa standar untuk menulis perancangan aplikasi
+uml dapat digunakan untuk menentukan, memvisualisasikan, membangun, dan membuat dokumen dari sebuah sistem software yang intensif
+1) use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsiapa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+2) class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+class diagram memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+3) sequence diagram adalah diagram yang digunakan untuk menunjukan komunikasi dinamis antar objek-objek selama eksekusi suatu pekerjaan dapat digunakan untuk menunjukan interaksi-interaksi pada suatu use case pada saat sekenario dari sistem pada perangkat lunaknya
+4) activity diagram adalah diagram yang menggambarkan perilaku dinamis dari suatu sistem atau komponen sistem melalui aliran control diantara aksi – aksi yang dilakukan sistem
+ini mirip dengan diagram alir tetapi diagram ini lebih menggambarkan aktivitas dan menentukan aliran konruen
+ image marker akan diedit pada aplikasi photoshop
+ kemudian image marker yang telah diedit akan di unggah dan diolah pada vuvoria
+keluaran dari vuvoria adalah image target yang sesuai dengan image marker yang telah di unggah
+ marker yang telah dihasilkan oleh vuvoria dan objek 3d yang telah dibuat akan di import ke unity
+ jika marker sesuai, objek 3d akan muncul pada layar android
+pengujian aplikasi pengujian uat, pengujian usability, dan pengujian kompatibilitas
+aplikasi ini bertujuan menghasilkan sebuah aplikasi augmented reality peta informasi jalan di kota pontianak yang berisi informasi mengenai rumah ibadah, tempat wisata, dan ikon kota pontianak
+informasi itu meliputi bentuk bangunan, sejarah singkat, dan petunjuk arah
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 13
+tampilan menu utama gambar 3 merupakan tampilan dari menu utama aplikasi
+tampilan objek 3d jalan jendral urip gambar 4 merupakan tampilan objek 3d jalan jendral urip
+tampilan objek 3d jalan sultan abdurrahman gambar 5 merupakan tampilan objek 3d jalan sultan abdurrahman
+tampilan info salah satu bangunan di jalan sultan abdurrahman gambar 7 merupakan tampilan info salah satu bangunan di jalan sultan abdurrahman
+tampilan menu ikon kota pontianak tombol tugu khatulistiwa gambar 8 merupakan tampilan menu ikon kota pontianak bagian tombol tugu khatulistiwa gambar 9
+tampilan menu ikon kota pontianak tombol monumen bambu gambar 9 merupakan tampilan menu ikon kota pontianak bagian tombol monumen bambu runcing gambar 10
+tampilan informasi tugu khatulistiwa gambar 10 merupakan tampilan informasi mengenai tugu khatulistiwa
+gambar 11 merupakan tampilan informasi mengenai monumen bambu runcing
+gambar 13 merupakan tampilan informasi mengenai aplikasi dan pengembang aplikasi
+menjalankan aplikasi pada perangkat android yang berbeda- beda untuk melihat apakah aplikasi dapat berjalan dengan baik di setiap perangkat android
+tabel i tabel pengujian kompatibilitas 1 samsung galaxy megapixel aplikasi dapat  kamera: 8 megapixel aplikasi dapat megapixel aplikasi dapat berjalan dengan megapixel aplikasi dapat berjalan dengan megapixel aplikasi dapat berjalan dengan aplikasi dapat berjalan dengan megapixel aplikasi dapat  kamera: 8 megapixel aplikasi dapat pixels, 5, 0 inches megapixel aplikasi dapat berjalan dengan yaitu: versi 4.2.2 hingga versi 7.0 
+ pengujian eksekusi menu dan fitur yang ada berjalan pada setiap perangkat smartphone android
+2) pengujian uat : pengujian uat dilakukan pada tanggal 2 februari 2018 sampai tanggal 10 februari 2018
+pengujian dilakukan terhadap 30 responden pengguna yang ada di pontianak dengan uat yang terdiri dari 10 pertanyaan di mana setiap pertanyaan diberi dua pilihan jawaban atau 
+sebelum menyimpulkan hasil akhir pengujian uat harus diketahui nilai interval persentase dengan menggunakan metode mencari interval nilai persentase pada persamaan 
+maka interval nilai persentase yang didapat adalah : sehingga jarak persentase pada kuesioner ini yaitu: • x <= 49, 99% dikategorikan tidak setuju • x >= 50, 00% dikategorikan setuju bahwa masyarakat setuju dengan tujuan dari aplikasi yang dibangun
+hal ini dikarenakan total persentase likert adalah 95, 33% dan berada pada kategori setuju
+3) pengujian usability : pengujian usability dilakukan dengan mengamati interaksi antara aplikasi dan pengguna atau responden dalam hal ini adalah masyarakat kota pontianak
+pengujian usability bertujuan untuk mengukur kemudahan penggunaan dari aplikasi
+pengujian terdiri dari 10 elemen observasi usability di mana setiap elemen diberi empat pilihan tanggapan yaitu, ,, dan 
+tabel iii disimpulkan beberapa hasil analisis dari aplikasi ar peta informasi jalan di kota pontianak yang akan dijelaskan sebagai berikut
+smartphone android dengan sistem operasi versi 4.2.2 hingga versi 7.0 
+berdasarkan data ini, dapat diketahui bahwa aplikasi dapat dijalankan pada perangkat android versi terendah sesuai dengan yang telah ditentukan pada batasan masalah dan diimplementasikan melalui pengaturan pada game engine unity
+selain itu, aplikasi ini juga dapat dijalankan pada perangkat android versi terbaru
+hal ini dikarenakan script game engine unity dibangun menggunakan ide untuk linux, macintosh dan windows
+hal ini membuat aplikasi yang dibangun di unity dapat digunakan untuk berbagai macam jenis dan versi dari sistem operasi
+hasil pengujian tersebut kemudian dihitung menggunakan metode mencari interval nilai persentase likert dan menghasilkan total persentase sebesar 95, 33%
+oleh karena itu dapat disimpulkan bahwa aplikasi ar peta informasi jalan di kota pontianak sudah mampu mencapai tujuan yaitu sebagai media informasi yang menarik
+kemudian hasilnya dihitung menggunakan metode mencari interval nilai persentase likert, menghasilkan total persentase sebesar 92, 74% yang kemudian dapat disimpulkan bahwa interaksi antara pengguna dan aplikasi sangat baik dan menandakan bahwa aplikasi ar peta informasi jalan di kota pontianak mudah digunakan
+pengujian terhadap aplikasi augmented reality alat indra manusia dapat disimpulkan bahwa: 1
+aplikasi augmented reality peta informasi jalan di kota pontianak telah berhasil dibuat dan dijalankan pada perangkat android
+objek 3d, informasi sejarah singkat objek, dan informasi lokasi dapat ditampilkan pada perangkat android
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh bahwa aplikasi dapat berjalan pada perangkat smartphone android dengan sistem operasi versi 4.2.0 hingga versi 7.0 
+berdasarkan perhitungan persentase pengujian uat yang dihitung menggunakan metode mencari interval nilai persentase likert dan menghasilkan total persentase sebesar 95, 33%, menunjukkan bahwa aplikasi peta informasi jalan di kota pontianak dapat dijadikan media informasi yang menarik
+nilai persentase likert, menghasilkan total persentase sebesar 92, 74% yang menunjukkan bahwa aplikasi ar peta informasi di kota pontianak dapat dengan mudah digunakan masyarakat

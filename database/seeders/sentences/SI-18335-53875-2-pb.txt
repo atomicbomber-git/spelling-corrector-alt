@@ -1,0 +1,54 @@
+sehingga kegiatan dapat terlaksana sesuai dengan siklus semesteran atau tahunan yang mengacu pada kalender akademik dibawah ketetapan rektor perguruan tinggi
+jadwal kegiatan akademik pada program studi teknik informatika universitas tanjungpura saat ini masih menggunakan media sosial dan papan pengumuman serta belum ada publikasi mengenai jadwal seminar dan sidang mahasiswa
+hal ini merupakan salah satu aspek yang sangat penting yang harus diketahui oleh setiap mahasiswa
+dalam lingkup kegiatan akademik pada program studi teknik informatika fakultas teknik universitas tanjungpura, media yang digunakan untuk menyampaikan informasi tentang jadwal akademik saat ini masih menggunakan media grup pada media sosial dan juga papan pengumuman
+dipublikasikan seperti jadwal seminar kerja praktek, jadwal seminar proposal, jadwal seminar hasil dan jadwal sidang terbuka
+hal ini menyebabkan kurangnya informasi bagi mahasiswa yang ingin menjadi peserta seminar maupun sidang
+kesulitan mendapatkan informasi juga dialami oleh mahasiswa yang berasal dari luar kota pontianak, karena pada saat berada dikampung halaman, mahasiswa tetap membutuhkan informasi tentang jadwal akademik seperti informasi daftar ulang, pengambilan lembar isian hasil studi, pengisian lembar isisan rencana studi, jadwal ujian tengan semester, jadwal ujian akhir semester, jadwal yudisium, jadwal wisuda serta informasi akademik lainnya
+kesulitan mendapatkan informasi juga dialami oleh mahasiswa tingkat akhir yang frekuensi kehadirannya dikampus sudah berkurang
+diperlukan berbasis android, sehingga dapat menjadi media penyedia informasi tahun akademik yaitu selama dua semester
+jadwal akademik universitas adalah tulang punggung dari kehidupan seorang mahasiswa
+tenggang waktu untuk pembayaran kuliah, penambahan kuliah, jadwal untuk daftar ulang, jadwal untuk wisuda, tanggal libur dan informasi penting lainnya untuk seluruh tahun akademis diuraikan dalam kalender akademik
+android pengembang untuk menciptakan aplikasi mereka sendiri yang akan digunakan untuk bermacam peranti bergerak
+, pendatang baru yang mengembangkan android, dibentuklah open handset alliance, konsorsium dari 34 perusahaan peranti keras, peranti lunak, dan telekomunikasi, termasuk google, htc, intel, bersama open handset alliance menyatakan mendukung pengembangan standar terbuka pada perangkat seluler
+unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem ditunjukan pada gambar 1, melalui internet, aplikasi android akan melakukan komunikasi data dengan web server aplikasi
+pengguna diharuskan untuk melakukan login pada aplikasi
+setiap request data dari aplikasi ke web server akan direspon dan diolah menjadi data-data json yang akan dikirim kembali ke aplikasi
+ketika terdapat data atau update terbaru server akan mengirimkan pesan ke fcm server milik google yang selanjutnya akan diproses untuk mengirimkan pesan ke aplikasi android yang dipakai oleh pengguna
+pengujian aplikasi black box, kompatibilitas aplikasi dan analisis kuesioner terhadap 30 responden menggunakan skala likert’s summated rating
+kegiatan akademik berbasis android pada program studi teknik informatika fakultas teknik universitas tanjungpura
+aplikasi ini dibangun untuk memfasilitasi mahasiswa dan dosen untuk mengakses jadwal kegiatan akademik
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 7
+tampilan halaman awal gambar 3 merupakan tampilan dari halaman awal setelah pengguna melakukan login
+gambar 4 merupakan tampilan menu untuk mahasiswa gambar 5
+tampilan menu input jadwal kuliah gambar 5 merupakan menu yang menyediakan daftar mata kuliah yang dapat dipilih oleh mahasiswa yang nantinya akan tampil pada menu jadwal kuliah
+tampilan menu jadwal kuliah gambar 6 merupakan tampilan yang menyediakan jadwal kuliah yang telah mahasiswa pilih pada menu input jadwal kuliah
+tampilan full kalender akademik gambar 7 merupakan tampilan untuk melihat kalender akademik secara lengkap
+robustness testing robustness testing adalah pengujian dengan data input dipilih diluar spesifikasi yang telah didefinisikan
+tujuan dari pengujian ini adalah membuktikan bahwa tidak ada kesalahan jika masukan tidak valid
+pengujian ini dilakukan pada proses input data seperti login, mengubah password dan input jadwal kuliah
+menginputkan matakuliah yang belumpernah dipilih dan matakuliah yang pernah dipilih
+kompatibilitas aplikasi pengujian ini dilakukan dengan menginstal aplikasi pada beberapa perangkat android yang berbeda
+hasil pengujian dapar dilihat pada tabel 2
+tabel 2 pengujian kompatibilitas aplikasi no merek 1 xiaomi mi4 4g hal yang menjadi pengukuran sistem berhasil diinstal dan berjalan pada setiap perangkat smartphone android yang berbeda, yaitu : 1
+aplikasi berhasil diinstal pada perangkat mobile dengan sistem operasi android versi 4.4.2 hingga android versi 6.0
+perbedaan layar dan resolusi perangkat mobile mempengaruhi tampilan aplikasi salah satunya pada tampilan login pada aplikasi
+pengujian eksekusi menu dan fitur yang ada termasuk notifikasi berjalan pada setiap perangkat mobile
+kuesioner kuesioner merupakan teknik pengumpulan data yang dilakukan dengan cara memberi seperangkat pertanyaan atau pernyataan tertulis kepada responden untuk dijawab
+berikut adalah total skor dari kuesioner yang telah dibagikan kepada 30 responden
+hasil robustness testing menyatakan aplikasi dapat meng-handle proses input dengan baik, terutama pada proses input data yang tidak sesuai dan kosong
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa aplikasi dapat berjalan pada perangkat android dari sistem operasi android 4.4.2 hingga android 6.0 
+hasil kuesioner menunjukan bahwa 55, 93% responden menerima dengan baik aplikasi ini baik dari segi pengoperasian, fungsionalitas, dan tampilan
+serta terdapat 0.73% responden yang memberikan penilaian kurang baik terhadap aplikasi, hal ini dikarenakan tampilan aplikasi yang berbeda beda pada sistem operasi perangkat android responden
+hasil interpretasi skor dari likert’s summated rating menunjukan hasil 1762 yang berarti aplikasi dinilai berhasil
+kesimpulan/ringkasan android yaitu versi 4.4.2 hingga 6.0.1 
+kecepatan menampilkan data dipengaruhi oleh koneksi internet berdasarkan hasil kuesioner menggunakan skala likert’s summated rating, diperoleh nilai total 1762 yang berarti aplikasi ini berhasil dibangun dan dapat memudahkan user dalam mengakses jadwal kegiatan akademik

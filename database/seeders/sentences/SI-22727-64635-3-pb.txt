@@ -1,0 +1,10 @@
+computer assisted instruction adalah media bantu pembelajaran yang menempatkan komputer sebagai piranti sistem pembelajaran individual, di mana siswa dapat berinteraksi langsung dengan sistem komputer yang sengaja dirancang atau dimanfaatkan oleh guru
+pada taman kanak- kanak di masa modern ini sebagian besar pembelajaran dan pelatihan bahasa inggris dimulai dengan memperkenalkan lingkungan sekitar termasuk benda-benda di dalam rumah
+menyikapi perkembangan pembelajaran anak usia dini, perlu adanya suatu aplikasi pendidikan yang didesain untuk guru sesuai dengan tingkat perkembangan anak usia 5 sampai dengan 6 tahun untuk menunjang pembelajaran bertemakan rumah
+tujuan dari penelitian ini adalah untuk menghasilkan aplikasi komputer yang memanfaatkan konsep cai dengan model tutorial dan instructional games untuk mengenalkan nama benda-benda pada interior rumah dengan dua bahasa yaitu bahasa inggris dan bahasa indonesia
+metodologi penelitian yang dipakai mengacu pada pendekatan model addie
+pengujian aplikasi menggunakan uji validasi yaitu ahli akademisi, ahli cai dan ahli multimedia
+hasil yang didapat dari validasi aplikasi menggunakan skala pengukuran guttman ini mendapatkan nilai 95% untuk sisi akademisi paud, nilai 91, 665% untuk sisi cai, dan nilai 75% untuk sisi multimedia, rata-rata nilai persentase akhir dari aplikasi ini adalah 87, 223%, sehingga aplikasi cai crafting interior rumah bagi anak usia dini dirasa telah layak dalam memenuhi target pembelajaran
+pendahuluan pembelajaran yang menempatkan komputer sebagai piranti sistem pembelajaran individual, di mana siswa dapat berinteraksi langsung dengan sistem komputer yang sengaja dirancang atau dimanfaatkan oleh guru
+proses pembelajaran berupa sofware komputer yang meliputi: judul, tujuan, materi pembelajaran dan evaluasi pembelajaran
+model cai yang dikembangkan yaitu drill and practice, tutorial, simulasi dan instructional games harus berorientasi pada tujuan pembelajaran bagi kepada standar kompetensi, kompetensi dasar dan indikator yang dicapai pada setiap kegiatan pembelajaran

@@ -1,0 +1,24 @@
+adhd) adalah gangguan neurologis yang biasanya menyerang anak – anak dan dapat bertahan terus hingga dewasa
+banyak para orang tua yang kurang memiliki informasi yang cukup mengenai adhd serta penanganannya
+oleh karena itu, diperlukan sebuah sistem pakar yang dapat menggantikan peran seorang dokter dan memberikan edukasi pengetahuan- pengetahuan umum mengenai adhd kepada para orang tua yang anaknya mengalami adhd tersebut
+tujuan dari penelitian ini adalah membantu memberikan informasi kepada orang tua yang anaknya mengidap adhd dengan cara pengembangan aplikasi sistem pakar
+aplikasi yang akan dibangun menggunakan metode naive bayes yang berfungsi sebagai classifier dari beberapa kondisi atribut dari kasus gejala adhd yang diderita user atau pasien untuk dapat menentukan probabilitas seorang pasien menderita adhd tipe hiperaktif – impulsif, inatensi, atau gabungan
+berdasarkan pengujian menggunakan metode black box dan pengujian akurasi dari data pakar, didapat hasil tingkat keakuratan sebesar 90% dengan 30 data training
+maka disimpulkan bahwa sistem ini dapat berfungsi cukup baik
+istilah adhd semula muncul pada dunia medis, tetapi belakangan ini adhd sering sekali dibicarakan dan dikaji di bidang pendidikan dan psikologi
+dalam perspektif pendidikan, jika ada seorang anak yang mengalami gangguan adhd dapat mengalami gangguan belajar
+kemudian, dalam perspektif psikologi dan sosiologi, anak dengan gangguan adhd dapat mengalami kesulitan berperilaku, kesulitan bersosial, dan kesulitan lain yang saling berkaitan
+mengidap adhd merupakan salah satu faktor yang menyebabkan lambatnya penanganan dalam mengatasi gangguan adhd
+untuk mempercepat penanganan tersebut dalam penyediaan informasi dapat dilakukan dengan memanfaatkan kecerdasan buatan yang cukup banyak diaplikasikan dalam berbagai bidang
+dalam kasus ini sistem pakar yang merupakan bagian dari kecerdasan buatan yang dianggap mampu untuk mengatasi masalah tersebut
+sistem pakar merupakan cabang dari kecerdasan buatan, yaitu menyimpan pengetahuan dari pakar manusia kedalam komputer sehingga memungkinkan user dapat berkonsultasi layaknya dengan pakar manusia
+salah satu metode pada kecerdasan buatan yang biasa diimplementasikan adalah metode naive bayes
+metode naive bayes berfungsi sebagai classsifier dari beberapa kondisi atribut dari suatu kasus gejala yang diderita oleh pasien untuk dapat menentukan probabilitas seorang pasien menderita adhd tipe hiperaktif – impulsif, inatensi atau tipe gabungan
+cara kerja sistem pakar ini adalah user menginputkan gejala – gejala apa saja yang dialami oleh anak
+dari gejala yang diinputkan oleh user, didapat hasil akhir yang menunjukkan tipe gangguan adhd yang diderita oleh pasien yaitu tipe hiperaktif – impulsif, inatensi atau tipe gabungan dengan metode naive bayes
+berdasarkan latar belakang diatas, maka pada penelitian ini merancang sistem pakar untuk menentukan tipe gangguan adhd yang hasilnya dapat menunjukan tipe adhd beserta penanganannya
+uraian penelitian 2.1 sistem pakar digunakan untuk menyelesaikan masalah sebagaimana yang dipikirkan oleh pakar
+pakar yang dimaksud disini adalah orang yang mempunyai keahlian khusus yang dapat menyelesaikan masalah yang tidak dapat diselesaikan oleh orang awam
+sebagai contoh, dokter adalah seorang pakar yang mampu mendiagnosis penyakit yang diderita pasien serta dapat memberikan penatalaksanaan terhadap penyakit
+tidak semua orang dapat mengambil keputusan mengenai diagnosis dan memberikan penatalaksaan suatu penyakit
+sistem pakar yang mencoba memecahkan masalah yang biasanya hanya bisa dipecahkan oleh seorang pakar, dipandang berhasil ketika mampu mengambil keputusan seperti yang dilakukan oleh pakar aslinya baik dari sisi proses pengambilan keputusan maupun hasil keputusan yang diperoleh

@@ -1,0 +1,53 @@
+food is a basic need for humans
+the more advanced a nation, the greater demands for quality of the food they consume will be increase
+nevertheless there are still many places where the unmet food evenly
+food insecurity could cause to hunger, malnutrition and health problems, and worst is death
+food insecurity can be seen in terms of production, consumption and distribution
+and conducted to assist in determining priority areas that potentially have food insecurity
+this research aims to map the areas of potential food insecurity in the district of pontianak and analyze the indicators that have been defined, specifically the access roads, the number of grocery stores, the amount of maternal mortality, malnutrition, electricity, health facilities and poor families
+the analysis of composite prioritization is done by using principal component analysis and analysis of clusters 
+principal component analysis is a method used to construct a new variable which is a linear combination of the original variables
+to give the accurate results, the variable will be reduced to create a new variable called principal component
+observation cluster analysis is also used to perform the analysis of existing patterns, classifying objects into groups that have similar and classifying the pattern
+this system can help us to manage the tabular data of indicator and displayed as maps and generate reports in tabular form of potentially food- insecure areas
+the conclution of this research represent the priority areas of food insecurity are wajo hulu, jungkat, sei nipah, parit bugis, galang, peniraman, sei pinyuh, sei bakau besar laut, pasir wan salim, penibung, terusan and sei limau
+based on the questionnaire testing, the result shows the average respondent gives 50% percentage point of the importance of this application
+keywords: food, food insecurity, mapping, pca, clustering, priorities
+berasal dari sumber hayati dan air, baik yang diolah maupun yang tidak diolah, yang diperuntukkan sebagai makanan ataupun dan hidayati, 2006)
+dalam deklarasi world food summit tahun 1996 di roma, saat ini masih terdapat 800 juta penduduk yang masih mengalami kelaparan hingga tahun 2015
+dari sini upaya untuk menurunkan kerawanan pangan tingkat pangan dan badan ketahanan pangan provinsi bekerja sama dengan world food programme meluncurkan peta ketahanan dan kerawanan pangan atau food security and vulnerability atlas yang mencakup 346 kabupaten dari 32 provinsi
+walaupun fsva berhasil mengungkap perbedaan tingkat ketahanan tetapi belum dapat digunakan untuk menganalisis dan mengklasifikasikan alat bantu baru yang dipergunakan untuk perencanaan dan pengambilan keputusan dalam mengidentifikasi desa yang
+tentang pangan mengartikan ketahanan pangan sebagai kondisi terpenuhinya terjangkau
+sedangkan pada world food summit, ketahanan pangan didefinisikan bahwa ketahanan pangan menerus, baik secara fisik, sosial dan ekonomi mempunyai akses untuk pangan yang memadai/cukup, bergizi dan aman yang memenuhi kebutuhan pangan mereka dan pilihan makanan untuk hidup secara aktif dan sehat
+kerentanan terhadap kerawanan pangan tingkat nasional, provinsi maupun kabupaten, memiliki karakteristik masing- memetakan sampai tingkat kabupaten
+kabupaten ini berkaitan dengan tiga pilar ketahanan pangan berdasarkan konsepsi juga tergantung pada ketersediaan data pada tingkat desa
+indikator sesuai pedoman penyusunan fsva kabupaten 2012, yaitu : 1
+persentase penduduk dibawah garis kemiskinan principal components analysis dalam variabel baru dengan jumlah lebih sedikit dari variabel asal 
+masing kriteria yang secara matematis ditujukan untuk memaksimumkan kuadrat korelasi antar pca dengan variabel asal pca merupakan sebuah metode analisis yang dapat digunakan untuk memberi bobot masing-masing kriteria yang digunakan dalam pemilihan suatu keputusan
+cluster observation atau biasa salah satu teknik statistik yang bertujuan untuk mengelompokkan objek kedalam ada, mengelompokkan dan membuat keputusan
+clustering cocok dugunakan observation dilakukan dengan bantuan software minitab, kemudian hasil dilakukan penentuan prioritas sehingga akan ditemukan pola pengelompokkan rawan pangan
+pengantar gis, sistem informasi geografis adalah sistem informasi yang digunakan untuk memasukkan, geospatial, untuk mendukung pengambilan keputusan dalam perencanaan dan
+sig dapat menghasilkan pengolahan dan analisis data spasial serta data non spasial, dalam memperoleh berbagai komersil, pengelolaan maupun kebijaksanaan
+perancangan sistem 3.1 perancangan diagram arus data 3.1.1 diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap diagram konteks dari sistem
+batas administrasi, kabupaten, kecamatan, wilayah, sungai, jalan, desa
+hasil analisis dan peta sebaran desa yang berpotensi rawan pangan - data spasial - data desa - data jalur transportasi - data penderita gizi buruk - data jumlah fasilitas kesehatan 3.1.2 diagram overview sistem diagram overview adalah diagram yang menjelaskan urutan-urutan proses gambar 2 berikut, sistem ini dibagi menjadi enam proses
+laporan tabel_kecamatan 3.2 perancangan basis data entity relational diagram merupakan gambaran hubungan antar keterkaitan dan hubungan antar-entitas desa prioritas 3.2.2 perancangan relasi antartabel hubungan antara tabel-tabel data dapat dilihat pada gambar 4 berikut
+hasil perancangan halaman utama digunakan untuk melakukan manajemen peta dan mengakses halaman lain pada sistem dan menampilkan hasil analisis data tabular ke dalam data spasial yang digambarkan dalam bentuk peta dengan warna tertentu untuk menunjukkan prioritas daerah potensi rawan pangan
+halaman utama berisikan menu- menu yang dapat diakses oleh admin
+antarmuka hasil perancangan halaman gambar 5 antarmuka halaman utama
+pada bagian atas form utama terdapat tiga menu utama yang di dalamnya terbagi menjadi beberapa submenu
+fungsi dari masing-masing menu dapat dilihat pada tabel 1 berikut
+menu submenu fungsi 4.1 hasil analisis pca yang dilakukan di dalam minitab gambar 6 hasil analisis pca dalam minitab
+besarnya kumulatif persen yang dijelaskan komponen pc1 – pc7 dalam hal ini sebesar 0.962 atau 96.2% tingkat kepercayaan
+4.2 hasil analisis gerombol yang dilakukan di dalam minitab gambar 7 hasil clustering dalam minitab
+proses penentuan urutan prioritas desa yang berpotensi rawan pangan diperoleh dari nilai masing-masing cluster pada pc1, dimana nilai cluster paling tinggi merupakan cluster yang masuk ke dalam prioritas satu
+berdasarkan cluster centroid yang dihasilkan dalam analisis gerombol, nilai cluster 1, cluster 2, cluster 3 dan cluster 4 diurutkan dari yang terbesar hingga yang terkecil sebagai berikut: cluster mean cluster prioritas pengujian terhadap sistem informasi pangan, dapat disimpulkan bahwa : 1
+sistem informasi geografis yang dirancang dapat memetakan daerah yang memiliki prioritas potensi rawan pangan di wilayah kabupaten pontianak
+ dan cluster observation yang dapat menghubungkan data spasial dan tabular tiap indikator, sehingga dapat menentukan desa yang memiliki pontianak 3
+hasil perhitungan dengan menggunakan metode pca dan cluster observation menunjukkan bahwa data dari semua indikator yang dianalisis menghasilkan tingkat kepercayaan sampai sebesar 4
+berdasarkan data tahun 2013 hasil perhitungan analisis sistem komposit, diketahui bahwa terdapat 12 desa di kabupaten pontianak yang menjadi prioritas utama berpotensi rawan terdapat desa wajo hulu, jungkat dan sei nipah
+pada kecamatan segedong terdapat desa parit bugis
+pada kecamatan sungai pinyuh terdapat desa galang, peniraman, sei pinyuh dan sei bakau besar laut
+pada kecamatan mempawah hilir terdapat desa 5
+hasil pengujian responden pada sistem yang dibangun, dengan menggunakan metode likert’s summated rating, didapatkan hasil pengukuran skor < 96, skor 83 tersebut mengindikasikan sistem yang dibangun kementrian pertanian
+pedoman penyusunan peta ketahanan dan kerentanan pangan kabupaten

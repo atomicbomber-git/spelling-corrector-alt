@@ -1,0 +1,132 @@
+eee paper template in a4 vol 5 no 2 analisis implementasi model durasi klatt pada bahasa melayu pontianak menggunakan diphone bahasa indonesia arif bijaksana putra negara #1, numrotul hatimah jl
+hadary nawawi, pontianak 1 arifbpn@informatika.untan.ac.id 2 numrotul64@gmail.com 3 rudydn@informatika.untan.ac.id bahasa daerah yang ada di provinsi kalimantan barat, khususnya banyak digunakan sebagai alat komunikasi oleh orang melayu yang ada di pontianak sebagai bahasa sehari- hari
+salah satu usaha untuk melestarikan bahasa melayu pontianak yaitu dengan mengembangkan tts
+salah satu model yang dapat dikembangkan untuk membangun tts adalah model diphone concatenation
+untuk mengembangkan tts model diphone diperlukan nilai durasi tiap fonem yang diucapkan
+penelitian ini bertujuan untuk mengetahui apakah model durasi klatt yang menggunakan aturan suku kata dan tipe suku kata dapat memprediksi durasi fonem sintesa ucapan bahasa melayu pontianak
+jumlah kalimat yang digunakan untuk analisis adalah 576 kalimat yang terdiri dari 5133 kata
+pengujian awal dilakukan untuk mencari rentang nilai kecepatan durasi yang masih dapat diterima oleh pendengar yang dinyatakan dalam rentang persentase
+hasil pengujian awal ini diperoleh nilai rentang kecepatan durasi adalah -20% hingga 20%
+pengujian selanjutnya adalah mencari nilai akurasi prediksi durasi fonem sintesa yang menggunakan metode klatt terhadap durasi fonem dari 10 kalimat uji yang terdiri dari 320 fonem
+hasil pengujian durasi fonem dari 10 kalimat uji diperoleh 30% fonem yang kecepatan durasinya masih dapat diterima
+sedangkan hasil pengujian untuk mencari nilai akurasi prediksi durasi fonem terhadap total durasi kalimat pada 100 kalimat uji, diperoleh 94% kalimat yang kecepatan durasinya masih dapat diterima
+berdasarkan hasil pengujian tersebut model durasi klatt yang menggunakan aturan suku kata dan tipe suku kata dapat memprediksi durasi fonem total pada ucapan sintesa bahasa melayu pontianak
+pendahuluan ucapan yang mirip dengan ucapan manusia berbasis komputer
+kualitas tts dinilai dari dua hal penting yang selalu dijadikan tolak ukur, yaitu naturalness dan intelligibility
+naturalness menyatakan tingkat kealamian atau kemiripan sintesa ucapan yang dihasilkan dengan suara manusia
+sedangkan intelligibility dinilai dari kemampuan untuk memahami kata atau kalimat yang diucapkan
+prameter terpenting dalam kualitas keluaran sistem tts adalah kejelasan suara yang diucapkan
+sulitnya membangun tts untuk suatu bahasa tentu memerlukan database yang besar
+pengembangan tts saat ini banyak menggunakan model statistik
+membangun tts pada model ini memerlukan usaha dan data yang sangat besar
+salah satu cara untuk mengurangi penyimpan data yang besar yaitu dengan menggunakan diphone database
+diphone merupakan unit ucapan yang paling sering digunakan sebagai unit database
+saat ini telah dikembangkan diphone database ‖id1‖ bahasa indonesia yang mana program ini dibuat menggunakan aksen bahasa indonesia
+diphone database ‖id1‖ dibuat oleh arry akhmad arman pada tahun 2000 di belgia
+software pendukung yang dikembangkan untuk database diphone bahasa indonesia yaitu mbrola
+mbrola berfungsi sebagai pembangkit sinyal ucapan dengan menggabungkan fonem yang telah diberi nilai-nilai durasi dan pitch
+penelitian sebelumnya yang menggunakan diphone bahasa indonesia dilakukan oleh mizky dwi mentari putri 
+pada penelitian tersebut, dilakukan pengembangan text to speech generik bahasa bugis wajo menggunakan diphone bahasa indonesia
+sintesa ucapan pada penelitian ini menghasilkan bunyi yang jelas dengan nilai rata-rata kejelasan kata uji sebesar 92.71%
+tak hanya itu, pengembangan tts bahasa melayu pontianak sudah pernah dikembangkan
+penelitian ini telah dilakukan oleh erwin guntoro 
+namun ucapan yang dihasilkan masih belum baik, dikarenakan data yang digunakan dalam pengembangan tts bahasa melayu pontianak masih kurang
+namun tidak hanya penduduk asli yang menggunakan bahasa melayu pontianak, tetapi ada juga orang cina dan dayak yang merupakan salah satu suku yang ada di kota pontianak
+kosa kata bahasa melayu pontianak hampir sama denga bahasa indonesia
+bahasa indonesia merupakan satu dialek temporal dari bahasa melayu, yang struktur dan khazanahnya sebagian besar masih sama atau mirip dengan temporal terdahulu
+kemiripan tersebut dikarenakan akar dari bahasa indonesia adalah bahasa melayu, yang mana kedua bahasa ini masih serumpun
+set pos fonem bahasa indonesia ada pada fonem bahasa melayu pontianak sehingga diphone database ‖id1‖ bisa digunakan pada bahasa melayu
+berupa kode fonem, durasi dan nilai pitch
+salah satu indikator terpenting terhadap kejelasan ucapan yang disintesiskan untuk tts suatu bahasa yaitu durasi tiap fonem
+durasi fonem sangat bervariasi tergantung pada penutur yang berbeda-beda sehingga karakteristik durasi rata-rata yang diperkirakan oleh penutur ahli bahasa dan orang awam pada umumnya juga berbeda
+pemberian durasi untuk tiap fonem dapat menggunakan beberapa model prediksi durasi
+salah satunya yaitu model durasi klatt yang mana model ini menetapkan persentase kenaikan atau penurunan nilai durasi fonem
+model durasi klatt termasuk model durasi berbasis aturan, model ini dapat dibangun pada database yang lebih kecil
+sehingga model durasi berbasis aturan ini cocok dengan penggunaan diphone database
+beberapa penelitian telah menggunakan model durasi klatt untuk memprediksi durasi fonem
+model klatt telah dikembangkan untuk beberapa bahasa asing seperti bahasa inggris tahun 1987, swedia tahun 1986, jerman tahun 1994 dan prancis tahun 1987
+penelitian terbaru prediksi durasi fonem menggunakan model klatt dikembangkan pada bahasa lituania pada tahun 2016
+suatu bahasa bersifat dependen, sehingga suatu metode bisa diterapkan untuk suatu bahasa tertentu tetapi belum tentu untuk bahasa yang lain
+oleh karena itu, penelitian yang akan dilakukan adalah memprediksi durasi fonem menggunakan model durasi klatt pada ucapan bahasa melayu pontianak dengan diphone database bahasa indonesia
+memproduksi sinyal ucapan secara otomatis melalui transkripsi grafem ke fonem untuk kalimat yang diucapkan
+suatu sistem text to speech prinsipnya terdiri dari dua subsistem, yaitu: 1
+bagian konverter teks ke fonem 
+bagian konverter fonem ke ucapan 
+masukan kode-kode fonem serta pitch dan durasi yang telah dihasilkan oleh bagian sebelumnya
+kemudian terdapat penambahan empat fonem yang berasal dari bahasa asing yaitu /x/, /z/, /f/, /ʃ/
+perbedaan fonologi bahasa melayu pontianak dan bahasa indonesia bahasa melayu pontianak tidak memiliki bunyi /f/, /v/, /z/, /x/, dan /q/
+ciri khas bahasa melayu pontianak ditemukan pada bunyi /e/ pepet seperti pada kata ―lemari‖
+setiap kata yang memiliki akhiran bunyi a dalam bahasa melayu dialek lain dan bahasa indonesia akan berubah menjadi /e/ pepet
+terdapat enam puluh tujuh kata perbedaan teratur dalam bahasa indonesia standar dengan bahasa melayu pontianak
+terdiri dari 3 perbedaan tidak teratur dalam bahasa indonesia dengan bahasa melayu pontianak
+terdapat perbedaan diakhir kata dan juga diawal kata
+durasi sering juga disebut kuantitas karena menyangkut jumlah atau lamanya waktu yang digunakan untuk pengucapan sebuat bunyi
+model durasi klatt telah dikembangkan untuk beberapa bahasa, termasuk bahasa inggris, swedia, jerman dan prancis
+setiap jenis segmen fonetik memiliki durasi asli yang ditentukan sebagai salah satu sifat yang khas, 2
+segmen tidak dapat dipersingkat kurang dari durasi minimum tertentu
+menurut kasparaitis, klatt menentukan sejumlah efek kontekstual yang signifikan yang mempengaruhi durasi fonem
+setiap bahasa memiliki kumpulan efek kontekstualnya sendiri, yang mempengaruhi durasi fonem dan harus dibentuk dibawah pengawasan ahli bahasa
+contoh efek yang mempengaruhi durasi fonem menurut klatt, sebagai berikut
+apakah fonem tersebut termasuk vokal atau konsonan; 2
+apakah konsonan disuarakan atau tidak disuarakan; 3
+posisi fonem dalam sebuah kalimat, posisi fonem dalam satu kata; oleh karena itu, prediksi durasi suatu fonem dinyatakan dengan persamaan
+ + dmin persamaan merupakan persamaan dari model durasi klatt yang mana d0 adalah nilai prediksi durasi
+di diperoleh dari hasil rata-rata durasi setiap fonem
+dmin diperoleh dari hasil analisis setiap fonem
+k adalah persentase pemendekan yang ditentukan dengan menerapkan 11 aturan klatt
+terlebih dahulu menentukan nilai konstanta setiap fonem
+konstanta fonem diperoleh dari rumus yang mengacu pada 
+untuk d0, durasi minimal fonem dan durasi rata-rata fonem diperoleh dari data kalimat bahasa melayu pontianak
+database diphone mbrola mensistesa ucapan berkualitas tinggi
+mbrola menggunakan database diphone yang direkam dalam format 16bit sehingga kualitas suara yang dihasilkan sangat baik
+menurut anggara narullita, diphone merupakan sebuah database yang digunakan oleh mbrola engine untuk melakukan pemeriksaan string yang akan dirubah ke dalam bentuk suara, teks yang akan dirubah dalam bentuk suara harus melewati penyaringan kata yang sesuai dengan diphone terlebih dahulu, tanpa adanya diphone maka proses pengubahan teks menjadi suara tidak akan bisa dilakukan
+saat ini telah tersedia diphone database dalam berbagai macam bahasa, antara lain bahasa inggris amerika, inggris british, jerman, yunani, hindi, italia, spanyol, indonesia, korea, jepang, turki, dan lainnya
+diphone yang digunakan dalam penelitian ini adalah diphone database bahasa indonesia ―id1‖
+database diphone bahasa indonesia memiliki 30 fonem termasuk spasi
+table fonem untuk database id1 dapat dilihat pada tabel 1
+b b baca, sebab d d datang, tadi c ts cari, rencana j dz jadi, bejana z z zebra, azimuth ng n angka, siang w w waktu, bawa y j yakin, bahaya ny ny nyaris, kenyang e @ embun, petang ai ai santai, landai penelitian ini dapat dilihat pada gambar 2 sebagai berikut: gambar
+2 metode penelitian penelitian sebagai berikut: a
+data teks berupa buku yang berjudul sepok satu karangan pay jarot sujarwo
+jumlah kalimat yang digunakan dalam penelitian ini sebanyak 576 kalimat
+teks cerita dari buku tersebut direkam oleh seorang penutur ahli bahasa melayu pontianak
+hasil rekaman disimpan dalam file suara mono, resolusi 16bit, dan sampling rate 44100 dengan format *.wav
+setiap rekaman yang telah diberi label disimpan dalam file dengan format .misc
+pada file *.misc terdapat nilai titik awal dan titik akhir pengucapan durasi suatu fonem
+sehingga lamanya durasi suatu fonem, baik fonem vokal maupun konsonan dapat diperoleh dari hasil perhitungan yaitu durasi akhir dikurang durasi awal hasil akhir analisis durasi fonrm berupa nilai durasi dari penutur yang terdiri dari nilai durasi minimal, maksimal dan durasi rata- rata dari tiap-tiap fonem vokal dan konsonan
+pemodelan durasi fonem menggunakan model klatt pada tahap ini mencari nilai konstanta fonem vokal maupun konsonan
+variabel konstanta diperoleh dari persamaan model durasi klatt sebagai berikut: d0 = k
+ + dmin keterangan: d0 = nilai durasi klatt nilai di dan dmin diperoleh dari hasil analisis durasi fonem
+nilai konstanta fonem diperoleh dari persamaan sebagai berikut: konstanta fonem ditentukan berdasarkan dua aturan yang digunakan yaitu berdasarkan struktur suku kata dan tipe suku kata
+struktur suku kata yang digunakan merupakan struktur suku kata bahasa indonesia yang mengacu pada tabel 2
+tabel ii struktur v v1 a|v1 - ku vk v2; k1 ma - a|v2; f|k1 kv k2; v3 bang - s|k2; a|v3 kvk k3; v4; k4 a - k|k3; a|v4; n|k4 kkv k5; k6; v5 t|k5; r|k6; a|v5 - ge - di kkvk k7; k8; v6; k9 p|k7; r|k8; a|v6; k|k9 - tis vkk v7; k10; k11 e|v7; k|k10; s|k11 - tra kvkk k12; v8; k13; k14 kon - t|k12; e|v8; k|k13; s|k14 - tu – al kkvkk k15; k16; v9; k17; k18 t|k15; r|k16; a|v9; n|k17; s|k18 - por - ta – si struktur suku kata tipe suku kata contoh kata kkkv k19; k20; k21; v10 s|k19; t|k20; r|k21; a|v10 - te – gi kkkvk k22; k23; k24; v11; k25 s|k22; t|k23; r|k24; u|v11; k|k25 – tur e
+prediksi durasi dijalankan pada command prompt berikut diagram alir yang menggambarkan proses prediksi durasi fonem menggunakan model durasi klatt dapat dilihat pada gambar 3
+3 diagram alir proses prediksi model klatt f
+pengujian 10 kalimat uji dan durasi kalimat terhadap 100 kalimat uji, different mean opinion score berdasarkan 10 kalimat uji dan word error rate berdasarkan 10 kalimat uji yang diambil dari hasil pengujian perbandingan durasi kalimat
+fonem menggunakan model klatt dianalisis secara keseluruhan untuk mempermudah dalam penarikan kesimpulan
+durasi fonem dengan model klatt pada bahasa melayu pontianak dapat menghasilkan sintesa ucapan yang jelas
+tabel iii total hasil analisis konstanta dari 576 kalimat diperlukan untuk memprediksi durasi dengan model klatt
+hasil nilai konstanta fonem vokal dan konsonan dapat dilihat pada tabel 4 untuk konstanta fonem vokal, tabel 5 dan 6 untuk konstanta fonem konsonan
+implementasi model durasi klatt prediksi durasi fonem menggunakan model durasi klatt ditampilkan pada command prompt seperti yang terlihat pada gambar 4
+pengujian standar kecepatan durasi pengujian standar kecepatan durasi dilakukan untuk menentukan kualitas kecepatan kalimat yang diucapkan
+tujuan pengujian ini yaitu kemampuan untuk menerima kecepatan ucapan yang masih bisa diterima oleh pendengar
+pengujian ini dilakukan terhadap satu kalimat yang digunakan sebagai standar untuk penentuan kualitas kecepatan ucapan
+audio rekaman kalimat ini dipercepat -10% hingga -50% dan diperlambat 10% hingga 50%
+analisis hasil uji terdapat pada tabel 7
+range hasil uji menerima ucapan yang dipercepat maupun diperlambat dalam rentang kecepatan -20% hingga 20% dalam kategori sangat baik
+pengujian ini bertujuan untuk membandingkan durasi penutur dan durasi klatt
+menghitung perbandingan durasi dapat dilakukan menggunakan rumus berikut: nilai durasi : durasi klatt lebih lambat dari durasi penutur penutur a
+berdasarkan durasi fonem terhadap 10 kalimat uji pengujian ini, terlebih dahulu dilakukan analisis perbandingan nilai durasi berdasarkan kalimat
+hasil perbandingan durasi klatt dan durasi penutur terhadap 10 kalimat uji dapat dilihat pada tabel 8
+kemudian 10 kalimat uji diuraikan lagi perbandingan durasi berdasarkan durasi fonem tiap-tiap kalimat
+hasil analisis perbandingan durasi fonem dapat dilihat pada tabel 9
+tabel viii range kecepatan durasi ucapan range kecepatan durasi ucapan berdasarkan fonem dilihat dari dua sisi perbandingan terhadap 10 kalimat uji
+1) hasil perbandingan durasi berdasarkan durasi kalimat tabel 8 diperoleh hasil kecepatan durasi yang dapat diterima oleh pendengar berdasarkan hasil uji standar kecepatan durasi pada tabel 7 dalam range kecepatan durasi 20% hingga -20% pada kategori sangat baik adalah sebanyak 80% kalimat dari 10 kalimat uji
+2) hasil perbandingan durasi berdasarkan durasi fonem tabel 9 menampilkan analisis hasil perbandingan durasi fonem yang masuk dalam kategori sangat baik berdasarkan hasil pengujian standar kecepatan durasi
+pengujian perbandingan durasi berdasarkan durasi kalimat terhadap 100 kalimat uji hasil analisis perbandingan durasi berdasarkan durasi kalimat dapat dilihat pada tabel 10
+tabel x range kecepatan durasi ucapan durasinya dapat diterima oleh pendengar berdasarkan hasil uji standar kecepatan durasi pada tabel 7 dalam range kecepatan durasi -20% hingga 20% pada kategori sangat baik adalah sebanyak 94% kalimat dari 100 kalimat uji
+kesimpulan prediksi durasi yang dilakukan menggunakan model klatt pada bahasa melayu pontianak, maka dapat ditarik kesimpulan sebagai berikut
+maupun diperlambat dalam rentang kecepatan -20% hingga 20% dalam kategori sangat baik
+hasil perbandingan nilai durasi berdasarkan durasi fonem pada 10 kalimat uji dari 320 fonem diperoleh 95 fonem atau 30% yang termasuk dalam rentang kecepatan durasi ucapan pada kategori sangat baik
+perbandingan jumlah fonem vokal dan konsonan terhadap 95 fonem pada kategori sangat baik yaitu fonem vokal sebanyak 42.1% dan fonem konsonan sebanyak 57.8% 
+hasil perbandingan durasi kalimat terhadap 100 kalimat uji diperoleh 94% kalimat yang termasuk dalam rentang kecepatan durasi ucapan pada kategori sangat baik
+berdasarkan pengujian perbandingan model durasi klatt yang menggunakan aturan suku kata dan tipe suku kata dapat memprediksi durasi fonem total pada ucapan sintesa bahasa melayu pontianak namun masih perlu penelitian lanjut untuk memprediksi durasi masing-masing fonem

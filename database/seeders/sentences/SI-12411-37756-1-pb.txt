@@ -1,0 +1,129 @@
+karya ilmiah adalah karangan ilmu pengetahuan yang menyajikan fakta dan ditulis menurut metodologi penulisan yang baik dan benar
+namun tidak dipungkiri adanya orang- orang yang tidak bertanggung jawab menyalahgunakan karya ilmiah dengan mengutip sebagian atau seluruh karya dan karya ilmiah pihak lain yang diakui sebagai karya ilmiahnya, tanpa menyatakan sumber secara tepat dan memadai disebut dengan tindakan plagiat
+penelitian ini bertujuan untuk menghasilkan suatu aplikasi dengan penerapan algoritma rabin-karp sebagai alat bantu mendeteksi kemiripan sebuah teks atau dokumen karya ilmiah dengan karya ilmiah lain yang berpotensi mengarah kepada tindakan plagiat
+aplikasi dibangun berbasis web dengan menggunakan bahasa pemrograman php dan database mysql
+proses pendeteksian kemiripan karya tulis akan melalui proses case folding, tokenizing, filtering, stemming, k-gram dan hashing kemudian dengan menggunakan algoritma rabin-karp akan dicari kemiripannya dan menggunakan dice’s similarity coeficient untuk menghitung persentase kemiripannya
+pengujian dilakukan dengan metode white box dan pengisian kuesioner oleh 100 responden
+berdasarkan hasil pengujian dan pengukuran skala hasil dari kuesioner dengan likert’s summated rating menunjukkan bahwa aplikasi sangat positif dan dinilai berhasil serta sebanyak 15, 4% responden sangat setuju dengan hasil keluaran sistem, 41, 1% responden setuju dengan hasil keluaran sistem dan 22% responden cukup setuju dengan hasil keluaran sistem
+sisanya sebanyak 13, 8% kurang setuju dan 7, 7% tidak setuju dengan hasil keluaran sistem
+pendahuluan pengetahuan yang menyajikan fakta dan ditulis menurut metodologi penulisan yang baik dan benar
+karya ilmiah dapat juga berarti tulisan yang didasari oleh hasil pengamatan, peninjauan, penelitian dalam bidang tertentu, disusun menurut metode tertentu dengan sistematika penulisan yang bersantun bahasa dan isinya dapat di pertanggung jawabkan kebenarannya/keilmiahannya
+maju, karya tulis ilmiah selain disimpan dalam bentuk buku juga disimpan pula dalam bentuk file 
+namun tidak dipungkiri adanya orang-orang yang tidak bertanggung jawab menyalahgunakan karya ilmiah yang dibagikan tersebut dengan meng-copy isi karya ilmiah tanpa izin dan sepengetahuan penulis untuk kepentingan pribadinya
+ini yang disebut dengan plagiarisme atau plagiat
+plagiaisme adalah tindakan mengambil ide atau tulisan orang lain tanpa rujukan dan mengklaim bahwa ide dan tulisan tersebut adalah miliknya
+biasanya untuk melihat adanya atau tidak penjiplakan yang terjadi pada suatu karya ilmiah tersebut dilakukan secara manual dengan membaca semua isinya lalu dibandingkan dengan karya ilmiah lain
+dengan begitu, pemeriksaan tersebut membutuhkan waktu yang cukup banyak
+string yang ditemukan oleh michael rabin dan richard karp
+algoritma ini menggunakan hashing untuk menemukan sebuah substring dalam sebuah teks
+disebut algoritma pencarian string dan bukan pencocokan string seperti knuth- morris-pratt atau boyer-moore karena memang algoritma rabin-karp tidak bertujuan menemukan string yang cocok dengan string masukan, melainkan menemukan pola yang sekiranya sesuai dengan teks masukan
+diharapkan aplikasi yang akan dirancang pada penelitian ini dapat membantu pengguna untuk melakukan pendeteksian kemiripan sebuah karya ilmiah dengan karya ilmiah lain yang berpotensi mengarah kepada tindakan plagiat
+uraian penelitian atau "tidak mengandung unsur plagiat
+sehingga sangatlah penting untuk memahami definisi plagiat atau plagiarisme dari berbagai sumber
+pendapat, dan sebagainya dari orang lain dan menjadikannya seolah-olah karangan dan pendapat sendiri
+ekstraksi dokumen memiliki beberapa karakteristik diantaranya adalah memiliki dimensi yang tinggi, terdapat noise pada data, dan terdapat struktur teks yang tidak baik
+diperlukan tahap preprocessing yang dilakukan secara umum dalam teks mining pada dokumen, yaitu case folding, tokenizing, filtering dan stemming
+ini dilakukan untuk mempermudah implementasi algoritma rabin-karp untuk doddi aria putra1, herry sujaini2, helen sasty pratiwi3
+program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 e-mail: 1doddiariaputra@gmail.com, 2herry_sujaini@yahoo.com, 3helensastypratiwi@gmail.com pencarian
+tidak semua dokumen teks konsisten dalam penggunaan huruf kapital oleh kerena itu peran case folding dibutuhkan dalam mengkonversi keseluruhan teks dalam dokumen menjadi suatu bentuk standar 
+tokenizing berdasarkan tiap kata yang menyusunnya
+karakter selain huruf dihilangkan dan dianggap delimiter
+delimiter adalah urutan satu karakter atau lebih yang dipakai untuk membatasi atau memisahkan data yang disajikan dalam kalimat
+salah satu contoh dari delimiter adalah tanda koma, titik koma atau titik dua
+berikut ini adalah diagram alir dari proses case folding dan tokenizing
+teks/dokumen pembanding mengubah teks/ isi dokumen uji dan pembanding menjadi huruf kecil delimiter = karakter selain huruf selesai teks/dokumen dengan semua huruf menggunakan huruf kecil dan memotong setiap kata serta telah dihilangkan karakter selain huruf memotong setiap kata dan menghapus karakter selain huruf gambar 1 diagram alir dari proses case folding dan tokenizing filtering tokenizing
+filtering dapat menggunakan algoritma stoplist atau wordlist 
+dalam penelitian ini akan menggunakan stoplist
+stoplist atau yang biasa juga disebut stopword adalah kata-kata yang tidak deskriptif yang dapat dibuang dalam pendekatan bag-of-words 
+berikut ini adalah diagram alir dari proses filtering
+stopword = daftar kata kurang penting tersimpan dalam database kata = array kata = stopword ? kata di hapus dari array y t y t dimasukkan ke dalam variabel kata setiap kata dalam array digabungkan kembali menjadi sebuah teks kata selanjutnya yang ada pada array gambar 2 diagram alir dari proses filtering stemming tahap stemming adalah tahap mencari kata dasar kata dari tiap kata hasil filtering
+pada tahap ini dilakukan proses pengembalian berbagai bentukan kata ke dalam suatu representasi yang sama
+tahap ini kebanyakan dipakai untuk teks berbahasa inggris dan lebih sulit diterapkan pada teks berbahasa indonesia
+hal ini dikarenakan bahasa indonesia tidak memiliki rumus bentuk baku yang permanen
+berikut ini adalah diagram alir dari proses stemming
+k-gram kebanyakan yang digunakan sebagai terms adalah kata
+k- gram merupakan sebuah metode yang diaplikasikan untuk pembangkitan kata atau karakter
+metode k-gram ini digunakan untuk mengambil potongan-potongan karakter huruf sejumlah k dari sebuah kata yang secara kontinuitas dibaca dari teks sumber hingga akhir dari dokumen
+berikut ini adalah diagram alir dari proses k-gram
+mulai pstring = panjang string batas = pstring – 2 n = 1 k = 3 karakter ke- k terdiri dari 3 karakter y t selesai setiap hasil pemotongan digabungkan menjadi teks gambar 4 diagram alir dari proses k-gram d
+hashing string menjadi suatu nilai yang unik dengan panjang tertentu yang berfungsi sebagai penanda string tersebut
+fungsi untuk menghasilkan nilai ini disebut fungsi hash, sedangkan nilai yang dihasilkan disebut nilai hash
+misalnya pengunaan hashing dalam pencarian data pada database
+apabila tidak di-hash, pencarian akan dilakukan karakter perkarakter pada nama-nama yang panjangnya bervariasi dan ada 26 kemungkinan pada setiap karakter
+namun pencarian akan menjadi lebih efisien setelah di-hash karena hanya akan membandingkan empat digit angka dengan cuma 10 kemungkinan setiap angka
+algoritma rabin-karp didasarkan jika dua buah string sama maka harga hash value-nya pasti sama
+akan tetapi ada dua masalah yang timbul dari hal ini, masalah pertama yaitu ada begitu banyak string yang berbeda, permasalahan ini dapat dipecahkan dengan meng-assign beberapa string dengan hash value yang sama
+kunci agar algoritma rabin-karp efisien, terdapat pada pemilihan hash value-nya
+salah satu cara yang terkenal dan efektif adalah memperlakukan setiap substring sebagai suatu bilangan dengan basis tertentu
+berikut ini adalah diagram alir dari proses hashing
+mulai teks hasil proses k-gram dipotong perkata menjadi array dan dimasukkan ke dalam variabel kata kata = array hashing[‘hash’] = array hashing[‘string’] = array hashing[‘hash’] = t hashing[‘string’] = 3 karakter asli dari kata sebelum di hashing gambar 5 diagram alir dari proses hashing e
+algoritma rabin-karp yang menggunakan fungsi hash sebagai pembanding antara string yang dicari dengan substring pada teks 
+apabila hash value keduanya sama maka akan dilakukan perbandingan sekali lagi terhadap karakter-karakternya
+apabila hasil keduanya tidak sama, maka substring akan bergeser ke kanan
+berikut ini adalah diagram alir dari algoritma rabin-karp
+mulai jumlahsama = 0 kgram = 3 uji[‘hash’] = pembanding[‘hash’] ? di cek ? sudah di cek ? yang pertama uji[‘hash’] = hashing[‘hash’] uji uji[‘string’] = hashing[‘string’] uji pembanding[‘hash’] = hashing[‘hash’] pembanding pembanding[‘string’] = hashing[‘string’] pembanding gambar 6 diagram alir dari algoritma rabin-karp f
+perhitungan nilai similarity yang didapat maka digunakan dice’s similarity coeficients dengan cara menghitung nilai dari jumlah k-gram yang digunakan pada kedua dokumen yang diuji, sedangkan dokumen fingerprint didapat dari jumlah nilai k-gram yang sama
+nilai similarity tersebut dapat dihitung dengan menggunakan
+perancangan sistem gambaran umum terhadap kegiatan yang berlangsung pada sistem
+berikut ini adalah gambar yang akan menunjukkan diagram konteks dari sistem ini
+implementasi algoritma rabin-karp untuk user jurnal admin jurnal b
+diagram overview sistem urutan-urutan proses dari diagram konteks
+berikut ini adalah gambar diagram overview dari sistem ini
+3.0 preprocessing waktu proses waktu proses persentase kemiripan judul, penulis, karya ilmiah judul, penulis, karya ilmiah judul, penulis, karya ilmiah judul, penulis, karya ilmiah, detail proses, persentase, tanggal proses, waktu proses login karya ilmiah, detail proses, persentase, tanggal proses, waktu proses c
+entity relationship diagram untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antar relasi
+erd untuk memodelkan struktur data dan hubungan antar data, untuk menggambarkannya digunakan beberapa notasi dan simbol
+berikut ini adalah entity relationship diagram dari sistem ini
+history_cek dictionary stopword id_history* lemma iv
+hasil dan analisis membantu pengguna dalam menentukan kemiripan antar jurnal yang mana kemiripan tersebut termasuk kedalam tindakan plagiarisme atau peniruan karya ilmiah
+aplikasi ini merupakan aplikasi berbasis web
+pada sisi end-user dan dapat digunakan oleh siapapun
+oleh karena itu, antarmuka dirancang sesederhana mungkin agar dapat digunakan dengan mudah
+berikut ini adalah halaman login admin
+setelah melakukan login sebagai admin, berikut ini perubahan tampilan antarmuka dari sistem yang digunakan untuk user atau ketika tidak login sebagai admin pada gambar 11 dan setelah melakukan login pada gambar 12 yang memiliki penambahan menu ganti username dan password dan log out
+berikut ini adalah gambar dari salah satu menu pendeteksian
+gambar 13 antarmuka halaman pendeteksian setelah mengklik tombol deteksi maka sistem akan mendeteksi antara dokumen uji dan dokumen pembanding
+setelah proses pendeteksian selesai maka akan tampil hasil persentase kemiripan dari kedua dokumen tersebut seperti pada gambar 14
+pada hasil proses akan ditampilkan lama waktu proses
+selain info lama waktu proses, pada halaman hasil proses juga akan menampilkan persentase kemiripan disertai indikasi warna
+sistem mengkategorikan 5 jenis hasil pendeteksian sebagai berikut
+tidak mirip, yaitu hasil deteksi 0% yang berarti kedua dokumen tersebut berbeda baik dari segi isi dan kalimat secara keseluruhan
+indikasi warna persentase adalah warna biru
+sedikit mirip, yaitu hasil deteksi lebih dari 0% sampai 25% yang berarti dokumen tersebut hanya mempunyai sedikit kesamaan
+indikasi warna persentase adalah warna hijau
+cukup mirip, yaitu hasil deteksi lebih dari 25% sampai 50% berarti dapat dikatakan bahwa dokumen tersebut cukup banyak memiliki kemiripan
+indikasi warna persentase adalah warna kuning
+mirip, yaitu hasil deteksi lebih dari 50% sampai 75% berarti dapat dikatakan bahwa dokumen tersebut memiliki banyak kemiripan
+indikasi warna persentase adalah warna oren
+sangat mirip, yaitu hasil deteksi lebih dari 75% sampai 100% berarti dokumen tersebut mendekati plagiat
+dokumen harus diperiksa manual, agar mendapatkan hasil yang lebih valid
+indikasi warna persentase adalah warna merah
+memeriksa apakah sistem dapat berjalan saat digunakan oleh pengguna
+pengujian ini melibatkan data real yang didapat secara langsung melalui kuesioner
+kuesioner berisikan 16 pertanyaan dan diberikan kepada 100 mahasiswa
+kuesioner untuk bagian aspek rekayasa perangkat lunak memiliki 6 pertanyaan sedangkan kuesioner untuk bagian persentase kemiripan memiliki 10 pertanyaan
+terdapat 1 tanggapan buruk dengan persentase 0, 17% dari responden pada penilaian kelengkapan fitur yang mungkin saja dikarenakan responden tersebut merasa aplikasi yang dibangun belum memiliki fitur yang lengkap
+persentase kemiripan tersebut menggunakan teks uji dan teks pembanding yang berbeda
+berikut ini adalah teks uji dan teks pembanding dari setiap percobaan
+tabel 2 1 untuk menjadi orang sukses suara 7 diisi oleh responden terhadap hasil persentase kemiripan yang maksudnya adalah persetujuan sesuai atau tidaknya penalaran responden dengan hasil persentase kemiripan aplikasi ditunjukkan pada tebel berikut ini
+tabel 3 hasil kuesioner persentase kemiripan percobaan 1 61, 82 % percobaan 2 49, 28 % percobaan 3 37, 04 % percobaan 4 15, 87 % percobaan 5 16, 67 % percobaan 6 66, 67 % percobaan 7 29, 03 % percobaan 8 81, 82 % percobaan 9 53, 16% percobaan 10 32, 26% total 77 138 220 411 154 1000 persentase 7, 7 13, 8 22 41, 1 15, 4 1000 keterangan : 1 = tidak setuju 4 = setuju 2 = kurang setuju 5 = sangat setuju 3 = cukup setuju sebagian besar responden setuju dengan hasil persentase kemiripan keluaran aplikasi yang dibuktikan dengan 41, 1% responden setuju dengan jumlah tanggapan sebanyak 411 tanggapan
+namun selain responden sangat setuju, setujudan cukup setuju dengan hasil persentase keluaran aplikasiti, terdapat 134 tanggapan dengan persentase 13, 4% yang kurang setuju dengan hasil persentase keluaran aplikasi dan 77 tanggapan dengan persentase 7, 7% tidak setuju dengan hasil persentase keluaran aplikasi
+hasil pengujian white box untuk kode program case folding, tokenizing, filtering, k-gram, hashing, algoritma rabin-karp dan dice’s coeficient similarity menunjukkan bahwa dalam penerapan setiap tahapan pendeteksian kemiripan telah berhasil dengan error nol, dimana setiap satu rangkaian pernyataan proses pada program telah dieksekusi paling tidak satu kali selama pengujian dan semua kondisi logis telah diuji dan berhasil
+hasil pengujian validitas, kuesioner yang berisikan 16 pertanyaan dan diberikan kepada 100 mahasiswa menunjukkan bahwa semua pertanyaan dalam kuesioner dinyatakan valid karena nilai korelasi setiap pertanyaan lebih dari nilai rtabel sebesar 1, 654 untuk digunakan dalam pengumpulan data
+begitu pula dengan kuesioner untuk bagian persentase kemiripan yang berisikan 10 pertanyaan diberikan kepada 100 mahasiswa menunjukkan bahwa semua pertanyaan dalam kuesioner dinyatakan valid karena nilai korelasi setiap pertanyaan lebih dari nilai rtabel sebesar 1, 654 untuk digunakan dalam pengumpulan data
+hasil pengujian reliabilitas, nilai alpha kuesioner sebesar 0, 606 yang mengartikan bahwa tingkat reliabilitas moderat dan dapat dipercaya
+begitu pula dengan kuesioner untuk bagian persentase kemiripan memiliki nilai alpha sebesar 0, 622 yang mengartikan bahwa tingkat reliabilitas moderat dan dapat dipercaya
+hasil pengujian user acceptance test untuk aspek rekayasa perangkat lunak dengan pengukuran skala menggunakan likert’s summated rating menunjukkan beberapa responden yang menggunakan aplikasi menilai aplikasi sangat positif dan dinilai berhasil yang dibuktikan dengan skor total dari keseluruhan data kuesioner berjumlah 2440 yaitu berada di antara kuartil iii dan maksimal 5
+hasil pengujian user acceptance test untuk persentase kemiripan dengan pengukuran skala menggunakan likert’s summated rating menunjukkan beberapa responden yang menggunakan aplikasi menilai aplikasi positif dan dinilai cukup berhasil yang dibuktikan dengan skor total dari keseluruhan data kuesioner berjumlah 3427 yaitu berada di antara median dan kuartil iii
+berdasarkan hasil pengisian kuesioner, terdapat pernyataan kurang setuju dan tidak setuju pada kuesioner tentang persentase kemiripan dapat mengartikan bahwa pendeteksian kemiripan menggunakan algoritma rabin- karp masih belum berjalan sesuai dengan penalaran pikiran manusia pada umumnya
+algoritma rabin-karp mendeteksi kemiripan dengan berdasarkan pola huruf yang digunakan pada suatu teks
+dua kata dapat dikatakan mirip ketika kata yang menyusunnya tersebut menggunakan pola huruf yang sama
+contohnya adalah kata ”pernah” yang ketika melewati proses pemotongan dengan 3-gram akan menjadi ”per”, ”ern”, ”rna”, ”nah” dan kata ”pergi” akan menjadi ”per”, ”erg”, ”rgi” yang seharusnya kata yang berbeda namun apabila menggunakan pendeteksian kemiripan dengan algoritma rabin-karp akan dikatakan memiliki kemiripan dikarenakan terdapat 1 pola yang sama yaitu ”per”
+kesimpulan/ringkasan pendeteksi plagiat karya ilmiah dengan menggunakan algoritma rabin-karp, dapat disimpulkan bahwa
+algoritma rabin-karp dapat diimplementasikan untuk mendeteksi kemiripan antar teks atau dokumen
+algoritma rabin-karp mendeteksi kemiripan tidak berdasarkan dengan kemiripan setiap kata namun dengan melakukan pendeteksian kemiripan setiap hash dari pattern antar kedua karya tulis yang merupakan hasil dari proses hashing dan k-gram
+berdasarkan hasil dari kuesioner yang telah di isi oleh 100 orang responden, sebagian besar responden setuju bahwa aplikasi yang dibangun dapat meningkatkan keefektifitasan waktu dalam melakukan proses pendeteksian kemiripan karya ilmiah pengguna
+sebanyak 37 orang sangat setuju, 58 orang setuju dan 5 orang cukup setuju
+berdasarkan hasil dari kuesioner yang telah di isi oleh 100 orang responden dengan 10 pertanyaan yang diajukan mengenai hasil persentase kemiripan, sistem dapat dikatakan sebagai alat bantu untuk mempertimbangkan dalam memenentukan plagiat atau tidaknya suatu karya ilmiah karena sebagian besar responden setuju dengan setiap hasil persentase kemiripan dari sistem
+sebanyak 15, 4% responden sangat setuju dengan hasil keluaran sistem, 41, 1% responden setuju dengan hasil keluaran sistem dan 22% responden cukup setuju dengan hasil keluaran sistem
+sisanya sebanyak 13, 8% responden kurang setuju dan 7, 7% responden tidak setuju dengan hasil keluaran sistem
+hasil pengujian user acceptance test untuk aspek rekayasa perangkat lunak dengan pengukuran skala menggunakan likert’s summated rating menunjukkan beberapa responden yang menggunakan aplikasi menilai aplikasi sangat positif dan dinilai berhasil yang dibuktikan dengan skor total dari keseluruhan data kuesioner berjumlah 2440 yaitu berada di antara kuartil iii dan maksimal 6

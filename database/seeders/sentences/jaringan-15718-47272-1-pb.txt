@@ -1,0 +1,108 @@
+seiring dengan berkembangnya kebutuhan pengguna dan peningkatan permintaan pada suatu situs web maka kinerja dari web server bertambah berat
+web server yang handal tentunya mampu melayani request dari pengguna dalam jumlah yang cukup besar dalam satu satuan waktu
+namun terkadang web server mengalami down atau fail dimana web server tidak mampu lagi menangani jumlah request yang sangat besar dalam satu satuan waktu atau kadang web server mengalami masalah atau kerusakan
+seperti halnya pada laboratorium program studi teknik informatika yang memiliki web server yang dapat diakses oleh klien
+web server tersebut sewaktu-waktu dapat mengalami down atau fail
+salah satu solusi yang dianggap tepat untuk mengatasi masalah tersebut adalah dengan menggunakan metode load balancing
+dalam membangun web server dengan load balancing ada beberapa tahap yang harus dikerjakan antara lain mengumpulkan data, lalu masuk ke proses pengembangan arsitektur jaringan dengan menambahkan load balancing pada jaringan yang sudah ada, kemudian web server diuji dan dianalisis
+berdasarkan penelitian yang telah dilakukan, dapat disimpulkan sebagai berikut : hasil pengujian ketersediaan web server dengan load balancing dapat memberikan ketersediaan layanan lebih baik dibandingkan web server tunggal hasil pengujian throughput web server load balancing dengan algoritma round robin memiliki throughput paling baik yaitu 0, 19 mb/detik dibandingkan dengan web server tunggal dengan throughput 0, 182 mb/detik dan web server load balancing dengan algoritma least connection yang memiliki throughput paling kecil yaitu 0, 174 mb/detik
+ pengujian waktu respon web server load balancing dengan algoritma least connection memiliki waktu respon tercepat yaitu 0, 258 detik diikuti oleh web server load balancing dengan algoritma round robin memiliki waktu respon 0, 26 detik, sedangkan web server tunggal memiliki waktu respon paling lama yaitu 0, 284 detik
+bidang ekonomi, sosial, budaya maupun pendidikan memanfaatkan internet sebagai media penyebaran informasi dan komunikasi dengan biaya relatif murah, jangkuan yang sangat luas dan efisien
+salah satu jenis layanan dari internet yaitu world wide web
+world wide web atau web adalah suatu cara mengakses informasi melalui media internet web menggunakan protokol http untuk mengirimkan data
+web server bertanggung jawab melayani permintaan http dari aplikasi klien yang dikenal dengan web browser
+seiring dengan berkembangnya kebutuhan pengguna dan peningkatan permintaan pada suatu situs web maka kerja dari web server bertambah berat
+web server yang handal tentunya mampu melayani request dari pengguna dalam jumlah yang cukup besar dalam satu satuan waktu
+namun terkadang web server mengalami down atau fail dimana web server tidak mampu lagi menangani jumlah request yang sangat besar dalam satu satuan waktu atau kadang web server mengalami masalah atau kerusakan
+informatika yang memiliki web server yang dapat diakses oleh klien
+web server tersebut sewaktu-waktu dapat mengalami down atau fail
+hal ini tentu akan mengganggu proses pertukaran data yang terjadi antara web server dan klien
+permasalahan tersebut terjadi diakibatkan karena web server hanya memiliki mesin tunggal atau single web server
+salah satu solusi yang biasa dilakukan adalah dengan cara meminimalisir proses yang berjalan pada web server tersebut
+namun hal tersebut tidak memberikan efek yang begitu besar untuk mengatasi web server yang down
+solusi lain yang dapat dilakukan adalah dengan meng-upgrade spesifikasi web server
+namun hal itu tentu akan menghabiskan biaya yang cukup besar
+salah satu solusi yang dianggap tepat untuk mengatasi masalah tersebut adalah dengan menggunakan metode load balancing
+trafik pada dua atau lebih jalur koneksi secara seimbang, agar trafik dapat berjalan optimal, memaksimalkan throughput, memperkecil waktu tanggap dan menghindari overload pada salah satu jalur koneksi
+salah satu jenis load balancer adalah haproxy, yaitu sebuah software load balancer untuk protokol tcp dan http, haproxy dipilih karena memiliki kemampuan mengontrol trafik dari masing-masing request data dari klien, bukan hanya berdasarkan jumlah koneksi yang masuk
+untuk mengoptimalkan load balancing maka perlu digunakan algoritma untuk mengatur penjadwalan jalannya proses pembagian koneksi
+algortima yang digunakan yaitu round robin dan least connection
+perlu dibangun sebuah sistem penyeimbang pembagian koneksi web server pada prodi teknik informatika yang dapat membagi beban request dari klien
+web server digunakan untuk menyimpan halaman website atau homepage
+dalam melakukan permintaan suatu halaman pada suatu situs web, browser melakukan koneksi ke suatu server dengan protocol http
+server akan menanggapi koneksi tersebut dengan mengirimkan isi file yang diminta dan memutuskan koneksi tersebut
+browser kemudian mengolah informasi yang didapat dari server
+pada bagian server, browser yang berbeda dapat melakukan koneksi pada server yang sama untuk memperoleh informasi yang sama
+data ini mempunyai format yang standar, disebut dengan format sgml 
+data yang berupa format ini kemudian akan ditampilkan oleh browser sesuai dengan kemapuan browser tersebut
+web server yang terkenal diantaranya adalah apache
+web server merupakan software yang menjadi tulang punggung dari world wide web 
+load balancing terhadap sebuah servis yang ada pada sekumpulan server atau perangkat jaringan ketika ada permintaan dari pemakai
+secara umum, jika ada pengguna mengirimkan permintaan http untuk sebuah alamat web, permintaan diarahkan ke web server yang ditentukan oleh domain name system 
+semua permintaan akan ditangani oleh mesin ini
+dalam load balancing, layanan dapat didistribusikan dengan mengirim permintaan berikutnya ke server yang berbeda
+sehingga dengan load balancing, permintaan untuk layanan pada sebuah server dapat tersebar di hampir semua jumlah server yang disediakan
+load balancing pada web server berada di layer 4 yaitu untuk mendistribusikan permintaan ke server pada lapisan transport, seperti tcp dan udp
+dalam membuat sebuah load balancing dapat menggunakan beberapa metode yaitu : balancing namun tidak dapat menjaga session pengguna
+eddie mission, merupakan penyempurnaan dari balance dengan dapat menjaga session dari pengguna
+enhanced dns server, pada metode ini harus memasang eddie mission terlebih dahulu dalam membuat sebuah load balancing
+menangani load balancing dengan beberapa metode
+algoritma penjadwalan pada load balancing linux director perlu menerapkan algoritma jadwal tertentu pada load balancing
+algoritma penjadwalan load balancing yang digunakan antara lain sebagai berikut : 1
+round robin adalah algoritma yang berfungsi untuk mengarahkan koneksi jaringan pada sebuah model round robin
+penjadwalan ini memberlakukan semua real server sama menurut jumlah koneksi dan waktu respon
+kelemahannya adalah membutuhkan peramalan beban yang akurat untuk setiap request agar algoritma ini bisa berjalan dengan efektif
+least connection adalah algoritma untuk mengarahkan koneksi baru ke real server dengan koneksi aktif yang paling sedikit
+penjadwalan ini merupakan penjadwalan yang dinamik, karena memerlukan perhitungan koneksi aktif untuk masing-masing real server secara dinamik
+haproxy dan handal dalam memberikan ketersediaan yang tinggi terhadap server, load balancing, dan proxy untuk tcp dan aplikasi berbasis http
+haproxy sangat cocok diterapkan pada server yang memiliki trafik yang sangat tinggi
+selama bertahun-tahun telah menjadi standar de-facto untuk aplikasi opensource load balancer dan telah tersebar ke berbagai macam distro linux dan digunakan secara default pada platform cloud
+beberapa sistem operasi antara lain linux 2.4, linux 2.6/3.x, solaris 8/9, solaris 10, freebsd 4.10-10, openbsd 3.1 dan aix 5.1-5.3
+haproxy dapat berjalan dengan baik pada sistem operasi tersebut dan memberikan kinerja yang tinggi seperti transfer data yang cepat, trafik forwarding hingga 40 gbps
+haproxy dipilih karena memiliki kemampuan mengontrol trafik dari masing-masing request data dari client, bukan hanya berdasarkan jumlah koneksi yang masuk, selain itu haproxy dipilih karena terdapat fitur untuk menampilkan statistik dari penggunaan masing-masing web server yang dikontrolnya
+network address translation network address translation yaitu sebuah metode yang memanipulasi alamat ip dan nomor port baik berasal sumber maupun tujuannya
+alamat ip publik disamarkan untuk digunakan oleh alamat ip privat agar bisa berhubungan dengan internet linux director dan real server dihubungkan oleh switch
+real server biasanya menjalankan layanan yang sama dan mempunyai layanan yang sama
+cara kerja network address translation nat adalah sebagai berikut : 1
+ketika user mengakses layanan yang disediakan oleh server
+maka paket yang dikirimkan akan sampai ke director
+director lalu akan memilih server berdasarkan penjadwalan dan menulis ulang alamat tujuan paket ke alamat ip real server lalu meneruskannya ke real server
+ketika korespondensi server terhadap proses permintaan dan balasan sesuai dengan permintaan, maka dikirimkan ke director
+director menulis ulang alamat dari paket balasan ke alamat ip dari real server dan kemudian mengembalikan paket ke user
+mengakomodasi transfer data antara dua buah komputer melalui jalur komunikasi yang aman
+ssh menggunakn kriptograpi public key untuk melakukan autentifikasi komputer remote dan untuk menginginkan komputer remote untuk mengautentikasi user jika diperlukan
+server ssh yang biasa digunakan adalah openssh yang secara default akan melakukan listening di port 22
+client akan membuka koneksi ke suatu server dan kemudian mengirimkan permintaan menggunakan format spesifik
+server akan memberi tanggapan kemudian akan menutup koneksi
+http memiliki kemampuan untuk mentransfer halaman web, gambar dan media lainnya yang dipergunakan oleh aplikasi web
+mengambil informasi-informasi dari server komputer pada suatu jaringan internet maupun intranet web browser adalah suatu program yang digunakan untuk menjelajahi dunia internet atau untuk mencari informasi tentang suatu halaman web yang tersimpan di komputer
+cara kerja web browser adalah pada saat kita mengetikkan suatu alamat pada browser maka data akan dilewatkan oleh suatu protocol http melewati port 80 pada server
+perancangan sistem pada tahap ini dilakukan pengembangan arsitektur jaringan yang telah ada pada jaringan prodi teknik informatika untuk menambahkan load balancer dan beberapa backend web server
+pengembangan arsitektur jaringan yang akan diterapkan pada jaringan prodi teknik informatika dijelaskan pada gambar 1 berikut
+pembuatan sistem address, update dan upgrade kernel linux, konfigurasi network address translation, konfigurasi ssh server, konfigurasi ftp server, instalasi paket pendukung load balancer, konfigurasi haproxy, konfigurasi web server, instalasi php, serta konfigurasi moses server dan integrasi moses server dan web server
+implementasi pengembangan arsitektur jaringan pengembangan arsitektur jaringan yang dilakukan yaitu dengan meletakkan posisi load balancer dan beberapa backend web server yang terhubung ke routerboard utama melalui port ethernet 9 yang memiliki ip public 203.24.50.140 dan netmask 255.255.255.248
+untuk lebih jelasnya pengembangan arsitektur jaringan mengacu pada gambar 1
+pengujian sistem ketersediaan layanan dari web server
+hal ini dilakukan dengan cara mengakses web server dalam keadaan down baik itu web server tunggal tanpa load balancing dan web server dengan load balancing
+lalu akan diuji dengan cara mengakses web server melalui web browser
+pengujian ini dilakukan untuk membuktikan apakah web server masih dapat memberikan layanan atau tidak walaupun dalam keadaan down
+tabel 1 pengujian ketersediaan web server web server web server dengan web server dengan dalam keadaan down pada web server tunggal tanpa load balancing dan web server dengan load balancing
+throughput digunakan untuk mengetahui kemampuan web server dalam memberikan layanan secara benar terhadap request yang datang secara bersamaan
+pengujian ini menggunakan simulasi mengirimkan koneksi secara bersamaan sebanyak 500 hingga 2500 request, dengan hasil pengamatan sebagai berikut
+pengujian ini dilakukan untuk mengetahui waktu respon terhadap request yang datang
+pengujian ini menggunakan simulasi mengirimkan koneksi secara bersamaan sebanyak 500 hingga 2500 request, dengan hasil pengamatan sebagai berikut
+tabel 3 pengujian waktu respon web server juml ah requ est lama waktu tes server tungga rata- e
+analisis hasil pengujian dilakukan adalah sebagai berikut: yang down didapat hasil bahwa pada web server tunggal tidak dapat memberikan ketersediaan layanan kepada client yang melakukan request, sedangkan web server dengan load balancing masih dapat memberikan ketersediaan layanan kepada client walaupun terdapat beberapa web server yang down
+namun web server dengan load balancing tidak dapat memberikan ketersedian layanan apabila seluruh backend web server mengalami down
+berdasarkan hasil pengujian throughput didapat hasil untuk web server tunggal memiliki rata-rata throughput 0, 182 mb/detik, sedangkan untuk web server load balancing dengan algoritma round robin memiliki throughput paling besar yaitu 0, 19 mb/detik dan web server load balancing dengan algoritma least connection memiliki throughput 0, 174 mb/detik
+hal ini membuktikan bahwa web server dengan load balancing dapat meningkatkan throughput dibandingkan web server tunggal terlama dibandingkan dengan web server dengan load balancing yaitu dengan waktu respon 0, 284 detik, sedangkan untuk web server load balancing dengan algoritma round robin memiliki waktu respon 0, 26 detik dan web server load balancing dengan algoritma least connection memiliki waktu respon tercepat yaitu 0, 258 detik
+hal ini membuktikan bahwa web server dengan load balancing dapat meningkatkan waktu dibandingkan web server tunggal yang telah dilakukan pada web server dengan metode load balancing maka didapat hasil sebagai berikut: a
+pada pengujian throughput, web server dengan algoritma round robin memiliki throughput paling besar dibandingkan web server dengan algortima least connection yaitu 0, 19 mb/detik
+sedangkan web server dengan algoritma least connection hanya memilki throughput sebesar 0, 174 mb/detik
+sedangkan web server dengan algoritma least connection memiliki hasil yang berbeda-beda pada setiap jumlah http request yang diberikan, namun web server dengan algoritma least connection memiliki rata-rata waktu respon lebih baik dibandingkan web server dengan algoritma round robin yaitu 0, 258 detik
+rekomendasi web server yang cocok untuk diterapkan pada laboratorium teknik informatika yaitu web server dengan algortima round robin karena memiliki throughput paling besar dan memiliki waktu respon yang stabil pada setiap jumlah http request yang diberikan
+kesimpulan/ringkasan terhadap web server tunggal dan web server dengan metode load balancing dapat disimpulkan bahwa: 1
+berdasarkan pengujian ketersediaan web server dengan load balancing dapat memberikan ketersediaan layanan lebih baik dibandingkan web server tunggal 2
+berdasarkan pengujian throughput web server load balancing dengan algoritma round robin memiliki throughput paling baik yaitu 0, 19 mb/detik dibandingkan dengan web server tunggal dengan throughput 0, 182 mb/detik dan web server load balancing dengan algoritma least connection yang memiliki throughput paling kecil yaitu 0, 174 mb/detik
+berdasarkan pengujian waktu respon web server load balancing dengan algoritma least connection memiliki waktu respon tercepat yaitu 0, 258 detik diikuti oleh web server load balancing dengan algoritma round robin memiliki waktu respon 0, 26 detik, sedangkan web server tunggal memiliki waktu respon paling lama yaitu 0, 284 detik
+setelah dilakukan pengujian serta analisis hasil pengujian pada web server yang telah diterapkan pada laboratorium teknik informatika, maka dapat diberikan rekomendasi web server yang cocok untuk diterapkan yaitu web server load balancing dengan algortima round robin karena memiliki throughput paling besar dan memiliki waktu respon yang stabil pada setiap jumlah http request yang diberikan

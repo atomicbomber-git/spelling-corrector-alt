@@ -1,0 +1,170 @@
+pemanfaatan twitter sebagai layanan customer serevice perusahaan sudah mulai banyak digunakan, tak terkecuali speedy
+mekanisme yang ada saat ini untuk proses klasifikasi bentuk dan jenis keluhan serta informasi tentang jumlah keluhan lewat twitter masih dilakukan secara manual belum lagi data twitter yang bersifat tidak terstruktur tentunya akan menyulitkan untuk dilakukan analisa dan penggalian informasi dari data tersebut
+berdasarkan permasalahan tersebut, penelitian ini bertujuan untuk memproses data teks dari tweet pengguna twitteryang masuk ke akun @telkomspeedy untuk diolah menjadi informasi
+informasi tersebut nantinya digunakan untuk klasifikasi bentuk dan jenis keluhan
+merujuk pada beberapa penelitian terkait, salah satu metode klasifikasi yang paling baik untuk digunakan adalah metode support vector machine 
+konsep dari svm dapat dijelaskan secara sederhana sebagai usaha mencari hyperplane yang dapat memisahkan dataset sesuai dengan kelasnya
+kelas yang digunakan dalam penelitian kali ini berdasarkan topik keluhan pelanggan yaitu billing, pemasangan/instalasi, putus, dan lambat
+faktor penting lainnya dalam hal klasifikasi adalah penentuan feature atau atribut kata yang akan digunakan
+metode feature selection yang digunakan pada penlitian ini adalah term frequency, document frequency, information gain, dan chi-square
+pada penelitian ini juga dilakukan metode penggabungan feature yang telah dihasilkan dari beberapa metode feature selection sebelumnya
+dari hasil penelitian menunjukan bahwa svm mampu melakukan klasifikasi keluhan dengan baik, hal ini dibuktikan dengan akurasi 82, 50% untuk klasifikasi bentuk keluhan dan 86, 67% untuk klasifikasi jenis keluhan
+sedangkan untuk kombinasi penggunaan feature dapat meningkatkan akurasi menjadi 83, 33% untuk bentuk keluhan dan 89, 17% untuk jenis keluhan
+pada umumnya, follower suatu brand atau produk berharap untuk mendapatkan informasi tentang produk tersebut dan layanan lainnya dari media sosial sebelum mereka memutuskan untuk membelinya
+oleh karena itu, terdapat dua entry point pemanfaatan twitter yang paling sering digunakan oleh suatu perusahaan, pertama adalah penggunaan media sosial untuk marketing effort dan yang kedua adalah penggunaan media sosial untuk layanan pelanggan 
+perusahaan menunjukan sekitar 40% perusahaan menggunakan jalur media sosial sebagai layanan customer service dan support bagi konsumen mereka
+masih pada survei yang sama dengan pembahasan tools yang digunakan untuk customer service, hasil survei menunjukan facebook page menjadi tools yang paling banyak digunakan sebesar 73%, kemudian blog atau website sebesar 59%, sedangkan untuk twitter sendiri sekitar 51%
+hal ini menunjukan pemanfaatan twitter sebagai sarana customer service sudah mulai banyak dilirik oleh perusahaan
+namun, kebanyakan dari aplikasi tersebut masih berfokus pada marketing tools untuk melihat sejauh mana brand mereka diketahui atau diperbincangkan di media sosial
+pada umumnya perusahaan membuat suatu divisi khusus yang mengurusi media sosial disana terdapat beberapa orang yang online untuk membalas satu persatu mention yang masuk ke akun twitter perusahaan
+hal ini tentunya menjadi suatu proses yang tidak efisien terutama dalam hal time respond
+sebuah survei di amerika serikat yang dilakukan oleh a
+kearney menunjukkan bahwa 55% pelanggan menginginkan komentar atau pertanyaannya dibalas saat itu juga atau setidaknya pada hari yang sama
+belum lagi kesulitan yang dihadapi untuk menghasilkan analisa atau informasi tentang kinerja layanan tersebut
+data yang berasal dari twitter bersifat tidak terstruktur dan mengandung banyak noise
+dibutuhkan suatu tools untuk memproses data tersebut menjadi data terstruktur sehingga nantinya dapat menghasilkan informasi yang berguna
+keluhan secara otomatis dari data twitter
+tools ini nantinya akan mampu melakukan klasifikasi mana yang merupakan bentuk keluhan dan bukan keluhan dari setiap mention yang masuk pada suatu account twitter
+dari daftar keluhan atau pertanyaan konsumen tersebut, akan dilakukan proses klasifikasi untuk mengelompokan jenis keluhan atau pertanyaan yang disampaikan oleh konsumen
+tools ini juga menampilkan informasi tentang jumlah keluhan dan jumlah konsumen yang menyampaikan keluhan
+penelitian kali ini akan dilakukan pada layanan customer service akun twitter dari @telkomspeedy
+mekanisme yang ada saat ini untuk penanganan keluhan lewat sosial media menggunakan notifikasi email untuk melihat setiap mention yang masuk
+berdasarkan penelitian yang dilakukan oleh aqsath, algoritma svm memiliki tingkat akurasi paling tinggi sebesar 87% dalam hal klasifikasi teks
+oleh karena itu, pada penelitian kali ini metode klasifikasi teks menggunakan algoritma svm
+dasar teori media sosial saat ini telah mengubah cara orang melakukan bisnis
+pelanggan dan pemilik bisnis memiliki pilihan lebih dari sebelumnya
+bahkan banyak orang melakukan keluhan lewat media sosial, baik itu di twitter maupun facebook
+media sosial menjadi bagian penting dari budaya bisnis, maka menggunakan media sosial untuk layanan pelanggan adalah perpindahan dari sebuah konsep menuju kebutuhan pasar
+saat ini, sebuah keluhan dari pelanggan di media sosial dapat berpengaruh dan memberi efek yang besar pada reputasi perusahaan
+lebih lanjut lagi, percakapan di media sosial juga dapat digunakan sebagai sistem peringatan awal untuk isu yang berkembang sekitar produk dan layanan perusahaan
+survei avaya asia pacific customer experience index menemukan data tentang konsumen di asia pasifik semakin menyukai komunikasi multi-saluran dalam layanan pelanggan
+tercatat 75% konsumen lebih menyukai dukungan layanan pelanggan diberikan melalui beberapa saluran, naik dari 60% dibandingkan 2012
+hal ini menunjukkan bahwa perusahaan- perusahan saat ini harus segera memiliki strategi pengalaman pelanggan multi-saluran yang lengkap
+support vector machine support vector machine adalah sistem pembelajaran yang menggunakan ruang hipotesis berupa fungsi-fungsi linier dalam sebuah ruang fitur berdimensi tinggi, dilatih dengan algoritma pembelajaran yang didasarkan pada teori optimasi dengan mengimplementasikan learning bias yang berasal dari teori pembelajaran statistik
+prinsip dasar svm adalah pengklasifikasi linier, dan selanjutnya dikembangkan agar dapat bekerja pada permasalahan nonlinier
+dengan memasukkan konsep kernel trick pada ruang kerja berdimensi tinggi
+perkembangan ini memberikan minat penelitian di bidang pengenalan pola untuk investigasi potensi kemampuan svm secara teoritis maupun dari segi aplikasi
+, x1 } adalah dataset dan yi  {+1, -1} adalah label kelas dari data xi
+fungsi yang digunakan untuk memisahkan kelas adalah dengan menggunakan fungsi linear, dimana fungsi tersebut didefenisikan sebagai berikut: g = sign ) dimana, w = normal bidang untuk pencarian bidang pemisah terbaik dengan nilai margin terbesar dapat dirumuskan menjadi masalah optimasi constraint svm untuk kasus klasifikasi linear dalam primal space, yaitu: fungsi objektif 1/2||w|| 2 atau memaksimalkan w t w yaitu dengan memperhatikan pembatas yi ≥ 1
+bila output data yi = +1, maka pembatas menjadi ≥ 1, sebaliknya yi = - 1, maka pembatas menjadi ≤ 1
+dalam beberapa kasus, terdapat beberapa data yang tidak dapat diklasifikasikan secara benar, maka dapat dinyatakan melalui persamaan berikut, dilakukan optimasi dengan proses quadratic programming
+nilai c memiliki rentang antara nol sampai positif tak hingga 
+tujuan adanya nilai c adalah untuk meminimalkan error dan memperkecil nilai slack variabel
+jika nilai c mendekati nol, maka lebar margin pada bidang pembatas menjadi maksimum dan jumlah data yang dilatih yang berada dalam margin atau yang ada posisi yang salah tidak akan dipedulikan
+hal ini berarti akan mengurangi tingkat akurasi pada proses training, sehingga mengakibatkan data uji tidak dapat diklasifikasikan dengan baik
+dalam kasus machine learning, kernel trick merupakan metode yang menggunakan algoritma linier classifier untuk menyelesaikan permasalahan nonlinier dengan cara memetakkan dimensi input ke ruang dimensi yang lebih tinggi, sehingga membuat linier classifier di ruang dimensi yang baru setara dengan non linear classifier di ruang dimensi asli
+dengan kernel, fungsi pemetaan tidak pernah dihitung secara explisit, karena ruang dimensi tinggi yang digunakan memungkinkan pada dimensi yang tak terbatas
+) pemanfaatan sosial media pada layanan pelanggan terhadap kepuasan pelanggan
+dalam penelitiannya, setiap akun sosial media dari tiap pelanggan di kelompokan berdasarkan parameter tertentu seperti jenis kelamin, umur, dan sebagainya
+zhiheng dalam penelitiannya yang berjudul discovering user interest on twitter with a modified author-topic model mencoba menemukan ketertarikan seseorang berdasarkan tweet yang dihasilkan
+hasil dari penelitiannya menunjukan tweet yang dihasilkan dari user memiliki pengaruh yang besar dan sangat berkaitan dengan interest dari user tersebut
+penelitian lainnya yang dilakukan oleh finin, dimana dia memprediksi tentang suatu kejadian yang sedang terjadi berdasarkan data yang diambil dari twitter
+hal ini menunjukan pula tentang pemanfaatan data dari twitter dapat dijadikan kumpulan dataset yang akurat
+classification dengan menggunakan data twitter untuk tweet yang berbahasa indonesia
+metode yang digunakan untuk feature selection yaitu kamus kata sedangkan untuk metode klasifikasi yang digunakan support vector machine 
+klasifikasi kelas yang digunakan yaitu netral, positif, dan negatif
+penelitian tersebut menunjukan tingkat akurasi algoritma svm sebesar 86, 66%
+algoritma svm juga memiliki kinerja yang baik dalam hal kategorisasi teks bahasa indonesia
+fatimah wulandini dan anto satriyo nugroho melakukan pengujian terhadap dokumen berbahasa indonesia dengan menggunakan data latih sebanyak 240 dokumen dan data uji sebanyak 120 dokumen
+metode feature selection yang digunakan yaitu pengindeksan kata 
+dari hasil penelitian didapat akurasi svm sebesar 92, 5% lebih baik dibandingkan dengan algoritma lainnya yang masing-masing memiliki akurasi nbc, knn, dan c45 
+penelitian yang dilakukan oleh watters menggunakan 600 dokumen untuk dikategorisasi
+metode feature selection yang digunakan yaitu document frequency dengan mengambil nilai parameter secara acak
+di dalam penelitiannya dia mencoba membandingkan antara dua buah algoritma yaitu svm dengan ann 
+hasil kinerja menunjukan tingkat akurasi svm sebesar 82%, jauh lebih baik dibandingkan dengan algoritma ann yang hanya 58, 53%
+svm dalam kasus klasifikasi dokumen untuk digital library
+metode feature selection yang digunakan yaitu chi- square, information gain, dll
+dari penelitiannya didapat kinerja svm lebih baik dibandingkan dengan nbc dan id3 
+mention tweet yang masuk pada akun twitter @speedytelkomsel
+proses pengumpulan dataset ini dilakukan dengan menggunakan suatu program crawler berbasis web yang memanfaatkan layanan twitter api
+jumlah dataset yang digunakan berjumlah 600 tweet dengan rincian sebagai berikut: tabel 1
+rincian dataset menjadi data masukan pada proses selanjutnya yaitu klasifikasi menggunakan svm
+adapun beberapa tahapan yang dilakukan pada text preprocessing ini yaitu tokenizing, stopword removal, dan stemming
+kata dalam suatu kalimat sehingga menghasilkan kumpulan kata-kata yang berdiri sendiri
+pemisahan kata dilakukan dengan cara menemukan spasi antar kata
+pada proses ini pula dilakukan penghapusan tanda baca
+langkah selanjutnya adalah melakukan proses filtering
+pada proses ini, setiap kata yang telah berdiri sendiri akan diidentifkasi untuk menentukan kata itu akan digunakan atau dihapus
+kata-kata yang dihapus adalah kata-kata yang termasuk dalam stoplist
+stoplist adalah kata-kata yang tidak deskriptif yang dapat dibuang dalam pendekatan bag-of-words
+contoh stopwords adalah yang, dan, di, dari, atau, pada, saat, dan lain sebagainya
+pada penelitian kali ini berfokus pada bentuk keluhan dari tweet text, maka kata-kata yang mengandung makna dari tweet entity seperti mention, retweet, hashtag, dan link url juga akan dihapus
+setiap kata juga akan dibersihkan dari simbol atau kode karakter numeric, seperti : ;‘)
+namun jika tidak, maka lanjutkan ke tahap berikutnya
+ekstrasi features parameter yang terbaik maka akan dilakukan pengamatan terhadap distribusi frekuensi kemunculan kata dan jumlah feature
+nilai threshold yang terbaik adalah titik dimana frekuensi kemunculan kata dan jumlah feature mulai konstan
+dari pengamatan terhadap nilai threshold, didapat sejumlah fitur kata yang akan digunakan dari setiap metode ekstraksi
+untuk metode term frequency dan document frequency, jumlah feature yang dihasilkan mulai konstan pada saat nilai threshold berada pada kisaran 15-20
+hal ini dapat diartikan bahwa feature yang akan digunakan dalam penelitian kali ini adalah kata atau term yang memiliki frekuensi kemunculan kata di atas 15 kali
+berdasarkan parameter tersebut, maka didapat jumlah feature untuk tiap proses klasifikasinya
+untuk proses klasifikasi keluhan-bukan keluhan dengan metode tf menggunakan 51 feature dan metode df menggunakan 44 feature
+sedangkan untuk proses klasifikasi jenis keluhan dengan metode tf menggunakan 47 feature dan metode df menggunakan 44 feature
+pada metode information gain, jumlah frekuensi fitur yang dihasilkan mulai konstan pada saat nilai ig berada pada nilai ≥ 0, 02 untuk keluhan-bukan keluhan dan ≥ 0, 03 untuk jenis keluhan
+berdasarkan parameter tersebut didapat jumlah fitur yang dihasilkan untuk klasifikasi bentuk keluhan sebanyak 25 atribut dan untuk klasifikasi jenis keluhan sebanyak 46 atribut
+mulai konstan pada saat nilai threshold berada pada kisaran 6- 15 untuk bentuk keluhan dan 16-20 untuk jenis keluhan
+berdasarkan parameter tersebut, maka didapat jumlah feature untuk tiap proses klasifikasinya
+untuk proses klasifikasi keluhan-bukan keluhan menggunakan 29 feature
+sedangkan untuk jenis klasifikasi menggunakan 37 feature
+adapun rincian jumlah feature yang digunakan dapat dilihat pada tabel berikut
+setelah didapat beberapa kumpulan kata atau term sebagai kumpulan feature dari beberapa metode ekstraksi, penelitian ini juga menggunakan metode penggabungan feature dengan menggunakan operasi gabungan dari set feature yang telah dihasilkan oleh masing-masing metode
+sebagai contoh untuk metode ekstraski x menggunakan feature kata putus dan wifi
+sedangkan metode ekstraksi y menggunakan feature kata putus dan lambat
+maka gabungan feature yang digunakan yaitu kata putus, wifi, dan lambat
+data text to vector model ruang vektor digunakan untuk memberikan setiap feature dalam dokumen sebuah id dan sebuah bobot berdasarkan seberapa penting keberadaannya dalam dokumen 
+sedangkan nilai lainnya sesuai dengan perhitungan bobot yang digunakan
+pada bagian akhir dari baris data vektor merupakan nama kelas
+berdasarkan dataset yang digunakan, maka dalam pada penelitian kali ini akan diterapkan svm nonliniear
+fungsi kernel yang digunakan adalah fungsi kernel rbf karena memiliki performansi yang paling baik dibandingkan dengan kernel linier pada parameter tertentu maupun kernel polinomial pada penelitian ini estimasi parameter terbaik akan dilakukan dengan mengunakan grid search
+grid search bertujuan membuat grid parameter dari setiap pasangan 
+parameter nilai ditentukan terlebih dahulu dengan rentang nilai 0, 1 sampai 0, 9
+kemudian memasangkan setiap nilai paramter tersebut
+untuk melihat rataan akurasi dari data latih pada setiap pasangan nilai digunakan metode 10-fold cross validation
+pasangan nilai yang menghasilkan rataan akurasi terbaik akan digunakan untuk proses training terhadap keseluruhan data uji
+10-fold cross validation dilakukan pada data latih yang akan dibagi menjadi 10 subset sama banyak
+akan dilakukan 10 iterasi proses training dan testing, dengan 9/10 segmen sebagai data latih dan 1/10 segmen sebagai data uji secara bergantian
+sehingga untuk setiap subset berkesempatan menjadi data uji
+training & testing svm berupa data latih yang telah diubah ke dalam bentuk vektor
+selain itu, terdapat pula input parameter lainnya seperti c dan  serta metoda kernel yang dipilih sebagaimana telah dijelaskan sebelumnya
+data latih dalam bentuk vektor disimpan dalam suatu file bernama train.arff
+untuk membangkitkan suatu model, sistem akan memanggil suatu perintah dalam program dan menyimpan output model tersebut ke dalam suatu file nama_file.model
+untuk menguji keakuratan dari model yang dibangun, akan dilakukan evaluasi terhadap model tersebut menggunakan data uji
+sama halnya dengan data latih, data uji yang akan digunakan juga harus terlebih dahulu diubah ke dalam bentuk vektor dan disimpan ke dalam suatu berkas testing.arfft
+kemudian sistem akan menjalankan suatu perintah program untuk melakukan pengujian
+sistem akan memberikan informasi keakuratan dari model dengan menghitung presentasi data yang diklasifikasikan secara benar terhadap jumlah data uji
+jika pada keluaran menunjukan nilai atau label yang sama dengan nilai yang ada pada data uji, maka dapat dikatakan sistem melakukan klasifikasi secara benar
+begitu pula jika kondisi yang terjadi tidak sesuai, maka sistem akan menilai hal itu sebagai ketidakakuratan proses klasifikasi
+pengujian proses klasifikasi svm pada penelitian kali ini menggunakan fungsi kernel gaussian rbf dimana pada kernel tersebut memerlukan parameter c dan  pada prosesnya
+untuk mendapatkan nilai parameter terbaik, akan dilakukan beberapa tahapan terhadap dataset langkah pertama dilakukan dengan membuat grid parameter pada setiap pasangan nilai parameter
+parameter nilai c dan  ditentukan terlebih dahulu secara manual dengan rentang nilai masing- masing 0, 1 sampai dengan 0, 9
+pasangan nilai c dan  terbaik adalah yang memberikan nilai rataan akurasi paling tinggi pada proses klasifikasi
+adapun hasil pengujian grid search dapat dilihat pada tabel di bawah ini
+pasangan nilai parameter yang memberikan akurasi paling baik sebesar 83, 75% dan 77, 08%
+adapun pasangan nilai terbaik yaitu untuk klasifikasi bentuk keluhan dan untuk klasifikasi jenis keluhan
+pasangan nilai parameter tersebut akan digunakan pada tahap selanjutnya untuk menguji tingkat akurasi klasifikasi svm terhadap data uji 
+untuk menentukan metode mana yang paling baik dalam hal klasifikasi, maka akan dilakukan pengujian pada setiap metode untuk melihat tingkat akurasi terbaik yang dapat dihasilkan
+adapun hasil perbandingan akurasi dari tiap metode sebagai berikut
+metode penggunaan gabungan feature dari metode tf, information gain, dan chi-sqaure dapat meningkatkan akurasi menjadi 83, 33%
+sedangkan perbandingan akurasi tiap metode untuk klasifikasi jenis keluhan dapat dilihat sebagai berikut
+grafik perbandingan akurasi jenis keluhan berdasarkan grafik perbandingan akurasi dari tiap metode ekstraksi untuk proses klasifikasi jenis keluhan, terlihat bahwa nilai akurasi terbaik dihasilkan oleh metode ekstraksi chi- square sebesar 86, 67%
+sedangkan metode penggunaan gabungan feature dari metode tf, information gain, dan chi- sqaure dapat meningkatkan akurasi menjadi 89, 17% atau mengalami kenaikan sebesar 2, 5%
+jumlah data uji yang digunakan sebanyak 20% dari total dataset atau sebanyak 120 data untuk setiap proses klasifikasinya
+guna mengevaluasi kinerja sistem dalam hal klasifikasi, maka akan digunakan tiga buah parameter yaitu precision, recall, dan f-measure
+adapun kinerja sistem berdasarkan parameter yang telah ditentukan.sebagai berikut: tabel 7
+dari tabel tersebut, dapat kita lihat kinerja sistem berdasarkan tiga parameter menghasilkan nilai di atas 50%
+hal ini menunjukan kinerja sistem sudah berjalan dengan baik dalam hal klasifikasi
+sedangkan untuk kesalahan klasifikasi, hal ini disebabkan di dalam suatu data memiliki banyak feature yang merepresentasikan lebih dari satu kelas
+kesimpulan dan saran aplikasi yang mampu mengklasfikasikan bentuk dan jenis keluhan berdasarkan tweet menggunakan metode svm dengan kernel gaussian rbf
+aplikasi mampu membangun dataset dari kumpulan tweet yang masuk ke akun @speedytelkomsel
+dataset yang digunakan sebanyak 600 tweet, dimana 480 tweet digunakan sebagai data latih untuk membangun model sedangkan sisanya 120 tweet digunakan sebagai data uji untuk mengukur akurasi dari model yang telah dibangun
+tools atau aplikasi mampu melakukan serangkaian proses preprocessing sebagai tahapan persiapan masukan data yang meliputi pelabelan dataset, tokenizing, dan stemming
+tools atau aplikasi mampu mendapatkan daftar kata yang digunakan sebagai feature dengan menggunakan metode ekstraksi yaitu term frequency, document frequency, information gain, chi-square, dan penggabungan dari keempat metode tersebut
+pada penelitian kali ini adalah untuk klasifikasi bentuk keluhan dan untuk klasifikasi jenis keluhan
+berdasarkan pengujian terhadap data uji dengan membandingkan tiap metode ektraksi feature, didapat metode term fequency menghasilkan akurasi paling baik sebesar 82, 50% untuk klasifikasi bentuk keluhan
+sedangkan untuk klasifikasi jenis keluhan, metode chi-square menghasilkan akurasi paling baik sebesar 86, 67%
+penggabungan feature yang dihasilkan dari metode tf, information gain, dan chi- sqaure dapat meningkatkan akurasi menjadi 83, 33% untuk klasifikasi bentuk keluhan dan 89, 17% untuk klasifikasi jenis keluhan
+untuk klasifikasi bentuk keluhan, rata-rata nilai yang dihasilkan untuk setiap parameter yaitu 83, 67%, 83, 33%, dan 83, 29%
+sedangkan untuk klasifikasi jenis keluhan, rata-rata nilai yang dihasilkan 89, 76%, 89, 17%, dan 89, 34%
+dari nilai tersebut dapat dilihat kinerja sistem dalam hal klasifikasi sudah cukup baik
+saran selanjutnya adalah mengkombinasikan penggunaan feature yang didapat secara otomatis dari beberapa metode ekstrasi dengan feature yang ditentukan secara manual selain itu dengan meningkatkan koleksi data latih sehingga memungkinkan dapat meningkatkan akurasi dari kinerja sistem dalam hal klasifikasi
+pada penelitian ini kalimat yang akan diklasifikasikan dipandang sebagai bag of words atau sekumpulan kata-kata
+faktor yang berpengaruh adalah frekuensi kemunculan kata kedepannya diharapkan dapat diteliti pengklasifikasian kalimat yang juga memperhitungkan faktor susunan kata-kata yang dapat dipisahkan dalam subject, predicate, dan object serta penanganan frase

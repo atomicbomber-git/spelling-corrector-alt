@@ -1,0 +1,40 @@
+studi kasus: cv suzuki daya motor) firman kurniawan1, m
+azhar irwansyah2, rudy dwi nyoto3 program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 viermanz@gmail.com1, irwansyah.azhar@gmail.com2, rudy_dn@yahoo.com3 teknologi yang memungkinkan percakapan suara jarak jauh melalui jaringan lokal atau jaringan global 
+keamanan komunikasi merupakan salah satu aspek penting dan keamanan jaringan vpn salah satu alternatif untuk melakukan komunikasi yang bersifat private
+performansi kinerja voip dengan vpn di sebuah jaringan dapat diukur dengan pengujian qos 
+parameter qos seperti jumlah data yang hilang, waktu tempuh data, variasi kedatangan data, kecepatan transfer data, kualitas data yang diterima ), echo cancelation dan pdd 
+implementasi voip dan vpn di jaringan cv suzuki daya motor
+pengujian qos dengan menggunakan jaringan internet pt telkom di jaringan lokal cv suzuki daya motor dan paket internet provider gsm
+parameter qos yang diamati antara lain packet loss, delay, jitter, throughput dan mos
+dari hasil pengujian parameter qos dan analisis qos yang dilakukan pada implementasi voip dan vpn di jaringan cv suzuki daya motor, maka akan diperoleh rata-rata nilai
+pada pengujian qos menggunakan jaringan internet pt telkom di jaringan lokal cv suzuki daya motor mendapatkan nilai rata-rata packet loss 0%, delay 5.67 ms, jitter 5.67 ms, throughput 686.42 kbps, dan mos 4.4
+kemudian dengan menggunakan paket internet provider gsm mendapatkan nilai rata-rata packet loss 0%, delay 9.55 ms, jitter 9.54 ms, throughput 670.67 kbps, dan mos 4.4
+dengan rata-rata nilai parameter qos yang diperoleh dapat disimpulkan bahwa voip dan vpn dapat diimplementasikan di jaringan cv suzuki daya motor karena rata-rata nilai parameter qos tersebut masih dalam kategori direkomendasikan itu-t
+pendahuluan pusat penjualan mobil suzuki yang saat ini telah memiliki 4 kantor cabang yang tersebar di beberapa kota dan kabupaten di provinsi kalimantan barat dengan jumlah karyawan sekitar 130 orang
+dengan perkembangan perusahaan yang pesat komunikasi menjadi kebutuhan bagi cv suzuki daya motor karena komunikasi digunakan untuk menyampaikan data/informasi dari masing-masing kantor- kantor di cv suzuki daya motor, seperti data administrasi, kepegawaian, penjualan, kebijakan dan lain-lain
+tetapi saat ini, cv suzuki daya motor masih menggunakan telepon pstn dan telepon selular dalam melakukan komunikasi antar karyawan kantor pusat dan kantor cabang, yang dimana memerlukan biaya dan juga perusahaan tidak dapat meng-handle keamanan dalam berkomunikasi karena sistem keamanan masih dibatasi oleh penyedia layanan 
+motor, maka penggunaan voip dapat memberikan solusi, karena voip merupakan salah satu pilihan untuk melakukan komunikasi hemat
+voip adalah teknologi yang memungkinkan percakapan suara jarak jauh melalui media jaringan lokal atau jaringan global 
+voip juga sering disebut juga dengan ip telephony, internet telephony atau digital phone
+penggunaan voip ini tentu sangat menguntungkan bagi perusahaan karena voip dapat diimplementasikan dengan memanfaatkan infrastruktur media jaringan lokal atau jaringan global yang sudah ada, dan juga dapat dikembangkan secara mandiri, jadi memungkinkan penghematan biaya karena tidak perlu membangun infrastruktur jaringan baru
+oleh karena itu, voip menjadi layanan komunikasi yang murah atau bisa dibilang hemat jika dibandingkan dengan media telepon biasa
+dengan menggunakan infrastruktur media jaringan lokal atau jaringan global, keamanan jaringan merupakan salah satu aspek penting dari sebuah sistem komunikasi
+oleh karena itu, penggunaan keamanan jaringan vpn merupakan salah satu alternatif untuk berkomunikasi yang bersifat private atau aman, karena penggunaan koneksi yang telah terenkripsi serta penggunaan private keys, certificate, username atau password untuk melakukan authentikasi dalam membangun koneksi
+pada implementasi voip dan vpn di jaringan cv suzuki daya motor, performansi traffic jaringan merupakan salah satu faktor untuk mengetahui kinerja jaringan saat melakukan koneksi vpn dan komunikasi voip
+performansi traffic jaringan dapat diukur dengan melakukan pengujian qos
+qos adalah teknologi yang diterapkan pada jaringan wan, yang memungkinkan administrator jaringan untuk dapat menangani berbagai efek akibat terjadinya kemacetan pada lalu lintas aliran paket di dalam jaringan
+penanganan qos dilakukan dengan memanfaatkan sumber daya jaringan secara optimal berdasarkan latar belakang permasalahan, perlu diimplementasikan voip dengan keamanan jaringan vpn di cv suzuki daya motor yang dapat menunjang komunikasi antar karyawan dengan keamanan yang baik
+kemudian dilakukan pengujian qos untuk mengetahui performansi traffic jaringan di cv suzuki daya motor saat melakukan koneksi vpn dan komunikasi voip
+uraian penelitian dikenal dengan sebutan voip adalah teknologi yang 2 dengan menggunakan jalur komunikasi data pada suatu jaringan 
+sehingga teknologi ini memungkinkan komunikasi suara menggunakan jaringan berbasis ip untuk dijalankan diatas infrastruktur jaringan packet network
+jaringan yang digunakan bisa berupa internet atau intranet teknologi ini bekerja dengan jalan merubah suara menjadi format digital tertentu yang dapat dikirimkan melalui jaringan ip
+sinyal ke remote destination dapat dilakukan secara digital, yaitu sebelum dikirim data yang berupa sinyal analog, diubah dulu ke bentuk data digital dengan adc, kemudian ditransmisikan, dan dipenerima dipulihkan kembali menjadi data analog dengan dac 
+begitu juga dengan voip, digitalisasi voice dalam bentuk packets data, dikirimkan dan dipulihkan kembali dalam bentuk voice dipenerima
+voice diubah dulu kedalam format digital karena lebih mudah dikendalikan dalam hal ini dapat dikompresi, dan dapat diubah ke format yang lebih baik dan data digital lebih tahan terhadap noise dari pada analog
+] multiparty multimedia session control yang berada dalam organisasi internet engineering task force yang didokumentasikan ke dalam dokumen request for command 2543 pada bulan maret 1999
+sip merupakan protokol yang berada pada layer aplikasi yang mendefinisikan proses awal, pengubahan, dan pengakhiran suatu sesi komunikasi multimedia
+sesi komunikasi ini termasuk hubungan multimedia, distance learning, dan aplikasi lainnya
+vpn pengamanan jaringan dengan cara membuat suatu tunnel misalkan pada jaringan publik atau internet sehingga jaringan bersifat private dan aman
+vpn dikatakan bersifat private karena ketika akan terbentuknya sebuah koneksi vpn dibutuhkannya authentikasi untuk memastikan bahwa kedua ujung dalam koneksi adalah user yang sesuai yang diberi kewenangan untuk mengakses suatu server
+setelah terbentuknya suatu koneksi vpn maka data akan di enkripsi untuk menjaga kerahasiaan paket yang dikirimkan
+penggunaan authentikasi dan enkripsi yang dipadukan dalam vpn membuat suatu sistem keamanan yang lebih baik dari sistem keamanan yang lain

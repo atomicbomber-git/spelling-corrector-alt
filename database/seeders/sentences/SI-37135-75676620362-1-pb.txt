@@ -1,0 +1,136 @@
+ubmitted 19-10-2019; revised 12-01-2020; accepted 21-01-2020 68 perancangan teknik kriptografi block cipher berbasis pola batik ceplok yogyakarta anriza kurnia aziiz #1, magdalena a
+ineke pakereng#2 # progdi teknik informatika, fakultas teknologi informasi, uksw salatiga jl
+diponegoro 52-60 salatiga, jawa tengah, indonesia 1anrizakuriizz@gmail.com 2ineke.pakereng@uksw.edu keamanan dan kerahasiaan suatu informasi
+dalam penelitian ini dirancang kriptografi block cipher 64 bit berbasis pola batik ceplok yogyakarta guna membangun kriptografi baru
+dalam kritografi ini dirancang dengan 10 putaran, dimana setiap putaran terdapat 4 proses
+pada setiap putaran terdapat 4 pola untuk proses plaintext dan 4 pola untuk proses kunci
+di proses kedua dan keempat ditransformasikan dengan tabel s-box untuk mendapatkan ciphertext yang lebih acak
+pengujian juga dilakukan menggunakan avalanche effect dan nilai korelasi dimana ratarata perubahan karakter mencapai 47, 656%, sehingga dapat digunakan sebagai alternatif dalam mengamankan data
+pendahuluan teknologi ini sudah digunakan sejak lama oleh kalangan militer dan intelejen
+saat ini, teknologi enkripsi dengan beberapa modifikasi sudah diaplikasikan untuk kepentingan umum, dalam aktivitas digital seperti merahasiakan data-data penting milik perorangan maupun perusahaan
+hasil statistik dari breach level index membuktikan, sepanjang 2016 telah terjadi 1.378.509.261 kehilangan atau pencurian data di seluruh dunia, atau sama dengan 3.776.738 data per hari, dan 157, 364 per jam
+dari keseluruhan pelanggaran data di 2016 hanya 4 persen pembobolan data dianggap tidak berhasil karena data yang dicuri sudah terlebih dulu di enkripsi oleh perusahaan
+it infrastruktur mulai gencar dalam merancang dan membangun untuk mengamankan informasi
+kriptografi hadir sebagai ilmu untuk menjaga kerahasiaan pesan/mengamankan informasi
+informasi yang dapat dibaca dan dipahami dengan bahasa tertentu diubah ke dalam bentuk sandi tertentu yang berstruktur huruf/kata/kalimat yang susah dipahami dari segi bahasa apapun
+salah satu algoritma nya adalah menggunakan algoritma kriptografi block cipher
+block cipher menggunakan kumpulan bit dengan panjang tetap yang disebut sebagai block dan kemudian dioperasikan dengan cipher kunci untuk nantinya ditransformasikan
+seiring kemajuan teknologi, makin banyak pula cara untuk memecahkan algoritma ini
+untuk itu salah satu cara untuk membuat data atau informasi menjadi lebih aman adalah dengan membuat pola atau algoritma baru untuk memodifikasi algoritma yang sudah ada
+penelitian ini merupakan kriptografi block cipher dengan menggunakan pendekatan pola batik ceplok yogyakarta
+dari pola-pola tersebut akan dicari korelasi terbaik yang kemudian akan digunakan sebagai proses enkripsi dan dekripsi pesan plaintext
+beberapa motif- motif dalam batik ceplok yogyakarta dijadikan pola pertukaran kode bit di dalamnya
+sehingga kemanan data menjadi lebih kuat dan data dapat digunakan sebagaimana mestinya
+penelitian ini membahas mengenai perancangan algoritma block cipher dengan formasi penyerangan bola basket untuk menghasilkan sebuah pola yang dapat digunakan untuk enkripsi dan dekripsi plaintext
+penelitian ini membahas mengenai analisa korelasi dari pola anyaman rambut papua sehingga menghasilkan pola block cipher yang paling optimal untuk digunakan dalam proses enkripsi dan dekripsi
+pada penelitian yang berjudul penggunaan pola spiral untuk perancangan p-box dalam proses transposisi pada block cipher 128 bit
+penelitian ini membahas perancangan kriptografi block cipher dengan menggunakan pola membuang batu kedalam air untuk membentuk gelombang yang menyerupai lingkaran yang berbasis pada block cipher
+kemudian dari pola yang terbentuk akan digunakan untuk proses enkripsi dan dekripsi plaintext
+transposisi dengan game sudoku dalam rancangan kriptografi block cipher
+penelitian ini membahas perancangan pola kriptografi yang disesuaikan dengan teknik pada permainan sudoku 8x8 dimana semua angka dalam satu baris tidak boleh ada yang sama
+pada penelitian yang berjudul perancangan kriptografi block cipher menggunakan pola kabel utp straight dan cross over
+penelitian ini membahas pola kriptografi yang akan digunakan dalam proses enkripsi dan dekripsi plaintext
+pola straight dijadikan dalam pertukaran kode bit pada plaintext sedangkan pola cross over digunakan pertukaran kode bit pada kunci
+pada penelitian yang berjudul perancangan kriptografi block cipher 64 bit berbasis pada pola formasi sepak bola 3-5-2
+algoritma yang digunakan dalam penelitian ini adalah algoritma block cipher 64 bit dengan menggunakan pola formasi sepak bola 3-5-2
+penggunaan formasi tersebut mempunyai tujuan agar kriptografi ini dapat menunjukkan ciri khas dari sebuah permainan sepak bola dalam sebuah team dan pola yang digunakan dipakai dalam proses pengambilan bit sehingga dapat menyembunyikan kerahasiaan data dengan lebih baik
+block cipher berbasis pola formasi futsal 1-2-1
+dalam penelitian ini membahas tentang sebuah metode kriptografi block cipher dengan rancangan formasi khusus dalam dunia futsal yang biasa disebut tiga satu dan dapat membuktikan bahwa pola ini dapat menyembunyikan kerahasiaan data dengan sangat baik
+pada penelitian yang berjudul pengaruh s-box advance encryption standard pada perubahan ciphertext terhadap perancangan kriptografi block cipher 64 bit berbasis pola huruf u
+membahas mengenai algoritma kriptografi dengan pendekatan block cipher berbasis 64 bit dengan pola huruf u sebagai pola pengambilan bit-bit sebanyak 8 bit
+dimana juga terdapat pengaruh s-box pada perubahan ciphertext
+pola huruf u digunakan karena dapat memenuhi bit-bit pada blok-blok yang ada yaitu 64 bit serta adanya transposisi pada pola huruf u
+bit menggunakan gabungan kriptografi klasik dengan kirptogafi moderen untuk peningkatan avalanche effect
+block cipher berbasis pola alat musik tifa papua
+dalam penelitian ini, membahas mengenai kriptografi simetris yang mengenkripsi satu blok plaintext dengan jumlah bit tertentu dan menghasilkan blok ciphertext dengan jumlah bit yang sama, sedangkan pola yang digunakan dipakai dalam proses pengambilan bit
+dengan memanfaatkan pola batik ceplok yogyakarta
+dari pola-pola tersebut akan dicari korelasi terbaik yang kemudian akan digunakan sebagai proses enkripsi dan dekripsi pesan plaintext
+1 skema proses enkripsi dan dekripsi pada block cipher misalkan blok plaintext yang berukuran m bit dinyatakan sebagai kunci dinyatakan sebagai sehingga proses enkripsi adalah dengan kondisi: 1
+p adalah himpunan berhingga dari plaintext
+c adalah himpunan berhingga dari ciphertext
+k merupakan ruang kunci, adalah himpunan berhingga dari kunci
+untuk setiap k ∈k terdapat aturan enkripsi e_k∈ e dan berkorespodensi dengan aturan dekripsi d_k ∈d
+setiap e_k:p→c dan d_k:c→p adalah fungsi sedemikian hingga d_k )=x untuk setiap plaintext x∈p
+kekuatan hubungan antar dua variabel itu disebut dengan koefisien korelasi
+nilai koefisien akan selalu berada diantara -1 sampai +1
+untuk menentukan kuat atau lemahnya hubungan antara variabel yang diuji, dapat digunakan tabel 1
+tabel i 0, 20 – 0, 399 rendah 0, 40 – 0, 599 sedang 0, 60 – 0, 799 kuat akan susah ditebak, karena apabila kita melihat dasar dari xor seperti berikut : mendapatkan input nya kita tidak tahu, bisa jadi input yang dihasilkan adalah 1 atau 0
+dasar tersebut digunakan untuk melakukan kriptografi block cipher
+kemudian s-box merupakan salah satu prinsip dalam perancangan blok cipher dimana proses s-box itu sendiri adalah mengganti karakter inputan dengan karakter yang sudah menjadi tetapan pada sebuah tabel
+secara teoritis, s-box adalah satu-satunya algoritma yang mempunyai kemampuan untuk membuat hubungan yang tidak linier antara plaintext dan ciphertext
+maka dari itu, penggunaan s-box ditujukan agar membuat kriptografi block cipher menjadi lebih acak
+hal ini dilakukan dengan cara mensubstitusikan bilangan hexadecimal ke dalam tabel s-box dan kemudian kita ambil output dari tabel s-box berupa bilangan hexadecimal yang baru
+secara umum penelitian terbagi ke dalam 4 tahapan, yaitu: tahap identifikasi masalah, tahap perancangan, tahap implementasi dan analisis hasil, tahap penulisan artikel ilmiah
+3 tahapan penelitian cipher berbasis pola batik ceplok yogyakarta
+ tahap perancangan kriptografi: pada tahap ini akan dilakukan perancangan kriptografi block cipher berbasis pola batik ceplok yogyakarta dengan menggunakan 4 pola yang telah dibuat dan menggunakan tabel s-box sebagai tambahan agar terbentuk ciphertext yang lebih acak
+untuk pembuatan kunci, proses enkripsi dan proses dekripsi dikombinasikan dengan xor
+ tahap pengujian kriptografi: pada tahap ini dilakukan pengujian terhadap kriptografi yang telah dibuat
+pengujian proses 24 kombinasi yang akan menghasilkan nilai korelasi terendah, kemudian dilakukan proses enkripsi dan dekripsi, yang terakhir yaitu mencari avalanche effect terbesar
+ tahap penulisan artikel ilmiah: dalam tahap terakhir ini dilakukan penulisan artikel mengenai proses perancangan kriptografi block cipher berbasis pola batik ceplok yogyakarta
+4 alur proses enkripsi gambar 4 merupakan alur proses enkripsi
+konsep dari proses enkripsi dapat dijabarkan sebagai berikut: a) menyiapkan plaintext; b) mengubah plaintext menjadi biner sesuai dalam tabel ascii; c) dalam proses enkripsi, plaintext dan kunci akan melewati empat proses pada setiap putaran, yaitu : 1) putaran pertama plaintext 1 melakukan transformasi dengan pola batik ceplok dan di xor dengan kunci 1 menghasilkan ciphertext 1 ; 2) plaintext 2 melakukan transformasi dengan pola batik ceplok dan kemudian plaintext 2 dilakukan proses s-box untuk menghasilkan bilangan biner yang baru, lalu di xor dengan kunci 2 menghasilkan ciphertext 2, dan tahapan tersebut akan berlanjut sampai proses keempat kemudian plaintext 4 dilakukan proses s-box untuk menghasilkan bilangan biner yang baru, kemudian proses dilanjutkan sehingga menghasilkan ciphertext 4 ; 3) ciphertext 4 masuk pada putaran kedua dengan alur proses yang sama dengan putaran pertama, dan tahapan tersebut akan berlanjut sampai putaran ke-10 yang menghasilkan ciphertext akhir
+menyiapkan ciphertext dan kunci; b) mengubah ciphertext dan kunci menjadi biner sesuai dalam tabel ascii; c) dalam perancangan dekripsi, ciphertext dan kunci akan melewati empat proses pada setiap putaran; d) proses pertama ciphertext diproses dengan pola dan di xor dengan kunci 4 dari putaran 10, menghasilkan p4; d) p4 tersebut kemudian dilakukan proses s-box sehingga menghasilkan biner yang baru yang kemudian menjadi c3 di putaran 10; e) masuk pada proses dua, c3 diproses dengan pola dan di xor dengan kunci 3 dari putaran 10, menghasilkan p3
+p3 akan menjadi c2 pada putaran selanjutnya; f) masuk pada proses ketiga, c2 di xor dengan kunci 1 menghasilkan p1 yang kemudian dilakukan proses s-box agar menghasilkan bilangan biner yang baru
+bilangan biner yang baru tersebut dimasukkan ke plaintext 1 
+p1 akan menjadi c1 pada proses selanjutnya; g) masuk ke proses keempat, p1 di xor kan dengan kunci 2 menghasilkan plaintext akhir yaitu p1
+hasil dan pembahasan kriptografi block cipher berbasis pola batik ceplok yogyakarta secara lebih rinci
+dalam algoritma ini pola yang terdapat pada contoh batik ceplok yogyakarta digunakan sebagai proses pemasukan dan pengambilan bit
+pada gambar 6 menunjukkan empat pola yang berbeda, dimana pola-pola tersebut menunjukkan pola-pola yang terdapat pada batik ceplok yogyakarta
+berdasarkan pola- pola yang sudah dirancang, dilakukan pengujian korelasi dengan mengkombinasikan urutan pola untuk menemukan nilai korelasi terbaik
+pengujian dilakukan menggunakan contoh plaintext menggunakan kunci 
+terkecil yang akan digunakan sebagai acuan perancangan dalam proses enkripsi dan dekripsi
+6 pola batik ceplok yogyakarta tabel iii yogyakarta mendapatkan nilai korelasi terbaik pada kombinasi pola 2- 1-3-4
+kombinasi ini lah yang akan digunkan untuk melanjutkan proses enkripsi hingga putaran ke-10 untuk menghasilkan ciphertext
+dilakukan sebanyak 10 putaran, dan disetiap putaran memiliki 4 proses untuk mendapatkan hasil akhir yaitu ciphertext
+proses pertama plaintext dan kunci diubah kedalam bentuk ascii kemudian diubah lagi kedalam biner
+kemudian bit-bit plaintext diproses dengan pola pemasukan dan pengambilan kedalam kolom matriks 8x8 menggunakan bagian dari pola batik yang berbeda-beda pada setiap proses
+kemudian di setiap proses dilakukan x-or dari plaintext dan kunci menghasilkan ciphertext sampai proses keempat di setiap putaran
+kemudian diulang terus sampai putaran ke-10 dan hingga menghasilkan ciphertext akhir
+dalam matriks maka diambil proses 1 pada putaran 1 sebagai contoh
+misalkan angka 1 merupakan inisialisasi setiap bit yang merupakan hasil konversi plaintext maka urutan bit adalah sebagai berikut 1, 2, 3, 4, …
+9 pola pemasukan plaintext dari pola 1 gambar
+10 pola ambil plaintext pola 1 gambar 7 merupakan pola yang digunakan untuk memasukkan kunci kedalam tabel 8x8 dengan urutan sesuai angka pada pola gambar 7
+gambar 8 digunakan untuk mengambil kunci berupa bit-bit angka dari gambar 7
+gambar 9 merupakan pola masuk dari pola 1 yang digunakan untuk memasukkan setiap 8 bit dari karakter plaintext
+gambar 10 digunakan untuk mengambil plaintext berupa bit-bit angka dari gambar 9
+12 pola ambil plaintext pola 2 gambar 11 merupakan pola masuk dari pola 2 yang digunakan untuk memasukkan setiap 8 bit dari karakter plaintext
+gambar 12 digunakan untuk mengambil plaintext berupa bit-bit angka dari gambar 11
+13 pola pemasukan plaintext dari pola 3 gambar
+14 pola ambil plaintext pola 3 gambar 13 merupakan pola masuk dari pola 3 yang digunakan untuk memasukkan setiap 8 bit dari karakter plaintext
+gambar 14 digunakan untuk mengambil plaintext berupa bit-bit angka dari gambar 14
+15 pola pemasukan plaintext dari pola 4 gambar
+16 pola ambil plaintext pola 4 gambar 15 merupakan pola masuk dari pola 4 yang digunakan untuk memasukkan setiap 8 bit dari karakter plaintext
+gambar 16 digunakan untuk mengambil plaintext berupa bit-bit angka dari gambar 15
+dengan menggunakan pola-pola yang sudah ditetapkan, dilakukan proses enkripsi dan dekripsi yang dilakukan sebanyak 10 putaran dimana setiap putaran terdapat 4 proses
+proses enkripsi dan dekripsi dijelaskan lebih lanjut pada tabel 3 berupa algoritma dan pseudocode yang menjelaskan lebih detail mengenai algoritma enkripsi dan dekripsi
+plaintext diubah ke menghasilkan p4 pemasukan plaintext 8
+menghasilkan ciphertext akhir, dan proses dekripsi menghasilkan plaintext awal kemudia algoritma proses kunci, dijelaskan sebagai berikut: 1
+bit biner dimasukkan ke kolom k2 dengan pola pemasukan kunci 5
+bit kunci diambil dengan pola pengambilan kunci 6
+biner hasil pengambilan dimasukkan kedalam kolom matrik k2 7
+k1 dimasukkan ke kolom matrik k1 dengan pola pemasukan 9
+bit kunci diambil dengan pola pengambilan kunci 10
+biner hasil pengambilan dimasukkan kedalam kolom matrik k1 11
+k3 dimasukkan ke kolom matrik k3 dengan pola pemasukan 13
+bit kunci diambil dengan pola pengambilan kunci 14
+biner hasil pengambilan dimasukkan kedalam kolom matrik k3 15
+k4 dimasukkan ke kolom matrik k4 dengan pola pemasukan 17
+bit kunci diambil dengan pola pengambilan kunci 18
+proses s-box urutan 1-10) adalah ciphertext yang berupa char
+hasil enkripsi di putaran ke 10 adalah ciphertext akhir, seperti ditunjukkan pada tabel 6
+hasil dekripsi di putaran ke 1 adalah plaintext akhir, seperti ditunjukkan pada tabel 7
+nilai korelasi sendiri berkisar dari 0 sampai 1, dimana jika nilai kolerasi mendekati 1 maka plaintext dan ciphertext memiliki nilai yang sangat berhubung, tetapi jika mendekati 0 maka plaintext dan ciphertext tidak memiliki nilai yang berhubungan
+salah satu karakteristik untuk menentukan berhasil atau tidaknya suatu algoritma kriptografi adalah dengan melihat avalanche effect-nya
+pengujian dilakukan dengan merubah karakter yang terdapat pada plaintext awal, sehingga akan menghasilkan perbedaan pada setiap putarannya
+sekitar separuhnya, 50% adalah hasil yang sangat baik
+suatu algoritma kriptografi dikatakan baik jika perubahan bit yang dihasilkan berkisar antara 45-60% 
+hal ini dikarenakan perubahan tersebut berarti membuat perbedaan yang cukup sulit untuk kriptanalis melakukan serangan
+pengujian gambar 17 merupakan grafik yang menggambarkan hasil rata-rata nilai avalanche effect dari penelitian terdahulu
+sedangkan penelitian lainnya termasuk kedalam algoritma kriptografi yang baik karena termasuk kedalam range 45-60%
+berbasis pola batik ceplok yogyakarta, pada kasus ini plaintext awal adalah yang kemudian diubah menjadi 
+terjadi perubahan bit pada setiap putarannya, pada putaran ke-1 dan ke-3 perubahan bitnya terjadi cukup besar yaitu 53, 125% dengan arti pada putaran ini terjadi perubahan bit yang baik, tetapi juga terjadi perubahan bit yang kecil pada putaran ke-6 dan ke- 7 yaitu sebesar 40, 625% ini berarti perubahan bitnya kurang baik
+berdasarkan hasil putaran pertama sampai dengan putaran ke sepuluh dapat disimpulkan bahwa rata- rata hasil pengujian avalanche effect ini yaitu sebesar 47, 656% yang berarti termasuk kategori yang baik
+kesimpulan disimpulkan bahwa kriptografi block cipher 64 bit berbasis pola batik ceplok yogyakarta dapat dikatakan sebagai sistem kriptografi
+dalam proses enkripsi, rancangan kriptografi block cipher berbasis pola batik ceplok yogyakarta ini menghasilkan output yang acak sehingga dapat digunakan sebagai alternatif dalam pengamanan data
+dalam pengujian avalanche effect yang dilakukan pun menunjukkan bahwa proses enkripsi di setiap putaran memiliki rata-rata perubahan yang mencapai 47, 656% yang berarti algoritma kriptografi ini berhasil dan termasuk ke dalam kategori yang baik
+walaupun termasuk ke dalam kategori yang baik, penelitian ini masih kurang baik apabila dibandingkan dengan penelitian terdahulu yang kebanyakan mempunyai nilai rata-rata avalanche effect lebih mendekati angka 50% yang berarti algoritma kriptografinya termasuk sangat baik

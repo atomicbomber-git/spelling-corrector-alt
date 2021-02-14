@@ -1,0 +1,61 @@
+along with the development of technology, people’s need of information can be fulfill
+people who have pets can use technology to help them learn various of information about their pets, one of it is the health of pets
+expert system is one of technology that mimics the works of a health experts in identifying a disease
+this expert system is very useful especially when the pet’s owner do not have time to visit the vet therefore, it was made an expert system which can diagnose animal diseases and provide information about the disease, ways of handling / prevention as well as medicament to cope with the disease
+this expert system application created with forward chaining inference method
+the way of this expert system application work is by asking the owner of pet to choose the appropriate symptoms experienced by the pets, then the output is the possibility of disease experienced
+result of this final project is expected to help pet owners to be aware of information about pet illness quick
+keyword : expert system, diagnose, animal diseases, forward chaining
+pendahuluan hewan peliharaan bagi orang yang memilikinya biasa dianggap sebagai teman sehari-hari, bahkan mungkin dianggap hewan, informasi-informasi mengenai hewan baik tentang pemeliharaan, karakteristik maupun kesehatan hewan peliharaannya
+di sisi lain, pemilik hewan peliharaan tidak selalu fokus terhadap hewan peliharaannya, oleh karena itu teknologi yang dapat membantu pemilik hewan dalam mengatasi permasalahan tersebut tentu sangat dibutuhkan
+komputer memiliki kemampuan menyimpan informasi dan sehimpunan aturan penalaran yang memungkinkan komputer memberikan kesimpulan atau seorang ahli
+salah satu cabang ilmu komputer yang mendukung hal tersebut adalah sistem pakar
+sementara dalam perkembangan secara luas kepada pengguna
+dari internet, pengguna dapat menemukan berbagai dengan website
+sistem yang berusaha mengadopsi komputer dapat menyelesaikan masalah menyelesaikan suatu permasalahan tertentu satu permasalahan yang ada yaitu mengenai kesehatan hewan peliharaan
+sistem pakar dengan metode forward chaining diharapkan dapat mengatasi masalah para pemilik hewan
+sistem pakar dibuat dengan menggunakan metode forward chaining lebih mudah diaplikasikan dalam bentuk rule-rule yang sesuai dengan sistem pakar
+data-data berupa gejala penyakit akan digunakan sebagai pilihan gejala-gejala yang nantinya pengguna akan diminta oleh sistem untuk memilih gejala-gejala sesuai yang dialami hewan peliharaannya, barulah solusi yang terbaik
+aplikasi akan dibuat penelitian ini diharapkan dapat digunakan oleh masyarakat khususnya mengetahui mengenai penyakit yang secara umum, sistem pakar adalah sistem yang berusaha mengadopsi pengetahuan manusia ke komputer, agar komputer dapat dilakukan oleh para ahli
+sistem pakar yang baik dirancang agar dapat menyelesaikan suatu permasalahan tertentu dengan meniru kerja dari para ahli
+dengan sistem pakar ini, orang awampun dapat menyelesaikan hanya dapat diselesaikan dengan bantuan para ahli
+bagi para ahli, sistem pakar ini juga akan membantu aktivitasnya sebagai asisten yang sangat berpengalaman
+2.2 metode inferensi forward chaining forward chaining merupakan grup dari multiple inferensi yang melakukan pencarian dari suatu masalah kepada solusinya
+forward chaining adalah data-driven yang tersedia dan baru konklusi diperoleh
+pencocokan fakta atau pernyataan dimulai dari bagian sebelah kiri 
+dengan kata lain, penalaran dimulai dari fakta terlebih dahulu untuk menguji kebenaran hipotesis
+jika klausa premis sesuai dengan situasi, maka proses akan menghasilkan konklusi
+(kusumadewi, berisi contoh aturan-aturan dari metode inferensi forward chaining
+r-2 if c then d r-3 if a & e then f r-4 if a then c r-5 if f & g then d r-6 if g & e then h r-7 if c & h then i r-8 if i & a then j r-9 if g then j r-10 if j then k tabel contoh aturan-aturan sumber : kusumadewi berikut adalah contoh penyelesaian menggunakan metode forward chaining
+goal : tentukan apakah k bernilai benar atau salah berdasarkan tabel aturan- aturan
+dimulai dari r-1, a bernilai benar, sedangkan b tidak diketahui kebenarannya, sehingga c juga belum bisa diketahui kebenarannya
+di r-2, diketahui d sebagai konsekuen bernilai benar, sehingga dipastikan c bernilai benar
+di r-3, diketahui a bernilai benar dan f sebagai konsekuen bernilai benar sehingga dipastikan e bernilai benar
+di r-4, diketahui bahwa a dan c bernilai benar berdasarkan aturan r-2
+di r-5, f bernilai benar dan d sebagai konsekuen bernilai benar, maka g bernilai benar
+di r-6, diketahui g dan e bernilai benar berdasarkan aturan r-3 dan r-5, maka h sebagai konsekuen bernilai benar
+di r-7, diketahui c dan h bernilai benar berdasarkan aturan r-2 dan r-6, maka i sebagai konsekuen bernilai benar
+di r-8, diketahui i dan a bernilai benar berdasarkan aturan r-7, maka j sebagai konsekuen bernilai benar
+di r-9, sudah diketahui g dan j bernilai benar sehingga bisa langsung melanjutkan ke r-10
+di r-10, j bernilai benar, maka k bernilai benar
+karena k sudah merupakan hipotesis yang hendak adalah benar
+r-2: c r-3:e r-5:g r-6:h r-7:i r-8:j r-10:k rule 1 : lemas and terdapat koreng di kulit and bulu rontok and kecoklatan atau berdarah and bulu rontok and nafsu makan berkurang gejala pendukung
+sistem pakar diagnosa penyakit hewan peliharaan pengguna admin user penyakit_ gejala gejala penyakit memiliki id_user* username daerah nama nama_gid_g* id_p* nama_p def_p solusi memilikihistory password id_history* gambar entity relationship diagram erd) relasi-relasi dan konektivitas yang terjadi dari entitas-entitas yang ada, yaitu : 1
+hasil perancangan 4.1 tampilan aplikasi pet diagnosis merupakan diagnosa terhadap penyakit hewan peliharaan berdasarkan gejala-gejala yang pemilik hewan mengetahui informasi mengenai kesehatan hewan peliharaannya
+halaman konsultasi merupakan fitur konsultasi menampilkan semua gejala khas yang ada dan setelah user memilih salah satu gejala khas, maka dibawahnya akan muncul pilihan gejala-gejala lainnya yang mungkin dialami pada hewan peliharaannya
+setelah pengguna memilih gejala lainnya dan menekan tombol proses, sistem akan menampilkan hasil diagnosa berupa nama penyakit
+antarmuka halaman ini dapat dilihat pada gambar 1
+halaman history merupakan halaman yang sudah pernah dilakukan oleh pengguna
+antarmuka halaman ini dapat dilihat pada gambar 2
+halaman menu dokter hewan nama serta alamat beberapa dokter hewan di ibukota provinsi-provinsi di indonesia yang diurutkan berdasarkan nama provinsi
+halaman menu ensiklopedia merupakan penyakit hewan peliharaan beserta keterangan tentang penyakit tersebut
+4.2 pengujian sistem pengujian pada sistem menggunakan pengujian metode black box dan pengujian validitas aplikasi
+metode yang hanya menguji perangkat lunak dari sisi input dan output nya saja sehingga proses yang terjadi di dalamnya tidak dilakukan pengujian
+pemilihan cara pengujian dilakukan dengan menggunakan teknik yang akan digunakan dalam pengujian black box adalah sample testing
+sample testing melibatkan beberapa nilai yang terpilih dari sebuah kelas ekivalen, mengintegrasikan nilai pada kasus uji dan nilai-nilai yang terpilih mungkin dipilih dengan urutan tertentu atau interval tertentu
+pengujian validitas aplikasi dilakukan dengan membandingkan hasil diagnosa hasil diagnosa sistem
+pengujian ini bertujuan untuk mengetahui seberapa besar tingkat keakurasian sistem
+terhadap aplikasi sistem pakar diagnosa penyakit hewan peliharaan ini, dapat disimpulkan bahwa : data dokter hewan yang ada di sistem
+pengguna dapat melakukan konsultasi dengan cara memilih satu gejala khas dan mencentang pilihan gejala-gejala dialami oleh hewan peliharaan
+berdasarkan hasil pengujian dan nilai keakuratan yang didapat sebesar 86, 667%, terbukti bahwa sistem pakar diagnosa penyakit hewan peliharaan kucing berdasarkan gejala-gejala yang dialami, serta dapat memberikan pengetahuan tambahan kepada pemilik pencegahannya
+yogyakarta : graha ilmu program studi teknik informa

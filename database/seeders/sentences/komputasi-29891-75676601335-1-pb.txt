@@ -1,0 +1,152 @@
+stroke merupakan salah satu penyakit yang dapat menimbulkan tingkat kematian maupun cacat tubuh yang tertinggi
+keadaan ini dapat dicegah dengan mengenali risiko yang dapat terjadi sedini mungkin
+organisasi stroke dunia mencatat bahwa hampir 85% orang yang mempunyai faktor risiko dapat terhindar dari penyakit stroke apabila mereka menyadari dan mengatasi faktor risiko tersebut sejak dini
+untuk itu, sebuah sistem yang dapat mendiagnosis risiko penyakit stroke dirasa perlu
+sistem yang diperlukan adalah sistem yang berbasis pengetahuan untuk memperlajari dan memecahkan masalah berdasarkan pengalaman pada masa lalu yang merupakan ciri dari case based reasoning
+case based reasoning adalah penalaran untuk penyelesaian masalah berbasis pengetahuan untuk mempelajari dan memecahkan masalah berdasarkan pengalaman masa lalu
+permasalahan baru dapat diselesaikan dengan memanfaatkan kembali permasalahan lama yang memiliki kesamaan yang telah diselesaikan sebelumnya
+sistem case based reasoning dibuat menggunakan metode hamming distance sebagai penghitungan similaritas data biner
+hasil dari sistem ini berupa diagnosis risiko stroke yaitu rendah, sedang dan tinggi
+pengujian sistem dilakukan dengan dua cara, yaitu pengujian tahapan case based reasoning dan kesesuaian hasil
+hasil yang didapat dari pengujian yang dilakukan adalah sistem dapat melakukan empat tahapan case based reasoning yaitu tahap retrieve, tahap reuse, tahap revise dan tahap retain
+hasil yang didapat dari pengujian kesesuaian hasil adalah sistem dapat mendiagnosis 11 kasus yang sesuai dengan diagnosis pakar dari 15 kasus yang diuji
+dapat disimpulkan bahwa sistem dapat mendiagnosis risiko stroke
+pendahuluan stroke adalah suatu penyakit defisit neurologis akut yang disebabkan oleh gangguan pembuluh darah otak yang terjadi secara mendadak dan menimbulkan gejala dan tanda yang sesuai dengan daerah otak yang terganggu
+dalam domain risiko serangan stroke, tekanan darah, umur, jenis kelamin, kolesterol dan riwayat diabetes merupakan faktor risiko utama yang mempengaruhi risiko penyakit stroke
+stroke menduduki posisi ke empat sebagai penyakit yang paling banyak diderita di indonesia
+penyakit ini juga memberikan kecacatan terbanyak pada kelompok usia dewasa, termasuk yang masih produktif
+telah terjadi peningkatan prevalensi stroke di indonesia dari 8, 3 mil pada tahun 2007 menjadi 12, 1, per mil pada tahun 2013
+di samping itu, sebagian dari pasien yang mengalami stroke akan berakhir dengan kecacatan
+berdasarkan beberapa penelitian didapatkan tingkat kecacatan stroke mencapai 65%
+daerah yang memiliki prevalensi stroke tertinggi adalah nanggroe aceh darussalam dan yang terendah adalah papua 
+meningkatnya angka prediksi penderita penyakit stroke yang menyerang sebagian masyarakat dan dampak kecacatan cukup tinggi yang diakibatkan oleh penyakit ini, menyebabkan penurunan tingkat produktivitas kelompok masyarakat usia produktif
+penurunan produktifitas ini akan dirasakan pada level keluarga maupun pada level nasional 
+karena banyak faktor risiko dan pasti dalam risiko penyakit stroke, kadang-kadang diagnosis penyakit stroke sulit bagi para ahli
+dengan kata lain, tidak terdapat batas yang ketat antara apa yang sehat, apa yang berisiko dan apa yang sakit, sehingga membedakannya tidak pasti dan jelas
+faktor yang dapat menimbulkan stroke dibedakan menjadi faktor risiko yang tidak dapat diubah atau tidak dapat dimodifikasi dan faktor risiko yang dapat diubah atau dapat dimodifikasi
+faktor risiko yang tidak dapat diubah diantaranya peningkatan usia dan jenis kelamin laki-laki
+faktor risiko yang dapat diubah antara lain hipertensi, diabetes melitus, dan kolesterol
+pecahnya pembuluh darah otak akan mengakibatkan perdarahan otak, sedangkan jika terjadi penyempitan pembuluh darah otak akan mengganggu aliran darah ke otak yang pada akhirnya menyebabkan kematian sel-sel otak
+diabetes melitus adalah suatu keadaan yang ditandai dengan hiperglikemia yang terjadi karena adanya gangguan sekresi insulin atau kerja insulun ataupun keduanya, dan termasuk suatu kelompok penyakit metabolik
+diabetes melitus menyebabkan stroke melalui kemampuannya menebalkan pembuluh darah otak yang berukuran besar
+penebalan tersebut akan mengakibatkan diameter pembuluh darah mengecil yang akhirnya menyebabkan gangguan aliran darah ke otak yang berujung pada kematian sel-sel otakkolesterol ldl berfungsi membawa kolesterol dari hati ke dalam sel
+jika kadar kolesterol ini tinggi dapat mengakibatkan terjadinya penimbunan kolesterol di dalam sel yang dapat memicu terjadinya pengerasan dinding pembuluh darah arteri yang disebut sebagai proses atherosklerosis
+sedangkan kolesteol hdl memiliki kerja yang berlawanan dengan kolesterol ldl, yaitu membawa kolesterol dari sel ke hati
+kadar hdl yang rendah justru memiliki efek buruk, memicu timbulnya pembentukan plak di dinding pembuluh darah arteri
+berdasarkan permasalahan diatas, maka akan dibangun suatu sistem yang dapat menghasilkan pengetahuan dan pengalam seperti seorang dokter atau tenaga medis dalam mendiagnosis risiko stroke
+sistem yang dibangun didasari kasus-kasus risiko diagnosis penyakit stroke yang pernah ditangani oleh dokter dan data kasus tersebut berupa gejala- gejala yang dirasakan oleh penderita
+untuk mendapatkan solusi yang tepat, maka kasus-kasus permasahalannya harus diidentifikasi
+pengidentifikasian masalah dapat dilakukan dengan melakukan pengecekan kemiripan permasahalan baru yang dialami pengguna dengan permasalahan yang telah tersimpan di database
+untuk itu, sistem yang diperlukan adalah sistem yang berbasis pengetahuan untuk memperlajari dan memecahkan masalah berdasarkan pengalaman pada masa lalu yang merupakan ciri dari case based reasoning
+representasi pengetahuan case based dibuat dalam bentuk kasus-kasus, dan setiap kasus dibagi menjadi dua, yaitu bagian masalah dan bagian solusi
+bagian masalah akan di isi ciri-ciri yang mengidentifikasi suatu masalah dan bagian solusi akan berisi penyelesaian dari masalah
+untuk menghasilkan solusi sebuah masalah dapat menggunakan metode similaritas
+salah satu metode untuk menghitung nilai kemiripan di antara dua kasus yang bersifat biner adalah metode hamming distance
+perhitungan similaritas metode hamming distance adalah dengan mencari nilai yang berbeda di antara dua string dengan panjang yang sama
+sistem yang akan dibagun berbasis website dan diharapkan dapat membantu penderita dalam mendiagnosis risiko penyakit stroke
+stroke penyakit stroke atau cerebrovascular accident adalah serangan otak yang timbul mendadak dikarenakan gangguan sebagian atau seluruh fungsi otak akibat sumbatan atau pecahnya pembuluh darah tertentu di bagian otak
+hal ini menyebabkan sel-sel otak kekurangan oksigen, darah atau zat- zat makanan yang mengakibatkan kematian sel-sel tersebut
+stroke merupakan penyakit neurologi yang serius, dengan serangan akut yang dapat menyebabkan kematian dalam waktu singkat ataupun kecacatan seumur hidup
+dari seluruh penyebab kematian akibat penyakit stroke menduduki urutukan ketiga terbesar setelah penyakit jantung dan kanker dengan laju moralitas 18% sampai 37% untuk stroke pertama dan 62% untuk stroke berulang
+di negara-negara asean penyakit stroke juga merupakan masalah kesehatan utama yang menyebabkan kematian
+dari data south east asian medical information centre diketahui bahwa angka kematian stroke terbesar terjadi di indonesia yang kemudian diikuti secara berurutan oleh filipina, singapura, brunei, malaysia, dan thailand
+dari seluruh penderita stroke di indonesia, stroke ischemic merupakan jenis yang paling banyak diderita yaitu sebesar 52, 9%, diikuti secara berurutan oleh perdarahan intraserebral, emboli dan perdarahan subaraknoid dengan angka kejadian masing-masingnya sebesar 38, 5%, 7, 2%, dan 1, 4%
+pada prinsipnya hanya ada dua jenis stroke, yaitu stroke penyumbatan dan stroke pendarahan
+pada stroke penyumbatan, pembuluh darah yang menyuplai darah ke otak mengalami penyumbatan
+penyumbatan bisa terjadi pada cabang pembuluh darah kecil maupun besar sedangkan pada stroke pendarahan, pembuluh darah yang mengantarkan aliran darah ke otak robek atau pecah
+akibatnya, darah tidak dapat diantarkan ke bagian-bagian otak yang seharusnya disuplai
+perbedannya dengan stroke penyumbatan adalah bahwa pendarahan yang terjadi bisa meghasilkan gumpalan darah dalam jumlah besar sehingga menakan otak sekitarnya dan menyebabkan tekanan dalam rongga kepala meningkat
+stroke yang penyumbatan seringkali diawali oleh adanya lesi atau perlukaan pada pembuluh darah arteri
+dari seluruh kejadian stroke, duapertiganya adalah penyumbatan dan sepertiganya adalah pendarahan
+case based reasoning case based reasoning adalah salah satu metode pendekatan berbasis pengetahuan untuk mempelajari dan memecahkan masalah berdasarkan pengalaman pada masa lalu
+pengalaman yang lalu dikumpulkan dan disimpan dalam tempat yang disebut basis kasus
+basis kasus adalah kumpulan kasus-kasus yang pernah terjadi
+apabila tidak ditemukan kasus yang memiliki kemiripan maka solusi dari kasus tersebut adalah analisa dari pakar atau ahli tentang kasus tersebut, dan kemudian akan dijadikan suatu kasus baru yang disimpan dalam basis kasus
+case-based reasoning adalah suatu pendekatan untuk menyelesaikan suatu permasalahan berdasarkan solusi dari permasalahan sebelumnya
+case-based reasoning ini merupakan suatu paradigma pemecahan masalah yang banyak mendapat pengakuan yang pada dasarnya berbeda dari pendekatan utama ai lainnya
+suatu masalah baru dipecahkan dengan menemukan kasus yang serupa di masa lampau, dan menggunakannya kembali pada situasi masalah yang baru
+perbedaan lain dari cbr yang tidak kalah penting adalah cbr juga merupakan suatu pendekatan ke arah incremental yaitu pembelajaran yang terus-menerus
+alur proses case base reasoning dapat dilihat pada gambar 1
+alur proses case based reasoning keterangan : 1
+reuse, menggunakan kembali kasus-kasus yang mirip dan dicoba untuk menyelesaikan suatu masalah sekarang 3
+revise, merubah dan mengadopsi solusi yang ditawarkan jika perlu 4
+retain, memakai solusi baru sebagai bagian dari kasus baru kemudian kasus baru di-update kedalam basis kasus c
+metode hamming distance hamming distance adalah cara untuk mengukur jarak antara dua string yang ukurannya sama dengan membandingkan simbol-simbol yang terdapat pada kedua string pada posisi yang sama
+metode hamming distance merupakan salah satu dari algoritma approximate string matching yang ditemukan oleh richard hamming, pada tahun 1950
+metode hamming distance pertama kali digunakan untuk mendeteksi dan memperbaiki telekomunikasi sebagai estimasi error
+untuk mendapatakn similaritas metode hamming distance dalam skala 0-1, dapat digunakan persamaan berikut
+similaritas = 1- uml merupakan bahasa visual untuk pemodelan dan komunikasi mengenai sistem dengan menggunakan diagram dan teks-teks pendukung
+uml muncul karena adanya kebutuhan pemodelan visual untuk menspesifikasikan, menggambarkan, membangun dan dokumentasi dari sistem perangkat lunak
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+activity diagram diagram aktifitas menggambarkan aliran kerja atau aktifitas dari sebuah sistem atau proses bisnis, yang perlu diperhatikan disini adalah bahwa diagram aktifitas menggambarkan aktifitas sistem bukan apa yang dilakukan aktor, jadi aktifitas yang dapat dilakukan oleh sistem
+sequence diagram sequence diagram menggambarkan interaksi antara sejumlah objek dalam urutan waktu
+kegunaanya untuk menunjukkan rangkaian pesan yang dikirim antara objek juga interaksi antar objek yang terjadi pada titik tertentu dalam eksekusi sistem
+sequence diagram menunjukkan interaksi dengan menampilkan setiap partisipan dengan garis alir secara vertikal dengan pengurutan pesan dari atas ke bawah
+class diagram class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+use case diagram berikut adalah diagram use case dari sistem diagnosis risiko penyakit stroke: gambar 3
+hasil perancangan sistem sistem yang dibangun merupakan sistem diagnosis risiko penyakit stroke metode similaritas hamming distance
+gambar 4 merupakan halaman utama pengunjung saat pertama kali menjalankan sistem
+halaman utama pengunjung gambar 5 merupakan halaman ketika admin akan melakukan login
+pengujian tahapan case based reasoning a
+tahapan retrieve adalah menelusuri dan mendapatkan kasus-kasus di basis kasus yang mirip dengan kasus baru
+berikut proses didalam tahapan retrieve: melakukan inputan data dan melakukan diagnosis risiko stroke
+gambar 6 merupakan proses input data gejala risiko stroke
+input data gejala mencari tingkat kemiripan antara kasus uji dengan kasus-kasus yang ada didalam basis kasus
+tingkat kemiripan dicari dengan perhitungan similaritas menggunakan metode hamming distance
+tingkat kemiripan kasus baru dan kasus lama dapat dilihat pada gambar 7 berikut gambar 7
+tingkat kemiripan kasus baru dan kasus lama b
+tahapan reuse adalah menggunakan kembali kasus-kasus yang ada untuk menyelesaikan masalah yang baru terjadi
+hasil pengujian tahapan reuse dapat dilihat pada gambar 8
+kasus lama yang digunakan sebagai solusi c
+tahapan revise merupakan tahapan merubah dan mengadopsi solusi yang ditawarkan jika perlu
+tahapan revise di tunjukkam pada gambar 9 berikut: gambar 9
+tampilah halaman revisi kasus baru d
+tahapan retain terjadi proses penggabungan dari solusi kasus yang baru yang benar ke basis kasus yang telah ada
+tahapan retain di tunjukkan pada gambar 10 dan gambar 11 berikut: gambar 10
+sebelum kasus baru di simpan di basis kasus gambar 11
+setelah kasus baru di simpan di basis kasus 2
+pengujian membandingkan hasil diagnosis pakar dengan hasil diagnosis sistem pada pengujian ini dilakukan dengan cara membandingkan hasil diagnosis kasus baru yang dilakukan oleh pakar dengan hasil diagnosis oleh sistem sebanyak 2 kali dengan jumlah basis kasus yang berbeda yaitu 55 dan 80 basis kasus terhadap 15 kasus uji
+hasil pengujian dapat dilihat pada tabel 1 dan tabel 2
+tabel 1 pengujian membandingkan hasl diagnosis pakar dengan hasil diagnosis sistem menggunakan 55 basis kasus kasus gejala hasil pakar 1
+tekanan darah tinggi, kolesterol waspada, tidak merokok, kadang olahraga, obesitas, tidak ada riwayat stroke dalam keluarga tinggi 85, 714% tinggi sesuai 2
+tekanan darah waspada, gula darah normal, kolestrol tinggi, perokok, tidak olahraga, berat normal, ada riwayat stroke dalam keluarga tinggi 80, 952% sedang tidak sesuai 3
+tekanan darah tinggi, gula darah normal, kolesterol waspada, tidak merokok, tidak olahraga, overweight, tidak ada riwayat stroke dalam keluarga tinggi 90, 476% tinggi dan sedang tidak sesuai 4
+tekanan darah tinggi, gula darah waspada, kolesterol normal, perokok, kadang olahraga, overweight, tidak ada riwayat stroke dalam keluarga tinggi 90, 476% tinggi 5
+tekanan darah waspada, gula darah waspada, kadang merokok, olahraga, overweight, tidak ada riwayat stroke dalam keluarga sedang 85, 714% sedang 6
+tekanan darah waspada, tidak merokok, kadang olahraga, overweight, ada riwayat stroke dalam keluarga sedang 85, 714% sedang sesuai 7
+tekanan darah waspada, gula darah normal, kolesterol normal, tidak merokok, tidak olahraga, ada riwayat stroke dalam keluarga sedang 90, 476% sedang 8
+tekanan darah waspada, kolesterol normal, tidak merokok, olahraga, obesitas, tidak ada riwayat stroke dalam keluarga sedang 95, 238% sedang dan tinggi tidak sesuai 9
+tekanan darah waspada, gula darah waspada, kadang merokok, kadang olahraga, berat normal, tidak ada riwayat stroke dalam keluarga sedang 80, 952% sedang 11
+tekanan darah waspada, kolesterol normal, tidak merokok, olahraga, ada riwayat stroke dalam keluarga rendah 90, 476% rendah sesuai 12
+tekanan darah normal, gula darah normal, kolesterol normal, kadang merokok, olahraga, berat normal, tidak ada riwayat stroke dalam keluarga rendah 80, 952% sedang dan rendah tidak sesuai 13
+tekanan darah tinggi, tidak merokok, olahraga, berat normal, tidak ada riwayat stroke dalam keluarga rendah 90, 476% sedang dan rendah tidak sesuai 14
+tekanan darah normal, gula darah normal, kolesterol waspada, tidak merokok, kadang olahraga, berat normal, tidak yakin ada riwayat stroke dalam keluarga rendah 80, 952% tinggi 15
+tekanan darah normal, kolesterol waspada, tidak merokok, olahraga, berat normal, ada riwayat stroke dalam keluarga rendah 85, 714% rendah kasus kasus gejala hasil 1
+tekanan darah tinggi, kolesterol waspada, tidak merokok, kadang olahraga, obesitas, tidak ada riwayat stroke dalam keluarga tinggi 85, 714% tinggi sesuai 2
+tekanan darah waspada, gula darah normal, kolestrol tinggi, perokok, tidak olahraga, berat normal, ada riwayat stroke dalam keluarga tinggi 80, 952% sedang kesesuai an hasil 3
+tekanan darah tinggi, gula darah normal, kolesterol waspada, tidak merokok, tidak olahraga, overweight, tidak ada riwayat stroke dalam keluarga tinggi 90, 476% tinggi dan sedang tidak sesuai 4
+tekanan darah tinggi, gula darah waspada, kolesterol normal, perokok, kadang olahraga, overweight, tidak ada riwayat stroke dalam keluarga tinggi 90, 476% tinggi 5
+tekanan darah waspada, gula darah waspada, kadang merokok, olahraga, overweight, tidak ada riwayat stroke dalam keluarga sedang 85, 714% sedang 6
+tekanan darah waspada, tidak merokok, kadang olahraga, overweight, ada riwayat stroke dalam keluarga sedang 85, 714% sedang sesuai 7
+tekanan darah waspada, gula darah normal, kolesterol normal, tidak merokok, tidak olahraga, ada riwayat stroke dalam keluarga sedang 90, 476% sedang 8
+tekanan darah waspada, kolesterol normal, tidak merokok, olahraga, obesitas, tidak ada riwayat stroke dalam keluarga sedang 95, 238% sedang dan tinggi tidak sesuai 9
+tekanan darah waspada, gula darah waspada, tidak merokok, kadang olahraga, overweight, tidak ada riwayat stroke dalam keluarga sedang 90, 476% sedang sesuai 10
+tekanan darah waspada, gula darah waspada, kadang merokok, kadang olahraga, berat normal, tidak ada riwayat stroke dalam keluarga sedang 80, 952% sedang 11
+tekanan darah waspada, kolesterol normal, tidak merokok, olahraga, ada riwayat stroke dalam keluarga rendah 90, 476% rendah 12
+merokok, olahraga, berat normal, tidak ada riwayat stroke dalam keluarga 13
+tekanan darah tinggi, tidak merokok, olahraga, berat normal, tidak ada riwayat stroke dalam keluarga rendah 90, 476% sedang dan rendah tidak sesuai 14
+tekanan darah normal, gula darah normal, kolesterol waspada, tidak merokok, kadang olahraga, berat normal, tidak yakin ada riwayat stroke dalam keluarga rendah 80, 952% tinggi 15
+tekanan darah normal, kolesterol waspada, tidak merokok, olahraga, berat normal, ada riwayat stroke dalam keluarga rendah 85, 714% rendah analisis hasil pengujian aplikasi diagnosis risiko stroke dapat disimpulkan sebagai berikut: 1
+menggunakan kembali kasus-kasus yang ada di basis kasus untuk menyelasaikan kasu baru
+merubah dan mengadopsi solusi yang ditawarkan jika perlu
+memakai solusi baru sebagai bagian dari kasus baru, kemudian kasus baru disimpan ke dalam basis kasus
+hasil pengujian tahapan case based reasoning menunjukkan bahwa sistem ini dapat melakukan tahap retrieve, tahap reuse, tahap revise dan tahap retain 
+hasil pengujian dengan membandingkan hasil pakar dan hasil sistem dari 15 kasus yang diuji dengan 55 basis kasus, terdapat 6 kasus yang menunjukkan hasil tidak sesuai yaitu pada kasus uji nomor 2, 3, 8, 12, 13, dan 14, hasil dengan membandingkan hasil pakar dan hasil sistem dari 15 kasus uji dengan 80 basis kasus terdapat 4 kasus yang menunjukkan hasil tidak sesuai yaitu pada kasus uji nomor 2, 3, 12 dan 14
+berdasarkan hasil pengujian tahapan case based reasoning, sistem berhasil melakukan tahapan retrieve, reuse, revise dan retain
+pada pengujian kesesuaian hasil menggunakan 55 basis kasus, sistem mendiagnosis 9 kasus yang sesuai dengan diagnosis pakar sementara menggunakan 80 basis kasus, sistem mendiagnosis 11 kasus yang sesuai dengan diagnosis pakar
+hal ini membuktikan bahwa tingkat keberhasilan sistem sangat bergantung pada banyaknya kasus yang ada di basis kasus, semakin banyak basis kasus yang dimiliki sistem maka akan semakin tinggi pula tingkat keberhasilan sistem
+dari hasil pengujian, dapat disimpulkan bahwa sistem mampu mendiagnosis faktor risiko stroke

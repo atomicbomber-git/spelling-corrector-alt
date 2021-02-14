@@ -1,0 +1,57 @@
+engan pemanfaatan trigger pada distribution store cv nmrq dapai.ah@gmail.com 
+a pos cash register system that can give information about the state of the store, such as data management, transactions, reports, and events
+the goal is to process sales data and the procurement of goods in stores and transaction reports to the profit and loss
+on the other hand the system supports an additional feature of internal chat service to facilitate communication between central and branch
+trigger in the database is a key part in making this application
+with the use of the trigger function in the database to facilitate application of the data accessed by multiple users in the same time
+if without using triggers in the database then the application will work harder than usual, especially for the process of adding inventory and sales
+therefore, the system built in database applications there is a trigger that simply call the trigger
+pendahuluan dalam sebuah perusahaan yang bergerak dibidang perdagangan adalah sistem point of sale 
+pos dapat diterjemahkan bebas menjadi sistem kasir, yaitu aktivitas yang berorientasi pada penjualan yang terjadi pada bidang usaha retail
+pos ini menjadi sangat penting karena pos ini merupakan terminal tempat uang diterima dari pelanggan
+bagi pemilik usaha, uang masuk adalah indikator yang paling mudah untuk mengukur pendapatan usahanya
+sebuah sistem point of sales yang baik adalah pos yang dapat menyajikan informasi transaksi-transaksi dan maupun di kantor cabang secara realtime sehingga dapat dijadikan indikator kesuksesan dan keberhasilan suatu perusahaan dalam menjalankan bisnisnya
+of nmrq yang menjual berbagai merek pakaian, celana, topi, dompet maupun tas
+usaha ini berfokus pada jasa penjualan produk-produk distro
+perusahaan ini akan mengembangkan beberapa cabang sehingga membutuhkan aplikasi web pos sebagai sarana promosi dan manajemen perusahaan
+berdasarkan uraian di atas, maka perlu dirancang dan dikembangkan sebuah aplikasi web yang dapat memberikan fitur-fitur manajemen dan promosi pada distro secara realtime sehingga dapat memudahkan manajemen toko yang lebih baik
+teori dasar 2.1 point of sale point of sale atau pos adalah tempat di mana transaksi ritel selesai
+ini adalah titik di mana pelanggan melakukan pembayaran kepada pada titik penjualan pengecer akan menghitung jumlah utang oleh pelanggan dan memberikan pilihan bagi pelanggan untuk melakukan pembayaran
+mesin ini juga secara otomatis mengeluarkan tanda terima untuk transaksi
+(http://www.omegaakuntansi.com/none/point-of- 2.2 database trigger yang berhubungan dengan table, view, skema atau database yang dijalankan secara implicit pada saat terjadi sebuah event
+trigger merupakan store procedure yang dijalankan secara automatis saat user melakukan modifikasi data pada tabel
+modifikasi data yang dilakukan pada tabel yaitu berupa perintah insert, update, dan delete
+jadi satu trigger yang dinamakan multiple trigger
+application trigger : diaktifkan pada saat terjadi event yang berhubungan dengan sebuah aplikasi
+database trigger : diaktifkan pada saat terjadi event yang berhubungan dengan data atau event yang berhubungan dengan sistem yang terjadi pada sebuah skema atau database
+intinya sangat mudah bagi manusia untuk membaca dan menulis
+sangat mudah untuk mesin untuk mengurai dan menghasilkan
+hal ini didasarkan pada subset dari bahasa pemrograman javascript, standar ecma- 262 edisi ke-3 - desember 1999
+json merupakan format teks yang benar-benar bahasa independen tetapi menggunakan konvensi yang akrab bagi programmer dari c-keluarga bahasa, termasuk c, c + +, c #, java, javascript, perl, python, dan banyak lainnya
+properti ini membuat json merupakan bahasa pertukaran data yang ideal json dibangun di atas dua struktur, yaitu: 1
+dalam berbagai bahasa, ini direalisasikan sebagai objek, merekam, sebuah struct, kamus, tabel hash, daftar bersemangat, atau array asosiatif
+dalam kebanyakan bahasa, ini direalisasikan sebagai array, vektor, daftar, atau urutan ahli tokoh, yaitu: 1
+php atau hypertext processor adalah salah satu bahasa pemograman open source yang sangat cocok atau dikhusukan untuk pengembangan web dan dapat ditanamkan pada sebuah skrip html
+php adalah sebuah bahasa pemograman yang umum dipakai untuk scripting server side
+hypertext processor adalah salah satu bahasa pemograman web yang dapat dipadukan dengan script html yang gunanya untuk mengelolah data dari tampilan halaman website
+use case digunakan penulis untuk mendeskripsikan tipikal interaksi antara pengguna dengan sistem yang dipakai
+adapun gambaran interaksi tersebutdi dalam sistem yang akan dibangun secara keseluruhan meliputi: dapat berjalan dengan baik untuk setiap cabang
++ get : var + setsession : var + jumlahdata : var + listdatagroup : var + perbaiki : var + procgetjtable : var + querycreate : var + rdata : var + readall : var + readgetcountdata : var + replace : var + setdatabase : var - setresult : var + setrowcount : var + settablename : var + simpan : var + simpanpost : var + simpanreplace : var penulis menggunakan sebuah framework yang didalamnya terdapat class inti
+class inti ini yang didalamnya berisikan class libraries, api’s dan komponen-komponen yang digunakan dalam barang, untuk pengurangan stok barang, untuk sub stok penjualan, untuk penambahan stok penjualan dan untuk permintaan barang
+sehingga pada proses transaksi diharapkan data akan mengalir tanpa adanya hambatan
+hasil eksperimen web hosting dimana penulis mencoba mengimplementasikan akses aplikasi secara online guna memudahkan ujicoba aplikasi
+gambar 7 arsitektur implementasi online fitur katalog, pencarian dan even promosi yang terdapat dalam bernada dapat mempermudah pengunjung dalam menemukan lokasi cabang distro mana saja yang sedang terjadi even promosi penjualan, dengan begitu pengunjung dapat dengan mudah langsung menuju lokasi cabang yang ada promosi atau produk yang diinginkan berdasarkan katalog dan pencarian produk
+gambar 8 halaman beranda level tertinggi di dalam aplikasi ini, sehingga dapat mengatur secara keseluruhan dari aplikasi yang berjalan
+adapun tampilan halaman super admin dapat terlihat pada gambar 9
+dimana di dalamnya terdapat menu navigasi berupa data managemen, transaksi, laporan, event dan administrator
+sedangkan untuk level manajer dan kasir yang akan berubah adalah isi di dalam menu navigasi tersebut kecuali event
+kesimpulan terhadap rancang bangun aplikasi point of sale berbasis web dengan pemanfaatan trigger pada distribution store cv nmrq, maka dapat ditarik kesimpulan sebagai berikut: 1
+penerapan trigger pada database di aplikasi dapat membantu proses pengolahan data yang lebih cepat terutama pada proses data-data yang membutuhkan waktu akses yang lebih cepat jika diakses secara bersamaan
+adanya trigger pada database dapat mengurangi beban pada load data pada aplikasi dikarenakan trigger bekerja disisi database
+jika terjadi kegagalan saat melakukan query pada mysql maka trigger tidak akan berfungsi
+aplikasi yang dirancang hanya disesuaikan dengan kebutuhan dan konsep bisnis dari cvnmrq dalam pengelolaan sistem penjualan di pusat maupun cabang
+lanjut agar hasilnya lebih baik lagi, maka ada beberapa hal yang dapat ditambahkan antara lain: 1
+aplikasi ini perlu dikembangkan terutama pada bagian keamanan
+hal ini dimaksudkan untuk mencegah terjadinya penyusupan kepada mengcopy data yang ada
+aplikasi yang dibuat dapat dikembangkan lebih lanjut untuk membuat suatu sistem yang lebih baik, baik dalam penambahan menu transaksi online, menu registrasi pengunjung dan lain sebagainya
+pemograman web dengan php dan mysql 

@@ -1,0 +1,119 @@
+hal ini dikarenakan proses pembelajaran tentang sistem pencernaan manusia masih melalui media-media konvensional seperti papan tulis dan gambar - gambar yang terdapat di buku biologi
+sementara materi tentang sistem pencernaan manusia sangat sulit untuk dilihat langsung secara langsung karena sebagian besar berada didalam tubuh
+kelebihan dari augmented reality adalah tampilan visual yang menarik, karena dapat menampilkan objek 3d beserta animasinya yang seakan- akan ada pada lingkungan nyata dan disandingkan dengan informasi tentang objek 3d yang berupa suara, diharapkan dapat digunakan sebagai alternatif media pembelajaran untuk mengenalkan sistem pencernaan pada manusia yang mampu membuat pengguna tertarik mempelajarinya
+pada penelitian ini digunakan game engine unity untuk membangun aplikasi berbasis android serta vuforia sdk agar aplikasi yang dibangun dapat menjadi aplikasi berteknologi augmented reality
+disertai dengan 1 gambar marker yang terdapat didalam buku pelajaran biologi yang apabila diarahkan ke aplikasi dapat menampilkan visualisasi objek 3d seperti gigi anak, gigi dewasa, gigi geraham, lidah, animasi pencernaan mulut, kerongkongan, lambung, usus halus dan usus besar
+aplikasi ini dapat bermanfaat bagi siswa sekolah menengah atas, yang memperoleh materi pembelajaran sistem pencernaan manusia
+berdasarkan pengujian kompabilitas, aplikasi ini sudah berjalan dengan baik pada perangkat mobile android, mulai dari android versi 4.2.0 hingga android versi 7.0 
+dari hasil pengujian pre test dan post test yang telah dilakukan, untuk kelompok siswa yang belajar menggunakan buku biologi memiliki persentase kenaikan dari nilai pre test ke post test sebesar 14, 5 %, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi augmented reality sistem pencernaan memiliki persentase kenaikan dari nilai pre test ke post test sebesar 24, 8 %, yang berarti augmented reality dapat diterapkan sebagai media pembelajaran sistem pencernaan manusia
+pendahuluan dan digunakan oleh tubuh kita melainkan harus dicernakan terlebih dahulu oleh organ-organ pencernaan
+terdapat 2 jenis proses pencernaan makanan yaitu pencernaan mekanis dan pencernaan kimiawi
+pencernaan mekanis merupakan suatu proses yang melibatkan organ-organ pencernaan sedangkan kalenjar-kalenjar pencernaan
+proses mencerna makanan terjadi melalui saluran pencernaan yang dimulai dari mulut, lalu menuju ke kerongkongan, lambung, usus halus, dan berakhir di usus besar
+sistem pencernaan pada manusia merupakan salah satu materi yang diajarkan pada mata pelajaran biologi pada kelas xi sma
+penyampaian materi tentang sistem pencernaan pada manusia sendiri masih melalui media konvensional seperti papan tulis, dan gambar - gambar yang terdapat di buku biologi
+sementara materi tentang sistem pencernaan ini sulit dilihat secara langsung, karena sebagian besar terjadi didalam tubuh
+walaupun begitu, berbagai teknologi dapat digunakan sebagai media pembelajaran yang bisa menampilkan objek 3d, salah satunya adalah teknologi augmented reality
+augmented reality adalah sebuah teknik yang menggabungkan benda maya dua dimensi maupun tiga dimensi ke dalam sebuah lingkup nyata
+lalu, benda-benda maya tersebut diproyeksikan dalam waktu nyata langsung melalui media berupa marker atau penanda yang diarahkan ke kamera
+dengan menggunakan teknologi ini, siswa dapat melihat visualisasi secara nyata tentang sistem pencernaan manusia yang diaplikasikan ke dalam perangkat mobile android
+pada manusia dalam mata pelajaran biologi”
+teknik yang menggabungkan benda maya dua dimensi maupun tiga dimensi ke dalam sebuah lingkup nyata tiga dimensi lalu memproyeksikan benda-benda maya tersebut dalam waktu nyata
+informasi tertentu ke dalam dunia maya dan menampilkan informasi tersebut ke dalam dunia nyata dengan bantuan perlengkapan seperti webcam, komputer, smartphone android, maupun kacamata khusus
+pengguna di dalam dunia nyata tidak dapat melihat objek maya secara langsung, sehingga untuk mengidentifikasi objek diperlukan perantara berupa komputer dan kamera yang nantinya akan menambahkan objek maya ke dalam dunia nyata
+saat ini terdiri dari dua metode yaitu marker based tracking dan markerless augmented reality
+marker based tracking merupakan metode yang memerlukan penanda yang umumnya berupa gambar hitam putih
+markerless augmented reality merupakan metode augmented reality dimana pengguna tidak perlu lagi menggunakan penanda atau gambar untuk menampilkan objek maya secara langsung
+yang digunakan dalam rangka lebih mengefektifkan komunikasi dan interaksi antara pengajar dan pembelajar dalam proses pembelajaran dikelas
+keberadaan media pembelajaran dalam kegiatan belajar mengajar sangat bermanfaat bagi guru maupun siswa
+manfaat dari penggunaan media pembelajaran adalah dapat memperjelas penyajian pesan dan informasi
+dengan menggunakan media pembelajaran, pengajar dapat meningkatkan minat dan mempermudah untuk mengarahkan perhatian siswa saat kegiatan pembelajaran berlangsung
+hal itu menyebabkan siswa termotivasi untuk giat belajar dan aktif dalam kegiatan pembelajaran
+dalam beberapa tahun terakhir, dengan berkembangnya teknologi perangkat mobile, augmented reality telah memasuki berbagai macam bidang
+dalam bidang pendidikan, augmented reality telah banyak digunakan sebagai alat bantu penelitian di laboratorium dan dapat juga digunakan sebagai media pembelajaran di ruang kelas
+teknologi augmented reality memungkinkan untuk menggabungkan objek virtual ke dalam lingkungan nyata dan menempatkan informasi yang sesuai ke lingkungan sekitar
+dengan menggunakan teknologi augmented reality, bidang pendidikan dan hiburan dapat digabungkan, sehingga menciptakan metode baru untuk mendukung pembelajaran dan pengajaran di lingkungan formal dan informal media pembelajaran yang menggunakan teknologi augmented reality dapat dengan mudah meningkatkan pemahaman siswa karena objek 3d, teks, gambar, video, audio dapat ditampilkan kepada siswa dalam waktu nyata
+siswa bisa terlibat secara interaktif, yang menyebabkan augmented reality bisa menjadi media pembelajaran yang dapat memberikan feedback kepada siswa sehingga siswa mendapatkan kenyamanan dalam menggunakan media tersebut
+pengujian kompatibilitas suatu software berinteraksi dan membagi informasi secara benar dengan software yang lain
+interaksi ini bisa terjadi antara dua program yang secara bersama-sama pada komputer yang sama ataupun pada komputer yng berbeda yang tersambung lewat internet atau lewat kabel network
+jenis pengujian ini membantu mengetahui seberapa baik kinerja aplikasi di lingkungan tertentu mencakup perangkat keras, jaringan, sistem operasi dan perangkat lunak lainnya
+pada penelitian ini, pengujian kompatibilitas dilakukan terhadap fungsionalitas aplikasi dalam tipe perangkat smartphone yang berbeda
+pengujian ini dilakukan agar dapat melihat kompatibilitas perangkat saat menjalankan aplikasi
+pada penelitian ini, pengujian kompatibilitas dilakukan terhadap fungsionalitas aplikasi dalam tipe perangkat smartphone yang berbeda
+pengujian pre test dan post test pengujian ini dilakukan di sman 1 pontianak dengan jumlah masing-masing kelompok berjumlah 10 siswa
+soal yang diujikan terdiri dari 20 butir soal pre test dan post test
+pengujian pre test dan post test dilakukan untuk melihat seberapa besar pengaruh aplikasi yang dibuat dalam pemahaman siswa terhadap materi sistem pencernaan
+jika ingin mengetahui persentase kenaikan nilai yang terjadi antara nilai yang lama ke nilai yang baru, maka digunakan persamaan: desain arsitektur sistem dapat dilihat pada gambar 1
+objek 3d, konten audio, image target dan vuforia package di import ke dalam aplikasi unity
+proses pembangunan aplikasi dilakukan di unity
+aplikasi yang dijalankan kemudian akan mengakses kamera yang ada di android
+kemudian kamera android diarahkan di atas marker
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika valid, aplikasi akan menampilkan objek 3d dari sistem pencernaan ke layar android
+use case diagram yang diharapkan dari sebuah sistem
+sebuah use case merepresentasikan sebuah interaksi antara aktor dengan sistem
+berikut merupakan use case diagram sistem yang dapat dilihat pada gambar 2
+2 use case diagram pengguna dapat memilih menu yang terdiri dari ar pencernaan, kuis, petunjuk, tentang, dan keluar
+dalam menu ar pencernaan pengguna dapat memilih untuk melihat bentuk 3d dan animasi dari organ-organ pada sistem pencernaan seperti mulut, kerongkongan, lambung, usus halus, dan usus besar untuk melihat bentuk 3d serta mendengarkan materi yang diberikan melalui suara
+aktivitas dalam sistem yang sedang dirancang, bagaimana alir berawal, decision yang mungkin terjadi, dan bagaimana alir berakhir
+berikut merupakan activity diagram sistem yang dapat dilihat pada gambar 3
+3 activity diagram sistem akan mengidentifikasi marker tersebut, apabila marker tersebut tidak valid maka animasi objek 3d tidak akan muncul
+tetapi apabila marker tersebut teridentifikasi valid maka animasi objek 3d dari akan muncul
+diinstansiasi akan menghasilkan sebuah objek dan merupakan inti dari pengembangan dan desain berorientasi objek
+berikut merupakan class diagram sistem yang dapat dilihat pada gambar 4
+berdasarkan gambar, terdapat class menu yang dapat menampilkan class pencernaan, class persistent, class petunjukcontroller, class tentangcontroller dan class keluarcontroller
+objek di dalam dan di sekitar sistem berupa message yang digambarkan terhadap waktu
+sequence diagram terdiri atas dimensi vertikal dan dimensi horizontal 
+berikut merupakan sequence diagram sistem yang dapat dilihat pada gambar 5
+5 sequence diagram menu utama, lalu memilih menu ar pencernaan dan dari menu tersebut akan mengaktifkan kamera dan melalukan scanning marker
+dari hasil scanning akan muncul objek 3d pencernaan, selanjutnya memilih menampilkan animasi untuk menampilkan animasi pencernaan
+hasill dan analisis penerapan dari teknologi augmented reality berbasis android
+dibangunnya aplikasi ar pencernaan bertujuan sebagai media pembelajaran multimedia sistem pencernaan pada manusia
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 6-8
+menu utama merupakan tampilan antarmuka yang berisikan tombol-tombol navigasi untuk berpindah- pindah scene
+pada scene ini terdapat beberapa tombol yaitu, tombol ar pencernaan yang akan mengarahkan ke scene ar pencernaan, tombol kuis yang akan mengarahkan ke scene menu kuis, tombol petunjuk yang akan menampilkan pop up informasi cara menggunakan aplikasi, tombol tentang yang akan menampilkan pop up informasi mengenai aplikasi, dan tombol keluar yang akan menampilkan pop up pilihan untuk keluar dari aplikasi atau tidak
+7 tampilan menu ar pencernaan menampilkan objek 3d pada scene ar pencernaan objek yang ditampilkan adalah objek 3d keseluruhan dari sistem pencernaan
+terdapat juga tombol-tombol untuk menuju ke scene dari berbagai macam sistem pencernaan
+ketika marker terdeteksi dan objek 3d tampil pada layar android, maka tombol untuk menjalankan animasi serta informasi dari objek pencernaan akan aktif dan tampil bersamaan dengan tampilnya objek 3d
+8 tampilan menu ar pencernaan menampilkan animasi dan informasi objek 3d menekan tombol play, maka animasi akan berjakan dan informasi akan terdengar
+selain itu, ketika tombol play ditekan, maka akan tampil tombol pause dan stop animasi
+hasil pengujian kompatibilitas pengujian ini dilakukan agar dapat melihat kompatibilitas perangkat saat menjalankan aplikasi yang digunakan saat melakukan pre test dan post test
+pada pengujian kompatibilitas ini, aplikasi diuji mulai dari tahap instalasi hingga saat dioperasikan pada perangkat
+menginstal file arpencernaan.apk pada masing- masing perangkat
+uji beberapa tombol menu yang terdapat pada menu utama
+pada menu yang menggunakan teknologi augmented reality, pengujian dilakukan dengan mengarahkan kamera pada marker
+amati apakah aplikasi dapat mendeteksi pola marker sehingga dapat menampilkan objek 3d, animasi, dan informasi objek berupa suara
+daftar perangkat yang digunakan untuk pengujian aplikasi dapat dilihat pada table i
+hasil pengujian kompatibilitas menunjukkan beberapa hal yang menjadi parameter pengukuran sesuai dengan langkah-langkah pengujian, berhasil di-install dan berjalan pada setiap perangkat smartphone android 
+redmi note 2 - os: android 5.0.2 - kamera: 13 megapixel - layar: 1080 x 1920 pixels, 5, 5 inches 2 oppo neo 5 - os: android 4.4.2 - kamera: 8 megapixel - layar: 480 x 854 pixels, 4, 5 inches c - os: 4.4.2 - kamera: 5 megapixel - layar: 480 x 854 pixels, 4, 5 inches 2 - os: 4.4.2 - kamera: 8 megapixel - layar: 720 x 1080 pixels, 5, 25 inches 5 xiaomi redmi 4x - os: 6.0.1 - kamera: 13 megapixel - layar: 720 x 1080 pixels, 5 inches 6 samsung galaxy j7 - os: 7.0 - kamera: 13 megapixel - layar: 1080 x 1920 pixels, 5, 5 inches selfie - os: 5.0 - kamera: 13 megapixel - layar: 1080 x 1920 pixels, 5, 5 inches l - os: 4.2.2 - kamera: 8 megapixel - layar: 480 x 854 pixels, 4, 7 inches 9 xiaomi redmi 3 pro - os: 5.1 - kamera: 13 megapixel - layar: 720 x 1080 pixels, 5, 0 inches 10 oppo f1 - os: 5.1 - kamera: 13 megapixel - layar: 720 x 1080 pixels, 5, 0 inches a
+hasil pengujian pre test dan post test pertama kali yang dilakukan dalam pengujian adalah memberi pre test seputar materi pelajaran sistem pencernaan manusia kepada 20 orang siswa
+selanjutnya, 20 orang siswa tadi dibagi menjadi 2 kelompok
+kelompok pertama akan disuruh untuk mengulang lagi materi tentang sistem pencernaan dengan membaca buku pelajaran biologi
+pre test dan post test nya sendiri terdiri dari 20 sampel pertanyaan
+jawaban benar akan diberi nilai 10, sedangkan jawaban akan diberi nilai 0
+total nilai pre test dibandingkan dengan total nilai post test
+kemudian di hitung berapa persentase kenaikan nilai dari pre test ke post test
+berikut beberapa grafik rata-rata nilai dan grafik persentase kenaikan nilai, yang diperlihatkan pada gambar 9 dan gambar 10
+nomor perangkat 1 2 3 4 5 6 7 8 9 10 menginstall aplikasi           menjalankan aplikasi           gambar 9
+grafik nilai rata-rata pre test dan post test gambar 10
+analisis hasil pengujian dari dua pengujian yang sudah dilakukan, dapat disimpulkan beberapa poin hasil analisis dari aplikasi ar pencernaan yang akan dijelaskan sebagai berikut
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh bahwa aplikasi dapat berjalan pada perangkat smartphone android dengan sistem operasi versi 4.2.0 hingga versi 7.0 
+berdasarkan data ini, dapat diketahui bahwa aplikasi dapat dijalankan pada perangkat android versi terendah sesuai dengan yang telah ditentukan pada batasan masalah dan diimplementasikan melalui pengaturan pada game engine unity
+selain itu, aplikasi ini juga dapat dijalankan pada perangkat android versi terbaru
+hal ini dikarenakan script game engine unity dibangun menggunakan ide untuk linux, berbagai macam jenis dan versi dari sistem operasi
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa tampilan pada setiap perangkat smartphone android memiliki perbedaan, hal ini disebabkan perbedaan ukuran dan resolusi pada setiap layar smartphone android
+perbedaan ini dikarenakan pengaturan ukuran layar pada game engine unity sebesar 720 x 1080 pixels
+hal ini berpengaruh terhadap perangkat smartphone android yang memiliki resolusi dibawah 720 x 1080 pixels
+pada perangkat yang memiliki resolusi dibawah 720 x 1080 pixels, tampilan aplikasi terlihat menumpuk
+sedangkan untuk perangkat smartphone android yang memiliki resolusi diatas 720 x 1080 pixels perbedaan tampilan tidak terlalu signifikan
+berdasarkan hasil pengujian pre test dan post test, untuk kelompok siswa yang belajar menggunakan buku mata pelajaran biologi diperoleh nilai rata- rata 72 untuk pre test dan 82, 5 untuk nilai rata- rata post test, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi augmented reality sistem pencernaan memperoleh nilai rata- rata 72, 5 untuk pre test dan 90, 5 untuk nilai rata- rata post test
+perbedaan persentase kenaikan nilai ini, dipengaruhi oleh media belajar dari masing-masing kelompok
+dimana saat pengujian dilakukan, kelompok yang belajar menggunakan aplikasi sistem pencernaan terlihat lebih tertarik dan fokus dalam memahami materi
+sedangkan untuk kelompok yang belajar menggunakan buku pelajaran terlihat lebih cepat bosan dan tidak fokus
+selain itu, jawaban dari soal post test yang diberikan terdapat di materi pembelajaran pada aplikasi sistem pencernaan seperti soal-soal tentang bagian-bagian dari organ pencernaan yang pada aplikasi sistem pencernaan ditampilkan secara visual dalam bentuk 3d dan disandingkan dengan informasi berupa suara
+sedangkan pada kelompok siswa yang belajar menggunakan buku pelajaran, bagian-bagian dari organ pencernaan ditampilkan secara 2d yaitu berupa gambar yang terdapat di buku pelajaran
+dari persentase kenaikan nilai dan pengamatan langsung terhadap proses pembelajaran siswa, dapat dilihat bahwa aplikasi augmented reality sistem pencernaan dapat membantu manusia kepada siswa
+pencernaan dapat disimpulkan bahwa: pada perangkat smartphone android dengan sistem operasi versi 4.2.0 hingga versi 7.0 
+pada smartphone android adalah sebesar 720 x 1080 pixels
+berdasarkan perhitungan persentase kenaikan nilai, untuk kelompok siswa yang belajar menggunakan buku mata pelajaran biologi diperoleh persentase kenaikan sebesar 14, 5 %, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi augmented reality sistem pencernaan diperoleh persentase kenaikan sebesar 24, 8 % yang berarti kelompok siswa yang belajar menggunakan aplikasi augmented reality sistem pencernaan memiliki persentase kenaikan nilai yang lebih tinggi dari kelompok siswa yang belajar menggunakan buku mata pelajaran biologi
+dari perhitungan persentase kenaikan nilai dapat disimpulkan bahwa, augmented reality dapat diterapkan sebagai media pembelajaran sistem pencernaan pada manusia

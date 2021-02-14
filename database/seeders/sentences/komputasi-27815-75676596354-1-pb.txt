@@ -1,0 +1,135 @@
+–– stunting adalah kondisi gagal tumbuh pada anak balita akibat dari kekurangan gizi kronis sehingga tinggi atau panjang badan anak terlalu pendek untuk usianya
+pada tahun 2017 dari hasil pantauan status gizi yang dilakukan oleh pemerintah pusat di kota pontianak tercatat sebanyak 28% balita dinyatakan terkena stunting
+hasil psg 2017 tersebut mengalami perbaikan dengan angka persentase penurunan stunting sebanyak 4% dari tahun sebelumnya, yaitu 32% di tahun 2016
+untuk dapat mendukung dalam mengurangi angka persentase stunting di kota pontianak, dibuatlah sebuah aplikasi sistem pendukung keputusan pemilihan daerah prioritas penanganan stunting pada balita
+sistem pendukung keputusan merupakan suatu sistem berbasis komputer yang menghasilkan berbagai alternatif keputusan untuk membantu pihak pengambil keputusan
+sistem pendukung keputusan bukan merupakan alat pengambilan keputusan, melainkan sebagai sistem yang membantu pengambil keputusan yang dilengkapi informasi dari data yang telah diolah dengan relevan dan diperlukan untuk membuat keputusan tentang suatu masalah dengan lebih cepat dan akurat
+metode topsis merupakan metode yang digunakan pada aplikasi ini
+metode topsis adalah suatu metode alternatif terbaik yang memiliki jarak terpendek dari solusi ideal positif dan jarak terjauh dari solusi ideal negatif
+hasil keluaran dari aplikasi ini adalah urutan nilai preferensi dari nilai terbesar hingga terkecil berdasarkan alternatif yang menjadi pilihan
+adapun hasil pengujian kuesioner yang sudah dilakukan responden memberi tanggapan dengan rata-rata nilai 80% dari tiga aspek penilaian yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas perangkat lunak, dan aspek visual perangkat lunak, sehingga aplikasi ini layak untuk diimplementasikan
+pendahuluan stunting adalah kondisi gagal tumbuh pada anak balita akibat dari kekurangan gizi kronis sehingga tinggi atau panjang badan anak terlalu pendek untuk usianya
+kekurangan gizi terjadi sejak bayi dalam kandungan dan pada masa awal bayi lahir, tetapi kondisi stunting baru tampak setelah bayi berusia 2 tahun
+balita dikatakan pendek atau sangat pendek adalah balita dengan panjang badan/usia atau tinggi badan/usia dengan nilai z- scorenya kurang dari -2 sd/standar deviasi dan kurang dari -3 sd/standar deviasi berdasarkan bidang ilmu kesehatan
+pada tahun 2017 dari hasil pantauan status gizi yang dilakukan oleh pemerintah pusat di kota pontianak tercatat sebanyak 28 persen balita dinyatakan terkena stunting
+hasil psg 2017 tersebut mengalami perbaikan dengan angka persentase penurunan stunting sebanyak 4 persen dari tahun sebelumnya, yakni 32 persen di tahun 2016
+badan organisasi kesehatan dunia atau who merekomendasikan angka persentase stunting dikatakan ideal apabila hasil pantauan status gizinya dengan angka persentase dibawah 15 persen
+hal tersebut mendapat dukungan dari dinas kesehatan kota pontianak dengan memasang target penurunan persentase stunting di kota pontianak di angka kurang dari 26 persen pada tahun 2019 dan kurang dari 20 persen pada tahun 2024 mendatang
+adapun solusi untuk mengurangi angka persentase yang terkena stunting di kota pontianak, dinas kesehatan kota pontianak telah bekerja sama dengan pihak-pihak terkait seperti puskesmas atau posyandu yang ada di lingkungan kota pontianak
+untuk dapat mendukung dalam mengurangi angka persentase stunting di kota pontianak diperlukan adanya suatu sistem pendukung keputusan pemilihan daerah prioritas yang ada di kota pontianak dalam hal penanganan stunting pada balita
+pemilihan daerah prioritas penanganan stunting ini merupakan sebuah solusi dari dinas kesehatan kota pontianak dengan tujuan untuk memudahkan kerja sama dengan pihak terkait seperti puskesmas atau posyandu agar penanganannya dapat berjalan lebih efektif dan dapat lebih difokuskan, serta untuk menghindari terjadinya tumpang tindih dengan kegiatan program lainnya dan kriteria untuk menentukan pemilihan daerah penanganan stunting ini berasal dari dinas kesehatan kota yang digunakan sebagai indikator untuk penanganan stunting pada balita dalam hal mendukung pengambilan keputusan
+pengambilan keputusan adalah pemilihan beberapa tindakan alternatif yang ada untuk mencapai satu atau beberapa tujuan yang telah diterapkan dengan adanya sistem pendukung keputusan
+sistem pendukung keputusan bukan merupakan alat pengambilan keputusan, melainkan sebagai sistem yang membantu pengambil keputusan yang dilengkapi informasi dari data yang telah diolah dengan relevan dan diperlukan untuk membuat keputusan tentang suatu masalah dengan lebih cepat dan akurat
+sehingga sistem ini tidak dimaksudkan untuk menggantikan pengambilan keputusan dalam proses pembuatan keputusan
+maka dari itu, diberikan sebuah solusi untuk membuat dan membangun suatu aplikasi sistem pendukung keputusan pemilihan daerah prioritas penanganan stunting pada balita
+sistem ini akan dibangun dengan menggunakan metode topsis berbasiskan website, karena dengan menggunakan website masing-masing pengguna tidak perlu lagi menginstal diperangkat komputer
+metode topsis merupakan suatu metode pengambilan keputusan multikriteria yang banyak digunakan dalam menyelesaikan pengambilan keputusan secara praktis
+metode topsis memiliki beberapa keunggulan yaitu konsep yang sederhana atau mudah dipahami, komputasi yang efisien, dan mampu dijadikan sebagai pengukur kinerja alternatif dari sebuah bentuk output komputasi yang sederhana, serta dapat digunakan sebagai metode pengambilan keputusan yang lebih cepat dengan memiliki jarak terpendek dari solusi ideal positif dan jarak terjauh dari solusi ideal negatif
+berdasarkan uraian permasalahan yang telah dijelaskan, maka dilakukan penelitian mengenai masalah pemilihan daerah prioritas penanganan stunting pada balita di dinas kesehatan kota pontianak untuk merekomendasikan daerah kecamatan mana yang lebih diprioritaskan dalam melakukan penanganan stunting
+sistem pendukung keputusan pemilihan daerah prioritas penanganan stunting pada balita menggunakan metode topsis (studi kasus: kota pontianak)
+adapun judul yang diteliti adalah 
+sistem pendukung keputusan menurut little konsep sistem pendukung keputusan atau spk dapat berupa sebuah sistem berbasis komputer yang menghasilkan berbagai alternatif keputusan untuk membantu manajemen dalam menangani berbagai permasalahan yang terstruktur maupun tidak terstruktur dengan menggunakan data dan model
+spk sejak awal telah dirancang agar mampu untuk menunjang seluruh tahapan pembuatan keputusan, seperti tahap pengidentifikasian masalah, pemilihan data, penentuan pendekatan hingga kegiatan untuk mengevaluasi pemilihan alternatif
+keunikan dari spk adalah kemampuannya dalam mengintegrasikan data dengan model- model keputusan
+sistem pendukung keputusan merupakan penggabungan sumber-sumber kecerdasan individu dengan kemampuan komponen untuk memperbaiki kualitas keputusan
+sistem pendukung keputusan juga merupakan sistem informasi berbasis komputer untuk manajemen pengambilan keputusan yang menangani masalah-masalah semi struktur
+dari definisi diatas dapat dijelaskan bahwa spk bukan merupakan alat pengambilan keputusan, melainkan merupakan sistem yang membantu pengambil keputusan yang dilengkapi informasi dari data yang telah diolah dengan relevan dan diperlukan untuk membuat keputusan tentang suatu masalah dengan lebih cepat dan akurat
+sehingga sistem ini tidak dimaksudkan untuk menggantikan pengambilan keputusan dalam proses pembuatan keputusan
+komponen sistem pendukung keputusan sistem pendukung keputusan mempunyai komponen- komponen yang terdiri dari 4 subsistem, yaitu: - data manajemen : meliputi database yang mengandung data yang relevan untuk berbagai situasi dan diatur oleh software yang disebut database management system 
+model manajemen : merupakan paket software yang berisi model-model seperti finansial, statistikal, management science, atau berbagai model kuantitatif lainnya, sehingga dapat memberikan ke sistem suatu kemampuan analitis, dan management software yang diperlukan
+komunikasi : pengguna dapat berkomunikasi dan memberikan perintah pada spk melalui subsistem ini
+knowledge management : merupakan subsistem pilihan yang dapat mendukung subsistem lain atau bertindak sebagai komponen yang berdiri sendiri
+proses pengambilan keputusan pengambilan keputusan adalah pemilihan beberapa tindakan alternatif yang ada untuk mencapai satu atau beberapa tujuan yang telah diterapkan
+untuk memelakukan pengambilan keputusan harus melewati beberapa tahapan atau proses pengambilan keputusan
+proses pengambilan keputusan meliputi empat tahapan yang saling berhubungan dan berurutan, yaitu sebagai berikut: - intelligence tahap ini merupakan proses penelusuran dan pendeteksian dari lingkup problematika serta proses pengenalan masalah
+data masukkan yang diperoleh, diproses, dan diuji dalam rangka mengidentifikasi masalah
+design tahap ini merupakan proses untuk menemukan, mengembangkan, dan menganalisis suatu alternatif tindakan yang bisa dilakukan
+tahap ini meliputi proses untuk mengerti masalah, menurunkan solusi, dan menguji kelayakan solusi
+choice pada tahap ini dilakukan proses pemilihan diantara berbagai alternatif tindakan yang mungkin akan dijalankan
+solusi dari model merupakan nilai spesifik untuk variabel hasil pada alternatif yang dipilih
+implementation tahap implementasi adalah tahap pelaksanaan dari keputusan yang telah diambil
+pada tahap ini diperlukan untuk menyusun serangkaian tindakan yang terencana, sehingga hasil keputusan dapat dipantau dan disesuaikan apabila diperlukan perbaikan
+stunting stunting adalah kondisi gagal tumbuh pada anak balita akibat dari kekurangan gizi kronis sehingga tinggi atau panjang badan anak terlalu pendek untuk usianya
+kekurangan gizi terjadi sejak bayi dalam kandungan dan pada masa awal setelah bayi lahir akan tetapi, kondisi stunting baru nampak setelah bayi berusia 2 tahun
+balita pendek dan sangat pendek adalah balita dengan panjang badan atau tinggi badan menurut umurnya dibandingkan dengan standar baku who- mgrs 2006
+sedangkan definisi stunting menurut kementerian kesehatan r.i adalah anak balita dengan nilai z-scorenya kurang dari -2 sd/standar deviasi dan kurang dari -3 sd/standar deviasi 
+adapun faktor-faktor yang menyebabkan anak mengalami stunting yaitu faktor gizi yang buruk, kurangnya pengetahuan ibu mengenai kesehatan dan gizi anak, masih terbatasnya layanan kesehatan dan kurangnya akses kepada makanan bergizi, dan yang terakhir kurangnya air bersih dan juga kurangnya sanitasi/belum maksimalnya usaha untuk membina dan menciptakan suatu keadaan yang lebih baik di bidang kesehatan
+balita balita merupakan anak yang berada dalam rentan usia 1-5 tahun kehidupan
+pada masa balita merupakan periode penting dalam proses tumbuh kembang manusia
+pertumbuhan dan perkembangan dimasa itu menjadi penentu keberhasilan pertumbuhan dan perkembang anak diperiode selanjutnya
+masa tumbuh kembang di usia ini merupakan masa yang berlangsung cepat dan tidak akan pernah terulang, karena itu sering disebut golden age atau masa keemasan
+pada masa ini juga pertumbuhan dan perkembangan anak sangat pesat baik secara fisik, psikologi, mental, maupun sosialnya
+balita juga merupakan kelompok anak yang rentan terhadap berbagai penyakit
+salah satu upaya untuk meningkatkan kesehatan anak dengan memberikan makanan yang sehat dan imunisasi
+pada usia balita, anak-anak membutuhkan dukungan nutrisi yang lengkap untuk pertumbuhan dan perkembangan tubuh dan otak mereka
+masa balita adalah masa kritis, maka kebutuhan nutrisi bagi balita harus seimbang, baik dalam jumlah maupun kandungan gizi
+peningkatkan pembangunan kesehatan dapat dilakukan melalui pemberdayaan masyarakat
+salah satu wujud dari pemberdayaan masyarakat tersebut adalah posyandu
+technique for order preference by similarity to ideal solution
+metode topsis topsis adalah salah satu metode pengambilan keputusan multikriteria yang pertama kali diperkenalkan oleh yoon dan hwang tahun 1981
+topsis didasarkan pada konsep dimana alternatif yang terpilih atau terbaik tidak hanya mempunyai jarak terdekat dari solusi ideal positif, namun juga memiliki jarak terjauh dari solusi ideal negatif dari sudut pandang geometris dengan menggunakan jarak euclidean untuk menentukan kedekatan relatif dari suatu alternatif dengan solusi optimal solusi ideal positif didefinisikan sebagai jumlah dari seluruh nilai terbaik yang dapat dicapai untuk setiap atribut, sedangkan solusi negatif ideal terdiri dari seluruh nilai terburuk yang dicapai untuk setiap atribut
+topsis mempertimbangkan keduanya, jarak terhadap solusi ideal positif dan jarak terhadap solusi ideal negatif dengan mengambil kedekatan relatif terhadap solusi ideal positif
+berdasarkan perbandingan terhadap jarak relatifnya, susunan prioritas alternatif bisa dicapai
+metode ini banyak digunakan pada beberapa model madm untuk menyelesaikan masalah pengambilan keputusan secara praktis
+hal ini disebabkan konsepnya sederhana dan mudah dipahami, komputasinya efisien, dan memiliki kemampuan mengukur kinerja relatif dari alternatif- alternatif keputusan dalam bentuk matematis yang sederhana
+ada beberapa langkah-langlah metode topsis dalam menyelesaikan suatu masalah sebagai berikut: - membuat matriks keputusan yang ternormalisasi
+keterangan : rij = matriks ternormalisasi [i] [j] xij = matriks keputusan [i] [j] i = 1, 2, 3,
+membuat matriks keputusan yang ternormalisasi terbobot
+solusi ideal positif a + dan solusi ideal negatif a - dapat keterangan : yij = matriks keputusan ternormalisasi terbobot w = bobot preferensi rij = matriks ternormalisasi
+membuat matriks solusi ideal positif dan solusi ideal negatif
+solusi ideal positif dapat dihitung dengan rumus : + = solusi maksimal ideal positif yj + = solusi ideal positif
+catatan untuk menghitung nilai solusi ideal : *solusi ideal positif = jika benefit maka nilainya max dan jika cost maka nilainya min
+*solusi ideal negatif = jika benefit maka nilainya min dan jika cost maka nilainya max
+menentukan jarak antara nilai setiap alternatif dengan matriks solusi ideal positif dan matriks ideal negatif
+jarak antara alternatif dengan solusi ideal positif dirumuskan sebagai berikut : keterangan : di yi + = solusi ideal positif keterangan : di yi - = soluli ideal negatif keterangan : vi = kedekatan tiap alternatif terhadap solusi ideal di - = jarak alternatif ai dengan solusi ideal negatif di + = jarak alternatif ai dengan solusi ideal positif
+laravel laravel adalah framework bahasa pemrograman hypertext preprocessor yang ditujukan untuk pengembangan aplikasi berbasis web dengan menerapkan konsep model view controller 
+framework ini dibuat oleh taylor otwell dan pertama kali dirilis pada tanggal 9 juni 2011
+laravel berlisensi open source yang artinya bebas digunakan tanpa harus melakukan pembayaran
+alamat website resmi dari framework laravel adalah https://laravel.com
+pengujian black box pengujian black box merupakan salah satu metode pengujian yang berfokus pada persyaratan fungsional perangkat lunak
+maka dari itu, pengujian black box memungkinkan perekayasa perangkat lunak mendapatkan serangkaian kondisi input yang sepenuhnya menggunakan semua persyaratan fungsional untuk suatu program
+pengujian black box berusaha juga untuk menemukan kesalahan dalam beberapa kategori sebagai berikut: 1
+kesalahan dalam struktur data atau akses database eksternal 4
+pengujian kuesioner kuesioner adalah suatu daftar yang berisi pertanyaan- pertanyaan yang harus dijawab atau dikerjakan oleh responden atau orang tua/anak yang ingin diselidiki
+perancangan arsitektur sistem perancangan arsitektur pada sistem pendukung keputusan pemilihan daerah prioritas penanganan stunting ini dibangun berbasiskan website dengan 2 level hak akses yaitu user dan admin, dimana user dan admin dapat mengaksesnya melalui komputer/laptop yang terkoneksi dengan jaringan internet user dapat memasukan data alternatif, data kriteria, dan data nilai
+kemudian server menerima data inputan yang telah dimasukkan oleh user
+setelah itu, server merespon dan mengirim data ke user atau admin berupa informasi data alternatif, data kriteria, dan data hasil nilai proses spk
+selain menerima informasi data alternatif, data kriteria, dan data hasil nilai proses spk, admin juga dapat memasukan data users dan menerima informasi data users
+perancangan arsitektur sistem dapat dilihat pada gambar 1 sebagai berikut
+1 arsitektur sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks dapat dilihat pada gambar 2
+diagram overview sistem diagram overview sistem adalah diagram yang menjelaskan urutan-urutan proses dari diagram konteks
+diagram overview sistem dapat dilihat pada gambar 3
+entity relationship diagram entity relationship diagram merupakan suatu model untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antar relasi
+entity relationship diagram dapat dilihat pada gambar 4
+4 entity relationship diagram keterangan : * merupakan primary key ** merupakan foreign key
+relasi antar tabel relasi antar tabel merupakan gambaran hubungan antar tabel yang dipergunakan dalam perancangan sistem
+relasi antar tabel dapat dilihat pada gambar 5
+5 relasi antar tabel berdasarkan pada gambar 5 dapat dijelaskan yaitu id_alternatif sebagai primary key ditabel alternatif memiliki relasi dengan id_alternatif yang sebagai foreign key ditabel nilai
+relasi antara id_alternatif dan id_nilai ini berfungsi untuk menampilkan data alternatif pada saat mengubah dan menampilkan data nilai
+adapun id_kriteria sebagai primary key ditabel kriteria memiliki relasi dengan id_kriteria yang sebagai foreign key ditabel nilai ini berfungsi juga untuk menampilkan data kriteria pada saat mengubah dan menampilkan data nilai
+antar muka halaman login pada tampilan antarmuka halaman login terdapat dua level pengguna, yaitu admin dan user
+pada level admin, admin dapat melihat dashboard, data dokumentasi, dan data users
+sedangkan pada level user, user dapat melihat dashboard, data alternatif, data kriteria, data nilai, dan pengaturan data user
+gambar antarmuka halaman login dapat dilihat pada gambar 7
+antarmuka halaman data detail dokemntasi pada tampilan antarmuka halaman data detail dokumentasi, admin dapat melihat data kriteria, data alternatif, data nilai, data hasil dan data nilai preferensi
+gambar tampilan antarmuka halaman data detail dokumentasi dapat dilihat pada gambar 8
+8 antarmuka halaman data detail dokumentasi c
+antarmuka halaman data alternatif pada tampilan antarmuka halaman data alternatif, user dapat melihat data alternatif yang tersimpan dari database, dan user dapat menambah, mengubah, menghapus, mencari, ataupun memilih tahun pemilihan data alternatif
+gambar tampilan antarmuka halaman data alternatif dapat dilihat pada gambar 9
+antarmuka halaman data kriteria pada tampilan antarmuka halaman data kriteria, user dapat melihat data kriteria yang tersimpan dari database, dan user dapat menambah, mengubah, menghapus, mencari, ataupun memilih tahun data kriteria
+gambar tampilan antarmuka halaman data kriteria dapat dilihat pada gambar 10
+antarmuka halaman data nilai pada tampilan antarmuka halaman data nilai, user dapat melihat data nilai yang tersimpan dari database, dan user dapat mengubah, menghapus, ataupun memilih tahun data nilai
+gambar tampilan antarmuka halaman data nilai dapat dilihat pada gambar 4.11
+antarmuka halaman hasil pada tampilan antarmuka halaman nilai matriks, user dapat melihat informasi nilai matriks keputusan yang didapatkan dari data nilai
+gambar tampilan antarmuka halaman nilai matriks keputusan dapat dilihat pada gambar 12
+hasil pengujian black box pengujian black box dilakukan dengan cara menjalankan aplikasi dengan tujuan untuk menemukan kesalahan serta memeriksa apakah sistem dapat berjalan dengan baik sesuai dengan kebutuhan
+pada jurnal ini pengujian black box yang dilampirkan pada proses login dan ubah data nilai
+berikut adalah tabel hasil pengujian black box pada proses login terlampir pada tabel 1 dan untuk proses ubah data nilai pada tabel 2
+analisis hasil uji berikut ini merupakan analisis hasil perancangan dan pengujian sistem pendukung keputusan pemilihan daerah prioritas penanganan stunting pada balita menggunakan metode topsis yaitu : 1
+hasil pengujian menggunakan metode black box menunjukan bahwa saat dilakukan input data dengan salah satu data kosong atau dengan keseluruhan data kosong akan menampilkan notifikasi kesalahan pada aplikasi, sehingga kegagalan pada program aplikasi dapat ditangani
+hasil pengujian kuesioner dari 3 aspek penilaian yang dilakukan yaitu untuk aspek rekayasa perangkat lunak dengan persentase penilaian 80%, untuk aspek fungsionalitas perangkat lunak dengan persentase penilaian 80%, dan terakhir untuk aspek komunikasi visual perangkat lunak dengan persentase penilaian 80%, sehingga dapat disimpulkan dengan nilai rata-rata 80%
+kesimpulan berdasarkan hasil uji dan analisis hasil uji, maka dapat disimpulkan bahwa : 1
+sistem yang dihasilkan dengan menggunakan metode topsis dapat merekomendasikan pemilihan daerah prioritas penanganan stunting pada balita dari nilai preferensi terbesar sampai dengan nilai preferansi terkecil
+sistem pendukung keputusan pemilihan daerah prioritas penanganan stunting pada balita ini dapat diterapkan di daerah lain dengan sesuai standar kriteria dari dinas kesehatan yang telah ditentukan
+hasil pengujian kuesioner dengan nilai rata-rata 80% dari tiga aspek penilaian yaitu aspek rekayasa perangkat lunak, aspek fungsionalitas perangkat lunak, dan aspek visual perangkat lunak, sehingga aplikasi ini layak untuk diimplementasikan

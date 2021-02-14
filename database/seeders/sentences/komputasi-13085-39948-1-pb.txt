@@ -1,0 +1,21 @@
+nfomedia solusi humanika program studi teknik informatika fakultas teknik universitas tanjungpura e-mail: 1randione88@gmail.com, 2irwansyah.azhar@gmail.com, 3anggidianti@gmail.com berkembang pula proses pendidikan di indonesia ini
+begitu pula kualitas tenaga kerja semakin bertambah baik yang dari dalam negeri maupun yang dari luar negeri dan jumlahnya semakin meningkat dengan pesat
+menyebabkan banyak perusahaan atau instansi-instansi sulit memilih pegawai karyawan/karyawati yang sesuai dengan kebutuhan dan ahli pada bidangnya masing- masing, terutama di pt infomedia solusi humanika kalimantan barat
+untuk mengoptimalkan proses pemilihan seleksi calon karyawan baru dibangunlah sebuah sistem berbasis komputer yang dinamakan sistem pengambilan keputusan atau disebut juga decision support system
+salah satu metode yang bisa digunakan adalah ahp, metode ahp digunakan untuk menghitung bobot calon karyawan dengan baik dengan nilai yang akurat pada perhitungan bobot pelamar untuk penentuan penerimaan csr dengan kriteria sebanyak 11 macam dan inputan yang berbeda-beda
+nilai bobot pelamar dapat ditentukan dengan mendata bobot antara perhitungan menggunakan sistem dan rentang nilai antara keduanya
+nilai rentang ternyata tidak lebih besar dari 0.05
+spk seleksi penerimaan calon karyawan baru dengan multikriteria menggunakan pendekatan ahp pada pt infomedia solusi humanika dapat membantu dalam melakukan proses penilaian proses pengambilan keputusan berdasarkan bobot yang didapat melalui perhitungan dengan metode ahp
+sistem yang dibuat juga dapat mempermudah pihak perusahaan dalam memanajemen data para calon pelamar yang telah memasukkan lamarannya sehingga membuat pekerjaan lebih efektif dan efisien
+pendahuluan dengan semakin berkembangnya teknologi dan ilmu pengetahuan, semakin berkembang pula proses pendidikan di indonesia ini
+begitu pula kualitas tenaga kerja semakin bertambah baik yang dari dalam negeri maupun yang dari luar negeri dan jumlahnya semakin meningkat dengan pesat
+menyebabkan banyak perusahaan atau instansi-instansi sulit memilih pegawai karyawan/karyawati yang sesuai dengan kebutuhan dan ahli pada bidangnya masing-masing, terutama di pt infomedia solusi humanika kalimantan barat
+kalimantan barat sebagai perusahaan yang bergerak dalam bidang hr process & solution sudah mengelola kurang lebih 17.300 orang tenaga kerja tentu sangat mengutamakan kualitas dalam menyediakan jasa hr service
+oleh karena itu dibutuhkan tenaga-tenaga ahli yang terampil dan profesioanal guna menunjang hal tersebut
+dengan semakin banyaknya tenaga kerja yang memiliki kemampuan yang berbeda-beda maka dalam merekrut pegawai baru diperlukan penyeleksian dari calon pegawai di pt infomedia solusi humanika kalimantan barat, karena jika hal tersebut dilakukan secara manual tentu akan menyulitkan bagian penerimaan pegawai dan juga rawan akan terjadinya suatu kesalahan dalam mengambil keputusan seperti prosesnya bisa dimanipulasi selain itu juga akan memerlukan waktu yang cukup menyita
+untuk mengoptimalkan proses pemilihan seleksi calon karyawan baru dibangunlah sebuah sistem berbasis komputer yang dinamakan sistem pengambilan keputusan atau disebut juga decision support system
+metode sistem pengambilan keputusan adalah salah satu metode komputasi yang cukup berkembang saat ini
+banyak metode dalam sistem pengambilan keputusan yang dapat digunakan untuk membantu seleksi penerima karyawan baru ini
+salah satu metode yang bisa digunakan adalah ahp yaitu sistem pendukung keputusan yang akan menguraikan masalah multi faktor atau multi kriteria yang kompleks menjadi suatu hirarki
+system) adalah sebuah sistem yang mampu memberikan kemampuan pemecahan masalah maupun kemampuan pengkomunikasian untuk terstruktur
+sistem ini digunakan untuk membantu pengambilan keputusan dalam situasi semi terstruktur dan situasi yang tidak terstruktur, dimana tak seorangpun tahu secara pasti bagaimana keputusan seharusnya dibuat 

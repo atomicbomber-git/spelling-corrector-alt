@@ -1,0 +1,19 @@
+urnal sistem dan teknologi informasi vol 1, no 1, 1 perkembangan dunia teknologi informasi yang saat ini telah meningkat cepat
+salah satu teknologi yang dapat digunakan teknik informatika universitas tanjungpura sebagai media informasi adalah augmented reality
+dengan keterbatasan brosur dalam menyampaikan informasi, augmented reality dapat memberikan informasi yang belum terdapat di brosur dengan memvisualisasikannya ke dalam bentuk 3 dimensi yang seakan-akan berada pada lingkungan nyata
+dalam penelitian ini digunakan game engine unity untuk membangun aplikasi android dan vuforia sdk agar memungkinkan aplikasi yang dibangun menjadi aplikasi berteknologi augmented reality
+marker yang digunakan adalah brosur teknik informatika universitas tanjungpura yang berisi beberapa marker
+aplikasi ini dapat bermanfaat bagi calon mahasiswa yang memerlukan informasi tentang teknik informatika universitas tanjungpura
+dari tiga hasil pengujian, dapat disimpulkan bahwa aplikasi yang dibangun dapat menampilkan semua objek 3d dari gedung dan ruangan dan dapat membantu calon mahasiswa untuk mendapatkan informasi yang belum didapatkan pada brosur
+universitas tanjungpura, informasi informatika universitas tanjungpura berisi gambar-gambar dari kampus itu sendiri, tetapi gambar-gambar tersebut masih kurang memberikan informasi yang jelas sehingga calon mahasiswa sulit untuk membayangkan gambaran dari kampus teknik informatika universitas tanjungpura dan akhirnya calon mahasiswa tidak terlalu tertarik untuk memilih teknik informatika universitas tanjungpura
+salah satu upaya yang dapat dilakukan untuk meningkatkan minat calon mahasiswa untuk memilih teknik informatika universitas tanjungpura yaitu dengan membuat media informasi teknik informatika universitas tanjungpura dengan memanfaatkan augmented reality yang diaplikasikan pada perangkat android
+augmented reality adalah realita yang ditambahkan ke suatu media
+media ini dapat berupa kertas, sebuah marker atau penanda yang diarahkan ke kamera
+teknologi ini tidak sepenuhnya menggantikan sebuah realitas, tapi menambahkan sebuah atau beberapa benda-benda maya dalam bentuk 3 dimensi sehingga tampilan visualnya lebih menarik
+berdasarkan hal di atas, dengan mengemas informasi yang menarik bagi calon mahasiswa dalam mendapatkan informasi tentang teknik informatika universitas tanjungpura salah satunya dengan menggunakan media informasi baru
+dengan bertambahnya media informasi baru ini, augmented reality diharapkan dapat digunakan sebagai salah satu tambahan media informasi untuk mengenalkan teknik informatika universitas tanjungpura kepada calon mahasiswa dengan memberikan informasi yang belum terdapat pada brosur
+uraian penelitian penelitian tentang augmented reality sebagai media promosi bukanlah hal yang baru dilakukan
+beberapa penelitian sejenis mengenai augmented reality sudah pernah dilakukan oleh peneliti lain sebelumnya
+peneliti memanfaatkan teknologi augmented reality ke dalam katalog penjualan rumah untuk digunakan sebagai media promosi, sehingga katalog rumah ini menjadi lebih real dengan adanya objek 3d pada rumah
+peneliti menggunakan media promosi berbasis augmented reality yang dibuat dengan menggunakan unity sebagai komponen yang utama dan berjalan pada platform mobile android
+aplikasi ini diberi nama artalog home

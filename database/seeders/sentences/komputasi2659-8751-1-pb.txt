@@ -1,0 +1,118 @@
+computer answer sheet is a form for a special paper that will be processed by a computer and scanner
+the fact is that the existing scanner computer answer sheet is not flexible, it is intended that its use is only for one type of academic tests, such as examples of the type a scanner, can only be used for answer sheet type a
+computer answer sheet image scanner application usage with smart scan technique based on the basis of the resulting image on the scanner scanning
+this application can be used on all types of machines and all kinds of scanner with a particular configuration
+smart scan technology utilization in applications designed to use some process that can produce the output of the correction
+the process consists of scanning, image processing with image preprocessing and recognition area with scanline method
+the scanning process is done by physical transformation answer sheet into the form of a digital image
+this image will be used as input to the application and will be processed using image preprocessing
+preprocessing results in the form of a binary image will be used further in the process of introducing area with scanline method
+scanline method is basically a way of introduction points/dots to process the object’s entire surface by scanning the image horizontally and vertically to produce the output of characters that can be stored in the database
+based on the resulting database matching answers with the answer key can be done to produce the output of the value of the correction
+this study indicate that the design of computer answer sheet image scanner application with smart scanning techniques can be corrected the answer sheet with 94.5% success rate and the application is considered successful
+keywords: computer answer sheet, smart scanning techniques, image preprocessing, scanline, computer answer sheet correction 1
+pendahuluan teknologi informasi saat ini terus berkembang pesat termasuk pada ilmu pengolahan citra
+seiring dengan perkembangan teknologi informasi pada ilmu pengolahan citra tersebut, perkembangan teknologi piranti keras juga mengalami perkembangan yang sangat pesat
+salah satu piranti keras tersebut adalah alat pemindai 
+berdasarkan kamus umum bahasa indonesia terdapat kata pindai yang bermakna 
+dari kata pindai dapat dibentuk kata memindai, sedangkan prosesnya disebut pemindaian
+kata pindaian inilah yang dapat dipadankan dengan kata scanning
+jika demikan, pengertian scanner lebih diarahkan kepada alat elektronik yang berfungsi untuk memindai
+dalam hal ini dapat dijelaskan memindai adalah memindahkan gambar fisik menjadi gambar digital perkembangan alat pemindai yang semakin pesat membuat alat ini mempunyai kegunaan yang dapat diterapkan diberbagai bidang
+salah satu kegunaan alat pemindai ini dapat diterapkan pada bidang pendidikan yaitu untuk mengoreksi lembar jawaban komputer, dimana saat ini ujian nasional, sbmptn, tes toefl dan tes lainnya sudah menggunakan lembar jawaban komputer sebagai lembar jawab
+lembar jawaban komputer adalah formulir isian berupa kertas yang akan diolah dengan komputer dan pemindai
+ljk biasanya digunakan untuk ujian berbentuk pilihan ganda
+penggunaan ljk sebagai pengganti entri data secara manual dapat mempercepat pengolahan data
+kecepatan tersebut juga sangat ditentukan oleh kecepatan pemindai kecepatan perangkat lunak yang digunakan 
+dengan adanya lembar jawaban komputer ini, tidak lagi diperlukan cara konvensional yang menggunakan tenaga manusia untuk mengoreksi lembar jawaban
+perlunya aplikasi komputer dan alat pemindai yang mampu mengoreksi lembar jawaban komputer agar mendukung terlaksananya ujian – ujian yang menggunakan lembar jawaban komputer sebagai lembar jawab
+namun alat pemindai yang sudah ada sekarang ini tidak bersifat fleksibel, hal ini dimaksudkan dimana penggunaannya hanya untuk salah satu jenis tes akademik, contohnya scanner jenis a, hanya bisa digunakan untuk ljk jenis a
+permasalahan tersebut tentunya sangat membatasi pemanfaatan scanner tersebut dalam ruang lingkup yang lebih besar
+harga alat pemindai yang sering digunakan untuk proses pengoreksian lembar jawaban komputer ini cenderung belum terjangkau untuk kalangan umum, sehingga hanya dapat digunakan dalam lingkup institusi – institusi pendidikan yang berskala besar
+ilmu pengolahan citra digital dapat digunakan untuk membuat sebuah aplikasi pemindai lembar jawaban komputer yang dapat menghemat sumber daya dan fleksibel digunakan pada semua jenis alat pemindai 
+salah satu teknik pengolahan citra digital yang dapat diterapkan pada aplikasi pemindai lembar jawaban komputer tersebut adalah teknik smart scan
+definisi teknik smart scan adalah sebuah teknik yang dapat diterapkan pada aplikasi komputer agar dapat mengenali objek pada gambar yang dipindai dengan penggabungan beberapa metode pengolahan citra digital pemanfaatan cabang ilmu pengolahan citra digital sangat diperlukan untuk melakukan efisiensi dalam pengoreksian lembar jawaban komputer 
+proses sebelumnya yang menghabiskan banyak sumber daya akan memiliki alternatif lain yang diharapkan dapat menghemat sumber daya
+citra yang dihasilkan dari alat pemindai, akan diolah menggunakan aplikasi ini sehingga dapat menghasilkan nilai sebagaimana diperlukan dalam proses pengoreksi lembar jawaban komputer 
+semua penjelasan yang dipaparkan sebelumnya diharapkan dapat dihasilkan sebuah produk aplikasi yang berguna dalam penghematan sumber daya untuk pengoreksian lembar jawaban komputer 
+teori dasar 2.1 lembar jawaban komputer ljk atau lembar jawaban komputer merupakan formulir isian berupa kertas yang akan diolah dengan komputer
+ljk biasanya digunakan untuk ujian berbentuk pilihan ganda, kuesioner, formulir registrasi dan pendataan
+penggunaan ljk sebagai pengganti entri data secara manual dapat mempercepat pengolahan data
+kecepatan tersebut juga sangat ditentukan oleh kecepatan pemindai kecepatan perangkat lunak yang digunakan
+bila dibandingkan dengan sistem pengisian ujian, registrasi dan pendataan on-line pada ratusan hingga jutaan peserta, penggunaan ljk masih lebih optimal karena dapat menghemat kebutuhan penyediaan komputer
+dengan sistem on-line harus tersedia 1 komputer untuk 1 responden atau peserta ujian, sedangkan untuk sistem off-line, cukup 1 ljk untuk 1 responden atau peserta ujian
+penamaan ljk dapat menimbulkan pengertian yang kurang tepat atau ambiguitas
+ljk bukanlah lembar yang berisi jawaban komputer, tetapi ljk adalah lembar jawaban yang akan diperiksa menggunakan alat bantu berupa komputer
+contoh lembar jawaban komputer 2.2 pengertian citra digital citra adalah gambar pada bidang dua dimensi
+citra adalah representasi khusus dari suatu objek, baik dua dimensi maupun tiga dimensi
+dalam tinjauan matematis, citra merupakan fungsi kontinu dari intensitas cahaya pada bidang dua dimensi
+di dalam komputer, citra digital disimpan sebagai suatu file dengan format tertentu
+format citra tersebut menunjukan cara sebuah citra digital disimpan, misalnya apakah dengan suatu kompresi atau tidak
+contoh format citra digital adalah .bmp, .jpg, .png, .tif dan sebagainya
+ukuran citra digital dinyatakan dalam pixel 
+umumnya, nilai setiap pixel merupakan kuantisasi harga intensitas cahaya
+dengan demikian, suatu citra digital dapat dipandang sebagai sebuah matriks yang elemen-elemennya menunjukkan intensitas cahaya terkuantisasi
+bedanya terletak pada urutan penyebutan angka ukuran tersebut
+citra digital dengan ukuran 92x112 pixel sebenarnya merupakan sebuah matriks dengan ukuran 112x92, dimana 112 merupakan banyaknya baris dan 92 merupakan banyaknya kolom
+2.3 teknik smart scan teknik smart scan adalah sebuah teknik yang dapat diterapkan pada aplikasi komputer agar dapat mengenali objek pada gambar yang dipindai dengan penggabungan beberapa metode pengolahan citra digital smart scan berasal dari bahasa indonesia yang berarti pemindai pintar
+pemindai adalah alat yang digunakan untuk memindai suatu bentuk maupun sifat benda seperti dokumen dan foto, hasil pemindaian tersebut umumnya akan ditransformasikan kedalam komputer sebagai data digital sedangkan kata pintar berarti dapat memahami, memutuskan dan mengenali 
+istilah smart scan digunakan untuk menggambarkan bahwa sebuah aplikasi komputer seperti aplikasi pemindai lembar jawaban komputer memiliki teknik yang tepat guna yaitu pemindai pintar yang dapat melakukan komputasi berupa pengenalan karakter dengan menggunakan beberapa metode pengolahan citra digital letak teknik smart scan berada pada setiap proses komputasi dimulai dari scan ljk, melakukan image preprocessing, melakukan pengenalan karakter dengan metode scanline, pengolahan nilai sampai menghasilkan report sehingga disimpan untuk selanjutnya bisa digunakan sesuai kebutuhan
+2.4 metode scanline metode ini digunakan untuk melakukan mendeteksi titik pada lembar jawaban komputer yang akan dikenali sebagai karakter alfabet dan numerik dengan membuat batas area yang berupa rectangle dan ellipse
+menurut djoni, algoritma scanline adalah salah satu dari algoritma hidden surface removal yang digunakan untuk memecahkan masalah penggunaan memori yang besar dengan satu baris scan untuk memproses semua permukaan objek, biasanya scanline akan men- sweeping layar dari atas ke bawah
+sebuah baris scan horisontal bidang y di coba untuk semua permukaan dari objek
+perpotongan antara baris scan dan permukaan adalah berupa sebuah garis
+algoritma melakukan scan dengan arah sumbu y sehingga memotong semua permukaan bidang dengan arah sumbu x dan z dan membuang garis-garis yang tersembunyi
+sebagai ganti menscan suatu permukaan satu kali dalam satu proses, maka akan berhubungan dengan men-scan banyak permukaan dalam satu kali proses
+sebagaimana setiap baris scan diproses, semua permukaan polygon dipotong oleh baris scan untuk menentukan mana yang tampak
+pada setiap posisi sepanjang baris scan, perhitungan kedalaman dibuat untuk setiap permukaan untuk menentukan mana yang terdekat dari bidang pandang
+ketika permukaan yang tampak sudah ditentukan, harga intensity dimasukkan ke dalam buffer
+2.5 image preprocessing image preprocessing merupakan suatu proses untuk menghilangkan bagian-bagian yang tidak diperlukan pada gambar input untuk proses selanjutnya
+proses yang memproses sebuah masukan menjadi sebuah keluaran yang akan menjadi masukan bagi proses lain atau proses selanjutnya
+proses ini bertujuan meningkatkan kualitas tampilan citra untuk pandangan manusia atau untuk mengkonversi suatu citra agar memiliki kualitas yang lebih baik sehingga citra tersebut menjadi lebih mudah diolah dengan mesin 
+bagian-bagian yang dimaksud adalah noise yang disebabkan oleh beberapa hal, antara lain yaitu kualitas alat yang digunakan untuk mengambil kurang baik
+noise pada image akan mengurangi keakuratan dalam mengenali karakter
+oleh karena itu diperlukan suatu proses untuk mempersiapkan dan memodifikasi image untuk meningkatkan kualitas image hasil pindaian sehingga dapat menghilangkan noise yang ada yang disebut image preprocessing
+hasil eksperimen secara garis besar, alur kerja aplikasi pemindai citra lembar jawaban komputer yang dirancang seperti yang digambarkan pada flowchart gambar 2
+gambar 3 flowchart aplikasi pemindai lembar jawaban komputer 3.1 image preprocessing 3.1.1 greyscale pada proses ini citra hasil ljk diubah menjadi citra greyscale
+melalui proses perhitungan, tiap pixel pada citra akan diberikan nilai keabuan yang baru untuk meningkatkan ketajaman gambar dengan cara mengubah nilai true color menjadi nilai warna tunggal yaitu nilai greyscale atau keabuan
+gambaran jalannya proses serta algoritma untuk memperoleh citra greyscale atau citra dengan nilai keabuan
+3.1.2 thresholding pada proses ini, image yang masih berupa greyscale akan diubah menjadi citra biner dengan background berwarna putih dan titik-titik jawaban pada ljk berwarna hitam
+nilai thresholding telah ditentukan sebelumnya melalui proses uji coba
+citra hasil thresholding sangat berpengaruh dan digunakan lebih lanjut untuk proses pengenalan obyek sehingga diperlukan analisa dan ujicoba untuk menemukan nilai thresholding yang tepat agar aplikasi mampu untuk mendeteksi identitas dan jawaban pada ljk
+gambaran jalannya proses serta algoritma untuk memperoleh citra biner dengan background putih dan foreground hitam 
+3.2 konfigurasi jenis ljk baru pada proses ini citra hasil preprocessing image yang berupa citra biner digunakan untuk konfigurasi
+proses ini dilakukan agar aplikasi bersifat dinamis yang bisa digunakan oleh semua jenis ljk
+citra yang dipakai adalah sebuah citra yang sudah diisi areanya sesuai dengan kriteria yaitu bulatan pertama dan bulatan terakhir ditiap bagian yang akan dikoreksi seperti kolom nama, kolom nomor peserta dan kolom jawaban
+langkah pertama konfigurasi yaitu menentukan nama file konfigurasi kemudian menitik koordinat titik hitam yang fungsinya membedakan jenis ljk satu dengan jenis ljk lainnya
+setelah menitik koordinat hitam, bagian yang akan ditandai lagi yaitu kolom nama, kolom nomor peserta dan kolom jawaban dengan cara yang sama tetapi masukannya berbeda seperti tipe data huruf dan angka, orientasi horizontal atau vertikal serta jumlah baris dan kolom
+kemudian area yang sudah ditandai tersebut akan disimpan kedalam file notepad
+file tersebut nantinya akan digunakan sebagai profile acuan untuk mengenali titik menjadi karakter pada proses pendeteksian
+3.3 mengenali titik menjadi karakter dengan scanline proses ini adalah proses mengenali titik menjadi karakter huruf atau angka pada area kolom nama, kolom nomor peserta dan kolom jawaban
+metode scanline digunakan untuk membuat batas dengan bentuk kotak atau lingkaran pada area yang akan dikenali dan dikoreksi, kemudian scanline melakukan proses scanning setiap baris dan kolom dengan orientasi horizontal atau vertikal sesuai dengan profile konfigurasi yang sudah ditentukan sebelumnya
+proses itu dilakukan untuk mendeteksi bulatan hitam yang ada didalam lingkaran-lingkaran tersebut sehingga didapatkan hasil pengenalan titiknya yaitu karakter
+proses scanning akan berhenti ketika scanline telah selesai mendeteksi baris dan kolom yang ada sesuai profile yang dipilih
+batasan- batasan koreksi juga sudah diatur seperti hasil deteksi berupa asterik jika didapat dua atau lebih bulatan hitam dalam satu kolom sedangkan nilai akan kosong jika tidak ditemukan bulatan hitam pada baris tersebut
+citra ljk dengan jenis ljk yang sudah pernah dikoreksi sebelumnya akan langsung bisa dikoreksi
+apabila belum pernah dikoreksi, maka harus melewati tahap konfigurasi terlebih dahulu
+data yang diperoleh dari proses ini akan dimasukkan kedalam tabel database
+setiap mata pelajaran memiliki tabel database yang berbeda sehingga memudahkan dalam proses pengarsipan
+sebelum melakukan deteksi, user harus melakukan pengaturan pada field tabel yang akan dideteksi agar tidak terjadi kesalahan penyimpanan data antara field yang akan dideteksi dengan field data konfigurasi
+user dapat melihat, menambah dan mengubah data ljk yang telah dideteksi
+tetapi hanya pada kolom nama dan kolom nomor peserta
+3.4 koreksi ljk proses inilah yang menentukan nilai akhir dari ljk yang sudah dideteksi isi datanya menggunakan proses-proses sebelumnya
+pada proses ini dilakukan pengoreksian antara field jawaban ditabel ljk dengan field jawaban ditabel kunci jawaban yang hasilnya dapat disimpan pada tabel database baru dan dapat diekspor ke format .csv 
+gambar 4 tampilan aplikasi pemindai citra ljk 3.5 analisis hasil pengujian pengujian dilakukan dengan menggunakan metode black box dimana input berupa suatu data untuk menguji validitas dari integrasi dan konsistensi aplikasi
+pengujian kehandalan aplikasi yang menggunakan lembar jawaban akan diuji dengan membandingkan hasil yang didapat antara pengoreksian manual dan pengoreksian menggunakan aplikasi yang dibuat
+pengujian akan dilakukan pada 25 citra masukan berupa lembar jawaban komputer dengan 5 jenis ljk berbeda
+kemudian akan dilakukan pengujian pengenalan titik menjadi karakter pada kolom nama, nomor peserta, jawaban serta kecocokan jawaban pada lembar jawaban dengan jawaban pada kunci jawaban
+pengujian juga dilakukan dengan metode uat dimana pengujian dilakukan oleh pengguna secara langsung untuk memeriksa apakah aplikasi dapat berjalan dengan benar sesuai dengan yang diharapkan oleh pengguna
+pengujian ini melibatkan data real yang didapat secara langsung melalui kuesioner
+tabel 1 hasil pengujian aplikasi pada citra lembar jawaban komputer gambar ljk hasil pengenalan hasil pengenalan yang diharapkan benar : 23 salah : 27 kosong : 0 nilai : 46 benar : 23 salah : 27 kosong : 0 nilai : 46 nilai threshold : 130 jawaban : - benar : - salah : - kosong : - nilai : - nilai threshold : dari 25 kali pengujian pada 5 jenis lembar jawaban berbeda yang dilakukan diperoleh tingkat persentase keberhasilan pemindaian titik menjadi karakter pada setiap citra lembar jawaban komputer sehingga tingkat keberhasilan aplikasi dalam melakukan pemindaian dapat dihitung sebagai berikut
+aplikasi pemindai citra lembar jawaban komputer dengan teknik smart scan sudah dapat mengenali dan mengoreksi dengan persentase keberhasilan aplikasi sebesar 94, 5% dari 4567 bulatan pada 25 data citra ljk
+aplikasi pemindai ljk masih perlu mengalami perbaikan sehingga kedepannya tingkat persentase keberhasilan dapat lebih maksimal 2
+tingkat keberhasilan pemindaian dengan metode scanline lebih baik hasilnya pada saat memindai ljk dengan keadaan kertas yang bersih dari bekas hapusan
+persentase keberhasilan memindai ljk dengan keadaan kertas yang bersih sebesar 100% sedangkan persentase keberhasilan memindai ljk dengan keadaan kertas yang ada bekas hapusan yang kurang bersih sebesar 97%
+berdasarkan hasil pengujian, preprocessing image perlu diperhatikan karena akan berpengaruh terhadap keakuratan pemindaian sebagai proses tahap awal sebelum akhirnya sebuah citra dikatakan siap sebagai input untuk dikenali ke tahapan berikutnya
+dari hasil pengujian yang telah dilakukan pada 5 jenis lembar jawaban komputer yang berbeda menunjukkan bahwa aplikasi bersifat dinamis sehingga dapat mengoreksi semua jenis ljk dengan menggunakan semua jenis scanner
+oleh karena itu, aplikasi ini dapat menghemat sumber daya
+berdasarkan hasil penilaian oleh responden melalui kuesioner, aplikasi yang dibuat dinilai berhasil untuk digunakan semua pengguna untuk mengoreksi lembar jawaban komputer secara mudah dan dinamis

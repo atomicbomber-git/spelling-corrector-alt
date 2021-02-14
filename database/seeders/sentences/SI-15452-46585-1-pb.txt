@@ -1,0 +1,30 @@
+yang sangat penting bagi semua orang
+tidak semua orang mendapatkan tempat tinggal dengan mudah yang sesuai kriterianya, untuk itu perlu dibutuhkan suatu media sebagai pengumpul iklan penjualan properti agar dapat memudahkan bagi pencari properti maupun pemilik properti
+tujuan dari penelitian ini adalah membantu pemilik properti untuk mempromosikan properti dan membantu pengguna untuk mencari properti sesuai kriteria yang diinginkan
+informasi lokasi properti ditampilkan dalam bentuk peta digital sehingga pencarian properti dapat dilakukan berdasarkan area yang dipilih
+kondisi properti ditampilkan dalam bentuk virtual online tour
+virtual online tour adalah sebuah simulasi dari suatu lingkungan nyata yang ditampilkan secara online sehingga membantu pengguna dalam melakukan pemilihan properti tanpa harus mengunjungi lokasi properti secara langsung
+angka tersebut dipicu oleh tingginya peningkatan jumlah penduduk
+deputi bidang pengembangan kawasan agus sumargiarto mengatakan, tingginya laju pertumbuhan penduduk indonesia sangat berpengaruh terhadap peningkatan kebutuhan rumah
+hal ini sejalan dengan pesatnya perkembangan bisnis properti, khususnya perumahan
+rumah tinggal sebenarnya sudah tersedia, tetapi mencari rumah tinggal yang sesuai dengan kebutuhan masing-masing orang masih sulit
+maka dari itu diperlukan metode promosi yang lebih efektif dan efisien
+salah satunya yaitu dengan media promosi online
+membangun sebuah media promosi online yang efektif dan efisien dapat dilakukan dengan menerapkan webgis agar memudahkan menentukan lokasi pencarian properti dan vot agar pencari properti dapat melihat properti secara lebih detil
+promosi dengan melalui media online adalah segala usaha yang dilakukan untuk melakukan pemasaran suatu produk atau jasa melalui atau menggunakan media internet atau jaringan www
+sedangkan dalam promosi properti diperlukan data mengenai detail, lokasi, dan kondisi properti
+salah satu cara untuk menampilkan data-data tersebut dalam media online ialah dengan penggunaan webgis dan vot
+webgis merupakan aplikasi geographic information system yang dapat diakses secara online melalui internet pada konfigurasi webgis ada server yang berfungsi sebagai mapserver yang bertugas memproses permintaan peta dari client dan kemudian mengirimkannya kembali ke client
+dalam hal ini pengguna atau client tidak perlu mempunyai software gis, hanya menggunakan internet browser seperti internet explorer, mozilla fire fox, atau google chrome untuk mengakses informasi gis yang ada di server
+fitur gis dalam metode promosi properti diperlukan untuk menampilkan lokasi properti bentuk peta digital sehingga pencarian lokasi properti lebih mudah dan cepat
+sedangkan vot berfungsi untuk menampilkan kondisi properti dalam bentuk virtual sehingga membantu pengguna dalam melakukan pemilihan properti tanpa harus mengunjungi lokasi properti secara langsung
+perumahan, apartemen, ruko toko, rumah kantor, gedung perkantoran, pusat perbelanjaan berupa mall, plaza atau trade center
+perumahan, apartement, ruko toko, rumah kantor, gedung perkantoran termasuk dalam landed properti
+sedangkan mall, plaza atau trade center termasuk dalam commercial building
+tersendiri, yakni virtual berarti nyata dan tour 
+sedangkan online yang didefenisikan oleh federal standar 1037c memiliki arti : keadaan atau kondisi dari suatu peranti atau peralatan yang berada di bawah kontrol langsung dari perangkat, status sebuah peranti yang fungsional dan siap untuk melayani, dan berkaitan dengan pengoprasian sebuah unit fungsional ketika di bawah kontrol langsung dari sistem yang terkait
+berdasarkan definisi tersebut dapat disimpulkan bahwa virtual onine tour adalah sebuah simulasi dari suatu lingkungan nyata yang ditampilkan secara online, biasanya terdiri dari kumpulan foto-foto panorama, kumpulan gambar yang terhubung oleh hyperlink, ataupun video dan /atau virtual model dari lokasi yang sebenarnya
+selain itu dapat menggunakan unsur-unsur multimedia lainnya seperti efek suara, musik, narasi, dan rancang bangun aplikasi webgis penyedia jasa properti online berbasis virtual online tour muhammad redha 1, tursina 2, helen sasty pratiwi
+diakses melalui komputer desktop, laptop, atau media elektronik lainnya
+information system adalah suatu sistem informasi yang dirancang untuk bekerja dengan data yang bereferensi spasial atau berkoordinat geografi atau dengan kata lain suatu sig adalah suatu sistem basis data dengan kemampuan khusus untuk menangani data yang bereferensi keruangan bersamaan dengan seperangkat operasi kerja
+sedangkan menurut aronoff sig adalah sistem informasi yang didasarkan pada kerja komputer yang memasukkan, mengelola, memanipulasi dan menganalisa data serta memberi uraian

@@ -1,0 +1,91 @@
+hasan mustapa 23 bandung 40124 1 ridhohabiputra@gmail.com 2 winarnosugeng@gmail.com kegagalan dari sebuah server bisa disebabkan oleh beberapa faktor diantaranya kerusakan perangkat keras, sistem jaringan serta aliran listrik
+salah satu solusi untuk mengatasi kegagalan server dalam suatu jaringan komputer adalah dengan melakukan clustering server
+tujuan dari penelitian ini adalah untuk mengukur kemampuan raspberry pi digunakan sebagai web server
+raspberry pi yang digunakan menggunakan raspberry pi 2 model b dengan menggunakan processor arm cortex-a7 berjalan pada frekuensi 900mhz dengan memiliki ram 1gb
+sistem operasi yang digunakan pada raspberry pi adalah linux debian wheezy
+konsep penelitian ini menggunakan empat buah perangkat raspberry pi dimana dua raspi digunakan sebagai web server dan dua raspi lainnya digunakan sebagai penyeimbang beban serta database server
+metode yang digunakan dalam pembangunan cluster server ini menggunakan metode load balancing, dimana beban server bekerja secara merata di masing-masing node
+pengujian yang diterapkan dengan melakukan perbandingan kinerja dari raspbery pi yang menangani lalu lintas data secara tunggal tanpa menggunakan load balancer serta pengujian raspberry pi dengan menggunakan load balancer sebagai beban penyeimbang antara anggota cluster server
+pendahuluan server bukan suatu yang tidak mungkin terjadi sehingga diperlukan solusi agar sistem jaringan tidak terganggu
+power supply mati atau yang lainnya
+bayangkan jika sebuah web server mati yang disebabkan oleh suatu hal, maka pengguna internet tidak akan bisa mengkakses situs pada web server tersebut
+clustering menawarkan solusi untuk menangani perpindahan tugas atau pemerataan beban dari satu server ke server yang lainnya apa bila terjadi kerusakan pada salah satu server
+clustering adalah menggunakan lebih dari satu server yang menyediakan redundant interconnections, sehingga user hanya mengetahui ada satu sistem server yang tersedia dan komputer client tidak menyadari jika terjadi kegagalan pada sistem server karena tersedianya server sebagai redundant atau backup
+clustering server dapat digunakan untuk load balancing cluster ataupun failover clustering 
+load balancing merupakan metode yang digunakan pada cluster server dimana setiap anggota server dikonfigurasikan untuk saling berbagi beban yang berfungsi mendistribusikan request dari client ke anggota server load balancer)
+secara umum cara kerja load balancer adalah menerima incoming request dari client dan meneruskan request tersebut pada server tertentu jika dibutuhkan
+tujuan algoritma load balancer adalah untuk mendistribusikan beban secara pintar atau memaksimalkan kerja anggota server cluster
+berdasarkan latar belakang tersebut, maka dilakukan penelitian mengenai pengembangan raspberry pi sebagai cluster server dengan menggunakan metode load balancing
+pengembangan raspberry pi sebagai web server dan load balancer sangat menarik untuk dijadikan sebagai penelitian
+hal ini dikarenakan raspberry pi sebagai komputer kecil yang memiliki sistem operasi berbasis linux, tidak membutuhkan daya listrik dan daya penyimpanan data yang besar untuk dioperasikan menjadi cluster server
+landasan teori pemahaman akan pengetahuan dari pembangunan penelitian ini diantaranya mengenai raspberry pi, web server, cluster server dan load balancing
+yang bernama raspberry foundation dari uk
+perusahaan ini membuat raspberry pi bertujuan untuk mempromosikan pengajaran ilmu komputer di sekolah dasar
+raspberry pi di produksi oleh dua perusahaan manufaktur yaitu elemen 14/primer fanell dan rs components
+kedua perusahaan tersebut juga melayani penjualan raspberry pi secara online
+web server protokol http atau https dari suatu klien yang lebih dikenal dengan nama browser, kemudian mengirimkan kembali dalam bentuk halaman-halaman web yang umumnya berbentuk dokumen html
+fungsi utama sebuah server web adalah untuk mentransfer berkas atas permintaan pengguna melalui protokol komunikasi yang telah ditentukan
+disebabkan sebuah halaman web dapat terdiri atas berkas teks, gambar, video, dan lainnya pemanfaatan server web berfungsi pula untuk mentransfer seluruh aspek pemberkasan dalam sebuah halaman web yang terkait termasuk di dalamnya teks, gambar, video, atau lainnya
+penggunaan biasanya melalui aplikasi pengguna seperti peramban web, meminta layanan atas berkas ataupun halaman web yang terdapat pada sebuah server web, kemudian server sebagai manajer layanan tersebut akan merespon balik dengan mengirimkan halaman dan berkas-berkas pendukung yang dibutuhkan, atau menolak permintaan tersebut jika halaman yang diminta tidak tersedia
+saat ini pada umumnya server web telah dilengkapi pula dengan mesin penerjemah bahasa skrip yang memungkinkan server web menyediakan layanan situs web dinamis dengan memanfaatkan pustaka tambahan seperti php, dan asp
+salah satu contoh dari web server adalah apache
+apache web server – the http web server
+apache merupakan web server yang paling banyak dipergunakan di internet program ini pertama kali didesain untuk sistem operasi lingkungan unix
+apache mempunyai program pendukung yang cukup banyak
+hal ini memberikan layanan yang cukup lengkap bagi penggunanya
+beroperasi serta bekerja secara erat dan terlihat oleh klien jaringan seolah-olah server-server tersebut adalah satu buah unit server
+kelebihan dari cluster server adalah kecepatan akses data yang lebih baik daripada server tunggal sehingga cluster server ini mempunyai kemampuan komputasi yang relatif baik
+kemudian kelebihannya lainnya dibanding dengan server biasa pemroses dalam hal ini prosesor pada cluster dapat terus bertambah sesuai dengan jumlah prosesor yang diclusterkan sehingga dapat dipastikan bahwa server yang sudah diclusterkan mempunyai kemampuan yang relatif lebih baik dibandingkan dengan server biasa
+sebuah server cluster terdiri dari seperangkat komputer yang bekerja sama sebagai komputasi yang terintegrasi
+tidak hanya mampu melakukan komputasi yang kompleks, cluster server juga menyediakan ketersediaan atau aplikasi layanan tinggi
+ini berarti cluster server memiliki tingkat ketersediaan yang maksimal selain itu, sistem cluster server juga dapat mengatasi kegagalan sistem yang disebabkan oleh faktor yang direncanakan atau tidak direncanakan
+load balancing beban trafik pada dua atau lebih jalur koneksi secara seimbang, agar trafik dapat berjalan optimal, memaksimalkan throughput, memperkecil waktu tanggap dan menghindari overload pada salah satu jalur koneksi
+load balancing digunakan pada saat sebuah server telah memiliki jumlah user yang telah melebihi maksimal kapasitasnya
+load balancing juga mendistribusikan beban kerja secara merata di dua atau lebih komputer, link jaringan, cpu, hard drive, atau sumber daya lainnya, untuk mendapatkan pemanfaatan sumber daya yang optimal
+beberapa peralatan yang sama untuk menjalankan tugas yang sama
+hal ini memungkinkan pekerjaan dilakukan dengan lebih cepat dibandingkan apabila dikerjakan oleh hanya satu peralatan saja dan dapat meringankan beban kerja peralatan, serta mempercepat waktu respons
+load balancer bertindak sebagai penengah diatara layanan utama dan pengguna, dimana layanan utama merupakan sekumpulan server/mesin yang siap melayani banyak pengguna
+disaat load balancer menerima permintaan layanan dari user, maka permintaan tersebut akan diteruskan ke server utama
+biasanya load balancer dengan pintar dapat menentukan server mana yang memiliki load yang lebih rendah dan respon yang lebih cepat
+bahkan bisa menghentikan akses ke server yang sedang mengalami masalah dan hanya meneruskannya ke server yang dapat memberikan layanan
+metodologi penelitian tahapan verifikasi dilakukan dengan menganalisis tentang sistem kerja server raspberry pi serta menentukan fitur sistem apa saja yang dibutuhkan untuk membangun cluster server
+selain itu untuk menganalisis informasi yang dibutuhkan dilakukan dengan cara mempelajari kerja sistem cluster server serta permasalahan-permasalahan yang terjadi saat cluster server diterapkan di raspberry pi
+selanjutnya merancang sistem cluster server dengan menggunakan metode load balancing dan merealisasikan hasil rancangan tersebut menjadi suatu sistem yang terintegrasi satu sama lainnya
+untuk tahapan validasi yaitu dengan melakukan pengujian setiap unit program apakah sesuai dengan rancangan yang telah dilakukan sebelumnya
+kedua, melakukan pengujian hardware seperti raspberry pi dan pc/laptop yang dihubungkan sebagai client, dimana raspberry pi digunakan sebagai server
+ketiga, melakukan pengujian sistem, seperti kemampuan kinerja sistem terhadap hardware yang digunakan
+dan yang terakhir melakukan pengujian secara keseluruhan sebagai evaluasi hasil program dan sistem yang telah dirancang
+server tunggal sehingga apabila server mengalami gangguan atau kerusakan maka website tersebut tidak dapat berjalan atau down
+cluster server dapat menjadi solusi apabila terjadi kerusakan terhadap satu server maka server lainnya dapat menangani dengan mengganti peran server yang mengalami gangguan
+tahapan sesuai dengan kebutuhan dari penelitian
+hal yang pertama mengenai spesifikasi dari kebutuhan sistem meliputi hardware dan software yang diperlukan untuk membangun cluster server dengan menggunakan raspberry pi seperti yang diperlihatkan pada tabel 1
+tabel i hardware software 1 raspberry pi 2 model b+ linux debian wheezy raspbian 052015 2 microsd card 8 gb class 10 web server apache/2.4.10 dari implementasi cluster server dapat berjalan sesuai dengan tujuan awal yang dilakukan, seperti yang dijelaskan pada gambar 2
+pada gambar 2 dijelaskan bagaimana konfigurasi sistem dari implementasi cluster server menggunakan raspberry pi
+perangkat raspberry pi yang digunakan sebanyak tiga buah perangkat dimana dua perangkat dikondisikan sebagai anggota cluster server dan satu perangkat raspberry pi digunakan sebagai load balancer 
+masing-masing server menggunakan software web server apache versi 2.4.10 dengan mengaktifkan mod rewrite yang bertujuan agar modul-modul pada apache dapat berjalan
+konfigurasi alamat ip pada back-end server menggunakan ip statis dimana server 1 memiliki ip 192.168.10.2, dan pada server 2 memiliki ip 192.168.10.3
+load balancer yang dibangun harus memiliki dua network interfaces dimana satu interface digunakan untuk menerima permintaan dari router sedangkan satu interface lainnya digunakan untuk meneruskan permintaan dari anggota cluster server kepada client
+pada penelitian ini, load balancer yang dibangun menggunakan raspberry pi hanya memiliki satu network interface yang digunakan untuk meneruskan permintaan dari anggota cluster server dengan konfigurasi ip 192.168.10.1
+hal ini dibutuhkan tambahan network interface untuk menerima permintaan dari router
+disini digunakan interface tambahan yaitu berupa wifi adapter dengan konfigurasi ip dhcp
+berikut pada gambar 3 dijelaskan bagaimana blok diagram dari cluster server yang dibangun
+pada gambar 4 ditunjukkan konfigurasi load balancing yang diterapkan pada cluster server
+pengujian cluster server pengujian yang dijelaskan pada gambar 2
+untuk melihat konten web, client harus mengakses ip 192.168.1.43
+ip tersebut merupakan load balancer yang meneruskan permintaan dari back-end server
+pada penelitian ini diterapkan pengujian dengan cara membandingkan kinerja trafik dari server yang berjalan dengan load balancing dan tanpa load balancing
+pada gambar 5 dan gambar 6 dilihatkan bagaimana tampilan konten web sederhana untuk dilakukan pengujian
+dapat menangani lalu lintas data dari web yang diakses dengan menggunakan load balancer, dibutuhkan beberapa user yang mengakases web secara langsung
+pada penelitian ini dilakukan pengujian dengan 15 user yang mengakses web secara bersamaan
+tambahan untuk mengetahui lalu lintas data yang berjalan secara real-time
+proses kerja siege mengirim sejumlah request http ke web server untuk mengetahui berapa besar kinerja server yang sedang berlangsung
+pada gambar 7 ditunjukkan perintah untuk menguji respon waktu web server oleh satu user
+berapa respon waktu yang dihasilkan oleh satu user dalam mengakses web
+hasil yang didapat dari pengujian menggunakan siege ditunjukkan pada gambar 8
+8 hasil pengujian menggunakan siege pengujian dari program siege mendapatkan hasil respon waktu sebesar 0.01 detik oleh satu user
+pengujian dilakukan dengan menggunakan load balancing
+dari keseluruhan pengujian yang dilakukan, didapatkan hasil dari pengujian yang menggunakan load balancing dan pengujian yang tidak menggunakan load balancing atau hanya bekerja dengan server tunggal hasil dari keseluruhan pengujian ditunjukkan pada gambar 9
+dari 15 user yang diuji, didapatkan hasil dari respon waktu yang berbeda-beda
+dibuktikan bahwasanya raspberry pi mampu digunakan sebagai web server dan load balancer dalam batas-batas tertentu
+raspberry pi sebagai load balancer mampu meminimalisir beban kinerja dari lalu lintas data web server
+selain itu juga, load balancer mampu menangani apabila ada terjadinya kerusakan diantara salah satu server dengan meneruskan permintaan ke server yang lainnya

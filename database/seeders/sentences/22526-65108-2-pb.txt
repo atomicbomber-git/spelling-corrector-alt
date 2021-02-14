@@ -1,0 +1,41 @@
+kepolisian resor tasikmalaya kota sebagai suatu instansi pemerintah, mengolah dan mengelola data orang hilang merupakan salah satu tugas polres tasikmalaya kota yaitu pelayanan kepada masyarakat
+sejalan dengan meningkatnya laporan orang hilang di kota tasikmalaya, polres tasikmalaya kota membutuhkan suatu sistem yang dapat melakukan identifikasi data orang hilang berdasarkan pengetahuan 
+tujuan umum dari penelitian ini yaitu mengimplementasikan knowledge base pada aplikasi data orang hilang di polres tasikmalaya kota yang sesuai dengan kebutuhan saat ini
+metode penelusuran yang digunakan pada penelitian ini adalah penelusuran runut maju 
+hasil akhir dari penelitian ini adalah sebuah aplikasi yang berjalan sesuai dengan harapan
+pendahuluan namun mengarah pada kebutuhan pencarian pengetahuan karena pengetahuan dianggap sebagai sebuah sumber atau asset yang mempunyai peranan penting
+dalam proses perkembangan teknologi, informasi dan ilmu pengetahuan menjadi sangat penting karena informasi dan knowledge menjadi sumber daya utama yang akan sangat menunjang untuk suatu institusi
+sumber daya tersebut menjadi sangat penting karena berkaitan langsung dengan sumber daya manusia yang merupakan modal intelektual dan aset yang dimiliki institusi
+hal tersebut menghasilkan sebuah sistem yang disebut sistem berbasis pengetahuan yang memiliki peranan dalam mengorganisir pengetahuan-pengetahuan atuaran dan data
+menggunakan pengetahuan yang diubaha kedalam bahasa mesin atau dikodekan untuk dapat melakukan suatu tugas dan menyimpulkan
+knowledge based system atau sistem berbasis pengetahuan digunakan agar dapat membantu manusia dalam menyelesaikan suatu masalah yang tengah dihadapi dengan berdasarkan pada pengetahuan yang telah diprogramkan kedalam sistem
+kepolisian resor tasikmalaya kota sebagai suatu instansi yang bertugas menegakkan hukum, ketertiban masyarakat, memelihara keamanan, pengayoman, pelayanan kepada masyarakat, dan memberikan perlindungan
+mengolah dan mengelola data orang hilang merupakan salah satu tugas polres tasikmalaya kota yaitu pelayanan kepada masyarakat
+sejalan dengan meningkatnya laporan orang hilang di kota tasikmalaya, polres tasikmalaya kota membutuhkan suatu sistem yang dapat melakukan pengolahan dan identifikasi data orang hilang berdasarkan pengetahuan 
+disebutkan yaitu mengimplementasikan knowledge base pada aplikasi data orang hilang di polres tasikmalaya kota yang sesuai dengan kebutuhan saat ini
+knowledge base ini menggunakan metode pelacakan kedepan sebagai teknik penelusurannya atau forward chaining
+solusi ini diharapkan dapat mempermudah pihak kepolisian dalam melakukan identifikasi orang yang hilang maupun orang yang ditemukan dan dapat menyebarkan infomasi data orang hilang secara luas antar kepolisian yang berada dalam wilayah kepolisian resor tasikmalaya kota
+orang hilang terputus sehingga tidak diketahui hidup atau matinya
+orang ini sebelumnya pernah hidup dan tidak diketahui keberadaannya dimana dan apakah masih dalam keadaan hidup atau tidak oleh keluarganya
+knowledge based system menggunakan pengetahuan yang diubaha kedalam bahasa mesin atau dikodekan untuk dapat melakukan suatu tugas dan menyimpulkan
+knowledge based system atau sistem berbasis pengetahuan digunakan agar dapat membantu manusia dalam menyelesaikan suatu masalah yang tengah dihadapi dengan berdasarkan pada pengetahuan yang telah diprogramkan kedalam sistem
+oleh karena itu maka digunakan knowledge based system dalam memecahkan suatu masalah yang berhubungan dengan expert system
+knowledge base atau basis pengetahuan sebagai dasar pemikirannya
+knowledge base tersebut terdiri dari heuristik dan sejumlah rules atau aturan-aturan yang tersusun secara spesifik dan sistematis, juga relasi antara rules atau aturan-aturan dan data dalam pengambilan kesimpulan
+knowledge base tersebut tersimpan didalam sebuah basis data pada suatu tempat penyimpanan data
+sedangkan yang berfungsi sebagai pusat pemrosesannya adalah mesin inferensi
+knowledge based system ini sangat baik sekali karena berisi fakta-fakta nyata yang berasal dari observasi dan pengalaman dari pakar, yang semuanya diatur dengan logika yang jelas untuk menghubungkan sebab atau gejala yang ditimbulkan
+komponen-komponen knowledge based system berikut merupakan komponen-komponen yang berbasis pengetahuan : membentuk model mental yang menggambarkan obyek dengan tepat dan mempresentasikannya dalam aksi yang dilakukan terhadap suatu obyek
+pengetahuan dapat diklasifikasikan menjadi tiga, yaitu, procedural knowledge 
+inference engine mesin inferensi adalah bagian yang mengandung mekanisme pola-pola penalaran system dan fungsi berpikir yang akan menganalisis sebuah masalah tertentu dan selanjutnya akan mencari sebuah kesimpulan yang terbaik
+data base basis data adalah bagian yang mengandung semua fakta-fakta, baik fakta awal pada saat sistem mulai beroperasi maupun fakta-fakta yang didapatkan pada saat pengambilan kesimpulan yang sedang dilaksanakan
+dalam praktiknya, basis data berada di dalam memori komputer
+kebanyakan sistem pakar mengandung basis data untuk menyimpan data hasil observasi dan data lainnya yang dibutuhkan selama pengolahan
+inferensi adalah konklusi logis atau implikasi berdasarkan pada informasi yang tersedia
+dalam knowledge based system atau sistem berbasis pengetahuan inferensi dilakukan dalam suatu modul yang disebut inference engine 
+knowledge base telah lengkap, atau paling tidak telah berada pada level yang cukup akurat, maka rp tersebut telah siap digunakan
+interface engine merupakan modul yang berisi program tentang bagaimana mengendalikan proses reasoning
+runut maju atau forward chaining yang berarti menggunakan himpunan aturan kondisi-aksi
+pada metode ini, data digunakan sebagai penentu aturan mana yang akan diproses, kemudian aturan tersebut dijalankan
+mungkin proses menambahkan data ke memori kerja
+proses akan terus dilakukan pengulangan sampai dengan ditemukannya suatu hasil

@@ -1,0 +1,27 @@
+aksara jawi merupakan tulisan yang berasal dari arab yang dapat dibaca dengan bahasa indonesia
+oleh karena itu, aksara indonesia dapat dialih aksarakan ke aksara jawi
+salah satu metode yang dapat digunakan untuk mengalih aksarakan bahasa indonesia ke aksara jawi adalah dengan pengenalan suku kata
+proses pengenalan suku kata dapat dilakukan dengan penerapan finite state automata 
+metode ini menggunakan tiga tingkatan dalam pengenalan suku kata
+setelah mendapatkan hasil dari pengenalan suku kata kemudian akan diubah kedalam format unicode aksara jawi dan disesuaikan dengan kaidah dari aksara jawi
+dari hasil pengujian yang didapatkan dalam penelitian ini maka metode pengenalan suku kata menggunakan finite state automata dapat dijadikan metode untuk mengalih aksarakan bahasa indonesia ke aksara jawi dengan hasil 92, 5% yang masuk dalam kriteria sangat valid
+bahasa arab, bahasa indonesia kata adalah struktur yang terjadi dari satu atau urutan fonem yang merupakan bagian kata
+pengenalan suku kata dapat dimanfaatkan untuk alih aksara
+salah satu metode yang dimanfaatkan untuk pengenalan suku kata bahasa indonesia yaitu menggunakan finite state automata
+metode ini dibuat oleh salah seorang dosen universitas katolik parahyangan bernama anung thomas
+penyalinan dengan penggantian huruf abjad satu ke abjad yang lain
+dalam pengertian ini, alih aksara hanyalah penggantian abjad, bukan penggantian dari lambang bunyi
+alih aksara yang akan dilakukan adalah alih aksara indonesia ke aksara jawi
+negara indonesia dikarenakan bahasa melayu merupakan bahasa penguhubung antar etnis yang mendiami kepulauan nusantara
+selain menjadi bahasa penghubung antar etnis, bahasa melayu juga menjadi bahasa transaksi perdagangan internasional di kawasan kepulauan nusantara yang digunakan oleh berbagai suku bangsa indonesia dengan para pedagang asing
+berasal dari tulisan arab yang telah dibuat penyelarasan
+dahulu aksara jawi sering digunakan untuk menulis surat, perintah raja dan puisi
+pada saat sekarang ini, pengetahuan dalam membaca aksara jawi dapat dimanfaatkan para sejarahwan dalam melakukan penelitian untuk mengetahui dokumen-dokumen yang menggunakan aksara jawi atau arab melayu
+dirancanglah sebuah aplikasi pengenalan suku kata bahasa indonesia menggunakan finite state automata untuk alih aksara indonesia ke aksara jawi
+dengan aplikasi alih aksara indonesia ke aksara jawi dapat diketahui apakah kekurangan pada pengenalan suku kata bahasa indonesia menggunakan finite state automata dapat mempengaruhi hasil dari alih aksara
+pemrosesan bahasa alami adalah suatu bentuk representasi dari suatu pesan yang ingin dikomunikasikan antar manusia
+bentuk utama representasinya adalah berupa suara, ucapan, tetapi sering pula dinyatakan dalam bentuk tulisan
+pemikiran chomsky yang mepresentasikan bahasa sebagai kumpulan simbol dan aturan yang mengatur susunan simbol-simbol tersebut telah membuka peluang untuk melakukan pengolahan bahasa secara simbolik dengan teknologi komputer, sehingga melahirkan bidang ilmu natural language processing
+dibentuk dari tiga sub-sistem, yaitu sebagai berikut: 1
+speech recognition bahasa dapat dibedakan menjadi bahasa alami dan bahasa buatan
+bahasa buatan untuk memenuhi kebutuhan tertentu dan dirancang dengan hati-hati agar mematuhi aturan-aturan yang diperlukan untuk kemudahan pemrosesannya

@@ -1,0 +1,88 @@
+aplikasi online test berbasis web smk immanuel pontianak digunakan dalam pelaksanaan ulangan tengah semester dan ulangan umum
+aplikasi tersebut tersimpan pada server sekolah yang dapat diakses melalui jaringan dalam/lan dan jaringan luar/internet namun, sistem keamanan dalam aplikasi tersebut baru memanfaatkan session browser, sedangkan aplikasi tersebut memerlukan sistem keamanan yang dapat melindungi data sensitif seperti data soal dan jawaban yang tersimpan pada database
+penelitian ini bertujuan untuk meningkatkan sekuritas pada aplikasi online test tersebut dengan mengimplementasikan algoritma xxtea pada aplikasi online test dilakukan pada form- form seperti form soal, form ujian dan form login dengan menambahkan modul enkripsi dan modul dekripsi pada sisi client dan sisi server-nya
+modul pada sisi client dibangun dengan jquery sedangkan modul pada sisi server menggunakan php
+transmisi data antara client dan server menggunakan format pertukaran data json
+enkripsi data query dari client dilakukan sebelum memasuki jaringan dan didekripsi kembali oleh server sebelum query tersebut diproses
+sedangkan enkripsi data hasil query database dilakukan sebelum data ditransmisikan pada jaringan dan didekripsi kembali setelah diterima pada modul client
+hasil implementasi algoritma kriptografi pada form soal dan form ujian, diuji menggunakan sniffing terhadap transmisi query dari sisi client ke sisi server dan sebaliknya untuk mendapatkan data yang tertangkap telah terenkripsi atau tidak
+data enkripsi yang tertangkap menggunakan sniffing, diuji menggunakan brute force untuk memastikan apakah data yang terenkripsi dapat terdekripsi menggunakan tool brute force, sedangkan pengujian pada form login menggunakan sql injection dengan memasukkan beberapa variabel injeksi pada input username dan password di sisi client untuk memastikan enkripsi xxtea memberikan peningkatan sekuritas dalam otentikasi user
+kesimpulan dari penelitian ini adalah dengan mengimplementasikan algoritma kriptografi xxtea pada aplikasi online test dapat meningkatkan sekuritas yang diujikan secara online menggunakan teknik penyerangan terhadap keamanan jaringan seperti sniffing, brute force, serta sql injection
+xxtea pelaksanaan ulangan tengah semester maupun ulangan akhir semester di smk immanuel pontianak
+aplikasi tersebut tersimpan pada server sekolah yang dapat diakses melalui jaringan dalam/lan dan jaringan luar/internet namun, sistem keamanan dalam aplikasi tersebut baru memanfaatkan session browser, sedangkan aplikasi tersebut memerlukan sistem keamanan yang dapat melindungi data sensitif seperti data soal dan jawaban yang tersimpan pada database
+database yang digunakan dalam menampung data pada aplikasi online test juga hanya memanfaatkan keamanan yang telah dimiliki oleh mysql, sementara pengamanan database pada saat proses transmisi merupakan syarat mutlak yang harus dipenuhi agar tidak terjadi penyadapan, pencurian, modifikasi maupun perusakan data oleh orang-orang yang tidak berwenang
+aplikasi online test yang dapat diakses secara public dan private tidak dapat hanya mengandalkan fasilitas standar yang disediakan oleh service seperti mysql
+aplikasi online test memerlukan pengamanan ekstra terutama dalam pengiriman data dari dan ke database
+pengamanan pada data dapat dilakukan pada beberapa level keamanan seperti keamanan sistem operasi, keamanan sistem manajemen database, keamanan fisik, keamanan jaringan dan keamanan dari segi manusia
+algoritma kriptografi xxtea merupakan salah satu metode kriptografi yang dapat diimplementasikan pada level keamanan jaringan yang dapat dilakukan untuk enkripsi dan dekripsi transmisi query database
+oleh karena itu, aplikasi online test di smk immanuel pontianak dapat menggunakan algoritma kriptografi xxtea sebagai pendukung sekuritas untuk enkripsi dan dekripsi query database
+penelitian pertama yang pernah dilakukan, peneliti radityo basith dari universitas telkom menganalisis dan mengimplementasikan algoritma kriptografi yang serupa dengan penelitian ini yaitu xxtea untuk transmisi hasil dan query database yang dilakukan pada sisi server menggunakan microsoft access 2007 dan pada sisi client
+pada penelitian tersebut, modul enkripsi/dekripsi ditambahkan untuk peningkatan keamanan data selama ditransmisikan dijaringan
+keamanan yang ditingkatkan diuji menggunakan serangan keamanan seperti sniffing dan sql injection
+pada penelitian yang dilakukan oleh siti mariyam dari universitas narotama surabaya, studi literatur dilakukan dengan mempelajari sistem pengamanan data yang dibangun dalam bentuk aplikasi yang dapat melakukan enkripsi menggunakan algoritma rc4
+pengujian yang dilakukan terhadap plaintext dan juga file yang dienkripsi dan hanya dapat didekripsi menggunakan aplikasi yang dibuat dalam penelitian tersebut
+dalam penelitian tersebut, pengamanan dilakukan terhadap transmisi hasil dan data query basis data dengan cara enkripsi/dekripsi data yang melewati jaringan menggunakan algoritma rc4
+implementasi pengamanan tersebut dilakukan dengan membangun sebuah perangkat lunak berbasis web yang ditempatkan pada komputer client untuk mengakses data pada komputer server dengan dbms-nya adalah sql server 2005
+didukung setelah melakukan studi literatur terhadap analisis yang dilakukan oleh khandar william yang memaparkan mengenai tea, xtea, dan xxtea serta sejarah perkembangan hingga menjadikan xxtea menjadi pilihan utama dan terbaik diantara tea dan xtea
+letak perbedaan penelitian ini dengan penelitian lainnya adalah algoritma kriptografi yang digunakan yaitu xxtea yang diimplementasikan langsung pada aplikasi online test yang telah digunakan di smk immanuel pontianak
+enkripsi dan dekripsi dilakukan terhadap query database pada sisi server dan sisi client
+teknik pengujian yang digunakan adalah sniffing, brute force dan sql injection
+xxtea merupakan turunan dari block tea yang beroperasi dengan ukuran blok berkelipatan 32 bit dan panjang kunci 128
+xxtea tidak memiliki batas ukuran blok, sehingga xxtea dapat digunakan untuk mengenkripsi satu buah pesan tanpa memerlukan mode operasi cipher
+david wheeler dari laboratorium komputer cambridge
+xxtea juga merupakan algoritma enkripsi efektif yang mirip dengan des yang dapat digunakan untuk aplikasi web yang membutuhkan keamanan
+penggunaan algoritma ini memungkinkan perubahan dari plaintext akan mengubah sekitar setengah dari ciphertext tanpa meninggalkan jejak dimana perubahan berasal merupakan kelipatan 32 bit dengan ukuran minimal 64 bit
+bertambah hingga 32 untuk ukuran blok yang lebih kecil
+jumlah dari putaran lengkap bergantung pada ukuran blok, tetapi terdapat minimal 6 
+algoritma ini menggunakan lebih banyak fungsi pengacakan yang menggunakan kedua blok tetangganya dalam pemrosesan setiap kata dalam blok seperti yang terlihat pada gambar 1
+xxtea banyak diaplikasikan ke perangkat-perangkat elektronik mobile seperti handphone karena proses enkripsi dan dekripsinya tidak memakan resource yang terlalu berat
+query language) yang ditampilkan dalam bentuk visual, yang dapat digunakan untuk melihat, memodifikasi, dan menganalisa data dengan berbagai jalan yang berbeda
+query juga merupakan suatu extracting data dari suatu database dan digunakan untuk pengolahan data selanjutnya
+datasheet query dapat juga digunakan sebagai sumber data untuk object form dan report
+online test test) merupakan tes yang diselenggarakan dengan menggunakan komputer
+karakteristik dari tes ini sama dengan tes secara konvensional yaitu menggunakan satu perangkat tes untuk beberapa peserta dengan panjang tes yang sama 
+perbedaan antara tes berbasis komputer dan tes konvensional terletak pada teknik penyampaian setiap butir soal yang tidak lagi menggunakan kertas, baik untuk naskah soal maupun lembar jawaban
+sistem penilaian dilakukan secara langsung oleh komputer
+online test dapat dilakukan dengan menggunakan komputer sebagai media dan jaringan internet gambar
+penelitian yang dimulai dari studi literatur, analisis kebutuhan, pemodelan metode, pengembangan aplikasi, implementasi, pengujian
+melalui tahap pengujian akan diketahui apakah hasil implementasi telah sesuai dengan rancangan atau tidak
+pemodelan metode kriptografi xxtea terhadap transmisi hasil dan query database dapat dilihat pada gambar 3
+enkripsi dilakukan selama data ditransmisikan dalam jaringan
+enkripsi dilakukan sebelum data memasuki jaringan dan didekripsi kembali oleh database server sebelum query diproses dan begitu juga pada saat query diterima oleh client
+penerapan algoritma kriptografi xxtea dilakukan dengan menambahkan modul enkripsi dan dekripsi pada client dan server
+format pertukaran data dari client ke server dan sebaliknya menggunakan json
+data yang dibawa menggunakan json adalah data yang terenkripsi baik query maupun hasil query dari database
+pengembangan aplikasi pada modul client, terdapat dua proses besar yaitu login pada form login dan eksekusi query pada form soal dan form ujian
+proses eksekusi query juga dibedakan menjadi dua yaitu query yang melakukan retrieve data dan query yang tidak melakukan retrieve data
+dekripsi yang dilakukan terhadap hasil query database yang ditransmisikan dari database server seperti pada gambar 4
+request yang dilakukan client kemudian hasil yang telah diproses dalam database akan dienkripsi sebelum dikirimkan kembali ke client
+enkripsi dan dekripsi pada client dilakukan menggunakan bahasa php menggunakan pemanggilan fungsi xxtea.php
+query yang dienkripsi berupa hasil eksekusi crud sebagai response terhadap client
+proses enkripsi terjadi pada saat sebelum query dikirimkan oleh client ke server database dan pada saat sebelum hasil query dikirimkan kembali oleh server ke client
+pengujian dilakukan dengan menguji pengimplementasian algoritma kriptografi xxtea terhadap sniffing pada ketiga form yang diteliti, brute force pada hasil enkripsi algoritma kriptografi yang ditangkap menggunakan aplikasi sniffing dan sql injection pada form login ke database secara langsung
+d.1 hasil pengujian sniffing dan query database
+pengujian dilakukan untuk memastikan bahwa hasil dan query database terenkripsi selama client dan server berada dalam jaringan
+login, dapat dilihat pada gambar 5 parameter yang menjadi masukan client dalam keadaan terenkripsi ketika dikirimkan gambar
+hasil pengujian terhadap sniffing juga dilakukan pada form soal, soal yang dimasukkan oleh guru, masih terbaca langsung melalui capture paket data menggunakan fiddler seperti pada gambar 7
+ditransmisikan, paket data yang tertangkap menggunakan fiddler telah terlihat seperti pada gambar 8
+d.2 hasil pengujian brute force pengujian aplikasi terhadap brute force dilakukan terhadap hasil enkripsi yang tertangkap melalui fiddler
+hasil enkripsi kemudian diujikan terhadap brute force menggunakan aplikasi wfuzz
+wfuzz dijalankan dengan menggunakan command prompt windows
+brute force yang dilakukan dengan menggunakan metode by-wordlist sehingga data yang terenkripsi diserang menggunakan brute force sesuai dengan data dictionary yang telah didefinisikan
+pengujian brute force juga dilakukan terhadap aplikasi secara langsung yaitu melalui serangan dengan melakukan komputasi yang dicoba satu-per-satu
+hal ini memiliki peluang bagi pihak yang tidak berwenang untuk membobol hasil enkripsi menggunakan algoritma kriptografi xxtea
+namun untuk dapat membobol hasil enkripsi tersebut, diperlukan waktu yang relatif lama
+algoritma kriptografi xxtea menggunakan kelipatan blok 32 bit dengan minimum 64 bit sehingga melalui perhitungan matematis diperlukan waktu 4, 2 x 109 tahun untuk data 32 bit untuk mencoba semua kemungkinan yang mungkin menjadi hasil dari enkripsi yang ter-capture melalui sniffing
+pengujian aplikasi online test terhadap sql injection difokuskan pada form login yang menjadi pintu utama untuk dapat memasuki sistem aplikasi online test dan digunakan untuk autentikasi pengaksesan online test apakah sebagai guru, siswa maupun staff tu
+pengujian dilakukan pada textbox input username dan password pada form login pada halaman aplikasi yang diakses pertama kali untuk otentikasi user
+tabel yaitu tabel 1 dan tabel 2 yang membandingkan serangan sql injection terhadap form login ketika tidak menggunakan algoritma kriptografi xxtea dan ketika menggunakan algoritma kriptografi xxtea
+tabel 1 pengujian sql injection sebelum enkripsi no variabel sql injection hasil 1 ‘or 1=1# berhasil login 2 ‘’or 1=1- gagal login 3 ‘or’’a’=’a’# gagal login 4 ‘or ‘x’=’x’# berhasil login 5 ‘or 0=0# berhasil login 6 ‘or’’a’=’a’ gagal login 7 ‘or 0=0 # berhasil login 8 ‘or 0=0 -- berhasil login 9 admin’ or ‘x’=’x berhasil login 10 1' or '1' = '1 berhasil login tabel 2 pengujian sql injection setelah enkripsi no variabel sql injection hasil 1 ‘or 1=1# gagal login 2 ‘’or 1=1- gagal login 3 ‘or’’a’=’a’# gagal login 4 ‘or ‘x’=’x’# gagal login 5 ‘or 0=0# gagal login 6 ‘or’’a’=’a’ gagal login 7 ‘or 0=0 # gagal login 8 ‘or 0=0 -- gagal login 9 admin’ or ‘x’=’x gagal login 10 1' or '1' = '1 gagal login gambar
+tangkapan data form login sebelum enkripsi
+tangkapan data form login setelah enkripsi
+tangkapan data request client sebelum enkripsi
+tangkapan data request client sebelum enkripsi
+kesimpulan/ringkasan algoritma kriptografi xxtea pada aplikasi online test di smk immanuel pontianak, dapat disimpulkan bahwa : 1
+implementasi algoritma kriptografi xxtea meningkatkan sekuritas pada aplikasi online test di smk immanuel pontianak dengan diujikan pada server secara online menggunakan sniffing, brute force dan sql injection
+pengujian menggunakan sniffing terhadap paket-paket data yang ditangkap membuktikan bahwa tangkapan informasi yang dilakukan dengan aplikasi fiddler pada form soal, form ujian dan form login terenkripsi
+pengujian menggunakan brute force memungkinkan untuk membobol enkripsi yang telah diimplementasi pada aplikasi, namun memerlukan waktu yang relatif lama karena xxtea beroperasi pada blok 32 bit dengan minimum bit adalah 64 bit
+pengujian dengan menggunakan sql injection menghasilkan tabel perbandingan ketika variabel sql injection dimasukkan pada aplikasi sebelum dan setelah dienkripsi terutama pada form login aplikasi online test untuk otentikasi user

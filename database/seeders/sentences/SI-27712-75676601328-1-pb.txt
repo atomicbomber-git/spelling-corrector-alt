@@ -1,0 +1,13 @@
+teknologi dimanfaatkan manusia dalam berbagai bidang untuk membantu menyelesaikan kegiatan yang dulunya dikerjakan secara manual dengan memanfaatkan teknologi, aktivitas tersebut dapat diselesaikan dengan mudah dan cepat
+teknologi yang saat ini berkembang adalah augmented reality karena tampilan visual yang menarik sehingga dapat menampilkan objek 3 dimensi beserta animasinya dan terlihat seperti ada pada dunia nyata
+oleh karena itu, ar dapat digunakan untuk pengenalan hewan mamalia
+saat ini untuk pengenalan hewan mamalia hanya dapat dipelajari dari buku, video, dan internet maka, pada penelitian ini dibangun aplikasi ar untuk pengenalan hewan mamalia yang disertai dengan suara sehingga informasi yang disampaikan lebih detail
+untuk membangun aplikasi berbasis android, digunakan unity sedangkan pembuatan aplikasi ar digunakan vuforia sdk
+marker terdapat pada sebuah buku untuk menampilkan visualisasi objek 3d
+aplikasi yang dibangun pada sistem operasi android dengan menerapkan teknologi augmented reality bertujuan untuk pengenalan hewan mamalia kepada anak usia 7 hingga 12 tahun yang dapat menambahkan visualisasi objek 3d ke dalam lingkungan nyata sehingga mereka dapat mengenal hewan mamalia tersebut
+berdasarkan hasil pengujian jarak ideal, semakin terlihat pixel pada marker maka semakin berpengaruh pada sistem untuk menampilkan objek 3d
+berdasarkan hasil pengujian validity, anak-anak dapat mengenali hewan mamalia dengan menggunakan aplikasi ar pengenalan hewan mamalia dengan hasil 91% responden menjawab sangat baik
+oleh karena itu, aplikasi ar pengenalan hewan mamalia ini dapat dimanfaatkan pengguna sebagai media untuk mengenal hewan mamalia
+pendahuluan teknologi memiliki peran penting bagi kehidupan manusia dalam berbagai bidang
+oleh karena itu, teknologi dimanfaatkan manusia untuk menyelesaikan pekerjaan yang dulunya dilakukan secara manual tetapi dengan bantuan teknologi pekerjaan tersebut dapat diselesaikan dengan mudah dan cepat
+teknologi yang sedang berkembang dan banyak digunakan saat ini adalah augmented reality karena dapat membuat suatu hal di dunia nyata menjadi 3d atau visual penggunaan teknologi dalam bidang edukasi sangatlah banyak seperti pembelajaran biologi

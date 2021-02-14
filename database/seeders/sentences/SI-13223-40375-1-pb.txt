@@ -1,0 +1,31 @@
+dengan lalulintas yang ada di kota pontianak menyebabkan informasi tentang lokasi masalah lalulintas menjadi sangat penting untuk diketahui oleh masyarakat sebagai pengguna jalan raya
+aplikasi monitoring trafik lalulintas merupakan aplikasi yang menyediakan informasi berdasarkan posisi geografis sebuah foto
+dengan adanya sistem informasi geografis ini, masyarakat bisa dengan mudah mengetahui titik lokasi permasalahan lalulintas yang terjadi di kota pontianak
+masyarakat juga bisa memberikan informasi kemacetan dengan cara mengunggah foto melalui aplikasi web yang bisa diakses menggunakan browser ponsel, sehingga para pengguna aplikasi ini dapat saling memberi dan menerima informasi lalulintas yang terjadi di jalan raya
+aplikasi ini memanfaatkan fitur kamera ponsel yang melakukan sinergi langsung dengan fitur gps untuk memberikan informasi tentang kondisi objek dan dikenal dengan istilah geotagging
+foto yang diambil kemudian diunggah melalui aplikasi web dengan mengakses situs yang telah disediakan
+melalui metadata gps yang terdapat pada foto, aplikasi ini akan mendapatkan koordinat lokasi foto untuk kemudian ditampilkan kedalam peta
+hasil pengujian kuesioner dengan skala likert’s summated rating memperoleh skor 2361, menurut interpretasi skala lsr skor tersebut ada di antara kuartil iii dan maksimal, aplikasi dinilai berhasil
+pendahuluan untuk mendukung kemudahan aktivitas manusia
+dengan adanya alat transportasi, manusia akan menjadi lebih mudah mengakses jalan raya untuk melakukan aktivitasnya
+pontianak merupakan kota yang berkembang di indonesia, yang semakin hari semakin bertambah jumlah penduduknya, dengan sebagian besar penduduknya yang memilih untuk menggunakan kendaraan pribadi sebagai alat transportasi yang dapat mendukung mereka dalam aktivitas sehari-hari
+hal itu pula yang terkadang menyebabkan titik-titik jalan raya dipadati kendaraan/macet macet biasa terjadi pada jam-jam sibuk masyarakat pontianak yaitu pada jam sibuk di pagi, siang ataupun sore hari maka dibeberapa simpang pertemuan jalan akan terjadi tumpukan kendaraan yang berjalan pelan, mengingat lebar jalan sudah tidak sesuai dengan jumlah kendaraan yang melewatinya, yang kemudian seringkali menyebabkan banyak kendala dan kerugian karenanya, misalnya dari segi waktu yang dapat menghambat sejumlah aktifitas
+kemacetan adalah masalah lama yang sampai saat ini belum dapat ditemukan solusi yang tepat untuk memecahkannya
+untuk itu perlu adanya kerjasama yang baik antara pemerintah dengan masyarakat agar masalah ini cepat terselesaikan dengan solusi terbaik
+sudah lazim digunakan terutama secara mobile
+teknologi internet akan sangat memudahkan masyarakat untuk mendapatkan segala bentuk informasi yang berguna
+dengan teknologi internet, penyebaran informasi sangat mudah dilakukan.aplikasi monitoring traffic lalulintas adalah aplikasi yang dapat mengelola data lalulintas dengan memanfaatkan informasi yang terdapat pada foto, khususnya berupa titik koordinat, untuk melakukan pemetaan titik masalah lalulintas
+pemanfaatan teknologi geotag dalam aplikasi ini sebagai sistem yang dapat memberikan laporan dan menampilkan informasi bereferensi geografis yang akan dapat mempermudah pengguna lalulintas dalam melihat kondisi lalulintas di kota pontianak
+definisi lalulintas lintas jalan, sedang yang dimaksud dengan ruang lalulintas jalan adalah prasarana yang diperuntukkan bagi gerak pindah kendaraan, orang, dan atau barang yang berupa jalan dan fasilitas pendukung
+dalam pergerakan kendaraan yang memenuhi persyaratan kelaikan dikemudikan oleh pengemudi mengikuti aturan lalu lintas yang ditetapkan berdasarkan peraturan perundangan yang menyangkut lalu lintas dan angkutan jalan melalui jalan yang memenuhi persyaratan geometrik: rancang bangun aplikasi monitoring trafik lalu lintas di kota pontianak citra hartini1, rudy dwi nyoto, st, m
+eng 3 kemacetan kronis, macet sedang dan macet ringan
+jenis dan tingkat kemacetan di suatu ruas jalan bisa berubah-ubah tetapi pada umumnya punya kecenderungan yang dapat dibaca
+kemacetan di satu titik jalan yang dianggap tidak strategis, bila tidak segera diatasi maka akan mudah merembet/menjalar ke ruas-ruas jalan lain dalam lingkupyang luas
+berikut adalah beberapa jenis kondisi lalulintas : 1
+gps photo tagging gps photo tagging juga dikenal sebagai geotagging, merupakan proses penambahan informasi posisi data gps dalam sebuah foto digital 
+ponsel-ponsel berkamera yang memiliki gpsreceiver internal umumnya memiliki fitur ini
+mekanisme gps photo tagging adalah pada saat sebuah foto diambil menggunakan kamera yang memiliki fitur geotagging, kamera atau ponsel tersebut mencatat lebih banyak informasi/data dibandingkan dengan sebuah foto yang diambil dengan kamera biasa
+informasi tersebut termasuk waktu dan data ketika sebuah foto diambil, orientasi dari kamera, apakah menggunakan lampu flash dan detil kamera lainnya yang digunakan seperti apertur, exposure dan local length
+semua data ini disimpan pada suatu tempat yang disebut exif headers
+exif headers berisi petunjuk foto dengan data yang dapat dibaca oleh aplikasi manajemen foto atau sebuah situs foto tertentu
+selain itu exif headers juga menyediakan sebuah ruang untuk mengisi koordinat longitude, latitude, dan atitude

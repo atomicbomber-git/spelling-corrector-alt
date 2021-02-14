@@ -1,0 +1,77 @@
+– rapat dapat dipandang sebagai alat yang secara efisien memfasilitasi pertukaran informasi diantara beberapa orang
+hal-hal penting dalam pelaksanaan rapat meliputi pengambilan keputusan bersama, kehadiran peserta rapat sesuai kuorum serta tepat waktu, diskusi yang konstruktif, dan tindak lanjut setelah rapat memerlukan integrasi agar tiap hal tersebut dapat dimanajemen dengan baik
+beberapa rapat yang berlangsung saat ini masih menghadapi berbagai permasa-lahan diantaranya terfokus sesuai agenda rapat, dan notulensi rapat belum lengkap
+diagram alir data, entity relationship diagram, relational database
+prosedur pelaksanaan rapat saat ini memunculkan usulan perencanaan perbaikan manajemen rapat dengan mendeskripsikan kebutuhan antarmuka, fungsional, dan non-fungsional rancangan konseptual sesuai analisis eksisting dan perbaikan sistem yang dapat menjadi acuan pengembangan aplikasi berbasis mobile dan web meliputi diagram statis serta diagram dinamis 
+hasil akhir penelitian ini yaitu mapping kebutuhan terhadap diagram statis dan dinamis yang berhasil dilakukan melalui traceability matrix dan mock-up aplikasi yang dirancang dengan sembilan fitur utama
+indonesiaberarti pertemuan atau kumpulan untuk membicarakan sesuatu
+penelitianmemandang rapat sebagai alat yang secara efisien dapat memfasilitasi pertukaran informasi diantara beberapa orang
+kbbijuga mende-finisikan rapat dalam beberapa bentuk seperti, rapat akbar, rapat paripurna, rapat terbuka dan masih banyak lagi
+secara umum rapat yang terjadwal adalah proses penentuan tema, waktu dan peserta dari sebuah rapat
+terdapat berbagai macam mekanisme dalam penjadwalan rapat, biasanya disesuaikan dengan lingkungan kerja dari sebuah organisasi atau kumpulan tempat penyelenggaraan rapat
+akan melaksanakan tugas dan pekerjaan yang berbeda sehingga perlu koordinasi, komitmen, dan kerjasama yang baik
+alasan lain yaitu setiap orang memiliki ide, pengetahuan, dan pengalaman yang berbeda sehingga perlu dilakukan rapat untuk mencapai mufakat, solusi, dan keputusan bersama
+rapat yaitu mengambil keputusan bersama, tanggung jawab pimpinan rapat, meningkatkan kehadiran peserta rapat, membuat peserta datang tepat waktu, menghidupkan diskusi, mengajukan komentar yang konstruktif, dan melakukan tindak lanjut setelah rapat
+mengemukakan aturan-aturan umum pelaksanaan meeting yaitu mengirim undangan dan materi rapat ke setiap peserta tepat waktu, selalu memulai dan mengakhiri rapat tepat waktu, undang peserta rapat sesuai dengan kebutuhan dan kompetensi, fokuskan diskusi sesuai dengan agenda rapat, menjadi pendengar yang baik, hentikan semua aktivitas lain di luar kegiatan rapat, dan rencanakan pelaksanaan rapat dengan baik
+proses manajemen diperlukan untuk menginteg-rasikan komponen yang mendukung pelaksanaan rapat, meliputi: rencana penyelenggaraan, agenda, peserta, sesi rapat yang sedang berlangsung, notulensi berisi kesimpulan rapat, tindak lanjut sesuai hasil rapat, dan rencana rapat berikutnya
+penelitian ini akan menganalisis proses mana- jemen rapat dengan metode terintegrasi yang disesuaikan dengan jenis rapat yang dilaksanakan, sehingga membantu pengelolaan pertemuan dan hasil rapat
+penelitian sebelumnya olehdilakukan dengan merancang protokol aplikasi rapat online untuk menentukan aturan- aturan yang diperlukan dalam penyelenggaraan rapat melalui media internet rapat online dilakukan secara real time antara pimpinan rapat dengan beberapa peserta rapat yang berada pada lokasi terpisah dengan menggunakan komputer sebagai terminal komunikasi
+rancangan aplikasi ini dapat menjadi replika dari komunikasi dunia nyata untuk melaksanakan pertemuan/diskusi karena mendukung komunikasi teks, file presentasi, komunikasi face-to-face, dan dialog secara langsung
+implementasi perancangan dibuat dalam bentuk aplikasi web yang dimaksudkan untuk menyimpan informasi data fakultas antara lain: notulen rapat, administrasi semua surat yang ada, data dosen/staf fakultas, data jumlah mahasiswa tiap jurusan per semester, jumlah publikasi setiap semester, dan jumlah kerjasama dengan institusi /industri setiap semester yang dapat ditampilkan berupa laporan dalam bentuk grafik
+tim peneliti dari mahasiswa universitas indonesiamembangun suatu aplikasi untuk mengelola jadwal rapat, hal-hal yang dibicarakan dalam suatu rapat, dan bagaimana tindak lanjutnya
+selain itu dapat digunakan untuk membantu staf dalam mengetahui secara cepat hasil dari sebuah rapat dan informasi mengenai rapat yang dilakukan 
+metodologi yang digunakan yaitu waterfall dan menggunakan unified modeling language untuk pemodelannya
+implementasi dilakukan dengan menggu-nakan script language php versi 5 dan basis data yaitu postgre sql
+penelitian ini difokuskan pada perancangan global sistem meliputi pengembangan model dan arsitektur pendukung pengembangan framework aplikasi menjadi acuan pengembangan aplikasi sejenis sesuai kebutuhan organisasi
+penelitian sebelumnya masih belum memberikan gambaran umum proses manajemen rapat karena lebih terfokus pada dukungan aplikasi
+oleh karena itu, agar proses manajemen dapat dikelola lebih baik dan memberikan hasil yang maksimal bagi para peserta dan pelaksana hasil rapat maka diperlukan analisis dan perancangan yang mendalam terutama dari aspek integrasi komponen pendukung rapat dalam pengelolaan informasi
+rapat pemecahan masalah, yaitu rapat yang dilaksanakan untuk memecahkan masalah yang sedang dihadapi
+rapat perundingan, yaitu rapat yang dilakukan untuk merundingkan suatu perselisihan atau mencari jalan tengah agar tidak merugikan kedua belah pihak
+menurut sifatnya, rapat sendiri dibedakan atas beberapa jenis, yaitu : a
+rapat resmi, yaitu rapat yang diselenggarakan untuk membahas masalah-masalah yang sangat penting dan berlaku peraturan keprotokolan yang mengatur kelancaran jalannya rapat
+rapat tidak resmi, yaitu rapat yang diadakan tidak berdasarkan perencanaan yang formal c
+rapat terbuka, yaitu rapat yang dapat dihadiri oleh semua anggota dan materi yang dibahas tidak merupakan masalah yang bersifat rahasia
+rapat tertutup, yaitu rapat yang dihadiri oleh peserta rapat tertentu saja dan masalah yang dibahas merupakan masalah-masalah yang masih bersifat rahasia
+akan melaksanakan tugas dan pekerjaan yang berbeda sehingga perlu koordinasi, komitmen, dan kerjasama yang baik
+alasan lain yaitu setiap orang memiliki ide, pengetahuan, dan pengalaman yang berbeda sehingga perlu dilakukan rapat untuk mencapai mufakat, solusi, dan keputusan bersama
+satu cara untuk meningkatkan kualitas rapat menurutadalah dengan menerapkan kualitas pengambilan keputusan dengan siklus pdsa (plan-do-study-act
+siklus pdsa memberikan progresif meningkatkan efektivitas pertemuan dan efisiensi lembur
+cepat keputusan di tingkat eksekutif dan intensifikasi akuntabilitas kelompok untuk menggunakan umpan balik dari pertemuan terakhir untuk menyiapkan persiapan rapat ke depannya
+berdasarkan analisa sistem yang telah diterapkan sebelumnya diusulkan beberapa perbaikan untuk mengoptimalkan proses dalam manajemen rapat terintegrasi dengan mengacu pada risetmeliputi pengelolaan rapat yang dibagi menjadi tiga bagian besar yaitu: 1
+dalam proses pengaturan jadwal, dilakukan dua hal yaitu menyediakan informasi jadwal rapat yang dibutuhkan oleh civitas penanggung jawab rapat dan melakukan pengecekan jadwal rapat yang direncakan oleh penanggung jawab rapat
+dalam proses konfirmasi kehadiran rapat, aplikasi diharapkan dapat membaca konfirmasi ketidakhadiran melalui perangkat mobile
+seluruh pengguna baik penanggung jawab maupun non penanggung jawab juga akan dapat menjadwalkan kegiatan rutinnya
+hal ini dilakukan agar pada proses pengecekan usulan jadwal rapat oleh penanggung jawab rapat, aplikasi yang dirancang akan menampilkan data yang lebih relevan, tidak hanya dari jadwal rapat yang dimiliki oleh pengguna
+berlangsung di lingkup prodi teknik informatika
+usulan perbaikan sistem ini mengintegrasikan elemen penting dalam sebuah rapat yaitu kehadiran peserta rapat dan rekapitulasi hasil rapat yang dapat disosialisasikan ke seluruh peserta
+penambahan peran notulis yang berasal dari peserta rapat, dimana akses aplikasi berbasis web responsif dengan tambahan komponen word diharapkan dapat mempermudah penyimpanan data terkait notulensi dan tindak lanjut rapat
+rancangan aplikasi juga berinteraksi dengan penyimpanan internal dan perangkat mobile untuk menjamin backup data dan penyampaian informasi dengan media notifikasi mobile, sms atau email dapat dilakukan
+antarmuka perangkat lunak perangkat lunak memerlukan antarmuka perangkat lunak yang menghubungkan sinkronisasi data di server seperti: b
+database online pada web server dengan sql server d
+tools konversi data dari postgresql ke sql server dengan swissql 4
+koneksi internet melalui jaringan internet ict untan b
+hosting pada server lokal di http://informatika.untan.ac.id b
+kebutuhan fungsional dari manajemen rapat terintegrasi : tabel i kehadiran rapat oleh peserta
+conference untuk peserta rapat yang tidak berada di lokasi rapat
+mrf-09 sistem dapat menampilkan detail agenda rapat yang sedang berlangsung
+mrf-10 sistem dapat menyediakan fitur notulensi rapat
+mrf-11 sistem dapat menambahkan tindak lanjut pelaksanaan rapat
+mrf-12 sistem dapat memberikan informasi hasil pelaksanaan rapat kepada seluruh peserta rapat
+analisis kondisi eksisting dan usulan perbaikan menjadi acuan dalam perancangan konseptual baik dalam bentuk diagram statis, diagram dinamis uml, dan mock- up aplikasi
+penggunaan data pada manajemen rapat terintegrasi yang dideskripsikan melalui diagram konteks berikut: manajemen rapat notulis 2
+diagram overview diagram overview adalah diagram yang menjelaskan urutan-urutan proses dari diagram konteks
+rincian proses dalam manajemen rapat terintegrasi meliputi 5 proses utama diantaranya: 3
+entity relationship diagram entity relational diagram adalah gambaran hubungan antar-entitas yang dipergunakan dalam sistem
+perancangan erd meliputi tahap penentuan entitas, penentuan relasi antar-entitas, tingkat relasi yang terjadi, dan konektivitas antar-entitas
+hubungan antar entitas tersebut dapat dideksripsikan sesuai skema erd berikut: pimpinan rapat menyusun1 jadwal1 perancangan diagram dinamis 1
+spesifikasi diagram use case diagram use case secara dinamis digunakan untuk mendeskripsikan perilaku pengguna dalam pemanfaatan aplikasi manajemen rapat terintegrasi
+deskripsi diagram use case diagram use case dari perancangan konseptual dinamis untuk manajemen rapat terintegrasi dapat dilihat pada gambar 4
+mock-up perancangan aplikasi manajemen rapat terintegrasi terintegrasi ini dapat dilihat pada mock-up di bawah ini: gambar 5
+halaman login pengguna pengguna dengan akses pimpinan rapat dapat mengakses beberapa menu berikut: b
+konfirmasi kehadiran peserta, dashboard persentase, dan akses video conference c
+rekap hasil rapat dan tindak lanjut rapat
+notulensi rapat pengujian pada penelitian ini dilakukan dengan melaku-kan traceability melalui pemetaan kebutuhan fungsional terhadap diagram statis dan diagram dinamis 
+diagram alir data, entity relationship diagram, relational database
+hasil dari traceability dapat dilihat pada matriks berikut: konseptual mrf-03 dfd 1.0 uc-04 mrf-05 dfd 4.0 uc-03 mrf-06 dfd 3.0 uc-06 mrf-08 dfd 4.0 uc-07 mrf-09 dfd 2.0 uc-06 mrf-10 dfd 5.0 uc-08 mrf-12 dfd 5.0 uc-08 konseptual sesuai analisis eksisting dan perbaikan sistem yang dapat menjadi acuan pengembangan aplikasi berbasis mobile dan web pada manajemen rapat terintegrasi meliputi diagram statis serta diagram dinamis 
+hasil dari penelitian ini mampu mengoptimalkan efisiensi resources dan waktu selama pelaksanaan rapat melalui perbaikan prosedur manajemen rapat yang lebih terintegrasi
+informasi mengenai rapat lebih mudah diakses oleh para peserta, sehingga mendukung kinerja terutama dalam pelaksanaan tindak lanjut hasil rapat di lingkungan program studi teknik informatika

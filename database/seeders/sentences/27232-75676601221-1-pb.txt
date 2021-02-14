@@ -1,0 +1,83 @@
+eee paper template in a4 vol 5 no 1 april 2019 json web token untuk authentication pada interoperabilitas arsitektur berbasis restful web service jalan siliwangi no24 kota tasikmalaya 46115 1 rohmatgunawan@unsil.ac.id 2 alam@unsil.ac.id disetiap negara, termasuk di indonesia
+walaupun sudah ada sistem di palang merah indonesia namun belum bisa mengatasi permasalahan pencarian maupun distribusi donor darah
+sesuai trend sekarang di jaman gadget yaitu maraknya penggunaan android, maka untuk mengatasi masalah ini diperlukan aplikasi berbasis android
+sementara untuk integrasi dengan sistem yang sudah ada diperlukan web service sebagai backend system sehingga layanan donor darah dapat diakses oleh berbagai platform
+arsitektur yang digunakan pada web service menggunakan rest, namun masih ada beberapa masalah pada rest yaitu mengenai keamanan pada proses otentikasi
+pada arsitektur rest diperlukan metode otentikasi yang tidak bernegara, salah satunya dapat menggunakan json web token
+hasil penelitian ini menunjukan bahwa penggunaan json web token authentication pada web service and backend system blood donors dapat membentuk sistem yang sangat skalabel, aman, mampu berinteraksi multi-platform serta dapat diandalkan
+pendahuluan lebih sistem untuk dapat melakukan pertukaran informasi
+mengembangkan perangkat lunak sistem informasi yang dapat mendukung interoperabilitas merupakan salah satu hal yang tidak mudah dilakukan
+interoperabilitas sistem melibatkan berbagai komponen yang heterogen
+arsitektur sistem yang dibangun dari komponen heterogen, seperti : platform, sistem operasi, bahasa pemgroman yang berbeda dan basis data, harus dapat diintegrasikan guna menyediakan layanan yang optimal web service merupakan seperangkat standar dan metode pemrograman untuk berbagi data antara aplikasi perangkat lunak yang berbeda, mendistribusikan layanan melalui internet yang mendukung interoperabilitas sistem
+terdapat beberapa arsitektur web service yang dapat digunakan diantaranya : extensible markup language remote procedure call, simple object access protocol dan representational state transfer, ,
+xml-rpc merupakan cara tradisional yang digunakan dalam pertukaran dan integrasi sistem
+web service dengan arsitektur soap telah digunakan untuk mendukung proses integrasi dan scalability sistem, ,
+arsitektur metode rest merupakan konfigurasi dengan nilai latency terbaik untuk diimplementasikan dalam proses integrasi data
+selain dari itu rest juga lebih baik dibanding soap dalam respon time dan respon berdasarkan ukuran data, ,,
+melibatkan berbagai macam komponen, yang memungkinkan menimbulkan celah yang dapat mengganggu keamanan sistem
+berbagai cara untuk mengurangi ancaman terhadap keamanan pada web service pernah dilakukan pada penelitian sebelumnya, diantaranya : pendekatan claim based authentication, token based authentication, secure with ssl menggunakan asp.net mvc web api
+penggunaan otentikasi berbasis token juga pernah dilakukan dalam penelitian, ,
+penelitian lainnya, otentikasi berbasis klaim id, saml technology, dilakukan pada penelitian integrasi dan pertukaran data menggunakan format java script object notation sehingga otentikasinya menggunakan json web token 
+keamanan rest menggunakan otentikasi jwt sudah pernah dilakukannamun belum dicoba diterapkan pada beberapa platform
+berdasarkan latar belakang masalah tersebut, pada penelitian ini akan dirancang arsitektur multi-platform dengan memanfaatkan teknologi web service berbasis restful
+jwt diterapkan untuk otentikasi sistem yang dapat diakses dari platform yang berbeda
+arsitektur rest pada umumnya dijalankan melalui http, melibatkan proses pembacaan web page tertentu yang memuat sebuah file xml atau json
+setiap permintaan bersifat independen, server tidak menyimpan keadaan permintaan apa pun
+application programming interface yang mengikuti gaya rest disebut restful api
+restful api menggunakan uniform resource identifier untuk mewakili sumber daya
+setiap sumber data diidentifikasi menggunakan tautan uri
+metode yang digunakan dalam rest diantaranya: get untuk mendapatkan sumber daya, post digunakan untuk membuat sumber daya baru dan metode put digunakan untuk memperbarui sumber daya berdasarkan sumber daya
+sedangkan metode delete digunakan untuk menghapus sumber daya atau kumpulan sumber daya
+secara umum metode yang digunakan pada rest ditampilkan pada tabel i
+tabel i contoh restful api of all student
+jwt merupakan sebuah token berbentuk string yang terdiri dari tiga bagian yaitu : header, payload dan signature yang digunakan untuk proses otentikasi dan pertukaran informasi
+token terdiri dari dua jenis : token pembawa dan token pemegang kunci
+sedangkan berdasarkan tujuan terdapat dua skema : token identitas dan token akses
+cara kerja jwt sama seperti password, ketika pengguna berhasil login maka server akan memberikan token yang disimpan di local storage atau cookies browser
+token digunakan untuk mengakses halaman tertentu, pengguna akan mengirim balik token tersebut sebagai bukti bahwa pengguna sudah berhasi login
+secara umum struktur jwt ditampilkan pada gambar 1
+adapun token yang dihasilkan dari jwt dibangun dengan formula seperti ditampilkan pada gambar 2
+∑ fungsi dari base64encode dengan parameter header, plyaload dan signature
+token yang diperoleh dari server, akan disisipkan pada header hyper text trasnfer protocol, seperti ditampilkan pada gambar 3 eyj0exaioijkv1qilcjhbgcioijiuzi1nij9.eyjrzf9wzw dhd2fpijoiuc0wmdyilcj1c2vybmftzsi6inphbcisimlhd ci6mtuynzm5nziymywizxhwijoxntmwmdi2oty5fq.f qhaqcjuogxlsig1q7mubhpqkweqdgiaovzpoxqv2jg iii
+metodologi berbasis token pada arsitektur rest web service, secara umum dapat dilihat pada gambar 4
+setelah proses login berhasil server memberikan respons berupa jwt token sebagai kunci untuk mengakses sumber daya di server
+rest api dapat diakses oleh berbagai client berbasis web, desktop maupun mobile
+adapun model yang diusulkan meliputi proses-proses sebagai berikut: a
+pengguna terdiri dari: client berbasis web, desktop maupun mobile
+apabila token tidak tersedia atau sudah kadaluwarsa pengguna diarahkan ke login page
+pengguna melakukan login, credentials passed to api d
+backend system: otentikasi user diperlukan untuk melakukan beberapa aksi e
+jika kredensial valid, token jwt dikirim kembali ke client selanjutnya adalah memeriksa hak akses yang dimiliki token dalam payload
+jika token tersebut memiliki hak akses ke sumber daya, web service donor darah akan meresponnya dengan sumber daya yang dibutuhkan oleh pengguna
+deskripsi dan alur verifikasi token ditampilkan pada gambar 5
+ada 3 level hak akses aktor yang berbeda dalam aplikasi ini, yaitu: admin, tugas utama admin adalah mengatur semua konfigurasi yang ada pada aplikasi
+adapun hak akses yang dimiliki admin dapat dilihat pada gambar 6
+6 peran admin digunakan oleh lembaga pengelola donor darah
+hak akses pada level ini dapat dilihat pada gambar 7
+7 peran operator yang dimiliki pengguna diantaranya dapat berperan sebagai pendonor sekaligus orang yang request donor darah, secara rinci hak akses pengguna dapat dilihat pada gambar 8
+implementasi dan pengujian arsitektur restful webservice
+rancangan service diimplementasikan ke dalam pemrograman menggunakan bahasa pemgrograman php
+pengujian token dilakukan dari client dengan platform berbeda
+yang dilakukan dalam implementasi diantaranya pembuatan login form seperti ditampilkan pada gambar 9
+pengujian respon http server sebelum dilakukan pengujian, perlu disiapkan beberapa tahap seperti pembuatan atau penambahan data dummy yang terdiri dari pengguna, operator, admin, event kegiatan, dan lain sebagainya
+kemudian ujicoba dilanjutkan dengan login dari berbagai peran seperti admin, operator dan pengguna
+selanjutnya selama proses login akan diamati token jwt yang dihasilkan serta sumber daya yang diperoleh apakah sudah sesuai dengan hak akses yang dimiliki oleh peran tersebut
+pada proses parsing data jwt tersebut menggunakan beberapa tools diantaranya aplikasi postman
+adalah contoh isi dari header untuk menguji proses login dengan hak akses sebagai admin
+status respon http dari server memberikan kode 200 yang artinya permintaan telah berhasil dijalankan
+pengujian authentication dengan jwt konten login yang dikirim ke server dalam format json yang dikemas dalam tipe konten
+http body terdiri dari username dan password dalam format json
+12 body login form respon yang diterima berupa format json yang terdiri dari token dan data http, nilai token tersebut akan berbeda beda karena token tersebut memiliki data pengguna dan hak akses yang berbeda
+pengujian selanjutnya dapat dilihat pada gambar 13
+dengan memasukan kredensial login yang salah
+13 respon login gagal percobaan selanjutnya menguji sumber daya yang dimiliki oleh token, hasilnya layanan web akan memerikan respon dari server jika konten tersedia dapat dilihat seperti pada gambar
+pengujian data token percobaan terakhir dilakukan dengan cara mengubah nilai token, token ditambahkan satu karakter
+token yang asli adalah sebagai berikut: sebagai berikut: memasukan token yang dimodifikasi adalah pesan token yang tidak valid
+berhasil diterapkan pada layanan web danbackend systemblood donors
+sehingga layanan web ini mampu mengatasi permasalahan interoperabilitas, sistem yang sudah ada di pmi mampu berinteraksi dengan aplikasi lain baik berbasis web, desktop maupun mobile
+selanjutnya, dengan penggunaan token kita bisa mengetahui siapa yang mengakses aplikasi, hak akses apa serta sumber daya apa saja yang dimilikinya
+jika konten token dimodifikasi atau dirubah secara ilegal, maka layanan web akan memberikan respon bahwa token itu tidak valid
+sehingga dengan penggunaan json web token authentication dianggap aman
+yaitu belum ada diskusi tentang penyimpanan token pada local storage, apakah sudah aman dan bagaimana cara menyimpan token yang benar
+selanjutnya perlu ada penelitian untuk mengetahui algoritma enkripsi yang lebih tepat digunakan baik kunci simetris maupun asimetris untuk jwt
+pada intinya ketika penggunaan json web token pada rest web service dirancang dengan perencanaan yang baik, jwt dapat membentuk sistem yang sangat skalabel, aman, mampu berinteraksi multi-platform serta dapat diandalkan

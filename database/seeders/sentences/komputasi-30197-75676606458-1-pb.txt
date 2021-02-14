@@ -1,0 +1,37 @@
+implementasi algoritma kociemba pada rekomendasi penyelesiaan langkah permainan rubik merupakan sebuah aplikasi yang dirancang dengan tujuan menghasilkan sebuah langkah dan kecepatan bermain yang efisien dan benar
+algoritma kociemba bekerja dengan two phase, fase 1 menggunakan iterative deepening a * yaitu sistem akan mendeteksi dan membangun sebuah pola state dengan maksimal sebanyak 18 langkah
+fase 2 akan melakukan proses penyelesaian masalah dari pola tersebut dengan maksimal 12 langkah
+algoritma kociemba akan menghasilkan nilai maksimal perpindahan sebanyak 30 langkah
+sampel untuk penelitian ini adalah 10 mahasiswa berusia 20-24 tahun dengan membandingkan waktu bermain secara manual dengan waktu bermain secara sistem
+penelitian ini menyimpulkan bahwa implementasi algoritma kociemba pada rekomendasi penyelesaian langkah permainan rubik berhasil diterapkan dan mendapatkan rekomendasi langkah yang tepat serta efisien dengan waktu bermain yang sedikit
+hasil penelitian menunjukan waktu rata-rata bermain secara manual adalah 40 menit
+pendahuluan rubik adalah sebuah permainan dalam bentuk teka-teki yang bertujuan untuk menyelesaikan sebuah masalah dalam bentuk tiga dimensi
+permainan ini ditemukan oleh erno rubik, seorang oemahat yang ingin membantu muridnya untuk memahami permasalahan tiga dimensi
+erno rubik membangun rubik selaha satu bulan dengan 54 stiker berwarna ke enam sisi rubik
+pada perlombaan world cube championship 2017 yang diselenggarakan di paris, perancis dimenangkan oleh max park dari amerika serikat dengan 5.87 seconds dengan ukuran kubus 3 x 3 x 3
+dalam pengembangannya, sudah terdapat beberapa jenis kubus seperti kubus dengan dimensi 2 x 2 hingga ukuran kubus 7 x 7
+permainan rubik mulai di minati oleh pasar dunia setelah mengikuti beberapa international toy’s fair di berbagai negara, kemudian dilirik oleh tom kremer dan di komersialkan di pasar dunia
+permainan rubik umumnya sulit untuk menyelesaikan enam sisi yang terdapat pada rubik
+pemain yang baru mungkin akan kesulitan menyelesaikannya dan tidak banyak aplikasi yang menyediakan penyelesaian permainan rubik dengan efisien
+chandre, atul raut, riya, shweta terkay dan jaswin sehah melakukan pengujian dengan algoritma terkenal dengan hasil pengujian yaitu penyelesaian rubik dengan algoritma basic beginners dan menghubungkan algoritma fridrich dengan 80 langkah
+genetic algorithm based model for rubik’s cube solution
+penelitian yang dilakukan oleh ashutosh tyagi dan poonam tyagi dengan judul menghasilkan bahwa algoritma genetika adalah metode yang efektif untuk menentukan urutan langkah yang dibutuhkan untuk menyelesaikan rubik dengan berbagai pengacakan urutan rubik
+pemilihan kromosom yang lebih tinggi dari factor solusi rubik tahap awal menuntun ke solusi yang lebih baik
+solution for rubik’s cube by using genetic algorithm
+sedangkan penelitian oleh kulkarni sameer anil dapat mereduksi hasil langkah dari 227 gerakan menyelesaikan rubik menjadi 107 langkah
+penelitian jay hack dan kevin shutzberg dengan menggunakan metode k- means, simple linear iterative clustering dan algoritma kociemba mmerlukan waktu yang banyak untuk mengoptimalisasikan metode tersebut
+autonomous rubik’s cube solver using image processing
+penelitian oleh harshad sawhey, sakshi sinha, anurag lohia, prashant jalan dan priyankan harlalka menyatakan bahwa algoritma kociemba menjelaskan efisiensi dalam menetapkan setiap langkah dalam penyelesaian rubik
+optimasi penyelesaian permainan rubik’s cube menggunakan algoritma ida* dan brute force
+peneliti chichi rizka gunawan, ahmad ihsan dan munawir dengan judul penelitain yang menggunakan 2 algoritma yaitu algoritma ida* dan brute force menyatakan bahwa algoritma ida* kurang efektif jika digunakan untuk menyelesaikan masalah rubik karena rubik dapat diselesaikan lebih cepat dari kemampuan manusia dan brute force memiliki kemampuan yang kalah cepat jika dibandingkan dengan algoritma ida* karena membutuhkan waktu yang lama untuk mendapatkan solusi
+permasalahan permainan rubik adalah bagaimana mendapatkan solusi dengan langkah yang tepat dan cepat
+dalam perkembangan saat ini, ketersediaan aplikasi yang dapat mempermudah pengguna atau pemain rubik sangat minim dan permainan tersebut sulit dipecahkan bagi pemain pemula
+sehingga penelitian berupa implementasi algoritma kociemba dalam rekomendasi langkah pada aplikasi permainan rubik merupakan sebuah solusi yang baik untuk menghasilkan langkah yang tepat ii
+rubik kubus rubik adalah sebuah permainan dalam bentuk teka- teki yang dibuat oleh pemahat dan profesor dari budapest di hungaria yaitu erno rubik pada tahun 1974
+erno rubik awalnya ingin membantu muridnya untuk memahami permasalahan tiga dimensi
+erno rubik membangun magic cube nya membutuhkan waktu lebih dari satu bulan untuk menyelesaikannya serta menambahkan 54 stiker berwarna ke enam sisi dari rubik
+pada tahun 1970-an, permainan rubik mulia dikenal dan menarik minat akan tetapi ekspor dan impor di hungaria memiliki kontrol yang cukup ketat
+kemudian, erno rubik memperkenalkan penemuannya di international toy’s fair
+magic cube disertakan dalam beberapa international toy’s fair di london, paris dan nurnberg
+pada pameran di nurnberg, permainan teka-teki tersebut dilirik oleh tom kremer dan ingin mengkomersialkan kubus tersebut di pasar dunia
+tom kremer meyakinkan perusahaan ideal toy corp dan hasilnya diluncurkan secara global pada tahun 1980

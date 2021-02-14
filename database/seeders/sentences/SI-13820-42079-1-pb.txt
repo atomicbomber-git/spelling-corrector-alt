@@ -1,0 +1,36 @@
+proses pembelajaran pada mata kuliah pemrograman web kadang dibuat berkelompok agar mahasiswa dapat bekerja sama untuk menyelesaikan tugas yang lebih berat, seperti membuat aplikasi berbasis web yang kompleks, sehingga mahasiswa akan membuat banyak file-file program
+hal ini memungkinkan anggota kelompok untuk membuka dan mengubah data pada file yang sama dalam waktu bersamaan, namun dikarenakan ruang lingkup kerja yang berbeda maka akan ada ketimpangan data antar anggota tim
+sehingga membutuhkan penyesuaian lebih lanjut atas data tertentu agar setiap anggota memiliki data yang sama persis
+oleh karena ini codesharing dibuat sebagai sebuah aplikasi yang mampu menciptakan satu lingkungan kerja bagi anggota tim untuk mendapatkan data terbaru dari file-file yang dibutuhkannya secara realtime
+dikarenakan sifatnya yang realtime maka aplikasi ini dapat dimanfaatkan bagi dosen untuk dijadikan alat bantu media ajar pada proses perkuliahan
+aplikasi codesharing memfasilitasi pengguna untuk menciptakan sebuah project pribadi maupun bersama
+pengguna aplikasi dibedakan menjadi dua yaitu dosen dan mahasiswa
+setiap pengguna diberikan hak akses penuh atas project maupun file-file yang dibuatnya
+pengguna lain diberikan hak akses khusus yaitu dapat mengubah konten dari file-file apabila telah mendapatkan izin akses dari pemilik file
+dari hasil pengujian maka didapatkan bahwa aplikasi codesharing mendapatkan penilaian dari user dengan hak akses dosen sebesar 19 berdasarkan aspek penilaian rekayasa perangkat lunak, 21 berdasarkan aspek penilaian komunikasi visual dan 53 berdasarkan aspek fungsionalitas
+berdasarkan penilaian diatas maka aplikasi termasuk kategori baik
+penilaian user hak akses mahasiswa didapat nilai rata-rata sebesar 21.9 berdasarkan aspek penilaian rekayasa perangkat lunak, 28.55 berdasarkan aspek penilaian komunikasi visual dan 47.55 berdasarkan aspek fungsionalitas
+berdasarkan penilaian diatas maka aplikasi termasuk kategori baik
+user menyatakan aplikasi sangat baik apabila diterapkan sebagai media ajar
+web, realtime application pada semester empat di prodi teknik informatika fakultas teknik universitas tanjungpura
+pada mata kuliah ini mahasiswa belajar proses pengembangan aplikasi berbasis web
+pengembangan aplikasi berbasis web dapat di definisikan sebagai proses pembuatan aplikasi dari yang hanya berupa satu halaman web hingga aplikasi kompleks yang menghubungkan banyak halaman web
+kadang kala mewajibkan mahassiwanya untuk membuat kelompok
+tujuan pembentukan kelompok ini adalah agar mahasiswa dapat bekerja sama unutk menyelesaikan tugas yang lebih berat
+contohnya adalah membuat aplikasi berbasis web yang kompleks, sehingga mahasiswa akan membuat banyak file-file program
+hal ini memungkinkan dua orang atau lebih anggota kelompok membuka satu file program secara bersamaan
+permasalahannya adalah setiap anggota bekerja secara lokal, akibatnya aka nada perbedaan kode program pada saat aplikasi tersebut digabungkan
+sehingga pada saat aplikasi dijalankan, aplikasi tidak berjalan secara semestinya
+permasalahan ini dapat diatasi apabila kelompok tersebut dapat bekerja di dalam sebuah lingkungan kerja yang memungkinkan tiap anggota kelompok bekerja secara bersamaan
+sehingga setiap anggota kelompok bisa mendapatkan pembaruan dari file-file yang diaksesnya secara realtime
+selain itu, aplikasi juga diharapkan mampu dimanfaatkan sebagai alat bantu perkuliahan bagi dosen dan mahasiswa sehingga dosen dan mahasiswa dapat berinteraksi secara aktif di dalam lingkungan kerja yang sama
+uraian penelitian sebuah platform yang digunakan untuk memudahkan dalam membuangun jaringan aplikasi yang bersekala dan cepat
+node.js menggunakan event-driven, non-blocking i/o model yang membuatnya ringan dan efisien, cocok untuk data-intensif dan aplikasi real-time yang berjalan di perangkat terdistribusi” node.js memungkinkan javascript yang selama ini digunakan sebagai client-side script untuk bisa dijalankan di sisi server
+node.js memiliki pustaka server http sendiri sehingga bisa menjalankan webserver sendiri
+rancang bangun aplikasi code sharing sebagai alat bantu media interaktif perkuliahan pada mata kuliah pemrograman web program studi teknik informatika, jurusan teknik elektro, universitas tanjungpura1, 2, 3 e-mail: arrazymuhammad@live.com, heripriyanto.stmt@untan.ac.id, bangnops@gmail.com disebut ci) adalah sebuah framework yang digunakan untuk membuat sebuah aplikasi berbasis web yang disusun dengan menggunakan bahasa php
+didalam ci ini terdapat beberapa macam kelas yang berbentuk library dan helper yang berfungsi untuk membantu pemrogram dalammengembangkan aplikasinya”
+pemodelan dalam pembuatan aplikasi berorientasi obyek yang diajukan oleh object management group pada tahun 1996
+dalam uml terdapat 13 diagram yang dikelompokkan dalam 3 kategori
+gambar 1 merupakan klasifikasi dari diagram uml
+entity relationship diagram merupakan suatu model untuk menjelaskan hubungan antar data dan entitas dalam basis data berdasarkan object-object dasar data yang mempunyai hubungan antar relasi
+erd digunakan untuk memodelkan struktur data dan hubungan antar data

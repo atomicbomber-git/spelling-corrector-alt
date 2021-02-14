@@ -1,0 +1,132 @@
+eee paper template in a4 vol 5 no 3 rancang bangun aplikasi pelaporan kekerasan terhadap perempuan dan anak pada dpppa provinsi kalimantan barat syarifah putri agustini alkadri#1, rachmat wahid saleh insani#2 #universitas muhammadiyah pontianak 2rachmat.wahid@unmuhpnk.ac.id mengalami peningkatan yang signifikan
+berdasarkan laporan catahu kppa 2019, jumlah kekerasan terhadap perempuan mengalami peningkatan dari 348.446 kasus menjadi 406.178 kasus, naik sekitar 14% dari tahun 2018
+keterbatasan sarana dan prasarana serta ketidaktahuan masyarakat mengenai mekanisme pengaduan kekerasan menjadi faktor penyebab tingginya jumlah kasus kekerasan terhadap perempuan dan anak di provinsi kalimantan barat 
+penelitian ini membahas mengenai perancangan prototipe aplikasi berbasis mobile android sebagai sarana untuk melaporkan tindakan kekerasan terhadap perempuan dan anak dengan melampirkan bukti kekerasan berupa gambar/video/suara
+masyarakat juga dapat menambahkan titik lokasi kekerasan berupa peta google sehingga diharapkan dapat mempermudah pihak dinas pemberdayaan perempuan dan anak prov
+sistem pelaporan kekerasan perempuan dan anak terdiri dari aplikasi berbasis mobile dan website sehingga diharapkan dapat mempermudah penanganan laporan kekerasan secara cepat dan tepat
+hasil pengujian aplikasi menunjukkan bahwa aplikasi pelaporan tindakan kekerasan pada perempuan dan anak dapat digunakan untuk melaporkan dan menampilkan tindakan serta titik lokasi kekerasan di provinsi kalimantan barat
+pendahuluan bentuk pelanggaran ham yang dapat terjadi pada siapa saja, lintas status sosial, ekonomi dan pendidikan
+jumlah kekerasan terhadap perempuan dan anak di indonesia mengalami kenaikan sebesar 14% di tahun 2018 dengan jumlah kekerasan sebesar 348.44 menjadi 406.178
+dari jumlah tersebut terdapat 196 kasus kekerasan di kalimantan barat yang terdiri dari 149 orang perempuan dan 43 orang laki-laki, dengan usia anak ada sejumlah 122 orang
+jumlah kekerasan tertinggi terdapat di kota pontianak yaitu sebanyak 45 kasus, diikuti dengan singkawang sebanyak 34 kasus, dan sambas sebanyak 30 kasus dan kasus kekerasan lainnya yang tersebar di kota dan kabupaten di kalbar
+proses pelaporan kekerasan yang saat ini dilakukan mayoritas manual yaitu korban datang secara langsung ke fasilitas perlindungan perempuan dan anak untuk membuat laporan pengaduan, laporan pengaduan tersebut kemudian akan ditinjau oleh petugas pelayanan pengaduan untuk kemudian ditindak lanjuti oleh divisi pemantauan
+sementara itu hanya tersedia 1 unit pelaksana teknis pemberdayaan perempuan dan anak untuk melayani seluruh kasus kekerasan perempuan dan anak di wilayah kalimantan barat
+keterbatasan unit dan jarak antara fasilitas pelayanan dan korban menyebabkan masyarakat kesulitan untuk menjangkau fasilitas perlindungan perempuan dan anak terdekat
+staff bidang perlindungan perempuan dan anak provinsi kalbar mengemukakan mayoritas korban enggan melaporkan tindakan kekerasan yang dialaminya dikarenakan kekhawatiran persepsi negatif masyarakat, sehingga banyak kasus kekerasan yang tidak terungkap
+hal ini berbanding terbalik dengan program yang sedang digalakkan oleh pemerintah yaitu 2p melalui menteri yohana pada siaran pers nomor: 43/humas kpp-pa/05/2016 yang mengemukakan bahwa masyarakat diminta untuk dapat menjadi pelopor dan pelapor apabila mendapati ancaman tindakan kekerasan
+pelopor yaitu agen perubahan yang berani bertindak dan mengajak masyarakat untuk dapat melawan tindakan kekerasan, sedangkan pelapor yaitu masyarakat terlibat aktif untuk menyampaikan informasi ketika terdapat penyalahgunaan hak terhadap perempuan dan anak
+demi mendukung program 2p tersebut diperlukan sarana dan prasarana yang memungkinkan agar informasi pelaporan kekerasan dapat disampaikan secara mudah dan cepat oleh masyarakat
+salah satu bentuk pemanfaatan teknologi informasi untuk mempermudah hal tersebut adalah sistem informasi
+sistem informasi adalah suatu korespondensi : syarifah putri agustini alkadri 330 sistem dalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, mendukung operasi, bersifat manajerial dan kegiatan strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan yang diperlukan
+pengaduan masyarakat terhadap permasalahan terkait pembangunan kota pada kabupaten jepara
+penelitian menghasilkan sistem informasi pengaduan masyarakat berbasis web yang bersifat responsif dan multi platform
+penelitian serupa lainnya yaitu pengembangan sistem pusat pengaduan dan pelaporan bencana asap menggunakan pendekatan citizen science untuk cepat dan tanggap bencana
+penelitian ini menghasilkan sistem informasi yang mempertemukan relawan di lapangan, korban yang membutuhkan, relawan/komunitas yang mendistribusikan bantuan, dan pemerintah untuk bersama- sama dengan cepat memberikan informasi guna memenuhi keperluan cepat dan tanggap bencana
+implementasi system menunjukkan bahwa kebutuhan daerah bencana berhasil terekam dan telah diujikan dalam kelompok relawan terbatas
+lebih cepat, real time, dan mudah dijangkau oleh masyarakat banyak
+android menyediakan platform terbuka bagi para pengembang untuk menciptakan aplikasi mereka sendiri yang akan digunakan untuk bermacam piranti bergerak
+middleware dan aplikasi yang di release oleh google
+android dengan cepat tumbuh menjadi sistem operasi telepon pintar yang paling banyak digunakan, dan menjadi salah satu sistem operasi seluler tercepat yang pernah ada
+terkait dengan hal tersebut, terdapat penelitian yang membahas mengenai pelayanan pengaduan berbasis android yaitu penelitian sistem pelaporan masyarakat terkait pungutan liar di kabupaten kudus
+penelitian ini menghasilkan sistem informasi pelaporan berbasis android dengan menggunakan teknologi gps untuk menentukan lokasi kegiatan pungutan liar
+pengguna sistem yaitu masyarakat dengan mudah melaporkan lokasi kegiatan pungutan liar secara akurat dengan memberikan bukti pungutan liar berupa audio, gambar ataupun video
+berdasarkan hal tersebut maka urgensi penelitian ini adalah membuat pengembangan aplikasi pelaporan kekerasan berbasis android yang mampu menjangkau masyarakat yang berlokasi di kabupaten sehingga dpp pa dan stakeholder terkait dapat segera mengambil tindakan secara cepat dan tanggap
+penelitian ini bertujuan untuk mempermudah masyarakat menyampaikan informasi kekerasan khususnya terhadap perempuan dan anak secara mandiri
+sedangkan tujuan khusus dari penelitian adalah merancang aplikasi berbasis android yang dapat melaporkan tindakan kekerasan dengan melampirkan bukti berupa foto/video serta terintegrasi dengan sistem dpp pa prov.kalbar
+unit pelaksanaan teknis daerah pemberdayaan perempuan dan anak
+pengaduan kekerasan pada perempuan dan anak uptd ppa merupakan unit pelaksana teknis yang bergerak dibawah naungan dinas pemberdayaan perempuan dan anak provinsi kalimantan barat
+uptd ppa memiliki tugas untuk melaksanakan kegiatan teknis operasional dalam memberikan layanan bagi perempuan dan anak yang mengalami masalah kekerasan, diskriminasi, kota 
+langsung yaitu korban/pelapor mendatangi atau menelepon divisi pengaduan uptd ppa secara langsung untuk membuat aduan kekerasan, sedangkan secara tidak langsung yaitu korban/pelapor melaporkan melalui media surat/email ataupun faksimile
+pengaduan tidak langsung juga meliputi laporan yang dilakukan/dirujuk oleh masyarakat dan/atau lembaga lain mengenai adanya tindak kekerasan yang dialami oleh pelapor
+adapun proses pengaduan kekerasan secara langsung pada perempuan dan anak dapat dilihat pada gambar 1
+1 mekanisme pengaduan kekerasan pada perempuan dan anak secara langsung
+kemudian korban didampingi dengan resepsionis / bagian keamanan membuat pengaduan kekerasan sesuai dengan identitas ktp dibantu oleh staff administrasi
+korban beserta laporan pengaduan kemudian diarahkan ke divisi pengaduan untuk kemudian melakukan verifikasi aduan dan mengecek apakah aduan kekerasan berbasis gender atau bernuansa politis
+jika termasuk, maka aduan akan ditolak
+aduan yang lolos verifikasi kemudian akan masuk ke divisi pemantauan dan diproses selama 14 hari kerja
+perangkat mobile yang meliputi sistem operasi, middleware dan aplikasi yang di release oleh google
+arsitektur android terdiri dari empat tingkatan atau lapisan seperti yang terlihat pada gambar 2
+2 arsitektur android arsitektur android dapat dijelaskan sebagai berikut
+1) aplikasi: level aplikasi akan memuat aplikasi yang dikembangkan oleh para programmer
+2) application framework: pengembang aplikasi mempunyai akses penuh menuju framework api yang sama dengan yang digunakan oleh aplikasi inti
+3) libraries: android menyertakan libraries c/c++ yang digunakan berbagai komponen dari sistem android
+kemampuan libraries dapat diakses oleh pengembang melalui aplication framework android
+4) android runtime: android terdiri dari satu set core libraries yang menyediakan sebagian besar fungsi yang sama dengan core libraries bahasa pemrograman java
+5) kernel linux: android bukan linux, akan tetapi android dibangun diatas kernel linux 2.6 sehingga kehandalannya dapat dipercaya
+google maps google maps merupakan salah satu dari banyak aplikasi terintegrasi sebagai default application pada platform android yang digunakan untuk menampilkan, memberi tanda, dan menavigasikan peta
+untuk menggunakan google maps api diperlukan google maps services sdk
+geolokasi geolokasi adalah kemampuan yang dimiliki oleh perangkat android dalam mengidentifikasi lokasi geografis suatu obejk dalam dunia nyata
+geolokasi berkaitan erat dengan penggunaan sistem penentuan posisi yang lebih spesifik dan bermakna seperti alamat jalan, lokasi desa terpencil, dan lainnya sedangkan positioning hanya mencakup sekumpulan koordinat geografis
+lokasi geografis terdiri dari nilai latitude dan longitude
+push notification push notification merupakan salah satu media penyampaian informasi dari developer suatu aplikasi kepada penggunanya baik pada aplikasi web maupun mobile
+push notification dapat mengirimkan informasi terbaru mengenai aplikasi tersebut secara real time, sehingga pesan yang penting dan relevan dapat tersampaikan kepada pengguna bahkan tanpa aplikasi dijalankan sekalipun
+implementasi push notification dilakukan dengan pembacaan informasi terbaru ke server oleh aplikasi client secara periodic
+firebase messaging cloud, merupakan library yang disediakan oleh google dan digunakan untuk mengelola pengiriman push notification
+fcm dapat mengefisiensikan penggunaan bandwith dan daya pada perangkat
+disesuaikan dengani kebutuhan penggunai, requirement, dan business prosess
+tujuan pengujian uat dilakukan untuk mengetahui suatu system telah memenuhi kriteria untuk diterima oleh pengguna atau customer
+perancangan sistem berulang kali kepada calon pengguna
+dengan metode ini pengembang dapat menerima masukan dari user untuk pengembangan aplikasi sesuai kebutuhan
+langkah prototyping dapat dilihat pada gambar 3
+analisa kebutuhan merupakan tahapan menyusun kebutuhan sistem melingkupi kebutuhan fungsional dan non-fungsional sistem
+mobile application layout  sistem yang dibuat memiliki antarmuka yang user friendly
+ sistem menampilkan halaman sign up untuk daftar pengguna
+ sistem menampilkan halaman input pelaporan kekerasan  sistem menampilkan halaman profil pengguna
+website layout dapat diakses oleh dppa prov
+kalbar  sistem dapat menampikan halaman verifikasi pengaduan kekerasan
+kekerasan dalam peta google maps yang dapat diakses oleh dppa provinsi kalbar
+data pengaduan kekerasan pengaduan kekerasan sebagai berikut:, nomor telepon, status kekerasan, deskripsi kekerasan, tempat b
+jenis kekerasan dalam rumah tangga, eksploitasi anak dan lainnya
+sistem pelaporan kekerasan perempuan dan anak tediri dari 2 platform yaitu mobile application dan website
+diakses oleh masyarakat umum dan berbasis android dan suara
+antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+activity diagram sebab akibat yang terjadi dalam setiap tahapan sistem
+gambar 5 berikut menunjukkan detil aktifitas dari pengguna saat melakukan proses pendaftaran akun
+gambar 6 selanjutnya menjelaskan mekanisme pembuatan laporan tindakan kekerasan oleh pengguna
+5 activity diagram pendaftaran akun pengguna gambar
+perancangan tabel rancangan basis data diimplementasikan dalam dbms yang menggunakan software mysql berikut merupakan arsitektur basis data yang dapat digambarkan dalam gambar 7 berikut
+anak perempuan dan anak dilakukan dalam 2 platform yaitu mobile android application dan website application
+dari sisi pengguna dapat melaporkan tindakan kekerasan melalui aplikasi mobile android sedangkan pada sisi admin dapat menggunakan sistem informasi pelaporan kekerasan pada perempuan dan anak berbasis website
+pada sisi server ditambahkan modul api 
+api merupakan suatu teknologi antarmuka virtual yang memungkinkan untuk bertukar informasi atau data antar aplikasi atau sistem
+dalam hal ini api digunakan untuk mengkomunikasikan data yang ada di server dengan aplikasi mobile
+halaman login aplikasi pada halaman ini pengguna terlebih dahulu mendaftarkan diri melalui tombol sign up, apabila sudah memiliki akun maka pengguna dapat login ke system dan mulai membuat laporan pengaduan
+form login dan sign up dapat dilihat pada gambar 8 berikut
+8 form login dan sign up aplikasi pelaporan kekerasan perempuan dan anak berbasis android
+halaman beranda aplikasi setelah login, maka aplikasi akan menampilkan halaman beranda berupa riwayat informasi pengaduan yang pernah dibuat oleh pelapor
+halaman buat laporan kekerasan pada halaman ini, pengguna dapat melaporkan tindakan kekerasan dengan mengisi data identitas pelapor, data kekerasan yang dialami, dan mengirimkan bukti kekerasan dalam bentuk audio, video, atau gambar seperti yang terlihat pada gambar 10
+pelapor dapat mengisi data alamat pelapor berupa alamat, kota, dan provinsi
+sedangkan titik lokasi akan terisi otomatis setelah data alamat dikirim
+titik lokasi kemudian ditampilkan dalam bentuk google maps sebagaimana diperlihatkan pada gambar 11
+11 form isi data alamat pelapor d
+verifikasi pengaduan masuk setelah pengguna membuat pengaduan kekerasan maka data pengaduan akan tampil pada sistem informasi pelaporan kekerasan berbasis website yang dapat diakses oleh admin dppa prov.kalbar
+sistem akan memberikan notifikasi apabila terdapat pengaduan kekerasan yang terbaru sebagaimana terlihat pada gambar 12 berikut
+notifikasi pengaduan baru pada sistem pelaporan kekerasan berbasis web diverifikasi oleh admin melalui sistem seperti yang terlihat pada gambar 13
+verifikasi pengaduan masuk pada akun admin dppa prov
+pengujian perangkat lunak pengujian black box dan user acceptance test 
+pengujian black box dilakukan untuk melihat kesesuaian fungsionalitas dari aplikasi yang telah dibangun sementara uat digunakan untuk mengetahui tingkat penerimaan pengguna terhadap sistem yang dibangun
+pada pengujian black box, tester dapat mendefinisikan kumpulan kondisi input dan melakukan pengetesan pada spesifikasi fungsional program
+hal berikut:  kesalahan antarmuka 
+ memasang file apk pada setiap perangkat  menjalankan aplikasi
+ mengamati keberhasilan aplikasi pelaporan kekerasan perempuan dan anak yang telah dibangun
+tabel i stake holder sebagai tester diantaranya adalah petugas bidang pengaduan dpp pa prov kalbar, dan masyarakat yang tersebar di beberapa kabupaten di wilayah kalimantan barat
+tester akan diberikan jenis pertanyaan yang berbeda sesuai dengan tingkatan pengguna dalam sistem
+setiap jawaban memiliki bobot interpretasi skor yang kemudian akan dihitung sebagai prosentase untuk acuan tingkat kepuasan pengguna
+interpretasi skor menggunakan skala likert yang disajikan dalam tabel 2 berikut
+pengujian untuk aplikasi pelaporan kekerasan berbasis android dengan tester yaitu masyarakat dan hasil pengujian system informasi pelaporan kekerasan berbasis website dengan tester yaitu petugas bidang pengaduan dpp pa prov
+ yaitu 83, 42%, dan yang menjawab setuju yaitu 16, 57%
+hal ini menunjukkan bahwa aplikasi sistem informasi pelaporan kekerasan berbasis web yang diujikan termasuk dalam kategori sangat memuaskan dan dapat diterima oleh petugas bidang pengaduan dppa prov
+form pelaporan dapat diisi dengan singkat
+form kekerasan dapat disi dengan mudah
+rekapitulasi pengujian yang dilakukan oleh tester menunjukkan bahwa masyarakat yang menjawab sangat setuju yaitu 81, 42%; yang menjawab setuju yaitu 9, 71%; yang menjawab tidak setuju yaitu 5.28%; dan yang menjawab sangat tidak setuju yaitu 3, 57%
+hal ini menunjukkan bahwa aplikasi pelaporan kekerasan terhadap perempuan dan anak berbasis android dalam kategori sangat memuaskan dan dapat diterima oleh masyarakat provinsi kalimantan barat
+yang telah dilakukan maka dapat diambil kesimpulan yaitu: 1
+aplikasi pelaporan kekerasan terhadap perempuan dan anak masih berupa prototipe yang memerlukan penyesuaian dan pengembangan lebih lanjut agar dapat diimplementasikan secara luas
+hasil pengujian menunjukkan bahwa aplikasi pelaporan tindakan kekerasan pada perempuan dan anak berbasis android dapat mempermudah pengguna dalam melaporkan tindakan kekerasan yang dialami sehingga dapat direspon secara cepat dan tanggap oleh dpp pa prov.kalbar
+hasil yang diperoleh berdasarkan uat yang telah diujikan kepada tester menunjukkan hasil 80% dengan kategori sangat memuaskan
+notifikasi pesan aplikasi dan sms kepada masyarakat data diimplementasikan dengan baik dengan menggunakan layanan push notification
+yaitu lsm, dan pihak kepolisian sehingga perkembangan kasus kekerasan dapat dipantau dan tertangani dengan cepat
+kemudian dapat ditambahkan fitur chat kepada pihak dpp pa prov kalbar, sehingga komunikasi dapat dilakukan secara intensif dan berkelanjutan
+ucapan terima kasih / acknowledgment universitas muhammadiyah pontianak mengucapkan program hibah penelitian dosen pemula tahun anggaran 2019 sebagai pihak yang memberikan pendanaan penuh penelitian
+ucapan terima kasih juga disampaikan kepada semua pihak yang telah bersedia memberikan data selama proses penelitian yaitu dinas pemberdayaan perempuan dan anak provinsi kalimantan barat, dan pihak lppm universitas muhammadiyah pontianak yang telah mendukung kelancaran proses penelitian selama dilaksanakan

@@ -1,0 +1,77 @@
+the use of information technology tool in an institution has many impacts, either positive or negative
+tanjungpura university, especially engineering faculty mostly use tecnology tool in operational activity
+the use of information technology tool is inseparable from problems which cause disturbance that impact on the user of service and its institution itself
+accordingly, service desk application is established as a service centre to fulfill reeds of communication either the user or ti service staff, other than that this application ia able to send complaint to referred unit and is able to produce handling schedule based on priority
+a framework of job is needed in order to make ti service run well which can control entirely as well as give the best practice guidance in managing ti service by using itil v2 syb domain managemen insiden framework
+the result of design and examiration shows that service desk is sufficient to help in managing ti service
+kegiatan operasional penerapan ti tidak terlepas dari permasalahan-permasalahan yang timbul sehingga mengakibatkan terganggunya layanan itu sendiri
+pemeliharaan dan penanganan permasalahan mengenai ti merupakan tanggung jawab dari bagian umum dan perlengkapan
+dalam menjalankan tugas staf kesulitan dalam hal penugasan, penentuan prioritas dari setiap permasalahan, informasi mengenai perangkat ti serta informasi kerusakan yang terjadi
+selain itu tidak adanya titik kontak tunggal dari pengguna untuk pengaduan masalah, sehingga sangat diperlukan sebuah sistem sebagai pusat pengaduan layanan ti untuk pengguna layanan seperti staf dari fakultas teknik
+semua permasalahan ti yang timbul pada fakultas teknik memerlukan penanganan yang serius sehingga diperlukan sebuah sistem pengelolaan layanan ti yang lebih dikenal dengan service desk
+service desk sebagai pusat layanan untuk memenuhi kebutuhan berkomunikasi baik layanan, service desk diharapkan dapat memberikan informasi yang cepat, tepat dan akurat
+teknology infrastructure library) sebagai suatu kerangka kerja manajemen layanan yang dapat digunakan sebagai panduan dalam perancangan pedoman manajemen insiden (incident diminimalisasi supaya menjaga keberlangsungan dirancang suatu aplikasi service desk untuk penanganan keluhan dan kerusakan ti berbasis web
+aplikasi ini mampu mengirimkan keluhan ke unit yang bertanggung jawab sehingga keluhan cepat ditanggani
+selain itu aplikasi ini juga mampu menghasilkan jadwal penanganan berdasarkan bobot prioritas dengan ketersediaan teknisi
+library framework untuk mengelola infrastruktur ti di suatu organisasi dan bagaimana memberikan service terbaik bagi pengguna layanan ti
+itil sendiri merupakan suatu it service management yang diterapkan sejak tahun 1989 yang merupakan element utama dan merupakan model yang konsisten dan pada manajemen pelayanan teknologi informasi sehingga suatu perusahaan dapat mencapai kualtias dukungan layanan yang diinginkan
+itilv3 lebih menekankan pada pengelolaan siklus hidup layanan yang disediakan oleh teknologi informasi
+adalah suatu penerapan disiplin yang memungkinkan tersedianya pelayanan ti
+tanpa disiplin ini, teknologi informasi hampir tidak mungkin menyediakan pelayanan ti yang baik, dan tidak dapat terkelola dengan baik
+disiplin service support yaitu: manajemen insiden adalah sebuah interupsi atau pengurangan kualitas dari layanan ti
+tujuan dari manajemen insiden adalah untuk mengembalikan layanan normal secepat mungkin, dan untuk meminimalkan dampak merugikan pada operasi bisnis
+penutup 2.4 service desk menurut santoso, service desk merupakan komunikasi utama bagi end user jika membutuhkan bantuan
+service desk mempunyai peranan penting dalam it services
+service desk merupakan kontak pertama pelaku bisnis yang memanfaatkan it services, jika terjadi sesuatu dengan it services yang tidak mereka harapkan
+tanpa service desk, suatu perusahaan mungkin akan menghadapi ketidak efisiensian
+2.5 helpdesk menurut tarmuji, ali, pengertian dasar dari helpdesk adalah seseorang yang memberikan layanan bagi pengguna sistem dan teknologi informasi di suatu intitusi tertentu
+helpdesk diharapkan dapat mengatasi seluruh permasalahan baik yang bersifat internal maupun seluruh hal yang berhubungan dengan sistem dan teknologi informasi
+apabila permasalahan dari pengguna tidak dapat diatasi pada level helpdesk pertama, maka trouble tiket dapat di eskalasi ke level helpdesk yang lebih tinggi
+semakin tinggi level helpdesk menandakan permasalahan yang ada lebih rumit dan membutuhkan sumber daya yang besar
+pada tahap ini dilakukan aktivitas manajemen insiden, seperti berikut ini : 1
+identifikasi insiden proses ini memastikan setiap insiden dapat diidentifikasi sebelum menimbulkan dampak 2
+pencatatan insiden langkah pencatatan sangat wajib dilakukan untuk setiap jenis insiden baik itu berskala besar maupun kecil
+pencatatan informasi tersebut seperti, deskripsi insiden, waktu terjadi dan nama pelapor
+berdasarkan hasil wawancara, analisa dan juga berdasarkan dokumen itil manajemen berdasarkan perkiraan lamanya penanganan, kategori insiden dan prioritas penanganannya
+tabel 1 pengkategorian insiden yang terjadi di lingkungan fakultas teknik prioritas penanganan dapat dilakukan ini metode yang digunakan untuk menentukan prioritas yaitu dengan menggunakan metode bryant
+metode bryant menggunakan skor yang berdasarkan pada kriteria : terkena masalah masalah atau istansi terkait perangkat
+rumus : untuk mendapatkan skor dari kriteia p, s, c, dan m yaitu dengan cara berikut ini : 1
+pada kriteria p diatas skornya didapatkan dari rumus berikut : p =5- a/o terkena masalah a = jumlah aset o = jumlah pengguna 5 = bobot tertinggi 2
+pada kriteria s skor didapatkan dari tingkat keseriusan keluhan yang dipilih orang client saat mengisi data keluhan, di mana nilai dari s dapat dilihat pada gambar 1 pada kolom nilai dampak
+pada kriteria c skor digunakan untuk nilai ruangan, di mana penilaian dilakukan oleh helpdesk berdasarkan dampak dari tiap ruangan, untuk pemberian nilai dapat dilihat pada gambar 1
+perangkat sehingga kriteria m diberi skor 5
+diagnosa awal diagnosa awal merupakan tahapan penanganan insiden melalui helpdesk untuk mengidentifikasi permasalahan dan jika memberikan solusi, namun jika tidak insiden akan dilanjutkan ke tahap eskalasi
+eskalasi insiden eskalasi insiden adalah tindakan menaikkan level penanganan insiden
+jika dari diagnosa ditemukan insiden yang tidak dapat ditangani, maka wajib dilakukan eskalasi insiden
+eskalasi insiden ada 2 macam, yaitu eskalasi fungsi dan eskalasi hierarki
+eskalasi fungsi adalah tindakan menaikkan level penanganan kepada satu level diatasnya yaitu kepada teknisi
+sedangkan eskalasi hierarki adalah tindakan menaikkan level penanganan melintasi hirarki organisasi misalnya kepada manajer it atau manajer bisnis yang terkait
+investigasi tindakan investigasi dilakukan untuk menemukan sumber masalah dari insiden
+dalam melakukan investigasi, setiap data historis tindakan penanganan suatu insiden
+resolusi langkah ini merupakan tindakan yang diambil untuk menyelesaikan suatu insiden
+setiap tindakan untuk menyelesaikan suatu insiden wajib dilaporkan/dicatat kedalam staf dalam menangani permasalahan sejenis dimasa yang akan datang melalui knowledge base
+penutup pada tahap ini, jiika solusi yang diberikan sudah selesai maka kasus atau permasalahan ini akan ditutup
+tahap ini merupakan tindakan untuk memastikan dilakukannya laporan manajemen insiden c li i p i 3.2 perancangan sistem 3.2.1 perancangan diagram use case perancangan diagram use case pada sistem service desk dapat dilihat pada gambar berikut
+client teknisi login register tabel 3 definisi aktor melakukan visualisasi struktur-struktur kelas- dapat ditunjukkan pada gambar berikut
+dt_user yang mengkombinasikan sistem itil dapat menghandle seluruh jenis permasalahan perangkat teknologi informasi, dari mulai bagaimana menghandle pertanyaan hingga aplikasi ini juga mampu mengirimkan keluhan ke unit yang bertanggungjawab dan mampu menghasilkan jadwal penanganan berdasarkan form utama untuk helpdesk dapat dilihat pada gambar berikut
+pada form keluhan terdapat tabel yang terdiri dari dua warna yaitu biru tua dan biru muda
+biru tua menandakan keluhan baru dilaporkan dan belum dilakukan penanganan oleh teknisi, sedangkan biru muda menandakan keluhan telah dikirim ke teknisi untuk dilakukan penanganan
+untuk lebih jelasnya dapat dilihat pada gambar berikut
+aplikasi service desk ini juga terdapat form knowledge base yang berfungsi untuk mendokumentasikan setiap keluhan yang pernah dilaporkan sampai tahap penyelesaian keluhan yang dilakukan oleh teknisi
+form ini bertujuan untuk memudahkan kinerja helpdesk dan teknisi, sehingga apabila terjadi keluhan yang sama client dapat menyelesaikan keluhan tanpa bantuan teknisi
+antarmuka form knowledge base dapat dilihat pada gambar berikut
+4.1 pengujian sistem pengujian dilakukan pada sistem menggunakan metode blackbox yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+pemilihan cara pengujian dilakukan dengan menggunakan data yang tidak diperbolehkan, data yang kosong dan data yang benar 
+pengujian langsung terhadap aplikasi dan kuesioner
+kuesioner dibagikan kepada 31 responden yang terdiri dari mahasiswa /mahasiswi universitas tanjungpura dan kuesioner dibagikan kepada responden beserta dengan prototype aplikasi yang dibuat sehingga responden dapat mengetahui kompabilitas dan kelancaran jalannya rekayasa perangkat lunak, fungsional dan komunikasi visual dan pengujian aplikasi service desk : 1
+sistem dapat melakukan fungsi pertukaran informasi diantara pengguna sistem
+dengan demikian pengguna sistem dapat mengetahui informasi antara pengguna yang satu dengan yang lainnya sesuai dengan tingkat kebutuhan
+sistem dapat membantu dan meringankan kerja teknisi terutama dalam hal pertanyaan yang sering ditanyakan atau masalah yang sering dilaporkan karena client bisa mengakses menu knowledge base untuk pencarian resolusi sehingga client dapat menyelesaikan keluhan sendiri tanpa bantuan teknisi
+sistem mampu mencatat setiap kegiatan yang dilakukan oleh user dari pencatatan keluhan, manajemen data aset, data ruangan, data resolusi, data knowledge base dan laporan
+berdasarkan hasil pengujian uat dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil dan dapat diterima oleh user dengan baik
+kesimpulan setelah dilakukan analisis dan pengujian terhadap aplikasi service desk, dapat disimpulkan bahwa : 1
+aplikasi service desk mampu mengirimkan keluhan ke unit yang bertanggung jawab
+berdasarkan hasil penilaian oleh responden melalui kuisioner, aplikasi yang dibangun ini dinilai cukup berhasil membantu dalam menangani keluhan dan kerusakan perangkat teknologi informasi
+lebih baik lagi dengan menambah fitur-fitur seperti chat online
+servce desk juga dapat dikembangkan dengan menambahkan jadwal perawatan perangkat teknologi agar dapat meminimalkan terjadinya kerusakan
+aplikasi ini diharapkan tidak hanya menerima keluhan di bagian perangkat teknologi informasi tapi juga dapat menangani seluruh aset fakultas teknik

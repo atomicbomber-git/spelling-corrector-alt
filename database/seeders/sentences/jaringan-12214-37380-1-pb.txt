@@ -1,0 +1,83 @@
+vpn memberikan koneksi aman bagi penggunanya dalam mengakses jaringan intranet milikinya
+vpn akan membuat sebuah koneksi virtual yang hanya dapat dilalui data dari client dan server vpn
+bappeda provinsi kalimantan barat, khususnya pada unit data statistik dan pengembangan memiliki data yang hanya dapat diakses menggunakan jaringan intranet sehingga dibutuhkan pengembangan terhadap jaringan dengan menggunakan teknologi yang dapat menyediakan jalur aman untuk mengakses jaringan lokal melalui jaringan internet publik
+banyak didukung oleh protocol jaringan untuk dapat diterapkan pada banyak perangkat jaringan komputer
+sehingga diperlukan pengujian performa dan keamanan untuk mengetahui manakah tunnel yang memiliki performa dan keamanan yang baik diantara kedua tunnel tersebut
+parameter qos, yang dilakukan pada jam ramai dan sepi menunjukan, 46.07 dan 51.48 untuk tunnel pptp serta 28.536 dan 41.382 untuk tunnel l2tp
+berdasarkan pengujian keamanan antara tunnel pptp dan l2tp menunjukan hasil tingkat keamanan yang dibagun oleh tunnel l2tp lebih baik dari tunnel pptp
+berdasarkan hasil pengujian terhadap performa, keamanan serta temuan-temuan pengujian diperoleh bahwa tunnel vpn l2tp lebih baik dibandingkan tunnel vpn pptp
+pendahuluan public dan jaringan local jaringan public merupakan jaringan yang menghubungkan interface jaringan secara global sedangkan untuk jaringan local merupakan jaringan yang menghubungkan client-client dalam satu jaringan lokal, seperti instansi atau perkantoran
+jaringan local dan public merupakan jaringan yang saling terhubung, namun ada beberapa batasan-batasan yang mengatur koneksi antara dua jaringan tersebut
+lokal, dengan cara tersebut maka akan diperoleh hak dan pengaturan yang sama seperti halnya berada didalam kantor atau jaringan itu sendiri, walaupun sebenarnya menggunakan jaringan publik
+tunnel tersebut yaitu pppoe, pptp, l2tp dan openvpn
+point to point protocol over ethernet
+pppoe pppoe merupakan salah satu protocol pengembangan dari ppp, perbedaan keduanya terletak pada media dimana protocol ini di- implementasikan
+jika ppp digunakan untuk koneksi serial modem ataupun gsm modem
+maka pppoe digunakan untuk membuat topologi point to point ethernet
+pptp pptp merupakan protocol yang merupakan pengembangan protocol ppp yang sama-sama merupakan koneksi serial modem
+vpn pptp akan menerapkan tingkat enkripsi yang lebih baik selain menawarkan fitur authentification
+l2tp l2tp merupakan pengembangan dari pptp ditambah l2f
+network security protocol dan enkripsi yang digunakan untuk autentifikasi yang sama dengan pptp, namun dalam komunikasi datanya ltp menggunakan udp port 1701
+openvpn vpn ini biasa digunakan ketika dibutuhkan keamanan data yang tinggi
+dibutuhkan sertifikat pada masing-masing node untuk dapat terkoneksi antara satu dengan yang lainnya
+kalimantan barat no 27 tahun 1980 tentang pembentukan badan perencanaan pembangunan daerah, ruang lingkup kerja sekertariat, bidang fisik dan prasarana, bidang ekonomi, bidang statistik dan bidang evaluasi
+dalam lingkungan bappeda provinsi khususnya dalam unit data statistik dan pembangunan, memiliki jaringan internet local yang memanajemen beberapa perangkat data dalam instansi tersebut
+yang selalu menyediakan akses pada distribusi data
+namun data yang ada hanya tersedia dalam lokal area jaringan instansi tersebut, sehingga untuk mengakses data dan memonitoring jaringan hanya dapat dilalukan secara local jaringan
+tentunya dengan kondisi seperti demikian, membutuhkan pengembangan terhadap jaringan, agar jaringan local yang ada studi perbandingan performa qos tunneling protocol pptp dan l2tp pada jaringan vpn menggunakan mikrotik fikri zainun nasihin1, arif bijaksana putra negara2, azhar irwansyah3 program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 e-mail: 1fikrimisbah@gmail.com, 2arifbpn@gmail.com, 3irwansyah.azhar@gmail.com teknologi yang sesuai untuk pengembangan instansi tersebut
+protocol pptp dan l2tp merupakan pilihan yang sesuai untuk diterapkan dalam pangembangan jaringan pada bappeda provinsi kalimantan barat
+namun perlu adanya pengujian performa masing-masing tunnel agar diperoleh hasil implementasi yang optimal service) untuk memperoleh kualitas dari kedua tunnel dan pengujian keamanan dilakukan dengan cara meretas sistem keamanan tunnel
+vpn adalah teknologi komunikasi yang memungkinkan seorang pagawai yang berada didalam kantor terkoneksi kejaringan publik dan menggunakanya untuk bergabung dalam jaringan lokal, mendapat hak dan pengaturan yang sama ketika pegawai tersebut berada dikantor
+gambar 1.vpn untuk menangani dan menyediakan koneksi point to point dari sumber ke tujuannya
+disebut tunnel karena koneksi point to point tersebut tebentuk dengan melintasi jaringan umum, namun koneksi tersebut tidak memperdulikan peket-paket data milik orang lain yang sama-sama melintasi jaringan umum tersebut, tetapi koneksi tersebut hanya melayani koneksi data pembuatnya
+koneksi point to point ini sesungguhnya tidak benar-banar ada, namun data yang dihantarkanya terlihat seperti benar-benar melewati koneksi pribadi yang bersifat point to point
+teknologi jaringan pptp merupakan pengembangan dari remote access point to point protocol yang dikeluarkan oleh internet engineering task force 
+pptp merupakan protocol jaringan yang merubah paket ppp menjadi ip datagram agar dapat ditransmisi melalui internet pptp juga dapat digunakan pada jaringa private lan to lan
+l2tp l2tp adalah sebuah tunneling protocol yang memadukan dan mengkombinasikan dua buah tunneling protocol yaitu l2f milik cisco sistem dengan pptp milik mikrosoft
+qos qos merupakan kualitas atau jaminan terhadap layanan yang diberikan kepada pengguna jaringan
+jaminan yang diberikan duantaranya adalah faktor kegagalan sistem, keamanan jaringan dan stabilitas jarungan
+sehimgga dengan adanya jaminan yang diberikan pengguna akan merasa nyaman dengan layanan yang digunakan
+throughput yaitu di ukur dalam bps
+throughput merupakan jumlah total kedatangan paket yang sukses yang diamati pada tujuan selama intervel waktu tertentu dibagi oleh durasi interval waktu tersebut
+delay menempuh jarak dari asal ke tujuan
+delay dapat dipengaruhi oleh jarak, media fisik kongesti atau juga waktu proses lama
+bagus 150 s/d 300 ms 3 sedang 300 s/d 450 ms 2 jelak >450 ms 1 𝑇𝑜𝑡𝑎𝑙 𝑝𝑎𝑘𝑒𝑡 𝑦𝑎𝑛𝑔 𝑑𝑖𝑡𝑒𝑟𝑖𝑚𝑎 kondisi yang menunjukan jumlah total paket yang hilang, dapat terjadi karena collision dan congestion pada jaringan
+berikut merupakan nilai packet loss berdasarkantabel 3
+packet loss sangat bagus 0% 4 𝑝𝑎𝑘𝑒𝑡 𝑑𝑎𝑡𝑎 𝑦𝑎𝑛𝑔 𝑑𝑖𝑘𝑖𝑟𝑖𝑚 penghimpunan ulang paket-paket diakhir perjalanan
+jitter bagus 0 s/d 75 ms 3 sedang 75 s/d 125 ms 2 jelak 125 s/d 225 ms 1 persamaan perhitungan jitter:
+𝑅 = 94, 2 − 𝐷 − 𝑃𝐿 pl= faktor penurunan kualitas yang disebabkan oleh teknik kompresi packet loss yang terjadi nilai d ditentukan oleh faktor berikut
+𝐷 = 0, 024𝑑 + 0, 11 𝐻 d = nilai delay h = 0, jika x<0 dan h =1, jika x=0 nilai pl ditentukan oleh faktor berikut
+𝑃𝐿 = 7 + 30 𝑙𝑛 e = nilai packet loss iii
+perancangan jaringan vpn yaitu tunneling pptp dan l2tp, perancangan tersebut dapat dilihat pada gambar
+perancangan pengujian performa jaringan vpn perancangan pengujian terhadap performa, menggunakan parameter qos
+parameter yang digunakan yaitu throughput, delay, paket loss, jitter dan mos
+pengujian jaringan vpn dilakukan menggunakan dua tunneling, yaitu pptp dan l2tp
+pengujian dilakukan dengan memonitor distribusi data menggunakan tool wireshark, distribusi data yang diujikan menggunakan tiga jenis file yaitu
+ping packet, download dan streaming packet c
+perancangan pengujian keamanan jaringan vpn perancangan pengujian kemanan jaringan, menggunakan teknik sniffing dengan menggunakan tool wireshark
+teknik sniffing merupakan teknik yang dilakukan dengan cara mengendap pada aliran data saat komunikasi sedang terjadi antara client remote dan client local sehingga aliran data yang didistribusikan dengan mudah dapat diambil dan dibongkar isi datanya 1
+pengujian qos dengan tunnel pptp a
+throughput data throughput diperoleh dari pengamatan dengan tool wireshark
+total paket yang diterima = 156.59 ms c
+packet loss data packet loss diperoleh dari pengamatan dengan tool wireshark
+jitter data packet loss diperoleh dari pengamatan dengan tool wireshark
+data packet loss no total delay total paket persamaan jitter
+data delay no delay persamaan mos
+𝑇𝑜𝑡𝑎𝑙 𝑝𝑎𝑘𝑒𝑡 𝑦𝑎𝑛𝑔 𝑑𝑖𝑡𝑒𝑟𝑖𝑚𝑎 = 50.52 ms c
+packet loss data packet loss diperoleh dari pengamatan dengan tool wireshark
+jitter data packet loss diperoleh dari pengamatan dengan tool wireshark
+mos data mos diperoleh dari pengamatan dengan tool wireshark
+sedangkan untuk perhitungan, hasil yang diperoleh antara tunnel pptp dan l2tp menunjukan, dari lima parameter qos yang digunakan dalam pengujian performa jaringan vpn, tunnel pptp mendapatkan tertinggi pada sebagian besar parameter yang digunakan, dibandingkan dengan parameter l2tp
+namun, nilai yang dihasilkan pada masing-masing parameter tidak menunjukan selisih hasil yang 6 gambar 3
+hasil rekapitulasi parameter qos jaringan vpn berdasarkan pengujian koneksi yang dilakukan pada jaringan vpn menggunakan tunnel pptp dan l2tp menunjukan bahwa, koneksi yang dilakukan berjalan dengan baik dengan provider yang digunakan adalah telkom speedy
+namun, koneksi yang dilakukan melalui jaringan gsm telkomsel simpati, indosat im3, dan 3 menunjukan koneksi yang dilakukan menggunakan tunnel l2tp dapat terhubung melalui tiga provider tersebut, sedangkan untuk tunnel pptp, koneksi yang dilakukan tidak berhasil dari ketiga provider tersebut
+range kecepatan yang diperoleh pada tunnel pptp dan l2tp tidak jauh berbeda, yaitu pada ranger 0 kb/sec hingga 40, 0 kb/sec
+jarigan vpn menggunakan tunnel pptp dan l2tp menunjukan hasil bahwa
+pengujian serangan yang dilakukan terhadap tunnel pptp dan l2tp dengan teknik sniffing tidak menunjukan keberhasilan
+hal ini menunjukan keamanan yang digunakan untuk melindungi jaringan vpn dari serangan berupa sniffing berhasil dilakukan
+dalam melakukan pengamanan jaringan vpn masing-masing tunnel membuat sebuah enkapsulasi data kemudian data tersebut dikirimkan menggunakan jalur khusus yaitu tunnel vpn
+dalam melakukan enkapsulai data antar tunnel pptp dan l2tp memiliki beberapa perbedaan
+membangun tunnel vpn menggunakan protocol gre
+protocol yang digunakan tunnel l2tp dalam membangun tunnel vpn menggunakan protocol esp
+dalam tunnel pptp pengiriman data, serta enkapsulasi data disesuaikan dengan jenis paket data tersebut kemudian di- enkapsulasi berdasrkan protocol data
+menunjukan bahwa untuk keamanan enkapsulasi yang diterapkan, tunnel l2tp lebih baik tingkat keamananya dibanding dengan tunnel pptp

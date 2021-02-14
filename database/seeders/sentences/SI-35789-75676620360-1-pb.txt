@@ -1,0 +1,14 @@
+ubmitted 24-09-2019; revised 08-10-2019; accepted 10-10-2019 48 sistem manajemen parkir mobil on street dan off street berbasis location based service dan google maps api cornelius venti#1, yus sholva#2, rudy dwi nyoto#3 #program studi informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, bansir laut, pontianak tenggara, kota pontianak, kalimantan barat 78115 1corneliusventi@gmail.com 2sholvariza@untan.ac.id 3rudydn@informatika.untan.ac.id diikuti dengan bertambahnya tempat parkir
+kondisi sangat menyulitkan pengendara untuk memarkir kendaraannya karena penuh
+sehingga informasi ketersediaan lahan parkir menjadi sangat penting khususnya parkir mobil karena memerlukan tempat parkir
+pengendara tidak mengetahui ketersediaan tempat parkir yang berada di sekitar destinasi dan membuat pengendara harus mencarinya setelah sampai destinasi
+dengan ini pengendara memerlukan suatu informasi tentang ketersediaan tempat parkir yang tersedia di sekitar destinasi sebelum sampai di destinasi
+maka sistem manajemen parkir sangat diperlukan untuk menyediakan informasi tentang tempat parkir yang tersedia sekitar destinasi
+salah satunya cara yang dapat dilakukan adalah dengan menggunakan prinsip location based service untuk menyediakan informasi tempat parkir sekitar lokasi destinasi dengan menampilkannya posisi latitude and longitude dari posisi tempat parkir dalam bentuk peta digital menggunakan google maps api
+dan setiap ruang parkir pada tempat parkir diidentifikasi menggunakan qr-code yang berisi kode unik setiap ruang parkir
+kemudian menggunakan google maps api untuk menyaring tempat parkir yang terdapat dalam radius terdekat dengan tempat destinasi dengan cara hanya memperlihatkan tempat parkir di dalam radius saja dan yang masih tersedia ruang parkirnya
+hasil pengujian memperlihatkan bahwa sistem manajemen parkir mobil on street dan off street berbasis location based service dan google maps api dapat bekerja dengan baik berdasarkan hasil akhir pengujian user acceptance test sebesar 93%
+secara hukum dilarang untuk parkir di tengah jalan raya, namun parkir di sisi jalan umumnya diperbolehkan
+fasilitas parkir dibangun bersama-sama dengan kebanyakan gedung, untuk memfasilitasi kendaraan pemakai gedung
+termasuk dalam pengertian parkir adalah setiap kendaraan yang berhenti pada tempat- tempat tertentu baik yang dinyatakan dengan rambu lalu lintas ataupun tidak, serta tidak semata-mata untuk kepentingan menaikkan dan/atau menurunkan orang dan/atau barang

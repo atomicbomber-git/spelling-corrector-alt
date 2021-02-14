@@ -1,0 +1,68 @@
+ang seharusnya disampaikan oleh dosen tidak sampai kepada mahasiswa
+sehingga dalam hal ini mahasiswa dirugikan karena kurangnya ilmu pengetahuan yang didapatkan dari dosen
+mendapatkan pembelajaran merupakan hak dari semua mahasiswa dan materi yang diterima mahasiswa haruslah sesuai dengan hak yang harus diterima mahasiswa pada umumnya
+dengan berkembangnya teknologi pada masa sekarang, maka diperlukan sebuah aplikasi yang dapat membantu kegiatan belajar mengajar di kampus, di mana aplikasi ini dapat mengatasi masalah waktu kegiatan belajar mengajar
+sehingga kegiatan belajar mengajar bisa tetap terlaksana dengan baik
+dengan tetap dilakukannya kegiatan belajar, sehingga dosen tetap bisa menyampaikan materi yang harus disampaikan kepada mahasiswa
+dengan menggunakan aplikasi web e-learning ini, dapat menjadi alternatif pembelajaran dalam kegiatan belajar mengajar yang ada pada fakultas keguruan dan ilmu pendidikan universitas tanjungpura
+dari hasil pengujian blackbox menyatakan bahwa aplikasi sudah berfungsi dengan baik
+sedangkan dari hasil kuesioner menggunakan skala likert didapatkan skor dengan total 2429 dari skor maksimal yang berjumlah 3000, yang berarti aplikasi ini sangat baik untuk di implementasikan
+ilmu pendidikan, universitas tanjungpura, web e- learning
+biasanya dilakukan dengan cara bertatapan muka antara dosen dan mahasiswa
+dalam melakukan kegiatan perkuliahan tidaklah selalu berjalan dengan lancar, beberapa masalah biasanya menghambat kegiatan perkuliahan
+kurangnya waktu dosen dalam menyampaikan materi perkuliahan menjadi salah satu penghambat kegiatan belajar mengajar, beberapa materi yang seharusnya disampaikan oleh dosen tidak sampai kepada mahasiswa
+sehingga dalam hal ini mahasiswa dirugikan karena kurangnya ilmu pengetahuan yang didapatkan dari dosen
+mendapatkan pembelajaran merupakan hak dari semua mahasiswa dan materi yang diterima mahasiswa haruslah sesuai dengan hak yang harus diterima mahasiswa pada umumnya
+dari beberapa masalah yang dihadapi, maka diperlukan sebuah solusi untuk mengatasi masalah tersebut
+sesuai dengan berkembangnya teknologi pada masa sekarang, maka diperlukan sebuah aplikasi yang dapat membantu kegiatan belajar mengajar di kampus, di mana aplikasi ini dapat mengatasi masalah waktu kegiatan belajar mengajar
+sehingga kegiatan belajar mengajar bisa tetap terlaksana dengan baik
+dengan tetap dilakukannya kegiatan belajar, sehingga dosen tetap bisa menyampaikan materi yang harus disampaikan kepada mahasiswa
+aplikasi web e-learning adalah sebuah aplikasi yang menghasilkan sarana belajar mengajar yang dilakukan melalui jaringan internet atau secara online
+dengan aplikasi web e- learning ini, diharapkan dapat menjadi alternatif pembelajaran dalam kegiatan belajar mengajar yang ada pada fakultas keguruan dan ilmu pendidikan universitas tanjungpura
+uraian penelitian elektronik untuk menyampaikan isi pembelajaran, interaksi, atau bimbingan
+e-learning dalam arti luas bisa mencakup pembelajaran yang dilakukan di media elektronik baik secara formal maupun informal e- learning secara formal misalnya adalah pembelajaran dengan kurikulum, silabus, mata pelajaran dan tes yang telah diatur dan disusun berdasarkan jadwal yang telah disepakati pihak-pihak terkait 
+ada banyak library dan helper yang berguna didalamnya dan tentunya mempermudah proses development
+codeigniter adalah sebuah web rancang bangun aplikasi web e- learning studi kasus fakultas keguruan dan ilmu pendidikan untuk membangun aplikasi php dinamis
+codeigniter diperkenalkan kepada publik pada tanggal 28 februari 2006
+tujuan utama dari codeigniter adalah untuk membantu developer untuk mengerjakan aplikasi lebih cepat dari pada menulis semua kode dari awal c
+mvc sebenarnya adalah sebuah pattern/teknik pemograman yang memisahkan bisnis logic, data logic dan presentation logic atau secara sederhana adalah memisahkan antara desain, data dan proses
+seperti yang terlihat pada gambar 1, komponen-komponen mvc antara lain : model berhubungan dengan data dan interaksi ke database atau web service
+ view berhubungan dengan segala sesuatu yang akan ditampilkan ke end-user
+bisa berupa halaman web, rss, javascript dan lain-lain
+ controller bertindak sebagai penghubung data dan view
+di dalam controller inilah terdapat class-class dan fungsi-fungsi yang memproses permintaan dari view ke dalam struktur data di dalam model
+adapun sistem yang sedang berjalan pada kegiatan belajar mengajar pada fakultas keguruan dan ilmu pendidikan adalah masih menggunakan sistem manual, di mana penyampaian materi masih dilakukan secara bertatap muka
+diskusi antar mahasiswa juga masih dilakukan di dalam perkumpulan
+pemberian tugas masih dilakukan dengan lembar kerja siswa
+sedangkan untuk pilihan berganda dosen mengoreksi jawaban masih menggunakan koreksi manual selain itu pengiriman file, seperti jawaban soal kuis masih dilakukan menggunakan email diperlukan sistem yang menyediakan layanan pembelajaran elektronik, sehingga kegiatan belajar mengajar bisa di lakukan di luar ruangan kelas tanpa harus bertatap muka di dalam kelas
+diperlukan juga sarana diskusi yang bisa dilakukan secara online, sehingga diskusi bisa di lakukan walau harus melakukan pertemuan
+juga diperlukan layanan untuk pemberian tugas, baik berupa pilihan berganda maupun essay
+di mana mahasiswa bisa menjawab tugas secara online
+diperlukan juga layanan mengoreksi jawaban pilihan berganda secara otomatis
+sehingga dosen tidak perlu mengoreksi ulang jawaban c
+usecase diagram langkah-langkah dalam proses manajemen yang dilakukan admin terhadap sistem maupun sistem terhadap admin usecase dosen pada gambar 3 mendeskripsikan urutan langkah-langkah dalam proses manajemen yang dilakukan dosen terhadap sistem maupun sistem terhadap dosen gambar
+struktur mvc 3 langkah-langkah dalam proses manajemen yang dilakukan mahasiswa terhadap sistem maupun sistem terhadap mahasiswa d
+pengujian blackbox maka dilakukan pengujian sistem
+adapun pengujian sistem yang digunakan adalah pengujian dengan metode blackbox testing
+pengujian dengan blackbox adalah pengujian yang dilakukan hanya mengamati hasil eksekusi melalui data uji dan memeriksa fungsional dari perangkat lunak e
+kuesioner pada fakultas keguruan dan ilmu pendidikan universitas tanjungpura
+pengguna aplikasi akan diberikan kuesioner tentang pendapat mereka tentang penggunaan aplikasi web e- learning
+di mana dari pengisian kuesioner akan memperlihatkan hasil dari penelitian, apakah penelitian yang dilakukan berhasil atau tidak
+dari pengguna tersebut akan memberikan tanggapan mereka terhadap aplikasi pada lembaran kuesioner
+responden dari pengujian aplikasi berasal dari mahasiswa dan dosen fakultas keguruan dan ilmu pendidikan
+analisis data kuesioner pada penelitian ini menggunakan skala likert
+pada lembaran kuesioner berisi pertanyaan mengenai penggunaan aplikasi
+antarmuka aplikasi adalah seperti terlihat pada gambar 5, gambar 6, gambar 7, gambar 8 dan gambar 9
+antarmuka profil merupakan halaman yang menampilkan biodata pengguna
+pada halaman pengguna dapat mengganti gambar profil sebagai gambar identitas pengguna
+antarmuka berita merupakan tampilan untuk memanajemen informasi berita seputar kegiatan belajar mengajar
+pada halaman ini pengguna melakukan manajemen berita seperti menambah, mengubah dan menghapus berita
+usecase diagram keseluruhan proses mahasiswa gambar
+antarmuka agenda informasi tentang agenda perkuliahan
+pada halaman ini pengguna melakukan manajemen agenda seperti menambah, mengubah dan menghapus agenda
+pada halaman ini pengguna melakukan manajemen forum seperti menambah dan menghapus forum
+pada halaman ini pengguna melakukan manajemen kuis seperti menambah, mengubah dan menghapus kuis
+persyaratan fungsional perangkat lunak yang memungkinkan engineers untuk memperoleh set kondisi input yang sepenuhnya akan melaksanakan persyaratan fungsional untuk sebuah program
+fungsi contoh fungsi hasil semua pengujian telah sesuai dengan hasil yang diharapkan
+tabel 2 fungsi contoh fungsi hasil terlihat bahwa jika mengupload gambar selain dari format yang ditentukan maka upload gambar akan gagal c
+validitas mempunyai arti sejauh mana ketepatan dan kecermatan satu alat ukur dalam melakukan fungsi ukurnya

@@ -1,0 +1,86 @@
+pertumbuhan pengguna gadget dan smartphoneyang semakin pesat mendorong bank menyediakan layanan mobile banking untuk meningkatkan jumlah pengguna yang melakukan transaksi perbankan
+namun pemanfaatan terhadap implementasi mobile banking di indonesia masih dirasakan terdapat kelemahan
+oleh karena itu, pada paper ini dirancang suatu sistem aplikasi yang dapat mengatasi kelemahan dan menjawab kebutuhan pengguna dan bank
+sebagai studi awal, ditinjau sistem mobile banking dari salah satu bank dilihat dari sudut pandang pengguna
+dari hasil analisis didapat bahwa sistem yang dapat mengatasi kelemahan dan sesuai dengan kebutuhan adalah sistem mobile banking terpadu yang memanfaatkan jalur internet dan sms, dimana sistem dapat mengubah jalur komunikasi yang digunakan sesuai dengan kondisi yang ada, dengan prioritas jalur internet sistem berupa mobile app dimana fungsi perpindahan ada pada aplikasi itu sendiri
+pada implementasi tugas akhir ini, dihasilkan mobile app pada os android
+ada dua fitur utama yaitu pengecekan jaringan dan perpindahan jalur komunikasi
+ini berarti, bahwa penggunaan ponsel dalam kehidupan keseharian masyarakat indonesia sudah sangatlah populer, sulit tergantikan bahkan dapat dikatakan kebutuhan primer
+m-commerce atau mobile commerce adalah suatu proses bisnis yang dapat menghubungkan suatu bisnis dengan bisnis yang lain menggunakan teknologi mobile device, termasuk didalamnya ponsel dan smartphone.teknologi turunannya yaitu mobile banking dimanfaatkan oleh bank untuk dapat meningkatkan pengguna layanannya, terutama untuk pengguna gadgetmasa kini
+dan aplikasi khusus m-banking, dimana terdapat lebih dari satu produk yang memanfaatkan teknologi yang sama atau mirip
+sms banking memanfaatkan teknologi sms yaitu layanan komunikasi berupa pengiriman pesan singkat yang dilakukan dengan menggunakan suatu perangkat mobile dengan tarif tertentu
+m-banking biasanya memanfaatkan suatu mobile app yang umumnya dibuat untuk sistem operasi khusus seperti android dan ios
+dari kedua produk yang ditawarkan oleh bank ini, masing- masing memiliki kelemahan.kelemahan utama sms banking adalah mahalnya biaya sms yang dibebankan
+sedangkan kelemahan m-banking adalah ketergantungan pada cakupan sinyal internet yang andal utama dibuatnya aplikasi mobile banking yang menggunakan 2 protokol, yaitu sms dan internet sistem ini menggabungkan jaringan sms dan jaringan internet, dimana jika tidak ada internet, maka sistem akanlangsung beralih ke jalur sms
+diharapkan, dengan integrasi ini, dapat mengatasi kelemahan dari kedua layanan diatas, terutama jika melihat potensi pengguna kedua layanan.keuntungan lainnya adalah untuk menghilangkan redudansi layanan sehingga pengguna tidak perlu lagi mendaftar dan menggunakan 2 layanan yang berbeda
+pihak-pihak yang berkepentingan, dilanjutkan dengan analisis kondisi mobile banking yang ada saat ini, sehingga diperoleh requirementyang tepat dan dilakukan analisis lebih mendalam untuk mendapatkan akar permasalahan
+setelah didapat akar permasalahan, maka diidentifikasi kebutuhan sistem
+adapun kebutuhan dari nasabah terhadap suatu sistem mobile banking antara lain: yang sama seperti yang ditawarkan oleh perbankan konvensional 2
+tingkat reliabilitas yang tinggi, akses 24 jam nonstop tanpa ada gangguan
+didalamnya administrasi yang tidak sulit, baik untuk pendaftaran maupun jika ada permasalahan yang timbul, seperti tidak terkirimnya uang pada tujuan transfer
+antarmuka layanan yang baik dan intuitif
+notifikasi yang cepat dari pihak bank jika ada perubahan/transaksi terhadap rekening nasabah secara online/langsung
+informasi produk dan layanan bank yang baik dan tidak merepotkan, jika perlu hanya cukup satu saja produk mobile banking yang ada
+banking antara lain: dibebankan kepada pengguna mobile banking, baik itu dengan cara peningkatan biaya per transaksinya, maupun dari peningkatan jumlah transaksi yang semakin banyak
+penetrasi layanan yang luas sehingga jumlah nasabah yang terjaring dan dapat menikmati layanan ini menjadi bertambah banyak
+seiring hal ini tingkat transaksi diharapkan semakin tinggi dan dapat membuat jumlah dana yang dikelola oleh bank menjadi lebih besar
+pengurangan jumlah kantor cabang konvensional sehingga dapat menekan biaya operasional, digantikan dengan penggunaan mobile banking jika jumlah pengguna mobile banking dirasa sudah cukup banyak
+dicapainya kepuasan pelanggan dari penggunaan mobile banking, terutama dari segi kepraktisan dan kemudahan penggunaan layanan
+daya saing dengan bank lain terjaga bahkan dapat lebih baik jika layanan yang ditawarkan oleh bank lain lebih buruk dan atau bank lain tidak menawarkan layanan mobile banking
+pemilihan ini karena bank mandiri merupakan bank terbesar di indonesia dan implementasi mobile banking dari bank mandiri dirasakan masih kurang baik
+layanan mobile banking bank mandiri terdiri dari mandiri sms dan mandiri mobile
+mandiri sms menggunakan sms sebagai jalur komunikasinya, dimana nasabah berinteraksi langsung dengan cara mengirim dan menerima sms dengan bank
+mandiri mobile menggunakan teknologi mobile app sebagai basis antarmukanya, dengan menggunakan protokol https dan jalur internet sebagai jalur komunikasinya.cara pendaftaran yang terdapat pada bank mandiri untuk dapat menikmati kedua layanannya dapat dilihat pada gambar 1
+adapun kelemahan dari sistem mandiri sms yang dirasakan penggunanya adalah: terintegrasi kedalam sistem
+biaya yang mahal, biaya per transaksi yang cukup mahal, higga rp4000, dan juga biaya notifikasi yang mahal jika terjadi pergerakan rekening dalam frekuensi yang besar
+antarmuka kurang menarik, hanya berupa teks saja
+proses pendaftaran meminta nomor ponsel nasabah kelemahan utama dari mandiri mobile yang dirasakan penggunanya antara lain: sendiri, dimana terkadang terjadi error didalam aplikasi itu sendiri
+yang belum andal, dimana akses internet di indonesia, bahkan di kota-kota besar sekalipun masih terdapat area- area yang tidak dicakupi akses internet 3
+tidak adanya tersedianya fitur notifikasi pada mandiri mobile
+dari layanan, maka dilihat kelemahanpada layanan secara keseluruhan, dimana juga terdapat overlapping pada mandiri sms dan mandiri mobile.ilustrasi dari overlapping ini dapat dilihat pada gambar 2 dan gambar 3
+analisis masalah pendeteksian, sosialisasi, dan pelaporan.pengelompokan belum adanya dari analisis pada gambar 4, penyebab terjadinya masalah adalah belum adanya sistem mobile banking yang terintegrasi
+oleh karena itu, diperlukan suatu solusi rancangan sistem mobile banking yang terintegrasi dimana diharapkan dengan adanya sistem ini dapat mengatasi semua masalah yang ada
+identifikasi untuk requirement sistem adapun kebutuhan fungsional dari sistem mobile bankingterintegrasi antara lain: menerima konfirmasi dari bank untuk kepentingan pendaftaran
+diakses dan jika tidak dapat otomatis beralih ke sms
+sistem dapat mengirim dan menerima data dari bank melalui jalur internet, dan menampilkannya ke nasabah
+sistem dapat mengirim dan menerima sms dari bank, dan menampilkannya ke nasabah
+baik melalui perintah sms maupun internet 9
+sistem dapat melaksanakan transaksi transfer antar rekening, pembelian, pembayaran, dan transaksi lainnya melalui internet maupun sms
+pendekatan dengan menggunakan dua alternatif dasar perancangan
+perancangan sistem mobile banking independen dimana sistem dapat mengubah data sesuai jalur komunikasi yang tersedia baik melalui internet maupun sms
+pengubahan data dilakukan dalam server tersendiri
+data ini yang nantinya diteruskan kepada sistem internal bank mandiri dimana perpindahannya berdasarkan ketersediaan layanan pada bank itu sendiri
+notifikasi juga diolah pada server independen tersebut
+perancangan sistem mobile banking terpadu dimana sistem menggunakan produk yang sudah dimiliki oleh bank mandiri
+pada sistem ini, tidak diperlukan adanya suatu server tersendiri tempat pengolahan data dari nasabah, sistem dapat mengubah jalur komunikasi langsung dari ponsel nasabah
+jalur komunikasi yang digunakan langsung menggunakan sistem bank mandiri, dimana jalur yang memanfaatkan internet menggunakan sistem mandiri mobile, dan jalur sms menggunakan mandiri sms
+untuk notifikasi sistem dapat langsung mengakses sistem general ledger dari bank, dimana pada sistem ini dapat diketahui perubahan posisi rekening nasabah
+biaya, karena pada alternatif kedua tidak diperlukan pembuatan suatu server baru, hanya cukup pembuatan suatu aplikasi pada ponsel nasabah
+karena merupakan gabungan dari mandiri mobile dan mandiri sms, sistem dapat mengakses kedua layanan ini dan menentukan layanan mana yang optimal untuk diakses, dengan pilihan utama menggunakan internet jika ada coverage internet dan sinyal baik, dan beralih ke sms hanya jika tidak ada coverage internet dan sinyal tidak stabil
+fungsi ini dijalankan didalam mobile app itu sendiri
+akan dirancang meliputi proses bisnis pendaftaran mobile banking terpadu, proses pengecekan saldo rekening nasabah, proses pengecekan histori transaksi rekening nasabah, proses transaksi transfer antar rekening, proses notifikasi transaksi pada rekening nasabah, dan proses penggantian kata sandi lokal semua proses ini akan digambarkan menggunakan model use case dengan skenario masing-masing
+ada beberapa proses bisnis yang tidak masuk dalam perancangan ini, dimana hanya diambil satu dari beberapa proses bisnis yang serupa diharapkan rancangan ini dapat menggantikan produk yang sudah ada dimana dicontohkan produk bank mandiri, sehingga dapat merampingkan proses pendaftaran, dan redudansi produk yang dimiliki bank mandiri
+pada implementasinya, sistem yang dirancang tidak hanya dapat diimplementasikan pada bank mandiri namun dapat diterapkan secara universal pada bank lainnya
+perancangan dilihat dari sudut pandang nasabah/ pengguna dimana meniti beratkan kepada interaksi antar sistem dengan nasabah
+untuk mekanisme komunikasi antara sistem dengan bank melalui mandiri sms dan mandiri mobile atau layanan yang sama pada bank lain, tidak dirancang/ dilihat secara mendalam, hanya sebatas pada interaksi antar sistem
+mekanisme utama yang akan dirancang adalah bagaimana mekanisme perpindahan jalur yang ada pada sistem, dari jalur internet ke sms dan sebaliknya
+adapun mekanisme perpindahannya terjadi pada saat nasabah menekan tombol transaksi.jika hingga tombol ditekan kualitas jaringan baik, maka digunakan jalur internet, namun jika kualitas tidak baik, digunakan jalur sms.hal ini terus dilakukan pada tiap tahap hingga transaksi selesai
+ada dua skenario perpindahan utama yang terdapat dalam mekanisme ini, yaitu: melakukan transaksi
+jika hal ini terjadi, maka sistem akan mengirim perintah transaksi melalui sms
+koneksi putus setelah nasabah menekan tombol/ melakukan transaksi dimana sistem mengirim perintah melalui internet, namun perintah belum masuk di server bank yang ditandai dengan belum adanya konfirmasi balasan dari bank
+jika hal ini terjadi, sistem akan secara otomatis mengirim ulang perintah dalam bentuk sms tanpa perlu adanya input dari nasabah
+dimana untuk berpindah jalur dari internet ke sms, ada 3 hal yang harus terjadi, yaitu: 1
+open channel antar client dengan bank terputus jika ketiga hal pertama terjadi, barulah layanan berpindah jalur dari internet ke sms, dan layanan akan berpindah jalur jika poin keempat terjadi namun poin lainnya belum terpenuhi
+diagram use case global dapat dilihat pada gambar 6
+nasabah login mengecek saldo implementasi sistem berupa mobile apppada sistem operasi android menggunakan smartphone lg-g3 untuk lingkungan pengembangannya
+hasil pengujian no modul status pengujian 2 login ok 3 logout ok 8 cek jaringan ok implementasi adalah sebagai berikut: dari seluruh fungsi yang ada
+fungsi yang berhasil diimplementasikan adalah yang terdapat didalam mobile app itu sendiri, yaitu aktivasi dan registrasi, login, logout, dan cek jaringan
+fungsi yang tidak berhasil diimplemetasikan adalah fungsi yang berhubungan dengan bank dan atau yang membutuhkan komunikasi dengan server
+hanya satu dari dua fungsi utama dari sistem yang dapat diimplementasikan, yaitu fungsi pengecekan jaringan, dimana fungsi switching tidak dapat dilakukan karena memerlukan komunikasi dengan server
+dimana server ini juga merupakan smart gateway yang dapat berkomunikasi menggunakan sms dan internet nasabah dan bank adalah sistem mobile banking yang terintegrasi dimana sistem dapat memanfaatkan lebih dari satu jalur komunikasi yang tersedia, dan sistem juga dapat memberikan notifikasi perubahan/ mutasi rekening secara langsung kepada nasabah
+adalah teknologi jalur data/ internet, dan sms, dalam bentuk mobile app pada sistem operasi android
+sistem mobile banking terpadu yang dirancang berupa mobile app
+sistem memanfaatkan layanan mobile banking dari produk perbankan yang sudah ada, dimana untuk jalur internet menggunakan layanan mobile banking berbasis mobile app dan jalur sms menggunakan layanan sms banking atau mobile banking berbasis sms
+sistem dapat menentukan kapan jalur internet digunakan, dan kapan jalur sms digunakan, dengan jalur utama berupa jalur internet dan jika sudah menggunakan sms tidak dapat kembali ke internet pada tahap implementasi yang dilakukan hanya digunakan server dummy karena tidak dapat dapat langsung diintegrasikan dengan sistem bank mandiri yang sebenarnya, dan pembuatan prototype berupa mobile app
+salah satu fitur utama yang berhasil diimplementasikan adalah pengecekan jaringan.dengan fitur ini sistem dapat menetukan apakah jaringan baik atau buruk, sesuai dengan parameter pada perancangan yang dilakukan
+dari kondisi ini sistem kemudian dapat menentukan jalur komunikasi mana yang akan digunakan

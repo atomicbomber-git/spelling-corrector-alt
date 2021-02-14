@@ -1,0 +1,78 @@
+hal yang terpenting dalam cbr adalah menentukan nilai kemiripan atau similaritas antara kasus-kasus yang tersimpan di basis kasus dengan kasus baru yang akan dicari solusinya
+salah satu metode similaritas yang bisa digunakan adalah dengan cara algoritma nearest neighbor
+sistem cbr mempunyai 4 tahapan yaitu retrieve, reuse, revise dan retain
+pendahuluan kebanyakan komplikasi itu terjadi pada saat atau sekitar persalinan banyak di antara ibu yang tidak dikategorikan berisiko, ternyata mengalami komplikasi dan sebaliknya sehingga pada saat persalinan harus dilakukan dengan operasi caesar
+diperkirakan 15% kehamilan akan mengalami keadaan risiko tinggi dan komplikasi obstetric, yang dapat membahayakan kehidupan ibu maupun janinnya bila tidak ditangani dengan memadai
+resiko tinggi adalah ibu dengan ciri-ciri diantaranya adalah sebagai berikut: riwayat kehamilan dan persalinan yang sebelumnya kurang baik contohnya: riwayat keguguran, perdarahan pasca kelahiran, dan lahir mati  usia ibu hamil kurang dari 20 tahun atau lebih dari 35 tahun  jarak antara dua kehamilan kurang dari 2 tahun
+ ibu menderita anemia atau kurang darah
+ tekanan darah yang meninggi dan sakit kepala hebat dan adanya bengkak pada tungkai  kelainan letak janin atau bentuk panggul ibu tidak normal  riwayat penyakit kronik
+masih banyak lagi ciri – ciri atau gejala yang menyebabkan ibu hamil beresiko tinggi
+ibu hamil dengan kehamilan resiko tinggi memiliki kemungkinan yang lebih besar menjalani persalian melalui operasi caesar atau induksi
+apabila kemungkinan ini dapat diprediksi dari awal maka ibu hamil dapat mempersiapkan diri dengan lebih memperhatikan perawatan kesehatannya
+pemanfaatan cbr dalam bidang kesehatan bukanlah hal baru
+awal mula pemanfaatan cbr dalam bidang kesehatan adalah digunakan untuk menentukan terapi bagi penderita suatu penyakit
+penelitian cbr untuk memprediksi proses persalinan ibu hamil diharapkan bermanfaat memberikan informasi sejak dini tentang kemungkian resiko melahirkan secara caesar sehingga ibu hamil dapat mempersiapkan diri dengan lebih memperhatikan perawatan kesehatannya ii
+case based reasoning case based reasoning adalah salah satu metode pndekatan berbasis pengetahuan untuk mempelajari dan memecahkan masalah berdasarkan pengalaman pada masa lalu
+pengalaman yang lalu dikumpulkan dan disimpan dalam tempat yang disebut basis kasus
+basis kasus adalah kumpulan kasus-kasus yang pernah terjadi
+sebuah kasus baru diselesaikan dengan mencari kasus-kasus yang telah tersimpan dalam basis kasus yang memiliki kemiripan dengan kasus baru tersebut
+maka solusi dari kasus tersebut adalah analisa dari pakar atau ahli tentang kasus tersebut, dan kemudian akan dijadikan suatu kasus baru yang disimpan dalam basis kasus
+metodologi cbr terjadi dalam cbr dapat dilihat pada gambar 1
+tahapan proses pada cbr dalam mencari nilai kemiripan dibutuhkan empat tahap, yaitu : 1
+retrieve adalah menemukan kembali kasus yang sama atau yang paling mirip dengan kasus baru 2
+reuse adalah menggunakan kembali informasi dan pengetahuan dari basis kasus untuk memecahkan masalah kasus baru
+revise adalah merevisi atau memperbaiki solusi yang diusulkan
+retain adalah menyimpan pengalaman untuk memecahkan masalah yang akan datang kedalam basiskasus
+nilai kemiripan yang digunakan adalah range antara 0 sampai 1
+pengetahuan didapatkan dengan cara mengumpulkan kejadian atau pengalaman yang telah terjadi
+kerja semakin berkurang karena mengutamakan membuat suatu identifikasi yang signifikan terhadap suatu masaalah, ini lebih mudah dari pada harus membuat suatu model yang explicit
+penggunaan teknik database, informasi yang besar dapat diatur
+cbr sistim dapat belajar dengan mempelajari pengetahuan yang baru sebagai kasus
+hal ini membuat perbaikan lebih mudah kendala yang harus diperhatikan:  suatu kasus tidak mencakup keseluruhan dari bidang yang ingin diketahui  kasus yang benar-benar sesuai akan sulit untuk didapatkan  tetap memerlukan kesamaan, adaptasi dan verifikasi pengetahuan d
+algoritma nearest neighbor dengan menghitung kedekatan antara kasus baru dengan kasus lama, yaitu berdasarkan pada pencocokan bobot dari sejumlah fitur yang ada
+misalkan diinginkan untuk mencari solusi terhadap seorang pasien baru dengan menggunakan solusi dari pasien terdahulu
+untuk mencari kasus pasien mana yang akan digunakan maka dihitung kedekatan kasus pasien baru dengan semua kasus pasien lama
+kasus pasien lama dengan kedekatan terbesar-lah yang akan diambil solusinya untuk digunakan pada kasus pasien baru
+ilustrasi kedekatan kasus direpresentasikan dengan gambar 2
+seperti tampak pada gambar 2, misalnya pada domain kesehatan yaitu mencari solusi treatment terbaik untuk suatu penyakit berdasarkan kasus-kasus yang ternah terjadi
+jika terdapat dua pasien lama a dan b
+ketika ada pasien baru, maka solusi yang akan diambil adalah solusi dari pasien terdekat dari pasien baru
+seandainya d1 adalah kedekatan antara pasien baru dan pasien a, sedangkan d2 adalah kedekatan antara pasien baru dengan pasien b
+oleh karena d2 lebih dekat dari d1maka solusi dari pasien b yang akan digunakan untuk memberikan solusi pasien baru
+adapun rumus untuk melakukan penghitungan kedekatan antara dua kasus dapat dilihat pada persamaan 1
+i : atribut individu antara 1 s/d n f : fungsi similarity atribut i antara kasus t dan kasus s w : bobot yang diberikan pada atribut i e
+jcolibri jcolibri adalah sebuah kerangka kerja berorientasi objek berbasis java yang digunakan untuk membangun sistem case based reasoning 
+framework adalah aplikasi semi- complate yang dapat digunakan kembali untuk memproduksi aplikasi tertentu
+memadai untuk mengkonfigurasikan bagian-bagian dari sistem cbr
+perancangan dilakukan adalah menentukan atribut kasus kemudian membuat basis kasus dan menentukan metode similaritas yang dilakukan pada saat proses retrive
+menentukan atribut menentukan fitur atau atribut pada sistem cbr sangat penting karena atribut tersebut yang nantinya akan membentuk suatu kasus
+beberapa atribut yang dapat digunakan untuk memprediksi proses persalinan antara lain
+proses persalinan/kelahiran kesemua atribut tersebut memiliki peran yang sama pentingnya dalam melakukan prediksi proses persalinan
+untuk menyederhanakan nilai untuk masing-masing atribut maka nilai tersebut dibagi kedalam katagori-katagori seperti tertera pada tabel 1
+membangun basis kasus dbms yang handal untuk meng-handle data dalam jumlah yang besar serta termasuk dalam katagori freeware
+dalam basis kasus hanya terdapat 1 tabel yang terdiri dari 7 field
+untuk deskripsi detail dari struktur tabel dapat dilihat pada gambar 3 c
+retrieve phase dengan kasus baru digunakan algoritma nearest neighbor
+hal ini dikarenakan jcolibri mendukung algoritma ini untuk retrieve phase
+terdapat 2 method yang disediakan jcolibri untuk memilih kasus yang terbaik, yaitu: 1
+select best case method untuk menentukan satu saja kasus yang terbaik
+select some case method untuk memilih sejumlah n kasus yang terbaik berdasarkan ranking similarity yang terdekat dengan kasus baru yang sedang dihadapi
+n merupakan paramater input yang bisa didefiniskan secara bebas
+pertama yaitu memilih satu saja kasus yang terbaik
+algoritma nearest neigbor sebelum menghitung similarity, tiap atribut harus diberikan bobot dan kedekatan nilai-nilai dalam atribut juga perlu didefinisikan
+hal ini dapat dilihat pada gambar 4
+tabel 2 kedekatan nilai atribut jarak persalinan pada tabel 4, kedekatan nilai atribut lebar panggul pada tabel 5, kedekatan nilai atribut riwayat caesar pada tabel 6 dan kedekatan nilai atribut riwayat penyakit pada tabel 7
+nilai 1 nilai 2 similarity besar besar 1 besar kecil 0.5 kecil besar 0.5 kecil kecil 1 nilai 1 nilai 2 similarity ya ya 1 ya tidak 0.5 tidak ya 0.5 tidak tidak 1 nilai 1 nilai 2 similarity ada ada 1 ada tidak 0.5 dalam basis kasus
+penambahan kasus akan terjadi apabila kasus uji memiliki nilai similar di bawah 1
+kasus-kasus yang tersimpan dalam basis kasus dapat dilihat pada tabel 8
+basis kasus case u 01 26 s/d 02 <= 25 < 2 besar belum pernah tidak pernah ada sc ada sc 06 <= 2 < 2 kecil belum pernah tidak pernah ada sc contoh kasus yang akan diuji
+perhitungan similaritas mengguanakan algoritma nearest neighbor dan didapat hasil simailaritas setiap kasus sebagai berikut
+similarity with case case01 :0.2 similarity with case case02 :0.4 similarity with case case03 :0.2 similarity with case case04 :0.2 similarity with case case05 :0.0 similarity with case case06 :0.6 similarity with case case07 :0.4 … similarity with case case18 :0.8 similarity with case case19 :0.2 … similarity with case case46 :0.2 similarity with case case47 :0.2 berikutnya adalah tahapan reuse
+dari hasil pengujian diperoleh case yang mempunyai nilai similaraitas yang paling tinggi adalah case 18 dengan nilai similaritas 0.8
+oleh karena nilai similaritas belum mencapai 1 maka kasus uji bisa dilanjutkan dengan tahapan revise dan tahapan retain yang terlihat pada gambar 5
+kesimpulan dan saran dapat tidak menjamin solusi terbaik atau solusi optimum karena cbr hanya memberikan solusi berdasarkan kasus- kasus yang disimpan
+acuan inti dari konsep cbr sangat penting
+kelengkapan dan kekompleksan kasus yang tersimpan dalam basis kasus dapat menjadikan cbr suatu sistem yang dapat menghasilkan solusi optimal dan tepat
+selain itu penentuan atribut yang tepat sangat menentukan solusi yang diharapkan
+kekurangan cbr adalah membutuhkan metode similaritas yang tepat untuk mencari similar antar kasus
+cbr juga membutuhkan tempat penyimpanan yang besar apabila data yang disimpan sangat banyak

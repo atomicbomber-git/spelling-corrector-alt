@@ -1,0 +1,77 @@
+umber daya alam dengan metode profil matching rizki hertia maylindri rizkimaylindri@gmail.com priorities for regional development
+therefore, research is needed to support and maximize the development of the area of natural resources
+the potential development of natural resources is essentially determined by the nature of the physical environment with the parameters determining the potential land based on several indicators
+the purpose of this research is to design and build a system for land use of natural resources by applying the profile matching method, so as to provide information about a potential priority natural resources, as well as the types of natural resources appropriate for the area
+profile matching itself is an important concept in decision-making based on ranking
+profile matching produce information in the form of a value and that value will be used in the comparison of the value of the existing indicators
+so the end result of managing spatial data systems and tabular areas of natural resources and their types of natural resources potential in kubu raya which is displayed in the form of maps in a geographic information system
+based on analysis of the system, it is known that the indicator most influence in determining the location of natural resources is an indicator of soil ph, fertility and moisture content for this type of agricultural natural resources
+for the type of fishery resources, the indicator which greatly affects is water ph, water temperature, dissolved oxygen and salinity
+as for the types of plantation natural resources, the indicator that most affect is the texture of the soil, peat thickness and slope, thus ranking the scores can be seen and it can be seen that the district that has the most priority village natural resources is subdistrict sungai raya, sungai kakap, batu ampar, dan sungai ambawang
+keywords: natural resource, spatial data, profile matching, priorities, potential of natural resource
+tanah, air, padang penggembalaan, hutan, kehidupan liar, mineral atau populasi manusia
+dari lingkungan alam yang dapat digunakan manusia untuk meningkatkan kesejahteraan mochammad adrian anwar)
+sumber daya alam merupakan salah satu faktor penting untuk mengembangkan potensi daerah
+oleh karena itu setiap daerah perlu mengembangkan sumber daya tersebut secara optimal sehingga setiap potensi alam yang dimiliki dapat dikelola dengan baik untuk kesejahteraan masyarakat daerah
+aronoff, 1989 dalam modul pelatihan arcgis dasar
+komputer yang digunakan untuk mengolah dan menyimpan data atau informasi geografis 
+sig mempunyai kemampuan analisis keruangan maupun waktu sehingga teknologi ini sering dipakai dalam proses perencanaan
+metode yang akan digunakan dalam merancang sig penentuan lokasi potensi sumber daya alam adalah profile matching method atau yang biasa disebut dengan metode pencocokan profil
+profile matching method adalah salah satu metode pengambilan keputusan dengan cara mencari alternatif terbaik berdasarkan kriteria-kriteria yang telah ditentukan penggembalaan, hutan, kehidupan liar, mineral atau populasi manusia) yang dapat digunakan manusia untuk meningkatkan kesejahteraan mochammad adrian anwar)
+sumber daya dapat pulih yang terdiri atas flora dan fauna
+sumber daya hayati secara harfiah dapat diartikan sebagai sumber daya yang mempunyai kehidupan dan dapat mengalami kematian
+jenis-jenis sumber daya hayati adalah flora dan fauna
+sumber daya non hayati secara harfiah dapat diartikan sebagai sumber daya yang tidak mempunyai kehidupan dan tidak dapat mngalami kematian
+jenis-jenis sumber daya alam non hayati diantaranya adalah bahan mineral, air dan udara
+suatu sistm koordinat tertentu sebagai dasar referensinya
+karenanya sig mempunyai kemampuan untuk menghubungkan berbagai menggabungkannya, menganalisa dan inilah yang membedakan sig dari sistem informasi lainnya
+dilihat dari definisinya, sig adalah suatu sistem yang terdiri dari berbagai komponen yang tidak dapat berdiri sendiri-sendiri
+memiliki perangkat keras belum berarti bahwa kita sudah memiliki sig apabila data geografis dan sumber daya manusia yang mengoperasikannya belum ada
+sebagaimana sistem komputer pada umumnya, sig hanyalah sebuah alat yang mempunyai kemampuan khusus
+kemampuan sumber daya manusia untuk memformulasikan persoalan wijaya)
+informasi, pemodelan, dan pemanipulasian pengambilan keputusan dalam situasi yang semiterstruktur dan situasi yang tidak terstruktur, di mana tak seorangpun tahu secara pasti bagaimana keputusan harus dibuat 
+limbalo), yaitu sebagai berikut : dan pendeteksian dari lingkup problematika serta proses pengenalan masalah
+mengembangkan, dan menganalisis tahap ini meliputi proses untuk mengerti masalah, menurunkan solusi dan menguji kelayakan solusi
+diantara berbagai alternatif tindakan yang mungkin dijalankan
+hasil akhir ditentukan oleh proses terkomputerisasi tanpa campur tangan yang memiliki salah satu atau dua tahapan simon
+masalah yang hanya mampu diselesaikan dengan kebijakan seorang manajer
+profil adalah metode yang sering sebagai mekanisme dalam pengambilan keputusan dengan mengasumsikan bahwa terdapat proses membandingkan antara nilai data aktual dari suatu profile yang akan dinilai dengan nilai profil yang diharapkan, sehingga dapat diketahui perbedaan kecil gap yang dihasilkan maka bobot nilainya semakin besar yang berarti memiliki peluang lebih besar untuk direkomendasikan untuk terpilih dalam hal ini sebagai lokasi daerah yang memiliki potensi sumber daya alam
+pada analisis proses sistem penggunaan metode profile matching membutuhkan merupakan nilai acuan untuk mendapatkan lokasi potensi
+setelah diperoleh profil lokasi, kemudian dilakukan pemetaan gap yang merupakan selisih dari nilai kriteria dengan profil lokasi
+hasil yang didapat dari pemetaan gap akan dilakukan proses pembobotan nilai gap
+selanjutnya akan dilakukan proses perhitungan nilai total dan perangkingan dari urutan tertinggi sampai terendah yang layak untuk menjadi lokasi potensi sumber daya
+tahapan-tahapan dalam melakukan metode profile matching adalah : 1
+perancangan sistem dan diakses oleh admin
+desain arsitektur sistem dapat dilihat pada gambar 1 berikut
+antarmuka sistem 3.2 data flow diagram diagram konteks adalah diagram yang memberikan gambaran umum terhadap gambar berikut menunjukkan diagram konteks dari sistem
+seperti pada gambar 3 berikut, sistem ini menjadi lima proses
+diagram overview sistes 3.4 entity relationship diagram gambar 4
+entity relationship diagram sistem informasi geografis pemetaan potensi sumber dan laporan hasil analisis poligon pewarnaan data indikator, entitas-entitas yang ada, yaitu : a
+hubungan antara entitas desa dengan indikator adalah one to many karena satu desa bisa memiliki banyak data indikator
+hubungan antara entitas desa dengan sda adalah one to many karena satu desa bisa memiliki lebih dari satu sda
+hubungan antara entitas desa dengan hasil analisis adalah one to many karena satu desa bisa memiliki lebih dari satu hasil analisis
+hubungan antara entitas indikator dengan hasil analisis adalah many to many karena banyak indikator memiliki lebih dari satu hasil analisis
+geografis penentuan lokasi potensi sda memiliki relasi satu sama lain
+keterkaitan dan hubungan antara satu tabel dengan tabel lainnya dilihat pada gambar 5 berikut
+relasi antartabel halaman lain pada sistem dan menampilkan hasil analisis data tabular ke dalam data spasial yang digambarkan dalam bentuk peta dengan warna tertentu untuk menunjukkan prioritas daerah rawan kebakaran hutan
+halaman utama berisikan menu-menu pada gambar 6 berikut
+halaman utama fungsi masing-masing menu dapat dilihat pada tabel 1 berikut
+antarmuka form indikator dengan profil lokasi sda
+antarmuka form analisis profile matching tahap kedua dapat dilihat pada gambar 8
+setelah mendapatkan hasil dari nilai gap, selanjutnya dilakukan pembobotan sesuai antarmuka form analisis profile matching tahap ketiga dapat dilihat pada gambar 9
+pada tahap selanjutnya, dilakukan proses antarmuka form analisis profile matching tahap keempat dapat dilihat pada gambar 10
+setelah mendapatkan hasil nilai core dan secondary factor, dilakukan perhitungan nilai total dan tahap terakhir yaitu dengan malakukan perangkingan berdasarkan nilai dapat dilihat pada gambar 11 dan 12
+penentuan bobot factor pengujian pada sistem menggunakan merupakan metode yang hanya menguji perangkat lunak dari sisi input dan output nya saja sehingga proses yang terjadi di dalamnya tidak dilakukan pengujian
+pemilihan cara pengujian dilakukan dengan menggunakan teknik yang akan digunakan dalam pengujian black box adalah sample testing dan robustness testing
+sample testing melibatkan beberapa nilai yang terpilih dari sebuah kelas ekivalen, mengintegrasikan nilai pada kasus uji dan nilai-nilai yang terpilih mungkin dipilih dengan urutan tertentu atau interval tertentu
+robustness testing bertujuan untuk apabila masukan tidak valid
+terhadap penentuan lokasi potensi sda dengan menggunakan metode profile matching, dapat disimpulkan bahwa: 1
+sistem informasi geografis yang dirancang dapat menampilkan desa yang menjadi prioritas untuk dikembangkannya potensi indikator dari masing-masing jenis potensi
+kecamatan yang paling banyak memiliki daerah untuk potensi pertanian adalah kecamatan batu ampar dengan 15 desa
+sedangkan untuk potensi perkebunan, dengan 17 desa
+untuk potensi perikanan, kecamatan sei ambawang dan kubu memiliki daerah masing-masing 10 desa yang paling memiliki potensi
+tiga desa yang memiliki nilai total yang tinggi untuk tiga jenis potensi sekaligus adalah desa bintang mas dari kecamatan rasau jaya, desa arang limbung dan sungai asam dari kecamatan sei raya
+berdasarkan hasil pengujian dengan borang yang diukur dengan metode likert’s summated rating, skor yang diperoleh sebesar 361 menunjukkan bahwa responden menilai aplikasi sangat positif dan dinilai berhasil
+fakultas dan implementasi database relasional aplikasi pendukung keputusan
+pendukung keputusan pemilihan mahasiswa berprestasi menggunakan tinjauan konseptual yogyakarta: andi kebijakan optimalisasi potensi sumber geografis 
+memperoleh gelar sarjana dari program studi teknik informatika universitas tanjungpura, pontianak, indonesia, 201

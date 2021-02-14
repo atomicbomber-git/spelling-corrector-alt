@@ -1,0 +1,101 @@
+enggunakan metode chromatic anaglyphic pada citra berdasarkan besarnya jarak pergeseran warna dessy anggela ryu_ichi_ice@yahoo.com technology is increasing.it encourages human curiosity to develop ways of doing their work so that processing can produce more interesting entertainment
+as one way to do is to do image processing
+one of image processing method is anaglyph movie that is movie form that looks more raised so that it looks like in 3d
+however, because each people has a different point of view, sometimes the eyes have to work hard to get a clear picture so that sometimes they had a headache and dizziness
+to reduce this negative cause then designed an anaglyph converter application to measure the average people's eyes ability to capture anaglyph effect with good
+this application will reconstruct the 3d video from 2d video using chromatic anaglyphic method
+this is the simplest method for making the 3d image
+this application works by outlining a video into frames
+then those frame will be processing by the application
+result from this processing is a complete anaglyph video with the shift distance can be re-adjusted by the user
+the test results showed that the average human eye can capture anaglyph effect with well at a distance shift 46, 76 pixel with 12 inc screen view and 1 m length
+45, 96 pixel with 12 inc screen view and 2 m length
+46, 32 pixel with 14 inc screen view and 1 m length and 46, 48 pixel with 14 inc screen view and 2 m length
+pendahuluan seiring dengan berjalannya waktu, industri perfilman dan teknologinya semakin meningkat
+hal tersebut mendorong keingintahuan manusia untuk mengembangkan cara-cara dalam melakukan salah satu cara yang dilakukan adalah dengan dilakukannya pemrosesan citra
+citra ini juga dikenal dengan nama stereoscopic image
+anaglyph image merupakan citra yang akan tampak lebih timbul untuk beberapa obyek sehingga tampak seperti dalam bentuk 3d
+anaglyph image dapat tampak dalam bentuk 3d karena setiap mata manusia memiliki sudut pandang yang berbeda
+namun, citra ini tidak akan tampak demikian bila citra ini tidak dilihat dengan bantuan anaglyph glasses
+untuk memperoleh kacamata ini, user dapat membuat sendiri dari mika plastik berwarna
+anaglyph image merupakan salah satu bentuk hasil dari pemrosesan citra dan akan lebih menarik jika disusun ke dalam sebuah video
+video sendiri merupakan gabungan beberapa citra yang disusun berurutan dan bergerak dengan kecepatan tertentu sehingga mata manusia tidak dapat menangkap citra, melainkan menangkapnya sebagai rangkaian yang berkelanjutan
+nyatanya dapat menghadirkan efek negatif bagi seseorang
+efek negatif ini bukan karena tampilan darah yang mirip aslinya dan membuat penonton mual, melainkan pengaruh film 3d sendiri pada otak yang memunculkan gejala mual, pusing dan lainnya
+sekitar 5% dari penonton mengalami masalah pada saat menonton film berformat 3d
+kendati demikian, tetap saja tidak menghilangkan keinginan mereka untuk menyaksikannya
+ ophthalmology, university of southern california in los angeles sekaligus juru bicara american academy of ophthalmology mengatakan ketika masyarakat menyaksikan film 3d, mata diharuskan bekerja keras untuk dapat mendapatkan gambar yang jelas
+itulah mengapa setiap menonton 3d diwajibkan menggunakan kacamata khusus yang menggabungkan dua gambar
+ pengembangan sebuah aplikasi anaglyph movie sederhana yang dapat di setting sendiri oleh user dalam hal menentukan besar kecilnya jarak pergeseran yang diinginkan
+teknik stereoscopic imaging adalah sebutan untuk teknik-teknik yang bertujuan untuk menghasilkan ilusi kedalaman bagi orang yang melihatnya
+anaglyphic imaging menghasilkan ilusi kedalaman pada gambar 2d dengan cara memperlihatkan gambar yang berbeda antara mata kiri dan mata kanan
+untuk melakukan hal itu dibutuhkan dua gambar, satu adalah mata yang akan dilihat oleh mata kiri dan yang lainnya adalah gambar yang akan dilihat oleh mata kanan
+karena itu kedua gambar tersebut memiliki cakupan yang berbeda
+anaglyph image jenis ini menggunakan anaglyph glasses dengan warna filter merah untuk kiri dan hijau untuk kanan
+namun, monochrome anaglyph ini dapat juga dilihat dengan warna filter merah untuk kiri dan cyan untuk kanan
+jika kedua warna tersebut dibalik, hasil anaglyph image tersebut dengan pseudo-stereoscopy, atau disebut juga dengan reverse stereopsis
+colour anaglyph warna filter merah untuk kiri dan cyan untuk kanan
+namun ada beberapa yang menggunakan anaglyph glasses dengan warna filter merah untuk kiri dan biru untuk kanan
+ilusi 3d yang terjadi karena polarized glasses membatasi cahaya yang akan mencapai setiap mata
+filter atau kacamata yang dipakai tidak mahal, tetapi harus mengandung filter orthogonally polarize
+filter ini akan menimbulkan efek ketika setiap mata hanya akan melihat salah satu gambar saja
+gelombang yang dapat membantu manusia untuk melihat
+sifat-sifat cahaya adalah bergerak lurus ke segala arah, namun cahaya dapat dipantulkan
+pantulan cahaya tergantuk kepada jenis permukaan
+semakin teratur permukaan benda, maka gambar yang dipantulkan akan semakin jelas
+cahaya yang terpantul oleh permukaan benda dan masuk ke mata akan menjadi gambar yang diterjemahkan oleh otak manusia sebagai informasi
+ yang ada pada lingkungan pada saat tertentu
+kamera diciptakan dengan mengadopsi sistem kerja mata
+meskipun memiliki jenis yang berbeda-beda, secara garis besar kamera juga memiliki bagian-bagian yang memiliki fungsi yang sama dengan mata
+ 2.3 visibility untuk menghasilkan persepsi gambar dalam bentuk 3d disebabkan oleh jumlah mata sebagai indera penglihatan yang dimiliki oleh manusia
+jumlah mata yang lebih dari satu dan berada pada tempat yang berbeda dab sejajar menyebabkan ada lebih dari satu gambar dari obyek yang diterima otak pada saat bersamaan, sedangkan kamera 2d yang sering dipakai hanya memiliki satu penerima cahaya yang akan disimpan sebagai gambar
+ 2.4 sistem warna rgb warna yang dominan, yaitu merah, hijau, dan biru 
+tiga warna ini dianggap sebagai tiga warna utama pada spectrum cahaya
+pada umumnya, setiap warna red, green, dan blue terdiri dari delapan bit
+oleh karena itu, setiap primary colors memiliki nilai sebanyak 256 nilai
+variasi nilai yang dibentuk berkisar antara 0 hingga 255
+jika nilai-nilai setiap primary colors dikombinasikan, maka jenis warna yang dapat dibentuk adalah 16.777.216 warna
+meskipun demikian, nilai setiap warna red, green, dan blue tidak selalu terdiri dari delapan bit saja
+namun, bisa terdiri dari lima bit, enam belas bit dan beberapa jenis lainnya
+ 2.5 pergeseran citra dibutuhkan ada 2 posisi seperti yang dapt dilihat pada gambar gambar 2.6
+sehingga ada 2 titik pada lensa yaitu titik ol untuk lensa sebelah kiri dan titik or untuk lensa sebelah kanan
+jarak antara kedua titik tersebut adalah b
+kemudian, diasumsikan jarak titik ol dan titik or ke layar sama besar dengan jarak f
+kemudian titik p dengan lokasi 3d diproyeksikan ke layar i melalui kedua titik lensa ol dan lensa or menjadi dua lokasi 2d, yaitu titik pl‘ pada lokasi dan titik pr‘ pada lokasi 
+maka rumus yang dihasilkan sebagai berikut : keterangan rumus dan gambar: f : jarak antara kamera dengan layar b : jarak antara titik or dan titik ol xr’ : nilai koordinat x pada titik pr’ xl’ : nilai koordinat x pada titik pl’ y : nilai koordinat y pada titik p yr’ : nilai koordinat y pada titik pr’ yl’ : nilai koordinat y pada titik pl’ p : titik dengan koordinat 3d or : titik letak kamera yang kanan ol : titik letak kamera yang kiri f : jarak antara kamera dengan layar garis i : layar pr’ : hasil prespektif titik p ke layar i melalui titik or pl’ : hasil prespektif titik p ke layar i melalui titik ol dalam satuan sentimeter 
+sedangkan, aplikasi melakukan pergeseran dalam satuan pixel
+oleh karena itu, satuan sentimeter diubah ke pixel dengan ukuran 1cm = 37.795275591 pixel
+ simulasi untuk proses mengubah citra sederhana menjadi citra anaglyph dengan menggunakan citra sederhana yang selanjutnya di ubah menjadi citra anaglyph
+tujuan pembuatan aplikasi ini adalah untuk mengetahui jarak pergeseran yang tepat untuk mata manusia berdasarkan besar layar dan jarak mata pengguna ke layar
+form pada aplikasi ini terdiri dari sebuah form utama yang digunakan untuk menampilkan menu pilihan yang tersedia pada aplikasi
+antarmuka hasil perancangan form utama dapat dilihat pada gambar 1 berikut
+gambar 1 antarmuka form utama form aplikasi image processing merupakan sebuah form yang digunakan untuk pengguna untuk menampilkan sebuah citra berformat *bmp sekaligus untuk men-generate citra tersebut menjadi citra anaglyph yang sesuai dengan keinginan pengguna
+antarmuka hasil perancangan form aplikasi image processing dapat dilihat pada gambar 2 berikut
+gambar 2 aplikasi image processing form aplikasi movie processing merupakan sebuah form yang digunakan untuk pengguna untuk menampilkan sebuah citra berformat *avi sekaligus untuk men-generate citra tersebut menjadi citra anaglyph yang sesuai dengan keinginan pengguna
+antarmuka hasil perancangan form aplikasi movie processing dapat dilihat pada gambar 3 berikut: gambar 3 form aplikasi movie processing data pengujian diambil berdasarkan spesifikasi masalah tanpa memperhatikan detail internal dari program
+pengujian diperoleh berdasarkan dari sistem kuisioner dimana para koresponden diminta untuk menggunkan aplikasi ini dengan jarak dan lebar layar monitor yang berbeda
+masing-masing layar yang diujicobakan adalah 12 dan 14 inc dengan jarak 1 dan 2 m
+hal ini bertujuan untuk mengetahui seberapa besar jarak pergeseran image yang diperlukan sampai user mendapatkan efek dari anaglyph image
+berikut ini adalah adalah analisis hasil perancangan dan pengujian aplikasi anaglyph image: 1
+citra yang di-input-kan adalah citra berformat *bmp 24 bit
+hasil pengujian pada citra menunjukkan bahwa pengujian dilakukan dengan menggunakan metode kuesioner
+hasil pengujian menunjukkan bahwa lebar jarak tidak berpengaruh besar terhadap jarak pergeseran piksel warna sampai dengan dapat ditangkapnya efek dari anaglyph itu sendiri terhadapa mata manusia
+video yang di-input-kan adalah video berformat *avi dan berdurasi pendek
+hal ini dilakukan untuk mempercepat proses convert video
+hasil pengujian pada video menunjukkan bahwa pengujian dilakukan dengan metode black box dengan melakukan beberapa masukkan dari sample video berformat sama
+hasil analisi dari video dari input-an ke-2 yang gagal ter-generate karena video mengalami kegagalan dimainkan karena hilangnya inter indeo codec yang membantu windows untuk memainkan video
+inter indeo codec adalah video codec yang memungkinkan video dimainkan pada windows
+hasil pengujian menunjukkan bahwa pengaruh terbesar untuk mendapatkan efek dari anaglyph citra maupun video adalah besar atau kecilnya jarak pergeseran piksel pada citra dan pergeseran frame pada video
+terhadap aplikasi anaglyph image ini maka dapat disimpulkan bahwa: 1
+berdasarkan hasil survey, rata-rata mata manusia dapat menangkap gambaran image anaglyph pada jarak 1m dengan lebar layar 12 inc dengan baik adalah pada rata-rata jarak pergeseran 47, 86 piksel 2
+berdasarkan hasil survey, rata-rata mata manusia dapat menangkap gambaran image anaglyph pada jarak 1m dengan lebar layar 12 inc dengan baik adalah pada rata-rata jarak pergeseran 45, 46 piksel 3
+berdasarkan hasil survey, rata-rata mata manusia dapat menangkap gambaran image anaglyph pada jarak 1m dengan lebar layar 12 inc dengan baik adalah pada rata-rata jarak pergeseran 45, 46 piksel 4
+berdasarkan hasil survey, rata-rata mata manusia dapat menangkap gambaran image anaglyph pada jarak 1m dengan lebar layar 12 inc dengan baik adalah pada rata-rata jarak pergeseran 44, 33 piksel 5
+berdasarkan hasil survey, rata-rata mata manusia dapat menangkap gambaran image anaglyph secara keseluruhan dengan baik adalah pada rata-rata jarak pergeseran 46, 38 piksel
+besar kecilnya layar berpengaruh kecil terhadap pergeseran piksel image anaglyph
+berdasarkan hasil pengujian yang dilakukan dengan memasukkan sample acak dari citra berformat sama, maka dapat diketahui bahwa jika sebuah citra yang mengalami pergeseran piksel warna yang semakin besar akan tampak lebih menonjol dan efek anaglyph akan makin terlihat
+berdasarkan hasil pengujian yang dilakukan dengan memasukkan sample acak dari video berformat sama, maka dapat diketahui bahwa tidak semua video berformat sama yang dapat diputar di dalam aplikasi ini
+untuk beberapa video, aplikasi ini tidak dapat meng-convert movie tersebut secara sempurna
+pembuatan aplikasi untuk mengubah movie sederhana menjadi anaglyph movie dengan menggunakan chromatic anaglyphic
+http://jbtunikompp-gdl- perangkat lunak rekonstruksi gambar obyek 2 dimensi menjadi 3 dimensi dengan menggunakan metode generalized voxel coloring – layered depth image
+memperoleh gelar sarjana dari teknik informatika dari universitas t

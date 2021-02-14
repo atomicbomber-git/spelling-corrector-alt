@@ -1,0 +1,40 @@
+si tata tertib siswa pada lembaga pendidikan
+ketersedian informasi yang akurat mampu mendukung pengambilan keputusan yang tepat dan cepat pada berbagai hal yang menyangkut kediplinan
+akurasi ini dapat ditingkatkan dengan membuat sistem yang dapat menstandarkan informasi dalam sistem tata tertib.pada smp negeri 4 kelapa sistem tata tertib siswa sampai saat ini masih dilakukan secara manual, sehingga sering terjadinya keterlambatan informasi yang dihasilkan, dan tidak menjamin pelanggaran atau tata tertib yang diolah tidak efektif dan efisien
+berdasarkan kendala diatas, maka disini peneliti mencoba membuat rancangan sistem kedisiplinan yang masih dilakukan secara manual menjadi terkomputerisasi
+karena teknologi dalam bidang komputer telah mampu memproses informasi secara akurat, tepat waktu, dan relevan
+sehingga akan sangat membantu para manajemen dalam mengambil keputusan untuk memajukan sekolah ini
+pendahuluan membuat dunia menjadi serba lebih cepat dan berkat dukungan dari teknologi komputer terbukti bahwa mekanisme kerja yang panjang dan berulang menjadi efektif dan efisien
+komputer memegang peranan penting dalam menunjang kelancaran aktifitas pekerjaan dalam suatu instansi maupun pemerintahan, cara pengaturan data dengan menggunakan sistem basis data yang selama ini telah mendukung kinerja suatu instansi dan pemerintahan, serta dengan kemajuan teknologi yang sangat pesat kita membutuhkan sumber daya manusia yang berkualitas baik
+pelayanan yang ditawarkan oleh suatu lembaga pendidikan merupakan salah satu daya tarik ditawarkan oleh suatu lembaga pendidikan merupakan salah satu daya tarik yang menjadi perhatian masyarakat sebagai salah satu kriteria dalam memilih suatu lembaga pendidikan sebagai sistem utama dimana mempunyai peran yang cukup besar dalam membangun dan mengembangkan lembaga pendidikan tersebut
+identifikasi masalah yang akan dikaji dalam penelitian ini adalah kesalahan informasi untuk harus menyesuaikan kembali data-data yang dibuat dengan data yang ada, kemungkinan dapat menambah waktu kerja yang lebih lama dan tidak optimalruanglingkup permasalahan hanya membatasi ii
+metode penelitian memberikan banyak manfaat dalam memahami lingkungan
+pendekatan sistem berusaha menjelaskan sesuatu yang dipandang dari sudut pandang sistem serta berusaha menemukan struktur unsur yang membentuk sistem tersebut
+dengan memahami struktur sistem dan proses sistem, seseorang akan dapat menjelaskan mengapa tujuan suatu sistem tidak tercapai
+pengertian sub sistem tata subatrisecara sederhana subsistem merupakan komponen-komponen atau sistem-sistem penentuan sistem merupakan hal yang penting untuk memberi batasan antara lingkungan dalam dengan lingkungan luar
+dengan menetukan sub-sub sistem dengan baik atau tepat maka sistem itu akan lebih mudah untuk dipahami dan diklasifikasikan
+konsep dasar sistem dan informasi sistem informasi terdiri dari kata sistem dan informasi
+sistem adalah suatu jaringan kerja dalam prosedur yang saling berhubungan satu dengan yang lainnya untuk melakukan kegiatan atau melakukan sesuatu dengan tujuan tertentu tata subatri
+untuk dapat berguna, maka informasi harus didukung oleh tiga pilar, yaitu sebagai berikut : a) akurat akurat berarti informasi harus bebas dari kesalahan- kesalahan dan tidak menyesatkan
+akurat juga berarti informasi harus jelas mencerminkan maksudnya
+informasi harus akurat karena dari sumber informasi sampai ke penerima informasi kemungkinan banyak terjadi ganguan yang dapat merubah atau merusak informasi tersebut
+b) tepat waktu tepat pada waktunya berarti informasi yang datang pada penerima tidak boleh terlambat
+informasi yang sudah usang tidak akan mempunyai nilai lagi karena informasi merupakan landasan didalam pengambilan keputusan
+relevansi informasi untuk tiap-tiap orang berbeda
+nilai informasi bagi seorang pemakai ditentukan oleh kehandalan 
+keluaran yang tidak didukung oleh ketiga pilar ini tidak dapat dikatakan sebagai informasi yang berguna, tetapi merupakan sampah 
+metode pengumpulan data dalam melakukan penelitian ini, metodologi sangat diperlukan sebagai pedoman tentang bagaimana dan apa saja yang harus dilakukan selama pengembangan sistem ini, pada penulisan skripsi ini penulis menggunakan metodologi iterasi
+metodologi ini cenderung bergerak kebawah namun jika terjadi suatu kebutuhan untuk kembali ke sebuah langka sebelumnya, maka bisa langsung ke tahap tersebut tanpa harus menyelesaikan seluruh tahapan efraim turban
+adapun tahapan ini metodologi iterasi sebagai berikut : berulang-ulang sampai rancangan
+pendekatan object oriented dilengkapi dengan alat-alat teknik pengembangan sistem yang hasil akhirnya akan didapat sistem yang object oriented yang dapat didefinisikan dengan baik dan jelas bambang hariyanto
+kegiatan yang dilakukan pada tahap analisa sistem ini adalah : mengetahui apa yang dikerjakan pada system yang ada
+masukan yang digunakan, database yang ada, proses yang dilakukan dan keluaran yang dihasilkan munawar
+1) activity diagram kerja atau workflow sebuah proses bisnis dan urutan aktivitas didalam suatu proses
+2) use case diagram manfaat sistem yang jika dilihat menurut pandangan orang yang berada diluar sistem atau actor
+3) use case description mendeskripsikan secara rinci mengenai use case description
+secara rinci bedasarkan hasil analisa sistem yang ada, sehingga menghasilkan model sistem baru yang diusulkan dengan disertai rancangan database dan spesifikasi program jeffry l
+alat-alat yang digunakan pada tahap perancangan sistem adalah sebagai berikut : lrs terdiri dari link-link diantara tipe record
+link ini menunjukkan arah dari satu tipe record lainnya
+spesifikasi basis data tipe data yang ada pada model konseptual secara lengkap
+antara objek di dalam dan disekitar sistem berupa message yang digambarkan terhadap waktu
+siswa pada mts nurul fallah, astuti

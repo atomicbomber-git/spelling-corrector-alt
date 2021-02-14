@@ -1,0 +1,105 @@
+kehumasan yang mempunyai tugas berkomunikasi dengan masyarakat, mau tidak mau harus juga menggunakan media sosial sebagai salah satu saluran untuk berkomunikasi
+namun, di sisi lain terdapat kendala ketika harus mengumpulkan dan mengelola tanggapan balik dari masyarakat yang bersumber dari beragam media sosial penelitian ini mengembangkan sebuah desain sistem informasi kehumasan yang terintegrasi dengan facebook
+tujuannya agar sik dapat mengelola informasi yang akan dipublikasikan ke medsos serta dapat mengevaluasi dan menanggapi balik setiap umpan balik sehingga hubungan dengan masyarakat dapat terjalin lebih baik
+desain sik dibuat dengan dengan pola desain model view controller dengan mengintegra- sikan codeigniter dan graph application programming interface, sedangkan pengembangannya mengguna- kan metode prototyping
+pengujian prototype menggunakan blackbox testing menunjukkan sik dapat mengelola konten yang dipublikasikan ke facebook dan dapat mengelola konten umpan balik yang diperoleh dari facebook
+pendahuluan media tradisional seperti televisi atau koran, di dalam media sosial pengguna menciptakan konten
+setiap hari bahkan jam, jutaan orang memposting pesan dan berbagi ide dan informasi, serta merespon postingan netizen yang lain
+mereka membentuk dan bergabung dalam grup-grup berdasarkan kesamaan hobby, ketertarikan, atau topik-topik yang diminati bersama
+komunikasi di media sosial bukanlah komunikasi satu atau dua arah, melainkan banyak arah yang membentuk network sharing content yang pada ujungnya mampu membentuk opini masyarakat
+menurut copeland, platform media sosial telah berkembang menjadi sarana yang signifikan di mana berita tentang kepentingan sosial, politik, dan ekonomi diproduksi, disebarluaskan, dan dikonsumsi
+selain itu, konten yang tersedia melimpah pada situs medsos dapat dieksplorasi untuk menemukan informasi yang dibutuhkan dan bermanfaat
+menurut survey we are sosial tahun 2018, pengguna aktif media sosial telah mencapai 3, 196 milyar dengan 130 juta di antaranya merupakan pengguna aktif dari indonesia, nomor tiga terbanyak bersama brazil sesudah india dan amerika serikat
+mengingat besarnya potensi media sosial tersebut, menjadi keniscayaan bagi humas-humas instansi pemerintah untuk berperan aktif di dalamnya, sebab kehadiran media sosial telah mengubah cara organisasi menciptakan, mendistribusikan dan meng- gunakan konten
+yang telah bergabung ke dalam situs jejaring sosial dengan akun-akun medsosnya
+elmatsani 25 dan terencana bagaimana mengelola akun dan pesan- pesan yang disampaikan di dalam media sosial menurut waters dkk, peran aktif organisasi di dalam media sosial dapat meningkatkan kualitas hubungan dengan masyarakat, melalui komunikasi yang lebih dekat untuk menjelaskan kebijakan dan program pemerintah, mendengarkan aspirasi dan masukan- masukan dari masyarakat
+perlu pendekatan strategis dalam menggunakan media sosialdan riset yang dilakukanmenunjukkan bahwa komunikasi dua arah yang seimbang dapat menciptakan dan memelihara hubungan yang baik
+hal ini diperkuat hasil risetmengenai pentingnya komunikasi strategis
+karena itu, perlu respon dan perlakuan yang lebih baik terhadap setiap kunjungan dan komentar netizen, untuk membangun kepercayaan dan meningkatkan peran serta masyarakat
+dalam mengirimkan pesan maupun dalam memantau respons yang berkembang sesudahnya
+tentu sulit melakukan penelusuran dan evaluasi pesan-pesan yang dikirim dan ditanggapi yang banyak dan terus bertambah, apabila melakukannya secara manual akibatnya respons balik kepada pengguna menjadi tidak terkelola dengan baik dan komunikasi dua arah yang seharusnya terbina menjadi tidak terwujud
+yang menunjukkan potensi media sosial sebagai media untuk meningkatkan hubungan dengan masyarakat, hal ini diselaraskan dengan penelitianyang menekankan pentingnya kompetensi humas dalam berkomunikasi di facebook
+selain itu, penelitianmenunjukkan bagaimana facebook diintegrasikan dalam sistem kehadiran melalui penggunaan graph api dan penelitianyang menggarisbawahi mengenai pentingnya setiap aplikasi diintegrasikan dengan face- book
+namun dari penelitian-penelitian tersebut, tidak satu pun yang membahas bagaimana mengintegrasikan kehumasan dan facebook melalui penggunaan graph api
+oleh karena itu, untuk menjawab permasalahan pengelolaan akun media sosial, penelitian ini melakukan integrasi aplikasi sistem informasi kehumasan dengan dengan facebook melalui implementasi graph api
+penelitian ini mengambil facebook sebagai studi kasus – berdasarkanmerupakan platform yang paling banyak digunakan dalam media sosial, sehingga layak dijadikan objek penelitian
+sik yang terintegrasi sjs melalui penggunaan graph api, sehingga penyebarluasan informasi ke media sosial dan pengelolaan respon dari media sosial dapat dilakukan melalui sistem
+berbasis pemrograman php sebagai landasan pengem- bangan aplikasi
+codeigniter menerapkan pola desain mvc yang terdiri dari komponen yang merepresentasikan gambar 1
+elmatsani 26 data, komponen antarmuka bagi pengguna, dan komponen controller yang mengendalikan model, view, dan sumber daya lain seperti api
+desain mvc sangat cocok dalam pengembangan aplikasi web karena dalam aplikasi web beberapa teknologi diterapkan untuk masing-masing komponennya
+sik terintegrasi situs sosmed melalui api
+api membantu developer dalam menambang data tanpa harus secara rumit mengekstrak halaman web dari masing-masing situs
+api memungkinkan untuk membuat aplikasi lebih terlibat dalam aktivitas publikasi di situs sjs
+implementasi graph api pengembang software untuk mengintegrasikan sistem mereka dengan facebook
+graph api dapat digunakan untuk membaca data yang ada di server facebook dan menulis konten ke halaman facebook
+implementasi graph api merupakan cara utama mengekstrak dan mendapatkan data yang ada di facebook
+lebih dari itu, pengembang dapat menggunakan metode- metode yang ada di dalam api untuk menganalisis dan menyajikan data
+, digunakan untuk mengirimkan konten, mengkueri data secara terprogram, dan melakukan berbagai jenis tugas lain yang mungkin diterapkan aplikasi
+berbeda dengan pengembangan aplikasi pada umumnya, pengembangan aplikasi sik yang terintegrasi situs sosmed harus mengikuti aturan-aturan yang dibuat situs sosmed terkait, seperti konfigurasi untuk otentikasi dan konfigurasi-konfigurasi lainnya
+tanpa konfigurasi yang tepat maka sistem tidak akan bekerja
+contohnya, untuk dapat menggunakan graph api dan berintegrasi dengan facebook, sebuah instansi harus memiliki akun facebook, membuat aplikasi di facebook dan mendaftarkan website yang akan diintegrasikan dengan facebook
+tahapan prototyping diilustrasikan dalam gambar 2 yang merupakan siklus pengembangan sistem yang terus berputar, meliputi: analisis, desain, implementasi dan evaluasi
+meliputi perumusan tujuan pengembangan sistem, mengindentifikasi dan mempelajari fungsi-fungsi yang disediakan oleh api dari situs jejaring sosial dan target- target yang harus dipenuhi sistem
+use case digunakan untuk menjelaskan kebutuhan pengguna melalui sebuah skenario yang menggambarkan interaksi pengguna dan sistem
+tahapan berikutnya yaitu desain, diuraikan detail bagaimana sistem bekerja, termasuk memetakan metode-metode yang ada pada activity diagram
+pada tahapan implementasi, prototype dibuat dengan mengimplementasikan graph api facebook
+selanjutnya pada tahapan evaluasi, dilakukan pengujian menggunakan blackbox testing untuk memastikan sistem bekerja sesuai dengan yang diinginkan
+hasil dan pembahasan proses publikasi konten ke media sosial facebook dalam sebuah sistem informasi kehumasan
+elmatsani 27 mendefinisikan beberapa aktor, meliputi author, verifikator, validator, automatic actor dan facebook user dengan tujuh skenario meliputi author content, verify content, validate content, publish content, response, extract data, dan classify data
+author memproduksi konten yang akan diposting ke media sosial verifikator melakukan verifikasi terhadap setiap konten yang akan dipublikasikan, sedangkan validator mengesahkan setiap naskah yang telah diverifikasi
+konten ke facebook menggunakan graph api dan menarik tanggapan atau posting dari facebook, kemudian verifikator mengklasifikasikan dan mengevaluasinya diagram pada gambar 4 menggambarkan aktivitas yang melibatkan seluruh komponen sistem, yaitu komponen 1 corporate information system, komponen 2 antarmuka graph api, dan komponen 3 facebook 
+proses menghasilkan konten terdapat pada komponen 1 di mana konten dihasilkan melalui workflow pada sistem informasi kehumasan
+pada komponen 2 yang melibatkan graph api, ada dua proses utama yaitu mengirim konten ke facebook dan membaca konten yang ada pada facebook
+komponen 3 yaitu facebook adalah ladang tempat menaburkan dan memanen data
+facebook menyediakan graph api yang lengkap sehingga data-data dapat diambil untuk dianalisa lebih lanjut
+adalah id dari halaman di facebook
+photo_url adalah url dari foto yang akan dipublish ke facebook, dalam hal ini facebook mewajibkan foto yang akan dipublish sudah dipublish di halaman situs web milik instansi terkait
+message merupakan caption atau penjelasan tentang foto yang dipublish dan access_token adalah token akses yang disyaratkan menyertai setiap posting ke facebook melalui api
+token diperoleh dengan cara request melalui callback login ke facebook
+gambar 5 menunjukkan diagram sequence untuk mempublikasikan konten ke facebook, interaksi antara graph api dan facebook memberikan response dari facebook berupa access_token
+token ini adalah token untuk mengakses halaman yang akan ditulisi message
+berbeda dengan token sebelumnya yang bersifat umum
+hasil dari proses publikasi ke facebook ini adalah gambar 4
+sik mengelola dan menyajikan pesan yang akan dan sudah dipublikasikan ke sistus medsos
+elmatsani 28 sistem mendapatkan post_id dari facebook, dan tentu saja foto serta pesan yang dikirim muncul di halaman facebook
+respons dari facebook berupa graphnode berisi data likes, comments dan shares
+selanjutnya melakukan implementasi fungsi graph api facebook
+implementasi ditekankan pada dua hal yaitu memposting pesan dan mengekstrak data respon dari pesan yang diposting ke facebook
+untuk memposting pesan, gambar 7 menunjukkan kode program untuk mengirimkan pesan ke facebook melalui graph api
+memposting kontent, sebuah program tidak bisa langsung mengirim konten sekalipun sudah melalui otentikasi
+sebuah program harus melakukan permintaan access token terlebih dahulu, untuk kemudian menggunakan token tersebut dalam memposting konten
+kode pada baris 1 adalah permintaan untuk mendapat- kan page access token
+token ini kemudian disertakan ke dalam pesan pada baris 5 yang mengandung image yang akan diposting disertai keterangannya dan hasilnya berupa graphnode
+pada baris 7 terdapat parameter url yang menunjukkan lokasi file gambar
+url lokasi gambar harus terdapat pada situs web yang sudah didaftarkan atas akun pengguna graph api terkait
+hasil dari eksekusi kode berupa postingan pada facebook page dan respon dari server facebook berupa graphnode
+graphnode kemudian diekstrak untuk mendapatkan id konten yang dapat disimpan di database, id ini nantinya digunakan untuk mengakses facebook guna memperoleh data terkait konten tersebut
+gambar 8 menunjukkan hasil eksekusi kode program publish dengan memanfaatkan graph api
+di bawah gambar yang diposting, terdapat tombol suka, komentari dan bagikan, yang merupakan tombol-tombol sosial media yang dapat digunakan pengunjung untuk memberikan respon
+pengunjung bisa memberi komentar terhadap konten yang disajikan atau apabila konten tersebut menyenangkan, pengunjung bisa mengklik tombol suka, atau bila bermanfaat bisa membaginya kepada pengguna yang lain melalui tombol bagikan
+data-data respon seperti berapa yang mengklik suka, memberikan komentar atau membagikan konten dapat gambar 7
+kode program publish untuk memposting konten ke facebook gambar 9
+kode program extract untuk menggali data dari facebook program publish pada facebook page gambar 5
+elmatsani 29 diperoleh melalui penggunaan graph api
+facebook memberikan kemampuan graph api untuk mengekstrak data sebagaimana ditunjukkan kode program extract pada gambar 9
+ekstraksi graphnode menghasilkan data-data berformat graph yang kaya informasi mengenai likes, comments dan shares
+hasil pengujian kode ekstract ditampilkan pada gambar 10 yang memperlihatkan daftar konten yang dikelola dalam sik, baik konten yang masih dalam proses publikasi maupun konten yang sudah dipublikasikan ke dalam halaman facebook
+pada konten yang sudah dipublikasikan, sik menunjukkan jumlah suka, komentar dan shares
+berkat data-data medsos yang sudah dimunculkan dalam aplikasi sik tersebut, kehumasan tak perlu lagi membuka facebook untuk mengetahui berapa yang suka, memberi komentar dan melakukan berbagi konten
+pengelola sik dapat mengetahui konten mana yang mendapatkan banyak respon dan konten mana yang kurang mendapatkan respon
+dengan pengetahui ini maka manajemen pengelola sik dapat membuat kebijakan dan keputusan untuk meningkatkan respon masyarakat terhadap konten yang dipublikasikan
+adanya informasi feedback juga dapat membantu pengelola sik untuk segera memberikan jawaban, sehingga komunikasi antara pengguna dan kehumasan instansi bisa lebih terjalin dengan baik
+pengguna facebook yang masuk ke dalam sik melalui penggunaan graph api
+terhadap komentar tersebut, verifikator dapat menganalisa isi komentar dan menentukan, apakah komentar perlu ditindaklanjuti dengan memberikan jawaban melalui hirarki sistem informasi kehumasan, atau cukup dengan membalas dengan ucapan terimakasih
+pada test case pertama, kami menjalankan fungsi publish untuk mengirimkan konten text, dari pengujian diperoleh apa yang diharapkan yaitu text yang ditampilkan di halaman facebook dan feedback berupa graphnode yang berisi id dari konten tersebut
+dalam mempublikasikan image, image harus sudah dipublikasikan di website yang terkonfigurasi di facebook, sehingga jika image tersebut tidak terdapat pada website tersebut maka facebook akan menampilkan pesan error, sebagaimana ditunjukkan pada test case nomor 3
+sik mengelola dan menyajikan pesan yang akan dan sudah dipublikasikan ke sistus medsos
+sik menampilkan daftar komentar yang diterima dari sebuah konten
+elmatsani 30 pada setiap test case, graph api selalu memberikan feedback
+jika parameter fungsinya benar, maka facebook akan memberikan feedback berupa graphnode yang dapat diurai
+jika parameternya tidak valid maka output dari graph api berupa pesan error
+pengujian menunjukkan bahwa selama fungsi-fungsi yang dijalankan sesuai dengan spesifikasi dan aturan yang ditetapkan dalam graph api, maka hasil yang diperoleh sesuai dengan yang diharapkan, dengan demikain penggunaan graph api dapat membantu pengembang aplikasi dalam mengintegrasikan sistem informasi yang ada khususnya sik dengan situs media sosial iv
+hasil pengujian menunjukkan bahwa prototype dapat melakukan pengiriman pesan dan media ke facebook dan mengekstrak data dari facebook, sehingga setiap posting ke facebook dapat diketahui respon baliknya
+selain itu, dengan proses otomasi yang diterapkan pada sik, komentar-komentar dari setiap posting dapat ditelusuri untuk dianalisa dan dievaluasi serta ditanggapi balik melalui proses kerja di dalam sik
+integrasi sik dengan facebook merupakan kerangka dasar yang dapat dikembangkan lebih lanjut dalam rangka mengintegrasikan sik dengan situs media sosial lainnya, seperti twitter dan instagram

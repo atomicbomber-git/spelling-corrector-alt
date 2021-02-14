@@ -1,0 +1,127 @@
+persaingan di dunia bisnis, khususnya dalam industri apotek, menuntut para pengembang bisnis tersebut menemukan suatu strategi yang dapat meningkatkan penjualan obat
+salah satu caranya yaitu dengan memberikan potongan harga pada kombinasi obat-obat tertentu yang sering dibeli secara bersamaan
+hal tersebut dapat dilakukan dengan menggunakan teknik analisis keranjang pasar yaitu menganalisis kebiasan belanja konsumen
+data mining merupakan suatu metode pengolahan informasi tersembunyi dari suatu database informasi yang besar
+pengimplementasian data mining terdapat berbagai macam metode, salah satunya adalah algoritma a priori
+algoritma a priori merupakan algoritma pengambilan data dengan aturan asosiatif untuk menentukan hubungan asosiatif suatu kombinasi item 
+penelitian ini dilakukan dengan melakukan analisis asosiasi pada data transaksi obat menggunakan algoritma a priori
+analisis dilakukan dengan membandingkan hasil analisis asosiasi dengan algoritma a priori dan analisis tanpa menggunakan metode
+hasil analisis ini dilakukan pengujian dari data mining yaitu lift
+analisis asosiasi dengan 2-itemset menggunakan algoritma a priori terhadap 700 data menghasilkan 6 kaidah/aturan dengan 2 aturan yang menghasilkan nilai lift 2.09 dan 1.3 dengan waktu 12 detik
+analisis asosiasi dengan 3- itemset menggunakan algoritma a priori terhadap 200 data menghasilkan 33 kaidah/aturan dengan nilai lift kurang dari 1 dengan waktu 23 detik
+sehingga dapat disimpulkan bahwa algoritma a priori dapat digunakan untuk menganalisis kebiasaan belanja konsumen untuk menghasilkan kaidah/aturan yang berisi kombinasi antar obat
+pendahuluan apotek, menuntut para pengembang bisnis tersebut menemukan suatu strategi yang dapat meningkatkan penjualan khususnya dalam penjualan obat
+salah satu caranya yaitu dengan memberikan potongan harga pada kombinasi obat-obat tertentu yang sering dibeli secara bersamaan berdasarkan transaksi penjualan obat
+untuk mengetahui jenis obat apa saja yang sering dibeli secara bersamaan oleh para konsumen, dapat dilakukan dengan menggunakan teknik analisis keranjang pasar yaitu analisis kebiasaan membeli konsumen
+informasi tersembunyi dari suatu database informasi yang besar kemudian menghasilkan suatu informasi baru yang berguna
+data mining adalah suatu istilah yang digunakan untuk menguraikan penemuan pengetahuan di dalam database
+data mining adalah proses yang menggunakan teknik statistik, matematika, kecerdasan buatan dan machine learning untuk mengekstraksi dan mengidentifikasi informasi yang bermanfaat dan pengatahuan yang terakit dari berbagai database besar
+dalam mengimplementasikan data mining terdapat berbagai metode, salah satunya adalah algoritma a priori
+algoritma a priori merupakan algoritma pengambilan data dengan aturan asosiatif untuk menentukan hubungan asosiatif suatu kombinasi item
+kegiatan operasional sehari-hari membuat data yang dihasilkan semakin lama akan semakin bertambah, sehingga jika dibiarkan maka data-data tersebut hanya akan menjadi sampah
+dengan adanya dukungan dari perkembangan teknologi, semakin berkembang pula kemampuan untuk mengolah dan mengumpulkan data-data tersebut menjadi sesuatu yang dapat berguna
+maka daripada itu untuk mengetahui kombinasi obat apa saja yang sering dibeli secara bersamaan digunakan teknik association rule mining 
+proses pencarian hubungan keterkaitan antar obat tersebut, data yang digunakan diambil dari suatu basis data relasional proses tersebut menggunakan algoritma a priori
+maka daripada itu untuk mengetahui kombinasi antar obat tersebut, dibuatlah suatu aplikasi analisis asosiasi pada transaksi obat menggunakan data mining dengan algoritma a priori
+menurut gartner group, data mining adalah suatu proses menemukan hubungan yang berarti, pola, dan kecendrungan dengan memeriksa sekumpulan besar data yang tersimpan dalam penyimpanan dengan menggunakan teknik pengenalan pola seperti teknik statik dan matematika
+hubungan yang dicari dalam data mining dapat berupa hubungan antara dua atau lebih dalam satu dimensi
+misalnya dalam dimensi produk kita dapat melihat keterkaitan pembelian suatu produk dengan produk yang lain
+selain itu, hubungan juga dapat dilihat antara dua atau lebih atribut dan dua atau lebih objek
+menambang pengetahuan dari data yang berukuran/berjumlah besar yang mana informasi yang dihasilkan nantinya sangat berguna untuk pengembangan
+analisis asosiasi berkenaan dengan studi tentang ‘apa bersama apa’
+analisis asosiasi ini akan menghasilkan aturan asosiasi 
+contoh: 90% orang yang berbelanja di suatu supermarket yang membeli roti juga membeli selai, dan 60 % dari semua orang yang berbelanja membeli keduanya
+dari sejumlah item dari kumpulan yang diberikan, akan menghasilkan aturan ketergantungan yang akan mempredikasi kejadian dari satu item berdasarkan kejadian item lainnya
+karena awalnya berasal dari studi tentang database transaksi pelanggan untuk menentukan kebiasaan suatu produk dibeli bersama produk apa, maka aturan asosiasi juga sering dinamakan market basket analysis
+algoritma a priori atau biasa disebut dengan analisis asosiasi dikenal sebagai salah satu teknik data mining yang menjadi dasar dari berbagai teknik data mining lainnya
+penting tidaknya suatu aturan asosiatif dapat diketahui dengan dua parameter, yaitu support dan confidence
+support adalah presentase kombinasi item tersebut dalam database, sedangkan confidence adalah kuatnya hubungan antar-item dalam aturan asosiasi
+sebuah aturan asosiasi dikatakan interesting jika nilai support adalah lebih besar dari minimum support dan juga nilai confidence adalah lebih besar dari minimum confidence
+jika sebuah itemset sering muncul, maka semua subset dari itemset tersebut juga sering muncul
+algoritma a priori memiliki prinsip 
+prinsip tersebut mengacu kepada sifat ukuran support yang berarti bahwa support dari sebuah itemset tidak pernah melebihi support data subsets-nya
+hal ini dikenal sebagai sifat support anti-monotone
+kumpulkan jumlah item tunggal, dapatkan item besar
+dapatkan candidate pairs, hitung => large pairs dari item- item item-item dan seterusnya
+dalam metode a priori: kandidat dari rule-rule asosiasi
+frequency itemset sebagai sejumlah kombinasi dari item yang dibeli secara bersamaan dalam suatu transaksi yang memiliki nilai support lebih besar dari minimum support
+support dari suatu itemset a adalah proporsi dari kejadian semua item di himpunan a terbeli secara bersamaan
+perhitungan nilai support dapat dilihat pada persamaan 2.1 dan 2.2berikut: support = 𝛴 𝑡𝑟𝑎𝑛𝑠𝑎𝑘𝑠𝑖 𝑚𝑒𝑛𝑔𝑎𝑛𝑑𝑢𝑛𝑔 𝐴 𝛴 𝑡𝑟𝑎𝑛𝑠𝑎𝑘𝑠𝑖 𝛴 𝑡𝑟𝑎𝑛𝑠𝑎𝑘𝑠𝑖 4
+minimum support membedakan antara itemset yang frequent dan tidak
+nilai dari minimum support ditetapkan oleh pihak manajemen apotek
+semakin tinggi nilai yang ditetapkan maka sedikit itemset yang sering terjadi dan sedikit kaidah yang sah yang sangat sering terjadi tetapi semakin kuat nilai penunjang dari kaidah tersebut
+sedangkan semakin rendah nilai yang ditetapkan maka banyak kaidah yang sah yang jarang terjadi
+confidence dari suatu itemset a dan b adalah jumlah dari itemset a, b dari jumlah itemset yang mengandung a
+perhitungan nilai confidence dapat dilihat pada persamaan 2.3berikut: confidence =p = 𝛴 𝑡𝑎𝑛𝑠𝑎𝑘𝑠𝑖 𝑚𝑒𝑛𝑔𝑎𝑛𝑑𝑢𝑛𝑔 𝐴 𝑑𝑎𝑛 𝐵 𝛴 𝑡𝑟𝑎𝑛𝑠𝑎𝑘𝑠𝑖 𝑚𝑒𝑛𝑔𝑎𝑛𝑑𝑢𝑛𝑔 𝐴 6
+minimum confidence yang menunjukkan kuatnya hubungan antar item dalam pola
+nilai dari minimum confidence ditetapkan oleh pihak manajemen apotek
+semakin tinggi nilai yang ditetapkan maka sedikit kaidah yang sering terjadi, tetapi seluruhnya hampir secara logika benar
+sedangkan semakin rendah nilai yang ditetapkan maka banyak kaidah yang terjadi tetapi diantaranya sangat tidak pasti
+pruning melakukan pemangkasan pada kandidat itemset kemungkinan kandidat suatu itemset yaitu m=2d sehingga untuk menurunkan tingkat kompleksitas itemset tersebut diperlukan adanya pruning
+jika sebuah itemset sering muncul, maka semua subset dari itemset tersebut juga sering muncul
+teknik pruning ini menggunakan prinsip algoritma a priori yang menyatakan bahwa 
+sedangkan consequent adalah kandidat yang menjadi kesimpulan dari kaidah/aturan
+contoh: jika membeli aknil maka membeli acitral liq
+produk atau layanan yang sedang diuji 
+lift adalah sebuah angka ratio yang menunjukkan berapa banyak kemungkinan menemukan sebuah atribut yang muncul bersamaan dengan atribut lainnya dibandingkan dengan seluruh kejadian adanya atribut yang terpenuhi
+lift menunjukkan adanya tingkat kekuatan rule atas kejadian acak dari antecedent dan consequent berdasarkan pada supportnya masing-masing
+hal ini kan memberikan informasi tentang perbaikan dan peningkatan probabilitas dari consequent berdasarkan antecedent
+perhitungan lift dapat dilihat pada persamaan 4 berikut: dapat dilihat pada persamaan 5 berikut: 𝐶𝑜𝑛𝑓𝑖𝑑𝑒𝑛𝑐𝑒 𝐵𝑒𝑛𝑐ℎ𝑚𝑎𝑟𝑘 𝛴 𝑡𝑟𝑎𝑛𝑠𝑎𝑘𝑠𝑖 𝑑𝑒𝑛𝑔𝑎𝑛 𝑖𝑡𝑒𝑚 𝑑𝑎𝑙𝑎𝑚 𝑐𝑜𝑛𝑠𝑒𝑞𝑢𝑒𝑛𝑡 𝛴 𝑡𝑟𝑎𝑛𝑠𝑎𝑘𝑠𝑖 𝑑𝑎𝑙𝑎𝑚 𝑑𝑎𝑡𝑎𝑏𝑎𝑠𝑒 nilai lift ratio lebih besar dari 1 menunjukkan adanya manfaat dari aturan tersebut
+lebih tinggi nilai lift ratio, lebih besar kekuatan asosiasi
+metodologi penelitian atau apa yang sedang dikerjakan didalam sistem secara keseluruhan dan menjelaskan urutan dan prosedur-prosedur yang terdapat didalam sistem
+dengan kata lain, flowchart merupakan gambaran deskripsi secara grafik dari urutan prosedur-prosedur yang membentuk suatu sistem
+berikut adalah flowchart sistem yang berjalan pada aplikasi yang dirancang yang dapat dilihat pada gambar 1
+support dan scan database scan database diagram alir penelitian pada gambar 1 menggambarkan alur kerja sistem analisis asosiasi keterkaitan antar obat menggunakan algoritma a priori
+pada flowchart tersebut algoritma a priori dimulai pada proses peng-input-an nilai min
+kemudian terdapat proses perhitungan nilai dari support pada proses scan database
+dari hasil scan database didapatlah itemset yang frequent yaitu kombinasi dari obat yang memiliki keterkaitan dengan nilai support lebih besar atau sama dengan nilai min
+pada tahap ini terdapat proses perhitungan nilai confidence yaitu untuk mendapatkan nilai kepastian dari frequent itemset yang terbentuk
+dari hasil perhitungan nilai confidence, menghasilkan rule-rule kombinasi dari obat dengan nilai confidence lebih besar atau sama dengan min
+untuk lebih jelas maka akan ditampilkan flowchart dari algoritma a priori pada gambar 2 berikut
+pengujian dari analisis asosiasi terhadap metode yang digunakan
+lift rasio adalah jenis pengujian yang digunakan untuk melihat kuat tidaknya aturan asosiasi dalam data mining khususnya pada algoritma a priori
+lift adalah sebuah angka ratio yang menunjukkan berapa banyak kemungkinan menemukan sebuah atribut yang muncul bersamaan dengan atribut lainnya dibandingkan dengan seluruh kejadian adanya atribut yang terpenuhi
+transaksi penjualan obat bebas dari bulan februari 2014 sampai dengan bulan mei 2015 akan diolah serta dilakukan perhitungan nilai support dan confidence nya
+setelah itu nilai confidence akan digunakan untuk mendapatkan nilai lift rasio
+jika nilai dari lift rasio lebih besar dari pada 1 maka rule tersebut memiliki aturan asosiasi yang kuat
+semakin tinggi nilai lift rasio maka semakin kuat aturan asosiasi yang dihasilkan
+penjualan yang diperoleh dari apotek mawar
+data tersebut mulanya berupa data berformat .backup yang berasal dari database postgresql
+pengolahan dilakukan dengan mengubah data berformat .backup ke format .csv
+pengolahan tersebut memanfaatkan 2 aplikasi yaitu postgresql yang merupakan aplikasi database yang digunakan pada sistem penjualan apotek mawar dan microsoft excel
+pengolahan data dilakukan untuk memudahkan penginputan ke database baru yang menggunakan xampp, sehingga data hasil pengolahan akhir yaitu berformat .csv dapat di import ke laman database xampp yaitu melalui phpmyadmin
+setelah data tersebut berformat .csv, sebelum di import ke laman phpmyadmin, data tersebut dilakukan proses cleaning untuk menghilangkan data-data yang double dan tidak terpakai
+pada halaman ini pengolahan data terdapat pada tab kedua pada menu
+pada halaman ini terdapat 2 button yaitu button import data dan button olah data
+kemudian terdapat tabel transaksi penjualan yang hanya menampilkan 10 obat yang merupakan transaksi penjualan terakhir
+jika button import diklik maka akan muncul button choose file untuk browse file data untuk penginputan data baru, hal tersebut yang dapat dilihat pada gambar 3 berikut
+gambar 3 form import data data yang di-import-kan haruslah data berformat .csv dengan nama yang sama dengan nama database
+setelah data ditemukan kemudian terdapat button upload untuk melakukan proses upload data ke database
+setelah itu akan muncul pop up import done dan tabel transaksi penjualan otomatis akan ter-update
+setelah data berhasil diolah maka akan muncul pop up data berhasil diolah dan akan muncul tabel hasil pengolahan data transaksi penjualan yang menampilkan 10 obat yang merupakan transaksi penjualan terakhir yang memiliki orderid yang sama yaitu 13040 yang menandakan bahwa 10 obat tersebut memiliki waktu transaksi yang sama yaitu pada transaksi ke-13040 yang berarti data transaksi penjualan telah berhasil disusun berdasarkan waktu transaksi yang terjadi
+hasil pengujian sistem asosiasi tanpa metode dengan analisis asosiasi dengan metode algoritma a priori dan menggunakan perhitungan lift dari data mining
+nilai yang diperoleh dari perhitungan lift menunjukkan kuat atau tidaknya aturan yang dihasilkan, didukung juga dengan nilai dari support dan confidence yang dihasilkan
+kuat tidaknya kadiah/aturan apabila perhitungan lift menghasilkan nilai 1 atau lebih
+hasil analisis asosiasi tanpa metode dengan 2-itemset terhadap 700 data dengan minimum support 1 dan minimum confidence 50 dapat dilihat pada gambar 4 berikut
+berikut ini hasil perhitungan support dan confidence pada kombinasi ke 3 untuk contoh perhitungan support dan confidence: confidence benchmark = 1 lift rasio = 67 terhadap 200 data dengan minimum support 1 dan minimum confidence 25 dapat dilihat pada gambar 5 berikut
+gambar 6 analisis asosiasi 2-itemset dengan metode algoritma a priori berikut ini hasil perhitungan support dan confidence pada kombinasi ke 3 untuk contoh perhitungan support dan confidence: 6 𝑋 100% lift rasio = 67 minimum support 1 dan minimum confidence 50 dapat dilihat pada gambar 7
+gambar 7 analisis asosiasi 3-itemset dengan metode algoritma a priori berikut ini hasil perhitungan support dan confidence pada kombinasi ke 3 untuk contoh perhitungan support dan confidence: confidence benchmark = 1 lift rasio = 100 transaksi penjualan), analisis asosiasi dengan 2-itemset dengan atau tanpa algoritma a priori menghasilkan 2 kaidah/aturan yang kuat dengan lift 2.09 dan 1.3 yang dapat dilihat pada gambar 4.11 dan gambar 4.13, yang membedakan hanyalah waktu pada saat dilakukannya analisis asosiasi
+sedangkan hasil pengujian menggunkan 200 data, analisis asosiasi dengan 3-itemset dengan atau tanpa algoritma a priori menghasilkan nilai lift kurang dari 1 dengan perbedaan waktu pada saat dilakukannya analisis asosiasi
+untuk lebih jelasnya dapat dilihat pada tabel 1 dan tabel 2
+tabel 1 perbedaan analisis asosiasi 2-itemset a priori jumlah data 700 data 700 data waktu 1 jam 38 menit 12 detik jumlah kaidah 6 kaidah 6 kaidah aturan yang kuat 2 kaidah 2 kaidah lift 2.09 dan 1.3 2.09 dan 1.3 tabel 2 jumlah data 200 data 200 data waktu 39 menit 23 detik jumlah kaidah 134 kaidah 339 kaidah aturan yang kuat 0 kaidah 0 kaidah lift <1 <1 c
+analisis hasil pakar diagnosis penyakit kejiwaan skizofrenia: 1
+analisis asosiasi dengan 2-itemset menggunakan algoritma a priori terhadap 700 data menghasilkan 6 kaidah/aturan yang dapat dilihat pada gambar 4.13, dengan 2 aturan yang menghasilkan nilai lift 2.09 dan 1.3
+analisis asosiasi dengan 3-itemset menggunakan algoritma a priori terhadap 200 data menghasilkan 33 kaidah/aturan yang dapat dilihat pada gambar 4.14, dengan nilai lift kurang dari 1
+analisis asosiasi dengan menggunakan metode algoritma a priori membutuhkan waktu yang lebih singkat dari pada analisis asosiasi tanpa menggunakan metode
+hasil analisis asosiasi menggunakan metode algoritma a priori menghasilkan kaidah/aturan yang berbeda dengan analisis asosiasi tanpa metode
+hal tersebut dapat dilihat pada gambar 4.13 pada rule 3 dan 4 dengan item {strip asam urat fre, strip gula fre}
+metode algoritma a priori membedakan antara membeli strip asam urat fre maka membeli strip gula fre, dengan membeli strip gula fre maka membeli strip asam urat fre
+algoritma a priori menganggap bahwa jika membeli strip asam urat fre maka membeli strip gula fre tidak sama dengan membeli strip gula fre maka membeli strip asam urat fre yang dapat dibuktikan dengan perbedaan nilai support dan confidence-nya
+sedangkan analisis asosiasi tanpa menggunakan metode menganggap jika membeli strip asam urat fre maka membeli strip gula fre sama saja dengan kebalikannya
+sehingga hasil analisis asosiasi dengan algoritma a priori menghasilkan kaidah/aturan yang lebih spesifik dan jelas daripada analisis asosiasi tanpa metode
+sangat berpengaruh terhadap hasil perhitungan lift dan waktu yang dihasilkan
+algoritma a priori dalam data mining dapat digunakan sebagai metode analisis asosiasi untuk mendapatkan kaidah/aturan yang berisi kombinasi antar obat yang saling berkaitan
+asosiasi sangat berpengaruh terhadap hasil kaidah/aturan yaitu kombinasi yang dihasilkan
+sehingga volume data dapat dijadikan tolak ukur terhadap kuat tidaknya hubungan pada kombinasi antar obat yang dihasilkan didukung dengan hasil perhitungan lift pada setiap kaidah/aturan tersebut
+a priori membutuhkan waktu yang lebih singkat dari pada analisis asosiasi tanpa menggunakan metode
+hasil analisis asosiasi menggunakan metode algoritma a priori menghasilkan kaidah/aturan yang lebih spesifik dan jelas daripada analisis asosiasi tanpa metode

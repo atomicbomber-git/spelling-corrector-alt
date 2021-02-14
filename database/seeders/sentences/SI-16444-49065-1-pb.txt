@@ -1,0 +1,78 @@
+ersaing memberi produk dan pelayanan yang terbaik kepada masyarakat
+restoran tidak lepas dari perkembangan teknologi, sebagian besar restoran mulai menerapkan komputerisasi dalam proses bisnisnya
+aplikasi pemesanan menu dan reservasi dapat membantu pelanggan untuk memesan menu serta reservasi tempat
+aplikasi menyediakan informasi mengenai menu yang tersedia, detail menu, pemesanan menu, reservasi tempat, serta melakukan konfirmasi pembayaran
+aplikasi dibangun berbasis web untuk memudahkan penggunanya dengan memiliki menu dan fungsi yang berjalan dengan baik dan sesuai dengan fungsinya
+pada hasil pengujian yang dilakukan, aplikasi pemesanan menu pada restoran yang diuji dengan kuesioner dan telah dihitung dengan perhitungan skala likert terhadap pengguna / pelanggan yang dilakukan oleh 20 orang responden, memiliki nilai sebesar 61, 9 dengan kategori penilaian sangat baik
+sedangkan hasil kuisioner terhadap admin yang dilakukan oleh 2 orang responden mendapatkan hasil berupa nilai sebesar 61 dengan kategori penilaian baik
+sistem yang telah dibangun dapat membantu para pelanggan untuk melakukan pemesanan menu dan reservasi tempat
+pendahuluan pengaruh yang besar bagi dunia teknologi informasi dan telekomunikasi
+segala sesuatu hal menggunakan teknologi sangat diminati oleh semua kalangan
+berbagai aktifitas mengalami perubahan dari cara yang bersifat manual menjadi cara yang lebih praktis dalam bentuk digital hal tersebut menyebabkan dituntut adanya perangkat elektronik yang lebih mudah dan bermanfaat dalam penggunaannya sehari - hari
+munculnya beragam aplikasi memberikan pilihan dalam peningkatan kinerja suatu pekerjaan
+komunikasi tanpa menggunakan kabel dengan menggunakan media internet juga memberikan beberapa solusi pada proses pertukaran data
+hal ini berkembang hingga menuju berbagai bidang, salah satunya dalam bidang bisnis
+contoh penerapannya adalah dalam bidang kuliner seperti bisnis restoran
+kebutuhan akan konsumsi makanan dan minuman membuat restoran bersaing memberi produk dan pelayanan yang terbaik kepada masyarakat
+restoran tidak lepas dari perkembangan teknologi, sebagian besar restoran mulai menerapkan komputerisasi dalam proses bisnisnya
+namun masih terdapat aktifitas proses operasional restoran yang dilakukan secara manual terutama seperti pencarian menu, pemesanan makanan dan reservasi
+proses pemesanan makanan pada suatu restoran merupakan salah satu hal yang paling penting dalam bisnis restoran
+proses pemesanan tersebut dapat dilakukan di luar lokasi restoran yang biasanya dilakukan dengan memanfaatkan pesawat telepon yang mengharuskan pelanggan untuk menyebutkan pesanan mereka secara manual sedangkan pencatatan pesanan pelanggan secara langsung di lokasi restoran dilakukan menggunakan alat tulis seperti pulpen dan kertas atau menggunakan komputer seperti yang terdapat pada beberapa restoran cepat saji
+reservasi tempat di restoran dilakukan oleh pelanggan dengan datang langsung ke restoran atau melakukan panggilan telepon langsung ke pihak restoran
+namun, untuk pelanggan yang datang langsung maupun ingin memesan menu melalui telepon dan belum pernah berkunjung ke restoran tersebut, tidak dapat melihat ketersediaan menu secara detail maupun ketersediaan tempat di restoran masih tersedia atau tidak
+pemesanan menu dilakukan oleh pelanggan menggunakan web dimaksudkan agar pelanggan dapat langsung melihat menu pada sebuah restoran, serta dapat melihat ketersediaan tempat untuk melakukan reservasi
+untuk melakukan reservasi, pelanggan akan memasukkan beberapa data, diantaranya nama, nomor telepon yang dapat dihubungi, beserta menu yang akan dipesan
+kemudian pelanggan diharuskan membayar biaya sesuai dengan pemesanan
+proses pembayaran dapat dilakukan melalui dua cara, yaitu transfer melalui bank dan bayar langsung di restoran
+proses pembayaran melalui bank dikonfirmasi melalui bukti pembayaran yang dikirim melalui aplikasi ke rancang bangun aplikasi pemesanan menu pada restoran berbasis web e-mail: virgarach@gmail.com 1, r_yuanda@yahoo.com mengkonfirmasi bukti pembayaran, maka pesanan akan diproses sesuai dengan tanggal dan jam reservasi
+berdasarkan uraian tersebut, penulis dalam penelitian ini akan membuat aplikasi pemesanan menu pada restoran berbasis web yang dapat membantu memudahkan pelanggan dalam melakukan proses pemesanan makanan dan minuman beserta reservasi tempat
+uraian penelitian sedemikian rupa sehingga komputer dapat memproses input menjadi output
+kelompok file yang bertujuan untuk melakukan aktivitas tertentu yang saling terkait, misalnya aplikasi payroll, aplikasi fixed asset, dll
+web sekumpulan halaman yang terdiri dari beberapa laman yang berisi informasi dalam bentuk digital baik itu berupa teks, gambar, animasi yang disediakan melalui jalur internet sehingga dapat diakses dari seluruh dunia yang memiliki koneksi internet penelusuran informasi di internet informasi yang disajikan dengan web menggunakan konsep multimedia, informasi dapat disajikan dengan menggunakan banyak media, seperti teks, gambar, animasi, suara atau film
+website merupakan fasilitas internet yang menghubungkan dokumen dalam lingkup lokal maupun jarak jauh
+dokumen pada website disebut dengan web page dan link dalam website memungkinkan pengguna bisa berpindah dari satu page ke page lain, baik diantara page yang disimpan dalam server yang sama maupun server diseluruh dunia
+pages diakses dan dibaca melalui browser seperti netscape navigator, internet explorer, mozila firefox, google chrome dan aplikasi browser lainnya
+restoran diorganisasi secara komersial yang menyelenggarkan pelayanana dengan baik kepada tamu baik berupa makanan maupun minuman
+restoran ada yang berlokasi dalam gedung seperti hotel, kantor, pabrik dan banyak juga yang berdiri sendiri di luar bangunan tersebut
+tujuan operasi restoran adalah untuk mencari keuntungan sebagaimana tercantum dalam definisi vanco christian
+selain bertujuan bisnis atau mencari untung, membuat puas para tamu pun merupakan tujuan operasi restoran yang utama
+reservation yang berasal dari kata yaitu menyediakan atau mempersiapkan tempat sebelumnya
+sedangkan reservation yaitu pemesanan suatu tempat fasilitas
+berupa pemesanan sebuah produk baik barang maupun jasa dimana pada saat itu telah terdapat kesepahaman antara konsumen dengan produsen mengenai produk tersebut namun belum ditutup oleh sebuah transaksi jual beli
+pada saat reservasi berlangsung biasanya ditandai dengan adanya proses tukar - menukar informasi antara konsumen dan produsen agar kesepahaman mengenai produk dapat terwujud
+efektif baik bagi produsen maupun bagi konsumen adalah produsen akan dapat melakukan evaluasi terhadap produk yang akan mereka jual melalui tingkat tinggi rendahnya jumlah reservasi jauh sebelum produk tersebut dijual ataupun diselenggarakan, dimana hasil evaluasi tersebut akan membantu produsen untuk menentukan langkah pemasaran yang akan diambil terhadap produk yang akan dijual tersebut
+blackbox adalah menguji perangkat lunak dari segi spesifikasi fungsional tanpa menguji desain dan kode program
+pengujian dimaksudkan untuk mengetahui apakah fungsi- fungsi, masukan, dan keluaran dari perangkat lunak sesuai dengan spesifikasi yang dibutuhkan
+pengujian kotak hitam dilakukan dengan membuat kasus uji yang bersifat mencoba semua fungsi dengan memakai perangkat lunak apakah sesuai dengan spesifikasi yang dibutuhkan
+kasus uji yang dibuat untuk melakukan pengujian black box testing harus dibuat dengan kasus benar dan kasus salah
+likert gejala sosial dalam penelitian gejala sosial ini telah ditetapkan secara spesifik oleh peneliti, yang selanjutnya disebut sebagai variabel penelitian
+hasil pengujian akan direkapitulasi ke dalam tabel dan dilakukan perhitungan skor menggunakan rumus: n = jumlah responden yang memilih p = pilihan angka skor pada skala likert interpretasi skor perhitungan: i = indeks persentase nilai skala likert 3 jumlah responden v = 100 / s s = jumlah skor dalam skala likert yang diujikan efisien karena menuntut waktu lebih pendek dan biayanya pun lebih murah, sehingga memmungkinkan pengumpulan data dari sampel yang lebih besar
+kuesioner adalah alat pengumpulan data yang lebih sering digunakan di dalam penelitian sosial studi literatur analisis kebutuhan desain sistem pembuatan aplikasi i
+rancangan arsitektur sistem rancangan arsitektur sistem pada gambar 2 dapat dijelaskan sebagai berikut
+pengguna / pelanggan, admin, admin dapur, admin kasir, dan waiters mengakses aplikasi pemesanan menu pada restoran berbasis web menggunakan perangkat yang berintegrasikan internet yang kemudian melakukan proses pemesanan yang akan disimpan ke database
+use case diagram menggambarkan interaksi antara satu atau lebih aktor terhadap sebuah sistem
+gambar 3 berikut merupakan use case diagram sistem yang dibangun
+activity diagram dilakukan oleh sistem kepada pengguna bukan aktivitas yang dilakukan oleh pengguna satu ke pengguna lain
+gambar 4 merupakan activity diagram sistem yang dibangun
+aplikasi ini merupakan aplikasi berbasis web sehingga membutuhkan koneksi internet dalam pengoperasiannya
+tampilan halaman utama pelanggan dapat dilihat pada gambar 5 dan tampilan menu utama admin dapat dilihat pada gambar 6
+hasil pengujian kuesioner pengguna pengujian ini dilakukan untuk melihat pendapat dan respon pengguna tehadap aplikasi pemesanan menu pada restoran
+kuesioner dibagikan kepada 20 responden sebagai pengguna dan 2 responden sebagai admin
+berikut merupakan persentase pengujian pada aspek fungsionalitas sistem
+dengan hak akses pelanggan dapat dilihat pada gambar 7 dan hak akses admin pada gambar 8
+persentase penilaian aspek fungsionalitas hak akses pelanggan gambar 8
+persentase penilaian aspek fungsionalitas hak akses admin 0% 0% 13% tabel 1
+hasil penilaian kuesioner perhitungan skala likert dengan tingkat akses pengguna / pelanggan rata - rata 61, 9 tabel 2
+hasil penilaian kuesioner perhitungan skala likert dengan tingkat akses admin responden hasil 1 59 2 63 jumlah 122 didapat nilai rata-rata sebesar 61, 9, maka dapat disimpulkan bahwa penilaian yang dilakukan responden / pengguna aplikasi terhadap keseluruhan aplikasi dinilai sangat baik
+sedangkan dengan hak akses admin didapat nilai rata-rata sebesar 61, maka dapat disimpulkan bahwa penilaian keseluruhan aplikasi dinilai baik
+analisis hasil pengujian pemesanan menu pada restoran berbasis web adalah sebagai berikut : dapat digunakan untuk kebutuhan pemesanan menu pada restoran serta melakukan reservasi tempat melalui aplikasi pemesanan menu berbasis web
+hasil pengujian menggunakan blackbox, menunjukkan bahwa aplikasi ini dapat berjalan pada perangkat yang berbasis web
+hasil analisis dengan kuisioner terhadap pengguna / pelanggan yang dilakukan oleh 20 orang responden mendapatkan hasil dengan perhitungan menggunakan skala likert berupa nilai sebesar 61, 9 dengan kategori penilaian sangat baik
+sedangkan hasil kuisioner terhadap admin yang dilakukan oleh 2 orang responden mendapatkan hasil berupa nilai sebesar 61 dengan kategori penilaian baik
+aplikasi pemesanan makanan pada restoran ini dibangun berbasis web agar membantu pelanggan untuk dapat melakukan proses pemesanan menu dan reservasi tempat
+pemesanan menu makanan pada restoran berbasis web memiliki menu dan fungsi yang berjalan dengan baik dan sesuai dengan fungsinya
+pelanggan yang dilakukan oleh 20 orang responden mendapatkan hasil dengan perhitungan menggunakan skala likert berupa nilai sebesar 61, 9 dengan kategori penilaian sangat baik
+sedangkan hasil kuisioner terhadap admin yang dilakukan oleh 2 orang responden mendapatkan hasil berupa nilai sebesar 61 dengan kategori penilaian baik
+pertimbangan untuk pengembangan aplikasi agar menjadi lebih baik adalah sebagai berikut : 1
+menambahkan fitur e-payment agar pelanggan dapat melakukan proses pembayaran langsung pada aplikasi tersebut
+menambahkan fitur pencarian lokasi untuk melakukan proses pesan antar 

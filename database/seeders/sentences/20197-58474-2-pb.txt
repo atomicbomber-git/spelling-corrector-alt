@@ -1,0 +1,89 @@
+masing-masing anak dapat memiliki laju perkembangan yang berbeda-beda
+namun, ada beberapa hal yang perlu diperhatikan karena bisa jadi menunjukkan adanya gangguan perkembangan, termasuk gejala autisme
+apabila anak autisme tidak mendapat penanganan secara dini, kondisi autis akan menjadi permanen
+oleh karena itu tatalaksana terapi harus dilakukan pada usia sedini mungkin, yaitu dibawah usia 3 tahun
+dalam mendeteksi anak yang menderita autis memang tidak mudah dikarenakan butuh waktu hingga usia dua tahun untuk dapat memastikan anak benar benar mengidap autis
+autis sendiri tidak hanya dapat dideteksi oleh penalaran awam orang tua dari informasi yang didapatnya
+untuk membantu ditahap awal deteksi gangguan autisme pada anak, diperlukannya sebuah metode dalam mendiagnosis gejala yang ditunjukkan anak yaitu fuzzy expert system yang menggunakan metode inferensi fuzzy mamdani
+mamdani mental, hingga memiliki kemampuan baru di setiap tahapan usia
+misalnya tersenyum, mengucapkan kata pertama, mulai berjalan, atau duduk sendiri tanpa ditopang
+kemampuan baru pertahapan usia ini umum disebut sebagai development milestones serta dapat digunakan oleh orang tua dan dokter untuk mengamati perilaku, kemampuan, dan perkembangan anak
+masing-masing anak dapat memiliki laju perkembangan yang berbeda-beda
+namun, ada beberapa hal yang perlu diperhatikan karena bisa jadi menunjukkan adanya gangguan perkembangan, termasuk gejala autisme
+berperilaku hiperaktif dan agresif atau menyakiti diri, tapi ada pula yang pasif
+mereka cenderung sangat sulit mengendalikan emosinya dan sering tempertantrum 
+kadang-kadang mereka menangis, tertawa atau marah-marah tanpa sebab yang jelas
+tidak mudah dikarenakan butuh waktu hingga usia dua tahun untuk dapat memastikan anak benar benar mengidap autis
+autis sendiri tidak hanya dapat dideteksi oleh penalaran awam orang tua dari informasi yang didapatnya
+oleh karena itu, untuk membantu ditahap awal deteksi gangguan autisme pada anak, dirancanglah perangkat lunak berbasis android sebagai pakar dalam mendiagnosa gejala yang ditunjukkan anak dengan menggunakan metode inferensi fuzzy mamdani
+variabel-variabel yang mengandung ketakpastian/ berdasarkan penalaran yang mengkombinasikan variabel numerik, variabel linguistik, dan aturan-aturan
+adapun perangkat lunak yang digunakan dalam diagnosis ini tersebut berupa sistem pakar yang memiliki pengetahuan layaknya pakar dan proses diagnosa berprosedur yang juga mampu mendiagnosa gejala layaknya pakar
+sistem pakar digunakan untuk menyelesaikan masalah sebagaimana yang dipikirkan oleh pakar
+pakar yang dimaksud di sini adalah orang yang mempunyai keahlian khusus yang dapat menyelesaikan masalah yang tidak dapat diselesaikan oleh orang awam
+sistem pakar dipandang berhasil ketika mampu mengambil keputusan seperti yang dilakukan oleh pakar aslinya baik dari sisi proses pengambilan keputusan maupun hasil keputusan yang diperoleh
+logika fuzzy memetakan suatu ruang input ke dalam suatu ruang output
+fis) disebut juga fuzzy inference engine adalah sistem yang dapat melakukan penalaran dengan prinsip serupa seperti manusia melakukan penalaran dengan nalurinya
+sistem inferensi fuzzy dapat dilakukan dengan tiga metode yaitu metode tsukamoto, metode mamdani dan metode sugeno dalam penelitian ini metode yang digunakan adalah metode mamdani
+metode ini diperkenalkan oleh ebrahim mamdani pada tahun 1975
+metode mamdani sering juga dikenal dengan metode max-min
+fuzzyfication, pada tahap pertama ini, nilai input yang berupa nilai crisp akan dikonversikan menjadi nilai fuzzy, sehingga dapat dikelompokkan pada himpunan fuzzy tertentu
+tahap ini juga menentukan himpunan fuzzy untuk output
+rule evaluation, langkah kedua adalah mengambil nilai input yang telah difuzzifikasikan dan mengaplikasikan ke dalam antecedents pada aturan- aturan fuzzy lalu diimplikasikan
+fungsi implikasi yang digunakan adalah min
+rule aggregation, adalah proses dari penggabungan nilai keluaran dari semua aturan
+pada tahap ini, digunakan metode max, dimana solusi himpunan fuzzy diperoleh dengan cara mengambil nilai maksimum aturan, yang kemudian digunakan untuk memodifikasi daerah fuzzy
+defuzzification, langkah terakhir dari proses inferensi fuzzy adalah untuk mengkonversi nilai fuzzy hasil dari aggregasi aturan ke dalam sebuah bilangan crisp
+ini untuk menggambarkan perilaku pasien skizofrenia yang menarik diri dari dunia luar dan menciptakan dunia fantasinya sendiri
+namun ada perbedaan yang jelas antara penyebab dari autisme pada penderita skizofrenia dengan penyandang autisme infantile
+pada skizofrenia, autisme disebabkan dampak area gangguan jiwa yang didalamnya terkandung halusinasi dan delusi yang berlangsung minimal selama 1 bulan, sedangkan pada anak-anak dengan autisme infantile terdapat kegagalan dalam perkembangan yang tergolong dalam kriteria gangguan pervasif dengan kehidupan autistik yang tidak disertai dengan halusinasi dan delusi
+metodologi penelitian penelitian yang disimbolkan dalam bentuk kotak, beserta urutannya dengan menghubungkan masing-masing 1
+tahap penelitian dan pengumpulan informasi a
+informasi mengenai gambaran sistem yang ada dan yang akan diterapkan dalam sistem yang akan dirancang serta memperoleh data-data yang diperlukan
+pengumpulan data dilakukan dengan melakukan wawancara dan observasi terhadap sistem yang sedang berjalan
+beberapa tahapan yaitu perancangan arsitektur sistem, perancangan use case diagaram, perancangan class diagram, perancangan kemudian dilanjutkan dengan perancangan perancangan struktur antarmuka sistem dan perancangan layout dan antarmuka sistem
+pembuatan sistem merupakan implementasi perancangan konseptual dan prototipe sistem kedalam bentuk aplikasi berbasis andorid
+pengujian dan validasi sistem pengujian dilakukan untuk mengetahui kelayakan sistem yang telah dibuat terhadap kebutuhan sistem dan tujuan pembuatan sistem
+analisis hasil pengujian analisis dilakukan dalam tahap pengujian dan validasi untuk mengetahui karakteristik sistem yang telah dirancang
+akuisisi pengetahuan informasi/data yang dibutuhkan dalam proses sistem pakar
+adapun data yang didapat berasal dari pakar maupun sumber literatur
+berikut ini merupakan daftar kelompok gejala dalam skala penilaian autisme pada anak, yang ditunjukkan pada tabel i
+masing-masing kelompok gejala memiliki indikator tingkatan kondisi, yakni, ,, , dan 
+pada tiga kelompok gejala, masing-masing menaungi beberapa gejala
+kelompok dan masing-masing menaungi 15 gejala, sedangkan kelompok menaungi 14 gejala
+gejala-gejala tersebut masing-masing juga memiliki indikator tingkatan kondisi, ,, , dan 
+namun dalam penelitian ini, pembobotan opsi indikasi tersebut menggunakan pembobotan rank order centroid karena lebih mudah untuk disesuaikan dengan metode fuzzy mamdani yang diterapkan
+indikasi: no tidak ada, perkembangan kemampuan dalam berinteraksi sosial tampak normal namun sebelumnya pernah mengalami salah satu kondisi di bawah ini
+namun tampak memiliki sedikit perilaku aneh atau tidak mampu membaca situasi
+misalnya tidak memahami situasi dimana bagi orang lain dia membosankan karena terus menerus membicarakan hal yang sama
+saat ia dijadikan bahan gurauan oleh yang lain
+selain itu, bahkan menganggap dirinya disukai 
+tertarik dalam interaksi sosial, tapi terlihat janggal, sangat pemalu, ataupun aneh
+tampak berdiri terlalu dekat saat berbincang, menyentuh orang lain dengan tidak wajar, ataupun berbicara dengan nada yang tidak sesuai
+anak dengan kondisi ini biasanya tampak terisolasi dari sosial dan memiliki teman yang sangat sedikit
+dengan orang lain atau terlihat risih/cemas saat berada di lingkungan sosial bagi anak usia 2-3 tahun, perilaku yang tampak seperti hanya ingin bermain sendiri, menangis, mengamuk, atau kesal saat berada bersama dengan anak lainnya
+indikasi: no tidak ada, perkembangan kemampuan berbicara dan berbahasa tampak normal salah satu kondisi di bawah ini
+mild mengalami kesulitan dalam pemahaman berbahasa
+moderate mengalami keterlambatan dalam perkembangan berbicara
+ atau hanya mampu menguasai satu kata
+bagi anak usia di bawah 4 tahun, hal ini bisa dievaluasi melalui penilaian perkembangan oleh tenaga profesional 
+gejala: kesulitan dalam berperilaku indikasi: no normal, tidak menunjukkan adanya kesulitan/ketidakwajaran dalam berperilaku
+mild tampak normal, namun kadang mengamuk berlebihan dan menunjukkan perilaku tidak wajar
+moderate berperilaku yang berpotensi berbahaya atau berperilaku mengamuk, namun masih dapat dikontrol dan diprediksi
+roc didasarkan pada tingkat kepentingan atau prioritas dari sebuah kriteria
+setiap opsi indikasi gejala yakni no, resolved, mild, moderate, serve yang ditunjukan pada tabel ii
+pada tabel 3 ditunjukkan aturan yang berlaku untuk proses perhitungan
+dari pemetaan yang menghasilkan 64 kemungkinan aturan, hanya 33 aturan yang dapat digunakan dan sesuai dengan logika untuk menentukan golongan asd
+hasil dan analisis pasien yang terindikasi autis dengan memasukkan gejala- gejala yang terlihat
+dalam setiap kondisi gejala yang dimasukkan didapat bobot dari setiap gejala dimana setiap gejala memiliki kelompok masing-masing yang merupakan variabel input bagi sistem perhitungan fuzzy
+sesuai hasil perhitungan, maka derajat keanggotaan setiap parameter di masing-masing variabel input ditunjukkan oleh tabel iv
+nilai keanggotaan didapatkan dari nilai derajat keanggotaan terkecil dari derajat keanggotaan yang digunakan pada sebuah aturan
+berikut ini pencarian -predikat pada 33 aturan yang telah ditetapkan
+hasil dari implikasi terhadap masing-masing aturan akan menunjukkan nilai -predikat
+selanjutnya adalah menghitung nilai komposisi antar aturan dengan menggunakan metode max untuk melakukan komposisi antar semua aturan
+dengan demikian, fungsi keanggotaan untuk hasil komposisi ini adalah : penegasan
+penegasan yang digunakan adalah metode centroid
+untuk itu, harus terlebih dahulu menghitung momen untuk setiap daerah m2 = ∫ ( 𝑧−1, 88 4, 7653 a1 = 3, 0379 * 0, 1585 = 0, 481 selanjutnya proses defuzzy atau penegasan untuk memberikan hasil akhir
+ada beberapa metode defuzzifikasi pada komposisi aturan mamdani
+dalam penilitian ini digunakan metode centroid dengan cara mengambil titik pusat daerah fuzzy
+berdasarkan dari ujicoba perhitungan terhadap kondisi gejala, didapat hasil yang sedikit berbeda tetapi dalam range yang sama
+kesimpulan diagnosis dini autis pada anak menggunakan metode inferensi fuzzy mamdani, maka dapat disimpulkan bahwa: 1

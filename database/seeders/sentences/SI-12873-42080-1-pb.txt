@@ -1,0 +1,87 @@
+penelitian ini dilatarbelakangi pada berkembang pesatnya teknologi informasi di bidang edukasi, salah satunya adalah teknologi augmented reality yang dapat dimanfaatkan sebagai media pembelajaran multimedia termasuk media pembelajaran tata surya
+hal ini dikarenakan materi sistem tata surya sangat sulit untuk ditemui dalam kehidupan sehari-hari
+kelebihan dari ar adalah tampilan visual yang menarik, karena dapat menampilkan objek 3 dimensi beserta animasinya yang seakan-akan ada pada lingkungan nyata sehingga augmented reality diharapkan dapat digunakan sebagai salah satu alternatif media pembelajaran untuk mengenalkan planet-planet sistem tata surya yang mampu membuat pengguna tertarik
+pada penelitian ini digunakan game engine unity untuk membangun aplikasi berbasis android serta vuforia sdk agar aplikasi yang dibangun memungkinkan menjadi aplikasi berteknologi augmented reality
+disertai dengan sebuah buku yang berisi marker yang apabila diarahkan ke aplikasi dapat menampilkan visualisasi objek 3d
+aplikasi ini dapat bermanfaat bagi siswa sekolah dasar, yang memperoleh materi dasar pembelajaran tata surya
+dari tiga hasil pengujian yang telah dilakukan, dapat disimpulkan bahwa aplikasi yang dibangun mampu menampilkan semua visualisasi objek 3d dan mampu menarik minat siswa dalam mempelajari planet-planet di tata surya, serta penggunaan aplikasi yang dibangun mudah digunakan
+pendahuluan dalam pelajaran ipa terdapat berbagai materi yang diajarkan, salah satunya pelajaran mengenai tata surya seperti yang diajarkan pada kelas vi sdn 20 pontianak
+pelajaran tentang mengenali sistem tata surya mencakup materi mengenai matahari, planet, serta satelit alami pada planet tersebut
+metode pembelajaran tata surya yang diterapkan saat ini banyak yang masih bersifat manual penyampaian materinya masih mempergunakan media seperti papan tulis beserta gambar-gambar di buku
+sementara materi sistem tata surya sangat sulit untuk ditemui dalam kehidupan sehari-hari, sehingga siswa sulit membayangkan keberadaan planet-planet di sistem tata surya yang dipelajari
+meskipun begitu berbagai teknologi dapat dimanfaatkan sebagai media pembelajaran yang dapat menampilkan objek 3 dimensi planet sehingga siswa dapat melihat tampilan visual 3 dimensi dari objek planet media pembelajaran untuk pengenalan planet-planet di sistem tata surya yang mampu menampilkan objek 3 dimensi dapat dibangun dengan memanfaatkan teknologi augmented reality yang diaplikasikan dalam perangkat mobile android
+beberapa penelitian sebelumnya yang membahas augmented reality sebagai media pembelajaran salah satunya adalah fata anshori yang membangun sebuah aplikasi berbasis android dengan memanfaatkan teknologi augmented reality sebuah media pembelajaran mengenai gamelan yang bernama untuk meningkatkan minat siswa di mi ma’arif nu 1 pageraji dalam mempelajari gamelan yang dimuat dalam pelajaran seni budaya dan keterampilan
+kemudian peneliti lainnya seperti gede sukra ardipa, padma nyoman crisnapati, i made gede sunarya, dan made windu antara kesiman membangun sebuah aplikasi augmented reality book sebagai media pengenalan barong bali
+aplikasi yang dibangun oleh peneliti menggunakan library vuforia dan aplikasi unity 3d yang mampu memainkan suara narasi penjelasan dan menampilkan objek 3 dimensi dari barong bali ke dalam sebuah lingkungan nyata dengan menggunakan bantuan buku yang berisikan marker
+membangun sebuah media pembelajaran yang menarik bagi siswa dalam mempelajari tata surya dapat dilakukan dengan mengenalkan media pembelajaran yang berbeda
+dengan bertambahnya media pembelajaran baru yang dapat dimanfaatkan, augmented reality diharapkan dapat digunakan sebagai salah satu alternatif media pembelajaran untuk mengenalkan planet-planet sistem tata surya yang mampu membuat siswa tertarik
+uraian penelitian augmented reality dapat menggabungkan objek 3d ke dalam lingkungan nyata menggunakan media webcam
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+objek maya yang digabungkan ke dalam lingkungan nyata berfungsi menampilkan informasi yang tidak dapat di terima oleh manusia secara langsung
+hal ini membuat augmented reality berguna sebagai alat untuk membantu persepsi dan interaksi penggunanya dengan dunia nyata
+informasi yang ditampilkan oleh objek yang ditampilkan penerapan augmented reality sebagai media pembelajaran mengenal planet-planet di tata surya takhta akrama ananda1, novi safriadi2, anggi srimurdianti sukamto3
+tata surya dan planet dwi suhartanti menjelaskan bahwa tata surya adalah sistem yang tersusun oleh matahari sebagai pusat dan benda- benda langit yang mengelilinginya
+benda-benda langit tersebut antara lain adalah delapan buah planet, satelit, asteroid, dll
+delapan planet itu antara lain, merkurius, venus, bumi, mars, yupiter, saturnus, uranus, dan neptunus
+android yuniar supardi menjelaskan bahwa android adalah sistem operasi yang berbasis linux yang mencakup sistem operasi, middleware dan aplikasi
+android menyediakan platform terbuka bagi para pengembang untuk menciptakan aplikasi mereka
+yang merupakan pendatang baru yang membuat perangkat lunak atau software untuk smartphone
+antarmuka penggunaan android didasarkan pada manipulasi langsung, menggunakan masukan sentuh yang serupa dengan tindakan di dunia nyata, seperti menggesek, mengetuk, mencubit, dan membalikkan cubitan untuk memanipulasi obyek di layar d
+unity rickman roedavan menjelaskan bahwa unity adalah sebuah game engine yang memungkinkan seseorang mau pun tim, untuk membuat sebuah games 3d dengan mudah dan cepat
+unity berbasis cross-platform, unity dapat digunakan untuk membuat sebuah game yang bisa digunakan pada perangkat komputer, smartphone android, iphone, ps3, dan bahkan x-box
+metodologi penelitian di dalam penelitian ini dilakukan dengan beberapa tahapan, dimulai dengan pengumpulan data, lalu perancangan konsep, desain sistem, implementasi, pengujian, analisis hasil pengujian, dan terakhir proses penarikan kesimpulan
+seperti di gambarkan pada diagram alir pada gambar 1
+desain arsitektur sistem arsiterktur sistem adalah gambaran garis besar cara kerja sistem yang digambarkan melalui model-model yang saling berhubungan
+gambar 2 berikut adalah desain arsitektur sistem dari aplikasi augmented reality planet yang akan dibangun
+use case diagram diagram use case ini menjelaskan dan menerangkan perilaku yang diinginkan oleh pengguna
+dalam aplikasi ini user dapat melakukan perilaku yaitu memilih menu seperti, ar planet, kuis, tentang, dan menu keluar
+use case diagram pada penelitian ini dapat dilihat pada gambar 3
+activity diagram activity diagram menggambarkan alir aktivitas dalam sistem yang dirancang yang melibatkan tindakan user atau pengguna dalam menggunakan aplikasi
+pada gambar 4 berikut adalah activity diagram yang menggambarkan aktivitas saat menampilkan objek 3d dan infonya
+activity diagram saat menampilkan objek 3d dan infonya pada menu arplanet pada gambar 5 berikut adalah activity diagram yang menggambarkan aktivitas saat menampilkan soal dan skor pada menu kuis
+menampilkan soal menampilkan menu utama memilih menu kuis menampilkan scene kuis gambar 5
+activity diagram menampilkan soal dan skor pada menu kuis e
+perancangan struktur antarmuka aplikasi augmented reality planet yang dibangun menggunakan unity berbasis android dan memiliki beberapa tampilan scene yang disesuaikan dengan menu-menu aplikasi yang ada
+struktur antarmuka dari aplikasi dapat dilihat pada gambar 6 berikut
+antarmuka aplikasi antarmuka aplikasi merupakan tampilan scene yang digunakan oleh pengguna ketika menggunakan sistem
+antarmuka aplikasi ar planet terdiri dari scene menu utama, arplanet, kuis, dan tentang
+berikut adalah penjelasan tampilan scene dari aplikasi ar planet yang sudah dibangun
+tampilan scene menu utama merupakan tampilan antarmuka yang berisikan tombol-tombol navigasi untuk berpindah-pindah scene
+tampilan scene menu utama akan diperlihatkan pada gambar 7
+tampilan scene menu utama pada scene ar planet objek yang ditampilkan berbeda-beda tergantung dari marker yang diidentifikasi
+pada saat scene menampilkan objek planet informasi mengenai planet dapat dilihat ketika objek 3d planet yang muncul ditekan
+gambar 9 memperlihatkan tampilan scene arplanet saat menampilkan objek planet dan infonya
+tampilan scene arplanet saat menampilkan objek planet dan infonya kuis merupakan fitur lain pada aplikasi arplanet kuis ini terdiri dari 10 soal dengan empat pilihan
+kuis berisikan soal seputar planet-planet di tata surya
+untuk setiap jawaban yang benar maka pengguna akan mendapatkan skor 10 dan jika jawaban salah peserta tidak mendapatkan skor
+pop up skor akhir akan muncul ketika pengguna sudah menjawab semua soal atau pengguna ingin keluar dari kuis
+gambar 11 memperlihatkan tampilan scene kuis gambar 11
+pengujian dengan metode black-box pengujian black-box dilakukan dengan menjalankan aplikasi dengan maksud menemukan kesalahan serta memeriksa apakah sistem dapat berjalan dengan baik sesuai dengan yang direncanakan
+berikut adalah tabel pengujian black-box pada aplikasi ar planet tabel 1 tabel pengujian black-box no pengujian aksi hasil yangdiharapkan hasil uji 1 tampilan menuutama sesuai 4 tombol ar planet sentuh scene ar planet muncul sesuai 5 tombol kuis sentuh scene kuismuncul sesuai 6 menampilkan animasi tata surya mengarahkan kamera ke marker tata surya animasi tata surya muncul sesuai 7 informasi tata surya sentuh objek 3d matahari pop up informasi muncul objek 3d matahari muncul sentuh tombol rotasi sentuh pilihan jawaban yang benar skor bertambah sesuai sentuh pilihan jawaban yang salah skor tidak bertambah sesuai menjawab semua soal pop up skor akhir muncul sesuai berdasarkan tabel 1 dapat dilihat bahwa hasil pengujian menunjukkan hasil yang sesuai dengan yang diharapkan
+semua perintah yang diberikan ke aplikasi berjalan dengan baik
+pengujian kuesioner pengujian dilakukan terhadap 15 responden yang merupakan siswa kelas vi sd dengan kuesioner yang terdiri dari 10 pertanyaan di mana setiap pertanyaan diberi dua pilihan jawaban atau 
+berdasarkan hasil perhitungan dengan menggunakan metode mencari interval nilai persentase likert maka didapatkan hasil jawaban dari seluruh responden seperti pada tabel 2 berikut
+c.uji validitas uji validitas berguna untuk mengetahui kevalidan atau kesesuaian kuesioner yang digunakan untuk memperoleh data dari para responden
+pada penelitian ini perhitungan uji validitas dilakukan dengan menggunakan aplikasi imb spss versi 21
+hasil uji validasi diperlihatkan pada tabel 3 tabel 3 hasil uji validitas soal_ 1
+, 001, 000 n 15 15 15 15 15 dari hasil uji validitas pada tabel 3 maka dapat disimpulkan pertanyaan soal ke-6, ke-9, ke-10 yang bernilai valid hal ini dikarenakan rhitung > rtabel dimana rtabel = 0, 684, sedangkan pertanyaan lainnya tidak dapat dihitung, hal ini dikarenakan salah satu variabel yang bersifat konstan
+oleh karena itu pertanyaan yang tidak dapat dihitung tidak akan dihitung pada pengujian berikutnya yaitu uji reliabilitas
+d.uji reliabilitas pengujian reliabilitas ini dilakukan sebagai indikasi bahwa responden konsisten dalam memberikan tanggapan atas pernyataan yang diajukan
+pengujian reliabilitas dilakukan dengan menggunakan aplikan ibm spss versi 21 dengan menggunakan metode alpha cronbach’s
+sekumpulan variabel dapat diterima jika memiliki koefisien reliabilitas lebih besar atau sama dengan 0, 60
+hasil uji realibilitas berdasarkan hasil pengujian reliabilitas yang dihitung, koefesien reliabilitas yang dihasilkan sebesar 0, 708
+oleh karena itu dapat disimpulkan bahwa pertanyaan soal yang digunakan dapat diterima e
+pengujian usability pengujian usability dilakukan dengan mengamati interaksi antara aplikasi dan pengguna atau responden
+pengujian usability bertujuan untuk mengukur kemudahan penggunaan dari aplikasi
+hasil pengujian usability dari seluruh responden dapat dilihat pada tabel 5 berikut
+tabel 5 hasil pengujian usability no elemen observasiusability tanggapan persentase likertsb b k sk 11 4 0 0 93, 34% 2 siswa dapat membukaaplikasi arplanet 14 1 0 0 98, 34% 3 siswa dengan mudah membuka menu ar planet 14 1 0 0 98, 34% 4 siswa dapat mengarahkan kamera ke marker dengan benar 2 13 0 0 78, 34% 5 siswa mampu menampilkan animasi rotasi dan animasi struktur dengan benar 5 10 0 0 83, 34% 6 animasi dan objek yang disajikan menarik minat siswa 3 12 0 0 80 7 siswa dengan mudah membaca informasi yang diberikan 5 10 0 0 83, 34% 8 siswa dengan mudah kembali ke menu utama 14 1 0 0 98, 34% 9 siswa membuka menukuis dengan mudah 14 1 0 0 98, 34% 10 siswa mampu memilih pilihan jawaban dengan mudah 12 3 0 0 95% total persentase 90, 67% berdasarkan tabel 5 dapat dapat ketahui bahwa dari 15 responden total persentase likert yang dihasilkan adalah 90, 67%, hal ini menunjukkan bahwa interaksi penggunaan pengguna atau responden terhadap aplikasi sangat baik
+analisis hasil pengujian dari tiga pengujian yang sudah dilakukan, dapat disimpulkan beberapa poin hasil analisis dari aplikasi ar planet yang akan dijelaskan sebagai berikut
+berdasarkan hasil pengujian black-box yang telah dilakukan pada aplikasi ar planet dapat disimpulkan bahwa aplikasi sudah berjalan seperti yang diharapkan
+hasil pengujian kuesioner dihitung menggunakan metode mencari interval nilai persentase likert dan menghasilkan total persentase sebesar 98%
+oleh karena itu dapat disimpulkan bahwa aplikasi ar planet sudah mampu mencapai tujuan yaitu sebagai media pembelajaran yang menarik
+hasil pengujian usability dihitung menggunakan metode mencari interval nilai persentase likert, menghasilkan total persentase sebesar 90, 67% yang kemudian dapat disimpulkan bahwa interaksi antara pengguna dan aplikasi sangat baik dan menandakan bahwa aplikasi ar planet mudah digunakan
+kesimpulan setelah melakukan pengujian serta analisa terhadap aplikasi ar planet, maka dapat ditarik kesimpulan sebagai berikut: 1
+aplikasi ar planet mampu menampilkan semua objek 3d yang sudah tersimpan di dalam aplikasi 2
+hasil pengujian kuesioner menunjukkan aplikasi ar planet dapat dijadikan sarana media pembelajaran planet- planet di tata surya yang menarik
+hasil pengujian usability menunjukkan interaksi antara siswa dan aplikasi ar planet sangat baik, sehingga dapat ditarik kesimpulan aplikasi ar planet mudah digunakan
+augmented reality dapat diterapkan sebagai media pembelajaran multimedia mengenal planet-planet di tata surya yang menarik, dan mudah digunakan

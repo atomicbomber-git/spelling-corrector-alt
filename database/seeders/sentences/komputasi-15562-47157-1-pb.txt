@@ -1,0 +1,76 @@
+indonesia memiliki keragaman bahasa yang luar biasa
+akan tetapi, keterbatasan dalam menguasai berbagai macam bahasa daerah di indonesia merupakan kendala utama bagi masyarakat umum untuk bisa mengerti bahasa daerah yang bukan berasal dari daerah asalnya
+mesin penerjemah statistik merupakan sebuah pendekatan mesin penerjemah dengan hasil terjemahan yang dihasilkan atas dasar model statistik yang parameter-parameternya diambil dari hasil analisis korpus teks paralel
+saat ini telah banyak dilakukan penelitian mengenai penerjemahaan bahasa-bahasa daerah ke bahasa indonesia
+dalam penelitian-penelitian tersebut hanya menguji nilai akurasi hasil terjemahan dari mesin yang dibangun dan belum dapat dipublikasikan dan diakses oleh pubik
+tujuan penelitian ini adalah mengimplementasikan mesin penerjemah statistik untuk menerjemahkan bahasa secara satu arah maupun dua arah berbasis android dengan menggunakan moses decoder
+sehingga dapat diakses secara luas oleh publik kapan saja, di mana saja hanya dengan menggunakan smartphone android yang terkoneksi dengan internet dalam sebuah aplikasi penerjemah bahasa
+berdasarkan hasil implementasi, aplikasi ini sudah berjalan dengan baik pada perangkat mobile android, mulai dari android versi 4.0.3 hingga android versi 6.0.1 
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 1477 yang berarti aplikasi ini diimplementasikan dengan sangat baik
+bahasa indonesia merupakan bahasa nasional yang mempertasikan seluruh masyarakat indonesia
+faktor identitas sosial masyarakat seperti perbedaan status, kedudukan ekonomi, pendidikan dan lain-lain menyebabkan adanya keragaman budaya dan bahasa
+sebagai makhluk sosial manusia perlu berinteraksi dengan manusia lainnya menggunakan bahasa untuk menyampaikan apa yang mereka maksud
+bahasa yang digunakan bertujuan untuk menyampaikan ide, keinginan, perasaan maupun pengalaman kepada orang lain
+menggunakan bahasa yang dapat dimengerti satu sama lain
+indonesia memilki keberagaman bahasa dan budaya yang sangat luar biasa
+ada sebanyak 726 bahasa daerah dengan 719 bahasa daerah diantaranya yang masih aktif digunakan sehari- hari diseluruh pelosok indonesia
+tetapi kemampuan menguasai berbagai macam bahasa yang terbatas merupakan masalah yang umum
+penerjemahan suatu bahasa ke bahasa lain dengan penerjemahan per kata dianggap tidak selalu pas atau akurat untuk menerjemahkan bahasa tersebut
+tidak jarang akan menghasilkan penafsiran yang aneh dan membuat hilangnya arti dan maksud yang terkandung dari sebuah kalimat
+saat ini telah banyak dilakukan penelitian mengenai penerjemahaan bahasa-bahasa daerah ke bahasa indonesia
+dalam penelitian-penelitian tersebut hanya menguji nilai akurasi hasil terjemahan dari mesin yang dibangun dan belum dapat dipublikasikan dan diakses oleh pubik
+uraian penelitian merupakan menyalin mengalihbahasakan
+penerjemahan adalah kegiatan ke dalam teks bahasa lain 
+berdasarkan uraian di atas, dapat disimpulkan bahwa penerjemahan adalah mengubah atau mengalihkan suatu teks atau pesan dari bahasa sumber ke bahasa target yang berbeda tanpa mengubah makna dari teks atau pesan tersebut
+mesin penerjemah penerjemah otomatis pada sebuah teks dari satu bahasa ke bahasa lainnya
+ada beberapa pendekatan untuk machine translation seperti pendekatan dengan menggunakan aturan rule-based machine translation), pendekatan dengan menggunakan contoh, dan pendekatan dengan menggunakan model statistik 
+dalam mesin penerjemah statistik, terdapat 3 komponen yang terlibat dalam proses penerjemahan dari satu bahasa ke bahasa lain yaitu : language model, translation model, dan decoder
+pada statistical machine translation, sistem penerjemahan melakukan training pada sekumpulan korpus paralel
+korpus paralel adalah kumpulan dari kalimat-kalimat dalam dua bahasa yang berbeda, yang merupakan kalimat- kalimat selaras, setiap kalimat dalam satu bahasa cocok dengan kalimat yang diterjemahkan dalam bahasa lain
+moses decoder bekerja untuk menemukan skor tertinggi dari kalimat pada bahasa target berdasarkan model translasi yang sesuai dengan bahasa sumber
+model bahasa dibangun dengan korpus monolingual bahasa target menggunakan srilm, kenlm ataupun irstlm
+selain itu, dengan menggunakan giza++ dibangun model translasi dan susunan kata untuk penerjemahan yang di-training dari korpus paralel
+unified modelling language unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem melaui internet, aplikasi android pengguna akan melakuan komunikasi data dengan web server
+pengguna mengirimkan masukan berupa kata/kalimat ke web server melalui internet dan diproses di moses decoder yang menghasilkan terjemahan dan dikirim kembali ke aplikasi android
+pengujian aplikasi black box, kompatibilitas aplikasi dan kuesioner terhadap 25 responden yang terdiri dari mahasiswa
+hasil aplikasi mesin penerjemah statistik moses decoder dengan basis android
+dalam implementasinya, mesin penerjemah statistik dengan bahasa yang sudah di bangun atau di-training memerlukan suatu masukan yang berupa kata / kalimat yang selanjutnya akan diproses oleh mesin penerjemah statistik moses decoder yang telah di-training dengan srilm dan giza++
+kemudian akan menghasilkan suatu keluaran berupa hasil terjemahan kata / kalimat dari masukan sebelumnya
+sehingga dapat ditambahkan bahasa selain bahasa yang sudah tersedia secara default pada aplikasi ini oleh admin
+bahasa yang di tambahkan dapat dikonfigurasi dengan penerjemahan satu arah dan penerjemahan dua arah
+untuk penerjemahan bahasa yang tetap, digunakan penerjemahan bahasa dua arah bahasa indonesia dan bahasa melayu pontianak
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 hingga gambar 7
+tampilan menu utama pada gambar 4, merupakan tampilan menu utama pada aplikasi ini
+secara satu arah dan dua arah
+menu utama memiliki 3 menu yaitu, menu login admin, menu penerjemahan bahasa melayu pontianak dan menu penerjemahan bahasa lain 
+gambar 5 merupakan tampilan daftar bahasa dari penerjemahan satu arah
+gambar 6 merupakan tampilan untuk tambah konfigurasi bahasa oleh admin
+gambar 7 merupakan tampilan penerjemahan bahasa satu arah dari bahasa indonesia ke bahasa melayu sambas
+robustness testing robustness testing adalah pengujian dengan data input dipilih diluar spesifikasi yang telah didefinisikan
+tujuan dari pengujian ini adalah membuktikan bahwa tidak ada kesalahan jika masukan tidak valid
+pengujian ini dilakukan pada proses input data seperti penerjemahan bahasa dan tambah konfigurasi bahasa
+pada tabel 1 memperlihatkan pengujian pada penerjemahan bahasa melayu pontianak ke bahasa indonesia dalam pengujian dilakukan dengan data kosong, satu kata, dua kata dan satu kalimat
+tabel 1 tabel pengujian penerjemahan bahasa data kosong konfigurasi bahasa
+dalam pengujian ini dilakukan dengan data kosong, sebagian data kosong dan data lengkap
+tabel 2 input contoh data hasil beberapa perangkat android yang berbeda
+tabel 3 android ket dilakukan dengan cara memberi seperangkat pertanyaan atau pernyataan tertulis kepada responden untuk dijawab
+berikut adalah total skor dari kuesioner yang telah dibagikan kepada 25 responden
+analisis hasil pengujian berbasis android yang telah dilakukan adalah sebagai berikut: 1
+hasil robustness testing menyatakan aplikasi dapat meng- handle proses input dengan baik, terutama pada proses input data yang tidak sesuai dan kosong
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh bahwa aplikasi dapat berjalan pada perangkat smartphone android dengan sistem operasi versi 4.0.3 hingga versi 6.0.1 
+berdasarkan hasil pengujian kompatibilitas aplikasi, diperoleh hasil bahwa tampilan pada setiap perangkat smartphone android memiliki perbedaan, hal ini disebabkan perbedaan ukuran dan resolusi pada setiap layar smartphone android
+kurang stabilnya koneksi internet yang ada menyebabkan hal ini terjadi
+hasil kuesioner menunjukkan sebagian besar responden menerima dengan baik aplikasi ini dari segi pengoperasian, fungsionalitas dan tampilan
+hasil interpretasi skor dari likert’s summated rating menunjukkan hasil 1477 dengan nilai sangat positif yang berarti aplikasi dinilai berhasil
+hasil uji validitas pada kuesioner menunjukkan bahwa setiap item pada kuesioner bernilai valid karena nilai korelasi setiap item pada kuesioner lebih besar dari nilai korelasi tabel untuk 25 responden
+hasil uji reliabilitas pada kuesioner menunjukkan bahwa kuesioner memiliki reliabilitas yang signifikan atau dengan kata lain reliabilitas kuesioner baik, yang berarti data hasil kuesioner dapat dipercaya dengan nilai reliabilitas sebesar 0, 893 yaitu lebih besar dari nilai korelasi tabel untuk 25 responden dengan taraf signifikan 5%
+summated rating diperoleh nilai total 1477 yang berarti aplikasi ini diimplementasikan dengan sangat baik

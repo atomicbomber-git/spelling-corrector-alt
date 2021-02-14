@@ -1,0 +1,10 @@
+urul hidayani1) 1)program studi teknik informatika jurusan teknik elektro fakultas teknik universitas tanjungpura 1)email : nurulariza@gmail.com abstrack- cemara drugstore has been managing drugs sales transactions and monthly reports manually that takes a long time in operational this problem can be solved by developing drugstore information system management
+the system is implemented by using a php programming and database mysql
+the function of drugstore information system management is to manage the drugstore in recording drug sales transaction, drug purchases transaction, returns transaction, addition of drug data, addition of employeers, addition of supplier data, addition of doctor data, addition of physician data and composing monthly reports
+the drugstore information system management and database make the managements control easier in cemara drugstore
+by testing calculations using a borang that is measured with likert's scale summated rating produce a level of success with a percentage of 98.33% on simantek implemented in cemara information system management, sales transaction, purchases, return, and masyarakat dalam pelayanan kesehatan cemara masih mengatur manajemen secara konvensional apotek cemara belum memanfaatkan teknologi komputer secara pengaturan manajemen
+berdasarkan hasil pencatatan terhadap transaksi penjualan obat dilakukan di atas secarik kertas sebelum dimasukkan ke dalam buku laporan
+kemungkinan buruk yang mungkin diterima adalah bagaimana jika kertas tersebut hilang sebelum data transaksi dimasukkan ke dalam buku laporan
+hal ini tentu akan mempengaruhi pengolahan data dan permasalahan di apotek cemara adalah memerlukan waktu yang lama untuk memantau persediaan obat yang ada dan memerlukan waktu dalam pembuatan laporan karena harus membuka kembali data yang ada
+berdasarkan latar belakang tersebut perlu dibangunnya sistem informasi apotek pada apotek cemara tersebut
+apotek adalah suatu jaringan kerja dari prosedur prosedur yang saling berhubungan, berkumpul bersama sama untuk melakukan suatu kegiatan atau untuk menyelesaikan suatu sasaran yang tertentu”

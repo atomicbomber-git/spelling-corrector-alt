@@ -1,0 +1,56 @@
+pelayanan sistem yang berkualitas yang disebut dengan pelayanan prima merupakan pelayanan terbaik yang memenuhi standar kualitas pelayanan
+standar pelayanan adalah tolak ukur yang dipergunakan sebagai pedoman penyelenggaraan pelayanan dan acuan penilaian kualitas pelayanan sebagai kewajiban penyelenggara pelayanan kepada masyarakat dalam rangka pelayanan yang berkualitas, cepat, mudah, terjangkau, dan terukur
+oleh karna itu tujuan dari penelitian ini adalah menghasilkan sebuah aplikasi data center pelayanan informasi publik di kejaksaan negeri mempawah sebagai media pelayanan dan penyampaian informasi publik
+alat dalam perancangan penelitian ini adalah data flow diagram, dan pengujian menggunakan metode blackbox dengan teknik requirement testing serta pengujian kuisioner dengan 30 orang responden pengguna aplikasi publik dengan nilai kr = 0.943 dan ks = 0.886 dan 2 orang pengguna aplikasi admin dengan nilai kr = 1 dan ks = 1 dihitung menggunakan skala guttman yang berarti hasil pengujian menunjukkan aplikasi ini berjalan dengan sangat baik
+pelayanan informasi, manajemen data, sms gateway i
+pendahuluan sebagai abdi negara dan abdi masyarakat khususnya pada kejaksaaan negeri mempawah
+tugas ini telah jelas digariskan dalam pembukaan uud 1945 alinea keempat, yang meliputi 4 aspek pelayanan pokok aparatur terhadap masyarakat, yaitu melindungi segenap bangsa indonesia dan seluruh tumpah darah indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa dan melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sistem selain itu diperjelas lagi dalam keputusan menteri pendayagunaan aparatur negara no63 tahun 2003 yang menguraikan pedoman umum penyelenggaraan pelayanan sistem
+disebut dengan pelayanan prima merupakan pelayanan terbaik yang memenuhi standar kualitas pelayanan
+standar pelayanan adalah tolak ukur yang dipergunakan sebagai pedoman penyelenggaraan pelayanan dan acuan penilaian kualitas pelayanan sebagai kewajiban dan janji penyelenggara pelayanan kepada masyarakat dalam rangka pelayanan yang berkualitas, cepat, mudah, terjangkau, dan terukur
+menurut peraturan menteri pendayagunaan aparatur negara dan reformasi birokrasi republik indonesia nomor 15 tahun 2014, komponen standar pelayanan yang terkait dengan proses penyampaian pelayanan meliputi persyaratan, prosedur, jangka waktu pelayanan, biaya/tarif, produk pelayanan, dan penanganan pengaduan
+jika suatu instansi pemerintah dan lembaga lainnya mampu menerapkan standar kualitas tersebut maka sudah dapat dikatakan bahwa instansi pemerintah dan lembaga tersebut telah memberikan kualitas pelayanan yang baik
+umum penyusunan indeks kepuasan masyarakat unit pelayanan instansi pemerintah, pelayanan sistem adalah segala kegiatan pelayanan yang dilaksanakan oleh penyelenggara pelayanan sistem sebagai upaya pemenuhan kebutuhan penerima pelayanan, maupun dalam rangka pelaksanaan ketentuan peraturan perundang-undangan
+keterbukaan informasi publik, biasa dikenal dengan uu kip mewajibkan seluruh badan sistem untuk dapat mengelola informasi sistem
+pengelolaan informasi sistem tersebut dimaksudkan agar mudah diakses oleh masyarakat
+dengan prinsip keterbukaan informasi terhadap masyarakat itu, diharapkan dapat mewujudkan penyelenggaraan negara yang baik, transparan, efektif dan efisien, akuntabel serta dapat dipertanggung jawabkan
+pemerintah kejaksaan negeri mempawah juga berkewajiban menyediakan layanan informasi yang seluas-luasnya kepada masyarakat
+oleh karna itu diperlukan aplikasi data center dan pelayanan informasi publik yang dapat melayani pelayanan serta keterbukaan informasi sistem khususnya bagi masyarakat di kejaksaan negeri mempawah
+juliani okta farida#1, novi safriadi#2, narti prihartini#3 #program studi teknik informatika, univeritas tanjungpura 1julianioktafa@gmail.com, 2safriadi@informatics.untan.ac.id, 3narti.prihartini@gmail.com jl
+hadari nawawi, pontianak, kalimantan barat 78115 ii
+uraian penelitian penegak hukum yang wajib memiliki pengelolaan dokumentasi dan sistem informasi yang baik, sebagai mana tataran kebijakan 9 juni 2010 tentang peraturan dan sop yang berlaku mengenai pelayanan informasi publik jaksa agung ri telah mengesahkan instruksi jaksa agung ri nomor: ins-001/a/ja/6/2011 tentang standar operasional prosedur pelayanan informasi publik di kejaksaan
+penerbitan sop ini juga merupakan bagian dari pelaksanaan inpres no 1 tahun 2010
+sebelumnya, pada 25 agustus 2010, jaksa agung r.i telah mengesahkan peraturan jaksa agung ri no per-032/a/ja/08/2010 tentang pelayanan informasi para pejabat serta petugas yang bertanggung jawab atas pelayanan informasi publik di kejaksaan ri
+keterbukaan informasi publik undang-undang no 14 tahun 2008, tentang keterbukaan informasi publik, biasa dikenal dengan uu kip mewajibkan seluruh badan sistem untuk dapat mengelola informasi sistem
+pengelolaan informasi sistem tersebut dimaksudkan agar mudah diakses oleh masyarakat
+dengan prinsip keterbukaan informasi terhadap masyarakat itu, diharapkan dapat mewujudkan penyelenggaraan negara yang baik, transparan, efektif dan efisien, akuntabel serta dapat dipertanggung jawabkan
+maupun virtual untuk penyimpanan, manajemen, penyebaran data dan informasi
+data center yang secara harfiah berarti pusat data, adalah suatu fasilitas untuk menempatkan sistem komputer dan equipment-equipment terkait, seperti sistem komunikasi data dan penyimpanan data
+fasilitas ini mencakup catu daya redundant, koneksi komunikasi data redundant, pengontrol lingkungan, pencegah bahaya kebakaran, serta piranti keamanan fisik
+skala ini mempunyai ciri penting, yaitu merupakan skala kumulatif dan mengukur satu dimensi saja dari satu variabel yang multi dimensi, sehingga skala ini termasuk mempunyai sifat undimensional skala guttman yang disebut juga metode scalogram atau analisa skala sangat baik untuk menyakinkan peneliti tentang kesatuan dimensi dari sikap atau sifat yang diteliti, yang sering disebut isi universal atau atribut universal (universe attribute
+skala guttman merupakan skala pengukuran yang mempunyai jawaban tegas yaitu, ,, dan lain-lain
+validitas dengan skala guttman yaitu rumus koefisien reprodusibilitas dan koefisien skalabilitas sehingga terlebih dahulu kita harus menghitung koefisien reprodusibilitas dan selanjutnya koefisien skalabilitasnya secara berurutan
+rumus koefisien reprodusibilitas kr = 1- keterangan: responden yaitu apabila koefisien reprodusibiltas memiliki nilai >0, 90
+sms gateway penghubung untuk lalu lintas data sms, baik yang dikirimkan maupun yang diterima
+gateway sebagai suatu jembatan komunikasi yang menghubungkan perangkat komunikasi dengan perangkat komputer, yang menjadikan aktivitas sms menjadi lebih mudah
+sebagaimana gambar 1 berikut: dari gambar 1 tersebut bisa diartikan bahwa sms gateway sebagai suatu jembatan komunikasi yang menghubungkan perangkat komunikasi sms menjadi lebih mudah
+yang digunakan untuk menjembatani/mengomunikasikan gammu dapat digunakan disemua operating system seperti linux, unix, windows
+namun setiap os memiliki proses instalasi yang berbeda-beda
+menggunakan bahasa pemrograman pascal yang sebelumnya dikenal dengan delphi dan sekarang menjadi embarcadero delphi
+sistem yang akan dibangun berdasarkan hasil observasi langsung ke kejaksaan negeri mempawah maka sistem yang akan dibangun adalah aplikasi data center untuk pelayanan informasi yang bersifat publik di kejaksaan negeri mempawah adalah sebagai berikut
+gambar diatas adalah gambar alur pelayanan yang akan dibangun pada kejaksaan negeri mempawah
+design arsitektur sistem gambar 3 arsitektur sistem arsitektur sistem aplikasi data center dan pelayanan informasi publik di kejaksaan negeri mempawah dibangun terintegrasi dengan basisdata pada sistem informasi manajemen pemberkasan perkara, aplikasi bank data intelijen, serta website kejari mempawah
+selain itu aplikasi data center yang dapat diakses oleh publik dengan cara langsung mendatangi meja petugas informasi, informasi lainnya juga bias mereka dapatkan dengan fitur layanan sms gateway
+pengguna publik dapat mengirim pesan berupa format pesan yang telah ditentukan, maka sistem akan dengan otomatis membalas pesan tersebut
+admin user halaman ini adalah laman utama dari aplikasi data center yang digunakan oleh admin, dengan menu- menu pilihan yang ada pada bagian sebelah kiri yaitu diantarnya nya adalah menu pengaduan yang berisi daftar aduan dari masyarakat, menu permohonan informasi berisi daftar pemohon informasi dari masyarakat, fitur sms, menu kritik dan saran yang menampilkan kritik dan saran yang di inputkan oleh pengguna publik pada aplikasi pelayanan publik, serta menu pengaturan dan pengguna yang berisi pengaturan untuk header pada tampilan aplikasi publik, pengembalian data yang tidak sengaja terhapus, daftar buku tamu dan penambahan pengguna baru untuk aplikasi dengan hak akses admin
+antarmuka layanan sms yang bersisi daftar pesan masuk, daftar pesan keluar, dan penulisan pesan baru secara manual halaman inilah yang mengatur sms dapat dibalas secara otomatis
+publik user mempawah kejaksaan negeri mempawah, yang mana pada sebelah kiri terdapat beberapa button menu lain seperti info pidana yang menampilkan informasi-informasi pidana yang mana datanya diambil dari inputan aplikasi sistem informasi manajemen pemberkasan perkara, layanan pengaduan, layanan permohonan informasi, layanan kritik dan saran serta layanan menu lainnya yang menampilkan informasi bank data intelijen seperti gambar dibawah ini
+pengujian sistem fungsional perangkat lunak yang memungkinkan engineers untuk memperoleh set kondisi input yang sepenuhnya akan melaksanakan persyaratan fungsional untuk sebuah program
+black box pada perangkat lunak dilakukan untuk menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi
+pengujian validitas admin user tabel 3 hasil pengujian admin user responden n: 2 x 9 = 18 kr = 1 – ks > 0.60 sehingga dapat disimpulkan hasil perhitungan semua item pertanyaan adalah valid
+n: 30 x 7 = 210 kr = 1 – ks > 0.60 sehingga dapat disimpulkan hasil perhitungan semua item pertanyaan adalah valid
+pada perhitungan kedua tabel diatas jika dihitung manual dan dengan menggunakan tools skalo menunjukkan hasil perhitungan kr dan ks sama dan tidak mengalami selisih angka
+kesimpulan data center dan pelayanan informasi publik di kejaksaan negeri mempawah, maka dapat ditarik kesimpulan sebagai berikut: 1
+peneliti berhasil mengembangkan aplikasi data center dan pelayanan informasi publik di kejaksaan negeri mempawah
+aplikasi yang dibangun menjadi media pelayanan publik yaitu pelayanan permohonan informasi, pengaduan serta penyampaian informasi yang bersifat publik di kejaksaan negeri mempawah
+dari hasil kuisioner menggunakan perhitungan skala guttman terhadap 2 orang admin sehingga kr = 1 dan ks = 1, yang berarti aplikasi sesuai yang diharapkan dan dapat berjalan dengan baik, dengan catatan yang terlampir pada kuisioner
+dan melakukan pengujian kepada 30 orang pengguna aplikasi publik dengan nilai kr = 0.943 dan ks = 0.886, yang berarti aplikasi sudah berjalan dengan baik

@@ -1,0 +1,55 @@
+the development of the utilization of internet and web-based programming provides many benefits
+one of the benefit is the reduction in the website must to interact directly in the real world and was replaced by various possibility cyberspace interactions are supported by a variety of facilities, such as online tour, where visitors may like to visit a place online through interactivity and interface look the website
+however, the design and creation of virtual online tour that requires experts to make its development hampered
+therefore, it is needed an application that could help the tourist or hospitality in making the website with a virtual online tour format by using a raster image files with a standard format to promote its place, without having to master the specialized web programming or using the services of experts
+system design using the unified modeling language for systems modeling process so that applications can run as needed
+meanwhile, the research method are using the concept of multifunction, that applied to the content management system to make the application can be customized by users according to their needs, and using the black box testing method that assisted with a questionnaire
+the results of the questionnaire showed that the system can work well and be accepted by users, and also can help the user to create a virtual online tour website better
+pendahuluan perkembangan pemanfaatan internet dan pemrograman berbasis web membuat nilai manfaat suatu situs web dan fasilitas pendukung interaksi dunia maya semakin meningkat
+salah satunya adalah fasilitas online tour, dimana pengunjung situs dapat seolah mengunjungi suatu tempat wisata maupun bisnis melalui interaktifitas tampilan dan antarmuka situs web secara online
+dari penelitian yang dilakukan oleh pew research group diperlihatkan bahwa lebih dari 5 juta orang amerika menyaksikan virtual tour setiap harinya pada tahun 2004 dan terus meningkat menjadi 72 juta orang pada bulan agustus 2006
+sehingga dapat diasumsukan tingkat pertumbuhan pada agustus 2010 adalah 108 juta orang amerika yang menyaksikan virtual tour
+situs web yang memiliki fasilitas virtual online tour sering kali dirancang secara khusus untuk suatu lokasi dan pengembangannya memerlukan tenaga ahli dalam pemrograman, sedangkan fasilitas ini seharusnya dapat digunakan secara lebih luas di berbagai tempat wisata dan bisnis
+oleh karena itu, dibutuhkan suatu aplikasi cms yang dapat membantu pengguna dalam membuat website virtual online tour dengan menggunakan teknologi image map, file aplikasi cms dengan format virtual online tour handjojo, fania valentina teknik informatika, universitas tanjungpura vol 1, no 2 2 gambar raster format standar, dan dapat digunakan pada semua sistem operasi
+tinjauan pustaka 2.1 vot vot atau virtual online tour adalah sebuah simulasi dari suatu lingkungan nyata yang ditampilkan secara online, biasanya terdiri dari kumpulan foto-foto panorama, kumpulan gambar yang terhubung oleh hyperlink, ataupun video, dan/atau virtual model dari lokasi yang sebenarnya, serta dapat menggunakan unsur-unsur multimedia lainnya seperti efek suara, music, narasi, dan tulisan
+istilah atau paling sering diasosiasikan dengan virtual tour yang diciptakan dengan kamera foto yang tidak bergerak dan dibuat dari sejumlah foto yang diambil dari sebuah titik pivot
+virtual tour digunakan untuk memudahkan user dalam melihat suatu lingkungan tanpa harus secara fisik melakukan perjalanan ke lokasi tersebut
+dalam penggunaannya, virtual tour diharuskan berbasis web sehingga dapat diakses dimana saja dan kapan saja
+virtual tour sangat popular digunakan oleh industry real estate, daerah-daerah pariwisata, tempat bersejarah, universitas, taman, daerah penangkaran, dan tempat- tempat umum, seperti white house dan taj mahal, serta hotel dan motel
+2.2 cms cms atau content management system adalah sebuah aplikasi yang memungkinkan seseorang untuk menambahkan atau memanipulasi isi dari suatu situs web
+cms dapat mengorganisasikan dan memfasilitasi kolaborasi suatu kreasi dari dokumen atau isi yang lain
+cms mempunyai 4 tingkatan user yang berbeda, yaitu public user, member, editor/authors, dan administrators
+fitur esensial yang menjadi ciri suatu cms, yaitu: a) kontinyuitas b) manajemen pengguna c) kontrol akses d) manajemen ekstensi e) keamanan dan penanganan error penggunaan cms memiliki berbagai keuntungan, antara lain : a) dapat menggunakan informasi berulang-ulang dengan tetap menjaga integrasi data dari sumber-sumber yang bermacam-macam
+e) tidak dibutuhkan keahlian khusus untuk memasukkan content ke dalam web
+f) memfasilitasi informasi yang bagus g) dapat mengembalikan content- content yang lama atau telah dihapus
+2.3 metode wizard wizard adalah asisten otomatis yang membantu pengguna menyelesaikan suatu tugas dengan memberi pertanyaan dan secara otomatis menjalankan suatu aksi/langkah, berdasarkan respon-respon masukan
+metode ini digunakan sebagai antarmuka untuk memudahkan pengguna melewati suatu proses dengan lebih mudah, karena hanya perlu memilih opsi- opsi yang telah dipersempit sesuai kebutuhan
+metode ini seringkali digunakan dalam proses instalasi perangkat lunak, sistem operasi, dan instalasi perangkat keras
+2.4 image map image map adalah gambar yang memiliki satu atau lebih hotspot yang didefinisikan diatas gambar dengan koordinat pada kote html yang membuat hotspot tersebut dapat di-klik ke halaman lain, seperti hyperlink biasa
+aplikasi cms dengan format virtual online tour handjojo, fania valentina teknik informatika, universitas tanjungpura vol 1, no 2 3 2.5 uml uml atau unified modeling language adalah bahasa pemodelan umum yang digunakan untuk melakukan spesifikasi, visualisasi, konstruksi, dan dokumentasi artifak dari sistem software
+perancangan sistem 3.1 perancangan arsitektur sistem arsitektur sistem secara umum dapat dilihat pada gambar 3.1 berikut : gambar 3.1 arsitektur sistem
+pada gambar 3.1 terlihat bahwa area pengguna dibagi menjadi 3, yakni : 1
+admin yang mempunyai kewenangan sebagai super-user yang dapat mengatur editor dan kewenangannya
+editor adalah pengguna yang diberi hak untuk mengatur dan mengelola data yang ada pada website-nya, dan 3
+public user adalah pengguna biasa yang dapat menikmati dan mendapatkan informasi dari website tersebut
+3.2 perancangan diagram use case pada perancangan diagram use case ini menggunakan skenario berjalannya use case dapat terlihat pada gambar 3.2 berikut : gambar 3.2 use case diagram 3.3 perancangan diagram kelas diagram kelas yang digunakan untuk melakukan visualisasi struktur kelas-kelas yang terdapat dalam sistem dapat ditunjukkan pada gambar 3.3 berikut
+aplikasi cms dengan format virtual online tour handjojo, fania valentina teknik informatika, universitas tanjungpura vol 1, no 2 4 gambar 3.3 class diagram aplikasi cms dengan format virtual online tour handjojo, fania valentina teknik informatika, universitas tanjungpura vol 1, no 2 5 3.5 perancangan diagram activity pada gambar 3.11 menggambarkan diagram aktifitas dari sistem dengan penggunaan fitur-fitur yang telah disediakan
+perancangan antarmuka aplikasi ini menggunakan bahasa pemrograman web, yakni php, html, jquery, css, dan lainnya
+antarmuka aplikasi dirancang berdasarkan halaman yang ada pada cms umumnya
+implementasi dan pengujian 4.1 metode pengujian pengujian dilakukan dengan menggunakan metode black box untuk memeriksa validitas dari integrasi dan konsistensi sistem dengan menggunakan teknik sample testing, dimana pengujian dilakukan pada proses input data
+kemudian dilakukan pengujian dalam penerimaan user terhadap sistem melalui kuisioner yang berisiskan pertanyaan- pertanyaan yang berkaitan dengan sistem yang dirancang
+pengujian menggunakan data real tanpa memperhatikan detail internal dari sistem
+pengujian dilakukan pada modul-modul dan sub-modul yang dianggap kruisial untuk diuji
+4.2 hasil perancangan dan pengujian a) untuk menggunakan aplikasi ini, user harus menginstall aplikasi terlebih dahulu karena aplikasi membutuhkan data awal yang akan diinputkan ketika proses penginstalan aplikasi terjadi
+b) hasil pengujian menunjukkan bahwa saat dilakukan input data dengan menggunakan metode black box, input data dengan keseluruhan data kosong akan menimbulkan kesalahan pada program
+akan tetapi pada sistem ini, kemungkinan terjadinya kesalahan sudah ditangani pada kode program sehingga hanya akan muncul pesan kesalahan atau instruksi pengisian data
+dengan kata lain, sistem dapat menangani data tersebut sesuai dengan apa yang diharapkan
+aplikasi cms dengan format virtual online tour handjojo, fania valentina teknik informatika, universitas tanjungpura vol 1, no 2 6 c) hasil pengujian menunjukkan bahwa saat dilakukan input data dengan salah satu data yang bernilai kosong akan menyebabkan kesalahan apabila data tersebut tidak diperbolehkan kosong di dalam basis data
+pada sistem ini kemungkinan tersebut sudah ditangani pada kode program sehingga akan muncul pesan kesalahan jika ada salah satu data yang belum diisi
+d) sistem akan menghalangi user yang memasukkan username dan password yang salah ketika proses login sehingga sistem hanya dapat diakses oleh user yang memiliki hak akses
+e) hasil perancangan dan pengujian menunjukkan bahwa aplikasi ini dapat digunakan untuk membangun sebuah website virtual online tour dengan menggunakan format gambar jpeg, bmp, gif, dan png
+f) berdasarkan hasil pengujian user acceptance dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil dan dapat diterima oleh user dengan baik
+kesimpulan berdasarkan hasil perancangan dan pengujian yang dilakukan terhadap aplikasi content management system dengan format virtual online tour yang telah dibangun, maka dapat disimpulkan bahwa : 1
+aplikasi cms dibangun dengan format vot yang berbasis image- map
+aplikasi cms ini dapat membantu pengguna dalam membangun website virtual online tour dengan menggunakan foto 180° - 360° tanpa memerlukan keahlian khusus dalam pemrograman atau menggunakan jasa tenaga ahli
+berdasarkan hasil penilaian oleh responden melalui kuisioner, aplikasi dalam membangun sebuah website virtual online tour

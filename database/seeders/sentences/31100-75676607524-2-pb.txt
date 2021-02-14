@@ -1,0 +1,96 @@
+penelitian ini bertujuan membangun sebuah sistem berbasis komputer yang dapat membantu pengelolaan hutan mangrove dengan menadopsi konsep ekonomi melingkar 
+sistem dibangun dengan pendekatan system development life cycle 
+instrumen yang digunakan untuk menggambarkan hasil analisis dan perancangan pada penelitian ini adalah unified modeling language 
+terdapat tiga tahapan besar dalam penyelesaian penelitian yaitu mengkorelasikan parameter pengelolaan hutan mangrove dengan konsep ekonomi melingkar; merancang dan mengimplementasikan sistem informasi pengelolaan hutan mangrove
+hasil yang disampaikan pada sistem ini adalah sebuah cara kontrol, koordinasi dan pengambilan keputusan pada pengelolaan hutan mangrove yang melibatkan pemerintah dan masyarakat sebagai pengguna
+sistem tersebut dibagun dalam sebuah apikasi berbasis web sehingga memudahkan pengguna dalam berkomunikasi satu sama lain dan menjalankan perannya
+beberapa proses penanaman dan pengelolaan hutan tanaman mangrove dijelaskan olehyaitu persiapan lahan, pengadaan bibit, penanaman, pemeliharaan dan pemanfaatan
+tahapan yang hampir sama juga dijelaskan oleh
+sementara ekonomi melingkar adalah konsep perbaikan dan regenarasi yang mengatur minimal konsumsi terhadap sumberdaya yang digunakan utamanya pada jumlah sumberdaya yang memang terbatas
+ekonomi melingkar dapat diterapkan baik pada jenis material teknis maupun biologis, yang tujuannya adalah untuk menekan jumlah produk ataupun bagian produk yang berakhir di tempat pembuangan atau pembakaran
+penelitian ini merupakan kelanjutan dari penelitian yang telah dilakukan sebelumnya, penelitian tersebut melakukan proses analisis kebutuhan untuk pengelolaan hutan mangrove
+tahapan analisis diperlukan serta menjadi kunci utama dalam membangun sebuah sistem informasi
+pendekatan system development life cycle dipilih dalam membangun sistem tersebut
+sdlc memiliki empat tahapan yaitu perencanaan, analisis, perancangan dan implementasi
+sementara instrumen yang diadopsi untuk melakukan proses analisis dan desain adalah unified modeling language 
+uml adalah sebuah standar bahasa grafis menspesifikan, memvisualisasikan, merancang, dan mendokumentasikan penelitian ini bertujuan membangun sebuah sistem informasi pengelolaan hutan mangrove dengan menerapkan konsep ekonomi melingkar
+sistem informasi ini memungkinkan pemerintah dan masyarakat selaku pengguna melakukan kontrol, koordinasi, dan pengambilan keputusan secara tepat
+beberapa sasaran dibuat untuk memenuhi tujuan tersebut: 1
+mengkorelasikan parameter pengelolaan hutan mangrove dengan konsep ekonomi melingkar
+merancang sistem informasi pengelolaan hutan mangrove
+mengimplementasikan sistem informasi pengelolaan hutan mangrove
+kajian pustaka zona pantai dan muara sungai, dimana habitatnya dipengaruhi oleh pasang surut air laut
+mangrove juga memiliki fungsi biologi yang berperan sebagai penyedia bahan makanan bagi biota laut yang ada dilingkungan hutan mangrove, selain itu mangrove juga mempunyai fungsi lainnya
+sementara sistem informasiadalah kumpulan komponen-komponen yang saling terintegrasi dimana dapat mengumpulkan, meproses, menyimpan, dan mendistribusikan informasi untuk mendukung proses pengambilan keputusan
+konsep ekonomi melingkar terdiri dari 15 nilai dengan tiga klasifikasi, sebagai prinsip, atribut, dan enabler
+dalam penelitiannya menjelaskan bahwa masing-masing nilai tersebut memiliki definisinya sendiri-sendiri dan dapat diterapkan dengan metode yang spesifik
+penelitianmenjelaskan hasil analisis untuk membangun sistem pengelolahaan hutan mangrove, dimana difokuskan pada objek-objek yang terlibat seperti hutan dan tanaman mangrove, bibit, biota laut, petani, dan pemerintah
+masing-masing objek ini tentunya juga menjelaskan keterhubungan satu sama lain serta secara detail memiliki sub-sub objek dan aktivitas-aktivitas turunannya
+tahapan pelaksanaan penelitian terdiri dari tiga tahapan yaitu korelasi parameter hutan mangrove dan ekonomi melingkar; merancang dan mengimplemntasikan sistem informasi pengelolaan hutan mangrove
+secara rinci metodologi penelitian dijelaskan pada gambar 1
+1 metodologi penelitian pendahuluan bahwa salah satu input awal dari penelitian ini adalah berasal dari penelitianyang telah melakukan analisis kebutuhan pengelolaan hutan mangrove
+pada penelitian tersebut telah melakukan identifikasi parameter untuk pengelolaan hutan mangrove
+pada penelitian ini parameter tersebut diadopsi dan disempurnakan
+penelitian ini membangun sebuah sistem yang dapat mengelola hutan mangrove
+konteks pengelolaan hutan mangrove pada penelitian ini melibatkan pemerintah dan masyarakat untuk melakukan kontrol, baik terhadap potensi kerusakan hutan maupun pada program pemerintah, bantuan, ataupun program swadaya masyarakat
+sistem tersebut memungkinkan masyarakat dan pemerintah memantau keadaan dan mengelola hutan mangrove mulai dari keberadaan program yang diberikan, keadaan hutan mangrove, fungsi pengelolaan, dan pengelolaan sampah
+seperti yang telah dijelaskan sebelumnya bahwa untuk meningkatkan fungsi pengelolaan hutan mangrove, sistem ini mengadopsi nilai-nilai yang ada pada konsep ekonomi melingkar
+konsep tersebut fokus pada fungsi restorasi dan regenerasi
+pada sistem yang dibangun diterjemahkan melalui beberapa pertaanyaan-pertanyaan yang harus dilengkapi pada saat setiap penerima program atau penanggung jawab program melakukan pelaporan
+proses membangun sistem informasi diawali dengan mengolah beberapa hasil analisis seperti beberapa pertanyaan pada daftar pertanyaan berikut 
+pertanyaan-pertanyaan ini mencakup nilai-nilai pada konsep ekonomi melingkar
+konsep tersebut tentunya tidak hanya ditemukan dalam daftar pertanyaan berikut, tetapi juga dapat ditemukan pada hasil analisis lain
+pada sistem informasi juga dirancang untuk mengakomodir atau bersifat dinamis jika ada pertanyaan-pertanyaan yang berkembang diluar daftar pertanaay umum yang telah disediakan
+1 pilih bantuan yang diterima o bibit o tanaman o pupuk o alat o dana o lainnya 2 apakah bantuan yang saudara terima telah disalurkan kepada masyarakat/klompok tani? 3 apakah saudara menemukan kendala dalam melaksanakan program tersebut? 4 jika bantuan yang saudara terima berupa bibit/tanaman 
+program- program atau bantuan harus didistrubusikan ke masyarakat, dan kemudian dikontrol pelaksanaannya sehingga dapat berkelanjutan
+program tersebut juga dapat diajukan langsung oleh masyarakat dengan mekanisme tertentu seperti yang dijelaskan pada alur di gambar 2
+alur tersebut juga menjadi acuan distribusi program oleh pemerintah
+setelah mendistribusikan/mendapatkan memberikan laporan kemajuan program tersebut, berikut beberapa informasi kumpulkan dalam rangka membangun sistem 
+tabel ii pelaporan jika merupakan daerah ekowisata (deskripsikan jumlah kunjungan, fasilitas, dilakukan jika informasi yang dimiliki oleh pemerintah telah memadai, untuk keperluan tersebut
+beberapa informasi digunakan untuk mendukung fungsi tersebut
+tahap selanjutnya adalah merancang gambaran awal bagaiman sistem akan dibuat
+rancangan tersebut menjadi masukkan pada saat merancang aplikasi nantinya
+dimulai dengan merancang arsitektur sistem 
+pada gambar tersebut terdapat tiga bagian yaitu database, system, dan interface domain
+ketiga bagian tersebut akan dijelaskan pada bagian hasil
+hasil berdasarkan hasil analisis diatas maka beberapa hasil dijelaskan pada bagian ini
+terdapat tiga bagian penting dari hasil, sebagai berikut
+ekonomi melingkar menjadi pembicaraan utama dalam penelitian ini
+seperti yang telah dijelaskan bahwa analisis untuk pengelolaan hutan mangrove telah didapatkan dari proses ulasan pustaka yang kemudian diidentifikasi berdasarkan pengklasifikasian objek
+dalam penelitian ini objek tersebut digambarkan dalam class diagram
+setiap class atau objek terdiri dari tiga layer/lapisan, yaitu nama objek, atribut, dan operation atau metode
+korelasi atau asosiasi yang dilakukan pada penelitian ini untuk hutan mangrove dan konsep ekonomi melingkar adalah dengan menerapkan nilai umum yang ada pada ekonomi melingkar seperti regenerasi dan perbaikan, dimana kemudian dijelaskan pada tiap objek pada hutan mangrove sehingga kedua tujuan tersebut dapat dimplementasikan
+spesifik pada ekonomi melingkarseperti waste elimination, artinya menekankan bahwa limbah yang harus dihilangkan sejak awal dan secara sistematis mempertimbangkan bagaimana limbah dapat dikurangi dan dihilangkan; systems thinking, artinya secara holistik, dan semua elemen / komponen dalam konsep harus dianggap sebagai sistem yang terintegrasi dan mempengaruhi satu sama lain; technology-driven, artinya teknologi yang sesuai dan layak secara ekonomi dapat diadopsi untuk memungkinkan proses pelacakan; economic optimisation, artinya mempertimbangkan tangguh; collaborative network, artinya memungkinkan pemangku kepentingan untuk bekerja sama dalam sektor industri atau antara berbagai sektor untuk mencapai tujuan bersama
+masing-masing objek yang telah diidentifikasi sebelumnya sehingga proses pengelolaan yang dimaksud dapat tercapai secara sinergi
+esensi pengelolaan pada penelitian ini diterjemahkan dalan sebuah sistem informasi, secara spesifik akan melibatkan sebuah aplikasi berbasis komputer
+masing-masing objek terkorelasi satu sama lain untuk menghasilkan kerjasama yang harmonis antara pemerintah dengan masyarakat selaku pengelola hutan mangrove
+proses bisnis pengelolaan hutan mangrove melibatkan antara lain aktivitas distribusi program, penanaman, perawatan, peningkatan peran hutan, dan peningkatan keterlibatan masyarakat
+pada domain ini menjelaskan bagaimana ketrlibatan data pada sistem yang dibangun
+database ini juga dapat menjelaskan bagaimana sistem akan dijalankan
+database domain tersebut digambarkan dalam sebuah class diagram, seperti dapat dilihat pada gambar 4
+pada gambar tersebut terdapat 13 class, dimana pusat objeknya adalah hutan mangrove yang terdiri dari class biota laut, tanaman mangrove, dan sampah
+class hutan mangrove juga berasosiasi dengan class program dan masyarakat
+masing-masing class tersebut juga berasosiasi ataupun memiliki turunan seperti ekowisata, fasilitas, pertanyaan, pelaporan, pemerintah, dan penanggung jawab
+proses membangun sistem informasi dapat dilihat salah satunya dari keberadaan class diagram, dan untuk menyempurnakan proses berikutnya perlu dibuat usecase diagram yang menggambarkan pola interaksi antara user dengan sistem
+4 class diagram sebelumnya di rancangan arsitektur sistem bahwa terdapat dua aktor yang terlibat langsung pada sistem pengelolaan hutan mangrove ini, yaitu pemerintah dan penanggung jawab yang merupakan perakilan dari masyarakat
+pola interaksi antara user dan sistem dijelaskan dengan menggunakan usecase diagram berikut 
+hutan tanaman mangrove dimana pada tahap ini seluruh hasil perencanaan, analisis, dan perancangan dibuat dalam aplikasi berbantuan komputer
+gambar 6 mengilustrasikan tampilan awal dari apikasi dimana terdiri dari beberapa menu yaitu home, program, distribusi, permintaan dan login
+pada dasarnya masyarakat umum dapat mengakses informasi pada laman ini
+namun hanya pengguna tertentu yang dapat mengakses secara rinci seperti yang telah dijelaskan sebelumnya pada tahap analisis
+halaman login digunakan oleh pemerintah dan penanggung jawab program untuk menjalin komunikasi dan memberikan laporannya
+setelah berhasil login berikut adalah halaman profil yang akan muncul 
+seperti yang telah dijelaskan bahwa program dapat diajukan ataupun langsung diberikan oleh pemerintah
+berikut adalah form yang dapat digunakan untuk distribusi/permintaan program/bantuan 
+penggunaan fungsi kontrol ini selain memungkinkan pemerintah melakukan kontrol terhadap program atau bantuannya tentu yang paling penting adalah fungsi pengelolaannya, dimana tindakan-tindakan priventif dan korektif terhadap kerusakan yang mungkin terjadi pada hutan mangrove dapat dilakukan
+sistem ini, seperti telah dijelaskan memberikan kesempatan pada masyarakat dan pemerintah menjalin komunikasi melalui program atau bantuan yang diberikan, sehingga memungkinkan untuk melakukan monitoring dan peningkatan sumber daya hutan mangrove bagi masyarakat dan lingkungan
+salah satu informasi yang dihasilkan pada sistem ini misalnya adalah mengetahui jumlah pengunjung, bibit, tanaman, biota laut, progress program yang diberikan oleh pemerintah, bahkan dapat juga mengetahui berapa banyak sampah yang dihasilkan oleh hutan mangrove
+informasi tersebut tentunya berguna bagi pemerintah untuk melakukan fungsi kontrolnya
+bagi masyarakat juga penting sehingga dapat memberikan kontribusi langsungnya bagi kelestarian hutan mangrove
+kesimpulan korelasi parameter pengelolaan hutan mangrove; merancang dan mengimplementasikan sistem informasi pengelolaan hutan mangrove
+sistem informasi yang dibangun mengadopsi konsep ekonomi melingkar dimana tujuan utamanya adalah melakukan regenerasi dan perbaikan sebuah sistem
+beberapa nilai yang ada pada ekonomi melingkar juga diadopsi pada sistem ini seperti waste elimination, technology-driven, dan collaborative network
+pendekatan yang dilakukan dalam membangun sistem ini adalah dengan sdlc yang juga merupakan sebuah siklus yang memungkinkan untuk dilakukan perbaikan dalam setiap tahap sistemnya
+sistem dirancang terdiri dari tiga bagian penting yaitu database domain, system domain, dan interface domain
+pengelolaan hutan mangrove yang melibatkan pemerintah dan masyarakat dapat menggunakan sistem ini untuk melakukan proses pengelolaan secara efektif
+sistem ini juga memungkinkan pemerintah untuk melakukan kontrol, koordinasi dan pengambilan keputusan secara tepat dengan memanfaatkan fungsi-fungsi yang ada pada sistem

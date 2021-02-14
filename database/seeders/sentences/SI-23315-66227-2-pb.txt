@@ -1,0 +1,17 @@
+sebagai salah satu bagian dari lembaga pemerintahan, penggunaan sistem informasi menjadi sangat penting dalam membantu kinerja kejaksaan negeri mempawah guna terselenggaranya pelayanan yang baik dan efektif kepada masyarakat
+adapun tugas utama kejaksaan negeri mempawah tidak terlepas dari aktifitas penanganan berkas perkara
+oleh karena itu tujuan dari penelitian ini adalah menghasilkan suatu sistem informasi yang dapat membuat, mengolah dan mengarsipkan data pemberkasan perkara di kejaksaan negeri mempawah
+alat dalam perancangan sistem ini adalah data flow diagram, dan pengujian sistem menggunakan metode blackbox serta user acceptance test menggunakan kuesioner dengan 10 responden yaitu jaksa sebagai pengguna sistem informasi
+hasil perhitungan kuesioner menggunakan skala likert
+perancangan penelitian ini menghasilkan sistem informasi dan manajemen yang membantu kinerja aparatur kejaksaan negeri mempawah untuk mengelola berkas-berkas perkara di kejaksaan negeri mempawah
+hasil persentase perhitungan kuesioner pada penelitian ini adalah 89, 2% yang menunjukan bahwa sistem informasi dan manajemen pemberkasan perkara sangat memuaskan dan sesuai dengan harapan dari kejaksaan negeri mempawah
+hal ini menjadi sangat penting dalam membantu kinerja kejaksaan negeri republik indonesia guna terselenggaranya pelayanan yang baik dan efektif kepada masyarakat, pemerintahan yang melaksanakan kekuasaan negara di bidang penuntutan serta kewenangan lain berdasarkan undang- undang
+dalam pelaksanaan kekuasaan negara khususnya di bidang penegakan hukum diselenggarakan oleh kejaksaan agung, kejaksaan tinggi dan kejaksaan negeri dan masing- masing tingkatan kejaksaan mempunyai wilayah hukum
+kejaksaan agung yang berkedudukan di ibukota negara republik indonesia dan daerah hukumnya meliputi wilayah kekuasaan negara republik indonesia, kejaksaan tinggi berkedudukan di ibukota provinsi dan daerah hukumnya meliputi wilayah provinsi dan kejaksaan negeri berkedudukan di ibukota kabupaten/kota yang daerah hukumnya meliputi daerah kabupaten/kota
+negara di bidang penuntutan harus mampu mewujudkan kepastian hukum, ketertiban hukum, keadilan dan kebenaran berdasarkan hukum dan mengindahkan norma-norma keagamaan, kesopanan dan kesusilaan serta wajib menggali nilai-nilai kemanusiaan hukum dan keadilan hidup dalam masyarakat
+negeri mempawah tidak terlepas dari aktivitas penanganan berkas perkara untuk segera dilakukan penuntutan, baik perkara pidana umum maupun pidana khusus
+pada saat ini mekanisme penanganan berkas perkara di kejaksaan negeri mempawah masih dilakukan secara konvensional, dimana berkas perkara diketik dan dengan komputer kemudian dicetak dan diarsipkan pada lemari arsip
+hal ini dapat menyulitkan kejaksaan negeri mempawah dalam mencari berkas-berkas perkara, pembuatan laporan bulanan dan tahunan, overload arsip, dan semua ini menyebabkan waktu pemberkasan perkara menjadi tidak efisien
+untuk mengatasi permasalah tersebut, dibutuhkan sistem yang dapat mengelola berkas perkara sehingga sebuah perkara yang sedang ditangani oleh kejaksaan negeri mempawah dapat diketahui status perkaranya, misalnya lama perkara, siapa jaksa yang menangani dan status terakhir dari perkara tersebut
+berdasarkan latar belakang yang telah dipaparkan maka penulis akan melakukan analisis, perancangan sebuah sistem informasi dan manajemen pemberkasan perkara di kejaksaan negeri mempawah
+republik indonesia bab 1 ketentuan umum pasal 2 ayat 1 adalah lembaga pemerintahan yang melaksanakan kekuasaan negara di bidang penuntutan

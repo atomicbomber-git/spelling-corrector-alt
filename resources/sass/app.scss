@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome 5
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+body {
+  font-family: "Lato", monospace;
+}
+
+.has-spelling-error{text-decoration: underline;text-decoration-color: red;}
+
+// Custom rules
+.feature-title {
+  margin-bottom: 1.5rem;
+}
+
+.menu-title {
+  font-weight: bold;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+th {
+  vertical-align: middle !important;
+}
+
+.tinymce-editor {
+  background: #fff;
+  padding: 2rem;
+  min-height: 640px;
+}

@@ -1,0 +1,146 @@
+kesalahan pengetikan dalam suatu dokumen merupakan human error yang sulit dihindari, akibatnya pesan yang ingin disampaikan tidak maksimal menggunakan fitur spelling corrector menjadi salah satu cara untuk mengecek kesalahan-kesalahan pengetikan
+metode-metode yang digunakan mampu memberikan saran- saran kata yang benar, tapi tidak mampu memperbaiki kata yang salah secara langsung
+pengguna harus memilih satu kata yang diinginkan dari saran-saran kata yang dihasilkan oleh fitur
+dibutuhkan fitur spelling corrector yang mampu memberikan hanya satu saran kata dan langsung memperbaikinya
+melihat cara berbagai macam metode memberikan saran kata, kombinasi metode peter norvig dan n-gram mampu menghasilkan satu saran kata
+kedua metode mencari saran kata menggunakan nilai probabilitas kata yang paling sering muncul di dalam kamus
+perbedaan dari kedua metode tersebut adalah peter norvig menggunakan algoritma yang mengkombinasikan proses menghapus, menambah, memisahkan, mengganti, dan memindahkan huruf pada kata yang salah
+sedangkan, n- gram menggunakan algoritma yang memperhatikan kata- kata sebelum dan sesudahnya berdasarkan kalimat di dalam kamus
+kamus yang digunakan adalah dokumen arpayang merupakan hasil dari proses membangun model bahasa menggunakan srilm
+kombinasi metode ini diuji dalam 9 skenario kesalahan penulisan dengan 160 kalimat yang masing-masing memiliki satu kata yang salah
+hasil pengujian menyatakan bahwa kombinasi kedua metode memberikan tingkat ketepatan 65, 926% dan tingkat keberhasilan 78, 07% untuk menghasilkan satu saran kata yang benar dari satu kata yang salah dalam sebuah kalimat
+kombinasi kedua metode ini dapat digunakan dalam memperbaiki kesalahan pengetikan, walaupun tidak dapat memperbaiki kata dengan tingkat kesalahan dua huruf atau lebih
+hal ini dikarenakan, peter norvig tidak mampu memperbaiki kata dengan tingkat kesalahan dua huruf dan membutuhkan korpus yang baik
+memberikan saran untuk kata-kata yang salah eja di dalam suatu teks
+sedangkan spelling corrector merupakan fitur atau aplikasi yang akan melakukan proses tersebut
+fitur ini mencari kata-kata yang salah berdasarkan data korpus yang digunakan aplikasi.sedangkan saran kata diberikan dengan perhitungan algoritma yang juga digunakan oleh aplikasi
+pemeriksa kesalahan yang bukan kata berfokus pada penanganan kata yang salah eja yang disebabkan oleh kesalahan tipografi
+sedangkan pemeriksa kesalahan kata yang sebenarnya ditekankan pada penanganan kesalahan penempatan kata dalam sebuah kalimat
+banyak membahas kesalahan kata yang disebabkan oleh kesalahan tipografi
+referensimemperbaiki kesalahan- kesalahan kata di dalam dokumen menggunakan metode pendekatan dictionary lookup, n—gram dengan perhitungan cosine similarity, dan levensthein distance
+data yang digunakan sebagai data penentu adalah kamus bahasa indonesia, akibatnya metode-metode yang digunakan hanya memperhatikan huruf-huruf di dalam kata yang dianggap salah
+dokumen menggunakan metode n-gram dan cosine similarity
+metode n-gram yang digunakan memperhatikan tiga kata atau disebut trigram
+kata-kata yang salah ditentukan dari kamus bahasa indonesia dan data latih
+data latih berupa kalimat-kalimat yang kemudian dipecah menjadi perkata, disertai kata sebelum dan kata setelahnya
+cosine similarity menghitung nilai kesamaan antara kata yang salah, disertai kata sekitarnya, dengan kalimat target yang ada di data latih
+kata yang memiliki nilai kesamaan tertinggi menjadi saran kata.hasil persentase perbaikan sangat minim karena kuantitas data latih yang sangat kurang untuk menggunakan metode n-gram dengan memperhatikan tiga kata
+dan bk-trees yang dibantu metode levensthein distance spelling corrector bahasa indonesia dengan kombinasi metode peter norvig dan n-gram maya salinka simanjuntak #1 jalan prof
+hadari nawawi, pontianak, kalimantan barat 1 salinkamaya@gmail.com 2 hs@untan.ac.id 3 safriadi@informatics.untan.ac.id korespondensi : maya salinka simanjuntak 18 dalam memberikan saran-saran kata untuk kata-kata yang di-input-kan melalui aplikasi.kedua metode memproses satu per satu kata yang salah, namun menentukan saran kata tertinggi dengan cara yang berbeda
+aplikasi yang dibuat menggunakan korpus yang dipecah menjadi kamus
+hasil penelitian menyatakan bahwa nilai precisionpeter norvig lebih tinggi daripada bk-trees.sebaliknya, nilai recall peter norvig lebih rendah daripada bk-trees
+penelitian ini menggabungkan dua metode peter norvig dan n-gram
+kedua metode diimplementasikan ke dalam sebuah aplikasi untuk mencari saran kata
+aplikasi tersebut menguji kesalahan satu kata di dalam kalimatinput
+data yang digunakan adalah dokumen arpa yang berisi nilai-nilai probabilitas dari serangkaian n kata
+dokumen arpa didapatkan dari hasil proses membangun language model dari suatu dokumen .txt atau disebut korpus menggunakan script srilm
+contoh teks tulis atau lisan dalam bentuk data yang dapat dibaca dengan menggunakan seperangkat mesin dan dapat diberi catatan berupa berbagai bentuk informasi linguistik
+korpus dimodifikasi terlebih dahulu untuk dapat membangun language model korpus tersebut
+language model menetapkan probabilitas p ke serangkaian n kata dengan means sebuah distribusi probabilitas
+rangkaian-rangkaian tersebut bisa berupa frase-frase atau kalimat-kalimat dan probabilitasnya dapat diperkirakan dari korpus dokumen-dokumen yang besar
+salah satu contoh pendekatan language model adalah n- gram model
+model bahasa n-gram merupakan jenis probalilistik language model untuk memprediksi item berikutnya dalam urutan tersebut dalam bentuk 
+pengujian dilakukan dengan menghitung nilai precision dan recall
+precision dapat diartikan sebagai ketepatan atau kecocokan antara permintaan informasi dengan jawaban terhadap permintaan itu, sedangkan recall adalah kemampuan menemukan kembali informasi yang sudah tersimpan
+hasil pengujian dapat dijadikan acuan sebagai pilihan membuat aplikasi yang membutuhkan fitur pengoreksian kata berbahasa indonesia
+alur kerja metode adalah flowchart atau bagan alir
+flowchart adalah penggambaran secara grafik dari langkah-langkah pemecahan masalah yang harus diikuti oleh pemroses
+perangkat penelitian ini terdiri dari perangkat keras dan perangkat lunak
+1) perangkat keras @ 2, 40 ghz  srilm untuk pemodelan bahasa  notepad++ untuk mengedit korpus c
+data penelitian penelitian sebelumnya yang menggunakan korpus bahasa indonesia
+korpus yang siap digunakan adalah korpus yang satu barisnya berisi satu kalimat
+korpus yang digunakan pada penelitian ini berjumlah 337.271 baris kalimat atau 170.420 kata unik
+sebelum membangun model bahasa dengan menggunakan srilm, korpus dimodifikasi terlebih dahulu untuk disesuaikan dengan format yang diperlukan dalam proses pembuatan model
+gambar 2 perintah membangun model bahasa berikut ini adalah contoh dokumen korpus.lm yang dihasilkan
+flowchart keseluruhan aplikasi dijelaskan pada gambar 4
+gambar 4 flowchart aplikasi dijelaskan dalam gambar 5 flowchart loadarpa
+gambar 5 flowchart loadarpa norvig dijelaskan dalam gambar 6 flowchart peter norvig
+langkah-langkah untuk menampilkan semua nilai bigram dijelaskan dalam gambar 9 flowchart tampilkan semua nilai bigram
+pembuatan sistem berdasarkan perancangan yang telah dikerjakan pada tahapan sebelumnya
+pada awalnya, sistem harus membaca kamus untuk merekam jumlah baris kamus yang disediakan
+kalimat uji yang telah di-input-kan diproses dahulu oleh sistem untuk menemukan kata yang salah dengan membandingkan antara setiap kata uji dan setiap baris kata yang ada di kamus
+apabila kata uji salah, maka diproses oleh metode peter norvig
+dalam prosesnya, sebuah kata dengan jumlah n huruf akan ada n penghapusan, n – 1 pemisahan, 26 penambahan, n – 1 pemindahan, 26n penggantian, dengan total 54n + 25 proses
+proses-proses ini diterapkan untuk semua huruf pada kata tersebut secara bergantian
+tiap satu langkah dalam masing-masing proses tersebut menghasilkan satu kata yang berbeda dari kata asal, kemudian kata tersebut diidentifikasi kembali
+kata-kata dari setiap langkah yang terdapat di dalam kamus disimpan sebagai kandidat-kandidat kata
+metodeini mengambil potongan-potongan karakter kata sejumlah n dalam sebuah kalimat
+n-gramdibedakan berdasarkan jumlah pemenggalan, nilai n = 1 adalah unigrams atau monogram, n =2 adalah bigrams, n = 3 adalah trigrams, dan seterusnya.persamaan umum n- gramuntuk memperkirakan probabilitas urutan kata berikutnya adalah: 𝑃 𝑤𝑛 𝑤1 𝑛−1) ≈ 𝑃 contoh proses n-gram dengan contoh kata „ini contoh kata‟ sebagai berikut: trigrams : ini contoh kata penelitianmenyatakan bahwa performansi sistem pengoreksian menggunakan implementasi metode bigram lebih tinggi dibandingkan menggunakan trigram
+penelitian tersebut mengoreksi ejaan kata dengan menggunaan metode bigram dan trigram
+penelitianyang menggunakan n-gram mendeteksi suatu kata merupakan bahasa indonesia atau bukan bahasa indonesia, juga menyatakan bahwa hasil yang cukup akurat dengan waktu identifikasi tidak terlalu lama adalah bigram
+dari contoh yang diberikan, apabila merupakan kandidat yang dihasilkan peter norvig, maka sistem mencari nilai probabilitas dari dan di dalam kamus
+selanjutnya, mencari nilai probabilitas dari kandidat-kandidat lainnya
+total nilai probabilitas yang tertinggi menjadi kata yang benar untuk kata uji
+pengujian kalimat uji yang masing-masing terdapat satu kata yang salah
+pengujian dilakukan dengan 160 kata salah dalam 9 skenario kesalahan berikut ini: 1
+skenario pengujian kesalahan 1 huruf adalah mengganti 1 huruf di kata sebenarnya dengan huruf lainnya
+skenario pengujian kekurangan 1 huruf adalah mengurangi 1 huruf sembarang tanpa mengubah huruf lainnya
+skenario pengujian kelebihan 1 huruf adalah penambahan 1 huruf di sembarang tempat tanpa mengubah huruf lainnya
+skenario pengujian kesalahan letak 2 huruf adalah memindahkan 2 huruf tanpa mengubah huruf dan jumlahnya
+skenario pengujian kesalahan 2 huruf adalah mengganti 2 huruf dengan 2 huruf lainnya
+skenario pengujian kekurangan 2 huruf adalah mengurangi 2 huruf sembarang tanpa mengubah huruf lainnya
+skenario pengujian kelebihan 2 huruf adalah menambahkan 2 huruf di sembarang tempat tanpa mengubah huruf lainnya
+skenario pengujian kesalahan 1 huruf dan kekurangan 1 huruf adalah mengganti 1 huruf dengan huruf lainnya dan mengurangi 1 huruf lainnya di sembarang tempat
+skenario pengujian kesalahan 1 huruf dan kelebihan 1 huruf adalah mengganti 1 huruf dengan huruf lainnya dan menambahkan 1 huruf lainnya di sembarang tempat precision dan recall, yaitu tp, tn, dan fn
+dalam pemeriksa ejaan, precision dapat digunakan untuk mengukur persentase metode memberikan saran kata yang relevan dari jumlah saran kata yang diberikan
+secara umum, precision dan recall dirumuskan sebagai berikut: dihasilkan dikategorikan sebagai tp
+apabila salah, maka dikategorikan sebagai tn
+dan apabila tidak dapat menghasilkan satu pun saran kata, maka dikategorikan sebagai fn
+berfungsi untuk mengambil file arpa dan menyimpannya sebagai kamus
+sedangkan, tombol perbaiki berfungsi untuk mengecek dan memperbaiki kalimat uji yang sudah dimasukkan di kolom yang sudah disediakan
+berikut ini adalah antarmuka aplikasi spelling corrector peter norvig dan n-gram, serta contoh hasil aplikasi memperbaiki kalimat
+kolom hasil perbaikan menampilkan kalimat yang sudah diperbaiki
+kolom nilai probabilitas menampilkan nilai bigram dari kata yang diperbaiki dan kandidat-kandidatnya
+namun, pada gambar 11 menjelaskan bahwa, apabila tidak terdapat kata yang salah dalam kalimat uji, maka kolom hasil perbaikan tidak perlu menampilkan kalimat uji
+sedangkan, kolom nilai probabilitas menampilkan semua nilai bigram dari kata-kata yang terdapat di dalam kalimat uji
+pada gambar 12, sistem dicoba untuk menguji satu kata yang salah dalam dua kalimat
+masing-masing kalimat dipisah dengan titik dan baris baru
+dan posisi kata yang salah berada ditengah kalimat
+sistem dapat mendeteksi kata yang salah dan memperbaikinya dengan benar
+namun, kalimat uji tidak ditampilkan dalam dua baris kalimat di kolom perbaikan
+hal ini dikarenakan, sistem dapat membaca titik, koma, baris baru, dan karakter-karakter sejenisnya, namun karakter tersebut dibaca sebagai satu kesatuan kata dari kata sebelum dan setelahnya
+pada gambar 13 sistem dicoba memperbaiki kalimat uji dengan satu kata yang salah dalam dua kalimat, namun kata yang salah berada di akhir kalimat
+serta keterbatasan metode dalam memperbaiki kata dengan tingkat kesalahan di atas satu huruf
+akibatnya, sistem mendeteksi kata lain yang dianggap salah dan mampu diperbaiki
+gambar 13 contoh perbaiki kata pada gambar 14 sistem dicoba memperbaiki kalimat uji dalam bentuk satu paragraf dengan satu kata yang sengaja disalahkan
+sistem mampu mendeteksi kata yang sengaja disalahkan dan memperbaikinya dengan benar
+padahal kata yang terdapat titik juga dianggap salah oleh sistem, namun tidak diperbaiki
+hal ini dikarenakan, kata yang sengaja disalahkan berada sebelum kata salah yang lainnya, dan sistem hanya mampu memperbaiki satu kata
+analisis masing-masing skenario yang dijelaskan dalam tabel i
+tabel i nilai pengujian total 160 89 46 25 65, 926 78, 07 dari hasil pengujian dapat dilihat metode tidak mampu menghasilkan kata yang relevan di beberapa kasus kesalahan
+baik itu kata yang tidak tepat, maupun tidak menghasilkan satu pun kandidat
+bahkan metode tidak menghasilkan satu pun kata yang relevan di sebagian besar skenario pengujian dengan tingkat kesalahan 2 huruf
+hal ini bisa disebabkan oleh beberapa hal, yaitu : 1) kata salah lainnya: sistem mendeteksi kesalahan kata yang seharusnya tidak salah, dan posisi kata tersebut berada di sebelum kata yang sengaja disalahkan
+karena sistem sudah menemukan kata yang menurutnya salah, dan sistem hanya mampu memproses satu kata yang salah dalam satu kalimat uji, akibatnya kata yang sengaja disalahkan tidak terbaca
+contohnya : „pantai lumukutan kini sudah menjadi obyek wisata berkat mapala teknik‟
+„obyek‟ adalah kata yang salah, namun „lumukutan‟ juga merupakan kata yang tidak terdapat didalam kamus
+sistem telah menemukan kata „lumukutan‟ sebagai kata salah dan tidak mendeteksi kata setelahnya
+2) kualitas korpus: kata-kata dalam korpus masih ada yang keliru
+akibatnya, apabila kesalahan kata dalam kata uji terdapat juga di dalam kamus, sistem tidak akan merekam ada kata yang salah
+sistem hanya mengeluarkan nilai bigram dari semua kata dalam kalimat uji.contohnya : „kesetaraan jender merupakan permainan untuk merusak tatanan kehidupan‟
+kata „jender‟ tidak diperbaiki karena ada di dalam kamus, walaupun kata tersebut salah
+3) peter norvig: algoritma peter norvig adalah mengubah satu per satu huruf dalam sebuah kata
+saat satu langkah dijalankan, hasilnya akan diperiksa di kamus
+apabila tidak ada, langkah tersebut diulang kembali namun dengan huruf yang lain
+hasil dari langkah sebelumnya tidak ada disimpan atau digunakan
+akibatnya, metode peter norvig tidak mampu memperbaiki kata yang salah dengan tingkat kesalahan dua huruf
+contohnya : „kita dibuat terus merangsek dalam menjalani hidup‟
+kata „merangsek‟ merupakan kata dengan kesalahan dua huruf
+sistem tidak dapat mengganggap kata tersebut benar dan juga tidak dapat memperbaikinya
+nilai bigram yang lebih tinggi akan menjadi final kandidat
+namun, apabila tidak ada satu pun nilai bigram yang lebih dari nol, akibatnya ¬¬n-gram tidak menghasilkan final kandidat dan tidak menampilkan kandidat-kandidat yang telah dihasilkan peter norvig.contohnya : „dia kehilangan kuci kotak harta karunnya‟
+kata „kuci‟ adalah kata salah yang tidak dapat diperbaiki, padahal kata tersebut hanya kekurangan 1 huruf
+setelah diperiksa di dalam korpus secara manual, tidak ada kalimat „kehilangan kunci‟ atau „kunci kotak‟ didalamnya
+5) kuantitas korpus: nilai probabilitas dari kandidat yang relevan lebih rendah dari kandidat lain
+akibatnya, metode tidak menghasilkan kata yang relevan.contohnya : „orang tua yang kerab membiarkan anaknya menonton tv sendirian‟
+kata „kerab‟ merupakan kesalahan kata dengan 1 huruf
+sistem tidak memberikan kata yang relevan, yaitu „kerap‟
+nilai probabilitas „yang kerap membiarkan‟ lebih rendah dari „yang keras membiarkan‟
+kesimpulan dan saran antara lain : 1) hasil kombinasi metode spelling corrector peter norvig dan n-gram pada kalimat bahasa indonesia memberikan 65, 926% tingkat ketepatan menemukan satu saran kata
+2) hasil kombinasi metode spelling corrector peter norvig dan n-gram pada kalimat bahasa indonesia memberikan 78, 07 tingkat keberhasilan menemukan satu saran kata
+3) kombinasi kedua metode ini dapat digunakan dalam memperbaiki kesalahan pengetikan, walaupun tidak dapat memperbaiki kata dengan tingkat kesalahan dua huruf atau lebih
+4) kombinasi kedua metode ini sangat bergantung pada korpus yang digunakan
+semakin baik korpus yang digunakan, maka semakin baik pula sistem menemukan kata yang relevan
+saran untuk pengembangan penelitian ini antara lain : 1) kombinasi metode ini dikembangkan untuk memperbaiki dua atau lebih kata yang salah
+2) kombinasi metode ini dikembangkan untuk dapat menggunakan nilai trigram dari kalimat uji, sehingga mampu memperbaiki kesalahan kata dengan memperhatikan frasa-frasa kalimat
+3) aplikasi ini sangat bergantung pada kualitas dan kuantitas korpus sehingga diperlukan aplikasi yang dapat menghasilkan korpus dengan kualitas yang baik dan kuantitas yang tinggi

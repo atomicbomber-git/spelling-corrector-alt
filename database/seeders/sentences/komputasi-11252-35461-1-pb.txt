@@ -1,0 +1,113 @@
+enentuan lokasi pembangunan tower bts dengan metode promethee e-mail: dian.aprizal@rocketmail.com pemenuhan kebutuhan telekomunikasi membuat pihak operator penyedia jaringan komunikasi berupaya memenuhi kebutuhan pelanggan
+masalah yang sering dihadapi adalah penentuan lokasi untuk membangun sebuah tower base transceiver station baru yang potensial agar sinyal dari tower tersebut dapat menjangkau wilayah pelanggan
+untuk membantu menyelesaikan masalah tersebut dibutuhkan suatu sistem pendukung keputusan yang mempunyai kemampuan analisa pemilihan calon lokasi yang tepat dengan menggunakan metode preference ranking organization for enrichment evaluation, dimana masing-masing kriteria dalam hal ini merupakan faktor-faktor penilaian dalam membandingkan satu calon lokasi dengan calon lokasi yang lainnya
+sistem pendukung keputusan untuk proses promethee ini dibuat berdasarkan data dan norma-norma faktor pemilihan lokasi pembangunan tower bts yang ada pada divisi network optimization pt telkomsel - pontianak
+hasil dari proses ini berupa nilai prioritas yang akan menjadi pertimbangan bagi pengambil keputusan untuk memilih lokasi yang tepat sebagai lokasi pembangunan tower bts yang baru
+sebagai contoh adalah teknologi telekomunikasi atau global system for mobile communication, yaitu sistem multi service yang memungkinkan komunikasi antar pengguna tanpa melihat tempat dan waktu untuk melakukan berbagai layanan, diantaranya adalah komunikasi langsung, layanan short message service dan layanan data
+penentuan lokasi tower base transceiver station untuk jaringan telepon selular menjadi masalah yang sering dihadapi oleh pihak operator penyedia jaringan komunikasi selular
+operator dituntut untuk dapat menyediakan jaringan lokasi tower bts yang potensial agar semua wilayah dapat terjangkau sinyalnya
+tower dilakukan dengan metode preference ranking organization method for enrichment evaluation 
+promethee merupakan salah satu metode dalam pengambilan keputusan
+urutan atau prioritas dalam multi criterion decision making dan merupakan salah satu metode pengambilan keputusan berdasarkan penentuan urutan atau prioritas dalam analisis multikriteria yang sangat tepat untuk digunakan dalam dugaan dominasi kriteria penggunaan nilai dalam hubungan out rangking
+sehingga diperoleh solusi atau hasil dari beberapa alternatif untuk diambil sebuah keputusan
+penggunaan promethee adalah menentukan dan menghasilkan keputusan dari beberapa alternatif dengan konsep pokoknya adalah kesederhanaan, kejelasan dan kestabilan
+promethee berfungsi untuk mengolah data, baik data kuantitatif dan kualitatif sekaligus dimana semua data digabung menjadi satu dengan bobot penilaian yang telah diperoleh melalui penilaian atau survey
+metode promethee pertama kali dikembangkan oleh jp.brans dan dipublikasikan pada tahun 1982 pada sebuah konferensi yang diorganisasikan r.nadeau dan m.landry di universitas laval, quebec canada
+dengan demikian maka penulis akan merancang system pendukung keputusan berkaitan dengan pemilihan lokasi pembangunan tower base transceiver station pada pt telkomsel pontianak sesuai dengan kriteria yang telah ditentukan dengan metode preference ranking organization method for enrichment evaluation 
+landasan teori decision support system pertama kali diungkapkan pada awal tahun 1970-an oleh michael s
+scott morton dengan istilah management decision sistem
+sistem tersebut adalah suatu sistem yang berbasis komputer yang bertujuan untuk membantu pengambil keputusan dengan memanfaatkan data dan model tertentu untuk memecahkan berbagai persoalan yang semi terstruktur
+istilah spk mengacu pada suatu sistem yang memanfaatkan dukungan komputer dalam proses pengambilan keputusan
+spk sebagai sebuah sistem berbasis komputer yang membantu dalam proses pengambilan keputusan
+spk sebagai sistem informasi berbasis komputer yang adaptif, interaktif, fleksibel, yang secara khusus dikembangkan untuk meningkatkan kualitas pengambilan keputusan
+dengan demikian dapat disimpulkan satu definisi tentang spk yaitu sebuah sistem berbasis komputer yang adaptif, fleksibel, dan interaktif yang digunakan untuk memecahkan masalah- masalah tidak terstruktur sehingga meningkatkan nilai keputusan yang diambil
+prosedur berbasis model untuk data pemrosesan dan penilaian guna membantu para manajer mengambil keputusan
+spk harus sederhana, cepat, mudah dikontrol, adaptif, lengkap dengan isu-isu penting, dan mudah berkomunikasi
+sistem pendukung keputusan memiliki tujuan sebagai berikut: 1
+membantu manajer membuat keputusan untuk memecahkan masalah
+mendukung penilaian manajer bukan mencoba menggantikannya
+metode preference ranking organization for enrichment evaluation adalah kesederhanaan, kejelasan, dan kestabilan
+dugaan dari dominasasi kriteria yang digunakan dalam promethee adalah penggunaan nilai dalam hubungan outrangking
+semua parameter yang dinyatakan mempunyai pengaruh nyata menurut pandangan ekonomi
+prinsip yang digunakan adalah penetapan prioritas alternatif yang telah ditetapkan berdasarkan pertimbangan {∀i | fi(
+, fk | x ∈ ℜ } dimana k adalah sejumlah kumpulan alternatif, dan f1 (i = 1, 2, …
+k) merupakan nilai/ukuran relatif kriteria untuk masing-masing alternatif 
+dalam promethee disajikan enam bentuk fungsi preferensi kriteria
+hal ini tentu saja tidak mutlak, tetapi bentuk ini cukup baik untuk beberapa kasus
+untuk memberikan gambaran yang lebih baik terhadap area yang tidak sama, digunakan fungsi selisih nilai kriteria antara alternative h dimana hal ini mempunyai hubungan langsung pada fungsi preferensi p : ∀ ∈ terhadap kriteria b merupakan fungsi a lebih besar dari fungsi b dan sama dengan a preferen b, atau fungsi a terhadap fungsi b adalah fungsi a sama dengan fungsi b implikasi dari fungsi a iner b
+{ d = selisih nilai kriteria { d = f – f } pada kasus ini, tidak ada beda antara a dan b jika dan hanya jika f = f ; apabila nilai kriteria pada masing-masing alternatif memiliki nilai berbeda, pembuat keputusan membuat preferensi mutlak untuk alternatif yang memiliki nilai yang lebih baik
+b) kriteria quasi pada kasus ini, dua alternatif memiliki preferensi yang sama penting selama selisih atau nilai h dari masing- masing alternatif untuk kriteria tertentu tidak melebihi nilai q, dan apabila selisih hasil evaluasi untuk masing-masing alternatif melebihi nilai q maka terjadi bentuk preferensi mutlak
+ini dapat menjelaskan pengaruh yang signifikan dari suatu kriteria
+dalam hal ini, preferensi yang lebih baik diperoleh apabila terjadi selisih antara dua alternatif diatas nilai q
+c) kriteria dengan preferensi linier { ⁄ p, preferensi dari pembuat keputusan meningkat secara linier dengan nilai d
+jika nilai d lebih besar dibandingkan nilai p, maka terjadi preferensi mutlak
+{ | | | | kecenderungan preferensi p adalah ditentukan secara simultan
+jika d berada diantara nilai q dan p, hal ini berarti situasi preferensi yang lemah = 0, 5)
+{ | | | | preferensi secara linier tidak berbeda sehingga preferensi mutlak dalam area antara dua kecenderungan q dan p
+f) kriteria gaussian kriteria ini menggunakan persamaan berikut : { } fungsi ini bersyarat apabila telah ditentukan nilai σ, dimana dapat dibuat berdasarkan distribusi normal dalam statistik
+tujuan pembuat keputusan adalah menetapkan fungsi preferensi pi dan πi untuk semua kriteria fi (i = 1, …
+, k ) dari masalah optimasi kriteria majemuk
+bobot πi merupakan ukuran relatif dari kepentingan kriteria fi; jika semua kriteria memiliki nilai kepentingan yang sama dalam pengambilan keputusan maka semua nilai bobot adalah sama
+perhitungan arah preferensi dipertimbangkan berdasarkan nilai indeks leaving flow, entering flow dan net a
+leaving flow adalah jumlah dari nilai garis lengkung yang 3 memiliki arah menjauh dari node a dan hal ini merupakan karakter pengukuran outranking b
+entering flow adalah diukur berdasarkan karakter outranked dari a
+net flow adalah selisih antara leaving flow dengan entering flow  promethee i nilai terbesar pada leaving flow dan nilai terkecil pada entering flow merupakan alternatif terbaik
+leaving flow dan entering flow menyebabkan : { ф ф menyisakan bentuk incomparable, atau dengan kata lain hanya memberikan solusi partial preoder 
+∑ ∈  promethee ii promethee ii disajikan dalam bentuk net flow berdasarkan pertimbangan persamaan: nilai dari net flow didapatkan dari jumlah leaving flow keseluruhan dikurangi dengan jumlah entering flow keseluruhan untuk mendapatkan nilai yang akan dijadikan acuan untuk rangking keseluruhan dari alternatif yang ada
+perancangan sistem user untuk menginput data tower bts dan nilai yang diperoleh berdasarkan survey yang telah dilakukan
+diagram konteks gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+yang menjelaskan urutan-urutan proses dari diagram konteks
+perancangan basis data dianalisis keterkaitan dan hubungan yang terjadi di antara entitas pembentuk sistem pendukung keputusan ini
+dalam perancangan hubungan antar entitas ini terdiri dari beberapa tahapan diantaranya adalah penentuan entitas, penentuan relasi antar entitas, tingkat relasi yang terjadi, dan konektivitas antar entitas
+hasil perancangan ketika mengakses aplikasi sistem pendukung keputusan pembangunan lokasi bts pt telkomsel pontianak sebelum mengakses halaman utama
+apabila data login yang dimasukkan sesuai, maka pengguna dapat mengakses menu- menu yang ada pada sistem pendukung keputusan ini
+antarmuka hasil perancangan halaman depan dapat dilihat pada gambar 1 berikut
+antarmuka hasil perancangan halaman utama admin dapat dilihat pada gambar 2 gambar 2
+antarmuka halaman utama admin antarmuka halaman profile digunakan untuk melihat data pengguna
+pada halaman ini terdapat menu untuk merubah password, foto dan nama lengkap
+antarmuka hasil perancangan aktivitas profile dan ubah password dapat dilihat pada gambar 3 berikut
+4 antarmuka halaman surveyor digunakan untuk memanajement data surveyor
+pada halaman ini terdapat menu untuk merubah dan menghapus data surveyor
+antarmuka hasil perancangan halaman surveyor dapat dilihat pada gambar 4 berikut
+pada halaman ini terdapat menu untuk merubah dan menghapus data tower yang telah di inputkan oleh tim surveyor
+antarmuka hasil perancangan halaman tower dapat dilihat pada gambar 5 berikut
+antarmuka halaman tower antarmuka halaman ubah kriteria adalah form tempat administrator merubah data kriteria yang sebelumnya telah di inputkan, seperti terlihat pada gambar 6 berikut
+antarmuka halaman ubah kriteria antarmuka halaman perhitungan digunakan untuk melakukan proses perhitungan berdasarkan data tower dan kriteria yang telah ditentukan sebelumnya dengan menggunakan metode promethee
+pada halaman ini terdapat menu untuk menginputkan nilai tower yang telah ditentukan dan system akan melakukan perhitungan secara otomatis menggunakan metode promethee
+antarmuka hasil perancangan halaman perhitungan dapat dilihat pada gambar 7
+pengujian sistem lokasi pembangunan bts pt telkomsel pontianak menggunakan metode black box yang akan memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan
+adapun teknik ujicoba yang digunakan dalam pengujian black box pada aplikasi ini, yaitu menggunakan teknik sample testing
+pengujian ini dilakukan pada proses input data
+pengujian juga dilakukan dengan metode uat 
+pengujian hasil keputusan pengujian berikut dilakukan dengan aplikasi yang sudah dibangun berdasarkan sample data yang ada di bab iii
+pada tabel 4.4 dapat dilihat perhitungan setiap parameter masing- masing kriteria
+kode f1, f2, f3, f4 merupakan parameter dari kriteria yaitu biaya, jangkauan, jarak dan kepadatan penduduk
+kode a1, a2, a3 merupakan data alternative objek penilaian yang berupa tower
+dalam proses penentuan prioritas pembangunan bts pt telkomsel pontianak dibutuhkan beberapa kriteria
+kriteria tersebut diantaranya: kepadatan penduduk, biaya bangun, jarak, biaya akses 
+kriteria tersebut memiliki bobot yang telah ditentukan berdasarkan sop pt telkomsel untuk membangun bts antara lain: kepadatan penduduk, biaya bangun, jarak, biaya akses 
+penghitungan nilai keanggotaaan kriteria sampai perangkingan dengan metode promethee
+pemberian nilai yang dilakukan oleh tim surveyor untuk masing-masing tower bts dapat dilihat pada tabel 1 sebagai berikut : tabel 1 data tower di pt telkomsel pontianak no nama a1, a2, a3 : alternatif objek berdasarkan nilai pemberian yang telah dilakukan oleh tim surveyor maka selanjutnya menghitung nilai prosentase kriteria berdarkan bobot yang telah ditentukan oleh pt telkomsel pontianak berdasarkan sop : a2 = 3700 x 70% = 25900 a3 = 1100 x 70% = 7700  biaya : a1 = 60000000 x 15% = 9000000 a2 = 70000000 x 15% = 1050000 a3 = 10000000 x 15% = 1050000  jarak : a1 = 70 x 5% = 3.5 a2 = 80 x 5% = 4 a3 = 25 x 5% = 1.25  akses : a1 = 40000000 x 10% = 4000000 a2 = 20000000 x 10% = 2000000 a3 = 30000000 x 10% = 3000000 selanjutnya adalah proses interferensi setiap nilai parameter kriteria kedalam rules yang telah ditentukan
+pada tabel 2 dapat dilihat hasil dari indeks preferensi yang telah ditentukan sebagai berikut: tabel 2 perhitungan nilai preferensi antar alternatif tipe preferensi kriteria level kualitatif minimum antaralternatif nilai kualitatif minimum antaralternatif v = k1 – k2 q = v/jumlah alternatif p = v – q berdasarkan kaidah maksimal diperoleh : p = 58.1 6 p =79.5 p = -79.5 p = -0.5 p = 0.5 p = 20 p = -20 p = 7 p = -7 p = -79.5 p = 79.5 p = 2.25 p = -2.25 p = 10 p = -10 p = -51.1 p = 51.1 p = 0 p = 0 p = 2.75 p = -2.75 p = -10 p = 10 ∑ ∀
+∑ ∈ ∑ ∈ index entering flow dengan menggunakan metode promethee i masih menyisakan bentuk incomparable, atau dengan kata lain hanya memberikan solusi partial preoder
+untuk mendapatkan pengurutan yang lebih baik, dilakukan dengan metode promethee ii sehingga informasi bagi pembuat keputusan lebih komplit dan realistik
+nilai dari net flow didapatkan dari jumlah leaving flow keseluruhan dikurangi dengan jumlah entering flow keseluruhan untuk mendapatkan nilai yang akan dijadikan acuan untuk rangking keseluruhan dari alternatif yang ada
+nf = 31.98 – -15.99 = 47.97 nf = -26.93 – 13.46 = -40.39 nf = -5.05 – 5.25 = -7.57 sehingga hasil dapat dilihat pada tabel 3 sebagai berikut : table 3 tabel penentuan promethee ii dari hasil kombinasi perhitungan dengan metode promethee, maka diperoleh urutan penentuan lokasi pembangunan bts berdasarkan alternatif nya adalah urutan pertama adalah a1, urutan kedua adalah a2 dan urutan ketiga adalah a3 pendukung keputusan penentuan lokasi pembangunan bts menggunakan metode promethee: 1
+proses pengurutan prioritas pembangunan bts yang tadinya memiliki kesulitan karena kriteria yang mengandung unsur subjektif sekarang dapat dipetakan secara matematis sehingga dapat dilakukan lebih objektif
+sistem yang dibangun dapat mengantisipasi penambahan kriteria 3
+pada system ini, batas nilai setiap kriteria ditentukan oleh system berdasarkan nilai hasil survey
+pengujian input data dengan menggunakan metode black box menunjukan bahwa input data kosong pada system menyebabkan eksekusi tidak berhasil
+pengujian dengan input data yang tidak sesuai pada system menyebabkan eksekusi tidak berhasil
+sistem akan mengeksekusi data bila data yang dimasukkan benar dan sesuai dan data akan langsung disimpan di dalam database
+hasil pengujian dari hasil perhitungan system dan perhitungan dengan microsoft excel dapat dikatakan equivalen karena perbedaan pembulatan yang masih dapat ditoleransi
+hasil pengujian validitas kuesioner menunjukan bahwa semua pertanyaan dalam kuesioner adalah valid untuk digunakan dalam pengumpulan data
+hasil pengujian realibilitas kuesioner yang baik dan hasilnya dapat dipercaya
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai berhasil
+kesimpulan pendukung keputusan penentu lokasi pembangunan bts pada pt telkomsel pontianak, dapat disimpulkan bahwa : 1
+metode promethee dapat digunakan untuk mengurutkan prioritas penentuan lokasi pembangunan bts dengan kriteria dan alternatif yang bersifat subjektif 2
+sistem yang dibangun menampilkan pengurutan prioritas dari nilai tertinggi ke nilai terendah
+sistem yang dikembangkan dapat ditambahkan dengan kriteria baru sehingga akan lebih memudahkan dalam pengembangan skala prioritas untuk jumlah yang cukup banyak
+berdasarkan pengujian yang telah dilakukan menggunakan metode black box, aplikasi yang dirancang dapat menghasilkan keputusan yang sudah sesuai dengan system yang sedang berjalan dan hasil keputusan yang dihasilkan sudah sesuai dengan data hasil perhitungan
+saran pengembangan sistem pendukung keputusan penentuan lokasi pembangunan bts ini adalah sebagai berikut: 1
+agar mendapatkan nilai presisi yang makin akurat, sistem pendukung keputusan ini dapat dikembangkan dengan metode lain, sehingga dapat dibandingkan hasil perhitungannya
+penambahan sistem informasi geografis akan memberikan nilai tambah tersendiri pada system dengan tujuan dapat mempernudah masyarakat luas mengetahui titik-titik lokasi pembangunan bts pt telkomsel di pontianak

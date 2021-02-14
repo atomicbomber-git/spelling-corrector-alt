@@ -1,0 +1,126 @@
+ubmitted 17-07-2018; revised 30-07-2018; accepted 31-07-2018 121 prototipe jam sholat qomatron dengan konsep internet of things primana rullyant hanif#1, tursina#2, m
+azhar irwansyah#3 #program studi informatika universitas tanjungpura jl
+hadari nawawi, pontianak 78124 1hanif.rullyant@gmail.com dilaksanakan tepat waktu
+kenyataannya, kewajiban tersebut sangat sulit dilakukan dengan berbagai alasan baik karena sibuk, lupa ataupun tidak mendengar adzan
+qomatron adalah inovasi jam salat mini dengan pengaturan yang mudah dan fungsi khusus untuk rumah, kantor maupun tempat umum lainnya
+perangkat pengingat waktu sholat ini memiliki konsep iot yaitu komunikasi jarak jauh menggunakan jaringan internet sehingga dapat melakukan pengaturan dan maintenance jarak jauh
+selain pengaturan jarak jauh, perangkat ini juga dibekali dengan koneksi wifi direct ke perangkat secara langsung tanpa jaringan internet aplikasi pengaturan dibuat berbasis web serta dapat diakses oleh perangkat yang dibekali dengan koneksi wifi dan telah terinstal browser
+perangkat pengingat waktu salat ini terdiri dari satu buah panel p 3, 75 dot matrik, 1 buah kontroller whemos d1 mini, 1 buah adaptor 5v 3a, dan bingkai
+pendahuluan mengetahui waktu salat adalah jam salat yang biasa digunakan di masjid
+sebagaimana dalam penelitian ferliyanda―perancangan pengingat waktu salat menggunakan dot matrik berbasis mikrokontroler at89s52‖ dan dalam penelitian anik―portable petunjuk salat lima waktu menggunakan mikrokontroler mcs’51 dan gps‖
+terdapat beberapa kekurangan jika digunakan di rumah berupa ukuran, fasilitas, kemudahan penggunaan dan kenyamanan servis
+pengaturan jam salat masjid hanya bisa dilakukan dengan laptop dengan menginstal aplikasi desktop yang rumit
+selain itu pada kenyamanan after sales, pada produk jam salat biasa apabila terjadi kerusakan baik ringan maupun berat harus di kirim ke kantor servis pusat
+seharusnya, ada inovasi apabila terjadi kerusakan ringan bisa ditangani atau didiagnosa dari jarak jauh sehingga dapat diperbaiki secara remote menggunakan jaringan internet hal ini akan menekan biaya dan waktu pengiriman sehingga meningkatkan pelayanan after sales produk
+dengan pengaturan yang mudah dan fungsi khusus untuk rumah, kantor maupun tempat umum lainnya
+untuk service, qomatron menggunakan iot yaitu komunikasi jarak jauh menggunakan jaringan internet sehingga dapat melakukan pengaturan dan maintenance jarak jauh
+hal ini akan membantu perbaikan pada software apabila terjadi kesalahan pengaturan maupun diagnosa kerusakan untuk membantu service point memperbaiki perangkat
+selain pengaturan jarak jauh, perangkat ini juga dibekali dengan koneksi wifi direct ke perangkat sehingga pengguna jika tidak memiliki jaringan internet, pengguna tetap dapat melakukan pengaturan nirkabel jarak dekat
+aplikasi pengaturan dibuat berbasis web serta dapat diakses oleh perangkat yang dibekali dengan koneksi wifi dan telah terinstal browser
+iot adalah salah satu trend baru dalam dunia teknologi yang memiliki konsep memperluas manfaat dari konektifitas internet
+iot dapat menggabungkan antara benda-benda fisik dan virtual melalui eksploitasi data capture dan kemampuan berkomunikasi
+perangkat yang akan digunakan digunakan untuk membuat sistem iot adalah orange pi
+perangkat ini digunakan sebagai router yang menghubungkan internet dengan perangkat sehingga data dari perangkat tersebut dapat diakses melalui internet fungsi iot pada jam salat ini adalah untuk memudahkan pengguna yang ingin mendiagnosa dan mengatur ulang jam salat dari jarak jauh jika ada kesalahan pada aplikasi firmware jam salat
+pengaturan yang dapat ubah jarak jauh adalah lokasi titik pengguna, jadwal salat, waktu iqomah, waktu menjelang adzan, running text dan waktu/jam pada jam salat tersebut
+selain itu, perangkat menggunakan orange pi dan jaringan internet untuk menghubungkan antar perangkat jam salat dan smartphone/laptop melalui jaringan internet penggunaan panel p3, 75 dot matrik dikarenakan bentuk yang lebih kecil dibanding menggunakan 4 buah panel p10 sehingga cocok bila diaplikasikan di ruangan yang lebih kecil
+aplikasi dibuat berbasis web dan tersimpan didalam memori kontroler esp8266 yang dilengkapi wifi sebagai server dan membuat koneksi tcp/ip hanya dengan menggunakan command yang sederhana
+penggunaan web yang tersimpan didalam board wemos d1 mini akan memudahkan pengguna dalam mengatur qomatron via wifi
+kemudahan tersebut dapat digunakan pada hampir semua smartphone atau laptop serta pada berbagai bentuk sistem operasi
+setelah pengguna melakukan pengaturan, informasi akan dikirim balik ke kontroler untuk di proses dan ditampilkan ke panel p3, 75 dot matrik
+menurut analisa mckinsey global institute, internet of things adalah sebuah teknologi yang memungkinkan kita untuk menghubungkan mesin, peralatan, dan benda fisik lainnya dengan sensor jaringan dan aktuator untuk memperoleh data dan mengelola kinerjanya sendiri, sehingga memungkinkan mesin untuk berkolaborasi dan bertindak berdasarkan informasi yang didapatkan
+tantangan utama dalam iot adalah menjembatani kesenjangan antara dunia fisik dan dunia informasi
+seperti bagaimana mengolah data yang diperoleh dari peralatan eletronik melakukan sebuah interface antara pengguna dan peralatan itu
+sensor mengumpulkan data mentah fisik dari skenario real time dan mengkonversikan ke dalam mesin format yang dimengerti sehingga akan mudah dipertukarkan antara berbagai bentuk format data
+isu cloud computing juga menjadi bahan penelitian internet of thingss dengan menggabungkan teknologi cloud computing dan internet of thingss yang disebut dengan cloudthings, dengan arsitektur yang ditunjukkan pada gambar 2.3
+mikrokontroler wemos mikrokontroler wemos adalah sebuah mikrokontroler pengembangan berbasis modul mikrokontroler esp 8266 yang memiliki kemampuannya untuk menyedikan fasilitas konektifitas wifi dengan mudah serta memori yang digunakan sangat besar yaitu 4 mb
+pada mikrokontroler wemos memiliki 2 buah chipset yang digunakan sebagai otak kerja platform tersebut yaitu chipset esp8266 dan chipset ch340
+rangkaian mikrokontroler akan merespon perintah dari website ke jam sholat dengan waktu jeda sekitar 5 detik yang dipengaruhi oleh koneksi internet pada perangkat pengguna dan kestabilan server sistemc
+orange pi zero orange pi zero merupakan sebuah komputer yang berukuran kecil yang dapat digunakan seperti sebuah personal computer 
+dikatakan kecil karena kurang lebil ukurannya sebesar kartu nama dan untuk dapat menghidupkannya dapat menggunakan charger/ adaptor sebesar 5v
+orange pi zero dapat digunakan untuk membuat peralatan elektronik, robot, menjadi media server, atau menjadi perangkat iot
+orange pi zero juga menggunakan mali 400 mp2 untuk pengolah grafis, yang mampu merekam vidio high-definition
+shenzhen xunlong, pengembang orange pi zero mengklaim dapat menangani vidio h.265 4k, namun perangkat keras ini tidak dikembangkan untuk itu
+orange pi zero juga tidak memiliki port untuk layar
+pada ruang penyimpanan menggunakan kartu sd dan memori 512mb
+orange pi zero juga sudah dilengkapi dengan interface jaringan ethernet dan nirkabel 802.11b/g/n
+juga terdapat slot ekspansi dan pin untuk menambatkan papan lain, serta tersedia port usb 2.0
+jadwal sholat sepanjang masa jadwal salat sepanjang masa disebut juga jadwal salat abadi ataupun jadwal salat untuk selama-lamanya
+penamaan itu karena jadwal salat tersebut dapat digunakan untuk penentuan awal waktu salat untuk selama-lamanya, abadi, atau sepanjang masa
+pada jadwal salat sepanjang masa itu terdapat penentuan awal waktu salat selama satu tahun penuh dari bulan januari sampai bulan desember
+hasib biasa melakukan interpolasi antara 3-5 hari untuk efisiensi sehingga jadwal dapat disajikan dalam selembar data
+hal ini untuk memudahkan dalam pemajangannya
+sebuah jadwal salat hanya mencantumkan waktu dalam ukuran jam, menit dan tidak mencantumkan ukuran detiknya
+dalam perhitungan jadwal salat digunakan data- data yang riil dan dilakukan koreksi-koreksi posisi matahari untuk perhitungan
+data deklinasi matahari dan equation of time yang biasa digunakan dalam perhitungan awal waktu salat oleh para ahli falak biasanya adalah data deklinasi matahari pada waktu perhitungan awal waktu zuhur
+jadi tidak menggunakan data-data riil untuk perhitungan masing- masing waktu salat
+ini berdasarkan argumentasi karena data deklinasi matahari dalam satu hari itu tidak banyak perubahannya
+dalam perhitungan jadwal waktu salat sepanjang masa, data deklinasi matahari yang digunakan adalah data deklinasi matahari rata-rata
+secara sederhana deklinasi matahari itu berubah setiap empat tahun
+jadi data rata- rata dalam empat tahunan itulah yang digunakan dalam perhitungan ini
+data ini relatif hampir sama walaupun tidak eksak sama dengan data deklinasi riil pada saat dilakukan perhitungan, tapi tidak signifikan perubahannya dari tahun ke tahun walaupun dalam jangka waktu puluhan, ratusan, bahkan ribuan tahun
+digunakan itu tidak banyak berubah dari waktu ke waktu, maka sebuah jadwal salat itu dapat diberlakukan sepanjang masa, abadi ataupun untuk selama-lamanya dengan rumus- rumus yang dibakukan berikut ini: 1
+tanggal, bulan dan tahun dan kalender gregorian 6
+1 desain arsitektur sistem berikut penjelasan gambar 1 pada tabel 1
+tabel 1 halaman web dengan mengakses 192.168.4.1 b mengirimkan data web untuk ditampilkan c mengirimkan data 1/0 untuk mengaktifkan/non aktifkan buzzer waktu mundur untuk ditampilkan ip publik 139.59.236.180 pada global network 3-4 vpn mengirim permintaan ke orange pi dengan ip 192.168.8.1 5 orange pi meneruskan permintaan ke wemos dengan ip 192.168.4.1 7-2 orange pi meneruskan data dari wemos ke vpn 3-8 vpn mengirimkan data ke smartphone untuk menampilkan halaman web web
+pada penelitian ini, device dapat berfungsi sebagai server pada mode online yaitu dengan iot serta mode offline dengan komunikasi wifi direct
+tambahan untuk sehingga server dapat berkomunikasi dengan perangkat pengontrol melalui jaringan internet umum
+perangkat tersebut adalah orange pi yang bertugas dalam ip forwarding
+selain itu, perlu adanya virtual private server untuk memiliki virtual private network agar dapat menerima hasil ip forwarding dan menghasilkan ip publik
+ip publik inilah yang akan diakses pada smartphone/laptop sehingga aplikasi web dapat digunakan seperti penggunaan pada mode offline
+pada mode offline, kontroler menggunakan jaringan wifi direct sehingga perangkat pengontrol akan mengakses langsung ke kontroller tanpa jaringan internet perangkat pengontrol tersebut mula-mula disambungkan dengan jaringan wifi pada qomatron
+setelah itu perangkat pengontrol akan mengirim permintaan pada web browser sesuai alamat ip yang telah ditentukan sehingga kontroller akan mengirimkan halaman aplikasi web pada web browser perangkat pengontrol
+setelah berhasil melakukan pengaturan dan pengisian data pada perangkat, maka akan dikirimkan kembali ke kontroler untuk selanjutnya diproses dan menghasilkan fungsi yang diinginkan
+pada gambar 3.2 ditunjukkan perancangan arsitektur aplikasi pada aplikasi yang dibuat
+perancangan antarmuka aplikasi perancangan antarmuka berisi rencana tampilan dari aplikasi yang berperan sebagai media komunikasi antara aplikasi dengan pengguna
+gambar 3.3 berikut ini adalah struktur perancangan antarmuka pada aplikasi yang dibuat
+pengujian aplikasi pengujian akurasi program jam salat
+blackbox testing adalah tipe pengujian yang memperlakukan perangkat lunak yang tidak diketahui kinerja internalnya
+sehingga para tester memandang perangkat lunak seperti layaknya sebuah ―kotak hitam‖ yang tidak penting dilihat isinya, tapi cukup dikenai proses testing di bagian luar
+jenis testing ini hanya memandang perangkat lunak dari sisi spesifikasi dan kebutuhan yang telah didefinisikan pada saat awal perancangan
+wemos d1 mini yang telah tertanam firmware jam salat dihubungkan dengan real time clock yang terdiri dari rangakaian ic dan baterai
+pada program aplikasi ini menggunakan jam sebagai acuan sehingga dibutuhkan rtc untuk menjaga waktu pada kontroller tetap berjalan walaupun dalam keadaan mati atau tidak stabil
+selain rtc pada kontroler, terdapat buzzer untuk output suara ―beep‖
+kedua alat tersebut dihubungkan menjadi satu rangkaian yang berfungsi sebagai alarm yang aktif sesuai waktu yang ditentukan
+selain mengatur output suara, wemos d1 mini juga memberi output pada panel p4, 75 dot matrik yang berfungsi menampilkan informasi jadwal salat, jam, tanggal, running text, peringatan pra-adzan, peringatan waktu adzan, peringatan iqomah dan lainnya
+panel tersebut merupakan interface yang langsung bertatap muka antara pengguna dan perangkat jam salat qomatron
+selain sebagai pengontrol input dan output, wemos d1 mini juga melakukan proses perhitungan falak, penyimpanan aplikasi firmware serta aplikasi web
+pada penelitian ini, wemos d1 mini dapat berfungsi sebagai server pada mode online yaitu dengan iot serta mode offline dengan komunikasi wifi direct
+tambahan untuk sehingga server dapat berkomunikasi dengan perangkat pengontrol melalui jaringan internet umum
+perangkat tersebut adalah orange pi yang bertugas dalam ip forwarding
+selain itu, perlu adanya virtual private server untuk memiliki virtual private network agar dapat menerima hasil ip forwarding dan menghasilkan ip publik
+ip publik inilah yang akan diakses pada perangkat pengontrol sehingga aplikasi web dapat digunakan seperti penggunaan pada mode offline
+internet yang dihubungkan harus internet terbuka tanpa mikrotik seperti pada prodi teknik informatika dengan topology tree yang berfungsi untuk menghubungkan antara komputer satu dengan komputer yang lainnya sehingga terhubung secara terpusat pada sebuah perangkat keras switch
+pada mode offline, kontroler menggunakan jaringan wifi direct sehingga perangkat pengontrol akan mengakses langsung ke kontroller tanpa jaringan internet perangkat pengontrol tersebut mula-mula di sambungkan dengan jaringan wifi pada qomatron
+setelah itu perangkat pengontrol akan mengirim permintaan pada web browser sesuai alamat ip yang telah ditentukan sehingga kontroler akan mengirimkan halaman aplikasi web pada web browser perangkat pengontrol
+setelah berhasil melakukan pengaturan dan pengisian data pada perangkat, maka akan dikirimkan kembali ke kontroler untuk selanjutnya diproses dan menghasilkan fungsi yang diinginkan
+data yang diberikan dari aplikasi web pada program firmware jam salat
+pada aplikasi web, terdapat 3 fungsi pengaturan utama yang berkenaan dengan fungsi jam salat yaitu pengaturan umum, pengaturan waktu dan tanggal serta pengaturan jeda iqomah dan hitung mundur waktu salat
+pengujian metode blackbox pengujian metode blackbox akan memeriksa apakah aplikasi yang dibangun dapat berjalan dengan benar sesuai dengan yang diharapkan
+data pengujian dipilih berdasarkan spesifikasi masalah tanpa memperhatikan detail internal pada tabel 2 memperlihatkan pengujian keseluruhan kebutuhan sistem dan implementasinya
+ smartphone/laptop melalui jaringan q9 aplikasi mampu mengirim informasi ke smartphone dan mengirimkan kembali q10 jam salat mampu mengingatkan waktu salat sesuai falak secara visual melalui running text dan suara ‘beep’
+ q11 jam salat mampu menampilkan informasi waktu salat, tanggal, jam, nama masjid, running text
+ q12 jam salat mampu menampilkan count down sebelum adzan dan sebelum iqomah serta menampilkan count up setelah iqomah
+ jenis browser sehingga terlihat apakah aplikasi kompatibel dengan perangkat yang digunakan dalam pengujian
+berikut ini hasil rekapitulasi pengujian kompatibilitas aplikasi yang dapat dilihat pada tabel 3
+pada pengujian ini seluruh sistem berjalan dengan baik kecuali pada tombol gps pada halaman pengaturan umum
+hal ini dikarenakan pengambilan data koordinat dipanggil dari browser yang digunakan dalam keadaan offline
+tabel 3 iphone 7 plus ios 10.3.2 opera mini berhasil huawei android berhasil 3
+pengujian akurasi program jam salat pengujian akurasi program jam salat dilakukan dengan mengambil 5 titik berbeda yang tersebar di kota pontianak
+lokasi yang diambil adalah pertigaan jl
+ampera, museum tugu khatulistiwa, sungai raya dalam, taman alun kapuas serta pertigaan jl
+titik berbeda di kota pontianak tabel 4.3 hasil pengujian waktu shalat pada 5 titik di kota pontianak no lokasi koordinat jadwal sholat 1
+hasil dari pengujian jam salat pada 5 titik di kota pontianak menampilkan waktu salat yang sama begitu juga pada tabel jam salat 
+analisis hasil pengujian jam salat qomatron: 1
+pengaturan jam salat dengan aplikasi ini yang dipasang pada smartphone iphone 7 plus dapat berjalan sesuai dengan rancangan, yaitu smartphone melakukan koneksi dengan jam salat melalui koneksi internet pada mode online dan wifi direct pada mode
+setiap fitur pada aplikasi telah diuji dan berhasil dijalankan oleh aplikasi
+kompatibilitas aplikasi terhadap sejumlah browser di beberapa perangkat produk apple cukup baik berdasarkan pengujian yang telah dilakukan
+seluruh sistem berjalan dengan baik kecuali pada tombol gps pada halaman pengaturan umum
+hal ini dikarenakan pengambilan data koordinat dipanggil dari browser yang digunakan dalam keadaan offline
+koneksi iot pada jam salat ke internet harus sudah diatur sebelum aplikasi diakses pada mode online
+untuk melakukan pengontrolan jaringan dilakukan pengaturan pertama kali menggunakan terminal/command prompt sehingga untuk selanjutnya orange pi telah dikenali oleh jam salat qomatron
+pada mode online, pengguna dapat mengatur jam salat dimana saja selama jam salat telah berhasil melakukan sambungan dengan jaringan internet begitu juga perangkat pengontrol dengan internet 5
+pada dasarnya, pada mode offline jam salat dirancang untuk pengontrolan jarak dekat, namun qomatron masih tetap dapat dikendalikan hingga jarak masksimal 8, 5 meter
+yang dilakukan terhadap aplikasi web jam sholat qomatron dapat disimpulkan bahwa 1
+prototipe jam salat qomatron dengan konsep internet of thing menggunakan wemos d1 mini berbasis web berhasil dijalankan pada beberapa sistem operasi
+fitur yang diapat dijalankan pada jam salat qomatron adalah menampilkan jadwal salat, waktu iqomah, waktu menjelang adzan, running text, jam dan tanggal 3
+di seluruh wilayah kota pontianak memiliki jadwal salat yang sama

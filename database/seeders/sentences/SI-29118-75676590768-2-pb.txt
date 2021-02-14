@@ -1,0 +1,94 @@
+plikasi informasi harga kebutuhan pokok masyarakat real time elis hernawati#1, ely rosely#2, rosa wulan handini#3 #program studi sistem informasi diploma tiga, fakultas ilmu terapan, universitas telkom 1 elishernawati@tass.telko�university.ac.id 2 ely.rosely@tass.telkomuniversity.ac.id 3 mi16.6701161018@gmail.com untuk meningkatkan penyampaian informasi kinerja pemerintah melalui media diseminasi informasi sesuai standar pelayanan minimal bidang kominfo dan meningkatkan ketersediaan data dan informasi statistik yang berkualitas, penelitian ini membangun sebuah aplikasi berbasis web yang dapat menyajikan informasi harga kebutuhan pokok masyarakat secara realtime di kabupaten bandung
+aplikasi dibangun untuk membantu petugas diskominfo kabupaten bandung ketika akan menginformasikan daftar harga kebutuhan bahan pokok secara uptodate
+selain itu aplikasi dapat membantu masyarakat ketika mencari informasi mengenai harga kebutuhan pokok di kabupaten bandung sehingga tidak perlu mendatangi kantor diskominfo
+metode yang digunakan dalam penelitian ini adalah metode waterfall
+metode ini digunakan karena proses dilakukan secara bertahap dan berurutan dari mulai analisis hingga pengujian aplikasi sehingga kualitas aplikasi yang dihasilkan akan baik
+implementasi pembuatan aplikasi menggunakan framework codeigniter, dengan bahasa pemograman php, serta software pengolah databasenya mysql
+metode pengujian software menggunakan black box testing
+dengan adanya aplikasi ini masyarakat dapat mengetahui informasi harga kebutuhan pokok dengan mudah dan uptodate
+pendahuluan bidang statistik dan bidang persandian
+dinas kominfo berdiri berdasarkan peraturan daerah nomor 12 tahun 2016 tentang pembentukan dan susunan perangkat daerah
+ada beberapa hal yang ingin diwujudkan oleh pemerintah kabupaten bandung di tahun 2017 ini, melalui keberadaan diskominfo, diantaranya meningkatkan eksistensi dari urusan kewenangan komunikasi informatika, urusan kewenangan statistik, serta urusan kewenangan persandian
+diharapkan, diskominfo dapat menjadi suatu lembaga yang dapat diandalkan dalam penyediaan informasi yang berkualitas, baik untuk kebutuhan internal maupun eksternal melalui optimalisasi sistem aplikasi berbasis web
+salah satu informasi yang diperlukan oleh pihak eksternal dalam hal ini masyarakat kabupaten bandung adalah informasi harga kebutuhan pokok masyarakat
+saat ini pengelolaan informasi harga kebutuhan pokok masyarakat di diskominfo dan statistik kabupaten bandung belum terorganisir dengan baik
+untuk mendapatkan informasi harga kebutuhan pokok masyarakat kabupaten bandung harus mendatangi langsung ke kantor diskominfo
+dalam rangka mempermudah masyarakat dalam pemenuhan kebutuhan informasi sesuai dengan undang-undang republik indonesia no 14 tahun 2008 tentang keterbukaan informasi publik, maka perlu dilakukan penelitian dan dibangun sebuah aplikasi untuk mengelola data harga kebutuhan pokok masyarakat secara real-time sehingga masyarakat mendapatkan informasi dengan mudah dan uptodate
+dengan dibangunnya aplikasi informasi harga kebutuhan pokok masyarakat real time, selain masyarakat mudah mendapatkan informasi harga kebutuhan pokok secara mudah dan uptodate, masyarakat diharapkan dapat melihat informasi harga kebutuhan pokok secara periodik dalam bentuk statistik dan informasi grafis sehingga informasi menjadi lebih mudah dibaca dan lebih menarik
+yang dirancang agar kita dapat menyelesaikan tugas-tugas tertentu
+sebagai contoh, aplikasi word processing adalah sebuah aplikasi yang diperuntukkan membuat dokumen tertulis, aplikasi web browser adalah aplikasi yang korespondensi : elis hernawati halaman web
+internet menurut shelly vermatinternet merupakan suatu koleksi dari world wide web yang mempunyai jaringan dari jutaan bisnis, pemerintah, edukasi, institusi, dan perorangan didunia ini
+menurut catherine juon et, alinternet adalah sebuah peningkatan pemasaran yang penting dan alat penjual pembayar menyukai itu karena itu terdapat informasi yang kaya dimana mereka dapat meneliti dan mudah membuat perbandingan
+marketer menyukai itu karena penawaran online dapat terjangkau dan terukur dalam waktu yang sama
+framework framework adalah sebuah kerangka kerja dalam aplikasi yang didalamnya memiliki suatu potongan-potongan program yang disusun, sehingga programmer tidak perlu membuat kode dari nol, karena framework telah menyediakanya
+dengan adanya framework, pekerjaan kita akan lebih tertata dan terorganisir
+sehingga dalam pencarian kesalahan dalam pembuatan program akan lebih mudah dideteksid
+codeigniter codeigniter merupakan framework php yang diklaim memiliki eksekusi tercepat dibandungkan dengan framework lainnya
+codeigniter bersifat opensource dan menggunakan model basis mvc, yang merupakan model konsep modern framework yang digunakan saat ini
+dengan konsep mvc ini, segala macam logika dan layout telah dipisahkan sehingga programmer dan designer dapat mengerjakan masing-masing tugasnya secara fokus
+codeigniter, segala macam perintah-perintah query sql diletakan dalam file model
+dan model melalui permintaan dari http
+view view merupakan suatu halaman yang digunakan untuk menyajikan informasi kepada client
+segala macam permintaan yang dikelola oleh controller dan model akan dikembalikan kepada view sesuai hasil permintaan yang di- request
+model ini mengusulkan sebuah pendekatan pengembangan software yang sistematik dan sekuensial yang mulai dari tingkat kemajuan sistem pada seluruh analisis, desain, kode, pengujian dan pemeliharaan
+gambar 1 model waterfall melakukan wawancara ke diskominfo bidang statistik sehingga dengan informasi yang didadapatkan dilakukan analisis sistem yang sedang berjalan
+design setelah mendapatkan data yang di butuhkan pengguna selanjutnya melakukan tahapan desain, desain yang dilakukan adalah seperti desain basis data, desain tampilan, dan desain alur dari sistem yang akan dirancang
+tools yang digunakan pada tahap ini adalah yed
+implementation pada tahap ini dilakukan pengubahan desain yang sudah dibuat kedalam sebuah kode-kode program dengan menggunakan bahasa pemrograman
+tools yang digunakan yaitu sublime text, xampp
+verification pada tahap ini dilakukan testing pada aplikasi yang sudah dibuat untuk menguji apakah sistem telah berjalan sesuai dengan fungsionalitas yang diinginkan
+dilakukan testing menggunakan metode blackbox testing 5
+maintenance pada tahap ini dilakukan perawatan pada aplikasi yang sudah dibuat, dan melakukan pengembangan aplikasi termasuk memperbaiki kesalahan yang tidak ditemukan pada tahapan sebelumnya
+analisis kebutuhan sistem setelah menganalisis sistem yang sudah ada maka diperlukan sebuah aplikasi yang dapat memenuhi kebutuhan informasi masyarakat secara realtime, dengan adanya aplikasi ini pemenuhan informasi kepada masyarakat dapat dilakukan melalui internet sehingga masyrakat tidak harus datang langsung ke diskominfo
+aplikasi ini juga akan membuat informasi yang menarik dan mudah dipahami oleh masyarakat dalam bentuk grafis
+input data bahan pokok, untuk melakukan inputan bahan pokok dilakukan oleh opd dan di validasi oleh diskominfo
+login, untuk masuk kedalam sistem user yang akan menggunakan aplikasi harus login terlebih dahulu, jika belum mempunyai akun maka user harus melakukan pendaftaran
+pendaftaran, jika belum mempunyai akun maka user harus melakukan pendaftaran dengan memasukan data diri user
+jika sudah melakukan pendaftaran maka user bisa masuk ke login dan memasukan username dan password
+pada menu utama terdapat proses melakukan inputan data kebutuhan pokok, jika data yang akan diinput sudah ada maka lakukan update data kebutuhan pokok
+membuat laporan, jika data sudah tersimpan maka user melakukan pembuatan laporan per minggu dengan melakukan perhitungan rata-rata harga kebutuhan pokok selama seminggu 6
+masyarakat dapat masuk kedalam website tanpa melakukan login terlebih dahulu
+jika masyarakat ingin mencari data bahan pokok tertentu maka masyarakat dapat melakukan pencarian data bahan pokok berdasarkan nama bahan pokok yang akan dicari
+jika masyarakat ingin melihat seluruh data bahan pokok maka masyarakat bisa langsung masuk kemenu data bahan pokok
+user bisa menampilkan data bahan pokok sebagai pemenuhan informasi kepada masyarakat dalam bentuk grafis dan statistik
+1) usecase diagram pokok: 2) perancangan basis data berikut ini adalah pembahasan mengenai perancangan basis data yang akan digunakan dalam pengerjaan aplikasi real time berbasis web
+terdiri dari dua table yaitu tabel user dan tabel bahanpokok: gambar 3 entity relationship diagram dari gambar 3 erd diatar terdapat dua entititas yaitu entitas user dan bahanpokok
+entitas user memiliki enam atribut yaitu username, nama, alamat, notlp, status dan password
+username pada entitas user dijadikan primary key, entitas user berelasi dengan bahanpokok dengan kardilantias one to many
+entitas bahanpokok memilik lime atribut yaitu atribut idbahan, namabahanpokok, harga, status dan tanggal entitas bahanpokok memiliki primary key yaitu idbahan
+entititas bahan pokok berelasi dengan entitas user
+3) implementasi halaman antar muka di dalam aplikasi data kebutuhan pokok
+tampilan login berikut adalah tampilan halaman login, jika user akan masuk ke aplikasi maka user harus login terlebih dahulu
+pada halaman login user harus memasukan username dan password yang valid
+jika username dan password salah maka sistem akan menampilkan pesan bahwa username dan password tersebut salah
+jika username dan password yang dimasukkan benar maka sistem akan menampilkan halaman beranda sesuai masing-masing pengguna
+tampilan user diskominfo berikut adalah tampilan antar muka aplikasi data kebutuhan bahan pokok untuk user diskominfo: a) halaman home halaman ini merupakan halaman utama user diskominfo
+setelah user berhasil memasukkan username dan password, maka aplikasi langsung menampilkan halaman utama b) halaman lihat profile alaman ini user dapat melihat data user seperti nama, alamat, no tlp, status dan foto profil
+gambar 3 halaman lihat profile c) halaman laporan berikut adalah tampilan halaman laporan
+pada halaman laporan untuk melihat laporan user harus memasukan periode laporan terlebih dahulu dan sistem akan menampilkan laporan rata-rata harga kebutuhan pokok selama periode yang diinputkan
+gambar 7 tampilan halaman laporan d) halaman grafik laporan berikut adalah tampilan halaman grafik laporan
+pada halaman laporan untuk melihat laporan user harus memasukan periode laporan terlebih dahulu dan sistem akan menampilkan laporan rata-rata harga kebutuhan pokok selama periode yang diinputkan dalam bentuk grafik
+e) halaman grafik bahan pokok berikut adalah tampilan halaman grafik bahan pokok
+pada halaman ini user harus memasukan periode laporan terlebih dahulu dan sistem akan menampilkan perkembangan harga bahan pokok dalam bentuk grafik gambar 9 halaman grafik bahan pokok f) halaman import data bahan pokok berikut adalah tampilan halaman untuk mengimport data bahan pokok, halaman import data digunakan untuk mengimport data yang tersimpan dalam bentuk excel kedalam database aplikasi
+tampilan user masyarakat berikut adalah tampilan antar muka aplikasi data kebutuhan bahan pokok untuk user masyarakat: a) halaman home masyarakat berikut adalah halaman yang akan ditampilkan jika masyarakat mengakses website diskominfo untuk melihat informasi data kebutuhan pokok
+pada halaman ini ditampilkan informasi harga kebutuhan pokok yang terbaru
+gambar 11 tampilan halaman home masyarakat b) halaman pencarian berikut adalah tampilan halaman jika masyarakat melakukan pencarian suatu data bahan pokok
+pencarian dilakukan dengan memasukan nama bahan pokok
+gambar 12 tampilan halaman pencarian berikut adalah tampilkan jika saat melakukan pencarian data yang dimasukan tidak ditemukan: 4) pengujian pengujian pada aplikasi bertujuan untuk menemukan kesalahan yang terdapat dalam aplikasi serta mengetahui apakah program telah sesuai dengan hasil yang diharapkan maupun tujuan
+pengujian yang dilakukan dalam aplikasi ini menggunakan metode blackbox yaitu pengecekan input dan output, apakah telah sesuai dengan yang diharapkan
+pengecekan meliputi penanganan error handling form inputan yang tidak terisi, form inputan yang tidak sesuai ketentuan yang nantinya menampilkan pesan informasi sukses ataupun gagal pada saat aplikasi berjalan dengan lancar ataupun mengalami error
+tambah data bahan pokok pengujian dilakukan pada halaman input bahan pokok
+pengujian ini dilakukan untuk mengetahui proses validasi yang terjadi ketika melakukan proses input bahan pokok
+aktor : skpd laman di web : 2
+pencarian data pengujian dilakukan pada halaman pencarian data
+login user pengujian dilakukan pada halaman login
+pengujian ini dilakukan untuk mengetahui proses validasi yang terjadi ketika melakukan proses login
+proses login, untuk mengetahui apa yang dilakukan oleh sistem dan hasil jika pada saat melakukan proses login data yang dimasukan belum valid, saat form tidak diisi maka sistem akan menampilkan pesan kesalahan
+jika username dan password yang dimasukan salah maka akan muncul pesan kesalahan tetapi jika username dan password yang dimasukan valid maka akan beralih kehalaman home aplikasi tabel 3 pengujian proses login v
+kesimpulan berdasarkan hasil penelitian, maka dapat disimpulkan bahwa: 1
+penggunaan aplikasi berbasis website dapat membantu pengelolaan data kebutuhan pokok di diskominfo kabupaten bandung
+masyarakat kabupaten bandung dapat melihat harga kebutuhan pokok terbaru
+aplikasi belum dapat diintegrasikan dengan web diskominfo karena pihak diskominfo belum memberikan hak akses terhadap aplikasi yang berjalan saat ini
+berdasarkan hasil penelitian, beberapa saran untuk perkembangan selanjutnya yaitu: 1
+perbaikan dan pengembangan dari sisi user interface perlu dikaji ulang untuk meningkatkan estetika desain
+informasi data bahan pokok bisa ditampilkan dalam bentuk grafis dan statistik yang menarik untuk masyarakat

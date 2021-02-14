@@ -1,0 +1,74 @@
+manusia apabila digunakan diluar dari kepentingan pengobatan dan ilmu pengetahuan
+masyarakat yang melakukan tindakan diluar kepentingan tersebut yang terkait dengan kasus narkotika, maka akan mendapatkan hukuman berdasarkan dengan uu ri no 35 tahun 2009 tentang narkotika
+masalah hukum tindak pidana narkotika dalam uu ri no 35 tahun 2009 sangat kompleks sehingga sulit bagi masyarakat awam untuk mengetahui dan memahami pasal-pasal yang mengatur kasus hukum tindak pidana narkotika
+sehingga diperlukan sebuah aplikasi penentuan pasal tindak pidana narkotika dengan penalaran berbasis kasus untuk memahami pasal-pasal yang terlibat dalam kasus hukum narkotika
+penalaran berbasis kasus ini menggunakan metode jaccard coefficient sebagai metode penghitungan similaritas data biner
+data yang digunakan berupa data kasus yang memiliki aturan pasti sehingga data kasus tersebut tergolong data biner
+sistem ini akan memberikan hasil berupa pasal yang terlibat, bunyi, dan sanksi pidana dari pasal tersebut dengan mengadopsi solusi-solusi berupa pasal yang terdapat pada kasus-kasus sebelumnya
+pengujian pada sistem ini terhadap 30 kasus menghasilkan tingkat keberhasilan sistem sebesar 90%
+hukum pidana digolongkan menjadi 2 berdasarkan sumbernya, yaitu hukum pidana umum dan hukum pidana khusus
+hukum pidana khusus adalah yang diatur secara tersendiri dalam undang-undang khusus dan tidak diatur dalam kuhp
+tindak pidana yang termasuk dalam hukum pidana khusus adalah tindak pidana narkotika
+tindak pidana narkotika diatur secara khusus melalui undang-undang narkotika ri no 35 tahun 2009, dengan adanya undang-undang ini diharapkan dapat mengatur ketentuan pidana terhadap hukum narkotika di indonesia dengan jelas dan tegas
+akan tetapi, dalam kehidupan sehari-hari, persoalan hukum terkadang sulit dimengerti oleh masyarakat awam
+dikarenakan masalah hukum pidana di indonesia sangat kompleks sehingga cukup sulit bagi masyarakat awam untuk dapat mengetahui isi pasal dalam kuhp dan undang-undang khusus yang mengatur suatu tindak pidana seperti halnya undang-undang ri no 35 tahun 2009 tentang narkotika
+disamping itu kurangnya pengetahuan tentang hukum pidana narkotika akan menyebabkan faktor kebingungan bagi masyarakat awam saat terlibat dalam kasus pidana, baik sebagai tersangka maupun korban
+pada tahun 2009 pemerintahan indonesia mengeluarkan revisi uu no 22 tahun 1997 menjadi uu no 35 tahun 2009 tentang narkotika
+mengingat hal tersebut maka diperlukan suatu sistem cerdas yang berbeda dalam bentuk penalaran berbasis kasus yang mengacu pada undang-undang tersebut
+penalaran berbasis kasus adalah suatu penalaran yang bertujuan untuk menyelesaikan permasalahan baru dengan cara mengadopsi solusi-solusi yang terdapat pada kasus sebelumnya yang mempunyai kemiripan dengan kasus yang baru
+penalaran berbasis kasus yang digunakan yaitu metode jaccard coefficient
+metode jaccard coefficient merupakan salah satu cara untuk menghitung similaritas dua objek yang bersifat biner
+data yang digunakan berupa data kasus yang memiliki aturan pasti sehingga data kasus tersebut tergolong data biner
+sistem ini akan memberikan hasil berupa pasal yang terlibat, bunyi, dan sanksi pidana dari pasal tersebut dengan mengadopsi solusi-solusi berupa pasal yang terdapat pada kasus-kasus sebelumnya
+kasus tersebut telah tersimpan didalam basis kasus yang mempunyai kemiripan permasalahan dengan kasus baru sehingga dapat dijadikan sebagai solusi
+berdasarkan latar belakang diatas, metode jaccard coefficient digunakan sebagai solusi pada sistem penentuan pasal tindak pidana narkotika
+sistem yang dibangun berbasis web agar dapat diakses oleh masyarakat secara online melalui internet dapat menyebabkan penurunan atau perubahan kesadaran, hilangnya rasa, mengurangi sampai menghilangkan rasa nyeri, dan dapat menimbulkan ketergantungan 
+penggolongan narkotika di dalam undang-undang nomor 35 tahun 2009 sebagai berikut
+narkotika golongan 1 adalah narkotika yang hanya dapat digunakan untuk tujuan pengembangan ilmu pengetahuan dan tidak digunakan dalam terapi serta mempunyai potensi sangat tinggi, mengakibatkan ketergantungan
+narkotika golongan 2 adalah narkotika yang berkhasiat pengobatan, digunakan sebagai pilihan terakhir dan dapat digunakan dalam terapi dan/atau untuk tujuan pengembangan ilmu pengetahuan serta mempunyai potensi tinggi, mengakibatkan ketergantungan
+narkotika golongan 3 adalah narkotika yang berkhasiat pengobatan dan banyak digunakan dalam terapi dan/atau tujuan pengembangan ilmu pengetahuan serta mempunyai potensi ringan, mengakibatkan ketergantungan
+istilah pidana lebih tepat dari istilah hukuman, karena hukum sudah lazim merupakan terjemahan dari recht
+pidana lebih tepat didefinisikan sebagai suatu penderitaan yang sengaja dijatuhkan/diberikan oleh negara pada seseorang atau beberapa orang sebagai akibat hukum baginya atas perbuatannya yang telah melanggar larangan hukum pidana
+secara khusus larangan dalam hukum pidana ini disebut sebagai tindak pidana 
+tindak pidana adalah perbuatan yang oleh undang-undang dinyatakan dilarang yang disertai ancaman pidana pada barangsiapa yang melanggar larangan tersebut 
+berdasarkan sumbernya, maka ada dua kelompok tindak pidana yaitu tindak pidana umum dan tindak pidana khusus
+tindak pidana umum adalah semua tindak pidana yang dimuat dalam kuhp sebagai kodifikasi hukum pidana materiil
+sementara itu, tindak pidana khusus adalah semua tindak pidana yang terdapat diluar kodifikasi tersebut
+misalnya tindak pidana narkotika, tindak pidana korupsi dan tindak pidana perbankan 
+tindak pidana narkotika sampai dengan pasal 148 undang-undang nomor 35 tahun 2009 yang merupakan ketentuan khusus, walaupun tidak disebutkan dengan tegas dalam undang-undang narkotika bahwa tindak pidana yang diatur di dalamnya adalah tindak kejahatan, akan tetapi tidak perlu disangksikan lagi bahwa semua tindak pidana di dalam undang-undang tersebut merupakan kejahatan
+ merupakan suatu penalaran yang bertujuan untuk menyelesaikan permasalahan baru dengan cara mengadopsi solusi-solusi yang terdapat pada kasus sebelumnya yang telah tersimpan didalam basis kasus yang mempunyai permasalahan yang mirip dengan kasus yang baru
+menurut adriana, dkk dalam buku mereka yang berjudul penalaran komputer berbasis kasus, tahapan proses yang menggambarkan siklus penalaran berbasis kasus, yaitu: menyelesaikan masalah yang baru
+revise, merubah solusi yang ditawarkan jika diperlukan
+retain, menyimpan solusi baru sebagai bagian dari kasus yang baru untuk dimasukkan ke dalam basis kasus
+metode jaccard coefficient formula yang digunakan jaccard coefficient untuk menghitung similaritas antara dua objek a dan b, seperti pada persamaan berikut
+| 𝐴 ∪ 𝐵 | pada jaccard coefficient, |a ∩ b| menyatakan jumlah fitur yang match atau ketika fitur ke i pada basis kasus yang diuji sama dengan fitur pada kasus baru 
+sedangkan |a ∪ b| menyatakan gabungan atau jumlah fitur yang terlibat
+fitur yang terlibat memiliki artian bahwa yang diperhitungkan adalah fitur yang terdapat pada kasus yang diuji dan kasus baru, bukan gabungan dari keseluruhan fitur yang ada pada seluruh basis kasus
+𝐽𝑎𝑐𝑐𝑎𝑟𝑑 𝐶𝑜𝑒𝑓𝑖𝑐𝑖𝑒𝑛𝑡 = 𝑀11 m11: mewakili jumlah atribut biner, a=1 dan b=1 m10: mewakili jumlah atribut biner, a=1 dan b=0 m01: mewakili jumlah atribut biner, a=0 dan b=1 kasus baru adalah kasus yang akan dicari solusinya dengan cara membandingkan fitur pada setiap kasus lama atau kasus yang tersimpan di basis kasus
+kasus baru dikatakan similar 100% dengan kasus yang lama apabila nilai similaritas dari jaccard coefficient sama dengan 1 sedangkan nilai tidak similaritas apabila nilai jaccard coefficient sama dengan 0
+framework laravel laravel dimulai pada april 2011
+awal mula proyek ini dibuat karena otwell sendiri tidak menemukan framework yang up-to- date dengan versi php
+mengembangkan framework yang sudah ada juga bukan merupakan ide yang bagus karena keterbatasan sumber daya
+dikarenakan beberapa keterbatasan tersebut, otwell membuat sendiri framework dengan nama laravel
+oleh karena itu, laravel menisyaratkan php versi 5.3 keatas 
+laravel menekankan pada kesederhanaan dan fleksibilitas pada desainnya
+laravel dirilis dibawah lisensi mit dengan sumber kode yang disediakan di github
+laravel dibangun dengan basis mvc 
+pengujian yang diturunkan dari pengetahuan struktur dan implementasi perangkat lunak
+pengujian white box biasanya diterapkan untuk unit program yang relatif kecil seperti subrutin atau operasi yang terkait dengan suatu objek 
+memungkinkan pengukuran kompleksitas logis dari desain prosedural dan menggunakannya sebagai pedoman untuk menetapkan basis set dari semua jalur eksekusi
+konsep utama basis path yaitu tiap basis path harus diidentifikasi, tidak boleh ada yang terabaikan dan kombinasi dan permutasi dari suatu basis path tidak perlu di tes
+perancangan arsitektur sistem pengguna dimanapun berada dengan koneksi internet desain arsitektur sistem dapat dilihat pada gambar 1 berikut: firewall cloud computingpublic user iii
+hasil dan diskusi konsultasi merupakan pertanyaan-pertanyaan yang cukup memilih jawaban dari setiap pertanyaan yang ada lalu memilih tombol lanjut untuk selanjutnya diproses sistem hingga menghasilkan praduga pasal tindak pidana narkotika berupa pasal yang terlibat, bunyi, dan sanksi pidana
+di bawah ini gambar menu konsultasi
+pengujian validasi sistem output yang berupa praduga pasal tindak pidana narkotika oleh sistem penentuan pasal tindak pidana narkotika dengan data kasus tindak pidana narkotika
+dalam pengujian ini, data kasus yang digunakan sebanyak 121 kasus dengan 91 kasus sebagai basis kasus dan 30 kasus sebagai pengujian
+berikut adalah tabel yang menampilkan hasil pengujian akurasi sistem
+pengujian akurasi sistem penentuan pasal tindak pidana narkotika no similaritas hasil pasal pada sistem data pasal 111 diduga keras 2 1 114, 112 114, 112 diduga keras 132 132 5 1 114, 112 114, 112 diduga keras 132 114, 112 diduga keras 112 diduga keras 132 132 127 diduga keras sistem penentuan pasal tindak pidana narkotika
+pengujian pada penalaran berbasis kasus dengan menggunakan metode white box berhasil dilakukan dengan error nol, dimana setiap satu rangkaian pernyataan proses pada program telah dieksekusi paling tidak satu kali selama pengujian dan semua kondisi logis telah diuji dan berhasil
+hasil pengujian validasi sistem menunjukkan bahwa berdasarkan hasil perhitungan sistem dari 30 kasus yang diuji pada tabel 4.11 yaitu 2 kasus pada percobaan 14 dan 19 memiliki similaritas 0, 83 dan 1 kasus pada percobaan 23 memiliki similaritas 0, 80
+percobaan 3 kasus yang diuji tersebut memiliki similaritas tidak sama dengan 1, dikarenakan data yang dimasukkan sebagai pengujian, belum memiliki kasus yang sama dengan kasus yang telah ada di basis kasus
+jika menggunakan nilai threshold = 0, 85, maka berdasarkan hasil pengujian terdapat 27 kasus yang memiliki nilai kemiripan sama dengan 1 dengan kesesuaian hasil dan terdapat 3 kasus yang memiliki nilai kemiripan kurang dari 0, 85 dengan kesesuaian hasil 
+dengan demikian, keberhasilan sistem dapat diukur sebagai berikut: 27 30 𝑥 100% = 90%
+sistem penalaran berbasis kasus yang dihasilkan dapat menentukan praduga pasal tindak pidana narkotika berdasarkan undang-undang ri no 35 tahun 2009 tentang narkotika
+30 kasus yang diuji, terdapat 27 kasus yang memiliki tingkat kemiripan sama dengan 1, sehingga keberhasilan sistem sebesar 90%

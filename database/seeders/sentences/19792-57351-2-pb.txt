@@ -1,0 +1,122 @@
+berbagai sistem monitoring presensi yang ada memiliki kekurangan dan kelebihan masing-masing, dan perlu untuk terus dikembangkan sehingga memudahkan dalam proses pengolahan datanya
+pada penelitian ini dikembangkan suatu sistem monitoring presensi menggunakan deteksi wajah manusia yang diintegrasikan dengan basis data menggunakan bahasa pemrograman python dan library opencv akuisisi data citra dilakukan dengan ponsel android, kemudian citra tersebut dideteksi dan dipotong sehingga hanya didapat bagian wajah saja
+deteksi wajah menggunakan metode haar-cascade classifier, kemudian ekstraksi fitur dilakukan menggunakan metode principal component analysis 
+hasil dari pca diberi label sesuai dengan data manusia yang ada pada basis data
+semua citra yang telah memiliki nilai pca dan tersimpan di basis data akan dicari kemiripannya dengan citra wajah pada proses pengujian menggunakan metoda euclidian distance
+pada penelitian ini basis data yang digunakan yaitu mysql
+hasil deteksi citra wajah pada proses pelatihan memiliki tingkat keberhasilan 100% dan hasil identifikasi wajah pada proses pengujian memiliki tingkat keberhasilan 90%
+monitoring presensi, deteksi wajah presensi mulai beralih dengan menggunakan sidik jari sebagai bentuk monitoring dan validasi seseorang dalam suatu kegiatan
+proses dari sistem presensi ini dilakukan dengan menggunakan sebuah mesin pengenal sidik jari yang dipasang pada sebuah tempat atau ruangan
+sistem ini juga masih mempunyai suatu kelemahan, yaitu pemindaian sidik jari orang hadir harus dilakukan secara bergiliran, tidak bisa dilakukan secara bersamaan sekaligus, sehingga seringkali menimbulkan antrian yang panjang
+oleh karena itu sistem ini dianggap kurang efisien
+permasalahan lain adalah kondisi jari yang dideteksi harus dalam keadaan bersih karena ketika ada derau pada sidik jari, biasanya sistem sulit untuk mencocokan data sidik jari yang ada dalam basis data
+selain itu posisi letak jari yang tidak pas pada mesin pengenal sidik jari dapat membuat sistem juga tidak dapat mengindentifikasi jari tersebut
+tingkat sekolah atau kampus juga mulai merambah melalui identifikasi wajah, pada sebuah ruangan dapat dipasang sebuah kamera yang berfungsi untuk mengindentifikasi wajah dari siswa atau mahasiswa yang sedang mengikuti proses belajar mengajar
+akan tetapi sistem ini memerlukan jumlah kamera yang banyak karena kondisi kamera yang statis membuat banyak kamera harus terpasang diberbagai sudut agar semua siswa atau mahasiswa teridentifikasi
+perbandingan metode identifikasi wajah manusia yaitu local binarry pattern histogram, principal component analysis dan linear discriminant analysis pada perangkat handphone berbasis android
+hasil penelitian memiliki tingkat keberhasilan 72% sehingga metode local binarry pattern histogram cocok digunakan untuk identifikasi wajah manusia pada handphone berbasis android
+berdasarkan permasalahan diatas, penelitian tentang sistem monitoring presensi menggunakan identifikasi wajah manusia dapat dikembangkan dengan menggunakan handphone berbasis android sebagai perangkat akuisisi citra wajah untuk proses pelatihan
+proses deteksi pada tahap pengujian dengan webcam dapat dilakukan dengan haar-cascade classifier dan menggunakan bahasa pemrograman python karena proses komputasi yang sangat besar sehingga proses identifikasi dan presensi kehadiran dapat dilakukan dengan cepat dan akurat
+penelitian ini menggunakan metode principal component analysis sebagai salah satu cara untuk mereduksi citra pada saat proses ekstraksi fitur
+sedangkan algoritma yang digunakan untuk melakukan identifikasi menggunakan eigenface
+akan tetapi, karena identifikasi wajah tersebut menggunakan webcam, posisi wajah yang dikenali harus dalam posisi simetris dengan webcam dan dibutuhkan lebih dari satu perangkat webcam apabila digunakan pada tiap ruangan
+perbandingan metode identifikasi wajah secara realtime penelitian yang dilakukan wijaya pada tahun 2014 ini bertujuan untuk mengetahui perbandingan identifikasi wajah pada handphone android antara metode local binarry pattern histogram, principal component analysis dan linear discriminant analysis 
+manusia pada perangkat handphone android dari penelitian yang telah dilakukan yaitu metode local binarry pattern histogram memiliki tingkat keberhasilan paling baik sebesar 72% dan dapat mengenali wajah manusia dalam waktu 5 detik
+kekurangan dari metode yang diterapkan pada penelitian tersebut adalah persentase identifikasi yang hanya 72% sehingga memungkinkan masih besarnya peluang error yang terjadi dalam proses identifikasi
+aplikasi absensi kuliah berbasis identifikasi wajah menggunakan metode gabor wavelet penelitian ini menggunakan metode gabor wavelet sebagai ekstraksi fitur
+sedangkan untuk proses mencari nilai kemiripan menggunakan metode similarity sehingga konvolusi akan menghasilkan titik-titik dengan nilai tertentu yang disebut sebagai gabor jet response
+titik- titik gabor jet response dari citra database dan citra yang akan dikenali kemiripan magnitude gabor antara graph model wajah citra video dengan citra pada database
+hasil pengujian terbaik dengan variasi pose wajah yaitu pada pose frontal dengan persentase pengenalan benar 97%
+sistem presensi berbasis agoritma eigenface dengan metode principal component analysis penelitian yang dilakukan wardoyo pada tahun 2014 menggunakan bahasa pemrograman matlab sebagai editor dan antarmuka sistem presensi
+akusisi citra berupa pengambilan citra wajah dengan latar belakang yang seragam
+normal, senyum, sedih, terkejut dan berkedip
+keberhasilan tingkat keberhasilan proses identifikasi dengan pengujian jarak sebesar 33.33%, hal tersebut didapat dari pengujian terhadap jarak 50cm, 100cm, dan 150cm tingkat keberhasilan proses identifikasi dengan berbagai ekspresi sebesar 94.66%, hal tersebut berhasil dilakukan pada citra wajah menghadap depan, pencahayaan yang cukup dan menggunakan jarak 50cm
+citra yang dimaksud pada penelitian ini adalah citra digital yang merupakan refresentasi dari sebuah keadaan sebenarnya pada dunia nyata dalam bentuk susunan pixel dua dimensi, dan dapat diolah pada komputer
+sebuah citra kaya akan informasi namun seringkali citra yang kita miliki mengalami penurunan mutu, misalnya mengandung cacat atau derau, warnanya terlalu kontras, kurang tajam, kabur, dan sebagainya
+citra yang mengalami penurunan kualitas tersebut dapat dilakukan berbagai proses perbaikan, untuk mendapatkan kualitas citra yang lebih baik
+proses inilah yang disebut sebagai pengolahan citra digital
+segmentasi citra untuk memecah suatu citra ke dalam beberapa segmen dengan suatu kriteria tertentu
+jenis operasi ini berkaitan erat dengan identifikasi pola
+hasil dari segmentasi citra yaitu memisahkan obyek tertentu dengan backgroundnya
+obyek yang dimaksud pada penelitian ini adalah wajah manusia yang akan dikenali, sedangkan backgroundnya adalah latar belakang yang tidak dibutuhkan untuk proses identifikasi
+proses pemisahan dapat dilakukan dengan membandingkan derajat kecerahan antara pixel-pixel yang ada pada citra sehingga dapat diputuskan mana yang menjadi obyek mana yang menjadi background
+ekstraksi fitur ciri/feature dari suatu bentuk yang nantinya nilai yang didapatkan akan dianalisis untuk proses selanjutnya
+ekstraksi fitur dilakukan dengan cara menghitung jumlah titik atau piksel yang ditemui dalam setiap pengecekan
+pengecekan dilakukan dalam berbagai arah koordinat kartesian dari citra digital yang dianalisis, yaitu vertikal, horizontal, diagonal kanan, dan diagonal kiri
+fitur yang didapat dari sebuah citra merupakan ciri khas pembeda dengan citra-citra yang lain
+pengenalan pola pengenalan pola dapat diartikan dengan segala kegiatan yang dilakukan untuk pengambilan keputusan atau kesimpulan berdasarkan pola-pola kompleks objek atau informasi
+deteksi wajah permasalahan deteksi wajah, yaitu: 1
+metode berbasis pengetahuan: aturan didapatkan berdasarkan pengetahuan manusia mengenai fitur terdefinisi dari wajah sesorang manusia
+mayoritas dari aturan-aturan ini membahas tentang hubungan antar fitur
+metode invarian fitur: algoritma dirancang untuk mencari fitur struktural dari wajah yang invarian terhadap masalah umum mengenai pose, halangan, ekspresi, kondisi citra, dan pengrotasian
+metode pencocokan template: dengan suatu set sample yang diberikan, sebuah set pola wajah standar yang serupa dapat dihasilkan
+hubungan antara citra sample dan set pola yang telah didefinisikan dapat dihitung dan digunakan untuk menarik kesimpulan
+metode berbasis penampilan: mirip dengan metode pencocokan template
+tujuannya adalah untuk mendapatkan keakuratan yang lebih tinggi dengan variasi yang lebih besar pada data latih
+cascade classifier cascade classifier adalah suatu pohon keputusan degenerasi, dimana pada setiap tahap, sebuah classifier dilatih untuk mendeteksi hampir semua objek yang menarik sembari menolak suatu fraksi tertentu dari pola bukan objek
+struktur cascade merefleksikan kenyataan bahwa di dalam setiap citra, mayoritas sub-window yang ada adalah negatif
+karena itulah, cascade berusaha menolak negatif sebanyak mungkin pada tahapan seawal mungkin
+seperti pohon keputusan, classifiers berikutnya dilatih menggunakan data-data yang telah melewati semua tahapan sebelumnya
+hasilnya, classifier ke dua akan menghadapi tugas yang lebih sulit dari pada yang pertama
+principal component analysis principal component analysis adalah alat matematika untuk mengekstrak fitur fitur khas yang disebut eigenfaces dari data gambar asli
+setiap principal component merupakan representasi dari suatu kombinasi linier dari semua citra-citra wajah training yang sudah dikurangi dengan mean citra, gabungan dari citra wajah inilah yang dinamakan eigenface
+opencv opencv adalah sebuah library open source untuk visi komputer yang bisa didapatkan dari http://sourceforge.net/projects/opencvlibrary
+library dijalankan dengan linux, windows, dan mac os x
+opencv dirancang untuk efisiensi komputasional dan dengan fokus yang kuat pada aplikasi real-time
+salah satu tujuan opencv adalah untuk menyediakan infrastruktur visi komputer yang mudah digunakan yang membantu orang-orang dalam membangun aplikasiaplikasi visi yang sophisticated dengan cepat
+library pada opencv berisi lebih dari 500 fungsi yang menjangkau berbagai area dalam permasalahan visi, meliputi inspeksi produk pabrik, pencitraan medis, keamanan, antarmuka pengguna, kalibrasi kamera, visi stereo, dan robotika
+karena visi komputer dan pembelajaran mesin seringkali berkaitan
+lain sebagai berikut : data citra pelatihan seperti pada gambar 1
+arsitektur jaringan akusisi data citra pelatihan proses akuisisi citra menggunakan handphone android, dengan resolusi gambar 640x640 piksel dan dengan pengaturan pencahayaan yang baik, misalnya pada pagi maupun siang hari
+setelah proses akuisisi citra wajah, citra dikirim ke server dengan mengkoneksikan handphone pada access point
+perancangan perangkat lunak data citra wajah yang ada pada server di lakukan pre- procesing, yaitu mengubah citra berwarna menjadi citra abu-abu 
+tujuan dari proses konversi ini yaitu untuk membuat nilai piksel menjadi 1 komponen penyusun nilai saja sehingga mudah dilakukan proses manipulasi atau komputasi pada piksel-piksel tersebut
+langkah selanjutnya, akan dilakukan proses deteksi wajah dari akuisisi data citra menggunakan metode haar- cascade classifier yang ada pada library opencv proses haar-cascade classifier memiliki beberapa proses tahapan sendiri yang dapat melakukan pendeteksian wajah
+sebelum proses sendiri haar-cascade classifier matrik dari citra wajah dihitung dengan metode citra integral citra integral merupakan suatu representasi citra baru, di mana nilai piksel dari suatu titik pada citra merupakan hasil penjumlahan dari seluruh piksel yang ada di sebelah kiri dan atas titik tersebut
+data citra latih yang ada pada server dilakukan proses pelatihan seperti diagram alir pada gambar 2
+diagram alir pelatihan data citra setelah proses perhitungan citra integral proses selanjutnya akan dilakukan klasifikasi wajah menggunakan haar-cascade classifier
+hasil segmentasi citra wajah tersebut akan diekstraksi fiturnya masing- masing dengan metode pca, sehingga akan didapat nilai pca dari masing-masing citra wajah dan disimpan pada basis data sebagai hasil data pelatihan
+proses pca sendiri memiliki beberapa proses tahapan seperti pada diagram alir gambar 3
+diagram alir proses pca secara garis besar perancangan alur sistem deteksi dan identifikasi wajah adalah sebagai berikut : 1
+pada tahap pelatihan, dilakukan pengambilan citra latih wajah sesuai dengan jumlah mahasiswa yang ada
+kemudian citra tersebut dilakuan proses pre- processing yaitu konversi ke citra grayscale
+tahapan ini merupakan pendeteksian dan segmentasi wajah dari citra latih dan citra pengujian
+pendeteksian dilakukan dengan metode haar-cascade classifier memanfaatkan library opencv dan bahasa pemrograman pyhton
+kemudian pada tahapan selanjutnya akan dilakuan proses untuk mendapatkan ekstraksi ciri/fitur dari citra wajah yang akan disegmentasi dengan background
+tujuan utama dari ekstraksi ciri digunakan untuk mengambil ciri penting dari suatu objek wajah
+hasil dari proses pca masing-masing wajah akan di simpan dalam basis data yang berupa nilai pca 5
+langkah selanjutnya dalam proses identifikasi wajah dimana pada proses ini citra wajah data latih yang ada dalam basis data dicari nilai kemiripan yang terkecil atau terdekat
+proses penghitungan nilai kemiripan menggunakan rumus euclidian distance data, dan mengubah status kehadiran menjadi 1 yang artinya orang tersebut ada dalam ruangan pada saat proses presensi kehadiran
+implementasi yang dilakukan pada penelitian terdiri dari dua sisi, yaitu pada sisi android sebagai akusisi data dan aplikasi pengolahan pada sisi server
+sistem yang dibangun sesuai dengan hasil analisa dan perancangan yang nantinya mampu melakukan proses deteksi dan identifikasi wajah
+wajah yang digunakan sebagai input data
+pengambilan data dilakukan pada kondisi cahaya normal di dalam sebuah ruangan, karena nantinya proses pengujian juga dilakukan dalam sebuah ruangan
+aplikasi android diupload pada server yang telah terkoneksi pada jaringan lokal menggunakan access point.hasil akuisisi citra wajah pada dan hasil upload file pada server dapat dilihat pada gambar 5
+deteksi wajah pelatihan pada sampel foto yang berjumlah 10 citra wajah yang berbeda
+proses pendeteksian dilakukan dengan mengambil citra pada server yang telah dikirimkan melalui ponsel android
+kemudian dilakukan konversi citra ke grayscale dan dideteksi menggunakan metode haar-cascade classifier
+simetris dan satu orang saja, proses deteksi wajah sebagai citra lain dapat juga dilakukan secara banyak wajah, seperti pada gambar 7
+deteksi dan segmentasi multiface wajah pada citra latih c
+penghitungan nilai pca nilai pca merupakan nilai yang menjadi pembeda antara wajah satu dengan wajah orang yang lain
+pca mereduksi dimensi dari matrik wajah menjadi lebih sederhana tanpa mengurangi ciri khas dari masing-masing wajah orang yang ada pada proses pelatihan
+untuk melakukan penghitungan nilai pca maka dengan menggunakan bahasa pemrograman python dan library opencv didapatkan hasil perhitungan terhadap wajah seperti pada gambar 8
+nilai pca tersebut disimpan sebagai basis data untuk proses pengujian wajah nantinya
+dilakukan dalam ruangan pada saat kehadiran mahasiswa
+mahasiswa hanya cukup melihat kamera yang telah disediakan, kemudian aplikasi akan mengidentifikasi wajah citra uji dengan membandingkan pada basis data wajah yang didapat pada proses pelatihan dengan metode euclidian distance
+proses pengujian wajah terbagi menjadi 2 yaitu pengujian dengan satu wajah dan lebih dari satu wajah
+untuk pengujian dengan satu wajah dapat dilihat pada gambar 9
+selain identifikasi wajah menggunakan satu wajah, proses pengujian juga dilakukan dengan multiface atau lebih dari satu wajah, seperti pada gambar 10
+pengujian identifikasi lebih dari satu wajah proses pengujian wajah secara keseluruhan dapat dilihat pada tabel i
+wahyu saputra 0, 6 detik berhasil dideteksi dari hasil proses deteksi, dari sepuluh orang yang berada didepan kamera kesemua wajah berhasil dengan baik dideteksi keberadaan wajahnya dengan kondisi cahaya pengambilan yang sama yaitu pada siang hari dan didalam ruangan
+sedangkan pada proses pengujian identfikasi citra wajah, terdapat beberapa wajah yang terkadang kurang tepat dikenali, akan tetapi terkadang juga tepat dikenali
+hasil pengujian identifikasi wajah secara keseluruhan dapat dilihat pada tabel ii
+tabel ii no wajah waktu diidentifikasi diidentifikasi diidentifikasi diidentifikasi diidentifikasi diidentifikasi diidentifikasi diidentifikasi diidentifikasi dari hasil pengujian sepuluh data citra yang telah diujikan, berdasarkan tabel 2 maka tingkat persentasi keberhasilan identifikasi yaitu 9/10 x 100% = 90%
+ketika proses penguijan berhasil mengidentifikasi wajah yang ada pada proses pelatihan, maka status kehadiran pada basis data berubah dari yang awalnya 0 menjadi 1 seperti pada gambar 11
+kesimpulan dan saran bab sebelumnya dapat ditarik beberapa kesimpulan sebagai berikut : 1
+pada proses deteksi wajah, aplikasi berhasil melakukan pendeteksian pada semua sampel wajah yang diberikan, baik pada proses pelatihan maupun proses pengujian, sehingga metode haar-cascade classifier sangat baik untuk melakukan proses deteksi wajah
+pada proses identifiksai wajah, dari sepuluh wajah yang dijadikan sampel ada satu wajah yang tidak dapat diidentifikasi walaupun telah terdeteksi dengan benar
+pencahayaan menjadi salah satu faktor yang mempengaruhi proses identifikasi wajah tersebut
+akan tetapi perbedaan pengambilan citra wajah maupun ekspresi wajah masih bisa menjadi toleransi dalam proses identifikasi dengan tepat
+waktu rata-rata yang dibutuhkan dalam proses deteksi yaitu 0, 63 detik sedangkan waktu rata-rata proses identifikasi wajah yaitu 0, 89 detik, hal ini dikarenakan kecepatan dari proses komputasi menggunakan bahasa pemrograman python dan library opencv beberapa saran yang dapat dikembangkan pada penelitian berikutnya : 1
+proses pendeteksian dan identifikasi dapat dilakukan secara online, sehingga proses presensi kehadiran dapat dilakukan dimana saja asalkan ada internet 2
+perlu adanya proses pre-processing untuk normalisasi cahaya dan sudut yang lebih miring dari penelitian diatas

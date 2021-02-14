@@ -1,0 +1,10 @@
+rumah sakit berdasarkan undang-undang republik indonesia tentang rumah sakit no 44 tahun 2009 didefinisikan sebagai institusi pelayanan kesehatan yang menyelenggarakan pelayanan kesehatan perorangan secara paripurna yang menyediakan pelayanan rawat inap, rawat jalan, dan gawat darurat
+pada praktiknya, mutu pelayanan kesehatan di rumah sakit dipengaruhi oleh keseimbangan antara pelayanan yang diberikan oleh pihak rumah sakit dengan pelayananan yang diharapkan oleh pengguna jasa rumah sakit
+salah satu bentuk upaya peningkatan mutu pelayanan rumah sakit yaitu dengan menyediakan kotak saran
+namun pada kenyataanya, penggunaan kotak saran oleh pengunjung rumah sakit masih minim
+hal ini dapat disebabkan oleh tanggapan yang tidak langsung didapatkan setelah kritik dan saran pengguna rumah sakit menggunakan fasilitas kotak saran, mengingat kotak saran merupakan media komunikasi satu arah
+pada penelitian ini di buatlah aplikasi kotak saran digital di rumah sakit yang dapat berfungsi wadah kritik dan saran pengguna rumah sakit melalui perangkat andorid, serta meneruskan kritik dan saran tersebut langsung kepada pihak rumah sakit yang bersangkutan untuk ditanggapi
+berdasarkan hasil pengujian kompatibilitas, aplikasi dapat berjalan lancar pada berbagai jenis versi android yaitu versi 5.0 hingga versi 7.0 
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 800 yang berarti responden dapat menerima aplikasi ini dengan sangat baik
+indonesia tentang rumah sakit no 44 tahun 2009 didefinisikan sebagai institusi pelayanan kesehatan yang menyelenggarakan pelayanan kesehatan perorangan secara paripurna yang menyediakan pelayanan rawat inap, rawat jalan, dan gawat darurat
+menurut departemen kesehatan ri, rumah sakit adalah pusat pelayanan kesehatan yang menyelenggarakan pelayanan medik dasar dan medik spesialistik, pelayanan penjunjang medik, pelayanan instalasi, dan pelayanan perawatan baik rawat inap maupun rawat jalan

@@ -1,0 +1,93 @@
+ubmitted 19-03-2019; revised 20-03-2019; accepted 26-09-2019 11 pengembangan sistem pendukung outline tugas akhir program studi informatika universitas tanjungpura all binardo v b b#1, novi safriadi#2, helen sastypratiwi#3 #program studi informatika universitas universitas tanjungpura jl
+hadari nawawi, pontianak, kalimantan barat 78115 1all_binardo@rocketmail.com 2safriadi@informatics.untan.ac.id 3helensastypratiwi@informatika.untan.ac.id adalah salah satu aplikasi pendukung untuk mengatur penerimaan topik atau gagasan tugas akhir, yang digunakan di program studi informatika universitas tanjungpura
+melalui spota, mahasiswa dapat mengajukan topik tugas akhir secara online sehingga terjadi interaksi aktif antara dosen dan mahasiswa baik itu tanya jawab, arahan atau koreksi terhadap draft yang diusulkan
+aplikasi spota berbasis smartphone dengan sistem operasi android telah dikembangkan dengan memanfaatkan layanan google cloud messaging sebagai push notification service
+dikarenakan google cloud messaging library untuk aplikasi android akan segera ditutup dan notifikasi tidak dapat lagi diterima di aplikasi yang terpasang pada ponsel pintar berbasis android penelitian ini kembali mengangkat permasalahan sebelumnya dan menerapkan mekanisme pengelompokkan judul berdasarkan kelompok keahlian serta menambahkan layanan pemberitahuan via email pada sisi backend web
+dengan dikembangkannya kembali aplikasi spota untuk mengembalikan fungsi push notification yang sudah tidak dapat diakses kembali mahasiswa dan dosen dapat mengakses pemberitahuan dari aplikasi seperti komentar terbaru dan pengajuan judul terbaru, sehingga mempercepat proses review
+berdasarkan hasil pengujian, aplikasi ini sudah berjalan dengan baik pada perangkat smartphone android, mulai dari android versi 4.4 hingga android versi 8 
+hasil perhitungan likert's summated rating untuk aplikasi dosen diperoleh nilai 507 yang menerangkan bahwa aplikasi ini dapat dikategorikan dengan kriteria dan untuk aplikasi mahasiswa sebesar 887 yang menerangkan bahwa aplikasi ini dapat dikategorikan dengan kriteria untuk aplikasi mahasiswa
+pendahuluan web yang dikembangkan di program studi informatika universitas tanjungpura
+spota merupakan media komunikasi interaktif, antara mahasiswa dan dosen dalam melakukan konsultasi dan review judul tugas akhir mahasiswa yang dikembangkan oleh rudy tandra pada tahun 2008
+melalui spota, mahasiswa dapat melakukan pengajuan topik secara online, dan dosen dapat melakukan review pada judul yang diajukan oleh para mahasiswa
+mahasiswa dan dosen dapat saling memberikan umpan balik berupa komentar pada judul yang diajukan melalui kolom komentar
+pada akhir review, dosen dapat memberikan persetujuan terhadap judul yang diajukan dan hasil persetujuan tersebut akan mejadi rujukan ketua program studi dalam menentukan pembimbing dan penguji tugas akhir untuk mahasiswa bersangkutan
+pada masa implementasi spota pelaksanaan proses praoutline kegiatan review, pemberian umpan balik, pertanyaan maupun persetujuan oleh dosen maupun mahasiswa masih terhambat
+hal ini disebabkan tidak adanya pemberitahuan pada aplikasi spota terhadap dosen maupun mahasiswa
+dengan adanya kendala ini, proses review dan pengambilan keputusan hingga pembagian pembimbing tugas akhir terhambat
+dengan demikian judul yang diajukan pada spota akan di proses sangat lama dan menghambat seminar outline
+untuk mengatasi kendala tersebut, spota android dikembangkan oleh rudy tasa dirsa pada tahun 2015 dengan memanfaatkan layanan google cloud messaging sebagai third party push notification service yang dikembangkan oleh google
+pada tahun 2018 google memutuskan untuk tidak lagi mengembangkan layanan google cloud messaging dan merekomendasikan para pengembang beralih ke firebase cloud messaging yang mewarisi infrastruktur google cloud messaging dan mengubah endpoint development menjadi lebih sederhana
+hal tersebut menyebabkan fitur push notification pada spota tidak dapat berjalan sebagaimana semestinya
+kelompok keahlian tersebut antara lain:  computational and artificial intelligence  network and security berdasarkan uraian diatas perlu dilakukan pengembangan pada sistem yang anda agar fitur push notification dapat kembali berjalan serta draft dapat tersaring sesuai dengan kelompok keahlian yang ada
+uraian penelitian sistem pendukung outline tugas akhir pertama kali dikembangkan pada tahun 2008 oleh rudy tandra dan merupakan sebuah aplikasi berbasis web dengan tujuan untuk mengatasi masalah penjadwalan seminar dan sidang serta mempersingkat pengambilan keputusan terhadap desain praoutline yang diusulkan mahasiswa
+pengembangan spota dilanjutkan oleh ridwan tasa dirsa pada tahun 2015
+spota dikembangkan kembali untuk meningkatkan response time baik dosen dan mahasiswa terhadap proses review draft sehingga alur penerimaan draft menjadi lebih cepat
+hal tersebut dicapai dengan mengembangkan aplikasi dengan platform ponsel pintar berbasis sistem operasi android dengan memanfaatkan teknologi push notification milik google bernama google cloud messaging service sehingga pesan terhadap aktivitas review dapat diterima secara cepat
+kelompok keahlian mulai mengimplementasikan mekanisme kelompok keahlian pada tahun 2018
+topik usulan akan didistribusikan pihak program studi sesuai dengan kelompok keahlian yang kemudian pihak internal kelompok keahlian akan menentukan bila topik usulan layak untuk masuk ke spota
+pada spota topik usulan akan diulas oleh dosen-dosen dan mahasiswa diharapkan dapat mempertahankan topik usulan
+hasil keputusan persetujuan terhadap topik usulan serta penunjukkan pembimbing dan penguji diberikan oleh kepala program studi
+memungkinkan sebuah aplikasi untuk memberikan pesan pemberitahuan tentang pesan baru atau kejadian tanpa perlu untuk benar-benar membuka aplikasi tersebut 
+push notification mengizinkan aplikasi yang terintegrasi dengan pusher service untuk menerima pesan yang terkirim dari pusher server dan diterima pada aplikasi tanpa adanya campur tangan langsung dari pengguna
+teknologi push notification akan memberitahu pengguna bila ada data baru masuk kepada pengguna dengan pembaruan yang bersifat penting dan relevan, bahkan ketika aplikasi tidak berjalan
+firebase cloud messaging service firebase cloud messaging merupakan solusi perpesanan lintas platform yang memungkinkan aplikasi mengirimkan pesan dan pemberitahuan ke aplikasi pengguna
+firebase cloud messaging adalah layanan milik google llc yang dibangun untuk menggantikan produk sebelumnya yaitu google cloud messaging sebagai teknologi pengirim push notification yang sekarang sudah bersifat multiplatformdari yang sebelumnya hanya dapat berjalan pada platform ponsel pintar berbasis android
+implementasi fcm mencakup aplikasi pada server milik klien yang berinteraksi dengan server milik fcm melalui protokol http atau xmpp, dan aplikasi klien 
+pesan dapat ditulis dan dikirim menggunakan aplikasi server atau notification console milik fcm
+google llc mengumumkan bahwa layanan google cloud messaging sudah tidak dikembangkan kembali mulai 10 april 2018 dan seluruh layanan ditutup aksesnya pada 11 april 2019
+spota android memanfaatkan layanan ini sebagai third party push notification service, dengan penutupan layanan ini pengguna spota android tidak dapat lagi menerima notification message
+firebase cloud messaging mewarisi infrastruktur utama dari google cloud messaging dengan beberapa fitur tambahan diantaranya :  menambah platform yang didukung menjadi android, ios, dan chrome web browser
+ menambah fitur upstream messaging dan downstream messaging sehingga user dapat mengirim pesan kembali ke server firebase cloud messaging dan sebaliknya
+firebase cloud messaging sdk seperti asynchronous execution dan auto retry logic
+ client token bersifat implisit yang berarti token pada sisi klien akan dibuat secara otomatis oleh firebase cloud messaging sdk
+restful web service antarmuka, yang jika diterapkan ke layanan web menghasilkan properti yang diinginkan, seperti kinerja, skalabilitas, dan kemudahan dalam perubahan
+dalam gaya arsitektur rest, data dan fungsi-fungsi dianggap sebagai sumber daya dan diakses menggunakan uniform resource identifiers, berupa tautan di web
+gaya arsitektur rest mengharuskan arsitektur dibentuk berupa arsitektur client to server dan dirancang untuk menggunakan protokol komunikasi statelessmelalui protokol http
+ketika sumber daya tertentu diakses oleh klien, representasi dari sumber daya tersebut terhadap kondisi yang diberikan harus dikembalikan dalam bentuk response terhadap request
+dalam gaya arsitektur rest, klien dan server bertukar sumber daya dengan menggunakan antarmuka yang sudah ditentukan
+unified modelling language standar dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+uml terdiri atas banyak elemen-elemen grafis yang memberikan gambaran yang jelas mengenai sistem yang akan dibangun baik dari sisi struktural ataupun fungsional
+uml dapat diterapkan pada semua model pengembangan, tingkatan siklus sistem, dan berbagai macam domain aplikasi
+pada penelitian ini pemodelan yang digunakan antara lain : 1) use case diagram: use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+2) class diagram: diagram kelas menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+3) sequence diagram: diagram sekuen menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode-metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+struktur sistem lama, serta hasil wawancara dan diskusi dengan kepala program studi tentang sistem baru
+adapun data yang dikumpulkan berupa permasalahan pesan pemberitahuan, mekanisme pengelolaan dengan kelompok keahlian serta kebutuhan akan fitur konsultasi
+satu unit laptop asus x455ld dengan spesifikasi, intel core i3 4030u 1.9ghz, 6gb ddr3l ram, vga nvidia geforce gt 820m 2gb, 128gb ssd, 500gb hdd 2
+satu unit ponsel xiaomi redmi note 2 dengan spesifikasi, chipset mediatek mt6795 helio x10, sistem operasi android 5.0, cpu octa-core 2.0 ghz cortex-a53, 2gb ram, gpu powervr g6200, ukuran 5.5 inch 3
+digital ocean droplets 1 gb memory, 1 vcpu, 25 gb ssd, dan 1 tb transfer rate
+firebase cloud messaging server perangkat lunak yang digunakan yaitu : 1
+visual studio code sebagai text editor 3
+draw.io sebagai alat bantu pembuatan diagram 5
+ubuntu 18.04 lts sebagai cloud server os c
+arsitektur sistem firebase cloud messaging server
+request berisi client token, server key, notification body dan notification title
+setelah http request diterima oleh firebase cloud messaging server aplikasi yang sudah terpasang pada ponsel pintar berbasis android yang telah ditandai dengan client token secara otomatis oleh firebase cloud messaging sdk akan menerima pesan pemberitahuan sesuai dengan client token yang dikirim ke firebase cloud messaging server
+beberapa aktivitas yang dapat menghasilkan push notification pada spota antara lain :  draft baru masuk  komentar pada draft  komentar pada konsultasi 3
+pengujian aplikasi apakah sistem yang dibangun sudah berjalan dengan baik dan sesuai dengan rancangan
+pengujian pada aplikasi yang akan dibangun akan dilakukan dengan menggunakan metode black box, pengujian kompatibilitas, dan kuesioner
+push notification di implementasikan dengan menggunakan http v1 api yang disediakan oleh firebase cloud messaging service milik google
+push notification bekerja dengan memanfaatkan http post request dan diletakkan di sisi backend webservice request dikirm menuju https://fcm.googleapis.com/fcm/
+4 implementasi firebase cloud messaging pada backend c
+hasil aplikasi pengguna yaitu aplikasi spota dosen dan spota mahasiswa
+hasil dari aplikasi dibuktikan dengan tangkapan layar dari aplikasi yang dapat diliht pada gambar 5-11
+6 menu outline pribadi spota mahasiswa gambar
+pengujian black box – robustness testing black box testing berfokus pada spesifikasi fungsional dari perangkat lunak
+tester dapat mendefinisikan kumpulan kondisi input dan melakukan pengetesan pada spesifikasi fungsional program
+hasil pengujian blackbox – robustness testing dapat dilihat pada tabel 1 dan tabel 2
+masukkan contoh data hasil masukkan contoh data hasil pada beberapa perangkat android yang berbeda
+hasil pengujian dapat dilihat pada tabel 3
+untuk penilaian kuesioner diberikan nilai 1 untuk tidak baik, 2 untuk kurang baik, 3 untuk cukup baik, 4 untuk baik dan 5 untuk sangat baik
+kuesioner yang dibagikan berisi 13 pertanyaan dan membahas 3 aspek diantaranya aspek perangkat lunak, aspek fungsionalitas dan aspek komunikasi visual kuesioner dibagikan kepada 10 target responden dosen dan 15 target responden mahasiswa
+total skor responden dapat dilihat pada tabel 4 dan 5
+ditiap perangkat dilihat dari ukuran dan resolusi layar tetapi tetap dapat menampilkan data secara baik
+hasil pengujian kuesioner yang diukur dengan metode likert’s summated rating menunjukkan untuk aplikasi dosen, responden menilai aplikasi yang dibangun dengan dengan skor 507, dan untuk aplikasi mahasiswa, responden menilai aplikasi yang telah dibangun dengan dengan skor 887
+firebase cloud messaging http v1 api telah diimplementasikan di backend webservice sebagai jalur komunikasi antara backend webservice dan firebase cloud messaging server
+berdasarkan hasil pengujian, aplikasi dapat digunakan oleh pengguna baik mahasiswa dan dosen untuk melakukan aktivitas review dan konsultasi
+berdasarkan pengujian kompatibilitas aplikasi dapat berjalan baik pada versi android 4.4 hingga 8 
+hasil kuesioner yang dihitung dengan metode likert’s summated rating menunjukkan bahwa aplikasi dosen dinilai cukup berhasil dan mahasiswa berhasil

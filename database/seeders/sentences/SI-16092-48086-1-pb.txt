@@ -1,0 +1,19 @@
+mail: hariantoadi@outlook.com1, arifbpn@gmail.com2, safriadi@informatics.untan.ac.id3 umum, seperti koleksi peninggalan sejarah, seni, dan ilmu pengetahuan
+apabila museum dieksplorasi lebih mendalam, informasi tentang koleksi bersejarah yang dipamerkan dalam museum dapat disampaikan secara lengkap
+kurang tersedianya informasi yang mendetail merupakan salah satu faktor yang menyebabkan pengunjung sulit untuk memperoleh informasi yang memadai dalam meningkatkan pengetahuan yang berhubungan dengan koleksi bersejarah pada museum
+selama ini penyampaian informasi dari museum masih terbatas dalam bentuk brosur
+interaktivitas menjadi salah satu poin yang penting dalam pengembangan sebuah aplikasi
+teknologi virtual tour banyak digunakan untuk memperkenalkan bangunan, namun yang ditujukan sebagai sarana penyampaian edukasi belum banyak dikembangkan
+metodologi penelitian yang digunakan dalam penelitian ini adalah studi literatur, analisa kebutuhan, pengumpulan data, perancangan aplikasi, pembuatan aplikasi, implementasi, pengujian aplikasi dan penarikan kesimpulan
+tujuan dari penelitian ini adalah untuk mengetahui apakah aplikasi virtual tour dapat diimplementasikan untuk edukasi koleksi bersejarah pada museum provinsi kalimanatan barat
+aplikasi ini digunakan oleh masyarakat secara luas, maka dilakukanlah uji validitas dan uji operasional aplikasi menggunakan perhitungan skala likert
+hasil dari pengujian validitas oleh tiga orang pakar didapatkan nilai rata-rata sebesar 92, 42 dari semua aspek
+untuk uji operasional aplikasi oleh masyarakat umum adalah melalui kuesioner yang dibagikan kemudian diinterpretasikan dalam skala likert yang mendapatkan nilai sebesar 50, 55 dari 36 responden
+uji penggunaan aplikasi virtual tour dalam penerapan untuk edukasi koleksi bersejarah oleh 30 orang siswa sma melalui kuesioner yang dibagikan mendapatkan nilai rata- rata 86, 66 untuk aspek visualisasi koleksi dan nilai rata-rata 83, 33 untuk aspek edukasi sejarah
+berdasarkan nilai interpretasi, aplikasi virtual tour dalam penyampaian edukasi sejarah terhadap koleksi bersejarah pada museum provinsi kalimantan barat termasuk dalam kategori dapat diterima oleh siswa
+berdasarkan seluruh hasil pengujian, maka dapat di simpulkan bahwa aplikasi virtual tour layak untuk diimplementasikan
+likert, virtual tour nyata yang ditampilkan secara online yang terdiri dari kumpulan-kumpulan foto panorama, kumpulan sebenarnya
+istilah virtual tour sering digunakan untuk menggambarkan berbagai macam video dan media berbasis fotografi
+kata mengindikasikan sebuah pandangan yang tidak terputus
+panorama berupa sekumpulan foto memanjang ataupun hasil pengambilan video yang kameranya dapat berputar/bergeser
+berkembang pesat dalam berbagai aspek kehidupan termasuk juga pada perkembangan teknologi virtual tour saat ini telah memberikan banyak kontribusi ke dalam berbagai bidang meliputi periklanan dan pemasaran, arsitektur dan konstruksi, hiburan, edukasi dan sebagai dokumentasi lokasi secara virtual salah satu implementasi aplikasi virtual tour di bidang edukasi yaitu pemanfaatan virtual online tour untuk pengenalan koleksi-koleksi bersejarah yang terdapat di museum provinsi kalimantan barat

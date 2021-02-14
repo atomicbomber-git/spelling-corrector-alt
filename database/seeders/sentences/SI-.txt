@@ -1,0 +1,148 @@
+strategic planning of urban areas such as development planning is an important thing to be considered by the government and relevant stakeholders in carrying out the construction of the city of pontianak
+management activities and geographical mapping that includes profiles, information and description of the total area of green and open space, residential areas and non- residential areas is necessary for the analysis needs that produces output in the form of recommendations for consideration of development plan policy makers in evaluating and intervening development program, which was held in pontianak city
+spatial knowledge management research area of green and open space in the city of pontianak using small area estimation approach in analyzing and generating output information in the scope of the sub-sample of the smallest areas
+results of analysis can identifying the possibility of development system that organized in the form of manipulation of maps in the current system and provide an alternative recommendation at the level of input, process and output
+spatial knowledge management area of green and open space-based on geographic information system is designed to facilitate the implementation of development in the form of manipulation of maps inside the system and to analyze the data into processing information
+in addition the system is designed to be a management tool in decision making for the implementation of development activities in the city of pontianak
+the output of the system are the consolidated graphs, maps and neighborhood area planning recommendations generated when the user is manipulating the map with the knowledge based which has been designed on the system
+the knowledge based which is designed has a probability to rearrange by the user in accordance with the government regulations that are applicable when the system is used
+the result of this study is strategic planning recommendations in the form of urban development plan, which is expected to help the government as policy makers in determining the type of area that can be built on an area in the city of pontianak
+keyword: spatial knowledge management, knowledge based, green and open space area, geographical information systems
+pendahuluan dalam dunia yang terus berubah secara dinamis seperti saat ini, daya saing sebuah kelompok sangat bergantung kepada kemungkinan untuk menemukan dan menyelesaikan sebuah masalah dengan cara, waktu dan bentuk yang tepat
+menurut nonaka, knowledge management system menawarkan sebuah pendekatan yang saling terintegrasi dengan tujuan mengidentifikasi, menangkap, mengambil, membagi dan mengevaluasi aset informasi kelompok
+informasi tersebut meliputi database, dokumen, peraturan, prosedur dan sebagaimana yang merupakan bagian dari tiap-tiap anggota didalam kelompok
+penerapan spatial knowledge system, akan menggunakan model-model statis berupa data dan informasi spasial yang bersumber pada asumsi dari ilmu pengetahuan, program perangkat lunak, aturan dan praktek institusional yang relevan dan terkait
+hal tersebut juga meliputi ilmu pengetahuan baru yang bisa disimpan dalam database yang terkomputerisasi
+sebagaimana termaktub dalam undang- undang no 26 tahun 2007 tentang penataan ruang, yang dimaksud dengan ruang terbuka hijau adalah area memanjang/jalur dan/atau mengelompok, yang penggunaannya lebih bersifat terbuka, tempat tumbuh tanaman, baik yang tumbuh secara alamiah maupun yang sengaja ditanam
+dalam peraturan menteri dalam negeri no 1 tahun 2007 tentang penataan ruang terbuka hijau kawasan perkotaan, dituliskan bahwa ruang terbuka hijau perkotaan adalah bagian dari ruang terbuka suatu kawasan perkotaan yang diisi oleh tumbuhan dan tanaman guna mendukung manfaat ekologi, sosial, budaya, ekonomi dan estetika
+selanjutnya disebutkan pula bahwa dalam ruang terbuka hijau pemanfaatannya lebih bersifat pengisian hijau tanaman atau tumbuh-tumbuhan secara alamiah ataupun budidaya tanaman
+dalam pendapat yang disampaikan oleh rahmi, dapat dijelaskan ruang terbuka hijau adalah lahan tidak terbangun yang tertutup oleh tumbuhan
+sedangkan muchlis menulis, kawasan terbuka hijau ialah sebuah kawasan yang difungsikan untuk ditanami tumbuh-tumbuhan
+kawasan terbuka hijau dapat berupa taman, hutan kota, trotoar jalan yang ditanami pohon, areal sawah atau perkebunan
+perencanaan strategis daerah urban dimaksudkan dalam menghasilkan sebuah rekomendasi yang dapat berguna dalam melakukan tata ruang dalam perkotaan
+variabel yang digunakan adalah kawasan ruang terbuka hijau yang merupakan bagian dari daerah ruang terbuka hijau, kawasan pemukiman dan kawasan non-pemukiman
+variabel tersebut akan ditampilkan dan dianalisis dengan menggunakan pendekatan small area estimation yang digunakan dalam perhitungan
+hal tersebut dilakukan untuk menghasilkan rekomendasi yang diharapkan sebagai keluaran sistem yang dirancang
+pendekatan small area estimation yang digunakan menurut m
+ghosh, dapat menjelaskan contoh tentang bagaimana menghasilkan wilayah-wilayah kecil dengan perkiraan dari berbagai teknik
+perkiraan tersebut akan dijelaskan secara singkat dan perhitungan mereka menggunakan sistem yang digambarkan dengan satu set data simulasi
+small area estimation dapat menghasilkan perkiraan yang dapat digunakan dari satu atau beberapa variabel yang menarik di daerah dimana informasi yang tersedia variabel tersebut
+informasi tersebut biasanya dikumpulkan dengan melakukan survei di beberapa atau semua daerah sampel
+survei tersebut melibatkan pengumpulan informasi dari daerah sendiri atau beberapa orang yang tinggal di daerah- daerah, sampel yang datanya kemudian digunakan untuk menyediakan informasi yang berupa perkiraan
+salah satu sistem pendukung yang akan diintegrasikan dalam mengolah informasi tersebut menggunakan sistem informasi geografis 
+sig merupakan suatu sistem infomasi berbasis komputer yang berfungsi untuk mengumpulkan, menyimpan, mengolah, menganalisis, dan menampilkan data yang bereferensi geografis maupun non-geografis 
+saat ini, sig dijadikan sebagai alat yang digunakan untuk pemetaan dan analisis terhadap banyak aktivitas di permukaan bumi
+salah satu aktivitas yang dapat direpresentasikan dengan sig adalah pemetaan wilayah kawasan ruang terbuka hijau, kawasan pemukiman dan kawasan non pemukiman yang ada di kota pontianak
+adanya data penyebaran kawasan- kawasan tersebut di kota pontianak yang digambarkan dalam bentuk peta akan mempermudah untuk mengetahui secara lebih jelas tentang penyebaran daerah ruang terbuka hijau yang ada di kota pontianak dan mampu menampilkan serta mengetahui tata ruang perkotaan yang menyalahi aturan, seperti halnya untuk mengetahui daerah yang masih mungkin untuk dibangun pemukiman atau tidak
+data hasil representasi dalam sig tersebut akan diintegrasikan dalam sebuah manajemen wawasan, atau lebih dekenal dengan knowledge management system 
+kms dalam sig yang lebih dikenal dengan spatial knowledge management system menitikberatkan pada penerapan wawasan yang menjadi aturan-aturan di dalam sistem informasi geografis tersebut
+knowledge based yang diimplementasikan dalam aplikasi akan sangat berguna untuk memproyeksikan wawasan-wawasan didalam sistem yang dihasilkan
+wawasan yang sudah ditransmitkan di dalam aplikasi tersebut dapat menghasilkan perkiraan dari beberapa fungsi dan fitur yang dapat dilakukan oleh aplikasi, seperti penambahan kawasan ruang terbuka hijau, kawasan non pemukiman dan kawasan non-pemukiman
+perkiraan tersebut akan menjadi hasil yang digunakan dalam melakukan perencanaan strategis daerah urban
+sebagaimana perkiraan tersebut bersumber dari perhitungan dan pembandingan dari beberapa variabel berupa wawasan yang digunakan dalam aplikasi yang dirancang
+oleh karena itu, dibutuhkan sebuah spatial knowledge management system yang dapat memetakan dan mampu melakukan manajemen wawasan berdasarkan knowledge based yang dimiliki oleh aplikasi
+keluaran yang diharapkan dari sistem ini berupa rekomendasi dalam perencanaan strategis daerah perkotaan dengan mempertimbangkan kawasan ruang terbuka hijau, kawasan pemukiman dan kawasan non pemukiman yang ada di kota pontianak
+teori dasar 2.1 knowledge management system menurut holsapple dan joshi, knowledge management dianggap sebagai suatu entitas yang sistematik yang berupaya untuk memperluas, mengolah dan menerapkan pengetahuan yang tersedia dengan cara memberikan nilai tambah pada entitas dalam mencapai tujuannya
+kms adalah sistem yang dibangun dari km
+menurut maier knowledge management system merupakan teknologi yang memungkinkan km untuk berjalan dengan efektif dan efisien
+alavi menjelaskan definisi kms, yaitu sekelompok sistem informasi yang diaplikasikan untuk mengelola knowledge yang terdapat di dalam organisasi
+kms merupakan sistem yang berbasiskan teknologi informasi yang dikembangkan untuk mendukung proses-proses inti dari km yaitu, penciptaan wawasan, penyimpanan wawasan, pemindahan wawasan, dan pengaplikasian wawasan dalam organisasi
+dari definisi diatas, sudah cukup jelas bahwa tujuan utama dari kms adalah untuk menciptakan efektifitas dan efisiensi kerja dari organisasi dengan cara membawa knowledge yang telah ada sebelumnya sebagai dasar pengambilan keputusan dan acuan kerja
+jadi pada dasarnya sebuah knowledge management system adalah sistem pendukung dari manajemen wawasan
+peran kms adalah membantu organisasi menjadi lebih efektif, kms dapat menggantikan peran seseorang, ataupun membantu mempermudah pekerjaan yang dilakukan.sebagaimana pula menurut nonaka, knowledge management system menawarkan sebuah pendekatan yang saling terintegrasi dengan tujuan mengidentifikasi, menangkap, mengambil, membagi dan mengevaluasi aset informasi kelompok
+informasi tersebut meliputi database, dokumen, peraturan, prosedur dan sebagaimana yang merupakan bagian dari tiap-tiap anggota didalam kelompok
+sehingga didalam sebuah sistem manajemen wawasan harus berdasarkan pada knowledge based yang akan dikelola sehingga dapat menghasilkan sebuah keluaran dari sistem yang akan dibangun
+2.2 knowledge based basis pengetahuan adalah suatu jenis basis data yang dipergunakan untuk manajemen pengetahuan
+basis data ini menyediakan fasilitas untuk koleksi, organisasi, dan pengambilan pengetahuan terkomputerisasi
+hal terpenting dari suatu basis pengetahuan adalah kualitas informasi yang dikandungnya
+basis pengetahuan yang terbaik memiliki artikel-artikel yang ditulis dengan baik dan dijaga untuk selalu mutakhir, memiliki sistem pengambilan yang baik, serta format isi dan struktur klasifikasi yang dirancang dengan seksama
+sebuah basis pengetahuan terdiri dari sekian paket data berukuran besar, deskripsi dari data tersebut, dan serangkaian besar aturan- aturan
+secara umum, basis pengetahuan memiliki sifat yang dinamis, dengan kemampuan dan kapasitas untuk belajar, sehingga dekat dengan topik kecerdasan buatan
+untuk mengelola suatu basis pengetahuan, dibutuhkan suatu sistem manajemen basis pengetahuan yang biasanya memiliki kemampuan sebagai berikut: a
+membuat simpulan berdasarkan aturan-aturan, deskripsi data, dan fakta untuk menghasilkan informasi yang baru
+hal ini dibutuhkan karena pengguna sistem harus bisa menarik kesimpulan meski dengan ketidaklengkapan informasi
+mekanisme untuk melakukan perbaruan basis pengetahuan
+bila sistem tidak memiliki query, maka aktivitas pencarian informasi bisa berlangsung amat lama
+kemampuan untuk mengintegrasikan beragam basis pengetahuan
+kemampuan semacam ini sangat dibutuhkan terutama oleh organisasi yang tersebar secara lokasi
+kemampuan untuk menyediakan jawaban yang bersifat kooperatif kepada pengguna
+semisal saja, pengguna perlu tahu manakala sebuah query ternyata tidak bisa memberikan suatu keluaran dikarenakan kondisi keterbatasan basis data, atau data yang di-query-kan ternyata tidak tersedia di dalam basis data
+kemampuan untuk melakukan penggalian data, atau penemuan pengetahuan di dalam basis data
+penggalian data merupakan suatu bentuk cara berpikir induktif, yang mana membentuk suatu aturan dari suatu atau rangkaian kasus yang ada
+2.3 spatial knowledge management manajemen wawasan spasial erat kaitannya dengan perencanaan dan penataan keruangan
+wawasan tersebut dalam banyak domain berkembang dengan cepat dan sering tergantung pada konteks tugas sebuah situasi, termasuk dukungan masyarakat 
+pernyataan bahwa masalah organisasi adalah sama pentingnya dengan kecanggihan teknis dalam pengembangan sistem informasi geografis dalam perencanaan tata ruang adalah tema yang berulang dalam sig & perencanaan literatur 
+meskipun pengakuan ini sampai baru-baru ini ada sedikit penelitian mengenai bagaimana masalah ini dapat diatasi dan untuk membawa teknologi sig yang lebih tegas dalam konteks operasional dalam perencanaan tata ruang
+secara komprehensif tinjauan kontribusi ilmu informasi geografis untuk tata kota dan perencanaan wilayah perencanaan zorica nedovic- budic menyatakan bahwa: "sementara kemajuan ilmiah dalam membangun alat untuk mendukung proses perencanaan yang mengesankan, telah ada sedikit usaha untuk memberikan pedoman praktis tentang informasi strategis manajemen, untuk melembagakan informasi dan alat pendukung keputusan dan untuk mentransfer teknologi untuk pengaturan perencanaan” 
+jadi penataan ruang merupakan suatu penjelasan dalam proses pengambilan keputusan spasial di dalam beberapa sampel masalah
+model rasional dalam pengambilan keputusan mengidentifikasi empat tahapan kegiatan yang bila diterapkan dalam dunia nyata adalah yang bersumber dari kondisi 'rasionalitas terbatas' di mana keputusan akhir diletakkan pada tempatnya
+adapun keempat fase model rasional tersebut dapat dilihat seperti dibawah: a
+kecerdasan : mencari kondisi memerlukan keputusan b
+perancangan : menemukan dan mengevaluasi alternatif keputusan c
+pilihan : memilih alternatif yang paling dapat diterima d
+pelaksanaan dan review : penerapan dan pemantauan keputusan
+mengingat bahwa perencanaan tata ruang memang suatu proses yang kompleks, pertanyaan- pertanyaan ini tidak mudah untuk dijawab
+sig tentunya merupakan salah satu komponen dari jumlah pengetahuan yang digunakan dalam perencanaan tata ruang
+konfigurasi teknologi akan dapat mencakup keseluruhan pemecahan masalah
+adapun hirarki dari manajemen wawasan menurut skyrme & amidon adalah seperti gambar dibawah: gambar 1
+hirarki manajemen wawasan 2.4 sistem informasi geografis sistem informasi geografis atau geographic information system adalah suatu sistem informasi yang dirancang untuk bekerja dengan data yang bereferensi spasial atau berkoordinat geografi atau dengan kata lain suatu sig adalah suatu sistem basis data dengan kemampuan khusus untuk menangani data yang bereferensi keruangan bersamaan dengan seperangkat operasi kerja 
+sedangkan menurut aronoff sig adalah sistem informasi yang didasarkan pada kerja komputer yang memasukkan, mengelola, memanipulasi dan menganalisa data serta memberi uraian
+prahasta menyatakan sig terdiri atas beberapa subsistem yaitu: a
+data input, subsistem ini bertugas untuk mengumpulkan dan mempersiapkan data spasial dan data atribut dari berbagai sumber
+subsistem ini pula yang bertanggung jawab dalam mengkonversi atau mentransformasikan format-format data aslinya kedalam format yang digunakan oleh sig
+data output subsistem ini menampilkan atau menghasilkan keluaran seluruh atau sebagian basisdata baik dalam bentuk softcopy maupun bentuk hardcopy seperti: tabel, grafik, peta, dan lain-lain
+data management, subsistem ini mengorganisasikan baik data spasial maupun atribut ke dalam sebuah basisdata sedemikian rupa sehingga mudah dipanggil, di-update, dan di-edit
+data manipulation & analysis, subsistem ini menentukan informasi yang dapat dihasilkan oleh sig
+2.5 metode pengujian 2.5.1 pengujian analisis data statistik analisis data diartikan sebagai upaya mengolah data menjadi informasi, sehingga karakteristik atau sifat-sifat data tersebut dapat dengan mudah dipahami dan bermanfaat untuk menjawab masalah-masalah yang berkaitan dengan kegiatan penelitian
+dalam hal ini data yang akan diolah adalah data yang berdasar pada knowledge based didalam sistem
+sehingga data-data yang ada tersebut akan diolah dalam bentuk data statistik ketika manipulasi data terjadi
+dengan demikian, teknik analisis data dapat diartikan sebagai cara melaksanakan analisis terhadap data, dengan tujuan mengolah data tersebut menjadi informasi, sehingga karakteristik atau sifat-sifat datanya dapat dengan mudah dipahami dan bermanfaat untuk menjawab masalah-masalah yang berkaitan dengan kegiatan penelitian, baik berkaitan dengan deskripsi data maupun untuk membuat induksi, atau menarik kesimpulan tentang penelitian yang diambil
+kesimpulan yang diambil dalam penelitian ini adalah rekomendasi dari sistem yang dihasilkan dari analisis statistik data
+langkah dan prosedur analisis data meliputi: a
+tahap mengumpulkan data, dilakukan melalui instrumen pengumpulan data 
+tahap editing, yaitu memeriksa kejelasan dan kelengkapan pengisian instrumen pengumpulan data
+tahap koding, yaitu proses identifikasi dan klasifikasi dari setiap instrumen yang terdapat dalam pengumpulan data menurut variabel- variabel yang diteliti
+tahap mendeskripsikan data, yaitu tujuannya memahami karakteristik data sampel penelitian hasil manipulasi data
+tahap pengujian hipotesis, yaitu tahap pengujian terhadap proposisi-proposisi yang dibuat apakah proposisi tersebut ditolak atau diterima, serta bermakna atau tidak
+atas dasar pengujian hipotesis inilah selanjutnya rekomendasi dibuat
+hasil eksperimen secara garis besar alur kerja spatial knowledge management daerah ruang terbuka hijau yang dirancang dapat digambarkan pada diagram alir seperti pada gambar 2
+diagram alir sistem 3.1 form utama form utama digunakan untuk memanajemen peta dan mengakses form-form lain pada sistem serta menampilkan hasil analisis data tabular ke dalam data spasial yang digambarkan dalam bentuk peta tematik 
+antarmuka hasil perancangan form utama dapat dilihat pada gambar 3 berikut
+antarmuka form utama pada bagian atas form utama terdapat empat menu utama yang di dalamnya terbagi lagi menjadi beberapa submenu
+pada bagian bawah menu terdapat informasi longitude dan latitude yang menggambarkan posisi kursor pada peta, keterangan dan informasi layer aktif yang mengidentifikasikan kawasan yang sedang disorot menggunakan kursor
+selain itu, terdapat juga peta utama yang merupakan peta untuk menampilkan seluruh layer dan peta kecil yang berada di pojok kanan bawah untuk menggambarkan letak layer kota pontianak dan daerah yang berbatasan langsung dalam ukuran kecil
+peta yang ditampilkan pada form ini terdiri dari layer yang disusun bertumpuk, dimulai dari layer kecamatan di bagian paling bawah, kemudian layer kecamatan, layer sungai, layer jalan dan layer kawasan yang terletak pada posisi paling atas
+pengguna dapat memilih layer yang ingin diaktifkan dengan mencentang radiogroup keterangan layer aktif yang berada pada bagian kanan peta
+selain itu pengguna juga dapat melihat hasil identifikasi dari dari posisi kursor berupa informasi layer aktif yang mengidentifikasi detail informasi suatu kawasan yang disorot
+detail informasi tersebut akan ditampilkan didalam panel informasi
+3.2 form manajemen form ini digunakan untuk memanajemen data kawasan dan wawasan pada sistem
+pada manajemen data kawasan ini pengguna hanya dapat melihat dan mencari informasi luas kawasan, luas kecamatan dan persentasenya
+sedangkan pengguna tidak dapat melakukan manipulasi data kawasan, dikarenakan luas kawasan yang ditampilkan pada tabel merupakan informasi yang ditampilkan dari manipulasi peta yang terjadi, jika terjadi perubahan data kawasan maka hanya dapat dilakukan dengan manipulasi peta bukan dengan memanipulasi data kawasan
+pilihan manajemen data wawasan berguna untuk merubah konstanta / tetapan nilai minimum persentase ruang terbuka hijau pada masing-masing kecamatan
+perubahan nilai yang terjadi akan menghasilkan pendeklarasian ulang nilai konstanta pada sistem, sehingga pola perhitungan akan berubah
+antarmuka form manajemen dapat dilihat pada gambar 4
+apabila pengguna melakukan filter pencarian dapat dilakukan dengan memilih combobox tiap field yang ada
+kriteria yang dapat dicari adalah luas kecamatan, luas kawasan dan persentase tertentu sesuai dengan pencarian yang diinginkan pengguna sistem
+antarmuka form manajemen 3.3 form manajemen form laporan digunakan untuk melakukan proses rekapitulasi data luas kecamatan, luas kawasan dan persentasenya yang terdapat didalam sistem
+baik yang sudah diperbaharui atau data eksisting
+pada form ini pengguna dapat melihat grafik yang terbentuk dari data yang telah diinputkan sebelumnya 
+pengguna juga dapat memilih menu ekspor peta
+pada pilihan menu ini pengguna dapat menghasilkan dan menyimpan file peta berekstensi .jpg sesuai dengan pilihan peta yang akan di ekspor
+grafik yang ditampilkan juga dapat dicetak melalui mesin pencetak yang dihubungkan kedalam perangkat komputer yang digunakan untuk menjalankan aplikasi
+antarmuka form laporan grafik luas kecamatan dapat dilihat pada gambar 5
+antarmuka form laporan 3.4 pengujian analisis statistik memenuhi kriteria aturan wawasan yang telah dimiliki aplikasi
+analisis statistik terjadi pada form identifikasi yang merupakan form simpan dan analisis
+setelah pengguna menambahkan polygon kawasan pada peta secara otomatis aplikasi akan melakukan identifikasi terhadap polygon kawasan tersebut
+hal tersebut mencakup identifikasi kecamatan, identifikasai jenis kawasan, identifikasi nama jenis kawasan dan identfikasi luas kawasan yang baru ditambah
+pada tabel 1 dapat dilihat informasi mengenai luas kawasan tiap kecamatan dalam nilai persentase 
+no kecamatan persentase 41.6 % 46.16 % 12.24 % manipulasi peta yang terjadi pada sistem berpengaruh dengan perubahan data yang telah ada pada sistem 
+hasil analisis statistik pada sistem lebih tergambar didalam aplikasi
+sehingga end user tidak dapat melihat proses yang terjadi
+pengguna hanya melihat hasil analisis yanbg terjadi berupa keputusan yang diambil aplikasi, diantaranya dengan memperbolehkan penyimpanan peta atau memberikan rekomendasi pembangunan di daerah tertentu
+berikut dapat dilihat beberapa contoh analisis statistik berdasarkan data eksisting diantaranya pada tabel 2 di kecamatan pontianak barat dan tabel 3 di kecamatan pontianak selatan
+analisis statistik pada kecamatan pontianak barat tabel 3
+analisis statistik pada kecamatan pontianak selatan 4
+kesimpulan setelah dilakukan analisis dan pengujian terhadap spatial knowledge management daerah ruang terbuka hijau, dapat disimpulkan bahwa: 1
+sistem dapat memetakan dan melakukan manajemen persebaran kawasan ruang terbuka hijau, kawasan pemukiman dan kawasan fasilitas umum yang berada pada kota pontianak dan memperhitungkan luas masing- masing kawasan tersebut sehingga tergambar dalam bentu persentase luas kawasan
+sistem dapat menghasilkan rekomendasi pembangunan dengan mempertimbangkan kawasan ruang terbuka hijau, kawasan pemukiman dan kawasan fasilitas umum yang ada di kota pontianak
+sistem dapat membantu pengguna dalam menentukan perencanaan pembangunan kawasan luas pontianak barat baru hasil analisis keterangan - baru hasil analisis maksimal hasil eksekusi tidak berhasil keterangan rekomendasi: kecamatan pontianak barat kecamatan pontianak utara pemukiman dan fasilitas umum pada kota pontianak sesuai dengan kaidah dan wawasan yang diatur oleh aturan yang telah dibuat pemerintah ataupun stake holder yang berkepentingan

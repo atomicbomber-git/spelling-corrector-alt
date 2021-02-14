@@ -1,0 +1,112 @@
+kota pontianak memiliki fasilitas pelayanan kesehatan yang tersebar di seluruh penjuru kota pontianak
+manusia memerlukan pelayanan kesehatan apabila terserang penyakit atau berkonsultasi hal-hal mengenai kesehatan
+informasi letak fasilitas pelayanan kesehatan saat ini belum dapat diketahui oleh masyarakat secara meluas
+sistem informasi geografis diperlukan untuk memberikan informasi letak fasilitas pelayanan ke dalam bentuk peta digital yang dilengkapi dengan fasilitas kesehatan terdekat, rute perjalanan dan jadwal pelayanan dokter
+sistem ini dapat dibangun berbasis web sehingga dapat memberikan informasi ke pada masyarakat secara meluas apabila diakses
+berdasarkan identifikasi masalah, diperoleh apakah dapat dibangun sistem informasi geografis yang menginformasikan persebaran fasilitas pelayanan kesehatan serta jadwal pelayanan dan dapat memberikan rekomendasi rute
+hasil yang didapatkan adalah sebaran fasilitas kesehatan yang ditampilkan dalam google maps dan setiap fasilitas memiliki informasi jadwal pelayanan, sedangkan rute perjalanan dihitung berdasarkan algoritma dijkstra
+pengujian terhadap sistem dilakukan dengan metode blackbox dengan cara mengisi semua form serta mengamati hasil output sistem dan menguji rute yang tampil pada sistem dengan cara membandingkannya dengan perhitungan manual hasil pengujian sistem diperoleh kesimpulan bahwa sistem informasi geografis yang dibuat dapat bekerja sesuai dengan yang diperlukan
+pendahuluan barat yang pada saat ini sedang berusaha untuk berkembang menjadi sebuah ibukota provinsi yang lebih maju serta dapat bersaing dengan ibukota provinsi lainnya yang ada di indonesia
+seiring dengan kemajuan pada sektor pembangunan yang ada di wilayah kota pontianak, jumlah kepadatan penduduk semakin meningkat per-tahunnya yaitu pada tahun 2009 berjumlah 4.889 jiwa/km2 menjadi 5.438 jiwa/km2 di tahun 2013 
+dalam melakukan aktifitas manusia mempunyai kebutuhan-kebutuhan untuk melangsungkan oleh perasaan kekurangan dan ingin diperoleh sesuatu yang akan diwujudkan melalui suatu usaha atau tindakan 
+kebutuhan tidak terlepas dari kehidupan sehari-hari yaitu makanan, pakaian, perumahan, pendidikan, dan kesehatan
+sangat mendasar dan disamping itu setiap individu berhak untuk mendapatkan pelayanan kesehatan bagi dirinya secara maksimal kesehatan juga merupakan salah satu faktor dalam menentukan indeks pembangunan sumber daya manusia/human development index disamping faktor pendidikan dan pendapatan 
+kota pontianak dengan luas daerah 107, 82 kilometer persegi terdapat fasilitas pelayanan kesehatan yang tersebar di seluruh penjuru kota pontianak
+fasilitas pelayanan kesehatan merupakan sarana yang digunakan untuk menyelenggarakan upaya pelayanan kesehatan perorangan, baik promotif, preventif, kuratif maupun rehabilitatif yang dilakukan oleh pemerintah dan/atau masyarakat
+dukungan terhadap upaya pembangunan kesehatan agar dapat menyentuh seluruh lapisan masyarakat diperlukan suatu media yang dapat menginformasikan kepada masyarakat mengenai lokasi fasilitas pelayanan kesehatan terdekat serta menunjukkan rekomendasi rute menuju fasilitas pelayanan kesehatan tersebut
+yang digunakan untuk menyimpan dan memanipulasi informasi geografis 
+penentuan rute membutuhkan suatu algoritma yang dapat menginformasikan alur perjalanan sehingga masyarakat dapat mengetahui jalan yang dapat dilalui untuk menuju fasilitas pelayanan kesehatan
+algoritma dijkstra adalah suatu algoritma untuk menemukan jarak terpendek pada tiap vertices pada suatu graph 
+rekomendasi rute ditampilkan ke dalam peta sehingga masyarakat dapat melihat jalan yang dapat dilalui dari lokasi masyarakat tersebut menuju fasilitas pelayanan kesehatan
+fasilitas pelayanan kesehatan adalah suatu alat dan/atau tempat yang digunakan untuk menyelenggarakan upaya pelayanan kesehatan, baik promotif, preventif, kuratif maupun rehabilitatif yang dilakukan oleh pemerintah, pemerintah daerah, dan/atau masyarakat
+pasal 1 angka 7 uu nomor 36 tahun 2009 tentang kesehatan
+ 
+menurut levey dan lomba, pelayanan kesehatan adalah upaya yang diselenggarakan sendiri atau secara bersama-sama dalam suatu organisasi untuk memelihara dan meningkatkan kesehatan dan rancang bangun sistem informasi geografis berbasis web fasilitas pelayanan kesehatan di kota pontianak b
+1 hendro.manikraja@gmail.com, 2 arifbpn@gmail.com, 3 irwansyah.azhar@gmail.com mencegah dan menyembuhkan penyakit serta memulihkan kesehatan perorangan, keluarga, kelompok, ataupun masyarakat.tahappenyuntingan dan publikasi yang digunakan untuk mengumpulkan, menyimpan, menggabungkan, mengatur, mentransformasi, memanipulasi dimaksud disini adalah data spasial yang ciri-cirinya adalah: 1
+memiliki geometric properties spserti koordinat dan lokasi
+dipakai untuk maksud-maksud tertentu, misalnya analisis, pemantauan ataupun pengelolaan
+yang terletak di permukaan bumi, pengetahuan mengenai posisi dimana suatu objek terletak di permukaan bumi dan informasi mengenai keterangan-keterangan yang terdapat di permukaan bumi yang posisinya diketahui
+objek- objek dan fenomena-fenomena dimana lokasi geografis itu berada penting dianalisis demi pengambilan keputusan- keputusan atau demi kepentingan-kepentingan tertentu
+google map api oleh google dan sangat popular
+google maps adalah suatu peta dunia yang dapat digunakan untuk melihat suatu daerah
+dengan kata lain, google maps merupakan suatu peta yang dapat dilihat dengan menggunakan suatu browser
+kita dapat menambahkan fitur google maps dalam web yang telah kita buat atau pada blog kita yang berbayar maupun gratis sekalipun dengan google maps api
+serta google maps api juga bisa dikatan sebagai suatu library yang berbentuk javascript google maps memanfaatkan teknologi digital imaging, seperti foto satelit sehingga kamu bisa melihat bagaimana landscape planet bumi apabila dilihat dari luar angkasa
+membuat element div dengan nama map_canvas untuk menampilkan peta
+menginisiasi peta dalam tag body html dengan event onload
+pada google maps api terdapat 4 jenis pilihan model peta yang disediakan oleh google, diantaranya adalah: 1
+roadmap, untuk menampilkan peta biasa 2 dimensi 2
+terrain, untuk menunjukkan relief fisik permukaan bumi dan menunjukkan seberapa tingginya suatu lokasi, contohnya akan menunjukkan gunung dan sungai 4
+hybrid, akan menunjukkan foto satelit yang diatasnya tergambar pula apa yang tampil pada roadmap 
+algoritma dijkstra kota pontianak adalah menggunakan algoritma dijkstra
+algoritma dijkstra adalah suatu metode yang ditemukan oleh edger wybe dijkstra pada tahun 1959 yang dimana metode ini berfungsi menentukan rute terpendek oleh karena itu, program ini tidak memberikan jalan alternatif
+metode dijkstra menurut para pakar komputer dan ahli matematika adalah: 1
+metode dijkstra adalah suatu metode yang namanya sesuai dengan nama penemunya yaitu edger dijkstra dimana metode ini digunakan untuk memecahkan masalah pencarian rute terpendek antara tiap lokasi yang dihubungkan oleh jalur, dimana jarak antara jalur bukan nilai negatif
+ide dari algoritma ini berdasarkan pada fakta setiap jarak minimum terdapat lebih dari satu, tetapi sebenarnya hanya ada satu jarak terpendek untuk ditempuh
+hal ini terjadi karena semua jarak bernilai positif
+ini sebabnya maka rute pertama akan ditemukan oleh algoritma dan dijadikan lokasi awal setelah itu akan menemukan rute selanjutnya yang terhubung dengan rute pertama
+apabila terdapat banyak rute maka akan diambil jarak yang paling pendek 
+algoritma dijkstra, dinamai menurut penemuny, edger dijkstra adalah sebuah algoritma rakus dalam memecahkan permasalahan jarak terpendek untuk sebuah graf berarah dengan bobot-bobot sisi yang bernilai tidak negatif
+misalnya, bila vertices dari sebuah graf melambangkan kota-kota dan bobot sisi melambangkan jarak antara kota-kota tersebut, maka algoritma dijkstra dapat digunakan untuk menemukan jarak terpendek antara dua kota
+sesuai dengan arti greedy yang secara harafiah berarti tamak atau rakus, namun tidak dalam konteks negatif, algoritmagreedy ini hanya memikirkan solusi terbaik yang akan diambil pada setiap langkah tanpa memikirkan konsekuensi ke depan
+prinsipnya, ambillah apa yang bisa didpatakan saat ini
+akan tetapi bobot dari graf tersebut harus bernilai bilangan positif 
+melakukan pada pencarian jarak terpendek : s : menentukan kumpulan vertices pada graph dimana lokasi awal dan lokasi akhir ditemukan
+v – s : kumpulan dari vertices pada graph dimana shortest path dari satu start ke vertices belum diketahui
+d : array berisi perkiraan jarak terpendek dari start kesetiap vertices
+jika, lokasi ≠ lokasi maka isi v-s dengan lokasi yang terhubung dengan lokasi awal 3
+isi d dengan urutan lokasi yang terhubung dengan lokasi awal yang berdasarkan jarak terpendek dari lokasi awal 4
+isi t dengan jarak yang ditempuh dan selalu bertambah bila ada jarak yang baru
+akan selesai, tetapi apabila lokasi awal ≠ lokasi akhir lanjutan langkah ke 2
+arsitektur sistem dilihat pada gambar 2 sebagai berikut: database fasilitas gambar 2 arsitektur sistem proses yang dilakukan oleh sistem
+pada gambar dapat dilihat alur proses yang terdapat pada sistem, dimana pertama kali sistem menampilkan halaman utama
+dalam sistem terdapat beberapa proses yang dapat dijelaskan sebagai berikut : 1
+hitung jarak ke semua simpul dimana dibutuhkan koordinat titik asal untuk melakukan perhitungan
+fasilitas kesehatan radius terdekat akan ditampilkan oleh sistem setelah dihitung jarak dari koordinat asal terhadap fasilitas kesehatan
+melakukan perhitungan rute oleh algoritma disjktra
+rincian fasilitas kesehatan merupakan proses menampilkan informasi detail yang terdapat pada lokasi fasilitas pelayanan kesehatan
+desain diagram konteks dapat dilihat pada gambar 4 sebagai berikut: konteks
+desain diagram overview dapat dilihat pada gambar 5 sebagai berikut: yaitu: login administrator adalah proses autentikasi pengguna untuk mengakses halaman web administrator dengan memasukkan identitas dari akun pengguna dan kata sandi guna mendapatkan hak akses admninistrator dalam menggunakan sistem
+manajemen data adalah proses yang dilakukan oleh administrator untuk mengelola data spasial dan data tabular seperti nama tempat, kategori, telepon, foto dan deskripsi
+pada proses ini administrator dapat melakukan penambahan serta pengubahan pada data spasial dan data atribut
+proses 3.0 pencarian meyeleksi data yang ingin ditampilkan
+data diseleksi berdasarkan kategori dan spesialis yang ditentukan oleh public serta data waktu akses yang berasal dari jam pada sistem
+proses yang dilakukan untuk menampilkan data fasilitas pelayanan kesehatan yang lokasinya berada di dekat lokasi public saat mengakses aplikasi
+data ditampilkan ke dalam tabel dan diurutkan berdasarkan jarak antara lokasi public dengan lokasi fasilitas pelayanan kesehatan
+proses 5.0 rute menunjukkan arah rute perjalanan
+rute ini diperhitungkan berdasarkan algoritma dijkstra
+pada proses ini diperoleh data spasial pengguna saat mengakses untuk menghitung jarak ke semua simpul yang digunakan ke dalam algoritma dijkstra grafis yang menggambarkan skema database
+disebut sebagai diagram e-r-d karena diagram tersebut menunjukkan berbagai entitas yang dimodelkan, serta hubungan antar-entitas tersebut
+entitas adalah segala sesuatu yang informasinya ingin dikumpulkan dan disimpan oleh organisasi
+di dalam diagram e-r-d, entitas muncul dalam bentuk persegi panjang, sedangkan hubungan antar-entitas diwakili oleh bentuk wajik
+pada sistem ini terdapat 4 entitas yaitu: 1
+administrator, yaitu pengguna yang memliki akses dalam manajemen data
+yang menjelaskan posisi pada peta dan rincian terhadap fasilitas pelayanan kesehatan
+persimpangan jalan yang ada di kota pontianak dan fasilitas pelayanan kesehatan
+satu fasilitas pelayanan kesehatan dan jadwal pelayanan
+relasi-relasi dan konektivitas yang terjadi dari entitas-entitas yang ada adalah sebagai berikut: 1
+mengubah : administrator mengubah beberapa fasilitas pelayanan kesehatan
+hasil perancangan pencarian fasilitas pelayanan kesehatan yang akan dituju
+halaman pencarian dapat dilihat pada gambar 7 sebagai berikut: merupakan kategori fasilitas pelayanan memberikan fokus pencarian informasi yang akan dilakukan oleh pengguna
+pada peta ditampilkan persebaran fasilitas pelayanan kesehatan di kota pontianak melalui google map dengan marker peta yang memiliki warna masing-masing dan menunjukkan lokasi fasilitas pelayanan kesehatan
+selain menampilkan peta, di sisi sebelah kiri peta terdapat content sekitar anda yang merupakan informasi lokasi fasilitas pelayanan kesehatan yang berada dekat dengan pengguna dan di sisi sebalah kiri bawah peta terdapat informasi lokasi pengguna saat mengakses sistem
+halaman peta dapat dilihat pada gambar 8 sebagai berikut: gambar 8 halaman peta pelayanan kesehatan dilakukan dengan cara melakukan pencarian pada field pencarian yang dijelaskan pada gambar 9 sebagai berikut: kesehatan yang didapat dari hasil pencarian dengan memilih tombol rute
+rute ditampilkan dalam google map yang dapat dilihat pada gambar 10 sebagai berikut: gambar 10 rute melihat fasilitas pelayanan kesehatan yang berada pada radius terdekat dengan lokasi pengguna
+fasilitas pelayanan kesehatan dengan radius terdekat dapat dilihat pada gambar 11 sebagai berikut: pengujian sistem dilakukan dengan metode blackbox dimana diberikan sampel data untuk mengetahui kesesuaian antara data yang dimasukkan dengan keluaran dari sistem
+pengujian terhadap algoritma dijkstra dapat dilihat pada gambar 14 sebagai berikut: gambar 14 hasil penetuan rute oleh sistem perhitungan manual dapat dilihat pada tabel 1 sebagai berikut: tabel 1 perhitungan manual rute dengan algoritma dijkstra no nilai simpul terpendek yang terpilih rute maka dapat disimpulkan rute yang dilalui dari lab ti menuju puskesmas kampung bangka adalah sebagai berikut 00 → 21 → 22 → 29 → 28 → 27 → 148
+rute berdasarkan perhitungan manual dapat dilihat garis berwarna merah pada gambar 15 sebagai berikut: v
+analisis hasil pengujian apakah sistem dapat bekerja dengan baik
+penjelasan mengenai analisis hasil pengujian aplikasi sistem informasi geografis fasilitas pelayanan kesehatan di kota pontianak dapat dilihat sebagai berikut
+dapat ditampilkan perdasarkan pengurutan 5 jarak radius terpendek
+map yang mewakili lokasi sebenarnya pada permukaan bumi berdasarkan koordinat yang terdapat pada databae
+rincian fasilitas pelayanan kesehatan berupa jadwal pelayanan dapat dilihat oleh pengguna
+admin dapat melakukan manajemen data yaitu menambah, merubah, dan menghapus data fasilitas pelayanan kesehatan
+berdasarkan hasil pengujian black box aplikasi dapat memberikan output yang sesuai dengan data yang di-input- kan
+digambarkan pada peta dengan google direction
+algoritma dijkstra yang terdapat pada aplikasi sesuai dengan algoritma dijkstra yang dilakukan dengan perhitungan manual ditandai dengan rute yang dihasilkan memiliki kesamaan
+sehingga algoritma dijkstra dapat menunjukkan rute yang sesuai berdasarkan algoritma dijkstra kepada pengguna aplikasi
+informasi geografis fasilitas pelayanan kesehatan kota pontianak dapat disimpulkan bahwa: memberikan informasi tentang lokasi fasilitas pelayanan kesehatan di kota pontianak melalui peta persebaran lokasi serta dapat memberikan informasi data atribut yang merupakan rincian detail pada masing-masing lokasi fasilitas pelayanan kesehatan
+serta menunjukkan rute menuju lokasi fasilitas kesehatan dengan menggunakan algoritma dijkstra
+sistem dapat dijalankan dengan platform mobile berupa aplikasi android sehingga informasi menjadi lebih mudah dan cepat diakses
+kesehatan dan dapat memberikan informasi mengenai tempat fasilitas pelayanan kesehatan yang dikelolanya
+administrator hanya mem-validasi apakah data dapat ditampilkan ke publik

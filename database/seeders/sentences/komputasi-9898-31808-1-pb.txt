@@ -1,0 +1,22 @@
+irani elizabeth manik airanielizabeth@gmail.com a milestone establishment of the indonesian nation
+a country will not stand firm if his generation was not given the basic form of discipline and affection of the people nearby
+but many indonesian children who have experienced violence, physical violence either one of the parents or others
+when this happens to a child, then the child will result in mental become weak because there is no protection from the surrounding areas
+the rise of child abuse cases make kpai training to child protection agencies and provide assistance in the form of media in outreach knowledge of the level of physical violence, and as a medium of assistance to children
+in rank a case of violence necessary to determine the criteria and sub-criteria
+based on the criteria: type of violence, media violence and violence tool
+while the sub-criteria are the type of violence, how violence, the tool of violence, perpetrators of violence, the symptoms of violence, and the impact of violence
+this decision support system is designed by using analytical hierarchy process as a calculation to compare the most recent case with the cases that have been there by using the criteria of cases of physical violence on children based desktop
+the results of the analysis and testing of the black- box method showed that the decision support system can rank cases there through calculation by ahp with a relatively shorter time and optimal results
+also, this decision support system testing between the testing system and the manual from the comparison of the known range of numbers that are not too far in the amount of 0.095 and user evaluation test results accreditation forms can be concluded that the decision support system designed considered important indicated by the average value of 62.22% for the user level
+keadaan masa depan suatu bangsa sangat dipengaruhi oleh keadaan generasi mudanya pada saat ini
+mereka adalah agen perubah yang akan menjadi salah satu penentu terpenting masa depan bangsa
+anak adalah potensi masa depan yang belum terlihat masa kini
+tetapi yang sering terjadi seringkali justru terabaikan, tersakiti, dan mengalami banyak hal buruk
+kekerasan yang dialami anak sangat tidak baik dan berdampak kepada suatu tindak kejahatan pidana karena anak- anak berada dalam perlindungan undang- undang
+membuat suatu lembaga yang mengurusi masalah anak yaitu lembaga perlindungan anak 
+lembaga perlindungan anak memberikan pendampingan kepada anak tersebut, membantu proses pemulihan dan perubahan perilaku anak sekitar satu atau dua bulan sebelum mereka bebas/keluar dari lapas
+adapun fungsi dan peran lpa adalah di antaranya sebagai lembaga pendidikan, pengenalan, dan penyebarluasan informasi anak
+dari pihak lembaga yang menaungi masalah anak sebagai pembelajaran kepada masyarakat agar jangan sampai pelaku yang melakukan tindak kekerasan berat diberikan hukuman ringan, atau sebaliknya, dan bahkan lepas dari hukuman yang seharusnya ditanggung
+dirancanglah sebuah sistem pendukung keputusan dengan menerapkan metode perhitungan untuk membandingkan kasus kasus yang berat, sedang, ataupun ringan
+landasan teori 2.1 sistem pendukung keputusan sistem pendukung keputusan didefinisikan sebagai interaktif berbasis terstruktur, scoot-morton

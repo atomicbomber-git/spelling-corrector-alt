@@ -1,0 +1,58 @@
+pontianak city is one of the areas in indonesia which is prone and endemic to dengue fever
+since 2002 until the year 2013, dengue fever has become a remarkable incident in the city for several times
+various prevention efforts have been made, but the number of cases of dengue fever is still quite high, so the appropriate handling required by knowing the area that has the potential of dengue disease-prone in months to come
+thus the proper prevention efforts can be planned by the government or the relevant parties to support the efforts of disease prevention of dengue
+determination of areas potentially vulnerable to dengue fever is usually done by the health service area of prevention and mitigation of disease, manually based on frequency of occurrence data of dengue fever that occurred in previous years
+therefore, this research aims to produce a system that can determine areas of potentially dengue fever with features that have the specified in the amount of precipitation, air temperature, air humidity, the number of health facilities, overcrowding and the frequency of occurrence of dengue
+the system was built in determining areas of potentially dengue fever using case-based reasoning or called by case base reasoning 
+to generate an output in the form of insecurity level status using the similarity value, the method used is sorensen coefficient method
+the output of this system is the status of insecurity, which is no dengue fever prone, prone, and very prone
+this system can create data features and the data cases of dengue fever
+keywords: dengue fever, status insecurity, case- based reasoning, sorensen coefficient, testing forms
+demam berdarah beberapa kali menjadi kejadian luar biasa di kota ini
+menurut data badan pusat statistik kota pontianak, jumlah kasus dbd pada tahun 2002 berjumlah 1.713, tahun 2006 berjumlah 1.288 dan tahun 2009 berjumlah 3.893
+tahunnya ini telah ditangani dan dicegah oleh pemerintah kota pontianak dan pihak- pihak terkait dengan berbagai usaha, diantaranya dengan fogging, menutup tempat penampungan air, dan mengubur barang-barang bekas)
+akan tinggi, sehingga diperlukan penanganan demam berdarah pada bulan yang akan datang
+dengan demikian, dapat untuk mendukung upaya pencegahan suatu sistem yang dapat menentukan daerah berpotensi rawan penyakit demam penyakit demam berdarah menggunakan dengan case base reasoning 
+untuk menghasilkan solusi suatu masalah menggunakan nilai similaritas, metode coefficient
+perhitungan similaritas sebelumnya sehingga dapat dipilih sebagai sebuah solusi
+case based reasoning digunakan dalam pemecahan masalah yang baru, sistem akan melakukan pencarian terhadap solusi dari kasus lama yang memiliki permasalahan yang sama dan sudah pernah terjadi sebelumnya
+terdapat dua prinsip dasar pada metode cbr, prinsip pertama adalah setiap permasalahan yang sama akan memiliki solusi yang sama pula
+prinsip kedua adalah setiap permasalahan dapat terjadi berulang kali
+oleh karena itu, terdapat kemungkinan bahwa masalah yang akan muncul di masa yang akan datang memiliki kesamaan dengan masalah yang pernah terjadi sebelumnya
+secara umum metode ini terdiri dari 4 langkah yaitu : alur proses cbr dalam memecahkan masalah didefinisikan dalam 4 langkah yaitu : reasoning sumber : keterangan : 2
+reuse, menggunakan kembali kasus untuk mencoba memecahkan masalah
+revise, merevisi solusi yang diajukan jika perlukan
+retain, menyimpan solusi baru sebagai bagian dari kasus baru
+2.2 metode sorensen coefficient similaritas dua objek yang bersifat biner adalah dengan menggunakan metode sorensen coefficient
+formula untuk dan y adalah sebagai berikut : 2.3 unified modeling language menurut m
+salahuddin dan rosa a.s uml merupakan bahasa visual untuk pemodelan dan komunikasi mengenai sistem dengan menggunakan muncul karena adanya kebutuhan pemodelan visual untuk menspesifikasikan, 2.3.1 use case diagram diagram use case merupakan pemodelan untuk kegiatan case mendeskripsikan sebuah interaksi informasi yang akan dibuat
+yaitu : a) aktor merupakan orang, proses atau sistem lain yang berinteraksi dengan sistem yang akan dibuat
+b) use case merupakan fungsionalitas yang disediakan sistem sebagai unit – unit yang saling bertukar pesan antar unit atau aktor
+struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki atribut dan metode atau operasi
+ atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+ operasi atau metode adalah fungsi- fungsi yang dimiliki oleh suatu kelas
+susunan struktur kelas yang baik pada diagram kelas sebaiknya memiliki jenis-jenis kelas berikut : d) kelas yang diambil dari pendefinisian data 2.3.3 activity diagram diagram aktivitas menggambarkan workflow atau aktivitas dari sebuah sistem atau proses bisnis
+yang perlu diperhatikan disini adalah bahwa diagram aktivitas menggambarkan aktivitas aktivitas yang dapat dilakukan oleh sistem 2.3.4 sequence diagram diagram sekuen menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+terdapat dua aktor yang berinteraksi pada sistem penentuan daerah berpotensi rawan demam berdarah, yaitu: 1
+nama aktor : staff staff merupakan pegawai yang berada di dinas kesehatan kota pontianak, dinas kependudukan dan pencatatan sipil 2
+nama aktor : kabid p3 kabid p3 merupakan kepala bidang pencegahan dan penanggulangan keterangan :  penentuan daerah berpotensi dbd : proses yang didalamnya terdapat proses lihat data kejadian dbd, penentuan daerah berpotensi dbd, dan simpan kasus baru
+ kelola data fitur : proses yang didalamnya terdapat proses tambah data fitur, ubah data fitur dan hapus data fitur
+ kelola data kasus : proses yang didalamnya terdapat proses lihat tabel kasus, tambah data kasus, ubah data kasus, dan hapus data kasus
+ kelola data pengguna : proses yang didalammnya terdapat proses tambah data pengguna, ubah data pengguna, dan hapus data pengguna
+struktur antarmuka sistem yang sebagai berikut: dbd penentuan daerah berpotensi dbd sistem kabid p3 tahapan retrieve adalah menemukan kembali kasus yang paling mirip dengan kasus baru
+membandingkan kasus baru dengan semua kasus lama yang sudah tersimpan dalam basis kasus
+proses input kasus baru berikut ini adalah proses kasus lama yang sudah tersimpan dalam basis kasus
+merupakan proses perbandingan kasus baru dengan semua kasus lama baru dengan kasus lama 2
+mencari tingkat kemiripan antara kasus baru dengan kasus-kasus dalam basis pengetahuan, seperti tampak pada dan kasus lama
+telah tersimpan pada basis kasus untuk memecahkan masalah kasus
+merupakan kasus lama yang digunakan sebagai hasil dari perbandingan antara kasus baru dan kasus lama
+kasus lama yang digunakan sebagai hasil/solusi akan diterapkan pada kasus yang baru atau solusi tersebut perlu diperbaiki terlebih dahulu
+tahapan retain adalah menyimpan kasus yang ada
+merupakan tabel kasus sebelum dilakukan proses retain dan gambar 10
+merupakan tabel kasus setelah dilakukan proses retain
+tabel kasus sebelum proses retain retain dilakukan dengan cara dengan yang dilakukan oleh sistem terhadap data- data tingkat kerawanan demam berdarah yang ada di dinas kesehatan kota pontianak
+kas perhitungannya sebagai berikut : nilai keakuratan= jumlah yang sesuai x 100% jumlah kasus 20 = 95 % pengujian terhadap program aplikasi penentuan daerah berpotensi rawan penyakit demam berdarah, dapat penyakit demam berdarah
+digunakan untuk menghasilkan c) berdasarkan data yang ada, secara umum kota pontianak dikategorikan daerah tidak rawan dbd
+namun pada bulan oktober terdapat daerah yang dikategorikan sangat rawan demam berdarah dengue yaitu adalah kecamatan pontianak utara november

@@ -1,0 +1,79 @@
+berkembang pesat di kehidupan manusia salah satunya di bidang edukasi
+teknologi augmented reality dapat dimanfaatkan sebagai media pembelajaran multimedia termasuk media pembelajaran sel penyusun jaringan pada sistem gerak
+hal ini dikarenakan materi sel penyusun jaringan pada sistem gerak sangat sulit untuk ditemui dalam kehidupan sehari-hari
+kelebihan dari augmented reality adalah tampilan visual yang menarik, karena dapat menampilkan objek 3 dimensi beserta animasinya yang seakan-akan ada pada lingkungan nyata sehingga augmented reality diharapkan dapat digunakan sebagai salah satu alternatif media pembelajaran untuk mengenalkan yang terkait dengan materi sel penyusun jaringan pada sistem gerak sehingga dapat membuat pengguna tertarik
+untuk membangun aplikasi berbasis android digunakan game engine unity serta menggunakan vuforia sdk agar aplikasi yang dibangun memungkinkan menjadi aplikasi berteknologi augmented reality
+disertai dengan sebuah buku yang berisi marker yang apabila diarahkan ke aplikasi dapat menampilkan visualisasi objek 3d
+aplikasi ini bermanfaat untuk siswa sekolah menengah atas, yang memperoleh materi sel penyusun jaringan pada sistem gerak
+berdasarkan hasil pengujian marker, ada 10 marker yang berhasil memunculkan objek dari total 14 marker
+fitur virtual button berjalan dengan baik pada setiap objek yang di uji pada pengujian black-box
+dari hasil pengujian user acceptance testing, yaitu pengujian pre test dan post test yang telah dilakukan, untuk kelompok siswa yang belajar menggunakan media buku biologi memiliki persentase kenaikan dari nilai pre test ke post test sebesar 18, 77 %, sedangkan pada kelompok belajar yang menggunakan aplikasi augmented reality memiliki persentase kenaikan dari nilai pre test ke post test sebesar 23, 5%, yang berarti teknologi augmented reality dapat diterapkan sebagai media pembelajaran sel penyusun jaringan pada sistem gerak
+pendahuluan pesat, dan telah mencakup berbagai bidang dikehidupan manusia, salah satunya bidang pendidikan
+dalam pelajaran biologi, terdapat berbagai materi yang diajarkan, salah satunya pelajaran mengenai sel penyusun jaringan pada sistem gerak yang diajarkan pada kelas xi sma
+sel penyusun jaringan pada sistem gerak merupakan tulang-tulang yang menyusun rangka tubuh disebut gerak pasif, sedangkan otot disebut sebagai gerak aktif
+selain itu terdapat persendian yang menghubungkan antar tulang
+jenis tulang dibedakan menjadi dua yaitu tulang rawan dan tulang keras
+berdasarkan bentuk tulang terdapat tiga macam yaitu tulang pipih, tulang pendek, dan tulang pipa
+skeleton manusia dibedakan menjadi dua kelompok yaitu skeleton aksial sumbu tubuh dan skeleton apendikular .skeleton aksial adalah tulang- tulang yang menyusun sumbu utama tubuh manusia dari ujung kepala sampai ujung ekor
+skeleton apendikuler adalah tulang-tulang yang menyusun alat gerak atas dan gerak bawah
+berdasarkan arah gerak dari sendi gerak dibedakan menjadi sendi peluru, sendi pelana, sendi engsel, sendi geser, sendi putar, dan sendi luncur
+otot manusia dibedakan menjadi tiga jenis yaitu otot lurik, otot jantung, dan otot polos
+pada materi pelajaran ini menunjukan bagian yang terdapat didalam tubuh manusia
+sistem gerak sendiri masih melalui media seperti papan tulis, dan gambar - gambar yang terdapat di buku biologi
+sementara materi sistem gerak ini sulit untuk dilihat secara langsung, sehingga siswa kesulitan dalam membayangkan yang dipelajari
+meskipun begitu teknologi dapat dimanfaatkan sebagai media pembelajaran yang bisa menampilkan objek 3 dimensi, sehingga siswa dapat melihat visualisasi tentang sel penyusun jaringan pada sistem gerak
+media pembelajaran sel penyusun jaringan pada sistem gerak dapat dibuat dengan memanfaatkan teknologi augmented reality yang di diaplikasikan kedalam perangkat mobile android
+objek 3d ke dalam lingkungan nyata menggunakan media kamera
+ar ini dapat diaplikasikan kedalam perangkat mobile android
+kelebihan dari ar adalah dapat menampilkan visualisasi yang menarik, seakan - akan objek 3d berada di lingkungan nyata
+media pembelajaran yang menarik dalam membantu siswa mempelajari sel penyusun jaringan pada sistem gerak dengan media pembelajaran yang berbeda
+dengan bertambahnya media pembelajaran baru yang dimanfaatkan menggunakan ar sebagai media dalam menyampaikan materi, ar diharapkan dapat menjadi salah satu alternatif media pembelajaran untuk mempelajari sel penyusun jaringan pada eric nur romadhon #1 1eric.romadhon@gmail.com, 2stmkom@gmail.com, 3helensastypratiwi@gmail.com penerapan augmented reality berbasis android sebagai media pembelajaran sel penyusun jaringan pada sistem gerak dalam mata pelajaran biologi jl
+uraian penelitian pasif, sedangkan otot disebut sebagai gerak aktif
+selain itu terdapat persendian yang menghubungkan antar tulang sehingga tulang mudah bergerak
+augmented reality objek 3d ke dalam lingkungan nyata menggunakan media webcam
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan atau melengkapi kenyataan
+objek maya yang digabungkan ke dalam lingkungan nyata berfungsi menampilkan informasi yang tidak dapat di terima oleh manusia secara langsung
+hal ini membuat augmented reality berguna sebagai alat untuk membantu persepsi dan interaksi penggunanya dengan dunia nyata
+informasi yang ditampilkan oleh objek yang ditampilkan membantu pengguna melaksanakan kegiatan-kegiatan dalam dunia nyata
+ada tiga prinsip dari augmented reality, yang pertama yaitu ar merupakan penggabungan dunia nyata dan vitual, yang kedua berjalan secara interaktif dalam waktu nyata, dan yang ketiga terdapat integrasi antar benda dalam tiga dimensi, yaitu benda maya terintegrasi dalam dunia nyata
+virtual button virtual button merupakan bagian dari teknologi augmented reality dimana penempatan tombol dalam keadaan dunia nyata menggunakan media marker dan mendeteksi dimana tombol tersebut disentuh dengan media teknologi mobile maupun pc 
+ketika sebuah tombol disentuh akan melakukan suatu reaksi balik pada marker yang telah disediakan
+unified modelling language unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+activity diagram menjelaskan berbagai kegiatan pengguna atau sistem, orang yang melakukan masing-masing aktivitas dan aliran sekuensial dari aktivitas-aktivitas tersebut
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem aplikasi yang sudah dibangun dipasangkan ke dalam android
+aplikasi yang dijalankan kemudian akan mengakses kamera yang ada di android
+kemudian tempatkan kamera android di atas marker
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika valid aplikasi akan menampilkan objek 3d dari gambar ke layar android
+pengujian aplikasi pengujian marker, black-box pada virtual button dan pre test dan post test kepada 30 siswa
+hasil aplikasi dari teknologi augmented reality berbasis android
+dibangunnya aplikasi ar`sgm bertujuan sebagai media pembelajaran multimedia sel penyusun jaringan pada sistem gerak manusia khususnya tulang, otot serta sendi yang dibuat menarik pada mata pelajaran biologi
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 6
+tampilan menu utama gambar 3 merupakan tampilan dari menu utama aplikasi gambar 4
+tampilan menu ar`sgm menampilkan objek 3 dimensi gambar 4 merupakan tampilan menu ar`sgm dimana di dalam menu ini akan ditampilkan objek 3 dimensi
+tampilan menu ar`sgm menampilkan animasi objek 3 dimensi gambar 5 merupakan tampilan menu ar`sgm saat menampilkan animasi objek 3 dimensi
+tampilan menu ar`sgm menampilkan informasi dan narasi gambar 6 merupakan tampilan tampilan menu ar`sgm saat menampilkan informasi dan narasi
+pengujian marker pengujian marker dilakukan untuk mengetahui berapa banyak objek 3 dimensi yang muncul dari 14 marker yang ada di buku biologi kelas xi sma
+pada tabel 1, memperlihatkan hasil pengujian marker yang gambarnya berasal dari buku biologi kelas x sma
+tabel 1 tabel hasil pengujian marker kompak dan tulang spons 4 gambar 4.5 tulang rangka dan bagian-bagiannya muncul tulang dada gerak tidak 12 gambar 4.14 perbedaan posisi aktin dan miosin saat otot mengalami relaksasi dan kontraksi otot antagonis 2
+pengujian black-box hasil pengujian black-box pada fitur virtual button berdasarkan marker dari katalog
+virtual button muncul dan berfungsi dengan baik apabila marker terdeteksi dengan baik
+pre test dan post test pertama-tama siswa di berikan soal pre test, setelah menyelesaikan soal pre test tersebut, siswa yang berjumlah 30 di bagi menjadi dua kelompok berdasarkan nomor urut absen genap dan ganjil
+kemudian di lakukan post test dengan soal yang sama dan jumlah soal yang sama yaitu sebanyak 30 soal setelah itu di dapatlah data pengujian pre test dan post test yang akan di hitung serta di analisis untuk mendapatkan kesimpulan dari pengujian pre test dan post test yang dilakukan
+berikut beberapa grafik rata - rata nilai dan grafik persentase kenaikan nilai, yang diperlihatkan pada gambar 7 dan gambar 8
+grafik nilai rata – rata pre test dan post test gambar 8
+analisis hasil pengujian pengujian yang di peroleh dari aplikasi augmented reality sistem gerak manusia sebagai berikut
+berdasarkan pengujian marker pada gambar di dalam buku pelajaran yang digunakan, objek ar 3d tidak semuanya terdeteksi oleh kamera aplikasi, hal ini di karenakan ukuran gambar yang terlalu kecil dan gambar yang dihasilkan vuforia yang kurang memberikan texture yang baik sehingga proses kamera augmented reality tidak bisa bekerja
+pengujian black-box pada fitur virtual button berdasarkan marker dari katalog
+virtual button muncul dan berfungsi dengan baik apabila marker terdeteksi dengan baik
+untuk persentase kenaikan nilai dari pre test ke post test, siswa yang belajar menggunakan buku mata pelajaran mendapat kenaikan sebesar 18, 77%, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi ar`sgm mendapat kenaikan sebesar 23, 5%
+pada pengujian black-box yang dilakukan pada fitur virtual button dapat berjalan dengan baik pada setiap objek 3d yang muncul didalam aplikasi
+dan berdasarkan pengujian pre test dan post test augmented reality sistem gerak manusia dapat membantu siswa dalam belajar tentang materi sel penyusun jaringan pada sistem gerak yang ada di mata pelajaran biologi kelas xi sma

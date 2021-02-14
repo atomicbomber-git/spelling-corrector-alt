@@ -1,0 +1,121 @@
+saat ini perkembangan sistem informasi sangat cepat, dengan didukung oleh perkembangan teknologi
+cepatnya perkembangan teknologi ini dapat mempengaruhi dengan banyaknya data yang ada di internet data yang ada dapat dikelola sehingga menjadi sebuah informasi dan pola tertentu, sehingga dapat dimanfaatkan untuk memprediksi pola suatu data
+beton merupakan bahan bangunan yang terbuat dari campuran semen, air dan beberapa agregat lainnya
+oleh karena itu, pengolahan dan pemanfaatan data-data yang tersedia dapat digunakan untuk memprediksi atau estimasi kuat tekan beton
+penelitian ini bertujuan untuk mendapatkan hubungan variabel- variabel input dan output, sehingga diperoleh persamaan atau rumus tertentu yang akan digunakan estimasi kuat tekan beton
+metode yang digunakan linear regression dengan software microsoft excel
+linier regression dengan selang kepercayaan untuk koefisien 95% didapatkan persamaan regresi untuk menghitung kuat tekan beton
+komponen x4 memiliki pengaruh negatif atau berlawanan arah dengan output y, sedangkan komponen lainnya berpengaruh positif
+korelasi hubungan antara x1-x8 dan y memiliki nilai 0.615464734 yang dapat diartikan memiliki hubungan kuat tekan beton 61.55% dipengaruhi oleh komponen penyusun beton dan 39.45% dipengaruhi oleh faktor lain
+nilai kesalahan dari model sebesar 10.39984917 dengan observasi data sebanyak 1030
+pendahuluan saat ini perkembangan sistem informasi sangat cepat, dengan didukung oleh perkembangan teknologi
+cepatnya perkembangan teknologi ini dapat mempengaruhi dengan banyaknya data yang ada di internet data yang ada dapat dikelola sehingga menjadi sebuah informasi dan pola tertentu, sehingga dapat dimanfaatkan untuk memprediksi pola suatu data
+dengan melalui teknologi informasi data yang banyak telah diciptakan setiap hari dari berbagai sumber, seperti media sosial, sensor, video, surveillance dan smart grid
+beton merupakan bahan bangunan yang terbuat dari campuran semen, air dan beberapa agregat lainnya
+dalam pembuatan beton juga disesuaikan dengan kekuatan tekan yang diharapkan
+dimana kekuatan tersebut dipengaruhi oleh komponen-komponen yang tersusun di dalamnya
+masing- masing komponen dapat berpengaruh baik terhadap kualitas beton atau sebaliknya
+demi meningkatnya kualitas beton perlu sebuah model untuk memprediksi kualitas dari beton yang diharapkan
+dimana pentingnya sebuah data kekuatan beton dari material untuk menentukan setiap desain dan perencanaan
+dengan beberapa data yang diperoleh dari website learning machine dapat digunakan untuk memperkirakan daya kuat beton
+dari data-data bahan material untuk membuat beton dapat diambil pengetahuan bahwa bahan seperti apa yang dapat mempengaruhinya
+bahan-bahan tersebut dapat berpengaruh positif maupun negatif terhadap kuat tekan beton
+dengan didapatkan pengetahuan tersebut dapat dioptimasi dalam pembuatan beton
+dimana yang memiliki pengaruh negatif dapat diminimalisasi dan sebaliknya
+dengan tujuan agar kualitas beton sesuai dengan kekuatan yang diharapkan
+beton yaitu material untuk menbangun bidang konstruksi yang sering digunakan
+saat ini, penggunaan bahan bangunan untuk struktur maupun non struktur di seluruh dunia dunia mencari bahan yang lebih ringan, tahan lama, mudah digunakan, ekonomis dan ramah lingkungan
+pengujian kuat tekan beton berdasarkan umur dilakukan menggunakan lima variasi jenis campuran
+fly ash diakui sebagai bahan untuk membuat beton kinerja tinggi, karena alasan ekonomis dan manfaat teknis
+bahan ini dapat membantu mengontrol kenaikan suhu pada beton dan mengurangi kebutuhan air, tetapi keuntungan kekuatan awal beton dapat menurun
+beberapa standarisasi beton berdasarkan aci committee 363r93, fip fip/ceb, sk sni t-15-1991-03
+berdasarkan aci committee 363r93 adalah beton normal yang memiliki kuat tekan kurang dari 42 mpa dengan umur 28 hari
+berdasarkan fip fip/ceb yaitu beton dengan mutu normal jika kuat tekannya kurang dari 60 mpa melalui benda uji silinder dengan diameter 150 mm dan tinggi 300 mm dengan umur 28 hari
+berdasarkan sk sni t-15-1991-03 yaitu beton mutu normal yang memiliki berat isi 2200-2500 kg.m3 dengan menggunakan agregat alam yang dipecah atau tanpa dipecah atau tanpa dipecah yang tidak menggunakan bahan tambahan
+penelitian yang terkait dengan estimasi kuat tekan beton dan berat jenis terhadap pengaruh terak sebagai pengganti agregat kasar yaitu variasi terak sebagai pengganti agregat kasar dapat berpengaruh secara signifikan terhadap kuat tekan benton dan berat jenis beton
+metode penelitian ini dengan metode eksperimen yaitu dengan percobaan untuk mendapatkan hasil yang menegaskan suatu hubungan antar variabel-variabel yang diselidiki
+variabel terak digunakan sebagai pengganti agregat kasar
+analisa regresi dengan curve estimation model linier
+pengaruh varibel ini berpengaruh secara signifikan terhadap kuat tekan beton dan beratjenis beton
+sehingga dapat digunakan dalam struktur bangunan
+penelitian yang pernah dilakukan sebelumnya tentang korelasi nilai kuat tekan beton dengan destructive test dan non-destructive test terhadap beberapa benda uji
+penelitan ini bertujuan untuk mendapatkan nilai koefisien determinasi dan persamaan regresi
+dengan korelasi nilai tersebut dapat digunakan untuk menentukan nilai kuat tekan beton, jika metode destructive test tidak dapat dilakukan sehingga dapat menerapkan metode non-destructive test di indonesia
+pengujian dilakukan dengan menggunakan alat hammer test dan upv test
+variabel x1 nilai kuat tekan beton dari hammer test, x2 nilai kuat tekan beton dari upv test, y 
+hasil penelitian untuk benda uji silinder mendapatkan nilai koefisien determinasi sebesar 71.9% dari persamaan regresi y = -80.142+0.34x1+0.021x2, sedangkan benda uji kubus didapatkan koefisien determinasi sebesar 63.2% dari persamaan regresi y=-132.711+0.339x1+0.033x2
+dari nilai korelasi ini diharapkan dapat digunakan untuk menentukan nilai kuat tekan beton jika destuctive test tidak dapat dilakukan sehingga mampu menerapkan metode ndt
+bahan tambah merupan bahan selain agregat, semen dan air yang digunakan sebagai bahan tambahan dalam adukan beton
+bahan tambah ini bertujuan untuk mengubah sifat-sifat beton sesuai dengan yang dikehendaki
+namun harus memberikan dampak yang lebih baik dari beton normal
+penelitian umur dan kuat tekan beton berbahan tambah lateks ini dilakukan dengan menggunakan tiga metode linear regresi yaitu linear sederhana, eksponensial dan polinominal
+variabel atribut pengujiannya yaitu umur beton, interval pengujian dan kuat tekan beton 
+dari penelitian ini diperoleh hasil umur beton berbahan tambah lateks segar 10 % mencapai kuat tekan beton maksimum mencapai 79.35 hari sedangkan berbahan tambah lateks segar 15 % menacapai 83.9 hari
+penelitian ini memprediksi kuat tekan beton tanpa pengganti fly ash dan dengan pengganti fly ash sebesar 15 persen dari semen, memperoleh korelasi koefisien lebih baik tanpa pengganti fly ash
+model regresi non-linear berganda menghasilkan korelasi yang sangat baik untuk prediksi kuat tekan beton
+dari penelitian ini didapatkan bahwa agregat memberikan koefisien korelasi yang lebih baik ketika semen diganti dengan fly ash sebanyak 15%
+penelitian lain menggunakan metode jaringan syaraf tiruan dianjurkan digunakan dalam optimasi desain campuran untuk memperoleh tingkat akurasi yang lebih tinggi, sedangkan metode linear regresi berganda untuk memprediksi desain campuran awal beton
+variabel y yaitu compressive strength of concrete, sedangkan variabel x yaitu w/c, msa, gravel, cement, sand 3/8, sand ¾, fm 
+dalam penelitian ini membandingkan kedua metode tersebut diperoleh model jaringan syaraf tiruan lebih mampu untuk memprediksi kuat tekan beton dibandingkan dengan linear regresi
+keuntungan kekuatan tekan beton dari waktu ke waktu didasarkan pada rasio air-semen, tanpa memperhatikan komposisi fisik dan kimia dari berbagai bahan agregat halus yang digunakan dalam pembuatan beton
+dalam studi kasus ini pengujian dilakukan dengan bahan agregat halus yang ditambang dari beberapa tempat, kemudian model regresi dilakukan pada umur 7, 14, 28, 56, 112, dan 180
+dari hasil penelitian ini diperoleh koefisien determinasi yang memuaskan
+model matematika dengan persamaan regresi non-linear diusulkan untuk memprediksi kuat tekan beton pada usia yang berbeda
+variabel-variabel yang digunakan yaitu water /cement, water, cement, sand, aggregate, desity dan compressive strength
+dari penelitian ini diperoleh bahwa model matematika regresi non-linear dapat diusulkan dan dikembangkan untuk memperoleh pengetahuan konsituen campuran atau elemen proporsi campuran untuk memprediksi kuat tekan beton
+air merupakan salah satu bahan dalam pembuatan beton dan merupakan faktor penting yang mengubah semen menjadi pasta pengikat agregat
+variabel yang digunakan adalah semen, pasir, split, air, kandungan ph air, dan kuat tekan beton
+dalam penelitian ini diperoleh bahwa penurunan kandungan ph air dapat mempengaruhi penurunan nilai kuat tekan beton
+variabel penyusun beton adalah semen, agregat, air dan kuat tekan beton
+sedangkan variabel bebasnya kuat tekan beton benda uji kubus dan variabel terikatnya kuat tekan beton benda uji silinder
+dalam penelitian ini menacarihubungan keduanya dengan metode linear regresi
+hasil penelitian ini didapatkan koefisien determinasi sebesar 0.819, menunjukan bahwa 81.9% nilai kuat tekan beton ditentukan oleh hasil uji benda berbetuk kubus dan 18, 1% dipengaruhi oleh faktor lain
+dari data-data yang diperoleh dari website learning machine pengolahan dan pemanfaatan data-data yang tersedia dapat digunakan untuk memprediksi atau estimasi kuat tekan beton
+dengan adanya beberapa data input dan output dapat dilakukan pemodelan dan testing data, sehingga dapat diperoleh pola data dan persamaan tertentu yang dimanfaatkan untuk menghitung estimasi kuat tekan beton
+dimana tujuan dalam penelitian ini yaitu untuk mendapatkan pola hubungan antara variabel-variabel tersebut, sehingga diperoleh persamaan atau rumus tertentu yang akan digunakan estimasi kuat tekan beton
+persamaan atau rumus ini diperoleh dari pelatihan dan pengujian data dengan metode linear regresi
+linear regresi merupakan model baru yang diusulkan untuk memprediksi kekuatan tekan beton dan elastisitas dari kecepatan pulsa ultrasonik
+model ini dikembangkan untuk beton concrete with alkali-activated binder tanpa tekanan dan bertekanan dengan suhu yang berbeda
+serta berdasarkan latar belakang dan penelitian-penelitian terdahulu, maka dapat dilakukan penelitian terkait dengan pemanfaatan teknologi informasi dalam mengoptimasi bahan matrial pembuat campuran beton
+metode yang digunakan adalah metode estimasi linier regresi dengan software microsoft excel
+adapun judul penelitian ini adalah implementasi big data untuk pemodelan estimasi kuat tekan beton dengan metode linear regression
+metode penelitian tahapan penelitian yang dilakukan seperti ditunjukkan pada gambar 1 berikut ini: gambar
+1 tahapan penelitian 1) menyiapkan data : data diperoleh dari website learning machine https://archive.ics.uci.edu/ dengan jumlah data sebanyak 1030 data, 9 atribut data dengan 8 atribut sebagai input dan 1 atribut sebagai output
+berikut ini tabel 1 menunjukkan informasi atribut : tabel i informasi input dan output nama x1 cement kg in a m3 mixture x2 blast furnace slag kg in a m3 mixture x3 fly ash kg in a m3 mixture x4 water kg in a m3 mixture x5 superplasticizer kg in a m3 mixture x6 coarse aggregate kg in a m3 mixture x7 fine aggregate kg in a m3 mixture x8 age day y concrete compressive strength mpa 2) pengolahan data : pengolahan data akan dilakukan dengan menggunakan software microsoft excel dengan metode linear regression
+2 setting pengolahan data dengan software microsoft excel input y range merupakan data yang digunakan sebagai label atau output, sedangkan input x range sebagai data atribut atau input 
+label dipilih yang berarti bahwa data pertama yang dipilih sebagai nama variabel
+dengan confidence level upper dan lower sebesar 95% atau dipilih sesuai dengan nilai default dari sistem
+4) hasil pelatihan dan pengujian data : data yang telah dilakukan pengolahan, pelatihan dan pengujian akan diperoleh rumus atau persamaan dan nilai akurasi dari pengujian dengan metode linear regression
+persamaan tersebut akan digunakan untuk menghitung estimasi dari kuat tekan beton tersebut
+data pelatihan dan pengujian yang digunakan sebanyak 1032 data
+5) analisis data : analisis data dilakukan untuk mengetahui informasi dari pola data pelatihan dan pengujian
+informasi tersebut akan digunakan untuk membantu manusia untuk mengambil keputusan
+informasi tersebut berupa persamaan atau rumus untuk menghitung estimasi kuat tekan beton, yang diperoleh dari pelatihan dan pengujian data-data yang didapatkan
+sehingga diperoleh persamaan yang dapat digunakan untuk memprediksi kuat tekan beton dengan atribut-atribut tersebut
+hasil dan pembahasan semua paragraf mesti di-indent
+semua paragraf mesti rata kiri dan rata kanan
+menujukkan kekuatan hubungan korelasi antara model dengan variabel terikat
+multiple r menunjukkan tingkat hubungan linear antara variabel terikat dengan variabel bebas, dimana dalam penelitian ini terdapat delapan variabel bebas dan satu variabel terikat
+nilai r antara 0 – 1, dimana nilai r yang mendekati nilai 1 atau lebih besar menujukkan hubungan yang lebih kuat
+tabel ii summary output observations 1030 r square merupakan koefisien determinasi dengan membandingkan estimasi y dan nilai y aktual r square menunjukkan nilai 0.615464734 dapat dikatakan bahwa ada korelasi 61.5% dipengaruhi oleh data dalam sampel dan sisanya dipengaruhi oleh faktor lain
+dimana nilai r square semakin mendekati nilai 1 maka tingkat kecocokan model semakin sempurna
+nilai standard error dari estimasi y sebesar 10.39984917
+semakin kecil nilai standard error ini maka model regresi semakin tepat dalam memprediksi nilai y
+tabel 3 anova menunjukkan bahwa keragaman data aktual variabel terikat disebabkan dari variabel x1-x8 dan faktor lainnya yang mempengaruhi variabel y yang tidak dimasukkan ke model regresi 
+tabel iii residual 1021 110428.16 108.16 degree of freedom adalah derajat kebebasan, nilai ini dihitung dari banyaknya observasi – 1, sum of square merupakan jumlah regresi dan sisa kuadrat, mean of square yaitu nilai rata-rata regresi dan sisa kuadrat, f adalah nilai statistik yang diamati untuk menentukan apakah hubungan antara variabel dependen dan independen terjadi secara kebetulan
+dikarenakan probabilitas f = 6.7616e-206 yang sangat kecil dapat dikatakan bahwa persamaan regresi ini dapatdigunakan untuk memprediksi nilai kuat tekan beton
+nilai ss menunjukkan bahwa nilai y dipengaruhi oleh variabel bebas yaitu sebesar 176744.87, sisanya sebesar 110428.16 dipengaruhi oleh variabel lain tetapi tidak dimasukkan
+sedangkan koefisien yang berpengaruh negatif terhadap y adalah atribut x4 dan nilai konstanta yang masing-masing bernilai -0.15 kali x4 dan -23.164
+dimana atribut-atribut yang berpengaruh positif berarti bahwa meningkatnya kuat tekan beton dipengaruhi oleh atribut-atribut tersebut, sedangkan atribut yang bernilai negatif dapat bepengaruh buruk terhadap kuat tekan beton
+standard error pada tabel 4 menunjukkan tingkat standar kesalahan masing-masing koefisien
+lower dan upper 95% merupakan batas bawah sampai batas atas dari fakta tingkat populasi dengan tingkat kepercayaan sebesar 95%
+dari beberapa hasil tersebut terdapat kolom pertama merupakan nilai y sebenarnya, kolom kedua menujukkan hasil nilai y prediksi dari rumus regresi, kolom ketiga adalah nilai selisih antara y sebenarnya dan y prediksi, dan kolom keempat adalah nilai selisih yang distandarisasi
+hasil pemodelan ini mendapatkan korelasi hubungan antara x1-x8 dan y memiliki nilai 0.615464734 yang dapat diartikan memiliki hubungan kuat tekan beton 61.55% dipengaruhi oleh komponen penyusun beton dan 39.45% dipengaruhi oleh faktor lain
+nilai kesalahan dari model sebesar 10.39984917 dengan observasi data sebanyak 1030
+kesimpulan linier regression dengan selang kepercayaan untuk koefisien sebesar 95% didapatkan persamaan regresi untuk menghitung kuat tekan beton
+komponen x4 memiliki pengaruh negatif atau berlawanan arah dengan output y, sehingga jika komponen lainnya bernilai tetap dan komponen x4 ditambahkan, maka nilai y akan menurun atau terjadi penurunan kualitas
+sedangkan pengaruh lainnya, jika nilai variabel bebasnya bernilai nol, maka variabel terikatnya bernilai sebesar konstanta -23.164
+tetapi secara logika jika semua nilai variabel bebasnya nol atau tidak ada bahan beton maka nilai variabel terikatnya juga tidak ada, jadi jika nilai variabel bebasnya bernilai nol itu tidak dimasukkan dalam analisa ini
+kemudian atribut-atribut yang berpengaruh positif dapat meningkatkan nilai y
+korelasi hubungan antara x1-x8 dan y memiliki nilai 0.615464734 yang dapat diartikan memiliki hubungan kuat tekan beton 61.55% dipengaruhi oleh komponen penyusun beton dan 39.45% dipengaruhi oleh faktor lain
+nilai kesalahan dari model sebesar 10.39984917 dengan observasi data sebanyak 1030

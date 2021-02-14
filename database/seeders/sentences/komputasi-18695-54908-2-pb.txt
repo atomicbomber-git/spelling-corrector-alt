@@ -1,0 +1,30 @@
+masyarakat yang memiliki penyakit mata dapat memanfaatkan teknologi untuk membantu mereka dalam mengetahui berbagai informasi tentang penyakit mata
+sistem pakar merupakan salah satu teknologi yang meniru cara kerja seorang pakar kesehatan dalam mengidentifikasi suatu penyakit
+sistem pakar ini sangat berguna khususnya penderita penyakit mata yang sedang tidak memiliki waktu untuk mengunjungi dokter mata
+oleh karena itu, dibuatlah sebuah aplikasi sistem pakar yang dapat mendiagnosa penyakit mata
+aplikasi sistem pakar ini dibuat dengan metode forward chaining
+penggunan dapat melakukan konsultasi dengan cara memilih gejala-gejala sesuai dengan gejala yang dialami
+sistem pakar yang dibangun dapat memberikan hasil deteksi berdasarkan data valid yang direpresentasikan dari pakar dan perhitungan dengan metode forward chaining
+aplikasi sistem pakar pendeteksi penyakit mata berhasil menampilkan hasil penyakit yang diderita
+pengujian aplikasi pada penelitian ini menggunakan metode pengujian validitas, yang menampilkan hasil pengujian dengan nilai keakuratan 86, 667%
+selain itu proses instalasi aplikasi berhasil dan sistem dapat beroperasi dengan benar pada semua perangkat android yang di uji
+munculnya beragam aplikasi memberikan pilihan dalam peningkatan kinerja suatu pekerjaan, baik bersifat desktop, web based, hingga sekaarang ini aplikasi yang cukup fleksibel yaitu mobile
+banyak sekali sistem operasi yang diaplikasikan pada telepon genggam atau smartphone
+seperti symbian, linux, ios, blackberry dan android merupakan sistem operasi yang teraplikasikan pada telepon genggam
+banyak aplikasi pada handphone yang diciptakan semata hanya untuk memudahkan pengguna dan berdasarkan kebutuhan bahkan permintaan dari pengguna telepon
+juga mengalami perkembangan dalam dunia kedokteran
+seperti contoh sistem pakar untuk analisa penyakit dalam pada manusia
+dengan dirancangnya sistem pakar tersebut dapat mempermudah untuk menganalisis penyakit pada manusia dalam mendiagnosa dari gejala-gejala yang dialami
+penerapan sistem pakar dapat diaplikasikan dalam bentuk perangkat mobile seperti kasus penentuan diagnosa gizi, pendeteksi kerusakan pada mobil solar, penerapan pada program diagnosa anak penderita autisme dan kasus lainnya
+telepon genggam sendiri saat ini tidak hanya mengutamakan kegunaan sebagai alat komunikasi saja, namun sudah menyokong kehidupan sehari-hari
+sehingga sangat memudahkan untuk menyisipkan aplikasi pintar pada perangkat telepon genggam tersebut
+berdasarkan latar belakang tersebut, maka dirancang sistem pakar pendeteksi gangguan mata berbasis android dengan penerapan metode forward chaining
+secara umum sistem pakar adalah sistem yang berusaha mengadopsi pengetahuan manusia ke komputer agar komputer dapat menyelesaikan masalah seperti biasa yng dilakukan oleh para ahli
+pengetahuan dari pakar di dalam sistem ini digunakansebagai oleh sistem pakar untuk menjawab pertanyaan 
+jadi sistem pakar dapat didefinisikan sebagai suatu sistem komputer yang menyamai kemampuan pengambilan keputusan dari seorang pakar
+kata menyamai tersebut memiliki pengertian bahwa sistem pakar diharapkan dapat bekerja dalam semua hal seperti halnya seorang pakar
+sistem pakar merupakan salah satu cabang dari artifical intelligent yang membuat penggunaan secara luas pengetahuan yang khusus untk penyelesaian masalah tingkat manusia yang pakar dalam bidang tertentu
+jenis program ini pertama kali dikembangkan oleh perisat kecerdasan buatan pada dasawarsa 1960-an dan 1970-an dan diterapkan secara komersial selama 1980-an
+beberapa contoh sistem pakar yang telah dibuat adalah mycin, dendral, xcon & xsel dan prospector
+definisi sistem pakar merupakan salah satu bagian kecerdasan buatan yang akhir-akhir ini mengalami perkembangan yang sangat pesat
+sistem ini dirancang untuk dapat menirukan keahlian seorang pakar dalam menjawab pertanyaan dan menyelesaikan suatu permasalahan baik dibidang kesehatan, bisnis, ekonomi, keuangan dan sebagainya

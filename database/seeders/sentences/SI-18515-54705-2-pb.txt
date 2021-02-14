@@ -1,0 +1,78 @@
+pesatnya teknologi informasi di bidang edukasi, salah satunya adalah teknologi augmented reality yang dapat dimanfaatkan sebagai media pembelajaran multimedia termasuk media pembelajaran virus
+hal ini dikarenakan materi virus sangat sulit untuk ditemui dalam kehidupan sehari-hari
+kelebihan dari ar adalah tampilan visual yang menarik, karena dapat menampilkan objek 3 dimensi beserta animasinya yang seakan-akan ada pada lingkungan nyata sehingga augmented reality diharapkan dapat digunakan sebagai salah satu alternatif media pembelajaran untuk mengenalkan virus yang mampu membuat pengguna tertarik
+pada penelitian ini digunakan game engine unity untuk membangun aplikasi berbasis android serta vuforia sdk agar aplikasi yang dibangun memungkinkan menjadi aplikasi berteknologi augmented reality
+disertai dengan sebuah buku yang berisi marker yang apabila diarahkan ke aplikasi dapat menampilkan visualisasi objek 3d dan juga video
+aplikasi ini dapat bermanfaat bagi siswa sekolah menengah atas, yang memperoleh materi pembelajaran virus
+berdasarkan hasil pengujian marker, ada 7 marker yang berhasil memunculkan objek dari total 13 marker
+berdasarkan pengujian kompabilitas, aplikasi ini sudah berjalan dengan baik pada perangkat mobile android, mulai dari android versi 4.0 hingga android versi 6.0.1 
+dari hasil pengujian user acceptance testing, yaitu pre test dan post test yang telah dilakukan, untuk kelompok siswa yang belajar menggunakan buku biologi memiliki persentase kenaikan dari nilai pre test ke post test sebesar 20, 06 %, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi augmented reality virus memiliki persentase kenaikan dari nilai pre test ke post test sebesar 25, 31%, yang berarti augmented reality dapat diterapkan sebagai media pembelajaran virus
+pendahuluan mengalami peningkatan pesat, dan telah mencakup berbagai bidang di kehidupan manusia, salah satunya bidang pendidikan
+dalam pelajaran biologi, terdapat berbagai materi yang diajarkan, salah satunya materi pembelajaran mengenai virus yang diajarkan pada kelas x sma
+virus merupakan makhluk hidup yang mempunyai dua fase untuk keberadaannya, yaitu di dalam sel-sel hidup dan di luar sel-sel hidup 
+apabila di luar sel inangnya, virus terdiri atas partikel-partikel yang mempunyai ciri-ciri tersendiri 
+akan tetapi bila berada di dalam sel inangnya virus dapat disebut sebagai makhluk hidup karena mampu berkembang biak, dan ukuran virus sangat kecil dengan diameter berkisar 20-400 nanometer
+ukurannya rata- rata 50 kali lebih kecil daripada bakteri
+oleh sebab itu, virus hanya dapat dilihat dengan menggunakan mikroskop elektron
+penyampaian materi tentang virus sendiri masih menggunakan media seperti papan tulis, dan gambar - gambar yang terdapat di buku biologi
+sementara materi virus ini sulit untuk ditemukan di lingkungan nyata, sehingga siswa kesulitan dalam membayangkan tentang virus tersebut
+walaupun begitu berbagai teknologi dapat dimanfaatkan sebagai media pembelajaran yang bisa menampilkan objek 3 dimensi, sehingga siswa dapat melihat visualisasi tentang virus
+media pembelajaran virus dapat dibuat dengan memanfaatkan teknologi augmented reality yang di diaplikasikan kedalam perangkat mobile android
+objek 3d ke dalam lingkungan nyata menggunakan media kamera
+kelebihan dari augmented reality adalah dapat menampilkan visualisasi yang menarik, seakan objek 3d berada di lingkungan nyata
+augmented reality sebagai media dalam menyampaikan materi
+augmented reality diharapkan dapat menjadi salah satu alternatif media pembelajaran pengenalan virus, sehingga dapat meningkatkan minat siswa terhadap salah satu materi di pelajaran biologi tersebut
+uraian penelitian virus mempunyai dua fase untuk keberadaannya, yaitu di dalam sel-sel hidup dan di luar sel-sel hidup 
+apabila di luar sel inangnya, virus terdiri atas partikel-partikel yang mempunyai ciri-ciri tersendiri 
+akan tetapi bila berada di dalam sel inangnya virus dapat disebut sebagai makhluk hidup karena mampu berkembang biak
+augmented reality dapat menggabungkan objek 3d ke dalam lingkungan nyata menggunakan media webcam
+tidak seperti virtual reality yang sepenuhnya menggantikan kenyataan, namun augmented reality hanya menambahkan muhammad iqbal meslilesi #1, hengky anra#2, helen sasty pratiwi#3 #program studi teknik informatika universitas tanjungpura 1iqbalmeslilesi77@gmail.com, 2stmkom@gmail.com, 3helensastypratiwi@gmail.com kasus : sma negeri 7 pontianak) jl
+objek maya yang digabungkan ke dalam lingkungan nyata berfungsi menampilkan informasi yang tidak dapat di terima oleh manusia secara langsung
+hal ini membuat augmented reality berguna sebagai alat untuk membantu persepsi dan interaksi penggunanya dengan dunia nyata
+informasi yang ditampilkan oleh objek yang ditampilkan membantu pengguna melaksanakan kegiatan-kegiatan dalam dunia nyata
+ada tiga prinsip dari augmented reality, yang pertama yaitu ar merupakan penggabungan dunia nyata dan vitual, yang kedua berjalan secara interaktif dalam waktu nyata, dan yang ketiga terdapat integrasi antar benda dalam tiga dimensi, yaitu benda maya terintegrasi dalam dunia nyata
+unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+activity diagram activity diagram adalah sebuah diagram alur kerja yang menjelaskan berbagai kegiatan pengguna atau sistem, orang yang melakukan masing-masing aktivitas dan aliran sekuensial dari aktivitas-aktivitas tersebut
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem aplikasi yang sudah dibangun dipasangkan ke dalam android
+aplikasi yang dijalankan kemudian akan mengakses kamera yang ada di android
+kemudian tempatkan kamera android di atas marker
+aplikasi kemudian akan mendeteksi validitas marker yang ditangkap oleh kamera
+jika valid aplikasi akan menampilkan objek 3d dan video dari virus ke layar android
+pengujian aplikasi pengujian marker, kompatibilitas aplikasi dan pre test dan post test kepada 30 siswa
+aplikasi ini dibangun untuk membantu siswa dalam mempelajari virus dalam mata pelajaran biologi
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 3 sampai dengan gambar 7
+tampilan menu utama gambar 3 merupakan tampilan dari menu utama aplikasi gambar 4
+tampilan menu arvirus menampilkan objek 3 dimensi gambar 4 merupakan tampilan menu arvirus dimana di dalam menu ini akan ditampilkan objek 3 dimensi virus
+tampilan menu arvirus menampilkan video gambar 5 merupakan tampilan tampilan menu arvirus dimana di dalam menu ini akan ditampilkan video mengenai virus
+tampilan menu arvirus menampilkan informasi objek 3 dimensi gambar 6 merupakan tampilan menu arvirus saat menampilkan informasi mengenai objek 3 dimensi virus gambar 7
+tampilan menu arvirus menampilkan informasi video gambar 7 merupakan tampilan tampilan menu arvirus saat menampilkan informasi video mengenai virus
+hasil pengujian banyak objek 3 dimensi maupun video yang muncul dari 13 marker yang ada di buku biologi kelas x sma
+pada tabel 1, memperlihatkan hasil pengujian marker yang gambarnya berasal dari buku biologi kelas x sma
+tabel 1 tabel hasil pengujian marker beberapa perangkat android yang berbeda
+eksekusi file installer berhasil dilakukan pada perangkat smartphone dengan sistem operasi android versi 4.4 hingga android versi 6.0.1 2
+pengujian eksekusi menu dan fitur yang ada berjalan pada setiap perangkat smartphone android
+adanya perbedaan ukuran tombol pada aplikasi di setiap perangkat smartphone, dikarenakan adanya perbedaan ukuran layar pada setiap smartphone
+pre test dan post test yang dilakukan pertama kali dalam pengujian adalah memberi pre test seputar materi pelajaran virus kepada 30 orang siswa
+selanjutnya, 30 orang siswa tadi dibagi menjadi 2 kelompok berdasarkan nomor urut absen
+siswa dengan absen ganjil akan disuruh untuk mengulang lagi materi tentang virus dengan membaca buku pelajaran biologi
+untuk siswa dengan absen genap akan mengulang lagi materi virus dengan menggunakan aplikasi augmented reality virus, dan selanjutnya dua kelompok siswa ini akan diberi post test
+pre test dan post test nya sendiri terdiri dari 30 sampel pertanyaan
+jawaban benar akan diberi nilai 10, sedangkan jawaban akan diberi nilai 0
+total nilai pre test dibandingkan dengan total nilai post test
+kemudian di hitung berapa persentase kenaikan nilai dari pre test ke post test
+berikut beberapa grafik rata - rata nilai dan grafik persentase kenaikan nilai, yang diperlihatkan pada gambar 8 dan gambar 9
+grafik nilai rata – rata pre test dan post test gambar 9
+analisis hasil pengujian rincian hasil analisis pengujian aplikasi augmented reality virus yang telah dilakukan adalah sebagai berikut: 1
+berdasarkan hasil pengujian marker, terdapat 7 marker yang bisa menampilkan objek 3 dimensi maupun video mengenai virus dari total 13 marker yang ada, untuk marker yang tidak muncul dikarenakan ukuran gambar yang terlalu kecil di dalam buku biologi kelas x sma
+menampilkan data pendonor dan permintaan jemput
+kurang stabilnya koneksi internet yang ada menyebabkan hal ini terjadi
+untuk persentase kenaikan nilai dari pre test ke post test, siswa yang belajar menggunakan buku mata pelajaran mendapat kenaikan sebesar 20, 06 %, sedangkan untuk kelompok siswa yang belajar menggunakan aplikasi ar virus mendapat kenaikan sebesar 25, 31%
+dan berdasarkan pengujian pre test dan post test augmented reality virus dapat membantu siswa dalam belajar tentang materi virus yang ada di mata pelajaran biologi kelas x sma

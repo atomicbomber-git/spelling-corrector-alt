@@ -1,0 +1,37 @@
+rumah memiliki berbagai macam peralatan listrik dan tak jarang penghuni rumah lupa mematikan peralatan listrik yang telah selesai digunakan, hal ini tentu memiliki beberapa dampak seperti memperpendek umur peralatan listrik, dan apabila dibiarkan terlalu lama dapat memicu terjadinya kebakaran
+saat ini banyak perumahan menengah ke atas yang memodifikasi rumahnya menjadi rumah yang berdaya guna tinggi dimana penghuni dapat mengendalikan peralatan listrik dan dilengkapi dengan sensor – sensor serta otomatisasi saat terjadi perubahan status sensor
+dalam penelitian ini aplikasi smarthome yang dibuat berkomunikasi melalui alamat ip yang dimiliki oleh mikrokontroler, yang mana aplikasi dapat digunakan untuk melakukan kendali secara manual atau speech recognition, dan dapat memberikan otomatisasi apabila terdapat perubahan kondisi dari status sensor – sensor yang terhubung pada mikrokontroler
+dari hasil pengujian dengan simulator menunjukkan bahwa rancang bangun sistem pengendali smarthome menggunakan mikrokontroler dengan speech command pada smartphone android yang telah dibuat dapat berjalan dengan baik untuk mengendalikan peralatan listrik dan dapat menampilkan kondisi suhu, kelembapan, cahaya, dan gas
+pendahuluan tak jarang penghuni rumah lupa mematikan perlatan listrik yang telah selesai digunakan, hal ini tentu memiliki beberapa dampak seperti memperpendek umur peralatan listrik, dan apabila dibiarkan terlalu lama dapat memicu terjadinya kebakaran
+memodifikasi rumahnya menjadi rumah yang berdaya guna tinggi dimana penghuni dapat mengendalikan perabotan listrik di dalam rumahnya dan dapat mengendalikan peralatan listrik
+sudut pandang salah satunya menurut nicola king, mendefinisikan smarthome sebagai sebuah hunian yang dilengkapi dengan jaringan komunikasi yang menghubungkan berbagai layanan dan peralatan elektronik, dan memungkinkan untuk dipantau, diakses dan dikendalikan dari jarak jauh, misalnya menggunakan smartphone
+salah satu fitur yang disediakan smartphone adalah speech command
+speech command merupakan proses identifikasi untuk mengenali kata yang diucapkan oleh seseorang
+speech command biasa digunakan untuk menggantikan peranan input pada keyboard untuk menjalankan suatu aplikasi pada smartphone atau teknologi lainnya
+selain itu smartphone yang erat kaitannya dengan internet dapat dimanfaatkan untuk mengendalikan mikrokontroler yang terhubung dengan internet seperti raspberry pi
+yang dikembangkan oleh raspberry pi foundation, inggris
+komputer single board ini dikembangkan dengan tujuan untuk mengajarkan dasar-dasar ilmu komputer dan pemrograman untuk siswa sekolah di seluruh dunia
+pada salah satu jurnal dari international journal of computing and technology yang berjudul android based home automation using raspberry pi menuliskan bahwa dimungkinkan untuk membuat sebuah sistem kendali jarak jauh untuk mengontrol relay menggunakan raspberry pi melalui aplikasi android yang dijalankan pada smartphone yang memakai sistem operasi android
+raspberry pi misalnya menjelajah internet, memutar video, memproses dokumen, bahkan bermain game
+raspberry pi dikembangkan oleh the raspberry pi foundation, sebuah organisasi yang berfokus pada pengembangan pendidikan untuk segala umur, terutama di bidang ilmu komputer
+raspberry pi 3 berukuran 85, 60mm x 56mm dan menggunakan prosesor 1.2ghz 64-bit quad-core arm cortex-a53
+raspberry pi 3 juga dibekali dengan 802.11n wireless lan, bluetooth 4.1, bluetooth low energy, 1gb ram, 4 usb port, 40 gpio pin, hdmi port, ethernet port, 3.5mm audio jack dan composite video, camera interface, display interface, micro sd slot
+cara kerja sistem yang saling terhubung gambar 1
+perancangan struktur antarmuka sistem aplikasi yang dibangun merupakan aplikasi yang dirancang pada platform android
+struktur antarmuka aplikasi yang dirancang dapat dilihat pada gambar berikut: gambar 2
+perancangan struktur antarmuka sistem berikut merupakan hasil rancangan simulasi alat yang digunakan
+antarmuka aplikasi diharuskan memasukkan nama pengguna dan kaa sandi pada halaman login
+masuk ke halaman menu utama, yang mana dari halaman menu utama ini pengguna dapat mengakses menu yang tersedia selanjutnya, diantaranya menu kontrol perangkat rumah dan status sensor
+halaman menu kontrol peranngkat rumah pada halaman manual pengguna dapat melakukan kontrol terhadap perangkat rumah yang terpasang dengan menekan tombol hidup atau mati
+halaman menu manual pada halaman perintah suara pengguna dapat mengendalikan perangkat rumah yang terpasang dengan memberikan kalimat perintah yang ada
+halaman menu perintah suara pada halaman status sensor pengguna dapat melihat status sensor yang terpasang
+pengujian antarmuka aplikasi no jenis pengujian sesuai hasil yang di harapkan
+pengujian fungsi sensor gas mq-6 .tabel 3 tabel pengujian sensor suhu mq-6 no harapkan hasil ekseku si dengan baik dalam mendeteksi suhu ruangan
+pengujian fungsi sensor cahaya ldr .tabel 4 no jenis pengujian mendeteksi cahaya dan mikrokontroler dapat menghidupkan lampu halaman saat sensor cahaya tidak mendeteksi adanya cahaya
+pengujian kendali perangkat rumah .tabel 6 no harapkan hasil ekse kusi yang dilakukan dapat berjalan sesuai dengan hasil yang di harapkan
+.tabel 7 no harapkan hasil ekseku si pada pengaturan sebelum dimatikan adalah 22.8 detik
+untuk pengujian aplikasi pada smartphone yang menggunakan android 4.0 ke bawah aplikasi tidak dapat pasang
+kesimpulan pengendali smarthome menggunakan mikrokontroler kesimpulan sebagai berikut: beruntun dan tanpa jeda
+sensor gas mendeteksi kebocoran gas dan dapat menghidupkan lampu ketika sensor cahaya tidak mendeteksi cahaya
+pi 3 untuk kembali pada pengaturan sebelum dimatikan adalah 22.8 detik command memiliki tingkat akurasi 100% 6
+kompabilitas aplikasi dapat berjalan dari versi android 4.1.1 hingga 7.1.1 

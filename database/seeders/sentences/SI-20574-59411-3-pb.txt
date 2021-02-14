@@ -1,0 +1,51 @@
+urnal sistem dan teknologi informasi vol 5, no 3, 169 sistem informasi administrasi pelayanan narapidana pada lapas klas iia di kota pontianak system at klas ii prisons pontianak city" created by researching that conducted in prisons klas iia
+the objective of this report is to analyze and make a better detainees administration system at pontianak city prison that still using manual system until now
+the new system designed is better than administration detainees and prisoners on pontianak city that has not using a computerized system
+the system is designed by sdlc modeling
+the program platform is web application with mysql database
+the results from this thesis design is to make an detainees services administration information system
+the test results show that the system can help the government in processing the detainees data and their families can get the information easily
+setiap tahun bahkan setiap bulannya, tahanan dan narapidana yang masuk mengalami peningkatan
+masing-masing tahanan dan narapidana memiliki kelengkapan surat-surat yang penting sebagai bukti otentik keberadaannya baik pada saat proses peradilan maupun penjalanan proses hukuman
+harus diketahui, narapidana sewaktu menjalani pidana di lembaga pemasyarakatan dalam beberapa hal kurang mendapat perhatian, khususnya perlindungan hak-hak asasinya sebagai manusia
+dengan pidana yang dijalani narapidana itu, bukan berarti hak-haknya dicabut
+proses pidana pada hakekatnya mengasingkan dari lingkungan masyarakat serta sebagai pembebasan rasa bersalah
+proses hukum bukan bertujuan mencabut hak-hak asasi yang melekat pada dirinya sebagai manusia
+untuk itu, sistem pemasyarakatan secara tegas menyatakan, narapidana mempunyai hak-hak seperti hak untuk surat menyurat, hak untuk dikunjungi dan mengunjungi, remisi, cuti, asimilasi serta bebas bersyarat, melakukan ibadah sesuai dengan agamanya, menyampaikan keluhan, mendapat pelayanan kesehatan, mendapat upah atas pekerjaan, memperoleh bebas bersyarat
+perkembangan dan kemajuan teknologi informasi saat ini berjalan dengan sangat cepat
+seiring dengan perkembangan teknologi informasi, penyimpanan dan pengiriman data semakin murah dan semakin baik kualitasnya
+baik individu, institusi, maupun pemerintah ikut melakukan berbagai upaya untuk memanfaatkan perkembangan teknologi informasi ini
+bahkan dalam dunia pendidikan di indonesia, khususnya perguruan tinggi
+setiap perguruan tinggi memiliki kegiatan tri dharma perguruan tinggi yang dilakukan oleh dosen meliputi 4 bidang, yaitu: bidang pendidikan dan pengajaran, penelitian, pengabdian kepada masyarakat, penunjang yang ditetapkan oleh pimpinan universitas
+oleh karena itu beban kerja dosen harus terdistribusi secara proporsional dan terukur dengan memanfaatkan perkembangan teknologi informasi
+salah satunya adalah aplikasi repository digital beban kerja dosen yang dapat membantu dosen yang ingin mengetahui informasi beban kerja yang di tanggung dan membantu pimpinan dalam mengetahui informasi beban kerja yang di tanggung setiap dosen
+berdasarkan hasil pengujian dan penilaian responen mnunjukkan bahwa aplikasi ini dinilai positif dan berhasil
+indonesia memiliki potensi penyakit yang beragam
+ketersediaan obat pada setiap tempat pendistribusian dan penjualan obat belum memadai
+pemerintah belum bisa menangani tidak meratanya penyebaran obat pada distributor obat
+saat ini, belum ada sebuah sistem informasi untuk memantau penyebaran dan pendistribusian obat secara nasional di indonesia
+sistem informasi tersebut dapat dibangun dengan menggunakan teknologi internet ataupun sms gateway
+identifikasi dan analisis masalah yang dilakukan dengan menggunakan metode wawancara, observasi lapangan, dan studi literatur
+dari hasil identifikasi dan analisis masalah, diperoleh bagaimana keadaan penyebaran dan distribusi obat di indonesia dan requirement apa saja yang dibutuhkan dalam merancang sistem informasi berskala nasional untuk memantau penyebaran dan pendistribusian obat di indonesia
+hasil yang diperoleh berupa sistem interaksi mengenai data distribusi obat di indonesia antara sarana pelayanan kesehatan dan sarana distribusi obat dengan kementrian kesehatan dan dinas kesehatan provinsi, dinas kesehatan kota/kabupaten, serta masyarakat
+hasil yang diharapkan adalah agar rancangan ini dapat berguna dalam membangun sistem informasi yang sebenarnya dan berskala nasional untuk mengontrol dan mengatur penyebaran obat di indonesia
+remisi adalah pengurangan masa pidana yang diberikan kepada narapidana yang telah berkelakuan baik dan telah menjalani masa pidana lebih dari enam bulan
+dasar hukum pemberian remisi, antara lain uu no 12 tahun 1995 tentang pemasyarakatan dan kepmen hukum dan perundangundangan ri no m.09.hn.02.10 tahun 1999 tentang pelaksanaan keputusan multitek indonesia vol 9, no 1 juni 2015 18 presiden ri no174 tahun 1999 tentang remisi
+ lembaga pemasyarakatan klas ii a kota pontianak saat ini proses pendataan dan rekapitulasi data narapidana dilakukan secara manual pendataan data narapidana dilakukan dengan cara mencatat data narapidana ke dalam buku besar dan pelepasan bersyarat dicatat ke dalam buku pembinaan
+kemudian dalam melakukan rekapitulasi data narapidana, petugas harus mengelompokan data-data jl
+prof narapidana terlebih dahulu, setelah data selesai dikelompokkan, maka petugas akan membuat hasil rekapitulasi ke dalam aplikasi microsoft excel, kemudian data tersebut disajikan kepada pemimpin atau ditempel dipapan tulis dalam bentuk grafik
+serta untuk pendataan data pengunjung dicatat ke dalam buku daftar kunjungan, sehingga untuk mengetahui informasi catatan kunjungan, petugas membutuhkan waktu yang cukup lama
+para petugas mendapatkan kesulitan dalam penelusuran arsip, pencarian data tahanan dan narapidana yang harus mengacu pada beberapa arsip yang tersebar dan tidak terklasifikasi dengan baik akan memungkinkan hilangnya data
+begitu juga dengan surat-surat, penghitungan remisi, hingga pembebasan yang belum terorganisasi dengan baik
+data-data narapidana yang masih manual ini kadang mengakibatkan anggota keluarga narapidana susah mendapatkan informasi kondisi narapidana di dalam lapas
+narapidana di lapas klas ii a pontianak yang dapat membantu petugas lapas dalam menyajikan informasi secara cepat
+sistem informasi administrasi pelayanan narapidana di lapas klas ii a pontianak ini juga dapat menyediakan informasi narapidana setiap saat kepada keluarganya
+keluarga narapidana dapat melakukan kunjungan atau memantau kondisi narapidana secara online, seperti masa tahanan dan sisa tahanan, kondisi kesehatan, kegiatan kerohanian serta kegiatan-kegiatan lain sehingga anggota keluarga tidak harus datang langsung ke lapas
+rekayasa perangkat lunak rekayasa perangkat lunak merupakan pembangunan dengan menggunakan prinsip atau konsep rekayasa dengan tujuan menghasilkan perangkat lunak yang bernilai ekonomi yang bisa dipercaya dan bekerja secara efisien menggunakan mesin 
+perangkat lunak banyak dibuat dan pada akhirnya sering tidak digunakan karena tidak memenuhi kebutuhan pelanggan atau bahkan karena masalah non-teknis seperti ketidakinginan pemakai perangkat lunak untuk mengubah cara kerja dari manual ke otomatis, atau ketidakmampuan user menggunakan komputer
+oleh karena itu, rekayasa perangkat lunak dibutuhkan agar perangkat lunak yang dibuat tidak hanya menjadi perangkat lunak yang tidak dipakai
+tahanan dan narapidana tahanan adalah tertuduh, atau tersangka pelanggar hukum yang di tahan dengan pertimbangan bahwa mungkin ia akan melarikan diri, merusak atau menghilangkan barang bukti dan mengulangi tindak pidana sehingga membahayakan masyarakat
+narapidana adalah orang hukuman orang buaian
+selanjutnya berdasarkan kamus hukum narapidana, narapidana diartikan sebagai orang yang menjalani pidana dalam lembaga pemasyarakatan
+menurut pasal 1 ayat undang- undang nomor 12 tahun 1995 tentang pemasyarakatan, terpidana adalah seseorang yang di pidana berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap
+lembaga permasyarakatan klas iia lembaga permasyarakatan klas iia merupakan lembaga permasyarakatan di bawah kantor wilayah departemen hukum dan ham pontianak kalimantan barat memiliki fungsi dan tugas untuk menampung, merawat dan membina narapidana serta memberikan ilmu dan mengembangkan sumber daya manusia yang dimiliki narapidana 

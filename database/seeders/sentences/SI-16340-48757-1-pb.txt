@@ -1,0 +1,42 @@
+perkembangan penyelenggaraan penataan kebutuhan prasarana dan sarana, maupun lingkungannya
+untuk mewujudkan tertib keandalan teknis bangunan gedung serta adanya kepastian hukum dalam penyelenggaraan bangunan gedung, setiap pendirian bangunan gedung harus berdasarkan izin mendirikan bangunan gedung 
+penelitian sistem informasi geografis persebaran dan kondisi bangunan gedung berdasarkan izin mendirikan bangunan di kota singkawang ini menggunakan desain penelitian dengan pendekatan sistem untuk menyelesaikan masalah
+hasil analisis sistem dapat mengidentifikasi permasalahan-permasalahan yang output
+sistem informasi geografis persebaran dan kondisi bangunan gedung berdasarkan izin mendirikan bangunan kota singkawang berbasis desktop didesain untuk memudahkan input data dan analisis proses pengolahannya menjadi informasi
+output yang dihasilkan berupa laporan rakapitulasi data imb, peta wilayah persebaran dan kondisi bangunan gedung di kota singkawang khususnya kecamatan singkawang barat dan singkawang tengah yang berfungsi sebagai informasi data administratif tata bangunan yang ada di kota singkawang
+aplikasi sistem informasi geografis persebaran dan kondisi bangunan gedung berdasarkan izin mendirikan bangunan kota singkawang ini dapat menjadi alat manajemen dalam mengolah data administratif tata bangunan yang ada di kota singkawang, selain itu aplikasi ini diharapkan dapat dimanfaatkan bagi dinas-dinas dan pihak terkait dalam pengolahan data administratif dan perizinan bangunan yang ada di kota singkawang
+pendahuluan segi intensitas, teknologi, kebutuhan prasarana dan sarana, maupun lingkungannya
+untuk mewujudkan tertib penyelenggaraan bangunan gedung dan menjamin keandalan teknis bangunan gedung serta adanya kepastian hukum dalam penyelenggaraan bangunan gedung, setiap pendirian bangunan gedung harus berdasarkan izin mendirikan bangunan gedung 
+kota singkawang sekarang ini sedang giat-giatnya melaksanakan pembangunan, yang merupakan mayarakat
+realisasi dari pembangunan yang telah dilaksanakan di kota singkawang dapat ditemui dari adanya pembangunan sarana dan prasarana seperti pembangunan perumahan, jembatan, jalan raya, pelabuhan, mall dan lain sebagainya
+untuk melaksanakan pembangunan tempat tinggal baik yang dilakukan oleh pribadi maupun pihak swasta yang mempunyai bidang usaha di bidang pembangunan diperlukan izin yang dikenal dengan izin mendirikan bangunan 
+banyak masyarakat yang belum menyadari pentingnya izin mendirikan bangunan dari instansi yang berwenang kadang-kadang sebagian masyarakat mendirikan, menambah atau bermacam-macam seperti tingginya biaya sebagainya
+dalam pelaksanaan pembangunan administratif yang jelas
+jika tidak diimbangi dengan pendataan bangunan yang akurat tentunya akan menimbulkan permasalahan di masa yang akan datang
+dengan menerapkan sistem informasi geografis yang biasa disingkat dengan sig
+dalam hubungannya dengan pengolahan data, sig merupakan pengolahan dan pengelolaan informasi digital berbasis geografis, sehingga masukan utama sig merupakan data keruangan 
+sig diperlukan dalam menyediakan informasi yang akurat baik posisi, luasan, maupun informasi gambar dan grafik
+sig menyediakan informasi spasial, garis maupun titik yang dituangkan dalam bentuk peta, tabel dan grafis yang saling terkait sehingga sig mampu mengubah data secara cepat sesuai dengan perkembangan yang terjadi
+sig dapat melakukan analisa secara spasial maupun fungsi-fungsi statistik untuk analisa numerik, sehingga memudahkan untuk pengambilan keputusan
+kota singkawang merupakan salah satu bentuk pemerintahan kota yang berada di kalimantan barat
+terletak di antara kabupaten sambas dan kabupaten bengkayang
+kota singkawang memiliki luas 504 km2, terdiri dari lima kecamatan
+peta kota singkawang dan pembagian wilayah kecamatan dapat dilihat pada gambar 1
+sumber : kota singkawang dalam angka 2015 b
+pembangunan gedung dan hubungannya dengan izin mendirikan bangunan fisik pemanfaatan ruang
+oleh karena itu, dalam pengaturan bangunan gedung tetap mengacu pada peraturan penataan ruang sesuai peraturan perundang-undangan yang berlaku
+untuk menjamin kepastian dan ketertiban hukum dalam penyelenggaraan bangunan gedung, setiap bangunan gedung harus memenuhi persyaratan administratif dan teknis bangunan gedung, serta harus diselenggarakan secara tertib dan teratur
+dalam hal ini pemerintah telah mengatur dengan dikeluarkannya undang-undang nomor 28 tahun 2002, tentang bangunan gedung
+undang-undang ini mengatur fungsi bangunan gedung, persyaratan bangunan gedung, penyelenggaraan bangunan pengguna bangunan gedung pada setiap tahap penyelenggaraan bangunan gedung, ketentuan tujuan pengaturan dalam undang-undang diatas dilandasi oleh azas kemanfaatan, keselamatan, keseimbangan, dan keserasian bangunan gedung dengan lingkungannya, bagi kepentingan masyarakat yang berperikemanusiaan dan berperikeadilan
+dengan diberlakukannya undang-undang ini, di wilayah negara republik indonesia, yang dilakukan oleh pemerintah, swasta, masyarakat, dan oleh pihak asing, wajib mematuhi seluruh ketentuan yang tercantum dalam undang-undang bangunan gedung
+di dalam pasal 8 undang-undang nomor 28 tahun 2002 tentang bangunan gedung, telah ditentukan persyaratan administrasi bangunan gedung, yaitu : status hak atas tanah dan/atau izin pemanfaatan dari pemegang hak atas tanah; a) status kepemilikan bangunan gedung; b) izin mendirikan bangunan gedung; c) kepemilikan, dan pendataan bangunan gedung
+sistem informasi geografis ada beragam definisi dari para pakar mengenai sistem informasi geografis tersebut, intinya sistem informasi geografis atau geographical information system merupakan sebuah sistem untuk pengelolaan, penyimpanan, pemrosesan, analisis dan penayangan data yang terkait dengan permukaan bumi
+sig adalah sistem komputer yang digunakan untuk mengumpulkan, memeriksa, mengintegrasikan, dan menganalisa informasi-informasi sig merupakan suatu sistem yang dikembangkan untuk mengelola, menganalisis dan menampilkan informasi geografis
+sig menawarkan suatu sistem yang mengintegrasikan data yang bersifat keruangan dengan data tekstual yang merupakan deskripsi menyeluruh tentang obyek dan mempermudah pengguna menyebarluaskan kaitannya dengan obyek lain di ruang muka bumi
+dengan sistem ini data dapat 3 dalam berbagai format baik dalam bentuk peta maupun berupa tabel atau laporan
+perangkat lunak arcview 
+dengan arcview kita dengan mudah dapat mengelola data, menganalisa dan membuat peta serta laporan yang berkaitan dengan data spasial bereferensi geografis
+menggunakan visualisasi sama seperti bahasa pemrograman visual basic 
+namun delphi menggunakan bahasa yang hampir sama dengan pascal, sehingga lebih mudah untuk digunakan
+bahasa pemrograman delphi dikembangkan oleh codegear sebagai divisi pengembangan perangkat lunak milik embarcadero
+divisi tersebut awalnya milik borland, sehingga bahasa ini memiliki versi borland delphi

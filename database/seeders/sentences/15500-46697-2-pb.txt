@@ -1,0 +1,89 @@
+pengiriman barang adalah rutinitas yang dilakukan dalam bisnis ini
+sehingga pemilihan mitrajasa pengiriman barang selalu dilakukan pihak manajemen secara berkelanjutan, agar kepuasan pelanggan terjaga
+penelitian sebelumnya telah di implementasikan metode saw untuk mendukung keputusan pemilihan mitra jasa transportasi ini
+dalam pengembangannya penulis melakukan komparasi dengan metode profile matching dalam menentukan mitra jasa pengiriman barang, menggunakan data dan penilaian yang sama
+hasil komparasi dari kedua metode diatas adalah menghasilkan alternatif terpilih yang sama, sehingga kedua metode tersebut dapat diterapkan untuk membantu pengambilan keputusan pihak manajemen
+jasa pengiriman barang sedang berkembang dibidang retail accesoris mobil
+perusahaan ini menjual berbagai accesoris mobil baik secara grosir maupun eceran
+selain menjual secara konvensional di tiga cabang di daerah jabodetabek, toko ini juga menjajakan produk-produknya di dunia maya
+pangsa pasar toko baa tidak hanya di jakarta akan tetapi sampai ke daerah seperti kalimantan, papua dan sumatera
+pelayanan prima dan kepuasan pelanggan adalah hal yang sangat diutamakan oleh pihak toko baa
+barang dagangan toko ini memiliki berbagai karakteristik seperti, mudah pecah, dimensi dari kecil sampai besar dan lain sebagainya
+kendala lain adalah toko baa tidak memiliki kurir internal untuk mengantarkan barang pesanan ke pelanggan secara langsung
+sehingga untuk pengiriman barang selalu mengandalkan jasa pengiriman barang
+pada penelitian ini penulis memilih dua metode yaitu metode simple additive weighting dan profil matching untuk diimplementasikan dalam pemilihan mitra jasa pengiriman barang
+metode simple additive weighting telah diterapkan dalam penelitian sebelumnya dengan judul ―sistem pendukung keputusan dalam pemilihan mitra jasa pengiriman barang menggunakan metode simple additiveweighting ‖
+metode saw membutuhkan proses normalisasi matriks keputusan berdasarkan persamaanyang disesuaikan dengan jenis atribut sehingga diperoleh matriks ternormalisasi r
+hasil akhir diperoleh dariproses perankingan yaitu penjumlahan dari perkalian matriks ternormalisasi r dengan vektor bobot sehingga diperoleh nilai terbesar yang dipilih sebagai alternatif terbaik sebagai solusi
+metode ini merupakan salah satu metode madm yang mana merupakan suatu metode yang digunakan untuk mencari alternatif optimal dari sejumlah alternatif dengankriteria tertentu
+untuk mendapatkan hasil yang maksimal dalam pemilihan atlternatif, peneliti mengkomparasi data yang sama dengan metode profile matching
+metode profile matching merupakan proses membandingkan antara nilai data aktual dari suatu profil yang akan dinilai dengan nilai profil yang diharapkan, sehingga dapat diketahui perbedaan kompetensinya, semakin kecil gap yang dihasilkan maka bobot nilainya semakin besar
+penelitian sejenis yang membahas dari sisi sistem pendukung keputusan adalah perbandingan profile matching dan simple additive weighting pada penentuan jurusan siswa kelas x sma n 2 ngaglik
+pada penelitian ini kedua metode diterapkan dengan tiga kriteria, yaitu bakat, raport dan minat
+dari ketiga kriteria tersebut dilakukan perhitungan menggunakan kedua metode dan hasil yang diperoleh adalah kedua metode menghasilkan alternatif yang sama yaitu jurusan yang tepat bagi siswa
+penelitian ini memiliki relevansi dengan penelitian sebelumnya yaitu menerapkan metode simple additive weighting dan profile matching
+dimana untuk memperoleh hasil digunakan data alternatif dan kriteria yang sama
+dalam penelitian ini dilakukan komparasi antara kedua metode tersebut, yang bertujuan membantu pengambilan keputusan terbaik dalam pemilihan mitra jasa pengiriman barang yang sesuai dengan kebutuhan pihak manajemen, agar kepuasan konsumen dapat terjaga
+saw atribut terbaik bisa menjadi solusi alternatif terbaik sedangkan pada metode profile matching, atribut yang mendekati ideal yang akan menjadi solusi alternatif terbaik
+ merupakan system informasi interakif yang menyediakan informasi, pemodelan, dan pemanipulasian data
+sistem ini digunakan untuk membantu pengambilan keputusan dalam situasi yang semi terstruktur dan situasi yang tidak terstruktur, di mana tidak seorang pun tahu secara pasti bagaimana keputusan seharusnnya dibuat
+sistem pendukung keputusan merupakan sebuah sistem yang menyediakan kemampuan untuk penyelesaian masalah dan komunikasi untuk permasalahan yang bersifat semi-terstruktur
+sebagai berikut:1) mampu mendukung pencarian solusi dari berbagai permasalahan yang kompleks
+2) dapat merespon dengan cepat pada situasi yang tidak diharapkan dalam konsisi yang berubah-ubah
+3) mampu untuk menerapkan berbagai strategi yang berbeda pada konfigurasi berbeda secara cepat dan tepat
+8) menghemat waktu karena keputusan dapat diambil dengan cepat
+metode simple additive weighting metode simple additive weighting sering juga dikenal istilah metode penjumlahan terbobot
+konsep dasar metode saw adalah mencaripenjumlahan terbobot dari rating kinerja pada setiap alternatif pada semua atribut
+metode saw membutuhkan proses normalisasi matriks keputusan ke suatu skala yang dapat diperbandingkan dengan semua rating alternatif yang ada
+metode ini merupakan metode yang paling terkenal dan paling banyak digunakan dalam menghadapi situasi multiple attribute decision making 
+mengharuskan pembuat keputusan menentukan bobot bagi setiap atribut
+skortotal untuk alternatif diperoleh dengan menjumlahkan seluruh hasil perkalian antara rating dan bobot tiap atribut
+rating tiap atribut haruslah bebas dimensi dalam arti telah melewati proses normalisasi matriks sebelumnya
+langkah penyelesaian saw sebagai berikut : 1) menentukan kriteria-kriteria yang akan dijadikan acuan dalam pengambilan keputusan, yaitu ci
+2) menentukan rating kecocokan setiap alternatif pada setiap kriteria
+3) membuat matriks keputusan berdasarkan kriteria, kemudian melakukan normalisasi matriks berdasarkan persamaan yang disesuaikan dengan jenis atribut sehingga diperoleh matriks ternormalisasi r
+4) hasil akhir diperoleh dari proses perankingan yaitu penjumlahan dari perkalian matriks ternormalisasi r dengan vektor bobot sehingga diperoleh nilai terbesar yang dipilih sebagai alternatif terbaik sebagai solusi
+formula untuk melakukan normalisasi tersebut adalah : 𝑟𝑖𝑗 = 𝑋𝑖𝑗 𝑏𝑒𝑛𝑒𝑓𝑖𝑡 adalah nilai maksimum dari setiap baris, kolom min xijadalah nilai minimum dari setiap baris dan kolom xijadalah baris dan kolom dari matriks 
+dengan rij adalah rating kinerja ternormalisasi dari alternatif ai pada atribut cj; i =1, 2, …m dan j = 1, 2, …, n
+metode profile matching metode yang seringsebagai mekanisme dalam pengambilan keputusan dengan mengasumsikan bahwa terdapat tingkat variabel prediktor yang ideal yang harus dipenuhi olehsubyek yang diteliti, bukannya tingkat minimal yang harus dipenuhi atau dilewati
+dari suatu profile yang akan dinilaidengan nilai profil yang diharapkan, sehingga dapat diketahui perbedaan kompetensinya, semakin kecil gap yang dihasilkan maka bobot nilainya semakin besar yang berarti memiliki peluang lebih besar untuk direkomendasikan untuk terpilih dalam hal ini sebagai mahasiswa berprestasi
+berikut adalah beberapa tahapan dan perumusan perhitungan dengan metode profile matching: 1) pembobotan
+pada tahap ini, akan ditentukan bobot nilai masing-masing aspek dengan menggunakan bobot nilai yang telah ditentukan bagi masing-masing aspekitu sendiri; 2) pengelompokan core dan secondary factor setelah menentukan bobot nilai gap kriteria yang dibutuhkan, tiap kriteria dikelompokkan menjadi dua kelompok yaitu core factor dan secondary factor
+core factor merupakan aspek yang menonjol/paling dibutuhkan
+untuk menghitung core factor digunakan rumus : ic = jumlah item core factor secondary factor adalah item – item selainaspek yang ada pada core factor
+untuk menghitung secondary factor digunakan rumus : 𝑁𝑆𝐹 = 𝑁𝑆 𝐼𝑆 is= jumlah item secondary factor 3) perhitungan nilai totaldari perhitungan core factor dan secondary factor dari tiap- tiap aspek, kemudian dihitung nilaitotal dari tiap - tiap aspek yang diperkirakan berpengaruh pada kinerja tiap–tiap profile
+untuk menghitung nilai total dari masing-masing aspek, digunakan rumus : n = % ncf + % nsf keterangan : d
+komparasi yang ingin mencari jawaban secara mendasar tentang sebab- akibat, dengan menganalisis faktor-faktor penyebab terjadinya ataupun munculnya suatu fenomena tertentu
+studi komparasi adalah suatu bentuk penelitian yang membandingkan antara variable-variabel yang saling berhubungan dengan mengemukakan perbedaan-perbedaan lain-lain
+dikumpulkan setelah semua kejadian yang dipersoalkan berlangsung 
+peneliti mengambil satu atau lebih akibat dan menguji data itu dengan menelusuri kembali ke masa lampau untuk mencari sebab- sebab, saling hubungan dan maknanya
+langkah-langkah pokok penelitian komparasi: hipotesis itu serta prosedur-prosedur yang akan digunakan
+5) rancang cara pendekatannya:  pilihlah atau susunlah teknik yang akan digunakan untuk mengumpulkan data
+ tentukan kategiri-kategori untuk mengklasifikasikan data yang jelas, sesuai dengan tujuan studi, dan dapat menunjukkan kesamaan atau saling hubungan
+6) validasikan teknik untuk mengumpulkan data itu, dan interpretasikan hasilnya dalam cara yang jelas dan cermat
+pembahasan metode profile matching dilakukan klasifikasi pembobotan disetiap kriterianya
+dimana dalam pemilihan mitra jasa pengiriman barang ini, diperoleh kriteria-kriteria dan pembobotannya
+implementasi metode simple additive weighting langkah pertama yang dilakukan adalah menentukan alternatif, kriteria dan pembobotan kriteria yang digunakan sebagai acuan dapat dilihat pada analisis data diatas
+dimana terdapat empat alternatif yaitu a1, a2, a3 dan a4
+dan 6 kriteria yaitu yang digunakan dalam penilaian mitra jasa transportasi: kriteria sebagai berikut: pada setiap kriteria dalam pemilihan mitra jasa pengiriman barang yang telah ditentukan sebagai berikut: tabelvi alter natif kriteria a1 5 2 4 2 4 3 a2 4 1 3 2 2 4 a3 3 2 5 3 3 2 a4 5 1 4 1 4 1 langkah ketiga adalah pembentukan matrik matriks keputusan, sebagai berikut: 5 1 41 4 1 identik dengan 𝑋 = 𝑟11𝑟12 𝑟13 𝑟14 𝑟15𝑟16 𝑟21𝑟22 𝑟23 𝑟24 𝑟25𝑟26 𝑟31𝑟32 𝑟33 𝑟34 𝑟35𝑟36 𝑟41𝑟42 𝑟43 𝑟44 𝑟45𝑟46 langkah selanjutnya adalah mengihtung nilai normalisasi setiap kriteria dengan rumus 
+implementasi metode profile matching langkah pertama yang dilakukan adalah melakukan analisa bobot gap
+dimana untuk bobot nilai dari tiap sub kriteria telah ditentukan pada tahap analisa data diatas 
+akan ditentukan oleh pihak manajemen dengan range nilai antara 1 sampai 5
+dari nilai-nilaitersebut akan dilakukan proses perhitungan gap antara nilai profil mitra dengan nilai profil pencapaian
+pembobotan yang digunakan pada penelitian ini dapatdilihat pada tabel x dibawah ini: tabel x 1 4, 5 kompetensi kelebihan 1 tingkat/level -1 4 kompetensi kurang 1 tingkat/level 2 3, 5 kompetensi kelebihan 2 tingkat/level -2 3 kompetensi kurang 2 tingkat/level 3 2, 5 kompetensi kelebihan 3 tingkat/level -3 2 kompetensi kurang 3 tingkat/level 4 1, 5 kompetensi kelebihan 4 tingkat/level -4 1 kompetensi kurang 4 tingkat/level dengan demikian bobot nilai gap dari tiap alternatif dapat dilihat pada tabel xi berikut: tabelxi a1 5 5 4, 5 5 5 5 a2 4 4 5 5 3 4, 5 a3 3 4 3, 5 4, 5 4 4 a4 5 4 4, 5 4 5 3 langkah ketiga adalah melakukan perhitungan berdasarkan pengelompkan core factor dan secondary factor
+berdasarkan tabel viii, yang merupakan core factor adalah kriteria c1, c2, c5 dan c6
+sedangkan kriteria secondary factor adalah c3 dan c4
+rumus dan untuk diperoleh nilai rata-rata core factor dan rata-rata secondary factor 
+hasilnya dapat dilihat pada table xii berikut: tabel xii kriteria ncf yangdiperkirakan berpengaruh terhadap kinerja tiap-tiap profil
+adapun presentase yang diinputkan adalah untuk core factor 80% dan secondary factor 20%
+sihingga nilai total yang diperoleh berdasarkan rumus adalah sebagai berikut : tabelxiii + paling besar sampai dengan terkecil
+dimana nilai terbesar merupakan alternatif terpilih
+a1 = pt cakra buana merupakan alternatif terpilih berdasarkan metode profile matching sebagai mitra jasa pengiriman barang
+hasil komparasi metode simple additive weighting dan profil matching berdasarkan implementasi metode saw dan profile matching maka diperoleh hasil komparasi perengkingan dari kedua metode tersebut pada tabel xv berikut: tabel xiv pering kat terdapat perbedaan pada perengkingan alternatif ke -3 dan ke -4 yaitu untuk metode saw peringkat ketiga a3 dan peringkat ke empat a2
+akan tetapi tujuan dari penelitan ini adalah mencari alternatif terbaik, dan hasil komparasi diatas menghasilkan alternatif yang sama yaitu a1= pt cakra buana
+sehingga penilaian dengan metode saw muapun profile matching dapat diterapkan oleh pihak manajemen dalam menentukan mitra jasa pengirmian barang
+kesimpulan menunjukan hasil akhir yang sama dan diperoleh berdasarkan kriteria dan data yang sama pula
+dalam metode simple additive weighting alternatif terpilih adalah pt cakra buana
+hasil tersebut juga merupakan hasil akhir pada metode profile matching
+dari proses perhitungan yang telah dilakukan
+jadi, kedua metode ini dapat diterapkan dan diimplementasikan dalam pemilihan mitra jasa pengiriman barang untuk membantu pengambilan keputusan pihak manajemen, karena kedua metode ini menghasilkan alternatif terbaik yang sama

@@ -1,0 +1,89 @@
+amik bsi pontianak merupakan salah satu perguruan tinggi swasta yang memiliki jumlah mahasiswa yang banyak, namun dalam perjalanannya masih terdapat permasalahan yang setiap tahun nya terjadi yaitu permasalahan jumlah kelulusan mahasiswa yang tepat waktu dan terlambat
+jumlah mahasiswa yang lulus tepat waktu menjadi indikator efektifitas dari sebuah perguruan tinggi baik negeri dan swasta
+perguruan tinggi perlu mendeteksi perilaku dari mahasiswa aktif sehingga dapat dilihat faktor yang menyebabkan mahasiswa tidak lulus tepat waktu
+pada penelitian ini, akan mengkomparasikan atau membandingkan 5 metode data mining untuk menentukan metode mana yang paling optimal dalam menentukan ketepatan kelulusan mahasiswa dengan teknik pengujian t-test, metode yang dibandingkan adalah metode decision tree, naive bayes, k-nn, rule induction, dan random forest
+hasil dari penelitian ini menghasilkan bahwa algoritma rule induction dan c4.5 adalah metode yang paling optimal performanya dalam menentukan ketepatan kelulusan mahasiswa diploma amik bsi pontianak
+pendahuluan berkembangnya penggunaan teknologi informasi dan komputer dalam bidang pengelolaan data menyebabkan akumulasi data dalam jumlah sangat besar di berbagai macam perusahaan
+apalagi dengan semakin berkembangnya pengetahuan mengenai data yang besar tersebut menjadi informasi yang lebih berguna bagi pengelola data untuk lebih dioptimalkan dalam menunjang keputusan-keputussan bisnis yang menguntungan
+data dalam jumlah besar kadangkala belum dioptimalkan untuk memperoleh informasi yang lebih mendalam untuk mendukung tujuan-tujuan strategis yang diperlukan sehingga seolah-olah dibiarkan begitu saja
+demikian halnya data dalam institusi perguruan tinggi seperti amik bsi pontianak yang menyimpan kumpulan data yang banyak
+sejak berdiri hingga sekarang terdapat kurang lebih 5000 mahasiswa sehingga terdapat banyak data yang bisa digali
+peranan sebagai institusi pendidikan diharapkan menyelenggarakan pendidikan yang berkualitas bagi mahasiswa sehingga menghasilkan sumber daya manusia yang berilmu, kreatif dan berkualitas
+perlu digali informasi yang bisa digunakan untuk lebih meningkatkan daya saing yang salah satunya untuk meningkatkan prestasi akademik mahasiswa
+prestasi akademik sebagai keberhasilan seorang mahasiswa tidak terlepas dari latar belakang mahasiswa itu sendiri disamping sistem dan iklim belajar mengajar yang tercipta di lingkungan pendidikannya
+ipk yang baik tentunya membuat target masa studi tercapai dengan kualitas yang bagus
+masa studi yang tepat waktu mendorong berkurangnya penumpukan mahasiswa di semester akhir yang bisa mengakibatkan ratio dan kualitas yang tidak baik
+prestasi akademik biasanya diukur melalui indek prestasi akademik 
+keberhasilan dalam memperoleh ipk yang tinggi biasanya dipengaruhi oleh banyak faktor seperti jenis kelamin, status mahasiswa, umur, status nikah, nilai indeks prestasi semester, dan lain-lain
+dalam mengolah data mahasiswa untuk prediksi kelulusan telah diselesaikan oleh karamouiz dan vrettos dengan menggunakan metode neural network, qudri dan kalyankar dengan metode decision tree, suhartini dan ernastuti dengan metode c4.5 dan naïve bayes, , hastuti dengan komparasi metode logistic regression, decision tree, naïve bayes, neural networkdan tahyudin, utami dan amborowati dengan mengkomparasi algoritma decision tree, naïve bayes, ann, support vector machine dan logistic regression 
+penelitian terkait penelitian yang dilakukan oleh karamouiz dan vretoz pada tahun 2009 dengan judul sentivity analysis of neural network for identifying the factors for collage students success
+masalah yang yang dikaji adalah tingkat kelulusan dianggap sebagai indikator efektivitas suatu lembaga institusi, metode yang digunakan adalah nn 
+dari hasil data training yang dilakukan diperoleh kategori yang lulus adalah 86.04% dan training data untuk kategori yang tidak sukses adalah 68.21%, dan error yang diperoleh untuk kedua kategori sebut adalah 0.18%
+penelitian yang dilakukan oleh qudri dan kalanyar pada tahun 2010 dengan judul drop out feature of student data for academic performance using decision tree techniques
+masalah dalam penelitiaanya adalah prestasi akademik siswa sangat penting bagi lembaga pendidikan karena program- program strategis dapat direncanakan untuk meningkatkan atau mempertahankan prestasi siswa selama periode mereka studi di lembaga
+metode yang digunakan adalah decision tree, yakni algoritma j4.8
+hasil penelitian ini adalah sebuah pohon keputusan yang dapat dijadikan rule bagi prediksi siswa yang putus sekolah
+penelitian yang dilakukan oleh suhartina dan ernastuti pada tahun 2010 dengan judul dengan judul graduation prediction of gunadarma university students using algorithm and naive bayes c4.5 algorithm
+permasalahannya adalah banyaknya mahasiswa yang tidak lulus tepat waktu
+untuk mengetahui tingkat kelulusan mahasiswa dalam satu tahun ajaran dapat dilakukan suatu prediksi berdasarkan data-data mahasiswa pada tahun ajaran pertama
+algoritma yang digunakan adalah c45 dan naïve bayes
+hasil dari penelitian ini adalah akurasi untuk metode naïve bayes adalah 80, 85% dengan presentasi kesalahan 19, 05% akurasi ketepatan hasil prediksi c4.5 85.7%, dan presentasi kesalahannya adalah 14, 3%
+penelitian yang dilakukan oleh hastuti pada tahun 2012 dengan judul analisis komparasi algoritma klasifikasi data mining untuk prediksi mahasiswa non aktif
+permasalahannya adalah mahasiswa non aktif adalah mahasiswa yang berhenti studi dan tidak melakukan registrasi administratif
+mahasiswa yang memiliki status non aktif memiliki kecenderungan untuk drop out
+metode yang digunakan adalah logistic regression, decision tree, naïve bayes, neural network
+hasilnya adalah akurasi logistic regression 81, 64%, decision tree 95, 29%, naïve bayes 93, 47%, dan neural network 94, 59%
+penelitian yang dilakukan oleh tahyudin, utami dan amborowati pada tahun 2013 dengan judul comparing clasification algorithm of data mining to predict the graduation students on time
+permasalahannya adalah persentase mahasiswa yang lulus tepat waktu adalah salah satu unsur yang mempengaruhi akreditas program studi
+metode yang digunakan adalah mengkomparasi algoritma decision tree, naïve bayes, ann, support vector machine dan logistic regression 
+hasilnya adalah akurasi algoritma decision tree 80, 01%, naïve bayes 75, 16%, ann 100%, svm 100%, dan lr 100%
+pada penelitian ini akan dilakukan komparasi 5 buah metode algoritma data mining yaitu metode decision tree, naive bayes, k-nn, rule induction, dan random forest untuk menentukan metode mana yang paling optimal dalam menentukan ketepatan kelulusan mahasiswa dengan bantuan teknik pengujian komparasi t-test serta dengan menggunakan software rapid miner
+metode terkait penelitian ini menggunakan metode penelitian komparatif
+metode analisis yang akan dipakai adalah metode data mining klasifikasi dengan tools software rapid miner studio
+proses penelitian yang akan dilakukan dapat dilihat pada gambar 1
+dataset dataset yang digunakan dalam penelitian ini adalah dataset amik bsi pontianak angkatan 2013/2017 prodi d3 manajemen informatika sebanyak 349 record
+data atribut yang digunakan terdapat pada tabel 1
+tabel i tabel data atribut atribut keterangan nama nama mahasiswa jenis kelamin laki-laki, perempuan status mahasiswa bekerja, mahasiswa umur umur mahasiswa status nikah menikah, belum menikah ips1 nilai semester ips2 nilai semester ips3 nilai semester ips4 nilai semester ips5 nilai semester ips6 nilai semester ipk nilai komulatif semester status kelulusan tepat, terlambat b
+rancangan algoritma klasifikasi algoritma klasifikasi ini digunakan untuk membandingkan performansi dari model-model klasifikasi untuk memprediksi ketepatan dalam kelulusan mahasiswa
+dalam penelitian ini telah dipilih 5 model klasifikasi yaitu decision tree, naive bayes, k-nn, rule induction, dan random forest
+alur penelitian komparasi dengan model klasifikasi untuk prediksi ketepatan kelulusan mahasiswa
+validasi model validasi model dalam penelitian ini menggunakan cross validation adalah teknik validasi dengan membagi data secara acak kedalam k bagian dan masing-masing bagian akan dilakukan proses klasifikasi
+dengan menggunakan cross validation akan dilakukan percobaan sebanyak k
+data yang digunakan dalam percobaan ini adalah data training untuk mencari nilai error rate secara keseluruhan
+secara umum pengujian nilai k dilakukan sebanyak 10 kali untuk memperkirakan akurasi estimasi
+dalam penelitian ini nilai k yang digunakan berjumlah 10 atau 10-fold cross validations
+hasil dari berbagai percobaan yang ekstensif dan pembuktian teoritis, menunjukkan bahwa 10-fold cross-validation adalah pilihan terbaik untuk mendapatkan hasil validasi yang akurat
+karena 10-fold cross-validation akan mengulang pengujian sebanyak 10 kali dan hasil pengukuran adalah nilai rata-rata dari 10 kali pengujian, seperti terlihat pada tabel 2
+penelitian ini menggunakan k-fold cross validation karena metode ini telah menjadi metode validasi standar dan state-of-the-art, bahkan beberapa tes juga menunjukkan bahwa penggunaan stratified k-fold cross-validation sedikit meningkatkan hasil dari pengujian model
+tabel iii tabel stratified 10 fold cross validation n-validasi pembagian dataset 1 2 3 4 5 6 7 8 9 10 d
+evaluasi model untuk mengevaluasi tingkat akurasi performansi model klasifikasi digunakan model evaluasi confusion matrix dan roc curve
+confusion matrix memberikan keputusan yang diperoleh dalam traning dan testing
+confusion matrix memberikan penilaian performance klasifikasi berdasarkan objek dengan benar atau salah
+confusion matrix merupakan matrik dua dimensi yang menggambarkan perbandingan antara hasil prediksi dengan kenyataan, ditunjukkan pada tabel 3 dibawah ini
+confusion matrix merupakan tabel matrix yang terdiri dari dua kelas, yaitu kelas yang dianggap sebagai positif dan kelas yang dianggap sebagai negatif
+confusion matrix berisi informasi aktual dan prediksi pada model klasifikasi
+confusion matrix memberikan penilaian kinerja model klasifikasi berdasarkan jumlah objek yang diprediksi dengan benar dan salah
+tabel iiiii tabel model confusion matrix classification predicted class untuk dapat melihat akurasi secara manual dilakukan perbandingan klasifikasi menggunakan curva roc hasil ekspresi dari confusion matrix
+kurva roc adalah cara lain untuk mengevaluasi akurasi dari klasifikasi secara visual
+roc menghasilkan dua garis dengan bentuk true positives sebagai garis vertikal dan false positives sebagai garis horizontal
+kurva roc adalah grafik antara sensitivitas pada sumbu y dengan 1- spesifisitas pada sumbu x, curve roc ini seakan-akan menggambarkan tawar-menawar antara sumbu y atau sensitivitas dengan sumbu x atau spesifisitas
+nilai dari kurva roc ini diharapkan mempunyai nilai yang akurat dalam uji kuantitas dalam sebuah pengujian kasus
+menentukan nilai cut off pada uji diagnostic yang bersifat kontinyu dan membandingkan kualitas dari dua atau lebih uji diagnostic
+area under the roc curve adalah ukuran numerik untuk membedakan kinerja model, dan menunjukkan seberapa sukses dan benar peringkat model dengan memisahkan pengamatan positif dan negatif
+pada gambar 2 diatas garis diagonal membagi ruang roc, yaitu: poin diatas garis diagonal merupakan hasil klasifikasi yang baik, point dibawah garis diagonal merupakan hasil klasifikasi yang buruk
+dapat disimpulkan bahwa, satu point pada kurva roc adalah lebih baik dari pada yang lainnya jika arah garis melintang dari kiri bawah ke kanan atas didalam grafik
+ukuran auc dihitung sebagai daerah dibawah kurva roc dengan persamaan
+komparasi model dikarenakan hasil dari evaluasi confusion matrix dan kurva roc menghasilkan data yang hampir sama sehingga menyulitkan dalam pengambilan keputusan maka dalam penelitian ini dilakukan uji beda
+untuk mengkomparasi hasil evaluasi digunakan model komparasi parametrik
+pada literatur ada dua jenis uji statistik, yaitu uji parametrik dan uji nonparametrik
+uji parametrik yang dapat digunakan salah satunya adalah uji t 
+pada penelitian ini akan digunakan model komparasi parametrik t-test
+uji t sampel berpasangan digunakan untuk membandingkan selisih dua rata-rata dari dua sampel yang berpasangan
+uji t berpasangan biasanya digunakan untuk menguji hipotesis penelitian apakah hasil setelah perbaikan lebih baik dari hasil sebelum perbaikan
+bentuk uji t sampel berpasangan akan menggunakan bentuk uji t sampel berpasangan dua sisi dengan hipotesis mana yang diterima, ditentukan berdasarkan nilai p-value
+hasil dan pembahasan eksperimen dilakukan pada laptop berbasis intel core i3 processor dengan ram 2 gb dan sistem operasi yang digunakan windows 8
+aplikasi yang digunakan untuk mengerjakan penelitian menggunakan rapid miner studio 7.0 pada tabel 4 dapat dilihat nilai akurasi dan auc masing- masing algoritma berdasarkan model evaluasi confusion matrix dan uuc
+tabel ivv tabel hasil uji beda t-test c45 nb knn ri rf accuracy 90.85% 82.52% 81.68% 90.57% 79.96% auc 0.904 0.891 0.500 0.906 0.800 dari hasil evaluasi di atas langkah selanjutnya adalah dilakukan proses uji beda dengan menggunakan teknik uji beda parametrik t-test
+hasil t-test dapat dilihat pada tabel 4
+pada tabel 5 dapat terlihat bahwa algoritma rule induction, c4.5, dan random forest memiliki performa yang paling baik diantara algoritma yang lain
+kesimpulan berdasarkan penelitian perbandingan algoritma decision tree, naive bayes, k-nn, rule induction, dan random forest dengan dataset kelulusan mahasiswa diploma amik bsi, dapat disimpulkan bahwa dengan menggunakan uji beda t-test algoritma rule induction dan c45 memiliki performa yang paling baik dalam memprediksi ketepatan kelulusan mahasiswa

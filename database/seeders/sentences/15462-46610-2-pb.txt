@@ -1,0 +1,156 @@
+perkembangan perangkat lunak komputer dewasa ini terjadi sedemikian pesatnya, perkembangan tidak hanya terjadi pada perangkat lunak yang memiliki lisensi tertentu, perangkat open source pun demikian
+perkembangan itu tentu saja sangat menggembirakan bagi pengguna komputer khususnya di kalangan pendidikan maupun di kalangan mahasiswa, karena pengguna mempunyai beberapa pilihan untuk menggunakan aplikasi
+perangkat lunak open source juga menawarkan produk yang umumnya gratis, diberikan kode programnya, kebebasan untuk modifikasi dan mengembangkan
+meneliti aplikasi berbasis open source tentu saja sangat beragam seperti aplikasi untuk pemrograman, database management system, browsing 
+unified theory of acceptance and use of technology
+pada penelitian ini di kaji penerimaan aplikasi dbms seperti mysql dan sqlite dengan menggunakan sebuah model yang dikembangkan oleh venkantes yaitu utaut 
+faktor–faktor tertentu juga mempengaruhi dalam melakukan kegiatan pembelajaran aplikasi open source ini, salah satu faktor atau yang disebut dengan moderating yang bisa mempengaruhi efektifitas dan efisiensi
+dengan demikian akan mendapatkan hasil yang bisa membuat kelancaran dalam pembelajaran aplikasi berbasis open source ini
+pendahuluan pembelajaran mahasiswa di suatu instansi pendidikan merupakan fenomena yang berkembang sangat luas dan cepat di indonesia
+keberhasilan institusi pendidikan akan sangat ditentukan kualitas kinerja teknologi informasi dalam pembelajaran terhadap mahasiswa, yang akan terus dikembangkan secara luas untuk memenuhi era globalisasi
+fenomena yang dikenal sebagai paradoks produktifitas dari teknologi informasi, menyatakan bahwa komputerisasi tidak secara otomatis meningkatkan produktifitas, tetapi merupakan komponen penting dalam sistem yang lebih luas mengenai perubahan organisasi yang akan meningkatkan produktifitas
+tetapi penggunaan teknologi komputer pada skala instansi pendidikan ternyata belum merupakan jaminan peningkatan kinerja dalam pembelajaran dan pemahaman yang didapat mahasiswa
+adalah melalui kajian proses adopsi teknologi informasi oleh pengguna akhir, seperti akan dijelaskan dalam penelitian ini
+model analisis yang akan digunakan adalah unified theory of acceptance and use of technology 
+nilai beberapa tahun ini, khusus untuk matakuliah pemrograman berbasis data pada semester 3 dan 4 semakin menurun, dan kurangnya respon mahasiswa dalam menerima matakuliah ini.dengan adanya model ini kita dapat memberikan motivasi belajar mahasiswa, bahwa sebenarnya dengan ada teknologi sangat membantu sekali dalam pendidikan
+dan mahasiswa disini diharapkan dapat membedakan sesuatu hal berdasarkan apa yang diminatinya dalam hal teknologi serta memperdalamnya
+data dikumpulkan dari penyebaran kuesioner sejumlah 150 buah
+hasil analisis deskriptif memperlihatkan bahwa sebagian besar responden memiliki tingkat performance expectancy, effort expectancy, social influence, facilitating conditions, dan use behavior yang tergolong tinggi, sementara tingkat behavioral intention sebagian besar responden tergolong sedang
+hasil pengujian dengan korelasi spearman menunjukkan bahwa performance expectancy, effort expectancy, social influence, dan facilitating condition masing-masing memiliki korelasi positif dan signifikanterhadap behavioral intention
+begitu pula behavioral intention memiliki korelasi yang positif dan signifikan dengan use behavior 
+sementara facilitating condition tidak memiliki korelasi yang signifikan dengan use behavior
+makalah ini merupakan hasil penelitian pendahuluan yang bertujuan untuk menguji reliabilitas dan validitas instrumen penelitian, serta mendeteksi kecenderungan pengaruh moderating variables terhadap ekspektasi usaha dan kinerja dalam penggunaan teknologi informasi
+lunak yang dirancang untuk mengelola suatu basis data dan menjalankan operasi terhadap data yang diminta banyak pengguna
+contoh smbd adalah oracle, sql server 2000/2003, ms access, mysql dan sebagainya
+dbms merupakan perangkat lunak yang dirancang untuk dapat melakukan utilisasi dan mengelola koleksi data dalam jumah yang besar
+sebelum adanya bms maka data pada umumnya disimpan dalam bentuk flatfile, yaitu file teks yang ada pada sistem operasi
+sampai sekarangpun masih ada aplikasi yang menimpan data dalam bentuk flat secara langsung
+menyimpan data dalam bentuk flat file mempunyai kelebihan dan kekurangan
+penyimpanan dalam bentuk ini akan mempunyai manfaat yang optimal jika ukuran filenya relatif kecil
+selain dalam bentuk flat file, penyimpanan data juga dapat dilakukan dengan menggunakan program bantu seperti spreadsheet penggunaan perangkat lunak ini memperbaiki beberapa kelemahan dari flat file, seperti bertambahnya kecepatan dalam pengolahan data
+namun demikian metode ini masih memiliki banyak kelemahan, diantaranya adalah masalah manajemen dan keamanan data yang masih kurang
+penyimpanan data dalam bentuk dbms mempunyai banyak manfaat dan kelebihan dibandingkan dengan penyimpanan dalam bentuk flat file atau spreadsheet, diantaranya : 1
+performance yang didapat dengan penyimpanan dalam bentuk dbms cukup besar, sangat jauh berbeda dengan performance data yang disimpan dalam bentuk flat file
+disamping memiliki unjuk kerja yang lebih baik, juga akan didapatkan efisiensi penggunaan media penyimpanan dan memori
+integritas data lebih terjamin dengan penggunaan dbms
+masalah redudansi sering terjadi dalam dbms
+redudansi adalah kejadian berulangnya data atau kumpulan data yang sama dalam sebuah database yang mengakibatkan pemborosan media penyimpanan
+mengaksesnya sehingga pembuatan antarmuka ke dalam data akan lebih mudah dengan penggunaan dbms 4
+data yang terpusat akan mempermudah pengelolaan database
+kemudahan di dalam melakukan bagi pakai dengan dbms dan juga kekonsistenan data yang diakses secara bersama-sama akan lebiih terjamin dari pada data disimpan dalam bentuk file atau worksheet yang tersebar 5
+dbms memiliki sistem keamanan yang lebih fleksibel daripada pengamanan pada file sistem operasi
+keamanan dalam dbms akan memberikan keluwesan dalam pemberian hak akses kepada pengguna model utaut disusun berdasarkan model-model penerimaan teknologi sebelumnya seperti theory of reason action, theory of planned behaviour, task- technology fit theory, dan terutama technology acceptance model 
+tam, yang diperkenalkan pertama kali oleh fred d
+davis pada tahun 1986, adalah adaptasi dari tra yang dibuat khusus untuk pemodelan penerimaan pengguna terhadap sistem informasi
+menurut davis, tujuan utama tam adalah untuk memberikan dasar untuk penelusuran pengaruh faktor eksternal terhadap kepercayaan, sikap, dan tujuan pengguna
+utaut merupakan salah satu model penerimaan teknologi terkini yang dikembangkan oleh venkatesh, v, morris, mg
+utaut menggabungkan fitur-fitur yang berhasil dari delapan teori penerimaan teknologi terkemuka menjadi satu teori
+kedelapan teori terkemuka yang disatukan di dalam utaut adalah theory of reasoned action, technology acceptance model, motivational model, theory of planned behavior, combined tam and tpb, model of pc utilization, innovation diffusion theory dan social cognitive theory 
+utaut terbukti lebih berhasil dibandingkan kedelapan teori yang lain dalam menjelaskan hingga 70 persen varian pengguna
+setelah mengevaluasi kedelapan model, venkatesh, dkk menemukan tujuh konstruk yang nampak menjadi determinan langsung yang signifikan terhadap behavior al intention atau use behavior dalam satu atau lebih di masing-masing model
+konstruk-konstruk tersebut adalah performance expectancy, effort expectancy, social influence, facilitating conditions, attitude toward using technology, dan self-efficacy
+setelah melalui pengujian lebih lanjut, mereka menemukan empat konstruk utama yang memainkan peran penting sebagai determinan langsung dari behavioral intention dan use behavior yaitu, performance expectancy, effort expectancy, social influence, dan facilitating conditions
+sedangkan yang lain tidak signifikan sebagai determinan langsung dari behavioral intention
+disamping itu terdapat pula empat moderator: gender, age, voluntariness, dan experience yang diposisikan untuk memoderasi dampak dari empat konstruk utama pada behavioral intention dan use behavior
+gambar 1 menampilkan keterkaitan antara determinan-determinan dan moderator-moderator ini
+model utaut yang dihasilkan menformulasikan empat faktor yang memunculkan system acceptance dan usage dengan empat moderator kunci yang mempengaruhi
+perceived usefulness, tingkatan dimana seseorang percaya bahwa menggunakan sistem akan meningkatkan performansi kerja mereka
+extrinsic motivations, persepsi bahwa user akan mau melakukan suatu aktifitas karena dirasakan itu merupakan alat untuk mendapatkan hasil yang bernilai seperti meningkatkan performansi kerja, penghasilan dan promosi kerja
+job-fit, perluasan dan keyakinan seseorang menggunakan suatu teknologi akan meningkatkan performansi kerja
+relative advantage, tingkatan dimana sebuah inovasi dirasakan lebih baik
+ouicome expectations, konsekuensi yang berhubungan dengan performansi suatu perilaku
+effort expectancy, yaitu tingkatan kemudahan yang dirasakan user dalam menggunakan sistem
+teori-teori yang tergabung dalam effort expectancy adalah : a
+perceived ease of use, tingkatan dimana seseorang percaya bahwa menggunakan sistem akan bebas dari usaha
+complexity, tingkatan dimana suatu inovasi dirasakan lebih sulit untuk dipahami dan digunakan
+ease of use, tingkatan dimana sebuah inovasi dirasakan lebih baik
+social influence, yaitu kesadaran seseorang mengenai adanya orang lain yang menggunakan sistem
+teori-teori yang tergabung jalam social influence adalah : a
+subjective norm, persepsi seseorang bahwa banyak orang yang penting untuknya berftkiran dia tidak atau harns melakukan perilaku yang diminta
+social factor, perasaan dalam diri s_seorang terhadap kebudayaan suatu kejompok dan persetujuan interpersonal yang dibuai._seseorang c
+image, tingkatan dimana menggunakan inovasi dirasakan akan meningkatkan image atau status seseorang dalam system social teori-teori yang tergabung dalamfacilitating conditions adalah : a
+perceived behavioral control, perasaan mudah atau sulit untuk menampilkan suatu perilaku
+sistem penelitian is, yaitu : persepsi terhadap batasan internal dan external dari suatu perilaku
+facilitating conditions, faktor-faktor lingkungan yang diobservasi disetujui s_bagai hal yang memudahkan sesuatu untuk dilakukan
+ini adalah gender, age, experience dan voluntary of system
+performance expecrancy, effort expectancy, social influence dan facilitating conditions behubungan dengan intention behavior yang akhirnya menghasilkan behavior use
+behavior use menjadi pengukuran user acceptance dari sebuah sistem
+venkatesh, etal, , mengemukakan utaut merupakan model yangdisusun berdasarkan teori-teori dasar mengenai perilaku penggunaan teknologi dan model penerimaan teknologi yaitu tra, tam, tpb, motivational model, model pemanfaatan personal computer, teori difusi inovasi, dan sct
+gender semester responden terdapat interaksi antara gender, semester dan indeks prestasi terhadap faktor-faktor yang mendukung perilaku dan sikap menggunakan aplikasi dbms berbasis opensource, dengan adanya moderasi yang berisikan dengan tingkat semester menunjukan bahwa perbedaan aplikasi dmbs yang dipakai berbeda pada masing-masing tingkatannya, sedangkan moderasi yang berisikan dengan ipk itu menandadakan bahwa dengan adanya ipk yang sesuai dengan syarat yang berlaku dapat mengambil beasiswa yang diinginkan, inilah dasar pembuatan moderasi untuk model ini
+adanya tambahan moderasi yaitu habit dan technology trust, hubungan kedua moderasi ini dibuat berdasarkan kebiasaan dan kepercayaan terhadap teknologi yang dilakukan mahasiswa dalam melakukan pembelajaran dbms berbasis opensource
+sebagaimana telah dijelaskan diatas bahwa penelitian ini menggunakan utaut sebagai landasan teori dalam menganalisis penggunaan open source software
+untuk menganalisis hal tersebut digunakan model matematik perhitungan yaitu structural equation modelling 
+berdasarkan kerangka konsep pengaruh antar variabel, maka disusunlah hipotesis sebagai berikut : h1 : performance expectancy berpengaruh positif dan signifikan terhadap attitude toward opensource
+h2 : effort expectancy berpengaruh positif dan signifikan terhadap attitude toward opensource
+signifikan terhadap symbolic adoption performance expectancy
+facilitating condition performance expentancy effort expentancy social influence facilitating condition terhadap performance expentancy terhadap effort expentancy terhadap social influence terhadap facilitating condition positif terhadap symbolic adoption
+pengaruh yang siginifikan terhadap hubunsan attitude toward opensource yang mempengaruhi symbolic adoption siginifikan terhadap hubungan attitude toward opensource yang mempengaruhi symbolic format makalah yang kami perlukan, gunakan dokumen ini sebagai template dan ketik teks anda di dalamnya
+sructural equation model dalam menguji hipotesis peneliti menggunakan metode statistic multivariate structural equation model dengan tujuan untuk memperoleh model yang plausible atau fit dengan masalah yang sedang dikaji pada penelitian ini
+tujuan juga untuk mengetahui hubungan kausal antar variable dependen atau independen pada model yang dibangun
+adapun langkah-langkah dari metode analisa dengan menggunakan teknik analisa structural equation model dapat dilihat pada gambar 3: gambar 3 alur proses penelitian a
+pengembangan model berbasis teori tujuan pengembangan model berbasis teori ini adalah untuk mengembangkan sebuah model yang mempunyai pembenaran secara teoritis yang kuat, untuk mendukung upaya analisis terhadap suatu masalah yang menjadi objek penelitian
+selain itu juga terdapat 3 konstruk endogen yaitu kepuasan pengguna, pengguna dan manfaat bersih 
+uji validitas dan reliabilitas uji validitas digunakan untuk menguji keakuratan suatu indikator sehingga dapat mewakili suatu variabel laten
+sedangkan uji reliabilitas merupakan suatu ukuran konsistensi internal dari indikator-indikator suatu variable bentukan yang menunjukan derajat setiap indikator sebagai konstruktor variable bentukan
+uji asumsi model tindakan yang dilakukan adalah mengevaluasi apakah data tersebut telah memenuhi asumsi-asumsi sem
+asumsi- asumsi yang harus dipenuhi adalah : 1
+ukuran sampel, ukuran sampel yang digunakan berkisar antara 100-200
+normalitas, dengan melihat nilai critical ratio skewness dan critical ratio curtosis value yang berada pada -2.58 sampai 2.58 dengan tingkat signifikasi 0.01 maka data dianggap normal distancetable
+jika nilai p1 dan p2 < 0.05 maka data dianggap outlier
+matrik kovarians, jika determinan dari matrik kovarians sangat besar atau jauh dari angka nol maka data tersebut valid
+uji kesesuaian model uji ini adalah uji model secara menyeluruh yang ditujukan utnuk mengukur kesesuaian antara matriks varians kovarians sampel dengan matrik varian kovarians berdasarkan model yang diajukan
+dengan kata lain, uji ini digunakan untuk menyatakan model fit atau tidak
+jika model dianggap tidak fit maka penelitian selanjutnya harus dilakukan melakukan path diagram
+tujuannyaadalah untuk memudahkan dalam melihat hubungan kausalitas yang ingin diuji
+jika terdapat koefisien regresi yang bernilai negatif atau yang tidak signifikan maka dihapus
+suatu nilai p dianggap signifikan apabila nilai p tersebut memiliki angka dibawah 0.05
+analisa sub-grup model moderating analisa sub-grup model moderating merupakan suatu model analisa dengan memisahkan variable moderating menjadi dua kelompok
+model dengan kondisi variable moderating tinggi dan rendah
+setelah itu membandingkan hasil koefisien parameter kedua model untuk melihat ada tidaknya pegaruh moderasi dalam model
+analisa efektivitas keefektifan sebuah sistem dapat dilihat apabila variabel- variabel yang ada pada model untuk pegujian sistem informasi tersebut memiliki hubungan yang signifikan
+jika dalam sebuah model terdapat minimal satu variabel yang memiliki hubungan yang tidak signifikan maka model untuk pengujian sistem informasi tersebut dianggap tidak efektif
+responden yang ada pada penelitian ini adalah mahasiswa pada universitas indraprasta dengan jumlah responden sebanyak 150responden yang diklasifikasi tingkat semester, jenis kelamin, indeks prestasi komulatif
+sedangkan nilai c.r pada skewness dan kurtosis dalam kisaran nilai yang direkomendasikan yaitu -2.58 sampai 2.58
+pengujian model berbasis teori pengujian model berbasis teori dilakukan dengan menggunakan software amos versi 7.0
+sehingga untuk pengujian model selanjutnya digunakan model seperti terlihat pada gambar 4: c
+uji validitas pengujian validitas mengukur sampai seberapa jauh ukuran indikator mampu merefleksikan konstruk laten teoritisnya berdasarkan nilai loading factor-nya
+variabel performance expentancy, effort expentancy, social influence, facilitating condition, dan attitude toward technology dinyatakan valid karena semua konstruk yang ada pada variabel tersebut memiliki nilai estimasi diatas 0.5
+sedangkan untuk variabel symbolic adoption dinyatakan tidak valid karena pada variabel tersebut terdapat konstruk yang tidak valid atau memiliki nilai dibawah 0.5
+uji reliabilitas semua konstruk variabel laten pe, ee, si, fc, at dan sa memenuhi syarat cutt-of value untuk construct reliability minimal 0.70
+dan nilai variance extracted untuk konstruk variabel laten pe, ee, si, fc, at dan sa memenuhi batas nilai variance extracted yaitu berada diatas0.50
+dengan demikian dapat dikatakan bahwa masing-masing variabel memiliki realibilitas yang baik
+secara multivariate nilai c.r yaitu 46.34 yang nilainya jauh diatas 2.58
+sehingga dapat disimpulkan bahwa data berdistribusi tidak normal responden yang mengalami outlier sehingga data-data responden tersebut harus dihapuskan dari proses analisis
+maka responden yang tersisa sebanyak 130 responden
+untuk uji singularitas dapat dilihat berdasarkan nilai determinan yang tidak sama dengan 0
+sehingga berdasarkan data yang ada, dapat dianggap bahwa tidak ada masalah multikoliniearitas dan singularitas pada data yang dianalisis
+uji kesesuaian model uji kesesuaian model dilakuakn dengan melihat nilai probability
+berdasarkan hasil output dari model penelitian yang ada, maka nilai probability-nya adalah 0.000 atau berada dibawah 0.05
+dengan demikian model penelitian dianggap tidak fit dan harus dilakukan pengujian menggunakan model jalur atau path diagram
+sedangkan untuk jalur dari variabel at menuju sa memiliki nilai 0.46 atau dengan kata lain jalur dari variabel at menuju sa dianggap tidak signifikan dan harus dihapus dari model analisis
+analisa sub-grup model moderating didapatkan hasil pria tidak ada yang berpengaruh pada variabel endogen sedangkan wanita sangat berpengaruh pada hubungan antara harapan prestasi dan social dengan sikap terhadap teknologi itu terdapat pengaruh yang signifikan
+sedangkan kesimpulan hasil perhitungan estimasi maka didapat bahwa mahasiswa semester 3 memiliki hubungan yang tidak signifikan antara sikap terhadap teknologi dengan sikap antusias, keinginan dan mental dan mahasiswa semester 4 memiliki hubungan yang signifikan antara sikap terhadap teknologi dengan sosial, sedangkan sikap terhadap teknologi dengan keinginan dan mental tidak terdapat hubungan yang signifikan
+lalu hasil kesimpulan variabel moderasi ipk1 terdapat hubungan yang signifikan antara sikap terhadap teknologi dengan tingat social antara mahasiswa tersebut dan hasil kesimpulan variabel moderasi ipk2 terdapat hubungan yang tidak signifikan antara sikap terhadap teknologi dengan tingat social antara mahasiswa tersebut
+model akhir penelitian setelah dilakukan uji signifikansi maka terdapat jalur yang dihapus yaitu jalur dari variabel ki menuju kp
+berdasarkan hasil uji signifikan tersebut maka didapatkan model analisis akhir sebagai berikut maka didapat hasil estimasi antara hubungan kausal fc dan pe dengan at, serta ee dan si dengan sa harus didrop karena tidak signifikan, setelah didapat hasil akhir submodel seperti terlihat pada gambar 5
+gambar 5 model akhir penelitian tabel 1 tabel hasil akhir penelitian v
+dari hasil penelitian ini dapat dijelaskan bahwa harapan prestasi sosial sangat mempengaruhi antusias dan mental dari mahasiswa tersebut 
+harapan upaya dan sosial sangat langsung berpengaruh pada tingkat sosial yang dilakukan
+hubungan kausal antara factor-faktor yang mempengaruhi efektivitas penggunaan aplikasi dbms berbasis open source yang terdapat dari hasil penelitian ini adalah : 1
+variabel harapan prestasi dan fasilitas berpengaruh negatif atau tidak signifikan terhadap variabel sikap terhadap teknologi dan tingkat atusias dan mental 
+hal ini berarti bahwa makin tinggi sikap terhadap teknologi dan antusias mahasiswa tidak akan mempengaruhi terhadap prestasi mahasiswa tersebut dan fasilitas yang
+variabel harapan upaya berpengaruh negatif atau tidak signifikan terhadap sikap mental dan antusias 
+harapan upaya maka tidak akan mempengaruhi langsung pada sikap mental dan antusias mahasiswa tersebut
+variabel harapan upaya berpengaruh positif atau signifikan terhadap sikap mental dan antusias 
+sosialisasi maka akan mempengaruhi langsung pada sikap mental dan antusias mahasiswa tersebut
+berdasarkan analisis sub-grup model moderating keragaman berdasarkan jenis kelamin, tingkat semester, dan indeks prestasi komulatif dapat ditarik kesimpulan yaitu : 1
+lalu hubungan antara sikap terhadap teknologi dengan mental dan antusias mahasiswa terdapat hubungan yang signifikan 2
+dari kesimpulan hasil perhitungan estimasi maka didapat bahwa mahasiswa semester 3 dan semester 4 memiliki hubungan yang signifikan antara sikap terhadap teknologi dengan sikap antusias, keinginan dan mental teknologi dengan tingkat social antara mahasiswa tersebut
+berdasarkan kesimpulan yang diambil dari hasil penelitian, maka saran untuk penelitian ini adalah sebagai berikut: dapat ditingkatkan
+yang berkaitan dengan database management system dimana hasil terbaiknya dapat dilanjutkan untuk kegiatan pkm yang diadakan oleh kopertis
+system dengan tingkat advance atau pembelajaran yang lebih mahir lagi
+diperlukan sosial yang bagus untuk membantu menyalurkan keinginannya dan menumbuhkan sikap mental ingin belajar lebih besar
+aspek sistem adalah open source stem maka pihak lembaga harus menyediakan infrastruktur yang berupa penyediaan aplikasi dan perangkat yang memadaiyang lebih baik sehingga mahasiswa antusias untuk menggunakan oss untuk fasilitas pembelajaran mereka
+fasilitas laboratorium sebaiknya ditingkatkan seperti halnya software dan hardwarenya sehingga kenyamanan mahasiswa belajar dapat ditingkatkan
+aspek penelitian lanjutan yang menggunakan oss untuk mahasiswa diwilayah lingkungan universitas indraprasta, maka disarankan bagi penelitian selanjutnya dapat lebih luas ke wilayah universitas indraprasta yang lainnya
+pada penelitian selanjutnya diharapkan untuk membuat sebuah model lain seperti analisa sub- group model moderating seperti cara penerimaan oss berdasarkan pengalaman

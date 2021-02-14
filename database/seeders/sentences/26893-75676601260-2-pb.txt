@@ -1,0 +1,73 @@
+antara lapisan perangkat keras dan lapisan perangkat lunak lainya dalam sistem
+kernel berisi sejumlah besar driver perangkat yang membuat antarmuka ke perangkat keras sekelilingnya mudah dipahami
+libraries di atas kernel linux ada seperangkat libraries c / c ++ asli android
+libraries khusus untuk perangkat keras tertentu
+sebagai contoh, media framework library memandu pemutaran dan perekaman berbagai gambar, video dan format audio
+beberapa libraries inti lainya termasuk surface manager, sqlite, webkit, dan opengl
+android runtime android runtime termasuk set libraries java inti
+programmer aplikasi menggunakan bahasa pemrograman java untuk mengembangkan aplikasi
+ini termasuk mesin virtual dalvik dan perpustakaan java core
+ dalvik virtual machine : virtual machine berjalan seolah-olah itu adalah perangkat independen yang memiliki sistem operasinya sendiri
+ini memungkinkan banyak contoh mesin virtual untuk dijalankan secara bersamaan menyediakan isolasi, keamanan, manajemen memori
+setiap aplikasi berjalan sebagai prosesnya sendiri didalam mesin virtual sehingga tidak ada aplikasi lain yang bergantung padanya dan jika terjadi crash aplikasi, itu tidak akan mempengaruhi aplikasi lain yang berjalan pada perangkat
+ core java libraries : sebagian besar fungsi yang didefinisikan dalam libraries java se, termasuk tugas- tugas seperti penanganan string, jaringan dan manipulasi file disediakan oleh libraries ini
+application framework application framework mengelola fungsi smartphone seperti manajemen sumber daya, manajemen panggilan suara
+aplikasi dari lapisan atas berinteraksi dengan lapisan application framework
+beberapa blok penting dari application framework adalah aktivitas manajer, penyedia konten, manajer lokasi dan manajer sumber daya
+applications application adalah lapisan paling atas dari arsitektur android
+pengguna rata-rata kebanyakan berinteraksi dengan lapisan ini untuk melakukan fungsi dasar seperti membuat panggilan telepon, mengakses browser
+exploit sebagai terjadi pada layer application yang memungkinkan penyerang untuk mengeksekusi kode ddan menyediakan akses yang tidak diauntetikasi ke beberapa sumber yang dilindungi
+proses exploit perangkat android untuk dijadikan target percobaan dengan informasi sistem operasi android sebagai berikut :  android versi 7.1.2 nougat
+menggunakan tool yang terpasang pada sistem operasi kali linux rolling versi 2018.2 yaitu metasploit
+langkah-langkah untuk melakukan percobaan menjalankan exploit
+berikut adalah representasi perintah yang ada pada tahap konfigurasi sebuah payload
+perintah yang dituliskan pada terminal berupa shell script shell script menyederhanakan proses pembuatan payload ke file apk android
+kode ini juga mendefinisikan tipe payload yang dimiliki oleh aplikasi backdoor
+pada percobaan ini penulis menggunakan metode reverse_tcp dimana metode ini adalah jenis shell reverse meterpreter, reverse shell dapat melewati firewall, karena korban yang akan membuat sambungan kembali ke penyerang, sehingga pada metode listener pada mesin penyerang akan menuggu koneksi masuk, berikut skema perbedaan meotde reverse_tcp dengan bind_tcp : berikut adalah gambar 4 shell.apk yang telah dibuat dengan mengeksekusi perintah pada gambar 3 dengan melalui proses yang terjadi dibelakang layar
+dimana file ini yang akan dikirim ke perangkat android target untuk dipasang
+selanjutnya adalah melakukan instalasi payload pada perangkat android yang dijadikan target, tahap ini penulis melakukan instalasi payload di android yang sebelumnya telah dijelaskan mengenai informasi android tersebut, setelah proses instalasi selesai tahap berikutnya adalah konfigurasi listener agar tercipta meterpreter sessions
+berikut langkah konfigurasi listener:  buka konsol metasploit dengan eksekusi perintah msfconsole
+ setelah menu msfconsole terbuka, eksekusi perintah use multi/handler yang berfungsi penyerang dapat menentukan jenis payload dan mengatur lhost serta lport untuk membuat listener
+ set payload android/meterpreter/reverse_tcp perintah ini berfungsi mengatur jenis payload
+ set lhos <alamat ip penyerang> perintah ini berfungsi mengatur alamat ip yang akan digunakan sebagai host
+ set lport <nomor port penyerang> perintah ini berfungsi mengatur nomor port yang digunakan sebagai jalur masuk koneksi
+ exploit perintah ini memulai eksploitasi dengan membuat koneksi antara android target dan penyerang pada mesin listener
+terpasang pada android dibuka oleh korban itu menciptakan meterpreter sessions yang memungkinkan penyerang menjalankan kode eksploitasi
+dalam percobaannya untuk menguji apakah serangan exploit telah berhasil dan dapat berjalan, penulis mengeksekusi beberapa perintah untuk melakukan ujicoba keberhasilan serangan, berikut perintah yang penulis eksekusi pada saat meterpreter sessions tercipta :  sysinfo perintah ini berfungsi untuk mengetahui informasi sistem android target hasilnya : gambar.6 hasil eksekusi perintah sysinfo hasil dari perintah sysinfo adalah sebuah android dengan informasi versi os android 7.1.2 linux 3.4.0 dimana diketahui informasi android yang dijadikan target mempunyai informasi sama, yang dapat dipastikan bahwa serangan exploit sudah berhasil dijalankan
+untuk mengetahui perintah-perintah yang ada pada metasploit kita dapat mengeksekusi perintah help di konsol meterpreter dengan begitu akan muncul kumpulan perintah yang mempunyai fungsi berbeda untuk melakukan eksploitasi lanjut ke perangkat android
+perhitungan waktu penulis selanjutnya melakukan percobaan perhitungan waktu pada setiap ujicoba konfigurasi payload exploit disatu jaringan dan exploit dibeda jaringan, penulis juga akan menjelaskan bagaimana cara mendapatkan lamanya waktu yang dibutuhkan
+angkat tersebut didapatkan dari perhitungan rumus dimana variable akhir adalah waktu dimana script ini selesai menjalankan setiap konfigurasi payload dalam satuan waktu milliseconds sedangkan variable mulai adalah waktu dimana script ini berjalan mengeksekusi baris pertama perintah pada script dalam satuan waktu milliseconds sehingga dari perhitungan ini diketahui hasil waktu lama konfigurasi payload
+gambar.7 perhitungan waktu konfigurasi payload vii
+payload sering digunakan pada skenario eksploitasi karena serangan jenis exploit dapat menghasilkan ruang untuk shellcode dapat tersimpan
+baris pertama perintah shellcode yang dapat membuat koneksi baru kembali ke mesin penyerang dan membaca sebuah payload yang lebih besar kedalam memori
+dalam istilah metasploit, payload ini disebut reverse_tcp dan tahap kedua merupakan perintah shell standar seperti shell meterpreter
+perintah ini berjalan dengan fungsi meminta metasploit untuk menyiapkan payload yang dipecah menjadi dua tahap, ditahap pertama memberi kita sebuah meterpreter sessions dan tahap kedua memberi kita alamat memori untuk mengeksekusi payload selanjutnya
+pada gambar 8 adalah sebuah representasi dari dua mesin, penyerang dan target pada mesin pertama berjalan sebuah metasploit dengan modul multi/handler yang telah dikonfigurasi oleh stage0 diatur menggunakan reverse_tcp dengan port 4646
+dan mesin kedua yaitu android menjalankan servis drm pada port 53554
+ketika payload dieksekusi, metasploit membuat listener pada port yang ditentukan, kemudian membuat koneksi seperti ditunjukkan pada gambar 9 ke servis drm android
+dibelakang layar ketika servis drm target menerima sebuah koneksi, sebuah fungsi pada metasploit dipanggil, dimana fungsi tersebut berisikan stack buffer yang akan dikirim ke perangkat target ditunjukkan pada gambar 10 yang lebih besar dari yang diperkirakan target data ini berisikan stage0 dan exploit- specific code, yang nantinya data ini akan membuat memori buffer target menjadi overflow
+fungsi dari exploit-specific code yang dikirim yaitu memungkinkan penyerang untuk mendapatkan kontrol atas binder
+binder adalah mekanisme komunikasi antar proses dimana pada ipc terdapat bug dalam validasi masukan ipc memungkinkan penyerang mengeksekusi kode dengan izin lebih tinggi dari aplikasi yang tidak berhak
+dan pada gambar 9 tahap ini sebuah exploit-specific code mengalihkan proses eksekusi ke shellcode 
+inilah yang terjadi ketika kita melihat pesan pada msfconsole
+perangkat target, shellcode menulis ke dalam memori
+kontrol dengan melompat ke lokasi dimana payload ditulis
+dalam kasus ini shell.apk mempunyai kumpulan shellcode yang terlihat mirip dengan header android yang valid, dimana shell.apk tidak akan terdeteksi sebagai apk yang mencurigakan oleh sistem android, ketikan dijalankan shell.apk dipetakan ulang dan memuat shell.apk ke dalam memori sedemikian rupa sehingga memungkinkanya berfungsi dengan benar sebagai sebuah file apk normal tanpa menuliskan ke disk atau mendaftarkan dengan proses host
+pada gambar 13 tahap ini sebuah meterprer siap menerima command shell pada konsol metepreter
+kesimpulan bahwa karakteristik serangan exploit memanfaatkan dua bug yang terdapat pada sistem operasi android, yaitu pada penyimpanan memori fisik dan servis binder yang berjalan pada drm memungkinkan aplikasi mengelola konten yang dilindungi hak sesuai dengan batasan lisensi yang terkait dengan konten
+berikut ini temuan yang didapatkan dari teknik reverse tcp pada perangkat android: a
+bug pada memori android buffer overflow adalah bug dalam program yang dapat menyebabkan kerentanan keamanan
+buffer adalah bagian dari penyimpanan memori fisik yang sementara digunakan untuk menyimpan data
+buffer overflow terjadi ketika sebuah program atau proses mencoba untuk menulis atau membaca lebih banyak dari buffer yang dapat disimpan
+memberikan akses penyerang ke berbagai bagian memori internal dan pada akhirnya mengontrol pelaksaan aplikasi
+hubungan dalam percobaan ini saat mesin penyerang mengirim fungsi exploit-specific code ke stack buffer target, yang mempunyai ukuran lebih besar dari yang disediakan target, sehingga menyebabkan terjadi buffer overflow dan fungsi exploit-specific code mempunyai akses ke berbagai bagian memori internal dan akses mengontrol pelaksanaan program
+bug android binder model keamanan yang sangat umum digunakan dalam banyak sistem operasi berada dilingkup ipc 
+bug pada validasi masukan ipc memungkinkan penyerang mengeksekusi kode dengan izin lebih tinggi dari aplikasi yang tidak berhak
+binder memiliki banyak fitur yang memungkinkan proses untuk mentransfer objek yang kompleks antara satu sama lain
+dan bug pada binder ini yang dimanfaatkan oleh serangan exploit
+untuk mendapatkan izin akses setiap servis yang ada pada android untuk dijalankan
+reverse_tcp serangan exploit pada percobaan ini menggunakan metode reverse_tcp yaitu metode penyerang memberikan perintah kepada korban, untuk melakukan koneksi masuk ke mesin listener penyerang
+payload malakukan koneksi pada mesin listener melalui port yang telah ditentukan
+exploit android serangan exploit masih dapat berjalan pada perangkat android 7.1.2 yaitu android nougat
+berikut adalah skema serangan exploit berdasarkan kesimpulan dari percobaan yang sudah dilakukan penulis : gambar.14 skema serangan exploit gambaran pada arsitektur android : aplikasi mainactivity mendapat verifikasi dari servis dalvik/art dengan memanfaatkan bug memori overflow
+setelah terverifikasi aplikasi mainactivity dapat memodifikasi servis binder pada android, dimana mainactivity mendapatkan akses permissions sebuah aplikasi

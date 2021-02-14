@@ -1,0 +1,14 @@
+gizi sangat dibutuhkan bagi tubuh manusia, terutama pada usia balita dan anak-anak, nilai gizi yang seimbang sangat baik dalam proses tumbuh kembang anak, meningkatkan kemampuan belajar yang baik, serta memberikan dampak positif untuk perkembangannya di masa depan
+permasalahan saat ini pada desa sukamantri masih kurangnya pengetahuan dasar orang tua dan para kader posyandu mengenai nilai gizi seimbang bagi balita, ditemukan balita yang kurang gizi serta obesitas belum adanya pengelompokkan data berdasarkan karakteristik nilai gisi balita
+pengklasteran merupakan metode yang cukup popular dan paling sering digunakan dalam pengolahan data pencitraan medis, biometrik dan bidang yang terkait karena kesederhanaannya serta efektif dalam mengelompokan data dengan ukuran besar berdasarkan kecepatan pemrosesan dengan menempatkan objek-objek ke dalam kelas-kelas yang memiliki kemiripan
+dalam penelitian ini akan di kelompokan atau klasterisasi nilai gizi balita dengan acuan parameter tinggi badan balita dan berat badan balita menggunakan algoritma k-means clustering menjadi beberapa kategori yaitu obesitas, gizi lebih, gizi baik, gizi kurang dan gizi buruk
+dengan klasterisasi menggunakan algoritma k-means dapat mengklasifikasi nilai gizi balita secara umum agar dapat digunakan sebagai landasan pencegahan dini bagi para kader posyandu menanggulangi gizi buruk serta obesitas
+berdasarkan hasil penelitian ditemukan masih terdapat 30% balita obesitas dan 11% kekurangan gizi, untuk itu perlu adanya penanganan dan perhatian dari kader posyandu dan puskesmas terkait kepada orang tua balita tersebut
+pendahuluan perhatian yang sangat utama bagi para orang tua, terutama dalam hal gizi seimbang
+saat ini di indonesia sendiri masih menghadapi masalah gizi ganda, yaitu kekurangan dan kelebihan gizi
+menurut riset kesehatan dasar kementrian kesehatan pada tahun 2013 mengungkapkan 1 dari 3 anak tergolong pendek akibat kekurangan gizi menahun sehingga berisiko mengalami gangguan pertumbuhan dan perkembangan
+di sisi lain, prevalensi kelebihan gizi juga meningkat
+indonesia masuk kedalam 17 negara yang memiliki 3 permasalahan gizi sekaligus, yaitu stunting, wasting, dan juga overweight 
+berdasarkan data riset kesehatan dasar disebutkan bahwa jumlah balita yang mengalami gangguan obesitas menurut bb/tb pada anak usia 0-59 bulan sebesar 11, 8% sedangkan berdasarkan data survey pemantauan status gizi disebutkan bahwa jumlah balita yang mengalami gangguan obesitas menurut bb/tb usia 0-59 bulan sebesar 5, 3%
+obesitas dapat menjadi awal dari berbagai penyakit
+maka dari itu pemberian gizi yang berlebihan bagi balitapun tidak baik, penerapan gizi seimbanglah yang seharusnya diberikan dan dapat di kontrol oleh para orang tua

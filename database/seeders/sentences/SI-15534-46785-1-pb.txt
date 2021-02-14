@@ -1,0 +1,29 @@
+rogram studi teknik informatika universitas tanjungpura1, 2, 3 e-mail : 1h.rf354@gmail.com, 2stmkom@gmail.com, 3irwansyah.azhar@gmail.com sebuah alat bantu yang dapat meningkatkan kinerja dalam mengolah data bisnis properti
+pengolahan data dapat dilakukan secara digital sehingga data properti dan data pelanggan menjadi terstruktur dan sistematis
+saat ini, sig dijadikan sebagai alat yang digunakan untuk pemetaan dan analisis terhadap banyak aktivitas di permukaan bumi
+salah satu aktivitas yang dapat direpresentasikan dengan sig adalah pemetaan bangunan dan lahan
+tujuan dari penelitian ini adalah merancang dan membangun sebuah aplikasi database properti menggunakan openstreetmap indonesia pada peta openstreetmap
+pengguna dapat memasukan data bangunan, tanah, prospek, pemilik ke dalam database
+berdasarkan hasil pengujian menunjukan bahwa aplikasi dapat mengambil koordinat lokasi tanah dan bangunan
+hasil input data kordinat dapat ditampilkan pada peta
+teknologi informasi memungkinkan analisis data menjadi lebih cepat, pembuatan keputusan menjadi lebih baik, penghematan waktu, akses data-data menjadi lebih cepat, informasi menjadi akurat, beberapa pekerjaan bisa dikerjakan oleh individu yang sama, meningkatkan efisiensi dan operasi, memperpendek jalur komunikasi dan kemampuan melakukan evaluasi alternatif
+saat ini, sig dijadikan sebagai alat yang digunakan untuk pemetaan dan analisis terhadap banyak aktivitas di permukaan bumi
+salah satu aktivitas yang dapat direpresentasikan dengan sig adalah pemetaan bangunan dan lahan
+peningkatan yang sangat pesat, sehingga dalam pelaksanaannya dirasa perlu adanya sebuah alat bantu yang dapat meningkatkan kinerja dalam mengolah data bisnis properti
+pengolahan data dapat dilakukan secara digital sehingga data properti dan data pelanggan menjadi terstruktur dan sistematis
+berdasarkan latar belakang, muncul permasalahan yaitu bagaimana merancang dan membangun sebuah aplikasi database properti menggunakan openstreetmap indonesia berbasis ii
+kondisi umum wilayah studi kota pontianak adalah sebuah ibu kota dari provinsi kalimantan barat
+memiliki luas wilayah 107, 82km2 dengan batas wilayah : 1) sebelah utara kecamatan sungai ambawang 2) sebelah timur kecamatan sungai raya dan sungai ambawang 3) sebelah selatan kecamatan sungai raya dan keccamatan sungai kakap 4) sebelah barat kecamatan sungai kakap
+sistem informasi geografis sistem informasi geografis adalah merupakan suatu sistem berbasiskan komputer yang digunakan untuk menyimpan dan memanipulasi informasi-informasi menyimpan dan menganalisis objek-objek dan fenomena- fenomena dimana lokasi geografis merupakan karakteristik yang penting atau kritis untuk dianalisis
+dengan demikian, sig merupakan sistem komputer yang memiliki empat kemampuan berikut dalam menangani data yang bereferensi geografis yaitu masukan, keluaran, manajemen data serta analisis dan manipulasi data
+peta digital peta digital adalah representasi fenomena geografik yang disimpan untuk ditampilkan dan dianalisis oleh komputer digital setiap objek pada peta digital disimpan sebagai sebuah atau sekumpulan koordinat
+sebagai contoh, objek berupa lokasi sebuah titik akan disimpan sebagai sebuah koordinat, sedangkan objek berupa wilayah akan disimpan sebagai sekumpulan koordinat
+beberapa kelebihan penggunaan peta digital dibandingkan dengan peta analog (yang disimpan dalam hal: 1
+tidak seperti kertas yang dapat terlipat, memuai atau sobek ketika disimpan, peta digital dapat dikembalikan ke bentuk asalnya kapanpun tanpa ada penurunan kualitas
+peta digital mudah disimpan dan dipindahkan dari satu media penyimpanan yang lain
+peta analog yang disimpan dalam bentuk gulungan-gulungan kertas, misalnya memerlukan ruangan yang lebih besar dibanding dengan jika peta tersebut disimpan sebagai peta digital dalam sebuah smart phone
+atau perubahan sistem koordinat misalnya, dapat lebih mudah dilakukan menggunakan perangkat lunak tertentu
+web untuk membuat peta seluruh dunia yang gratis dan terbuka, dibangun sepenuhnya oleh sukarelawan dengan melakukan survey menggunakan gps, mendigitasi citra satelit, dan mengumpulan serta membebaskan data geografis yang tersedia di publik
+phonegap phonegap awalnya di kembangkan oleh nitobi, yang kemudian dibeli oleh adobe
+sebelum dibeli, mereka disumbangkan basis kode phonegap untuk apache software foundation
+phonegap adalah sebuah kerangka kerja yang memungkinkan pengembang aplikasi untuk membangun aplikasi untuk android, iphone, blackberry dan javascript

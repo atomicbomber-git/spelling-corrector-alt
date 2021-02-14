@@ -1,0 +1,106 @@
+jaringan internet yang ada pada prodi teknik informatika sudah dimanajemen dengan baik, namun ada beberapa hal yang belum diperhatikan dan diimplementasikan, yaitu manajemen sistem monitoring keamanan jaringan terhadap gangguan atau serangan secara realtime
+hal ini mengakibatkan sistem jaringan pada prodi teknik informatika rentan dan berbahaya terhadap serangan
+selain itu apabila terjadi serangan pada jaringan prodi teknik informatika, administrator jaringan belum bisa mengetahui dengan pasti apa yang sedang terjadi, sehingga membutuhkan waktu yang cukup lama untuk diatasi
+penyusupan, penyerangan, pemindaian dan beragam bentuk ancaman lainnya yang diatur pada rule-rule di dalam snort
+penelitian ini bertujuan memonitoring keamanan jaringan prodi teknik informatika secara realtime menggunakan snort dan memberikan notifikasi melalui sms gateway saat mendeteksi adanya intrusi-intrusi jaringan sehingga dapat langsung diatasi
+metode yang digunakan adalah menggunakan snort
+berdasarkan penelitian yang telah dilakukan, implementasi dan pengujian yang telah dilakukan disimpulkan sebagai berikut: snort yang diterapkan telah berhasil dibangun dengan baik, yaitu dimana snort dapat bekerja dengan efektif sesuai dengan rules yang dibuat untuk mendeteksi sebuah serangan atau penyusup pada jaringan prodi teknik informatika dan dapat ditampilkan pada base, sistem keamanan yang dibangun adalah mendeteksi serangan-serangan yang masuk pada jaringan dengan melakukan decode oleh snort decoder terhadap sejumlah source dan lalu-lintas yang masuk pada jaringan, sehingga seluruh paket yang masuk kedalam jaringan akan dibandingkan oleh detection engine apakah sesuai dengan rules atau tidak
+apabila sesuai dengan rules maka akan memberikan informasi berupa sms alert kepada administrator jaringan bahwa telah terjadi serangan, jika tidak sesuai dengan rules maka paket dapat diteruskan masuk kedalam jaringan, informasi mengenai serangan yang terjadi pada jaringan dapat diketahui oleh administrator secara realtime melalui sms gateway setiap 1 menit sekali, snort yang dibangun telah berhasil mendeteksi pola serangan ping attack, dos/ddos attack, port scanning, jumlah serangan yang terdeteksi oleh snort yaitu pada protokol icmp berjumlah 567, udp berjumlah 9.817 dan tcp berjumlah 339.109 
+studi teknik informatika universitas tanjungpura i
+pendahuluan mencegah dan memonitoring penggunaan jaringan yang tidak sah dari jaringan komputer
+tujuannya yaitu untuk mengantisipasi resiko jaringan komputer berupa bentuk ancaman fisik maupun logic baik langsung ataupun tidak langsung mengganggu aktivitas yang sedang berlangsung dalam jaringan komputer
+software ini menggunakan sistem peraturan-peraturan yang dapat dibuat sesuai kebutuhah untuk melakukan deteksi dan pencatatan terhadap berbagai macam serangan pada jaringan komputer
+selain itu snort juga memiliki beberapa mode yang dapat digunakan untuk mengamankan suatu jaringan seperti sniffer mode, packet logger mode, nids mode dan inline mode
+sistem keamanan firewall tidaklah cukup untuk meminimalkan terjadinya serangan terhadap suatu jaringan komputer
+banyak serangan yang terjadi pada jaringan komputer dapat diketahui setelah adanya kejadian-kejadian yang aneh pada jaringan
+para administrator jaringan tidak bisa mengetahui dengan pasti apa yang sedang terjadi, sehingga dibutuhkan waktu yang cukup lama untuk diatasi
+prodi teknik informatika universitas tanjungpura telah mengimplementasikan jaringan internet yang dapat digunakan untuk menunjang kegiatan perkuliahan, namun ada beberapa hal yang belum diperhatikan dan diimplementasikan, yaitu manajemen sistem keamanan jaringan terhadap gangguan atau serangan
+hal ini mengakibatkan sistem jaringan pada prodi teknik informatika sangat rentan terhadap serangan dan sangat berbahaya apabila ada pihak-pihak yang tidak bertanggung jawab masuk kedalam sistem jaringan untuk merusak jaringan tersebut
+teknik informatika yang dapat digunakan untuk memonitoring aktivitas sebuah server secara realtime dengan menggunakan snort dan mengirimkan notifikasi serangan yang terekam pada snort melalui sms gateway pada handphone administrator jaringan
+hal ini dilakukan karena apabila ada serangan yang membahayakan masuk kedalam jaringan, maka administrator dapat langsung menerima pemberitahuan bahwa telah terjadi serangan pada jaringan, sehingga bisa langsung memutuskan untuk mengambil tindakan, seperti dengan remote server melalui laptop atau dengan restart atau shutdown server untuk mencegah penyerangan yang berakibat lebih buruk terhadap kondisi kestabilan dan keamanan jaringan
+jaringan komputer bahasan dalam bidang telekomunikasi, ilmu komputer, teknologi informasi, dan teknik komputer
+sifat dari jaringan komputer adalah memungkinkan adanya transfer data antar komputer atau perangkat yang terhubung di dalamnya
+contoh jaringan yang lazim digunakan adalah lan, wan, wireless lan dan wan 
+sebuah jaringan komputer dihubungkan menggunakan berbagai medium, seperti kabel twisted pair, kabel tembaga, kabel koaksial, kabel serat optik, dan berbagai macam teknologi wireless
+penyusupan, penyerangan, pemindaian, dan beragam bentuk ancaman lainnya
+snort berfungsi untuk mendeteksi intrusi-intrusi jaringan, sekaligus juga melakukan pencegahan
+dalam praktiknya, snort sangat andal untuk membentuk logging paket-paket dan analisis trafik-trafik secara real-time dalam jaringan berbasis tcp/ip
+snort bukanlah sebatas protokol analisis atau sistem pendeteksi penyusupan ids, melainkan sedikit gabungan dari keduanya, dan bisa sangat berguna dalam merespons insiden-insiden penyerangan terhadap host-host jaringan
+memperingatkan kita atas even-even yang berpeluang bahaya
+hal ini karena snort bisa melakukan capture sesi-sesi dasar jaringan dan memberikan fungsi analisis
+snort dapat dikonfigurasikan untuk berjalan pada mode- mode berikut ini: memperlihatkan pada kita dalam bentuk aliran tak terputus pada konsol 
+nids mode yang membuat snort bisa menganalisis arus jaringan untuk dibandingkan dengan rangkaian ruleset yang dibuat oleh user, sekaligus melakukan beberapa tindakan berdasarkan hal yang diamatinya
+dan menginstruksikan iptables untuk menolak atau meneruskan paket tersebut berdasarkan jenis rule dari snort yang digunakan
+sederhana, ringan, fleksibel dan cukup kuat
+rule-rule snort tidak lain adalah aturan-aturan atau kondisi- kondisi yang dibuat oleh administrator jaringan yang bertujuan mengklarifikasikan aktivitas-aktivitas diinginkan
+alert, log, pass, activate, dynamic dan lain- lain, termasuk diantara aksi-aksi penting yang digunakan dalam desain rue-rule snort
+lamp adalah sebuah bundle software untuk webserver yang terdiri dari linux, apache httpd server, mysql, serta php/python/perl
+paket yang terdapat pada lamp dapat bervariasi, sehingga compiler php dapat juga diintegrasikan dengan python atau perl sesuai dengan kebutuhan
+barnyard2 alert unified dan log dari snort
+barnyard dapat meningkatkan efisiensi snort dengan cara mengurangi beban pada sensor deteksi
+barnyard2 bekerja dengan membaca snort’s unified logging output files dan memasukkannya ke dalam database
+jika database tidak tersedia maka barnyard2 akan memasukkan semua data ketika database tersedia kembali sehingga tidak ada alert atau log yang hilang
+base base adalah sebuah interface web untuk melakukan analisis dari intrusi yang snort telah deteksi pada jaringan
+base ditulis oleh kevin johnson adalah program analisis sitem jaringan berbasis php yang mencari dan memproses database dari security event yang dihasilkan oleh berbagai program monitoring jaringan, firewall, atau sensor ids
+sms gateway menggunakan bantuan komputer dan memanfaatkan teknologi seluler yang diintegrasikan guna mendistribusikan pesan-pesan sistem informasi melalui media sms
+sms gateway dapat menyebarkan pesan ke ratusan nomor secara otomatis dan cepat yang langsung terhubung dengan database nomor-nomor ponsel saja tanpa harus mengetik ratusan nomor dan pesan di ponsel karena semua nomor akan diambil secara otomatis dari database tersebut
+selain itu, dengan adanya sms gateway dapat mengustomisasi pesan-pesan yang ingin dikirim
+interaktif dua arah, sms info on demand, sms service setting, sms automatic registration, poling sms, pengiriman sms broadcast, pengiriman sms ke call group, pengiriman sms terjadwal, personalisasi sms, antarmuka aplikasi berbasis web, buku alamat dan call group, manajemen pengguna, sistem security access, serta sistem parameter
+gammu membangun aplikasi, script dan drivers yang dapat digunakan untuk semua fungsi yang memungkinkan pada telepon seluler atau alat sejenisnya
+gammu telah menyediakan codebase yang stabil dan mapan untuk berbagai macam model telepon yang tersedia dipasaran dibandingkan dengan projek sejenis
+ids ids adalah sebuah sistem yang melakukan pengawasan terhadap traffic jaringan dan pengawasan terhadap kegiatan- kegiatan yang mencurigakan didalam sebuah sistem jaringan
+jika ditemukan kegiatan-kegiatan yang mencurigakan berhubungan dengan traffic jaringan maka ids akan memberikan peringatan kepada sistem atau administrator jaringan
+nids data yang terdapat pada jaringan tersebut serta melakukan analisa dan menentukan apakah paket-paket tersebut merupakan paket normal atau paket serangan
+hids hids hanya melakukan pemantauan pada perangkat komputer tertentu dalam jaringan
+hids biasanya akan memantau kejadian seperti kesalahan login berkali-kali dan melakukan pengecekan pada file
+keamanan jaringan adalah proses untuk mencegah dan mengidentifikasi penggunaan yang tidak sah dari jaringan komputer
+langkah-langkah pencegahan membantu jaringan komputer sendiri bertujuan untuk mengantisipasi resiko pada jaringan komputer berupa bentuk ancaman fisik maupun logic baik langsung ataupun tidak langsung mengganggu aktivitas yang sedang berlangsung dalam jaringan komputer
+metodologi penelitian pada diagram alir penelitian pada gambar 1 berikut
+pengumpulan data pengguna, analisis jaringan, analisis fungsional dan proses kerja snort
+untuk meletakkan posisi snort yang terhubung ke routerboard pada jaringan yang sudah ada
+snort yang dirancang adalah sebagai server yang terhubung pada routerboard utama melalui switch pada laboratorium jaringan komputer
+pembuatan sistem instalasi paket pedukung snort, konfigurasi daq, konfigurasi snort, konfigurasi rules snort, konfigurasi database snort, konfigurasi barnyard2, konfigurasi adodb, konfigurasi base, konfigurasi phpmyadmin, konfigurasi gammu, konfigurasi kalkun, konfigurasi sms alert dan konfigurasi statistik serangan
+pengujian sistem telah dikonfigurasi dapat berjalan sesuai perancangan
+beberapa sistem diantaranya adalah, base, gammu menggunakan kalkun dan snort
+dengan cara melakukan serangan terhadap komputer server snort yang ada pada lab jaringan komputer prodi teknik informatika dengan menggunakan 
+ping attack yaitu penyerangan yang dilakukan menggunakan perintah ping yang dianggap sebagai serangan karena dapat dipergunakan oleh penyerang atau penyusup untuk mendapatkan informasi mengenai mesin target, memastikan apakah host target dalam keadaan aktif atau tidak
+dos/ddos attack yaitu penyerangan yang dilakukan dengan cara menyerang server dengan cara menghabiskan resource yang menyebabkan komputer server tidak dapat menjalankan fungsinya dengan baik
+port scanning yaitu penyerangan yang dilakukan untuk memperoleh informasi berupa port-port yang terbuka pada server, sistem operasi dan versi sistem operasi dari server
+setelah melakukan penyerangan maka snort akan menangkap semua serangan yang masuk dan menampilkan data-data serangan pada base
+setelah itu, snort akan mengirimkan pemberitahuan apabila terjadi serangan melalui sms gateway pada handphone administrator jaringan setiap 1 menit sekali
+data hasil penyerangan secara keseluruhan akan ditampilkan pada statistik serangan untuk mengetahui jumlah serangan dan jenis serangan apa yang ditangkap oleh snort yang melalui protokol icmp, udp atau tcp 
+untuk lebih jelasnya pengembangan arsitektur jaringan dapat dilihat pada gambar 2 berikut
+implementasi snort menggunakan beberapa komponen utama, yaitu : daq, snort, rules, database, barnyard2, base dan gammu 
+snort yang dibangun menggunakan sistem operasi berbasis open source yaitu linux ubuntu 14.04 lts
+dengan menggunakan command prompt proses penyerangan yang dilakukan adalah dengan melakukan ping sebanyak 5 kali oleh komputer client yang memiliki ip address 192.168.20.85 ke server snort yang memiliki ip address 192.168.60.3/24 pada pukul 18:39 tanggal 11/10/2015
+berikut ini tampilan proses penyerangan menggunakan yang dijelaskan pada gambar 3 berikut
+gambar 3 ping dari komputer penyerang ke komputer server snort dari hasil penyerangan, aktifitas yang dapat ditangkap oleh snort adalah berhasil mendeteksi 10 alert, sumber paket berasal dari ip address 192.168.60.1 menuju ip address 192.168.60.3, waktu penyerangan pukul 18:40:00 tanggal 11/10/2015 dan memberikan notifikasi 
+protokol yang ditangkap merupakan data yang melalui protokol icmp
+berikut ini hasil yang dideteksi oleh mesin sensor snort yang dijelaskan pada gambar 4 berikut
+gambar 4 tampilan monitoring serangan ping attack setelah serangan dideteksi oleh mesin sensor snort, maka snort akan menampilkan pemberitahuan berupa alert yang diterima oleh handphone administrator jaringan pada pukul 18:41 sebagai peringatan bahwa telah terjadi penyerangan yang ditampilkan menggunakan sms gateway
+berikut ini alert yang ditampilkan pada handphone administrator jaringan ketika terjadi serangan yang dijelaskan pada gambar 5 berikut
+pengujian menggunakan dos/ddos attack pengujian dilakukan menggunakan aplikasi loic-1.0.8.0 dengan memasukkan ip address server snort 192.168.60.3 pada kolom ip, kemudian isi kolom port 80, method udp dan thread 10
+setelah semua terisi kemudian klik button imma chargin mah lazer
+penyerangan yang dilakukan adalah dengan request paket sebanyak 46 oleh komputer client yang memiliki ip address 192.168.20.85
+berikut ini tampilan proses penyerangan dos/ddos attack dijelaskan pada gambar 6 berikut
+protokol yang ditangkap merupakan data yang melalui protokol udp
+gambar 7 tampilan monitoring serangan dos/ddos attack snort akan menampilkan pemberitahuan berupa alert yang diterima oleh handphone administrator jaringan pada pukul 19:33 sebagai peringatan bahwa telah terjadi penyerangan yang ditampilkan menggunakan sms gateway
+berikut ini alert yang ditampilkan pada handphone administrator jaringan ketika terjadi serangan yang dijelaskan pada gambar 8 berikut
+gambar 8 tampilan sms alert dos/ddos attack e
+pengujian menggunakan port scanning pengujian dilakukan dengan cara melakukan penyerangan oleh komputer client yang memiliki ip address 192.168.20.47 dengan cara scanning port server snort dengan memasukkan ip address mesin snort yaitu 192.168.60.3 pada kolom target, dan memilih intense scan, all tcp ports pada profile yang ada pada aplikasi zenmap
+setelah itu klik button scan untuk memulai penyerangan
+berikut ini tampilan proses penyerangan port scanning yang dijelaskan pada gambar 9 berikut
+snort oleh snort adalah berhasil mendeteksi 97 alert, sumber paket berasal dari ip address 192.168.60.1 menuju ip address 192.168.60.3, waktu penyerangan pukul 09:34:01 tanggal 08/10/2015 dan memberikan notifikasi 
+protokol yang ditangkap merupakan data yang melalui protokol tcp
+berikut ini hasil yang dideteksi oleh mesin sensor snort yang dijelaskan pada gambar 10 berikut
+gambar 10 tampilan monitoring serangan port scanning setelah serangan dideteksi oleh mesin sensor snort, maka snort akan menampilkan pemberitahuan berupa alert yang diterima oleh handphone administrator jaringan pada pukul 09:35 sebagai peringatan bahwa telah terjadi penyerangan yang ditampilkan menggunakan sms gateway
+berikut ini alert yang ditampilkan pada handphone administrator jaringan ketika terjadi serangan yang dijelaskan pada gambar 11 berikut
+monitoring menggunakan statistik serangan statistik serangan dilakukan sebagai upaya untuk melakukan monitoring terhadap serangan-serangan yang telah ditangkap oleh snort
+monitoring ini berfungsi untuk menampilkan jenis serangan dan jumlah serangan, serta menampilkan jumlah serangan setiap hari mulai dari tanggal 1 oktober 2015 sampai 31 oktober 2015 yang dijelaskan pada statistik serangan pada gambar 12 berikut
+gambar 12 statistik serangan pengujian yang telah dilakukan, maka dapat diambil kesimpulan sebagai berikut: 1
+snort yang diterapkan telah berhasil dibangun dengan baik, yaitu dimana snort dapat bekerja dengan efektif sesuai dengan rules yang dibuat untuk mendeteksi sebuah serangan atau penyusup pada jaringan informatika dan dapat ditampilkan pada base
+sistem keamanan yang dibangun adalah mendeteksi serangan-serangan yang masuk pada jaringan dengan melakukan decode oleh snort decoder terhadap sejumlah source dan lalu-lintas yang masuk pada jaringan, sehingga seluruh paket yang masuk kedalam jaringan akan dibandingkan oleh detection engine apakah sesuai dengan rules atau tidak
+apabila sesuai dengan rules maka akan memberikan informasi berupa sms alert kepada administrator jaringan bahwa telah terjadi serangan, jika tidak sesuai dengan rules maka paket dapat diteruskan masuk kedalam jaringan
+informasi mengenai serangan yang terjadi pada jaringan dapat diketahui oleh administrator secara realtime pada snort dan mengirimkan notifikasi apabila terjadi serangan melalui sms gateway setiap 1 menit sekali
+snort yang dibangun telah berhasil mendeteksi serangan ping attack, dos/ddos attack, port scanning
+jumlah serangan yang terdeteksi oleh snort yaitu pada protokol icmp berjumlah 567, udp berjumlah 9.817 dan tcp berjumlah 339.109 

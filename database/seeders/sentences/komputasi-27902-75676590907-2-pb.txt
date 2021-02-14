@@ -1,0 +1,112 @@
+ase based reasoning diagnosis gangguan pencernaan pada anak menggunakan metode similarity cosine coefficient shara shorea pratiwi #1, tursina jl
+dr hadari nawawi, pontianak 78124 1 shara.shorea@gmail.com 2 tursina@infromatika.untan.ac.id 3 helensastypratiwi@gmail.com kebiasaan anak yang suka memakan makanan yang kurang bersih atau sembarang dan memasukkan benda asing kedalam mulutnya
+gangguan pencernaan pada anak kadang tampak ringan seperti tidak ada gangguan bahkan orang tua seringkali menganggapnya sebagai sesuatu yang normal orang tua yang mempunyai peran utama dalam memperhatikan kesehatan anak terkadang kurang mengetahui jenis gejala maupun gangguan pencernaan yang diderita oleh anaknya
+sehingga diperlukan sistem yang dapat menghasilkan pengetahuan dan pengalaman seperti seorang dokter atau tenaga medis dalam mendiagnosis gangguan pencernaan tersebut
+sistem dengan implementasi case based reasoning metode cosine coefficient ini tentu akan mempermudah membantu masyarakat dalam mendiagnosis awal terhadap gangguan pencernaan pada anak serta solusinya
+proses penalaran berbasis kasus melalui 4 tahap yaitu retrieve pada tahapan retrieve menggunakan metode cosine coefficient untuk mencari nilai kemiripan, reuse, revise, dan retain 
+hasil keluaran dari sistem ini adalah jenis gangguan pencernaan pada anak beserta solusinya
+pengujian sistem dilakukan dengan dua cara, yaitu pengujian tahapan case based reasoning dan kesesuaian hasil diagnosis pakar dan hasil diagnosis sistem
+berdasarkan hasil pengujian yang di lakukan sistem dapat bekerja dengan baik dan sistem dapat mendiagnosis gangguan pencernaan pada anak
+pendahuluan dibandingkan penyakit lainnya yaitu 4620, 4 juta di dunia
+diare merupakan penyakit nomor 1 dalam 10 besar penyakit terbesar di indonesia
+di indonesia, diare merupakan salah satu penyebab kematian kedua terbesar pada balita
+di indonesia sekitar 162 ribu balita meninggal setiap tahun atau sekitar 460 balita setiap harinya
+anak usia sekolah dasar adalah anak yang berusia 6 sampai 12 tahun
+masa ini merupakan akhir masa kanak- kanak yang berlangsung dari usia 6 tahun sampai tibanya anak menjadi matang secara seksual, yaitu 13 tahun bagi perempuan dan 14 tahun bagi laki-laki
+karakteristik anak sekolah secara kebiasaan anak sering tidak sarapan dengan mengganti makanan yang mengandung kalori atau zat gizi yang rendah, anak-anak banyak menonton televisi dan menirunya
+kondisi ini mencerminkan kebiasaan makan jajan yang buruk yang berpengaruh terhadap status gizi
+diare atau susah buang air besar yang merupakan salah satu tanda awal terjadinya gangguan pencernaan
+gangguan pencernaan pada umumnya terjadi karena kebiasaan anak yang suka memakan makanan yang kurang bersih atau sembarang dan memasukkan benda asing kedalam mulutnya
+gangguan pencernaan pada anak kadang tampak ringan seperti tidak ada gangguan bahkan orang tua seringkali menganggapnya sebagai sesuatu yang normal orang tua yang mempunyai peran utama dalam memperhatikan kesehatan anak terkadang kurang mengetahui jenis gejala maupun gangguan pencernaan yang diderita oleh anaknya
+ketika anak mengalami gangguan pencernaan orang tua lebih mempercayakan kepada dokter atau pakar untuk membantu menangani serta memberikan solusi sehingga tidak jarang orang tua mendatangi puskesmas atau rumah sakit sehingga para orang tua akan mengeluarkan biaya yang tidak sedikit hanya untuk berkonsultasi dengan dokter atau pakar, padahal gejala gangguan pencernaan tersebut bisa diatasi sendiri atau harus ditangani secara medis
+korespondensi : shara shorea pratiwi diperlukan suatu sistem yang dapat menghasilkan pengetahuan dan pengalaman seperti seorang dokter atau tenaga medis dalam mendiagnosis gangguan pencernaan tersebut
+sehingga masyarakat khususnya orang tua bisa melakukan pencegahan agar penyakitnya tidak berkembang dan semakin parah
+sistem yang dibangun berdasarkan dari kasus-kasus gangguan pencernaan yang pernah ditangani oleh dokter atau tenaga medis
+data kasus tersebut berupa gejala gangguan pencernaan yang dialami oleh penderita
+untuk itu diperlukan metode pencarian kasus dengan kemampuan yang dapat mendeskripsikan masalah, mencari permasalahan/informasi yang mirip didalam bank kasus, menggunakan pertanyaan pertanyaan agar mendapatkan fokus permasalahan yang paling mirip, dapat memberikan solusi berdasarkan permasalahan yang paling mirip serta dapat beradaptasi terhadap kasus baru untuk menemukan solusi
+kemampuan yang seperti disebutkan tersebut merupakan ciri- ciri dari case based reasoning 
+untuk mendapatkan solusi maka kemiripan antara kasus baru dan kasus lama harus dihitung dengan menggunakan metode similaritas
+salah satu metode untuk menghitung similaritas ialah metode cosine coefficient
+metode cosine coefficient adalah metode untuk menghitung similaritas dua objek yang bersifat biner dengan membandingkan fitur yang match dengan banyaknya gejala atau fitur pada kasus yang diuji dan fitur pada kasus baru yang bernilai 1
+sistem yang akan dibangun berbasis web agar dapat diakses dengan mudah oleh siapa saja, perangkat dengan sistem operasi apa saja dan tanpa perlu melakukan penginstalan
+keberadaan sistem ini diharapkan dapat membantu masyarakat dalam mendiagnosis awal terhadap gangguan pencernaan pada anak dan memberikan saran serta solusi terhadap gangguan pencernaan tersebut
+penelitian ini berdasarkan kriteria yang di-input-kan pada sistem pembeli dapat memeriksa harga umum dari rumah sehingga harga yang ditawarkan tidak terlalu tinggi dan terlalu rendah
+penggunaan sistem diharapkan mampu mengurangi ketidaksesuaian harga yang ditawarkan pemilik rumah terhadap pencari rumah dengan cara membandingkan harga penawaran terhadap harga umum dalam sistem yang tidak memiliki selisih harga yang banyak
+hasil akhir dari penelitian ini adalah sebuah aplikasi implementasi dari case base reasoning yang dapat digunakan untuk menentukan harga rumah berdasarkan kasus- kasus penjualan rumah sebelumnya
+sistem akan memproses data input dari user sehingga dapat menghasilkan output harga rumah
+data orang hilang di polres tasikmalaya kota yang metode penelusuran yang digunakan pada penelitian ini adalah penelusuran runut maju 
+sistem yang dapat melakukan identifikasi data orang hilang berdasarkan pengetahuan 
+hasil akhir dari penelitian ini adalah sebuah aplikasi yang berjalan sesuai dengan harapan
+uraian penelitian sistem pencernaan berurusan dengan penerimaan makanan dan mempersiapkannya untuk diasimilasi oleh tubuh
+saluran pencernaan terdiri atas bagian-bagian berikut : mulut, faring, esofagus, ventrikulus, usus halus dan usus besar, tekak, kerongkongan dan lambung
+dari nutrien yang dicerna sehingga siap diabsorbsi
+pencernaan dapat berlangsung secara mekanik dan kimia
+proses-proses dalam kegiatan pencernaan adalah sebagai berikut : 1
+pemotongan dan penggilingan makanan dilakukan secara mekanik oleh gigi, makanan kemudian bercampur dengan saliva sebelum ditelan
+digesti : hidrolisis kimia molekul besar menjadi molekul kecil sehingga absorbsi dapat berlangsung
+absorbsi : pergerakan produk akhir pencernaan dari lumen selauran pencernaan ke dalam sirkulasi darah dan limfatik sehingga digunakan oleh sel tubuh
+egesti : proses eliminasi zat-zat sisa yang tidak tercerna, juga bakteri dalam bentuk feses dari saluran pencernaan
+kepadatan dan karakter tinja, atau tinja cair dikeluarkan tiga kali atau lebih perhari
+diare merupakan salah satu gejala dari penyakit pada sistem gastrointestinal atau penyakit lain diluar saluran pencernaan
+jadi diare adalah buang air besar yang frekuensinya lebih dari 3 kali sehari dengan konsistensi tinja yang encer
+di negara yang sedang berkembang, insiden yang tinggi dari penyakit diare merupakan kombinasi dari sumber air yang tercemar, kekurangan protein dan kalori yang menyebabkan turunnya daya tahan tubuh
+case based reasoning merupakan salah satu penalaran yang digunakan dalam pemecahan masalah dengan mencari solusi dari suatu kasus yang baru, sistem akan melakukan pencarian terhadap solusi dari kasus lama yang memiliki permasalahan yang sama dan sudah pernah terjadi sebelumnya
+oleh karena itu, solusi dari permasalahan yang sudah pernah terjadi dapat digunakan kembali untuk memecahkan masalah baru dengan permasalahan yang sama dengan masalah yang lama
+prinsip kedua adalah setiap permasalahan dapat terjadi berulang kali
+oleh karena itu, terdapat kemungkinan bahwa masalah yang akan muncul di masa yang akan datang memiliki kesamaan dengan masalah yang pernah terjadi sebelumnya
+case-based reasoning adalah suatu pendekatan untuk menyelesaikan suatu permasalahan berdasarkan solusi dari permasalahan sebelumnya
+case-based reasoning ini merupakan suatu paradigma pemecahan masalah yang banyak mendapat pengakuan yang pada dasarnya berbeda dari pendekatan utama ai lainnya
+suatu masalah baru dipecahkan dengan menemukan kasus yang serupa di masa lampau, dan menggunakannya kembali pada situasi masalah yang baru
+perbedaan lain dari cbr yang tidak kalah penting adalah cbr juga merupakan suatu pendekatan ke arah incremental yaitu pembelajaran yang terus-menerus
+reuse, menggunakan kembali kasus-kasus yang mirip dan dicoba untuk menyelesaikan suatu masalah sekarang 3
+revise, merubah dan mengadopsi solusi yang ditawarkan jika perlu 4
+retain, memakai solusi baru sebagai bagian dari kasus baru kemudian kasus baru di-update kedalam basis kasus c
+metode cosine coefficient similaritas dua objek yang bersifat biner
+perhitungan similaritas digunakan untuk menghasilkan nilai apakah ada kemiripan atau tidak antara kasus baru dengan kasus yang telah ada di basis kasus
+formula yang digunakan cosine coefficient untuk menghitung similarity antara dua objek adalah dengan rumus sebagai berikut
+perhitungan untuk mencari nilai kemiripan menggunakan cosine coefficient ditunjukkan pada persamaan 1
+cos smsi, sj= 1 uml merupakan bahasa visual untuk pemodelan dan komunikasi mengenai sistem dengan menggunakan diagram dan teks-teks pendukung
+uml muncul karena adanya kebutuhan pemodelan visual untuk menspesifikasikan, menggambarkan, membangun dan dokumentasi dari sistem perangkat lunak
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+diperhatikan disini adalah bahwa diagram aktifitas menggambarkan aktifitas sistem bukan apa yang dilakukan aktor, jadi aktifitas yang dapat dilakukan oleh sistem
+sequence diagram sequence diagram menggambarkan interaksi antara sejumlah objek dalam urutan waktu
+kegunaanya untuk menunjukkan rangkaian pesan yang dikirim antara objek juga interaksi antar objek yang terjadi pada titik tertentu dalam eksekusi sistem
+sequence diagram menunjukkan interaksi dengan menampilkan setiap partisipan dengan garis alir secara vertikal dengan pengurutan pesan dari atas ke bawah
+class diagram class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel-variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+use case diagram gangguan pencernaan pada anak: c
+hasil perancangan sistem metode similaritas cosine coefficient
+gambar 5 merupakan halaman ketika admin akan melakukan login
+pengujian tahapan case based reasoning a
+tahapan retrieve adalah untuk menelusuri dan mendapatkan kasus-kasus yang mirip dibandingkan dengan kumpulan kasus-kasus dimasa lalu 
+tahapan retrieve yaitu : gangguan pencernaan pada anak
+gambar 6 merupakan proses input data gejala gangguan pencernaan
+halaman hasil diagnosis dengan tingkat kemiripan kasus baru dengan kasus lama dengan nilai tertinggi b
+tahapan reuse adalah menggunakan kembali kasus-kasus yag ada dan dicoba untuk menyelesaikan suatu masalah sekarang yang ditunjukkan pada gambar 8 berikut: gambar 8
+kasus lama yang digunakan sebagai solusi c
+tahapan revise merupakan tahapan merubah dan mengadopsi solusi yang ditawarkan jika perlu
+tahapan revise di tunjukkam pada gambar 9 berikut: gambar 9
+tampilah halaman revisi kasus baru d
+tahapan retain terjadi proses penggabungan dari solusi kasus yang baru yang benar ke basis kasus yang telah ada
+tahapan retain di tunjukkan pada gambar 10 berikut: gambar 10
+pengujian membandingkan hasil diagnosis pakar dengan hasil diagnosis sistem pada pengujian ini dilakukan dengan cara membandingkan hasil diagnosis kasus baru yang dilakukan oleh pakar dengan hasil diagnosis oleh sistem
+hasil pengujian dapat dilihat pada tabel 1
+tabel 1 dengan hasil diagnosis sistem hasil 7 disentri sembelit 0, 54 tidak sesuai 8 disentri disentri 0, 84 sesuai 9 disentri disentri 1 sesuai 10 sembelit sembelit 0, 67 sesuai 11 sembelit sembelit 0, 81 sesuai 12 sembelit sembelit 0, 83 sesuai 13 diare diare 0, 81 sesuai 14 sembelit sembelit 0, 91 sesuai 15 diare diare 0, 75 sesuai 16 maag maag 0, 79 sesuai 17 disentri disentri 0, 81 sesuai 18 sembelit sembelit 0, 83 sesuai 19 diare diare 0, 79 sesuai 20 diare diare 0, 66 sesuai 20 diare diare 0, 66 sesuai 21 radang usus buntu 23 disentri diare 0, 50 tidak sesuai 24 diare nyeri perut 0, 67 tidak sesuai 25 diare nyeri perut 0, 68 tidak sesuai e
+menggunakan kembali kasus-kasus yang ada dan dicoba unutuk menyelesaikan suatu masalah sekarang
+merubah dan mengadopsi solusi yang ditawarkan jika perlu
+memakai solusi baru sebagai bagian dari kasus baru, kemudian kasus baru di-update ke dalam basis kasus
+hasil pengujian tahapan case based reasoning menunjukkan bahwa sistem ini dapat melakukan tahapan retrieve, reuse, revise dan retain 
+hasil pengujian dengan perhitungan metode cosine coefficient pada tabel 4.3 dengan jumlah basis kasus sebanyak 50 kasus, dari total 25 sampel uji hanya 4 sampel yang memberikan hasil yang tidak sesuai/ dan 21 sampel lainnya memberikan hasil yang sesuai
+sehingga jika dihitung persentasenya, hasil yang sesuai yaitu x 100% = 84% dan yang tidak sesuai sebesar x 100% = 16%
+cosine coefficient yang telah dilakukan, diketahui bahwa perbedaan dapat terjadi antara hasil diagnosis oleh pakar dengan diagnosis sistem
+perbedaan hasil diagnosis ini dapat disebabkan karena jumlah kasus pada basis kasus adalah sebanyak 50 kasus, jumlah basis kasus ini masih tergolong sedikit
+sedangkan pada case based reasoning semakin banyak pengalaman, sistem akan menjadi semakin pintar sehingga dapat memecahkan masalah dengan mudah dan memberikan solusi lebih akurat dengan nilai similaritas lebih tinggi
+disimpulkan bahwa: berdasarkan kasus gangguan pencernaan pada anak sebelumnya dengan tingkat keberhasilan 84% dan tingkat kegagalan 16%
+mendapatkan kasus-kasus gangguan pencernaan yang mirip
+menggunakan kembali kasus-kasus gangguan pencernaan yang ada dan dicoba unutuk menyelesaikan suatu masalah sekarang
+merubah dan mengadopsi solusi yang ditawarkan jika perlu
+memakai solusi baru sebagai bagian dari kasus baru, kemudian kasus baru di- update ke dalam basis kasus
+baik dan dapat mendiagnosis gangguan pencernaan dengan melakukan tahapan case based reasoning yaitu tahapan retrieve pada tahapan retrieve untuk mencari nilai kemiripan dengan menggunakan metode cosine coefficient, reuse, revise dan retain 

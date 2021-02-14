@@ -1,0 +1,12 @@
+ubmitted 20-12-2019; revised 09-01-2020; accepted 25-01-2020 98 sistem layanan pengaduan masyarakat pada balai besar pom kota pontianak berbasis mobile m
+alfin mu’tashim#1, hengky anra#2, heri priyanto#3 #jurusan informatika universitas tanjungpura alfintashim@gmail.com stmkom@gmail.com heripriyanto.stmt@gmail.com salah satu kebutuhan manusia saat ini sudah banyak beredar di indonesia
+peredaran makanan kemasan dan obat tersebut memerlukan perhatian dari pemerintah indonesia sehingga pemerintah membentuk badan pengawas obat dan makanan untuk mengawasi peredaran tersebut
+selain peran bpom, peran masyarakat sangat penting dalam membantu pengawasan obat dan makanan kemasan yang beredar di pasaran dengan memberikan pengaduan atau laporan kepada bpom apabila menemukan obat dan makanan kemasan yang bermasalah
+berdasarkan hasil wawancara dengan balai besar pom kota pontianak bahwa saat ini pengaduan yang masuk dan diproses masih dilakukan secara konvensional melalui pengisian kertas formulir pengaduan hingga masyarakat mendapatkan jawaban dari pengaduannya tersebut
+untuk itu seiring dengan perkembangan teknologi aplikasi berbasis web dan mobile dengan platform android, banyak cara yang dapat dilakukan untuk mempermudah masyarakat dalam memberikan pengaduan
+salah satu perangkat teknologi yang dapat digunakan adalah ponsel cerdas, maka dibuatlah aplikasi layanan pengaduan masyarakat pada balai besar pom kota pontianak yang dirancang menggunakan metode waterfall dan menggunakan unified modeling language 
+aplikasi tersebut dapat memudahkan masyarakat dalam memberikan pengaduan mengenai produk obat dan makanan yang beredar di kota pontianak, serta sistem yang dibangun bertujuan untuk membantu balai besar pom kota pontianak dalam memproses setiap pengaduan
+berdasarkan hasil pengujian, aplikasi ini sudah berjalan dengan baik pada perangkat smartphone android
+hasil perhitungan skala likert diperoleh hasil 82, 15% yang menerangkan bahwa penelitian ini dapat dikategorikan dengan kriteria berhasil
+pendahuluan sangat esensial dalam kehidupan manusia, di samping dua kebutuhan lainnya yaitu sandang dan papan
+demikian pentingnya fungsi makanan bagi manusia, sehingga tanpa makanan manusia tidak akan bisa bertahan hidup

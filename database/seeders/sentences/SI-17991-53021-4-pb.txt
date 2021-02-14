@@ -1,0 +1,61 @@
+di kota pontianak, pencarian guru les private kebanyakan dilakukan melalui kontak dengan rekan se-profesi, rekomendasi pengguna jasa les sebelumnya, hingga broadcast melalui social media, sehingga muncul berbagai masalah antara lain pencarian calon guru les private yang memakan waktu cukup lama, sulit menemukan kesesuaian lokasi dan waktu antara calon guru les dan murid, tidak dapat mengetahui kompetensi, prestasi, dan track-record dari calon guru les private sehingga sulit untuk menemukan calon guru les private terbaik
+tujuan dari penelitian ini adalah merancang aplikasi marketplace penyedia jasa les private di kota pontianak, sehingga dapat berfungsi sebagai media dalam memudahkan masyarakat menemukan guru les private yang sesuai dengan kriteria yang diinginkannya
+sistem dibangun menggunakan metode waterfall dengan menggunakan bahasa pemrograman php, framework laravel, dan database mysql
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 2228 yang berarti aplikasi ini diimplementasikan dengan sangat baik
+setiap manusia berhak mendapatkan pendidikan dan selalu berkembang didalamnya
+pendidikan secara umum merupakan suatu proses kehidupan dalam mengembangkan diri tiap individu untuk dapat melangsungkan kehidupannya
+bangsa indonesia sendiri sadar akan pentingnya pendidikan sehingga mencantumkannya dalam alinea ke-3 uud 1945 dan diimplementasikan pada uu no 2 tahun 1989 yang secara jelas menyebutkan tujuan pendidikan di indonesia, yaitu "mencerdaskan kehidupan bangsa dan mengembangkan manusia indonesia seutuhnya, yaitu manusia yang beriman dan bertakwa terhadap tuhan yang maha esa dan berbudi pekerti luhur, memiliki pengetahuan dan ketrampilan, kesehatan jasmani dan rohani, kepribadian yang mantap dan mandiri serta rasa tanggung jawab kemasyarakatan dan kebangsaan
+” seiring dengan perkembangan dunia pendidikan yang semakin pesat, paradigma masyarakat yang masih menganggap bahwa kualitas pendidikan dari seorang murid merupakan tanggung jawab para guru di sekolah tersebut kini telah bergeser
+sebagian besar masyarakat kini menganggap bahwa belajar di sekolah saja tidak cukup
+sebanyak 144 responden dari 229 responden yang mempunyai anak di usia sekolah menyatakan masih memberikan les tambahan diluar jam sekolah
+hal ini juga berdampak dengan munculnya banyak layanan yang menyediakan jasa les tambahan, salah satunya melalui les private
+kebanyakan dilakukan melalui kontak dengan rekan se-profesi, rekomendasi pengguna jasa les sebelumnya, hingga broadcast melalui social media
+masalah yang kemudian muncul melalui pencarian seperti ini, antara lain pencarian calon guru les private yang memakan waktu cukup lama, sulit menemukan kesesuaian lokasi dan waktu antara calon guru les dan murid, tidak dapat mengetahui kompetensi, prestasi, dan track-record dari calon guru les private sehingga sulit untuk menemukan calon guru les private terbaik
+berdasarkan uraian dari permasalahan diatas, maka perlu dilakukan analisis dan perancangan aplikasi marketplace penyedia jasa les private di kota pontianak, sehingga dapat berfungsi sebagai media dalam memudahkan masyarakat menemukan guru les private yang sesuai dengan kriteria yang diinginkannya
+berdasarkan definisi tersebut maka pengajar les privat seseorang yang mengajar atau memberi bimbingan pelajaran tambahan pada mata pelajaran tertentu di luar jam belajar sekolah yang diadakan secara pribadi di rumah bagi siswa tk, sd, sltp, maupun sma
+jasa yang diberikan oleh guru les berupa waktu dan intelektual guru les memberikan bimbingan, pemahaman, pengertian, penjelasan, dan aspek – aspek kogintif yang lain kepada siswa les
+selanjutnya jasa tadi akan dihargai oleh orangtua siswa dengan sejumlah biaya sesuai dengan kesepakatan sebelumnya
+e-marketplace tempat melakukan kegiatan bisnis dan transaksi antara pembeli dan penjual pembeli dapat mencari supplier sebanyak mungkin dengan kriteria yang diinginkan, sehingga memperoleh sesuai harga pasar
+sedangkan bagi supplier/penjual dapat mengetahui perusahaan-perusahaan yang membutuhkan produk/jasa mereka
+angga kurnia jasa les private di kota pontianak berbasis web jl
+disini akan diuraikan beberapa komponen yang menunjang sebuah marketplace itu sendiri, yaitu: web
+jutaan toko ada di web, iklan dan menawarkan barang yang sangat bervariasi
+infrastruktur infrastuktur yang harus disiapkan dalam menjalankan e- marketplace
+front-end ini berisi portal penjual, catalog elektronik, shopping cart, mesin pencari, mesin lelang, 6
+unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram diagram kelas atau class diagram menggambarkan struktur sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+desain arsitektur sistem melalui internet, aplikasi web akan melakukan komunikasi data dengan web server
+pengguna terlebih dahulu mendaftar untuk mendapatkan akun
+terdapat dua model pendaftaran akun, yaitu dengan mengisi data pada halaman pendaftaran akun dan melalui akun facebook
+apabila pengguna mendaftar dengan akun facebook, maka server akan mengarahkan halaman ke aplikasi facebook untuk mendapatkan otorisasi pengambilan data akun pengguna
+apabila otorisasi diizinkan, aplikasi facebook akan mengarahkan pengguna kembali ke halaman web dalam keadaan sudah terdaftar dan login
+sedangkan untuk pengiriman notifikasi dilakukan melalui onesignalapi yang diteruskan ke server gcm, kemudian diteruskan ke browser pengguna
+pengujian aplikasi black box, dan kuesioner terhadap 30 responden yang terdiri dari masyarakat umum kota pontianak
+hasil aplikasi jasa les private di kota pontianak menggunakan framework laravel dengan integrasi media sosial menggunakan opengraph api dan webpush menggunakan onesignal api
+dalam implementasinya, aplikasi ini dibangun agar masyarakat lebih mudah dalam mencari, menyeleksi, dan menemukan guru les private dan sebagai media promosi jasa les private di kota pontianak
+tampilan halaman utama pada gambar 3, merupakan tampilan halaman utama aplikasi gambar 4 merupakan tampilan halaman pencarian guru, terdapat filter pencarian pada sisi halaman kiri dan hasil pencarian guru pada sisi halaman kanan
+tampilan halaman profil guru gambar 5 merupakan tampilan halaman profil guru
+tampilan detail mata pelajaran gambar 6 merupakan tampilan detail mata pelajaran pada halaman profil guru
+robustness testing robustness testing adalah pengujian dengan data input dipilih diluar spesifikasi yang telah didefinisikan
+tujuan dari pengujian ini adalah membuktikan bahwa tidak ada kesalahan jika masukan tidak valid
+pengujian ini dilakukan pada proses input data seperti penerjemahan bahasa dan tambah konfigurasi bahasa
+pada tabel 1 memperlihatkan pengujian pada halaman pencarian guru les private
+tabel 1 tabel pengujian pencarian guru les private no test case hasil yang di harapkan hasil 1 mencari dengan mengajar
+no test case hasil yang di harapkan hasil 1 submit form dengan berhasil dikirimkan
+berikut adalah total skor dari kuesioner yang telah dibagikan kepada 25 responden
+analisis hasil pengujian berbasis android yang telah dilakukan adalah sebagai berikut: 1
+hasil robustness testing menyatakan aplikasi dapat meng- handle proses input dengan baik, terutama pada proses input data yang tidak sesuai dan kosong
+berdasarkan hasil pengujian aplikasi, notifikasi web push terkadang terlambat dikirimkan, hal ini disebabkan server onesignal yang menangani service notifikasi terkadang sibuk
+hal ini disebabkan oleh penggunaan beberapa elemen javascript asynchronous yang tidak responsive
+hasil kuesioner menunjukkan sebagian besar responden menerima dengan baik aplikasi ini dari segi pengoperasian, fungsionalitas dan tampilan
+hasil interpretasi skor dari likert’s summated rating menunjukkan hasil 2228 dengan nilai sangat positif yang berarti aplikasi dinilai berhasil
+kesimpulan/ringkasan terhadap aplikasi marketplace jasa les private di kota pontianak, dapat disimpulkan bahwa: 1
+aplikasi marketplace jasa les private di kota pontianak dapat menjadi media dalam mempromosikan jasa les private bagi guru les private
+berdasarkan hasil kuesioner menggunakan skala likert’s summated rating diperoleh nilai total 2228 yang berarti aplikasi ini diimplementasikan dengan sangat baik

@@ -1,0 +1,101 @@
+unit pengelolaan keuangan desa mulai aktif dengan disahkannya uu nomor 6 tahun 2014 tentang desa
+desa diberikan kesempatan yang besar untuk mengurus tata pemerintahaan sendiri serta pelaksanaan pembangunan untuk meningkatkan kesejahteraan dan kualitas hidup masyarakat
+upkd di kecamatan sungai pinyuh kabupaten mempawah merupakan wujud pelaksanaan dari model desa prima yang sudah berjalan selama 8 tahun dengan sumber dana berasal dari apbn dan dikelola oleh desa
+dana yang ada dipinjamkan kepada masyarakat desa khususnya untuk para ibu rumah tangga yang memiliki usaha kecil
+upkd ini masih menggunakan pengolahan data dengan sistem yang sederhana yaitu dengan menggunakan aplikasi pengolah angka dan lembaran kertas
+oleh karena itu proses pencatatan transaksi dan penyusunan laporan kerap kali memakan waktu dan terjadi kekeliruan
+untuk itu dibangunlah suatu sistem informasi piutang dengan menggunakan model pengembangan waterfall, sehingga dapat dihasilkan suatu sistem yang mampu mempermudah pengolahan data serta dengan keamanan data yang lebih baik
+pendahuluan desa diharapkan segala kepentingan dan kebutuhan dapat diakomodir dengan lebih baik dan adanya pemberian kesempatan yang lebih besar bagi desa untuk mengurus tata pemerintahannya sendiri serta pemerataan pelaksanaan pembangunan diharapkan dapat meningkatkan uu nomor 6 tahun 2014 beserta pelaksanaannya telah mengamanatkan pemerintah desa untuk lebih mandiri dalam mengolah pemerintahan dan berbagai sumber daya alam yang dimiliki termasuk didalamnya pengolahan keuangan dan kekayaan milik desa
+dalam apbn-p 2015 telah disalurkan dana sebesar rp 20, 775 triliun kepada seluruh desa yang tersebar di indonesia
+desa prima disebut juga desa percontohan untuk menanggulangi keluarga kurang mampu melalui upaya ekonomi dengan memanfaatkan seluruh potensi/sumber daya baik sumber daya alam maupun sumber daya manusia, dengan berbagai program pemberdayaan perempuan dari instansi terkait, organisasi perempuan, dan organisasi kemasyarakatan lainnya untuk bersama-sama membangun kepedulian untuk keluar dari kekurangmampuan masyarakat dan mewujudkan kesejahteraan
+pengembangan usaha yang dilakukan oleh perempuan desa prima, khususnya bagi kelompok perempuan kurang mampu menjadi prioritas
+kegiatan yang dilakukan dalam rangka pengembangan usaha merupakan suatu upaya yang saling berkaitan, mulai dari peningkatan sumber daya manusianya hingga kemampuan perempuan dalam mengambil keputusan dalam penentuan usahanya
+sungai pinyuh kabupaten mempawah adalah salah satu instansi pemerintah yang mengelola keuangan desa yang berasal dari program pemberdayaan perempuan dalam model desa prima
+kegiatan keuangan utamanya adalah pemberian pinjaman lunak kepada perempuan pelaku usaha kecil dan menengah yang bertujuan meningkatkan ekonomi perempuan dengan memanfaatkan semua potensi yang ada dan melibatkan segenap peran lintas sektoral sesuai dengan program sektoralnya masing- masing
+hingga tahun ini kegiatan upkd desa prima kecamatan sungai pinyuh sudah terrealisasi selama 8 tahun
+hal ini berarti apabila tingkat perputaran kredit meningkat, maka profitabilitas lpd juga akan meningkat
+walaupun sejauh ini, persentase pelunasan piutang yang terjadi masih di dalam tingkatan wajar namun dalam pengolahan dan keamanan data hingga proses pelaporan masih terdapat permasalahan
+permasalahan tersebut antara lain, pengolahan data kurang cepat dan tepat dimana masih sering terjadi kesalahan perhitungan dan catatan piutang, baik di sisi upkd maupun catatan untuk peminjam
+data dan arsip bebas diakses oleh semua pengurus upkd tanpa melalui validasi akses, karena data hanya tersimpan pada buku catatan dan file aplikasi pengolah angka
+saat harus membuat laporan, bendahara membutuhkan waktu yang tidak sebentar karena harus mengetik ulang catatan dari buku ke dalam aplikasi pengolah angka sekaligus membuat fungsi perhitungannya yang kadang kala terlupakan oleh bendahara
+tinjauan pustaka hasilnya dengan sistem yang terkomputerisasi, pelaporan dana desa akan mampu dilakukan dengan cepat dan laporan keuangannnya juga akan lebih handal dibanding dengan pelaporan secara manual
+selain itu, rusmayanti, telah merancang sistem informasi pengelolaan keuangan pada desa ngadirejan yang hasilnya mempermudah pihak kantor desa dalam proses pengelolaan keuangan, membantu dalam proses penginputan data, pencarian data, dan laporan sehingga dapat meminimalisasi adanya kesalahan dan mengoptimalkan keamanan data
+penelitian lainnya yang dilakukan oleh rusmiyanto, menghasilkan desain aplikasi pengelolaan keuangan desa yang dinilai dapat meningkatkan akuntabilitas keuangan desa
+papuasmenyatakan suatu lembaga atau organisasi yang menggunakan komputer untuk mengolah sistem informasinya, akan mempunyai nilai lebih dari pada sistem informasi yang diolah secara manual komputer merupakan alat pengolah data yang tepat dengan akses ketelitian maupun kecepatan tinggi dibandingkan akses kerja manusia
+tanpa adanya perangkat lunak, maka perangkat keras yang telah diciptakan tidak akan dapat berguna atau berfungsi dengan optimal
+sistem informasi terdiri dari semua komponen yang bekerja sama untuk mengolah data dan prosedur informasi
+komponen sistem informasi terdiri dari unsur-unsur seperti masukan, pengolahan, keluaran serta umpan balik 
+komponen dari sistem informasi berbasis komputer terdiri dari perangkat keras, perangkat lunak, prosedur, orang, basis data dan jaringan komputer 
+menurut webster new world dictionary, data adalah things known or assumed, yang berarti bahwa data itu sesuatu yang diketahui atau dianggap
+diketahui artinya yang sudah terjadi merupakan fakta 
+data dapat memberikan gambaran tentang suatu keadaan atau persoalan
+data bisa juga didefinisikan sekumpulan informasi atau nilai yang diperoleh dari pengamatan suatu obyek, data dapat berupa angka dan dapat pula merupakan lambang atau sifat
+secara tradisional yang telah teruji dan mudah untuk dipahami
+analisa terstruktur menggunakan serangkaian tahapan, yang disebut systems development life cycle, untuk merencanakan, menganalisis, merancang, melaksanakan, dan mendukung sistem informasi
+menurut dennis, ketika membangun sistem informasi menggunakan sdlc empat fase dasarnya adalah planning, analysis, design, dan implementation, seperti terlihat pada gambar 1
+memahami mengapa sistem informasi harus dibangun dan menentukan bagaimana tim proyek akan lanjut tentang bagaimana mengembangkannya
+tahap analisis menjawab pertanyaan tentang siapa yang akan menggunakan sistem, sistem apa yang akan dilakukan, dan dimana dan kapan akan digunakan
+tahap desain memutuskan bagaimana sistem akan beroperasi dalam hal perangkat keras, perangkat lunak, dan jaringan infrastruktur yang akan berada di suatu tempat; user interface, form, dan laporan yang akan digunakan; dan program spesifik, basis data, dan file yang akan dibutuhkan
+tahap akhir dalam sdlc adalah tahap implementasi, dimana sistem ini benar- benar dibangun
+metode waterfall dimulai dari analis dan pengguna melanjutkan secara berurutan dari satu tahap ke tahap berikutnya
+pengamatan dan kunjungan langsung pada upkd kecamatan sungai pinyuh, kabupaten mempawah, kalimantan barat untuk menganalisa prosedur piutang yang terjadi disana, permasalahan yang ada dan spesifikasi kebutuhan sistem yang baru
+bendahara dan sekretaris upkd untuk melengkapi data atas penelitian ini 3) studi pustaka : peneliti menggunakan buku tekstual, jurnal, dan literatur lainnya yang berhubungan dengan masalah sehingga dapat membantu penyelesaian penelitian ini
+metode pengembangan sistem penggunaan metode pengembangan waterfall menyebabkan, analis dan pengguna melakukan tahap demi tahap pada system development life cycle secara berurutan dari satu tahap ke tahap berikutnya
+begitu pekerjaan yang dihasilkan dalam satu fase disetujui, fase tersebut berakhir dan fase berikutnya dimulai
+seiring kemajuan proyek dari fase ke fase, ia bergerak maju dengan cara yang sama seperti air terjun
+tahapan sdlc yang dilakukan dalam penelitian ini menggunakan pendapat dennisseperti yang terlihat pada gambar 2
+gambar 2 waterfall development proses dasar tentang mengapa sistem informasi piutang pada upkd ini harus dibangun, yakni karena adanya permasalahan pada pengolahan, penyimpanan dan keamanan data
+selanjutnya di tahap analisis ditentukan siapa yang akan bertugas sebagai pengguna sistem piutang ini serta kebutuhan fungsional apa saja yang diperlukan
+pada tahap desain memutuskan bagaimana sistem akan beroperasi dalam hal perangkat keras, perangkat lunak, form dan laporan yang akan digunakan, rancangan basis data dan file yang akan dibutuhkan
+tahap akhir dalam sdlc adalah tahap implementasi, dimana sistem ini benar- benar dibangun, dalam hal ini sistem dibangun menggunakan bahasa pemrograman visual basic.net dan didukung dbms mysql
+upkd sungai pinyuh untuk mendaftar dan sekrtaris pun menunjukan fomulir pendaftaran dan menjelaskan apa saja yang harus diisi dan yang harus dijadikan jaminan serta menjelaskan prosedur peminjaman yang telah ditetapkan oleh pihak upkd tersebut
+setelah anggota memutuskan untuk meminjam selanjutnya sekretaris memberitahukan kepada bendahara untuk mengolah data anggota yang terdiri dari data anggota, total pinjaman, hingga angsuran bulanan, serta mengolah dana untuk dipinjamkan kepada anggota
+kemudian bendahara memberikan pinjaman kepada anggota dan menjelaskan kembali batas tempo yang telah ditetapkan, kemudian bendahara memberikan buku pinjaman anggota setelah bendahara menjelaskan kepada anggota kemudian anggota bisa membawa dana yang telah dipinjam serta meninggalkan jaminannya kemudian anggota dapat membayar angsuran kepada bendahara setiap bulannya
+setiap akhir bulan bendahara membuat laporan pinjaman dana anggota yang nantinya akan direkap setiap triwulan dan setelah itu akan diserahkan kepada ketua upkd
+pada sistem informasi piutang pada unit pengelolaan keuangan desa kecamatan sungai pinyuh kabupaten mempawah adalah ketua dan bendahara, seperti pada tabel i diuraikan analisa kebutuhan dari masing-masing pengguna sistem
+desain 1) entity realitionship diagram : gambar 11 di bawah ini merupakan entity realitionship diagram dari sistem informasi piutang pada upkd
+gambar 11 erd 2) logical record structure : gambar 12 di bawah ini merupakan logical record structure dari sistem informasi piutang pada upkd
+gambar 12 hasil transformasi erd menjadi lrs e
+implementasi tahap ini merupakan realisasi hasil desain dalam bentuk sebenarnya, antara lain pembuatan antarmuka, pengkodean dan pembuatan database dengan software yang dipilih
+antarmuka yang ada pada sistem ini adalah: 1) : merupakan validasi hak akses pengguna form masuk untuk masuk ke dalam sistem informasi piutang pada upkd
+form masuk yang terlihat pada gambar 13 merupakan tampilan awal untuk selanjutnya masuk pada tampilan menu utama, pada form masuk terdapat dua hak akses yaitu ketua dan bendahara, selanjutnya tiap pengguna harus mengisi username dan password dengan benar sesuai dengan hak akses masing-masing dan mengklik login untuk masuk dan mengklik batal untuk keluar
+gambar 13 form masuk 2) form menu utama: merupakan form menu utama dari sistem informasi piutang pada upkd
+form menu utama pada gambar 14 terdapat pilihan menu data user, data anggota, data peminjaman, data pembayaran, data dana masuk laporan peminjaman, laporan pembayaran
+untuk keluar dari form menu utama pengguna harus mengklik tombol keluar
+form anggota seperti pada gambar 15 adalah form untuk mengisi data anggota, pada form anggota terdapat pilihan tombol tambah, simpan, ubah, hapus, cari dan cetak
+untuk menambah data anggota pilih tombol tambah lalu klik tombol simpan, data akan tersimpan pada datagrid pada bagian bawah
+untuk melakukan ubah data anggota pilih dan klik data yang tampil pada datagrid lalu ubah sesuai yang diinginkan dan jika sudah selesai klik tombol ubah dan pilih 
+untuk menghapus data pilih data pada datagrid dan klik tombol hapus lalu pilih maka data akan terhapus
+untuk keluar dari form pilih tombol keluar
+gambar 15 form data anggota 4) form data user: form user adalah form yang hanya dapat di akses oleh bendahara, pada form user yang terlihat pada gambar 16 terdapat pilihan tombol tambah, simpan, ubah, hapus, perbaharui dan keluar
+untuk menambah data user pilih tombol tambah dan kode user, nama user, username, password, level lalu klik simpan, dan data akan tersimpan pada datagrid di bagian bawah
+untuk melakukan ubah data user pilih dan klik data yang tampil pada datagrid lalu ubah sesuai yang diinginkan dan jika sudah selesai klik tombol ubah dan pilih 
+untuk menghapus data pilih data pada datagrid dan klik tombol hapus lalu pilih maka data akan terhapus
+untuk keluar dari form user pilih tombol keluar
+gambar 16 form data user 5) form data peminjaman: merupakan form peminjaman dari sistem informasi piutang pada upkd
+form peminjaman seperti pada gambar 17 adalah form untuk mengisi data peminjaman, pada form peminjaman terdapat pilihan tombol tambah, simpan, ubah, hapus, perbaharui, cari dan cetak
+untuk menambah data peminjaman pilih tombol form pembantu nama anggota lalu pilih nama peminjam lalu klik tombol simpan, data akan tersimpan pada datagrid pada bagian bawah
+untuk melakukan ubah data peminjaman pilih dan klik data yang tampil pada datagrid lalu ubah sesuai yang diinginkan dan jika sudah selesai klik tombol ubah dan pilih 
+untuk menghapus data pilih data pada datagrid dan klik tombol hapus lalu pilih maka data akan terhapus
+untuk keluar dari form pilih tombol keluar
+gambar 17 form peminjaman 6) form pembayaran piutang: merupakan form u dari untuk mengelola penerimaan pembayaran piutang pada sistem informasi piutang pada upkd
+seperti terlihat pada gambar 18, di form pembayaran terdapat pilihan tombol tambah, simpan, ubah, hapus, cari dan cetak
+untuk menambah data pembayaran pilih tombol form pinjam bantu anggota lalu pilih nama peminjam lalu klik tombol simpan, data akan tersimpan pada datagrid pada bagian bawah
+untuk menghapus data pilih data pada datagrid dan klik tombol hapus lalu pilih maka data akan terhapus
+untuk keluar dari form pilih tombol keluar
+gambar 18 form pembayaran piutang 7) form penerimaan dana: merupakan form penerimaan dana masuk sistem informasi piutang pada upkd
+form dana masuk seperti terlihat pada gambar 19 adalah form untuk mengolah data dana masuk yang diterima dari pemerintah maupun instansi swasta, pada form dana masuk terdapat pilihan tombol tambah, perbaharui, simpan, ubah, hapus dan untuk keluar dari form pilih tombol keluar
+8) form laporan peminjaman: merupakan form untuk menampilkan dan mencetak laporan peminjaman pada sistem informasi piutang di upkd
+seperti terlihat pada gambar 20, laporan peminjaman tersebut bisa dilihat dan dicetak secara harian, bulanan maupun periode dengan cara memilih tanggal yang diinginkan dan mengklik tombol tampilkan maka laporan tersebut tampil sesuai yang diinginkan
+9) form laporan pembayaran periodik: merupakan form laporan pembayaran periodik aplikasi piutang upkd sungai pinyuh
+seperti tampak pada gambar 21, laporan pembayaran tersebut bisa dilihat dan di cetak secara harian, bulanan maupun periode dengan cara memilih tanggal yang diinginkan dan mengklik tombol tampilkan maka laporan tersebut tampil sesuai yang diinginkan
+testing teknik pengujian yang digunakan adalah blackbox testing, antara lain: 1) blackbox testing terhadap form masuk: selengkapnya dapat terlihat pada table iv
+tabel v 3) blackbox testing terhadap form anggota: selengkapnya dapat terlihat pada tabel vi
+tabel vi 4) blackbox testing terhadap form peminjaman: selengkapnya dapat terlihat pada tabel vii
+tabel vii sesuai harapan valid 5) blackbox testing terhadap form masuk: selengkapnya dapat terlihat pada tabel viii
+tabel viii telah dilakukan memberikan kesimpulan bahwa masih memungkinkannya terjadi kesalahan pada sintaks karena proses validasi yang diikuti dengan tampilan belum maksimal tetapi secara fungsional sistem ini sudah dapat menghasilkan keluaran yang diharapkan
+kesimpulan pengelolaan dana desa yang dipinjamkan kepada masyarakat, penyelesaian tersebut antara lain data tersimpan dengan lebih rapih di dalam komputer dan backup dalam bentuk tercetak
+sehingga tidak lagi sulit dicari dan tidak mudah hilang ataupun rusak
+akses untuk menghapus dan mengubah ataupun menambah data hanya dimiliki oleh pejabat yang berwenang, dalam hal ini ketua dan bendahara upkd saja, sehingga bila terjadi sesuatu yang tidak diinginkan lebih jelas proses pertanggung jawabannya
+pembuatan laporan lebih mudah, hanya dengan melalui proses 
+secara keseluruhan, keberadaan sistem informasi akan meningkatkan efektifitas dan keamanan proses piutang pada upkd, khususnya di kecamatan sungai pinyuh kabupaten mempawah

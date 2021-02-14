@@ -1,0 +1,102 @@
+indonesia memiliki keragaman bahasa yang luar biasa
+akan tetapi, keterbatasan dalam menguasai berbagai macam bahasa daerah di indonesia merupakan kendala utama bagi masyarakat umum untuk bisa menguasai bahasa daerah yang bukan berasal dari daerah asalnya
+dengan pesatnya perkembangan teknologi disegala bidang, saat ini sedang dikembangkan mesin penerjemah untuk mengatasi masalah dengan hasil terjemahan dihasilkan atas dasar model statistik yang parameter-parameternya penelitian ini adalah memanfaatkan mesin penerjemah statistik untuk menerjemahkan bahasa secara dua arah, khususnya bahasa indonesia - bahasa melayu sambas yang dihubungkan dengan aplikasi berbasis web sehingga dapat diakses secara luas melalui internet dengan web browser
+pada penelitian ini dilakukan tiga pengujian, pertama dilakukan pengujian terhadap terjemahan mesin penerjemah statistik dihasilkan rata-rata nilai bleu yang merepresentasikan akurasi dari sistem penerjemah bahasa indonesia ke bahasa melayu sambas yaitu sebesar 58.50 % dan sistem penerjemahan bahasa melayu sambas ke bahasa indonesia yaitu sebesar 63.76 %
+walau belum memuaskan, nilai ini bisa dikatakan cukup besar untuk penggunaan korpus yang relatif kecil, ketiga pengujian dengan uat yang dilakukan oleh 10 user dengan tujuan menguji efektifitas aplikasi web penerjemah yang dirancang
+tanggapan beberapa user terhadap aplikasi web penerjemah sebesar 89, 16% dari skor ideal dapat disimpulkan dari penelitian ini bahwa aplikasi web penerjemah yang dirancang dinilai berhasil, sangat mudah untuk dipahami user, sangat praktis dan siap dipublikasikan untuk diakses oleh publik
+pendahuluan budaya yang luar biasa, ada sebanyak 726 bahasa daerah dengan 719 bahasa daerah diantaranya yang masih aktif digunakan sehari-hari diseluruh pelosok indonesia 
+akan tetapi, keterbatasan dalam menguasai berbagai macam bahasa daerah di indonesia merupakan kendala utama bagi masyarakat umum untuk bisa menguasai bahasa daerah yang bukan berasal dari daerah asalnya
+kendala tersebut sangat dirasakan bagi seseorang yang berada di lingkungan baru yang memiliki budaya dan bahasa yang berbeda dengan daerah asalnya
+penerjemahan dari suatu bahasa ke bahasa lain dengan cara terjemahan kata demi kata tidak selalu pas, terkadang menghasilkan terjemahan yang aneh, kaku, dan membuat hilangnya arti dan maksud yang terkandung dari suatu kalimat
+uji akurasi mesin penerjemah statistik bahasa indonesia ke bahasa melayu sambas dan mesin penerjemahan statistik bahasa melayu sambas ke bahasa indonesia
+saat ini telah banyak dilakukan penelitian mengenai penerjemahaan bahasa, salah satunya penelitian yang berjudul 
+dalam penelitian tersebut hanya menguji nilai akurasi hasil terjemahan dari mesin yang dibangun dan belum dapat dipublikasikan lewat internet untuk diakses oleh pubik
+pengalihan makna dari bahasa sumber ke dalam bahasa sasaran
+selain itu, dalam penerjemahan terjadi penggantian bentuk bahasa sumber dengan bentuk bahasa sasaran
+dalam menerjemahkan bahasa sumber ke bahasa sasaran, bentuk boleh diubah tapi makna harus dipertahankan
+menurut nida dan taber, penerjemahan adalah pengungkapan kembali pesan dari bahasa sumber di dalam bahasa sasaran dengan padanan terdekat dan wajar, pertama dalam hal makna dan kedua dalam hal gaya bahasa
+penerjemahan harus bertujuan utama pada pengungkapan kembali sebuah pesan
+untuk mengungkapkan kembali pesan dari teks sumber, seorang penerjemah harus membuat penyesuaian secara gramatikal dan leksikal dengan baik
+kesepadanan makna harus menjadi hal utama
+hal tersebut lebih merupakan penekanan sebuah reproduksi pesan dari pada pemindahan bentuknya
+makna harus diutamakan dalam penerjemhan dan isi pesan merupakan keutamaan yang mendasar
+terjemahan yang paling baik adalah terjemahan yang tidak terlihat seperti terjemahan
+hal tersebut berarti bahwa terjemahan harus terasa sedekat mungkin dengan masyarakat bahasa sasaran
+penerjemahan harus menghasilkan padanan yang wajar sehingga tidak menunjukkan kekakuan dalam gramatikal dan gaya bahasa
+2.2 mesin penerjemah statistik statistical machine translation adalah suatu paradigma dari mesin penerjemah dimana penerjemahan dilakukan berbasis model statistik dengan parameter-parameter yang diturunkan dari analisis parallel corpus
+mesin penerjemah statistik mengasumsikan bahwa setiap kalimat t pada bahasa target merupakan sebuah kemungkinan hasil terjemahan dari kalimat s pada bahasa sumber
+melalui pendekatan bahawa teks yang diterjemahkan berdasarkan distribusi probabilitas p dapat dilakukan dengan teorema bayes yaitu : p = 𝑃 .𝑃 𝑃 dalam mesin penerjemah statistik, terdapat 3 komponen yang terlibat dalam proses penerjemahan dari satu bahasa ke bahasa lain yaitu : language model, translation model, dan decoder 
+gambar 1 komponen mesin penerjemah statistik 2.2.1 language model language model merupakan sumber pengetahuan yang penting dalam mesin penerjemah statistik
+language model digunakan pada aplikasi natural language processing seperti speech recognition, part- of-speech tagging dan synantic parsing
+dalam language model statistik, bagian-bagian yang merupakan elemen kunci adalah probabilitas dari rangkaian-rangkaian kata yang dituliskan sebagai p atau p 
+salah satu contoh pendekatan language model adalah n-gram model
+model bahasa n-gram merupakan jenis probalilistik language model untuk memprediksi item berikutnya dalam urutan tersebut dalam bentuk 
+probabilitas bersyarat dapat dihitung dari jumlah frekuensi n-gram : p, …, 𝑤𝑖−1)= 𝑐𝑜𝑢𝑛𝑡, 𝑤𝑖−1, …, 𝑤𝑖) 𝑐𝑜𝑢𝑛𝑡, …𝑤𝑖−1) berikut merupakan contoh model bahasa n-gram, yaitu : a
+trigram : p = 𝑃, 𝑃, 𝑃 …p 2.2.2 translation model translation model digunakan untuk memasangkan teks input dalam bahasa sumber dengan teks output dalam bahasa target dalam mesin penerjemah statistik terdapat dua model penerjemahan, yaitu word-based translation model dan pharase-based translation model :
+2.2.3 decoder decoder bertugas menemukan teks dalam bahasa target yang memiliki probabilitas paling besar dengan pertimbangan faktor translation model dan language model
+perhitungan �̂� dapat dituliskan sebagai berikut : �̂� = 𝑎𝑟𝑔𝑇 max 𝑃 = 𝑎𝑟𝑔𝑇 𝑚𝑎𝑥 𝑃 .𝑃 𝑃 = 2.4 uml uml adalah metode pemodelan visual untuk merancang sebuah software berorienteasi objek, maka semua elemen dan diagram berbasiskan pada paradigma object oriented
+uml adalah sebuah bahasa standar untuk pengembangan sebuah software yang dapat menyampaikan bagaimana membuat dan membentuk model-model, tetapi tidak menyampaikan apa dan kapan model yang seharusnya dibuat sehingga merupakan salah satu proses implementasi pengembangan software
+uml terbagi menjadi beberapa jenis diagram yang masing-masing memiliki aturan-aturan tertentu dalam penyusunannya
+diagram-diagram tersebut tersusun atas sejumlah elemen grafis yang saling membentuk satu kesatuan dalam pemodelan software
+masing-masing diagram uml mempersatukan berbagai sudut pandang terhadap sistem dan mendefinisikan apa yang dikerjakan oleh system
+language model korpus bahasa melayu sambas kalimat terjemahan sumber : ibnu hadi gambar 2 arsitektur sistem mesin penerjemah statistik dari bahasa indonesia ke bahasa melayu sambas
+sumber:hadi sumber : ibnu hadi gambar 3 arsitektur sistem mesin penerjemah statistik dari bahasa melayu sambas ke bahasa indonesia
+sumber:hadi gambar 4 arsitektur aplikasi web penerjemah dua arah decoder moses <<include>> <<include>> penerjemah use case, antara lain: actor user dapat memilih terjemahan bahasa indonesia ke bahasa melayu sambas, actor user juga dapat memilih terjemahan bahasa melayu sambas ke bahasa indonesia
+kedua jenis terjemahan memerlukan decoder moses untuk menerjemahkan bahasa
+3.4 activity diagram mulai pada web browser selesai diagram activity bahasa indonesia menggambarkan proses yang terjadi pada use case memilih terjemahan indonesia ke melayu sambas
+awal proses dimulai dengan menampilkan layout aplikasi pada web browser
+pada drobdown list aplikasi terdapat pilihan indonesia ke melayu sambas dan melayu sambas ke indonesia, kemudian user memilih terjemahan indonesia ke melayu sambas seterusnya input bahasa indonesia pada teks area input yang telah disediakan
+kemudian user menekan tombol terjemahakan, sistem mengecek jenis terjemahan dan teks yang ada di teks area input ditransfer ke server decoder moses untuk dilakukan proses penerjemahan ke bahasa melayu sambas, hasil dari penerjemahan ditampilkan ke teks area output yang telah disediakan pada aplikasi di web browser
+menampilkan layout aplikasi di web browser memilih terjemahan melayu sambas ke indonesia input bahasa melayu sambas mulai pada web browser selesai gambar 7 activity diagram bahasa melayu sambas diagram activity bahasa melayu sambas hampir sama dengan aktifitas pada diagram activity bahasa indonesia dimana pada diagram activity bahasa melayu sambas ini menjelaskan proses yang terjadi pada use case memilih terjemahan melayu sambas ke indonesia
+implementasi dan hasil aplikasi yang dirancang adalah aplikasi penerjemah dua arah berbasis web, khususnya untuk penerjemahan bahasa indonesia ke bahasa melayu sambas dan bahasa melayu sambas ke bahasa indonesia
+4.2 pengujian sistem pengujian sistem dilakukan dengan mengunakan blue pada decoder moses dengan tujuan pengujian ini mengevaluasi kualitas dari sebuah hasil terjemahan dan metode black-box dengan teknik sample testing yang dilakukan pada aplikasi web penerjemah dengan tujuan apakah aplikasi web penerjemah dapat mengambil hasil terjemahan yang dihasilkan pada decoder moses dan menampilkannya dengan baik
+4.2.1 pengujian decoder moses skenario pengujian pada decoder moses sebagai berikut: 1) kalimat latih terdiri dari 1197 pasang kalimat
+2) model bahasa menggunakan 1197 kalimat bahasa melayu sambas dan bahasa indonesia
+3) kalimat yang diuji terdiri dari 300 kalimat bahasa indonesia dan bahasa melayu sambas yang dibagi atas 4 bagian yaitu :bagian 1 : kalimat no 1-75, bagian 2 : kalimat no 76-150, bagian 3 : kalimat no 151-225 dan bagian 4 : kalimat no 226-300
+4) dari keempat bagian, dibentuk 6 grup uji yang terdiri atas : grup a, grup b, grup c, grup d, grup e, dan grup f 
+4.2.1.1 hasil bleu pengujian 1 bleu adalah sebuah algoritma yang berfungsi untuk mengevaluasi kualitas dari sebuah hasil terjemahan yang telah diterjemahkan oleh mesin dari satu bahasa alami ke bahasa lain
+ semakin dekat terjemahan sebuah mesin dengan terjemahan manusia makan akan semakin baik
+ide utama dibalik ini adalah 
+bleu mengukur modified n-gram precission score antara hasil terjemahan otomatis dengan tejemahan rujukan dan menggunakan konstanta yang dinamakan brevity penalty
+hasil penilaian terhadap hasil pengujian 1 terjemahan ke bahasa melayu sambas adalah : 58.50 %
+gambar 9 bleu score pengujian 1 table 1 nilai bleu pengujian 1 terjemahan ke bahasa melayu sambas 1 a 85.11 2 b 56.14 3 c 60.43 4 d 57.75 5 e 57.88 6 f 37.55 4.2.1.2 hasil bleu pengujian 2 hasil penilaian terhadap hasil pengujian 2 terjemahan ke bahasa indonesia adalah : 63.76 % gambar 10 bleu score pengujian 2 table 2 nilai bleu pengujian 2 terjemahan ke bahasa indonesia dari tabel 4.2 dan tabel 4.3 di atas, dapat dihitung rata-rata nilai bleu yang merepresentasikan akurasi dari sistem penerjemah bahasa indonesia ke bahasa melayu sambas yaitu sebesar 58.50 % dan sistem penerjemahan bahasa melayu sambas ke bahasa indonesia yaitu sebesar 63.76 %
+walau belum memuaskan, nilai ini bisa dikatakan cukup besar untuk penggunaan korpus yang relatif kecil
+hal ini dikarenakan bahasa indonesia merupakan bahasa yang diadopsi dari bahasa melayu sehingga tidak terlalu jauh perbedaannya dengan bahasa melayu sambas 4.2.2 pengujian aplikasi web penerjemah pengujian yang dilakukan pada aplikasi penerjemah dengan metode black-box dengan teknik sample tetsting
+black-box merupakan salah satu metode pengujian perangkat lunak
+black-box digunakan untuk menemukan kesalahan dan mendemonstrasikan fungsional aplikasi saat dioperasikan, apakah input diterima dengan benar dan output yang dihasilkan telah sesuai dengan yang diharapkan
+pengujian pertama dengan melakukan input kata pada aplikasi web penerjemah untuk terjemahan bahasa indonesia ke bahasa melayu sambas
+input satu kata yang ada di dalam korpus
+input dua kata yang ada di dalam korpus
+input tiga kata yang ada di dalam korpus
+input satu baris kalimat yang ada di dalam korpus
+input satu baris kata bahasa melayu sambas
+input satu baris kata bahasa indonesia
+input satu kata yang tidak ada di dalam korpus
+4.2.3 user acepptance test pengujian user acceptance merupakan pengujian terakhir yang digunakan untuk menguji tingkat kepraktisan oleh user terhadap aplikasi web penerjemah melalui pengujian langsung terhadap aplikasi dan tabel penilaian
+tabel penilaian dibagikan kepada 10 responden mahasiswa dan mahasiswi prodi teknik informatika universitas tanjungpura pontianak
+lembar user acceptance test dibagikan kepada responden beserta dengan prototype aplikasi yang dibuat sehingga responden dapat menilai aplikasi itu sendiri
+berikut tabel nilai dan kriteria kepraktisan
+tabel 3 tabel kriteria tingkat kepraktisan no range nilai kriteria 2 60% < x ≤ 80% praktis 3 40% < x ≤ 60% cukup praktis 4 20% < x ≤ 40% kurang praktis 5 0% < x ≤ 20% tidak praktis hasil pengujian user acceptance test disimpulkan dari 10 orang responden jumlah nilai yang didapat adalah 8916 dan nilai rata-rata 89, 16% dengan kriteria penilaian sangat baik
+perpaduan warna background aplikasi ini enak dilihat b
+ukuran dan jenis font mudah untuk dibaca c
+warna font mudah untuk di lihat d
+tampilan dari menu-menu aplikasi mudah untuk dimengerti e
+tampilan secara keseluruhan aplikasi ini f
+kemudahan untuk mengakses aplikasi melalui media internet h
+kemudahan penginputan bahasa sumber pada aplikasi i
+kemudahan menggunakan fitur-fitur yang ada pada aplikasi ini 90.5 95 93 90.8 88.2 84.5 80.3 86.5 94.5 a b c d e f g h i j j
+kenyamanan dalam penggunaan aplikasi ini secara keseluruhan 4.3 analisi hasil pengujian 1
+berdasarkan pengujian 1 dan pengujian dua yang dilakukan pada decoder moses nilai rata-rata bleu yang merepresentasikan akurasi dari sistem penerjemah bahasa indonesia ke bahasa melayu sambas yaitu sebesar 58.50 % dan sistem penerjemahan bahasa melayu sambas ke bahasa indonesia yaitu sebesar 63.76 %
+nilai ini bisa dikatakan cukup besar untuk penggunaan korpus yang relatif kecil
+hasil pengujian pada penerjemahan bahasa indonesia ke bahasa melayu sambas menunjukan bahwa saat dilakukan input bahasa melayu sambas, hasil terjemahan yang keluar sama dengan yang kita input, begitu juga dengan sebaliknya pada penerjemahan bahasa melayu sambas ke bahasa indonesia dilakukan input dengan bahasa indonesia, hasil terjemahan yang keluar sama dengan yang kita input, hal itu terjadi karena input bahasa yang sama dengan bahasa target yang ingin diterjemahkan
+hasil pengujian pada decoder moses dan aplikasi web penerjemah bahwa saat dilakukan input kata yang tidak ada di dalam korpus, hasil terjemahan yang keluar sama dengan kata yang di input, karena sistem ini tidak melakukan terjemahan kata yang tidak ada didalam korpus 
+berdasarkan hasil pengujian user acceptance dari 10 responden mahasiswa dan mahasiswi prodi teknik informatika universitas tanjungpura pontianak didapat jumlah 8916 dan nilai rata-rata 89, 16 %, disimpulkan bahwa aplikasi web penerjemah yang dirancang dinilai cukup berhasil dan dapat diterima oleh user dengan baik
+sebelumnya, maka kesimpulan yang dapat diambil sebagai berikut : 1
+aplikasi penerjemah diimplementasikan untuk menerjemahkan bahasa indonesia ke bahasa melayu sambas dan menerjemahkan bahasa melayu sambas ke bahasa indonesia dengan berbasis web
+hasil pengujian pada mesin penerjemah statistik dihitung rata-rata nilai bleu yang merepresentasikan akurasi dari sistem penerjemah bahasa indonesia ke bahasa melayu sambas yaitu sebesar 58.50% dan sistem penerjemahan bahasa melayu sambas ke bahasa indonesia yaitu sebesar 63.76%
+walau belum memuaskan, nilai ini bisa dikatakan cukup besar untuk penggunaan korpus yang relatif kecil
+dari hasil pengujian pada aplikasi web penerjemah, penerjemahan dengan mesin penerjemah statistik ini berhasil diintegrasikan ke dalam sebuah aplikasi berbasis web
+aplikasi web penerjemah yang dirancang dinilai berhasil, mudah dipahami oleh user, dan sangat praktis
+kesimpulan ini berdasarkan hasil uat dengan penilaian rata-rata 89, 16%
+biografi andri hidayat, lahir di singkawang, kalimantan barat, indonesia, 2 mei 1990
+memperoleh gelar sarjana dari program studi teknik informatika universitas tanjungpura, pontianak, indonesia, 2015

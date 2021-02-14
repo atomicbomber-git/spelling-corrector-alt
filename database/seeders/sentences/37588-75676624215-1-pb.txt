@@ -1,0 +1,171 @@
+eee paper template in a4 vol 6 no 1 april 2020 integrasi microlecture pada kelas virtual berbasis 3d virtual learning environment adhi rizal#1, dadang yusup*2 #*program studi teknik informatika, universitas singaperbangsa karawang jl
+ronggowaluyo, teluk jambe, karawang 1adhi.rizal@staff.unsika.ac.id 2dadang.dyf@staff.ac.id dikembangkan terdiri dari tiga bagian utama, yaitu bagian pendahuluan, inti, dan penutup dengan durasi masing- masing sekitar 30 detik, 12 menit, dan 11 detik
+micro-video dibuat dengan menggunakan bantuan kamera, microphone, dan beberapa video editor tools
+sedangkan lingkungan pembelajaran virtual dikembangkan berdasarkan framework addie 
+setelah lingkungan virtual berhasil dikembangkan, maka micro-video diintegrasikan ke dalamnya dan disajikan melalui objek presenter sehingga dapat dipelajari oleh peserta didik
+hasil implementasi menunjukan bahwa integrasi konsep yang diusulkan dapat meningkatkan hasil belajar peserta didik dibandingkan dengan konsep konvensional selain itu, hasil penerimaan pengguna berdasdarkan hmsam menunjukan bahwa sistem yang dikembangkan dapat diterima untuk digunakan dalam proses pembelajaran
+pendahuluan mempengaruhi lingkungan dan proses pembelajaran menjadi lebih dinamis, interaktif, dan dapat meningkatkan motivasi belajar
+peserta didik dan pengajar dapat melaksanakan proses pembelajaran di mana dan kapan saja
+salah satu penyebab hal ini adalah penerapan konten multimedia di lingkungan belajar yang disampaikan dengan bantuan media elektronik serta teknologi informasi dan komunikasi yang pada umumnya disebut dengan e- learning
+merupakan course management system merupakan salah satu konsep e-learning yang banyak digunakan selama beberapa tahun terakhir,
+vle merupakan platform pembelajaran yang dikembangkan menggunakan komputer yang memiliki beberapa karakteristik yaitu dinamis, virtualisasi dunia nyata, dan biasanya direpresentasikan kepada pengguna menggunakan grafis 3 dimensi, sehingga dapat disebut juga sebagai 3d virtual world 
+3d vw memiliki potensi yang sangat besar untuk diterapkan sebagai platform pembelajaran inovatif di masa depan
+selain itu platform ini juga menyediakan beberapa fitur khusus dan unik dengan melibatkan peserta didik kedalam pembelajaran kontekstual yang mirip dengan dunia nyata
+3d vw dapat diterapkan secara efektif pada aktivitas pembelajaran di sejumlah institusi pendidikan, ,,
+namun dari semua keunggulan yang ditawarkan, 3d vw juga memiliki beberapa kekurangan
+ketika peserta didik menggunakan sistem ini pertama kali, biasanya mereka tidak mengetahui apa yang harus dilakukan
+selain itu peserta didik juga dapat kehilangan fokusnya terhadap proses pembelajaran yang disebabkan oleh beberapa hal, misalnya peserta didik lebih tertarik untuk menjelajahi lingkungan virtual, termasuk melakukan penyesuaian terhadap avatarnya dan permasalahan teknis lain di dalam 3d vw
+selain itu, dengan penelitian yang dilakukan olehmenyatakan bahwa tingkat konsentrasi peserta didik dalam belajar hanya berlangsung sekitar 10 menit di dalam kelas
+selain dengan memanfaatakan teknologi, untuk menciptakan suatu proses pembelajaran yang lebih efektif, menarik, dan meningkatkan motivasi peserta didik dibutuhkan suatu upaya lain yang harus dilakukan
+oleh karena itu, untuk mengimbangi minimnya daya tahan konsentrasi yang dialami peserta didik, maka dibutuhkan suatu kegaitan pembelajaran yang relatif singkat namun memiliki fokus terhadap isu atau topik permasalahan tertentu dengan indikator pembelajaran yang jelas,
+microlecture ke dalam kegiatan pembelajaran menggunakan 3d-vle sebagai lingkungan pembelajaran
+hal ini dilakukan karena secara terpisah keduanya merupakan sarana yang sangat baik untuk meningkatkan kualitas proses belajar mengajar,
+selain itu, untuk mengetahui sejauh mana keberhasilan usulan integrasi yang dilakukan, maka dua tahap pengujian akan dilakukan
+pengujian pertama dilakukan untuk menginvestigasi pengaruh usulan konsep integrasi terhadap hasil belajar peserta didik
+kemudian pengujian selanjutnya dilakukan untuk mengidentifikasi respon peserta didik terhadap sistem menggunakan model penilaian hmsam
+dengan adanya integrasi ini diharapkan kualitas pembelajaran dapat meningkat dan diperoleh pemahaman baru mengenai alternatif konsep pembelajaran yang dapat dilaksanakan oleh peserta didik dan pengajar
+penelitian yang dilakukan olehbertujuan untuk mengenalkan konsep micro-class dan proses proses pelaksanaannya
+penelitian ini melakukan analisis terhadap delapan klasifikasi microlecture dan kemudian menerapkannya untuk diterapkan pada topik pembelajaran instalasi dan perbaikan sistem operasi komputer
+hasil dari penelitian ini adalah tahapan secara rinci berupa script untuk membuat microlecture video
+walaupun demikian penelitian ini tidak menerapkan microlecture video yang dikembangkan
+yang diterapkan pada kegiatan pembelajaran dengan tema general city planning
+platform ini mencakup beberapa fungsi, beberapa diantaranya adalah perangkat microlecture, perangkat untuk merekam video real-time dan video broadcast di dalam kelas, serta perangkat untuk menyajikan pertanyaan dan jawaban
+hasil penelitian ini menunjukan bahwa microlecture platform yang dikembangkan dapat digunakan dengan mudah sehingga optimal untuk diterapkan pada kegiatan pembelajaran antara peserta didik dan pengajar
+berikutnyaberupaya menginvestigasi penerapan microlecture pada topik pembelajaran english for business menggunakan pendekatan studi kasus
+penelitian ini fokus pada empat bidang, yaitu penyajian konten pembelajaran dengan teknologi, layanan pendukung pembelajaran, manajemen pembelajaran, dan pengalaman belajar peserta didik
+temuan dari penelitian menunjukan bahwa sebagian besar peserta didik puas dengan pembelajaran berbasis microlecture termasuk penerapan model flipped classroom yang diterapkan di dalamnya untuk mengoptimalkan proses pembelajaran
+mengembangkan microlecture yang diterapkan pada perangkat smartphone sehingga dapat memicu motivasi peserta didik dan meningkatkan kesadaran untuk melakukan inovasi
+tidak jauh berbeda, referensijuga mengembangkan microlecture dengan pembelajaran penelitian ini menunjukan bahwa konsep yang diusulkan dapat meningkatkan hasil belajar peserta didik dibandingkan dengan metode konvensional proses kegiatan belajar mengajar dengan menerapkan konsep microlecture dan didukung oleh berbagai teknologi penunjang
+berbeda dengan penelitian-penelitian yang telah dilakukan, penelitian ini mengusulkan integrasi konsep microlecture dengan lingkungan belajar virtual yang dilengkapi dengan objek dan lingkungan 3 dimensi
+metodologi penelitian terdiri dari lima tahap sesuai akronimnya, yaitu tahap analisis, tahap perencanaan, tahap pengembangan, tahap implementasi, dan tahap evaluasi
+secara lebih rinci, tahapan yang akan dilakukan dapat dilihat pada tabel i1
+kemudian untuk pengembangan konten microlecture video, penelitian ini mengadaptasi, dengan tahapan yang ditunjukan pada gambar
+hasil dan pembahasan karakteristik dari microlecture berhasil teridentifikasi
+pengguna dari sistem ini terdiri dari tiga jenis pengguna utama, yaitu peserta didik pengajar, dan administrator
+setiap kategori pengguna beserta aktivitas yang dapat dilakukannya di dalam sistem secara rinci ditunjukan pada tabel ii2
+tabel ii pengguna aktivitas peserta didik ▪ menggunakan chat untuk berdiskusi dengan pengajar atau peserta didik lain ▪ mengakses konten pembelajaran ▪ mengikuti kuis ▪ melihat nilai hasil belajar pengajar ▪ membuat bahan ajar ▪ meng-unggah bahan ajar ▪ membuat soal ▪ mendaftarkan peserta didik ▪ memantau aktivitas peserta didik ▪ mengakses chat untuk berkomunikasi dengan peserta didik secara umum pengajar dan administrator memiliki hak yang sama, namun terdapat administrator memiliki kelebihan untuk mengelola objek dan lingkungan virtual termasuk membuat, mengubah, atau menghapusnya
+sedangkan untuk peserta didik dibatasi hak aksesnya hanya untuk menggunakan objek-objek pembelajaran yang ada di dunia virtual pengembangan microlecture dalam penelitian ini dilakukan dengan mengadaptasi struktur model microlectureyang ditunjukan pada gambar
+terdapat beberapa karakteristik yang harus diperhatikan dalam membuat microlecture yaitu identifikasi pengaruh pembelajaran, norma pengajaran, perancangan struktur pengetahuan, serta pemilihan topik dan konten pembelajaran
+berdasarkan hal ini, maka microlecture yang dikembangkan memiliki beberapa kelebihan, yaitu merupakan model pembelajaran singkat, pembuatan materi pembelajaran lebih cepat, fokus pada inti pembelajaran, dapat dipelajari berulang, dan efisiensi waktu
+2 model microlecture dan skenario evaluasi pembelajaran
+bertujuan untuk mengetahui pengaruh penerapan integrasi microlecture dengan 3d-vle terhadap hasil belajar peserta didik
+berdasarkan hal ini, maka langkah pertama peserta didik dibagi menjadi dua kelompok kelas, yaitu kelas kontrol dan kelas eksperimen
+di awal kegiatan pembelajaran, setiap kelas diberikan pre-test
+sedangkan di akhir kegiatan pembelajaran, setiap kelas diberikan post-test
+namun kedua kelas tersebut menerima perlakukan berbeda ketika pelaksanaan kegiatan inti pembelajaran
+materi pembelajaran di kelas kontrol disampaikan secara konvensional 
+sedangkan penyampaian materi pembelajaran dan pelaksanaan post-test dilakukan dengan menggunakan konsep micro-video yang disampaikan melalui teknologi 3d-vle
+mengikuti alur yang ditunjukan pada gambar
+berdasarkan hal ini, maka alur pembelajaran di dalam sistem dibagi menjadi 3 kelompok aktivitas berdasarkan penggunanya yaitu kegiatan pembelajaran yang dilakukan oleh peserta didik dan pengajar serta alur pengelolaan sistem dan akun pengguna oleh administrator
+2) perancangan bahan ajar: microlecture dikembangkan berdasarkan salah satu sub topik di mata kuliah komputer dan masyarakat, yaitu siklus tren perkembangan teknologi berdasarkan gartner hype cycle
+micro-video yang akan diimplementasikan dirancang berdasarkan gambar
+3) arsitektur sistem: secara garis besar, sistem 3d- vle dibangun berdasarkan arsitektur client-server
+simulation linked object oriented dynamic learning environment
+server terdiri dari sebuah komputer yang terdiri dari beberapa teknologi, yaitu opensimulatorserver, sloodle, dan moodle 
+menyediakan lingkungan 3 dimensi berbasis open-source dengan fitur multi-platform dan multi-user
+opensimulator berfungsi untuk mengembangkan dan menyediakan lingkungan virtual yang ada di dalam sistem
+selain itu, aplikasi ini juga merupakan penghubung sehingga klien dapat berkomunikasi dengan server
+selain itu, untuk mendukung proses pembelajaran sehingga semua data atau informasi pengajar, materi pembelajaran, dan peserta didik dapat disimpan dan dikelola dengan baik, maka sistem ini juga menerapkan moodle sebagai learning management system 
+moodle merupakan platform e-learning yang memungkinkan pengajar mengembangkan kegiatan yang dikelola oleh moodle di dalam sistem ini adalah detail akun pengguna, konten/materi pembelajaran beserta soal- soal latihan atau kuis dan tugas, perkembangan belajar peserta didik yang dilihat dari kehadiran, interaksi, nilai dan data lainnya
+sloodle berfungsi sebagai jembatan yang mengintegrasikan lingkungan pembelajaran berbasis opensimulator dengan moodle
+dengan kata lain opensimulator dapat digunakan sebagai klien 3d alternatif untuk moodle dan menggantikan halaman page yang sebagian besar berbasis teks
+4) skenario evaluasi: di dalam penelitian ini, proses evaluasi dibedakan menjadi dua, yaitu investigasi pengaruh penerapan integrasi konsep terhadap hasil belajar peserta didik dan identifikasi tingkat penerimaan atau respon pengguna
+sesuai dengan perencanaan prosedur kegiatan pembelajaran, maka proses identifikasi pengaruh penerapan usulan konsep terhadap hasil belajar peserta didik dilakukan berdasarkan hasil pre-test dan post-test
+kedua nilai pre-test dan post-test dari kelas kontrol dan eksperimen dibandingkan untuk melihat apakah terdapat perbedaan 
+setelah dilakukan kalkulasi gain, tahap berikutnya adalah melakukan pengujian untuk menginvestigasi apakah terdapat dampak penerapan usulan konsep terhadap hasil belajar
+oleh karena itu penelitian ini menggunakan uji-t 2 sampel independen dengan dua kriteria hipotesis, yaitu h0: tidak terdapat perbedaan peningkatan hasil belajar antara kelas kontrol dengan kelas eksperimen dam h1: terdapat perbedaan peningkatan hasil belajar antara kelas kontrol dengan kelas eksperimen
+berdasarkan hasil kalkulasi uji-t, jika nilai signifikansi lebih besar dari 0, 05 maka h0 diterima dan h1 ditolak, dan sebaliknya
+untuk mengidentifikasi pengguna, penelitian ini mengembangkan instrumen kuesioner yang dikembangkan berdasarkan variabel-variabel yang ada pada hmsam
+hmsam merupakan suatu model yang terdiri dari 7 variabel dan digunakan untuk mengidentifikasi tingkat penggunaan dan adopsi dari suatu sistem
+variabel yang terdapat pada hmsam di tunjukan pada gambar
+hasil dari tahap pengembangan ini adalah objek dan lingkungan 3d-vle, konten pembelajaran berupa microlecture video, dan sistem 3d-vle secara keseluruhan
+1) objek dan lingkungan 3d: di dalam 3d-vle, pengguna dan objek pembelajaran lainnya masing-masing direpresentasikan sebagai avatar dan grafik digital 3 dimensi seperti yang ada pada dunia nyata
+berdasarkan hal ini maka setiap kategori pengguna dapat berinteraksi dengan objek pembelajaran yang ada di dalam sistem sesuai hak aksesnya, seperti yang ditunjukan pada tabel iii3
+objek 3d vle fungsi / aktivitas reg-enroll booth administrasi presenter atau ▪ quiz chair ▪ papan skor pada sistem ditunjukan pada gambar
+6 menunjukan pengguna yang direpresentasikan sebagai avatar
+setiap pengguna dapat melakukan penyesuaian terhadap avatarnya masing-masing, misalnya mengubah pakaian yang dikenakan atau mengubah postur wajah dan tubuh
+objek ini dikhususkan untuk peserta didik yang berfungsi agar peserta didik yang bersangkutan dapat mengikuti ujian/kuis sehingga semua informasi akunnya terekam di dalam sistem
+ketika peserta didik mengakses objek ini, maka akan muncul pop-up window yang akan mengarahkan ke halaman login moodle melalui browser untuk memasukan akunnya masing-masing
+setelah itu meraka harus mendaftarkan diri ke mata pelajaran yang akan diikuti
+setelah berhasil mendaftarkan diri, maka akun peserta didik di dalam opensimulator akan terintegrasi atau terhubung secara otomatis dengan moodle
+setelah mengakses reg-enroll booth, maka peserta didik dapat mengikuti pembelajaran di dalam kelas yang ditunjukan pada gambar
+ruang kelas terdiri dari beberapa objek penting, diantaranya adalah kursi, meja, dan presenter
+presenter merupakan objek yang digunakan untuk menampilkan konten pembelajaran dengan berbagai media, misalnya dalam bentuk gambar, menampilkan audio/video secara langsung, maupun sebagai browser 
+di dalam sistem yang dikembangkan, presenter digunakan untuk menampilkan slide bahan ajar dan micro-video pembelajaran
+sebelum video pembelajaran ditampilkan melalui presenter, video ini diunggah terlebih dahulu ke youtube
+oleh karena itu, presenter yang digunakan berfungsi sebagai browser untuk mengakses video pembelajaran melalui halaman web youtube
+di dalam ruangan ini terdapat sebuah objek utama, yaitu quiz chair yang dapat oleh peserta didik untuk duduk dan mengerjakan soal jika peserta didik tidak mendaftarkan dirinya terlebih dahulu malalui reg-enroll booth, maka mereka tidak dapat mengakses quiz chair
+ketika peserta didik berhasil mengakses quiz chair, maka setiap pertanyaan akan muncul melalui jendela pop-up di sudut atas kanan layar
+kemudian peserta harus memilih jawaban yang paling tepat diantara pilihan jawaban yang ada
+ketika setiap soal yang dijawab benar, maka quiz chair akan bergerak semakin ke atas 
+sedangkan jika mahasiswa menjawab salah, maka quiz chair tetap akan berada di posisinya
+konsep ini biasanya disebut dengan gamifikasi secara real-time, di mana peserta didik diharapkan termotivasi untuk memperoleh nilai yang lebih baik
+2) microlecture video: pada tahap ini micro-video dibuat dengan materi mengenai tren perkembangan teknologi
+sesuai tahapan yang ada pada gambar
+1, micro- video ini terdiri dari tiga bagian utama, yaitu pendahuluan, inti, dan kesimpulan
+bagian pendahuluan yang berdurasi sekitar 30 detik berisi pemaparan singkat mengenai perusahaan pencetus grafik hype cycle dan pemaparan apa yang akan disampaikan
+bagian inti memiliki durasi sekitar 12 menit, dan ditutup dengan bagian akhir yang memiliki durasi sekitar 11 detik
+tampilan micro-video yang telah dikembangkan dapat dilihat pada gambar
+proses pembuatan micro-video ini dilakukan dengan 3 tahapan utama, yaitu merekam pengajar yang memaparkan materi, membuat video animasi mengenai materi yang akan disampaikan, dan menggabungkan kedua video tersebut
+proses perekaman video dilakukan dengan menggunakan bantuan kamera dan microphone
+sedangkan pembuatan video animasi mengenai materi dilakukan dengan menggunakan bandicam yang dapat menangkap layar komputer secara real-time
+dengan cara ini, maka slide berupa grafik tren siklus perkembangan teknologi dapat disajikan menjadi bentuk video
+kemudian di tahap terakhir kedua video ini digabungkan dengan menggunakan ulead video studio
+proses penggabungan ini dilakukan dengan cara melakukan sinkronisasi waktu antara video pemaparan pengajar dan video animasi slide
+implementasi diimplementasikan ke dalam proses pembelajaran sesuai dengan skenario pembelajajaran
+tahapan yang harus dilakukan peserta didik adalah melakukan registrasi, melaksanakan pembelajaran, dan mengikuti kuis/ujian
+1) registrasi: aktivitas yang dilakukan pertama kali oleh peserta didik adalah melakukan registrasi dengan cara mengakses reg-enroll booth seperti yang ditunjukan gambar
+tujuan dari proses ini adalah agar akun peserta didik di dalam sistem dapat terhubung dan terdaftar di dalam mata pelajaran pada moodle dan dapat mengakses quiz chair untuk mengikuti ujian/kuis
+11 aktivitas registrasi peserta didik 2) pelaksanaan pembelajaran: setelah melakukan peserta didik, peserta didik mengikuti kegiatan pembelajaran yang di dalam ruang kelas
+di dalam ruang kelas ini tediri dari dua jenis presenter, yaitu untuk menampilkan slide dan presenter sebagai web browser
+di kelas ini peserta didik dapat mengamati micro-video maupun slide yang dapat diakses melihat halaman yang diinginkan
+13 ruang ujian menggunakan quiz chair gambar
+14 peserta didik melihat nilai melalui scoreboard 3) kuis/ujian: aktivitas ini bertujuan untuk sejauh mana pemahaman peserta didik dalam mengikuti proses pembelajaran
+di ruang ujian ini setiap peserta didik harus menempati quiz chair
+setelah menempati posisinya masing-masing, maka soal akan muncul di sudut kanan atas
+ketika peserta didik menjawab suatu soal, maka akan muncul notifikasi, baik benar maupun salah
+jika jawaban benar maka kursi yang ditempati akan bertambah tinggi, sedangkan jika jawaban salah maka kursi tidak akan bergerak dari posisinya saat ini
+hal ini dapat dilihat pada gambar
+13 yang menunjukan bahwa jumlah peserta didik yang menjawab benar atau salah bervariasi berdasarkan ketinggiannya
+kemudian setelah peserta didik menjawab semua pertanyaan, mereka dapat melihat nilai akhirnya melalui objek scoreboard yang ditunjukan pada gambar
+scoreboard akan menampilkan nilai yang diperoleh masing-masing peserta didik dan akan diperbarui secara otomatis setiap 60 detik
+dengan demikian, setiap peserta didik tetap dapat melihat nilainya, walaupun terdapat peserta didik yang terlambat menjawab seluruh soal e
+evaluasi dari kelas kelas kontrol dan kelas eksperimen
+sedangkan respon pengguna hanya diperoleh dari kelas eksperimen
+1) evaluasi hasil belajar: evaluasi hasil belajar dilakukan untuk menganalisis nilai pre-test dan post-test yang diperoleh dari kelas kontrol dan eksperimen
+rentang nilai yang digunakan pada penelitian ini adalah 0 – 100
+nilai rata-rata pre-test dan post-test dari masing-masing kelas dapat dilihat pada gambar
+15 rata-rata nilai pre-test dan post-test gambar
+16 perbedaan rata-rata nilai pre-test dan post-test kelas kontrol dan eksperimen kontrol dan kelas eksperimen masing-masing 37, 5 dan 37, 3 yang menunjukan bahwa kelas kontrol lebih unggul daripada kelas eksperimen
+walaupun demikian, perbedaan tersebut hanya memiliki selisih sebesar 0, 2
+perbedaan rata-rata nilai pre-test dan post-test dari kedua kelompok kelas dapat dilihat pada gambar
+gain untuk kelas kontrol bernilai 40%, sedangkan kelas eksperimen memperoleh gain sebesar 61, 9%
+hal ini menunjukan bahwa kelas eksperimen memiliki peningkatan nilai dari pre-test ke post-test yang lebih tinggi dengan selisih sebesar 21, 9%
+atau tidak terhadap hasil belajar, maka tahap berikutnya dilakukan uji hipotestis
+pengujian dilakukan untuk menguji hipotesis menggunakan uji-t 2 sampel independen
+hipotesis pada penelitian adalah sebagai berikut, h0: tidak terdapat perbedaan yang signifikan antara hasil belajar kelas kontrol dan kelas eksperimen h1: terdapat perbedaan yang signifikan antara hasil belajar kelas kontrol dan kelas eksperimen
+jika nilai signifikansi lebih besar dari 0, 05, maka h0 diterima dan h1 ditolak, dan berlaku sebaliknya
+17 menunjukan hasil uji-t dengan perolehan nilai sig
+dengan demikian h0 ditolak dan h1 diterima, sehingga dapat disimpulkan bahwa penerapan integrasi konsep memiliki pengaruh yang signifikan terhadap hasil belajar peserta didik
+petama kali login ke dalam sistem, pada awalnya mereka bingung dan tidak mengetahui apa yang harus dilakukan
+seperti yang dipaparkan dalam, sebagian besar dari mereka melakukan kustomisasi avatarnya masing-masing dan mengeksplorasi lingkungan virtual sehingga proses pembelajaran tidak terlaksana dengan efektif
+walaupun demikian, ketika masuk ke dalam ruang kelas dan disajikan micro-video beserta presenter yang menampung slide materi ajar, mereka mulai mengikuti proses pembelajaran dengan baik
+oleh karena itu, integrasi konsep yang diusulkan merupakan salah satu alternatif penunjang kegiatan pembelajaran yang dapat meningkatkan hasil belajar peserta didik
+2) analisis hmsam: hasil penerimaan pengguna terhadap sistem yang telah dikembangkan dapat dilihat pada gambar
+dari semua variabel yang terdapat pada hmsam, terdapat dua variabel yang memilki nilai di bawah 70, yaitu control dan perceived ease of use dengan perolehan nilai masing-masing sebesar 61, 5% dan 65, 6%
+kedua variabel tersebut masing-masing berkaitan dengan kemudahan dalam mengendalikan avatar dan interaksi avatar dengan objek dan lingkungan virtual di sekitarnya
+hasil penerapan sistem menunjukan bahwa ketika pertama kali peserta didik masuk ke dalam lingkungan virtual, mereka merasa kesulitan atau kebingungan dan tidak tahu apa yang harus dilakukan, seperti mengubah tampilan dan mengoperasikan avatar, berinteraksi dengan objek, dan melaksanakan kegiatan pembelajaran
+hal inilah yang menyebabkan rendahnya perolehan nilai dari dua variabel tersebut
+walaupun demikian, semakin lama dan sering menggunakan sistem, peserta didik mulai terbiasa dan leluasa mengendalikan mengendalikan avatarnya untuk berinteraksi dengan objek-objek yang ada pada sistem
+meskipun terdapat dua variabel yang memiliki nilai rendah, namun secara keseluruhan rata-rata perolehan nilai berdasarkan hasil kuesioner adalah sebesar 78, 61%
+berdasarkan hasil ini, maka peserta didik setuju bahwa sistem yang dikembangkan dapat beroperasi dengan baik dan memenuhi kebutuhan mereka sebagai teknologi penunjang proses pembelajaran
+hal ini disebabkan karena pada penelitian tersebut peserta didik lebih banyak melakukan eksplorasi terhadap lingkungan virtual dibandingkan dengan mengikuti proses pembelajaran
+namun dengan adanya penerapan microlecture di penelitian ini, maka peserta didik dapat lebih fokus untuk mengikuti proses pembelajaran
+berdasarkan hal ini, maka tujuan penelitian berhasil tercapai yang ditandai dengan adanya peningkatan hasil belajar serta sistem yang dapat diterima dengan baik oleh peserta didik untuk diterapkan pada proses pembelajaran
+micro-video yang dikembangkan terdiri dari tiga bagian utama, yaitu pendahuluan, bagian inti, dan bagian penutup yang masing-masing memiliki durasi sekitar 30 detik, 12 menit, dan 11 detik
+video pembelajaran ini dibuat dengan bantuan kamera, microphone, dan beberapa video editor tools
+selain mengembangkan micro-video, penelitian ini juga berhasil mengembangkan lingkungan pembelajaran virtual 3 dimensi menggunakan framework addie
+lingkungan virtual yang dikembangkan memiliki objek-objek 3 dimensi layaknya di dunia nyata untuk melaksanakan kegiatan pembelajaran
+setelah lingkungan virtual selesai dikembangkan, maka micro-video dimasukan ke dalamnya dan disajikan di dalam kelas melalui suatu objek yang disebut presenter sehingga dapat dipelajari oleh peserta didik
+pembelajaran konvensional selain itu hasil uji penerimaan pengguna berdasarkan hmsam juga menunjukan bahwa secara keseluruhan sistem yang dikembangkan dapat diterima untuk digunakan oleh peserta didik dalam melaksanakan pembelajaran
+oleh karena itu penulis mengucapkan terimakasih kepada dikti dan juga pihak-pihak terkait yang telah mendukung kami dalam penyelesaian penelitian ini

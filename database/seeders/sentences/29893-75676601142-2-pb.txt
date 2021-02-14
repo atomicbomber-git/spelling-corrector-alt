@@ -1,0 +1,157 @@
+eee paper template in a4 vol 5 no 1 april 2019 analisis penggunaan sensor kamera 3 dimensi kinect sebagai media pembelajaran perkuliahan berbasis student centered learning ario yudo husodo #1, fitri bimantoro #3, royana afwani # program studi teknik informatika, fakultas teknik, universitas mataram jl
+majapahit no 62 mataram, lombok, nusa tenggara barat
+1 ario@unram.ac.id 2 bimo@unram.ac.id 3 arimbawa@unram.ac.id 4 royana@unram.ac.id universitas di indonesia umumnya dilakukan menggunakan laptop yang terhubung ke sebuah proyektor
+di dalam proses pengajaran, dosen cenderung menggunakan laptop di ruang kelas, menghubungkan tampilan layar laptop ke sebuah proyektor, kemudian menggunakan wireless pointer sebagai pengendali slide presentasi
+pendekatan semacam ini sayangnya tergolong kurang efektif di dalam perkuliahan berbasis student centered learning 
+di dalam scl, mahasiswa merupakan pusat kegiatan perkuliahan, dimana keterlibatan dan interaksi mahasiswa di dalam proses penyampaian materi merupakan hal terpenting guna meningkatkan animo dan pemahaman mahasiswa mempelajari suatu topik
+penggunaan teknologi perkuliahan konvensional seperti laptop dan wireless pointer cenderung membuat perkuliahan menjadi 1 arah karena interaksi mahasiswa kurang dapat tersalurkan
+di dalam penelitian ini, dilakukan analisis dampak penggunaan teknologi informasi sensor kamera 3 dimensi kinect sebagai media pembelajaran dalam suatu sistem smart classroom
+kinect merupakan sensor yang dapat menangkap gerakan tangan seseorang kemudian menginterpretasikan gerakan tersebut sebagai suatu perintah komputasi berdasarkan algoritma pemrograman tertentu
+berdasarkan hasil penelitian, penggunaan kinect terbukti dapat meningkatkan tingkat pemahaman mahasiswa di dalam pembelajaran scl sebesar 16% dan tingkat ketertarikan belajar mahasiswa sebesar 12% karena mahasiswa dapat berinteraksi di dalam suatu materi perkuliahan secara lebih alami menggunakan gerakan tangan
+pendahuluan atau sering disebut juga sebagai student centered learning merupakan suatu sistem pembelajaran yang memosisikan mahasiswa sebagai inti dari proses belajar mengajar
+dalam scl, mahasiswa diarahkan agar dapat mengembangkan kepribadian, kapasitas, kreativitas, dan kemandirian di dalam mencari dan menemukan pengetahuan
+untuk meningkatkan kualitas lulusan yang kompetitif di masa globalisasi saat ini, setiap perguruan tinggi sebaiknya dapat mengembangkan metode perkuliahan berbasis scl
+hal ini dikarenakan melalui penerapan scl, secara simultan perguruan tinggi dapat meningkatkan kompetensi soft skill dan hard skill setiap mahasiswa
+dengan penerapan metode perkuliahan berbasis scl, perguruan tinggi dapat secara lebih optimal melaksanakan amanah peraturan menteri riset, teknologi, dan pendidikan tinggi nomor 44 tahun 2015 tentang standar nasional pendidikan tinggi pasal 11 ayat 1, yang menyatakan bahwa perguruan tinggi dituntut untuk mampu meningkatkan kualitas pembelajarannya melalui pengembangan proses pembelajaran yang interaktif, integratif, kontekstual, holistik, efektif, kolaboratif, dan berpusat pada mahasiswa
+diketahui bahwa penggunaan audio-visual terbukti membuat proses pembelajaran berjalan lebih mudah dan lebih menarik
+hasil penelitian tersebut sejalan dengan yang dilakukan oleh [2, 3], yang berkesimpulan bahwa penggunaan teknologi pendidikan dalam pengajaran teruji efektif untuk menambah minat mahasiswa untuk mempelajari suatu materi
+berdasarkan studi literatur yang dilakukan terhadap beberapa penelitian, diperoleh informasi bahwa penggunaan teknologi dan media pembelajaran yang tepat dapat meningkatkan antusiasme dan pemahaman pelajar di dalam menerima suatu materi di ruang kelas [4-13]
+berbagai universitas di indonesia saat ini kurang efektif di dalam menerapkan pendidikan berbasis scl
+saat ini, kegiatan belajar mengajar di berbagai perguruan tinggi di indonesia umumnya dilakukan menggunakan laptop yang terhubung ke sebuah proyektor
+di dalam proses pengajaran, dosen cenderung menggunakan laptop di ruang kelas, menghubungkan tampilan layar laptop ke sebuah proyektor, kemudian menggunakan wireless pointer sebagai pengendali slide presentasi
+di dalam scl, mahasiswa merupakan pusat kegiatan perkuliahan, dimana keterlibatan dan interaksi mahasiswa di dalam proses penyampaian materi merupakan hal terpenting guna meningkatkan animo dan pemahaman mahasiswa mempelajari suatu topik
+penggunaan teknologi perkuliahan konvensional seperti laptop dan wireless pointer cenderung membuat perkuliahan menjadi 1 arah karena interaksi mahasiswa kurang dapat tersalurkan
+untuk itu, perlu dikembangkan suatu pemanfaatan teknologi pendidikan yang dapat mengoptimalkan hasil positif dari pendidikan berbasis scl dengan mengoptimalkan perkembangan teknologi digital terkini
+justifikasi usulan metode seiring dengan berkembangnya teknologi digital saat ini, penerapan teknologi informasi dan komunikasi dapat digunakan untuk meningkatkan kualitas proses belajar mengajar dalam dunia pendidikan
+di dalam proses perkuliahan yang ada di indonesia saat ini, umumnya teknologi tik yang digunakan untuk proses belajar mengajar adalah laptop, proyektor, dan wireless pointer untuk mengendalikan slide presentasi
+penggunaan teknologi tik saat ini sayangnya masih berfokus pada tujuan untuk mempermudah dosen di dalam menyampaikan suatu materi
+proses untuk mempermudah mahasiswa di dalam menerima suatu materi dengan cara yang menyenangkan masih kurang terakomodasi di dalam penerapan tik saat ini
+menyatakan sebagian besar mahasiswa berpendapat bahwa gambar bergerak mampu meningkatkan pemahaman mereka dan menarik minat mahasiswa
+hal ini mengindikasikan bahwa proses penyampaian materi perkuliahan yang cenderung 1 arah dan bersifat monoton merupakan metode penyampaian yang kurang efektif karena mudah membuat mahasiswa merasa bosan
+dikutip dari sebuah referensi, diketahui bahwa sebagian besar informasi yang diserap seseorang berasal dari tindakan yang orang tersebut lakukan dan pernyataan apa yang orang tersebut sampaikan
+oleh karena itu, guna menaikkan tingkat pemahaman dan ketertarikan mahasiswa terhadap suatu proses pembelajaran di dunia perkuliahan, perlu dikembangkan suatu teknologi pendidikan yang dapat membuat seorang mahasiswa melakukan tindakan dan mengatakan sesuatu tentang topik bahasan tertentu dengan perasaan senang
+teknologi pendidikan yang diperlukan dalam hal ini berupa perangkat teknologi digital yang dapat digunakan oleh dosen dan mahasiswa untuk menunjang aktivitas pembelajaran sedemikian sehingga setiap dosen dan mahasiswa dapat berinteraksi dengan baik agar tingkat pemahaman dan ketertarikan mahasiswa terhadap suatu materi perkuliahan dapat terjaga kualitasnya
+hal ini dimaksudkan agar mahasiswa tersebut dapat lebih memahami dan antusias terhadap suatu materi perkuliahan
+kinect merupakan suatu sensor kamera 3 dimensi yang dapat menangkap suatu citra digital dengan dilengkapi informasi jarak suatu benda dari sensor kinect
+kinect merupakan produk kamera yang diproduksi khusus oleh microsoft
+terdapat dua varian kamera kinect, yaitu kinect xbox 360 dan kinect xbox one
+secara fungsionalitas, tidak terdapat perbedaan signifikan dari kedua varian tersebut
+kinect xbox one merupakan versi kinect yang lebih baru dimana pada kinect xbox one, kualitas gambar yang dapat ditangkap lebih informatif dibandingkan dengan kinect xbox 360
+gambar 1 menunjukkan wujud fisik variasi kinect
+varian bentuk fisik sensor kamera kinect aspek terpenting di dalam sensor kamera kinect adalah terdapatnya sensor kedalaman yang dapat mengukur jarak suatu objek dari lokasi kamera
+dengan kemampuan ini, kinect dapat melakukan rekonstruksi 3 dimensi dari objek-objek yang terdapat di hadapan kinect seperti yang terlihat pada gambar 2
+dari hasil rekonstruksi tersebut, dengan pemrograman yang tepat, kinect dapat mengenali bagian-bagian tubuh seseorang seperti yang tertera pada gambar 3
+setelah mengenali lokasi keberadaan bagian tubuh seseorang, kinect dapat diprogram untuk melakukan segmentasi area seperti area tangan
+dari hasil segmentasi ini, kinect dapat mengolah citra area suatu bagian tubuh untuk dikonversi menjadi suatu perintah komputasi
+gambar 4 menunjukkan ilustrasi pengenalan tangan manusia untuk dikonversi menjadi suatu perintah berdasarkan bahasa isyarat tangan
+contoh hasil rekonstruksi 3 dimensi kinect gambar 3
+contoh hasil pengenalan bagian tubuh manusia oleh kinect gambar 4
+ilustrasi hasil pengenalan bahasa isyarat tangan oleh kinect (sumber: https://www.microsoft.com/en-us/research/project/fully- untuk mengoptimalkan efektivitas scl di dalam mendukung tujuan pendidikan tinggi, kinect dapat dijadikan sebuah alternatif teknologi pendidikan yang dapat digunakan secara efektif
+dalam hal ini, tingkat efektivitas suatu teknologi pendidikan diukur berdasarkan tingkat pemahaman dan ketertarikan mahasiswa terhadap suatu materi yang disampaikan
+semakin tertarik dan semakin paham sekumpulan mahasiswa terhadap suatu materi perkuliahan mengindikasikan bahwa proses pembelajaran berlangsung semakin efektif
+seperti yang telah dipaparkan di bagian awal, dalam sistem scl, mahasiswa merupakan aspek pusat dari keseluruhan proses belajar mengajar
+guna meningkatkan antusiasme dan pemahaman mahasiswa terhadap suatu materi secara efektif, mahasiswa perlu dilibatkan untuk berinteraksi secara aktif ketika suatu materi sedang disampaikan
+keterlibatan mahasiswa dapat ditunjang menggunakan kinect sebagai media penangkap instruksi mahasiswa berdasarkan bahasa isyarat tangan
+gambar 5 menunjukkan ilustrasi penggunaan kinect dalam suatu kelas berbasis scl
+tugas tersebut selanjutnya diselesaikan mahasiswa dengan cara menggerakkan tangannya untuk memberikan perintah terhadap program komputer yang sedang dijalankan dosen
+dengan penggunaan kinect ini, mahasiswa dapat secara lebih natural menyelesaikan suatu persoalan karena mahasiswa cukup menggunakan bahasa isyarat tangan sebagai masukan perintah komputasi
+dalam suatu sistem smart-classroom, kinect dapat dijadikan sensor masukan untuk mengontrol peralatan digital yang ada di ruangan kelas seperti ac
+dalam penelitian ini, fokus kajian diarahkan pada peran teknologi kinect dalam meningkatkan efektivitas pembelajaran berbasis scl
+di lain pihak, metode kuantitatif merupakan metode yang berupaya memperoleh data angka terkait suatu penelitian, yang dalam hal ini diterapkan menggunakan penyebaran kuesioner kepada responden, yaitu dosen dan mahasiswa
+pemilihan populasi, sampel, pengumpulan data dan instrumen merupakan langkah-langkah yang dilakukan di dalam metode penelitian ini
+penelitian ini diuji pada mahasiswa teknik informatika, fakultas teknik universitas mataram 
+secara lebih spesifik, populasi yang digunakan pada penelitian ini adalah mahasiswa peserta kuliah internet of things 
+alasan dipilihnya peserta kuliah iot sebagai populasi adalah karena mata kuliah iot di teknik informatika ft-unram merupakan mata kuliah yang berbasis proyek, dimana mahasiswa kerap kali diminta untuk merancang suatu desain sistem, kemudian mempresentasikannya di kelas dengan cara memaparkan komponen penyusun sistem tersebut
+dengan diterapkannya teknologi kinect, mahasiswa peserta iot dapat lebih secara natural memaparkan komponen penyusun suatu sistem dan dapat melakukan zoom-in ataupun zoom-out menggunakan bahasa isyarat tangan secara lebih alami
+pada penelitian ini, pemilihan sampel dilakukan dengan metode purposive sampling dengan beberapa kriteria
+populasi yang digunakan adalah peserta kuliah iot yang terdiri atas 68 orang, dimana keseluruhan populasi ini dibagi ke dalam 2 kelas paralel
+dari setiap kelas, diambil 5 mahasiswa untuk diwawancara secara ekstensif dalam sudut pandang mereka sebagai pemakai kinect di dalam mempresentasikan sesuatu
+di sisi lain, di setiap kelas juga dipilih 20 orang mahasiswa untuk dimintai survei perihal tingkat animo dan antusiasme mereka ketika menyaksikan penggunaan kinect sebagai peralatan media pembelajaran berbasis scl
+terakhir, wawancara ekstensif juga dilakukan kepada dosen pengampu mata kuliah untuk meninjau efek dari penggunaan kinect terhadap tingkat pemahaman mahasiswa secara keseluruhan
+dengan demikian, secara umum populasi di dalam penelitian ini dibagi menjadi 3 kategori, yaitu presenter, penonton, dan dosen pengampu
+digunakan di dalam penelitian ini, adalah sebagai berikut
+1) wawancara: wawancara merupakan teknik pengumpulan data yang dilakukan dengan cara memberikan pertanyaan intensif secara personal terhadap responden yang ingin dimintai keterangan
+pada penelitian ini, wawancara dilakukan untuk memperoleh pemahaman rinci tentang topik yang sedang dikaji, yaitu pengaruh penggunaan kinect terhadap metode perkuliahan berbasis scl
+dalam penelitian ini, wawancara dilakukan terhadap mahasiswa yang terpilih sebagai sampel presenter dan dosen pengampu mata kuliah yang menggunakan kinect sebagai media penunjang pembelajaran berbasis scl
+pada penelitian ini, peserta kuliah iot di minggu awal perkuliahan diminta menjalankan kuliah menggunakan teknologi konvensional, kemudian di pertengahan semester diminta untuk menggunakan kinect sebagai media penunjang
+di minggu-minggu terakhir pelaksanaan kuliah, peserta diminta kembali menggunakan teknologi konvensional sebagai media pembelajaran
+fokus utama dari wawancara yang dilakukan adalah mengumpulkan pemahaman terkait pendapat pribadi responden tentang pengaruh penggunaan kinect terhadap efektivitas penyampaian suatu topik perkuliahan
+yang dilakukan untuk mengetahui perkembangan teknologi penunjang pembelajaran berbasis scl
+secara umum, studi literatur yang digunakan di dalam penelitian ini berhubungan dengan smart-classroom, yaitu suatu konsep kelas pintar yang terdiri atas beragam teknologi penunjang sebagai media pembelajaran
+berdasarkan studi literatur yang dilakukan [4-13], dapat diambil kesimpulan bahwa penggunaan teknologi dan media pembelajaran yang tepat dapat meningkatkan antusiasme dan pemahaman pelajar di dalam menerima suatu materi di ruang kelas
+dengan demikian, dari hasil tahapan studi literatur, diharapkan penelitian ini dapat menghasilkan suatu metode penerapan teknologi pembelajaran yang efektif di dalam perkuliahan berbasis scl
+3) survei: survei merupakan teknik pengumpulan data dengan cara memberikan daftar pertanyaan yang sama kepada sekumpulan responden
+teknik ini digunakan untuk mengumpulkan data kuantitatif berisikan statistik terhadap suatu topik tertentu
+pada penelitian ini, survei dilakukan menjadi 2 tahap, yaitu sebelum dan sesudah penggunaan kinect diterapkan di kelas
+hal ini sesuai dengan prinsip yang diterapkan oleh
+kuesioner dikembangkan berdasarkan skala lima poin likert yang sudah dimodifikasi sesuai dengan kebutuhan
+pertanyaan pada survei dirancang sedemikian rupa agar mudah dipahami dan dapat mengukur tingkat pengaruh penggunaan kinect terhadap antusiasme mahasiswa
+survei ini ditujukan kepada sampel populasi yang dipilih sebagai kategori penonton
+desain integrasi teknologi pengajaran kinect di dalam sistem scl pada sub bab ini, dijelaskan tentang rancangan integrasi kinect sebagai media pembelajaran di dalam sistem perkuliahan berbasis scl
+fokus utama sub bab ini adalah untuk menunjukkan bagaimana kinect dipasang sebagai salah satu komponen penunjang perkuliahan
+pada sub bab ini juga akan ditunjukkan mekanisme interaksi mahasiswa ketika menggunakan kinect di dalam menyampaikan suatu materi dalam sistem scl
+secara umum, di dalam penelitian ini, kinect diletakkan di suatu area kelas yang berada dekat komputer / laptop presentasi
+posisi berdiri presenter diarahkan agak menyamping agar dapat melihat tampilan layar proyektor dan penonton di saat yang bersamaan
+hal ini dilakukan agar interaksi pembicara dengan penonton tetap dapat dilakukan ketika pembicara sedang memberikan perintah komputasi ke kamera kinect
+adapun rancangan integrasi kinect dalam sistem scl dapat dilihat pada gambar 6
+gambar 7 dan gambar 8 secara berturut-turut menunjukkan implementasi penggunaan kinect oleh dosen dan mahasiswa ketika sudah digunakan di ruang perkuliahan yang sebenarnya
+implementasi penggunaan kinect oleh dosen pengampu gambar 8
+implementasi penggunaan kinect oleh mahasiswa b
+dampak penggunaan kinect sebagai media pembelajaran berbasis scl guna mengetahui efektivitas integrasi kinect sebagai media pembelajaran, dilakukan penyebaran kuesioner sebelum dan sesudah penggunaan kinect
+kuesioner ini dilakukan terhadap 40 orang mahasiswa yang tersebar di 2 kelas yang berperan sebagai penonton
+kuesioner pada penelitian ini dibagi menjadi 2 kategori, yaitu pra-survei dan pasca-survei 
+selain itu, wawancara juga dilakukan terhadap dosen dan mahasiswa yang berperan sebagai pemakai kinect sebagai media penunjang presentasi
+adapun detail hasil efektivitas pemakaian kinect dipaparkan sebagai berikut
+dua informasi utama, yaitu menyangkut tingkat pemahaman dan tingkat ketertarikan mahasiswa di dalam mempelajari suatu materi perkuliahan
+pada hasil pra- survei ini, tabel 1 dan tabel 2 berturut-turut menunjukkan data tingkat pemahaman dan tingkat ketertarikan mahasiswa terhadap materi perkuliahan yang dibawakan sebelum kinect digunakan sebagai media pembelajaran
+untuk itu, agar kedua parameter ini dapat terukur secara kuantitatif, maka dilakukan pengumpulan data terhadap kedua parameter ini sebelum dan sesudah kinect digunakan
+sesuai dengan paparan pada sub bahasan metodologi penelitian, jumlah mahasiswa yang dikumpulkan untuk memperoleh data survei adalah sebanyak 40 orang
+tabel 1 kinect umpan balik disampaikan frekuensi 0 4 19 12 5 persentase 0 10% 47.5% 30% 12.5% tabel 2 umpan balik disampaikan frekuensi 2 11 21 4 2 persentase 5% 27.5% 52.5% 10% 5% pengumpulan data pada tabel 1 dilakukan dengan cara memberikan pertanyaan berupa kuis kepada mahasiswa
+kemudian nilai dari kuis tersebut dikelompokkan menjadi 5 buah kelompok nilai, yaitu 20% benar, 40% benar, 60% benar, 80% benar, dan 100% benar
+pengelompokan ini dilakukan dengan cara membulatkan nilai kuis mahasiswa ke dalam kategori kelompok nilai terdekat
+metode pengumpulan data pada tabel 1 juga digunakan untuk mengumpulkan data pada tabel 3
+yang menjadi perbedaan hanyalah waktu pengumpulan data
+pada tabel 3, data dikumpulkan setelah kinect digunakan sebagai teknologi penunjang pembelajaran berbasis scl
+pengumpulan data pada tabel 2 dilakukan dengan cara memberikan sebuah pertanyaan berupa pilihan ganda kepada para mahasiswa, yaitu berupa seberapa besar tingkat ketertarikan mereka terhadap penyampaian suatu materi perkuliahan
+di pertanyaan tersebut, terdapat 5 alternatif pilihan ganda berupa persentase tingkat ketertarikan setiap mahasiswa
+pilihan ganda yang tersedia berupa interval yang terdiri atas 100%, 80%, 60%, 40%, dan 20%
+semakin tinggi nilai persentase mengindikasikan semakin tertarik seorang mahasiswa terhadap suatu materi perkuliahan
+metode pengumpulan data pada tabel 2 juga digunakan untuk mengumpulkan data pada tabel 4, dimana pengumpulan data pada tabel 4 dilakukan setelah kinect digunakan
+metode pengumpulan data yang digunakan pada tabel 2 dan tabel 4 merupakan metode yang serupa dengan metode pengumpulan data yang dilakukan oleh
+pada tabel 1, tabel 2, tabel 3, dan tabel 4, baris frekuensi menunjukkan banyaknya mahasiswa yang dikelompokkan berdasarkan bobot tingkat pemahaman atau ketertarikan tertentu, sedangkan baris persentase menunjukkan persentase mahasiswa yang dikelompokkan berdasarkan bobot tingkat pemahaman atau ketertarikan tertentu
+secara sederhana, baris persentase diperoleh dengan cara membagi baris frekuensi dengan total mahasiswa yang dijadikan sampel penelitian, yaitu 40 orang
+penggunaan kinect sebagai media penunjang pembelajaran, hasil pasca-survei ini juga terdiri atas 2 informasi utama yang sejalan dengan pertanyaan yang terdapat pada pra-survei
+pada hasil pasca-survei ini, tabel 3 dan tabel 4 berturut-turut menunjukkan data tingkat pemahaman dan tingkat ketertarikan mahasiswa terhadap materi perkuliahan yang dibawakan setelah kinect digunakan sebagai media pembelajaran
+tabel 3 tingkat pemahaman materi perkuliahan setelah penggunaan kinect umpan balik disampaikan frekuensi 3 12 20 5 0 persentase 7.5% 30% 50% 12.5% 0 tabel 4 penggunaan kinect disampaikan frekuensi 6 20 14 0 0 persentase 15% 50% 35% 0 0 ∑ ∑ persamaan 
+pada, nilai kolektif menunjukkan tingkat rata-rata hasil pengukuran keseluruhan mahasiswa terhadap suatu parameter, dalam hal ini adalah tingkat pemahaman ataupun tingkat ketertarikan mahasiswa terhadap suatu mata kuliah
+pada, fi menunjukkan frekuensi kemunculan data ke-i, sedangkan bi menunjukkan bobot persentase suatu frekuensi kemunculan, yaitu dalam hal ini 100%, 80%, 60%, 40% atau 20%
+pada, n menunjukkan banyaknya variasi data, yaitu 5
+setiap frekuensi kemunculan data akan dikalikan dengan bobot persentase data tersebut, kemudian hasilnya akan dirata-ratakan untuk menyimpulkan tingkat pemahaman dan ketertarikan secara kolektif
+pada, nk merupakan nilai kolektif dari tingkat pemahaman mahasiswa sebelum penggunaan kinect
+dengan menerapkan persamaan yang sama, maka tingkat pemahaman secara kolektif mahasiswa setelah menggunakan kinect adalah setara dengan 67%, artinya terdapat peningkatan tingkat pemahaman sebesar 16% akibat penggunaan kinect
+apabila dikaji menggunakan dasar perhitungan yang sama, maka tingkat ketertarikan secara kolektif mahasiswa sebelum dan sesudah penggunaan kinect secara berturut- turut adalah 64% dan 76%
+hal ini mengindikasikan bahwa penggunaan kinect dapat meningkatkan ketertarikan mahasiswa secara kolektif terhadap suatu mata pelajaran sebesar 12%
+dilihat bahwa dengan penggunaan kinect, pemahaman dan ketertarikan mahasiswa di dalam mempelajari suatu materi menjadi semakin meningkat
+dapat dilihat dari tabel 1 dan tabel 3, tingkat pemahaman mahasiswa yang cenderung berada dalam level menengah ke bawah, berubah menjadi menengah ke atas
+hal ini mengindikasikan bahwa mahasiswa menjadi semakin paham terhadap suatu materi setelah kinect digunakan sebagai media penunjang
+hal serupa juga terjadi dari sisi ketertarikan mahasiswa terhadap suatu materi
+jika dilihat dari tabel 2 dan tabel 4, terlihat bahwa tingkat ketertarikan mahasiswa cenderung meningkat setelah kinect digunakan
+dengan demikian, dapat dianalisis bahwa penggunaan kinect sebagai media pembelajaran memang berdampak positif terhadap efektivitas pembelajaran berbasis scl, dimana tingkat pemahaman mahasiswa secara kolektif dapat ditingkatkan hingga 16% dan tingkat ketertarikan mahasiswa secara kolektif terhadap suatu materi dapat ditingkatkan hingga 12%
+3) hasil wawancara: dalam rangka memperoleh data kualitatif secara mendalam terhadap dampak penggunaan kinect sebagai media pembelajaran, dilakukan wawancara terhadap dosen dan mahasiswa yang pernah menggunakan kinect sebagai teknologi presentasi
+dari sisi dosen, pertanyaan utama yang diajukan adalah perihal bagaimana interaksi dan tingkat pemahaman mahasiswa penonton selama pembelajaran dilakukan
+untuk memperoleh informasi tersebut, dosen kerap kali mengajukan pertanyaan lisan ke mahasiswa setelah suatu materi tersampaikan
+setelah kinect digunakan, dosen merasa mahasiswa menjadi lebih tertarik untuk memperhatikan materi karena kinect mempermudah dosen untuk memvisualisasikan suatu materi secara lebih alami
+dosen dapat aktif berinteraksi dengan mahasiswa sambil memberikan instruksi ke kinect menggunakan bahasa isyarat tangan
+interaksi mahasiswa dan dosen pun menjadi semakin aktif akibat banyak mahasiswa yang memperhatikan materi yang disampaikan secara interaktif
+ditinjau dari sisi pemahaman, dosen merasa mahasiswa semakin paham tentang materi perkuliahan yang disampaikan
+hal ini dikarenakan dosen dapat memainkan animasi interaktif terkait suatu materi menggunakan kinect, sehingga materi dapat tersampaikan dengan lebih mendalam dan interaktif
+ketika dosen mengajukan pertanyaan terkait suatu materi, dosen merasa bahwa semakin banyak mahasiswa yang ingin menjawab pertanyaan tersebut
+ketika mahasiswa diberikan kesempatan menjawab, secara umum jawaban mahasiswa adalah tepat
+sebagai media penunjang presentasi, mahasiswa merasa sangat terbantu dengan penggunaan kinect
+mahasiswa merasa dapat melakukan presentasi secara lebih natural dan interaktif
+jika dibandingkan dengan presentasi menggunakan teknologi konvensional, mahasiswa merasa tidak dapat berinteraksi secara fleksibel dan slide presentasi pun dirasa agak monoton
+dengan penggunaan kinect, mahasiswa merasa lebih senang melakukan presentasi dan berpendapat bahwa semakin banyak materi yang dapat mereka sampaikan dengan cara yang lebih menyenangkan
+para mahasiswa yang diwawancara juga merasa dengan penggunaan kinect, semakin banyak teman mereka yang aktif mendengarkan presentasi dibandingkan menggunakan teknologi presentasi kinect sebagai media pembelajaran berbasis scl dalam suatu sistem smart classroom menunjukkan bahwa kinect secara praktik terbukti dapat meningkatkan pemahaman dan ketertarikan mahasiswa di dalam mempelajari suatu materi
+dalam penelitian ini, dilakukan wawancara terhadap dosen pengajar dan mahasiswa yang menggunakan kinect sebagai media presentasi, kemudian dilakukan penyebaran kuesioner terhadap 40 orang mahasiswa peserta mata kuliah yang menggunakan kinect
+dari hasil wawancara dan survei, secara kualitatif dan kuantitatif, model pembelajaran berbasis scl dapat menjadi lebih efektif ketika ditunjang oleh penggunaan kinect sebagai media pembelajaran berbasis penerapan teknologi informasi terkini
+berdasarkan penelitian, penggunaan kinect dapat meningkatkan tingkat pemahaman mahasiswa sebesar 16% dan tingkat ketertarikan mahasiswa sebesar 12%

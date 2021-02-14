@@ -1,0 +1,39 @@
+dr soedarso merupakan rumah sakit rujukan tertinggi tingkat propinsi, sehingga rumah sakit ini banyak dikunjungi keluarga maupun kerabat pasien yang datang dari berbagai daerah
+informasi yang diberikan oleh rumah sakit tentang lokasi ruang pelayanan tersebut hanyalah berdasarkan penjunjuk arah yang ada di setiap simpang lorong rumah sakit
+hal tersebut menyulitkan pengunjung karena harus menghafal jalur lorong yang akan dituju atau hanya mengandalkan plang yang tersedia
+dengan permasalahan yang ditemui, maka dibuatkan suatu sarana penyajian informasi yang dapat memudahkan pengunjung dalam mencari ruangan yang ada, salah satunya dapat berupa virtual tour yang dikombinasikan dengan denah lokasi ruangan pada rsud
+virtual tour merupakan teknik fotografi untuk menampilkan foto suatu lokasi secara berkelanjutan, tidak terpotong dan tanpa tepi dalam sudut pandang 360 0
+melalui aplikasi virtual tour yang dikombinasikan dengan pemandu arah yang berupa denah lokasi ruangan yang ada, diharapkan dapat memudahkan pengunjung dalam mencari lokasi ruang pelayanan dengan melihat lingkungan secara lebih nyata melalui dunia maya
+proses pembuatan aplikasi dimulai dari pengambilan gambar yang menggunakan kamera digital slr dengan lesa fish eye, penggabungan gambar menjadi gambar panorama spherical dengan teknik stitching
+aplikasi ini melakukan pengujian black-box dan user acceptance test 
+berdasarkan hasil pengujian black-box dapat dikethaui bahwa aplikasi telah sesuai dengan kebutuhan dan dapat berjalan dengan baik
+hasil dari pengujian uat yang dihitung menggunakan skala likert didapatkan hasil rata-rata 86, 1% dan dinilai sangat baik
+dapat disimpulkan bahwa aplikasi virtual tour pada rsud
+dr soedarso ini telah berhasil dibuat dan dapat membantu pengguna daam menemukan ruangan pada rsud
+dr soedarso melalui denah lokasi yang diberikan
+dr soedarso, virtual tour, teknik stitching tempat menyelenggarakan upaya kesehatan
+upaya kesehatan adalah setiap kegiatan untuk memelihara dan meningkatkan kesehatan yang bertujuan untuk mewujudkan derajat kesehatan yang optimal bagi masyarakat
+.rumah sakit umum daerah dr soedarso merupakan salah satu rumah sakit milik pemerintah di pontianak, kalimantan barat
+berdasarkan peraturan gubernur kalimantan barat nomor 71 tahun 2008 tentang tugas pokok, fungsi dan tata kerja rumah sakit umum daerah dokter soedarso, maka rumah sakit ini ditetapkan menjadi rumah sakit rujukan tertinggi tingkat propinsi dan juga sebagai lembaga teknis daerah tipe kelas b pendidikan
+berdasarkan keputusan menteri kesehatan republik indonesia nomor hk.03.05/iii/3970/09 tentang penetapan rumah sakit umum daerah dokter soedarso pontianak kalimantan barat ditetapkan sebagai rumah sakit pendidikan, dalam hal ini bekerja sama dengan fakultas kedokteran universitas tanjungpura pontianak
+dr soedarso memiliki ruang pelayanan yang tersebar pada gedung yang memiliki luas 21.735, 54 m 2
+ruang pelayanan yang dimaksud merupakan ruang perawatan, ruang pengambilan obat jaminan kesehatan nasional rawat jalan, icu, ruang endoskopi, ruang instalasi diagnostic, ruang medical check-up, klinik fisioterapi, ruang operasi, apotek, dan lain sebagainya
+dr soedarso merupakan rumah sakit rujukan tertinggi tingkat propinsi, sehingga rumah sakit ini banyak dikunjungi keluarga maupun kerabat pasien yang datang dari berbagai daerah
+tidak sedikit dari mereka yang merasa bingung untuk mencari lokasi ruang pelayanan
+informasi yang diberikan oleh rumah sakit tentang lokasi ruang pelayanan tersebut hanyalah berdasarkan penjunjuk arah yang ada di setiap simpang lorong rumah sakit
+hal tersebut menyulitkan pengunjung karena harus menghafal jalur lorong yang akan dituju atau hanya mengandalkan plang yang tersedia
+dengan permasalahan yang ditemui, maka dibuatkan suatu sarana penyajian informasi yang dapat memudahkan pengunjung dalam mencari ruangan yang ada, salah satunya dapat berupa virtual tour yang dikombinasikan dengan denah lokasi ruangan pada rsud
+virtual tour merupakan teknik fotografi untuk menampilkan foto suatu lokasi secara berkelanjutan, tidak terpotong dan tanpa tepi dalam sudut pandang 360 0
+melalui aplikasi virtual tour yang dikombinasikan aplikasi virtual tour pada ruang pelayanan rsud dr soedarso pontianak nur harsi yurida#1, anggi srimurdianti sukamto#2, hafiz muhardi#3 #program studi informatika universitas tanjungpura jl
+virtual tour kumpulan foto-foto panorama, kumpulan gambar yang terhubung oleh hyperlink, ataupun video, atau virtual model dari lokasi yang sebenarnya, serta dapat menggabungkan unsur-unsur multimedia lainnya seperti efek suara, music, narasi, dan tulisan
+berbagai macam video dan media berbasis fotografi
+kata mengindikasikan sebuah pandangan yang tidak terputus
+karena panorama bisa berupa sekumpulan foto memanjang ataupun hasil pengambilan video yang kameranya dapat berputar/bergeser
+tetapi istilah dan virtual tour paling sering di asosiasikan dengan virtual tour yang diciptakan dengan kamera foto yang tidak bergerak
+virtual tour ini dibuat dari sejumlah foto yang diambil dari sebuah titik pivot
+suatu titik yang tepat berada pada bagian belakang lensa dimana cahaya berkumpul
+kamera dan lensa dirotasi berdasarkan apa yang disebut 
+easypano easypano telah menembus pasar global melalui distribusi internet yang maju dan kemitraan strategis dengan produsen dan pengembang
+easypano didirikan pada bulan november 2001, di shanghai, china
+hingga oktober 2013, easypano telah memiliki lebih dari 30.000 pelanggan dari 180 negara
+solusi tur virtualnya telah diterima di seluruh dunia dan banyak digunakan di hampir setiap industry

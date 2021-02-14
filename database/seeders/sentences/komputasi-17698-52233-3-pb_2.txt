@@ -1,0 +1,84 @@
+bahasa menjadi faktor penting dalam penyampaian pengetahuan dan acuan dalam penulisan dokumen, komunikasi dan pencarian informasi
+apabila dalam penulisan dokumen terdapat kesalahan maksud penulisan tersebut menjadi berbeda
+oleh karena itu, dibutuhkan sebuah program yang dapat mendeteksi kesalahan penulisan dan memberikan sugesti kata yang benar
+salah satu fitur yang dapat digunakan untuk mendeteksi kesalahan dan memberikan sugesti kata yang benar adalah fitur spelling corrector atau spelling checker atau spelling suggestion
+fitur ini berfungsi sebagai pendeteksi kesalahan dan memberikan panduan bagi penggunanya dengan menandai kata-kata yang tidak terdaftar dalam kamus suatu bahasa tertentu
+fitur ini juga disertai dengan sugesti kata yang berfungsi menyediakan rekomendasi kata-kata yang mendekati kata yang dimaksud
+hal ini yang mendasari untuk membandingkan metode spelling corrector peter norvig dan spelling checker bk-trees dalam hal memberikan sugesti kata menggunakan bahasa indonesia sehingga dapat dijadikan acuan sebagai pilihan pengguna membuat aplikasi yang membutuhkan fitur pengoreksian kata
+spelling corrector peter norvig menggunakan cara dengan mengubah jarak kata yang salah atau dengan mengubah kata yang salah menjadi dua kata dan sejumlah suntingan yang dibutuhkan untuk mengubah satu ke yang lain
+bk- trees atau burkhard-keller tree adalah struktur data berupa pohon yang dibuat oleh burkhard dan keller pada tahun 1973 untuk mencari satu atau beberapa string yang mirip atau mendekati string yang menjadi input-an dan memanfaatkan metode levesthein distance untuk mendapatkan nilai sebagai pembanding kata yang salah dengan yang benar
+kamus yang dibuat menggunakan data korpus data berita online
+hasil analisis perbandingan metode spelling corrector peter norvig dan spelling cherker bk-trees pada kata berbahasa indonesia ini dapat diketahui bahwa metode peter norvig dapat memberikan 52, 8% tingkat ketepatan yang lebih baik daripada metode bk-trees yang menghasilkan 9%
+namun, metode spelling checker bk-trees lebih unggul dalam hal tingkat keberhasilan 100% memberikan sugesti kata dan kecepatan rata-rata pemberian sugesti kata yang lebih rendah dari peter norvig
+dalam bentuk tulisan, bahasa menjadi faktor penting dalam penyampaian pengetahuan dari generasi ke generasi
+bahasa juga menjadi acuan dalam penulisan dokumen, komunikasi dan pencarian informasi
+apabila dalam penulisan dokumen terdapat kesalahan maksud penulisan, pencarian atau komunikasi tersebut menjadi berbeda
+oleh karena itu, dibutuhkan sebuah program yang dapat mendeteksi kesalahan penulisan dan memberikan sugesti kata yang benar
+benar adalah fitur spelling corrector atau spelling checker atau spelling suggestion
+fitur ini berfungsi sebagai pendeteksi kesalahan dan memberikan panduan bagi penggunanya dengan menandai kata-kata yang tidak terdaftar dalam kamus suatu bahasa tertentu
+fitur ini juga disertai dengan sugesti kata yang berfungsi menyediakan rekomendasi kata-kata yang mendekati kata yang dimaksud
+hal ini dapat meminimalkan kesalahan eja atau salah ketik pada penulisan dokumen, pencarian informasi dan komunikasi
+yang sudah banyak digunakan pada bahasa inggris juga dapat diimplementasikan pada bahasa indonesia karena adanya kesamaan alfabet yang digunakan
+adalah seorang director of research google yang merupakan perusahaan search engine dan algoritma unik yang digunakan peter dengan mengkombinasikan proses menghapus, menambah, mengubah dan mengganti huruf pada kata yang salah
+proses ini memungkinkan kombinasi kata dengan huruf alfabet menjadi lebih bervariasi untuk dapat di cek kembali pada kamus
+mengusung kamus kata seperti akar pohon ini menggunakan nilai dari metode levesthein distance untuk menemukan kata yang benar dengan mencocokan nilai satu kata dengan kata lainnya
+metode spelling corrector peter norvig dan spelling checker bk-trees dalam hal memberikan sugesti kata menggunakan bahasa indonesia sehingga dapat dijadikan acuan sebagai pilihan pengguna membuat aplikasi yang membutuhkan fitur pengoreksian kata
+semua bentuk analisis berusaha menggambarkan pola-pola secara konsisten dalam data sehingga dapat dipelajari dan diterjemahkan dengan cara yang singkat dan penuh arti
+spelling corrector peter norvig algoritma utama spelling corrector peter norvig adalah dengan mengubah jarak kata yang salah atau dengan mengubah kata yang salah menjadi dua kata dan sejumlah suntingan yang dibutuhkan untuk mengubah satu ke yang lain
+memisahkan kata yang salah menjadi 2 kata dengan memisahkan antara 1 huruf dengan huruf selanjutnya
+mengubah satu huruf ke yang lain
+split, deletion, transposition, an alteration atau an insertion 
+spelling checker bk-trees bk-trees atau burkhard-keller tree adalah struktur data berupa pohon yang dibuat oleh burkhard dan keller pada tahun 1973 untuk mencari satu atau beberapa string yang mirip atau mendekati string yang menjadi input-an
+bk-trees digunakan untuk melakukan „fuzzy‟ search dan spelling checking
+contongnya ketika kita mencari maka spell- checker akan menampilkan kata dan 
+untuk mencari satu atau beberapa string yang mirip atau mendekati string yang menjadi input-an, dibutuhkan suatu metode yaitu dengan mancari leveshtein distance 
+jarak levenshtein antara dua string adalah jumlah minimum penyisipan, penghapusan, dan penggantian yang dibutuhkan agar string sama dengan string lainnya
+data korpus istilah korpus berasal dari bahasa latin yang berarti body dan jamak dari korpus adalah corpora (knowles dan zuraidah mohd
+istilah ini diambil dari kata yang terdapat pada kalimat “
+.any body of texts, however small nad homogeneous, which the linguist assembled for the purpose of analysis
+bagaimanapun, dalam kajian ini istilah yang digunakan adalah korpus atau data korpus sama dalam bentuk tunggal atau jamak
+dalam bidang linguistik, istilah korpus linguistik merupakan istilah modern yang muncul pada tahun 1980-an dan telah dijadikan metodelogi secara meluas dalam kajian linguistik
+pada umumnya istilah ini digunakan untuk merujuk data bahasa yang terbentuk yang dijadikan asas dalam penyelidikan linguistik 
+precision dan recall precision adalah proposi jumlah dokumen yang ditemukan dan dianggap relevan untuk kebutuhan pencari informasi
+recall adalah proposi jumlah dokumen yang dapat ditemukan kembali oleh sebuah proses pencarian sistem ir 
+dokumen yang relevan dalam database sangat besar
+oleh karena itu presisi-lah yang biasanya menjadi salah satu ukuran yang digunakan untuk menilai keefektivan suatu sistem temu balik informasi
+perolehan berhubungan dengan kemampuan sistem untuk memanggil dokumen yang relevan, sedangkan ketepatan berkaitan dengan kemampuan sistem untuk tidak memanggil dokumen yang tidak relevan 
+presisi juga merupakan cara ukur tingkat efektivitas sistem temu balik informasi
+pengukuran tingkat ketepatan dalam kegiatan penelusuran menurut hasugian : sistem untuk memanggil dokumen yang relevan, sedangkan ketepatan berkaitan dengan kemampuan sistem untuk tidak memanggil dokumen yang tidak relevan 
+berikut rasio tingkat ketepatan dalam kegiatan penelusuran menurut hasugian : keterangan : dengan skenario pengujian skenario pengujian, tapi tersugesti oleh metode skenario pengujian di dalam metode gambar 1, untuk dapat diproses oleh metode untuk menghasilkan kata- kata suggestion yang mendekati kata yang dimaksud
+flowchart kamus peter norvig pada flowchart metode spelling corrector peter norvig memiliki 2 modul
+flowchart kandidat kata peter norvig selanjutnya metode dapat menerima input-an kata/kalimat untuk dapat dicek apakah kata yang di-inputkan salah atau benar yang di proses pada modul pencarian kandidat kata yang akan dijelaskan pada gambar 3
+gambar 3 flowchart kandidat kata peter norvig d
+flowchart kamus bk-tees pada flowchart metode spelling checker bk-trees terdapat 2 modul
+modul membuat kamus pada metode spelling checker bk-trees akan dijelaskan pada gambar 4
+flowchart kandidat kata bk trees selanjutnya metode dapat menerima input-an kata/kalimat untuk dapat dicek apakah kata yang di-inputkan salah atau benar yang di proses pada modul pencarian kandidat kata yang akan dijelaskan pada gambar 5
+hasil perancangan form utama kamus merupakan form yang digunakan untuk mengecek dan melihat korpus yang telah menjadi kamus di kedua metode
+pada form ini terdapat perhitungan ukuran file, jumlah kata unik dalam kamus, total kata, serta waktu yang dibutuhkan metode membuat kamus
+antarmuka hasil perancangan form utama kamus dapat dilihat pada gambar 7
+form utama koreksi ini merupakan form yang digunakan untuk menampilkan hasil suggestion dari kata input-an yang salah
+hasil pengujian keberhasilan suggestion kata pengujian ini dilakukan dengan 160 kata salah dengan 9 skenario kesalahan yang ditemukan pada korpus
+analisis pengujian berikut ini adalah analisis dari hasil pengujian yang telah dilakukan : 1
+dari keseluruhan pengujian yang dilakukan didapatkan hasil 52, 8% tingkat ketepatan metode peter norvig lebih baik dari bk-trees dengan 9% tingkat ketepatan dalam menemukan kata sugesti yang sesuai dengan skenario pengujian pada setiap kata yang salah
+rendahnya tingkat ketepatan bk-trees ini diakibatkan nilai distance yang di atur, semakin tinggi nilai distance yang di atur pada aplikasi, maka semakin banyak pula sugesti kata yang diberikan
+dari keseluruhan pengujian juga didapatkan hasil 100% tingkat keberhasilan metode bk-trees dalam menemukan kata yang benar dan sesuai dengan skenario pengujian daripada metode peter norvig yang menghasilkan 77, 3% tingkat keberhasilan
+hal ini menjelaskan bahwa metode bk-trees dapat mengambil semua sugesti yang sesuai dengan skenario pengujian dari korpus yang memiliki nilai distance 2
+dari pengujian yang dilakukan ketahui bahwa dengan tingkat ketepatan yang tinggi, metode peter norvig masih memiliki kekurangan karena beberapa pengujian yang telah dilakukan ditemukan bahwa metode peter norvig tidak dapat menemukan keseluruhan sugesti yang ada dalam korpus, bahkan tidak dapat memberikan sugesti terhadap kata yang salah
+dapat dilihat pula peter norvig mulai kesulitan dengan kesalahan dengan 2 huruf, hal ini dimungkinkan karena algoritma peter norvig yang melakukan perubahan dengan rentan 1 huruf
+dari pengujian yang telah dilakukan juga diketahui bahwa rendahnya tingkat ketepatan metode bk-trees dikarenakan banyaknya kata sugesti yang diberikan oleh metode karena korpus masih terdapat kata bahasa inggris dan singkatan atau kode yang menjelaskan suatu hal dalam sebuah artikel berita online
+dari hasil waktu yang tercatat, metode spelling corrector peter norvig memiliki keunggulan kecepatan pembentukan kamus daripada metode spelling checker bk-trees
+hal ini dimungkinkan karena data korpus yang digunakan masih tergolong kecil dan tidak sesuai dengan sistematika penggunaan database untuk spelling cherker bk-trees
+dari hasil waktu pencarian sugesti pada setiap kata yang di ujikan, bahwa rata-rata kecepatan waktu untuk pencarian kata pada spelling checker bk-trees lebih stabil di kecepatan 3, 611 ms, dibandingkan spelling corrector peter norvig
+hal ini dikarenakan sistem penyusunan kamus bk-trees yang menggunakan kamus pohon yang meminimalisir pencarian yang terlalu jauh karena dibatasi dengan nilai distance yang telah di atur
+sedangkan pada peter norvig yang memanfaatkan sistem kamus model list kecepatan waktu yang lebih lama dalam pencarian kata dipengaruhi oleh model kamusnya, sehingga pada list kata yang paling bawah memerlukan waktu yang lebih banyak karena harus melakukan pengecekan satu persatu
+selain dikarenakan kamus peter norvig, kemungkinan kecepatan waktu yang lama juga karena sistem pencarian kandidat yang memerlukan modul deletes, transposes, replace, dan insert pada 1 kata yang berulang-ulang, pengulangan akan semakin panjang jika jumlah huruf pada kata yang dicari makin banyak
+hasil analisis perbandingan metode spelling corrector peter norvig dan spelling cherker bk-trees pada kata berbahasa indonesia ini dapat diketahui bahwa metode peter norvig dapat memberikan 52, 8% tingkat ketepatan yang lebih baik daripada metode bk-trees yang menghasilkan 9%
+hasil analisis perbandingan metode spelling corrector peter norvig dan spelling cherker bk-trees pada kata berbahasa indonesia ini dapat diketahui bahwa metode spelling checker bk-trees lebih unggul dalam hal keberhasilan dengan 100% memberikan sugesti kata dan kecepatan rata-rata pemberian sugesti kata
+jurnal lebanon : lebanese association for computational sciences dagdag, rowena dan kimberly p
+the use and evaluation of a sound out or error only sound out procedure on the spelling performance of a third grade student
+https://en.wikipedia.org/wiki/spell_checker and recall form multi class classification problems”
+http://text- efektifitas sistem temu kembali informasi melalui penilaian recall dan precision di perpustakaan kementrian sosial dan tinjauan menurut islam”
+united states of america : prentice-hall, inc
+recall and f-factor to roc, informedness, markedness & correlation
+”how to wrie a spelling corrector in c#”
+”the bk-tree – a data structure for spelling checking”

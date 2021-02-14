@@ -1,0 +1,77 @@
+perkembangan teknologi komunikasi di indonesia semakin mempermudah setiap orang dalam melakukan pekerjaan diberbagai bidang, khususnya dalam bidang pendidikan
+salah satu perkembangan teknologi komunikasi adalah internet universitas tanjungpura adalah lembaga yang bergerak di bidang pendidikan
+dalam pekerjaannya, internet digunakan sebagai sarana untuk melakukan beberapa pekerjaan seperti pengiriman email, browsing, download materi-materi dan aplikasi-aplikasi khusus yang diperlukan
+penelitaian ini bertujuan untuk menganalisis kualias jaringan internet yang ada di universitas tanjungpura sebagai upaya untuk optimalisasi jaringan agar menghasilkan kualitas jaringan internet yang lebih baik dari sebelumnya
+fifo, pcq, sfq dan red yang akan diterapkan pada mikrotik rb1100
+metode fifo, pcq, sfq dan red merupakan metode dari simplequeue yang dapat dipergunakan dalam penyettingan mikrotik
+dalam proses analisis penelitian ini, akan dilakukan penyetinggan pada mikrotik dengan menggunakan metode fifo, pcq, sfq dan red
+untuk penyetingan mikrotik dapat dilakukan menggunakan aplikasi winbox
+pada setiap metode yang diterapkan, akan di analisis dengan menggunakan aplikasi wireshark
+hasil analisis dari keempat meode akan dibandingan dengan pembobotan berdasarkan standar tiphon
+semakin besar nilai yang didapat berdasarkan standar tiphon, semakin baik kualitas jaringan internet yang dihasilkan
+sehingga dalam penelitian ini akan menghasilkan metode yang terbaik untuk diterapkan pada jaringan internet universitas tanjungpura sebagai upaya optimalisasi jaringan internet i
+pendahuluan melalui proyek arpa yang disebut arpanet, dimana mereka mendemonstrasikan bagaimana dengan hardware dan software komputer yang berbasis unix, kita bisa melakukan komunikasi dalam jarak yang tidak terhingga melalui saluran telepon
+perancangan jaringan komputer dengan menggunakan mikrotik kali ini, penulis menggunakan metode queue tree
+metode tersebut adalah pcq, sfq, fifo dan red 
+yang dimana dalam perancangan sistem jaringan komputer kali ini, mikrotik rb1100 sebelumnya telah di lakukan penyettingan dengan metode fifo
+pada tahap analisa, hanya akan dilakukan perbandingan dari metode pcq, sfq dan red yang akan diterapkan pada mikrotik rb1100 dengan metode fifo pada mikrotik rb1100
+sumber: makalah jaringan komputer erdiansyah universitas hasanuddin
+dalam hasil akhirnya akan di simpulkan metode mana yang dapat menghasilkan layanan jaringan internet paling optimal komputer-komputer yang didesain untuk dapat berbagi sumber daya, berkomunikasi, dan dapat mengakses informasi 
+tujuan dari jaringan komputer adalah agar dapat mencapai tujuannya, setiap bagian dari jaringan komputer dapat meminta dan memberikan layanan 
+qos dari segi networking, qos mengacu kepada kemampuan memberikan pelayanan berbeda kepada lalulintas jaringan dengan kelas-kelas yang berbeda
+tujuan akhir dari qos adalah memberikan network service yang lebih baik dan terencanadengan dedicated bandwith, jitter dan latency yang terkontrol dan meningkatkan loss karakteristik
+berikut adalah penjelasan mengenai parameter-parameter yang digunakan dalam penilaian qos yang baik : perbandingan metode pcq, sfq, sebagai upaya optimalisasi program studi teknik informatika jurusan teknik elektro fakultas teknik universitas tanjungpura tommy.tommy181090@yahoo.com1, gibrand_vanhallen@yahoo.com2, y_suanda@yahoo.com3 1
+throughput merupakan jumlah total kedatangan paket yang sukses yang diamati pada tujuan selama interval waktu tertentu dibagi oleh durasi interval waktu tersebut.persamaan perhitungan throughput : 2
+delay dapat dipengaruhi oleh jarak, media fisik, kongestiatau juga waktu proses yang lama
+menurut versi tiphon, besarnya delay dapat diklasifikasikan sebagai berikut : bagus 150 s/d 300 ms 3 sedang 300 s/d 450 ms 2 jelek > 450 ms 1 persamaan perhitungan delay : jitter lazimnya disebut variasi delay
+terdapat empat kategori penurunan performansi jaringan berdasarkan nilai peak jitter sesuai dengan versi tiphon, yaitu : bagus 0 s/d 75 ms 3 sedang 75 s/d 125 ms 2 jelek 125 s/d 225 ms 1 persamaan perhitungan jitter : total variasi delay = delay - rata-rata delay 4
+packet loss tiphon sebagai berikut : tabel 4 packet loss sangat bagus 0 % 4 c
+metode-metode queue tree algoritma pcq sangat sederhana, awalnya dilakukan pengelompokkan untuk membedakan satu substream dari yang lainnya
+kemudian pcq akan menentukan besaran antrian dan melakukan pembatasan pada setiap substream secara individual berikut ini adalah diagram algoritma dari metode pcq : 2
+sfq stochastic fairness queue memastikan paket yang dapat masuk dengan membaginya menggunakan algoritma roundrobin
+sebuah traffik dapat diidentifikasi secara unik dengan 4 cara yaitu src-address, dst address, src port, dst- port
+parameter inilah yang digunakan oleh algoritma hashing sfq untuk mengelompokkan paket ke salah satu dari 1024 substream
+berikut adalah diagram algoritma dari metode sfq: mulai gambar 2 diagram algoritma metode sfq 3
+red random early drop adalah mekanisme antrian yang mencoba untuk menghindari kemacetan jaringan dengan mengontrol nilai rata-rata antrian
+nilai rata-rata antrian dibandingkan dengan dua batas yaitu batas bawah dan batas atas 
+jika rata-rata antrian kurang dari batas minimum, tidak akan ada paket yang ditolak
+ketika rata-rata antrian lebih besar dari batas maximum, semua paket yang masuk akan ditolak
+tetapi ketika rata-rata antrian antara batas minimum dan maximum paket akan diacak kemudian ditentukan nilai probabilitasnya 
+berikut adalah diagram algoritma dari metode red : metode antrian fifo adalah paket data yang pertama datang akan diproses terlebih dahulu dan dimasukkan ke dalam antrian, kemudian dikeluarkan sesuai dengan urutan kedatangannya.berikut adalah diagram algoritma metofe fifo: iii
+arsitektur jaringan arsitektur jaringan adalah hubungan antara perancangan sistem jaringan yang akan dibuat dengan yang sudah ada
+yaitu mengenai kinerja jaringan internet sebelumnya dan yang akan dibuat
+dalam hal ini melibatkan bagaimana administrator melakukan pengaturan dan penyetingan metode pada mikrotik, sehingga dapat dibandingkan kualitas yang didapat pada setiap metode yang diterapkan pada mikrotik untuk mendapatkan kinerja yang paling optimal gambar 5 arsitektur jaringan b
+analisis kineja jaringan universitas tanjung pura adalah sebagau berikut : 1
+pemetaan jaringan internet yang dirancang berdasarkan lokasi setiap komputer yang terhubung pada ruang server fakultas teknik universitas tanjungpura
+fakultas teknik universitas tanjungpura akan dilakukan penyetingan mikrotik dengan menerapkan metode pcq, sfq, red dan fifo
+pcq, sfq, red dan fifo pada mikrotik dan menilai hasil mulai yang diterapkan
+laboratorium ict fakultas teknik universitas tanjungpura
+berdasarkan hasil survey yang didapatkan, pada dasarnya laboratorium ict telah memiliki server dan sebuah mikrotik sendiri untuk mengelola jaringan komputer pada laboratorium ict
+berikut adalah arsitektur jaringan yang ada pada laboratorium ict : teknik dibuat
+mulai dari proses awal seperti perancangan dan implementasi metode-metode yang akan diterapkan hingga hasil analisis kinerja jaringan internet dari sistem sedang berjalan yang telah dibuat
+berikut adalah diagram konteks dari jaringan internet yang akan dibuat pada laboratorium ict fakultas teknik untan
+hasil analisis 2 jenis jaringan internet yang tersedia yaitu lan dan hotspot
+berdasarkan batasan masalah yang ada pada judul skirpsi mahasiswa kali ini, akan terfokus pada jaringan lan fakultas teknik universitas tanjungpura
+pengumpulan dan pengambilan data traffic jaringan internet untuk kebutuhan dalam analisis qos akan dilakukan dalam 2 sesi, sesi sibuk dan spei
+pengambilan data traffic dilakukan selama 5 hari berturut-turut untuk setiap metodenya.pertama kali akan dilakukan penyettingan pada tiap mikrotik dengan menggunakan metode pcq, sfq, red dan fifo pada sesi jam sibuk dan sepi dan diambil data traffic pada setiap ruangan di gedung akademik dan jurusan.berikut adalah contoh pengambilan dan pengujian data trafficinternet ruang kasubag jurusan elektro pada tanggal 6 april 2015 sesi sibuk dengan menerapkan metode fifo : gambar 8 screenshot ping server local pada jam sibuk dengan menggunakan command prompt gambar 9 screenshot ping server luar pada jam sibuk dengan menggunakan command prompt berdasarkan hasil screenshot yang didapat, rata-rata delay hasil pengukuran command prompt pada jam sibuk di ruang kasubag jurusan elektro adalah sebagai berikut : tabel 5rata-rata delay pada jam sibuk 6 april 2015 di ruang kasubag jurusan elektro www.facebook.com 245 ms gambar 10 screenshot pingtest.net pada jam sibuk di ruang kasubag jurusan elektro berdasarkan gambar 10, pengujian trafficinternet pada ruang kasubag jurusan elektro dengan menggunakan upt puskom router ict switch lab 14.42 wib) menunjukkan jitter sebesar 1 milisecond dengan grade b*
+gambar 11 screenshot pingtest.net pada jam sibuk di ruang kasubag jurusan elektro biznetspeedtest tanggal 6 april 2015 pada jam sibuk menunjukkan bahwa kecepatan download sebesar 99, 84 kb/sec dan kecepatan upload sebesar 418, 56 kb/sec
+gambar 12 screenshot capture wireshark pada jam sibuk di ruang kasubag jurusan elektro  pengujian throghput pada jam sibuk tanggal 6 april 2015 dengan menerapkan metode fifo pada ruang kasubag jurusan elektro berdasarkan capturewireshark gambar 12
+= 7465826 bytes / 291, 225 s 800 kbps dengan menerapkan metode fifo pada ruang kasubag jurusan elektro berdasarkan capturewireshark gambar 12
+rata-rata delay = total delay / total paket diterima = 291, 225 s / 12257 = 0, 02376 s = 23, 76 ms  pengujian delay pada jam sibuk tanggal 6 april 2015 dengan menerapkan metode fifo pada ruang kasubag jurusan elektro berdasarkan capturewireshark gambar 12
+jitter = total variasi delay / = / = 291, 225 s - 0, 02376 s / 12257 = 291, 201 s / 12257 = 0, 02376 s = 23, 76 ms  pengujian throghput pada jam sibuk tanggal 6 april 2015 dengan menerapkan metode fifo pada ruang kasubag jurusan elektro berdasarkan capturewireshark gambar 12
+packet loss= x100% paket data dikirim = x 100 % 12257 = 0 % tabel 6rekapitulasi parameter qos tanggal 6 april 2015 pada sesi sibuk di ruang kasubag jurusan elektro throughput 25, 63% sedang jitter 23, 76 ms bagus berikut adalah rekapitulasi hasil analisis yang telah dilakukan selama 5 hari berturut-turut pada sesi sibuk dan sepi untuk setiap metode yang diterapkan : tabel 5perbandingan nilai akhir qos pada jam sibuk dan sepi jurnal teknik informatika universitas tanjungpura, 6 gambar 13grafik perbandingan nilai tiap-tiap parameter qos pada jam sibuk gambar 14grafik perbandingan nilai tiap-tiap parameter qos pada jam sepi v
+kesimpulan fakultas teknik universitas tanjungpura, dapat disimpulkan bahwa: 1
+pengukuran terhadap parameter qos pada sesi sibuk dilakukan dengan mengimplementasikan 4 metode pada mikrotik rb1100 yang ada pada laboratorium ict fakultas teknik universitas tanjungpura
+pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode fifo didapatkan nilai 3, 27 dengan kategori 
+pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode pcq didapatkan nilai 3, 22 dengan kategori 
+pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode sfq didapatkan nilai 3, 20 dengan kategori 
+dan yang terakhir pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode red didapatkan nilai 3, 17 dengan kategori 
+berdasarkan hasil akhir yang didapatkan dengan standar tiphon, maka pada sesi sibuk metode fifo merupakan metode yang paling optimal untuk di implementasikan pada jaringan internet fakultas teknik universitas tanjungpura karena pada metode fifo memiliki nilai max-limit yang statis namun user sendiri dapat lebih flexible untuk menggunakan bandwidth secara optimal sesuai nilai yang telah dilimitkan
+dalam keadaan sibuk, metode fifoakan terlebih dahulu merespon permintaan bandwidth pertama yang dibutuhkan oleh user sesuai urutan permintaan selanjutnya
+jumlah bandwidth yang diberikan tetap berdasarkan nilai max-limit yang telah ditentukan secara maksimal 15.00-17.00 wib) dilakukan dengan yang ada pada laboratorium ict fakultas teknik universitas tanjungpura
+pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode fifo didapatkan nilai 3, 20 dengan kategori 
+pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode pcq didapatkan nilai 3, 32 dengan kategori 
+pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode sfq didapatkan nilai 3, 27 dengan kategori 
+dan yang terakhir pengukuran terhadap parameter qos yang telah dilakukan dengan menerapkan metode red didapatkan nilai 3, 27 dengan kategori 
+berdasarkan hasil akhir yang didapatkan dengan standar tiphon, maka pada sesi sepi metode pcq merupakan metode yang paling optimal untuk di implementasikan pada jaringan internet fakultas teknik universitas tanjungpura karena metode pcq membagi bandwidth secara flexible sesuai jumlah user yang online
+dikarenakan pada jam sepi jumlah user sedikit, sehingga max-limit yang didapatkan oleh setiap user menjadi besar dan dalam kondisi hanya 1 user yang online, maka user dapat menggunakan seluruh bandwidth yang tersedia oleh isp

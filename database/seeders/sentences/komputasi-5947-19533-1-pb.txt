@@ -1,0 +1,25 @@
+tasiun pontianak berbasis web dan sms gateway paula putri belang paula.belang90@gmail.com alleviate human tasks in daily life
+the internet can make a system becomes limited by distance, area and time assisted by an extensive network and open for anyone to access it
+and in the business world, the internet is also used as a very practical interface for communication between the company and its customers
+the purpose of this research is to design and build a web-based ticket booking system that is easier for customers to book tickets, as well as administrative personnel in making financial reports, bus rental, enhancing the efficiency and effectiveness of employee performance that are beneficial to the advancement of the company of public station damri pontianak
+the research method that used is pieces, the method is to identify problems containing an analysis of the performance, information, economy, control, the old system, of this analysis will be obtained several problems and finally found the main problem
+the results achieved is a web-based ticket booking system that is beneficial to recapitalize the company in booking tickets and bus rental and enable customer in order tickets as well as to regulate the administration report admin
+the conclusions of this research, this system is an excellent medium for company of public station damri pontianak to provide services that make it easier for customers to book bus tickets
+test results on systems built respondents, using likert's summated rating method, the measurement results obtained with a score of 2335
+based on the scale of 1800< score <2400, a score of 2335 indicates that the system is built was considered quite successful
+method suatu kebutuhan yang penting dan utama
+internet sangat membantu dan meringankan pekerjaan manusia dalam kehidupan sehari-hari
+semua dapat mengakses dan menemukan segala informasi dengan cepat dan mudah
+dan didalam dunia bisnis, internet digunakan sebagai alat penghubung yang sangat praktis untuk komunikasi antar perusahaan dengan para pelanggan tanpa harus memikirkan antara jarak, waktu dan lokasi
+internet dapat menjadi sarana penyaluran sumber informasi yang sangat bermanfaat untuk perusahaan sebagai pengembangan strategi perusahaan, media promosi dan banyak hal lainnya
+diantaranya pada sebuah perusahaan bus, proses pemesanan tiket, penyewaan bus dan administrasi merupakan fungsi- fungsi bisnis yang penting
+umum damri yang merupakan perusahaan bus negara dengan tugas utama menyelenggarakan angkutan orang dan barang diatas jalan dengan menggunakan kendaraan bermotor, yang hingga saat ini memiliki jaringan pelayanan tersebar hampir diseluruh wilayah republik indonesia, salah satunya kota pontianak
+di dalam kegiatan usahanya perusahaan umum damri stasiun pontianak, menyelenggarakan pelayanan angkutan antar kota, angkutan lintas batas negara dan angkutan keperintisan
+untuk angkutan antar kota yaitu tujuan kota sintang dan kota nangah pinoh, angkutan lintas batas negara yaitu tujuan kuching dan brunei darussalam sedangkan angkutan keperintisan dengan tujuan tayan
+stasiun pontianak, terdapat dua cara bagi para calon penumpang dalam melakukan pemesanan tiket, yaitu dengan cara memesan langsung maupun dengan cara menelepon ke kantor agen
+kedua proses pemesanan tersebut membuat pegawai kerepotan dalam mencatat dn seringkali terjadi kesalahan dalam mencatat pemesanan tiket sedangkan untuk waktu pemesanan, umumnya calon penumpang melakukan pemesanan tiket, satu atau dua hari sebelum keberangkatan
+calon penumpang yang tidak sempat memesan tiket beberapa hari sebelumnya akan melakukan pembelian tiket pada hari keberangkatan, sehingga sering kali tidak mendapatkan tiket hal ini memungkinkan adanya aksi dari pihak yang akan menjual tiket dengan harga yang sangat tinggi
+dan terkadang pelayanan pemesanan via telepon pun menjadi tidak praktis, hal ini disebabkan oleh telepon operator yang sering sibuk karena jumlah pegawai ataupun line telepon yang sedikit
+ditambah lagi kondisi pegawai yang harus melayani pemesanan via telepon dan calon penumpang yang datang langsung sekaligus
+untuk itulah perlu adanya proses pemesanan untuk lebih mengefektifkan baik dalam memudahkan dalam melakukan pemesanan tiket 2
+teori dasar 2.1 metode analisis pieces banyak ukuran yang dapat digunakan untuk menilai sistem informasi diantaranya adalah dengan metode pieces yang terdiri dari performance, information, economic, control, efficiency, service

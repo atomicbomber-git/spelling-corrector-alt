@@ -1,0 +1,127 @@
+kota pontianak sebagai ibukota kalimantan barat juga sebagai pusat perdagangan dan bisnis, memiliki jumlah penduduk yang terus meningkat tiap tahunnya
+hal ini tentu membuat kebutuhan akan rumah atau tempat tinggal ikut meningkat
+developer property menangkap peluang ini dengan membuat perumahan, dan salah satu aspek yang penting dari perumahan adalah lokasi
+saat ini developer masih menggunakan brosur atau media cetak lainnya untuk mempromosikan keunggulan lokasi yang dimiliki perumahannya, hal kurang efektif dan efisien
+disamping itu masyarakat pendatang di kota pontianak cendrung kesulitan dalam mencari perumahan maupun fasilitas sosial terdekat
+oleh karena itu, perlu bantuan teknologi untuk mengatasi masalah yang dialami developer dan masyarakat pada umumnya
+sistem informasi geografis perumahan dan fasilitas sosial terdekat dapat menjadi solusi dengan tujuan mempermudah developer mempromosikan perumahannya dan masyarakat dapat lebih mudah mencari perumahan atau fasilitas sosial terdekat, juga untuk mengetahui kesesuaian metode haversine formula dalam pencarian fasilitas terdekat
+sistem ini menggunakan haversine formula sebagai metode perhitungan yang dinilai sesuai untuk pencarian fasilitas terdekat karena dalam proses perhitungannya memperhitungkan kelengkungan bumi sehingga dapat membuahkan hasil yang lebih akurat
+hasil dari sistem ini adalah rekomendasi 3 perumahan atau fasilitas sosial terdekat
+berdasarkan kuesioner yang dibagikan kepada 22 responden developer dan 100 responden masyarakat umum, didapatkan hasil bahwa sistem ini mempermudah developer dalam mempromosikan perumahan 90, 91% dan memudahkan masyarakat dalam memcari fasilitas sosial terdekat 80%
+kesimpulannya sistem ini dinilai positif oleh developer maupun masyarkat kota pontianak
+haversine formula, perumahan, fasilitas sosial i
+pendahuluan tempat tinggal dan tempat berlindung
+jumlah rumah disuatu tempat akan berbanding lurus dengan tingkat populasi penduduknya
+demikian pula dengan kota pontianak, sebagai ibu kota provinsi kalimantan barat yang menjadi pusat pemerintahan dan perdagangan
+hal ini menarik masyarakat di luar kota pontianak untuk datang baik dengan tujuan pendidikan, bekerja maupun bisnis, dan berakibat pada terus meningkatnya populasi penduduk di kota pontianak
+dengan kondisi populasi kota pontianak yang terus meningkat, maka tingkat kebutuhan akan tempat tinggal juga menigkat
+dan ini dapat menjadi suatu peluang bagi developer perumahan untuk membangun perumahan-perumahan baru bagi masyarakat
+salah satu faktor penting dalam perumahan adalah lokasi
+semakin strategis lokasi suatu perumahan dan di dukung oleh banyak fasilitas sosial di dekatnya, maka akan semakin diminati dan harga jualnya lebih tinggi
+untuk dapat mempromosikan keunggulan lokasi suatu perumahan, developer biasanya menggunakan spanduk, pamflet dan selebaran
+dimana informasi lokasi yang diberikan bersifat statis dan kurang interaktif
+selain itu penyebarannya masih terbatas dilingkungan kota pontianak dan sekitarnya
+di sisi lain, untuk mencari fasilitas sosial terdekat dari satu perumahan, masyarakat masih harus melakukan dengan proses pencarian manual yang mengurangi keefektifan dan efisiensi dari segi waktu dan tenaga
+ditambah dengan kondisi di lapangan bahwa tidak semua penduduk di kota pontianak adalah penduduk asli, banyak pendatang yang datang dari luar kota pontianak maupun provinsi kalimantan barat
+dan menjadi kesulitan sendiri bagi pendatang untuk mengetahui fasilitas sosial terdekat dari rumahnya
+mendukung adanya pemetaan digital yang dapat diimplementasikan pada sistem berbasis web
+dalam sistem berbasis web, salah satu peta digital yang cukup baik dan akurat serta mendukung pengembangan sistem informasi geografis adalah google maps
+peta digital yang dibuat oleh google ini didukung oleh banyak browser baik di perangkat komputer maupun mobile
+selain itu, google maps memiliki fitur google direction yang dapat menghitung rute terpendek antar lokasi
+sedangkan untuk menghitung jarak antar dua titik pada peta banyak metode yang dapat digunakan
+salah satu metode yang akurat dalam menentukan jarak antar dua titik adalah metode haversine formula
+developer perumahan dalam mempromosikan lokasi perumahannya dan masyarakat dalam mengetahui lokasi fasilitas sosial terdekat yang bisa dicapai
+sistem informasi komponen yang memiliki keterkaitan antara yang satu dengan sistem informasi geografis perumahan dan fasilitas sosial terdekat dengan metode haversine formula bahryan purmadipta1, hengky anra2, m
+sistem informasi merupakan kumpulan dari komponen dalam organisasi yang berhubungan dengan proses penciptaan dan pengaliran informasi
+sering orang salah mengartikan antara sistem informasi dengan teknologi informasi
+komputer yang dipadukan dengan teknologi komunikasi
+kata ‘informasi’ sendiri telah disepakati sebagai ‘hasil dari pengolahan data’ yang secara prinsip memiliki nilai yang lebih dibandingkan dengan data mentah
+sebagai contoh komputer, ini adalah suatu bentuk teknologi informasi
+dalam perkembangannya teknologi informasi berkembang dengan sangat pesatnya sampai dunia terasa sempit
+komputer disini adalah hanya merupakan produk dari teknologi informasi
+sistem informasi geografis geographic information system disingkat gis) adalah sistem informasi khusus yang mengelola data yang memiliki informasi spasial 
+atau dalam arti yang lebih sempit, adalah sistem komputer yang memiliki kemampuan untuk membangun, menyimpan, mengelola dan menampilkan informasi berefrensi geografis, misalnya data yang diidentifikasi menurut lokasinya, dalam sebuah database
+sig sebagai sistem komputer yang digunakan untuk memanipulasi data geografi
+sistem ini diimplementasikan dengan perangkat keras dan perangkat lunak komputer yang berfungsi untuk akusisi dan verifikasi data, kompilasi data, penyimpanan data, perubahan dan pembaharuan data, manajemen dan pertukaran data, manipulasi data, pemanggilan dan presentasi data serta analisa data
+munculnya istilah sistem informasi geografis seperti sekarang ini setelah dicetuskan oleh general assembly dari international geographical union di ottawa kanada pada tahun 1967
+dikembangkan oleh roger tomlinson, yang kemudian disebut cgis, digunakan untuk menyimpan, menganalisa dan mengolah data yang dikumpulkan untuk inventarisasi tanah kanada sebuah inisiatif untuk mengetahui kemampuan lahan di wilayah pedesaan kanada dengan memetakan berbagai informasi pada tanah, pertanian, pariwisata, alam bebas, ungags dan penggunaan tanah pada skala 1:250000
+sejak saat itu sistem informasi geografis berkembang di beberapa benua terutama benua amerika, benua eropa, benua australia, dan benua asia
+navigasi, memberikan jarak lingkaran besar antara dua titik pada permukaan bola berdasarkan bujur dan lintang
+penggunaan rumus ini cukup akurat untuk sebagian besar perhitungan, juga mengabaikan ketinggian bukit dan kedalaman lembah di permukaan bumi
+berikut bentuk rumus haversine formula : δlat = lat2- lat1 δlong = long2- long1 a = sin2 + cos .cos .sin2 δlat = besaran perubahan latitude δlong = besaran perubahan longitude c = kalkulasi perpotongan sumbu formula
+masih banyak bentuk haversine formula lainnya yang memiliki kegunaan yang berbeda-beda, seperti untuk menghitung luas, menghitung jarak penerbangan, dll
+proses yang terjadi adalah: administrator bertugas melakukan manajemen data perumahan dan fasilitas sosial, data-data tersebut diupload ke dalam server
+admin bisa melakukan proses tambah, edit, dan hapus semua data
+developer bisa melakukan proses, tambah, edit, dan hapus data perumahan
+user/pengunjung dapat melihat data-data yang telah di-upload oleh admin, dengan mengakses website, kemudian website akan mengambil data di server
+google maps api, menyediakan peta untuk diisi dengan data dari server yang telah di tambahkan admin
+perancangan diagram konteks sistem diagram konteks adalah diagram yang memberikan gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks memperlihatkan bahwa subjek yang terlibat langsung dalam proses sistem adalah: 1
+admin manajemen dan menjaga aktivitas aplikasi dan basis data
+pengguna yang menjadi admin adalah orang yang melakukan konfigurasi awal, pemilik aplikasi, orang yang sejak awal didaftarkan menjadi admin, atau member yang diangkat menjadi admin
+developer yang memiliki perumahan dan dapat menambahkan lokasi perumahan yang dimilikinya ke dalam sistem dan dapat mengelolanya
+user dapat melihat informasi yang ada pada aplikasi, user juga dapat melakukan pencarian perumahan dan fasilitas sosial terdekat
+hubungan antara tabel-tabel data dalam sistem informasi ini dapat dilihat pada gambar 3 berikut
+user perumahan f_kesehatan f_niaga f_makam jenis iv
+hasil dan analisis oleh pengguna saat mengunjungi website
+antarmuka ini berisi peta kota pontianak dan informasi-informasi lokasi perumahan dan fasilitas sosial yang ada di kota pontianak
+selain itu terdapat pula tombol-tombol untuk menampilakan atau menyembunyikan titik-titik fasilitas, dan juga untuk pencarian fasilitas terdekat
+karena website ini bersifat responsive, maka website ini memiliki 3 jenis antarmuka, berikut tampilan antarmuka tersebut
+antarmuka admin antarmuka admin adalah antarmuka yang diakses oleh admin untuk melakukan manajemen data
+data yang bisa diolah adalah data user, data perumahan, data fasilitas sosial, data foto, data jenis dan data lokasi
+berikut tampilan antarmuka admin pada gambar 7
+antarmuka developer antarmuka developer adalah antarmuka yang diakses oleh developer yang telah menjadi member untuk melakukan manajemen data
+data yang bisa diolah adalah data profil, data perumahan, dan data foto
+berikut tampilan antarmuka admin pada gambar 8
+pengujian sistem pengujian validasi sistem dilakukan dengan menentukan 1 lokasi sebagai lokasi awal, kemudian mengambil 3 titik hasil pencarian sistem
+kemudian ketiga titik lokasi tersebut didatangi dan diambil titik koordinatnya dan langsung dihitung jaraknya dari lokasi awal menggunakan perangkat gps
+lokasi awal pada pengujian ini adalah gedung teknik informatika fakultas teknik untan
+dan hasil perhitungan 3 lokasi fasilitas sosial dapat dilihat pada tabel 1 berikut
+karena selisih jarak masih berada di bawah 5%, sistem dinyatakan valid
+pengujian metode pengujian validasi ini dilakukan dengan membandingkan 3 titik lokasi terdekat hasil perhitungan sistem yang menggunakan metode haversine formula dengan 3 titik lokasi terdekat hasil perhitungan dari google direction
+3 titik dari masing-masing perhitungan akan dibandingkan, apakah 3 titik hasil perhitungan haversine formula yang menggunakan perhitungan garis lurus sama dengan hasil perhitungan dari google direction yang menggunakan perhitungan jarak jalan
+pengujian ini dilakukan di 3 lokasi yaitu di daerah dekat sungai kapuas, daerah tengah kota dengan jalan 2 arah dan daerah tengah kota dengan jalan 1 arah serta setiap jenis fasilitas juga ikut diuji
+nilai lokasi 3 = 37, 04% nilai rata-rata validitas = 𝑁𝑖𝑙𝑎𝑖 𝑙𝑜𝑘𝑎𝑠𝑖 1+𝑁𝑖𝑙𝑎𝑖 𝑙𝑜𝑘𝑎𝑠𝑖 2+𝑁𝑖𝑙𝑎𝑖 𝑙𝑜𝑘𝑎𝑠𝑖 3 3 dan fasilitas sosial dengan metode haversine formula adalah 60, 5% yang berarti metode ini dinyatakan valid
+pengujian validitas kuesioner korelasi pearson 
+kuesioner dinilai valid jika rhitung atau nilai korelasi lebih besar dari nilai rtabel
+hasil pengujian validitas kuesioner dapat dilihat pada tabel 2 dan table 3 berikut
+kuesioner masyarakat umum = 0, 884 / reliabilitas tinggi maka hasil data kuesioner memiliki tingkat reliabilitas yang dapat dipercaya
+pilihan responden terhadap aspek rekayasa perangkat lunak sesuai dengan kriteria berbeda-beda menunjukan hasil 30, 91% cukup baik, 51, 82% baik, dan 17, 27% sangat baik untuk kuesioner developer dan 0, 8% buruk, 17, 40% cukup baik, 54, 80% baik, dan 27% sangat baik untuk kuesioner masyarakat umum
+aspek tampilan pilihan responden terhadap aspek tampilan sesuai dengan kriteria berbeda-beda menunjukan hasil 30, 30% cukup baik, 43, 94% baik, dan 25, 76% sangat baik untuk kuesioner developer dan 1, 5% buruk, 18, 67% cukup baik, 54, 17% baik, dan 25, 67% sangat baik untuk kuesioner masyarakat umum
+aspek fungsionalitas pilihan responden terhadap aspek fungsionalitas sesuai dengan kriteria berbeda-beda menunjukan hasil 22, 73% cukup baik, 57, 58% baik, dan 19, 70% sangat baik untuk kuesioner developer dan 1, 8% buruk, 18, 6% cukup baik, 56, 2% baik, dan 23, 4% sangat baik untuk kuesioner masyarakat umum
+tanggapan terhadap aplikasi dari pertanyaan terakhir pada masing-masing kuesioner, maka diketahui tanggapan responden terhadap aplikasi web sistem informasi geografis perumahan dan fasilitas sosial berikut adalah tanggapan responden terhadap masing-masing kuesioner
+apakah web ini dapat memudahkan anda dalam mempromosikan keunggulan lokasi perumahan anda?
+dari kuesioner developer dengan pertanyaan terakhir didapatkan hasil 90, 91% developer menilai memudahkan
+apakah web ini dapat memudahkan anda dalam mencari perumahan atau fasilitas sosial terdekat?
+dari kuesioner masyarakat umum dengan pertanyaan terakhir didapatkan hasil 80% masyarakat umum menilai memudahkan
+user acceptance testing berdasarkan data hasil kuesioner yang dirangkum dan diukur dengam metode lsr seperti, maka didapatkan hasil sebegai berikut
+hasil kusioner developer dengan nilai total 1471 dapat dikategorikan aplikasi cukup berhasil dengan nilai positif
+hasil kusioner masyarakat umum dengan nilai total 6470 dapat dikategorikan aplikasi berhasil dengan nilai sangat positif
+analisis hasil pengujian validasi sistem berdasarkan hasil pengujian validasi sistem yang telah dilakukan, maka diketahui bahwa sistem dinyatakan valid dengan nilai selisih antara aplikasi dan gps sebesar 2, 59%
+analisis hasil pengujian validasi metode berikut ini adalah analisis hasil pengujian validasi sistem sistem informasi geografis perumahan dan fasilitas sosial : 1
+pengujian lokasi dekat sungai kapuas bedasarkan hasil pengujian di dekat sungai kapuas, diketahui terdapat 18 titik lokasi yang sesuai dan 9 titik lokasi yang tidak sesuai dengan nilai validitas 66, 67%
+ini berarti faktor geografis sungai cukup berpengaruh bagi sistem tetapi tidak terlalu signifikan, terbukti dari nilai validitas yang masih cukup bagus dan dalam kategori valid
+pengujian lokasi jalan 2 arah bedasarkan hasil pengujian di dekat sungai kapuas, diketahui terdapat 21 titik lokasi yang sesuai dan 6 titik lokasi yang tidak sesuai dengan nilai validitas 77, 78%
+ini berarti sistem dapat bekerja dengan baik pada wilayah tengah kota dengan jalan yang 2 arah, terbukti dari nilai validitas yang cukup bagus, di atas nilai lokasi pengujian pertama dan termasuk kategori valid
+pengujian lokasi jalan 1 arah bedasarkan hasil pengujian di dekat sungai kapuas, diketahui terdapat 10 titik lokasi yang sesuai dan 17 titik lokasi yang tidak sesuai dengan nilai validitas 37, 04%
+hasil akhir validasi sistem nilai akhir validitas yang didapat setelah proses pengujian validasi sistem di 3 lokasi berbeda adalah 60, 5% yang termasuk dalam kategori valid
+diketahui juga bahwa sistem dapat berjalan baik di tepi sungai dan jalan 2 arah di tengah kota akan tetapi kurang baik pada jalan 1 arah di tengah kota
+hal ini bisa terjadi karena jalan 1 arah membuat jarak tempuh menuju lokasi yang direkomendasikan sistem menjadi lebih panjang dibanding melalui jalan 2 arah
+analisis hasil pengujian kesioner berikut ini adalah analisis hasil pengujian kuesioner sistem informasi geografis perumahan dan fasilitas sosial : 1
+pengujian validitas kuesioner berdasarkan hasil pengujian validitas kuesioner maka diketahui bahwa setiap pertanyaan pada setiap kuesioner adalah valid, baik kuesioner developer maupun kusioner masyarakat umum
+pada kusioner developer dan 0, 884 pada kuesioner masyarakat umum, maka bisa dipastikan bahwa setiap tanggapan pada kuesioner dapat dipercaya
+ berdasarkan hasil kuesioner developer pada bagian aspek rekayasa perangkat lunak, dapat diketahui bahwa aspek rekayasa perangkat lunak pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik sebesar 51, 82% sebagai tanggapan terbesar
+ berdasarkan hasil kuesioner masyarakat umum pada bagian aspek rekayasa perangkat lunak, dapat diketahui bahwa aspek rekayasa perangkat lunak pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik sebesar 54, 8% sebagai tanggapan terbesar
+aspek tampilan tampilan pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik sebesar 43, 94% sebagai tanggapan terbesar
+ berdasarkan hasil kuesioner masyarakat umum pada bagian aspek tampilan, dapat diketahui bahwa aspek tampilan pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik sebesar 54, 17% sebagai tanggapan terbesar
+bahwa fungsionalitas pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik sebesar 57, 58% sebagai tanggapan terbesar
+bahwa aspek fungsionalitas pada aplikasi dianggap baik oleh responden, dimana persentase tanggapan baik sebesar 56, 20% sebagai tanggapan terbesar
+bahwa responden menilai aplikasi ini dapat memudahkan developer dalam mempromosikan 90, 91% responden menilai memudahkan
+diketahui bahwa responden menilai aplikasi ini dapat memudahkan masyarakat dalam mencari perumahan atau fasilitas sosial terdekat
+terbukti dari 80% responden yang menilai memudahkan
+user acceptance test  bedasarkan hasil kuesioner developer yang dihitung dengan metode lsr dapat disimpulkan bahwa aplikasi cukup berhasil dengan nilai positif
+ bedasarkan hasil kuesioner developer yang dihitung dengan metode lsr dapat disimpulkan bahwa aplikasi berhasil dengan nilai sangat positif
+kesimpulan/ringkasan setelah dilakukan pengujian dan analisis terhadap sistem informasi geografis perumahan dan fasilitas sosial terdekat dengan metode haversine formula, dapat disimpulkan bahwa : 1
+metode haversine formula dapat memberikan rekomendasi lokasi perumahan atau fasilitas sosial terdekat dengan baik, kecuali pada jalan 1 arah
+sistem dinilai baik dari segi aspek rekayasa perangkat lunak, aspek tampilan dan aspek fungsionalitas
+sistem informasi geografis perumahan dan fasilitas sosial terdekat dengan metode haversine formula dinilai positif oleh 90, 91% developer dan 80% masyarakat umum

@@ -1,0 +1,80 @@
+penerjemah bahasa adalah untuk memudahkan seseorang melakukan penerjemahan satu bahasa ke bahasa yang diinginkan
+mesin penerjemah akan menerjemahkan kata atau kalimat yang diketik oleh user melalui keyboard atau keypad sebagai inputan kata
+jika kata atau kalimat terlalu panjang, proses input terkadang mengalami masalah, misal salah ketik atau waktu input yang relatif panjang sehingga program mengeluarkan output yang salah
+tujuan dari penelitian ini adalah membuat optical character recognition pada mesin penerjemah bahasa indonesia ke bahasa inggris dengan menggunakan platform android untuk penginputan kata penerjemahan
+sistem dibangun menggunakan optical character recognition dengan library mobile vision agar user tidak perlu lagi mengetikan teks sebagai inputan kata yang akan di terjemahankan dengan material pengujian menggunakan gambar teks sebanyak lima gambar dan lembar teks sebanyak 30 kalimat
+berdasarkan dari hasil pengujian black box pada portrait dan landscape didapatkan bahwa aplikasi tidak dapat digunakan dalam posisi landscape
+berdasarkan dari hasil pengujian black box pada kata dan tanda baca aplikasi dapat berjalan dengan baik dengan inputan satu dan dua kata tanpa dengan menggunakan huruf kapital dan tanda baca
+berdasarkan dari hasil pengujian black box pada kalimat aplikasi dapat menangkap kata dengan cukup baik pada satu kalimat dan pada saat proses penerjemahan aplikasi tidak dapat menerjemahkan kata dengan menggunakan huruf kapital dan tanda baca dan berdasakan dari hasil perhitungan recall dan precision pada gambar teks kita dapatkan nilai precision sebesar 1.00, nilai recall sebesar 1.00 dan nilai f-measure sebesar 1.00
+berdasakan dari hasil perhitungan recall dan precision pada lebar teks didapatkan nilai precision sebesar 0, 87, nilai recall sebesar 0, 97 dan nilai f-measure sebesar 0, 90, berdasakan dari hasil perhitungan recall dan precision pada penerjemah didapatkan nilai precision sebesar 0, 81, nilai recall sebesar 0, 60 dan nilai f-measure sebesar 0, 68
+hal ini menunjukkan bahwa aplikasi dapat menangkap hasil kalimat dengan cukup baik pada beberapa font dan ukuran yang berbeda
+mengatasi suatu masalah, salah satunya dalam hal komunikasi
+tidak semua orang berkomunikasi dalam bahasa yang sama, oleh karena itu diperlukan kamus atau terjemahan sebagai sarana untuk berkomunikasi
+penggunaan kamus cetak untuk mencari arti kata cenderung tidak efisien karena pengguna harus mencari kata satu demi satu, membolak-balik halaman kamus, dan mencari dengan teliti
+hal inilah yang mendorong dibuatnya kamus digital sehingga membuat pencarian kata menjadi lebih cepat dan mudah
+kamus digital dapat dikategorikan sebagai sebuah mesin penerjemah
+fungsi mesin penerjemah bahasa adalah untuk memudahkan seseorang melakukan penerjemahan satu bahasa ke bahasa yang diinginkan
+menerjemahkan kata atau kalimat yang diketik oleh user melalui keyboard atau keypad sebagai inputan kata
+jika kata atau kalimat terlalu panjang, proses input terkadang mengalami masalah, misal salah ketik atau waktu input yang relatif panjang sehingga program mengeluarkan output yang salah
+beberapa upaya yang dapat dilakukan untuk memudahkan dan mempersingkat proses input tersebut, salah satunya menggunakan teknologi optical character recognition 
+implementasi ocr pada smartphone dengan sistem operasi android dapat memudahkan untuk mengambil gambar karena smartphone sudah didukung dengan kamera sehingga user tidak perlu lagi mengetikan kalimat yang ingin diterjemahkan
+phone yang sangat banyak digunakan di indonesia sehingga menjadikannya sebagai generasi baru platfrorm mobile yang menarik untuk dikembangkan
+implementasi ocr dalam smartphone android dipilih karena pada akhir 2015 diperkirakan sekira 55 juta pengguna smartphone di indonesia
+sedangkan total penetrasi pertumbuhanya mencapai 37, 1 persen dari pengguna smartphone di indonesia menggunakan sistem operasi android 
+ocr sebagai mesin penerjemah akan memanfaatkan kamera yang ada pada perangkat smartphone untuk mendeteksi teks tanpa harus menyimpan gambar terlebih dahulu
+objek atau target teks yang terdeteksi akan dikonversi kedalam string yang kemudian di proses oleh ocr sehingga teks tersebut dapat diterjemahkan
+penggunaan sistem ini nantinya akan membuat penerjemahan kata menjadi lebih mudah
+optical character recognition adalah sebuah sistem komputer yang dapat membaca huruf, baik yang berasal dari sebuah pencetak maupun yang berasal dari tulisan tangan
+ocr adalah aplikasi yang menerjemahkan gambar karakter menjadi bentuk teks dengan cara menyesuaikan pola karakter per baris dengan pola yang telah tersimpan dalam database aplikasi
+hasil dari proses ocr adalah berupa teks sesuai dengan gambar output scanner dimana tingkat keakuratan penerjemahan karakter tergantung dari tingkat kejelasan gambar dan metode yang digunakan
+mobile vision api pengenalan teks adalah proses mendeteksi teks dalam gambar, video dan mengenali teks yang terkandung di dalamnya
+setelah terdeteksi, recognizer kemudian menentukan teks yang sebenarnya di setiap blok dan segmen ke garis dan kata-kata
+teks api mendeteksi teks dalam bahasa berbasis latin, secara real-time, pada perangkat
+penerjemah otomatis pada sebuah teks dari satu bahasa ke bahasa lainnya
+ada beberapa pendekatan untuk machine translation seperti pendekatan dengan menggunakan aturan rule-based machine translation), pendekatan dengan menggunakan contoh, dan pendekatan dengan menggunakan model statistik 
+dalam mesin penerjemah statistik, terdapat 3 komponen yang terlibat dalam proses penerjemahan dari satu bahasa ke bahasa lain yaitu : language model, translation model, dan decoder
+unified modelling language unified modeling language adalah standard pemodelan dalam pembuatan aplikasi berorientasi objek yang diajukan oleh object management group pada tahun 1996
+use case diagram use case diagram mendeskripsikan sebuah interaksi antara satu atau lebih aktor dengan sistem informasi yang akan dibuat
+dengan kata lain, use case diagram digunakan untuk mengetahui fungsi-fungsi apa saja yang terdapat di dalam sistem dan siapa saja yang berhak mengakses fungsi tersebut
+class diagram sistem dari segi pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem
+kelas memiliki apa yang disebut atribut dan metode atau operasi
+atribut merupakan variabel- variabel yang dimiliki oleh suatu kelas
+metode atau operasi adalah fungsi-fungsi yang dimiliki oleh suatu kelas
+sequence diagram sequence diagram menggambarkan kelakuan objek pada use case dengan mendeskripsikan waktu hidup objek dan message yang dikirimkan dan diterima antar objek
+dalam menggambarkan sequence diagram perlu memperhatikan objek-objek yang terlibat di dalam use case beserta metode- metode yang dimiliki kelas yang diinstansiasi menjadi objek itu
+pada awalnya sistem operasi ini dikembangkan oleh android inc, yang kemudian dibeli oleh google pada tahun 2005
+pada tahun 2007 dibentuklah open handset alliance, sebuah konsorsium dari beberapa perusahaan, yaitu texas instruments, broadcom corporation, google, htc, intel, lg, marvell technology group, motorola, nvidia, qualcomm, samsung electronics, sprint nextel, dan t-mobile dengan tujuan untuk mengembangkan standar terbuka untuk perangkat mobile
+pada tanggal 9 desember 2008, ia mengumumkan bahwa 14 anggota baru akan bergabung proyek android, termasuk packetvideo, arm holdings, atheros communications, asustek computer inc, garmin ltd, softbank, sony ericsson, toshiba corp, dan vodafone group plc
+sistem operasi lain yang berkembang saat ini seperti windows mobile, i-phone os, symbian yang juga menawarkan kekayaan isi dan keoptimalan berjalan di atas perangkat hardware yang ada
+akan tetapi, sistem operasi ini berjalan dengan memprioritaskan aplikasi inti yang dibangun sendiri tanpa melihat potensi yang cukup besar dari aplikasi pihak ketiga yang memiliki keterbatasan dari aplikasi pihak ketiga untuk mendapatkan data asli dari ponsel, berkomunikasi antar proses serta keterbatasan distribusi aplikasi pihak ketiga untuk platformnya
+yang berbeda untuk pengembang, setiap aplikasi memiliki tingkatan yang sama
+android tidak membedakan antara aplikasi inti dengan aplikasi pihak ketiga
+api yang disediakan menawarkan akses ke hardware, maupun data-data ponsel sekalipun, atau data sistem sendiri
+bahkan pengguna dapat menghapus aplikasi inti dan menggantikannya dengan aplikasi pihak ketiga
+desain arsitektur sistem pengguna akan melakukan pemindaian sebuah gambar yang berupa teks kalimat bahasa indonesia ke smartphone yang kemudian akan di proses oleh ocr dan menjadi sebuah teks kata ataupun kalimat
+melalui internet, aplikasi android akan melakukan komunikasi data dengan web server mesin penerjemah statistik moses decoder
+setiap request data dari aplikasi ke web server akan direspon oleh mesin penerjemah statistik moses decoder dan diterjemahkan
+hasil terjemahan tersebut akan dikirim kembali ke aplikasi
+pengujian aplikasi metode black-box dan uji recall dan precision terhadap gambar teks, lembar teks dan penerjemah dengan menggunakan material pengujian sebanyak 5 buah gambar dan 30 kalimat lembar teks
+optical character recognition ke mesin penerjemah dengan basis android
+dalam implementasinya, optical character recognition akan memproses sebuah gambar yang kemudian akan merubah gambar tersebut menjadi sebuah teks masukan dan diproses ke mesin penerjemah dengan bahasa indonesia ke bahasa inggris yang sudah di bangun
+kemudian akan menghasilkan suatu keluaran berupa hasil terjemahan kata / kalimat dari masukan sebelumnya
+berikut beberapa tampilan hasil perancangan aplikasi, yang diperlihatkan pada gambar 4 hingga gambar 6
+tampilan menu utama pada gambar 4, merupakan tampilan menu utama terdiri dari dua tombol yaitu tombol mulai untuk melakukan proses utama pada aplikasi optical character recognition dan tombol tentang untuk melihat profil serta versi aplikasi
+tampilan optical character recognition capture gambar 5 merupakan tampilan proses penangkapan gambar yang akan di pindai
+penerjemah bahasa indonesia ke bahasa inggris gambar 6 merupakan tampilan penerjemahan bahasa indonesia ke bahasa inggris e
+black box pengujian black box ini dilakukan dengan media kertas yang sudah tercetak dengan printer sebagai media uji dan menggunakan font times new roman sebagai font pengujian dengan ukuran font 12
+hasil pengujian black box dilihat pada tabel 4.1 sampai tabel 4.3 dengan hasil gambar terlampir pada lampiran a
+tabel 1 tabel pengujian black box pada portraid dan landscape b
+pengujian black box pada kata tabel 2 tabel 3 input contoh data hasil ocr hasil terjemahan satu kalimat much kalimat until one kalimat tanya and seru pengujian portrait
+pengujian recall dan precision ocr pada gambar teks pada pengujian recall dan precision ocr pada gambar teks ini digunakan data sebanyak lima gambar
+berdasarkan hasil pengujian black box aplikasi, diperoleh bahwa aplikasi tidak dapat menerjemahkan kata dengan menggunakan huruf kapital dan tanda baca
+berdasarkan hasil pengujian recall dan precision aplikasi, diperoleh bahwa aplikasi kurang dapat menangkap satu kalimat terutama pada font segoe script dan lucida handwriting dikarenakan font tersebut menggunakan huruf rangkai
+diperoleh bahwa aplikasi tidak dapat menangkap satu kalimat terutama pada font blackoak std karena mempunyai kontur tulisan yang tebal 5
+berdasarkan hasil pengujian recall dan precision aplikasi, diperoleh bahwa aplikasi kurang dapat menangkap satu kalimat terutama pada font elephant dikarenakan pengujian pada font tersebut menggunakan kalimat yang panjang sehingga tidak dapat dipindai oleh aplikasi
+berdasarkan hasil pengujian aplikasi, diperoleh bahwa aplikasi tidak dapat bekerja pada posisi handphone landscape
+teks kita dapatkan nilai precision sebesar 1, nilai recall sebesar 1 dan nilai f-measure sebesar 1, hasil perhitungan recall dan precision kita dapatkan nilai precision sebesar 0.87, nilai recall sebesar 0.97 dan nilai f-measure sebesar 0.9, hasil perhitungan recall dan precision kita dapatkan nilai precision sebesar 0.81, nilai recall sebesar 0.60 dan nilai f-measure sebesar 0.68
+hal ini menunjukkan bahwa aplikasi dapat menangkap hasil kalimat dengan cukup baik dengan beberapa font dan ukuran yang telah diuji
+berdasarkan hasil pengujian black box aplikasi, diperoleh bahwa aplikasi dapat berjalan dengan baik tanpa menggunakan huruf kapital 3
+berdasarkan hasil pengujian recall dan precission aplikasi, diperoleh bahwa aplikasi cukup baik dalam menangkap kata masukan dengan beberapa font dan ukuran font antara 12 sampai 16
+hal ini menunjukkan bahwa aplikasi dapat menangkap hasil kalimat dengan cukup baik dengan beberapa font dan ukuran yang telah diuji

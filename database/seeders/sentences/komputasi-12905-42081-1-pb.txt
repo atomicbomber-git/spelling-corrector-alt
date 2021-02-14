@@ -1,0 +1,54 @@
+penelitian ini dilatarbelakangi pada penyampaian cerita rakyat yang tidak hanya dikisahkan secara lisan dari generasi ke generasi berikutnya, tetapi telah banyak di publikasikan melalui berbagai media, antara lain adalah buku, parody, dan film
+salah satu media lain yang dapat digunakan adalah visual novel, visual novel dapat digunakan sebagai alternatif penyampaian dari suatu informasi salah satunya adalah visual novel
+visual novel yang dibangun dapat digunakan sebagai media cerita rakyat karena visual novel dapat dikatakan sebagai jenis media interaktif yang biasanya berkutat pada cerita fiksi, namun dapat juga digunakan untuk buku interaktif digital aplikasi ini dapat bermanfaat bagi masyarakat umum yang ingin tahu cerita rakyat asal usul kota pontianak
+dari hasil analisis kelayakan media menunjukan penilaian dari ahli media memperoleh nilai 2, 71 yang menunjukan kriteria layak sedangkan hasil analisis kelayakan materi cerita menunjukan penilaian dari ahli materi cerita memperoleh nilai 1, 8 yang menunjukan kriteria cukup layak
+hasil dari pengujian pemahaman pemain dari dua media yang digunakan di tiga rentan umur yang berbeda, mengalami peningkatan pemahaman dengan media visual novel ini dibandingkan buku cerita dilihat dari grafik peningkatan hasil dari pre test ke post test
+pendahuluan mulai dilupakan keberadaannya oleh sebagian besar masyarakat indonesia 
+cerita rakyat merupakan warisan turun-menurun dari satu generasi kegenerasi berikutnya dalam masyarakat tertentu
+berkembangnya teknologi informasi memberikan dampak bagi cerita rakyat itu sendiri
+cerita rakyat tidak hanya merupakan cerita yang dikisahkan secara lisan dari generasi ke generasi berikutnya, tetapi telah banyak dipublikasikan melalui berbagai media, antara lain adalah buku, parody dan film
+media lain yang dapat digunakan selain buku adalah visual novel
+sebuah visual novel dapat digunakan sebagai alternatif pembelajaran dari suatu hal, atau visual novel bisa menimbulkan minat untuk mengetahui sesuatu tema yang diangkat pada visual novel
+seperti namanya visual novel dapat disebut juga dengan mixed-media novel
+visual novel sebenarnya adalah permainan yang mirip dengan choose- your-own-adventure games visual novel ini lebih mirip dengan buku digital, karena formatnya yang padat teks, namun karena penggunaan gambar maupun suara yang vital, visual novel dapat dikatakan sebagai jenis media interaktif yang biasanya berkutat dengan cerita fiksi, namun dapat juga digunakan sebagai buku interaktif digital cerita rakyat ini dapat menceritakan dan mengajarkan mengenai nilai kepemimpinan yang ada dalam cerita ini ditunjukan melalui perjuangan dan keteguhan sultan syarif abdurrahman alkadrie dalam menemukan kediaman baru baginya
+kisah asal usul kota pontianak menjadi menarik untuk diceritakan karena memiliki alur cerita yang khas dan menyiratkan nilai moral visual novel memiliki kelebihan tersendiri dalam menyampaikan pesan-pesan cerita dalam bentuk audio visual dan dapat menjadi media penyampaian dengan tema kebudayaan indonesia
+dapat dimainkan di pc dan sebagian dirilis di game console seperti psp
+game ini berbasis fiksi interaktif yang menampilkan cerita novel dalam bentuk gambar-gambar statis, dan dilengkapi dengan kotak percakapan untuk menyampaikan narasi dan ucapan setiap karakter, dan terkadang setiap karakter memiliki sound effect sehingga setiap karakter yang ada dalam visual novel seolah hidup dan dapat berbicara
+cerita rakyat moral yang perlu untuk diteladani
+cerita rakyat dapat diartikan sebagai ekspresi budaya suatu masyarakat melalui bahasa tutur yang berhubungan langsung dengan berbagai aspek budaya, seperti agama dan kebudayaan, undang- undang undang, kegiatan ekonomi, sistem kekeluargaan, dan susunan nilai sosial masyarakat tersebut
+dahulu, cerita rakyat diturunkan secara turun temurun dari satu generasi kepada generasi berikutnya dalam masyarakat tertentu
+ren’py yang memiliki berbagai macam fitur lengkap di dalam pembuatan aplikasi lain seperti pembelajaran interaktif
+ren'py merupakan software sederhana yang membantu para sastrawan yang ingin membuat sebuah novel yang dikemas dengan gambar, suara, serta video yang dimainkan dalam pc dengan menggunakan bahasa pemrograman python sebagai syntax perintah utamanya
+alasan penggunaan python sebagai bahasa pemrograman utamanya karena syntax-nya yang sangat mudah dipahami mendukung game simulasi yang kompleks
+dimulai dari pengumpulan data, perancangan produk, desain produk, implementasi produk, uji coba implemntasi produk, analsis hasil pengujian, dan penarikan kesimpulan, seperti pada gambar 1
+diagram alir sistem dibuat, maka dapat digambarkan dengan diagram alir sistem, secara garis besar, alur kerja visual novel ini dapat dilihat pada gambar 2
+langkah-langkah pembuatan meliputi membuat storyline, mendesain tokoh karakter, menentukan background, menentukan suara latar, kemudian menuliskan sintak program
+langkah-langkah pembuatan dapat dilihat pada gambar 3
+struktur antarmuka dari visual novel ini dapat dilihat pada gambar 4 e
+antarmuka aplikasi pada saat pertama kali pengguna membuka visual novel ini
+implementasi antarmuka untuk perancangan visual novel yang dibangun dapat dilihat dari gambar 5
+gambar 5 antarmuka halaman utama di dalam visual novel ini tedapat beberapa menu yang terbagi menjadi lima yaitu menu mulai, lanjutkan, bg galeri, pengaturan, dan keluar
+pertama adalah tampilan dari antarmuka pengantar awal main dapat dilihat pada gambar 6 di halaman ini juga terdapat beberapa menu seperti : kembali, simpan, lanjutan, skip, f.skip, keluar, dan pengaturan
+pilihan percabangan yang akan menentukan jalannya cerita dari visual novel ini ini yang dapat dilihat pada gambar 7
+gambar 7 tampilan pilihan percabangan cerita iv
+pengujian dan analisis dengan melakukan pengujian pada visual novel ini yang telah dibangun dan pengujian pehaman responden
+untuk pengujian visual novel ini menggunakan validasi sistem, pengujian ini bertujuan untuk mengetahui visual novel ini sudah memenuhi kriteria kelayakan untuk digunakan
+pengujian dilakukan dengan metode uat 
+pengujian uat dilakukan oleh ahli pakar materi cerita dan multimedia secara langsung untuk memeriksa apakah visual novel ini sudah memenuhi kriteria layak untuk digunakan
+sedangkan untuk pengujian pehaman responden dengan melakukan pre test dan post test kepada pengguna dengan membandingkan dua buah media yaitu, visual novel ini dan buku cerita rakyat asal usul kota pontianak
+user acceptance test menurut perry, user acceptance testing merupakan pengujian yang dilakukan oleh end-user
+user tersebut adalah staff/ karyawan perusahaan yang langsung berinteraksi dengan sistem dan dilakukan verifikasi apakah fungsi yang ada telah berjalan sesuai dengan kebutuhan/fungsinya
+dari penilaian ahli memperoleh rata-rata nilai sebesar 2, 71 yang masuk dalam kriteria layak
+hasil validasi kelayakan materi cerita uji validasi kelayakan materi cerita menggunakan instrumen penilaian materi cerita
+instrumen materi cerita merupakan instrumen penilaian terhadap materi cerita
+hasil uji kelayakan materi cerita oleh ahli materi cerita dilihat pada tabel 3 tabel 3 penilaian aspek materi cerita 2 kesesuaian cerita 2 4 kemudahan untuk dipahami 1 5 sistematis, runtut, alur logika jelas 2 ∑ skor 9 rata-rata skor 1, 8 kriteria cukup layak d
+hasil pengujian pemahan responden data yang diperoleh dari penelitian ini dari pengguna setelah menjawab soal dari pre test dan post test dari dua media yang berbeda yaitu visual novel ini dan buku cerita rakyat pontianak
+berdasarkan hasil penelitian yang diperoleh dari pre test dan post test maka didapatlah data yang akan dihitung dan di analisis untuk dijadikan dasar dalam menarik kesimpulan
+soal yang diujikan terdiri dari 5 butir soal pre test dan 5 butir soal post test yang mana soal tersebut diujikan terhadap 15 orang untuk 1 media
+dari rentang umur yang berbeda yaitu pra remaja, remaja, dan dewasa
+dari hasil pre test dan post test tersebut diperoleh nilai seperti pada tabel 4, tabel 5, dan tabel 6 berikut : tabel 4 hasil dari pre test dan post test usia pra remaja respon den rata- tabel 5 hasil dari pre test dan post test usia remaja respon den rata- tabel 6 hasil dari pre test dan post test usia dewasa respon den rata- berdasarkan tabel dapat diketahui bahwa skor rata-rata pre test dan rata-rata post test dari 2 media yang digunakan terdapat selisih nilai
+hasil rata-rata post test lebih tinggi daripada pre test
+hasil pengujian pemahan responden dari pengujian yang telah dilakukan, adapaun hasil analisis yang didapat dari visual novel asal-usul kota pontianak adalah sebagai berikut: 1
+berdasarkan hasil analis dan pembahasan kelayakan media dari ahli media dan ahli materi, visual novel asal- usul kota pontianak ini telah mencapai indikator yang ditetapkan dalam penelitian yaitu visual novel asal-usul kota pontianak yang dikembangkan dikatakan layak digunakan untuk penyampaian cerita rakyat berbasis teknologi informasi dalam aspek multimedia dan cukup layak digunakan untuk penyampaian cerita rakyat berbasis teknologi informasi dalam aspek cerita 2
+untuk presentase nilai kenaikan rata-rata dalam hasil pre test dan post test per kategori dari dua media yang digunakan adalah total keseluruhan nilai rata-rata yang didapatkan pada media visual novel mengalami kenaikan nilai 64%, sedangkan pada media buku cerita rakyat mengalami kenaikan nilai 49%
+secara umum responden dapat mengerti dan memahami isi cerita yang ada di dalam visual novel asal-usul kota pontianak berdasarkan hasil pre test dan post test dibandingkan menggunakan media buku cerita rakyat 4

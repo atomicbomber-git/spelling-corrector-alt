@@ -1,0 +1,68 @@
+tenun songket sambas sahidah merupakan perusahaan dagang yang menyediakan barang berupa kain dan selendang songket, kain sabuk, kopiah benang emas, tas, dasi dan dompet tenun songket sambas sahidah yang telah memiliki banyak pelanggan baik di dalam kota sambas maupun luar sambas masih menggunakan prosedur belanja manual atau pelanggan harus datang langsung ke toko tersebut
+serta sistem manual seperti pencatatan data-data dan transaksi penjualannya
+untuk meningkatkan penjualan dan menjangkau pangsa pasar yang lebih luas tenun songket sambas sahidah ingin menggunakan tekhnologi dalam strategi pemasaran dan penjualan dengan mengimplementasikan e-commerce
+jenis e- commerce yang digunakan adalah business to consumer 
+aplikasi e-commerce ini dapat membantu pelanggan untuk mendapatkan informasi tentang produk yang ditawarkan oleh tenun songket sambas sahidah, mempermudah pelanggan dalam proses pemesanan suatu produk, dan dapat membantu meningkatkan pemasaran dan penjualan bagi tenun songket sambas sahidah
+pendahuluan buatan tangan atau kegiatan yang berkaitan dengan barang yang dihasilkan melalui keterampilan tangan 
+kerajinan yang dibuat biasanya terbuat dari berbagai bahan
+dari kerajinan ini menghasilkan hiasan atau benda seni maupun barang pakai yang dapat dijual, salah satunya tenun songket sambas sahidah di kabupaten sambas
+keberadaan tenun songket sambas menunjukkan bahwa tenun mempunyai keistimewaan tertentu yang membuatnya senantiasa dilestarikan
+orang-orang sambas menggunakan kain tenunan sebagai pelengkap pelaksanaan ritual adat, salah satunya adalah upacara adat perkawinan
+dalam upacara perkawinan, kain tenun digunakan sebagai pelengkap barang antaran atau seserahan dari pihak mempelai lelaki kepada mempelai perempuan
+maka dari itu dibuat website e- commerce untuk penjualan dan pemasaran
+dengan penjualan menggunakan sistem online, konsumen dapat melakukan transaksi tanpa batasan waktu dan batasan tempat
+berdasarkan latar belakang masalah yang dihadapi, maka diperlukan sebuah aplikasi e-commerce tenun songket sambas sahidah sebagai media pemasaran dan penjualan
+e-commerce laudon e-commerce adalah suatu proses membeli dan menjual produk-produk secara elektronik oleh konsumen dan dari perusahaan ke perusahaan dengan komputer sebagai perantara transaksi bisnis
+dimana untuk transaksi perdagangan baik membeli maupun menjual dilakukan melalui elektronik pada jaringan internet
+keberadaan e-commerce sendiri dalam internet dapat dikenali melalui adanya fasilitas pemasangan iklan, penjualan, dan service support terbaik bagi seluruh pelanggannya dengan menggunakan sebuah toko online berbentuk web yang setiap harinya beroperasi 24 jam
+klasifikasi e-commerce turban e dan king d e-commerce dapat diklasifikasikan berdasarkan beberapa aspek:a
+business-to-business proses transaksi e-commerce bertipe b2b melibatkan perusahaan atau organisasi yang dapat bertindak sebagai pembeli atau penjual skala kecil sehingga tidak hanya organisasi tetapi juga individu dapat terlibat pada pelaksanaan transaksi tersebut
+tipe e-commerce ini biasanya disebut dengan e- tailing
+menyediakan produk atau jasa kepada sebuah perusahaan lainnya
+perusahaan lain tersebut kemudian menyediakan produk atau jasa kepada individu yang bertindak sebagai konsumen
+consumer-to-business pada e-commerce tipe ini, pihak individu menjual barang atau jasanya melalui internet atau media elektronik lainnya kepada organisasi atau perusahaan yang berperan sebagai konsumen
+atau jasa yang dimilikinya secara langsung kepada konsumen lainnya
+mobile commerce mobile commerce merupakan salah satu tipe e-omerce dimana transaksi jual beli dan aktivitas bisnis yang terjadi dilakukan melalui media jaringan tanpa kabel
+intrabuness e-commerce aktivitas bisnis yang termasuk kedalam intrabusiness e- commerce diantaranya proses pertukaran barang, jasa, atau informasi antar unit dan individu yang terdapat pada suatu organisasi perusahaan
+commerce dimana perusahaan menyediakan pelayanan, informasi, atau produk pada individu pegawainya
+collaborative commerce saat individu atau grup melakukan komunikasi atau berkolaborasi, atau produk pada individu pegawainya
+non-business e-commerce non-business e-commerce merupakan e-commerce yang dilakukan pada organisasi yang tidak berorientasi untuk mendapatkan keuntungan seperti institusi akademis, organisasi keagamaan, organisasi sosial dsb
+e-government e-government merupakan e-commerce yang dilakukan oleh pemerintah
+php yang dapat mempercepat pengembang untuk membuat sebuah aplikasi web
+ada banyak library dan helper yang berguna didalamnya dan tentunya mempermudah proses development
+codeigniter adalah sebuah web application framework yang bersifat open source digunakan untuk membangun aplikasi php dinamis
+codeigniter diperkenalkan kepada publik pada tanggal 28 februari 2006
+tujuan utama dari codeigniter adalah untuk membantu developer untuk mengerjakan aplikasi lebih cepat dari pada menulis semua kode dari awal dimulai dengan analisis kebutuhan, studi literatur, pengumpulan data, desain sistem, implementasi dan terakhir proses penggujian sistem
+seperti di gambarkan pada diagram alir pada gambar 1
+desain arsitektur sistem sistem yang digambarkan melalui model-model yang saling berhubungan
+gambar 2 berikut adalah desain arsitektur sistem yang akan dibangun
+usecase diagram dalam proses memanajemen yang dilakukan pengguna terhadap sistem maupun sistem terhadap pengguna
+gambar 3 berikut menunjukkan usecase diagram keseluruhan interaksi antara pengguna terhadap aplikasi
+antarmuka aplikasi antarmuka merupakan hasil tampilan dari perancangan sistem yang telah dibuat
+halaman saat pertama memulai aplikasi ini merupakan halaman untuk pengguna umum, terlampir pada gambar 4
+antarmuka untuk halaman admin terlampir pada gambar 5
+pengujian blackbox pengujian black-box dilakukan dengan menguji kesesuaian antara masukan dengan hasil yang ditampilkan pada aplikasi
+pada jurnal ini pengujian blackbox yang dilampirkan hanya pada proses login, proses pendaftaran user, dan proses pendaftaran alamat penerima barang
+berikut adalah tabel pengujian black-box pada proses login terlampir pada tabel 1, proses pendaftaran user pada tabel 2 dan untuk proses pendaftaran alamat penerima barang pada tabel 3
+tabel 1 pengujian blackbox proses login tabel 3 c
+pengujian kuesioner dari 15 pertanyaan dimana setiap pertanyaan diberi 5 pilihan dengan skor tertentu, yaitu: - sangat baik, skor bernilai 5 poin - baik, skor bernilai 4 poin - cukup baik, skor bernilai 3 poin - buruk, skor bernilai 2 poin - sangat buruk, skor bernilai 1 poin tabel 4 likert yang dihasilkan adalah 83, 6%
+sebelum menyimpulkan hasil akhir, kuesioner harus diketahui nilai interval persentase dengan menggunakan metode mencari interval nilai persentase pada persamaan 
+hal ini dikarenakan total persentase likert yang dihasilkan adalah 83, 6% dan berada pada kategori sangat setuju
+uji validitas setiap penelitian yang dilakukan dengan menggunakan metode angket atau kuesioner perlu dilakukan uji validitasnya
+uji validitas berguna untuk mengetahui kevalidan atau kesesuaian kuesioner yang digunakan untuk memperoleh data dari para responden
+uji validitas product momen pearson correlation menggunakan prinsip mengkorelasikan atau menghubungkan antara masing-masing skor item dengan skor total yang diperoleh dalam penelitian
+pada penelitian ini perhitungan uji validitas dilakukan dengan menggunakan aplikasi ibm spss versi 21
+dari hasil uji validitas dapat disimpulkan pertanyaan soal ke-11 dan ke-14 yang bernilai valid karena rhitung > rtabel sedangkan pertanyaan lainnya bernilai tidak valid
+oleh karena itu pertanyaan yang valid tidak akan dihitung pada pengujian berikutnya yaitu uji reliabilitas
+uji reliabilitas setelah sebelumnya dilakukan uji validitas, berikutnya dilanjutkan dengan pengujian reliabilitas
+pengujian reliabilitas ini dilakukan sebagai indikasi bahwa responden konsisten dalam memberikan tanggapan atas pernyataan yang diajukan
+pengujian reliabilitas dilakukan dengan menggunakan aplikasi ibm spss versi 21 dengan menggunakan metode alpha cronbach’s
+sekumpulan variabel dapat diterima jika memiliki koefisien reliabilitas lebih besar atau sama dengan 0, 60
+berdasarkan hasil pengujian reliabilitas yang dihitung menggunakan aplikasi ibm spss versi 21, koefisien reliabilitas yang dihasilkan sebesar 0, 832
+oleh karena itu dapat disimpulkan bahwa pertanyaan soal yang digunakan dapat diterima karena memiliki nilai koefisien yang lebih besar dari 0, 6
+analisis hasil pengujian dari dua pengujian yang telah dilakukan, dapat disimpulkan beberapa poin hasil analisis dari aplikasi rancang bangun e-commerce tenun songket sambas sahidah yang akan dijelaskan sebagai berikut
+berdasarkan hasil pengujian black box yang telah dilakukan pada aplikasi rancang bangun e-commerce tenun songket sambas sahidah dapat disimpulkan bahwa aplikasi sudah berjalan seperti yang diharapkan
+aplikasi mampu menampilkan keluaran yang sesuai dengan masukan pengguna
+pengujian kuesioner yang dibagikan kepada pengguna aplikasi rancang bangun e-commerce tenun songket sambas sahidah adalah beberapa masyarakat kabupaten sambas
+hasil pengujian tersebut kemudian dihitung dengan menggunakan metode mencari interval nilai persentase likert dan menghasilkan total persentase sebesar 83, 6%, yang berarti responden menyatakan sangat setuju bahwa aplikasi rancang bangun e- commerce tenun songket sambas sahidah sudah mampu mencapai tujuan yaitu dapat menjadi media pemasaran dan penjualan secara online
+kesimpulan aplikasi rancang bangun e-commerce tenun songket sambas sahidah yang telah dilakukan, dapat ditarik kesimpulan bahwa hasil pengujian kuesioner dengan menggunakan metode likert menunjukkan bahwa aplikasi yang dibangun dapat menjadi media pemasaran dan penjualan secara online

@@ -1,0 +1,28 @@
+aboratorium fakultas teknik mh3lqy@gmail.com technology that makes people as if can be interact with an environment and see the real shape of three-dimensional with the computer device, and obtain the information from the object in laboratories of engineering faculty of tanjungpura university
+the laboratories are growing along with the development of the engineering faculty
+the students that can be directly help students and public in finding out the information about the engineering faculty through the real pictures of the laboratories
+this application was designed for public by using various testing namely testing of validity and testing of the questionnaire using likert scale
+the value result of validity testing by three experts consisted of three aspects
+the first aspect is content aspect
+it was 79.99; the second is technical aspects
+it was 82.91 and the third is presentation aspects; it was 79.99
+it can be concluded that the results of validation application by three experts categorized into good
+the questionnaires were distributed for test user permission and admin
+then the results of data interpretation were showed in likert scale
+from 35 user’s permissions respondents, the value was 49.4 categorized into very good
+from 7 admins respondents, the value was 28.83 categorized into excellent
+from these tests, it can be concluded that the application of virtual reality laboratory of the engineering faculty of tanjungpura university was feasible to be implemented
+keywords: virtual reality, laboratory, untuk strata satu dan dua program studi untuk strata dua 
+untuk strata satu sendiri terbagi menjadi dua jurusan yaitu teknik sipil dan teknik elektro dan strata dua hanya memiliki dua program studi yaitu teknik sipil dan teknik elektro
+sarana pendukung tersebut adalah laboratorium, fakultas teknik sendiri laboratorium
+laboratorium merupakan ilmiah, bereksperimen, melakukan untuk sekedar mencari informasi
+pembelajaran bagi siswa, mahasiswa, yang berkepentingan untuk dapat melakukan penelitian, riset, mengambil yang sekedar ingin tahu
+misalnya, pada praktikum atau kekurangan tenaga dengan pihak fakultas teknik untuk dapat membantu mereka dalam proses pembealajaran siswanya
+sebagai timbal baliknya dengan berkunjung dan melakukan pembelajaran di fakultas ilmu di fakultas teknik
+selanjutnya, dengan aplikasi yang dibangun berbasiskan web membuat calon mahasiswa yang ingin mendaftar dapat mengetahui lokasi laboratorium teknik
+gambaran keadaan laboratorium dapat langsung diakses di kepada calon mahasiswa
+aplikasi ini juga diharapkan mampu mendorong para stakeholder atau orang yang penelitian di laboratorium yang ada di fakultas teknik
+laboratorium suatu fakultas menentukan minimnya informasi mengenai suara bahkan animasi
+aplikasi yang akan dirancang dengan konsep virtual reality berbasis web tentunya akan memberikan kemudahan dalam hal akses didukung dengan teknologi online yang begitu pesat
+diharapkan dengan dibangunnya berbasis web ini ialah agar para siswa, calon mahasiswa dan masyarakat luas mendapat informasi tentang sarana dan prasarana yang ada melalui media virtual 2
+virtual reality simulasi pelatihan parasut jadi, apabila kita ingin membuat sebuah halaman web, kita dapat mempergunakan bahasa html ini”

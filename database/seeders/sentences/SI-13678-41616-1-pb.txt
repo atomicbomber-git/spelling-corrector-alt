@@ -1,0 +1,119 @@
+, anggi srimurdiati 1, 2, 3 yang sangat populer untuk semua orang, baik tua maupun muda
+game pc merupakan permainan video yang dimainkan pada komputer dan terdiri dari berbagai jenis tipe atau genre
+rpg merupakan salah satu jenis permainan komputer yang memiliki dunia yang luas untuk dieksplorasi oleh pemain, baik untuk mencari harta karun, objek dan status, sambil menghancurkan lawan dan objek lain yang menghalanginya
+uml adalah sebuah bahasa yang telah menjadi standar dalam industri untuk visualisasi, merancang dan mendokumentasikan sistem piranti lunak
+uml terdiri dari use case diagram, class diagram, activity diagram, dan sequence diagram
+tugas akhir atau skripsi merupakan karya tulis ilmiah sebagai salah satu hasil proses pengembangan intelektual mahasiswa secara mandiri dan sesuai dengan ketentuan yang telah ditetapkan dibawah bimbingan dosen
+game rpg bertema skripsi dibuat sebagai simulasi yang memberikan gambaran tentang langkah-langkah yang harus dilalui selama proses dari awal hingga menyelesaikan skripsi kepada pemain
+dari hasil pengujian alpha, perangkat lunak berjalan dengan lancar sesuai dengan yang diharapkan
+sedangkan dari pengujian beta berdasarkan hasil perhitungan persentase dapat disimpulkan bahwa penilaian terhadap keseluruhan game ini sangat baik
+pendahuluan tugas akhir/skripsi merupakan karya tulis ilmiah berdasarkan hasil penelitian lapangan dan atau studi kepustakaan yang disusun mahasiswa sesuai dengan bidang studinya sebagai tugas akhir dalam studi formalnya di program studi teknik informatika universitas tanjungpura
+penelitian adalah keseluruhan kegiatan baik di dalam pikiran maupun dalam kegiatan nyata yang dilakukan oleh mahasiswa untuk menyelesaikan suatu masalah di bidang ilmu pengetahuan ilmiah dalam rangka penyusunan tugas akhir
+dalam pendaftaran mata kuliah tugas akhir, mahasiswa harus mengisi lembar isian rencana studi dengan mata kuliah tugas akhir dan melengkapi administrasi
+alur dari pengambilan tugas akhir sampai penyelesaian tugas akhir terdapat banyak tahapan-tahapan mulai dari pengajuan judul, review judul, seminar outline, hingga sidang tugas akhir
+dengan banyaknya tahapan yang harus dilalui terkadang membuat mahasiswa yang baru mengambil mata kuliah tugas akhir merasa bingung untuk memulai tahapan- tahapan tersebut dan belum mempunyai gambaran tentang mekanisme pengerjaan tugas akhir dari awal pengajuan judul hingga waktu sidang akhir
+untuk memberikan gambaran mekanisme tersebut kepada mahasiswa maka di adakan simulasi yang berupa game rpg agar mahasiswa lebih memahami mekanisme pengerjaan tugas akhir tersebut dengan cara yang menyenangkan
+perkembangan teknologi informasi dan komunikasi yang sangat pesat membawa dampak yang sangat besar terhadap perkembangan teknologi-teknologi yang berkaitan erat dengan teknologi informasi dan komputer
+berbagai macam disiplin ilmu turut berkembang dengan pesat seiring dengan berkembangnya tik, salah satunya adalah game technology
+perkembangan spesifikasi dan performa komputer yang semakin meningkat didukung dengan pengguna yang menganggap game sebagai alternatif media hiburan dan edukasi sangat berpengaruh terhadap perkembangan game technology
+perkembangan teknologi game tidak terbatas pada visualisasi dengan resolusi tinggi saja, namun didukung dengan alur cerita dan efek yang beraneka ragam
+efek-efek yang ditampilkan dalam game technology tersebut merupakan gabungan dari komputer grafik, desain grafis, multimedia interactive, hingga kecerdasan buatan
+game yang menarik disertai dengan efek audio visual yang baik, alur cerita yang menarik dan sebaiknya terdapat unsur edukasi didalamnya, sehingga dapat menghasilkan game yang membawa pemain seolah-olah menjadi bagian dari game tersebut
+simulasi berasal dari kata simulate yang artinya berpura- pura atau berbuat seakan-akan
+sebagai metode mengajar, simulasi dapat diartikan cara penyajian pengalaman belajar dengan menggunakan situasi tiruan untuk memahami tentang konsep, prinsip, atau keterampilan tertentu
+simulasi dapat digunakan sebagai metode mengajar dengan asumsi tidak semua proses pembelajaran dapat dilakukan secara 2 merupakan salah satu contoh simulasi, yakni memperagakan proses terjadinya suatu upacara tertentu sebagai latihan untuk upacara sebenarnya supaya tidak gagal dalam waktunya nanti
+demikian juga untuk mengembangkan pemahaman dan penghayatan terhadap suatu peristiwa, penggunaan simulasi akan sangat bermanfaat
+bahasa inggris: role-playing game disingkat rpg
+permainan peran adalah sebuah permainan yang para pemainnya memainkan peran tokoh-tokoh dan berkolaborasi untuk menjalankan sebuah cerita bersama
+para pemain memilih aksi tokok-tokoh mereka berdasarkan karakteristik tokoh tersebut, dan keberhasilan aksi mereka tergantung dari sistem peraturan permainan yang telah ditentukan
+asal tetap mengikuti peraturan yang ditetapkan, para pemain bisa berimprovisasi membentuk arah dan hasil akhir permainan ini
+arti game menurut kamus bahasa indonesia adalah permainan
+permainan adalah kegiatan yang kompleks yang didalamnya terdapat peraturan
+sebuah permainan adalah sebuah sistem dimana pemain terlibat dalam konflik buatan, disini pemain berinteraksi dengan sistem dan konflik dalam permainan merupakan rekayasa atau buatan
+dalam permainan terdapat peraturan yang bertujuan untuk membatasi perilaku pemain dan menentukan permainan
+teori permainan adalah suatu cara belajar yang digunakan dalam menganalisa interaksi antara sejumlah pemain maupun perorangan yang menunjukkan strategi-strategi yang rasional
+dimainkan pada komputer dan bukan pada konsol permainan
+permainan komputer telah berevolusi dari sistem grafis sederhana sampai menjadi kompleks
+sampai saat ini, teknologi telah memungkinkan terobosan besar tentang media imajinasi yang saling terkait dengan interaksi
+game telah menghasilkan pemahaman besar tentang nilai spirit juang dalam sebuah daya interaktif buatan
+action dikenali dari aksi didalamnya yang berupa pergerakan, serangan, reaksi, dan pergerakan lainnya
+yang lebih ditekankan pada game jenis ini adalah aksi didalamnya
+adventure dalam game tipe ini, pemain akan menyelesaikan misi yang diberikan sepanjang petualangan di dalam game
+pemain memulai permainan dengan inventory, perbekalan dan makanan yang terbatas, kemudian dikirim untuk melakukan suatu misi, dan dalam perjalanannya ada tugas-tugas yang harus diselesaikan
+casual dibuat agar dapat dinikmati oleh semua kalangan dan umur
+role playing game role-playing game disingkat rpg adalah sebuah permainan yang para pemainnya memainkan peran tokoh-tokoh khayalan dan berkolaborasi untuk merajut sebuah cerita bersama
+para pemain memilih aksi tokoh- tokoh mereka berdasarkan karakteristik tokoh tersebut, dan keberhasilan aksi mereka tergantung dari sistem peraturan permainan yang telah ditentukan
+strategy game tipe ini dibutuhkan pemikiran dan perencanaan yang baik untuk dapat memenangkannya dan biasanya menggunakan sudut pandang overhead sehingga pemain dapat melihat seluruh area permainan
+simulation simulation game adalah suatu bentuk permainan yang menggambarkan situasi dunia nyata, baik dalam rupa simulasi maupun dalam hubungannya dengan lingkungan interaksi antara manusia
+untuk menyelesaikan teka-teki yang diberikan dan dapat digunakan untuk melatih pola pikir dan kecerdasan pemain
+children’s games children’s games dibuat khusus untuk anak-anak berusia 2-12 tahun
+children’s games biasanya terdapat unsur pendidikan, tetapi yang dikhususkan adalah hiburan untuk anak-anak
+ai ai merupakan salah satu bagian ilmu komputer yang mempelajari tentang bagaimana caranya agar komputer dapat melakukan pekerjaan seperti yang dapat dilakukan oleh manusia
+pada awal diciptakannya, komputer hanya difungsikan sebagai alat hitung saja
+namun seiring dengan perkembangan zaman, teknologi komputer semakin ditingkatkan dan peran komputer semakin mendominasi kehidupan umat manusia
+komputer tidak lagi hanya digunakan sebagai alat hitung, melainkan komputer diharapkan dapat diberdayakan untuk mengerjakan hal-hal yang dapat memudahkan pekerjaan manusia
+agar komputer bisa bertindak seperti apa yang dapat dilakukan manusia, maka komputer juga harus diberi bekal pengetahuan dan mempunyai kemampuan untuk menalar
+untuk itu ai akan mencoba untuk memberikan beberapa metode untuk membekali komputer agar komputer bisa menjadi mesin yang pintar
+combat ai agar komputer bisa bertindak seperti apa yang dapat dilakukan manusia, maka komputer juga harus diberi bekal pengetahuan dan mempunyai kemampuan untuk menalar
+untuk itu ai akan mencoba untuk memberikan beberapa metode untuk membekali komputer agar komputer bisa menjadi mesin yang pintar
+non-combat ai ai ini diterapkan pada entitas lain dalam arena permainan selain pemain baik itu yang berperan sebagai musuh ataupun bukan
+ai ini dapat kita lihat pada permainan berjenis rpg
+dimana dalam permainan jenis tersebut banyak ditemui entitas-entitas yang memiliki kegiatannya masing-masing dalam suatu arena permainan
+analitycal ai ai ini diterapkan dalam permainan permainan yang berjenis simulasi
+hal tersebut dikarenakan ai ini 3 yang membutuhkan ai tersendiri
+role playing game maker xp rpg maker merupakan sebuah perangkat lunak yang digunakan untuk membuat game berbasis rpg
+pada awalnya perangkat lunak ini dikembangkan oleh sebuah perusahaan yang bernama ascii dan kemudian dibeli lisensinya oleh perusahaaan yang berasal dari jepang bernama enterbrain
+sebelum bernama rpg maker, perangkat lunak ini bernama 
+versi pc dari rpg maker antara lain: rpg maker 95, rpg maker 2000, rpg maker 2003, rpg maker xp dan rpg maker vx 
+pada dasarnya ada 3 tahapan dalam proses pembuatan game rpg menggunakan rpg maker xp yaitu: 1
+mapping map adalah adalah lokasi dimana karakter dari game dapat bergerak atau bisa disebut juga sebagai latar dari game, untuk itu map yang dibuat harus sesuai dengan alur cerita dalam game
+proses mapping membutuhkan imajinasi yang tinggi dari developer, agar map yang dibuat dapat sedekat mungkin dengan keadaan nyata dan tidak menyimpang dari alur cerita
+database using database using adalah proses pengaturan parameter- parameter untuk objek yang ada dalam game
+objek ini antara lain: tokoh, senjata, animasi, dan suara
+eventing eventing adalah proses pemberian perilaku pada objek yang ada di dalam game
+perilaku objek yang diatur dalam proses ini antara lain: dialog antar tokoh, binatang yang berjalan, backsound, perpindahan tokoh ke map lain, dan pertempuran
+bahasa pemrograman pada rmxp rpg maker xp mengintegrasikan bahasa pemrograman ruby, memberikan fleksibilitas pengembangan yang lebih tinggi daripada bahasa pemrograman ruby yang sebenarnya
+karena bahasa pemrograman ruby tidak mendukung grafis dan audio, rgss dikembangkan untuk menyediakan antarmuka dan struktur data dasar yang dapat digunakan oleh editor
+bahasa ruby ruby adalah bahasa pemrograman dinamis berbasis skrip yang berorientasi obyek
+tujuan dari ruby adalah menggabungkan kelebihan dari semua bahasa-bahasa pemrograman skrip yang ada di dunia
+ruby ditulis dengan bahasa pemrograman c dengan kemampuan dasar seperti perl dan python
+rgss rgss merupakan bahasa pemrograman yang dikembangkan dari bahasa ruby yang dikhususkan untuk menambahkan atau memodifikasi sistem pada game
+rgss digunakan dalam pembuatan sistem, event, dan pembuatan map pada rpg maker xp
+uml uml adalah sebuah yang telah menjadi standar dalam industri untuk visualisasi, merancang dan mendokumentasikan sistem piranti lunak
+uml menawarkan sebuah standar untuk merancang model sebuah sistem
+dengan menggunakan uml kita dapat membuat model untuk semua jenis aplikasi piranti lunak, dimana aplikasi tersebut dapat berjalan pada piranti keras, sistem operasi dan jaringan apapun, serta ditulis dalam bahasa pemrograman apapun
+tetapi karena uml juga menggunakan class dan operation dalam konsep dasarnya, maka ia lebih cocok untuk penulisan piranti lunak dalam bahasa-bahasa berorientasi objek seperti c++, java, c# atau vb.net walaupun demikian, uml tetap dapat digunakan untuk modeling aplikasi prosedural dalam vb atau c
+use case diagram use case diagram menggambarkan fungsionalitas yang diharapkan dari sebuah sistem
+yang ditekankan adalah yang diperbuat sistem, dan bukan 
+sebuah use case merepresentasikan sebuah interaksi antara aktor dengan sistem
+class diagram class adalah sebuah spesifikasi yang jika diinstansiasi akan menghasilkan sebuah objek dan merupakan inti dari pengembangan dan desain berorientasi objek
+class menggambarkan keadaan suatu sistem, sekaligus menawarkan layanan untuk memanipulasi keadaan tersebut 
+class diagram menggambarkan struktur dan deskripsi class, package dan objek beserta hubungan satu sama lain seperti containment, pewarisan, asosiasi, dan lain-lain
+activity diagram activity diagram menggambarkan berbagai alir aktivitas dalam sistem yang sedang dirancang, bagaimana masing- masing alir berawal, decision yang mungkin terjadi, dan bagaimana mereka berakhir
+activity diagram juga dapat menggambarkan proses paralel yang mungkin terjadi pada beberapa eksekusi
+activity diagram merupakan state diagram khusus, di mana sebagian besar state adalah action dan sebagian besar transisi di-trigger oleh selesainya state sebelumnya 
+sequence diagram sequence diagram menggambarkan interaksi antar objek di dalam dan di sekitar sistem berupa message yang digambarkan terhadap waktu sebagai salah satu hasil proses pengembangan intelektual mahasiswa secara mandiri dan sesuai dengan ketentuan yang telah ditetapkan di bawah bimbingan dosen
+penulisan skripsi harus memenuhi syarat-syarat penulisan ilmiah, yaitu obyektif, metodologis, sistematis dan komunikatif.materi penulisan skripsi dapat berasal dari penelitian lapangan dan/ atau penelitian kepustakaan yang merupakan telaah terhadap salah satu topik permasalahan
+skripsi tersebut diharapkan mengemukakan suatu temuan baru
+hasil dan analisis pengujian sistem dilakukan untuk mencari dan menemukan kesalahan atau kekurangan pada aplikasi game simulasi road to bachelor!
+pengujian bermaksud untuk mengetahui perangkat lunak yang dibuat sudah memenuhi kriteria yang sesuai dengan tujuan perancangan perangkat lunak tersebut
+pengujian yang akan digunakan dalam menguji game simulasi road to bachelor! ini adalah dengan menggunakan pengujian alpha dan pengujian beta 
+pengujian alpha pengujian alpha digunakan untuk menguji sistem yang dibuat dan berfokus pada persyaratan fungsional perangkat lunak
+berdasarkan rencana pengujian aplikasi yang telah disusun, maka dapat dilakukan beberapa tahap pengujian sebagai berikut : pengujian objek tombol z kasus dan hasil uji pengujian objek tombol x kasus dan hasil uji pengujian objek tombol c kasus dan hasil uji pengujian objek karakter [ ] tidak tampil b
+pengujian beta pada pengujian beta ini akan dilakukan secara objektif dengan cara dicoba langsung oleh beberapa responden mahasiswa untuk dapat mengetahui sejauh mana sistem yang dibangun dapat menjadi alternatif penyelesaian permasalahan yang telah dijelaskan di latar belakang
+sampel yang diambil adalah 30 orang, nantinya sampel akan dipersilahkan mencoba aplikasi dan mengisi kuesioner yang telah disediakan
+5 - skor kuartil i = 30 - skor kuartil iii = 60 2
+jumlah skor untuk seluruh responden : - skor maksimal = 2250 - skor minimal = 450 - skor median = 1350 - skor kuartil i = 900 - skor kuartil iii = 1800 3
+interpretasi jumlah skor tersebut adalah : - 1800 < skor < 2250, artinya sangat disetujui cukup berhasil) dinilai kurang berhasil) dinilai tidak berhasil) pengujian perangkat lunak aplikasi game simulasi rpg road to bachelor! : aplikasi ini dapat digunakan dan berjalan dengan lancar
+tombol-tombol dan perintah yang ada pada game berfungsi sesuai dengan yang diharapkan
+secara umum responden menyukai aplikasi game simulasi rpg road to bachelor
+secara umum responden menyukai dan merespon baik gameplay pada game ini
+mekanisme pengerjaan tugas akhir yang ada pada game ini
+berdasarkan hasil kuesioner, dapat disimpulkan bahwa game simulasi rpg dapat digunakan sebagai salah satu metode untuk menggambarkan mekanisme pengerjaan tugas akhir kepada mahasiswa
+aplikasi game simulasi rpg road to bachelor dinilai cukup berhasil
+pengujian perangkat lunak aplikasi game simulasi rpg road to bachelor dapat disimpulkan bahwa : 1
+aplikasi game simulasi rpg road to bachelor merupakan game simulasi tentang mekanisme pengerjaan tugas akhir mahasiswa
+aplikasi ini dapat digunakan dan berjalan dengan lancar
+secara umum responden menyukai aplikasi game ini baik dari segi tampilan, storyline, gameplay dan juga segala macam interaksi yang ada pada game simulasi rpg road to bachelor
+game simulasi rpg dapat digunakan sebagai salah satu metode untuk menggambarkan mekanisme pengerjaan tugas akhir kepada mahasiswa
+aplikasi game simulasi rpg road to bachelor dinilai cukup berhasil

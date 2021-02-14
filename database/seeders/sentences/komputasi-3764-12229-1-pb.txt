@@ -1,0 +1,59 @@
+the process of writing a thesis or a final project is the final step that must be taken by a college students which in the process guided by two lecturers
+in practical way, this final project guidance activities carried out by discussion, question and answer, providing suggestion and other activities
+informatics engineering study program implement two stages in making final project that is outline or final project one and thesis or final project two 
+these two stages through intensive counseling process with both lecturers
+constraints faced in the counseling process that is students and lecturers often can not met due to the lack of time suitability or availability time schedule between two sides as well as the ignorance of students about the lecturer’s schedule
+purpose of this research is to produce a final project support system that can assist both student and lecturer in counseling process, become a forum of communication between both lecturers and can be monitored by the head of study program and the head of department in its implementation
+design tools in this research is using data flow diagram and entity relationship diagram.the research testing is using black box and user acceptance test method which then calculated using lsr method
+this research produced a final project guidance support system that can assist the lecturers and student in counseling with real-time notifications via email
+sistem informasi adalah suatu sistem di dalam suatu organisasi yang organisasi dan menyediakan pihak luar tertentu dengan laporan-laporan yang diperlukan 
+pada bidang pendidikan seperti universitas juga membutuhkan dukungan pelayanan terhadap proses pendidikan, terdiri dari banyak proses antara lain perencanaan perkuliahan hingga proses akhir seperti bimbingan skripsi
+adalah tahap akhir yang harus ditempuh oleh mahasiswa yang pada prosesnya dibimbing oleh dua orang dosen pembimbing
+dalam prakteknya, aktifitas bimbingan tugas akhir ini dilakukan dengan diskusi, tanya jawab, pemberian masukan dan aktifitas lainnya
+program studi teknik informatika tugas akhir yaitu outline atau tugas akhir 1 dan sidang skripsi atau tugas akhir 2 
+kedua tahapan ini melalui proses bimbingan yang intensif dengan kedua dosen pembimbing
+tahap outline merupakan dan menulis draft laporan yang terdiri dari bab 1 sampai bab 3
+tahap outline berakhir ketika dosen pembimbing diseminarkan dalam seminar outline
+tahap sidang skripsi merupakan tahap lanjutan dari outline
+pada tahap ini mahasiswa mulai mengerjakan rancangan prototype yang telah di kerjakan pada tahap outline serta pengerjaan laporan skripsi
+dilakukan dengan tatap muka sesuai dengan jadwal bimbingan dosen pembimbing
+atau availability time schedule antara kedua belah pihak maupun ketidaktahuan mahasiswa tentang jadwal dosen informatika rata-rata sebanyak 50 yang lulus hanya sekitar 30 persen per tahun dari total mahasiswa yang diterima
+salah satu penyebab terjadinya hal tersebut yaitu lamanya waktu pengerjaan tugas akhir mahasiswa
+untuk mengatasi permasalahan dalam menyelesaikan permasalahan yang dengan menerapkan teknologi informasi secara tatap muka dengan perantara sistem
+teori dasar 2.1 sistem informasi sistem informasi adalah sistem di dalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, bersifat manajerial dari suatu organisasi dan membantu mempermudah penyediaan 2000)
+bimbingan memiliki arti sebagai petunjuk cara mengerjakan sesuatu, online berasal dari bahasa inggris yang dapat diartikan sebagai suatu keadaan yang sedang menggunakan jaringan, terhubung dalam lainnya yang terhubung sehingga bisa saling berkomunikasi
+kumpulan informasi yang bermanfaat yang diorganisasikann ke dalam tatacara yang khusus
+menurut gabbri dan schwab, basis data adalah sistem berkas terpadu yang dirancang terutama untuk meminimalkan basis data dapat dianggap sebagai tempat untuk sekumpulan berkas dan terkomputerisasi yang tujuan utamanya adalah melakukan pemeliharaan terhadap basis data adalah kumpulan data yang membentuk suatu berkas atau file yang saling berhubungan dengan atacara yang tertentu untuk membentuk data baru atau informasi
+antara basis data dan sistem manajemen basis data
+basis data yang kompleks dan disertai dengan teknik pendokumentasian dan prosedur manipulasinya akan beberapa komponen-komponen sistem basis 1
+perangkat keras, sebagai pendukung operasi pengolahan data
+aplikasi atau perangkat lunak lain yang bersifat opsional 6
+lunak database management system sehingga setiap orang mudah untuk mendapatkan dan bebas untuk menggunakan mysql
+source, multiuser, performance tuning, struktur tabel
+php banyak digunakan untuk memprogram situs web dinamis
+php juga dapat digunakan untuk membangun sebuah content management system 
+php pertama kali dibuat oleh rasmus lerdorf pada tahun 1995, seorang programmer c
+pada waktu itu, php masih bernama form interpreted, yang wujudnya berupa sekumpulan skrip yang digunakan untuk mengolah data formulir dari web
+tugas akhir) merupakan aplikasi yang bertujuan mempermudah proses bimbingan mahasiswa bimbingannya, dapat menjadi pembimbing dan dapat terpantau oleh ketua program studi dan ketua jurusan
+halaman login merupakan tampilan awal dari sistem bimbingan online tugas akhir
+halaman login berisi form login serta link untuk mendaftar sebagai peserta dalam seminar outline
+halaman utama mahasiswa digunakan mahasiswa untuk mengakses halaman- utama, terdapat penghitung waktu mundur bimbingan tugas akhir
+antarmuka hasil perancangan halaman utama mahasiswa program studi dan ketua jurusan digunakan untuk mengakses halaman-halaman lain halaman utama mahasiswa dapat dilihat pada gambar 3
+admin, dosen, ketua program studi dan ketua jurusan dikelompokkan berdasarkan dosen diskusi
+berikut antarmuka diskusi bimbingan pada gambar 4
+bimbingan mahasiswa topik baru mahasiswa gambar 7 antarmuka halaman record bimbingan mahasiswa nama-nama mahasiswa bimbingannya
+bimbingan dosen bimbingan pembimbing untuk dosen
+forum pembimbing menampilkan nama mahasiswa bimbingan, kedua dosen pembimbing bersangkutan
+antarmuka halaman forum pembimbing pembimbing menggunakan metode black box dan metode uat 
+metode pengujian black box merupakan metode yang hanya menguji perangkat lunak dari sisi input dan output nya saja sehingga proses yang terjadi di dalamnya tidak dilakukan pengujian
+pemilihan cara pengujian dilakukan dengan menggunakan teknik yang akan digunakan dalam pengujian adalah teknik sample testing
+sample testing melibatkan beberapa nilai yang terpilih dari sebuah kelas ekivalen, mengintegrasikan nilai pada kasus uji dan nilai-nilai yang terpilih mungkin dipilih dengan urutan tertentu atau interval tertentu
+metode uat yaitu pengujian dilakukan oleh pengguna secara langsung untuk memeriksa apakah sistem dapat berjalan dengan benar sesuai dengan yang diharapkan oleh pengguna
+pengujian ini melibatkan data real yang didapat secara langsung melalui kuesioner tanpa memperhatikan detail disebarkan kepada 30 orang responden yang merupakan pengguna sistem
+kuesioner dengan menggunakan 5 jawaban pilihan yang mewakili dari tujuan akhir yang ingin dicapai dari pembuatan sistem ini
+data yang diperoleh dari hasil pengujian dengan kuesioner kemudian diukur dengan skala likert’s summated rating 
+metode lsr merupakan skala atau pengukuran tentang sikap responden
+ terhadap sistem pendukung bimbingan disimpulkan bahwa: 1
+sistem dapat membantu proses bimbingan tugas akhir antara dosen dan mahasiswa bimbingannya, karena proses serta dilengkapi dengan pemberitahuan atau email
+berkomunikasi mengenai mahasiswa bimbingannya dalam forum pembimbing
+sistem membantu ketua program studi dan ketua jurusan dalam memantau perkembangan bimbingan tugas akhir informasi manajemen

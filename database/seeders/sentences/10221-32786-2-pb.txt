@@ -1,0 +1,56 @@
+urnal edukasi dan penelitian informatika vol 1, no 1, issn 2460-7041 18 ini berjalan dengan sangat cepat
+seiring dengan perkembangan teknologi informasi, penyimpanan dan pengiriman data semakin murah dan semakin baik kualitasnya
+baik individu, institusi, maupun pemerintah ikut melakukan berbagai upaya untuk memanfaatkan perkembangan teknologi informasi ini
+bahkan dalam dunia pendidikan di indonesia, khususnya perguruan tinggi
+setiap perguruan tinggi memiliki kegiatan tri dharma perguruan tinggi yang dilakukan oleh dosen meliputi 4 bidang, yaitu: bidang pendidikan dan pengajaran, penelitian, pengabdian kepada masyarakat, penunjang yang ditetapkan oleh pimpinan universitas
+oleh karena itu beban kerja dosen harus terdistribusi secara proporsional dan terukur dengan memanfaatkan perkembangan teknologi informasi
+salah satunya adalah aplikasi repository digital beban kerja dosen yang dapat membantu dosen yang ingin mengetahui informasi beban kerja yang di tanggung dan membantu pimpinan dalam mengetahui informasi beban kerja yang di tanggung setiap dosen
+berdasarkan hasil pengujian dan penilaian responen mnunjukkan bahwa aplikasi ini dinilai positif dan berhasil
+seiring dengan perkembangan teknologi tersebut, kebutuhan akan teknologi pun semakin meningkat, sebagaimana teknologi dibutuhkan dalam segala aspek kehidupan, salah satu dari teknologi tersebut adalah sistem informasi
+“sistem informasi adalah suatu sistem yang dibuat manusia yang terdiri dari komponen-komponen dalam organisasi untuk mencapai suatu tujuan yaitu menyajikan informasi
+”penyimpanan dan pengiriman data semakin murah dan semakin baik kualitasnya
+baik individu, institusi, maupun pemerintah ikut melakukan berbagai upaya untuk memanfaatkan perkembangan teknologi informasi ini
+bahkan dalam dunia pendidikan di indonesia, sudah saatnya seluruh komponen lembaga pendidikan khususnya perguruan tinggi dituntut menyiapkan diri dengan menyiapkan sarana dan prasarana untuk memanfaatkan perkembangan teknologi informasi tersebut
+tanggung jawab dosen sangat penting dalam mewujudkan tujuan pendidikan nasional, yaitu mencerdaskan kehidupan bangsa, meningkatkan kualitas manusia indonesia, yang meliputi kualitas iman/takwa, akhlak mulia, dan penguasaan ilmu pengetahuan, teknologi, dan seni, serta mewujudkan masyarakat indonesia yang maju, adil, makmur, dan beradab
+untuk melaksanakan fungsi, peran, dan kedudukan yang sangat strategis tersebut, diperlukan dosen yang profesional tugas utama dosen adalah mentransformasi, mengembangkan dan menyebarluaskan ilmu pengetahuan, teknologi, dan seni melalui pendidikan, penelitian dan pengabdian pada masyarakat
+pelaksanaan tugas dosen tersebut perlu dievaluasi dan dilaporkan secara periodik sebagai bentuk akuntabilitas kinerja dosen kepada para pemangku kepentingan
+perguruan tinggi yang dilakukan oleh dosen meliputi 4 bidang, yaitu: bidang pendidikan dan pengajaran, penelitian, pengabdian kepada masyarakat, penunjang yang ditetapkan oleh pimpinan universitas
+oleh karena itu beban kerja dosen harus terdistribusi secara proporsional dan terukur
+sebagai satuan ukuran beban kerja dosen dinyatakan dalam satuan kredit semester disingkat sks
+diharapkan semua aktivitas dosen yang di ukur sebagai beban dosen dalam menjalankan tri dharma perguruan tinggi harus dilakukan secara melembaga
+dapat membantu dosen yang ingin mengetahui informasi beban kerja yang di tanggung, serta membantu pimpinan dalam mengetahui informasi beban kerja yang di tanggung setiap dosen tugas utama mentransformasikan, mengembangkan dan menyebarluaskan i1mu pengetahuan, teknologi, dan seni melalui pendidikan, penelitian dan pengabdian kepada masyarakat
+sedangkan profesor atau guru besar adalah dosen dengan jabatan akademik tertinggi pad a satuan pendidikan tinggi dan mempunyai kewajiban khusus menulis buku dan karya ilmiah serta menyebarkan luaskan gagasannya untuk mencerahkan masyarakat perguruan tinggi dengan beban kerja paling sedikit sepadan dengan 12 sks dan paling banyak 16 sks pada setiap semester sesuai dengan kualifikasi akademiknya dengan ketentuan sebagai berikut
+tugas melaksanakan kewajiban khusus bagi profesor sekurang-kurangnya sepadan dengan 3 sks setiap tahun pemimpin perguruan tinggi berkewajiban memberikan kesempatan kepada dosen untuk melaksanakan tridharma perguruan tinggi
+dosen yang mendapat penugasan sebagai pimpinan perguruan tinggi sampai dengan tingkat jurusan diwajibkan melaksanakan dharma pendidikan paling sedikit sepadan dengan 3 sks
+uraian penelitian yang digunakan melalui beberapa tahapan sebagai 1
+analisa data dan penyusunan basisdata analisa data dilakukan dalam pemilahan data yang diperlukan
+hasil analisa data selanjutnya akan dilanjutkan dengan penyusunan basisdata
+penyusunan basisdata dilakukan untuk menyajikan data yang dihasilkan di lapangan dalam bentuk yang lebih interaktif dan mudah dipahami
+mudah untuk diaplikasikan, menarik untuk dibaca, komunikatif dalam penyampaian dan up-to-date dalam penyajian data
+secara umum lingkup pekerjaan mencakup hal-hal sebagai berikut : template software
+c) software development meliputi penyusunan database dengan mysql, pembuatan user interface
+metode perancangan sdlc dengan model waterfall
+model ini memberikan pendekatan-pendekatan sistematis dan berurutan bagi pengembangan piranti lunak
+berikut gambar pengembangan sistem perangkat lunak dengan proses sdlc dengan model waterfall: gambar 1
+sumber: penjelasan dari tahap-tahap waterfall model adalah sebagai berikut: biasanya merupakan bagian dari suatu sistem yang lebih besar
+pembuatan sebuah piranti lunak dapat dimulai dengan melihat dan mencari apa yang dibutuhkan oleh sistem
+dari kebutuhan sistem tersebut akan diterapkan kedalam piranti lunak yang dibuat
+ analisa kebutuhan piranti lunak untuk memahami dasar dari program yang akan dibuat, seorang analisis harus mengetahui ruang lingkup informasi, fungsi-fungsi yang dibutuhkan, kemampuan kinerja yang ingin dihasilkan dan perancangan antarmuka pemakai piranti lunak tersebut
+yang memfokuskan pada empat bagian penting, yaitu: struktur data, arsitektur piranti lunak, detil prosedur, dan karakteristik antarmuka pemakai
+bahasa program agar piranti lunak tersebut dapat dijalankan oleh mesin
+dengan memfokuskan pada bagian dalam piranti lunak
+tujuannya untuk memastikan bahwa semua pernyataan telah diuji dan memastikan juga bahwa input yang digunakan akan menghasilkan output yang sesuai
+pada tahap ini pengujian dibagi menjadi dua bagian, pengujian internal dan pengujian eksternal pengujian internal bertujuan menggambarkan bahwa semua statement sudah dilakukan pengujian, sedangkan pengujian eksternal bertujuan untuk menemukan kesalahan serta memastikan output yang dihasilkan sesuai dengan yang diharapkan
+perubahan akan dilakukan jika terdapat kesalahan, oleh karena itu piranti lunak harus disesuaikan lagi untuk menampung perubahan kebutuhan yang diinginkan konsumen
+iv.hasil dan diskusi informasi ini akan digunakan
+dapat digunakan oleh bagian kepegawaian untuk mengupload berkas-berkas yang dapat digunakan untuk angka kredit dosen
+halaman menu dashboard menu setting menampilkan profil dari staf
+staf dapat mengubah nama, username serta password staf
+selain itu tab menu ini juga menampilkan level dari operator, total login staf, waktu terakhir staf terdaftar dan waktu login terakhir staf
+halaman menu setting pada halaman upload berkas, staff kepegawaian untan dapat meng-upload berkas yang akan ditujukan kepada dosen
+kepegawaian dapat melihat seluruh berkas yang telah di- upload dan dapat melakukan aksi dan 
+menu identitas, digunakan oleh dosen untuk mengisi biodata pribadi dosen yang bersangkutan 2
+menu pendidikan, digunakan untuk mengupload berkas- berkas sesuai kategori pendidikan berkas dibidang penelitian berkas dibidang pengabdian dosen berkaitan dengan bidang penunjang lain
+menu khusus profesor, digunakan oleh dosen yang memiliki gelar profesor untuk mengupload berkas-berkas khusus profesor berkas-berkas yang telah diupload oleh dosen yang bersangkutan biodata dosen yang bersangkutan
+acceptance test kebutuhan bisnis dan menilai apakah itu dapat diterima
+acceptance test yang digunakan pada penelitian ini, terdiri dari : - user acceptance testing dijadikan bukti bahwa aplikasi yang dikembangkan dapat diterima user dan hasil pengujiannya dianggap memenuhi kebutuhan pengguna

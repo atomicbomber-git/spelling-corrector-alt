@@ -1,0 +1,52 @@
+kabupaten sukoharjo memiliki banyak potensi daerah yang merupakan komoditi unggulan kabupaten yaitu komoditi mebel kayu, mebel rotan, batik, tekstil dan produk tekstil, kaca grafir, kerajinan kulit/tatah sungging, kerajinan gitar, kerajinan gamelan, shuttlecock, jamu tradisional, emping mlinjo, sarung goyor, beras, dan alkohol
+dinas perindustrian dan perdagangan kabupaten sukoharjo adalah salah satu pelaksana urusan pemerintah daerah kabupaten sukoharjo di bidang perindustrian dan perdagangan
+metode pengumpulan data yang digunakan adalah metode observasi dan studi pustaka
+observasi dilakukan dengan mengamati langsung bagaimana data-data komoditi unggulan kabupaten sukoharjo disajikan di dinas perindustrian dan perdagangan kabupaten sukoharjo
+setelah mengetahui sistem penyajian data yang diterapkan yaitu secara manual, kemudian muncul gagasan menggunakan aplikasi google earth yang digunakan untuk menyajikan data komoditi unggulan khususnya komoditi unggulan batik
+dengan adanya perubahan sistem penyajian data ini dinas perindustrian dan perdagangan kabupaten sukoharjo lebih terbantu dalam menemukan lokasi- lokasi produksi batik di kabupaten sukoharjo
+sehingga dinas perindustrian dan perdagangan kabupaten sukoharjo dapat dengan mudah dalam memantau perkembangan produsen komoditi unggulan
+ada sebanyak 36 data komoditi batik yang berhasil disajikan ke dalam google earth dari 36 data komoditi batik kabupaten sukoharjo
+penguasaan teknologi, kemampuan sumberdaya manusia, infrastruktur dan kondisi budaya setempat
+pendahuluan komoditas unggulan merupakan komoditas andalan yang memiliki posisi strategis berdasarkan pertimbangan teknis maupun sosial ekonomi dan kelembagaan untuk dikembangkan di suatu wilayah
+bahwa produk unggulan daerah menggambarkan kemampuan daerah menghasilkan produk, menciptakan nilai, memanfaatkan sumberdaya secara nyata, memberi kesempatan kerja, mendatangkan pendapatan bagi masyarakat maupun pemerintah, memiliki prospek untuk meningkatkan produktivitas dan investasinya
+sebuah produk dikatakan unggul jika memiliki daya saing sehingga mampu untuk menangkal produk pesaing di pasar domestik dan/atau menembus pasar ekspor
+dijelaskan bahwa kabupaten sukoharjo merupakan salah satu kabupaten di jawa tengah yang mana hampir semua daerah di jawa tengah memiliki corak dan sentra batik sendiri
+begitu pula di sukoharjo, berdekatan dengan kota surakarta yang merupakan sentra batik nasional produksi batik asal sukoharjo berkembang bersamaan dengan kian meluasnya penggemar busana batik
+motif dan bahan yang digunakan pun semakin beragam sehingga konsumen memiliki banyak pilihan dengan harga yang bervariasi pula
+penelitian yang dilaksanakan oleh muslimdijelaskan bahwa google earth merupakan sebuah program globe virtual yang sebenarnya disebut earth viewer dan dibuat oleh keyhole, inc
+program ini memetakan bumi dari superimposisi gambar yang dikumpulkan dari pemetaan satelit, fotografi udara dan globe gis tiga dimensi
+sistem infromasi geografis adalah aplikasi desain komputer secara digital yang digunakan untuk mengambil, menyimpan, memanipulasi, menganalisa, dan menganalisa informasi geografi
+system yang menyediakan informasi yang merefleksikan seluruh kegiatan di muka bumi
+kegiatan ini meliputi mengambil, mengolah, menyimpan, dan menyampaikan informasi yang diperlukan oleh pengguna
+informasi– informasi yang diperlukan dalam bentuk data–data posisi, koordinat, ruang atau spasial maupun data-data non spasial sangat diperlukan dalam pendukung dasar–dasar untuk memutuskan perencanaan, maupun kegiatan sehari-hari
+metodologi dalam bukunya, sugiyonomenjelaskan bahwa metode observasi merupakan suatu metode yang dilakukan dengan cara pengamatan lapangan secara langsung terhadap fenomena yang akan diteliti
+dimana akan dilakukan pengamatan atau pemusatan perhatian terhadap obyek dengan menggunakan seluruh alat indra, jadi melalui penglihatan, pendengaran, penciuman, peraba, dan pengecap
+yang berkaitan dengan penelitian ini dan penelitian terdahulu yang berkaitan dengan penelitian yang sedang dilakukan
+dalam kasus ini, perlu adanya studi pustaka mengenai penyajian data komoditi batik dengan google earth
+hasil dan pembahasan menggunakan buku cetak dan file .pdf sebenarnya sudah cukup lengkap untuk dijadikan sebuah penyajian data, namun dalam menyajikan data potensi/komoditi batik alangkah baiknya jika dilengkapi dengan denah dari lokasi sehingga menghasilkan data yang lebih konkrit
+maka dari itu admin melakukan konversi penyajian data dari buku cetak ke penyajian data menggunakan buku cetak dan google earth
+penandaan lokasi perusahaan dan/atau usaha kecil menengah sehingga menghasilkan data peta konkrit
+adapun langkah-langkah dalam penandaan lokasi dengan google earth adalah sebagai berikut
+1) sebelum melakukan penandaan lokasi terlebih dahulu menyiapkan data-data komoditi batik kabupaten sukoharjo
+2) cara mencari titik koordinat garis lintang dan bujur pada google earth adalah sebagai berikut
+menuliskan nama lokasi yang akan dicari titik koordinatnya pada toolbar search di sisi kiri kemudian klik 
+sebagai contoh mencari titik koordinat dari muray batik, tampilan search dapat dilihat pada gambar 1
+berikut adalah tampilan hasil pencarian muray batik yang dapat dilihat pada gambar 2
+2 tampilan hasil pencarian pada google earth 2.3) kemudian ditemukan penunjuk arah dari lokasi muray batik
+ditemukan dua lokasi dengan nama yang sama, sesuikan dengan alamat lokasi pada data yang telah ada, kemudian klik penunjuk arahnya
+lalu pada penujuk arah tersebut tambahkan tanda letak
+klik yang berwarna kuning pada toolbar menu
+tampilan toolbar menu dapat dilihat pada gambar 3
+letakkan tanda tepat pada penujuk arah sehingga menghasilkan titik koordinat yang sempurna
+pada penanda letak akan ditampilkan nama serta garis lintang dan garis bujur
+garis lintang dan garis bujur dapat dilihat pada gambar 4
+4 garis lintang dan garis bujur 3) untuk menandai lokasi seluruh komoditi batik di kabupaten sukoharjo, lakukan langkah 1 dan 2 secara berurutan
+kemudian tambahkan tag html untuk memperindah tampilan dan membuatnya tampak lebih praktis juga
+source code dapat dilihat pada gambar 5
+isikan source code tersebut di bagian description pada properties masing- masing penanda lokasi 
+penanda letak yang telah ditambahkan dapat dilihat pada gambar 6
+6 tampilan penanda letak pada google earth setelah seluruh langkah tersebut dilakukan gambar 7 berikut adalah lokasi-lokasi perusahaan dan/atau usaha kecil menengah se-kabupaten sukoharjo
+kesimpulan menyajikan data komoditi batik dari cara manual ke google earth
+penggunaan google earth tersebut yaitu dengan penandaan letak setiap lokasi perusahaan dan/atau usaha kecil menengah
+penyajian data pelanggan pada google earth dikemas dengan bahasa hyper text markup language sehingga menjadi lebih menarik dalam memberikan lokasi perusahaan dan/atau usaha kecil menengah
+ada sebanyak 36 data komoditi batik yang berhasil disajikan ke dalam google earth dari 36 data komoditi batik kabupaten sukoharjo sehingga 100% data telah ter-input

@@ -1,0 +1,21 @@
+eee paper template in a4 submitted 07-08-2019; revised 08-10-2019; accepted 20-10-2019 33 perancangan sistem pemantau ketinggian sampah menggunakan mikrokontroler arduino dan aplikasi berbasis web eggi chandra#1, yus sholva#2, hafiz muhardi#3 #program studi informatika fakultas teknik universitas tanjungpura jl
+hadari nawawi, pontianak 78124 1bangeggsd@gmail.com 2sholvariza@untan.ac.id 3hafizm@informatika.untan.ac.id pontianak menyediakan tempat pembuangan sementara di beberapa lokasi tertentu
+dalam usaha ini masih ditemukan kekurangan terkait pengontrolan tinggi timbulan sampah yang melebihi kapasitas kontainer sampah pada setiap tps
+hal ini tentunya menyebabkan timbulan sampah yang meluap keluar dan menghasilkan pemandangan yang kurang baik serta pencemaran di lingkungan sekitar tps
+untuk membantu permasalahan tersebut maka dibuat sebuah sistem yang mampu memantau ketinggian sampah dalam kontainer
+ketinggian sampah dijadikan parameter pengontrolan terhadap tinggi timbulan sampah, sehingga sebuah kontainer dikatakan belum penuh, hampir penuh dan penuh
+sistem yang dibangun bertugas memberikan informasi terkini mengenai tinggi timbulan sampah di dalam kontainer, untuk dijadikan data awal dalam menentukan kebijakan terkait pengelolaan sampah perkotaan, serta bisa menjadi data statistik terhadap aktivitas masyarakat dalam membuang sampah
+penelitian ini berhasil membangun sebuah prototipe sistem pemantauan ketinggian sampah menggunakan mikrokontroler arduino dan aplikasi berbasis web
+mikrokontroler arduino berfungsi untuk mengambil data ketinggian sampah, kemudian mengirimkannya ke server sehingga pengguna dapat memantau kondisi ketinggian sampah di dalam kontainer sampah melalui aplikasi website
+prototipe alat yang dibangun menggunakan arduino nano, wemos d1 mini, sensor jarak hc-sr04 dan led 
+pengujian yang dilakukan terhadap sistem terdiri dari pengujian hardware dan software
+berdasarkan hasil pengujian setiap sensor dapat menghitung jark atau ketinggian timbulan sampah yang terdapat dalam kontainer, serta menghitung rata-rata ketinggian hingga disajikan dalam aplikasi website
+hasil baca sensor rata-rata menunjukan ada selisih sebesar 1 cm dibanding dengan pengukuran manual dari perbandingan nilai tersebut didapatlah nilai akurasi rata-rata 99 % dan waktu rata-rata yang dibutuhkan sistem untuk upload data ke server adalah 6, 5 detik
+secara keseluruhan dapat disimpulkan bahwa sistem dapat bekerja dengan baik
+pendahuluan elektronik baik dari perangkat keras maupun perangkat lunak yang berkembang pesat sangat berguna untuk mendukung aktivitas manusia
+aktivitas penduduk yang tinggi dapat menyisakan permasalahan sosial yang cukup kompleks, terutama di bidang persampahan
+masalah persampahan menjadi sangat penting karena akan memberikan dampak dalam kehidupan masyarakat, mulai dari pencemaran lingkungan, banjir dan sampai pada sumber penyakit
+di indonesia merupakan salah satu permasalahan perkotaan yang masih menjadi tantangan bagi pengelola kota
+pertambahan penduduk dan peningkatan aktivitas yang demikian pesat di kota-kota besar, telah mengakibatkan meningkatnya jumlah sampah disertai permasalahannya
+pengelolaan sampah pada masyarakat perkotaan bertambah lama bertambah kompleks sejalan dengan kekompleksan masyarakat itu sendiri
+dibutuhkan korespondensi : eggi chandra 34 dalam membantu pengelolaan sampah

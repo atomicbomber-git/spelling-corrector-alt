@@ -1,0 +1,31 @@
+kerugian moril yang timbul seperti kondisi mental yang menurun atau terganggu karena seseorang akan kehilangan keluarga dan harta benda akibat bencana tersebut
+banjir dan kebakaran merupakan bencana yang marak terjadi di indonesia
+banjir menempati posisi pertama sebagai bencana yang terjadi di setiap tahunnya
+badan nasional penanggulangan bencana adalah salah satu badan yang ada di indonesisa yang mempunyai tugas membantu presiden republik indonesia untuk mengkoordinasikan perencanaan dan pelaksanaan kegiatan penanganan bencana dan kedaruratan secara terpadu, serta melaksanakan penanganan bencana dan kedaruratan mulai dari sebelum, pada saat, dan setelah terjadi bencana yang meliputi pencegahan, kesiapsiagaan, penanganan darurat, dan pemulihan
+badan ini tentu memiliki data yang sangat banyak mengenai bencana yang telah terjadi
+hal tersebut tentu memerlukan sebuah aplikasi untuk memetakan atau mengelompokkan data-data yang ada sehingga lebih sistematis
+sehingga dapat memberikan informasi berupa provinsi yang rawan bencana dan aman dari bencana khusunya banjir dan kebakaran
+penerapan business inteligence sangat cocok untuk kasus ini agar bnpb dapat mengelompokkan bencana khususnya banjir dan kebakaran di setiap provinsi yang ada di indonesia untuk mempermudah masyarakat mendapat informasi bencana yang terjadi
+secara umum, business inteligence bertujuan untuk menyajikan berbagai informasi-informasi sesuai dengan kebutuhan setiap penggunanya
+pada penelitian ini menggunakan salah satu aplikasi business inteligence yakni jasperserver untuk dapat mengelompokkan bencana banjir dan kebakaran yang terjadi di setiap provinsi yang ada di indonesia
+pendahuluan peristiwa atau rangkaian peristiwa yang mengancam dan mengganggu kehidupan dan penghidupan masyarakat yang disebabkan, baik oleh faktor alam dan/atau faktor non alam maupun faktor manusia sehingga mengakibatkan timbulnya korban jiwa manusia, kerusakan lingkungan, kerugian harta benda, dan dampak psikologis
+bencana terjadi karena adanya ancaman, dampak dan kerentanan
+bencana dapat mengancam semua wilayah di indonesia baik di wilayah daratan maupun lautan
+badan nasional penanggulangan bencana adalah sebuah lembaga pemerintah non departemen yang memiliki tugas untuk membantu presiden republik indonesia dalam mengkoordinasikan perencanaan dan pelaksanaan kegiatan penanganan bencana dan kedaruratan secara terpadu, serta melaksanakan penanganan bencana dan kedaruratan mulai dari sebelum, pada saat, dan setelah terjadi bencana yang meliputi pencegahan, kesiapsiagaan, penanganan darurat, dan pemulihan
+badan ini merupakan badan yang memiliki seluruh data bencana baik bencana alam maupun nonalam yang terjadi di indonesia
+banjir dan kebakaran adalah dua diantara jenis bencana yang terjadi indonesia
+banjir merupakan peristiwa yang terjadi ketika aliran air yang berlebihan merendam daratan
+banjir juga merupakan bencana yang paling sering terjadi di indonesia
+sedangkan kebakaran adalah sesuatu bencana yang disebabkan oleh api atau pembakaran tidak terkawal yang membahayakan nyawa manusia, bangunan atau ekologi
+kebaran merupakan bencana yang paling sering dihadapi
+kebakara itu sendiri bisa digolongkan sebagai bencana alam atau bencana yang disebabkan oleh manusia
+bahaya kebakaran dapat terjadi setiap saat, karena banyak peluang yang dapat memicu terjadinya kebakaran
+banyaknya data bencana khusunya banjir dan kebakaran yang ada pada bnpb tentu harus dapat terorganisir dan sistematis sehingga mempermudah dalam pengambilan keputusan
+pengelompokkan ini tentu bertujuan agar masyarakat dan bnpb khusunya dapat mengetahui provinsi mana saja yang rawan bencana dan provinsi yang aman dari bencana
+penerapan business intelligence merupakan salah satu solusi terbaik untuk mengatasinya
+business intelligence meliputi perolehan data dan informasi dari berbagai sumber yang bervariasi dan mengolahnya ke dalam pengambilan keputusan
+pada penelitian kali ini, dibutuhkan sebuah aplikasi business intelligence untuk membantu bnpb untuk mengkoordinir data yang dimilikinya
+jasperserver adalah 66 yang ada di indonesia termasuk provinsi yang aman bencana atau rawan bencana berdasarkan data yang diperoleh dari bnpb khusunya banjir dan kebakaran
+studi literatur dan metode bagaimana cara untuk meningkatkan kualitas pengambilan keputusan bisnis berdasarkan sistem yang berbasiskan data
+business intelligence bisa disamakan dengan briefing books, report dan query tools, serta sistem informasi eksekutif
+business intelligence merupakan sistem pendukung pengambilan keputusan yang berbasiskan data-data

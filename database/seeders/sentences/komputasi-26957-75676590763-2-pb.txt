@@ -1,0 +1,12 @@
+beternak dengan sistem kemitraan merupakan suatu bentuk usaha yang sedang marak saat ini, beternak secara kemitraan merupakan bentuk kerja sama antara peternak dengan perusahaan
+hasil panen akan dibagi sesuai persenan yang telah disepakati pada memorandum of understanding 
+dibutuhkan waktu lebih kurang 4-6 minggu bagi peternak untuk memelihara ayam hingga panen
+selama periode tersebut, peternak harus merawat ayam dengan maksimal sehingga diharapkan hasil panen menguntungkan bagi peternak dan perusahaan tersebut
+maka dari itu, sistem ini dibangun agar dapat mengatasi permasalahan seperti pemberian pakan atau vaksin yang tidak teratur, pencatatan perkembangan ayam tiap hari yang masih dilakukan secara manual, penanganan penyakit dan kurangnya wawasan terhadap penyakit yang sering didapatkan oleh ayam, serta penghitungan timbangan yang masih dilakukan secara manual sehingga dengan mengatasi permasalahan tersebut hasil panen menjadi meningkat dan tingkat produktifitas ayam menjadi terkendali
+tools yang digunakan dalam pembuatan sistem ini adalah visual studio 2017
+setelah dilakukan pengujian selama tiga periode ternak, sebanyak 82.6% responden dari sepuluh orang yang merupakan peternak ayam broiler menyatakan sistem tersebut dapat meningkatkan efisiensi dalam beternak ayam broiler
+pendahuluan latar belakang manusia, oleh karena itu saat ini banyak wirausahawan yang melakukan usaha produksi pada hewan ternak, salah satunya beternak ayam broiler
+ayam broiler atau lebih dikenal dengan ayam potong atau pedaging merupakan ayam yang dapat dipanen pada waktu yang relatif singkat 
+konsep kemitraan dengan sistem kontrak atau yang lebih dikenal masyarakat dengan sistem kemitraan adalah perusahaan inti berkewajiban menyediakan sapronak dan tenaga pembimbing teknis, sedangkan peternak yang bertindak sebagai mitra berkewajiban menyediakan kandang, peralatan, operasional, dan tenaga kerja
+kerja sama tersebut dituangkan dalam dokumen kontrak yang disepakati kedua belah pihak
+isi dokumen kontrak tersebut antara lain kontrak harga sarana produksi ternak, harga jual ayam, bonus prestasi, dan sop atau aturan main kerja samanya

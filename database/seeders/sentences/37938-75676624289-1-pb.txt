@@ -1,0 +1,147 @@
+unified theory of acceptance and use of technology
+penelitian ini bertujuan untuk mengetahui tingkat pengukuran kesuksessan terhadap implementasi sistem e-learning pada universitas zzp yogyakarta dengan menggunakan metode tam dan metode utaut 
+penelitian ini menggunakan semua variabel yang ada pada kedua metode tam dan utaut
+dalam melakukan pengukuran data yang dianalisis pada penelitian ini menggunaka kuisioner yang disebarkan kepada 30 responden yaitu mahasiswa/i fakultas ekonomi di universitas zzp yogyakarta
+data yang dianalisis dihitung dalam bentuk kuantitatif analisis interval menggunakan skala likert dan kemudian dilakukan analisa menggunakan metode tam dan utaut untuk mengukur tingkat kesuksesan implementasi e-learning
+berdasarkan hasil penelitian menunjukan pengukuran kesuksesan terhadap implementasi e-learning dengan metode tam dan utaut persentase sebesar 66, 75%, 69, 66% menyatakan sukses dan persentase 33, 25%, 30, 34% menyatakan tidak sukses
+sehingga kesimpulan dari pengukuran kesuksesan menggunakan ke-2 metode dengan persentase 68, 03% menyatakan dapat diterima, dan 31, 07% responden tidak menyatakan kesuksesan terhadap implementasi e-learning
+pendahuluan semakin berkembang membawa perubahan baik dalam aspek kehidupan
+berbagai metode atau cara telah dilakukan untuk menggunakan teknologi tersebut baik secara efektif dan efesien
+teknologi informasi juga menawarkan pontesi substansi bagi organisasi untuk meningkatkan kinerjanya
+dalam peningkatan kinerja tersebut seringkali tak tercapai karena kurang kesediaan pengguna untuk menerima dan menggunakan sistem yang sudah ada
+pernerimaan teknologi informasi merupakan syarat yang utama kesuksesan implementasi teknologi informasi
+karena pentingnya masalah ini, penjelasan penerimaan pengguna atas teknologi informasi telah menjadi isu yang sangat lama diteliti dalam bidang manajemen sistem informasi
+keputusan untuk mengadopsi suatu teknologi informasi ada ditangan manajer, tetapi keberhasilan penggunaan teknologi informasi tersebut tergantung pada penerimaan dan penggunaan setiap individu pemakainya
+perilaku pemakai terbentuk dari sikap dan persepsi pemakai terhadap teknologi informasi tersebut
+salah satu upaya untuk memahami perilaku pengguna teknologi informasi adalah melalui kajian dan penelitian terhadap teori atau model adopsi teknologi informasi
+berbagai teori perilaku banyak digunakan untuk mengkaji proses adopsi teknologi informasi oleh end-user, diantaranya theory of reason action, theory of planned behavior, technology acceptance model dan unified theory of acceptance and use of technology 
+e-learning adalah teknologi komunikasi dan intensitas pengguna informasi dalam proses belajar mengajar
+e- learning meliputi pembelajaran online, pembelajaran virtual, pembelajaran terdistribusi, pembelajaran berbasis web
+pada dasarnya, e-learning hanya untuk proses pendidikan dengan memanfaatkan teknologi informasi dan komunikasi sebagai media pembelajaran dan mengajar secara tidak langsung
+maka dengan model penerimaan teknologi dianggap paling tepat untuk digunakan
+unified theory of acceptance and use of techology
+motode tam dan utaut banyak digunakan oleh penelitian dalam mengukur kesuksesan penerapan sistem informasi berdasarkan keinginan pengguna dalam menggunakan sistem informasi tersebut
+tam juga dikembangkan untuk menjelaskan prilaku pengguna sistem informasi atau teknologi
+metode ini menepatakan faktor sikap dan tiap-tiap prilaku pemakai dengan konstruk yaitu persepsi kegunaan, korespondensi : ockhy jey fhiter wassalam 123 perceived usefulness perceived nyata pengguna sistem 
+sedangkan metode utaut paling banyak digunakan dalam penelitian pengukuran kesuksesan penerapan sistem informasi yang berkaitan dengan akademik
+salah satu model penerimaan teknologi yang banyak digunakan adalah unified theory of acceptance and use of techology 
+utaut model sebagai sintesis komprensif sebelum penelitian penerimaan teknologi
+utaut model yang telah memahami perkembangan dari sebelumnya, memiliki empat kunci konstruk, yaitu: harapan kinerja, harapan usaha, pengaruh sosial, dan kondisi fasilitas terhadap niat untuk penerimaan teknologi 
+pemahaman yang lebih baik terhadap penerimaan perbandingan kesuksesan sistem e-learning oleh mahasiswa di universitas zzp yogyakarta
+penerapan sistem e-learnig di universitas zzp yogyakarta, telah berjalan selama 3 tahun, banyak dalam penerapannya ternyata masih terdapat beberapa kendala, terutama yang terkait dalam aspek penerimaan dan penggunaan sistem e- learning oleh para penggunanya
+penggunaan sistem e- learning, bertujuan untuk membantu perbaikan dan penambahan pada sistem pengajaran para dosen terhadap mahasiswa
+unified theory of acceptance and use of techology
+dilakukan penelitian yang berjudul perbandingan kesuksesan implementasi e-learning dengan metode tam dan utaut 
+untuk mengetahui besarnya tingkat penerimaan dalam penggunaan sistem e-learning pada universitas zzp yogyakarta
+digunakan untuk penelitian populasi yang luas dan sampel yang besar maka digunakan rancangan survey dengan menjabarkan respon pengguna akhir dalam perbandingan kesuksesan implementasi e-learning dengan metode tam dan utaut pada universitas zzp yogyakarta
+penelitian kuantitatif dengan menggunakan teknik pengumpulan data yang utama adalah kuesioner dan pendukungnya data mahasiswa beserta wawancara
+technology acceptance model technology acceptance model dibuat khusus untuk pemodelan adopsi pengguna sistem informasi
+tujuan utama tam adalah untuk mendirikan dasar penelusuran pengaruh faktor eksternal terhadap kepercayaan, sikap, dan tujuan pengguna komputer
+tam menganggap bahwa dua keyakinan variabel prilaku utama dalam mengadopsi sistem informasi, yaitu persepsi pengguna terhadap manfaat dan persepsi pengguna tehadap penggunaan
+perceived usefulness diartikan sebagai tingkat dimana seseorang percaya bahwa menggunakan system tertentu dapat meningkatkan kinerjanya, dan perceived ease of use diartikan sebagai tingkat dimana seseorang percaya bahwa menggunakan system tidak diperlukan usaha apapun
+konsep tam yang dikembangkan menawarkan sebuah teori sebagai landasan untuk mempelajari dan memahami perilaku pemakai dalam menerima dan menggunakan sebuah sistem informasi
+perluasan konsep tam diharapkan akan membantu memprediksi sikap dan penerimaan seseorang terhadap teknologi dan dapat memberikan informasi mendasar yang diperlukan mengenai faktor-faktor yang menjadi pendorong sikap individu tersebut
+manfaat dipersepsikan yang menentukan intense perilaku seseorang untuk menggunakan teknologi
+intense perilaku adalah seberapa besar keinginan seseorang untuk melakukan tindakan tertentu
+kegunaan persepsian dan kemudahan penggunaan persepsian memberikan pengaruh pada behavioral intention, tetapi tidak sebaliknya
+pemakaian teknologi akan mempunyai behavioral intention menggunakan teknologi jika sitem atau teknologi bermanfaat dan mudah digunakan
+jika sistem sangat bermanfaat, mudah atau tidak penggunaannya akan tetap digunakan
+berikut model dasar tam dapat dilihat pada gambar 1
+unified theory of acceptance and use of technology unified theory of acceptance and use of technology yang dikembangkan model ini delapan model penerimaan teknologi yang telah dikembangkan sebelumnya
+delapan model tersebut antara lain theory reasoned action, technology acceptance model, motivational model, theory of planned behavior, combined tam and tpb, model of pc utilization, innovation diffusion theory dan social cognitive theory 
+disamping itu terdapat empat moderator yaitu gender, age, experience dan voluntariness of use, yang diposisikan untuk memoderasi dampak dari konstruk-konstruk pada behavioral intention dan use behavior
+bentuk penelitian ini menggunakan analisi interval data kuantitatif dengan skala likert untuk meneliti variabel- variabel kedua metode tam dan utaut dengan memberikan kuesioner kepada responden yaitu mahasiswa/i fakultas ekonomi universitas zzp yogyakarta
+responden yaitu mahasiswa berjumlah 30 kuesioner dan 30 mahasiswa yang menjadi target penelitian di kelompokkan berdasarkan jenis kelamin ditunjukkan pada tabel 1
+tabel i 1 laki-laki 13 43 2 perempuan 17 57 dengan persentase sebesar 43%, dan jenis kelamin perempuan sebanyak 17 orang dengan persentase sebesar 57%
+dapat diambil kesimpulan jenis kelamin yang mendominasi dalam pengisian kuesioner adalah perempuan sebanyak 17 orang dengan persentase 57%
+tahapan penelitian dilakukan peneliti untuk mempermudah dalam melakukan penelitian
+desain perbandingan kesuksesan implementasi e-learning dengan metode tam dan utaut
+deskripsi data responden skala likert dilakukan untuk mengetahui lebih besar mana penerimaan kesuksesan sistem e-learning pada mahasiswa/i fakultas ekonomi universitas zzp yogyakarta
+berikutnya adalah langkah-langkah instrumen berupa kuesioner penelitian dirancang dengan skala likert yang terdiri dari 5 skala yaitu 1=, 2=, 3= 4= dan 5= ‘‘sangat setuju’’ 
+teknik analisis data yang digunakan dalam penelitian ini adalah teknik analisis statistik deskriptif dengan langkah- langkah yang dilakukan sebagai berikut
+menentukan besarnya skor kriterium sesuai dengan hasil yang didapat dari pengolahan data sebelumnya
+skor kriterium adalah skor ideal yang dicapai dalam sebuah penelitian
+apabila diasumsikan seluruh responden yang ditetapkan memilih jawaban angka terendah yaitu 1 untuk 1 pertanyaan, maka skor yang terendah adalah 100
+apabila diasumsikan seluruh responden yang ditetapkan memilih angka tertinggi yaitu 5 untuk 1 pertanyaan, maka skor tertinggi adalah 500
+skor tertinggi inilah yang disebut skor kriterium
+cara mendapatkan skor kriterium ini adalah dengan menggunakan rumus sebagai berikut : pertanyaan x jumlah responden
+kemudian, ditentukan skor total dari hasil pengumpulan data yang sudah dilakukan
+skor total hasil pengumpulan data disimbolkan dengan dengan ∑sh
+langkah terakhir adalah menentukan rentang hasil berdasarkan skor kriterium dan persentase yang didapatkan untuk kemudian dibandingkan dengan skor hasil pengumpulan data
+rentang hasilnya dapat disajikan pada tabel 2 berikut ini :’ tabel ii menggunakan skala likert yang merupakan skala yang biasa digunakan untuk mengukur sikap, pendapat, dan persepsi seseorang 
+skala likert yang digunakan adalah 5 skala
+untuk keperluan analisis maka jawaban diberi skor, dapat dilihat pada tabel 3
+tabel iii skala likert 1 sangat tidak setuju 1 2 tidak setuju 2 3 cukup setuju 3 4 setuju 4 b
+analisis data kelamin, pengalaman dan kesukarelaan menggunakan sistem e-learning pada universitas zzp yogyakarta
+responden berdasarkan umur berdasarkan usia responden pengguna akhir sistem e-learning universitas zzp yogyakarta
+dapat diketahui bahwa responden yang mengisi kuesioner penelitian ini mengenai sistem e- learning pada universitas zzp yogyakarta dari usia 19- 24 sebanyak 27 orang atau jika dipersentasekan sebesar 90%, dari usia 25-29 sebanyak 2 orang jika dipersentasekan sebesar 7%, dan usia 30-35 sebanyak 1 orang jika dipersentasekan sebesar 3%
+maka dapat disimpulkan bahwa hasil penelitian ini dipengaruhi oleh responden yang berusia 19-24 tahun
+persentase berdasarkan umur, bahwa responden yang sudah berpengalaman menggunakan sistem e-learning sebanyak 28 orang dengan persentase 93% dan yang tidak berpengalaman menggunakan sistem e-learning sebanyak 2 orang dengan persentase 7%
+maka dapat dilihat responden yang sudah berpengalaman lebih mendominasi yaitu sebanyak 28 orang dari 30 sampel yang dibutuhkan
+responden berdasarkan manfaat menggunakan sistem e-learning, dapat diketahui responden yang mengisi kuesioner ini di dominasi oleh responden yang mendapatkan manfaat dalam menggunakan sistem e- learning yaitu sebanyak 28 orang dengan persentase 93% dan yang tidak mendapatkan manfaat menggunakan sistem e-learning adalah sebanyak 2 orang dengan persentase 7%
+data responden berdasarkan kesukarelaan menggunakan sistem e-learning
+melakukan pengukuran penerimaan kesuksesan dengan kuesioner sesuai dengan variabel pertanyaan sebagai berikut : 1
+variabel kebermanfaatan menggunakan terdiri dari 2 butir pertanyaan, berikut ini adalah tabel distribusi frekuensi variabel perilaku menggunakan berdasarkan hasil pengumpulan kuesioner yang sudah diolah terdapat pada tabel 4 berikut ini : tabel iv sts 1 ts 2 cs 3 s 4 ss 5 0 3 8 16 3 2 sistem e-learning mempercepat dalam kegiatan belajar mengajar maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel niat untuk berperilaku, adapun range kategorinya dapat dilihat pada tabel 5
+tabel v sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel niat untuk menggunakan adalah sebesar 76, 66% menyatakan sukses dan 23, 34% menyatakan tidak sukses
+variabel persepsi kemudahan pengguna menggunakan terdiri dari 2 butir pertanyaan, berikut ini adalah tabel distribusi frekuensi variabel persepsi kemudahan menggunakan berdasarkan hasil tabel 6
+tabel vi pertanyaan persepsi kemudahan penggunaan no persepsi kemudahan penggunaan ahli dalam mengoperasikan 2 mengoperasikan sistem e- 0 4 15 9 2 maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel niat untuk berperilaku, adapun range kategorinya dapat dilihat pada tabel 7
+tabel vii 0 20% 40% 60% 61, 66% 80% 100% sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel niat untuk menggunakan adalah sebesar 61, 66% menyatakan sukses dan 38, 34% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan responden setuju bahwa mahasiswa/i memiliki keinginan dalam menggunakan sistem e-learning untuk proses perkuliahan 3
+variabel sikap terhadap pengguna terdiri dari 2 butir pertanyaan, berikut ini adalah tabel distribusi frekuensi variabel sikap terhadap pengguna berdasarkan hasil pengumpulan kuesioner yang sudah diolah terdapat pada tabel 8
+tabel viii pertanyaan sikap terhadap penggunaan no sikap terhadap penggunaan 2 menggunakan penerapan sistem e-learning sangat bagus dalam maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel niat untuk berperilaku, adapun range kategorinya dapat dilihat pada tabel 9
+tabel ix 0 20% 40% 60% 70, 66% 80% 100% sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel sikap untuk menggunakan adalah sebesar 70, 66% menyatakan sukses dan 29, 34% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan responden setuju bahwa mahasiswa/i memiliki keinginan dalam menggunakan sistem e-learning untuk proses perkuliahan
+variabel pemakai actual menggunakan terdiri dari 2 butir pertanyaan, berikut ini adalah tabel distribusi frekuensi variabel pemakai actual berdasarkan hasil pengumpulan kuesioner yang sudah diolah terdapat pada tabel 10 berikut ini : tabel x pertanyaan pemakai actual ts 2 cs 3 s 4 ss 5 sistem e-learning dalam belajar menggunakan sistem e-learning dalam belajar mengajar maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel niat untuk berperilaku, adapun range kategorinya dapat dilihat pada tabel 11
+tabel xi range variabel pemakai actual sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel pemakai actual untuk menggunakan adalah sebesar 58, 00% menyatakan sukses dan 42, 00% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan responden cukup setuju bahwa mahasiswa/i memiliki keinginan dalam menggunakan sistem e-learning untuk proses perkuliahan
+variabel keseluruhan dari metode tam dalam pengukuran kesuksesan dan penggunaan sistem e- learning berdasarkan variabel, kemudian peneliti melakukan perhitungan tingkat persentase pengukuran seluruh variabel pada metode tam, dapat dilihat pada tabel 12
+dari perhitungan metode likert didapatkan range kategori variabel keseluruhan, adapun range kategorinya dapat dilihat pada tabel 13
+tabel xiii range variabel keseluruhan tam sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel pemakai actual untuk menggunakan adalah sebesar 66, 75% menyatakan sukses dan 33, 25% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan responden setuju bahwa mahasiswa/i memiliki keinginan dalam menggunakan sistem e-learning untuk proses perkuliahan
+metode utaut menggunakan 5 variabel untuk melakukan pengukuran penerimaan kesuksesan dengan kuesioner sesuai dengan variabel pertanyaan sebagai berikut : 1
+variabel ekspektasi kinerja terdiri dari 2 butir pernyataan, berikut ini adalah tabel distribusi frekuensi variabel ekspektasi kinerja berdasarkan pertanyaan hasil pengumpulan kuesioner yang sudah diolah terdapat pada tabel 14
+tabel xiv pertanyaan persepsi ekspektasi kinerja 2 sistem e-learning dapat maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel ekspektasi kinerja, adapun range kategorinya dapat dilihat pada tabel 15
+tabel xv sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel ekspektasi kinerja adalah sebesar 81, 33% menyatakan sukses dan 18, 67% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan bahwa responden setuju bahwa menggunakan sistem e-learning dapat membantu dan memudahkan mahasiswa/i dalam proses perkuliahan di universitas zzp yogyakarta
+variabel ekspektasi usaha terdiri dari 2 butir pernyataan, berikut ini adalah tabel distribusi frekuensi variabel ekspektasi usaha berdasarkan pertanyaan hasil pengumpulan kuesioner yang sudah diolah terdapat pada tabel 16
+tabel xvi sts 1 ts 2 cs 3 s 4 ss 5 0 1 15 12 2 2 fitur-fitur dalam e-learning memberikan kemudahan dalam kegiatan belajar mengajar maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel ekspektasi usaha, adapun range kategorinya dapat dilihat pada tabel 17
+tabel xvii range variabel ekspektasi usaha sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel ekspektasi usaha adalah sebesar 70, 33% menyatakan sukses dan 29, 67% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan bahwa responden setuju bahwa menggunakan sistem e-learning memiliki kemudahan sehingga responden berminat untuk menggunakan sistem e-learning dalam proses perkuliahan
+variabel pengaruh sosial terdiri dari 2 butir pernyataan, berikut ini adalah tabel distribusi frekuensi variabel pengaruh sosial berdasarkan hasil pengumpulan kuesioner yang sudah diolah terdapat pada tabel 18
+tabel xviii pertanyaan persepsi pengaruh sosial learning membuat saya menjadi lebih percaya diri dalam kegiatan belajar mengajar maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel pengaruh sosial, adapun range kategorinya dapat dilihat pada tabel 19
+tabel xix range variabel pengaruh sosial sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban penulis berdasarkan variabel pengaruh sosial adalah sebesar 60, 33% menyatakan sukses dan 39, 67% menyatakan tidak sukses
+dari hasil tersebut termasuk kedalam kategori setuju
+dapat diartikan bahwa responden mendapat pengaruh sosial, seperti pihak kampus ataupun dari dosen dalam menggunakan sistem e-learning sebagai proses perkuliahan di universitas zzp yogyakarta
+tabel xx no kondisi–kondisi pemfasilitasi menggunakan sitem e-learning lain saat saya mengalami maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel kondisi pemfasilitasi, adapun range kategorinya dapat dilihat pada tabel 21
+tabel xxi range variabel kondisi pemfasilitasi sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel adalah sebesar 69, 00% menyatakan sukses dan 31, 00% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan responden setuju bahwa kondisi pemfasilitasi seperti infrastruktur yang tersedia sangat dibutuhkan untuk pemakaian sistem e-learning
+variabel niat untuk berperilaku terdiri dari 2 butir pernyataan, berikut ini adalah tabel distribusi frekuensi variabel niat untuk berperilaku berdasarkan hasil pengumpulan kuesioner yang sudah diolah terdapat pada tabel 22
+tabel xxii pertanyaan persepsi niat untuk berperilaku no niat untuk berperilaku 2 7 11 9 1 2 saya senang menggunakan maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel niat untuk berperilaku, adapun range kategorinya dapat dilihat pada tabel 23
+tabel xxiii 0 20% 40% 60% 64, 33% 80% 100% sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel niat untuk menggunakan adalah sebesar 64, 33% menyatakan sukses dan 35, 67% menyatakan tidka sukses
+dari hasil tersebut dapat diartikan responden setuju bahwa mahasiswa/i memiliki keinginan dalam menggunakan sistem e-learning untuk proses perkuliahan
+variabel keseluruhan dari metode utaut dalam pengukuran kesuksesan dan penggunaan sistem e- learning berdasarkan variabel, kemudian peneliti melakukan perhitungan tingkat persentase pengukuran seluruh variabel pada metode utaut, dapat dilihat pada tabel 24
+tabel xxiv maka dilakukan analisis dengan metode likert untuk mendapatkan range kategori
+dari perhitungan metode likert didapatkan range kategori variabel keseluruhan, adapun range kategorinya dapat dilihat pada tabel 25
+tabel xxv range variabel keseluruhan utaut sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel pemakai actual untuk menggunakan adalah sebesar 69, 66% menyatakan sukses dan 30, 34% menyatakan tidak sukses
+dari hasil tersebut dapat diartikan responden setuju bahwa mahasiswa/i memiliki keinginan dalam menggunakan sistem e-learning untuk proses perkuliahan
+variabel keseluruhan setelah mengetahui tingkat persentase penerimaan dan penggunaan sistem e- learning berdasarkan variabel, kemudian peneliti melakukan perhitungan tingkat persentase penerimaan dan penggunaan sistem e-learning secara keseluruhan, dapat dilihat pada tabel 26
+dari perhitungan metode likert didapatkan range kategori variabel keseluruhan, adapun range kategorinya dapat dilihat pada tabel 27
+tabel xxvii range variabel keseluruhan tam sts ts cs s ss dari range kategori tersebut dapat dilihat bahwa dari hasil distribusi persentase jawaban berdasarkan variabel keseluruhan adalah sebesar 68, 03% menyatakan dapat diterima dan 31, 07% responden tidak menyatakan kesuksesan terhadap implementasi e-learning
+dari hasil tersebut dapat disimpulkan bahwa variabel ekspektasi kinerja, ekspektasi usaha, pengaruh sosial, kondisi pemfasilitasi, niat untuk berperilaku, persepsi kemanfaatan, kemudahan pengguna, sikap terhadap pengguna, pemakai actual dapat diterima oleh responden
+kesimpulan learning dengan metode tam dan utaut, maka dapat disimpulkan sebagai berikut : kebermanfaatan yang paling berpengaruh atau lebih kuat dalam menjelaskan kesuksesan penerapan sistem e- learning
+hal ini berarti bahwa sistem e-learning telah sukses diterapkan sebab memiliki banyak kegunaan dalam membantu proses perkuliahan mahasiswa/i
+sedangkan pada metode utaut variabel ekspektasi kinerja yang paling berpengaruh atau lebih kuat dalam menjelaskan kesuksesan penerapan sistem informasi akademik
+hal ini berarti bahwa sistem informasi akademik yang diterapkan memiliki performace yang dapat diandalkan guna membantu proses perkuliahan serta sistem e-learning tersebut sudah berjalan diatas infrastruktur yang memadai serta didukung oleh sarana dan prasarana pendukung sistem
+utaut dalam penerapan sistem e-learning dapat dilihat pada hasil uji
+dari hasil tersebut dapat disimpulkan bahwa metode utaut merupakan metode yang paling baik digunakan dalam studi kasus ini sebab metode utaut mampu mengukur sebanyak 69, 66% menyatakan sukses dan 30, 34% menyatakan tidak sukses
+dari aspek- aspek yang dapat digunakan untuk menilai kesuksesan penerapan sebuah sistem e-learning dan metode tam hanya mampu mengukur sebanyak 66, 75% menyatakan sukses dan 33, 25% menyatakan tidak sukses
+sehingga pengukuran kesuksesan menggunakan ke- 2 metode dengan persentase sebanyak 68, 03% menyatakan sukses dan 31, 07% tidak menyatakan kesuksesan dalam penerapan sistem e-learning, sehingga dapat diartikan besarnya tingkat penerimaan kesuksesan dan penggunaan metode tam dan utaut berpengaruh terhadap minat menggunakan sistem e-learning pada fakultas ekonomi universitas zzp yogyakarta

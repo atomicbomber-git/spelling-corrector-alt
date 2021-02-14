@@ -1,0 +1,60 @@
+melalui tulisan ini disajikan penelitian yang dilakukan secara eksperimen yang membahas tentang kejahatan penyerangan database secara sql injection
+penyerangan dilakukan melalui halaman autentikasi dikarenakan halaman ini merupakan pintu pertama akses yang seharusnya memiliki pertahanan yang cukup
+kemudian dilakukan eksperimen terhadap metode parameterized query untuk mendapatkan solusi terhadap permasalahan tersebut
+pertumbuhan kebutuhan dunia bisnis yang saat ini cenderung mengedepankan layanan berbasis online untuk menjawab kebutuhan customer mendapatkan layanan yang cepat, tepat dan aman
+disisi lain peningkatan tersebut mengakibatkan meningkatnya ide kreatif dari para penyerang yang menyalah gunakan kesempatan tersebut untuk mendapatkan segala sesuatu dengan cara illegal dampak dari kegiatan tersebut tentu saja menimbulkan kerugian pada kedua stackholder yaitu produsen dan customer
+munculnya kerentanan tersebut dipengaruhi beberapa faktor antara lain kurangnya pengetahuan customer terhadap jenis layanan berbasis web dan kurang siapnya penyelenggara layanan terhadap isu-isu keamanan yang berhubungan dengan bisnis berbasis online atau e-commerce
+yang tepat maka dianggap perlu mengenal karakter dan cara kerja dari kegiatan penyerangan tersebut
+dalam penelitian ini diperkenalkan jenis penyerangan dengan cara sql injection secara server side scripting untuk kemudian diberikan solusi menghindarinya
+dalam penelitian ini diangap perlu mengangkat jenis serangan sql injection dikarenakan bahwa total serangan terhadap situs-situs yang ada di indonesia adalah 28.430.843 dan jenis serangan paling besar adalah melalui sql
+sql injection sql yang dikirimkan melalui aplikasi ke database
+dengan kemampuan tersebut seorang penyerang dapat mempengaruhi syntax sql, kekuatan, fleksibilitas dari database pendukung fungsional dan mempengaruhi fungsi sistem operasi yang dialokasikan untuk database
+sql injection tidak hanya mempengaruhi aplikasi web tapi juga semua program lain yang menggunakan kalimat sql
+semua program yang menggunakan input dinamis dari luar dapat terserang oleh sql
+menunjukan cara kerja seorang penyerang menggunakan sql injection melalui pintu pertama sebuah situs yaitu halaman login
+melalui autentikasi sql injection membentuk logika tertentu untuk dapat masuk kedalam system database
+kerentanan?  memanfaatkan keuntungan dari sebuah sebuah aplikasi yang tidak terlindungi pada fungsi autentikasi pengguna karena tidak adanya validasi
+ umumnya seorang penyerang membajak login field yang tidak terlindungi untuk memperoleh akses database
+ 83% kegiatan hacking situs web yang sukses tahun 2005-2011 menggunakan metode sql injection, menurut privacy rights.org juta kartu), heartland payment systems, rockyou, sony 
+ serangan terautomatisasi berhasil menginfeksi 100.000 web: in 2008, sql attack menjadi terautomatisasi via botnets
+infeksimasi yang pernah terjadi adalah yang melibatkan lebih dari 500 juta pengguna, dilaporkan 500.000 insiden yang dilaporkan tahun 2008
+bahkan seorang penyerang dapat memanfaatkan pesan error yang dikirimkan server ketika dia memberikan query- query illegal untuk mendapatkan nama dan tipe dari kolom pada tabel suatu database
+metode untuk menghindari sql injection metode untuk menghindari sql injection dapat dilakukan kedalam dua cara yaitu secara client-side dan server-side
+pada metode client-side yaitu menerima 'shadow sql query' dari server-side dan melakukan pengecekan terhadap deviasi yang terjadi antara shadow query dengan query dinamis yang dibentuk oleh masukan dari pengguna
+jika ditemukan adanya deviasi maka dapat dipastikan bahwa masukannya tidak benar 
+sedangkan dalam penelitian ini dikedepankan metode secara server-side
+yaitu melalui sejumlah langkah antara lain: dibanding query dinamis, parameterized query mengirimkan setiap parameter kedalam lapisan query setelah semua kode sql telah didefinisikan
+database dapat membedakan antara kode dan data, apapun masukan dari pengguna
+seorang penyerang tidak dapat merubah maksud query, meskipun sql command telah disusupkan di dalamnya
+pengguna dengan aturan-aturan yang telah didefinisikan seperti panjang, tipe dan filter lain jika diperlukan
+matikan atau sembunyikan pesan-pesan error yang keluar dari server database
+web anda tidak memerlukan akses ke tabel tertentu, maka pastikan bahwa mereka semua tidak memiliki izin untuk itu
+jika hanya read-only maka akanmenghasilkan laporan dari tabel hutang account anda maka pastikan anda menonaktifkan insert / update / menghapus akses
+metodelogi penelitian mencari pengaruh perlakuan tertentu terhadap yang lain dalam kondisi yang terkendalikan
+penelitian dilakukan melalui sejumlah langkah yang dijelaskan melalui gambar 2
+2 langkah penelitian melakukan pengamatan untuk mengidentifikasi masalah yang ada
+kemudian dilakukan kajian pustaka terkait dengan masalah yang ada untuk menentukan metode terbaik yang dapat dijadikan solusi
+pada tahapan eksperimen solusi tersebut diuji cobakan dengan menyusun rangkaian bahasa pemrograman menggunakan php
+hasil eksperimen dianalisa untuk ditarik kesimpulan apakah pengujian yang dilakukan memperoleh hasil sesuai dengan tujuan yang hendak dicapai
+pembahasan pengamanan yang dimiliki oleh sebuah situs, umumnya yang harus dilakukan oleh pengguna layanan adalah mengisi user dan password
+kedua bagian ini mempunyai prinsip kerja dimana harus memiliki nilai keduanya benar maka benar
+hasil tahapan ekperimen berikut memberikan pembuktian tersebut
+mengetikan kalimat query yang berisi sql injection kedalam field password dengan tujuan melakukan login secara illegal gambar
+menunjukan query yang diberikan kedalam field password dengan menggunakan sql injection
+password dimasukan sejumlah karakter yang menghasilkan logika selalu benar yaitu berupa karakter yang bukan merupakan nilai password yang sesunguhnya dan hasil yang diperoleh adalah berhasil login
+hal ini dikarenakan sql interpreter tidak dapat membedakan antara perintah yang dimaksud dengan kode yag di-inject oleh penyerang yang kemudian dieksekusi dan mengakibatkan tereksposnya database
+“select * from user where username = ? and password = ? limit 1”
+select * from user where username = ? and password = ? limit 1
+$sql = $db->prepare ; 11
+} baris ke-10 pada listing program merupakan langkah memberikan isi field password kepada suatu parameter tertentu
+karakter yang tidak berhak untuk berada pada posisi tersebut
+bilamana ditemukan maka hasil query dianggap tidak benar
+memberikan serangan kedua dengan cara yang sama dengan langkah pertama setelah adanya parameterized query pada listing program
+illegal dan mendapatkan hasil login salah
+4 hasil query sql injection dengan paramerized query gambar 4
+menunjukan hasil dari query injection terhadap halaman autentikasi yang telah diberikan parameterized query
+menganalisa data hasil eksperimen yang diperoleh kemudian menarik kesimpulan
+pertahanan dari usaha penyerangan secara sql injection
+halaman autentikasi merupakan pintu pertama keamanan suatu data harus memiliki fasilitas pertahanan yang tinggi yang mampu mengikuti perkembangan teknologi dengan benar yang bertujuan mengikuti pola berpikir para penyerang yang semakin banyak karakteristik dan cara kerjanya nya
+menganggap suatu metode atau jenis penyerangan yang telah usang atau sederhana merupakan suatu tindakan ceroboh yang dapat merugikan diri sendiri
+menentukan konsep pertahanan pada lapisan awal suatu layanan berbasis web perlu memperhatikan beberapa hal anatara lain : kenyamanan pengguna layanan dan pengaruhnya terhadap kecepatan proses

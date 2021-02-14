@@ -1,0 +1,101 @@
+eee paper template in a4 vol 5 no 3 implementasi metode rekayasa sistem jaringan komputer untuk pengembangan jaringan #universitas bina darma jl
+jenderal ahmad yani no3, 9/10 ulu, kecamatan seberang ulu i, kota palembang, sumatera selatan 30111 1alex_wj@binadarma.ac.id 2timur.dali.purwanto@binadarma.ac.id karena itu tersedianya infrastruktur jaringan komputer beserta teknologinya yang mampu memberikan kualitas layanan serta solusi di berbagai aktivitas dilingkungan akademik sangatlah penting
+dalam penelitian ini dilakukan pengembangan jaringan komputer dan internet dengan mengimplementasikan langkah-langkah dalam metode dari requirements gathering, selection and design, implementation and operation dan review and evaluation
+hasil pengembangan jaringan dilengkapi dengan adopsi beberapa teknologi seperti load balancing, segmentasi jaringan dengan vlan, vlan trunking dmz, ids dan teknik failover pada koneksi nirkabel
+pengukuran kinerja jaringan juga dilakukan dengan qos dengan empat parameter yaitu bandwidth, packet loss, delay dan jitter pada jaringan sebelum dan sesudah pengembangan dengah hasil menunjukkan penginingkatan standar kualitas dengan rata-rata bagus
+pendahuluan komunikasi data dalam jaringan komputer adalah salah satu perkembangan teknologi yang paling cepat pada saat ini
+hal ini ditandai dengan perkembangnya perangkat lunak baru untuk mendukung aktivitas diberbagai bidang seperti sosial network, bisnis dan aktivitas akademik yang berjalan diatas flatform berbasis jaringan
+oleh karena itu tugas yang di emban oleh jaringan komputer akan semakin berat, yang disebabkan semakain banyaknya aplikasi berbasis jaringan atau aplikasi terdistribusi yang berada dilokasi berbeda dan dapat diakses dari berbagai tempat
+komputer dan internet yang tangguh menjadi hal yang sangat penting
+kegiatan bisnis dalam institusi, organisasi dan perusahaan, maka kebutuhan akan pengembangan jaringan komputer menjadi kebutuhan yang paling mendesak
+pemahaman jaringan komputer menurut f.a behrouzadalah seperangkat peralatan yang disebut sebagai nodes yang dihubungkan melalui communication link
+hal senada juga ditulis oleh bakarjive, nd yakni jaringan komputer adalah koleksi dari komputer, printer, swith serta peralatan lain yang terhubung satu dengan lainnya menggunakan media kabel atau gelombang radio sehingga terjadi komunikasi dan pertukaran data antar peralatan dalam jaringan
+secara garis besar jaringan komputer terdiri dari dua kategori yaitu jaringan peer to peer yang cocok untuk jaringan berskala kecil dan jaringan client server untuk jaringan komputer berskala besar, jaringan kategori kedua biasanya memiliki server untuk melakukan pengontrolan terhadap semua peralatan dalam lingkungannya
+masing-masing komputer dalam jaringan adalah sama serta dapat berkomunikasi langsung tanpa ada yang melakukan pengaturan, sedangkan client server network memiliki otoritas pusat yang melakukan pengontrolan dan pengaturan komunikasi dan akses sumber daya dalam jaringan
+pada sekolah tinggi yang memiliki 2 buah gedung yaitu gedung a dan gedung b yang digunakan untuk proses akademik maupun proses non-akademik
+gedung a adalah gedung utama tempat proses perkuliahan, rektorat, administrasi dan juga unit pengelolah sumber daya teknologi informasi
+gedung b adalah laboratorium, perpustakaan dan lppm
+lain; jaringan komputer yang menghubungkan komputer di tiap ruangan masing masing gedung, koneksi antar gedung masih menggunakan kabel dan koneksi wireless di beberapa titik
+penelitian ini menggunakan pendekatan terstruktur yaitu rekayasa sistem jaringan komputer, dengan langkah sebagai berikut: 1
+requirements gathering, yaitu tahap pengumpulan informasi yang dibutuhkan untuk rekayasa sistem dan melakukan analisa kebutuhan
+kegiatan yang dilaksanakan diantaranya : studi literatur untuk memperoleh landasan pengetahuan yang menyeluruh dalam penelitian dan site survey untuk mendapatkan data mengenai kondisi jaringan komputer yang telah ada seperti topologi jaringan, aplikasi yang digunakan, peralatan jaringan, bagaimana peralatan terkoneksi dan juga kualitas jaringan komputer yang telah ada
+pada tahapan ini juga di lakukan pengukuran kinerja dan kualitas jaringan dengan metode qos 2
+selection and design, yaitu pemilihan perangkat yang akan digunakan untuk rekayasa pengembangan jaringan komputer, analisa dan pendesainan sistem jaringan dengan membuat prototype
+implementation and operation, yaitu menerapkan prototype atau desain jaringan baru serta penggunaan dalam aktivitas organisasi 4
+review and evaluation, yaitu tahap dimana dilakukan proses peninjauan setelah jaringan komputer dioperasikan
+pengukuran kinerja jaringan dengan metode qos juga kembali dilakukan pada tahap ini
+kemudian dilakukan perbandingan antara kinerja jaringan sebelum dan sesudah dilakukan rekayasa
+quality of service dan parameter kinerja quality of service adalah metode yang digunakan untuk melakukan pengukuran kinerja dan kualitas dari jaringan internet serta untuk mengetahui kemampuan suatu jaringan dalam menyediakan layanan yang baik dari sisi kecepatan dan kehandalan distribusi data
+quality of service terdiri dari 3 tingkatan yaitu best- effort service, integrated service, dan differentiated service
+untuk aplikasi-aplikasi yang sangat penting yang berbasis jaringan dan intoleran terhadap delay seperi video diberikan prioritas agar dapat diakses dengan cepat
+memberikan prioritas koneksi untuk beberapa pengguna tertentu yang mengakses aplikasi yang penting dalam transaksi bisnis organisasi
+telecommunications and internet protocol harmonization over networks
+untuk mengetahui apakah suatu jaringan komputer telah memenuhi standar, maka hasil pengukuran 4 parameter dalam penelitian ini dibandingkan dengan standar kualitas tertentu yakni standar kualitas jaringan tiphon sebagai berikut : a
+throughput, adalah kecepatan transfer data efektif dalam satuan bps
+dalam hal ini troughput didapat dari jumlah total kedatangan paket yang sukses yang diamati pada destination selama interval waktu tertentu dibagi oleh lama interval waktu tersebut
+packet loss, adalah jumlah total paket yang hilang yang terjadi karena collision dan congestion pada jaringan dan hal ini berpengaruh pada semua aplikasi karena retransmisi akan mengurangi efisiensi jaringan secara keseluruhan
+standar pengukuran packet loss dapat dilihat pada tabel 1
+tabel i kategori packet loss sangat bagus 0% bagus 3% sedang 15% jelek 25% c
+delay, adalah waktu yang dibutuhkan data untuk menempuh jarak dari sumber ke tujuan
+delay biasanya dapat dipengaruhi oleh jarak, media atau alat yang digunakan dan waktu proses dari paket standar pengukuran delay dapat dilihat pada tabel 2
+jitter, fenomena terjadinya jitter biasanya ketika paket data dalam jumlah cukup besar dikirim dari sumber ke tujuan
+jitter adalah variasi atau perbedaan dari delay pada masing masing paket data yang dikirim untuk sampai ke tujuan, hal ini menjadi tanggung jawab dari tcp/ip untuk mengurangi dampak jitter terhadap komunikasi data
+standar pengukuran jitter dapat dilihat pada tabel 3
+demiterized zone layer security tambahan dibutuhkan dalam suatu jaringan untuk mencegah unautorized user atau hacker dapat melakukan serangan ke jaringan lokal oleh karena itu dibutuhkan suatu perimeter keamanan tambahan untuk dapat mengamankan jaringan lokal tersebut
+dalam hal ini, perimeter yang di pilih adalah demiliterized zone 
+definisi demiterized zone adalah metode atau pendekatan untuk memisahkan fisikdan lojik subnet jaringan lokal dari jaringan yang memiliki resiko terhadap serangan pihak luar 
+beberapa server yang bisa diakses oleh publik melalui internet seperti web server dan mail server diletakkan dalam zona dmz sedangkan jaringan yang lain tetap tidak terjangkau oleh pengguna yang tidak berhak
+arsitektur dmz dapat dilihat pada gambar 1
+load balancing dalam upaya untuk meningkatkan kinerja jaringan dari sisi efficiency dan reliability, teknologi load balancing menjadi pilihan untuk diimplementasikan pada router
+load balancing adalah metode untuk membagi beban kesemua server sehingga dapat meningkatkan kinerja dan ketahanan dari website dan aplikasi dan database
+teknik ini bertujuan untuk memperbaiki kinerja sistem, menjaga stabilitas dari sistem jaringan, membangun sistem jaringan yang toleran terhadap fault dan memiliki kemudahan untuk modifikasi dimasa akan datang
+load balancing terdiri dari 2 tipe yakni: 1
+equal cost path ; apabila terdapat beberapa jalur berbeda untuk sampai ke network tujuan dengan nilai metrik protokol yang sama
+maka maksimal rute yang dapat digunakan oleh router di tentukan oleh perintah maximum- paths digunakan oleh router ditentukan oleh perintah variance
+salah satu cara yang dapat digunakan untuk mengimplementasi load balancing adalah dengan menggunakan hardware load balancer yaitu router dengan enhanced interior gateway routing protocol yaitu protocol routing yang dapat di aplikasikan diberbagai topologi jaringan dan media, sehingga mampu untuk menyediakan layanan bagi komunikasi data yang berbeda secara cepat dan dengan trafik jaringan yang minimal
+eigrp juga memiliki kemampuan untuk melakukan load balancing atau membagi trafik menjadi beberapa jalur routing untuk mencapai tujuan
+oleh sebab itu eigrp mendukung equal-cost yang artinya beberapa rute harus memiliki metric yang sama untuk mencapai tujuan serta unequal-cost yang memungkinkan router untuk menyeimbangkan load untuk link dengan metric yang berbeda dalam mencapai tujuan
+fail over stabilitas dan kenerlangsungan koneksi jaringan internet menjadi sangat penting utamanya untuk mengantisipasi perpindahan pengguna dari lokasi satu ke lokasi lainnya tanpa mengalami gangguan terputusnya koneksi
+yang disebut dengan failover, metode ini adalah proses memindahkan koneksi atau sistem ke server, perangkat keras, perangkat jaringan atau alat lain yang menyediakan layanan yang sama karena adanya gangguan atau kegagalan dari sistem atau jaringan sebelumnya
+failoveradalah bagian penting dari implementasi fault tolerance untuk fungsi sistem yang sangat kritikal yang bergantung kepada aksesibilitas yang konstan
+teknik failover secara otomatis memindahkan akses pengguna dari yang mengalami kegagalan ke koneksi cadangan agar aplikasi kritikal dapat tetap diakses dan aktivitas pengguna dapat terus berlanjut
+requirement gathering pada fase pertama dari metode rsjk adalah melakukan pengumpulan informasi dan keterangan yang berkaitan dengan pengembangan jaringaan komputer dan internet misi yang penting dari sekolah tinggi ini adalah untuk menyediakan sarana prasarana teknologi informasi khususnya jaringan komputer dan internet untuk proses akademik dan non-akademik sehingga mampu memberikan peyanan yang prima
+untuk mengetahui kinerja jaringan yang sudah ada maka dilakukan pengukuran kinerja dan qualitas jaringan menggunakan metode quality of service 
+hasilnya dapat dilihat pada tabel 4 berikut: tabel iv lokasi bagus sia ng 716.8 0 gedung b pada waktu pagi dan siang dengan 4 parameter yaitu bandwidth, packet loss, delay dan jitter
+hasil pengukuran untuk masing-masing parameter sebagian besar adalah sedang menurut standar kinerja jaringan tiphon walaupun ada beberapa parameter yang menunjukkan kinerja sedang dan bagus seperti pengukuran pada gedung a diruang rektorat dan bau dan gedung b diruang lppm
+hal ini menunjukkkan secara keseluruhan jaringan komputer dan internet belum mampu menunjukan kinerja yang optimal untuk memberikan layanan prima bagi pengguna
+selection and design desain jaringan baru dan pemilihan peralatan jaringan yang disesuaikan dengan kebutuhan organisasi
+adapun desain pengembangan jaringan dapat di lihat pada gambar 3
+pada desain pengembangan jaringan diatas terjadi perubahan yang cukup drastis yakni terdapat 2 koneksi jaringan ke provider internet sebagai koneksi utama sebesar 25mb dan koneksi cadangan sebesar 15mb
+selanjutnya jaringan komputer telah terbagi menjadi 3 level segmen switch yaitu pada level core switch, distribution switch dan access switch, serta telah memisahkan segmen jaringannya dengan virtual lan 
+load balancing beban dan juga sebagai backup link
+routing protocol yang digunakan adalah enhanced interior gateway routing protocol 
+keunggulan yang dimiliki oleh protocol routing eigrp ini adalah tidak dibutuhkannya kalkulasi ulang untuk menentukan jalur pengiriman data yang terbaik apabila terjadi perubahan dalam jaringan dengan menggunakan fasilitas backup route yang ada pada eigrp
+mekanisme load balancing pada eigrp adalah dengan menyediakan beberapa link ke destinasi jaringan dengan mengaplikasikan equal cost path dan unequal cost path dan melakukan load sharing dengan beban yang disesuaikan dengan kemampuan masing masing link, serta mengaplikasikan traffic sharing untuk mengontrol bagaimana trafik didistribusikan apabila terdapat beberapa rute dengan tujuan yang sama
+level segmen kedua didahului dengan diletakkannya firewall sebagai perimeter keamanan yang terhubung dengan distribution switch yang menggunakan manageable switch cisco seri 2950 dengan 24 port
+penggunaan manageable switch untuk distribution switch ini disamping untuk menghubungkan beberapa lokasi juga untuk memperbaiki mekanisme pengelolaan dan pengontrolan yaitu: diakses publik yaitu web server dan mail server melalui vlan1
+terdapat intrusion detection system sebagai perimeter keamanan untuk server di lingkungan internal c.administrasi baak dengan vlan4 dan bau menggunakan vlan 5 melalui level segmen ketiga yaitu access switch1 segmen ketiga yaitu access switch2 e.ruang dosen dan ruang kelas terhubung dengan vlan 7 dan vlan 8 melalui level segmen ketiga yaitu access switch3
+adalah perambatan dengan media udara yakni menggunakan antena point to point dilengkapi dengan distribution switch1 dan distribution switch2
+untuk melewatkan informasi dari vlan antar switch maka di pilih teknik trunking dengan menggunakan trunking protocol
+teknik ini mampu membawa beberapa signal secara terus menerus dari distribution switch1 ke distribution switch2 untuk memberikan kestabilan sistem komunikasi diantara akses gedung a dan gedung b
+g.distribution switch2 terhubung dengan access switch4 melalui vlan9 untuk menyediakan koneksi ke perpustakaan laboratorium melalui vlan10 untuk menyediakan koneksi ke ruang lppm yang berkelanjutan utamanya untuk dosen, karyawan dan mahasiswa maka koneksi nirkabel menggunakan perangkat yang mendukung multi-wan wifi router serta dilengkapi fitur failover
+seperti pada gambar 5 berikut: dan aplication switchmenggunakan switch giga bit
+penambahan server juga diklkukan yaotu server data base, server web server apliukasi dan server ids security area server dijadikan area dmz
+untuk koneksi antar gedung a dan gedung b menggunakan gambar 5
+failover koneksi nirkabel dengan demikian pengguna yang terkoneksi dengan jaringan nirkabel dapat terus terkoneksi meskipun berpindah dari ruang kelas ke perpustakaan yang berbeda gedung
+jaringan komputer berdasarkan desain jaringan yang baru dengan memperbanyak diskusi untuk lebih menyamakan pandangan tentang pengembangan jaringan, berikutnya adalah melakukan pemilihan vendor dan provider untuk penambahaan koneksi internet dan peralatan yang akan dibeli
+langkah berikutnya adalah pengadaan perangkat jaringan yang telah disepakati
+tahapan penting lainnya yaitu pengembangan jaringan dengan melakukan instalasi dan konfigurasi peralatan baru pada jaringan
+tabel v rapat dan diskusi tentang projek pemilihan provider dan vendor untuk koneksi internet jaringan berikutnya adalah kembali dilakukan pengukuran kinerja jaringan untuk mengetahui apakah ada peningkatan kinerja dari sebelumnya
+pengukuran kinerja menggunakan metode qos dengan parameter yang sama pada saat pengukuran kinerja jaringan yang lama yang terdiri dari bandwidth, jitter, delay dan packet loss
+hasil pengukuran kinerja dapat dilihat pada tabel 6
+dari hasil pengukuran yang telah dilakukan dapat dijelaskan hal-hal sebagai berikut: peningkatan ke level bagus dibandingkan dengan pengukuran awal yang hasilnya adalah bagus dan sedang untuk pengukurang di rektorat, baak, bau dan kelas
+hasil pengukuran di server web /server email, server data, perpustakaan, lppm dan laboratorium hasilnya adalah naik ke level bagus jika dibandingkan dengan pengukuran pertama yang hasilnya rata-rata sedang
+dari data pengukuran diatas menunjukkan secara umum terjadi peningkatan kualitas layanan yang mampu hasilkan oleh jaringan komputer yang baru
+akan tetapi hasil pengembangan jaringan ini masih belum optimal karena hanya ada satu hasil pengukuran yaitu rektorat yang mencapai hasil sangaat bagus untuk keempat parameter hal ini kemungkinan disebabkan oleh kepadatan trafik dan noise dari masing-masing site yang diukur
+tabel vi lokasi w a bagus bau pagi 1126.40 3 59 2.297 bagus siang 741.23 2 67 36.77 7 bagus bagus bagus siang 984.80 5 138 7.557 bagus server web/ser ver email server data gedung b siang 1324.72 5 63 15.89 4 bagus perpusta kaan 3 bagus laborato rium iv
+dari studi awal diketahui bahwa jaringan komputer yang ada belum dapat memberikan layanan yang optimal bagi pengguna
+hal ini dibuktikan dengan hasil pengukuran kinerja dengan empat parameter qos yang hasilnya rata-rata sedang dari topologi awal dapat di ketahui bahwa belum adanya tatakelolah yang baik pada jaringan seperti belum memisakan jaringan dengan segmentasi
+hasil pengukuran kinerja jaringan setelah dilakukan pengembangan menunjukkan hasil bagus di setiap lokasi 
+fakultas ilmu komputer, fakultas vokasi, lembaga penelitian dan pengabdian masyarakat dan laboratorium komputer
+pemikiran dan ilmu pengetahuan bagi perkembangan ilmu dan teknologi informasi

@@ -1,0 +1,12 @@
+ubmitted 29-12-2019; revised 06-01-2019; accepted 29-01-2019 116 augmented reality pengenalan laboratorium ftki universitas nasional dengan tracking based navigation shofy naqiyah #1, septi andryana#2, ratih titi komalasari#3 #informatika, fakultas teknologi komunikasi dan informatika, universitas nasional jl
+minggu, kota jakarta selatan, daerah khusus ibukota jakarta 1shofynaqiyah98@gmail.com 2septi.andryana@civitas.unas.ac.id 3ratih.titi@unas.civitas.ac.id universitas swasta di kota jakarta yang memiliki beberapa fakultas, diantaranya fakultas teknologi komunikasi dan informatika
+pada fakultas tersebut terdapat empat laboratorium yang mendukung berjalan nya kegiatan belajar dan mengajar maupun kegiatan lainnya, tetapi masih banyak mahasiswa ataupun masyarakat umum yang belum mengetahui lokasi laboratorium tersebut
+penelitian ini menggunakan augmented reality dengan menerapkan tracking based navigation pada metode markerless untuk mengarahkan user pada laboratorium
+hasil dari aplikasi ini menampilkan objek 3d dari area lab yang mengarahkan pengguna menuju lab yang ingin dikunjungi
+dengan adanya aplikasi find your laboratory ini, pengguna dapat dengan mudah menemukan lokasi laboratorium yang ingin dituju
+hasil dari pengujian, didapat aplikasi berhasil di operasikan dengan jarak yang diuji minimal 10 cm sampai dengan jarak 1 m dari semua android yang diujikan
+pendahuluan swasta di kota jakarta yang memiliki beberapa fakultas, diantaranya fakultas teknologi komunikasi dan informatika
+pada fakultas tersebut terdapat empat laboratorium yang mendukung berjalan nya kegiatan belajar dan mengajar
+laboratorium ftki tidak hanya digunakan sebagai sarana perkuliahan, namun juga digunakan dalam kegiatan eksternal seperti workshop, sertifikasi, dan sosialisasi yang diadakan oleh himpunan atau fakultas lain
+beberapa mahasiswa mungkin sudah mengetahui dan familiar dengan lokasi laboratorium ftki, tetapi masih banyak mahasiswa ataupun masyarakat umum yang belum mengetahui lokasi laboratorium tersebut
+dengan demikian, di butuhkan alternatif navigasi yang dapat menunjukkan lokasi dari masing-masing laboratorium dengan bentuk 3d agar memudahkan pengguna menemukan tujuan mereka, sekaligus menjadi media pengenalan ftki universitas nasional pada penelitian terdahulu, dilakukan penelitian terkait navigasi dalam gedung yang menggunakan augmented reality dengan metode markerless berupa denah gedung 3 lantai yang dibuat dalam bentuk 3d

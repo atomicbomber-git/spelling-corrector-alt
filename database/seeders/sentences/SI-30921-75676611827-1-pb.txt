@@ -1,0 +1,97 @@
+ubmitted 08-01-2019; revised 18-02-2019; accepted 11-03-2019 220 rancang bangun sistem informasi pengolahan nilai rapor berbasis website pada smp negeri 16 pontianak dhea arista putri#1, m
+azhar irwansyah#2, enda esyudha pratama#3 # program studi informatika universitas tanjungpura jl
+hadari nawawi, pontianak, kalimantan barat 78115 1dapdhea@gmail.com 2azharirwansyah@informatika.untan.ac.id 3enda@informatika.untan.ac.id merupakan rangkaian kegiatan untuk memperoleh, menganalisis, dan menafsirkan hasil belajar siswa yang dilakukan secara sistematis dan berkesinambungan
+pengolahan nilai rapor siswa adalah sebuah pekerjaan yang membutuhkan ketelitian karena didalamnya terdapat banyak sekali data yang harus diolah
+dalam hal ini, sistem pengolahan nilai rapor di sekolah smp negeri 16 pontianak yang sedang berjalan saat ini yaitu setiap guru mata pelajaran menginputkan nilai-nilai siswa yang diampunya dengan mengubah data yang ada sebelumnya menjadi data baru yang nantinya akan diolah
+kemudian, data yang telah diinputkan oleh setiap guru mata pelajaran tersebut diserahkan ke bagian staf
+kemudian staf mengolah lagi data nilai-nilai siswa tersebut untuk menjadi rapor yang pada akhirnya akan dicetak sehingga proses untuk menjadi rapor terjadi double working karena data antar guru dan staf tidak tersinkronisasi
+tujuan dari penelitian ini adalah menghasilkan sistem informasi pengolahan nilai rapor berbasis website yang didalamnya dapat memanajemen seluruh data-data siswa, guru, nilai harian, nilai tugas, nilai ulangan tengah semester, nilai ulangan akhir semester, dan sebagainya
+metode yang digunakan yaitu dengan metode waterfall dimana hal ini menggambarkan pendekatan yang sistematis dan berurutan pada pengembangan perangkat lunak
+pengujian yang dilakukan terhadap sistem dengan metode uat 
+dari hasil pengujian user acceptance test yang telah dilakukan menunjukan sistem informasi berjalan dengan sangat baik sesuai fungsinya dan dapat diimplementasikan pada smp negeri 16 pontianak
+pendahuluan memperoleh, menganalisis, dan menafsirkan hasil belajar siswa yang dilakukan secara sistematis dan berkesinambungan, sehingga menjadi informasi yang bermakna
+berkembangnya teknologi informasi dalam bidang pengolahan data banyak membawa pengaruh positif bagi dunia pendidikan
+pengolahan nilai rapor siswa adalah sebuah pekerjaan yang membutuhkan ketelitian karena didalamnya terdapat banyak sekali data yang harus diolah
+mengingat semakin lama jumlah siswa yang terus bertambah setiap tahun, untuk mengikuti perkembangan teknologi informasi dalam pengolahan nilai rapor siswa pada smp negeri 16 pontianak perlu memiliki sebuah program yang dapat melakukan pengelolahan nilai rapor siswa dengan efisien, sehingga dapat memberikan informasi yang tepat dan akurat
+smp negeri 16 pontianak yang sedang berjalan saat ini yaitu setiap guru mata pelajaran menginputkan nilai-nilai siswa yang diampunya dengan mengubah data yang ada sebelumnya menjadi data baru yang nantinya akan diolah
+kemudian, data yang telah diinputkan oleh setiap guru mata pelajaran tersebut diserahkan ke bagian staf
+kemudian staf mengolah lagi data nilai-nilai siswa tersebut untuk menjadi rapor yang pada akhirnya akan dicetak sehingga proses untuk menjadi rapor terjadi double working karena data antar guru dan staf tidak tersinkronisasi
+sebuah sistem yang terpusat yang dapat diakses oleh seluruh staf melalui suatu sistem informasi berbasis web
+menurut jogiyanto sistem informasi adalah suatu sistem didalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, mendukung operasi, bersifat manajerial, kegiatan strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan-laporan yang diperlukan
+merancang bangun sebuah sistem informasi pengolahan nilai rapor yang diharapkan mampu mengatasi permasalahan yang ada pada smp negeri 16 pontianak
+dengan adanya suatu sistem berbasis web, dimana basis data dan logika pemrosesan data terletak pada server, maka pemasukan dan perubahan suatu data dapat langsung tersingkron ke seluruh pengguna sistem, sehingga dapat berfungsi dalam menjalankan kegiatan pengolahan nilai di smp negeri 16 pontianak bagi guru, staf, dan pimpinan sekolah
+uraian penelitian rapor berbasis website sebelumnya sudah pernah dilakukan oleh peneliti lain
+salah satunya adalah zainuroqib, mahasiswa jurusan sistem informasi universitas dian nuswantoro semarang yang lulus pada tahun 2013
+adapun judul dari penelitian yang dilakukan adalah rancang bangun sistem informasi pengolahan data nilai siswa berbasis web pada sekolah menengah atas sma nu al-ma’ruf kudus
+penelitian yang dilakukan bertujuan untuk menghasilkan sistem informasi berbasis web yang diimplementasikan untuk pengolahan data nilai dan mengatasi sulitnya penyampaian informasi ulangan harian, tugas siswa, tengah semester, akhir semester dan leger di sma nu al-ma’ruf kudus
+pengujian aplikasi dilakukan dengan metode black box
+penelitian lainnya dilakukan oleh wahyu setyo prabowo dan candra agustina, mahasiswa program studi manajemen informatika amik bsi yogyakarta yang lulus pada tahun 2017
+penelitian yang dilakukan berjudul perancangan sistem informasi pengolahan nilai rapor berbasis web pada smk negeri 1 purworejo, bertujuan untuk merancang sebuah sistem informasi pengolahan nilai rapor yang membantu kegiatan penyusunan rapor di smk negeri 1 purworejo dan mendorong penggunaan teknologi pada bidang pendidikan khususnya pengelolaan data guna meningkatkan efektifitas kerja di smk negeri 1 purworejo
+metodologi penelitian yang digunakan dalam penelitian ini adalah analisis, desain, pengodean, pengujian
+pengujian aplikasi dilakukan dengan metode black box dan user acceptance testing
+selanjutnya penelitian serupa juga telah dilakukan oleh ibnu mas’ud, mahasiswa program studi teknik informatika fakultas sains dan teknologi universitas islam negeri syarif hidayatullah jakarta lulus pada tahun 2009
+penelitian yang dilakukan berjudul sistem informasi nilai akademik siswa berbasis web
+penelitian yang dilakukan bertujuan untuk membantu pihak sekolah dan orang tua dalam memantau nilai akademik siswa smu muhammadiyah 7 sawangan
+metode pengembangan sistem yang digunakan dalam penelitian ini mengunakan metode system development live cycle siklus hidup pengembangan system
+fungsi dari raport itu sendiri adalah: 1
+sebagai pengukuran kepandaian dari siswa selama menempuh pelajaran selama di sekolah dari pertama kali masuk sekolah sampai lulus sekolah
+bagi sekolah rapor merupakan tolak ukur kurikulum apakah sudah memenuhi standar atau belum, jika belum maka ada hal yang harus lebih ditingkatkan agar dari tahun ketahun mutu pendidikan terus ditingkatkan
+bagi orang tua siswa berfungsi sebagai sejauh mana prestasi anak di sekolah jika penilaian belum sesuai apa yang diinginkan orang tua maka orang tua harus mengabil tindakan agar anak/siswa lebih giat belajar
+penilaian rapor kurikulum 2013 pada kurikulum 2013, penilaian diatur dalam permendikbud nomor 66 tahun 2013 tentang standar penilaian pendidikan meliputi penilaian otentik, penilaian diri, penilaian berbasis portofolio, ulangan harian, ulangan tengah semester, ulangan akhir, ujian tingkat kompetensi, ujian mutu tingkat kompetensi, ujian nasional dan ujian sekolah/madrasah
+kompetensi inti yaitu kompetensi sikap sosial, sikap spiritual, pengetahuan, dan keterampilan
+dengan demikian, maka potensi siswa selain dari domain kognitif juga dapat terpantau dan dikembangkan
+hambatan implementasi kurikulum 2013 adalah sistem penilaian yang rumit dan perlu waktu yang lama untuk menyusun laporan
+sistem informasi organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, mendukung operasi, bersifat manajerial dan kegiatan strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan–laporan yang diperlukan
+menurut lewis, setelah dilakukan system testing, acceptance test menyatakan bahwa sistem software memenuhi persyaratan
+acceptance test merupakan pengujian yang dilakukan oleh pengguna yang menggunakan teknik pengujian black box untuk menguji sistem terhadap spesifikasinya
+pengguna akhir bertanggung jawab untuk memastikan semua fungsionalitas yang relevan telah diuji
+menurut black, acceptance test biasanya berusaha menunjukkan bahwa sistem telah memenuhi persyaratan- persyaratan tertentu
+yang dilakukan oleh pengguna yang sedang menggunakan atau akan menggunakan sistem tersebut
+pada pengembangan software dan hardware komersial, acceptance test biasanya disebut juga dan 
+alpha dan beta test biasanya juga menunjukkan bahwa produk sudah siap untuk dijual atau dipasarkan
+acceptance test mencakup data, environment dan skenario yang sama atau hampir sama pada saat live yang biasanya berfokus pada skenario penggunaan produk tertentu
+yang dilakukan oleh pengguna dari sistem tersebut untuk memastikan fungsi-fungsi yang ada pada sistem tersebut telah berjalan dengan baik dan sesuai dengan kebutuhan pengguna
+metodologi penelitian dengan studi literatur, analisis kebutuhan, pengumpulan data, perancangan sistem, membangun sistem, pengujian sistem, analisis hasil pengujian, dan penarikan kesimpulan
+studi literatur yang berkaitan dengan sistem informasi pengolahan nilai rapor berbasis website pada smp negeri 16 pontianak
+studi literatur yang dilakukan mencakup memilih teori-teori hasil penelitian, menganalisis dokumen serta menerapkan hasil analisis sebagai landasan teori bagi penyelesaian masalah dalam penelitian yang dilakukan
+sumber literatur yang dipergunakan didalam penulisan skripsi ini adalah studi literatur dari penelitian atau hasil penelitian karya ilmiah yang menekankan pada kelebihan dan kekurangan yang dilihat dari sisi sistem yang telah dirancang
+wawancara data dan juga informasi secara tatap muka dan tanya jawab langsung dengan para pegawai yang berhubungan langsung dengan penelitian ini
+wawancara dilakukan dengan staf di smp negeri 16 pontianak untuk mendapat informasi yang sesuai dengan masalah yang di teliti
+seperti sistem yang sedang berjalan dan sistem seperti apa yang diharapkan dapat diimplementasikan di smp negeri 16 pontianak
+observasi itu dilakukan dibagian staf dan guru untuk mengamati langsung pengelolahan nilai rapor
+metode air terjun atau yang sering disebut metode waterfall sering dinamakan siklus hidup klasik, dimana hal ini menggambarkan pendekatan yang sistematis dan juga berurutan pada pengembangan perangkat lunak, dimulai dengan tahapan requirement, design system, implementation, integration & testing, operation & maintenance
+requirement analysis mendapatkan data yang dibutuhkan oleh pengguna
+system design dipelajari dalam fase ini dan desain sistem disiapkan
+desain sistem membantu dalam menentukan perangkat keras maupun perangkat lunak dan sistem persyaratan dan juga membantu dalam mendefinisikan arsitektur sistem secara keseluruhan
+fungsionalitas yang disebut sebagai unit testing
+integration & testing integrasi seluruh sistem diuji untuk mengecek setiap kegagalan maupun kesalahan
+operation & maintenance sudah jadi, dijalankan serta dilakukan pemeliharaan
+pemeliharaan termasuk dalam memperbaiki kesalahan yang tidak ditemukan pada langkah sebelumnya
+perbaikan implementasi unit sistem dan peningkatan jasa sistem sebagai kebutuhan baru
+diagram konteks untuk menggambarkan keterkaitan aliran-aliran data antara sistem dengan bagian-bagian luar
+kesatuan luar ini merupakan sumber arus data atau tujuan data yang berhubungan dengan sistem informasi tersebut
+diagram konteks dari sistem informasi pengolahan nilai rapor berbasis website pada smp negeri 16 pontianak dapat dilihat pada gambar 1 sebagai berikut
+smp negeri 16 pontianak data login request data nilai informasi nilai request laporan hubungan antar data dengan menggunakan kardinalitas relasi
+berbasis website pada smp negeri 16 pontianak
+erd dapat dilihat pada gambar 2 sebagai berikut
+diagram alir sistem dari langkah-langkah dan urutan prosedur suatu program
+diagram alir sistem yang akan dibangun dapat dilihat pada gambar 3 sebagai berikut
+input data matapelajaran input data ekstrakurikuler lihat data siswa lihat data guru lihat data kelas lihat data matapelajaran lihat data ekstrakurikuler input data nilai siswa input data absensi siswa statistik nilai logout selesai y t t t y y y g
+hasil aplikasi melakukan pengelolaan data siswa, data guru, data kepala sekolah, data kelas, data tahun ajaran, data mata pelajaran, data ekstrakurikuler, serta megelola nilai-nilai siswa
+aplikasi ini memberikan informasi nilai akademik siswa dan dapat menghasilkan output berupa rapor
+berikut ini adalah tampilan dari sistem yang telah dirancang: gambar
+setelah mengisi nama pengguna dan kata sandi maka user mengklik tombol masuk dan masuk ke form utama sesuai dengan hak akses pada user tersebut
+ketika admin login pada aplikasi maka menu akan tampil, seperti menu tahun ajaran, menu ruangan, menu siswa, menu guru, menu mapel, menu guru mapel, menu ekstrakurikuler, dan menu kepala sekolah.dapat dilihat pada gambar 5
+5 antarmuka halaman utama admin ketika guru login pada aplikasi maka menu yang akan tampil, adalah menu kelola kelas perwalian, ekstrakurikuler yang dibimbing, dan mengelola penilaian seluruh kelas yang diajar dapat dilihat pada gambar 6
+6 antarmuka halaman guru ketika kepala sekolah login pada aplikasi maka menu yang akan tampil, adalah menu laporan yaitu menu data siswa, data guru, data nilai, jumlah guru, dan jumlah siswa dapat dilihat pada gambar 7
+ketika siswa login pada aplikasi maka menu yang akan tampil, adalah menu laporan yaitu tabel tahun ajaran, dan nilai semester ganjil atau genap yang dapat dilihat pada gambar 8
+pengujian user acceptance test berdasarkan hasil implementasi kepada pengguna aplikasi yang ada pada smp negeri 16 pontianak
+pengujian dokumen rencana, pelaksanaan, dan hasil uji website sistem informasi pengolahan nilai rapor pada smp negeri 16 pontianak dibuat untuk tujuan yaitu untuk menggambarkan proses perencanaan, pelaksanaan dan hasil uji aplikasi dari website sistem informasi pengolahan nilai rapor pada smp negeri 16 pontianak pengujian yang berisi daftar pengujian aplikasi dan responden akan memberikan tanggapan mengenai aplikasi
+adapun jumlah pengguna yang terlibat dalam pengujian berjumlah 6 orang dengan tingkat keahlian sebagai berikut: 1
+memiliki pemahaman tenatang metode dan teknik pengujian perangkat lunak yang benar
+memiliki pemahaman mengenai perangkat perangkat lunak, perangkat keras, serta material tambahan yang akan digunakan
+melakukan pengujian terhadap website sistem informasi pengolahan nilai rapor pada smp negeri 16 pontianak harus terlebih dahulu diberikan pengenalan dan pelatihan yang cukup untuk menggunakan website ini
+tabel pengujian dapat dilihat pada tabel-tabel berikut
+berkesimpulan sebagai berikut: berbasis website pada smp negeri 16 pontianak ini dapat melakukan pengelolaan data siswa, data guru, data kepala sekolah, data kelas, data tahun ajaran, data mata pelajaran, data ekstrakurikuler, serta megelola nilai-nilai siswa
+aplikasi ini memberikan informasi nilai akademik siswa dan dapat menghasilkan output berupa rapor
+pengujian dengan uat dari 50 tabel pengujian dan 6 orang penguji menunjukkan sistem dapat berjalan dengan sangat baik dan bekerja sesuai fungsinya tanpa ada bug didalam sistem

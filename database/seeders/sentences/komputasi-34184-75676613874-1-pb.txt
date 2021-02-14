@@ -1,0 +1,110 @@
+ubmitted 11-07-2019; revised 20-07-2019; accepted 23-09-2019 250 aplikasi tes buta warna dengan metode ishihara metode colour gradation dan metode farnsworth riski ardiyan #1, helfi nasution#2, tursina#3 #program studi informatika universitas tanjungpura jl
+dr h.hadari nawawi, pontianak, kalimantan barat, 78115 riskikibon@gmail.com helfinas@informatika.untan.ac.id tursina@informatika.untan.ac.id kesulitan untuk membedakan warna lebih dikenal dengan istilah buta warna
+berdasarkan sifatnya, buta warna dapat dibedakan menjadi dua yaitu yang bersifat kongenital dan yang bersifat akuisita 
+pengembangan aplikasi diagnosa buta warna dengan bertujuan untuk mempermudah dalam tes buta warna dan memperkecil potensi menghapal pola yang dilakukan oleh peserta tes buta warna
+aplikasi ini menggunakan metode heuristic ganda yaitu metode ishihara, metode colour gradation dan metode farnsworth
+dengan yang dikembangkan menggunakan bahasa pemrograman visual basic 6 dan telah diuji serta mendapatkan rekomendasi oleh dokter spesialis mata
+pendahuluan mata tidak akan melihat warna seperti biasanya jika ada masalah dengan pigmen pada reseptor warna
+jika salah satu pigmen hilang, maka mata akan memiliki masalah melihat warna tertentu
+penderita buta warna bisa kesulitan melihat warna merah, hijau, biru, atau campuran warna-warna ini
+pada kondisi penderita buta warna total, tidak ada warna yang dapat dilihat sama sekali namun hal ini sangat jarang terjadi
+pada umumnya proses tes buta warna dilakukan secara manual, yaitu dengan memperlihatkan lembaran demi lembaran gambar yang terdapat pada buku tes buta warna dan peserta tes diminta menyebutkan angka-angka yang terlihat pada gambar
+dari jawaban yang diberikan oleh peserta tes buta warna, dapat disimpulkan apakah peserta tes tersebut mengalami buta warna total, buta warna parsial atau normal media yang digunakan selama ini adalah berupa plat dari buku atau kertas yang sewaktu – waktu dapat rusak bahkan berubah warna seperti memudar atau sobek pada kertas soal tersebut
+hal inilah yang menjadi latarbelakang terciptanya inovasi untuk mengembangkan sebuah aplikasi diagnosa dini buta warna dengan metode ishihara, metode colour gradation dan metode farnsworth
+tinjauan pustaka dapat diturunkan dari orang tua kepada anaknya, buta warna juga dapat terjadi ketika seseorang mengkonsumsi obat-obatan dalam jangka waktu tertentu karena menderita sebuah penyakit
+penglihatan warna sangat berpengaruh terhadap kehidupan seseorang, karena dapat menimbulkan masalah dalam menentukan warna
+umumnya penderita buta warna tidak dapat membedakan warna merah, hijau, kuning, biru maupun warna-warna gradasi
+sebagai contoh, ada penderita buta warna tidak dapat membedakan antara warna merah dan hijau, namun bisa melihat warna biru dan kuning dengan mudah
+beberapa orang bahkan tidak menyadari bahwa dirinya mengalami buta warna hingga mereka menjalani tes penglihatan warna
+menurut metode ishihara yaitu metode yang dapat dipakai untuk menentukan dengan cepat suatu gejala kelainan buta warna yang didasarkan pada penggunaan pelat bertitik-titik,
+pelat ini disusun dengan menyatukan titik-titik yang mempunyai bermacam-macam warna
+gambaran pengetahuan mahasiswa/i fakultas kedokteran universitas sumatera utara stambuk 2008 - 2010 mengenai buta warna
+ dalam jurnalnya yang berjudul menyatakan buta warna dapat dibedakan menjadi 3 jenis, yaitu anomalous trichromacy, dichromacy dan monochromacy
+jenis buta warna yang tidak bisa membedakan seluruh warna alias hanya bisa melihat hitam putih saja disebut juga buta warna total selain itu, masih ada dua jenis buta warna lainnya, yaitu buta warna merah-hijau dan buta warna biru- kuning
+yaitu buta warna parsial dan buta warna total, berikut beberapa keadaan dimana fungsi reseptor mata berkurang
+anomalous trichromacy adalah gangguan penglihatan warna yang dapat disebabkan oleh faktor keturunan atau kerusakan pada mata setelah dewasa
+penderita anomalous trichromacy memiliki tiga sel kerucut yang lengkap, namun terjadi kerusakan mekanisme sensitivitas terhadap salah satu dari tiga sel reseptor warna tersebut
+dichromacy adalah jenis buta warna di mana salah satu dari tiga sel kerucut tidak ada atau tidak berfungsi
+akibat dari disfungsi salah satu sel pigmen pada kerucut, seseorang yang menderita dikromasi akan mengalami gangguan penglihatan terhadap warna-warna tertentu
+seseorang hanya memiliki sebuah pigmen cones atau tidak berfungsinya semua sel cones
+pasien hanya mempunyai satu pigmen kerucut 
+pada monokromat kerucut hanya dapat membedakan warna dalam arti intensitasnya saja
+ada beberapa penyebab seseorang mengalami buta warna, diantaranya adalah: 1) penyakit : terdapat sejumlah penyakit yang bisa menyebabkan buta warna, seperti penyakit parkinson, penyakit alzheimer, glaukoma, neuritis optik, leukemia, diabetes, pecandu alkohol kronis, macular degeneration, dan anemia sel sabit
+2) usia : kemampuan seseorang untuk membedakan warna perlahan-lahan akan berkurang seiring bertambahnya usia
+ini adalah hal yang alami dalam proses penuaan dan tidak perlu dicemaskan secara berlebihan
+3) faktor genetika : kebanyakan penderita buta warna mengalaminya sejak lahir dan merupakan faktor genetika yang diturunkan oleh orang tua
+penderita buta warna akibat faktor genetika jauh lebih sering terjadi pada pria dibandingkan wanita
+4) bahan kimia : seseorang bisa mengalami buta warna jika terpapar bahan kimia beracun misalnya di tempat kerja, seperti karbon disulfida dan pupuk
+5) efek samping pengobatan tertentu : beberapa pengobatan berpotensi menyebabkan buta warna, seperti digoxin, pheytoin, chloroquine dan sildenafil yang juga dikenal sebagai viagra
+jika gangguan disebabkan oleh pengobatan, biasanya pandangan akan kembali normal setelah berhenti mengkonsumsi obat
+hal itu dikarenakan mereka telah beradaptasi dengan keadaan
+misalnya, karena mereka tahu bahwa warna daun itu hijau, maka berpikir dan menganggap bahwa warna hijau adalah warna yang dilihatnya
+maka dari itu, melakukan pemeriksaan buta warna dirasa perlu
+selain untuk mengetahui kondisi kesehatan mata, hasil pemeriksaan juga menjadi salah satu syarat untuk pekerjaan yang menuntut kejelian mata dalam melihat warna, seperti pilot, masinis, dan dokter
+penelitian lain telah dilakukan oleh murti dan santi dalam penelitiannya yang berjudul aplikasi pendiagnosa kebutaan warna dengan menggunakan pemrograman borland delphi
+penelitian ini menghasilkan alat bantu tes pemeriksaan gangguan penglihatan terhadap warna, karena dari rancangan sistem pakar kebutaan warna memberikan soal pemeriksaan yang sama seperti pemeriksaan secara manual dengan buku / alat tes ishihara yang dilakukan oleh seorang dokter mata
+melaksanakan penelitian karena didalamnya terdapat acuan yang merupakan teori atau hasil dari berbagai penelitian
+penelitian terdahulu mengenai tes buta warna telah dilakukan oleh ratri widianingsih dalam penelitiannya yang berjudul aplikasi tes buta warna dengan metode ishihara berbasis komputer
+dalam penelitian ini menghasilkan suatu aplikasi tes buta warna berbasis komputer yang digunakan untuk tes buta warna di poltabes samarinda
+delphi adalah suatu bahasa pemrograman yang menggunakan visualisasi sama seperti bahasa pemrograman visual basic 
+namun delphi menggunakan bahasa yang hampir sama dengan pascal, sehingga lebih mudah untuk digunakan
+bahasa pemrograman delphi dikembangkan oleh code gear sebagai divisi pengembangan perangkat lunak milik embarcadero
+divisi tersebut awalnya milik borland, sehingga bahasa ini memiliki versi borland delphi
+delphi juga menggunakan konsep yang berorientasi objek, maksudnya pemrograman dengan membantu sebuah aplikasi yang mendekati keadaan dunia yang sesungguhnya
+hal itu bisa dilakukan dengan cara mendesign objek untuk menyelesaikan masalah
+hasil tes seorang pasien merupakan privasi yang dimiliki antara pasien dan dokter, oleh karena itu sistem ini dibangun berbasis desktop
+pengujian yang akan digunakan adalah pengujian blackbox adalah pengujian yang dilakukan dengan mengamati hasil eksekusi melalui data uji dan memeriksa fungsional dari perangkat lunak
+jadi dianalogikan seperti kita melihat suatu kotak hitam, kita hanya bisa melihat penampilan luarnya, tanpa tahu ada apa dibalik bungkus hitamnya
+sama seperti pengujian blackbox, mengevaluasi hanya dari tampilan luarnya, sedangkan metodenya telah baku di dunia kedokteran serta soal – soal yang akan diujikan telah dikonsultasikan kepada dokter selaku ahli pakar dalam dunia kedokteran mata
+yang dapat menampilkan soal – soal tes buta warna dengan metode ishihara, metode colour gradation dan metode farnsworth setelah disuguhkan soal pasien diharuskan menjawab dan kemudian data jawaban pasien akan dihitung dan ditentukan hasil keputusan penilaian terhadap kesehatan menglihatan warna pasien sistem pendukung keputusan didefinisikan sebagai interaktif berbasis komputer yang membantu pengambilan suatu keputusan memanfaatkan data dan model untuk menyelesaikan masalah dalam penilaian
+literatur, perancangan desain dan database aplikasi, pembuatan aplikasi serta uji coba
+selanjutnya dilakukan perancangan aplikasi yang akan dibuat pada aplikasi meliputi keseluruhan fungsi tombol dan tata letaknya
+setelah itu dilakukan perancangan database untuk menyimpan data hasil diagnosa menggunakan aplikasi tersebut juga menggunakan repository data
+setelah selesai dibuat, aplikasi diuji untuk menganalisa apakah sudah sesuai dengan metode yang digunakan
+yang harus dimiliki untuk memenuhi apa yang diinginkan pengguna
+spesifikasi yang dibutuhkan dari aplikasi tes buta berikut pada tabel 1 : tabel i
+spesifikasi kebutuhan terlibat menjaga kerahasaiaan data pasien
+2 aplikasi mampu melakukan serangkaian tes buta warna dengan metode ishihara
+pasien 3 aplikasi mampu melakukan serangkaian tes buta warna dengan metode colour gradation
+pasien 4 aplikasi mampu melakukan serangkaian tes buta warna dengan metode farnsworth
+pasien operator / dokter / pasien 6 operator / dokter aplikasi ini yaitu data terpusat, berikut arsitektur yang dihasilkan : penjelasan komponen pada gambar 1 yaitu : 1) user validator : adalah komponen yang bertugas untuk memvalidasi user yang login ke aplikasi
+user validator terhubung dengan repository data yang menyimpan data operator / dokter yang kemudian digunakan pada proses validasi untuk menampilkan data yang dibutuhkan oleh komponen internal2) interface : adalah komponen yang bertugas untuk menampilkan interface kepada pengguna, setiap komponen memiliki user interface dalam pengoperasiannya
+4) ishihara validator : adalah komponen yang bertugas untuk menguji buta warna dengan cara menampilkan pelat gambar ishihara pada komponen interface serta dapat menghitung skor hasil pengujian tersebut, dan kemudian data hasil perhitungan disimpan pada repository data
+5) colour gradation validator : adalah komponen yang bertugas untuk menguji buta warna dengan cara menampilkan pelat gambar colour gradation pada komponen interface serta dapat menghitung skor hasil pengujian tersebut, dan kemudian data hasil perhitungan disimpan pada repository data
+6) farnsworth validator : adalah komponen yang bertugas untuk menguji buta warna dengan cara menampilkan pelat gambar farnsworth pada komponen interface, serta dapat menghitung skor hasil pengujian tersebut, dan kemudian data hasil perhitungan disimpan pada repository data
+7) patient data manager : adalah komponen yang bertugas untuk manajemen data pasien / pasien tes buta warna yang telah tersimpan pada repository data
+8) report data manager : adalah komponen yang bertugas untuk mencetak data pasien / pasien tes buta warna yang telah tersimpan pada repository data
+hasil dan analisis komunikasi antara pengguna aplikasi dengan sistem
+1) menu login sebagai halaman autentikasi atau validasi, sehingga tidak sembarang orang yang dapat menggunakan aplikasi ini
+pada halaman ini user dapat memilih jenis tes sesuai dengan kebutuhannya
+apakah akan melakukan pengujian dengan metode ishihara, metode farnsworth atau dengan metode colour gradation
+3) menu tes ishihara pada gambar 5 menunjukkan menu tes ishihara yang merupakan pengujian tahap pertama
+menu ini menggunakan 26 pelat dalam tes yang akan menampilkan 10 pelat warna ishihara secara acak
+menu tes colour gradation pada gambar 6 menunjukkan menu tes colour gradation yang merupakan pengujian tahap kedua
+menu ini menggunakan 10 pelat dalam tes yang akan menampilkan 6 pelat warna gradasi secara acak
+menunjukkan menunjukkan menu tes farnsworth yang merupakan pengujian tahap ketiga
+menu ini menggunakan 12 pelat dalam tes yang akan menampilkan 8 pelat gradasi warna secara acak
+peserta tes tes hingga skor akhir sesuai dengan pembobotan tes buta warna
+pengujian aplikasi dalam menggunakan aplikasi ini, ada beberapa metode yang harus dilakukan pengujian
+tahapan pengujian yang harus dilakukan adalah sebagai berikut: 1) metode ishihara : pengujian menggunakan metode ishihara dilakukan dengan cara menguji apakah peserta tes dapat mengenali perbedaan warna yang terdapat pada berbagai pelat gambar ishihara yang berupa angka
+pelat ishihara yang digunakan berjumlah 21 buah dengan kombinasi angka dan warna yang berbeda-beda
+pengujian metode ishihara pada gambar 9 dapat dilihat metode ishihara yang digunakan pada aplikasi
+peserta tes akan melihat gambar angka yang terdiri dari beberapa kombinasi titik berwarna
+kombinasi titik berwarna inilah yang dijadikan salah satu filter pengujian dalam metode ishihara
+hal tersebut karena peserta yang mengalami gejala kepekaan dalam menangkap warna-warna yang ada, sehingga mereka akan sulit membedakan beberapa warna seperti merah, hijau, kuning dan biru
+apakah peserta tes dapat mengenali perbedaan warna yang terdapat pada 6 buah pelat gambar colour gradation atau gradasi
+pelat gradasi warna yang digunakan berjumlah 6 buah dengan kombinasi warna yang masing-masing pelat memiliki 6 warna berbeda yang membentuk sebuah gradasi warna
+pengujian metode colour gradation pada gambar 10 dapat dilihat metode colour gradation yang digunakan pada aplikasi
+peserta tes akan melihat pelat gradasi warna yang terdiri dari beberapa kombinasi warna
+kombinasi warna inilah yang dijadikan filter pengujian dalam metode colour gradation
+3) metode farnsworth : pengujian menggunakan metode farnsworth dilakukan dengan cara menguji apakah peserta tes dapat mengenali perbedaan warna yang terdapat pada 13 buah pelat gambar farnsworth
+pelat farnsworth memiliki warna yang digunakan sebanyak 13 buah dengan kombinasi yang membentuk sebuah gradasi warna dengan tingkat kesulitan yang lebih tinggi dari pada metode colour gradation
+pada gambar 11 dapat dilihat metode farnsworth yang digunakan pada aplikasi
+peserta tes akan melihat pelat farnsworth yang terdiri dari beberapa kombinasi warna yang membentuk sebuah gradasi sehingga mereka akan sulit membedakan warna-warna yang memiliki kemiripan seperti hijau dan kuning, biru dan ungu, merah dan ping, dan sebagainya
+sebagaimana pada metode colour gradation, metode farnsworth juga menggunakan gradasi warna dalam pengujiannya namun pada metode ini memiliki tingkat kesulitan yang lebih tinggi karena memiliki 13 kombinasi warna yang berbeda
+4) hasil tes : tes dilakukan dengan beberapa koresponden yang mengikuti tes tes pertama pasien diberikan soal dengan buku konvensional dan tes kedua pasien diberikan soal dari aplikasi tes buta warna dengan perolehan nilai pasien yang dapat dilihat pada tabel 2 : tabel ii
+no nama berdasarkan hasil tes tersebut diperoleh hasil nilai yang sedikit berbeda namun dengan hasil kategori keterangan kesehatan mata yang sama sehingga dapat disimpulkan aplikasi ini sudah memiliki hasil diagnosa yang sama dengan tes konvensional sehingga dapat dijadikan acuan sebagai pengganti tes buta warna konvensional, tes buta warna ini juga dalam pembuatannya dibantu dan dipandu oleh seorang dokter mata yang bernama dr mahyudi, sp.m
+menyimpulkan bahwa aplikasi tersebut memiliki metode yang sama dengan tes buta warna pada umumnya dan telah sesuai dengan sebagai acuan tes buta warna
+kesimpulan dan saran disimpulkan: diagnosa dari aplikasi memiliki hasil diagnosa yang sesuai dengan hasil dari tes konvensional sehingga disimpulkan antara tes dengan aplikasi dan konvensional itu sejalan
+saran pada penelitian selanjutnya diharapkan agar metode yang digunakan lebih banyak sehingga akurasi dari aplikasi tersebut dapat semakin baik
+aplikasi juga dapat dikembangkan ke dalam versi mobile atau smartphone sehingga lebih praktis untuk digunakan

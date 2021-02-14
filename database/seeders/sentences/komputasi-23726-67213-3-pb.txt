@@ -1,0 +1,9 @@
+pada anak usia dini umur 0-6 tahun berada di masa peka
+masa seluruh potensi dapat dikembangkan secara optimal dalam aspek fisik, bahasa, kognitif
+kemampuan membaca berhubungan aktivitas membaca, pada anak usia dini membaca membutuhkan berbagai stimulasi
+stimulasi diberikan melalui media pembelajaran dalam pengenalan makhluk hidup yang disekitar
+aplikasi teknologi berbasis komputer dalam pembelajaran dikenal sebagai computer assisted instruction 
+cai atau pembelajaran berbantuan komputer merupakan pengembangan dari teknologi informasi terpadu yaitu komunikasi, audio, video, penampilan citra yang dikemas dengan sebutan teknologi multimedia
+tujuan penelitian ini adalah menghasilkan aplikasi yang memanfaatkan teknologi multimedia dengan konsep cai untuk anak usia dini dalam
+metode yang digunakan dalam penelitian ini adalah research and development yaitu metode penelitian yang digunakan untuk menghasilkan produk tertentu dan menguji ke efektifan produk
+hasil yang didapatkan dari uji coba dan validasi menggunakan skala guttman dari sisi materi dengan nilai koefisien reabilitas = 1 dan koefisien skalabilitas 1, dari sisi multimedia nilai koefisien reabilitas =1 dan koefisien skalabilitas 1, dari sisi cai nilai koefisien reabilitas = 1 dan koefisien skalabilitas 1, yang berarti aplikasi ini layak menjadi media pembelajaran dan sudah memenuhi sebagai kriteria aplikasi cai berbasis multimedia yang ditunjukan untuk anak usia dini dengan usia 5-6 dalam mengenal hewan dengan konsep tutorial dan game

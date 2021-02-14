@@ -1,0 +1,26 @@
+nstitusi yang bertugas mengelola bahan pustaka, baik berupa buku maupun bukan berupa buku sehingga dapat digunakan sebagai sumber informasi oleh setiap pemakainya
+perpustakaan berperan sebagai kekuatan dalam pelestarian dan penyebaran informasi ilmu pengetahuan dan kebudayaan yang berkembang seiring dengan menulis, mencetak, mendidik dan kebutuhan manusia akan informasi
+perpustakaan membagi rata informasi dengan cara mengidentifikasi, mengumpulkan, mengelola dan menyediakannya untuk umum
+adapun dalam proses pencarian buku pengunjung harus datang langsung ke perpustakaan sehingga terjadi ketidak efisienan dalam penggunaan waktu dan tenaga, selain itu perpustakaan ingin memperluas jangkauan informasi yang diberikan untuk masyarakat dengan membangun aplikasi sistem informasi perpustakaan dengan menerapkan web service yang berbasis android di perpustakaan daerah kalimantan barat
+metode pengujian yang dilakukan yaitu dengan menggunakan pengujian blackbox sample testing untuk pengujian aplikasi dan pengujian user aceptance test dengan kuesioner serta diinterpretasikan dalam skala likert untuk pengujian pengguna
+cara kerja aplikasi ini, pengguna memerlukan koneksi internet untuk menjalan aplikasi sistem informasi perpustakaan dengan menerapkan web service di perpustakaan daerah kalimantan barat agar informasi yang diberikan oleh perpustakaan seperti buku, berita, pengumuman bisa dilihat melalui smartphone android
+aplikasi ini dibangun menggunakan software eclipse java mars dengan plugin android depolevment tools dengan target sdk minimum 10 yaitu android 2.3 
+untuk pengujian aplikasi dengan akses pengguna melalui kuesioner yang dibagikan kepada masyarakat umum maupun pengunjung perpustakaan daerah kaimantan barat lalu diinterpretasikan dalam skala likert
+hasil yang ditunjukkan dengan 30 orang responden didapatkan nilai sebesar 71, 06 sehingga masuk dalam kategori sangat baik
+dapat disimpulkan dari penelitian ini bahwa aplikasi sistem informasi perpustakaan dengan menerapkan web service di perpustakaan daerah kalimantan barat berbasis android, proses pencarian buku, membaca berita dan pengumuman serta mengirim pesan baik berupa kritik, saran maupun pemesanan buku dapat dilakukan secara online sehinga dapat dilakukan kapan dan dimana saja dan jangkauan informasi menjadi lebih luas
+pendahuluan salah satu lembaga pemerintah yang bergerak di bidang pendidikan dan kebudayaan
+perpustakaan daerah kalimantan barat sebagai pemberi layanan kepada pemakai atau pengunjung memerlukan pelayanan yang bersifat cepat, mudah dan efisien
+layanan perpustakaan yang masih bersifat manual menimbulkan berbagai kendala dalam menyampaikan informasi kepada masyarakat contohnya bagi para pengunjung masih sulitnya pencarian data buku yang ada di perpustakaan karena pengunjung perpustakaan yang ingin mencari buku harus mengecek ke tiap rak untuk memperoleh buku yang mereka inginkan sehingga pencarian data koleksi buku memerlukan waktu relatif lama dan kurang akurat dan buku yang diinginkan belum tentu ada di perpustakaan
+selain itu, masyarakat belum bisa mendapatkan informasi yang diberikan oleh perpustakaan secara langsung baik itu informasi pengumuman, berita tentang perpustakaan, agenda acara yang dilakukan di perpustakaan dan sebagainya
+sangat pesat telah banyak memberikan manfaat dalam kehidupan seperti komputer dan internet yang semakin canggih
+dengan adanya elemen tersebut, manusia telah dipermudah dalam mengakses data, mengolah data, juga dalam berkomunikasi yang tidak lagi dibatasi oleh jarak dan waktu bahkan tempat yang jauh sekalipun
+seiring dengan tingkat mobilitas yang tinggi, beberapa tahun terakhir tengah marak perangkat bergerak atau mobile device
+salah satu perangkat mobile yang paling pesat adalah handphone dimana hampir setiap orang memilikinya
+handphone yang sedianya sebagai alat komunikasi, saat ini sudah lebih dari fungsi dasarnya
+berbagai macam fitur telah ditanamkan, seperti pengolah gambar dan video, pengolah dokumen dan lain sebagainya
+hal ini tak lepas dari penggunaan sistem operasi pada handphone, salah satunya adalah android sebagai sistem operasi berbasis linux yang dapat digunakan di berbagai perangkat mobile
+android memiliki tujuan utama untuk memajukan inovasi piranti telepon bergerak agar pengguna mampu mengeksplorasi kemampuan dan menambah pengalaman lebih dibandingkan dengan platform mobile lainnya
+saat ini aplikasi-aplikasi mobile berbasiskan android pada perangkat mobile sedang berkembang pesat serta merupakan salah satu teknologi yang sebagian besar dibutuhkan oleh semua orang pengguna perangkat mobile berbasis android
+ini diperlukan untuk mempersiapkan perpustakaan agar dapat juli mandala putera#1, m
+hadari nawawi, kota pontianak, 78115 47 diakses pengguna dengan menggunakan android smartphone
+gedung ataupun gedung itu sendiri yang digunakan untuk menyimpan buku dan terbitan lainnya yang biasanya disimpan menurut tata susunan tertentu untuk digunakan pembaca, bukan untuk dijual”

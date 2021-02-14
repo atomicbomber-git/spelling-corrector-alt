@@ -1,0 +1,92 @@
+pembuatan media pembelajaran bahasa arab ini menggunakan adobe flash cs4 proffesional, sedangkan dalam perancangannya menggunakan storyboard, struktur navigasi, dan flowchart
+hasil pengujian terhadap media pembelajaran ini secara keseluruhan adalah sebanyak 33% menyatakan sangat baik, 29% menyatakan baik, dan 8% menyatakan kurang baik
+ini menunjukkan bahwa lebih dari 60% responden menyatakan media pembelajaran ini sudah berjalan dengan baik
+sedangkan pengujian terhadap tampilan media pembelajaran dapat menarik minat belajar adalah sebanyak 60% menyatakan sangat baik, 30% menyatakan baik, dan 10% menyatakan kurang baik
+hal ini menunjukkan bahwa 90% media pembelajaran ini dapat menarik minat belajar
+pendahuluan komunikasi antara siswa dan pengajar
+kegiatan belajar mengajar di kelas merupakan suatu dunia komunikasi tersendiri di mana pengajar dan siswa bertukar pikiran untuk mengembangkan ide dan pengertian
+komunikasi di kelas itu sendiri sering terjadi penyimpangan, misalnya para murid yang malas mendengarkan pengajar menyampaikan bahan ajar, sehingga komunikasi tersebut tidak efektif dan efisien, salah satunya disebabkan kurangnya minat siswa dalam belajar
+media yang bisa dimanfaatkan dalam pembelajaran bahasa arab, antara lain, seperti: komputer, rekaman compact disk, gambar-gambar, dan sebagainya
+media tersebut mempunyai karakteristik tersendiri, sehingga dapat memudahkan dalam mempelajari mata pelajaran bahasa arab di sekolah-sekolah terutama di lembaga formal penggunaan media sangat dibutuhkan dalam pembelajaran bahasa asing, maupun pembelajaran lainnya agar pembelajaran tersebut tidak membosankan dan menjadi aktivitas belajar yang menyenangkan bagi para siswa
+penelitian ini menyatakan bahwa pembelajaran multimedia dengan grafik dan animasi yang menarik menjadikan anak-anak tidak bosan dan lebih menyerap informasi yang disampaikan
+rancangbangun multimedia pembelajaran ilmu sehingga dapat digunakan oleh pemakai pemula sekalipun, karena terdapat menu utama yang sangat membantu pemakai 
+materi dibuat secara terstruktur, tahap demi tahap dari materi paling sederhana sampai ke materi paling sulit
+model interaksi baru yang lebih menarik dan mudah dalam penggunaannya
+animasi interaktif pembelajaran tari merak, dapat memberikan pengalaman yang berbeda sebagai media pembelajaran gerakan tari, busana tari, tata rias tari, dan info seputar tari merak
+pemanfaatan teknologi text-to-speech sebagai media pembelajaran pada laboratorium bahasa inggris, mengatakan bahwa siswa dapat terlatih dalam hal listening karena suara yang dihasilkan speech synthesizer ini merupakan rekaman ribuan diphone dari orang berbahasa inggris murni yang terdapat dalam sebuah database diphone, dan siswa sendiri dapat membuat latihan sebagai media pembelajaran seni dan budaya banjar, menyimpulkan bahwa aplikasi yang telah dibuat layak untuk digunakan kepada siswa dan efektif dalam memberikan pengaruh positif terhadap peningkatan hasil belajar siswa
+pengembangan media pembelajaran membaca bahasa inggris smp berbasis web, yang menghasilkan produk yang telah memenuhi kelayakan untuk digunakan pada proses pembelajaran peserta didik
+pengembangan media pembelajaran membaca tutorial dengan menampilkan perpaduan antara kata, gambar sebagai konsep dari kata tersebut, dan pengucapannya
+terlihat bahwa belum adanya yang membahas tentang media pembelajaran bahasa arab dan khususnya untuk siswa madrasah ibtidaiyah yang sangat memerlukan sekali media pembelajaran dalam upaya untuk meningkatkan penelit i melakukan penelit ian tentang media pembelajaran khususnya pembelajaran bahasa arab untuk siswa madrasah ibtidaiyah
+sehingga akan terjadi komunikasi antara siswa dengan sumber penyalur pesan
+hal seperti ini dapat dikatakan proses telah terjadi dalam diri siswa yang akhirnya akan mengarah pada perubahan tingkah laku siswa
+pembelajaran di dalam proses belajar mengajar adalah sebagai berikut: dan meningkatkan proses dan hasil belajar
+ media pembelajaran dapat meningkatkan dan megarahkan perhatian anak sehinga dapat menimbulkan motivasi belajar, interaksi yang lebih langsung antara peserta didik untuk belajar sendiri- sendiri sesuai dengan kemampuan dan minatnya
+ media pembelajaran dapat mengatasi keterbatasan indera, ruang, dan waktu
+terkait dengan tata bunyi, kosakata, kalimat, dan tulisan
+berkaitan dengan sosial budaya dan sosio kultural, yaitu : beberapa huruf yang tidak bisa diucapkan dengan bahasa indonesia, antara lain syin (ش
+pembelajaran bahasa arab sebagai bahasa asing pasti menghadapi problematika, baik masalah linguistik maupun nonlinguistik, shad, dhad, tha’, zha, ‘ain, ghain, qaf, tsa’, jim, dan dzal 
+akan tetapi, seiring dengan kemajuan zaman, bisa belajar tata bunyi bahasa arab ini dengan mudah melalui radio dan televisi
+tulisan, juga merupakan salah satu penghambat dalam belajar bahasa arab, karena tulisan arab sudah pasti sangat jauh berbeda dengan tulisan latin
+tata kalimat, dikenal ilmu nahwu, ilmu ini mengulas cara menyusun kalimat
+guru yang kurang memiliki kompetensi sebagai pengajar bahasa arab
+peserta didik yang tidak memiliki motivasi kuat dalam pembelajaran bahasa arab, atau latar belakang peserta didik dengan pemahaman bahasa arab
+materi ajar kurang relevan lagi dengan kebutuhan yang ada bagi peserta didik
+sarana dan prasarana yang kurang memadai dan mendukung dalam proses pembelajaran bahasa arab
+enam tahap dapat dilihat pada gambar 1
+pengembangan multimedia  concept adalah untuk menentukan tujuan dan siapa penggguna program
+karakteristik pengguna termasuk kemampuan pengguna juga perlu dipertimbangkan karena dapat mempengaruhi pembuatan desain
+tampilan, dan kebutuhan material atau bahan untuk program
+tahap ini menggunakan storyboard untuk menggambarkan deskripsi tiap scene, dengan mencantumkan semua objek multimedia dan tautan ke scene lain dan bagan alir untuk menggambarkan aliran dari satu scene ke scene lain, tahap design yaitu : i
+bahan-bahan tersebut, antara lain gambar clip art, foto, animasi, video, audio, dan lain-lain
+ pembuatan aplikasi adalah tahap pembuatan semua objek atau bahan multimedia
+ pengujian, dilakukan setelah menyelesaikan tahap pembuatan dengan menjalankan program dan melihatnya apakah ada kesalahan atau tidak  distribution, pada tahap ini, aplikasi akan disimpan dalam suatu media penyimpanan
+hasil evaluasi ini dapat digunakan sebagai masukan untuk tahap concept pada produk selanjutnya a
+konsep untuk menentukan konsep dari aplikasi ini yaitu :  tujuan yang akan dicapai pada aplikasi ini adalah menghasilkan suatu cd interaktif berisikan materi belajar bahasa arab, kemudian dapat digunakan oleh siswa dengan didampingi oleh pendidik
+ karakteristik pengguna, yang akan menggunakan aplikasi belajar bahasa arab ini yaitu siswa madrasah ibtidaiyah  membuat flowchart
+material collecting beberapa data dan informasi yang harus dikumpulkan adalah:  data teks, teks yang digunakan yaitu materi tentang pengenalan bahasa arab
+ data audio atau suara yang digunakan pada aplikasi ini yaitu suara tata cara bacaan bahasa arab
+ data grafik atau gambar yang digunakan dalam aplikasi ini yaitu gambar kartun yang bisa bergerak dan gambar untuk background
+pembuatan aplikasi media adobe flash sebagai desain grafis
+uji program aplikasi yang dibuat sebaiknya dilakukan pengujian untuk mengetahui apakah sudah benar atau masih ada kesalahan
+media pembelajaran bahasa arab adalah :  data kosa kata mengenai ajaran yang disampaikan oleh pengajar dan merupakan informasi utama pada proses belajar bahasa arab
+ data teks, teks untuk memberikan informasi pada media pembelajaran ini, merupakan informasi yang mendukung dalam pembelajaran bahasa arab
+ data audio yaitu suara sesuai dengan materi yang ditampilkan
+ data gambar yaitu gambar yang ditampilkan pada kebutuhan media pembelajaran bahasa arab dan berfungsi untuk membantu mempermudah gambaran dari scene, yaitu:  scene 1, merupakan tampilan awal yang menampilkan proses loading untuk menuju scene berikutnya, dapat dilihat pada gambar 2
+scene 1  scene 2, menampilkan background sekolah dan judul media pembelajaran
+memiliki tombol aktif, yaitu materi, standar kompetensi, evaluasi, bantuan dan keluar, dapat dilihat pada gambar 3
+scene 2  scene 3, tampilan setelah menekan materi pada gambar 3
+scene 3  scene 4, tampilan setelah menekan semester 1 pada gambar 4
+, terdapat lima tombol, dapat dilihat pada gambar 5
+, terdapat empat tombol, dapat dilihat pada gambar 6
+scene 5  scene 6, tampilan setelah menekan materi pada gambar 6
+scene 6  scene 7, tampilan setelah menekan standar kompetensi pada gambar 3
+, terdapat penjelasan tentang standar kompetensi yang telah ditetapkan, dapat dilihat pada gambar 8
+scene 7  scene 8, tampilan setelah menekan bantuan pada gambar 3
+scene 8  scene 9, tampilan setelah menekan evaluasi pada gambar 3
+pengumpulan bahan beberapa data dan informasi yang harus dikumpulkan untuk membuat media pembelajaran bahasa arab adalah sebagai berikut:  data teks yang digunakan yaitu teks materi tentang bahasa arab untuk tingkat madrasah ibtidaiyah
+ data audio yaitu suara penjelasan materi yang ditampilkan
+ data gambar yaitu gambar yang merupakan kebutuhan media pembelajaran bahasa arab
+hasil tampilan berikut adalah penjelasan untuk setiap tampilan dari media pembelajaran bahasa arab :  tampilan awal, muncul ketika program dijalankan, dapat dilihat pada gambar 11
+tampilan awal  tampilan menu utama, berfungsi memilih menu yang tersedia, dapat dilihat pada gambar 12
+tampilan menu utama  tampilan materi, muncul ketika tombol materi pada gambar 12
+tampilan materi semester 1  tampilan semester 2, merupakan tampilan tentang materi yang akan diajarkan pada semester 2, seperti pada gambar 15
+tampilan materi semester 2  tampilan huruf hijaiyah, muncul setelah tombol huruf hijaiyah pada gambar 14
+ditekan, berisi tentang huruf hijaiyah dan beberapa pembelajarannya, yaitu menulis, membaca, dilihat pada gambar 16
+tampilan yang berada pada materi huruf hijaiyah, adalah : i
+tampilan menulis, merupakan tampilan huruf hijaiyah pada konteks menulis, seperti pada gambar 17
+tampilan membaca, merupakan tampilan huruf hijaiyah, pada konteks membaca, seperti pada gambar 18
+tampilan melengkapi, merupakan tampilan huruf hijaiyah pada konteks melengkapi, seperti pada gambar 19
+tampilan muzakarah, merupakan tampilan huruf hijaiyah pada konteks muzakarah, seperti pada gambar 20
+tampilan latihan, merupakan tampilan latihan materi huruf hijaiyah, seperti pada gambar 21
+tampilan latihan huruf hijaiyah  tampilan standar kompetensi, muncul setelah tombol standar kompetensi pada menu utama ditekan, pada tampilan ini menjelaskan apa saja yang menjadi standar kompetensi, dapat dilihat pada gambar 22
+tampilan standar kompetensi  tampilan bantuan, muncul setelah tombol bantuan ditekan pada menu utama, tampilan ini berisi tentang petunjuk untuk menggunakan media pembelajaran ini, dapat dilihat pada gambar 23
+pengujian aplikasi adapun salah satu cara untuk melakukan pengujian ialah dengan menekan atau dengan menekan tombol 
+tes ini bertujuan untuk mendapatkan file dengan ekstensi .swf agar dapat berjalan pada flash player
+selanjutnya dilakukan publikasi file untuk mendapatkan file dengan ekstensi *exe agar program dapat dijalankan tanpa adanya instalasi flash player
+kuisioner yang diberikan terdiri dari tujuh pertanyaan sekaligus pemberian komentar dan saran atas aplikasi yang telah diuji
+pada kuisioner ini, responden yang diuji ada sepuluh responden yaitu lima orang guru, satu orang dosen dan empat orang mahasiswa yang telah mengambil mata kuliah multimedia
+adapun persentase penilaian aplikasi dapat dilihat pada tabel 1
+sb b kb 2 tampilan media pembelajaran 3 letak tombol tidak mempersulit 5 5 0 4 semua tombol berfungsi 5 5 0 5 materi yang ditampilkan sudah mencakup pembahasan 5 5 0 6 ketepatan tampilan animasi 3 5 2 7 ketepatan dalam pemilihan ket : sb = sangat baik, b = baik, kb = kurang baik berdasarkan tabel i
+diperoleh hasil penilaian oleh responden terhadap aplikasi secara keseluruhan bahwa sebanyak 33% menyatakan sangat baik, 29% menyatakan baik, dan 8% menyatakan kurang baik
+ini menunjukkan bahwa lebih dari 60% responden menyatakan aplikasi ini sudah berjalan dengan baik, dapat dilihat pada gambar 25
+kesimpulan siswa untuk lebih memahami mata pelajaran bahasa arab, dengan menambahkan animasi yang lebih menarik, suara yang jelas, dan gambar yang benar

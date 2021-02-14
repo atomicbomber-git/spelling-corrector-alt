@@ -1,0 +1,91 @@
+erancangan sistem yang dapat membantu pt astra sedaya finance pontianak dalam prediksi atau menentukan kelancaran konsumen dalam melakukan pembayaran angsuran
+jumlah data penelitian ini sebanyak 30 data debiturdari pt astra sedaya finance pontianak dengan jumlah sampel sebanyak 15 sampel dengan menggunakan perhitungan logika fuzzy tsukamoto
+perhitungan yang dilakukan dengan menggunakan metode fuzzy tsukamoto dengan menggunakan dua variable dalam menentukan tingkat kelancaran seperti varibel yang digunakan oleh pt astra sedaya finance pontianak
+variabel tersebut adalah tanggal jatuh tempo danday overdues
+day overdues ditentukan berdasarkan sejak dari tanggal jatuh tempo debitur belum melakukan pembayaran
+setelah menentukan kedua variabel input tersebut maka variabel output adalah tingkat kelancaran
+tingkat keberhasilan penerapan aplikasi ini menggunakan tingkat validitas dengan membandingkan persamaan hasil perhitungan manual yang dilakukan perusahaan dengan hasil perhitungan sistem
+pendahuluan t astra sedaya finance pontianak merupakan salah satu perusahaan pembiayaan kredit mobil terbesar di indonesia
+perusahaan memiliki kebijakan standar untuk menerima atau menolak resiko kredit mobil, yaitu menentukan siapa berhak menerim akredit berdasarkan pada prinsip five c; bagaimana karakter pelanggan, kapasitas melunasi kredit, kemampuan modal yang dimiliki pelanggan, jaminan yang dimiliki pelanggan untuk menanggung resiko kredit dan kondisi keuangan pelanggan 
+untuk memenuhi prinsip five c, dalam pelaksanaanya perusaha dan menetapkan kebijakan kredit dan syarat-syarat kredit
+kebijakan kredit dan syarat-syarat kredit ini dilakukan dengan mengumpulkan semua data yang diperlukan sebagai syarat kredit, antara lain : ktp, income performance, mutasi keuangan selama tiga bulan terakhir, pekerjaan, kartukeluarga, lokasi tempat tinggal, persetujuan suami atau istri, dan kepemilikan aset yang dapat dijaminkan jika suatu waktu pelanggan mengalami masalah dalam membayar angsuran
+informasi calon konsumen didapatkan kemudian dilanjutkan dengan proses berikutnya yaitu melakukan survey lapangan dan pemeriksaan kebenaran informasi yang disediakan oleh calon konsumen
+sumber informasi lainnya adalah kuantitatif yang menunjukkan kemungkinan pelanggan membayar tepat waktu, terlambat membayar atau tidak dapat membayar sama sekali atau bangkrut
+survey lapangan, perusahaan kemudian melakukan proses analisa yang merupakan prediksi atau pun forecasting terhadap kemampuan konsumen melakukan pembayaran angsuran
+setelah proses analisa selesai maka dapat ditentukan apakah konsumen tersebut layak atau tidak untuk menerima kredit
+forecasting atau prediksi kelancaran pembayaran angsuran calon konsumen yang dilakukan oleh perusahaan masih menggunakan cara manual dan database yang digunakan berbentuk kertas, sehingga membutuhkan waktu lama untuk pengolahan informasi yang diperlukan
+permasalahan yang muncul adalah kesulitan dalam penyimpanan arsip data, lamanya waktu proses analisa prediksi calon konsumen, lamanya waktu yang diperlukan dalam pengambilan keputusan kelayakan calon konsumen, dan kesulitan untuk pencarian arsip yang telah tersimpan jika akan dicocokkan dengan informasi atau pedoman yang baru diperoleh, serta masalah pembuatan laporan yang terlambat terkadang juga menghambat penyampaian informasi kepada pimpinan perusahaan
+pembayaran merupakan salah satu faktor yang menentukan kelayakan konsumen dalam menerima kredit
+sistem prediksi kelancaran konsumen terhadap pembayaran merupakan masalah yang cukup rumit dan kompleks, yang merupakan tanggung jawab pihak manajemen menengah dan puncak yang harus dilakukan secara tepat, cepat, dan efisien.untuk itu diperlukan suatu system pendukung keputusan berbasis computer sehingga dapat meningkatkan waktu proses analisa prediksi dan efisiensi pelayanan perusahaan terhadap konsumen
+logika fuzzy dapat memetakan suatu input ke dalam suatu output, dengan kata lain logika fuzzy memiliki toleransi terhadap data-data yang tersedia
+metode fuzzy yang dipakai untuk mendukung pembuatan sistem pengambilan keputusan ini adalah metode tsukamoto
+metode tsukamoto merupakan perluasan dari penalaran monoton.pada metode tsukamoto, setiap konsekuen pada aturan yang berbentuk if- then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton.hasilnya berupa output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan nilai bobot rata-rata
+tingkat keberhasilan perancangan sistemprediksi kelancaran konsumen dalam melakukan pembayaran angsuran pt astra sedaya finance pontianak budi hidayat1, rudi dwi nyoto2, anggi srimurdianti sukamto3 program studi teknik informatika fakultas teknik universitas tanjungpura1, 2, 3 email : aqilbudihidayat1986@gmail.com1, rudydwinyoto@gmail.com2, dengan menentukan batasan himpunan pada tiap-tiap himpunan fuzzy yang berfungsi sebagai parameter 
+dengan menggunakan metode tsukamoto tanpa mengabaikan kriteria yang ada dapat mendukung pengambilan keputusan dari suatu pemetaan masalah 
+digunakan untuk pembuatan sistem pendukung keputusan dalam melakukan prediksi kelancaran konsumen dalam melakukan pembayaran angsuran pada pt astra sedaya finance pontianak adalah dengan menggunakan logika fuzzy metode tsukamoto
+sistem pendukung keputusan istilah sistem pendukung keputusan diperkenalkan pertama kali pada awal tahun 1970-an oleh michael s
+scott morton sebagai management decision system
+sistem tersebut merupakan sebuah sistem yang berbasis komputer dengan tujuan untuk membantu mengambil keputusan dengan memanfaatkan data dan model tertentu untuk memecahkan berbagai persoalan yang tidak terstruktur 
+sistem pendukung keputusan sebagai sistem informasi berbasis komputer yang adaptif, interaktif, fleksibel, yang secara khusus dikembangkan untuk mendukung solusi dari pemasalahan manajemen yang tidak terstruktur untuk meningkatkan kualitas pengambilan keputusan 
+zadehpadatahun 1965.zadeh berpendapat bahwa logika benar dan salah dalam logika konvensional tidak dapat mengatasi masalah gradasi yang berada pada dunia nyata
+untuk mengatasi masalah gradasi yang tidak terhingga tersebut, zadeh mengembangkan suatu fungsi yang menyatakan derajat kesesuaian unsur-unsur dalam semestanya dengan konsep syarat keanggotaan himpunan tersebut
+fungsi ini disebut fungsi keanggotaan dan nilai fungsi tersebut disebut sebagaiderajat keanggotaan suatu unsur dalam himpunan yang selanjutnya disebut himpunan fuzzy
+logika fuzzy merupakan suatu metode pengambilan keputusan berbasis aturan yang digunakan untuk memecahkan keabu- abuan masalah pada sistem yang sulit dimodelkan atau memiliki ambiguitas atau multi-nilai logika
+tidak seperti logika boolean, logika fuzzy mempunyai nilai yang kontinue
+samar dinyatakan dalam derajat dari suatu keanggotaan dan derajat dari kebenaran
+oleh sebab itu sesuatu dapat dikatakan sebagian benar dan sebagian salah pada waktu yang sama 
+metode tsukamoto fuzzy inferense system atau fuzzy inferense engine adalah sistem yang dapat melakukan penalaran dengan prinsip serupa seperti manusia melakukan penalaran dengan nalurinya 
+langkah pertama dari fis adalah untuk menetapkan nilai keanggotaan untuk data input dan output 
+sistem inferensi fuzzy menerima input crisp
+input ini kemudian dikirim ke basis pengetahuan yang berisi n aturan fuzzy dalam bentuk if-then
+fire strength akan dicari pada setiap aturan
+hasil agregasi akan dilanjutkan dengan defuzzy untuk mendapatkan nilai crisp sebagai output sistem
+sistem inferensi fuzzy didasarkan pada konsep penalaran monoton
+pada metode penalaran secara monoton, nilai crisp pada daerah konsekuen dapat diperoleh secara langsung berdasarkan fire strength pada antesedennya
+baik monoton naik maupun monoton turun
+salah satu syarat yang harus dipenuhi pada metode penalaran ini adalah himpunan fuzzy pada konsekuennya harus bersifat monoton 
+salah satu metode fis yang dapat digunakan untuk pengambilan keputusan adalah metodetsukamoto
+dasardari metode tsukamoto adalah mengaplikasikan penalaran monoton pada setiap aturannya.pada penalaran monoton, suatu sistem hanya memiliki satu aturan, sedangkan pada metode tsukamoto, suatu sistem terdiri atas beberapa aturan.aturan-aturanpadametode tsukamotoadalahsetiap outputdengansyaratbahwa antara input dan output harus ada hubungannya
+penerapan konsep dasar penalaran monoton pada metode tsukamoto adalah setiap konsekuen pada aturan yang berbentuk if-then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaan yang monoton
+setiap aturan direpresentasikan menggunakan himpunan- himpunan fuzzy, dengan fungsi keanggotaan yang monoton
+kemudian untuk menentukan hasil tegas digunakan rumus penegasan yang disebut metode rata-rata terpusat atau metode defuzifikasi rata-rata terpusat .output hasil inferensi dari tiap-tiap aturan diberikan secara tegas bedasarkan α-predikat 
+proses agregasi antar aturan dilakukan, dan hasil akhirnya diperoleh dengan menggunakan defuzzy dengan konsep rata-rata terbobot 
+misalkan ada 2 variabel input, var-1 dan var-2, serta variabel output, var-3, dimana var-1 terbagi atas 2 himpunan yaitu a1 dan a2
+var-2 terbagi atas 2 himpunan b1 dan b2, var-3 juga terbagi atas 2 himpunan yaitu c1 dan c2 
+ada dua aturan yang digunakan, yaitu: [r1] if and then [r2] if and then iii
+perancangan sistem sebagai berikut: - data-data debitur yang sudah diterima pengajuan kreditnya di- input oleh oleh staf atau operator beserta tanggal jadwal pembayaran, besarnya nilai angsuran dan batas closing date
+data debitur akan disimpan di database dan sistem akan melakukan perhitungan day overdues jika belum ada pembayaran oleh debitur kemudian sistem akan menentukan tingkat kelancaran kredit apakah debitur lancar atau tidak dalam melakukan pembayaran angsuran
+bagian collection, marketing dan surveyor dapat mengakses dan melihat laporan tingkat kelancaran debitur
+jika tingkat kelancaran dalam sistem adalah hijau maka debitur tergolong lancar dalam pembayaran angsurannya, jika tingkat kelancaran kuning maka debitur kurang lancar, dan untuk tingkat kelancaran merah, debitur tidak lancar dalam pembayaran
+diagram overview system data flow diagram level 0 merupakan gambaran rinci dari proses yang dilakukan pada diagram konteks
+arus data dapat dilihat dengan jelas pada diagram tersebut
+proses-proses yang terjadi digambarkan sebagai berikut : 1
+proses 1.0, merupakan proses staf administrasi atau operator, bagian collection, bagian marketing, dan bagian surveyor harus melakukan proses login dengan cara memasukkan username dan password untuk masuk ke dalam sistem
+bagian collection, bagian marketing, dan bagian surveyor tidak dapat melakukan penambahan user baru
+sedangkan staf administrasi dapat melakukan penambahan user baru pada sistem
+setiap hak akses yang dimiliki oleh masing-masing bagian memiliki fungsi masing-masing
+proses 2.0, merupakan proses staf atau operator melakukan tugasnya yaitu memasukkan atau menambah, meng-edit, menghapus data debitur, dan melaksanakan analisa perhitungan tingkat kelancaran debitur dalam pembayaran
+bagian collection, marketing dan surveyor hanya melihat data nasabah dan tingkat kelancaran debitur
+proses 3.0, yaitu proses staf administrasi melakukan penambahan variabel input, output, domain input, dan domain output jika diperlukan dan menginputkan batas awal dan akhir pada domain input dan output yang akan digunakan sebagai aturan fuzzy tsukamoto dalam perhitungan tingkat kelancaran debitur
+proses 4.0, yaitu proses perhitungan query fuzzy untuk menghasilkan tingkat kelancaran pembayaran debitur dalam melakukan pembayaran angsuran
+keputusan untuk menentukan kelancaran debitur dalam melakukan pembayaran angsuran pada pt astra sedaya finance pontianak
+sistem ini merupakan sistem berbasis web yang bertujuan untuk membantu dan meningkatkan kinerja dalam menentukan kelancaran debitur dalam melaksanakan kewajiban pembayaran angsuran pada pt astra sedaya finance
+antar muka spk kelancaran konsumen dalam melakukan pembayaran ini dirancang dengan dua bagian utama yaitu bagian yang dapat diakses oleh staf administrasi atau antarmuka halaman operator, bagian yang dapat diakses oleh bagian collection, marketing, dan surveyorpt astra sedaya finance
+adapun perancangan antarmuka tersebut adalah sebagai sebagai berikut gambar 3.antarmuka login gambar 4 antarmukahalamanutama antara hasil perhitungantingkatkelancaranpembayaranoleh pt astra sedaya finance dan hasil pehitungantingkatkelancaran menggunakan sistem pendukung keputusan metode tsukamoto
+berikut adalah tabel yang menampilkan hasil pengujian validasi sistem
+pengujianhasil tingkat kelancaran rismawan, 2008) : banyaknya data sampel x 100% tingkat validitas spk = 15 15 x 100% = 100% c
+hasil pengujian sistem kelancaran konsumen dalam melakukan pembayaran angsuran pt astra sedaya finance pontianak berbasis web adalah sebagai berikut:: 1
+sistem diawali dengan memasukkan data debitur pt astra sedaya finance pontianak terlebih dulu ke dalam sistem
+sistem yang dibangun dapat mengantisipasi penambahan variabel input dan output juga aturan inferensi yang akan digunakan
+pada sistem ini, staf administrasi harus mengatur nilai batasan setiap variabel
+sistem akan mengeksekusi data bila data yang dimasukkan benar dan sesuai dan data akan langsung di simpan di dalam basis data
+hasil pengujian hasil kelayakan menunjukkan bahwa hasil perhitungan sistem telah sesuai dengan perhitungan manual dengan metode tsukamoto walaupun hasil perhitungan manual dengan metode tsukamoto terdapat perbedaaan sekitar 0, 0005, hal ini disebabkan karena sistem pembulatan desimal 6
+hasil pengujian konvensional pt astra sedaya finance pontianak dengan sistem secara fuzzy tsukamoto menunjukkan status hasil kelayakan agak berbeda dikarenakan cara perhitungan yang dipakai berbeda, menggunakan fungsi keanggotaan dan angka yang monoton, adanya faktor logika, analisa, naluri serta pengalaman manusia dimana sistem tidak dapat melakukannya
+kesimpulan dan ringkasan pendukung keputusan untuk menentukan sedayapontianak, makadapat disimpulkan bahwa: 1
+sistem yang di bangun menampilkan informasi lancar atau tidaknya debitur dalam pembayaran 2
+penggunaan logika fuzzy metode tsukamoto dalam sistem pendukung keputusan memberikan nilai akhir dimana perubahan selisih angka sekecil apapun akan mempengaruhi nilai akhir dari perhitungan
+sistem yang dibuat dapat mengetahui debitur yang bermasalah dalam pembayaran
+sistem pengambilan keputusan penentuan kelancaran pembayaran angsuran yang dibangun dapat mengantisipasi perubahan dan penambahan kriteria
+hasil kelayakan sistem dan perhitungan manual oleh pt astra sedaya finance pontianak menunjukkan hasil validitas 67%
+hal ini dikarenakan faktor naluri manusia, fungsi keanggotaan dan angka yang monoton, analisa, serta pengalaman manusia dan faktor perbedaan cara hitung yang dipakai

@@ -1,0 +1,3 @@
+disimpulkan bahwa : serta melakukan proses perhitungan prediksi curah hujan dengan metode fuzzy time series
+penggunaan metode fuzzy time series dalam aplikasi memungkinkan sistem untuk menentukan pola data time series yang digunakan kemudian memproyeksikan pola data tersebut untuk memperoleh hasil prediksi
+hasil perhitungan prediksi fuzzy time series sangat dipengaruhi oleh jumlah data aktual yang digunakan sebagai acuan perhitungan pola data serta jumlah interval pada saat perhitungan pola data

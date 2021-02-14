@@ -1,0 +1,83 @@
+nteraktif berbasis poin pada universitas tanjungpura pontianak 1 mardiansyahant@gmail.com, 2 heripriyanto.stmt@gmail.com, 3 irwansyah.azhar@gmail.com pembelajaran atau pendidikan jarak jauh menggunakan media internet e-learning dibuat agar mahasiswa aktif didalam mata kuliah yang diikutinya
+dengan adanya e-learning diharapkan terjadinya sharing knowledge atau informasi antar mahasiswa dan pengajar sehingga hasil penyerapan materi yang diajarkan dapat mencapai tingkat yang maksimum
+dalam sistem ini mahasiswa dapat mengerjakan tugas quiz secara online, selain itu mahasiswa juga dapat mengunduh materi telah disediakan, sehingga dengan adanya aplikasi elearning ini mahasiswa dapat lebih aktif berkomunikasi didalam forum tanya jawab, dan aplikasi ini juga dapat membantu pengajar untuk memberikan nilai kepada mahasiswa dimana nilai tersebut didapat dari nilai quiz dan poin setiap mereka berkomunikasi didalam forum tanya jawab
+pendahuluan dengan istilah e-learning adalah suatu proses media pembelajaran atau pendidikan jarak jauh menggunakan media internet teknologi ini dapat menghemat sumber daya yang dibutuhkan dalam proses belajar mengajar seperti ruangan, tenaga dan waktu
+dalam sistem pembelajaran di fakultas matematika dan ilmu pengetahuan alam dosen dan mahasiswa terlibat langsung tatap muka setiap jadwal mata kuliah yang telah diatur oleh bagian akademik pada instansi tersebut
+terkadang dosen yang berhalangan masuk tidak dapat menghadiri jadwal mata kuliah yang akan diajarkannya, dari sistem pembelajaran perkuliahan itu sendiri e-learning diharapkan dapat membantu dalam proses media pembelajaran, dengan penerapan fitur interkatif berbasis poin mahasiswa diharapkan aktif di dalam perkulihan pada mata kuliah yang diampuhnya, penilaian sistem poin e-learning tersebut akan dapat memotivasi mahasiswa didalam penyerapan pengetahuan pada proses pembelajaran di setiap mata kuliahnya
+dosen dapat memberikan tugas, materi dan video melalui media yang tersedia di e-learning tersebut bukan itu saja mahasiswa bisa terlibat langsung dengan dosen yang bersangkutan berupa tanya jawab, diskusi antar mahasiswa setiap mata kuliah dan informasi tentang tugas yang diberikan oleh dosen
+dengan judul “rancang bangun e-learning dengan fitur forum interaktif berbasis poin pada universitas tanjungpura pontianak “ aplikasi ini diharapkan dapat membantu dan meningkatkan sarana pembelajaran
+uraian penelitian pembelajaran melalui pemanfaatan it
+pelatihan internet, intranet perusahaan, cd, perangkat portable dll
+deskripsi ini sangat umum dan meliputi berbagai kegiatan pendidikan meliputi: self-belajar, on-line ceramah, diskusi dan kerja kelompok on-line yang dilakukan dengan menggunakan berbagai teknologi dan peralatan 
+dalam e-learning, teknologi modern yang digunakan padas etiap tahap proses pengajaran, mulai dari perencanaan dan pengembangan pelatihan, melalui pelaksanaan dan distribusi, untuk pengadministrasian dan evaluasi hasil belajar
+is the use of network technology to design, deliver, select, administer, and extend learning
+elerning is using the power of the network to iclude content delivery in mutiple formats, management of the learning experience, and a networked community of learners, content developers and experts
+cisco mengemukakan; 
+menurut masie di atas, e-learning bermakna penggunaan teknologi jaringan untuk merancang, menyampaikan, memilih, mengelola, dan memperluas pembelajaran
+sedangkan cisco mengemukakan, bahwa e-learning menggunakan b
+karakteristik e-learning seperti yang sudah dijelaskan pada bagian sebelumnya, bahwa e-learning merupakan suatu pembelajaran yang berbasis web yang memungkinkan siapapun bisa mempelajarainya melalui jaringan menyenangkan, mudah dan murah
+sama halnya seperti social network yang sedang ramai-ramainya di dunia maya
+namun forum lebih berfokus untuk sebuah komunitas besar, dimana didalam forum tersebut terbagi menjadi sub-sub dari forum itu, lebih jelasnya didalam forum tersebut ada pembagian kategori yang dibuat untuk memudahkan penggunanya dalam berinteraksi atau bisa diartikan sebagai tempat untuk berinteraksi bagi para anggotanya dimana dengan adanya kategori pembahasan di tiap-tiap forum bisa mempermudah para anggota dalam mencari sebuah informasi
+forum juga suatu sarana untuk mencari informasi yang bisa di katakan lebih lengkap dan lebih detail, forum juga dapat di gunakan sebagai tempat untuk berdiskusi, dengan adanya forum, maka dapat saling berinteraksi satu sama lain dengan anggota yang ada di forum
+di dalam forum terdapat kategori-kategori yang dapat dipilih dan digunakan penggunanya tergantung kebutuhan pengguna tersebut
+misalkan bila kita ingin membuat thread mengenai cara-cara memodif mobil atau motor, maka kita harus memasukan thread kita di kategori otomotif, maka seperti itulah kegunaan forum dan sub forum
+kegunaan dari forum sendiri sangat banyak, diantaranya kita bisa bisa mencari informasi yang kita butuhkan, karena di forum khusunya forum yang sudah besar dan sudah sangat terkenal, banyak pilihan yang bisa kita dapatkan dari informasi yang kita butuhkan tersebut
+pembelajaran, bahwa arsyad mengelompokkan media interaktif merupakan kelompok pilihan media teknologi mutakhir
+media teknologi mutakhir sendiri dibedakan menjadi 2
+media berbasis mikroprosesor, misal computer- assistted instruction, permainan komputer, sistem tutor intelejen, interaktif, hypermedia, dan compact disc
+rekaman dengan pengendalian komputer kepada penonton yang tidak hanya mendengar dan melihat video dan suara, tetapi juga memberikan respon yang aktif, dan respon itu yang menentukan kecepatan dan sekuensi penyajian 
+media pembelajaran interaktif yang dimaksudkan adalah berbentuk compact-disk 
+media ini disebut cd multimedia interaktif
+disebut multimedia dikarenakan bahwa media ini memiliki unsur audio- visual 
+disebut interaktif karena media ini dirancang dengan melibatkan respon pemakai secara aktif
+karena itu, media ini berupa cd, maka dapat dikelompokkan sebagai bahan ajar e-learning
+learning merupakan usaha untuk membuat sebuah transformasi proses belajar mengajar yang ada di sekolah ke dalam bentuk digital huruf yang ada di depan katalearning merupakan singkatan dari kata 
+jadi, e-learning dapat diartikan sebagai proses belajar yang menggunakan media elektronik dan digital banyak istilah yang berbeda dalam mendefinisikan sesuatu yang sama
+banyak orang lebih memilih kata learning dari pada training, karena dogs are trained, people learn
+istilah yang berhubungan dengan e- learning adalah technology-based learning dari pada technology-based training, computer-based training, computer-based learning, computer-based instruction, computer-based education, internet-based lain-lain
+learningdapat berupa tutorial, simulasi, electronic performance support system misal aplikasi help pada software microsoft ofiice, game instruksional, tes, pemeliharaan dokumen, dan panduan, serta bisa kombinasikan berbagai model
+berdasarkan pengamatan peneliti, media e- learning dapat dibedakan menjadi dua, yaitu media interaktif online dan offline
+media e-learning yang bersifat online dapat diwujudkan dalam bentuk website/situs
+tentu pemanfaatan media online ini memakan biaya yang cukup besar dan memperlambat jaringan jika menggunakan file media yang sangat besar, namun juga memberikan kemudahan menyampaikan, meng-update isi, para siswa juga bisa mengirim email kepada siswa lain, mengirim komentar pada forum diskusi, memakai ruang chat, hingga link video conference untuk berkomunikasi langsung
+sedangkan media e-learning yang bersifat offline dapat diwujudkan dalam bentuk cd
+keuntungan pemanfaatan media offline, misalnya cd- multimedia interaktif adalah : 2
+jauh lebih hemat dibanding dengan pemanfaatan media secara online
+tingkat interaktivitasnya tinggi karena memiliki lebih banyak pengalaman belajar melalui teks, audio, video, hingga animasi yang dikemas dengan tayangan gambar yang ditampilkan bersamaan dengan judul dan narasi suara dan juga menampilkan tingkah laku manusia atau pekerjaan yang kompleks
+dengan skala likert adalah suatu skala psikometrik yang umumnya digunakan dalam quesioner dan merupakan skala yang paling banyak digunakan dalam riset pendidikan yang berupa survey
+dalam penggunanan skala ini, hanya item-item yang pasti bersifat baik dan pasti bersifat buruk yang digunakan
+dalam pemberian skor pada setiap item, biasanya responden menyatakan dengan pernyataan setuju, tidak setuju, tidak punya pilihan, sangat setuju, atau sangat tidak setuju
+nilai angka yang ditetapkan untuk setiap responden tergantung pada tingkat kesetujuan atau ketidaksetujuan responden pada setiap item
+total skor setiap responden merupakan penjumlahan skor respons yang hasilnya ditafsirkan sebagai posisi responden
+skala likert menggunakan ukuran skala ordinal sehingga dapat membuat ranking walaupun tidak diketahui berapa kali seorang responden lebih baik atau lebih buruk dari responden lainnya
+likert ini sedikit berbeda dengan skala yang lain
+pada skala likert, untuk item yang bersifat negative atau yang tidak menyenangkan, peneliti membalik cara pemberian skor-nya
+ketidaksetujuan responden dengan item yang tidak menyenangkan dianggap sama dengan setuju pada item yang menyenangkan 
+tidak ada bedanya apakah nilai 2 itu skor yang tinggi atau -2 itu skor yang rendah, ataupun juga sebaliknya
+yang terpenting adalah jawaban-jawaban itu diberi skor secara konsisten menurut sikap yang dicerminkan pada tiap item
+gambar sistem usulan sistem yang akan dibangun menggunakan web, sehingga memudahkan dalam pengaksesan dan memanajemen sistem fitur yang ada, adapun gambaran sistem yang dibangun adalah : mulai memilih dosen selesai login mahasiswa b
+diagram konteks diagram konteks adalah diagram yang memberikan gambaran umum terhadap aktivitas yang berlangsung pada rancangan e-learning dengan fitur forum interaktif berbasis poin pada universitas tanjungpura pontianak
+diagram konteks memperlihatkan bahwa subjek yang terlibat langsung dalam proses sistem adalah: rancang bangun e-learning dengan fitur forum gambar 2 diagram konteks sistem c
+analisis kebutuhan sistem sistem yang dibangun berbasis web, yang dapat diakses oleh user untuk berinteraksi dalam forum e-learning
+desain arsitektur sistem dapat dilihat dibawah ini : gambar 3 perancangan arsitektur sistem 4 d
+hasil perancangan desain program dibuat dengan mengikuti kriteria – kriteria yang ada, yaitu mudah dioperasikan, dan tampilan menarik 
+diharapkan sistem aplikasi yang dikembangkan ini mampu menjawab segala permasalahan yang telah ada
+dibawah ini adalah hasil rancang bangun e-learning dengan fitur forum interaktif berbasis poin pada universitas tanjungpura pontianak
+pada saat kita masuk kedalam e-learning tersebut
+pada halaman ini ada 3 akun yang disediakan yaitu akun sebagai admin, sebagai dosen dan sebagai mahasiswa: gambar 4 halaman login halaman admin merupakan halaman tampilan awal bagi admin ketika memasuki system
+dihalaman ini admin berfungsi mengatur semua fungsi system salah satuny mengatur data-data dosen ataupun mahasiswa: gambar 5 halaman administrator mata kuliah, materi dan manajemen quiz, di sini juga dosen dapat mengubah profil mereka dan mengubah password yang diinginkan: halaman mahasiswa digunakan siswa untuk melihat kelas, mata kuliah, materi, tugas/quiz dan nilai, di halaman mahasiswa ini, mahasiswa dapat mengerjakan tugas yang diberikan dosen dan dapat langsung melihat nilai yang diberikan dosen kepada mahasiswa: gambar 7 halaman mahasiswa e
+hasil pengujian likert’s summated rating penilaian yang dilakukan pada responden tiap jawaban berbanding terbalik dengan nilai
+jumlah skor untuk seluruh responden: a
+interpretasi jumlah skor tersebut adalah: a
+400 < skor < 800, artinya sangat positif dinilai tidak berhasil) penelitian berada di antara batas atas skor minimal hingga maksimal, maka dapat diinterpretasikan bahwa responden menilai aplikasi sangat positif dan dinilai berhasil
+analisis hasil pengujian berikut ini adalah analisis hasil dari hasil pengujian sistem yang telah dibuat : 1
+admin memiliki hak akses mengelolah data sesuai yang ditentukan oleh admin misalnya manajemen pengajar, manajemen mahasiswa, prodi, mata kuliah, materi, dan manajemen quiz
+admin juga memiliki username dan password untuk digunakan pada saat proses login
+pengajar dan mahasiswa diberikan hak akses untuk mengelolah data yang berupa manajemen prodi, mata kuliah, materi, manajemen quiz, dan nilai
+pengajar dapat mengupload materi yang berupa file ataupun video dan juga memberikan nilai kepada mahasiswa apabila mahasiswa pengerjakan quiz yang diberikan
+sistem dapat memberikan nilai poin apabila mahasiswa mengomentari pertanyaan dari mahasiswa lain
+keberhasilan dari pengujian dengan metode blackbox adalah 100%, jika data yang diisikan kosong atau data salah, maka sistem akan memunculkan pesan
+berdasarkan hasil pengujian dengan kuesioner didapati aplikasi rancang bagun e-learning dengan fitur forum interaktif berbasis poin pada universitas tanjungpura pontianak, bahwa poin pada setiap diskusi dianggap penting, hal ini terlihat pada tanggapan pertanyaan pada nomor 10 dengan pilihan responden sebanyak 40 orang menjawab ”penting”
+tanggapan 379 jawaban dengan persentase 95% dari 40 responden dan dengan tanggapan tidak penting sebanyak 21 jawaban dengan persentase 5%
+hasil pengujian yang diukur dengan metode likert’s summated rating menunjukkan bahwa responden menilai sistem sangat positif dan berhasil dengan total skor 779
+aplikasi e-learning, maka dapat ditarik kesimpulan bahwa : 1
+aplikasi ini dapat membantu pembelajaran jarak jauh antara dosen dan mahasiswa dengan sistem penilaian berbasis poin

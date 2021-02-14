@@ -1,0 +1,34 @@
+jalan adalah infrastruktur yang sering dilalui oleh masyarakat
+apabila terdapat kerusakan akan sangat menganggu aktifitas masyarakat baik segi ekonomi, pendidikan, dan lain-lain
+hal tersebut menjadi keharusan dinas pekerjaan umum bina marga kabupaten kubu raya untuk menangani perbaikan jalan tersebut, tetapi dalam melakukan perencanaan perbaikan terdapat kendala salah satunya adalah sulit menentukan prioritas perbaikan jalan dengan keterbatasan dana dari pusat
+pada penelitian yang dilakukan data survei diinputkan oleh karyawan berdasarkan data lapangan diproses menggunakan metode simple additive weighting dengan menentukan kriteria-kriteria yang akan dijadikan acuan dalam pengambilan keputusan yakni, tingkat kerusakan jalan, kebutuhan lokasi, perkiraan biaya, kontruksi jalan, dan masa pemeliharaan
+serta menentukan rating kecocokan setiap alternatif pada setiap kriteria
+membuat matriks keputusan berdasarkan kriteria, kemudian melakukan normalisasi matriks berdasarkan persamaan yang disesuiakan dengan jenis atribut sehingga diperoleh maktriks ternormalisasi
+hasil akhir diperolah dari proses perankingan yaitu penjumlahan dari perkalian matriks ternormalisasi dengan bobot kriteria sehingga diperoleh nilai terbesar yang dipilih sebagai alternatif terbaik
+hasil pengujian menunjukkan bahwa metode simple additive weighting mampu menghasilkan rekomendasi prioritas perbaikan jalan berdasarkan kriteria yang dibutuhkan keputusan, metode simple additive i
+pendahuluan kabupaten kubu raya adalah salah satu kabupaten yang terdapat di wilayah provinsi kalimantan barat
+kabupaten kubu raya merupakan kabupaten baru hasil pemekaran dari kota pontianak yang memiliki laju pertumbuhan ekonomi yang sangat baik sebagai penghasil produk pangan terbesar di kalimantan barat
+sejalan dengan pertumbuhan tersebut dibutuhkan sarana prasarana pendukung seperti infrastruktur jalan dan jembatan agar pertumbuhan ekonomi lebih meningkat
+dinas pekerjaan umum kabupaten kubu raya bidang bina marga adalah institusi pemerintah yang bertugas untuk pembinaan dan pelaksanaan tugas operasional kebinamargaan yang meliputi perencanaan, penyelenggaraan, pembinaan, pengendalian, pemeliharaan prasarana-prasarana dan penerangan jalan yang berhubungan langsung dengan kegiatan masyarakat sehari-hari
+oleh sebab itu apabila terdapat sarana infrastruktur seperti jalan mengalami kerusakan sudah menjadi kewenangan dinas pekerjaan umum untuk melakukan penanganan perbaikan
+pemeliharaan, dan perbaikan infrastruktur jalan masih terdapat kendala seperti banyaknya jalan yang harus diperbaiki dan yang paling utama adalah keterbatasan dana dari pemerintah pusat sehingga tidak semua jalan yang rusak dapat ditangani
+hal ini membuat dinas pekerjaan umum bina marga kubu raya sulit untuk menentukan dan memprioritaskan jalan yang harus diperbaiki berdasarkan kriteria-kriteria prioritas
+berdasarkan permasalahan diatas maka perlu dilakukan penelitian untuk membuat suatu sistem pendukung keputusan dalam menentukan prioritas perbaikan jalan di wilayah kabupaten kubu raya
+dalam penelitian ini digunakan metode simple additive weighting dalam pembobotan kriteria
+yang dinilai mampu pada permasalahan tersebut
+metode ini dipilih karena dapat menentukan nilai bobot untuk setiap atribut, kemudian dilanjutkan dengan proses perankingan yang akan menyeleksi alternatif terbaik dari sejumlah alternatif
+dengan metode perankingan ini, diharapkan penilaian akan lebih tepat karena didasarkan pada nilai kriteria dan bobot yang telah ditentukan
+implementasi metode simple additive weighting pada sistem pendukung keputusan dalam menentukan prioritas perbaikan jalan diharapkan mampu membantu dinas pekerjaan umum bina marga kabupaten kubu raya dalam menentukan urutan prioritas perbaikan jalan
+ dalam sistem pendukung keputusan bukanlah hal yang baru dilakukan
+beberapa penelitian sejenis yang pernah dilakukan oleh peneliti sebelumnya
+sistem pendukung keputusan penentuan penerimaan beasiswa bantuan siswa miskin pada sma negeri 1 subah kab
+tujuan dari penelitian ini adalah memberikan rekomendasi pilihan yang lebih akurat dan cepat dalam menentukan calon penerima beasiswa bsm dengan kriteria terbaik berdasarkan urutan prioritas
+kriteria dan bobot yang digunakan dalam penelitian ini adalah gaji orang mardheni muhammad 1mardheni@yahoo.co.id, 2bangnops@gmail.com, 3narti.prihartini@gmail.com jl
+pada hasil penelitian didapatkan perankingan untuk calon penerima beasiswa bsm dimana yang menjadi prioritas pertama adalah siswa aulia azima m, prioritas kedua sampai kelima berturut-turut adalah siswa m
+khoirul umam, amin hidayat, dewi oktaviani, dan heni pratiwi 
+radias sundoro melakukan penelitian tentang implementasi metode simple additive weighting pada sistem pendukung keputusan penentuan jenis pondasi dengan simulasi alternatif berbasis 3d
+tujuan dari penelitian ini adalah menyediakan informasi mengenai jenis pondasi dan penentuan jenis pondasi yang akan digunakan dalam proses pembangunan dengan sistem pendukung keputusan disimulasikan dengan animasi 3d
+jenis pondasi yang dipilih adalah pondasi dangkal dan pondasi dalam dimana pondasi dangkal terdiri dari pondasi telapak, pondasi menerus, dan pondasi rakit, sedangkan pondasi dalam terdiri dari pondasi tiang bor, pondasi tiang pancang, dan pondasi sumuran
+sedangkan kriteria yang dipertimbangkan dalam menentukan jenis pondasi adalah kriteria tipe bangunan, jenis tanah, kedalaman tanah keras, pengadaan material, pengadaan alat, keahlian tenaga kerja, gangguan lingkungan, biaya material, biaya galian, biaya tenaga kerja, dan biaya pengadaan alat
+dalam pengembangannya penulis melakukan komparasi dengan metode profile matching dalam menentukan mitra jasa pengiriman barang, menggunakan data dan penilaian yang sama
+hasil komparasi dari kedua metode diatas adalah menghasilkan alternatif terpilih yang sama, sehingga kedua metode tersebut dapat diterapkan untuk membantu pengambilan keputusan pihak manajemen

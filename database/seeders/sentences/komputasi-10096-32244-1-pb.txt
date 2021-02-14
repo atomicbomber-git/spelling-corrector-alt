@@ -1,0 +1,71 @@
+engan metode analytical hierarkhi process reza rangga purnama program studi teknik informatika rezarangga90@gmail.com funding for the costs of non-personnel basic education unit as the implementation of compulsory education are distributed to educational institutions, especially for private junior high school that has been designated by the department of education are distributed each particular period
+funds were caused problems for management, where the funds should be targeted
+the objective to be achieved through this thesis is to design decision support system management bos with ahp-based desktop to the use of the funds targeted as needed
+the method used in the design of this system is using hierarchies analytical process 
+ahp is a process that begins with structuring condition / complex problem into its components in the hierarchy
+there are 27 sub-criteria that are part of the seven criteria: graduation competency development, development of management standards, development assessment system provides an assessment on any existing criteria based on the level of importance
+the application will compare the assessment has been done by all teachers and principals and provide an alternative decision
+from the results of these calculations, the principal may give weight to the cost required
+the results showed that the design and testing of this application can be used for management and bos
+pendidikan memaksa kita untuk memperluas pengetahuan dan wawasan kita, bahkan merubah total daya berfikir kita menjadi lebih bijak
+pemerintah sekarang ini telah membuat program untuk wajib mengikuti pendidikan dasar bagi warga negara yang berusia 7- 15 tahun, program tersebut adalah dana bos sering disebut bantuan operasional sekolah
+oleh karena itu sekolah yang lebih tepatnya kepala sekolah kesulitan dalam menentukan mana yang didahulukan untuk penyaluran dana yang telah ditetapkan pemerintah
+oleh karena itu akan dirancang sistem untuk menyelesaikan masalah tersebut, dengan membuat sebuah aplikasi berbasis dekstop yaitu rancang bangun sistem pendukung keputusan pengelolaan dana bantuan operasional sekolah 
+dilakukan dengan membandingkan sejumlah tingkat hirarki
+dengan demikian pengujian kuantitatif untuk mengetahui besarnya bobot dapat dilakukan
+ada maka dapat dibuat rumusan masalah yaitu bagaimana merancang dan membangun sistem pendukung keputusan berbasis desktop
+sistem pendukung keputusan pengelolaan menurut turban sistem pendukung keputusan merupakan suatu sistem yang dimaksudkan untuk mendukung para pengambil keputusan manajerial dalam situasi keputusan semiterstruktur
+pengambil keputusan mengatasi berbagai sejumlah database dan perangkat lunak
+tujuan dari sistem adalah untuk menyimpan data dan mengubahnya ke informasi yang terorganisir yang dapat diakses dengan mudah, sehingga keputusa-keputusan yang diambil dapat bertujuan untuk menghasilkan berbagai yang merupakan penerapan dari sistem informasi ditujukan hanya sebagai alat bantu manajemen dalam pengambilan keputusan
+2.2 dana bantuan operasional sekolah bos adalah program pemerintah yang pada dasarnya adalah untuk penyediaan pendanaan biaya operasi nonpersonalia bagi satuan pendidikan dasar sebagai pelaksana program wajib belajar
+namun demikian, ada beberapa jenis pembiayaan investasi dan personalia yang diperbolehkan dibiayai dengan dana bos 
+sasaran program bos adalah semua sekolah sd dan smp, termasuk sekolah menengah pertama terbuka dan tempat kegiatan belajar mandiri yang diselenggarakan oleh masyarakat, baik negeri maupun swasta di seluruh provinsi di indonesia
+2.3 metode analytical hierarchy process ahp adalah metode keputusan multikriteria untuk pemecahan masalah yang kompleks atau rumit, dalam situasi tidak terstruktur menjadi bagian-bagian yang kemudian struktural untuk menampilkan permasalahan melalui perbandingan berpasangan berdasarkan sistem 
+langkah-langkah dalam metode ahp dapat dijelaskan sebagai berikut: 1
+mendefinisikan masalah dan menentukan solusi yang diinginkan
+membuat struktur hierarki yang diawali dengan tujuan umum, dilanjutkan dengan subtujuan-subtujuan, kriteria dan kemungkinan alternatif-alternatif pada 3
+membuat matriks perbandingan berpasangan yang menggambarkan kontribusi relatif atau pengaruh setiap elemen terhadap masing- masing tujuan atau kriteria yang setingkat di atasnya
+melakukan perbandingan berpasangan sehingga diperoleh judgment sebanyak n x [n-1/2] buah, dengan n adalah banyaknya elemen yang dibandingkan
+menghitung nilai eigen vector dan menguji konsistensinya, jika tidak konsisten maka pengambilan data diulangi
+mengulang langkah 3, 4, dan 5 untuk seluruh tingkat hirarki
+menghitung eigen vector dari setiap matriks perbandingan berpasangan
+nilai eigen vector merupakan bobot setiap elemen
+langkah ini untuk mensintesis judgment dalam penentuan prioritas elemen-elemen pencapaian tujuan
+adapun perhitungan eigen vector sebagai berikut: contoh matriks di bawah ini
+ * = - jumlahkan nilai setiap baris matriks dan hitung nilai hasil normalisasinya: jumlah baris hasil normalisasi matriks perbandingan di atas
+jika nilainya lebih dari 10 persen maka penilaian data judgment harus diperbaiki
+” pentingnya definisi penjelasan angkaa bila dibandingkan dengan kebalikannya bila dibandingkan terdapat n elemen operasi, yaitu elemen-elemen operasi a1, a2, a3,
+, an, maka hasil perbandingan secara berpasangan elemen- matriks perbandingan sebagai berikut a1 a2 matriks an x n merupakan matriks resiprokal dan diasumsikan terdapat elemen, yaitu w1, w2, w3,
+, wn yang akan dinilai secara perbandingan
+nilai tersebut, yaitu: perbandingan secara berpasangan tersebut harus mempunyai hubungan kardinal dan ordinal hubungan tersebut dapat ditunjukkan sebagai berikut: hubungan ordinal : ai>aj, aj>ak maka ai>ak
+dengan melihat preferensi multiplikatif, misalnya bila mobil lebih enak empat kali dari motor dan motor lebih enak dua kali dari sepeda maka mobil lebih enak delapan kali dari sepeda
+dengan melihat preferensi transitif, misalnya mobil lebih enak dari motor dan motor lebih enak dari sepeda maka mobil lebih enak dari sepeda
+penyimpangan dari konsistensi persamaan 2.2 : skala penilaian 9 beserta kebalikannya sebagai indeks random 
+berdasarkan perhitungan dengan menggunakan secara acak dari skala 1/9, 1/8, …, 1, 2, …, 9 akan diperoleh rata-rata konsistensi untuk matriks dengan ukuran yang berbeda
+perancangan arsitektur sistem desain arsitektur sistem dapat dilihat pada gambar 1 sebagai berikut: 3.1 entity relationship diagram antar entitas digambarkan melalui erd seperti terlihat pada gambar 4
+hasil perancangan pengguna, yaitu kepala sekolah dan guru untuk dapat mengakses sistem pendukung keputusan dengan memasukkan username dan password yang telah di daftarkan sebelumnya
+apabila data login yang dimasukkan sesuai, maka pengguna dapat mengakses menu-menu yang ada pada sistem pendukung keputusan ini
+antarmuka hasil perancangan form login dapat dilihat pada gambar 6
+sebagai tampilan yang dapat diakses hanya oleh kepala sekolah
+antarmuka hasil perancangan halaman menu utama kepala sekolah dapat dilihat pada gambar 7 berikut
+gambar 7 tampailan antarmuka halaman menu utama kepala sekolah
+antarmuka halaman penilaian kepala dan subkriteria yang akan di pilih atau di nilai prioritasnya oleh kepala sekolah dan guru
+proses dapat di lihat pada gambar 9
+sp k meto d e a h p reko m e n d a s i guru alternatif keputusan kepala sekolah
+adalah hasil dari penilaian alternatif keputusan yang telah di inputkan sebelumnya oleh kepala sekolah dan guru
+proses dapat di lihat pada gambar 10
+subkriteria yang paling prioritas pada kepada kepala sekolah dari hasil proses perhitungan ahp
+proses dapat di lihat pada gambar 11
+gambar 11 tampailan antarmuka halaman alternatif keputusan kepala sekolah
+proses dapat di lihat pada gambar 12
+gambar 12 tampilan antarmuka halaman pembagian biaya kepala sekolah
+menu yang dilakukan oleh kepsek untuk menentukan priode pengelolaan dana bos yang
+hasil perancangan dan pengujian menunjukan bahwa aplikasi ini dapat digunakan untuk memberikan prioritas penggunaan anggaran dana bos guru
+aplikasi dapat memberikan alternatif keputusan untuk pengelolaan dana bos yang ada disekolah dengan metode ahp
+berdasarkan hasil kuesioner dan diukur dengan skala likert’s summated rating nilai yang didapat adalah 654 dari nilai maksimum 880, dapat disimpulkan bahwa perangkat lunak yang dirancang dinilai cukup berhasil
+bahan pertimbangan dan masukan untuk pengembangan selanjutnya adalah sebagai berikut : 1
+aplikasi saat ini hanya bersifat stand alone, namun jika dapat menggunakan client server, aplikasi akan lebih optimal 2
+pengembangan selanjutnya yang dapat dilakukan adalah dengan memberikan fitur untuk menambah subkriteria sehingga aturan yang berlaku jika terdapat perubahan dikemudian hari
+sistem pendukung keputusan kelayakan berbasis pontianak)
+pontianak : fakultas teknik keputusan bagi para pemimpin
+decision support systems and inteligent systems 

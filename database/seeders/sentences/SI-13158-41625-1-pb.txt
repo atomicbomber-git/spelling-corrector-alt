@@ -1,0 +1,86 @@
+penilaian tumbuh kembang perlu dilakukan untuk menentukan apakah tumbuh kembang seorang anak berjalan normal atau tidak dilihat dari segi medis maupun statistik
+kms merupakan media pencatatan kurva pertumbuhan normal anak berdasarkan indeks antropometri berat badan menurut umur yang dibedakan berdasarkan jenis kelamin
+selain kurva pertumbuhan anak, kms juga berisi catatan pelayanan kesehatan anak
+dengan kms gangguan pertumbuhan atau risiko kelainan tumbuh kembang dapat diketahui lebih dini
+sistem informasi kms ini dibangun untuk memberikan informasi mengenai pemeriksaan kms agar dapat digunakan sebagai media pemantauan pertumbuhan anak
+sistem informasi ini dibuat berbasis web menggunakan bahasa pemograman php dan basis data mysql
+dari hasil pengujian blackbox menyatakan bahwa sistem informasi sudah berfungsi dengan baik
+sedangkan dari hasil kuesioner menggunakan skala likert didapatkan skor dengan total 361 dari skor maksimal yang berjumlah 450, yang berarti sistem informasi ini sangat positif dan berhasil
+pendahuluan dimulai sejak dalam kandungan sampai dewasa
+banyak faktor yang mempengaruhi tumbuh kembang anak, selain faktor genetik juga faktor lingkungan
+lingkungan yang menunjang akan mengoptimalkan potensi yang dipunyai seorang anak
+menurut dr soetjiningsih, spak, pemantauan tumbuh kembang anak dilakukan secara rutin, antara lain dengan kms untuk memantau pertumbuhannya
+kms merupakan media pencatatan perkembangan melalui kurva pertumbuhan normal anak berdasarkan indeks antropometri berat badan menurut umur yang dibedakan berdasarkan jenis kelamin
+dengan kms gangguan pertumbuhan atau risiko kelainan tumbuh kembang dapat diketahui lebih dini, sehingga dapat dilakukan tindakan pencegahan secara lebih cepat dan tepat sebelum masalahnya lebih berat
+fungsi dari kms, yaitu sebagai alat untuk memantau pertumbuhan anak dan sebagai catatan pelayanan kesehatan anak
+hal ini membuat kms wajib dibawa orang tua setiap kali berkunjung ke fasilitas pelayanan kesehatan
+uptd puskesmas kecamatan pontianak barat merupakan unit pelaksana teknis dinas kesehatan kabupaten/kota menunjang operasional dinas kesehatan dalam bidang pelayanan kesehatan masyarakat, salah satu pelayanan yang ada yaitu pelayanan pemeriksaan kms
+pada uptd puskesmas kecamatan pontianak barat segala jenis pelayanan yang terkait dengan kms akan didata dan dicatat dalam suatu buku besar yang biasa disebut buku kunjungan registrasi kohort ibu dan anak, pencatatan pun dilakukan secara manual informasi mengenai kondisi anak pada buku registrasi kohort anak tidaklah selengkap informasi yang terdapat pada kms, selain itu di dalam buku registrasi kohort tidak ada grafik antropometri berat badan yang digunakan untuk memantau pertumbuhan anak
+sering terjadi ketidakcocokan informasi yang terdapat pada buku registrasi kohort anak dengan kms karena kesalahan pencatatan serta kesulitan untuk mencari data pemeriksaan yang tercatat pada buku registrasi kunjungan
+dalam merekap banyaknya kunjungan dari pemeriksaan kms petugas juga mengalami kesulitan, petugas harus mendata ulang setiap pemeriksaan yang dicatat pada buku registrasi
+berdasarkan latar belakang masalah yang dihadapi, maka diperlukan sebuah sistem informasi yang digunakan untuk mengelolah data pemeriksaan kms agar dapat digunakan dalam proses pemantauan pertumbuhan anak dan dapat memudahkan pencatatan pelayanan kms
+gambaran umum institusi uptd puskesmas kecamatan pontianak barat yang semula puskesmas perumnas 1 dibangun tahun 1989, merupakan pelaksana teknis daerah, yang dalam hal ini adalah pemberi pelayanan kesehatan yang ada di wilayah kerja kecamatan pontianak barat kelurahan sungai jawi luar
+uptd puskesmas kecamatan pontianak barat terletak di jalan m.yusuf no 2 pontianak barat
+kms kms di indonesia telah digunakan sejak tahun 1970-an, sebagai sarana utama kegiatan pemantauan pertumbuhan
+pemantauan pertumbuhan adalah serangkaian kegiatan yang terdiri dari penilaian pertumbuhan anak secara teratur melalui penimbangan berat badan setiap bulan, pengisian kms, menentukan status pertumbuhan berdasarkan hasil penimbangan berat badan dan menindaklanjuti setiap kasus gangguan pertumbuhan
+tindak lanjut hasil pemantauan pertumbuhan biasanya berupa konseling, pemberian makanan tambahan, pemberian suplementasi gizi dan rujukan
+studi kasus : uptd puskesmas kecamatan pontianak barat
+sistem informasi kms maulidia1, rudy dwi nyoto2, anggi srimurdianti sukamto3
+) sebagai alat untuk memantau pertumbuhan anak
+pada kms dicantumkan grafik pertumbuhan normal anak, yang dapat digunakan untuk menentukan apakah seorang anak tumbuh normal, atau mengalami gangguan pertumbuhan
+bila grafik berat badan anak mengikuti grafik pertumbuhan pada kms, artinya anak tumbuh normal, kecil risiko anak untuk mengalami gangguan pertumbuhan
+sebaliknya bila grafik berat badan tidak sesuai dengan grafik pertumbuhan, anak kemungkinan berisiko mengalami gangguan pertumbuhan
+di dalam kms dicatat riwayat kesehatan kehamilan, riwayat persalinan, pemeriksaan nifas, pelayanan kesehatan dasar anak terutama berat badan anak, pemeriksaan neonatus, pemberian kapsul vitamin a, pemberian asi pada bayi 0-6 bulan dan imunisasi
+di dalam kms dicantumkan pesan-pesan dasar perawatan
+sistem informasi sutarman, menejelaskan sistem informasi mengumpulkan, memproses, menyimpan, menganalisis dan menyebarkan informasi untuk tujuan tertentu
+turban, mclean dan wetherbe, bahwa sistem informasi terkait dengan kemampuan yang dapat dilakukannya yaitu melaksanakan komputasi numerik, menyimpan informasi dalam jumlah yang sangat besar, meningkatkan efesiensi dan efektifitas orang- orang yang bekerja dalam kelompok dalam suatu tempat, mengotomatiskan proses- proses bisnis yang semi-otomatis dan tugas-tugas yang dikerjakan secara manual
+php php merupakan singkatan berulang dari hypertext preprocessor, yang sebelumnya bernama personal home page
+fungsi yang paling populer dari php adalah kemampuannya sebagai server side programming/scripting language dalam pembuatan website, atau aplikasi yang berbasis website server-side programming/scripting
+pengunaan php memungkinkan web dapat dibuat dinamis sehingga maintenance situs web tersebur menjadi lebih mudah dan efisien
+php merupakan software open source yang disebarkan dan dilisensikan secara gratis serta dapat di-download secara bebas dari situs resminya 
+perancangan dan implementasi desain sistem, implementasi, pengujian, analisis hasil pengujian, dan terakhir proses penarikan kesimpulan implementasi sistem proses implementasi ini berupa pengkodingan dan hasil jadi interface aplikasi, dilanjutkan dengan proses pengujian saat pengujian sistem sesuai dengan kebutuhan maka hasil pengujian akan dianalisis dan dilakukan penarikan kesimpulan dari hasil penelitian jika tidak maka akan kembali lagi ke proses analisis dan desain sistem
+seperti di gambarkan pada diagram alir pada gambar 1
+desain arsitektur sistem sistem yang digambarkan melalui model-model yang saling berhubungan
+gambar 2 berikut adalah desain arsitektur sistem dari sistem informasi yang akan dibangun
+diagram konteks sistem gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+gambar 3 berikut menunjukkan diagram konteks dari sistem yang dibuat
+anak dan status gizi berat badan menurut umur laporan data pelayanan kms gambar 3
+antarmuka aplikasi antarmuka merupakan hasil tampilan dari perancangan sistem yang telah dibuat
+halaman saat pertama memulai aplikasi ini merupakan halaman untuk pengguna umum, terlampir pada gambar 5
+pengguna aplikasi ini dibagi atas tiga hak akses, yaitu admin, petugas kesehatan dan kepala puskesmas
+antarmuka untuk halaman admin terlampir pada gambar 6
+gambar 6 antarmuka halaman admin antarmuka untuk halaman petugas terlampir pada gambar 7
+gambar 7 antarmuka halaman petugas untuk memulai pemeriksaan kms petugas harus memilih data ibu yang mana yang akan periksa kms
+berikut tampilan pemeriksaan kms terlampir pada gambar 8
+antarmuka halaman periksa kms salah satu pemeriksaan kms yaitu penimbangan rutin anak setiap bulan
+berikut halaman antarmuka penambahan data penimbangan anak terlampir pada gambar 9
+antarmuka penambahan data penimbangan anak setelah memasukkan data penimbangan anak, akan ditampilkan grafik antropometri berat badan untuk memvisualkan grafik pertumbuhan anak dan perhitungan status gizi
+berikut grafik antropometri berat badan dan status gizi terlampir pada gambar 10
+pengujian blackbox dengan maksud menemukan kesalahan serta memeriksa apakah sistem dapat berjalan dengan baik sesuai dengan yang direncanakan
+pada jurnal ini pengujian blackbox yang dilampirkan hanya pada proses login dan tambah data penimbangan
+berikut adalah tabel pengujian black-box pada proses login terlampir pada tabel 1 dan untuk proses tambah data penimbangan pada tabel 2
+tabel 1 pengujian blackbox proses login c
+pengujian kuesioner pembagian kuesioner keterangan : total skor setiap responden dihitungberdasarkan pernjumlahan skor dari pertanyaan ke-1 sampaidengan pertanyaan ke-15
+pilihan responden terhadap aspek rekayasa perangkat lunak sesuai dengan kriteria masing-masing ditunjukkan pada tabel 4
+keterangan : 1 = sangat buruk, 2 = buruk, 3 = cukup baik, 4= baik dan 5 = sangat baik tabel 4 hasil kuesioner aspek rekayasa perangkat lunak 2
+pilihan responden terhadap aspek fungsionalitas sesuai dengan kriteria masing-masing ditunjukkan pada tabel 5
+keterangan : 1 = sangat buruk, 2 = buruk, 3 = cukup baik, 4= baik dan 5 = sangat baik tabel 5 3
+aspek komunikasi visual pilihan responden terhadap aspek komunikasi visual sesuai dengan kriteria masing- masing ditunjukkan pada tabel 6
+pilihan responden terhadap aspek kualitas informasi sesuai dengan kriteria masing- masing ditunjukkan pada tabel 7
+keterangan : 1 = sangat buruk, 2 = buruk, 3 = cukup baik, 4= baik dan 5 = sangat baik d
+likert’s summated rating likert’s summated rating adalah skala atau pengukuran sikap responden
+lsr sangat bermanfaat untuk membandingkan skor sikap seseorang dengan distribusi skala dari sekelompok orang lainnya 
+hasil penelitian untuk melihat skor terbesar dan terkecil dari satu orang responden dan total semua responden terlihat pada tabel 3
+data yang diperoleh dari hasil pengujian dengan kuesioner kemudian diukur dengan metode lsr 1
+jumlah skor untuk setiap responden:  skor maksimal = 75  skor minimal = 15  skor median = 45  skor kuartil i = 30  skor kuartil iii = 60 2
+jumlah skor untuk seluruh responden:  maksimal = 450  minimal = 90  median = 270  kuartil i = 180  kuartil iii = 360 3
+interpretasi jumlah skor tersebut adalah:  360 < skor < 450, artinya sangat positif  270 < skor < 360, artinya positif  180 < skor <270, artinya negatif  90 < skor < 180, artinya sangat negatif hasil penelitian pada interpretasi lsr terlampir pada gambar 12
+analisis hasil pengujian dari serangkaian pengujian yang dilakukan, berikut analisis hasil pengujiannya : 1
+berdasarkan hasil pengujian black box dapat diketahui bahwa dalam menambah data pada form semua kolom pengisian harus disi jika ada yang kosong maka proses penambahan tidak bisa dilakukan
+aspek rekayasa perangkat lunak berdasarkan hasil kuesioner pada bagian aspek rekayasa perangkat lunak, persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek rekayasa perangkat lunak yaitu 75%
+fungsionalitas, persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek fungsionalitas yaitu 46.67%
+aspek komunikasi visual berdasarkan hasil kuesioner pada bagian aspek komunikasi visual, persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek komunikasi visual yaitu 50%
+aspek kualitas informasi berdasarkan hasil kuesioner pada bagian aspek kualitas informasi, persentase tanggapan baik merupakan persentase tanggapan terbesar dalam hasil kuesioner pada bagian aspek komunikasi visual yaitu 46.67%
+berdasarkan hasil pengujian blackbox menyatakan bahwa sistem informasi sudah berfungsi dengan baik
+aspek rekayasa perangkat lunak, fungsionalitas, komunikasi visual dan kualitas informasi pada aplikasi ini dianggap baik oleh user
+aplikasi sistem informasi yang dibuat dinilai sangat positif dan berhasil dalam memberikan informasi pemeriksaan kms sehingga sistem informasi dapat digunakan sebagai media pemantauan pertumbuhan anak

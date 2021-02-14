@@ -1,0 +1,31 @@
+diabetes mellitus merupakan penyakit menahun yang akan diderita seumur hidup dan memberikan dampak yang besar terhadap kualitas hidup manusia serta memerlukan biaya pengobatan yang cukup besar
+diabetes mellitus dapat memicu berbagai komplikasi penyakit berbahaya serta memerlukan pengobatan jangka panjang
+akan tetapi, banyak masyarakat yang belum memiliki kesadaran yang tinggi akan bahaya penyakit ini dan juga tidak mempunyai pengetahuan dasar mengenai penyakit ini serta mengalami keterbatasan waktu sehingga jarang melakukan konsultasi kepada dokter
+oleh karena itu, diperlukan sebuah sistem pakar yang dapat menggantikan peran seorang dokter dan memberikan edukasi pengetahuan-pengetahuan umum mengenai diabetes mellitus kepada masyarakat
+tujuan dari penelitian ini adalah merancang dan membangun sebuah sistem pakar yang dapat mendeteksi kemungkinan menderita diabetes mellitus tipe 2 berdasarkan gejala-gejala yang telah dimasukkan serta memberikan rekomendasi berupa informasi dan solusi terhadap penyakit tersebut
+salah satu metode yang dapat digunakan dalam perhitungan probabilitasnya adalah metode bayesian
+metode ini merupakan sebuah pendekatan untuk sebuah ketidaktentuan yang diukur dengan probabilitas
+berdasarkan hasil analisa, sistem ini dapat menangani proses konsultasi pengguna dengan tingkat akurasi yang cukup tinggi
+pendahuluan 2010, diabetes mellitus merupakan suatu kelompok penyakit metabolik dengan karakteristik hiperglikemia yang terjadi karena kelainan sekresi insulin, kerja insulin, atau keduanya
+diabetes yang timbul akibat kekurangan insulin disebut dm tipe 1 atau insulin dependent diabetes mellitus 
+diabetes yang disebabkan karena insulin tidak berfungsi dengan baik disebut dm tipe 2 atau non-insulin dependent diabetes mellitus 
+indonesia kini menempati urutan keempat terbesar dalam jumlah penderita diabetes
+menurut wahdah 2011, pada tahun 2006 jumlah penderita dm di indonesia mencapai 14 juta orang
+dari jumlah itu, baru 50% penderita yang sadar mengidap dan sekitar 30% di antaranya melakukan pengobatan secara teratur
+dm akan memberikan dampak terhadap kualitas sumber daya manusia dan peningkatan biaya kesehatan yang cukup besar
+akan tetapi, tingkat kesadaran masyarakat akan dampak buruk yang ditimbulkan oleh dm masih rendah dan banyak masyarakat yang tidak menyadari dirinya sedang berada dalam resiko diabetes mellitus
+salah satu penyebabnya adalah kurangnya pengetahuan tentang diabetes mellitus dan juga keterbatasan waktu maupun biaya untuk konsultasi ke dokter
+oleh karena itu, perlu adanya sebuah media edukasi kepada pasien dan keluarganya yang bertujuan untuk memberikan pemahaman mengenai gejala, pencegahan, dan informasi umum seputar dm
+kemajuan teknologi yang sangat pesat, hasil dari pemikiran dan pelatihan pakar dapat diadopsi dengan menggunakan teknologi kecerdasan buatan, khususnya sistem pakar
+komputer dapat bertindak sebagai konsultan yang cerdas dalam lingkungan keahlian tertentu sebagai hasil dari himpunan pengetahuan dari beberapa orang pakar
+dengan adanya sistem pakar, proses konsultasi akan menjadi lebih mudah, efektif dan efisien
+metode yang digunakan dalam kasus ini adalah metode bayesian
+metode ini merupakan sebuah pendekatan untuk sebuah ketidaktentuan yang diukur dengan probabilitas
+pendekatan bayes pada saat klasifikasi adalah mencari probabilitas tertinggi dengan masukan atribut-atribut yang diperlukan serta kemungkinan dari penyakit dan gejala-gejala yang berkaitan
+diabetes mellitus menggunakan metode bayesian berbasis web yang dapat menampilkan angka persentase kemungkinan mengidap dm saja, tetapi juga rekomendasi lanjutan berupa pola-pola makanan dan latihan jasmani yang dianjurkan
+sistem pakar cerdas yang menggunakan knowledge dan prosedur inferensi untuk menyelesaikan masalah yang cukup sulit sehingga membutuhkan seorang yang ahli untuk menyelesaikannya
+lingkungan pengembangan dan lingkungan konsultasi 
+lingkungan pengembangan sistem pakar digunakan untuk memasukkan sistem pakar deteksi diabetes mellitus menggunakan metode bayesian berbasis web vonny pawaka e-mail: vonnypwk@gmail.com sedangkan lingkungan konsultasi digunakan oleh pengguna yang bukan pakar guna memperoleh pengetahuan pakar
+adapun komponen-komponen sistem pakar dalam kedua bagian tersebut dapat dilihat pada gambar berikut
+komponen-komponen yang terdapat di dalam sistem pakar antara lain antarmuka pengguna, basis pengetahuan, akuisisi pengetahuan, mesin inferensi, workplace, fasilitas penjelasan dan perbaikan pengetahuan
+menghitung trade off di antara keputusan yang berbeda-beda, dengan menggunakan probabilitas dan nilai yang menyertai suatu pengambilan keputusan tersebut 

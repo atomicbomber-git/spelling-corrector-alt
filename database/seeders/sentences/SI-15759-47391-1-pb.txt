@@ -1,0 +1,75 @@
+seiring perkembangan teknologi informasi data dapat diolah secara komputerisasi, sehingga dapat membantu memperlancar pekerjaan
+dinas pekerjaan umum kota pontianak selaku instansi teknis di lingkungan pemerintah kota pontianak yang memiliki tugas dan fungsi berkaitan dengan pekerjaan konstruksi, salah satu program kegiatan pemeliharaan rutin jalan kota yang bertujuan untuk memperbaiki jalan rusak atau berlubang tersebar diseluruh kota pontianak
+dalam hal pemrosesan perbaikan dibutuhkan penyusunan rencana anggaran biaya perbaikan jalan tersebut, perhitungan dimulai dari analisa harga satuan pekerjaan yang dibuat dalam bentuk bill of quantity, kemudian masih harus dijabarkan menjadi satuan bahan material, satuan upah untuk masing-masing pekerjaan jalan
+pada saat ini proses tersebut masih menggunakan microsoft office excel, sehingga dalam proses penyusunan rencana anggaran biaya untuk satu ruas jalan memerlukan banyak file yang saling berhubungan dikarenakan data yang saling keterkaitan, hal ini dilakukan secara berulang-ulang untuk setiap ruas jalan lainnya, sehingga memerlukan waktu yang cukup lama
+untuk membantu pekerjaan tersebut maka dibangunlah suatu aplikasi dalam penyusunan rencana anggaran biaya dalam pengadaan material pemeliharaan jalan
+aplikasi yang dirancang terdiri dari dua interface, yaitu aplikasi desktop sebagai pengelolaan dan laporan data secara keseluruhan dan website sebagai sarana informasi laporan dan lokasi kegiatan
+pengujian sistem menggunakan metode blackbox dan kuesioner terhadap 16 orang responden dengan nilai 942 berada pada range positif, hasil pengujian menunjukan aplikasi penyusunan rencana anggaran biaya dapat berjalan dengan baik
+aplikasi rencana anggaran biaya yang dihasilkan dapat digunakan sebagai alat bantu penyusunan rencana anggaran biaya bahan, dimana data dan informasi disimpan dan diolah kedalam sebuah database
+pendahuluan komputer sebagai alat bantu penyelesaian pekerjaan di bidang teknologi informasi semakin berkembang di segala bidang
+komputer dirasa memiliki banyak keunggulan, alasannya komputer dapat diprogram sehingga dapat disesuaikan dengan keinginan penggunanya, salah satunya diterapkan pada aplikasi
+informasi dapat berlangsung secara cepat dan efisien serta akurat
+kemajuan aplikasi dapat dilihat dari banyaknya aplikasi yang dapat memudahkan penggunanya dalam membantu pekerjaannya
+salah satu model aplikasi yang sangat berperan penting adalah aplikasi pengolahan data
+dinas pekerjaan umum kota pontianak selaku instansi teknis di lingkungan pemerintah kota pontianakyang memiliki tugas dan fungsi berkaitan dengan pekerjaan konstruksi, salah satu program kegiatan pemeliharaan rutin jalan kota yang bertujuan untuk memperbaiki jalan rusak atau berlubang tersebar diseluruh kota pontianak
+dalam hal pemrosesan perbaikan dibutuhkan penyusunan rencana anggaran biaya perbaikan jalan tersebut, proses penyusunan rab dari mulai perhitungan analisa harga satuanpekerjaan yang dibuat dalam bentuk bill of quantity, kemudian masih harus dijabarkan menjadi satuan bahan material, satuan upah untuk masing-masing pekerjaan jalan
+pada saat ini proses tersebut masih menggunakan microsoft office excel, sehingga dalam proses penyusunan rab untuk satu ruas jalan memerlukan banyak file yang saling berhubungan dikarenakan data yang saling keterkaitan, hal ini dilakukan secara berulang-ulang untuk setiap ruas jalan lainnya, sehingga memerlukan waktu yang cukup lama
+berdasarkan latar belakang tersebut maka dibutuhkan suatu aplikasi sebagai alat bantu untuk proses penyusunan rab, dalam pelaksanaan kegiatan pelayanan pemeliharaan rutin jalan kota 
+yang diterbitkan oleh badan penelitian dan pengembangan tahun 2005, kegiatan pemeliharaan rutin ini dibedakan atas yang direncanakan secara rutin dan tidak direncanakan, tergantung pada kejadian kerusakan
+tujuan kegiatan tersebut merupakan perbaikan kerusakan jalan secara responsif berdasarkan kondisi kerusakan yang terjadi untuk mengantisipasi kerusakan ringan akibat pengaruh lalu lintas kendaraan dan kondisi lingkungan
+perancangan aplikasi rencana anggaran pemeliharaan jalan program studi informatika universitas tanjungpura1, 2, 3
+perhitungan rab merupakan hasil perkalian volume dengan harga satuan setiap jenis pekerjaan
+atau disebut juga “classic life cycle” atau “waterfall model”
+secara umum rumus perhitungan rab, sebagai berikut : 𝑹𝑨𝑩 = adalah metode pengembangan perangkat lunak dengan pendekatan sekuensial
+data flow diagram atau diagram arus data adalah merupakan alat yang biasa dipakai untuk mendokumentasikan proses dalam sistem
+diagram arus data konteks adalah diagaram arus data yang memperlihatkan sistem sebagai sebuah proses, tujuannya untuk memberikan pandangan umum sistem
+diagaram arus data konteks memperlihatkan sebuah proses yang berinteraksi dengan lingkungannya, ada pihak luar atau lingkungan yang memberi masukan dan ada pihak yang menerima keluaran sistem
+dekphi xe yang memberikan berbagai fasilitas pembuatan aplikasi visual embarcadero technology selaku pengembang produk compiler delphi semakin mengembangkan produknya yang dinamai delphi xe, yaitu sebuah versi rilis hampir semua produk yang dikeluarkan oleh embarcadero technology termasuk delphi xe, c++ builder xe, prism xe, rad phpxe dan seterusnya
+huruf berarti bermacam-macam, sedangkan simbol untuk embarcadero
+metodologi penelitian data penelitian yang digunakan ialah daftar kuantitas harga atau bill of quantity kegiatan pemeliharaan rutin jalan kota pada dinas pekerjaan umum kota pontianak
+bill of quantity tersebut berisi data satuan pekerjaan, data kuantitas, data volume pekerjaan dan data jumlah total harga pekerjaan
+langkah-langkah penelitian dalam perancangan aplikasi ini: gambar 2
+desain arsitektur sistem sistem yang digambarkan melalui model-model yang saling berhubungan
+gambar berikut adalah desain arsitektur sistem dari aplikasi rencana anggaran biaya 
+internet database 3 gambaran umum terhadap kegiatan yang berlangsung dalam sistem
+diagram konteks dari sistem dapat dilihat pada gambar 4
+biaya estimator data satuan pekerjaan, data harga satuan dasar, data bill of quantity, data volume pekerjaan, data koordinat lokasi harga satuan pekerjaan, hsd, boq pekerjaan, rab, laporan, peta lokasi pekerjaan
+private user pilih laporan urutan proses dari diagram konteks
+pada diagram overview, proses/tahapan dibagi menjadi lima proses yang dapat dilihat pada gambar 5
+data satuan pekerjaan 5.0 proses data koordinat data boq daftar harga satuan pekerjaan, harga satuan dasar data hasil boq, data rab 1.0 proses login login antarmuka dan fitur-fitur apa saja yang akan berinteraksi dengan user, berikut menu aplikasi desktop dan website
+menu home master data login laporan g
+kegiatan pemeliharaan rutin jalan kota logo pada bab ini akan dilakukan implementasi dan hasil pengujian terhadap aplikasi
+tahapan ini dilakukan setelah perancangan sistem selesai dan selanjutnya akan 4 aplikasi
+implementasi dan hasil pengujian yang dilakukan untuk mengetahui aplikasi tersebut dapat berjalan sesuai dengan tujuannya atau tidak
+untuk pengadaan material pemeliharaan jalan, pada aplikasi desktop dapat dilihat pada gambar berikut: gambar 9
+antarmuka halaman mater data harga satuan dasar
+implementasi aplikasi rencana anggaran biaya untuk pengadaan material pemeliharaan jalan, pada website dapat dilihat pada gambar berikut: gambar 10
+halaman rincian satuan pekerjaan dan satuan dasar gambar 11
+pengujian black box laku, memusat pada kebutuhan fungsional perangkat lunak
+pengujian kinerja program dilakukan agar program berjalan seperti yang diharapkan, metode pengujian yang digunakan untuk menguji aplikasi rab ini adalah metode pengujian black box, menggunakan beberapa tabel yang berisi data login, data bahan, data alat, data upah dan data satuan pekerjaan
+hasil yang menggambarkan pengujian tersebut dapat dilihat pada table 1
+pengujian aplikasi rab menggunakan black box no proses skenario kesimpulan pengujian beta merupakan pengujian yang dilakukan secara objektif dimana program aplikasi diuji secara langsung ke pengguna yang bersangkutan
+pengujian dilakukan dengan menyebarkan kuisioner kepada 16 orang responden dan responden dalam pengujian ini adalah pejabat dan staf yang terkait dalam kegiatan pemeliharaan jalan kota pada instansi dinas pekerjaan umum kota pontianak
+dengan mengajikan beberapa pertanyaan sesuai dengan aspeknya
+tanggapan responden terhadap setiap aspek sesuai dengan kriteria masing-masing ditunjukkan pada tabel 2
+bagaimana tingkat kesulitan dalam mengakses fitur-fitur aplikasi ini ? 0 0 0 7 9 16 4
+aspek fungsional dan private user dalam kegiatan rencana anggaran biaya untuk pengadaan material pemeliharan jalan ? 6
+apakah aplikasi ini menyediakan informasi yang detail ? 0 0 1 10 5 16 8
+apakah informasi yang ditampilkan mudah dipahami ? 0 0 0 5 11 16 9
+bagaimana tingkat kemudahan dalam pengelolaan data aplikasi ini ? 0 0 0 4 12 16 c
+bagaimana tampilan menu pada aplikasi ini ? 0 0 1 11 4 16 12
+apakah jenis dan ukuran huruf yang digunakan mudah dibaca ? 0 0 0 8 8 16 13
+bagaimana kombinasi warna dalam tampilan aplikasi ini ? 0 0 1 15 0 16 jumlah 0 0 8 82 118 208 no keterangan pilihan 2 =kurang, 1 = sangat kurang pada tabel 2 tersebut dapat diketahui informasi antara lain: 1
+pilihan yang dipilih responden berjumlah 118 jawaban dan memiliki persentase x 100% = 56, 73 % 3
+pilihan yang dipilih responden berjumlah 82 jawaban dan memiliki persentase x 100% = 39, 43 % 4
+pilihan yang dipilih responden berjumlah 8 dan memiliki persentase x100% = 3, 84% 5
+pilihan yang dipilih responden sejumlah 0 jawaban dan memiliki persentasi x 100% = 0% 6
+pilihan yang dipilih responden sejumlah 0 jawaban dan memiliki persentasi x 100% = 0% hasil penelitian untuk melihat skor terbesar dan terkecil dari satu orang responden dan total semua responden terlihat pada tabel 3
+metode lsr digunakan untuk mengukur sikap, pendapat dan persepsi seseorang atau sekelompok orang tentang fenomena sosial 
+832 < skor < = 1040, artinya sangat positif - 624 < skor < = 832, artinya positif - 416 < skor < = 624, artinya negatif - 208 < skor < = 416, artinya sangat negatif hasil penelitian dengan skor 942 yang berada pada range sangat positif, sehingga aplikasi dinyatakan berhasil v
+kesimpulan dan saran analisis hasil penelitian terhadap aplikasi rencana anggaran biaya untuk pengadaan material pemeliharaan jalan, dapat menghasilkan : 1 menghasilkan aplikasi rab untuk penjabaran boq ke dalam harga satuan dasar dari masing-masing kegiatan pekerjaan
+6 2 menghasilkan aplikasi rab dalam bentuk aplikasi desktop sebagai tempat pengelolaan data oleh estimator dan website untuk menampilkan informasi laporan yang dapat diakses oleh privat user
+3 dari hasil pengujian kuesioner, aplikasi rab dapat membantu proses penyusunan rab, dimana data dan informasi disimpan pada database
+aplikasi rencana anggaran biaya yang sudah dibuat ini bisa juga digunakan / diterapkan pada aplikasi kegiatan lainnya seperti penyusunan rab bangunan
+agar pada aplikasi ini dapat dikembangkan laporan fisik hasil pekerjaan setiap tahunnya, agar didapatkan data fisik jalan seperti panjang jalan, lebar jalan dan konstruksi yang digunakan
+dapat dikembangkan pada aplikasi laporan bobot hasil pekerjaan fisik di lapangan sebagai dasar terhadap persentase pencairan keuangan pembayaran kepada pihak pelaksana pekerjaan

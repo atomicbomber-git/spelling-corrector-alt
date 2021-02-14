@@ -1,0 +1,82 @@
+ubmitted 13-12-2019; revised 28-01-2020; accepted 29-01-2020 128 rancang bangun game iq test preparation dengan mengimplementasikan metode fsm muhammad maheswara raditya #1, fauziah #2, ratih titi komalasari #3 #fakultas teknologi komunikasi dan informatika, universitas nasional jl
+sawo manila, pasar minggu jakarta 12520 indonesia 1raditya1026@gmail.com 2fauziah@civitas.unas.ac.id 3ratih.titi@unas.civitas.ac.id sebagai medianya, namun sebenarnya hal tersebut dinilai kurang efisien sebab perkembangan teknologi dapat digunakan untuk meminimalisir penggunaan kertas
+metode finite state machine sesuai dalam penerapan alur sistem dan construct 2 merupakan tools yang sesuai dalam merancang game quiz
+penelitian ini menggunakan metode fsm sebagai metodologi perancangan sistem kontrol yang menggambarkan tingkah laku atau prinsip kerja sistem dengan menggunakan state, event dan action 
+dalam state machine sistem menempati satu state dan construct 2 sebagai tools perancangan aplikasi
+diagram implementasi metode fsm pada penelitian ini dimulai dari q0 hingga qn, adalah state awal dari dimulainya game tes iq ini
+pengujian dilakukan pada 8 tipe android yang dimulai dari versi android 4.0 ice cream sandwich hingga android versi 9.0 pie
+perhitungan pada aplikasi juga telah dibandingkan dengan perhitungan secara manual untuk mengetahui seberapa besar tingkat akurasi yang didapatkan
+hasil dari pengujian yang dilakukan sebanyak 70 kali terhadap 3 range usia didapatkan margin error sebesar 0, 45%, maka didapat tingkat akurasi sebesar 99, 55%
+pendahuluan medianya, namun sebenarnya hal tersebut dinilai kurang efisien sebab perkembangan teknologi dapat digunakan untuk meminimalisir penggunaan kertas
+maka pembuatan aplikasi tes iq akan lebih efisien tidak hanya untuk lingkungan tetapi juga untuk user karena dapat memudahkan user karena aplikasi ini bersifat mobile
+pada penelitian yang dilakukan oleh nyimas sopiah dan usman ependi menghasilkan aplikasi tes iq berbasis android yang disertakan dengan hasil test
+penelitian yang dilakukan oleh rahmat tullah menghasilkan aplikasi tes iq berbasis web dengan rincian perhitungan soal
+penelitian yang dilakukan oleh affis masturina nisa dan hafidz kurniansyah menerapkan finite state machine dalam perancangan game berbasis desktop dan menghasilkan game yang telah sesuai dengan state yang dirancang
+terdapat dua metode yang bisa digunakan, yaitu metode fsm dan forward chaining
+konsep fsm apabila diberikan suatu input maka state akan berpindah ke state selanjutnya hingga state akhir, konsep fsm sesuai dengan game seperti kuis
+konsep forward chaining serupa dengan fsm, namun perpindahan state dilakukan berdasarkan bagaimana input state sebelumnya dipilih, konsep forward chaining sesuai dengan konsep game seperti interaktif game
+penelitian sebelumnya dapat digabungkan menjadi penelitian yang peneliti telah lakukan, maka peneliti melakukan pembaharuan dari penelitian terdahulu dengan menggunakan metode finite state machine diimplementasikan pada perancangan game iq test preparation dengan menggunakan construct 2
+dilihat dari penelitian terdahulu maka metode finite state machine merupakan metode yang sesuai dengan aplikasi yang dibangun pada penelitian ini, penelitian ini dibuat bertujuan untuk membatasi penggunaan kertas dan memanfaatkan teknologi yang ada, selain itu dengan adanya aplikasi ini dapat memudahkan user karena aplikasi ini bersifat mobile
+waterfall model yang digambarkan pada gambar 1
+1 waterfall model 1) requirement pada tahap ini, dibutuhkan spesifikasi perangkat yang digunakan untuk merancang dan menguji aplikasi
+2) design pada tahap ini akan mendesain aplikasi yang dirancang sebelum nantinya dilakukan tahapan implementasi dengan pemrograman
+disesuaikan desain dengan pemrograman untuk menyesuaikan dengan desain yang telah dirancang
+4) verification tahap verifikasi diperlukan untuk melakukan pengujian pada aplikasi yang telah dirancang, dari hasil verifikasi menyatakan keberhasilan atau terdapat kesalahan
+aplikasi jika terjadi error dikemudian hari atau ada penambahan fitur
+perancangan sistem kontrol yang menggambarkan tingkah laku atau prinsip kerja sistem dengan menggunakan state, event dan action 
+dalam state machine sistem menempati satu state 
+sistem akan beralih atau bertransisi menuju ke state lain jika mendapatkan masukan event tertentu
+sistem akan tetap melakukan aksi yang sama pada suatu state sampai sistem menerima event tertentu baik yang berasal dari perangkat luar atau komponen dari sistem itu sendiri
+setiap state terhubung oleh transisi dan setiap transisinya mengarah ke satu state lainnya
+transisi keadaan ini umumnya juga disertai oleh aksi yang dilakukan oleh sistem ketika menanggapi masukan yang terjadi
+aksi yang dilakukan tersebut dapat berupa aksi sederhana yang melibatkan rangkaian proses yang relatif rumit
+2 finite state machine diagram pada gambar 2 menunjukan alur dari fsm, dimulai dari state awal, apabila diberikan input nilai 0 maka akan kembali ke state tersebut, dan apabila diberikan input nilai 1, maka akan lanjut ke state berikutnya hingga mencapai state akhir, dan pada state akhir dapat kembali ke state – state berikutnya yang sudah dilewati
+maka aplikasi ini akan dibuat dengan mengimplementasikan konsep dari fsm yang mana pada setiap perpindahan soal akan berpindah pada state selanjutnya lalu tahap akhir atau state penerima akan menampilkan hasil score dari tes iq yang telah dikerjakan
+game dibuat dengan rancangan flowchart yang dapat dilihat pada gambar 3
+fsm diimplementasikan pada proses saat perpindahan soal satu ke soal berikutnya, dari impelementasi tersebut, user tidak dapat kembali pada soal iq test yang telah dijawab, sehingga akan langsung diarahkan sesuai state yang telah dirancang, mendapatkan score iq, ditampilkan, aplikasi atau kembali ke home page
+4 diagram finite state machine pada tes iq pada gambar 4 merupakan diagram implementasi metode finite state machine pada penelitian ini
+dimulai dari q0, adalah state awal dari dimulainya game tes iq ini
+keterangan pada gambar dapat dilihat pada tabel 1
+tabel i b berikutnya t diam kemudian akan dilakukan penilaian dengan range score pada tes iq, yang dapat dilihat pada tabel 2 dibawah ini
+11 - 30 30 31 - 35 30 36 - 60 45 pada tabel 2 menerangkan perihal score penilaian pada tiap soal, dari soal nomor 1 – 10 merupkan jenis soal figural, nomor 11-30 merupakan jenis soal verbal, nomor 31-35 merupakan jenis soal numerikal, nomor 36-60 merupakan jenis soal perseptual jumlah keseluruhan dari total soal yang yang digunakan merupakan sample dari iq test yang sesungguhnya
+apabila dijawab benar semua, maka akan didapat total score sebesar 25 dan seterusnya hingga soal nomor 60
+dari penilaian tersebut akan dilakukan penggabungan total score, dengan rumus sebagai berikut : pada tabel 3
+score indeks < 70 gangguan kognitif 70 - 89 kecerdasan normal > 130 genius yang dirancang, dimulai dari score lebih kecil dari 70 yang artinya user memiliki gangguan kognitif, hingga score diatas 130 yang artinya user memiliki tingkat kecerdasan yang sangat tinggi atau jenius
+rumus perhitungan konversi dari score angka ke persentase untuk menentukan error
+sebagai pembanding validasi dari perhitungan otomatis
+ × 100 = hasil ÷ 180 = n dari hasil rumus dan dihitung menggunakan rumus dimana akan dihasilkan persentase error yang ada
+analisa kebutuhan sistem perangkat pendukung berupa perangkat keras maupun perangkat lunak, yang terdiri dari: 1
+kebutuhan hardware: komputer desktop intel® coretm i7-8700 3.20 ghz 64bit dengan ram 16gb dan amd x4 950 3.50ghz 64bit dengan ram 8gb
+figma, digunakan untuk membuat user interface dari aplikasi yang dibangun
+adobe phonegap, digunakan untuk mengubah hasil export html5 dari construct 2 ke apk
+construct 2, digunakan untuk membuat dan membangun game iq test preparation yang penulis teliti
+photoshop cc 2017, digunakan untuk mengedit soal bergambar pada tes iq
+penggunaan tools pada aplikasi yang peneliti bangun, dimulai dari ukuran layar hingga assets – assets yang digunakan dalam aplikasi
+pengaturan aplikasi untuk menyesuaikan alur aplikasi pada tes iq yang dibangun agar aplikasi berjalan sesuai logic dari fsm yang dirancang sebelumnya
+tampilan aplikasi mengurangi penggunaan kertas dan memaksimalkan penggunaan teknologi berbasis android
+tampilan yang dibangun dapat dilihat pada gambar berikut
+7 user interface menu utama gambar 7 merupakan tampilan menu utama pada saat game dimulai
+menu utama hanya menampilkan informasi mengenai tes iq dan button play untuk memulai quiz
+8 user interface petunjuk soal gambar 8 menampilkan layout penunjuk cara bermain dan dijelaskan kategori soal yang ada hingga waktu yang diberikan untuk mengisi soal – soal tes iq gambar
+9 user interface pilih usia gambar 9 merupakan halaman pilih usia, tampilan halaman ini akan terbuka setelah menekan tombol play pada gambar sebelumnya
+gambar 10 akan menampilkan soal – soal tes yang akan user kerjakan, terdiri dari 60 soal dan diberi waktu sebanyak 40 menit
+11 user interface hasil score gambar 11 akan menampilkan hasil score dari tes iq beserta indeks dari score yang didapat dari soal – soal yang sudah dikerjakan
+pengujian untuk mengetahui aplikasi yang dirancang telah responsive dan compatible
+indikator keberhasilan dalam pengujian berdasarkan versi android dan resolusi layar
+pengujian dilakukan pada 8 tipe android yang memiliki spesifikasi masing – masing yang berbeda dan pengujian juga dimulai dari versi android 4.0 ice cream sandwich hingga android versi 9.0 pie
+yang memiliki versi android 4 hingga 9: tabel iv 1
+resolusi layar 480 x 800 pixels berhasil dijalankan 2
+resolusi layar 720 x 1280 pixels berhasil dijalankan 2
+resolusi layar 540 x 960 pixels berhasil dijalankan 2
+resolusi layar 720 x 1280 pixels berhasil dijalankan 2
+resolusi layar 720 x 1280 pixels berhasil dijalankan 2
+resolusi layar 1080 x 1920 pixels berhasil dijalankan 2
+resolusi layar 1080 x 2160 pixels berhasil dijalankan 2
+resolusi layar 1080 x 2340 pixels berhasil dijalankan smartphone yang memiliki versi android berbeda - beda dimulai dari android 4.0 ice cream sandwich hingga yang terbaru versi android 9.0 pie, dan pula didapatkan hasil pengujian bahwa game iq test preparation dapat dijalankan dibeberapa smartphone yang memiliki ram yang berkapasitas mulai dari 512 mb hingga 4gb
+hasil perhitungan score aplikasi vs manual pada gambar 12 ditampilkan tabel charts dari hasil pengujian perhitungan hasil score tes iq yang dihitung secara manual dibandingkan dengan perhitungan melalui aplikasi
+dari usia 17-21 didapatkan error sebesar 0, 45%, dari usia 22-26 didapatkan error sebesar 0, 45%, di usia >27 didapatkan error sebesar 0, 45%, dari 3 range usia yang sudah ditentukan peneliti melakukan 70 kali pengujian kepada 3 range usia tersebut
+lalu didapatkan margin error sebesar 0, 45%, maka dari itu peneliti mendapatkan hasil tingkat keakurasian sebesar 99, 55%
+kesimpulan dapat diambil kesimpulan sebagai berikut: 1
+aplikasi game iq test preparation dapat digunakan untuk mengurangi penggunaan kertas dan dalam prosesnya user dapat mengerjakan dimanapun sebab lebih efisien karena dapat di install dalam android
+hasil dari pengujian didapatkan aplikasi ini dapat dijalankan di android yang memiliki spesifikasi minimal v.4.0.3 dan juga telah dilakukan perhitungan manual untuk membandingkan perhitungan melalui aplikasi dengan tingkat akurasi sebesar 99, 55%
+aplikasi dibangun dengan menggunakan metode fsm sebab memiliki konsep yang sesuai dengan aplikasi game yang dirancang

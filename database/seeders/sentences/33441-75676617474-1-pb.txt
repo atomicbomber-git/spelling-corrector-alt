@@ -1,0 +1,122 @@
+eee paper template in a4 vol 5 no 3 rekomendasi harga menggunakan logika fuzzy tsukamoto fritz raynold napitupulu#1, muhammad azhar irwansyah#2, heri priyanto#3 #universitas tanjungpura jl
+prof.hadari nawawi, pontianak, 78124, indonesia 1fritznapitupulu70@gmail.com 2irwansyah.azhar@untan.ac.id 3heripriyanto.stmt@gmail.com secara alamiah maupun melalui proses perpindahan penduduk menyebabkan peningkatan pada kebutuhan rumah tinggal kemajuan teknologi yang sekarang semakin pesat terutama smartphone dan internet mendukung adanya pemetaan digital yang dapat diimplementasikan pada sistem berbasis website
+oleh karena itu, maka dibutuhkan sebuah sistem informasi penjualan dan pembelian rumah di kota pontianak
+sistem ini dapat mempermudah masyarakat dalam mengetahui lokasi rumah serta informasi rumah tersebut dan memberikan rekomendasi dalam menetapkan harga jual dari sebuah rumah dengan menggunakan metode fuzzy tsukamoto
+perancangan sistem dimulai dengan melakukan pengumpulan data rumah
+perancangan sistem informasi berbasis website menggunakan metode unified modelling language 
+pada hasil pengujian black box semua aktivitas dapat berjalan lancar dan memiliki pesan kesalahan jika data yang di-input-kan kosong atau salah
+pengujian white box menunjukkan bahwa source code logika fuzzy tsukamoto sudah menjalankan seluruh keputusan logika dari sisi benar maupun salah dan hasil pengujian mean absolute percentage error berdasarkan data developer rumah menghasilkan tingkat persentase penyimpangan sebesar 21, 44% dan berdasarkan data bank menghasilkan tingkat persentase penyimpangan sebesar 5, 68%
+hasil tersebut menunjukkan bahwa tingkat rekomendasi harga jual rumah yang telah dilakukan pada 10 data rumah menggunakan metode fuzzy fsukamoto memiliki kinerja yang sangat baik
+pendahuluan cukup pesat dengan tingkat populasi yang cukup tinggi
+pertambahan penduduk yang terjadi baik secara alamiah maupun melalui proses perpindahan penduduk menyebabkan peningkatan pada kebutuhan rumah tinggal dalam pengertian yang luas, rumah tinggal bukan hanya sebuah bangunan 
+melainkan juga tempat kediaman yang memenuhi syarat-syarat kehidupan yang layak, dipandang dari berbagai segi kehidupan masyarakat
+kecenderungan masyarakat untuk membeli rumah tinggal baru atau yang sudah pernah dihuni orang lain semakin meningkat seiring dengan pertambahan jumlah penduduk
+kota pontianak tidak semuanya dapat diketahui oleh masyarakat karena kurangnya informasi penjualan rumah yang didapat masyarakat seperti penyebaran brosur, baleho, surat kabar dan iklan yang belum merata dan belum bisa memberikan informasi yang lebih rinci
+dalam menyebarkan informasi mengenai penjualan rumah seperti ini juga memiliki banyak kekurangan seperti biaya percetakan brosur dan biaya pajak yang mahal serta mempunyai jumlah dan masa berlaku yang terbatas
+terlebih lagi alamat properti belum tentu diketahui konsumen dengan jelas
+maka dari itu diperlukan metode promosi yang lebih efektif dan efisien dengan memanfaatkan kemajuan teknologi
+promosi merupakan salah satu variable dalam bauran pemasaran yang sangat penting dilaksanakan oleh perusahaan dalam memasarkan produk jasa
+kegiatan promosi bukan saja berfungsi sebagai alat komunikasi antara perusahaan dengan konsumen, melainkan juga sebagai alat untuk mempengaruhi konsumen dalam kegiatan pembelian atau penggunaan jasa sesuai dengan keinginan dan kebutuhannya
+web adalah suatu sistem yang berkaitan dengan dokumen digunakan sebagai media untuk menampilkan teks, gambar, multimedia, dan lainnya pada jaringan internet
+kemajuan teknologi korespondensi : fritz raynold napitupulu 309 juga dapat mempermudah masyarakat yang ingin menjual rumah untuk menetapkan harga jual dari suatu rumah
+karena tidak semua masyarakat menetapkan harga rumah sesuai dengan harga pasaran karena menetapkan harga jual sebuah rumah tidak hanya dari sisi materialnya saja
+sehingga menimbulkan persoalan tersendiri dalam menetapkan harga jual untuk sebuah rumah
+dalam hal ini untuk memberikan kemudahan kepada masyarakat yang ingin menjual rumahnya, masyarakat membutuhkan sebuah aplikasi untuk membantu menetapkan harga jual rumah tersebut agar relatif sesuai dan tidak berbeda jauh dengan harga seharusnya
+dalam menetapkan harga jual rumah dibutuhkan suatu metode dalam implementasi aplikasi yakni menggunakan logika fuzzy
+logika fuzzy menyediakan suatu cara untuk merubah pernyataan linguistik menjadi suatu numerik
+pada aplikasi ini menggunakan logika fuzzy metode tsukamoto
+metode tsukamoto merupakan perluasan dari penalaran monoton, pada metode tsukamoto, setiap konsekuen pada aturan yang berbentuk if-then harus direpresentasikan dengan suatu himpunan fuzzy dengan fungsi keanggotaannya yang monoton
+sebagai hasilnya, output hasil inferensi dari tiap-tiap aturan diberikan secara tegas berdasarkan α-predikat 
+hasil akhirnya diperoleh dengan menggunakan rata-rata terbobot
+jalan di kota pontianak akan mempersulit pembeli untuk menuju lokasi rumah yang dijual terutama masyarakat pendatang dan pada saat ini penjual rumah menetapkan harga jual rumah masih berdasarkan perhitungan manual yang terkadang menghasilkan harga rumah yang tidak sesuai dengan harga pasaran
+oleh karena itu, maka dibutuhkan sebuah sistem informasi jual beli rumah dengan fitur rekomendasi harga menggunakan logika fuzzy tsukamoto
+sistem ini dapat membantu masyarakat untuk mengetahui lokasi rumah yang dijual serta informasi rumah tersebut secara detail serta memberikan rekomendasi dalam menetapkan harga jual dari sebuah rumah berdasarkan kondisi bangunan, fasilitas rumah, fasilitas umum, luas tanah, luas bangunan, njop bumi dan njop bangunan dengan menggunakan metode fuzzy tsukamoto
+media dan non media untuk merangsang coba-coba dari konsumen, meningkatkan permintaan dari konsumen atau untuk memperbaiki kualitas produk
+promosi adalah fungsi pemasaran yang fokus untuk mengkomunikasikan program-program pemasaran secara persuasive kepada target pelanggan-calon pelanggan untuk mendorong terciptanya transaksi pertukaran antara perusahaan dan audience
+sama untuk melakukan suatu kegiatan atau menyelesaikan suatu sasaran tertentu
+informasi adalah data yang telah diolah menjadi sebuah bentuk yang berarti bagi penerimanya dan bermanfaat dalam pengambilan keputusan saat ini atau saat mendatang
+sistem informasi adalah suatu sistem didalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian yang mendukung fungsi operasi organisasi yang bersifat manajerial dengan kegiatan strategi dari suatu organisasi untuk dapat menyediakan kepada pihak luar tertentu dengan laporan-laporan yang diperlukan
+logika fuzzy memiliki nilai kekaburan atau kesamaran antara benar atau salah
+logika fuzzy memungkinkan nilai keanggotaannya antara 0 dan 1
+logika fuzzy adalah suatu cara yang tepat untuk memetakan suatu ruang input ke dalam suatu ruang output, mempunyai nilai kontinyu dan logika fuzzy dinyatakan dalam derajat dari suatu keanggotaan dan derajat dari kebenaran
+himpunan fuzzy dari teori himpunan klasik
+pada teori himpunan klasik, keberadaan elemen dari suatu himpunan a, hanya akan memiliki 2 kemungkinan keanggotaan, yaitu menjadi anggota a atau tidak menjadi anggota a
+suatu nilai yang menunjukan seberapa besar tingkat keanggotaan suatu elemen dalam suatu himpunan a, sering dikenal dengan nama nilai keanggotaan atau derajat keanggotaan, dinotasikan dengan µa 
+pada himpunan klasik hanya ada 2 nilai keanggotaan, yaitu µa =1 untuk x menjadi anggota a, dan µa =0 untuk x bukan anggota dari a
+berupa himpunan fuzzy yang diperoleh dari komposisi aturan-aturan fuzzy
+direpresentasikan menggunakan himpunan-himpunan menentukan nilai output crisp/hasil yang tegas dicari dengan cara mengubah input menjadi suatu bilangan pada domain himpunan fuzzy tersebut
+cara ini disebut dengan metode defuzzifikasi 
+komputasi yang didasarkan pada teori himpunan fuzzy, aturan fuzzy yang berbentuk if-then, dan penalaran fuzzy
+sistem inferensi fuzzy menerima input crisp
+input ini kemudian dikirim ke basis pengetahuan yang berisi n aturan fuzzy dalam bentuk if-then
+fire strength akan dicari pada setiap aturan
+apabila aturan lebih dari satu, maka akan dilakukan agregasi semua aturan
+salah satu metode fis yang dapat digunakan untuk pengambilan keputusan adalah metode tsukamoto
+dalam inferensinya, metode tsukamoto menggunakan tahapan sebagai berikut: variabel non-fuzzy menjadi variabel fuzzy 
+nilai masukan yang masih dalam bentuk variabel numerik, sebelum diolah harus diubah terlebih dahulu ke dalam variabel fuzzy
+melalui fungsi keanggotaan yang telah disusun maka dari nilai-nilai masukan tersebut menjadi informasi fuzzy yang berguna nantinya untuk proses pengolahan secara fuzzy pula
+pembentukan basis pengetahuan fuzzy 3
+mesin inferensi mesin inferensi menggunakan fungsi implikasi min untuk mendapatkan nilai α-predikat pada tiap rule (α1, α2, α3
+kemudian masing-masing nilai α- predikat ini digunakan untuk menghitung keluaran hasil inferensi secara tegas masing-masing rule (z1, z2, z3, …
+defuzzifikasi pada tahapan defuzzifikasi, defuzzifikasi menggunakan metode rata-rata 
+berikut ini merupakan persamaan dari metode rata-rata, dapat dilihat persamaan berikut: gambar 1
+arsitektur sistem melakukan manajemen data rumah, data member, data pribadi, data berita dan data faq, data-data tersebut diupload ke dalam database dan admin dapat melakukan perhitungan fuzzy tsukamoto untuk mendapatkan hasil rekomendasi harga jual rumah
+member dapat melakukan manajemen data pribadi, data rumah dan melakukan perhitungan fuzzy tsukamoto untuk mendapatkan hasil rekomendasi harga jual rumah dan melihat informasi terkait rumah yang dijual dengan mengakses website, kemudian website akan mengambil data di database
+user dapat melihat informasi terkait rumah yang dijual dengan mengakses website dan dapat memberikan komentar pada menu rumah dan berita
+google maps api menyediakan peta untuk diisi dengan data dari database
+data rumah akan dihitung oleh sistem fuzzy tsukamoto untuk mendapatkan rekomendasi harga
+hasil perhitungan dirancang maka perlu pemahaman sistem perhitungan dengan memberikan contoh perhitungan
+sebagai contoh, ada permasalahan menentukan harga jual rumah dengan nilai masing-masing kriteria sebagai berikut: 1
+hasil perancangan memberikan informasi data rumah yang di jual di kota pontianak dan merekomendasikan harga jual rumah berdasarkan kriteria dan bobot yang telah ditentukan sebagai penentu alternatif dalam mendukung rekomendasi
+berikut beberapa tampilan hasil perancangan sistem
+admin dapat mengelola data rumah, data berita, data pribadi admin, data member, data faq
+user dapat melihat data rumah, data berita, data faq dan lokasi rumah
+bertujuan untuk menemukan kesalahan-kesalahan atau kekurangan pada perangkat lunak yang diuji
+pengujian bermaksud untuk mengetahui perangkat lunak yang dibuat sudah memenuhi kriteria yang sesuai dengan tujuan perancangan perangkat lunak tersebut
+pada tabel 1, dapat dilihat bahwa pengujian black box pada system fuzzy tsukamoto, setiap fitur atau aktifitas berhasil dikerjakan dengan baik
+fitur mendapatkan harga rumah dengan memasukan data kondisi bangunan, fasilitas rumah, fasilitas umum dan nilai jual objek pajak berhasil dan menampilkan pesan kesalahan ketika data belum diisi atau salah
+pengujian white box pengujian white box testing pada struktur internal program, dimana setiap baris kode yang di compile akan dicek satu persatu untuk mengetahui apakah masih terjadi keasalah atau error
+pengujian white box ini dilakukan untuk menguji apakah logika fuzzy tsukamoto yang diterapkan sudah berjalan sesuai dengan diharapkan
+berikut ini merupakan pengujian logika fuzzy tsukamoto dengan metode white box pada aplikasi
+hasil pengujian dapat dilihat pada tabel 2
+tabel ii hasil sesuai kasus uji keterang an kondisi bangunan tidak bagus 1 1 – 2 – 3 – 8 input nilai 3 1 alur path terlewati 2 1 – 2 – 4 – 5 – 8 input nilai 5 0, 667 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 8 0 kondisi bangunan bagus 1 1 – 2 – 3 – 8 input nilai 5 0, 333 alur path terlewati 2 1 – 2 – 4 – 5 – 8 input nilai 8 0, 667 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 2 0 kondisi bangunan sangat bagus 1 1 – 2 – 3 – 8 input nilai 12 1 alur path terlewati 2 1 – 2 – 4 – 5 – 8 input nilai 8 0, 333 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 5 0 pada tabel 2, dapat dilihat bahwa pengujian white box pada sistem, setiap alur pada fungsi kondisi bangunan terlewati dan menghasilkan nilai yang sesuai
+hasil pengujian dapat dilihat pada tabel 3
+tabel iii hasil uji keterang an fasilitas rumah tidak lengkap 1 1 – 2 – 3 – 8 input nilai 2 1 alur path terlewati 2 1 – 2 – 4 – 5 – 8 input nilai 8 0, 474 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 13 0 fasilitas rumah lengkap 1 1 – 2 – 3 – 8 input nilai 6 0, 316 alur path terlewati 2 1 – 2 – 4 – 5 – 8 input nilai 15 0, 737 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 24 0 fasilitas rumah sangat lengkap 1 1 – 2 – 3 – 8 input nilai 24 1 alur path terlewati 2 1 – 2 – 4 – 5 – 8 input nilai 20 0, 789 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 10 0 pada tabel 3, dapat dilihat bahwa pengujian white box pada sistem, setiap alur pada fungsi fasilitas rumah terlewati dan menghasilkan nilai yang sesuai
+pengujian berikut dilakukan pada fungsi fasilitas umum
+hasil pengujian dapat dilihat pada tabel 4
+tabel iv hasil 1 1 alur path terlewati 2 8 0, 125 – 8 10 1 alur path terlewati 2 8 0, 875 – 8 pada sistem, setiap alur pada fungsi fasilitas umum terlewati dan menghasilkan nilai yang sesuai
+pengujian berikut dilakukan pada fungsi fasilitas rumah
+hasil pengujian dapat dilihat pada tabel 5
+pada tabel 5, dapat dilihat bahwa pengujian white box pada sistem, setiap alur pada fungsi njop terlewati dan menghasilkan nilai yang sesuai
+pengujian berikut dilakukan pada fungsi fasilitas rumah
+hasil pengujian dapat dilihat pada tabel 6
+tabel v an ga n njop murah 1 1 – 2 – 3 – 8 input nilai 50000 1 al ur pat h ter le wa ti 2 1 – 2 – 4 – 5 – 8 input nilai 200000 0, 895 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 1500000 0 njop sedang 1 1 – 2 – 3 – 8 input nilai 300000 0, 211 al ur pat h ter le wa ti 2 1 – 2 – 4 – 5 – 8 input nilai 1200000 0, 842 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 50000 0 njop mahal 1 1 – 2 – 3 – 8 input nilai 2500000 1 al ur pat h ter le wa ti 2 1 – 2 – 4 – 5 – 8 input nilai 1500000 0, 477 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 800000 0 path hasil an luas tanah dan bangunan tidak luas 1 1 – 2 – 3 – 8 input nilai 25 1 alur path terle wati 2 1 – 2 – 4 – 5 – 8 input nilai 100 0, 818 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 350 0 luas tanah dan bangunan luas 1 1 – 2 – 3 – 8 input nilai 100 0, 182 alur path terle wati 2 1 – 2 – 4 – 5 – 8 input nilai 400 0, 727 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 800 0 luas tanah dan bangunan sangat luas 1 1 – 2 – 3 – 8 input nilai 700 1 alur path terle wati 2 1 – 2 – 4 – 5 – 8 input nilai 500 0, 636 3 1 – 2 – 4 – 6 – 7 – 8 input nilai 200 0 pada tabel 6, dapat dilihat bahwa pengujian white box pada sistem, setiap alur pada fungsi luas tanah terlewati dan menghasilkan nilai yang sesuai
+pengujian mape mape 
+pengujian menggunakan 10 data rumah yang dijual untuk mengetahui tingkat persentase penyimpangan
+pengujian dibagi menjadi dua data, pengujian pertama berdasarkan data developer dengan data sistem dan pengujian kedua berdasarkan data bank dan data sistem
+hasil kedua pengujian dapat dilihat pada table 7 dan 8
+nilai mape dihitung dengan rumus sebagai berikut: data ft xt ft – xt / ft property tsukamoto ft – xt = hasil dari selisih antara harga rumah oleh agen dan sistem / ft = hasil dari selisih dibagi dengan harga rumah asli data ft xt ft – xt / ft / 9 1.069.700.00 jumlah 0, 568 5, 68% tsukamoto ft – xt = hasil dari selisih antara harga rumah oleh bank dan sistem / ft = hasil dari selisih dibagi dengan harga rumah asli c
+analisis hasil berikut ini adalah hasil pengujian sistem informasi jual beli rumah dengan fitur rekomendasi harga menggunakan logika fuzzy tsukamoto sebagai berikut: 1
+pada saat pengguna melakukan input data dengan data yang benar, maka sistem akan memproses input-an data tersebut
+sistem akan menampilkan data yang telah diinputkan tadi dan akan otomatis tersimpan didalam database
+ketika pengguna ingin mengubah data, maka data tersebut akan otomatis tersimpan dalam database
+hasil pengujian menunjukkan bahwa pada saat melakukan input data dengan adanya salah satu data yang kosong akan menyebabkan kesalahan pada kode program karena dalam basis data tidak boleh kosong dan harus terisi datanya
+tetapi pada sistem ini, kemungkinan sudah ditangani pada kode program dengan kondisi jika salah satu data tidak di-input-kan dan bernilai kosong, maka sistem akan memberikan pemberitahuan bahwa data yang kosong harus diisi
+dari hasil pengujian white box yang dilakukan, dapat disimpulkan bahwa source code fungsi logika fuzzy sudah menjalankan perintah sesuai yang diharapkan dengan mengerjakan seluruh keputusan logika dari sisi benar maupun salah
+mengerjakan seluruh struktur data internal yang menjamin validasi
+dengan demikian persentase penyimpangan pada pengujian tersebut adalah 21, 44 %
+hasil tersebut menunjukkan bahwa tingkat rekomendasi harga jual rumah yang telah dilakukan pada 10 data rumah dengan perbandingan data uji data developer rumah menggunakan metode fuzzy tsukamoto dinilai cukup baik
+hasil pengujian metode fuzzy tsukamoto menghasilkan nilai mape sebesar 5, 68 % dengan menggunakan 10 data rumah dengan perbandingan data uji data bank
+dengan demikian persentase penyimpangan pada pengujian tersebut adalah 5, 68 %
+hasil tersebut menunjukkan bahwa tingkat rekomendasi harga jual rumah yang telah dilakukan pada 10 data rumah dengan perbandingan data uji data bank menggunakan metode fuzzy tsukamoto dinilai sangat bagus
+berdasarkan hasil pengujian mape, harga jual rumah yang dihasilkan oleh sistem lebih mendekati harga taksiran dari bank dibandingkan harga dari developer rumah
+hasil perhitungan bank dan developer untuk harga jual rumah dengan sistem secara fuzzy tsukamoto menunjukkan status hasil berbeda dikarenakan cara perhitungan yang dipakai berbeda, menggunakan faktor logika, analisa, naluri serta pengalaman manusia dimana sistem tidak dapat melakukannya
+kesimpulan sistem informasi jual beli dengan fitur rekomendasi harga menggunakan logika fuzzy tsukamoto, dapat disimpulkan bahwa: 1
+berdasarkan hasil pengujian saat pengguna melakukan masukan data dengan menggunakan metode black box, kondisi data yang dimasukan harus sesuai dengan tipe data dan digit maksimal yang telah ditentukan
+sistem akan memproses masukan data tersebut dan tersimpan otomatis didalam database, jika pengguna memasukan data dengan kondisi semua data kosong atau beberapa data kosong dan kondisi data salah atau tidak sesuai dengan tipe data maka akan menimbulkan pesan kesalahan pada program, untuk tipe data int memiliki digit maksimal 10 dan tipe data varchar memiliki digit maksimal 191
+berdasarkan hasil pengujian white box, source code fungsi logika fuzzy metode tsukamoto sudah menjalankan fungsi sesuai yang diharapkan dengan mengerjakan seluruh keputusan logika dari sisi benar ataupun salah pada fungsi nilai kondisi bangunan, fungsi nilai fasilitas rumah, fungsi nilai fasilitas umum, fungsi nilai njop dan fungsi nilai luas bangunan dengan menghasilkan nilai yang sesuai
+hasil pengujian logika fuzzy metode tsukamoto menghasilkan nilai mape sebesar 21, 44 % dengan menggunakan 10 data rumah dengan perbandingan data uji data developer rumah
+dengan demikian tingkat persentase penyimpangan pada pengujian tersebut adalah 21, 44 %
+hasil pengujian logika fuzzy metode tsukamoto menghasilkan nilai mape sebesar 5, 68 % dengan menggunakan 10 data rumah dengan perbandingan data uji data bank
+dengan demikian tingkat persentase penyimpangan pada pengujian tersebut adalah 5, 68 %
+hasil perhitungan bank dan developer untuk harga jual rumah dengan sistem secara fuzzy tsukamoto menunjukkan status hasil berbeda dikarenakan cara perhitungan yang dipakai berbeda, menggunakan faktor logika, analisa, naluri serta pengalaman manusia dimana sistem tidak dapat melakukannya

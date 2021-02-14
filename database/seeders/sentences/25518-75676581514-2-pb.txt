@@ -1,0 +1,134 @@
+eee paper template in a4 vol 4 no 1 juni 2018 implementasi business intelligence menentukan fitur geolokasi ricky akbar # program studi sistem informasi, fakultas teknologi informasi, universitas andalas jalan universitas andalas, limau manis, pauh, kota padang, sumatera barat 25163 1 rickyakbar1984@gmail.com 2 ridhodarman@gmail.com 3 marizka7@gmail.com 4 jesinamora08@gmail.com 5 novisa.ard@gmail.com dapat menimbulkan banyak kerusakan materil bahkan jatuhnya korban jiwa
+secara geografis, indonesia terletak pada kawasan cincin api, yaitu lokasi yang sering mengalami bencana gempa bumi dan letusan gunung berapi
+badan nasional penanggulangan bencana adalah lembaga yang memiliki data-data tentang bencana yang terjadi di indonesia dalam ukuran besar
+supaya data tersebut dapat diolah menjadi informasi yang lebih bernilai, diperlukan sebuah aplikasi untuk memvisualisasikan data- data tersebut sehingga dapat menampilkan informasi berupa daerah yang rawan bencana dan aman dari bencana khususnya gempa bumi
+penerapan business inteligence sangat cocok untuk kasus ini agar bnpb dapat mengelompokkan bencana khususnya gempa bumi di setiap provinsi yang ada di indonesia untuk mempermudah masyarakat mendapat informasi bencana gempa bumi yang terjadi serta dapat menjadi acuan bagi pemerintah dalam merancang standar pendirian bangunan dan kesiapan mitigasi bencana
+pada penelitian ini menggunakan salah satu aplikasi business inteligence yakni qlikview untuk dapat mengelompokkan bencana gempa bumi yang terjadi di setiap provinsi yang ada di indonesia serta menampilkan visualisasinya pada peta dengan fitur geolokasi menggunakan data spasial i
+pendahuluan 2007 diartikan sebagai peristiwa atau rangkaian peristiwa yang mengancam dan mengganggu kehidupan dan penghidupan masyarakat yang disebabkan, baik oleh faktor alam dan/atau faktor nonalam maupun faktor manusia sehingga mengakibatkan timbulnya korban jiwa manusia, kerusakan lingkungan, kerugian harta benda, dan dampak psikologis
+bencana dapat mengancam seluruh wilayah yang ada di indonesia baik di daratan maupun lautan
+badan nasional penanggulangan bencana merupakan lembaga pemerintah non departemen setingkat menteri yang berfungsi untuk membantu presiden republik indonesia dalam pengoordinasian pekerjaan penanggulangan bencana serta perumusan dan penetapan garis haluan penanggulangan bencana dan penanganan pengungsi dengan bereaksi secara cepat dan tepat, efektif dan efisien
+badan ini mempunyai data bencana, baik bencana alam maupun non-alam yang terjadi di indonesia
+indonesia merupakan kawasan yang sering mengalami kejadian bencana alam berupa gempa bumi karena terletak di pertemuan tiga lempeng tektonik besar, yaitu lempeng pasifik, indo-australia, dan eurasia
+banyaknya data bencana khususnya gempa bumi yang terdapat pada bnpb harus terorganisir dan sistematis sehingga mempermudah dalam pengambilan keputusan
+misalnya pengelompokkan bencana gempa bumi pada tiap provinsi serta kedalamannya di seluruh indonesia
+pengelompokkan bertujuan agar masyarakat dan bnpb khususnya dapat mengetahui provinsi mana saja yang rawan bencana dan provinsi yang aman dari bencana khususnya gempa bumi sebagai acuan bagi kementerian pupr dalam perumusan dan penetapan dalam penyelenggaraan jalan, pengembangan kawasan dan penyediaan perumahan pemukiman sesuai dengan peraturan menteri pupr nomor 15/prt/m/2015
+penerapan business intelligence merupakan salah satu solusi terbaik untuk mengatasinya
+business intelligence meliputi informasi dan perolehan data dari berbagai sumber dan mengolahnya untuk keperluan pengambilan keputusan
+korespondensi : ridho darman 31 intelligence untuk membantu bnpb dalam mengkoordinir data yang dimilikinya
+qlikview adalah salah satu aplikasi business intelligence yang dapat mengelompokkan provinsi di indonesia termasuk provinsi yang aman bencana atau rawan bencana berdasarkan data yang diperoleh dari bnpb khususnya gempa bumi
+qlikview juga memiliki ekstensi openstreetmap yang memudahkan visualisasi data ke dalam peta dengan memanfaatkan fitur geolokasi yang bisa digunakan pada openstreetmap
+fitur geolokasi yang ditampilkan berupa titik-titik koordinat lokasi berdasarkan data spasial yang terdapat pada data set, yakni latitude dan longitude kejadian gempa bumi tersebut
+merupakan seperangkat metode dan konsep yang berfungsi untuk meningkatkan kemampuan membuat keputusan dengan bantuan sistem yang berlandaskan pada fakta-fakta yang terjadi
+menurut vercellis, arsitektur business intelligence memiliki enam komponen utama, yaitu: 1
+data source, tahap ini memerlukan proses untuk mengumpulkan dan mengintegrasi data yang disimpan dalam berbagai sumber yang berbeda baik itu asal maupun jenisnya
+sumber data ini berasal dari data yang terdapat pada operational system
+data warehouse, proses pada tahap ini menggunakan etl, data yang berasal dari berbagai sumber yang berbeda disimpan ke dalam database yang bertujuan untuk mendukung proses analisis business intelligence
+data exploration, pada tahap ini tools yang berguna untuk keperluan analisis business intelligence pasif digunakan
+tools ini terdiri dari query dan reporting system, serta statistical methods
+metodologi ini bersifat pasif karena pihak pengambil keputusan harus mengambil keputusan berdasarkan hipotesis mereka sendiri atau mendefiniskan kriteria dari data extraction, kemudian menggunakan tools analisis untuk menemukan jawaban dan mencocokannya dengan hipotesa awal 4
+data mining, tahap ini terdiri sejumlah metodologi business intelligence bersifat aktif yang tujuannya untuk mengekstrak informasi dan pengetahuan dari data tersebut
+metodologi ini berisi sejumlah model matematika untuk pengenalan pola, pembelajaran mesin dan teknik data mining
+optimization, pada tahap ini dihasilkan beberapa solusi dimana solusi terbaik harus dipilih
+decisions, persoalan utama pada tahap ini merupakan bagaimana menentukan keputusan akhir yang akan diambil yang dikenal sebagai decision making process
+atau perusahaan saat mengimplementasikan business intelligence, yakni: informasi dan data dapat diintegrasikan sehingga dapat membentuk pengambilan keputusan
+digunakan ukuran yang disebut dengan key performance indicator 
+dengan demikian, pihak-pihak yang terlibat dalam pengambilan keputusan akan lebih efisien dalam melakukan langkah-langkah antisipasi
+meningkatkan nilai investasi teknologi informasi yang sudah ada
+business intelligence tidak selalu harus merombak atau menukar sistem informasi yang pernah digunakan sebelumnya
+sebaliknya, business intelligence hanya menambahkan layanan sistem sehingga data dan informasi yang ada bisa menciptakan informasi yang lebih menyeluruh
+menjadikan pegawai memiliki akses informasi yang baik 
+business intelligence mempermudah seluruh tingkatan pegawai ketika mengakses data dan informasi
+mempermudah pekerjaan, mempersingkat waktu, dan mudah dalam pemanfaatannya
+penanggulangan bencana pada bab 1 pasal 1, definisi dari bencana alam ialah bencana yang dihasilkan oleh serangkaian peristiwa atau peristiwa yang dikarenakan oleh alam diantaranya berupa tsunami, gempa bumi, kekeringan, banjir, angin topan, gunung meletus, dan tanah longsor
+bencana alam dikelompokkan menjadi beberapa kelas, yakni: 1
+sub kelompok i: terkait bencana air dan iklim
+bencana yang termasuk dalam sub kelompok ini diantaranya banjir, kekeringan, tornado, badai, hujan es, gelombang panas, gelombang dingin, salju longsor, erosi laut, guntur dan petir
+bencana yang termasuk dalam sub kelompok ini diantaranya gempa bumi, tanah longsor, aliran lumpur, kegagalan dam dan kebakaran tambang
+sub kelompok iii: terkait bencana kimia, industri & nuklir
+dalam kategori ini, segala bencana yang disebabkan oleh bahan kimia dan industri dan bencana nuklir merupakan bagian dari sub kelompok ini
+bencana yang terdapat pada sub kelompok ini diataranya kebakaran
+bencana dalam sub kelompok ini termasuk bencana biologi, epidemi, serangan hama, dan keracunan makanan
+gempa bumi termasuk kedalam bencana geologis karena disebabkan oleh gaya-gaya dari dalam bumi
+gempa bumi merupakan bencana alam yang timbul dari dampak pelepasan energi dari dalam bumi secara tiba-tiba, ditandai dengan adanya patahan pada lapisan batuan di kerak bumi
+pengumpulan energi pemicu terjadinya gempa bumi tersebut berasal dari pergerakan lempeng- lempeng tektonik
+energi yang diperoleh dekeluarkan kesegala arah dalam bentuk gelombang gempa bumi sehingga dampaknya bisa dirasakan sampai ke permukaan bumi
+hiposentrum gempa bumi dalam lebih dari 300 km di bawah permukaan bumi 
+gempa bumi ini biasanya tidak terlalu membahayakan
+hiposentrum gempa bumi menengah berada diantara 60 km hingga 300 km di bawah permukaan bumi
+getaran yang diakibatkan gempa bumi golongan ini lebih terasa dibandingkan gempa bumi dalam dan dapat mengakibatkan kerusakan ringan
+gempa bumi dangkal hiposentrum dari gempa bumi dangkal kurang dari 60 km dari permukaan bumi
+gempa bumi ini pada umumnya menyebabkan kerusakan besar
+api dikarenakan banyak gunung berapi aktif yang ada di indonesia
+gunung-gunung berapi tersebar di pulau sumatera, jawa, nusa tenggara, maluku dan sulawesi, di mana ada 117 gunung berapi aktif
+indonesia adalah salah satu wilayah yang paling aktif seismiknya di dunia
+bergerak ke timur laut sekitar 6 cm per tahun
+tektonik pada bagian barat daya didominasi oleh subduksi lempeng indo-australia di bawah lempeng sunda
+sunda megathrust memanjang di lepas pantai dari tenggara jawa dan sumatera, patahan sumatra memanjang 30–60 km ke daratan di sepanjang tulang punggung pegunungan pulau sumatera
+di wilayah timur, termasuk pulau kalimatan dan sulawesi, juga terletak di persimpangan bagian tenggara lempeng sunda, tergilas antara lempeng filipina yang bergerak ke arah barat dan lempeng indo-australia di utara
+oleh karena itu, gempa besar sering terjadi di sebagian besar wilayah indonesia
+daerah yang paling rentan terhadap gempa bumi meliputi hampir semua wilayah sumatera, jawa, kepulauan sunda kecil, maluku, sulawesi, dan papua
+qlikview yang didirikan oleh perusahaan qliktech
+qlikview juga mendukung geoanalityc yang dapat menampilkan informasi penting berupa informasi geospasial dan mengekspos hubungan geografis tersembunyi untuk membuat keputusan terkait lokasi yang lebih baik
+visualisasi dan analisis geospasial pada qlikview tidak hanya menyediakan kemampuan pemetaan yang komprehensif, tetapi juga bergerak diluar visualisasi dengan dukungan built-in untuk berbagai kasus penggunaan geoanalityc yang canggih untuk menampilkan informasi geospasialfitur untuk menampilkan informasi geospasial pada qlikview dapat digunakan dengan memanfaatkan ekstensi openstreetmap yang terdapat pada qlikview
+openstreetmap adalah proyek pembuatan peta yang dibangun oleh komunitas pembuat peta yang berkontribusi dan memelihara data tentang jalan, jalur, kafe, stasiun kereta api, dan lainnya, di seluruh dunia
+openstreetmap menekankan pengetahuan lokal kontributor menggunakan citra udara, perangkat gps, dan peta lapangan berteknologi rendah untuk memverifikasi bahwa osm akurat dan termutakhir
+openstreetmap menggunakan data terbuka, berlisensi di bawah open data commons open database license oleh openstreetmap foundation 
+metode eksperimen dengan menggunakan beberapa tahapan diantaranya: a
+skema tahapan penelitian ditunjukkan pada gambar 1
+hasil dan pembahasan pembahasan dari penelitian ―implementasi business intelligence menentukan daerah rawan gempa bumi di indonesia dengan fitur geolokasi‖
+pembahasan ini berisi bagaimana hasil dari pengolahan data-data bencana gempa bumi yang ada sehingga diperoleh output berupa grafik tentang daerah yang termasuk rawan terhadap bencana gempa bumi serta daerah yang aman dari bencana gempa bumi dari seluruh provinsi di indonesia
+pengumpulan data merupakan data mengenai bencana gempa bumi yang diambil di seluruh indonesia
+data bencana gempa bumi yang diperoleh sebanyak 975 kejadian
+data yang diperoleh dalam bentuk format excel, kemudian disesuaikan agar dapat di import ke database dan dianalisa menggunakan qilkview
+cleaning data database yang corrupt atau tidak akurat
+istilah ini mengacu pada identifikasi data yang tidak lengkap, tidak benar, tidak tepat, dan tidak relevan
+kemudian dirty data tersebut akan diganti, dimodifikasi atau dihapus
+proses cleaning data ini cukup penting dalam pembangunan data warehouse untuk mencegah terjadinya duplikat data, ambigu pada data, dan konflik penamaan
+implementasi pada qilkview pada qilkview sebagai berikut: 1
+hal ini dilakukan agar data latitude dan longtitude bisa di load sebagai geolokasi menggunakan fitur geomakepoint pada qlikview
+memilih jenis grafik yang akan dibuat dengan membandingkan antara dimension dan measure
+measure yang digunakan merupakan nilai yang akan kita bandingkan seperti jumlah, rata-rata, nilai maksimum maupun nilai minimum dari suatu data
+tahapan terakhir adalah membuat sebuah dashboard
+pada dashboard gempa bumi akan ditampilkan jumlah kejadian gempa bumi tahun 2010-2014, jenis gempa bumi berdasrkan kedalaman dan lokasi kejadian gempa bumi pada peta
+dashboard seluruh bencana gempa bumi indonesia dapat dilihat pada gambar
+2 tampilan dashboard bencana gempa bumi grafik jumlah kejadian bencana gempa bumi yang terjadi dari tahun 2010-2014 di indonesia dapat dilihat pada gambar
+3 grafik jumlah gempa bumi yang terjadi dari tahun 2010- 2014 di indonesia gempa bumi di indonesia cenderung mengalami fluktuasi
+jumlah bencana gempa bumi terbanyak terjadi pada tahun 2012
+frekuensi bencana gempa bumi yang terjadi tahun 2010-2012 terus mengalami peningkatan, sedangkan tahun 2012-2014 mengalami penurunan
+kemudian peta data persebaran bencana gempa bumi berdasarkan kedalaman dari tahun 2010-2014 di indonesia dapat dilihat pada gambar
+4 ditampilkan titik persebaran bencana gempa bumi menggunakan fitur geolokasi, titik persebaran tersebut ditampilkan dengan memanfaatkan ekstensi openstreetmap yang tersedia pada qlikview
+titik persebaran bencana gempa bumi didapat dari koordinat berupa latitude dan longitude
+pada peta persebaran bencana gempa bumi dapat diketahui bahwa pulau kalimantan adalah daerah yang paling aman dari gempa bumi karena tidak terdapat titik kejadian gempa bumi, sedangkan daerah yang rawan gempa adalah tepi barat pantai sumatera, selatan pulau jawa, maluku, kepulauan nusa tenggara dan utara pulau papua
+titik kejadian gempa bumi yang terjadi tahun 2010-2014 didominasi oleh warna terang menunjukkan gempa bumi yang terjadi kebanyakan termasuk golongan gempa bumi dangkal gempa bumi dikelompokkan berdasarkan kedalamannya ditampilkan pada gambar
+5 golongan gempa bumi berdasarkan kedalaman pada gambar
+5 dapat dilihat mayoritas golongan gempa yang terjadi pada tahun 2010-2014 adalah gempa bumi dangkal yaitu sebanyak 76.7% dari 975 kejadian
+sedangkan gempa bumi golongan menengah hanya 21%, dan yang paling sedikit yaitu gempa bumi dalam sebanyak 2, 3%
+jumlah gempa bumi berdasarkan kedalamannya yang terjadi pada tahun 2010-2014 dapat dilihat pada gambar
+tahun 2010-2014 terjadi pada tahun 2010-2014 mayoritas termasuk golongan gempa bumi dangkal dan yang paling sedikit tiap tahunnya ialah gempa bumi dalam
+kemudian ditampilkan lima daerah yang paling rawan gempa bumi dari tahun 2010-2014 seperti pada gambar
+7 data lima daerah paling rawan gempa bumi dari tahun 2010-2014 paling rawan gempa bumi adalah kabupaten simeulue, provinsi nanggroe aceh darussalam dan pada posisi kedua, ketiga, keempat, dan kelima ditempati oleh daerah saumlaki, maluku tenggara barat, maluku barat daya, dan ambon
+pada tahun 2010, 2011, dan 2013 lima daerah rawan gempa bumi didominasi oleh gempa bumi dengan kedalaman menengah
+sedangkan pada tahun 2012 dan 2014 didominasi oleh gempa bumi dengan kedalaman dangkal gempa bumi yang terjadi pada lima daerah paling rawan gempa bumi kebanyakan terjadi pada tahun 2012
+aplikasi business intelligence dalam memperoleh informasi baik berupa grafik maupun data-data yang diperlukan dapat di analisis bahwa daerah yang paling rawan terjadinya bencana gempa bumi di indonesia adalah daerah tepi barat pantai sumatera, selatan pulau jawa, kepulauan nusa tenggara, maluku utara dan utara pulau papua
+sedangkan pulau kalimantan adalah daerah yang tidak termasuk rawan terjadinya bencana gempa bumi
+pada bagian sebelumnya telah dipaparkan grafik jumlah gempa bumi dari tahun 2010-2014 di indonesia menghasilkan kesimpulan bahwa gempa bumi sering terjadi pada tahun 2012 dengan jumlah gempa yang terjadi lebih dari 300 kali
+gempa yang terjadi pada tahun 2012 kebanyakan adalah golongan gempa dangkal kabupaten simeulue, provinsi nanggroe aceh darussalam adalah daerah yang paling rawan terhadap gempa bumi
+pada lima daerah yang paling rawan terhadap gempa bumi, jumlah gempa dangkal, menengah, dan dalam selalu mengalami peningkatan frekuensi kejadian gempa bumi dari tahun 2010-2012, sedangkan pada tahun 2012-2014 mengalami penurunan
+bnpb memiliki sebuah aplikasi web bernama data informasi bencana indonesia yang dapat memberikan informasi pada semua pihak yang terkait dengan unsur penanggulangan bencana baik di indonesia maupun negara asing melalui fasilitas global aplikasi dibi saat ini dapat diakses oleh masyarakat luas melalui situs dibi.bnpb.go.id melalui web browser
+qlikview mampu memvisualisasikan data spasial pada peta, sedangkan pada dibi hanya ditampilkan dalam bentuk tabel
+qlikview dapat dijalankan secara offline, sedangkan dibi membutuhkan koneksi internet 3
+qlikview dapat melakukan data sorting secara otomatis
+visualisasi grafik yang ditampilkan pada qlikview lebih interaktif dan dinamis, masing-masing grafik yang terletak pada dashboard saling terkait
+dibi bisa dikelola dan diakses di berbagai platform dan sistem operasi, sedangkan qlikview hanya mampu berjalan di os windows 7 64 bit atau lebih tinggi dan os windows server 2008 x64 edition atau lebih tinggi
+aplikasi dibi lebih ringan ketika dijalankan dibandingkan qlikview meskipun dibi sangat bergantung kepada koneksi internet bencana gempa bumi
+pada umumnya bencana gempa bumi yang terjadi di indonesia adalah gempa bumi dangkal yang mengakibatkan banyak kerusakan
+berdasarkan data bencana gempa bumi yang terjadi dari tahun 2010-2014 di indonesia dengan menggunakan bantuan aplikasi qlikview, maka hasil yang dapat disimpulkan: 1
+daerah tepi barat pantai sumatera, selatan pulau jawa, maluku utara, kepulauan nusa tenggara dan utara pulau papua merupakan daerah paling rawan gempa bumi pada tahun 2010 – 2014
+pulau kalimantan merupakan daerah yang paling aman gempa bumi sepanjang tahun 2010-2014
+dari tahun 2010-2012 frekuensi gempa bumi terus meningkat, sedangkan dari tahun 2012-2014 frekuensi gempa bumi terus menurun
+gempa bumi paling banyak terjadi pada tahun 2012, dengan frekuensi lebih dari 300 kali
+gempa bumi dangkal merupakan gempa bumi yang paling sering terjadi pada tahun 2010-2014 6
+frekuensi terjadinya gempa bumi dangkal dan menengah mengalami peningkatan pada tahun 2010- 2012, sedangkan pada tahun 2012-2014 mengalami penurunan
+kabupaten simeulue, provinsi nanggroe aceh darussalam merupakan daerah yang paling rawan gempa bumi
+informasi daerah yang rawan gempa bumi, daerah yang aman dari kejadian gempa bumi dan jenis gempa bumi yang terjadi berdasarkan kedalamannya sehingga pengguna, terutama masyarakat indonesia bisa mengetahui lokasi yang rawan bencana gempa bumi dan merancang mitigasi resiko terhadap gempa bumi di setiap daerah untuk meminimalisir korban jiwa, merancang struktur bangunan tahan gempa untuk mengindari kerusakan dan sebagainya, terutama untuk daerah-daerah yang memiliki riwayat rawan gempa bumi
+hal ini juga bisa menjadi pertimbangan dalam pengambilan keputusan oleh pemerintah indonesia dalam hal ini kementerian pu pr dalam menetapkan kebijakan standar pendirian bangunan gedung dan perumahan sesuai dengan kondisi alam daerah di indonesia, serta membantu bnpb dalam upaya mengkoordinasikan dan meningkatkan daerah yang rawan terjadinya bencana gempa bumi

@@ -1,0 +1,33 @@
+perlunya sistem pendukung keputusan dalam mendukung keputusan perusahaan
+metode topsis yang order preference by similarity to ideal solution adalah salah satu metode pengambil keputusan dan dapat digunakan dalam permasalahan ini
+metode ini mencari alternatif terbaik yang berjarak terpendek dari solusi ideal positif dan berjarak terjauh dari solusi ideal negatif
+dengan kriteria tertentu beserta bobot setiap kriteria yang telah ditentukan perusahaan
+dari hasil pengujian yang didapatkan dalam penelitian ini maka sistem pendukung keputusan yang dibangun dapat membantu atau mendukung perusahaan dalam memilih pelanggan terbaik
+positif, solusi ideal negatif, kriteria, bobot kriteria 1
+istana duta merupakan salah satu perusahaan distributor atau agen sepatu dan sandal yang terletak pada kota pontianak
+setiap pelanggan perusahaan ini merupakan toko sepatu dan sandal yang tersebar di provinsi kalimantan barat
+setiap toko yang merupakan pelanggan perusahaan memiliki karakteristik yang berbeda dalam berbagai hal seperti banyaknya transaksi pembelian barang, kemampuan membayar barang yang telah dibeli, dan karakteristik lainnya
+karakteristik yang berbeda tentu akan memperlihatkan pelanggan yang ideal serta yang tidak bagi perusahaan
+pelanggan yang ideal yaitu pelanggan yang banyak membeli dan membayar semuanya tepat pada waktu
+untuk keuntungan yang lebih besar dan perputaran arus kas yang lebih cepat maka perusahaan harus bisa menjadikan pelanggan yang ideal sebagai prioritas dalam beberapa hal mulai dari prioritas penawaran barang baru, diskon spesial atau harga spesial, dan sebagainya
+karena itu, perusahaan perlu memilih pelanggan yang terbaik dari deretan pelanggan perusahaan untuk mempererat relasi dengan pelanggan yang ideal supaya kedua keputusan pemilihan pelanggan terbaik harus berdasarkan kriteria-kriteria utama yang berkaitan dengan karakter dari setiap pelanggan salah satu metode multi criteria decision making dalam memproses kriteria-kriteria untuk memilih pelanggan terbaik adalah metode topsis yang merupakan singkatan dari technique for order preference by similarity to the ideal solution dimana metode ini memberikan rekomendasi sesuai dengan kriteria yang memiliki nilai paling tinggi atau benefit tertinggi dan juga nilai yang terendah atau cost paling rendah
+dengan metode topsis, sistem dapat memberikan urutan alternatif pelanggan yang paling ideal untuk perusahaan
+metode ini dipilih karena mampu menyeleksi alternatif terbaik dari sejumlah alternatif pelanggan terbaik
+alternatif terbaik adalah yang berjarak terpendek terhadap solusi ideal positif dan berjarak terjauh dari solusi ideal negatif
+metode ini juga dapat memperhitungkan kelebihan serta kekurangan dari karakter pelanggan pada setiap kriteria penilaian yang telah ditentukan sehingga alternatif yang dicapai merupakan alternatif yang paling baik dan ideal 2
+tinjauan pustaka 2.1 sistem pendukung keputusan spk memiliki pengertian sebagai suatu sistem yang berbasis komputer yang ditujukan untuk membantu pengambil keputusan dengan memanfaatkan data dan model tertentu untuk memecahkan berbagai persoalan yang tidak terstruktur
+2.2 mcdm mcdm merupakan singkatan dari multi criteria decision making yang memiliki arti metode pengambilan keputusan untuk menetapkan alternatif terbaik dari sejumlah alternatif terbaik dari sejumlah alternatif berdasarkan beberapa kriteria tertentu
+kriteria biasanya berupa ukuran-ukuran, aturan-aturan atau standar yang digunakan dalam pengambilan keputusan
+berdasarkan tujuannya maka mcdm dapat dibagi menjadi 2 model yaitu multi attribute decision making dan multi objective decision making 
+madm biasanya dipakai untuk melakukan penilaian atau seleksi pada beberapa alternatif dalam jumlah yang terbatas
+salah satu contoh madm yaitu metode topsis
+2.3 topsis topsis merupakan salah satu teknik atau metode pengambilan keputusan multikriteria atau mcdm yang pertama kali dikenalkan oleh yoon dan hwang pada tahun 1981
+topsis menggunakan prinsip bahwa alternatif yang terpilih harus mempunyai jarak terdekat dari solusi ideal positif dan terjauh dari solusi ideal negatif dari sudut pandang geometris dengan menggunakan jarak euclidean untuk menentukan kedekatan relatif dari suatu alternatif dengan solusi optimal
+𝑟𝑟𝑖𝑖𝑖𝑖 = 𝑥𝑥𝑖𝑖𝑖𝑖 �∑ 𝑥𝑥2𝑖𝑖𝑖𝑖𝑚𝑚𝑖𝑖=1 ideal negatif berdasarkan rating bobot ternormalisasi yij 𝐴𝐴+ = 𝐴𝐴− = setiap alternatif dengan matriks solusi ideal negatif
+𝐷𝐷𝑖𝑖 + = �� �𝑦𝑦𝑖𝑖+ − 𝑦𝑦𝑖𝑖𝑖𝑖 � sistem yaitu pelanggan dengan paling rendah
+sistem dengan menggunakan metode v = 7 gambar 4.1 adalah 7 dan hasilnya valid karena sesuai dengan jumlah jalur independen-nya
+terdapat 22 node dan 27 edge serta 7 region
+22 node mencakup proses perhitungan topsis mulai dari: yang akan digunakan dalam data bobot setiap kriteria dan tipe kriteria
+terakhir melakukan digunakan untuk menampung jumlah data dimana jika jumlah data lebih dari satu maka sistem akan memproses perhitungan perhitungan topsis
+merupakan tahap ke-1 dalam tahap ke-2 dalam topsis 3 dalam topsis yaitu ideal negatif
+tahap ke-4 dalam topsis yaitu menentukan jarak relatif dari setiap alternatif terhadap solusi ideal positif dengan tahap ke-5 dalam topsis 6 dalam topsis yaitu if dari node 2
