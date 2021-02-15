@@ -17,7 +17,6 @@
             @break
         @endswitch
         {{ $message['content'] ?? 'Default message content.' }}
-
         <button
                 x-on:click="visible = false"
                 type="button"
