@@ -4308,8 +4308,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tinymce__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tinymce */ "./node_modules/tinymce/tinymce.js");
 /* harmony import */ var tinymce__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(tinymce__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _tinymce_tinymce_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @tinymce/tinymce-vue */ "./node_modules/@tinymce/tinymce-vue/lib/es2015/main/ts/index.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_5__);
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -4464,6 +4466,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     editor: _tinymce_tinymce_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
@@ -4543,9 +4546,21 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       element.classList.add("has-highlight");
     },
     onFormSubmit: function onFormSubmit() {
+      sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.fire({
+        title: "Memroses Dokumen",
+        text: "Dokumen sedang diproses, harap tunggu.",
+        onBeforeOpen: function onBeforeOpen(popup) {
+          sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.showLoading();
+        },
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        allowEnterKey: false
+      });
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(this.correctorUrl, this.formData).then(function (response) {
         window.location.reload();
       })["catch"](function (error) {
+        sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.hideLoading();
+        sweetalert2__WEBPACK_IMPORTED_MODULE_4___default.a.close();
         alert("Gagal merevisi dokumen.");
       });
     },
@@ -4654,10 +4669,10 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       }).map(function (textPiece) {
         return textPiece.replace(new RegExp("[^\\w]*$", "gm"), '').replace(new RegExp("^[^\\w]*", "gm"), '');
       });
-      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_4__["uniq"])(processableTextPieces, function (textPiece) {
+      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_5__["uniq"])(processableTextPieces, function (textPiece) {
         return textPiece.toLowerCase();
       });
-      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_4__["chunk"])(processableTextPieces, 100);
+      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_5__["chunk"])(processableTextPieces, 100);
       return processableTextPieces;
     },
     onEditorInit: function onEditorInit(e) {
@@ -4669,9 +4684,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       return axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(this.recommenderUrl, {
         tokens: tokens
       });
-    },
-    onCorrectionRecommendationChange: function onCorrectionRecommendationChange(tokenWithError) {
-      tokenWithError.correction = tokenWithError.selectedRecommendation;
     },
     fetchRecommendationsFromServer: function fetchRecommendationsFromServer() {
       var _this6 = this;
@@ -4714,10 +4726,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
                     correction: recommendationDatum.recommendations[0],
                     selectedRecommendation: recommendationDatum.recommendations[0],
                     recommendations: recommendationDatum.recommendations
-                  }); // this.markTokensThatHasSpellingError(
-                  //     recommendationDatum.token,
-                  // )
-
+                  });
                 });
                 ++_this6.processedTextPiecesCount;
 

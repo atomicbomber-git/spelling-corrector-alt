@@ -140,6 +140,7 @@
 import axios from "axios"
 import tinymce from "tinymce"
 import editor from "@tinymce/tinymce-vue"
+import Swal from "sweetalert2"
 import {chunk, uniq} from "lodash"
 
 export default {
@@ -221,12 +222,25 @@ export default {
         },
 
         onFormSubmit() {
+            Swal.fire({
+                title: "Memroses Dokumen",
+                text: "Dokumen sedang diproses, harap tunggu.",
+                onBeforeOpen(popup) {
+                    Swal.showLoading()
+                },
+                allowOutsideClick: false,
+                allowEscapeKey: false,
+                allowEnterKey: false
+            })
+
             axios.post(this.correctorUrl, this.formData)
                 .then(response => {
                     window.location.reload()
                 }).catch(error => {
-                alert("Gagal merevisi dokumen.")
-            })
+                    Swal.hideLoading()
+                    Swal.close()
+                    alert("Gagal merevisi dokumen.")
+                })
         },
 
         isValidLeftDelimiter(character) {
@@ -343,10 +357,6 @@ export default {
             })
         },
 
-        onCorrectionRecommendationChange(tokenWithError) {
-            tokenWithError.correction = tokenWithError.selectedRecommendation
-        },
-
         async fetchRecommendationsFromServer() {
             for (const textTokens of this.processableTextPieces) {
                 const tokens = textTokens
@@ -366,16 +376,11 @@ export default {
                         selectedRecommendation: recommendationDatum.recommendations[0],
                         recommendations: recommendationDatum.recommendations
                     })
-
-                    // this.markTokensThatHasSpellingError(
-                    //     recommendationDatum.token,
-                    // )
                 })
                 ++this.processedTextPiecesCount
             }
 
             this.markTokensThatHasSpellingErrorMultiple(Object.keys(this.tokenWithErrors))
-
         },
     }
 }
