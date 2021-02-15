@@ -2,8 +2,8 @@
 
 @section("content")
     <h1 class="feature-title">
-        <a href="{{ route("dokumen-word.index") }}">
-            @lang("application.dokumen_word")
+        <a href="{{ route("file-word.index") }}">
+            @lang("application.file_word")
         </a>
 
         /
@@ -14,12 +14,12 @@
     <x-messages/>
 
     <div id="app">
-        <h2> {{ $dokumen_word->nama }} </h2>
+        <h2> {{ $file_word->nama }} </h2>
 
         <dokumen-word-show
-                data-url="{{ route("dokumen-word.show", $dokumen_word)}}"
+                data-url="{{ route("file-word.show", $file_word)}}"
                 recommender-url="{{ route("rekomendasi-pembenaran") }}"
-                corrector-url="{{ route("dokumen-word.koreksi-ejaan", $dokumen_word) }}"
+                corrector-url="{{ route("file-word.koreksi-ejaan", $file_word) }}"
         >
 
         </dokumen-word-show>

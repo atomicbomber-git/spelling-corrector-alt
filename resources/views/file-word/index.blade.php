@@ -2,7 +2,7 @@
 
 @section("content")
     <h1 class="feature-title">
-        @lang("application.dokumen_word")
+        @lang("application.file_word")
     </h1>
 
     <x-messages></x-messages>
@@ -10,14 +10,14 @@
     <div class="my-3 d-flex justify-content-end">
         <a
                 class="btn btn-primary"
-                href="{{ route("dokumen-word.create") }}"
+                href="{{ route("file-word.create") }}"
         >
             @lang("application.create")
         </a>
     </div>
 
     <div>
-        @if($dokumen_words->isNotEmpty())
+        @if($file_words->isNotEmpty())
             <x-table>
                 <x-thead>
                     <tr>
@@ -30,28 +30,28 @@
                 </x-thead>
 
                 <tbody>
-                @foreach ($dokumen_words as $dokumen_word)
+                @foreach ($file_words as $file_word)
                     <tr>
-                        <td> {{ $dokumen_words->firstItem() + $loop->index }} </td>
-                        <td> {{ $dokumen_word->nama }} </td>
+                        <td> {{ $file_words->firstItem() + $loop->index }} </td>
+                        <td> {{ $file_word->nama }} </td>
 
-                        <td> {{ \App\Support\Formatter::formatDatetime($dokumen_word->created_at) }} </td>
-                        <td> {{ \App\Support\Formatter::formatDatetime($dokumen_word->updated_at) }} </td>
+                        <td> {{ \App\Support\Formatter::formatDatetime($file_word->created_at) }} </td>
+                        <td> {{ \App\Support\Formatter::formatDatetime($file_word->updated_at) }} </td>
 
                         <td class="text-center">
-                            <a href="{{ route("dokumen-word.download", $dokumen_word) }}"
+                            <a href="{{ route("file-word.download", $file_word) }}"
                                class="btn btn-primary btn-sm"
                             >
                                 @lang("application.download")
                             </a>
 
-                            <a href="{{ route("dokumen-word.edit", $dokumen_word) }}"
+                            <a href="{{ route("file-word.edit", $file_word) }}"
                                class="btn btn-primary btn-sm"
                             >
                                 @lang("application.edit")
                             </a>
 
-                            <a href="{{ route("dokumen-word.show", $dokumen_word) }}"
+                            <a href="{{ route("file-word.show", $file_word) }}"
                                class="btn btn-primary btn-sm"
                             >
                                 @lang("application.show")
@@ -61,7 +61,7 @@
                                     class="d-inline-block"
                                     x-data="{}"
                                     @submit.prevent="confirmDialog().then(res => res.isConfirmed && $event.target.submit())"
-                                    action="{{ route("dokumen-word.destroy", $dokumen_word) }}"
+                                    action="{{ route("file-word.destroy", $file_word) }}"
                                     method="POST"
                             >
                                 @csrf
@@ -78,7 +78,7 @@
             </x-table>
 
             <div class="d-flex justify-content-center">
-                {{ $dokumen_words->links() }}
+                {{ $file_words->links() }}
             </div>
 
         @else

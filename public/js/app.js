@@ -4312,16 +4312,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_4__);
 
 
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
 
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4478,7 +4485,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       dokumen: null,
       tokenWithErrors: {},
       processableTextPieces: [],
-      processedTextPiecesCount: 0
+      processedTextPiecesCount: 0,
+      tokenWithErrorIndexCounter: 0
     };
   },
   computed: {
@@ -4489,16 +4497,51 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       var _this2 = this;
 
       return {
-        correction_list: Object.keys(this.tokenWithErrors).map(function (token) {
+        corrections: Object.keys(this.tokenWithErrors).map(function (token) {
           return {
             original: token,
-            replacement: _this2.tokenWithErrors[token].correction
+            replacements: _this2.tokenWithErrors[token].positions.filter(function (errorPosition) {
+              return errorPosition.correction !== null && errorPosition.correction.length > 0;
+            }).map(function (errorPosition) {
+              return {
+                index: errorPosition.index,
+                correction: errorPosition.correction
+              };
+            })
           };
+        }).filter(function (correction) {
+          return correction.replacements.length > 0;
         })
       };
     }
   },
   methods: {
+    symbolPercentage: function symbolPercentage(text) {
+      var filtered = text;
+      filtered = filtered.replaceAll(/[^\w]+/g, '').replaceAll(/\d+/g, '');
+      return 1 - filtered.replaceAll(/[^\w]+/g, '').length / text.length;
+    },
+    jumpIntoText: function jumpIntoText(tokenIndex, positionIndex) {
+      var body = this.$refs.vue_editor.editor.getBody();
+      var element = body.querySelector(".has-spelling-error-".concat(tokenIndex, "-").concat(positionIndex));
+      element.scrollIntoView(false);
+
+      var _iterator = _createForOfIteratorHelper(body.querySelectorAll(".has-spelling-error")),
+          _step;
+
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var elem = _step.value;
+          elem.classList.remove("has-highlight");
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
+
+      element.classList.add("has-highlight");
+    },
     onFormSubmit: function onFormSubmit() {
       axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(this.correctorUrl, this.formData).then(function (response) {
         window.location.reload();
@@ -4512,34 +4555,46 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     isValidRightDelimiter: function isValidRightDelimiter(character) {
       return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?'].includes(character);
     },
-    markTokensThatHasSpellingError: function markTokensThatHasSpellingError(editor, token) {
+    markTokensThatHasSpellingError: function markTokensThatHasSpellingError(editor, tokenString, tokenWithError) {
       var markerClass = "has-spelling-error";
       var editorContent = editor.getContent();
-      var tokenPos = editorContent.toLowerCase().indexOf(token.toLowerCase());
+      var tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase());
+      var counter = 0;
 
       while (tokenPos !== -1) {
-        if (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1]) && tokenPos < editorContent.length - 1 && this.isValidRightDelimiter(editorContent[tokenPos + token.length])) {
+        console.log([tokenString, tokenPos]);
+
+        if (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1]) && tokenPos < editorContent.length - 1 && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length])) {
+          this.tokenWithErrors[tokenString].positions.push({
+            index: counter,
+            selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
+            correction: this.tokenWithErrors[tokenString].recommendations[0]
+          });
           /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
           *  token and proceed to mark it using <span> tags
           * */
-          var tokenAsInContent = editorContent.slice(tokenPos, tokenPos + token.length);
-          var replacement = "<span class=\"".concat(markerClass, "\"> ").concat(tokenAsInContent, " </span>");
+
+          var tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length);
+          var replacement = "<span class=\"".concat(markerClass, " ").concat(markerClass, "-").concat(tokenWithError.index, "-").concat(counter, "\"> ").concat(tokenAsInContent, " </span>");
           var contentLowerHalf = editorContent.slice(0, tokenPos);
-          var contentUpperHalf = editorContent.slice(tokenPos + token.length);
+          var contentUpperHalf = editorContent.slice(tokenPos + tokenString.length);
           var newEditorContent = contentLowerHalf + replacement + contentUpperHalf;
           editor.setContent(newEditorContent);
           editorContent = newEditorContent;
-          tokenPos = editorContent.toLowerCase().indexOf(token.toLowerCase(), tokenPos + replacement.length);
+          tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + replacement.length);
+          ++counter;
         } else {
           /*
           * Else if the token is not surrounded by whitespaces on both sides,
           * don't treat it as a token & move on to the next possible token
           * */
-          tokenPos = editorContent.toLowerCase().indexOf(token.toLowerCase(), tokenPos + 1);
+          tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + 1);
         }
       }
     },
     getProcessableTextPieces: function getProcessableTextPieces(editor) {
+      var _this3 = this;
+
       var processableTextPieces = [];
       var walker = new tinymce__WEBPACK_IMPORTED_MODULE_2___default.a.dom.TreeWalker(editor.dom.getRoot());
 
@@ -4560,69 +4615,80 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         });
       } while (walker.next());
 
+      processableTextPieces = processableTextPieces.filter(function (textPiece) {
+        return textPiece.length > 1;
+      }).filter(function (textPiece) {
+        return _this3.symbolPercentage(textPiece) < 0.1;
+      }).map(function (textPiece) {
+        return textPiece.replace(new RegExp("[^\\w]*$", "gm"), '').replace(new RegExp("^[^\\w]*", "gm"), '');
+      });
+      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_4__["uniq"])(processableTextPieces, function (textPiece) {
+        return textPiece.toLowerCase();
+      });
+      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_4__["chunk"])(processableTextPieces, 100);
       return processableTextPieces;
     },
     onEditorInit: function onEditorInit(e) {
       var editor = e.target;
-      this.processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_4__["chunk"])(this.getProcessableTextPieces(editor), 30);
+      this.processableTextPieces = this.getProcessableTextPieces(editor); // this.processableTextPieces = []
+
+      console.log(this.processableTextPieces);
       this.fetchRecommendationsFromServer();
     },
-    getSpellingRecommendations: function getSpellingRecommendations(text) {
+    getSpellingRecommendations: function getSpellingRecommendations(tokens) {
       return axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(this.recommenderUrl, {
-        text: text
+        tokens: tokens
       });
     },
     onCorrectionRecommendationChange: function onCorrectionRecommendationChange(tokenWithError) {
       tokenWithError.correction = tokenWithError.selectedRecommendation;
     },
     fetchRecommendationsFromServer: function fetchRecommendationsFromServer() {
-      var _this3 = this;
+      var _this4 = this;
 
       return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-        var _iterator, _step, textTokens, text, recommendationData;
+        var _iterator2, _step2, textTokens, tokens, recommendationData;
 
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _iterator = _createForOfIteratorHelper(_this3.processableTextPieces);
+                _iterator2 = _createForOfIteratorHelper(_this4.processableTextPieces);
                 _context.prev = 1;
 
-                _iterator.s();
+                _iterator2.s();
 
               case 3:
-                if ((_step = _iterator.n()).done) {
+                if ((_step2 = _iterator2.n()).done) {
                   _context.next = 13;
                   break;
                 }
 
-                textTokens = _step.value;
-                text = textTokens.map(function (token) {
-                  return token.replace(new RegExp("[^\\w]*$", "gm"), '').replace(new RegExp("^[^\\w]*", "gm"), '');
-                }).filter(function (token) {
-                  return token.length > 1;
-                }).filter(function (token) {
-                  return !_this3.tokenWithErrors.hasOwnProperty(token.toLowerCase());
-                }).join(' ');
+                textTokens = _step2.value;
+                tokens = textTokens.filter(function (token) {
+                  return !_this4.tokenWithErrors.hasOwnProperty(token.toLowerCase());
+                });
                 _context.next = 8;
-                return _this3.getSpellingRecommendations(text);
+                return _this4.getSpellingRecommendations(tokens);
 
               case 8:
                 recommendationData = _context.sent;
                 recommendationData.data.forEach(function (recommendationDatum) {
-                  if (_this3.tokenWithErrors.hasOwnProperty(recommendationDatum.token)) {
+                  if (_this4.tokenWithErrors.hasOwnProperty(recommendationDatum.token)) {
                     return;
                   }
 
-                  _this3.$set(_this3.tokenWithErrors, recommendationDatum.token, {
+                  _this4.$set(_this4.tokenWithErrors, recommendationDatum.token, {
+                    index: _this4.tokenWithErrorIndexCounter++,
+                    positions: [],
                     correction: recommendationDatum.recommendations[0],
                     selectedRecommendation: recommendationDatum.recommendations[0],
                     recommendations: recommendationDatum.recommendations
                   });
 
-                  _this3.markTokensThatHasSpellingError(_this3.$refs.vue_editor.editor, recommendationDatum.token);
+                  _this4.markTokensThatHasSpellingError(_this4.$refs.vue_editor.editor, recommendationDatum.token, _this4.tokenWithErrors[recommendationDatum.token]);
                 });
-                ++_this3.processedTextPiecesCount;
+                ++_this4.processedTextPiecesCount;
 
               case 11:
                 _context.next = 3;
@@ -4636,12 +4702,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                 _context.prev = 15;
                 _context.t0 = _context["catch"](1);
 
-                _iterator.e(_context.t0);
+                _iterator2.e(_context.t0);
 
               case 18:
                 _context.prev = 18;
 
-                _iterator.f();
+                _iterator2.f();
 
                 return _context.finish(18);
 
@@ -74268,12 +74334,6 @@ var render = function() {
                 }
               },
               [
-                _c("div", { staticClass: "card-header" }, [
-                  _vm._v(
-                    "\n                Rekomendasi Koreksi Ejaan\n            "
-                  )
-                ]),
-                _vm._v(" "),
                 _c("div", { staticClass: "card-body" }, [
                   Object.keys(this.tokenWithErrors).length > 0
                     ? _c(
@@ -74288,150 +74348,226 @@ var render = function() {
                           _c(
                             "table",
                             {
-                              staticClass: "table table-sm table-striped",
+                              staticClass: "table table-borderless",
                               staticStyle: { "table-layout": "fixed" }
                             },
                             [
-                              _vm._m(0),
-                              _vm._v(" "),
                               _c(
                                 "tbody",
-                                _vm._l(_vm.tokenWithErrors, function(
-                                  tokenWithError,
-                                  tokenString
-                                ) {
-                                  return _c("tr", { key: tokenString }, [
-                                    _c("td", [
-                                      _vm._v(" " + _vm._s(tokenString))
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("td", [
-                                      _c(
-                                        "select",
-                                        {
-                                          directives: [
-                                            {
-                                              name: "model",
-                                              rawName: "v-model",
-                                              value:
-                                                tokenWithError.selectedRecommendation,
-                                              expression:
-                                                "tokenWithError.selectedRecommendation"
-                                            }
-                                          ],
-                                          staticClass:
-                                            "form-control form-control-sm",
-                                          on: {
-                                            change: [
-                                              function($event) {
-                                                var $$selectedVal = Array.prototype.filter
-                                                  .call(
-                                                    $event.target.options,
-                                                    function(o) {
-                                                      return o.selected
-                                                    }
-                                                  )
-                                                  .map(function(o) {
-                                                    var val =
-                                                      "_value" in o
-                                                        ? o._value
-                                                        : o.value
-                                                    return val
-                                                  })
-                                                _vm.$set(
-                                                  tokenWithError,
-                                                  "selectedRecommendation",
-                                                  $event.target.multiple
-                                                    ? $$selectedVal
-                                                    : $$selectedVal[0]
-                                                )
-                                              },
-                                              function($event) {
-                                                return _vm.onCorrectionRecommendationChange(
-                                                  tokenWithError
-                                                )
-                                              }
-                                            ]
-                                          }
-                                        },
-                                        _vm._l(
-                                          tokenWithError.recommendations,
-                                          function(recommendation, recIndex) {
-                                            return _c(
-                                              "option",
+                                [
+                                  _vm._l(_vm.tokenWithErrors, function(
+                                    tokenWithError,
+                                    tokenString
+                                  ) {
+                                    return [
+                                      _c("tr", { key: tokenString }, [
+                                        _c(
+                                          "td",
+                                          {
+                                            staticClass: "font-weight-bold h5",
+                                            attrs: { colspan: "3" }
+                                          },
+                                          [
+                                            _vm._v(
+                                              "\n                                    " +
+                                                _vm._s(tokenString) +
+                                                "\n                                "
+                                            )
+                                          ]
+                                        )
+                                      ]),
+                                      _vm._v(" "),
+                                      _vm._l(tokenWithError.positions, function(
+                                        errorPosition,
+                                        index
+                                      ) {
+                                        return _c(
+                                          "tr",
+                                          { key: tokenString + "-" + index },
+                                          [
+                                            _c(
+                                              "td",
                                               {
-                                                key: recIndex,
-                                                domProps: {
-                                                  value: recommendation
-                                                }
+                                                staticClass:
+                                                  "d-flex justify-content-end"
                                               },
                                               [
-                                                _vm._v(
-                                                  "\n                                        " +
-                                                    _vm._s(recommendation) +
-                                                    "\n                                    "
+                                                _c(
+                                                  "button",
+                                                  {
+                                                    staticClass:
+                                                      "btn btn-dark btn-sm",
+                                                    staticStyle: {
+                                                      width: "100px"
+                                                    },
+                                                    attrs: { type: "button" },
+                                                    on: {
+                                                      click: function($event) {
+                                                        return _vm.jumpIntoText(
+                                                          tokenWithError.index,
+                                                          errorPosition.index
+                                                        )
+                                                      }
+                                                    }
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      "\n                                        #" +
+                                                        _vm._s(index + 1) +
+                                                        "\n                                    "
+                                                    )
+                                                  ]
                                                 )
                                               ]
-                                            )
-                                          }
-                                        ),
-                                        0
-                                      )
-                                    ]),
-                                    _vm._v(" "),
-                                    _c("td", [
-                                      _c(
-                                        "label",
-                                        {
-                                          staticClass: "sr-only",
-                                          attrs: {
-                                            for:
-                                              "input_correction_" + tokenString
-                                          }
-                                        },
-                                        [
-                                          _vm._v(
-                                            "\n                                    Correction\n                                "
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      _c("input", {
-                                        directives: [
-                                          {
-                                            name: "model",
-                                            rawName: "v-model",
-                                            value: tokenWithError.correction,
-                                            expression:
-                                              "tokenWithError.correction"
-                                          }
-                                        ],
-                                        staticClass:
-                                          "form-control form-control-sm",
-                                        attrs: {
-                                          id: "input_correction_" + tokenString,
-                                          type: "text"
-                                        },
-                                        domProps: {
-                                          value: tokenWithError.correction
-                                        },
-                                        on: {
-                                          input: function($event) {
-                                            if ($event.target.composing) {
-                                              return
-                                            }
-                                            _vm.$set(
-                                              tokenWithError,
-                                              "correction",
-                                              $event.target.value
-                                            )
-                                          }
-                                        }
+                                            ),
+                                            _vm._v(" "),
+                                            _c("td", [
+                                              _c(
+                                                "select",
+                                                {
+                                                  directives: [
+                                                    {
+                                                      name: "model",
+                                                      rawName: "v-model",
+                                                      value:
+                                                        errorPosition.selectedRecommendation,
+                                                      expression:
+                                                        "errorPosition.selectedRecommendation"
+                                                    }
+                                                  ],
+                                                  staticClass:
+                                                    "form-control form-control-sm",
+                                                  on: {
+                                                    change: [
+                                                      function($event) {
+                                                        var $$selectedVal = Array.prototype.filter
+                                                          .call(
+                                                            $event.target
+                                                              .options,
+                                                            function(o) {
+                                                              return o.selected
+                                                            }
+                                                          )
+                                                          .map(function(o) {
+                                                            var val =
+                                                              "_value" in o
+                                                                ? o._value
+                                                                : o.value
+                                                            return val
+                                                          })
+                                                        _vm.$set(
+                                                          errorPosition,
+                                                          "selectedRecommendation",
+                                                          $event.target.multiple
+                                                            ? $$selectedVal
+                                                            : $$selectedVal[0]
+                                                        )
+                                                      },
+                                                      function($event) {
+                                                        errorPosition.correction =
+                                                          errorPosition.selectedRecommendation
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                _vm._l(
+                                                  tokenWithError.recommendations,
+                                                  function(
+                                                    recommendation,
+                                                    recIndex
+                                                  ) {
+                                                    return _c(
+                                                      "option",
+                                                      {
+                                                        key: recIndex,
+                                                        domProps: {
+                                                          value: recommendation
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                                            " +
+                                                            _vm._s(
+                                                              recommendation
+                                                            ) +
+                                                            "\n                                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  }
+                                                ),
+                                                0
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c("td", [
+                                              _c(
+                                                "label",
+                                                {
+                                                  staticClass: "sr-only",
+                                                  attrs: {
+                                                    for:
+                                                      "input_correction_" +
+                                                      tokenString +
+                                                      "-" +
+                                                      index
+                                                  }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                                        Correction\n                                    "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value:
+                                                      errorPosition.correction,
+                                                    expression:
+                                                      "errorPosition.correction"
+                                                  }
+                                                ],
+                                                staticClass:
+                                                  "form-control form-control-sm",
+                                                attrs: {
+                                                  id:
+                                                    "input_correction_" +
+                                                    tokenString +
+                                                    "-" +
+                                                    index,
+                                                  type: "text"
+                                                },
+                                                domProps: {
+                                                  value:
+                                                    errorPosition.correction
+                                                },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.$set(
+                                                      errorPosition,
+                                                      "correction",
+                                                      $event.target.value
+                                                    )
+                                                  }
+                                                }
+                                              })
+                                            ])
+                                          ]
+                                        )
                                       })
-                                    ])
-                                  ])
-                                }),
-                                0
+                                    ]
+                                  })
+                                ],
+                                2
                               )
                             ]
                           )
@@ -74503,15 +74639,14 @@ var render = function() {
                 init: {
                   menubar: false,
                   content_style:
-                    ".has-spelling-error{text-decoration: underline;text-decoration-color: red;}",
+                    ".has-spelling-error{text-decoration: underline;text-decoration-color: red; text-decoration-style: wavy; text-decoration-thickness: 1px; } .has-highlight { background-color: yellow; }",
                   height: 640,
                   plugins: [
                     "advlist autolink lists link image charmap print preview anchor",
                     "searchreplace visualblocks code fullscreen",
-                    "insertdatetime media table paste code help wordcount",
-                    "textcolor"
+                    "insertdatetime media table paste code help wordcount"
                   ],
-                  toolbar: null
+                  toolbar: false
                 },
                 "api-key": "c3lgkroj62ttb5dfwxx5eeyc7cqkvqwjm6yyrpm0x8xypjnt"
               },
@@ -74530,22 +74665,7 @@ var render = function() {
       : _c("div", [_vm._v("\n        Loading...\n    ")])
   ])
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("thead", { staticClass: "thead thead-dark" }, [
-      _c("tr", [
-        _c("th", { staticStyle: { width: "100%" } }, [_vm._v(" Kata")]),
-        _vm._v(" "),
-        _c("th", { staticStyle: { width: "100%" } }, [_vm._v(" Rekomendasi")]),
-        _vm._v(" "),
-        _c("th", { staticStyle: { width: "100%" } }, [_vm._v(" Koreksi")])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -87316,8 +87436,8 @@ var tinymce_settings = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/atomicbomber/projects/spelling-corrector/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/atomicbomber/projects/spelling-corrector/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/atomicbomber/projects/spelling-corrector-alt/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/atomicbomber/projects/spelling-corrector-alt/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

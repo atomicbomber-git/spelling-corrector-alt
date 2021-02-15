@@ -43,12 +43,6 @@
                                 @lang("application.edit")
                             </a>
 
-                            <a href="{{ route("mahasiswa.show", $mahasiswa) }}"
-                               class="btn btn-primary btn-sm"
-                            >
-                                @lang("application.show")
-                            </a>
-
                             <form
                                     class="d-inline-block"
                                     x-data="{}"
@@ -59,7 +53,7 @@
                                 @csrf
                                 @method("DELETE")
 
-                                <button class="btn btn-outline-danger btn-sm">
+                                <button class="btn btn-danger btn-sm">
                                     @lang("application.destroy")
                                 </button>
                             </form>

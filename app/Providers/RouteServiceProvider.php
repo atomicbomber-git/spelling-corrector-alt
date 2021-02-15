@@ -9,15 +9,6 @@ use Illuminate\Support\Facades\Route;
 class RouteServiceProvider extends ServiceProvider
 {
     /**
-     * This namespace is applied to your controller routes.
-     *
-     * In addition, it is set as the URL generator's root namespace.
-     *
-     * @var string
-     */
-    protected $namespace = 'App\Http\Controllers';
-
-    /**
      * The path to the "home" route for your application.
      *
      * @var string
@@ -27,15 +18,13 @@ class RouteServiceProvider extends ServiceProvider
 
     public static function home()
     {
-        ray()->send(auth()->user()->toArray());
-
         switch (auth()->user()->level ?? null) {
             case User::LEVEL_MAHASISWA:
-                return route("dokumen-word.index");
+                return route("file-word.index");
             case User::LEVEL_ADMIN:
                 return route("mahasiswa.index");
             default:
-                return route("dokumen-word.index");
+                return route("file-word.index");
         }
     }
 

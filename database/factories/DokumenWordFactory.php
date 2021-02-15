@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\DokumenWord;
+use App\FileWord;
 use App\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -13,7 +13,7 @@ class DokumenWordFactory extends Factory
      *
      * @var string
      */
-    protected $model = DokumenWord::class;
+    protected $model = FileWord::class;
 
     /**
      * Define the model's default state.

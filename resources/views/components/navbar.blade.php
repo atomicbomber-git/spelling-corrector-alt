@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-sm">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
     <div class="container">
         <a class="navbar-brand"
            href="{{ url('/') }}">
@@ -22,7 +22,7 @@
                     <form method="POST"
                           action="{{ route("logout") }}">
                         @csrf
-                        <button class="btn btn-light btn-sm">
+                        <button class="btn btn-danger btn-sm">
                             @lang("application.log_out")
                         </button>
                     </form>

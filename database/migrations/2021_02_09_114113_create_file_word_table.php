@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateDokumenWordTable extends Migration
+class CreateFileWordTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateDokumenWordTable extends Migration
      */
     public function up()
     {
-        Schema::create('dokumen_word', function (Blueprint $table) {
+        Schema::create('file_word', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nama')->index();
             $table->unsignedInteger('user_id')->index();
@@ -30,6 +30,6 @@ class CreateDokumenWordTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('dokumen_words');
+        Schema::dropIfExists('file_word');
     }
 }

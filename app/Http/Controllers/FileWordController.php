@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Constants\MessageState;
-use App\DokumenWord;
+use App\FileWord;
 use App\Support\FileConverter;
 use App\Support\SessionHelper;
 use Illuminate\Http\Request;
@@ -15,7 +15,7 @@ use Illuminate\Validation\Rule;
 use NlpTools\Tokenizers\TokenizerInterface;
 use NlpTools\Tokenizers\WhitespaceTokenizer;
 
-class DokumenWordController extends Controller
+class FileWordController extends Controller
 {
     private ResponseFactory $responseFactory;
     private TokenizerInterface $tokenizer;
@@ -29,41 +29,41 @@ class DokumenWordController extends Controller
 
     public function index(): Response
     {
-        return $this->responseFactory->view("dokumen-word.index", [
-            "dokumen_words" => DokumenWord::query()
+        return $this->responseFactory->view("file-word.index", [
+            "file_words" => FileWord::query()
                 ->orderByDesc("updated_at")
                 ->orderByDesc("created_at")
                 ->paginate()
         ]);
     }
 
-    public function show(Request $request, DokumenWord $dokumen_word)
+    public function show(Request $request, FileWord $file_word)
     {
         if ($request->ajax()) {
-            return $this->responseFactory->json($dokumen_word);
+            return $this->responseFactory->json($file_word);
         }
 
-        return $this->responseFactory->view("dokumen-word.show", [
-            "dokumen_word" => $dokumen_word->makeHidden("konten_html"),
+        return $this->responseFactory->view("file-word.show", [
+            "file_word" => $file_word->makeHidden("konten_html"),
         ]);
     }
 
     public function create()
     {
-        return $this->responseFactory->view("dokumen-word.create");
+        return $this->responseFactory->view("file-word.create");
     }
 
-    public function edit(DokumenWord $dokumen_word)
+    public function edit(FileWord $file_word)
     {
-        return $this->responseFactory->view("dokumen-word.edit", [
-            "dokumen_word" => $dokumen_word,
+        return $this->responseFactory->view("file-word.edit", [
+            "file_word" => $file_word,
         ]);
     }
 
     public function store(Request $request)
     {
         $data = $request->validate([
-            "nama" => ["required", "string", "unique:dokumen_word"],
+            "nama" => ["required", "string", Rule::unique(FileWord::class)],
             "berkas" => ["required", "file", "mimetypes:application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
         ], [
             "berkas.mimetypes" => "Berkas harus dalam format .docx",
@@ -71,7 +71,7 @@ class DokumenWordController extends Controller
 
         DB::beginTransaction();
 
-        $dokumenWord = DokumenWord::query()
+        $dokumenWord = FileWord::query()
             ->create([
                 "user_id" => Auth::id(),
                 "nama" => $data["nama"],
@@ -82,7 +82,7 @@ class DokumenWordController extends Controller
 
         $dokumenWord
             ->addMediaFromRequest("berkas")
-            ->toMediaCollection(DokumenWord::COLLECTION_WORD_FILE);
+            ->toMediaCollection(FileWord::COLLECTION_WORD_FILE);
 
         DB::commit();
 
@@ -92,15 +92,15 @@ class DokumenWordController extends Controller
         );
 
         return $this->responseFactory->redirectToRoute(
-            "dokumen-word.show",
+            "file-word.show",
             $dokumenWord
         );
     }
 
-    public function update(Request $request, DokumenWord $dokumen_word)
+    public function update(Request $request, FileWord $file_word)
     {
         $data = $request->validate([
-            "nama" => ["required", "string", Rule::unique(DokumenWord::class)->ignoreModel($dokumen_word)],
+            "nama" => ["required", "string", Rule::unique(FileWord::class)->ignoreModel($file_word)],
             "berkas" => ["nullable", "file", "mimetypes:application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
         ], [
             "berkas.mimetypes" => "Berkas harus dalam format .docx",
@@ -108,23 +108,23 @@ class DokumenWordController extends Controller
 
         DB::beginTransaction();
 
-        $dokumen_word->fill([
+        $file_word->fill([
             "nama" => $data["nama"]
         ]);
 
         if ($request->hasFile("berkas")) {
-            $dokumen_word->fill([
+            $file_word->fill([
                 "konten_html" => FileConverter::wordToHTML(
                     $request->file("berkas")->getRealPath(),
                 )
             ]);
 
-            $dokumen_word
+            $file_word
                 ->addMediaFromRequest("berkas")
-                ->toMediaCollection(DokumenWord::COLLECTION_WORD_FILE);
+                ->toMediaCollection(FileWord::COLLECTION_WORD_FILE);
         }
 
-        $dokumen_word->save();
+        $file_word->save();
 
         DB::commit();
 
@@ -133,15 +133,15 @@ class DokumenWordController extends Controller
             MessageState::STATE_SUCCESS,
         );
 
-        return $this->responseFactory->redirectToRoute("dokumen-word.show", $dokumen_word);
+        return $this->responseFactory->redirectToRoute("file-word.show", $file_word);
     }
 
-    public function destroy(DokumenWord $dokumen_word)
+    public function destroy(FileWord $file_word)
     {
         DB::beginTransaction();
 
-        $dokumen_word->media()->delete();
-        $dokumen_word->delete();
+        $file_word->media()->delete();
+        $file_word->delete();
 
         DB::commit();
 
@@ -150,6 +150,6 @@ class DokumenWordController extends Controller
             MessageState::STATE_SUCCESS,
         );
 
-        return $this->responseFactory->redirectToRoute("dokumen-word.index");
+        return $this->responseFactory->redirectToRoute("file-word.index");
     }
 }

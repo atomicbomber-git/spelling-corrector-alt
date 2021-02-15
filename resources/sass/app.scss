@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -7,11 +7,20 @@
 // Font Awesome 5
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
-body {
-  font-family: "Lato", monospace;
+html {
+  background: linear-gradient(45deg, #e2eeed, transparent);
 }
 
-.has-spelling-error{text-decoration: underline;text-decoration-color: red;}
+body {
+  height: 100vh;
+  font-family: "Quicksand", monospace;
+  background: none;
+}
+
+.has-spelling-error {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
 
 // Custom rules
 .feature-title {

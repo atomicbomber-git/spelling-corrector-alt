@@ -24,10 +24,13 @@ class RekomendasiPembenaranController extends Controller
     public function __invoke(Request $request)
     {
         $data = $request->validate([
-            "text" => ["required", "string"]
+            "tokens" => ["required", "array"],
+            "tokens.*" => ["required", "string"]
         ]);
 
-        $recommender = new RekomendatorKoreksiEjaan($data["text"]);
+        $recommender = new RekomendatorKoreksiEjaan(
+            $data["tokens"]
+        );
 
         return $this->responseFactory->json($recommender->recommendations());
     }

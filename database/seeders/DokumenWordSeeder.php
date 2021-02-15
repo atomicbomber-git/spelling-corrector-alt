@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\DokumenWord;
+use App\FileWord;
 use Database\Factories\DokumenWordFactory;
 use DOMDocument;
 use Faker\Generator as Faker;
@@ -30,14 +30,14 @@ class DokumenWordSeeder extends Seeder
      */
     public function run()
     {
-        DokumenWord::query()->delete();
+        FileWord::query()->delete();
 
         DB::beginTransaction();
 
         DokumenWordFactory::new()
             ->count(10)
             ->create()
-            ->each(function (DokumenWord $dokumenWord) {
+            ->each(function (FileWord $dokumenWord) {
                 $tempDocxFilename = "temp.docx";
                 $tempHTMLFilename = "temp.html";
                 $docxObject = $this->getRandomWordDocument();
@@ -55,7 +55,7 @@ class DokumenWordSeeder extends Seeder
                 $dokumenWord
                     ->addMediaFromDisk($tempDocxFilename, "seeders")
                     ->usingFileName(Str::snake($dokumenWord->nama) . ".docx")
-                    ->toMediaCollection(DokumenWord::COLLECTION_WORD_FILE);
+                    ->toMediaCollection(FileWord::COLLECTION_WORD_FILE);
 
                 unlink(__DIR__ . DIRECTORY_SEPARATOR . $tempHTMLFilename);
             });

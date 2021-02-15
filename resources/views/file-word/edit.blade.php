@@ -2,24 +2,24 @@
 
 @section("content")
     <h1 class="feature-title">
-        <a href="{{ route("dokumen-word.index") }}">
-            @lang("application.dokumen_word")
+        <a href="{{ route("file-word.index") }}">
+            @lang("application.file_word")
         </a>
 
         /
 
-        @lang("application.create")
+        @lang("application.edit")
     </h1>
 
     <div class="card">
         <div class="card-body">
             <form
                     enctype="multipart/form-data"
-                    action="{{ route("dokumen-word.store") }}"
+                    action="{{ route("file-word.update", $file_word) }}"
                     method="POST"
             >
                 @csrf
-                @method("POST")
+                @method("PATCH")
 
                 <div class="form-group">
                     <label for="nama"> @lang("application.name") </label>
@@ -29,7 +29,7 @@
                             placeholder="@lang("application.name")"
                             class="form-control @error("nama") is-invalid @enderror"
                             name="nama"
-                            value="{{ old("nama") }}"
+                            value="{{ old("nama", $file_word->nama) }}"
                     />
                     @error("nama")
                     <span class="invalid-feedback">
@@ -60,9 +60,13 @@
                     </small>
                 </div>
 
+                <div class="alert alert-warning">
+                    <strong> Kosongkan </strong> kolom di atas jika Anda tidak ingin merevisi dokumen word.
+                </div>
+
                 <div class="d-flex justify-content-end">
                     <button class="btn btn-primary">
-                        @lang("application.create")
+                        @lang("application.update")
                     </button>
                 </div>
             </form>

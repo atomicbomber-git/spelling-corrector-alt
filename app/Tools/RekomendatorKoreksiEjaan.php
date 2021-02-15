@@ -13,15 +13,15 @@ use NlpTools\Tokenizers\TokenizerInterface;
 class RekomendatorKoreksiEjaan
 {
     public const MAX_RECOMMENDATIONS = 10;
-    public const JARO_WINKLER_WEIGHT = 0.7;
-    public const NGRAM_FREQUENCY_WEIGHT = 0.3;
+    public const BOBOT_SIMILARITAS_DB = 0.8;
+    public const BOBOT_FREKUENSI_NGRAM = 0.2;
 
     public string $text;
     public array $tokens;
 
     public TokenizerInterface $tokenizer;
 
-    public function __construct(string $text)
+    public function __construct(array $tokens)
     {
         $this->tokenizer = new RegexTokenizer(
             array_map(fn($pattern) => "/" . preg_quote($pattern) . "/", [
@@ -29,13 +29,12 @@ class RekomendatorKoreksiEjaan
             ])
         );
 
-        $this->text = $text;
+        $this->tokens = $tokens;
         $this->preprocess();
     }
 
     private function preprocess()
     {
-        $this->tokens = $this->tokenizer->tokenize($this->text);
         $this->tokens = $this->filterTokens($this->tokens);
     }
 
@@ -92,7 +91,6 @@ class RekomendatorKoreksiEjaan
     public function getRecommendations(string $cleanedToken, ?string $prev_word_1, ?string $prev_word_2): array
     {
         $most_similar_words = $this->getMostSimilarWords($cleanedToken, self::MAX_RECOMMENDATIONS)->pluck("points", "word");
-        ray()->send($most_similar_words);
         $most_frequent_ngram_frequencies = $this->getMostFrequentNgramFrequencies($prev_word_1, $prev_word_2)->pluck("points", "word");
 
         return (new Collection())
@@ -102,8 +100,8 @@ class RekomendatorKoreksiEjaan
                 return [
                     "word" => $word,
                     "points" =>
-                        ($most_similar_words[$word] ?? 0 * self::JARO_WINKLER_WEIGHT) +
-                        ($most_frequent_ngram_frequencies[$word] ?? 0 * self::NGRAM_FREQUENCY_WEIGHT)
+                        ($most_similar_words[$word] ?? 0 * self::BOBOT_SIMILARITAS_DB) +
+                        ($most_frequent_ngram_frequencies[$word] ?? 0 * self::BOBOT_FREKUENSI_NGRAM)
                 ];
             })
             ->sortByDesc("points")

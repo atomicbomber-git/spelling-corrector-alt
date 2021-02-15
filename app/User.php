@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -21,6 +22,11 @@ class User extends Authenticatable
 
     protected $guarded = [
     ];
+
+    public function dokumen_words(): HasMany
+    {
+        return $this->hasMany(FileWord::class);
+    }
 
     /**
      * The attributes that should be hidden for arrays.

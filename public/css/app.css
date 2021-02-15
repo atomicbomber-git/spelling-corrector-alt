@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);/*!
+@import url(https://fonts.googleapis.com/css?family=Quicksand);/*!
  * Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
@@ -15537,8 +15537,14 @@ a.text-dark:focus {
   }
 }
 
+html {
+  background: linear-gradient(45deg, #e2eeed, transparent);
+}
+
 body {
-  font-family: "Lato", monospace;
+  height: 100vh;
+  font-family: "Quicksand", monospace;
+  background: none;
 }
 
 .has-spelling-error {

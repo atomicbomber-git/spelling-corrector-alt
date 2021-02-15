@@ -4,10 +4,6 @@
             <form class="d-block card mb-3"
                   @submit.prevent="onFormSubmit"
             >
-                <div class="card-header">
-                    Rekomendasi Koreksi Ejaan
-                </div>
-
                 <div class="card-body">
                     <!-- Corrections / Recommendations -->
                     <div
@@ -15,52 +11,64 @@
                         style="height: 200px; overflow-y: scroll"
                     >
                         <table
-                            class="table table-sm table-striped"
+                            class="table table-borderless"
                             style="table-layout: fixed"
                         >
-                            <thead class="thead thead-dark">
-                            <tr>
-                                <th style="width: 100%"> Kata</th>
-                                <th style="width: 100%"> Rekomendasi</th>
-                                <th style="width: 100%"> Koreksi</th>
-                            </tr>
-                            </thead>
+
 
                             <tbody>
-                            <tr
-                                v-for="(tokenWithError, tokenString) in tokenWithErrors"
-                                :key="tokenString"
-                            >
-                                <td> {{ tokenString }}</td>
-                                <td>
-                                    <select
-                                        v-model="tokenWithError.selectedRecommendation"
-                                        class="form-control form-control-sm"
-                                        @change="onCorrectionRecommendationChange(tokenWithError)"
+
+                            <template v-for="(tokenWithError, tokenString) in tokenWithErrors">
+                                <tr :key="tokenString">
+                                    <td class="font-weight-bold h5"
+                                        colspan="3"
                                     >
-                                        <option
-                                            v-for="(recommendation, recIndex) in tokenWithError.recommendations"
-                                            :key="recIndex"
-                                            :value="recommendation"
+                                        {{ tokenString }}
+                                    </td>
+                                </tr>
+                                <tr v-for="(errorPosition, index) in tokenWithError.positions"
+                                    :key="`${tokenString}-${index}`"
+                                >
+                                    <td class="d-flex justify-content-end">
+                                        <button
+                                            style="width: 100px"
+                                            class="btn btn-dark btn-sm"
+                                            type="button"
+                                            @click="jumpIntoText(tokenWithError.index, errorPosition.index)"
                                         >
-                                            {{ recommendation }}
-                                        </option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <label :for="`input_correction_${tokenString}`"
-                                           class="sr-only"
-                                    >
-                                        Correction
-                                    </label>
-                                    <input
-                                        :id="`input_correction_${tokenString}`"
-                                        v-model="tokenWithError.correction"
-                                        class="form-control form-control-sm"
-                                        type="text"
-                                    >
-                                </td>
-                            </tr>
+                                            #{{ index + 1 }}
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <select
+                                            v-model="errorPosition.selectedRecommendation"
+                                            class="form-control form-control-sm"
+                                            @change="errorPosition.correction = errorPosition.selectedRecommendation"
+                                        >
+                                            <option
+                                                v-for="(recommendation, recIndex) in tokenWithError.recommendations"
+                                                :key="recIndex"
+                                                :value="recommendation"
+                                            >
+                                                {{ recommendation }}
+                                            </option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <label :for="`input_correction_${tokenString}-${index}`"
+                                               class="sr-only"
+                                        >
+                                            Correction
+                                        </label>
+                                        <input
+                                            :id="`input_correction_${tokenString}-${index}`"
+                                            v-model="errorPosition.correction"
+                                            class="form-control form-control-sm"
+                                            type="text"
+                                        >
+                                    </td>
+                                </tr>
+                            </template>
                             </tbody>
                         </table>
                     </div>
@@ -109,15 +117,14 @@
                 :disabled="true"
                 :init="{
                     menubar: false,
-            content_style: '.has-spelling-error{text-decoration: underline;text-decoration-color: red;}',
+            content_style: '.has-spelling-error{text-decoration: underline;text-decoration-color: red; text-decoration-style: wavy; text-decoration-thickness: 1px; } .has-highlight { background-color: yellow; }',
          height: 640,
          plugins: [
            'advlist autolink lists link image charmap print preview anchor',
            'searchreplace visualblocks code fullscreen',
            'insertdatetime media table paste code help wordcount',
-           'textcolor',
          ],
-         toolbar: null,
+         toolbar: false,
        }"
                 api-key="c3lgkroj62ttb5dfwxx5eeyc7cqkvqwjm6yyrpm0x8xypjnt"
                 @onInit="onEditorInit"
@@ -133,7 +140,7 @@
 import axios from "axios"
 import tinymce from "tinymce"
 import editor from "@tinymce/tinymce-vue"
-import {chunk} from "lodash"
+import {chunk, uniq, take} from "lodash"
 
 export default {
     components: {
@@ -159,6 +166,8 @@ export default {
             tokenWithErrors: {},
             processableTextPieces: [],
             processedTextPiecesCount: 0,
+
+            tokenWithErrorIndexCounter: 0,
         }
     },
 
@@ -169,16 +178,49 @@ export default {
 
         formData() {
             return {
-                correction_list: Object.keys(this.tokenWithErrors)
+                corrections: Object.keys(this.tokenWithErrors)
                     .map(token => ({
                         original: token,
-                        replacement: this.tokenWithErrors[token].correction,
+                        replacements: this.tokenWithErrors[token]
+                            .positions
+                            .filter(errorPosition =>
+                                (errorPosition.correction !== null) &&
+                                (errorPosition.correction.length > 0)
+                            )
+                            .map(errorPosition => ({
+                                index: errorPosition.index,
+                                correction: errorPosition.correction,
+                            }))
                     }))
+                    .filter(correction => correction.replacements.length > 0)
             }
         }
     },
 
     methods: {
+        symbolPercentage(text) {
+            let filtered = text
+            filtered = filtered
+                .replaceAll(/[^\w]+/g, '')
+                .replaceAll(/\d+/g, '')
+
+          return 1 - (filtered.replaceAll(/[^\w]+/g, '').length / text.length)
+        },
+
+        jumpIntoText(tokenIndex, positionIndex) {
+            let body = this.$refs.vue_editor.editor.getBody()
+            let element = body
+                .querySelector(`.has-spelling-error-${tokenIndex}-${positionIndex}`)
+
+            element.scrollIntoView(false)
+
+            for (const elem of body.querySelectorAll(".has-spelling-error")) {
+                elem.classList.remove("has-highlight")
+            }
+
+            element.classList.add("has-highlight")
+        },
+
         onFormSubmit() {
             axios.post(this.correctorUrl, this.formData)
                 .then(response => {
@@ -196,29 +238,41 @@ export default {
             return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?'].includes(character)
         },
 
-        markTokensThatHasSpellingError: function (editor, token) {
+        markTokensThatHasSpellingError: function (editor, tokenString, tokenWithError) {
             const markerClass = "has-spelling-error"
             let editorContent = editor.getContent()
-            let tokenPos = editorContent.toLowerCase().indexOf(token.toLowerCase())
+            let tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase())
+            let counter = 0
+
             while (tokenPos !== -1) {
+                console.log([tokenString, tokenPos])
+
                 if (
                     (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1])) &&
-                    (tokenPos < (editorContent.length - 1) && this.isValidRightDelimiter(editorContent[tokenPos + token.length]))
+                    (tokenPos < (editorContent.length - 1) && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length]))
                 ) {
+                    this.tokenWithErrors[tokenString].positions.push({
+                        index: counter,
+                        selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
+                        correction: this.tokenWithErrors[tokenString].recommendations[0],
+                    })
+
                     /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
                     *  token and proceed to mark it using <span> tags
                     * */
-                    let tokenAsInContent = editorContent.slice(tokenPos, tokenPos + token.length)
-                    let replacement = `<span class="${markerClass}"> ${tokenAsInContent} </span>`
+                    let tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length)
+                    let replacement = `<span class="${markerClass} ${markerClass}-${tokenWithError.index}-${counter}"> ${tokenAsInContent} </span>`
                     let contentLowerHalf = editorContent.slice(0, tokenPos)
-                    let contentUpperHalf = editorContent.slice(tokenPos + token.length)
+                    let contentUpperHalf = editorContent.slice(tokenPos + tokenString.length)
                     let newEditorContent = contentLowerHalf + replacement + contentUpperHalf
                     editor.setContent(newEditorContent)
                     editorContent = newEditorContent
                     tokenPos = editorContent.toLowerCase().indexOf(
-                        token.toLowerCase(),
+                        tokenString.toLowerCase(),
                         tokenPos + replacement.length
                     )
+
+                    ++counter
                 } else {
                     /*
                     * Else if the token is not surrounded by whitespaces on both sides,
@@ -226,7 +280,7 @@ export default {
                     * */
 
                     tokenPos = editorContent.toLowerCase().indexOf(
-                        token.toLowerCase(),
+                        tokenString.toLowerCase(),
                         tokenPos + 1
                     )
                 }
@@ -252,19 +306,34 @@ export default {
                 })
             } while (walker.next());
 
+
+            processableTextPieces = processableTextPieces
+                .filter(textPiece => textPiece.length > 1)
+                .filter(textPiece => this.symbolPercentage(textPiece) < 0.1)
+                .map(textPiece => textPiece
+                        .replace(new RegExp("[^\\w]*$", "gm"), '')
+                        .replace(new RegExp("^[^\\w]*", "gm"), '')
+                )
+
+            processableTextPieces = uniq(processableTextPieces, textPiece => textPiece.toLowerCase())
+            processableTextPieces = chunk(processableTextPieces, 100)
+
             return processableTextPieces
         },
 
-
         onEditorInit(e) {
             let editor = e.target
-            this.processableTextPieces = chunk(this.getProcessableTextPieces(editor), 30)
+            this.processableTextPieces = this.getProcessableTextPieces(editor)
+            // this.processableTextPieces = []
+
+            console.log(this.processableTextPieces)
+
             this.fetchRecommendationsFromServer()
         },
 
-        getSpellingRecommendations(text) {
+        getSpellingRecommendations(tokens) {
             return axios.post(this.recommenderUrl, {
-                text: text
+                tokens: tokens
             })
         },
 
@@ -274,16 +343,10 @@ export default {
 
         async fetchRecommendationsFromServer() {
             for (const textTokens of this.processableTextPieces) {
-                const text = textTokens
-                    .map(token => token
-                        .replace(new RegExp("[^\\w]*$", "gm"), '')
-                        .replace(new RegExp("^[^\\w]*", "gm"), '')
-                    )
-                    .filter(token => token.length > 1)
-                    .filter(token => !this.tokenWithErrors.hasOwnProperty(token.toLowerCase())
-                    ).join(' ')
+                const tokens = textTokens
+                    .filter(token => !this.tokenWithErrors.hasOwnProperty(token.toLowerCase()))
 
-                const recommendationData = await this.getSpellingRecommendations(text)
+                const recommendationData = await this.getSpellingRecommendations(tokens)
 
                 recommendationData.data.forEach(recommendationDatum => {
                     if (this.tokenWithErrors.hasOwnProperty(recommendationDatum.token)) {
@@ -291,6 +354,8 @@ export default {
                     }
 
                     this.$set(this.tokenWithErrors, recommendationDatum.token, {
+                        index: this.tokenWithErrorIndexCounter++,
+                        positions: [],
                         correction: recommendationDatum.recommendations[0],
                         selectedRecommendation: recommendationDatum.recommendations[0],
                         recommendations: recommendationDatum.recommendations
@@ -299,11 +364,14 @@ export default {
                     this.markTokensThatHasSpellingError(
                         this.$refs.vue_editor.editor,
                         recommendationDatum.token,
+                        this.tokenWithErrors[recommendationDatum.token],
                     )
                 })
                 ++this.processedTextPiecesCount
             }
-        }
+
+
+        },
     }
 }
 </script>

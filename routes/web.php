@@ -1,9 +1,9 @@
 <?php
 
-use App\Http\Controllers\DokumenWordController;
-use App\Http\Controllers\DokumenWordDownloadController;
+use App\Http\Controllers\FileWordController;
+use App\Http\Controllers\FileWordDownloadController;
 use App\Http\Controllers\ImportWordsFromDocumentController;
-use App\Http\Controllers\DokumenKoreksiEjaanController;
+use App\Http\Controllers\FileWordKoreksiEjaanController;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\RekomendasiPembenaranController;
 use App\Http\Controllers\WordController;
@@ -27,9 +27,7 @@ Auth::routes([
 
 Route::redirect("/", "/login");
 Route::resource("mahasiswa", MahasiswaController::class);
-Route::resource("dokumen-word", class_basename(DokumenWordController::class));
-Route::get("dokumen-word/{dokumen_word}/download", class_basename(DokumenWordDownloadController::class))->name("dokumen-word.download");
-Route::post("dokumen-word/{dokumen_word}/koreksi", class_basename(DokumenKoreksiEjaanController::class))->name("dokumen-word.koreksi-ejaan");
-Route::post("rekomendasi-pembenaran", class_basename(RekomendasiPembenaranController::class))->name("rekomendasi-pembenaran");
-Route::resource("/word", class_basename(WordController::class));
-Route::post("/import-words-from-document", class_basename(ImportWordsFromDocumentController::class))->name("import-words-from-document");
+Route::resource("file-word", FileWordController::class);
+Route::get("file-word/{file_word}/download", FileWordDownloadController::class)->name("file-word.download");
+Route::post("file-word/{file_word}/koreksi", FileWordKoreksiEjaanController::class)->name("file-word.koreksi-ejaan");
+Route::post("rekomendasi-pembenaran", RekomendasiPembenaranController::class)->name("rekomendasi-pembenaran");

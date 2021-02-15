@@ -1,3 +1,3 @@
-<thead class="bg-primary text-light">
+<thead class="thead-dark">
     {{ $slot }}
 </thead>

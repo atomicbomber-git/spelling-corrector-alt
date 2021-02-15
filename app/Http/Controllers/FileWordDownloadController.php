@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\DokumenWord;
+use App\FileWord;
 use Illuminate\Http\Request;
 use Illuminate\Routing\ResponseFactory;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
-class DokumenWordDownloadController extends Controller
+class FileWordDownloadController extends Controller
 {
     private ResponseFactory $responseFactory;
 
@@ -20,13 +20,13 @@ class DokumenWordDownloadController extends Controller
      * Handle the incoming request.
      *
      * @param Request $request
-     * @param DokumenWord $dokumen_word
+     * @param FileWord $file_word
      * @return BinaryFileResponse
      */
-    public function __invoke(Request $request, DokumenWord $dokumen_word)
+    public function __invoke(Request $request, FileWord $file_word)
     {
         return $this->responseFactory->download(
-            $dokumen_word->getFirstMediaPath(DokumenWord::COLLECTION_WORD_FILE)
+            $file_word->getFirstMediaPath(FileWord::COLLECTION_WORD_FILE)
         );
     }
 }
