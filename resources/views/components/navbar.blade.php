@@ -23,6 +23,10 @@
                           action="{{ route("logout") }}">
                         @csrf
                         <button class="btn btn-danger btn-sm">
+                            <x-auth-info/>
+
+                            |
+
                             @lang("application.log_out")
                         </button>
                     </form>

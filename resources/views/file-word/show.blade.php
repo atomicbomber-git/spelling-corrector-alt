@@ -16,12 +16,12 @@
     <div id="app">
         <h2> {{ $file_word->nama }} </h2>
 
-        <dokumen-word-show
+        <file-word-show
                 data-url="{{ route("file-word.show", $file_word)}}"
                 recommender-url="{{ route("rekomendasi-pembenaran") }}"
                 corrector-url="{{ route("file-word.koreksi-ejaan", $file_word) }}"
         >
 
-        </dokumen-word-show>
+        </file-word-show>
     </div>
 @endsection

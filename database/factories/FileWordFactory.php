@@ -6,7 +6,7 @@ use App\FileWord;
 use App\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class DokumenWordFactory extends Factory
+class FileWordFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.

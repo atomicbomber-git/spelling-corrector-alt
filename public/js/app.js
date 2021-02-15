@@ -4292,10 +4292,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/DokumenWordShow.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/DokumenWordShow.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FileWordShow.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FileWordShow.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4550,47 +4550,60 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       });
     },
     isValidLeftDelimiter: function isValidLeftDelimiter(character) {
-      return [' ', '"', '>', '\'', '(', ':'].includes(character);
+      return [' ', '"', '>', '\'', '(', ':', '-'].includes(character);
     },
     isValidRightDelimiter: function isValidRightDelimiter(character) {
-      return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?'].includes(character);
+      return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?', '-'].includes(character);
     },
-    markTokensThatHasSpellingError: function markTokensThatHasSpellingError(editor, tokenString, tokenWithError) {
+    markTokensThatHasSpellingErrorMultiple: function markTokensThatHasSpellingErrorMultiple(tokenStrings) {
       var markerClass = "has-spelling-error";
+      var editor = this.$refs.vue_editor.editor;
       var editorContent = editor.getContent();
-      var tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase());
-      var counter = 0;
 
-      while (tokenPos !== -1) {
-        console.log([tokenString, tokenPos]);
+      var _iterator2 = _createForOfIteratorHelper(tokenStrings),
+          _step2;
 
-        if (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1]) && tokenPos < editorContent.length - 1 && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length])) {
-          this.tokenWithErrors[tokenString].positions.push({
-            index: counter,
-            selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
-            correction: this.tokenWithErrors[tokenString].recommendations[0]
-          });
-          /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
-          *  token and proceed to mark it using <span> tags
-          * */
+      try {
+        for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+          var tokenString = _step2.value;
+          var tokenWithError = this.tokenWithErrors[tokenString];
+          var tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase());
+          var counter = 0;
 
-          var tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length);
-          var replacement = "<span class=\"".concat(markerClass, " ").concat(markerClass, "-").concat(tokenWithError.index, "-").concat(counter, "\"> ").concat(tokenAsInContent, " </span>");
-          var contentLowerHalf = editorContent.slice(0, tokenPos);
-          var contentUpperHalf = editorContent.slice(tokenPos + tokenString.length);
-          var newEditorContent = contentLowerHalf + replacement + contentUpperHalf;
-          editor.setContent(newEditorContent);
-          editorContent = newEditorContent;
-          tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + replacement.length);
-          ++counter;
-        } else {
-          /*
-          * Else if the token is not surrounded by whitespaces on both sides,
-          * don't treat it as a token & move on to the next possible token
-          * */
-          tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + 1);
+          while (tokenPos !== -1) {
+            if (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1]) && tokenPos < editorContent.length - 1 && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length])) {
+              this.tokenWithErrors[tokenString].positions.push({
+                index: counter,
+                selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
+                correction: this.tokenWithErrors[tokenString].recommendations[0]
+              });
+              /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
+              *  token and proceed to mark it using <span> tags
+              * */
+
+              var tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length);
+              var replacement = "<span class=\"".concat(markerClass, " ").concat(markerClass, "-").concat(tokenWithError.index, "-").concat(counter, "\"> ").concat(tokenAsInContent, " </span>");
+              var contentLowerHalf = editorContent.slice(0, tokenPos);
+              var contentUpperHalf = editorContent.slice(tokenPos + tokenString.length);
+              editorContent = contentLowerHalf + replacement + contentUpperHalf;
+              tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + replacement.length);
+              ++counter;
+            } else {
+              /*
+              * Else if the token is not surrounded by whitespaces on both sides,
+              * don't treat it as a token & move on to the next possible token
+              * */
+              tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + 1);
+            }
+          }
         }
+      } catch (err) {
+        _iterator2.e(err);
+      } finally {
+        _iterator2.f();
       }
+
+      editor.setContent(editorContent);
     },
     getProcessableTextPieces: function getProcessableTextPieces(editor) {
       var _this3 = this;
@@ -4630,9 +4643,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
     },
     onEditorInit: function onEditorInit(e) {
       var editor = e.target;
-      this.processableTextPieces = this.getProcessableTextPieces(editor); // this.processableTextPieces = []
-
-      console.log(this.processableTextPieces);
+      this.processableTextPieces = this.getProcessableTextPieces(editor);
       this.fetchRecommendationsFromServer();
     },
     getSpellingRecommendations: function getSpellingRecommendations(tokens) {
@@ -4647,24 +4658,24 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       var _this4 = this;
 
       return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-        var _iterator2, _step2, textTokens, tokens, recommendationData;
+        var _iterator3, _step3, textTokens, tokens, recommendationData;
 
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _iterator2 = _createForOfIteratorHelper(_this4.processableTextPieces);
+                _iterator3 = _createForOfIteratorHelper(_this4.processableTextPieces);
                 _context.prev = 1;
 
-                _iterator2.s();
+                _iterator3.s();
 
               case 3:
-                if ((_step2 = _iterator2.n()).done) {
+                if ((_step3 = _iterator3.n()).done) {
                   _context.next = 13;
                   break;
                 }
 
-                textTokens = _step2.value;
+                textTokens = _step3.value;
                 tokens = textTokens.filter(function (token) {
                   return !_this4.tokenWithErrors.hasOwnProperty(token.toLowerCase());
                 });
@@ -4684,9 +4695,10 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
                     correction: recommendationDatum.recommendations[0],
                     selectedRecommendation: recommendationDatum.recommendations[0],
                     recommendations: recommendationDatum.recommendations
-                  });
+                  }); // this.markTokensThatHasSpellingError(
+                  //     recommendationDatum.token,
+                  // )
 
-                  _this4.markTokensThatHasSpellingError(_this4.$refs.vue_editor.editor, recommendationDatum.token, _this4.tokenWithErrors[recommendationDatum.token]);
                 });
                 ++_this4.processedTextPiecesCount;
 
@@ -4702,208 +4714,25 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
                 _context.prev = 15;
                 _context.t0 = _context["catch"](1);
 
-                _iterator2.e(_context.t0);
+                _iterator3.e(_context.t0);
 
               case 18:
                 _context.prev = 18;
 
-                _iterator2.f();
+                _iterator3.f();
 
                 return _context.finish(18);
 
               case 21:
+                _this4.markTokensThatHasSpellingErrorMultiple(Object.keys(_this4.tokenWithErrors));
+
+              case 22:
               case "end":
                 return _context.stop();
             }
           }
         }, _callee, null, [[1, 15, 18, 21]]);
       }))();
-    }
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SpellingCorrectorForm.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SpellingCorrectorForm.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_1__);
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      text: null,
-      tokens: [],
-      selectedToken: null
-    };
-  },
-  methods: {
-    get: lodash__WEBPACK_IMPORTED_MODULE_1__["get"],
-    onFormSubmit: function onFormSubmit() {
-      this.provideCorrections(this.text);
-    },
-    tokenDisplay: function tokenDisplay(token) {
-      if (token.pickedCorrection === null) {
-        return token.original;
-      }
-
-      var uppercaseMask = [];
-
-      for (var i = 0; i < token.original.length; ++i) {
-        uppercaseMask.push(token.original[i] === token.original[i].toUpperCase());
-      }
-
-      var replaced = token.original.toLowerCase().replace(token.cleaned, token.pickedCorrection);
-      var result = "";
-
-      for (var _i = 0; _i < replaced.length; ++_i) {
-        var _uppercaseMask$_i;
-
-        result += ((_uppercaseMask$_i = uppercaseMask[_i]) !== null && _uppercaseMask$_i !== void 0 ? _uppercaseMask$_i : false) ? replaced[_i].toUpperCase() : replaced[_i];
-      }
-
-      return result;
-    },
-    onTokenClick: function onTokenClick(token) {
-      if (token.incorrect) {
-        this.selectedToken = token;
-      } else {
-        this.selectedToken = null;
-      }
-    },
-    onRevertButtonClick: function onRevertButtonClick() {
-      this.selectedToken.pickedCorrection = null;
-    },
-    onCorrectionOptionClick: function onCorrectionOptionClick(correction) {
-      var _this = this;
-
-      this.tokens = this.tokens.map(function (tok) {
-        if (_this.selectedToken.id === tok.id) {
-          _this.selectedToken = _objectSpread(_objectSpread({}, tok), {}, {
-            pickedCorrection: correction
-          });
-          return _this.selectedToken;
-        }
-
-        return tok;
-      });
-    },
-    provideCorrections: function provideCorrections(text) {
-      var _this2 = this;
-
-      sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.showLoading();
-      axios.post('/', {
-        text: text
-      }).then(function (response) {
-        sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.close();
-        sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.hideLoading();
-        _this2.tokens = response.data.map(function (token, index) {
-          return _objectSpread(_objectSpread({}, token), {}, {
-            id: index,
-            pickedCorrection: null
-          });
-        });
-      })["catch"](function (error) {
-        sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.close();
-        sweetalert2__WEBPACK_IMPORTED_MODULE_0___default.a.hideLoading();
-        console.log(error);
-      });
     }
   }
 });
@@ -74302,10 +74131,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/DokumenWordShow.vue?vue&type=template&id=8a7011a6&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/DokumenWordShow.vue?vue&type=template&id=8a7011a6& ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FileWordShow.vue?vue&type=template&id=58cbf92e&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FileWordShow.vue?vue&type=template&id=58cbf92e& ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74666,225 +74495,6 @@ var render = function() {
   ])
 }
 var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc&":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc& ***!
-  \************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("h1", [_vm._v(" Korektor Ejaan")]),
-    _vm._v(" "),
-    _c("div", { staticClass: "card" }, [
-      _c("div", { staticClass: "card-body" }, [
-        _c(
-          "form",
-          {
-            on: {
-              submit: function($event) {
-                $event.preventDefault()
-                return _vm.onFormSubmit($event)
-              }
-            }
-          },
-          [
-            _c("div", { staticClass: "form-group" }, [
-              _c("label", { attrs: { for: "text" } }, [
-                _vm._v(
-                  "\n                        Teks untuk Diperiksa:\n                    "
-                )
-              ]),
-              _vm._v(" "),
-              _c("textarea", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.text,
-                    expression: "text"
-                  }
-                ],
-                staticClass: "form-control",
-                attrs: {
-                  id: "text",
-                  placeholder: "Masukkan teks yang hendak diperiksa disini",
-                  rows: "20"
-                },
-                domProps: { value: _vm.text },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.text = $event.target.value
-                  }
-                }
-              })
-            ]),
-            _vm._v(" "),
-            _vm._m(0)
-          ]
-        )
-      ])
-    ]),
-    _vm._v(" "),
-    _c("div", [
-      this.tokens.length !== 0
-        ? _c("div", { staticClass: "row mt-3" }, [
-            _c(
-              "div",
-              {
-                staticClass: "card col-md-7",
-                staticStyle: { "font-size": "14pt" }
-              },
-              [
-                _c(
-                  "div",
-                  { staticClass: "card-body" },
-                  _vm._l(_vm.tokens, function(token) {
-                    return _c(
-                      "span",
-                      {
-                        class: {
-                          badge: token.incorrect,
-                          "badge-info":
-                            token.incorrect &&
-                            token.id ===
-                              _vm.get(_vm.selectedToken, "id", false),
-                          "badge-danger":
-                            token.incorrect &&
-                            token.pickedCorrection === null &&
-                            token.id !==
-                              _vm.get(_vm.selectedToken, "id", false),
-                          "badge-success":
-                            token.incorrect &&
-                            token.pickedCorrection !== null &&
-                            token.id !== _vm.get(_vm.selectedToken, "id", false)
-                        },
-                        on: {
-                          click: function($event) {
-                            return _vm.onTokenClick(token)
-                          }
-                        }
-                      },
-                      [_vm._v(" " + _vm._s(_vm.tokenDisplay(token)) + " ")]
-                    )
-                  }),
-                  0
-                )
-              ]
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "card col-md-5" }, [
-              _c(
-                "div",
-                { staticClass: "card-body" },
-                [
-                  _vm.selectedToken !== null
-                    ? [
-                        _c("h5", [
-                          _vm._v(
-                            ' Koreksi untuk "' +
-                              _vm._s(_vm.selectedToken.cleaned) +
-                              '"'
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c(
-                          "button",
-                          {
-                            staticClass:
-                              "d-block w-100 btn btn-dark btn-sm my-1",
-                            on: { click: _vm.onRevertButtonClick }
-                          },
-                          [
-                            _vm._v(
-                              "\n                            Kembalikan ke Bentuk Semula\n                        "
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "row" }, [
-                          _c("div", { staticClass: "col" }, [
-                            _c("h3", [_vm._v(" Rekomendasi Koreksi ")]),
-                            _vm._v(" "),
-                            _c(
-                              "ul",
-                              { staticClass: "list-group" },
-                              _vm._l(_vm.selectedToken.corrections, function(
-                                correction
-                              ) {
-                                return _c(
-                                  "li",
-                                  {
-                                    staticClass:
-                                      "list-group-item list-group-item-action",
-                                    class: {
-                                      active:
-                                        _vm.selectedToken.pickedCorrection ===
-                                        correction
-                                    },
-                                    on: {
-                                      click: function($event) {
-                                        return _vm.onCorrectionOptionClick(
-                                          correction
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [
-                                    _vm._v(
-                                      " " +
-                                        _vm._s(correction) +
-                                        "\n                              "
-                                    )
-                                  ]
-                                )
-                              }),
-                              0
-                            )
-                          ])
-                        ])
-                      ]
-                    : _vm._e()
-                ],
-                2
-              )
-            ])
-          ])
-        : _vm._e()
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "form-group d-flex justify-content-end" }, [
-      _c("button", { staticClass: "btn btn-primary" }, [
-        _vm._v(
-          "\n                        Periksa Kesalahan Pengejaan\n                    "
-        )
-      ])
-    ])
-  }
-]
 render._withStripped = true
 
 
@@ -87061,8 +86671,7 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./components/DokumenWordShow.vue": "./resources/js/components/DokumenWordShow.vue",
-	"./components/SpellingCorrectorForm.vue": "./resources/js/components/SpellingCorrectorForm.vue"
+	"./components/FileWordShow.vue": "./resources/js/components/FileWordShow.vue"
 };
 
 
@@ -87202,17 +86811,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/components/DokumenWordShow.vue":
-/*!*****************************************************!*\
-  !*** ./resources/js/components/DokumenWordShow.vue ***!
-  \*****************************************************/
+/***/ "./resources/js/components/FileWordShow.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/components/FileWordShow.vue ***!
+  \**************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _DokumenWordShow_vue_vue_type_template_id_8a7011a6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DokumenWordShow.vue?vue&type=template&id=8a7011a6& */ "./resources/js/components/DokumenWordShow.vue?vue&type=template&id=8a7011a6&");
-/* harmony import */ var _DokumenWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DokumenWordShow.vue?vue&type=script&lang=js& */ "./resources/js/components/DokumenWordShow.vue?vue&type=script&lang=js&");
+/* harmony import */ var _FileWordShow_vue_vue_type_template_id_58cbf92e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FileWordShow.vue?vue&type=template&id=58cbf92e& */ "./resources/js/components/FileWordShow.vue?vue&type=template&id=58cbf92e&");
+/* harmony import */ var _FileWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FileWordShow.vue?vue&type=script&lang=js& */ "./resources/js/components/FileWordShow.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -87222,9 +86831,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _DokumenWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _DokumenWordShow_vue_vue_type_template_id_8a7011a6___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _DokumenWordShow_vue_vue_type_template_id_8a7011a6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _FileWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _FileWordShow_vue_vue_type_template_id_58cbf92e___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _FileWordShow_vue_vue_type_template_id_58cbf92e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -87234,107 +86843,38 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/DokumenWordShow.vue"
+component.options.__file = "resources/js/components/FileWordShow.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./resources/js/components/DokumenWordShow.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/components/DokumenWordShow.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
+/***/ "./resources/js/components/FileWordShow.vue?vue&type=script&lang=js&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/FileWordShow.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DokumenWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./DokumenWordShow.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/DokumenWordShow.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DokumenWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FileWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./FileWordShow.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FileWordShow.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FileWordShow_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./resources/js/components/DokumenWordShow.vue?vue&type=template&id=8a7011a6&":
-/*!************************************************************************************!*\
-  !*** ./resources/js/components/DokumenWordShow.vue?vue&type=template&id=8a7011a6& ***!
-  \************************************************************************************/
+/***/ "./resources/js/components/FileWordShow.vue?vue&type=template&id=58cbf92e&":
+/*!*********************************************************************************!*\
+  !*** ./resources/js/components/FileWordShow.vue?vue&type=template&id=58cbf92e& ***!
+  \*********************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DokumenWordShow_vue_vue_type_template_id_8a7011a6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./DokumenWordShow.vue?vue&type=template&id=8a7011a6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/DokumenWordShow.vue?vue&type=template&id=8a7011a6&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DokumenWordShow_vue_vue_type_template_id_8a7011a6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FileWordShow_vue_vue_type_template_id_58cbf92e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./FileWordShow.vue?vue&type=template&id=58cbf92e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FileWordShow.vue?vue&type=template&id=58cbf92e&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FileWordShow_vue_vue_type_template_id_58cbf92e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DokumenWordShow_vue_vue_type_template_id_8a7011a6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/components/SpellingCorrectorForm.vue":
-/*!***********************************************************!*\
-  !*** ./resources/js/components/SpellingCorrectorForm.vue ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _SpellingCorrectorForm_vue_vue_type_template_id_2f7359bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc& */ "./resources/js/components/SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc&");
-/* harmony import */ var _SpellingCorrectorForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SpellingCorrectorForm.vue?vue&type=script&lang=js& */ "./resources/js/components/SpellingCorrectorForm.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _SpellingCorrectorForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _SpellingCorrectorForm_vue_vue_type_template_id_2f7359bc___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _SpellingCorrectorForm_vue_vue_type_template_id_2f7359bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/SpellingCorrectorForm.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/SpellingCorrectorForm.vue?vue&type=script&lang=js&":
-/*!************************************************************************************!*\
-  !*** ./resources/js/components/SpellingCorrectorForm.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SpellingCorrectorForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./SpellingCorrectorForm.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SpellingCorrectorForm.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SpellingCorrectorForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/components/SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc& ***!
-  \******************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SpellingCorrectorForm_vue_vue_type_template_id_2f7359bc___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SpellingCorrectorForm.vue?vue&type=template&id=2f7359bc&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SpellingCorrectorForm_vue_vue_type_template_id_2f7359bc___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SpellingCorrectorForm_vue_vue_type_template_id_2f7359bc___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FileWordShow_vue_vue_type_template_id_58cbf92e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

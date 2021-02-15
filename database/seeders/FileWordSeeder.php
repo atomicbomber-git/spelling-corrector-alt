@@ -3,7 +3,7 @@
 namespace Database\Seeders;
 
 use App\FileWord;
-use Database\Factories\DokumenWordFactory;
+use Database\Factories\FileWordFactory;
 use DOMDocument;
 use Faker\Generator as Faker;
 use Illuminate\Database\Seeder;
@@ -13,7 +13,7 @@ use PhpOffice\PhpWord\Exception\Exception;
 use PhpOffice\PhpWord\IOFactory;
 use PhpOffice\PhpWord\PhpWord;
 
-class DokumenWordSeeder extends Seeder
+class FileWordSeeder extends Seeder
 {
     private Faker $faker;
 
@@ -34,7 +34,7 @@ class DokumenWordSeeder extends Seeder
 
         DB::beginTransaction();
 
-        DokumenWordFactory::new()
+        FileWordFactory::new()
             ->count(10)
             ->create()
             ->each(function (FileWord $dokumenWord) {

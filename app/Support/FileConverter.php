@@ -4,24 +4,19 @@
 namespace App\Support;
 
 
-use PhpOffice\PhpWord\IOFactory;
+use Illuminate\Support\Facades\Http;
 use DOMDocument;
 
 class FileConverter
 {
-    public static function wordToHTML(string $wordPath)
+    public static function wordToHTML(string $wordPath): string
     {
-        $docxReader = IOFactory::createReader("Word2007");
-        $docxDocument = $docxReader->load($wordPath);
-
-        $tempOutputFile = tempnam(storage_path("/"), "tmp");
-        $htmlWriter = IOFactory::createWriter($docxDocument, "HTML");
-        $htmlWriter->save($tempOutputFile);
-
-        $outputHTML = file_get_contents($tempOutputFile);
-        unlink($tempOutputFile);
-
-        return self::extractBodyContent($outputHTML);
+        $response = Http::attach(
+            "file",
+            file_get_contents($wordPath),
+            "document.docx"
+        )->post(config("application.document_server_url") . "/word-to-html");
+        return $response->body();
     }
 
     /**

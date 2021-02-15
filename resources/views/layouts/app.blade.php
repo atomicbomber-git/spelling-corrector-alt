@@ -26,8 +26,6 @@
             @endauth
 
             <article class="@auth col-md-10 @else col-md-12 @endauth">
-                <x-auth-info/>
-
                 @yield('content')
             </article>
         </div>

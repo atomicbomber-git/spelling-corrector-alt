@@ -7,6 +7,7 @@ use App\Support\FileConverter;
 use App\Support\MessageState;
 use App\Support\SessionHelper;
 use App\Support\StringUtil;
+use DOMDocument;
 use Illuminate\Http\Request;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Collection;
@@ -48,7 +49,9 @@ class FileWordKoreksiEjaanController extends Controller
 
         if ($docxAsZipArchive->open($docxFilepath)) {
             $documentXmlPath = "word/document.xml";
-            $documentContent = $docxAsZipArchive->getFromName($documentXmlPath);
+
+            $domDocument = new DOMDocument();
+            $domDocument->loadXML($docxAsZipArchive->getFromName($documentXmlPath));
 
             foreach ($replacementPairs as $original => $replacements) {
                 $replacements = array_filter(
@@ -66,14 +69,14 @@ class FileWordKoreksiEjaanController extends Controller
                 $original = preg_quote($original, "/");
                 $delimiter = $this->getWordDelimitersRegex();
 
-                $documentContent = StringUtil::replaceAllRegexMultiple(
-                    "/([{$delimiter}])({$original})([{$delimiter}])/i",
+                $domDocument = StringUtil::replaceAllRegexMultipleInXmlNode(
+                    "/(\b)({$original})(\b)/i",
                     $replacements,
-                    $documentContent
+                    $domDocument,
                 );
             }
 
-            $docxAsZipArchive->addFromString($documentXmlPath, $documentContent);
+            $docxAsZipArchive->addFromString($documentXmlPath, $domDocument->C14N());
             $docxAsZipArchive->close();
         } else {
             throw new \Exception("Failed to open docx file.");

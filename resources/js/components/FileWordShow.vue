@@ -140,7 +140,7 @@
 import axios from "axios"
 import tinymce from "tinymce"
 import editor from "@tinymce/tinymce-vue"
-import {chunk, uniq, take} from "lodash"
+import {chunk, uniq} from "lodash"
 
 export default {
     components: {
@@ -166,7 +166,6 @@ export default {
             tokenWithErrors: {},
             processableTextPieces: [],
             processedTextPiecesCount: 0,
-
             tokenWithErrorIndexCounter: 0,
         }
     },
@@ -231,60 +230,63 @@ export default {
         },
 
         isValidLeftDelimiter(character) {
-            return [' ', '"', '>', '\'', '(', ':'].includes(character)
+            return [' ', '"', '>', '\'', '(', ':', '-'].includes(character)
         },
 
         isValidRightDelimiter(character) {
-            return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?'].includes(character)
+            return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?', '-'].includes(character)
         },
 
-        markTokensThatHasSpellingError: function (editor, tokenString, tokenWithError) {
+        markTokensThatHasSpellingErrorMultiple: function (tokenStrings) {
             const markerClass = "has-spelling-error"
+            let editor = this.$refs.vue_editor.editor
             let editorContent = editor.getContent()
-            let tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase())
-            let counter = 0
 
-            while (tokenPos !== -1) {
-                console.log([tokenString, tokenPos])
+            for (const tokenString of tokenStrings) {
+                let tokenWithError = this.tokenWithErrors[tokenString]
+                let tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase())
+                let counter = 0
 
-                if (
-                    (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1])) &&
-                    (tokenPos < (editorContent.length - 1) && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length]))
-                ) {
-                    this.tokenWithErrors[tokenString].positions.push({
-                        index: counter,
-                        selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
-                        correction: this.tokenWithErrors[tokenString].recommendations[0],
-                    })
+                while (tokenPos !== -1) {
+                    if (
+                        (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1])) &&
+                        (tokenPos < (editorContent.length - 1) && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length]))
+                    ) {
+                        this.tokenWithErrors[tokenString].positions.push({
+                            index: counter,
+                            selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
+                            correction: this.tokenWithErrors[tokenString].recommendations[0],
+                        })
 
-                    /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
-                    *  token and proceed to mark it using <span> tags
-                    * */
-                    let tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length)
-                    let replacement = `<span class="${markerClass} ${markerClass}-${tokenWithError.index}-${counter}"> ${tokenAsInContent} </span>`
-                    let contentLowerHalf = editorContent.slice(0, tokenPos)
-                    let contentUpperHalf = editorContent.slice(tokenPos + tokenString.length)
-                    let newEditorContent = contentLowerHalf + replacement + contentUpperHalf
-                    editor.setContent(newEditorContent)
-                    editorContent = newEditorContent
-                    tokenPos = editorContent.toLowerCase().indexOf(
-                        tokenString.toLowerCase(),
-                        tokenPos + replacement.length
-                    )
+                        /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
+                        *  token and proceed to mark it using <span> tags
+                        * */
+                        let tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length)
+                        let replacement = `<span class="${markerClass} ${markerClass}-${tokenWithError.index}-${counter}"> ${tokenAsInContent} </span>`
+                        let contentLowerHalf = editorContent.slice(0, tokenPos)
+                        let contentUpperHalf = editorContent.slice(tokenPos + tokenString.length)
 
-                    ++counter
-                } else {
-                    /*
-                    * Else if the token is not surrounded by whitespaces on both sides,
-                    * don't treat it as a token & move on to the next possible token
-                    * */
+                        editorContent = contentLowerHalf + replacement + contentUpperHalf
+                        tokenPos = editorContent.toLowerCase().indexOf(
+                            tokenString.toLowerCase(),
+                            tokenPos + replacement.length
+                        )
+                        ++counter
+                    } else {
+                        /*
+                        * Else if the token is not surrounded by whitespaces on both sides,
+                        * don't treat it as a token & move on to the next possible token
+                        * */
 
-                    tokenPos = editorContent.toLowerCase().indexOf(
-                        tokenString.toLowerCase(),
-                        tokenPos + 1
-                    )
+                        tokenPos = editorContent.toLowerCase().indexOf(
+                            tokenString.toLowerCase(),
+                            tokenPos + 1
+                        )
+                    }
                 }
             }
+
+            editor.setContent(editorContent)
         },
 
         getProcessableTextPieces: function (editor) {
@@ -324,10 +326,6 @@ export default {
         onEditorInit(e) {
             let editor = e.target
             this.processableTextPieces = this.getProcessableTextPieces(editor)
-            // this.processableTextPieces = []
-
-            console.log(this.processableTextPieces)
-
             this.fetchRecommendationsFromServer()
         },
 
@@ -361,15 +359,14 @@ export default {
                         recommendations: recommendationDatum.recommendations
                     })
 
-                    this.markTokensThatHasSpellingError(
-                        this.$refs.vue_editor.editor,
-                        recommendationDatum.token,
-                        this.tokenWithErrors[recommendationDatum.token],
-                    )
+                    // this.markTokensThatHasSpellingError(
+                    //     recommendationDatum.token,
+                    // )
                 })
                 ++this.processedTextPiecesCount
             }
 
+            this.markTokensThatHasSpellingErrorMultiple(Object.keys(this.tokenWithErrors))
 
         },
     }
