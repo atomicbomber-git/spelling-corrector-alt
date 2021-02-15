@@ -4556,57 +4556,76 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?', '-'].includes(character);
     },
     markTokensThatHasSpellingErrorMultiple: function markTokensThatHasSpellingErrorMultiple(tokenStrings) {
+      var _this3 = this;
+
       var markerClass = "has-spelling-error";
       var editor = this.$refs.vue_editor.editor;
-      var editorContent = editor.getContent();
+      var editorBody = editor.getBody();
+      tokenStrings.forEach(function (tokenString) {
+        var tokenWithError = _this3.tokenWithErrors[tokenString];
+        var regExp = RegExp("\\b".concat(tokenString, "\\b"), "gi");
+        var indexCounter = 0;
 
-      var _iterator2 = _createForOfIteratorHelper(tokenStrings),
-          _step2;
+        _this3.walkNodeTree(editorBody, function (node) {
+          if (node.nodeType === Node.TEXT_NODE) {
+            var text = node.textContent;
+            var prevTextPos = 0;
+            var documentFragment = document.createDocumentFragment();
+            var matchCount = 0;
 
-      try {
-        for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
-          var tokenString = _step2.value;
-          var tokenWithError = this.tokenWithErrors[tokenString];
-          var tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase());
-          var counter = 0;
+            var _iterator2 = _createForOfIteratorHelper(text.matchAll(regExp)),
+                _step2;
 
-          while (tokenPos !== -1) {
-            if (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1]) && tokenPos < editorContent.length - 1 && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length])) {
-              this.tokenWithErrors[tokenString].positions.push({
-                index: counter,
-                selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
-                correction: this.tokenWithErrors[tokenString].recommendations[0]
-              });
-              /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
-              *  token and proceed to mark it using <span> tags
-              * */
+            try {
+              for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+                var regExpMatchArray = _step2.value;
 
-              var tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length);
-              var replacement = "<span class=\"".concat(markerClass, " ").concat(markerClass, "-").concat(tokenWithError.index, "-").concat(counter, "\"> ").concat(tokenAsInContent, " </span>");
-              var contentLowerHalf = editorContent.slice(0, tokenPos);
-              var contentUpperHalf = editorContent.slice(tokenPos + tokenString.length);
-              editorContent = contentLowerHalf + replacement + contentUpperHalf;
-              tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + replacement.length);
-              ++counter;
-            } else {
-              /*
-              * Else if the token is not surrounded by whitespaces on both sides,
-              * don't treat it as a token & move on to the next possible token
-              * */
-              tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase(), tokenPos + 1);
+                /* Preceding text */
+                documentFragment.appendChild(document.createTextNode(text.slice(prevTextPos, regExpMatchArray.index)));
+                /* Spelling error */
+
+                var spellingErrorSpanNode = document.createElement('span');
+                spellingErrorSpanNode.appendChild(document.createTextNode(regExpMatchArray[0]));
+                spellingErrorSpanNode.classList.add("".concat(markerClass));
+                spellingErrorSpanNode.classList.add("".concat(markerClass, "-").concat(tokenWithError.index, "-").concat(indexCounter));
+                documentFragment.appendChild(spellingErrorSpanNode);
+                /* Shift */
+
+                prevTextPos = regExpMatchArray.index + regExpMatchArray[0].length;
+
+                _this3.tokenWithErrors[tokenString].positions.push({
+                  index: indexCounter++,
+                  selectedRecommendation: _this3.tokenWithErrors[tokenString].recommendations[0],
+                  correction: _this3.tokenWithErrors[tokenString].recommendations[0]
+                });
+
+                ++matchCount;
+              }
+            } catch (err) {
+              _iterator2.e(err);
+            } finally {
+              _iterator2.f();
+            }
+
+            if (matchCount > 0) {
+              documentFragment.appendChild(document.createTextNode(text.slice(prevTextPos)));
+              node.parentNode.replaceChild(documentFragment, node);
             }
           }
-        }
-      } catch (err) {
-        _iterator2.e(err);
-      } finally {
-        _iterator2.f();
-      }
+        });
+      });
+    },
+    walkNodeTree: function walkNodeTree(node, callback) {
+      var _this4 = this;
 
-      editor.setContent(editorContent);
+      node.childNodes.forEach(function (childNode) {
+        callback(childNode);
+
+        _this4.walkNodeTree(childNode, callback);
+      });
     },
     getProcessableTextPieces: function getProcessableTextPieces(editor) {
-      var _this3 = this;
+      var _this5 = this;
 
       var processableTextPieces = [];
       var walker = new tinymce__WEBPACK_IMPORTED_MODULE_2___default.a.dom.TreeWalker(editor.dom.getRoot());
@@ -4622,7 +4641,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
           continue;
         }
 
-        var parts = node.textContent.split(' ');
+        var parts = node.textContent.split(/\b/);
         parts.forEach(function (part) {
           processableTextPieces.push(part);
         });
@@ -4631,7 +4650,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       processableTextPieces = processableTextPieces.filter(function (textPiece) {
         return textPiece.length > 1;
       }).filter(function (textPiece) {
-        return _this3.symbolPercentage(textPiece) < 0.1;
+        return _this5.symbolPercentage(textPiece) < 0.1;
       }).map(function (textPiece) {
         return textPiece.replace(new RegExp("[^\\w]*$", "gm"), '').replace(new RegExp("^[^\\w]*", "gm"), '');
       });
@@ -4655,7 +4674,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       tokenWithError.correction = tokenWithError.selectedRecommendation;
     },
     fetchRecommendationsFromServer: function fetchRecommendationsFromServer() {
-      var _this4 = this;
+      var _this6 = this;
 
       return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
         var _iterator3, _step3, textTokens, tokens, recommendationData;
@@ -4664,7 +4683,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _iterator3 = _createForOfIteratorHelper(_this4.processableTextPieces);
+                _iterator3 = _createForOfIteratorHelper(_this6.processableTextPieces);
                 _context.prev = 1;
 
                 _iterator3.s();
@@ -4677,20 +4696,20 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
                 textTokens = _step3.value;
                 tokens = textTokens.filter(function (token) {
-                  return !_this4.tokenWithErrors.hasOwnProperty(token.toLowerCase());
+                  return !_this6.tokenWithErrors.hasOwnProperty(token.toLowerCase());
                 });
                 _context.next = 8;
-                return _this4.getSpellingRecommendations(tokens);
+                return _this6.getSpellingRecommendations(tokens);
 
               case 8:
                 recommendationData = _context.sent;
                 recommendationData.data.forEach(function (recommendationDatum) {
-                  if (_this4.tokenWithErrors.hasOwnProperty(recommendationDatum.token)) {
+                  if (_this6.tokenWithErrors.hasOwnProperty(recommendationDatum.token)) {
                     return;
                   }
 
-                  _this4.$set(_this4.tokenWithErrors, recommendationDatum.token, {
-                    index: _this4.tokenWithErrorIndexCounter++,
+                  _this6.$set(_this6.tokenWithErrors, recommendationDatum.token, {
+                    index: _this6.tokenWithErrorIndexCounter++,
                     positions: [],
                     correction: recommendationDatum.recommendations[0],
                     selectedRecommendation: recommendationDatum.recommendations[0],
@@ -4700,7 +4719,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
                   // )
 
                 });
-                ++_this4.processedTextPiecesCount;
+                ++_this6.processedTextPiecesCount;
 
               case 11:
                 _context.next = 3;
@@ -4724,7 +4743,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
                 return _context.finish(18);
 
               case 21:
-                _this4.markTokensThatHasSpellingErrorMultiple(Object.keys(_this4.tokenWithErrors));
+                _this6.markTokensThatHasSpellingErrorMultiple(Object.keys(_this6.tokenWithErrors));
 
               case 22:
               case "end":

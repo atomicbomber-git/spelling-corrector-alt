@@ -240,53 +240,61 @@ export default {
         markTokensThatHasSpellingErrorMultiple: function (tokenStrings) {
             const markerClass = "has-spelling-error"
             let editor = this.$refs.vue_editor.editor
-            let editorContent = editor.getContent()
+            let editorBody = editor.getBody()
 
-            for (const tokenString of tokenStrings) {
+            tokenStrings.forEach(tokenString => {
                 let tokenWithError = this.tokenWithErrors[tokenString]
-                let tokenPos = editorContent.toLowerCase().indexOf(tokenString.toLowerCase())
-                let counter = 0
+                let regExp = RegExp(`\\b${tokenString}\\b`, "gi")
+                let indexCounter = 0
 
-                while (tokenPos !== -1) {
-                    if (
-                        (tokenPos > 0 && this.isValidLeftDelimiter(editorContent[tokenPos - 1])) &&
-                        (tokenPos < (editorContent.length - 1) && this.isValidRightDelimiter(editorContent[tokenPos + tokenString.length]))
-                    ) {
-                        this.tokenWithErrors[tokenString].positions.push({
-                            index: counter,
-                            selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
-                            correction: this.tokenWithErrors[tokenString].recommendations[0],
-                        })
+                this.walkNodeTree(editorBody, (node) => {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        let text = node.textContent
+                        let prevTextPos = 0
+                        let documentFragment = document.createDocumentFragment()
+                        let matchCount = 0
+                        for (let regExpMatchArray of text.matchAll(regExp)) {
+                            /* Preceding text */
+                            documentFragment.appendChild(
+                                document.createTextNode(text.slice(prevTextPos, regExpMatchArray.index))
+                            )
 
-                        /* If the token is actually surrounded by whitespaces on both sides, treat it as a proper
-                        *  token and proceed to mark it using <span> tags
-                        * */
-                        let tokenAsInContent = editorContent.slice(tokenPos, tokenPos + tokenString.length)
-                        let replacement = `<span class="${markerClass} ${markerClass}-${tokenWithError.index}-${counter}"> ${tokenAsInContent} </span>`
-                        let contentLowerHalf = editorContent.slice(0, tokenPos)
-                        let contentUpperHalf = editorContent.slice(tokenPos + tokenString.length)
+                            /* Spelling error */
+                            let spellingErrorSpanNode = document.createElement('span')
+                            spellingErrorSpanNode.appendChild(document.createTextNode(regExpMatchArray[0]))
+                            spellingErrorSpanNode.classList.add(`${markerClass}`)
+                            spellingErrorSpanNode.classList.add(`${markerClass}-${tokenWithError.index}-${indexCounter}`)
+                            documentFragment.appendChild(spellingErrorSpanNode)
 
-                        editorContent = contentLowerHalf + replacement + contentUpperHalf
-                        tokenPos = editorContent.toLowerCase().indexOf(
-                            tokenString.toLowerCase(),
-                            tokenPos + replacement.length
-                        )
-                        ++counter
-                    } else {
-                        /*
-                        * Else if the token is not surrounded by whitespaces on both sides,
-                        * don't treat it as a token & move on to the next possible token
-                        * */
+                            /* Shift */
+                            prevTextPos = regExpMatchArray.index + regExpMatchArray[0].length
 
-                        tokenPos = editorContent.toLowerCase().indexOf(
-                            tokenString.toLowerCase(),
-                            tokenPos + 1
-                        )
+                            this.tokenWithErrors[tokenString].positions.push({
+                                index: indexCounter++,
+                                selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
+                                correction: this.tokenWithErrors[tokenString].recommendations[0],
+                            })
+
+                            ++matchCount
+                        }
+
+                        if (matchCount > 0) {
+                            documentFragment.appendChild(
+                                document.createTextNode(text.slice(prevTextPos))
+                            )
+
+                            node.parentNode.replaceChild(documentFragment, node)
+                        }
                     }
-                }
-            }
+                })
+            })
+        },
 
-            editor.setContent(editorContent)
+        walkNodeTree(node, callback) {
+            node.childNodes.forEach(childNode => {
+                callback(childNode)
+                this.walkNodeTree(childNode, callback)
+            })
         },
 
         getProcessableTextPieces: function (editor) {
@@ -302,7 +310,7 @@ export default {
                     continue
                 }
 
-                let parts = node.textContent.split(' ')
+                let parts = node.textContent.split(/\b/)
                 parts.forEach(part => {
                     processableTextPieces.push(part)
                 })
