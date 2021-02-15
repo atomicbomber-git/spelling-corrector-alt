@@ -12,7 +12,7 @@ class SessionHelper
     {
         session()->flash(self::MESSAGES_KEY, array_merge(session(self::MESSAGES_KEY) ?? [], [
             [
-                "isi" => $content,
+                "content" => $content,
                 "state" => $state
             ]
         ]));
