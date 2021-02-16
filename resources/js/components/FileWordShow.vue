@@ -141,7 +141,7 @@ import axios from "axios"
 import tinymce from "tinymce"
 import editor from "@tinymce/tinymce-vue"
 import Swal from "sweetalert2"
-import {chunk, uniq} from "lodash"
+import {chunk, uniq, uniqBy} from "lodash"
 
 export default {
     components: {
@@ -243,65 +243,79 @@ export default {
                 })
         },
 
-        isValidLeftDelimiter(character) {
-            return [' ', '"', '>', '\'', '(', ':', '-'].includes(character)
-        },
-
-        isValidRightDelimiter(character) {
-            return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?', '-'].includes(character)
-        },
-
         markTokensThatHasSpellingErrorMultiple: function (tokenStrings) {
             const markerClass = "has-spelling-error"
             let editor = this.$refs.vue_editor.editor
             let editorBody = editor.getBody()
+            let replacementList = []
 
-            tokenStrings.forEach(tokenString => {
-                let tokenWithError = this.tokenWithErrors[tokenString]
-                let regExp = RegExp(`\\b${tokenString}\\b`, "gi")
-                let indexCounter = 0
+            this.walkNodeTree(editorBody, (node) => {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    let text = node.textContent
 
-                this.walkNodeTree(editorBody, (node) => {
-                    if (node.nodeType === Node.TEXT_NODE) {
-                        let text = node.textContent
-                        let prevTextPos = 0
-                        let documentFragment = document.createDocumentFragment()
-                        let matchCount = 0
+                    let matches = []
+                    tokenStrings.forEach(tokenString => {
+                        let regExp = RegExp(`\\b${tokenString}\\b`, "gi")
+                        let indexCounter = 0
+
                         for (let regExpMatchArray of text.matchAll(regExp)) {
-                            /* Preceding text */
-                            documentFragment.appendChild(
-                                document.createTextNode(text.slice(prevTextPos, regExpMatchArray.index))
-                            )
-
-                            /* Spelling error */
-                            let spellingErrorSpanNode = document.createElement('span')
-                            spellingErrorSpanNode.appendChild(document.createTextNode(regExpMatchArray[0]))
-                            spellingErrorSpanNode.classList.add(`${markerClass}`)
-                            spellingErrorSpanNode.classList.add(`${markerClass}-${tokenWithError.index}-${indexCounter}`)
-                            documentFragment.appendChild(spellingErrorSpanNode)
-
-                            /* Shift */
-                            prevTextPos = regExpMatchArray.index + regExpMatchArray[0].length
-
                             this.tokenWithErrors[tokenString].positions.push({
-                                index: indexCounter++,
+                                index: indexCounter,
                                 selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
                                 correction: this.tokenWithErrors[tokenString].recommendations[0],
                             })
 
-                            ++matchCount
-                        }
+                            matches.push({
+                                regexMatchArray: regExpMatchArray,
+                                index: indexCounter,
+                                tokenIndex: this.tokenWithErrors[tokenString].index
+                            })
 
-                        if (matchCount > 0) {
-                            documentFragment.appendChild(
-                                document.createTextNode(text.slice(prevTextPos))
-                            )
-
-                            node.parentNode.replaceChild(documentFragment, node)
+                            ++indexCounter
                         }
-                    }
-                })
+                    })
+
+                    /* Sort matches by index */
+                    matches = matches.sort((matchA, matchB) => matchA.regexMatchArray.index - matchB.regexMatchArray.index)
+
+                    let prevTextPos = 0
+                    let documentFragment = document.createDocumentFragment()
+
+                    matches.forEach(match => {
+                        documentFragment.appendChild(
+                            document.createTextNode(text.slice(prevTextPos, match.regexMatchArray.index))
+                        )
+
+                        /* Spelling error */
+                        let spellingErrorSpanNode = document.createElement('span')
+                        spellingErrorSpanNode.appendChild(document.createTextNode(match.regexMatchArray[0]))
+                        spellingErrorSpanNode.classList.add(`${markerClass}`)
+                        spellingErrorSpanNode.classList.add(`${markerClass}-${match.tokenIndex}-${match.index}`)
+                        documentFragment.appendChild(spellingErrorSpanNode)
+
+                        prevTextPos = match.regexMatchArray.index + match.regexMatchArray[0].length
+                    })
+
+                    documentFragment.appendChild(
+                        document.createTextNode(text.slice(prevTextPos))
+                    )
+
+                    replacementList.push({
+                        original: node,
+                        replacement: documentFragment,
+                    })
+                }
             })
+
+            chunk(replacementList, 100)
+                .forEach(replacementListChunk => {
+                    replacementListChunk.forEach(pair => {
+                        pair.original.parentNode.replaceChild(
+                            pair.replacement,
+                            pair.original,
+                        )
+                    })
+                })
         },
 
         walkNodeTree(node, callback) {
@@ -317,14 +331,15 @@ export default {
 
             do {
                 let node = walker.current()
-                if (node.nodeType !== Node.TEXT_NODE) {
-                    continue
-                }
-                if (node.parentNode.classList.contains("has-spelling-error")) {
+                if (
+                    node.nodeType !== Node.TEXT_NODE ||
+                    node.parentNode.classList.contains("has-spelling-error")
+                ) {
                     continue
                 }
 
                 let parts = node.textContent.split(/\b/)
+
                 parts.forEach(part => {
                     processableTextPieces.push(part)
                 })
@@ -339,7 +354,7 @@ export default {
                         .replace(new RegExp("^[^\\w]*", "gm"), '')
                 )
 
-            processableTextPieces = uniq(processableTextPieces, textPiece => textPiece.toLowerCase())
+            processableTextPieces = uniqBy(processableTextPieces, textPiece => textPiece.toLowerCase())
             processableTextPieces = chunk(processableTextPieces, 100)
 
             return processableTextPieces

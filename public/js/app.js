@@ -4564,29 +4564,20 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
         alert("Gagal merevisi dokumen.");
       });
     },
-    isValidLeftDelimiter: function isValidLeftDelimiter(character) {
-      return [' ', '"', '>', '\'', '(', ':', '-'].includes(character);
-    },
-    isValidRightDelimiter: function isValidRightDelimiter(character) {
-      return [' ', '"', '.', ',', '\'', ')', ':', '<', '!', '?', '-'].includes(character);
-    },
     markTokensThatHasSpellingErrorMultiple: function markTokensThatHasSpellingErrorMultiple(tokenStrings) {
       var _this3 = this;
 
       var markerClass = "has-spelling-error";
       var editor = this.$refs.vue_editor.editor;
       var editorBody = editor.getBody();
-      tokenStrings.forEach(function (tokenString) {
-        var tokenWithError = _this3.tokenWithErrors[tokenString];
-        var regExp = RegExp("\\b".concat(tokenString, "\\b"), "gi");
-        var indexCounter = 0;
-
-        _this3.walkNodeTree(editorBody, function (node) {
-          if (node.nodeType === Node.TEXT_NODE) {
-            var text = node.textContent;
-            var prevTextPos = 0;
-            var documentFragment = document.createDocumentFragment();
-            var matchCount = 0;
+      var replacementList = [];
+      this.walkNodeTree(editorBody, function (node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          var text = node.textContent;
+          var matches = [];
+          tokenStrings.forEach(function (tokenString) {
+            var regExp = RegExp("\\b".concat(tokenString, "\\b"), "gi");
+            var indexCounter = 0;
 
             var _iterator2 = _createForOfIteratorHelper(text.matchAll(regExp)),
                 _step2;
@@ -4595,38 +4586,53 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
               for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
                 var regExpMatchArray = _step2.value;
 
-                /* Preceding text */
-                documentFragment.appendChild(document.createTextNode(text.slice(prevTextPos, regExpMatchArray.index)));
-                /* Spelling error */
-
-                var spellingErrorSpanNode = document.createElement('span');
-                spellingErrorSpanNode.appendChild(document.createTextNode(regExpMatchArray[0]));
-                spellingErrorSpanNode.classList.add("".concat(markerClass));
-                spellingErrorSpanNode.classList.add("".concat(markerClass, "-").concat(tokenWithError.index, "-").concat(indexCounter));
-                documentFragment.appendChild(spellingErrorSpanNode);
-                /* Shift */
-
-                prevTextPos = regExpMatchArray.index + regExpMatchArray[0].length;
-
                 _this3.tokenWithErrors[tokenString].positions.push({
-                  index: indexCounter++,
+                  index: indexCounter,
                   selectedRecommendation: _this3.tokenWithErrors[tokenString].recommendations[0],
                   correction: _this3.tokenWithErrors[tokenString].recommendations[0]
                 });
 
-                ++matchCount;
+                matches.push({
+                  regexMatchArray: regExpMatchArray,
+                  index: indexCounter,
+                  tokenIndex: _this3.tokenWithErrors[tokenString].index
+                });
+                ++indexCounter;
               }
             } catch (err) {
               _iterator2.e(err);
             } finally {
               _iterator2.f();
             }
+          });
+          /* Sort matches by index */
 
-            if (matchCount > 0) {
-              documentFragment.appendChild(document.createTextNode(text.slice(prevTextPos)));
-              node.parentNode.replaceChild(documentFragment, node);
-            }
-          }
+          matches = matches.sort(function (matchA, matchB) {
+            return matchA.regexMatchArray.index - matchB.regexMatchArray.index;
+          });
+          var prevTextPos = 0;
+          var documentFragment = document.createDocumentFragment();
+          matches.forEach(function (match) {
+            documentFragment.appendChild(document.createTextNode(text.slice(prevTextPos, match.regexMatchArray.index)));
+            /* Spelling error */
+
+            var spellingErrorSpanNode = document.createElement('span');
+            spellingErrorSpanNode.appendChild(document.createTextNode(match.regexMatchArray[0]));
+            spellingErrorSpanNode.classList.add("".concat(markerClass));
+            spellingErrorSpanNode.classList.add("".concat(markerClass, "-").concat(match.tokenIndex, "-").concat(match.index));
+            documentFragment.appendChild(spellingErrorSpanNode);
+            prevTextPos = match.regexMatchArray.index + match.regexMatchArray[0].length;
+          });
+          documentFragment.appendChild(document.createTextNode(text.slice(prevTextPos)));
+          replacementList.push({
+            original: node,
+            replacement: documentFragment
+          });
+        }
+      });
+      Object(lodash__WEBPACK_IMPORTED_MODULE_5__["chunk"])(replacementList, 100).forEach(function (replacementListChunk) {
+        replacementListChunk.forEach(function (pair) {
+          pair.original.parentNode.replaceChild(pair.replacement, pair.original);
         });
       });
     },
@@ -4648,11 +4654,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       do {
         var node = walker.current();
 
-        if (node.nodeType !== Node.TEXT_NODE) {
-          continue;
-        }
-
-        if (node.parentNode.classList.contains("has-spelling-error")) {
+        if (node.nodeType !== Node.TEXT_NODE || node.parentNode.classList.contains("has-spelling-error")) {
           continue;
         }
 
@@ -4669,7 +4671,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       }).map(function (textPiece) {
         return textPiece.replace(new RegExp("[^\\w]*$", "gm"), '').replace(new RegExp("^[^\\w]*", "gm"), '');
       });
-      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_5__["uniq"])(processableTextPieces, function (textPiece) {
+      processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_5__["uniqBy"])(processableTextPieces, function (textPiece) {
         return textPiece.toLowerCase();
       });
       processableTextPieces = Object(lodash__WEBPACK_IMPORTED_MODULE_5__["chunk"])(processableTextPieces, 100);

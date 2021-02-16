@@ -6,6 +6,7 @@ use App\Constants\MessageState;
 use App\FileWord;
 use App\Support\FileConverter;
 use App\Support\SessionHelper;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
@@ -31,6 +32,7 @@ class FileWordController extends Controller
     {
         return $this->responseFactory->view("file-word.index", [
             "file_words" => FileWord::query()
+                ->where("user_id", Auth::id())
                 ->orderByDesc("updated_at")
                 ->orderByDesc("created_at")
                 ->paginate()
