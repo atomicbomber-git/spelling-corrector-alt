@@ -61,13 +61,12 @@ class FileWordKoreksiEjaanController extends Controller
 
                 $replacements = array_map(
                     fn ($replacement) => array_merge($replacement, [
-                        "correction" => "$1{$replacement['correction']}$3"
+                        "correction" => $replacement['correction']
                     ]),
                     $replacements,
                 );
 
                 $original = preg_quote($original, "/");
-                $delimiter = $this->getWordDelimitersRegex();
 
                 $domDocument = StringUtil::replaceAllRegexMultipleInXmlNode(
                     "/(\b)({$original})(\b)/i",

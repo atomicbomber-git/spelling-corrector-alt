@@ -46,12 +46,12 @@ Route::get("xxx/{file_word}", function (FileWord $file_word) {
         $matches = [];
 
         DomNodeTraverser::traverse($domObject, function (DOMNode $node) use (&$matches) {
-//            if ($node->nodeType === XML_TEXT_NODE) {
-//                preg_match("/\b(apabila)\b/i", $node->wholeText, $matches);
-//                if ($matches !== []) {
-//                    ddd($matches);
-//                }
-//            }
+            if ($node->nodeType === XML_TEXT_NODE) {
+                preg_match("/\b(Jaro)\b/i", $node->wholeText, $matches);
+                if ($matches !== []) {
+                    dump([$matches, $node->wholeText]);
+                }
+            }
         });
 
         return $domObject->C14N();
