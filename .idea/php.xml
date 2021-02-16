@@ -98,20 +98,14 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
       <path value="$PROJECT_DIR$/vendor/phpoffice/phpword" />
-      <path value="$PROJECT_DIR$/vendor/phpoffice/common" />
       <path value="$PROJECT_DIR$/vendor/wamania/php-stemmer" />
-      <path value="$PROJECT_DIR$/vendor/pclzip/pclzip" />
       <path value="$PROJECT_DIR$/vendor/spatie/pdf-to-text" />
       <path value="$PROJECT_DIR$/vendor/yooper/php-text-analysis" />
       <path value="$PROJECT_DIR$/vendor/yooper/nicknames" />
       <path value="$PROJECT_DIR$/vendor/yooper/stop-words" />
       <path value="$PROJECT_DIR$/vendor/sastrawi/sastrawi" />
-      <path value="$PROJECT_DIR$/vendor/laravel/homestead" />
       <path value="$PROJECT_DIR$/vendor/vanderlee/php-sentence" />
-      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
       <path value="$PROJECT_DIR$/vendor/sastrawi/string-span" />
       <path value="$PROJECT_DIR$/vendor/sastrawi/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/sastrawi/trka" />
@@ -154,6 +148,8 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
       <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
       <path value="$PROJECT_DIR$/vendor/nlp-tools/nlp-tools" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

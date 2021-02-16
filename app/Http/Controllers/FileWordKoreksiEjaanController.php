@@ -50,7 +50,7 @@ class FileWordKoreksiEjaanController extends Controller
         foreach ($replacementPairs as $original => $replacements) {
             $original = preg_quote($original, "/");
 
-            $domDocument = StringUtil::replaceAllRegexMultipleInXmlNode(
+            $domDocument = StringUtil::replaceTextsInXmlTreeNodes(
                 "/(\b)({$original})(\b)/i",
                 $replacements,
                 $domDocument,

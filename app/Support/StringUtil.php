@@ -9,41 +9,7 @@ use Illuminate\Support\Collection;
 
 class StringUtil
 {
-    public static function replaceAllRegex(string $pattern, string $replacement, string $subject): string {
-        $matches = [];
-        preg_match($pattern, $subject, $matches);
-
-        while ($matches !== []) {
-            $subject = preg_replace($pattern, $replacement, $subject);
-            preg_match($pattern, $subject, $matches);
-        }
-
-        return $subject;
-    }
-
-    public static function replaceAllRegexMultiple(string $pattern, array $replacements, string $subject): string {
-        $replacements = (new Collection($replacements))
-            ->pluck("correction", "index")
-            ->toArray();
-
-        $indexCounter = 0;
-        $matches = [];
-        preg_match($pattern, $subject, $matches);
-
-        while (($matches !== []) && ($indexCounter < (array_key_last($replacements) + 1))) {
-            if (isset($replacements[$indexCounter])) {
-                $subject = preg_replace($pattern, $replacements[$indexCounter], $subject, 1);
-            }
-
-            preg_match($pattern, $subject, $matches);
-
-            ++$indexCounter;
-        }
-
-        return $subject;
-    }
-
-    public static function replaceAllRegexMultipleInXmlNode(string $pattern, array $replacements, DOMNode $domNode): DOMNode {
+    public static function replaceTextsInXmlTreeNodes(string $regexPattern, array $replacements, DOMNode $domNode): DOMNode {
         $replacements = (new Collection($replacements))
             ->pluck("correction", "index")
             ->toArray();
@@ -51,13 +17,13 @@ class StringUtil
         $pendingReplacements = [];
 
         $counter = 0;
-        DomNodeTraverser::traverse($domNode, function (DOMNode $currentNode) use ($pattern, $replacements, &$counter, &$pendingReplacements) {
+        DomNodeTraverser::traverse($domNode, function (DOMNode $currentNode) use ($regexPattern, $replacements, &$counter, &$pendingReplacements) {
             if ($currentNode->nodeType === XML_TEXT_NODE) {
 
                 $oldText = $currentNode->wholeText;
 
                 $matches = [];
-                preg_match_all($pattern, $oldText, $matches, PREG_OFFSET_CAPTURE);
+                preg_match_all($regexPattern, $oldText, $matches, PREG_OFFSET_CAPTURE);
 
                 $newText = "";
 
@@ -81,6 +47,11 @@ class StringUtil
                     }
 
                     $newText .= substr($oldText, $prevTextPos);
+
+                    /*
+                        Replacements to text nodes are pended because if they're replaced on the fly
+                        it may cause the new nodes to be visited again, which is not what we wanted
+                    */
                     $pendingReplacements[] = [
                         "new" =>  $currentNode->ownerDocument->createTextNode($newText),
                         "old" => $currentNode,

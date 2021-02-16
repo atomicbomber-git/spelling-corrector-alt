@@ -34,7 +34,7 @@ Route::get("html/{file_word}", function (FileWord $file_word) {
     $domDocument->loadHTML($file_word->konten_html);
 
 
-    $domDocument = \App\Support\StringUtil::replaceAllRegexMultipleInXmlNode(
+    $domDocument = \App\Support\StringUtil::replaceTextsInXmlTreeNodes(
         "/\bAnita\b/i",
         [
             [
