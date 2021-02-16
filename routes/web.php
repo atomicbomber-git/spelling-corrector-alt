@@ -29,31 +29,52 @@ Auth::routes([
 
 
 Route::get("html/{file_word}", function (FileWord $file_word) {
-    dump();
 
-    //    debugbar()->disable();
-//    $html = <<<HERE
-//<!doctype html>
-//<html lang="en">
-//<head>
-//    <meta charset="UTF-8">
-//    <meta name="viewport"
-//          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-//    >
-//    <meta http-equiv="X-UA-Compatible"
-//          content="ie=edge"
-//    >
-//    <title>Document</title>
-//</head>
-//<body>
-//    $file_word->konten_html
-//</body>
-//</html>
-//HERE;
+    $domDocument = new DOMDocument();
+    $domDocument->loadHTML($file_word->konten_html);
+
+
+    $domDocument = \App\Support\StringUtil::replaceAllRegexMultipleInXmlNode(
+        "/\bAnita\b/i",
+        [
+            [
+                "index" => 0,
+                "correction" => "Zorbi",
+            ],
+        ],
+        $domDocument
+    );
+
+//    $counter = 0;
+//    DomNodeTraverser::traverse($domDocument, function (DOMNode $DOMNode) use(&$counter) {
+//        if ($DOMNode->nodeType === XML_TEXT_NODE) {
+//            $matches = [];
+//            preg_match_all("/\bAnita\b/i", $DOMNode->wholeText, $matches);
 //
-//    return response()->streamDownload(function () use ($html) {
-//        echo FileConverter::HTMLToWord($html);
-//    }, "file.docx");
+//            $strc = str_contains(
+//                strtolower($DOMNode->wholeText),
+//                "anita"
+//            );
+//
+//            if ($strc) {
+//                ray()->send("ANITA IS FOUND");
+//            }
+//
+//
+//            if ($matches !== []) {
+//                return;
+//            }
+//        }
+//    });
+
+
+
+    return $domDocument->saveHTML();
+
+
+//    return response($file_word->konten_html);
+
+
 });
 
 Route::get("xxx/{file_word}", function (FileWord $file_word) {

@@ -48,18 +48,6 @@ class FileWordKoreksiEjaanController extends Controller
         $domDocument->loadHTML($file_word->konten_html);
 
         foreach ($replacementPairs as $original => $replacements) {
-            $replacements = array_filter(
-                $replacements,
-                fn ($replacement) => strtolower($replacement["correction"]) !== strtolower($original)
-            );
-
-            $replacements = array_map(
-                fn ($replacement) => array_merge($replacement, [
-                    "correction" => $replacement['correction']
-                ]),
-                $replacements,
-            );
-
             $original = preg_quote($original, "/");
 
             $domDocument = StringUtil::replaceAllRegexMultipleInXmlNode(
@@ -72,7 +60,7 @@ class FileWordKoreksiEjaanController extends Controller
         DB::beginTransaction();
 
         $file_word->update([
-            "konten_html" => $domDocument->C14N()
+            "konten_html" => $domDocument->saveHTML()
         ]);
 
         /*
@@ -82,7 +70,6 @@ class FileWordKoreksiEjaanController extends Controller
         $wrappedHTML = $this->getWrappedHTMLFromFileWord($file_word);
 
         $docxFileContentInStringForm = FileConverter::HTMLToWord($wrappedHTML);
-
 
         $file_word
             ->addMediaFromString($docxFileContentInStringForm)

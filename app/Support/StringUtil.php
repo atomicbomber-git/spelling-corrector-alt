@@ -43,15 +43,17 @@ class StringUtil
         return $subject;
     }
 
-    public static function replaceAllRegexMultipleInXmlNode(string $pattern, array $replacements, DOMNode $DOMNode): DOMNode {
+    public static function replaceAllRegexMultipleInXmlNode(string $pattern, array $replacements, DOMNode $domNode): DOMNode {
         $replacements = (new Collection($replacements))
             ->pluck("correction", "index")
             ->toArray();
 
-        $counter = 0;
+        $pendingReplacements = [];
 
-        DomNodeTraverser::traverse($DOMNode, function (DOMNode $currentNode) use ($pattern, $replacements, &$counter) {
+        $counter = 0;
+        DomNodeTraverser::traverse($domNode, function (DOMNode $currentNode) use ($pattern, $replacements, &$counter, &$pendingReplacements) {
             if ($currentNode->nodeType === XML_TEXT_NODE) {
+
                 $oldText = $currentNode->wholeText;
 
                 $matches = [];
@@ -79,19 +81,22 @@ class StringUtil
                     }
 
                     $newText .= substr($oldText, $prevTextPos);
-
-                } else {
-                    $newText = $oldText;
+                    $pendingReplacements[] = [
+                        "new" =>  $currentNode->ownerDocument->createTextNode($newText),
+                        "old" => $currentNode,
+                    ];
                 }
-
-                $currentNode->parentNode->replaceChild(
-                    $currentNode->ownerDocument->createTextNode($newText),
-                    $currentNode,
-                );
             }
 
         });
 
-        return $DOMNode;
+        foreach ($pendingReplacements as $pendingReplacement) {
+            $pendingReplacement["old"]->parentNode->replaceChild(
+                $pendingReplacement["new"],
+                $pendingReplacement["old"],
+            );
+        }
+
+        return $domNode;
     }
 }
