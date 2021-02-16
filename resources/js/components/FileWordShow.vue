@@ -249,6 +249,11 @@ export default {
             let editorBody = editor.getBody()
             let replacementList = []
 
+            let indexCounters = {}
+            for (let tokenString of tokenStrings) {
+                indexCounters[tokenString] = 0
+            }
+
             this.walkNodeTree(editorBody, (node) => {
                 if (node.nodeType === Node.TEXT_NODE) {
                     let text = node.textContent
@@ -256,22 +261,21 @@ export default {
                     let matches = []
                     tokenStrings.forEach(tokenString => {
                         let regExp = RegExp(`\\b${tokenString}\\b`, "gi")
-                        let indexCounter = 0
 
                         for (let regExpMatchArray of text.matchAll(regExp)) {
                             this.tokenWithErrors[tokenString].positions.push({
-                                index: indexCounter,
+                                index: indexCounters[tokenString],
                                 selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
                                 correction: this.tokenWithErrors[tokenString].recommendations[0],
                             })
 
                             matches.push({
                                 regexMatchArray: regExpMatchArray,
-                                index: indexCounter,
+                                index: indexCounters[tokenString],
                                 tokenIndex: this.tokenWithErrors[tokenString].index
                             })
 
-                            ++indexCounter
+                            ++indexCounters[tokenString]
                         }
                     })
 

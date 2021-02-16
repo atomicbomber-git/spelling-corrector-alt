@@ -84,10 +84,6 @@ class StringUtil
                     $newText = $oldText;
                 }
 
-                if (str_contains(strtolower($pattern), "besok")) {
-                    ray()->send($newText);
-                }
-
                 $currentNode->parentNode->replaceChild(
                     $currentNode->ownerDocument->createTextNode($newText),
                     $currentNode,

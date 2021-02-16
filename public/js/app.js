@@ -4571,38 +4571,53 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       var editor = this.$refs.vue_editor.editor;
       var editorBody = editor.getBody();
       var replacementList = [];
+      var indexCounters = {};
+
+      var _iterator2 = _createForOfIteratorHelper(tokenStrings),
+          _step2;
+
+      try {
+        for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+          var tokenString = _step2.value;
+          indexCounters[tokenString] = 0;
+        }
+      } catch (err) {
+        _iterator2.e(err);
+      } finally {
+        _iterator2.f();
+      }
+
       this.walkNodeTree(editorBody, function (node) {
         if (node.nodeType === Node.TEXT_NODE) {
           var text = node.textContent;
           var matches = [];
           tokenStrings.forEach(function (tokenString) {
             var regExp = RegExp("\\b".concat(tokenString, "\\b"), "gi");
-            var indexCounter = 0;
 
-            var _iterator2 = _createForOfIteratorHelper(text.matchAll(regExp)),
-                _step2;
+            var _iterator3 = _createForOfIteratorHelper(text.matchAll(regExp)),
+                _step3;
 
             try {
-              for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
-                var regExpMatchArray = _step2.value;
+              for (_iterator3.s(); !(_step3 = _iterator3.n()).done;) {
+                var regExpMatchArray = _step3.value;
 
                 _this3.tokenWithErrors[tokenString].positions.push({
-                  index: indexCounter,
+                  index: indexCounters[tokenString],
                   selectedRecommendation: _this3.tokenWithErrors[tokenString].recommendations[0],
                   correction: _this3.tokenWithErrors[tokenString].recommendations[0]
                 });
 
                 matches.push({
                   regexMatchArray: regExpMatchArray,
-                  index: indexCounter,
+                  index: indexCounters[tokenString],
                   tokenIndex: _this3.tokenWithErrors[tokenString].index
                 });
-                ++indexCounter;
+                ++indexCounters[tokenString];
               }
             } catch (err) {
-              _iterator2.e(err);
+              _iterator3.e(err);
             } finally {
-              _iterator2.f();
+              _iterator3.f();
             }
           });
           /* Sort matches by index */
@@ -4691,24 +4706,24 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       var _this6 = this;
 
       return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-        var _iterator3, _step3, textTokens, tokens, recommendationData;
+        var _iterator4, _step4, textTokens, tokens, recommendationData;
 
         return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _iterator3 = _createForOfIteratorHelper(_this6.processableTextPieces);
+                _iterator4 = _createForOfIteratorHelper(_this6.processableTextPieces);
                 _context.prev = 1;
 
-                _iterator3.s();
+                _iterator4.s();
 
               case 3:
-                if ((_step3 = _iterator3.n()).done) {
+                if ((_step4 = _iterator4.n()).done) {
                   _context.next = 13;
                   break;
                 }
 
-                textTokens = _step3.value;
+                textTokens = _step4.value;
                 tokens = textTokens.filter(function (token) {
                   return !_this6.tokenWithErrors.hasOwnProperty(token.toLowerCase());
                 });
@@ -4744,12 +4759,12 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
                 _context.prev = 15;
                 _context.t0 = _context["catch"](1);
 
-                _iterator3.e(_context.t0);
+                _iterator4.e(_context.t0);
 
               case 18:
                 _context.prev = 18;
 
-                _iterator3.f();
+                _iterator4.f();
 
                 return _context.finish(18);
 
