@@ -11,6 +11,7 @@ use DOMDocument;
 use Illuminate\Http\Request;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
 use PhpOffice\PhpWord\Shared\ZipArchive;
 
 class FileWordKoreksiEjaanController extends Controller
@@ -43,47 +44,55 @@ class FileWordKoreksiEjaanController extends Controller
             ->pluck("replacements", "original")
             ->toArray();
 
-        $docxFilepath = $file_word->getFirstMediaPath(FileWord::COLLECTION_WORD_FILE);
-        $docxAsZipArchive = new ZipArchive();
-        $docxAsZipArchive->open($docxFilepath);
+        $domDocument = new DOMDocument();
+        $domDocument->loadHTML($file_word->konten_html);
 
-        if ($docxAsZipArchive->open($docxFilepath)) {
-            $documentXmlPath = "word/document.xml";
+        foreach ($replacementPairs as $original => $replacements) {
+            $replacements = array_filter(
+                $replacements,
+                fn ($replacement) => strtolower($replacement["correction"]) !== strtolower($original)
+            );
 
-            $domDocument = new DOMDocument();
-            $domDocument->loadXML($docxAsZipArchive->getFromName($documentXmlPath));
+            $replacements = array_map(
+                fn ($replacement) => array_merge($replacement, [
+                    "correction" => $replacement['correction']
+                ]),
+                $replacements,
+            );
 
-            foreach ($replacementPairs as $original => $replacements) {
-                $replacements = array_filter(
-                    $replacements,
-                    fn ($replacement) => strtolower($replacement["correction"]) !== strtolower($original)
-                );
+            $original = preg_quote($original, "/");
 
-                $replacements = array_map(
-                    fn ($replacement) => array_merge($replacement, [
-                        "correction" => $replacement['correction']
-                    ]),
-                    $replacements,
-                );
-
-                $original = preg_quote($original, "/");
-
-                $domDocument = StringUtil::replaceAllRegexMultipleInXmlNode(
-                    "/(\b)({$original})(\b)/i",
-                    $replacements,
-                    $domDocument,
-                );
-            }
-
-            $docxAsZipArchive->addFromString($documentXmlPath, $domDocument->C14N());
-            $docxAsZipArchive->close();
-        } else {
-            throw new \Exception("Failed to open docx file.");
+            $domDocument = StringUtil::replaceAllRegexMultipleInXmlNode(
+                "/(\b)({$original})(\b)/i",
+                $replacements,
+                $domDocument,
+            );
         }
 
+        DB::beginTransaction();
+
         $file_word->update([
-            "konten_html" => FileConverter::wordToHTML($docxFilepath)
+            "konten_html" => $domDocument->C14N()
         ]);
+
+        /*
+         * Send wrapped HTML content to server, get docx data
+         * Replace current docx data with data obtained from server
+         * */
+        $wrappedHTML = $this->getWrappedHTMLFromFileWord($file_word);
+
+        $docxFileContentInStringForm = FileConverter::HTMLToWord($wrappedHTML);
+
+
+        $file_word
+            ->addMediaFromString($docxFileContentInStringForm)
+            ->usingFileName(
+                pathinfo($file_word->getFirstMediaPath(FileWord::COLLECTION_WORD_FILE))["basename"]
+            )
+            ->toMediaCollection(FileWord::COLLECTION_WORD_FILE);
+
+
+        DB::commit();
 
         SessionHelper::flashMessage(
             __("messages.update.success"),
@@ -93,10 +102,29 @@ class FileWordKoreksiEjaanController extends Controller
         return $this->responseFactory->noContent(200);
     }
 
-    private function getWordDelimitersRegex(): string
+    /**
+     * @param FileWord $file_word
+     * @return string
+     */
+    public function getWrappedHTMLFromFileWord(FileWord $file_word): string
     {
-        return preg_quote(implode("", [
-            ',', '<', '>', '"', '\'', '(', ')', '.', '!', '?', ' ', ':', ';',
-        ]));
+        return <<<HERE
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge"
+    >
+    <title> $file_word->nama </title>
+</head>
+<body>
+    $file_word->konten_html
+</body>
+</html>
+HERE;
     }
 }

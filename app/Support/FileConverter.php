@@ -19,23 +19,14 @@ class FileConverter
         return $response->body();
     }
 
-    /**
-     * @param string $html
-     * @return string
-     */
-    public static function extractBodyContent(string $html): string
+    public static function HTMLToWord(string $htmlString): string
     {
-        $htmlDocument = new DOMDocument();
-        $htmlDocument->loadHtml($html);
+        $response = Http::attach(
+            "file",
+            $htmlString,
+            "input.docx"
+        )->post(config("application.document_server_url") . "/html-to-word");
 
-        $elements = $htmlDocument->getElementsByTagName("body");
-        $body = $elements->item(0);
-        $tempDiv = $htmlDocument->createElement("div");
-        foreach ($body->childNodes as $childNode) {
-            $tempDiv->appendChild($childNode->cloneNode(true));
-        }
-
-        $htmlDocument->appendChild($tempDiv);
-        return $tempDiv->C14N();
+        return $response->body();
     }
 }
