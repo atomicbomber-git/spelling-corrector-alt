@@ -9,10 +9,10 @@ use App\Support\SessionHelper;
 use App\Support\StringUtil;
 use DOMDocument;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use PhpOffice\PhpWord\Shared\ZipArchive;
 
 class FileWordKoreksiEjaanController extends Controller
 {
@@ -26,9 +26,9 @@ class FileWordKoreksiEjaanController extends Controller
     /**
      * Handle the incoming request.
      *
-     * @param \Illuminate\Http\Request $request
+     * @param Request $request
      * @param FileWord $file_word
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function __invoke(Request $request, FileWord $file_word)
     {
@@ -45,7 +45,7 @@ class FileWordKoreksiEjaanController extends Controller
             ->toArray();
 
         $domDocument = new DOMDocument();
-        $domDocument->loadHTML($file_word->konten_html);
+        $domDocument->loadHTML($file_word->loadHTML());
 
         foreach ($replacementPairs as $original => $replacements) {
             $original = preg_quote($original, "/");
@@ -59,9 +59,9 @@ class FileWordKoreksiEjaanController extends Controller
 
         DB::beginTransaction();
 
-        $file_word->update([
-            "konten_html" => $domDocument->saveHTML()
-        ]);
+        $file_word->saveHtml(
+            $domDocument->saveHTML()
+        );
 
         /*
          * Send wrapped HTML content to server, get docx data
@@ -95,6 +95,8 @@ class FileWordKoreksiEjaanController extends Controller
      */
     public function getWrappedHTMLFromFileWord(FileWord $file_word): string
     {
+        $htmlContent = $file_word->loadHTML();
+
         return <<<HERE
 <!doctype html>
 <html lang="en">
@@ -109,7 +111,7 @@ class FileWordKoreksiEjaanController extends Controller
     <title> $file_word->nama </title>
 </head>
 <body>
-    $file_word->konten_html
+    $htmlContent
 </body>
 </html>
 HERE;
