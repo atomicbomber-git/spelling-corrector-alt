@@ -22,7 +22,6 @@ class CreateFrekuensiNgramTable extends Migration
             $table->unsignedInteger('frekuensi')->default(0);
 
             $table->unique(['gram_1', 'gram_2', 'gram_3']);
-            $table->timestamps();
         });
     }
 

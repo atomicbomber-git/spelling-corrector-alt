@@ -19,70 +19,8 @@ class NgramAndWordSeeder extends Seeder
      */
     public function run()
     {
-        FrekuensiNgram::query()->delete();
-
-        $sentence_files_root_dir = database_path("seeders/sentences");
-        $sentence_filenames = scandir($sentence_files_root_dir);
-
-        $ngram_frequencies = [];
-        $this->dictionary = [];
-
-        $this->command->line("Loading data dari file teks kalimat.");
-
-        $file_loading_progress_bar = $this->createProgressBar($sentence_filenames);
-
-        foreach ($sentence_filenames as $sentence_file) {
-            if (in_array($sentence_file, [".", ".."])) {
-                continue;
-            }
-
-            $file_loading_progress_bar->setMessage("Load berkas " . $sentence_file);
-
-            $filepath = "{$sentence_files_root_dir}/{$sentence_file}";
-            $file_handle = fopen($filepath, "r");
-
-            DB::beginTransaction();
-
-            if ($file_handle) {
-                while (($line = fgets($file_handle)) !== false) {
-                    $line = preg_replace("/[\W_]/", " ", $line);
-                    $line = preg_replace("/\s+/", " ", $line);
-                    $line = trim($line);
-
-                    $words = explode(' ', $line);
-                    foreach ($words as $word) {
-                        $this->dictionary[$word] ??= 0;
-                        ++$this->dictionary[$word];
-                    }
-
-                    for ($i = 0; $i < count($words) + 2; ++$i) {
-                        $gram_1 = ($words[$i - 2] ?? null);
-                        $gram_2 = ($words[$i - 1] ?? null);
-                        $gram_3 = ($words[$i - 0] ?? null);
-
-                        $ngram_frequencies[$gram_1] ??= [];
-                        $ngram_frequencies[$gram_1][$gram_2] ??= [];
-                        $ngram_frequencies[$gram_1][$gram_2][$gram_3] ??= 0;
-                        ++$ngram_frequencies[$gram_1][$gram_2][$gram_3];
-                    }
-                }
-            } else {
-                $this->command->error("Error opening {$filepath}.");
-            }
-
-            $file_loading_progress_bar->advance();
-            DB::commit();
-        }
-
-//        $this->dictionary = array_filter($this->dictionary, fn($frekuensi, $word) => $frekuensi > 3, ARRAY_FILTER_USE_BOTH);
-        $words = array_filter($this->dictionary, fn($word) => strlen($word) > 1 && $this->digit_ratio($word) < 0.2, ARRAY_FILTER_USE_KEY);
-        $words = array_map(fn($word) => ["isi" => $word], array_keys($words));
-
-        Kata::query()->insert($words);
-
-        $file_loading_progress_bar->finish();
-        $flattened_ngram_frekuensi_values = $this->getFlattenedNgramFrequencyValues($ngram_frequencies);
-        $this->storeNgramFrequenciesToDatabase($flattened_ngram_frekuensi_values);
+        $this->loadKatas();
+        $this->loadNgrams();
     }
 
     /**
@@ -159,5 +97,103 @@ class NgramAndWordSeeder extends Seeder
         }
 
         $database_load_progressbar->finish();
+    }
+
+    public function loadKatas(): void
+    {
+        $this->command->info("Loading data kata dari data/words.txt");
+
+        Kata::query()->delete();
+
+        $wordsFilePath = database_path("seeders/data/words.txt");
+        $fileHandle = fopen($wordsFilePath, "r");
+
+        $this->dictionary = [];
+
+        while (($line = fgets($fileHandle)) !== false) {
+            $this->dictionary[trim($line)] = true;
+        }
+
+        Kata::query()->insert(
+            array_map(fn($word) => ["isi" => $word], array_keys($this->dictionary))
+        );
+
+        fclose($fileHandle);
+    }
+
+    public function loadNgrams(): void
+    {
+        FrekuensiNgram::query()->delete();
+
+        $sentence_files_root_dir = database_path("seeders/sentences");
+        $sentence_filenames = scandir($sentence_files_root_dir);
+        $ngram_frequencies = [];
+
+        $this->command->line("Loading data dari file teks kalimat.");
+        $file_loading_progress_bar = $this->createProgressBar($sentence_filenames);
+
+        $extra_words = [];
+
+        foreach ($sentence_filenames as $sentence_file) {
+            if (in_array($sentence_file, [".", ".."])) {
+                continue;
+            }
+
+            $file_loading_progress_bar->setMessage("Load berkas " . $sentence_file);
+            $file_loading_progress_bar->advance();
+
+
+            $filepath = "{$sentence_files_root_dir}/{$sentence_file}";
+            $file_handle = fopen($filepath, "r");
+
+            DB::beginTransaction();
+
+            if ($file_handle) {
+                while (($line = fgets($file_handle)) !== false) {
+                    $line = preg_replace("/[\W_]/", " ", $line);
+                    $line = preg_replace("/\s+/", " ", $line);
+                    $line = trim($line);
+
+                    $words = explode(' ', $line);
+                    array_map(fn($word) => strtolower($word), $words);
+
+                    foreach ($words as $word) {
+                        if (!isset($this->dictionary[$word])) {
+                            $extra_words[$word] = true;
+                        }
+                    }
+
+                    for ($i = 0; $i < count($words) + 2; ++$i) {
+                        $gram_1 = ($words[$i - 2] ?? null);
+                        $gram_2 = ($words[$i - 1] ?? null);
+                        $gram_3 = ($words[$i - 0] ?? null);
+
+                        $ngram_frequencies[$gram_1] ??= [];
+                        $ngram_frequencies[$gram_1][$gram_2] ??= [];
+                        $ngram_frequencies[$gram_1][$gram_2][$gram_3] ??= 0;
+                        ++$ngram_frequencies[$gram_1][$gram_2][$gram_3];
+                    }
+                }
+            } else {
+                $this->command->error("Error opening {$filepath}.");
+            }
+
+            fclose($file_handle);
+            DB::commit();
+        }
+
+
+        $extra_words = array_filter($extra_words, fn($extra_word) => strlen($extra_word) > 3, ARRAY_FILTER_USE_KEY);
+        $extra_words = array_filter($extra_words, fn($extra_word) => strlen(preg_replace("/[^a-zA-Z]*/", '', $extra_word)) / strlen($extra_word) > 0.9, ARRAY_FILTER_USE_KEY);
+
+        foreach ($extra_words as $word => $existence) {
+            $this->dictionary[$word] = true;
+        }
+
+        Kata::query()->insert(array_map(fn($extra_word) => ["isi" => $extra_word], array_keys($extra_words)));
+
+        $file_loading_progress_bar->finish();
+        $flattened_ngram_frekuensi_values = $this->getFlattenedNgramFrequencyValues($ngram_frequencies);
+        $this->storeNgramFrequenciesToDatabase($flattened_ngram_frekuensi_values);
     }
 }
