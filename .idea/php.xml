@@ -99,18 +99,10 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/phpoffice/phpword" />
       <path value="$PROJECT_DIR$/vendor/wamania/php-stemmer" />
-      <path value="$PROJECT_DIR$/vendor/spatie/pdf-to-text" />
       <path value="$PROJECT_DIR$/vendor/yooper/php-text-analysis" />
       <path value="$PROJECT_DIR$/vendor/yooper/nicknames" />
       <path value="$PROJECT_DIR$/vendor/yooper/stop-words" />
-      <path value="$PROJECT_DIR$/vendor/sastrawi/sastrawi" />
       <path value="$PROJECT_DIR$/vendor/vanderlee/php-sentence" />
-      <path value="$PROJECT_DIR$/vendor/sastrawi/string-span" />
-      <path value="$PROJECT_DIR$/vendor/sastrawi/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/sastrawi/trka" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-validator" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-uri" />
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
@@ -148,9 +140,12 @@
       <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
       <path value="$PROJECT_DIR$/vendor/nlp-tools/nlp-tools" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
-      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-ray" />
+      <path value="$PROJECT_DIR$/vendor/zbateson/stream-decorators" />
+      <path value="$PROJECT_DIR$/vendor/zbateson/mail-mime-parser" />
+      <path value="$PROJECT_DIR$/vendor/zbateson/mb-wrapper" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

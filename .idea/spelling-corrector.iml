@@ -58,10 +58,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ramsey/collection" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ramsey/uuid" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sastrawi/sastrawi" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sastrawi/string-span" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sastrawi/tokenizer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sastrawi/trka" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
@@ -74,7 +70,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/resource-operations" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/type" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/pdf-to-text" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/console" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
@@ -112,9 +107,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/yooper/nicknames" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/yooper/php-text-analysis" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/yooper/stop-words" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-uri" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-validator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/event-manager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
@@ -152,9 +144,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/maennchen/zipstream-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nlp-tools/nlp-tools" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-escaper" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-ray" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zbateson/stream-decorators" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zbateson/mail-mime-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zbateson/mb-wrapper" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
