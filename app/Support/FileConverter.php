@@ -14,7 +14,10 @@ class FileConverter
             "file",
             file_get_contents($wordPath),
             "document.docx"
+        )->timeout(
+            600
         )->post(config("application.document_server_url") . "/word-to-html");
+
         return $response->body();
     }
 

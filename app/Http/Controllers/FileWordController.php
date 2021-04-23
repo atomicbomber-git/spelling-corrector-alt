@@ -6,12 +6,14 @@ use App\Constants\MessageState;
 use App\FileWord;
 use App\Support\FileConverter;
 use App\Support\SessionHelper;
+use Illuminate\Http\Client\HttpClientException;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\ResponseFactory;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
+use Illuminate\Validation\ValidationException;
 use NlpTools\Tokenizers\TokenizerInterface;
 use NlpTools\Tokenizers\WhitespaceTokenizer;
 
@@ -81,11 +83,17 @@ class FileWordController extends Controller
                 "nama" => $data["nama"],
             ]);
 
-        $dokumenWord->saveHtml(
-            FileConverter::wordToHTML(
-                $request->file("berkas")->getRealPath(),
-            )
-        );
+        try {
+            $dokumenWord->saveHtml(
+                FileConverter::wordToHTML(
+                    $request->file("berkas")->getRealPath(),
+                )
+            );
+        } catch (HttpClientException $_) {
+            throw ValidationException::withMessages([
+                "berkas" => "Gagal menghubungi server dokumen di " . config("application.document_server_url") . "."
+            ]);
+        }
 
         $dokumenWord
             ->addMediaFromRequest("berkas")
@@ -120,11 +128,17 @@ class FileWordController extends Controller
         ]);
 
         if ($request->hasFile("berkas")) {
-            $file_word->saveHtml(
-                FileConverter::wordToHTML(
-                    $request->file("berkas")->getRealPath(),
-                )
-            );
+            try {
+                $file_word->saveHtml(
+                    FileConverter::wordToHTML(
+                        $request->file("berkas")->getRealPath(),
+                    )
+                );
+            } catch (HttpClientException $_) {
+                throw ValidationException::withMessages([
+                    "berkas" => "Gagal menghubungi server dokumen di " . config("application.document_server_url") . "."
+                ]);
+            }
 
             $file_word
                 ->addMediaFromRequest("berkas")
