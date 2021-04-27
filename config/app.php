@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => 'Aplikasi Revisi Ejaan',
+    'name' => 'Aplikasi Pendeteksi Kesalahan Penulisan',
 
     /*
     |--------------------------------------------------------------------------
