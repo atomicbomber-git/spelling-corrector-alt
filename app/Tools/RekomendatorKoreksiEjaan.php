@@ -78,7 +78,7 @@ class RekomendatorKoreksiEjaan
     public function tokenExistsInDictionary(string $token): bool
     {
         return Kata::query()
-                ->where("isi", "=", $token)
+                ->whereRaw("LOWER(isi) = LOWER(?)", [$token])
                 ->count() > 0;
     }
 
