@@ -43,14 +43,14 @@
                                         <select
                                             v-model="errorPosition.selectedRecommendation"
                                             class="form-control form-control-sm"
-                                            @change="errorPosition.correction = errorPosition.selectedRecommendation"
+                                            @change="errorPosition.correction = errorPosition.selectedRecommendation.word"
                                         >
                                             <option
                                                 v-for="(recommendation, recIndex) in tokenWithError.recommendations"
                                                 :key="recIndex"
                                                 :value="recommendation"
                                             >
-                                                {{ recommendation }}
+                                                {{ recommendation.word }} [{{ (recommendation.points * 100).toFixed(2) }}]
                                             </option>
                                         </select>
                                     </td>
@@ -266,7 +266,7 @@ export default {
                             this.tokenWithErrors[tokenString].positions.push({
                                 index: indexCounters[tokenString],
                                 selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
-                                correction: this.tokenWithErrors[tokenString].recommendations[0],
+                                correction: this.tokenWithErrors[tokenString].recommendations[0]?.word,
                             })
 
                             matches.push({
@@ -385,7 +385,7 @@ export default {
                     this.$set(this.tokenWithErrors, recommendationDatum.token, {
                         index: this.tokenWithErrorIndexCounter++,
                         positions: [],
-                        correction: recommendationDatum.recommendations[0],
+                        correction: recommendationDatum.recommendations[0]?.word,
                         selectedRecommendation: recommendationDatum.recommendations[0],
                         recommendations: recommendationDatum.recommendations
                     })

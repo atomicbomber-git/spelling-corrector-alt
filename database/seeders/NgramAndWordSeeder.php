@@ -19,6 +19,9 @@ class NgramAndWordSeeder extends Seeder
      */
     public function run()
     {
+        Kata::query()->forceDelete();
+        FrekuensiNgram::query()->forceDelete();
+
         $this->loadKatas();
         $this->loadNgrams();
     }
@@ -50,24 +53,19 @@ class NgramAndWordSeeder extends Seeder
     {
         $flattened_ngram_frekuensi_values = [];
         foreach ($ngram_frequencies as $w1 => $gram_1_subs) {
-            foreach ($gram_1_subs as $w2 => $gram_2_subs) {
-                foreach ($gram_2_subs as $w3 => $frekuensi) {
-
-                    if (!isset(
-                        $this->dictionary[$w1],
-                        $this->dictionary[$w2],
-                        $this->dictionary[$w3],
-                    )) {
-                        continue;
-                    }
-
-                    $flattened_ngram_frekuensi_values[] = [
-                        "gram_1" => $w1 != "" ? $w1 : null,
-                        "gram_2" => $w2 != "" ? $w2 : null,
-                        "gram_3" => $w3 != "" ? $w3 : null,
-                        "frekuensi" => $frekuensi,
-                    ];
+            foreach ($gram_1_subs as $w2 => $frekuensi) {
+                if (!isset(
+                    $this->dictionary[$w1],
+                    $this->dictionary[$w2],
+                )) {
+                    continue;
                 }
+
+                $flattened_ngram_frekuensi_values[] = [
+                    "gram_1" => $w1 != "" ? $w1 : null,
+                    "gram_2" => $w2 != "" ? $w2 : null,
+                    "frekuensi" => $frekuensi,
+                ];
             }
         }
         return $flattened_ngram_frekuensi_values;
@@ -163,15 +161,13 @@ class NgramAndWordSeeder extends Seeder
                         }
                     }
 
-                    for ($i = 0; $i < count($words) + 2; ++$i) {
-                        $gram_1 = ($words[$i - 2] ?? null);
-                        $gram_2 = ($words[$i - 1] ?? null);
-                        $gram_3 = ($words[$i - 0] ?? null);
+                    for ($i = 0; $i < count($words) + 1; ++$i) {
+                        $gram_1 = ($words[$i - 1] ?? null);
+                        $gram_2 = ($words[$i - 0] ?? null);
 
                         $ngram_frequencies[$gram_1] ??= [];
-                        $ngram_frequencies[$gram_1][$gram_2] ??= [];
-                        $ngram_frequencies[$gram_1][$gram_2][$gram_3] ??= 0;
-                        ++$ngram_frequencies[$gram_1][$gram_2][$gram_3];
+                        $ngram_frequencies[$gram_1][$gram_2] ??= 0;
+                        ++$ngram_frequencies[$gram_1][$gram_2];
                     }
                 }
             } else {
@@ -181,7 +177,6 @@ class NgramAndWordSeeder extends Seeder
             fclose($file_handle);
             DB::commit();
         }
-
 
         $extra_words = array_filter($extra_words, fn($extra_word) => strlen($extra_word) > 3, ARRAY_FILTER_USE_KEY);
         $extra_words = array_filter($extra_words, fn($extra_word) => strlen(preg_replace("/[^a-zA-Z]*/", '', $extra_word)) / strlen($extra_word) > 0.9, ARRAY_FILTER_USE_KEY);

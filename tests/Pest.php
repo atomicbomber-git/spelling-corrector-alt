@@ -11,7 +11,7 @@
 |
 */
 
- uses(Tests\TestCase::class)->in("Support", 'Unit');
+ uses(Tests\TestCase::class)->in('Unit');
 
 /*
 |--------------------------------------------------------------------------

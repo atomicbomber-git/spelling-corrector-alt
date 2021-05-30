@@ -13,9 +13,7 @@ use NlpTools\Tokenizers\TokenizerInterface;
 
 class RekomendatorKoreksiEjaan
 {
-    public const MAX_RECOMMENDATIONS = 10;
-    public const BOBOT_SIMILARITAS_DB = 0.8;
-    public const BOBOT_FREKUENSI_NGRAM = 0.2;
+    public const MAX_RECOMMENDATIONS = 50;
 
     public string $text;
     public array $tokens;
@@ -42,7 +40,7 @@ class RekomendatorKoreksiEjaan
             ->whereIn(
                 DB::raw("LOWER(isi)"),
                 collect($this->tokens)
-                    ->map(fn ($token) => mb_strtolower($token))
+                    ->map(fn($token) => mb_strtolower($token))
                     ->unique()
                     ->toArray()
             )
@@ -50,85 +48,82 @@ class RekomendatorKoreksiEjaan
 
         foreach (range(0, count($this->tokens) - 1) as $index) {
             $token = $this->tokens[$index];
-
-            $prev_word_1 = $this->tokens[$index - 2] ?? null;
-            $prev_word_2 = $this->tokens[$index - 1] ?? null;
+            $prev_word = $this->tokens[$index - 1] ?? null;
+            $post_word = $this->tokens[$index + 1] ?? null;
 
             if (in_array(mb_strtolower($token), $tokensThatExistsInDictionary->toArray())) continue;
 
             $outputTokens[] = [
                 "token" => $token,
-                "recommendations" => $this->getRecommendations($token, $prev_word_1, $prev_word_2),
+                "recommendations" => $this->getRecommendations($token, $prev_word, $post_word),
             ];
         }
 
         return $outputTokens;
     }
 
-    /**
-     * @param string $cleanedToken
-     * @param string|null $prev_word_1
-     * @param string|null $prev_word_2
-     * @return array
-     */
-    public function getRecommendations(string $cleanedToken, ?string $prev_word_1, ?string $prev_word_2): array
+    public function getRecommendations(
+        string $word,
+        ?string $pre_word,
+        ?string $post_word,
+    ): array
     {
-        $most_similar_words = $this->getMostSimilarWords($cleanedToken, self::MAX_RECOMMENDATIONS)->pluck("points", "word");
-        $most_frequent_ngram_frequencies = $this->getMostFrequentNgramFrequencies($prev_word_1, $prev_word_2)->pluck("points", "word");
+        $word = mb_strtolower($word);
+        $pre_word = mb_strtolower($pre_word);
+        $post_word = mb_strtolower($post_word);
 
-        return (new Collection())
-            ->merge($most_similar_words->keys())
-            ->merge($most_frequent_ngram_frequencies->keys())
-            ->map(function ($word) use ($most_similar_words, $most_frequent_ngram_frequencies) {
+        $most_similar_words = $this->getMostSimilarWords(
+            $word,
+            self::MAX_RECOMMENDATIONS
+        )->pluck("points", "word");
+
+        $pre_ngram_frequencies = FrekuensiNgram::query()
+                ->where(["gram_1" => $pre_word])
+                ->whereIn("gram_2", $most_similar_words->keys())
+                ->pluck("frekuensi", "gram_2");
+
+        $pre_ngram_frequencies = $pre_ngram_frequencies->mapWithKeys(function ($frequency, $word) use ($pre_ngram_frequencies) {
+            return [$word => $frequency / $pre_ngram_frequencies->sum()];
+        });
+
+        $post_ngram_frequencies = FrekuensiNgram::query()
+            ->whereIn("gram_1", $most_similar_words->keys())
+            ->where(["gram_2" => $post_word,])
+            ->pluck("frekuensi", "gram_1");
+
+        $post_ngram_frequencies = $post_ngram_frequencies->mapWithKeys(function ($frequency, $word) use ($post_ngram_frequencies) {
+            return [$word => $frequency / $post_ngram_frequencies->sum()];
+        });
+
+        $results = $most_similar_words->keys()
+            ->map(function (string $word) use ($most_similar_words, $pre_ngram_frequencies, $post_ngram_frequencies) {
                 return [
                     "word" => $word,
+                    "similaritas_trigram_huruf" => $most_similar_words->get($word, 0.0),
+                    "frekuensi_bigram_awal" => $pre_ngram_frequencies->get($word, 0.0),
+                    "frekuensi_bigram_akhir" => $post_ngram_frequencies->get($word, 0.0),
                     "points" =>
-                        ($most_similar_words[$word] ?? 0 * self::BOBOT_SIMILARITAS_DB) +
-                        ($most_frequent_ngram_frequencies[$word] ?? 0 * self::BOBOT_FREKUENSI_NGRAM)
+                        collect([
+                            $most_similar_words->get($word, 0.0),
+                            $pre_ngram_frequencies->get($word, 0.0),
+                            $post_ngram_frequencies->get($word, 0.0)
+                        ])->avg()
                 ];
             })
             ->sortByDesc("points")
-            ->pluck("word")
-            ->toArray();
+            ->values()
+            ->take(5);
+
+        return $results->toArray();
     }
 
     private function getMostSimilarWords(string $incorrectWord, int $max = 5): Collection
     {
         return Kata::query()
             ->select("isi AS word")
-            ->selectRaw("(isi <-> ?) AS points", [$incorrectWord])
-            ->orderByRaw("isi <-> ?", [$incorrectWord])
+            ->selectRaw("similarity(isi, ?) AS points", [$incorrectWord])
+            ->orderByRaw("similarity(isi, ?) DESC", [$incorrectWord])
             ->limit($max)
             ->get();
-    }
-
-    public function getMostFrequentNgramFrequencies(?string $word_1, ?string $word_2, $candidates = []): Collection
-    {
-        $most_frequent_ngram_frequencies = new Collection();
-
-        $most_frequent_ngram_frequencies = $most_frequent_ngram_frequencies->merge(
-            FrekuensiNgram::query()
-                ->select("gram_3", "frekuensi")
-                ->where(["gram_1" => $word_1, "gram_2" => $word_2])
-                ->orderByDesc("frekuensi")
-                ->limit(self::MAX_RECOMMENDATIONS)
-                ->get()
-        );
-
-        $most_frequent_ngram_frequencies->merge(
-            FrekuensiNgram::query()
-                ->select("gram_3", "frekuensi")
-                ->where(["gram_1" => $word_1, "gram_2" => $word_2])
-                ->whereIn("gram_3", $candidates)
-                ->orderByDesc("frekuensi")
-                ->get()
-        );
-
-        $ngram_frekuensi_sum = $most_frequent_ngram_frequencies->sum("frekuensi");
-
-        return $most_frequent_ngram_frequencies->map(fn($ngram_frekuensi) => [
-            "word" => $ngram_frekuensi->gram_3,
-            "points" => $ngram_frekuensi->frekuensi / $ngram_frekuensi_sum,
-        ]);
     }
 }
