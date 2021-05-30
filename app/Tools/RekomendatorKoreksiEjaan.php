@@ -6,6 +6,7 @@ namespace App\Tools;
 
 use App\FrekuensiNgram;
 use App\Kata;
+use DB;
 use Illuminate\Support\Collection;
 use NlpTools\Tokenizers\RegexTokenizer;
 use NlpTools\Tokenizers\TokenizerInterface;
@@ -30,36 +31,30 @@ class RekomendatorKoreksiEjaan
         );
 
         $this->tokens = $tokens;
-        $this->preprocess();
-    }
-
-    private function preprocess()
-    {
-        $this->tokens = $this->filterTokens($this->tokens);
-    }
-
-    private function filterTokens(array $tokens): array
-    {
-        $tokens = array_values(array_filter(
-            $tokens,
-            fn($token) => strlen($token) > 0
-        ));
-
-        return $tokens;
     }
 
     public function recommendations(): array
     {
         $outputTokens = [];
 
+        $tokensThatExistsInDictionary = Kata::query()
+            ->selectRaw("LOWER(isi) AS isi")
+            ->whereIn(
+                DB::raw("LOWER(isi)"),
+                collect($this->tokens)
+                    ->map(fn ($token) => mb_strtolower($token))
+                    ->unique()
+                    ->toArray()
+            )
+            ->pluck("isi");
+
         foreach (range(0, count($this->tokens) - 1) as $index) {
             $token = $this->tokens[$index];
 
             $prev_word_1 = $this->tokens[$index - 2] ?? null;
             $prev_word_2 = $this->tokens[$index - 1] ?? null;
-            $isIncorrect = $this->tokenDoesntExistOnDictionary($token);
 
-            if (!$isIncorrect) continue;
+            if (in_array(mb_strtolower($token), $tokensThatExistsInDictionary->toArray())) continue;
 
             $outputTokens[] = [
                 "token" => $token,
@@ -68,18 +63,6 @@ class RekomendatorKoreksiEjaan
         }
 
         return $outputTokens;
-    }
-
-    public function tokenDoesntExistOnDictionary(string $token): bool
-    {
-        return !$this->tokenExistsInDictionary($token);
-    }
-
-    public function tokenExistsInDictionary(string $token): bool
-    {
-        return Kata::query()
-                ->whereRaw("LOWER(isi) = LOWER(?)", [$token])
-                ->count() > 0;
     }
 
     /**

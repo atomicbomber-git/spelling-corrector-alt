@@ -260,7 +260,7 @@ export default {
 
                     let matches = []
                     tokenStrings.forEach(tokenString => {
-                        let regExp = RegExp(`\\b${tokenString}\\b`, "gi")
+                        let regExp = RegExp(`\\b${tokenString}\\b`, "g")
 
                         for (let regExpMatchArray of text.matchAll(regExp)) {
                             this.tokenWithErrors[tokenString].positions.push({
@@ -335,10 +335,7 @@ export default {
 
             do {
                 let node = walker.current()
-                if (
-                    node.nodeType !== Node.TEXT_NODE ||
-                    node.parentNode.classList.contains("has-spelling-error")
-                ) {
+                if (node.nodeType !== Node.TEXT_NODE) {
                     continue
                 }
 
@@ -348,17 +345,14 @@ export default {
                     processableTextPieces.push(part)
                 })
             } while (walker.next());
-
-
+            
             processableTextPieces = processableTextPieces
-                .filter(textPiece => textPiece.length > 1)
-                .filter(textPiece => this.symbolPercentage(textPiece) < 0.1)
                 .map(textPiece => textPiece
                         .replace(new RegExp("[^\\w]*$", "gm"), '')
                         .replace(new RegExp("^[^\\w]*", "gm"), '')
                 )
-
-            processableTextPieces = uniqBy(processableTextPieces, textPiece => textPiece.toLowerCase())
+                .filter(textPiece => textPiece.length > 0)
+            
             processableTextPieces = chunk(processableTextPieces, 100)
 
             return processableTextPieces
