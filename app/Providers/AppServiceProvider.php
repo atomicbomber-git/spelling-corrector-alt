@@ -4,8 +4,6 @@ namespace App\Providers;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
-use Sastrawi\Tokenizer\TokenizerFactory;
-use Sastrawi\Tokenizer\TokenizerInterface;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -27,9 +25,5 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Paginator::useBootstrap();
-
-        $this->app->bind(TokenizerInterface::class, function() {
-            return (new TokenizerFactory)->createDefaultTokenizer();
-        });
     }
 }
