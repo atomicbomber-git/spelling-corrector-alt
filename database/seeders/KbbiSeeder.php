@@ -13,19 +13,6 @@ class KbbiSeeder extends Seeder
     public function run()
     {
         $this->insertFromFirstSource();
-
-        $file = new \SplFileObject(__DIR__ . "/data/in");
-
-        // Loop until we reach the end of the file.
-        while (!$file->eof()) {
-            $line = trim($file->fgets());
-
-        }
-
-        // Unset the file to call __destruct(), closing the file handle.
-        $file = null;
-    
-    
     }
 
     private function insertFromFirstSource(): void

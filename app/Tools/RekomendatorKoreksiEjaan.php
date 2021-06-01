@@ -77,6 +77,8 @@ class RekomendatorKoreksiEjaan
             self::MAX_RECOMMENDATIONS
         )->pluck("points", "word");
 
+        ray()->send($most_similar_words);
+
         $pre_ngram_frequencies = FrekuensiNgram::query()
                 ->where(["gram_1" => $pre_word])
                 ->whereIn("gram_2", $most_similar_words->keys())
