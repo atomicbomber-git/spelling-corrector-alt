@@ -141,7 +141,8 @@ import axios from "axios"
 import tinymce from "tinymce"
 import editor from "@tinymce/tinymce-vue"
 import Swal from "sweetalert2"
-import {chunk, uniq, uniqBy} from "lodash"
+import {chunk} from "lodash"
+import SentenceTokenizer from "sentence-tokenizer"
 
 export default {
     components: {
@@ -330,32 +331,28 @@ export default {
         },
 
         getProcessableTextPieces: function (editor) {
-            let processableTextPieces = []
+            let text = "";
             let walker = new tinymce.dom.TreeWalker(editor.dom.getRoot());
 
             do {
                 let node = walker.current()
-                if (node.nodeType !== Node.TEXT_NODE) {
-                    continue
+                if (node.nodeType === Node.TEXT_NODE) {
+                    text += node.textContent
+                } else {
+                    if ((node.nodeName === "P") || (node.nodeName === "BR"))
+                    text += ". "
                 }
-
-                let parts = node.textContent.split(/\b/)
-
-                parts.forEach(part => {
-                    processableTextPieces.push(part)
-                })
             } while (walker.next());
             
-            processableTextPieces = processableTextPieces
-                .map(textPiece => textPiece
-                        .replace(new RegExp("[^\\w]*$", "gm"), '')
-                        .replace(new RegExp("^[^\\w]*", "gm"), '')
-                )
-                .filter(textPiece => textPiece.length > 0)
-            
-            processableTextPieces = chunk(processableTextPieces, 100)
+            const tokenizer = new SentenceTokenizer()
+            tokenizer.setEntry(text)
 
-            return processableTextPieces
+            return tokenizer
+                .getSentences()
+                .map(sentence => sentence.replaceAll(/\p{P}/gu, ' '))
+                .map(sentence => sentence.trim())
+                .filter(sentence => sentence.length > 0)
+                .map(sentence => sentence.split(/[\p{Z}\/-]+/gmu))
         },
 
         onEditorInit(e) {

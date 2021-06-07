@@ -77,14 +77,13 @@ class RekomendatorKoreksiEjaan
     ): array
     {
         $word = mb_strtolower($word);
-        $pre_word = mb_strtolower($pre_word);
-        $post_word = mb_strtolower($post_word);
+        $pre_word = $pre_word !== null ? mb_strtolower($pre_word) : $pre_word;
+        $post_word = $post_word !== null ? mb_strtolower($post_word) : $post_word;
 
         $most_similar_words = $this->getMostSimilarWords(
             $word,
             self::MAX_RECOMMENDATIONS
         );
-
 
         $report_text_file = new SplFileObject(base_path("report.txt"), "a");
 
@@ -111,7 +110,7 @@ class RekomendatorKoreksiEjaan
             $report(join(", ", array_map(fn($text) => "\"{$text}\"", $trigramA)) . "\n");
 
             $report("Trigram huruf pada kata \"{$most_similar_word->word}\" (kata dari lookup table): ");
-            $report(join(", ", array_map(fn($text) => "\"{$text}\"", $trigramA)) . "\n");
+            $report(join(", ", array_map(fn($text) => "\"{$text}\"", $trigramB)) . "\n");
 
             $report("Trigram yang muncul di kedua kata: ");
             $report(join(", ", array_map(fn($text) => "\"{$text}\"", $intersectionTrigrams->toArray())));
@@ -142,6 +141,7 @@ class RekomendatorKoreksiEjaan
         }
 
         foreach ($pre_ngram_frequencies as $candidateWord => $pre_ngram_frequency) {
+            $pre_word ??= "NULL";
             $report("\"{$pre_word}\",  \"{$candidateWord}\" -> {$pre_ngram_frequency}");
         }
 
@@ -152,6 +152,7 @@ class RekomendatorKoreksiEjaan
         });
 
         foreach ($pre_ngram_frequencies as $candidateWord => $pre_ngram_frequency) {
+            $pre_word ??= "NULL";
             $pre_ngram_frequency = number_format($pre_ngram_frequency, 2);
             $report("\"{$pre_word}\",  \"{$candidateWord}\" -> {$pre_ngram_frequency}");
         }
@@ -168,8 +169,8 @@ class RekomendatorKoreksiEjaan
         }
 
         foreach ($post_ngram_frequencies as $candidateWord => $post_ngram_frequency) {
-
-            $report("\"{$post_word}\",  \"{$candidateWord}\" -> {$post_ngram_frequency}");
+            $post_word ??= "NULL";
+            $report("\"{$candidateWord}\", \"{$post_word}\" -> {$post_ngram_frequency}");
         }
 
         $report("\nMembagi semua frekuensi dengan total frekuensi ({$post_ngram_frequencies->sum()}) dan mengalikan dengan 100 supaya rentang nilai menjadi 0 - 1");
@@ -179,8 +180,9 @@ class RekomendatorKoreksiEjaan
         });
 
         foreach ($post_ngram_frequencies as $candidateWord => $post_ngram_frequency) {
+            $post_word ??= "NULL";
             $post_ngram_frequency = number_format($post_ngram_frequency, 2);
-            $report("\"{$post_word}\",  \"{$candidateWord}\" -> {$post_ngram_frequency}");
+            $report("\"{$candidateWord}\", \"{$post_word}\" -> {$post_ngram_frequency}");
         }
 
         $results = $most_similar_words->keys()

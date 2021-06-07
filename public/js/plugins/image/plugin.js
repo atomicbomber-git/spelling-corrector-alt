@@ -4,7 +4,7 @@
  * For LGPL see License.txt in the project root for license information.
  * For commercial licenses see https://www.tiny.cloud/
  *
- * Version: 5.8.0 (2021-05-06)
+ * Version: 5.7.0 (2021-02-10)
  */
 (function () {
     'use strict';
@@ -23,46 +23,6 @@
       };
       return __assign.apply(this, arguments);
     };
-
-    var typeOf = function (x) {
-      var t = typeof x;
-      if (x === null) {
-        return 'null';
-      } else if (t === 'object' && (Array.prototype.isPrototypeOf(x) || x.constructor && x.constructor.name === 'Array')) {
-        return 'array';
-      } else if (t === 'object' && (String.prototype.isPrototypeOf(x) || x.constructor && x.constructor.name === 'String')) {
-        return 'string';
-      } else {
-        return t;
-      }
-    };
-    var isType = function (type) {
-      return function (value) {
-        return typeOf(value) === type;
-      };
-    };
-    var isSimpleType = function (type) {
-      return function (value) {
-        return typeof value === type;
-      };
-    };
-    var eq = function (t) {
-      return function (a) {
-        return t === a;
-      };
-    };
-    var isString = isType('string');
-    var isObject = isType('object');
-    var isArray = isType('array');
-    var isNull = eq(null);
-    var isBoolean = isSimpleType('boolean');
-    var isNullable = function (a) {
-      return a === null || a === undefined;
-    };
-    var isNonNullable = function (a) {
-      return !isNullable(a);
-    };
-    var isNumber = isSimpleType('number');
 
     var noop = function () {
     };
@@ -213,6 +173,46 @@
     var hasNonNullableKey = function (obj, key) {
       return has(obj, key) && obj[key] !== undefined && obj[key] !== null;
     };
+
+    var typeOf = function (x) {
+      var t = typeof x;
+      if (x === null) {
+        return 'null';
+      } else if (t === 'object' && (Array.prototype.isPrototypeOf(x) || x.constructor && x.constructor.name === 'Array')) {
+        return 'array';
+      } else if (t === 'object' && (String.prototype.isPrototypeOf(x) || x.constructor && x.constructor.name === 'String')) {
+        return 'string';
+      } else {
+        return t;
+      }
+    };
+    var isType = function (type) {
+      return function (value) {
+        return typeOf(value) === type;
+      };
+    };
+    var isSimpleType = function (type) {
+      return function (value) {
+        return typeof value === type;
+      };
+    };
+    var eq = function (t) {
+      return function (a) {
+        return t === a;
+      };
+    };
+    var isString = isType('string');
+    var isObject = isType('object');
+    var isArray = isType('array');
+    var isNull = eq(null);
+    var isBoolean = isSimpleType('boolean');
+    var isNullable = function (a) {
+      return a === null || a === undefined;
+    };
+    var isNonNullable = function (a) {
+      return !isNullable(a);
+    };
+    var isNumber = isSimpleType('number');
 
     var nativePush = Array.prototype.push;
     var flatten = function (xs) {
@@ -1119,12 +1119,6 @@
             label: 'Show caption'
           }]
       };
-      var getDialogContainerType = function (useColumns) {
-        return useColumns ? {
-          type: 'grid',
-          columns: 2
-        } : { type: 'panel' };
-      };
       return flatten([
         [imageUrl],
         imageList.toArray(),
@@ -1132,12 +1126,14 @@
         info.hasDescription ? [imageDescription] : [],
         info.hasImageTitle ? [imageTitle] : [],
         info.hasDimensions ? [imageDimensions] : [],
-        [__assign(__assign({}, getDialogContainerType(info.classList.isSome() && info.hasImageCaption)), {
+        [{
+            type: 'grid',
+            columns: 2,
             items: flatten([
               classList.toArray(),
               info.hasImageCaption ? [caption] : []
             ])
-          })]
+          }]
       ]);
     };
     var makeTab$1 = function (info) {
@@ -1567,7 +1563,7 @@
           if (results.length === 0) {
             return global$2.reject('Failed to upload image');
           } else if (results[0].status === false) {
-            return global$2.reject(results[0].error.message);
+            return global$2.reject(results[0].error);
           } else {
             return results[0];
           }
