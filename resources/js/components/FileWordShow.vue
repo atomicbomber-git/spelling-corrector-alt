@@ -267,7 +267,7 @@ export default {
                             this.tokenWithErrors[tokenString].positions.push({
                                 index: indexCounters[tokenString],
                                 selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
-                                correction: this.tokenWithErrors[tokenString].recommendations[0]?.word,
+                                correction: null,
                             })
 
                             matches.push({
@@ -382,7 +382,7 @@ export default {
                     this.$set(this.tokenWithErrors, recommendationDatum.token, {
                         index: this.tokenWithErrorIndexCounter++,
                         positions: [],
-                        correction: recommendationDatum.recommendations[0]?.word,
+                        correction: null,
                         selectedRecommendation: recommendationDatum.recommendations[0],
                         recommendations: recommendationDatum.recommendations
                     })
