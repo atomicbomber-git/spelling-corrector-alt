@@ -29,3 +29,12 @@ Route::resource("file-word", FileWordController::class);
 Route::get("file-word/{file_word}/download", FileWordDownloadController::class)->name("file-word.download");
 Route::post("file-word/{file_word}/koreksi", FileWordKoreksiEjaanController::class)->name("file-word.koreksi-ejaan");
 Route::post("rekomendasi-pembenaran", RekomendasiPembenaranController::class)->name("rekomendasi-pembenaran");
+
+
+Route::get("file-word/{file_word}/debug-current", function (\App\FileWord $fileWord) {
+    $htmlString = htmlspecialchars(file_get_contents(
+        $fileWord->getFirstMediaPath(\App\FileWord::COLLECTION_HTML_FILE)
+    ));
+
+    return response("<pre> {$htmlString} </pre>");
+});

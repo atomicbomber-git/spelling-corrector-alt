@@ -45,7 +45,10 @@ class FileWordKoreksiEjaanController extends Controller
             ->toArray();
 
         $domDocument = new DOMDocument();
-        $domDocument->loadHTML($file_word->loadHTML());
+
+        $domDocument->loadHTML(
+            mb_convert_encoding($file_word->loadHTML(), 'HTML-ENTITIES', 'UTF-8')
+        );
 
         foreach ($replacementPairs as $original => $replacements) {
             $original = preg_quote($original, "/");
@@ -77,8 +80,6 @@ class FileWordKoreksiEjaanController extends Controller
                 pathinfo($file_word->getFirstMediaPath(FileWord::COLLECTION_WORD_FILE))["basename"]
             )
             ->toMediaCollection(FileWord::COLLECTION_WORD_FILE);
-
-
         DB::commit();
 
         SessionHelper::flashMessage(

@@ -14,6 +14,7 @@ class FileWord extends Model implements HasMedia
 
     protected $table = "file_word";
     const COLLECTION_WORD_FILE = "word_files";
+    const COLLECTION_ORIGINAL_FILE = "original_word_files";
     const COLLECTION_HTML_FILE = "html_files";
     protected $guarded = [];
 
