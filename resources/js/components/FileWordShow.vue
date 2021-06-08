@@ -199,15 +199,6 @@ export default {
     },
 
     methods: {
-        symbolPercentage(text) {
-            let filtered = text
-            filtered = filtered
-                .replaceAll(/[^\w]+/g, '')
-                .replaceAll(/\d+/g, '')
-
-          return 1 - (filtered.replaceAll(/[^\w]+/g, '').length / text.length)
-        },
-
         jumpIntoText(tokenIndex, positionIndex) {
             let body = this.$refs.vue_editor.editor.getBody()
             let element = body
@@ -261,8 +252,8 @@ export default {
 
                     let matches = []
                     tokenStrings.forEach(tokenString => {
-                        let regExp = RegExp(`\\b${tokenString}\\b`, "g")
-
+                        let regExp = RegExp(`(?<=[\\s,.:;"']|^)${tokenString}(?=[\\s,.:;"']|$)`, "gmu")
+                        
                         for (let regExpMatchArray of text.matchAll(regExp)) {
                             this.tokenWithErrors[tokenString].positions.push({
                                 index: indexCounters[tokenString],
@@ -346,13 +337,18 @@ export default {
             
             const tokenizer = new SentenceTokenizer()
             tokenizer.setEntry(text)
-
-            return tokenizer
+    
+            let sentences = tokenizer
                 .getSentences()
                 .map(sentence => sentence.replaceAll(/\p{P}/gu, ' '))
                 .map(sentence => sentence.trim())
                 .filter(sentence => sentence.length > 0)
-                .map(sentence => sentence.split(/[\p{Z}\/-]+/gmu))
+                .map(sentence => sentence.split(/[\p{Z}\/-]+/gmu));
+    
+    
+            console.log(sentences)
+            
+            return sentences
         },
 
         onEditorInit(e) {
