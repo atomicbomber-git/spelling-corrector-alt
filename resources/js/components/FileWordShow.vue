@@ -234,6 +234,10 @@ export default {
                     alert("Gagal merevisi dokumen.")
                 })
         },
+    
+        escapeRegExp(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+        },
 
         markTokensThatHasSpellingErrorMultiple: function (tokenStrings) {
             const markerClass = "has-spelling-error"
@@ -252,7 +256,7 @@ export default {
 
                     let matches = []
                     tokenStrings.forEach(tokenString => {
-                        let regExp = RegExp(`(?<=[\\s,.:;"']|^)${tokenString}(?=[\\s,.:;"']|$)`, "gmu")
+                        let regExp = RegExp(`(?<=[\\s,.:;"']|^)${this.escapeRegExp(tokenString)}(?=[\\s,.:;"']|$)`, "gmu")
                         
                         for (let regExpMatchArray of text.matchAll(regExp)) {
                             this.tokenWithErrors[tokenString].positions.push({
@@ -340,7 +344,7 @@ export default {
     
             let sentences = tokenizer
                 .getSentences()
-                .map(sentence => sentence.replaceAll(/\p{P}/gu, ' '))
+                .map(sentence => sentence.replaceAll(/[!?.,()"']/gu, ' '))
                 .map(sentence => sentence.trim())
                 .filter(sentence => sentence.length > 0)
                 .map(sentence => sentence.split(/[\p{Z}\/-]+/gmu));

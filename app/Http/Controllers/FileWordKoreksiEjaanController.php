@@ -54,7 +54,7 @@ class FileWordKoreksiEjaanController extends Controller
             $original = preg_quote($original, "/");
 
             $domDocument = StringUtil::replaceTextsInXmlTreeNodes(
-                "/\b(_)*({$original})(_)*\b/ui",
+                "/(?<!\pL)({$original})(?!\pL)/ui",
                 $replacements,
                 $domDocument,
             );
