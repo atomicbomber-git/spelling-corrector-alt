@@ -102,7 +102,7 @@ class RekomendatorKoreksiEjaan
             $trigramB = json_decode($most_similar_word->trigram_huruf_kata_b);
 
             $intersectionTrigrams = collect($trigramA)->intersect($trigramB);
-            $unionTrigrams = collect($trigramA)->union($trigramB);
+            $unionTrigrams = collect($trigramA)->merge($trigramB)->unique();
 
             $report("Perhitungan similaritas trigram huruf antara \"{$word}\" (kata keliru) dan \"{$most_similar_word->word}\" (kata dari lookup table)");
 
