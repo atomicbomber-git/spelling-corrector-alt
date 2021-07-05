@@ -348,9 +348,6 @@ export default {
                 .map(sentence => sentence.trim())
                 .filter(sentence => sentence.length > 0)
                 .map(sentence => sentence.split(/[\p{Z}\/-]+/gmu));
-    
-    
-            console.log(sentences)
             
             return sentences
         },
@@ -371,6 +368,7 @@ export default {
             for (const textTokens of this.processableTextPieces) {
                 const tokens = textTokens
                     .filter(token => !this.tokenWithErrors.hasOwnProperty(token.toLowerCase()))
+                    .filter(token => token.length > 0)
 
                 const recommendationData = await this.getSpellingRecommendations(tokens)
 

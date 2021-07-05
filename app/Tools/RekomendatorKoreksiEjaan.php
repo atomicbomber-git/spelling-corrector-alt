@@ -54,17 +54,19 @@ class RekomendatorKoreksiEjaan
             )
             ->pluck("isi");
 
-        foreach (range(0, count($this->tokens) - 1) as $index) {
-            $token = $this->tokens[$index];
-            $prev_word = $this->tokens[$index - 1] ?? null;
-            $post_word = $this->tokens[$index + 1] ?? null;
+        if (count($this->tokens) > 0) {
+            foreach (range(0, count($this->tokens) - 1) as $index) {
+                $token = $this->tokens[$index];
+                $prev_word = $this->tokens[$index - 1] ?? null;
+                $post_word = $this->tokens[$index + 1] ?? null;
 
-            if (in_array(mb_strtolower($token), $tokensThatExistsInDictionary->toArray())) continue;
+                if (in_array(mb_strtolower($token), $tokensThatExistsInDictionary->toArray())) continue;
 
-            $outputTokens[] = [
-                "token" => $token,
-                "recommendations" => $this->getRecommendations($token, $prev_word, $post_word),
-            ];
+                $outputTokens[] = [
+                    "token" => $token,
+                    "recommendations" => $this->getRecommendations($token, $prev_word, $post_word),
+                ];
+            }
         }
 
         return $outputTokens;
