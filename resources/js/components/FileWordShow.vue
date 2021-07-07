@@ -14,10 +14,10 @@
                             class="table table-borderless"
                             style="table-layout: fixed"
                         >
-
-
+                            
+                            
                             <tbody>
-
+                            
                             <template v-for="(tokenWithError, tokenString) in tokenWithErrors">
                                 <tr :key="tokenString">
                                     <td class="font-weight-bold h5"
@@ -50,7 +50,9 @@
                                                 :key="recIndex"
                                                 :value="recommendation"
                                             >
-                                                {{ recommendation.word }} [{{ (recommendation.points * 100).toFixed(2) }}]
+                                                {{ recommendation.word }} [{{
+                                                    (recommendation.points * 100).toFixed(2)
+                                                }}]
                                             </option>
                                         </select>
                                     </td>
@@ -72,14 +74,14 @@
                             </tbody>
                         </table>
                     </div>
-
+                    
                     <div
                         v-if="Object.keys(this.tokenWithErrors).length === 0"
                         class="alert alert-success"
                     >
                         Tidak terdapat kesalahan pengejaan sama sekali.
                     </div>
-
+                    
                     <!-- Progress bar -->
                     <div v-if="this.textProcessingProgress < 100"
                          class="my-2"
@@ -87,7 +89,7 @@
                         <p class="h5">
                             Memroses teks untuk memperoleh rekomendasi koreksi ({{ this.textProcessingProgress }}%)
                         </p>
-
+                        
                         <div class="progress">
                             <div :aria-valuenow="`${this.textProcessingProgress}%`"
                                  :style="{width: `${this.textProcessingProgress}%`}"
@@ -100,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div
                     v-if="Object.keys(this.tokenWithErrors).length > 0"
                     class="card-footer d-flex justify-content-end"
@@ -110,7 +112,7 @@
                     </button>
                 </div>
             </form>
-
+            
             <editor
                 ref="vue_editor"
                 v-model="dokumen.konten_html"
@@ -148,35 +150,35 @@ export default {
     components: {
         editor: editor
     },
-
+    
     props: {
         dataUrl: String,
         recommenderUrl: String,
         correctorUrl: String,
     },
-
+    
     mounted() {
         axios.get(this.dataUrl)
             .then(response => {
                 this.dokumen = response.data
             })
     },
-
+    
     data() {
         return {
             dokumen: null,
             tokenWithErrors: {},
             processableTextPieces: [],
-            processedTextPiecesCount: 0,
+            progressCount: 0,
             tokenWithErrorIndexCounter: 0,
         }
     },
-
+    
     computed: {
         textProcessingProgress() {
-            return Math.round(this.processedTextPiecesCount / this.processableTextPieces.length * 100)
+            return Math.round(this.progressCount / this.getChunkedTextPieces().length * 100)
         },
-
+        
         formData() {
             return {
                 corrections: Object.keys(this.tokenWithErrors)
@@ -197,22 +199,22 @@ export default {
             }
         }
     },
-
+    
     methods: {
         jumpIntoText(tokenIndex, positionIndex) {
             let body = this.$refs.vue_editor.editor.getBody()
             let element = body
                 .querySelector(`.has-spelling-error-${tokenIndex}-${positionIndex}`)
-
+            
             element.scrollIntoView(false)
-
+            
             for (const elem of body.querySelectorAll(".has-spelling-error")) {
                 elem.classList.remove("has-highlight")
             }
-
+            
             element.classList.add("has-highlight")
         },
-
+        
         onFormSubmit() {
             Swal.fire({
                 title: "Memroses Dokumen",
@@ -224,36 +226,36 @@ export default {
                 allowEscapeKey: false,
                 allowEnterKey: false
             })
-
+            
             axios.post(this.correctorUrl, this.formData)
                 .then(response => {
                     window.location.reload()
                 }).catch(error => {
-                    Swal.hideLoading()
-                    Swal.close()
-                    alert("Gagal merevisi dokumen.")
-                })
+                Swal.hideLoading()
+                Swal.close()
+                alert("Gagal merevisi dokumen.")
+            })
         },
-    
+        
         escapeRegExp(string) {
             return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
         },
-
+        
         markTokensThatHasSpellingErrorMultiple: function (tokenStrings) {
             const markerClass = "has-spelling-error"
             let editor = this.$refs.vue_editor.editor
             let editorBody = editor.getBody()
             let replacementList = []
-
+            
             let indexCounters = {}
             for (let tokenString of tokenStrings) {
                 indexCounters[tokenString] = 0
             }
-
+            
             this.walkNodeTree(editorBody, (node) => {
                 if (node.nodeType === Node.TEXT_NODE) {
                     let text = node.textContent
-
+                    
                     let matches = []
                     tokenStrings.forEach(tokenString => {
                         let regExp = RegExp(`(?<=[\\s,.:;"']|^)${this.escapeRegExp(tokenString)}(?=[\\s,.:;"']|$)`, "gmu")
@@ -264,49 +266,49 @@ export default {
                                 selectedRecommendation: this.tokenWithErrors[tokenString].recommendations[0],
                                 correction: null,
                             })
-
+                            
                             matches.push({
                                 regexMatchArray: regExpMatchArray,
                                 index: indexCounters[tokenString],
                                 tokenIndex: this.tokenWithErrors[tokenString].index
                             })
-
+                            
                             ++indexCounters[tokenString]
                         }
                     })
-
+                    
                     /* Sort matches by index */
                     matches = matches.sort((matchA, matchB) => matchA.regexMatchArray.index - matchB.regexMatchArray.index)
-
+                    
                     let prevTextPos = 0
                     let documentFragment = document.createDocumentFragment()
-
+                    
                     matches.forEach(match => {
                         documentFragment.appendChild(
                             document.createTextNode(text.slice(prevTextPos, match.regexMatchArray.index))
                         )
-
+                        
                         /* Spelling error */
                         let spellingErrorSpanNode = document.createElement('span')
                         spellingErrorSpanNode.appendChild(document.createTextNode(match.regexMatchArray[0]))
                         spellingErrorSpanNode.classList.add(`${markerClass}`)
                         spellingErrorSpanNode.classList.add(`${markerClass}-${match.tokenIndex}-${match.index}`)
                         documentFragment.appendChild(spellingErrorSpanNode)
-
+                        
                         prevTextPos = match.regexMatchArray.index + match.regexMatchArray[0].length
                     })
-
+                    
                     documentFragment.appendChild(
                         document.createTextNode(text.slice(prevTextPos))
                     )
-
+                    
                     replacementList.push({
                         original: node,
                         replacement: documentFragment,
                     })
                 }
             })
-
+            
             chunk(replacementList, 100)
                 .forEach(replacementListChunk => {
                     replacementListChunk.forEach(pair => {
@@ -317,31 +319,31 @@ export default {
                     })
                 })
         },
-
+        
         walkNodeTree(node, callback) {
             node.childNodes.forEach(childNode => {
                 callback(childNode)
                 this.walkNodeTree(childNode, callback)
             })
         },
-
+        
         getProcessableTextPieces: function (editor) {
             let text = "";
             let walker = new tinymce.dom.TreeWalker(editor.dom.getRoot());
-
+            
             do {
                 let node = walker.current()
                 if (node.nodeType === Node.TEXT_NODE) {
                     text += node.textContent
                 } else {
                     if ((node.nodeName === "P") || (node.nodeName === "BR"))
-                    text += ". "
+                        text += ". "
                 }
             } while (walker.next());
             
             const tokenizer = new SentenceTokenizer()
             tokenizer.setEntry(text)
-    
+            
             let sentences = tokenizer
                 .getSentences()
                 .map(sentence => sentence.replaceAll(/[!?.,()"']/gu, ' '))
@@ -351,45 +353,65 @@ export default {
             
             return sentences
         },
-
+        
         onEditorInit(e) {
             let editor = e.target
             this.processableTextPieces = this.getProcessableTextPieces(editor)
             this.fetchRecommendationsFromServer()
         },
-
+        
         getSpellingRecommendations(tokens) {
             return axios.post(this.recommenderUrl, {
                 tokens: tokens
             })
         },
-
-        async fetchRecommendationsFromServer() {
-            for (const textTokens of this.processableTextPieces) {
-                const tokens = textTokens
-                    .filter(token => !this.tokenWithErrors.hasOwnProperty(token.toLowerCase()))
-                    .filter(token => token.length > 0)
-
-                const recommendationData = await this.getSpellingRecommendations(tokens)
-
-                recommendationData.data.forEach(recommendationDatum => {
-                    if (this.tokenWithErrors.hasOwnProperty(recommendationDatum.token)) {
-                        return;
-                    }
-
-                    this.$set(this.tokenWithErrors, recommendationDatum.token, {
-                        index: this.tokenWithErrorIndexCounter++,
-                        positions: [],
-                        correction: null,
-                        selectedRecommendation: recommendationDatum.recommendations[0],
-                        recommendations: recommendationDatum.recommendations
-                    })
-                })
-                ++this.processedTextPiecesCount
-            }
-
-            this.markTokensThatHasSpellingErrorMultiple(Object.keys(this.tokenWithErrors))
+        
+        getChunkedTextPieces() {
+            return chunk(this.processableTextPieces, 10)
         },
+        
+        async fetchRecommendationsFromServer() {
+            let tokenChunks = this.getChunkedTextPieces()
+                .map(chunk => {
+                    return chunk.map(textTokens =>
+                        textTokens
+                            .filter(token => !this.tokenWithErrors.hasOwnProperty(token.toLowerCase()))
+                            .filter(token => token.length > 0)
+                    )
+                })
+            
+            for (let tokenChunk of tokenChunks) {
+                try {
+                    let results = await Promise.all(
+                        tokenChunk.map(tokens => this.getSpellingRecommendations(tokens))
+                    )
+    
+                    results.forEach(result => {
+                        result.data.forEach(recommendationDatum => {
+                            if (this.tokenWithErrors.hasOwnProperty(recommendationDatum.token)) {
+                                return;
+                            }
+            
+                            this.$set(this.tokenWithErrors, recommendationDatum.token, {
+                                index: this.tokenWithErrorIndexCounter++,
+                                positions: [],
+                                correction: null,
+                                selectedRecommendation: recommendationDatum.recommendations[0],
+                                recommendations: recommendationDatum.recommendations
+                            })
+                            
+                        })
+                    })
+                    
+                    this.progressCount++;
+    
+                } catch (e) {
+                    console.log(e)
+                }
+            }
+            
+            this.markTokensThatHasSpellingErrorMultiple(Object.keys(this.tokenWithErrors))
+        }
     }
 }
 </script>
