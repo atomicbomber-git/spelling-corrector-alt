@@ -3,7 +3,7 @@
 use App\Http\Controllers\FileWordController;
 use App\Http\Controllers\FileWordDownloadController;
 use App\Http\Controllers\FileWordKoreksiEjaanController;
-use App\Http\Controllers\MahasiswaController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\RekomendasiPembenaranController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -24,7 +24,7 @@ Auth::routes([
 ]);
 
 Route::redirect("/", "/login");
-Route::resource("mahasiswa", MahasiswaController::class);
+Route::resource("mahasiswa", UserController::class);
 Route::resource("file-word", FileWordController::class);
 Route::get("file-word/{file_word}/download", FileWordDownloadController::class)->name("file-word.download");
 Route::post("file-word/{file_word}/koreksi", FileWordKoreksiEjaanController::class)->name("file-word.koreksi-ejaan");

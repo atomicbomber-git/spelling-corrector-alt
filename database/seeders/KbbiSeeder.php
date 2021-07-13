@@ -30,6 +30,7 @@ class KbbiSeeder extends Seeder
 
         fclose($fileHandle);
 
-        Kata::query()->insertOrIgnore($wordList);
+        $count = Kata::query()->insertOrIgnore($wordList);
+        $this->command->info("Jumlah kata dari KBBI: " . number_format($count, 0, '.', ','));
     }
 }

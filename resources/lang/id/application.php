@@ -9,7 +9,7 @@ return [
     "download" => "Unduh",
     "number_symbol" => "#",
     "file_word" => "File Word",
-    "mahasiswa" => "Mahasiswa",
+    "mahasiswa" => "User",
     "word_list" => "Word List",
     "controls" => "Kendali",
     "title" => "Judul",

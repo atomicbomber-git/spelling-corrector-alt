@@ -8,7 +8,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
-class MahasiswaSeeder extends Seeder
+class MahasiswaUserSeeder extends Seeder
 {
     const PREFIX = "mahasiswa_";
     const COUNT = 20;
