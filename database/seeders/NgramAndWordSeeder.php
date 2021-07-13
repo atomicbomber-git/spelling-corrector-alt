@@ -21,80 +21,8 @@ class NgramAndWordSeeder extends Seeder
     {
         Kata::query()->forceDelete();
         FrekuensiNgram::query()->forceDelete();
-
         $this->loadKatas();
         $this->loadNgrams();
-    }
-
-    /**
-     * @param array $sentence_filenames
-     * @return ProgressBar
-     */
-    public function createProgressBar(array $sentence_filenames): ProgressBar
-    {
-        $progress_bar = $this->command->getOutput()->createProgressBar(count($sentence_filenames));
-        $progress_bar->setFormat("%current%/%max% [%bar%] %percent:3s%%\n%message%\n");
-        return $progress_bar;
-    }
-
-    function digit_ratio($text): float
-    {
-        $text_len = strlen($text);
-        return
-            ($text_len - strlen(preg_replace("/\d+/", "", $text)))
-            / $text_len;
-    }
-
-    /**
-     * @param array $ngram_frequencies
-     * @return array
-     */
-    public function getFlattenedNgramFrequencyValues(array $ngram_frequencies): array
-    {
-        $flattened_ngram_frekuensi_values = [];
-        foreach ($ngram_frequencies as $w1 => $gram_1_subs) {
-            foreach ($gram_1_subs as $w2 => $frekuensi) {
-                if (!isset(
-                    $this->dictionary[$w1],
-                    $this->dictionary[$w2],
-                )) {
-                    continue;
-                }
-
-                $flattened_ngram_frekuensi_values[] = [
-                    "gram_1" => $w1 != "" ? $w1 : null,
-                    "gram_2" => $w2 != "" ? $w2 : null,
-                    "frekuensi" => $frekuensi,
-                ];
-            }
-        }
-        return $flattened_ngram_frekuensi_values;
-    }
-
-    /**
-     * @param array $flattened_ngram_frekuensi_values
-     */
-    public function storeNgramFrequenciesToDatabase(array $flattened_ngram_frekuensi_values): void
-    {
-        $chunk_size = 2000;
-        $frekuensi_chunk_list = array_chunk($flattened_ngram_frekuensi_values, $chunk_size);
-        $database_load_progressbar = $this->createProgressBar($frekuensi_chunk_list);
-
-        foreach (array_chunk($flattened_ngram_frekuensi_values, $chunk_size) as $index => $frekuensi_chunks) {
-            $database_load_progressbar->setMessage(sprintf(
-                "Memasukkan data ke %d-%d.",
-                $index * $chunk_size + 1,
-                ($index + 1) * $chunk_size,
-            ));
-
-            FrekuensiNgram::query()->insert(
-                $frekuensi_chunks
-            );
-
-            $database_load_progressbar->advance();
-        }
-
-        $database_load_progressbar->finish();
     }
 
     public function loadKatas(): void
@@ -112,10 +40,13 @@ class NgramAndWordSeeder extends Seeder
             $this->dictionary[trim($line)] = true;
         }
 
+        $beforeInsertionCount = Kata::query()->count();
         Kata::query()->insert(
             array_map(fn($word) => ["isi" => $word], array_keys($this->dictionary))
         );
+        $insertedCount = Kata::query()->count() - $beforeInsertionCount;
 
+        $this->command->info("Jumlah kata dari words.txt yang dimasukkan: " . number_format($insertedCount, 0, ',', '.'));
         fclose($fileHandle);
     }
 
@@ -185,10 +116,76 @@ class NgramAndWordSeeder extends Seeder
             $this->dictionary[$word] = true;
         }
 
+        $beforeInsertionCount = Kata::query()->count();
         Kata::query()->insert(array_map(fn($extra_word) => ["isi" => $extra_word], array_keys($extra_words)));
+        $insertedCount = Kata::query()->count() - $beforeInsertionCount;
 
+        $this->command->info("Jumlah kata di lookup table dari teks jurnal yang dimasukkan: " . number_format($insertedCount, 0, ',', '.'));
         $file_loading_progress_bar->finish();
         $flattened_ngram_frekuensi_values = $this->getFlattenedNgramFrequencyValues($ngram_frequencies);
         $this->storeNgramFrequenciesToDatabase($flattened_ngram_frekuensi_values);
+    }
+
+    /**
+     * @param array $sentence_filenames
+     * @return ProgressBar
+     */
+    public function createProgressBar(array $sentence_filenames): ProgressBar
+    {
+        $progress_bar = $this->command->getOutput()->createProgressBar(count($sentence_filenames));
+        $progress_bar->setFormat("%current%/%max% [%bar%] %percent:3s%%\n%message%\n");
+        return $progress_bar;
+    }
+
+    /**
+     * @param array $ngram_frequencies
+     * @return array
+     */
+    public function getFlattenedNgramFrequencyValues(array $ngram_frequencies): array
+    {
+        $flattened_ngram_frekuensi_values = [];
+        foreach ($ngram_frequencies as $w1 => $gram_1_subs) {
+            foreach ($gram_1_subs as $w2 => $frekuensi) {
+                if (!isset(
+                    $this->dictionary[$w1],
+                    $this->dictionary[$w2],
+                )) {
+                    continue;
+                }
+
+                $flattened_ngram_frekuensi_values[] = [
+                    "gram_1" => $w1 != "" ? $w1 : null,
+                    "gram_2" => $w2 != "" ? $w2 : null,
+                    "frekuensi" => $frekuensi,
+                ];
+            }
+        }
+        return $flattened_ngram_frekuensi_values;
+    }
+
+    /**
+     * @param array $flattened_ngram_frekuensi_values
+     */
+    public function storeNgramFrequenciesToDatabase(array $flattened_ngram_frekuensi_values): void
+    {
+        $chunk_size = 2000;
+        $frekuensi_chunk_list = array_chunk($flattened_ngram_frekuensi_values, $chunk_size);
+        $database_load_progressbar = $this->createProgressBar($frekuensi_chunk_list);
+
+        foreach (array_chunk($flattened_ngram_frekuensi_values, $chunk_size) as $index => $frekuensi_chunks) {
+            $database_load_progressbar->setMessage(sprintf(
+                "Memasukkan data ke %d-%d.",
+                $index * $chunk_size + 1,
+                ($index + 1) * $chunk_size,
+            ));
+
+            FrekuensiNgram::query()->insert(
+                $frekuensi_chunks
+            );
+
+            $database_load_progressbar->advance();
+        }
+
+        $database_load_progressbar->finish();
     }
 }

@@ -6,7 +6,6 @@ namespace Database\Seeders;
 
 use App\Kata;
 use Illuminate\Database\Seeder;
-use Str;
 
 class ExtraCorpusSeeder extends Seeder
 {
@@ -33,12 +32,13 @@ class ExtraCorpusSeeder extends Seeder
             }
         }
 
+        $countBeforeInsertion = Kata::query()->count();
         foreach (array_chunk(array_keys($dictionary), 10_000) as $dictionary_chunk) {
-            $count = Kata::query()->insertOrIgnore(
+            Kata::query()->insertOrIgnore(
                 array_map(fn($word) => ["isi" => $word], $dictionary_chunk)
             );
-            
-            $this->command->line("Berhasil memasukkan {$count} kata...");
         }
+        $insertedCount = Kata::query()->count() - $countBeforeInsertion;
+        $this->command->info("Data yang dimasukkan dari teks berita online " . number_format($insertedCount, 0, ',', '.'));
     }
 }
