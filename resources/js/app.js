@@ -4,12 +4,12 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+require('./bootstrap')
 
 require('alpinejs')
 const Swal = require('sweetalert2')
 window.Swal = Swal
-window.Vue = require('vue');
+window.Vue = require('vue')
 
 /**
  * The following block of code may be used to automatically register your
@@ -46,7 +46,7 @@ window.confirmDialog = (attributes) => {
 }
 
 // Load TinyMCE WYSIWYG Editor
-require('tinymce');
+require('tinymce')
 
 // TinyMCE File Picker Callback
 window.file_picker_callback = require('./file_picker_callback')
